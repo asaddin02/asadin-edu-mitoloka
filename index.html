@@ -50,25 +50,26 @@
   <!-- Header / Navigation Root -->
   <div id="header-root"></div>
 
-  <!-- Dynamic Application Main Container -->
+  <!-- Dynamic Application Main Container. The static build pre-fills it with the page's content. -->
   <main id="app" role="main" tabindex="-1">
-    <div class="container" style="padding: 6rem 1.5rem; text-align: center;">
-      <div id="app-boot-loading" style="font-family: 'Cinzel', serif; font-size: 1.5rem; color: #c6aa76; letter-spacing: 0.15em;">
-        ✦ MEMBUKA GERBANG ARSIP KOSMIS... ✦
-      </div>
-      <div id="app-boot-error" hidden role="alert">
-        <h1>Arsip belum dapat dibuka.</h1>
-        <p>Periksa koneksi lalu coba lagi. / Check your connection and try again.</p>
-        <button type="button" class="btn btn-primary" onclick="location.reload()">Coba lagi / Try again</button>
-      </div>
-      <noscript>Aktifkan JavaScript untuk menjelajahi Mythics. / Enable JavaScript to explore Mythics.</noscript>
+    <div id="app-boot-loading" class="container" style="padding: 6rem 1.5rem; text-align: center; font-family: 'Cinzel', serif; font-size: 1.5rem; color: #c6aa76; letter-spacing: 0.15em;">
+      ✦ MEMBUKA GERBANG ARSIP KOSMIS... ✦
+      <noscript><p style="font-size: 1rem; letter-spacing: 0; font-family: inherit;">Aktifkan JavaScript untuk menjelajahi Mythics. / Enable JavaScript to explore Mythics.</p></noscript>
     </div>
   </main>
+  <!-- Shown only when the application script fails to load (see the script's onerror below). -->
+  <template id="app-boot-fallback">
+    <div id="app-boot-error" role="alert" class="container" style="padding: 6rem 1.5rem; text-align: center;">
+      <h1>Arsip belum dapat dibuka.</h1>
+      <p>Periksa koneksi lalu coba lagi. / Check your connection and try again.</p>
+      <button type="button" class="btn btn-primary" onclick="location.reload()">Coba lagi / Try again</button>
+    </div>
+  </template>
 
   <!-- Footer Root -->
   <div id="footer-root"></div>
 
   <!-- Application Script -->
-  <script type="module" src="/js/app.js" onerror="document.getElementById('app-boot-error').hidden=false;document.getElementById('app-boot-loading').hidden=true;"></script>
+  <script type="module" src="/js/app.js" onerror="document.getElementById('app-boot-loading')?.remove();document.getElementById('app').prepend(document.getElementById('app-boot-fallback').content.cloneNode(true));"></script>
 </body>
 </html>

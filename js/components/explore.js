@@ -15,7 +15,7 @@ export async function renderExploreView(container, initialParams = {}) {
       <div class="section-header">
         <span class="section-badge">THE LIVING BESTIARY</span>
         <h1 class="section-title">${t('explore.title')}</h1>
-        <p class="section-subtitle">${bi('Temukan legenda. Baca kekuatannya. Kenali apa yang bersembunyi di balik mitos.', 'Discover legends. Read their power. Uncover what lies behind the myth.')}</p><a class="text-link" href="#/scales">${bi('Panduan Power · Threat · Fear', 'Power · Threat · Fear guide')} ↗</a>
+        <p class="section-subtitle">${bi('Temukan legenda. Baca kekuatannya. Kenali apa yang bersembunyi di balik mitos.', 'Discover legends. Read their power. Uncover what lies behind the myth.')}</p><a class="text-link" href="/scales">${bi('Panduan Power · Threat · Fear', 'Power · Threat · Fear guide')} ↗</a>
       </div>
 
       <div class="library-overview" id="library-overview" aria-live="polite"></div>
@@ -174,7 +174,7 @@ export async function renderExploreView(container, initialParams = {}) {
     };
 
     const query = new URLSearchParams(Object.entries(params).filter(([k,v]) => k !== 'limit' && v && v !== 'all' && v !== 'default'));
-    history.replaceState(null, '', `#/explore?${query}`);
+    history.replaceState(null, '', `/explore?${query}`);
     container.querySelector('#explore-pagination-slot').innerHTML = '';
     grid.setAttribute('aria-busy', 'true');
     grid.innerHTML = `

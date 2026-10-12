@@ -10,16 +10,16 @@ export async function renderCulturesView(container) {
     if(!container.isConnected)return;
     const search=container.querySelector('#culture-search'), region=container.querySelector('#culture-region'), count=container.querySelector('.directory-count');
     [...new Set(cultures.map(c=>c.region).filter(Boolean))].sort().forEach(value=>region.add(new Option(value,value)));
-    const params=new URLSearchParams(location.hash.split('?')[1]||'');search.value=params.get('q')||'';region.value=params.get('region')||'';
+    const params=new URLSearchParams(location.search);search.value=params.get('q')||'';region.value=params.get('region')||'';
     const normalize=value=>String(value||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
     function render(save=false) {
       const query=normalize(search.value.trim());
       const matches=cultures.filter(c=>(!region.value||c.region===region.value)&&normalize(`${tr(c.name)} ${c.country} ${c.region}`).includes(query));
       count.textContent=`${matches.length} ${bi('tradisi','traditions')}`;
       slot.setAttribute('aria-busy','false');
-      slot.innerHTML=matches.length?matches.map(c=>`<article class="culture-card" data-culture="${esc(c.id)}"><div class="culture-card-header"><h2 class="culture-name">${esc(tr(c.name))}</h2><span class="culture-count-pill">${c.creature_count||0} ${bi('entri','entries')}</span></div><div class="directory-meta">${esc(c.region)} · ${esc(c.country)}</div><p class="culture-desc">${esc(tr(c.description))}</p><div class="directory-card-footer"><a href="#/culture/${encodeURIComponent(c.id)}">${bi('Kenali tradisinya','Meet the tradition')} ${icon('arrow',15)}</a><a href="#/explore?culture=${encodeURIComponent(c.id)}">${icon('search',14)} ${bi('Makhluk','Beings')}</a></div></article>`).join(''):`<div class="directory-empty"><p>${bi('Belum ada tradisi yang cocok dengan pencarianmu.','No traditions match your search.')}</p><button class="btn btn-secondary" id="culture-reset">${bi('Tampilkan semua','Show all')}</button></div>`;
+      slot.innerHTML=matches.length?matches.map(c=>`<article class="culture-card" data-culture="${esc(c.id)}"><div class="culture-card-header"><h2 class="culture-name">${esc(tr(c.name))}</h2><span class="culture-count-pill">${c.creature_count||0} ${bi('entri','entries')}</span></div><div class="directory-meta">${esc(c.region)} · ${esc(c.country)}</div><p class="culture-desc">${esc(tr(c.description))}</p><div class="directory-card-footer"><a href="/cultures/${encodeURIComponent(c.id)}">${bi('Kenali tradisinya','Meet the tradition')} ${icon('arrow',15)}</a><a href="/explore?culture=${encodeURIComponent(c.id)}">${icon('search',14)} ${bi('Makhluk','Beings')}</a></div></article>`).join(''):`<div class="directory-empty"><p>${bi('Belum ada tradisi yang cocok dengan pencarianmu.','No traditions match your search.')}</p><button class="btn btn-secondary" id="culture-reset">${bi('Tampilkan semua','Show all')}</button></div>`;
       slot.querySelector('#culture-reset')?.addEventListener('click',()=>{search.value='';region.value='';render(true);});
-      if(save){const next=new URLSearchParams();if(search.value.trim())next.set('q',search.value.trim());if(region.value)next.set('region',region.value);history.replaceState(null,'',`#/cultures${next.size?'?'+next:''}`);}
+      if(save){const next=new URLSearchParams();if(search.value.trim())next.set('q',search.value.trim());if(region.value)next.set('region',region.value);history.replaceState(null,'',`/cultures${next.size?'?'+next:''}`);}
     }
     search.oninput=()=>render(true);region.onchange=()=>render(true);render();
   } catch {

@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
  * Serves dist/ the way Cloudflare Pages does, for previews and the static-site browser test:
- * files as they are, directories as index.html, anything missing as 404.html with status 404.
+ * files as they are, directories as index.html, clean URLs as their .html file (/creature/garuda is
+ * creature/garuda.html, and the .html or trailing-slash form redirects to the clean URL), anything
+ * missing as 404.html with status 404 (the application shell, so unknown routes still boot the app).
  *   npm run build:site && npm run preview:static   (PORT, default 8096)
  */
 
@@ -41,15 +43,24 @@ async function file(path, root = DIST) {
 }
 
 createServer(async (req, res) => {
-  let path;
+  let url, path;
   try {
-    path = decodeURIComponent(new URL(req.url, 'http://local').pathname);
+    url = new URL(req.url, 'http://local');
+    path = decodeURIComponent(url.pathname);
   } catch {
     res.writeHead(400);
     return res.end();
   }
+  // Pages canonicalizes prerendered pages: /x.html and /x/ both redirect to /x.
+  const clean = path.replace(/\/index\.html$/, '/').replace(/\.html$/, '').replace(/(.)\/+$/, '$1');
+  if (clean !== path && !path.startsWith('/media/')) {
+    res.writeHead(301, { Location: clean + url.search });
+    return res.end();
+  }
   // The public build uses the same /media route backed by R2 in production.
-  const found = path.startsWith('/media/') ? await file(path.slice('/media/'.length), MEDIA) : await file(path);
+  const found = path.startsWith('/media/')
+    ? await file(path.slice('/media/'.length), MEDIA)
+    : (await file(path)) || (!extname(path) && path !== '/' ? await file(`${path}.html`) : null);
   const hit = found || (await file('404.html'));
   if (!hit) {
     res.writeHead(404);

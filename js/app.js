@@ -12,6 +12,7 @@ import { renderNavbar } from './components/navbar.js';
 import { renderHomeView } from './components/home-view.js';
 import { openRandomEncounterModal } from './components/random-encounter.js';
 import { adminEnabled } from './api-client.js';
+import { currentRoute, interceptLinks, navigate, upgradeLegacyHash } from './router.js';
 
 class App {
   constructor() {
@@ -35,8 +36,10 @@ class App {
     // 3. Render Persistent Chrome (Navbar & Footer)
     this.renderChrome();
 
-    // 4. Listen for route transitions and language changes
-    window.addEventListener('hashchange', () => this.handleRouting());
+    // 4. Listen for route transitions and language changes. Old "/…" links become real paths first.
+    upgradeLegacyHash();
+    interceptLinks();
+    window.addEventListener('popstate', () => this.handleRouting());
     window.addEventListener('mythics:lang-change', () => {
       this.renderChrome();
       this.handleRouting();
@@ -67,20 +70,20 @@ class App {
               <div>
                 <h4 class="footer-col-title">${t('footer.quickLinks')}</h4>
                 <ul class="footer-links">
-                  <li><a href="#/explore">${t('nav.explore')}</a></li>
-                  <li><a href="#/cultures">${t('nav.cultures')}</a></li><li><a href="#/scales">${bi('Panduan Kelas', 'Class Guide')}</a></li>
-                  <li><a href="#/compare">${t('nav.compare')}</a></li>
-                  <li><a href="#/journal">${t('nav.journal')}</a></li>
-                  ${adminEnabled ? `<li><a href="#/admin">${t('nav.admin')}</a></li>` : ''}
+                  <li><a href="/explore">${t('nav.explore')}</a></li>
+                  <li><a href="/cultures">${t('nav.cultures')}</a></li><li><a href="/scales">${bi('Panduan Kelas', 'Class Guide')}</a></li>
+                  <li><a href="/compare">${t('nav.compare')}</a></li>
+                  <li><a href="/journal">${t('nav.journal')}</a></li>
+                  ${adminEnabled ? `<li><a href="/admin">${t('nav.admin')}</a></li>` : ''}
                 </ul>
               </div>
 
               <div>
                 <h4 class="footer-col-title">${bi('Tentang arsip', 'About the archive')}</h4>
                 <ul class="footer-links">
-                  <li><a href="#/dukung">${bi('Dukung Mythics', 'Support Mythics')}</a></li>
-                  <li><a href="#/learn?module=reading">${t('footer.sourcesPolicy')}</a></li>
-                  <li><a href="#/learn?module=reading">${t('footer.licensing')}</a></li>
+                  <li><a href="/dukung">${bi('Dukung Mythics', 'Support Mythics')}</a></li>
+                  <li><a href="/learn?module=reading">${t('footer.sourcesPolicy')}</a></li>
+                  <li><a href="/learn?module=reading">${t('footer.licensing')}</a></li>
                   <li><span style="font-size: 0.85rem; color: var(--text-muted);">${bi('Tradisi · Konteks · Interpretasi', 'Tradition · Context · Interpretation')}</span></li>
                 </ul>
               </div>
@@ -103,16 +106,12 @@ class App {
     // A detached view cannot overwrite a newer route after an asynchronous fetch.
     const routeContainer = document.createElement('div');
     this.appContainer.replaceChildren(routeContainer);
-    const rawHash = window.location.hash.slice(1) || '/';
-    const [pathWithQuery] = rawHash.split('?');
-    const path = pathWithQuery.replace(/\/+$/, '') || '/';
-    const queryString = rawHash.includes('?') ? rawHash.split('?')[1] : '';
-    const params = Object.fromEntries(new URLSearchParams(queryString));
+    const { path, params } = currentRoute();
 
     // Update active navbar links
     document.querySelectorAll('.nav-link').forEach(link => {
       const routeAttr = link.getAttribute('data-route');
-      const href = link.getAttribute('href')?.replace('#/', '');
+      const href = link.getAttribute('href')?.replace(/^\//, '');
       const section = path.replace(/^\//, '').split('/')[0];
       const currentSection = ({creature:'explore',culture:'cultures',region:'regions'})[section] || section;
       const active = routeAttr === currentSection || href === currentSection;
@@ -124,7 +123,7 @@ class App {
     // Check actions (e.g. random)
     if (path === '/random') {
       openRandomEncounterModal();
-      window.location.hash = '#/';
+      navigate('/', { replace: true });
       return;
     }
 
@@ -179,8 +178,8 @@ class App {
       return;
     }
 
-    // Culture Detail Route: /culture/:id
-    const cultureMatch = path.match(/^\/culture\/([a-zA-Z0-9_-]+)$/);
+    // Culture Detail Route: /cultures/:id (and the older /culture/:id)
+    const cultureMatch = path.match(/^\/cultures?\/([a-zA-Z0-9_-]+)$/);
     if (cultureMatch) {
       const cultureId = cultureMatch[1];
       const { renderCultureDetailView } = await import('./components/culture-detail-view.js');
@@ -199,8 +198,8 @@ class App {
       return;
     }
 
-    // Region Detail Route: /region/:id
-    const regionMatch = path.match(/^\/region\/([a-zA-Z0-9_-]+)$/);
+    // Region Detail Route: /regions/:id (and the older /region/:id)
+    const regionMatch = path.match(/^\/regions?\/([a-zA-Z0-9_-]+)$/);
     if (regionMatch) {
       const regId = regionMatch[1];
       const { renderExploreView } = await import('./components/explore.js');

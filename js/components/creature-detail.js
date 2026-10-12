@@ -80,14 +80,14 @@ export async function renderCreatureDetail(container, slug) {
     container.innerHTML = `
       <div class="detail-view">
         <div class="container">
-          <nav class="detail-breadcrumb" aria-label="Breadcrumb"><a href="#/explore">${bi('Bestiary','Bestiary')}</a><span>/</span><a href="#/culture/${creature.culture}">${escapeHtml((creature.culture || '').replace(/-/g, ' '))}</a><span>/</span><span aria-current="page">${escapeHtml(displayName)}</span></nav>
+          <nav class="detail-breadcrumb" aria-label="Breadcrumb"><a href="/explore">${bi('Bestiary','Bestiary')}</a><span>/</span><a href="/cultures/${creature.culture}">${escapeHtml((creature.culture || '').replace(/-/g, ' '))}</a><span>/</span><span aria-current="page">${escapeHtml(displayName)}</span></nav>
           <header class="detail-hero-grid">
             <div class="detail-header-content">
               <div class="detail-overline"><span class="fine-line"></span>${escapeHtml(creature.country || creature.region)} · ${escapeHtml(creature.classification)}</div>
               <h1 class="detail-canonical-name">${escapeHtml(displayName)}</h1>
               ${creature.original_name ? `<p class="detail-original-script">${escapeHtml(creature.original_name)}</p>` : ''}
               <p class="detail-short-summary">${escapeHtml(shortDesc)}</p>
-              <div class="detail-classification-heading"><span>${bi('TIGA DIMENSI LEGENDA','THREE DIMENSIONS OF LEGEND')}</span><a href="#/scales">${bi('Panduan kelas','Class guide')} ↗</a></div>
+              <div class="detail-classification-heading"><span>${bi('TIGA DIMENSI LEGENDA','THREE DIMENSIONS OF LEGEND')}</span><a href="/scales">${bi('Panduan kelas','Class guide')} ↗</a></div>
               ${renderScaleBadges(creature, true)}
               <dl class="detail-facts">
                 <div><dt>${bi('Tradisi','Tradition')}</dt><dd>${escapeHtml((creature.culture || '').replace(/-/g, ' '))}</dd></div>
@@ -95,7 +95,7 @@ export async function renderCreatureDetail(container, slug) {
                 <div><dt>${bi('Elemen','Element')}</dt><dd>${escapeHtml(creature.element || '—')}</dd></div>
                 <div><dt>${bi('Periode','Period')}</dt><dd>${escapeHtml(creature.era || bi('Tradisi lintas zaman','A tradition across time'))}</dd></div>
               </dl>
-              <div class="detail-header-actions"><button class="btn btn-primary" data-scroll="detail-lore">${bi('Baca kisahnya','Read the story')} ${icon('arrow',17)}</button><button class="detail-save" id="btn-toggle-favorite" aria-pressed="${isFav}"><span id="fav-icon">${isFav ? '★' : '☆'}</span><span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span></button><a class="detail-compare-link" href="#/compare?a=${creature.slug}">${t('nav.compare')} ↗</a></div>
+              <div class="detail-header-actions"><button class="btn btn-primary" data-scroll="detail-lore">${bi('Baca kisahnya','Read the story')} ${icon('arrow',17)}</button><button class="detail-save" id="btn-toggle-favorite" aria-pressed="${isFav}"><span id="fav-icon">${isFav ? '★' : '☆'}</span><span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span></button><a class="detail-compare-link" href="/compare?a=${creature.slug}">${t('nav.compare')} ↗</a></div>
             </div>
             <figure class="detail-illustration">
               <div class="detail-art-stage power-${profile.power || 'unknown'}"><button type="button" class="detail-preview image-preview-trigger" ${previewAttributes(artData)}><img src="${escapeHtml(imgUrl)}" alt="${escapeHtml(displayName)}" class="detail-primary-img" decoding="async" onerror="this.onerror=null;this.src='/assets/placeholders/creature-fallback.svg';"><span class="detail-zoom-mark">${icon('zoom',20)}<span>${bi('Perbesar','Zoom')}</span></span></button>${renderGildedFrame(profile.power)}</div>
@@ -192,7 +192,7 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           ` : ''}
 
-          <section class="detail-section-block" data-topic="culture" id="detail-study"><div class="study-notes"><div><span class="eyebrow">${bi('CATATAN PEMBACA','READER’S NOTES')}</span><h3>${bi('Membaca dengan konteks','Read with context')}</h3><p>${resolveLocalized(creature.learning_notes?.context, bi('Baca rincian kisah bersama tempat, masa, dan sumber yang mencatatnya. Variasi antarpenutur tidak selalu merupakan pertentangan.','Read story details with their place, period, and source. Differences between narrators are not necessarily contradictions.'))}</p><a class="text-link" href="#/learn?module=reading">${bi('Panduan membaca sumber','A guide to reading sources')} →</a></div><div><h3>${bi('Pertanyaan untuk ditelusuri','Questions to explore')}</h3><ul>${(creature.learning_notes?.questions || [{id:'Bagian mana yang berasal dari tradisi, dan mana yang merupakan interpretasi modern?',en:'Which details come from tradition, and which are modern interpretations?'}]).map(q=>`<li>${resolveLocalized(q)}</li>`).join('')}</ul><p style="margin-top:14px;font-size:11px">${bi('Pertanyaan reflektif editorial; bukan tambahan klaim sejarah.','Editorial reflection prompts; not additional historical claims.')}</p></div></div></section>
+          <section class="detail-section-block" data-topic="culture" id="detail-study"><div class="study-notes"><div><span class="eyebrow">${bi('CATATAN PEMBACA','READER’S NOTES')}</span><h3>${bi('Membaca dengan konteks','Read with context')}</h3><p>${resolveLocalized(creature.learning_notes?.context, bi('Baca rincian kisah bersama tempat, masa, dan sumber yang mencatatnya. Variasi antarpenutur tidak selalu merupakan pertentangan.','Read story details with their place, period, and source. Differences between narrators are not necessarily contradictions.'))}</p><a class="text-link" href="/learn?module=reading">${bi('Panduan membaca sumber','A guide to reading sources')} →</a></div><div><h3>${bi('Pertanyaan untuk ditelusuri','Questions to explore')}</h3><ul>${(creature.learning_notes?.questions || [{id:'Bagian mana yang berasal dari tradisi, dan mana yang merupakan interpretasi modern?',en:'Which details come from tradition, and which are modern interpretations?'}]).map(q=>`<li>${resolveLocalized(q)}</li>`).join('')}</ul><p style="margin-top:14px;font-size:11px">${bi('Pertanyaan reflektif editorial; bukan tambahan klaim sejarah.','Editorial reflection prompts; not additional historical claims.')}</p></div></div></section>
           <!-- Cultural Context & Sacred Nuance Block -->
           ${culturalContext ? `
             <div class="detail-section-block" data-topic="culture">
@@ -585,7 +585,7 @@ export async function renderCreatureDetail(container, slug) {
         <p style="color: var(--text-secondary); margin-bottom: 2rem;">
           Entitas dengan identitas "${slug}" belum tercatat atau telah dipindahkan.
         </p>
-        <a href="#/explore" class="btn btn-primary">Kembali ke Penjelajahan</a>
+        <a href="/explore" class="btn btn-primary">Kembali ke Penjelajahan</a>
       </div>
     `;
   }

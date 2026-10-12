@@ -175,3 +175,22 @@ button, input, select, textarea {
   margin-right: auto;
   color: var(--text-secondary);
 }
+
+/* Prerendered page content (scripts/prerender.mjs): readable before the app boots and without JavaScript. */
+.prerender { padding: 3rem 1.5rem 4rem; max-width: 72rem; line-height: 1.65; }
+.prerender h1 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); color: var(--gold-500); margin: 0 0 0.5rem; }
+.prerender h1 span[lang] { display: block; font-size: 0.5em; color: var(--text-muted); letter-spacing: 0.08em; margin-top: 0.35rem; }
+.prerender h2 { font-family: var(--font-display); font-size: 1.35rem; margin: 2rem 0 0.75rem; color: var(--gold-500); }
+.prerender h3 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; }
+.prerender nav[aria-label="Breadcrumb"] { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; }
+.prerender [lang="en"] { color: var(--text-muted); }
+.prerender figure { margin: 1.5rem 0; }
+.prerender figure img { max-width: min(100%, 28rem); height: auto; border-radius: 0.75rem; display: block; }
+.prerender figcaption { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; }
+.prerender dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1.25rem; }
+.prerender dt { color: var(--text-muted); }
+.prerender dd { margin: 0; }
+.prerender ul, .prerender ol { padding-left: 1.25rem; }
+.prerender li { margin: 0.3rem 0; }
+.prerender a { color: var(--gold-500); text-decoration: underline; text-underline-offset: 0.15em; }
+.prerender-original { color: var(--text-muted); font-style: italic; margin: 0; }

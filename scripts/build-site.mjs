@@ -3,8 +3,10 @@
  * Assembles dist/ for static hosting (Cloudflare Pages, Netlify, GitHub Pages):
  * the application plus the read-only API as pre-built JSON files under dist/api/, produced by the same
  * query engine the Node server uses (js/query-engine.js). In the browser, js/api-client.js reads these files
- * and runs search, filters, pagination and random encounters itself. The editorial console needs the Node
- * server (npm run dev) and is not part of the static site.
+ * and runs search, filters, pagination and random encounters itself. Every public route is also written as a
+ * prerendered HTML page (scripts/prerender.mjs: dist/creature/garuda.html → /creature/garuda) with its own
+ * metadata and readable content, listed in sitemap.xml, so search engines index the library without running
+ * the app. The editorial console needs the Node server (npm run dev) and is not part of the static site.
  *
  *   npm run build:site
  *   SITE_URL=https://mythics.example npm run build:site   absolute link-preview and canonical URLs
@@ -22,6 +24,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as engine from '../js/query-engine.js';
 import { publishedCreatures } from './publish/research-record.mjs';
+import { buildPages, fileFor, renderPage } from './prerender.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dist = join(root, 'dist');
@@ -179,20 +182,25 @@ html = html.replace(
   marker,
   `${marker}\n  <meta name="mythics-data" content="static">\n  <meta name="mythics-admin" content="off">`
 );
-html = siteURL
-  ? html
-      .replace(ogURL, `<meta property="og:url" content="${siteURL}/">\n  <link rel="canonical" href="${siteURL}/">`)
-      .replaceAll('content="/assets/logo.png"', `content="${siteURL}/assets/logo.png"`)
-  : html.replace(`  ${ogURL}\n`, '');
+if (siteURL) html = html.replaceAll('content="/assets/logo.png"', `content="${siteURL}/assets/logo.png"`);
 // Google Search Console ownership: GOOGLE_SITE_VERIFICATION is the content of its meta tag (or the whole tag).
 const verificationInput = (process.env.GOOGLE_SITE_VERIFICATION || '').trim();
 const verification = verificationInput.match(/content="([^"]*)"/)?.[1] ?? verificationInput;
 if (verificationInput && !/^[\w-]{20,100}$/.test(verification))
   throw new Error('GOOGLE_SITE_VERIFICATION must be the content of the google-site-verification meta tag');
 if (verification) html = html.replace('</head>', `  <meta name="google-site-verification" content="${verification}">\n</head>`);
-await writeFile(join(dist, 'index.html'), html);
-// Unknown paths answer 404 (so a missing /api/… file is an error, not the page) but still open the app.
-await writeFile(join(dist, '404.html'), html);
+
+// One prerendered page per public route: the shell with page metadata and the page's content in <main>.
+const today = new Date().toISOString().slice(0, 10);
+const pages = buildPages({ data, siteURL, editorialArt, getCreatureBySlug: engine.getCreatureBySlug, today });
+for (const page of pages) {
+  const full = join(dist, fileFor(page.route));
+  await mkdir(dirname(full), { recursive: true });
+  await writeFile(full, renderPage(html, page, siteURL));
+}
+// Unknown paths answer 404 (so a missing /api/… file is an error, not the page) but still open the app;
+// the empty shell itself must not be indexed.
+await writeFile(join(dist, '404.html'), html.replace(`  ${ogURL}\n`, '').replace('</head>', '  <meta name="robots" content="noindex">\n</head>'));
 
 await writeFile(
   join(dist, '_headers'),
@@ -200,15 +208,18 @@ await writeFile(
     .map(([name, value]) => `  ${name}: ${value}`)
     .join('\n')}\n/api/*\n  Cache-Control: public, max-age=300\n/css/*\n  Cache-Control: no-cache\n/js/*\n  Cache-Control: no-cache\n/assets/ornaments/*\n  Cache-Control: no-cache\n${mediaBase ? `${mediaBase}/*\n  Cache-Control: public, max-age=86400\n` : ''}`
 );
-await writeFile(
-  join(dist, 'robots.txt'),
-  `User-agent: *\nAllow: /\n# The JSON API is for the app, not for search engines.\nDisallow: /api/\n${siteURL ? `\nSitemap: ${siteURL}/sitemap.xml\n` : ''}`
-);
-if (siteURL)
+// The JSON under /api/ is static data the rendered app reads, so crawlers may fetch it; it carries no quota.
+await writeFile(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n${siteURL ? `\nSitemap: ${siteURL}/sitemap.xml\n` : ''}`);
+if (siteURL) {
+  const urls = pages.filter(p => !p.noindex);
+  if (urls.length > 50000) throw new Error(`sitemap.xml would list ${urls.length} URLs; the limit is 50,000 per file.`);
   await writeFile(
     join(dist, 'sitemap.xml'),
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${siteURL}/</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod></url>\n</urlset>\n`
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
+      .map(p => `  <url><loc>${siteURL}${p.route === '/' ? '/' : p.route}</loc><lastmod>${p.lastmod}</lastmod></url>`)
+      .join('\n')}\n</urlset>\n`
   );
+}
 
 async function size(dir) {
   let count = 0;
@@ -235,5 +246,5 @@ const total = await size(dist);
 if (total.count > 20000) throw new Error(`dist/ has ${total.count} files; Cloudflare Pages allows 20,000.`);
 if (total.largest > 25 * 1024 * 1024) throw new Error('A file in dist/ exceeds the 25 MiB Cloudflare Pages limit.');
 console.log(
-  `dist/: ${total.count} files (${files} API files), ${(total.bytes / 1048576).toFixed(1)} MB, largest ${(total.largest / 1048576).toFixed(1)} MB${siteURL ? `, link previews for ${siteURL}` : ''}.`
+  `dist/: ${total.count} files (${files} API files, ${pages.length} prerendered pages), ${(total.bytes / 1048576).toFixed(1)} MB, largest ${(total.largest / 1048576).toFixed(1)} MB${siteURL ? `, link previews for ${siteURL}` : ''}.`
 );

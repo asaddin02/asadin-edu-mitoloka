@@ -4,7 +4,7 @@
  */
 
 import assert from 'node:assert/strict';
-import { readFile, stat } from 'node:fs/promises';
+import { readdir, readFile, stat } from 'node:fs/promises';
 import * as engine from '../js/query-engine.js';
 import {
   initDb,
@@ -81,8 +81,37 @@ const html = await readFile(new URL('index.html', dist), 'utf8');
 assert.match(html, /<meta name="mythics-data" content="static">/);
 assert.match(html, /<meta name="mythics-admin" content="off">/);
 assert.doesNotMatch(html, /mythics\.org/, 'no link previews for a domain this project does not own');
-assert.equal(await readFile(new URL('404.html', dist), 'utf8'), html);
+// 404.html is the bare shell (unknown paths still boot the app) and must not be indexed.
+const notFound = await readFile(new URL('404.html', dist), 'utf8');
+assert.match(notFound, /<meta name="robots" content="noindex">/);
+assert.match(notFound, /id="app-boot-loading"/);
+assert.doesNotMatch(notFound, /class="prerender/);
+assert.doesNotMatch(html, /name="robots"/, 'the home page is indexable');
+// Every public route is prerendered: readable content and crawlable links without JavaScript.
+assert.match(html, /<main id="app"[^>]*>\s*<article class="prerender/);
+assert.match(html, /href="\/cultures\/indonesian-folklore"/);
+assert.match(html, /href="\/creature\/garuda"/);
+assert.doesNotMatch(html, /Arsip belum dapat dibuka\.<\/h1>(?![\s\S]*<\/template>)/, 'the error text only lives in a template');
+assert.doesNotMatch(html, /href="#\//, 'no hash routes remain');
+const garuda = await readFile(new URL('creature/garuda.html', dist), 'utf8');
+const record = getCreatureBySlug('garuda');
+assert.match(garuda, new RegExp(`<title>${record.canonical_name}[^<]*</title>`));
+assert.match(garuda, /<meta property="og:type" content="article">/);
+assert.ok(garuda.includes(`<h1>${record.canonical_name}`), 'creature page has its name as h1');
+assert.ok(garuda.includes(record.short_description.id.replace(/&/g, '&amp;')), 'creature page carries the Indonesian summary');
+assert.ok(garuda.includes(`<p lang="en">${record.short_description.en.replace(/&/g, '&amp;')}</p>`), 'and the English one');
+assert.match(garuda, new RegExp(`href="/cultures/${record.culture}"`));
+assert.match(garuda, /"@type":"Article"/);
+assert.match(garuda, /"@type":"BreadcrumbList"/);
+for (const culture of library.cultures.slice(0, 5)) await stat(new URL(`cultures/${culture.id}.html`, dist));
+for (const region of library.regions) await stat(new URL(`regions/${region.id}.html`, dist));
+for (const route of ['explore', 'cultures', 'regions', 'compare', 'scales', 'learn', 'journal', 'dukung']) assert.match(await readFile(new URL(`${route}.html`, dist), 'utf8'), /class="prerender/);
+const pages = (await readdir(new URL('creature/', dist))).filter(f => f.endsWith('.html'));
+assert.equal(pages.length, library.creatures.filter(c => c.status === 'published').length, 'one page per published creature');
+const robots = await readFile(new URL('robots.txt', dist), 'utf8');
+assert.doesNotMatch(robots, /Disallow: \/api/, 'the static JSON must stay fetchable for the renderer');
+assert.match(robots, /Allow: \//);
 assert.match(await readFile(new URL('_headers', dist), 'utf8'), /Content-Security-Policy/);
 for (const path of ['api/admin', 'server', 'scripts', 'data', 'package.json'])
   await assert.rejects(stat(new URL(path, dist)), `dist/ must not contain ${path}`);
-console.log(`  ✓ ${cases.length} query cases and every API file match the server`);
+console.log(`  ✓ ${cases.length} query cases and every API file match the server; ${pages.length} prerendered creature pages`);

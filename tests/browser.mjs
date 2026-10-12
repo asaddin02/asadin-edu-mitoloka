@@ -53,7 +53,7 @@ try {
     }
   };
   const go = async (route) => {
-    await page.goto(`${base}/#/${route}`);
+    await page.goto(`${base}/${route}`);
     await waitForBoot();
   };
   const reload = async () => { await page.reload(); await waitForBoot(); };
@@ -78,7 +78,7 @@ try {
   assert.equal(await page.locator('.gateway').getAttribute('data-legend'), 'garuda', 'Each legend remains visible for twelve seconds');
   await page.clock.fastForward(1100);
   await page.waitForFunction(() => document.querySelector('.gateway').dataset.legend === 'kitsune');
-  assert.equal(await page.locator('.royal-scene-link').getAttribute('href'), '#/creature/kitsune');
+  assert.equal(await page.locator('.royal-scene-link').getAttribute('href'), '/creature/kitsune');
   // Hovering a scene pauses it while the visitor reads or chooses a link.
   await page.locator('.royal-hero-copy h1').hover();
   await page.clock.fastForward(13000);
@@ -103,7 +103,7 @@ try {
     await page.locator(`[data-hero="${slug}"]`).click();
     await page.waitForFunction(slug => document.querySelector('.gateway')?.dataset.legend === slug, slug);
     assert((await page.locator('.gateway').getAttribute('class')).includes(`power-${power}`));
-    assert.equal(await page.locator('.gateway-art').getAttribute('href'), `#/creature/${slug}`);
+    assert.equal(await page.locator('.gateway-art').getAttribute('href'), `/creature/${slug}`);
     assert.equal(await page.locator(`[data-hero="${slug}"]`).getAttribute('aria-pressed'), 'true');
     assert.equal(await page.evaluate(() => document.activeElement.dataset.hero), slug);
     await page.locator('.royal-slide.is-active .hero-art').evaluate(img => img.decode());
@@ -119,7 +119,7 @@ try {
   await page.evaluate(() => { window.departedHero = document.querySelector('.gateway'); });
   await page.locator('.featured-grid [data-slug="kitsune"] .card-media').click();
   await page.locator('.detail-preview').waitFor();
-  assert.equal(new URL(page.url()).hash, '#/creature/kitsune');
+  assert.equal(new URL(page.url()).pathname, '/creature/kitsune');
   await page.clock.fastForward(13000);
   assert.equal(await page.evaluate(() => window.departedHero.dataset.legend), 'garuda', 'Leaving home must cancel the old slideshow');
   assert.equal(await page.locator('.art-viewer[open]').count(), 0);
@@ -129,7 +129,7 @@ try {
   await artworkButton.click();
   await page.locator('.viewer-image.is-loaded').waitFor();
   assert.equal(await page.locator('.art-viewer[open]').count(), 1);
-  assert.equal(new URL(page.url()).hash, '#/creature/kitsune');
+  assert.equal(new URL(page.url()).pathname, '/creature/kitsune');
   await page.locator('[data-zoom="in"]').click();
   assert.equal(await page.locator('.viewer-zoom output').innerText(), '150%');
   const stageBox = await page.locator('.viewer-stage').boundingBox();
@@ -213,19 +213,19 @@ try {
   await page.locator('#compare-search-b').fill('jorm');
   assert.equal(await page.locator('#compare-select-b option').count(), 1);
   await page.locator('#btn-run-compare').click();
-  await page.waitForFunction(()=>location.hash.includes('b=jormungandr'));
+  await page.waitForFunction(()=>location.search.includes('b=jormungandr'));
   assert.match(await page.locator('[data-axis="power"]').innerText(), /Cosmic/);
   await reload();
   await page.locator('.compare-matrix-table').waitFor();
   assert.equal(await page.locator('#compare-select-b').inputValue(), 'jormungandr');
   await page.locator('#compare-swap').click();
-  await page.waitForFunction(()=>location.hash.includes('a=jormungandr') && location.hash.includes('b=kitsune'));
+  await page.waitForFunction(()=>location.search.includes('a=jormungandr') && location.search.includes('b=kitsune'));
   assert.equal(await page.locator('#compare-select-a').inputValue(), 'jormungandr');
   await reload();
   await page.locator('.compare-matrix-table').waitFor();
   assert.equal(await page.locator('#compare-select-b').inputValue(), 'kitsune');
   await page.locator('#compare-select-a').selectOption('kitsune');
-  await page.waitForFunction(()=>location.hash.includes('a=kitsune') && location.hash.includes('b=kitsune'));
+  await page.waitForFunction(()=>location.search.includes('a=kitsune') && location.search.includes('b=kitsune'));
   await reload();
   await page.locator('.compare-matrix-table').waitFor();
   assert.equal(await page.locator('#compare-select-a').inputValue(), 'kitsune');
@@ -235,11 +235,11 @@ try {
   assert(await page.locator('#btn-run-compare').isDisabled());
   await page.locator('#compare-search-a').fill('garuda');
   await page.locator('#btn-run-compare').click();
-  await page.waitForFunction(()=>location.hash.includes('a=garuda'));
+  await page.waitForFunction(()=>location.search.includes('a=garuda'));
   assert.equal(await page.locator('.compare-header-row [data-preview-src]').count(), 0);
   await page.locator('.compare-header-row [data-slug="garuda"] .card-media').click();
   await page.locator('.detail-preview').waitFor();
-  assert.equal(new URL(page.url()).hash, '#/creature/garuda');
+  assert.equal(new URL(page.url()).pathname, '/creature/garuda');
   // Recovery after a failed comparison fetch, on both hosting modes.
   const comparisonPath = STATIC ? '**/api/creatures/medusa.json' : '**/api/compare?a=medusa&b=fenrir';
   await page.route(comparisonPath, route=>route.abort());
@@ -258,7 +258,7 @@ try {
   assert.equal(await page.locator('#explore-creature-grid [data-preview-src]').count(), 0);
   await page.locator('#explore-creature-grid [data-slug="kitsune"] .card-media').click();
   await page.locator('.detail-preview').waitFor();
-  assert.equal(new URL(page.url()).hash, '#/creature/kitsune');
+  assert.equal(new URL(page.url()).pathname, '/creature/kitsune');
   await go('explore?q=kitsune');
   await page.locator('#explore-creature-grid [data-slug="kitsune"]').waitFor();
   assert(
@@ -275,7 +275,7 @@ try {
   await page.locator('#explore-pagination-slot [data-page="2"]').click();
   await page.waitForFunction(
     () =>
-      location.hash.includes("page=2") &&
+      location.search.includes("page=2") &&
       document
         .querySelector("#explore-creature-grid")
         ?.getAttribute("aria-busy") === "false",
@@ -350,10 +350,10 @@ try {
   assert(await page.locator('.tier-preview .frame-art').evaluateAll(frames => frames.every(frame => getComputedStyle(frame).borderTopWidth === '1px')), 'Every tier uses a fine one-pixel frame');
   assert.equal(await page.locator('.frame-art img').count(), 0, 'Frames need no raster overlays');
   assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some(r => r.name.includes('/assets/frames/'))), false, 'The guide does not download ornamental frame images');
-  await page.locator('.scale-axis-nav a[href="#/scales?axis=threat"]').click();
+  await page.locator('.scale-axis-nav a[href="/scales?axis=threat"]').click();
   await page.locator('.scale-axis-nav a[aria-current="page"][href$="threat"]').waitFor();
   assert.equal(await page.locator('.scale-level').count(), 7);
-  await page.locator('.scale-axis-nav a[href="#/scales?axis=fear"]').click();
+  await page.locator('.scale-axis-nav a[href="/scales?axis=fear"]').click();
   await page.locator('.scale-axis-nav a[aria-current="page"][href$="fear"]').waitFor();
   assert.equal(await page.locator('.scale-level').count(), 6);
   await page.locator('#lang-toggle-btn').click();
@@ -470,7 +470,7 @@ try {
   assert.equal(await page.locator('.filter-disclosure').evaluate(el=>el.open),false);
   await page.locator('.filter-disclosure summary').click();
   await page.locator('#filter-culture').selectOption('indonesian-folklore');
-  await page.waitForFunction(()=>location.hash.includes('culture=indonesian-folklore')&&document.querySelector('#explore-creature-grid').getAttribute('aria-busy')==='false');
+  await page.waitForFunction(()=>location.search.includes('culture=indonesian-folklore')&&document.querySelector('#explore-creature-grid').getAttribute('aria-busy')==='false');
   await reload();
   await page.locator('#explore-creature-grid .creature-card').first().waitFor();
   assert(await page.locator('.filter-disclosure').evaluate(el=>el.open));
@@ -580,19 +580,19 @@ try {
     );
   }
   // Visitors never see the editorial console: it needs the local server started with MYTHICS_ADMIN=1.
-  assert.equal(await page.locator('a[href="#/admin"]').count(), 0);
+  assert.equal(await page.locator('a[href="/admin"]').count(), 0);
   // A debounced search from a detached view cannot hijack later navigation.
   await go('explore');
   await page.locator('#explore-creature-grid .creature-card').first().waitFor();
   await page.locator('#explore-search-input').fill('pending search');
-  await page.evaluate(()=>{location.hash='#/scales';});
+  await page.evaluate(()=>{history.pushState(null,'','/scales');dispatchEvent(new PopStateEvent('popstate'));});
   await page.locator('.scale-level').first().waitFor();
   await page.waitForTimeout(400);
-  assert.equal(new URL(page.url()).hash, '#/scales');
+  assert.equal(new URL(page.url()).pathname, '/scales');
   // Filters recover after a failed request without discarding the search.
   const archivePath = STATIC ? '**/api/catalog.json' : '**/api/creatures?**';
   await page.route(archivePath, route=>route.abort());
-  await page.goto(`${base}/#/explore?q=garuda`);
+  await page.goto(`${base}/explore?q=garuda`);
   await reload();
   await page.locator('#explore-retry').waitFor();
   await page.unroute(archivePath);
@@ -629,16 +629,16 @@ try {
   await page.locator('#random-inspect-btn').waitFor({state:'visible'});
   await page.locator('#random-inspect-btn').click();
   await page.locator('#btn-toggle-favorite').waitFor();
-  assert.match(new URL(page.url()).hash, /^#\/creature\//);
+  assert.match(new URL(page.url()).pathname, /^\/creature\//);
   assert.equal(await page.evaluate(()=>document.body.style.overflow), '');
   // A late module import must boot even when DOMContentLoaded has already fired.
   const latePage = await browser.newPage();
-  await latePage.route(`${base}/`, async route => {
+  await latePage.route(`${base}/compare*`, async route => {
     const response = await route.fetch();
     const body = (await response.text()).replace(/<script\b[^>]*src="\/js\/app\.js"[^>]*><\/script>/, '');
     await route.fulfill({response,body});
   });
-  await latePage.goto(`${base}/#/compare?a=kitsune&b=garuda`);
+  await latePage.goto(`${base}/compare?a=kitsune&b=garuda`);
   assert.equal(await latePage.evaluate(()=>document.readyState), 'complete');
   await latePage.evaluate(()=>import('/js/app.js'));
   await latePage.locator('.compare-matrix-table').waitFor();
@@ -647,13 +647,39 @@ try {
   // Interrupted module downloads offer a working recovery action.
   const bootPage = await browser.newPage();
   await bootPage.route('**/js/app.js', route=>route.abort());
-  await bootPage.goto(`${base}/#/compare?a=garuda&b=kitsune`);
+  await bootPage.goto(`${base}/compare?a=garuda&b=kitsune`);
   await bootPage.locator('#app-boot-error button').waitFor();
   assert(await bootPage.locator('#app-boot-loading').isHidden());
   await bootPage.unroute('**/js/app.js');
   await bootPage.locator('#app-boot-error button').click();
   await bootPage.locator('.compare-matrix-table').waitFor();
   await bootPage.close();
+  // Path routing: links navigate without a reload, Back works, and legacy "#/…" links are upgraded in place.
+  await go('cultures');
+  await page.locator('#cultures-grid-slot .culture-card').first().waitFor();
+  await page.evaluate(() => { window.sameDocument = true; });
+  await page.locator('#cultures-grid-slot .culture-card a[href="/cultures/indonesian-folklore"]').first().click();
+  await page.locator('#app h1').first().waitFor();
+  assert.equal(new URL(page.url()).pathname, '/cultures/indonesian-folklore');
+  assert.equal(await page.evaluate(() => window.sameDocument), true, 'In-app links must not reload the document');
+  await page.goBack();
+  await page.locator('#cultures-grid-slot .culture-card').first().waitFor();
+  assert.equal(new URL(page.url()).pathname, '/cultures');
+  await page.goto(`${base}/#/creature/garuda?tab=power`);
+  await waitForBoot();
+  await page.locator('#btn-toggle-favorite').waitFor();
+  assert.equal(new URL(page.url()).pathname + new URL(page.url()).search, '/creature/garuda?tab=power');
+  assert.equal(new URL(page.url()).hash, '');
+  if (STATIC) {
+    // Prerendered pages answer directly with readable content and clean URLs.
+    const direct = await page.request.get(`${base}/creature/garuda`);
+    assert.equal(direct.status(), 200);
+    assert.match(await direct.text(), /<h1>Garuda/);
+    const redirect = await page.request.get(`${base}/creature/garuda.html`, { maxRedirects: 0 });
+    assert.equal(redirect.status(), 301);
+    assert.equal(redirect.headers().location, '/creature/garuda');
+    assert.equal((await page.request.get(`${base}/no-such-page`)).status(), 404);
+  }
   assert.deepEqual(errors, []);
   console.log(
     `Browser checks passed${STATIC ? " on the static site" : ""}: royal slideshow autoplay/pause/hover/arrows/failure/retry/route cleanup, search, pagination, regions, journal, learning, persistence, languages, permanent dark theme, modal, artwork zoom/pan/pinch/download, comparison search/swap/same-pair persistence/recovery, navigation, scaling filters and guides, six dossier tabs/keyboard/persistence/source navigation, culture directory search, collapsible archive/atlas sections, paused offscreen images, seven fine frames, reduced motion, pending-search navigation, archive retry, favorite removal, random repeat/detail, no aura, and 66 responsive route checks.`,

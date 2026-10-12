@@ -76,7 +76,7 @@ export async function renderJournalView(container) {
       <div style="padding: 3rem 1.5rem; text-align: center; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px dashed var(--border-medium); color: var(--text-secondary);">
         <div class="journal-empty-mark">${icon('bookmark',34)}</div>
         <p>${t('journal.emptyFavorites')}</p>
-        <a href="#/explore" class="btn btn-secondary" style="margin-top: 1rem;">${bi('Temukan legenda pertamamu','Find your first legend')}</a>
+        <a href="/explore" class="btn btn-secondary" style="margin-top: 1rem;">${bi('Temukan legenda pertamamu','Find your first legend')}</a>
       </div>
     `;
     return;

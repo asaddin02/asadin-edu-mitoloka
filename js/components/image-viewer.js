@@ -60,7 +60,7 @@ export function initImageViewer() {
     event.preventDefault();
     open(trigger);
   });
-  window.addEventListener('hashchange', close);
+  window.addEventListener('popstate', close);
   window.addEventListener('mythics:lang-change', close);
 
   function open(trigger) {

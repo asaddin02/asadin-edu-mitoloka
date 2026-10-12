@@ -97,7 +97,7 @@ export function mountDossier(container, slug) {
       const start = panels.getBoundingClientRect().top + scrollY - chromeHeight - nav.offsetHeight;
       if (scrollY > start) window.scrollTo({top:Math.max(0,start),behavior:'instant'});
     }
-    if (save) history.replaceState(null,'',`#/creature/${encodeURIComponent(slug)}${id==='overview'?'':`?tab=${id}`}`);
+    if (save) history.replaceState(null,'',`/creature/${encodeURIComponent(slug)}${id==='overview'?'':`?tab=${id}`}`);
   }
   nav.addEventListener('click', event => {
     const button = event.target.closest('[data-tab]');
@@ -120,5 +120,5 @@ export function mountDossier(container, slug) {
     target.setAttribute('tabindex','-1'); target.focus({preventScroll:true});
     panels.scrollTop = target.offsetTop - panel.offsetTop;
   }));
-  activate(new URLSearchParams(location.hash.split('?')[1] || '').get('tab'),{save:false});
+  activate(new URLSearchParams(location.search).get('tab'),{save:false});
 }

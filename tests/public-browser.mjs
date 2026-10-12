@@ -43,7 +43,7 @@ try {
     if (new URL(request.url()).origin === origin && request.failure()?.errorText !== 'net::ERR_ABORTED') errors.push(`${request.failure()?.errorText} ${request.url()}`);
   });
   const go = async route => {
-    await page.goto(`${base}/#/${route}`);
+    await page.goto(`${base}/${route}`);
     await page.locator('#header-root nav').waitFor();
   };
   const decoded = async selector => {
@@ -58,7 +58,7 @@ try {
     await go('');
     await page.locator('.featured-grid .creature-card').first().waitFor();
     assert.equal(await page.locator('.featured-grid .creature-card').count(), 4);
-    assert.equal(await page.locator('a[href="#/admin"]').count(), 0, 'Public navigation excludes the editorial console');
+    assert.equal(await page.locator('a[href="/admin"]').count(), 0, 'Public navigation excludes the editorial console');
     for (const slug of ['garuda', 'kitsune', 'jormungandr', 'barong']) {
       await page.locator(`[data-hero="${slug}"]`).click();
       await page.waitForFunction(slug => document.querySelector('.gateway')?.dataset.legend === slug, slug);

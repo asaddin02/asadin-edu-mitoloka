@@ -5,6 +5,7 @@
  */
 
 import { api } from '../api-client.js';
+import { navigate } from '../router.js';
 import { resolveLocalized } from '../i18n.js';
 
 export async function renderRelationshipGraph(container, slug) {
@@ -156,7 +157,7 @@ export async function renderRelationshipGraph(container, slug) {
       nodeEl.addEventListener('click', () => {
         const targetSlug = nodeEl.getAttribute('data-slug');
         if (targetSlug && targetSlug !== slug) {
-          window.location.hash = `#/creature/${targetSlug}`;
+          navigate(`/creature/${targetSlug}`);
         }
       });
     });

@@ -44,6 +44,17 @@ for (const slug of expected) {
   if (EDITORIAL_ART[slug]?.startsWith('/media/')) assert(media.has(EDITORIAL_ART[slug]), `${slug} artwork is uploaded`);
 }
 
+// Every published creature has a prerendered, indexable page listed in the sitemap, with its R2 artwork as preview.
+const pages = (await readdir(new URL('dist/creature/', root))).filter(f => f.endsWith('.html')).map(f => f.slice(0, -5)).sort();
+assert.deepEqual(pages, expected, 'One prerendered page per published creature');
+if (process.env.SITE_URL) {
+  const sitemap = await readFile(new URL('dist/sitemap.xml', root), 'utf8');
+  for (const slug of expected) assert(sitemap.includes(`<loc>${process.env.SITE_URL}/creature/${slug}</loc>`), `${slug} is in the sitemap`);
+  assert.doesNotMatch(sitemap, /\/creature\/[^<]*\/<\/loc>/, 'sitemap URLs have no trailing slash');
+}
+const sample = await readFile(new URL(`dist/creature/${expected[0]}.html`, root), 'utf8');
+assert.match(sample, /<meta property="og:image" content="[^"]*\/media\/art\/[^"]+">/, 'link previews use the published artwork');
+
 // Creature artwork left dist/ (only art the interface names directly stays).
 const leftover = (await readdir(new URL('dist/assets/art/', root))).filter(f => /\.(webp|png|jpe?g)$/.test(f));
 for (const f of leftover) assert(!media.has(`/media/art/${f}`), `${f} is not shipped twice`);

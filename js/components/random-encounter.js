@@ -4,6 +4,7 @@
  */
 
 import { editorialArt } from '../ui.js';
+import { navigate } from '../router.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { gamification } from './gamification.js';
@@ -124,7 +125,7 @@ export function openRandomEncounterModal(preferredCulture = null) {
       inspectBtn.style.display = 'inline-flex';
       const inspect = () => {
         close();
-        window.location.hash = `#/creature/${creature.slug}`;
+        navigate(`/creature/${creature.slug}`);
       };
       inspectBtn.onclick = inspect;
       slot.querySelector('#random-art-detail').onclick = inspect;

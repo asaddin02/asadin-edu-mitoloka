@@ -104,7 +104,7 @@ asadin-mythological-creatures/
 ```bash
 npm run dev
 ```
-Aplikasi akan aktif di `http://127.0.0.1:8095`. `npm run dev` mengaktifkan Pusat Kontrol Redaksi (`#/admin`, `MYTHICS_ADMIN=1`), yang hanya menerima permintaan dari komputer itu sendiri dan dari origin yang sama. `npm start` (server produksi) mematikannya: rute `/api/admin/*` menjawab 404 dan tautan Admin tidak tampil. Server hanya menyajikan `index.html`, `manifest.webmanifest`, `css/`, `js/`, dan `assets/`; `data/`, `server/`, `scripts/`, `tests/`, dan berkas paket selalu 404.
+Aplikasi akan aktif di `http://127.0.0.1:8095`. `npm run dev` mengaktifkan Pusat Kontrol Redaksi (`/admin`, `MYTHICS_ADMIN=1`), yang hanya menerima permintaan dari komputer itu sendiri dan dari origin yang sama. `npm start` (server produksi) mematikannya: rute `/api/admin/*` menjawab 404 dan tautan Admin tidak tampil. Server hanya menyajikan `index.html`, `manifest.webmanifest`, `css/`, `js/`, dan `assets/`; `data/`, `server/`, `scripts/`, `tests/`, dan berkas paket selalu 404.
 
 ### 2. Menjalankan Audit Kualitas Data (QC Check)
 
