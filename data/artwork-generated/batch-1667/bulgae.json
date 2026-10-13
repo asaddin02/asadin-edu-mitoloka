@@ -1,0 +1,109 @@
+{
+  "slug": "bulgae",
+  "worker": "codex",
+  "worker_agent": "resume1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bulgae, a gigantic fierce hairy fire hound from Korean kingdom of darkness, attempting to bite the Sun and cause eclipse.\nANATOMY: ONE giant shaggy dog, one head two natural fierce eyes four canine legs one furry tail, long tangled dark-brown dog hair, broad dog muzzle and ordinary dog teeth. No horns, wings, extra heads, dragon scales or claws beyond normal canine paws. [bulgae-c01,bulgae-c05,bulgae-c08]\nMOMENT: BITE the SUN NOW, seen from the SIDE: the enormous dog head faces right and its upper jaw overlaps the top edge of the Sun while the lower jaw passes UNDER that same edge. A large curved section of the solar sphere is visibly INSIDE the dog's open mouth between upper and lower teeth. The nose projects past the solar edge. Forepaws thrust toward viewer, shaggy head fills upper half. The Sun's unbearable heat makes the dog recoil while gripping it. [bulgae-c05]\nPOWER: The black opaque jaws physically OCCLUDE a large wedge at the upper-left edge of the solar disk: obvious BLACK BITE NOTCH interrupting the round bright solar silhouette. The Sun cannot remain an intact unobstructed circle. The dog must grip its edge between top and bottom jaws, not snarl near it; actual fiery solar heat singes tips of fur around muzzle with small ember sparks and hot physical vapor, not body aura. No laser beams or flame breath. [bulgae-c05,bulgae-c07,bulgae-c10]\nSCALE & CAMERA: extreme low close cosmic viewpoint from just below dog's forepaws, imposing gigantic dog dominates 80 percent square, Sun partially cropped at lower right, no tiny ordinary pet in huge empty sky.\nLIGHT & WEATHER: the SUN is the ONLY dominant warm source, brilliant amber rim on dog hair and deep walnut-black silhouette; physically hot solar surface and small natural embers at contact.\nSURFACE: tangled coarse dog hair, wet dark nose, natural teeth, rough singed fur tips; radiant tangible Sun surface.\nSETTING: dark heavenly realms of Gamangnara story while chasing Sun, not an earthly kennel or forest. [bulgae-c04,bulgae-c05]\nMOOD: dangerous overwhelming mythic cosmic hound in struggle, strong fierce expression, never cute playful pet.\nHARD CONSTRAINTS: ONE dog and ONE Sun, no Moon in this variant; no text logo border watermark; no extra heads limbs wings; no film game anime comic design; no nudity gore; no glowing eyes, generic glow aura neon energy ribbons, no fire emitted from paws or breath.",
+  "depicted_variant": "One gigantic shaggy fire hound biting Sun edge in the eclipse tale.",
+  "basis_claim_ids": [
+    "bulgae-c01",
+    "bulgae-c05",
+    "bulgae-c08",
+    "bulgae-c07",
+    "bulgae-c10",
+    "bulgae-c04"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "bulgae-c01",
+      "bulgae-c05",
+      "bulgae-c08"
+    ],
+    "powers": [
+      "bulgae-c05",
+      "bulgae-c07",
+      "bulgae-c10"
+    ],
+    "setting": [
+      "bulgae-c04",
+      "bulgae-c05"
+    ],
+    "disposition": [
+      "bulgae-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Gigantic strong fierce hairy fire dog, natural single dog anatomy",
+      "claim_ids": [
+        "bulgae-c01",
+        "bulgae-c05",
+        "bulgae-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bites Sun to darken section in eclipse; Sun too hot to hold, contact heat only",
+      "claim_ids": [
+        "bulgae-c05",
+        "bulgae-c07",
+        "bulgae-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark heavenly realms, Gamangnara story Sun chase",
+      "claim_ids": [
+        "bulgae-c04",
+        "bulgae-c05"
+      ]
+    }
+  ],
+  "aura": "Gigantic fierce dog darkens Sun by bite, with unbearable solar contact heat [bulgae-c05,c07,c10].",
+  "artistic_choices": [
+    "Choose Sun-biting dog c05, not Moon-freezing dog c06; no conflated ice/fire scene.",
+    "Singed muzzle/embers represent Sun too hot at contact, not invented flame breath or aura.",
+    "Dark brown fur and cosmic low camera are editorial; giant scale and heaven realms are documented.",
+    "Natural dog morphology only; probable Sapsali inference not treated as mandatory exact breed.",
+    "Attempt02 selected because literal jaws around solar edge make bite and occlusion legible; attempt01 rejected for no clear eclipse bite. Side angle occludes far eye and hind legs rather than adding anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1667/rejected/bulgae-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1667/rejected/bulgae-attempt-01.json",
+      "native_sha256": "7238b05c1aeead9d06dca1c815e0e4d87f24d003b46e16388ab1ace3cd2e9ac2",
+      "reason": "Native and 200px: imposing hound, but jaws only approach Sun edge; no unequivocal bite occlusion/dark eclipse section, so effect visual requirement fails."
+    }
+  ],
+  "attempt": "02",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13589-3b5a-7142-9e2d-4d9d743240b4/exec-4f01b201-0fb6-4ee8-ad31-d41ffd7b6a50.png",
+  "generated_at": "2026-10-13T13:59:36.624100+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/bulgae.png",
+  "native_sha256": "b0625b039198c1fb5c5f2590aad9f100d2468cdff28ceeab9faabe071d60d961",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native 1254x1254 and true 200px thumbnail. Gigantic shaggy single dog fills frame in active solar bite; solar edge sits between upper and lower jaws and dark opaque muzzle/lower jaw interrupt disk edge. Fierce gaze, foreshortened canine paws, one tail, no extra visible anatomy. Sun-contact heat from c05 only; no flame breath or generic aura. Dark cosmic setting c04. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "b0625b039198c1fb5c5f2590aad9f100d2468cdff28ceeab9faabe071d60d961",
+    "reviewed_at": "2026-10-13T13:59:36.624100+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "b0625b039198c1fb5c5f2590aad9f100d2468cdff28ceeab9faabe071d60d961",
+    "notes": "Giant shaggy fire dog with its jaws closed on the Sun's edge, its head covering part of the disc; the bite now reads."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "mnemosyne",
+  "variant": "correction",
+  "worker": "codex",
+  "worker_agent": "resume1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-046.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of MNEMOSYNE, Titan goddess personifying memory, ruling the underground oracle of Trophonios in Boiotia from her immense throne beside the sacred well. [mnemosyne-c01,mnemosyne-c05,mnemosyne-c09]\nANATOMY: ONE living mature female Titan deity, one head two natural eyes two arms two legs and five fingers per hand. Humanlike anatomy, no crown or horns. Fully opaque high-neck walnut gown and massive heavy antique-gold mantle completely cover shoulders chest torso arms and legs. Her figure is drawn at MONUMENTAL ALLEGORICAL DEITY SCALE in this painterly sacred composition, not as an ordinary human woman; gigantic representation is editorial reverential symbolism, not a source claim of literal physical size. [mnemosyne-c01,mnemosyne-c07]\nMOMENT: RISE from the enormous plain stone throne and lean forward while DECLARING a remembered oral saga, mouth open in solemn recitation, stern compassionate eyes look downward toward viewer and tiny adult oracle consultants. One huge hand grips throne arm, other hand opens authoritatively toward the sacred well and the consultants; both hands are clear. She towers from oracle floor to cavern ceiling; her head, shoulders, whole cloth-covered torso and moving forearms dominate upper 75 percent of square. [mnemosyne-c03,mnemosyne-c05,mnemosyne-c09]\nPOWER: Memory is embodied ONLY in active spoken recitation: TWO tiny fully clothed ADULT oracle consultants below her knee listen and repeat the story with open mouths and attentive raised faces, one emerges from the downward stone stairway toward the well. Her recitation directs attention physically toward the existing throne, well and underground descent. NO floating words, memory visions, magic glow, controlling water, spells, time effects or supernatural weather. [mnemosyne-c03,mnemosyne-c05,mnemosyne-c09]\nSCALE & CAMERA: EXTREME LOW WIDE camera at underground floor, looking up at the deity and entire broad throne. CLEAR monumental scale: an adult consultant only as tall as her hand stands CLOSE to her throne base, rather than far away in perspective. DEITY herself fills 75 percent square; no distant tiny goddess. Strong face silhouette and enormous plain throne readable at 200px. LARGE circular sacred stone WELL with visible black STILL WATER occupies lower center 20 percent, unmistakably a well, never a vague bowl. A clearly readable steep STONE STAIRCASE descends at right from a small high cavern opening to oracle floor below her throne, with second consultant walking down it. Cave depth supports the underground oracle, not an empty landscape.\nLIGHT & WEATHER: ONE low ordinary fire-lit brazier beside well, golden reflected light from STILL WATER illuminates her mantle, grave face and extended hands; deep walnut-black cave shadow, harsh rim and visible ordinary dust in the lamplight. Brazier is editorial scene light, not her divine attribute. No halo, no luminous eyes, no glowing well, no divine beams.\nSURFACE: visible painterly brushwork, dense heavy matte woven cloth, natural mature skin, worn rough uninscribed throne, thick well masonry, plain descending stone steps and dark still water.\nSETTING: subterranean oracle of Trophonios in Boiotia, her sacred well and throne clearly separate and legible. Simple rough-rock chamber, no palace towers or carved symbols. [mnemosyne-c05,mnemosyne-c09]\nMOOD: overwhelming sacred Titan authority, deeply awe-inspiring, reverent and active, never ordinary woman beside a well, casual human teacher, calm portrait or evil monster.\nHARD CONSTRAINTS: no text lettering logo border frame watermark; no extra heads eyes limbs fingers; no crown weapons invented iconography jewellery scrolls floating writing visions clocks stars or symbols; no borrowed movie game anime comic design; no nudity or gore; no generic glow aura neon outlines energy ribbons; no moving magic water or levitation. Goddess living and active, not statue. Throne, round sacred well and underground descent must ALL be legible.",
+  "basis_claim_ids": [
+    "mnemosyne-c01",
+    "mnemosyne-c07",
+    "mnemosyne-c05",
+    "mnemosyne-c03",
+    "mnemosyne-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single female humanlike Titan goddess; monumental allegorical rendering with fully opaque editorial ceremonial garments, no invented attributes.",
+      "claim_ids": [
+        "mnemosyne-c01",
+        "mnemosyne-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Active oral recitation embodied in speaker/listeners, with no invented physical memory magic or moving water.",
+      "claim_ids": [
+        "mnemosyne-c03",
+        "mnemosyne-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underground oracle of Trophonios in Boiotia; large distinct sacred well and throne, descending access stairs as editorial visualization of underground location.",
+      "claim_ids": [
+        "mnemosyne-c05",
+        "mnemosyne-c09"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Humanlike female deity and fully opaque ceremonial clothes visualize Titan identity c01/c07; detailed face and clothing are editorial, not claimed canonical iconography.",
+    "Monumental goddess/throne proportions are sacred allegorical composition answering Claude correction and GAMBAR §5, not a research assertion of physically giant Titan stature.",
+    "Plain throne and round well masonry are editorial materials/shapes for sourced objects c09.",
+    "Descending stone access stairway visualizes underground oracle location c05; research does not document exact architecture.",
+    "Two adult consultants and their listening/repetition connect c03 oral preservation with c05 oracle; no named canonical episode or unsourced rite is asserted.",
+    "Memory has no luminous visions or invented mechanism; bodily recitation and listener response only.",
+    "Single ordinary brazier and golden reflected light are editorial illumination, not divine attributes.",
+    "Historical A/B variant assets and metadata retained as past alternatives; current corrected image supersedes rejected A01 and no claim that A01 still passes is retained."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/mnemosyne-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/mnemosyne-attempt-01.json",
+      "native_sha256": "4a4764ceec7a4d11556bcfe03ebab4ce6e91e33a8f414ff84143aedce990ab90",
+      "reason": "Reads as an ordinary woman on a stone seat beside a well (GAMBAR §6.1 'manusia biasa'); the Titan's stature and the oracle of Trophonios are not legible at 200px. Give her Titan scale over the underground oracle with the small consultants below, and make the recited memory act physically through documented elements only (the well, the throne, the descent); otherwise record tidak-digambar."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13439-d160-77e0-af63-9cf8cf03baba/exec-b34cb7b9-10f7-4d19-91c8-4d070f5a7fe1.png",
+  "generated_at": "2026-10-13T08:00:27.486104+00:00",
+  "original_file": "data/artwork-generated/batch-1617/originals/mnemosyne.png",
+  "native_sha256": "4a4764ceec7a4d11556bcfe03ebab4ce6e91e33a8f414ff84143aedce990ab90",
+  "width": 1254,
+  "height": 1254,
+  "depicted_variant": "Monumental allegorical Titan deity rising from throne to lead oral recitation over sacred well and consultants in underground oracle.",
+  "aura": "Monumental editorial Titan representation presides over the sourced underground oracle, well and throne; authoritative recitation embodies memory [mnemosyne-c01,c03,c05,c09].",
+  "selection_status": "current-correction-awaiting-review",
+  "not_selected_reason": null,
+  "selected_variant": "correction",
+  "selected_variant_reason": "Current correction replaces rejected A01 with monumental allegorical Titan representation, clearly separated throne/well/descending oracle access and subordinate adult consultants; historical A/B remain preserved for provenance.",
+  "generated_variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1617/variants/mnemosyne/A.png",
+      "receipt_file": "data/artwork-generated/batch-1617/variants/mnemosyne/A.json",
+      "selected": false,
+      "historical_selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1617/variants/mnemosyne/B.png",
+      "receipt_file": "data/artwork-generated/batch-1617/variants/mnemosyne/B.json",
+      "selected": false,
+      "historical_selected": false
+    }
+  ],
+  "attempt": "correction-01"
+}

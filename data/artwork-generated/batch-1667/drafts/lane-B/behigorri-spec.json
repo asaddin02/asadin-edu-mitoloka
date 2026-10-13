@@ -1,0 +1,71 @@
+{
+  "slug": "behigorri",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Behigorri, the Basque underground sanctuary guardian in its documented red bull variant.\nANATOMY: One living muscular red-coated bull resembling wild Basque betizu cattle, one head, two natural eyes, two ordinary bovine horns, four cloven-hoofed legs, one tail. Deep red-brown hide, no monster mutations or giant anatomy. [behigorri-c02,behigorri-c07,behigorri-c08]\nMOMENT: Charge violently out of the cave toward an approaching intruder at the viewer position, head lowered horns forward, forelegs thrusting and hooves scraping rocky threshold. Cave mouth frames the red head and shoulders; no static cow in a field. [behigorri-c07]\nPOWER: physical guardian charge only, scattering loose cave gravel; no documented supernatural visible effects, no fire or glowing eyes.\nSCALE & CAMERA: extreme low ground-level camera close to rushing horns, strong foreshortening fills square, natural cattle scale, no tiny people or invented giant height.\nLIGHT & WEATHER: one low late sunset beam entering cave from outside, warm copper rim light, black cavern shadows, disturbed mineral dust.\nSURFACE: rough red cattle hair, wet nostrils, scuffed pale natural horns, mud on cloven hooves, jagged cave stone.\nSETTING: underground cave sanctuary housing Mari's mythical treasures, a few subdued ordinary old gold objects deep behind creature rather than a spectacular treasure fantasy. [behigorri-c01,behigorri-c08]\nMOOD: reverent yet terrifyingly forceful sacred guardian confronting trespass, dangerous and imposing living being.\nHARD CONSTRAINTS: no text logo frame border watermark; no extra heads limbs horns; no film game anime comic design; no nudity gore; no wings flaming horns glowing aura neon energy ribbons; not a calm dairy cow, no bell or collar.",
+  "depicted_variant": "Natural red bull variant charging from a cave sanctuary as guardian.",
+  "basis_claim_ids": [
+    "behigorri-c02",
+    "behigorri-c07",
+    "behigorri-c08",
+    "behigorri-c01"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "behigorri-c02",
+      "behigorri-c07",
+      "behigorri-c08"
+    ],
+    "powers": [],
+    "setting": [
+      "behigorri-c01",
+      "behigorri-c08"
+    ],
+    "disposition": [
+      "behigorri-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Living red bull variant like Basque betizu cattle, natural bovine features",
+      "claim_ids": [
+        "behigorri-c02",
+        "behigorri-c07",
+        "behigorri-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical charge defending sanctuary against approaching people, gravel displaced naturally",
+      "claim_ids": [
+        "behigorri-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underground cave guardian of Mari homes and mythical treasures",
+      "claim_ids": [
+        "behigorri-c01",
+        "behigorri-c08"
+      ]
+    }
+  ],
+  "aura": "Confrontational cave-defense charge and red bull silhouette create guardian force [behigorri-c07,c08].",
+  "artistic_choices": [
+    "Choose documented red bull rather than cow/calf variants.",
+    "No documented physical magical effects; dust/gravel only from charging hooves.",
+    "Natural horns and cloven hooves render bovine category; no giant size.",
+    "Gold objects are editorial depiction of unspecified mythical treasures, without unsupported magical attributes."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

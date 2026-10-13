@@ -1,0 +1,96 @@
+{
+  "slug": "baccoo",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Baccoo, a short Guyanese-Surinamese supernatural dwarf with half-wood half-flesh body.\nANATOMY: One oversized head, two eyes, two arms, two legs; the entire left half from face to left hand and left foot is solid dark cracked wood with clear grain, right half is intact living flesh. Distinct center seam, no gore or exposed meat. Short adult dwarf stature, no kneecap bumps on the smooth knee joints, thick opaque worn trousers. [baccoo-c02,baccoo-c04,baccoo-c18,baccoo-c23]\nMOMENT: Clamber suddenly over the near rim of a haunted old well toward the camera, wooden hand gripping the wet stone rim, flesh hand reaching confrontationally, oversized face in hostile close-up after being disturbed. [baccoo-c24,baccoo-c25]\nPOWER: no documented visible power used; menace through unnatural wooden half-body and sudden physical emergence only. No conjured fire or flying rocks.\nSCALE & CAMERA: extreme low close camera at well rim, short dwarf dominates the square by framing, nearby well bricks show small actual stature; no giant size.\nLIGHT & WEATHER: single warm lantern light from outside the picture, deep charcoal shadows below the rim, slight natural moisture.\nSURFACE: split rough wood grain versus intact weathered skin, damp coarse cloth and moss-darkened well stones.\nSETTING: old haunted well. [baccoo-c24]\nMOOD: deeply unsettling, imposing physical lunge, hostile after disturbance, never cute or puppetlike.\nHARD CONSTRAINTS: no text logo border watermark; no extra heads limbs fingers; no film game anime comic reference; no pointed elf ears, horns, fangs or claws; no nudity explicit gore; no generic glow aura neon outline energy ribbons; wood half is living body not armor or attached planks.",
+  "depicted_variant": "Large-headed half-wood half-flesh short dwarf clambering from a haunted well.",
+  "basis_claim_ids": [
+    "baccoo-c02",
+    "baccoo-c04",
+    "baccoo-c18",
+    "baccoo-c23",
+    "baccoo-c24",
+    "baccoo-c25"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "baccoo-c02",
+      "baccoo-c04",
+      "baccoo-c18",
+      "baccoo-c23"
+    ],
+    "powers": [
+      "baccoo-c06",
+      "baccoo-c17"
+    ],
+    "setting": [
+      "baccoo-c24"
+    ],
+    "disposition": [
+      "baccoo-c25"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Oversized head on short half-wood half-flesh dwarf, absent kneecaps",
+      "claim_ids": [
+        "baccoo-c02",
+        "baccoo-c04",
+        "baccoo-c18",
+        "baccoo-c23"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Haunted well",
+      "claim_ids": [
+        "baccoo-c24"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sudden aggressive emergence after disturbance without magic effects",
+      "claim_ids": [
+        "baccoo-c25"
+      ]
+    }
+  ],
+  "aura": "Large head and contrasting living wood/flesh body emerging from haunted well create menace [baccoo-c02,baccoo-c23,baccoo-c24,baccoo-c25].",
+  "artistic_choices": [
+    "Split-body layout directly uses one side wood, other flesh c23.",
+    "No visible supernatural power effects; hostile emergence is an editorial moment grounded in haunting and response to disturbance.",
+    "Opaque trousers, lantern lighting and low close camera are editorial; actual short stature retained."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-d2ea-75a1-8822-f0172bfe6e30/exec-1db3fc85-f495-4dbf-b7c9-263da0ed8b79.png",
+  "generated_at": "2026-10-13T08:48:13.857712+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/baccoo.png",
+  "native_sha256": "803ee749a0587b5fc39d713d23d15cb3997e9081bb696a0d5f24ac27949e4065",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: angry large-headed dwarf clambers toward viewer over well, center seam half living wood/half flesh clear, wooden five-digit hand grips stone and flesh hand reaches. Close well brick scale preserves short stature. All seven Sangar checks yes; intact skin/no gore, no magical effects,text,borrowed design.",
+    "limitations": [],
+    "native_sha256": "803ee749a0587b5fc39d713d23d15cb3997e9081bb696a0d5f24ac27949e4065",
+    "reviewed_at": "2026-10-13T08:48:13.857712+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "803ee749a0587b5fc39d713d23d15cb3997e9081bb696a0d5f24ac27949e4065",
+    "notes": "Big-headed dwarf, half split wood and half flesh, climbing out of a lantern-lit well toward the viewer."
+  }
+}

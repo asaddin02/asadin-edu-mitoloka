@@ -1,0 +1,71 @@
+{
+  "slug": "akva-nigrulo",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "akva-nigrulo-c02",
+      "akva-nigrulo-c04"
+    ],
+    "powers": [
+      "akva-nigrulo-c02",
+      "akva-nigrulo-c08"
+    ],
+    "setting": [
+      "akva-nigrulo-c01",
+      "akva-nigrulo-c08"
+    ],
+    "disposition": [
+      "akva-nigrulo-c02"
+    ]
+  },
+  "basis_claim_ids": [
+    "akva-nigrulo-c01",
+    "akva-nigrulo-c02",
+    "akva-nigrulo-c04",
+    "akva-nigrulo-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tall strong bald black humanoid-amphibian, duck-like webbed hands and feet, fins and scales mixed with skin.",
+      "claim_ids": [
+        "akva-nigrulo-c02",
+        "akva-nigrulo-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Laughing loudly while physically overturning a canoe, natural splash only.",
+      "claim_ids": [
+        "akva-nigrulo-c02",
+        "akva-nigrulo-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Brazilian river rocks on moonlit night.",
+      "claim_ids": [
+        "akva-nigrulo-c01",
+        "akva-nigrulo-c08"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Negro-dÁgua, the bald black amphibian river being who overturns fishermen’s canoes.\nANATOMY: ONE tall strong bald black-skinned humanoid fused with amphibian: one head, two arms with broad visibly webbed duck-like hands, two legs with visibly webbed duck-like feet; patches of scales mixed into skin and small fins on forearms. No hair, horns, wings or extra limbs. Fully opaque rough short waist wrap covers groin; nonsexual creature depiction. [akva-nigrulo-c02,akva-nigrulo-c04]\nMOMENT: Laugh loudly with a threatening open mouth while heaving one side of a canoe upward, one broad webbed hand visibly gripping the gunwale and the other reaching toward the viewer; both webbed feet brace among river rocks. Canoe tilts sharply and a fisherman struggles to balance, no blood or injury. [akva-nigrulo-c02,akva-nigrulo-c08]\nPOWER: Physical canoe-capsizing action and real splashing river water only, no luminous aura or invented water control. [akva-nigrulo-c02]\nSCALE & CAMERA: extreme low near-water camera, close amphibian face and duck hands dominate; tall strong man size as sourced, no giant size.\nLIGHT & WEATHER: one cold moonlight rim across wet scales and black skin, warm walnut shadows, spray and river mist.\nSURFACE: wet black amphibian skin interspersed with scales, duck-like webbing, worn wood and damp stone.\nSETTING: rocks in a Brazilian river at moonlit night. [akva-nigrulo-c01,akva-nigrulo-c08]\nMOOD: uncanny and dangerous capsizing trickster, imposing, never a cute animal or ordinary man.\nHARD CONSTRAINTS: both duck-like hands and feet must read clearly, bald head; no text, logo, frame or watermark; no extra heads or limbs; no entertainment design; no nudity or gore; no generic glow aura, neon outline, runes or energy ribbons.",
+  "depicted_variant": "Bald black scaled amphibian form capsizing canoe with duck-like hands and feet.",
+  "artistic_choices": [
+    "Uses modern amphibian/scales variant c04, not mixing hairy hide c09.",
+    "Opaque waist wrap added only for modesty, no sourced costume claim.",
+    "Physical splashes from canoe action only, no water magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

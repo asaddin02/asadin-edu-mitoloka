@@ -1,0 +1,78 @@
+{
+  "slug": "binbogami",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Binbōgami, the Japanese kami that settles in a house and brings poverty.\nANATOMY: One very thin aged man like a shabby beggar monk, deeply BLUE-BLACK cadaverously pale face, eyes extremely deeply recessed into hollow sockets, emaciated old cheekbones, dirty wrinkled skin, sorrowful solemn confronting expression. One head two eyes two arms two legs, fully opaque coarse patched robe. Hold a large torn brown SHIBU-UCHIWA: one FIXED flat round paper fan on a rigid wooden handle, visibly ragged holes and torn edges, NOT a folding fan, no pleated ribs, no text. [binbogami-c14,binbogami-c18]\nMOMENT: Surge from the darkness of the household closet as the hearth's final ember dies, lean his blue-black hollow-eyed HEAD right down over the viewer until it fills the upper two thirds, his skeletal hand reaches past the lens gripping the rigid round fan, sorrowful direct gaze with overwhelming divine weight. This is the uncanny arriving household kami, not a strolling elderly person. [binbogami-c04,binbogami-c17]\nPOWER: No documented physical visual manifestation of impoverishing power. The hearth ember is naturally dying, no stolen coins, no invented aura, no magic blast. [binbogami-c17]\nSCALE & CAMERA: EXTREME LOW CLOSE-UP inches from his blue-black face, deep hollow eyes loom in upper two thirds, correct torn ROUND fixed fan lower foreground, shoulders and thin arms foreshortened; normal human stature with no giant scaling.\nLIGHT & WEATHER: one weak warm dying ember light from below makes face and torn fan stark, near-black closet behind, heavy low-key shadows; no colored luminous mist.\nSURFACE: rough patched fabric, leathery aged skin, brittle torn paper fan, soot-black hearth, worn closet wood.\nSETTING: impoverished Japanese house interior, dark closet near extinguishing irori hearth. [binbogami-c04,binbogami-c17]\nMOOD: reverent awe, sorrowful uncanny supernatural arrival, overwhelming grim presence, not evil snarling monster and not cute or comical.\nHARD CONSTRAINTS: no text lettering logo border watermark; no extra heads limbs fingers; no film game anime comic design; no horns claws fangs or crown; no nudity gore; no generic glow aura neon energy ribbons, no flying coins.",
+  "depicted_variant": "Hollow-eyed aged household kami emerging from closet with torn persimmon fan as hearth dies.",
+  "basis_claim_ids": [
+    "binbogami-c14",
+    "binbogami-c18",
+    "binbogami-c04",
+    "binbogami-c17"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "binbogami-c14",
+      "binbogami-c18"
+    ],
+    "powers": [
+      "binbogami-c01",
+      "binbogami-c05"
+    ],
+    "setting": [
+      "binbogami-c04",
+      "binbogami-c17"
+    ],
+    "disposition": [
+      "binbogami-c18"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Thin aged shabby beggar-monk figure, bluish-dark pale face, sunken eyes, sad expression, torn persimmon paper fan",
+      "claim_ids": [
+        "binbogami-c14",
+        "binbogami-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Household closet and dying irori hearth where kami appears",
+      "claim_ids": [
+        "binbogami-c04",
+        "binbogami-c17"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Emergence as hearth ember naturally dies; no visual invented poverty power",
+      "claim_ids": [
+        "binbogami-c17"
+      ]
+    }
+  ],
+  "aura": "Sunken-eyed kami arrival from closet at dying hearth and iconic torn fan create solemn awe [binbogami-c04,c14,c17,c18].",
+  "artistic_choices": [
+    "No documented visible mechanism of poverty power; no magical physical effects.",
+    "Close foreshortening, ember underlighting and sudden arrival create awe without adding giant scale or hostile disposition.",
+    "Coarse fully opaque robe renders the sourced beggar-monk appearance; no modern game statue reference."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1667/rejected/binbogami-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1667/rejected/binbogami-attempt-01.json",
+      "native_sha256": "b13426fc3401d0f1a9f708c768a67622386f2f496b05e8a44fa18ebbab438239",
+      "reason": "Reads as ordinary elderly man reaching from closet, insufficient awe at200px. Fan is folding fan rather than sourced shibu-uchiwa fixed paper fan. Need intense sunken bluish-dark deity features and correct fixed fan."
+    }
+  ]
+}

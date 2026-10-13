@@ -1,0 +1,79 @@
+{
+  "slug": "chinny-kinik",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Chinny-kinik, the dreaded cannibal giant whose struggles shook the earth in his cave.\nANATOMY: one enormous humanlike male giant, one head, two arms, two legs, two natural eyes and ordinary human ears and teeth; no horns, tusks, animal features, tribal paint or invented iconography [chinny-kinik-c01,c07]. Fully opaque rough brown wrapped tunic to knees is editorial modest clothing, body entirely clothed.\nMOMENT: wrench himself forward from the smoky cave, one vast hand braces the rock wall and the other slams down on the cave floor, torso twisting and jaws roaring in mighty struggle. Giant himself must dominate the frame, never only cave or fire.\nPOWER: mighty physical struggles shake the earth; loosened stones and dust judder upward from the floor under his impact [chinny-kinik-c08]. Ordinary firewood burning across entrance sends smoke through the lair [chinny-kinik-c03,c04,c08]; the giant does not produce fire.\nSCALE & CAMERA: extreme low camera inside cave at giant's bare foot, full imposing head and hunched body fill frame; ordinary human-size stacked logs look tiny beside foot, giant size explicitly documented[c01,c07].\nLIGHT & WEATHER: one orange blaze at entrance lights face and broad hands from below, smoke in cave shadows and dust shaken from stone.\nSURFACE: tactile human skin, coarse opaque cloth, fractured rough limestone, charred wood.\nSETTING: vast cave in Pekarra sinkhole [chinny-kinik-c02,c03,c07], firewood visibly blocks the entrance in lower background.\nMOOD: dangerous overwhelming cannibal giant, fierce physical action; no gore, no caricature or cute demeanor.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads/limbs/fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon, energy ribbons; no magic fire or invented weapons.",
+  "depicted_variant": "Cannibal giant physically struggling inside smoke-filled Pekarra cave.",
+  "claim_classification": {
+    "anatomy": [
+      "chinny-kinik-c01",
+      "chinny-kinik-c07"
+    ],
+    "powers_deeds": [
+      "chinny-kinik-c03",
+      "chinny-kinik-c04",
+      "chinny-kinik-c08"
+    ],
+    "setting": [
+      "chinny-kinik-c02",
+      "chinny-kinik-c03",
+      "chinny-kinik-c07"
+    ],
+    "disposition": [
+      "chinny-kinik-c01",
+      "chinny-kinik-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Male cannibal giant of enormous-footprint scale; humanlike rendering of giant category without invented features.",
+      "claim_ids": [
+        "chinny-kinik-c01",
+        "chinny-kinik-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Earth-shaking physical struggles dislodge dust/stones; smoke from externally ignited entrance firewood.",
+      "claim_ids": [
+        "chinny-kinik-c03",
+        "chinny-kinik-c04",
+        "chinny-kinik-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Vast cave at Pekarra sinkhole with firewood blocking entrance.",
+      "claim_ids": [
+        "chinny-kinik-c02",
+        "chinny-kinik-c03",
+        "chinny-kinik-c07"
+      ]
+    }
+  ],
+  "aura": "Earth-shaking struggle(c08) and explicitly enormous cannibal giant(c01/c07), lit by trapping firewood(c03/c04).",
+  "artistic_choices": [
+    "Fully opaque rough tunic editorial modesty; no unclaimed cultural markings/accessories.",
+    "Humanlike giant renders kinship/giant category; facial details editorial.",
+    "Loose floor stones and dust stage recorded earth-shaking struggle, no magical power added."
+  ],
+  "basis_claim_ids": [
+    "chinny-kinik-c01",
+    "chinny-kinik-c07",
+    "chinny-kinik-c03",
+    "chinny-kinik-c04",
+    "chinny-kinik-c08",
+    "chinny-kinik-c02",
+    "chinny-kinik-c06"
+  ]
+}

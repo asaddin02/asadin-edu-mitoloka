@@ -1,17 +1,16 @@
 {
   "slug": "frigg",
-  "variant": "B",
   "worker": "codex",
-  "worker_agent": "big-A",
+  "worker_agent": "resume1667-A",
   "subagent_model": "gpt-6.1-sol",
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-045.review.json",
   "batch": 1617,
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
-  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of FRIGG, greatest Norse goddess extracting solemn protective oaths from animate and inanimate things.\nANATOMY: One mature adult female deity with natural humanlike anatomy, one head, two eyes, two arms, five natural fingers on each hand. Fully opaque dark walnut ceremonial high-neck gown and a thick plain antique-gold woven mantle covering every part of her body except face and hands; dignified immaculate cloth, no crown or invented attribute. [frigg-c01, frigg-c02]\nMOMENT: Sweep one commanding open palm downward toward the heads of two adult oath witnesses as she turns in a strong three-quarter PROFILE, issuing the promise that her son must not be harmed. Her other hand rests on a rough stone. She is sharply turned toward the witnesses, mouth open in a grave decree, brows lowered, chin high. At the left foreground, only the back and raised oath-hand of one fully opaque clothed adult witness appear, visibly promising toward HER; behind that witness a second adult witness likewise raises a hand and a living tree fills the shadow. A natural stag's head is seen facing her beside them, remaining an ordinary animal participant. Clearly an oath audience attending a commanding goddess, not a solitary woman touching scenery. [frigg-c10]\nPOWER: Protective oaths from animate and inanimate things, physically communicated by the oath gestures and her spoken decree; no supernatural effects because no visible mechanism is documented. [frigg-c10]\nSCALE & CAMERA: Close low diagonal camera looking upward from behind the near oath witness; Frigg's strongly side-on face and commanding shoulder dominate the right two-thirds, hand across the central frame; left foreground oath-hand supplies narrative. Human-sized divine figure with dominance through near perspective, no giant scale. Entire scene asymmetric, unlike a frontal portrait.\nLIGHT & WEATHER: Single low golden side-light cuts across her stern profile and mantle edge, deep charcoal shadows, natural ground dust. No luminous eyes, no halo, no magical particles.\nSURFACE: Matte coarse ceremonial woven folds, natural severe mature face, bark, rough dark stone, stag fur.\nSETTING: An unnamed oath assembly during her passage throughout the Nine Realms. Plain tree and stone exemplify categories from the documented act; no invented temple or Fensalir palace. [frigg-c10]\nMOOD: Sacred, awe-inspiring, decisive royal maternal decree that commands the audience; no timid expression, cheerful social gathering or monstrous hostility.\nHARD CONSTRAINTS: No text, logo, border, frame or watermark; no extra heads, limbs or fingers; no crown, weapons, jewellery, runes, spindle, birds or invented divine attributes; no borrowed film/game/anime/comic design; fully opaque clothes, no nudity or gore; no glow aura, neon lines, energy ribbons, visions, ice, fire, lightning, levitating stones or giant deity. No calm generic woman posing; the oath interaction must be unmistakable.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of FRIGG, the greatest Norse goddess taking protective oaths from all things animate and inanimate across the Nine Realms.\nANATOMY: One adult female goddess, one head, two eyes, two arms, two legs, five natural fingers on each hand. Fully opaque thick WALNUT ceremonial gown, high closed neckline, antique-gold mantle covering torso and legs. Natural severe dignified maternal face; no crown, no weapon, no spindle, no animal iconography attributed to her. [frigg-c01, frigg-c02]\nMOMENT: Command the universal protective promise with a broad OPEN PALM descending toward the oath gathering, opposite hand raised in solemn decree, mouth open as she speaks. Her enormous foreground palm and stern face look DOWN toward the viewer. Far below her, a semicircle of tiny fully clothed adult witnesses kneel and raise oath hands, ordinary wolves and a stag lower their heads. Among them are rough stones and forged iron pieces placed inward, a leaning tree at each side and one small ordinary brazier flame. All visibly attend her; Frigg is unmistakably the sovereign recipient rather than one member of a human gathering. [frigg-c10]\nPOWER: Oaths from animate and inanimate things that they will not harm her son. Represent physical oath posture and spoken decree only: no destructive power, no levitation, no moving metal, no supernatural flame, no glowing runes. Fire, metal, stone, trees, people and beasts are illustrative examples of animate/inanimate categories, not a new magic mechanism. [frigg-c10]\nSCALE & CAMERA: extreme low ground-level view from within the oath gathering; Frigg fills 85 percent of the square from hem to stern head, towering visually above the tiny oath participants. Treat this MONUMENTAL DIVINE SCALE as an editorial allegory of greatest-goddess status and universal oath, not a claim of canonical giant size. Raised commanding hands loom nearer than her face. Entire full figure remains visible, she is no ordinary human-size woman. [frigg-c02,frigg-c10]\nLIGHT & WEATHER: one strong low warm light from the ordinary foreground brazier illuminates her severe face, open palm and vast woven mantle from below; deep black background, thin atmospheric haze but NO glowing aura or supernatural clouds.\nSURFACE: extremely tactile opaque woven cloth, bronze-gold thread catching firelight, natural mature skin, rough rocks, matte iron, bark and shaggy animal fur.\nSETTING: Unspecified dark terrain where she gathers oaths during her journey throughout the Nine Realms. No invented Fensalir palace or throne. Keep background minimal behind towering subject. [frigg-c10]\nMOOD: Respectful sacred awe, overwhelming royal maternal authority, all existence attending her protective decree; decisive and imposing, never ordinary woman at human scale, cute, calm social gathering, or evil monster.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film game anime comic designs; fully opaque clothing, no nudity or gore; no generic glow aura, neon outline, energy ribbons, magical particles, floating objects, invented crown, throne or prophecy image.",
   "basis_claim_ids": [
     "frigg-c01",
     "frigg-c02",
@@ -20,7 +19,7 @@
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "Female goddess in fully opaque plain ceremonial garments, no invented attributes.",
+      "description": "Female greatest Norse goddess, natural humanlike anatomy, fully opaque ceremonial clothes; monumental composition is editorial allegory, not canonical giant stature.",
       "claim_ids": [
         "frigg-c01",
         "frigg-c02"
@@ -28,26 +27,26 @@
     },
     {
       "kind": "effect",
-      "description": "Extracting protective promises from animate and inanimate things, depicted as oath witnesses facing her; no magic.",
+      "description": "Receives protective promises from animate and inanimate things: beasts and adult people lower heads and pledge; naturally arranged trees, rocks, metal and fire exemplify categories without invented force effects.",
       "claim_ids": [
         "frigg-c10"
       ]
     },
     {
       "kind": "setting",
-      "description": "Unspecified assembly in the Nine Realms where she collects the oaths.",
+      "description": "Unspecified oath gathering during her passage through the Nine Realms; no unsupported hall or high seat.",
       "claim_ids": [
         "frigg-c10"
       ]
     }
   ],
   "artistic_choices": [
-    "Adult human witnesses, a living stag/tree and inert stone exemplify c10 animate/inanimate categories; their ceremonial attention is editorial, no specific source scene claimed.",
-    "Richly woven opaque ceremonial clothes, natural humanlike face/anatomy and an oath-decree gesture are editorial rendering of c01/c02 goddess identity.",
-    "No glow or visible prophecy/magic; no unsupported giant size.",
-    "Small background participants are farther from camera, not scale markers proving giant stature.",
-    "Root Codex selected B after native/200px comparison: B02 shows protective oath extraction c10 more directly through foreground human oath hands and severe lateral decree; A02 remains valid but frontal presentation makes the documented deed less immediate. This is illustrator selection, not independent review.",
-    "B02 dipilih: adegan menerima sumpah c10 terbaca langsung melalui tangan saksi di foreground dan profil perintah tegas; A02 lebih berupa frontal decree. Stag/tree/stone contoh editorial kategori animate/inanimate, bukan rincian sumber spesifik."
+    "Monumental divine scale is a compositional allegory under GAMBAR §5/§6.5, not a sourced assertion of literal giant anatomy.",
+    "No throne/hall: c08 only supplies unlocated Fensalir realm; oath-gathering c10 is used as the scene instead.",
+    "Beasts, people, trees, rough stones, forged metal and an ordinary flame exemplify animate/inanimate categories c10. Specific participants and arrangement are editorial. No levitation, bending metal, magically warping trees, flying rocks, prophecy vision or generic aura.",
+    "Fully opaque walnut gown and antique gold mantle are dignified editorial clothing, not claimed documented iconography.",
+    "Prior selection B02 was rejected by Claude; its PNG and complete receipt are archived under rejected/frigg-prior-selected-B02.*. Historical variants A/B remain preserved and are no longer treated as accepted candidates.",
+    "Correction01 selected after native and 200px review: Frigg towers above oath witnesses and lowered beasts, while rocks, iron, fire and trees provide all-things category examples; directly resolves rejected B02 human-scale scene. The scale is an editorial divine allegory, not source anatomy. Historical A/B PNGs and receipts remain untouched."
   ],
   "generation_failures": [],
   "rejected_attempts": [
@@ -62,25 +61,74 @@
       "receipt_file": "data/artwork-generated/batch-1617/rejected/frigg-B-attempt-01.json",
       "native_sha256": "3fa7bf4df98dfe8ba7092edf15472356100c4d7b91411e58290260bc0dfbeef2",
       "reason": "Worker rejected Sangar7: concerned ordinary woman leaning for balance; tree and stone contact insufficient divine oath moment."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/frigg-prior-selected-B02.png",
+      "native_sha256": "44bdd55812656bfc6ee0c09de4f516a4caf18e6f4454b51c4c32d6e428658a5f",
+      "reason": "Reads as an ordinary woman in a cloak speaking to a few people at human scale (GAMBAR §6.1 'manusia biasa, seukuran manusia'); nothing marks her as the queen of the gods, and the deer is the only sign of the oath. Use documented attributes or setting to give divine scale (for example the hall or high seat named in her claims, the oath taken from every animate and inanimate thing shown as fire, metals, stones, beasts and trees bowing before her), low camera and one strong light. If the claims support no such attribute, record tidak-digambar as was done for Sekhmet.",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/frigg-prior-selected-B02.json"
     }
   ],
-  "generated_file": "/home/asadin/.codex/generated_images/01a13439-d160-77e0-af63-9cf8cf03baba/exec-b5bc9ec6-5c95-4699-b84a-11b5b1a64cff.png",
-  "generated_at": "2026-10-13T07:58:34.994539+00:00",
-  "original_file": "data/artwork-generated/batch-1617/originals/frigg.png",
-  "native_sha256": "44bdd55812656bfc6ee0c09de4f516a4caf18e6f4454b51c4c32d6e428658a5f",
+  "depicted_variant": "Monumental editorial allegory of Frigg receiving oaths from animate and inanimate categories across the Nine Realms.",
+  "aura": "Sovereign, monumental editorial rendering of the greatest goddess receiving universal protective oaths [frigg-c02,frigg-c10], no invented spell effects.",
+  "selected_variant": "correction-01",
+  "selected_variant_reason": "Correction01 selected after native and 200px inspection because monumental greatest-goddess allegory c02 and universal oath assembly c10 directly answer Claude rejection of ordinary human scale. Prior A/B remain historical only.",
+  "generated_variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1617/variants/frigg/A.png",
+      "receipt_file": "data/artwork-generated/batch-1617/variants/frigg/A.json",
+      "selected": false,
+      "historical_status": "prior candidate preserved; current correction replaces selection"
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1617/variants/frigg/B.png",
+      "receipt_file": "data/artwork-generated/batch-1617/variants/frigg/B.json",
+      "selected": false,
+      "historical_status": "prior candidate preserved; current correction replaces selection"
+    },
+    {
+      "variant": "correction-01",
+      "original_file": "data/artwork-generated/batch-1617/originals/frigg.png",
+      "receipt_file": "data/artwork-generated/batch-1617/frigg.json",
+      "selected": true
+    }
+  ],
+  "attempt": "correction-01",
+  "claim_classification": {
+    "anatomy": [
+      "frigg-c01",
+      "frigg-c02"
+    ],
+    "powers": [
+      "frigg-c10"
+    ],
+    "setting": [
+      "frigg-c10"
+    ],
+    "disposition": [
+      "frigg-c02",
+      "frigg-c10"
+    ]
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a13588-b8a6-77c3-b2ee-f07777fb9f64/exec-17435690-ccdc-428f-acf7-77193d61cf36.png",
+  "generated_at": "2026-10-13T14:20:26.797760+00:00",
+  "generated_at_basis": "native PNG filesystem mtime",
+  "native_sha256": "8e84d3a65a33f24519ac79b04a3618c8d55d35dead3c261f9d48fa2b506bd8b6",
   "width": 1254,
   "height": 1254,
-  "depicted_variant": "Lateral sovereign decree with adult oath witnesses and animate/inanimate examples c10; ceremonial female greatest goddess c01/c02, no magic.",
-  "aura": "Lateral sovereign decree with adult oath witnesses and animate/inanimate examples c10; ceremonial female greatest goddess c01/c02, no magic.",
-  "selection_status": "selected-by-codex-root",
-  "not_selected_reason": null,
+  "original_file": "data/artwork-generated/batch-1617/originals/frigg.png",
+  "variant": "correction-01",
+  "selection_status": "selected-by-codex-worker",
+  "native_tool_provenance_path": "data/artwork-generated/batch-1617/drafts/resume1667-A/frigg-correction-01-raw-result.json",
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Lateral sovereign decree with adult oath witnesses and animate/inanimate examples c10; ceremonial female greatest goddess c01/c02, no magic. Inspected native PNG and 200px thumbnail. All seven Sangar criteria pass.",
+    "notes": "Inspected native 1254x1254 PNG and separate 200px thumbnail. All seven Sangar checks pass: Frigg dominates the full square in monumental greatest-goddess allegory; enlarged commanding open palm with five fingers, severe spoken decree and tiny raised oath hands establish active universal promise. Respectful sacred awe remains forceful at 200px. One head/two eyes/two arms, two legs concealed under opaque full gown; no extra limbs. Trees, lowered wolves/stag, inert stones/iron and ordinary brazier represent animate/inanimate categories of c10 without unsupported spell effects. No text, watermark, aura, nudity or gore. Giant compositional scale is explicitly editorial, not asserted sourced anatomy.",
     "limitations": [],
-    "native_sha256": "44bdd55812656bfc6ee0c09de4f516a4caf18e6f4454b51c4c32d6e428658a5f",
-    "reviewed_at": "2026-10-13T07:58:34.994539+00:00"
+    "native_sha256": "8e84d3a65a33f24519ac79b04a3618c8d55d35dead3c261f9d48fa2b506bd8b6",
+    "reviewed_at": "2026-10-13T14:24:38.990990+00:00"
   },
   "sangar_checks": {
     "1": true,
@@ -91,28 +139,11 @@
     "6": true,
     "7": true
   },
-  "selected_variant": "B",
-  "selected_variant_reason": "B02 shows protective oath extraction c10 more directly through foreground human oath hands and severe lateral decree; A02 remains valid but frontal presentation makes the documented deed less immediate.",
-  "generated_variants": [
-    {
-      "variant": "A",
-      "original_file": "data/artwork-generated/batch-1617/variants/frigg/A.png",
-      "receipt_file": "data/artwork-generated/batch-1617/variants/frigg/A.json",
-      "selected": false
-    },
-    {
-      "variant": "B",
-      "original_file": "data/artwork-generated/batch-1617/variants/frigg/B.png",
-      "receipt_file": "data/artwork-generated/batch-1617/variants/frigg/B.json",
-      "selected": true
-    }
-  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-13T15:46:58+07:00",
-    "native_sha256": "44bdd55812656bfc6ee0c09de4f516a4caf18e6f4454b51c4c32d6e428658a5f",
-    "notes": "Reads as an ordinary woman in a cloak speaking to a few people at human scale (GAMBAR §6.1 'manusia biasa, seukuran manusia'); nothing marks her as the queen of the gods, and the deer is the only sign of the oath. Use documented attributes or setting to give divine scale (for example the hall or high seat named in her claims, the oath taken from every animate and inanimate thing shown as fire, metals, stones, beasts and trees bowing before her), low camera and one strong light. If the claims support no such attribute, record tidak-digambar as was done for Sekhmet."
-  },
-  "correction_notes": "Reads as an ordinary woman in a cloak speaking to a few people at human scale (GAMBAR §6.1 'manusia biasa, seukuran manusia'); nothing marks her as the queen of the gods, and the deer is the only sign of the oath. Use documented attributes or setting to give divine scale (for example the hall or high seat named in her claims, the oath taken from every animate and inanimate thing shown as fire, metals, stones, beasts and trees bowing before her), low camera and one strong light. If the claims support no such attribute, record tidak-digambar as was done for Sekhmet."
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "8e84d3a65a33f24519ac79b04a3618c8d55d35dead3c261f9d48fa2b506bd8b6",
+    "notes": "Monumental goddess seen from a very low camera with tiny oath-takers below: people, wolves, a stag, fire, stones and chains, so the oath from every animate and inanimate thing is legible. No longer an ordinary woman at human scale."
+  }
 }

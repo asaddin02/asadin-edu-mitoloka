@@ -1,0 +1,67 @@
+{
+  "slug": "caacrinolaas",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-133.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Caacrinolaas, the infernal president who appears as a dog with griffin wings.\nANATOMY: one canine head, two eyes, four canine legs, canine paws and tail; exactly two huge feathered griffin wings visibly attached to the dog's shoulders, no horns, no human parts [caacrinolaas-c05, caacrinolaas-c06].\nMOMENT: advance toward the viewer with a dog's aggressive gait, forepaw planting and wings sweeping outward, snarling jaws and intense direct eyes.\nPOWER: no abstract powers visualized; threat comes from the documented winged-dog form and bloodthirsty disposition [caacrinolaas-c02,c03]; no magic effects.\nSCALE & CAMERA: extreme low camera close to the planted paw, tight foreshortened framing; no unsupported giant size; head and wings dominate.\nLIGHT & WEATHER: one warm low sidelight cuts through deep shadow, sharp feather rim light; no fire or magical weather.\nSURFACE: coarse dark canine fur, layered brown-black feathers, tactile claws and leathery nose.\nSETTING: an unspecified dark infernal interior suggested by shadow alone [caacrinolaas-c01,c06]; no invented architecture, symbols or scenery.\nMOOD: fiercely imposing and menacing, never cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no glow aura, neon outline, energy ribbons, no bat wings.",
+  "depicted_variant": "Canine infernal president advancing with paired feathered griffin wings.",
+  "basis_claim_ids": [
+    "caacrinolaas-c01",
+    "caacrinolaas-c02",
+    "caacrinolaas-c03",
+    "caacrinolaas-c05",
+    "caacrinolaas-c06"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "caacrinolaas-c05",
+      "caacrinolaas-c06"
+    ],
+    "powers_deeds": [
+      "caacrinolaas-c02",
+      "caacrinolaas-c03",
+      "caacrinolaas-c04",
+      "caacrinolaas-c07",
+      "caacrinolaas-c08"
+    ],
+    "setting": [
+      "caacrinolaas-c01",
+      "caacrinolaas-c06"
+    ],
+    "disposition": [
+      "caacrinolaas-c02",
+      "caacrinolaas-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dog form and canine gait with griffin wings.",
+      "claim_ids": [
+        "caacrinolaas-c05",
+        "caacrinolaas-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Infernal identity suggested through darkness without invented architecture.",
+      "claim_ids": [
+        "caacrinolaas-c01",
+        "caacrinolaas-c06"
+      ]
+    }
+  ],
+  "aura": "Menace through winged dog form (c05/c06) and bloodthirsty infernal character (c02/c03).",
+  "artistic_choices": [
+    "Tight low camera and warm sidelight are editorial; no supernatural power effect visualized.",
+    "Dark canine fur and feather color are editorial; no giant size assumed."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

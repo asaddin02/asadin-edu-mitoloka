@@ -1,0 +1,97 @@
+{
+  "slug": "yemaja",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "yemaja-c07",
+      "yemaja-c18",
+      "yemaja-c08"
+    ],
+    "powers": [
+      "yemaja-c02",
+      "yemaja-c12"
+    ],
+    "setting": [
+      "yemaja-c10",
+      "yemaja-c12"
+    ],
+    "disposition": [
+      "yemaja-c04"
+    ]
+  },
+  "basis_claim_ids": [
+    "yemaja-c02",
+    "yemaja-c07",
+    "yemaja-c08",
+    "yemaja-c10",
+    "yemaja-c12",
+    "yemaja-c18"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Documented mermaid representation, female upper body and fish tail, hand mirror Abebê and cowries.",
+      "claim_ids": [
+        "yemaja-c07",
+        "yemaja-c18",
+        "yemaja-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physically turbulent ocean water around sea orisha and distressed fishermen boat as protective narrative.",
+      "claim_ids": [
+        "yemaja-c02",
+        "yemaja-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ocean in diaspora worship.",
+      "claim_ids": [
+        "yemaja-c10",
+        "yemaja-c12"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yemaja, revered Yoruba water orisha represented in a documented mermaid form.\nANATOMY: One dignified adult dark-skinned woman with one head, two arms, a single long scaly fish tail instead of human legs, the entire tail visible sweeping across foreground; upper torso fully covered by a heavy opaque ceremonial blue-white wrap. She holds a large clear hand mirror Abebê in one hand; a few cowrie shells on the opaque wrap. [yemaja-c07,yemaja-c18,yemaja-c08]\nMOMENT: Rise powerfully through turbulent sea surf, curve the unmistakable fish tail toward the camera, and extend her free open hand toward a distant distressed fishing boat; her expression calm authoritative compassion, body in active protective motion.\nPOWER: Ocean water surges physically around her tail as the documented water deity, natural breaking waves and water spray; her presence protects fishermen and shipwreck survivors, no magic light. [yemaja-c02,yemaja-c12]\nSCALE & CAMERA: extreme low waterline close-up, she fills the frame through perspective without invented giant stature, background boat distant.\nLIGHT & WEATHER: one moonlit silver rim on wet scales and sea spray, deep walnut-blue shadows, antique-gold mirror metal.\nSURFACE: wet fish scales, real opaque woven cloth, polished metal hand mirror and cowrie shell.\nSETTING: open ocean waves in the diaspora sea tradition. [yemaja-c10,yemaja-c12]\nMOOD: profoundly reverent and awe-inspiring, protective mother of waters, never predatory, cute or a fashion portrait.\nHARD CONSTRAINTS: Mermaid fish tail must be unmistakable, no human legs; no invented crown or weapons; no text, logo, border or watermark; no extra limbs or fingers; no borrowed entertainment design; no nudity, transparent clothing or gore; no generic glow aura, neon outlines or energy ribbons.",
+  "depicted_variant": "Reverent mermaid sea-orisha form rising amid surf with Abebê hand mirror.",
+  "artistic_choices": [
+    "Fully opaque blue-white wrap is editorial modest clothing, not claimed iconographic uniform.",
+    "Moonlight is photographic atmosphere supported by her association, not a luminous aura.",
+    "Boat contextualizes fishermen protection; no giant stature or magical beam."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-05b7-7bc3-b37d-69124105def2/exec-a07f42ff-6773-4771-820a-eb61ffe44e8a.png",
+  "generated_at": "2026-10-13T08:46:26.338753+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/yemaja.png",
+  "native_sha256": "f32851189b67fa9b19c20fc92113558b17f3811b659e778325b780bfdf3a99cb",
+  "width": 1254,
+  "height": 1254,
+  "aura": "Awe from mermaid form [yemaja-c07], turbulent sea realm and protective approach to fishermen [yemaja-c02,yemaja-c12].",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px checked: unmistakable single fish tail, full opaque wrap, Abebê mirror and cowries; forceful sea emergence and compassionate reaching gesture with distant boat; no text, aura, gore or human legs. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "f32851189b67fa9b19c20fc92113558b17f3811b659e778325b780bfdf3a99cb",
+    "reviewed_at": "2026-10-13T08:47:22.520335+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "f32851189b67fa9b19c20fc92113558b17f3811b659e778325b780bfdf3a99cb",
+    "notes": "Mermaid orisha with hand mirror and cowries rising from a rough night sea beside a fishermen's boat; tail and upper body coherent."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "chalchiuhtlicue",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Chalchiuhtlicue, Aztec goddess of lakes and streams, respectfully overwhelming in command of floodwater.\nANATOMY: one human female head, two arms, two hands, two legs under completely opaque heavy emerald robe and jade-green skirt; a living goddess, never stone sculpture. Female depiction grounded in the goddess image [chalchiuhtlicue-c12]; green garment is editorial inspired by her name [chalchiuhtlicue-c06,c13]. No invented crown, weapons, animal heads or jewelry.\nMOMENT: sweep both hands outward while a mighty stream bursts from beneath her garments and rushes forcefully toward the viewer; intense composed gaze into the camera, a commanding living presence.\nPOWER: torrential rain and physically churning floodwater from the Fourth Sun flood [chalchiuhtlicue-c07]; a stream issuing from beneath the goddess [chalchiuhtlicue-c12]. Water must be actual heavy water with foam, not light ribbons.\nSCALE & CAMERA: extreme low camera directly above the incoming water, close foreshortened goddess filling the upper three quarters; no tiny people or unsupported giant bodily size.\nLIGHT & WEATHER: one warm break of light behind dense rain clouds, bright rim on her robe and water, deep shadows; driving rain and large splash.\nSURFACE: weighty woven emerald cloth fully opaque even wet, natural skin, rough frothing floodwater.\nSETTING: flooded lake and streams [chalchiuhtlicue-c11], almost submerged in foreground water; no invented temple.\nMOOD: reverent, awe-inspiring divine authority, not monstrous, never a calm ordinary portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity, transparent cloth or explicit gore; no glow aura, neon outline, energy ribbons, headdress, weapons, serpents or tattoos.",
+  "depicted_variant": "Living goddess issuing a powerful flood stream beneath an opaque emerald robe.",
+  "claim_classification": {
+    "anatomy": [
+      "chalchiuhtlicue-c12"
+    ],
+    "powers_deeds": [
+      "chalchiuhtlicue-c07",
+      "chalchiuhtlicue-c12"
+    ],
+    "setting": [
+      "chalchiuhtlicue-c11"
+    ],
+    "disposition": [
+      "chalchiuhtlicue-c04",
+      "chalchiuhtlicue-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Human female goddess with opaque robe; green color is editorial inspired by name, not claimed historical costume.",
+      "claim_ids": [
+        "chalchiuhtlicue-c12",
+        "chalchiuhtlicue-c06",
+        "chalchiuhtlicue-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rain causes giant physical flood; stream issues from beneath goddess.",
+      "claim_ids": [
+        "chalchiuhtlicue-c07",
+        "chalchiuhtlicue-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lake and streams under floodwater.",
+      "claim_ids": [
+        "chalchiuhtlicue-c11"
+      ]
+    }
+  ],
+  "aura": "Commanding floodwater (c07) and stream issuing beneath goddess(c12), framed reverently as protector(c04,c09).",
+  "artistic_choices": [
+    "Emerald fully opaque robe is editorial inspired by name c06/c13; no conventional unclaimed iconography imported.",
+    "Close low framing implies authority without asserting giant body; warm sky break is ordinary lighting.",
+    "No infants depicted; flood and depicted stream are selected source motifs."
+  ],
+  "basis_claim_ids": [
+    "chalchiuhtlicue-c12",
+    "chalchiuhtlicue-c06",
+    "chalchiuhtlicue-c13",
+    "chalchiuhtlicue-c07",
+    "chalchiuhtlicue-c11",
+    "chalchiuhtlicue-c04",
+    "chalchiuhtlicue-c09"
+  ],
+  "original_file": "data/artwork-generated/batch-1667/rejected/chalchiuhtlicue-attempt-01.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-2bab9d7e-3b9d-4d85-bf45-b3c5e9e5d0ea.png",
+  "generated_at": "2026-10-13T08:52:03.698341+00:00",
+  "native_sha256": "713d38c4bbb69617fa7a1a5d3f9f93cd95c63890ce76fb675bec202d0f78a612",
+  "reason": "Static woman with open palms amidst water; source-specific stream issuing beneath goddess and actively commanded giant flood insufficiently visible; Sangar action test fails."
+}

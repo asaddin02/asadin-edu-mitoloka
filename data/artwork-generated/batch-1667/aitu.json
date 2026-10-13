@@ -1,0 +1,84 @@
+{
+  "slug": "aitu",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "aitu-c11",
+      "aitu-c12"
+    ],
+    "powers": [
+      "aitu-c13"
+    ],
+    "setting": [
+      "aitu-c12"
+    ],
+    "disposition": [
+      "aitu-c03",
+      "aitu-c10",
+      "aitu-c11",
+      "aitu-c14"
+    ]
+  },
+  "basis_claim_ids": [
+    "aitu-c11",
+    "aitu-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Samoan visible shark incarnation of tutelary spirit; natural coherent shark anatomy.",
+      "claim_ids": [
+        "aitu-c11",
+        "aitu-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea fish incarnation, distant human veneration contextualizes spirit form.",
+      "claim_ids": [
+        "aitu-c11",
+        "aitu-c12"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Aitu, using the documented Samoan shark incarnation of a revered tutelary spirit.\nANATOMY: ONE powerful natural shark incarnation with exactly one head, ordinary shark eyes, gills, two pectoral fins, dorsal fin and single shark tail; coherent shark anatomy without horns, limbs, gold ornaments or altered magical features. [aitu-c11,aitu-c12]\nMOMENT: Surge upward and bank powerfully past the low waterline camera, broad wet shark head and eye close in foreground, mouth slightly open revealing natural teeth; strong muscular turn throws a crest of physical water. A small distant human in a simple wooden canoe faces it with lowered head in reverence, no ritual objects. [aitu-c11]\nPOWER: No visible possession or supernatural beam, no invented control of waves; water splashes naturally from the shark's powerful movement only.\nSCALE & CAMERA: close low waterline split-level composition, shark dominates through near perspective and canoe stays far in background, normal shark size, no giant-size comparison.\nLIGHT & WEATHER: one low sunset shaft between dark clouds, gold rim light across wet snout and spray, deep walnut and ocean-blue shadows.\nSURFACE: real shark skin, wet gill slits, physical water droplets, plain wood.\nSETTING: sea, the setting implicit in the documented fish-of-the-sea incarnation; distant horizon with no invented sacred site. [aitu-c12]\nMOOD: reverent overwhelming presence of a tutelary deity, awe rather than horror, no attack on the human, never cute or calm animal photograph.\nHARD CONSTRAINTS: no text, lettering, logo, border or watermark; no extra heads or fins; no entertainment design; no invented horns, glowing eyes, magical water, runes or energy ribbons; no nudity or explicit gore.",
+  "depicted_variant": "Samoan shark-incarnation Aitu surging past waterline with distant respectful witness.",
+  "artistic_choices": [
+    "Chosen shark incarnation avoids mixing generic ghost forms or Tonga plant forms.",
+    "Natural splash only, no visible power effect or giant stature.",
+    "Plain canoe and lowered-head witness editorial depiction of documented veneration, no ritual objects."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-05b7-7bc3-b37d-69124105def2/exec-44e191d5-9e2b-4113-921c-9bbd40db11bf.png",
+  "generated_at": "2026-10-13T08:57:27.401166+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/aitu.png",
+  "native_sha256": "6e66c63c7fc162015e12f3bfd17ad07345d225e555248dff0b772be25a14cd16",
+  "width": 1254,
+  "height": 1254,
+  "aura": "Awe from a tutelary god's visible shark incarnation venerated by its human ward [aitu-c10,aitu-c11,aitu-c12].",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px checked: powerful natural shark incarnation surging past camera, normal gills/fins/teeth, no monstrous additions or magic; lowered-head distant witness establishes veneration without specific ritual props; perspective, not giant size. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "6e66c63c7fc162015e12f3bfd17ad07345d225e555248dff0b772be25a14cd16",
+    "reviewed_at": "2026-10-13T08:58:32.603555+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "6e66c63c7fc162015e12f3bfd17ad07345d225e555248dff0b772be25a14cd16",
+    "notes": "Shark incarnation breaching close to camera with a lone man in a canoe as distant witness; dramatic, not a calm animal shot."
+  }
+}

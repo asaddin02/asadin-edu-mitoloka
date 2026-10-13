@@ -1,0 +1,88 @@
+{
+  "slug": "atlacoya",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1667/rejected/atlacoya-attempt-01.png",
+      "native_sha256": "bf74387eb3f5ae3a57c0440735db0455e2b3fcc633224cd85d959ca8fe361152",
+      "reason": "Correct clothing/domain but ordinary woman on drypond; waterretreat/desiccation agency not visible and postureinsufficiently dynamic. Sangar ordinaryhuman/activepower requirements fail.",
+      "receipt_file": "data/artwork-generated/batch-1667/rejected/atlacoya-attempt-01.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1667/rejected/atlacoya-attempt-02.png",
+      "native_sha256": "b02f96765c59d9b26fdd683fdb5df790d48ea832e04bfdee2130cfa9af173d4d",
+      "reason": "Looks like ordinary woman crouching and touching mud; physical waterretreat not dominant and no overwhelmingdivineagency despite correctsourcecostume. Sangar test7 fails.",
+      "receipt_file": "data/artwork-generated/batch-1667/rejected/atlacoya-attempt-02.json"
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Atlacoya, Mexica goddess of drought,darkwaters and infertilelands, in source-documented clothing while physical drought grips the land beneath her.\nANATOMY: one humanlike femalegoddess,onehead,twoarms,twolegs,twoeyes; wears a completelyopaque sleeveless tunic and short QUECHQUEMITL cape over shoulders as explicitly documented[c02,c06]. Longtunic covers hips/legs entirely, natural exposedarms only. No headdress,crown,weapons,animalparts,extraarms,serpentjewelry or importedAzteciconography.\nMOMENT: Stride fiercely through the shallowing DARK WATER with torso twisting and right arm sweeping a broad arc toward camera. The exact instant her hand passes, heavy black pondwater visibly COLLAPSES into contracting pools and fissures, an abrupt broad wet-to-barren frontier races away from her hand across the scene. Large darkwater sheets recede from foreground toward her feet while bone-dry cracked earth and collapsing stalks take their place. Her face is commanding and stern with direct confronting eyes, cape and hair whip sideways. Goddess dominates as active agent of the sweeping drought, never a crouching woman examining mud.\nPOWER: physically actual DROUGHT[c01,c07]: dark pondwater retreats into shallow blackpuddles, surrounding earth desiccates into deep dry fissures and brittleplantstalks collapse in the heat. Render dryingwater and dry crackedsoil directly beside and beneath her sweepinghand, actual environmental consequence of drought, no magicalbeam,neonlines or aura. Darkwaters association[c01].\nSCALE & CAMERA: extreme lowtight camera abovegroundfissure, closeforeshortened hand and goddess fill upperthreequarters, legs planted at nearplane; naturalhumanlikebodysize,no undocumentedgiantform or tinyhumancomparisons.\nLIGHT & WEATHER: one burningwarm lowSun under a hazy parchedsky, highcontrastrim, walnutshadows; thin ordinarydrydust and physicalheatshimmer, no flames.\nSURFACE: woven matteopaque charcoal/ochre tunic and shortcape, naturalweatheredskin, hardbakedcrackedearth and shrinking blackwater.\nSETTING: drought-stricken infertile land and darkwaters[c01,c07], minimaldrypondedge, no inventedtemple,palace or battle.\nMOOD: reverent overwhelmingly stern divineauthority,awe at drought's realphysicalpower, never evilmonster,ordinarypasserby,calm or decorative.\nHARD CONSTRAINTS: no text,logo,border,frame,watermark; onehead,twoarms,twolegs,noextrafingers; no film/game/anime/comicdesign; no nudity/transparentcloth/gore; no genericglowaura,neon,energyribbons,runes,levitatingwater,fire,sunhalo,giantbody or unclaimedheadgear.",
+  "depicted_variant": "Goddess in documented smallcape/sleevelesstunic actively presides over dryingdarkpond and infertile crackedsoil.",
+  "claim_classification": {
+    "anatomy": [
+      "atlacoya-c02",
+      "atlacoya-c06"
+    ],
+    "powers_deeds": [
+      "atlacoya-c01",
+      "atlacoya-c07"
+    ],
+    "setting": [
+      "atlacoya-c01",
+      "atlacoya-c07"
+    ],
+    "disposition": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Humanlikefemalegoddess with quechquemitl smallcape and sleevelesstunic as codexdepiction.",
+      "claim_ids": [
+        "atlacoya-c02",
+        "atlacoya-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Drought dries darkwater into puddles and desiccates/infertilizes surroundingland; no magiclight.",
+      "claim_ids": [
+        "atlacoya-c01",
+        "atlacoya-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Darkwaters and infertileland underdrought.",
+      "claim_ids": [
+        "atlacoya-c01",
+        "atlacoya-c07"
+      ]
+    }
+  ],
+  "aura": "Documenteddrought/darkwatersc01 and infertilelandc07 physically visible as dryingpond/crackedsoil, goddessclothing sourcec02c06.",
+  "artistic_choices": [
+    "Garmentpalette/opaqueanklelength/tightlowcamera editorial; only source quechquemitl+sleevelesstunic used,no importedheadgear.",
+    "Sweepinghand/forwardstep editorial directdivineagency for droughtdomain; environmental drying is domainmanifestation not newspell.",
+    "Heatshimmer/sun/dust stage actualdrought, no glowingmagiceffect or giantbodysize.",
+    "Rapid waterretreat/desiccation is editorial active visualization of c01/c07 droughtdomain, not literal sourced event or added heat/firepower."
+  ],
+  "basis_claim_ids": [
+    "atlacoya-c02",
+    "atlacoya-c06",
+    "atlacoya-c01",
+    "atlacoya-c07"
+  ],
+  "original_file": "data/artwork-generated/batch-1667/rejected/atlacoya-attempt-02.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-d478c08b-fafa-40ad-b357-c6dc2cf24f36.png",
+  "generated_at": "2026-10-13T13:06:23.318046+00:00",
+  "native_sha256": "b02f96765c59d9b26fdd683fdb5df790d48ea832e04bfdee2130cfa9af173d4d",
+  "attempt": "03"
+}

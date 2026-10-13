@@ -1,0 +1,88 @@
+{
+  "slug": "chessie-sea-monster",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Chessie, the reported long dark serpentine sea monster of Chesapeake Bay.\nANATOMY: exactly one football-shaped elliptical snake head and one continuous long thin serpentine body, 30 feet long but ONLY nine inches in diameter, dark coloration; no limbs, fins, horns, mane or wings [chessie-sea-monster-c04,c06]. Body is narrow and elongated, head gently elliptical not a dragon skull; natural small eyes.\nMOMENT: swim rapidly straight toward viewer, blunt elliptical head just above water in extreme foreground and long narrow body undulating in S-curves visibly receding behind through the bay; stare confrontationally into camera, closed jaws, no invented fangs.\nPOWER: no documented supernatural power; visible wake and splash are ordinary physical swimming [chessie-sea-monster-c06].\nSCALE & CAMERA: camera one inch above the bay surface, head fills upper-center foreground; narrow body readable relative to water ripples, do NOT thicken into massive dinosaur or enlarge beyond source measurements.\nLIGHT & WEATHER: dying warm sidelight at dusk, dark sky, cold shadow water; bright rim on slick head and real wake splash.\nSURFACE: dark wet finely textured snake skin and heavy actual water.\nSETTING: Chesapeake Bay [chessie-sea-monster-c01,c06], far shore barely glimpsed behind the long body.\nMOOD: an imposing unnerving close encounter, not cute, calm, decorative or distant.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or body coils disconnected from single body; no limbs or fins; no borrowed film/game/anime/comic designs; no gore; no generic glow aura, neon outline, energy ribbons; no giant thick neck or dragon anatomy.",
+  "depicted_variant": "Narrow dark serpentine swimmer with football-shaped head approaching water-level camera.",
+  "claim_classification": {
+    "anatomy": [
+      "chessie-sea-monster-c04",
+      "chessie-sea-monster-c06"
+    ],
+    "powers_deeds": [
+      "chessie-sea-monster-c06"
+    ],
+    "setting": [
+      "chessie-sea-monster-c01",
+      "chessie-sea-monster-c06"
+    ],
+    "disposition": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Continuous narrow serpentine body25–40feet long8–10inches diameter; elliptical football-shaped head; dark form.",
+      "claim_ids": [
+        "chessie-sea-monster-c04",
+        "chessie-sea-monster-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical wake from swimming; no supernatural effects.",
+      "claim_ids": [
+        "chessie-sea-monster-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Chesapeake Bay.",
+      "claim_ids": [
+        "chessie-sea-monster-c01",
+        "chessie-sea-monster-c06"
+      ]
+    }
+  ],
+  "aura": "Long dark serpentine swimmer(c04/c06) confronts from water-level perspective, without invented powers.",
+  "artistic_choices": [
+    "Dusk, close camera and confrontational swim are editorial.",
+    "Small natural eyes and fine skin texture render serpentine category without adding dragon anatomy.",
+    "Body diameter must remain source-faithful, no giant thick neck."
+  ],
+  "basis_claim_ids": [
+    "chessie-sea-monster-c04",
+    "chessie-sea-monster-c06",
+    "chessie-sea-monster-c01"
+  ],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-93e2a2db-37c4-4357-8ce7-ecb850b5274e.png",
+  "generated_at": "2026-10-13T08:55:12.774728+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/chessie-sea-monster.png",
+  "native_sha256": "89d88eff71c39b4d42df5468f79f3b4bfc5f106405768db2a1713c2a0448aac0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected: single continuous long narrow dark serpent, football-shaped head, no limbs/fins/horns; swimming toward camera makes an imposing encounter. Real wake c06 only; anatomy source c04; all seven Sangar tests yes.",
+    "limitations": [],
+    "native_sha256": "89d88eff71c39b4d42df5468f79f3b4bfc5f106405768db2a1713c2a0448aac0",
+    "reviewed_at": "2026-10-13T08:55:12.774972+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "89d88eff71c39b4d42df5468f79f3b4bfc5f106405768db2a1713c2a0448aac0",
+    "notes": "Long narrow dark serpentine body with a football-shaped head swimming at a water-level camera in the bay at sunset."
+  }
+}

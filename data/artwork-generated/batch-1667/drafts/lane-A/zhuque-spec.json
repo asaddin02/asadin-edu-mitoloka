@@ -1,0 +1,60 @@
+{
+  "slug": "zhuque",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "zhuque-c01",
+      "zhuque-c08"
+    ],
+    "powers": [
+      "zhuque-c02"
+    ],
+    "setting": [
+      "zhuque-c01",
+      "zhuque-c03"
+    ],
+    "disposition": []
+  },
+  "basis_claim_ids": [
+    "zhuque-c01",
+    "zhuque-c02",
+    "zhuque-c03",
+    "zhuque-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Vermilion bird with beak, coherent two-wing two-foot avian body; no imported fenghuang composite iconography.",
+      "claim_ids": [
+        "zhuque-c01",
+        "zhuque-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Celestial sky for Chinese constellation spirit.",
+      "claim_ids": [
+        "zhuque-c01",
+        "zhuque-c03"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Zhuque, the Vermilion Bird spirit of the Chinese southern constellations, distinct from fenghuang.\nANATOMY: One magnificent entirely vermilion-red mythological BIRD, one head with a clearly visible bird beak, two huge spreading feathered wings, two avian feet and a single layered feather tail. Natural coherent avian anatomy, no dragon parts, no crown, no horns; plumage is red as its name states. [zhuque-c01,zhuque-c08]\nMOMENT: Descend toward the low camera with wings thrust forward and downward in a powerful banking stroke, talons flexed, direct commanding bird gaze; beak closed rather than smiling, the body and wings fill nearly all the image.\nPOWER: No claimed fire-breathing or magic emission. Fire correspondence is expressed by vermilion color and hot golden lighting only, never flames or energy emanating from the bird. [zhuque-c02]\nSCALE & CAMERA: extreme low close view underneath the banking bird, feather detail in the foreground; dominance by perspective, no terrestrial object used to imply giant size.\nLIGHT & WEATHER: one deep summer sunset opening below a dark starry celestial sky, strong warm rim light, deep walnut-red shadows.\nSURFACE: layered realistic red feathers with worn pale-gold edges from illumination, sharp bird beak.\nSETTING: celestial sky, normal distant stars in the background establishing the constellation spirit, no drawn star-lines or glowing symbols. [zhuque-c01,zhuque-c03]\nMOOD: reverent, overwhelming and awe-inspiring celestial presence, not an ordinary bird photograph, never cute or decorative.\nHARD CONSTRAINTS: no text, logo, frame, border or watermark; no invented fire power, luminous aura, energy ribbons, constellation diagrams or runes; no extra heads or limbs; no borrowed phoenix entertainment design; no nudity or explicit gore.",
+  "depicted_variant": "Vermilion constellation bird banking toward the viewer against stars.",
+  "artistic_choices": [
+    "Bird category rendered with ordinary coherent avian appendages, not a sourced unusual head/wing count.",
+    "Fire/summer correspondence c02 translated into sunset color only, not invented fire-breathing or burning feathers.",
+    "Perspective and wing gesture create awe; no claimed giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

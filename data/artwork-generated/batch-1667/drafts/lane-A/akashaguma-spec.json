@@ -1,0 +1,65 @@
+{
+  "slug": "akashaguma",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-057.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "akashaguma-c01",
+      "akashaguma-c10"
+    ],
+    "powers": [
+      "akashaguma-c06"
+    ],
+    "setting": [
+      "akashaguma-c06"
+    ],
+    "disposition": [
+      "akashaguma-c04",
+      "akashaguma-c05"
+    ]
+  },
+  "basis_claim_ids": [
+    "akashaguma-c01",
+    "akashaguma-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small red-haired childlike yokai, normal childlike human anatomy without invented demonic features.",
+      "claim_ids": [
+        "akashaguma-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flying unsupported while shouting loudly.",
+      "claim_ids": [
+        "akashaguma-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night mountain sky, Kagawa outdoor flying variant.",
+      "claim_ids": [
+        "akashaguma-c06"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Akashaguma, the red-haired childlike yōkai of Shikoku, using the Kagawa flying tradition.\nANATOMY: ONE small childlike yōkai with red hair, one head, two arms, two legs, dressed in entirely opaque worn earth-brown simple robes. Fierce tightly furrowed brows and wide shouting human mouth; normal eyes, teeth and hands; no wings, horns or claws. [akashaguma-c01]\nMOMENT: Fly unsupported through mountain night air shouting loudly, body horizontal and curling down toward the viewer with both hands thrown outward, wind-tossed intense red hair. The apparition is the large foreground subject, visibly airborne above a steep mountain gap. [akashaguma-c06]\nPOWER: Documented unassisted flight only, made visible by body position above the ground; no magic trails, no glowing aura, no invented attack.\nSCALE & CAMERA: extremely close low upward camera underneath the flying childlike spirit, face and hands foreground, distant mountain ridges below, no invented giant size.\nLIGHT & WEATHER: one low cold moon side light, warm red hair accent, deep walnut shadows and ordinary cloud haze.\nSURFACE: tangled red hair, weathered fully opaque cloth, natural face texture.\nSETTING: mountain sky at night from Kagawa tradition. [akashaguma-c06]\nMOOD: uncanny, confrontational and unsettling supernatural apparition, not cute, smiling, playful cartoon or ordinary child portrait; respect the folklore rather than adding demonic parts.\nHARD CONSTRAINTS: no text, lettering, logo, border or watermark; no extra limbs or fingers; no borrowed entertainment design; no nudity, transparent cloth, child peril or gore; no generic glow aura, neon outlines or energy ribbons.",
+  "depicted_variant": "Kagawa red-haired childlike yokai flying and shouting in mountain night sky.",
+  "artistic_choices": [
+    "Opaque simple robes editorial for modesty; no exact historical garment asserted.",
+    "Airborne pose gives source-backed uncanniness instead of invented horns, teeth or giant size.",
+    "Mountain moonlit weather is editorial staging."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

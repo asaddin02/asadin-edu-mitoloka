@@ -1,0 +1,46 @@
+{
+  "worker_agent": "resume1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "built_in_calls": 6,
+  "tool_failures": 0,
+  "new_quality_rejections": 4,
+  "historical_claude_rejections_archived": 1,
+  "final_images": 2,
+  "declined": 1,
+  "checks": [
+    {
+      "slug": "bulgae",
+      "batch": 1667,
+      "status": "awaiting-independent-review",
+      "validation": "pass",
+      "native_sha256": "b0625b039198c1fb5c5f2590aad9f100d2468cdff28ceeab9faabe071d60d961",
+      "rejected_attempts": 1
+    },
+    {
+      "slug": "burha-dangoria",
+      "batch": 1667,
+      "status": "tidak-digambar",
+      "validation": "pass",
+      "native_sha256": null,
+      "rejected_attempts": 3
+    },
+    {
+      "slug": "mnemosyne",
+      "batch": 1617,
+      "status": "awaiting-independent-review",
+      "validation": "pass",
+      "native_sha256": "ab0d16222e03fe6d57a5c7fea23ca46ed6184b9500c206123e75668b8c06ca2d",
+      "rejected_attempts": 1
+    }
+  ],
+  "notes": [
+    "Root independently viewed and passed Bulgae02 and MnemosyneCorrection01 at native/200px.",
+    "Root rejected Burha03; final decline contains all3archived attempts and no accepted visual review.",
+    "Mnemosyne monumental stature explicitly editorial sacred allegory, not source physical size.",
+    "Historical MnemosyneA/B paths retained; selected_variant_reason now refers to correction; old full receipt/PNG preserved.",
+    "No ledger/journal/root_visual_review/research/catalog/power/JS/manifests/assets/art/backups/nama-besar modifications; no integrate/commit/push."
+  ]
+}

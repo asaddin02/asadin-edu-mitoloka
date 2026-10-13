@@ -1,0 +1,72 @@
+{
+  "slug": "canterbury-panther",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Canterbury Panther, the reported black panther of Canterbury, New Zealand.\nANATOMY: one black big-cat head, two natural eyes, four feline legs, long feline tail, black fur, normal panther anatomy [canterbury-panther-c01].\nMOMENT: bound directly at the viewer, shoulders contracted and one forepaw lunging toward camera, snarling jaws, ears flattened; make this a dangerous close encounter, not an animal calmly at pasture.\nPOWER: no supernatural powers documented or shown; menace solely from predatory anatomy and sudden lunge.\nSCALE & CAMERA: very low tight ground camera, foreshortened paw and looming face filling almost the entire frame; natural big-cat scale, never giant.\nLIGHT & WEATHER: one dying warm sidelight against deep shadow, golden rim on black fur; airborne dust from the bounding paw, physically ordinary.\nSURFACE: dense black fur, natural moist nose and tactile claws, yellow-brown eyes reflecting light without emitting light.\nSETTING: Canterbury Region, New Zealand [canterbury-panther-c01], minimally glimpsed dark earth and indistinct grass, no invented landmark.\nMOOD: dangerous, imposing and confronting, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no magic, glow aura, neon outline, energy ribbons, horns, wings, fire or giant size.",
+  "depicted_variant": "Reported black panther in a sudden predatory bound.",
+  "claim_classification": {
+    "anatomy": [
+      "canterbury-panther-c01"
+    ],
+    "powers_deeds": [],
+    "setting": [
+      "canterbury-panther-c01"
+    ],
+    "disposition": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Black panther with ordinary feline anatomy; no supernatural additions.",
+      "claim_ids": [
+        "canterbury-panther-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Minimal Canterbury ground without landmarks.",
+      "claim_ids": [
+        "canterbury-panther-c01"
+      ]
+    }
+  ],
+  "aura": "Predatory black panther close encounter grounded in c01, without supernatural effects.",
+  "artistic_choices": [
+    "Predatory lunge and warm sidelight are editorial staging, not documented powers.",
+    "No supernatural effect or oversized body; natural big-cat anatomy only."
+  ],
+  "basis_claim_ids": [
+    "canterbury-panther-c01"
+  ],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-d31cbda0-17f0-497d-8a6e-d08537ddafbc.png",
+  "generated_at": "2026-10-13T08:49:59.523234+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/canterbury-panther.png",
+  "native_sha256": "8f85b20cc896d0798d7611f0de4964c24eb59c80ec794e226fde3535f1e22346",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected: black panther lunges into camera with four feline legs, one tail, natural eyes, black fur. Dangerous close encounter all seven tests yes; dust is physical paw contact, no supernatural powers.",
+    "limitations": [],
+    "native_sha256": "8f85b20cc896d0798d7611f0de4964c24eb59c80ec794e226fde3535f1e22346",
+    "reviewed_at": "2026-10-13T08:49:59.523473+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "8f85b20cc896d0798d7611f0de4964c24eb59c80ec794e226fde3535f1e22346",
+    "notes": "Black panther in a predatory bound at the camera with dust thrown up; ordinary feline anatomy."
+  }
+}

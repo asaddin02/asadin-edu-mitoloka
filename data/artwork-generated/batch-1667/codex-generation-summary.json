@@ -1,0 +1,99 @@
+{
+  "batch": 1667,
+  "generated_at": "2026-10-13T14:35:06.046136+00:00",
+  "target": 50,
+  "drawn": 44,
+  "declined": 6,
+  "pending": 0,
+  "status": "awaiting-independent-review",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "generation_complete": true,
+  "integration_performed": false,
+  "gallery": "docs/artwork-batch-1667.html",
+  "prompts": "data/artwork-generated/batch-1667/codex-prompts.json",
+  "root_native_reviews": "data/artwork-generated/batch-1667/drafts/root/codex-native-reviews.json",
+  "validation": "data/artwork-generated/batch-1667/drafts/root/validation.json",
+  "declined_entries": [
+    {
+      "slug": "abzar-iyesi",
+      "reason": "Accepted c07 documents appearance only as an unspecified ordinary person or animal, feeding some livestock and persecuting others. It supplies no distinctive anatomy, attributes or visibly supernatural active manifestation. A threatening barn scene would depict an ordinary person or animal; adding monstrous anatomy or magical effects to distinguish the spirit would invent unsupported facts. Deferred under GAMBAR6.5 and source-faithful Sangar constraints."
+    },
+    {
+      "slug": "atlacoya",
+      "reason": "Threegeneratedoutputs remain ordinarywoman in dryingland despite documentedsmallcape/sleevelesstunic and droughtdomain. No acceptedoutput passes Sangar. Refuse to add unsupportedgiantbody,headgear or spellFX."
+    },
+    {
+      "slug": "banjhakri-and-banjhakrini",
+      "reason": "Tiga percobaan telah diperiksa native dan200px; semuanya gagal menampilkan kedua kaki Banjhakri menunjuk terbalik sesuai banjhakri-and-banjhakrini-c03. Tidak menerima pasangan dengan satu kaki masih mengarah maju. KetigaPNG,promptpersis,hash,provenance dan alasan diarsipkan; dibutuhkan koreksi anatomi pada sesi lain bila pemilik meminta."
+    },
+    {
+      "slug": "blain",
+      "reason": "Klaim menyebut Blainn sebagai istilah puitis untuk Ymir maupun kurcaci (c02,c07,c08), tanpa rincian rupa yang membedakan atau perbuatan/manifestasi aktif subjek. c04-c06 membahas tulang dan interpretasi penciptaan oleh para dewa, bukan aksi Blainn. Warna dari etimologi c03 tidak membuktikan kulit biru; tidak mengarang tubuh, ikonografi atau lanskap kosong."
+    },
+    {
+      "slug": "burha-dangoria",
+      "reason": "Tiga percobaan native+200px tetap terbaca sebagai pria tua berpakaian putih menunggang kuda biasa, meskipun mencoba pembelaan pohon, bodily ailment, framing dekat, cahaya low-key dan gerak memerintah. Klaim c02/c04/c07/c08 mendukung rupa pria tampan bertubuh tinggi-kuat dengan pakaian putih dan kuda; c05/c10 mendukung kemarahan/penderitaan tubuh, tetapi tidak mendukung anatomi pembeda, ukuran raksasa, halo, fitur hantu atau mekanisme sihir. Menambah fitur tersebut demi memenuhi Sangar akan mengarang. Ketiga PNG, prompt dan provenance disimpan; decline mengikuti GAMBAR §4/§6.4 setelah maksimal3percobaan."
+    },
+    {
+      "slug": "chimata-no-kami",
+      "reason": "Accepted claims document birth from discarded trousers and road-junction meaning, but no bodily form, iconography, or visually active manifestation. A humanoid emerging from trousers would invent anatomy; trousers alone or road landscape would fail subject/Sangar requirements."
+    }
+  ],
+  "batch_archived_attempts": 16,
+  "batch_generation_failures": 0,
+  "resume_session": {
+    "recovered_final_pngs_reviewed": 9,
+    "new_batch_receipts": 7,
+    "new_batch_selected_pngs": 6,
+    "new_correction_pngs": 3,
+    "new_image_calls": 15,
+    "new_quality_rejections": 6,
+    "image_tool_failures": 0,
+    "agent_capacity_interruption": "Lane B interrupted selected model at capacity; resumed same model successfully, no duplicate output request.",
+    "agents": {
+      "resume1667-A": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high",
+        "batch_slugs": [
+          "biwa-bokuboku",
+          "blue-mountains-panther",
+          "boto"
+        ],
+        "correction": "frigg",
+        "new_image_calls": 5
+      },
+      "resume1667-B": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high",
+        "batch_slugs": [
+          "bownessie",
+          "buarainech"
+        ],
+        "correction": "tata-duende",
+        "new_image_calls": 4
+      },
+      "resume1667-C": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high",
+        "batch_slugs": [
+          "bulgae",
+          "burha-dangoria"
+        ],
+        "correction": "mnemosyne",
+        "new_image_calls": 6
+      }
+    }
+  },
+  "status_final": {
+    "active_artwork": 1567,
+    "awaiting_total": 47,
+    "needs_correction": 0,
+    "invalid_receipts": 0
+  },
+  "limitations": [
+    "44PNG batch1667 and3 correction PNGs await second review by Claude; Codex passes do not constitute independent review.",
+    "Frigg and Mnemosyne monumental stature is editorial divine allegory, not a source claim of literal giant bodies.",
+    "PNG files are local ignored artifacts; every native output and historical attempt retained."
+  ]
+}

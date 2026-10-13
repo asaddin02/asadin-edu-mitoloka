@@ -1,0 +1,73 @@
+{
+  "slug": "ayao",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ayao, the revered Santería orisha of air and fierce warrior residing in forest and tornado eye.\nANATOMY: One dignified female warrior, one head, two eyes, two arms and two legs; fully opaque layered brown and green cloth; hold one substantial crossbow with a real serpent coiled along it, a quill tucked into the sash, exactly nine ordinary stones clearly set in a 3 by 3 arrangement on the broad belt. [ayao-c02,ayao-c03,ayao-c04]\nMOMENT: Bracing forward within the eye of a violent tornado, lift the serpent crossbow toward the viewer, stern focused gaze; body and crossbow fill most of the image.\nPOWER: The air domain manifests as physical tornado wind around her, leaves and branches swept circularly around the calm eye, no magical lights. [ayao-c01]\nSCALE & CAMERA: extreme low camera close framing and strong foreshortening; no giant body or people as scale markers.\nLIGHT & WEATHER: one warm break of sunset through dark tornado cloud, strong rim light, deep shadows, airborne brown leaves.\nSURFACE: heavy wind-whipped textured opaque cloth, worn wood crossbow, natural serpent scales, rough nine stones.\nSETTING: dense forest in tornado eye. [ayao-c01,ayao-c11]\nMOOD: reverent, awe-inspiring fierce warrior, overwhelming dignity and elemental presence.\nHARD CONSTRAINTS: no text, lettering, logo, border or watermark; no extra heads limbs fingers; no film game anime comic design; no nudity or explicit gore; no generic glow aura neon outline energy ribbons; no crown or imported religious iconography; keep all nine belt stones distinct.",
+  "depicted_variant": "Reverent female warrior with serpent crossbow, quill and nine stones in forest tornado eye.",
+  "basis_claim_ids": [
+    "ayao-c02",
+    "ayao-c03",
+    "ayao-c04",
+    "ayao-c01",
+    "ayao-c11"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "ayao-c02",
+      "ayao-c03",
+      "ayao-c04"
+    ],
+    "powers": [
+      "ayao-c01"
+    ],
+    "setting": [
+      "ayao-c01",
+      "ayao-c11"
+    ],
+    "disposition": [
+      "ayao-c02"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Female fierce warrior carrying serpent crossbow, quill and nine stones; brown/green associated colors",
+      "claim_ids": [
+        "ayao-c02",
+        "ayao-c03",
+        "ayao-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical tornado wind around the air orisha in its eye",
+      "claim_ids": [
+        "ayao-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forest and eye of tornado",
+      "claim_ids": [
+        "ayao-c01",
+        "ayao-c11"
+      ]
+    }
+  ],
+  "aura": "Air-domain tornado and fierce warrior bearing create awe [ayao-c01,ayao-c02].",
+  "artistic_choices": [
+    "Human proportions and opaque robe are restrained editorial renderings of the female warrior; no giant scale.",
+    "Physical wind uses air domain and tornado habitat; nine stones arranged on a belt for count readability.",
+    "Sunset, framing and dark palette are editorial lighting choices."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "beast-of-bont",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Beast of Bont / Bwystfil Bont, an enormous black cat reported attacking livestock in Ceredigion Wales at dusk.\nANATOMY: One giant black pantherlike cat, one head, two eyes, four legs, one long feline tail; black fur, powerful feline jaws and ordinary cat teeth, muscular shoulders and visibly extended feline claws. No horns, wings, magical anatomy. [beast-of-bont-c01,beast-of-bont-c02]\nMOMENT: Spring forward toward the viewer from a Welsh sheep field, open snarling jaws and both leading paws reaching, massive shoulders dominating; intact frightened sheep scatter just behind the paws. [beast-of-bont-c01]\nPOWER: No documented supernatural power. Physical cat leap kicks turf and loose earth naturally; no glow, no magic, no blood.\nSCALE & CAMERA: extreme low ground-level camera, beast fills most of square, nearby sheep beneath shoulder height demonstrate the reported enormous cat size; avoid planet-sized monster.\nLIGHT & WEATHER: one dying warm dusk horizon, high contrast rim light on black fur, deep walnut shadows and disturbed earthy dust.\nSURFACE: rough damp black fur, muddy claws and paws, torn turf.\nSETTING: farm field in Ceredigion Wales as dusk falls, modest stone boundary at edge, no fancy fortress. [beast-of-bont-c01]\nMOOD: predatory dangerous livestock attacker, unmistakably imposing cryptid action, not an ordinary cat at pasture.\nHARD CONSTRAINTS: no text logo border watermark; no extra heads limbs tails; no film game anime comic designs; no nudity or gore; no damaged sheep or carcasses; no glowing eyes aura neon energy ribbons.",
+  "depicted_variant": "Enormous black pantherlike cat leaping from a Welsh sheep field at dusk.",
+  "basis_claim_ids": [
+    "beast-of-bont-c01",
+    "beast-of-bont-c02"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "beast-of-bont-c01",
+      "beast-of-bont-c02"
+    ],
+    "powers": [],
+    "setting": [
+      "beast-of-bont-c01"
+    ],
+    "disposition": [
+      "beast-of-bont-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Enormous black cat with pantherlike feline anatomy",
+      "claim_ids": [
+        "beast-of-bont-c01",
+        "beast-of-bont-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical livestock attack leap without magic or gore",
+      "claim_ids": [
+        "beast-of-bont-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ceredigion farm fields at dusk with sheep",
+      "claim_ids": [
+        "beast-of-bont-c01"
+      ]
+    }
+  ],
+  "aura": "Reported enormous black cat attacking livestock becomes a close predatory leap [beast-of-bont-c01,c02].",
+  "artistic_choices": [
+    "No documented supernatural powers: disturbed turf/dust comes from physical leap only.",
+    "Natural feline limb/tooth rendering follows black cat category rather than imported monster iconography.",
+    "Small nearby sheep show documented enormous-cat scale; dusk and field source-grounded; stone boundary editorial rural detail."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-d2ea-75a1-8822-f0172bfe6e30/exec-68de6a73-7195-455c-8583-692d69046361.png",
+  "generated_at": "2026-10-13T09:01:58.837442+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/beast-of-bont.png",
+  "native_sha256": "b6a6596137d53343853df81c8366580dca7f433cc2ac41ddbf6f691077e1d93c",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: enormous black feline leaps at viewer, claws and jaws readable, nearby intact sheep establish documented scale, turf tossed physically, Welsh dusk field. All seven Sangar checks yes; no supernatural power, gore,text,extra heads or limbs.",
+    "limitations": [],
+    "native_sha256": "b6a6596137d53343853df81c8366580dca7f433cc2ac41ddbf6f691077e1d93c",
+    "reviewed_at": "2026-10-13T09:01:58.837442+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "b6a6596137d53343853df81c8366580dca7f433cc2ac41ddbf6f691077e1d93c",
+    "notes": "Huge black panther-like cat bounding at the camera through a Welsh sheep field at dusk; sheep scatter, no gore."
+  }
+}

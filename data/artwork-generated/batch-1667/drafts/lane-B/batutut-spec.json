@@ -1,0 +1,77 @@
+{
+  "slug": "batutut",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Batutut / Nguoi Rung, the not-quite-human not-quite-ape forest cryptid of Vietnam.\nANATOMY: One upright simian humanoid, one head two deep-set eyes under a prominent heavy brow, long muscular arms, broad shoulders and heavy torso; reddish-brown hair covers the body. Two arms with ordinary five-digit hands, two legs and broad humanoid feet. About five feet tall in this eyewitness variant, NOT a giant. Opaque dark lower wrap for modesty. [batutut-c04,batutut-c05,batutut-c08]\nMOMENT: Burst from crouch out of a rocky cave toward the viewer, one long arm thrust forward, other hand braced on rock, face snarling aggressively, heavy brow sharply visible. [batutut-c03,batutut-c09]\nPOWER: A small real fire that the creature can use burns on cave floor behind it, orange embers rise naturally, no fire conjured from hands or body. [batutut-c03]\nSCALE & CAMERA: extreme low camera on cave floor, close foreshortened long arms and broad shoulders fill the square; ordinary rock sizes, no giant scaling.\nLIGHT & WEATHER: one low fire source behind and to side, copper rim light on reddish hair, heavy shadow, physical thin smoke only from campfire.\nSURFACE: coarse damp reddish-brown hair, weathered simian skin, gritty rocks, ash.\nSETTING: cave opening into northern Vietnamese forest. [batutut-c01,batutut-c03,batutut-c04]\nMOOD: sudden dangerous aggressive encounter, supernatural forest humanoid, never ordinary gorilla or calm Bigfoot portrait.\nHARD CONSTRAINTS: no text logo border watermark; no extra heads limbs fingers; no film game anime comic design; no horns tusks or claws; no weapons, no nudity explicit gore; no generic glow aura neon energy ribbons.",
+  "depicted_variant": "Reddish-haired heavy-browed simian forest humanoid lunging from a fire-lit cave.",
+  "basis_claim_ids": [
+    "batutut-c04",
+    "batutut-c05",
+    "batutut-c08",
+    "batutut-c03",
+    "batutut-c09",
+    "batutut-c01"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "batutut-c04",
+      "batutut-c05",
+      "batutut-c08"
+    ],
+    "powers": [
+      "batutut-c03"
+    ],
+    "setting": [
+      "batutut-c01",
+      "batutut-c03",
+      "batutut-c04"
+    ],
+    "disposition": [
+      "batutut-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Reddish-brown hairy upright not-quite-human not-quite-ape, deep-set eyes, heavy brow, long muscular arms, broad shoulders and torso; five-foot eyewitness variant",
+      "claim_ids": [
+        "batutut-c04",
+        "batutut-c05",
+        "batutut-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Aggressive physical lunge and real cave fire usage, no pyrokinesis",
+      "claim_ids": [
+        "batutut-c03",
+        "batutut-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Northern Vietnam forest cave",
+      "claim_ids": [
+        "batutut-c01",
+        "batutut-c03",
+        "batutut-c04"
+      ]
+    }
+  ],
+  "aura": "Aggressive lunge, long arms, heavy brow and fire-used cave presence create menace [batutut-c03,batutut-c08,batutut-c09].",
+  "artistic_choices": [
+    "Choose five-foot eyewitness variant rather than general two-metre reports; no invented giant scale.",
+    "Fire is ordinary fire used by creature, not a magical emission; smoky cave is grounded in cave and fire legend.",
+    "Opaque lower wrap and low close camera are editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

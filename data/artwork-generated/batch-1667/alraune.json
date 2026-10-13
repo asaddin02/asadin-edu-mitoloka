@@ -1,0 +1,87 @@
+{
+  "slug": "alraune",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "alraune-c03",
+      "alraune-c06"
+    ],
+    "powers": [
+      "alraune-c02",
+      "alraune-c07"
+    ],
+    "setting": [
+      "alraune-c06"
+    ],
+    "disposition": []
+  },
+  "basis_claim_ids": [
+    "alraune-c03",
+    "alraune-c06",
+    "alraune-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small vaguely humanoid mandrake root, clearly woody plant rather than human infant.",
+      "claim_ids": [
+        "alraune-c03",
+        "alraune-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Uprooted root cries with human voice, black dog connected by cord collapses without gore.",
+      "claim_ids": [
+        "alraune-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Earth under empty gallows.",
+      "claim_ids": [
+        "alraune-c06"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Alraune, the vaguely human-shaped mandrake root of German medieval belief, at the moment of its deadly uprooting cry.\nANATOMY: ONE small mandrake ROOT, rough earth-covered woody root shaped vaguely like a tiny human body: single rounded root-head and root-torso, two tapering root-branch arms and two thick divided root legs, leafy mandrake shoots from crown. Keep it visibly a dirty knotted plant root, not a flesh baby, doll or ordinary human. A dark split in the root head forms the human-voiced screaming mouth, not animal fangs. [alraune-c03,alraune-c06]\nMOMENT: Burst out of torn earth pulled by a simple cord that runs from plant to the neck of a black dog behind; the root screams with its split mouth while the black dog collapses from the documented lethal cry, eyes shut, no injuries or blood. Root fills foreground and its torn root fibers scatter real soil. [alraune-c07]\nPOWER: The human-voiced scream kills the listening dog, shown only by a non-graphic collapsed animal; no visible sound rings, magic lights or invented roots attacking anyone. [alraune-c07]\nSCALE & CAMERA: extreme near-ground macro low angle facing the small root, black dog naturally farther back, no invented giant size.\nLIGHT & WEATHER: one cold moon sidelight on root fibers, deep walnut earth shadows, ordinary drifting disturbed dirt.\nSURFACE: cracked ochre mandrake root, tangled fine root hairs and adhered soil, real damp leaves.\nSETTING: ground beneath an empty wooden gallows, no human corpse and no noose foreground. [alraune-c06]\nMOOD: deeply uncanny and dangerous living root with a fatal cry, never cute, cartoon baby, decorative mandrake or a normal plant study.\nHARD CONSTRAINTS: no text, logo, border or watermark; no extra root bodies, heads or limbs; no entertainment design; no nudity, flesh infant, blood or explicit gore; no generic glow aura, energy ribbons, visible sound effects or floating runes.",
+  "depicted_variant": "Humanoid mandrake root emitting its fatal uprooting cry, black dog and cord behind.",
+  "artistic_choices": [
+    "Plant-root variant chosen, not combined with succubus variant.",
+    "Mouth-like dark root split visualizes the sourced human-voiced cry; humanoid root-branch divisions editorial shape, not fixed source count.",
+    "Extreme macro scale keeps small root small; dog non-graphic and no corpse displayed."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-05b7-7bc3-b37d-69124105def2/exec-8940e139-7d12-427c-9372-156b12ae7880.png",
+  "generated_at": "2026-10-13T09:05:19.348088+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/alraune.png",
+  "native_sha256": "586fd3a81579fb1eef6738f823a590927617306b442da4c5ff8052e673d6e4e1",
+  "width": 1254,
+  "height": 1254,
+  "aura": "Danger from the humanoid mandrake root [alraune-c03,alraune-c06] whose uprooting human-voiced cry kills the dog [alraune-c07].",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px checked: visibly woody dirty humanoid root screaming as uprooted, cord visibly attached to black dog's neck; non-graphic collapsed dog, empty gallows, source fatal cry visible through outcome, no gore/text/magic sound rings. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "586fd3a81579fb1eef6738f823a590927617306b442da4c5ff8052e673d6e4e1",
+    "reviewed_at": "2026-10-13T09:06:48.427551+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "586fd3a81579fb1eef6738f823a590927617306b442da4c5ff8052e673d6e4e1",
+    "notes": "Woody humanoid mandrake root screaming as it is torn from the earth; black dog collapsed on the cord under an empty gallows, no gore."
+  }
+}

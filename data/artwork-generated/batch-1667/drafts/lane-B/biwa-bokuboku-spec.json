@@ -1,0 +1,77 @@
+{
+  "slug": "biwa-bokuboku",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Biwa-bokuboku, an old biwa lute that has grown a human body and roams playing its own music.\nANATOMY: One HUMAN-SHAPED body in fully opaque weathered blind-priest robe, two arms two legs, its ONLY HEAD is an upright SHORT-NECKED WOODEN BIWA LUTE with broad pear-shaped soundboard, wooden neck and tuning pegs. Two closed eyes incorporated subtly into the lute soundboard, no separate human head or human face mask. One hand grips one cane, other hand plucks the real strings of its own lute-head. [biwa-bokuboku-c02,biwa-bokuboku-c06,biwa-bokuboku-c11,biwa-bokuboku-c16]\nMOMENT: Step toward viewer along a dark street while playing its own head strings, lean heavily over planted cane, closed eyes and mournful expression carved into wood; robe swings with walking stride. [biwa-bokuboku-c03,biwa-bokuboku-c12]\nPOWER: The instrument plays itself; show physical strings being plucked, no floating musical notes, sound blasts or invented magic. [biwa-bokuboku-c12]\nSCALE & CAMERA: extreme low close street-level camera, lute head and cane-hand fill most of square, normal human proportions and scale, clearly an animated musical object rather than ordinary person.\nLIGHT & WEATHER: one warm street lantern from outside frame, severe rim light on varnished wood, black alley shadows; dry still night without unsupported storm.\nSURFACE: scratched aged wooden soundboard, taut strings, worn tuning pegs, coarse opaque dark robe, weathered wooden cane, rough street stones.\nSETTING: Japanese street at night. [biwa-bokuboku-c03,biwa-bokuboku-c12]\nMOOD: awe-inspiring uncanny lamenting animated instrument, overwhelming strange presence; sorrowful not evil, never cute or festive mascot.\nHARD CONSTRAINTS: no text lettering logo border watermark; one lute-head only, no separate human head, no extra limbs fingers; no film game anime comic design; no nudity gore; no glowing aura neon energy ribbons magical music notation.",
+  "depicted_variant": "Lute-headed blind-priest-shaped tsukumogami walking with cane while playing its own strings.",
+  "basis_claim_ids": [
+    "biwa-bokuboku-c02",
+    "biwa-bokuboku-c06",
+    "biwa-bokuboku-c11",
+    "biwa-bokuboku-c16",
+    "biwa-bokuboku-c03",
+    "biwa-bokuboku-c12"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "biwa-bokuboku-c02",
+      "biwa-bokuboku-c06",
+      "biwa-bokuboku-c11",
+      "biwa-bokuboku-c16"
+    ],
+    "powers": [
+      "biwa-bokuboku-c12"
+    ],
+    "setting": [
+      "biwa-bokuboku-c03",
+      "biwa-bokuboku-c12"
+    ],
+    "disposition": [
+      "biwa-bokuboku-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Short-necked wooden biwa as only head on humanlike blind-priest-clothed body, closed eyes, cane",
+      "claim_ids": [
+        "biwa-bokuboku-c02",
+        "biwa-bokuboku-c06",
+        "biwa-bokuboku-c11",
+        "biwa-bokuboku-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Autonomous self-playing strings and walking performance, mournful",
+      "claim_ids": [
+        "biwa-bokuboku-c03",
+        "biwa-bokuboku-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Japanese street at night",
+      "claim_ids": [
+        "biwa-bokuboku-c03",
+        "biwa-bokuboku-c12"
+      ]
+    }
+  ],
+  "aura": "Unmistakable lute-only head and self-playing string action create awe [biwa-bokuboku-c02,c06,c12,c16].",
+  "artistic_choices": [
+    "Lute construction follows short-neck wooden instrument claim; no second head.",
+    "Self-playing rendered through physical finger/string contact without invented music effects.",
+    "Low close view and lantern lighting create uncanny awe while preserving documented sorrowful disposition and human scale."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

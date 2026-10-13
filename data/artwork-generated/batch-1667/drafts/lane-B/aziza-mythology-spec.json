@@ -1,0 +1,77 @@
+{
+  "slug": "aziza-mythology",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Aziza in the specific Urhobo deity variant, king of the forest and herald of dawn; do not mix with the small Fon fairy race.\nANATOMY: A large strongly built adult man with exactly ONE arm, ONE hand, ONE leg and ONE foot, one head, two eyes. His other shoulder ends naturally with no second arm, his hip has only a single central leg. Fully opaque white cloth robe with a clearly open silhouette around the lone leg, bare single foot; no stump gore. [aziza-mythology-c13,aziza-mythology-c14]\nMOMENT: Stride toward the viewer from between dark forest roots on the single leg, lift his only arm in a forceful proclamation of dawn; intense dignified downward gaze.\nPOWER: Dawn breaks physically across his white cloth and the trees; no magical attack or glow, no earthquake. He is dawn herald and forest king. [aziza-mythology-c16,aziza-mythology-c17]\nSCALE & CAMERA: extreme low angle near ground, close full body filling 85 percent of square, big human proportions but no invented giant scale; lone foot and arm fully visible.\nLIGHT & WEATHER: one narrow warm rising-sun beam, deep walnut forest shadows, crisp rim light, ordinary early morning haze.\nSURFACE: rough tree bark, woven white cloth, weathered human skin.\nSETTING: forest of the Urhobo tradition. [aziza-mythology-c17]\nMOOD: revered and awe-inspiring, morally judging supernatural forest sovereign, not evil or grotesque. [aziza-mythology-c15]\nHARD CONSTRAINTS: no second arm or second leg, no hidden extra limbs, no crutch, no weapon, no crown, no halo, no imported iconography, no text logo border watermark; no film game anime comic design; no nudity gore generic glow neon energy ribbons.",
+  "depicted_variant": "Urhobo one-armed, one-legged white-clothed forest deity heralding dawn.",
+  "basis_claim_ids": [
+    "aziza-mythology-c13",
+    "aziza-mythology-c14",
+    "aziza-mythology-c16",
+    "aziza-mythology-c17",
+    "aziza-mythology-c15"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "aziza-mythology-c13",
+      "aziza-mythology-c14"
+    ],
+    "powers": [
+      "aziza-mythology-c16",
+      "aziza-mythology-c17"
+    ],
+    "setting": [
+      "aziza-mythology-c17"
+    ],
+    "disposition": [
+      "aziza-mythology-c15"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Urhobo big man with one arm and one leg, dressed white",
+      "claim_ids": [
+        "aziza-mythology-c13",
+        "aziza-mythology-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical sunrise illumination associated with dawn herald; no supernatural beams",
+      "claim_ids": [
+        "aziza-mythology-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forest as sovereign domain",
+      "claim_ids": [
+        "aziza-mythology-c17"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Reverent morally judging bearing",
+      "claim_ids": [
+        "aziza-mythology-c15"
+      ]
+    }
+  ],
+  "aura": "One-arm/one-leg anatomy and dawn herald forest sovereignty create reverent awe [aziza-mythology-c13,aziza-mythology-c16,aziza-mythology-c17].",
+  "artistic_choices": [
+    "Choose documented Urhobo singular deity variant; no conflation with Fon hairy little people.",
+    "No documented specific physical magic; dawn illumination is natural light, not a projected power.",
+    "Forceful striding gesture and close low camera are editorial action; no giant height."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

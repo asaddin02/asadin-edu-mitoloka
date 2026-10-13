@@ -437,3 +437,71 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - Delapan nama besar decline menunggu buktirupa baru; tiga nama besar final menungguClaude. Semua slug yang sudah mempunyai receipt di batchlama dipertahankan, tidakdiduplikasi.
 - Rencana: satu batch50entri lengkap lainnya, disaring script dari1152slug baru; prioritas wujud terdokumentasi menurut prepare-artwork-batch. Tiga sub-agent gpt-6.1-sol/high; rootmelihat setiapPNGnative dan200px, menulisledger/jurnal/galeri/validasi.
 - Ruangdisk~103MB; cacheunduhan Yarn dan TypeScript typings yang dapatdiunduhulang dibersihkan untukruangkerja, tanpa menghapusPNG/riwayatproyek.
+
+### Progres 15:59 WIB
+
+- Rootmemeriksa10final native+200px: Yalmavuz/Yel iyesi/Yemaja/Zaebos/Zhuque/Ayao/Aziza/Caacrinolaas/Baccoo/CanterburyPanther. EfekYel rumahterangkatc08; Ayao tornadoeyec01 dengan9batuc03; Yemaja surgelocean+shipprotectionc12; lainnya tanpaeffectsrekaan.
+- Abzar iyesi decline karena generichuman/animal tidak punya ciripembeda; bukan klaim formabsen. Banjhakri3percobaan ditolak karena duakaki tidak sama-samaterbalik; Chimata tidakpunyarupa. Chalchiuhtlicue01 ditolak aksistatis. Semuaarsipdipertahankan.
+- ChromeHTTPcache Default/Cache_Data yang dapatdiunduhulang dibersihkan, tersedia1.8GB untukPNG; bukanhistory/cookies/profile atauPNGproyek. CacheTrivy takberhasil dibersihkan(permissiondenied), tidakditeruskan.
+
+### Progres 19:36 WIB
+
+-20finalroot-reviewed native+200px. TambahanChalchiuhtlicue issuingstreamc12/rainfloodc07, Chessie thinsnakefootballheadc04, Moryo c07, Akashaguma unassistedflightc06, Aitusharkincarnationc11/12, Batutut fire/aggressionc03/c09, Chinny struggleearthshakec08, NegroDagua canoeoverturnc02, Chipique30ft coils/canoec06/07, BeastBont enormouscat farmattackc01.
+- Agen terputus workspaceoutofcredits, pemilik eksplisit lanjutkan. FollowupA/B modelatcapacity; C berhasilresume. Rootmenangani9Bmissing, C sesudah6aslinya mengambil6Amissing. SemuaPNG/receipt sebelumnya tetaputuh, tidakmembuka batchbaru.
+
+
+## 2026-10-13 20:51 WIB — Codex — mulai
+
+- Pemilik meminta melanjutkan sesi sebelumnya. Batch 1667 memiliki 43 receipt: 38 final dan 5 tidak-digambar; 7 belum memiliki receipt. Selesaikan batch ini, periksa sendiri setiap PNG yang belum ditinjau beserta thumbnail 200px, kemudian tangani 3 koreksi baru Claude (Tata Duende, Frigg, Mnemosyne).
+- Tiga sub-agent gpt-6.1-sol/high sesuai GAMBAR §2 mengerjakan slug terpisah. Root mengurus ledger, jurnal, galeri, pemeriksaan PNG dan validasi. Gunakan built-in image_gen; pertahankan seluruh arsip dan pekerjaan sesi lain. Tidak membuka batch baru sebelum pekerjaan ini selesai.
+
+
+## 2026-10-13 21:35 WIB — Codex — selesai
+
+- Batch1667 selesai: 44 PNG final awaiting-independent-review, 6 tidak-digambar, 0 pending. Sesi ini menyelesaikan 7 receipt (6 final baru + Burha decline), memeriksa 9 PNG lama yang belum punya bukti root, dan menyelesaikan 3 koreksi: Tata Duende1606, Frigg/Mnemosyne1617. Bukti root44native+200 di batch1667/drafts/root/codex-native-reviews.json; tiga koreksi di corrections-2026-10-13-evening/codex-native-reviews.json.
+- Tidak-digambar: Abzar iyesi/Chimata/Blain tidak memiliki ciri visual atau manifestasi aktif cukup; Banjhakri3percobaan gagal kedua kaki terbalik; Atlacoya3percobaan dan BurhaDangoria3percobaan tetap manusia biasa. Semua16penolakan kualitas sepanjangbatch diarsipkan; 44final+16reject=60nativebatch. Tidak mengulang tanpa bukti baru atau permintaan pemilik.
+- Tiga sub-agent gpt-6.1-sol/high: A Biwa/BlueMountainsPanther/Boto+Frigg(5panggilan); B Bownessie/Buarainech+Tata(4); C Bulgae/Burha+Mnemosyne(6). Sesi15panggilan/15PNGberhasil=6finalbatch+3koreksi+6rejectbaru,0image_toolfailure/auto-rejection. LaneB sempat modelatcapacity, kemudian resume berhasil dengan model sama; PNG/receipt dipulihkan sebelum panggilan baru. Modelgambar persis tidak dilaporkan alat.
+- Tata kini empat jari terpisah pada kedua telapak dengan sisi ibu jari mulus; kedua kaki side-on heelsLEFT/toesRIGHT saat wajah/tubuh/frontkneeLEFT. Frigg/Mnemosyne skala monumental sebagai alegori editorial menurut GAMBAR§5/§6.5, bukan fakta ukuran tubuh sumber; oathcategories dan oracle/throne/well/descent tanpa efek sihir rekaan. Burha ditolak meskipun gestur lebih kuat karena tetap penunggang biasa.
+- Validasi5269batch +3859koreksi/proteksi/tautangaleri=9128pemeriksaan,0error. 3308berkas terlindung identik dengan baseline resume; perubahan82file oleh pekerjaan eksternal sebelumresume sudah tercatat oleh sesi sebelumnya. Statusakhir1567aktif,47awaitingClaude,0needs-correction,0invalid.
+- Galeri docs/artwork-batch-1667.html dan docs/artwork-corrections-2026-10-13-evening.html; galeri1606/1617 diperbarui agar PNG/prompt sesuai receipt terkini, versi lama diarsipkan. Promptset dan summary batch1667/corrections tersedia. OldPNG/receipt/varianA-B tetaputuh; arsipTata03wholeold dipertahankan sebelum metadata reason/original_file diperjelas.
+- Pelajaran: draftBiwa02 lama memakai hash/path01, hanya revisiprompt belum generasi; pulihkan faktual dulu. Biwa closedeyes/cane/autoplay menjadi keganjilan kuat; Boto hatlift membuka blowhole dan linenbuttoned harusburam. Bulgae literalcontact solar-edge penting. Sorrow/guardian/religious tidak boleh dipaksa jahat; Burha naturalbody tidak bisa dibuatdistinct tanpa mengarang.
+- Tanpa integrasi/commit/push atau editriset/katalog/power/JS/manifest/WebP/backups/nama-besar. Sesi berikutnya:47PNG menungguClaude; bila ada koreksi baru kerjakan dahulu. Jangan membuka ulang nama besar decline tanpa buktiwujudbaru.
+
+
+## 2026-10-13 21:41 WIB — Codex — mulai
+
+- Permintaan pemilik: lanjutkan batch selanjutnya dari sesi sebelumnya. Batch1667 tuntas,0pending; status1567aktif,47receipt menungguClaude,0needs-correction,0invalid.
+- Rencana: satu batch50entri lengkap baru, disaring computeFillStatus dan skrip prepare; semua slug yang sudah memiliki receipt lama dikecualikan untuk menghindari duplikasi/decline berulang. Nama besar decline menunggu bukti wujud baru; Frigg/Mnemosyne menunggu tinjauan.
+- Gunakan skill imagegen built-in dan tiga sub-agent gpt-6.1-sol/high sesuai GAMBAR§2. Root memeriksa setiapPNGnative dan200px, menulis ledger/jurnal/galeri/validasi. Pertahankan perubahan sesi lain; tidak integrasi,commit,push.
+
+### Progres 21:58 WIB
+
+- Root telah memeriksa11PNGfinal native+200px: Dzoavits/Gougou/Guayota/Enfield/Julunggul/Ka'aPora/Kaimingshou/Hıbılık/Halmasti/Ergene/Eritate. Efek hanya klaim: panahpecahDzo c05, mataharidikurungGuayota c03/c14, monsunJulunggul c13, nightmareHıbılık c03/c05/c12, apiHalmasti c05, warningcollapseErgene c11. Kaimingshou tepat9wajah5+4.
+- Ergene01 rootditolak ordinaryoldminer;02lolos sacredmonumental alegori editorial (bukanfactsize), ceremonialrobes (bukanikonografi sumber). Yĕrĕh decline rupa/manifestasiaktif tidakcukup.
+- Dua perubahan power batch143/152 terdeteksi dari pekerjaan eksternal concurrent; dicatat dan dipertahankan, tidak ditulis Codex.
+
+### Resume 22:04 WIB
+
+- Pemilik meminta lanjutkan setelah interupsi. Batch1717 sudah19receipt (16final+3decline), root15PNG telah diperiksa.31receipt masihbelumada; Feilian final belumrootreview. Tiga lane lama tidak aktif lagi, pekerjaan dipulihkan dari drafts/receipt sebelum panggilan baru. Tidak membuka batch baru.
+
+### Resume 2026-10-14 00:45 WIB
+
+- Pemilik meminta lanjutkan. Tiga resumeagents sebelumnya gagal workspaceoutofcredits;19receipt tersimpan (16final+3decline),31pending. Feilian sudah dilihatroot native+200px padaresume sebelumnya, sekarang bukti dicatat/ledger diselaraskan. Gunakan kembali skillimagegen dan tiga lane yang sudahdipulihkan; tidakduplikasiPNG/riwayat.
+
+### Progres 00:55 WIB
+
+- Root22final native+200px. Tambahan sejak11: Esprits4jackals,Hira buffalo invulnerablec10,Hone skeletonc02,c06,Kaka eye-firec05,FeilianJinZhuoc10,Feng02 regrowthc02/c05,HuaPo02 revivalwaterc05/c08,HuanDoufishc09/c14,Ibarakiflight-hairgripc10,Kallikantzaros furniturebreakc07/c09,FourSymbols4unitsc02.
+- Feng01 rejectstaticcalm;02lolos. Fuzanglong01 rootreject pseudoinscription pada wadahbronze, sedangeditbuilt-in, tidak diterima walau disebutnonlegible. Kaliya tigaPNGtakmampu memastikan1000hoodsc07,decline dengansemuaarcive; Glærhorse/Kayberen/Goldemar decline belumwujudidentifiable yanglayak tanpa rekaan.
+- Resume snapshot91protectedfiles berubah daripekerjaaneksternal selama interupsi, seluruhnya dipertahankan; validitas/kesesuaianriset50entri tetaplulus.
+
+### Progres 01:01 WIB
+
+- Root30final native+200px. TambahanGajasimha hybridc01/c10,Kamappashapeless3tonguesc02/c10,Gaohchainwindc07,Iemisch03exact3/3fore4/4hindearlessflattailc05,Fuzanglong02glyph-freevolcanicbreakc03,Iliamna giantpikec12/sockeyehuntc10/11,Kanedama02rollingredlightc06,Kaupehugecanineheadedmanc03.
+- Kamohoalii01rootrejectordinarycalmshark;02replacement sedangdibuat pelindunglostsailorsc03 dengan divineallegoryeditorial bila diperlukan. Iemisch01ear/tail/02toecount selfreject;Kanedama01textscroll dan Kangla01spikes selfreject. SemuaPNG/receiptrejected tetaputuh.
+
+
+## 2026-10-14 01:10 WIB — Claude — tinjauan kedua
+
+- Claude meninjau 47 receipt yang menunggu: 44 di batch-1667 dan 3 koreksi (tata-duende 1606, frigg dan mnemosyne 1617). Hash PNG native sama dengan receipt dan tinjauan Codex. **47 lolos, 0 ditolak.** Tangan/kaki tata-duende, lengan/kaki aziza, dan mata doo diperiksa pada potongan ukuran native.
+- Catatan untuk Codex: bownessie, buarainech, dan aziza lolos tipis (ancaman wajah serpent dan wajah sapi masih kalem; satu lengan aziza hanya terbaca dari dekat). Pertahankan arah ini, tetapi wajah yang konfrontatif lebih aman.
+- Catatan katalog dibuat untuk semua item batch (35 baru di 1667, 1 di 1606), lalu integrasi: 1606 → 45/50, 1617 → 3/11, 1667 → 44/50. Ilustrasi aktif 1.567 → 1.614. `npm run check` dan `npm test` lulus. Batch-1717 yang sedang dikerjakan Codex tidak disentuh.

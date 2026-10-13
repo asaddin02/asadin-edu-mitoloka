@@ -1,0 +1,68 @@
+{
+  "slug": "blain",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "No image generation requested: accepted claims give an ambiguous poetic byname for Ymir and dwarfs, not a concrete documented appearance or active self-manifestation. Do not invent blue skin from etymology, giant anatomy, weapons, clothing or active magic.",
+  "depicted_variant": "Tidak dipilih: istilah puitis ambigu tanpa rupa spesifik atau manifestasi aktif.",
+  "basis_claim_ids": [
+    "blain-c02",
+    "blain-c07",
+    "blain-c08",
+    "blain-c04",
+    "blain-c05",
+    "blain-c06"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "blain-c02",
+      "blain-c07",
+      "blain-c08"
+    ],
+    "powers": [],
+    "setting": [],
+    "disposition": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Term ambiguously denotes primeval giant Ymir or dwarfs, without concrete bodily anatomy",
+      "claim_ids": [
+        "blain-c02",
+        "blain-c07",
+        "blain-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bones used by gods for dwarf creation; sea/mountains/skull-sky interpretation, not active manifestation by Blainn",
+      "claim_ids": [
+        "blain-c04",
+        "blain-c05",
+        "blain-c06"
+      ]
+    }
+  ],
+  "aura": "Tidak ada aura visual yang dapat digambar tanpa mengarang rupa.",
+  "artistic_choices": [
+    "Etymology c03 is not a source for literal blue anatomy.",
+    "Skull-sky and blood/bone creation are scholarly identification/cosmogonic use by gods, not an active visual action of the subject."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "reason": "Klaim menyebut Blainn sebagai istilah puitis untuk Ymir maupun kurcaci (c02,c07,c08), tanpa rincian rupa yang membedakan atau perbuatan/manifestasi aktif subjek. c04-c06 membahas tulang dan interpretasi penciptaan oleh para dewa, bukan aksi Blainn. Warna dari etimologi c03 tidak membuktikan kulit biru; tidak mengarang tubuh, ikonografi atau lanskap kosong.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "visual_review": null
+}

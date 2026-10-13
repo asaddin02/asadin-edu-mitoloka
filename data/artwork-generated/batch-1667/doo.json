@@ -1,0 +1,104 @@
+{
+  "slug": "doo",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Doo, Kyrgyz mountain-sized hairy one-eyed giant emerging from a remote mountain cave.\nANATOMY: exactly ONE humanlike head, exactly ONE large eye centered high in the FOREHEAD, no other eyes or eye sockets. Two arms,twolegs; huge pendulous human ears long enough to lie on and cover himself with [doo-c03,c04]. Human form of mountain-sized giant[c02], exposed body completely densely hairy[c07], coarse dark hair across arms,hands,legs,neck and cheeks. Fully opaque heavy dark tunic covers torso/hips to knees, editorial modest clothing. No horns,wings,animal snout,extra heads or weapons; choose single-head weaponless variant[c09].\nMOMENT: thrust himself out of dark mountain cave toward viewer, one vast furry hand gripping cave lip and other reaching down, forward foot planting in foreground. His single forehead eye fixes viewer, jaws roar; cave-edge stones dislodge from physical force.\nPOWER: immense brute strength [doo-c10] physically shifts loose cave rocks under gripping hand, dust cascades onto trees. No spell effects or invented elemental magic despite abstract magical-power claim.\nSCALE & CAMERA: extremely low camera near the mountain-sized giant's foot; small actual evergreen trees directly beside foot establish source mountain scale[c02], face and one forehead eye large and readable high in frame.\nLIGHT & WEATHER: one warm last-sun sidelight, deep cave shadows, harsh rim along coarse fur and enormous ears; ordinary rock dust.\nSURFACE: thick coarse dark bodyhair, weathered humanlike face, matte opaque tunic, rough mountain stone and grit.\nSETTING: remote mountainous cave rarely approached by people[c08,c09], rocky slope with small dense forest trees.\nMOOD: dangerous imposing monstrous giant, never ordinaryhuman, cute, calm or decorative.\nHARD CONSTRAINTS: no text,logo,border,frame,watermark; ONEhead,ONEforeheadeye,TWOarms,TWOlegs; no normal pair of eyes beneath forehead,extra heads,limbs or fingers; no film/game/anime/comic design; no nudity,transparentcloth or gore; no glow aura,neon,energy ribbons,runes,magicbeam,weapon or whip.",
+  "depicted_variant": "Single-headed weaponless hairy mountain-sized Doo with one foreheadeye and huge draping ears emerges from cave.",
+  "claim_classification": {
+    "anatomy": [
+      "doo-c02",
+      "doo-c03",
+      "doo-c04",
+      "doo-c07",
+      "doo-c09"
+    ],
+    "powers_deeds": [
+      "doo-c10"
+    ],
+    "setting": [
+      "doo-c08",
+      "doo-c09"
+    ],
+    "disposition": [
+      "doo-c01",
+      "doo-c07",
+      "doo-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Mountain-sized humanlike giant with single foreheadeye,bodyhair,and ears used as bedding; choose onehead/weaponlessvariant.",
+      "claim_ids": [
+        "doo-c02",
+        "doo-c03",
+        "doo-c04",
+        "doo-c07",
+        "doo-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Boundless brute strength physically dislodges loose caveedge stones; no abstract magic rendered.",
+      "claim_ids": [
+        "doo-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Remote mountain cave/dense forest.",
+      "claim_ids": [
+        "doo-c08",
+        "doo-c09"
+      ]
+    }
+  ],
+  "aura": "Source mountain-sized body(c02),singleeye(c03),hair(c07),immense brute strength(c10) create threat without invented magicaleffect.",
+  "artistic_choices": [
+    "Single-head weaponless variant selected; no whip because source c09 documents no weapon variant.",
+    "Opaque tunic editorial modesty; huge draping ears render ear-bedding accountc04.",
+    "Dust and loose rock displacement concrete physical staging of strength; magic claim not visualized.",
+    "Smalltrees close besidefoot editorial size comparison for documented mountain-scale."
+  ],
+  "basis_claim_ids": [
+    "doo-c02",
+    "doo-c03",
+    "doo-c04",
+    "doo-c07",
+    "doo-c09",
+    "doo-c10",
+    "doo-c08",
+    "doo-c01"
+  ],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-8a6b12fc-53c9-4832-b9ed-8616ed198574.png",
+  "generated_at": "2026-10-13T12:38:06.862657+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/doo.png",
+  "native_sha256": "4f4174084cd5ffe10f032a8f54c1009c73434161902907cd79edf17371ab4d97",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 reviewed: single foreheadeye/no normaleye pair, onehead,twoarms/twolegs, dense exposedhair, huge drapingears, opaque tunic. Mountain-scale via nearbytrees, cave-emergence physical strength/dustc10. No inventedspell/weapon; all seven Sangar tests yes.",
+    "limitations": [],
+    "native_sha256": "4f4174084cd5ffe10f032a8f54c1009c73434161902907cd79edf17371ab4d97",
+    "reviewed_at": "2026-10-13T12:38:06.862933+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "4f4174084cd5ffe10f032a8f54c1009c73434161902907cd79edf17371ab4d97",
+    "notes": "Mountain-sized hairy giant with one forehead eye and huge drooping ears tearing out of a cave edge; checked the face at native size, one eye only."
+  }
+}

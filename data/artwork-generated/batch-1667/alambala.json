@@ -1,0 +1,95 @@
+{
+  "slug": "alambala",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-076.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "alambala-c01",
+      "alambala-c06"
+    ],
+    "powers": [
+      "alambala-c04",
+      "alambala-c08"
+    ],
+    "setting": [
+      "alambala-c02"
+    ],
+    "disposition": [
+      "alambala-c03"
+    ]
+  },
+  "basis_claim_ids": [
+    "alambala-c01",
+    "alambala-c02",
+    "alambala-c04",
+    "alambala-c06",
+    "alambala-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant rakshasa king warrior with humanoid anatomy and an ordinary weapon from battle account.",
+      "claim_ids": [
+        "alambala-c01",
+        "alambala-c04",
+        "alambala-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Battle charge with weapon, physical dirt and dust only; no invented magic.",
+      "claim_ids": [
+        "alambala-c02",
+        "alambala-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kurukshetra battlefield with soldiers and simple chariot.",
+      "claim_ids": [
+        "alambala-c02",
+        "alambala-c08"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Alambala, the rakshasa king and giant warrior fighting for the Kauravas at Kurukshetra.\nANATOMY: One immense humanoid male giant warrior with one head, two arms and two legs, fully clothed in layered opaque dark battle garments and plain weathered armor; no horns, invented tusks, wings or extra arms. Rugged furious face with natural human eyes and teeth. One plain heavy sword held visibly in his right hand, chosen from the various weapons mentioned in battle. [alambala-c01,alambala-c04,alambala-c06]\nMOMENT: Charge across the battlefield straight toward the low camera, raise the sword to strike, the free fist clenched; heavy foot thrusts forward kicking up ordinary dirt. His fierce giant bodily size is clearly established by several distant human soldiers close behind his feet, no injury or blood. [alambala-c02,alambala-c04]\nPOWER: No magic effect depicted; warrior and magician identity does not document a visible spell. Physical dust and weapon motion only. [alambala-c08]\nSCALE & CAMERA: extreme low foot-level angle, giant fills the frame from boots to head and sword, humans standing near the ground at his feet establish documented giant size. [alambala-c06]\nLIGHT & WEATHER: one low battlefield sunset sidelight, gold iron rim highlights, deep walnut shadows, ordinary battle dust.\nSURFACE: scarred iron, dense opaque woven garments, dust-covered skin and battlefield earth.\nSETTING: Kurukshetra War battlefield, plain distant soldiers and a simple chariot silhouette, no invented palace. [alambala-c02,alambala-c08]\nMOOD: reverent treatment of Hindu epic, awe-inspiring formidable giant combatant, fierce in battle, never comic or an ordinary posing soldier.\nHARD CONSTRAINTS: no text, lettering, logo, frame or watermark; no extra heads or limbs; no invented horns, spells, glowing weapons or energy ribbons; no borrowed film/game/anime design; no nudity or explicit gore.",
+  "depicted_variant": "Humanoid giant rakshasa warrior charging with a plain sword at Kurukshetra.",
+  "artistic_choices": [
+    "Source gives giant and warrior, not horns or extra arms; none added.",
+    "Sword selected editorially from documented various sharp weapons; plain armor and opaque costume editorial.",
+    "Magician label alone supplies no visible spell, therefore no magical effects.",
+    "Small battlefield humans establish sourced giant size c06."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-05b7-7bc3-b37d-69124105def2/exec-618a96bc-c704-4feb-9228-88a2ae6f99df.png",
+  "generated_at": "2026-10-13T09:02:27.794313+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/alambala.png",
+  "native_sha256": "5fbff1b7e98951646ac4f9ea24c8457206cec78b207b0545fe8323db2226573f",
+  "width": 1254,
+  "height": 1254,
+  "aura": "Awe from giant warrior size [alambala-c06] and formidable armed Kurukshetra battle charge [alambala-c02,alambala-c04].",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: giant humanoid warrior actively charging, one sword, two arms and two legs, human soldiers near feet provide true sourced giant scale, battlefield chariot, no spells/horns/gore/text. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "5fbff1b7e98951646ac4f9ea24c8457206cec78b207b0545fe8323db2226573f",
+    "reviewed_at": "2026-10-13T09:03:52.693495+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "5fbff1b7e98951646ac4f9ea24c8457206cec78b207b0545fe8323db2226573f",
+    "notes": "Giant rakshasa warrior charging with a plain sword over the Kurukshetra field, soldiers and chariot small behind; dust only."
+  }
+}

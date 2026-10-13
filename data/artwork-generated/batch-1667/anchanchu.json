@@ -1,0 +1,95 @@
+{
+  "slug": "anchanchu",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Anchanchu, the sinister Aymara spirit in Paredes' documented form of a bald big-headed pot-bellied old dwarf, smiling while causing road whirlwinds.\nANATOMY: one LITTLE old male DWARF, smallstature with oversizedhead,baldscalp and roundpotbelly [anchanchu-c11], onehead,twoarms,twolegs,twoeyes,ordinaryhuman teeth, no horns,animalparts or invented vampirefangs. Always SMILING sinisterly[c14], not roaring. Fullyopaque dark coarse tunic/pants editorial cover entirebody while clearly showing potbellysilhouette.\nMOMENT: stride down rockyroad towardviewer with onefoot landing and bothhands extending in a deceitfully welcoming gesture, sinister broadsmile and knowing intenteyes[c13,c14]. Windlashes around him, clothing whips and roadgrit swirls violently outward.\nPOWER: hurricanes and whirlwinds produced when he travelsroads [anchanchu-c15]; actual dense air-driven dustvortices, stonegrit, bentgrass and blownleaves, no luminous energy. Smallbody remains central commanding cause, whirlwind secondary.\nSCALE & CAMERA: extreme low tight camera beside dwarf's forwardfoot, smallbody fillsframe by closeperspective, ordinary tallgrasses besideknees/hips establish smallstature, no giant enlargement. Largebaldhead,potbelly,smile all readable.\nLIGHT & WEATHER: onewarm dusk sidelight cuts stormdust, deep walnutshadows, real turbulentwind.\nSURFACE: oldweatheredskin,baldhead,roughopaquecloth,grit and roughrock.\nSETTING: road at mouth of desolate altiplanocave [anchanchu-c10,c15], distant mountainrock barelyseen.\nMOOD: overwhelming uncanny sinisterdeity, deviously smiling menace rather than comicdwarf; respects traditionaldepiction, no gore.\nHARD CONSTRAINTS: no text,logo,border,frame,watermark; onehead,twoarms,twolegs,noextrafingers; no film/game/anime/comicdesign; no nudity/transparentcloth/gore; no glow aura,neon,energyribbons,horns,vampirefangs,giantbody,modernminerhat or importeddemoniciconography.",
+  "depicted_variant": "Paredes' little bald big-headed pot-bellied smiling dwarf creates roadwhirlwinds.",
+  "claim_classification": {
+    "anatomy": [
+      "anchanchu-c11"
+    ],
+    "powers_deeds": [
+      "anchanchu-c13",
+      "anchanchu-c14",
+      "anchanchu-c15"
+    ],
+    "setting": [
+      "anchanchu-c10",
+      "anchanchu-c15"
+    ],
+    "disposition": [
+      "anchanchu-c05",
+      "anchanchu-c14"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Littleold bald big-headed pot-bellied dwarf,alwayssmiling.",
+      "claim_ids": [
+        "anchanchu-c11",
+        "anchanchu-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Hurricanes/whirlwinds during roadtravel move grit/leaves/grass physically.",
+      "claim_ids": [
+        "anchanchu-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Road by desolate altiplanocave.",
+      "claim_ids": [
+        "anchanchu-c10",
+        "anchanchu-c15"
+      ]
+    }
+  ],
+  "aura": "Littleuncannydeityformc11/sinisterconstant smilec14 contrasted with source roadwhirlwinds c15, no genericmagic.",
+  "artistic_choices": [
+    "Select Paredesdwarf rather than alternative shapeshiftforms; no importedminerhorns/hat.",
+    "Opaque darktunic/pants and duskeditorial; winddust stages sourcedhurricanes.",
+    "Closecamera and tallgrass preserve smallbody size; welcominghandgesture stagesc13."
+  ],
+  "basis_claim_ids": [
+    "anchanchu-c11",
+    "anchanchu-c14",
+    "anchanchu-c15",
+    "anchanchu-c10",
+    "anchanchu-c13",
+    "anchanchu-c05"
+  ],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-9e5c430d-d1a8-43ca-ac8e-d8964fbfd4bc.png",
+  "generated_at": "2026-10-13T12:51:15.514835+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/anchanchu.png",
+  "native_sha256": "5e3617c08faf0eea07ebdec85b64ac7c9a0a56f5762dbc68d78db4d28a06e123",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 inspected: littleoldbaldlargehead/potbelly/sinisterconstant smile c11c14, forwardstep/welcominghands c13, physical roadwhirlwinds c15 around smallbody. No added horns/fangs/giantsize. Seven Sangar tests yes.",
+    "limitations": [],
+    "native_sha256": "5e3617c08faf0eea07ebdec85b64ac7c9a0a56f5762dbc68d78db4d28a06e123",
+    "reviewed_at": "2026-10-13T12:51:15.515002+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "5e3617c08faf0eea07ebdec85b64ac7c9a0a56f5762dbc68d78db4d28a06e123",
+    "notes": "Bald big-headed pot-bellied smiling dwarf at a cave by an altiplano road with whirlwinds lifting grit and leaves."
+  }
+}

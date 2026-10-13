@@ -1,0 +1,93 @@
+{
+  "slug": "chochinbi",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Chochinbi, choosing the Koemonbi story: a mysterious lantern-sized ghost fire bursts apart and surrounds the man who struck it.\nANATOMY: NO bodily form, face, eyes, arms or legs. The being IS a living mass of ghost fire, initially paper-lantern-sized [chochinbi-c10,c14], now physically split into several hundred separate FIRE fragments [chochinbi-c11]. No actual paper lanterns or lantern hardware, no foxes/tanuki, no invented monsters.\nMOMENT: erupt violently outward from the struck central fire toward the camera while hundreds of torn tongues of fire close around Koemon. The closest split flames dominate the foreground as a terrifying active manifestation; one fully clothed man with a rod is small in middle distance, recoiling from his strike [chochinbi-c11].\nPOWER: documented mysterious fire splitting into several hundred pieces and surrounding Koemon [chochinbi-c11], ordinary amber flame lights his face and reflects on wet ground and riverwater; no other magic.\nSCALE & CAMERA: extremely low close camera just beneath foreground fire fragments, fragments at various natural sizes surround viewer and man; do not make a giant person-shaped fire entity.\nLIGHT & WEATHER: fire itself is the single dominant warm amber source, rainy evening and real droplets, deep riverbank shadows [chochinbi-c10].\nSURFACE: painterly turbulent orange-white flame tongues with ember-dark edges, soaked earth, wet riverwater and rough opaque clothing.\nSETTING: rainy evening on river bank, Matsudzuka in Yamato [chochinbi-c09,c10].\nMOOD: terrifying supernatural fire with unmistakable agency and overwhelming movement, not a calm lantern row or landscape.\nHARD CONSTRAINTS: no text, letters, logo, border, frame or watermark; no invented human ghost body, face, limbs, animals or actual lantern hardware; no film/game/anime/comic design; no nudity or explicit gore; no neon outlines, runes, energy ribbons or generic aura. Actual fire is the documented subject itself, not aura around another subject.",
+  "depicted_variant": "Koemonbi manifestation splits into hundreds of fires and surrounds rod-bearing Koemon.",
+  "claim_classification": {
+    "anatomy": [
+      "chochinbi-c10",
+      "chochinbi-c14"
+    ],
+    "powers_deeds": [
+      "chochinbi-c11",
+      "chochinbi-c12"
+    ],
+    "setting": [
+      "chochinbi-c09",
+      "chochinbi-c10"
+    ],
+    "disposition": [
+      "chochinbi-c12"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "No corporeal anatomy; lantern-sized mysterious fire itself is being.",
+      "claim_ids": [
+        "chochinbi-c10",
+        "chochinbi-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fire splits into several hundred pieces and surrounds Koemon after rod strike.",
+      "claim_ids": [
+        "chochinbi-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rainy-evening riverbank at Matsudzuka,Yamato.",
+      "claim_ids": [
+        "chochinbi-c09",
+        "chochinbi-c10"
+      ]
+    }
+  ],
+  "aura": "Recorded fire fragmentation and encirclement(c11) overwhelm scene; no invented bodily form.",
+  "artistic_choices": [
+    "GAMBAR6.5 active manifestation selected; actual fire fragments are source-grounded subject, not prohibited generic aura.",
+    "Amber fire color and low camera editorial; Koemon opaque clothing editorial.",
+    "No fever/death or gore shown; no imported lantern-monster body."
+  ],
+  "basis_claim_ids": [
+    "chochinbi-c10",
+    "chochinbi-c14",
+    "chochinbi-c11",
+    "chochinbi-c09",
+    "chochinbi-c12"
+  ],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-a7c0e5c3-deee-4986-a68d-2aafe481855a.png",
+  "generated_at": "2026-10-13T09:02:53.878723+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/chochinbi.png",
+  "native_sha256": "7b0b5a2dabf5c5c6644ba0473497049916e1a31f6d40799c333834e7139ca554",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200px inspected: hundreds of actual ghostfire fragments dominate and surround small rod-bearing man, documented Koemonbi active manifestation c11 on rainy riverbank c10. No invented body/face; source-specific fire is subject rather than aura. All seven Sangar tests yes.",
+    "limitations": [],
+    "native_sha256": "7b0b5a2dabf5c5c6644ba0473497049916e1a31f6d40799c333834e7139ca554",
+    "reviewed_at": "2026-10-13T09:02:53.878977+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "7b0b5a2dabf5c5c6644ba0473497049916e1a31f6d40799c333834e7139ca554",
+    "notes": "Hundreds of fires splitting and surrounding the rod-bearing man on a rainy riverbank; the fire itself is the subject."
+  }
+}

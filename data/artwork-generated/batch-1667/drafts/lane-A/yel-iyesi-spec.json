@@ -1,0 +1,69 @@
+{
+  "slug": "yel-iyesi",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "yel-iyesi-c04",
+      "yel-iyesi-c05"
+    ],
+    "powers": [
+      "yel-iyesi-c08",
+      "yel-iyesi-c09",
+      "yel-iyesi-c10"
+    ],
+    "setting": [
+      "yel-iyesi-c04"
+    ],
+    "disposition": [
+      "yel-iyesi-c03"
+    ]
+  },
+  "basis_claim_ids": [
+    "yel-iyesi-c04",
+    "yel-iyesi-c05",
+    "yel-iyesi-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Adult female fairy-like spirit in opaque white dress and robes.",
+      "claim_ids": [
+        "yel-iyesi-c04",
+        "yel-iyesi-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Voice-generated wind gust physically lifts a wooden house into the air.",
+      "claim_ids": [
+        "yel-iyesi-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wilderness and clouds, house subordinate to wind spirit.",
+      "claim_ids": [
+        "yel-iyesi-c04",
+        "yel-iyesi-c08"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yel iyesi, a protective female wind spirit of Turkic folklore.\nANATOMY: One beautiful adult maiden, one head, two arms, two legs, fully covered in heavy opaque white dress and special flowing white robes, long uncut hair; no wings or invented crown. [yel-iyesi-c04,yel-iyesi-c05]\nMOMENT: Sing forcefully into a roaring gust, face tilted down toward viewer, one hand reaching commandingly through the rushing air, robe and hair swept horizontally.\nPOWER: Her voice creates immense physical wind: uprooted wooden house rises in the air behind her, airborne ordinary dust and torn grass form the gust, no luminous ribbons. Keep the lifted house secondary but unmistakeable. [yel-iyesi-c08]\nSCALE & CAMERA: extreme low tight camera on her commanding upper body and extended hand, normal bodily scale conveyed by perspective alone; no giant body.\nLIGHT & WEATHER: warm sunset side light and white cloth rim light amid dense naturally dusty rushing wind.\nSURFACE: layered opaque woven white textile, realistic hair, wooden beams.\nSETTING: wilderness at the edge of a small dwelling, clouds above. [yel-iyesi-c04,yel-iyesi-c08]\nMOOD: reverent, awe-inspiring protective spirit exercising immense power, authoritative and overwhelming, never evil, cute or casually human.\nHARD CONSTRAINTS: no text, lettering, logo, border or watermark; no extra limbs or fingers; no borrowed entertainment design; no nudity, transparent cloth or gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "White-robed female wind spirit singing a house-lifting gust.",
+  "artistic_choices": [
+    "White fully opaque robe is the clothed source variant.",
+    "Low tight camera imposes scale without inventing giant stature.",
+    "Dust and windblown textile make physical air movement visible; no aura."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

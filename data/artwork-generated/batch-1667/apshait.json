@@ -1,0 +1,77 @@
+{
+  "slug": "apshait",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Apshait, the Egyptian corpse-eating monster choosing the source's LARGE BEETLE description.\nANATOMY: one large dark BEETLE, one insecthead,two compoundeyes,two antennae,six jointedinsectlegs,paired beetlemandibles,hard segmented beetle body and closed wingcovers [apshait-c01]. These naturalbeetledetails render category, no specific scarabiconography, horns,humanface,extra limbs or gloweyes. Not a tortoise and not the alternate uncertain cockroachinterpretation[c02,c05].\nMOMENT: scuttle forcefully straight towardviewer acrossdarkground, frontlegs gripping grittysurface and powerfulmandibles unfolding widely as it approaches a completelyshrouded corpse; beetlehead and armoredbody dominate, no calm insectspecimen. A body under a single heavy opaque burialcloth lies farther behind its side as the documented corpse-food context[c01], no exposed flesh or gore.\nPOWER: corpse-consuming flesh-eatingnature[c01] expressed by imminenteating encounter; no magicalpowers,effects,fire or supernatural lights.\nSCALE & CAMERA: extreme macro groundcamera just in front of beetle, face/mandibles/frontlegs immense by closeperspective; beetle is source LARGE but no unsupported building-sizedmonster. Shroudedbody remains blurred fartheraway, no unsupported exactbodysize.\nLIGHT & WEATHER: oneverylow warm sidelight picks out hard shell, deep dark backdrop, a little ordinarygrit pushed up by advancinglegs.\nSURFACE: roughdark brownblack insectchitin,tactile segmentedjoints,leathery mandibles,grittyground,heavyopaque shroudcloth.\nSETTING: neutral darkground withcorpse context[c01]; no tombarchitecture,pyramids,hieroglyphs or invented geography.\nMOOD: dangerous monstrous corpse-eater and disturbingcloseencounter, not decorativebeetle,cute,calm or ordinaryinsectstudy.\nHARD CONSTRAINTS: no text,logo,border,frame,watermark; onehead,sixlegs,twoantennae; no extraeyes/limbs,horns,wingsspread,humanfeatures; no film/game/anime/comicdesign; no nudity,gore,blood,wounds or exposedcorpse; no glowaura,neon,energyribbons,sun-disc,scarabjewelry or invented magic.",
+  "depicted_variant": "Largebeetle variant approaches fully shrouded corpse with mandibles unfolding.",
+  "claim_classification": {
+    "anatomy": [
+      "apshait-c01"
+    ],
+    "powers_deeds": [
+      "apshait-c01"
+    ],
+    "setting": [],
+    "disposition": [
+      "apshait-c01",
+      "apshait-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Largebeetle corpse-eatingmonster; naturalbeetleanatomycategory.",
+      "claim_ids": [
+        "apshait-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Corpsefood context via entirelycoveredbody; approachingtoeat, no gore/magic.",
+      "claim_ids": [
+        "apshait-c01"
+      ]
+    }
+  ],
+  "aura": "Documentedlarge corpse-eatingbeetlec01 in confrontationalmacro approach, without adding supernaturalattributes.",
+  "artistic_choices": [
+    "Selectc01beetlevariant; uncertainRenoufc05cockroachcomparison not combined; sixlegs/antennae/mandibles standardcategoryrendering.",
+    "Single fullyopaquecloth conceals corpse,no explicitgore; no specificEgyptianburialarchitecture/iconography asserted.",
+    "Macro closeperspective and sidelighteditorial, no undocumented colossalsize or magic."
+  ],
+  "basis_claim_ids": [
+    "apshait-c01",
+    "apshait-c04"
+  ],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346d-91ac-78e1-a741-584cc1bc02aa/exec-f9063376-2ca6-45ba-8b2e-0bc426a58539.png",
+  "generated_at": "2026-10-13T12:57:47.050593+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/apshait.png",
+  "native_sha256": "8cc43d52dfe010a419bc6671c1a8e916a6c5a68292cf66eea0793b53e04c75b7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 inspected: darklargebeetle c01 with6legs/2antennae/compoundeyes/pairedmandibles; forcefulcloseapproach toward fullyshroudedcorpse context. No gore,magic,scarabiconography or inventedtomb. Allseven Sangar yes; macro menace avoids oversizedbodyassertion.",
+    "limitations": [],
+    "native_sha256": "8cc43d52dfe010a419bc6671c1a8e916a6c5a68292cf66eea0793b53e04c75b7",
+    "reviewed_at": "2026-10-13T12:57:47.050759+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "8cc43d52dfe010a419bc6671c1a8e916a6c5a68292cf66eea0793b53e04c75b7",
+    "notes": "Large beetle with spiny legs and open mandibles advancing toward a fully shrouded corpse; no gore."
+  }
+}

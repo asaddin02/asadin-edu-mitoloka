@@ -1,0 +1,76 @@
+{
+  "slug": "chipique",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-133.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Chipique, the half-snake half-crocodile Zambezi water monster overturning a canoe.\nANATOMY: one SMALL slate-grey crocodilian head, two natural eyes, narrow crocodilian snout, and one very long heavy serpentine body wound into BLACK coils [chipique-c01,c07]. Thirty feet long[c06]; keep the head much smaller than its massive coiled body. Crocodile contribution expressed in snout and textured scale skin; no visible limbs because any appendages remain submerged, no invented horns, fins, wings or mane.\nMOMENT: rise and twist toward viewer while a thick black body coil grips an ordinary wooden canoe and rolls it upside down, solid canoe visibly tilted and physically held by the continuous body. Head turns confrontationally toward camera, jaws part slightly with ordinary crocodilian teeth, no gore.\nPOWER: grab and immobilize a canoe[c06], overturn it[c02]; real displaced riverwater crashes around coils. No supernatural energy or magical control of water.\nSCALE & CAMERA: extreme low river-surface camera; small grey head foreground, huge continuous black coils fill most frame; canoe near the body supplies sourced30-foot scale. Creature dominates, canoe secondary.\nLIGHT & WEATHER: one warm moonlike sidelight against dark night, pale rim on slate head and water spray; no glow eyes.\nSURFACE: wet grey crocodilian scale-texture head, heavy black scaled coils, scarred wet canoe wood, physically dense white spray.\nSETTING: Zambezi river below Victoria Falls at night [chipique-c01,c05,c06], distant dark waterfall partially visible through ordinary spray.\nMOOD: dangerous imposing nocturnal river monster, never calm or cute.\nHARD CONSTRAINTS: no text, logo, border, frame or watermark; exactly one head and single connected serpentine body; no extra limbs, horns, fins or wings; no borrowed film/game/anime/comic design; no nudity or explicit gore; no glow aura, neon outline, energy ribbons or magical water.",
+  "depicted_variant": "Small slate-grey crocodilian head and heavy black serpentine coils physically overturn a canoe.",
+  "claim_classification": {
+    "anatomy": [
+      "chipique-c01",
+      "chipique-c06",
+      "chipique-c07"
+    ],
+    "powers_deeds": [
+      "chipique-c02",
+      "chipique-c06"
+    ],
+    "setting": [
+      "chipique-c01",
+      "chipique-c05",
+      "chipique-c06"
+    ],
+    "disposition": [
+      "chipique-c02"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Half snake/crocodile; small slate-grey head and heavy black serpentine coils,30feet long.",
+      "claim_ids": [
+        "chipique-c01",
+        "chipique-c06",
+        "chipique-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Body grips and overturns canoe, physically displacing riverwater.",
+      "claim_ids": [
+        "chipique-c02",
+        "chipique-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Zambezi below Victoria Falls at night.",
+      "claim_ids": [
+        "chipique-c01",
+        "chipique-c05",
+        "chipique-c06"
+      ]
+    }
+  ],
+  "aura": "Threat from canoe-overturning deed(c02/c06), heavy black coils and small slate head(c07), not added powers.",
+  "artistic_choices": [
+    "Crocodilian snout/skin renders half-crocodile category; limbs kept underwater because limb layout unspecified.",
+    "No occupants depicted, no gore; ordinary spray from body/canoe displacement.",
+    "Night sidelight and tight camera editorial."
+  ],
+  "basis_claim_ids": [
+    "chipique-c01",
+    "chipique-c06",
+    "chipique-c07",
+    "chipique-c02",
+    "chipique-c05"
+  ]
+}

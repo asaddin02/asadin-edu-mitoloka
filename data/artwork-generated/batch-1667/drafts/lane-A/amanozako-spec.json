@@ -1,0 +1,61 @@
+{
+  "slug": "amanozako",
+  "worker": "codex",
+  "worker_agent": "lane1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "claim_classification": {
+    "anatomy": [
+      "amanozako-c02",
+      "amanozako-c06"
+    ],
+    "powers": [
+      "amanozako-c02",
+      "amanozako-c07",
+      "amanozako-c13"
+    ],
+    "setting": [],
+    "disposition": [
+      "amanozako-c01",
+      "amanozako-c04"
+    ]
+  },
+  "basis_claim_ids": [
+    "amanozako-c02",
+    "amanozako-c06",
+    "amanozako-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Near-human female body, beast-like face with conspicuous long/high nose, long ears and great fangs.",
+      "claim_ids": [
+        "amanozako-c02",
+        "amanozako-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fangs physically bite metal weapon blade ragged and into fragments.",
+      "claim_ids": [
+        "amanozako-c02",
+        "amanozako-c07"
+      ]
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Amanozako, fierce Japanese goddess described with a beast-like face, long nose, long ears and mighty fangs.\nANATOMY: ONE goddess with a near-human female body, one head, two arms and two legs, fully covered in heavy opaque layered ceremonial robes. Her clearly BEAST-LIKE face has a conspicuously long projecting raised nose, two long ears, and enormous visible fangs; human-like body but unmistakable monstrous face, no horns, wings or imported tengu beak. [amanozako-c02,amanozako-c06]\nMOMENT: Bite down hard on a plain metal sword held horizontally in both hands; huge fangs tear through the blade so its edge is visibly chewed ragged and broken metal fragments tumble below her jaws. Face dominates, eyes express terrible divine resolve, robes sweep from the exertion. [amanozako-c07]\nPOWER: Documented fangs physically chew sharp metal weapons to pieces; show only bent ragged steel and falling metal fragments, no magical glow or energy. [amanozako-c02,amanozako-c07]\nSCALE & CAMERA: extremely low tight three-quarter close angle, large nose, long ears, fangs and bitten blade all unobscured; no unsupported giant size or miniature people.\nLIGHT & WEATHER: single moonlit sidelight, antique-gold reflected rim along fangs and steel, deep walnut shadows.\nSURFACE: textured beast-like facial skin, coarse layered opaque robes, dark pitted metal blade with freshly torn edge.\nSETTING: restrained dark neutral backdrop with no specific geography claimed; subject and weapon are the scene.\nMOOD: reverent awe toward a formidable fierce goddess, overwhelming physical strength, never cute, comic, fairy-like or ordinary human.\nHARD CONSTRAINTS: no text, logo, border, frame or watermark; no extra limbs, heads or fingers; no horns, wings or tengu beak; no game/anime/film design, especially no modern fairy interpretation; no nudity or gore; no generic glow aura, neon outline, runes or energy ribbons.",
+  "depicted_variant": "Beast-faced long-nosed long-eared goddess chewing a metal blade with immense fangs.",
+  "artistic_choices": [
+    "Fully opaque ceremonial garments editorial; no imported tengu beak, wings or horns.",
+    "Neutral backdrop avoids unsupported geography.",
+    "Metal damage and falling fragments are sourced physical biting consequences, no supernatural glow."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

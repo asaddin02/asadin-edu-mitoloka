@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 1,
+  "complete": 3,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -1959,7 +1959,7 @@
       "slug": "frigg",
       "canonical_name": "Frigg",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-045.review.json",
       "research": {
@@ -2412,8 +2412,52 @@
       },
       "selection_visual_claim_ids": [],
       "receipt_path": "data/artwork-generated/batch-1617/frigg.json",
-      "original_file": "data/artwork-generated/batch-1617/originals/frigg.png",
-      "native_sha256": "44bdd55812656bfc6ee0c09de4f516a4caf18e6f4454b51c4c32d6e428658a5f"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1617/originals/frigg.png",
+      "native_sha256": "8e84d3a65a33f24519ac79b04a3618c8d55d35dead3c261f9d48fa2b506bd8b6",
+      "url": "/assets/art/frigg-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of FRIGG, the greatest Norse goddess taking protective oaths from all things animate and inanimate across the Nine Realms.\nANATOMY: One adult female goddess, one head, two eyes, two arms, two legs, five natural fingers on each hand. Fully opaque thick WALNUT ceremonial gown, high closed neckline, antique-gold mantle covering torso and legs. Natural severe dignified maternal face; no crown, no weapon, no spindle, no animal iconography attributed to her. [frigg-c01, frigg-c02]\nMOMENT: Command the universal protective promise with a broad OPEN PALM descending toward the oath gathering, opposite hand raised in solemn decree, mouth open as she speaks. Her enormous foreground palm and stern face look DOWN toward the viewer. Far below her, a semicircle of tiny fully clothed adult witnesses kneel and raise oath hands, ordinary wolves and a stag lower their heads. Among them are rough stones and forged iron pieces placed inward, a leaning tree at each side and one small ordinary brazier flame. All visibly attend her; Frigg is unmistakably the sovereign recipient rather than one member of a human gathering. [frigg-c10]\nPOWER: Oaths from animate and inanimate things that they will not harm her son. Represent physical oath posture and spoken decree only: no destructive power, no levitation, no moving metal, no supernatural flame, no glowing runes. Fire, metal, stone, trees, people and beasts are illustrative examples of animate/inanimate categories, not a new magic mechanism. [frigg-c10]\nSCALE & CAMERA: extreme low ground-level view from within the oath gathering; Frigg fills 85 percent of the square from hem to stern head, towering visually above the tiny oath participants. Treat this MONUMENTAL DIVINE SCALE as an editorial allegory of greatest-goddess status and universal oath, not a claim of canonical giant size. Raised commanding hands loom nearer than her face. Entire full figure remains visible, she is no ordinary human-size woman. [frigg-c02,frigg-c10]\nLIGHT & WEATHER: one strong low warm light from the ordinary foreground brazier illuminates her severe face, open palm and vast woven mantle from below; deep black background, thin atmospheric haze but NO glowing aura or supernatural clouds.\nSURFACE: extremely tactile opaque woven cloth, bronze-gold thread catching firelight, natural mature skin, rough rocks, matte iron, bark and shaggy animal fur.\nSETTING: Unspecified dark terrain where she gathers oaths during her journey throughout the Nine Realms. No invented Fensalir palace or throne. Keep background minimal behind towering subject. [frigg-c10]\nMOOD: Respectful sacred awe, overwhelming royal maternal authority, all existence attending her protective decree; decisive and imposing, never ordinary woman at human scale, cute, calm social gathering, or evil monster.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film game anime comic designs; fully opaque clothing, no nudity or gore; no generic glow aura, neon outline, energy ribbons, magical particles, floating objects, invented crown, throne or prophecy image.",
+      "depicted_variant": "Monumental editorial allegory of Frigg receiving oaths from animate and inanimate categories across the Nine Realms.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female greatest Norse goddess, natural humanlike anatomy, fully opaque ceremonial clothes; monumental composition is editorial allegory, not canonical giant stature.",
+          "claim_ids": [
+            "frigg-c01",
+            "frigg-c02"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Receives protective promises from animate and inanimate things: beasts and adult people lower heads and pledge; naturally arranged trees, rocks, metal and fire exemplify categories without invented force effects.",
+          "claim_ids": [
+            "frigg-c10"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Unspecified oath gathering during her passage through the Nine Realms; no unsupported hall or high seat.",
+          "claim_ids": [
+            "frigg-c10"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "frigg-c01",
+        "frigg-c02",
+        "frigg-c10"
+      ],
+      "aura": "Sovereign, monumental editorial rendering of the greatest goddess receiving universal protective oaths [frigg-c02,frigg-c10], no invented spell effects.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Inspected native 1254x1254 PNG and separate 200px thumbnail. All seven Sangar checks pass: Frigg dominates the full square in monumental greatest-goddess allegory; enlarged commanding open palm with five fingers, severe spoken decree and tiny raised oath hands establish active universal promise. Respectful sacred awe remains forceful at 200px. One head/two eyes/two arms, two legs concealed under opaque full gown; no extra limbs. Trees, lowered wolves/stag, inert stones/iron and ordinary brazier represent animate/inanimate categories of c10 without unsupported spell effects. No text, watermark, aura, nudity or gore. Giant compositional scale is explicitly editorial, not asserted sourced anatomy.",
+        "limitations": [],
+        "native_sha256": "8e84d3a65a33f24519ac79b04a3618c8d55d35dead3c261f9d48fa2b506bd8b6",
+        "reviewed_at": "2026-10-13T14:24:38.990990+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5ff782ee7c193bf62f048386dbf8d089aaeb0b7ff8a4486f61ad7ca4a18c6941"
     },
     {
       "index": 8,
@@ -2857,7 +2901,7 @@
       "slug": "mnemosyne",
       "canonical_name": "Mnemosyne",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-046.review.json",
       "research": {
@@ -3241,8 +3285,56 @@
       },
       "selection_visual_claim_ids": [],
       "receipt_path": "data/artwork-generated/batch-1617/mnemosyne.json",
-      "original_file": "data/artwork-generated/batch-1617/originals/mnemosyne.png",
-      "native_sha256": "4a4764ceec7a4d11556bcfe03ebab4ce6e91e33a8f414ff84143aedce990ab90"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1617/originals/mnemosyne.png",
+      "native_sha256": "ab0d16222e03fe6d57a5c7fea23ca46ed6184b9500c206123e75668b8c06ca2d",
+      "url": "/assets/art/mnemosyne-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of MNEMOSYNE, Titan goddess personifying memory, ruling the underground oracle of Trophonios in Boiotia from her immense throne beside the sacred well. [mnemosyne-c01,mnemosyne-c05,mnemosyne-c09]\nANATOMY: ONE living mature female Titan deity, one head two natural eyes two arms two legs and five fingers per hand. Humanlike anatomy, no crown or horns. Fully opaque high-neck walnut gown and massive heavy antique-gold mantle completely cover shoulders chest torso arms and legs. Her figure is drawn at MONUMENTAL ALLEGORICAL DEITY SCALE in this painterly sacred composition, not as an ordinary human woman; gigantic representation is editorial reverential symbolism, not a source claim of literal physical size. [mnemosyne-c01,mnemosyne-c07]\nMOMENT: RISE from the enormous plain stone throne and lean forward while DECLARING a remembered oral saga, mouth open in solemn recitation, stern compassionate eyes look downward toward viewer and tiny adult oracle consultants. One huge hand grips throne arm, other hand opens authoritatively toward the sacred well and the consultants; both hands are clear. She towers from oracle floor to cavern ceiling; her head, shoulders, whole cloth-covered torso and moving forearms dominate upper 75 percent of square. [mnemosyne-c03,mnemosyne-c05,mnemosyne-c09]\nPOWER: Memory is embodied ONLY in active spoken recitation: TWO tiny fully clothed ADULT oracle consultants below her knee listen and repeat the story with open mouths and attentive raised faces, one emerges from the downward stone stairway toward the well. Her recitation directs attention physically toward the existing throne, well and underground descent. NO floating words, memory visions, magic glow, controlling water, spells, time effects or supernatural weather. [mnemosyne-c03,mnemosyne-c05,mnemosyne-c09]\nSCALE & CAMERA: EXTREME LOW WIDE camera at underground floor, looking up at the deity and entire broad throne. CLEAR monumental scale: an adult consultant only as tall as her hand stands CLOSE to her throne base, rather than far away in perspective. DEITY herself fills 75 percent square; no distant tiny goddess. Strong face silhouette and enormous plain throne readable at 200px. LARGE circular sacred stone WELL with visible black STILL WATER occupies lower center 20 percent, unmistakably a well, never a vague bowl. A clearly readable steep STONE STAIRCASE descends at right from a small high cavern opening to oracle floor below her throne, with second consultant walking down it. Cave depth supports the underground oracle, not an empty landscape.\nLIGHT & WEATHER: ONE low ordinary fire-lit brazier beside well, golden reflected light from STILL WATER illuminates her mantle, grave face and extended hands; deep walnut-black cave shadow, harsh rim and visible ordinary dust in the lamplight. Brazier is editorial scene light, not her divine attribute. No halo, no luminous eyes, no glowing well, no divine beams.\nSURFACE: visible painterly brushwork, dense heavy matte woven cloth, natural mature skin, worn rough uninscribed throne, thick well masonry, plain descending stone steps and dark still water.\nSETTING: subterranean oracle of Trophonios in Boiotia, her sacred well and throne clearly separate and legible. Simple rough-rock chamber, no palace towers or carved symbols. [mnemosyne-c05,mnemosyne-c09]\nMOOD: overwhelming sacred Titan authority, deeply awe-inspiring, reverent and active, never ordinary woman beside a well, casual human teacher, calm portrait or evil monster.\nHARD CONSTRAINTS: no text lettering logo border frame watermark; no extra heads eyes limbs fingers; no crown weapons invented iconography jewellery scrolls floating writing visions clocks stars or symbols; no borrowed movie game anime comic design; no nudity or gore; no generic glow aura neon outlines energy ribbons; no moving magic water or levitation. Goddess living and active, not statue. Throne, round sacred well and underground descent must ALL be legible.",
+      "depicted_variant": "Monumental allegorical Titan deity rising from throne to lead oral recitation over sacred well and consultants in underground oracle.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Single female humanlike Titan goddess; monumental allegorical rendering with fully opaque editorial ceremonial garments, no invented attributes.",
+          "claim_ids": [
+            "mnemosyne-c01",
+            "mnemosyne-c07"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Active oral recitation embodied in speaker/listeners, with no invented physical memory magic or moving water.",
+          "claim_ids": [
+            "mnemosyne-c03",
+            "mnemosyne-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Underground oracle of Trophonios in Boiotia; large distinct sacred well and throne, descending access stairs as editorial visualization of underground location.",
+          "claim_ids": [
+            "mnemosyne-c05",
+            "mnemosyne-c09"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "mnemosyne-c01",
+        "mnemosyne-c07",
+        "mnemosyne-c05",
+        "mnemosyne-c03",
+        "mnemosyne-c09"
+      ],
+      "aura": "Monumental editorial Titan representation presides over the sourced underground oracle, well and throne; authoritative recitation embodies memory [mnemosyne-c01,c03,c05,c09].",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Viewed native 1254x1254 and actual200px. Monumental allegorical Titan fills cave over tiny adult standing CLOSE at throne foot, so divine composition survives thumbnail. Single humanlike female, natural hands, opaque cloth. Active oral declaration and extended authoritative hand; enormous throne, circular dark STILL-water sacred well and steep descending oracle stairs all distinct. Two ordinary adult consultants. No memory visions/glow, water control, text or invented attributes. All seven Sangar checks pass. Monumental stature is editorial sacred allegory per correction guidance, not source physical size claim.",
+        "limitations": [],
+        "native_sha256": "ab0d16222e03fe6d57a5c7fea23ca46ed6184b9500c206123e75668b8c06ca2d",
+        "reviewed_at": "2026-10-13T14:20:30.407789+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fce5e428de736938df66fc2ee5fc74fa9e693eaee3fabdb9669ef3a42287803c"
     },
     {
       "index": 11,

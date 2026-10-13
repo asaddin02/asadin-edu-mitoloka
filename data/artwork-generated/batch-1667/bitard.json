@@ -1,0 +1,86 @@
+{
+  "slug": "bitard",
+  "worker": "codex",
+  "worker_agent": "lane1667-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bitard in its ORIGINAL documented chimeric variant, a mythic creature of Ligugé forest near Poitiers.\nANATOMY: One sharply elongated WILD MARTEN head with pointed narrow muzzle, two SMALL DARK narrowed predator eyes under tense brows, small rounded ears pinned back, a continuous elongated SALMON fish body with overlapping wet silvery dark scales, FOUR short sturdy BASSET HOUND legs with canine paws emerging from underside, rump feathered with TURKEY plumes forming one ragged fan. Natural hybrid joins, no human body, no hare legs, no peacock feathers, no academic necklace in this original variant. [bitard-c03]\nMOMENT: Bound abruptly from dark roots toward and past the viewer escaping a forest hunt, marten muzzle tightens into a defensive feral snarl with ordinary needlelike marten teeth visible, mouth tense not smiling, front two basset paws lifted and rear legs pushing, turkey rump feathers flare. [bitard-c04]\nPOWER: no documented power; creature's uncanny anatomy, forceful motion and light alone. No magic or invented attack.\nSCALE & CAMERA: extreme low close view from damp ground, harsh foreshortened marten muzzle and fish-scaled shoulders occupy foreground, creature fills 95 percent of square through framing, no invented giant size, all four short canine legs legible.\nLIGHT & WEATHER: single warm lantern beam from hunter just out of frame reveals fish scales and marten eyes, deep brown forest shadows, disturbed dry leaves. [bitard-c04]\nSURFACE: marten coarse fur, slick salmon scales, rough short-legged dog fur, layered turkey feathers, moist leaf litter.\nSETTING: dark Ligugé forest near Poitiers; fallen roots and leaf litter. [bitard-c01,bitard-c04]\nMOOD: awe at strange semi-divine chimera, forceful and unsettling encounter, NO cute mascot, NO big round adorable eyes, NO happy expression, NO plush puppy proportions or jokey costume.\nHARD CONSTRAINTS: no text logo border watermark; no extra heads legs or tails; no film game anime comic design; no horns wings fire or glowing eyes; no gore; no generic glow aura neon energy ribbons; exactly original variant marten/salmon/basset/turkey.",
+  "depicted_variant": "Original marten-headed salmon-bodied basset-legged turkey-plumed creature escaping a forest hunt.",
+  "basis_claim_ids": [
+    "bitard-c03",
+    "bitard-c01",
+    "bitard-c04"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "bitard-c03"
+    ],
+    "powers": [],
+    "setting": [
+      "bitard-c01",
+      "bitard-c04"
+    ],
+    "disposition": [
+      "bitard-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Original chimera: marten head, salmon body, basset legs, turkey-feathered rump",
+      "claim_ids": [
+        "bitard-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ligugé forest near Poitiers and lantern-lit mock hunt",
+      "claim_ids": [
+        "bitard-c01",
+        "bitard-c04"
+      ]
+    }
+  ],
+  "aura": "Unusual marten/salmon/basset/turkey composite in urgent forest movement creates awe [bitard-c03,c04].",
+  "artistic_choices": [
+    "Choose complete original variant c03 without mixing carp/hare/peacock/academic-palms variant c02.",
+    "No documented supernatural effect; fleeing bound is editorial response to documented hunt.",
+    "Four legs are ordinary quadruped basset category rendering, not extra monster limbs; close camera without giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1667/rejected/bitard-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1667/rejected/bitard-attempt-01.json",
+      "native_sha256": "853e5b2c8b1c4dac71873675d83d0014caecb77422356747854e5ffd9b310053",
+      "reason": "Marten face has large round puppy eyes and happy open mouth; at200px reads cute mascot despite hybrid anatomy. Sangar/awe test fails."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1346c-d2ea-75a1-8822-f0172bfe6e30/exec-09bcc06a-aa87-441d-85d9-e25ed1e4b68b.png",
+  "generated_at": "2026-10-13T12:51:47.313900+00:00",
+  "original_file": "data/artwork-generated/batch-1667/originals/bitard.png",
+  "native_sha256": "46169aaf1b7466ce8bf78e677ae5040eab43fe95a06916200d9168a41551fa69",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: tense narrowed-eye marten head with defensive snarl, fish-scaled salmon body, short basset-type legs and turkey feather rump; forceful fleeing bound, no puppy smile. Four legs expected with far rear partly occluded, no extra limbs. All seven Sangar checks yes; no magic/text/giant scale. Attempt01 cute rejected archived.",
+    "limitations": [],
+    "native_sha256": "46169aaf1b7466ce8bf78e677ae5040eab43fe95a06916200d9168a41551fa69",
+    "reviewed_at": "2026-10-13T12:51:47.313900+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T01:03:04+07:00",
+    "native_sha256": "46169aaf1b7466ce8bf78e677ae5040eab43fe95a06916200d9168a41551fa69",
+    "notes": "Marten head with bared teeth, salmon-scaled body, short basset legs and turkey plumage, stalking through the leaf litter; no longer cute."
+  }
+}

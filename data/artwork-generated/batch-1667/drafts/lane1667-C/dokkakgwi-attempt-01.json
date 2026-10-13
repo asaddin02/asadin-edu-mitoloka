@@ -1,0 +1,73 @@
+{
+  "slug": "dokkakgwi",
+  "worker": "codex",
+  "worker_agent": "lane1667-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Dokkakgwi, the one-legged Korean dokkaebi, demonstrating superhuman strength in a sudden forward hop.\nANATOMY: one humanlike head with wildly disheveled dark hair, two natural eyes, two arms, and exactly ONE leg and ONE foot, the entire single leg BLACK as if lacquered [dokkakgwi-c01,c06,c07]. The single leg descends continuously from center of pelvis; no second thigh,knee,foot,stump or hidden limb. Fully opaque white rough wrapped tunic covers torso/hips but ends above knee so single black leg is unmistakable. No horns,tusks,wings,club or invented iconography.\nMOMENT: hop forcefully directly toward viewer on the one lacquer-black leg while lifting a great rough boulder with both arms, demonstrating documented superhuman strength; hair flies with movement, intense defiant mischievous stare rather than evil demon face.\nPOWER: superhuman strength [dokkakgwi-c10], physically lifting a heavy boulder; real soil dust displaced by single foot landing, no magic aura or invisibility effect.\nSCALE & CAMERA: extreme low close camera beside the single foot, whole figure fills frame from foot to hair; no unsupported giant size or sky-touching variant, just foreshortening.\nLIGHT & WEATHER: one warm dusk sidelight, deep walnut shadows, black leg catches lacquer-like reflected highlight without glowing.\nSURFACE: tactile natural face/hands, coarse opaque white cloth, smooth-black single leg, rough heavy stone and dry soil.\nSETTING: mountain field with natural stones and trees [dokkakgwi-c09], minimal background to retain readable anatomy.\nMOOD: imposing uncanny folk spirit with awe at physical strength, never cute, calm, generic ordinary human or gratuitously evil.\nHARD CONSTRAINTS: no text,logo,border,frame,watermark; exactlyonehead,twoarms,ONEleg,ONEfoot; no second hidden leg/stump,extra toes/fingers; no film/game/anime/comic design; no nudity/transparentcloth or gore; no generic aura,neon,energy ribbons,horns,wings,club,giantbody or magical floating boulder.",
+  "depicted_variant": "One-legged lacquer-black-legged dokkaebi hops while physically lifting stone.",
+  "claim_classification": {
+    "anatomy": [
+      "dokkakgwi-c01",
+      "dokkakgwi-c06",
+      "dokkakgwi-c07"
+    ],
+    "powers_deeds": [
+      "dokkakgwi-c10"
+    ],
+    "setting": [
+      "dokkakgwi-c09"
+    ],
+    "disposition": [
+      "dokkakgwi-c11"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Disheveled hair,exactly one black lacquer-like leg and one foot,hop.",
+      "claim_ids": [
+        "dokkakgwi-c01",
+        "dokkakgwi-c06",
+        "dokkakgwi-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Superhuman strength expressed through lifting heavy boulder; dust from hoppingfoot.",
+      "claim_ids": [
+        "dokkakgwi-c10",
+        "dokkakgwi-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountains and fields amid trees/stones.",
+      "claim_ids": [
+        "dokkakgwi-c09"
+      ]
+    }
+  ],
+  "aura": "Uncanny singleblackleg(c06/c07) and physically expressed superhumanstrength(c10), mischievous rather than evil(c11).",
+  "artistic_choices": [
+    "Opaque white rough wrap editorial modestclothing; sky-touching giant variant not combined.",
+    "Boulder lifting is concrete editorial illustration of documented strength, no new ability.",
+    "Natural humanlike face/arms render wrestling dokkaebi category; no imported horn/club iconography.",
+    "Low camera/warmlight editorial, no giant size."
+  ],
+  "basis_claim_ids": [
+    "dokkakgwi-c01",
+    "dokkakgwi-c06",
+    "dokkakgwi-c07",
+    "dokkakgwi-c10",
+    "dokkakgwi-c09",
+    "dokkakgwi-c11"
+  ]
+}

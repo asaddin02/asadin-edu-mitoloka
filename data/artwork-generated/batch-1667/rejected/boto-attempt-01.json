@@ -1,0 +1,88 @@
+{
+  "slug": "boto",
+  "worker": "codex",
+  "worker_agent": "resume1667-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1667,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Boto in the documented transformed HUMAN form, Amazon river dolphin shapeshifter arriving at a riverside full-moon festival.\nANATOMY: One handsome elegant pale-skinned young adult man dressed in a fully opaque WHITE shirt and white trousers, one human head two eyes two arms two legs. CRUCIAL: a real DOLPHIN BLOWHOLE remains at the TOP OF HIS HUMAN HEAD: a dark oval breathing opening in intact smooth crown skin, NOT a wound, no blood, not a third eye. Hold his plain white hat lifted above the head so blowhole is fully exposed and clearly legible. [boto-c04,boto-c05,boto-c06,boto-c07,boto-c08]\nMOMENT: Emerge forcefully from Amazon river shallows toward the viewer, lean his head forward as he lifts the hat in response to the festival request; his uncanny blowhole and penetrating direct gaze dominate the near foreground. White wet cloth stays opaque. [boto-c06,boto-c07]\nPOWER: Documented shapeshifting has just produced the human body while leaving the dolphin breathing opening, physical water splashes around his step. NO hybrid dolphin face, fins or fish tail, no magical aura. [boto-c05,boto-c07]\nSCALE & CAMERA: extreme low intimate camera at waterline but man bends crown toward camera to make TOP HEAD BLOWHOLE visible. Close half-body fills 90 percent of square; human scale, no giant cues.\nLIGHT & WEATHER: one full moon dominates light, silver-white rim on wet clothing, deep warm river shadows; physical splashes only.\nSURFACE: intact smooth crown with natural dark blowhole, wet opaque white woven cloth, water droplets, plain felt hat.\nSETTING: Amazon riverside under full moon; a few subdued community festival lights far behind without distracting extra people. [boto-c01,boto-c07,boto-c08]\nMOOD: compelling uncanny shapeshifter encounter, unsettling imposing gaze, not ordinary gentleman portrait or cute dolphin; no sexual scene.\nHARD CONSTRAINTS: no text logo border watermark; no extra heads limbs fingers; no film game anime comic designs; no nudity gore; blowhole is anatomical breathing opening NOT bloody injury; no generic glow aura neon energy ribbons; NO dolphin face or tail on the human variant; exposed blowhole must dominate visual recognition.",
+  "depicted_variant": "White-clothed transformed man exposing retained crown blowhole while emerging from Amazon shallows at full-moon festival.",
+  "basis_claim_ids": [
+    "boto-c04",
+    "boto-c05",
+    "boto-c07",
+    "boto-c08",
+    "boto-c06",
+    "boto-c01"
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "boto-c04",
+      "boto-c05",
+      "boto-c07",
+      "boto-c08"
+    ],
+    "powers": [
+      "boto-c07"
+    ],
+    "setting": [
+      "boto-c01",
+      "boto-c07",
+      "boto-c08"
+    ],
+    "disposition": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Elegant white-clothed young man with retained dolphin blowhole in crown and hat",
+      "claim_ids": [
+        "boto-c04",
+        "boto-c05",
+        "boto-c07",
+        "boto-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Emergence from river and human transformation retaining blowhole; hat lifted after removal request",
+      "claim_ids": [
+        "boto-c05",
+        "boto-c06",
+        "boto-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Amazon riverside full-moon festival",
+      "claim_ids": [
+        "boto-c01",
+        "boto-c07",
+        "boto-c08"
+      ]
+    }
+  ],
+  "aura": "Retained dolphin blowhole on human head revealed in river emergence provides source-specific uncanny force [boto-c05,c06,c07].",
+  "artistic_choices": [
+    "Choose text-grounded human variant rather than ordinary dolphin.",
+    "Hat-lift is editorial moment responding to sourced request c06, revealing sourced retained blowhole c05.",
+    "Transformation is complete human anatomy with blowhole only, no invented hybrid intermediate form or magic aura.",
+    "Moonlight and close waterline framing amplify uncanny presence without giant scale or sexual scene."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "attempt": "01",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13588-b8a6-77c3-b2ee-f07777fb9f64/exec-9e69be3c-0ca7-4073-978c-cdfe492ccf46.png",
+  "generated_at": "2026-10-13T14:13:57.785855+00:00",
+  "generated_at_basis": "native PNG filesystem mtime",
+  "native_sha256": "2780619f8613ed351f848d0ee555c3f75c7cacb7186ffbb9bbdba044c7cd28e1",
+  "width": 1254,
+  "height": 1254,
+  "original_file": "data/artwork-generated/batch-1667/rejected/boto-attempt-01.png",
+  "reason": "Wet white shirt is translucent over torso, failing fully opaque clothing constraint GAMBAR §6.2.10; image also too evenly photographic rather than low-key painterly."
+}
