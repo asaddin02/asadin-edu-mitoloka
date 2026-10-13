@@ -1,10 +1,12 @@
 {
   "batch_id": "batch-136",
-  "checked_at": "2026-10-13T19:47:13.988Z",
+  "checked_at": "2026-10-13T20:08:16.738Z",
   "files": [
     "batch-136.md",
     "batch-136-fix-1.md",
-    "batch-136-fix-2.md"
+    "batch-136-fix-2.md",
+    "batch-136-fix-3.md",
+    "batch-136-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1642,20 +1644,15 @@
     },
     {
       "slug": "triton",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "668a0db731fd7f0e94688b344b1e4d624da870b0eca8c48e41f765452543bbb9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "triton-c01",
@@ -1706,27 +1703,41 @@
           "quote": "Tritonen of tritons vormen een decoratief thema in ornamentprenten, vazen en fonteinen. In Rome staat bijvoorbeeld de Trevifontein waarin deze wezens uitgebeeld zijn.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "triton-c06",
+          "source_id": "triton-s2",
+          "host": "www.woorden.org",
+          "statement": "A triton is a minor sea god, half man and half fish, who rode over the water with horses and sea monsters and blew a conch (kinkhoorn) to calm the waves.",
+          "statement_id": "Triton adalah dewa laut tingkat rendah, setengah manusia setengah ikan, yang menunggang kuda dan monster laut di atas air serta meniup kerang (kinkhoorn) untuk menenangkan ombak.",
+          "quote": "zeegod van lagere rang, half mens, half vis reed hij over het water met paarden en zeemonsters en blies hij op de kinkhoorn om de golven te bedaren",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "triton-c07",
+          "source_id": "triton-s2",
+          "host": "www.woorden.org",
+          "statement": "There is also mention of a great number of Tritons, beings of monstrous appearance.",
+          "statement_id": "Ada pula kisah tentang banyak Triton, makhluk berpenampilan seperti monster.",
+          "quote": "Er wordt ook gesproken van een groot aantal Tritons, wezens van monsterachtig voorkomen, met een lichaam, dat in een groten",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3d53e5dbc949426f56f1095bf35de10ecf136c8c52c5abd02f8d2f838216f59a"
+      "images": []
     },
     {
       "slug": "trucafort",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "76cd63b238913ef120d5d50956d4122a4435f216c531788911b920958cebd5a6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "trucafort-c01",
@@ -1777,10 +1788,49 @@
           "quote": "Paradoxalment, la seva faceta de bandoler esdevé un exemple de contrast entre allò que va suposar realment la vida del bandoler Gabriel Torrent de la Goula amb el romanticisme que ha perdurat en la llegenda del personatge mitològic popular",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "trucafort-c06",
+          "source_id": "trucafort-s2",
+          "host": "www.rac1.cat",
+          "statement": "His look was bizarre and unsettling; his main feature was a huge rock he wore on his head like a hat (barret).",
+          "statement_id": "Rupanya ganjil dan meresahkan; ciri utamanya adalah batu besar yang dipakainya di atas kepala seperti topi (barret).",
+          "quote": "La seva mera aparença resultava estrafolària i desassossegant, perquè el principal tret que el caracteritzava era una enorme roca que portava sobre el cap com a barret.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trucafort-c07",
+          "source_id": "trucafort-s2",
+          "host": "www.rac1.cat",
+          "statement": "This made him let out howls of pain that shook the mountains and announced his arrival, heard up to seven hours away, or so they said.",
+          "statement_id": "Hal itu membuatnya mengeluarkan lolongan kesakitan yang mengguncang gunung dan mendahului kedatangannya, terdengar hingga tujuh jam jauhnya, katanya.",
+          "quote": "això propiciava que emetés uns udols de dolor fart potents, els quals feien tremolar les muntanyes i precedien la seva arribada, tant que s'escoltaven fins a set hores de distància (o això deien).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trucafort-c08",
+          "source_id": "trucafort-s2",
+          "host": "www.rac1.cat",
+          "statement": "Trucafort was also said to carry a huge stone mace (maça de pedra) with which he crushed bad children into mush.",
+          "statement_id": "Konon Trucafort membawa gada batu (maça de pedra) raksasa untuk meremukkan anak-anak nakal hingga menjadi bubur.",
+          "quote": "Finalment, es comentava que Trucafort, portava una descomunal maça de pedra amb la qual esclafava als nens dolents i els convertia en farinetes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trucafort-c09",
+          "source_id": "trucafort-s2",
+          "host": "www.rac1.cat",
+          "statement": "Many point out that the figure may originate in a historical person, or at least a shared nickname.",
+          "statement_id": "Banyak yang menunjukkan bahwa tokoh ini mungkin berasal dari tokoh sejarah, atau setidaknya berbagi julukan dengannya.",
+          "quote": "El curiós d'aquest personatge és que molts assenyalen que podria tenir el seu origen en un personatge històric o, almenys, un sobrenom compartit.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8c8ee34f63246107455f10ce2c0650549342cf1b9dd59eaf70628086ed929332"
+      "images": []
     },
     {
       "slug": "uomo-ragno",
@@ -1824,11 +1874,12 @@
     },
     {
       "slug": "uphir",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "8fd3035a56180637dbca38c57fbdb9c600d22bd31468e9bdfddd7d704698cedc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
       "issues": [
@@ -1836,11 +1887,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Demonologi Eropa\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1863,27 +1909,61 @@
           "quote": "Os antigos médicos bruxos recorriam a esse demônio para que os aconselhasse na preparação de suas beberagens e poções. Trata-se de demônio químico, conhecedor de ervas medicinais e responsável pela saúde dos outros demônios.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "uphir-c03",
+          "source_id": "uphir-s2",
+          "host": "fr.wikisource.org",
+          "statement": "Uphir is a chemist demon well versed in medicinal herbs (simples), responsible in hell for the health of Belzébuth and the great ones of his court.",
+          "statement_id": "Uphir adalah iblis ahli kimia yang sangat paham tentang tumbuhan obat (simples) dan di neraka bertanggung jawab atas kesehatan Belzébuth serta para pembesar istananya.",
+          "quote": "Uphir, démon chimiste, très-versé dans la connaissance des simples. Il est responsable aux enfers de la santé de Belzébuth et des grands de sa cour.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "uphir-c04",
+          "source_id": "uphir-s2",
+          "host": "fr.wikisource.org",
+          "statement": "Earthly physicians took him as their patron after Esculape (Asclepius) fell into discredit.",
+          "statement_id": "Para tabib duniawi menjadikannya pelindung mereka sejak Esculape (Asklepios) kehilangan wibawa.",
+          "quote": "Les médecins matériels l’ont pris pour leur patron depuis le discrédit d’Esculape.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "uphir-c05",
+          "source_id": "uphir-s3",
+          "host": "fr.wikisource.org",
+          "statement": "In a list in the 1894 book Le Diable au XIXe siècle, Uphir is assigned to Lyon in the province of Lyon.",
+          "statement_id": "Dalam daftar di buku Le Diable au XIXe siècle (1894), Uphir ditempatkan di Lyon, provinsi Lyon.",
+          "quote": "PROVINCE DE LYON. — Lyon : Uphir. — Autun : Baëlboug.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uphir-c06",
+          "source_id": "uphir-s3",
+          "host": "fr.wikisource.org",
+          "statement": "In the same list in Le Diable au XIXe siècle, Uphir is named the great daimon of eloquence (grand daimon d’éloquence), serving as promoter.",
+          "statement_id": "Dalam daftar yang sama di buku Le Diable au XIXe siècle, Uphir disebut daimon agung kefasihan (grand daimon d’éloquence) yang bertugas sebagai promotor.",
+          "quote": "Vauvert, deuxième vice-président. Uphir, grand daimon d’éloquence, promoteur.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8c44e44aad7f2e7317be734de6fc6b06850ef9252b7870e946e86ef20970b9ce"
+      "images": []
     },
     {
       "slug": "uriande",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "953318207c5a94b7728e4649e046c0f9c51ed2282527ea69f7186dbc91364355",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "uriande-c01",
@@ -1924,18 +2004,38 @@
           "quote": "Dans une autre légende, Uriande aide Henry de Léon, sénéchal de Bretagne, et se révèle être une fée bienveillante et mystique",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "uriande-c05",
+          "source_id": "uriande-s2",
+          "host": "outtrip.fr",
+          "statement": "According to the legend, a red partridge (perdrix rouge) seeking its lost young was taken in by the fairy Uriande, who showed it in a magic mirror its offspring sheltering under a bush.",
+          "statement_id": "Menurut legenda, seekor ayam hutan merah (perdrix rouge) yang mencari anak-anaknya dipungut oleh peri Uriande, yang menunjukkan anak-anaknya terlindung di bawah semak lewat cermin ajaib.",
+          "quote": "Selon la légende, une perdrix rouge cherchant ses petits en perdition fut recueillie par la fée Uriande, qui lui montra dans un miroir magique sa progéniture à l'abri d'un buisson.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uriande-c06",
+          "source_id": "uriande-s2",
+          "host": "outtrip.fr",
+          "statement": "The partridge was then proclaimed queen by the animals of the Pilat at the summit of the Crêt.",
+          "statement_id": "Ayam hutan itu kemudian diangkat menjadi ratu oleh hewan-hewan Pilat di puncak Crêt.",
+          "quote": "La perdrix fut alors proclamée reine par les animaux du Pilat au sommet du Crêt.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f7f831e2b4ec2b5112de28cdf7c806d9520573250738a5d71677daf5b38287b9"
+      "images": []
     },
     {
       "slug": "vakner",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "5dd0dc0f6805042436ba63ba796f137468a82a86a6be27bd19a0a49fe233f86e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -1943,11 +2043,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1990,27 +2085,61 @@
           "quote": "Pasou en Galicia 84 días do ano 1492, e durante os máis de seis anos da súa peregrinación, deixou memoria nun breve escrito que se traduciu ao español en 1898.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "vakner-c05",
+          "source_id": "vakner-s2",
+          "host": "www.gronze.com",
+          "statement": "In the travel account the vákner is called a large and very harmful wild animal; people wondered how he had escaped when companies of twenty people could not get past.",
+          "statement_id": "Dalam catatan perjalanan itu, Vákner disebut binatang buas yang besar dan sangat berbahaya; orang heran ia bisa selamat, padahal rombongan dua puluh orang pun tidak dapat lewat.",
+          "quote": "Encontramos el vákner, animal salvaje grande y muy dañino. ¿Cómo, me decían, habéis podido salvaros, cuando compañías de veinte personas no pueden pasar?",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vakner-c06",
+          "source_id": "vakner-s2",
+          "host": "www.gronze.com",
+          "statement": "The Vákner's only appearance took place in the year 1493.",
+          "statement_id": "Satu-satunya kemunculan Vákner terjadi pada tahun 1493.",
+          "quote": "Su única aparición en escena tuvo lugar en el año de 1493",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vakner-c07",
+          "source_id": "vakner-s2",
+          "host": "www.gronze.com",
+          "statement": "Specialists' hypotheses on the Vákner range from a wolf or rabid wolf to a werewolf (licántropo), a dragon or another evil being laden with symbolism.",
+          "statement_id": "Hipotesis para ahli tentang Vákner berkisar dari serigala atau serigala rabies hingga manusia serigala (licántropo), naga, atau makhluk jahat lain yang sarat simbol.",
+          "quote": "que van del lobo o lobo rabioso, a un licántropo, un dragón u otra clase de ser maléfico con una carga simbólica",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vakner-c08",
+          "source_id": "vakner-s2",
+          "host": "www.gronze.com",
+          "statement": "The municipality decided to place a large sculptural installation on the Camino, commissioned from Cándido Pazos, depicting a werewolf (hombre lobo).",
+          "statement_id": "Pemerintah kota memutuskan memasang instalasi patung besar di Camino, dipesan dari Cándido Pazos, yang menggambarkan manusia serigala (hombre lobo).",
+          "quote": "el municipio decidió situar en el Camino una gran instalación escultórica, encargada a Cándido Pazos ... en la que se represente la imagen de un hombre lobo.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "25970f55ce4498906097e470a825c7a8f88d368258614fd4b72d6d2c81b35190"
+      "images": []
     },
     {
       "slug": "velha-da-egua-branca",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "89267105915e624bbb3d14149e91c7a99f88a15b881469ace66be3f404f8cc39",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "velha-da-egua-branca-c01",
@@ -2051,17 +2180,67 @@
           "quote": "Aparece nas noites de luar montada n'uma égua branca, fazendo um barulho infernal pelos campos, e soltando os bois que ruminam debaixo das alpenduradas. Todo o barulho é feito com tachos e panelas de arame.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "velha-da-egua-branca-c05",
+          "source_id": "velha-da-egua-branca-s2",
+          "host": "archive.org",
+          "statement": "It is told that when Christ (Christo) walked the earth, a poor man asked a farm woman living right by the church for a bit of bread to still his hunger.",
+          "statement_id": "Dikisahkan bahwa ketika Kristus (Christo) masih berjalan di dunia, seorang miskin meminta sepotong roti untuk mengusir lapar kepada seorang perempuan petani yang tinggal di dekat gereja.",
+          "quote": "conta-se que no tempo em que Christo andava pelo mundo um pobre foi pedir um bocado de pão, para ma- tar a fome, a uma lavradoura que morava mesmo ao pé da egreja",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "velha-da-egua-branca-c06",
+          "source_id": "velha-da-egua-branca-s2",
+          "host": "archive.org",
+          "statement": "The beggar, who was Our Lord Jesus Christ in person, told her: «May you see in blood the first bread you cut».",
+          "statement_id": "Pengemis itu, yang sebenarnya Yesus Kristus sendiri, berkata kepadanya: «Semoga kaulihat roti pertama yang kaupotong berupa darah».",
+          "quote": "O pobre pedinte, que era Nosso Senhor Jesus Christo em pessoa, disse-lhe: «Em sangue vejas o pri- meiro pão que partires».",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "velha-da-egua-branca-c07",
+          "source_id": "velha-da-egua-branca-s2",
+          "host": "archive.org",
+          "statement": "She screamed in horror and remorse because the bread was all bloody; three days later she died and her soul was not saved.",
+          "statement_id": "Perempuan itu menjerit ngeri dan penuh penyesalan karena rotinya berlumuran darah; tiga hari kemudian ia meninggal dan jiwanya tidak selamat.",
+          "quote": "Immediatamente pôz-se a gritar horrori- sada e cheia de remorsos porque o pão estava todo ensan- guentado. Passados Ires dias morreu e a sua alma não se salvou.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "velha-da-egua-branca-c08",
+          "source_id": "velha-da-egua-branca-s2",
+          "host": "archive.org",
+          "statement": "The knife she always carries in her left hand is the one with which she cut the bread.",
+          "statement_id": "Pisau yang selalu dibawanya di tangan kiri adalah pisau yang dipakainya memotong roti itu.",
+          "quote": "Traz sem- pre na mão esquerda a faca com que partiu o pão",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "velha-da-egua-branca-c09",
+          "source_id": "velha-da-egua-branca-s3",
+          "host": "archive.org",
+          "statement": "Among the demonic divinities of the night, the velha da égua branca (printed \"Vdha\" in the scan) appears at Estombar and Lagoa (Algarve).",
+          "statement_id": "Di antara dewa-dewa iblis malam, velha da égua branca (tercetak \"Vdha\" dalam hasil pindaian) muncul di Estombar dan Lagoa (Algarve).",
+          "quote": "Ha outras divindades demoniacas da noite ; em Estombar e Lagoa (Algarve) apparece a Vdha da égua branca.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9486ccb0e2e2f30d04cdf1ec2b858d461cf84ea668b0a6243952908c54b7981a"
+      "images": []
     },
     {
       "slug": "ventolin",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "afef5e77bc4a9cf66e837fea92613fd720a380a2c461a58bdd52a21208b2e1ff",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -2069,7 +2248,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2122,10 +2301,19 @@
           "quote": "if it was not windy, they blew inflating their cheeks and flying behind the boat making a breeze enough for the boat to sail.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ventolin-c06",
+          "source_id": "ventolin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ventolines even wiped the old fisherman's sweat and sheltered him with their green wings when it was cold.",
+          "statement_id": "Ventolines bahkan menyeka keringat nelayan tua itu dan menaunginya dengan sayap hijau mereka saat dingin.",
+          "quote": "They even wiped his sweat and sheltered him with their green wings when it was cold.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "417c7a87f771499fc2322e6125c9d7a3afbb6441119ddd5a2e4ded664b4c041c"
+      "images": []
     },
     {
       "slug": "vine",
@@ -2149,11 +2337,12 @@
     },
     {
       "slug": "xacio",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "740065867bc2676b142831369883ae1c79568572263b4f07828bb08ef26210a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
       "issues": [
@@ -2161,11 +2350,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2208,17 +2392,57 @@
           "quote": "Coñécense lendas sobre as xacias en Chouzán (Carballedo, Lugo) ou no rego do Vao, en Sober (Lugo).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "xacio-c05",
+          "source_id": "xacio-s2",
+          "host": "archive.org",
+          "statement": "The xacios are commonly described as aquatic beings, sometimes with a more human-like form far from the fish-like features of their kin.",
+          "statement_id": "Xacios umumnya digambarkan sebagai makhluk air, kadang dengan wujud yang lebih mirip manusia dan jauh dari ciri ikan sesamanya.",
+          "quote": "Estes «xacios» son descritos comunmente como uns seres acuáticos, en ocasións cunha forma máis parella á hu- mana e afastada da caracterización íctica dos seus conxéneres.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xacio-c06",
+          "source_id": "xacio-s2",
+          "host": "archive.org",
+          "statement": "According to one informant, the xacios used to come out of the river pools in human guise to entice the girls going home from the festival at night.",
+          "statement_id": "Menurut seorang narasumber, xacios biasa keluar dari lubuk sungai dalam rupa manusia untuk memikat gadis-gadis yang pulang dari pesta pada malam hari.",
+          "quote": "Segundo ela, os xacios acostumaban saír baixo a súa fascia humana das pozas do río para engaiolaren as mozas que pola noite se recollían da festa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xacio-c07",
+          "source_id": "xacio-s2",
+          "host": "archive.org",
+          "statement": "The same tradition gives them a flaw that gives them away: a residual lizard tail can be found on them.",
+          "statement_id": "Tradisi yang sama memberi mereka cacat yang membuka kedok mereka: pada tubuhnya dapat ditemukan sisa ekor kadal.",
+          "quote": "Á mesma tradición atribúelles, non obstante, unha eiva que os deixa ao descuberto ao denunciar a súa condición: pódeselle atopar unha cauda residual de lagarto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xacio-c08",
+          "source_id": "xacio-s3",
+          "host": "ilg.usc.gal",
+          "statement": "Dictionaries define the xacio as a mythological being of human form living in the depths of the pools found in some rivers.",
+          "statement_id": "Kamus mendefinisikan xacio sebagai makhluk mitologis berwujud manusia yang menghuni kedalaman lubuk di beberapa sungai.",
+          "quote": "Ser mitológico, de figura humana, que habita las profundidades de los pozos que existen en algunos ríos.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3ead33f1b556d9a4d28d5031fadaefae0d1c542959590a259873c30e0a1441e"
+      "images": []
     },
     {
       "slug": "xente-cativa",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "1a1c4520447d765ab42af0e27e00804eb0fc90757472c6cea2815e9198896ae6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -2231,7 +2455,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2274,18 +2498,38 @@
           "quote": "Cuba, Miranda e Reigosa afirman que esta xente cativa está relacionada cos Wee Folk de Irlanda e Escocia",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "xente-cativa-c05",
+          "source_id": "xente-cativa-s1",
+          "host": "gl.wikipedia.org",
+          "statement": "The codíns described by Murguía can be counted among the xente cativa.",
+          "statement_id": "Di antara xente cativa dapat dimasukkan para codíns yang dideskripsikan Murguía.",
+          "quote": "Entre esta xente cativa cabe incluír os codíns, que describe Murguía.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xente-cativa-c06",
+          "source_id": "xente-cativa-s1",
+          "host": "gl.wikipedia.org",
+          "statement": "These beings seem to get their name precisely from their small stature: one cubit (cóbado) tall.",
+          "statement_id": "Codíns tampaknya mendapat nama dari tubuh mereka yang kecil: setinggi satu hasta (cóbado).",
+          "quote": "Estes seres míticos parecen recibir o nome precisamente da súa pequena estatura: un cóbado de altura.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ec16e8cf80eb8db9755df3e4ef09b3f53eaa7719dd4523395262185881e9c428"
+      "images": []
     },
     {
       "slug": "xerpa",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-3.md",
+      "entry_sha256": "89001ea0026ac904283e8d9cf42baa4c4fc7bba68f1824f2cc5115e75b965fce",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -2297,7 +2541,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2340,18 +2584,28 @@
           "quote": "Rivas Quintas recolle xerpa co significado xenérico de serpe.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "xerpa-c05",
+          "source_id": "xerpa-s2",
+          "host": "ilg.usc.gal",
+          "statement": "In the dictionary, xerpa is glossed \"serpent\" (sierpe), from Latin serpe.",
+          "statement_id": "Dalam kamus, xerpa diartikan \"ular\" (sierpe), dari bahasa Latin serpe.",
+          "quote": "Sierpe. Lat. serpe. Fdez. Pousa",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c5c40ee600a22c328c7af750cfdf9d8b30c4e107efa54d010be19ff014bd4239"
+      "images": []
     },
     {
       "slug": "xigante",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-4.md",
+      "entry_sha256": "51c508d24902a212af1cf61fd6a723bfa9427132ea7c1dad44f837c610c4a01f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -2359,16 +2613,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (xigante-c02)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
         }
       ],
       "claims": [
@@ -2386,8 +2630,8 @@
           "id": "xigante-c02",
           "source_id": "xigante-s1",
           "host": "gl.wikipedia.org",
-          "statement": "Their task is to keep people away from the places where the mouros left treasure to return for one day.",
-          "statement_id": "Tugas mereka mengusir orang dari tempat orang mouros meninggalkan hartanya untuk diambil kelak.",
+          "statement": "Their function (función) is to drive away people (arredar a xente) who approach the places where the mouros left their treasures (tesouros) to return one day.",
+          "statement_id": "Fungsi (función) mereka adalah mengusir orang (arredar a xente) dari tempat para mouros meninggalkan harta (tesouros) untuk kembali suatu hari.",
           "quote": "A súa función consiste en arredar a xente que se achegue a estes lugares onde os mouros deixaron os seus tesouros para regresar algún día.",
           "context": "traditional-belief",
           "status": "exact"
@@ -2421,10 +2665,29 @@
           "quote": "os xigantes son xa unha raza mítica acabada, aínda que non morren nunca, e cando son vencidos bótanse a un río próximo e déixanse levar ó mar, onde se quedan a vivir no fondo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "xigante-c06",
+          "source_id": "xigante-s2",
+          "host": "ilg.usc.gal",
+          "statement": "The xigante is a mythical being of great stature believed to live in the castros (hillforts), the forests and the depths of the sea.",
+          "statement_id": "Xigante adalah makhluk mitos bertubuh sangat tinggi yang diyakini menghuni castros (benteng bukit), hutan, dan kedalaman laut.",
+          "quote": "Ser mítico al que se atribuye gran estatura y que se supone habitante de los castros, los bosques y las profundidades del mar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xigante-c07",
+          "source_id": "xigante-s2",
+          "host": "ilg.usc.gal",
+          "statement": "Another dictionary calls it a mythological being living in castros and forests, even in the depths of the sea, cross-referring to encanto and mouro.",
+          "statement_id": "Kamus lain menyebutnya makhluk mitologis penghuni castros dan hutan, bahkan kedalaman laut, serta merujuk ke entri encanto dan mouro.",
+          "quote": "Ser mitológico que habita los castros y los bosques, y aún las profundidades marinas. V. Encanto y mouro.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "451192d7d963de47c837e552b57c9d5dd30fd58fb1b523ee8d505493d0329e28"
+      "images": []
     },
     {
       "slug": "yenaldooshi",
@@ -2499,10 +2762,11 @@
     },
     {
       "slug": "yoland",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-4.md",
+      "entry_sha256": "d7ff9cd62c5eec2533f95eb62a88b67fb1348a2cb5e9d4b8285c31b093fbb1d6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -2510,7 +2774,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2543,10 +2807,39 @@
           "quote": "C'est alors que va débuter la guerre de Succession de Bretagne.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "yoland-c04",
+          "source_id": "yoland-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Charles de Blois, Duke of Brittany, is master of the faithful Yoland, still sprightly twenty-three years after the death of Jean III.",
+          "statement_id": "Charles de Blois, adipati Bretagne, menjadi tuan Yoland yang setia, yang masih gagah dua puluh tiga tahun setelah wafatnya Jean III.",
+          "quote": "Charles de Blois, duc de Bretagne, est le maître du fidèle Yoland, toujours fringant vingt-trois ans après la mort de Jean III.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yoland-c05",
+          "source_id": "yoland-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "In the battle the greyhound approaches Jean de Montfort, rises on its hind legs and licks the rider's hand: Yoland has sworn allegiance.",
+          "statement_id": "Dalam pertempuran, anjing itu mendekati Jean de Montfort, berdiri dengan kaki belakang, dan menjilat tangan sang penunggang kuda: Yoland menyatakan kesetiaannya.",
+          "quote": "Le lévrier s'approche alors de Jean de Montfort, se dresse sur ses pattes arrière, et vient lécher la main du cavalier : Yoland vient de faire allégeance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yoland-c06",
+          "source_id": "yoland-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "After the battle the animal was found lifeless, not because any soldier dared harm this sacred being, but because its heart had simply stopped once its mission was done.",
+          "statement_id": "Setelah pertempuran, tubuh anjing itu ditemukan tak bernyawa, bukan karena dilukai prajurit, tetapi karena jantungnya berhenti setelah misinya tuntas.",
+          "quote": "Après le combat, on retrouva le corps de l'animal inanimé, non pas qu'un soldat ait osé porter atteinte à cet être sacré, mais le lévrier ayant rempli sa mission, son cœur avait simplement cessé de battre.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d75c727c53d8e5bf2d1628249479495aa3b01198679fe9928724d85c9522df9c"
+      "images": []
     },
     {
       "slug": "ypotryll",
@@ -2601,10 +2894,11 @@
     },
     {
       "slug": "zakur",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-4.md",
+      "entry_sha256": "97d62286584c5b038df23d4cbb6dbf4ba35955298a2c08d3709818a5d5ca24bb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -2612,7 +2906,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2655,18 +2949,28 @@
           "quote": "Dans une autre légende, à Berriz (Biscaye), c'est un génie revêtant l'aspect de chien qui apparut un jour empruntant les traits d'un mort, le jour suivant il prit part à un banquet de noces.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "zakur-c05",
+          "source_id": "zakur-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Zakur means \"dog\" (chien) in Basque.",
+          "statement_id": "Zakur berarti \"anjing\" (chien) dalam bahasa Basque.",
+          "quote": "Zakur signifie « chien » en basque.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d13d8ea5fd0c56eefcbe75ae59cda373c02859fc9b71c2bcb3f3b5eee0e1d4ea"
+      "images": []
     },
     {
       "slug": "zarrouco",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-4.md",
+      "entry_sha256": "3a034d21e822e6fc1eefd01ee2488d932461a72f18cfd5ea2698ac0fbe1c998b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
       "issues": [
@@ -2674,11 +2978,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2701,27 +3000,61 @@
           "quote": "A forma que toma con máis frecuencia é a dun insecto grande (xigantesco, din) e desagradable, pero outras veces aparece, sempre de noite, como un home alto e moi feo, cun saco ás costas e que non fala, senón que funga ou ronca (de onde probablemente lle veña o nome); móstrase sempre enfadado e de mal xenio.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "zarrouco-c03",
+          "source_id": "zarrouco-s2",
+          "host": "ilg.usc.gal",
+          "statement": "Zarrouco is defined as a vague name for any ugly insect used to frighten children.",
+          "statement_id": "Zarrouco didefinisikan sebagai sebutan samar untuk serangga apa saja yang jelek, untuk menakut-nakuti anak-anak.",
+          "quote": "Voz indeterminada de un insecto cualquiera, pero feo, que sirva para poner miedo á los niños.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zarrouco-c04",
+          "source_id": "zarrouco-s2",
+          "host": "ilg.usc.gal",
+          "statement": "Zarrouco is an imaginary, very ugly insect used to frighten children, equivalent to the coco.",
+          "statement_id": "Zarrouco adalah serangga khayalan yang sangat jelek untuk menakut-nakuti anak-anak, padanan coco.",
+          "quote": "Insecto imaginario, muy feo, con que se asusta a los niños. Equivale al coco.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zarrouco-c05",
+          "source_id": "zarrouco-s3",
+          "host": "ilg.usc.gal",
+          "statement": "Zarronco is a bogey (espantajo), a kind of coco used to frighten children.",
+          "statement_id": "Zarronco adalah orang-orangan penakut (espantajo), sejenis coco untuk menakuti anak-anak.",
+          "quote": "Espantajo. Especie de coco con que se asusta a los chicos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zarrouco-c06",
+          "source_id": "zarrouco-s3",
+          "host": "ilg.usc.gal",
+          "statement": "Zarronco denotes an imaginary ugly insect used to frighten children, just like the cocon or the papon.",
+          "statement_id": "Zarronco menunjuk serangga khayalan yang jelek untuk menakut-nakuti anak-anak, sama seperti cocon atau papon.",
+          "quote": "Voz significativa de un insecto imaginario, pero feo, con que se asusta, ó pone miedo, á los niños, lo mismo que con el cocon el papon etc.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3bed956fb4dfa8850bb27f21105fe2c252b9b0e3015182a14de4f97cfe518aa8"
+      "images": []
     },
     {
       "slug": "zorra-berradeira",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-4.md",
+      "entry_sha256": "5cbb0446ba0a9decc981ec286b8cf83472ea02a60533029bec2c066b76042bb4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zorra-berradeira-c01",
@@ -2772,10 +3105,29 @@
           "quote": "Diz-se também, que a zorra berradeira aparece de sete em sete anos e que durante o tempo em que ela não aparece anda por outros países.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "zorra-berradeira-c06",
+          "source_id": "zorra-berradeira-s2",
+          "host": "archive.org",
+          "statement": "The zorra appears near the Ribeira de Odeloca, which rises among the Monchique hills.",
+          "statement_id": "Zorra itu muncul dekat Ribeira de Odeloca, sungai yang berhulu di antara pegunungan Monchique.",
+          "quote": "Próximo da Ribeira de Odeloca, que nasce entre as serras de Monchique, é que apparece a zorra",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zorra-berradeira-c07",
+          "source_id": "zorra-berradeira-s2",
+          "host": "archive.org",
+          "statement": "When someone mocks the screams the zorra gives after midnight, she pursues that person to death.",
+          "statement_id": "Bila seseorang mengejek jeritan zorra setelah tengah malam, zorra mengejar orang itu sampai mati.",
+          "quote": "Quando se escarnece os berros que a zorra dá depois da meia noite, ella persegue essa pessoa até á morte.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b31a8c348fd4f080d342949e439f5b1b7054615b54f1d228eec2a2868760dfb4"
+      "images": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Review batch-136
 
-Diperiksa 2026-10-13T19:47:13.988Z. Berkas: batch-136.md, batch-136-fix-1.md, batch-136-fix-2.md.
+Diperiksa 2026-10-13T20:08:16.738Z. Berkas: batch-136.md, batch-136-fix-1.md, batch-136-fix-2.md, batch-136-fix-3.md, batch-136-fix-4.md.
 
 ## serre — lulus-otomatis
 
@@ -342,10 +342,7 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## triton — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -354,14 +351,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | triton-c03 | exact | nl.wikipedia.org | It had a man's nose, ears, mouth and hands, but a rough scaly body and a fish tail instead of feet. | Het fabeldier had de neus, oren, mond en handen van een man, maar zijn lijf was ruw en geschubd en had een vissenstaart in plaats van voeten. |
 | triton-c04 | exact | nl.wikipedia.org | Tritons were said to descend from Triton, a god of Greek mythology. | Tritons zouden nakomelingen zijn van Triton, een god uit de Griekse mythologie. |
 | triton-c05 | exact | nl.wikipedia.org | Tritons are a decorative theme in ornament prints, vases and fountains, for example the Trevi Fountain in Rome. | Tritonen of tritons vormen een decoratief thema in ornamentprenten, vazen en fonteinen. In Rome staat bijvoorbeeld de Trevifontein waarin deze wezens uitgebeeld zijn. |
+| triton-c06 | exact | www.woorden.org | A triton is a minor sea god, half man and half fish, who rode over the water with horses and sea monsters and blew a conch (kinkhoorn) to calm the waves. | zeegod van lagere rang, half mens, half vis reed hij over het water met paarden en zeemonsters en blies hij op de kinkhoorn om de golven te bedaren |
+| triton-c07 | exact | www.woorden.org | There is also mention of a great number of Tritons, beings of monstrous appearance. | Er wordt ook gesproken van een groot aantal Tritons, wezens van monsterachtig voorkomen, met een lichaam, dat in een groten |
 
 
 ## trucafort — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -370,6 +366,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | trucafort-c03 | exact | ca.wikipedia.org | According to Joan Amades's Folklore de Catalunya, he was common in children's stories at Castellar de n'Hug. | Comú en les històries per a la mainada a Castellar de n'Hug, segons l'obra Folklore de Catalunya de Joan Amades |
 | trucafort-c04 | exact | ca.wikipedia.org | Between 1970 and 1990 he was a common figure in Catalan folktales, even in Catalan primary schools. | Entre els anys 1970 i 1990 fou un personatge comú dels contes populars catalans, fins i tot en l'Educació Primària de Catalunya. |
 | trucafort-c05 | exact | ca.wikipedia.org | His bandit side contrasts the real life of the bandit Gabriel Torrent de la Goula with the romanticism of the legendary figure. | Paradoxalment, la seva faceta de bandoler esdevé un exemple de contrast entre allò que va suposar realment la vida del bandoler Gabriel Torrent de la Goula amb el romanticisme que ha perdurat en la llegenda del personatge mitològic popular |
+| trucafort-c06 | exact | www.rac1.cat | His look was bizarre and unsettling; his main feature was a huge rock he wore on his head like a hat (barret). | La seva mera aparença resultava estrafolària i desassossegant, perquè el principal tret que el caracteritzava era una enorme roca que portava sobre el cap com a barret. |
+| trucafort-c07 | exact | www.rac1.cat | This made him let out howls of pain that shook the mountains and announced his arrival, heard up to seven hours away, or so they said. | això propiciava que emetés uns udols de dolor fart potents, els quals feien tremolar les muntanyes i precedien la seva arribada, tant que s'escoltaven fins a set hores de distància (o això deien). |
+| trucafort-c08 | exact | www.rac1.cat | Trucafort was also said to carry a huge stone mace (maça de pedra) with which he crushed bad children into mush. | Finalment, es comentava que Trucafort, portava una descomunal maça de pedra amb la qual esclafava als nens dolents i els convertia en farinetes. |
+| trucafort-c09 | exact | www.rac1.cat | Many point out that the figure may originate in a historical person, or at least a shared nickname. | El curiós d'aquest personatge és que molts assenyalen que podria tenir el seu origen en un personatge històric o, almenys, un sobrenom compartit. |
 
 
 ## uomo-ragno — skip
@@ -396,24 +396,24 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## uphir — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Demonologi Eropa".
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | uphir-c01 | exact | pt.wikipedia.org | Uphir is a demon connected with everything involving the preparation of chemical compounds. | Uphir é um demônio relacionado a tudo que envolva a preparação de um composto químico. |
 | uphir-c02 | exact | pt.wikipedia.org | Old witch-doctors turned to it for advice on brewing potions; it is a chemist demon, versed in medicinal herbs and responsible for the health of other demons. | Os antigos médicos bruxos recorriam a esse demônio para que os aconselhasse na preparação de suas beberagens e poções. Trata-se de demônio químico, conhecedor de ervas medicinais e responsável pela saúde dos outros demônios. |
+| uphir-c03 | exact | fr.wikisource.org | Uphir is a chemist demon well versed in medicinal herbs (simples), responsible in hell for the health of Belzébuth and the great ones of his court. | Uphir, démon chimiste, très-versé dans la connaissance des simples. Il est responsable aux enfers de la santé de Belzébuth et des grands de sa cour. |
+| uphir-c04 | exact | fr.wikisource.org | Earthly physicians took him as their patron after Esculape (Asclepius) fell into discredit. | Les médecins matériels l’ont pris pour leur patron depuis le discrédit d’Esculape. |
+| uphir-c05 | exact | fr.wikisource.org | In a list in the 1894 book Le Diable au XIXe siècle, Uphir is assigned to Lyon in the province of Lyon. | PROVINCE DE LYON. — Lyon : Uphir. — Autun : Baëlboug. |
+| uphir-c06 | exact | fr.wikisource.org | In the same list in Le Diable au XIXe siècle, Uphir is named the great daimon of eloquence (grand daimon d’éloquence), serving as promoter. | Vauvert, deuxième vice-président. Uphir, grand daimon d’éloquence, promoteur. |
 
 
 ## uriande — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -421,15 +421,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | uriande-c02 | exact | fr.wikipedia.org | In legend, a partridge lost in a storm and searching for its chicks is taken in by Uriande, who shows it its chicks safe in a magic mirror. | La légende d'Uriande raconte qu'une perdrix, perdue lors d'un orage et cherchant ses petits, est recueillie par la fée Uriande. Grâce à un miroir magique, Uriande lui montre ses petits à l'abri. |
 | uriande-c03 | exact | fr.wikipedia.org | The animals of the Pilat massif, impressed by its courage, proclaim it queen of the Pilat on the summit of the Crêt de la Perdrix. | Les animaux du massif du Pilat, impressionnés par sa bravoure, la proclament reine du Pilat, au sommet du crêt de la Perdrix. |
 | uriande-c04 | exact | fr.wikipedia.org | In another legend Uriande helps Henry de Léon, seneschal of Brittany, revealing herself a benevolent, mystical fairy. | Dans une autre légende, Uriande aide Henry de Léon, sénéchal de Bretagne, et se révèle être une fée bienveillante et mystique |
+| uriande-c05 | exact | outtrip.fr | According to the legend, a red partridge (perdrix rouge) seeking its lost young was taken in by the fairy Uriande, who showed it in a magic mirror its offspring sheltering under a bush. | Selon la légende, une perdrix rouge cherchant ses petits en perdition fut recueillie par la fée Uriande, qui lui montra dans un miroir magique sa progéniture à l'abri d'un buisson. |
+| uriande-c06 | exact | outtrip.fr | The partridge was then proclaimed queen by the animals of the Pilat at the summit of the Crêt. | La perdrix fut alors proclamée reine par les animaux du Pilat au sommet du Crêt. |
 
 
 ## vakner — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -437,14 +438,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | vakner-c02 | exact | gl.wikipedia.org | It is a fantastic animal that usually takes the form of a huge werewolf. | Trátase dun animal fantástico que adoita adoptar a forma dun enorme lobishome. |
 | vakner-c03 | exact | gl.wikipedia.org | In October 1485 an Armenian bishop named Mártir went on pilgrimage to Rome from the city of Erzincan. | En outubro de 1485 un bispo armenio chamado Mártir peregrinou a Roma desde a cidade armenia de Erzincan |
 | vakner-c04 | exact | gl.wikipedia.org | He spent 84 days in Galicia in 1492 and left a brief account of his pilgrimage, translated into Spanish in 1898. | Pasou en Galicia 84 días do ano 1492, e durante os máis de seis anos da súa peregrinación, deixou memoria nun breve escrito que se traduciu ao español en 1898. |
+| vakner-c05 | exact | www.gronze.com | In the travel account the vákner is called a large and very harmful wild animal; people wondered how he had escaped when companies of twenty people could not get past. | Encontramos el vákner, animal salvaje grande y muy dañino. ¿Cómo, me decían, habéis podido salvaros, cuando compañías de veinte personas no pueden pasar? |
+| vakner-c06 | exact | www.gronze.com | The Vákner's only appearance took place in the year 1493. | Su única aparición en escena tuvo lugar en el año de 1493 |
+| vakner-c07 | exact | www.gronze.com | Specialists' hypotheses on the Vákner range from a wolf or rabid wolf to a werewolf (licántropo), a dragon or another evil being laden with symbolism. | que van del lobo o lobo rabioso, a un licántropo, un dragón u otra clase de ser maléfico con una carga simbólica |
+| vakner-c08 | exact | www.gronze.com | The municipality decided to place a large sculptural installation on the Camino, commissioned from Cándido Pazos, depicting a werewolf (hombre lobo). | el municipio decidió situar en el Camino una gran instalación escultórica, encargada a Cándido Pazos ... en la que se represente la imagen de un hombre lobo. |
 
 
 ## velha-da-egua-branca — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -452,14 +454,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | velha-da-egua-branca-c02 | exact | pt.wikipedia.org | She wears a white headdress with many red ribbons like the lightning of hell and holds a knife in her left hand. | traz na cabeça um toucado branco com muitas fitas encarnadas que parecem relâmpagos do inferno e na mão esquerda uma faca. |
 | velha-da-egua-branca-c03 | exact | pt.wikipedia.org | According to Teófilo Braga, the old woman is clearly the personification of night. | Segundo Teófilo Braga "a velha é evidentemente a personificação da noite". |
 | velha-da-egua-branca-c04 | exact | pt.wikipedia.org | She appears on moonlit nights riding a white mare, making a hellish din across the fields and loosing the oxen resting under the eaves; all the noise comes from pots and pans. | Aparece nas noites de luar montada n'uma égua branca, fazendo um barulho infernal pelos campos, e soltando os bois que ruminam debaixo das alpenduradas. Todo o barulho é feito com tachos e panelas de arame. |
+| velha-da-egua-branca-c05 | exact | archive.org | It is told that when Christ (Christo) walked the earth, a poor man asked a farm woman living right by the church for a bit of bread to still his hunger. | conta-se que no tempo em que Christo andava pelo mundo um pobre foi pedir um bocado de pão, para ma- tar a fome, a uma lavradoura que morava mesmo ao pé da egreja |
+| velha-da-egua-branca-c06 | exact | archive.org | The beggar, who was Our Lord Jesus Christ in person, told her: «May you see in blood the first bread you cut». | O pobre pedinte, que era Nosso Senhor Jesus Christo em pessoa, disse-lhe: «Em sangue vejas o pri- meiro pão que partires». |
+| velha-da-egua-branca-c07 | exact | archive.org | She screamed in horror and remorse because the bread was all bloody; three days later she died and her soul was not saved. | Immediatamente pôz-se a gritar horrori- sada e cheia de remorsos porque o pão estava todo ensan- guentado. Passados Ires dias morreu e a sua alma não se salvou. |
+| velha-da-egua-branca-c08 | exact | archive.org | The knife she always carries in her left hand is the one with which she cut the bread. | Traz sem- pre na mão esquerda a faca com que partiu o pão |
+| velha-da-egua-branca-c09 | exact | archive.org | Among the demonic divinities of the night, the velha da égua branca (printed "Vdha" in the scan) appears at Estombar and Lagoa (Algarve). | Ha outras divindades demoniacas da noite ; em Estombar e Lagoa (Algarve) apparece a Vdha da égua branca. |
 
 
 ## ventolin — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -468,6 +475,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ventolin-c03 | exact | en.wikipedia.org | When an old fisherman grew tired of hauling his nets, the ventolines came down from the sunset clouds and loaded the fish into the boat. | When an old fisherman grew tired of raising his nets, ventolines came down from the sunset clouds and loaded the fish in the boat. |
 | ventolin-c04 | exact | en.wikipedia.org | Then they took the oars and brought the boat to the docks. | Then they would take the oars and bring the boat to the docks. |
 | ventolin-c05 | exact | en.wikipedia.org | If there was no wind, they puffed out their cheeks and flew behind the boat, blowing enough breeze for it to sail. | if it was not windy, they blew inflating their cheeks and flying behind the boat making a breeze enough for the boat to sail. |
+| ventolin-c06 | exact | en.wikipedia.org | The ventolines even wiped the old fisherman's sweat and sheltered him with their green wings when it was cold. | They even wiped his sweat and sheltered him with their green wings when it was cold. |
 
 
 ## vine — skip
@@ -483,11 +491,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## xacio — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -495,15 +502,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | xacio-c02 | exact | gl.wikipedia.org | Bishop Hydatius (5th century) seems to have recorded strange fish in the river Miño in his Chronicon. | Parece ser que o bispo Hidacio (no século V) describiu no seu Cronicón a existencia duns estraños peixes no río Miño |
 | xacio-c03 | exact | gl.wikipedia.org | A legend tells of a race of xacios in the deep pools of the Miño below the Castro de Marce, in human form. | Existe unha raza de xacios que viven nos profundos pozos do río Miño, ó pé do castro de Marce. Estes xacios presentan forma humana |
 | xacio-c04 | exact | gl.wikipedia.org | Legends of xacias are known in Chouzán (Carballedo, Lugo) and the Vao stream in Sober (Lugo). | Coñécense lendas sobre as xacias en Chouzán (Carballedo, Lugo) ou no rego do Vao, en Sober (Lugo). |
+| xacio-c05 | exact | archive.org | The xacios are commonly described as aquatic beings, sometimes with a more human-like form far from the fish-like features of their kin. | Estes «xacios» son descritos comunmente como uns seres acuáticos, en ocasións cunha forma máis parella á hu- mana e afastada da caracterización íctica dos seus conxéneres. |
+| xacio-c06 | exact | archive.org | According to one informant, the xacios used to come out of the river pools in human guise to entice the girls going home from the festival at night. | Segundo ela, os xacios acostumaban saír baixo a súa fascia humana das pozas do río para engaiolaren as mozas que pola noite se recollían da festa |
+| xacio-c07 | exact | archive.org | The same tradition gives them a flaw that gives them away: a residual lizard tail can be found on them. | Á mesma tradición atribúelles, non obstante, unha eiva que os deixa ao descuberto ao denunciar a súa condición: pódeselle atopar unha cauda residual de lagarto. |
+| xacio-c08 | exact | ilg.usc.gal | Dictionaries define the xacio as a mythological being of human form living in the depths of the pools found in some rivers. | Ser mitológico, de figura humana, que habita las profundidades de los pozos que existen en algunos ríos. |
 
 
 ## xente-cativa — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -511,15 +522,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | xente-cativa-c02 | exact | gl.wikipedia.org | In the parish of Abeledo, Abadín (Lugo), an orchestra was said to be heard playing underground at the Caxigos spring. | Cóntase na parroquia de Abeledo, en Abadín (Lugo) que na fonte dos Caxigos escoitábase unha orquestra tocando música baixo terra. |
 | xente-cativa-c03 | exact | gl.wikipedia.org | Benxamín, chased by a dwarf from the ground, heard it shout that if he stopped and spoke to it he could break its enchantment. | E conta Benxamín que o escoitaba berrar que, se parara e falara con el, podía desencantalo. |
 | xente-cativa-c04 | exact | gl.wikipedia.org | Cuba, Miranda and Reigosa state that the xente cativa are related to the Wee Folk of Ireland and Scotland. | Cuba, Miranda e Reigosa afirman que esta xente cativa está relacionada cos Wee Folk de Irlanda e Escocia |
+| xente-cativa-c05 | exact | gl.wikipedia.org | The codíns described by Murguía can be counted among the xente cativa. | Entre esta xente cativa cabe incluír os codíns, que describe Murguía. |
+| xente-cativa-c06 | exact | gl.wikipedia.org | These beings seem to get their name precisely from their small stature: one cubit (cóbado) tall. | Estes seres míticos parecen recibir o nome precisamente da súa pequena estatura: un cóbado de altura. |
 
 
 ## xerpa — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -527,26 +540,25 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | xerpa-c02 | exact | gl.wikipedia.org | They recall the sirens, half fish, or the lamias, half dragon. | Lembran o caso das sereas (con medio corpo de peixe) ou das lamias ou lumias (medio corpo de dragón). |
 | xerpa-c03 | exact | gl.wikipedia.org | Xerpas wait on riverbanks for a young man to come near, then seduce him and drown him at the bottom of the river pools where they live. | As xerpas esperan nas beiras dos ríos a que se achegue algún mozo, para seducilo e afogalo no fondo dos pozos dos ríos onde viven. |
 | xerpa-c04 | exact | gl.wikipedia.org | Rivas Quintas records xerpa with the general meaning "serpent". | Rivas Quintas recolle xerpa co significado xenérico de serpe. |
+| xerpa-c05 | exact | ilg.usc.gal | In the dictionary, xerpa is glossed "serpent" (sierpe), from Latin serpe. | Sierpe. Lat. serpe. Fdez. Pousa |
 
 
 ## xigante — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**warn**
-- `claims (xigante-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | xigante-c01 | exact | gl.wikipedia.org | In Galician mythology the Xigantes are a race of mythical giants who guard treasures hidden in hillforts (castros) or under burial mounds (mámoas). | Na mitoloxía galega, os Xigantes son unha raza de seres míticos que o imaxinario popular adoita situar como defensores de tesouros agochados nos castros ou baixo mámoas. |
-| xigante-c02 | exact | gl.wikipedia.org | Their task is to keep people away from the places where the mouros left treasure to return for one day. | A súa función consiste en arredar a xente que se achegue a estes lugares onde os mouros deixaron os seus tesouros para regresar algún día. |
+| xigante-c02 | exact | gl.wikipedia.org | Their function (función) is to drive away people (arredar a xente) who approach the places where the mouros left their treasures (tesouros) to return one day. | A súa función consiste en arredar a xente que se achegue a estes lugares onde os mouros deixaron os seus tesouros para regresar algún día. |
 | xigante-c03 | exact | gl.wikipedia.org | The giants are huge but slow-witted, so one can escape them with certain recitations or simply persuade them to hand over some gold for a gift. | Os xigantes son de gran tamaño pero de curta intelixencia, e resulta posible zafarse deles con certos recitados ou, simplemente, chegar a convencelos de que entreguen parte do ouro a cambio de algún regalo. |
 | xigante-c04 | exact | gl.wikipedia.org | One way to get rid of them and enter the hillfort is to smash a black hen's egg on their forehead. | Existen remedios para librarse deles e poder entrar no castro: estrelarlles un ovo de pita negra no medio da fronte |
 | xigante-c05 | exact | gl.wikipedia.org | The giants are a vanished race that never dies; when defeated they throw themselves into a nearby river and drift out to sea, where they live on the seabed. | os xigantes son xa unha raza mítica acabada, aínda que non morren nunca, e cando son vencidos bótanse a un río próximo e déixanse levar ó mar, onde se quedan a vivir no fondo. |
+| xigante-c06 | exact | ilg.usc.gal | The xigante is a mythical being of great stature believed to live in the castros (hillforts), the forests and the depths of the sea. | Ser mítico al que se atribuye gran estatura y que se supone habitante de los castros, los bosques y las profundidades del mar. |
+| xigante-c07 | exact | ilg.usc.gal | Another dictionary calls it a mythological being living in castros and forests, even in the depths of the sea, cross-referring to encanto and mouro. | Ser mitológico que habita los castros y los bosques, y aún las profundidades marinas. V. Encanto y mouro. |
 
 
 ## yenaldooshi — lulus-otomatis
@@ -567,16 +579,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## yoland — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yoland-c01 | exact | fr.wikipedia.org | Yoland is a greyhound whose legend is tied to the history of Brittany, especially the War of the Breton Succession. | Yoland est un chien de race lévrier dont la légende est associée à l'histoire de Bretagne et plus particulièrement à la guerre de succession de Bretagne. |
 | yoland-c02 | exact | fr.wikipedia.org | In the legend, which some attribute to a prophecy of Merlin, in 1341 Jean le Bon, Duke of Brittany, saved a witch from lynching; in thanks she gave him a young greyhound named Yoland that would be loyal only to the Duke of Brittany. | La légende, dont certains l'attribuent à une prophétie de Merlin, voudrait qu'en 1341, Jean le Bon, duc de Bretagne, sauva une sorcière du lynchage. Celle-ci, pour le remercier, lui offrit un jeune lévrier nommé Yoland dont elle déclara qu'il ne serait jamais fidèle qu'au duc de Bretagne. |
 | yoland-c03 | exact | fr.wikipedia.org | It was then that the War of the Breton Succession began. | C'est alors que va débuter la guerre de Succession de Bretagne. |
+| yoland-c04 | exact | fr.wikipedia.org | Charles de Blois, Duke of Brittany, is master of the faithful Yoland, still sprightly twenty-three years after the death of Jean III. | Charles de Blois, duc de Bretagne, est le maître du fidèle Yoland, toujours fringant vingt-trois ans après la mort de Jean III. |
+| yoland-c05 | exact | fr.wikipedia.org | In the battle the greyhound approaches Jean de Montfort, rises on its hind legs and licks the rider's hand: Yoland has sworn allegiance. | Le lévrier s'approche alors de Jean de Montfort, se dresse sur ses pattes arrière, et vient lécher la main du cavalier : Yoland vient de faire allégeance. |
+| yoland-c06 | exact | fr.wikipedia.org | After the battle the animal was found lifeless, not because any soldier dared harm this sacred being, but because its heart had simply stopped once its mission was done. | Après le combat, on retrouva le corps de l'animal inanimé, non pas qu'un soldat ait osé porter atteinte à cet être sacré, mais le lévrier ayant rempli sa mission, son cœur avait simplement cessé de battre. |
 
 
 ## ypotryll — lulus-otomatis
@@ -595,10 +610,10 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## zakur — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -606,28 +621,29 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | zakur-c02 | exact | fr.wikipedia.org | A tale from Beizama (Gipuzkoa) says a dog-shaped spirit lives in the Olanoi cave as its guardian. | D'après un récit de Beizama (Guipuscoa), dans la grotte d'Olanoi habite un génie en forme de chien. C'est le gardien de l'antre. |
 | zakur-c03 | exact | fr.wikipedia.org | In a legend from Mutriku two dogs, or supernatural beings in that form, met and frightened a local man coming home at an unseemly hour. | Dans une légende de Mutriku, toujours dans le Guipuscoa, on voit deux chiens ou des êtres surnaturels qui se manifestent sous ces apparences. Ils allaient au-devant d'un habitant du lieu et l'effrayaient lorsqu'il rentrait de la place chez lui à une heure indue. |
 | zakur-c04 | exact | fr.wikipedia.org | In another legend from Berriz (Biscay), a dog-shaped spirit appeared one day with the features of a dead man and the next day joined a wedding feast. | Dans une autre légende, à Berriz (Biscaye), c'est un génie revêtant l'aspect de chien qui apparut un jour empruntant les traits d'un mort, le jour suivant il prit part à un banquet de noces. |
+| zakur-c05 | exact | fr.wikipedia.org | Zakur means "dog" (chien) in Basque. | Zakur signifie « chien » en basque. |
 
 
 ## zarrouco — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | zarrouco-c01 | exact | gl.wikipedia.org | In Galician mythology the zarrouco or zarronco is an imaginary being of various forms (a huge insect, an extremely ugly man, a ghostly figure) used to frighten children, like the coco. | Na mitoloxía galega, o zarrouco ou zarronco é un ser imaxinario descrito baixo diferentes formas (insecto de gran tamaño, home extraordinariamente feo, ser fantasmal) co que se pretende meter medo ós meniños, a modo dun coco. |
 | zarrouco-c02 | exact | gl.wikipedia.org | It most often appears as a huge, nasty insect, but sometimes, always at night, as a tall, very ugly man with a sack on his back who does not speak but snorts or grunts (probably the source of its name) and is always angry. | A forma que toma con máis frecuencia é a dun insecto grande (xigantesco, din) e desagradable, pero outras veces aparece, sempre de noite, como un home alto e moi feo, cun saco ás costas e que non fala, senón que funga ou ronca (de onde probablemente lle veña o nome); móstrase sempre enfadado e de mal xenio. |
+| zarrouco-c03 | exact | ilg.usc.gal | Zarrouco is defined as a vague name for any ugly insect used to frighten children. | Voz indeterminada de un insecto cualquiera, pero feo, que sirva para poner miedo á los niños. |
+| zarrouco-c04 | exact | ilg.usc.gal | Zarrouco is an imaginary, very ugly insect used to frighten children, equivalent to the coco. | Insecto imaginario, muy feo, con que se asusta a los niños. Equivale al coco. |
+| zarrouco-c05 | exact | ilg.usc.gal | Zarronco is a bogey (espantajo), a kind of coco used to frighten children. | Espantajo. Especie de coco con que se asusta a los chicos. |
+| zarrouco-c06 | exact | ilg.usc.gal | Zarronco denotes an imaginary ugly insect used to frighten children, just like the cocon or the papon. | Voz significativa de un insecto imaginario, pero feo, con que se asusta, ó pone miedo, á los niños, lo mismo que con el cocon el papon etc. |
 
 
 ## zorra-berradeira — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -636,4 +652,6 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | zorra-berradeira-c03 | exact | pt.wikipedia.org | In the Algarve it is believed that from time to time a restless soul appears as a vixen, and any mortal who mimics it is pursued by its shadow until death. | É crença geral no Algarve que aparece por ali, de tempos a tempos, uma alma penando, na figura de uma zorra (raposa), e que se algum mortal a arremeda, é perseguido pela sombra dela até à morte |
 | zorra-berradeira-c04 | exact | pt.wikipedia.org | The Zorra berradeira screams constantly, best heard after midnight and at high noon. | A Zorra berradeira anda continuamente a berrar — sendo melhor ouvida depois da meia-noite e ao pino do meio-dia. |
 | zorra-berradeira-c05 | exact | pt.wikipedia.org | It is also said to appear every seven years and to roam other countries in between. | Diz-se também, que a zorra berradeira aparece de sete em sete anos e que durante o tempo em que ela não aparece anda por outros países. |
+| zorra-berradeira-c06 | exact | archive.org | The zorra appears near the Ribeira de Odeloca, which rises among the Monchique hills. | Próximo da Ribeira de Odeloca, que nasce entre as serras de Monchique, é que apparece a zorra |
+| zorra-berradeira-c07 | exact | archive.org | When someone mocks the screams the zorra gives after midnight, she pursues that person to death. | Quando se escarnece os berros que a zorra dá depois da meia noite, ella persegue essa pessoa até á morte. |
 
