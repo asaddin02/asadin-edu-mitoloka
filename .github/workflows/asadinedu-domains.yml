@@ -42,6 +42,9 @@ jobs:
           [ -n "$zid" ] || { echo "Zone not visible to the token (needs Zone:Read for $ZONE_NAME)."; exit 1; }
           echo "ZID=$zid" >> "$GITHUB_ENV"
           curl -sS -H "$auth" "$api/zones/$zid/dns_records?per_page=100" | jq '{success, errors, records: [.result[]? | {type, name, content, proxied}]}'
+          echo "Bulk Redirect access (lists, rulesets):"
+          curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/rules/lists" | jq -c '{success, errors: [.errors[]?.message], lists: [.result[]? | .name]}'
+          curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/rulesets" | jq -c '{success, errors: [.errors[]?.message], rulesets: [.result[]? | {name, phase}]}'
           for p in biotaloka kimialoka fisikaloka mitoloka; do
             curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$p/domains" | jq -c --arg p "$p" '{project: $p, domains: [.result[]? | {name, status}]}'
           done
