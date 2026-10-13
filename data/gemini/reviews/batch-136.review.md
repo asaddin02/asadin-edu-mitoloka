@@ -1,13 +1,10 @@
 # Review batch-136
 
-Diperiksa 2026-10-02T04:15:17.073Z. Berkas: batch-136.md.
+Diperiksa 2026-10-13T19:47:13.988Z. Berkas: batch-136.md, batch-136-fix-1.md, batch-136-fix-2.md.
 
 ## serre — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -16,15 +13,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | serre-c03 | exact | fr.wikipedia.org | Pliny named an animal called Serre without describing it. | Pline avait cité, sans en donner de description, un animal auquel il donnait le nom de Serre |
 | serre-c04 | exact | fr.wikipedia.org | Isidore of Seville described it from the 8th century, though his account shows he never saw the creature. | La serre est décrite dès le VIIIe siècle par Isidore de Séville, mais la description qu'il en fait prouve qu'il n'a pas eu ce monstre sous les yeux. |
 | serre-c05 | exact | fr.wikipedia.org | It was later taken up by Vincent de Beauvais in the Speculum Naturale, by Philippe de Thaon in his Bestiaire (12th century) and by Guillaume le Clerc de Normandie in his Bestiaire divin (13th century). | La serre est ensuite reprise par Vincent de Beauvais dans son Speculum Naturale. Au XIIe siècle, Philippe de Thaon la décrit dans son Bestiaire puis au XIIIe siècle, Guillaume le Clerc de Normandie l'inclut dans son Bestiaire divin. |
+| serre-c06 | exact | bestiary.ca | In the bestiaries this beast (Latin: Serra) is also called Sarce, Sarra, Sarre, Scie, Serapis, Seria, Serre, Serta, Sora and Virgilia. | Other names: Sarce, Sarra, Sarre, Scie, Serapis, Seria, Serre, Serta, Sora, Virgilia |
+| serre-c07 | exact | bestiary.ca | The sawfish is a sea monster with enormous wings; on seeing a ship it raises its wings to race the ship, then tires after thirty or forty stadia and dives back into the water to devour fish. | The sawfish is a sea monster with enormous wings. When it sees a ship, it raises its wings so it can race against the ship. The sawfish tires after thirty or forty stadia and dives back into the water to devour fish. |
+| serre-c08 | exact | bestiary.ca | Its raised wings hold back the wind from ships, so sailors dislike the sawfish because it causes ships to sink; the beast is also said to have a serrated crest that it uses to cut into ships. | When it raises its wings they hold back the wind from ships; sailors do not like the sawfish because it causes ships to sink. This beast is also said to have a serrated crest that it uses to cut into ships. |
+| serre-c09 | exact | bestiary.ca | Allegorically, the sawfish signifies those who start on a righteous path with good intentions but soon tire, sink back into sin and are carried down to hell. | The sawfish signifies those who start on a righteous path with good intentions, but soon tire and sink back into sin and are carried down to hell. |
 
 
 ## sibara — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Cerita rakyat Ardennes (Wallonia)".
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -33,20 +34,21 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | sibara-c03 | exact | fr.wikipedia.org | Ardennes villagers fed up with a sorcerer's misdeeds attacked him with sharp objects, including daggers. | des villageois ardennais excédés par les méfaits d'un sorcier décidèrent de se débarrasser définitivement de lui et l'attaquèrent avec nombre d'objets pointus, dont des poignards. |
 | sibara-c04 | exact | fr.wikipedia.org | He fled to a hill and raised his staff to curse the peasants, but lightning killed him; long afterwards lightning struck the corpse, which came to life. | Il se réfugia sur une colline et leva son bâton magique pour lancer une dernière malédiction sur les paysans mais la foudre le frappa et le tua sur le coup. Bien longtemps après, la foudre frappa le cadavre qui s'anima. |
 | sibara-c05 | exact | fr.wikipedia.org | Frédéric Croizier's story La Vengeance du Sibara (2016) is based on this legend. | Un récit de Frédéric Croizier, La Vengeance du Sibara, paru en 2016, s'appuie sur cette légende. |
+| sibara-c06 | exact | fr.wikipedia.org | The name Sibara is linked to Old French (ancien français) «esbarer», «effarer», «ébahir». | Le Sibara (de l'ancien français « esbarer », « effarer », « ébahir » |
 
 
 ## simanya — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | simanya-c01 | exact | ca.wikipedia.org | The Simanya is a mythological being of Catalan folk imagination. | La Simanya és un ésser mitològic propi de l'imaginari popular català. |
 | simanya-c02 | exact | ca.wikipedia.org | It is a bloodthirsty beast of uncertain shape hiding in the Simanya cave of the Sant Llorenç del Munt massif, on the eastern slope of Montcau, and eats baptised babies. | Es tracta d'una mena de bèstia sanguinària, d'aspecte indefinit, que viu amagada a la cova Simanya del massís de Sant Llorenç del Munt, al vessant oriental del Montcau i que s'alimenta de nadons batejats. |
 | simanya-c03 | exact | ca.wikipedia.org | After eating them, it piles their bones at the back of the cave. | Un cop se'ls ha menjat, n'apila els ossos al fons de la cova. |
+| simanya-c04 | exact | www.ara.cat | The Simanya is among the monsters in the book, alongside the Cuca Fera, the Lluert and the Tinyosa, all protagonists of terrifying stories about terrible deaths accompanied by long suffering. | També treuen el cap al llibre altres monstres com la Cuca Fera, el Lluert, la Tinyosa i la Simanya, tots protagonistes d’històries terrorífiques sobre morts terribles acompanyades de llargs patiments. |
+| simanya-c05 | exact | www.ara.cat | The Simanya hides inside a deep cavern (caverna profunda) of the Sant Llorenç i l’Obac massif, feeds on baptised babies and piles the bones at the back of the cave. | Amagada dins d’una caverna profunda del massís de Sant Llorenç i l’Obac, la Simanya s’alimenta de nadons batejats i apila els ossos al fons de la cova. |
+| simanya-c06 | exact | www.ara.cat | No one knows exactly what it looks like, but the stories say it is a bloodthirsty beast (bèstia sanguinària) always hungry for humans. | Ningú sap exactament quina fila fa, però les històries diuen que és una bèstia sanguinària i sempre afamada d’humans. |
 
 
 ## simbolos-anasazi — skip
@@ -75,10 +77,7 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 ## sipa — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -88,15 +87,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | sipa-c04 | exact | es.wikipedia.org | The two brothers began shaping clay figures that would become people on Earth. | Los dos hermanos comenzaron a formar muñecos de barro que serían hombres sobre la Tierra |
 | sipa-c05 | exact | es.wikipedia.org | Though Sipa was the only twin who could see, Komat made the best creations, so Sipa secretly stole them. | A pesar de que Sipa era el único gemelo que tenía el sentido de la vista, las mejores creaciones surgían de su hermano Komat. Por tal razón, le robaba sus creaciones sin que este se diera cuenta. |
 | sipa-c06 | exact | es.wikipedia.org | Sipa was known as the bad god. | Sipá era conocido como el dios malo |
+| sipa-c07 | exact | www.ivpressonline.com | In this creation story the twin siblings Sipa and Komat emerged from a primordial sea; Komat emerged first with his eyes closed, while Sipa opened his eyes underwater and was blinded. | The creation story also features twin siblings, Sipa and Komat, who emerged from a primordial sea. Komat emerged first with his eyes closed. Sipa opened his eyes underwater and was blinded. |
+| sipa-c08 | exact | www.ivpressonline.com | Together they created various peoples, but rivalry led Sipa into conflict; their disagreements climaxed in Komat descending into the underworld, releasing sickness and death into the world. | Together they created various peoples, but rivalry led Sipa to conflict. Their disagreements climaxed in Komat descending into the underworld, releasing sickness and death into the world. |
 
 
 ## sorat — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Esoterisme Barat".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -104,14 +104,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | sorat-c02 | exact | it.wikipedia.org | The demon's name is absent from the main Renaissance demonologies but appears, probably for the first time, in Agrippa von Nettesheim's De Occulta Philosophia as the astral spirit of the Sun. | Il nome di questo demone è assente nelle principali raccolte demonologiche del Rinascimento ... ma compare, probabilmente per la prima volta, nel De Occulta Philosophia di Agrippa von Nettesheim, come lo "spirito astrale" associato al Sole. |
 | sorat-c03 | exact | it.wikipedia.org | Several medieval manuscripts show, however, that the astral spirit of the Sun was named Storax, not Sorat. | Il nome, tuttavia, dello spirito astrale associato al Sole non era Sorat, ma "Storax", come risulta da diversi manoscritti medievali. |
 | sorat-c04 | exact | it.wikipedia.org | Today's esoteric accounts of Sorat come from Rudolf Steiner, who began discussing it in June 1908 in Nuremberg in his eleventh lecture on the Apocalypse of John. | Le notizie su Sorat oggi diffuse dalla manualistica esoterica provengono dalle opere di Rudolf Steiner, che cominciò a parlarne nel giugno 1908 a Norimberga, quando tenne la sua undicesima conferenza sull'Apocalisse di Giovanni. |
+| sorat-c05 | exact | rsarchive.org | In this lecture, when the matching vowels are added to the consonants of the sign, they give the name of the demon who has this sign, the sun demon: Sorat. | After one adds the corresponding vowels to the consonants they give the name of the demon who has this sign, the sun demon: Sorat. |
+| sorat-c06 | exact | rsarchive.org | According to this lecture, the Apocalypticer describes the sun demon as the two-horned beast. | The sun demon has this sign: The Apocalypticer describes him as the two horned beast. |
+| sorat-c07 | exact | rsarchive.org | According to this lecture, the Apocalypticer sensed that the sun demon was particularly active around the year 666. | And so the Apocalypticer sensed that the sun demon was particularly active around the year 666. |
 
 
 ## spectre-de-l-eglise-saint-martin — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -120,6 +123,9 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | spectre-de-l-eglise-saint-martin-c03 | exact | fr.wikipedia.org | He supposedly started the fire to take revenge on the Jesuits, who had dared to move the remains of monks buried in the church. | Lui-même aurait provoqué l'incendie pour se venger des pères Jésuites, qui avaient eu l'audace de déplacer les restes des moines enterrés dans l'église. |
 | spectre-de-l-eglise-saint-martin-c04 | exact | fr.wikipedia.org | The fire is well attested but its causes are unknown, and the vengeful spirit was never heard of again. | Si l'événement incendiaire est bien attesté, ses causes sont inconnues et l'esprit vengeur n'a plus refait parler de lui. |
 | spectre-de-l-eglise-saint-martin-c05 | exact | fr.wikipedia.org | The episode is told in the comic album Albéric chez les Mussipontains. | Cet épisode est notamment relaté dans l'album de bande dessinée Albéric chez les Mussipontains |
+| spectre-de-l-eglise-saint-martin-c06 | exact | fr.wikipedia.org | After the flames died down, the glow of a torch was reportedly seen circling the building. | Après l'extinction des flammes, la lueur d'un flambeau aurait été vue, faisant le tour du bâtiment. |
+| spectre-de-l-eglise-saint-martin-c07 | exact | fr.wikipedia.org | The legend is linked to the change of ownership of the Saint-Martin chapel, formerly entrusted to the order of Saint-Antoine, which became the chapel of the university of Pont-à-Mousson (founded 1572) and was thus entrusted to the Jesuits (Jésuites). | Cette légende est liée au changement survenu dans la possession de la chapelle Saint-Martin, auparavant confiée à l'ordre de Saint-Antoine, devenue chapelle de l'université de Pont-à-Mousson (fondée en 1572), et donc confiée aux Jésuites. |
+| spectre-de-l-eglise-saint-martin-c08 | exact | fr.wikipedia.org | The date of the fire, some 50 years after the new masters arrived, reflects the Jesuits' (Jésuites) difficulties in settling in, expressed here in the popular imagination. | La date de l'incendie, quelque 50 ans après l'arrivée des nouveaux maîtres, témoigne des difficultés d'installation des Jésuites, exprimées ici dans l'imaginaire populaire. |
 
 
 ## spettro — skip
@@ -135,10 +141,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## stilles-volk — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -148,14 +151,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | stilles-volk-c04 | exact | fr.wikipedia.org | They hide in caves and mine ores that make them very rich; it is said they could turn into diamonds. | ils se cachent dans les grottes dont ils extraient des minerais qui les rendent richissimes. On dit que ces deux êtres pourraient éventuellement se métamorphoser en diamant. |
 | stilles-volk-c05 | exact | fr.wikipedia.org | If given hospitality for their weddings, usually held in an attic, they reward their hosts with coal or toys. | Si on leur offre l'hospitalité lors de leurs noces (qui se passent dans un grenier le plus souvent), ils donnent en récompense du charbon ou des jouets. |
 | stilles-volk-c06 | exact | fr.wikipedia.org | The Stilles Volk can be compared with the erdluitle. | On peut rapprocher le Stilles Volk des erdluitle. |
+| stilles-volk-c07 | exact | www.sagen.at | Deep beneath the castle hill of the Plesse lives a quiet dwarf folk (stilles Zwergenvolk), helpful and kind to people, which can make itself invisible and walk through any locked door or wall as it pleases. | Tief unterm Boden des Burgberges der Plesse wohnt ein stilles Zwergenvolk, hilfreich und guttätig den Menschen, das sich unsichtbar zu machen vermag und durch jede verschlossene Türe, durch jede Mauer wandelt, so es ihm beliebt. |
+| stilles-volk-c08 | exact | www.sagen.at | In the tale, the student examined the gifts and found that they were gold and gems (Gold und Edelsteine) of great value. | Der Studiosus besah die Gaben und befand, daß es Gold und Edelsteine waren von hohem Wert. |
 
 
 ## strego — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -165,19 +167,23 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | strego-c04 | exact | it.wikipedia.org | According to writer Oscar Guidi, the strego of Garfagnana resembles the Friulian benandante. | Secondo lo scrittore Oscar Guidi, la figura dello strego della Garfagnana sarebbe analoga a quella del benandante friulano. |
 | strego-c05 | exact | it.wikipedia.org | In tales the streghi often gather in walnut trees, sometimes shouting and dancing; usually invisible, they can sometimes be spotted by the little lights they carry. | Nei racconti, gli streghi si radunano sovente sugli alberi di noce dove a volte urlano e ballano. Generalmente invisibili, qualche volta appaiono individuabili per i lumini che talora portano. |
 | strego-c06 | exact | it.wikipedia.org | They do not bother people except through occasional noise or sudden appearances. | Non importunano gli umani se non per il chiasso che occasionalmente producono o per le loro improvvise apparizioni. |
+| strego-c07 | exact | www.milanofree.it | The strego figure is typical of Garfagnana, in the province of Lucca. | Questo personaggio è tipico della Garfagnana, nella provincia di Lucca. |
+| strego-c08 | exact | www.milanofree.it | The streghi too have a walnut tree (albero di noce) as their meeting point, where they gather to dance and make a devilish racket. | Anche loro hanno come punto di riferimento un albero di noce, dove si ritrovano per ballare e fare un chiasso indiavolato. |
 
 
 ## syrbotae — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | syrbotae-c01 | exact | en.wikipedia.org | The Syrbotae are a kind of giant mentioned in many medieval bestiaries, said to live in Africa and stand about eight cubits tall. | The Syrbotae, a species of giant mentioned in many medieval bestiaries, were said to live in Africa and stand about eight cubits tall |
 | syrbotae-c02 | exact | en.wikipedia.org | A cubit is the distance from the elbow to the tip of the middle finger. | a cubit is the distance from a man's elbow to the tip of his middle finger |
+| syrbotae-c03 | exact | www.theoi.com | The Syrbotai (Syrbotae) were a tribe of twelve-foot-tall African men. | THE SYRBOTAI (Syrbotae) were a tribe of twelve foot tall African men. |
+| syrbotae-c04 | exact | www.theoi.com | On the African side (of the Aethiopian kingdom of Meroe) are the Medimni, a nomad tribe living on dog-faced baboon milk, the Alabi, and the Syrbotae, said to be 12 feet high. | On the African side [of the Aethiopian kingdom of Meroe] are the Medimni, and then a Nomad tribe that lives on the milk of the dog-faced baboon [the Cyncophali], the Alabi, and the Syrbotae who are said to be 12 feet high. |
+| syrbotae-c05 | exact | www.theoi.com | Crates of Pergamenus, a Greek writer of the 2nd century BC, says there are Aethiopes (Ethiopians) more than twelve feet in height and that this race is called the Syrbotae. | Crates of Pergamenus [Greek writer C2nd B.C.] says that . . . there are Aethiopes (Ethiopians) more than twelve feet in height, and that this race is called the Syrbotae. |
+| syrbotae-c06 | exact | archive.org | In this verse, near them dwells a very strong folk, each of them twelve feet (xij. fote) tall, called the Sorebotes in writing. | By heom woneth a folk wel strong, Everiche of heom xij. fote long. Wyde and long is heore furchur ; Sorebotes thev hotith in lettrtire. |
+| syrbotae-c07 | exact | archive.org | The editor's note identifies the Sorebotes with the Syrbotae (printed "Syrbotse" in the scan) and says Pliny gives their height as eight cubits. | Sorebotes.~] Syrbotse. Pliny says they were eight cubits in height. |
 
 
 ## tajin — lulus-otomatis
@@ -194,46 +200,36 @@ Klaim 1 (exact 1), sumber 1, gambar 0.
 
 ## tartaranho — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tartaranho-c01 | exact | pt.wikipedia.org | The Tartaranho is an imaginary being of Portuguese children's mythology. | O Tartaranho é um ser imaginário da mitologia infantil portuguesa. |
 | tartaranho-c02 | exact | pt.wikipedia.org | The Tartaranho is an evil being that, like the Coca or the bicho-papão, was used to frighten children. | O Tartaranho é um ser maléfico que tal como a Coca (folclore) ou o bicho-papão era usado para assustar as crianças. |
+| tartaranho-c03 | exact | archive.org | The Tartaranho is listed among the "entidades magicas e malévolas" (magical and malevolent entities), along with Provinco, Tanso and Trasgo, among others. | As Entidades magicas e malévolas : Tanglo-Man- go, Provinco, Tanso, Trasgo, Tartaranho |
+| tartaranho-c04 | exact | archive.org | António Prestes cites the entity: «Por esta tartaranha mà» ("by this evil tartaranha"). | e António Prestes cita a entidade : «Por esta tartaranha mà.» |
 
 
 ## tatro-azeiteiro — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tatro-azeiteiro-c01 | exact | pt.wikipedia.org | The Tatro azeiteiro is a mythical being of Portuguese folklore, the personification of fog. | O Tatro azeiteiro é um ser mítico do folclore português. O Tatro azeiteiro é a personificação do nevoeiro. |
 | tatro-azeiteiro-c02 | exact | pt.wikipedia.org | In S. Martinho de Recesinhos (Penafiel) people say that in fog one smells olive oil, produced by the Tatro azeiteiro. | Em S. Martinho de Recesinhos (Penafiel) diz o povo que, quando há nevoeiro, se sente um cheiro a azeite, que é produzido pelo Tatro azeiteiro. |
 | tatro-azeiteiro-c03 | exact | pt.wikipedia.org | Weavers drive the Tatro away at night, at the end of their evening work, by moving the loom's bobbin holder. | As tecedeiras espantam o Tatro de noite, ao acabar do serão, fazendo mover o caneleiro do tear. |
+| tatro-azeiteiro-c04 | exact | archive.org | Many natural phenomena are personified, such as the wind in the Balborinho and the fog (Nevoeiro) in the Tatro azeiteiro (printed "TiUro" in the scan) of Penafiel. | Muitos phenomenos naturaes acham-se personificados, como o Vento no Balborinho ... o Nevoeiro, no TiUro azeiteiro (Penafiel) |
+| tatro-azeiteiro-c05 | exact | bestiariotradicionalportugues.wordpress.com | Many creatures were left out of the Bestiário Tradicional Português for lack of physical description, but the Tatro Azeiteiro, a personification of fog "impossible" to illustrate, still found its way into the book. | Ao longo da pesquisa para o Bestiário Tradicional Português, muitas criaturas do nosso imaginário popular ficaram por incluir, essencialmente por falta de descrição física ... O Tatro Azeiteiro, por exemplo, uma personificação do nevoeiro, “impossível” de ilustrar, lá arranjou meio de integrar o livro. |
 
 
 ## tensori-no-mikoto — lulus-otomatis
-
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| tensori-no-mikoto-c01 | exact | fr.wikipedia.org | Tensori no Mikoto is regarded as the ancestral god of the Hayato tribe. | Tensori no Mikoto (天曽利命) est considéré comme le dieu ancestral de la tribu Hayato. |
-| tensori-no-mikoto-c02 | exact | fr.wikipedia.org | He is said to be the elder brother of Ahiratsu-hime, first wife of Emperor Jimmu of Japan. | Il est dit qu'il est le frère aîné d'Ahiratsu-hime (吾平津媛), la première épouse de l'empereur Jimmu. |
-| tensori-no-mikoto-c03 | exact | fr.wikipedia.org | Tensori no Mikoto is sometimes identified with Agatanushi Obashi. | Tensori no Mikoto est parfois identifié à Agatanushi Obashi (吾田君小橋). |
-
-
-## tephras — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
@@ -242,10 +238,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
+| tensori-no-mikoto-c01 | exact | fr.wikipedia.org | Tensori no Mikoto is regarded as the ancestral god of the Hayato tribe. | Tensori no Mikoto (天曽利命) est considéré comme le dieu ancestral de la tribu Hayato. |
+| tensori-no-mikoto-c02 | exact | fr.wikipedia.org | He is said to be the elder brother of Ahiratsu-hime, first wife of Emperor Jimmu of Japan. | Il est dit qu'il est le frère aîné d'Ahiratsu-hime (吾平津媛), la première épouse de l'empereur Jimmu. |
+| tensori-no-mikoto-c03 | exact | fr.wikipedia.org | Tensori no Mikoto is sometimes identified with Agatanushi Obashi. | Tensori no Mikoto est parfois identifié à Agatanushi Obashi (吾田君小橋). |
+| tensori-no-mikoto-c04 | exact | fr.wikipedia.org | Tensori no Mikoto may possibly be the son of Hosuseri. | Il est possible que Tensori no Mikoto soit le fils de Hosuseri |
+
+
+## tephras — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
 | tephras-c01 | exact | it.wikipedia.org | Tephras is a demon of Jewish mythology, nicknamed the "spirit of ash", with its head held high but its body bent like a snail, always carrying a dust storm. | Tephras è un demone della mitologia ebraica, soprannominato anche "spirito della cenere", descritto come uno che porta la testa in alto ma il corpo è piegato come una lumaca portando sempre con sé una tempesta di polvere. |
 | tephras-c02 | exact | it.wikipedia.org | This demon is described in the Testament of Solomon, an Old Testament apocryphon. | Tale demone è descritto nel Testamento di Salomone, testo apocrifo dell'Antico Testamento. |
 | tephras-c03 | exact | it.wikipedia.org | Tephras told Solomon that it brings darkness on people, sets fields alight and harms farms, mainly in summer, and that it is subject to the archangel Azael. | Tephras, allora, svelò al sovrano di essere colui che porta oscurità sugli uomini, incendia i campi e non porta nulla di buono alle fattorie, attivo prevalentemente d'estate. Infine, svelò l'angelo a cui è sottoposto, ossia l'arcangelo Azael. |
 | tephras-c04 | exact | it.wikipedia.org | Solomon then seals it and forces it to lift stones for the workers of God's Temple. | Dopo ciò, Salomone lo sigilla e lo costringe ad afferrare e sollevare pietre per gli operai del Tempio di Dio |
+| tephras-c05 | exact | en.wikisource.org | In the Testament of Solomon this spirit came with its face carried high in the air, while the rest of it curled away like a snail. | And one came before me who carried his face high up in the air, but the rest of the spirit curled away like a snail. |
+| tephras-c06 | exact | en.wikisource.org | The spirit says it brings darkness on men, sets fire to fields and brings homesteads to naught, and is most busy in summer. | I bring darkness on men, and set fire to fields; and I bring homesteads to naught. But most busy am I in summer. |
+| tephras-c07 | exact | en.wikisource.org | When it gets the chance, the spirit creeps into corners of the wall, by night and day, and claims to be offspring of "the great one". | However, when I get an opportunity, I creep into corners of the wall, by night and day. For I am offspring of the great one, and nothing less. |
+| tephras-c08 | exact | en.wikisource.org | Its star, it says, lies at the very tip of the moon's horn when the moon is found in the south. | In the very tip of the moon's horn, when it is found in the south. There is my star. |
+| tephras-c09 | exact | en.wikisource.org | The spirit says it has been bidden to restrain the convulsions of the hemitertian fever. | For I have been bidden to restrain the convulsions of the hemitertian fever |
+| tephras-c10 | exact | en.wikisource.org | Solomon summoned the archangel Azael, set a seal on the demon and commanded it to seize great stones and toss them up to the workmen on the higher parts of the Temple. | And I summoned the archangel Azael, and set a seal on the demon, and commanded him to seize great stones, and toss them up to the workmen on the higher parts of the Temple. |
 
 
 ## tio-dels-ossos — lulus-otomatis
@@ -264,15 +278,16 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## tiripeme-curicaueri — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tiripeme-curicaueri-c01 | exact | fr.wikipedia.org | Tirípeme Curicaueri ("blue god of the waters" in Purépecha) was the rain god of the Tarascans in the Mesoamerican period. | Tirípeme Curicaueri (« dieu bleu des eaux », en purépecha) était le dieu de la pluie des Tarasques, à l'époque mésoaméricaine. |
 | tiripeme-curicaueri-c02 | exact | fr.wikipedia.org | In Tarascan mythology he ruled a kind of paradise similar to the Aztec Tlalocan. | Dans la mythologie tarasque, il régnait sur une sorte de paradis similaire au Tlalocan de la mythologie aztèque. |
+| tiripeme-curicaueri-c03 | exact | en.wikipedia.org | This lake was formerly a place of worship for Tiripeme Curicaueri and also a place where the inhabitants bathed. | Formerly this lake was a place of worship for Tiripeme Curicaueri, it was also a place where the inhabitants bathed. |
+| tiripeme-curicaueri-c04 | exact | en.wikipedia.org | After the Spanish conquest the friars used the site to baptize the natives, which angered Tiripeme, who produced eddies that dragged in the women bathing or washing clothes on the shore. | After the Spanish conquest, the friars used this site to baptize the natives, which caused the anger of Tiripeme, who produced eddies in the water that dragged into its interior the women who were bathing or washing their clothes on the shore. |
+| tiripeme-curicaueri-c05 | exact | en.wikipedia.org | After hearing these stories, a friar decided the only way to end that "demon" was to baptize the pool. | after hearing these stories, decided that the only way to put an end to that "demon" was to baptize the pool |
+| tiripeme-curicaueri-c06 | exact | en.wikipedia.org | From the water in the crater a great whirlpool emerged with much wind and a frightening noise: this was the "demon" fleeing in fright. | from the body of water in the crater, a great whirlpool emerged with a lot of wind and a frightening noise, this being the "demon" that fled frightened. |
 
 
 ## tlaloquetotontli — lulus-otomatis
@@ -291,10 +306,10 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## tramontino — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -302,14 +317,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tramontino-c02 | exact | it.wikipedia.org | Tramontini are often pictured as tiny hairless humanoids with membranous wings, armed with long sharp knives. | spesso dipinti come minuscoli umanoidi glabri dotati di ali membranose e armati di lunghi e affilati coltelli |
 | tramontino-c03 | exact | it.wikipedia.org | Elsewhere they are described with a wasp-like abdomen bearing a sharp sting. | sono descritti come muniti di una protrusione addominale simile al ventre di un imenottero, dalla quale sporge un acuminato pungiglione. |
 | tramontino-c04 | exact | it.wikipedia.org | The tramontino seems to originate from the blood-sucking habits of Ceratopogonidae, tiny insects of the order Diptera. | La figura del tramontino sembra trarre la propria origine dall'attività ematofaga dei Ceratopogonidi, minuscoli insetti dell'ordine dei ditteri |
+| tramontino-c05 | exact | it.wikipedia.org | These imaginary creatures habitually attack people who linger in the fields at sunset (tramonto), inflicting an annoying sting. | a causa dell'abitudine di queste creature immaginarie di aggredire gli uomini che si attardino nei campi durante il tramonto, infliggendo loro una fastidiosa puntura |
+| tramontino-c06 | exact | it.wikipedia.org | Unlike common sprites (folletti), sometimes thought to work for human well-being, tramontini are generally malevolent in character. | Diversamente dai comuni folletti, ritenuti in grado di adoperarsi talvolta anche per il benessere dell'uomo, i tramontini sono generalmente di carattere malevolo |
+| tramontino-c07 | exact | it.wikipedia.org | At sunset, tramontini are said to leave their dwellings to pursue their particular activities. | momento durante il quale i tramontini abbandonerebbero le loro dimore per dedicarsi alle loro specifiche attività |
 
 
 ## trib-real — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -318,6 +333,11 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | trib-real-c03 | exact | ca.wikipedia.org | It is a punishment because in life they cared for no one and danced whenever they liked, ignoring others' mourning. | Es tracta d'un càstig que els fou infligit perquè, mentre vivien, no tenien miraments per ningú i ballaven quan tocava i quan no, sense respectar el dol aliè. |
 | trib-real-c04 | exact | ca.wikipedia.org | The Trib Real myth was traditionally used to scare people too fond of dancing and partying. | El mite del Trib Real es feia servir tradicionalment per a espantar aquells a qui els agrada molt el ball i la festa. |
 | trib-real-c05 | exact | ca.wikipedia.org | Tales of the Trib Real are especially common around the Serra de Mariola. | De fet, les contalles sobre el Trib Real són especialment abundants per la zona de la serra de Mariola. |
+| trib-real-c06 | exact | alicanteplaza.es | People tell that the Trib Real has to do with witches and warlocks (bruixes, bruixots) and male and female demons. | I és que conten i diuen —i diuen i conten— que el Trib Real té a veure amb bruixes, bruixots, dimonis i dimònies. |
+| trib-real-c07 | exact | alicanteplaza.es | The Trib Real is said to have originated at a big party of young women and men at a farmhouse (mas) near the serra de Mariola. | Sembla que l’origen del Trib Real es va produir en una festa grossa de fadrines i fadrins ... en un mas prop de la serra de Mariola. |
+| trib-real-c08 | exact | alicanteplaza.es | The figure of the Trib Real is already documented in the Rondalla de rondalles, written in 1767 by Lluís Galiana. | perquè resulta que aquesta intrigant figura del Trib Real apareix ja documentada en la Rondalla de rondalles, escrita l’any 1767 per l’ontinyentí Lluís Galiana |
+| trib-real-c09 | exact | alicanteplaza.es | According to the author, the "triple real" of Andorra and the "tri real" of Callosa seem to be one and the same: the old and legendary Trib Real. | Sembla evident que el triple real d’Andorra i el tri real de l’amic Joan Ives a Callosa no són sinó una mateixa cosa: el vell i llegendari Trib Real. |
+| trib-real-c10 | exact | alicanteplaza.es | According to one informant, the Trib Real were dancers, women or witches who went dancing half-naked and caused great scandal, and God (Déu) punished them to wander the world forever. | El trib real eren unes ballarines o unes dones o unes bruixes que anaven ballant mig en conill o mig nuetes i fe[i]en molt d’escándalo, i Déu les va castigar que estigueren sempre pel món |
 
 
 ## triton — lulus-otomatis

@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-136",
-  "checked_at": "2026-10-02T04:15:17.073Z",
+  "checked_at": "2026-10-13T19:47:13.988Z",
   "files": [
-    "batch-136.md"
+    "batch-136.md",
+    "batch-136-fix-1.md",
+    "batch-136-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "serre",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "6c15c67c7420d345bcfb964eb0448f11fca0a2d81ad8492f105810f66868cdbe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "serre-c01",
@@ -73,16 +70,57 @@
           "quote": "La serre est ensuite reprise par Vincent de Beauvais dans son Speculum Naturale. Au XIIe siècle, Philippe de Thaon la décrit dans son Bestiaire puis au XIIIe siècle, Guillaume le Clerc de Normandie l'inclut dans son Bestiaire divin.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "serre-c06",
+          "source_id": "serre-s2",
+          "host": "bestiary.ca",
+          "statement": "In the bestiaries this beast (Latin: Serra) is also called Sarce, Sarra, Sarre, Scie, Serapis, Seria, Serre, Serta, Sora and Virgilia.",
+          "statement_id": "Dalam bestiarium, makhluk ini (Latin: Serra) juga disebut Sarce, Sarra, Sarre, Scie, Serapis, Seria, Serre, Serta, Sora, dan Virgilia.",
+          "quote": "Other names: Sarce, Sarra, Sarre, Scie, Serapis, Seria, Serre, Serta, Sora, Virgilia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "serre-c07",
+          "source_id": "serre-s2",
+          "host": "bestiary.ca",
+          "statement": "The sawfish is a sea monster with enormous wings; on seeing a ship it raises its wings to race the ship, then tires after thirty or forty stadia and dives back into the water to devour fish.",
+          "statement_id": "Ikan gergaji (sawfish) adalah monster laut bersayap sangat besar; saat melihat kapal, ia mengangkat sayapnya untuk berlomba dengan kapal itu, lalu lelah setelah tiga puluh atau empat puluh stadia dan menyelam kembali untuk memangsa ikan.",
+          "quote": "The sawfish is a sea monster with enormous wings. When it sees a ship, it raises its wings so it can race against the ship. The sawfish tires after thirty or forty stadia and dives back into the water to devour fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serre-c08",
+          "source_id": "serre-s2",
+          "host": "bestiary.ca",
+          "statement": "Its raised wings hold back the wind from ships, so sailors dislike the sawfish because it causes ships to sink; the beast is also said to have a serrated crest that it uses to cut into ships.",
+          "statement_id": "Sayapnya yang terangkat menghalangi angin dari kapal, sehingga pelaut tidak menyukai ikan gergaji karena membuat kapal tenggelam; makhluk ini juga dikatakan punya jambul bergerigi untuk memotong kapal.",
+          "quote": "When it raises its wings they hold back the wind from ships; sailors do not like the sawfish because it causes ships to sink. This beast is also said to have a serrated crest that it uses to cut into ships.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serre-c09",
+          "source_id": "serre-s2",
+          "host": "bestiary.ca",
+          "statement": "Allegorically, the sawfish signifies those who start on a righteous path with good intentions but soon tire, sink back into sin and are carried down to hell.",
+          "statement_id": "Secara alegoris, ikan gergaji melambangkan orang yang memulai jalan lurus dengan niat baik, tetapi segera lelah, kembali tenggelam dalam dosa, dan terbawa ke neraka.",
+          "quote": "The sawfish signifies those who start on a righteous path with good intentions, but soon tire and sink back into sin and are carried down to hell.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sibara",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "7a4e4b2f19cac3b3d725b1e51272eaafd3a65cc70d658aaa51f644b20c814199",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -95,7 +133,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -148,26 +186,31 @@
           "quote": "Un récit de Frédéric Croizier, La Vengeance du Sibara, paru en 2016, s'appuie sur cette légende.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "sibara-c06",
+          "source_id": "sibara-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The name Sibara is linked to Old French (ancien français) «esbarer», «effarer», «ébahir».",
+          "statement_id": "Nama Sibara dikaitkan dengan bahasa Prancis Kuno (ancien français) «esbarer», «effarer», «ébahir».",
+          "quote": "Le Sibara (de l'ancien français « esbarer », « effarer », « ébahir »",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "simanya",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "09f5813113008507b5c080eababf07f9ebb3c4782de9e3f6fe0ee5c8caa597d0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "simanya-c01",
@@ -198,6 +241,36 @@
           "quote": "Un cop se'ls ha menjat, n'apila els ossos al fons de la cova.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "simanya-c04",
+          "source_id": "simanya-s2",
+          "host": "www.ara.cat",
+          "statement": "The Simanya is among the monsters in the book, alongside the Cuca Fera, the Lluert and the Tinyosa, all protagonists of terrifying stories about terrible deaths accompanied by long suffering.",
+          "statement_id": "Simanya termasuk monster dalam buku itu, bersama Cuca Fera, Lluert, dan Tinyosa, yang semuanya menjadi tokoh kisah menyeramkan tentang kematian mengerikan disertai penderitaan panjang.",
+          "quote": "També treuen el cap al llibre altres monstres com la Cuca Fera, el Lluert, la Tinyosa i la Simanya, tots protagonistes d’històries terrorífiques sobre morts terribles acompanyades de llargs patiments.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simanya-c05",
+          "source_id": "simanya-s2",
+          "host": "www.ara.cat",
+          "statement": "The Simanya hides inside a deep cavern (caverna profunda) of the Sant Llorenç i l’Obac massif, feeds on baptised babies and piles the bones at the back of the cave.",
+          "statement_id": "Simanya bersembunyi di dalam gua dalam (caverna profunda) di massif Sant Llorenç i l’Obac, memakan bayi yang telah dibaptis, dan menumpuk tulangnya di dasar gua.",
+          "quote": "Amagada dins d’una caverna profunda del massís de Sant Llorenç i l’Obac, la Simanya s’alimenta de nadons batejats i apila els ossos al fons de la cova.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simanya-c06",
+          "source_id": "simanya-s2",
+          "host": "www.ara.cat",
+          "statement": "No one knows exactly what it looks like, but the stories say it is a bloodthirsty beast (bèstia sanguinària) always hungry for humans.",
+          "statement_id": "Tak seorang pun tahu persis rupanya, tetapi kisah-kisah menyebutnya binatang haus darah (bèstia sanguinària) yang selalu lapar akan manusia.",
+          "quote": "Ningú sap exactament quina fila fa, però les històries diuen que és una bèstia sanguinària i sempre afamada d’humans.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -219,7 +292,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3ed1878c9544174d0e9b20d8df5652fb9720325d24acc4c7ceb65931031b18a"
     },
     {
       "slug": "simonet",
@@ -259,24 +333,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e791b01ba9fc9c8e2715da49aaa181e0529a6c87619e7eb3c345f8d2b3a5fcb1"
     },
     {
       "slug": "sipa",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "d49a56bddaa89dcf6afbfcf802c679ccb0654fc47279b2f34ba5174d73350073",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sipa-c01",
@@ -337,17 +407,38 @@
           "quote": "Sipá era conocido como el dios malo",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "sipa-c07",
+          "source_id": "sipa-s2",
+          "host": "www.ivpressonline.com",
+          "statement": "In this creation story the twin siblings Sipa and Komat emerged from a primordial sea; Komat emerged first with his eyes closed, while Sipa opened his eyes underwater and was blinded.",
+          "statement_id": "Dalam kisah penciptaan ini, saudara kembar Sipa dan Komat muncul dari laut purba; Komat muncul lebih dulu dengan mata terpejam, sedangkan Sipa membuka matanya di bawah air dan menjadi buta (blinded).",
+          "quote": "The creation story also features twin siblings, Sipa and Komat, who emerged from a primordial sea. Komat emerged first with his eyes closed. Sipa opened his eyes underwater and was blinded.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sipa-c08",
+          "source_id": "sipa-s2",
+          "host": "www.ivpressonline.com",
+          "statement": "Together they created various peoples, but rivalry led Sipa into conflict; their disagreements climaxed in Komat descending into the underworld, releasing sickness and death into the world.",
+          "statement_id": "Bersama-sama mereka menciptakan berbagai bangsa, tetapi persaingan membawa Sipa ke dalam perselisihan; puncaknya Komat turun ke dunia bawah dan melepaskan penyakit serta kematian ke dunia.",
+          "quote": "Together they created various peoples, but rivalry led Sipa to conflict. Their disagreements climaxed in Komat descending into the underworld, releasing sickness and death into the world.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sorat",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "5fbaa4d5a2f109b4516079cf326b89bd11e93897c87a518140588c723fd2c986",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -355,11 +446,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Esoterisme Barat\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -402,16 +488,47 @@
           "quote": "Le notizie su Sorat oggi diffuse dalla manualistica esoterica provengono dalle opere di Rudolf Steiner, che cominciò a parlarne nel giugno 1908 a Norimberga, quando tenne la sua undicesima conferenza sull'Apocalisse di Giovanni.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "sorat-c05",
+          "source_id": "sorat-s2",
+          "host": "rsarchive.org",
+          "statement": "In this lecture, when the matching vowels are added to the consonants of the sign, they give the name of the demon who has this sign, the sun demon: Sorat.",
+          "statement_id": "Dalam ceramah ini, bila huruf mati dari tanda bilangan itu diberi huruf hidup yang sesuai, terbentuklah nama iblis pemilik tanda itu, iblis matahari: Sorat.",
+          "quote": "After one adds the corresponding vowels to the consonants they give the name of the demon who has this sign, the sun demon: Sorat.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sorat-c06",
+          "source_id": "sorat-s2",
+          "host": "rsarchive.org",
+          "statement": "According to this lecture, the Apocalypticer describes the sun demon as the two-horned beast.",
+          "statement_id": "Menurut ceramah ini, penulis Apokalips (Apocalypticer) menggambarkan iblis matahari sebagai binatang bertanduk dua.",
+          "quote": "The sun demon has this sign: The Apocalypticer describes him as the two horned beast.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sorat-c07",
+          "source_id": "sorat-s2",
+          "host": "rsarchive.org",
+          "statement": "According to this lecture, the Apocalypticer sensed that the sun demon was particularly active around the year 666.",
+          "statement_id": "Menurut ceramah ini, penulis Apokalips (Apocalypticer) merasakan bahwa iblis matahari sangat aktif sekitar tahun 666.",
+          "quote": "And so the Apocalypticer sensed that the sun demon was particularly active around the year 666.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "spectre-de-l-eglise-saint-martin",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "da236345346404b2da678bb869142996272885cc5c7c3a90e808b0c00637a14b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 8,
         "sources": 1,
         "images": 0
       },
@@ -419,7 +536,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -472,6 +589,36 @@
           "quote": "Cet épisode est notamment relaté dans l'album de bande dessinée Albéric chez les Mussipontains",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "spectre-de-l-eglise-saint-martin-c06",
+          "source_id": "spectre-de-l-eglise-saint-martin-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "After the flames died down, the glow of a torch was reportedly seen circling the building.",
+          "statement_id": "Setelah api padam, cahaya sebuah obor konon terlihat mengelilingi bangunan.",
+          "quote": "Après l'extinction des flammes, la lueur d'un flambeau aurait été vue, faisant le tour du bâtiment.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "spectre-de-l-eglise-saint-martin-c07",
+          "source_id": "spectre-de-l-eglise-saint-martin-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The legend is linked to the change of ownership of the Saint-Martin chapel, formerly entrusted to the order of Saint-Antoine, which became the chapel of the university of Pont-à-Mousson (founded 1572) and was thus entrusted to the Jesuits (Jésuites).",
+          "statement_id": "Legenda ini berkaitan dengan peralihan kepemilikan kapel Saint-Martin, yang sebelumnya dipercayakan kepada ordo Saint-Antoine lalu menjadi kapel universitas Pont-à-Mousson (didirikan 1572) dan diserahkan kepada para Yesuit (Jésuites).",
+          "quote": "Cette légende est liée au changement survenu dans la possession de la chapelle Saint-Martin, auparavant confiée à l'ordre de Saint-Antoine, devenue chapelle de l'université de Pont-à-Mousson (fondée en 1572), et donc confiée aux Jésuites.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "spectre-de-l-eglise-saint-martin-c08",
+          "source_id": "spectre-de-l-eglise-saint-martin-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The date of the fire, some 50 years after the new masters arrived, reflects the Jesuits' (Jésuites) difficulties in settling in, expressed here in the popular imagination.",
+          "statement_id": "Tanggal kebakaran, sekitar 50 tahun setelah kedatangan pemilik baru, mencerminkan kesulitan para Yesuit (Jésuites) menetap, yang terungkap dalam imajinasi rakyat.",
+          "quote": "La date de l'incendie, quelque 50 ans après l'arrivée des nouveaux maîtres, témoigne des difficultés d'installation des Jésuites, exprimées ici dans l'imaginaire populaire.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -493,24 +640,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "b1604ff61f97184aa6fb476780f89b30259d363e1c9976ebfd775e2fe7270f2c"
     },
     {
       "slug": "stilles-volk",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "dd9f203202c5d3bfa9d4e644a2fe014e5e56e03ac55d58e43b7c4058dac72731",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "stilles-volk-c01",
@@ -571,26 +714,41 @@
           "quote": "On peut rapprocher le Stilles Volk des erdluitle.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "stilles-volk-c07",
+          "source_id": "stilles-volk-s2",
+          "host": "www.sagen.at",
+          "statement": "Deep beneath the castle hill of the Plesse lives a quiet dwarf folk (stilles Zwergenvolk), helpful and kind to people, which can make itself invisible and walk through any locked door or wall as it pleases.",
+          "statement_id": "Jauh di bawah tanah bukit kastel Plesse tinggal bangsa kerdil yang tenang (stilles Zwergenvolk), suka menolong dan berbuat baik kepada manusia, yang dapat membuat dirinya tak terlihat dan berjalan menembus pintu terkunci serta tembok sesuka hati.",
+          "quote": "Tief unterm Boden des Burgberges der Plesse wohnt ein stilles Zwergenvolk, hilfreich und guttätig den Menschen, das sich unsichtbar zu machen vermag und durch jede verschlossene Türe, durch jede Mauer wandelt, so es ihm beliebt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stilles-volk-c08",
+          "source_id": "stilles-volk-s2",
+          "host": "www.sagen.at",
+          "statement": "In the tale, the student examined the gifts and found that they were gold and gems (Gold und Edelsteine) of great value.",
+          "statement_id": "Dalam kisah itu, sang mahasiswa memeriksa hadiah dari mereka dan mendapati bahwa hadiah itu emas dan batu permata (Gold und Edelsteine) yang sangat berharga.",
+          "quote": "Der Studiosus besah die Gaben und befand, daß es Gold und Edelsteine waren von hohem Wert.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "strego",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "cab1a449fa8358aa4d61fd7f6d726f60ffb52239f06fec77eac96e8cccd8a7e4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "strego-c01",
@@ -651,26 +809,41 @@
           "quote": "Non importunano gli umani se non per il chiasso che occasionalmente producono o per le loro improvvise apparizioni.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "strego-c07",
+          "source_id": "strego-s2",
+          "host": "www.milanofree.it",
+          "statement": "The strego figure is typical of Garfagnana, in the province of Lucca.",
+          "statement_id": "Tokoh strego khas Garfagnana, di provinsi Lucca.",
+          "quote": "Questo personaggio è tipico della Garfagnana, nella provincia di Lucca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "strego-c08",
+          "source_id": "strego-s2",
+          "host": "www.milanofree.it",
+          "statement": "The streghi too have a walnut tree (albero di noce) as their meeting point, where they gather to dance and make a devilish racket.",
+          "statement_id": "Para strego juga menjadikan pohon kenari (albero di noce) sebagai titik pertemuan, tempat mereka berkumpul untuk menari dan membuat keributan luar biasa.",
+          "quote": "Anche loro hanno come punto di riferimento un albero di noce, dove si ritrovano per ballare e fare un chiasso indiavolato.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "syrbotae",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-1.md",
+      "entry_sha256": "ea598aa918532f06d0678ef0ca3af6b263f024ca28678b1c2be6cd4e474772e6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "syrbotae-c01",
@@ -690,6 +863,56 @@
           "statement_id": "Satu hasta adalah jarak dari siku hingga ujung jari tengah.",
           "quote": "a cubit is the distance from a man's elbow to the tip of his middle finger",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "syrbotae-c03",
+          "source_id": "syrbotae-s2",
+          "host": "www.theoi.com",
+          "statement": "The Syrbotai (Syrbotae) were a tribe of twelve-foot-tall African men.",
+          "statement_id": "Syrbotai (Syrbotae) adalah suku orang Afrika (African) yang tingginya dua belas kaki.",
+          "quote": "THE SYRBOTAI (Syrbotae) were a tribe of twelve foot tall African men.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "syrbotae-c04",
+          "source_id": "syrbotae-s2",
+          "host": "www.theoi.com",
+          "statement": "On the African side (of the Aethiopian kingdom of Meroe) are the Medimni, a nomad tribe living on dog-faced baboon milk, the Alabi, and the Syrbotae, said to be 12 feet high.",
+          "statement_id": "Di sisi Afrika (kerajaan Aethiopia Meroe) terdapat Medimni, suku nomaden peminum susu babun berwajah anjing, Alabi, dan Syrbotae yang konon tingginya 12 kaki.",
+          "quote": "On the African side [of the Aethiopian kingdom of Meroe] are the Medimni, and then a Nomad tribe that lives on the milk of the dog-faced baboon [the Cyncophali], the Alabi, and the Syrbotae who are said to be 12 feet high.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "syrbotae-c05",
+          "source_id": "syrbotae-s2",
+          "host": "www.theoi.com",
+          "statement": "Crates of Pergamenus, a Greek writer of the 2nd century BC, says there are Aethiopes (Ethiopians) more than twelve feet in height and that this race is called the Syrbotae.",
+          "statement_id": "Crates dari Pergamenus, penulis Yunani abad ke-2 SM, menyatakan ada orang Aethiopes (Ethiopia) yang tingginya lebih dari dua belas kaki dan bangsa itu disebut Syrbotae.",
+          "quote": "Crates of Pergamenus [Greek writer C2nd B.C.] says that . . . there are Aethiopes (Ethiopians) more than twelve feet in height, and that this race is called the Syrbotae.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "syrbotae-c06",
+          "source_id": "syrbotae-s3",
+          "host": "archive.org",
+          "statement": "In this verse, near them dwells a very strong folk, each of them twelve feet (xij. fote) tall, called the Sorebotes in writing.",
+          "statement_id": "Dalam syair ini, di dekat mereka tinggal suatu bangsa yang sangat kuat, masing-masing setinggi dua belas kaki (xij. fote), yang dalam tulisan disebut Sorebotes.",
+          "quote": "By heom woneth a folk wel strong, Everiche of heom xij. fote long. Wyde and long is heore furchur ; Sorebotes thev hotith in lettrtire.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "syrbotae-c07",
+          "source_id": "syrbotae-s4",
+          "host": "archive.org",
+          "statement": "The editor's note identifies the Sorebotes with the Syrbotae (printed \"Syrbotse\" in the scan) and says Pliny gives their height as eight cubits.",
+          "statement_id": "Catatan penyunting menyamakan Sorebotes dengan Syrbotae (tertulis \"Syrbotse\" dalam hasil pindaian) dan menyebut bahwa menurut Pliny tinggi mereka delapan hasta.",
+          "quote": "Sorebotes.~] Syrbotse. Pliny says they were eight cubits in height.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -723,22 +946,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cec1c7bb5effab4b0a075deddf72dc34c0b11861ca512d2d25a577ce7bf666a7"
     },
     {
       "slug": "tartaranho",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "2fe21f3955b4f4067f2157c926c8fed48efc335a8cfedb0f03aa0e96c9ccc804",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -761,24 +986,45 @@
           "quote": "O Tartaranho é um ser maléfico que tal como a Coca (folclore) ou o bicho-papão era usado para assustar as crianças.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tartaranho-c03",
+          "source_id": "tartaranho-s2",
+          "host": "archive.org",
+          "statement": "The Tartaranho is listed among the \"entidades magicas e malévolas\" (magical and malevolent entities), along with Provinco, Tanso and Trasgo, among others.",
+          "statement_id": "Tartaranho tercantum di antara \"entidades magicas e malévolas\" (entitas magis dan jahat), bersama antara lain Provinco, Tanso, dan Trasgo.",
+          "quote": "As Entidades magicas e malévolas : Tanglo-Man- go, Provinco, Tanso, Trasgo, Tartaranho",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tartaranho-c04",
+          "source_id": "tartaranho-s2",
+          "host": "archive.org",
+          "statement": "António Prestes cites the entity: «Por esta tartaranha mà» (\"by this evil tartaranha\").",
+          "statement_id": "António Prestes menyebut entitas ini: «Por esta tartaranha mà» (\"demi tartaranha yang jahat ini\").",
+          "quote": "e António Prestes cita a entidade : «Por esta tartaranha mà.»",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tatro-azeiteiro",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "415cc95ccb54acbe887d3139cb2f263a4d29c1c1e70c7680bf121f01e07766dc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 5,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -811,16 +1057,37 @@
           "quote": "As tecedeiras espantam o Tatro de noite, ao acabar do serão, fazendo mover o caneleiro do tear.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tatro-azeiteiro-c04",
+          "source_id": "tatro-azeiteiro-s2",
+          "host": "archive.org",
+          "statement": "Many natural phenomena are personified, such as the wind in the Balborinho and the fog (Nevoeiro) in the Tatro azeiteiro (printed \"TiUro\" in the scan) of Penafiel.",
+          "statement_id": "Banyak gejala alam dipersonifikasikan, misalnya angin dalam Balborinho dan kabut (Nevoeiro) dalam Tatro azeiteiro (tercetak \"TiUro\" dalam hasil pindaian) di Penafiel.",
+          "quote": "Muitos phenomenos naturaes acham-se personificados, como o Vento no Balborinho ... o Nevoeiro, no TiUro azeiteiro (Penafiel)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tatro-azeiteiro-c05",
+          "source_id": "tatro-azeiteiro-s3",
+          "host": "bestiariotradicionalportugues.wordpress.com",
+          "statement": "Many creatures were left out of the Bestiário Tradicional Português for lack of physical description, but the Tatro Azeiteiro, a personification of fog \"impossible\" to illustrate, still found its way into the book.",
+          "statement_id": "Banyak makhluk tidak masuk Bestiário Tradicional Português karena kurangnya deskripsi fisik, tetapi Tatro Azeiteiro, personifikasi kabut yang \"mustahil\" digambar, tetap berhasil dimasukkan ke dalam buku itu.",
+          "quote": "Ao longo da pesquisa para o Bestiário Tradicional Português, muitas criaturas do nosso imaginário popular ficaram por incluir, essencialmente por falta de descrição física ... O Tatro Azeiteiro, por exemplo, uma personificação do nevoeiro, “impossível” de ilustrar, lá arranjou meio de integrar o livro.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tensori-no-mikoto",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "118cecaef110083d68318d0f723641774933f79d60c16260bb9fd782c7a3c216",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -828,7 +1095,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -861,26 +1128,31 @@
           "quote": "Tensori no Mikoto est parfois identifié à Agatanushi Obashi (吾田君小橋).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "tensori-no-mikoto-c04",
+          "source_id": "tensori-no-mikoto-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Tensori no Mikoto may possibly be the son of Hosuseri.",
+          "statement_id": "Ada kemungkinan Tensori no Mikoto adalah putra Hosuseri.",
+          "quote": "Il est possible que Tensori no Mikoto soit le fils de Hosuseri",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tephras",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "ac61dc1d16b4ffb5e19f46910ed384fb0084132c4813be108670376c994836ba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tephras-c01",
@@ -919,6 +1191,66 @@
           "statement": "Solomon then seals it and forces it to lift stones for the workers of God's Temple.",
           "statement_id": "Salomo lalu menyegelnya dan memaksanya mengangkat batu untuk para pekerja Bait Allah.",
           "quote": "Dopo ciò, Salomone lo sigilla e lo costringe ad afferrare e sollevare pietre per gli operai del Tempio di Dio",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tephras-c05",
+          "source_id": "tephras-s2",
+          "host": "en.wikisource.org",
+          "statement": "In the Testament of Solomon this spirit came with its face carried high in the air, while the rest of it curled away like a snail.",
+          "statement_id": "Dalam Wasiat Salomo (Testament of Solomon), roh ini datang dengan wajah terangkat tinggi ke udara, sedangkan sisa tubuhnya melingkar seperti siput.",
+          "quote": "And one came before me who carried his face high up in the air, but the rest of the spirit curled away like a snail.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tephras-c06",
+          "source_id": "tephras-s2",
+          "host": "en.wikisource.org",
+          "statement": "The spirit says it brings darkness on men, sets fire to fields and brings homesteads to naught, and is most busy in summer.",
+          "statement_id": "Roh itu berkata bahwa ia membawa kegelapan pada manusia, membakar ladang, dan menghancurkan rumah pertanian, dan paling sibuk pada musim panas.",
+          "quote": "I bring darkness on men, and set fire to fields; and I bring homesteads to naught. But most busy am I in summer.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tephras-c07",
+          "source_id": "tephras-s2",
+          "host": "en.wikisource.org",
+          "statement": "When it gets the chance, the spirit creeps into corners of the wall, by night and day, and claims to be offspring of \"the great one\".",
+          "statement_id": "Bila ada kesempatan, roh itu menyusup ke sudut-sudut tembok, siang dan malam, dan mengaku sebagai keturunan \"yang agung\".",
+          "quote": "However, when I get an opportunity, I creep into corners of the wall, by night and day. For I am offspring of the great one, and nothing less.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tephras-c08",
+          "source_id": "tephras-s2",
+          "host": "en.wikisource.org",
+          "statement": "Its star, it says, lies at the very tip of the moon's horn when the moon is found in the south.",
+          "statement_id": "Bintangnya, katanya, berada di ujung tanduk bulan ketika bulan berada di selatan.",
+          "quote": "In the very tip of the moon's horn, when it is found in the south. There is my star.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tephras-c09",
+          "source_id": "tephras-s2",
+          "host": "en.wikisource.org",
+          "statement": "The spirit says it has been bidden to restrain the convulsions of the hemitertian fever.",
+          "statement_id": "Roh itu mengaku diperintahkan untuk menahan kejang-kejang demam hemitertian (hemitertian fever).",
+          "quote": "For I have been bidden to restrain the convulsions of the hemitertian fever",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tephras-c10",
+          "source_id": "tephras-s2",
+          "host": "en.wikisource.org",
+          "statement": "Solomon summoned the archangel Azael, set a seal on the demon and commanded it to seize great stones and toss them up to the workmen on the higher parts of the Temple.",
+          "statement_id": "Salomo memanggil malaikat agung Azael, menyegel iblis itu, dan memerintahkannya mengangkat batu-batu besar dan melemparkannya kepada para pekerja di bagian atas Bait Suci (Temple).",
+          "quote": "And I summoned the archangel Azael, and set a seal on the demon, and commanded him to seize great stones, and toss them up to the workmen on the higher parts of the Temple.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -973,24 +1305,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b0904fed58b8599beac2828fe1bfc585b88df29dfdd752ca558bd6e2714008b"
     },
     {
       "slug": "tiripeme-curicaueri",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "c3314abf583df75ccd5bf41f9efb7467f848f674ef91edd2735afd4828226d5f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tiripeme-curicaueri-c01",
@@ -1010,6 +1338,46 @@
           "statement_id": "Dalam mitologi Tarasca, ia memerintah semacam surga yang mirip Tlalocan dalam mitologi Aztek.",
           "quote": "Dans la mythologie tarasque, il régnait sur une sorte de paradis similaire au Tlalocan de la mythologie aztèque.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tiripeme-curicaueri-c03",
+          "source_id": "tiripeme-curicaueri-s2",
+          "host": "en.wikipedia.org",
+          "statement": "This lake was formerly a place of worship for Tiripeme Curicaueri and also a place where the inhabitants bathed.",
+          "statement_id": "Danau ini dahulu merupakan tempat pemujaan Tiripeme Curicaueri sekaligus tempat penduduk mandi.",
+          "quote": "Formerly this lake was a place of worship for Tiripeme Curicaueri, it was also a place where the inhabitants bathed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiripeme-curicaueri-c04",
+          "source_id": "tiripeme-curicaueri-s2",
+          "host": "en.wikipedia.org",
+          "statement": "After the Spanish conquest the friars used the site to baptize the natives, which angered Tiripeme, who produced eddies that dragged in the women bathing or washing clothes on the shore.",
+          "statement_id": "Setelah penaklukan Spanyol (Spanish conquest), para biarawan memakai tempat itu untuk membaptis penduduk asli; hal ini membuat Tiripeme murka dan menimbulkan pusaran air yang menyeret perempuan yang sedang mandi atau mencuci pakaian di tepi danau.",
+          "quote": "After the Spanish conquest, the friars used this site to baptize the natives, which caused the anger of Tiripeme, who produced eddies in the water that dragged into its interior the women who were bathing or washing their clothes on the shore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiripeme-curicaueri-c05",
+          "source_id": "tiripeme-curicaueri-s2",
+          "host": "en.wikipedia.org",
+          "statement": "After hearing these stories, a friar decided the only way to end that \"demon\" was to baptize the pool.",
+          "statement_id": "Setelah mendengar kisah-kisah itu, seorang biarawan memutuskan bahwa satu-satunya cara mengakhiri \"iblis\" itu adalah membaptis kolam tersebut.",
+          "quote": "after hearing these stories, decided that the only way to put an end to that \"demon\" was to baptize the pool",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiripeme-curicaueri-c06",
+          "source_id": "tiripeme-curicaueri-s2",
+          "host": "en.wikipedia.org",
+          "statement": "From the water in the crater a great whirlpool emerged with much wind and a frightening noise: this was the \"demon\" fleeing in fright.",
+          "statement_id": "Dari air di kawah muncul pusaran besar disertai angin kencang dan suara menakutkan, yaitu \"iblis\" yang lari ketakutan.",
+          "quote": "from the body of water in the crater, a great whirlpool emerged with a lot of wind and a frightening noise, this being the \"demon\" that fled frightened.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1063,14 +1431,16 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e2b722b2fec741209859aa4b1956788783e80b74abd3e0f9b7ba04a07060a8db"
     },
     {
       "slug": "tramontino",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "e6473f2efa820ea42b8c37b4f20fe25593c4e2e0e50f1c6129a56db086c0eb66",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 7,
         "sources": 1,
         "images": 0
       },
@@ -1078,7 +1448,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1121,26 +1491,51 @@
           "quote": "La figura del tramontino sembra trarre la propria origine dall'attività ematofaga dei Ceratopogonidi, minuscoli insetti dell'ordine dei ditteri",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "tramontino-c05",
+          "source_id": "tramontino-s1",
+          "host": "it.wikipedia.org",
+          "statement": "These imaginary creatures habitually attack people who linger in the fields at sunset (tramonto), inflicting an annoying sting.",
+          "statement_id": "Makhluk khayalan ini biasa menyerang orang yang berlama-lama di ladang saat matahari terbenam (tramonto) dengan sengatan yang menjengkelkan.",
+          "quote": "a causa dell'abitudine di queste creature immaginarie di aggredire gli uomini che si attardino nei campi durante il tramonto, infliggendo loro una fastidiosa puntura",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tramontino-c06",
+          "source_id": "tramontino-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Unlike common sprites (folletti), sometimes thought to work for human well-being, tramontini are generally malevolent in character.",
+          "statement_id": "Berbeda dari peri rumah (folletti) biasa yang kadang dianggap membantu manusia, tramontini umumnya berwatak jahat.",
+          "quote": "Diversamente dai comuni folletti, ritenuti in grado di adoperarsi talvolta anche per il benessere dell'uomo, i tramontini sono generalmente di carattere malevolo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tramontino-c07",
+          "source_id": "tramontino-s1",
+          "host": "it.wikipedia.org",
+          "statement": "At sunset, tramontini are said to leave their dwellings to pursue their particular activities.",
+          "statement_id": "Saat matahari terbenam, tramontini konon meninggalkan tempat tinggal mereka untuk menjalankan kegiatan khas mereka.",
+          "quote": "momento durante il quale i tramontini abbandonerebbero le loro dimore per dedicarsi alle loro specifiche attività",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "trib-real",
-      "file": "batch-136.md",
+      "file": "batch-136-fix-2.md",
+      "entry_sha256": "ba9041e53fb6a9ae0a03b15a323020af3102f1e770a173e01f4ff8ae80156313",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "trib-real-c01",
@@ -1189,6 +1584,56 @@
           "statement": "Tales of the Trib Real are especially common around the Serra de Mariola.",
           "statement_id": "Kisah tentang Trib Real terutama banyak di sekitar pegunungan Mariola.",
           "quote": "De fet, les contalles sobre el Trib Real són especialment abundants per la zona de la serra de Mariola.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trib-real-c06",
+          "source_id": "trib-real-s2",
+          "host": "alicanteplaza.es",
+          "statement": "People tell that the Trib Real has to do with witches and warlocks (bruixes, bruixots) and male and female demons.",
+          "statement_id": "Orang bercerita bahwa Trib Real berkaitan dengan penyihir perempuan dan laki-laki (bruixes, bruixots) serta setan jantan dan betina.",
+          "quote": "I és que conten i diuen —i diuen i conten— que el Trib Real té a veure amb bruixes, bruixots, dimonis i dimònies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trib-real-c07",
+          "source_id": "trib-real-s2",
+          "host": "alicanteplaza.es",
+          "statement": "The Trib Real is said to have originated at a big party of young women and men at a farmhouse (mas) near the serra de Mariola.",
+          "statement_id": "Asal-usul Trib Real konon berupa pesta besar para gadis dan pemuda di sebuah rumah pertanian (mas) dekat serra de Mariola.",
+          "quote": "Sembla que l’origen del Trib Real es va produir en una festa grossa de fadrines i fadrins ... en un mas prop de la serra de Mariola.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trib-real-c08",
+          "source_id": "trib-real-s2",
+          "host": "alicanteplaza.es",
+          "statement": "The figure of the Trib Real is already documented in the Rondalla de rondalles, written in 1767 by Lluís Galiana.",
+          "statement_id": "Sosok Trib Real sudah tercatat dalam Rondalla de rondalles yang ditulis Lluís Galiana pada tahun 1767.",
+          "quote": "perquè resulta que aquesta intrigant figura del Trib Real apareix ja documentada en la Rondalla de rondalles, escrita l’any 1767 per l’ontinyentí Lluís Galiana",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trib-real-c09",
+          "source_id": "trib-real-s2",
+          "host": "alicanteplaza.es",
+          "statement": "According to the author, the \"triple real\" of Andorra and the \"tri real\" of Callosa seem to be one and the same: the old and legendary Trib Real.",
+          "statement_id": "Menurut penulis, \"triple real\" dari Andorra dan \"tri real\" di Callosa tampaknya tidak lain adalah Trib Real yang legendaris.",
+          "quote": "Sembla evident que el triple real d’Andorra i el tri real de l’amic Joan Ives a Callosa no són sinó una mateixa cosa: el vell i llegendari Trib Real.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "trib-real-c10",
+          "source_id": "trib-real-s2",
+          "host": "alicanteplaza.es",
+          "statement": "According to one informant, the Trib Real were dancers, women or witches who went dancing half-naked and caused great scandal, and God (Déu) punished them to wander the world forever.",
+          "statement_id": "Menurut seorang narasumber, Trib Real adalah para penari, perempuan, atau penyihir yang menari setengah telanjang dan membuat keributan besar, lalu dihukum Tuhan (Déu) untuk terus mengembara di dunia.",
+          "quote": "El trib real eren unes ballarines o unes dones o unes bruixes que anaven ballant mig en conill o mig nuetes i fe[i]en molt d’escándalo, i Déu les va castigar que estigueren sempre pel món",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1263,7 +1708,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3d53e5dbc949426f56f1095bf35de10ecf136c8c52c5abd02f8d2f838216f59a"
     },
     {
       "slug": "trucafort",
@@ -1333,7 +1779,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c8ee34f63246107455f10ce2c0650549342cf1b9dd59eaf70628086ed929332"
     },
     {
       "slug": "uomo-ragno",
@@ -1352,7 +1799,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "5bf0bd42353c08a8bb3c58801fdc0e3adf86b1e646e44d17463fc276eff9df49"
     },
     {
       "slug": "uomo-selvatico-di-sacco",
@@ -1371,7 +1819,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "5b6520e870a844e1726a7d5ac2c13850a0d21b684886e34e94db21a2aa26f5c7"
     },
     {
       "slug": "uphir",
@@ -1416,7 +1865,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c44e44aad7f2e7317be734de6fc6b06850ef9252b7870e946e86ef20970b9ce"
     },
     {
       "slug": "uriande",
@@ -1476,7 +1926,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f7f831e2b4ec2b5112de28cdf7c806d9520573250738a5d71677daf5b38287b9"
     },
     {
       "slug": "vakner",
@@ -1541,7 +1992,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "25970f55ce4498906097e470a825c7a8f88d368258614fd4b72d6d2c81b35190"
     },
     {
       "slug": "velha-da-egua-branca",
@@ -1601,7 +2053,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9486ccb0e2e2f30d04cdf1ec2b858d461cf84ea668b0a6243952908c54b7981a"
     },
     {
       "slug": "ventolin",
@@ -1671,7 +2124,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "417c7a87f771499fc2322e6125c9d7a3afbb6441119ddd5a2e4ded664b4c041c"
     },
     {
       "slug": "vine",
@@ -1690,7 +2144,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "5f067c2a60643a2bbe4a72efcb0a6a860880d7d024f351b330b8f0d611f857f6"
     },
     {
       "slug": "xacio",
@@ -1755,7 +2210,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3ead33f1b556d9a4d28d5031fadaefae0d1c542959590a259873c30e0a1441e"
     },
     {
       "slug": "xente-cativa",
@@ -1820,7 +2276,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec16e8cf80eb8db9755df3e4ef09b3f53eaa7719dd4523395262185881e9c428"
     },
     {
       "slug": "xerpa",
@@ -1885,7 +2342,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c5c40ee600a22c328c7af750cfdf9d8b30c4e107efa54d010be19ff014bd4239"
     },
     {
       "slug": "xigante",
@@ -1965,7 +2423,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "451192d7d963de47c837e552b57c9d5dd30fd58fb1b523ee8d505493d0329e28"
     },
     {
       "slug": "yenaldooshi",
@@ -2035,7 +2494,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3004382681cfa0e8317326bdc94b89ed162cc2a08e2f51f412cc19e2ade5c1b"
     },
     {
       "slug": "yoland",
@@ -2085,7 +2545,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d75c727c53d8e5bf2d1628249479495aa3b01198679fe9928724d85c9522df9c"
     },
     {
       "slug": "ypotryll",
@@ -2135,7 +2596,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "952dc8da151a84eaac9d8a0c2789f255e01a806581f9c8f4b432d8dbcb911606"
     },
     {
       "slug": "zakur",
@@ -2195,7 +2657,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d13d8ea5fd0c56eefcbe75ae59cda373c02859fc9b71c2bcb3f3b5eee0e1d4ea"
     },
     {
       "slug": "zarrouco",
@@ -2240,7 +2703,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3bed956fb4dfa8850bb27f21105fe2c252b9b0e3015182a14de4f97cfe518aa8"
     },
     {
       "slug": "zorra-berradeira",
@@ -2310,7 +2774,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b31a8c348fd4f080d342949e439f5b1b7054615b54f1d228eec2a2868760dfb4"
     }
   ]
 }
