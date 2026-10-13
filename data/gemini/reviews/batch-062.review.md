@@ -1,6 +1,6 @@
 # Review batch-062
 
-Diperiksa 2026-10-13T19:24:46.082Z. Berkas: batch-062.md, batch-062-fix-1.md, batch-062-fix-2.md, batch-062-fix-3.md, batch-062-fix-4.md, batch-062-fix-5.md.
+Diperiksa 2026-10-13T19:42:33.810Z. Berkas: batch-062.md, batch-062-fix-1.md, batch-062-fix-2.md, batch-062-fix-3.md, batch-062-fix-4.md, batch-062-fix-5.md, batch-062-fix-6.md, batch-062-fix-7.md, batch-062-fix-8.md.
 
 ## sekison-gongen — lulus-otomatis
 
@@ -207,7 +207,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 kutipan berbeda dari 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -382,21 +382,23 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q10889239 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 kutipan berbeda dari 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q10889239-c01 | exact | zh.wikipedia.org | Xinang is a monster of Chinese legend mentioned in Soushen Ji and Baize Tu. | 傒囊，是中國传说中的妖怪，干宝著作《搜神记》和《白泽图》有记载，山間有一種叫做傒囊的妖怪，樣子像是小孩，看到人會伸手引誘，將它帶離本來所在的地方便會死去。会在山里面伸手引诱活人，要是被他诱惑拉走就会死。 |
 | wd-q10889239-c02 | exact | zh.wikipedia.org | Its form resembles a small child and it is said to reach toward people it encounters. | 傒囊，是中國传说中的妖怪，干宝著作《搜神记》和《白泽图》有记载，山間有一種叫做傒囊的妖怪，樣子像是小孩，看到人會伸手引誘，將它帶離本來所在的地方便會死去。会在山里面伸手引诱活人，要是被他诱惑拉走就会死。 |
 | wd-q10889239-c03 | exact | zh.wikipedia.org | The account associates removing it from its original place with death. | 傒囊，是中國传说中的妖怪，干宝著作《搜神记》和《白泽图》有记载，山間有一種叫做傒囊的妖怪，樣子像是小孩，看到人會伸手引誘，將它帶離本來所在的地方便會死去。会在山里面伸手引诱活人，要是被他诱惑拉走就会死。 |
+| wd-q10889239-c04 | exact | zh.wikisource.org | The Soushen Ji (搜神記) tells that Zhuge Ke (諸葛恪) of Wu (吳), governor of Danyang (丹陽), while hunting met between two mountains something like a small child (小兒) stretching out its hand to pull people; Zhuge Ke pulled it away from its original place (故地) and it died at once. | 吳諸葛恪為丹陽太守，嘗出獵，兩山之間，有物如小兒，伸手欲引人。恪令伸之，乃引去故地。去故地，即死。 |
+| wd-q10889239-c05 | exact | zh.wikisource.org | When his aides took it for a deity (神明), Zhuge Ke explained that the Baize Tu (白澤圖) describes a spirit between two mountains like a small child, stretching out its hand to pull people, named Xinang (傒囊), which dies if pulled from its original place; they simply had never seen one. | 既而參佐問其故，以為神明。恪曰：「此事在白澤圖內；曰：『兩山之間，其精如小兒，見人，則伸手欲引人，名曰「傒囊」，引去故地，則死。』無謂神明而異之。諸君偶未見耳。」 |
 
 
 ## wd-q109359605 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 1, gambar 0.
 
 **manual**
 - `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -404,33 +406,32 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q109359605-c01 | exact | ja.wikipedia.org | Suitō, also called Suiro, is a Chinese legendary being said to live in water. | 水唐（すいとう）は、中国の伝説上の生物で、水の中に住んでいるとされる。水廬（すいろ、すいりょ）とも。 |
-| wd-q109359605-c02 | exact | ja.wikipedia.org | Tongya describes it as a childlike being living in rivers. | 明の時代に編まれた『通雅』（巻47）などに記載されており、子供のような姿で、川の水の中にいる生物・妖怪のようなものとされている。『物類相感志』に記されているとされる木唐（もくとう）は、水と木との誤写から生じたもので、水唐の事であるとされている。水唐たちについての記述は、『水経注』の類でも『水経』に登場する川の情報の校注に付随する「水の中に住んでいるとされる存在」の参考として掲載される形式で言及されつづけており、清の時代の沈炳巽『水経注集釈訂訛』でも水唐の記述が見られる。 |
-| wd-q109359605-c03 | exact | ja.wikipedia.org | The name Mokutō is regarded as a copying error changing the character for water into wood. | 明の時代に編まれた『通雅』（巻47）などに記載されており、子供のような姿で、川の水の中にいる生物・妖怪のようなものとされている。『物類相感志』に記されているとされる木唐（もくとう）は、水と木との誤写から生じたもので、水唐の事であるとされている。水唐たちについての記述は、『水経注』の類でも『水経』に登場する川の情報の校注に付随する「水の中に住んでいるとされる存在」の参考として掲載される形式で言及されつづけており、清の時代の沈炳巽『水経注集釈訂訛』でも水唐の記述が見られる。 |
+| wd-q109359605-c02 | exact | ja.wikipedia.org | Tongya describes it as a childlike being living in rivers. | 明の時代に編まれた『通雅』（巻47）などに記載されており、子供のような姿で、川の水の中にいる生物・妖怪のようなものとされている。 |
+| wd-q109359605-c03 | exact | ja.wikipedia.org | The name Mokutō is regarded as a copying error changing the character for water into wood. | 『物類相感志』に記されているとされる木唐（もくとう）は、水と木との誤写から生じたもので、水唐の事であるとされている。 |
 | wd-q109359605-c04 | exact | ja.wikipedia.org | Some commentators compare it with the monsters Ninshitsu and Mafuku. | 人膝之怪（にんしつのかい）と称される水の中に住む妖怪は、郝懿行『山海經箋疏』の馬腹の注では、馬腹や水唐と似たものではないかとされている。人膝は『刀剣録』に記述がある中国に伝わる妖怪で、漢の章帝の時代に伊水という川にいたとされ、黄金でつくられた剣を川に入れる事でこれを祓ったとされる。 |
 | wd-q109359605-c05 | exact | ja.wikipedia.org | Tongya identifies Suitō with Suiko, but other commentators debate the relationship between the names. | 水の中に住み人間を襲うという特徴の相似から、『山海経』（中山経）に記されている馬腹（ばふく）と水唐が似たものではないかと言及されている例は楊守敬『水経注疏』（巻28）などでも見られる。また、水虎（すいこ）とはすなわち水唐のことであると『通雅』では記載されており、その内容を引用している本草書では水虎の解説に水唐の情報が合併されている事が多い。『通雅』では動物のうちの「虫」の部類に挙げられており、このような部類認識は水の中に住む伝説上の存在を「渓鬼虫」などの「虫」に付随して配列する例なども反映されていた。楊守敬『水経注疏』（巻28）や栗本丹州『水虎考』などでは、水唐は水虎を誤字として用いたものであろうと考察されているが、いずれの対比も古代の基礎文献での記述そのものが乏しく、明確な前後関係は判明していない。 |
 | wd-q109359605-c06 | exact | ja.wikipedia.org | The chronological relationship between the names remains unclear because early records are limited. | 楊守敬『水経注疏』（巻28）や栗本丹州『水虎考』などでは、水唐は水虎を誤字として用いたものであろうと考察されているが、いずれの対比も古代の基礎文献での記述そのものが乏しく、明確な前後関係は判明していない。 |
+| wd-q109359605-c07 | exact | ja.wikipedia.org | Records of the Suitō kept appearing in works of the Shuijing Zhu (水経注) type as a reference to water-dwelling beings, including Shen Bingxun's (沈炳巽) Qing-era (清) Shuijing Zhu Jishi Dingʼe (水経注集釈訂訛). | 水唐たちについての記述は、『水経注』の類でも『水経』に登場する川の情報の校注に付随する「水の中に住んでいるとされる存在」の参考として掲載される形式で言及されつづけており、清の時代の沈炳巽『水経注集釈訂訛』でも水唐の記述が見られる。 |
 
 
 ## wd-q109597139 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q109597139-c01 | exact | ja.wikipedia.org | Akashisama is a yōkai in Japanese folklore. | 明石様（あかしさま）は、日本の妖怪。 神奈川県横浜市保土ケ谷区に伝わる |
 | wd-q109597139-c02 | exact | www.nichibun.ac.jp | A folklore record portrays Akashi Gozen as a deranged lord who wants to kill people. | 昔、明石御前という乱心の殿様がおり、人が切りたくてならなかった。外に出てはいけないと言うのに、遊んでいた猟師の女の子を切った。 |
 | wd-q109597139-c03 | exact | www.nichibun.ac.jp | The story is used to warn children not to leave home when Akashisama passes. | 以来、「今日は明石様が通るから外に出てはいけない」と言って子供を叱るという。 |
+| wd-q109597139-c04 | exact | ja.wikipedia.org | Akashisama is said to be the spirit of a deranged lord of around 1800 named Akashi Gozen (明石御前); after killing a hunter's (猟師) daughter, he was killed by the girl's father. | 1800年頃の乱心した殿様の霊。明石御前という名前で、どうしても人を斬りたかったが、家来たちから外に出てはいけないといわれているのに内緒で遊んでいた猟師の女の子を斬ったため、その父親の猟師によって殺されてしまった。 |
 
 
 ## wd-q109603093 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -440,6 +441,10 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q109603093-c04 | exact | ja.wikipedia.org | It asks people to display its picture as a way to avoid illness. | だが自分の絵姿を見れば、病を回避しうるとして、絵の写しを家に貼って朝夕眺めるようにと教示して消えた、という。 |
 | wd-q109603093-c05 | exact | ja.wikipedia.org | Another print version uses the name Hitokai and identifies a different witness. | 『海出人之図』には事件が起きた年が欠けているが、異本に『越後国人貝の図』があり、「嘉永二歳閏四月」と付記されるので1849年の案件とみなせる。「柴田忠太」が確かめに行き、 |
 | wd-q109603093-c06 | exact | ja.wikipedia.org | The Edo-Tokyo Museum account identifies the encounter's witness as a boatman named Kasuke. | 江戸東京博物館に所蔵されている一枚刷りでも、巻貝のような似た妖怪の絵が描かれており福島潟に出現したことが書かれている。こちらでは遭遇者は加助という船頭とされており、柴田忠三郎という名は代官として登場している。妖怪の描写にも「髪の毛くろぐろと」や「かほからだ（顔体）もゆる火のごとくまっかに光り」などの他の資料に無い細かな描写が見られるが、情報の前後関係は不明である。この一枚刷りでは自身について「かいし人」であると妖怪は語っている。 |
+| wd-q109603093-c07 | exact | yokai.com | Yokai.com describes umidebito as having a woman's head, arms and breasts, a scaled body like a fish or dragon, and a lower half hidden in a large spiral shell. | They have the head, arms, and breasts of a human woman, and a scaled body like a fish or a dragon. The lower half of their body is hidden inside of a large spiral shell like that of a conch or a sea snail. |
+| wd-q109603093-c08 | exact | yokai.com | They occasionally surface to deliver prophecies of bountiful harvests and devastating illnesses, riding the waves in their shell like a small boat. | They occasionally surface to deliver prophecies foretelling bountiful harvests and devastating illnesses. When they surface, they ride the waves using their shell like a small boat. |
+| wd-q109603093-c09 | exact | yokai.com | Whenever such a creature appeared, newspapers commonly reported it with an illustration of the yōkai that people could hang at home for protection. | Whenever such a creature appeared, it was common for newspapers to report the story along with an illustration of the yōkai that people could hang in their homes for protection. |
+| wd-q109603093-c10 | exact | yokai.com | In the 1849 report, the umidebito foretold five years of bumper crops in every province, followed in November by a great sickness killing 60% of the population; those who saw it or its picture would be spared. | “I am an umidebito who lives in these seas. A bumper crop lasting five years will begin this year in every province. However, in November, a great sickness will spread and kill 60% of the population. Those who see me or a picture of me will be spared. Go quickly and spread this message!” |
 
 
 ## wd-q109781296 — lulus-otomatis
@@ -462,10 +467,7 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## wd-q11257709 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -474,14 +476,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11257709-c03 | exact | ja.wikipedia.org | An oni said to live in the sea admonishes misbehaving children. | 海に住むという鬼が行儀の悪い子供をたしなめる行事で、福井市の蒲生・茱崎地区では小正月の2月6日夜、地区の若者扮する赤い顔の鬼が、茶釜の蓋を叩きながら「アッポッシャー、アッポッシャー」といって、行儀の悪い子供をたしなめ餅をもらって帰る。その昔、遭難して越廼の海岸に辿り着いた渡来人が民家に食料を求めたことに由来するとされ、「あっぽ（もち）欲しや」がなまったものとされる。 |
 | wd-q11257709-c04 | exact | ja.wikipedia.org | In the ceremony, young men dressed as red-faced oni strike kettle lids and receive mochi. | 海に住むという鬼が行儀の悪い子供をたしなめる行事で、福井市の蒲生・茱崎地区では小正月の2月6日夜、地区の若者扮する赤い顔の鬼が、茶釜の蓋を叩きながら「アッポッシャー、アッポッシャー」といって、行儀の悪い子供をたしなめ餅をもらって帰る。その昔、遭難して越廼の海岸に辿り着いた渡来人が民家に食料を求めたことに由来するとされ、「あっぽ（もち）欲しや」がなまったものとされる。 |
 | wd-q11257709-c05 | exact | ja.wikipedia.org | The name Appossha is associated with a phrase asking for mochi. | 海に住むという鬼が行儀の悪い子供をたしなめる行事で、福井市の蒲生・茱崎地区では小正月の2月6日夜、地区の若者扮する赤い顔の鬼が、茶釜の蓋を叩きながら「アッポッシャー、アッポッシャー」といって、行儀の悪い子供をたしなめ餅をもらって帰る。その昔、遭難して越廼の海岸に辿り着いた渡来人が民家に食料を求めたことに由来するとされ、「あっぽ（もち）欲しや」がなまったものとされる。 |
+| wd-q11257709-c06 | exact | yokai.com | The appossha resembles a red oni with a large head and dark kelp-like hair, dressed like a workman. | It resembles a red oni, with a large head and dark, kelp-like hair. It wears the clothing typical of a workman. |
+| wd-q11257709-c07 | exact | yokai.com | The appossha ask at each house whether there are ill-mannered children to take back to the sea; once the children are thoroughly scared, the parents give mochi and it leaves. | They ask each house if there are any ill-mannered children living there that they can take back to the sea with them. Once a household’s children have been thoroughly scared, the parents give a gift of mochi to the appossha and it leaves. |
+| wd-q11257709-c08 | exact | yokai.com | The appossha tradition is said to come from a foreign sailor shipwrecked off Fukui Prefecture who swam ashore and begged for food from door to door. | The appossha tradition is said to come from long ago, when a sailor from a foreign land was shipwrecked and swam ashore in Fukui prefecture. He traveled from door to door begging for food. |
+| wd-q11257709-c09 | exact | yokai.com | Yokai.com classes the appossha as a marebito, a divine spirit in Japanese folk religion that comes from the world of the dead at set times. | Appossha are an example of a type of creature called a marebito. In Japanese folk religion, marebito are divine spirits—demons, gods, or otherwise—which come from the world of the dead to visit our world at set times. |
 
 
 ## wd-q11259418 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -489,6 +492,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11259418-c02 | exact | ja.wikipedia.org | The scroll presents only a name and picture, without explaining its behavior. | 絵巻には名前と絵のみが描かれているだけで解説文などは一切なく、どのような妖怪かは述べられていない。おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）でも同様の格好をした妖怪がいそがしとして描かれている。妖怪研究家・村上健司は絵巻のみの妖怪としている。 |
 | wd-q11259418-c03 | exact | ja.wikipedia.org | A similar picture also appears in Hyaku Monogatari Bakemono Emaki. | 絵巻には名前と絵のみが描かれているだけで解説文などは一切なく、どのような妖怪かは述べられていない。おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）でも同様の格好をした妖怪がいそがしとして描かれている。妖怪研究家・村上健司は絵巻のみの妖怪としている。 |
 | wd-q11259418-c04 | exact | ja.wikipedia.org | Its design is associated with a figure in a Muromachi-period scroll. | デザイン上は室町時代の『百鬼夜行絵巻』（真珠庵所蔵）などに描かれている妖怪のひとつ（舌を出した顔を仰向け、着物を肩脱ぎに来て両手をひろげている妖怪）がモデルとなっており、鳥山石燕は同じ妖怪を『百器徒然袋』で「天井嘗」のモデルとして描いている。 |
+| wd-q11259418-c05 | exact | yokai.com | Yokai.com describes Isogashi as a blue-skinned monster with floppy ears, a big nose and a huge protruding tongue, running about frantically as if it had countless things to do. | Isogashi is a blue-skinned monster with floppy ears, a big nose, and a massive tongue which flops out from its mouth. It runs about frantically, as if it had a million things that it needs to do. |
+| wd-q11259418-c06 | exact | yokai.com | In the Edo period the figure was copied into a hyakki yagyō scroll with the name isogashi beside it and no other description. | During the Edo Period, the monster was copied into a hyakki yagyō picture scroll with the name isogashi written beside it. No other description was given besides the name. |
+| wd-q11259418-c07 | exact | yokai.com | Although based on the same picture, tenjōname and isogashi developed into separate yōkai. | Despite being based on the same picture, tenjōname and isogashi developed into separate yōkai. |
+| wd-q11259418-c08 | exact | yokai.com | Until the Shōwa period nothing but its name was recorded besides paintings, and it does not appear in folklore; Mizuki Shigeru created the description of isogashi as a spirit possessing humans. | Aside from paintings, nothing but a name was recorded for isogashi until the Shōwa Period. It does not appear in folklore or legends. Mizuki Shigeru came up with the description of this yōkai as a spirit which possesses humans, and his description stuck. |
 
 
 ## wd-q11268471 — lulus-otomatis
@@ -507,10 +514,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q11270279 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -518,14 +522,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11270279-c02 | exact | ja.wikipedia.org | Its name is associated with a religious instrument resembling cymbals. | そうはちぼんとは、石川県に伝わる怪火のような姿をした謎の物体。別名、ちゅうはちぼん。名称の本来の意味は仏具であり、シンバルのような楕円形の形をした楽器妙八のことであり、怪火のような姿がこの楽器に似ていることが由来とされる。 |
 | wd-q11270279-c03 | exact | ja.wikipedia.org | In the story, the lights move in groups along Bijōzan's slopes on autumn nights. | 秋の夜、羽咋市にある眉丈山の中腹を東から西に、不気味な光を放ちながら群れて移動する。羽坂の六所の宮から一ノ宮の六万坊へ移動するともいう。『気多古縁起』によれば神通力を用いて自由自在に空中を浮遊する光の玉であるとの記述が見られ、「江戸時代に現れたUFOのことではないだろうか」などとの意見もある。 |
 | wd-q11270279-c04 | exact | ja.wikipedia.org | Modern writing often connects Sōhachibon stories with UFOs. | UFOの町として名高い石川県羽咋市では『そうはちぼん伝説』が各地に伝承されており、その特徴などからUFOと絡めて扱う書物が多いためか、そうはちぼんは他の一般的な怪火、鬼火などとは異なった捉えられ方をしている。 |
+| wd-q11270279-c05 | exact | news.mynavi.jp | Hakui (羽咋市) is called the "UFO town" (UFOのまち) because something UFO-like appears in the local old tale, the Sōhachibon legend (そうはちぼん伝説). | 羽咋市がなぜ「UFOのまち」と呼ばれるのか。その理由は、地元の昔話『そうはちぼん伝説』の中にUFOらしきものが登場することに由来する。 |
+| wd-q11270279-c06 | exact | news.mynavi.jp | The article explains sōhachibon as a cymbal-like Buddhist implement (仏具) said to have flown over Hakui giving off an eerie light, with a kamikakushi (神隠し) legend of people abducted in the area. | 「そうはちぼん」とは、シンバルのような形をした仏具のこと。かつてこのそうはちぼんが不気味な光を発しながら羽咋市の空を飛んでいたこと、そうはちぼんが飛んでいたとされる地域で人がさらわれたという神隠し伝説が残っている。 |
+| wd-q11270279-c07 | exact | bunshun.jp | According to Bunshun Online, the UFO town promotion began in the '80s when the sōhachibon tradition was found in local old documents (古文書). | 調べてみたら、実はそれほど突飛な町おこしというわけではないことがわかった。80年代、地元の古文書の中から「そうはちぼん」という伝承が見つかったのがきっかけ。 |
 
 
 ## wd-q11270897 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -534,14 +541,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11270897-c03 | exact | ja.wikipedia.org | Two lights appearing side by side give it the additional name Kurabebi. | 夏から秋にかけての夜、海岸に火の玉となって出現する。2つの火が並んで現れることから、比べ火（くらべび）とも呼ばれる。かつては瀬戸内海を重要な交通路とする船乗りたちにとってよく知られた妖怪であったという。 |
 | wd-q11270897-c04 | exact | ja.wikipedia.org | One Hiroshima tradition connects the two fires with women who died tragically and became stones. | 広島中部の伝承によれば、非業の死を遂げた2人の女が、京女郎、筑紫女郎（ちくしじょろう）と呼ばれる2つの石と化し、その霊がたくろう火になったと言われている。 |
 | wd-q11270897-c05 | exact | ja.wikipedia.org | The article records that the story survives chiefly in old books. | 出没したのはかなりの過去であり、微かに古い書物にのみ伝承されているに過ぎず、土地の古老にすらほとんど知られていない。 |
+| wd-q11270897-c06 | exact | kotobank.jp | Digital Daijisen Plus defines takurōbi as a strange phenomenon of the Seto Inland Sea (瀬戸内海) region: two fireballs appearing side by side on the shore, also called kurabebi (比べ火). | 瀬戸内海地域に伝わる怪現象。海岸にふたつの火の玉が並んで現れるもの。「比べ火」とも。 |
 
 
 ## wd-q11273711 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -550,14 +555,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11273711-c03 | exact | ja.wikipedia.org | The figure appears in several Edo-period scrolls. | 1つの体に2つの頭を持つ姿で描かれている。尾田郷澄『百鬼夜行絵巻』をはじめ、おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）や『ばけ物つくし帖』、国際日本文化研究センター所蔵の『化物尽絵巻』、国立歴史民俗博物館所蔵の『化物絵巻』などいくつもの作品におなじものが描かれている。『化物絵巻』（国立歴史民俗博物館）では「右も左も」という漢字があてられている。 |
 | wd-q11273711-c04 | exact | ja.wikipedia.org | Its behavior is not explained in the scrolls, leaving its details unknown. | 江戸時代の随筆『嬉遊笑覧』に引かれている古法眼元信による「化物絵」に描かれていたとされる妖怪の中には「とうもかうも」という名称が確認できる。どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。 |
 | wd-q11273711-c05 | exact | ja.wikipedia.org | A tale of two rival doctors is sometimes connected with the name, but its relationship to the yōkai is uncertain. | 妖怪の「どうもこうも」との関係は不明だが、「どうもこうもならない」という言葉の由来になったとされる民間語源説を結末にもつ、医者同士が自分の技量を競う内容の昔話がある。妖怪の「どうもこうも」という名称の名づけの上で関係があったのではないかとも考えられており、平成以降の妖怪に関する書籍では関連情報として引用されることが多い。 |
+| wd-q11273711-c06 | exact | kotobank.jp | Digital Daijisen Plus calls Dōmokōmo a yōkai drawn in the Edo-period (江戸時代) Hyakki Yagyō Emaki (百鬼夜行絵巻), a human body with two heads. | 江戸時代の妖怪絵巻「百鬼夜行絵巻」に描かれた妖怪。人の胴体にふたつの頭がついた姿。 |
+| wd-q11273711-c07 | exact | yokai.com | The word dōmokōmo abbreviates the phrase dōmokōmo naranai ("either way you look at it, it's impossible"); no evidence links the phrase to the yōkai, but the two are often associated. | It is an abbreviated version of the phrase dōmokōmo naranai, which means “either way you look at it, it’s impossible.” While there’s no evidence linking dōmokōmo the phrase to dōmokōmo the yōkai, they are nonetheless frequently associated with each other. |
+| wd-q11273711-c08 | exact | yokai.com | In the tale of two doctors named Dōmo and Kōmo, they finally cut off each other's heads at the same time; headless, neither could continue the surgery, and both died. | Finally, Dōmo and Kōmo decided they would cut off each other’s heads simultaneously. The doctors prepared as the crowd watched. They cut off each other’s head at the same time. Without their heads, neither doctor was able to continue the surgery. Nobody was skilled enough to reattach their heads, and Dōmo and Kōmo died. |
 
 
 ## wd-q11285227 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -567,6 +572,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q11285227-c04 | exact | ja.wikipedia.org | The name can also denote bears considered dangerous or wronging humans. | また、クマを性質によって良いクマと悪いクマに分け、悪いクマの中でも赤毛で尾の長いヒグマをアラサルシと呼ぶこともある。クマはアイヌにとって重要な獣であり、イオマンテの対象でもあるが、アイヌが大事にしている馬を殺したり、アイヌに対して理不尽なことを行ったクマは、化け物としてアラサルシと呼ばれ、猟の対象になったともいう。イオマンテにおいてはクマの魂はカムイとして天へ帰るとされるが、悪いクマは天に戻らず、地下にあるテイネポクナモシリという陰湿で決して戻ることのできない場所へ落ちるのだという。 |
 | wd-q11285227-c05 | exact | ja.wikipedia.org | The term is also used for troublemakers in Ainu society. | ウエペケレに登場するサルのことをアラサルシと呼ぶともいい、アイヌ社会における手余され者、乱暴者、鼻つまみ者のこともアラサルシという。 |
 | wd-q11285227-c06 | exact | ja.wikipedia.org | The six-tailed Iwasarauz is sometimes interpreted as a similar bear being. | アイヌでは「イワサラウス」といって、大きな体に毛が全くなく、6本の尾がある妖怪の伝承もあるが、これもアラサラウスと同じくクマの化け物だとする見方もある。 |
+| wd-q11285227-c07 | exact | kotobank.jp | Digital Daijisen Plus calls Arasarauz a yōkai of Ainu (アイヌ) tradition shaped like a giant hairless bear (クマ), also called Arasarushi (アラサルシ). | アイヌに伝承のある妖怪。体毛がない巨大なクマのような姿をしているとされる。「アラサルシ」とも。 |
 
 
 ## wd-q11286566 — lulus-otomatis
@@ -590,7 +596,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 kutipan berbeda dari 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -602,10 +608,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## wd-q11287257 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -613,28 +619,31 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11287257-c02 | exact | ja.wikipedia.org | It is described as a one-eyed mountain monster able to fly. | 山の中に棲んでいる一つ目の化け物で、空を飛ぶことができる。 進路が障害物で阻まれている際には |
 | wd-q11287257-c03 | exact | ja.wikipedia.org | It is said to fly through trees or rocks obstructing its path. | 進路が障害物で阻まれている際には、樹木であろうが硬い岩であろうが、どんなものでも突き抜けて飛ぶという。障害物に穴を開けて通り抜けるという説もある。 |
 | wd-q11287257-c04 | exact | ja.wikipedia.org | Another version says it makes holes in obstacles to pass through. | 進路が障害物で阻まれている際には、樹木であろうが硬い岩であろうが、どんなものでも突き抜けて飛ぶという。障害物に穴を開けて通り抜けるという説もある。 |
+| wd-q11287257-c05 | exact | uncannyjapan.com | Uncanny Japan gives the name iwaetunnay (イワエトゥンナイ) together with the other name mosirecikcik iwaecikcik (モシレチクチクイワエチクチク). | Sliding in at number 6 is the イワエトゥンナイ(iwaetunnay) or follow me here モシレチクチクイワエチクチク(mosirecikcik iwaecikcik). |
+| wd-q11287257-c06 | exact | uncannyjapan.com | According to the podcast, they are one-eyed flying monsters living in the mountains that can zip right through anything in their way; some versions say they leave big holes in the obstacle. | They’re one-eyed flying monsters that live in the mountains. When they’re strolling or flying along, if they come across something in their way they can just zip right through it. Some versions or the story say they leave big holes in the obstacle. |
 
 
 ## wd-q11287294 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11287294-c01 | exact | ja.wikipedia.org | Iwaposoin-kara is a being in Ainu tradition. | イワポソインカラは、アイヌに伝わる妖怪。 大きな目の塊のような姿の妖怪で |
 | wd-q11287294-c02 | exact | ja.wikipedia.org | It is described as a mass of large eyes inhabiting rock and troubling people. | 大きな目の塊のような姿の妖怪で、岩の中に棲んでおり、人間に様々な悪さを働くといわれている。 |
 | wd-q11287294-c03 | exact | ja.wikipedia.org | Its name is interpreted as a being watching the outside world through rock. | 名称は「岩などを通して外の様子を窺う妖怪」を意味する。 関連項目 |
+| wd-q11287294-c04 | exact | kotobank.jp | Digital Daijisen Plus calls Iwaposoinkara a yōkai of Ainu (アイヌ) folktales that lives inside rock (岩), watches people and plays pranks. | アイヌ民話に伝わる妖怪。岩の中に棲んで人々の様子をうかがったり、悪戯をしたりするとされる。 |
 
 
 ## wd-q11291910 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 kutipan berbeda dari 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -642,47 +651,45 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11291910-c02 | exact | ja.wikipedia.org | It is said to cry like a baby from a tree and give a distinctive laugh without showing itself. | 木の上で赤ちゃんの産声のような声で泣き、「オゴメ笑い」と呼ばれる特徴的な高笑いをするといわれる。姿を人に見せることはない。木魂（木の精霊）の一種とする説もある。 |
 | wd-q11291910-c03 | exact | ja.wikipedia.org | One interpretation regards it as a tree spirit. | 木の上で赤ちゃんの産声のような声で泣き、「オゴメ笑い」と呼ばれる特徴的な高笑いをするといわれる。姿を人に見せることはない。木魂（木の精霊）の一種とする説もある。 |
 | wd-q11291910-c04 | exact | ja.wikipedia.org | Ōmachi Tokuzō describes it as a strange bird laughing in the mountains, also called Ugume. | 民俗学者・大間知篤三の著書『神津の花正月』では、三宅島の山中で笑い声をたてる怪鳥であり、別称をウグメとされている。産女を鳥の妖怪とする伝承があるが、オゴメはそれに類するものとの説もある。 |
+| wd-q11291910-c05 | exact | www.nichibun.ac.jp | The yōkai database records Ogome as a strange bird (怪鳥) laughing in the mountains; in the Edo period (江戸時代) it was written that women who died in difficult childbirth became this bird, flying and crying in the night sky with their lower body stained with blood. | 山中で笑う怪鳥にオゴメというものがある。江戸時代には、難産で死んだ産婦がこの怪鳥となり、下半身を血で染めて夜空を泣き飛ぶなどと記されている。 |
 
 
 ## wd-q11292047 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11292047-c01 | exact | ja.wikipedia.org | Oppasho Ishi is a supernatural stone or yōkai in Tokushima stories. | オッパショ石（オッパショいし）は、徳島県に伝わる奇石（妖怪）。 |
-| wd-q11292047-c02 | exact | ja.wikipedia.org | The stone is said to come from a wrestler's grave and begin asking people to carry it. | 元々は徳島市二軒屋町に存在し、名のある力士の墓石とされていた。この墓ができてから2、3ヵ月後、石が「オッパショ」と声を出し始めたので、この名前で呼ばれるようになった。「オッパショ」とは「背負ってくれ」という意味で、言われるがままに石を背負うと、最初は軽く感じるものの、次第に重さを増したという。 |
-| wd-q11292047-c03 | exact | ja.wikipedia.org | When carried, the stone grows progressively heavier. | 元々は徳島市二軒屋町に存在し、名のある力士の墓石とされていた。この墓ができてから2、3ヵ月後、石が「オッパショ」と声を出し始めたので、この名前で呼ばれるようになった。「オッパショ」とは「背負ってくれ」という意味で、言われるがままに石を背負うと、最初は軽く感じるものの、次第に重さを増したという。 |
+| wd-q11292047-c02 | exact | ja.wikipedia.org | The stone is said to come from a wrestler's grave and begin asking people to carry it. | 元々は徳島市二軒屋町に存在し、名のある力士の墓石とされていた。この墓ができてから2、3ヵ月後、石が「オッパショ」と声を出し始めたので、この名前で呼ばれるようになった。 |
+| wd-q11292047-c03 | exact | ja.wikipedia.org | When carried, the stone grows progressively heavier. | 「オッパショ」とは「背負ってくれ」という意味で、言われるがままに石を背負うと、最初は軽く感じるものの、次第に重さを増したという。 |
 | wd-q11292047-c04 | exact | ja.wikipedia.org | A strong man smashes it into two pieces; afterward the stone no longer speaks. | この噂が高まったためにこの石のそばを通る者は少なくなったが、噂を聞きつけた力自慢の男が石のもとを訪れた。確かに「オッパショ」と声を上げるので背負ったところ、次第に重くなり始めた。この石には何者かが取り憑いていると直感した男は、石を力任せに地面に叩きつけたところ、石は真っ二つに割れた。その後、石が声を出すことは無くなったという。 |
 | wd-q11292047-c05 | exact | ja.wikipedia.org | The article locates the stone at the former Shōkōan complex in Tokushima. | 現在ではこの石は徳島市西二軒屋町と城南町境にある焼香庵跡墓地に存在する。 交通 [編集] |
+| wd-q11292047-c06 | exact | www.nichibun.ac.jp | According to the 'Yōkai Meii' entry in the yōkai database, a roadside stone asks to be carried, called Ubarion or Bauro-ishi (ウバリオン・バウロ石) elsewhere; the Oppasho stone outside Tokushima (徳島) grew heavier when a wrestler (力士) carried it, split in two when thrown, and the haunting stopped. | 道端の石が背負ってくれと言う。土地によってはウバリオン・バウロ石などともいう。徳島郊外のオッパショ石は、ある力士がそれなら負ぶされと言って石を負うと徐々に重くなった。それを投げたところ二つに割れてしまい、それ以来この怪異は絶えて、長い間割れた石が残っていたという。 |
+| wd-q11292047-c07 | exact | www.nichibun.ac.jp | The version from the Awa Densetsu Monogatari (阿波伝説物語) tells of a famous wrestler's grave near the village entrance that at some point began saying "oppasho oppasho" to passers-by. | 村の入り口の近くに名のある力士の墓があるが、いつかから前を通ると「オッパショオッパショ」と墓は喋りだすようになった。 |
 
 
 ## wd-q11292481 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11292481-c01 | exact | ja.wikipedia.org | Obo names a yōkai in Gunma and Niigata, with accounts differing by region. | オボは、群馬県、新潟県に伝わる妖怪。同じ名前でも内容は全く異なる。 |
-| wd-q11292481-c02 | exact | ja.wikipedia.org | In Gunma, a weasellike being is said to cling to a walker's legs. | イタチが化けたような妖怪で、人が道を歩いていると、足にまとわりついて歩く邪魔をする。放っておくととても歩くどころではないので、刀の下げ緒、着物の小褄などを切って与えることで足から離れさせることができるという。 |
-| wd-q11292481-c03 | exact | ja.wikipedia.org | A piece of sword cord or clothing can be offered to make the being release the legs. | イタチが化けたような妖怪で、人が道を歩いていると、足にまとわりついて歩く邪魔をする。放っておくととても歩くどころではないので、刀の下げ緒、着物の小褄などを切って与えることで足から離れさせることができるという。 |
+| wd-q11292481-c02 | exact | ja.wikipedia.org | In Gunma, a weasellike being is said to cling to a walker's legs. | イタチが化けたような妖怪で、人が道を歩いていると、足にまとわりついて歩く邪魔をする。 |
+| wd-q11292481-c03 | exact | ja.wikipedia.org | A piece of sword cord or clothing can be offered to make the being release the legs. | 放っておくととても歩くどころではないので、刀の下げ緒、着物の小褄などを切って与えることで足から離れさせることができるという。 |
 | wd-q11292481-c04 | exact | ja.wikipedia.org | One story associates babylike crying on a mountain path with Obo. | かつて、利根郡利根の山から小学校に通っている少年が、下校際に17時頃に山道を登り始めたところ、道端の草むらから赤ん坊の産声のような声が聞こえた。恐怖した少年が駆け去ろうとしたところ、声はますます大きくなった。ようやく家へ帰り着いて祖父に事情を話したところ、祖父が言うには、その声はオボの泣き声だということであった。 |
-| wd-q11292481-c05 | exact | ja.wikipedia.org | In Niigata, an account describes a beast digging up new graves and eating the dead's brains. | 民族学研究所の書籍『綜合日本民族語彙』などに記述のある怪獣。まだ新しい墓を暴き、亡者の脳髄を食らうとされる。山犬のこととの説もあるが、人に姿を見せない神秘的な獣ともいわれる。また、佐渡島では「ウブ」と呼ばれ、嬰児の死んだ者や、堕ろした子を捨てたものがなるとされ、大きな蜘蛛の形で赤子のように泣き、人に追いすがって命をとる。履いている草履の片方をぬいで肩越しに投げ、「お前の母はこれだ」と言えば害を逃れられるという。 |
-| wd-q11292481-c06 | exact | ja.wikipedia.org | In Sado, Ubu is portrayed as a large spider pursuing people. | 民族学研究所の書籍『綜合日本民族語彙』などに記述のある怪獣。まだ新しい墓を暴き、亡者の脳髄を食らうとされる。山犬のこととの説もあるが、人に姿を見せない神秘的な獣ともいわれる。また、佐渡島では「ウブ」と呼ばれ、嬰児の死んだ者や、堕ろした子を捨てたものがなるとされ、大きな蜘蛛の形で赤子のように泣き、人に追いすがって命をとる。履いている草履の片方をぬいで肩越しに投げ、「お前の母はこれだ」と言えば害を逃れられるという。 |
+| wd-q11292481-c05 | exact | ja.wikipedia.org | In Niigata, an account describes a beast digging up new graves and eating the dead's brains. | 民族学研究所の書籍『綜合日本民族語彙』などに記述のある怪獣。まだ新しい墓を暴き、亡者の脳髄を食らうとされる。山犬のこととの説もあるが、人に姿を見せない神秘的な獣ともいわれる。 |
+| wd-q11292481-c06 | exact | ja.wikipedia.org | In Sado, Ubu is portrayed as a large spider pursuing people. | また、佐渡島では「ウブ」と呼ばれ、嬰児の死んだ者や、堕ろした子を捨てたものがなるとされ、大きな蜘蛛の形で赤子のように泣き、人に追いすがって命をとる。履いている草履の片方をぬいで肩越しに投げ、「お前の母はこれだ」と言えば害を逃れられるという。 |
+| wd-q11292481-c07 | exact | www.nichibun.ac.jp | A Niigata Prefecture (新潟県) record in the yōkai database calls Obo a beast that digs up new graves and eats brains; it resembles a mountain dog (山犬) but has never been seen, and its name is linked with the characters onbō (隠亡). | 新墓をあばき、脳みそを食うという怪獣の名前。山犬にも似ているが、姿をみたことがないという神秘的な獣と信じられている。隠亡（おんぼう）の字と関係があるともいわれる。 |
 
 
 ## wd-q11293044 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 kutipan berbeda dari 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -690,14 +697,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11293044-c02 | exact | ja.wikipedia.org | It blows mist at people entering the mountains. | 山の中に入った人間に出会うと、霧を吐き出して吹きかけると言われている。霧をかけられた者は道がわからなくなってしまい、遭難する危険性が高くなるともいわれる。 |
 | wd-q11293044-c03 | exact | ja.wikipedia.org | People struck by the mist are said to lose their bearings and risk becoming lost. | 山の中に入った人間に出会うと、霧を吐き出して吹きかけると言われている。霧をかけられた者は道がわからなくなってしまい、遭難する危険性が高くなるともいわれる。 |
 | wd-q11293044-c04 | exact | ja.wikipedia.org | Its appearance is unclear; the view that it has a tail relies on interpreting its name. | 「オンボ」には「尾」の意味があることから、尾のある妖怪との説も唱えられているが、容姿についての詳しい伝承はなく、謎が多い。 |
+| wd-q11293044-c05 | exact | www.nichibun.ac.jp | According to the 'Yōkai Goi' (妖怪語彙) entry in the yōkai database, besides tengu (天狗) the deep mountains hold the Onbonoyasu, which blows mist (霧), so one must be careful. | 深山幽谷には天狗がいてカラキダオシをする。天狗のほかにもオンボノヤスというものがいて、霧を吹くので用心しなければならない。 |
 
 
 ## wd-q11296232 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -707,14 +712,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q11296232-c04 | exact | ja.wikipedia.org | Garappa is portrayed as mischievous and eager to challenge humans to sumo. | 悪戯が大好き。山中で驚いたり道に迷ったりするのはすべてガラッパの仕業とされる。 頭に水が入っている。相撲を取るときには一本背負いをしない。左右に引っ張ってはいけない。手が伸びる。頭を触られるのを嫌がる。人間を見ると無性に相撲を取りたくなる。 |
 | wd-q11296232-c05 | exact | ja.wikipedia.org | Other tales depict it remembering kindness and ceasing its mischief after being forgiven. | 悪戯好きの反面、恩義を忘れない性格とされる。熊本県では、川で悪さをしたガラッパをある者が懲らしめ、もう悪さはしないよう言い聞かせた上で許して逃がしてあげたところ、その川では水難が起きなくなったという。 |
 | wd-q11296232-c06 | exact | ja.wikipedia.org | Some stories tell of Garappa helping with fishing and rice planting. | 人間の仕事を手伝う話も多い。熊本には薬売りに膏薬の作り方を教えた話や、魚採りを手伝ってくれる話がある。特に魚については、ガラッパと友達になることで面白いように魚が沢山取れるという。また鹿児島の薩摩川内市では、田植えを手伝った話が残されている。 |
+| wd-q11296232-c07 | exact | yokai.com | Yokai.com says garappa are shyer and more elusive than kappa, avoid populated areas and wander between rivers and mountains. | Garappa are shyer and more elusive than kappa. They tend to avoid populated areas and instead, wander back and forth between the rivers and mountains. |
+| wd-q11296232-c08 | exact | yokai.com | Being shy, garappa are more often heard than seen; their distinctive calls are "hyō hyō" and "foon foon foon". | Because of their shyness, garappa are more often heard than seen. They have two distinctive calls: “hyō hyō” and, “foon foon foon.” |
+| wd-q11296232-c09 | exact | yokai.com | When captured or beaten by humans, garappa can be made to promise to stop drowning people, playing pranks or making noises in the woods. | When captured or bested in contest by humans, they can be forced by their victors to promise to stop drowning people, playing pranks, making noises in the woods, or similar concessions. |
 
 
 ## wd-q11301322 — lulus-otomatis
 
-Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 9, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -724,6 +729,11 @@ Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
 | wd-q11301322-c04 | loose | ja.wikipedia.org | It is associated with both water and tree spirits and seasonal changes of habitat. | ケンムンは、河童の原型が核となっている。金久正（1963年）によって収集された伝承でも、河童的要素が色濃いと評されている。また、本土の河童伝承が加わった部分も否めない。ケンムンはしかし、水の精でもあるが、同時に木の精でもあり、沖縄に伝わる木の精キジムナーとも多くの共通性がみられる。すなわち、海にも山にも目撃される。これは季節によって生息場所を変えるためといわれる。 |
 | wd-q11301322-c05 | loose | ja.wikipedia.org | Its limbs are said to be long, while the dish on its head stores water or oil. | 形状に限って言えば、体と不釣合いに脚（や腕）が細長く（膝を立てて座ると頭より膝の方が高くなるほどあり）先端が杵状だといわれ、頭の皿に力水（または油）を蓄えている。 |
 | wd-q11301322-c06 | exact | ja.wikipedia.org | It is believed able to take the form of people, animals or nearby objects. | しかも姿を変える能力を持っており、見た相手の姿に変化したり、馬や牛に化けたりする。周囲の植物などの物に化けたり、姿を消して行方をくらますこともできるとも言われる。 |
+| wd-q11301322-c07 | exact | kotobank.jp | Digital Daijisen Plus calls Kenmun a yōkai of the Amami Islands, Kagoshima (鹿児島県奄美群島), resembling kappa (河童) and Kijimunā (キジムナー), also regarded as the spirit of the gajumaru (banyan) tree (ガジュマル), and also called Kenmon (ケンモン). | 日本の妖怪。鹿児島県奄美群島に伝承がある。河童やキジムナーに類似した特徴を持ち、ガジュマルの木の精霊ともされる。「ケンモン」とも。 |
+| wd-q11301322-c08 | exact | yokai.com | Yokai.com says kenmun can create light: their drool and fingertips glow, and they can make fire from their fingertips. | Kenmun can also create light. Their drool glows eerily, as do their fingertips. They have the ability to create fire from the tips of their fingers. |
+| wd-q11301322-c09 | exact | yokai.com | Mysterious lights seen in the mountains or on the shores of the Amami islands are called kenmun machi by locals. | When mysterious lights are seen in the mountains or on the shores of the Amami islands, it is called kenmun machi by locals. |
+| wd-q11301322-c10 | exact | yokai.com | Kenmun absolutely hate octopus and giant clams. | They absolutely hate octopus and giant clams, and will have nothing to do with them. |
+| wd-q11301322-c11 | exact | yokai.com | If a banyan tree where a kenmun lives is cut, the kenmun curses the woodcutter: the victim's eyes swell, then go blind, and eventually the person dies. | If a banyan tree in which a kenmun lives is cut, the kenmun will place a curse upon the woodcutter. The kenmun’s curse causes its victims eyes to swell up, and then go blind. Eventually the cursed person will die. |
 
 
 ## wd-q11301591 — lulus-otomatis
@@ -736,8 +746,8 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11301591-c01 | exact | ja.wikipedia.org | Gedogaki no Bakemon is a yōkai said to live in the Gedogaki area of Fukue Island, Nagasaki. | ゲドガキのバケモンは長崎県福江島に伝わる妖怪。南松浦郡岐宿町二本楠（現・五島市）と玉之浦町字荒川（現・同）との間にあるゲドガキという土地に住んでいたとされる。「バケモン」は「化け物」の意味で、「ゲドガキの化け物」とも呼ばれる。 |
-| wd-q11301591-c02 | exact | ja.wikipedia.org | Ushimatsu's father threatens to give his crying child to the monster; a voice outside accepts the offer. | 昔、玉之浦中須にいた丑松という子供がある晩に大泣きしたので、父親が「そんなに泣くとゲドガキのバケモンに食わすぞ!」と叱りつけた。すると家の外から「そんなら俺に食わせろ」と大声が返った。驚いた父は咄嗟に「これが一人前になったら食わすで」と言い逃れをしてしまった。 |
-| wd-q11301591-c03 | exact | ja.wikipedia.org | The father evades the demand by promising the child once he grows up. | 昔、玉之浦中須にいた丑松という子供がある晩に大泣きしたので、父親が「そんなに泣くとゲドガキのバケモンに食わすぞ!」と叱りつけた。すると家の外から「そんなら俺に食わせろ」と大声が返った。驚いた父は咄嗟に「これが一人前になったら食わすで」と言い逃れをしてしまった。 |
+| wd-q11301591-c02 | exact | ja.wikipedia.org | Ushimatsu's father threatens to give his crying child to the monster; a voice outside accepts the offer. | 昔、玉之浦中須にいた丑松という子供がある晩に大泣きしたので、父親が「そんなに泣くとゲドガキのバケモンに食わすぞ!」と叱りつけた。すると家の外から「そんなら俺に食わせろ」と大声が返った。 |
+| wd-q11301591-c03 | exact | ja.wikipedia.org | The father evades the demand by promising the child once he grows up. | 驚いた父は咄嗟に「これが一人前になったら食わすで」と言い逃れをしてしまった。 |
 | wd-q11301591-c04 | exact | ja.wikipedia.org | When Ushimatsu grows up, the monster attacks him, but his load's strap breaks and he escapes. | やがて一人前の若者に育った丑松がある日、用事で荷物を背負って帰宅する途中にゲドガキを通ると、バケモンが現れ「汝の父から汝は貰ったぞ」と襲いかかってきた。丑松も腕に覚えがあったので大格闘となったが、バケモンが丑松を捕らえようと背の荷物に手をかけたところ、背負い紐が切れたので丑松は逃げることができた。 |
 | wd-q11301591-c05 | exact | ja.wikipedia.org | In their next encounter, a stronger strap and spilled sake leave him captured and eaten. | しかし後日、丑松が同じように酒樽を背負ってゲドガキを通ったところ、バケモンが再び襲ってきた。このときは背負い紐が切れにくい丈夫な紐であったことが災いした上、バケモンが引っ張った酒樽から酒がこぼれ、滑って転んだ丑松は、バケモンに捕まって食べられてしまった。 |
 | wd-q11301591-c06 | exact | ja.wikipedia.org | The monster then tells the father it has taken his child. | 丑松の家にいる父のもとには「お前の子を貰ったぞ!」とバケモンの声が響いたという。 |
@@ -745,10 +755,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## wd-q11302031 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -758,4 +765,6 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q11302031-c04 | exact | ja.wikipedia.org | The fish's carcass is found with injured eyes and woodcutters' blades in its belly. | あるときに小四郎という男に出会ったコサメ小女郎が、薪の灯りのもとで7年間飼い続けた鵜には敵わないと漏らしたため、小四郎がそのような鵜に淵を探らせたところ、目を抉られた大きなコサメの死体が浮かび上がった。その腹を割いたところ、中には木こりの鉈が7本あったため、7人の木こりがすでにコサメ小女郎に食べられ、すでに溶けてしまっていたことがわかったという。 |
 | wd-q11302031-c05 | exact | ja.wikipedia.org | The fish's species is interpreted differently as amenouo or yamame. | 畔田伴存の著書『水族志』には、コサメとは紀州安宅（現・和歌山県西牟婁郡白浜町）でアメノウオ（ビワマス）を指す方言とあることから、熊楠はコサメ小女郎のコサメもアメノウオのことと推測しているが、近年の文献ではコサメ小女郎の正体をヤマメとしているものもある。 |
 | wd-q11302031-c06 | exact | ja.wikipedia.org | A similar tale features a fish changing into a human and being defeated with a cormorant. | 類話として和歌山県熊野川町（現・新宮市）で、淵に住む大きなアメノウオが人間に化け、村人たちに毒入りの酒や食べ物をすすめて人々を困らせていたが、ある者が長年飼いならされた鵜に淵を探らせて退治したという話がある。 |
+| wd-q11302031-c07 | exact | kotobank.jp | Digital Daijisen Plus calls Kosame Kojorō a yōkai from the legend of the Oegaura pool (オエガウラ淵) in Ryūjin, Tanabe, Wakayama (和歌山県田辺市龍神村): a fish several hundred years old that turns into a woman to lure and eat people. | 日本の妖怪。和歌山県田辺市龍神村のオエガウラ淵の伝承で、齢数百歳という魚が女に化け人を誘い食らうとされる。 |
+| wd-q11302031-c08 | exact | www.nichibun.ac.jp | Minakata Kumagusu's (南方熊楠) record in the yōkai database describes a centuries-old kosame in the Oegaura pool at Komatagawa (小又川), Ryūjin, which turned into a beautiful woman and killed and ate people in the water; in the Ataki, Kishū (紀州安宅) dialect, amenouo is called kosame. | 日高郡龍神村小又川のオエガウラ淵に棲む何百年も経た小サメが美女に化け、薪山や淵の辺りに来るものを水中で殺して食っていた。紀州安宅の方言ではアメノウオをコサメと言う。 |
 
