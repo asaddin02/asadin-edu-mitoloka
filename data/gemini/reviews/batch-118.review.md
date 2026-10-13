@@ -1,6 +1,6 @@
 # Review batch-118
 
-Diperiksa 2026-10-07T05:45:37.952Z. Berkas: batch-118.md, batch-118-fix-1.md, batch-118-fix-2.md.
+Diperiksa 2026-10-13T15:07:48.826Z. Berkas: batch-118.md, batch-118-fix-1.md, batch-118-fix-2.md, batch-118-fix-3.md.
 
 ## cyhyraeth — lulus-otomatis
 
@@ -229,7 +229,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## thetis-lake-monster — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -239,6 +239,13 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | thetis-lake-monster-c04 | exact | en.wikipedia.org | Daniel Loxton: the description matched the monster of the film Monster From The Surf on local TV. | Loxton discovered that the boys description of the scaly monster – which specified a sharply pointed head and large, ear-like gills — exactly matched that of the monster featured in the film Monster From The Surf |
 | thetis-lake-monster-c05 | exact | fi.wikipedia.org | fi article: a lizard-man with hooked claws, sharp fins, gills and lungs, webbed hands and feet. | Sillä väitetään olevan koukkukynnet, viiltävän terävät evät ja sekä kidukset että keuhkot. Hirviöllä sanotaan olevan myös räpylät käsissään ja jaloissaan |
 | thetis-lake-monster-c06 | exact | en.wikipedia.org | A witness admitted to Daniel Loxton the story was fabricated. | However, when writer Daniel Loxton contacted one of the individuals years later, he admitted they had fabricated the story to get attention. |
+| thetis-lake-monster-c07 | exact | www.scholastic.ca | In Scholastic Canada's retelling, the two terrified young men run to their car with the monster following close behind; for a brief second it catches up with them and jabs one boy's hand with its spiked head. | Terrified, the two young men turned and ran to their car, the monster following close behind. For a brief second it actually caught up with them and jabbed one boy's hand with its hideous, spiked head. |
+| thetis-lake-monster-c08 | exact | www.scholastic.ca | According to the retelling, once calmed down the boys were listened to patiently by the officers; they sounded sincere and one did have a cut on his hand, so the Mounties thought they might be telling the truth. | Once the police officers calmed them down, they listened patiently to the boys. They sounded sincere, and one of them did have a cut on his hand, so the Mounties thought they might be telling the truth. |
+| thetis-lake-monster-c09 | exact | www.scholastic.ca | According to the retelling, the police began to investigate seriously only four days later, when two more people reported seeing a silver-scaled creature with bulging eyes and a spiked, fin-like crown on its head rise up out of Thetis Lake. | But it wasn't until four days later, when two more people reported seeing a silver-scaled creature with bulging eyes and a spiked, fin-like crown on the top of its head rise up out of Thetis Lake, that they began to seriously investigate |
+| thetis-lake-monster-c10 | exact | www.scholastic.ca | According to the retelling, after weeks of police work and with no further sighting reports that might have given hard evidence, the Mounties had no choice but to abandon their investigation. | However, after weeks of police work, and with no further reports of sightings that might having provided them with hard evidence of the monster's existence, the Mounties had no choice but to abandon their investigation. |
+| thetis-lake-monster-c11 | exact | www.scholastic.ca | The retelling says the creature from Thetis Lake could walk, and even run, on land, and actually attacked somebody. | the creature from Thetis Lake could walk — and even run — on land, and it actually attacked somebody. |
+| thetis-lake-monster-c12 | exact | en.wikipedia.org | According to Daniel Loxton, four days later local teenagers reported being attacked by a scaled monster at the Thetis beach after dark. | Four days later, local teenagers reported being attacked at the Thetis beach after dark by a scaled monster |
+| thetis-lake-monster-c13 | exact | fi.wikipedia.org | The Finnish article says two teenage boys claimed the creature rose from the water and chased them through the forest; it caught one of them and pricked his hand with the spiny fins on its head. | Kaksi teini-ikäistä poikaa väitti olennon nousseen vedestä ja ajaneen heitä takaa metsän läpi. Hahmo tavoittikin toisen pojista ja pisti häntä käteen päänsä piikkisillä evillä. |
 
 
 ## thunderdell — lulus-otomatis

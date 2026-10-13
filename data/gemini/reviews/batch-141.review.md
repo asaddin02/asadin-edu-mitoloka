@@ -1,12 +1,12 @@
 # Review batch-141
 
-Diperiksa 2026-10-06T05:05:22.813Z. Berkas: batch-141-s1.md, batch-141-u7.md, batch-141-v7.md, batch-141-v8.md, batch-141.md.
+Diperiksa 2026-10-13T15:15:14.147Z. Berkas: batch-141-s1.md, batch-141-u7.md, batch-141-v7.md, batch-141-v8.md, batch-141.md, batch-141-fix-1.md.
 
 **Belum dikirim:** iansan, lukwata, aruan-of-udo, biher, kokolampo, mangwe, pie-q7191324, takhar, talafsa, watermeisie
 
 ## winged-cat — lulus-otomatis
 
-Klaim 15 (exact 15), sumber 4, gambar 0.
+Klaim 21 (exact 20, loose 1), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -25,6 +25,12 @@ Klaim 15 (exact 15), sumber 4, gambar 0.
 | winged-cat-c13 | exact | ja.wikipedia.org | The Japanese-language article records that in 1826 an animal with a cat's face and wings (翼) was captured in Oshika village, Ado district, Suruga province, Japan. | 1826年、日本の駿河国有渡郡小鹿村にて、顔が猫で翼の生えた動物が捕獲される |
 | winged-cat-c14 | exact | fr.wikipedia.org | In the imaginary realm winged cats (chats ailés) also appear, generally with true wings, such as the cats of the Norse goddess Freyja. | Dans le domaine imaginaire, des chats ailés sont également présents, bien qu'en général pourvus d'ailes véritables, tels les chats de la déesse nordique Freyja. |
 | winged-cat-c15 | exact | en.wikipedia.org | Catwings is a 1988–1999 series of children's picture books by Ursula K. Le Guin featuring several winged cats. | Catwings, a 1988–1999 series of children's picture books by Ursula K. Le Guin, features several winged cats. |
+| winged-cat-c16 | exact | en.wikipedia.org | In 1897 a tortoiseshell cat with pheasant-like wings was reported shot and killed in Matlock, Derbyshire; witnesses claimed it used its outstretched wings to help it run faster. | In 1897, a tortoiseshell cat with pheasant-like wings projecting from each side of its 4th ribs was reported shot and killed in Matlock, Derbyshire. The story appeared in the High Peak News of Saturday, 26 June 1897. Witnesses claimed the cat used its wings outstretched to help run faster. |
+| winged-cat-c17 | exact | en.wikipedia.org | In 1933 or 1934 a winged black-and-white cat was claimed to have been captured in Oxford, England, by Mrs Hughes Griffiths, who claimed it used its six-inch wings to aid in jumping long distances. | In 1933 or 1934, a winged black-and-white cat was claimed to have been captured in Oxford, England by Mrs Hughes Griffiths. She claimed it used its six-inch wings to aid in jumping long distances. |
+| winged-cat-c18 | exact | en.wikipedia.org | In 1975 the Manchester Evening News published a photograph of a winged cat that had lived in the Banister Walton & Co builder's yard at Trafford Park, Manchester, England, during the 1960s; workmen reported that it could raise its wings above its body. | In 1975, the Manchester Evening News published a photograph of a winged cat which had lived in the Banister Walton & Co builder's yard at Trafford Park, Manchester, England, during the 1960s. ... Workmen reported that the cat could raise its wings above its body, suggesting the deformity contained muscle as well as skin. |
+| winged-cat-c19 | exact | en.wikipedia.org | In 2004, at Bukreyevk (near Kursk), Central Russia, a winged ginger stray tomcat named Vaska was drowned by superstitious villagers, according to the local newspaper Komsomolskaya Pravda. | In 2004, at Bukreyevk (near Kursk), Central Russia, a winged, ginger, stray tomcat named Vaska was drowned by superstitious villagers, according to the local Komsomolskaya Pravda newspaper. |
+| winged-cat-c20 | loose | ja.wikipedia.org | The Japanese-language article states that winged cats basically cannot fly like birds; stories that one flew exist, but no case has been confirmed by photographs or the like. | 未確認動物とされる場合があるが多くの写真・資料、研究結果がある。基本的に鳥のように空を飛ぶことはできない。空を飛んだという話も存在するが写真などで確認された例はない。 |
+| winged-cat-c21 | exact | ja.wikipedia.org | The Japanese-language article records that on 1 December 1884 the newspaper 『奥羽日日新聞』 reported the capture of a black cat flying about with outstretched wings in the mountains of Umakura village, Monou district, Miyagi Prefecture, Japan. | 1884年12月1日、日本の宮城県桃生郡馬鞍村（現・石巻市）の山奥で、翼を広げて飛び回る黒猫が捕らえられたと、『奥羽日日新聞』で報じられた。 |
 
 
 ## abada-unicorn — lulus-otomatis

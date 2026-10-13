@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-072",
-  "checked_at": "2026-10-08T10:45:15.889Z",
+  "checked_at": "2026-10-13T15:10:46.440Z",
   "files": [
     "batch-072.md",
     "batch-072-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-072-fix-3.md",
     "batch-072-fix-4.md",
     "batch-072-fix-5.md",
-    "batch-072-fix-6.md"
+    "batch-072-fix-6.md",
+    "batch-072-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -6118,15 +6119,21 @@
     },
     {
       "slug": "makara",
-      "file": "batch-072-fix-3.md",
-      "entry_sha256": "ce63ec2ffa8a78f87e757e72f9ea6a7c28084fe1b77a7487c69c03f62627f373",
+      "file": "batch-072-fix-7.md",
+      "entry_sha256": "be676e87606ce4e42e3b16e4d2cc89a545d32d01b52e92ec1d59d165560075de",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 17,
-        "sources": 3,
+        "claims": 23,
+        "sources": 7,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: imp-art.org (HTTP 403)."
+        }
+      ],
       "claims": [
         {
           "id": "makara-c01",
@@ -6236,7 +6243,8 @@
           "statement_id": "Makara adalah makhluk laut mitos yang dipercaya menjadi tunggangan dewa-dewi Ganga, Narmada, dan Varuna.",
           "quote": "it is a mythical sea creature that is believed to be the mount of the deities Ganga, Narmada and Varuna.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "makara-c12",
@@ -6246,7 +6254,8 @@
           "statement_id": "Makara sering digambarkan dengan separuh depan hewan darat (gajah, antelop, dan sebagainya) dan separuh belakang hewan air (ikan, buaya, dan sebagainya).",
           "quote": "It is often depicted with a terrestrial (elephant, antelope etc.) front half and an aquatic (fish, crocodile etc.) back half.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "makara-c13",
@@ -6295,6 +6304,66 @@
           "statement": "Though the makara may take many different forms in Hindu culture, in the modern world its form is always related to the marsh crocodile or water monitor.",
           "statement_id": "Meskipun makara dapat berwujud macam-macam dalam budaya Hindu, di dunia modern wujudnya selalu dikaitkan dengan buaya rawa atau biawak air.",
           "quote": "Though Makara may take many different forms throughout Hindu culture, in the modern world, its form is always related to the marsh crocodile or water monitor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "makara-c18",
+          "source_id": "makara-s4",
+          "host": "en.wikisource.org",
+          "statement": "In the Mahabharata, when Kadru and Vinata go to view the horse Uchchaisrava, they see an ocean full of fishes large enough to swallow the whale and of huge makaras and creatures of various forms, made inaccessible by the presence of other terrible, monster-shaped, dark and fierce aquatic animals.",
+          "statement_id": "Dalam Mahabharata, ketika Kadru dan Vinata pergi melihat kuda Uchchaisrava, mereka melihat samudra yang penuh ikan sebesar paus dan makara raksasa serta makhluk beraneka bentuk, dan tidak dapat didekati karena kehadiran hewan air lain yang mengerikan, berbentuk monster, gelap, dan buas.",
+          "quote": "full of fishes large enough to swallow the whale, and abounding with huge makaras and creatures of various forms by thousands, and rendered inaccessible by the presence of other terrible, monster-shaped, dark, and fierce aquatic animals",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "makara-c19",
+          "source_id": "makara-s5",
+          "host": "en.wikisource.org",
+          "statement": "In the Mahabharata, an island that the Nagas reach borne by Gadura (Garuda) is said to have been appointed by the creator of the universe as the abode of the makaras.",
+          "statement_id": "Dalam Mahabharata, sebuah pulau yang dituju para Naga bersama Garuda disebut telah ditetapkan oleh pencipta alam semesta sebagai tempat tinggal makara.",
+          "quote": "And that island had been appointed by the creator of the universe as the abode of the makaras.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "makara-c20",
+          "source_id": "makara-s6",
+          "host": "en.wikisource.org",
+          "statement": "In the Katha Sarit Sagara, a makara dwelling in a lake sees a crane carrying off fish; when it is carried to the rock, it sees the fragments of the bones of the fish the crane had eaten and perceives that the crane was in the habit of devouring those who reposed confidence in him.",
+          "statement_id": "Dalam Katha Sarit Sagara, seekor makara yang tinggal di danau melihat seekor bangau membawa pergi ikan; ketika makara itu dibawa ke batu, ia melihat sisa-sisa tulang ikan yang telah dimakan bangau dan menyadari bahwa bangau itu terbiasa memangsa mereka yang memercayainya.",
+          "quote": "Then a certain makara dwelling in that lake, seeing him carrying off fish, said: ... But when the makara got near the rock, he saw the fragments of the bones of the fish that the crane had eaten, and he perceived that the crane was in the habit of devouring those who reposed confidence in him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "makara-c21",
+          "source_id": "makara-s6",
+          "host": "en.wikisource.org",
+          "statement": "In the same tale, no sooner was the sagacious makara put down on the rock than, with complete presence of mind, it cut off the crane's head; it then returned and told the other fish, who were delighted and hailed it as their deliverer from death.",
+          "statement_id": "Dalam kisah yang sama, begitu makara yang bijak diletakkan di batu, dengan ketenangan penuh ia memenggal kepala bangau itu, lalu kembali dan menceritakan kejadiannya kepada ikan-ikan lain, yang senang dan menyambutnya sebagai penyelamat mereka dari maut.",
+          "quote": "So no sooner was the sagacious makara put down on the rock, than with complete presence of mind he cut off the head of the crane. And he returned and told the occurrence, exactly as it happened, to the other fish, and they were delighted, and hailed him as their deliverer from death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "makara-c22",
+          "source_id": "makara-s7",
+          "host": "en.wikisource.org",
+          "statement": "In Bhagavad Gita Discourse 10 (Besant's translation), the speaker names himself \"Makara of fishes\", in a list that also names the wind among purifiers, Rama among warriors and the Gangâ among streams.",
+          "statement_id": "Dalam Bhagavad Gita Wacana 10 (terjemahan Besant), tokoh yang berbicara menyebut dirinya \"Makara di antara ikan\", dalam daftar yang juga menyebut angin di antara penyuci, Rama di antara pejuang, dan Gangâ di antara aliran sungai.",
+          "quote": "Of purifiers I am the wind; Rama of warriors I; and I am Makara of fishes; of streams the Gangâ am I.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "makara-c23",
+          "source_id": "makara-s6",
+          "host": "en.wikisource.org",
+          "statement": "The translator's footnote to the tale of the crane and the makara states that the word generally means crocodile, but that in the Hitopadeśa the creature that kills the crane is a crab.",
+          "statement_id": "Catatan kaki penerjemah pada kisah bangau dan makara menyatakan bahwa kata makara umumnya berarti buaya, sedangkan dalam Hitopadeśa makhluk yang membunuh bangau itu adalah kepiting.",
+          "quote": "This word generally means crocodile. But in the Hitopadeśa the creature that kills the crane is a crab.",
           "context": "scholarly-interpretation",
           "status": "exact"
         }

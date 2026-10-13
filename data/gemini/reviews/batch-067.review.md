@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-08T13:53:22.354Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md, batch-067-fix-8.md, batch-067-fix-9.md.
+Diperiksa 2026-10-13T15:05:56.631Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md, batch-067-fix-8.md, batch-067-fix-9.md, batch-067-fix-10.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -212,7 +212,7 @@ Klaim 14 (exact 11, loose 3), sumber 2, gambar 0.
 
 ## dragon-turtle — lulus-otomatis
 
-Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
+Klaim 9 (loose 2, exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -223,6 +223,8 @@ Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 | dragon-turtle-c05 | exact | en.wikipedia.org | Dragon turtles have been present in the tabletop roleplaying game Dungeons & Dragons from its inception to its current 5th edition. | Dragon turtles have been present in the tabletop roleplaying game Dungeons & Dragons from its inception to its current 5th edition. |
 | dragon-turtle-c06 | exact | en.wikipedia.org | A dragon turtle appears in the 1983 Dungeons & Dragons cartoon episode "The Garden of Zinn", its poisonous bite setting up the events of the episode. | A dragon turtle appears in the 1983 Dungeons & Dragons cartoon episode, "The Garden of Zinn", its poisonous bite setting up the events of the episode. |
 | dragon-turtle-c07 | exact | www.syfy.com | According to this news article, dragon turtles are getting different age and challenge-rating varieties in the new Dungeons & Dragons book, with the "standard" dragon turtle equivalent to an "ancient dragon". | Dragon turtles are getting different age and challenge rating varieties (the “standard” dragon turtle is the equivalent of an “ancient dragon”) and the book’s introducing an even more fearsome variety of dragon. |
+| dragon-turtle-c08 | exact | zh.wikisource.org | The Zhuyu Zhouzi Lu (殊域周咨錄) records that in the sea of Malacca (滿剌加) there is a creature called "gui long" (龜龍, written with 龜 first, then 龍): four chi tall, four-legged, scaly-armoured, with long exposed fangs, biting people it meets to death; fishermen greatly fear its harm. | 滿剌加國海旁之人，亦能刳木為舟以取魚。然海中有所謂龜龍者，高四尺，四足，身負鱗甲，露長牙，遇人即齧齧即死。漁人甚畏其害。 |
+| dragon-turtle-c09 | exact | zh.wikisource.org | Wu Renchen (吳任臣) notes that the Shanhaijing says the river Di (隄水), which flows into Taize (泰澤), has "many 龍龜" (多龍龜), then cites the Zhuyu Zhouzi Lu on the Malacca creature four chi tall, four-legged, scaly and fanged, which kills people at once; he also quotes an explanation that 龍龜 may be a large turtle, or may mean both a dragon and a turtle. | 又北百七十里曰隄山〈郭曰或作䧑古字耳〉多馬有獸焉其狀如豹而文首名曰狕〈郭曰音么 任臣案事物紺珠云狕如豹文首〉隄水出焉而東流注于泰澤其中多龍龜〈任臣案殊域周咨録滿剌加海有龍龜髙四尺四足有鱗甲露長牙齒人立死王氏釋義曰龍龜盖龜之大者亦謂既有龍而又有龜也〉 |
 
 
 ## feilian — lulus-otomatis

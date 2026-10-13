@@ -1,6 +1,6 @@
 # Review batch-151
 
-Diperiksa 2026-10-07T05:03:00.213Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md, batch-151-fix-4.md, batch-151-fix-5.md, batch-151-fix-6.md.
+Diperiksa 2026-10-13T15:10:25.865Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md, batch-151-fix-4.md, batch-151-fix-5.md, batch-151-fix-6.md, batch-151-fix-7.md.
 
 ## maero — lulus-otomatis
 
@@ -634,7 +634,7 @@ Klaim 8 (loose 1, exact 7), sumber 2, gambar 0.
 
 ## oozlum-bird — lulus-otomatis
 
-Klaim 11 (exact 11), sumber 2, gambar 0.
+Klaim 18 (exact 18), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -649,6 +649,13 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 | oozlum-bird-c09 | exact | en.wikipedia.org | A variant of the oozlum, possibly a mutation, is the weejy weejy bird, which has only one wing and so flies in tighter, faster, smaller circles until it disappears up itself. | A variant of the oozlum, possibly a mutation, is the weejy weejy bird, which has only one wing which causes it to fly in tighter, faster, smaller circles, until it disappears up its own fundament. |
 | oozlum-bird-c10 | exact | en.wikipedia.org | The oozlum bird was the subject of the 1970 British film Carry On Up the Jungle. | The oozlum bird was the subject of the 1970 British film Carry On Up the Jungle. |
 | oozlum-bird-c11 | exact | en.wikipedia.org | The oozlum bird is sometimes used as a symbol of self-reference and circular argumentation. | The oozlum bird is sometimes used as a symbol of self-reference and circular argumentation. |
+| oozlum-bird-c12 | exact | en.wikipedia.org | According to this article, W. T. Goodge's (1862–1909) poem The Oozlum Bird says the bird flies backwards and has the singular ability to fly up in the air while letting the earth turn under it; the bird is said to be large enough to bear the weight of a man. | The fabulous qualities of the oozlum bird are the subject of a poem by W. T. Goodge (1862–1909). In the poem The Oozlum Bird, the bird is said to fly backwards and has the singular ability of being able to fly up in the air while letting the earth turn under it. The bird is said to be large enough to bear the weight of a man. |
+| oozlum-bird-c13 | exact | en.wikisource.org | In the poem the character Ginger Joe declares that racehorses and cyclists with pacers amount to crawling, a funeral procession compared with the Oozlum Bird. | You can talk about yer racehorse And the pace as he can go, But it just amounts to crawlin', Nothink else!” said Ginger Joe. “And these cycle blokes with pacers, You can take my bloomin' word, They're a funeral procession To the blinded Oozlum Bird! |
+| oozlum-bird-c14 | exact | en.wikisource.org | In the poem a character holds that the earth rolls round to the east and that birds, by rising high, might stop and travel west while the earth rolls by. | That the earth rolls round to eastward And that birds, by rising high, Might just stop and travel westward, While the earth was rolling by! |
+| oozlum-bird-c15 | exact | en.wikisource.org | In the poem the character comes down, walks up George-street, gets the stuff and wires, then rises again and reaches Marengo with ease. | Then came down, and walked up George-street, Got the stuff and wired to me; Rose again and reached Marengo Just as easy as could be! |
+| oozlum-bird-c16 | exact | en.wikisource.org | In the poem the narrator says that in six-and-twenty hours Jock McPherson and the Oozlum had been all around the earth, adding that the yarn may be taken for what it's worth. | So in six-and-twenty hours, Take the yarn for what it's worth, Jock McPherson and the Oozlum Had been all around the earth! |
+| oozlum-bird-c17 | exact | en.wikisource.org | In the poem the narrator heard that since McPherson's famous record ride the Oozlums won't let a man get near and could not be caught if you tried. | And I heard that since McPherson Did that famous record ride, They won't let a man get near 'em, Couldn't catch one if you tried! |
+| oozlum-bird-c18 | exact | en.wikisource.org | In the poem the narrator claims that the township of Birdsville, along the Queensland border on the South Australian side, was named because of Jock McPherson's ride, a claim within the yarn Ginger Joe tells. | Look along the Queensland border, On the South Australian side, There's this township! christened Birdsville, 'Cause of Jock McPherson's ride! |
 
 
 ## pie — lulus-otomatis

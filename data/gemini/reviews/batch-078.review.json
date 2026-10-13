@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-078",
-  "checked_at": "2026-10-06T15:10:18.587Z",
+  "checked_at": "2026-10-13T15:10:48.006Z",
   "files": [
     "batch-078.md",
     "batch-078-fix-1.md",
     "batch-078-fix-2.md",
     "batch-078-fix-3.md",
-    "batch-078-fix-4.md"
+    "batch-078-fix-4.md",
+    "batch-078-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1953,12 +1954,12 @@
     },
     {
       "slug": "medjed-fish",
-      "file": "batch-078-fix-3.md",
-      "entry_sha256": "898527533c09a0094c37dc740f44f915e857ea37d0c2b2cc89c1335104bdc7b7",
+      "file": "batch-078-fix-5.md",
+      "entry_sha256": "44f7a6f2e6ec4e9543a7c94bedaafe5ff272d513e9a9e2f426c11f3277be5ac0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 12,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -2031,7 +2032,9 @@
           "statement_id": "Dalam uraian Plutarkhos (teks Budge di Gutenberg), Isis tidak pernah dapat menemukan phallus Osiris yang telah dimakan oleh ikan Lepidotus, Phagrus, dan Oxyrhynchus, ikan yang karena alasan itu paling dihindari orang Mesir.",
           "quote": "Isis was never able to discover the phallus of Osiris ... had been devoured by the Lepidotus, the Phagrus, and the Oxyrhynchus, fish which above all others, for this reason, the Egyptians have in more especial avoidance.",
           "context": "historical-record",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251014080006id_/https://www.gutenberg.org/cache/epub/9411/pg9411-images.html",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "medjed-fish-c08",
@@ -2041,6 +2044,48 @@
           "statement_id": "Dalam uraian Plutarkhos (teks Budge di Gutenberg), penduduk Oxyrhynchus tidak menyentuh ikan yang ditangkap dengan kail karena mereka sangat menghormati ikan Oxyrhynchus.",
           "quote": "the inhabitants of Oxyrhynchus ... will not touch any that have been taken with an angle; for as they pay especial reverence to the Oxyrhynchus Fish",
           "context": "historical-record",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251014080006id_/https://www.gutenberg.org/cache/epub/9411/pg9411-images.html",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "medjed-fish-c09",
+          "source_id": "medjed-fish-s4",
+          "host": "en.wikisource.org",
+          "statement": "In Plutarch (Loeb translation), the only part of Osiris's body that Isis did not find was the male member, because it had at once been tossed into the river and the lepidotus, the sea-bream, and the pike had fed upon it; it is from these very fishes that the Egyptians are most scrupulous in abstaining.",
+          "statement_id": "Dalam Plutarkhos (terjemahan Loeb), satu-satunya bagian tubuh Osiris yang tidak ditemukan Isis adalah anggota tubuh laki-lakinya, karena bagian itu segera dilempar ke sungai dan dimakan oleh ikan lepidotus, sea-bream, dan pike; orang Mesir paling teliti menjauhi ikan-ikan inilah.",
+          "quote": "Of the parts of Osiris's body the only one which Isis did not find was the male member, for the reason that this had been at once tossed into the river, and the lepidotus, the sea-bream, and the pike had fed upon it; and it is from these very fishes the Egyptians are most scrupulous in abstaining.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "medjed-fish-c10",
+          "source_id": "medjed-fish-s4",
+          "host": "en.wikisource.org",
+          "statement": "Plutarch records that in his day the people of Oxyrhynchus caught a dog, sacrificed it and ate it as if it were sacrificial meat, because the people of Cynopolis were eating the fish known as the oxyrhynchus or pike; as a result the two cities became involved in war and inflicted much harm on each other, and later both were brought to order through chastisement by the Romans.",
+          "statement_id": "Plutarkhos mencatat bahwa pada masanya orang Oxyrhynchus menangkap seekor anjing, mengorbankannya, dan memakannya seperti daging kurban, karena orang Cynopolis memakan ikan yang dikenal sebagai oxyrhynchus atau pike; akibatnya kedua kota berperang dan saling menimbulkan banyak kerugian, hingga kemudian keduanya ditertibkan melalui hukuman oleh bangsa Romawi.",
+          "quote": "And in my day the people of Oxyrhynchus caught a dog and sacrificed it and ate it up as if it had been sacrificial meat, because the people of Cynopolis were eating fish known as the oxyrhynchus or pike. As a result of this they became involved in war and inflicted much harm upon each other; and later they were both brought to order through chastisement by the Romans.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "medjed-fish-c11",
+          "source_id": "medjed-fish-s4",
+          "host": "en.wikisource.org",
+          "statement": "Plutarch records that the inhabitants of Oxyrhynchus abstain from fish caught with a hook, because they revere the fish called oxyrhynchus (the pike) and are afraid the hook may be unclean, since an oxyrhynchus may have been caught with it.",
+          "statement_id": "Plutarkhos mencatat bahwa orang Oxyrhynchus tidak memakan ikan yang ditangkap dengan kail, karena mereka menghormati ikan oxyrhynchus (pike) dan takut kail itu najis jika pernah dipakai menangkapnya.",
+          "quote": "the inhabitants of Oxyrhynchus abstain from those that are caught with a hook; for, inasmuch as they revere the fish called oxyrhynchus (the pike), they are afraid that the hook may be unclean, since an oxyrhynchus may have been caught with it.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "medjed-fish-c12",
+          "source_id": "medjed-fish-s5",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia writes that when Isis had put Osiris back together she found he was incomplete, his penis having been eaten by the oxyrhyncus fish and being unrecoverable; Isis was still able to return her husband to life, but since Osiris was incomplete he could no longer rule over the living and would have to descend to the underworld.",
+          "statement_id": "World History Encyclopedia menulis bahwa ketika Isis menyatukan kembali tubuh Osiris, ternyata tubuhnya tidak lengkap karena penisnya telah dimakan ikan oxyrhyncus dan tidak dapat diambil kembali; Isis tetap dapat menghidupkan suaminya, tetapi karena tidak utuh, Osiris tidak dapat lagi memerintah yang hidup dan harus turun ke dunia bawah.",
+          "quote": "Once Isis had put Osiris back together, she found he was incomplete. His penis had been eaten by the oxyrhyncus fish and could not be retrieved. Isis was still able to return her husband to life but, since Osiris was incomplete, he could no longer rule over the living and would have to descend to the underworld.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],

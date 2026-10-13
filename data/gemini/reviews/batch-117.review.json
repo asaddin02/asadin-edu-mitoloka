@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-117",
-  "checked_at": "2026-10-06T15:02:48.862Z",
+  "checked_at": "2026-10-13T15:07:48.181Z",
   "files": [
     "batch-117.md",
-    "batch-117-fix-1.md"
+    "batch-117-fix-1.md",
+    "batch-117-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1536,20 +1537,15 @@
     },
     {
       "slug": "white-dragon",
-      "file": "batch-117.md",
+      "file": "batch-117-fix-2.md",
+      "entry_sha256": "dd5921d0d997cae7a3a15df72ca43ab6f8c80fbbaf5f19ac8bd5d9f7ce8fc6f1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "white-dragon-c01",
@@ -1599,8 +1595,7 @@
           "statement_id": "Terjemahan Giles atas Nennius: ular putih naga bangsa yang menduduki Britania (Britain); ular merah naga raja.",
           "quote": "the two serpents are two dragons; the red serpent is your dragon, but the white serpent is the dragon of the people who occupy several provinces and districts of Britain, even almost from sea to sea",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "white-dragon-c06",
@@ -1610,12 +1605,148 @@
           "statement_id": "Nubuat Merlin (Old English Chronicles, Gutenberg; Giles): celakalah naga merah (Woe to the red dragon); naga putih melambangkan Saxon (Saxons).",
           "quote": "\"Woe to the red dragon, for his banishment hasteneth on. His lurking holes shall be seized by the white dragon, which signifies the Saxons whom you invited over; but the red denotes the British nation, which shall be oppressed by the white.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c07",
+          "source_id": "white-dragon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Giles's translation of Geoffrey, two dragons, one white and one red, come forth and fight terribly, casting forth fire with their breath; the white dragon first has the advantage and makes the other flee to the end of the lake.",
+          "statement_id": "Dalam terjemahan Giles atas Geoffrey, dua naga, satu putih dan satu merah, keluar, bertarung hebat dan menyemburkan api dengan napas mereka; naga putih mula-mula unggul dan membuat naga lainnya lari ke ujung danau.",
+          "quote": "was white, the other red, came forth, and, approaching one another, began a terrible fight, and cast forth fire with their breath. But the white dragon had the advantage, and made the other fly to the end of the lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c08",
+          "source_id": "white-dragon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Giles's translation of the Vortigern story the two serpents begin to struggle; the white one raises himself up, throws the other down into the middle of the tent and sometimes drives him to its edge, and this is repeated three times.",
+          "statement_id": "Dalam terjemahan Giles atas kisah Vortigern, kedua ular mulai bergumul; yang putih bangkit, melempar yang lain ke tengah tenda dan kadang mendesaknya ke tepi tenda, dan itu terulang tiga kali.",
+          "quote": "The serpents began to struggle with each other; and the white one, raising himself up, threw down the other into the middle of the tent, and sometimes drove him to the edge of it; and this was repeated thrice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c09",
+          "source_id": "white-dragon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the end the red one, apparently the weaker, recovers his strength and expels the white one from the tent; the white one is pursued through the pool by the red one and disappears.",
+          "statement_id": "Pada akhirnya yang merah, yang tampak lebih lemah, pulih kekuatannya dan mengusir yang putih dari tenda; yang putih dikejar melewati kolam oleh yang merah dan lenyap.",
+          "quote": "At length the red one, apparently the weaker of the two, recovering his strength, expelled the white one from the tent; and the latter being pursued through the pool by the red one, disappeared.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c10",
+          "source_id": "white-dragon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the prophecy the red dragon denotes the British nation, which is to be oppressed by the white; after that its mountains are to be levelled like the valleys and the rivers of the valleys are to run with blood.",
+          "statement_id": "Dalam nubuat itu naga merah melambangkan bangsa Britania, yang akan ditindas oleh naga putih; setelah itu gunung-gunungnya akan diratakan seperti lembah dan sungai-sungai lembah akan mengalirkan darah.",
+          "quote": "the red denotes the British nation, which shall be oppressed by the white. Therefore shall its mountains be levelled as the valleys, and the rivers of the valleys shall run with blood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c11",
+          "source_id": "white-dragon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The same prophecy says the seed of the white dragon will be swept out of our gardens and the remainder of his generation will be decimated.",
+          "statement_id": "Nubuat yang sama menyatakan bahwa keturunan naga putih akan disapu dari kebun-kebun kita dan sisa angkatannya akan dibantai habis-habisan.",
+          "quote": "The seed of the white dragon shall be swept out of our gardens, and the remainder of his generation shall be decimated.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c12",
+          "source_id": "white-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Lludd and Llefelys the battle of the two dragons is the second plague to strike the Island of Britain: the White Dragon strives to overcome the Red Dragon, making the Red cry out a fearful shriek heard over every Brythonic hearth.",
+          "statement_id": "Menurut Wikipedia, dalam Lludd and Llefelys pertarungan kedua naga adalah wabah kedua yang menimpa Pulau Britania: Naga Putih berusaha mengalahkan Naga Merah sehingga Naga Merah menjerit mengerikan yang terdengar di setiap perapian Britonik.",
+          "quote": "The battle between the two dragons is the second plague to strike the Island of Britain, as the White Dragon would strive to overcome the Red Dragon, making the Red cry out a fearful shriek which was heard over every Brythonic hearth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c13",
+          "source_id": "white-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The shriek went through people's hearts and so scared them that the men lost their colour and strength, the women lost their children, the young men and maidens lost their senses, and all the animals, trees, earth and waters were left barren.",
+          "statement_id": "Jeritan itu menembus hati orang-orang dan menakuti mereka sedemikian rupa sehingga para lelaki kehilangan rona dan tenaga, para perempuan kehilangan anak, para pemuda dan gadis kehilangan akal, dan semua hewan, pohon, tanah, dan air menjadi tandus.",
+          "quote": "This shriek went through people's hearts, scaring them so much that the men lost their hue and their strength, women lost their children, young men and the maidens lost their senses, and all the animals and trees and the earth and the waters were left barren.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c14",
+          "source_id": "white-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "First the dragons fight by the pit in the form of terrific animals, then fight in the air over the pit in the form of dragons, and finally, exhausted, fall onto the pit in the form of pigs and sink into it.",
+          "statement_id": "Mula-mula kedua naga bertarung di dekat lubang dalam wujud binatang-binatang mengerikan, lalu bertarung di udara di atas lubang dalam wujud naga, dan setelah kelelahan mereka jatuh ke lubang dalam wujud babi dan tenggelam ke dalamnya.",
+          "quote": "First, the dragons fought by the pit in the form of terrific animals. Then they began to fight in the air over the pit in the form of dragons. Then, exhausted with the fighting, they fell down on the pit in the form of pigs and sank into the pit",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c15",
+          "source_id": "white-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lludd finally ended the plague by catching the dragons and burying both of them in a rock pit at Dinas Emrys in Snowdonia, north Wales, the securest place in Britain at that time.",
+          "statement_id": "Lludd akhirnya mengakhiri wabah itu dengan menangkap kedua naga dan menguburnya dalam lubang batu di Dinas Emrys, Snowdonia, Wales utara, tempat paling aman di Britania pada masa itu.",
+          "quote": "Lludd finally eradicated the plague by catching the dragons and burying both of them in a rock pit at Dinas Emrys in Snowdonia, north Wales, the securest place in Britain at that time.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-dragon-c16",
+          "source_id": "white-dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Guest's translation Llevelys explains that the second plague in Lludd's dominion is a dragon; another dragon of a foreign race fights it and strives to overcome it, and therefore Lludd's dragon makes a fearful outcry.",
+          "statement_id": "Dalam terjemahan Guest, Llevelys menjelaskan bahwa wabah kedua di wilayah Lludd adalah seekor naga; naga lain dari ras asing melawannya dan berusaha mengalahkannya, dan karena itu naga milik Lludd menjerit mengerikan.",
+          "quote": "that is in thy dominion, behold it is a dragon. And another dragon of a foreign race is fighting with it, and striving to overcome it. And therefore does your dragon make a fearful outcry.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260216061117id_/https://gutenberg.org/cache/epub/5160/pg5160-images.html",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "white-dragon-c17",
+          "source_id": "white-dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Guest's translation the second plague is a shriek that came every May-eve over every hearth in the Island of Britain; it went through people's hearts and scared them so that the men lost their colour and strength, the women their children, the young men and maidens their senses, and animals, trees, earth and waters were left barren.",
+          "statement_id": "Dalam terjemahan Guest, wabah kedua adalah jeritan yang datang setiap malam menjelang Mei di setiap perapian di Pulau Britania; jeritan itu menembus hati orang dan menakuti mereka hingga lelaki kehilangan rona dan tenaga, perempuan kehilangan anak, pemuda dan gadis kehilangan akal, dan hewan, pohon, tanah, dan air menjadi tandus.",
+          "quote": "The second plague was a shriek which came on every May-eve, over every hearth in the Island of Britain. And this went through people's hearts, and so scared them, that the men lost their hue and their strength, and the women their children, and the young men and the maidens lost their senses, and all the animals and trees and the earth and the waters, were left barren.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260216061117id_/https://gutenberg.org/cache/epub/5160/pg5160-images.html",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "white-dragon-c18",
+          "source_id": "white-dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Guest's translation Llevelys foretells that the fighting dragons will appear in the form of terrific animals, then take the form of dragons in the air, and at last, wearied by fierce and furious fighting, fall upon the covering in the form of two pigs.",
+          "statement_id": "Dalam terjemahan Guest, Llevelys meramalkan bahwa naga-naga yang bertarung akan tampak dalam wujud binatang mengerikan, lalu berwujud naga di udara, dan akhirnya, setelah kelelahan bertarung sengit, jatuh ke atas kain penutup dalam wujud dua ekor babi.",
+          "quote": "thou wilt see the dragon fighting in the form of terrific animals. And at length they will take the form of dragons in the air. And last of all, after wearying themselves with fierce and furious fighting, they will fall in the form of two pigs upon the covering",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260216061117id_/https://gutenberg.org/cache/epub/5160/pg5160-images.html",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "white-dragon-c19",
+          "source_id": "white-dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Guest's translation, when they were weary the dragons fell onto the satin and drew it to the bottom of the cauldron; once they had drunk the mead they slept, and Lludd folded the covering around them and hid them in a kistvaen in the securest place he had in Snowdon.",
+          "statement_id": "Dalam terjemahan Guest, ketika lelah kedua naga jatuh ke atas kain satin dan menariknya ke dasar kuali; setelah meminum mead mereka tertidur, lalu Lludd melipat kain itu mengelilingi mereka dan menyembunyikan mereka dalam kistvaen di tempat paling aman miliknya di Snowdon.",
+          "quote": "And when they were weary they fell, and came down upon the top of the satin, and drew it with them to the bottom of the cauldron. And when they had drunk the mead they slept. And in their sleep, Lludd folded the covering around them, and in the securest place he had in Snowdon, he hid them in a kistvaen.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260216061117id_/https://gutenberg.org/cache/epub/5160/pg5160-images.html",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": [],
-      "entry_sha256": "66e287ddcdead0a4cc9a2d3e7725a728f01a91139075c1a23b69a65a8f7c3b45"
+      "images": []
     },
     {
       "slug": "cath-palug",

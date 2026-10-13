@@ -1,6 +1,6 @@
 # Review batch-072
 
-Diperiksa 2026-10-08T10:45:15.889Z. Berkas: batch-072.md, batch-072-fix-1.md, batch-072-fix-2.md, batch-072-fix-3.md, batch-072-fix-4.md, batch-072-fix-5.md, batch-072-fix-6.md.
+Diperiksa 2026-10-13T15:10:46.440Z. Berkas: batch-072.md, batch-072-fix-1.md, batch-072-fix-2.md, batch-072-fix-3.md, batch-072-fix-4.md, batch-072-fix-5.md, batch-072-fix-6.md, batch-072-fix-7.md.
 
 ## sita — lulus-otomatis
 
@@ -898,7 +898,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## makara — lulus-otomatis
 
-Klaim 17 (exact 17), sumber 3, gambar 0.
+Klaim 23 (exact 21, unreachable 2), sumber 7, gambar 0.
+
+**manual**
+- `claims` 2 kutipan tidak bisa dicek otomatis: imp-art.org (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -912,13 +915,19 @@ Klaim 17 (exact 17), sumber 3, gambar 0.
 | makara-c08 | exact | en.wikipedia.org | Makara is the most commonly recurring creature in Hindu and Buddhist temple iconography, and also frequently appears as a gargoyle or as a spout attached to a natural spring. | it is the most commonly recurring creature in Hindu and Buddhist temple iconography, and also frequently appears as a gargoyle or as a spout attached to a natural spring. |
 | makara-c09 | exact | en.wikipedia.org | In Vedic times Varuna (the Vedic water god) became the god of the seas and rode on makara, which was called "the water monster vehicle". | During Vedic times when Indra was the god of heaven, Varuna (the Vedic water god) became the God of the seas and rode on makara, which was called "the water monster vehicle". |
 | makara-c10 | exact | en.wikipedia.org | Makara-shaped earrings called Makarakundalas are sometimes worn by Hindu deities, for example Shiva, Vishnu, Surya, and Chandi. | Makara-shaped earrings called Makarakundalas are sometimes worn by Hindu deities, for example Shiva, Vishnu, Surya, and Chandi. |
-| makara-c11 | exact | imp-art.org | Makara is a mythical sea creature believed to be the mount of the deities Ganga, Narmada and Varuna. | it is a mythical sea creature that is believed to be the mount of the deities Ganga, Narmada and Varuna. |
-| makara-c12 | exact | imp-art.org | Makara is often depicted with a terrestrial front half (elephant, antelope etc.) and an aquatic back half (fish, crocodile etc.). | It is often depicted with a terrestrial (elephant, antelope etc.) front half and an aquatic (fish, crocodile etc.) back half. |
+| makara-c11 | unreachable (HTTP 403) | imp-art.org | Makara is a mythical sea creature believed to be the mount of the deities Ganga, Narmada and Varuna. | it is a mythical sea creature that is believed to be the mount of the deities Ganga, Narmada and Varuna. |
+| makara-c12 | unreachable (HTTP 403) | imp-art.org | Makara is often depicted with a terrestrial front half (elephant, antelope etc.) and an aquatic back half (fish, crocodile etc.). | It is often depicted with a terrestrial (elephant, antelope etc.) front half and an aquatic (fish, crocodile etc.) back half. |
 | makara-c13 | exact | www.worldhistory.org | The caption describes a sandstone lintel from a temple at Beshnagar (c. 500 CE) on which the goddess Ganga, the Hindu personification of the River Ganges, stands on a makara (a mix of crocodile and elephant) which symbolises the life-giving nature of water. | Ganga, the Hindu personification of the River Ganges. A sandstone lintel from a temple at Beshnagar, c. 500 CE. The goddess stands on a makara (a mix of crocodile and elephant) which symbolises the life-giving nature of water. |
 | makara-c14 | exact | en.wikipedia.org | From the 2nd century BCE, the makara appears to have been the symbol of Pradyumna, son of Vasudeva Krishna. | From the 2nd century BCE, the Makara appears to have been the symbol of Pradyumna, son of Vāsudeva Krishna. |
 | makara-c15 | exact | en.wikipedia.org | The leading Hindu temple architect and builder Ganapati Sthapati describes the makara as a mythical animal with the body of a fish, trunk of an elephant, feet of a lion, eyes of a monkey, ears of a pig, and the tail of a peacock. | The leading Hindu temple architect and builder Ganapati Sthapati describes Makara as a mythical animal with the body of a fish, trunk of an elephant, feet of a lion, eyes of a monkey, ears of a pig, and the tail of a peacock. |
 | makara-c16 | exact | en.wikipedia.org | Several German scientists argued that makara is based on the dugong instead, based on a reading of the Jain text Suryaprajnapti; the South Asian river dolphin may also have contributed to the image of the makara. | Several German scientists argued that makara is based on the dugong instead, based on reading of Jain text of Sūryaprajñapti. The South Asian river dolphin may also have contributed to the image of the makara. |
 | makara-c17 | exact | en.wikipedia.org | Though the makara may take many different forms in Hindu culture, in the modern world its form is always related to the marsh crocodile or water monitor. | Though Makara may take many different forms throughout Hindu culture, in the modern world, its form is always related to the marsh crocodile or water monitor. |
+| makara-c18 | exact | en.wikisource.org | In the Mahabharata, when Kadru and Vinata go to view the horse Uchchaisrava, they see an ocean full of fishes large enough to swallow the whale and of huge makaras and creatures of various forms, made inaccessible by the presence of other terrible, monster-shaped, dark and fierce aquatic animals. | full of fishes large enough to swallow the whale, and abounding with huge makaras and creatures of various forms by thousands, and rendered inaccessible by the presence of other terrible, monster-shaped, dark, and fierce aquatic animals |
+| makara-c19 | exact | en.wikisource.org | In the Mahabharata, an island that the Nagas reach borne by Gadura (Garuda) is said to have been appointed by the creator of the universe as the abode of the makaras. | And that island had been appointed by the creator of the universe as the abode of the makaras. |
+| makara-c20 | exact | en.wikisource.org | In the Katha Sarit Sagara, a makara dwelling in a lake sees a crane carrying off fish; when it is carried to the rock, it sees the fragments of the bones of the fish the crane had eaten and perceives that the crane was in the habit of devouring those who reposed confidence in him. | Then a certain makara dwelling in that lake, seeing him carrying off fish, said: ... But when the makara got near the rock, he saw the fragments of the bones of the fish that the crane had eaten, and he perceived that the crane was in the habit of devouring those who reposed confidence in him. |
+| makara-c21 | exact | en.wikisource.org | In the same tale, no sooner was the sagacious makara put down on the rock than, with complete presence of mind, it cut off the crane's head; it then returned and told the other fish, who were delighted and hailed it as their deliverer from death. | So no sooner was the sagacious makara put down on the rock, than with complete presence of mind he cut off the head of the crane. And he returned and told the occurrence, exactly as it happened, to the other fish, and they were delighted, and hailed him as their deliverer from death. |
+| makara-c22 | exact | en.wikisource.org | In Bhagavad Gita Discourse 10 (Besant's translation), the speaker names himself "Makara of fishes", in a list that also names the wind among purifiers, Rama among warriors and the Gangâ among streams. | Of purifiers I am the wind; Rama of warriors I; and I am Makara of fishes; of streams the Gangâ am I. |
+| makara-c23 | exact | en.wikisource.org | The translator's footnote to the tale of the crane and the makara states that the word generally means crocodile, but that in the Hitopadeśa the creature that kills the crane is a crab. | This word generally means crocodile. But in the Hitopadeśa the creature that kills the crane is a crab. |
 
 
 ## bharat-mata — skip

@@ -1,6 +1,6 @@
 # Review batch-053
 
-Diperiksa 2026-10-08T15:05:01.602Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md, batch-053-fix-7.md, batch-053-fix-8.md.
+Diperiksa 2026-10-13T15:07:46.880Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md, batch-053-fix-7.md, batch-053-fix-8.md, batch-053-fix-9.md.
 
 ## shiranui-optical-phenomenon — lulus-otomatis
 
@@ -280,7 +280,7 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## jiaotu — lulus-otomatis
 
-Klaim 9 (exact 7, loose 2), sumber 3, gambar 0.
+Klaim 12 (exact 10, loose 2), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -293,6 +293,9 @@ Klaim 9 (exact 7, loose 2), sumber 3, gambar 0.
 | jiaotu-c07 | exact | en.wikipedia.org | The nine sons of the dragon is a traditional name for a set of mythological creatures whose imagery is used in certain types of decoration. | The nine sons of the dragon is a traditional name for a set of mythological creatures whose imagery is used in certain types of decorations. |
 | jiaotu-c08 | loose | en.wikipedia.org | The oldest known attestation of the list of the dragon's children is in Lu Rong's 菽園雜記 (1436–1494), but he noted that the list merely enumerates synonyms of various antiques, not children of a dragon. | The oldest known attestation of the children of the dragon list is found in the Miscellaneous records from the bean garden (菽園雜記) by Lu Rong (1436–1494); however, he noted that the list enumerates mere synonyms of various antiques, not children of a dragon. |
 | jiaotu-c09 | loose | en.wikipedia.org | Yang Shen's (楊慎, 1488–1559) list includes nine creatures and is the most widely found version. | Yang Shen's (楊慎, 1488–1559) list, which also includes 9 creatures — this version is the most widely found one |
+| jiaotu-c10 | exact | cyberleninka.ru | According to Somkina, Jiaotu is an unsociable, withdrawn beast that used to live in a bivalve shell and shut itself inside as soon as it saw someone on the horizon. | is an unsociable and withdrawn beast, who used to live in a bivalve shell and shut inside it immediately upon seeing someone on the horizon. |
+| jiaotu-c11 | exact | cyberleninka.ru | According to Somkina, that is why Jiaotu's head with a ring between its teeth sometimes stands in for handles on doors and gates, and its symbolic function was to repel evil spirits and other harmful forces from the house. | That is why his head with a ring between teeth sometimes serves a substitute for handles on doors and gates. The symbolic function of jiaotu consisted in repelling evil spirits and other harmful forces from the house. |
+| jiaotu-c12 | exact | english.visitbeijing.com.cn | According to Visit Beijing, mussels and snails tend to close their shells tightly when attacked, so putting Jiaotu's image on doors may serve as a wish for the door to close as tightly as possible for safety. | Mussels and snails tend to close their shells tightly when attacked. Putting Jiaotu's image on doors may serve as a wish for closing the door as tightly as possible for safety. |
 
 
 ## kayanohime — lulus-otomatis

@@ -1,6 +1,6 @@
 # Review batch-069
 
-Diperiksa 2026-10-13T08:44:49.122Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md, batch-069-fix-8.md, batch-069-fix-9.md.
+Diperiksa 2026-10-13T15:10:45.737Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md, batch-069-fix-8.md, batch-069-fix-9.md, batch-069-fix-10.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
@@ -537,7 +537,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## pihi — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 5, gambar 0.
+Klaim 10 (exact 10), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -548,6 +548,9 @@ Klaim 7 (exact 7), sumber 5, gambar 0.
 | pihi-c05 | exact | fr.wikisource.org | In Apollinaire's poem Zone, the pihis are described as coming from China, long and supple, having only one wing and flying in pairs. | De Chine sont venus les pihis longs et souples Qui n’ont qu’une seule aile et qui volent par couples |
 | pihi-c06 | exact | fr.wikisource.org | In Apollinaire's Calligrammes, one line reads "Abatis de pihis" and the next says there is a poem to be made about the bird that has only one wing, which will be sent as a telephone message. | Abatis de pihis Il y a un poème à faire sur l’oiseau qui n’a qu’une aile Nous l’enverrons en message téléphonique |
 | pihi-c07 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Erya: in the south there is a 比翼鳥 that cannot fly unless paired, named 鶼鶼; Guo's note says it resembles a duck, is blue-red, has one eye and one wing, and flies only when together. | 《爾雅·釋鳥》南方有比翼鳥焉，不比不飛，其名謂之鶼鶼。《郭註》似鳧，靑赤色，一目一翼，相得乃飛。 |
+| pihi-c08 | exact | zh.wikisource.org | The Shanhaijing records a duck-like bird (鳧) with one wing and one eye that can fly only when paired (相得乃飛), named 蠻蠻; an inline note calls it the 比翼鳥, blue-red, unable to fly unless paired, and the text states that its appearance (見) means a great flood across the world (天下, "all under heaven"). | 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻〈比翼鳥也，色青赤，不比不能飛，爾雅作鶼鶼鳥也。〉，見則天下大水。 |
+| pihi-c09 | exact | zh.wikisource.org | The Ruiying tu, quoted in the Taiping Yulan, states that the 比翼鳥 comes when a ruler's virtue reaches far and high; another version says it comes when the ruler has filial virtue (孝德). | 《瑞應圖》曰：王者德及高遠，則比翼鳥至。一本云：王者有孝德則至。 |
+| pihi-c10 | exact | zh.wikisource.org | The Shiyi ji records that the state of 燃丘 (Ranqiu) presented a pair of 比翼鳥, male and female, in a jade cage; the bird is described as strong (多力), shaped like a magpie (鵲), carrying red mud (丹泥) from the Southern Sea (南海), nesting in dark wood (玄木) on 昆岑, and coming to gather when it meets a sage, as an auspicious wonder showing the Duke of Zhou (周公, Zhou Gong) assisting the sage. | 六年。燃丘之国献比翼鳥，雌雄各一，以玉為樊 ... 比翼鳥多力，狀如鵲，銜南海之丹泥，巢昆岑之玄木，遇聖則來集，以表周公輔聖之祥異也。 |
 
 
 ## prespa-lake-monster — lulus-otomatis

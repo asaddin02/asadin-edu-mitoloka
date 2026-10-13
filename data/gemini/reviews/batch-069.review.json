@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-069",
-  "checked_at": "2026-10-13T08:44:49.122Z",
+  "checked_at": "2026-10-13T15:10:45.737Z",
   "files": [
     "batch-069.md",
     "batch-069-fix-1.md",
@@ -11,7 +11,8 @@
     "batch-069-fix-6.md",
     "batch-069-fix-7.md",
     "batch-069-fix-8.md",
-    "batch-069-fix-9.md"
+    "batch-069-fix-9.md",
+    "batch-069-fix-10.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3205,12 +3206,12 @@
     },
     {
       "slug": "pihi",
-      "file": "batch-069-fix-6.md",
-      "entry_sha256": "68c45b394f90a57e5d89af30abc64e50e89d786dea65b9fcaff5e6ff9d693c0e",
+      "file": "batch-069-fix-10.md",
+      "entry_sha256": "1e23c726de0ddfbb465653f5818be5251d662826942d39b76a742fe15de11f39",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 5,
+        "claims": 10,
+        "sources": 8,
         "images": 0
       },
       "issues": [],
@@ -3283,6 +3284,36 @@
           "statement_id": "Kamus Kangxi mengutip Erya: di selatan ada burung 比翼鳥 yang tidak terbang bila tidak berpasangan, bernama 鶼鶼; catatan Guo menyebutnya menyerupai bebek, berwarna biru kemerahan, bermata satu dan bersayap satu, dan terbang hanya bila bersama.",
           "quote": "《爾雅·釋鳥》南方有比翼鳥焉，不比不飛，其名謂之鶼鶼。《郭註》似鳧，靑赤色，一目一翼，相得乃飛。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pihi-c08",
+          "source_id": "pihi-s6",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing records a duck-like bird (鳧) with one wing and one eye that can fly only when paired (相得乃飛), named 蠻蠻; an inline note calls it the 比翼鳥, blue-red, unable to fly unless paired, and the text states that its appearance (見) means a great flood across the world (天下, \"all under heaven\").",
+          "statement_id": "Shanhaijing mencatat burung berbentuk seperti bebek (鳧), bersayap satu dan bermata satu, yang baru bisa terbang bila berpasangan (相得乃飛), bernama 蠻蠻; catatan di dalam teks menyebutnya 比翼鳥 berwarna biru-merah yang tidak bisa terbang tanpa pasangan, dan teks menulis bahwa kemunculannya (見) berarti banjir besar di seluruh 天下 (segala yang di bawah langit).",
+          "quote": "有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻〈比翼鳥也，色青赤，不比不能飛，爾雅作鶼鶼鳥也。〉，見則天下大水。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pihi-c09",
+          "source_id": "pihi-s7",
+          "host": "zh.wikisource.org",
+          "statement": "The Ruiying tu, quoted in the Taiping Yulan, states that the 比翼鳥 comes when a ruler's virtue reaches far and high; another version says it comes when the ruler has filial virtue (孝德).",
+          "statement_id": "Ruiying tu, yang dikutip dalam Taiping Yulan, menyatakan bahwa burung 比翼鳥 datang bila kebajikan seorang raja menjangkau jauh dan tinggi; satu versi lain menyebut bila sang raja memiliki kebajikan berbakti (孝德).",
+          "quote": "《瑞應圖》曰：王者德及高遠，則比翼鳥至。一本云：王者有孝德則至。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pihi-c10",
+          "source_id": "pihi-s8",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiyi ji records that the state of 燃丘 (Ranqiu) presented a pair of 比翼鳥, male and female, in a jade cage; the bird is described as strong (多力), shaped like a magpie (鵲), carrying red mud (丹泥) from the Southern Sea (南海), nesting in dark wood (玄木) on 昆岑, and coming to gather when it meets a sage, as an auspicious wonder showing the Duke of Zhou (周公, Zhou Gong) assisting the sage.",
+          "statement_id": "Shiyi ji mencatat bahwa negeri 燃丘 (Ranqiu) mempersembahkan sepasang 比翼鳥, jantan dan betina, dalam sangkar giok; burung itu disebut kuat (多力), berbentuk seperti magpie (鵲), membawa lumpur merah (丹泥) dari Laut Selatan (南海), bersarang di kayu gelap (玄木) di 昆岑, dan datang berkumpul bila bertemu orang suci, sebagai tanda ajaib bahwa Zhou Gong (周公) membantu sang bijak.",
+          "quote": "六年。燃丘之国献比翼鳥，雌雄各一，以玉為樊 ... 比翼鳥多力，狀如鵲，銜南海之丹泥，巢昆岑之玄木，遇聖則來集，以表周公輔聖之祥異也。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],

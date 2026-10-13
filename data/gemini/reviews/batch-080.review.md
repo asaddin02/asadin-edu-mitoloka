@@ -1,6 +1,6 @@
 # Review batch-080
 
-Diperiksa 2026-10-08T13:53:48.202Z. Berkas: batch-080.md, batch-080-fix-1.md, batch-080-fix-2.md, batch-080-fix-3.md, batch-080-fix-4.md, batch-080-fix-5.md.
+Diperiksa 2026-10-13T15:10:48.703Z. Berkas: batch-080.md, batch-080-fix-1.md, batch-080-fix-2.md, batch-080-fix-3.md, batch-080-fix-4.md, batch-080-fix-5.md, batch-080-fix-6.md.
 
 ## ifrit — lulus-otomatis
 
@@ -48,7 +48,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## mushussu — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -58,6 +58,12 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | mushussu-c04 | exact | en.wikipedia.org | Mushussu is the sacred animal of Marduk and Nabu. | The mušḫuššu was the sacred animal of Marduk and his son Nabu |
 | mushussu-c05 | exact | en.wikipedia.org | Marduk takes over the creature’s association from Tishpak of Eshnunna. | It was taken over by Marduk from Tishpak, the local god of Eshnunna. |
 | mushussu-c06 | exact | www.worldhistory.org | The accompanying source interprets Mushhushshu’s name as Furious Snake. | whose name translates as `furious snake'. |
+| mushussu-c07 | exact | www.worldhistory.org | World History Encyclopedia calls the Mushhushshu a Babylonian protective spirit featured prominently on the Ishtar Gate; the god who controlled it was considered the supreme god, so many early gods were associated with this creature until, finally, it became linked with Marduk. | The Babylonian protective spirit, featured prominently on the Ishtar Gate of Babylon ... The god who controlled the Mushhushshu was considered the supreme god and so many early gods were associated with this creature until, finally, it became linked with Marduk. |
+| mushussu-c08 | exact | www.worldhistory.org | World History Encyclopedia lists the "snake-dragon" Mushhushshu among the eleven terrifying monsters created by Tiamat to avenge the death of Apsu and destroy the younger gods. | Eleven terrifying monsters created by Tiamat to avenge the death of Apsu and destroy the younger gods. ... the snake-dragon Mushhushshu |
+| mushussu-c09 | exact | www.worldhistory.org | According to World History Encyclopedia, all eleven of Tiamat's creatures were defeated by Marduk, who preserved images of them in the watery remains of Abzu to commemorate his victory; they were made ample use of by the people of Mesopotamia in magical incantations and to ward off evil and the forces of chaos. | All eleven of Tiamat's creatures were defeated by Marduk who preserved images of them in the watery remains of Abzu to commemorate his victory. They were made ample use of by the people of Mesopotamia in magical incantations and to ward off evil and the forces of chaos. |
+| mushussu-c10 | exact | www.worldhistory.org | World History Encyclopedia writes that the animals on the Ishtar Gate are young bulls (aurochs), lions, and dragons (sirrush), symbolic representations of certain deities: lions are associated with Ishtar, bulls with Adad, and dragons with Marduk. | The animals represented on the gate are young bulls (aurochs), lions, and dragons (sirrush). These animals are symbolic representations of certain deities: lions are often associated with Ishtar, bulls with Adad, and dragons with Marduk. |
+| mushussu-c11 | exact | www.worldhistory.org | In the dedication plaque of the Ishtar Gate, presented by World History Encyclopedia from Nebuchadnezzar's point of view, the speaker states that he placed wild bulls and ferocious dragons in the gateways and adorned them with luxurious splendor so that people might gaze on them in wonder. | I placed wild bulls and ferocious dragons in the gateways and thus adorned them with luxurious splendor so that people might gaze on them in wonder |
+| mushussu-c12 | exact | en.wikipedia.org | Wikipedia states that the dragon Mušḫuššu, whom Marduk once vanquished, became his symbolic animal and servant. | The dragon Mušḫuššu, whom Marduk once vanquished, became his symbolic animal and servant. |
 
 
 ## ninsun — lulus-otomatis
@@ -556,7 +562,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## nisroch — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 2, gambar 0.
+Klaim 19 (exact 19), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -569,6 +575,16 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 | nisroch-c07 | exact | ja.wikipedia.org | Austen Henry Layard identified an eagle-headed relief he excavated in Ashurnasirpal II's palace at Kalhu (modern Nimrud) as Nisroch, but it is known not to have existed in Sennacherib's time. | オースティン・ヘンリー・レヤードはカラフ（現在のニムルド）のアッシュル・ナツィルパル2世の宮殿で発掘した鷲頭のレリーフをニスロクと同定したが、これはセンナケリブの時代には存在しなかったことが知られている。 |
 | nisroch-c08 | exact | ja.wikipedia.org | In Collin de Plancy's Dictionnaire infernal, Nisroch is a second-rank demon, Beelzebub's head cook, and master of temptation through delicacies and the pleasures of the table. | コラン・ド・プランシーの『地獄の辞典』では、第二級の魔神、ベルゼビュートの料理長、美味による誘惑と食卓の楽しみの権威者とされている。 |
 | nisroch-c09 | exact | ja.wikipedia.org | In John Milton's Paradise Lost, Nisroch appears as a rebel angel and is called the chief of the Principalities. | ジョン・ミルトンの『失楽園』にも反逆天使として登場し、権天使の長とされている。 |
+| nisroch-c10 | exact | www.come-and-hear.com | In the Talmud (Sanhedrin 96a), the figure in the account finds a plank of Noah's ark and says that it must be "the great God who saved Noah from the flood"; he vows that, if he goes [to battle] and is successful, he will sacrifice his two sons to it. | He then went away and found a plank of Noah's ark. 'This', said he, 'must be the great God who saved Noah from the flood. ... [to battle] and am successful, I will sacrifice my two sons to thee', he vowed. |
+| nisroch-c11 | exact | www.come-and-hear.com | In the Talmud (Sanhedrin 96a), his sons heard the vow and killed him, and the text ties this to the verse about worshipping in the house of Nisroch his god, when Adrammelech and Sharezer his sons smote him with the sword. | But his sons heard this, so they killed him, as it is written, And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword etc. |
+| nisroch-c12 | exact | en.wikisource.org | Easton's Bible Dictionary says Nisroch is probably connected with the Hebrew word nesher, an eagle, and calls him an Assyrian god supposed to be the one represented with the head of an eagle. | Nisroch, probably connected with the Hebrew word nesher, an eagle. An Assyrian god, supposed to be that represented with the head of an eagle. |
+| nisroch-c13 | exact | www.biblegateway.com | According to 2 Kings 19 (KJV), that night the angel of the Lord went out and smote in the camp of the Assyrians 185,000 (an hundred fourscore and five thousand), and when they arose early in the morning they were all dead corpses; Sennacherib king of Assyria then departed, returned, and dwelt at Nineveh. | And it came to pass that night, that the angel of the Lord went out, and smote in the camp of the Assyrians an hundred fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses. ... So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh. |
+| nisroch-c14 | exact | en.wikisource.org | A footnote in the Hezekiah article of the 1911 Encyclopaedia Britannica states that the house of Nisroch should probably be that of the god Nusku. | The house of Nisroch should probably be that of the god Nusku; |
+| nisroch-c15 | exact | en.wikisource.org | According to the Catholic Encyclopedia (1913, article Assyria), an inscription of Asshur-banipal, Sennacherib's grandson, clearly affirms that the tragedy took place in Babylon, in the temple of Marduk, of which Nesroch or Nisroch is probably a corruption. | an inscription of Asshur-banipal, Sennacherib's grandson, clearly affirms that the tragedy took place in Babylon, in the temple of Marduk (of which Nesroch, or Nisroch, is probably a corruption). |
+| nisroch-c16 | exact | en.wikipedia.org | English Wikipedia states that the name is most likely a scribal error for "Nimrod", and that most scholars consider this the most likely explanation given that no Assyrian deity by the name of "Nisroch" has ever been attested. | The name is most likely a scribal error for "Nimrod ... the fact that no Assyrian deity by the name of "Nisroch" has ever been attested, most scholars consider this error to be the most likely explanation for the name. |
+| nisroch-c17 | exact | en.wikipedia.org | English Wikipedia notes that the name is unknown in Mesopotamian sources but has been tentatively identified as the god of agriculture; if Nisroch is Ninurta, Ninurta's temple at Kalhu would be the most likely location of Sennacherib's murder. | The name is unknown in Mesopotamian sources, but it has been tentatively identified as the god of agriculture. If "Nisroch" is Ninurta, this would make Ninurta's temple at Kalhu the most likely location of Sennacherib's murder. |
+| nisroch-c18 | exact | en.wikipedia.org | English Wikipedia says other scholars have attempted to identify Nisroch as Nusku, the Assyrian god of fire, while Hans Wildberger rejects all suggested identifications as linguistically implausible. | Other scholars have attempted to identify Nisroch as Nusku, the Assyrian god of fire. Hans Wildberger rejects all suggested identifications as linguistically implausible. |
+| nisroch-c19 | exact | en.wikipedia.org | English Wikipedia states that in the Talmud "Nisroch" is said to derive from the Hebrew word "neser", the name given to a plank of wood discovered by Sennacherib on his return to Assyria from his campaign in Judah; the sages write that the plank was originally part of Noah's Ark and that Sennacherib worshiped it as an idol. | In the Talmud, "Nisroch" is actually said to be derived from the Hebrew word "neser." Neser was the name given to a plank of wood discovered by Sennacherib on his return to Assyria from his campaign in Judah. The sages write that this plank was originally part of Noah's Ark, and that Sennacherib worshiped it as an idol. |
 
 
 ## anqa — lulus-otomatis

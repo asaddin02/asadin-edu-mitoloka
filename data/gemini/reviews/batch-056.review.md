@@ -1,6 +1,6 @@
 # Review batch-056
 
-Diperiksa 2026-10-08T15:09:25.565Z. Berkas: batch-056.md, batch-056-fix-1.md, batch-056-fix-2.md, batch-056-fix-3.md, batch-056-fix-4.md, batch-056-fix-5.md, batch-056-fix-6.md, batch-056-fix-7.md.
+Diperiksa 2026-10-13T15:02:55.508Z. Berkas: batch-056.md, batch-056-fix-1.md, batch-056-fix-2.md, batch-056-fix-3.md, batch-056-fix-4.md, batch-056-fix-5.md, batch-056-fix-6.md, batch-056-fix-7.md, batch-056-fix-8.md.
 
 ## ichikishimahime — lulus-otomatis
 
@@ -707,11 +707,11 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## wd-q11182043 — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 4, gambar 0.
+Klaim 15 (exact 15), sumber 9, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q11182043-c01 | exact | ja.wikipedia.org | Baxia is counted among the nine offspring of the dragon. | 𧈢𧏡（はか、拼音：Bāxià）は、竜生九子の一つ。覇下とも書かれる。 |
+| wd-q11182043-c01 | exact | ja.wikipedia.org | Baxia is counted among the nine offspring of the dragon. | はか、拼音：Bāxià）は、竜生九子の一つ。覇下とも書かれる。 |
 | wd-q11182043-c02 | exact | ja.wikipedia.org | It is associated with water and carved on pillars, gutters, bridges and outlets. | 水を好み、柱や雨樋、橋や、水路の出口の意匠として彫られる。中国の故宮などの建物の欄干からたくさん頭を突き出した龍に似た動物がこれである。 |
 | wd-q11182043-c03 | exact | ja.wikipedia.org | Dragonlike heads projecting from Forbidden City railings exemplify the motif. | 水を好み、柱や雨樋、橋や、水路の出口の意匠として彫られる。中国の故宮などの建物の欄干からたくさん頭を突き出した龍に似た動物がこれである。 |
 | wd-q11182043-c04 | exact | zh.wikisource.org | The Yŏrha ilgi (熱河日記) quotes a list from 楊用修's 丹鉛錄: the dragon's nine sons did not become dragons; the first is 贔屭, and the sixth is 𧈢𧏡, which by nature likes water (性好水) and stands on bridge pillars (立橋柱). | 楊用修丹鉛錄曰。龍產九子不成龍。一曰贔屭。 ... 六曰𧈢𧏡。性好水。立橋柱。 |
@@ -719,6 +719,13 @@ Klaim 8 (exact 8), sumber 4, gambar 0.
 | wd-q11182043-c06 | exact | zh.wikisource.org | The same text cites the Zonggui (總龜): one of the dragon's sons, 覇夏, likes bearing heavy loads and so serves as a stele base, and 贔屭 likes literature and is found at the sides of the inscription. The author concludes that the accounts differ, asks how the dragon sons' names and natures can be known, and says old theories of this kind are mostly embellishment. | 又總龜云。龍之九子。一名覇夏。好負重。故爲碑座。贔屭。好文故在碑文兩旁。諸說亦各不同。龍子名號及性情。何以知之。古說傅會多此類。 |
 | wd-q11182043-c07 | exact | zh.wikisource.org | The Kangxi Dictionary, in its entry 贔, quotes the Bencao (本草): 贔屭 (Bixi) is a large turtle of the 蟕蠵 kind that likes bearing heavy loads, "or named 𧈢𧏡". | 《本草》贔屭，大龜，蟕蠵之屬，好負重。或名𧈢𧏡。今石𥓓下龜跌象其形。 |
 | wd-q11182043-c08 | exact | zh.wikipedia.org | Chinese Wikipedia says that 𧈢𧏡 (bā xià) is often wrongly written 蚣蝮 (gōng fù); it is one of the dragon's sons, fond of water, carved as bridge pillars and as drain-spout beasts on buildings. | 常被误写作 蚣 （ gōng ） 蝮 （ fù ） ，传说中龙生九子之一，性喜水，被雕成桥柱、建筑上滴水的兽形。 |
+| wd-q11182043-c09 | exact | cyberleninka.ru | According to Somkina, Baxia, though it also resembles a tortoise, does not like to carry weights on its back at all; it likes water instead, especially to spit it, is seen on bridges and buildings near water, and its head usually forms the end of drains. | Baxia, even though he also resembles a tortoise, does not like to carry weights on his back at all - instead, he likes water, especially to spit it. Baxia can be seen on bridges and buildings located near the water. Besides, his head usually ends drains. |
+| wd-q11182043-c10 | exact | cyberleninka.ru | According to Somkina, some of the dragon's offspring partly derived the dragon's functions, namely water control in the case of Baxia and Chiwen. | others partly derived his functions (water control - baxia, chiwen) |
+| wd-q11182043-c11 | exact | young.dpm.org.cn | According to the Palace Museum website, 霸下 (Baxia) is a strongman who legend says can carry the "three mountains and five peaks" (三山五岳); turtle-bodied and dragon-headed, it is a symbol of longevity and good fortune, and huge steles are set on it in the hope that its divine strength will keep them standing for ever. | 霸下是个大力士，传说能驮动三山五岳。身形似龟，头部却似龙，是长寿和吉祥的象征。人们将巨大的石碑立在霸下身上，希望依靠它的神力可以经久不倒永存千秋。 |
+| wd-q11182043-c12 | exact | english.visitbeijing.com.cn | According to Visit Beijing, Baxia (蚣蝮) is often engraved on top of the railing of a stone bridge and is called the guardian of the ancient bridges. | He is often engraved on top of a stone bridge’s railing. He is the guardian of the ancient bridges. |
+| wd-q11182043-c13 | exact | en.wikipedia.org | According to English Wikipedia, Li Dongyang (1441–1516) in the Huai Lu Tang Ji and Xie Zhaozhe call the tortoise that carries the stele baxia (霸下), not bixi, and apply the name bixi to the "literature-loving" dragons at the sides of the stele. | both Li Dongyang (1441–1516), in his Huai Lu Tang Ji, and Xie Zhaozhe ... refer to the tortoise that carries the stele by the name baxia (霸下 ), rather than bixi; at the same time they apply the name bixi to the "literature-loving" dragons that appear on the sides of the stele |
+| wd-q11182043-c14 | exact | www.dpm.org.cn | According to the Palace Museum (Beijing) website, these dragon sons are all developments of the dragon pattern: they enrich the decorative themes of the dragon, add formal beauty to China's ancient buildings and objects, and have long been auspicious patterns people enjoy. | 不管怎样，这些龙子都是龙纹的发展演变，它不仅丰富了龙的装饰题材，而且还增添了我国古建筑和器物的形体美，一直是人们喜闻乐见的吉祥纹样。 |
+| wd-q11182043-c15 | exact | cyberleninka.ru | Somkina concludes that the dragon's offspring primarily performed a protective (chiwen, chaofeng), an applied (bixi, baxia) or a symbolic-aesthetic function (qiuniu, fuxi), sometimes several at once. | The nine offspring of the dragon primarily performed a protective (chiwen, chaofeng), an applied (bixi, baxiá) or a symbolical esthetic (qiuniu, fuxi function, sometimes fulfilling several at once. |
 
 
 ## wd-q11298280 — lulus-otomatis
@@ -738,7 +745,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## wd-q757964 — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 4, gambar 0.
+Klaim 13 (exact 13), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -749,6 +756,12 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 | wd-q757964-c05 | exact | zh.wikisource.org | The author of the Shuo Lüe recalls seeing the theory in the Duilei zonggui (對類總龜) when he was eleven or twelve, but after examining records he concluded that it was not canonical (不經). Of the names he discusses, he found none in records described as a dragon's son; 囚牛, 嘲風 (Chaofeng) and 霸下 he left as "to be examined" (俟考). | 余憶十一、二時，曾見其說於《對類總龜》中，近因歴考傳記，乃知其說為不經。 ... 已上都不見有龍子之說，囚牛、嘲風、霸下，俟考。 |
 | wd-q757964-c06 | exact | zh.wikisource.org | In the Yŏrha ilgi (熱河日記): the Duilei zonggui (對類總龜) names one of the dragon's sons 嘲風, which likes danger (好險) and stands at palace corners, and another, 蚩吻, which likes swallowing; the Bowuzhi yipian (博物志逸篇) instead says that 螭吻 (Chiwen), which likes to look out, stands at the palace corner. The author says the accounts differ, asks how the dragon sons' names and natures can be known, and says old theories of this kind are mostly embellishment. | 對類總龜謂龍產九子。一名嘲風。好險。立殿角。一名蚩吻。好呑。立殿脊。博物志逸篇云。螭吻。形似獸。性好望。故立殿角。 ... 諸說亦各不同。龍子名號及性情。何以知之。古說傅會多此類。 |
 | wd-q757964-c07 | exact | zh.wikisource.org | In the Yangsheng fuyu (養生膚語, by Chen Jiru, Ming), 嘲風 is said to have liked danger all its life (平生好險), and the running beasts on palace corners are its likeness (今殿角走獸是). | 嘲風，平生好險，今殿角走獸是。蒲牢，平生好鳴，今鐘上獸紐是。狻猊，平生好坐，今佛座獅子是。 |
+| wd-q757964-c08 | exact | cyberleninka.ru | According to Somkina, Chaofeng is a small dog-like dragon; it can be seen sitting on the roof hips, from where it watches for any danger that may approach the house. | is a small dog-like dragon. He can be seen sitting on roof hips, whence he watches for any danger that may approach the house. |
+| wd-q757964-c09 | exact | cyberleninka.ru | According to Somkina, it is suggested that Chaofeng is able to warn the hosts of an imminent misfortune and even to prevent it. | It is suggested that he is able to warn the hosts of an imminent misfortune and even to prevent it. |
+| wd-q757964-c10 | exact | young.dpm.org.cn | According to the Palace Museum website, Chaofeng is the "explorer" among the dragon sons and likes to look far from a high place; its imposing figure is found on the eaves of the Forbidden City palaces, and people also hope it will protect the home and keep it safe. | 嘲风是龙子里的探险家，喜欢居高望远。抬头看看紫禁城宫殿的檐角，就能找到它威风凛凛的身影。有了它整个宫殿整体造型更加美观，同时人们也希望这位龙子能够护佑家宅平安。 |
+| wd-q757964-c11 | exact | zh.wikipedia.org | According to Mandarin Wikipedia, Chaofeng has the form of a phoenix, an incarnation of a bird, likes danger, is generally on the roof of a palace or house, and serves to overawe demons, drive away disasters and remove harm; the running beasts at palace corners are now taken as its image. | 嘲風，龍生九子之一，有鳳凰的形象，是鳥的化身，平生好險，一般在殿或屋的房頂上，有震懾妖魔，驅災除害的作用。如今殿角走獸即是其形象。 |
+| wd-q757964-c12 | exact | www.dpm.org.cn | According to the Palace Museum (Beijing) website, these dragon sons are all developments of the dragon pattern: they enrich the decorative themes of the dragon, add formal beauty to China's ancient buildings and objects, and have long been auspicious patterns people enjoy. | 不管怎样，这些龙子都是龙纹的发展演变，它不仅丰富了龙的装饰题材，而且还增添了我国古建筑和器物的形体美，一直是人们喜闻乐见的吉祥纹样。 |
+| wd-q757964-c13 | exact | cyberleninka.ru | Somkina concludes that the dragon's offspring primarily performed a protective (chiwen, chaofeng), an applied (bixi, baxia) or a symbolic-aesthetic function (qiuniu, fuxi), sometimes several at once. | The nine offspring of the dragon primarily performed a protective (chiwen, chaofeng), an applied (bixi, baxiá) or a symbolical esthetic (qiuniu, fuxi function, sometimes fulfilling several at once. |
 
 
 ## wd-q757989 — lulus-otomatis

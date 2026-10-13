@@ -1,6 +1,6 @@
 # Review batch-142
 
-Diperiksa 2026-10-07T04:32:08.345Z. Berkas: batch-142.md, batch-142-fix-1.md, batch-142-fix-2.md, batch-142-fix-3.md, batch-142-fix-4.md, batch-142-fix-5.md, batch-142-fix-6.md, batch-142-fix-7.md.
+Diperiksa 2026-10-13T15:13:26.132Z. Berkas: batch-142.md, batch-142-fix-1.md, batch-142-fix-2.md, batch-142-fix-3.md, batch-142-fix-4.md, batch-142-fix-5.md, batch-142-fix-6.md, batch-142-fix-7.md, batch-142-fix-8.md.
 
 ## chupacabra — lulus-otomatis
 
@@ -980,7 +980,7 @@ Klaim 17 (exact 17), sumber 3, gambar 0.
 
 ## champ-folklore — lulus-otomatis
 
-Klaim 19 (exact 19), sumber 2, gambar 0.
+Klaim 27 (exact 27), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1003,6 +1003,14 @@ Klaim 19 (exact 19), sumber 2, gambar 0.
 | champ-folklore-c17 | exact | www.ebsco.com | In 1977 the Mansi photograph surfaced, which appeared to be documented proof of Champ's existence; in the early 1980s both Vermont and New York passed laws protecting the habitat and life of Champ. | In 1977, the Mansi photograph surfaced, which appeared to be documented proof of Champ’s existence. In the early 1980s both Vermont and New York passed laws protecting the habitat and life of Champ. |
 | champ-folklore-c18 | exact | www.ebsco.com | The theories that attempt to disprove Champ's existence rely on the facts that the lake is not large enough for a creature of Champ's size to hide and survive, and that there is no physical proof of Champ's existence. | The theories that attempt to disprove Champ’s existence rely on the facts that the lake is not large enough for a creature of Champ’s size to hide and survive; ... and that there is no physical proof of Champ’s existence. |
 | champ-folklore-c19 | exact | www.ebsco.com | Several explanations are posited for the photographs, video, and testimony for Champ; the three major categories are hoaxes, confusion with inanimate objects, and misidentification of other animals. | There are several possible explanations that are posited to explain the nature of the photographs, video, and testimony for Champ. The three major categories of explanations are hoaxes, confusion with inanimate objects, and misidentification of other animals. |
+| champ-folklore-c20 | exact | www.lakechamplainregion.com | The Abenaki and the Iroquois, who have long lived and hunted near Lake Champlain, have legends of a large creature inhabiting the lake that looked like a large horned serpent or giant snake; the Abenaki term for it is Gitaskog. | The Indigenous people that have long lived and hunted near Lake Champlain, the Abenaki and the Iroquois, have their own legends about a large creature inhabiting the lake, which looked like a large, horned serpent or giant snake. The Abenaki term for this creature is Gitaskog. |
+| champ-folklore-c21 | exact | www.lakechamplainregion.com | Early in the 18th century the Abenaki warned French explorers not to disturb the waters of the lake, so as not to disturb the serpent. | Early in the 18th century, Abenakis warned French explorers about disturbing the waters of the lake, so as not to disturb the serpent. |
+| champ-folklore-c22 | exact | www.livescience.com | Live Science quotes sociologist Robert Bartholomew as noting that Native Americans along Lake Champlain told stories of a mysterious 'horned serpent' said to reside in the lake, and that in the early seventeenth century Abenaki guides told French captains to be careful not to disturb the monsters living in the lake's waters. | sociologist Robert Bartholomew notes that "Native Americans living along Lake Champlain told stories of a mysterious 'horned serpent' that was said to reside in the lake. In the early seventeenth century, Abenaki [Indian] guides told French captains to be careful not to disturb the monsters that live in the waters of Lake Champlain." |
+| champ-folklore-c23 | exact | www.livescience.com | Live Science writes that many native stories and legends described water spirits in lakes and rivers, but that these were spiritual entities with supernatural powers, not large unknown animals literally swimming in lakes. | Many native stories and legends described water spirits in lakes and rivers, but they were spiritual entities with supernatural powers, not large unknown animals literally swimming in lakes. |
+| champ-folklore-c24 | exact | www.livescience.com | According to Live Science, descriptions of Champ vary, but most suggest a creature between 20 and 80 feet long with a series of distinct humps and a serpentine body. | Descriptions of Champ vary, but most suggest a creature between 20 and 80 feet long, with a series of distinct humps and a serpentine body. |
+| champ-folklore-c25 | exact | www.lakechamplainregion.com | In 1873 the steamship W.B. Eddy reportedly encountered Champ by running into it in August; according to the tourists on board, the ship nearly turned over. | 1873 was a busy year for Champ. ... Then in August, the steamship W.B. Eddy encountered Champ by running into it. The ship nearly turned over, according to the tourists on board. |
+| champ-folklore-c26 | exact | www.ebsco.com | According to EBSCO, in 1873 the New York Times reported on Champ's existence: a county sheriff claimed to have seen it, and a steamboat is alleged to have run into Champ. | In 1873, the New York Times reported on the existence of Champ—a county sheriff claimed to have seen it, and a steamboat is alleged to have run into Champ. |
+| champ-folklore-c27 | exact | www.ebsco.com | According to EBSCO, Crum described the creature raising its neck and head 15 feet out of the water and being accompanied by two sturgeon and a bill fish. | Crum described the creature as raising its neck and head 15 feet out of the water, and being accompanied by two sturgeon and a bill fish. |
 
 
 ## nagual — lulus-otomatis
@@ -1261,7 +1269,7 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## cadborosaurus — lulus-otomatis
 
-Klaim 16 (exact 16), sumber 3, gambar 0.
+Klaim 21 (exact 21), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1281,6 +1289,11 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 | cadborosaurus-c14 | exact | www.theguardian.com | A photo of the creature, called the "Cadborosaurus" by locals, appeared on the front page of a local newspaper on 31 October 1937. | A photo of the creature, called the “Cadborosaurus”, by locals, appeared on the front page of a local newspaper on 31 October 1937 |
 | cadborosaurus-c15 | exact | blogs.scientificamerican.com | Naish argues that the cryptids that Bousfield, LeBlond and like-minded cryptozoologists believe in are composite entities, constructed by combining observations of different species and/or phenomena. | one of the many failings of Bousfield, LeBlond and like-minded cryptozoologists is that they’re unable or unwilling to realise that the cryptids they believe in are composite entities, constructed by combining observations of different species and/or phenomena |
 | cadborosaurus-c16 | exact | blogs.scientificamerican.com | Naish describes Cadborosaurus as a marine, horse-headed "mega-serpent" supposedly reported by witnesses from the waters off British Columbia and elsewhere in the North Pacific. | a marine, horse-headed ‘mega-serpent’, supposedly reported by witnesses from the waters off British Columbia and elsewhere in the North Pacific |
+| cadborosaurus-c17 | exact | www.cowichanvalleycitizen.com | According to this newspaper column, the first reported sighting of Caddy came from seaman James F. Murray, fishing off the Victoria breakwater in the fall of 1928; Murray said Caddy moved fast, at about eight knots, 25 yards away, then submerged and came up seemingly only seconds later almost a mile away. | The first reported sighting of Caddy is that of seaman James F. Murray who was fishing off the Victoria breakwater in the fall of 1928. Caddy, said Murray, ... moved fast, at about eight knots, 25 yards from me, then submerged and came up seemingly only seconds later almost a mile away. |
+| cadborosaurus-c18 | exact | www.cowichanvalleycitizen.com | In the same month as the credible encounter of Oct. 5, 1933, a telegraph lineman working between Jordan River and Port Renfrew claimed to have shot a serpent; he said that when struck in the head by his .30.30 slug it thrashed wildly, thrust its head 15 feet above the surface and paddled off. | One of the most credible encounters occurred on Oct. 5, 1933 ... The same month, a telegraph lineman working between Jordan River and Port Renfrew claimed to have shot a serpent. He said that when struck in the head by his .30.30 slug, it thrashed wildly, thrust its head 15 feet above the surface and paddled off. |
+| cadborosaurus-c19 | exact | www.cowichanvalleycitizen.com | Cdr. Clayards, who at the time of his encounter with Caddy was security officer at Esquimalt Naval Base, said he did not mind admitting he was terrified, especially when it snapped its jaws. | Another obstacle to obtaining a photograph is the condition of the witness, as explained by a Cdr. Clayards. At the time of his encounter with Caddy, he was security officer at Esquimalt Naval Base. He said, ... I don't mind admitting that I was terrified, especially when he snapped his jaws. |
+| cadborosaurus-c20 | exact | www.cowichanvalleycitizen.com | According to the column, before 1959 no fewer than 600 people reported sighting the mysterious creature. | Prior to 1959, no fewer than 600 people reported sighting the mysterious creature. |
+| cadborosaurus-c21 | exact | en.wikipedia.org | A native image that fits Caddy's description has traditionally been used throughout Alaska and indicates that Caddy or a Caddy-like creature moves north from Vancouver when the waters warm; the Inuit of Alaska have even put the picture on their canoes to keep the creature away. | A native image that fits Caddy's description has been traditionally used throughout Alaska. The image indicates that Caddy or a Caddy-like creature moves north from Vancouver when the waters warm. The Inuit of Alaska have even put the picture on their canoes to keep the creature away. |
 
 
 ## goatman-urban-legend — lulus-otomatis

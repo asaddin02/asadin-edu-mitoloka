@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-141",
-  "checked_at": "2026-10-06T05:05:22.813Z",
+  "checked_at": "2026-10-13T15:15:14.147Z",
   "files": [
     "batch-141-s1.md",
     "batch-141-u7.md",
     "batch-141-v7.md",
     "batch-141-v8.md",
-    "batch-141.md"
+    "batch-141.md",
+    "batch-141-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [
@@ -24,11 +25,11 @@
   "entries": [
     {
       "slug": "winged-cat",
-      "file": "batch-141-s1.md",
-      "entry_sha256": "ab060462287b584d91b918b3d2f4861510fe13cfa22964873a00aa915f096b15",
+      "file": "batch-141-fix-1.md",
+      "entry_sha256": "c52fe1c09f2d6a84b98bf2de5310545ca0666abda1e8214d42b7fb0ef6ae78e6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 21,
         "sources": 4,
         "images": 0
       },
@@ -182,6 +183,66 @@
           "statement_id": "Catwings adalah serangkaian buku bergambar anak 1988–1999 karya Ursula K. Le Guin yang menampilkan beberapa kucing bersayap.",
           "quote": "Catwings, a 1988–1999 series of children's picture books by Ursula K. Le Guin, features several winged cats.",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "winged-cat-c16",
+          "source_id": "winged-cat-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1897 a tortoiseshell cat with pheasant-like wings was reported shot and killed in Matlock, Derbyshire; witnesses claimed it used its outstretched wings to help it run faster.",
+          "statement_id": "Pada 1897 dilaporkan seekor kucing belang tiga bersayap seperti burung pegar di Matlock, Derbyshire, ditembak mati; para saksi mengklaim kucing itu merentangkan sayapnya untuk membantunya berlari lebih cepat.",
+          "quote": "In 1897, a tortoiseshell cat with pheasant-like wings projecting from each side of its 4th ribs was reported shot and killed in Matlock, Derbyshire. The story appeared in the High Peak News of Saturday, 26 June 1897. Witnesses claimed the cat used its wings outstretched to help run faster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "winged-cat-c17",
+          "source_id": "winged-cat-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1933 or 1934 a winged black-and-white cat was claimed to have been captured in Oxford, England, by Mrs Hughes Griffiths, who claimed it used its six-inch wings to aid in jumping long distances.",
+          "statement_id": "Pada 1933 atau 1934, seekor kucing hitam-putih bersayap diklaim tertangkap di Oxford, Inggris, oleh Mrs Hughes Griffiths, yang mengklaim kucing itu memakai sayapnya yang sepanjang enam inci untuk membantu melompat jauh.",
+          "quote": "In 1933 or 1934, a winged black-and-white cat was claimed to have been captured in Oxford, England by Mrs Hughes Griffiths. She claimed it used its six-inch wings to aid in jumping long distances.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "winged-cat-c18",
+          "source_id": "winged-cat-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1975 the Manchester Evening News published a photograph of a winged cat that had lived in the Banister Walton & Co builder's yard at Trafford Park, Manchester, England, during the 1960s; workmen reported that it could raise its wings above its body.",
+          "statement_id": "Pada 1975 Manchester Evening News menerbitkan foto seekor kucing bersayap yang pada 1960-an tinggal di halaman pembangun Banister Walton & Co di Trafford Park, Manchester, Inggris; para pekerja melaporkan bahwa kucing itu dapat mengangkat sayapnya di atas tubuh.",
+          "quote": "In 1975, the Manchester Evening News published a photograph of a winged cat which had lived in the Banister Walton & Co builder's yard at Trafford Park, Manchester, England, during the 1960s. ... Workmen reported that the cat could raise its wings above its body, suggesting the deformity contained muscle as well as skin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "winged-cat-c19",
+          "source_id": "winged-cat-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2004, at Bukreyevk (near Kursk), Central Russia, a winged ginger stray tomcat named Vaska was drowned by superstitious villagers, according to the local newspaper Komsomolskaya Pravda.",
+          "statement_id": "Pada 2004, di Bukreyevk (dekat Kursk), Rusia Tengah, seekor kucing jantan liar berwarna jahe, bersayap, bernama Vaska, ditenggelamkan oleh penduduk desa yang percaya takhayul, menurut surat kabar lokal Komsomolskaya Pravda.",
+          "quote": "In 2004, at Bukreyevk (near Kursk), Central Russia, a winged, ginger, stray tomcat named Vaska was drowned by superstitious villagers, according to the local Komsomolskaya Pravda newspaper.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "winged-cat-c20",
+          "source_id": "winged-cat-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The Japanese-language article states that winged cats basically cannot fly like birds; stories that one flew exist, but no case has been confirmed by photographs or the like.",
+          "statement_id": "Artikel berbahasa Jepang menyatakan bahwa pada dasarnya kucing bersayap tidak dapat terbang seperti burung; ada cerita bahwa ia terbang, tetapi belum ada contoh yang dikonfirmasi lewat foto dan sebagainya.",
+          "quote": "未確認動物とされる場合があるが多くの写真・資料、研究結果がある。基本的に鳥のように空を飛ぶことはできない。空を飛んだという話も存在するが写真などで確認された例はない。",
+          "context": "scholarly-interpretation",
+          "status": "loose"
+        },
+        {
+          "id": "winged-cat-c21",
+          "source_id": "winged-cat-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The Japanese-language article records that on 1 December 1884 the newspaper 『奥羽日日新聞』 reported the capture of a black cat flying about with outstretched wings in the mountains of Umakura village, Monou district, Miyagi Prefecture, Japan.",
+          "statement_id": "Artikel berbahasa Jepang mencatat bahwa pada 1 Desember 1884 surat kabar 『奥羽日日新聞』 melaporkan seekor kucing hitam yang terbang berkeliling dengan sayap terentang tertangkap di pegunungan Desa Umakura, Kabupaten Monou, Prefektur Miyagi, Jepang.",
+          "quote": "1884年12月1日、日本の宮城県桃生郡馬鞍村（現・石巻市）の山奥で、翼を広げて飛び回る黒猫が捕らえられたと、『奥羽日日新聞』で報じられた。",
+          "context": "historical-record",
           "status": "exact"
         }
       ],

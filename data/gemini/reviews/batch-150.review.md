@@ -1,6 +1,6 @@
 # Review batch-150
 
-Diperiksa 2026-10-13T08:44:08.022Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md, batch-150-fix-5.md, batch-150-fix-6.md, batch-150-fix-7.md.
+Diperiksa 2026-10-13T15:13:01.662Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md, batch-150-fix-5.md, batch-150-fix-6.md, batch-150-fix-7.md, batch-150-fix-8.md.
 
 ## bunyip — lulus-otomatis
 
@@ -1003,7 +1003,7 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## hahau-whenua — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 3, gambar 0.
+Klaim 15 (exact 15), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1014,6 +1014,14 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 | hahau-whenua-c05 | exact | archive.org | Tregear records that the word hahau means to seek or to search for. | HAHAU, to seek, to search for: Hei aha ma korua i hahauria ai teiia loahine |
 | hahau-whenua-c06 | exact | archive.org | According to Tregear, the North Island of New Zealand is well known as Te-Ika-a-Maui (The Fish of Maui). | The North Island of New Zealand is well-known as Te-Ika-a-Maui (The Fish of Maui) |
 | hahau-whenua-c07 | exact | en.wikipedia.org | According to Wikipedia, Māui pulled up a giant fish that became the North Island, known as Te Ika-a-Māui; the island's valleys and mountains were made by his brothers chopping up the fish. | He pulled up a giant fish which would become the North Island of New Zealand, known as Te Ika-a-Māui; the valleys and mountains of the island were made by his brothers chopping up the fish for themselves. |
+| hahau-whenua-c08 | exact | en.wikipedia.org | Māui hauled a great fish, known as Hāhau-whenua, up from the depths; thus the North Island of New Zealand is known as Te Ika-a-Māui (The Fish of Māui). | Māui hauled a great fish, known as Hāhau-whenua, up from the depths. Thus the North Island of New Zealand is known as Te Ika-a-Māui (The Fish of Māui). |
+| hahau-whenua-c09 | exact | en.wikipedia.org | Māui's brothers did not wait for him to return and began to cut up the fish, which writhed in agony and broke up into mountains, cliffs and valleys; had they listened to Māui, the island would have been a level plain easy to travel across. | They, however, did not wait for Māui to return but began to cut up the fish, which writhed in agony, causing it to break up into mountains, cliffs and valleys. If the brothers had listened to Māui, the island would have been a level plain, and people would have been able to travel with ease on its surface. |
+| hahau-whenua-c10 | exact | archive.org | Tregear records that the great fish rose steadily to the divine pulling of Maui; once it had emerged from the water, Maui went to find a priest to perform ceremonies and offer prayers of purification, leaving the fish (island) in the charge of his brothers. | The great fish rose steadily to the divine pulling of Maui, who, when it had emerged from the water, went away to find a priest to perform the fitting ceremonies, and offer prayers of purification; meanwhile leaving the fish (island) in charge of his brothers. |
+| hahau-whenua-c11 | exact | archive.org | Tregear records that Maui's brothers would not wait for his return and began to cut up the fish, which began to jump and wriggle about, whereupon the mountains and valleys appeared; without this the island would have been a level plain. | They, however, would not wait for the return of Maui, but began to cut up the fish, which ... began to jump and wriggle about ; whereupon the mountains and valleys ... ; the island but for this would have been a level plain. |
+| hahau-whenua-c12 | exact | www.gutenberg.org | In Dittmer's telling, Maui pulls and pulls for three moons and shouts to his brothers that what he has got in his hands he cannot let go again. | Ha, see how Maui pulls, and pulls, and pulls; see him pulling for three moons! Ha, listen how he shouts to his brothers: “What Maui has got in his hands he cannot let go again!” |
+| hahau-whenua-c13 | exact | www.gutenberg.org | In Dittmer's telling, Maui's fish swallows the hook, his line straightens, and his mighty strength presses the canoe under water. | Ha, see how his fish has swallowed the hook! Ha, see how his line straightens; see how Maui pulls and pulls with all his mighty strength! See, how his strength presses the canoe under water! |
+| hahau-whenua-c14 | exact | www.gutenberg.org | In Dittmer's telling, Maui's fish is this land, Te-ika-a-Maui, Aotea-roa; Maui's hook caught the house of the old Tonga-nui on the top of Tongariro and pulled all this beautiful land out of the sea. | Ha, friend, it is this land! It is Te-ika-a-Maui.--Aotea-roa, this land.--Ah, behold the wisdom of my ancestors: how Maui’s hook caught the house of the old Tonga-nui on the top of Tongariro, and pulled all this beautiful land out of the sea, Te-ika-a-Maui. |
+| hahau-whenua-c15 | exact | www.gutenberg.org | In Dittmer's telling, the canoe lay on the mountains at Hiku rangi and Maui's brothers took their weapons, wounded and killed the fish; from that time come the hills, valleys and mountains, the foot-prints of the brothers who did not follow Maui's bidding. | The canoe was now lying on the mountains at Hiku rangi, and Maui’s brothers took their weapons and sprang forth, and wounded and killed the fish, and, ah, my friend, from that time are the hills and the valleys and the mountains: they are the foot-prints of the brothers who did not follow Maui’s bidding |
 
 
 ## hakuturi — lulus-otomatis

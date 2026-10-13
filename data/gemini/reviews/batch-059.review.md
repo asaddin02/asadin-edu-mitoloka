@@ -1,6 +1,6 @@
 # Review batch-059
 
-Diperiksa 2026-10-08T15:37:33.923Z. Berkas: batch-059.md, batch-059-fix-1.md, batch-059-fix-2.md, batch-059-fix-3.md, batch-059-fix-4.md, batch-059-fix-5.md.
+Diperiksa 2026-10-13T15:05:55.640Z. Berkas: batch-059.md, batch-059-fix-1.md, batch-059-fix-2.md, batch-059-fix-3.md, batch-059-fix-4.md, batch-059-fix-5.md, batch-059-fix-6.md.
 
 ## utsushihikanasaku — lulus-otomatis
 
@@ -104,7 +104,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q10329896 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 3, gambar 0.
+Klaim 11 (exact 11), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -114,11 +114,16 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 | wd-q10329896-c04 | exact | zh.wikisource.org | The Xishan Jing (西山經) text: on Mount Xiaoci (小次之山), with much white jade above and red copper below, there is a beast like an ape (猿) with a white head and red feet named Zhuyan (朱厭); when it is seen, there is great war (大兵). | 又西四百里，曰小次之山，其上多白玉，其下多赤銅。有獸焉，其狀如猿，而白首赤足，名曰朱厭，見則大兵 |
 | wd-q10329896-c05 | exact | zh.wikisource.org | The same text says the bird Fuxi (鳧徯), like a rooster with a human face and named after its own call, is also an omen of war (見則有兵). | 其獸多㸲牛、羬羊、白豪〈豪，貆豬也。〉。有鳥焉，其狀如雄雞而人面，名曰鳧徯，其鳴自叫也，見則有兵。 |
 | wd-q10329896-c06 | exact | zh.wikipedia.org | Chinese Wikipedia calls Zhuyan a monster (妖怪) of ancient Chinese legend, a white-headed, red-footed ape whose appearance is followed by war (战争). | 朱厭，是中國古代傳說中的一隻妖怪，为白头红脚的猿猴，一出现就会發生战争。 |
+| wd-q10329896-c07 | exact | zh.wikisource.org | In the novel Xia Shang Yeshi (夏商野史), Zhuyan (朱厭) is described as like a white ape with white hands and red feet; its nature is the same as that of the Fuxi bird (鳧徯), called fierce (兇惡), and it comes out whenever war (干戈) stirs in the world. | 鳧徯生得身如雄雞而人面，它性兇惡，世有兵變，它便出。朱厭生得似白猿，白手赤足，性同鳧徯，天下干戈動它便出。 |
+| wd-q10329896-c08 | exact | zh.wikisource.org | The same novel says the bird-monster Luoluo (羅羅) swore brotherhood with the bird Fuxi of Mount Lutai and the strange beast Zhuyan of Mount Xiaoci. | 羅羅鳥怪身似人而有羽毛，曾與鹿臺山鳥怪名鳧徯的、小次山怪獸名朱厭的，契拜兄弟。 |
+| wd-q10329896-c09 | exact | zh.wikisource.org | Luoluo gathered Fuxi from Mount Lutai and Zhuyan from Mount Xiaoci for a fierce battle at Mount Lai (萊山), but the mountain gods of Mount Lai had already set an ambush. | 羅羅果去鹿臺、小次二山糾集鳧徯、朱厭來到萊山鏖戰。誰知萊山各神早已埋伏了 |
+| wd-q10329896-c10 | exact | zh.wikisource.org | The three monsters were outnumbered: Zhuyan had a leg broken by the god of Mount Shuli (數歷山神) and could not move, and the wounded Zhuyan and Fuxi could not escape and were killed by the gods; Luoluo died from a blow by another mountain god. | 眾見三個怪至，一齊殺出，把三怪圍在中心。三怪各執鐵瓜來鬥，終寡不敵眾，鳧徯被龍首山神傷了左翅，飛不起。朱厭被數歷山神打折一足，走不動。羅羅被中皇山神劈頭一金杖，打出腦漿落草身亡。鳧徯、朱厭帶傷脫身不得，俱被眾神打死。 |
+| wd-q10329896-c11 | exact | zh.wikisource.org | The Gujin Tushu Jicheng quotes the Tuzan (圖贊, illustrated eulogy) on the Shanhaijing pairing Fuxi and Zhuyan: when they are seen, there are weapons, i.e. war (見則有兵). | 案《圖贊》曰：「鳧徯朱厭，見則有兵。類異感同，理不虛行，推之自然，厥數難明。」 |
 
 
 ## wd-q10542923 — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 3, gambar 0.
+Klaim 11 (exact 11), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -129,6 +134,10 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 | wd-q10542923-c05 | exact | zh.wikisource.org | The Haiwai Beijing (海外北經) text: the Qizhong country (跂踵國) lies south (or east) of Juying (拘癭); its people’s two feet are propped (兩足皆支), or in another version they are big with big feet; it is also called Fanzhong (反踵) or Dazhong (大踵). | 跂踵國在拘 癭一作「纓」 南一作「東」， 其為人兩足皆支一作「其為人大，兩足亦大」。一曰 反一作「大」踵。 |
 | wd-q10542923-c06 | exact | zh.wikipedia.org | The name Qizhong (跂踵) can refer to a bird or to a country, the Qizhong country (跂踵国); both appear in the Shanhaijing (山海经). | 跂踵可以指一种鸟，也可以指一个国家：跂踵国。跂踵和跂踵国都是在《山海经》中出现的。 |
 | wd-q10542923-c07 | exact | zh.wikipedia.org | The Qizhong country lies east of the Juying country (拘瘿国), and its people are tall and big with very large feet. | 跂踵国则是在拘瘿国的东面的一个国家，那里的人都身材高大，两只脚也非常大。 |
+| wd-q10542923-c08 | exact | zh.wikisource.org | In the annotated Bamboo Annals (竹書綂箋), the entry for the sixth year says the Qizhong people (岐踵戎) came as guests (來賓); the annotator writes that 岐 is also written 跂, citing the Huainanzi on the 跂踵民 and the gloss that their heels do not touch the ground and they walk on five toes. | 畎夷入于岐以叛〈箋按畎音犬韋昭曰春秋以為犬戎小顔曰即昆夷也〉 六年岐踵戎來賓〈箋按岐一作跂淮南墬形訓有跂踵民高誘注跂踵踵不至地以五指行 |
+| wd-q10542923-c09 | exact | zh.wikisource.org | The Gujin Tushu Jicheng quotes the Shanhaijing (the Qizhong country east of Juying; its people big with big feet), the note that their heels do not touch the ground, and the Xiaojing gouming jue (孝經鉤命訣) naming Jiaoyao and Qizhong, glossed "chongyi, kuansai" (重譯，款塞): arriving through repeated interpretation and knocking at the frontier. | 按《山海經。海外北經》：「跂踵國在拘纓東，其為人大，兩 足亦大，一曰大踵。」 〈注〉其人行，腳跟不著地也。《孝經鉤命訣》曰：「焦僥跂踵。」重譯，款塞也。 |
+| wd-q10542923-c10 | exact | zh.wikisource.org | In Guo Pu's Qizhong Guo Zan (跂踵國贊): their bodies are large but they stand on tiptoe; they hop like sparrows (跳步雀躍) with heels not touching the ground, arrive in response to virtue (應德而臻), and knock at the frontier to return to righteousness (款塞歸義). | 厥形雖大，斯腳則企。跳步雀躍，踵不閡地。應德而臻， 款塞歸義。 |
+| wd-q10542923-c11 | exact | zh.wikisource.org | In the novel Jinghuayuan (鏡花緣), travellers see several Qizhong people taking fish at the seashore: eight chi tall and wide, with dishevelled red hair and big feet, walking on their toes without heels touching the ground in a stately gait; the character Tang Ao finds them too stiff and does not land. | 這日到了跂踵國。有幾個國人在海邊取魚。一個個身長八尺，身寬也是八尺，竟是一個方人。赤髮蓬頭，兩隻大腳，有一尺厚、二尺長，行動時以腳指行走，腳跟並不著地，一步三搖，斯斯文文，竟有「寧可濕衣，不可亂步」光景。唐敖因這方人過於拘板，無甚可觀，不曾上去。 |
 
 
 ## wd-q10565813 — lulus-otomatis

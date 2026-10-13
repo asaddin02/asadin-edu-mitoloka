@@ -1,6 +1,6 @@
 # Review batch-075
 
-Diperiksa 2026-10-07T09:35:16.119Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md, batch-075-fix-7.md, batch-075-fix-8.md.
+Diperiksa 2026-10-13T15:10:47.244Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md, batch-075-fix-7.md, batch-075-fix-8.md, batch-075-fix-9.md.
 
 ## keibu-keioiba — lulus-otomatis
 
@@ -182,7 +182,7 @@ Klaim 16 (exact 16), sumber 2, gambar 0.
 
 ## kallana — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 2, gambar 0.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -195,6 +195,13 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 | kallana-c11 | exact | en.wikipedia.org | In 2013 a dwarf individual of Elephas maximus was observed in Udawalawe National Park in southern Sri Lanka and scientifically documented. | In 2013, a dwarf individual belonging to Elephas maximus was observed in Udawalawe National Park in southern Sri Lanka and scientifically documented. |
 | kallana-c12 | exact | www.asesg.org | A scientific note reports what it calls the first record of a free-ranging adult wild Asian elephant (Elephas maximus) with disproportionate dwarfism. | Here we report the first record of a free ranging adult wild animal - an Asian elephant (Elephas maximus), with disproportionate dwarfism |
 | kallana-c13 | exact | www.asesg.org | The note describes a mature male just over five feet (1.5 m) tall with a normal-sized upper body but very short, stubby legs. | one of the protagonists was a mature male of just over five feet (1.5 m) in height. It had a normal sized upper body ... but had very short, stubby legs. |
+| kallana-c14 | exact | mattsalusbury.blogspot.com | According to the Kani tribals, the kallaana are shyer and less aggressive than conventional Asian elephants and avoid contact with them. | According to the Kani tribals, kallaana are shyer and less aggressive than conventional Asian elephants, and avoid contact with them. |
+| kallana-c15 | exact | mattsalusbury.blogspot.com | According to this source, the name kallaana in the Malayalam language means "stone elephant", because the little elephants are said to scramble over rocky slopes that conventionally-sized elephants cannot negotiate. | in the Malayalam language spoken by about 30 million people in southern India – means “stone elephant,” because the little elephants are said to scramble over rocky slopes which conventionally-sized elephants can’t negotiate. |
+| kallana-c16 | exact | mattsalusbury.blogspot.com | Another Kani name for the kallaana is "thumbiaana", meaning "as light as a butterfly", a reference to the great speed with which it flits through the forests when pursued. | Another Kani name for the kallaana is “thumbiaana,” meaning “as light as a butterfly”, a reference to the great speed with which if flits through the forests when pursued. |
+| kallana-c17 | exact | mattsalusbury.blogspot.com | In 1995 KFRI conducted a search for kallaana after reports by "tribals"; in January 2005 a KFRI survey supported by ecologists from the Bangalore-based IISc looked for kallaana and for kallaana dung from which DNA samples could be taken. | In 1995, KFRI conducted a search for kallaana after reports by “tribals.” January 2005 saw a KFRI survey supported by ecologists from the Bangalore-based IISc to look for kallaana, and for kallaana dung from which they could take DNA samples. |
+| kallana-c18 | exact | mattsalusbury.blogspot.com | A search for kallaana was also part of an elephant survey of the district in 2008 by 60 forestry officials; the survey identified 21 conventionally-sized local elephants from footprints and eyewitness reports but found no evidence for kallaana. | A search for kallaana was also part of an elephant survey of the district in 2008 by 60 forestry officials. While the survey identified 21 conventionally-sized local elephants from footprints and eyewitness reports, it found no evidence for kallaana. |
+| kallana-c19 | exact | mattsalusbury.blogspot.com | Dr. Easwaran of the KFRI said at the time that the Kani had misidentified "young and short elephants leaving the group and venturing out in search of water during summer months". | Dr. Easwaran of the KFRI said at the time that the Kani had misidentified “young and short elephants leaving the group and venturing out in search of water during summer months. |
+| kallana-c20 | exact | mattsalusbury.blogspot.com | Prof. Sukumar of the IISc, the expert on Asian elephant ecology, suggests that kallaana "could be the result of a morphological variation, not a new species". | Prof. Sukumar, the expert on Asian elephant ecology, suggests that kallaana “could be the result of an morphological variation, not a new species |
 
 
 ## kao-bull — lulus-otomatis
@@ -768,7 +775,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## chakora-mythology — lulus-otomatis
 
-Klaim 6 (exact 3, loose 1, unreachable 2), sumber 3, gambar 0.
+Klaim 11 (exact 8, loose 1, unreachable 2), sumber 7, gambar 0.
 
 **manual**
 - `claims` 2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
@@ -781,6 +788,11 @@ Klaim 6 (exact 3, loose 1, unreachable 2), sumber 3, gambar 0.
 | chakora-mythology-c06 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | According to a footnote in this edition, the Chakora is said to subsist upon moonbeams. | The Chakora is said to subsist upon moonbeams. |
 | chakora-mythology-c07 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | In this story someone is to the eyes of the delighted Vidyutprabha as the moon, the repository of nectar, is to the partridges. | being to the eyes of the delighted Vidyutprabha what the moon, the repository of nectar, is to the partridges. |
 | chakora-mythology-c08 | exact | en.wikipedia.org | It is considered to be a partridge, most likely based on the chukar partridge. | It is considered to be a partridge, most likely based on the chukar partridge. |
+| chakora-mythology-c09 | exact | en.wikisource.org | The Arthashastra (Book I) records birds' reactions to poison: the heron (crauncha) swoons, the pheasant feels distress, the youthful cuckoo dies, and the eyes of the partridge (chakóra) are reddened. | The heron (crauncha) swoons in the vicinity of poison; the pheasant (jívanjívaka) feels distress; the youthful cuckoo (mattakókila) dies; the eyes of partridge (chakóra) are reddened. |
+| chakora-mythology-c10 | exact | en.wikisource.org | In A History of Sanskrit Literature, the chakora, supposed to imbibe the rays of the moon, is said to afford a parallel to the lover who with his eyes drinks in the beams of his beloved's face. | The chakora, supposed to imbibe the rays of the moon, affords a parallel to the lover who with his eyes drinks in the beams of his beloved's face. |
+| chakora-mythology-c11 | exact | en.wikisource.org | Hobson-Jobson states that the idea that the partridge drinks the moonbeams is as old as the Brahma Vaivarta Purana, quoting the line "O Lord, I drink in with the partridges of my eyes thy face full of nectar, which resembles the full moon of autumn." | the idea that the partridge drinks the moonbeams is as old as the Brahma Vaivarta Purāna: "O Lord, I drink in with the partridges of my eyes thy face full of nectar, which resembles the full moon of autumn. |
+| chakora-mythology-c12 | exact | en.wikisource.org | Hobson-Jobson also notes that Jerdon states the Afghans call the bird the "Fire-eater"; the authors judge the belief that the chickore eats fire to be probably from some verbal misconception (quasi ātish-khōr?). | The belief that the chickore eats fire, mentioned in the quotation below, is probably from some verbal misconception (quasi ātish-khōr?). ... Jerdon states that the Afghans call the bird the 'Fire-eater. |
+| chakora-mythology-c13 | exact | en.wikisource.org | In a mantram against the evil eye recorded in Castes and Tribes of Southern India (entry Vēlan), the bird chakora is said to disappear at the sight of the moon, the great Vasuki (king of serpents) to vanish at the sight of chakora, and the poison to vanish from his head, so may the potency of the evil eye vanish. | even as the bird chakora (Eraya) disappears at the sight of the moon; even as the great Vasuki (king of serpents) vanishes at the sight of chakora; even as the poison vanishes from his head; so may the potency of his evil eye with thy aid vanish. |
 
 
 ## dharanendra — lulus-otomatis

@@ -1,6 +1,6 @@
 # Review batch-068
 
-Diperiksa 2026-10-08T15:09:39.689Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md, batch-068-fix-7.md, batch-068-fix-8.md.
+Diperiksa 2026-10-13T15:05:36.080Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md, batch-068-fix-7.md, batch-068-fix-8.md, batch-068-fix-9.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
@@ -192,7 +192,7 @@ Klaim 15 (exact 15), sumber 2, gambar 0.
 
 ## panlong-mythology — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
+Klaim 9 (exact 8, loose 1), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -202,6 +202,9 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 | panlong-mythology-c04 | loose | en.wikipedia.org | The Biji manzhi (碧雞漫志) by Wang Zhuo (王灼) describes using panlong dragons in sympathetic magic for rainfall: a mirror adorned on its back with a "coiled dragon" (盤龍) is said to have been worshipped, or used magically, to cause rain. | The (12th century CE) Song dynasty Biji manzhi 碧雞漫志 "Random Jottings from the Green Rooster Quarter" by Wang Zhuo 王灼 describes using panlong dragons in sympathetic magic for rainfall, "where a mirror, adorned on the backside with a "coiled dragon", p'an lung, 盤龍, is said to have been worshipped (rather used in a magical way) in order to cause rain." |
 | panlong-mythology-c05 | exact | en.wikipedia.org | The Shangshu dazhuan (尚書大傳) commentary to the Classic of History parallels panlong with jiaoyu (鮫魚) and says the "coiled dragon" was greatly trusted in its lair. | Shangshu dazhuan 尚書大傳 ... commentary to the Classic of History parallels panlong and jiaoyu 鮫魚 ... was greatly trusted in its lair |
 | panlong-mythology-c06 | exact | zh.wikisource.org | A classical text describing the decoration of great bells, tripods, and precious vessels lists the 蟠龍 (coiled dragon) motif linked in a series (連組) alongside the sleeping rhinoceros (寢兕) and the crouching tiger (伏虎). | 大鐘鼎，美重器，華蟲疏鏤，以相繆紾，寢兕伏虎，蟠龍連組，焜昱錯眩，照耀輝煌 |
+| panlong-mythology-c07 | exact | zh.wikisource.org | The Taiping Yulan quotes the Nanyue Zhi (南越志): the panlong (蟠龍) is four zhang long, reddish-black with a red band patterned like brocade, and usually follows the water down into the sea. | 沉懷遠《南越志》曰：蟠龍，身長四丈，赤黑色，赤帶如錦文。常隨水而下入於海。有毒，傷人即死。 |
+| panlong-mythology-c08 | exact | zh.wikisource.org | According to the same Nanyue Zhi quotation, the panlong is venomous (有毒): a person it harms dies at once (傷人即死). | 沉懷遠《南越志》曰：蟠龍，身長四丈，赤黑色，赤帶如錦文。常隨水而下入於海。有毒，傷人即死。 |
+| panlong-mythology-c09 | exact | zh.wikisource.org | Wang Zhuo's Longjing (龍經) classes a dragon that has not yet ascended to heaven as a panlong, and says the panlong is four zhang long, blue-black with a red band like brocade; the same list names a different kind, the dragon that kills in anger (毒龍). | 目見百里曰驪龍，神藏九館曰痴龍。優樂自在曰有福龍，不得自在曰薄福龍。災害數作曰惡龍，忿怒殺人曰毒龍。苦行雨曰乖龍，未升天曰蟠龍。蟠龍長四丈，其色青黑，赤帶如錦文。 |
 
 
 ## shangyang — lulus-otomatis
@@ -354,7 +357,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## dilong — lulus-otomatis
 
-Klaim 9 (exact 4, loose 5), sumber 2, gambar 0.
+Klaim 12 (exact 7, loose 5), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -367,6 +370,9 @@ Klaim 9 (exact 4, loose 5), sumber 2, gambar 0.
 | dilong-c07 | exact | en.wikipedia.org | Li Shizhen notes these names derive from the myth that earthworms, like dragons, can create yinqing (unsettled cloudy and clear weather). | Li Shizhen notes these names derive from the myth that earthworms (like dragons) can create yinqing |
 | dilong-c08 | loose | en.wikipedia.org | Dilongsan (地龍散; "earth dragon powder"), or Di Long, is used in traditional Chinese medicine; it is prepared from the abdomen of the red earthworm Lumbricus rubellus and has many purported medicinal uses. | Dilongsan (地龍散; "earth dragon powder"), or Di Long, is used in traditional Chinese medicine. It is prepared from the abdomen of the Red earthworm, Lumbricus rubellus, and has many purported medicinal uses. |
 | dilong-c09 | exact | zh.wikisource.org | In this classical history record, on the gengyin day of the third month two dragons leapt into the sky from the river west of the city with five distinct colors reflected on the water; people looked up, and elders gathered in grief saying, "The earth dragon (地龍) has gone; will the state perish?" | 三月庚寅，有兩龍自城西江中騰躍升天，五色分明，遙映江水。百姓咸仰面目之，父老或聚而悲，竊相謂曰：「地龍已去，國其亡乎。」 |
+| dilong-c10 | exact | zh.wikisource.org | The Gezhi Jingyuan records a division into four kinds of dragon: tianlong (天龍) guarding the heavenly palaces so they do not fall, shenlong (神龍) raising clouds and bringing rain for humankind, dilong (地龍) breaking open rivers and cutting channels (决江開瀆), and fucanglong (伏藏龍) guarding the treasure of people of great merit; the division is linked to the Buddhist text Xumi Zang Jing (須彌藏經). | 内典龍有胎卵濕化四種 抱朴子有自然之龍有蛇蠋化成之龍 潛 𩔖書别行云有四種龍一天龍守天宮殿持令不落者二神龍興雲致雨益人間者三地龍决江開瀆者四伏藏龍守輪王大福人藏者須彌藏經龍有五種象龍馬龍魚龍蝦蟇龍此四種 |
+| dilong-c11 | exact | zh.wikisource.org | Wang Zhuo's Longjing (龍經) states: shenlong raises clouds and brings rain, dilong breaks open rivers and cuts channels (決江開瀆), tianlong guards the heavenly palaces, and fucanglong guards the treasure of the wheel-turning king. | 神龍興雲致雨，地龍決江開瀆，天龍守天宮殿，伏藏龍守輪王藏。白耳龍多信，九頭龍多悟。 |
+| dilong-c12 | exact | zh.wikisource.org | The Duwu Jishu Lue (讀書紀數畧) lists "four kinds of dragon" per another text (别行云): tianlong guarding the heavenly palaces, shenlong raising clouds and rain, dilong breaking open rivers and cutting channels (決江開瀆), and fucanglong guarding the treasure of people of great merit. | 龍四種〈别行云〉 天龍〈守天宮殿〉神龍〈興雲致雨〉地龍〈決江開瀆〉伏藏龍〈守輪王大福人藏〉内典胎化溼生四種 |
 
 
 ## gazeka — lulus-otomatis

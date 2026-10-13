@@ -1,6 +1,6 @@
 # Review batch-055
 
-Diperiksa 2026-10-08T15:07:41.363Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md, batch-055-fix-7.md, batch-055-fix-8.md.
+Diperiksa 2026-10-13T15:07:47.539Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md, batch-055-fix-7.md, batch-055-fix-8.md, batch-055-fix-9.md.
 
 ## koromodako — lulus-otomatis
 
@@ -323,7 +323,7 @@ Klaim 16 (exact 16), sumber 2, gambar 0.
 
 ## qiuniu — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 3, gambar 0.
+Klaim 14 (exact 14), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -337,6 +337,10 @@ Klaim 10 (exact 10), sumber 3, gambar 0.
 | qiuniu-c08 | exact | en.wikipedia.org | English Wikipedia names Li Dongyang's (1447–1516) list, with 9 creatures, as one of four principal versions of the list of the dragon's children. | There are four principal versions of the list: ... Li Dongyang's (李東陽 , 1447–1516) list, which includes 9 creatures |
 | qiuniu-c09 | exact | en.wikipedia.org | Several Ming Dynasty texts list what were claimed as the Nine Offspring of the Dragon, and subsequently these feature prominently in popular Chinese stories and writings. | Several Ming Dynasty texts list what were claimed as the Nine Offspring of the Dragon (Chinese: 龍生九子), and subsequently these feature prominently in popular Chinese stories and writings. |
 | qiuniu-c10 | exact | en.wikipedia.org | According to English Wikipedia, some of these creatures are based on earlier mythological beasts such as pulao or bixi, but most have no other mythological background and are merely used as names for decorative structures. | Some of these creatures are based on earlier mythological beasts, such as pulao or bixi, but most of them have no other mythological background and are merely used as names for decorative structures. |
+| qiuniu-c11 | exact | young.dpm.org.cn | According to the Palace Museum website, Qiuniu is the eldest dragon son and very gentle in temperament; it is said that its two ears can tell apart the sounds of all things in heaven and earth, and it most likes to crouch on the head of the qin and enjoy music. | 龙子里的大哥，性情十分温顺，传说它的双耳能分辨出天地万物的声音，最喜欢蹲在琴头上欣赏音乐。 |
+| qiuniu-c12 | exact | cyberleninka.ru | According to Somkina, under the Mongol Yuan dynasty the bull's head was replaced by a horse's head, and in the Ming era by a dragon's head; only the horns and the "bull" character in the name Qiuniu remain from the original concept. | During the reign of the Mongolian Yuan dynasty, the bull's head was replaced by the head of a horse, and in the Ming era, by that of a dragon; thus, only horns and the 'bull' character in the qiuniu name remained from the original concept. |
+| qiuniu-c13 | exact | cyberleninka.ru | Somkina concludes that the dragon's offspring primarily performed a protective (chiwen, chaofeng), an applied (bixi, baxia) or a symbolic-aesthetic function (qiuniu, fuxi), sometimes several at once. | The nine offspring of the dragon primarily performed a protective (chiwen, chaofeng), an applied (bixi, baxiá) or a symbolical esthetic (qiuniu, fuxi function, sometimes fulfilling several at once. |
+| qiuniu-c14 | exact | www.dpm.org.cn | According to the Palace Museum (Beijing) website, these dragon sons are all developments of the dragon pattern: they enrich the decorative themes of the dragon, add formal beauty to China's ancient buildings and objects, and have long been auspicious patterns people enjoy. | 不管怎样，这些龙子都是龙纹的发展演变，它不仅丰富了龙的装饰题材，而且还增添了我国古建筑和器物的形体美，一直是人们喜闻乐见的吉祥纹样。 |
 
 
 ## rojinbi — lulus-otomatis
@@ -677,7 +681,7 @@ Klaim 20 (loose 1, exact 19), sumber 2, gambar 0.
 
 ## yazi — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 2, gambar 0.
+Klaim 17 (exact 17), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -690,6 +694,14 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 | yazi-c07 | exact | zh.wikisource.org | According to the Shuolue, the term 睚眦 appears in the Zhanguoce in a line about the worthy being moved by a slight resentment; the note explains ya as "raising the eyes" and zi as "the eye socket". | 睚眦，《戰國策》聶政曰：賢者以感忿睚眦之意。注：睚，舉眼也；眦，目匡也。 |
 | yazi-c08 | exact | ja.wikipedia.org | According to Japanese Wikipedia, the character 睚 derives from the edge of the eye and 眦 from the part where the eye just begins to open; both mean the corner of the eye. | 『睚』の字の由来は目のきわ、『眦』は目のわずかに開きはじめた部分、で、どちらも、まなじりや目じりという意味である。 |
 | yazi-c09 | exact | ja.wikipedia.org | Both characters also mean "to glare"; 睚眦 means to look in anger and, by extension, "slight"; the 睚眦之怨 of the Shiji is a grudge as small as being glared at. | また、どちらに字にも『にらむ』という意味があり、転じて『睚眦』には『目を怒らして見る。にらむ』という意味があり、転じて『わずか』という意味もある。史記・范雎伝にある『睚眦之怨』（がいさいのうらみ）は、ちょっとにらまれた程度の恨み、という意味である。 |
+| yazi-c10 | exact | cyberleninka.ru | According to Somkina, Yazi has a dragon's head and a jackal's body, is notable for a contentious temper, likes to kill and fight, and loves the smell of blood and flesh; it is therefore carved on sword hilts and blades. | is a creature with a dragon's head and a jackal's body, who is notable for contentious temper, likes to kill and fight, and loves the smell of blood and flesh - and is therefore carved on sword hilts and blades |
+| yazi-c11 | exact | cyberleninka.ru | According to Somkina, Yazi's traits are vigilance, "outsight" and a wish to punish at once those who flout norms of virtue; its images most often appeared on the weapons of honor escorts or palace chamber guards. | His traits are vigilance, outsight and wish to instantly punish those who flout norms of virtue. Most frequently, his images appeared on weapons of honor escort or palace chamber guards. |
+| yazi-c12 | exact | young.dpm.org.cn | According to the Palace Museum website, the original meaning of 睚眦 is an angry glare, showing the dragon son's fierce temper and skill at fighting; it therefore always appears as a weapon ornament on sword rings and blades, especially with the mouth-shaped fitting (吞口) of the hilt made in the form of Yazi so that the blade comes out of its mouth, which is described as full of power. | 睚眦的本意是怒目而视，可见这位龙子的刚烈擅斗。所以睚眦总是作为兵器的装饰出现在刀环、剑身上，特别是将剑柄的吞口设计成睚眦，剑身从龙子的口中穿出，威力十足。 |
+| yazi-c13 | exact | zh.wikipedia.org | According to Mandarin Wikipedia, Yazi's fearsome image came to have the function of subduing evil in Chinese culture, so Yazi is often used as an apotropaic totem; in antiquity it often served as a weapon ornament, for example the guard of a fine sword carved in Yazi's form with the blade passing out through its mouth (that is, the hilt's tunkou), called a "dragon tunkou" (龍吞口). | 睚眦的骇人形象在中华文化裡有了克煞邪恶的功用，故睚眦常作为辟邪的图腾。 在古代，睚眦常作为兵器的装饰，如寶劍的剑格刻成睚眦形象，且剑身要从睚眦的口中穿出（即剑柄吞口），稱爲龍吞口。 |
+| yazi-c14 | exact | zh.wikipedia.org | According to Mandarin Wikipedia, in rural areas of the southwest people make statues of Yazi with a sword in its mouth and hang them over the door lintel to ward off evil; such a statue is called tunkou (吞口). | 在西南农村，人们会将睚眦口衔宝剑的样子做成雕像，挂在门楣上辟邪，称爲吞口。 |
+| yazi-c15 | exact | zh.wikipedia.org | According to Mandarin Wikipedia, Yazi has a dragon's head and the body of a chai (豺, jackal), a fierce temper, is fond of fighting and killing, always bites a sword in its mouth and glares in anger; its image is carved on sword rings and hilt mouth-fittings to increase its own formidable power. | 龙生九子之一，龙首豺身，性格刚烈，好勇擅斗，嗜杀好斗，总是嘴衔宝剑，怒目而视，刻镂于刀环、剑柄吞口，以增加自身的强大威力。 |
+| yazi-c16 | exact | english.visitbeijing.com.cn | According to Visit Beijing, Yazi looks like a jackal, stares with angry eyes and is fond of bloody killings; its image is often engraved on knife handles and sword sheaths. | Yazi looks like a jackal, and stares at things with angry eyes and is fond of bloody killings. His image is often engraved on knife handles and sword sheaths. |
+| yazi-c17 | exact | www.dpm.org.cn | According to the Palace Museum (Beijing) website, these dragon sons are all developments of the dragon pattern: they enrich the decorative themes of the dragon, add formal beauty to China's ancient buildings and objects, and have long been auspicious patterns people enjoy. | 不管怎样，这些龙子都是龙纹的发展演变，它不仅丰富了龙的装饰题材，而且还增添了我国古建筑和器物的形体美，一直是人们喜闻乐见的吉祥纹样。 |
 
 
 ## zao-gongen — lulus-otomatis

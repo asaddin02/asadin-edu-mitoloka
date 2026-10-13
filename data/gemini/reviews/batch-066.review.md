@@ -1,6 +1,6 @@
 # Review batch-066
 
-Diperiksa 2026-10-08T13:53:47.822Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md, batch-066-fix-4.md, batch-066-fix-5.md, batch-066-fix-6.md, batch-066-fix-7.md, batch-066-fix-8.md.
+Diperiksa 2026-10-13T15:05:19.265Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md, batch-066-fix-4.md, batch-066-fix-5.md, batch-066-fix-6.md, batch-066-fix-7.md, batch-066-fix-8.md, batch-066-fix-9.md.
 
 ## loong — lulus-otomatis
 
@@ -628,7 +628,7 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## wind-horse — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 2, gambar 0.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -641,6 +641,11 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 | wind-horse-c07 | exact | www.chronicleproject.com | Warren writes that the popular explanation of lungta is "good fortune" or "luck", but he calls "luck" a shallow sense; windhorse refers to something much more basic and vital than mere "luck" in the Western sense of the word. | The popular explanation of lungta is that it refers to “good fortune” or “luck”. Surprisingly, a fair amount of the academic literature on Tibetan culture stops at this (with notable exceptions). But “luck” is a shallow sense of lungta. Windhorse refers to something much more basic and vital than mere “luck”, at least in the Western sense of the word. |
 | wind-horse-c08 | exact | www.chronicleproject.com | Warren says that Samten Karmay, in a brief paper titled Windhorse and the Well-being of Man, traces windhorse's possible roots to China (where it may have been confounded with "river-horse") and, in a later and more Buddhist context, to India. | Samten Karmay, in an excellent brief paper on the origins of windhorse, entitled Windhorse and the Well-being of Man*, traces its possible roots to China, on one hand, (where it may have been confounded with “river-horse”, another potent image and principle) and to India in another later, more Buddhist context. |
 | wind-horse-c09 | exact | www.chronicleproject.com | Warren writes that a person's lungta registers their relative synchronization with their own body and mind and the world around them, so lungta also has a protective function when successfully invoked. | A person’s lungta is a register of their relative synchronization with their own body and mind, and the world around them. So in this regard, lungta also has a protective function when successfully invoked. |
+| wind-horse-c10 | exact | tibetpolicy.net | Lung-ta means an air-horse or wind horse; according to Tsewang Gyalpo Arya it is a divine horse that lifts our energy and life force and carries our message to the gods and deities. | Lung [Tib: rLung] means air or wind, and Ta [Tib: rTa] is horse. So, Lung-ta means an air-horse or wind horse. It is a divine horse to lift our energy and life force and carry our message to the gods and deities. |
+| wind-horse-c11 | exact | tibetpolicy.net | Whether things go smoothly or not is generally attributed to the level of one's Lungta: a high Lungta ensures work and aspirations are completed smoothly and successfully, a low Lungta does the opposite. | How things go smoothly or not is generally attributed to the level of your Lungta. A high level of Lungta [Tib: rLung rta mtho po] will ensure smooth and successful completion of your work and aspiration, while a low level of Lungta [Tib: rLung rta dma’ po] does the opposite. |
+| wind-horse-c12 | exact | tibetpolicy.net | Lungta prayer flags are hoisted on auspicious days, especially the Tibetan New Year (Losar); when things go badly, people hoist Lungta flags, perform Sangsol (burning juniper or herbs), and make offerings to deities and prayer recitations to activate one's Lungta. | Lungta prayer flags are hoisted on auspicious days, especially during the Tibetan New Year, Losar. When things are not going well and smoothly, people often hoist Lungta flags and perform Sangsol [burning of juniper or herbs]. Propitiation of deities with offerings and prayer recitation are done to activate one’s Lungta. |
+| wind-horse-c13 | exact | www.chronicleproject.com | According to Clarke Warren, if someone is beaten down, depressed, and not connecting well to events in their life and surroundings, their lungta is said to be "down", and they are vulnerable to sickness, attack from others, and misfortune. | Conversely, if one is beaten down or depressed, lackluster, and not connecting to the events of their own life and their environment well, then it is said their lungta is “down”. As a consequence, they are vulnerable to sickness, attack from others, misfortune, and so forth. |
+| wind-horse-c14 | exact | www.chronicleproject.com | Windhorse flags are also raised where there is potential danger, natural disaster, or mishap (such as land depleted by fire, the site of an accident, or the confluence of rivers believed to hold capricious, potentially destructive energy) to restore vitality and protect from further mishap. | Windhorse flags are also raised where there is potential danger, natural disaster, or mishap, such as where the land, for example, has been depleted by fire, where a tragic accident has occurred, or at the confluence of rivers, which is believed to be a locale of capricious, potentially destructive energy. The lungta flags in this case are to restore vitality, and protect from further mishap. |
 
 
 ## jin-chan — lulus-otomatis

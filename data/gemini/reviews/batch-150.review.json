@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-150",
-  "checked_at": "2026-10-13T08:44:08.022Z",
+  "checked_at": "2026-10-13T15:13:01.662Z",
   "files": [
     "batch-150.md",
     "batch-150-fix-1.md",
@@ -9,7 +9,8 @@
     "batch-150-fix-4.md",
     "batch-150-fix-5.md",
     "batch-150-fix-6.md",
-    "batch-150-fix-7.md"
+    "batch-150-fix-7.md",
+    "batch-150-fix-8.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -6916,12 +6917,12 @@
     },
     {
       "slug": "hahau-whenua",
-      "file": "batch-150-fix-6.md",
-      "entry_sha256": "c481388cd87b4791e4968d5c821b332bbee07e57885fb1477c62371c13e4a8c9",
+      "file": "batch-150-fix-8.md",
+      "entry_sha256": "4d88efd6f25689cd48fcccdf7e95e3ec3b53f449223fd8b5b7b1fae2a3fa59ec",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 15,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -6993,6 +6994,86 @@
           "statement": "According to Wikipedia, Māui pulled up a giant fish that became the North Island, known as Te Ika-a-Māui; the island's valleys and mountains were made by his brothers chopping up the fish.",
           "statement_id": "Menurut Wikipedia, Māui menarik ikan raksasa yang menjadi North Island, dikenal sebagai Te Ika-a-Māui; lembah dan gunung pulau itu dibuat oleh saudara-saudaranya yang mencincang ikan itu.",
           "quote": "He pulled up a giant fish which would become the North Island of New Zealand, known as Te Ika-a-Māui; the valleys and mountains of the island were made by his brothers chopping up the fish for themselves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c08",
+          "source_id": "hahau-whenua-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Māui hauled a great fish, known as Hāhau-whenua, up from the depths; thus the North Island of New Zealand is known as Te Ika-a-Māui (The Fish of Māui).",
+          "statement_id": "Māui menarik seekor ikan besar, yang dikenal sebagai Hāhau-whenua, naik dari kedalaman; karena itu North Island of New Zealand dikenal sebagai Te Ika-a-Māui (Ikan Māui).",
+          "quote": "Māui hauled a great fish, known as Hāhau-whenua, up from the depths. Thus the North Island of New Zealand is known as Te Ika-a-Māui (The Fish of Māui).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c09",
+          "source_id": "hahau-whenua-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Māui's brothers did not wait for him to return and began to cut up the fish, which writhed in agony and broke up into mountains, cliffs and valleys; had they listened to Māui, the island would have been a level plain easy to travel across.",
+          "statement_id": "Saudara-saudara Māui tidak menunggunya kembali dan mulai memotong ikan itu; ikan itu menggeliat kesakitan sehingga terpecah menjadi gunung, tebing, dan lembah. Seandainya saudara-saudaranya mendengarkan Māui, pulau itu akan menjadi dataran rata yang mudah dilalui.",
+          "quote": "They, however, did not wait for Māui to return but began to cut up the fish, which writhed in agony, causing it to break up into mountains, cliffs and valleys. If the brothers had listened to Māui, the island would have been a level plain, and people would have been able to travel with ease on its surface.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c10",
+          "source_id": "hahau-whenua-s2",
+          "host": "archive.org",
+          "statement": "Tregear records that the great fish rose steadily to the divine pulling of Maui; once it had emerged from the water, Maui went to find a priest to perform ceremonies and offer prayers of purification, leaving the fish (island) in the charge of his brothers.",
+          "statement_id": "Tregear mencatat bahwa ikan besar itu naik dengan mantap oleh tarikan ilahi Maui; setelah ikan itu muncul dari air, Maui pergi mencari seorang imam untuk melakukan upacara dan doa penyucian, dan membiarkan ikan (pulau) itu dijaga saudara-saudaranya.",
+          "quote": "The great fish rose steadily to the divine pulling of Maui, who, when it had emerged from the water, went away to find a priest to perform the fitting ceremonies, and offer prayers of purification; meanwhile leaving the fish (island) in charge of his brothers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c11",
+          "source_id": "hahau-whenua-s2",
+          "host": "archive.org",
+          "statement": "Tregear records that Maui's brothers would not wait for his return and began to cut up the fish, which began to jump and wriggle about, whereupon the mountains and valleys appeared; without this the island would have been a level plain.",
+          "statement_id": "Tregear mencatat bahwa saudara-saudara Maui tidak mau menunggunya kembali dan mulai memotong ikan itu; ikan itu mulai melompat dan menggeliat, lalu muncullah gunung dan lembah, padahal tanpa itu pulau tersebut akan menjadi dataran rata.",
+          "quote": "They, however, would not wait for the return of Maui, but began to cut up the fish, which ... began to jump and wriggle about ; whereupon the mountains and valleys ... ; the island but for this would have been a level plain.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c12",
+          "source_id": "hahau-whenua-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Dittmer's telling, Maui pulls and pulls for three moons and shouts to his brothers that what he has got in his hands he cannot let go again.",
+          "statement_id": "Dalam penuturan Dittmer, Maui menarik dan menarik selama tiga bulan, dan berseru kepada saudara-saudaranya bahwa apa yang sudah ada di tangannya tidak dapat ia lepaskan lagi.",
+          "quote": "Ha, see how Maui pulls, and pulls, and pulls; see him pulling for three moons! Ha, listen how he shouts to his brothers: “What Maui has got in his hands he cannot let go again!”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c13",
+          "source_id": "hahau-whenua-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Dittmer's telling, Maui's fish swallows the hook, his line straightens, and his mighty strength presses the canoe under water.",
+          "statement_id": "Dalam penuturan Dittmer, ikan Maui menelan kail, tali Maui menegang, dan kekuatan Maui yang dahsyat menekan kano ke bawah air.",
+          "quote": "Ha, see how his fish has swallowed the hook! Ha, see how his line straightens; see how Maui pulls and pulls with all his mighty strength! See, how his strength presses the canoe under water!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c14",
+          "source_id": "hahau-whenua-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Dittmer's telling, Maui's fish is this land, Te-ika-a-Maui, Aotea-roa; Maui's hook caught the house of the old Tonga-nui on the top of Tongariro and pulled all this beautiful land out of the sea.",
+          "statement_id": "Dalam penuturan Dittmer, ikan Maui adalah daratan ini, Te-ika-a-Maui, Aotea-roa; kail Maui menyangkut rumah Tonga-nui tua di puncak Tongariro dan menarik seluruh daratan yang indah ini keluar dari laut.",
+          "quote": "Ha, friend, it is this land! It is Te-ika-a-Maui.--Aotea-roa, this land.--Ah, behold the wisdom of my ancestors: how Maui’s hook caught the house of the old Tonga-nui on the top of Tongariro, and pulled all this beautiful land out of the sea, Te-ika-a-Maui.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c15",
+          "source_id": "hahau-whenua-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Dittmer's telling, the canoe lay on the mountains at Hiku rangi and Maui's brothers took their weapons, wounded and killed the fish; from that time come the hills, valleys and mountains, the foot-prints of the brothers who did not follow Maui's bidding.",
+          "statement_id": "Dalam penuturan Dittmer, kano berada di atas gunung-gunung di Hiku rangi, dan saudara-saudara Maui mengambil senjata, melukai dan membunuh ikan itu; sejak itu ada bukit, lembah, dan gunung, yaitu jejak kaki saudara-saudara yang tidak menuruti pesan Maui.",
+          "quote": "The canoe was now lying on the mountains at Hiku rangi, and Maui’s brothers took their weapons and sprang forth, and wounded and killed the fish, and, ah, my friend, from that time are the hills and the valleys and the mountains: they are the foot-prints of the brothers who did not follow Maui’s bidding",
           "context": "traditional-belief",
           "status": "exact"
         }

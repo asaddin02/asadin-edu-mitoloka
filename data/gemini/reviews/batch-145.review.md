@@ -1,6 +1,6 @@
 # Review batch-145
 
-Diperiksa 2026-10-07T05:34:09.511Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md, batch-145-fix-3.md, batch-145-fix-4.md, batch-145-fix-5.md.
+Diperiksa 2026-10-13T15:10:24.197Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md, batch-145-fix-3.md, batch-145-fix-4.md, batch-145-fix-5.md, batch-145-fix-6.md.
 
 ## mogollon-monster — lulus-otomatis
 
@@ -348,7 +348,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## beaman-monster — lulus-otomatis
 
-Klaim 11 (exact 11), sumber 2, gambar 0.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -363,6 +363,9 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 | beaman-monster-c09 | exact | www.semissourian.com | According to the report, some people have reported seeing large footprints, which they view as evidence of the beast's existence. | Others have reported seeing large footprints, which they view as evidence of the beast's existence. |
 | beaman-monster-c10 | exact | www.semissourian.com | A couple of people recall the Beaman Monster as a prank in the 1950s: some teenagers stole a construction sign with round, yellow flashing lights, covered it with brush and hid it in a field near Beaman. | A couple of people recall the Beaman Monster as a prank in the 1950s. ... Some teenagers stole a construction sign with large, round, yellow flashing lights, covered it with brush and hid it in a field near Beaman. |
 | beaman-monster-c11 | exact | www.semissourian.com | According to the report, some speculate the origins of the beast may have more to do with moonshine than anything else. | Some speculate the origins of the beast may have more to do with moonshine than anything else. |
+| beaman-monster-c12 | exact | www.semissourian.com | A man named Smith, then about 10, said that while he was riding in the bed of a pickup truck, a wolf-shaped creature came out of the woods and began to run alongside the vehicle. | Smith said the sighting happened when he was about 10. He was riding in the bed of a pickup truck when a wolf-shaped creature came out of the woods and began to run alongside the vehicle. |
+| beaman-monster-c13 | exact | www.semissourian.com | Smith recalled other strange happenings around his uncle's farm: a pig found mauled to death without any sign of another animal, such as tracks, and, another time, a dark figure moving in the woods during a thunderstorm. The report does not state outright that the Beaman Monster was responsible. | Other strange happenings occurred around the farm of Smith's uncle. Smith remembered when a pig was found mauled to death without any signs of another animal, such as tracks. Another time, a dark figure moved around in the woods during a thunderstorm, he said. |
+| beaman-monster-c14 | exact | www.semissourian.com | Mallard recalled that at about age 12, behind his parents' barn, he and a friend found huge footprints; they followed them down to the pond and got spooked, because the prints were too far apart for them to stride. | When he was about 12, Mallard and a friend went behind his parents' barn to dig for fishing worms. ... "There were these huge footprints," Mallard said. "We followed them down to the pond and just got spooked. They were big; we couldn't stride that far apart." |
 
 
 ## bear-lake-monster — lulus-otomatis

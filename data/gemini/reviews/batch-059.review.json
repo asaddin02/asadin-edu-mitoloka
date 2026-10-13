@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-059",
-  "checked_at": "2026-10-08T15:37:33.923Z",
+  "checked_at": "2026-10-13T15:05:55.640Z",
   "files": [
     "batch-059.md",
     "batch-059-fix-1.md",
     "batch-059-fix-2.md",
     "batch-059-fix-3.md",
     "batch-059-fix-4.md",
-    "batch-059-fix-5.md"
+    "batch-059-fix-5.md",
+    "batch-059-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -624,12 +625,12 @@
     },
     {
       "slug": "wd-q10329896",
-      "file": "batch-059-fix-5.md",
-      "entry_sha256": "6a99c9ca7b18d7f4c1a56c4e5c3bdac68cf3e57652331f0bc156bd5bcf103708",
+      "file": "batch-059-fix-6.md",
+      "entry_sha256": "115ad92f8fb8cacd55e3902037c4f064490b1c28cf020ace163410247f30f1b2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 3,
+        "claims": 11,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -693,18 +694,68 @@
           "quote": "朱厭，是中國古代傳說中的一隻妖怪，为白头红脚的猿猴，一出现就会發生战争。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c07",
+          "source_id": "wd-q10329896-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In the novel Xia Shang Yeshi (夏商野史), Zhuyan (朱厭) is described as like a white ape with white hands and red feet; its nature is the same as that of the Fuxi bird (鳧徯), called fierce (兇惡), and it comes out whenever war (干戈) stirs in the world.",
+          "statement_id": "Dalam novel Xia Shang Yeshi (夏商野史), Zhuyan (朱厭) digambarkan mirip kera putih bertangan putih dan berkaki merah; sifatnya sama dengan burung Fuxi (鳧徯) yang disebut berwatak garang (兇惡), dan ia muncul ketika perang (干戈) bergerak di dunia.",
+          "quote": "鳧徯生得身如雄雞而人面，它性兇惡，世有兵變，它便出。朱厭生得似白猿，白手赤足，性同鳧徯，天下干戈動它便出。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c08",
+          "source_id": "wd-q10329896-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The same novel says the bird-monster Luoluo (羅羅) swore brotherhood with the bird Fuxi of Mount Lutai and the strange beast Zhuyan of Mount Xiaoci.",
+          "statement_id": "Novel yang sama menyebut monster burung Luoluo (羅羅) mengangkat saudara dengan burung Fuxi dari Gunung Lutai dan hewan aneh Zhuyan dari Gunung Xiaoci.",
+          "quote": "羅羅鳥怪身似人而有羽毛，曾與鹿臺山鳥怪名鳧徯的、小次山怪獸名朱厭的，契拜兄弟。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c09",
+          "source_id": "wd-q10329896-s4",
+          "host": "zh.wikisource.org",
+          "statement": "Luoluo gathered Fuxi from Mount Lutai and Zhuyan from Mount Xiaoci for a fierce battle at Mount Lai (萊山), but the mountain gods of Mount Lai had already set an ambush.",
+          "statement_id": "Luoluo mengumpulkan Fuxi dari Gunung Lutai dan Zhuyan dari Gunung Xiaoci untuk bertempur sengit di Gunung Lai (萊山), tetapi para dewa gunung di Gunung Lai sudah menyiapkan penyergapan.",
+          "quote": "羅羅果去鹿臺、小次二山糾集鳧徯、朱厭來到萊山鏖戰。誰知萊山各神早已埋伏了",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c10",
+          "source_id": "wd-q10329896-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The three monsters were outnumbered: Zhuyan had a leg broken by the god of Mount Shuli (數歷山神) and could not move, and the wounded Zhuyan and Fuxi could not escape and were killed by the gods; Luoluo died from a blow by another mountain god.",
+          "statement_id": "Ketiga monster kalah jumlah: kaki Zhuyan dipatahkan oleh dewa Gunung Shuli (數歷山神) sehingga tak bisa berjalan, dan Zhuyan serta Fuxi yang terluka tak bisa lolos dan dibunuh para dewa; Luoluo tewas dipukul dewa gunung lain.",
+          "quote": "眾見三個怪至，一齊殺出，把三怪圍在中心。三怪各執鐵瓜來鬥，終寡不敵眾，鳧徯被龍首山神傷了左翅，飛不起。朱厭被數歷山神打折一足，走不動。羅羅被中皇山神劈頭一金杖，打出腦漿落草身亡。鳧徯、朱厭帶傷脫身不得，俱被眾神打死。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c11",
+          "source_id": "wd-q10329896-s5",
+          "host": "zh.wikisource.org",
+          "statement": "The Gujin Tushu Jicheng quotes the Tuzan (圖贊, illustrated eulogy) on the Shanhaijing pairing Fuxi and Zhuyan: when they are seen, there are weapons, i.e. war (見則有兵).",
+          "statement_id": "Gujin Tushu Jicheng mengutip Tuzan (圖贊, syair pujian bergambar) atas Shanhaijing yang memasangkan Fuxi dan Zhuyan: bila keduanya terlihat, ada senjata (perang) (見則有兵).",
+          "quote": "案《圖贊》曰：「鳧徯朱厭，見則有兵。類異感同，理不虛行，推之自然，厥數難明。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q10542923",
-      "file": "batch-059-fix-5.md",
-      "entry_sha256": "2599220290eff9f1db780afa93a011146e6d51289dc49cba2eefb83a8959d203",
+      "file": "batch-059-fix-6.md",
+      "entry_sha256": "b280ccfdaa50d62697f4c259007de9c135a114b1f9d014c40867ae43b515b813",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 11,
+        "sources": 6,
         "images": 0
       },
       "issues": [],
@@ -777,6 +828,46 @@
           "statement_id": "Negeri Qizhong terletak di timur negeri Juying (拘瘿国), dan penduduknya bertubuh tinggi besar dengan kaki yang sangat besar.",
           "quote": "跂踵国则是在拘瘿国的东面的一个国家，那里的人都身材高大，两只脚也非常大。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c08",
+          "source_id": "wd-q10542923-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In the annotated Bamboo Annals (竹書綂箋), the entry for the sixth year says the Qizhong people (岐踵戎) came as guests (來賓); the annotator writes that 岐 is also written 跂, citing the Huainanzi on the 跂踵民 and the gloss that their heels do not touch the ground and they walk on five toes.",
+          "statement_id": "Dalam Zhushu Jinian beranotasi (竹書綂箋), entri tahun keenam menyatakan suku Qizhong (岐踵戎) datang sebagai tamu (來賓); catatan penafsir menulis bahwa 岐 juga ditulis 跂, mengutip Huainanzi tentang 跂踵民 dan penjelasan bahwa tumit mereka tidak menyentuh tanah dan mereka berjalan dengan lima jari kaki.",
+          "quote": "畎夷入于岐以叛〈箋按畎音犬韋昭曰春秋以為犬戎小顔曰即昆夷也〉 六年岐踵戎來賓〈箋按岐一作跂淮南墬形訓有跂踵民高誘注跂踵踵不至地以五指行",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c09",
+          "source_id": "wd-q10542923-s5",
+          "host": "zh.wikisource.org",
+          "statement": "The Gujin Tushu Jicheng quotes the Shanhaijing (the Qizhong country east of Juying; its people big with big feet), the note that their heels do not touch the ground, and the Xiaojing gouming jue (孝經鉤命訣) naming Jiaoyao and Qizhong, glossed \"chongyi, kuansai\" (重譯，款塞): arriving through repeated interpretation and knocking at the frontier.",
+          "statement_id": "Gujin Tushu Jicheng mengutip Shanhaijing (negeri Qizhong di timur Juying; penduduknya besar dengan kaki besar), catatan bahwa tumit mereka tak menyentuh tanah, dan Xiaojing gouming jue (孝經鉤命訣) yang menyebut Jiaoyao dan Qizhong, dengan penjelasan \"chongyi, kuansai\" (重譯，款塞): datang melalui penerjemah berulang dan mengetuk perbatasan.",
+          "quote": "按《山海經。海外北經》：「跂踵國在拘纓東，其為人大，兩 足亦大，一曰大踵。」 〈注〉其人行，腳跟不著地也。《孝經鉤命訣》曰：「焦僥跂踵。」重譯，款塞也。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c10",
+          "source_id": "wd-q10542923-s5",
+          "host": "zh.wikisource.org",
+          "statement": "In Guo Pu's Qizhong Guo Zan (跂踵國贊): their bodies are large but they stand on tiptoe; they hop like sparrows (跳步雀躍) with heels not touching the ground, arrive in response to virtue (應德而臻), and knock at the frontier to return to righteousness (款塞歸義).",
+          "statement_id": "Dalam Qizhong Guo Zan (跂踵國贊) karya Guo Pu: tubuh mereka besar tetapi kaki mereka berjinjit; mereka melompat-lompat seperti burung pipit (跳步雀躍) dengan tumit tak menyentuh tanah, datang karena menanggapi kebajikan (應德而臻), dan mengetuk perbatasan untuk kembali ke kebenaran (款塞歸義).",
+          "quote": "厥形雖大，斯腳則企。跳步雀躍，踵不閡地。應德而臻， 款塞歸義。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c11",
+          "source_id": "wd-q10542923-s6",
+          "host": "zh.wikisource.org",
+          "statement": "In the novel Jinghuayuan (鏡花緣), travellers see several Qizhong people taking fish at the seashore: eight chi tall and wide, with dishevelled red hair and big feet, walking on their toes without heels touching the ground in a stately gait; the character Tang Ao finds them too stiff and does not land.",
+          "statement_id": "Dalam novel Jinghuayuan (鏡花緣), para pelaut melihat beberapa orang Qizhong mengambil ikan di tepi laut: tinggi dan lebar delapan chi, berambut merah acak-acakan, berkaki besar, berjalan dengan jari kaki tanpa menyentuhkan tumit dengan langkah tenang; tokoh Tang Ao menilai mereka terlalu kaku dan tidak turun ke darat.",
+          "quote": "這日到了跂踵國。有幾個國人在海邊取魚。一個個身長八尺，身寬也是八尺，竟是一個方人。赤髮蓬頭，兩隻大腳，有一尺厚、二尺長，行動時以腳指行走，腳跟並不著地，一步三搖，斯斯文文，竟有「寧可濕衣，不可亂步」光景。唐敖因這方人過於拘板，無甚可觀，不曾上去。",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
