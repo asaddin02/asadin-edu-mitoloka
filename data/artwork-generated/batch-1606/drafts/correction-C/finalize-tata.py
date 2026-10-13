@@ -1,0 +1,12 @@
+import json,hashlib,shutil,datetime
+from pathlib import Path
+from PIL import Image
+b=Path('data/artwork-generated/batch-1606');s='tata-duende'
+r=json.loads((b/'drafts'/'correction-C'/f'{s}-correction-01.json').read_text())
+f=Path('/home/asadin/.codex/generated_images/01a13409-ba26-7af0-8a7f-e097fa3a0595/exec-576e550e-6582-43cf-9935-b44262daa064.png');out=b/'originals'/f'{s}.png';shutil.copy2(f,out)
+h=hashlib.sha256(out.read_bytes()).hexdigest();now=datetime.datetime.now(datetime.timezone.utc).isoformat();w,hg=Image.open(out).size
+for k in ['root_visual_review','independent_visual_review','correction_notes']:r.pop(k,None)
+r.update(status='awaiting-independent-review',image_model='tidak dilaporkan alat',generated_file=str(f),generated_at=now,original_file=str(out),native_sha256=h,width=w,height=hg,depicted_variant='Small bearded elderly Belize forest guardian in a side-on warning stride, with two thumbless four-finger palms and two reversed bare feet.',aura='Stern protective blocking gesture, unusual four-finger palms and reversed feet convey uncanny authority grounded in tata-duende-c02/c05/c08/c12/c13/c14, without emitted power.',artistic_choices=['Protective Nukuch Tat interpretation c05/c12; small stature emphasized by roots and leaves, no giant scale.','Side-on torso and knees face left; both bare heels lie left of ankles and toe groups extend right, making c08 reversal inspectable. Both palms show four digits and zero thumbs.','Opaque rough clothing, low close camera, warm single sunset shaft and deep forest shadows are editorial choices; no supernatural power effects or victims.'],visual_review={'reviewer':'codex','verdict':'pass','notes':'Viewed original native1254 and separate200px. All7 Sangar checks yes: subject dominates; small guardian imposing at200; active blocking stride; no powerFX (protective action c02/c05/c12); exactly1head/2eyes/2arms/2legs. BOTH palms have4 separate fingers and smooth thumb-free edges. BOTH feet clearly heel LEFT/toes RIGHT while torso/knees faceLEFT, reversing normal stance c08/c13. Tallhat/beard/opaquecloth retained. No text/watermark/border/borrowed design; unusual anatomy and stern warning prevent ordinary-man or cute reading.','limitations':[],'native_sha256':h,'reviewed_at':now})
+(b/f'{s}.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+(b/'drafts'/'correction-C'/f'{s}-correction-01-raw-result.json').write_text(json.dumps({'output_file':str(f),'image_model':'tidak dilaporkan alat','tool':'OpenAI built-in image_gen'},indent=2)+'\n')
+print(s,h)

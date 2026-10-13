@@ -1,6 +1,6 @@
 # Review batch-130
 
-Diperiksa 2026-10-07T05:45:38.247Z. Berkas: batch-130.md, batch-130-fix-1.md.
+Diperiksa 2026-10-13T08:44:49.806Z. Berkas: batch-130.md, batch-130-fix-1.md, batch-130-fix-2.md.
 
 ## keteh-meriri — lulus-otomatis
 
@@ -399,9 +399,6 @@ Klaim 12 (exact 12), sumber 3, gambar 0.
 ## gatipedro — lulus-otomatis
 
 Klaim 8 (exact 8), sumber 3, gambar 0.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|

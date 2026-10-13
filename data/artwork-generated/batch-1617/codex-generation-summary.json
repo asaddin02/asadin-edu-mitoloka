@@ -1,0 +1,84 @@
+{
+  "completed_at": "2026-10-13T08:15:40.284245+00:00",
+  "batch": 1617,
+  "target": 11,
+  "selected": 3,
+  "selected_slugs": [
+    "frigg",
+    "mnemosyne",
+    "nephthys"
+  ],
+  "declined": 8,
+  "declined_slugs": [
+    "ahura-mazda",
+    "tengri",
+    "sekhmet",
+    "ennead",
+    "manat",
+    "inari",
+    "tammuz",
+    "anahita"
+  ],
+  "awaiting_independent_review": 3,
+  "variant_pngs_accepted": 6,
+  "unselected_valid_variants": 3,
+  "quality_rejected_pngs": 10,
+  "image_gen_calls": 16,
+  "successful_image_outputs": 16,
+  "tool_failures": [],
+  "image_model": "tidak dilaporkan alat",
+  "subagents": [
+    {
+      "agent": "big-A",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "slugs": [
+        "ahura-mazda",
+        "frigg",
+        "mnemosyne",
+        "tengri"
+      ],
+      "calls": 6,
+      "quality_rejections": 2
+    },
+    {
+      "agent": "big-B",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "slugs": [
+        "nephthys",
+        "sekhmet",
+        "ennead"
+      ],
+      "calls": 4,
+      "quality_rejections": 2
+    },
+    {
+      "agent": "big-C",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "slugs": [
+        "tammuz",
+        "anahita",
+        "manat",
+        "inari"
+      ],
+      "calls": 6,
+      "quality_rejections": 6
+    }
+  ],
+  "subagent_followup_failure": {
+    "agent": "big-A",
+    "reason": "Selected model is at capacity. Please try a different model.",
+    "resolution": "Root finalized Mnemosyne selection metadata from both reviewed PNGs; no new generation needed."
+  },
+  "integration_performed": false,
+  "commit_performed": false,
+  "push_performed": false,
+  "root_reviews": "data/artwork-generated/batch-1617/drafts/root/codex-variant-reviews.json",
+  "root_rejected_reviews": "data/artwork-generated/batch-1617/drafts/root/codex-rejected-reviews.json",
+  "gallery": "docs/artwork-batch-1617.html",
+  "next_step": "Claude tinjau3final batch1617 dan7koreksi batch1506/1556/1606; delapan decline perlu tambahan riset wujud sebelum dicoba lagi. Codex dapat melanjutkan antrean entri lengkap lainnya tanpa mengulang delapan nama besar yang bukti/kualitasnya belum cukup.",
+  "gallery_links_checked": 43,
+  "gallery_links_missing": []
+}

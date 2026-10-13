@@ -1,0 +1,52 @@
+{
+  "slug": "frigg",
+  "variant": "A",
+  "worker": "codex",
+  "worker_agent": "big-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "prompt-prepared",
+  "review_path": "data/gemini/reviews/batch-045.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of FRIGG, greatest Norse goddess, demanding protective oaths from all things animate and inanimate for her son.\nANATOMY: One mature adult female deity rendered as a natural humanlike woman, one head, two eyes, two arms and natural five-fingered hands. She wears an entirely opaque stately high-neck dark walnut ceremonial gown with broad heavy plain gold-brown woven mantle; only hands and face bare. Rich matte fabric with dignified construction, not ragged peasant clothing. No crown or invented divine attributes. [frigg-c01, frigg-c02]\nMOMENT: Pronounce the binding promise with stern sovereign authority while visibly receiving an oath assembly; she leans toward the viewer from a very close low angle, face raised slightly and mouth open mid-decree, her right open hand held vertical at shoulder height in a decisive oath-command, left hand lowered toward a rough stone. In the left middle distance, two fully clothed adult human oath witnesses face HER and raise one natural hand each to solemnly promise; a natural living stag stands beside the witnesses and faces her, its antlers remaining background rather than an attribute of her. A living tree trunk and rough inert stone stand opposite as examples of animate and inanimate things. The subjects attend the goddess, never the viewer. This is a sacred oath-taking assembly, not a woman hiking or reaching for help. [frigg-c10]\nPOWER: Extracting promises from all things that they will not harm her son; show the deed physically through the witnesses' oath gestures and the goddess's decree. No documented visible magical mechanism, so no magic effects. [frigg-c10]\nSCALE & CAMERA: Extreme low camera close to the goddess's waist; her face, shoulders and robe occupy 75 percent of the square, imposing strong triangular silhouette; oath witnesses clearly smaller only because they stand several steps behind, NOT because she is a giant. Face intensely confronts viewer. Foreground stone plain and non-glowing. Head and oath-hand legible at 200 pixels.\nLIGHT & WEATHER: One low warm sunset source behind the oath witnesses, thin hard rim on solemn fabric and side-lit austere face; rest of scene deep warm shadow, natural thin dust only. Strong dark walnut and antique gold palette; no divine halo.\nSURFACE: Dense woven ceremonial cloth, natural lined skin, living bark, stag hair, rough dark stone.\nSETTING: Unspecified outdoor assembly along her journey through the Nine Realms; no invented Fensalir architecture or special terrain. [frigg-c10]\nMOOD: Overwhelming sacred maternal authority; imposing royal goddess in decisive action, the witnesses compelled to solemn attention, awe rather than fear of an evil monster.\nHARD CONSTRAINTS: No text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no crown, weapon, spindle, magical birds, jewellery, runes or borrowed iconography; no film/game/anime/comic design; no nudity or explicit gore; no glowing eyes, halos, generic aura, neon lines, energy ribbons, lightning, levitation or invented power. Do not show a concerned ordinary woman, casual pedestrian, calm portrait or landscape without a dominant goddess.",
+  "basis_claim_ids": [
+    "frigg-c01",
+    "frigg-c02",
+    "frigg-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Female goddess in fully opaque plain ceremonial garments, no invented attributes.",
+      "claim_ids": [
+        "frigg-c01",
+        "frigg-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Extracting protective promises from animate and inanimate things, depicted as oath witnesses facing her; no magic.",
+      "claim_ids": [
+        "frigg-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Unspecified assembly in the Nine Realms where she collects the oaths.",
+      "claim_ids": [
+        "frigg-c10"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Adult human witnesses, a living stag/tree and inert stone exemplify c10 animate/inanimate categories; their ceremonial attention is editorial, no specific source scene claimed.",
+    "Richly woven opaque ceremonial clothes, natural humanlike face/anatomy and an oath-decree gesture are editorial rendering of c01/c02 goddess identity.",
+    "No glow or visible prophecy/magic; no unsupported giant size.",
+    "Small background participants are farther from camera, not scale markers proving giant stature."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

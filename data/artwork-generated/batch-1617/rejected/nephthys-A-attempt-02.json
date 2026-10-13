@@ -1,0 +1,98 @@
+{
+  "slug": "nephthys",
+  "worker": "codex",
+  "worker_agent": "big-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-01.json",
+      "native_sha256": "37aadb9fe43793a1d3f5bba615a18a338acd7ba995e7cfce0e542c84cedf293c",
+      "reason": "Native and 200px: protective hand, wrapped mummy and action correct, but goddess reads as ordinary human mourner stopping viewer. Sangar item 7 fails; no clearly divine context."
+    }
+  ],
+  "variant": "A",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of NEPHTHYS, the Egyptian divine protectress of the dead in the BOAT OF THE SUN AT CREATION, at the passage from twilight into primordial night.\nANATOMY: ONE female goddess with an ordinary humanlike head, two natural eyes, two arms, two five-finger hands and two legs covered by a fully opaque heavy long linen robe. This plain female body, bare uncovered dark hair and robe are editorial rendering of goddess identity, not sourced iconography. NO crown, headdress, wings, animal anatomy, staff, weapon or emblem. One fully bandaged mummy lies in the barque, complete covered head and body. [nephthys-c01, nephthys-c03]\nMOMENT: SWEEP forward protectively across the solar boat's curved prow toward the viewer, stern goddess bending from the waist with one large foreshortened open hand barring the viewer and the other hand planted over the wrapped mummy. Her robe pulls diagonally with the movement, fierce unyielding protective compassion, open mouth mid-lament. [nephthys-c03, nephthys-c08, nephthys-c14]\nPOWER: Her protection of the mummy and lament calling Osiris's soul back are physical gesture and vocal action only. NO visible ghost, soul, energy or invented mechanism. The solar boat at creation supplies divine context; Nephthys does not command waves, fire or the sun. [nephthys-c03, nephthys-c14, nephthys-c15]\nSCALE & CAMERA: Strong low-angle medium close view from just BELOW the upward curved prow. The goddess occupies the central two-thirds from head to hips, arm thrust forward across the frame. The solar barque's enormous CLOSE curved hull clearly cuts diagonally through foreground around the wrapped mummy; huge prow curls upward along left side, unmistakable BOAT rather than ground. Presence comes from camera framing, no giant stature claim. No other figures.\nLIGHT & WEATHER: ONE great dying sun, low behind the barque, its golden reflection runs across the dark surface below; clear early night stars above. Twilight silhouettes the curved solar hull and the goddess's streaming opaque linen, amber face and hand edges against black walnut night. No glowing body or generic aura.\nSURFACE: Rough heavy opaque linen, mummy bandages, tactile aged dark timber boat with warm gold-toned rim, visible carved but unlettered wood grain, painterly cosmic dusk.\nSETTING: The BOAT OF THE SUN AT CREATION, twilight turning to very early night. The barque occupies the entire foreground over boundless primordial dark water without earthly banks or city; stars and low sun form the mythic celestial setting. Boat hull shape and water are editorial staging of the accepted solar-boat setting. [nephthys-c15]\nMOOD: Sacred, awe-inspiring, imposing divine guardian in a cosmic solar barque, an overwhelming intervention, never an ordinary woman in a tomb or earthly fishing boat, never evil, passive, calm, cute or decorative.\nHARD CONSTRAINTS: Native square PNG at least 1024x1024. No text, letters, glyphs, logos, frame, border or watermark; no extra heads, limbs, fingers or people; no borrowed film/game/anime/comic design; no nudity, transparent cloth or gore; no generic glow aura, neon outline, energy ribbons or glowing eyes. NO conventional Egyptian crown, wings, ankh or sundisk headdress. Claim labels never visible.",
+  "depicted_variant": "Protective Nephthys bends across the close curved prow of the solar boat at creation, barring access to a fully wrapped mummy.",
+  "basis_claim_ids": [
+    "nephthys-c01",
+    "nephthys-c03",
+    "nephthys-c05",
+    "nephthys-c08",
+    "nephthys-c14",
+    "nephthys-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single plainly female goddess; ordinary humanlike rendering and fully opaque plain robe editorial, no documented wings/headdress and none drawn. Fully wrapped mummy protected.",
+      "claim_ids": [
+        "nephthys-c01",
+        "nephthys-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective blocking gesture and vocal lament returning Osiris soul; no invented visible soul or magic mechanism.",
+      "claim_ids": [
+        "nephthys-c03",
+        "nephthys-c08",
+        "nephthys-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night funerary rite with fully wrapped mummy; interior and flame editorial.",
+      "claim_ids": [
+        "nephthys-c03",
+        "nephthys-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Solar boat at creation in twilight/early night; curved timber hull and primordial water editorial staging, no claimed specific boat design.",
+      "claim_ids": [
+        "nephthys-c15"
+      ]
+    }
+  ],
+  "aura": "Unyielding protective intervention and lament (nephthys-c03/c08/c14), imposed through close low framing rather than invented energy.",
+  "artistic_choices": [
+    "Ordinary female anatomy, plain opaque long linen robe, uncovered dark hair and absence of emblematic iconography are editorial goddess rendering; accepted claims do not specify her bodily form.",
+    "Close low camera and foreshortening create monumental presence without claiming giant stature. Plain room, bandages, amber off-frame flame and dark palette are editorial context.",
+    "Documented protection/calling the soul are shown as gesture and vocal action only; no invented visible supernatural effect.",
+    "Solarboat form, dark primordial water, stars and sunset are editorial staging of documented place in solarboat at creation/twilight c15; no invented ability to move celestial bodies."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1343a-4151-7903-8a65-1ee1678a1c1a/exec-7aa8c86b-c47e-484f-8701-bed2414906f4.png",
+  "generated_at": "2026-10-13T07:53:46.520045+00:00",
+  "original_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-02.png",
+  "native_sha256": "227cad586c09933765535955e79bdd5444cfca73547ff21530553dafc7005a68",
+  "width": 1254,
+  "height": 1254,
+  "status": "rejected",
+  "reason": "Native and 200px: solarboat, mummy and counts correct, but distressed open-mouthed woman and ragged ordinary linen still read as human grieving mourner rather than commanding goddess. Sangar 7 fails.",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "reject",
+    "notes": "Native and 200px: solarboat, mummy and counts correct, but distressed open-mouthed woman and ragged ordinary linen still read as human grieving mourner rather than commanding goddess. Sangar 7 fails.",
+    "limitations": [
+      "ordinary-human reading"
+    ],
+    "sangar_checks": {
+      "1": "ya",
+      "2": "ya",
+      "3": "ya",
+      "4": "ya",
+      "5": "ya",
+      "6": "ya",
+      "7": "tidak"
+    }
+  }
+}

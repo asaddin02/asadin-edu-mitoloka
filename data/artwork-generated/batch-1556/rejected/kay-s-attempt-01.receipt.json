@@ -1,0 +1,81 @@
+{
+  "slug": "kay-s",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kayış, the Turkish strap-legged ghoul clinging to a traveller. Native square PNG at least1024x1024.\nANATOMY: ONE terrifying OLD-MAN ghoul head and human upper body, TWO arms/TWO hands, but EXACTLY TWO long LEATHER-STRAP legs without feet; straps wrap an adult traveller waist. ONE fully opaque plainly clothed adult male traveller with two arms/two legs/one head, no children. [kay-s-c01, kay-s-c02, kay-s-c03, kay-s-c05]\nMOMENT: CLING atop traveller shoulders, old ghoul head leans toward viewer with clenched expression; two long flat leather legs clearly tighten around waist while traveller staggers, adult travellers hands pulling at the straps.\nPOWER: Strap legs hold traveller and refuse release until journey ends; physical binding only, no magical aura or hypnosis beams. [kay-s-c02, kay-s-c03, kay-s-c05]\nSCALE & CAMERA: Low tight angle on ghoul above adult shoulders; head/arms and two waist-wrapped straps all readable, not distant scene.\nLIGHT & WEATHER: Single cold moonbeam, dark riverbank, deep walnut shadow.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: An unspecified riverside road at night. [kay-s-c04, kay-s-c08]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the Turkish strap-legged ghoul clinging to a traveller",
+  "basis_claim_ids": [
+    "kay-s-c01",
+    "kay-s-c02",
+    "kay-s-c03",
+    "kay-s-c05",
+    "kay-s-c04",
+    "kay-s-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE terrifying OLD-MAN ghoul head and human upper body, TWO arms/TWO hands, but EXACTLY TWO long LEATHER-STRAP legs without feet; straps wrap an adult traveller waist. ONE fully opaque plainly clothed adult male traveller with two arms/two legs/one head, no children.",
+      "claim_ids": [
+        "kay-s-c01",
+        "kay-s-c02",
+        "kay-s-c03",
+        "kay-s-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strap legs hold traveller and refuse release until journey ends; physical binding only, no magical aura or hypnosis beams.",
+      "claim_ids": [
+        "kay-s-c02",
+        "kay-s-c03",
+        "kay-s-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "An unspecified riverside road at night.",
+      "claim_ids": [
+        "kay-s-c04",
+        "kay-s-c08"
+      ]
+    }
+  ],
+  "aura": "CLING atop traveller shoulders, old ghoul head leans toward viewer with clenched expression; two long flat leather legs clearly tighten around waist while traveller staggers, adult travellers hands pulling at the straps. Grounded in kay-s-c01, kay-s-c02, kay-s-c03, kay-s-c05, kay-s-c04, kay-s-c08.",
+  "artistic_choices": [
+    "Selected hand-bearing clinging variant c05, not handless c04 or belly snake arms c10. Leather legs should be two flat weathered straps, no extra conventional legs. Older man face and ordinary clothes editorial. Non-graphic adult peril.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-308ec947-dadc-43f6-9059-361e81372a35.png",
+  "generated_at": "2026-10-12T16:13:40.282986+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/kay-s.png",
+  "native_sha256": "7d965d6e9eacc743f243ced2c1dd4ef825645c217ebe3e002c30c49c44f4327f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200px dilihat: roh tua mengerikan menempel di bahu traveller dewasa c02/c05, dua kaki berupa strap kulit panjang melilit pinggang c01/c03 dan traveller menariknya saat terhuyung. Tidak kaki normal ghoul terlihat, dua tangan ghoul mencengkeram dan traveller dua tangan terpisah; tanpa anak/luka/teks. UjiSangar7 ya: binding fisik dekat/perbuatan sumber, bukan orang biasa atau aura.",
+    "limitations": [],
+    "native_sha256": "7d965d6e9eacc743f243ced2c1dd4ef825645c217ebe3e002c30c49c44f4327f",
+    "reviewed_at": "2026-10-12T16:23:56.447547+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "7d965d6e9eacc743f243ced2c1dd4ef825645c217ebe3e002c30c49c44f4327f",
+    "notes": "Checked at full size: the two leather-strap legs do not read as the ghoul's own legs; they look like ordinary belts and buckles the traveller is fastening (GAMBAR §6.1 'atribut tidak terbaca'). Redraw so both long strap legs grow visibly out of the old ghoul's hips, with no feet, buckles or belt hardware, and coil tightly round the traveller's waist while he strains; keep the old-man head, two arms and night river path."
+  },
+  "correction_notes": "Checked at full size: the two leather-strap legs do not read as the ghoul's own legs; they look like ordinary belts and buckles the traveller is fastening (GAMBAR §6.1 'atribut tidak terbaca'). Redraw so both long strap legs grow visibly out of the old ghoul's hips, with no feet, buckles or belt hardware, and coil tightly round the traveller's waist while he strains; keep the old-man head, two arms and night river path."
+}

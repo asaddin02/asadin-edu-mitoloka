@@ -1,6 +1,6 @@
 # Review batch-069
 
-Diperiksa 2026-10-07T09:26:54.771Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md, batch-069-fix-8.md.
+Diperiksa 2026-10-13T08:44:49.122Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md, batch-069-fix-8.md, batch-069-fix-9.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
@@ -455,9 +455,6 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 ## kanas-lake-monster — lulus-otomatis
 
 Klaim 10 (exact 10), sumber 3, gambar 0.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "Cerita kriptid Xinjiang".
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|

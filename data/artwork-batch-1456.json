@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 41,
+  "complete": 42,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -10600,7 +10600,7 @@
       "slug": "kanas-lake-monster",
       "canonical_name": "Kanas Lake Monster",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-069.review.json",
       "research": {
@@ -10912,8 +10912,52 @@
         "kanas-lake-monster-c08"
       ],
       "receipt_path": "data/artwork-generated/batch-1456/kanas-lake-monster.json",
-      "original_file": "data/artwork-generated/batch-1456/originals/kanas-lake-monster.png",
-      "native_sha256": "0a65b629647e2e0906b40b61e34d8f8ff1e7b7b456c3a7a76726653bfea9bb44"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1456/originals/kanas-lake-monster.png",
+      "native_sha256": "0a65b629647e2e0906b40b61e34d8f8ff1e7b7b456c3a7a76726653bfea9bb44",
+      "url": "/assets/art/kanas-lake-monster-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kanas Lake Monster, the unconfirmed giant Red Fish described in the1985 report from Kanas Lake. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one massive RED fish, broad head reportedly over a metre wide; one head and two natural fish eyes, scaled fish neck/shoulder cropped close; do not specify taimen species or invent horns, whiskers, extra fins or predatory fangs, mouth partly open with no visible teeth [kanas-lake-monster-c01, kanas-lake-monster-c07]\nMOMENT: RISE up against the low viewer from the lake surface, broad red head and shoulder displacing a heavy wave, not a small normal fish at a distance\nPOWER: no documented supernatural powers; physical water displacement on emergence as reported; no swallowing livestock scene [kanas-lake-monster-c09]\nSCALE & CAMERA: extreme low waterline view, documented immense head fills frame; lake wave much smaller than head\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: wet red-brown fish scales and physically displaced lake water\nSETTING: Kanas Lake Xinjiang, far lake shore barely visible [kanas-lake-monster-c01]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+      "depicted_variant": "1985 reported giant Red Fish, intentionally unconfirmed and not identifying it as taimen.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Reported giant red fish10–15m with head over1m wide; unconfirmed",
+          "claim_ids": [
+            "kanas-lake-monster-c01",
+            "kanas-lake-monster-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Kanas Lake Xinjiang",
+          "claim_ids": [
+            "kanas-lake-monster-c01"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Reported water emergence and breaking metre wave, physical displacement only",
+          "claim_ids": [
+            "kanas-lake-monster-c09"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "kanas-lake-monster-c01",
+        "kanas-lake-monster-c07",
+        "kanas-lake-monster-c09"
+      ],
+      "aura": "Awe comes from reported10–15m Red Fish with metre-wide head emerging close (kanas-lake-monster-c07).",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native1254/200 inspected; all seven checks pass. Immense red fish head c07 dominates low lake camera, two fish eyes, no horns/whiskers/fangs/extra appendages; water pushed by emergence c09, Kanas habitat c01. Scale metre-wide head and10–15m report preserves unconfirmed status, no taxonomic certainty or magical power. Direct looming open mouth and wave provide awe, no text/gore/franchise design.",
+        "limitations": [],
+        "native_sha256": "0a65b629647e2e0906b40b61e34d8f8ff1e7b7b456c3a7a76726653bfea9bb44",
+        "reviewed_at": "2026-10-12T08:05:06.368914+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0d31167c39c267f14761e7a1da5b116697d432696a86c8a2f842def707714680"
     },
     {
       "index": 24,

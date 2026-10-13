@@ -1,0 +1,57 @@
+{
+  "slug": "nephthys",
+  "worker": "codex",
+  "worker_agent": "big-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variant": "A",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of NEPHTHYS, Egyptian goddess and protective Friend of the Dead, intervening over a mummy during a night funerary rite.\nANATOMY: ONE plainly humanlike adult female goddess, one head, two natural eyes, two arms, two natural five-finger hands, two legs concealed by a fully opaque heavy long linen robe. Bare uncovered dark-haired head, NO crown, headdress, wings, animal anatomy, jewellery attributes, staff or weapons. The feminine representation and plain clothing are restrained editorial choices for a goddess, NOT documented iconography. [nephthys-c01] One tightly linen-wrapped mummy, fully covered head to toe, with no exposed dead flesh. [nephthys-c03]\nMOMENT: INTERVENE protectively toward the viewer; goddess bends urgently forward over the wrapped mummy, her face filling the upper half of the image, one open palm thrust very close toward the viewer, the other hand bracing the mummy's wrapping. A deeply intent commanding expression, mouth open mid-lament, compassion with unyielding authority. Her sweeping forward body and enormous foreshortened palm arrest the viewer like a sacred prohibition. [nephthys-c03, nephthys-c08, nephthys-c14]\nPOWER: Protection of the mummy and the act of calling Osiris's soul back from death are conveyed ONLY through her protective blocking hand and forceful lament. NO visible soul, ghost, glowing eyes, levitation, shockwave or magical energy; do not invent the physical appearance or mechanism of that power. [nephthys-c03, nephthys-c14]\nSCALE & CAMERA: Extreme low very close camera at the wrapped body's level, severe foreshortening. Goddess is the unmistakable main subject; her head, expression and outstretched hand occupy 80 percent of the image. This is camera dominance, NOT a factually giant body. Mummy crosses lower foreground diagonally, secondary to her face and hand. No attendants.\nLIGHT & WEATHER: ONE off-frame amber funerary flame casts sharp upward side light across the goddess's face and massive close palm, deep walnut shadows behind; night darkness, tiny ordinary suspended dust particles only. The flame does not originate in her body.\nSURFACE: Strong premium painterly brushwork; rough opaque linen folds, textured mummy bandages, natural skin, worn plain stone. Never plastic or smooth fashion portrait.\nSETTING: Bare funerary interior at night, a close mummy as the evidence-supported context; background almost entirely dark. [nephthys-c03, nephthys-c05]\nMOOD: Overwhelming sacred protective authority, awe-inspiring and imposing, never evil, decorative, passive, cute, calm or an ordinary mourner snapshot.\nHARD CONSTRAINTS: Native square PNG at least 1024x1024. No text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity, see-through clothing or explicit gore; no generic glow aura, neon outline or energy ribbons. No conventional Egyptian iconography absent from this brief. Claim labels are never visible.",
+  "depicted_variant": "A close foreshortened Nephthys blocks the viewer protectively above a fully wrapped mummy while lamenting.",
+  "basis_claim_ids": [
+    "nephthys-c01",
+    "nephthys-c03",
+    "nephthys-c05",
+    "nephthys-c08",
+    "nephthys-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single plainly female goddess; ordinary humanlike rendering and fully opaque plain robe editorial, no documented wings/headdress and none drawn. Fully wrapped mummy protected.",
+      "claim_ids": [
+        "nephthys-c01",
+        "nephthys-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective blocking gesture and vocal lament returning Osiris soul; no invented visible soul or magic mechanism.",
+      "claim_ids": [
+        "nephthys-c03",
+        "nephthys-c08",
+        "nephthys-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night funerary rite with fully wrapped mummy; interior and flame editorial.",
+      "claim_ids": [
+        "nephthys-c03",
+        "nephthys-c05"
+      ]
+    }
+  ],
+  "aura": "Unyielding protective intervention and lament (nephthys-c03/c08/c14), imposed through close low framing rather than invented energy.",
+  "artistic_choices": [
+    "Ordinary female anatomy, plain opaque long linen robe, uncovered dark hair and absence of emblematic iconography are editorial goddess rendering; accepted claims do not specify her bodily form.",
+    "Close low camera and foreshortening create monumental presence without claiming giant stature. Plain room, bandages, amber off-frame flame and dark palette are editorial context.",
+    "Documented protection/calling the soul are shown as gesture and vocal action only; no invented visible supernatural effect."
+  ]
+}

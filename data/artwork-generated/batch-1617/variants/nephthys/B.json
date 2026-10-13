@@ -1,0 +1,77 @@
+{
+  "slug": "nephthys",
+  "worker": "codex",
+  "worker_agent": "big-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "variant": "B",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "nephthys-c01",
+    "nephthys-c08",
+    "nephthys-c15"
+  ],
+  "depicted_variant": "Nephthys strides toward the viewer across the prow of the solar boat at creation, one hand firmly drawing her robe aside and the other commanding a protective passage.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One female goddess in ordinary humanlike editorial form, complete two arms/two legs and plain fully opaque ceremonial robe without wings/emblems.",
+      "claim_ids": [
+        "nephthys-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Active protective commanding gesture only; no invented elemental power.",
+      "claim_ids": [
+        "nephthys-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Solar boat at creation in twilight; boat/celestial sea/starfield staging editorial.",
+      "claim_ids": [
+        "nephthys-c15"
+      ]
+    }
+  ],
+  "aura": "The guardian strides directly into the viewer path from the solarboat at creation (c08/c15), divine presence through dramatic action/celestial context with no invented magic.",
+  "artistic_choices": [
+    "Female humanlike anatomy and plain immaculate opaque ceremonial robe are editorial rendering of goddess identity, not documented iconography.",
+    "Full-body diagonal stride differs genuinely from A close upper-body mummy intervention. Low tight framing creates monumental presence without literal giant size.",
+    "Celestial scene with solarbarque, sun/starfield and robe movement is editorial staging of c15; does not claim a power or specific transport mechanism. No visible magic effect."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of NEPHTHYS, Egyptian protective goddess whose place is in the BOAT OF THE SUN AT CREATION.\nANATOMY: ONE regal adult female goddess in plain ordinary humanlike editorial form: one bare uncovered head, two natural eyes, TWO arms, two five-finger hands and TWO legs. Both legs identifiable beneath separate heavy robe folds, fully opaque floor-length ivory ceremonial linen, covered shoulders and chest. Immaculate fine woven cloth with broad clean folds and sober antique-gold edging, no ragged or transparent cloth. Precisely gathered dark hair, NO crown, headdress, wings, jewellery, animal anatomy, staff, ankh or weapons. Feminine body and cloth are restrained editorial choices, not source-described iconography. [nephthys-c01]\nMOMENT: STRIDE toward the viewer along the narrow deck and around the sweeping curved prow of the solar barque, one foot thrust down into the close foreground, the other planted higher behind. Torso turns three-quarter, shoulders taut with decisive motion; one hand gathers the heavy opaque robe at her hip, the other arm sweeps diagonally forward with palm DOWN in a commanding protective gesture. Severe poised expression looking down directly at the viewer, closed mouth, protective authority without distress. Body diagonal and fabric motion are the focus, not a static pose. [nephthys-c08]\nPOWER: No visible magical effect. Protective goddess identity is expressed by active commanding passage. The solarbarque at creation is her documented divine context; she does NOT control stars, the Sun, weather or fire. [nephthys-c08, nephthys-c15]\nSCALE & CAMERA: Dramatic LOW wide close view from immediately below the solarboat prow. Show her ENTIRE body, head to both cloth-covered legs and feet, large central subject occupying 80 percent of the image, diagonal stride toward the right foreground. Curved dark boat prow wraps around left foreground, bow planks visible directly beneath her feet. No mummy in this composition, no attendants or other figures. Dominance via extreme close low camera and foreshortening, not giant-body claim.\nLIGHT & WEATHER: ONE low Sun in left background, half beyond the dark distant celestial horizon, warm amber side light sharply defines stern face, shoulders and taut opaque ivory folds. Deep walnut shadows, star-filled very early night behind her. Cloth moves naturally with her forceful stride; no unexplained smoke or fire.\nSURFACE: Heavy intricately woven ceremonial linen, natural skin, tactile worn wooden hull with plain unlettered grain, premium expressive oil-painted surface. Dark gold timber, parchment ivory and walnut night, one amber solar accent.\nSETTING: The SOLAR BOAT AT CREATION in twilight turning into very early night; hull surrounded by cosmic darkness and stars, no earthly sea, riverbank, city or temple. Solarboat form, deck and celestial backdrop are editorial staging of the accepted mythical setting. [nephthys-c15]\nMOOD: Awe-inspiring divine protective presence advancing directly toward the viewer, imposing sacred majesty. Never ordinary earthly passenger, sad mourner, passive pose, cute, calm, decorative or evil.\nHARD CONSTRAINTS: Native square PNG at least 1024x1024. No text, letters, glyphs, logos, frame, border or watermark; no extra figures, heads, arms, legs or fingers; no borrowed film/game/anime/comic design; no nudity, transparent cloth or gore; no generic glow aura, neon outline, energy ribbons or glowing eyes. NO crown, wings or other conventional Egyptian emblems. Claim labels never visible.",
+  "status": "unselected-variant",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1343a-4151-7903-8a65-1ee1678a1c1a/exec-09e4ccec-88d5-40ef-b261-3669009b88cc.png",
+  "generated_at": "2026-10-13T07:57:49.670766+00:00",
+  "original_file": "data/artwork-generated/batch-1617/variants/nephthys/B.png",
+  "native_sha256": "7b76e3ea0dcc81b6415a0cf7a36cea29db5e37ac54ff940298576669192bce53",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. Single female goddess dominates from extreme low camera in active diagonal stride, two feet/two arms natural hands, stern downward command, plain opaque ceremonial robe. Curved solarbarque with cosmic early-night stars and sun supplies c15 context; protective palm-down gesture c08; no added elemental magic or glow, crown/wing/emblem. No readable text/watermark/copied design. All seven Sangar yes; separate fullbody composition from A.",
+    "limitations": [],
+    "native_sha256": "7b76e3ea0dcc81b6415a0cf7a36cea29db5e37ac54ff940298576669192bce53",
+    "reviewed_at": "2026-10-13T07:57:49.670766+00:00",
+    "sangar_checks": {
+      "1": "ya",
+      "2": "ya",
+      "3": "ya",
+      "4": "ya",
+      "5": "ya",
+      "6": "ya",
+      "7": "ya"
+    }
+  },
+  "not_selected_reason": "A03 dipilih: perlindungan mumi c03/c08 dan solarbarque c15 sama-sama jelas; B01 menampilkan langkah di bahtera tanpa mumi sehingga ciri peran kurang spesifik.",
+  "selection_status": "not-selected"
+}

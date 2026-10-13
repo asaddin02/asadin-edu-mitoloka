@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 42,
+  "complete": 43,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -19317,7 +19317,7 @@
       "slug": "cenocroca",
       "canonical_name": "Cenocroca",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-133.review.json",
       "research": {
@@ -19612,8 +19612,50 @@
         "cenocroca-c07"
       ],
       "receipt_path": "data/artwork-generated/batch-1506/cenocroca.json",
-      "original_file": "data/artwork-generated/batch-1506/originals/cenocroca.png",
-      "native_sha256": "366a3b049542edf95ef0927aa56f0f8dc99f778d6b0e9c9b16554bcf29c1e560"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1506/originals/cenocroca.png",
+      "native_sha256": "2738f54d89761213a8824b5b10e6c20e174a541ca771dccb4d4ac5cb9ed073d2",
+      "url": "/assets/art/cenocroca-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of CENOCROCA, the voice-mimicking beast with lion jaws and chest, donkey body, ibex horns and a solid bone instead of teeth. Fresh original composition, anatomical naturalism. Native square PNG at least 1024 pixels.\nANATOMY: Exactly ONE head and TWO eyes with pupils fixed straight ahead, TWO long ridged ibex horns arching BACKWARD above and along the neck behind the head, like natural Alpine ibex horns. TWO ears. Tawny lion head, jaws and chest; grey donkey torso, rump, two hoofed donkey hindlegs and ONE donkey tail. Two lion forelegs, FOUR legs total. The mouth slit runs through the near cheek all the way back to the near ear, and likewise on the far side. [cenocroca-c02, cenocroca-c03]\nMOUTH ANATOMY: Open predator jaws in natural SIDE VIEW, dropped lower jaw and dark mouth cavity. The ivory biting edge is a SOLID CONTINUOUS SHARP BONE CRESCENT instead of teeth, seamlessly fused to the jaw. Like a smooth sharpened pale blade, not a tubular mouth ring. NO individual teeth, NO fang tips, NO grooves, NO incisions, NO tooth-shaped blocks, NO cracks or divisions in the ivory edge. An uninterrupted smooth bony blade on the visible jaws. [cenocroca-c02]\nMOMENT: POUNCE diagonally toward camera, shoulders and lowered head thrust forward; head held straight ahead with both pupils fixed and glaring hard under tense brow muscles. Mouth gapes open in a predatory calling snarl rather than a smiling face. Near front paw reaching forward, far front paw bracing; both donkey hindlegs driving into rocky soil. No cartoon facial stretching. [cenocroca-c03]\nPOWER: It lures prey by imitating human calls; suggest this with calling gape only, no sound waves or magic. Ordinary dust kicked up from its pounce, no supernatural effects. [cenocroca-c03]\nSCALE & CAMERA: extreme low angle, three-quarter SIDE view revealing profile of deep open mouth and slit to the ear, both long backward horns, lion chest and complete donkey body behind. Creature fills nearly the whole frame, normal animal scale, no people.\nLIGHT & WEATHER: Black NIGHT background, one hard warm light from upper side cuts across brow, catches smooth bone and fur; deep walnut shadows, suspended gritty dust. Eyes naturally lit, never glowing.\nSURFACE: matted coarse tawny lion fur, rough short grey donkey hair, weathered horn ridges; polished smooth pale bone blade with ABSOLUTELY NO marks dividing it.\nSETTING: minimal dark rocky ground, no documented named habitat; neutral editorial staging only. No ruins, prey, bones or invented geographical setting.\nMOOD: vicious dangerous predator, hard anatomically natural face, violently forward momentum. Not comic, cute, tame, smiling, passive or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly one head, two eyes, two horns, four legs, one tail; no extra limbs; no design from any film, game, anime or comic; no nudity or explicit gore; no glow aura, neon outline, energy ribbons or magic fog. No ordinary lion teeth. No frontal tubular rectangular mouth rim. No ram horns curling to sides. Each ivory biting edge is one seamless smooth blade.",
+      "depicted_variant": "Lion-jawed and lion-chested ass-bodied ibex-horned Cenocroca, lunging at night and calling with a seamless bone biting blade instead of teeth.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One lion-jawed head, lion chest and ass body, four natural quadruped legs, two ibex horns, mouth split to ears with seamless bone instead of individual teeth.",
+          "claim_ids": [
+            "cenocroca-c02"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Two pupils fixed straight ahead; visible focused predatory stare.",
+          "claim_ids": [
+            "cenocroca-c03"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Calling mouth implies human voice imitation used to lure prey; no visible magic or sound waves.",
+          "claim_ids": [
+            "cenocroca-c03"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "cenocroca-c02",
+        "cenocroca-c03"
+      ],
+      "aura": "Predatory lunge, fixed straight-ahead pupils and calling ear-split jaw with bone instead of teeth (cenocroca-c02/c03); no visual magic.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native 1254 PNG inspected. Uji Sangar 1 yes: dominating lion chest/head and donkey body; 2 yes: fixed hard stare and attack at 200px; 3 yes: four-legged forward lunge and calling gape; 4 yes: voice imitation c03 represented only by mouth, ordinary kicked dust editorial; 5 yes: one head, two eyes, two backward ibex horns, four legs and tail, ear-reaching mouth slit and uninterrupted bone replacing teeth; 6 yes: no text/watermark/frame or borrowed design; 7 yes: dangerous composite beast, no calm comic grin. Upper and lower bone plates are smooth fused material, not segmented tooth rows.",
+        "limitations": [],
+        "native_sha256": "2738f54d89761213a8824b5b10e6c20e174a541ca771dccb4d4ac5cb9ed073d2",
+        "reviewed_at": "2026-10-13T07:00:19.857259+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "37701423627a7f4930da73182fcf13053717d2da45fff8fd3981419fbb0ff045"
     },
     {
       "index": 40,

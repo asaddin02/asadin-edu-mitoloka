@@ -1,6 +1,6 @@
 # Review batch-150
 
-Diperiksa 2026-10-07T04:44:38.482Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md, batch-150-fix-5.md, batch-150-fix-6.md.
+Diperiksa 2026-10-13T08:44:08.022Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md, batch-150-fix-5.md, batch-150-fix-6.md, batch-150-fix-7.md.
 
 ## bunyip — lulus-otomatis
 
@@ -161,10 +161,10 @@ Klaim 20 (exact 20), sumber 2, gambar 0.
 
 ## areop-enap — lulus-otomatis
 
-Klaim 14 (loose 1, exact 13), sumber 2, gambar 0.
+Klaim 14 (loose 1, exact 8, unreachable 5), sumber 2, gambar 0.
 
 **manual**
-- `culture` Mengusulkan tradisi baru: "tradition-micronesian".
+- `claims` 5 kutipan tidak bisa dicek otomatis: archive.org (tidak bisa dibuka (timeout)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -177,11 +177,11 @@ Klaim 14 (loose 1, exact 13), sumber 2, gambar 0.
 | areop-enap-c07 | exact | en.wikipedia.org | Areop-Enap made islands from clam-flesh and clothed them in vegetation made from his own web-thread. | Areop-Enap made islands from clam-flesh and clothed them in vegetation made from his own web-thread. |
 | areop-enap-c08 | exact | en.wikipedia.org | Finally he turned to Rigi and found that he had drowned in his own sweat, killed by his own exertions. Areop-Enap wrapped him in a silk cocoon and hung him in the sky to become the Milky Way. | Finally he turned to Rigi and found that he had drowned in his own sweat, killed by his own exertions. Areop-Enap wrapped him in a cocoon of silk and hung him in the sky to become the Milky Way. |
 | areop-enap-c09 | exact | en.wikipedia.org | So he created a winged creature or flying bird from the dirt under his nails and set it to annoy the creatures so that they called to each other to kill it. In this way Areop-Enap learned the names of the inhabitants of the world. | So he created a winged creature or flying bird from the dirt under his nails and set it to annoy the creatures so that they called to each other to kill it. In this way Areop-Enap learned the names of the inhabitants of the world. |
-| areop-enap-c10 | exact | archive.org | In the tale recorded by Dixon, in the beginning there were only the sea and Areop-Enap, "Ancient Spider", who floated above in endless space. | in the beginning there were only the sea and Areop-Enap, ‘Ancient Spider,” who floated above in endless space. |
-| areop-enap-c11 | exact | archive.org | In Dixon's version the upper shell was raised very high and became the sky, but Rigi the worm, exhausted by his great work, fell and died; from the other snail Ancient Spider made the sun and set it on the east side of the lower shell, which became the earth. | At last he raised the upper shell very high, and it became the sky; but Rigi, the worm, exhausted by his great work, fell and died. From the other snail Ancient Spider now made the sun and set it on the east side of the lower shell, which became the earth. |
-| areop-enap-c12 | exact | archive.org | According to Dixon, Ancient Spider turned stones into men, but these became the supporters of the heavens and were not ordinary human beings. | Ancient Spider turned stones into men; but these became the supporters of the heavens and were not ordinary human beings. |
-| areop-enap-c13 | exact | archive.org | According to Dixon, after the world was created Ancient Spider set out to see whether there were other beings besides himself, and came to a land where he found men and women sitting on the shore in the shade of the trees. | Thus, Ancient Spider set out, after the world was created, to see if there were any other beings beside himself, and he came to a land where he found men and women sitting on the shore in the shade of the trees. |
-| areop-enap-c14 | exact | archive.org | According to Dixon, "Young Spider" was born miraculously from a boil on Dabage, the tortoise. | (“Young Spider”) was born miraculously from a boil upon Dabage, the tortoise; |
+| areop-enap-c10 | unreachable (tidak bisa dibuka (timeout)) | archive.org | In the tale recorded by Dixon, in the beginning there were only the sea and Areop-Enap, "Ancient Spider", who floated above in endless space. | in the beginning there were only the sea and Areop-Enap, ‘Ancient Spider,” who floated above in endless space. |
+| areop-enap-c11 | unreachable (tidak bisa dibuka (timeout)) | archive.org | In Dixon's version the upper shell was raised very high and became the sky, but Rigi the worm, exhausted by his great work, fell and died; from the other snail Ancient Spider made the sun and set it on the east side of the lower shell, which became the earth. | At last he raised the upper shell very high, and it became the sky; but Rigi, the worm, exhausted by his great work, fell and died. From the other snail Ancient Spider now made the sun and set it on the east side of the lower shell, which became the earth. |
+| areop-enap-c12 | unreachable (tidak bisa dibuka (timeout)) | archive.org | According to Dixon, Ancient Spider turned stones into men, but these became the supporters of the heavens and were not ordinary human beings. | Ancient Spider turned stones into men; but these became the supporters of the heavens and were not ordinary human beings. |
+| areop-enap-c13 | unreachable (tidak bisa dibuka (timeout)) | archive.org | According to Dixon, after the world was created Ancient Spider set out to see whether there were other beings besides himself, and came to a land where he found men and women sitting on the shore in the shade of the trees. | Thus, Ancient Spider set out, after the world was created, to see if there were any other beings beside himself, and he came to a land where he found men and women sitting on the shore in the shade of the trees. |
+| areop-enap-c14 | unreachable (tidak bisa dibuka (timeout)) | archive.org | According to Dixon, "Young Spider" was born miraculously from a boil on Dabage, the tortoise. | (“Young Spider”) was born miraculously from a boil upon Dabage, the tortoise; |
 
 
 ## tawhirimatea — lulus-otomatis

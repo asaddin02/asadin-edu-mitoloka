@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-150",
-  "checked_at": "2026-10-07T04:44:38.482Z",
+  "checked_at": "2026-10-13T08:44:08.022Z",
   "files": [
     "batch-150.md",
     "batch-150-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-150-fix-3.md",
     "batch-150-fix-4.md",
     "batch-150-fix-5.md",
-    "batch-150-fix-6.md"
+    "batch-150-fix-6.md",
+    "batch-150-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1195,8 +1196,8 @@
     },
     {
       "slug": "areop-enap",
-      "file": "batch-150-fix-2.md",
-      "entry_sha256": "6638d94e0a34203f1e47ff49f84ee6679010831fc9708ca4c76740bd6e546ce4",
+      "file": "batch-150-fix-7.md",
+      "entry_sha256": "eae69688d737894162fbc011ed9d24d865f6d4ff067ad0e07e39460a415b7d13",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 14,
@@ -1206,8 +1207,8 @@
       "issues": [
         {
           "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"tradition-micronesian\"."
+          "where": "claims",
+          "message": "5 kutipan tidak bisa dicek otomatis: archive.org (tidak bisa dibuka (timeout))."
         }
       ],
       "claims": [
@@ -1309,7 +1310,8 @@
           "statement_id": "Dalam kisah yang dicatat Dixon, pada mulanya hanya ada laut dan Areop-Enap, \"Laba-laba Purba\", yang melayang di atas dalam ruang tanpa batas.",
           "quote": "in the beginning there were only the sea and Areop-Enap, ‘Ancient Spider,” who floated above in endless space.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "areop-enap-c11",
@@ -1319,7 +1321,8 @@
           "statement_id": "Dalam versi Dixon, cangkang atas diangkat sangat tinggi dan menjadi langit, tetapi Rigi, si cacing, kelelahan karena kerja kerasnya, jatuh dan mati. Dari siput yang lain Laba-laba Purba membuat matahari dan menaruhnya di sisi timur cangkang bawah, yang menjadi bumi.",
           "quote": "At last he raised the upper shell very high, and it became the sky; but Rigi, the worm, exhausted by his great work, fell and died. From the other snail Ancient Spider now made the sun and set it on the east side of the lower shell, which became the earth.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "areop-enap-c12",
@@ -1329,7 +1332,8 @@
           "statement_id": "Menurut Dixon, Laba-laba Purba mengubah batu menjadi manusia, tetapi mereka menjadi penopang langit dan bukan manusia biasa.",
           "quote": "Ancient Spider turned stones into men; but these became the supporters of the heavens and were not ordinary human beings.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "areop-enap-c13",
@@ -1339,7 +1343,8 @@
           "statement_id": "Menurut Dixon, setelah dunia tercipta Laba-laba Purba pergi untuk melihat apakah ada makhluk lain selain dirinya, dan ia tiba di sebuah negeri tempat ia mendapati laki-laki dan perempuan duduk di pantai di bawah naungan pohon.",
           "quote": "Thus, Ancient Spider set out, after the world was created, to see if there were any other beings beside himself, and he came to a land where he found men and women sitting on the shore in the shade of the trees.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "areop-enap-c14",
@@ -1349,7 +1354,8 @@
           "statement_id": "Menurut Dixon, \"Young Spider\" lahir secara ajaib dari bisul pada Dabage, si kura-kura.",
           "quote": "(“Young Spider”) was born miraculously from a boil upon Dabage, the tortoise;",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         }
       ],
       "images": []

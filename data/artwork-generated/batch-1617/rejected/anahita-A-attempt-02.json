@@ -1,0 +1,68 @@
+{
+  "slug": "anahita",
+  "worker": "codex",
+  "worker_agent": "big-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "variant": "A",
+  "original_file": "data/artwork-generated/batch-1617/rejected/anahita-A-attempt-02.png",
+  "native_sha256": "1a403c9e4b37f625c98060674f00072b81f1dc16811be7e4cc4124ee36a4049e",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium PAINTERLY cinematic Mitoloka illustration of ANAHITA, Iranian goddess beside her stream-side shrine with the sacred dove and peacock.\nANATOMY: editorial adult female human rendering of the goddess, one head, two eyes, two arms, two legs; fully opaque broad layered drapery, plain costume with no historical iconography, crown, jewelry, weapon or symbol. One real dove and one real peacock, her documented sacred animals. [anahita-c01, anahita-c06]\nMOMENT: surging forward in a sweeping forceful step toward the very low viewer, torso leaning across the square with a stern focused downward gaze and tightly set jaw; her empty near hand opens with physically natural five fingers toward the foreground, far arm stays bent close to the body. The dove takes wing beside her face; the peacock raises its wide real feather fan behind her other shoulder. This is an overwhelming approach, not standing, posing for a portrait, smiling or gazing neutrally.\nPOWER: no documented magical effect and no hydrokinesis; the stream flows naturally, birds move normally. Awe arises only from physical approach, severe gaze, natural sunlight and her documented sacred animal association. [anahita-c05, anahita-c06]\nSCALE & CAMERA: extreme close foreshortened three-quarter bust from below, face occupies the upper central third, broad shoulders dominate, near hand at bottom-left; normal body size without tiny humans or any cosmic enlargement. The severe face, dove wing and peacock fan are large and clear at 200 pixels; no distant subject.\nLIGHT & WEATHER: single hard warm side shaft through the shrine doorway, deeply carved walnut shadows across the brow and face, natural rim on real feather edges, ordinary ambient stream spray.\nSURFACE: thick opaque heavy cloth in broad energetic painterly folds, rough damp stone and richly detailed physical feathers. Visible paint texture and bold directional brushstrokes; do not make a photographic fashion portrait.\nSETTING: a deliberately unspecified simple dark shrine threshold beside a flowing stream, only rough plain stone and natural water, no temple ornaments or invented historic features. [anahita-c05]\nMOOD: reverent but overpowering authority, majestic and stern, active and unsettling through intensity, never an ordinary pretty woman, calm decorative portrait or monstrous goddess.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no crown, horns, weapon, magical water or invented iconography; no film/game/anime/comic design; fully opaque clothing, no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "basis_claim_ids": [
+    "anahita-c01",
+    "anahita-c05",
+    "anahita-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Plain female human editorial rendering of Iranian goddess; no sourced body specification, costume or iconography asserted, fully opaque clothing.",
+      "claim_ids": [
+        "anahita-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Unspecified shrine beside a naturally flowing stream.",
+      "claim_ids": [
+        "anahita-c05"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Dove and peacock as sacred associated animals, kept secondary to the goddess.",
+      "claim_ids": [
+        "anahita-c06"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-13T08:07:03.464749+00:00",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1343a-ce55-7063-90a6-36cd478bb7af/exec-7e900e5e-60a4-421c-a752-ed3f2cd3cb77.png",
+  "sangar_test": {
+    "1": true,
+    "2": false,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": false
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "reject",
+    "notes": "Uji Sangar 2/7 gagal: pendekatan dan tangan foreshortened lebih dinamis tetapi tetap terbaca sebagai perempuan biasa dengan burung di kuil, tanpa keagungan atau aksi ilahi terdokumentasi. Root melihat native dan200px serta setuju menolak.",
+    "limitations": [],
+    "native_sha256": "1a403c9e4b37f625c98060674f00072b81f1dc16811be7e4cc4124ee36a4049e",
+    "reviewed_at": "2026-10-13T08:07:03.468598+00:00"
+  },
+  "status": "rejected",
+  "reason": "Uji Sangar 2/7 gagal: pendekatan dan tangan foreshortened lebih dinamis tetapi tetap terbaca sebagai perempuan biasa dengan burung di kuil, tanpa keagungan atau aksi ilahi terdokumentasi. Root melihat native dan200px serta setuju menolak.",
+  "not_selected_reason": "Tidak ada varian dipilih; seluruh percobaan Anahita gagal Uji Sangar, status final tidak-digambar.",
+  "rejected_file": "data/artwork-generated/batch-1617/rejected/anahita-A-attempt-02.png",
+  "reviewed_at": "2026-10-13T08:12:29.865924+00:00",
+  "variant_file": "data/artwork-generated/batch-1617/variants/anahita/A.png"
+}

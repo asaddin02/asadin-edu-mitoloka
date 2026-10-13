@@ -1,0 +1,58 @@
+{
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Mixtecatl, the valiant GIANT man and founder of Mixtlan on the barren Mixteca hills.\nANATOMY: ONE colossal adult human man, one head, two normal eyes, TWO arms with natural five-finger hands and TWO legs with ordinary feet. Plain fully opaque rough woven tunic covers chest and hips, no ornaments, no weapons, no headdress, tattoos, serpent or frog features. He is the giant SON, never the anatomical form of either parent. [mixtecatl-c01, mixtecatl-c04]\nMOMENT: STRIDE forward over a rocky ridge, his huge leading foot presses down into hillside soil near the viewer; lower his face and look intensely toward the camera, arms active balancing his stride. Entire head-to-feet figure fills the image, mighty purposeful founder rather than ordinary hill climber.\nPOWER: No documented magical powers; only documented gigantic stature. Physical dust and small stones dislodged exactly beneath the foot's contact with soil, no landscape-shattering shockwave or aura. [mixtecatl-c01, mixtecatl-c08]\nSCALE & CAMERA: Extreme low camera located among a few tiny human-scale witnesses beside his FOOT, viewer feels the immense giant towering overhead. Two plainly clothed ordinary adult witnesses, each no taller than his ankle, immediately beside leading foot and safely outside its path; knee-high-to-the-giant mature scrub trees and waist-sized rocky ridges rise behind him. His toe is as long as an ordinary person's height. These CLEAR NEARBY comparisons must be visible simultaneously in the foreground, not merely distant miniature trees. Low perspective shows the entire GIANT from huge planted feet to high head without cropping. Giant fills 85 percent of frame and dwarfs all scale cues. [mixtecatl-c01, mixtecatl-c02]\nLIGHT & WEATHER: ONE warm sunset slit in dark sky rimming his face and broad shoulders; deep walnut shadows, antique gold edge light; physical dust rolls only from the pressing foot, dramatic dark clouds, not daytime flat light.\nSURFACE: Coarse woven opaque tunic, weathered natural skin, tangled dark hair, gritty dust, rough barren stone; painterly tactile textures, no plastic.\nSETTING: Barren rocky hills of Mixtecapan, now Mixteca. Sparse ordinary scrub trees and two adult witnesses are editorial scale cues, not a new narrative. [mixtecatl-c05]\nMOOD: Respectful ancestral awe, immense and imposing, viewer compelled to look upward at the giant founder; purposeful action, never ordinary man climbing a hill, cute, calm or decorative.\nHARD CONSTRAINTS: Native square PNG at least 1024x1024. No text, lettering, logo, border, frame or watermark; no extra limbs, heads or fingers; no film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons, floating runes, glowing eyes or invented powers. Normal-sized adult witnesses must remain tiny compared with the giant. Claim labels are not visible text.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One giant human male son, normal one head/two arms/two legs, plain opaque tunic; tiny nearby ordinary adult figures no higher than his ankle make c01 giant scale unambiguous, no parent snake/frog anatomy.",
+      "claim_ids": [
+        "mixtecatl-c01",
+        "mixtecatl-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Giant stride physically displaces loose soil and pebbles at foot; no documented magic, only giant stature.",
+      "claim_ids": [
+        "mixtecatl-c01",
+        "mixtecatl-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Barren hills of Mixtecapan/Mixteca, sparse trees and adult witnesses serving solely as editorial giant-scale comparison.",
+      "claim_ids": [
+        "mixtecatl-c02",
+        "mixtecatl-c05"
+      ]
+    }
+  ],
+  "depicted_variant": "giant human founder of Mixtlan striding across barren Mixteca hills with immediate ankle-high adult scale witnesses",
+  "artistic_choices": [
+    "Only documented giant human son anatomy c01/c04; no attributes from parent claims c03/c06/c07.",
+    "Plain opaque tunic, two ankle-high adult witnesses, sparse scrub trees and low camera are editorial comparators for c01 giant scale, not asserted narrative details.",
+    "No magical powers documented: physical foot-contact dust only, with low sunset light and severe ancestral expression providing respectful awe."
+  ],
+  "aura": "Respectful founder awe through c01 gigantic stature over adjacent human-scale witnesses and physical c05 hill stride; no supernatural glow.",
+  "slug": "mixtecatl",
+  "tool": "OpenAI built-in image_gen",
+  "worker_agent": "correction-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "basis_claim_ids": [
+    "mixtecatl-c01",
+    "mixtecatl-c02",
+    "mixtecatl-c04",
+    "mixtecatl-c05",
+    "mixtecatl-c08"
+  ],
+  "attempt": 2,
+  "prepared_at": "2026-10-13T06:57:00.116087+00:00",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1556/rejected/mixtecatl-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1556/rejected/mixtecatl-attempt-01.json",
+      "native_sha256": "0cfbc169609111dfb52c6d51e98b8d7e002f41cb11aebd3eb8002bdd330436e8",
+      "reason": "Giant stature (c01) is not readable: with no nearby comparison he looks like an ordinary man climbing a hill (GAMBAR §6.1 'manusia biasa, seukuran manusia'). Redraw with a scale cue at his feet or knees (trees, boulders, a small village or people) on the barren Mixteca hills, low camera, dust from his step; keep the plain opaque tunic and no weapons or headdress."
+    }
+  ]
+}

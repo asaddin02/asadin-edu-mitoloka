@@ -1,0 +1,68 @@
+{
+  "slug": "tammuz",
+  "worker": "codex",
+  "worker_agent": "big-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "reason": "Tiga keluaran dalam dua komposisi (A dua percobaan, B satu) diperiksa native/200px dan gagal Uji Sangar: lelaki biasa di gua atau ambang pintu, dengan aksi yang melemah pada A02. Klaim c05/c06 mendukung konteks dunia bawah dan kata He, namun tidak memberi atribut tubuh/ikonografi atau kuasa fisik pembeda. Tidak dipaksakan melalui efek atau bentuk rekaan. Keputusan root setuju menunda setelah tiga keluaran.",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-13T08:04:25.953608+00:00",
+  "basis_claim_ids": [
+    "tammuz-c01",
+    "tammuz-c05",
+    "tammuz-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Plain male editorial human rendering of Dumuzi, whose accepted quotation says He; bodily appearance and opaque clothing are editorial, with no claimed iconography.",
+      "claim_ids": [
+        "tammuz-c01",
+        "tammuz-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark descent into the underworld where Dumuzi takes Inanna’s place and remains half the year; architecture is deliberately unspecified editorial stone.",
+      "claim_ids": [
+        "tammuz-c05",
+        "tammuz-c06"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Wujud lelaki, pakaian buram, dan arsitektur ambang abstrak adalah editorial, bukan ikonografi terdokumentasi.",
+    "Tidak ada kekuatan gaib terdokumentasi sehingga tidak menambah sihir, mahkota, senjata, bentuk hewan atau tubuh raksasa.",
+    "Dua komposisi telah dicoba; semua keluaran ditolak dan diarsipkan tanpa pilihan final."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/tammuz-A-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/tammuz-A-attempt-01.json",
+      "native_sha256": "20e6743d85957779ce55aef0d7b143e72dea29ccf1e89c7a31c20819fe4f88b9",
+      "reason": "Uji Sangar 2/7 gagal: sosok masih terbaca sebagai lelaki biasa mendaki atau merangkak di gua, walaupun tatapan dan descent aktif jelas; tidak menghadirkan dewa sebagai subjek yang menggetarkan."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/tammuz-A-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/tammuz-A-attempt-02.json",
+      "native_sha256": "ee10831fb8d16a140482df6595d4ec31326e1822eeface375089dc5fe2bfeb04",
+      "reason": "Uji Sangar 3/7 gagal: lelaki biasa berdiri di ambang pintu, bukan langkah turun aktif yang menghadirkan keagungan dewa. Diputuskan bersama root; basis tidak cukup untuk menambah atribut atau efek gaib."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/tammuz-B-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/tammuz-B-attempt-01.json",
+      "native_sha256": "8c819ca7698adcf40c21b14fd0f9c92be848c961f6ccf83f233dc1d2c3f612f6",
+      "reason": "Uji Sangar 2/7 gagal: lelaki biasa berjalan dalam gua dengan kaki memenuhi gambar, keagungan dewa tidak terbaca pada 200px."
+    }
+  ],
+  "source_ids": [
+    "tammuz-s1",
+    "tammuz-s2"
+  ]
+}

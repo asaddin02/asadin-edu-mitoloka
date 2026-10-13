@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 46,
+  "complete": 47,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -18217,7 +18217,7 @@
       "slug": "anki-kiele",
       "canonical_name": "Anki-Kiele",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-125.review.json",
       "research": {
@@ -18534,8 +18534,51 @@
         "anki-kiele-c07"
       ],
       "receipt_path": "data/artwork-generated/batch-1406/anki-kiele.json",
-      "original_file": "data/artwork-generated/batch-1406/originals/anki-kiele.png",
-      "native_sha256": "8400952743db63f8ebc400564c2bd24576d34e1255e7c9bd6a58c1e2efe56a6a"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1406/originals/anki-kiele.png",
+      "native_sha256": "8400952743db63f8ebc400564c2bd24576d34e1255e7c9bd6a58c1e2efe56a6a",
+      "url": "/assets/art/anki-kiele-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of Anki-Kiele, the sea spirit of Chukchi traditions. Native PNG at least 1024 by 1024 pixels.\nANATOMY: One huge shaggy head with exactly two eyes and one large toothy mouth attached to a fish body with fins and one fish tail, no humanoid legs. [anki-kiele-c03]\nMOMENT: Surge upward from the seabed toward the viewer, massive shaggy head filling most of the foreground.\nPOWER: No magical glow or invented storm power; physical silt displaced by the fish body emphasizes its sea habitat. [anki-kiele-c06]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening provide dominance; do not invent giant size; distinguishing anatomy remains clear at 200 pixels.\nLIGHT & WEATHER: A single shaft of surface light rims wet tangled hair and suspends natural silt.\nSURFACE: tactile natural fur, hair, feather, skin, cloth, scale or metal as appropriate to the documented form, never plastic.\nSETTING: The seabed in dark sea water. [anki-kiele-c03]\nMOOD: reverent awe-inspiring presence, overwhelming and imposing; never cute, calm or decorative. Dark walnut, antique gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, lettering, glyph, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+      "depicted_variant": "Documented fish-bodied sea-spirit variant with huge shaggy head.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One huge shaggy head with exactly two eyes and one large toothy mouth attached to a fish body with fins and one fish tail, no humanoid legs.",
+          "claim_ids": [
+            "anki-kiele-c03",
+            "anki-kiele-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No magical glow or invented storm power; physical silt displaced by the fish body emphasizes its sea habitat.",
+          "claim_ids": [
+            "anki-kiele-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "The seabed in dark sea water.",
+          "claim_ids": [
+            "anki-kiele-c03"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "anki-kiele-c03",
+        "anki-kiele-c06"
+      ],
+      "aura": "Surge upward from the seabed toward the viewer, massive shaggy head filling most of the foreground. Supported by anki-kiele-c03, anki-kiele-c06, anki-kiele-c03.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected. One giant wet shaggy head has exactly two round eyes and one toothy maw; the fish body has visible fins and a single rear tail, no humanoid limbs. It surges above seabed silt; particles are physical habitat debris, not aura. Head dominates the thumbnail with imposing sea-spirit presence. Seven checks pass, no text or invented power.",
+        "limitations": [],
+        "native_sha256": "8400952743db63f8ebc400564c2bd24576d34e1255e7c9bd6a58c1e2efe56a6a",
+        "reviewed_at": "2026-10-12T02:38:24.463993+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c17bfb3879ad81b9a3b4ec904cc082ae4d9fb4c5fb67cd897c8363f0a39f4786"
     },
     {
       "index": 39,

@@ -1,0 +1,167 @@
+{
+  "slug": "kallana",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kallana, the reported dwarf forest elephant of Kaani traditions. Native square PNG at least1024x1024.\nANATOMY: ONE DWARF elephant, one head/two eyes, trunk/two elephant ears, FOUR short legs and one tail; NATURAL elephant anatomy, no wings/horns/extra tusks or fantasy additions. Small stature obvious relative to normal forest undergrowth; render a MATURE DWARF individual, not baby. Narrow wary natural eyes and heavily weathered skin. [kallana-c01, kallana-c07]\nMOMENT: SCRAMBLE toward low viewer over steep wet BOULDERS, trunk lowered horizontally forward and forefoot planting powerfully beside camera, alert eyes and rocking body, stone grit splashing.\nPOWER: No documented supernatural power; tension through physical close charge and difficult rocky terrain only. [kallana-c01, kallana-c07]\nSCALE & CAMERA: Extreme low close camera beside rock; dwarf elephant face/trunk and planting forefoot dominate; surrounding broad leaves and small boulders show smaller elephant size.\nLIGHT & WEATHER: One warm afternoon shaft through dense forest shade, deep walnut shadows over eyes, wet warm rim light and water droplets.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Rocky higher-altitude South Indian forest terrain where Kaani communities report smaller elephants. [kallana-c01, kallana-c07]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.\nTARGETED CORRECTION: Preserve natural dwarf elephant smallsize and4legs/trunk/ears. EDIT into mature dwarf elephant, NOT baby: no infant roundedforehead or sweetwideeyes. Narrow wary natural eyes under deep brow shadows, mature heavilyweathered skin and substantial body weight; no tusks/fangs. Nearcamera forefoot presses and slides rocky slope with gravel/water splash. Trunk stretched low acrossforeground, not cute upwardwave. Tight lowwaterlevel framing and dramaticafternoon forestshade with one warm rimlight. Physical formidable presence on steep terrain, no invented demonhostility or magic.",
+  "depicted_variant": "the reported dwarf forest elephant of Kaani traditions",
+  "basis_claim_ids": [
+    "kallana-c01",
+    "kallana-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE DWARF elephant, one head/two eyes, trunk/two elephant ears, FOUR short legs and one tail; NATURAL elephant anatomy, no wings/horns/extra tusks or fantasy additions. Small stature obvious relative to normal forest undergrowth.",
+      "claim_ids": [
+        "kallana-c01",
+        "kallana-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented supernatural power; tension through physical close charge and difficult rocky terrain only.",
+      "claim_ids": [
+        "kallana-c01",
+        "kallana-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky higher-altitude South Indian forest terrain where Kaani communities report smaller elephants.",
+      "claim_ids": [
+        "kallana-c01",
+        "kallana-c07"
+      ]
+    }
+  ],
+  "aura": "SCRAMBLE toward low viewer over steep wet BOULDERS, trunk curling upward and forefoot planting powerfully beside camera, alert eyes and rocking body, stone grit splashing. Grounded in kallana-c01, kallana-c07.",
+  "artistic_choices": [
+    "Do not blend SriLankan adult dwarf c13 as proof of Kaani variety. Body proportions rendered as small ordinary elephant, no giant scaling, tusks omitted as sex not established; charging posture is editorial moment, no victims.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers.",
+    "Mature appearance is editorial depiction of the reported dwarf form, not a claim that SriLankan c13 describes this Kaani creature."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1556/rejected/kallana-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1556/rejected/kallana-attempt-01.json",
+      "native_sha256": "a05b3c24653ca966f6b5d222a99121add7d7648416318c5766303936b1e7ba17",
+      "reason": "Root reject Sangar2/7: wajah bayi bulat/mata manis/gesture belalai membuatnya lucu gajah bayi biasa walau batu bergerak."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-2a26cade-b2a5-4ae9-a3dc-4e0acc84c455.png",
+  "generated_at": "2026-10-12T17:23:36.324954+00:00",
+  "original_file": "data/artwork-generated/batch-1556/rejected/kallana-attempt-02.png",
+  "native_sha256": "da02c00e88fc9b24309c66c1732abb5204583649a5dff0293eb9de11063da89b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200px dilihat: revisi02 menghilangkan belalai melambai/cute gesture; belalai horizontal foreshortened, kulit matang berkerut berat dan mata lebih waspada dalam shadow. Kaki depan besar menekan batu/menyiprat kerikil dan air, tubuh kecil kompak vs daun/terrain c01/c07. Anatomi4kaki satu belalai/telinga tanpa taring/kuasa buatan. UjiSangar7 ya melalui bobot fisik di lereng curam, tidak monster baru. Rootreject01 preservedPNG/exactprompt/hash/oldreceipt.",
+    "limitations": [],
+    "native_sha256": "da02c00e88fc9b24309c66c1732abb5204583649a5dff0293eb9de11063da89b",
+    "reviewed_at": "2026-10-12T17:37:55.727759+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "da02c00e88fc9b24309c66c1732abb5204583649a5dff0293eb9de11063da89b",
+    "notes": "Reads as a gentle, cute elephant calf stepping down a slope, soft face and relaxed ears (GAMBAR §6.1 ordinary animal / cute, §6.4 item 7). Keep natural dwarf-elephant anatomy, but make it an adult animal in a real charge: ears flared wide, trunk raised or curled while trumpeting, head down toward the low camera on rocky high ground, dusk or storm light, with forest undergrowth or a boulder beside it so its small stature reads."
+  },
+  "correction_notes": "Reads as a gentle, cute elephant calf stepping down a slope, soft face and relaxed ears (GAMBAR §6.1 ordinary animal / cute, §6.4 item 7). Keep natural dwarf-elephant anatomy, but make it an adult animal in a real charge: ears flared wide, trunk raised or curled while trumpeting, head down toward the low camera on rocky high ground, dusk or storm light, with forest undergrowth or a boulder beside it so its small stature reads.",
+  "reason": "Reads as a gentle, cute elephant calf stepping down a slope, soft face and relaxed ears (GAMBAR §6.1 ordinary animal / cute, §6.4 item 7). Keep natural dwarf-elephant anatomy, but make it an adult animal in a real charge: ears flared wide, trunk raised or curled while trumpeting, head down toward the low camera on rocky high ground, dusk or storm light, with forest undergrowth or a boulder beside it so its small stature reads.",
+  "archived_original_file": "data/artwork-generated/batch-1556/originals/kallana.png",
+  "source_receipt_path": "data/artwork-generated/batch-1556/kallana.json",
+  "archived_receipt": {
+    "slug": "kallana",
+    "worker": "codex",
+    "worker_agent": "lane-B",
+    "subagent_model": "gpt-6.1-sol",
+    "subagent_reasoning_effort": "high",
+    "tool": "OpenAI built-in image_gen",
+    "image_model": "tidak dilaporkan alat",
+    "status": "needs-correction",
+    "review_path": "data/gemini/reviews/batch-075.review.json",
+    "batch": 1556,
+    "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kallana, the reported dwarf forest elephant of Kaani traditions. Native square PNG at least1024x1024.\nANATOMY: ONE DWARF elephant, one head/two eyes, trunk/two elephant ears, FOUR short legs and one tail; NATURAL elephant anatomy, no wings/horns/extra tusks or fantasy additions. Small stature obvious relative to normal forest undergrowth; render a MATURE DWARF individual, not baby. Narrow wary natural eyes and heavily weathered skin. [kallana-c01, kallana-c07]\nMOMENT: SCRAMBLE toward low viewer over steep wet BOULDERS, trunk lowered horizontally forward and forefoot planting powerfully beside camera, alert eyes and rocking body, stone grit splashing.\nPOWER: No documented supernatural power; tension through physical close charge and difficult rocky terrain only. [kallana-c01, kallana-c07]\nSCALE & CAMERA: Extreme low close camera beside rock; dwarf elephant face/trunk and planting forefoot dominate; surrounding broad leaves and small boulders show smaller elephant size.\nLIGHT & WEATHER: One warm afternoon shaft through dense forest shade, deep walnut shadows over eyes, wet warm rim light and water droplets.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Rocky higher-altitude South Indian forest terrain where Kaani communities report smaller elephants. [kallana-c01, kallana-c07]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.\nTARGETED CORRECTION: Preserve natural dwarf elephant smallsize and4legs/trunk/ears. EDIT into mature dwarf elephant, NOT baby: no infant roundedforehead or sweetwideeyes. Narrow wary natural eyes under deep brow shadows, mature heavilyweathered skin and substantial body weight; no tusks/fangs. Nearcamera forefoot presses and slides rocky slope with gravel/water splash. Trunk stretched low acrossforeground, not cute upwardwave. Tight lowwaterlevel framing and dramaticafternoon forestshade with one warm rimlight. Physical formidable presence on steep terrain, no invented demonhostility or magic.",
+    "depicted_variant": "the reported dwarf forest elephant of Kaani traditions",
+    "basis_claim_ids": [
+      "kallana-c01",
+      "kallana-c07"
+    ],
+    "visual_requirements": [
+      {
+        "kind": "anatomy",
+        "description": "ONE DWARF elephant, one head/two eyes, trunk/two elephant ears, FOUR short legs and one tail; NATURAL elephant anatomy, no wings/horns/extra tusks or fantasy additions. Small stature obvious relative to normal forest undergrowth.",
+        "claim_ids": [
+          "kallana-c01",
+          "kallana-c07"
+        ]
+      },
+      {
+        "kind": "effect",
+        "description": "No documented supernatural power; tension through physical close charge and difficult rocky terrain only.",
+        "claim_ids": [
+          "kallana-c01",
+          "kallana-c07"
+        ]
+      },
+      {
+        "kind": "setting",
+        "description": "Rocky higher-altitude South Indian forest terrain where Kaani communities report smaller elephants.",
+        "claim_ids": [
+          "kallana-c01",
+          "kallana-c07"
+        ]
+      }
+    ],
+    "aura": "SCRAMBLE toward low viewer over steep wet BOULDERS, trunk curling upward and forefoot planting powerfully beside camera, alert eyes and rocking body, stone grit splashing. Grounded in kallana-c01, kallana-c07.",
+    "artistic_choices": [
+      "Do not blend SriLankan adult dwarf c13 as proof of Kaani variety. Body proportions rendered as small ordinary elephant, no giant scaling, tusks omitted as sex not established; charging posture is editorial moment, no victims.",
+      "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers.",
+      "Mature appearance is editorial depiction of the reported dwarf form, not a claim that SriLankan c13 describes this Kaani creature."
+    ],
+    "generation_failures": [],
+    "rejected_attempts": [
+      {
+        "original_file": "data/artwork-generated/batch-1556/rejected/kallana-attempt-01.png",
+        "receipt_file": "data/artwork-generated/batch-1556/rejected/kallana-attempt-01.json",
+        "native_sha256": "a05b3c24653ca966f6b5d222a99121add7d7648416318c5766303936b1e7ba17",
+        "reason": "Root reject Sangar2/7: wajah bayi bulat/mata manis/gesture belalai membuatnya lucu gajah bayi biasa walau batu bergerak."
+      }
+    ],
+    "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-2a26cade-b2a5-4ae9-a3dc-4e0acc84c455.png",
+    "generated_at": "2026-10-12T17:23:36.324954+00:00",
+    "original_file": "data/artwork-generated/batch-1556/originals/kallana.png",
+    "native_sha256": "da02c00e88fc9b24309c66c1732abb5204583649a5dff0293eb9de11063da89b",
+    "width": 1254,
+    "height": 1254,
+    "visual_review": {
+      "reviewer": "codex",
+      "verdict": "pass",
+      "notes": "Native1254/200px dilihat: revisi02 menghilangkan belalai melambai/cute gesture; belalai horizontal foreshortened, kulit matang berkerut berat dan mata lebih waspada dalam shadow. Kaki depan besar menekan batu/menyiprat kerikil dan air, tubuh kecil kompak vs daun/terrain c01/c07. Anatomi4kaki satu belalai/telinga tanpa taring/kuasa buatan. UjiSangar7 ya melalui bobot fisik di lereng curam, tidak monster baru. Rootreject01 preservedPNG/exactprompt/hash/oldreceipt.",
+      "limitations": [],
+      "native_sha256": "da02c00e88fc9b24309c66c1732abb5204583649a5dff0293eb9de11063da89b",
+      "reviewed_at": "2026-10-12T17:37:55.727759+00:00"
+    },
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-13T11:33:01+07:00",
+      "native_sha256": "da02c00e88fc9b24309c66c1732abb5204583649a5dff0293eb9de11063da89b",
+      "notes": "Reads as a gentle, cute elephant calf stepping down a slope, soft face and relaxed ears (GAMBAR §6.1 ordinary animal / cute, §6.4 item 7). Keep natural dwarf-elephant anatomy, but make it an adult animal in a real charge: ears flared wide, trunk raised or curled while trumpeting, head down toward the low camera on rocky high ground, dusk or storm light, with forest undergrowth or a boulder beside it so its small stature reads."
+    },
+    "correction_notes": "Reads as a gentle, cute elephant calf stepping down a slope, soft face and relaxed ears (GAMBAR §6.1 ordinary animal / cute, §6.4 item 7). Keep natural dwarf-elephant anatomy, but make it an adult animal in a real charge: ears flared wide, trunk raised or curled while trumpeting, head down toward the low camera on rocky high ground, dusk or storm light, with forest undergrowth or a boulder beside it so its small stature reads."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "frigg",
+  "variant": "A",
+  "worker": "codex",
+  "worker_agent": "big-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "rejected",
+  "review_path": "data/gemini/reviews/batch-045.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of FRIGG, the greatest goddess of the Norse pantheon extracting promises of protection for her son from animate and inanimate things.\nANATOMY: One adult female goddess represented by an editorial humanlike figure, one head, two natural eyes, two arms, two hands with five natural digits each. Fully opaque thick dark walnut woven robe layered over a high-neck tunic; completely covered torso, shoulders and legs. No historical dress or iconographic attributes are claimed. [frigg-c01, frigg-c02]\nMOMENT: Stride forward and lean down toward the viewer while demanding the oath that all things must not harm her son; one broad open palm reaches toward the camera, the other grips her heavy mantle. Her face is near and stern, her mouth slightly open mid-demand, eyes intensely fixed on the viewer. The face and foreshortened arm fill most of the image. The oath is conveyed through the commanding gesture, not magical symbols. [frigg-c10]\nPOWER: Oath extraction from animate and inanimate things is documented, but no visible supernatural mechanism is documented; show NO magical effects. The physical moment is the goddess's command and movement. [frigg-c10]\nSCALE & CAMERA: Extreme low camera at arm's reach, tight confrontational three-quarter composition from knees to head; overwhelming dominance through framing and foreshortening, NOT undocumented giant body size. No tiny humans. One gnarled trunk and one rough boulder at the edges are editorial examples of animate and inanimate things, not special attributes; they do not magically bow or levitate.\nLIGHT & WEATHER: One dominant low golden sunset side-light, sharp warm rim over dark cloth, deep charcoal shadows; natural airborne dust disturbed by her step. No luminous eyes, no halo.\nSURFACE: Heavy matte wool with broad opaque folds, natural skin, bark, rough stone, gritty dust; solemn painterly realism.\nSETTING: A tightly cropped unnamed passage among the Nine Realms she visits to extract the oaths; no invented Fensalir palace architecture, no named geographic detail. [frigg-c10]\nMOOD: Awe-inspiring, commanding, sacred maternal resolve; an overwhelming divine demand that makes the viewer bow, not a casual woman walking and not evil or monstrous.\nHARD CONSTRAINTS: No text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no crown, spear, weapon, feathers, spindle, jewellery, runes, spirit shapes, throne, swans or invented Norse iconography; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons. Do not make a calm portrait, ordinary passer-by, cute figure or serene landscape.",
+  "basis_claim_ids": [
+    "frigg-c01",
+    "frigg-c02",
+    "frigg-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Female deity; plain fully opaque humanlike editorial rendering without invented iconography.",
+      "claim_ids": [
+        "frigg-c01",
+        "frigg-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Demanding protective oaths from animate and inanimate things; no magical mechanism rendered.",
+      "claim_ids": [
+        "frigg-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Unspecified passage through the Nine Realms visited for oaths.",
+      "claim_ids": [
+        "frigg-c10"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Humanlike female rendering and natural limb counts are editorial visualization of the goddess identity, not detailed sourced anatomy.",
+    "Plain opaque robe, dark palette, low angle and close framing are editorial.",
+    "Tree and rock are neutral animate/inanimate examples of c10, not magical responding objects.",
+    "No supernatural visible prophecy or oath effects because sources specify no mechanism.",
+    "Dominance through close framing, not unsupported giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "original_file": "data/artwork-generated/batch-1617/rejected/frigg-A-attempt-01.png",
+  "native_sha256": "3772910a637e3c77227bf54a1b863c01f8a12b56576dbb7e5113e1fc1b799c53",
+  "reason": "Root rejected Sangar7: ordinary cloaked woman reaching for viewer; forceful pose alone does not read as goddess.",
+  "rejected_at": "2026-10-13T07:54:27.020101+00:00",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13439-d160-77e0-af63-9cf8cf03baba/exec-01eff5cb-f27b-4c7f-8626-a222589efb30.png",
+  "generated_at": "2026-10-13T07:50:10.680988+00:00",
+  "generated_at_basis": "native tool output file modification timestamp; original receipt omitted tool timestamp"
+}

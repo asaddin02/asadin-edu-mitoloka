@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 46,
+  "complete": 47,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -7738,7 +7738,7 @@
       "slug": "areop-enap",
       "canonical_name": "Areop-Enap",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-150.review.json",
       "research": {
@@ -8254,9 +8254,55 @@
         "areop-enap-c13",
         "areop-enap-c14"
       ],
-      "original_file": "data/artwork-generated/batch-1327/originals/areop-enap.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1327/originals/areop-enap.png",
       "native_sha256": "5d8194fe1de17a4d3f2583a76dc6e6cd0d4682c8252f08bc8e3964bd73e0f2bf",
-      "receipt_path": "data/artwork-generated/batch-1327/areop-enap.json"
+      "receipt_path": "data/artwork-generated/batch-1327/areop-enap.json",
+      "url": "/assets/art/areop-enap-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of AREOP-ENAP,the Ancient Spider of Nauruan creation,treated reverently.\nANATOMY: ONE old SPIDER,two connected body segments,EXACTLY EIGHT articulated spider legs,FOUR left and FOUR right,all EIGHT full leg trajectories from attachment joint to tip must be visible with empty gaps. Symmetric frontal spider anatomy,body centred,each leg silhouette separate,NO legs hidden behind torso,islands or other legs;EXACTLY EIGHT dark eyes visibly separated in TWO rows of FOUR on front of head,NO human face/hands,wings or extra legs. Weathered dark walnut exoskeleton. [areop-enap-c01]\nMOMENT: advancing over the world's primordial sea,two forelegs pulling taut physical webthreads across newly shaped islands in lower foreground,other SIX legs outspread clearly around its centred body,head lowered in powerful concentrated creation.\nPOWER: his nonluminous silk webthread becomes actual vegetation: matte white threads merging into roots,ferns and branches across rock-islands;lower CLAM SHELL Earth below and upper CLAM SHELL sky high above. [areop-enap-c07,areop-enap-c06]\nSCALE & CAMERA: extreme low cosmic macro angle,the spiderbody is CENTRED and all8legs dominate square in four-legged fans each side,foremost pair point to lower corners,second pair spread horizontally,third pair extend upper-sides,fourth pair fan backward in clear visible arcs;earth/islands as small visible fragments beneath,not a landscape-only image.\nLIGHT & WEATHER: one low golden sun through opening upper-shell horizon,deep walnut shadows,ordinary sea spray,no coloured energymist.\nSURFACE: rough old spidercarapace,jointed legs,taut physical silks,corrugated huge clam-shell edge,wet rockroots.\nSETTING: sea/endless space with shellEarth/sky. [areop-enap-c10,areop-enap-c06]\nMOOD: reverent,overwhelming awesome creator,never ordinary small spider,cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+      "depicted_variant": "Ancient Spider Nauru berkaki8 menggubah pulau dan vegetasi dari benang web, dalam kosmogoni clam-shell.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Laba-laba tua, dua segmen badan dan8kaki artikulasi, tanpa tangan/wajahmanusia.",
+          "claim_ids": [
+            "areop-enap-c01"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Webthread menjadi vegetasi di pulau,clam-shell bawahsebagaiEarth/atas sky.",
+          "claim_ids": [
+            "areop-enap-c07",
+            "areop-enap-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Laut kosmogoni dan ruang tanpa batas,diantara shellEarth/sky.",
+          "claim_ids": [
+            "areop-enap-c10",
+            "areop-enap-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "areop-enap-c01",
+        "areop-enap-c06",
+        "areop-enap-c07",
+        "areop-enap-c10"
+      ],
+      "aura": "AncientSpider areop-enap-c01 mengolah pulau/vegetasi web areop-enap-c07 pada shellcosmogoni areop-enap-c06 memberi keagungan pencipta.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native attempt02 dan200px dilihat: delapan legtrajectory lengkap dapat dihitung empat kiri+empat kanan,two bodysegments,eightfront eyes2rows4, tidak extra limbs. Nonluminouswebs terhadap islandsvegetation c07, clamshellworld c06,seacosmos c10. Cosmiccreator dominates,7Uji Sangar ya; texturematte/takada rune/glow/teks/popculture.",
+        "limitations": [],
+        "native_sha256": "5d8194fe1de17a4d3f2583a76dc6e6cd0d4682c8252f08bc8e3964bd73e0f2bf",
+        "reviewed_at": "2026-10-10T03:28:09.714Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "12db4540250fabc4f615b7f4cd3a0347381de4de0027835c2169aca82693f91d"
     },
     {
       "index": 13,

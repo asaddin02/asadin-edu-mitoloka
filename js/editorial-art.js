@@ -1555,5 +1555,16 @@ export const EDITORIAL_ART = Object.freeze({
   "nittaewo": "/assets/art/nittaewo-verified.webp",
   "nocnitsa": "/assets/art/nocnitsa-verified.webp",
   "north-shore-monster": "/assets/art/north-shore-monster-verified.webp",
-  "nisroch": "/assets/art/nisroch-verified.webp"
+  "nisroch": "/assets/art/nisroch-verified.webp",
+  "areop-enap": "/assets/art/areop-enap-verified.webp",
+  "anki-kiele": "/assets/art/anki-kiele-verified.webp",
+  "kanas-lake-monster": "/assets/art/kanas-lake-monster-verified.webp",
+  "cenocroca": "/assets/art/cenocroca-verified.webp",
+  "gatipedro": "/assets/art/gatipedro-verified.webp",
+  "kallana": "/assets/art/kallana-verified.webp",
+  "kay-s": "/assets/art/kay-s-verified.webp",
+  "menehune": "/assets/art/menehune-verified.webp",
+  "mixtecatl": "/assets/art/mixtecatl-verified.webp",
+  "wd-q11410474": "/assets/art/wd-q11410474-verified.webp",
+  "nephthys": "/assets/art/nephthys-verified.webp"
 });

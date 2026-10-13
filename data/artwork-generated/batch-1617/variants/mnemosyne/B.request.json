@@ -1,0 +1,58 @@
+{
+  "slug": "mnemosyne",
+  "variant": "B",
+  "worker": "codex",
+  "worker_agent": "big-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "prompt-prepared",
+  "review_path": "data/gemini/reviews/batch-046.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of MNEMOSYNE, Titan goddess of memory and oral remembrance, presiding beside her sacred well at the underground oracle of Trophonios in Boiotia.\nANATOMY: One mature female Titan deity rendered editorially with natural humanlike anatomy, one head, two eyes, two arms and five fingers on each visible hand. Heavy fully opaque dark walnut ceremonial high-neck gown and plain parchment-gold mantle cover chest, shoulders, torso, arms and legs. Severe mature face; no crown, jewellery or invented iconographic object. [mnemosyne-c01, mnemosyne-c07]\nMOMENT: Lean dramatically sideways over the sacred well from her plain stone throne and deliver a grave remembered account directly toward one adult oracle listener in the left foreground. Her near hand clamps the well rim and her other hand reaches outward palm open, inviting absolute attention; her strong three-quarter PROFILE fills the upper right, mouth open mid-recitation and eyes sharply commanding the listener. The listener is fully opaque clothed, shown from behind with head lowered toward HER and only one shoulder at the far edge. The goddess's forward movement sweeps the heavy mantle into a broad diagonal, not a calm seated pose. [mnemosyne-c05, mnemosyne-c03, mnemosyne-c09]\nPOWER: Embodiment of memory and preservation of stories by spoken recitation; the effect is the listener attending her words, not magical imagery. NO memory visions, NO time manipulation, NO supernatural water effect. [mnemosyne-c01, mnemosyne-c03]\nSCALE & CAMERA: Extreme low oblique view directly across the near circular sacred well; goddess's profile, covered shoulders and two arms dominate most of the square, large foreshortened hand on rim in foreground. Dark still water visible in bottom left, plain high stone throne back visible behind her right shoulder. One close listener shoulder creates a clearly subordinate audience without giant body proportions. Deliberately asymmetric side-on scene, different from frontal rising composition.\nLIGHT & WEATHER: One unseen low warm lamp at the opposite side of the well illuminates her severe profile and opaque mantle folds; deep black-brown chamber shadows and ordinary dust, no halo or magical radiance.\nSURFACE: Matte heavy woven fabric, natural grave skin, weathered plain stone well and throne, still dark water.\nSETTING: Underground oracle of Trophonios in Boiotia, her sacred well and throne; unornamented stone chamber with no inscriptions. [mnemosyne-c05, mnemosyne-c09]\nMOOD: Sacred, primordial, awe-inspiring oracle delivering an authoritative oral account; solemn and commanding, never gentle domestic storytelling or an ordinary woman beside a basin.\nHARD CONSTRAINTS: No text, lettering, logo, border, frame or watermark; no extra heads, arms or fingers; no crown, invented attribute, weapons, jewellery, symbols, scrolls, magical writing, glowing water, visions, clocks, halos, luminous eyes, energy ribbons or generic aura; no borrowed film/game/anime/comic design; completely opaque clothes and no nudity or gore; no giant deity or empty landscape. Keep the living goddess, well and throne distinctly readable.",
+  "basis_claim_ids": [
+    "mnemosyne-c01",
+    "mnemosyne-c07",
+    "mnemosyne-c05",
+    "mnemosyne-c03",
+    "mnemosyne-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Female Titan goddess, editorial natural humanlike figure in plain fully opaque ceremonial garments.",
+      "claim_ids": [
+        "mnemosyne-c01",
+        "mnemosyne-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Presiding over the oracle and speaking an oral narrative; no invented memory or time effects.",
+      "claim_ids": [
+        "mnemosyne-c05",
+        "mnemosyne-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underground oracle of Trophonios in Boiotia with sacred well and throne.",
+      "claim_ids": [
+        "mnemosyne-c05",
+        "mnemosyne-c09"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Natural female humanlike anatomy, opaque ceremonial clothes and severe mature face are editorial visualization of Titan goddess identity, not sourced detailed iconography.",
+    "Plain stone throne and well materials/shapes are editorial; their existence and location follow c05/c09.",
+    "Attentive adult oracle listeners are editorial context for presiding over the oracle c05 and oral preservation c03, not a named canonical episode.",
+    "No visible magic or memory/time effects, because source supplies no physical mechanism.",
+    "Imposing scale is close low camera, not an unsupported giant Titan body.",
+    "One unseen warm lamp/torch is ordinary editorial scene illumination, not her divine attribute."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

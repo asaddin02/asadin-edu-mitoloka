@@ -1,6 +1,6 @@
 # Review batch-125
 
-Diperiksa 2026-10-07T05:45:38.532Z. Berkas: batch-125.md, batch-125-fix-1.md, batch-125-fix-2.md, batch-125-fix-3.md.
+Diperiksa 2026-10-13T08:44:41.187Z. Berkas: batch-125.md, batch-125-fix-1.md, batch-125-fix-2.md, batch-125-fix-3.md, batch-125-fix-4.md.
 
 ## gyes — lulus-otomatis
 
@@ -545,9 +545,6 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 ## anki-kiele — lulus-otomatis
 
 Klaim 7 (exact 7), sumber 2, gambar 0.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "mitologi Chukchi dan Eskimo".
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|

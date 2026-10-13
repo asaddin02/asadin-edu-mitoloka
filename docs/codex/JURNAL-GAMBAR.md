@@ -379,3 +379,61 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - Galeri docs/artwork-batch-1606.html dan docs/artwork-corrections-2026-10-13.html. Galeri1277/1356/1406/1456/1506 diperbarui agarpromptsesuai PNGpengganti. JSONserahterima/validasi/status/protection di batch1606; PNG ignoredgit tetaplokal tanpa penghapusan.
 - Pelajaran: baca kutipan penuh (vesselPanhu/tindakanRepun lebihrinci dari statement); ubah ordinaryanimal ke varianhuman/aksi penciptaan yang didukung. Fiturkonvensional naga adalah rendering editorial kategoridragon, bukan klaim jumlahtanduk/anggota. Anchimayen perlu cahaya yangbekerja pada saksi dan tubuh terlihat, bukan angelcute. Kain beratberlapis lebihkonsisten buram.
 - Tanpa edit riset/katalog/power/JS/manifest/WebP/backups/nama-besar atau integrasi/commit/push/deploy. Claude selanjutnya meninjau45batch1606+15pengganti danhasilbatchlama. Areop-enap/Anki-kiele/KanasLakeMonster culture:null tetapurusan riset/katalogClaude. Codex tidakmembuka batchbaru sesiini.
+
+## 2026-10-13 13:52 WIB — Codex — mulai
+
+- Permintaan: lanjutkan sesi sebelumnya, gambar batch selanjutnya. Pulih melalui GAMBAR.md, status, dan entri terakhir jurnal.
+- Status awal: 1556 ilustrasi aktif; 7 needs-correction; 11 nama besar baru; tidak ada batch dengan receipt belum dibuat.
+- Rencana sesi: selesaikan antrean koreksi lebih dulu sesuai prioritas: cenocroca (1506), kallana/kay-s/menehune/mixtecatl (1556), tata-duende/wd-q11410474 (1606). Satu sesi seluruh antrean perbaikan sesuai GAMBAR.md.
+- Sub-agent: tiga gpt-6.1-sol/high; root memeriksa sendiri setiap PNG dan menulis ledger/jurnal. Perubahan awal hanya draft raw-result/__pycache__ sesi lama, dipertahankan.
+
+### Progres 14:01 WIB
+
+- 3/7 koreksi diperiksa root pada PNG asli dan200px: Tata Duende (4jari tanpa thumb; kaki terbalik jelas dari samping), Kayış (dua kaki kulit menyatu dari pinggul ke lilitan), Cenocroca (tulang mulut utuh, tatapan tetap, lunge). Dua percobaan baru Cenocroca ditolak karena tulang tersegmentasi/tanduk menyamping; final percobaan03 diterima.
+- Ruang disk terbatas (~189MB ketika diperiksa), agen menghindari duplikasi rawbase64; semua PNG/riwayat tetap dipertahankan.
+
+## 2026-10-13 14:06 WIB — Codex — selesai
+
+- Hasil sesi: seluruh7gambar needs-correction dibuatulang; batch1506 Cenocroca(1), batch1556 Kallana/Kayış/Menehune/Mixtecatl(4), batch1606 TataDuende/Shuangjing-wd-q11410474(2). Semua awaiting-independent-review,0 tidak-digambar.
+- Root melihat7PNG native1254x1254 dan7thumbnail200px; tujuh Uji Sangar lulus. Bukti pemeriksaan: data/artwork-generated/corrections-2026-10-13-afternoon/codex-native-reviews.json. TinjauanClaude baru belum dibuat.
+- Tiga sub-agent gpt-6.1-sol/high: correction-A Cenocroca/Kallana; correction-B Kayış/Menehune/Mixtecatl; correction-C TataDuende/Shuangjing. Ledger,jurnal,galeri,validasi ditulisroot.
+- Alat OpenAI built-in image_gen; image_model persis tidak dilaporkan alat.9panggilan/9PNGberhasil=7final+2penolakan kualitas baru Cenocroca.0kegagalan/penolakan otomatis alat. Semua7PNG lama yangditolakClaude danreceiptutuh diarsipkan; total13rejected_attempts termasuk4penolakan historis+2baru dipertahankan.
+- Perbaikan: TataDuende tubuh/lutut kiri dan kedua kaki kanan, telapak4jari tanpa thumb; Kayış dua pangkal kaki kulit jelas dari pinggul; Menehune3tubuh kerdil dengan pakis/batu pembanding serta saluran panjang presisi tengahmalam; Mixtecatl manusia dewasa dekat telapak untuk skala raksasa; Kallana charge dewasa bertelinga terbentang; Shuangjing2mata dengan2pupil masing-masing bertatapan tajam/paruh tertutup, harimau melarikan diri; Cenocroca menerjang dengan fixedgaze/tulang mulut menyatu.
+- Pelajaran: anatomi kaki terbalik lebihjelas dari sisi ketika lutut/tubuh mengarah berlawanan dengan jari kaki; asal anggota harusterlihat kontinu, bukan sekadar benda melilit; pembanding skala harus berdekatan dengan kaki/tubuh; hindari gigi seperti segmentasi dan horns menyamping pada Cenocroca. Penutupan paruh dan mata tertanam menghilangkan ekspresi komik Shuangjing.
+- Validasi3646pemeriksaan,0error;3308berkas terlindung identik;303tautan4galeri valid,0missing. Statusakhir1556aktif,7awaitingClaude,0needs-correction,0invalid. Ruangdisk rendah diatasi dengan menghindari rawbase64, tanpa menghapus riwayat.
+- Galeri: docs/artwork-corrections-2026-10-13-afternoon.html. Prompt pada galeri1506/1556/1606 diselaraskan dengan PNGbaru; galeri sebelumubah diarsipkan. Serahterima/validasi/status/protection di data/artwork-generated/corrections-2026-10-13-afternoon/.
+- Tidak mengubah riset,katalog,power,JS,manifest,WebP,backups,nama-besar; tidak integrasi,commit,push. Sesi berikutnya: antrean nama besar baru11(dua varian tiapmakhluk), setelah koreksi ini ditinjauClaude bila ada koreksi baru.
+
+- Catatan validasi galeri final: slot7gambar sebelumnya merupakan placeholder audit, kini diganti dengan kartu PNGpengganti, promptpersis, klaim, riwayat, dan status menungguClaude. Setelah perubahan ini total350tautan4galeri valid,0missing (menggantikan hitungan303tautan sebelum kartu disisipkan). Galeri sebelumnya tersimpan utuh.
+
+## 2026-10-13 14:43 WIB — Codex — mulai
+
+- Permintaan pemilik: lanjutkan. Status0needs-correction,7receipt pengganti sesi sebelumnya menungguClaude; tidak ada batch dengan receipt belum dibuat.
+- Rencana: batch11nama besar baru AhuraMazda/Frigg/Mnemosyne/Nephthys/Sekhmet/Tengri/Ennead/Tammuz/Anahita/Manat/Inari, dua varian komposisi masing-masing jika wujud/manifestasi terdokumentasi mendukung; tidak mengarang rupa.
+- Gunakan kembali skillimagegen built-in dan tiga sub-agent gpt-6.1-sol/high; root memilih varian dengan pemeriksaan native dan200px serta menulis ledger/jurnal/galeri. Perubahan sesi sebelumnya dipertahankan.
+
+### Progres 14:55 WIB
+
+- Batch1617 dibuat untuk11nama besar. Penilaian kutipan penuh:5berpeluang digambar (Frigg/Mnemosyne/Nephthys/Tammuz/Anahita);6tidak-digambar karena tidak ada rupa/manifestasi aktif cukup terdokumentasi (AhuraMazda/Tengri/Sekhmet/Ennead/Manat/Inari). Sekhmet tidak punya claim kepala singa; Inari asosiasi rubah bukan wujud rubah.
+- Percobaan awal FriggA/B,NephthysA,TammuzA ditolak karena manusia biasa meski teknik rapi; agen memakai adegan oaths/solarboat/underworld dari klaim dalam percobaanlanjutan, tanpa kuasa atau atribut rekaan.
+- Ruangdisk awal59MB; cache kompilasiGo yang dapatdibangunulang dibersihkan(~323MB), menghasilkan382MB. Tidak menghapus PNG atau riwayat proyek.
+
+## 2026-10-13 15:19 WIB — Codex — selesai
+
+- Batch1617 selesai seluruh11receipt,0pending.3final awaiting-independent-review: FriggB02,MnemosyneA01,NephthysA03. Masing-masing2varian tersimpan dengan alasan pemilihan dan tidakdipilih. Ledger generation_complete=true,complete=0; belumintegrasi.
+- 8tidak-digambar: AhuraMazda/Tengri tidak ada rupa/manifestasiaktif yang cukupterdokumentasi; Sekhmet tidak ada claimkepalas ing a atau atributfisik sementara Sunonly mengulangsubjekabsen; Ennead tidak ada ikonografi tiap9anggota; Manat ranah nasib abstrak/tanpa rupa; Inari asosiasirubah bukan wujudrubah. Tammuz danAnahita masing-masing3keluaran ditolak sebagai manus iabiasa/posekurang aktif; semua diarsipkan.
+- Rootmemeriksa sendiri16PNGnative1254 dan6thumbnail200px varianlolos;10PNG ditolakjuga dilihatroot. Bukti Codex di drafts/root/codex-variant-reviews.json dancodex-rejected-reviews.json. Rootmetadata ini bukan tinjauanindependenClaude.
+- Tiga sub-agent gpt-6.1-sol/high: big-A AhuraMazda/Frigg/Mnemosyne/Tengri(4entri,6panggilan,2reject);big-B Nephthys/Sekhmet/Ennead(3entri,4panggilan,2reject);big-C Tammuz/Anahita/Manat/Inari(4entri,6panggilan,6reject). Rootmenulisledger,jurnal,galeri,validasi danmenentukanvarian akhir.
+- OpenAI built-in image_gen, image_model persis tidak dilaporkan alat.16panggilan/16PNGberhasil=3final+3alternatifvalid+10penolakan kualitas.0kegagalan/penolakan otomatis alat gambar. Followupbig-A gagal karena selectedmodelatcapacity; rootmenuntaskanmetadatapemilihanMnemosyne dari keduaPNG yangsudahdiperiksa, tanpa panggilangambar tambahan.
+- Pelajaran: kuatnya pose saja tidak menyelamatkan manus iabiasa. Frigg sumpahc10 terbaca lewat tangan saksi dan kategori animate/inanimate; Mnemosyne takhta/sumurc09+oraclec05 memberi momenrecitationc03; Nephthys mummyprotectionc03+solarbarquec15 memberi konteksdewi palingjelas. Pakaianrag/distress tampak everydaymourner, kainceremonial buram dan composedauthority lebihberwibawa. Janganmengimpor kepala singa Sekhmet atau rubah sebagaiInari tanpa claim.
+- Validasi3645pemeriksaan,0error;3308berkas terlindung identik;43tautan galeri valid,0missing. Dua arsipFrigg sebelumnya takmemuat generated_file; rootmemulihkanpath dari PNGmentah tool yang hashidentik, generated_at dari mtimeberkas dicatatjelas asalnya. Semua10rejected punya prompt/hash/provenance.
+- Statusakhir1556aktif,10awaitingClaude (1506:1,1556:4,1606:2,1617:3),0needs-correction,0invalid. PNGignoredgit tetapterjaga; hardlinkmencegahduplikasi. CachekompilasiGo dapatdibangunulang dibersihkan untukruangdisk, bukanPNG/riwayatproyek.
+- Galeri docs/artwork-batch-1617.html; serahterima data/artwork-generated/batch-1617/codex-generation-summary.json; validasi/status/protection di drafts/root/. Tidak mengubahriset,katalog,power,JS,manifest,WebP,backups,nama-besar; tidak integrasi,commit,push.
+- Sesi berikutnya: jangan mengulang8decline ini tanpa buktiwujudbaru. Skripstatus masihmenampilkan mereka sebagai nama besar siap karena menghitungkelengkapaninformasi, bukan kelayakanvisual. Kerjakan entri lengkaplainnya; Claude boleh menambah buktiwujud danmeninjau10PNGpending.
+
+## 2026-10-13 15:39 WIB — Codex — mulai
+
+- Permintaan: lanjutkan batch berikutnya. Status1556aktif,0needs-correction,10receipt menungguClaude; batch1617 tidakpending.
+- Delapan nama besar decline menunggu buktirupa baru; tiga nama besar final menungguClaude. Semua slug yang sudah mempunyai receipt di batchlama dipertahankan, tidakdiduplikasi.
+- Rencana: satu batch50entri lengkap lainnya, disaring script dari1152slug baru; prioritas wujud terdokumentasi menurut prepare-artwork-batch. Tiga sub-agent gpt-6.1-sol/high; rootmelihat setiapPNGnative dan200px, menulisledger/jurnal/galeri/validasi.
+- Ruangdisk~103MB; cacheunduhan Yarn dan TypeScript typings yang dapatdiunduhulang dibersihkan untukruangkerja, tanpa menghapusPNG/riwayatproyek.

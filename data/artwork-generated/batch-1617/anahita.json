@@ -1,0 +1,74 @@
+{
+  "slug": "anahita",
+  "worker": "codex",
+  "worker_agent": "big-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "reason": "Tiga PNG dalam dua komposisi (A dua percobaan, B satu) gagal Uji Sangar setelah pemeriksaan native/200px lane dan root: perempuan biasa dengan burung di kuil, keagungan atau aksi ilahi tidak terbaca. Accepted research memberi identitas dewi, kuil di dekat aliran air dan burung suci, tetapi tidak memberi wujud/ikonografi khusus atau kuasa fisik aktif. Tidak mengarang hydrokinesis, tubuh raksasa, aura, mahkota atau atribut lain untuk memaksakan sangar.",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-13T08:12:29.867784+00:00",
+  "basis_claim_ids": [
+    "anahita-c01",
+    "anahita-c05",
+    "anahita-c06"
+  ],
+  "source_ids": [
+    "anahita-s1",
+    "anahita-s2"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Plain female human editorial rendering of Iranian goddess; no sourced body specification, costume or iconography asserted, fully opaque clothing.",
+      "claim_ids": [
+        "anahita-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Unspecified shrine beside a naturally flowing stream.",
+      "claim_ids": [
+        "anahita-c05"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Dove and peacock as sacred associated animals, kept secondary to the goddess.",
+      "claim_ids": [
+        "anahita-c06"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Rupa perempuan, pakaian buram, palet, batu kuil tanpa rincian historis dan gerak tubuh adalah rendering editorial identitas dewi, bukan ikonografi sumber.",
+    "Merpati dan merak didukung c06; gerak burung dan air dibuat alami, tanpa sihir atau klaim kendali unsur.",
+    "Dua komposisi berbeda telah dicoba: pendekatan bust/tangan dan langkah diagonal hampir seluruh tubuh. Semua keluaran ditolak; tidak ada final PNG terpilih.",
+    "Varian A02/B01 tetap di variants sebagai riwayat dan memiliki hardlink ke rejected, tanpa duplikasi byte."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/anahita-A-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/anahita-A-attempt-01.json",
+      "native_sha256": "ec7c3cc2821116e0fd9911131b85d405b5c5660640dc4a5a20c79d972f7fa139",
+      "reason": "Uji Sangar 3/7 gagal: tatapan netral dan pose perempuan biasa di dekat kuil; kehadiran merpati/merak benar tetapi tidak membuat dewi terasa menggetarkan."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/anahita-A-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/anahita-A-attempt-02.json",
+      "native_sha256": "1a403c9e4b37f625c98060674f00072b81f1dc16811be7e4cc4124ee36a4049e",
+      "reason": "Uji Sangar 2/7 gagal: pendekatan dan tangan foreshortened lebih dinamis tetapi tetap terbaca sebagai perempuan biasa dengan burung di kuil, tanpa keagungan atau aksi ilahi terdokumentasi. Root melihat native dan200px serta setuju menolak."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/anahita-B-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/anahita-B-attempt-01.json",
+      "native_sha256": "2276228f82ab682afaf5e3f986d1dbce1c7ab642ff7ffa39e77f0d7db92e6fd7",
+      "reason": "Uji Sangar 2/3/7 gagal: perempuan biasa berbusana upacara dengan tatapan menyamping netral, aksi dan keagungan dewi tidak terbaca pada200px. Root melihat native dan200px serta setuju menolak."
+    }
+  ]
+}

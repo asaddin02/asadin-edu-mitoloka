@@ -1,0 +1,94 @@
+{
+  "slug": "nephthys",
+  "worker": "codex",
+  "worker_agent": "big-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "batch": 1617,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-01.json",
+      "native_sha256": "37aadb9fe43793a1d3f5bba615a18a338acd7ba995e7cfce0e542c84cedf293c",
+      "reason": "Native and 200px: protective hand, wrapped mummy and action correct, but goddess reads as ordinary human mourner stopping viewer. Sangar item 7 fails; no clearly divine context."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1617/rejected/nephthys-A-attempt-02.json",
+      "native_sha256": "227cad586c09933765535955e79bdd5444cfca73547ff21530553dafc7005a68",
+      "reason": "Native and 200px: solarboat, mummy and counts correct, but distressed open-mouthed woman and ragged ordinary linen still read as human grieving mourner rather than commanding goddess. Sangar 7 fails."
+    }
+  ],
+  "variant": "A",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of NEPHTHYS, Egyptian divine protectress of the mummy in the SOLAR BARQUE AT CREATION.\nANATOMY: ONE regal adult female goddess, ordinary humanlike form with one head, two natural eyes, TWO arms, TWO five-finger hands and two legs fully concealed by an immaculate, exquisitely woven, heavyweight opaque ivory ceremonial robe. Very broad unbroken structured cloth folds, sober antique-gold woven edging only, covered shoulders and chest, NO rags or shredded cloth. Hair precisely gathered behind her bare uncovered head. Plain female form and ceremonial fabric are editorial rendering of goddess identity, NOT sourced iconography. NO crown, headdress, wings, jewellery, animal head, staff or weapons. One fully linen-wrapped mummy lying in the solarbarque, no exposed dead flesh. [nephthys-c01, nephthys-c03]\nMOMENT: CLAIM and protect the dead; poised goddess thrusts one arm horizontally outward across the foreground with open five-finger palm toward the viewer, while her other palm is pressed firmly over the mummy. Upright shoulders, strong poised forward leaning torso, chin down, eyes looking sternly DOWN AT THE VIEWER with unyielding sacred authority. Mouth CLOSED, NO distress, screaming, sadness or pleading. An urgent deliberate protective intervention, never a passive seated pose. [nephthys-c03, nephthys-c08]\nPOWER: Protection is represented solely by the commanding barring arm and hand on the mummy. No visible soul, ghost, magic energy or invented power. Her documented place in the BOAT OF THE SUN AT CREATION makes the divine context explicit. [nephthys-c03, nephthys-c15]\nSCALE & CAMERA: Dramatic extreme LOW view from outside the curved solarbarque hull. Goddess's head, broad ceremonial shoulders, upper torso and outstretched arm dominate two-thirds of frame. Wrapped mummy immediately below her palm, clearly secondary. HUGE CLOSE steep curved prow sweeps upward at left, lower rim crosses diagonal foreground. Camera creates dominance, NOT giant body size. No additional figures.\nLIGHT & WEATHER: ONE immense gold Sun low beyond the barque, actual distant solar body rather than a headdress or aura. Its side light sharply illuminates her stern facial planes, clean deep woven robe folds and boat's worn timber. Black cosmic twilight already holds distant stars. No glowing skin, luminous clothing or energy trails.\nSURFACE: Exquisitely woven fully opaque weighty ceremonial fabric, natural skin, bandaged mummy, aged warm-gold dark timber hull with unmistakable boat grain and a plain unlettered curled prow. Premium expressive oil-paint brushwork.\nSETTING: The SOLAR BOAT AT CREATION in twilight/early night; the entire lower background beneath the boat is cosmic dark and STARS, not an earthly ocean, river, bank or city. Editorial mythical celestial staging makes the documented solarboat at creation legible; do not invent any other object or her control over the sun. [nephthys-c15]\nMOOD: Commanding sacred divine guardian, severe reverent awe, monumental camera presence, immaculate dignity, overwhelming protective authority. Never an ordinary distressed woman or earthly boat passenger. Never evil, cute, decorative, calm or placid.\nHARD CONSTRAINTS: Native square PNG at least 1024x1024. No text, letters, glyphs, logos, borders, frame or watermark; no extra figures, heads, limbs or fingers; no copied film/game/anime/comic design; no nudity, transparent clothing or explicit gore; no generic glow aura, neon outlines or energy ribbons. No invented Egyptian emblem, wings, crown, sun-disk headdress or ankh. Claim labels never visible.",
+  "depicted_variant": "Nephthys commands protection over a wrapped mummy with a barring palm from the solarbarque at creation.",
+  "basis_claim_ids": [
+    "nephthys-c01",
+    "nephthys-c03",
+    "nephthys-c08",
+    "nephthys-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One goddess in plain humanlike female editorial form, fully opaque ceremonial cloth; no wings or unsourced emblem. One fully wrapped mummy.",
+      "claim_ids": [
+        "nephthys-c01",
+        "nephthys-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective intervening palm toward viewer and hand over mummy; no invented magic effect.",
+      "claim_ids": [
+        "nephthys-c03",
+        "nephthys-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Solar boat at creation, twilight to early night; starfield/celestial boat staging editorial, not a researched flight mechanism.",
+      "claim_ids": [
+        "nephthys-c15"
+      ]
+    }
+  ],
+  "aura": "The documented divine solarboat context (c15) and decisive protection of mummy (c03/c08), without an invented power effect.",
+  "artistic_choices": [
+    "Humanlike female representation and plain ceremonial ivory fabric are editorial; bodily iconography is not documented. No wing/headdress/emblem added.",
+    "Low close camera gives dominance without asserting giant stature. Celestial starfield and visible sun are editorial staging of solarboat at creation/twilight, not new powers or transport mechanism.",
+    "The mummy protection is a physical gesture; no visible soul, levitation of objects by goddess, or magic effect."
+  ],
+  "status": "selected-variant",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1343a-4151-7903-8a65-1ee1678a1c1a/exec-d5bb6d00-d808-41e0-be6c-add5d2b2dac0.png",
+  "generated_at": "2026-10-13T07:55:47.105337+00:00",
+  "original_file": "data/artwork-generated/batch-1617/variants/nephthys/A.png",
+  "native_sha256": "fcd5a02b3522c53067cc005d83d2bafffae4a8f0961ce38e60116cd6eca99d24",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px both inspected. Plain female divine guardian dominates with commanding downward expression and active five-finger barring hand while other hand protects a fully covered mummy (c03/c08). Clear curved solarbarque beside Sun in creation starfield (c15) supplies unmistakable mythic context. Fully opaque robe, no wings/crown/weapon/glow, no readable text/watermark or borrowed design. All seven Sangar yes; cosmic staging is editorial, no giant body asserted.",
+    "limitations": [],
+    "native_sha256": "fcd5a02b3522c53067cc005d83d2bafffae4a8f0961ce38e60116cd6eca99d24",
+    "reviewed_at": "2026-10-13T07:55:47.105337+00:00",
+    "sangar_checks": {
+      "1": "ya",
+      "2": "ya",
+      "3": "ya",
+      "4": "ya",
+      "5": "ya",
+      "6": "ya",
+      "7": "ya"
+    }
+  },
+  "selection_reason": "Root chose A03: explicit mummy protection nephthys-c03 plus solarboat at creation nephthys-c15 communicates a more distinctive divine funerary role than B01.",
+  "selection_status": "selected",
+  "not_selected_reason": null
+}

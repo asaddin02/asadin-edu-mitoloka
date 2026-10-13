@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 43,
+  "complete": 44,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -15950,7 +15950,7 @@
       ],
       "receipt_path": "data/artwork-generated/batch-1606/tata-duende.json",
       "original_file": "data/artwork-generated/batch-1606/originals/tata-duende.png",
-      "native_sha256": "9f93a78f2c33b5b80379da3bbc7d92feb28a7245a2c8dd526b15af2a17232493"
+      "native_sha256": "b18635b07048c56c65bd0d42e8efc23e8949fb8c288eaf721b6739d198f52475"
     },
     {
       "index": 30,
@@ -20661,7 +20661,7 @@
       "slug": "wd-q11410474",
       "canonical_name": "双睛",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-059.review.json",
       "research": {
@@ -20878,8 +20878,54 @@
         "wd-q11410474-c06"
       ],
       "receipt_path": "data/artwork-generated/batch-1606/wd-q11410474.json",
-      "original_file": "data/artwork-generated/batch-1606/originals/wd-q11410474.png",
-      "native_sha256": "c4505dbf907b26d7b27ea3d04e6501c344abe1786d266134fd7424c111773fb4"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1606/originals/wd-q11410474.png",
+      "native_sha256": "4122822b643efbe2aaafa6b209e4662200f2e12e1d12f0a296ea84b756e4be71",
+      "url": "/assets/art/wd-q11410474-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of SHUANGJING, the double-pupilled chicken-like guardian bird that drives away tigers and wolves.\nANATOMY: Exactly ONE living chicken-like bird with ONE head, TWO natural-sized eyes, ONE closed hard chicken beak, ONE lean muscular feathered torso, TWO wide feathered wings, TWO chicken legs with chicken feet, and ONE feathered tail. Each eye has EXACTLY TWO separate black round pupils beside each other inside its single amber iris: total TWO eyes with FOUR pupils, not four eyes. The eyes are inset beneath fierce lowered brow feathers, not bulging or enlarged. Natural small comb, raised dense neck hackles; realistic adult wild-rooster anatomy, lean tense posture. [wd-q11410474-c01, wd-q11410474-c02]\nMOMENT: Lunge from a house threshold toward the low camera, lower the head between shoulders and mantle BOTH broad wings wide in a fierce protective warning, hackles bristling. Weight drives onto one front foot while the second leg pushes; both feet visible. Closed or tightly clenched beak, hard unsmiling predatory stare. In background ONE ordinary tiger flees away, looking back with ears flattened and tail low.\nPOWER: Documented driving off tigers: the fleeing tiger is the physical visible result of the bird's guardian confrontation. No magical emission or phoenix fire, no feathers falling. [wd-q11410474-c03]\nSCALE & CAMERA: Extreme ground-level close camera, bird fills most of frame, lowered face large enough to inspect BOTH eye irises and their TWO pupils EACH. Three-quarter frontal face with BOTH eyes equally visible. Wings sweep across the upper sides like a protective barricade. Tight dramatic foreshortening gives imposing presence without making it giant. Tiger much farther away, separated behind one wing, retreat leg motion readable.\nLIGHT & WEATHER: ONE strong copper dusk beam from low left through dark storm clouds; hard sharp rim light on hackles, amber iris detail, deep walnut shadows, kicked-up earthy dust beneath rushing chicken feet. Background storm is weather, no lightning or aura.\nSURFACE: Living textured feather barbs in dark walnut, black, russet and antique gold; rough natural comb skin and keratin beak, taut scaly chicken legs. Never fluffy or plump, no glossy plastic, no cartoon facial proportions.\nSETTING: Plain unmarked old Chinese house doorway and swept earthen threshold, dark tree line behind fleeing tiger. The bird is alive, not a statue or door carving. [wd-q11410474-c03, wd-q11410474-c05]\nMOOD: Fierce awe-inspiring protective guardian, imposing dangerous confrontation, never cute, comic, cheerful, calm or decorative.\nHARD CONSTRAINTS: Native square PNG minimum1024. No text, lettering, logo, border, frame or watermark; no extra heads, eyes, wings, legs, beaks or pupils; EXACTLY TWO eyes each containing TWO pupils. No rounded comic chicken face, bulging eyes, gaping smile or open goofy beak. Do not substitute eagle or phoenix anatomy; keep chicken-like head/body/legs. No borrowed film, game, anime or comic design. No nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+      "depicted_variant": "Fierce living double-pupilled chicken-like Shuangjing lunging from a threshold with mantled wings as a tiger flees.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One adult lean chicken-like bird: 1head/2natural-size eyes, each single iris containing2 separate pupils; 1beak/2wings/2legs/1tail. Hard lowered stare, wide mantled wings and raised hackles, no comic bulging eyes or gaping beak.",
+          "claim_ids": [
+            "wd-q11410474-c01",
+            "wd-q11410474-c02"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Bird physically confronts the intruder as one distant natural tiger visibly flees; no magical emission or phoenix fire. Tiger explicitly present in full c03 quote.",
+          "claim_ids": [
+            "wd-q11410474-c03"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Chinese house doorway and swept threshold, recalling welcomed visits c03 and door guardians c05; living bird rather than carving.",
+          "claim_ids": [
+            "wd-q11410474-c03",
+            "wd-q11410474-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "wd-q11410474-c01",
+        "wd-q11410474-c02",
+        "wd-q11410474-c03",
+        "wd-q11410474-c05"
+      ],
+      "aura": "Hard lowered four-pupil stare, physical lunging advance, raised hackles and mantled wings drive off a visibly fleeing tiger, following wd-q11410474-c02/c03 without supernatural emission.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Viewed original native1254 and separate200px. All7 Sangar checks yes: subject dominates; fierce200px; lunge/mantled wings active; dust is physicalfoot contact and tigerretreat c03, no magicFX; 1head/2eyes EACH2separateblackpupils total4, 1closedbeak/2wings/2chickenlegs. Natural recessed eyes and stern brow avoid bulging comic face; featheredchicken form c02 retained. Tiger facing away/running while looking back. No text/watermark/frame/borrowed design. Hard stare, footforce and fleeing tiger prevent ordinaryanimal/cute/quiet reading.",
+        "limitations": [],
+        "native_sha256": "4122822b643efbe2aaafa6b209e4662200f2e12e1d12f0a296ea84b756e4be71",
+        "reviewed_at": "2026-10-13T07:02:28.623894+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "819b208913d6775f79b181f56a9f28d2ec2f9892083e6f48ab4d1fa13c573352"
     },
     {
       "index": 41,
