@@ -1,10 +1,13 @@
 {
   "batch_id": "batch-135",
-  "checked_at": "2026-10-13T18:37:10.951Z",
+  "checked_at": "2026-10-13T19:17:57.844Z",
   "files": [
     "batch-135.md",
     "batch-135-fix-1.md",
-    "batch-135-fix-2.md"
+    "batch-135-fix-2.md",
+    "batch-135-fix-3.md",
+    "batch-135-fix-4.md",
+    "batch-135-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1039,6 +1042,7 @@
     {
       "slug": "okaryuz",
       "file": "batch-135.md",
+      "entry_sha256": "9bc6edcb5fdd4a7584b345527d5f9460491979276a2ec54c8ac65e73f21cba8f",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1089,8 +1093,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9bc6edcb5fdd4a7584b345527d5f9460491979276a2ec54c8ac65e73f21cba8f"
+      "images": []
     },
     {
       "slug": "olhapim",
@@ -1830,20 +1833,15 @@
     },
     {
       "slug": "ox-man-of-wicklow",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "f26bb3df3c4ebad6ec79e844ac050519547ea7943b2a6a7a540c70da69183bbf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ox-man-of-wicklow-c01",
@@ -1884,25 +1882,75 @@
           "quote": "la créature, qui se rendait régulièrement à la cour du baron cambro-normand Maurice FitzGerald qui se tenait au Château Noir (Black Castle) de Wicklow, sera enlevée et tuée par les Irlandais.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c05",
+          "source_id": "ox-man-of-wicklow-s2",
+          "host": "archive.org",
+          "statement": "In the Topography of Ireland, Giraldus writes that in Wicklow (Gwylvingelo), when Maurice Fitzgerald held the territory and castle, a man-monster was seen whose whole body was human except the extremities, which were those of an ox.",
+          "statement_id": "Dalam Topography of Ireland, Giraldus menulis bahwa di Wicklow (Gwylvingelo), pada masa Maurice Fitzgerald menguasai wilayah dan kastel itu, terlihat seorang manusia-monster yang seluruh tubuhnya manusia kecuali ujung-ujung anggota badannya, yang berupa kaki lembu (ox).",
+          "quote": "In Wicklow (Gwylvingelo), at the time Maurice Fitzgerald held possession of that territory and castle, there was seen a man-monster, if he may be called a man, the whole of whose body was human, except the extremities, which were those of an ox",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c06",
+          "source_id": "ox-man-of-wicklow-s2",
+          "host": "archive.org",
+          "statement": "He could not speak; the sounds he uttered resembled the lowing of an ox.",
+          "statement_id": "Ia tidak bisa berbicara; suara yang dikeluarkannya menyerupai lenguhan lembu.",
+          "quote": "He could not speak, the sounds he uttered resembling the lowing of an ox.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c07",
+          "source_id": "ox-man-of-wicklow-s2",
+          "host": "archive.org",
+          "statement": "For a time he came daily to dinner at Maurice's court, taking up the food between the clefts of his cloven hoofs, which he used as hands.",
+          "statement_id": "Untuk beberapa waktu ia datang setiap hari ke istana Maurice untuk makan, dan mengambil makanan dengan celah kuku belahnya yang dipakainya sebagai tangan.",
+          "quote": "He frequented for some time the court of INIaurice, coming daily to dinner ; and the food which was served he took up between the fissures of his cloven hoofs, which he used as hands.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c08",
+          "source_id": "ox-man-of-wicklow-s2",
+          "host": "archive.org",
+          "statement": "At last he was secretly put to death, a fate he did not deserve.",
+          "statement_id": "Akhirnya ia dibunuh diam-diam, nasib yang menurut Giraldus tidak pantas diterimanya.",
+          "quote": "He was at last secretly put to death, a fate of w^hich he was not deserving",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c09",
+          "source_id": "ox-man-of-wicklow-s2",
+          "host": "archive.org",
+          "statement": "In The Conquest of Ireland, Giraldus again mentions a human monster seen in Wicklow with the body of a man and the limbs of an ox.",
+          "statement_id": "Dalam The Conquest of Ireland, Giraldus kembali menyebut manusia-monster di Wicklow yang bertubuh manusia dan beranggota badan lembu.",
+          "quote": "About this time, or shortly before, a human monster was seen in Wicklow, having the body of a man and the limbs of an ox.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3539bcb9a1d7f87dd9e1d3dc7b5d4c8e8818e25d5f91c484bcd07cda8bbd0eec"
+      "images": []
     },
     {
       "slug": "ozena",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "7b9f1bbb0f3448b1b14a4a9aa06cf88abb2ebf1d8664efb2e4e47bf34b926b42",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1925,27 +1973,51 @@
           "quote": "La maggior parte delle ozene era di piccole dimensioni e rimaneva sul fondo del mare. In casi rari alcune specie più grandi aggredivano gli uomini facendoli annegare.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ozena-c03",
+          "source_id": "ozena-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Pliny says the ozæna belongs to the polypi and is named for the peculiarly strong smell from its head, which is why morays (murænæ) pursue it so eagerly.",
+          "statement_id": "Plinius menyebut ozæna termasuk golongan polypus (gurita) dan dinamai demikian karena bau sangat kuat yang keluar dari kepalanya; karena itu belut murena (murænæ) memburunya dengan sangat bersemangat.",
+          "quote": "being so called from the peculiarly strong smell exhaled by the head;2 in consequence of which, the mu- rænæ3 pursue it with the greatest eagerness.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ozena-c04",
+          "source_id": "ozena-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "The translators' note explains that the name comes from the Greek ὄζω, 'to emit an odour', and that the ozæna was a small kind of polypus.",
+          "statement_id": "Catatan penerjemah menjelaskan bahwa nama itu berasal dari kata Yunani ὄζω, 'mengeluarkan bau', dan bahwa ozæna adalah sejenis polypus kecil.",
+          "quote": "From ὄζω, \"to emit an odour.\" This was a small kind of polypus.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ozena-c05",
+          "source_id": "ozena-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to the translators' note, Oppian in the Halieutica tells of a polypus of the ozæna kind that used to climb trees and plunder the fruit.",
+          "statement_id": "Menurut catatan penerjemah, Oppian dalam Halieutica menceritakan polypus jenis ozæna yang biasa memanjat pohon dan menjarah buahnya.",
+          "quote": "Oppian, Halieut. B. i. c. 310, tells a story of a polypus, of the ozæna species, that was in the habit of climbing trees, and plundering the fruit.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ee8d42a2e9d09227cf37caf9eb64aa127db63d811eada1de63dd5d77147049ef"
+      "images": []
     },
     {
       "slug": "pantafica",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "48cf909cdeb774af7e0365d2e23109a31d450938f47f8614ed27ce7ae6f157a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pantafica-c01",
@@ -1986,27 +2058,71 @@
           "quote": "apparentemente riconducibili al latino d'origine greca phantasma («fantasma»)",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "pantafica-c05",
+          "source_id": "pantafica-s2",
+          "host": "www.chietitoday.it",
+          "statement": "According to people in Abruzzo, the Pantafica is a ghostly woman with demonic eyes, a pointed snout and all dressed in white.",
+          "statement_id": "Menurut orang Abruzzo, Pantafica adalah perempuan hantu bermata iblis, bermoncong runcing, dan berpakaian serba putih.",
+          "quote": "è una donna spettrale dagli occhi demoniaci con il muso a punta e tutta di bianco vestita.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c06",
+          "source_id": "pantafica-s2",
+          "host": "www.chietitoday.it",
+          "statement": "The Pantafica, or pandafeche, covers the victim's mouth with a hand and then pins their arms and legs.",
+          "statement_id": "Pantafica, atau pandafeche, menutup mulut korbannya dengan tangan lalu mengunci lengan dan kakinya.",
+          "quote": "Si tratta della Pantafica, o pandafeche, che copre la bocca con una mano per poi bloccare braccia e gambe del malcapitato.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c07",
+          "source_id": "pantafica-s2",
+          "host": "www.chietitoday.it",
+          "statement": "Folk belief also says that on her rounds the pantafica amuses herself by braiding horses' manes.",
+          "statement_id": "Menurut kepercayaan rakyat, dalam perkelanaannya pantafica senang mengepang surai kuda.",
+          "quote": "Secondo la credenza popolare, inoltre, nei suoi giri la “pantafica” si diverte realizzando trecce con le criniere dei cavalli.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c08",
+          "source_id": "pantafica-s2",
+          "host": "www.chietitoday.it",
+          "statement": "To keep her away it is enough to leave a flask of wine (fiasco di vino) by the bed so the witch busies herself with it instead of disturbing sleep.",
+          "statement_id": "Untuk mencegah kedatangannya, cukup meletakkan sebotol anggur (fiasco di vino) di dekat ranjang agar sang penyihir sibuk dengannya dan tidak mengganggu tidur.",
+          "quote": "Basta lasciare un fiasco di vino vicino al letto, in modo che la strega vi si dedichi senza disturbare il sonno.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c09",
+          "source_id": "pantafica-s2",
+          "host": "www.chietitoday.it",
+          "statement": "Alternatively one can leave a bag of pulses or a many-bristled broom, since she cannot resist counting lots of small objects in front of her.",
+          "statement_id": "Sebagai gantinya, orang bisa meninggalkan sekantong kacang-kacangan atau sapu bersabut banyak, karena ia tidak tahan untuk tidak menghitung banyak benda kecil yang ada di depannya.",
+          "quote": "In alternativa, si può lasciare un sacchetto di legumi o una scopa con tante setole: fra le sue manie, infatti, c’è quella di non resistere a contare molti piccoli oggetti quando se li trova davanti.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6ab67ce112f8d0b5c83fdb23ae0cba559fa92243acbcc8f59b13a0a9dfa04a1b"
+      "images": []
     },
     {
       "slug": "pardalo",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "a8e86a02ad8b678dc62d894beb0eec01d3eee6d2408bf98a5d1435532407571b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pardalo-c01",
@@ -2057,14 +2173,44 @@
           "quote": "O Pardalo é uma montada guerreira, veloz, forte, que não necessita de alimento",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pardalo-c06",
+          "source_id": "pardalo-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Alexandre Herculano's telling, Pardalo gallops on through mountains and down fearsome valleys, ever lighter, so that, as its name indicates, it seems less a quadruped than a bird (passaro).",
+          "statement_id": "Dalam penceritaan Alexandre Herculano, Pardalo terus berderap menembus pegunungan dan menuruni lembah, makin lama makin ringan sehingga, seperti ditunjukkan namanya, ia lebih mirip burung (passaro) daripada hewan berkaki empat.",
+          "quote": "E Pardalo investe sempre em galope desfeito com as montanhas disformes, e desce aos valles temerosos, e cada vez mais ligeiro, como o seu nome o indica, parece menos quadrupede que passaro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalo-c07",
+          "source_id": "pardalo-s2",
+          "host": "www.gutenberg.org",
+          "statement": "With a single kick Pardalo brought down the bars of D. Diogo's prison, and the stone jambs flew into a thousand pieces.",
+          "statement_id": "Dengan satu tendangan saja, Pardalo merobohkan jeruji penjara D. Diogo dan kusen batunya hancur berkeping-keping.",
+          "quote": "Pan!—foi o som que se ouviu. Com um só couce a reixa estava no chão, e as hombreiras de pedra tinham voado em mil rachas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalo-c08",
+          "source_id": "pardalo-s2",
+          "host": "www.gutenberg.org",
+          "statement": "After halting before the stone cross on the bridge, Pardalo went whirling down into the gaping chasm like a feather falling from the top of a tower on a calm day.",
+          "statement_id": "Setelah berhenti di depan salib batu di jembatan, Pardalo turun berputar-putar ke dalam jurang menganga itu, seperti bulu yang jatuh dari puncak menara pada hari yang tenang.",
+          "quote": "E Pardalo descia remoinhando por esse boqueirão, como uma penna cahindo em dia sereno do alto de uma torre abaixo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "13deed0545f31147ddd6eb2d6a192774d770270ae9ca348476286321eea98080"
+      "images": []
     },
     {
       "slug": "pardalot",
       "file": "batch-135.md",
+      "entry_sha256": "ef29b3100e6f005ffccb8fcc4ce57ce643048e4610af69f213e570c957d8936f",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -2110,25 +2256,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ef29b3100e6f005ffccb8fcc4ce57ce643048e4610af69f213e570c957d8936f"
+      "images": []
     },
     {
       "slug": "pare-esme",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "5f262fb434abbcc893ac03a62a144dffca6c5558aee5006192079d7fc0371d47",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pare-esme-c01",
@@ -2149,27 +2289,61 @@
           "quote": "Algunes llegendes relacionades amb aquest gegant tenen similituds amb les del Fort Farell de Caldes de Montbui o el Sagal Nou de l'Urgell.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "pare-esme-c03",
+          "source_id": "pare-esme-s2",
+          "host": "web.archive.org",
+          "statement": "According to the legend, long ago a giant (gegant) called the Pare Esmè lived on the Montseny.",
+          "statement_id": "Menurut legenda, dahulu kala di Montseny hidup seorang raksasa (gegant) bernama Pare Esmè.",
+          "quote": "Segons la llegenda, fa molts anys, al Montseny hi vivia un gegant anomenat el Pare Esmè.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pare-esme-c04",
+          "source_id": "pare-esme-s2",
+          "host": "web.archive.org",
+          "statement": "He was so big that his strides took him from les Agudes to the turó de l'Home and on towards the turó Gros de Céllecs, walking from peak to peak.",
+          "statement_id": "Ia begitu besar sehingga setiap langkahnya menapak di Les Agudes, lalu di Turó de l'Home, dan berlanjut ke Turó Gros de Céllecs, berjalan dari puncak ke puncak.",
+          "quote": "Era tan gran que, en fer les passes, posava un peu a les Agudes, un altre al turó de l’Home i seguia cap al turó Gros de Céllecs, caminant pels diferents cims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pare-esme-c05",
+          "source_id": "pare-esme-s2",
+          "host": "web.archive.org",
+          "statement": "The legend is recorded in the local heritage inventory (sheet 08153-72) as intangible heritage, oral tradition.",
+          "statement_id": "Legenda ini tercatat dalam inventaris warisan budaya lokal (fitxa 08153-72) sebagai warisan takbenda, tradisi lisan.",
+          "quote": "08153 - 72 Patrimoni immaterial Tradició oral Contemporani Popular XX-XXI",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pare-esme-c06",
+          "source_id": "pare-esme-s2",
+          "host": "web.archive.org",
+          "statement": "The sheet cites Joan Amades's Folklore de Catalunya (1950) as a source for the legend.",
+          "statement_id": "Fitxa itu merujuk Folklore de Catalunya karya Joan Amades (1950) sebagai sumber legenda ini.",
+          "quote": "AMADES, J. (1950) Folklore de Catalunya. Rondallística. Rondalles-Tradicions-Llegendes. Barcelona: Editorial Selecta-Catalonia, p. 876.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2812172ec0b662dc3857841282f090712fc4eef98e5e08ccb8caec82bfe39d33"
+      "images": []
     },
     {
       "slug": "peeira-mythological-creature",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "5a48192cdf21b8726222f1af6d4f54c1a18dcb0b81d2d7072f9053307db56e92",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "peeira-mythological-creature-c01",
@@ -2210,27 +2384,51 @@
           "quote": "Dizem que uma moça pode se tornar uma peeira ao ser convocada pelo uivo de seu \"lobo predestinado\"",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "peeira-mythological-creature-c05",
+          "source_id": "peeira-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "In a version collected for Leite de Vasconcellos, the seventh sister is fated to be the Peeira dos lobos: she lives seven years with the wolves, sleeps in their den and is fed by them, and if she is missing they grow furious.",
+          "statement_id": "Dalam versi yang dikumpulkan untuk Leite de Vasconcellos, saudara perempuan ketujuh ditakdirkan menjadi Peeira dos lobos: ia hidup tujuh tahun bersama serigala, tidur di sarang mereka, diberi makan oleh serigala, dan bila ia tidak ada serigala-serigala itu mengamuk.",
+          "quote": "A sétima irmã é fadada para Peeira dos lobos. Vae viver sete annos com os lobos; dorme na cova d’elles ; os lobos alimentam-na, e, se ella falta, ficam furiosos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peeira-mythological-creature-c06",
+          "source_id": "peeira-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "Asked what Peeira means, people answer: 'she who lives near (ao pé) the wolves'.",
+          "statement_id": "Bila orang ditanya apa arti Peeira, mereka menjawab: 'perempuan yang hidup di dekat (ao pé) serigala'.",
+          "quote": "Se se pergunta ao povo o que significa Peeira , elle responde: «a que vive ao pé dos lobos»",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "peeira-mythological-creature-c07",
+          "source_id": "peeira-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "In a house with seven daughters in a row, one of them had to become a Lobeira, though this could be avoided if the eldest was godmother to the youngest.",
+          "statement_id": "Dalam rumah dengan tujuh anak perempuan berturut-turut, salah satunya harus menjadi Lobeira, kecuali bila yang sulung menjadi ibu baptis yang bungsu.",
+          "quote": "Na casa em que havia sete filhas a seguir, uma cTellas tinha de ir para Lobeira , mas este mal podia-se evitar se a mais velha fosse madrinha da mais nova.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6b4e3586f72fc4036e9b1e4e70e30aa0b53b52b538b3507f46feb6e687f6f2e7"
+      "images": []
     },
     {
       "slug": "peladits",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-3.md",
+      "entry_sha256": "91ff7ef752fc393e0e71d0fb09c3e184e9f2cb3006cf0b53445bfabd875df3ab",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "peladits-c01",
@@ -2251,14 +2449,64 @@
           "quote": "Segons va recollir Joan Amades en un article a la Revista de Dialectología y Tradiciones Populares el 1957, el Peladits és alt i prim, negre com el carbó i pelut com un os.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "peladits-c03",
+          "source_id": "peladits-s2",
+          "host": "www.rac1.cat",
+          "statement": "The Peladits announced his arrival with howls and cries as he moved along leaping and capering.",
+          "statement_id": "Peladits mengumumkan kedatangannya dengan lolongan dan teriakan sambil bergerak melompat-lompat dan berjumpalitan.",
+          "quote": "El Peladits anunciava la seva arribada amb els udols i crits que emetia alhora que es desplaçava fent salts i fent cabrioles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peladits-c04",
+          "source_id": "peladits-s2",
+          "host": "www.rac1.cat",
+          "statement": "When he found a dirty child he began his 'cleaning' ritual: putting the child in a bucket of boiling water, scrubbing them with two giant stones, beating them with a shovel, 'combing' them with hooks or hawthorn branches and cutting off hands, fingers or feet.",
+          "statement_id": "Bila menemukan anak yang kotor, ia memulai ritual 'pembersihan': memasukkan anak itu ke ember air mendidih, menggosoknya dengan dua batu raksasa, memukulnya dengan sekop, 'menyisirnya' dengan kait atau ranting hawthorn, dan memotong tangan, jari, atau kakinya.",
+          "quote": "Quan el sinistre personatge trobava un nen brut, començava el seu ritual de \"neteja\", consistent a ficar-lo en una galleda d'aigua bullent, refregar-lo amb dues pedres gegantines, colpejar-lo amb una pala, \"pentinar-lo\" amb garfis o branques d'arç i tallar-li les mans, els dits o els peus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peladits-c05",
+          "source_id": "peladits-s2",
+          "host": "www.rac1.cat",
+          "statement": "Once finished, the Peladits charged for the 'session' by stealing the child's savings.",
+          "statement_id": "Setelah selesai, Peladits menagih 'bayaran' dengan mencuri tabungan anak itu.",
+          "quote": "un cop acabava, el Peladits es cobrava la \"sessió\" robant els estalvis del nen",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peladits-c06",
+          "source_id": "peladits-s2",
+          "host": "www.rac1.cat",
+          "statement": "Some claimed the Peladits was a sort of 'king of lice' (el rei dels polls) with power over them.",
+          "statement_id": "Ada yang mengatakan Peladits semacam 'raja kutu' (el rei dels polls) yang berkuasa atas kutu-kutu.",
+          "quote": "hi havia qui assegurava que el Peladits era una cosa així com \"el rei dels polls\" i tenia poder sobre ells.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peladits-c07",
+          "source_id": "peladits-s2",
+          "host": "www.rac1.cat",
+          "statement": "Its female variant is called Cardapeçols, with which mothers in el Bruc, Esparreguera and Piera threatened daughters who would not let their hair be combed.",
+          "statement_id": "Varian perempuannya disebut Cardapeçols, yang dipakai para ibu di el Bruc, Esparreguera, dan Piera untuk menakut-nakuti anak perempuan yang tidak mau disisir.",
+          "quote": "ens referim a una mena de variant femenina anomenada Cardapeçols, amb la qual les mares del Bruc, Esparreguera i Piera amenaçaven les seves filles si no es deixaven pentinar.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "06cf3f293526e7ca476fba8eee3cdd65754c06dd50e09afe77e947507a1dd600"
+      "images": []
     },
     {
       "slug": "perico",
       "file": "batch-135.md",
+      "entry_sha256": "ee94c0d0360f51ef474e96777fa0df30bc4af29fdf0539e134a05ec3d79dc8ad",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -2294,12 +2542,12 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ee94c0d0360f51ef474e96777fa0df30bc4af29fdf0539e134a05ec3d79dc8ad"
+      "images": []
     },
     {
       "slug": "pertenidor",
       "file": "batch-135.md",
+      "entry_sha256": "6fe73b6d09232b422085399a9ece097b378ec3742fe3158cfceb2e7ccbb2dd0d",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -2335,25 +2583,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6fe73b6d09232b422085399a9ece097b378ec3742fe3158cfceb2e7ccbb2dd0d"
+      "images": []
     },
     {
       "slug": "petitcrieu",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "8e1b73d59725783b6239fc64b1338cd0dbd537dcb94484e89793c78136b6bf0e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "petitcrieu-c01",
@@ -2404,14 +2646,54 @@
           "quote": "Tristan made a deal with the Duke that if he killed the giant Urgan",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c06",
+          "source_id": "petitcrieu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "No one can name its colouring, since it seems to change hue depending on the angle from which it is seen.",
+          "statement_id": "Warna bulunya tidak bisa dinamai siapa pun karena tampak berubah tergantung dari sudut mana ia dilihat.",
+          "quote": "whose coloring no one can name as it seems to change in hue depending on which angle one looks at it",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c07",
+          "source_id": "petitcrieu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Once he has Petitcreiu, Tristan sends the dog to Isolt to cheer her, knowing she pines for him as much as he does for her.",
+          "statement_id": "Setelah memperoleh Petitcreiu, Tristan mengirim anjing itu kepada Isolt untuk menghiburnya, karena ia tahu Isolt merindukannya sama seperti ia merindukan Isolt.",
+          "quote": "Once he has Petitcreiu, Tristan sends the dog to Isolt so it will cheer her up since he knows she is pining for him as badly as he is for her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c08",
+          "source_id": "petitcrieu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Before long Isolt has the bell removed from the dog's collar because she wants to feel her emotions honestly rather than have her pain eased by magic.",
+          "statement_id": "Tak lama kemudian Isolt menyuruh lonceng itu dilepas dari kalung anjing karena ia ingin merasakan perasaannya dengan jujur, bukan diredakan oleh sihir.",
+          "quote": "After only a little while, however, she has the bell removed from the dog's collar because she wants to honestly experience her feelings and not have her pain assuaged by magic.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c09",
+          "source_id": "petitcrieu-s3",
+          "host": "www.medievalists.net",
+          "statement": "Many colours radiate from him: from one side he looks black and white, from another bright red.",
+          "statement_id": "Banyak warna terpancar darinya: dari satu sisi ia tampak hitam-putih, dari sisi lain merah cerah.",
+          "quote": "many colours are radiated from him; when you look from one side, he appears black and white, but from another, he appears brightly red.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "377c1959d80ae68d4b2254116941e42ea60693a9fddd0a89569a07d927c91dbd"
+      "images": []
     },
     {
       "slug": "pettenedda",
       "file": "batch-135.md",
+      "entry_sha256": "56344663e21d486d53d40ed5d91d5ca673015bbe4cd17f7038c25728fd28614a",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -2457,12 +2739,12 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "56344663e21d486d53d40ed5d91d5ca673015bbe4cd17f7038c25728fd28614a"
+      "images": []
     },
     {
       "slug": "piterne",
       "file": "batch-135.md",
+      "entry_sha256": "46ffce93be6f7aa9c2180f5d703a23af29e227bbf29496e0452c9eaf265de9a8",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -2488,30 +2770,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "46ffce93be6f7aa9c2180f5d703a23af29e227bbf29496e0452c9eaf265de9a8"
+      "images": []
     },
     {
       "slug": "porviso",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "04281881e190b1300ee51cc6dc69c55bfac0cd041f739414ecab65fde0d6961c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "porviso-c01",
@@ -2552,27 +2823,51 @@
           "quote": "Rafael Dieste en A fiestra valdeira (1927) nomea o porviso como diaño",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "porviso-c05",
+          "source_id": "porviso-s2",
+          "host": "galiciaencantada.com",
+          "statement": "In Galicia (Galiza) as in Portugal, Proviço, Porviso or Proviso is the name of a meddling, tricky demon, a kind of trasno, tardo, spirit or apparition that frightens people and makes mischief.",
+          "statement_id": "Di Galisia (Galiza) maupun Portugal, Proviço, Porviso, atau Proviso adalah nama iblis yang usil dan penipu, semacam trasno, tardo, roh, atau penampakan yang menakut-nakuti dan membuat onar.",
+          "quote": "En Galiza como en Portugal, o Proviço, Porviso, Proviso sería o nome dun demo rexoubeiro e trampulleiro, unha especie de trasno, tardo, espírito ou visión que segundo os casos pon medo, enreda e pouco máis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "porviso-c06",
+          "source_id": "porviso-s2",
+          "host": "galiciaencantada.com",
+          "statement": "According to a version collected by Paula Carballeira at a secondary school in Padrón, local youngsters see it as a kind of rat that slips under doors, its tail so long it can wrap around the pillow and smother sleepers with it.",
+          "statement_id": "Menurut versi yang dicatat Paula Carballeira di sebuah sekolah menengah di Padrón, anak-anak setempat menganggapnya sejenis tikus yang lewat di bawah pintu, dengan ekor begitu panjang sehingga bisa melilit bantal dan mencekik orang yang tidur dengannya.",
+          "quote": "segundo unha versión recollida por Paula Carballeira nun IES de Padrón, a rapazada daquela bisbarra identifícao cunha especie de rato que pasa por debaixo das portas, co rabo tan longo que lle permite rodear a almofada e afogar con ela a xente que dorme.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "porviso-c07",
+          "source_id": "porviso-s2",
+          "host": "galiciaencantada.com",
+          "statement": "For V. Vaqueiro it resembles the Pesadelo, a trasno that can increase its weight at will and sits on sleepers' chests to make them feel suffocated.",
+          "statement_id": "Menurut V. Vaqueiro, porviso mirip Pesadelo, trasno yang bisa menambah berat badannya sesuka hati dan duduk di dada orang tidur hingga mereka merasa tercekik.",
+          "quote": "Para V. Vaqueiro aseméllase ao Pesadelo, un trasno especializado en aumentar de peso a conveniencia e sentar no peito dos que dormen para provocarlles sensación de asfixia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "78681048d6eaa13f21e180d50ee50bbade0600b7db9c51408d85a4e33693fbc3"
+      "images": []
     },
     {
       "slug": "prestere",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "eb867e9ea37102ab4dfcfd97cfb54e31826c3430b76b60cab180191db7ad1373",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "prestere-c01",
@@ -2613,25 +2908,45 @@
           "quote": "La caratteristica più peculiare del prestere è la bocca, che emette vapori e che esso tiene sempre aperta, anche quando si muove, cosa che fa con rapidità.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "prestere-c05",
+          "source_id": "prestere-s2",
+          "host": "www.abdn.ac.uk",
+          "statement": "The Aberdeen Bestiary classes the prester as an asp that moves quickly with its mouth always open and steaming, quoting the poet Lucan (Pharsalia 9, 722) on the greedy prester that opens wide its foaming mouth.",
+          "statement_id": "Aberdeen Bestiary menggolongkan prester sebagai sejenis asp (ular berbisa) yang bergerak cepat dengan mulut selalu terbuka dan beruap, dan mengutip sang penyair Lucan (Pharsalia 9, 722) tentang prester rakus yang membuka lebar mulutnya yang berbuih.",
+          "quote": "The prester is an asp that moves quickly with its mouth always open and emitting vapour, as the poet recalled like this: 'The greedy prester that opens wide its foaming mouth' (Lucan, Pharsalia, 9, 722).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prestere-c06",
+          "source_id": "prestere-s3",
+          "host": "www.thelatinlibrary.com",
+          "statement": "In Lucan's Pharsalia, a scorching prester strikes Nasidius, a farmer of the Marsian land; a fiery redness inflames his face, and the swelling stretches his skin until his shape is lost.",
+          "statement_id": "Dalam Pharsalia karya Lucan, prester yang ganas memagut Nasidius, petani dari tanah Marsi; wajahnya memerah seperti terbakar, dan pembengkakan meregangkan kulitnya hingga bentuk tubuhnya lenyap.",
+          "quote": "Nasidium Marsi cultorem torridus agri ... percussit prester. illi rubor igneus ora succendit, tenditque cutem pereunte figura miscens cuncta tumor",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cda6ca25b94db8f34b1e9ff88b863cd9ab59b69d51f8cab571b30fa928f7d974"
+      "images": []
     },
     {
       "slug": "pretinho-do-barrete-encarnado",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "c5ccfc0748b19b2b77baa867036f02945684189efc1e5326aaf026ebbbf1c450",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2664,27 +2979,41 @@
           "quote": "Diz-se que é o filho mais novo do Diabo, que desobedeceu ao pai por ser amigo das almas boas, principalmente das crianças.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pretinho-do-barrete-encarnado-c04",
+          "source_id": "pretinho-do-barrete-encarnado-s2",
+          "host": "archive.org",
+          "statement": "Teófilo Braga records the Pretinho do barrete encarnado of Lagoa and Estombar, which always appears at the calmest hour.",
+          "statement_id": "Teófilo Braga mencatat Pretinho do barrete encarnado dari Lagoa dan Estombar, yang selalu muncul pada jam paling tenang.",
+          "quote": "«O Pretinho do barrete encarnada (Lagoa e Estombar), apparece sempre á hora de maior calma.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pretinho-do-barrete-encarnado-c05",
+          "source_id": "pretinho-do-barrete-encarnado-s2",
+          "host": "archive.org",
+          "statement": "Teófilo Braga argues that the Entreaberto, the Homem das sete dentaduras, the Rosemunho, the Secular das Nuvens and the Pretinho de barrete encarnado can only be understood in their demonic form through their link with the declining sun (Sol que declina).",
+          "statement_id": "Teófilo Braga berpendapat bahwa Entreaberto, Homem das sete dentaduras, Rosemunho, Secular das Nuvens, dan Pretinho de barrete encarnado hanya dapat dipahami dalam wujud iblisnya lewat hubungan mereka dengan matahari yang terbenam (Sol que declina).",
+          "quote": "O Entreaberto ou Encantado, o Homem das sete dentaduraSy o Rosemunho^ o Secular das Nuvens, e o Pretinho de barrete encarnado^ só podem ser com- prehendidos na forma demoniaca pela sua relação com o Sol que declina.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "26f001b0fbfea265f6e565161d8476a2cca5f08733659b24dd21cb8b35d0bd82"
+      "images": []
     },
     {
       "slug": "pucel",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "c567f502da2da34bae32a54686e69413d7bc13065e0a3b8220af699299535475",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pucel-c01",
@@ -2735,27 +3064,41 @@
           "quote": "Selon Collin de Plancy, il pourrait être le même que Crocell",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "pucel-c06",
+          "source_id": "pucel-s2",
+          "host": "fr.wikisource.org",
+          "statement": "The Pucel entry in the Dictionnaire infernal calls him a great and powerful duke of hell who appears as a dark angel, answers on the occult sciences and teaches geometry and the liberal arts.",
+          "statement_id": "Entri Pucel dalam Dictionnaire infernal menyebutnya adipati neraka yang agung dan berkuasa, tampil sebagai malaikat gelap, menjawab soal ilmu gaib, dan mengajarkan geometri serta seni liberal.",
+          "quote": "Pucel, grand et puissant duc de l’enfer. Il paraît sous la forme d’un ange obscur ; il répond sur les sciences occultes ; il apprend la géométrie et les arts libéraux",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pucel-c07",
+          "source_id": "pucel-s2",
+          "host": "fr.wikisource.org",
+          "statement": "He commands forty-eight legions (quarante-huit légions), and according to the dictionary he may well be the same as Pocel.",
+          "statement_id": "Ia memimpin empat puluh delapan legiun (quarante-huit légions), dan menurut kamus itu mungkin sama dengan Pocel.",
+          "quote": "Il commande quarante-huit légions. Il pourrait bien être le même que Pocel.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "43d6723dd70a65863d10bce5b2600b979a22ff981d6f825a3987f6e9333e93a5"
+      "images": []
     },
     {
       "slug": "rosegacebes",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "4d72d17c7cb9991fb371a2e27dfd0158c274e0200c175df65761d88cf473c2bb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rosegacebes-c01",
@@ -2786,27 +3129,51 @@
           "quote": "segons la llegenda és l'ànima damnada d'un home que, quan era viu, es dedicava a robar les cebes de l'hort del seu veí, fins que aquest, empipat, el va maleir",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "rosegacebes-c04",
+          "source_id": "rosegacebes-s2",
+          "host": "bibgirona.cat",
+          "statement": "The neighbour cursed him: 'Whoever steals my onions, may he have to eat them forever, in life and in death', condemning him to wander for all eternity.",
+          "statement_id": "Tetangga itu mengutuknya: 'Siapa yang mencuri bawangku, biarlah ia harus memakannya selamanya, dalam hidup dan mati', sehingga ia dihukum berkeliaran untuk selamanya.",
+          "quote": "el va maleir: “Qui em roba les cebes, així n'hagi de menjar per sempre, en la vida i en la mort”, condemnant-lo d'aquesta manera a vagar per tota l'eternitat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosegacebes-c05",
+          "source_id": "rosegacebes-s2",
+          "host": "bibgirona.cat",
+          "statement": "According to tradition, the presence of this child-scaring being is detected when a gnawed onion (ceba) is seen.",
+          "statement_id": "Menurut tradisi, kehadiran momok penakut anak ini diketahui bila terlihat bawang (ceba) yang tergerogoti.",
+          "quote": "Segons la tradició, la presència d'aquest ésser espantacriatures es detecta quan es veu una ceba rosegada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosegacebes-c06",
+          "source_id": "rosegacebes-s3",
+          "host": "surtdecasa.cat",
+          "statement": "Another report likewise says the angry neighbour cursed him for all eternity, so he must wander forever as a soul in torment, and wherever he roams a half-gnawed onion will be found.",
+          "statement_id": "Liputan lain juga menuturkan bahwa tetangga yang marah itu mengutuknya untuk selamanya sehingga ia harus berkeliaran sebagai arwah penasaran, dan di tempat ia berkeliaran orang akan menemukan bawang yang setengah tergerogoti.",
+          "quote": "Un dia, el veí, empipat que li robessin a l'hort el va maleir per tota l'eternitat i va restar obligat a vagar per sempre com una ànima en pena. Per allà on ronda, hi trobareu una ceba a mig rosegar.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bc5b7917bfc83c4f17cf46ec31190871d980aa5c04ba56795685f79318711276"
+      "images": []
     },
     {
       "slug": "rosemunho",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-4.md",
+      "entry_sha256": "671fca51da817c4225c9a714b523f3db0c9f523f22d953939aff6bee9c34b1a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rosemunho-c01",
@@ -2837,14 +3204,44 @@
           "quote": "ao rosemunho não é atribuída qualquer etiologia conhecida.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "rosemunho-c04",
+          "source_id": "rosemunho-s2",
+          "host": "archive.org",
+          "statement": "In Vila Nova de Anços it is believed that at noon, on roads and at crossroads, one meets 'evil things' called rosemunhos (whirlwinds, redemoinhos).",
+          "statement_id": "Di Vila Nova de Anços orang percaya bahwa pada tengah hari, di jalan dan persimpangan, orang bertemu 'hal-hal jahat' yang disebut rosemunhos (pusaran angin, redemoinhos).",
+          "quote": "Em Yilla Nova d'Anços crè-se que : <Á bora do meio dia encontram pelas estradas, nas encruzilbadas, umas cousas más, que se cbamam rosemunhos (redemoinbos).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosemunho-c05",
+          "source_id": "rosemunho-s2",
+          "host": "archive.org",
+          "statement": "The rosemunho is like a cloud of dust that carries off sticks and stones, and if it catches someone in its midst it lifts them into the air too; but if the person carries rosary beads (contas) in a pocket and throws them at the evil thing, no harm comes to them.",
+          "statement_id": "Rosemunho itu seperti kepulan debu yang menerbangkan kayu dan batu, dan bila menangkap seseorang di tengahnya, orang itu pun ikut terangkat ke udara; tetapi bila orang itu membawa tasbih (contas) di saku dan melemparkannya ke makhluk jahat itu, ia tidak akan celaka.",
+          "quote": "O resemurâu) é como uma poeirada : leva páos, pedras, e se apanbá alguma pessoa no meio, kva-a também pelos ares, mas se a pessoa trouxer umas contas na algibeira e as atirar ã tal cousa má, nao Ibe acontece mal algum.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosemunho-c06",
+          "source_id": "rosemunho-s2",
+          "host": "archive.org",
+          "statement": "Teófilo Braga argues that the Entreaberto, the Homem das sete dentaduras, the Rosemunho, the Secular das Nuvens and the Pretinho de barrete encarnado can only be understood in their demonic form through their link with the declining sun (Sol que declina).",
+          "statement_id": "Teófilo Braga berpendapat bahwa Entreaberto, Homem das sete dentaduras, Rosemunho, Secular das Nuvens, dan Pretinho de barrete encarnado hanya dapat dipahami dalam wujud iblisnya lewat hubungan mereka dengan matahari yang terbenam (Sol que declina).",
+          "quote": "O Entreaberto ou Encantado, o Homem das sete dentaduraSy o Rosemunho^ o Secular das Nuvens, e o Pretinho de barrete encarnado^ só podem ser com- prehendidos na forma demoniaca pela sua relação com o Sol que declina.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "57a54607d913d16f224655ae872ef24a842f7d202e828a1c7a90c6226e9b3cd8"
+      "images": []
     },
     {
       "slug": "rou-rou",
       "file": "batch-135.md",
+      "entry_sha256": "c1a89ab518cda8190c92d4e8bc7d4625cb683cc98cbc803fee1e9777689e9b21",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -2870,25 +3267,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c1a89ab518cda8190c92d4e8bc7d4625cb683cc98cbc803fee1e9777689e9b21"
+      "images": []
     },
     {
       "slug": "salamanca-do-jarau",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-5.md",
+      "entry_sha256": "515c5f77d2d716ead0cbc54a83fc55429c1d270021004f3e01838d62c07a265c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "salamanca-do-jarau-c01",
@@ -2919,14 +3310,54 @@
           "quote": "Corpo de lagartixa (ou salamandra), encontra-se no lugar de sua cabeça uma pedra preciosa cintilante, cor de rubi, que fascina os homens e os atrai, destinada a viver em uma lagoa no Cerro do Jarau.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "salamanca-do-jarau-c04",
+          "source_id": "salamanca-do-jarau-s2",
+          "host": "pt.wikisource.org",
+          "statement": "A note in Lendas do Sul says the enchanted teiniaguá was also called carbúnculo or farol, and bore set in its head a precious stone that glittered like an ember, ruby-coloured (rubim).",
+          "statement_id": "Catatan dalam Lendas do Sul menyebut teiniaguá yang tersihir juga dinamai carbúnculo atau farol, dan di kepalanya tertanam batu permata yang berkilau seperti bara dan berwarna merah delima (rubim).",
+          "quote": "A teiniaguá encantada também era chamada — carbúnculo, farol — e trazia engastada na cabeça “uma pedra preciosa que cintilava como brasa e de cor de rubim",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamanca-do-jarau-c05",
+          "source_id": "salamanca-do-jarau-s2",
+          "host": "pt.wikisource.org",
+          "statement": "No one could ever catch the animal alive or dead, because its radiance turned aside the eyes and hands of its pursuers.",
+          "statement_id": "Makhluk itu tidak pernah bisa ditangkap hidup atau mati, karena pancaran cahayanya membelokkan mata dan tangan para pemburunya.",
+          "quote": "Semelhante animal nunca puderam apanhar nem vivo nem morto, porque por suas irradiações desvia os olhos e mãos dos perseguidores",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamanca-do-jarau-c06",
+          "source_id": "salamanca-do-jarau-s2",
+          "host": "pt.wikisource.org",
+          "statement": "In the tale the princess says Anhangá-pitã turned her into a teiniaguá with a shining head, feared and desired because she is 'the rose of the treasures hidden inside the world's shell'.",
+          "statement_id": "Dalam kisah itu sang putri berkata Anhangá-pitã mengubahnya menjadi teiniaguá berkepala bercahaya yang ditakuti dan diidamkan orang, karena ia adalah 'mawar harta tersembunyi' di dalam kulit bumi.",
+          "quote": "Vim, e Anhangá-pitã transformou-me em teiniaguá de cabeça luminosa, que outros chamam o — carbúnculo — e temem e desejam, porque eu sou a rosa dos tesouros escondidos dentro da casca do mundo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamanca-do-jarau-c07",
+          "source_id": "salamanca-do-jarau-s2",
+          "host": "pt.wikisource.org",
+          "statement": "When Blau refuses every offer he is told that, since seven powers do not satisfy him and he wanted nothing of what was promised, he will be given nothing and must go.",
+          "statement_id": "Ketika Blau menolak semua tawaran, ia diberi tahu: karena tujuh kekuatan tidak memuaskannya dan ia tidak mau apa pun yang dijanjikan, ia tidak akan diberi apa-apa dan disuruh pergi.",
+          "quote": "— Pois que em sete poderes te não fartas nada te darei, porque do que te foi prometido nada quiseste. Vai-te!",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d77a43cf1249c1c56cd7ef41af458c8bec93d111b96f00d5a8eb6f96aab3b1c2"
+      "images": []
     },
     {
       "slug": "salina",
       "file": "batch-135.md",
+      "entry_sha256": "f07cffc6af54f3b432505fb4d4ce45324c30c4bd08b5013f73350e6d77671f29",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 4,
@@ -2982,25 +3413,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f07cffc6af54f3b432505fb4d4ce45324c30c4bd08b5013f73350e6d77671f29"
+      "images": []
     },
     {
       "slug": "santa-pupa",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-5.md",
+      "entry_sha256": "3179b3f869bde5327241de902b7c5b9b5c9a2aea53e9f48ab2f5b946bb3644da",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "santa-pupa-c01",
@@ -3031,27 +3456,61 @@
           "quote": "Il poeta romano Gioacchino Belli doveva nutrirle una particolare devozione, se dedicò, a questa santa domestica, uno dei suoi famosi sonetti",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "santa-pupa-c04",
+          "source_id": "santa-pupa-s2",
+          "host": "www.laboratorioroma.it",
+          "statement": "In Rome's working-class families, Santa Pupa, together with Saint Anne, mother of the Madonna, was the special protector of children.",
+          "statement_id": "Di keluarga rakyat Roma, Santa Pupa bersama Santa Anna, ibu Bunda Maria, adalah pelindung khusus anak-anak.",
+          "quote": "Santa Pupa, insieme a San'Anna, madre della Madonna, era la particolare protettrice dei bambini.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "santa-pupa-c05",
+          "source_id": "santa-pupa-s2",
+          "host": "www.laboratorioroma.it",
+          "statement": "Pupa means 'little girl' (bambina, ragazzina).",
+          "statement_id": "Pupa berarti 'anak perempuan kecil' (bambina, ragazzina).",
+          "quote": "Pupa significa \"bambina”, “ragazzina\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "santa-pupa-c06",
+          "source_id": "santa-pupa-s2",
+          "host": "www.laboratorioroma.it",
+          "statement": "Belli, the exasperated father of a very lively child, dedicated a sonnet to this imaginary saint in 1833.",
+          "statement_id": "Belli, ayah yang kewalahan menghadapi anaknya yang sangat lincah, mempersembahkan sebuah soneta kepada santa khayalan ini pada tahun 1833.",
+          "quote": "A questa santa immaginaria il Belli, padre esasperato d’un bimbo vivacissimo, dedicò un sonetto, nel 1833",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "santa-pupa-c07",
+          "source_id": "santa-pupa-s2",
+          "host": "www.laboratorioroma.it",
+          "statement": "An oil painting of Santa Pupa by an unknown artist is held at the Museo di Roma in Trastevere.",
+          "statement_id": "Sebuah lukisan minyak Santa Pupa karya pelukis tak dikenal tersimpan di Museo di Roma in Trastevere.",
+          "quote": "Santa Pupa- olio di autore ignoto Museo di Roma in Trastevere",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "88a7e4ca36f54a85ffa8169c0295974122b09a7ae6f92dc571b89afd0eca7b1a"
+      "images": []
     },
     {
       "slug": "satyrus-ape",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-5.md",
+      "entry_sha256": "81a812a82d8839a33c9800d9111bc9faea3c14d8f152b3f33622e75890a0c49f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "satyrus-ape-c01",
@@ -3092,27 +3551,51 @@
           "quote": "Linnaeus is quoted as saying that the satyrus is \"hairy, bearded, with a manlike body, gesticulating much, very fallacious, is a species of monkey, if ever one has been seen.\"",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "satyrus-ape-c05",
+          "source_id": "satyrus-ape-s2",
+          "host": "bestiary.ca",
+          "statement": "The satyr is usually described as a kind of ape but is often pictured as a wild man.",
+          "statement_id": "Satyrus biasanya digambarkan sebagai sejenis kera, tetapi dalam gambar sering tampil sebagai manusia liar (wild man).",
+          "quote": "The satyr is usually described as a type of ape, but is often pictured as a wild man.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satyrus-ape-c06",
+          "source_id": "satyrus-ape-s2",
+          "host": "bestiary.ca",
+          "statement": "In illustrations they look more human than ape and often carry a club; they are sometimes said to be one of the monstrous human races thought to live in the east or in Ethiopia.",
+          "statement_id": "Dalam ilustrasi mereka lebih mirip manusia daripada kera dan sering membawa gada; kadang mereka disebut salah satu ras manusia ajaib yang dipercaya hidup di timur atau di Ethiopia.",
+          "quote": "They are usually shown as more man-like than ape-like, and often carry a club. They are sometimes said to be one of the monstrous human races that were thought to live in the east or in Ethiopia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satyrus-ape-c07",
+          "source_id": "satyrus-ape-s2",
+          "host": "bestiary.ca",
+          "statement": "The ape-satyr bears little resemblance to the traditional Roman Satyr.",
+          "statement_id": "Satyrus-kera ini tidak banyak mirip dengan Satyr tradisional Romawi (Roman).",
+          "quote": "The ape-satyr is not much like the traditional Roman Satyr.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2c178258b6b0dfd21a4770fa0efced39a45db33e252ee42d7202584eabdebeb7"
+      "images": []
     },
     {
       "slug": "secular-das-nuvens",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-5.md",
+      "entry_sha256": "e4d0e3f15940034303454408153ee596429433afe10acad422be617dbf8c0c42",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "secular-das-nuvens-c01",
@@ -3153,14 +3636,54 @@
           "quote": "Segundo Constantino Cabal, o Secular das nuvens seria uma referência aos estudantes que cursavam a Magia na famosa Cova de Salamanca.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c05",
+          "source_id": "secular-das-nuvens-s2",
+          "host": "web.archive.org",
+          "statement": "According to Vales Villamarín, the name 'secular das nuvens' is most likely a popular metathesis of 'escolar'.",
+          "statement_id": "Menurut Vales Villamarín, nama 'secular das nuvens' kemungkinan besar adalah metatesis rakyat dari kata 'escolar'.",
+          "quote": "En el mismo trabajo y en otros, se le da el nombre de «secular das nuvens» ... seguramente metátesis popular de «escolar».",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c06",
+          "source_id": "secular-das-nuvens-s2",
+          "host": "web.archive.org",
+          "statement": "The form escolar is found in Asturias and in Portugal, as 'o escolarâo das nuvens'.",
+          "statement_id": "Bentuk escolar ditemukan di Asturias dan di Portugal, dengan sebutan 'o escolarâo das nuvens'.",
+          "quote": "se encuentra en Asturias ... y en Portugal: «o escolarâo das nuvens».",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c07",
+          "source_id": "secular-das-nuvens-s2",
+          "host": "web.archive.org",
+          "statement": "In the district of Bragança (Braganza) the secular das nuvens is called 'demonio visivel' (visible demon).",
+          "statement_id": "Di distrik Bragança (Braganza), secular das nuvens disebut 'demonio visivel' (iblis yang kelihatan).",
+          "quote": "demonio visivel -nombre que recibe el secular das nuvens en él distrito de Braganza-",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c08",
+          "source_id": "secular-das-nuvens-s3",
+          "host": "web.archive.org",
+          "statement": "In João Aguiar's novel A Encomendação das Almas, the characters Zé da Pinta and Gonçalo Nuno escape their pursuers by turning into Seculares das Nuvens and unleashing a violent storm.",
+          "statement_id": "Dalam novel A Encomendação das Almas karya João Aguiar, tokoh Zé da Pinta dan Gonçalo Nuno lolos dari pengejar mereka dengan menjelma Seculares das Nuvens dan memicu badai dahsyat.",
+          "quote": "O Zé da Pinta e Gonçalo Nuno, analogicamente, escapam-se dos seus perseguidores (família, sociedade...) transformando-se em Seculares das Nuvens e desencadeando uma violenta tempestade.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d9ec570ac00583cf2c3662d643dc71e83476316fd5de9d54e7c349586562725b"
+      "images": []
     },
     {
       "slug": "selemeg",
       "file": "batch-135.md",
+      "entry_sha256": "938f150cbebde36b4130d4c9f391398fc060ab3a426755a7c23203a14fb8e79a",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -3191,25 +3714,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "938f150cbebde36b4130d4c9f391398fc060ab3a426755a7c23203a14fb8e79a"
+      "images": []
     },
     {
       "slug": "serpent-de-manlleu",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-5.md",
+      "entry_sha256": "144a44cece3fdf6e4f76c7d6b844d95f342a0ff9d1101b3ee4a09b4099a730bf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "serpent-de-manlleu-c01",
@@ -3250,27 +3767,61 @@
           "quote": "Un noi que volia aconseguir el diamant va estudiar els costums de l'animal i quan el serpent deixà el diamant, l'agafà i sortí corrents. Veient que el serpent el perseguia va entrar dins una casa i va amagar el diamant en un morter posat a l'inrevés",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c05",
+          "source_id": "serpent-de-manlleu-s2",
+          "host": "www.serpentmanlleu.cat",
+          "statement": "The Serpent enters the house and coils round the mortar to recover its diamond until it dies, burst by the effort; some versions add an epilogue in which the diamond is offered to the Virgin (Mare de Déu).",
+          "statement_id": "Sang Serpent masuk ke rumah dan melilit lumpang untuk merebut kembali berliannya sampai mati pecah karena kerja keras; dalam beberapa versi ditambahkan epilog berupa persembahan berlian itu kepada Bunda Maria (Mare de Déu).",
+          "quote": "El Serpent entra a la casa i es cargola al morter per intentar recuperar el diamant, fins que mor rebentat per l’esforç. En alguns casos s’hi afegeix un epíleg, amb l’ofrena del diamant a la Mare de Déu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c06",
+          "source_id": "serpent-de-manlleu-s2",
+          "host": "www.serpentmanlleu.cat",
+          "statement": "According to the old folk, a serpent is a huge beast as big as a farmhouse, with abundant hair crowned by a diamond.",
+          "statement_id": "Menurut orang tua setempat, serpent adalah binatang raksasa sebesar rumah petani, berambut lebat yang dimahkotai sebuah berlian.",
+          "quote": "Un serpent és una bestiassa gran com una casa de pagès, proveïda d’una abundosa cabellera que corona un diamant.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c07",
+          "source_id": "serpent-de-manlleu-s2",
+          "host": "www.serpentmanlleu.cat",
+          "statement": "Many people of Manlleu tell the legend, among them Domènec Torrent i Garriga, Esteve Gaja i Molist and Valentí Puntí i Morer.",
+          "statement_id": "Banyak warga Manlleu menuturkan legenda ini, di antaranya Domènec Torrent i Garriga, Esteve Gaja i Molist, dan Valentí Puntí i Morer.",
+          "quote": "Moltes persones de Manlleu ens expliquen la llegenda del serpent: Domènec Torrent i Garriga, Esteve Gaja i Molist, Valentí Puntí i Morer",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c08",
+          "source_id": "serpent-de-manlleu-s2",
+          "host": "www.serpentmanlleu.cat",
+          "statement": "The Festa del Serpent de Manlleu is celebrated every 14 August (agost) in Manlleu to champion the Serpent legend.",
+          "statement_id": "Festa del Serpent de Manlleu dirayakan setiap 14 Agustus (agost) di Manlleu untuk menghidupkan legenda sang Serpent.",
+          "quote": "La festa del Serpent de Manlleu és la celebració que té lloc cada any el 14 d’agost a Manlleu per reivindicar la llegenda del Serpent.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "939b456795d32ff2e319c19cf2eba384bac4dee378db4198f03a49bacde7c409"
+      "images": []
     },
     {
       "slug": "serpente-regolo",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-5.md",
+      "entry_sha256": "ae649cdf7aee4bc45e061864e9768deae10a140dfd746c8df75eb12814ebe6f2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "serpente-regolo-c01",
@@ -3311,10 +3862,39 @@
           "quote": "Autori come Dione Cassio e Plinio il Vecchio descrissero l'incontro con un enorme rettile in cui si imbatté l'esercito di Attilio Regolo in Africa durante la prima guerra punica presso il fiume Bagrada.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "serpente-regolo-c05",
+          "source_id": "serpente-regolo-s2",
+          "host": "cronachedelritorno.wordpress.com",
+          "statement": "The legend appears in various versions in Umbria, Lazio, Marche and Toscana, where tradition pictures it as a large reptile with scales shining like metal and two small wings.",
+          "statement_id": "Legenda ini ditemukan dalam berbagai versi di Umbria, Lazio, Marche, dan Toscana; di Toscana tradisi menggambarkannya sebagai reptil besar bersisik berkilau seperti logam dengan dua sayap kecil.",
+          "quote": "si ritrova in varie versioni in Umbria, Lazio, Marche e ovviamente Toscana, dove la tradizione lo vuole come un grosso rettile con squame luminose come di metallo e con due piccole ali.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serpente-regolo-c06",
+          "source_id": "serpente-regolo-s2",
+          "host": "cronachedelritorno.wordpress.com",
+          "statement": "The Pieve di Corsignano near Pienza holds one of the few original depictions of the Serpente Regolo to survive.",
+          "statement_id": "Di Pieve di Corsignano dekat Pienza terdapat salah satu dari sedikit penggambaran asli Serpente Regolo yang masih bertahan.",
+          "quote": "all’epoca della costruzione della Pieve di Corsignano di Pienza, dove troviamo una delle poche rappresentazioni del serpente Regolo arrivate “originali” fino a noi.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "serpente-regolo-c07",
+          "source_id": "serpente-regolo-s2",
+          "host": "cronachedelritorno.wordpress.com",
+          "statement": "According to regional traditions, the regolo is born from the egg of a seven- or fourteen-year-old cockerel, laid on a dung heap and hatched by a toad, a frog or a snake.",
+          "statement_id": "Menurut tradisi daerah, regolo lahir dari telur ayam jantan berumur tujuh atau empat belas tahun yang diletakkan di atas tumpukan pupuk kandang dan dierami katak, kodok, atau ular.",
+          "quote": "il regolo nasce da un “uovo di gallo di sette o quattordici anni, deposto su un mucchio di letame e covato da un rospo, da una rana o da un serpe”.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7307b00183a90fbc23e4a807fa5ab682a58ed1919c41b0483a90095c97f69854"
+      "images": []
     }
   ]
 }
