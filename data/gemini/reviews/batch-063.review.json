@@ -1,13 +1,16 @@
 {
   "batch_id": "batch-063",
-  "checked_at": "2026-10-13T18:39:40.011Z",
+  "checked_at": "2026-10-13T18:55:03.655Z",
   "files": [
     "batch-063.md",
     "batch-063-fix-1.md",
     "batch-063-fix-2.md",
     "batch-063-fix-3.md",
     "batch-063-fix-4.md",
-    "batch-063-fix-5.md"
+    "batch-063-fix-5.md",
+    "batch-063-fix-6.md",
+    "batch-063-fix-7.md",
+    "batch-063-fix-8.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -594,14 +597,20 @@
     {
       "slug": "wd-q11337525",
       "file": "batch-063-fix-4.md",
-      "entry_sha256": "eeb924330b8bf754c4645fe6f4450a9a891a96109f6cc585dbaf7000291dc530",
+      "entry_sha256": "cbdad3285818aa3bcab94ae72598bd6d93f34326191681f8d8d7223e1bb5f5bd",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
       "claims": [
         {
           "id": "wd-q11337525-c01",
@@ -619,7 +628,7 @@
           "host": "ja.wikipedia.org",
           "statement": "Its image pulls down its lower eyelids and sticks out its tongue; further behavior is unexplained.",
           "statement_id": "Gambarnya menarik kelopak mata bawah dan menjulurkan lidah; perilaku lainnya tidak dijelaskan.",
-          "quote": "両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。",
+          "quote": "べか太郎（べかたろう）は日本の妖怪絵巻にある妖怪。松井文庫に所蔵されている江戸時代に描かれた絵巻物『百鬼夜行絵巻』（1832年）に両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1587,18 +1596,19 @@
     },
     {
       "slug": "wd-q11372024",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "f480f856896f0b4a146b8395be70ac04b5d2424c4ec1abc6f02313ee6e324527",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1641,10 +1651,29 @@
           "quote": "妖怪研究家・多田克己は、絵では蟹股の足で横に這うように歩いており、「蟹の横這い」とは物事が本筋からずれていく様子を指す慣用句でもあることから、そのように物事の邪魔をする妖怪であり、世間体を意味する「体面」（たいめん）との言葉遊びで描かれた妖怪画ではないかとの解釈を示している。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11372024-c05",
+          "source_id": "wd-q11372024-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines the gotaimen as a yōkai depicted in the Edo-period \"Hyakki Yagyō Emaki\" scroll as a large head with arms and legs attached directly to it.",
+          "statement_id": "Digital Daijisen Plus mendefinisikan gotaimen sebagai yōkai yang dalam gulungan \"Hyakki Yagyō Emaki\" zaman Edo digambarkan sebagai kepala besar dengan tangan dan kaki yang tumbuh langsung darinya.",
+          "quote": "日本の妖怪。江戸時代の妖怪絵巻「百鬼夜行絵巻」では、大きな頭部に直接手足が付いた姿で描かれている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11372024-c06",
+          "source_id": "wd-q11372024-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Mizuki Shigeru suggested the gotaimen is akin to the haradashi; the yōkai from an old book printed by Satō Arifumi as a haradashi illustration is a human head with limbs, similar to the gotaimen.",
+          "statement_id": "Mizuki Shigeru menduga gotaimen sekerabat dengan haradashi; yōkai dalam buku lama yang dimuat Satō Arifumi sebagai gambar haradashi berupa kepala manusia dengan tangan dan kaki, mirip gotaimen.",
+          "quote": "水木しげるは、著書において腹出しの仲間ではないかと解説している。腹出しの図版として佐藤有文の著作に掲載されている古書に描かれた妖怪は人間の頭部から手足が生えた姿をしており、五体面とは似た形をしている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8b28b5d7931c65faca8577870057d3e9b1885e667df4cb3850e5bd55532a0026"
+      "images": []
     },
     {
       "slug": "wd-q11377665",
@@ -1709,20 +1738,15 @@
     },
     {
       "slug": "wd-q11386538",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "f605027c9e0a38be94535c87c8c6ecc3364de8eac8f4b5579ba1cf27da26b650",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11386538-c01",
@@ -1773,27 +1797,41 @@
           "quote": "文献に残っているものでは、江戸時代、本所の梅原宗得という人物の土蔵に棲み付いていたといわれる。人に害をなす妖怪ではないが、この土蔵に入って仕事をする者は、便意を催すと、この妖怪の現れる前兆なので急いで蔵を出たという。また防火の神としても祀られており、あるときに近所で火事があり、この家の片づけが間に合いそうにないとき、顔が見えないほど髪を長く垂らした女の姿となって現れ、荷物を運び出して火災から守ったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11386538-c06",
+          "source_id": "wd-q11386538-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines the kura-bokko (蔵ぼっこ) as a storehouse-guardian yōkai from Tōno, Iwate, child-sized and hairy all over.",
+          "statement_id": "Digital Daijisen Plus mendefinisikan kura-bokko (蔵ぼっこ) sebagai yōkai pelindung gudang dari Tōno, Iwate, setinggi anak-anak dan berbulu lebat di sekujur tubuh.",
+          "quote": "日本の妖怪。岩手県遠野地方に伝わるもので、蔵の守り神とされる。子どもほどの背丈で全身毛むくじゃらとされる。「倉ぼっこ」とも。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11386538-c07",
+          "source_id": "wd-q11386538-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Miyagi Prefectural History (1956) records that it lives in the earthen storehouses of old village houses, and is said to make the sound of a spinning wheel or to carry a red lacquered pail; another name is okura-bōzu.",
+          "statement_id": "Sejarah Prefektur Miyagi (1956) mencatat bahwa ia tinggal di gudang tanah rumah-rumah tua desa, dan dikatakan terdengar bunyi alat pemintal atau terlihat menenteng ember lakuer merah; nama lainnya okura-bōzu.",
+          "quote": "要約 村の旧家の土蔵などにいる。糸車の音がしたり、赤い塗桶を提げていたりするという。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9e095852e781b264179dc3298674fb8e45f64a308ef5c1358be60acc5b6afa6e"
+      "images": []
     },
     {
       "slug": "wd-q11395510",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "eb1ab3a972d0f37776cbffd531fc07afe1da5ee90ea26f45c0e8d59848a021d9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11395510-c01",
@@ -1834,10 +1872,39 @@
           "quote": "牟婁郡（現・和歌山県）の民俗誌『牟婁口碑集』によれば、かつて和歌山県西牟婁郡西富田村（現・白浜町）では村の大池から法螺が現れたとある。大水が発生した年、濁流の中に大きな黒い物体が流れて行くのを目撃した者がおり、その跡には池に洞窟ができていた。土地の口承ではホラガイは海、川、山でそれぞれ千年、計3千年の歳月を経た末、神通力を持つ大蛇と化すといい、そうしたホラガイが抜け出たものだといわれた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11395510-c05",
+          "source_id": "wd-q11395510-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai, a triton shell (ホラガイ) that became a dragon after thousands of years, recorded in the Edo-period \"Ehon Hyakumonogatari Tōsanjin Yawa\".",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai, keong triton (ホラガイ) yang menjelma naga setelah ribuan tahun, tercatat dalam \"Ehon Hyakumonogatari Tōsanjin Yawa\" zaman Edo.",
+          "quote": "日本の妖怪。ホラガイが数千年の長い年月を経て龍に化身したもの。江戸時代の奇談集「絵本百物語 桃山人夜話」に記述がある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11395510-c06",
+          "source_id": "wd-q11395510-s3",
+          "host": "yokai.com",
+          "statement": "The flesh of a shussebora was said to grant very long life to whoever eats it, but with no evidence and no one claiming to have eaten one, this is thought to be mere rumor.",
+          "statement_id": "Daging shussebora dikatakan memberi umur sangat panjang bagi yang memakannya, tetapi karena tidak ada bukti dan tak seorang pun mengaku pernah memakannya, hal itu dianggap sekadar desas-desus.",
+          "quote": "The flesh of a shussebora was said to bring very long life to anyone who eats it. However, as there is no documented evidence of this, and nobody who has actually eaten a shussebora has come forth, this is thought to be just rumor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11395510-c07",
+          "source_id": "wd-q11395510-s3",
+          "host": "yokai.com",
+          "statement": "The phrase \"hora wo fuku\" (\"to blow a conch shell\", meaning to brag) is said to have originated from this yōkai.",
+          "statement_id": "Ungkapan \"hora wo fuku\" (\"meniup keong\", berarti membual) dikatakan berasal dari yōkai ini.",
+          "quote": "the phrase “hora wo fuku” (“to blow a conch shell”), meaning “to brag,” is said to have originated from this yōkai.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "27f6621881bfac6d081f65e488a363771c60a363956d3b435fb8054b70b41600"
+      "images": []
     },
     {
       "slug": "wd-q11398404",
@@ -1912,20 +1979,15 @@
     },
     {
       "slug": "wd-q11423884",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "05a0f2fdb7bc3b1c82dc92e2d568d06290fb3d84fd99bcda3673318f97416a78",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11423884-c01",
@@ -1966,17 +2028,47 @@
           "quote": "民俗学者・柳田國男は、九州の小豆洗いと呼ばれる妖怪のうちにも、藁打ち槌が化けていて、人が通りかかると転がりかかって来るという性質が語られているものがあるが、これは中部地方など全国の山地にも例のある「槌のようなものが転がって来る」という「野槌」などの伝承が「小豆洗い」と混同された報告例ではないかとしている。また柳田は「槌が転がって来る」という妖怪の伝承は「のづち」という名称にある「槌」という響きから後の時代になって連想されたものであろうとしている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11423884-c05",
+          "source_id": "wd-q11423884-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Miyagi Prefectural History (1956) calls the tsuchikorobi a kind of snake that comes rolling and bites, and suggests it may be a kind of nozuchi.",
+          "statement_id": "Sejarah Prefektur Miyagi (1956) menyebut tsuchikorobi sejenis ular yang menggelinding datang lalu menggigit, dan menduga ia sejenis nozuchi.",
+          "quote": "要約 蛇の一種で、ころんできて咬み付くという。さきにあげたノヅチの類か。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11423884-c06",
+          "source_id": "wd-q11423884-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Mizuki's Chūbu version, a straw-mallet-shaped tsuchikorobi rolls past a traveler on a mountain pass and waits at the foot; passing it fearlessly is safe, but avoiding it makes one lose the way in the mountains.",
+          "statement_id": "Dalam versi Mizuki dari Chūbu, tsuchikorobi berbentuk palu jerami menggelinding menyusul pejalan di jalan gunung dan menunggu di kaki celah; jika dilewati tanpa takut tidak terjadi apa-apa, tetapi jika dihindari orang akan tersesat di gunung.",
+          "quote": "旅人が峠を歩いていると、後ろから何者かが追って来るような気配がし、慌てて走り出すと、藁打ち槌のような姿の土転びが転がって来て旅人を追い抜き、峠の下で待ち構えている。そのままなにも悪さをしないので、恐れずにそのまま通り過ぎれば無事に済むが、土転びのいる道を避けて通ろうとすると、山中に迷い込んでしまうという。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11423884-c07",
+          "source_id": "wd-q11423884-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The tsuchikorobi in Mizuki's books is regarded as a composite of several traditions with Mizuki's own inventions added.",
+          "statement_id": "Tsuchikorobi dalam buku Mizuki dianggap gabungan beberapa tradisi ditambah rekaan Mizuki sendiri.",
+          "quote": "水木の著書にある「土転び」は複数の伝承を複合し、さらに水木が自身の創作を加えて作り出したものと見られている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ffe800e4c84b33f8bb32aff2d8aac4a6d323084178147c0f02ba530f38b000cc"
+      "images": []
     },
     {
       "slug": "wd-q11431740",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "35024fc0b7c72a0ab77d541384ec28b2c180a3416f57c1ee0d5f78049528e168",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -1984,7 +2076,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2017,27 +2109,51 @@
           "quote": "水木が参考にしているのは江戸時代に描かれた『絵本小夜時雨』巻四での狸が巨大な顔に化けて人を脅かす様子の絵であると考えられている。ただし、「大かむろ」という名称は『絵本小夜時雨』には見られず（原典では「大かむろ」ではなく狸が化けた「大入道」と述べられている）、通常この場面の絵は「狸の化けもの」あるいは「大首」などと紹介されて来ている。柳田國男「妖怪名彙」や日野巌「日本妖怪変化語彙」といった資料類に「大かむろ」という妖怪の名は見られず、伝承地などは未詳である。鳥山石燕の描いている大禿（おおかむろ）とは名称が重なっているが、石燕の絵に描かれている妖怪と大かむろとの間に直接の関連性はない。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11431740-c04",
+          "source_id": "wd-q11431740-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The ōkamuro is said to startle people with a giant face, for example appearing suddenly when a householder opens the shōji after hearing a noise outside.",
+          "statement_id": "Ōkamuro dikatakan mengejutkan manusia dengan wajah raksasa, misalnya muncul tiba-tiba ketika penghuni rumah membuka shōji karena mendengar bunyi di luar.",
+          "quote": "巨大な顔をみせて人間を驚かすとされる。たとえば家の外で物音がしたので、家人が障子を開けてみると突然現れる。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11431740-c05",
+          "source_id": "wd-q11431740-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Its true form is said to be a transformed tanuki; its only aim is to startle people, and it does not directly harm humans.",
+          "statement_id": "Wujud aslinya disebut tanuki yang menyamar; tujuannya hanya mengejutkan orang, dan ia tidak mencelakai manusia secara langsung.",
+          "quote": "正体は狸が化けたものとされる。人を驚かすことのみが目的であり、直接的な危害を人間に加えることはないという。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11431740-c06",
+          "source_id": "wd-q11431740-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the drama version of \"GeGeGe no Kitarō\" and elsewhere, the name is written okkamuro.",
+          "statement_id": "Dalam versi drama \"GeGeGe no Kitarō\" dan karya lain, namanya ditulis okkamuro.",
+          "quote": "ドラマ版『ゲゲゲの鬼太郎』などでは、おっかむろと表記されている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "63868fb8ccd80e23edfe2737541f3eb63f3814b99c26201c8a1cb98d826c1166"
+      "images": []
     },
     {
       "slug": "wd-q11435362",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "abe40b8737ffc01ac36c2acd7156116f1e0f47916f30de0c85a64d6a4f7c2a0e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11435362-c01",
@@ -2078,27 +2194,51 @@
           "quote": "妖怪研究家・村上健司は、夜に徘徊している座頭の姿を石燕が異形視し、妖怪として描いたとしている。また妖怪研究家・多田克己によれば、江戸時代には座頭は幕府の庇護のもとで金融業にも携わっていたことから、鬼のように恐ろしい借金取りとしての座頭の姿を描いたものとしている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11435362-c05",
+          "source_id": "wd-q11435362-s2",
+          "host": "yokai.com",
+          "statement": "Under the shogunate's system, the zatō held a monopoly over shamisen and biwa performances, massage and debt collection.",
+          "statement_id": "Dalam sistem keshogunan, para zatō memegang monopoli atas pertunjukan shamisen dan biwa, pijat, dan penagihan utang.",
+          "quote": "Under this system, the zatō had a monopoly over shamisen and biwa performances, massage, and debt collection.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11435362-c06",
+          "source_id": "wd-q11435362-s2",
+          "host": "yokai.com",
+          "statement": "Ōzatō was invented by Toriyama Sekien for \"Konjaku Hyakki Shūi\"; according to yokai.com, Sekien expressed his distaste for corrupt people, zatō among them, by turning them into yōkai.",
+          "statement_id": "Ōzatō diciptakan Toriyama Sekien untuk \"Konjaku Hyakki Shūi\"; menurut yokai.com, Sekien menyatakan ketidaksukaannya pada orang korup, termasuk zatō, dengan menjadikan mereka yōkai.",
+          "quote": "Ōzatō was invented by Toriyama Sekien for his book Konjaku hyakki shūi. Sekien expressed his distaste for corrupt people—zatō among them—by turning them into yōkai.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11435362-c07",
+          "source_id": "wd-q11435362-s2",
+          "host": "yokai.com",
+          "statement": "Its habitat is city streets, especially near brothels, on dark rainy nights.",
+          "statement_id": "Habitatnya jalan-jalan kota, terutama dekat rumah bordil, pada malam gelap dan hujan.",
+          "quote": "Habitat: city streets (especially near brothels) on dark, rainy nights",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "68ec268ceafddbfeae3dd1c047709f1026c249576c455510d30cffdeb3b55797"
+      "images": []
     },
     {
       "slug": "wd-q11437796",
-      "file": "batch-063-fix-3.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "b0b2ec8e095a69c6840e61fa7c65051f1d415d41f8ed0fc23ca56d16092ba8da",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11437796-c01",
@@ -2149,27 +2289,31 @@
           "quote": "ある時御長屋門の下の辺に犬くらいの猫が眠っていたので，近侍の者が鉄砲で打ち殺した。この辺りは特に野良猫が多い所であった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11437796-c06",
+          "source_id": "wd-q11437796-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "According to the summary in the Miyagi Prefectural History, when the physician Jōan was ordered to keep night watch he grew unbearably sleepy; while watching half-asleep, a beast like a large cat or tanuki appeared, and at once all the cords of the mosquito net snapped.",
+          "statement_id": "Menurut ringkasan dalam Sejarah Prefektur Miyagi, ketika tabib Jōan ditugasi berjaga malam ia sangat mengantuk; saat berjaga sambil setengah tertidur, muncul binatang seperti kucing besar atau tanuki, dan seketika tali-tali kelambu putus bersamaan.",
+          "quote": "ある時，典医の丈庵が命ぜられて宿直をしていると堪らなく眠くなった。それでも何とか薄目で見ていると大きい猫か狸のような獣が現れ，途端に蚊帳の釣り手が一度に切れた。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "63fb686d167e69cc89dcba2133f4e106c4abc9baec775b8f9c308ef84b01359a"
+      "images": []
     },
     {
       "slug": "wd-q11446705",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-6.md",
+      "entry_sha256": "f82135da693a9d28dd09af306facaed6e63c82a7effb27bb31a49923a07181ee",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11446705-c01",
@@ -2200,27 +2344,51 @@
           "quote": "『百器徒然袋』に描かれているほかの妖怪たちと同様に、石燕が室町時代の『百鬼夜行絵巻』に描かれている如意を題材とした妖怪をもとにしてこの妖怪を描いたと考えられている。如意を題材とした妖怪は真珠庵所蔵の百鬼夜行絵巻などにある（扇の妖怪と共に描かれている爪の長い茶色の妖怪）。東京国立博物館所蔵のものにはそれとはまた別の形状の羽根が生えて飛んでいる如意の妖怪も描かれている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11446705-c04",
+          "source_id": "wd-q11446705-s2",
+          "host": "yokai.com",
+          "statement": "The name nyoijizai is a pun meaning both \"free staff\" and \"exactly as you please\".",
+          "statement_id": "Nama nyoijizai adalah permainan kata yang berarti \"tongkat bebas\" sekaligus \"persis sesukamu\".",
+          "quote": "Translation: a pun meaning both “free staff” and “exactly as you please”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11446705-c05",
+          "source_id": "wd-q11446705-s2",
+          "host": "yokai.com",
+          "statement": "Nyoijizai is a nyoi, a kind of priest's staff, that became a yōkai after existing for very many years.",
+          "statement_id": "Nyoijizai adalah nyoi, sejenis tongkat pendeta, yang menjadi yōkai setelah ada selama bertahun-tahun.",
+          "quote": "Nyoijizai is a nyoi, a kind of priest’s staff, which has turned into a yokai after existing for many many years.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11446705-c06",
+          "source_id": "wd-q11446705-s2",
+          "host": "yokai.com",
+          "statement": "Its only power is scratching the itchy spot on your back that you cannot reach.",
+          "statement_id": "Satu-satunya kemampuannya adalah menggaruk bagian punggung yang gatal dan sulit dijangkau.",
+          "quote": "Its only power is its ability to scratch that itchy spot on your back which you just can’t seem to reach, no matter how hard you try.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5531d791e223de4c6b09bb9bdd6d09dc6f5fbdc7c4b804d1e7d2d455f3e88a63"
+      "images": []
     },
     {
       "slug": "wd-q11449263",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "61949c08f93aacd2659bb173d3f322a717c9350a9fc9b60fbc22ba2ed4134c65",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11449263-c01",
@@ -2271,27 +2439,45 @@
           "quote": "これは宇婆の仕業であり、「うば」が「ウイ」と声をかけるので「ウバトウイ」と呼ばれる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11449263-c06",
+          "source_id": "wd-q11449263-s2",
+          "host": "kansai-u.repo.nii.ac.jp",
+          "statement": "The Nantō Zatsuwa, as quoted by Matsui and Takahashi (2011), calls the uba a kind of kenmon (ケンモン) that sometimes leads islanders astray in the hills and fields.",
+          "statement_id": "Nantō Zatsuwa, sebagaimana dikutip Matsui dan Takahashi (2011), menyebut uba sejenis kenmon (ケンモン) yang kadang menyesatkan penduduk pulau di gunung dan padang.",
+          "quote": "宇婆はケンモンの類にて、折々嶋人迷ひし方に、山野に引まよはす事有。",
+          "context": "historical-record",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260612024347id_/https://kansai-u.repo.nii.ac.jp/record/1893/files/KU-0400-20110400-13.pdf",
+          "detail": "HTTP 406; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "wd-q11449263-c07",
+          "source_id": "wd-q11449263-s2",
+          "host": "kansai-u.repo.nii.ac.jp",
+          "statement": "The uba appears near the flat mountain paths called nagane (長根, 長峰), around the passes midway along mountain roads linking one settlement to another.",
+          "statement_id": "Uba muncul di dekat jalan datar pegunungan yang disebut nagane (長根, 長峰), di sekitar celah di tengah jalan gunung yang menghubungkan satu desa dengan desa lain.",
+          "quote": "一方，宇婆は集落から集落に通じる山路の中間の峠辺りの ナガネ（長根，長峰）と呼ばれる山間の平坦路付近に現れる。",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260612024347id_/https://kansai-u.repo.nii.ac.jp/record/1893/files/KU-0400-20110400-13.pdf",
+          "detail": "HTTP 406; dicek lewat arsip Wayback"
         }
       ],
-      "images": [],
-      "entry_sha256": "44d70e4861fb6028420deda8ad1f8a21efff3b0b07fc00a72cddd742250fe183"
+      "images": []
     },
     {
       "slug": "wd-q11450001",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "c72d5c71cb88b20b169b90e8913c95222d5019e574d58ef9fb9978c027f124fc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11450001-c01",
@@ -2332,10 +2518,29 @@
           "quote": "災いは消えたものの、塵外は守宮を憐れに思い、その亡骸を村人たちとともに丁重に葬ったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11450001-c05",
+          "source_id": "wd-q11450001-s2",
+          "host": "yokai.com",
+          "statement": "The yōkai's name is written with the kanji for gecko (normally read yamori) but pronounced imori, meaning newt; in old times the line between these animals was somewhat blurred.",
+          "statement_id": "Nama yōkai ini ditulis dengan kanji untuk tokek (biasanya dibaca yamori), tetapi dibaca imori yang berarti kadal air; dahulu batas antara kedua hewan itu agak kabur.",
+          "quote": "This yōkai’s name is somewhat confusing—it is written with the kanji for gecko, which is normally pronounced yamori; yet in this case the name is pronounced imori, which means newt. In old times, the line between these animals was somewhat ambiguous.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11450001-c06",
+          "source_id": "wd-q11450001-s2",
+          "host": "yokai.com",
+          "statement": "Its habitat is castle ruins and ancient battlegrounds.",
+          "statement_id": "Habitatnya reruntuhan kastel dan bekas medan perang kuno.",
+          "quote": "Habitat: castle ruins, ancient battlegrounds",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a1bc90e81ced632ae21473e83b353e78579d5629c5799b84fe5eb220c46d4f64"
+      "images": []
     },
     {
       "slug": "wd-q11462883",
@@ -2414,20 +2619,15 @@
     },
     {
       "slug": "wd-q11464418",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "1d22d771f408993a9abd92609fab7a5e4aaafda21bb9ce58fd3df109231216b9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11464418-c01",
@@ -2458,27 +2658,51 @@
           "quote": "昭和・平成の妖怪関連の文献では、旅人から粟あるいは少量の食物や小銭をねだる妖怪として小雨坊が解説されていることがある。山田野理夫の著書『東北怪談の旅』では、寛文11年（1671年）に雨の降る津軽街道の山中で、小雨坊なる者が旅人に粟をねだったという話が紹介されている。粟をねだる行動はこの話にある小雨坊の行動を引用したものであり、津軽地方のものとして紹介されているこの小雨坊と石燕の描いた小雨坊とは無関係であると考えられている。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11464418-c04",
+          "source_id": "wd-q11464418-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai that appears on rainy nights in the form of a monk, begging for things such as chestnuts (栗).",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai yang muncul pada malam hujan dan meminta-minta antara lain kacang berangan (栗) dalam wujud biksu.",
+          "quote": "日本の妖怪。雨の夜にあらわれ、僧の姿で栗などを物乞いするとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11464418-c05",
+          "source_id": "wd-q11464418-s3",
+          "host": "yokai.com",
+          "statement": "Though frightening and perhaps a bit annoying, kosamebō pose no real danger to humans.",
+          "statement_id": "Meski menakutkan dan agak mengganggu, kosamebō tidak benar-benar membahayakan manusia.",
+          "quote": "Though frightening—and perhaps a bit annoying—they do not pose any real danger to humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11464418-c06",
+          "source_id": "wd-q11464418-s3",
+          "host": "yokai.com",
+          "statement": "Kosamebō are also part of the local folklore of the Tsugaru region of Aomori Prefecture.",
+          "statement_id": "Kosamebō juga bagian dari cerita rakyat wilayah Tsugaru di Prefektur Aomori.",
+          "quote": "They are also part of the local folklore of the Tsugaru region of Aomori Prefecture.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7623eb5e80a33c93d8d7abf57ea8ae6e6461f02e2e60db6ecfd3f77df8f4732c"
+      "images": []
     },
     {
       "slug": "wd-q11464873",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "796b51953dc67210d8f3f4ff5faea71c3b596b134bd8718c9fbce3dc9eafeb81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11464873-c01",
@@ -2519,10 +2743,49 @@
           "quote": "布施田村では、天王祭の日に海に入ると尻こぼしに生き胆を奪われてしまうという。しかし海女がテングサ採りのために海に入らなければならない日が天王祭にあたり、どうしてもその日に海に入らなければならない場合には、山椒の枝を糸でまとめて首にかけると、尻こぼしを除けるお守りになるという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11464873-c05",
+          "source_id": "wd-q11464873-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a sea monster from the Mie area that attacks ama (women divers) and steals their souls; it is also called koboshi.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai monster laut dari daerah Mie yang menyerang ama (penyelam perempuan) dan merampas jiwanya; juga disebut koboshi.",
+          "quote": "日本の妖怪。三重県地域につたわる海の化け物。海女を襲い魂を奪うとされる。「コボシ」とも。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11464873-c06",
+          "source_id": "wd-q11464873-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to a legend of Ogata in Shima, a river koboshi tried to play a trick on a horse but was kicked, cracking the dish on its head so that it could not return to the river.",
+          "statement_id": "Menurut legenda Ogata di Shima, seekor koboshi sungai mencoba mengerjai seekor kuda, malah ditendang sampai piring di kepalanya pecah, sehingga tidak bisa kembali ke sungai.",
+          "quote": "志摩町越賀の伝承によれば、あるとき川に住むコボシが馬に悪戯しようとし、逆に馬に蹴られて頭の皿を割られ、川へ帰れなくなった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11464873-c07",
+          "source_id": "wd-q11464873-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The koboshi brought two large stones from the sea and swore not to make mischief until they crumbled, so the head priest mended its dish.",
+          "statement_id": "Koboshi itu membawa dua batu besar dari laut dan bersumpah tidak berbuat jahil sampai batu itu lapuk, lalu biksu kepala kuil memperbaiki piringnya.",
+          "quote": "するとコボシは海から大きな石を2つ運んで来て、この石が朽ちるまで悪戯をしないと誓ったので、和尚は皿を治してやったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11464873-c08",
+          "source_id": "wd-q11464873-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "One of the oath stones still remains in the grounds of Fumon-ji and the other on the embankment northeast of Naka-no-hama, under the name koboshi-ishi (小法師石).",
+          "statement_id": "Salah satu batu sumpah itu masih ada di halaman Fumon-ji dan yang lain di atas tanggul timur laut Naka-no-hama, dengan nama koboshi-ishi (小法師石).",
+          "quote": "この誓いの石の一つは普門寺の境内に、もう一つは中の浜の北東の堤防の上に、「小法師石（こぼしいし）」の名で現在でも残されている。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ea2a077638d2b585d353295c2342fd016fc2f3266a36d3db7f2da52f0e900e18"
+      "images": []
     },
     {
       "slug": "wd-q11465776",
@@ -2682,20 +2945,15 @@
     },
     {
       "slug": "wd-q11475708",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "a2d49f48220eb0bbdb79ee4fcd5f7b2ce5e825bb9cdd23984cb9eecf2329ba0f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11475708-c01",
@@ -2746,25 +3004,45 @@
           "quote": "あるいは、旅の坊主が一夜の宿を借りた次の日、大雨で川が決壊しそうな時に旅の坊主が飛び出していったが、雨がやんでから川を見に行ってみると腹が破れご飯の覗いた大きな岩魚が土手の亀裂に挟まって川の決壊を止めていた、というような村を救った岩魚の話もある。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11475708-c06",
+          "source_id": "wd-q11475708-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a giant iwana char transformed into a person, appearing at deep-mountain rivers and trying to make people stop fishing.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai ikan iwana raksasa yang menjelma manusia, muncul di sungai pegunungan dalam, dan berusaha menghentikan orang menangkap ikan.",
+          "quote": "日本の妖怪。人に化けた巨大なイワナで、深山の川に現れ、魚獲りをやめさせようとするとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11475708-c07",
+          "source_id": "wd-q11475708-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A 1937 record by Hayashi Kaiichi from Gujō, Gifu: as people prepared to poison the river for iwana, a monk came at night forbidding it; he was fed millet rice, and when the belly of a large iwana they caught was cut open it held millet rice, so the monk had been the iwana.",
+          "statement_id": "Catatan Hayashi Kaiichi (1937) dari Gujō, Gifu: saat orang bersiap meracun sungai untuk menangkap iwana, seorang biksu datang malam hari melarangnya; ia dijamu nasi millet, dan ketika perut iwana besar yang tertangkap dibelah, isinya nasi millet, sehingga biksu itu ternyata iwana.",
+          "quote": "ある時毒流しをして岩魚を捕らえようと準備していると、夜に1人の僧が来て毒流しはやめなさいと注意する。粟飯を食わせて返し、その後毒流しをして魚を捕らえ、そのうち大きな岩魚の腹を割ると粟飯が入っていた。僧は岩魚が化けていたという。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8673de1c7e3ca89e5dc5b61ea0f8aecd7861a6bc03bdfbdbbf50fa0b92381582"
+      "images": []
     },
     {
       "slug": "wd-q11478976",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "e78c236c4ea6a3bd1240d2ef73887283624b4f309dd268eed14b71303ff9eb7d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2807,27 +3085,31 @@
           "quote": "性格的には本来は臆病者だが、自分を助けてくれた人間の顔は忘れないという。 脚注・出典",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11478976-c05",
+          "source_id": "wd-q11478976-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai from Shizuoka, a kind of kappa living by rivers.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai dari Shizuoka, sejenis kappa yang tinggal di tepi sungai.",
+          "quote": "日本の妖怪。静岡県に伝わるもので、川辺に棲む河童の一種とされる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "59166c10d8b09abcc7ee454a4e491977fc7a8c3c464859047818e5d55a4b4cb8"
+      "images": []
     },
     {
       "slug": "wd-q11479052",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "ebc5a8a9fef64a54f59dde31d16b66ff7011cd47ebac0a9d8f1378cca93061f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11479052-c01",
@@ -2868,27 +3150,51 @@
           "quote": "なお、民俗学研究所による『綜合日本民俗語彙』で妖怪の類に分類されていることを始め、昭和以降の多くの妖怪関連の書籍に記載されているものの、原典『和訓栞』には「高山の流れの大川に居るもの」のあるのみで、妖怪の類との記述は見られない。妖怪ではなく、単に川辺に座っていた背の高い人間を「川男」と呼んだという可能性も示唆されている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11479052-c05",
+          "source_id": "wd-q11479052-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus notes that the Edo-period dictionary \"Wakun no Shiori\" describes the kawa-otoko as a tall, dark-skinned man appearing by rivers flowing from high mountains.",
+          "statement_id": "Digital Daijisen Plus mencatat bahwa kamus zaman Edo \"Wakun no Shiori\" menggambarkan kawa-otoko sebagai lelaki tinggi berkulit gelap yang muncul di tepi sungai pegunungan tinggi.",
+          "quote": "日本の妖怪。江戸時代の国語辞書「和訓栞」には、肌が黒く背が高い男の姿で、高山に流れる川辺に現れるとの解説がある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11479052-c06",
+          "source_id": "wd-q11479052-s3",
+          "host": "yokai.com",
+          "statement": "Kawa otoko are mainly nocturnal; they are neither aggressive nor noisy and neither play pranks nor harm humans.",
+          "statement_id": "Kawa-otoko terutama aktif di malam hari; mereka tidak agresif, tidak berisik, tidak jahil, dan tidak mencelakai manusia.",
+          "quote": "Kawa otoko are primarily nocturnal. They are neither aggressive nor noisy, and do not play pranks or harm humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11479052-c07",
+          "source_id": "wd-q11479052-s3",
+          "host": "yokai.com",
+          "statement": "Kawa otoko are recorded in Edo-period encyclopedias such as Wakun no Shiori and Wakan Sansai Zue, but tales about them are relatively rare.",
+          "statement_id": "Kawa-otoko tercatat dalam ensiklopedia zaman Edo seperti Wakun no Shiori dan Wakan Sansai Zue, tetapi kisah tentang mereka relatif jarang.",
+          "quote": "Kawa otoko are recorded in Edo Period encyclopedias such as Wakun no shiori and Wakan sansai zue, however tales about them are relatively rare.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fc15f2e444d6235054febaabba620d8611a3a71f5df4bf1dfd275a022177a997"
+      "images": []
     },
     {
       "slug": "wd-q11481315",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "ca14ab20e2c8484fd635d0f951cafd3857d81fbe454e70dc8afd7d5ade49d299",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11481315-c01",
@@ -2929,25 +3235,45 @@
           "quote": "常元の住んでいた土地は常元屋敷と呼ばれ、そこに家を建てた者は必ず災いに遭うといわれた。そのため、その地に住もうとする者は誰もいなかったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11481315-c05",
+          "source_id": "wd-q11481315-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The summary of \"Enka Kidan\" says that after his crimes came to light, Jōgen was tied to a persimmon tree and exposed for seven days; after his body was buried at its foot, many insects shaped like human faces emerged, called jōgen-mushi.",
+          "statement_id": "Ringkasan \"Enka Kidan\" menyebut setelah kejahatannya terbongkar, Jōgen diikat di pohon kesemek dan dipajang selama tujuh hari; setelah mayatnya dikubur di bawah pohon itu, muncul banyak serangga berbentuk wajah manusia yang disebut jōgen-mushi.",
+          "quote": "やがてこの悪事は露見し、浄元は柿の木に縛られ、7日の間さらし首に処せられた。その死体を木元に埋めたところ、人の顔のような形をした虫が数多出た。皆はこの虫を浄元虫と呼んだ。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11481315-c06",
+          "source_id": "wd-q11481315-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "An Ōtsu version (1923): the monk Jōgen, accused of stealing a precious box, was bound holding the box and buried; his vengeful spirit became an insect shaped like a bound monk clutching a box.",
+          "statement_id": "Versi Ōtsu (1923): biksu Jōgen dituduh mencuri kotak berharga, lalu diikat sambil memeluk kotak itu dan dikubur; arwah dendamnya menjadi serangga berbentuk biksu terikat yang memeluk kotak.",
+          "quote": "浄元という僧が貴重な箱を盗んだとして箱を抱かせたまま縛って土中に埋められた。その怨霊が虫となり、僧侶が縛られて前に箱を抱いている形をした浄元虫となった。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b00504964bbd713f0676138ebb1d6197189c55e6f7c436560c0314635639ce13"
+      "images": []
     },
     {
       "slug": "wd-q11481886",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-7.md",
+      "entry_sha256": "aa3ceaf5efbb4d1a6ea032de0f52437488fa3b340d9ac8b10bf2a1b6d82b2acd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2980,17 +3306,37 @@
           "quote": "浮世絵師・月岡芳年は錦絵『百器夜行』（1865年）に石燕の幣六を参考にしたと見られる絵を描いており、肌は赤く彩色されている。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11481886-c04",
+          "source_id": "wd-q11481886-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus calls the heiroku a strange being brandishing a gohei in Toriyama Sekien's picture collection, thought to be a kind of tsukumogami (付喪神).",
+          "statement_id": "Digital Daijisen Plus menyebut heiroku makhluk aneh yang mengacungkan gohei dalam kumpulan gambar Toriyama Sekien, dan dianggap sejenis tsukumogami (付喪神).",
+          "quote": "江戸時代の画家、鳥山石燕(せきえん)の画集「画図百器徒然袋」に描かれた妖怪。御幣を振りかざす異形の者で、付喪神(つくもがみ)の一種と考えられる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11481886-c05",
+          "source_id": "wd-q11481886-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Mizuki Shigeru's works, the heiroku is described as a yōkai that brandishes a proclamation paper, spreads false rumors claiming divine oracles, and throws people into confusion.",
+          "statement_id": "Dalam karya Mizuki Shigeru, heiroku dijelaskan sebagai yōkai yang mengacungkan kertas pengumuman, menyebarkan kabar bohong dengan mengaku wahyu dewa, dan membuat orang kacau.",
+          "quote": "漫画家・水木しげるの著作などでは、「事触れの紙を振りかざし、ご神託と称してデマを流し、人々を混乱に陥れる妖怪」と解説されている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "faf0a0f390ec9272be2d3988ac092b108ba89d7a54cb0a825a01479e5632e5f2"
+      "images": []
     },
     {
       "slug": "wd-q11488364",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-8.md",
+      "entry_sha256": "0115ac837f60c893e4f60525b7f65b40dbb3cca8da699c21edc65f164340f305",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -2998,7 +3344,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3041,27 +3387,31 @@
           "quote": "仮名草子『異国物語』（万治元年、1658年）には、後頭部に一つ目を持つ人々の住む国「後眼国（こうがんこく）」についての記述がある。後眼人は古くから中国の『三才図会』などに見え、一つの目が後頭部に描かれている姿という点では後眼と形は似ているが命名などについての関係性は不明瞭である。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11488364-c05",
+          "source_id": "wd-q11488364-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Tada Katsumi reads the name as alluding to the proverb \"ushiro no me\" (secrets eventually come out), and the hands behind the back and the turned back as alluding to expressions about being arrested for wrongdoing, backbiting and running away.",
+          "statement_id": "Tada Katsumi menafsirkan nama ini sebagai rujukan pada peribahasa \"ushiro no me\" (rahasia akhirnya terbongkar), dan pose tangan di belakang serta punggung yang diperlihatkan sebagai rujukan pada ungkapan tentang ditangkap karena kejahatan, menggunjing, dan melarikan diri.",
+          "quote": "多田克己は、「後眼」の名が、秘密は隠し抜くことはできずにいつか知れてしまうことを示す諺「後ろの目」に通じており、この妖怪が手を後ろに回していることが「後ろ手」（悪事を働いて手に縄をかけられる）または「後ろ指を差す」（陰で悪口をいう）、背後を見せていることが「後ろを見せる」（相手に背を向けて逃げる）に繋がるといった、解釈をしている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2dd72013ef828827e49a9cd32d81f77fe8bcfa780bc1c04dec29a7922be44e7c"
+      "images": []
     },
     {
       "slug": "wd-q11497077",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-8.md",
+      "entry_sha256": "79a3f9d9255217a185199439ebe00630851ed80008c98fc32faaf116ce1c697d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11497077-c01",
@@ -3102,27 +3452,51 @@
           "quote": "妖怪探訪家・村上健司の調査では『絵本百物語』以外に手洗鬼の伝承は確認されていないが、手洗鬼の地とされる香川県では、巨人のオジョモ（化け物の意）が飯野山と青野山をまたいで瀬戸内海の水を飲んだという伝説があり、飯野山の山頂にはそのオジョモのものとされる足跡が残っている。また飯野山と二子山を孫太郎という巨人が跨いだという伝説もある。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11497077-c05",
+          "source_id": "wd-q11497077-s2",
+          "host": "yokai.com",
+          "statement": "An alternate name is kyojin no ojomo (\"giant ojomo\"; ojomo being a local term for monster).",
+          "statement_id": "Nama lainnya kyojin no ojomo (\"raksasa ojomo\"; ojomo istilah setempat untuk monster).",
+          "quote": "Alternate names: kyojin no ojomo (giant ojomo; a local term for monster)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11497077-c06",
+          "source_id": "wd-q11497077-s2",
+          "host": "yokai.com",
+          "statement": "It was seen straddling the mountains between Takamatsu and Marugame and washing its hands in the bay below.",
+          "statement_id": "Ia terlihat mengangkangi pegunungan antara Takamatsu dan Marugame sambil mencuci tangan di teluk di bawahnya.",
+          "quote": "It was seen straddling the mountains between Takamatsu and Marugame Cities and washing its hands in the bay below.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11497077-c07",
+          "source_id": "wd-q11497077-s2",
+          "host": "yokai.com",
+          "statement": "Despite its name it is not really an oni but a type of daidarabotchi; oni here is just a catch-all word for monsters.",
+          "statement_id": "Meski bernama oni, ia sebenarnya sejenis daidarabotchi; kata oni di sini hanya istilah umum untuk monster.",
+          "quote": "Despite its name, it is not actually an oni but is rather a type of daidarabotchi. In this case the word oni is just used as a catch-all term for monsters.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fc566b033ecf7091a7c5deb8ba614247acfb54ab03c43cc19693ed05940e72f8"
+      "images": []
     },
     {
       "slug": "wd-q11497275",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-8.md",
+      "entry_sha256": "f72f1f1035216d1369d39f03a63e7d74bed9d3ef2978afaf2116743979220357",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11497275-c01",
@@ -3163,27 +3537,41 @@
           "quote": "石燕は『百器徒然袋』では室町時代の妖怪絵巻『百鬼夜行絵巻』を多く参考にしており、同絵巻に払子を素材とした妖怪も登場している。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11497275-c05",
+          "source_id": "wd-q11497275-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a monster of the hossu (払子) whisk in Toriyama Sekien's picture collection, a kind of tsukumogami (付喪神).",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai hantu kebutan hossu (払子) dalam kumpulan gambar Toriyama Sekien, sejenis tsukumogami (付喪神).",
+          "quote": "江戸時代の画家、鳥山石燕(せきえん)の画集「画図百器徒然袋」に描かれた妖怪。仏具の払子の化け物で、付喪神(つくもがみ)の一種。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11497275-c06",
+          "source_id": "wd-q11497275-s3",
+          "host": "yokai.com",
+          "statement": "According to yokai.com, Sekien suggests that if even a dog has buddha nature, a whisk used by a Zen master for nine years might realize it too; the nine years refer to the meditation of Daruma (Bodhidharma), founder of Zen.",
+          "statement_id": "Menurut yokai.com, Sekien menyiratkan bahwa jika anjing pun punya sifat Buddha, kebutan yang dipakai guru Zen selama sembilan tahun mungkin juga menyadarinya; sembilan tahun itu merujuk pada meditasi Daruma (Bodhidharma), pendiri Zen.",
+          "quote": "Sekien suggests that if even a dog has a buddha nature, then perhaps a hossu used for nine years by a Zen master might also realize its buddha nature. The nine years mentioned by Sekien is a reference to the nine years that Daruma (aka Bodhidharma), the founder of Zen Buddhism, spent in meditation.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e7200b267d82557ffe93e6d32f4b72b8c4ec135be6f396b128e3ea10bd2b5f88"
+      "images": []
     },
     {
       "slug": "wd-q11498388",
-      "file": "batch-063-fix-3.md",
+      "file": "batch-063-fix-8.md",
+      "entry_sha256": "7a77d2b556c64118d039036286dcf70cd43fd7670040ffb8940fc0c2dedb8503",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11498388-c01",
@@ -3234,10 +3622,19 @@
           "quote": "ふと振り向いたその顔は酸漿のように真っ赤なので思わず悸（どき）っとした。北一番丁あたりで消えうせた。そこは以前富岡十之介の屋敷だった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11498388-c06",
+          "source_id": "wd-q11498388-s3",
+          "host": "yokai.com",
+          "statement": "The first sightings took place in summer in the early 18th century, after a man brutally murdered his wife and her body was dumped nearby; the yōkai was thought to be connected to her ghost.",
+          "statement_id": "Penampakan pertama terjadi pada musim panas awal abad ke-18, setelah seorang lelaki membunuh istrinya secara keji dan mayatnya dibuang di sekitar tempat itu; yōkai ini dianggap berkaitan dengan arwah perempuan itu.",
+          "quote": "The first sightings took place in the summer during the early 18th century, after a man horribly murdered his wife and her body dumped in that vicinity. The yōkai were thought to be somehow connected to the ghost of the murdered woman.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8bb07d1f185cee94236182cbff6c5ad2062600e1d616ee3638b55a5e7a46ba5d"
+      "images": []
     },
     {
       "slug": "wd-q11498674",
@@ -3292,20 +3689,15 @@
     },
     {
       "slug": "wd-q11534177",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-8.md",
+      "entry_sha256": "646ca5f8e3e2065cca17260e6db5254d787bd7b1d62f6b6200c6fd8a704f308e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11534177-c01",
@@ -3346,10 +3738,29 @@
           "quote": "また『絵本百物語』では『盧全茶話』『契情買談』といった書からそれぞれ「金陵の絮柳は人を招く」「島原の柳は客を化かす」と引用し、これらに油断してはならないと戒めているが、妖怪探訪家・村上健司によれば、これらは実際の柳の怪異のみならず、水商売の女性に気を許すなとの意味も込めたものとされる。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11534177-c05",
+          "source_id": "wd-q11534177-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a transformed thousand-year-old willow, recorded in the Edo-period \"Ehon Hyakumonogatari\".",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai jelmaan pohon dedalu berusia seribu tahun, tercatat dalam \"Ehon Hyakumonogatari\" zaman Edo.",
+          "quote": "日本の妖怪。千年を経た柳が化けたものとされる。江戸時代の奇談集「絵本百物語」などに記述がある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11534177-c06",
+          "source_id": "wd-q11534177-s3",
+          "host": "yokai.com",
+          "statement": "Men who approach a yanagi baba meet various misfortunes: bewitched by her call they get lost in the mountains, trip and fall, or are suddenly struck with fever.",
+          "statement_id": "Lelaki yang mendekati yanagi-baba mengalami berbagai kemalangan: tersihir panggilannya dan tersesat di gunung, jatuh tersandung, atau tiba-tiba demam.",
+          "quote": "Men who approach a yanagi baba meet with a variety of misfortunes. Some are bewitched by her call and get lost in the mountains. Others trip and fall or are suddenly struck with fever.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "143c29765824cf0db6e337f3646970287ad50ff7370f1e2e7a98debf02d0880b"
+      "images": []
     }
   ]
 }

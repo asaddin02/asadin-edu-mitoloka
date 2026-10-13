@@ -1,6 +1,6 @@
 # Review batch-063
 
-Diperiksa 2026-10-13T18:39:40.011Z. Berkas: batch-063.md, batch-063-fix-1.md, batch-063-fix-2.md, batch-063-fix-3.md, batch-063-fix-4.md, batch-063-fix-5.md.
+Diperiksa 2026-10-13T18:55:03.655Z. Berkas: batch-063.md, batch-063-fix-1.md, batch-063-fix-2.md, batch-063-fix-3.md, batch-063-fix-4.md, batch-063-fix-5.md, batch-063-fix-6.md, batch-063-fix-7.md, batch-063-fix-8.md.
 
 ## wd-q11302416 — lulus-otomatis
 
@@ -126,10 +126,13 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 
 Klaim 6 (exact 6), sumber 2, gambar 0.
 
+**manual**
+- `tier` Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11337525-c01 | exact | ja.wikipedia.org | Bekatarō is a yōkai in Japan's 1832 Matsui Hyakki Yagyō scroll. | べか太郎（べかたろう）は日本の妖怪絵巻にある妖怪。松井文庫に所蔵されている江戸時代に描かれた絵巻物『百鬼夜行絵巻』（1832年）に両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。 |
-| wd-q11337525-c02 | exact | ja.wikipedia.org | Its image pulls down its lower eyelids and sticks out its tongue; further behavior is unexplained. | 両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。 |
+| wd-q11337525-c02 | exact | ja.wikipedia.org | Its image pulls down its lower eyelids and sticks out its tongue; further behavior is unexplained. | べか太郎（べかたろう）は日本の妖怪絵巻にある妖怪。松井文庫に所蔵されている江戸時代に描かれた絵巻物『百鬼夜行絵巻』（1832年）に両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。 |
 | wd-q11337525-c03 | exact | ja.wikipedia.org | A similar image appears under the name Akanbei in a 1780 work. | おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）では同様の格好をした妖怪があかんべい（あかんへい）という名前で描かれているが、こちらも詳細は不明である。雑誌『太陽』75年8月号（特集「お化けと幽霊」）のカラーページでは、絵巻物（『百鬼夜行絵巻』の「べか太郎」）の写真が「べろり太郎」という名前で紹介されているが「何をし何処に出た妖怪かもわからない」と記されている。なお、あかんべえのことを「べかこ」や「べっかんこう」とも言う。 |
 | wd-q11337525-c04 | exact | yokai.com | Yokai.com lists the alternate names bekuwatarō, bekuwabō, beroritarō, peroritarō and akanbei. | Alternate names: bekuwatarō, bekuwabō, beroritarō, peroritarō, akanbei |
 | wd-q11337525-c05 | exact | yokai.com | Bekatarō appears only as a named illustration, so nothing is known of what it does or where it comes from; a backstory was later invented by Mizuki Shigeru. | It appears as an illustration with a name only, so nothing is known about what it does or where it comes from. A backstory was eventually invented for bekatarō by Mizuki Shigeru. |
@@ -316,10 +319,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q11372024 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -327,6 +330,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11372024-c02 | exact | ja.wikipedia.org | The scrolls do not explain its behavior. | 五体面（ごたいめん）は、『百鬼夜行絵巻』などに描かれている日本の妖怪。江戸時代に製作された妖怪絵巻に描かれている妖怪で、人間の頭に手足がついたような姿をしている。絵巻には名前と絵があるのみで解説文は一切なく、詳細は不明である。 |
 | wd-q11372024-c03 | exact | ja.wikipedia.org | A comparable image appears in Bakemono Tsukushi Chō under the name Gekoku-no-hito. | 『ばけ物つくし帖』には五体面と同じ妖怪が描かれており、「下国の人」という名前が記されている。また、絵巻物『百物語化絵絵巻』にもおなじデザインの妖怪が描かれていることが確認でき、名称の一定はないものの絵巻物に描かれる妖怪としてある程度広く描き継がれていたことがうかがえる。五体面という名前の「五体」とは頭、両手、両足のことを指していると見られている。 |
 | wd-q11372024-c04 | exact | ja.wikipedia.org | Tada Katsumi interprets the image's sideways motion as wordplay involving deviation and social appearances. | 妖怪研究家・多田克己は、絵では蟹股の足で横に這うように歩いており、「蟹の横這い」とは物事が本筋からずれていく様子を指す慣用句でもあることから、そのように物事の邪魔をする妖怪であり、世間体を意味する「体面」（たいめん）との言葉遊びで描かれた妖怪画ではないかとの解釈を示している。 |
+| wd-q11372024-c05 | exact | kotobank.jp | Digital Daijisen Plus defines the gotaimen as a yōkai depicted in the Edo-period "Hyakki Yagyō Emaki" scroll as a large head with arms and legs attached directly to it. | 日本の妖怪。江戸時代の妖怪絵巻「百鬼夜行絵巻」では、大きな頭部に直接手足が付いた姿で描かれている。 |
+| wd-q11372024-c06 | exact | ja.wikipedia.org | Mizuki Shigeru suggested the gotaimen is akin to the haradashi; the yōkai from an old book printed by Satō Arifumi as a haradashi illustration is a human head with limbs, similar to the gotaimen. | 水木しげるは、著書において腹出しの仲間ではないかと解説している。腹出しの図版として佐藤有文の著作に掲載されている古書に描かれた妖怪は人間の頭部から手足が生えた姿をしており、五体面とは似た形をしている。 |
 
 
 ## wd-q11377665 — lulus-otomatis
@@ -346,10 +351,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## wd-q11386538 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -358,14 +360,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11386538-c03 | exact | ja.wikipedia.org | It helps people; its departure from a storehouse is believed to diminish the household's fortune. | 子供ほどの背丈、全身毛むくじゃらか、頭髪が体全体を被うほど長い姿で描かれることが多い。危害を加えず、人を助ける。座敷童子に類する妖怪であり、倉ぼっこが倉から離れると家運が徐々に傾くという。 |
 | wd-q11386538-c04 | exact | ja.wikipedia.org | It is rarely seen, but sounds and tracks in husks indicate its presence. | 倉の中で糸車や囃子などの物音を立てることはあるが、姿を現すことは非常に少ないといわれる。民俗学者・柳田國男の著書『遠野物語拾遺』では「御蔵ボッコ（おくらボッコ）」の名で述べられており、遠野のある家で、倉に籾殻を撒いておくと足跡が残るので存在がわかるとある。また民話研究家・佐々木喜善の著書『奥州のザシキワラシの話』では名称は「クラワラシ」とされ、ある酒屋で倉に入ってきた人に子供のような声で「ほいほい」と声をかけたり、異様な音を立てたという。 |
 | wd-q11386538-c05 | exact | ja.wikipedia.org | In an Edo account, it appears as a long-haired woman and rescues belongings from a fire. | 文献に残っているものでは、江戸時代、本所の梅原宗得という人物の土蔵に棲み付いていたといわれる。人に害をなす妖怪ではないが、この土蔵に入って仕事をする者は、便意を催すと、この妖怪の現れる前兆なので急いで蔵を出たという。また防火の神としても祀られており、あるときに近所で火事があり、この家の片づけが間に合いそうにないとき、顔が見えないほど髪を長く垂らした女の姿となって現れ、荷物を運び出して火災から守ったという。 |
+| wd-q11386538-c06 | exact | kotobank.jp | Digital Daijisen Plus defines the kura-bokko (蔵ぼっこ) as a storehouse-guardian yōkai from Tōno, Iwate, child-sized and hairy all over. | 日本の妖怪。岩手県遠野地方に伝わるもので、蔵の守り神とされる。子どもほどの背丈で全身毛むくじゃらとされる。「倉ぼっこ」とも。 |
+| wd-q11386538-c07 | exact | www.nichibun.ac.jp | The Miyagi Prefectural History (1956) records that it lives in the earthen storehouses of old village houses, and is said to make the sound of a spinning wheel or to carry a red lacquered pail; another name is okura-bōzu. | 要約 村の旧家の土蔵などにいる。糸車の音がしたり、赤い塗桶を提げていたりするという。 |
 
 
 ## wd-q11395510 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -373,6 +374,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11395510-c02 | exact | ja.wikipedia.org | The book's version gives three thousand years each in mountains, settlements, and the sea. | 『絵本百物語』によれば、深い山に住むホラガイが山に三千年、里に三千年、海に三千年住んだ末に龍に化身したものであり、山からこの出世螺が抜けた跡を「出世のほら」と呼び、静岡県湖西市の遠州今切れの渡しも法螺の抜けた跡とされている。 |
 | wd-q11395510-c03 | exact | ja.wikipedia.org | Gyokan states that the shell's emergence from a mountain accompanies a major landslide. | 江戸時代の外科医・武井周作の著書『魚鑑』によれば、深山の土中には巨大なホラガイが棲んでおり、これが山中に三千年住んだ末、大規模な山崩れと共に土の中から抜け出し、さらに里に三千年、海に三千年住んだ法螺が龍に化身したものが出世螺だという。 |
 | wd-q11395510-c04 | exact | ja.wikipedia.org | A Wakayama version gives three stages of a thousand years each, ending as a large supernatural snake. | 牟婁郡（現・和歌山県）の民俗誌『牟婁口碑集』によれば、かつて和歌山県西牟婁郡西富田村（現・白浜町）では村の大池から法螺が現れたとある。大水が発生した年、濁流の中に大きな黒い物体が流れて行くのを目撃した者がおり、その跡には池に洞窟ができていた。土地の口承ではホラガイは海、川、山でそれぞれ千年、計3千年の歳月を経た末、神通力を持つ大蛇と化すといい、そうしたホラガイが抜け出たものだといわれた。 |
+| wd-q11395510-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai, a triton shell (ホラガイ) that became a dragon after thousands of years, recorded in the Edo-period "Ehon Hyakumonogatari Tōsanjin Yawa". | 日本の妖怪。ホラガイが数千年の長い年月を経て龍に化身したもの。江戸時代の奇談集「絵本百物語 桃山人夜話」に記述がある。 |
+| wd-q11395510-c06 | exact | yokai.com | The flesh of a shussebora was said to grant very long life to whoever eats it, but with no evidence and no one claiming to have eaten one, this is thought to be mere rumor. | The flesh of a shussebora was said to bring very long life to anyone who eats it. However, as there is no documented evidence of this, and nobody who has actually eaten a shussebora has come forth, this is thought to be just rumor. |
+| wd-q11395510-c07 | exact | yokai.com | The phrase "hora wo fuku" ("to blow a conch shell", meaning to brag) is said to have originated from this yōkai. | the phrase “hora wo fuku” (“to blow a conch shell”), meaning “to brag,” is said to have originated from this yōkai. |
 
 
 ## wd-q11398404 — lulus-otomatis
@@ -393,10 +397,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## wd-q11423884 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -404,28 +405,31 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11423884-c02 | exact | ja.wikipedia.org | In Tottori, it is described as a mallet-like snake rolling toward mountain travelers' feet and biting them. | 鳥取県東伯郡小鹿村（現・三朝町）に伝わるもので、槌（つち）に似た蛇であるとされ、山間部の山道を歩く人の足もとに転がって来て噛みつくという。 |
 | wd-q11423884-c03 | exact | ja.wikipedia.org | In that area the same name is also used for tsuchinoko. | 鳥取県では、ツチノコが「槌転び」と呼ばれることもあり、江戸時代の百科事典『和漢三才図会』にある「野槌蛇」（のづち）などや、土転びと同じく民間伝承に見られる高知県の「タテクリカエシ」、岡山県の「テンコロコロバシ」など槌のようなものが転がって来るとされる妖怪と同一視されることもある。 |
 | wd-q11423884-c04 | exact | ja.wikipedia.org | Yanagita interprets some reports as a conflation of Nozuchi and Azukiarai accounts. | 民俗学者・柳田國男は、九州の小豆洗いと呼ばれる妖怪のうちにも、藁打ち槌が化けていて、人が通りかかると転がりかかって来るという性質が語られているものがあるが、これは中部地方など全国の山地にも例のある「槌のようなものが転がって来る」という「野槌」などの伝承が「小豆洗い」と混同された報告例ではないかとしている。また柳田は「槌が転がって来る」という妖怪の伝承は「のづち」という名称にある「槌」という響きから後の時代になって連想されたものであろうとしている。 |
+| wd-q11423884-c05 | exact | www.nichibun.ac.jp | The Miyagi Prefectural History (1956) calls the tsuchikorobi a kind of snake that comes rolling and bites, and suggests it may be a kind of nozuchi. | 要約 蛇の一種で、ころんできて咬み付くという。さきにあげたノヅチの類か。 |
+| wd-q11423884-c06 | exact | ja.wikipedia.org | In Mizuki's Chūbu version, a straw-mallet-shaped tsuchikorobi rolls past a traveler on a mountain pass and waits at the foot; passing it fearlessly is safe, but avoiding it makes one lose the way in the mountains. | 旅人が峠を歩いていると、後ろから何者かが追って来るような気配がし、慌てて走り出すと、藁打ち槌のような姿の土転びが転がって来て旅人を追い抜き、峠の下で待ち構えている。そのままなにも悪さをしないので、恐れずにそのまま通り過ぎれば無事に済むが、土転びのいる道を避けて通ろうとすると、山中に迷い込んでしまうという。 |
+| wd-q11423884-c07 | exact | ja.wikipedia.org | The tsuchikorobi in Mizuki's books is regarded as a composite of several traditions with Mizuki's own inventions added. | 水木の著書にある「土転び」は複数の伝承を複合し、さらに水木が自身の創作を加えて作り出したものと見られている。 |
 
 
 ## wd-q11431740 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11431740-c01 | exact | ja.wikipedia.org | Ōkamuro is a Japanese yōkai appearing in works by Mizuki and other authors. | 大かむろ（おおかむろ）は、日本の妖怪。水木しげるなどの著書に見られる。 |
 | wd-q11431740-c02 | exact | ja.wikipedia.org | Its likely visual source is a tanuki becoming a huge face in Ehon Sayo Shigure, but the name Ōkamuro is absent there. | 水木が参考にしているのは江戸時代に描かれた『絵本小夜時雨』巻四での狸が巨大な顔に化けて人を脅かす様子の絵であると考えられている。ただし、「大かむろ」という名称は『絵本小夜時雨』には見られず（原典では「大かむろ」ではなく狸が化けた「大入道」と述べられている）、通常この場面の絵は「狸の化けもの」あるいは「大首」などと紹介されて来ている。柳田國男「妖怪名彙」や日野巌「日本妖怪変化語彙」といった資料類に「大かむろ」という妖怪の名は見られず、伝承地などは未詳である。鳥山石燕の描いている大禿（おおかむろ）とは名称が重なっているが、石燕の絵に描かれている妖怪と大かむろとの間に直接の関連性はない。 |
 | wd-q11431740-c03 | exact | ja.wikipedia.org | The article distinguishes it from Sekien's Ōkamuro because a direct connection is unconfirmed. | 水木が参考にしているのは江戸時代に描かれた『絵本小夜時雨』巻四での狸が巨大な顔に化けて人を脅かす様子の絵であると考えられている。ただし、「大かむろ」という名称は『絵本小夜時雨』には見られず（原典では「大かむろ」ではなく狸が化けた「大入道」と述べられている）、通常この場面の絵は「狸の化けもの」あるいは「大首」などと紹介されて来ている。柳田國男「妖怪名彙」や日野巌「日本妖怪変化語彙」といった資料類に「大かむろ」という妖怪の名は見られず、伝承地などは未詳である。鳥山石燕の描いている大禿（おおかむろ）とは名称が重なっているが、石燕の絵に描かれている妖怪と大かむろとの間に直接の関連性はない。 |
+| wd-q11431740-c04 | exact | ja.wikipedia.org | The ōkamuro is said to startle people with a giant face, for example appearing suddenly when a householder opens the shōji after hearing a noise outside. | 巨大な顔をみせて人間を驚かすとされる。たとえば家の外で物音がしたので、家人が障子を開けてみると突然現れる。 |
+| wd-q11431740-c05 | exact | ja.wikipedia.org | Its true form is said to be a transformed tanuki; its only aim is to startle people, and it does not directly harm humans. | 正体は狸が化けたものとされる。人を驚かすことのみが目的であり、直接的な危害を人間に加えることはないという。 |
+| wd-q11431740-c06 | exact | ja.wikipedia.org | In the drama version of "GeGeGe no Kitarō" and elsewhere, the name is written okkamuro. | ドラマ版『ゲゲゲの鬼太郎』などでは、おっかむろと表記されている。 |
 
 
 ## wd-q11435362 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -433,14 +437,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11435362-c02 | exact | ja.wikipedia.org | It wears ragged hakama and wooden footwear, carries a staff, and wanders on stormy nights. | 大座頭はぼろぼろの袴と木履を履き、杖をついて風雨の降りしきる夜を徘徊する。ある人がこの者に、どこに行くのかと訪ねたところ、「いつも娼家（女郎家）に三味線を弾きに行く」と答えたという。 |
 | wd-q11435362-c03 | exact | ja.wikipedia.org | Asked its destination, it replies that it is going to play shamisen at a brothel. | 大座頭はぼろぼろの袴と木履を履き、杖をついて風雨の降りしきる夜を徘徊する。ある人がこの者に、どこに行くのかと訪ねたところ、「いつも娼家（女郎家）に三味線を弾きに行く」と答えたという。 |
 | wd-q11435362-c04 | exact | ja.wikipedia.org | Researchers interpret it as a depiction of a nighttime zatō or a satire of debt collectors. | 妖怪研究家・村上健司は、夜に徘徊している座頭の姿を石燕が異形視し、妖怪として描いたとしている。また妖怪研究家・多田克己によれば、江戸時代には座頭は幕府の庇護のもとで金融業にも携わっていたことから、鬼のように恐ろしい借金取りとしての座頭の姿を描いたものとしている。 |
+| wd-q11435362-c05 | exact | yokai.com | Under the shogunate's system, the zatō held a monopoly over shamisen and biwa performances, massage and debt collection. | Under this system, the zatō had a monopoly over shamisen and biwa performances, massage, and debt collection. |
+| wd-q11435362-c06 | exact | yokai.com | Ōzatō was invented by Toriyama Sekien for "Konjaku Hyakki Shūi"; according to yokai.com, Sekien expressed his distaste for corrupt people, zatō among them, by turning them into yōkai. | Ōzatō was invented by Toriyama Sekien for his book Konjaku hyakki shūi. Sekien expressed his distaste for corrupt people—zatō among them—by turning them into yōkai. |
+| wd-q11435362-c07 | exact | yokai.com | Its habitat is city streets, especially near brothels, on dark rainy nights. | Habitat: city streets (especially near brothels) on dark, rainy nights |
 
 
 ## wd-q11437796 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -449,28 +453,26 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q11437796-c03 | exact | ja.wikipedia.org | The Sodegasaki version concerns a large cat troubling a Date-family residence and eventually being killed. | 袖ヶ崎の大猫（そでがさきのおおねこ）は、江戸における仙台伊達家（伊達氏宗家）知行地の一つである大崎袖ヶ崎 (武蔵国荏原郡上大崎村袖ヶ崎。現在の東京都品川区東五反田3丁目) に新設された下屋敷（大崎袖ヶ崎屋敷）にて、悪さを繰り返して討たれたという大猫の怪異譚である。 |
 | wd-q11437796-c04 | exact | ja.wikipedia.org | The Sodegasaki account is recorded in Tadano Makuzu's Mukashibanashi. | 只野真葛が文化8年（1811年）に刊行した回想記『むかしばなし』の巻1に掲載されている。只野真葛の祖父・丈庵（工藤安世）が獅山公（陸奥仙台藩第5代藩主・伊達氏宗家第21代当主・伊達吉村）の隠居屋敷（仙台藩下屋敷の一つとして隠居後の吉村のために新設された、大崎袖ヶ崎屋敷のこと）に勤めていた時の話という。怪しげな出来事があったのは下屋敷の落成後間もない頃ということである。 |
 | wd-q11437796-c05 | exact | www.nichibun.ac.jp | The Nichibun summary says a dog-sized cat was shot by an attendant near the residence gate. | ある時御長屋門の下の辺に犬くらいの猫が眠っていたので，近侍の者が鉄砲で打ち殺した。この辺りは特に野良猫が多い所であった。 |
+| wd-q11437796-c06 | exact | www.nichibun.ac.jp | According to the summary in the Miyagi Prefectural History, when the physician Jōan was ordered to keep night watch he grew unbearably sleepy; while watching half-asleep, a beast like a large cat or tanuki appeared, and at once all the cords of the mosquito net snapped. | ある時，典医の丈庵が命ぜられて宿直をしていると堪らなく眠くなった。それでも何とか薄目で見ていると大きい猫か狸のような獣が現れ，途端に蚊帳の釣り手が一度に切れた。 |
 
 
 ## wd-q11446705 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11446705-c01 | exact | ja.wikipedia.org | Nyoijizai is a Japanese yōkai in Sekien's Hyakki Tsurezure Bukuro. | 如意自在（にょいじざい）は、鳥山石燕による江戸時代の妖怪画集『百器徒然袋』にある日本の妖怪。 |
 | wd-q11446705-c02 | exact | ja.wikipedia.org | Its image is interpreted as a supernatural rendering of a nyoi staff reaching itchy parts of the body. | 如意（にょい）とは僧侶の持つ仏具のことで、孫の手のように背中を掻くためにも用いられていた。石燕によるこの妖怪画の解説にも「如意は痒きところをかくにおのれがおもふところにとどきて……」と綴られており、背中などに手が届かない際に、自在に痒いところを掻くことができる如意を不思議な妖怪にたとえたものと解釈されている。 |
 | wd-q11446705-c03 | exact | ja.wikipedia.org | It is thought to draw inspiration from nyoi-shaped beings in older Hyakki Yagyō scrolls. | 『百器徒然袋』に描かれているほかの妖怪たちと同様に、石燕が室町時代の『百鬼夜行絵巻』に描かれている如意を題材とした妖怪をもとにしてこの妖怪を描いたと考えられている。如意を題材とした妖怪は真珠庵所蔵の百鬼夜行絵巻などにある（扇の妖怪と共に描かれている爪の長い茶色の妖怪）。東京国立博物館所蔵のものにはそれとはまた別の形状の羽根が生えて飛んでいる如意の妖怪も描かれている。 |
+| wd-q11446705-c04 | exact | yokai.com | The name nyoijizai is a pun meaning both "free staff" and "exactly as you please". | Translation: a pun meaning both “free staff” and “exactly as you please” |
+| wd-q11446705-c05 | exact | yokai.com | Nyoijizai is a nyoi, a kind of priest's staff, that became a yōkai after existing for very many years. | Nyoijizai is a nyoi, a kind of priest’s staff, which has turned into a yokai after existing for many many years. |
+| wd-q11446705-c06 | exact | yokai.com | Its only power is scratching the itchy spot on your back that you cannot reach. | Its only power is its ability to scratch that itchy spot on your back which you just can’t seem to reach, no matter how hard you try. |
 
 
 ## wd-q11449263 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -479,14 +481,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11449263-c03 | exact | ja.wikipedia.org | One version regards it as Kenmun's sibling, while another treats it as a form of Kenmun. | 同じく奄美大島の妖怪であるケンムンとともに、もとは人間であり、7歳と5歳の兄弟のうちの兄がケンムン、弟がウバになったという言い伝えもある。あるいはケンムンと別の妖怪なのではなく、ケンムンの現れ方の一つが宇婆だと説明される。実際、江戸末期の第一資料『南島雑話』には、「水蝹〔ケンムン〕の一種（宇婆） 」と題し「宇婆はケンモンの類にて」と記述されている。 |
 | wd-q11449263-c04 | exact | ja.wikipedia.org | The Ubatoui sound phenomenon involves a call from behind a traveler, with nobody visible when they turn. | 主に山で起きた現象で、磯辺や浜で起きたともいう。1人で道を歩いていると、不意に後ろから「ウイ」と声がする。足を止めて振り向いても誰もいないので、再び歩き出すと、また「ウイ」と声がする。 |
 | wd-q11449263-c05 | exact | ja.wikipedia.org | The call is attributed to Uba. | これは宇婆の仕業であり、「うば」が「ウイ」と声をかけるので「ウバトウイ」と呼ばれる。 |
+| wd-q11449263-c06 | exact (HTTP 406; dicek lewat arsip Wayback) | kansai-u.repo.nii.ac.jp | The Nantō Zatsuwa, as quoted by Matsui and Takahashi (2011), calls the uba a kind of kenmon (ケンモン) that sometimes leads islanders astray in the hills and fields. | 宇婆はケンモンの類にて、折々嶋人迷ひし方に、山野に引まよはす事有。 |
+| wd-q11449263-c07 | exact (HTTP 406; dicek lewat arsip Wayback) | kansai-u.repo.nii.ac.jp | The uba appears near the flat mountain paths called nagane (長根, 長峰), around the passes midway along mountain roads linking one settlement to another. | 一方，宇婆は集落から集落に通じる山路の中間の峠辺りの ナガネ（長根，長峰）と呼ばれる山間の平坦路付近に現れる。 |
 
 
 ## wd-q11450001 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -494,6 +495,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11450001-c02 | exact | ja.wikipedia.org | In the story, small beings rebuke and attack the monk Jingai while he continues reading. | 越前国湯尾（現・福井県南条郡南越前町）でのこと。塵外という僧が湯尾の城跡の庵で書見をしていたところ、身長4-5寸（約12-15センチメートル）の小人が現れて話しかけてきた。塵外は僧だけあって驚くことなく書見を続いていると、その小人は塵外の無礼を責め、その声に応じて何人もの小人が現れて襲いかかってきた。さすがに塵外はたまらずに逃げ出した。 |
 | wd-q11450001-c03 | exact | ja.wikipedia.org | Villagers explain that the former castle's warriors' spirits inhabit an old well; the monk's prayers cause the geckos there to die. | 塵外が村人にこの話をすると、かつて戦で城が落ちた際、死んだ武士の魂が古井戸に住み着いたということだった。塵外はその場所に行ってみると、話の通り無数の守宮（ヤモリ）がいた。塵外が経文を唱えて弔うと、たちまち守宮は滅び去った。 |
 | wd-q11450001-c04 | exact | ja.wikipedia.org | The monk and villagers then respectfully bury their remains. | 災いは消えたものの、塵外は守宮を憐れに思い、その亡骸を村人たちとともに丁重に葬ったという。 |
+| wd-q11450001-c05 | exact | yokai.com | The yōkai's name is written with the kanji for gecko (normally read yamori) but pronounced imori, meaning newt; in old times the line between these animals was somewhat blurred. | This yōkai’s name is somewhat confusing—it is written with the kanji for gecko, which is normally pronounced yamori; yet in this case the name is pronounced imori, which means newt. In old times, the line between these animals was somewhat ambiguous. |
+| wd-q11450001-c06 | exact | yokai.com | Its habitat is castle ruins and ancient battlegrounds. | Habitat: castle ruins, ancient battlegrounds |
 
 
 ## wd-q11462883 — lulus-otomatis
@@ -512,24 +515,21 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q11464418 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11464418-c01 | exact | ja.wikipedia.org | Kosamebō is a Japanese yōkai in Sekien's Konjaku Hyakki Shūi. | 小雨坊（こさめぼう）は、鳥山石燕による江戸時代の妖怪画集『今昔百鬼拾遺』にある日本の妖怪。 |
 | wd-q11464418-c02 | exact | ja.wikipedia.org | The image depicts a monk in rain; its caption says it wanders in Ōmine and Katsuragi seeking alms. | 雨の降る中に立つ僧侶の姿で描かれている。石燕によると、「小雨坊は 雨そぼふる夜、大みねかつらぎの山中に徘徊して 斎料（ときりやう）をこふとなん」とあり、雨の夜に修験道の霊山・大峰山や葛城山に現れては、斎料（ときりょう。僧侶に対する布施）乞うという情報が読み取れるが、詳細は不明。 |
 | wd-q11464418-c03 | exact | ja.wikipedia.org | The millet-begging Tsugaru account in a later work is regarded as unrelated to Sekien's image. | 昭和・平成の妖怪関連の文献では、旅人から粟あるいは少量の食物や小銭をねだる妖怪として小雨坊が解説されていることがある。山田野理夫の著書『東北怪談の旅』では、寛文11年（1671年）に雨の降る津軽街道の山中で、小雨坊なる者が旅人に粟をねだったという話が紹介されている。粟をねだる行動はこの話にある小雨坊の行動を引用したものであり、津軽地方のものとして紹介されているこの小雨坊と石燕の描いた小雨坊とは無関係であると考えられている。 |
+| wd-q11464418-c04 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai that appears on rainy nights in the form of a monk, begging for things such as chestnuts (栗). | 日本の妖怪。雨の夜にあらわれ、僧の姿で栗などを物乞いするとされる。 |
+| wd-q11464418-c05 | exact | yokai.com | Though frightening and perhaps a bit annoying, kosamebō pose no real danger to humans. | Though frightening—and perhaps a bit annoying—they do not pose any real danger to humans. |
+| wd-q11464418-c06 | exact | yokai.com | Kosamebō are also part of the local folklore of the Tsugaru region of Aomori Prefecture. | They are also part of the local folklore of the Tsugaru region of Aomori Prefecture. |
 
 
 ## wd-q11464873 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -537,6 +537,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11464873-c02 | exact | ja.wikipedia.org | One interpretation of its name is a being that damages or scrapes away the body's rear. | 尻こぼしとは、「尻を破壊する、削り取る者」の意で、「こぼす」（毀す、毀つと同）とは「壊す、破壊する」「剃り取る、削り取る」を意味する古語であり方言である。「こぼし」は小法師、子法師の意味との説がある。 |
 | wd-q11464873-c03 | exact | ja.wikipedia.org | It supposedly attacks ama divers and takes the shirikodama like a kappa. | 海にもぐる海女を襲い、河童のように人間の尻子玉を抜き取るといわれるもので、これに襲われた死体は必ず尻の穴が開いているという。海で人を脅かしてショック死させるともいう。また鉄が嫌いであり、海中に鉄を落とすとこの妖怪の祟りに遭うという説もある。 |
 | wd-q11464873-c04 | exact | ja.wikipedia.org | In Fuseda, sanshō twigs worn as a necklace are considered protection when diving on the Tennō festival day. | 布施田村では、天王祭の日に海に入ると尻こぼしに生き胆を奪われてしまうという。しかし海女がテングサ採りのために海に入らなければならない日が天王祭にあたり、どうしてもその日に海に入らなければならない場合には、山椒の枝を糸でまとめて首にかけると、尻こぼしを除けるお守りになるという。 |
+| wd-q11464873-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a sea monster from the Mie area that attacks ama (women divers) and steals their souls; it is also called koboshi. | 日本の妖怪。三重県地域につたわる海の化け物。海女を襲い魂を奪うとされる。「コボシ」とも。 |
+| wd-q11464873-c06 | exact | ja.wikipedia.org | According to a legend of Ogata in Shima, a river koboshi tried to play a trick on a horse but was kicked, cracking the dish on its head so that it could not return to the river. | 志摩町越賀の伝承によれば、あるとき川に住むコボシが馬に悪戯しようとし、逆に馬に蹴られて頭の皿を割られ、川へ帰れなくなった。 |
+| wd-q11464873-c07 | exact | ja.wikipedia.org | The koboshi brought two large stones from the sea and swore not to make mischief until they crumbled, so the head priest mended its dish. | するとコボシは海から大きな石を2つ運んで来て、この石が朽ちるまで悪戯をしないと誓ったので、和尚は皿を治してやったという。 |
+| wd-q11464873-c08 | exact | ja.wikipedia.org | One of the oath stones still remains in the grounds of Fumon-ji and the other on the embankment northeast of Naka-no-hama, under the name koboshi-ishi (小法師石). | この誓いの石の一つは普門寺の境内に、もう一つは中の浜の北東の堤防の上に、「小法師石（こぼしいし）」の名で現在でも残されている。 |
 
 
 ## wd-q11465776 — lulus-otomatis
@@ -572,10 +576,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## wd-q11475708 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -584,113 +585,11 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11475708-c03 | exact | ja.wikipedia.org | Human food found in the fish's belly is a recurring element despite variations in the plot. | というような話である。もちろん、地域によって多少話の流れが異なるものの共通点としては、人間が坊主に食べさせたものが魚の腹から出てくるということである。 |
 | wd-q11475708-c04 | exact | ja.wikipedia.org | A southern Aizu tale depicts a monk opposing mass fishing with poison. | 南会津地方では根流しで大量に魚を捕ろうとするところへ現れた坊主が殺生を戒めるが、坊主が立ち去った後にその漁法で大きなイワナがかかる「イワナの怪」という民話がある。 |
 | wd-q11475708-c05 | exact | ja.wikipedia.org | In another account, the fish becomes a monk and later sacrifices its body to plug a breach in an embankment. | あるいは、旅の坊主が一夜の宿を借りた次の日、大雨で川が決壊しそうな時に旅の坊主が飛び出していったが、雨がやんでから川を見に行ってみると腹が破れご飯の覗いた大きな岩魚が土手の亀裂に挟まって川の決壊を止めていた、というような村を救った岩魚の話もある。 |
+| wd-q11475708-c06 | exact | kotobank.jp | Digital Daijisen Plus defines it as a giant iwana char transformed into a person, appearing at deep-mountain rivers and trying to make people stop fishing. | 日本の妖怪。人に化けた巨大なイワナで、深山の川に現れ、魚獲りをやめさせようとするとされる。 |
+| wd-q11475708-c07 | exact | www.nichibun.ac.jp | A 1937 record by Hayashi Kaiichi from Gujō, Gifu: as people prepared to poison the river for iwana, a monk came at night forbidding it; he was fed millet rice, and when the belly of a large iwana they caught was cut open it held millet rice, so the monk had been the iwana. | ある時毒流しをして岩魚を捕らえようと準備していると、夜に1人の僧が来て毒流しはやめなさいと注意する。粟飯を食わせて返し、その後毒流しをして魚を捕らえ、そのうち大きな岩魚の腹を割ると粟飯が入っていた。僧は岩魚が化けていたという。 |
 
 
 ## wd-q11478976 — lulus-otomatis
-
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11478976-c01 | exact | ja.wikipedia.org | Kawazaru is a riverbank yōkai in Haibara tradition, Shizuoka, Japan. | 川猿（かわざる）は、遠州（静岡県）の榛原郡に伝わる妖怪。その名の通り、川辺に住む妖怪である。 |
-| wd-q11478976-c02 | exact | ja.wikipedia.org | Although its name refers to a monkey, it is considered more otter- or kappa-like and smells of fish. | 名前は「猿」だが、猿よりむしろカワウソや河童に近い種とされ、体中に魚の臭気がある。 |
-| wd-q11478976-c03 | exact | ja.wikipedia.org | It supposedly disguises itself as a child, endangers horses, and weakens if arrows strike its eyes or groin. | 子供の姿となって人を化かすこともある他、馬は川猿に会っただけで倒れて死んでしまうと言われ、馬の疫神として恐れられていた。また人間から害を加えられた際には、相手の体中の皮膚や肉をかきむしって重傷を負わせてしまう。弱点は目と股で、ここに矢を受ければたちまち力が弱まってしまう。 |
-| wd-q11478976-c04 | exact | ja.wikipedia.org | It is described as timid but remembers people who helped it. | 性格的には本来は臆病者だが、自分を助けてくれた人間の顔は忘れないという。 脚注・出典 |
-
-
-## wd-q11479052 — lulus-otomatis
-
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11479052-c01 | exact | ja.wikipedia.org | Kawaotoko is a riverside being in Japan's Wakun no Shiori dictionary, subsequently included in yōkai literature. | 川男（かわおとこ）は、日本の妖怪の一つ。江戸時代中期の国学者・谷川士清の編纂による国語辞典『和訓栞』のうち、方言や俗語などを収録して士清没後の明治20年（1887年）に出版された「後編」に記述されているもので、川辺の妖怪とされる。 |
-| wd-q11479052-c02 | exact | ja.wikipedia.org | Its description gives a tall body and dark skin; night fishers in Mino supposedly see two of them conversing. | 『和訓栞』の記述によれば、高い山に流れる川の畔にいる妖怪とされ、背が高く肌の色が黒い。美濃国（現・岐阜県）では、夜間に網を使って漁に行く人が見かけることが多く、2人の川男が並んで物語を話していたという。背の高い妖怪であることから、かつては背の高い人を「川男のようだ」という言い回しもあったという。 |
-| wd-q11479052-c03 | exact | ja.wikipedia.org | Its name is regarded as a counterpart to Yamaotoko. | 「川男」の名は、山の妖怪として日本各地で伝承される妖怪「山男」に対して名づけられたものと見られている。色が黒いという特徴は、単に夜間のために黒く見えたものとの解釈もある。 |
-| wd-q11479052-c04 | exact | ja.wikipedia.org | The early source does not explicitly call it a yōkai, leaving open the possibility that the term referred to ordinary humans. | なお、民俗学研究所による『綜合日本民俗語彙』で妖怪の類に分類されていることを始め、昭和以降の多くの妖怪関連の書籍に記載されているものの、原典『和訓栞』には「高山の流れの大川に居るもの」のあるのみで、妖怪の類との記述は見られない。妖怪ではなく、単に川辺に座っていた背の高い人間を「川男」と呼んだという可能性も示唆されている。 |
-
-
-## wd-q11481315 — lulus-otomatis
-
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11481315-c01 | exact | ja.wikipedia.org | Jōgenmushi is a supernatural insect in Japan's Edo-period books Sanyō Zakki and Enka Kidan. | 常元虫、浄元虫（じょうげんむし）は、江戸時代の書物『三養雑記』や『煙霞綺談』にある怪虫。 |
-| wd-q11481315-c02 | exact | ja.wikipedia.org | In its story, a former criminal who became a monk is executed and buried beneath a tree. | やがて老いた源太左衛門は人の勧めにより改心し、出家して常元（浄元）と改名し、故郷の別保村で暮していた。だが慶長5年、諸国の姦族が捕えられ始め、常元も過去の多数の悪行を問われて捕えられた。見せしめのために木に縛りつけられた常元は、見物人たちの前で罵詈雑言を吐きつつ斬罪に処され、遺体は木の根元に埋められた。 |
-| wd-q11481315-c03 | exact | ja.wikipedia.org | Insects emerge there resembling bound humans, then fly away; villagers regard them as the man's soul. | 翌年の夏、常元の遺体を埋めた木の根元から、おびただしい数の虫が現れた。それはまるで、人間が後ろ手に縛られたような姿に見え、やがて虫たちは羽化して飛び去ったが、その後も毎年必ず同じ虫たちが現れるので、村人たちはこれを常元の魂と考えて常元虫と呼び、因果の怖ろしさを噂しあった。 |
-| wd-q11481315-c04 | exact | ja.wikipedia.org | The site of his former home supposedly brings disaster to anyone building there. | 常元の住んでいた土地は常元屋敷と呼ばれ、そこに家を建てた者は必ず災いに遭うといわれた。そのため、その地に住もうとする者は誰もいなかったという。 |
-
-
-## wd-q11481886 — lulus-otomatis
-
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11481886-c01 | exact | ja.wikipedia.org | Heiroku is a Japanese yōkai in Sekien's Hyakki Tsurezure Bukuro. | 幣六（へいろく）は、鳥山石燕の妖怪画集『百器徒然袋』にある日本の妖怪。 |
-| wd-q11481886-c02 | exact | ja.wikipedia.org | It is drawn bare-chested with a gohei in its right hand. | 御幣を右手にもち上半身に何も着ていない姿で描かれている。石燕による解説文には「花のみやこに社（やしろ）さだめず あらぶるこころましみ 神のさわぎ出給ひしにやと」とあるが詳細は不明である。室町時代の『百鬼夜行絵巻』には御幣を持つ赤い色をした鬼のような姿の妖怪が描かれており、石燕はこれから発想をして幣六を描いたのではないかと考えられている。 |
-| wd-q11481886-c03 | exact | ja.wikipedia.org | Yoshitoshi's 1865 image, thought to draw on it, uses red skin coloration. | 浮世絵師・月岡芳年は錦絵『百器夜行』（1865年）に石燕の幣六を参考にしたと見られる絵を描いており、肌は赤く彩色されている。 |
-
-
-## wd-q11488364 — lulus-otomatis
-
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11488364-c01 | exact | ja.wikipedia.org | Ushirome is a yōkai in Japanese Edo-period scrolls, also called Oyanirami in other scrolls. | 後眼（うしろめ）は、日本の江戸時代の妖怪絵巻『百鬼夜行絵巻』（尾田郷澄・1832年）などに描かれている妖怪。他の絵巻物では親にらみという名で描かれている。 |
-| wd-q11488364-c02 | exact | ja.wikipedia.org | It has one eye behind its head and a sharp claw; its behavior is unexplained. | 目が頭の後ろに一つだけあり、1本の鋭い爪を持つ妖怪である。『百鬼夜行絵巻』に記載されているのは名前と絵だけであり、どのような妖怪かは不明である。 |
-| wd-q11488364-c03 | exact | ja.wikipedia.org | Comparable images occur in a 1780 scroll and the Nichibun collection under different names. | おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）では同様の格好をした妖怪が親にらみ（おやにらみ）という名称で描かれている。また、国際日本文化研究センター所蔵の『化物尽絵巻』にも親白眼と記され同じ姿の妖怪が描かれている。 |
-| wd-q11488364-c04 | exact | ja.wikipedia.org | Resemblance to rear-eyed people in other works does not establish a naming connection. | 仮名草子『異国物語』（万治元年、1658年）には、後頭部に一つ目を持つ人々の住む国「後眼国（こうがんこく）」についての記述がある。後眼人は古くから中国の『三才図会』などに見え、一つの目が後頭部に描かれている姿という点では後眼と形は似ているが命名などについての関係性は不明瞭である。 |
-
-
-## wd-q11497077 — lulus-otomatis
-
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11497077-c01 | exact | ja.wikipedia.org | Tearai-oni is a giant in Ehon Hyaku Monogatari, a Japanese Edo-period story collection. | 手洗鬼（てあらいおに）は、江戸時代の奇談集『絵本百物語』にある巨人。 |
-| wd-q11497077-c02 | exact | ja.wikipedia.org | It is described as a daidarabocchi type straddling mountains in Shikoku to wash its hands in the sea. | 『絵本百物語』本文によればダイダラボッチの一種とされ、四国の海で3里もの距離の山々を跨ぎ、海で手を洗う巨人だという。また同書の挿絵中の文章では手洗鬼が手を洗う場所を、讃岐（現・香川県）の高松から丸亀へ続く湾としている。これらの記述と現在の地図と比較すれば、手洗鬼は瀬戸大橋の距離よりも大きな巨人ということになる。 |
-| wd-q11497077-c03 | exact | ja.wikipedia.org | The image caption locates the activity in the bay between Takamatsu and Marugame. | 『絵本百物語』本文によればダイダラボッチの一種とされ、四国の海で3里もの距離の山々を跨ぎ、海で手を洗う巨人だという。また同書の挿絵中の文章では手洗鬼が手を洗う場所を、讃岐（現・香川県）の高松から丸亀へ続く湾としている。これらの記述と現在の地図と比較すれば、手洗鬼は瀬戸大橋の距離よりも大きな巨人ということになる。 |
-| wd-q11497077-c04 | exact | ja.wikipedia.org | Murakami's research did not find a Tearai-oni tradition outside that book. | 妖怪探訪家・村上健司の調査では『絵本百物語』以外に手洗鬼の伝承は確認されていないが、手洗鬼の地とされる香川県では、巨人のオジョモ（化け物の意）が飯野山と青野山をまたいで瀬戸内海の水を飲んだという伝説があり、飯野山の山頂にはそのオジョモのものとされる足跡が残っている。また飯野山と二子山を孫太郎という巨人が跨いだという伝説もある。 |
-
-
-## wd-q11497275 — lulus-otomatis
-
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| wd-q11497275-c01 | exact | ja.wikipedia.org | Hossumori is a Japanese yōkai in Sekien's Hyakki Tsurezure Bukuro. | 払子守（ほっすもり）は、鳥山石燕による江戸時代の妖怪画集『百器徒然袋』にある日本の妖怪。 |
-| wd-q11497275-c02 | exact | ja.wikipedia.org | Its image depicts a hossu-implement being sitting in meditation beneath a canopy. | 仏具のひとつである払子（ほっす）の妖怪が天蓋の下で坐禅を組んだ姿で描かれている。石燕による解説文では以下のように述べられている。 |
-| wd-q11497275-c03 | exact | ja.wikipedia.org | Interpretation of its caption connects the being with a kōan about a dog's Buddha-nature and Daruma's nine-year meditation. | 「趙州無の則に 狗子にさへ仏性ありけり」とは、禅における公案「狗子仏性」（「イヌにも仏性があるか」と問われた趙州禅師（じょうしゅうぜんじ）が「無」と返答したもの）から引かれており、「狗子」（くし イヌのこと）に仏性があるならば「払子」（ほっす）の精も仏性をもってるのではないか、と石燕は連想をしておりそのような点から創作されたものであると考えられている。また解説文中にある払子の使用された年数「九年が間」というのは、禅宗の開祖とされている達摩大師（だるまだいし）が壁に向かって9年間坐禅を組んだという伝説からの連想で数字が使われていると見られており、石燕は木魚達摩という妖怪の解説文中では木魚達摩を払子守の同類であるとしている（「払子守とおなじきものかと」とある）。 |
-| wd-q11497275-c04 | exact | ja.wikipedia.org | Sekien is thought to refer to hossu-shaped beings in older scrolls. | 石燕は『百器徒然袋』では室町時代の妖怪絵巻『百鬼夜行絵巻』を多く参考にしており、同絵巻に払子を素材とした妖怪も登場している。 |
-
-
-## wd-q11498388 — lulus-otomatis
 
 Klaim 5 (exact 5), sumber 2, gambar 0.
 
@@ -699,11 +598,115 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
+| wd-q11478976-c01 | exact | ja.wikipedia.org | Kawazaru is a riverbank yōkai in Haibara tradition, Shizuoka, Japan. | 川猿（かわざる）は、遠州（静岡県）の榛原郡に伝わる妖怪。その名の通り、川辺に住む妖怪である。 |
+| wd-q11478976-c02 | exact | ja.wikipedia.org | Although its name refers to a monkey, it is considered more otter- or kappa-like and smells of fish. | 名前は「猿」だが、猿よりむしろカワウソや河童に近い種とされ、体中に魚の臭気がある。 |
+| wd-q11478976-c03 | exact | ja.wikipedia.org | It supposedly disguises itself as a child, endangers horses, and weakens if arrows strike its eyes or groin. | 子供の姿となって人を化かすこともある他、馬は川猿に会っただけで倒れて死んでしまうと言われ、馬の疫神として恐れられていた。また人間から害を加えられた際には、相手の体中の皮膚や肉をかきむしって重傷を負わせてしまう。弱点は目と股で、ここに矢を受ければたちまち力が弱まってしまう。 |
+| wd-q11478976-c04 | exact | ja.wikipedia.org | It is described as timid but remembers people who helped it. | 性格的には本来は臆病者だが、自分を助けてくれた人間の顔は忘れないという。 脚注・出典 |
+| wd-q11478976-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai from Shizuoka, a kind of kappa living by rivers. | 日本の妖怪。静岡県に伝わるもので、川辺に棲む河童の一種とされる。 |
+
+
+## wd-q11479052 — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wd-q11479052-c01 | exact | ja.wikipedia.org | Kawaotoko is a riverside being in Japan's Wakun no Shiori dictionary, subsequently included in yōkai literature. | 川男（かわおとこ）は、日本の妖怪の一つ。江戸時代中期の国学者・谷川士清の編纂による国語辞典『和訓栞』のうち、方言や俗語などを収録して士清没後の明治20年（1887年）に出版された「後編」に記述されているもので、川辺の妖怪とされる。 |
+| wd-q11479052-c02 | exact | ja.wikipedia.org | Its description gives a tall body and dark skin; night fishers in Mino supposedly see two of them conversing. | 『和訓栞』の記述によれば、高い山に流れる川の畔にいる妖怪とされ、背が高く肌の色が黒い。美濃国（現・岐阜県）では、夜間に網を使って漁に行く人が見かけることが多く、2人の川男が並んで物語を話していたという。背の高い妖怪であることから、かつては背の高い人を「川男のようだ」という言い回しもあったという。 |
+| wd-q11479052-c03 | exact | ja.wikipedia.org | Its name is regarded as a counterpart to Yamaotoko. | 「川男」の名は、山の妖怪として日本各地で伝承される妖怪「山男」に対して名づけられたものと見られている。色が黒いという特徴は、単に夜間のために黒く見えたものとの解釈もある。 |
+| wd-q11479052-c04 | exact | ja.wikipedia.org | The early source does not explicitly call it a yōkai, leaving open the possibility that the term referred to ordinary humans. | なお、民俗学研究所による『綜合日本民俗語彙』で妖怪の類に分類されていることを始め、昭和以降の多くの妖怪関連の書籍に記載されているものの、原典『和訓栞』には「高山の流れの大川に居るもの」のあるのみで、妖怪の類との記述は見られない。妖怪ではなく、単に川辺に座っていた背の高い人間を「川男」と呼んだという可能性も示唆されている。 |
+| wd-q11479052-c05 | exact | kotobank.jp | Digital Daijisen Plus notes that the Edo-period dictionary "Wakun no Shiori" describes the kawa-otoko as a tall, dark-skinned man appearing by rivers flowing from high mountains. | 日本の妖怪。江戸時代の国語辞書「和訓栞」には、肌が黒く背が高い男の姿で、高山に流れる川辺に現れるとの解説がある。 |
+| wd-q11479052-c06 | exact | yokai.com | Kawa otoko are mainly nocturnal; they are neither aggressive nor noisy and neither play pranks nor harm humans. | Kawa otoko are primarily nocturnal. They are neither aggressive nor noisy, and do not play pranks or harm humans. |
+| wd-q11479052-c07 | exact | yokai.com | Kawa otoko are recorded in Edo-period encyclopedias such as Wakun no Shiori and Wakan Sansai Zue, but tales about them are relatively rare. | Kawa otoko are recorded in Edo Period encyclopedias such as Wakun no shiori and Wakan sansai zue, however tales about them are relatively rare. |
+
+
+## wd-q11481315 — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wd-q11481315-c01 | exact | ja.wikipedia.org | Jōgenmushi is a supernatural insect in Japan's Edo-period books Sanyō Zakki and Enka Kidan. | 常元虫、浄元虫（じょうげんむし）は、江戸時代の書物『三養雑記』や『煙霞綺談』にある怪虫。 |
+| wd-q11481315-c02 | exact | ja.wikipedia.org | In its story, a former criminal who became a monk is executed and buried beneath a tree. | やがて老いた源太左衛門は人の勧めにより改心し、出家して常元（浄元）と改名し、故郷の別保村で暮していた。だが慶長5年、諸国の姦族が捕えられ始め、常元も過去の多数の悪行を問われて捕えられた。見せしめのために木に縛りつけられた常元は、見物人たちの前で罵詈雑言を吐きつつ斬罪に処され、遺体は木の根元に埋められた。 |
+| wd-q11481315-c03 | exact | ja.wikipedia.org | Insects emerge there resembling bound humans, then fly away; villagers regard them as the man's soul. | 翌年の夏、常元の遺体を埋めた木の根元から、おびただしい数の虫が現れた。それはまるで、人間が後ろ手に縛られたような姿に見え、やがて虫たちは羽化して飛び去ったが、その後も毎年必ず同じ虫たちが現れるので、村人たちはこれを常元の魂と考えて常元虫と呼び、因果の怖ろしさを噂しあった。 |
+| wd-q11481315-c04 | exact | ja.wikipedia.org | The site of his former home supposedly brings disaster to anyone building there. | 常元の住んでいた土地は常元屋敷と呼ばれ、そこに家を建てた者は必ず災いに遭うといわれた。そのため、その地に住もうとする者は誰もいなかったという。 |
+| wd-q11481315-c05 | exact | www.nichibun.ac.jp | The summary of "Enka Kidan" says that after his crimes came to light, Jōgen was tied to a persimmon tree and exposed for seven days; after his body was buried at its foot, many insects shaped like human faces emerged, called jōgen-mushi. | やがてこの悪事は露見し、浄元は柿の木に縛られ、7日の間さらし首に処せられた。その死体を木元に埋めたところ、人の顔のような形をした虫が数多出た。皆はこの虫を浄元虫と呼んだ。 |
+| wd-q11481315-c06 | exact | www.nichibun.ac.jp | An Ōtsu version (1923): the monk Jōgen, accused of stealing a precious box, was bound holding the box and buried; his vengeful spirit became an insect shaped like a bound monk clutching a box. | 浄元という僧が貴重な箱を盗んだとして箱を抱かせたまま縛って土中に埋められた。その怨霊が虫となり、僧侶が縛られて前に箱を抱いている形をした浄元虫となった。 |
+
+
+## wd-q11481886 — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 2, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wd-q11481886-c01 | exact | ja.wikipedia.org | Heiroku is a Japanese yōkai in Sekien's Hyakki Tsurezure Bukuro. | 幣六（へいろく）は、鳥山石燕の妖怪画集『百器徒然袋』にある日本の妖怪。 |
+| wd-q11481886-c02 | exact | ja.wikipedia.org | It is drawn bare-chested with a gohei in its right hand. | 御幣を右手にもち上半身に何も着ていない姿で描かれている。石燕による解説文には「花のみやこに社（やしろ）さだめず あらぶるこころましみ 神のさわぎ出給ひしにやと」とあるが詳細は不明である。室町時代の『百鬼夜行絵巻』には御幣を持つ赤い色をした鬼のような姿の妖怪が描かれており、石燕はこれから発想をして幣六を描いたのではないかと考えられている。 |
+| wd-q11481886-c03 | exact | ja.wikipedia.org | Yoshitoshi's 1865 image, thought to draw on it, uses red skin coloration. | 浮世絵師・月岡芳年は錦絵『百器夜行』（1865年）に石燕の幣六を参考にしたと見られる絵を描いており、肌は赤く彩色されている。 |
+| wd-q11481886-c04 | exact | kotobank.jp | Digital Daijisen Plus calls the heiroku a strange being brandishing a gohei in Toriyama Sekien's picture collection, thought to be a kind of tsukumogami (付喪神). | 江戸時代の画家、鳥山石燕(せきえん)の画集「画図百器徒然袋」に描かれた妖怪。御幣を振りかざす異形の者で、付喪神(つくもがみ)の一種と考えられる。 |
+| wd-q11481886-c05 | exact | ja.wikipedia.org | In Mizuki Shigeru's works, the heiroku is described as a yōkai that brandishes a proclamation paper, spreads false rumors claiming divine oracles, and throws people into confusion. | 漫画家・水木しげるの著作などでは、「事触れの紙を振りかざし、ご神託と称してデマを流し、人々を混乱に陥れる妖怪」と解説されている。 |
+
+
+## wd-q11488364 — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wd-q11488364-c01 | exact | ja.wikipedia.org | Ushirome is a yōkai in Japanese Edo-period scrolls, also called Oyanirami in other scrolls. | 後眼（うしろめ）は、日本の江戸時代の妖怪絵巻『百鬼夜行絵巻』（尾田郷澄・1832年）などに描かれている妖怪。他の絵巻物では親にらみという名で描かれている。 |
+| wd-q11488364-c02 | exact | ja.wikipedia.org | It has one eye behind its head and a sharp claw; its behavior is unexplained. | 目が頭の後ろに一つだけあり、1本の鋭い爪を持つ妖怪である。『百鬼夜行絵巻』に記載されているのは名前と絵だけであり、どのような妖怪かは不明である。 |
+| wd-q11488364-c03 | exact | ja.wikipedia.org | Comparable images occur in a 1780 scroll and the Nichibun collection under different names. | おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）では同様の格好をした妖怪が親にらみ（おやにらみ）という名称で描かれている。また、国際日本文化研究センター所蔵の『化物尽絵巻』にも親白眼と記され同じ姿の妖怪が描かれている。 |
+| wd-q11488364-c04 | exact | ja.wikipedia.org | Resemblance to rear-eyed people in other works does not establish a naming connection. | 仮名草子『異国物語』（万治元年、1658年）には、後頭部に一つ目を持つ人々の住む国「後眼国（こうがんこく）」についての記述がある。後眼人は古くから中国の『三才図会』などに見え、一つの目が後頭部に描かれている姿という点では後眼と形は似ているが命名などについての関係性は不明瞭である。 |
+| wd-q11488364-c05 | exact | ja.wikipedia.org | Tada Katsumi reads the name as alluding to the proverb "ushiro no me" (secrets eventually come out), and the hands behind the back and the turned back as alluding to expressions about being arrested for wrongdoing, backbiting and running away. | 多田克己は、「後眼」の名が、秘密は隠し抜くことはできずにいつか知れてしまうことを示す諺「後ろの目」に通じており、この妖怪が手を後ろに回していることが「後ろ手」（悪事を働いて手に縄をかけられる）または「後ろ指を差す」（陰で悪口をいう）、背後を見せていることが「後ろを見せる」（相手に背を向けて逃げる）に繋がるといった、解釈をしている。 |
+
+
+## wd-q11497077 — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wd-q11497077-c01 | exact | ja.wikipedia.org | Tearai-oni is a giant in Ehon Hyaku Monogatari, a Japanese Edo-period story collection. | 手洗鬼（てあらいおに）は、江戸時代の奇談集『絵本百物語』にある巨人。 |
+| wd-q11497077-c02 | exact | ja.wikipedia.org | It is described as a daidarabocchi type straddling mountains in Shikoku to wash its hands in the sea. | 『絵本百物語』本文によればダイダラボッチの一種とされ、四国の海で3里もの距離の山々を跨ぎ、海で手を洗う巨人だという。また同書の挿絵中の文章では手洗鬼が手を洗う場所を、讃岐（現・香川県）の高松から丸亀へ続く湾としている。これらの記述と現在の地図と比較すれば、手洗鬼は瀬戸大橋の距離よりも大きな巨人ということになる。 |
+| wd-q11497077-c03 | exact | ja.wikipedia.org | The image caption locates the activity in the bay between Takamatsu and Marugame. | 『絵本百物語』本文によればダイダラボッチの一種とされ、四国の海で3里もの距離の山々を跨ぎ、海で手を洗う巨人だという。また同書の挿絵中の文章では手洗鬼が手を洗う場所を、讃岐（現・香川県）の高松から丸亀へ続く湾としている。これらの記述と現在の地図と比較すれば、手洗鬼は瀬戸大橋の距離よりも大きな巨人ということになる。 |
+| wd-q11497077-c04 | exact | ja.wikipedia.org | Murakami's research did not find a Tearai-oni tradition outside that book. | 妖怪探訪家・村上健司の調査では『絵本百物語』以外に手洗鬼の伝承は確認されていないが、手洗鬼の地とされる香川県では、巨人のオジョモ（化け物の意）が飯野山と青野山をまたいで瀬戸内海の水を飲んだという伝説があり、飯野山の山頂にはそのオジョモのものとされる足跡が残っている。また飯野山と二子山を孫太郎という巨人が跨いだという伝説もある。 |
+| wd-q11497077-c05 | exact | yokai.com | An alternate name is kyojin no ojomo ("giant ojomo"; ojomo being a local term for monster). | Alternate names: kyojin no ojomo (giant ojomo; a local term for monster) |
+| wd-q11497077-c06 | exact | yokai.com | It was seen straddling the mountains between Takamatsu and Marugame and washing its hands in the bay below. | It was seen straddling the mountains between Takamatsu and Marugame Cities and washing its hands in the bay below. |
+| wd-q11497077-c07 | exact | yokai.com | Despite its name it is not really an oni but a type of daidarabotchi; oni here is just a catch-all word for monsters. | Despite its name, it is not actually an oni but is rather a type of daidarabotchi. In this case the word oni is just used as a catch-all term for monsters. |
+
+
+## wd-q11497275 — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wd-q11497275-c01 | exact | ja.wikipedia.org | Hossumori is a Japanese yōkai in Sekien's Hyakki Tsurezure Bukuro. | 払子守（ほっすもり）は、鳥山石燕による江戸時代の妖怪画集『百器徒然袋』にある日本の妖怪。 |
+| wd-q11497275-c02 | exact | ja.wikipedia.org | Its image depicts a hossu-implement being sitting in meditation beneath a canopy. | 仏具のひとつである払子（ほっす）の妖怪が天蓋の下で坐禅を組んだ姿で描かれている。石燕による解説文では以下のように述べられている。 |
+| wd-q11497275-c03 | exact | ja.wikipedia.org | Interpretation of its caption connects the being with a kōan about a dog's Buddha-nature and Daruma's nine-year meditation. | 「趙州無の則に 狗子にさへ仏性ありけり」とは、禅における公案「狗子仏性」（「イヌにも仏性があるか」と問われた趙州禅師（じょうしゅうぜんじ）が「無」と返答したもの）から引かれており、「狗子」（くし イヌのこと）に仏性があるならば「払子」（ほっす）の精も仏性をもってるのではないか、と石燕は連想をしておりそのような点から創作されたものであると考えられている。また解説文中にある払子の使用された年数「九年が間」というのは、禅宗の開祖とされている達摩大師（だるまだいし）が壁に向かって9年間坐禅を組んだという伝説からの連想で数字が使われていると見られており、石燕は木魚達摩という妖怪の解説文中では木魚達摩を払子守の同類であるとしている（「払子守とおなじきものかと」とある）。 |
+| wd-q11497275-c04 | exact | ja.wikipedia.org | Sekien is thought to refer to hossu-shaped beings in older scrolls. | 石燕は『百器徒然袋』では室町時代の妖怪絵巻『百鬼夜行絵巻』を多く参考にしており、同絵巻に払子を素材とした妖怪も登場している。 |
+| wd-q11497275-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a monster of the hossu (払子) whisk in Toriyama Sekien's picture collection, a kind of tsukumogami (付喪神). | 江戸時代の画家、鳥山石燕(せきえん)の画集「画図百器徒然袋」に描かれた妖怪。仏具の払子の化け物で、付喪神(つくもがみ)の一種。 |
+| wd-q11497275-c06 | exact | yokai.com | According to yokai.com, Sekien suggests that if even a dog has buddha nature, a whisk used by a Zen master for nine years might realize it too; the nine years refer to the meditation of Daruma (Bodhidharma), founder of Zen. | Sekien suggests that if even a dog has a buddha nature, then perhaps a hossu used for nine years by a Zen master might also realize its buddha nature. The nine years mentioned by Sekien is a reference to the nine years that Daruma (aka Bodhidharma), the founder of Zen Buddhism, spent in meditation. |
+
+
+## wd-q11498388 — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
 | wd-q11498388-c01 | exact | ja.wikipedia.org | Chōchin-kozō is a yōkai from Miyagi, Japan, appearing as a boy carrying a lantern. | 提灯小僧（ちょうちんこぞう）は、宮城県に伝わる妖怪。その名の通り、手に提灯を持った少年の姿の妖怪である。 |
 | wd-q11498388-c02 | exact | ja.wikipedia.org | In the Sendai account, it resembles a twelve- or thirteen-year-old boy with a red face. | 仙台城の城下町北部の堤通（Google マップ、現・仙台市青葉区堤通雨宮町および上杉1～2丁目）に出没したという。容姿は人間年齢で12歳か13歳ほどの少年のようだが、顔は真っ赤で、しばしばホオズキの実の色にたとえられる。 |
 | wd-q11498388-c03 | exact | ja.wikipedia.org | It repeatedly overtakes rainy-night travelers and turns to stare at them; it eventually vanishes without harming them. | 雨の夜道を人が歩いていると、後ろからこの提灯小僧が現れて人を追い越し、やがて立ち止まって後ろを振り返り、その人の方をじっと見つめる。追い越された人が不審に思いつつ提灯小僧の前を通り過ぎて歩き続けると、また提灯小僧はその人を追い越し、立ち止まる。この行為を繰り返すのみで、特に人間に危害を加えることはなく、繰り返しの挙句には消え去ってしまう。 |
 | wd-q11498388-c04 | exact | ja.wikipedia.org | A same-named Honjo account depicts a lantern moving around travelers and is associated with Okuri-chōchin. | 江戸本所（現・東京都墨田区）にも提灯小僧の名の妖怪伝承があり、これは石原割下水を夜歩いている者のそばに小田原提灯が現れるもので、振り返ると後ろに回りこみ、追いかけると姿を消すといった具合に前後左右に自在に動き回るという。これは、本所七不思議の送り提灯と同一のものと見られている。 |
 | wd-q11498388-c05 | exact | www.nichibun.ac.jp | The Nichibun record says its red face startles the witness and the apparition ends near Kita-Ichibanchō. | ふと振り向いたその顔は酸漿のように真っ赤なので思わず悸（どき）っとした。北一番丁あたりで消えうせた。そこは以前富岡十之介の屋敷だった。 |
+| wd-q11498388-c06 | exact | yokai.com | The first sightings took place in summer in the early 18th century, after a man brutally murdered his wife and her body was dumped nearby; the yōkai was thought to be connected to her ghost. | The first sightings took place in the summer during the early 18th century, after a man horribly murdered his wife and her body dumped in that vicinity. The yōkai were thought to be somehow connected to the ghost of the murdered woman. |
 
 
 ## wd-q11498674 — lulus-otomatis
@@ -722,10 +725,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## wd-q11534177 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -733,4 +733,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11534177-c02 | exact | ja.wikipedia.org | Kidan Ruishō describes an old willow in Kashima becoming a beautiful woman or an old woman and addressing passersby. | 古書『奇談類抄』によると、かつて常陸国鹿島（現・茨城県鉾田市）に樹齢千年以上の柳の木があり、これが美女に姿を変えて人を惑わしたり、あるときには老婆に姿を変え、道を行き来する人々に声をかけたという。このように柳の古木が怪異を成すことは日本のみならず、中国の書物にも記載が多くみられる。 |
 | wd-q11534177-c03 | exact | ja.wikipedia.org | Tada Katsumi links the old-woman form to beliefs about willows, age, illness, and death. | 柳の木と老い、病気、死が関連しているという俗信は日本各地にみられ、加えて柳の枝の枝垂れる様子が女性のイメージがあることから、妖怪研究家・多田克己はこれらの要因が、柳の霊が老婆姿だという伝承を生み出したと見ている。 |
 | wd-q11534177-c04 | exact | ja.wikipedia.org | Murakami interprets some Ehon Hyaku Monogatari quotations as also carrying warnings concerning nightlife. | また『絵本百物語』では『盧全茶話』『契情買談』といった書からそれぞれ「金陵の絮柳は人を招く」「島原の柳は客を化かす」と引用し、これらに油断してはならないと戒めているが、妖怪探訪家・村上健司によれば、これらは実際の柳の怪異のみならず、水商売の女性に気を許すなとの意味も込めたものとされる。 |
+| wd-q11534177-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a transformed thousand-year-old willow, recorded in the Edo-period "Ehon Hyakumonogatari". | 日本の妖怪。千年を経た柳が化けたものとされる。江戸時代の奇談集「絵本百物語」などに記述がある。 |
+| wd-q11534177-c06 | exact | yokai.com | Men who approach a yanagi baba meet various misfortunes: bewitched by her call they get lost in the mountains, trip and fall, or are suddenly struck with fever. | Men who approach a yanagi baba meet with a variety of misfortunes. Some are bewitched by her call and get lost in the mountains. Others trip and fall or are suddenly struck with fever. |
 
