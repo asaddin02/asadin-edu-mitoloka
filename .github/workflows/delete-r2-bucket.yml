@@ -1,0 +1,52 @@
+# Manual, one-off: empties and deletes a retired R2 bucket (for example after the media moved to a new bucket).
+# It refuses the bucket named in wrangler.toml and first checks that the live site serves its media.
+name: Delete retired R2 bucket
+
+on:
+  workflow_dispatch:
+    inputs:
+      bucket:
+        description: Name of the R2 bucket to delete
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OLD: ${{ inputs.bucket }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Refuse to delete the active bucket
+        run: |
+          current=$(sed -n 's/^bucket_name = "\(.*\)"/\1/p' wrangler.toml)
+          [ -n "$current" ] && [ "$OLD" != "$current" ] || { echo "Refusing to delete the active bucket ($current)."; exit 1; }
+      - name: Check the live site first
+        run: curl -fsS -o /dev/null --retry 3 "$SITE_URL/"
+      - name: Empty and delete the bucket
+        run: |
+          api="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$OLD"
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          deleted=0
+          while :; do
+            page=$(curl -fsS -H "$auth" "$api/objects?per_page=1000")
+            keys=$(echo "$page" | jq -r '.result[].key')
+            [ -z "$keys" ] && break
+            while IFS= read -r key; do
+              enc=$(jq -rn --arg k "$key" '$k|@uri')
+              curl -fsS -X DELETE -H "$auth" "$api/objects/$enc" > /dev/null
+              deleted=$((deleted + 1))
+            done <<< "$keys"
+          done
+          echo "Deleted $deleted objects from $OLD."
+          curl -fsS -X DELETE -H "$auth" "$api" | tee /dev/stderr | grep -Eq '"success": ?true'
