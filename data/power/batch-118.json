@@ -745,9 +745,37 @@
     "tanggal": "2026-10-06"
   },
   "thetis-lake-monster": {
-    "perlu_riset": "Riset hanya memuat laporan 1972 dengan ciri makhluk (bersisik perak, bercakar, berduri) dan pengakuan bahwa kisahnya rekayasa; tidak ada kekuatan atau perbuatan terdokumentasi yang bisa dinilai.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "power": null,
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat ciri makhluk amfibi bersisik dan laporan 1972 yang diakui sebagai rekayasa; tidak ada kemampuan yang melampaui hewan besar, jadi Power belum dinilai.",
+        "en": "The research holds only the traits of a scaled amphibious creature and 1972 reports admitted to be fabricated; no ability beyond a large animal is recorded, so Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Laporan menyebut makhluk itu menusuk tangan seorang remaja hingga luka, dan tidak ada korban lain; ancaman hanya setingkat individu, dan kisahnya diakui rekayasa oleh seorang saksi.",
+        "en": "Reports say the creature pricked a teenager’s hand and cut it, with no other victim; the threat stays at the individual level, and a witness admitted the story was fabricated.",
+        "claim_ids": [
+          "thetis-lake-monster-c07",
+          "thetis-lake-monster-c08",
+          "thetis-lake-monster-c13"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk itu dilaporkan keluar dari air dan mengejar dua remaja hingga ke mobil, pola diburu yang khas; semua ini bersumber dari laporan yang kemudian diakui dikarang.",
+        "en": "The creature is reported rising from the water and chasing two teenagers to their car, a typical being-hunted pattern; all of it rests on reports later admitted to be fabricated.",
+        "claim_ids": [
+          "thetis-lake-monster-c07",
+          "thetis-lake-monster-c13",
+          "thetis-lake-monster-c06"
+        ]
+      }
+    },
+    "perlu_riset": "Kemampuan makhluk di luar laporan yang diakui rekayasa belum ada, jadi Power belum bisa dinilai.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-13"
   },
   "sheka-mythology": {
     "power": "superhuman",

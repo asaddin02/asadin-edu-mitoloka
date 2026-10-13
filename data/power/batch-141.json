@@ -7,7 +7,12 @@
       "power": {
         "id": "Tanduknya berkhasiat sebagai penawar racun dan penyakit serta mengeras saat terancam, kemampuan gaib yang melampaui hewan biasa, tetapi tubuhnya hanya sebesar keledai kecil sehingga tidak dinilai lebih tinggi.",
         "en": "Its horns act as an antidote to poison and disease and harden when it is threatened, a supernatural ability beyond ordinary animals, but its body is only the size of a small donkey, so it is not rated higher.",
-        "claim_ids": ["abada-unicorn-c03", "abada-unicorn-c11", "abada-unicorn-c02", "abada-unicorn-c04"]
+        "claim_ids": [
+          "abada-unicorn-c03",
+          "abada-unicorn-c11",
+          "abada-unicorn-c02",
+          "abada-unicorn-c04"
+        ]
       },
       "threat": {
         "id": "Riset tidak memuat perbuatan merusak atau menyerang; tanduk yang mengeras hanya disebut saat ia merasa terancam, jadi ancaman belum dinilai.",
@@ -24,7 +29,30 @@
     "tanggal": "2026-10-06"
   },
   "winged-cat": {
-    "perlu_riset": "Riset hanya membahas motif seni, pertanda Aq Bars, dan legenda urban kucing bersayap; kemampuan, perbuatan, dan skala pengaruhnya belum ada, jadi tidak ada sumbu yang bisa dinilai secara adil.",
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan sayap hanya klaim saksi tingkat rendah (membantu berlari dan melompat) yang oleh riset dijelaskan secara medis, tanpa bukti sayap sungguhan atau penerbangan, jadi Power belum dinilai.",
+        "en": "Wing abilities are only low-grade witness claims (aiding running and jumping) that the research explains medically, with no evidence of real wings or flight, so Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak oleh kucing bersayap; ia justru menjadi korban, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by the winged cat; it appears instead as a victim, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Kucing bersayap menimbulkan rasa ganjil dan takhayul, sampai penduduk desa menenggelamkan seekor kucing bersayap pada 2004, dan iblis kadang digambarkan berupa kucing bersayap kelelawar.",
+        "en": "The winged cat evokes uncanny unease and superstition, to the point that villagers drowned a winged cat in 2004, and demons were sometimes pictured as bat-winged cats.",
+        "claim_ids": [
+          "winged-cat-c19",
+          "winged-cat-c05"
+        ]
+      }
+    },
+    "perlu_riset": "Kuasa gaib, ranah, atau kemampuan terbang yang terkonfirmasi belum ada; riset hanya memuat motif seni, klaim saksi, dan penjelasan medis.",
     "oleh": "claude-lokal",
     "tanggal": "2026-10-13"
   },
