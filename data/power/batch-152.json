@@ -1,11 +1,36 @@
 {
   "baphomet": {
-    "power": null,
+    "power": "divine",
     "threat": null,
-    "fear": null,
-    "perlu_riset": "Riset hanya memuat sejarah nama Baphomet dalam pengadilan Templar dan okultisme; kuasa atau perbuatannya belum ada.",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dalam dakwaan dan kesaksian pengadilan Templar, berhala ini disembah sebagai dewa dan juru selamat yang membuat pohon berbunga dan tanaman bertunas serta memberi kekayaan; kuasa itu dituduhkan lewat pengakuan di bawah tekanan, jadi ini tafsir editorial atas tuduhan tersebut, bukan Baphomet simbolis versi Lévi.",
+        "en": "In the Templar indictment and testimony the idol is worshipped as a god and saviour that makes trees flower and plants sprout and bestows wealth; these powers are alleged through confessions under duress, so this is an editorial reading of the accusation, not Lévi's symbolic Baphomet.",
+        "claim_ids": [
+          "baphomet-c16",
+          "baphomet-c09",
+          "baphomet-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Baphomet, sebab berhala itu justru dikatakan menyelamatkan dan memberi kekayaan penyembahnya dan citra Lévi bersifat simbolis; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Baphomet, since the idol is said to save and enrich its worshippers and Lévi's image is symbolic; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Saksi menyebut setan berbentuk kucing atau gagak yang menjawab pertanyaan dan sosok iblis Maufé yang tak tahan dipandang tanpa gemetar, sehingga rasa takutnya bersifat supernatural; kesaksian ini diperoleh di bawah penyiksaan.",
+        "en": "Witnesses describe a devil in the form of a cat or raven that answers questions and a demon (Maufé) no one could look upon without trembling, so the fear is supernatural; this testimony was obtained under torture.",
+        "claim_ids": [
+          "baphomet-c10",
+          "baphomet-c11",
+          "baphomet-c12"
+        ]
+      }
+    },
+    "perlu_riset": "Riset memuat kuasa yang dituduhkan pada berhala Templar dan simbolisme Lévi, tetapi belum ada perbuatan Baphomet sebagai makhluk atau iblis (misalnya dalam tradisi Setanisme modern), sehingga ancaman belum dinilai.",
     "oleh": "claude-lokal",
-    "tanggal": "2026-10-07"
+    "tanggal": "2026-10-13"
   },
   "death": {
     "power": "divine",
@@ -104,9 +129,41 @@
     "tanggal": "2026-10-06"
   },
   "merfolk": {
-    "perlu_riset": "Riset hanya membahas penamaan dan wujud setengah manusia setengah ikan di berbagai budaya; kekuatan, kemampuan, perbuatan, dan ancamannya belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dalam kisah Cornwall, kutukan seorang merry-maid disebut membuat pelabuhan sunyi dan menimbun kota Seaton dengan pasir, dan merfolk dianggap berkuasa atas manusia dan alam; ini kekuatan yang mampu menghancurkan kawasan terbatas, bertumpu pada versi Cornwall.",
+        "en": "In Cornish tales a merry-maid's curse is said to have made a harbour desolate and overwhelmed the town of Seaton with sand, and merfolk are held to have considerable power over man and nature; this is power to devastate a limited area, based on the Cornish version.",
+        "claim_ids": [
+          "merfolk-c11",
+          "merfolk-c15",
+          "merfolk-c16"
+        ]
+      },
+      "threat": {
+        "id": "Kutukan merry-maid disebut menimbun kota Seaton dengan pasir dan membuat pelabuhan sunyi setelah ia dilukai pelaut, sehingga ancaman ditafsirkan pada skala permukiman; tidak semua merfolk bermusuhan karena sebagian dikisahkan sebagai penolong.",
+        "en": "A merry-maid's curse is said to have buried the town of Seaton in sand and desolated a harbour after sailors injured her, so the threat is interpreted at settlement scale; not all merfolk are hostile, as some are spoken of as benefactors.",
+        "claim_ids": [
+          "merfolk-c15",
+          "merfolk-c11",
+          "merfolk-c09"
+        ]
+      },
+      "fear": {
+        "id": "Penampakan sebelum badai, nyanyian sebelum kapal karam, lagu yang memikat pemuda hingga tak kembali, dan ningyo sebagai pertanda perang berdarah melampaui hukum alam.",
+        "en": "Appearing before a storm, singing before a wreck, songs that lure young men who never return, and ningyo as omens of bloody battles all exceed natural law.",
+        "claim_ids": [
+          "merfolk-c13",
+          "merfolk-c14",
+          "merfolk-c17"
+        ]
+      }
+    },
+    "perlu_riset": "Penilaian bertumpu pada kisah merry-maid Cornwall; kekuatan dan perbuatan versi lain (rényú, ningyo, Sirena, merman) belum dirinci di riset.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-13"
   },
   "murmur": {
     "power": "superhuman",
@@ -206,9 +263,40 @@
     "tanggal": "2026-10-06"
   },
   "xeglun": {
-    "perlu_riset": "Riset hanya menyebut Xeglun sebagai rusa langit Tungus yang dikejar Mangi hingga tercipta Bima Sakti; kekuatan, ranah, perbuatan, dan ancamannya belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "power": "divine",
+    "threat": "t6",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dalam satu varian mitos, rusa langit ini mencuri matahari dari langit sehingga dunia gelap selamanya, kuasa atas matahari yang ditafsirkan setingkat dewa; ia akhirnya dipanah oleh pahlawan Main.",
+        "en": "In one variant of the myth this celestial elk steals the sun from the sky, causing perpetual darkness, a power over the sun interpreted as godlike; the hero Main eventually shoots it with an arrow.",
+        "claim_ids": [
+          "xeglun-c08",
+          "xeglun-c09"
+        ]
+      },
+      "threat": {
+        "id": "Pencurian matahari yang menyebabkan kegelapan abadi ditafsirkan sebagai ancaman global dalam varian itu, tetapi berakhir ketika Main merebut kembali matahari, dan para penulis membacanya sebagai peralihan musim.",
+        "en": "The theft of the sun causing perpetual darkness is interpreted as a global threat within that variant, but it ends when Main takes the sun back, and the authors read it as a seasonal transition.",
+        "claim_ids": [
+          "xeglun-c08",
+          "xeglun-c09",
+          "xeglun-c12"
+        ]
+      },
+      "fear": {
+        "id": "Rusa langit yang mencuri matahari dan, dalam versi tertua, menjadi rasi bintang dari kakinya merupakan keberadaan di luar hukum alam; riset tidak mencatat ia memburu manusia.",
+        "en": "A celestial elk that steals the sun and, in the oldest version, becomes a constellation through its legs exists beyond natural law; the research records no hunting of humans.",
+        "claim_ids": [
+          "xeglun-c01",
+          "xeglun-c08",
+          "xeglun-c10"
+        ]
+      }
+    },
+    "perlu_riset": "Penilaian bertumpu pada satu varian pencurian matahari; riset belum membahas sifat Xeglun sebagai rusa langit di luar mitos perburuan itu atau perbuatannya terhadap manusia.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-13"
   },
   "zitiron": {
     "power": "superhuman",
