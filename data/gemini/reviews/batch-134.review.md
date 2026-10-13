@@ -1,13 +1,10 @@
 # Review batch-134
 
-Diperiksa 2026-10-02T04:45:26.038Z. Berkas: batch-134.md.
+Diperiksa 2026-10-13T19:04:00.813Z. Berkas: batch-134.md, batch-134-fix-1.md, batch-134-fix-2.md.
 
 ## gatto-mammone — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -17,42 +14,51 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | gatto-mammone-c04 | exact | it.wikipedia.org | The monster was so stealthy it could ambush unwary victims and devour them without leaving even the bones. | Il mostro sarebbe tanto furtivo da assalire le vittime ignare e sbranarle senza lasciare neppure le ossa. |
 | gatto-mammone-c05 | exact | it.wikipedia.org | In other tales it is a protective, positive spirit, immune to other spirits' harmful spells. | ha funzione protettiva ed è uno spirito positivo, immune agli effetti nefasti degli incantesimi di altri spiriti |
 | gatto-mammone-c06 | exact | it.wikipedia.org | The gatto mammone often appears in Italian tales, such as Giambattista Basile's Pentamerone and Vittorio Imbriani's Novellaja Fiorentina, and is often invoked to scare children. | Il gatto mammone appare di frequente nelle fiabe di tradizione italiana, per esempio nel Pentamerone di Giambattista Basile o nella Novellaja Fiorentina di Vittorio Imbriani, e spesso lo si menziona per spaventare i bambini |
+| gatto-mammone-c07 | exact | www.treccani.it | According to an Italian dictionary, the gattomammone is an imaginary monster of fables whose name is invoked to frighten children. | Mostro immaginario delle favole, di cui si suole invocare il nome per incutere timore ai bambini |
+| gatto-mammone-c08 | exact | www.treccani.it | In archaic usage the word also named an ill-defined kind of monkey, probably a baboon. | Nome d’una specie di scimmia non ben determinata, prob. una specie di babbuino |
+| gatto-mammone-c09 | exact | www.lavaldichiana.it | The Gatto Mammone, also called Re dei Gatti (King of Cats), is a magical creature of folk tradition known in many Italian regions. | Chiamato anche Re Dei Gatti, il Gatto Mammone è una creatura magica della tradizione popolare conosciuta in molte regioni italiane |
+| gatto-mammone-c10 | exact | www.lavaldichiana.it | In Valdichiana the Gatto Mammone is believed to live in dark, isolated places, looking above all for naughty children to eat. | In Valdichiana la credenza vede il Gatto Mammone come una creatura incline a vivere nei luoghi bui e isolati,cercando soprattutto bambini cattivi da mettere sotto i denti. |
+| gatto-mammone-c11 | exact | www.lavaldichiana.it | It is generally described as a completely black cat. | Viene generalmente descritto come un gatto completamente nero |
+| gatto-mammone-c12 | exact | www.lavaldichiana.it | Accounts from the province of Belluno also refer to the Gatto Mammone as a monstrous feline that used to frighten grazing cows. | Alla figura del Gatto Mammone fanno riferimento anche le testimonianze in provincia di Belluno, che parlano di un mostruoso felino che era solito spaventare le mucche al pascolo. |
 
 
 ## gegant-de-la-neu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gegant-de-la-neu-c01 | exact | ca.wikipedia.org | The gegant de la neu is a figure of Catalan folk imagination from a children's fable told in Ripollès and Cerdanya, in which a childless couple make a giant snowman that comes to life. | El gegant de la neu és un personatge de l'imaginari popular català. Es tracta d'un personatge d'una faula infantil que s'explica per la zona del Ripollès i la Cerdanya en què un matrimoni sense fills fa un ninot de neu gegant que cobra vida. |
 | gegant-de-la-neu-c02 | exact | ca.wikipedia.org | The snowman is said to live alone on cold snowy peaks and to run about everywhere as soon as the first snowflakes fall. | Es conta que l'"home de neu" viu tot sol als cims nevats on sempre fa fred i que surt i corre per tot arreu tan bon punt cauen els primers flocs de neu. |
 | gegant-de-la-neu-c03 | exact | ca.wikipedia.org | The old woman made a snowman dressed as a little girl, and it suddenly came to life, to the couple's delight. | la velleta, mentre el seu marit treballava, es va entretenir fent un ninot de neu que va vestir de nena. El ninot de sobte va cobrar vida davant la felicitat del matrimoni |
+| gegant-de-la-neu-c04 | exact | www.vilaweb.cat | It is said that sometimes, when a snowman melts, it can come to life. | Diuen que de vegades, quan es fon un ninot de neu, pot prendre vida. |
+| gegant-de-la-neu-c05 | exact | www.vilaweb.cat | This happened to an old married couple who lived in a ramshackle hut in the Pyrenees (Pirineu). | Doncs això els va passar a dos vells, un matrimoni, que vivien en una cabana esbotzada al Pirineu. |
+| gegant-de-la-neu-c06 | exact | www.vilaweb.cat | Having no children, every winter at the first snowfall they made a snowman and put it by the hearth, and when it melted it became a child whom they took in as their own. | Com que no tenien fills, cada hivern, a la primera nevada, feien un ninot de neu, el posaven dins la llar de foc i quan es fonia esdevenia un nen, que ells acollien com un fill. |
+| gegant-de-la-neu-c07 | exact | www.vilaweb.cat | But in March, when spring was pressing in, the child melted away. | Això sí, el mes de març, quan la primavera ja empenyia, el nen es fonia. |
+| gegant-de-la-neu-c08 | exact | www.vilaweb.cat | The tale was told on video by the storyteller (rondallaire) Albert Estengre in VilaWeb's daily series of traditional tales. | VilaWeb publica enguany un conte tradicional cada dia, en vídeo, relatat pel rondallaire Albert Estengre |
 
 
 ## gegant-del-romani — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gegant-del-romani-c01 | exact | ca.wikipedia.org | The Gegant del Romaní, named Aixa, is a figure of Valencian mythology with rosemary hair who waits inside a well or chasm. | El Gegant del Romaní, de nom Aixa, és un personatge de la mitologia valenciana de cabells de romaní que espera dins un pou o avenc. |
 | gegant-del-romani-c02 | exact | ca.wikipedia.org | If anyone tried to pull up the rosemary, he shouted "Pull my hair and I come out with it!", then did so and dragged the unfortunate into the chasm. | si algú, home o dona, volia arrancar el romer, cridava com un boig: «Si m'estires els cabells, me n'isc amb ells!» i així ho feia i s'enduia l'infortunat per l'avenc. |
 | gegant-del-romani-c03 | exact | ca.wikipedia.org | Francesc Gisbert describes him as black, tall, huge and with marvellous powers; he kidnaps young people like the Ogre de la Caputxa Negra and lives in a castle with a princess. | Francesc Gisbert el descriu com un personatge negre, alt, gros i immens, amb poders meravellosos. Segresta jovenets com també ho fa l'Ogre de la Caputxa Negra, i viu a un castell amb una princesa. |
+| gegant-del-romani-c04 | exact | www.upv.es | The exhibition guide explains that there was a giant called the Gegant del Romaní, named Aixa because he waited buried beneath a rosemary bush (romaní or romer). | Expliquem que alli hi havia un gegant, dit el Gegant del Romani, que és deia Aixa perquè esperava colgar sota un romani o romer |
+| gegant-del-romani-c05 | exact | www.upv.es | Someone pulled the rosemary that was the Gegant del Romaní's hair, and the giant abducted him. | va estirar el romer que era la cabellera del Gegant del Romani, i el gegant el va raptar |
+| gegant-del-romani-c06 | exact | www.upv.es | The tale's hero is Batiste, the horn-player (corner) of Benifallim. | Presentem el personatge: és Batiste, el corner de Benifallim. |
+| gegant-del-romani-c07 | exact | www.upv.es | A serpent as thick as a pine trunk: if someone defeats it, a hare (llebre) will run out of it. | La serp és Grossa com la soca d`un pi, si algú lluita contra ella i la venç, de dins d`ella, n`eixirà fugint una llebre. |
+| gegant-del-romani-c08 | exact | www.upv.es | That pigeon flies very well; if caught, it would lay an egg, because it is female (Coloma). | Aquell colom és molt volador i, si algú el podia agafar, pondría un ou, perquè és Coloma. |
+| gegant-del-romani-c09 | exact | www.upv.es | By breaking that egg on the Gegant del Romaní's forehead, he would die; it is the only way to defeat that giant. | Amb aquell ou, trencant-li`l al front al Gegant del Romani , moriría: és l`únic amanera de véncer aquell gegant. |
+| gegant-del-romani-c10 | exact | www.upv.es | These are among the adventures found in Enric Valor's Rondalles. | moltes de les aventures que es troben a les Rondalles d`Enric Valor |
 
 
 ## gegant-negre — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -60,6 +66,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | gegant-negre-c02 | exact | ca.wikipedia.org | Sometimes instead of a treasure he guards a princess, a magic tree, an enchanted horse, wondrous gardens or other marvels. | De vegades, en comptes d'un tresor el gegant negre vigila una princesa, un arbre màgic, un cavall encantat, jardins meravellosos o altres objectes de fantasia. |
 | gegant-negre-c03 | exact | ca.wikipedia.org | He is terrible and invincible and stops adventurers unless they hand over the magic token he demands. | es tracta d'un personatge terrible i invencible que no permet atènyer el seu objectiu als aventurers que s'hi acosten, tret que li lliurin una prova o penyora màgica que els requereix. |
 | gegant-negre-c04 | exact | ca.wikipedia.org | He is tall but not excessively so, three or four spans taller than an ordinary man, wearing only loose breeches and armed with a club. | El gegant negre és alt, però no exageradament: fa tres o quatre pams més que un home normal. Se'l presenta vestit només amb uns saragüells i armat amb un garrot |
+| gegant-negre-c05 | exact | ca.wikipedia.org | Gaspar Escolano recorded in the second volume of his Décadas de la historia de la insigne y coronada ciudad y Reyno de Valencia (1610-1611) the legend of the gegant negre guarding a fabulous treasure in a cave at Benidoleig, in the Marina Alta. | Gaspar Escolano recull al segon volum de la seva monumental Décadas de la historia de la insigne y coronada ciudad y Reyno de Valencia (1610-1611) la llegenda del gegant negre que vigilava un tresor fabulós a una cova de Benidoleig, a la Marina Alta |
+| gegant-negre-c06 | exact | ca.wikipedia.org | Only when the man who stole the jewels returns them to the giant does the giant undo the spell, and the cave opens to let the four men leave. | Només quan el que ha furtat les joies les hi torna al gegant, aquest desfà l'encanteri i la cova s'obre per permetre als quatre homes abandonar-la. |
+| gegant-negre-c07 | exact | ca.wikipedia.org | In the País Valencià there are many legends in which a black giant (gegant negre) guards a hidden treasure. | Al País Valencià són nombroses també les llegendes en què un gegant negre custodia un tresor amagat. |
 
 
 ## gegantona-raimunda — skip
@@ -75,79 +84,90 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## ginebreda — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ginebreda-c01 | exact | ca.wikipedia.org | The Ginebreda is a child-scaring bogey of Catalan folk imagination, a kind of plant ogress made of wood and moss with branch-like arms. | La Ginebreda és una espantamainades pròpia de l'imaginari popular català, una mena d'ogressa vegetal feta de pal i molsa, amb els braços com branques. |
 | ginebreda-c02 | exact | ca.wikipedia.org | She is very bad-tempered and beats naughty children with her woody, thorny hands; one blow stings for more than seven weeks. | Té un geni terrible i pega els nens entremaliats amb les seves mans llenyoses, plenes de punxes i arestes. Un cop seu provoca una coïssor que dura més de set setmanes. |
 | ginebreda-c03 | exact | ca.wikipedia.org | The tradition has been recorded at Fumanya, in Fígols. | La tradició s'ha documentat a la bòfia de Fumanya, a Fígols. |
+| ginebreda-c04 | exact | diumenge.ara.cat | In that rugged, wild high-mountain place, among half-ruined miners' houses swallowed by the forest at Peguera, the Ginebreda creeps and lurks, a creature of uncertain origin. | En aquell paratge abrupte i salvatge d’alta muntanya, entre les cases dels miners menjades pel bosc i mig enrunades, s’arrossega aguaitant una criatura d’origen incert, la Ginebreda. |
+| ginebreda-c05 | exact | diumenge.ara.cat | Near Fumanya lies Peguera, an abandoned mining village. | A prop de Fumanya hi ha un altre fòssil, l’esquelet d’un poble miner abandonat anomenat Peguera. |
+| ginebreda-c06 | exact | diumenge.ara.cat | Her arms are like branches, she has leaves instead of hair and feet of knotty roots. | Els braços pareguts a branques, fulles en lloc de cabells i peus d’arrels nuoses. |
+| ginebreda-c07 | exact | diumenge.ara.cat | She is said to have a bloodthirsty temper, always enraged, lamenting the damage done by people. | Diuen que té un temperament sanguinari, sempre enfurismada, lamentant-se de l’estropellament que feien els homes. |
+| ginebreda-c08 | exact | diumenge.ara.cat | The article's author suggests that perhaps lightning caused the Ginebreda's transformation into a plant being. | Potser va ser un llamp, el causant de la transformació de la Ginebreda en un ésser vegetal. |
+| ginebreda-c09 | exact | www.recercacerdanya.org | The Ginebreda is a Catalan ogress made not of flesh and bone but of wood and moss, like trees. | La Ginebreda és una ogressa catalana. No era de carn i ossos, sinó de pal i molsa, com els arbres. |
 
 
 ## gnefro — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gnefro-c01 | exact | it.wikipedia.org | In the folk culture of Umbria, especially Valnerina and the Terni and Rieti area, the gnefro is a legendary creature living in groups near the Marmore falls, Lake Piediluco and the river Nera. | Lo gnefro o gnèfru, nella cultura popolare dell'Umbria, e in particolare della Valnerina, e della zona delle città di Terni e di Rieti, è una creatura leggendaria che è solita vivere in gruppi più o meno numerosi nei pressi della cascata delle Marmore, del lago di Piediluco, e lungo il fiume Nera |
 | gnefro-c02 | exact | it.wikipedia.org | The creature is a kind of sprite or gnome, mostly under a metre tall, bound to water, without which it cannot live. | questa creatura è di fatto assimilabile a una sorta di folletto o gnomo di bassa statura, per lo più inferiore a un metro, ma particolarmente legato all'elemento acqua, senza la quale non potrebbe vivere. |
 | gnefro-c03 | exact | it.wikipedia.org | Some tales say it appears to travellers only at night, sometimes as a pretty child, sometimes as a little gnome with rough, wrinkled skin. | Secondo alcuni racconti appare ai viandanti esclusivamente di notte, a volte con l'aspetto di un bambino grazioso, e altre con le fattezze di una specie di piccolo gnomo con pelle ruvida e cresposa. |
+| gnefro-c04 | exact | www.festadisanvalentinoterni.it | In Terni the word Gnefro has a double meaning: a mischievous gnome, and a silly, foolish person. | Terni il termine Gnefro assume il duplice significato di gnomo dispettoso e sciocco, stupidello. |
+| gnefro-c05 | exact | www.festadisanvalentinoterni.it | Its skin is wrinkled, its character mischievous, and it has small magical powers. | La sua pelle è rugosa, il carattere dispettoso ed è dotato di piccoli poteri magici. |
+| gnefro-c06 | exact | www.festadisanvalentinoterni.it | By day it makes itself invisible, and at dusk it appears to travellers heading to the Cascata (Marmore falls) or walking along the river Nera. | si rende invisibile di giorno e appare all'imbrunire ai viandanti che si recano alla Cascata o che percorrono il fiume Nera |
+| gnefro-c07 | exact | www.festadisanvalentinoterni.it | It can even turn itself into water (trasformarsi in acqua) at will. | può trasformarsi in acqua esso stesso, a suo piacimento |
+| gnefro-c08 | exact | www.festadisanvalentinoterni.it | It is believed to be very long-lived because it can rejuvenate and heal itself. | si ritiene che sia molto longevo in quanto dotato di capacità di ringiovanimento e di autoguarigione |
+| gnefro-c09 | exact | www.lacascatadellemarmore.net | The Gnefro legend springs from this story; it is a cheerful sprite-like creature with rough skin and a smiling face that enjoys pestering visitors with small pranks. | Da questa affascinante storia trae origine la leggenda dello Gnefro, un'allegra creatura simile a un folletto, con la pelle ruvida e il viso sorridente che si divertirebbe a importunare i visitatori con piccoli dispetti. |
+| gnefro-c10 | exact | www.lacascatadellemarmore.net | Legend tells that the beautiful nymph Nera fell in love with the shepherd Velino. | Narra la leggenda che la bella ninfa Nera si fosse innamorata del pastore Velino. |
 
 
 ## greiss — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | greiss-c01 | exact | de.wikipedia.org | Greiss is a cattle-killing demon of Alpine legend, the personification of the livestock disease blackleg (Rauschbrand). | Greiss ist ein viehmordender Dämon aus der Sagenwelt des Alpenraums. Er ist eine Personifizierung der Rauschbrandseuche. |
 | greiss-c02 | exact | de.wikipedia.org | Tradition says Greiss can appear as a black cat, a squirrel or a stranger, or be summoned by baptising a lamb, and can wipe out the herds of whole Alpine pastures. | Das Greiss kann laut Überlieferung in der Gestalt einer schwarzen Katze, eines Eichhörnchens, oder eines Fremden erscheinen oder durch die Taufe eines Lammes hervorgerufen werden und Viehbestände ganzer Alpen vernichten. |
 | greiss-c03 | exact | de.wikipedia.org | Offerings can prevent it; to fight it, a virgin must lead a silver-white bull up to the pasture, which then defeats Greiss. | Zur Vorbeugung könne man Opfer erbringen, zur Bekämpfung müsse ein silberweisser Stier von einer Jungfrau auf die Alp geführt werden, der das Greiss dann besiege. |
+| greiss-c04 | exact | www.bergwelten.com | One day the young shepherd decided to baptise his lamb with real baptismal water from a church. | Eines Tages beschloss er gar, es mit echtem Taufwasser aus einer Kirche zu taufen. |
+| greiss-c05 | exact | www.bergwelten.com | When the boy looked round for the lamb, a horribly black monster stood among the alpine roses instead. | Als sich der Junge besorgt nach dem Lämmlein umsah, stand stattdessen ein entsetzlich schwarzes Ungeheuer in den Alpenrosen. |
+| greiss-c06 | exact | www.bergwelten.com | The gruesome monster, which the herdsmen called the Greiß, tormented people and animals. | Das grause Ungetüm, das die Hirten das Greiß nannten, quälte Menschen und Tiere. |
+| greiss-c07 | exact | www.bergwelten.com | On the Surenenalp there once lived a very young shepherd named Urs. | Auf der Surenenalp lebte einst ein blutjunger Schafhirte namens Urs. |
+| greiss-c08 | exact | www.bergwelten.com | After nine years Agnes, daughter of the Freiherr von Attinghausen, offered to carry out the deliverance of the Surenalp. | Nach neun Jahren bot sich Agnes, die Tochter des Freiherrn von Attinghausen, an, die Erlösung der Surenalp zu vollziehen. |
+| greiss-c09 | exact | www.bergwelten.com | The people of Uri found the Greiß dead, and not far away the victorious silver-white bull also lay dead in its blood. | fanden sie das tote Greiß. Nicht weit daneben lag auch der siegreiche, silberweiße Stier tot in seinem Blut. |
+| greiss-c10 | exact | www.bergwelten.com | They decided to put the head of the victorious bull with its nose ring into their coat of arms. | Sie beschlossen, den Kopf des siegreichen Stiers mit dem Nasenring in ihr Landeswappen aufzunehmen. |
+| greiss-c11 | exact | www.bergwelten.com | To this day an ox head with outstretched tongue and nose ring adorns the coat of arms of the Swiss canton of Uri, and a legend surrounds this "Uristier". | Bis heute ziert ein Ochsenkopf mit ausgestreckter Zunge und Nasenring das Wappen des Schweizer Kantons Uri. Um den „Uristier“ rankt sich eine so schöne wie wilde Legende. |
 
 
 ## gripet — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gripet-c01 | exact | fr.wikipedia.org | The Gripet or Gripé (from gripa, "to seize", according to Frédéric Mistral) is a playful, often helpful spirit, a small figure of Provençal and Languedoc tales close to the lutin. | Le Gripet ou Gripé (de gripa, « saisir », selon Frédéric Mistral) est un « esprit badin souvent serviable », sorte de petit personnage des contes provençaux et languedociens, proche du lutin. |
 | gripet-c02 | exact | fr.wikipedia.org | According to Paul Sébillot, it hides under the beds of women in childbirth and bites the calves of those nursing them. | Selon Paul Sébillot, il se tient sous le lit des femmes en couches et mord les mollets de celles qui les soignent. |
 | gripet-c03 | exact | fr.wikipedia.org | In the Vivarais it may also look after stables, groom and protect horses, but make thin those it dislikes. | Dans le Vivarais, il peut aussi tenir les écuries, panser et soigner les chevaux, les protéger, mais faire maigrir ceux qu'il n'aime pas. |
+| gripet-c04 | exact | archive.org | In Mistral's dictionary the gripet is a follet or lutin, a playful and often helpful spirit fond of playing tricks, in Languedoc. | Follet, lutin, esprit badin et souvent serviable qui se plaît à faire ... niches, en Languedoc |
+| gripet-c05 | exact | archive.org | The word gripet also means a mischievous child (enfant espiègle). | enfant espiègle, v. esperitoun |
+| gripet-c06 | exact | archive.org | According to Sébillot, in the Cévennes people believe that cobwebs left in the stable protect the horses from the gripé, a kind of lutin that comes to torment them. | dans les Cévennes on croit que les toiles qu'on y laisse préservent les ... du gripé, sorte de lutin qui vient les |
 
 
 ## gusarapa — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gusarapa-c01 | exact | ca.wikipedia.org | The Gusarapa is a child-scaring bogey of Catalan mythology, a nocturnal ghost in animal form; in the Priorat it is seen as a kind of ghostly wildcat. | La Gusarapa és un espantamainades propi de la mitologia catalana, un fantasma nocturn de forma animal. Al Priorat se la considera una mena de gat salvatge i fantasmagòric. |
 | gusarapa-c02 | exact | ca.wikipedia.org | The word's origin is uncertain but usually considered pre-Roman, probably related to Basque usan and Spanish gusano, "worm". | Tot i que l'etimologia del mot és incerta, hom li sol atribuir un origen preromà, probablement bascoide, relacionat amb el basc usan i el castellà gusano 'cuc' |
+| gusarapa-c03 | exact | ca.wikipedia.org | In Castilian, the word gusarapa means a small worm-shaped animal that breeds in a liquid. | En castellà, el mot gusarapa val per «animal de mida petita, amb forma de cuc, que es cria en un líquid». |
+| gusarapa-c04 | exact | www.diccionari.cat | A gusarapa is a phantom, an imaginary nocturnal being used to frighten children. | Fantasma, ésser nocturn imaginari amb què hom fa por a les criatures. |
+| gusarapa-c05 | exact | www.diccionari.cat | Catalan may have taken the word from Castilian; its first written source dates from the 19th century (s. XIX). | el cat. potser l’ha rebut del cast 1a font: s. XIX |
+| gusarapa-c06 | exact | dcvb.iec.cat | The phrase "tenir por de la gusarapa" (to be afraid of the gusarapa) means to fear harmless things or to be afraid for no reason. | Tenir por de la gusarapa: tenir por de coses inofensives o sense cap motiu. |
+| gusarapa-c07 | exact | www.diaridetarragona.com | The gusarapa is a kind of wild, ghostly cat from the Priorat. | la gusarapa, una especie de gato salvaje y fantasmal del Priorat |
 
 
 ## gwarch-y-rhybin — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -157,14 +177,19 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | gwarch-y-rhybin-c04 | exact | it.wikipedia.org | She often wails and cries "Fy ngwr, fy ngwr!" ("My husband!") or "Fy mhlentyn, fy mhlentyn bach!" ("My child, my little child!"). | Spesso la Gwarch y Rhybin si lamenta e grida «Fy ngwr, fy ngwr!» ("Mio marito! Mio Marito!) o «Fy mhlentyn, fy mhlentyn bach!» |
 | gwarch-y-rhybin-c05 | exact | it.wikipedia.org | In some versions of the Taliesin myth, Afagddu (Morfran) is her husband. | In alcune varianti del mito di Taliesin, Afagddu (Morfran) sarebbe suo marito. |
 | gwarch-y-rhybin-c06 | exact | it.wikipedia.org | Some link her with Dôn, the Welsh water goddess. | Secondo alcuni la sua figura è collegata alla divinità della acque gallese Dôn. |
+| gwarch-y-rhybin-c07 | exact | www.gutenberg.org | A Welsh saying for an unlovely woman is "Y mae mor salw a Gwrach y Rhibyn" (She is as ugly as the Gwrach y Rhibyn). | A Welsh saying, regarding one of her sex who is the reverse of lovely, is, 'Y mae mor salw a Gwrach y Rhibyn,' (She is as ugly as the Gwrach y Rhibyn.) |
+| gwarch-y-rhybin-c08 | exact | www.gutenberg.org | Sometimes it appears in the mist on the mountain side, at crossroads, or by water which it splashes with its hands. | sometimes it appears in the mist on the mountain side, or at cross-roads, or by a piece of water which it splashes with its hands |
+| gwarch-y-rhybin-c09 | exact | www.gutenberg.org | The Gwrach y Rhibyn is a female that at times chooses to be a male. | the Gwrach y Rhibyn defies all rules by being a female which at times sees fit to be a male |
+| gwarch-y-rhybin-c10 | exact | www.gutenberg.org | When it chooses to be male, its cry becomes "Fy ngwraig! fy ngwraig!" (my wife! my wife!). | But when it chooses to be a male, this cry is changed to 'Fy ngwraig! fy ngwraig!' (my wife! my wife!) |
+| gwarch-y-rhybin-c11 | exact | www.gutenberg.org | According to an account the author collected, the Gwrach y Rhibyn had recently appeared at Llandaff. | The Gwrach y Rhibyn recently appeared, according to an account given me by a person who claimed to have seen it, at Llandaff. |
+| gwarch-y-rhybin-c12 | exact | www.gutenberg.org | The next day the witness was told that the keeper of the Cow and Snuffers Inn, where he had seen the figure enter, had died in the night. | The next day, it's the honest truth I'm telling you, they told me the man who kept the Cow and Snuffers Inn was dead--had died in the night. |
+| gwarch-y-rhybin-c13 | exact | www.gutenberg.org | The author notes the close resemblance of this goblin to the Irish banshee. | The close resemblance of this goblin to the Irish banshee (or benshi) will be at once perceived. |
+| gwarch-y-rhybin-c14 | exact | www.gutenberg.org | In Glamorganshire the Gwrach y Rhibyn also appears as a river spectre. | The Gwrach y Rhibyn appears also as a river-spectre, in Glamorganshire. |
 
 
 ## haqueta-de-foc — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -174,28 +199,30 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | haqueta-de-foc-c04 | exact | ca.wikipedia.org | In Beneixama it was said the pony roamed the village streets, and no one dared go out after dark for fear of meeting it. | A Beneixama es deia que l'haca es passejava una estona pels carrers del poble i ningú no gosava sortir de casa un cop fosc per por de topar-s'hi. |
 | haqueta-de-foc-c05 | exact | ca.wikipedia.org | Some farmers once saw the pony in astonishment, crossing the fields wrapped in fire and ridden by a knight. | uns llauradors van veure una nit astorats l'haqueta mentre cavalcava pels bancals envoltada de foc i muntada per un cavaller. |
 | haqueta-de-foc-c06 | exact | ca.wikipedia.org | The legend parallels that of Comte Arnau, condemned to ride for eternity on a black horse that breathes fire from its mouth and eyes. | La llegenda de l'haqueta de foc guarda un cert paral·lelisme amb la del Comte Arnau, condemnat a cavalcar durant tota l'eternitat sobre un cavall negre que treu flames per la boca i els ulls. |
+| haqueta-de-foc-c07 | exact | alicanteplaza.es | It is said that the haqueta de foc always followed the same route along the foothills of the Benicadell, parallel to the river Serpis, from the maset del Gord near Beniarrés towards l'Orxa and the castle of Perputxent. | l’haqueta de foc tendia sempre a fer un mateix recorregut, a les faldes del Benicadell, en paral·lel al riu Serpis, des del maset del Gord (a les proximitats de Beniarrés), en direcció a l’Orxa i el castell de Perputxent. |
+| haqueta-de-foc-c08 | exact | alicanteplaza.es | Some still claim that the haqueta de foc returns, at least once a year, to the valley of Perputxent. | també hi ha qui assegura que l’haqueta de foc encara torna, almenys una volta a l’any, a l’antiga, intricada, amable, misteriosa i màgica vall de Perputxent |
+| haqueta-de-foc-c09 | exact | alicanteplaza.es | This imagery of the fire horse is linked to the season of All Saints (Tots Sants). | aquest imaginari del cavall de foc, vinculat al temps de Tots Sants |
 
 
 ## hatcukliba — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hatcukliba-c01 | exact | it.wikipedia.org | In Native American tradition the Hatcukliba was a large lizard covered in glittering scales. | L'Hatcukliba, secondo la tradizione dei nativi americani, era un grosso lucertolone ricoperto di scaglie scintillanti. |
 | hatcukliba-c02 | exact | it.wikipedia.org | It lived in Creek territory, reportedly roared, devoured dogs and children, and ran as fast as a man. | Viveva nel territorio dei Creek. Pare che emettesse dei ruggiti e che divorasse cani e bambini. Inoltre correva veloce come un uomo. |
 | hatcukliba-c03 | exact | it.wikipedia.org | In some ways it resembled the Scultone of Sardinian folk belief. | Per certi versi era simile allo Scultone delle credenze popolari Sarde. |
+| hatcukliba-c04 | exact | archive.org | The Hatcukliba tale is recorded under the title "The Hunter, the Monster Lizard, and the Panther". | The Hunter, the Monster Lizard, and the Panther |
+| hatcukliba-c05 | exact | archive.org | The hatcukliba would come out, take a dog, and carry it back into its den. | The hatcukliba would come out, take a dog, and carry it back into his den. |
+| hatcukliba-c06 | exact | archive.org | The creature came after the hunter, glittering as it came. | coming after him, glittering as it came. |
+| hatcukliba-c07 | exact | archive.org | When it leapt at him he shot it, but it seized him by the middle, knocked his gun from his hands, and carried him off. | When it came jumping up to him he shot it, but it seized him by the middle, knocked his gun out of his hands, and started back with him. |
+| hatcukliba-c08 | exact | archive.org | A Panther repeatedly jumped down from a tree onto the hatcukliba and back, tearing its back to rags and killing it. | Every chance it got the Panther would jump down upon the hatcukliba and then back to the tree, and in this way it tore the hatcukliba’s back to rags and killed it. |
 
 
 ## hippanthrope — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -206,26 +233,29 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | hippanthrope-c05 | exact | fr.wikipedia.org | A young woman who said she had been turned into a mare was brought to Saint Macarius, who could not confirm her claim. | On présenta à saint Macaire une jeune femme qui se disait transformée en jument ; il ne lui fut pas possible de constater la vérité de cette assertion |
 | hippanthrope-c06 | exact | fr.wikipedia.org | Hippanthropy is mentioned in the story of Melanippe, daughter of Chiron, a nymph born with the gift of prophecy. | L'hippanthropie est mentionnée dans l'histoire de Mélanippe fille de Chiron, une nymphe qui naquit douée du don de prophétie. |
 | hippanthrope-c07 | exact | fr.wikipedia.org | Depending on the version, she was turned into a black mare or a winged horse as punishment for telling Chiron he would lose his immortality. | Selon les versions, elle est changée en jument noire ou en cheval ailé en punition pour avoir révélé à Chiron qu'il perdrait son immortalité. |
+| hippanthrope-c08 | exact | www.newadvent.org | Præstantius told how his father took poison in a piece of cheese at home and lay in bed as if asleep, impossible to wake. | For a certain man called Præstantius used to tell that it had happened to his father in his own house, that he took that poison in a piece of cheese, and lay in his bed as if sleeping, yet could by no means be aroused. |
+| hippanthrope-c09 | exact | www.newadvent.org | On waking the father said he had been made a sumpter (pack) horse and, with other beasts of burden, had carried provisions for the soldiers of the Rhœtian Legion. | that he had been made a sumpter horse, and, along with other beasts of burden, had carried provisions for the soldiers of what is called the Rhœtian Legion |
+| hippanthrope-c10 | exact | www.newadvent.org | In Italy it was said that landladies of inns versed in wicked arts gave travellers something in a piece of cheese that changed them on the spot into beasts of burden. | Indeed we ourselves, when in Italy, heard such things about a certain region there where landladies of inns, imbued with these wicked arts, were said to be in the habit of giving to such travellers as they chose, or could manage, something in a piece of cheese by which they were changed on the spot into beasts of burden |
+| hippanthrope-c11 | exact | www.newadvent.org | The author did not believe that the body, still less the mind, can really be changed into animal form by the power of demons. | I cannot therefore believe that even the body, much less the mind, can really be changed into bestial forms and lineaments by any reason, art, or power of the demons |
 
 
 ## homem-das-sete-dentaduras — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | homem-das-sete-dentaduras-c01 | exact | pt.wikipedia.org | The Homem das sete dentaduras ("man of seven sets of teeth") is a mythical being of Portuguese folklore. | O Homem das sete dentaduras é um ser mítico do folclore português. |
+| homem-das-sete-dentaduras-c02 | exact | archive.org | In the Algarve, at the place called Cerro vermelho, the evil genius (génio maléfico) called the Homem das sete dentaduras appears at noon. | no Algarve, no sitio do Cerro vermelho, é á hora do meio dia que apparece o génio maléfico denominado o Homem das sete dentaduras. |
+| homem-das-sete-dentaduras-c03 | exact | archive.org | It appears only in solitary places at the magic hour of noon. | e só apparece nos logares solitários á hora magica do meio dia |
+| homem-das-sete-dentaduras-c04 | exact | archive.org | The Homem das sete dentaduras is described as a demonic noonday entity (entidade demoníaca meridiana), known at Cerro vermelho and Fuzeta. | Além da entidade demoníaca meridiana do Homem das sete dentaduras (Cerro vermelho, Fuzeta): |
+| homem-das-sete-dentaduras-c05 | exact | archive.org | The Entreaberto, the Homem das sete dentaduras and similar figures can only be understood in their demonic form through their relation to the declining sun (Sol que declina). | O Entreaberto ou Encantado, o Homem das ... na forma demoniaca pela sua relação com o Sol que declina |
+| homem-das-sete-dentaduras-c06 | exact | archive.org | In the table of contents the Homem das sete dentaduras is grouped among survivals of a sidereal or solar (sideral, ou solar) polytheism, together with the Entreabertos. | sideral, ou solar : Entreabertos e Homem das Sete dentaduras |
 
 
 ## homem-do-chapeu-de-ferro — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -236,14 +266,15 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | homem-do-chapeu-de-ferro-c05 | exact | pt.wikipedia.org | He wears a huge iron hat sunk on his head, is colossal, has a monster's gaping mouth that spits flames when enraged, and is bronze in colour. | Traz um enorme chapéu de ferro enterrado na cabeça. E' uma figura colossal, tem a boca rasgada como a d'um monstro, deitando chamas quando se enche de raiva, e a sua cor é a do bronze. |
 | homem-do-chapeu-de-ferro-c06 | exact | pt.wikipedia.org | To take revenge on the men he hates, he attacks, robs and kills them. | Também, para se vingar dos homens que odeia, assalta-os, rouba-os e mata-os. |
 | homem-do-chapeu-de-ferro-c07 | exact | pt.wikipedia.org | Yet he flees when he sees the old woman of the white mare. | Todavia foge quando avista a velha da égua branca. |
+| homem-do-chapeu-de-ferro-c08 | exact | archive.org | Among the various evil entities, the homem do chapéu (chapeo) de ferro stands out as the most terrible. | Entre as diversas entidades maléficas, o homem do chapeo de ferro sobresáe como a mais terrível. |
+| homem-do-chapeu-de-ferro-c09 | exact | archive.org | It spits flames when enraged, and its colour is that of bronze. | chammas quando se enche de raiva, e a sua cor é a do bronze. |
+| homem-do-chapeu-de-ferro-c10 | exact | archive.org | It is said that the homem do chapéu de ferro was one of the soldiers (soldados) who scourged, and that for this the Eternal Father (Padre Eterno) acted upon him. | Diz-se que o homem do chapeo de ferro é um dos soldados que açoutaram ... e que por isso o Padre Eterno |
+| homem-do-chapeu-de-ferro-c11 | exact | archive.org | The contributor stresses that what he set out is exactly what those people (povo) say and believe. | O que fica exposto é exactamente o que aquelle povo diz e crê. |
 
 
 ## houeran — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -256,14 +287,15 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | houeran-c07 | exact | fr.wikipedia.org | Xavier Thiriat dates the legend's birth to the early 19th century and gives it a rational origin: a clever forest guard who disguised himself to scare offenders. | Il en situe la naissance au début du XIXe siècle et lui attribue une origine rationnelle ... un garde bien avisé qui se travestissait pour épouvanter les délinquants. |
 | houeran-c08 | exact | fr.wikipedia.org | For Jean Saltel, his horns, immunity to fire and role as forest guardian bring him closer to the god Cernunnos. | ses cornes, son immunité contre le feu et son rôle de gardien des forêts, le rapproche davantage du dieu Cernunnos. |
 | houeran-c09 | exact | fr.wikipedia.org | For Jean-Michaël Choserot, the Houéran legend comes from the eagle owl. | Pour Jean-Michaël Choserot, la légende du Houéran viendrait du Hibou grand-duc. |
+| houeran-c10 | exact | www.jds.fr | Old accounts describe a foul beast, a mix of giant and billy-goat, with blazing eyes, able to grasp burning embers without being burned. | Les anciens témoignages font état d'une bête immonde, mélange d'un géant et d'un bouc, aux yeux flamboyants et capable de saisir des tisons enflammés sans se brûler. |
+| houeran-c11 | exact | www.jds.fr | The article wonders whether the forest guards themselves launched this legend to prevent certain temptations. | Et si ce n'étaient pas les gardes forestiers eux-mêmes qui avaient lancé cette légende pour prévenir certaines tentations ? |
+| houeran-c12 | exact | www.centpourcent-vosges.fr | Literally, its name means "crier" (crieur) in patois. | Littéralement, son nom veut dire « crieur » en patois. |
+| houeran-c13 | exact | www.centpourcent-vosges.fr | Those unlucky enough to see it describe a giant being with a long, shaggy beard. | Ceux qui ont eu le malheur de le voir le décrivent comme un être géant, avec une barbe longue et hirsute. |
 
 
 ## iamuna — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -274,6 +306,10 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | iamuna-c05 | exact | es.wikipedia.org | She is usually shown as a woman riding a turtle, attended by one or two servants carrying a parasol. | Generalmente se le representa como un personaje femenino montado sobre una tortuga, acompañada por una o dos sirvientes que portan una sombrilla. |
 | iamuna-c06 | exact | es.wikipedia.org | Her image often stands at temple gateways beside the Ganges goddess, symbolically purifying worshippers who cross the threshold. | Su representación suele aparecer en las puertas de entrada a los templos, junto a la diosa del Ganges. Su presencia simbólica sirve para que el fiel que cruza el umbral de la puerta quede purificado. |
 | iamuna-c07 | exact | es.wikipedia.org | Her name means "twin", from iamáka or iáma, "twin brother". | Etimología: ‘gemela’, siendo iamáka o iáma: ‘hermano gemelo’. |
+| iamuna-c08 | exact | en.wikipedia.org | Yamuna is known as Yami in early texts, while later literature calls her Kalindi. | Yamuna is known as Yami in early texts, while in later literature she is called Kalindi. |
+| iamuna-c09 | exact | en.wikipedia.org | She is associated with Krishna as one of his eight principal consorts, the Ashtabharya. | She is associated with the deity Krishna as one of his eight principal consorts, called the Ashtabharya. |
+| iamuna-c10 | exact | en.wikipedia.org | The Agni Purana describes Yamuna as black-complexioned, standing on her mount, the tortoise, and holding a water pot. | The Agni Purana describes Yamuna as black in complexion, standing on her mount, the tortoise, and holding a water pot in her hand. |
+| iamuna-c11 | exact | en.wikipedia.org | Her confluence with the Ganges and the mythical Sarasvati River, called Triveni Sangam, is a very holy pilgrimage site. | Her confluence with the Ganges and the mythical Sarasvati River is called Triveni Sangam, which is a very holy pilgrimage spot. |
 
 
 ## icanti — lulus-otomatis
@@ -291,10 +327,7 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 ## isabit — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -305,6 +338,10 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | isabit-c05 | exact | fr.wikipedia.org | To ease its pain, the serpent drank all the water of the nearby torrents until it burst, creating the lake of Isaby. | Pour calmer sa douleur, le serpent avala toute l’eau des torrents et gaves environnants, finit par exploser et ainsi créa le lac d’Isaby. |
 | isabit-c06 | exact | fr.wikipedia.org | Because the monster was cursed by God, hail fell ceaselessly on the village that used its ribs for a church, stopping only once the bones were burned. | Mais le monstre étant maudit par dieu, la grêle tomba sans relâche sur le village, et dès que les villageois eurent brûlé les os, la grêle cessa. |
 | isabit-c07 | exact | fr.wikipedia.org | Ernest de Garay read the fire burning the serpent's entrails as the earth's central fire, an eruption that gave birth to the lake. | Ce feu terrible dont sont dévorées les entrailles du monstrueux serpent jusqu'à ce qu'il crève à force d'avoir bu pour l'éteindre |
+| isabit-c08 | exact | escolagastonfebus.com | Isabit is the fabulous serpent that greedily sucks in cows, sheep and shepherds, leaning over the Argelès valley. | Isabit le serpent fabuleux qui aspire goulûment les vaches, les moutons et les bergers, penché sur la vallée d’Argelès. |
+| isabit-c09 | exact | www.lamarquemonvillage.fr | Other accounts speak of seven red-hot iron bars, and the blacksmith reportedly had to repeat his brave act seven times. | D'autres témoins parlent de sept barres de fer portées au rouge. Il parait qu'il dut renouveler son acte courageux sept fois |
+| isabit-c10 | exact | www.lamarquemonvillage.fr | The blacksmith is said to have been rewarded, for himself and his descendants, with free grazing rights where the dreadful animal had once raged. | On croit savoir que notre forgeron obtint en récompense, pour lui et sa descendance, un droit de pacage gratuit, là où auparavant sévissait l'épouvantable animal. |
+| isabit-c11 | exact | www.lamarquemonvillage.fr | The villagers understood that one cannot offer the Creator a church made of the bones of a cursed beast. | Ils comprirent que l'on ne peut offrir au Créateur, une église faite des ossements d'une bête maudite. |
 
 
 ## joanet — lulus-otomatis

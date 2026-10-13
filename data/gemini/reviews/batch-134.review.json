@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-134",
-  "checked_at": "2026-10-02T04:45:26.038Z",
+  "checked_at": "2026-10-13T19:04:00.813Z",
   "files": [
-    "batch-134.md"
+    "batch-134.md",
+    "batch-134-fix-1.md",
+    "batch-134-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "gatto-mammone",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "4b29485844ce83442be17a83943ce3e57fdfe73c767e509eea8c97dd7f3777c3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gatto-mammone-c01",
@@ -83,26 +80,81 @@
           "quote": "Il gatto mammone appare di frequente nelle fiabe di tradizione italiana, per esempio nel Pentamerone di Giambattista Basile o nella Novellaja Fiorentina di Vittorio Imbriani, e spesso lo si menziona per spaventare i bambini",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "gatto-mammone-c07",
+          "source_id": "gatto-mammone-s2",
+          "host": "www.treccani.it",
+          "statement": "According to an Italian dictionary, the gattomammone is an imaginary monster of fables whose name is invoked to frighten children.",
+          "statement_id": "Menurut kamus bahasa Italia, gattomammone adalah monster khayalan dalam dongeng yang namanya biasa diserukan untuk menakut-nakuti anak-anak.",
+          "quote": "Mostro immaginario delle favole, di cui si suole invocare il nome per incutere timore ai bambini",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gatto-mammone-c08",
+          "source_id": "gatto-mammone-s2",
+          "host": "www.treccani.it",
+          "statement": "In archaic usage the word also named an ill-defined kind of monkey, probably a baboon.",
+          "statement_id": "Dalam pemakaian kuno, kata ini juga menamai sejenis kera yang tidak jelas jenisnya, mungkin sejenis babun.",
+          "quote": "Nome d’una specie di scimmia non ben determinata, prob. una specie di babbuino",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gatto-mammone-c09",
+          "source_id": "gatto-mammone-s3",
+          "host": "www.lavaldichiana.it",
+          "statement": "The Gatto Mammone, also called Re dei Gatti (King of Cats), is a magical creature of folk tradition known in many Italian regions.",
+          "statement_id": "Gatto Mammone, yang juga disebut Re dei Gatti (Raja Kucing), adalah makhluk ajaib tradisi rakyat yang dikenal di banyak wilayah Italia.",
+          "quote": "Chiamato anche Re Dei Gatti, il Gatto Mammone è una creatura magica della tradizione popolare conosciuta in molte regioni italiane",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gatto-mammone-c10",
+          "source_id": "gatto-mammone-s3",
+          "host": "www.lavaldichiana.it",
+          "statement": "In Valdichiana the Gatto Mammone is believed to live in dark, isolated places, looking above all for naughty children to eat.",
+          "statement_id": "Di Valdichiana, Gatto Mammone dipercaya tinggal di tempat gelap dan terpencil serta mencari anak-anak nakal untuk dimakan.",
+          "quote": "In Valdichiana la credenza vede il Gatto Mammone come una creatura incline a vivere nei luoghi bui e isolati,cercando soprattutto bambini cattivi da mettere sotto i denti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gatto-mammone-c11",
+          "source_id": "gatto-mammone-s3",
+          "host": "www.lavaldichiana.it",
+          "statement": "It is generally described as a completely black cat.",
+          "statement_id": "Ia umumnya digambarkan sebagai kucing yang seluruhnya hitam.",
+          "quote": "Viene generalmente descritto come un gatto completamente nero",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gatto-mammone-c12",
+          "source_id": "gatto-mammone-s3",
+          "host": "www.lavaldichiana.it",
+          "statement": "Accounts from the province of Belluno also refer to the Gatto Mammone as a monstrous feline that used to frighten grazing cows.",
+          "statement_id": "Kesaksian di provinsi Belluno juga menyebut Gatto Mammone sebagai kucing raksasa mengerikan yang biasa menakuti sapi yang merumput.",
+          "quote": "Alla figura del Gatto Mammone fanno riferimento anche le testimonianze in provincia di Belluno, che parlano di un mostruoso felino che era solito spaventare le mucche al pascolo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gegant-de-la-neu",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "1a260dc13decf890701d2d58c22794038c080da2a73ecbfead0bea6c1f8e7c48",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gegant-de-la-neu-c01",
@@ -133,26 +185,71 @@
           "quote": "la velleta, mentre el seu marit treballava, es va entretenir fent un ninot de neu que va vestir de nena. El ninot de sobte va cobrar vida davant la felicitat del matrimoni",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gegant-de-la-neu-c04",
+          "source_id": "gegant-de-la-neu-s2",
+          "host": "www.vilaweb.cat",
+          "statement": "It is said that sometimes, when a snowman melts, it can come to life.",
+          "statement_id": "Konon kadang-kadang, ketika boneka salju mencair, ia bisa menjadi hidup.",
+          "quote": "Diuen que de vegades, quan es fon un ninot de neu, pot prendre vida.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-de-la-neu-c05",
+          "source_id": "gegant-de-la-neu-s2",
+          "host": "www.vilaweb.cat",
+          "statement": "This happened to an old married couple who lived in a ramshackle hut in the Pyrenees (Pirineu).",
+          "statement_id": "Hal itu dialami sepasang suami istri tua yang tinggal di sebuah pondok reyot di Pirenia (Pirineu).",
+          "quote": "Doncs això els va passar a dos vells, un matrimoni, que vivien en una cabana esbotzada al Pirineu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-de-la-neu-c06",
+          "source_id": "gegant-de-la-neu-s2",
+          "host": "www.vilaweb.cat",
+          "statement": "Having no children, every winter at the first snowfall they made a snowman and put it by the hearth, and when it melted it became a child whom they took in as their own.",
+          "statement_id": "Karena tidak punya anak, setiap musim dingin pada salju pertama mereka membuat boneka salju, menaruhnya di perapian, dan ketika mencair ia menjadi seorang anak yang mereka rawat seperti anak sendiri.",
+          "quote": "Com que no tenien fills, cada hivern, a la primera nevada, feien un ninot de neu, el posaven dins la llar de foc i quan es fonia esdevenia un nen, que ells acollien com un fill.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-de-la-neu-c07",
+          "source_id": "gegant-de-la-neu-s2",
+          "host": "www.vilaweb.cat",
+          "statement": "But in March, when spring was pressing in, the child melted away.",
+          "statement_id": "Namun pada bulan Maret, ketika musim semi datang, anak itu mencair.",
+          "quote": "Això sí, el mes de març, quan la primavera ja empenyia, el nen es fonia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-de-la-neu-c08",
+          "source_id": "gegant-de-la-neu-s2",
+          "host": "www.vilaweb.cat",
+          "statement": "The tale was told on video by the storyteller (rondallaire) Albert Estengre in VilaWeb's daily series of traditional tales.",
+          "statement_id": "Kisah ini diceritakan dalam video oleh pendongeng (rondallaire) Albert Estengre dalam seri dongeng tradisional harian VilaWeb.",
+          "quote": "VilaWeb publica enguany un conte tradicional cada dia, en vídeo, relatat pel rondallaire Albert Estengre",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gegant-del-romani",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "4a57856ceb31fed3c5a021c8b07fdc02190b80fb8e861d50693827190aebc540",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gegant-del-romani-c01",
@@ -183,26 +280,91 @@
           "quote": "Francesc Gisbert el descriu com un personatge negre, alt, gros i immens, amb poders meravellosos. Segresta jovenets com també ho fa l'Ogre de la Caputxa Negra, i viu a un castell amb una princesa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c04",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "The exhibition guide explains that there was a giant called the Gegant del Romaní, named Aixa because he waited buried beneath a rosemary bush (romaní or romer).",
+          "statement_id": "Panduan pameran menjelaskan bahwa ada raksasa bernama Gegant del Romaní, yang dipanggil Aixa karena menunggu terkubur di bawah semak rosemary (romaní atau romer).",
+          "quote": "Expliquem que alli hi havia un gegant, dit el Gegant del Romani, que és deia Aixa perquè esperava colgar sota un romani o romer",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c05",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "Someone pulled the rosemary that was the Gegant del Romaní's hair, and the giant abducted him.",
+          "statement_id": "Seseorang menarik rosemary yang merupakan rambut Gegant del Romaní, lalu raksasa itu menculiknya.",
+          "quote": "va estirar el romer que era la cabellera del Gegant del Romani, i el gegant el va raptar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c06",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "The tale's hero is Batiste, the horn-player (corner) of Benifallim.",
+          "statement_id": "Tokoh utama kisah itu adalah Batiste, peniup terompet tanduk (corner) dari Benifallim.",
+          "quote": "Presentem el personatge: és Batiste, el corner de Benifallim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c07",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "A serpent as thick as a pine trunk: if someone defeats it, a hare (llebre) will run out of it.",
+          "statement_id": "Seekor ular sebesar batang pinus: bila ada yang mengalahkannya, dari dalam tubuhnya akan lari seekor kelinci liar (llebre).",
+          "quote": "La serp és Grossa com la soca d`un pi, si algú lluita contra ella i la venç, de dins d`ella, n`eixirà fugint una llebre.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c08",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "That pigeon flies very well; if caught, it would lay an egg, because it is female (Coloma).",
+          "statement_id": "Burung merpati itu terbang sangat cepat; bila tertangkap, ia akan bertelur karena ia betina (Coloma).",
+          "quote": "Aquell colom és molt volador i, si algú el podia agafar, pondría un ou, perquè és Coloma.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c09",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "By breaking that egg on the Gegant del Romaní's forehead, he would die; it is the only way to defeat that giant.",
+          "statement_id": "Dengan memecahkan telur itu di dahi Gegant del Romaní, raksasa itu akan mati; itulah satu-satunya cara mengalahkannya.",
+          "quote": "Amb aquell ou, trencant-li`l al front al Gegant del Romani , moriría: és l`únic amanera de véncer aquell gegant.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-del-romani-c10",
+          "source_id": "gegant-del-romani-s2",
+          "host": "www.upv.es",
+          "statement": "These are among the adventures found in Enric Valor's Rondalles.",
+          "statement_id": "Kisah-kisah ini termasuk petualangan dalam Rondalles karya Enric Valor.",
+          "quote": "moltes de les aventures que es troben a les Rondalles d`Enric Valor",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gegant-negre",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "958a5d5331c10dd3c14f80dd5f3db90e30cb7e0743b4d43aa423e93f8a144691",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gegant-negre-c01",
@@ -243,6 +405,36 @@
           "quote": "El gegant negre és alt, però no exageradament: fa tres o quatre pams més que un home normal. Se'l presenta vestit només amb uns saragüells i armat amb un garrot",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gegant-negre-c05",
+          "source_id": "gegant-negre-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Gaspar Escolano recorded in the second volume of his Décadas de la historia de la insigne y coronada ciudad y Reyno de Valencia (1610-1611) the legend of the gegant negre guarding a fabulous treasure in a cave at Benidoleig, in the Marina Alta.",
+          "statement_id": "Gaspar Escolano mencatat dalam jilid kedua Décadas de la historia de la insigne y coronada ciudad y Reyno de Valencia (1610-1611) legenda gegant negre yang menjaga harta luar biasa di sebuah gua di Benidoleig, Marina Alta.",
+          "quote": "Gaspar Escolano recull al segon volum de la seva monumental Décadas de la historia de la insigne y coronada ciudad y Reyno de Valencia (1610-1611) la llegenda del gegant negre que vigilava un tresor fabulós a una cova de Benidoleig, a la Marina Alta",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-negre-c06",
+          "source_id": "gegant-negre-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Only when the man who stole the jewels returns them to the giant does the giant undo the spell, and the cave opens to let the four men leave.",
+          "statement_id": "Hanya setelah orang yang mencuri perhiasan mengembalikannya kepada sang raksasa, raksasa itu membatalkan mantranya dan gua terbuka sehingga keempat orang itu bisa keluar.",
+          "quote": "Només quan el que ha furtat les joies les hi torna al gegant, aquest desfà l'encanteri i la cova s'obre per permetre als quatre homes abandonar-la.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gegant-negre-c07",
+          "source_id": "gegant-negre-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "In the País Valencià there are many legends in which a black giant (gegant negre) guards a hidden treasure.",
+          "statement_id": "Di País Valencià banyak legenda tentang raksasa hitam (gegant negre) yang menjaga harta tersembunyi.",
+          "quote": "Al País Valencià són nombroses també les llegendes en què un gegant negre custodia un tresor amagat.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -264,24 +456,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "e8408e1012d6db068b06a1f1b9f414e7282f0a362bb72525dccf1b27f8748953"
     },
     {
       "slug": "ginebreda",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "23bc44cd049a4c58b1c053ac957dc4364d53d9a4b67fbff13bd35640e4ef306f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ginebreda-c01",
@@ -312,26 +500,81 @@
           "quote": "La tradició s'ha documentat a la bòfia de Fumanya, a Fígols.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ginebreda-c04",
+          "source_id": "ginebreda-s2",
+          "host": "diumenge.ara.cat",
+          "statement": "In that rugged, wild high-mountain place, among half-ruined miners' houses swallowed by the forest at Peguera, the Ginebreda creeps and lurks, a creature of uncertain origin.",
+          "statement_id": "Di kawasan pegunungan tinggi yang terjal dan liar, di antara rumah-rumah penambang yang setengah runtuh dan ditelan hutan di Peguera, Ginebreda merayap mengintai; asal-usulnya tidak jelas.",
+          "quote": "En aquell paratge abrupte i salvatge d’alta muntanya, entre les cases dels miners menjades pel bosc i mig enrunades, s’arrossega aguaitant una criatura d’origen incert, la Ginebreda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ginebreda-c05",
+          "source_id": "ginebreda-s2",
+          "host": "diumenge.ara.cat",
+          "statement": "Near Fumanya lies Peguera, an abandoned mining village.",
+          "statement_id": "Di dekat Fumanya terdapat Peguera, desa tambang yang telah ditinggalkan.",
+          "quote": "A prop de Fumanya hi ha un altre fòssil, l’esquelet d’un poble miner abandonat anomenat Peguera.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ginebreda-c06",
+          "source_id": "ginebreda-s2",
+          "host": "diumenge.ara.cat",
+          "statement": "Her arms are like branches, she has leaves instead of hair and feet of knotty roots.",
+          "statement_id": "Lengannya seperti dahan, rambutnya berupa daun, dan kakinya berupa akar yang berbonggol.",
+          "quote": "Els braços pareguts a branques, fulles en lloc de cabells i peus d’arrels nuoses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ginebreda-c07",
+          "source_id": "ginebreda-s2",
+          "host": "diumenge.ara.cat",
+          "statement": "She is said to have a bloodthirsty temper, always enraged, lamenting the damage done by people.",
+          "statement_id": "Konon wataknya haus darah dan selalu murka, meratapi kerusakan yang dibuat manusia.",
+          "quote": "Diuen que té un temperament sanguinari, sempre enfurismada, lamentant-se de l’estropellament que feien els homes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ginebreda-c08",
+          "source_id": "ginebreda-s2",
+          "host": "diumenge.ara.cat",
+          "statement": "The article's author suggests that perhaps lightning caused the Ginebreda's transformation into a plant being.",
+          "statement_id": "Penulis artikel menduga bahwa mungkin petir yang mengubah Ginebreda menjadi makhluk tumbuhan.",
+          "quote": "Potser va ser un llamp, el causant de la transformació de la Ginebreda en un ésser vegetal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ginebreda-c09",
+          "source_id": "ginebreda-s3",
+          "host": "www.recercacerdanya.org",
+          "statement": "The Ginebreda is a Catalan ogress made not of flesh and bone but of wood and moss, like trees.",
+          "statement_id": "Ginebreda adalah raksasa perempuan (ogressa) Katalan yang tidak terbuat dari daging dan tulang, melainkan dari kayu dan lumut seperti pohon.",
+          "quote": "La Ginebreda és una ogressa catalana. No era de carn i ossos, sinó de pal i molsa, com els arbres.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gnefro",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "de7e04db2d6b6fa2af0bb38d2b44639343ac069215b26d73ca48193d54e1ccaa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gnefro-c01",
@@ -362,26 +605,91 @@
           "quote": "Secondo alcuni racconti appare ai viandanti esclusivamente di notte, a volte con l'aspetto di un bambino grazioso, e altre con le fattezze di una specie di piccolo gnomo con pelle ruvida e cresposa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gnefro-c04",
+          "source_id": "gnefro-s2",
+          "host": "www.festadisanvalentinoterni.it",
+          "statement": "In Terni the word Gnefro has a double meaning: a mischievous gnome, and a silly, foolish person.",
+          "statement_id": "Di Terni, kata Gnefro punya dua makna: gnome yang usil dan orang yang bodoh atau dungu.",
+          "quote": "Terni il termine Gnefro assume il duplice significato di gnomo dispettoso e sciocco, stupidello.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gnefro-c05",
+          "source_id": "gnefro-s2",
+          "host": "www.festadisanvalentinoterni.it",
+          "statement": "Its skin is wrinkled, its character mischievous, and it has small magical powers.",
+          "statement_id": "Kulitnya keriput, wataknya usil, dan ia memiliki kekuatan sihir kecil.",
+          "quote": "La sua pelle è rugosa, il carattere dispettoso ed è dotato di piccoli poteri magici.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gnefro-c06",
+          "source_id": "gnefro-s2",
+          "host": "www.festadisanvalentinoterni.it",
+          "statement": "By day it makes itself invisible, and at dusk it appears to travellers heading to the Cascata (Marmore falls) or walking along the river Nera.",
+          "statement_id": "Pada siang hari ia membuat dirinya tak terlihat dan muncul saat senja kepada pejalan yang menuju Cascata (air terjun Marmore) atau menyusuri Sungai Nera.",
+          "quote": "si rende invisibile di giorno e appare all'imbrunire ai viandanti che si recano alla Cascata o che percorrono il fiume Nera",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gnefro-c07",
+          "source_id": "gnefro-s2",
+          "host": "www.festadisanvalentinoterni.it",
+          "statement": "It can even turn itself into water (trasformarsi in acqua) at will.",
+          "statement_id": "Ia bahkan dapat berubah menjadi air (trasformarsi in acqua) sesuka hatinya.",
+          "quote": "può trasformarsi in acqua esso stesso, a suo piacimento",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gnefro-c08",
+          "source_id": "gnefro-s2",
+          "host": "www.festadisanvalentinoterni.it",
+          "statement": "It is believed to be very long-lived because it can rejuvenate and heal itself.",
+          "statement_id": "Ia dipercaya berumur sangat panjang karena mampu meremajakan dan menyembuhkan dirinya sendiri.",
+          "quote": "si ritiene che sia molto longevo in quanto dotato di capacità di ringiovanimento e di autoguarigione",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gnefro-c09",
+          "source_id": "gnefro-s3",
+          "host": "www.lacascatadellemarmore.net",
+          "statement": "The Gnefro legend springs from this story; it is a cheerful sprite-like creature with rough skin and a smiling face that enjoys pestering visitors with small pranks.",
+          "statement_id": "Legenda Gnefro berasal dari kisah itu; Gnefro adalah makhluk riang mirip peri berkulit kasar dan berwajah tersenyum yang suka mengganggu pengunjung dengan kejahilan kecil.",
+          "quote": "Da questa affascinante storia trae origine la leggenda dello Gnefro, un'allegra creatura simile a un folletto, con la pelle ruvida e il viso sorridente che si divertirebbe a importunare i visitatori con piccoli dispetti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gnefro-c10",
+          "source_id": "gnefro-s3",
+          "host": "www.lacascatadellemarmore.net",
+          "statement": "Legend tells that the beautiful nymph Nera fell in love with the shepherd Velino.",
+          "statement_id": "Menurut legenda, nimfa cantik Nera jatuh cinta pada gembala Velino.",
+          "quote": "Narra la leggenda che la bella ninfa Nera si fosse innamorata del pastore Velino.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "greiss",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "d6a6007ca2ccd0d778695bfe4a9393b0053237897bdeb568d5d918c574b5bd9c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "greiss-c01",
@@ -412,26 +720,101 @@
           "quote": "Zur Vorbeugung könne man Opfer erbringen, zur Bekämpfung müsse ein silberweisser Stier von einer Jungfrau auf die Alp geführt werden, der das Greiss dann besiege.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "greiss-c04",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "One day the young shepherd decided to baptise his lamb with real baptismal water from a church.",
+          "statement_id": "Suatu hari sang gembala muda memutuskan membaptis anak dombanya dengan air baptis asli dari gereja.",
+          "quote": "Eines Tages beschloss er gar, es mit echtem Taufwasser aus einer Kirche zu taufen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c05",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "When the boy looked round for the lamb, a horribly black monster stood among the alpine roses instead.",
+          "statement_id": "Ketika anak itu mencari anak dombanya, yang berdiri di antara bunga mawar Alpen justru seekor monster hitam yang mengerikan.",
+          "quote": "Als sich der Junge besorgt nach dem Lämmlein umsah, stand stattdessen ein entsetzlich schwarzes Ungeheuer in den Alpenrosen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c06",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "The gruesome monster, which the herdsmen called the Greiß, tormented people and animals.",
+          "statement_id": "Monster mengerikan yang oleh para gembala disebut Greiß itu menyiksa manusia dan hewan.",
+          "quote": "Das grause Ungetüm, das die Hirten das Greiß nannten, quälte Menschen und Tiere.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c07",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "On the Surenenalp there once lived a very young shepherd named Urs.",
+          "statement_id": "Di Surenenalp dahulu hidup seorang gembala domba yang sangat muda bernama Urs.",
+          "quote": "Auf der Surenenalp lebte einst ein blutjunger Schafhirte namens Urs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c08",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "After nine years Agnes, daughter of the Freiherr von Attinghausen, offered to carry out the deliverance of the Surenalp.",
+          "statement_id": "Setelah sembilan tahun, Agnes, putri Freiherr von Attinghausen, menawarkan diri untuk membebaskan Surenalp.",
+          "quote": "Nach neun Jahren bot sich Agnes, die Tochter des Freiherrn von Attinghausen, an, die Erlösung der Surenalp zu vollziehen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c09",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "The people of Uri found the Greiß dead, and not far away the victorious silver-white bull also lay dead in its blood.",
+          "statement_id": "Warga Uri menemukan Greiß telah mati, dan tak jauh darinya banteng putih keperakan yang menang juga terbaring mati dalam darahnya.",
+          "quote": "fanden sie das tote Greiß. Nicht weit daneben lag auch der siegreiche, silberweiße Stier tot in seinem Blut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c10",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "They decided to put the head of the victorious bull with its nose ring into their coat of arms.",
+          "statement_id": "Mereka memutuskan memasukkan kepala banteng pemenang beserta cincin hidungnya ke dalam lambang daerah mereka.",
+          "quote": "Sie beschlossen, den Kopf des siegreichen Stiers mit dem Nasenring in ihr Landeswappen aufzunehmen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "greiss-c11",
+          "source_id": "greiss-s2",
+          "host": "www.bergwelten.com",
+          "statement": "To this day an ox head with outstretched tongue and nose ring adorns the coat of arms of the Swiss canton of Uri, and a legend surrounds this \"Uristier\".",
+          "statement_id": "Hingga kini kepala lembu dengan lidah terjulur dan cincin hidung menghiasi lambang kanton Uri di Swiss, dan di sekitar \"Uristier\" itu berkembang sebuah legenda.",
+          "quote": "Bis heute ziert ein Ochsenkopf mit ausgestreckter Zunge und Nasenring das Wappen des Schweizer Kantons Uri. Um den „Uristier“ rankt sich eine so schöne wie wilde Legende.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gripet",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "442b43d34a9bec80a2dccc37fb63edee7c1c4f0bfbf624ef5d717867025f12bb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gripet-c01",
@@ -462,26 +845,51 @@
           "quote": "Dans le Vivarais, il peut aussi tenir les écuries, panser et soigner les chevaux, les protéger, mais faire maigrir ceux qu'il n'aime pas.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gripet-c04",
+          "source_id": "gripet-s2",
+          "host": "archive.org",
+          "statement": "In Mistral's dictionary the gripet is a follet or lutin, a playful and often helpful spirit fond of playing tricks, in Languedoc.",
+          "statement_id": "Dalam kamus Mistral, gripet adalah follet atau lutin, roh jenaka yang sering suka menolong dan senang berbuat kejahilan kecil, di Languedoc.",
+          "quote": "Follet, lutin, esprit badin et souvent serviable qui se plaît à faire ... niches, en Languedoc",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gripet-c05",
+          "source_id": "gripet-s2",
+          "host": "archive.org",
+          "statement": "The word gripet also means a mischievous child (enfant espiègle).",
+          "statement_id": "Kata gripet juga berarti anak yang nakal (enfant espiègle).",
+          "quote": "enfant espiègle, v. esperitoun",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gripet-c06",
+          "source_id": "gripet-s3",
+          "host": "archive.org",
+          "statement": "According to Sébillot, in the Cévennes people believe that cobwebs left in the stable protect the horses from the gripé, a kind of lutin that comes to torment them.",
+          "statement_id": "Menurut Sébillot, di Cévennes orang percaya bahwa sarang laba-laba yang dibiarkan di istal melindungi kuda dari gripé, sejenis lutin yang datang mengganggu mereka.",
+          "quote": "dans les Cévennes on croit que les toiles qu'on y laisse préservent les ... du gripé, sorte de lutin qui vient les",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gusarapa",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "e32c7e26d2d873fc16aec5a08f1ad2d8fee295758633c42fbdcef0447a12415d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gusarapa-c01",
@@ -502,26 +910,71 @@
           "quote": "Tot i que l'etimologia del mot és incerta, hom li sol atribuir un origen preromà, probablement bascoide, relacionat amb el basc usan i el castellà gusano 'cuc'",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "gusarapa-c03",
+          "source_id": "gusarapa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "In Castilian, the word gusarapa means a small worm-shaped animal that breeds in a liquid.",
+          "statement_id": "Dalam bahasa Spanyol (castellà), kata gusarapa berarti hewan kecil berbentuk cacing yang hidup dalam cairan.",
+          "quote": "En castellà, el mot gusarapa val per «animal de mida petita, amb forma de cuc, que es cria en un líquid».",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gusarapa-c04",
+          "source_id": "gusarapa-s2",
+          "host": "www.diccionari.cat",
+          "statement": "A gusarapa is a phantom, an imaginary nocturnal being used to frighten children.",
+          "statement_id": "Gusarapa adalah hantu, makhluk malam khayalan yang dipakai orang untuk menakut-nakuti anak-anak.",
+          "quote": "Fantasma, ésser nocturn imaginari amb què hom fa por a les criatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gusarapa-c05",
+          "source_id": "gusarapa-s2",
+          "host": "www.diccionari.cat",
+          "statement": "Catalan may have taken the word from Castilian; its first written source dates from the 19th century (s. XIX).",
+          "statement_id": "Bahasa Katalan mungkin menerima kata ini dari bahasa Spanyol, dan sumber tertulis pertamanya berasal dari abad ke-19 (s. XIX).",
+          "quote": "el cat. potser l’ha rebut del cast 1a font: s. XIX",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gusarapa-c06",
+          "source_id": "gusarapa-s3",
+          "host": "dcvb.iec.cat",
+          "statement": "The phrase \"tenir por de la gusarapa\" (to be afraid of the gusarapa) means to fear harmless things or to be afraid for no reason.",
+          "statement_id": "Ungkapan \"tenir por de la gusarapa\" (takut pada gusarapa) berarti takut pada hal-hal yang tidak berbahaya atau tanpa alasan.",
+          "quote": "Tenir por de la gusarapa: tenir por de coses inofensives o sense cap motiu.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gusarapa-c07",
+          "source_id": "gusarapa-s4",
+          "host": "www.diaridetarragona.com",
+          "statement": "The gusarapa is a kind of wild, ghostly cat from the Priorat.",
+          "statement_id": "Gusarapa adalah sejenis kucing liar dan hantu dari Priorat.",
+          "quote": "la gusarapa, una especie de gato salvaje y fantasmal del Priorat",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gwarch-y-rhybin",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-1.md",
+      "entry_sha256": "9c7ff2eda8a12c1565fdbab62e7dbe6f1d6485a55fa3c1d48931f2278686f4da",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gwarch-y-rhybin-c01",
@@ -582,26 +1035,101 @@
           "quote": "Secondo alcuni la sua figura è collegata alla divinità della acque gallese Dôn.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c07",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "A Welsh saying for an unlovely woman is \"Y mae mor salw a Gwrach y Rhibyn\" (She is as ugly as the Gwrach y Rhibyn).",
+          "statement_id": "Ada pepatah Wales untuk perempuan yang buruk rupa: \"Y mae mor salw a Gwrach y Rhibyn\" (Ia sejelek Gwrach y Rhibyn).",
+          "quote": "A Welsh saying, regarding one of her sex who is the reverse of lovely, is, 'Y mae mor salw a Gwrach y Rhibyn,' (She is as ugly as the Gwrach y Rhibyn.)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c08",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Sometimes it appears in the mist on the mountain side, at crossroads, or by water which it splashes with its hands.",
+          "statement_id": "Kadang ia muncul dalam kabut di lereng gunung, di persimpangan jalan, atau di dekat air yang ia cipratkan dengan tangannya.",
+          "quote": "sometimes it appears in the mist on the mountain side, or at cross-roads, or by a piece of water which it splashes with its hands",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c09",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Gwrach y Rhibyn is a female that at times chooses to be a male.",
+          "statement_id": "Gwrach y Rhibyn adalah sosok perempuan yang kadang memilih menjadi laki-laki.",
+          "quote": "the Gwrach y Rhibyn defies all rules by being a female which at times sees fit to be a male",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c10",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "When it chooses to be male, its cry becomes \"Fy ngwraig! fy ngwraig!\" (my wife! my wife!).",
+          "statement_id": "Ketika menjadi laki-laki, ratapannya berubah menjadi \"Fy ngwraig! fy ngwraig!\" (istriku! istriku!).",
+          "quote": "But when it chooses to be a male, this cry is changed to 'Fy ngwraig! fy ngwraig!' (my wife! my wife!)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c11",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to an account the author collected, the Gwrach y Rhibyn had recently appeared at Llandaff.",
+          "statement_id": "Menurut kesaksian yang dikumpulkan penulisnya, Gwrach y Rhibyn belum lama muncul di Llandaff.",
+          "quote": "The Gwrach y Rhibyn recently appeared, according to an account given me by a person who claimed to have seen it, at Llandaff.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c12",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The next day the witness was told that the keeper of the Cow and Snuffers Inn, where he had seen the figure enter, had died in the night.",
+          "statement_id": "Keesokan harinya saksi diberi tahu bahwa pemilik penginapan Cow and Snuffers Inn, tempat ia melihat sosok itu masuk, meninggal malam itu.",
+          "quote": "The next day, it's the honest truth I'm telling you, they told me the man who kept the Cow and Snuffers Inn was dead--had died in the night.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c13",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The author notes the close resemblance of this goblin to the Irish banshee.",
+          "statement_id": "Penulisnya menilai sosok ini sangat mirip dengan banshee Irlandia.",
+          "quote": "The close resemblance of this goblin to the Irish banshee (or benshi) will be at once perceived.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gwarch-y-rhybin-c14",
+          "source_id": "gwarch-y-rhybin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Glamorganshire the Gwrach y Rhibyn also appears as a river spectre.",
+          "statement_id": "Di Glamorganshire, Gwrach y Rhibyn juga muncul sebagai hantu sungai.",
+          "quote": "The Gwrach y Rhibyn appears also as a river-spectre, in Glamorganshire.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "haqueta-de-foc",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "ee2f33272dbad15b9213113de82946d96b1db662c707c7c9f19d554d99ab2edc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "haqueta-de-foc-c01",
@@ -662,26 +1190,51 @@
           "quote": "La llegenda de l'haqueta de foc guarda un cert paral·lelisme amb la del Comte Arnau, condemnat a cavalcar durant tota l'eternitat sobre un cavall negre que treu flames per la boca i els ulls.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "haqueta-de-foc-c07",
+          "source_id": "haqueta-de-foc-s2",
+          "host": "alicanteplaza.es",
+          "statement": "It is said that the haqueta de foc always followed the same route along the foothills of the Benicadell, parallel to the river Serpis, from the maset del Gord near Beniarrés towards l'Orxa and the castle of Perputxent.",
+          "statement_id": "Konon haqueta de foc selalu menempuh rute yang sama di kaki Benicadell, sejajar dengan sungai Serpis, dari maset del Gord dekat Beniarrés ke arah l'Orxa dan kastel Perputxent.",
+          "quote": "l’haqueta de foc tendia sempre a fer un mateix recorregut, a les faldes del Benicadell, en paral·lel al riu Serpis, des del maset del Gord (a les proximitats de Beniarrés), en direcció a l’Orxa i el castell de Perputxent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haqueta-de-foc-c08",
+          "source_id": "haqueta-de-foc-s2",
+          "host": "alicanteplaza.es",
+          "statement": "Some still claim that the haqueta de foc returns, at least once a year, to the valley of Perputxent.",
+          "statement_id": "Ada pula yang meyakini bahwa haqueta de foc masih kembali, setidaknya sekali setahun, ke lembah Perputxent.",
+          "quote": "també hi ha qui assegura que l’haqueta de foc encara torna, almenys una volta a l’any, a l’antiga, intricada, amable, misteriosa i màgica vall de Perputxent",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haqueta-de-foc-c09",
+          "source_id": "haqueta-de-foc-s2",
+          "host": "alicanteplaza.es",
+          "statement": "This imagery of the fire horse is linked to the season of All Saints (Tots Sants).",
+          "statement_id": "Citra kuda api ini dikaitkan dengan masa Hari Para Kudus (Tots Sants).",
+          "quote": "aquest imaginari del cavall de foc, vinculat al temps de Tots Sants",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hatcukliba",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "0b74a23a574e0fc2594a23737b05599e921680b775d633b900e2d7bab79ee96c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hatcukliba-c01",
@@ -712,26 +1265,71 @@
           "quote": "Per certi versi era simile allo Scultone delle credenze popolari Sarde.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "hatcukliba-c04",
+          "source_id": "hatcukliba-s2",
+          "host": "archive.org",
+          "statement": "The Hatcukliba tale is recorded under the title \"The Hunter, the Monster Lizard, and the Panther\".",
+          "statement_id": "Kisah Hatcukliba dicatat dengan judul \"The Hunter, the Monster Lizard, and the Panther\" (Pemburu, Kadal Monster, dan Puma).",
+          "quote": "The Hunter, the Monster Lizard, and the Panther",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatcukliba-c05",
+          "source_id": "hatcukliba-s2",
+          "host": "archive.org",
+          "statement": "The hatcukliba would come out, take a dog, and carry it back into its den.",
+          "statement_id": "Hatcukliba keluar, mengambil seekor anjing, lalu membawanya kembali ke sarangnya.",
+          "quote": "The hatcukliba would come out, take a dog, and carry it back into his den.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatcukliba-c06",
+          "source_id": "hatcukliba-s2",
+          "host": "archive.org",
+          "statement": "The creature came after the hunter, glittering as it came.",
+          "statement_id": "Makhluk itu mengejar sang pemburu sambil berkilauan.",
+          "quote": "coming after him, glittering as it came.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatcukliba-c07",
+          "source_id": "hatcukliba-s2",
+          "host": "archive.org",
+          "statement": "When it leapt at him he shot it, but it seized him by the middle, knocked his gun from his hands, and carried him off.",
+          "statement_id": "Ketika makhluk itu melompat ke arahnya, pemburu menembaknya, tetapi makhluk itu mencengkeram pinggangnya, menjatuhkan senapannya, dan membawanya pergi.",
+          "quote": "When it came jumping up to him he shot it, but it seized him by the middle, knocked his gun out of his hands, and started back with him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatcukliba-c08",
+          "source_id": "hatcukliba-s2",
+          "host": "archive.org",
+          "statement": "A Panther repeatedly jumped down from a tree onto the hatcukliba and back, tearing its back to rags and killing it.",
+          "statement_id": "Seekor puma (Panther) berulang kali melompat dari pohon ke atas hatcukliba lalu kembali, hingga mencabik punggungnya dan membunuhnya.",
+          "quote": "Every chance it got the Panther would jump down upon the hatcukliba and then back to the tree, and in this way it tore the hatcukliba’s back to rags and killed it.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hippanthrope",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "8bc350a375298293c28d14a3d4d3e8a91a0ac723672d41ed740c8e1bbf2348c1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hippanthrope-c01",
@@ -802,26 +1400,61 @@
           "quote": "Selon les versions, elle est changée en jument noire ou en cheval ailé en punition pour avoir révélé à Chiron qu'il perdrait son immortalité.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hippanthrope-c08",
+          "source_id": "hippanthrope-s2",
+          "host": "www.newadvent.org",
+          "statement": "Præstantius told how his father took poison in a piece of cheese at home and lay in bed as if asleep, impossible to wake.",
+          "statement_id": "Præstantius menceritakan bahwa ayahnya memakan racun dalam sepotong keju di rumahnya, lalu terbaring di ranjang seperti tidur dan sama sekali tidak bisa dibangunkan.",
+          "quote": "For a certain man called Præstantius used to tell that it had happened to his father in his own house, that he took that poison in a piece of cheese, and lay in his bed as if sleeping, yet could by no means be aroused.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hippanthrope-c09",
+          "source_id": "hippanthrope-s2",
+          "host": "www.newadvent.org",
+          "statement": "On waking the father said he had been made a sumpter (pack) horse and, with other beasts of burden, had carried provisions for the soldiers of the Rhœtian Legion.",
+          "statement_id": "Setelah bangun, sang ayah bercerita bahwa ia telah dijadikan kuda beban dan bersama hewan beban lain mengangkut perbekalan bagi prajurit Legiun Rhœtia.",
+          "quote": "that he had been made a sumpter horse, and, along with other beasts of burden, had carried provisions for the soldiers of what is called the Rhœtian Legion",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hippanthrope-c10",
+          "source_id": "hippanthrope-s2",
+          "host": "www.newadvent.org",
+          "statement": "In Italy it was said that landladies of inns versed in wicked arts gave travellers something in a piece of cheese that changed them on the spot into beasts of burden.",
+          "statement_id": "Di Italia beredar cerita bahwa para nyonya pemilik penginapan yang menguasai ilmu jahat memberi pelancong sesuatu dalam sepotong keju yang seketika mengubah mereka menjadi hewan beban.",
+          "quote": "Indeed we ourselves, when in Italy, heard such things about a certain region there where landladies of inns, imbued with these wicked arts, were said to be in the habit of giving to such travellers as they chose, or could manage, something in a piece of cheese by which they were changed on the spot into beasts of burden",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hippanthrope-c11",
+          "source_id": "hippanthrope-s2",
+          "host": "www.newadvent.org",
+          "statement": "The author did not believe that the body, still less the mind, can really be changed into animal form by the power of demons.",
+          "statement_id": "Sang penulis tidak percaya bahwa tubuh, apalagi pikiran, benar-benar dapat diubah menjadi wujud hewan oleh kekuatan setan (demons).",
+          "quote": "I cannot therefore believe that even the body, much less the mind, can really be changed into bestial forms and lineaments by any reason, art, or power of the demons",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "homem-das-sete-dentaduras",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "865af4cff50e2a777c1b2ee7e81b7b37476b3871eb59fffac36486c06bf37a8e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "homem-das-sete-dentaduras-c01",
@@ -832,26 +1465,71 @@
           "quote": "O Homem das sete dentaduras é um ser mítico do folclore português.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "homem-das-sete-dentaduras-c02",
+          "source_id": "homem-das-sete-dentaduras-s2",
+          "host": "archive.org",
+          "statement": "In the Algarve, at the place called Cerro vermelho, the evil genius (génio maléfico) called the Homem das sete dentaduras appears at noon.",
+          "statement_id": "Di Algarve, di tempat bernama Cerro vermelho, pada tengah hari muncul jin jahat (génio maléfico) yang disebut Homem das sete dentaduras.",
+          "quote": "no Algarve, no sitio do Cerro vermelho, é á hora do meio dia que apparece o génio maléfico denominado o Homem das sete dentaduras.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-das-sete-dentaduras-c03",
+          "source_id": "homem-das-sete-dentaduras-s2",
+          "host": "archive.org",
+          "statement": "It appears only in solitary places at the magic hour of noon.",
+          "statement_id": "Ia hanya muncul di tempat-tempat sepi pada jam ajaib tengah hari.",
+          "quote": "e só apparece nos logares solitários á hora magica do meio dia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-das-sete-dentaduras-c04",
+          "source_id": "homem-das-sete-dentaduras-s2",
+          "host": "archive.org",
+          "statement": "The Homem das sete dentaduras is described as a demonic noonday entity (entidade demoníaca meridiana), known at Cerro vermelho and Fuzeta.",
+          "statement_id": "Homem das sete dentaduras disebut sebagai entitas setan tengah hari (entidade demoníaca meridiana), yang dikenal di Cerro vermelho dan Fuzeta.",
+          "quote": "Além da entidade demoníaca meridiana do Homem das sete dentaduras (Cerro vermelho, Fuzeta):",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-das-sete-dentaduras-c05",
+          "source_id": "homem-das-sete-dentaduras-s2",
+          "host": "archive.org",
+          "statement": "The Entreaberto, the Homem das sete dentaduras and similar figures can only be understood in their demonic form through their relation to the declining sun (Sol que declina).",
+          "statement_id": "Entreaberto, Homem das sete dentaduras, dan sosok sejenis hanya dapat dipahami dalam wujud setannya lewat hubungannya dengan matahari yang terbenam (Sol que declina).",
+          "quote": "O Entreaberto ou Encantado, o Homem das ... na forma demoniaca pela sua relação com o Sol que declina",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "homem-das-sete-dentaduras-c06",
+          "source_id": "homem-das-sete-dentaduras-s2",
+          "host": "archive.org",
+          "statement": "In the table of contents the Homem das sete dentaduras is grouped among survivals of a sidereal or solar (sideral, ou solar) polytheism, together with the Entreabertos.",
+          "statement_id": "Dalam daftar isi, Homem das sete dentaduras dikelompokkan di antara sisa-sisa kepercayaan politeisme bintang atau matahari (sideral, ou solar), bersama Entreaberto.",
+          "quote": "sideral, ou solar : Entreabertos e Homem das Sete dentaduras",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "homem-do-chapeu-de-ferro",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "6aa38a9c7738a0759214f7579b9d9f7a3024a235244c928b710dc31ab1db2709",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "homem-do-chapeu-de-ferro-c01",
@@ -922,26 +1600,61 @@
           "quote": "Todavia foge quando avista a velha da égua branca.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "homem-do-chapeu-de-ferro-c08",
+          "source_id": "homem-do-chapeu-de-ferro-s2",
+          "host": "archive.org",
+          "statement": "Among the various evil entities, the homem do chapéu (chapeo) de ferro stands out as the most terrible.",
+          "statement_id": "Di antara berbagai makhluk jahat, homem do chapéu (chapeo) de ferro menonjol sebagai yang paling mengerikan.",
+          "quote": "Entre as diversas entidades maléficas, o homem do chapeo de ferro sobresáe como a mais terrível.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-do-chapeu-de-ferro-c09",
+          "source_id": "homem-do-chapeu-de-ferro-s2",
+          "host": "archive.org",
+          "statement": "It spits flames when enraged, and its colour is that of bronze.",
+          "statement_id": "Ia menyemburkan api ketika marah, dan warnanya seperti perunggu (bronze).",
+          "quote": "chammas quando se enche de raiva, e a sua cor é a do bronze.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-do-chapeu-de-ferro-c10",
+          "source_id": "homem-do-chapeu-de-ferro-s2",
+          "host": "archive.org",
+          "statement": "It is said that the homem do chapéu de ferro was one of the soldiers (soldados) who scourged, and that for this the Eternal Father (Padre Eterno) acted upon him.",
+          "statement_id": "Konon homem do chapéu de ferro adalah salah satu prajurit (soldados) yang mencambuk, dan karena itu Bapa yang Kekal (Padre Eterno) menghukumnya.",
+          "quote": "Diz-se que o homem do chapeo de ferro é um dos soldados que açoutaram ... e que por isso o Padre Eterno",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-do-chapeu-de-ferro-c11",
+          "source_id": "homem-do-chapeu-de-ferro-s2",
+          "host": "archive.org",
+          "statement": "The contributor stresses that what he set out is exactly what those people (povo) say and believe.",
+          "statement_id": "Penulis catatan itu menegaskan bahwa yang ia tulis persis seperti yang dikatakan dan dipercayai rakyat (povo) setempat.",
+          "quote": "O que fica exposto é exactamente o que aquelle povo diz e crê.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "houeran",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "9c11216835bee912601baa90a9cab539e7dbcfb0a2e3208c21b36e7a7695c1dd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "houeran-c01",
@@ -1032,26 +1745,61 @@
           "quote": "Pour Jean-Michaël Choserot, la légende du Houéran viendrait du Hibou grand-duc.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "houeran-c10",
+          "source_id": "houeran-s2",
+          "host": "www.jds.fr",
+          "statement": "Old accounts describe a foul beast, a mix of giant and billy-goat, with blazing eyes, able to grasp burning embers without being burned.",
+          "statement_id": "Kesaksian lama menggambarkannya sebagai makhluk menjijikkan, campuran raksasa dan kambing jantan, bermata menyala, yang mampu memegang bara api tanpa terbakar.",
+          "quote": "Les anciens témoignages font état d'une bête immonde, mélange d'un géant et d'un bouc, aux yeux flamboyants et capable de saisir des tisons enflammés sans se brûler.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "houeran-c11",
+          "source_id": "houeran-s2",
+          "host": "www.jds.fr",
+          "statement": "The article wonders whether the forest guards themselves launched this legend to prevent certain temptations.",
+          "statement_id": "Artikel itu bertanya apakah justru para penjaga hutan sendiri yang menyebarkan legenda ini untuk mencegah godaan mencuri.",
+          "quote": "Et si ce n'étaient pas les gardes forestiers eux-mêmes qui avaient lancé cette légende pour prévenir certaines tentations ?",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "houeran-c12",
+          "source_id": "houeran-s3",
+          "host": "www.centpourcent-vosges.fr",
+          "statement": "Literally, its name means \"crier\" (crieur) in patois.",
+          "statement_id": "Secara harfiah, namanya berarti \"peneriak\" (crieur) dalam bahasa patois.",
+          "quote": "Littéralement, son nom veut dire « crieur » en patois.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "houeran-c13",
+          "source_id": "houeran-s3",
+          "host": "www.centpourcent-vosges.fr",
+          "statement": "Those unlucky enough to see it describe a giant being with a long, shaggy beard.",
+          "statement_id": "Mereka yang sial melihatnya menggambarkannya sebagai makhluk raksasa berjanggut panjang dan kusut.",
+          "quote": "Ceux qui ont eu le malheur de le voir le décrivent comme un être géant, avec une barbe longue et hirsute.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "iamuna",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "cd9a075bdf0137eafe05b2fc2a7b0b374d7e3b93b82d2ac2d3c2da05fa53eaae",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "iamuna-c01",
@@ -1122,6 +1870,46 @@
           "quote": "Etimología: ‘gemela’, siendo iamáka o iáma: ‘hermano gemelo’.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "iamuna-c08",
+          "source_id": "iamuna-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Yamuna is known as Yami in early texts, while later literature calls her Kalindi.",
+          "statement_id": "Dalam teks-teks awal Yamuna dikenal sebagai Yami, sedangkan dalam sastra yang lebih kemudian ia disebut Kalindi.",
+          "quote": "Yamuna is known as Yami in early texts, while in later literature she is called Kalindi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "iamuna-c09",
+          "source_id": "iamuna-s2",
+          "host": "en.wikipedia.org",
+          "statement": "She is associated with Krishna as one of his eight principal consorts, the Ashtabharya.",
+          "statement_id": "Ia dikaitkan dengan dewa Krishna sebagai salah satu dari delapan permaisuri utamanya, yang disebut Ashtabharya.",
+          "quote": "She is associated with the deity Krishna as one of his eight principal consorts, called the Ashtabharya.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "iamuna-c10",
+          "source_id": "iamuna-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Agni Purana describes Yamuna as black-complexioned, standing on her mount, the tortoise, and holding a water pot.",
+          "statement_id": "Agni Purana menggambarkan Yamuna berkulit hitam, berdiri di atas wahananya, kura-kura, sambil memegang kendi air.",
+          "quote": "The Agni Purana describes Yamuna as black in complexion, standing on her mount, the tortoise, and holding a water pot in her hand.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "iamuna-c11",
+          "source_id": "iamuna-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Her confluence with the Ganges and the mythical Sarasvati River, called Triveni Sangam, is a very holy pilgrimage site.",
+          "statement_id": "Pertemuan Yamuna dengan Gangga dan sungai mitis Sarasvati disebut Triveni Sangam, tempat ziarah yang sangat suci.",
+          "quote": "Her confluence with the Ganges and the mythical Sarasvati River is called Triveni Sangam, which is a very holy pilgrimage spot.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1164,24 +1952,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e8f3a4ff6e630aa6feb4bf63bc974c0bc73626eecd53ed011923ec7c8ea2a0a4"
     },
     {
       "slug": "isabit",
-      "file": "batch-134.md",
+      "file": "batch-134-fix-2.md",
+      "entry_sha256": "060eadba50936372b20f71271a342f2efb712d5c54661d1dd718a229c93761c5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "isabit-c01",
@@ -1251,6 +2035,46 @@
           "statement_id": "Ernest de Garay menafsirkan api yang membakar perut ular itu sebagai api dari perut bumi, yaitu letusan yang melahirkan danau.",
           "quote": "Ce feu terrible dont sont dévorées les entrailles du monstrueux serpent jusqu'à ce qu'il crève à force d'avoir bu pour l'éteindre",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isabit-c08",
+          "source_id": "isabit-s2",
+          "host": "escolagastonfebus.com",
+          "statement": "Isabit is the fabulous serpent that greedily sucks in cows, sheep and shepherds, leaning over the Argelès valley.",
+          "statement_id": "Isabit adalah ular dongeng yang dengan rakus mengisap sapi, domba, dan para gembala sambil menjulur di atas lembah Argelès.",
+          "quote": "Isabit le serpent fabuleux qui aspire goulûment les vaches, les moutons et les bergers, penché sur la vallée d’Argelès.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "isabit-c09",
+          "source_id": "isabit-s3",
+          "host": "www.lamarquemonvillage.fr",
+          "statement": "Other accounts speak of seven red-hot iron bars, and the blacksmith reportedly had to repeat his brave act seven times.",
+          "statement_id": "Versi lain menyebut tujuh batang besi yang dipanaskan hingga merah, dan konon sang pandai besi harus mengulangi aksinya tujuh kali.",
+          "quote": "D'autres témoins parlent de sept barres de fer portées au rouge. Il parait qu'il dut renouveler son acte courageux sept fois",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "isabit-c10",
+          "source_id": "isabit-s3",
+          "host": "www.lamarquemonvillage.fr",
+          "statement": "The blacksmith is said to have been rewarded, for himself and his descendants, with free grazing rights where the dreadful animal had once raged.",
+          "statement_id": "Konon sang pandai besi mendapat imbalan berupa hak menggembala gratis bagi dirinya dan keturunannya di tempat yang dahulu dihantui makhluk itu.",
+          "quote": "On croit savoir que notre forgeron obtint en récompense, pour lui et sa descendance, un droit de pacage gratuit, là où auparavant sévissait l'épouvantable animal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "isabit-c11",
+          "source_id": "isabit-s3",
+          "host": "www.lamarquemonvillage.fr",
+          "statement": "The villagers understood that one cannot offer the Creator a church made of the bones of a cursed beast.",
+          "statement_id": "Warga desa menyadari bahwa mereka tidak boleh mempersembahkan kepada Sang Pencipta sebuah gereja yang dibuat dari tulang binatang terkutuk.",
+          "quote": "Ils comprirent que l'on ne peut offrir au Créateur, une église faite des ossements d'une bête maudite.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1324,7 +2148,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "808887bc7eb13718db67fc4ee6a7948fc2c78e1d789c674614e581e96134bc10"
     },
     {
       "slug": "kerberos",
@@ -1343,7 +2168,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "788a11ea1f7760166ed5a668cb484c83b9fed76f2219f56f9eaeb84babc689eb"
     },
     {
       "slug": "komat",
@@ -1423,7 +2249,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5353036d06b32dd51acd1e9ec19cd605d1afa28d54f54fc4b5a068d18fd85614"
     },
     {
       "slug": "krivapeta",
@@ -1513,7 +2340,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "08f6ffbf8fb1adc7722a1064913e032ffe696714e5ebbd092f1a0904cdd971a7"
     },
     {
       "slug": "la-serena",
@@ -1623,7 +2451,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5cb703f5ba5bd94d55ea1fe8d33e9f71ec4fad2600b19ce89db01dc0101fc682"
     },
     {
       "slug": "lampago",
@@ -1683,7 +2512,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e7f6957504112fd5f904670a7bd6e61e1e26746dbba7850406416eb18b6665a5"
     },
     {
       "slug": "laurieddhu",
@@ -1803,7 +2633,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5eb01b39131ba448ae7bbecc21797e97f8df47ff80936d7319e68f35957049ef"
     },
     {
       "slug": "lauro",
@@ -1893,7 +2724,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b5f85c89d0242cb1e1488fed7f71e304abed6ec1f6e09fa7a6a5e52372cede24"
     },
     {
       "slug": "lauru",
@@ -1912,7 +2744,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "e8858cc5fd9ac33c5794c300db40bf9b5e9b5c72a9c8f7298ae99e959b67ecbe"
     },
     {
       "slug": "lenghelo",
@@ -2002,7 +2835,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "486fb7360e1a65854f043918096abb5f1d21fb2fcb9552cf999352d1f5e52215"
     },
     {
       "slug": "llufa",
@@ -2042,7 +2876,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9b08bd446570ed7292fa6d713d3fc5bb5ed1e1fb01f34a672ec4d8596259fe8c"
     },
     {
       "slug": "loberno",
@@ -2137,7 +2972,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "175214ea1563ede2930085ab60ad3c33243267f720ca3d0dc8b4a7024ebcbc00"
     },
     {
       "slug": "lobisomem",
@@ -2237,7 +3073,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "71209ceb2690444036578247cad562c0cec2b049b90ce3f608a8da8558182fa8"
     },
     {
       "slug": "lobo-branco",
@@ -2332,7 +3169,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "957976c28a5132b652e0ff1f82e8a62f19840c515db54c4def8486b7a5923458"
     },
     {
       "slug": "loogaroo",
@@ -2452,7 +3290,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a6bbf9477e8b01ee2e27d38e4a20ffcbacec49c8006984490c05e1cbf09db35f"
     },
     {
       "slug": "machecroute",
@@ -2572,7 +3411,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f563d4cdb3df5c524b748129179f0dd32a6e9ebdb8837a258df98ab244d27792"
     },
     {
       "slug": "magoria",
@@ -2602,7 +3442,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0e9bf9ca6e7dc9819e24353d765d0efad6d3b7398d998270717555bfb8c3c055"
     },
     {
       "slug": "mandi-legendary-creature",
@@ -2652,7 +3493,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "199389553a3581f7ebfdb75ddf0c96334f22eb9f1591c8274cd38ccf047ced68"
     },
     {
       "slug": "marfanto",
@@ -2732,7 +3574,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "49eba9e7eea4850ce00eceddc155ad9bc818cfe1d1c5c42450925c7395d7767c"
     },
     {
       "slug": "maria-da-grade",
@@ -2782,7 +3625,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "00303e73df245bcaaa5176a1917a421b1ee31db958275f2ee42ca9b8f1deb6db"
     },
     {
       "slug": "maria-da-manta",
@@ -2872,7 +3716,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "78d3c3489fbc241a7a3dc62056a31b7f18658d1892b3302d6e3434d6ada46824"
     },
     {
       "slug": "maria-gancha",
@@ -2932,7 +3777,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "17c2ae538c6255a4a3a5116e811280af7bf9bab284ec558c00acc42760734433"
     },
     {
       "slug": "marranghino",
@@ -3012,7 +3858,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "895946f27c29a6cbac9aaf0d9cf0cf4932be60216e1326557f7c3ed0c8639079"
     },
     {
       "slug": "marroca",
@@ -3092,7 +3939,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "584b2b2b5d51bdcc2aa587f300c31092934714dd9b0f71e977dc76faebe7c050"
     },
     {
       "slug": "maruxinho",
@@ -3162,7 +4010,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7ca66e765bf8ed5cc0cd42e85b710cc256dabe0ba76947c455c91731acfe2564"
     },
     {
       "slug": "maski-mon-gwe-zo-os",
@@ -3202,7 +4051,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1e73704913402536947b464102d85596107a07b0a7ef03320a3dc99f413f85c2"
     },
     {
       "slug": "medo",
@@ -3252,7 +4102,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84c5b89f863111d4f80370ad05a5721fc1cddbec4296122f8165286ab397e74f"
     },
     {
       "slug": "mekhala",
@@ -3362,7 +4213,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7610b3d794c4752f739a0df4e9d2e8c8ebcc163f1e4ec53240ee1d552fd964e1"
     }
   ]
 }
