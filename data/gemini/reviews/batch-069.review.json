@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-069",
-  "checked_at": "2026-10-13T15:10:45.737Z",
+  "checked_at": "2026-10-13T18:21:39.727Z",
   "files": [
     "batch-069.md",
     "batch-069-fix-1.md",
@@ -12,7 +12,9 @@
     "batch-069-fix-7.md",
     "batch-069-fix-8.md",
     "batch-069-fix-9.md",
-    "batch-069-fix-10.md"
+    "batch-069-fix-10.md",
+    "batch-069-fix-11.md",
+    "batch-069-fix-12.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -794,11 +796,12 @@
     },
     {
       "slug": "wd-q10309898",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "263406b1deb3751e363445e334c8ff3d5c16b735895c6222539cf42d1465efba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -862,18 +865,58 @@
           "quote": "怪水出焉，而東流注於憲翼之水。其中多玄龜，其狀如龜而鳥首虺〈虺，尾銃〉尾，其名曰旋龜，其音如判木〈如破木聲〉，佩之不聾，可以為底〈底，躪也，爲猶治也。《外傳》曰：「疾不可爲。」一作底猶病愈也〉。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10309898-c07",
+          "source_id": "wd-q10309898-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "The Wikipedia article quotes the Shan Hai Jing (山海經): the Guai water (怪水) rises on Mount Niuyang (杻陽之山) and holds many Xuangui with bird heads and snake tails, whose sound is like breaking wood.",
+          "statement_id": "Artikel Wikipedia mengutip Shan Hai Jing (山海經): dari Gunung Niuyang (杻陽之山) keluar air Guai (怪水) yang banyak berisi Xuangui berkepala burung dan berekor ular, dengan suara seperti kayu yang dipecah.",
+          "quote": "《山海經》云:杻陽之山,怪水出焉。其中多旋龜,鳥首虺尾,聲如破木,佩之已聾，可以为底。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10309898-c08",
+          "source_id": "wd-q10309898-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Shanhaijing Guangzhu (山海經廣注), Wu Renchen (任臣) cites the Bencao Shiyi (本草拾遺) on the E turtle (鶚龜) of the South Sea (南海), turtle-shaped with eyes at the sides like an osprey, and Li Shizhen (李時珍), who explains that the bird-headed, snake-tailed Xuangui of the Shan Hai Jing is of this kind.",
+          "statement_id": "Dalam Shanhaijing Guangzhu (山海經廣注), Wu Renchen (任臣) mengutip Bencao Shiyi (本草拾遺) tentang kura-kura E (鶚龜) dari Laut Selatan (南海) yang berwujud kura-kura dengan mata di sisi seperti burung elang ikan, dan penjelasan Li Shizhen (李時珍) bahwa Xuangui berkepala burung dan berekor ular dalam Shan Hai Jing termasuk jenis ini.",
+          "quote": "佩之不聾可以為底〈郭曰底躪也為猶治也外傳曰疾不可為一作底猶病愈也　任臣案本草拾遺曰鶚龜生南海狀如龜二三尺兩目在側如鶚李時珍釋云山海經旋龜鳥首虺尾乃此𩔖也",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10309898-c09",
+          "source_id": "wd-q10309898-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Siku Quanshu edition (四庫全書本) carries notes that Xuangui's tail is pointed (虺尾銳), that its sound is like breaking wood (如破木聲), and that 底 is glossed as 躪 or \"to treat\", with an alternative reading of 底 as recovery from illness.",
+          "statement_id": "Edisi Siku Quanshu (四庫全書本) memuat catatan bahwa ekor Xuangui runcing (虺尾銳), suaranya seperti kayu dipecah (如破木聲), dan kata 底 dijelaskan sebagai 躪 atau \"mengobati\", dengan tafsiran lain bahwa 底 berarti sembuh dari penyakit.",
+          "quote": "其中多𤣥龜其狀如龜而鳥首虺尾〈虺尾銳〉其名曰旋龜其音如判木〈如破木聲〉佩之不聾可以為底〈底躪也為猶治也外傳曰疾不可為一作底猶病愈也〉",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10309898-c10",
+          "source_id": "wd-q10309898-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The classical text places Mount Niuyang (杻陽之山) three hundred and seventy li further east, with much red metal on its southern side and white metal on its northern side.",
+          "statement_id": "Teks klasik menempatkan Gunung Niuyang (杻陽之山) tiga ratus tujuh puluh li lebih ke timur, dengan banyak logam merah di sisi selatan dan logam putih di sisi utara.",
+          "quote": "又東三百七十里，曰杻〈音紐〉陽之山，其陽多赤金，其陰多白金〈銀也，見《爾雅》。山南爲陽，山北爲陰〉",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5bc0105fc0c6ba99f0d31c8818061cec8df98b4869bdc211743d7d15c2daeb92"
+      "images": []
     },
     {
       "slug": "wd-q10409490",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "02befe2e8453039bc903522b2ce6f66cab5eca3b54d73d77966c1f2435e3aba1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -937,18 +980,58 @@
           "quote": "《南次二經》之首，曰柜山，〈音矩〉西臨流黃，北望諸毗，東望長右。 ... 有獸焉，其狀如豚，有距，其音如狗吠，其名曰貍力，見則其縣多土功。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10409490-c07",
+          "source_id": "wd-q10409490-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing Guangzhu (山海經廣注) writes the name 狸力 (Lili); Guo Pu's note (郭) records a variant written 狸刀, and Wu Renchen (任臣) cites the Pianya (駢雅), which calls Lili a spurred piglet.",
+          "statement_id": "Shanhaijing Guangzhu (山海經廣注) menulis namanya 狸力 (Lili); catatan Guo Pu (郭) menyebut varian tulisan 狸刀, dan Wu Renchen (任臣) mengutip Pianya (駢雅) yang menyebut Lili sebagai anak babi bertaji.",
+          "quote": "有獸焉其狀如䐁有距其音如狗吠其名曰狸力〈郭曰一作狸刀任臣案駢雅云狸力距䐁也〉見則其縣多土功",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10409490-c08",
+          "source_id": "wd-q10409490-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Siku Quanshu edition (四庫全書本) says the Ying water (英水) on Mount Gui flows southwest into the Red water (赤水) and holds much white jade.",
+          "statement_id": "Edisi Siku Quanshu (四庫全書本) menyebut air Ying (英水) di Gunung Gui mengalir ke barat daya menuju air Merah (赤水) dan banyak mengandung giok putih.",
+          "quote": "東望長右〈皆山名〉英水出焉西南流注于赤水其中多白玉〈尸子曰水方折者有玉員折者有珠〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10409490-c09",
+          "source_id": "wd-q10409490-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The same edition mentions cinnabar grains there, then a piglet-like animal with spurs and a voice like a barking dog named Lili (狸力); when it is seen, its county will have much earthwork.",
+          "statement_id": "Edisi yang sama menyebut butiran cinnabar di sana, lalu seekor binatang mirip anak babi bertaji, bersuara seperti anjing menyalak, bernama Lili (狸力); bila ia terlihat, daerahnya akan banyak pekerjaan tanah.",
+          "quote": "多丹粟〈細丹砂如粟也〉有獸焉其狀如豚有距其音如狗吠其名曰狸力見則其縣多土功",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10409490-c10",
+          "source_id": "wd-q10409490-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "The Wikipedia article cites the Nanci Er Jing (南次二經) section of the Shan Hai Jing for the piglet shape, the spurs, the dog-like voice and the omen of earthworks.",
+          "statement_id": "Artikel Wikipedia merujuk bagian Nanci Er Jing (南次二經) dalam Shan Hai Jing untuk wujud mirip anak babi, taji, suara anjing, dan pertanda pekerjaan tanah.",
+          "quote": "《山海經·南次二經》：「其狀如豚，有距，其音如狗吠，見則其縣多土功。」",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d20714f4b04fde1aed7a71d1c5366111cd46c861489b6b0231002876053711f7"
+      "images": []
     },
     {
       "slug": "wd-q10410143",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "9c84dd3cfa56411958c675de2e5b8fbfb94266eed5442d0e9f487b18786d3991",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -1012,19 +1095,58 @@
           "quote": "又東三百里，曰基山，其陽多玉，其陰多怪木。有獸焉，其狀如羊，九尾四耳，其目在背，其名曰猼訑〈愽施二音。施一作阤〉，佩之不畏〈不知恐畏〉。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10410143-c07",
+          "source_id": "wd-q10410143-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia describes Boyi as a sheep in the Shan Hai Jing with nine tails, four ears and two eyes on its back; according to legend, wearing its hide keeps a person from feeling fear.",
+          "statement_id": "Wikipedia bahasa Tionghoa menyebut Boyi sebagai domba dalam Shan Hai Jing yang berekor sembilan dan bertelinga empat, dengan dua mata di punggung; menurut legenda, mengenakan kulit bulunya membuat orang tidak merasa takut.",
+          "quote": "為記載於《山海经》中的一種有九条尾巴和四只耳朵的羊，其兩隻眼睛长在背上。传说将其皮毛穿在身上就不會感到害怕。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10410143-c08",
+          "source_id": "wd-q10410143-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "Guo Pu's (郭璞) Tuzan (圖讚) says Boyi resembles a sheep with its eyes reversed onto its back, and that its hide may be worn by anyone who wishes not to be afraid.",
+          "statement_id": "Tuzan (圖讚) karya Guo Pu (郭璞) menyebut Boyi mirip domba dengan mata terbalik di punggung, dan kulitnya dapat dikenakan oleh orang yang ingin tidak takut.",
+          "quote": "郭璞《圖讚》：「猼訑似羊，眼反在背。視之則奇，推之無怪。若欲不恐，厥皮可佩。」",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10410143-c09",
+          "source_id": "wd-q10410143-s1",
+          "host": "zh-classical.wikipedia.org",
+          "statement": "Mount Ji (基山) belongs to the Que range (䧿山), the first part of the Nanshan Jing (南山經); the first mountain of that range, Zhaoyao (招搖之山), lies two thousand and fifty li west of Mount Ji.",
+          "statement_id": "Gunung Ji (基山) termasuk rangkaian Que (䧿山), bagian pertama Nanshan Jing (南山經); gunung pertama rangkaian itu, Zhaoyao (招搖之山), terletak dua ribu lima puluh li di barat Gunung Ji.",
+          "quote": "基山在䧿山，南山經之首也。䧿山其首曰招搖之山，方基山之西二千有五十里。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10410143-c10",
+          "source_id": "wd-q10410143-s4",
+          "host": "zh.wikisource.org",
+          "statement": "Wu Renchen in the Shanhaijing Guangzhu (山海經廣注) notes that the Huiya (彚雅) describes a sheep-like beast 䍸 with four ears, no tail and eyes on its back, and that the Wuhou Qing (五侯鯖) calls Boyi a beast of Mount Mu (墓山); he judges these divergent versions to be errors, then cites the Tuzan (圖贊) and the Pianhai (篇海), which describe a sheep-like beast with four ears, nine tails and eyes on its back.",
+          "statement_id": "Wu Renchen dalam Shanhaijing Guangzhu (山海經廣注) mencatat bahwa Huiya (彚雅) menggambarkan binatang 䍸 mirip domba bertelinga empat, tanpa ekor, dengan mata di punggung, dan Wuhou Qing (五侯鯖) menyebut Boyi binatang Gunung Mu (墓山); ia menilai versi-versi yang saling berbeda itu keliru, lalu mengutip Tuzan (圖贊) dan Pianhai (篇海) yang menyebut binatang mirip domba bertelinga empat, berekor sembilan, dengan mata di punggung.",
+          "quote": "彚雅曰䍸似羊四耳無尾目附于背五侯鯖云猼訑墓山獸互有異同皆誤也圖贊曰猼𧦧似羊眼反在背視之則竒推之無怪若欲不恐厥皮可佩篇海父云𤝔似羊四耳九尾目附于背即此獸〉佩之不畏〈郭曰不知恐畏〉",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "af71c6c1659f780777bcb3590b5424f39e6277fdc45fdfd7ae0a736f059947bc"
+      "images": []
     },
     {
       "slug": "wd-q10478981",
-      "file": "batch-069-fix-3.md",
-      "entry_sha256": "dac2edbc0ff47ccca58384b36c45e1ef566ab5219c6cb24595ae71d79abfe762",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "2875dd6a2a0330c3cfbbc2d8d7dd8d69ad312e53bc755d2e3a69695b3811b80b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 3,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -1087,6 +1209,16 @@
           "statement_id": "Dalam bagian Haiwai Bei Jing dari Shanhaijing, 羅羅 juga disebut sebagai binatang berwarna hijau kebiruan (青) yang berbentuk seperti harimau, di antara beberapa binatang di dalam Laut Utara.",
           "quote": "北海內有獸，其狀如馬，名曰騊駼。有獸焉，其名曰駮，狀如白馬，鋸牙，食虎豹。有素獸焉，狀如馬，名曰蛩蛩。有青獸焉，狀如虎，名曰羅羅。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10478981-c07",
+          "source_id": "wd-q10478981-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In the Shanhaijing Guangzhu (山海經廣注), Wu Renchen (任臣) cites the Pianya (駢雅): a blue tiger is called luoluo, and notes from the Tianzhong Ji (天中記) that people in Yunnan (雲南) also call the tiger luoluo.",
+          "statement_id": "Dalam Shanhaijing Guangzhu (山海經廣注), Wu Renchen (任臣) mengutip Pianya (駢雅) bahwa harimau biru disebut luoluo, dan mencatat dari Tianzhong Ji (天中記) bahwa penduduk Yunnan (雲南) juga menyebut harimau luoluo.",
+          "quote": "李善章句云蛩蛩即距虚變丈互言耳是卭卭距虚為一獸也〉有青獸焉狀如虎名曰羅羅〈任臣案駢雅曰青虎謂之羅羅今雲南蠻人呼虎亦為羅羅見天中記〉",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1965,12 +2097,12 @@
     },
     {
       "slug": "wd-q22100555",
-      "file": "batch-069-fix-4.md",
-      "entry_sha256": "309718f70f2f5873f16b1f1c931ee20adfb9c6e1c4f5aa4fac2594d650494134",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "432d263f70c5edf1df86c6231ba4ac28e487f8eb860c54ab833c9cc67f3b1c6c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 3,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2034,6 +2166,36 @@
           "quote": "有鳥焉，其狀如鵁〈鵁似鳧而小腳近尾。音骹箭之骹〉，而白 首一作「手」、三足、人面，其名曰瞿如〈音劬〉，其鳴自號也。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22100555-c07",
+          "source_id": "wd-q22100555-s4",
+          "host": "zh.wikisource.org",
+          "statement": "Guo Pu's note (郭) in the Shanhaijing Guangzhu (山海經廣注) explains that the jiao bird (鵁) resembles a wild duck (鳬) with small feet near the tail, and that Quru's \"three feet\" is written \"hands\" (手) in another version.",
+          "statement_id": "Catatan Guo Pu (郭) dalam Shanhaijing Guangzhu (山海經廣注) menjelaskan bahwa burung jiao (鵁) mirip bebek liar (鳬) dengan kaki kecil di dekat ekor, dan bahwa \"tiga kaki\" Quru dalam versi lain ditulis \"tangan\" (手).",
+          "quote": "有鳥焉其狀如鵁〈郭曰鵁似鳬而小脚近尾音骹箭之骹〉而白首三足〈郭曰或作手〉人面其名曰瞿如",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22100555-c08",
+          "source_id": "wd-q22100555-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Tuzan (圖贊) quoted there says Quru has three hands and looks like a jiao bird; the same verse names the fish-bodied, snake-tailed creature Hujiao (虎蛟).",
+          "statement_id": "Tuzan (圖贊) yang dikutip di sana menyebut Quru bertangan tiga dan berwujud seperti burung jiao; bait yang sama menyebut makhluk berbadan ikan dan berekor ular sebagai Hujiao (虎蛟).",
+          "quote": "皆龍種而蛟𩔖也〉其狀魚身而蛇尾其音如鴛鴦食者不腫可以已痔〈任臣案拾遺記漢昭帝釣于渭水得白蛟命大官作鮓甚美骨青而肉紫則蛟可食也圖贊曰瞿如三手厥狀似鵁魚身蛇尾是謂虎蛟〉",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22100555-c09",
+          "source_id": "wd-q22100555-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia quotes the text: Mount Daoguo (祷过之山) has much gold and jade above, and rhinoceroses, si (兕) and elephants below, and is where the Quru bird lives.",
+          "statement_id": "Wikipedia mengutip teks bahwa Gunung Daoguo (祷过之山) kaya emas dan giok di atas, serta badak, si (兕), dan gajah di bawahnya, tempat burung Quru hidup.",
+          "quote": "「东五百里，曰祷过之山，其上多金玉，其下多犀、兕，多象。有鸟焉，其状如鵁而白首，三足，人面，其名曰瞿如，其鸣自号也。」",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -2060,12 +2222,12 @@
     },
     {
       "slug": "wd-q33113858",
-      "file": "batch-069-fix-4.md",
-      "entry_sha256": "d35515a621e205b84fca82a6a8f13ec6ef694ba6fea71c6c3b54ba36aed43a4d",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "e74fcf0828a8677b90f6866cf499a388f46750dcd6a2e7a5a70987848af6dbee",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2127,6 +2289,36 @@
           "statement": "The Shanhaijing text also says that eating the 赤鱬 protects against 疥 (scabies); one version writes 疾 (illness) instead of 疥.",
           "statement_id": "Teks Shanhaijing juga menyebut bahwa orang yang memakan 赤鱬 tidak terkena 疥 (kudis); satu versi memakai aksara 疾 (penyakit) sebagai ganti 疥.",
           "quote": "其中多赤鱬，其狀如魚而人面，其音如鴛鴦，食之不 疥一作「疾」。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q33113858-c07",
+          "source_id": "wd-q33113858-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Wu Renchen (任臣) cites the Tuzan (圖贊): Chiru has a fish body and a human head; he also cites Liu Huimeng (劉會孟) on a \"child fish\" (孩兒魚) of Cizhou (磁州) with four legs, a long tail, a voice like a crying infant and fat that burns without going out, and concludes that what Liu describes is the 䱱 fish.",
+          "statement_id": "Wu Renchen (任臣) mengutip Tuzan (圖贊): Chiru berbadan ikan dan berkepala manusia; ia juga mengutip Liu Huimeng (劉會孟) tentang \"ikan anak\" (孩兒魚) di Cizhou (磁州) yang berkaki empat, berekor panjang, bersuara seperti tangis bayi, dan lemaknya menyala tanpa padam, lalu menyimpulkan bahwa yang dimaksud Liu adalah ikan 䱱.",
+          "quote": "其狀如魚而人面〈任臣案圖贊云赤鱬之物魚身人頭劉會孟曰磁州亦有孩兒魚四足長尾聲如嬰兒啼其膏然之不滅据劉所説乃䱱魚也〉其音如鴛鴦〈任臣案鴛鴦古今注謂之匹鳥",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q33113858-c08",
+          "source_id": "wd-q33113858-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Siku Quanshu edition (四庫全書本) gives the pronunciation note 懦 for the name Chiru (赤鱬) and records the variant 疾 for 疥 in the sentence on the effect of eating it.",
+          "statement_id": "Edisi Siku Quanshu (四庫全書本) memberi catatan lafal 懦 untuk nama Chiru (赤鱬) dan mencatat varian 疾 untuk 疥 dalam kalimat tentang khasiat memakannya.",
+          "quote": "英水出焉南流注于即翼之澤其中多赤鱬〈音懦〉其狀如魚而人面其音如鴛鴦食之不疥〈一作疾〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q33113858-c09",
+          "source_id": "wd-q33113858-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "The quotation cited by Wikipedia places the source of the Ying water on Mount Qingqiu (青丘之山), flowing south into the Jiyi marsh where Chiru are numerous.",
+          "statement_id": "Kutipan yang dirujuk Wikipedia menempatkan sumber air Ying di Gunung Qingqiu (青丘之山), yang mengalir ke selatan menuju rawa Jiyi tempat Chiru banyak hidup.",
+          "quote": "“青丘之山，英水出焉，南流注于即翼之泽。其中多赤鱬，其状如鱼而人面，其音如鸳鸯，食之不疥。”",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2830,11 +3022,11 @@
     },
     {
       "slug": "khyab-pa",
-      "file": "batch-069-fix-4.md",
-      "entry_sha256": "facbc8ae0426ee3d45439aa02f70dc12e601ce5f61388f0af41556b0047e7cf9",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "2ddf794c6e6753fa6c9b9a0df61db5492589c8a3cdb26210263d08c72408a372",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
+        "claims": 9,
         "sources": 2,
         "images": 0
       },
@@ -2907,6 +3099,26 @@
           "statement": "The account says Khyabpa Lagring grew even angrier and kept creating problems through magic but could not harm the Buddha; frustrated, he set fire to the treasury housing the scriptures of Yungdrung Bön.",
           "statement_id": "Uraian itu menyebut Khyabpa Lagring makin murka dan terus membuat masalah lewat sihir tetapi tak mampu mencelakai sang Buddha; karena frustrasi ia membakar perbendaharaan yang menyimpan kitab-kitab Yungdrung Bön.",
           "quote": "This made Khyabpa Lagring even angrier. Although he continued creating problems through magic, he was unable to harm the Buddha. Frustrated, he set fire to the treasury that housed the scriptures of Yungdrung Bön.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "khyab-pa-c08",
+          "source_id": "khyab-pa-s2",
+          "host": "yungdrungbon.co.uk",
+          "statement": "According to that account, Tönpa Shenrab went to the realm of the demons, rescued his daughter and converted two of Khyabpa Lagring's sons to Yungdrung Bön.",
+          "statement_id": "Menurut uraian itu, Tönpa Shenrab pergi ke alam para iblis, menyelamatkan putrinya, dan mengalihkan dua putra Khyabpa Lagring ke ajaran Yungdrung Bön.",
+          "quote": "Tönpa Shenrab went to the realm of the demons, rescued his daughter and also converted two of Khyabpa Lagring’s sons to Yungdrung Bön.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "khyab-pa-c09",
+          "source_id": "khyab-pa-s2",
+          "host": "yungdrungbon.co.uk",
+          "statement": "While practising austerity on the border of Olmo Lungring, Tönpa Shenrab completely conquered Düd Khyabpa Lagring and his retinue of demons, who became his followers and began practising Yungdrung Bön.",
+          "statement_id": "Saat menjalani laku tapa di perbatasan Olmo Lungring, Tönpa Shenrab sepenuhnya menaklukkan Düd Khyabpa Lagring dan rombongan iblisnya, yang kemudian menjadi pengikutnya dan mulai mengamalkan Yungdrung Bön.",
+          "quote": "Practising austerity on the border of Olmo Lungring, he completely conquered Düd Khyabpa Lagring and his retinue of demons who became his followers and began practising Yungdrung Bön.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -3145,20 +3357,15 @@
     },
     {
       "slug": "merperson-in-southsea",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "306248c3dbbdeeb4d7a981b420dd60ede6f2cb117fd4e706efbb4a6efb244073",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "merperson-in-southsea-c01",
@@ -3199,10 +3406,59 @@
           "quote": "鲛人，又名泉先、泉客，是中国古代传说中的神奇生物，人鱼类，居住在南海。眼泪是珍珠，善纺织。用它织出的布做衣服穿在身上，入水不湿，非常珍贵。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "merperson-in-southsea-c05",
+          "source_id": "merperson-in-southsea-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia quotes the Bowuzhi (博物志) by Zhang Hua (張華) of the Western Jin: in the waters of the South Sea there are jiaoren who live in water like fish, keep weaving, and whose eyes can weep pearls.",
+          "statement_id": "Wikipedia mengutip Bowuzhi (博物志) karya Zhang Hua (張華) dari Jin Barat: di perairan Laut Selatan ada jiaoren yang hidup di air seperti ikan, tetap menenun, dan matanya dapat menangiskan mutiara.",
+          "quote": "西晉張華《博物志》:“南海水有鲛人,水居如鱼,不废织绩,其眼能泣珠。”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "merperson-in-southsea-c06",
+          "source_id": "merperson-in-southsea-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "The Shuyi Ji (述异记) quotation in Wikipedia says the South Sea produces jiao silk gauze (鲛绡纱), also called dragon gauze, worth a hundred pieces of gold, and clothing made from it does not get wet in water.",
+          "statement_id": "Kutipan Shuyi Ji (述异记) dalam Wikipedia menyebut Laut Selatan menghasilkan kain sutra jiao (鲛绡纱), juga disebut sutra naga, seharga seratus keping emas, dan pakaian darinya tidak basah di air.",
+          "quote": "“南海出鲛绡纱，泉室潜织，一名龙纱，其价百金，以为服，入水不濡。”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "merperson-in-southsea-c07",
+          "source_id": "merperson-in-southsea-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Soushen Ji (搜神記) records that beyond the South Sea there are jiaoren (鮫人) who dwell in water like fish and do not stop weaving; when they weep, their eyes produce pearls.",
+          "statement_id": "Soushen Ji (搜神記) mencatat bahwa di luar Laut Selatan ada jiaoren (鮫人) yang tinggal di air seperti ikan dan tidak berhenti menenun; bila menangis, matanya mengeluarkan mutiara.",
+          "quote": "南海之外，有「鮫人」，水居，如魚，不廢織績。其眼，泣，則能出珠。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "merperson-in-southsea-c08",
+          "source_id": "merperson-in-southsea-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shuyi Ji (述異記) says that at the snake market of Yangzhou (揚州) people sell pearls and jade mixed with jiao cloth (鮫布), and that jiaoren are the quanxian (泉先), also called quanke (泉客).",
+          "statement_id": "Shuyi Ji (述異記) menyebut bahwa di pasar ular Yangzhou (揚州) orang menjual mutiara dan giok bercampur kain jiao (鮫布), dan bahwa jiaoren adalah quanxian (泉先), juga disebut quanke (泉客).",
+          "quote": "化爲黄能〈奴來反〉入於羽泉今會稽祭禹廟不用熊曰黄能即黄熊也陸居曰熊水居曰能昉按今江淮中有⿰名熊熊虵之精至冬化爲雉至夏復爲虵今呉中不食雉毒故也揚州有虵市市人鬻珠玉而雜貨鮫布鮫人即泉先也又名泉客",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "merperson-in-southsea-c09",
+          "source_id": "merperson-in-southsea-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Koizumi Yakumo (小泉八云) wrote the story Koujin no kansha (鲛人报恩) about a jiaoren driven out of the dragon palace and rescued by a man; its tears turn into jewels, which it gives him in gratitude.",
+          "statement_id": "Koizumi Yakumo (小泉八云) menulis kisah Koujin no kansha (鲛人报恩) tentang jiaoren yang diusir dari istana naga dan diselamatkan seorang lelaki; air matanya berubah menjadi permata yang ia berikan sebagai balas budi.",
+          "quote": "小泉八云另有作品《鲛人报恩》（罗马字：Koujin no kansha），讲述鲛人被赶出龙宫，然后被一男子救。鲛人因此落泪，没想到眼泪变成宝石，鲛人就将宝石给男子报恩。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "dbf304da866fc7a4465fc08c8a710774f8abc1315a925ef1e299baa5aa101fc8"
+      "images": []
     },
     {
       "slug": "pihi",
@@ -3321,11 +3577,12 @@
     },
     {
       "slug": "prespa-lake-monster",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "97322c1cd2fa2a69f03de69644a6683a1425c88ff6d32542a9b0647ba7faa3de",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -3333,11 +3590,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Cerita rakyat Balkan\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3390,27 +3642,71 @@
           "quote": "有理论认为普雷斯帕湖怪物其实是湖中的鲶鱼，但反对者认为鲶鱼与影像中的湖怪形象不符。神秘动物学研究者安德鲁·麦格拉思（Andrew McGrath）对2017年12月流出的湖怪影像真实性表示怀疑，认为这可能是一场骗局。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "prespa-lake-monster-c06",
+          "source_id": "prespa-lake-monster-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "In 2017 witnesses in the village of Pretor, Albania, again reported a long-necked lake monster and filmed a video; an investigation by retired geography professor Sima Jonoski with journalists found no trace of it.",
+          "statement_id": "Pada 2017, saksi di desa Pretor, Albania, kembali melaporkan monster danau berleher panjang dan merekam video; penyelidikan oleh pensiunan profesor geografi Sima Jonoski bersama wartawan tidak menemukan jejaknya.",
+          "quote": "2017年，阿尔巴尼亚普雷托村（Pretor）再度有目击者发现长颈湖怪，并拍下一段视频。之后退休地理学教授Sima Jonoski与记者们一同展开调查，但没有发现湖怪踪迹。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prespa-lake-monster-c07",
+          "source_id": "prespa-lake-monster-s2",
+          "host": "nationalcryptidsociety.org",
+          "statement": "Lake Prespa is the larger of two freshwater lakes sharing the name (Great Prespa and Small Prespa); Great Prespa is shared by Albania, Greece and the Republic of Macedonia.",
+          "statement_id": "Danau Prespa adalah yang lebih besar dari dua danau air tawar bernama sama (Great Prespa dan Small Prespa); Great Prespa berbatasan dengan Albania, Yunani (Greece), dan Republik Makedonia (Republic of Macedonia).",
+          "quote": "Lake Prespa is the larger of two freshwater lakes that share the same name (The Great Prespa Lake and The Small Prespa Lake.) The former having a shared border with Albania, Greece, and the Republic of Macedonia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prespa-lake-monster-c08",
+          "source_id": "prespa-lake-monster-s2",
+          "host": "nationalcryptidsociety.org",
+          "statement": "In December 2017 the lake was the scene of an alleged lake monster sighting that was filmed, posted to YouTube and featured on the front pages of many tabloid newspapers.",
+          "statement_id": "Pada Desember 2017 danau itu menjadi lokasi dugaan penampakan monster danau yang terekam video, diunggah ke YouTube, dan dimuat di halaman depan banyak tabloid dunia.",
+          "quote": "In December 2017, this lake was the scene of an alleged lake monster sighting, which was fortunately captured on film, posted to YouTube, and not unexpectedly found itself featured on the front pages of many of the world’s tabloid newspapers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prespa-lake-monster-c09",
+          "source_id": "prespa-lake-monster-s2",
+          "host": "nationalcryptidsociety.org",
+          "statement": "The footage, filmed in the Albanian section of the lake, resembles a classic Nessie sighting: the head and swan-like neck of a large creature moving through the water not far offshore before slowly submerging.",
+          "statement_id": "Rekaman dari bagian danau di wilayah Albania itu tampak mirip penampakan Nessie klasik: kepala dan leher seperti angsa dari makhluk besar yang bergerak di air tidak jauh dari tepi, lalu perlahan tenggelam.",
+          "quote": "The footage which was filmed in the Albanian section of the Lake, upon first glance certainly seems to be a good match for a classic Nessie sighting, and shows what appears to be a head and swan-like neck of a large creature moving through the water, not far off shore, before slowly submerging beneath the surface of the lake.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prespa-lake-monster-c10",
+          "source_id": "prespa-lake-monster-s2",
+          "host": "nationalcryptidsociety.org",
+          "statement": "The article's author still doubts the footage's authenticity because the object is static, its movement jerky and the filming stops without explanation.",
+          "statement_id": "Penulis artikel itu tetap meragukan keaslian rekaman karena objeknya statis, gerakannya tersentak-sentak, dan rekaman berhenti tanpa penjelasan.",
+          "quote": "the static nature of the ‘object’, combined with its jerky movement and of course the unexplained cessation of footage, means that my doubt about its authenticity still lingers.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2401cd8e63a12a3b5cebade5b40e9cd8f89f3022c1c6b0b5d4d5704f85bad13a"
+      "images": []
     },
     {
       "slug": "qianlima",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-11.md",
+      "entry_sha256": "e6035684dc146d5a875d66ef6d949b0ee1b32ab37f3cc2288d6115f67df8bc49",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qianlima-c01",
@@ -3441,27 +3737,71 @@
           "quote": "千里馬指可以日行千里的駿馬。在中國古籍中，曾多次提及千里馬，如「宁昂昂若千里之驹乎？」（《楚辭·卜居》）；「缪王日驰千里马，攻徐偃王大破之。」（《史记·赵世家》）。相傳伯樂能相千里馬，「世有伯樂，然後有千里馬」（韓愈）。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "qianlima-c04",
+          "source_id": "qianlima-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "According to a study cited by Wikipedia, an ancient li was about 600 metres, so \"a thousand li a day\" is only about 600 kilometres per day and not impossible.",
+          "statement_id": "Menurut sebuah kajian yang dirujuk Wikipedia, satu li zaman dahulu kira-kira 600 meter, sehingga \"seribu li sehari\" hanya sekitar 600 kilometer per hari dan bukan hal yang mustahil.",
+          "quote": "有研究指出古時的度量衡單位與現今差別甚大。古時一里約等如目前600公尺，故「日行千里」只是一天走600公里左右，並非不可能的事。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qianlima-c05",
+          "source_id": "qianlima-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Ma Shuo (馬說), a thousand-li horse may finish a dan of grain at one meal; a keeper who does not know its ability fails to feed it enough, so although capable of a thousand li, it goes hungry and lacks strength.",
+          "statement_id": "Dalam teks Ma Shuo (馬說), kuda seribu li kadang menghabiskan satu dan biji-bijian sekali makan; pemberi makan yang tidak tahu kemampuannya tidak memberinya cukup, sehingga meski mampu menempuh seribu li, ia lapar dan kurang tenaga.",
+          "quote": "馬之千里者，一食或盡粟一石。食馬者，不知其能千里而食也。是馬也，雖有千里之能，食不飽，力不足",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qianlima-c06",
+          "source_id": "qianlima-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Zhanguo Ce (戰國策), Guo Wei (郭隗) tells of a ruler of old who sought a thousand-li horse for a thousand pieces of gold but failed to obtain one for three years.",
+          "statement_id": "Dalam Zhanguo Ce (戰國策), Guo Wei (郭隗) menceritakan seorang raja zaman dahulu yang mencari kuda seribu li dengan seribu keping emas tetapi selama tiga tahun tidak mendapatkannya.",
+          "quote": "郭隗先生曰：「臣聞古之君人，有以千金求千里馬者，三年不能得。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qianlima-c07",
+          "source_id": "qianlima-s3",
+          "host": "zh.wikisource.org",
+          "statement": "A palace attendant offered to search; within three months he found a thousand-li horse that had already died, bought its head for five hundred pieces of gold and returned to report.",
+          "statement_id": "Seorang pelayan istana menawarkan diri mencarinya; dalam tiga bulan ia menemukan kuda seribu li yang sudah mati, membeli kepalanya seharga lima ratus keping emas, lalu kembali melapor.",
+          "quote": "言於君曰：『請求之。』君遣之。三月得千里馬，馬已死，買其首五百金，反以報君。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qianlima-c08",
+          "source_id": "qianlima-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The attendant reasoned that if even a dead horse fetched five hundred pieces of gold, the world would believe the king truly bought horses; within less than a year three thousand-li horses arrived.",
+          "statement_id": "Pelayan itu beralasan bahwa jika kuda mati saja dibeli lima ratus keping emas, orang akan yakin raja sungguh mau membeli kuda; dalam kurang dari setahun, tiga kuda seribu li pun datang.",
+          "quote": "『死馬且買之五百金，況生馬乎？天下必以王為能市馬，馬今至矣。』於是不能期年，千里之馬至者三。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "359b75229475ad0cebd9b2a7ed9213452bcfd795526fb09387612a3743e29cf2"
+      "images": []
     },
     {
       "slug": "qingniao",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "3f8c248560869466edc075d1ceaca0e15070c6b4765a06763f2a376bcaf95076",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qingniao-c01",
@@ -3522,27 +3862,51 @@
           "quote": "The Qingniao are an important motif and frequently depicted in myths regarding Xi Wangmu and her Western Paradise, which is generally located on the mythical Kunlun Mountain.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "qingniao-c07",
+          "source_id": "qingniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Xishan Jing (西山經) section of the Shan Hai Jing names Mount Sanwei (三危之山), two hundred and twenty li further west, as the home of the three qing birds (三青鳥); the mountain measures a hundred li around.",
+          "statement_id": "Bagian Xishan Jing (西山經) dalam Shan Hai Jing menyebut Gunung Sanwei (三危之山), dua ratus dua puluh li lebih ke barat, sebagai tempat tinggal tiga burung qing (三青鳥); gunung itu luasnya seratus li.",
+          "quote": "又西二百二十里，曰三危之山〈今在燉煌郡，尚書云：竄三苗于三危是也。〉，三青鳥居之。是山也，廣員百里",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qingniao-c08",
+          "source_id": "qingniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A note on the text explains that the three qing birds fetch food for Xi Wangmu (西王母) and perch separately on this mountain; it also cites the Zhushu (竹書): King Mu (穆王), travelling west, reached the place where the qing birds rest.",
+          "statement_id": "Catatan pada teks itu menjelaskan bahwa tiga burung qing bertugas mengambilkan makanan bagi Xi Wangmu (西王母) dan bertengger tersendiri di gunung ini; catatan itu juga mengutip Zhushu (竹書) bahwa Raja Mu (穆王) dalam perjalanan ke barat sampai di tempat burung qing beristirahat.",
+          "quote": "三青鳥主，為西王母取食者，別自棲息於此山也。竹書曰，穆王西征，至于青鳥所解也。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qingniao-c09",
+          "source_id": "qingniao-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The food-bringing green birds seem to resemble the three-footed birds believed to live in the sun; these birds are sometimes called \"crows\".",
+          "statement_id": "Burung-burung hijau pembawa makanan itu tampak mirip dengan burung berkaki tiga yang dipercaya tinggal di matahari; burung-burung ini kadang disebut \"gagak\" (crows).",
+          "quote": "these seem to have some similarity with the Three-footed birds believed to reside in the sun. (Sometimes these birds are called \"crows\".)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "97a46d0087119fff9b3f0afdca0c0ea0568ceefefe12613a4a02b405b4c54957"
+      "images": []
     },
     {
       "slug": "ro-langs",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "1d72243b446d6155e7a386a8a6c7a2a0f831beb1fe61bf64ff144afaab5c1768",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ro-langs-c01",
@@ -3603,18 +3967,68 @@
           "quote": "Demonic ro-langs are created by an evil spirit with the goal of contaminating other humans; they are independent, and do not serve a master. They are created by either a gdon spirit that has broken its oath and become evil, or a bgegs spirit, which is already evil.  Once the consciousness has left the body, the evil spirit enters the body before it is buried.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ro-langs-c07",
+          "source_id": "ro-langs-s2",
+          "host": "theoxfordculturereview.com",
+          "statement": "The Tibetan ro-lang literally means risen corpse; it superficially resembles the voodoo zombie in being a dead human body animated through spiritual practice or intervention.",
+          "statement_id": "Ro-lang Tibet secara harfiah berarti mayat yang bangkit; ia mirip secara dangkal dengan zombi voodoo karena berupa jasad manusia yang dihidupkan lewat praktik atau campur tangan spiritual.",
+          "quote": "The Tibetan ro-lang (རོ་ལང) literally translates as risen corpse. It bears an obvious superficial similarity to the voodoo zombie, in that it is the corpse of a dead human being, animated through spiritual practice/intervention.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ro-langs-c08",
+          "source_id": "ro-langs-s2",
+          "host": "theoxfordculturereview.com",
+          "statement": "Unlike zombies of modern popular culture, which usually bite, the ro-lang attacks by placing its palm on the victim's head.",
+          "statement_id": "Berbeda dengan zombi dalam budaya populer modern yang biasanya menggigit, ro-lang menyerang dengan menaruh telapak tangannya di kepala korban.",
+          "quote": "In contrast to the zombies one finds in modern popular culture which usually carry out this process with a bite, the ro-lang carries out its attack by placing its palm on their head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ro-langs-c09",
+          "source_id": "ro-langs-s2",
+          "host": "theoxfordculturereview.com",
+          "statement": "Many buildings were built with low ceilings because people believed the ro-lang could not bend down.",
+          "statement_id": "Banyak bangunan dibuat dengan langit-langit rendah karena orang percaya ro-lang tidak dapat membungkuk.",
+          "quote": "Many buildings were constructed with low ceilings — as many people believed that the ro-lang was incapable of bending down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ro-langs-c10",
+          "source_id": "ro-langs-s2",
+          "host": "theoxfordculturereview.com",
+          "statement": "In photographer Fosco Maraini's account of his journey through Tibet, his local assistant said that oddly shaped rocks resembled ro-lang and believed that throwing a shoe at a ro-lang would defeat it.",
+          "statement_id": "Dalam catatan perjalanan fotografer Fosco Maraini di Tibet, asisten lokalnya berkata bahwa batu berbentuk aneh mirip ro-lang, dan ia percaya melempar sepatu ke ro-lang dapat mengalahkannya.",
+          "quote": "By contrast, in photographer Fosco Maraini’s account of his journey through Tibet he describes that his local assistant stated that ‘oddly shaped rocks’ bore some resemblance to ro-lang. His defensive weapon of choice was a shoe, believing that throwing a shoe at a ro-lang would defeat it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ro-langs-c11",
+          "source_id": "ro-langs-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ro-langs cannot bend at the waist; to exploit this weakness, many early Tibetan buildings had very low door frames.",
+          "statement_id": "Ro-langs tidak dapat membungkuk di pinggang; untuk memanfaatkan kelemahan ini, banyak bangunan Tibet awal dibuat dengan kusen pintu yang sangat rendah.",
+          "quote": "Ro-langs are unable to bend at the waist; to exploit this weakness, many buildings in early Tibetan architecture were built with very low door frames.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bd52dfcb8f5bc1cf4778ed7009e9740367edf3fb57fc5e8540cc82e8d726771d"
+      "images": []
     },
     {
       "slug": "schytinglitto",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "47a69f85bd7697ada2ea5657524416e772685ab4ae5892bf7b1e55cfb4d5c919",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -3622,11 +4036,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Tradisi Siraya\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3689,14 +4098,34 @@
           "quote": "如果病情沒有好轉的話，伊尼婆會在房舍外圍挖很多洞，拿出預藏的毛髮，聲稱那些是惡靈的毛、而自己已經取下惡靈的頭，並且大吼著趕走惡靈。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "schytinglitto-c07",
+          "source_id": "schytinglitto-s2",
+          "host": "web.archive.org",
+          "statement": "The records of David Wright (大衛・萊特) document the evil-spirit belief of the Siraya (西拉雅): the Siraya believed that a person who fell ill had been possessed by a demon named Schytinglitto (史契聽利圖).",
+          "statement_id": "Catatan David Wright (大衛・萊特) merekam kepercayaan roh jahat suku Siraya (西拉雅): orang Siraya percaya bahwa orang yang sakit telah dirasuki iblis bernama Schytinglitto (史契聽利圖).",
+          "quote": "除了喪葬習俗之外，在大衛・萊特（David Wright）的紀錄中，也紀載了西拉雅族的「惡鬼信仰」。西拉雅人相信，一旦人會生病，都是被一名叫做「史契聽利圖」（Schytinglitto）的惡魔附身。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "schytinglitto-c08",
+          "source_id": "schytinglitto-s2",
+          "host": "web.archive.org",
+          "statement": "According to the article, the Inibs priestess (伊尼婆) was believed able to see evil spirits; she expelled them with various rituals together with brave young men, driving them to the riverbank, then planted a bamboo pole because the evil spirit was said to fear bamboo, and struck it hard when it came near.",
+          "statement_id": "Menurut artikel itu, pendeta perempuan Inibs (伊尼婆) dipercaya mampu melihat roh jahat; ia mengusirnya dengan berbagai ritual bersama para pemuda pemberani hingga ke tepi sungai, lalu menancapkan sebatang bambu karena roh jahat dikatakan takut pada bambu, dan memukulnya keras-keras bila mendekat.",
+          "quote": "伊尼婆具有洞視邪魔的靈力，一旦被她發現，她就會用各種儀式來驅趕惡魔，並且與勇士共同驅逐惡鬼，將惡鬼驅趕到河岸邊，這時候「女乩童在地上豎一根竹竿，因為據他們說惡靈很怕竹竿。當惡靈靠近女乩童時，她猛烈地敲打祂。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "06ecac6c1fa43c058991fbd3a9f0312f0bea532d1008b4eaafe4e62d349b2fe5"
+      "images": []
     },
     {
       "slug": "seven-legs-spiders",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "aa4bcb8d59a89886f05e1ec15ade4866675a662e952ca64ca9626416617e6927",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -3707,7 +4136,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 kutipan berbeda dari 6 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3772,25 +4201,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "97ec24e5fb86e410db34f687f3ac76b5d0377c7d542864d4d7efc68959c650e0"
+      "images": []
     },
     {
       "slug": "si",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "a40882d869474cb6a4cfece96fd0504cb00f62a2bcccb0c177b69542cbc4f9f9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "si-c01",
@@ -3851,14 +4274,24 @@
           "quote": "『周礼』考工記などによれば、兕や犀の皮革は甲冑の材料として利用されていた。『荀子』議兵篇などによれば、そのような用法は楚人の慣習だった。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "si-c07",
+          "source_id": "si-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A note on the Nanshan Jing (南山經) passage about Mount Daoguo says the si (兕) also resembles a water buffalo, is qing (青) in colour, has a single horn and weighs three thousand jin.",
+          "statement_id": "Catatan pada bagian Nanshan Jing (南山經) tentang Gunung Daoguo menyebut si (兕) juga mirip kerbau air, berwarna qing (青), bertanduk satu, dan beratnya tiga ribu jin.",
+          "quote": "在鼻上者小而不墮，食角也。好噉棘，口中常灑血沫。兕亦似水牛，青色一角，重三千斤",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d93b94df33ff6304c775d9b17adc826248f13483d33cd6ee071842884ca0f15b"
+      "images": []
     },
     {
       "slug": "the-great-deer",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "92d1a6f116639056832f88c086769a66353ae2fccbc201209adfe7d7597fb757",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -3874,7 +4307,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 kutipan berbeda dari 6 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3939,15 +4372,15 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4b3716bbd26e028ce4fb78dd98b671efe1ea75b80034430b88c9c5972bffc629"
+      "images": []
     },
     {
       "slug": "water-monkey",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "cc8f33e9d00c9d764c6a6989a86b066e9398709c2642d82d8df9ab6a219aff1b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 8,
         "sources": 1,
         "images": 0
       },
@@ -4018,27 +4451,41 @@
           "quote": "（4）一旦上岸便失去了神奇的力量； （5）水猴子惧怕红色。 显然这些特征是水獭说无法解释的，水獭只能袭击体型较小的生物",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "water-monkey-c07",
+          "source_id": "water-monkey-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia notes that the Yong'an Biji (庸庵笔记) by the Qing official Xue Fucheng (薛福成) contains the stories \"The water ghost drags people in broad daylight\" (水鬼白昼拉人) and \"The water ghost disguised as a sampan\" (水鬼假冒舢板船).",
+          "statement_id": "Wikipedia menyebut bahwa Yong'an Biji (庸庵笔记) karya pejabat Dinasti Qing Xue Fucheng (薛福成) memuat kisah \"Hantu air menarik orang di siang hari\" (水鬼白昼拉人) dan \"Hantu air menyamar sebagai sampan\" (水鬼假冒舢板船).",
+          "quote": "清代官员薛福成所著的《庸庵笔记》里，有《水鬼白昼拉人》和《水鬼假冒舢板船》的故事。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "water-monkey-c08",
+          "source_id": "water-monkey-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Legends of the water monkey dragging people into the water exist in many parts of China; in 2016, after a woman washing clothes in Chizhou, Anhui (安徽池州) drowned in a waist-deep river, some netizens speculated that a water monkey had pulled her.",
+          "statement_id": "Legenda water monkey yang menarik orang ke dalam air ada di banyak tempat di Tiongkok; pada 2016, setelah seorang perempuan pencuci baju di Chizhou, Anhui (安徽池州) tenggelam di sungai sedalam pinggang, sebagian warganet menduga water monkey menariknya.",
+          "quote": "中国多地都有水猴子拖人下水的传说。2016年，安徽池州一名洗衣妇人在水深仅及腰的河里溺水，部分网友看过影片後猜测有水猴子拖扯该妇人。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8e6e0607f48555b2228c7e9f9b3b707be59403c83a79931fcbf94ad7db72e469"
+      "images": []
     },
     {
       "slug": "wd-q10297137",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "61ced8ba833d43561daa38c5e084b7b725ec7c2e7a36964e20b5f372ef964862",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10297137-c01",
@@ -4069,27 +4516,81 @@
           "quote": "擔生，是中國神話傳說中的大蛇，会吃人，但會報恩救主。在《廣異記》有记载有书生收养一条小蛇，给那条蛇取名担生的故事。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10297137-c04",
+          "source_id": "wd-q10297137-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia quotes the Shuijing Zhu (水經注) of Li Daoyuan (酈道元): a traveller raised a small snake he thought numinous and named it Dansheng (担生); grown, it devoured people, its owner was jailed, Dansheng carried him off, and the town sank into a lake.",
+          "statement_id": "Wikipedia mengutip Shuijing Zhu (水經注) karya Li Daoyuan (酈道元): seorang pejalan memelihara ular kecil yang ia kira bertuah dan menamainya Dansheng (担生); setelah besar ular itu memangsa manusia, pemiliknya dipenjara, Dansheng membawanya lari, dan kota itu tenggelam menjadi danau.",
+          "quote": "酈道元《水經注》：「人有行於途者，見一小蛇，疑其有靈，持而養之，名曰担生。長而吞噬人，里中患之，遂捕系獄。擔生負而奔，邑淪為湖。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10297137-c05",
+          "source_id": "wd-q10297137-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji (太平廣記) tells of a scholar who picked up a small snake on the road; because he always carried it on his shoulder it was named 簷生, and when it grew too large he released it into the great marsh east of Fan county (范縣).",
+          "statement_id": "Taiping Guangji (太平廣記) menceritakan seorang terpelajar yang memungut ular kecil di jalan; karena ia selalu memikulnya, ular itu dinamai 簷生, lalu setelah terlalu besar dilepas di rawa besar di timur Kabupaten Fan (范縣).",
+          "quote": "昔有書生，路逢小蛇，因而收養，數月漸大。書生每自簷之，號曰簷生。其後不可簷負，放之范縣東大澤中。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10297137-c06",
+          "source_id": "wd-q10297137-s2",
+          "host": "zh.wikisource.org",
+          "statement": "More than forty years later the snake was as large as an overturned boat, was called the divine python (神蟒), and anyone entering the marsh was sure to be swallowed; at that time the scholar, now old, passed by the edge of the marsh.",
+          "statement_id": "Lebih dari empat puluh tahun kemudian ular itu sebesar perahu terbalik, dijuluki ular sanca dewa (神蟒), dan orang yang masuk ke rawa pasti dimangsanya; saat itu sang terpelajar, yang sudah tua, melintas di tepi rawa tersebut.",
+          "quote": "四十餘年，其蛇如覆舟，號為神蟒，人往於澤中者，必被吞食。書生時以老邁，途經此澤畔",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10297137-c07",
+          "source_id": "wd-q10297137-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When the now aged scholar crossed the marsh, the snake chased him, but he recognised its form and called it by name; the snake lowered its head and left.",
+          "statement_id": "Ketika sang terpelajar yang sudah tua melintasi rawa itu, ular tersebut mengejarnya, tetapi ia mengenali rupanya dan memanggil namanya; ular itu menundukkan kepala lalu pergi.",
+          "quote": "行二十里餘，忽有蛇逐，書生尚識其形色，遙謂之曰：「爾非我簷生乎？」蛇便低頭，良久方去。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10297137-c08",
+          "source_id": "wd-q10297137-s2",
+          "host": "zh.wikisource.org",
+          "statement": "After the scholar was jailed and sentenced to death, he complained to the snake; that night it sank the whole county into a lake except the prison, and he escaped.",
+          "statement_id": "Setelah sang terpelajar dipenjara dan dijatuhi hukuman mati, ia mengeluh kepada ular itu; malam itu ular tersebut menenggelamkan seluruh kabupaten menjadi danau, kecuali penjara, sehingga ia selamat.",
+          "quote": "書生私忿曰：「簷生，養汝翻令我死，不亦劇哉！」其夜，蛇遂攻陷一縣為湖，獨獄不陷，書生獲免。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10297137-c09",
+          "source_id": "wd-q10297137-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji closes the story with a boat capsizing without cause on that lake, and gives the Guangyi Ji (廣異記) as its source.",
+          "statement_id": "Taiping Guangji menutup kisah ini dengan peristiwa perahu yang terbalik tanpa sebab di danau itu, dan mencantumkan Guangyi Ji (廣異記) sebagai sumbernya.",
+          "quote": "三月三日，與家人於湖中泛舟，無故覆沒，家人幾死者數四也。〈（出《廣異記》）〉",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e15a1b86a30ae1397c001742bef5d85c8ebede782b888cd85bb590e9e3a25b5e"
+      "images": []
     },
     {
       "slug": "wd-q10311105",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-12.md",
+      "entry_sha256": "5fe4640d6f77c95cb6bddfcd0ced8c7ff55d6cba49164cd813c5af1237192bd7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10311105-c01",
@@ -4120,10 +4621,59 @@
           "quote": "日及是传说中的异牛。其肉割掉可以再生，這種牛在西域大月氏。也是木槿的别名。",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10311105-c04",
+          "source_id": "wd-q10311105-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia quotes the Xuanzhong Ji (玄中记): the Great Yuezhi (大月氏) have an ox named Riji (日及); one or two jin of its flesh are cut and the next day the wound is healed, and Han visitors to the country are shown it as a rare marvel.",
+          "statement_id": "Wikipedia mengutip Xuanzhong Ji (玄中记): Yuezhi Besar (大月氏) punya sapi bernama Riji (日及); satu atau dua jin dagingnya diiris dan keesokan harinya lukanya sembuh, dan orang Han yang datang ke negeri itu diperlihatkan sapi itu sebagai keajaiban.",
+          "quote": "《玄中记》：“大月氏有牛，名曰日及，割取肉一、二斤，明日疮愈。汉人入国，示之以为异珍。”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10311105-c05",
+          "source_id": "wd-q10311105-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Tongdian (通典), in its section on the Great Yuezhi, quotes the Xuanzhong Ji: agate comes from the Great Yuezhi, and there is also an ox named Riji whose wound heals the day after its flesh is taken.",
+          "statement_id": "Tongdian (通典), dalam bagian tentang Yuezhi Besar, mengutip Xuanzhong Ji bahwa batu akik berasal dari Yuezhi Besar dan ada pula sapi bernama Riji yang lukanya sembuh sehari setelah dagingnya diambil.",
+          "quote": "玄中記：「瑪瑙出大月氏。又有牛名為日及，今日取其肉，明日瘡愈。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10311105-c06",
+          "source_id": "wd-q10311105-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The collected edition of the Xuanzhong Ji (玄中記) on Wikisource notes that the name of the ox of the Great Yuezhi and the western Hu differs by citation: 日反, 日支牛 in the Beitang Shuchao (書鈔), 反牛 in the Taiping Yulan (禦覽), 日及 in the Tongdian, and 白皮牛 in the Shilei Fu annotation (事類賦註).",
+          "statement_id": "Edisi himpunan Xuanzhong Ji (玄中記) di Wikisource mencatat bahwa nama sapi dari Yuezhi Besar dan bangsa Hu barat itu berbeda menurut kutipan: 日反, 日支牛 dalam Beitang Shuchao (書鈔), 反牛 dalam Taiping Yulan (禦覽), 日及 dalam Tongdian, dan 白皮牛 dalam anotasi Shilei Fu (事類賦註).",
+          "quote": "大月氏及西胡，三字書鈔引有有牛名為日反：書鈔百四十五引作日支牛禦覽九百引作反牛通典一百九十二引作日及事類賦註二十二引作白皮牛",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10311105-c07",
+          "source_id": "wd-q10311105-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to that text, three or four jin of its flesh are cut today (two or three jin in the Yiwen Leiju, 類聚), and by the next day the flesh has grown back and the wound has healed.",
+          "statement_id": "Menurut teks itu, tiga atau empat jin dagingnya diiris hari ini (dua atau tiga jin menurut Yiwen Leiju, 類聚), dan keesokan harinya dagingnya sudah pulih dan lukanya sembuh.",
+          "quote": "今日割取其肉三四斤，類聚引作二三斤明日其肉已復，創即愈也。類聚引作明日瘡愈事類賦註通典引並同",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10311105-c08",
+          "source_id": "wd-q10311105-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Yulan (太平御覽) quotes the Xuanzhong Ji under another name: the Great Yuezhi (大月支) and the western Hu have an ox named Fanniu (反牛), whose flesh grows back the day after it is cut.",
+          "statement_id": "Taiping Yulan (太平御覽) mengutip Xuanzhong Ji dengan nama lain: Yuezhi Besar (大月支) dan bangsa Hu barat punya sapi bernama Fanniu (反牛), yang dagingnya pulih sehari setelah diiris.",
+          "quote": "《玄中記》曰：大月支及西胡有牛，名曰反牛。今日割取其肉三四斤，明日其肉已復，創即愈也。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a335334c0ac3b2abd92654a3a72a67f6efede639bf3e3edcbb5faab6adf0b745"
+      "images": []
     }
   ]
 }
