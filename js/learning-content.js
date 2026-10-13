@@ -1,6 +1,101 @@
 const L = (id, en) => ({ id, en });
 export const lessons = [
   {
+    id: "human-condition",
+    minutes: 6,
+    title: L("Manusia di balik setiap makhluk", "The humans behind every creature"),
+    summary: L(
+      "Mitologi hanya ada karena ada manusia yang bercerita. Baca setiap makhluk sebagai cermin ketakutan, harapan, dan pertanyaan para penuturnya.",
+      "Mythology exists only because people tell stories. Read every creature as a mirror of the fears, hopes, and questions of those who tell it.",
+    ),
+    objectives: [
+      L(
+        "Memahami bahwa setiap mitos, nama, dan rupa makhluk sampai kepada kita lewat manusia yang menuturkan, menulis, dan menggambarnya.",
+        "Understand that every myth, name, and image of a creature reaches us through people who tell, write, and draw it.",
+      ),
+      L(
+        "Membaca makhluk sebagai cermin nilai dan ketakutan sebuah masyarakat, tanpa merendahkan keyakinan yang masih hidup.",
+        "Read creatures as mirrors of a society's values and fears without belittling living beliefs.",
+      ),
+    ],
+    sections: [
+      {
+        title: L("Satu syarat: manusia", "One condition: people"),
+        text: L(
+          "Gunung, badai, sungai, dan hutan sudah ada jauh sebelum kita. Namun naga di gunung, roh di dalam badai, dan penunggu hutan hanya hidup di dalam cerita yang dituturkan, ditulis, dipahat, dan dilukis manusia. Tanpa manusia tidak ada mitologi. Itulah sebabnya setiap entri di Mitoloka pada akhirnya bersandar pada kesaksian manusia: penutur, juru tulis, peneliti, dan seniman.",
+          "Mountains, storms, rivers, and forests existed long before us. Yet the dragon on the mountain, the spirit in the storm, and the guardian of the forest live only in stories that people tell, write, carve, and paint. Without people there is no mythology. That is why every Mitoloka entry ultimately rests on human testimony: narrators, scribes, researchers, and artists.",
+        ),
+      },
+      {
+        title: L("Kata “monster” berarti peringatan", "The word “monster” means a warning"),
+        text: L(
+          "Kata “monster” berasal dari bahasa Latin monstrum, yang diturunkan dari kata kerja moneo: mengingatkan, memperingatkan, mengajar, atau meramalkan. Dalam pengertian lamanya, monstrum adalah sesuatu yang ganjil dan menyimpang dari jalan alam yang biasa, yang dibaca sebagai tanda. Sejak awal, makhluk menakutkan dipahami sebagai pesan, dan sebuah pesan selalu membutuhkan manusia yang mengirim dan menerimanya.",
+          "The word “monster” comes from the Latin monstrum, which derives from the verb moneo: to remind, warn, instruct, or foretell. In its old sense a monstrum was something strange that departed from the usual course of nature and was read as a sign. From the start, frightening beings were understood as messages, and a message always needs people to send and receive it.",
+        ),
+      },
+      {
+        title: L("Para dewa menyerupai penuturnya", "Gods resemble those who describe them"),
+        text: L(
+          "Filsuf Yunani Xenophanes dari Kolofon (sekitar abad ke-6 SM) mencatat bahwa orang Etiopia menyebut dewa mereka berhidung pesek dan berkulit hitam, sedangkan orang Thrakia menyebut dewa mereka bermata biru dan berambut merah. Pengamatannya masih berguna sampai sekarang: gambaran tentang yang adikodrati sering meminjam rupa, kebiasaan, dan nilai orang yang membayangkannya.",
+          "The Greek philosopher Xenophanes of Colophon (around the sixth century BCE) observed that Ethiopians say their gods are snub-nosed and black, while Thracians say theirs are blue-eyed and red-haired. His point still helps today: images of the supernatural often borrow the looks, habits, and values of the people who imagine them.",
+        ),
+      },
+      {
+        title: L("Monster sebagai cermin budaya", "Monsters as cultural mirrors"),
+        text: L(
+          "Dalam esai “Monster Culture (Seven Theses)” (1996), Jeffrey Jerome Cohen menulis bahwa tubuh monster adalah tubuh budaya: ia lahir pada persimpangan sebuah waktu, perasaan, dan tempat tertentu, dan membawa ketakutan serta hasrat masyarakat yang menciptakannya. Karena itu, pertanyaan yang paling berguna tentang sebuah makhluk sering kali bukan “benarkah ia ada?”, melainkan “ketakutan, aturan, atau harapan apa yang dijaga oleh kisahnya?”",
+          "In the essay “Monster Culture (Seven Theses)” (1996), Jeffrey Jerome Cohen argues that the monster's body is a cultural body: it is born at the crossroads of a particular time, feeling, and place, and carries the fears and desires of the society that creates it. So the most useful question about a creature is often not “does it exist?” but “which fear, rule, or hope does its story protect?”",
+        ),
+      },
+      {
+        title: L("Menghormati keyakinan yang hidup", "Respecting living beliefs"),
+        text: L(
+          "Bagi banyak komunitas, sebagian dewa dan makhluk di Mitoloka adalah bagian dari iman dan ibadah yang nyata. Lensa ini tidak menilai benar atau salahnya sebuah keyakinan; dalam kajian ilmiah, kata “mitos” tidak berarti cerita itu keliru. Yang kita pelajari adalah sisi manusianya: bagaimana orang menuturkan, menggambarkan, dan memaknai apa yang mereka yakini.",
+          "For many communities, some of the gods and beings in Mitoloka belong to a real, living faith and worship. This lens does not judge whether a belief is true; in scholarship, “myth” does not mean a story is false. What we study is the human side: how people tell, depict, and give meaning to what they believe.",
+        ),
+      },
+      {
+        title: L("Latihan membaca", "Reading exercise"),
+        text: L(
+          "Buka halaman Wendigo dan Kuntilanak. Untuk masing-masing, catat siapa yang menuturkan kisahnya dan di mana, lalu ketakutan, aturan, atau pelajaran apa yang tampak di dalamnya. Jawabanmu bukan fakta tentang makhluknya, melainkan tentang manusia yang menceritakannya.",
+          "Open the Wendigo and Kuntilanak entries. For each, note who tells the story and where, then which fear, rule, or lesson appears in it. Your answer is not a fact about the creature but about the people who tell it.",
+        ),
+      },
+    ],
+    creatures: ["wendigo", "kuntilanak"],
+    sources: [
+      [
+        "Stanford Encyclopedia of Philosophy · Xenophanes",
+        "https://plato.stanford.edu/entries/xenophanes/",
+      ],
+      [
+        "Jeffrey Jerome Cohen (ed.) · Monster Theory: Reading Culture (University of Minnesota Press, 1996)",
+        "https://www.upress.umn.edu/9780816628551/monster-theory/",
+      ],
+      ["Wikipedia · Monster (etimologi / etymology)", "https://en.wikipedia.org/wiki/Monster"],
+      ["Wikipedia · Myth", "https://en.wikipedia.org/wiki/Myth"],
+    ],
+    quiz: {
+      question: L(
+        "Menurut lensa pelajaran ini, apa satu hal yang selalu ada di balik sebuah mitologi?",
+        "According to this lesson's lens, what is the one thing always behind a mythology?",
+      ),
+      options: [
+        L("Bukti fosil makhluk yang diceritakan.", "Fossil evidence of the creature described."),
+        L(
+          "Manusia yang menuturkan, menggambarkan, dan memaknai kisahnya.",
+          "People who tell, depict, and give meaning to the story.",
+        ),
+        L("Satu catatan tertulis tertua yang dianggap paling benar.", "A single oldest written record treated as the true one."),
+      ],
+      answer: 1,
+      explanation: L(
+        "Makhluk mitologi hidup di dalam cerita, gambar, dan keyakinan manusia. Mempelajarinya berarti juga mempelajari manusia: ketakutan, harapan, dan nilai mereka.",
+        "Mythological beings live in human stories, images, and beliefs. Studying them also means studying people: their fears, hopes, and values.",
+      ),
+    },
+  },
+  {
     id: "foundations",
     minutes: 5,
     title: L("Mitos, legenda, dan folklor", "Myth, legend, and folklore"),
