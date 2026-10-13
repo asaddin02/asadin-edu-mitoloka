@@ -1,0 +1,75 @@
+{
+  "slug": "jinmenju",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Jinmenju, the mountain-valley tree bearing human-head-like smiling flowers. Native square PNG at least1024x1024.\nANATOMY: ONE living gnarly tree, with several LARGE FLOWERS resembling human heads, face petals joined to flower calyces and stalks, not severed bloody heads. Human-faced FLOWERS ONLY, not fruit or talking bark face. [jinmenju-c02, jinmenju-c05, jinmenju-c06]\nMOMENT: LEAN branches toward close viewer; the foremost human-headed flower fills foreground, silently smiling uncanny broad smile while neighboring laughing flowers SHED PETALS and one flower falls.\nPOWER: Flowers silently smile and drop petals; flowers laughing too much wither and fall. No laser, ghost energy or predatory power. [jinmenju-c06, jinmenju-c07]\nSCALE & CAMERA: Extreme low close view through roots; huge foreground head-flower and angled branches occupy frame without inventing giant tree scale.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: A dark mountain valley, rough rocks and tree roots behind the dominant branches. [jinmenju-c06]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the mountain-valley tree bearing human-head-like smiling flowers",
+  "basis_claim_ids": [
+    "jinmenju-c02",
+    "jinmenju-c05",
+    "jinmenju-c06",
+    "jinmenju-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE living gnarly tree, with several LARGE FLOWERS resembling human heads, face petals joined to flower calyces and stalks, not severed bloody heads. Human-faced FLOWERS ONLY, not fruit or talking bark face.",
+      "claim_ids": [
+        "jinmenju-c02",
+        "jinmenju-c05",
+        "jinmenju-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flowers silently smile and drop petals; flowers laughing too much wither and fall. No laser, ghost energy or predatory power.",
+      "claim_ids": [
+        "jinmenju-c06",
+        "jinmenju-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark mountain valley, rough rocks and tree roots behind the dominant branches.",
+      "claim_ids": [
+        "jinmenju-c06"
+      ]
+    }
+  ],
+  "aura": "LEAN branches toward close viewer; the foremost human-headed flower fills foreground, silently smiling uncanny broad smile while neighboring laughing flowers SHED PETALS and one flower falls. Grounded in jinmenju-c02, jinmenju-c05, jinmenju-c06, jinmenju-c07.",
+  "artistic_choices": [
+    "Exact flower count unspecified; six visible human-faced blooms editorial arrangement, not canonical count. Human faces clean flower tissue, without wounds/gore. Smiles sourced, uncanny awe from confrontation and looming woody branches.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-8051c39b-ffbc-46f7-a081-30465c8c8fb7.png",
+  "generated_at": "2026-10-12T15:23:27.815462+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/jinmenju.png",
+  "native_sha256": "ee7c83d7d4a1dbab907c5455654bd3029d7f83ee6effa995547b1793ba5402d0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan200px dilihat: pohon hidup dengan bunga berupa kepala/wajah manusia c02/c05, wajah besar mendominasi dekat dengan senyum ganjil c06, kelopak dan satu bunga gugur c07. Tidak kepala terpotong/gore atau buahvarian c09. UjiSangar7 ya: kedekatan ganjil menggetarkan, bukan pohon lanskap tenang; efek hanya gugur bunga/kelopak, tanpa kuasa buatan.",
+    "limitations": [],
+    "native_sha256": "ee7c83d7d4a1dbab907c5455654bd3029d7f83ee6effa995547b1793ba5402d0",
+    "reviewed_at": "2026-10-12T15:29:52.236303+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ee7c83d7d4a1dbab907c5455654bd3029d7f83ee6effa995547b1793ba5402d0",
+    "notes": "Gnarled mountain tree bearing large flowers with smiling human faces, petals dropping; uncanny, no severed heads or gore."
+  }
+}

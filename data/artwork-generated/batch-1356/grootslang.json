@@ -1,0 +1,91 @@
+{
+  "slug": "grootslang",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Grootslang, the huge forty-foot Great Snake guarding diamonds in a deep Richtersveld cavern, without modern elephant traits.\nANATOMY: ONE enormous natural SERPENT, one snake head, two natural snake eyes, one long muscular scaled body and tapering tail; absolutely no legs, arms, trunk, tusks, wings, horns or elephant features. Forty-foot-long serpent of roughly three-foot track width [grootslang-c02, grootslang-c17, grootslang-c19]\nMOMENT: Rear and lower its immense snake head toward the viewer from tightly piled coils, open its fanged mouth and physically block the entrance to its diamond hoard.\nPOWER: No magical effects; the documented giant serpent actively guards its diamonds, coils scrape loose cave grit and shift rough stones; eyes are ordinary snake eyes, not diamond gems or glowing beams [grootslang-c03, grootslang-c04, grootslang-c21]\nSCALE & CAMERA: extreme low angle; extreme low angle at cave-floor level, forty-foot serpent body loops against small cave stones, head and neck fill foreground; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one narrow amber light shaft from the cavern entrance, deep black-walnut shadows, reflected natural highlights on wet scales and clear crystals, cave dust.\nSURFACE: wet rugged dark serpent scales, gritty cave floor, clear rough uncut diamonds.\nSETTING: A deep black cavern in the Richtersveld, South Africa, rough natural uncut diamond crystals visible behind its coils in the cave [grootslang-c01, grootslang-c03, grootslang-c14]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Grootslang ular raksasa empat puluh kaki penjaga berlian, tanpa elephanttraits modernmedia.",
+  "basis_claim_ids": [
+    "grootslang-c02",
+    "grootslang-c17",
+    "grootslang-c19",
+    "grootslang-c03",
+    "grootslang-c04",
+    "grootslang-c21",
+    "grootslang-c01",
+    "grootslang-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE enormous natural SERPENT, one snake head, two natural snake eyes, one long muscular scaled body and tapering tail; absolutely no legs, arms, trunk, tusks, wings, horns or elephant features. Forty-foot-long serpent of roughly three-foot track width",
+      "claim_ids": [
+        "grootslang-c02",
+        "grootslang-c17",
+        "grootslang-c19"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical effects; the documented giant serpent actively guards its diamonds, coils scrape loose cave grit and shift rough stones; eyes are ordinary snake eyes, not diamond gems or glowing beams",
+      "claim_ids": [
+        "grootslang-c03",
+        "grootslang-c04",
+        "grootslang-c21"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A deep black cavern in the Richtersveld, South Africa, rough natural uncut diamond crystals visible behind its coils in the cave",
+      "claim_ids": [
+        "grootslang-c01",
+        "grootslang-c03",
+        "grootslang-c14"
+      ]
+    }
+  ],
+  "aura": "No magical effects; the documented giant serpent actively guards its diamonds, coils scrape loose cave grit and shift rough stones; eyes are ordinary snake eyes, not diamond gems or glowing beams [grootslang-c03, grootslang-c04, grootslang-c21]",
+  "artistic_choices": [
+    "Tidak mengimpor trunk/tusks/legs dari c08modernmedia atau berlian mata yang dibantah c16.",
+    "Hoard berupa natural rough diamonds c03; tanpa perhiasan/rune/magicglow."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-c6985897-d436-4ff3-b33c-0345e49eaa39.png",
+  "generated_at": "2026-10-10T03:50:35.865056+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/grootslang.png",
+  "native_sha256": "2c2b6487cf068f4ce12c23f11b21141c3407f7887bc4f4b7496c2a6b83353c48",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: satu huge serpent limbless c02/c17 dengan satu kepala/twoeyes dan coils menutup diamondhoard c03/c21 di cavec01/c14. Tanpa elephanttrunk/tusks/legs atau diamondeyes. Mulut hiss dan kepala turun memberi confrontational action. Uji7/7.",
+    "limitations": [],
+    "native_sha256": "2c2b6487cf068f4ce12c23f11b21141c3407f7887bc4f4b7496c2a6b83353c48",
+    "reviewed_at": "2026-10-10T03:50:35.865056+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2c2b6487cf068f4ce12c23f11b21141c3407f7887bc4f4b7496c2a6b83353c48",
+    "notes": "Giant serpent with jaws wide guarding a cave floor of diamonds; no elephant features."
+  }
+}

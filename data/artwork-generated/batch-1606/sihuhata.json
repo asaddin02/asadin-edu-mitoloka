@@ -1,0 +1,77 @@
+{
+  "slug": "sihuhata",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-076.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Sihuhata, the four-eared five-eyed black bearlike charcoal eater of Lanna lore. Native square PNG at least1024x1024.\nANATOMY: ONE BLACK-HAIRED BEARLIKE creature, ONE head with EXACTLY FOUR distinct round bearears (two on each side) and EXACTLY FIVE EYES (two naturaleyes, two higher broweyes, one centerforehead eye), FOUR bearlimbs and ONE short beartail. No horns or extraheads. [sihuhata-c01, sihuhata-c02, sihuhata-c07]\nMOMENT: BITE glowing burningcharcoal held in one forepaw, turn five-eyed face directly toward viewer, other forepaw plants hard on earthenfloor with sharp intent;4ears/5eyes allvisible.\nPOWER: Eats burningcharcoal and digests it into gold: physical emberlight at mouth/paw and a few smallgold pieces behind on floor, no excretion/anatomical display or glowing aura. [sihuhata-c02, sihuhata-c08]\nSCALE & CAMERA: Extreme lowclose camera;5eye face and4ears occupy upperframe, charcoal/paw clear in lowerhalf.\nLIGHT & WEATHER: Burning charcoal orange is dominant physicalsource, deep walnut shadows and gold flecks, no neon.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Simple rural Lanna home earthenfloor and darkwood doorway, creature brought home in story. [sihuhata-c05, sihuhata-c07]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the four-eared five-eyed black bearlike charcoal eater of Lanna lore",
+  "basis_claim_ids": [
+    "sihuhata-c01",
+    "sihuhata-c02",
+    "sihuhata-c07",
+    "sihuhata-c08",
+    "sihuhata-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE BLACK-HAIRED BEARLIKE creature, ONE head with EXACTLY FOUR distinct round bearears (two on each side) and EXACTLY FIVE EYES (two naturaleyes, two higher broweyes, one centerforehead eye), FOUR bearlimbs and ONE short beartail. No horns or extraheads.",
+      "claim_ids": [
+        "sihuhata-c01",
+        "sihuhata-c02",
+        "sihuhata-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Eats burningcharcoal and digests it into gold: physical emberlight at mouth/paw and a few smallgold pieces behind on floor, no excretion/anatomical display or glowing aura.",
+      "claim_ids": [
+        "sihuhata-c02",
+        "sihuhata-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Simple rural Lanna home earthenfloor and darkwood doorway, creature brought home in story.",
+      "claim_ids": [
+        "sihuhata-c05",
+        "sihuhata-c07"
+      ]
+    }
+  ],
+  "aura": "BITE glowing burningcharcoal held in one forepaw, turn five-eyed face directly toward viewer, other forepaw plants hard on earthenfloor with sharp intent;4ears/5eyes allvisible. Grounded in sihuhata-c01, sihuhata-c02, sihuhata-c07, sihuhata-c08, sihuhata-c05.",
+  "artistic_choices": [
+    "Indra association c03 respected through awe not evil attack; charcoal eater andgold shown nongraphically. Four roundears/fiveeyes exact, arrangement editorial. No giant scale invented.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-15754cc9-ca93-4950-a782-19decfd82abd.png",
+  "generated_at": "2026-10-13T00:33:41.651826+00:00",
+  "native_sha256": "ae3a522cf8a00bae77d513297895f052d910f20b8987a7109f5f76b97142cddb",
+  "width": 1254,
+  "height": 1254,
+  "original_file": "data/artwork-generated/batch-1606/originals/sihuhata.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected;5eyes/4ears clear, black bearlike creature consuming burning coal, gold floor, direct intent and action. All7Sangar checks pass. Recovered historical output; zero new call.",
+    "limitations": [],
+    "native_sha256": "ae3a522cf8a00bae77d513297895f052d910f20b8987a7109f5f76b97142cddb",
+    "reviewed_at": "2026-10-13T02:24:03.579086+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ae3a522cf8a00bae77d513297895f052d910f20b8987a7109f5f76b97142cddb",
+    "notes": "Checked at larger size: black bear-like creature with four ears and five eyes crunching burning charcoal, a few gold nuggets on the floor behind."
+  }
+}

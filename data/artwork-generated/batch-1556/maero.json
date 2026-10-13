@@ -1,0 +1,81 @@
+{
+  "slug": "maero",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Maero, the dark-haired giant forest wildman armed with stone club. Native square PNG at least1024x1024.\nANATOMY: ONE giant human-shaped forest being, ONE head/TWO eyes/TWO arms/TWO legs, body covered in DARK HAIR; LONG BONY fingers with SHARP FINGERNAILS; exactly five fingers eachhand; one massive STONE CLUB gripped firmly. Fully opaque simple dark waistcloth/legwrappings beneath dense bodyhair. [maero-c02, maero-c03, maero-c04]\nMOMENT: STRIDE from forest shadow swinging stone club toward low viewer, free long-fingered hand reaching acrossforeground, face fiercely intent; grounded feet throw earth/grit.\nPOWER: Documented violence and stone club only; no regeneration shown, no separated parts or magic aura. [maero-c03, maero-c04]\nSCALE & CAMERA: Extreme low close angle, giant fills square headtolegs; ordinary tree trunks behind smaller, sourced giant scale c02.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Mountain forest in NewZealand SouthIsland/Tararua tradition, dense wet undergrowth and rough rocks. [maero-c02]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.\nTARGETED CORRECTION: Free reaching hand is fully OPEN with FIVE clearly separated visible fingers including thumb, fingers EXTRA LONG SLENDER and BONY, prominent knuckle joints and thin tendons, narrow flesh over bone with sharp fingernails. Not beefy sausage fingers. Frame whole hand so all5digits distinct against sky, no thumbhidden. Keep darkbodyhair,2arms2legs/stoneclub/violentstride unchanged.",
+  "depicted_variant": "the dark-haired giant forest wildman armed with stone club",
+  "basis_claim_ids": [
+    "maero-c02",
+    "maero-c03",
+    "maero-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE giant human-shaped forest being, ONE head/TWO eyes/TWO arms/TWO legs, body covered in DARK HAIR; LONG BONY fingers with SHARP FINGERNAILS; exactly five fingers eachhand; one massive STONE CLUB gripped firmly. Fully opaque simple dark waistcloth/legwrappings beneath dense bodyhair.",
+      "claim_ids": [
+        "maero-c02",
+        "maero-c03",
+        "maero-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented violence and stone club only; no regeneration shown, no separated parts or magic aura.",
+      "claim_ids": [
+        "maero-c03",
+        "maero-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain forest in NewZealand SouthIsland/Tararua tradition, dense wet undergrowth and rough rocks.",
+      "claim_ids": [
+        "maero-c02"
+      ]
+    }
+  ],
+  "aura": "STRIDE from forest shadow swinging stone club toward low viewer, free long-fingered hand reaching acrossforeground, face fiercely intent; grounded feet throw earth/grit. Grounded in maero-c02, maero-c03, maero-c04.",
+  "artistic_choices": [
+    "Intact giant variant c02, no dismemberment tale depicted. Plain opaque clothing editorial, no sacred tattoos/design or borrowed Bigfoot/movie form. Long thin fingers/nails explicit rather than ordinary human hands.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1556/rejected/maero-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1556/rejected/maero-attempt-01.json",
+      "native_sha256": "c65ec646982321d0c4b8b676a7ce5d98fec239e90a3d62e51733477632197f39",
+      "reason": "c04 distinctive LONG BONY fingers are rendered thick fleshy sausages; freehand shows only4 clearly distinct digits rather than specified5."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-5b3d7cc8-9655-431c-b692-e6c11d7b4b32.png",
+  "generated_at": "2026-10-12T20:40:59.078751+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/maero.png",
+  "native_sha256": "af3eb06bc0aee03ccf86150a7a0094aff6d658d10eec9130c27460f11f0dd51a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected: giant darkhair wildman c02/c04 strides with stoneclub c03, exactly1head/2arms/2legs; freehand displays FIVE distinct long slender BONY fingers with pronounced knuckles/tendons/sharpnails c04 corrected from01. Dense bodyhair/opaque waistcloth, sourced forestmountain c02. Aggressive giant dominance vs trees with physicalearthgrit, no regeneration/disassembly/glow/text/gore;7Sangarchecks pass.",
+    "limitations": [],
+    "native_sha256": "af3eb06bc0aee03ccf86150a7a0094aff6d658d10eec9130c27460f11f0dd51a",
+    "reviewed_at": "2026-10-12T20:45:55.256774+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "af3eb06bc0aee03ccf86150a7a0094aff6d658d10eec9130c27460f11f0dd51a",
+    "notes": "Hairy forest giant with a stone club reaching at the viewer with long bony five-fingered hands and sharp nails, low camera."
+  }
+}

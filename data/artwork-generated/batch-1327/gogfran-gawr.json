@@ -1,0 +1,65 @@
+{
+  "slug": "gogfran-gawr",
+  "depicted_variant": "Gogfran sebagai raksasa humanoid Welsh yang keluar dari caer di atas sungai.",
+  "basis_claim_ids": [
+    "gogfran-gawr-c02",
+    "gogfran-gawr-c09",
+    "gogfran-gawr-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Raksasa humanoid satu kepala dua mata dua lengan dua kaki; tubuh tertutup pakaian buram penuh, tanpa tanduk/sayap.",
+      "claim_ids": [
+        "gogfran-gawr-c02",
+        "gogfran-gawr-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Caer di atas sungai Aber Ysgyr, Brycheiniog; ukuran raksasa dibanding benteng.",
+      "claim_ids": [
+        "gogfran-gawr-c15"
+      ]
+    }
+  ],
+  "aura": "Skala raksasa mendominasi caer saat melangkah dari gerbang (gogfran-gawr-c02, gogfran-gawr-c15).",
+  "artistic_choices": [
+    "Pakaian wol penuh, usia dewasa, rambut/beard, palet walnut/emas dan cahaya bulan editorial; tidak diklaim atribut tradisional.",
+    "Tidak ada kuasa terdokumentasi; ancaman/keagungan dari skala raksasa, langkah dan sudut kamera."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Gogfran Gawr, the giant father of Gwenhwyfar in Welsh tradition.\nANATOMY: one enormous HUMAN GIANT, one head, two eyes, two arms, two legs, rough wool tunic and full opaque cloak and trousers; no horns, wings or weapons. [gogfran-gawr-c02,gogfran-gawr-c09]\nMOMENT: stride out through the stone caer gateway and lean down toward the viewer, one powerful hand braced on the gate lintel, cloak dragged by his decisive step, intense commanding gaze.\nPOWER: no documented power; overwhelming physical giant size, motion and light only; no magic.\nSCALE & CAMERA: extreme low angle at riverbank level; giant shoulders tower above the caer gate, stone fort as small scale reference; giant dominates whole frame, face unmistakable at thumbnail.\nLIGHT & WEATHER: one dominant low moon source, deep walnut shadows, antique gold rim light, ordinary disturbed grit around his feet.\nSURFACE: weathered wool, coarse hair, lined human skin and rough wet stone.\nSETTING: the caer above the river at Aber Ysgyr near Aber Hodni in Brycheiniog. [gogfran-gawr-c15]\nMOOD: awe-inspiring towering giant, active and imposing, never ordinary man standing for portrait.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime design; no nudity or gore; no generic glow aura, neon outline, energy ribbons. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-0fc90a7b-956a-4fa0-8a34-df4dd7743511.png",
+  "generated_at": "2026-10-10T02:45:45.864111+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/gogfran-gawr.png",
+  "native_sha256": "7151c31907e010e5b4a6dbcc2d6671d8dd0c5b49e8bf29db301d07c7a24c9baf",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px diperiksa: Uji Sangar7/7 ya. Giant melangkah keluar gerbang, bahu di atas lintel dan kaki besar menimbulkan cipratan biasa; subjek dominan. Satu kepala2mata2lengan2kaki sesuai humanoid, pakaian buram. Tiada efek gaib, teks/glyph/gore atau desain popculture.",
+    "limitations": [],
+    "native_sha256": "7151c31907e010e5b4a6dbcc2d6671d8dd0c5b49e8bf29db301d07c7a24c9baf",
+    "reviewed_at": "2026-10-10T02:45:45.864111+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "7151c31907e010e5b4a6dbcc2d6671d8dd0c5b49e8bf29db301d07c7a24c9baf",
+    "notes": "Robed giant leaning on a fort wall above the river, its gate reaching only his knee; one head, two arms."
+  }
+}

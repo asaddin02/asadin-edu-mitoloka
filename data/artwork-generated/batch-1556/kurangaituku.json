@@ -1,0 +1,84 @@
+{
+  "slug": "kurangaituku",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kurangaituku, the wing-armed Maori part-woman part-bird pursuer. Native square PNG at least1024x1024.\nANATOMY: ONE part-woman part-bird adult supernatural being, ONE human-shaped head/TWO eyes; TWO arms bearing WINGS joined along arms rather than extra separate wings; TWO legs. Fully opaque plain feather cloak/body clothing. Long spear-like extended LIPS capable of spearing birds, not normal beak replacing humanhead. [kurangaituku-c01, kurangaituku-c06, kurangaituku-c03]\nMOMENT: FLY after the escapee toward low viewer, winged arms spread wide and thrust forward, long predatory lips and intent eyes dominate; no youth or victims shown.\nPOWER: Documented flight in pursuit; natural wind and feathers physically move, no aura/runes. [kurangaituku-c08]\nSCALE & CAMERA: Extreme low close flight approach, womanhead and wingedarms occupy most square, cave smaller behind.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Forest outside her cave, dark entrance and distant tree silhouettes. [kurangaituku-c02, kurangaituku-c07]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.\nTARGETED CORRECTION: The spear is made of BOTH ELONGATED HUMAN LIPS themselves: closed upperlip and lowerlip extend together from mouth as a long tapered fleshy paired projection, continuous from corners of mouth with a visible thin closedmouth seam lengthwise. No tongue protrudes, no mouth opening around a tongue, no bird beak. Keep human nose/eyes/chin and wing-bearing TWO arms; exact2legs with no added talons.",
+  "depicted_variant": "the wing-armed Maori part-woman part-bird pursuer",
+  "basis_claim_ids": [
+    "kurangaituku-c01",
+    "kurangaituku-c06",
+    "kurangaituku-c08",
+    "kurangaituku-c02",
+    "kurangaituku-c07",
+    "kurangaituku-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE part-woman part-bird adult supernatural being, ONE human-shaped head/TWO eyes; TWO arms bearing WINGS joined along arms rather than extra separate wings; TWO legs. Fully opaque plain feather cloak/body clothing. Long spear-like extended LIPS capable of spearing birds, not normal beak replacing humanhead.",
+      "claim_ids": [
+        "kurangaituku-c01",
+        "kurangaituku-c06",
+        "kurangaituku-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented flight in pursuit; natural wind and feathers physically move, no aura/runes.",
+      "claim_ids": [
+        "kurangaituku-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forest outside her cave, dark entrance and distant tree silhouettes.",
+      "claim_ids": [
+        "kurangaituku-c02",
+        "kurangaituku-c07"
+      ]
+    }
+  ],
+  "aura": "FLY after the escapee toward low viewer, winged arms spread wide and thrust forward, long predatory lips and intent eyes dominate; no youth or victims shown. Grounded in kurangaituku-c01, kurangaituku-c06, kurangaituku-c08, kurangaituku-c02, kurangaituku-c07.",
+  "artistic_choices": [
+    "Tregear winged-arm and spearlips variant c06 chosen; opaque feather garment editorial from source treasured korowai c03, no tattoos or invented ethnographic motifs. No killing/burning scene.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1556/rejected/kurangaituku-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1556/rejected/kurangaituku-attempt-01.json",
+      "native_sha256": "0ec5bc8756ee2dfe26b61b10484d5807cf56f13a832fac89bd89c3078f763cf1",
+      "reason": "Source c06 says she spears birds with LIPS; output has normal short lips framing a long protruding TONGUE, so distinctive anatomy is wrong."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-48014287-ac9b-4122-a022-7ee86c403a0d.png",
+  "generated_at": "2026-10-12T20:09:32.455778+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/kurangaituku.png",
+  "native_sha256": "1a8475123c7bf144ab184ad7719e5d288d36b70aa4ecf8f3bd02aff9fda7a061",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254/200: onehumanface/2eyes with paired closed elongated fleshy LIPS continuous from mouth corners and lengthwise seam, no protruding tongue or hardbirdbeak; source c06 spearlips corrected. Exactly2wingbearing arms, no separate extra wings, flyingforward c08 over caveforest c02/c07. Legs tucked/partly overlapped in flight; opaque featherclothing editorial supported cloak c03. Powerful close pursuit, source anatomy readable200,no glow/text/gore;7Sangarchecks pass.",
+    "limitations": [],
+    "native_sha256": "1a8475123c7bf144ab184ad7719e5d288d36b70aa4ecf8f3bd02aff9fda7a061",
+    "reviewed_at": "2026-10-12T20:12:40.788892+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "1a8475123c7bf144ab184ad7719e5d288d36b70aa4ecf8f3bd02aff9fda7a061",
+    "notes": "Part-woman part-bird with wings along her arms and long pointed lips swooping out of her cave at the viewer."
+  }
+}

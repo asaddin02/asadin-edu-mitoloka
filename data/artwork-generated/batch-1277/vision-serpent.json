@@ -1,0 +1,81 @@
+{
+  "slug": "vision-serpent",
+  "prompt": "Edit the reference image only: preserve the exact giant ONE-headed bearded rounded-snout serpent, ancestor emerging from jaws, coiled anatomy, framing, scale, lighting, fire and smoke. REMOVE every glyph, hieroglyph, letter, symbol, pseudo-writing, carved ornamental panel and pattern from the brazier, all temple walls, stone blocks, stairways, ancestor clothing and jewelry. Replace with completely plain weathered stone, plain unpatterned opaque cloth and simple unmarked jewelry. Do not introduce any new design or object. The image must contain NO writing-like or symbolic markings ANYWHERE. The serpent remains the active, awe-inspiring subject. Native square premium painterly cinematic image.",
+  "basis_claim_ids": [
+    "vision-serpent-c04",
+    "vision-serpent-c05",
+    "vision-serpent-c06",
+    "vision-serpent-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one enormous serpent head with a rounded snout and coarse beard, two eyes, one continuous thick serpentine body, no horns, no limbs, no wings; the ONE-headed variant with a clothed ancestor emerging from its jaws",
+      "claim_ids": [
+        "vision-serpent-c04",
+        "vision-serpent-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A real column of ceremonial-paper smoke surrounds the emerging serpent; the ancestral apparition is enclosed in its jaws, no neon portal or luminous fog",
+      "claim_ids": [
+        "vision-serpent-c06",
+        "vision-serpent-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "a Maya ritual courtyard with a small brazier burning ceremonial papers; no blood or ritual injury shown",
+      "claim_ids": [
+        "vision-serpent-c07"
+      ]
+    }
+  ],
+  "depicted_variant": "rounded-snout single-headed ancestral gateway",
+  "aura": "A real column of ceremonial-paper smoke surrounds the emerging serpent; the ancestral apparition is enclosed in its jaws, no neon portal or luminous fog Basis klaim: vision-serpent-c04, vision-serpent-c05, vision-serpent-c06, vision-serpent-c07.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim.",
+    "Varian satu kepala dan leluhur dari rahang sesuai c04; edit hanya menghapus motif tulisan, tetap mempertahankan bentuk, aksi, cahaya dan asap."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-c1912c97-bd7e-44c8-b728-e7a3ec0417da.png",
+  "generated_at": "2026-10-09T01:03:43.173176+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/vision-serpent.png",
+  "native_sha256": "aa57408e9e8b60965511b18dbeabaecd892b0ff6f743a0c2f02da852a42c201f",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/vision-serpent-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/vision-serpent-attempt-01.json",
+      "native_sha256": "cb15003a1974dac04ebbf7fdd39a148772c4e298185c5eadd0a756ade8437e6e",
+      "reason": "Root menolak: glyph/ukiran mirip tulisan pada brazier, dinding dan kain melanggar hard constraints tanpa huruf atau pseudo-glyph."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat native hasil edit: satu kepala ular bermoncong bulat dengan janggut, satu tubuh melilit koheren tanpa kaki/sayap/tanduk, leluhur berpakaian muncul dari rahang sesuai c04/c05/c06; asap berasal dari brazier kertas terbakar c07. Ukiran tulisan percobaan awal kini dihapus; kain/batu polos. Subjek agung dominan, aksi muncul aktif dan tanpa aura atau gore. Tujuh cek Sangar lulus.",
+    "limitations": [],
+    "native_sha256": "aa57408e9e8b60965511b18dbeabaecd892b0ff6f743a0c2f02da852a42c201f",
+    "reviewed_at": "2026-10-09T01:03:43.173176+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "aa57408e9e8b60965511b18dbeabaecd892b0ff6f743a0c2f02da852a42c201f",
+    "notes": "One-headed bearded serpent rising from ceremonial smoke between Maya temples with a clothed ancestor emerging from its jaws."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "nukekubi",
+  "depicted_variant": "Kepala perempuan terlepas sepenuhnya dan melayang mendekat; tubuh tidur berpakaian penuh di latar.",
+  "basis_claim_ids": [
+    "nukekubi-c01",
+    "nukekubi-c02",
+    "nukekubi-c05",
+    "nukekubi-c06",
+    "nukekubi-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu kepala manusia perempuan benar-benar terlepas dari satu tubuh; tidak ada leher memanjang, jaringan terbuka atau kepala kedua.",
+      "claim_ids": [
+        "nukekubi-c01",
+        "nukekubi-c05",
+        "nukekubi-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Kepala terbang dengan ekspresi haus darah; tanpa korban atau darah.",
+      "claim_ids": [
+        "nukekubi-c02",
+        "nukekubi-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tubuh tidur saat kepala berkeliaran; interior sederhana editorial.",
+      "claim_ids": [
+        "nukekubi-c13"
+      ]
+    }
+  ],
+  "aura": "Kepala terbang terpisah c02/c05 dan tatapan memburu c06 memberi keanehan mengancam (klaim: nukekubi-c02, nukekubi-c06).",
+  "artistic_choices": [
+    "Kimono buram dan kamar Edo sederhana merupakan pilihan editorial, mengikuti periode cerita c03 namun tidak mengklaim tempat spesifik.",
+    "Leher berakhir dalam bayangan bersih tanpa luka atau darah; kepala melayang mendominasi dengan tubuh kecil di latar.",
+    "Tidak menampilkan konsumsi darah; tidak meniru potret adaptasi."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of NUKEKUBI, the Japanese yokai whose head detaches completely and flies away.\nANATOMY: ONE adult woman's head entirely detached from ONE sleeping headless human body; exactly two eyes and one mouth; the detached head has NO extended neck, NO tether, NO body underneath it; long black hair trails backward. The neck ends in a clean dark shadow, no wound, blood or exposed flesh. Background body is fully covered by an opaque dark kimono with two arms and two legs concealed beneath it. [nukekubi-c01, nukekubi-c05, nukekubi-c13]\nMOMENT: flying straight toward the viewer with ravenous open mouth and hostile narrowed eyes, hair streaming backward in motion. The sleeping original body lies far behind on a futon, visibly without another head.\nPOWER: independent flight of the separated head, predatory bloodthirst conveyed only through expression, no victim or blood. [nukekubi-c02, nukekubi-c06]\nSCALE & CAMERA: extreme low angle, detached head fills nearly the whole foreground, clearly empty air beneath head and between it and the distant sleeping body.\nLIGHT & WEATHER: one small oil lamp creates amber upward light and deep walnut shadows; ordinary indoor dust only.\nSURFACE: tactile black hair, weathered fabric, matte human skin, wooden floor.\nSETTING: sleeping body's plain dark Edo-era room, furniture restrained; room is editorial staging of the sleeping-head-wandering account. [nukekubi-c13]\nMOOD: dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: square at least 1024px; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-a89d3a11-38f0-4646-9098-2bb4c6f70a41.png",
+  "generated_at": "2026-10-09T01:10:18.787Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1277/originals/nukekubi.png",
+  "native_sha256": "0576ee697cd1cb248075a3829d124ce3964a65ed423fdd78eb8c5bd2d4b4f794",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat: satu kepala perempuan terbang memenuhi foreground, ruang kosong jelas di bawah dagu; tubuh berpakaian kimono di futon benar-benar tanpa kepala. Dua mata, satu mulut, tidak ada leher memanjang/luka/darah. Rambut bergerak dan ekspresi memburu, semua tujuh Uji Sangar ya. Lampu merupakan cahaya editorial, kuasa hanya terbang c02; tanpa teks/desain adaptasi. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "0576ee697cd1cb248075a3829d124ce3964a65ed423fdd78eb8c5bd2d4b4f794",
+    "reviewed_at": "2026-10-09T01:10:18.910Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/nukekubi-lane-A.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "0576ee697cd1cb248075a3829d124ce3964a65ed423fdd78eb8c5bd2d4b4f794",
+    "notes": "Detached woman's head with streaming hair flying at the viewer, her sleeping clothed body on the futon behind; no neck stretch, no gore."
+  }
+}

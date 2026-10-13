@@ -1,0 +1,855 @@
+{
+  "generated_at": "2026-10-12T03:33:56.017155+00:00",
+  "batch": 1406,
+  "ledger": "data/artwork-batch-1406.json",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": [
+    "tidak dilaporkan alat"
+  ],
+  "status": "awaiting-independent-review",
+  "counts": {
+    "selected_entries": 50,
+    "final_native_pngs": 47,
+    "declined_candidates": 3,
+    "corrections": 0,
+    "successful_image_calls": 60,
+    "quality_rejected_pngs": 13,
+    "tool_failures": 0,
+    "requires_catalogue_record": 24
+  },
+  "workers": {
+    "lane-A": {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "entries": 17,
+      "finals": 16,
+      "declined": 1,
+      "successful_image_calls": 22,
+      "quality_rejected_pngs": 6,
+      "tool_failures": 0,
+      "slugs": [
+        "huodou",
+        "kapre",
+        "kasogonaga",
+        "manaia-mythological-creature",
+        "many-finned-sea-serpent",
+        "namaka",
+        "nine-eared-hound",
+        "nure-onna",
+        "oseichu",
+        "panhu",
+        "pihi",
+        "qianliyan",
+        "qiqirn",
+        "qiulong",
+        "rep-un-kamuy",
+        "shokera",
+        "shuzi"
+      ]
+    },
+    "lane-B": {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "entries": 17,
+      "finals": 16,
+      "declined": 1,
+      "successful_image_calls": 20,
+      "quality_rejected_pngs": 4,
+      "tool_failures": 0,
+      "slugs": [
+        "skinfaxi",
+        "snallygaster",
+        "tangaroa",
+        "teju-jagua",
+        "tenghuang",
+        "tepegoz",
+        "tulevieja",
+        "u-scultone",
+        "wd-q11244093",
+        "wd-q757989",
+        "wd-q9602528",
+        "xiaotian-quan",
+        "xolotl",
+        "yara-ma-yha-who",
+        "yazi",
+        "yellow-dragon",
+        "abdu-fisch"
+      ]
+    },
+    "lane-C": {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "entries": 16,
+      "finals": 15,
+      "declined": 1,
+      "successful_image_calls": 18,
+      "quality_rejected_pngs": 3,
+      "tool_failures": 0,
+      "slugs": [
+        "al-ana",
+        "animikii",
+        "anka",
+        "anki-kiele",
+        "ao-guang",
+        "ao-run",
+        "bai-ze",
+        "bal-bal",
+        "ball-tailed-cat",
+        "beaman-monster",
+        "bramrachokh",
+        "bulgasari-creature",
+        "caboclo-de-agua",
+        "cavalo-do-pensamento",
+        "chashkel",
+        "chullachaki"
+      ]
+    }
+  },
+  "verification": {
+    "codex_main_viewed_all_native_final_pngs": true,
+    "codex_main_viewed_all_at_200px": true,
+    "codex_review_registry": "data/artwork-generated/batch-1406/drafts/root/root-native-reviews.json",
+    "validation_report": "data/artwork-generated/batch-1406/drafts/root/batch-validation.json",
+    "independent_review_pending": true,
+    "integration_performed": false
+  },
+  "archive_note": "Semua PNG original/rejected tersimpan workspace lokal dan diabaikan git; tidak dihapus. Klaim/riset embedded sama persis dengan accepted research saat pemeriksaan.",
+  "final_prompt_set": "data/artwork-generated/batch-1406/codex-prompts.json",
+  "new_creatures": [
+    {
+      "slug": "huodou",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/huodou.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/huodou.png",
+      "native_sha256": "1ed1739d07e64ae08931d70d249cbc21763cc4f69b973327c0a79cfafcf4f3b5",
+      "basis_claim_ids": [
+        "huodou-c02",
+        "huodou-c09",
+        "huodou-c07"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "kapre",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/kapre.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/kapre.png",
+      "native_sha256": "347cc0d87b044b7b062cb316c18fe31e0236fd81a5aa79dc12e918752971f39b",
+      "basis_claim_ids": [
+        "kapre-c01",
+        "kapre-c08",
+        "kapre-c13",
+        "kapre-c15",
+        "kapre-c28",
+        "kapre-c03",
+        "kapre-c12"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "kasogonaga",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/kasogonaga.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/kasogonaga.png",
+      "native_sha256": "df22311632011229a55e1940f40d34fa099be5d71b12fd6fd971447b0d4c4de2",
+      "basis_claim_ids": [
+        "kasogonaga-c04",
+        "kasogonaga-c09",
+        "kasogonaga-c10"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-01.json",
+          "native_sha256": "9ea39b1d4060d1d960e9282cdc67d90f64f2ed1aa1629724faa8513d82ed8f2e",
+          "reason": "Elephant mouth contains invented predatory pointed teeth; living Qom weather being should convey reverent awe through lightning without monstrous teeth."
+        },
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-02.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-02.json",
+          "native_sha256": "d4404cba253915ae9124c2f454c119cb84e016006584c83873f4cdd35e490423",
+          "reason": "Two pointed upper teeth persist in elephant mouth; anatomically unsourced."
+        }
+      ]
+    },
+    {
+      "slug": "manaia-mythological-creature",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/manaia-mythological-creature.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/manaia-mythological-creature.png",
+      "native_sha256": "5d367c839b597eb8f32e6911662cfb10eba8d480e980d2bf1ceed5258b5976f5",
+      "basis_claim_ids": [
+        "manaia-mythological-creature-c07"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "many-finned-sea-serpent",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/many-finned-sea-serpent.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/many-finned-sea-serpent.png",
+      "native_sha256": "5d1d0fd81b9face76e95c47a6bf97283124197045cb8c69be14dbbcad462f9dd",
+      "basis_claim_ids": [
+        "many-finned-sea-serpent-c05",
+        "many-finned-sea-serpent-c06",
+        "many-finned-sea-serpent-c07"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "namaka",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/namaka.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/namaka.png",
+      "native_sha256": "32e0f9cad43db79d8c4a0e4a4a629123e71c09ac3bb05dad8cb36e6a3f64d571",
+      "basis_claim_ids": [
+        "namaka-c01",
+        "namaka-c04",
+        "namaka-c09",
+        "namaka-c11",
+        "namaka-c13"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "nine-eared-hound",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/nine-eared-hound.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/nine-eared-hound.png",
+      "native_sha256": "cfde0081f6faf5898ec4bec70b23403623a4662a6a58989f05bfebf3929017ff",
+      "basis_claim_ids": [
+        "nine-eared-hound-c10",
+        "nine-eared-hound-c11"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-01.json",
+          "native_sha256": "aa05967aaf18b118af0c526f13d71bd3287c50786cccf3bb8ca2cf0fc6b2bd27",
+          "reason": "Only seven distinguishable ears, three on each side plus crown; fails exact nine-ear anatomy."
+        },
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-02.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-02.json",
+          "native_sha256": "76a0832e27136b31354d199c423cb3278a077a1a5993520fbfbf7ebd81df4f5e",
+          "reason": "Again only seven clear ear interiors, three left three right plus center."
+        }
+      ]
+    },
+    {
+      "slug": "nure-onna",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/nure-onna.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/nure-onna.png",
+      "native_sha256": "17531da99031548c9533002070bc97dab51d6c1adca88aa26ba9ca8d69b65192",
+      "basis_claim_ids": [
+        "nure-onna-c01",
+        "nure-onna-c05",
+        "nure-onna-c09",
+        "nure-onna-c10",
+        "nure-onna-c07",
+        "nure-onna-c14",
+        "nure-onna-c04",
+        "nure-onna-c08"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "oseichu",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/oseichu.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/oseichu.png",
+      "native_sha256": "cd70bb1341137f851aea99400d4fa0d2190718b665a78af9de0e7b15fbaa5af6",
+      "basis_claim_ids": [
+        "oseichu-c06"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/oseichu-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/oseichu-attempt-01.json",
+          "native_sha256": "29d83b318a254b69dc28ebc62dc7c1156a291e0745ad9f1ef2f5e66189f8a798",
+          "reason": "Reads as cute baby gecko due huge round eyes and smiling mouth, fails Sangar; forehead horn also too large."
+        }
+      ]
+    },
+    {
+      "slug": "panhu",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/panhu.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/panhu.png",
+      "native_sha256": "a7b0560cf67e3776ecd63151d2084253c8d9b88160a21d2d6b58cb6199b40f5e",
+      "basis_claim_ids": [
+        "panhu-c12",
+        "panhu-c13"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "pihi",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/pihi.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/pihi.png",
+      "native_sha256": "247bf3803399deefe772b0f2dd910d2c14a1f43bb76a3b7f115b961a8fd7d0cc",
+      "basis_claim_ids": [
+        "pihi-c01",
+        "pihi-c02",
+        "pihi-c07",
+        "pihi-c04"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "qianliyan",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/qianliyan.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/qianliyan.png",
+      "native_sha256": "f6721c22bd07c5c89accd496232ae21fafb07788cfaa5a07eacd79a190720cf0",
+      "basis_claim_ids": [
+        "qianliyan-c06",
+        "qianliyan-c12",
+        "qianliyan-c08",
+        "qianliyan-c01"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "qiqirn",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/qiqirn.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/qiqirn.png",
+      "native_sha256": "e0b3620e87a0f2b722891ece1f7d5d6265d5ebffda152b2637f6653d762d8d10",
+      "basis_claim_ids": [
+        "qiqirn-c01",
+        "qiqirn-c02",
+        "qiqirn-c03"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "qiulong",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/qiulong.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/qiulong.png",
+      "native_sha256": "babf0cc2d5ad56df96626b38c6bebdaa3f6cc787a6c8d7f875891c125aa59dc5",
+      "basis_claim_ids": [
+        "qiulong-c01",
+        "qiulong-c05",
+        "qiulong-c08",
+        "qiulong-c09"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/qiulong-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/qiulong-attempt-01.json",
+          "native_sha256": "97f54e8f0b64420e80e2422633b9f5807020523a4b98b81b879eff2e78cad413",
+          "reason": "Raised pointed crown crest violates explicit hornless smooth-head constraints and introduces unsourced protuberances."
+        }
+      ]
+    },
+    {
+      "slug": "rep-un-kamuy",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/rep-un-kamuy.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/rep-un-kamuy.png",
+      "native_sha256": "3d2756000c3e47d5431146c6b620fbddfe7da434a5c9c0d5d63f51cb9002b0b6",
+      "basis_claim_ids": [
+        "rep-un-kamuy-c02",
+        "rep-un-kamuy-c01",
+        "rep-un-kamuy-c07"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "shuzi",
+      "worker_agent": "lane-A",
+      "receipt": "data/artwork-generated/batch-1406/shuzi.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/shuzi.png",
+      "native_sha256": "687ef1358cccc99bc895706f0657c067aaf2c96b9c557dce6223db5c82f0b405",
+      "basis_claim_ids": [
+        "shuzi-c01",
+        "shuzi-c02",
+        "shuzi-c10",
+        "shuzi-c03",
+        "shuzi-c07"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "skinfaxi",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/skinfaxi.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/skinfaxi.png",
+      "native_sha256": "a153a315699b7622b42c419ac23ca23abfcd0aa68473c8d97eddfe59ab688072",
+      "basis_claim_ids": [
+        "skinfaxi-c01",
+        "skinfaxi-c02",
+        "skinfaxi-c09"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "snallygaster",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/snallygaster.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/snallygaster.png",
+      "native_sha256": "a1362281eec2c352b1dcf7487ed6f80398ef444962f2edfca8f0e6796377f863",
+      "basis_claim_ids": [
+        "snallygaster-c04",
+        "snallygaster-c07",
+        "snallygaster-c08",
+        "snallygaster-c05",
+        "snallygaster-c11"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tangaroa",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/tangaroa.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/tangaroa.png",
+      "native_sha256": "44ff409492cba62d05bdddb543ca0b39f8d1d12f279a5add073989a6279c1de5",
+      "basis_claim_ids": [
+        "tangaroa-c02",
+        "tangaroa-c01"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "teju-jagua",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/teju-jagua.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/teju-jagua.png",
+      "native_sha256": "e62287d9038a2d1a17f9639b017e41dedd03f0baee1f129c3f203c0817ad3cb9",
+      "basis_claim_ids": [
+        "teju-jagua-c05",
+        "teju-jagua-c10",
+        "teju-jagua-c02",
+        "teju-jagua-c15",
+        "teju-jagua-c11"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tenghuang",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/tenghuang.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/tenghuang.png",
+      "native_sha256": "4c5f92494ae6cc2eba1daa87a6873af301acbd16cefcdef51028d0d384130d35",
+      "basis_claim_ids": [
+        "tenghuang-c06"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tepegoz",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/tepegoz.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/tepegoz.png",
+      "native_sha256": "8c58576bdb6879696a1b6ed22c8bc3dbec38db2ed1a1382c747e19dd4fda8a28",
+      "basis_claim_ids": [
+        "tepegoz-c01",
+        "tepegoz-c05",
+        "tepegoz-c06"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tulevieja",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/tulevieja.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/tulevieja.png",
+      "native_sha256": "2c52423d9419d2e40f1b01236705e1a18df10442c7e9fe057d696e7062b1a707",
+      "basis_claim_ids": [
+        "tulevieja-c01",
+        "tulevieja-c07",
+        "tulevieja-c03",
+        "tulevieja-c08",
+        "tulevieja-c09"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/tulevieja-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/tulevieja-attempt-01.json",
+          "native_sha256": "b460c7a6c67509cffc2bc8e84553b72fd8382361c94a8e86682b908590440ace",
+          "reason": "Hands have prominent unsupported black talon-like claws rather than ordinary human hands; hand digit clarity also insufficient. Hawk talons belong on feet only."
+        }
+      ]
+    },
+    {
+      "slug": "u-scultone",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/u-scultone.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/u-scultone.png",
+      "native_sha256": "9e1353f3acaedec0fe3c1ad023fb7125175bad544bd006f777943c8d3a7c0b5c",
+      "basis_claim_ids": [
+        "u-scultone-c01",
+        "u-scultone-c05",
+        "u-scultone-c08",
+        "u-scultone-c02",
+        "u-scultone-c09",
+        "u-scultone-c04"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wd-q11244093",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/wd-q11244093.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/wd-q11244093.png",
+      "native_sha256": "b719d11d1971af0bac98dcca6d91113b08e1f4f5c6bcecb7710f981e9429286c",
+      "basis_claim_ids": [
+        "wd-q11244093-c06"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wd-q757989",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/wd-q757989.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/wd-q757989.png",
+      "native_sha256": "ca55136ad862e6152ede37aed5b5ab22435df23e331391e4f5062343bfac4853",
+      "basis_claim_ids": [
+        "wd-q757989-c07",
+        "wd-q757989-c02"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-01.json",
+          "native_sha256": "6e87ab7b75754efd74c6b5a1fb95c50de2fe06f42adeff81952605941a37d928",
+          "reason": "Visible prominent horns, dorsal spines and whiskers not supported by research; prompt/choices specified avoiding undocumented horn count. Too much lower plain stele reduces creature dominance."
+        }
+      ]
+    },
+    {
+      "slug": "wd-q9602528",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/wd-q9602528.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/wd-q9602528.png",
+      "native_sha256": "cf184c0add211d632ee9240a5cb779d1033771dfb4df24398d3a14bddbf218b2",
+      "basis_claim_ids": [
+        "wd-q9602528-c02",
+        "wd-q9602528-c05"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "xiaotian-quan",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/xiaotian-quan.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/xiaotian-quan.png",
+      "native_sha256": "78936ed1601cf6fb34102ee5c047e0a8e1e4839a096aac8c9465f8945ff42228",
+      "basis_claim_ids": [
+        "xiaotian-quan-c01",
+        "xiaotian-quan-c02",
+        "xiaotian-quan-c11",
+        "xiaotian-quan-c08"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "xolotl",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/xolotl.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/xolotl.png",
+      "native_sha256": "93d4db08c2f7ac2227043dac3df4494692ec7abd9b82d559b3e83c6ba1e9850b",
+      "basis_claim_ids": [
+        "xolotl-c01",
+        "xolotl-c09",
+        "xolotl-c06",
+        "xolotl-c05",
+        "xolotl-c08"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "yara-ma-yha-who",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/yara-ma-yha-who.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/yara-ma-yha-who.png",
+      "native_sha256": "ba4e615b9959b92601ecf07772fffc1008174fcf3b08fd4d23ee35cd74abfb30",
+      "basis_claim_ids": [
+        "yara-ma-yha-who-c04",
+        "yara-ma-yha-who-c05",
+        "yara-ma-yha-who-c06",
+        "yara-ma-yha-who-c15",
+        "yara-ma-yha-who-c02",
+        "yara-ma-yha-who-c12"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/yara-ma-yha-who-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/yara-ma-yha-who-attempt-01.json",
+          "native_sha256": "0b0be7c4b4f534b4745cd7c37e379c0460426a17ec847a62cdb729efcd8954db",
+          "reason": "Both visible feet show only four toes rather than requested humanlike five; bright foliage also reduces low-key threat."
+        }
+      ]
+    },
+    {
+      "slug": "yazi",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/yazi.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/yazi.png",
+      "native_sha256": "27d0704429bfb58f9b3078f35a98cd9f31c0d96aaec1bd8f7091e3320edf3376",
+      "basis_claim_ids": [
+        "yazi-c02",
+        "yazi-c04",
+        "yazi-c05",
+        "yazi-c03"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "yellow-dragon",
+      "worker_agent": "lane-B",
+      "receipt": "data/artwork-generated/batch-1406/yellow-dragon.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/yellow-dragon.png",
+      "native_sha256": "733025f0c5a7dd9c6e8a9a16ca711048ed1727ceac63ad9afa542116c9d5b4e0",
+      "basis_claim_ids": [
+        "yellow-dragon-c01",
+        "yellow-dragon-c03",
+        "yellow-dragon-c02",
+        "yellow-dragon-c06"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-01.json",
+          "native_sha256": "01125bbab915580b7b15e53127acd33d24536b605a933f71074d80099ef9b672",
+          "reason": "Generator inserted mane, beard and long whiskers, none specified by accepted Yellow Dragon research; minimal anatomy requested to avoid invention."
+        }
+      ]
+    },
+    {
+      "slug": "al-ana",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/al-ana.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/al-ana.png",
+      "native_sha256": "e3dc652dd1c08c820cb2de64bbab7b8136772fd3b5d522ba9ce97cdda6d30fbc",
+      "basis_claim_ids": [
+        "al-ana-c02",
+        "al-ana-c03",
+        "al-ana-c01"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "animikii",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/animikii.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/animikii.png",
+      "native_sha256": "8a65a88c742b1004294809a42dc965c9ddc96746dee0bbfc8e14091fb465bc56",
+      "basis_claim_ids": [
+        "animikii-c01",
+        "animikii-c02",
+        "animikii-c04",
+        "animikii-c05"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "anka",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/anka.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/anka.png",
+      "native_sha256": "5a549bcaa0eb1eb8bcfed6a18797119feb0b70b4b6d8c4f8b611262a39559940",
+      "basis_claim_ids": [
+        "anka-c02",
+        "anka-c03"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/anka-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/anka-attempt-01.json",
+          "native_sha256": "b6b8edf12c9e78021aa96b335c3dbc985fdcec650e75f14228ee53b15057942a",
+          "reason": "Feet rendered as scaled eagle talons, rather than the tiger claws of selected dog-headed tiger-clawed variant (anka-c02). Regenerate with furry tiger paws and retractile feline claws."
+        }
+      ]
+    },
+    {
+      "slug": "anki-kiele",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/anki-kiele.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/anki-kiele.png",
+      "native_sha256": "8400952743db63f8ebc400564c2bd24576d34e1255e7c9bd6a58c1e2efe56a6a",
+      "basis_claim_ids": [
+        "anki-kiele-c03",
+        "anki-kiele-c06"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "ao-guang",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/ao-guang.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/ao-guang.png",
+      "native_sha256": "f26e614cb8e10dd6eb4848c38ec4d2e1558c5feb7412a19ecc18744b96b72221",
+      "basis_claim_ids": [
+        "ao-guang-c08",
+        "ao-guang-c06",
+        "ao-guang-c01"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-01.json",
+          "native_sha256": "5fecc823d77aa4bd71d73c2766f8865a77b49dea63c764980ee7103ac46d45cb",
+          "reason": "Rendered as enormous sea serpent beside full-size surf and rock cliffs, contradicting documented small snake (ao-guang-c08). Needs macro-scale pebbles and sand."
+        }
+      ]
+    },
+    {
+      "slug": "bai-ze",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/bai-ze.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/bai-ze.png",
+      "native_sha256": "58f1d15d1a81936a70dab4b4d2d93127bb1186f59a18d5d54de41b30e0a927e6",
+      "basis_claim_ids": [
+        "bai-ze-c04",
+        "bai-ze-c07"
+      ],
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1406/rejected/bai-ze-attempt-01.png",
+          "native_sha256": "78be0b341f7b37246d7afdeb4e843941b5accb80ba3b1abf5c44998ee9cd8ba3",
+          "reason": "Root noted bai-ze-c04 selected tiger-head/red-mane/dragon-body variant does not document the central horn. Remove horn rather than combine with c03 green-haired dragon-head variant.",
+          "receipt_file": "data/artwork-generated/batch-1406/rejected/bai-ze-attempt-01.json"
+        }
+      ]
+    },
+    {
+      "slug": "bal-bal",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/bal-bal.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/bal-bal.png",
+      "native_sha256": "ec090443eb2a7dc171fea35f30e8af97ebe1cb6976f90d5cce6ddba170045c2a",
+      "basis_claim_ids": [
+        "bal-bal-c15",
+        "bal-bal-c16",
+        "bal-bal-c12",
+        "bal-bal-c01"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "ball-tailed-cat",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/ball-tailed-cat.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/ball-tailed-cat.png",
+      "native_sha256": "a5ed0b5fa7c6f05def7ff26580f3724f8543d18620e9abffe408a5575a79fda2",
+      "basis_claim_ids": [
+        "ball-tailed-cat-c01",
+        "ball-tailed-cat-c07",
+        "ball-tailed-cat-c06"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "beaman-monster",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/beaman-monster.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/beaman-monster.png",
+      "native_sha256": "f394331ab36008ea1ad835eb0900135e86da01dd9c4212026e686e24d86c9a90",
+      "basis_claim_ids": [
+        "beaman-monster-c06",
+        "beaman-monster-c08"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "bramrachokh",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/bramrachokh.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/bramrachokh.png",
+      "native_sha256": "ef159b874010da4491636a9e5a551f7e5dc3b78aa18132949e99f990e97a4bfd",
+      "basis_claim_ids": [
+        "bramrachokh-c03",
+        "bramrachokh-c04",
+        "bramrachokh-c05",
+        "bramrachokh-c01"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "bulgasari-creature",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/bulgasari-creature.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/bulgasari-creature.png",
+      "native_sha256": "0ced67af069b6a4fff445faa474fc1e5b56a28fd19513d03da9e06e505a5fc23",
+      "basis_claim_ids": [
+        "bulgasari-creature-c12",
+        "bulgasari-creature-c10",
+        "bulgasari-creature-c11"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "caboclo-de-agua",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/caboclo-de-agua.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/caboclo-de-agua.png",
+      "native_sha256": "e8e47a8ae5e0977049efef4339aefd2527ae027329505a16ad4351a6c03b7a2b",
+      "basis_claim_ids": [
+        "caboclo-de-agua-c02",
+        "caboclo-de-agua-c10",
+        "caboclo-de-agua-c01"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "cavalo-do-pensamento",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/cavalo-do-pensamento.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/cavalo-do-pensamento.png",
+      "native_sha256": "8e8d4db14e61be8860fae47ac4454d93bbe01d15e6e1ea1e47e98b39dc6a4cca",
+      "basis_claim_ids": [
+        "cavalo-do-pensamento-c02",
+        "cavalo-do-pensamento-c04"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "chashkel",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/chashkel.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/chashkel.png",
+      "native_sha256": "19455ae654395cb63e11ceaad35f01f60f5e7914c70debf1a79a7ce78922c506",
+      "basis_claim_ids": [
+        "chashkel-c01",
+        "chashkel-c07",
+        "chashkel-c03"
+      ],
+      "rejected_attempts": []
+    },
+    {
+      "slug": "chullachaki",
+      "worker_agent": "lane-C",
+      "receipt": "data/artwork-generated/batch-1406/chullachaki.json",
+      "selected_png": "data/artwork-generated/batch-1406/originals/chullachaki.png",
+      "native_sha256": "b9fb7d7ce863606bff494d2c726ac2853d398b60adb3320bdc47ea4241370bd5",
+      "basis_claim_ids": [
+        "chullachaki-c02",
+        "chullachaki-c10",
+        "chullachaki-c01"
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "declined": [
+    {
+      "slug": "shokera",
+      "reason": "Riset hanya memberi bentuk binatang generik (c11), aksi mengintip jendela atap (c04), dan tafsir belakangan tiga jari berkuku tajam (c12); tidak menetapkan kepala, wajah, tubuh, kulit, jumlah anggota badan atau atribut pembeda yang cukup. Ilustrasi sangar terperinci akan mengarang anatomi iblis; tidak ada manifestasi aktif non-anatomis yang cukup spesifik. Decline sesuai GAMBAR§6.5.",
+      "receipt": "data/artwork-generated/batch-1406/shokera.json"
+    },
+    {
+      "slug": "abdu-fisch",
+      "reason": "Sumber menyebut ikan yang belum teridentifikasi (abdu-fisch-c01); bentuk Oxyrhynchos hanya hipotesis Bonnet (abdu-fisch-c05), bukan wujud pasti. Menghasilkan ikan rinci akan mengarang spesies/anatomi, sedangkan bahtera matahari tanpa subjek tidak lolos Uji Sangar. Tidak ada manifestasi aktif abstrak yang terdokumentasi untuk menggantikan tubuh.",
+      "receipt": "data/artwork-generated/batch-1406/abdu-fisch.json"
+    },
+    {
+      "slug": "ao-run",
+      "reason": "Accepted research documents the title West Sea Dragon King but no bodily form, attributes or active manifestation belonging to Ao Run. ao-run-c06 describes fire started by his son, not a power of the father. Creating a dragon body or humanoid ruler would invent anatomy; no image call made.",
+      "receipt": "data/artwork-generated/batch-1406/ao-run.json"
+    }
+  ]
+}

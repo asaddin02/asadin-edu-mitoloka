@@ -1,0 +1,89 @@
+{
+  "slug": "bull-demon-king",
+  "worker": "codex",
+  "worker_agent": "sita",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-154.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c03-0a50-7361-a9d2-553546ae71b7/exec-556cfe6c-8a05-4843-8dcc-cc3e6073510d.png",
+  "generated_at": "2026-10-08T15:26:18.410869+00:00",
+  "original_file": "data/artwork-generated/batch-1214/originals/bull-demon-king.png",
+  "native_sha256": "80015cccc7a655de9ebb151595c7e7798e48d1ba9e125fff36837047a2a0e1e3",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of BULL DEMON KING. The Bull Demon King's true giant white bull form lunging toward the viewer, mountain-sized head and two iron-tower horns.\nANATOMY: ONE giant WHITE bull, ONE bull head, TWO eyes, exactly TWO enormous horns like iron towers, FOUR hoofed legs and ONE natural bull tail. Head like a steep mountain, body over a thousand zhang long and eight hundred zhang high. No humanoid arms, armor, staff, extra heads or demonic wings. Entire original design from the novel, not a modern adaptation. [bull-demon-king-c02, bull-demon-king-c13]\nMOMENT: Lunge forward head lowered toward the near viewer, nostrils flared, eyes fierce, enormous horns fully readable on both sides. One front hoof strikes the ground in the immediate foreground, the other lifted in the next stride.\nPOWER: No invented supernatural fire or lightning. Physical impact of a mountain-sized giant bull breaks nearby ground into rubble and drives dust outward; scale and anatomy supply menace, no gore or head regeneration scene. [bull-demon-king-c13]\nSCALE & CAMERA: Extreme low-angle close frontal confrontation, mountainous white bull face dominates central square, both tower horns fully inside frame. Tiny jagged hills at its shoulders supply literal documented scale, no people required.\nLIGHT & WEATHER: Single deep amber evening side light, dark rock background, sharp gold rim on white matted fur, physically raised dust.\nSURFACE: rich tactile cloth, fur, scales or stone appropriate to the specified anatomy, wet water surfaces and physical dust only where mentioned.\nSETTING: Rocky ground immediately outside Moyun Cave on Jilei Mountain, no barn or pasture. [bull-demon-king-c09]\nMOOD: imposing, overwhelming, awe-inspiring or menacing as appropriate to the source; figure and identifying features instantly legible at 200 pixels; never cute, calm, decorative or an ordinary person or animal.\nHARD CONSTRAINTS: ONE square image, premium painterly cinematic illustration with tactile brushwork rather than glossy photoreal fashion rendering; no text, lettering, logo, border, frame, watermark, nudity, gore, extra heads, limbs, fingers or duplicated anatomy; no film, game, anime or comic design, no neon outline, generic glow aura, magic ribbons or floating runes. Every effect must belong to the cited deed; environmental lighting is artistic presentation.",
+  "depicted_variant": "The Bull Demon King's true giant white bull form lunging toward the viewer, mountain-sized head and two iron-tower horns.",
+  "basis_claim_ids": [
+    "bull-demon-king-c02",
+    "bull-demon-king-c09",
+    "bull-demon-king-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant white bull true form with mountain-like head and two tower horns, natural four-legged anatomy.",
+      "claim_ids": [
+        "bull-demon-king-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical rubble and dust under hoof impact, no supernatural visual effect.",
+      "claim_ids": [
+        "bull-demon-king-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Moyun Cave on Jilei Mountain.",
+      "claim_ids": [
+        "bull-demon-king-c09"
+      ]
+    }
+  ],
+  "aura": "Ancaman berasal dari true form white bull bertubuh >1000 zhang dan tinggi800 zhang, kepala seperti gunung serta dua tanduk seperti iron towers (bull-demon-king-c13); hanya rubble/dust akibat fisik langkah, bukan kekuatan api.",
+  "artistic_choices": [
+    "Palet sunset amber, tekstur matted white fur dan ridge form adalah editorial untuk menghadirkan skala sumber c13.",
+    "Keempat legs natural dan tail tunggal adalah anatomi bull; c13 dipakai konsisten, armor+staff varian c16 tidak ditempel pada true bull form.",
+    "Tidak memakai regeneration c14 yang memerlukan gore/heads baru, atau Nezha firewheel c15 karena itu serangan pihak lain.",
+    "Cave/rocky slopes mengikuti Moyun Cave/Jilei Mountain c09; tidak memakai desain adaptasi film/anime.",
+    "A dipilih karena kepala seperti gunung, tatapan konfrontatif dan dua tower-horns lengkap mendominasi thumbnail; B menyimpan full diagonal body dengan empat kaki/tail dan Moyun cave sebagai komposisi berbeda.",
+    "Kedua komposisi dihasilkan dengan dua built-in calls terpisah dan PNG/receipt keduanya dipertahankan di variants/bull-demon-king/. Tidak menebak nama model gambar."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG native dilihat: satu mountain-sized WHITE bull front confrontation, dua mata dan dua horns sangat besar jelas utuh, dua forelegs aktif dan rear limbs tersamar perspektif. Debris/dust akibat hoof impact, tiny rocky hills menegaskan ukuran terdokumentasi c13; tidak ada animal pasture vibe. Tidak ada armor/staff/firewheel/wings/extra heads atau gore. Uji Sangar lolos, tanpa teks/border/watermark. Root independently viewed BOTH native final variants: A mountain-scale white bull charges toward camera, B full diagonal white bull with four legs/tail over tiny mountains. Two iron-tower-like horns and single head clear, dust/rubble physical body impact, no stolen Nezha flame wheel. Both pass seven checks.",
+    "limitations": [],
+    "native_sha256": "80015cccc7a655de9ebb151595c7e7798e48d1ba9e125fff36837047a2a0e1e3",
+    "reviewed_at": "2026-10-08T15:37:16.532Z"
+  },
+  "variant_files": [
+    {
+      "variant": "a",
+      "original_file": "data/artwork-generated/batch-1214/variants/bull-demon-king/variant-a.png",
+      "native_sha256": "80015cccc7a655de9ebb151595c7e7798e48d1ba9e125fff36837047a2a0e1e3",
+      "status": "selected"
+    },
+    {
+      "variant": "b",
+      "original_file": "data/artwork-generated/batch-1214/variants/bull-demon-king/variant-b.png",
+      "native_sha256": "93986a48641dbf1ae2d2c5d70075cdff8496dea0b1f5db6253f2afebd59c087d",
+      "status": "unselected-retained"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "80015cccc7a655de9ebb151595c7e7798e48d1ba9e125fff36837047a2a0e1e3",
+    "notes": "Giant white bull with two huge tower horns charging toward the viewer, rocks flying; natural four-legged bull form."
+  }
+}

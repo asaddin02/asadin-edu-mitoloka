@@ -1,0 +1,87 @@
+{
+  "slug": "limokon",
+  "prompt": "Edit the reference image into a forceful, awe-inspiring omen moment. Preserve the exact natural fruit-dove species and normal anatomy, ONE head, two natural eyes, exactly TWO wings and TWO feet, NO glow, NO invented features, and keep the clothed adult traveller raising his closed fist in response to the warning call [limokon-c04,c05,c09,c10,c16]. Change the bird from perching to a fully airborne explosive launch directly toward the viewer: both feet clearly leave the branch, wings sweep downward powerfully, feathers rake the air, beak open in a loud warning. Very close extreme-low camera; face and forward-spread wings dominate 85 percent of the frame, motion and direct gaze give sacred authority without turning it evil. Change the lighting decisively to DARK LOW-KEY FOREST TWILIGHT: black-green foliage, dense deep shadows, ONE narrow cold moonlight source as hard rim on wings and head, faint antique-gold reflection on the beak, tiny traveller in deep shadow beneath the bird. Gusted leaves respond naturally to wing motion, no magic effects or sound rings. Absolutely NO bright daylight, NO gentle sunbeams, NO cute resting bird, NO perched pose, NO decorative birdwatching portrait. No text, symbols, logo, border, watermark, nudity or gore. One square premium painterly cinematic Mythics image.",
+  "basis_claim_ids": [
+    "limokon-c03",
+    "limokon-c16",
+    "limokon-c04",
+    "limokon-c05",
+    "limokon-c09",
+    "limokon-c10",
+    "limokon-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one living natural fruit-dove head, two natural eyes, one feathered pigeon body, exactly two wings and two feet, modest earthy plumage, normal bird proportions; no aura or invented anatomy",
+      "claim_ids": [
+        "limokon-c03",
+        "limokon-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The prophetic call is represented by the physically halted traveller and raised fist only; no visible sound rings or magical glow",
+      "claim_ids": [
+        "limokon-c04",
+        "limokon-c05",
+        "limokon-c09",
+        "limokon-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the wooded Mindanao trail of the Mandaya omen account",
+      "claim_ids": [
+        "limokon-c01",
+        "limokon-c05"
+      ]
+    }
+  ],
+  "depicted_variant": "omen fruit dove actively halting a traveller",
+  "aura": "The prophetic call is represented by the physically halted traveller and raised fist only; no visible sound rings or magical glow Basis klaim: limokon-c03, limokon-c16, limokon-c04, limokon-c05, limokon-c09, limokon-c10, limokon-c01.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim.",
+    "Edit targeted mengganti pose bertengger menjadi flight aktif dan pencahayaan low-key; bentuk burung tetap natural karena riset tidak memberikan anatomi gaib. Kehormatan utusan roh c12/c19 lewat framing dan traveller yang berhenti; bukan membuat burung jahat."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-019.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-d9e9ed3b-a5d8-4163-bf44-06f9bfe401f0.png",
+  "generated_at": "2026-10-09T01:20:24.442003+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/limokon.png",
+  "native_sha256": "69051eaf51b6cda3622e66645cc22fdd8e1e7b1515c905da7d8cb10d3dd14bb1",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/limokon-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/limokon-attempt-01.json",
+      "native_sha256": "58d00efc7e3a4b984d3e48ac908d64367b8a7ad78cab4e2392dd9c98a7a18bce",
+      "reason": "Root menolak: fruit-dove masih bertengger manis di cahaya siang hangat, belum takeoff; terbaca burung biasa, tidak menggetarkan atau aktif meski traveller sesuai klaim."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat native edit: satu fruit-dove natural dengan dua sayap dan dua kaki, sekarang benar-benar airborne menghadap depan, paruh membuka peringatan, cahaya hutan malam low-key dan traveller mengepalkan fist c05/c09 menghentikan langkah. Ukuran tubuh tidak diubah; dominasinya perspektif sangat dekat. Keagungan utusan/pertanda berasal dari call yang ditaati, bukan aura atau anatomi baru. Dua kaki meninggalkan cabang, gerak sayap dan daun fisik; tujuh cek Sangar lulus sebagai pembawa pertanda sakral, bukan monster jahat.",
+    "limitations": [],
+    "native_sha256": "69051eaf51b6cda3622e66645cc22fdd8e1e7b1515c905da7d8cb10d3dd14bb1",
+    "reviewed_at": "2026-10-09T01:20:24.442003+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "69051eaf51b6cda3622e66645cc22fdd8e1e7b1515c905da7d8cb10d3dd14bb1",
+    "notes": "Natural fruit-dove bursting out of the dark forest at the viewer, a traveller behind halted with raised fist; normal bird anatomy as required, menace limited by the documented small form."
+  }
+}

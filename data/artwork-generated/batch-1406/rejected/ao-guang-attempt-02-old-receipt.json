@@ -1,0 +1,79 @@
+{
+  "slug": "ao-guang",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ao Guang, the East Sea Dragon King in the documented small-snake transformation. Native PNG at least 1024 by 1024 pixels.\nANATOMY: One small snake, one head, two eyes, one continuous coiling body and one tail, absolutely no legs, wings, horns or human crown. [ao-guang-c08]\nMOMENT: Rear and tighten a wet coil toward the viewer, open mouth in an intense close confrontation.\nPOWER: Tiny raindrops strike sand and pebble surfaces, reflecting his documented storm domain; no giant spray, fire, staff or invented glow. [ao-guang-c06]\nSCALE & CAMERA: GROUND-LEVEL EXTREME MACRO photograph-like framing: a tiny snake no thicker than a twig rears between individual rounded beach pebbles; its head is smaller than one pebble. Pebbles fill the foreground. No rock cliffs or huge breaking waves; only blurred distant sea beyond the beach; distinguishing anatomy remains clear at 200 pixels.\nLIGHT & WEATHER: One warm break in the storm provides rim light; real rain and sea spray.\nSURFACE: tactile natural fur, hair, feather, skin, cloth, scale or metal as appropriate to the documented form, never plastic.\nSETTING: Wet sand and small rounded pebbles on the East Sea beach, ocean far away and blurred. [ao-guang-c01]\nMOOD: reverent awe-inspiring presence, overwhelming and imposing; never cute, calm or decorative. Dark walnut, antique gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, lettering, glyph, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Fengshen Yanyi small-snake transformation, framed close without inflating documented size.",
+  "basis_claim_ids": [
+    "ao-guang-c08",
+    "ao-guang-c06",
+    "ao-guang-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One small snake, one head, two eyes, one continuous coiling body and one tail, absolutely no legs, wings, horns or human crown.",
+      "claim_ids": [
+        "ao-guang-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A rainstorm lashes the sea edge, reflecting his documented storm domain; no fire, staff or invented glow.",
+      "claim_ids": [
+        "ao-guang-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "East Sea shoreline.",
+      "claim_ids": [
+        "ao-guang-c01"
+      ]
+    }
+  ],
+  "aura": "Rear and tighten a wet coil toward the viewer, open mouth in an intense close confrontation. Supported by ao-guang-c08, ao-guang-c06, ao-guang-c01.",
+  "artistic_choices": [
+    {
+      "description": "Low camera, dark warm palette, directional light and opaque clothing when applicable are editorial choices; no unrecorded powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Fengshen Yanyi small-snake transformation, framed close without inflating documented size.",
+      "claim_ids": [
+        "ao-guang-c08"
+      ]
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-01.json",
+      "native_sha256": "5fecc823d77aa4bd71d73c2766f8865a77b49dea63c764980ee7103ac46d45cb",
+      "reason": "Rendered as enormous sea serpent beside full-size surf and rock cliffs, contradicting documented small snake (ao-guang-c08). Needs macro-scale pebbles and sand."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-f1eb-7812-bed1-d88bbc42e100/exec-4c25bb9a-f77f-41d1-95e2-8ec5056d56de.png",
+  "native_sha256": "f26e614cb8e10dd6eb4848c38ec4d2e1558c5feb7412a19ecc18744b96b72221",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T02:40:48.170647+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/ao-guang.png",
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. Single small snake rears between rounded wet beach pebbles; granular sand and large droplets establish macro scale, with distant sea blurred. One head, two eyes anatomically with one partly hidden by angle, no limbs, crown or horns. Open mouth and close angle create confrontation at 200px; rain follows documented storm domain. Attempt1 rejected for giant sea-serpent scale. Seven checks pass.",
+    "limitations": [],
+    "native_sha256": "f26e614cb8e10dd6eb4848c38ec4d2e1558c5feb7412a19ecc18744b96b72221",
+    "reviewed_at": "2026-10-12T02:40:48.170647+00:00"
+  }
+}

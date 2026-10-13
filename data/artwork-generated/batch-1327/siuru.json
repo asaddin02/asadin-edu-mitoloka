@@ -1,0 +1,87 @@
+{
+  "slug": "siuru",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Siuru, the fabulous blue-winged silken-feathered bird called Taara's daughter in Kalevipoeg canto XIX.\nANATOMY: Exactly ONE fabulous bird, one head, two eyes, one beak, exactly TWO expansive BLUE feathered wings, two ordinary bird feet tucked naturally, one feathered tail. Silken feathers and wind-light wings; no human face or body; no extra wings [siuru-c01, siuru-c04, siuru-c07, siuru-c09]\nMOMENT: Wheel sharply toward the viewer in a wind-borne flight, beat both broad blue wings into the foreground with silken feather tips swept backward by the speed, stare downward with overwhelming resolve.\nPOWER: Fly and glide through the three-world journey with wings lighter than wind; only physical wind sweeps the silken feathers and tears ordinary mist around the wings, no light trails or magic aura [siuru-c04, siuru-c09, siuru-c10]\nSCALE & CAMERA: extreme low angle; extremely close tracking view from beneath the flying bird, wings occupy nearly the whole image; no invented giant size or human comparison; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one low dying-sun shaft edging dark cobalt-blue silk feathers, deep walnut cloud shadows, vigorous mist gusts.\nSURFACE: silken yet individually tactile blue flight feathers, wind-ragged feather edges, natural beak.\nSETTING: High air during her flight over the three worlds; dark layered cloud horizons beneath the bird, not a literal map or labeled diagram [siuru-c10]\nMOOD: awe-inspiring active mythic flight, overwhelming wings and purposeful gaze, never cute songbird or calm perch.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Siuru burung dua sayap biru berbulu sutra dalam perjalanan melintasi tiga dunia.",
+  "basis_claim_ids": [
+    "siuru-c01",
+    "siuru-c04",
+    "siuru-c07",
+    "siuru-c09",
+    "siuru-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE fabulous bird, one head, two eyes, one beak, exactly TWO expansive BLUE feathered wings, two ordinary bird feet tucked naturally, one feathered tail. Silken feathers and wind-light wings; no human face or body; no extra wings",
+      "claim_ids": [
+        "siuru-c01",
+        "siuru-c04",
+        "siuru-c07",
+        "siuru-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fly and glide through the three-world journey with wings lighter than wind; only physical wind sweeps the silken feathers and tears ordinary mist around the wings, no light trails or magic aura",
+      "claim_ids": [
+        "siuru-c04",
+        "siuru-c09",
+        "siuru-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "High air during her flight over the three worlds; dark layered cloud horizons beneath the bird, not a literal map or labeled diagram",
+      "claim_ids": [
+        "siuru-c10"
+      ]
+    }
+  ],
+  "aura": "Fly and glide through the three-world journey with wings lighter than wind; only physical wind sweeps the silken feathers and tears ordinary mist around the wings, no light trails or magic aura [siuru-c04, siuru-c09, siuru-c10]",
+  "artistic_choices": [
+    "Accepted claims tidak menyebut enam sayap; dua sayap natural dipakai, tanpa anatomi impor.",
+    "Lapisan awan mengungkap perjalanan c10 secara editorial, bukan ukuran kosmis atau dunia yang dikarang."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-bcfe5735-97f8-449f-aa01-1fe101e9cd94.png",
+  "generated_at": "2026-10-10T02:55:20.566196+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/siuru.png",
+  "native_sha256": "71151198a1a875eb79eeec1425278d16d09d8c9de0e5dc438ce63c9e0c01003f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: satu burung dua sayap biru besar berbulu sutra c04/c09, kepala menunduk dalam aksi wingbeat dan dua kaki tertarik; sayap/feather tips fisik dan awan c10 tanpa aura. Keagungan dari close-flight, bukan skala raksasa. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "71151198a1a875eb79eeec1425278d16d09d8c9de0e5dc438ce63c9e0c01003f",
+    "reviewed_at": "2026-10-10T02:55:20.566196+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "71151198a1a875eb79eeec1425278d16d09d8c9de0e5dc438ce63c9e0c01003f",
+    "notes": "Single blue-winged bird with two wings and tucked feet gliding at the viewer through windswept clouds; no human features."
+  }
+}

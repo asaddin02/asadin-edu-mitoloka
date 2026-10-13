@@ -1,0 +1,76 @@
+{
+  "slug": "kuafu",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kuafu, the Chinese giant pursuing the setting sun. Native square PNG at least1024x1024.\nANATOMY: ONE human-shaped GIANT with one head/two eyes/TWO arms/TWO legs, fully opaque plain ancient robe; carries ONE WOODEN STAFF/club in one hand. No snakes in this HaiwaiBeiJing race variant. [kuafu-c01, kuafu-c05, kuafu-c09]\nMOMENT: RUN westward toward enormous distant sunset while turning torso near viewer, wooden staff thrust forward, thirsty face determined; near foot splashes across river shallows.\nPOWER: Pursues sun and drinks Yellow/Wei rivers; physically large river water streams from free cupped hand as he pauses mid-stride to drink. No controlling sun or magical river levitation. [kuafu-c03, kuafu-c09]\nSCALE & CAMERA: Extreme low riverbank view; towering giant head/body filling square, ordinary distant river trees much smaller to establish sourced giant scale.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Yellow and Wei river landscape during sun pursuit. [kuafu-c03, kuafu-c09]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the Chinese giant pursuing the setting sun",
+  "basis_claim_ids": [
+    "kuafu-c01",
+    "kuafu-c05",
+    "kuafu-c09",
+    "kuafu-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE human-shaped GIANT with one head/two eyes/TWO arms/TWO legs, fully opaque plain ancient robe; carries ONE WOODEN STAFF/club in one hand. No snakes in this HaiwaiBeiJing race variant.",
+      "claim_ids": [
+        "kuafu-c01",
+        "kuafu-c05",
+        "kuafu-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Pursues sun and drinks Yellow/Wei rivers; physically large river water streams from free cupped hand as he pauses mid-stride to drink. No controlling sun or magical river levitation.",
+      "claim_ids": [
+        "kuafu-c03",
+        "kuafu-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yellow and Wei river landscape during sun pursuit.",
+      "claim_ids": [
+        "kuafu-c03",
+        "kuafu-c09"
+      ]
+    }
+  ],
+  "aura": "RUN westward toward enormous distant sunset while turning torso near viewer, wooden staff thrust forward, thirsty face determined; near foot splashes across river shallows. Grounded in kuafu-c01, kuafu-c05, kuafu-c09, kuafu-c03.",
+  "artistic_choices": [
+    "HaiwaiBeiJing c09 staff/race variant chosen, do not mix four snakes DahuangBeiJing c07. Giant scale c01 via tiny river trees, physical water only. No death/forest transformation shown.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-23c8a663-6e7b-4ac1-9b1e-f23184e9e866.png",
+  "generated_at": "2026-10-12T18:05:19.906905+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/kuafu.png",
+  "native_sha256": "dbeec4d6178ac75ab56b2f9ecd25dff4c2bd3ceeef287e6a54d27d133a2a2674",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254/200: sourced giant c01 towers over tiny river trees, woodenstaff c05/c09 in onehand and otherhand cups flowing drinkingwater c03/c09. Onehead/twoarms/twolegs, fully opaque coarse robe, no snakes mixed from c07. Active striding splash/drink with sunset target, physicalwater not suncontrol/magic. Awe survives200; no ordinaryhuman/static/text/gore; seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "dbeec4d6178ac75ab56b2f9ecd25dff4c2bd3ceeef287e6a54d27d133a2a2674",
+    "reviewed_at": "2026-10-12T19:47:54.764462+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "dbeec4d6178ac75ab56b2f9ecd25dff4c2bd3ceeef287e6a54d27d133a2a2674",
+    "notes": "Giant in a ragged robe with a wooden staff striding through the river and drinking it from his hand as he chases the setting sun."
+  }
+}

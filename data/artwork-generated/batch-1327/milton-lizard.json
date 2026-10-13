@@ -1,0 +1,84 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "milton-lizard",
+  "depicted_variant": "Biawak besar15kaki dengan corak hitam-putih dan mata mirip katak, muncul dari tumpukan hood mobil.",
+  "basis_claim_ids": [
+    "milton-lizard-c01",
+    "milton-lizard-c05",
+    "milton-lizard-c06",
+    "milton-lizard-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Badan biawak sepanjang15kaki, hitam-putih bergaris/berbintik, bawah mulut putih, dua mata besar seperti katak; satu kepala empat kaki dan ekor.",
+      "claim_ids": [
+        "milton-lizard-c01",
+        "milton-lizard-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Kepala/bahu muncul dan menggerakkan tumpukan hood mobil; mendesis tanpa kuasa tambahan.",
+      "claim_ids": [
+        "milton-lizard-c06",
+        "milton-lizard-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Junkyard kendaraan rusak dekat Milton.",
+      "claim_ids": [
+        "milton-lizard-c06"
+      ]
+    }
+  ],
+  "aura": "Corak/mata ganjil milton-lizard-c05 dan muncul menggeser hood mobil milton-lizard-c06 memberi ancaman tanpa efek kuasa.",
+  "artistic_choices": [
+    "Varian quadruped lizard c01, bukan biped lizard man c11.",
+    "Cahaya senja/debu dan rust editorial; mobil memberi pembanding panjang15kaki.",
+    "Tanpa kekuatan supernatural yang tidak tersedia."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MILTON LIZARD, the huge Kentucky monitor-lizard-like cryptid.\nANATOMY: one15-foot monitor lizard body, ONE head, FOUR reptile legs and ONE long tail; black-and-white STRIPES and SPECKLES, WHITE beneath the mouth, TWO conspicuously LARGE FROG-LIKE eyes. Not a humanoid, not a dinosaur. [milton-lizard-c01,milton-lizard-c05]\nMOMENT: forcing head and shoulders OUT FROM UNDER a pile of old car hoods, hissing directly toward viewer with mouth open, one foreleg bracing as the heavy metal hoods tilt and slide.\nPOWER: actual physical motion of the hoods caused by its emergence, no magic or sparks. [milton-lizard-c06,milton-lizard-c03]\nSCALE & CAMERA: extreme low angle close to scrap ground, reptile face and thick shoulders dominate foreground, wrecked car hood offers true scale of its15-foot length.\nLIGHT & WEATHER: one dying amber sun reflected along white markings, dark walnut shadows, grit and dust scattered from scrap.\nSURFACE: rough wet-black/white scales, frog-like protruding eyes, rusted scratched sheet metal.\nSETTING: wrecking yard near Milton, old unmarked wrecked vehicles. [milton-lizard-c06]\nMOOD: predatory, dangerous and imposing, never ordinary lizard at pasture, cute, calm or decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-ecf944c2-3a15-45ca-aacf-b519f17041d3.png",
+  "generated_at": "2026-10-10T02:45:10.767Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/milton-lizard.png",
+  "native_sha256": "bc510f79f8d9a6f675b87793ca1d33b1fbca49404a457f78fa7443fb0780c001",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan thumbnail200px dilihat: satu kepala dua mata besar mirip katak, corak hitam-putih/bawah mulut putih, foreleg menahan scrap dan kepala/bahu muncul dari hood miring. Kaki belakang sebagian tertutup debris, tidak ada anggota tambahan. Semua7Uji Sangar ya; mendesis konfrontatif dan tubuh besar sesuai c01/c05/c06. Tanpa kuasa tambahan, teks/glyph/gore atau desain adaptasi.",
+    "limitations": [],
+    "native_sha256": "bc510f79f8d9a6f675b87793ca1d33b1fbca49404a457f78fa7443fb0780c001",
+    "reviewed_at": "2026-10-10T02:45:10.871Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/milton-lizard-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "bc510f79f8d9a6f675b87793ca1d33b1fbca49404a457f78fa7443fb0780c001",
+    "notes": "Black-and-white banded giant monitor with frog-like eyes and white jaw heaving up a pile of car hoods in a junkyard at sunset."
+  }
+}

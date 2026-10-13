@@ -1,0 +1,86 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "azumi-no-isora",
+  "depicted_variant": "Azumi-no-Isora dalam Taiheiki: messenger dari dasar laut, tubuh terselubung kerang, clam dan serangga rumput laut, membawa dua permata pasang-surut.",
+  "basis_claim_ids": [
+    "azumi-no-isora-c13",
+    "azumi-no-isora-c14",
+    "azumi-no-isora-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Sosok encrusted kerang, clam dan serangga rumput laut sehingga tidak seperti manusia.",
+      "claim_ids": [
+        "azumi-no-isora-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Muncul dari tempat laut menuju pertemuan dewa dan membawa dua permata yang diterima dari dragon palace.",
+      "claim_ids": [
+        "azumi-no-isora-c13",
+        "azumi-no-isora-c14",
+        "azumi-no-isora-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tepi laut sebagai transisi visual dari dasar laut menuju playing ground dewa.",
+      "claim_ids": [
+        "azumi-no-isora-c13",
+        "azumi-no-isora-c14"
+      ]
+    }
+  ],
+  "aura": "Keagungan messenger Shinto datang dari kemunculan tubuh berkerang dari laut dan dua permata pasang-surut (azumi-no-isora-c13, azumi-no-isora-c14, azumi-no-isora-c15), tanpa mengarang kendali gelombang.",
+  "artistic_choices": [
+    "Varian Taiheiki dipilih, tidak mencampur white-cloth face mask dari dance c09.",
+    "Tubuh satu kepala/dua tangan/dua kaki adalah dasar editorial; seluruh torso berpakaian opak dengan encrustation, bukan nude monster.",
+    "Dua permata amber/green nonluminous sebagai pilihan warna/material, dipegang dua kepalan agar tidak menambah jari.",
+    "Ombak/cipratan hanya perpindahan badan dari laut; tidak ditafsir sebagai kuasa mengendalikan pasang atau laser permata.",
+    "Kamera dekat rendah memberi dominasi tanpa membesarkan tubuh tanpa sumber; wajah mulia sebagian tersembunyi encrustation."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of AZUMI-NO-ISORA as recorded in the TAIHEIKI, the Shinto sea-floor deity returning as messenger with TWO tide jewels.\nANATOMY: ONE venerable head, TWO arms TWO legs, entire body and face densely encrusted with shellfish, clams and tiny seaweed-dwelling insects so he hardly looks human at all. Opaque dark high-neck robe covers chest and pelvis beneath shells. TWO natural eyes glimpsed between shell clusters, no horns, wings or added mouths. Exactly TWO jewels: one amber stone gripped by one closed hand and one dark green stone in the other closed hand, fingers naturally curled and occluded. [azumi-no-isora-c14,c15]\nMOMENT: rising out of seawater and advancing toward the viewer to PRESENT the two nonluminous jewels obtained from the dragon palace; cascades drain from his shell-covered shoulders, authoritative sacred messenger, not a zombie. [azumi-no-isora-c13,c14,c15]\nPOWER: seawater splashes only from his physical arrival from sea floor. No invented tide-controlling effect, no glowing jewel beams. The two gems are borrowed ebb and flood jewels. [azumi-no-isora-c13,c15]\nSCALE & CAMERA: extreme low close angle at water surface; huge-in-frame shell-covered face and two gem-bearing clenched hands dominate, actual body scale unspecified.\nLIGHT & WEATHER: one low warm sun shaft cutting deep walnut storm shadows, spray and flowing water catch the rim.\nSURFACE: heavy wet shells, ridged clams, dark coarse cloth, small crustacean-like seaweed insects; realistic marine encrustation, no gore.\nSETTING: sea margin editorial transition from the sea floor to gods' meeting-ground. [azumi-no-isora-c13,c14]\nMOOD: sacred, reverent, imposing and awe-inspiring, not evil monster, ordinary fisherman or shell statue.\n\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-49e27719-c0fa-4f72-9e5c-c2f490be801d.png",
+  "generated_at": "2026-10-10T03:54:09.943Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/azumi-no-isora.png",
+  "native_sha256": "bda1a8a3af83ef14a9c4f75bb0341e376839fc3d235399f3e08652770e9e6ef7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa: kepala tunggal bermata dua, tubuh penuh shellfish/clams dan serangga laut sehingga bukan orang biasa, dua tangan berkepalan dengan dua permata nonluminous. Kemunculan/cipratan fisik laut dan presentasi permata sesuai azumi-no-isora-c13/c14/c15; tanpa klaim tide-control tambahan, mask dance, glyph, gore atau anatomi ekstra. Keagungan reverent kuat.",
+    "limitations": [],
+    "native_sha256": "bda1a8a3af83ef14a9c4f75bb0341e376839fc3d235399f3e08652770e9e6ef7",
+    "reviewed_at": "2026-10-10T03:54:10.039Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/azumi-no-isora-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "bda1a8a3af83ef14a9c4f75bb0341e376839fc3d235399f3e08652770e9e6ef7",
+    "notes": "Figure crusted with shells, barnacles and seaweed rising out of the sea holding the two dragon-palace jewels."
+  }
+}

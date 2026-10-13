@@ -1,0 +1,72 @@
+{
+  "slug": "winged-cat",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Winged Cat, a legendary feline shown here in the eagle-winged big-cat form.\nANATOMY: one lionlike feline head, two eyes, four feline legs, one tail, exactly two eagle wings; strong visible feline jaws and hooked claws [winged-cat-c01,winged-cat-c02]\nMOMENT: Launch from a dark rocky ledge toward the viewer, clawed forepaws thrust forward, broad feathered wings flaring.\nPOWER: No documented supernatural power; no power effects, motion and feline anatomy only [winged-cat-c01]\nSCALE & CAMERA: extreme low angle; close dramatic foreshortening; subject fills almost the entire square frame, distinguishable anatomy immediately readable; no invented giant size.\nLIGHT & WEATHER: one dominant moonlight source, strong rim light, deep walnut shadows and antique gold highlights, airborne spray or dust only where physical action causes it.\nSURFACE: tactile rough fur, feather, scale, fabric or wet skin appropriate to the stated anatomy; strong painterly material detail, never plastic.\nSETTING: an editorial unmarked rocky ledge in near darkness; no asserted historical location [winged-cat-c01]\nMOOD: dangerous and imposing or respectfully awe-inspiring for sacred beings; decisive action, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. Output one square PNG at least 1024x1024.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one lionlike feline head, two eyes, four feline legs, one tail, exactly two eagle wings; strong visible feline jaws and hooked claws",
+      "claim_ids": [
+        "winged-cat-c01",
+        "winged-cat-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented supernatural power; no power effects, motion and feline anatomy only",
+      "claim_ids": [
+        "winged-cat-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "an editorial unmarked rocky ledge in near darkness; no asserted historical location",
+      "claim_ids": [
+        "winged-cat-c01"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "winged-cat-c01",
+    "winged-cat-c02"
+  ],
+  "depicted_variant": "Big-cat eagle-wing variant; rocky setting is editorial rather than researched geography",
+  "aura": "Kesan kuat berasal dari launch from a dark rocky ledge toward the viewer, clawed forepaws thrust forward, broad feathered wings flaring (winged-cat-c01).",
+  "artistic_choices": [
+    "Big-cat eagle-wing variant; rocky setting is editorial rather than researched geography",
+    "Sudut rendah dan framing rapat; palet walnut/emas antik, cahaya bulan adalah editorial.",
+    "Cuaca, tekstur, pakaian buram dan debu/cipratan biasa merupakan pilihan editorial; tidak menambahkan kuasa."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-a06b7551-4bd6-4be3-85b8-1b6b365115ba.png",
+  "generated_at": "2026-10-09T01:04:24.621480+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/winged-cat.png",
+  "native_sha256": "e9f23a4a8bb3c1689151176e6b1a211aaf265cd5349587558bd05609b89f890a",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: Uji Sangar 7/7 ya. Singa bersayap elang melompat dari batu, wajah menggeram dan cakar terbaca. Satu kepala dua mata, empat kaki, dua sayap dan ekor tunggal. Tanpa efek gaib terdokumentasi; debu akibat lompatan biasa. Tidak tampak hewan biasa atau maskot; tanpa teks/gore.",
+    "limitations": [],
+    "native_sha256": "e9f23a4a8bb3c1689151176e6b1a211aaf265cd5349587558bd05609b89f890a",
+    "reviewed_at": "2026-10-09T01:04:24.621480+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e9f23a4a8bb3c1689151176e6b1a211aaf265cd5349587558bd05609b89f890a",
+    "notes": "Lion-headed big cat with two eagle wings springing off a rock at the viewer, claws out."
+  }
+}

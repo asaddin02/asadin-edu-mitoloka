@@ -1,0 +1,67 @@
+{
+  "slug": "wd-q11173930",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of wd q11173930, Zhuowl with humanhands replacing feet, following primaryShanhaijing anatomy.\nANATOMY: One owl-like bird with naturalOWLHEAD/TWOeyes/curvedBEAK, exactlyTWOfeatherwings; TWOlegs terminate in HUMANHANDS ratherthanbirdtalons, eachhandfivehumanfingers. NOhumanface,NOextraarms,NOthirdhand/wing. Feetarehands c05 [wd-q11173930-c01, wd-q11173930-c04, wd-q11173930-c05]\nMOMENT: Swoop down towardviewer, twohumanhandfeet reach togripforegroundbranch, owlgaze direct\nPOWER: Omen ofexpelledofficials only, no magicalexpulsionrays/power invented []\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one warm sidelight cutthroughdarkcanopy; only physical particles justified by action.\nSURFACE: roughowlfeathers andnatural humanhand skin.\nSETTING: Ju Mountain woodedrock, darkbranch [wd-q11173930-c02]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One owl-like bird with naturalOWLHEAD/TWOeyes/curvedBEAK, exactlyTWOfeatherwings; TWOlegs terminate in HUMANHANDS ratherthanbirdtalons, eachhandfivehumanfingers. NOhumanface,NOextraarms,NOthirdhand/wing. Feetarehands c05",
+      "claim_ids": [
+        "wd-q11173930-c01",
+        "wd-q11173930-c04",
+        "wd-q11173930-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ju Mountain woodedrock, darkbranch",
+      "claim_ids": [
+        "wd-q11173930-c02"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "wd-q11173930-c01",
+    "wd-q11173930-c04",
+    "wd-q11173930-c05",
+    "wd-q11173930-c02"
+  ],
+  "depicted_variant": "Zhuowl with humanhands replacing feet, following primaryShanhaijing anatomy",
+  "artistic_choices": [
+    "Reject humanfaceinterpretation explicitly c04.",
+    "Humanhands exactfivefingers; standardowl2wings/head, no extraarmsholdingbird."
+  ],
+  "aura": "Omen ofexpelledofficials only, no magicalexpulsionrays/power invented [wd-q11173930-c01, wd-q11173930-c04, wd-q11173930-c05]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-c597-7a53-af3b-3c9b74362858/exec-b5b1544c-87d1-4db3-a934-d61563101d0d.png",
+  "generated_at": "2026-10-12T14:03:33.849916+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/wd-q11173930.png",
+  "native_sha256": "3d9dea6806a2f0bf7d64ec1247cec5b4b6786a34f3d6222bd5e8a4aaf40beb22",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan thumbnail200 diperiksa: wajah burung hantu satu kepala/dua mata, dua sayap, dua kaki berujung tangan manusia masing-masing5jari terbaca; menyerbu dahan dekat penonton, tanpa humanface/talon/ekstralengan atau efek omen rekaan. Semua7UjiSangar ya.",
+    "limitations": [],
+    "native_sha256": "3d9dea6806a2f0bf7d64ec1247cec5b4b6786a34f3d6222bd5e8a4aaf40beb22",
+    "reviewed_at": "2026-10-12T14:03:33.849916+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "3d9dea6806a2f0bf7d64ec1247cec5b4b6786a34f3d6222bd5e8a4aaf40beb22",
+    "notes": "Owl whose legs end in human hands gripping a branch, wings raised, staring at the viewer."
+  }
+}

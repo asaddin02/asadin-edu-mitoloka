@@ -1,0 +1,54 @@
+{
+  "slug": "kurangaituku",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kurangaituku, the wing-armed Maori part-woman part-bird pursuer. Native square PNG at least1024x1024.\nANATOMY: ONE part-woman part-bird adult supernatural being, ONE human-shaped head/TWO eyes; TWO arms bearing WINGS joined along arms rather than extra separate wings; TWO legs. Fully opaque plain feather cloak/body clothing. Long spear-like extended LIPS capable of spearing birds, not normal beak replacing humanhead. [kurangaituku-c01, kurangaituku-c06]\nMOMENT: FLY after the escapee toward low viewer, winged arms spread wide and thrust forward, long predatory lips and intent eyes dominate; no youth or victims shown.\nPOWER: Documented flight in pursuit; natural wind and feathers physically move, no aura/runes. [kurangaituku-c08]\nSCALE & CAMERA: Extreme low close flight approach, womanhead and wingedarms occupy most square, cave smaller behind.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Forest outside her cave, dark entrance and distant tree silhouettes. [kurangaituku-c02, kurangaituku-c07]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the wing-armed Maori part-woman part-bird pursuer",
+  "basis_claim_ids": [
+    "kurangaituku-c01",
+    "kurangaituku-c06",
+    "kurangaituku-c08",
+    "kurangaituku-c02",
+    "kurangaituku-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE part-woman part-bird adult supernatural being, ONE human-shaped head/TWO eyes; TWO arms bearing WINGS joined along arms rather than extra separate wings; TWO legs. Fully opaque plain feather cloak/body clothing. Long spear-like extended LIPS capable of spearing birds, not normal beak replacing humanhead.",
+      "claim_ids": [
+        "kurangaituku-c01",
+        "kurangaituku-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented flight in pursuit; natural wind and feathers physically move, no aura/runes.",
+      "claim_ids": [
+        "kurangaituku-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forest outside her cave, dark entrance and distant tree silhouettes.",
+      "claim_ids": [
+        "kurangaituku-c02",
+        "kurangaituku-c07"
+      ]
+    }
+  ],
+  "aura": "FLY after the escapee toward low viewer, winged arms spread wide and thrust forward, long predatory lips and intent eyes dominate; no youth or victims shown. Grounded in kurangaituku-c01, kurangaituku-c06, kurangaituku-c08, kurangaituku-c02, kurangaituku-c07.",
+  "artistic_choices": [
+    "Tregear winged-arm and spearlips variant c06 chosen; opaque feather garment editorial from source treasured korowai c03, no tattoos or invented ethnographic motifs. No killing/burning scene.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

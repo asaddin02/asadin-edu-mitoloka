@@ -1,0 +1,86 @@
+{
+  "slug": "mintuci",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Mintuci, a small Ainu aquatic half-human half-beast spirit. Native square PNG at least1024 by1024 pixels.\nANATOMY: One half-human half-beast figure at human-child stature, one head with two ordinary eyes, two arms and two bird-footed legs; reddish skin with sea-turtle-like texture. Fully opaque simple wrapped clothing covers torso and intimate anatomy. No shell, beak, head water-dish, hoof sets or extra limbs. [mintuci-c02, mintuci-c08, mintuci-c09]\nMOMENT: Rise through river reeds into close confrontation, one hand reaching toward the viewer while bird feet brace on wet stone.\nPOWER: Physical river water streams off the emerging body; no invented beams, controlled storm or magic aura. The threatening approach evokes the documented underwater dragging, without a victim. [mintuci-c07]\nSCALE & CAMERA: extremely close low camera and foreshortening, no invented giant size, no tiny people as size references; distinguishing anatomy readable at200px.\nLIGHT & WEATHER: Single warm low sunset shaft across textured reddish skin and real water droplets.\nSURFACE: tactile organic fur, skin, feather, scales, wet wood or opaque cloth corresponding to the documented subject, never plastic.\nSETTING: A dark river margin. [mintuci-c05]\nMOOD: reverent but formidable spirit presence; never cute, calm, static or decorative. Dark walnut, antique-gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, glyph, lettering, logo, border, frame or watermark; no extra heads, eyes, arms, legs, fingers or attributes; no film, game, anime or comic adaptation; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons. Anatomical counts in this prompt override generic creature associations.",
+  "depicted_variant": "Reddish turtle-textured, bird-footed aquatic variant; no borrowed kappa anatomy.",
+  "basis_claim_ids": [
+    "mintuci-c02",
+    "mintuci-c08",
+    "mintuci-c09",
+    "mintuci-c07",
+    "mintuci-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One half-human half-beast figure at human-child stature, one head with two ordinary eyes, two arms and two bird-footed legs; reddish skin with sea-turtle-like texture. Fully opaque simple wrapped clothing covers torso and intimate anatomy. No shell, beak, head water-dish, hoof sets or extra limbs.",
+      "claim_ids": [
+        "mintuci-c02",
+        "mintuci-c08",
+        "mintuci-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical river water streams off the emerging body; no invented beams, controlled storm or magic aura. The threatening approach evokes the documented underwater dragging, without a victim.",
+      "claim_ids": [
+        "mintuci-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark river margin.",
+      "claim_ids": [
+        "mintuci-c05"
+      ]
+    }
+  ],
+  "aura": "Rise through river reeds into close confrontation, one hand reaching toward the viewer while bird feet brace on wet stone. Visual grounding: mintuci-c02, mintuci-c08, mintuci-c09, mintuci-c07.",
+  "artistic_choices": [
+    {
+      "description": "Directional low-key light, close camera, warm dark palette and opaque clothes when applicable are editorial choices, not added powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Reddish turtle-textured, bird-footed aquatic variant; no borrowed kappa anatomy.",
+      "claim_ids": [
+        "mintuci-c02",
+        "mintuci-c08",
+        "mintuci-c09"
+      ]
+    }
+  ],
+  "tool": "OpenAI built-in image_gen",
+  "model_reported": false,
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-f1eb-7812-bed1-d88bbc42e100/exec-58dacd78-5501-4803-8c66-35aec6e79c26.png",
+  "native_sha256": "903d7f889e05d0f07024f144f80e53ec95607230d853a5c4892e09e6b8299573",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T04:07:16.144444+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/mintuci.png",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected: child-stature half-human form with reddish turtle-textured skin, one head and2ordinary eyes,2arms and2bird-footed legs. One scaled bird foot prominent while other partly submerged. Opaque wraps, reaching hand, fixed gaze and wet emerging motion create formidable uncanny spirit presence; no kappa dish, shell or beak. Seven checks pass, no invented power or gore.",
+    "limitations": [],
+    "native_sha256": "903d7f889e05d0f07024f144f80e53ec95607230d853a5c4892e09e6b8299573",
+    "reviewed_at": "2026-10-12T04:07:16.144444+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "903d7f889e05d0f07024f144f80e53ec95607230d853a5c4892e09e6b8299573",
+    "notes": "Child-sized red being with turtle-textured skin and bird feet crawling out of the river reeds, reaching toward the viewer."
+  }
+}

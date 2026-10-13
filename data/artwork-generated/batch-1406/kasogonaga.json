@@ -1,0 +1,86 @@
+{
+  "slug": "kasogonaga",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of kasogonaga, the multicolored sky-elephant variant of the Qom weather being.\nANATOMY: One multicolored elephant form: one elephant head, two eyes, two ears, one trunk, four legs and one tail; ordinary elephant mouth only slightly parted and entirely toothless in view, no visible mouth teeth at all; two natural smooth external tusks; no human body, no mixing pig or anteater variants [kasogonaga-c04]\nMOMENT: Stride diagonally down through clouds in a three-quarter side view, trunk stretched upward out of the way; mouth only slightly parted beneath the trunk, no mouth interior or teeth visible\nPOWER: A branching white-gold lightning discharge originates between the slightly parted lips, visibly crossing the dark clouds; rain falls around her [kasogonaga-c04, kasogonaga-c09]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: dominant mouth-lightning illumination, rain droplets and cloud rim light; physical particles only where justified by the action.\nSURFACE: rain-wet wrinkled elephant skin with muted multicolored patches.\nSETTING: Sky above dark clouds [kasogonaga-c10]\nMOOD: reverent overwhelming awe; benevolent weather divinity, never vicious or monstrous; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One multicolored elephant form: one elephant head, two eyes, two ears, one trunk, four legs and one tail; no human body, no mixing pig or anteater variants",
+      "claim_ids": [
+        "kasogonaga-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A branching white-gold lightning discharge originates in the open mouth, visibly crossing the dark clouds; rain falls around her",
+      "claim_ids": [
+        "kasogonaga-c04",
+        "kasogonaga-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sky above dark clouds",
+      "claim_ids": [
+        "kasogonaga-c10"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "kasogonaga-c04",
+    "kasogonaga-c09",
+    "kasogonaga-c10"
+  ],
+  "depicted_variant": "the multicolored sky-elephant variant of the Qom weather being",
+  "artistic_choices": [
+    "Choose elephant variant only, without borrowing attributes from small-pig or anteater versions.",
+    "Body-filling framing gives reverent awe without claiming a specific gigantic height.",
+    "Muted rainbow colors across textured skin are the documented multicolored anatomy; not an aura."
+  ],
+  "aura": "A branching white-gold lightning discharge originates in the open mouth, visibly crossing the dark clouds; rain falls around her [kasogonaga-c04, kasogonaga-c09]",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-01.json",
+      "native_sha256": "9ea39b1d4060d1d960e9282cdc67d90f64f2ed1aa1629724faa8513d82ed8f2e",
+      "reason": "Elephant mouth contains invented predatory pointed teeth; living Qom weather being should convey reverent awe through lightning without monstrous teeth."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/kasogonaga-attempt-02.json",
+      "native_sha256": "d4404cba253915ae9124c2f454c119cb84e016006584c83873f4cdd35e490423",
+      "reason": "Two pointed upper teeth persist in elephant mouth; anatomically unsourced."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-6f8cbeff-7e89-4fee-9169-1d830441840e.png",
+  "generated_at": "2026-10-12T02:34:31.931098+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/kasogonaga.png",
+  "native_sha256": "df22311632011229a55e1940f40d34fa099be5d71b12fd6fd971447b0d4c4de2",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspection: multicolored elephant variant, one head and trunk, two external tusks, ordinary toothless-in-view mouth; four legs with rear legs naturally obscured. Mouth lightning directly c04, rain c09, sky clouds c10. Diagonal descent fills square and conveys reverent awe; no monstrous mouth, glyph or aura. All seven Sangar checks pass, including 200px recognizable awe.",
+    "limitations": [],
+    "native_sha256": "df22311632011229a55e1940f40d34fa099be5d71b12fd6fd971447b0d4c4de2",
+    "reviewed_at": "2026-10-12T02:34:31.931098+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "df22311632011229a55e1940f40d34fa099be5d71b12fd6fd971447b0d4c4de2",
+    "notes": "Multicoloured elephant striding through storm clouds with lightning issuing from its open mouth; one trunk, four legs."
+  }
+}

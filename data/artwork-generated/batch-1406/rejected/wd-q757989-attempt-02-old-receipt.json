@@ -1,0 +1,69 @@
+{
+  "slug": "wd-q757989",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Fuxi (負屓), Fuxi, the dragon-shaped son associated with literature and coiling around stone steles. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: a single living dragon-shaped coiling creature, one head with two eyes; one continuous flexible coiled body encircling the top of a stone stele; deliberately no wings, jewellery or invented magical features, feet out of crop [wd-q757989-c02, wd-q757989-c07]\nMOMENT: UNCOIL its head down around the stele top toward the low viewer, throat bending forward and gaze alert, unmistakably living rather than a stone ornament\nPOWER: no documented magic; no visible energy effects [wd-q757989-c01, wd-q757989-c02]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: a single slanting warm sunset shaft, deep walnut shadows, strong rim light\nSURFACE: tactile dark bronze-brown scales and rough weathered stone\nSETTING: top of a weathered stone stele, broad face plain and devoid of all text or carved symbols [wd-q757989-c02]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.\nCORRECTION: HARD OVERRIDE: NO horns anywhere, NO dorsal spikes or crest, NO whiskers or beard, NO wings or feet in frame. Simple smooth-brow scaled dragon head and coiling neck only. Bring head much closer to occupy central two thirds; crop stele to upper edge/corner rather than large slab occupying bottom half. Single living dragon with two eyes coiling atop blank stele, no added features.",
+  "depicted_variant": "Fuxi as a living coiling dragon-shaped being at top of a stele, rather than Bixi turtle pedestal.",
+  "basis_claim_ids": [
+    "wd-q757989-c07",
+    "wd-q757989-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dragon-shaped literary son",
+      "claim_ids": [
+        "wd-q757989-c07"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Coiling around stele top",
+      "claim_ids": [
+        "wd-q757989-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Stone stele with no visible lettering",
+      "claim_ids": [
+        "wd-q757989-c02"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the live dragon-shaped being uncoiling around the stele (wd-q757989-c02, wd-q757989-c07).",
+  "artistic_choices": [
+    "Scales and plain stone are editorial dragon-shape render details. Horns and feet remain unseen because source does not count them. Stele blank for no-text rule; no magical writing or animated glyphs. No invented powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-01.json",
+      "native_sha256": "6e87ab7b75754efd74c6b5a1fb95c50de2fe06f42adeff81952605941a37d928",
+      "reason": "Visible prominent horns, dorsal spines and whiskers not supported by research; prompt/choices specified avoiding undocumented horn count. Too much lower plain stele reduces creature dominance."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-25605ca6-acae-4b31-ad87-836ab488cace.png",
+  "generated_at": "2026-10-12T02:48:53.330810+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/wd-q757989.png",
+  "native_sha256": "ca55136ad862e6152ede37aed5b5ab22435df23e331391e4f5062343bfac4853",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px viewed; all seven checks pass after retry. One live scaled dragon-shaped head with two eyes and coiling flexible body around blank stele top. Head uncoils downward toward viewer; coiled body dominates upper field. No unsupported horns, whiskers, spikes, feet or magical writing. Stele has rough natural marks, no legible or implied glyphs. Strong close glare persists at200px; prior horned design archived.",
+    "limitations": [],
+    "native_sha256": "ca55136ad862e6152ede37aed5b5ab22435df23e331391e4f5062343bfac4853",
+    "reviewed_at": "2026-10-12T02:48:53.331153+00:00"
+  }
+}

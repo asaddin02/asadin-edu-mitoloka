@@ -1,0 +1,86 @@
+{
+  "slug": "ao-bing",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ao Bing, as documented in the accepted traditional claims.\nANATOMY: Ao Bing in his documented white dragon form, one dragon head, two eyes, one long sinuous white-scaled dragon body, four consistent limbs; no human form, no film costume, no borrowed modern design [ao-bing-c07, ao-bing-c12]\nMOMENT: Drive forward from the East Sea with the dragon head dominating the foreground, coiling upward through heavy rain in sovereign command.\nPOWER: Dense rain and physical rain clouds pour over the sea, water splashes around his moving coils [ao-bing-c06, ao-bing-c14]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single storm break of cold moonlight, spray and heavy rainfall.\nSURFACE: wet ivory-white scales with antique warm shadows.\nSETTING: East Sea with a distant shadow of the Crystal Palace below the water [ao-bing-c02, ao-bing-c04]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Ao Bing berwujud naga putih penguasa hujan di Laut Timur.",
+  "basis_claim_ids": [
+    "ao-bing-c07",
+    "ao-bing-c12",
+    "ao-bing-c06",
+    "ao-bing-c14",
+    "ao-bing-c02",
+    "ao-bing-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ao Bing in his documented white dragon form, one dragon head, two eyes, one long sinuous white-scaled dragon body, four consistent limbs; no human form, no film costume, no borrowed modern design",
+      "claim_ids": [
+        "ao-bing-c07",
+        "ao-bing-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dense rain and physical rain clouds pour over the sea, water splashes around his moving coils",
+      "claim_ids": [
+        "ao-bing-c06",
+        "ao-bing-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "East Sea with a distant shadow of the Crystal Palace below the water",
+      "claim_ids": [
+        "ao-bing-c02",
+        "ao-bing-c04"
+      ]
+    }
+  ],
+  "aura": "Dense rain and physical rain clouds pour over the sea, water splashes around his moving coils [ao-bing-c06, ao-bing-c14]",
+  "artistic_choices": [
+    "Memilih tubuh naga dari c07/c12 agar tidak mengarang rupa manusia.",
+    "Empat tungkai mengikuti pembacaan naga naturalistik editorial; tidak menambahkan senjata atau tunggangan pada varian naga."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-be73b3cf-ac10-49dc-988f-712ff1985fce.png",
+  "generated_at": "2026-10-09T01:04:49.836935+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/ao-bing.png",
+  "native_sha256": "ba294954f9b1f6adfa6bf4b514e6ad2db5ba3532f39d86c2e21d365b21e11044",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: naga putih satu kepala dominan, tubuh panjang dan tungkai konsisten sebagian tertutup gelombang; maju konfrontatif dalam hujan c06/c14. Crystal Palace menjadi latar kecil, naga tetap subjek. Uji Sangar 7/7; tanpa teks, gore, atau desain adaptasi modern.",
+    "limitations": [],
+    "native_sha256": "ba294954f9b1f6adfa6bf4b514e6ad2db5ba3532f39d86c2e21d365b21e11044",
+    "reviewed_at": "2026-10-09T01:04:49.836935+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ba294954f9b1f6adfa6bf4b514e6ad2db5ba3532f39d86c2e21d365b21e11044",
+    "notes": "White Chinese dragon with four limbs churning the East Sea in heavy rain, a submerged palace below."
+  }
+}

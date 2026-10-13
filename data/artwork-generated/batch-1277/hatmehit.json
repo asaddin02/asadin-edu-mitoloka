@@ -1,0 +1,96 @@
+{
+  "slug": "hatmehit",
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Edit only the clothing in this original square premium cinematic painterly Mythics illustration of Hatmehit. Preserve exactly her commanding forward gesture, face, single fish headdress, gold jewelry, two arms, hand anatomy, body pose, cropped low camera perspective, temple stone background, ordinary myrrh smoke and warm light. Replace ALL thin translucent white clothing, from shoulders and chest to lower visible hem, with substantial densely woven fully OPAQUE ancient Egyptian cream linen lined with a second opaque layer. Broad matte opaque folds completely cover chest, abdomen, pelvis and legs; no skin or silhouette of underlying anatomical detail visible through any fabric even where backlit. The fabric is weighty textured cloth with solid coverage, not gauze or wet thin material. Keep her moving forward and filling the square with solemn divine authority. No other changes: no new supernatural power, objects, heads, limbs, fingers, horns or sun disk. Preserve one complete fish on head, one human head, two arms. No text, border, logo, watermark, nudity, explicit gore, neon glow or floating runes. Source grounding: female fish-crown form hatmehit-c02; temple setting hatmehit-c03; ordinary incense evokes perfume/myrrh association hatmehit-c10 without claiming magic smoke. Opaque gown and lighting are artistic clothing choices, not extra source facts. Output one native square PNG >=1024 pixels.",
+  "depicted_variant": "Hatmehit berwujud perempuan berpakaian buram dengan ikan besar di atas kepalanya.",
+  "basis_claim_ids": [
+    "hatmehit-c02",
+    "hatmehit-c10",
+    "hatmehit-c03",
+    "hatmehit-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One Egyptian goddess in woman form with one head, two eyes, two arms and two legs; fully opaque long ancient Egyptian linen gown. A large unmistakable complete fish rests horizontally on her head as her documented headdress, clearly silhouetted Correction: all gown panels densely woven and fully opaque; no sheer fabric.",
+      "claim_ids": [
+        "hatmehit-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No supernatural effects; real perfumed myrrh smoke expresses her documented association with scents and Lady of myrrh",
+      "claim_ids": [
+        "hatmehit-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A shadowed sacred precinct at Mendes in the Nile Delta",
+      "claim_ids": [
+        "hatmehit-c03",
+        "hatmehit-c06"
+      ]
+    }
+  ],
+  "aura": "No supernatural effects; real perfumed myrrh smoke expresses her documented association with scents and Lady of myrrh [hatmehit-c10]",
+  "artistic_choices": [
+    "Keagungan dari framing rendah sangat dekat, bukan klaim tubuh raksasa.",
+    "Busana dan perhiasan sederhana adalah pilihan editorial; asap dupa fisik terkait ranah wewangian c10.",
+    "Correction: densely woven lined fully opaque linen replaces sheer clothing; source garment material unspecified. All other anatomy/composition retained."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/hatmehit-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/hatmehit-attempt-01.json",
+      "native_sha256": "4a662c7d285b45410ce1517c35f34049a8459795060ecc8f63aba6f7219ad5c5",
+      "reason": "Kolom latar memuat hieroglif/tulisan dan patung kucing tambahan. Melanggar no lettering dan menambahkan atribut tidak berbasis klaim; ulangi dengan batu polos tanpa inskripsi dan tanpa patung."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/hatmehit-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/hatmehit-attempt-02.json",
+      "native_sha256": "54c8d5e007de32c6e9f521f9d162d6ca96c5c10939a406d168af73494c50246b",
+      "reason": "Claude second review relayed by owner: kain tipis tembus pandang; fully opaque garment required."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330c-2154-7d72-9e4f-57c5b5259554/exec-d301f96c-9693-437d-9cfb-7214ca50e258.png",
+  "generated_at": "2026-10-13T02:24:09.036024+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/hatmehit.png",
+  "native_sha256": "0bd40e5e17e177a824382261f2f8753c5f03cd7fa0343e3ea4b36f6904ea6394",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254: garment now substantial opaque linen at chest abdomen and skirt, no transparent panel. Single complete fish crown remains clear, female2arms/2eyes, advancing commanding gesture and myrrh smoke retained. No added power/text/watermark; correction answers Claude sheerness reason.",
+    "limitations": [],
+    "native_sha256": "0bd40e5e17e177a824382261f2f8753c5f03cd7fa0343e3ea4b36f6904ea6394",
+    "reviewed_at": "2026-10-13T02:24:09.036024+00:00"
+  },
+  "correction_worker": "root",
+  "correction_source": "User relays Claude second review: kain tipis tembus pandang. Fully opaque cloth required.",
+  "historical_worker_metadata": {
+    "worker_agent": "lane-C",
+    "subagent_model": "gpt-6.1-sol",
+    "subagent_reasoning_effort": "high"
+  },
+  "generation_agent": "root",
+  "worker_metadata_note": "This replacement was generated and reviewed directly by the main Codex agent; no sub-agent was used for this correction. Historical lane metadata remains in the archived previous receipt.",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "0bd40e5e17e177a824382261f2f8753c5f03cd7fa0343e3ea4b36f6904ea6394",
+    "notes": "Correction checked at full size: heavy layered white linen gown is fully opaque with a broad collar over the chest; the complete fish headdress, myrrh smoke and Mendes precinct read clearly from the low camera."
+  }
+}

@@ -1,44 +1,87 @@
 {
   "slug": "sita",
-  "prompt": "SITA, Hindu goddess and Rama's consort, Bhumi's daughter (sita-c03/c04): ONE adult human woman in fully opaque saffron-red and gold sari, one head TWO arms, calm compassionate dignified expression. Depict respectful RETURN TO EARTH (sita-c12), she stands serene as fertile earth opens gently beneath her into a broad stone-lined descending cleft, no violence, no entrapment distress; green plants and flowers along soil edges. Immense natural landscape and tiny ancient hermitage distant, low camera, vast gold sky, her posture spiritually powerful through grace. No fire ordeal, extra arms, wings, beams or invented throne creature. Use case: stylized-concept. Original square premium monumental painterly Mythics illustration. Very low angle, enormous apparent scale, clear strong silhouette, cinematic contrast, rich tactile detail. Respectful sacred portrayal; no text, watermark, logo, border, nudity, gore, film/game/anime copying, unsupported anatomy or effects.",
-  "depicted_variant": "Sita returning to earth, respectful serene goddess portrait.",
+  "worker": "codex",
+  "worker_agent": "sita",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c03-0a50-7361-a9d2-553546ae71b7/exec-1edfd359-3bc5-491d-bb8e-e0cc1c56dd8c.png",
+  "generated_at": "2026-10-08T14:59:35.240870+00:00",
+  "original_file": "data/artwork-generated/batch-1055/originals/sita.png",
+  "native_sha256": "8f9160b034c91a03850fb62958a6d5a46d53742c4805612b7d61bf374694603c",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SITA, the Hindu goddess and human incarnation of Lakshmi, undergoing the Agni Pariksha fire ordeal in the Ramayana version that includes it. Respectful sacred devotional grandeur. [sita-c01, sita-c03, sita-c14, sita-c08]\nANATOMY: ONE adult South Asian woman with exactly one head, two eyes, two arms and two legs. Fully opaque deep crimson sari and high-neck gold blouse, richly woven gold fabric borders, gold jewellery, no exposed torso, no extra limbs. Jewellery reflects the jewellery in her story; exact costume design is artistic interpretation. [sita-c14, sita-c16]\nMOMENT: Sita strides through the surrounding fire directly toward the viewer, fierce spiritual resolve and unwavering compassionate gaze slightly down toward us; one hand lifted outward at chest level in an open composed gesture and the other holding a sweeping fold of sari at her side. Her brow is resolute, never blank or distressed. The sweeping heavy drapery and one forward step make a forceful moving silhouette.\nPOWER: The physical Agni Pariksha fire surrounds her on both sides and behind her, turbulent tongues of orange flame curl across the immediate foreground at her feet, sparks rise into smoke. This is the documented ordeal, NOT Sita emitting fire, attacking, or controlling flame; no fire from her eyes or hands. [sita-c08]\nSCALE & CAMERA: extreme low-angle close heroic framing, her face and clothed torso huge in the square image, her figure occupying approximately eighty-five percent of image height and most of its width. Camera is very near her forward foot looking upward. Natural human anatomy and proportions; grandeur comes from framing, the ordeal and silhouette, no literal giant body. The fire is near and palpable rather than a distant landscape. Face and sacred resolve remain instantly legible at thumbnail size.\nLIGHT & WEATHER: the surrounding real orange fire is the single dominant lighting source, sharp firelit rim along her cloth, dark smoke background, dramatic deep shadows, warm face modelling, airborne ember specks physically from flames. No glowing halo, magic rays or generic aura.\nSURFACE: tactile crimson woven silk, burnished gold jewellery, heavy embroidered hems, realistic warm skin, turbulent painterly flame and sooty smoke.\nSETTING: within the Agni Pariksha ordeal, entirely focused on her and the near fire; no scenic vista, buildings, throne or bystanders. [sita-c08]\nMOOD: awe-inspiring divine courage and dignity, overwhelming sacred presence, energetic and imposing. A reverent Hindu devotional illustration, never a monster, victim in distress, ordinary casual passerby or decorative fashion portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons, invented weapon or crown; no earth-return scene, no Maya Sita duplicate, no burns or wounds. ONE square image.",
+  "depicted_variant": "Sita in the Agni Pariksha version, striding through the surrounding ordeal fire toward the viewer with sacred resolve; no Maya Sita or return-to-earth variant is blended.",
   "basis_claim_ids": [
     "sita-c01",
     "sita-c03",
-    "sita-c04",
-    "sita-c12"
+    "sita-c08",
+    "sita-c14",
+    "sita-c16"
   ],
   "visual_requirements": [
-    "Sita as human goddess and Bhumi's daughter — sita-c01/c04.",
-    "Return to earth shown through opening soil — sita-c12.",
-    "Fully clothed, normal one-head two-arm human rendering."
+    {
+      "kind": "anatomy",
+      "description": "Sita as the human incarnation of Lakshmi: one adult woman, one head, two eyes, two arms and two legs. Fully opaque ceremonial sari and jewellery are respectful editorial dress, not a sourced specific costume.",
+      "claim_ids": [
+        "sita-c01",
+        "sita-c03",
+        "sita-c14",
+        "sita-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A visibly physical wall and rolling foreground tongues of fire depict the Agni Pariksha ordeal in the versions documented in c08. Fire is the surrounding ordeal, not a weapon or fire-control power attributed to Sita.",
+      "claim_ids": [
+        "sita-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The fire ordeal itself supplies the immediate setting; no forest, landscape, invented temple or unrelated return-to-earth episode.",
+      "claim_ids": [
+        "sita-c08"
+      ]
+    }
   ],
-  "aura": "Earth opening receives her, documented return-to-earth deed c12; no generic fire effect.",
+  "aura": "Kesan menggetarkan datang dari keberanian ilahi Sita dalam api ujian Agni Pariksha (sita-c08), identitas dewi dan penjelmaan Lakshmi (sita-c01/c03/c14); api mengelilinginya sebagai ujian, bukan kuasa mengendalikan atau menembakkan api.",
   "artistic_choices": [
-    "Colors, low camera, cloth or structural surface designs are artistic presentation.",
-    "Depicted deed/domain and body counts use selected cited variant."
+    "Sudut kamera sangat rendah, langkah kaki ke depan dan framing rapat membuat sosok memenuhi bingkai tanpa menyatakan tinggi badan raksasa.",
+    "Sari merah buram penuh, blus emas berkerah tinggi, pola tenun, bindi dan desain perhiasan merupakan editorial pakaian hormat; keberadaan perhiasan didukung sita-c16, jenis dan desainnya tidak diklaim sebagai fakta sumber.",
+    "Palet crimson, emas antik dan asap gelap; cahaya berasal dari api fisik ujian sita-c08. Percikan dan asap adalah penyajian fisik api, tanpa aura generik atau cahaya dari tubuh.",
+    "Varian ujian api dipilih untuk menjawab penolakan ordinary woman in a landscape: Sita mendominasi gambar dan aktif melangkah melalui api, tanpa lanskap jauh atau tokoh lain.",
+    "Anatomi manusia biasa dipilih dari penjelmaan manusia Lakshmi sita-c14; riset tidak menentukan susunan tambahan sehingga tidak dibuat lengan, kepala, kendaraan atau senjata baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/sita.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/sita-attempt-01.json",
+      "native_sha256": "7a5f01116479f4ffc35c2b692b4706c8f08ce862e2ad2596757c533de6fb0cae",
+      "reason": "Ordinary woman in a landscape.",
+      "missing_original_png": true
+    }
   ],
   "visual_review": {
-    "notes": "Viewed native: fully sari-clothed serene woman with two arms, standing in gentle fertile earth opening, flowers and distant hermitage; selected return-to-earth deed c12. Majestic natural gold sky, no fire ordeal or invented weapon/anatomy, text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "7a5f01116479f4ffc35c2b692b4706c8f08ce862e2ad2596757c533de6fb0cae",
-    "reviewed_at": "2026-10-06T08:31:02.310105+00:00"
+    "notes": "PNG asli 1254×1254 dilihat langsung. Sita memenuhi bingkai dari wajah sampai kaki yang maju, kedua tangan terbaca dengan anatomi wajar, pakaian buram menutup torso, kepala tunggal dan dua mata. Sudut rendah dan api fisik dekat menegaskan momen aktif dan keagungan pada ukuran kecil. Api, asap dan percikan berasal dari ujian sita-c08; tidak ada pancaran dari mata/tangan, aura, senjata atau skala raksasa literal. Tidak ada teks, watermark, bingkai, nudity atau gore. Uji Sangar 7 butir lolos; susunan kaki sebagian tertutup sari, tanpa anggota tubuh tambahan. Root independently viewed native PNG: active foreshortened step, enormous nearby flames from documented fire ordeal c08, clear subject with fully clothed torso and two hands; all seven Sangar criteria pass, no invented attack power.",
+    "limitations": [],
+    "native_sha256": "8f9160b034c91a03850fb62958a6d5a46d53742c4805612b7d61bf374694603c",
+    "reviewed_at": "2026-10-08T15:01:09.840Z"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-f91d1464-56fa-48d2-bd77-bc6cdf1a6a2f.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/sita.png",
-  "native_sha256": "7a5f01116479f4ffc35c2b692b4706c8f08ce862e2ad2596757c533de6fb0cae",
-  "status": "needs-correction",
-  "worker": "codex",
-  "tool": "OpenAI built-in image_gen",
-  "review_path": "data/gemini/reviews/batch-072.review.json",
-  "reviewed_at": "2026-10-06T08:31:02.310105+00:00",
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "7a5f01116479f4ffc35c2b692b4706c8f08ce862e2ad2596757c533de6fb0cae",
-    "notes": "Ordinary woman in a landscape."
-  },
-  "correction_notes": "Ordinary woman in a landscape."
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8f9160b034c91a03850fb62958a6d5a46d53742c4805612b7d61bf374694603c",
+    "notes": "Sita striding out of the ordeal fire toward the viewer, flames all around; one woman, two arms, opaque sari; reads as the Agni Pariksha, not a landscape."
+  }
 }

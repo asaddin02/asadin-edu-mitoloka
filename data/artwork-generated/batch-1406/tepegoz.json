@@ -1,0 +1,71 @@
+{
+  "slug": "tepegoz",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tepegöz, the one-eyed giant ogre of the Oghuz Book of Dede Korkut. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one head with exactly ONE eye in forehead, no normal pair of eyes below; humanlike body with two arms and two legs; visibly tough leathery skin; torso and pelvis fully covered by heavy opaque undyed cloth, no helmet or horns [tepegoz-c01, tepegoz-c05, tepegoz-c06]\nMOMENT: LUNGE out of his cave, one empty hand reaching toward the viewer and the other braced on cave wall, single eye fixed on us\nPOWER: no invented magical effect; hard skin shown through dense rough surface only [tepegoz-c06]\nSCALE & CAMERA: extreme low angle at cave floor, giant looms over small cave stones\nLIGHT & WEATHER: single low dying fire outside frame lighting cave doorway, dust without magical smoke\nSURFACE: hard leathery skin, heavy coarse cloth, damp rock\nSETTING: his rocky cave lair [tepegoz-c05]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Adult single-forehead-eyed giant ogre before the blinding episode.",
+  "basis_claim_ids": [
+    "tepegoz-c01",
+    "tepegoz-c05",
+    "tepegoz-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One-eyed ogre with single forehead eye",
+      "claim_ids": [
+        "tepegoz-c01"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Giant with very hard skin",
+      "claim_ids": [
+        "tepegoz-c05",
+        "tepegoz-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cave lair",
+      "claim_ids": [
+        "tepegoz-c05"
+      ]
+    }
+  ],
+  "aura": "Threat comes from the giant cave ogre and single staring eye with tough skin (tepegoz-c01, tepegoz-c05, tepegoz-c06).",
+  "artistic_choices": [
+    "Full opaque rough garment is editorial to avoid nudity. No victims, gore or laser eye. Giant size is grounded in c05 original quote. No attack arrows inserted."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-0f76ac6e-7822-46df-be40-e72cf023dd47.png",
+  "generated_at": "2026-10-12T02:40:52.048256+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/tepegoz.png",
+  "native_sha256": "8c58576bdb6879696a1b6ed22c8bc3dbec38db2ed1a1382c747e19dd4fda8a28",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, all seven checks pass. One head, exactly one central forehead eye; two arms with five-digit reaching near hand and bracing far hand; two clothed legs. Tough skin and opaque coarse garment, cave lunge and direct looming confrontation. No eye beam, horns, text, nudity or gore. At thumbnail the reaching giant and single eye remain threatening.",
+    "limitations": [],
+    "native_sha256": "8c58576bdb6879696a1b6ed22c8bc3dbec38db2ed1a1382c747e19dd4fda8a28",
+    "reviewed_at": "2026-10-12T02:40:52.048647+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8c58576bdb6879696a1b6ed22c8bc3dbec38db2ed1a1382c747e19dd4fda8a28",
+    "notes": "One-eyed bald ogre with a single forehead eye lunging out of a cave mouth with a huge reaching hand."
+  }
+}

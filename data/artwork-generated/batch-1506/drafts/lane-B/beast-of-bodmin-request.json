@@ -1,0 +1,50 @@
+{
+  "slug": "beast-of-bodmin",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Beast of Bodmin, the unconfirmed darkpuma-like predatory BeastofBodminMoor. Native square PNG at least1024x1024pixels.\nANATOMY: one naturalPUMA-like largecatwithdarkgreytoBLACKfur,onehead/twoeyes,twoears,fourcatlegs,onelongcattail; noleopardspots,mane,horns,sabreteethor supernaturalparts [beast-of-bodmin-c02, beast-of-bodmin-c05]\nMOMENT: LUNGE fromdarkmoorgrass towardcloseviewer, mouthdrawnback withnaturalcatcanines, nearforepawclaws reaching,headlowandeyesfixed, no preyinjuryshown\nPOWER: no documentedmagic; reportedpredatory threat tiedtoallegedlivestockdeaths, no confirmedkills depicted [beast-of-bodmin-c01]\nSCALE & CAMERA: extreme low camera, close foreshortened framing; no undocumented giant size\nLIGHT & WEATHER: one lowcoldmoonbeam, deepwalnutshadows andcoldrimlight,ordinarymist\nSURFACE: coarsewetblackcatfur,naturalclaws,moorgrassandroughstone\nSETTING: BodminMoor Cornwall, darkroughgrass/stone andlowhorizon [beast-of-bodmin-c02]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Reportedblackpuma-likecat, notprovenblackleopardskull orscientificexistenceclaim.",
+  "basis_claim_ids": [
+    "beast-of-bodmin-c02",
+    "beast-of-bodmin-c05",
+    "beast-of-bodmin-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Darkgrey/blackpuma-likebigcat reported",
+      "claim_ids": [
+        "beast-of-bodmin-c02",
+        "beast-of-bodmin-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Allegedpredatorythreat blamedforlivestockdeaths",
+      "claim_ids": [
+        "beast-of-bodmin-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "BodminMoorCornwall",
+      "claim_ids": [
+        "beast-of-bodmin-c02"
+      ]
+    }
+  ],
+  "aura": "Threat comes fromallegedlargepredatorycatlunging atclosemoorlevel (beast-of-bodmin-c01, beast-of-bodmin-c05).",
+  "artistic_choices": [
+    "Momentoflunge editorialrendering ofallegedpredation, noassertionofconfirmedkill. Darkpumaformc05 notrugleopardc04. Closecamera ordinarybigcatscale,nomagicaleffect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

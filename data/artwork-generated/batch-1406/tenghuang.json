@@ -1,0 +1,61 @@
+{
+  "slug": "tenghuang",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tenghuang, the auspicious Chenghuang foxlike beast of the Shanhaijing account. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: a foxlike animal, one head, two eyes, four paws and one fox tail; horns grow unmistakably from the BACK behind shoulders, not forehead; no wings because this selected primary-text variant does not mention wings [tenghuang-c06]\nMOMENT: SPRING forward over a low foreground ridge, forepaws extended toward viewer, back horns sharply silhouetted above its spine, alert and commanding\nPOWER: no visible invented magic; longevity of a rider is not shown as an energy effect [tenghuang-c06]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: a single slanting warm sunset shaft, deep walnut shadows, strong rim light\nSURFACE: dense wind-ruffled fox fur, matte keratin horns, dusty ground\nSETTING: earth beneath the creature in land of Bai-min; terrain kept indistinct because source supplies no specific landscape [tenghuang-c06]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Shanhaijing Chenghuang foxlike back-horned form, without wings or horse-body mixture.",
+  "basis_claim_ids": [
+    "tenghuang-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Foxlike creature with horns on its back",
+      "claim_ids": [
+        "tenghuang-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Land of Bai-min, otherwise unspecified terrain",
+      "claim_ids": [
+        "tenghuang-c06"
+      ]
+    }
+  ],
+  "aura": "Auspicious awe comes from startling back-horned fox anatomy and forceful close framing (tenghuang-c06); no invented magic.",
+  "artistic_choices": [
+    "Ochre fur, back horn pair and dark neutral ground are editorial. Back horns are enlarged for readability, not relocated to head. No visible supernatural effect; auspicious longevity cannot justify invented energy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-900515e4-6818-4611-9830-0a1ee8347e94.png",
+  "generated_at": "2026-10-12T02:39:37.102013+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/tenghuang.png",
+  "native_sha256": "4c5f92494ae6cc2eba1daa87a6873af301acbd16cefcdef51028d0d384130d35",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native and 200px; seven checks pass. One fox head, two eyes, four pawed legs (far hind partially occluded), one sweeping tail. Two horns rise behind ears from dorsal shoulder/back fur, distinct from unhorned forehead; no wings. Forward spring with displaced ordinary soil, no longevity energy effect. At 200px strange back-horned fox dominates and remains imposing; no text or gore.",
+    "limitations": [],
+    "native_sha256": "4c5f92494ae6cc2eba1daa87a6873af301acbd16cefcdef51028d0d384130d35",
+    "reviewed_at": "2026-10-12T02:39:37.102398+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "4c5f92494ae6cc2eba1daa87a6873af301acbd16cefcdef51028d0d384130d35",
+    "notes": "Fox-like beast with horns rising from its back stalking over a ridge at sunset straight at the viewer."
+  }
+}

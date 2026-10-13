@@ -1,0 +1,88 @@
+{
+  "slug": "shippeitaro",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shippeitarō, the brave helper dog whose teeth seize the huge black mountain-spirit cat in the Violet Fairy Book variant.\nANATOMY: Shippeitaro is ONE great natural dog, one canine head, two eyes, four legs and one tail, coarse tawny-white fur. One secondary huge black monster cat is partly visible, with natural feline anatomy; dog is clearly the main subject. No humanoid dog, no extra heads or limbs [shippeitaro-c01, shippeitaro-c08, shippeitaro-c10, shippeitaro-c11]\nMOMENT: Leap from the foreground and fasten its teeth fiercely into the monster black cat fur, pushing forward in a brave protective attack, face and straining forepaws closest to the viewer.\nPOWER: Physical attack with the dog teeth seizing the mountain cat spirit; fur, splinters and dust scatter, absolutely no blood or gore [shippeitaro-c03, shippeitaro-c11]\nSCALE & CAMERA: extreme low angle; very low close angle during the clash, dog face fills over one third of the frame; hero dog and huge cat in the same compressed action plane; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dominant amber moonbeam or dying-sun shaft, deep walnut shadows, high contrast rim light, physical dust or mist, no even daylight.\nSURFACE: coarse bristling dog fur, ragged black cat fur, weathered plain timber, torn earth.\nSETTING: At midnight in the shadowed forest chapel where the cat spirits gathered, plain uninscribed wooden entrance and forest behind [shippeitaro-c07, shippeitaro-c10]\nMOOD: fierce brave protective courage, a dangerous active fight, no calm pet portrait.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Shippeitaro menyerang kucing hitam besar Spirit of the Mountain pada varian Violet Fairy Book.",
+  "basis_claim_ids": [
+    "shippeitaro-c01",
+    "shippeitaro-c08",
+    "shippeitaro-c10",
+    "shippeitaro-c11",
+    "shippeitaro-c03",
+    "shippeitaro-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Shippeitaro is ONE great natural dog, one canine head, two eyes, four legs and one tail, coarse tawny-white fur. One secondary huge black monster cat is partly visible, with natural feline anatomy; dog is clearly the main subject. No humanoid dog, no extra heads or limbs",
+      "claim_ids": [
+        "shippeitaro-c01",
+        "shippeitaro-c08",
+        "shippeitaro-c10",
+        "shippeitaro-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical attack with the dog teeth seizing the mountain cat spirit; fur, splinters and dust scatter, absolutely no blood or gore",
+      "claim_ids": [
+        "shippeitaro-c03",
+        "shippeitaro-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "At midnight in the shadowed forest chapel where the cat spirits gathered, plain uninscribed wooden entrance and forest behind",
+      "claim_ids": [
+        "shippeitaro-c07",
+        "shippeitaro-c10"
+      ]
+    }
+  ],
+  "aura": "Physical attack with the dog teeth seizing the mountain cat spirit; fur, splinters and dust scatter, absolutely no blood or gore [shippeitaro-c03, shippeitaro-c11]",
+  "artistic_choices": [
+    "Memilih musuh kucing c06/c10, tidak mencampur musuh monyet.",
+    "Warna bulu anjing pilihan editorial; tidak mengarang kuasa magis, pakaian, skala raksasa anjing atau kekerasan pemenggalan."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-a106edd8-0a32-4414-b05b-15af43a1bb26.png",
+  "generated_at": "2026-10-10T02:49:43.120059+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/shippeitaro.png",
+  "native_sha256": "99922d871b0efcaac0e6cc35e5e182e2fb16aa896bf825524c90b2027c868b64",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: anjing besar heroik menggigit bulu monster kucing hitam c10/c11, aksi clash mendominasi, kepala anjing dan satu kepala kucing terpisah terbaca; paws/fur/splinters fisik, tanpa darah. Hutan dan chapel plain c07. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "99922d871b0efcaac0e6cc35e5e182e2fb16aa896bf825524c90b2027c868b64",
+    "reviewed_at": "2026-10-10T02:49:43.120059+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "99922d871b0efcaac0e6cc35e5e182e2fb16aa896bf825524c90b2027c868b64",
+    "notes": "Large tawny-white dog seizing a huge black monster cat by the neck in front of a shrine, splinters and dust flying, no blood."
+  }
+}

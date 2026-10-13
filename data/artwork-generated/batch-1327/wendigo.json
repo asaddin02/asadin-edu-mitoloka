@@ -1,0 +1,84 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "wendigo",
+  "depicted_variant": "Varian humanoid raksasa berhati es, mengancam penonton dalam dingin musim dingin, tanpa tanduk popculture.",
+  "basis_claim_ids": [
+    "wendigo-c04",
+    "wendigo-c08",
+    "wendigo-c09",
+    "wendigo-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Humanoid raksasa satu kepala2mata2lengan2kaki; tanpa deerhead/tanduk; berpakaian penuh.",
+      "claim_ids": [
+        "wendigo-c04",
+        "wendigo-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dingin dan hati es tanpa glow; ancaman/taunting dalam mulut terbuka.",
+      "claim_ids": [
+        "wendigo-c04",
+        "wendigo-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Utara musim dingin berhubungan kelaparan; hutan dingin editorial.",
+      "claim_ids": [
+        "wendigo-c08"
+      ]
+    }
+  ],
+  "aura": "Gigantisme wendigo-c09, dingin hati es wendigo-c04 serta ancaman bicara wendigo-c12 menegaskan bahaya tanpa deerhorns.",
+  "artistic_choices": [
+    "Varian humanoid c04/c09 dipilih; tidak menggabungkan emaciated/horns c35 atau film c31.",
+    "Hati es tidak diekspos atau dibuat bercahaya, dingin hadir lewat frost dan napas biasa.",
+    "Pakaian penuh lusuh warna walnut, pohon kecil pembanding ukuran giants, bukan manusia korban; no cannibalism/gore."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of WENDIGO, the giant humanoid with an ice heart in Algonquian winter lore.\nANATOMY: ONE giant HUMANLIKE head,TWO eyes,TWO arms and TWO legs,many times human height; NO deer head,NO antlers,horns,wings,skull mask or exposed glowing heart. Fully clothed in opaque tattered dark winter tunic and trousers,the chest and pelvis completely covered. Harsh cold humanlike face,not a normal passerby. [wendigo-c04,wendigo-c09]\nMOMENT: striding over snowbanks toward us,one long hand reaching threateningly,face bent downward with mouth open in a cruel taunt; small fir trees at its knees.\nPOWER: chill associated with its ice heart manifests as heavy natural frost on cloth and coarse fingers,cold breath only; ability to threaten in speech,NO magic beam,fire or aura. [wendigo-c04,wendigo-c12]\nSCALE & CAMERA: extreme low snow-level angle,towering humanoid fills frame,small northern trees give giant scale.\nLIGHT & WEATHER: one pale winter moon,deeper walnut-black shadows,dense falling snow whipped by ordinary wind.\nSURFACE: frost-crusted opaque rough cloth,weathered cold skin,icy snow.\nSETTING: northern winter,cold and famine association; snowy forest is editorial staging. [wendigo-c08]\nMOOD: predatory frightening giant,never ordinary man,cute/calm/decorative;NO victim eating or cultural ritual.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-40cca535-b3d5-4238-985f-542c5aafb31f.png",
+  "generated_at": "2026-10-10T03:13:37.211Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/wendigo.png",
+  "native_sha256": "4b8e1fb8ce0ad5f8923fca0e7b912395a772fd373ea264031400df6f7c2960c2",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px dilihat: satu kepala humanoid2mata2lengan/tangan5digit2kaki,raksasa dibanding trees,sepenuhnya opaque cloth. Langkah mendominasi/reaching dan taunting face c12, frost/chill c04/winter c08,7Uji Sangar semua ya. Tanpa antlers/deerhead/glowingheart/korban/gore/teks/glyph/desainadaptasi.",
+    "limitations": [],
+    "native_sha256": "4b8e1fb8ce0ad5f8923fca0e7b912395a772fd373ea264031400df6f7c2960c2",
+    "reviewed_at": "2026-10-10T03:13:37.321Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/wendigo-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "4b8e1fb8ce0ad5f8923fca0e7b912395a772fd373ea264031400df6f7c2960c2",
+    "notes": "Gaunt snow-caked giant with open mouth reaching down at the viewer in a winter forest blizzard; no deer head or antlers, clothed in ragged hides."
+  }
+}

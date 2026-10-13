@@ -1,0 +1,74 @@
+{
+  "slug": "huay-chivo",
+  "depicted_variant": "Goat transformation variant; no victims or gore, red eyes documented c01",
+  "basis_claim_ids": [
+    "huay-chivo-c01",
+    "huay-chivo-c02",
+    "huay-chivo-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one goat head, two intensely burning RED eyes, goat horns, four goat legs with hooves, shaggy goat body and short goat tail; no wings, no extra heads, no human torso",
+      "claim_ids": [
+        "huay-chivo-c01",
+        "huay-chivo-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Only the documented burning red eyes; no fire breath, flaming body or magic ribbons; ordinary shattered fence from the attack",
+      "claim_ids": [
+        "huay-chivo-c01",
+        "huay-chivo-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "a rural livestock enclosure near Valladolid in Yucatan at night",
+      "claim_ids": [
+        "huay-chivo-c07"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Bound across the livestock enclosure toward the viewer, head low and eyes burning, front hooves striking the fence as it hunts (huay-chivo-c01, huay-chivo-c02, huay-chivo-c07).",
+  "artistic_choices": [
+    "Goat transformation variant; no victims or gore, red eyes documented c01",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Huay Chivo, the Yucatan sorcerer in supernatural goat form with burning red eyes.\nANATOMY: one goat head, two intensely burning RED eyes, goat horns, four goat legs with hooves, shaggy goat body and short goat tail; no wings, no extra heads, no human torso [huay-chivo-c01,huay-chivo-c02]\nMOMENT: Bound across the livestock enclosure toward the viewer, head low and eyes burning, front hooves striking the fence as it hunts.\nPOWER: Only the documented burning red eyes; no fire breath, flaming body or magic ribbons; ordinary shattered fence from the attack [huay-chivo-c01,huay-chivo-c07]\nSCALE & CAMERA: extreme low angle, close foreshortening, subject dominates square and identifying anatomy reads at200px; no invented giant scale unless documented.\nLIGHT & WEATHER: one dominant moon source, deep warm walnut shadows, antique gold rim highlights, wet air and ordinary physical spray or grit appropriate to action.\nSURFACE: tactile organic texture appropriate to anatomy, rough fur/feather/scales/cloth, wet stone, never plastic or statue.\nSETTING: a rural livestock enclosure near Valladolid in Yucatan at night [huay-chivo-c07]\nMOOD: dangerous imposing active moment, or reverent overwhelming majesty for sacred beings; never cute, calm, decorative or an ordinary animal/person.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-118afe5b-dca8-425f-bc07-6d4b414b871e.png",
+  "generated_at": "2026-10-10T02:49:30.219915+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/huay-chivo.png",
+  "native_sha256": "96076ad243f72c509564cbc326908c42fcd22e193d2c190cd01ad353773ce0cb",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px diperiksa: UjiSangar7/7 ya. Goat form menerjang pagar, dua mata merah terbakar c01 jelas pada thumbnail. Satu kepala2mata4kaki konsisten; kaki belakang tersembunyi foreshortening badan. Tidak ada api tubuh, korban, gore atau teks.",
+    "limitations": [],
+    "native_sha256": "96076ad243f72c509564cbc326908c42fcd22e193d2c190cd01ad353773ce0cb",
+    "reviewed_at": "2026-10-10T02:49:30.219915+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "96076ad243f72c509564cbc326908c42fcd22e193d2c190cd01ad353773ce0cb",
+    "notes": "Shaggy horned goat with burning red eyes smashing through a fence at night; four legs, no wings."
+  }
+}

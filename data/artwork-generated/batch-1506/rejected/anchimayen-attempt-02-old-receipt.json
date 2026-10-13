@@ -1,0 +1,76 @@
+{
+  "slug": "anchimayen",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Anchimayen, the small child-form luminous servant of a kalku in an active close encounter.\nANATOMY: ONE SMALL CHILD-shaped mythic spirit, ONE natural childhead/TWO eyes/TWO arms/TWO legs, pale luminous skin, short simple hair. Fully OPAQUE plain thick knee-length tunic and leggings cover chest/hips; no nudity. NOT an adult, monster, corpse, remains, doll, giantchild or abstract sphere hiding the creature. [anchimayen-c01, anchimayen-c02]\nMOMENT: BOUND rapidly toward lowviewer, one smallhuman knee raised, arms outfor balance and gentle intent expression, head turns directly to camera; its actual brightchildbody dazzles the viewer and illuminates nearby rocks. Keep CLEAR CHILD FACE/BODY readable, face largest inframe, no screaming pain or frighteninginjury. Unsettling obedient protective servant, not evilmonster.\nPOWER: Small childbody itself becomes brilliantly luminous, documented brightlight disorients close viewer: the near ground and bottomedge are washed out by whiteamber glare FROM this visible childbody. An active forward airborne bound evokes ability to become a flying fireball, but visible child is unequivocal; no separatefireball/halo, no burnedskin orinjury. [anchimayen-c01, anchimayen-c07]\nSCALE & CAMERA: Extremelyclose groundcamera, smallchildbody dominates square through foreshortening; ordinarygrass/pebbles nearfeet preserve smallscale. Face/arms/twohumanlegs remainvisible at200px; no giant comparator.\nLIGHT & WEATHER: The documented luminous childbody is dominant whiteamber physical lightsource, deepblack/walnut surroundings, localizedoverexposure on near rocks. No detachedhalo, neonoutline, decorativeenergy or magicalcoloredfog.\nSURFACE: Natural skin andhumanfeatures visible despite light; opaque coarsetunic, real pebbles andgrass. No decay, gore, exposedbones or burnedcloth.\nSETTING: Unspecified neutral darkground during close encounter; no ritualcostume, sacredsymbol orinvented culturalartifact. [anchimayen-c01, anchimayen-c07]\nMOOD: Unnerving and imposing active supernatural encounter; never cute, tame, calm or decorative. Creature remains recognizable at200px.\nHARD CONSTRAINTS: ONE square native PNG minimum1024x1024; no text, lettering, logo, watermark, border or frame; no invented anatomy, extra heads, limbs, fingers or eyes; no game/film/anime/comic design, no nudity or gore. No generic halo, neon outline, runes, energy ribbons or unclaimed powers. Respect the living tradition.",
+  "depicted_variant": "Anchimayen, the small child-form luminous servant of a kalku in an active close encounter",
+  "basis_claim_ids": [
+    "anchimayen-c01",
+    "anchimayen-c02",
+    "anchimayen-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE SMALL CHILD-shaped mythic spirit, ONE natural childhead/TWO eyes/TWO arms/TWO legs, pale luminous skin, short simple hair. Fully OPAQUE plain thick knee-length tunic and leggings cover chest/hips; no nudity. NOT an adult, monster, corpse, remains, doll, giantchild or abstract sphere hiding the creature.",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Small childbody itself becomes brilliantly luminous, documented brightlight disorients close viewer: the near ground and bottomedge are washed out by whiteamber glare FROM this visible childbody. An active forward airborne bound evokes ability to become a flying fireball, but visible child is unequivocal; no separatefireball/halo, no burnedskin orinjury.",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Neutral dark ground in close encounter, no fabricated Mapuche landmarks or ceremonial artifacts.",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c07"
+      ]
+    }
+  ],
+  "aura": "BOUND rapidly toward lowviewer, one smallhuman knee raised, arms outfor balance and gentle intent expression, head turns directly to camera; its actual brightchildbody dazzles the viewer and illuminates nearby rocks. Keep CLEAR CHILD FACE/BODY readable, face largest inframe, no screaming pain or frighteninginjury. Unsettling obedient protective servant, not evilmonster. Grounded in anchimayen-c01, anchimayen-c02, anchimayen-c07",
+  "artistic_choices": [
+    "Corrects abstractfireball: uses source smallchildform c01 and body-generated disorientingbrightlight c07 so creature anatomy remains central. Flyingfireball potential evoked by airborne motion, no second creature or invented transformationanatomy.",
+    "Plain opaque tunic/leggings, natural childface/hair, whiteamberlight andneutralground are editorial; no death-remains c06 illustrated, no monstrous anatomy or assumption of evil. Obeys/guards owner c05 rather than independent malice."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-01.json",
+      "native_sha256": "b75bdf4759e38acb78a5f988713039cbec49dca75d9bfeb953993d2fe799003c",
+      "reason": "Bola api abstrak; tidak menunjukkan makhluknya."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330f-2da9-72a1-83e1-334c61917b19/exec-02890bc9-c239-44d1-a418-f1b6a4b4a493.png",
+  "generated_at": "2026-10-13T02:47:46.225976+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/anchimayen.png",
+  "native_sha256": "8a1535905caa7f57627c6ed92f7e17f96a6bf4755dd65cc7299983df5728e25e",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: visible SMALL child-form c01/onehead/twoarms/twolegs, fullyopaque tunic/leggings, airbornebound toward viewer. Body-source whiteamber brilliance physically overwhelms foreground c07; smallgrass/rocks preserve scale, no separateabstractfireball. Child remains unharmed, intent/obedient context, no gore/ritualartifacts/monsteranatomy. All7Sangar checks pass; oldabstractfireball/fullreceipt archived.",
+    "limitations": [],
+    "native_sha256": "8a1535905caa7f57627c6ed92f7e17f96a6bf4755dd65cc7299983df5728e25e",
+    "reviewed_at": "2026-10-13T02:48:22.873442+00:00"
+  },
+  "correction_cycle": "user-authorized2026-10-13",
+  "correction_archive_receipt": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-01-old-receipt.json"
+}

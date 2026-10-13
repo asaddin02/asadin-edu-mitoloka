@@ -1,0 +1,206 @@
+{
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "completed_at": "2026-10-13T03:23:46.748108+00:00",
+  "batch1606_finished": 9,
+  "batch1606_new_finals": 8,
+  "batch1606_recovered_finals": [
+    "wd-q15925032"
+  ],
+  "user_corrections_finished": [
+    "panhu",
+    "rep-un-kamuy",
+    "tangaroa",
+    "dirawong"
+  ],
+  "new_successful_image_calls": 16,
+  "new_generated_native_pngs": 16,
+  "new_final_pngs": 12,
+  "new_quality_rejections": [
+    {
+      "slug": "tata-duende",
+      "attempt": 1,
+      "reason": "thumbs/5digits"
+    },
+    {
+      "slug": "tinirau",
+      "attempt": 1,
+      "reason": "exposedchest"
+    },
+    {
+      "slug": "xtabay",
+      "attempt": 1,
+      "reason": "lace/transparency"
+    },
+    {
+      "slug": "tangaroa",
+      "new_correction_attempt": 1,
+      "reason": "spearpoint outsideframe"
+    }
+  ],
+  "historical_interrupted_calls": [
+    {
+      "slug": "ouni",
+      "attempt": 1,
+      "started_at": "2026-10-13T00:39:22Z",
+      "aborted_at": "2026-10-13T00:39:50Z",
+      "no_output_recovered": true,
+      "counts_toward_max3": true
+    }
+  ],
+  "new_tool_failures": [],
+  "declines": [],
+  "old_user_correction_images_and_receipts_preserved": 4,
+  "native_and_200px_viewed": 13,
+  "validation_checks": 315,
+  "validation_errors": [],
+  "rows": [
+    {
+      "slug": "ouni",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/ouni.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/ouni.png",
+      "native_sha256": "afbda6de511e0cacef800c81dc539cb4119a295a8ab6bb450aac3b0a85405fdc",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 0
+    },
+    {
+      "slug": "qarakorshaq",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/qarakorshaq.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/qarakorshaq.png",
+      "native_sha256": "07e006226eefa7d6e13b20956705fd9d211880dfa28a632b28b07a21ba419956",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 0
+    },
+    {
+      "slug": "sedna",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/sedna.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/sedna.png",
+      "native_sha256": "c4a8160f32ee4aa8ca4dca5e08c6942a58bfab09825f91b885128477cb4fad86",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 0
+    },
+    {
+      "slug": "spirit-turtle",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/spirit-turtle.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/spirit-turtle.png",
+      "native_sha256": "e27410f50813dd51c6650bc78723d594c264474dd982f5e33c3f051fc77728b2",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 0
+    },
+    {
+      "slug": "tata-duende",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/tata-duende.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/tata-duende.png",
+      "native_sha256": "9f93a78f2c33b5b80379da3bbc7d92feb28a7245a2c8dd526b15af2a17232493",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 1
+    },
+    {
+      "slug": "tinirau",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/tinirau.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/tinirau.png",
+      "native_sha256": "f19bfbcbf32fa47ec8ab183a7f285e86b09c3d34fdda1a076d0a871d8fd7a57d",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 1
+    },
+    {
+      "slug": "wd-q15925032",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/wd-q15925032.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/wd-q15925032.png",
+      "native_sha256": "b496e37b2d4ed336994e7ff91adb75642a2273a521abb0036bcc71fc9cbb02e1",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 0
+    },
+    {
+      "slug": "wd-q8320871",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/wd-q8320871.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/wd-q8320871.png",
+      "native_sha256": "a8e6835b404479b2a0e145b0dbe727f47d25b7738d293819c60902fa3ab65d94",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 0
+    },
+    {
+      "slug": "xtabay",
+      "batch": 1606,
+      "receipt_path": "data/artwork-generated/batch-1606/xtabay.json",
+      "original_file": "data/artwork-generated/batch-1606/originals/xtabay.png",
+      "native_sha256": "19d75e4632c90c219da3d3eaa0787390698f0b1b2b820dcea68696e5b5e8b5bb",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 1
+    },
+    {
+      "slug": "panhu",
+      "batch": 1406,
+      "receipt_path": "data/artwork-generated/batch-1406/panhu.json",
+      "original_file": "data/artwork-generated/batch-1406/originals/panhu.png",
+      "native_sha256": "4f6cd4ff001e71e28775b81d27ed0e441d03736bd10fff9a552efd8dde29982b",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 1
+    },
+    {
+      "slug": "rep-un-kamuy",
+      "batch": 1406,
+      "receipt_path": "data/artwork-generated/batch-1406/rep-un-kamuy.json",
+      "original_file": "data/artwork-generated/batch-1406/originals/rep-un-kamuy.png",
+      "native_sha256": "d42998699e2aacc5389565c030a7b157d801b8d5b261b8b568ecaa2fd5bed38b",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 1
+    },
+    {
+      "slug": "tangaroa",
+      "batch": 1406,
+      "receipt_path": "data/artwork-generated/batch-1406/tangaroa.json",
+      "original_file": "data/artwork-generated/batch-1406/originals/tangaroa.png",
+      "native_sha256": "3fb4522beb2f4854d1a037e674ddf141109057c778cdd5d22d306de098349093",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 2
+    },
+    {
+      "slug": "dirawong",
+      "batch": 1456,
+      "receipt_path": "data/artwork-generated/batch-1456/dirawong.json",
+      "original_file": "data/artwork-generated/batch-1456/originals/dirawong.png",
+      "native_sha256": "76238ac4e79ab940fb0dbcbe27d1693e472d7a9b6fa2ecb35fb7e1f3d2f5c328",
+      "width": 1254,
+      "height": 1254,
+      "status": "awaiting-independent-review",
+      "rejected_attempts": 1
+    }
+  ],
+  "ledger_journal_or_root_visual_review_written": false
+}

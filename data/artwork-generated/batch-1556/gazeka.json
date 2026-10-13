@@ -1,0 +1,71 @@
+{
+  "slug": "gazeka",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of gazeka, Papuan Devil-Pig Gazeka from Ogi’s reported sighting, not Graves’s fictional comic beast.\nANATOMY: ONE strange pig/tapirlike quadruped, approximately3.5feet tall and5feet long, ONE head/TWO eyes/FOUR CLOVEN-FEET legs, LONG SNOUT and ONE long horse-like hairy tail. Very dark patterned hide. NO horns/tusks/extra limbs, no elephant trunk or cartoon Gazeka design [gazeka-c02, gazeka-c05]\nMOMENT: THRUST long snout suddenly up from mountain grass toward viewer, body leaning forward and cloven forefeet stamping churned ground; confrontational alert animal\nPOWER: No documented supernaturalpower; reported frightened witness c06, menace through strange proportions and close looming framing only []\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one warm twilight cut across dark patterned skin, deep mountain shadows; only physical particles justified by action.\nSURFACE: very dark mottled tough skin, damp long snout, coarse horse-tail hair and disturbed grass.\nSETTING: Mount Albert Edward Papua New Guinea, grazing ground amid shadowed mountain vegetation [gazeka-c04]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.\nCORRECTION: the previous feet were three long toes, which is wrong. Each visible foot MUST be a CLOVEN HOOF: exactly TWO broad smooth hard keratin halves with a narrow central split, short blunt supporting hoof, NO toes or talons or paws. Keep the documented elongated pig-like snout/dark patterned hide/horsehair tail. Tense forward lean and soil scattering under the two-part hooves, direct wary menacing gaze; not a placid grazing animal. Show both forehooves large and fully exposed with two halves each; no hidden extra toe.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE strange pig/tapirlike quadruped, approximately3.5feet tall and5feet long, ONE head/TWO eyes/FOUR CLOVEN-FEET legs, LONG SNOUT and ONE long horse-like hairy tail. Very dark patterned hide. NO horns/tusks/extra limbs, no elephant trunk or cartoon Gazeka design",
+      "claim_ids": [
+        "gazeka-c02",
+        "gazeka-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Albert Edward Papua New Guinea, grazing ground amid shadowed mountain vegetation",
+      "claim_ids": [
+        "gazeka-c04"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "gazeka-c02",
+    "gazeka-c05",
+    "gazeka-c04"
+  ],
+  "depicted_variant": "Papuan Devil-Pig Gazeka from Ogi’s reported sighting, not Graves’s fictional comic beast",
+  "artistic_choices": [
+    "One creature selected from reported pair so dominant subject; not enlarge beyond claimed size. Hide pattern/horse-tail realization editorial. Grazing action turned alert upward moment without inventing attack/powers."
+  ],
+  "aura": "No documented supernaturalpower; reported frightened witness c06, menace through strange proportions and close looming framing only [gazeka-c02, gazeka-c05]",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1556/rejected/gazeka-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1556/rejected/gazeka-attempt-01.json",
+      "native_sha256": "af1fa6630c88754e03b0b3c1bb697ec26ae0754a952a3174f8e97215865ac628",
+      "reason": "Feet are three elongated toes rather than documented cloven hooves c05; Sangar anatomy5 fail."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-9775-7750-a01c-b9844becc79f/exec-af0253cb-eeec-42c3-9b65-179c4940b321.png",
+  "generated_at": "2026-10-12T18:01:16.111075+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/gazeka.png",
+  "native_sha256": "688b53dcb3b1088374e6689321d2576cc095c6701424e9a2e09f794cac380b0a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: long snout/dark patterned hide/horsehair tail c02/c05; corrected forefeet show TWO keratin hoof halves with central split c05, quadruped without horns/tusks. Extreme low close camera and forward stamping alert moment make unusual animal imposing at200, only soil contact scatter; no supernatural power. Mount Albert Edward c04. Sangar7 pass, no text/frame/watermark or imported comic beast.",
+    "limitations": [],
+    "native_sha256": "688b53dcb3b1088374e6689321d2576cc095c6701424e9a2e09f794cac380b0a",
+    "reviewed_at": "2026-10-12T18:01:16.111075+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "688b53dcb3b1088374e6689321d2576cc095c6701424e9a2e09f794cac380b0a",
+    "notes": "Tapir-like cloven-footed quadruped with a long snout and horse-like tail pushing its snout at the low camera on a Papuan mountainside; the documented form is animal-like, close framing gives presence."
+  }
+}

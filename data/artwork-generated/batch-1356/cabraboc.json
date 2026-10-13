@@ -1,0 +1,85 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "cabraboc",
+  "depicted_variant": "Cabraboc varian hutan bersayap kelelawar: bagian atas manusia berpakaian dan bagian bawah kambing, mengejar pelintas malam di tebing.",
+  "basis_claim_ids": [
+    "cabraboc-c01",
+    "cabraboc-c02",
+    "cabraboc-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Setengah manusia di atas, kambing di bawah; varian dua sayap kelelawar.",
+      "claim_ids": [
+        "cabraboc-c01",
+        "cabraboc-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mengejar pelintas malam hingga dekat tebing; langkah aktif menuju penonton tanpa korban jatuh terlihat.",
+      "claim_ids": [
+        "cabraboc-c02",
+        "cabraboc-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hutan pada malam hari dengan tepi tebing.",
+      "claim_ids": [
+        "cabraboc-c02",
+        "cabraboc-c03"
+      ]
+    }
+  ],
+  "aura": "Bahaya berasal dari sosok campuran manusia/kambing bersayap yang memburu pelintas hutan malam ke tebing (cabraboc-c01, cabraboc-c02, cabraboc-c03).",
+  "artistic_choices": [
+    "Varian bersayap c03 dipilih tanpa kisah cat/basket Ripollet atau helmet carnival modern.",
+    "Satu kepala manusia tanpa tanduk, dua mata, dua lengan, dua kaki kambing berhoof belah, satu ekor pendek dan dua sayap merupakan jumlah editorial anatomi biasa.",
+    "Tunik opak tinggi menutup torso/pelvis, warna gelap dan moonlight editorial; tidak sexualize pengejaran.",
+    "Penonton menjadi pelintas yang dikejar; tidak menggambar korban jatuh, gore atau fire magic."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of CABRABOC, the Catalan forest pursuer HALF HUMAN ABOVE and HALF GOAT BELOW, using the documented BAT-WINGED variant.\nANATOMY: exactly ONE HUMAN adult male head with TWO natural eyes, human upper torso and TWO human arms, lower body furred like a goat with exactly TWO goat legs ending in split CLOVEN HOOVES, ONE short goat tail, TWO large bat membrane wings. NO goat head or horns on the human head. Fully opaque high-neck rough brown tunic covers shoulders, chest and pelvis. Both hands clenched in closed natural fists. [cabraboc-c01,c03]\nMOMENT: charging out of black forest toward the viewer at a cliff edge, front cloven hoof slams onto foreground rock while the other goat leg pushes off, two wings flaring, clenched fists drive forward and face glares at us. We occupy the fleeing traveller's position. [cabraboc-c02,c03]\nPOWER: physical pursuit of night travellers that can drive them over a cliff; no magical fire, generic aura or attack beams, no falling/injured person shown. [cabraboc-c02,c03]\nSCALE & CAMERA: extreme low close angle on the ledge below its charging hoof; human face, goat legs and bat wings all readable and fill square; no unsupported giant size.\nLIGHT & WEATHER: one low warm moon edge light through trees, deep walnut shadows, leaf litter and rock dust kicked by hooves.\nSURFACE: coarse goat fur, rough cracked cloven hooves, heavy dark cloth, leathery veined bat wings and worn cliff stone.\nSETTING: forest cliff in Catalan night traveller legend. [cabraboc-c02,c03]\nMOOD: imminent pursuit, alarming uncanny hybrid, imposing and dangerous, never carnival mascot or ordinary man.\n\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-b96a3850-e504-488a-b438-2eed1aa77bd3.png",
+  "generated_at": "2026-10-10T04:04:49.664Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-133.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/cabraboc.png",
+  "native_sha256": "c26a9aebd3b075c9a7b5b030d7caf4d90f972f215cf03badbb01cf50ace16b07",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa: bagian atas manusia, dua mata, dua lengan berkepalan, dua goat legs dengan hoof belah jelas dan dua bat wings, satu ekor pendek. Torso/pelvis berpakaian opak; tanpa goat head/tanduk tambahan. Charging di forest cliff malam sesuai cabraboc-c01/c02/c03, debris dari hoof fisik; ancaman kuat dan bukan carnival mascot.",
+    "limitations": [],
+    "native_sha256": "c26a9aebd3b075c9a7b5b030d7caf4d90f972f215cf03badbb01cf50ace16b07",
+    "reviewed_at": "2026-10-10T04:04:49.749Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/cabraboc-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "c26a9aebd3b075c9a7b5b030d7caf4d90f972f215cf03badbb01cf50ace16b07",
+    "notes": "Man above and goat below with two bat wings sprinting at the viewer along a cliff edge at night; hooves, clothed upper body."
+  }
+}

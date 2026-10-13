@@ -1,0 +1,85 @@
+{
+  "slug": "rantas",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Rantas, the long-haired female creature that walks backward-footed through Kashmiri winter nights. Native square PNG at least1024 by1024 pixels.\nANATOMY: One female humanoid head with two eyes, long dishevelled hair, ordinary human teeth and ordinary human fingers; two arms and two legs. BOTH feet are anatomically rotated180degrees at the ankles: heels point forward toward camera and toes point BACKWARD away from camera while her chest faces camera. Full opaque layered winter dress covers torso and intimate anatomy; bare feet clearly visible. [rantas-c01, rantas-c05]\nMOMENT: Stride and wail toward the viewer through heavy snow, two ordinary hands reaching forward while backward toes leave unmistakable reverse footprints.\nPOWER: Physical snow is displaced by her documented winter wandering; no invented ice magic or glowing eyes. [rantas-c02, rantas-c05]\nSCALE & CAMERA: extremely close low camera and foreshortening, no invented giant size, no tiny people as size references; distinguishing anatomy readable at200px.\nLIGHT & WEATHER: One distant warm village lantern source through the moonless snowfall, deep shadows, wet snow in hair.\nSURFACE: tactile organic fur, skin, feather, scales, wet wood or opaque cloth corresponding to the documented subject, never plastic.\nSETTING: A heavily forested Kashmiri place on a snowy winter night. [rantas-c02, rantas-c10]\nMOOD: menacing, dangerous and imposing; never cute, calm, static or decorative. Dark walnut, antique-gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, glyph, lettering, logo, border, frame or watermark; no extra heads, eyes, arms, legs, fingers or attributes; no film, game, anime or comic adaptation; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons. Anatomical counts in this prompt override generic creature associations.\nFEET DETAIL: Whole figure head to both bare feet inside the square frame. Both heels face forward beneath the forward-facing torso. Toe clusters lie BEHIND both heels, away from camera. Absolutely no claw nails, fangs, horns or hand reversal from other accounts.",
+  "depicted_variant": "Long-haired sharp-toothed backward-feet winter-wanderer variant; not reversed hands or shapeshift transition.",
+  "basis_claim_ids": [
+    "rantas-c01",
+    "rantas-c05",
+    "rantas-c02",
+    "rantas-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One female humanoid head with two eyes, long dishevelled hair, ordinary human teeth and ordinary human fingers; two arms and two legs. BOTH feet are anatomically rotated180degrees at the ankles: heels point forward toward camera and toes point BACKWARD away from camera while her chest faces camera. Full opaque layered winter dress covers torso and intimate anatomy; bare feet clearly visible.",
+      "claim_ids": [
+        "rantas-c01",
+        "rantas-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical snow is displaced by her documented winter wandering; no invented ice magic or glowing eyes.",
+      "claim_ids": [
+        "rantas-c02",
+        "rantas-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A heavily forested Kashmiri place on a snowy winter night.",
+      "claim_ids": [
+        "rantas-c02",
+        "rantas-c10"
+      ]
+    }
+  ],
+  "aura": "Stride and wail toward the viewer through heavy snow, long nails reaching forward while backward toes leave unmistakable reverse footprints. Visual grounding: rantas-c01, rantas-c05, rantas-c02.",
+  "artistic_choices": [
+    {
+      "description": "Directional low-key light, close camera, warm dark palette and opaque clothes when applicable are editorial choices, not added powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Long-haired sharp-toothed backward-feet winter-wanderer variant; not reversed hands or shapeshift transition.",
+      "claim_ids": [
+        "rantas-c01",
+        "rantas-c05"
+      ]
+    }
+  ],
+  "tool": "OpenAI built-in image_gen",
+  "model_reported": false,
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-f0a6-7a91-b4c3-0510485213fd/exec-5671c0e5-3379-415d-9f6e-11a9b384f156.png",
+  "native_sha256": "50103562e5ac6236c8a4d73994f2e02243d93660a45e948e5adf878dbd84630d",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T08:14:21.069493+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/rantas.png",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected. One femalehead,twoeyes,twonormalhands with fivefingers each,twolegs; BOTH feet face backwards: roundedheels front,toeclusters behind/side away c01/c05. Longhair,wailing forward motion c05 and heavy snow c02 in forest c10. No invented fangs/claws/icepower,fullopaqueclothes,no text/gore. All7 Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "50103562e5ac6236c8a4d73994f2e02243d93660a45e948e5adf878dbd84630d",
+    "reviewed_at": "2026-10-12T08:14:21.069493+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "50103562e5ac6236c8a4d73994f2e02243d93660a45e948e5adf878dbd84630d",
+    "notes": "Wild-haired woman lunging through the snowy forest with clawed hands; checked at full size, the heel of the front foot faces the direction she moves."
+  }
+}

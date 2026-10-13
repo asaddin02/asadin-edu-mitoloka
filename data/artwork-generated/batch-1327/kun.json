@@ -1,0 +1,77 @@
+{
+  "slug": "kun",
+  "depicted_variant": "Colossal fish form only, not whale interpretation or Peng hybrid",
+  "basis_claim_ids": [
+    "kun-c01",
+    "kun-c02",
+    "kun-c05",
+    "kun-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one colossal FISH with one fish head two eyes, one continuous fish body, paired pectoral fins and single tail; no mammal blowhole, no bird wings or dragon horns",
+      "claim_ids": [
+        "kun-c01",
+        "kun-c02",
+        "kun-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical transformation shown and no power beams; ocean water displaced by immense fish body",
+      "claim_ids": [
+        "kun-c02",
+        "kun-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the northern dark sea Tianchi north of Qiongfa, tiny distant waves and horizon as scale reference",
+      "claim_ids": [
+        "kun-c02",
+        "kun-c06"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Rise just below the surface so its enormous fish head breaks through the dark northern sea, an immense back and fin extend toward horizon (kun-c01, kun-c02, kun-c05).",
+  "artistic_choices": [
+    "Colossal fish form only, not whale interpretation or Peng hybrid",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kun, the immensely vast fish of the northern dark sea in Zhuangzi.\nANATOMY: one colossal FISH with one fish head two eyes, one continuous fish body, paired pectoral fins and single tail; no mammal blowhole, no bird wings or dragon horns [kun-c01,kun-c02,kun-c05]\nMOMENT: Rise just below the surface so its enormous fish head breaks through the dark northern sea, an immense back and fin extend toward horizon.\nPOWER: No magical transformation shown and no power beams; ocean water displaced by immense fish body [kun-c02,kun-c05]\nSCALE & CAMERA: extreme low angle, close foreshortening, subject dominates square and identifying anatomy reads at200px; no invented giant scale unless documented.\nLIGHT & WEATHER: one dominant moon source, deep warm walnut shadows, antique gold rim highlights, wet air and ordinary physical spray or grit appropriate to action.\nSURFACE: tactile organic texture appropriate to anatomy, rough fur/feather/scales/cloth, wet stone, never plastic or statue.\nSETTING: the northern dark sea Tianchi north of Qiongfa, tiny distant waves and horizon as scale reference [kun-c02,kun-c06]\nMOOD: dangerous imposing active moment, or reverent overwhelming majesty for sacred beings; never cute, calm, decorative or an ordinary animal/person.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-9cb486ff-8d72-48dd-87eb-0a726e35cb8c.png",
+  "generated_at": "2026-10-10T03:10:35.090133+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/kun.png",
+  "native_sha256": "da612b51214e730bfefda710bec6ed42e7b3be2653f5711cc8433cfbee5339eb",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px UjiSangar7/7 ya. Colossal fish tunggal dengan sirip/dorsal dan scales muncul dari darksea, kepala dominan dan badan membentang ke horizon. Satu kepala2mata dengan mata jauh profile tersembunyi, sirip bukan sayap, tanpa blowhole. Air terdorong badan fisik, tanpa kuasa/glyph/teks/gore.",
+    "limitations": [],
+    "native_sha256": "da612b51214e730bfefda710bec6ed42e7b3be2653f5711cc8433cfbee5339eb",
+    "reviewed_at": "2026-10-10T03:10:35.090133+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "da612b51214e730bfefda710bec6ed42e7b3be2653f5711cc8433cfbee5339eb",
+    "notes": "Colossal fish heaving out of the dark northern sea under the moon; fins and tail only, no wings or horns."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "nguruvilu",
+  "depicted_variant": "Nguruvilu berkepala rubah dan tubuh ular, ekor panjang bercakar mencengkeram air whirlpool.",
+  "basis_claim_ids": [
+    "nguruvilu-c02",
+    "nguruvilu-c03",
+    "nguruvilu-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu kepala rubah, dua mata, tubuh ular tanpa kaki; satu ekor panjang dengan ujung bercakar.",
+      "claim_ids": [
+        "nguruvilu-c02",
+        "nguruvilu-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Ekor bercakar menyambar dan whirlpool berbahaya berputar; tanpa korban.",
+      "claim_ids": [
+        "nguruvilu-c03",
+        "nguruvilu-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sungai dengan whirlpool.",
+      "claim_ids": [
+        "nguruvilu-c02",
+        "nguruvilu-c07"
+      ]
+    }
+  ],
+  "aura": "Kepala rubah/tubuh ular nguruvilu-c02, sabetan ekor bercakar nguruvilu-c03 dan whirlpool nguruvilu-c07 memberi bahaya.",
+  "artistic_choices": [
+    "Varian kepala rubah dipisah dari puma/oxhide; jumlah kuku tidak tersedia sehingga ujung ekor diberi3cakar editorial.",
+    "Cahaya bulan, sisik gelap dan corak kepala rubah editorial.",
+    "Tanpa korban/ritual; tubuh dekat kamera mendominasi tanpa klaim ukuran baru."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of NGURUVILU, the fox-serpent of Mapuche river lore.\nANATOMY: ONE FOX HEAD with pointed fox ears, two eyes and fox muzzle; ONE long serpentine limbless body; NO legs or wings; a long tail ends in THREE hooked claws, clearly an articulated tail-tip and not a separate hand. [nguruvilu-c02,nguruvilu-c03]\nMOMENT: rising face-first out of a churning river whirlpool, looking down toward viewer, twisting its clawed tail forward to snatch, sharp tail-tip breaks the water beside its face.\nPOWER: physical grasping sweep of clawed tail and dangerous whirlpool drawing the river downward; no victims or blood. [nguruvilu-c03,nguruvilu-c07]\nSCALE & CAMERA: extreme water-level low angle, fox face and tail claw fill most of frame, tight coiling body silhouette.\nLIGHT & WEATHER: one low moonbeam on fox muzzle and wet dark scales, deep walnut shadow, river spray and rain.\nSURFACE: wet fox facial fur, dark rough serpentine scales, hard claws, muddy foaming water.\nSETTING: river whirlpool. [nguruvilu-c02,nguruvilu-c07]\nMOOD: dangerous and imposing, never cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-78e6c220-4043-4f3b-8fd6-8655f2da61a0.png",
+  "generated_at": "2026-10-10T02:48:55.950Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/nguruvilu.png",
+  "native_sha256": "c88fd6f5cb20b0d4ed1c8c9fd8ed44c75d11fb4e59c59f406b6924ea49cbf45a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px dilihat: tepat satu kepala rubah pada tubuh ular tanpa kaki, tail-tip3cakar di foreground terhubung ekor; whirlpool/sabetan air c03/c07. Tatapan dan cakar mengancam,7Uji Sangar semua ya; tanpa korban, efek generik, teks/glyph/desain adaptasi.",
+    "limitations": [],
+    "native_sha256": "c88fd6f5cb20b0d4ed1c8c9fd8ed44c75d11fb4e59c59f406b6924ea49cbf45a",
+    "reviewed_at": "2026-10-10T02:48:56.139Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/nguruvilu-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "c88fd6f5cb20b0d4ed1c8c9fd8ed44c75d11fb4e59c59f406b6924ea49cbf45a",
+    "notes": "Fox-headed serpent with a clawed tail tip lashing out of a whirlpool in the rain; no legs, no victim."
+  }
+}

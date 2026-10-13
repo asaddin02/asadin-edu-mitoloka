@@ -1,0 +1,63 @@
+{
+  "slug": "koolakamba",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Koolakamba, the unconfirmed African ape described by nineteenth-century observers. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one ape head with very ROUND head and face, prominent cheekbones and sunken cheeks; whiskerlike black hair runs around face and below chin; two eyes, two arms/two legs, black long arm hair interrupted by partly bare arm skin; no invented gorilla crest or huge fangs [koolakamba-c01, koolakamba-c06, koolakamba-c08, koolakamba-c09, koolakamba-c10]\nMOMENT: WITHDRAW into shadow while turning its round face down toward the close viewer, one hand gripping a nearby unfeatured ground edge; alert and shy, not attacking\nPOWER: no documented supernatural power; no attack or violence added to shy hard-to-approach animal [koolakamba-c11]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one warm shaft through dim vegetation, deep shadow obscures background, no visible magical effect\nSURFACE: coarse black hair, partly bare arm skin, strongly modelled cheekbones and natural vegetation\nSETTING: interior of Gabon Ovenga River region, dim indistinct vegetation only [koolakamba-c03, koolakamba-c11]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Observer-described round-faced black-haired male; unconfirmed ape identity, not proven hybrid.",
+  "basis_claim_ids": [
+    "koolakamba-c01",
+    "koolakamba-c06",
+    "koolakamba-c08",
+    "koolakamba-c09",
+    "koolakamba-c10",
+    "koolakamba-c03",
+    "koolakamba-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ape, more bipedal/flatter face than chimp, reported male4ft3in",
+      "claim_ids": [
+        "koolakamba-c01",
+        "koolakamba-c06",
+        "koolakamba-c08"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Round head/face, prominent cheekbones/sunken cheeks, surrounding whiskers",
+      "claim_ids": [
+        "koolakamba-c09"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Black hair long on partly bare arms",
+      "claim_ids": [
+        "koolakamba-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior Ovenga/Gabon region; shy disposition",
+      "claim_ids": [
+        "koolakamba-c03",
+        "koolakamba-c11"
+      ]
+    }
+  ],
+  "aura": "Awe comes from close encounter with unusually round-faced reported ape, not invented aggression (koolakamba-c06, koolakamba-c09, koolakamba-c11).",
+  "artistic_choices": [
+    "Retreating alert turn respects documented shyness, not invented predator behaviour. No huge scale; close camera gives imposing encounter. Ground/vegetation texture and dusky lighting editorial. No supernatural effect or species certainty."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

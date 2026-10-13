@@ -1,0 +1,73 @@
+{
+  "slug": "tata-duende",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-148.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "EDIT the referenced Mythics Tata Duende image. Preserve elderly bearded dwarf, tall hat, opaque coarse clothing, protective stepping action, jungle, backward feet and perspective. REQUIRED ANATOMY CORRECTION [tata-duende-c02, tata-duende-c08, tata-duende-c13]: REMOVE THE THUMB entirely from BOTH hands. Each raised open hand must have EXACTLY FOUR upward fingers: index, middle, ring, little. NO sideways thumb, NO fifth digit, NO small nub or hidden thumb. Smooth continuous healed palm edge where thumb was. The left side of image palm currently has a rightward thumb: remove it. The right side of image palm currently has a leftward thumb: remove it. Keep the FOUR remaining upright fingers separate and fully readable. Feet remain backward with both heels toward viewer, toes behind ankles. Darken canopy and deepen shadows to make protective warning solemn and imposing, retaining one warm shaft and face detail. No added powers or anatomy. One native square PNG min1024. No text/logo/frame/watermark, no gore/nudity, no neon/aura/runes or borrowed designs.",
+  "depicted_variant": "the thumbless backward-footed elderly dwarf guardian of Belize forests",
+  "basis_claim_ids": [
+    "tata-duende-c02",
+    "tata-duende-c08",
+    "tata-duende-c13",
+    "tata-duende-c05",
+    "tata-duende-c12",
+    "tata-duende-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE DWARFED elderly bearded MAN, ONE head/TWO eyes/TWO arms/TWO legs, TALL HAT, fullyopaque plain dark tunic/shorttrousers. Each hand has EXACTLY FOUR fingers and NO THUMB, both palms faceviewer with fourdigits separated. Both bareFEET point BACKWARDS: bodyface towardviewer, HEELS towardviewer, TOES extending behind ankles.",
+      "claim_ids": [
+        "tata-duende-c02",
+        "tata-duende-c08",
+        "tata-duende-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No shapeshifting used; physical protective warning from documentedforestguardian, no harmfulkidnap/childvictim imagery, no aura.",
+      "claim_ids": [
+        "tata-duende-c02",
+        "tata-duende-c05",
+        "tata-duende-c12",
+        "tata-duende-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Belizean tropicalforest with tangledroots, no invented buildings or culturalinscriptions.",
+      "claim_ids": [
+        "tata-duende-c02",
+        "tata-duende-c05"
+      ]
+    }
+  ],
+  "aura": "STEP protectively out of jungle towardviewer while raising both open thumblesshands as an imposing warning, beard blows and piercing calmforceful gaze confronts; reversefeet obvious below hems. Grounded in tata-duende-c02, tata-duende-c08, tata-duende-c13, tata-duende-c05, tata-duende-c12, tata-duende-c14.",
+  "artistic_choices": [
+    "Choose goodNukuchTat forestguardian c05/c12 rather than childterrorversion. Tallhat/dwarf/beard c13, missingthumbs/backwardsfeet c08 fullyvisible. Garmentcolors/shapes editorial, no giant scaling.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1606/rejected/tata-duende-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1606/rejected/tata-duende-attempt-01.json",
+      "native_sha256": "3351d430eb5b2293146bd4e0d460138f123dd91410bf7d707a6fbd66c389d18e",
+      "reason": "Both palms retain visible thumbs:5digits instead of4; fails anatomy c02/c08/c13. Backwardfeet nearcamera readable; preserve composition and correctthumbs."
+    }
+  ],
+  "request": {
+    "prompt": "EDIT the referenced Mythics Tata Duende image. Preserve elderly bearded dwarf, tall hat, opaque coarse clothing, protective stepping action, jungle, backward feet and perspective. REQUIRED ANATOMY CORRECTION [tata-duende-c02, tata-duende-c08, tata-duende-c13]: REMOVE THE THUMB entirely from BOTH hands. Each raised open hand must have EXACTLY FOUR upward fingers: index, middle, ring, little. NO sideways thumb, NO fifth digit, NO small nub or hidden thumb. Smooth continuous healed palm edge where thumb was. The left side of image palm currently has a rightward thumb: remove it. The right side of image palm currently has a leftward thumb: remove it. Keep the FOUR remaining upright fingers separate and fully readable. Feet remain backward with both heels toward viewer, toes behind ankles. Darken canopy and deepen shadows to make protective warning solemn and imposing, retaining one warm shaft and face detail. No added powers or anatomy. One native square PNG min1024. No text/logo/frame/watermark, no gore/nudity, no neon/aura/runes or borrowed designs.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1606/drafts/lane-A/tata-duende-resume-native-01.png"
+    ]
+  }
+}

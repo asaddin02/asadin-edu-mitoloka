@@ -1,0 +1,75 @@
+{
+  "slug": "toyol",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of toyol, Indonesian green-skinned red-eyed pointed-ear stealing tuyul.\nANATOMY: One SMALL infant-size undeadtuyul with GREENskin,REDroundeyes,pointedears and sharpteeth, exactly1head2arms2legs. FullyOPAQUEblack shortsleeveshirt andshorts, no nudity orhorns. Red eyes coloredirises notlightbeams [toyol-c03, toyol-c19, toyol-c29]\nMOMENT: Scramble down housewall towardviewer clutching smallpouchofjewelry, fingers gripping wallplaster, glance coylyover shoulder\nPOWER: Climbhighwall andstealvaluablejewelry c22/c29; nomagic glow or teleporttrail [toyol-c22, toyol-c29]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one low amber houselight rimlight,deepnightshadows; only physical particles justified by action.\nSURFACE: naturalskin,rough wornblackfabric and chippedwallplaster.\nSETTING: Nighttime houseexterior wallandroof [toyol-c29]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One SMALL infant-size undeadtuyul with GREENskin,REDroundeyes,pointedears and sharpteeth, exactly1head2arms2legs. FullyOPAQUEblack shortsleeveshirt andshorts, no nudity orhorns. Red eyes coloredirises notlightbeams",
+      "claim_ids": [
+        "toyol-c03",
+        "toyol-c19",
+        "toyol-c29"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Climbhighwall andstealvaluablejewelry c22/c29; nomagic glow or teleporttrail",
+      "claim_ids": [
+        "toyol-c22",
+        "toyol-c29"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nighttime houseexterior wallandroof",
+      "claim_ids": [
+        "toyol-c29"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "toyol-c03",
+    "toyol-c19",
+    "toyol-c29",
+    "toyol-c22"
+  ],
+  "depicted_variant": "Indonesian green-skinned red-eyed pointed-ear stealing tuyul",
+  "artistic_choices": [
+    "Clothing coversentirebodyc19blackclothing precedent;nevernudechild.",
+    "Eerie mischief notbloodthirsty:harmlessc27, theftc01/c22 only. Camera scale infant-size."
+  ],
+  "aura": "Climbhighwall andstealvaluablejewelry c22/c29; nomagic glow or teleporttrail [toyol-c22, toyol-c29]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-008.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-84b6-74c3-8189-ebb47cb5a8e6/exec-a790398c-bc04-460b-8192-c839d0aa4807.png",
+  "generated_at": "2026-10-12T09:49:47.973066+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/toyol.png",
+  "native_sha256": "8fb4bd5c764bbf679d5f6fcf7e3c4b86cd81059718c0d77b90c347bd3f906681",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 inspected all7Sangar pass: infant-sized green skin/redroundeyes/pointedears/sharp smallteeth c03/c29,1head2arms2legs and fullyopaque blackshirt/shortsc19. Wallclimbing c29 physically gripsplaster whilecarrying stolenjewelryc22. Eerie mischievous directglance, not bloodthirsty/cute/passive; no nudity,gore,eye beams,text or designcopy.",
+    "limitations": [],
+    "native_sha256": "8fb4bd5c764bbf679d5f6fcf7e3c4b86cd81059718c0d77b90c347bd3f906681",
+    "reviewed_at": "2026-10-12T09:49:47.973066+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8fb4bd5c764bbf679d5f6fcf7e3c4b86cd81059718c0d77b90c347bd3f906681",
+    "notes": "Green red-eyed pointy-eared toyol climbing a house wall at night clutching stolen jewellery; opaque clothes."
+  }
+}

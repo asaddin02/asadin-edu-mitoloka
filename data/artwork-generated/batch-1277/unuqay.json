@@ -1,0 +1,83 @@
+{
+  "slug": "unuqay",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Unuqay, as documented in the accepted traditional claims.\nANATOMY: One white billy-goat monster with one goat head, two eyes, two ordinary goat horns, exactly four extremely unnaturally lengthening legs with cloven hooves, one small goat tail; no extra limbs [unuqay-c01, unuqay-c04, unuqay-c11]\nMOMENT: Stride toward the viewer across the cemetery road as its four thin legs lengthen visibly and lift its body far above an ordinary goat stance; bend its goat face down in confrontational deception.\nPOWER: Its documented legs physically elongate; no colored aura or invented magic effects [unuqay-c04]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single fading amber dusk beam, deep brown grave shadows, dusty air.\nSURFACE: dirty white coarse goat hair, aged rough grave stones.\nSETTING: A cemetery roadside in Azerbaijan as darkness falls at dusk [unuqay-c03]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Unuqay kambing putih dengan empat kaki memanjang di jalan kuburan senja.",
+  "basis_claim_ids": [
+    "unuqay-c01",
+    "unuqay-c04",
+    "unuqay-c11",
+    "unuqay-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One white billy-goat monster with one goat head, two eyes, two ordinary goat horns, exactly four extremely unnaturally lengthening legs with cloven hooves, one small goat tail; no extra limbs",
+      "claim_ids": [
+        "unuqay-c01",
+        "unuqay-c04",
+        "unuqay-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Its documented legs physically elongate; no colored aura or invented magic effects",
+      "claim_ids": [
+        "unuqay-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A cemetery roadside in Azerbaijan as darkness falls at dusk",
+      "claim_ids": [
+        "unuqay-c03"
+      ]
+    }
+  ],
+  "aura": "Its documented legs physically elongate; no colored aura or invented magic effects [unuqay-c04]",
+  "artistic_choices": [
+    "Kelainan tinggi hanya dari kaki memanjang c04; bukan membesarkan kambing normal.",
+    "Tidak menggambar serangan terhadap ibu atau bayi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-396ea29e-7c9c-467c-8abe-7dd025dca6a9.png",
+  "generated_at": "2026-10-09T01:15:28.578415+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/unuqay.png",
+  "native_sha256": "1c5ed95406d161b0d08601b914036dae452f8a9c84c975b34432a87280246e1e",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: kambing putih satu kepala dua tanduk dan tepat empat kaki sangat panjang dengan kuku belah; satu kaki belakang terangkat saat melangkah dan kepala menunduk ke penonton. Kaki memanjang c04, jalan kuburan senja c03. Uji Sangar 7/7; tidak terbaca kambing biasa, tanpa teks atau aura.",
+    "limitations": [],
+    "native_sha256": "1c5ed95406d161b0d08601b914036dae452f8a9c84c975b34432a87280246e1e",
+    "reviewed_at": "2026-10-09T01:15:28.578415+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "1c5ed95406d161b0d08601b914036dae452f8a9c84c975b34432a87280246e1e",
+    "notes": "White goat with impossibly long legs and cloven hooves towering over a cemetery road at dusk; four legs, two ordinary horns."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "zhulong-mythology",
+  "depicted_variant": "Zhuyin dari Shanhaijing: wajah manusia, tubuh ular merah seribu li, berdiam di kaki Gunung Zhong; mata membuka siang dan napas menjadi angin.",
+  "basis_claim_ids": [
+    "zhulong-mythology-c07",
+    "zhulong-mythology-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu wajah manusia dan tubuh ular merah tanpa anggota tubuh; skala seribu li.",
+      "claim_ids": [
+        "zhulong-mythology-c07",
+        "zhulong-mythology-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mata terbuka membawa siang, hembusan napas menggerakkan angin di lereng.",
+      "claim_ids": [
+        "zhulong-mythology-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kaki Gunung Zhong, tubuh memanjang menutup jajaran pegunungan.",
+      "claim_ids": [
+        "zhulong-mythology-c08"
+      ]
+    }
+  ],
+  "aura": "Keagungan datang dari tubuh seribu li dan siang serta angin yang bergerak bersama tatapan dan napas Zhuyin (zhulong-mythology-c07, zhulong-mythology-c08).",
+  "artistic_choices": [
+    "Varian Mount Zhong dipilih tanpa mencampur lokasi Huainanzi atau ikonografi naga modern.",
+    "Dua mata manusia, kepala tunggal, tubuh tanpa kaki/lengan/sayap/tanduk; jumlah anatomi wajar dipilih editorial.",
+    "Palet merah gelap/walnut/emas dan foreshortening adalah editorial; angin diperlihatkan melalui pepohonan dan debu, bukan pita cahaya.",
+    "Tatapan terbuka dengan cahaya siang menembus gelap merupakan visualisasi editorial klaim pergantian siang; bukan sinar laser mata."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ZHUYIN / ZHULONG, the red human-faced serpent god of Mount Zhong in the Shanhaijing.\nANATOMY: exactly ONE HUMAN FACE with TWO human eyes, NO serpentine animal head; an immense RED SNAKE BODY a thousand li long extends and coils across mountains; absolutely NO ARMS, LEGS, WINGS, HORNS, beard tendrils or accessories. The human face seamlessly joins the snake neck, not a human torso. [zhulong-mythology-c07,c08]\nMOMENT: the colossal face leans forward and opens both eyes toward the viewer, exhaling a powerful wind that bends whole forests beneath his face.\nPOWER: opening his eyes makes DAY, breath becomes WIND; daylight breaks across formerly dark mountain slopes while trees bend, loose earth and clouds are driven away physically. NO eyebeams, glowing pupils or magic rings. [zhulong-mythology-c07]\nSCALE & CAMERA: extreme low angle from tiny mountain trees; huge human face and red serpent neck fill most of the square, long coils eclipse the distant ridges.\nLIGHT & WEATHER: one warm shaft of new daylight breaking darkness, deep walnut shadow, wind-driven dust and cloud.\nSURFACE: weathered solemn human features, richly textured dark red scales and rough mountain stone.\nSETTING: foot of Mount Zhong, immense mountain country. [zhulong-mythology-c08]\nMOOD: divine authority, reverent and overwhelming, awake and actively controlling the world, never evil caricature or ordinary man.\n\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-6b24cd53-f6f9-46ee-911a-87036003f092.png",
+  "generated_at": "2026-10-10T03:44:16.034Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/zhulong-mythology.png",
+  "native_sha256": "2e9adbd2a7de4bb4d8d0e837a6c26cff480316f62eb645814d2cbeaa49a6ac19",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa: satu wajah manusia dengan dua mata, tubuh ular merah tanpa kaki/lengan/sayap/tanduk, skala menutupi pegunungan. Hembusan menggerakkan pohon/debu dan cahaya siang sesuai zhulong-mythology-c07; aksi dominan dan agung, bukan pose atau aura neon. Tidak ada tulisan/gore/anatomi tambahan.",
+    "limitations": [],
+    "native_sha256": "2e9adbd2a7de4bb4d8d0e837a6c26cff480316f62eb645814d2cbeaa49a6ac19",
+    "reviewed_at": "2026-10-10T03:44:16.133Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/zhulong-mythology-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2e9adbd2a7de4bb4d8d0e837a6c26cff480316f62eb645814d2cbeaa49a6ac19",
+    "notes": "Human face on a vast red limbless serpent body draped over mountain ridges, its breath sweeping wind through the pines."
+  }
+}

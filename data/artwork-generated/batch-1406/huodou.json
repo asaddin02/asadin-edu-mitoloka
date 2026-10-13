@@ -1,0 +1,72 @@
+{
+  "slug": "huodou",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of huodou, large black fire-spitting dog.\nANATOMY: One large black dog: one canine head, two natural eyes, four legs, one tail; no horns or wings [huodou-c02]\nMOMENT: Lunge forward across the foreground, jaws opened toward the viewer while expelling flame\nPOWER: A forceful stream of real fire emerges directly from the open canine mouth, scorching ground immediately ahead; no bodily glow [huodou-c02, huodou-c09]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: the mouth fire is the dominant amber light, fire sparks and natural smoke; physical particles only where justified by the action.\nSURFACE: coarse black fur, wet black nose and teeth.\nSETTING: Southern wilderness near Black Kunlun, only dark earthen ground and distant slopes [huodou-c07]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One large black dog: one canine head, two natural eyes, four legs, one tail; no horns or wings",
+      "claim_ids": [
+        "huodou-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A forceful stream of real fire emerges directly from the open canine mouth, scorching ground immediately ahead; no bodily glow",
+      "claim_ids": [
+        "huodou-c02",
+        "huodou-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Southern wilderness near Black Kunlun, only dark earthen ground and distant slopes",
+      "claim_ids": [
+        "huodou-c07"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "huodou-c02",
+    "huodou-c09",
+    "huodou-c07"
+  ],
+  "depicted_variant": "large black fire-spitting dog",
+  "artistic_choices": [
+    "Choose mouth-fire shared by the documented accounts; do not show disputed diet or dung.",
+    "Warm flame against black fur, tight foreshortening and ground are compositional choices, not added powers."
+  ],
+  "aura": "A forceful stream of real fire emerges directly from the open canine mouth, scorching ground immediately ahead; no bodily glow [huodou-c02, huodou-c09]",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-fb687a60-c810-459d-8c28-667fb81337a8.png",
+  "generated_at": "2026-10-12T02:30:35.153298+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/huodou.png",
+  "native_sha256": "1ed1739d07e64ae08931d70d249cbc21763cc4f69b973327c0a79cfafcf4f3b5",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspection: one black canine head and two eyes, mouth fire directly grounded in c02/c09, forward lunge, one visible tail and naturally occluded rear limbs; no extra appendages, symbols or border. Seven Sangar checks yes; threat is retained at thumbnail size.",
+    "limitations": [],
+    "native_sha256": "1ed1739d07e64ae08931d70d249cbc21763cc4f69b973327c0a79cfafcf4f3b5",
+    "reviewed_at": "2026-10-12T02:30:35.153298+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "1ed1739d07e64ae08931d70d249cbc21763cc4f69b973327c0a79cfafcf4f3b5",
+    "notes": "Large black dog breathing a stream of real fire that scorches the ground ahead; four legs, no horns or wings."
+  }
+}

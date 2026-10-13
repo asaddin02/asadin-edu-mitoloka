@@ -1,0 +1,76 @@
+{
+  "slug": "hatsadiling",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of HATSADILING, the enormous sacred bird of Himavanta with the strength of five elephants.\nANATOMY: one hybrid head with ONE elephant trunk and TWO tusks, a cock comb above, lionlike body and shaggy mane, exactly TWO bird wings and four natural lion legs; no extra heads or trunks. [hatsadiling-c01, hatsadiling-c02, hatsadiling-c07]\nMOMENT: Launch upward over the canopy, beating its huge wings and lifting its trunk, imposing and benevolent.\nPOWER: Five-elephant strength conveyed through bodily mass and active wingbeats; only natural displaced leaves, no supernatural rays. [hatsadiling-c06, hatsadiling-c08]\nSCALE & CAMERA: extreme low angle and close foreground, subject dominates the frame and its distinguishing features read clearly at 200 pixels. Numerical scale is asserted only when documented; otherwise dramatic close perspective.\nLIGHT & WEATHER: one strong warm sidelight, antique-gold rim light, walnut shadows, high contrast with visible dark details and appropriate natural moisture.\nSURFACE: rough physically convincing natural surfaces, textured scales or feathers or coarse fur as applicable, painterly cinematic realism rather than plastic.\nSETTING: the dense Himavanta forest canopy, trees give size context. [hatsadiling-c03]\nMOOD: dangerous or awe-inspiring as appropriate to the tradition; commanding, alert and actively moving; sacred beings treated with respect.\nHARD CONSTRAINTS: no text, letters, pseudo-glyphs, logos, watermark, border or frame; no extra heads, limbs, eyes or fingers; no nudity or explicit gore; no film, game, anime or comic design; no generic glow aura, neon outline, energy ribbons or luminous colored mist. One single square image.",
+  "basis_claim_ids": [
+    "hatsadiling-c01",
+    "hatsadiling-c02",
+    "hatsadiling-c07",
+    "hatsadiling-c06",
+    "hatsadiling-c08",
+    "hatsadiling-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one hybrid head with ONE elephant trunk and TWO tusks, a cock comb above, lionlike body and shaggy mane, exactly TWO bird wings and four natural lion legs; no extra heads or trunks",
+      "claim_ids": [
+        "hatsadiling-c01",
+        "hatsadiling-c02",
+        "hatsadiling-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Five-elephant strength conveyed through bodily mass and active wingbeats; only natural displaced leaves, no supernatural rays",
+      "claim_ids": [
+        "hatsadiling-c06",
+        "hatsadiling-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the dense Himavanta forest canopy, trees give size context",
+      "claim_ids": [
+        "hatsadiling-c03"
+      ]
+    }
+  ],
+  "depicted_variant": "living lion-elephant-bird rising over Himavanta",
+  "aura": "Five-elephant strength conveyed through bodily mass and active wingbeats; only natural displaced leaves, no supernatural rays Basis klaim: hatsadiling-c01, hatsadiling-c02, hatsadiling-c07, hatsadiling-c06, hatsadiling-c08, hatsadiling-c03.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-7eda831f-6029-40a9-adaf-b22ef90b57ef.png",
+  "generated_at": "2026-10-09T01:05:40.304130+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/hatsadiling.png",
+  "native_sha256": "bb1ce0af6f734908d6d8858bd8af0b52303b8d77de8daf5f1cff4cac8a9da62a",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat PNG native: satu kepala hybrid belalai gajah, dua gading, jengger ayam, tubuh/manelion dan dua sayap burung; dua kaki depan jelas, kaki belakang terhalang tubuh sesuai foreshortening, tidak ada appendage tambahan. Meluncur di atas hutan, tubuh kuat dan besar sesuai c06/c07; agung dan tidak jahat sesuai c08. Bentuk c02, latar c03; tanpa glow/teks/gore; tujuh Uji Sangar lulus.",
+    "limitations": [],
+    "native_sha256": "bb1ce0af6f734908d6d8858bd8af0b52303b8d77de8daf5f1cff4cac8a9da62a",
+    "reviewed_at": "2026-10-09T01:05:40.304130+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "bb1ce0af6f734908d6d8858bd8af0b52303b8d77de8daf5f1cff4cac8a9da62a",
+    "notes": "Winged hybrid with cock comb, one trunk, two tusks, shaggy lion body and four lion legs bursting up through the forest canopy."
+  }
+}

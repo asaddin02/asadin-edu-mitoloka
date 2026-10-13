@@ -1,0 +1,81 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "nine-headed-bird",
+  "depicted_variant": "Jiufeng Shanhaijing: sembilan kepala berwajah manusia pada satu tubuh burung, turun secara agung.",
+  "basis_claim_ids": [
+    "nine-headed-bird-c10",
+    "nine-headed-bird-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu tubuh burung, tepat sembilan kepala berwajah manusia, dua sayap dan dua kaki burung.",
+      "claim_ids": [
+        "nine-headed-bird-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tidak memakai kuasa Guiche dari varian lain; kesan agung dari gerakan sayap dan anatomi.",
+      "claim_ids": [
+        "nine-headed-bird-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Konteks Chu/Hubei diwakili latar abstrak gelap tanpa tempat baru spesifik.",
+      "claim_ids": [
+        "nine-headed-bird-c02"
+      ]
+    }
+  ],
+  "aura": "Keagungan datang dari sembilan wajah Jiufeng c10, tanpa menggabungkan varian Guiche berleher berdarah (klaim: nine-headed-bird-c10).",
+  "artistic_choices": [
+    "Dipilih varian dewa Jiufeng c10, bukan Guiche c09; tidak ada leher kesepuluh atau darah.",
+    "Latar gelap kabut biasa merupakan komposisi editorial, bukan klaim lokasi.",
+    "Susunan kepala dalam kipas bertingkat dengan celah jelas agar sembilan dapat dihitung; warna bulu emas antik/cokelat editorial.",
+    "Wajah manusia perempuan dan ornamen kepala emas nonliteral merupakan styling editorial, bukan atribut wajib Jiufeng atau simbol yang diklaim sumber."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of NINE-HEADED BIRD, specifically the Jiufeng deity of the Shanhaijing, with nine human-faced heads and a bird body.\nANATOMY: EXACTLY NINE distinct HUMAN-FACED heads on NINE separate long avian necks attached to ONE bird torso. Exactly TWO broad feathered wings and TWO avian feet. Nine faces must be clearly separated and countable, no overlap: five heads across the upper arc, four across the lower arc, one common torso beneath. Human faces with noses and mouths, not duck or eagle heads. [nine-headed-bird-c10]\nMOMENT: descending overwhelmingly toward the viewer, wings beating wide, all nine sovereign faces looking downward at us with focused commanding expressions, two bird feet extended.\nPOWER: no documented power for this selected Jiufeng variant; majesty through nine heads, wings, and falling feathers only. Do not use the other Guiche variant's blood, headless neck or soul-stealing.\nSCALE & CAMERA: extremely low angle, close framing of heads and bird torso; monumental compositional presence, no humans for invented size.\nLIGHT & WEATHER: one warm low sun beam catches face edges and antique-gold feathers, deep walnut shadows, nonluminous ordinary haze.\nSURFACE: tactile layered brown and antique-gold bird feathers, expressive human faces, rough talons.\nSETTING: dark minimal sky and neutral shadow background evocative of ancient Chu; no specific invented building. [nine-headed-bird-c02]\nMOOD: reverent, awe-inspiring and overwhelming divine presence, not evil, cute or decorative.\nHARD CONSTRAINTS: square at least1024px; exactly nine human-faced heads, one torso, two wings, two feet; no text, lettering, logo, border, watermark, extra heads or limbs, no film/game/anime/comic design, no nudity or gore, no generic glowing aura, neon or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-bde032e7-85e7-4a16-88f7-282e96511f93.png",
+  "generated_at": "2026-10-09T01:07:46.083Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1277/originals/nine-headed-bird.png",
+  "native_sha256": "34c7f5a88c52123d862d9cc2fe54a029b23a50a13e4ef1e8d9877d91921fad0a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat dan dihitung: lima kepala berwajah manusia di baris atas, empat di bawah, total tepat sembilan pada satu torso burung, dua sayap dan dua kaki. Turun dengan cakar terulur dan bulu bergerak, sudut kamera rendah memberi keagungan pada thumbnail. Semua tujuh Uji Sangar ya untuk dewa Jiufeng: sembilan wajah/tubuh burung c10, tanpa darah/leher kesepuluh/kuasa Guiche, teks atau desain adaptasi. Ornamen emas styling editorial. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "34c7f5a88c52123d862d9cc2fe54a029b23a50a13e4ef1e8d9877d91921fad0a",
+    "reviewed_at": "2026-10-09T01:07:46.210Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/nine-headed-bird-lane-A.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "34c7f5a88c52123d862d9cc2fe54a029b23a50a13e4ef1e8d9877d91921fad0a",
+    "notes": "One bird body with exactly nine human-faced crowned heads and two wings descending with talons forward; counts checked."
+  }
+}

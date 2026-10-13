@@ -1,0 +1,117 @@
+{
+  "slug": "hatmehit",
+  "old_receipt": {
+    "slug": "hatmehit",
+    "worker": "codex",
+    "worker_agent": "lane-C",
+    "subagent_model": "gpt-6.1-sol",
+    "subagent_reasoning_effort": "high",
+    "tool": "OpenAI built-in image_gen",
+    "image_model": "tidak dilaporkan alat",
+    "status": "awaiting-independent-review",
+    "review_path": "data/gemini/reviews/batch-078.review.json",
+    "batch": 1277,
+    "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hatmehit, as documented in the accepted traditional claims.\nANATOMY: One Egyptian goddess in woman form with one head, two eyes, two arms and two legs; fully opaque long ancient Egyptian linen gown. A large unmistakable complete fish rests horizontally on her head as her documented headdress, clearly silhouetted [hatmehit-c02]\nMOMENT: Advance toward the viewer in solemn divine authority, lifting one hand through tangible myrrh incense smoke with the fish crown dominating the silhouette.\nPOWER: No supernatural effects; real perfumed myrrh smoke expresses her documented association with scents and Lady of myrrh [hatmehit-c10]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single low amber brazier light, deep shadow, physical incense smoke.\nSURFACE: weathered linen, subtle antique gold ornaments, natural fish scales.\nSETTING: A shadowed sacred precinct at Mendes in the Nile Delta, with only plain rough uninscribed stone walls; absolutely no carved glyphs, symbols, decorated columns, animal statues or secondary figures [hatmehit-c03, hatmehit-c06]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.\nCRITICAL BACKGROUND: every stone surface completely blank and undecorated. No hieroglyphs, marks, carvings, inscriptions, symbols, written characters or statues anywhere. Hatmehit must be actively stepping toward us through tangible smoke, not standing for a neutral portrait.",
+    "depicted_variant": "Hatmehit berwujud perempuan berpakaian buram dengan ikan besar di atas kepalanya.",
+    "basis_claim_ids": [
+      "hatmehit-c02",
+      "hatmehit-c10",
+      "hatmehit-c03",
+      "hatmehit-c06"
+    ],
+    "visual_requirements": [
+      {
+        "kind": "anatomy",
+        "description": "One Egyptian goddess in woman form with one head, two eyes, two arms and two legs; fully opaque long ancient Egyptian linen gown. A large unmistakable complete fish rests horizontally on her head as her documented headdress, clearly silhouetted Correction: all gown panels densely woven and fully opaque; no sheer fabric.",
+        "claim_ids": [
+          "hatmehit-c02"
+        ]
+      },
+      {
+        "kind": "effect",
+        "description": "No supernatural effects; real perfumed myrrh smoke expresses her documented association with scents and Lady of myrrh",
+        "claim_ids": [
+          "hatmehit-c10"
+        ]
+      },
+      {
+        "kind": "setting",
+        "description": "A shadowed sacred precinct at Mendes in the Nile Delta",
+        "claim_ids": [
+          "hatmehit-c03",
+          "hatmehit-c06"
+        ]
+      }
+    ],
+    "aura": "No supernatural effects; real perfumed myrrh smoke expresses her documented association with scents and Lady of myrrh [hatmehit-c10]",
+    "artistic_choices": [
+      "Keagungan dari framing rendah sangat dekat, bukan klaim tubuh raksasa.",
+      "Busana dan perhiasan sederhana adalah pilihan editorial; asap dupa fisik terkait ranah wewangian c10."
+    ],
+    "generation_failures": [],
+    "rejected_attempts": [
+      {
+        "original_file": "data/artwork-generated/batch-1277/rejected/hatmehit-attempt-01.png",
+        "receipt_file": "data/artwork-generated/batch-1277/rejected/hatmehit-attempt-01.json",
+        "native_sha256": "4a662c7d285b45410ce1517c35f34049a8459795060ecc8f63aba6f7219ad5c5",
+        "reason": "Kolom latar memuat hieroglif/tulisan dan patung kucing tambahan. Melanggar no lettering dan menambahkan atribut tidak berbasis klaim; ulangi dengan batu polos tanpa inskripsi dan tanpa patung."
+      }
+    ],
+    "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-61249aa0-e672-490f-b2a4-a952865dff8e.png",
+    "generated_at": "2026-10-09T01:09:21.139084+00:00",
+    "original_file": "data/artwork-generated/batch-1277/originals/hatmehit.png",
+    "native_sha256": "54c8d5e007de32c6e9f521f9d162d6ca96c5c10939a406d168af73494c50246b",
+    "width": 1254,
+    "height": 1254,
+    "visual_review": {
+      "reviewer": "codex",
+      "verdict": "pass",
+      "notes": "PNG asli percobaan kedua: Hatmehit melangkah rendah ke penonton dengan tangan terangkat, ikan besar mahkota sangat jelas c02, asap mur fisik c10. Dinding polos tanpa hieroglif atau patung tambahan; busana buram dan dua lengan normal. Uji Sangar 7/7, keagungan melalui perspektif dekat.",
+      "limitations": [],
+      "native_sha256": "54c8d5e007de32c6e9f521f9d162d6ca96c5c10939a406d168af73494c50246b",
+      "reviewed_at": "2026-10-09T01:09:21.139084+00:00",
+      "sangar_checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "request": {
+    "prompt": "Edit only the clothing in this original square premium cinematic painterly Mythics illustration of Hatmehit. Preserve exactly her commanding forward gesture, face, single fish headdress, gold jewelry, two arms, hand anatomy, body pose, cropped low camera perspective, temple stone background, ordinary myrrh smoke and warm light. Replace ALL thin translucent white clothing, from shoulders and chest to lower visible hem, with substantial densely woven fully OPAQUE ancient Egyptian cream linen lined with a second opaque layer. Broad matte opaque folds completely cover chest, abdomen, pelvis and legs; no skin or silhouette of underlying anatomical detail visible through any fabric even where backlit. The fabric is weighty textured cloth with solid coverage, not gauze or wet thin material. Keep her moving forward and filling the square with solemn divine authority. No other changes: no new supernatural power, objects, heads, limbs, fingers, horns or sun disk. Preserve one complete fish on head, one human head, two arms. No text, border, logo, watermark, nudity, explicit gore, neon glow or floating runes. Source grounding: female fish-crown form hatmehit-c02; temple setting hatmehit-c03; ordinary incense evokes perfume/myrrh association hatmehit-c10 without claiming magic smoke. Opaque gown and lighting are artistic clothing choices, not extra source facts. Output one native square PNG >=1024 pixels.",
+    "referenced_image_paths": [
+      "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1277/originals/hatmehit.png"
+    ],
+    "transparent_background": false
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One Egyptian goddess in woman form with one head, two eyes, two arms and two legs; fully opaque long ancient Egyptian linen gown. A large unmistakable complete fish rests horizontally on her head as her documented headdress, clearly silhouetted Correction: all gown panels densely woven and fully opaque; no sheer fabric.",
+      "claim_ids": [
+        "hatmehit-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No supernatural effects; real perfumed myrrh smoke expresses her documented association with scents and Lady of myrrh",
+      "claim_ids": [
+        "hatmehit-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A shadowed sacred precinct at Mendes in the Nile Delta",
+      "claim_ids": [
+        "hatmehit-c03",
+        "hatmehit-c06"
+      ]
+    }
+  ],
+  "correction_source": "User relays Claude second review: kain tipis tembus pandang. Fully opaque cloth required."
+}

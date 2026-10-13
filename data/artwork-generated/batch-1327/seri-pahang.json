@@ -1,0 +1,83 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "seri-pahang",
+  "depicted_variant": "Buaya air asin putih raksasa Seri Pahang menyambar melalui laut gelap dalam duel, bukan naga serpentin.",
+  "basis_claim_ids": [
+    "seri-pahang-c01",
+    "seri-pahang-c08",
+    "seri-pahang-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Buaya air asin putih raksasa, satu kepala2mata4kaki1ekor, tanpa tanduk naga.",
+      "claim_ids": [
+        "seri-pahang-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dalam pertarungan laut menjadi gelap, guruh dan kilat; ombak dari serbuan tubuh.",
+      "claim_ids": [
+        "seri-pahang-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Laut di lepas pantai Pahang dalam duel Seri Kemboja.",
+      "claim_ids": [
+        "seri-pahang-c01",
+        "seri-pahang-c08",
+        "seri-pahang-c12"
+      ]
+    }
+  ],
+  "aura": "Buaya putih raksasa seri-pahang-c01, tekad menantang demon seri-pahang-c08, laut gelap/kilat duel seri-pahang-c12 memberi keagungan.",
+  "artistic_choices": [
+    "Seri Kemboja tidak divisualkan karena detail wujud kurang; aksi duel lewat arah serangan.",
+    "Tidak menggabungkan varian naga/silver scales c07/c20, tidak ada emas transformasi pail pada adegan duel.",
+    "Ukuran giant diperlihatkan melalui small waves/wreck-free sea, bukan korban; kilat cuaca cerita tidak diklaim berasal dari tubuh."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SERI PAHANG, the legendary GIANT WHITE saltwater crocodile fighting the black sea demon off Pahang.\nANATOMY: ONE saltwater CROCODILE head with TWO eyes, giant WHITE crocodile body with FOUR short reptilian legs and ONE powerful long tail; massive white ridged scutes, broad tooth-lined jaw; NO horns, no dragon limbs, no human parts. [seri-pahang-c01]\nMOMENT: smashing diagonally through towering black sea waves and snapping its jaws toward an unseen opponent near the viewer, claws churning white foam, one eye fixed forward in battle.\nPOWER: the story's duel darkens the sea, thunder rolls and lightning flashes; one natural lightning bolt lights white scales, physical sea spray from its lunge. No energy breath, no victim/gore. [seri-pahang-c12]\nSCALE & CAMERA: extreme sea-level low angle; enormous white head and jaws dominate, small distant cresting waves show giant scale.\nLIGHT & WEATHER: one violent natural lightning flash, deep walnut-black ocean, heavy rain and white foam.\nSURFACE: battered white crocodile scutes, wet thick scales, rough teeth, crashing seawater.\nSETTING: sea off the coast of Pahang during its duel. [seri-pahang-c01,seri-pahang-c08,seri-pahang-c12]\nMOOD: awe-inspiring courageous protector in battle, overwhelming, never cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-c7457d46-fba0-43eb-9ca8-74611d8da12e.png",
+  "generated_at": "2026-10-10T02:59:29.057Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-021.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/seri-pahang.png",
+  "native_sha256": "9f6d49c42ce2e17f1db5d7341e85fb5ad253c336e02878de4b5dd2bf004d8bf3",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px dilihat: buaya putih raksasa satu kepala2mata, dua kaki depan terlihat/kaki belakang di air, ekor dan scutes jelas tanpa tanduk. Serbuan jaws melalui gelombang dan natural lightning/cuaca duel seri-pahang-c12 membuat bahaya/keagungan kuat.7Uji Sangar semua ya; tanpa korban, kuasa breath, teks/glyph/gore/desainadaptasi.",
+    "limitations": [],
+    "native_sha256": "9f6d49c42ce2e17f1db5d7341e85fb5ad253c336e02878de4b5dd2bf004d8bf3",
+    "reviewed_at": "2026-10-10T02:59:29.156Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/seri-pahang-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9f6d49c42ce2e17f1db5d7341e85fb5ad253c336e02878de4b5dd2bf004d8bf3",
+    "notes": "Giant white saltwater crocodile charging through storm waves with lightning overhead; one head, four legs, no dragon horns."
+  }
+}

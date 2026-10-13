@@ -1,0 +1,80 @@
+{
+  "slug": "headless-nun",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of headless nun, the roaming headless spirit of Sister Marie Inconnue.\nANATOMY: One adult female ghostly nun body with NO HEAD and NO FACE, no head floating elsewhere; two arms, two legs; fully opaque black habit covering whole body and neck opening, long sleeves and skirt, no exposed wound or blood [headless-nun-c02, headless-nun-c03, headless-nun-c05]\nMOMENT: Advance across the wooden footbridge toward viewer and reach down over its rail in desperate searching motion; skirt swept forward\nPOWER: The documented headless ghost roams searching for her missing head; no emitted glow or floating skull invented [headless-nun-c05, headless-nun-c10]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one low moon visible through bare branches, pale rimlight and deep warm shadows; only physical particles justified by action.\nSURFACE: worn heavy black fabric, rough wet wood.\nSETTING: Crow Brook wooden footbridge at French Fort Cove at night [headless-nun-c01, headless-nun-c06, headless-nun-c07]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One adult female ghostly nun body with NO HEAD and NO FACE, no head floating elsewhere; two arms, two legs; fully opaque black habit covering whole body and neck opening, long sleeves and skirt, no exposed wound or blood",
+      "claim_ids": [
+        "headless-nun-c02",
+        "headless-nun-c03",
+        "headless-nun-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented headless ghost roams searching for her missing head; no emitted glow or floating skull invented",
+      "claim_ids": [
+        "headless-nun-c05",
+        "headless-nun-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Crow Brook wooden footbridge at French Fort Cove at night",
+      "claim_ids": [
+        "headless-nun-c01",
+        "headless-nun-c06",
+        "headless-nun-c07"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "headless-nun-c02",
+    "headless-nun-c03",
+    "headless-nun-c05",
+    "headless-nun-c10",
+    "headless-nun-c01",
+    "headless-nun-c06",
+    "headless-nun-c07"
+  ],
+  "depicted_variant": "the roaming headless spirit of Sister Marie Inconnue",
+  "artistic_choices": [
+    "Period habit color/design and warm moon sidelight editorial; respectful victim depiction.",
+    "No explicit severed neck or gore. Apparition read through absence of head, no invented translucent anatomy."
+  ],
+  "aura": "The documented headless ghost roams searching for her missing head; no emitted glow or floating skull invented [headless-nun-c05, headless-nun-c10]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-84b6-74c3-8189-ebb47cb5a8e6/exec-66d2bb78-8729-4507-84c1-c3fe0a7c9221.png",
+  "generated_at": "2026-10-12T08:16:30.740595+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/headless-nun.png",
+  "native_sha256": "93bc2e9c090e6c6baf771aa7a18c96ac8e5eb8f251860a4ec5ae48a738ca217c",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200inspected all7Sangar pass: emptyheadlesshabit opening unmistakable,2arms/covered2legs,ghost advances/reaches on bridgec05/c10,c07. Fullyopaqueclothes/nogore/nowounds/no floatinghead/noauras. Lowcamera/longreachinghand makes apparitionmenacing and dominant;moon ordinarysettinglight. Notext.",
+    "limitations": [],
+    "native_sha256": "93bc2e9c090e6c6baf771aa7a18c96ac8e5eb8f251860a4ec5ae48a738ca217c",
+    "reviewed_at": "2026-10-12T08:16:30.740595+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "93bc2e9c090e6c6baf771aa7a18c96ac8e5eb8f251860a4ec5ae48a738ca217c",
+    "notes": "Headless nun in a black habit with an empty wimple striding across a wooden bridge at night, hands reaching."
+  }
+}

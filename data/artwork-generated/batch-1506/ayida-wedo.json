@@ -1,0 +1,74 @@
+{
+  "slug": "ayida-wedo",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ayida-Wedo, the revered cosmic rainbowserpent shapinglandforms inAyidaWedo tradition. Native square PNG at least1024x1024pixels.\nANATOMY: ONEimmenseRAINBOWserpent,one head/twoeyes,one longlimblesssnakebodyandtail; naturalmutedrainbowhuesinthe scales,nolegs,horns,wings,humanoidtorsoorborroweddragonanatomy [ayida-wedo-c04, ayida-wedo-c05, ayida-wedo-c15]\nMOMENT: SWEEP enormousbodythroughfreshvalley, headturningtowardcloseviewer whileitsbodycarvesariverchannel behind,benevolent worldformingpresence,notpredatorattack\nPOWER: bodypassageleavesCANYONS,RIVERS,VALLEYS,MOUNTAINS: physicallynewrivercurlingalongserpentgroove,earthbankspushedaside, no neonrainbowribbons orbodyglow [ayida-wedo-c05]\nSCALE & CAMERA: extreme lowriverbankcamera; colossalworldformingserpenthead dominates withsmallnewvalleybehind\nLIGHT & WEATHER: one low amber sunset shaft, deep walnut shadows, sharp rimlight\nSURFACE: wet iridescentrainbowscales, freshsoilbanksandflowingriver\nSETTING: worldforminglandscape withfreshvalley/rivermountain contours, subordinatetosnakehead andbody [ayida-wedo-c02, ayida-wedo-c05]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Cosmicrainbowserpent creatinglandforms, not ritualmedium,Anyi-ewo malevariant orCatholicimage.",
+  "basis_claim_ids": [
+    "ayida-wedo-c04",
+    "ayida-wedo-c05",
+    "ayida-wedo-c15",
+    "ayida-wedo-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Rainbowserpent",
+      "claim_ids": [
+        "ayida-wedo-c04",
+        "ayida-wedo-c05",
+        "ayida-wedo-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bodypassageformslandforms/rivers/valleys",
+      "claim_ids": [
+        "ayida-wedo-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cosmicworldforminglandscape",
+      "claim_ids": [
+        "ayida-wedo-c02",
+        "ayida-wedo-c05"
+      ]
+    }
+  ],
+  "aura": "Reverentawe comes fromrainbowserpent whosepassagecreatesriver/canyon/valley/mountain (ayida-wedo-c05).",
+  "artistic_choices": [
+    "Rainbow colours naturaliridescentscalesnotneon; singlehead/limblessserpent minimalgenericserpentanatomy. Giantworldformingscale sourced c05. No MawuLisa seconddeitydepicted, no inventedstorms/damage/victims. ReverentlivingVodoutradition."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-913ac21a-ab42-4c18-8851-2be07f66256e.png",
+  "generated_at": "2026-10-12T14:09:38.272627+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/ayida-wedo.png",
+  "native_sha256": "f69c8a9f460bf7d82a231860debfd7dd760cc0fc6d28051529fb95f322eaf826",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200px dilihat: ular pelangi kosmis satu kepala tanpa kaki/tanduk, kepala dekat mendominasi dan tubuh menyapu lembah baru dengan sungai/parit fisik c05; bukan naga tambahan. Sifat megah/baik tetap terjaga, warna berupa sisik bukan aura neon. UjiSangar7 ya.",
+    "limitations": [],
+    "native_sha256": "f69c8a9f460bf7d82a231860debfd7dd760cc0fc6d28051529fb95f322eaf826",
+    "reviewed_at": "2026-10-12T14:10:07.250436+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "f69c8a9f460bf7d82a231860debfd7dd760cc0fc6d28051529fb95f322eaf826",
+    "notes": "Vast rainbow-scaled serpent whose body carves rivers and valleys through the landscape, head lowered at the viewer."
+  }
+}

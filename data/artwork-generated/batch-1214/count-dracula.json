@@ -1,0 +1,104 @@
+{
+  "slug": "count-dracula",
+  "worker": "codex",
+  "worker_agent": "radha",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-154.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-e4ef-74e2-8485-d5c798bdb472/exec-e7f1eb84-46e3-4fa5-9353-c3bf10e08309.png",
+  "generated_at": "2026-10-08T15:12:52.804Z",
+  "original_file": "data/artwork-generated/batch-1214/originals/count-dracula.png",
+  "native_sha256": "e169fe51fb86122aaf616ecf7ce4ddb2e8f2de5166a7a06d398b77f4b226f447",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration. Imposing undeniable main subject, high-contrast low-key dark walnut/antique gold palette, physically textured surfaces, strong silhouette legible at 200 pixels. HARD CONSTRAINTS: no text, lettering, pseudo-script, logo, watermark, signature, border or frame; no borrowed film/game/anime/comic design; no nudity, erotic scene or explicit gore; no generic glowing aura, neon lines, energy ribbons, floating runes, or unsupported anatomy.\nANATOMY: Original literary Dracula, old tall man with LONG WHITE MOUSTACHE, clean-shaven chin, strongly aquiline nose, very pale complexion and pointed ear tops, visibly sharp protruding white teeth. Fully opaque black wool clothes head to foot, no colored cape, no movie tuxedo, no Orlok bald design. One head, two eyes, two human arms and two human legs, fine sharp long nails. [count-dracula-c02/c03/c04] MOMENT: Descend the vertical castle wall diagonally SIDEWAYS HEAD-FIRST in Harker's lizard fashion, both human hands grip masonry, one knee pressed to stone and the other leg braced upward. Crucially he remains anatomically HUMAN, no scales or reptile transformation; gaunt face turns to threaten the viewer below. [count-dracula-c19] POWER: gravity-defying lizard-fashion crawling down wall documented in novel, natural storm rain and fog under his domain, no beams. [count-dracula-c09/c19] SCALE & CAMERA: extreme low camera almost pressed against the wall, full bent body looming diagonally close above viewer, tiny castle windows recede far beneath at right, no literal giant anatomy. LIGHT & WEATHER: cold moonlit edge through rain, dark warm stone recesses; one main moon source. SURFACE: rough black wool, wet stone chips, sharp fingernails pressing stone. SETTING: sheer exterior of decaying Carpathian castle, deep mountain darkness only at edge. [count-dracula-c32] MOOD: terrifying unnatural movement, not standing portrait.",
+  "depicted_variant": "Stoker's elderly black-clothed Count descending his castle wall head-first in lizard fashion, fully human anatomy.",
+  "basis_claim_ids": [
+    "count-dracula-c02",
+    "count-dracula-c03",
+    "count-dracula-c04",
+    "count-dracula-c09",
+    "count-dracula-c19",
+    "count-dracula-c32"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Stoker's tall old pale man, clean-shaven except long white moustache; black head-to-foot clothing, aquiline nose, pointed ears, sharp white teeth over lips.",
+      "claim_ids": [
+        "count-dracula-c02",
+        "count-dracula-c03"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Long fine sharp nails clearly visible on hands gripping castle masonry; hairs at center of palm are documented but hidden in this selected hand orientation, shown in alternative A only.",
+      "claim_ids": [
+        "count-dracula-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Moves down castle masonry in lizard fashion as a fully human vampire, not a literal lizard; natural rain/fog frame the castle.",
+      "claim_ids": [
+        "count-dracula-c09",
+        "count-dracula-c19"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Decaying Carpathian castle, tight view rather than distant scenic landscape.",
+      "claim_ids": [
+        "count-dracula-c32"
+      ]
+    }
+  ],
+  "aura": "Predatory pallor, sharp teeth/nails and unnatural wall descent (count-dracula-c02/c03/c04/c19), with physical storm/fog of c09; no generic aura.",
+  "artistic_choices": [
+    "Original black wool garment cut and castle architecture are editorial; no cinema costume or actor likeness.",
+    "A portrait foregrounds hairy palm c04; B crawling pose follows c19 and keeps a human body rather than a lizard hybrid.",
+    "Natural moon/rain lighting and deep shadows chosen editorially; storm/fog grounded in c09.",
+    "Both PNGs individually inspected native; strongest source-action composition proposed for root selection.",
+    "Proposed selected: full-body wall descent is distinctive source action and clearer literary vampire than a portrait.",
+    "Editorial/visibility note: Palm hair hidden by gripping-hands orientation; visible fingers/nails show c04.",
+    "Editorial/visibility note: Black garment cut, moonlight and castle architecture are editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native viewed: old pale moustached human Count crawling diagonally head-first down a wet vertical castle wall. Two hands with long fine pointed nails grip masonry, two human legs brace above; hooked nose, sharp teeth and pointed ears visible. All-black opaque clothes, no literal reptile body. Low close composition and storm/moonlit castle establish threat; no text, gore, watermark or borrowed film costume. Root independently viewed BOTH native final variants: A close hairy-palm threat and B head-down castle-wall descent; pointed ears, white moustache, aquiline pale face, sharp nails/teeth, black clothing. Both menacing/source-consistent; B selected has dramatic documented action.",
+    "limitations": [],
+    "native_sha256": "e169fe51fb86122aaf616ecf7ce4ddb2e8f2de5166a7a06d398b77f4b226f447",
+    "reviewed_at": "2026-10-08T15:25:15.925Z"
+  },
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1214/variants/count-dracula/A.png",
+      "receipt_file": "data/artwork-generated/batch-1214/variants/count-dracula/A.json",
+      "native_sha256": "79a93ebd94309b593f73d4b2a2134cdd50c9fcd8700ba1f49591accdb2cd61a4",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1214/variants/count-dracula/B.png",
+      "receipt_file": "data/artwork-generated/batch-1214/variants/count-dracula/B.json",
+      "native_sha256": "e169fe51fb86122aaf616ecf7ce4ddb2e8f2de5166a7a06d398b77f4b226f447",
+      "selected": true
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e169fe51fb86122aaf616ecf7ce4ddb2e8f2de5166a7a06d398b77f4b226f447",
+    "notes": "Old pale Count in black with long white moustache, pointed ears and long sharp nails crawling down the wet castle wall in storm and moonlight; fully human anatomy."
+  }
+}

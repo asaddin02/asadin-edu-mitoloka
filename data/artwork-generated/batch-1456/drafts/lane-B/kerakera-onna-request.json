@@ -1,0 +1,56 @@
+{
+  "slug": "kerakera-onna",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kerakera-onna, the giant middle-aged Japanese woman yokai laughing over a wall. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one gigantic middle-aged woman, one head/two eyes and natural human teeth; two arms/two legs with lower legs hidden behind wall; fully opaque closed kimono, no fangs, horns or invented extra features [kerakera-onna-c03, kerakera-onna-c08, kerakera-onna-c10]\nMOMENT: LEAN towering over a much smaller wall directly toward viewer, open mouth in sudden wide cackle and shoulder shaking, hands planted on wall top\nPOWER: documented frightening laugh conveyed by mouth, posture and shaking shoulders, NO sound-energy rings or invented terrorbeam [kerakera-onna-c04, kerakera-onna-c07]\nSCALE & CAMERA: extreme low alley-floor camera, documented giant woman dwarfs ordinary wall; head fills upper half\nLIGHT & WEATHER: single low amber lantern light, deep alley shadows and ordinary wind\nSURFACE: weathered skin, rough plain kimono, old wall plaster\nSETTING: wall beside lonely street or alley [kerakera-onna-c04, kerakera-onna-c11]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Giant kimono-clad middle-aged laughing woman; not a severed head.",
+  "basis_claim_ids": [
+    "kerakera-onna-c03",
+    "kerakera-onna-c08",
+    "kerakera-onna-c10",
+    "kerakera-onna-c04",
+    "kerakera-onna-c07",
+    "kerakera-onna-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant middle-aged woman in kimono",
+      "claim_ids": [
+        "kerakera-onna-c03",
+        "kerakera-onna-c08",
+        "kerakera-onna-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Laughing over wall, frightening cackle",
+      "claim_ids": [
+        "kerakera-onna-c04",
+        "kerakera-onna-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wall on lonely alley",
+      "claim_ids": [
+        "kerakera-onna-c04",
+        "kerakera-onna-c11"
+      ]
+    }
+  ],
+  "aura": "Threat comes from enormous laughing woman looming over small wall and alley (kerakera-onna-c03, kerakera-onna-c04, kerakera-onna-c07).",
+  "artistic_choices": [
+    "Opaque dark plain kimono and pinned hair are editorial. Giant scale is documented; wall as size reference. Human teeth only, not monsterfangs; cackle rendered as physical action without visible magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

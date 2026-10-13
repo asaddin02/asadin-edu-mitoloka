@@ -1,0 +1,70 @@
+{
+  "slug": "jackalope",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Jackalope, the dangerous horned jackrabbit of North American tall tales. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one jackrabbit head, two eyes, two long hare ears, exactly two pointed ANTELOPE horns, four hare legs and short hare tail; horns pointed and modestly forked like antelope, NOT deer antlers; natural hare incisors only, no carnivore fangs [jackalope-c05]\nMOMENT: CHARGE low toward viewer with horns thrust forward, long ears swept backward, forepaws airborne and hindlegs launching; sharp intent eyes\nPOWER: documented goring danger conveyed by the thrust horns, no invented magic or lightning power [jackalope-c14]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: single campfire side light, deep brown night shadows, ordinary dust kicked by feet\nSURFACE: coarse dusty hare fur, ridged keratin horns, rough earth\nSETTING: dark ground at an Old West campfire setting of its tale, small fire edge only, no cowboys or signs [jackalope-c15]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Living jackrabbit with antelope horns, not taxidermy deer-antler variant or Persian unicorn rabbit.",
+  "basis_claim_ids": [
+    "jackalope-c05",
+    "jackalope-c14",
+    "jackalope-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Jackrabbit with antelope horns",
+      "claim_ids": [
+        "jackalope-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Danger of goring expressed in low charge",
+      "claim_ids": [
+        "jackalope-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Old West campfire setting",
+      "claim_ids": [
+        "jackalope-c15"
+      ]
+    }
+  ],
+  "aura": "Danger comes from horn-first motion and source goring warning (jackalope-c05, jackalope-c14).",
+  "artistic_choices": [
+    "Fur colour and ground are editorial. No supernatural effect; charge and goring risk from c14. Close framing rather than invented giant size; no cartoon eyes or fangs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-c5e64fda-8055-4f06-ae05-a7b62bb39f6a.png",
+  "generated_at": "2026-10-12T04:13:00.312152+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/jackalope.png",
+  "native_sha256": "9945bb90d99a4b38ec8cdecc85dfffaa533ac6325cb2c26ba4caefda96d95923",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected; seven checks pass. One hare head/two eyes/two long ears, exactly two pointed modestly forked antelope horns, hare forepaws/hindquarters and short tail. Forward charging leap, sharp focused eyes and horn-first threat c14. No deer antler rack, carnivore fangs, oversized body or magical lightning. Campfire provides grounded side light c15. At200px horns and confrontation remain distinct; no text/gore.",
+    "limitations": [],
+    "native_sha256": "9945bb90d99a4b38ec8cdecc85dfffaa533ac6325cb2c26ba4caefda96d95923",
+    "reviewed_at": "2026-10-12T04:13:00.312481+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9945bb90d99a4b38ec8cdecc85dfffaa533ac6325cb2c26ba4caefda96d95923",
+    "notes": "Jackrabbit with antelope horns charging low at the camera past a campfire, horns forward."
+  }
+}

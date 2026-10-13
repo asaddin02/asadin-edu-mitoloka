@@ -1,0 +1,58 @@
+{
+  "slug": "shangyang",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shangyang, the one-legged bird dancing as a water omen before the hall of Qi. Native square PNG at least1024x1024.\nANATOMY: ONE natural BIRD, one head/TWO eyes, ONE beak, TWO wings, EXACTLY ONE LEG and ONE birdfoot beneath body. No second leg folded or hidden. Brownblack feather species editorial, not a fiery phoenix or crane dragon. [shangyang-c03, shangyang-c07]\nMOMENT: HOP toward viewer with both wings spread dramatically, singlefoot clearly airborne and whole leg visible under body, alert stern gaze.\nPOWER: Predicts heavy rain, NOT controls it: natural heavy rain begins beyond hall with water rushing into a repaired drainagechannel. No magicglow. [shangyang-c01, shangyang-c04, shangyang-c08, shangyang-c09]\nSCALE & CAMERA: Extreme groundlevel close camera; bird spans square, soleleg/foot isolated clearly against dark hall.\nLIGHT & WEATHER: One warm sunsetshaft through rainclouds, dark hall and wetstone rimlight.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Court of Qi before a plain ancient hall; drained stonecourtyard in rain, no signs or inscriptions. [shangyang-c07, shangyang-c09]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the one-legged bird dancing as a water omen before the hall of Qi",
+  "basis_claim_ids": [
+    "shangyang-c03",
+    "shangyang-c07",
+    "shangyang-c01",
+    "shangyang-c04",
+    "shangyang-c08",
+    "shangyang-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE natural BIRD, one head/TWO eyes, ONE beak, TWO wings, EXACTLY ONE LEG and ONE birdfoot beneath body. No second leg folded or hidden. Brownblack feather species editorial, not a fiery phoenix or crane dragon.",
+      "claim_ids": [
+        "shangyang-c03",
+        "shangyang-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Predicts heavy rain, NOT controls it: natural heavy rain begins beyond hall with water rushing into a repaired drainagechannel. No magicglow.",
+      "claim_ids": [
+        "shangyang-c01",
+        "shangyang-c04",
+        "shangyang-c08",
+        "shangyang-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Court of Qi before a plain ancient hall; drained stonecourtyard in rain, no signs or inscriptions.",
+      "claim_ids": [
+        "shangyang-c07",
+        "shangyang-c09"
+      ]
+    }
+  ],
+  "aura": "HOP toward viewer with both wings spread dramatically, singlefoot clearly airborne and whole leg visible under body, alert stern gaze. Grounded in shangyang-c03, shangyang-c07, shangyang-c01, shangyang-c04, shangyang-c08, shangyang-c09.",
+  "artistic_choices": [
+    "Bird species/feathercolors unspecified, brownblack editorial. Oneleg c07 visibly lone, hopping source action. Rain/drainage contextual omen c09 rather than bird causingstorm.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

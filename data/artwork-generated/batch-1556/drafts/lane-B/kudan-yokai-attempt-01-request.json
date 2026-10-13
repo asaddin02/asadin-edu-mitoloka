@@ -1,0 +1,62 @@
+{
+  "slug": "kudan-yokai",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kudan (yōkai), the human-headed bovine calf speaking its prophecy. Native square PNG at least1024x1024.\nANATOMY: ONE BOVINE CALF BODY with FOUR natural calf LEGS and CLOVEN HOOVES, ONE calf tail, ONE entirely HUMAN HEAD with TWO human eyes, human nose/mouth; no bovine snout, no cow ears/horns, no human torso or arms. Human neck joins calf shoulders. [kudan-yokai-c01, kudan-yokai-c05, kudan-yokai-c06, kudan-yokai-c13]\nMOMENT: STEP into dark foreground while speaking directly toward viewer, mouth open mid-prophecy and severe concentrated human gaze; near cloven hoof lifts while all four legs remain readable.\nPOWER: Speaks human prophecy of disaster or bounty; no visual soundwaves, scrolling predictions, runes or generated plagues. [kudan-yokai-c07, kudan-yokai-c15, kudan-yokai-c17]\nSCALE & CAMERA: Extreme low intimate view with humanhead filling upper half, calfbody/fourhooves fit lowerhalf, ordinary calf scale.\nLIGHT & WEATHER: One narrow warm lantern side shaft, deep walnut background and tactile wet calf fur.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Minimal rural Japan barn threshold, neutral editorial setting, not stuffed specimen/showman exhibit. [kudan-yokai-c02, kudan-yokai-c10]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the human-headed bovine calf speaking its prophecy",
+  "basis_claim_ids": [
+    "kudan-yokai-c01",
+    "kudan-yokai-c05",
+    "kudan-yokai-c06",
+    "kudan-yokai-c13",
+    "kudan-yokai-c07",
+    "kudan-yokai-c15",
+    "kudan-yokai-c17",
+    "kudan-yokai-c02",
+    "kudan-yokai-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE BOVINE CALF BODY with FOUR natural calf LEGS and CLOVEN HOOVES, ONE calf tail, ONE entirely HUMAN HEAD with TWO human eyes, human nose/mouth; no bovine snout, no cow ears/horns, no human torso or arms. Human neck joins calf shoulders.",
+      "claim_ids": [
+        "kudan-yokai-c01",
+        "kudan-yokai-c05",
+        "kudan-yokai-c06",
+        "kudan-yokai-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Speaks human prophecy of disaster or bounty; no visual soundwaves, scrolling predictions, runes or generated plagues.",
+      "claim_ids": [
+        "kudan-yokai-c07",
+        "kudan-yokai-c15",
+        "kudan-yokai-c17"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Minimal rural Japan barn threshold, neutral editorial setting, not stuffed specimen/showman exhibit.",
+      "claim_ids": [
+        "kudan-yokai-c02",
+        "kudan-yokai-c10"
+      ]
+    }
+  ],
+  "aura": "STEP into dark foreground while speaking directly toward viewer, mouth open mid-prophecy and severe concentrated human gaze; near cloven hoof lifts while all four legs remain readable. Grounded in kudan-yokai-c01, kudan-yokai-c05, kudan-yokai-c06, kudan-yokai-c13, kudan-yokai-c07, kudan-yokai-c15, kudan-yokai-c17, kudan-yokai-c02, kudan-yokai-c10.",
+  "artistic_choices": [
+    "Human face age/sex unspecified: adult-looking solemn face editorial, not smiling child. Calf body c06/c13 retained; no monumental size invented, closeness and wrong anatomy establish uncanny awe. No death depicted.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

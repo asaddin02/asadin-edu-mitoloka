@@ -1,0 +1,54 @@
+{
+  "slug": "leontophone",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Leontophone, the conjectural small-boar appearance of the lion-deadly leontophone. Native square PNG at least1024x1024.\nANATOMY: ONE SMALL BOAR-like animal, one head/TWO eyes/two natural ears, FOUR short legs, one short tail, natural bristled fur and short boar snout. No horns, wings or special poison sacs. This is the source-attributed conjectural appearance, not a definitive description. [leontophone-c01, leontophone-c07]\nMOMENT: ADVANCE directly toward low close viewer with lowered tuskless snout and bristles raised; a much larger natural lion in the middle distance RECOILS and turns to flee from it.\nPOWER: Some accounts say lions flee the small creature whose body/urine is deadly; no urine, poisoning injuries, victims or visual toxin aura shown. [leontophone-c03, leontophone-c05]\nSCALE & CAMERA: Extreme low macro camera inches from small creature; boar head/raisedbristles fillforeground, adult lion larger in reality but smaller onscreen by distance.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Minimal dark rocky ground, neutral editorial backdrop with no unsourced country. [leontophone-c02]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the conjectural small-boar appearance of the lion-deadly leontophone",
+  "basis_claim_ids": [
+    "leontophone-c01",
+    "leontophone-c07",
+    "leontophone-c03",
+    "leontophone-c05",
+    "leontophone-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE SMALL BOAR-like animal, one head/TWO eyes/two natural ears, FOUR short legs, one short tail, natural bristled fur and short boar snout. No horns, wings or special poison sacs. This is the source-attributed conjectural appearance, not a definitive description.",
+      "claim_ids": [
+        "leontophone-c01",
+        "leontophone-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Some accounts say lions flee the small creature whose body/urine is deadly; no urine, poisoning injuries, victims or visual toxin aura shown.",
+      "claim_ids": [
+        "leontophone-c03",
+        "leontophone-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Minimal dark rocky ground, neutral editorial backdrop with no unsourced country.",
+      "claim_ids": [
+        "leontophone-c02"
+      ]
+    }
+  ],
+  "aura": "ADVANCE directly toward low close viewer with lowered tuskless snout and bristles raised; a much larger natural lion in the middle distance RECOILS and turns to flee from it. Grounded in leontophone-c01, leontophone-c07, leontophone-c03, leontophone-c05, leontophone-c02.",
+  "artistic_choices": [
+    "Research c07 explicitly has no definitive appearance; select the sourced conjectural smallboar rather than claiming established anatomy. Size tiny vs distant adult lion c01/c05. Natural boarparts minimal editorial, no invented magic or confirmed biology.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

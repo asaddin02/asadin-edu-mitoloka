@@ -1,0 +1,87 @@
+{
+  "slug": "xolotl",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Xolotl, the Mexica dog-headed deity who protects the sun in its underworld journey. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one dog head on a male human body, two arms, two legs; two EMPTY eye sockets clearly dark and unoccupied, not glowing eyes; a large conch-like twisted wind jewel on the chest; fully opaque heavy mantle and knee-length wrapped garment cover torso and pelvis, no glyphs [xolotl-c01, xolotl-c05, xolotl-c06]\nMOMENT: STRIDE upward from the dark underworld toward the viewer, one hand held open in protective command and the other drawn forward, conch jewel and dog head prominent\nPOWER: one fork of real lightning lights the surrounding darkness, grounded in lightning deity domain; no rays from sockets or jewel [xolotl-c01]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: one real distant lightning fork is sole dominant light, deep walnut darkness and dusty air\nSURFACE: matte dark canine skin, rough cloth, large ridged conch shell and underworld rock\nSETTING: dark threshold of Mictlan, the underworld route he guides, no invented temples or living victims [xolotl-c08]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Dog-headed psychopomp with empty eye sockets and conch wind jewel.",
+  "basis_claim_ids": [
+    "xolotl-c01",
+    "xolotl-c09",
+    "xolotl-c06",
+    "xolotl-c05",
+    "xolotl-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dog-headed human deity",
+      "claim_ids": [
+        "xolotl-c01",
+        "xolotl-c09"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Empty eye sockets",
+      "claim_ids": [
+        "xolotl-c06"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Conch-like twisted wind jewel",
+      "claim_ids": [
+        "xolotl-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Lightning from documented divine domain",
+      "claim_ids": [
+        "xolotl-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mictlan underworld route",
+      "claim_ids": [
+        "xolotl-c08"
+      ]
+    }
+  ],
+  "aura": "Awe comes from lightning domain and dog-headed psychopomp protecting the sun (xolotl-c01, xolotl-c05, xolotl-c08).",
+  "artistic_choices": [
+    "Opaque mantle and wrapped garment are editorial modesty choices; no claim that their cut is canonical. Reverent, commanding protector rather than horror caricature. Underworld rock threshold is editorial; no invented buildings or hieroglyphs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-7d62ece9-9d10-4d77-ab44-3ec87bc170be.png",
+  "generated_at": "2026-10-12T03:02:28.432843+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/xolotl.png",
+  "native_sha256": "93d4db08c2f7ac2227043dac3df4494692ec7abd9b82d559b3e83c6ba1e9850b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px viewed; seven checks pass. Single canine head with TWO plainly empty dark eye sockets, no pupil glow. Human two-arm/two-leg body with five-digit raised hand, fully opaque mantle/wrap, large clear conch-shaped wind jewel. Striding command into frame; real lightning c01 in underworld route. At200px head, sockets and shell still distinct and awe-inspiring. No glyphs, text, nudity, gore or borrowed adaptation.",
+    "limitations": [],
+    "native_sha256": "93d4db08c2f7ac2227043dac3df4494692ec7abd9b82d559b3e83c6ba1e9850b",
+    "reviewed_at": "2026-10-12T03:02:28.433049+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "93d4db08c2f7ac2227043dac3df4494692ec7abd9b82d559b3e83c6ba1e9850b",
+    "notes": "Dog-headed robed deity with empty eye sockets and a twisted conch jewel reaching down on the underworld road with lightning behind; checked at full size."
+  }
+}

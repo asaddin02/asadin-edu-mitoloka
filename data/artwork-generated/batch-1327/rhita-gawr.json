@@ -1,0 +1,84 @@
+{
+  "slug": "rhita-gawr",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Rhita Gawr, the Welsh giant who wore a cloak made from the beards of kings.\nANATOMY: One adult humanoid giant, one head, two eyes, two arms and two legs; a heavy cloak entirely made of many clearly distinct long cut kingly beards sewn together, over a fully opaque rough tunic; natural giant anatomy, no extra limbs [rhita-gawr-c01, rhita-gawr-c06]\nMOMENT: Stride down the mountain toward the viewer and thrust one huge open hand forward in a challenge to duel, his beard-trophy cloak whipping across the foreground.\nPOWER: No magical effects are documented; menace comes from giant strength and the king-beard trophy cloak, physical wind and grit [rhita-gawr-c05, rhita-gawr-c06, rhita-gawr-c07]\nSCALE & CAMERA: extreme low angle; towering giant filling the frame from huge hands to head, tiny mountain pines below imply the documented giant scale; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dominant amber moonbeam or dying-sun shaft, deep walnut shadows, high contrast rim light, physical dust or mist, no even daylight.\nSURFACE: coarse tangled beard hair, cracked weathered skin, rough wool tunic, sharp stone.\nSETTING: The rugged mountain Yr Wyddfa in Wales, rocky summit with a small distant path [rhita-gawr-c01]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Rhita Gawr menantang duel di Yr Wyddfa dengan jubah dari janggut para raja.",
+  "basis_claim_ids": [
+    "rhita-gawr-c01",
+    "rhita-gawr-c06",
+    "rhita-gawr-c05",
+    "rhita-gawr-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One adult humanoid giant, one head, two eyes, two arms and two legs; a heavy cloak entirely made of many clearly distinct long cut kingly beards sewn together, over a fully opaque rough tunic; natural giant anatomy, no extra limbs",
+      "claim_ids": [
+        "rhita-gawr-c01",
+        "rhita-gawr-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical effects are documented; menace comes from giant strength and the king-beard trophy cloak, physical wind and grit",
+      "claim_ids": [
+        "rhita-gawr-c05",
+        "rhita-gawr-c06",
+        "rhita-gawr-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The rugged mountain Yr Wyddfa in Wales, rocky summit with a small distant path",
+      "claim_ids": [
+        "rhita-gawr-c01"
+      ]
+    }
+  ],
+  "aura": "No magical effects are documented; menace comes from giant strength and the king-beard trophy cloak, physical wind and grit [rhita-gawr-c05, rhita-gawr-c06, rhita-gawr-c07]",
+  "artistic_choices": [
+    "Tidak mengarang senjata atau efek magis; kekuatan melalui anatomi raksasa dan jubah trofi c05/c06/c07.",
+    "Tunik buram dan potongan wajah adalah pilihan editorial; tanpa kepala terpenggal atau gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-ca212c03-286a-46a4-a783-7be4e7cf38ab.png",
+  "generated_at": "2026-10-10T02:45:22.756079+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/rhita-gawr.png",
+  "native_sha256": "52631dc13f1aae7eca3c34d7713598130e31c3fd5358065d572ce2b92ef1b5fb",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan preview200 dilihat: raksasa menantang dengan tangan berforeshortening, tepat satu kepala dua lengan; jubah berbagai janggut terpotong jelas c06, gunung c01. Aksi melangkah dan pines kecil menegaskan ukuran raksasa. Uji Sangar7/7, tanpa efek magis/glyph/gore.",
+    "limitations": [],
+    "native_sha256": "52631dc13f1aae7eca3c34d7713598130e31c3fd5358065d572ce2b92ef1b5fb",
+    "reviewed_at": "2026-10-10T02:45:22.756079+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "52631dc13f1aae7eca3c34d7713598130e31c3fd5358065d572ce2b92ef1b5fb",
+    "notes": "Giant in a cloak sewn from many cut beards reaching toward the viewer from a mountainside at sunset; one head, two arms."
+  }
+}

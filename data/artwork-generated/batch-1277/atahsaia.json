@@ -1,0 +1,69 @@
+{
+  "slug": "atahsaia",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ATAHSAIA, the enormous demon of the Zuni tale as described by Cushing.\nANATOMY: one rough aged humanoid head, two eyes, two arms, two legs, massive elk-sized body and shaggy breast fur stiff as porcupine quills, ordinary humanlike ears, no invented horns or animal head; opaque coarse trousers. [atahsaia-c02, atahsaia-c03, atahsaia-c09, atahsaia-c10]\nMOMENT: Lean out of his dark cave and reach a huge hairy hand toward the foreground, shoulders too broad for the mouth of the cave.\nPOWER: no documented emitted power; presence through documented size, bristling chest hair, teeth and looming movement only. []\nSCALE & CAMERA: extreme low angle and close foreground, subject dominates the frame and its distinguishing features read clearly at 200 pixels. Numerical scale is asserted only when documented; otherwise dramatic close perspective.\nLIGHT & WEATHER: one strong warm sidelight, antique-gold rim light, walnut shadows, high contrast with visible dark details and appropriate natural moisture.\nSURFACE: rough physically convincing natural surfaces, textured scales or feathers or coarse fur as applicable, painterly cinematic realism rather than plastic.\nSETTING: the cave of Atahsaia with the narrow entrance dwarfed by his broad shoulders. [atahsaia-c03, atahsaia-c08]\nMOOD: dangerous or awe-inspiring as appropriate to the tradition; commanding, alert and actively moving; sacred beings treated with respect.\nHARD CONSTRAINTS: no text, letters, pseudo-glyphs, logos, watermark, border or frame; no extra heads, limbs, eyes or fingers; no nudity or explicit gore; no film, game, anime or comic design; no generic glow aura, neon outline, energy ribbons or luminous colored mist. One single square image.",
+  "basis_claim_ids": [
+    "atahsaia-c02",
+    "atahsaia-c03",
+    "atahsaia-c09",
+    "atahsaia-c10",
+    "atahsaia-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one rough aged humanoid head, two eyes, two arms, two legs, massive elk-sized body and shaggy breast fur stiff as porcupine quills, ordinary humanlike ears, no invented horns or animal head; opaque coarse trousers",
+      "claim_ids": [
+        "atahsaia-c02",
+        "atahsaia-c03",
+        "atahsaia-c09",
+        "atahsaia-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the cave of Atahsaia with the narrow entrance dwarfed by his broad shoulders",
+      "claim_ids": [
+        "atahsaia-c03",
+        "atahsaia-c08"
+      ]
+    }
+  ],
+  "depicted_variant": "Cushing giant with bristling breast hair",
+  "aura": "no documented emitted power; presence through documented size, bristling chest hair, teeth and looming movement only Basis klaim: atahsaia-c02, atahsaia-c03, atahsaia-c09, atahsaia-c10, atahsaia-c08.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-148.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-881a42c8-d130-49a9-b00f-ee4d1668d2fe.png",
+  "generated_at": "2026-10-09T00:59:47.353410+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/atahsaia.png",
+  "native_sha256": "995695803e8c27fee33884ff533ac5115cdd61d88d9804bfe370a7be51868412",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat PNG native: satu kepala humanoid berumur, dua tangan dan dua kaki koheren, dada dengan bulu kasar panjang seperti duri, pakaian buram, bahu memenuhi gua dan tangan menjangkau penonton. Mata/gigi/tekstur memberi dominasi, bukan manusia biasa; tidak ada tanduk, aura, gore, teks. Uji Sangar tujuh butir lulus; wujud c09, ukuran c02/c03, rumah gua c08. Natural warmth and reach are editorial.",
+    "limitations": [],
+    "native_sha256": "995695803e8c27fee33884ff533ac5115cdd61d88d9804bfe370a7be51868412",
+    "reviewed_at": "2026-10-09T00:59:47.353410+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "995695803e8c27fee33884ff533ac5115cdd61d88d9804bfe370a7be51868412",
+    "notes": "Huge shaggy humanoid with quill-stiff chest fur reaching out of a narrow cave mouth toward the viewer; human ears, no horns, opaque trousers."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "adad",
+  "worker": "codex",
+  "worker_agent": "chandra",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "batch": 1227,
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "aura": "Storm identity and held lightning (adad-c01/c04) act physically through rain and lightning contact; separate bull follows c03.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variant": "B",
+  "selected": false,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-c090-7651-9013-c7033afd12ca/exec-557ab9bc-c7e6-4dcb-8ddb-b611c0684776.png",
+  "generated_at": "2026-10-08T15:57:17.015Z",
+  "original_file": "data/artwork-generated/batch-1227/variants/adad/variant-b.png",
+  "native_sha256": "1ae542b7e0e0b1f2dc60919de69117ed89ec8aafd8909f70d24a2729df7554f5",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ADAD, the Babylonian storm deity [adad-c01].\nANATOMY: ONE conservative humanlike male divine figure, one head/two eyes/two arms/two legs, in full opaque heavy ancient Mesopotamian woven robes covering torso, shoulders and legs. ONE muscular BULL stands ALONGSIDE him, a separate animal with one head, two ordinary horns and four legs; he is NOT riding the bull. The bull association is documented [adad-c03]. No lion-headed body for the god, wings, extra limbs, horned crown or imported unclaimed iconography. Mature bearded face and plain wool clothing are editorial only.\nMOMENT: Adad steps forcefully toward the low camera holding ONE broad ancient metal HAMMER in his RIGHT hand, brought forward across his chest; his left hand grips his own heavy robe against the rain. A bull pushes alongside him with its head angled into the storm; no reins, saddle, riding or extra person. Both hammer and distinct bull head are readable.\nPOWER: hammer is a documented attribute [adad-c04]; do NOT make it glow or radiate beams. Behind him an actual STORM lightning strike hits rocky ground and physically lights falling rain from his documented storm domain [adad-c01]. No destructive power is added to the hammer itself.\nSCALE & CAMERA: low oblique near waist-up view from Adad's side, hammer head large in the lower foreground, bearded face sharply focused above it; the bull's head and forelegs move at the opposite side of the frame. Different from frontal bolt action. Full head and hammer remain inside square; body normal-sized.\nLIGHT & WEATHER: dominant silver-white lightning flash, deep walnut-black storm shadows, heavy physical rain and wind pulling soaked robes, low gold highlights on aged metal. SURFACE: wet woven wool, worn metal attribute, rain-soaked beard, wet bull hair, muddy dark stone; painterly texture. SETTING: plain dark rocky ground under the storm, editorial minimal setting expressing storm domain [adad-c01], no invented named temple/battle. MOOD: overwhelming commanding storm-god presence, active and imposing, never ordinary herder or farmer. HARD CONSTRAINTS: no text, pseudo-cuneiform, logos, border, frame, watermark, signature, gore, nudity or victims; no added heads/limbs/weapons; no mount riding; no neon outline, generic aura, energy ribbons, runes or film/game/anime/comic design.",
+  "basis_claim_ids": [
+    "adad-c01",
+    "adad-c03",
+    "adad-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Conservative clothed deity carrying one hammer, alongside a separate bull; no riding.",
+      "claim_ids": [
+        "adad-c03",
+        "adad-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Actual storm lightning and rain in environment; hammer has no invented glowing power.",
+      "claim_ids": [
+        "adad-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Plain editorial storm ground.",
+      "claim_ids": [
+        "adad-c01"
+      ]
+    }
+  ],
+  "depicted_variant": "Clothed storm deity driving lightning toward wet rock with a bull alongside.",
+  "artistic_choices": [
+    "Both variants keep bull alongside deity, never used as a mount. A chooses the lightning attribute, B the alternative hammer (c04).",
+    "Conservative humanlike body, bearded face, wool robes and patterned hem are editorial reconstruction of a deity carrying an attribute, not added claims.",
+    "Normal size and close camera, plain storm ground rather than an invented named shrine.",
+    "Bolt, rain and water spray are physical domain effects; B hammer remains inert metal and no aura."
+  ],
+  "selection_reason": "Alternate retained: distinct composition; A chosen for physically held lightning and direct confrontation; B separate hammer-step composition retained.",
+  "native_observation": "Native inspected: distinct hammer-step pose, right hand gripping one metal hammer and left hand holding robe; opaque torso/lower garments, separate bull alongside with visible front legs. Real storm lightning in background and rain, no hammer magic, no riding. Strong low angle and forward step. All Sangar answers yes.",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: distinct hammer-step pose, right hand gripping one metal hammer and left hand holding robe; opaque torso/lower garments, separate bull alongside with visible front legs. Real storm lightning in background and rain, no hammer magic, no riding. Strong low angle and forward step. All Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "1ae542b7e0e0b1f2dc60919de69117ed89ec8aafd8909f70d24a2729df7554f5",
+    "reviewed_at": "2026-10-08T15:57:17.015Z"
+  }
+}

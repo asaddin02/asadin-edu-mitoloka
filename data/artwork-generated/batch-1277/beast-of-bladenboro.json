@@ -1,0 +1,84 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "beast-of-bladenboro",
+  "depicted_variant": "Kucing misterius berwarna hitam licin sekitar 1,5 meter, menyerbu dari rawa/hutan.",
+  "basis_claim_ids": [
+    "beast-of-bladenboro-c05",
+    "beast-of-bladenboro-c08",
+    "beast-of-bladenboro-c12",
+    "beast-of-bladenboro-c18"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Makhluk menyerupai kucing, hitam licin, panjang sekitar 1,5m; satu kepala, empat kaki, dua mata.",
+      "claim_ids": [
+        "beast-of-bladenboro-c05",
+        "beast-of-bladenboro-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Aksi serangan dan jeritan; tanpa efek vampir visual, darah atau kuasa tak tercatat.",
+      "claim_ids": [
+        "beast-of-bladenboro-c05",
+        "beast-of-bladenboro-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hutan dan rawa di sekitar Bladenboro pada malam hari.",
+      "claim_ids": [
+        "beast-of-bladenboro-c08"
+      ]
+    }
+  ],
+  "aura": "Serbuan kucing hitam dan jeritan mengancam mengikuti laporan c05/c18, tanpa kepastian spesies (klaim: beast-of-bladenboro-c05, beast-of-bladenboro-c18).",
+  "artistic_choices": [
+    "Spesies dibiarkan kucing tak pasti; tidak diberi ciri fantasi tambahan.",
+    "Kamera sangat dekat memperbesar ancaman tanpa mengubah panjang laporan 1,5m.",
+    "Tanpa korban atau darah; percikan air berasal dari langkah fisik, tanpa efek kuasa supernatural."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of BEAST OF BLADENBORO, the elusive black feline-like creature of the 1953 North Carolina reports.\nANATOMY: sleek BLACK feline-like creature about five feet long, one head, two ears, two eyes, four muscular feline legs and one tail; uncertain species, no horns, wings, extra fangs or hybrid parts. [beast-of-bladenboro-c05, beast-of-bladenboro-c12]\nMOMENT: exploding out of swamp reeds into a predatory close-range pounce toward the camera, mouth open in a terrible scream, teeth bared, forepaws advancing, water and mud scattering beneath its rear paws.\nPOWER: no documented supernatural power; danger through attack, scream and anatomy alone, no blood or victims. [beast-of-bladenboro-c05, beast-of-bladenboro-c18]\nSCALE & CAMERA: water-level extreme low angle, enormous close foreshortened face and attacking paws fill the square; maintain normal five-foot body length.\nLIGHT & WEATHER: one cold moon shaft catches the black wet coat and teeth, deep walnut darkness behind, ordinary swamp haze and nonluminous droplets.\nSURFACE: slick wet black fur, sharp claws, damp bark, muddy reed roots.\nSETTING: woods and swamp around Bladenboro at night. [beast-of-bladenboro-c08]\nMOOD: dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: square at least 1024px; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-d5cd6800-c1ca-4ba0-96bd-632e984e7db2.png",
+  "generated_at": "2026-10-09T01:02:42.339Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1277/originals/beast-of-bladenboro.png",
+  "native_sha256": "2261ae6d1717f43d08562c35dfa301237b98dd4196dd44c8acb45e6fc7b120a5",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat: serbuan kucing hitam konfrontatif, mulut berteriak dan dua cakar depan terulur, empat kaki tanpa anggota tambahan dan satu ekor. Subjek memenuhi bingkai, tetap mengancam pada thumbnail. Semua tujuh Uji Sangar ya: bukan hewan tenang di padang; percikan mengikuti gerak fisik, tanpa efek kuasa, gore, teks atau desain adaptasi. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "2261ae6d1717f43d08562c35dfa301237b98dd4196dd44c8acb45e6fc7b120a5",
+    "reviewed_at": "2026-10-09T01:02:42.457Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/beast-of-bladenboro-lane-A.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2261ae6d1717f43d08562c35dfa301237b98dd4196dd44c8acb45e6fc7b120a5",
+    "notes": "Sleek black cat-like predator leaping out of swamp water at the viewer with claws and fangs bared."
+  }
+}

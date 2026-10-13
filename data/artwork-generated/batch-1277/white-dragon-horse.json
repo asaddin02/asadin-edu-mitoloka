@@ -1,0 +1,81 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "white-dragon-horse",
+  "depicted_variant": "Wujud naga akhir novel dengan tanduk, sisik emas, dan janggut perak, terbang mengitari tiang gerbang gunung.",
+  "basis_claim_ids": [
+    "white-dragon-horse-c23",
+    "white-dragon-horse-c22"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Naga bertanduk, sisik emas, janggut perak; satu kepala, tanpa sayap atau kepala tambahan.",
+      "claim_ids": [
+        "white-dragon-horse-c23"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Terbang dan mulai melingkar pada tiang tinggi; debu dan kain kabut bergerak sebagai konsekuensi geraknya, tanpa energi generik.",
+      "claim_ids": [
+        "white-dragon-horse-c23"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tiang tinggi di gerbang gunung setelah pengangkatan surgawi.",
+      "claim_ids": [
+        "white-dragon-horse-c23",
+        "white-dragon-horse-c22"
+      ]
+    }
+  ],
+  "aura": "Keagungan hadir dari transformasi naga bertanduk dan sisik emas yang terbang mengitari tiang tinggi (white-dragon-horse-c23).",
+  "artistic_choices": [
+    "Framing dekat kamera rendah memberi dominasi tanpa mengarang tinggi fisik naga akhir novel.",
+    "Palet walnut dan emas antik, sinar matahari akhir sebagai cahaya editorial; tekstur batu tua dan sisik.",
+    "Detail kaki naga konvensional merupakan interpretasi artistik karena jumlahnya tidak dijabarkan klaim; tidak memakai ikonografi adaptasi populer."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of WHITE DRAGON HORSE, the dragon prince at his final elevation in Journey to the West.\nANATOMY: one serpentine dragon head, prominent horns, GOLD scales over a long coiling body, long SILVER beard; wingless. Four conventional dragon legs only, anatomically connected, two foreclaws visible grasping around a stone pillar; no horse head. [white-dragon-horse-c23]\nMOMENT: surging upward into flight and curling around a tall stone pillar at the mountain gate, his massive head foreshortened toward the viewer, eyes intent and noble, beard streaming in movement.\nPOWER: physical flight and coiling, a dynamic articulated body winding around the pillar, suspended dust disturbed by his motion; no magic glow. [white-dragon-horse-c23]\nSCALE & CAMERA: extreme low angle, tightly framed head and coil dominate nearly the entire square; pillar recedes sharply upward. This is a reverent awesome divine dragon, not a sinister monster.\nLIGHT & WEATHER: one dying golden sun catches the edges of gold scales and the silver beard; deep walnut shadows and sparse nonluminous mountain haze.\nSURFACE: individually layered metallic gold scales with painterly tactile detail, flowing silver whiskers, weathered rough stone.\nSETTING: tall pillar at a mountain gate, only fragmentary architecture visible behind the dominant dragon. [white-dragon-horse-c23, white-dragon-horse-c22]\nMOOD: awe-inspiring, overwhelming and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: square 1024px or larger, no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "original_file": "data/artwork-generated/batch-1277/originals/white-dragon-horse.png",
+  "native_sha256": "320284cdf27b08438ad8d7e9a70e522e2cd81e31ffd450d667a60439929342d0",
+  "width": 1254,
+  "height": 1254,
+  "review_path": "data/gemini/reviews/batch-154.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-8502a135-f469-4ee5-8fcc-0971536b0f5c.png",
+  "generated_at": "2026-10-09T00:57:58.973Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat: naga memenuhi bingkai dan tetap agung pada thumbnail; gerak naik dan lilitan tiang terbaca, tanduk/sisik emas/janggut perak c23 jelas. Satu kepala, dua mata, dua cakar depan terlihat, bagian kaki belakang tertutup lilitan; tanpa anggota tambahan terlihat. Semua tujuh Uji Sangar dijawab ya; cahaya matahari editorial, bukan efek kekuatan. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "320284cdf27b08438ad8d7e9a70e522e2cd81e31ffd450d667a60439929342d0",
+    "reviewed_at": "2026-10-09T00:57:58.979Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/white-dragon-horse-lane-A.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "320284cdf27b08438ad8d7e9a70e522e2cd81e31ffd450d667a60439929342d0",
+    "notes": "Horned dragon with golden scales and long silver beard coiling round a gate pillar above mountains; one head, no wings."
+  }
+}

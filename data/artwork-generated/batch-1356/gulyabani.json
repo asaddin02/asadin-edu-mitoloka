@@ -1,0 +1,93 @@
+{
+  "slug": "gulyabani",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Gulyabani, the Eastern Pamir gulbiyaban in its yellowish-grey camel-haired large humanlike variant with backwards feet.\nANATOMY: ONE large humanlike being, one head, two eyes, exactly two normal human arms and two humanlike legs, body covered thickly in yellowish-GREY CAMEL-like coarse hair. Both bare feet are REVERSED: heels face the direction its torso is advancing, toe ends point behind it. No Turkish long beard, no horns, tail or animal head. Opaque rough hip wrap covers all pelvic anatomy; thick fur covers torso [gulyabani-c06, gulyabani-c07]\nMOMENT: Step toward the viewer and spread two hands in a fierce challenge to wrestle, lean its camel-haired shoulders forward, with both backwards feet entirely visible and planted heel-first.\nPOWER: No magic effects; its documented wrestling challenge and large hairy humanlike anatomy supply menace, disturbed grit scatters under its reversed feet [gulyabani-c06, gulyabani-c07, gulyabani-c09]\nSCALE & CAMERA: extreme low angle; extreme low three-quarter full-body view that keeps both bare reversed feet unobstructed at the front lower edge; torso and knees advance toward viewer-left, but toes of BOTH feet point viewer-right behind the heels; head turns down to confront us; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one low amber moonbeam across grey-yellow hair, deep walnut rock shadows, windblown physical grit.\nSURFACE: matted camel-like yellowish-grey fur, rough skin and reversed bare feet, coarse opaque hip wrap, dusty stone.\nSETTING: A deserted barren place in the Eastern Pamir, rough mountain ground with plain rock and thin dry grass, no cemetery or Turkish urban setting [gulyabani-c06, gulyabani-c08, gulyabani-c09]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. \nTARGETED ANATOMY EDIT of the supplied original. Change ONLY BOTH FEET below the ankles: rotate EACH FOOT 180 DEGREES around its ankle so BOTH feet point BACKWARDS relative to the torso and knees. The face and knees face the viewer; the feet do the opposite. The rounded HEELS must be the closest forward parts to the viewer; all toes extend behind the ankles AWAY from the viewer, visibly at the sides behind the legs. No toes or claws may appear at the forward foreground ends. Show both broad rounded heel pads facing the viewer, with the toe ends visible only farther behind them. Keep the legs and knees in their current orientation. Preserve the face, upper body, hands, pose, fur, opaque clothing, background and lighting. Two legs and two feet only, no extra foot. Also shorten the chin hair to body-length coarse fur so there is no separate long Turkish beard.",
+  "depicted_variant": "Gulyabani varian EasternPamir c06/c07 dengan bulu camel yellowish-grey dan kaki terbalik, menantang gulat.",
+  "basis_claim_ids": [
+    "gulyabani-c06",
+    "gulyabani-c07",
+    "gulyabani-c09",
+    "gulyabani-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE large humanlike being, one head, two eyes, exactly two normal human arms and two humanlike legs, body covered thickly in yellowish-GREY CAMEL-like coarse hair. Both bare feet are REVERSED: heels face the direction its torso is advancing, toe ends point behind it. No Turkish long beard, no horns, tail or animal head. Opaque rough hip wrap covers all pelvic anatomy; thick fur covers torso",
+      "claim_ids": [
+        "gulyabani-c06",
+        "gulyabani-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magic effects; its documented wrestling challenge and large hairy humanlike anatomy supply menace, disturbed grit scatters under its reversed feet",
+      "claim_ids": [
+        "gulyabani-c06",
+        "gulyabani-c07",
+        "gulyabani-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A deserted barren place in the Eastern Pamir, rough mountain ground with plain rock and thin dry grass, no cemetery or Turkish urban setting",
+      "claim_ids": [
+        "gulyabani-c06",
+        "gulyabani-c08",
+        "gulyabani-c09"
+      ]
+    }
+  ],
+  "aura": "No magic effects; its documented wrestling challenge and large hairy humanlike anatomy supply menace, disturbed grit scatters under its reversed feet [gulyabani-c06, gulyabani-c07, gulyabani-c09]",
+  "artistic_choices": [
+    "Tidak mencampur Turkishlongbeard c10, Azeriyellow-red c04 atau greyblackforest c12.",
+    "Pelvicwrap buram editorial untuk tanpa nudity; efek hanya gerak/wrestling challenge."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1356/rejected/gulyabani-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1356/rejected/gulyabani-attempt-01.json",
+      "native_sha256": "960d459d6c0d349e70dcffd23f39b827be105badb32360e4c4339bec2533d1b0",
+      "reason": "Kedua kaki masih menunjuk ke depan/samping, bukan backward heels-in-front toes-behind yang diwajibkan klaim. Ulangi targeted edit hanya feet orientation; semua tubuh/aksi/setting sudah tepat."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-62faa107-f812-4768-946e-6a5c7d1d513c.png",
+  "generated_at": "2026-10-10T04:05:27.053805+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/gulyabani.png",
+  "native_sha256": "92b861d176bbc3256420efdc2db0dc9f8d057a9933cdb9d978acc275ee27836a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Varian Pamir: rambut kuning-abu panjang pendek merata, dua kaki terbalik dengan tumit di depan dan jari di belakang terlihat pada native serta 200 px; pose tantangan gulat, anatomi satu kepala dua tangan dua kaki, busana buram, tanpa cahaya ajaib.",
+    "limitations": [],
+    "native_sha256": "92b861d176bbc3256420efdc2db0dc9f8d057a9933cdb9d978acc275ee27836a",
+    "reviewed_at": "2026-10-10T04:05:27.053805+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "92b861d176bbc3256420efdc2db0dc9f8d057a9933cdb9d978acc275ee27836a",
+    "notes": "Shaggy grey-yellow humanlike giant with arms spread for wrestling in the mountains; checked at full size, heels face forward and toes point behind."
+  }
+}

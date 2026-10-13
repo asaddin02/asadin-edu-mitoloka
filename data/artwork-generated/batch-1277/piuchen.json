@@ -1,0 +1,75 @@
+{
+  "slug": "piuchen",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Piuchén, a nocturnal blood-sucking bat-winged lizard of Mapuche lore.\nANATOMY: one head, two eyes, four lizard legs, a long reptilian tail and exactly two membranous bat wings; retain lizard anatomy without horns [piuchen-c02,piuchen-c08]\nMOMENT: Dive out of a hollow trunk toward the viewer with jaws open, front claws foreshortened.\nPOWER: No visible supernatural power; nocturnal flight only, wing downstroke drives loose leaves [piuchen-c07]\nSCALE & CAMERA: extreme low angle; close dramatic foreshortening; subject fills almost the entire square frame, distinguishable anatomy immediately readable; no invented giant size.\nLIGHT & WEATHER: one dominant moonlight source, strong rim light, deep walnut shadows and antique gold highlights, airborne spray or dust only where physical action causes it.\nSURFACE: tactile rough fur, feather, scale, fabric or wet skin appropriate to the stated anatomy; strong painterly material detail, never plastic.\nSETTING: the dark forest and a hollow old tree [piuchen-c07,piuchen-c19]\nMOOD: dangerous and imposing or respectfully awe-inspiring for sacred beings; decisive action, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. Output one square PNG at least 1024x1024.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one head, two eyes, four lizard legs, a long reptilian tail and exactly two membranous bat wings; retain lizard anatomy without horns",
+      "claim_ids": [
+        "piuchen-c02",
+        "piuchen-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible supernatural power; nocturnal flight only, wing downstroke drives loose leaves",
+      "claim_ids": [
+        "piuchen-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the dark forest and a hollow old tree",
+      "claim_ids": [
+        "piuchen-c07",
+        "piuchen-c19"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "piuchen-c02",
+    "piuchen-c08",
+    "piuchen-c07",
+    "piuchen-c19"
+  ],
+  "depicted_variant": "Large bat-winged lizard variant; threat from the predatory dive rather than invented power",
+  "aura": "Kesan kuat berasal dari dive out of a hollow trunk toward the viewer with jaws open, front claws foreshortened (piuchen-c07).",
+  "artistic_choices": [
+    "Large bat-winged lizard variant; threat from the predatory dive rather than invented power",
+    "Sudut rendah dan framing rapat; palet walnut/emas antik, cahaya bulan adalah editorial.",
+    "Cuaca, tekstur, pakaian buram dan debu/cipratan biasa merupakan pilihan editorial; tidak menambahkan kuasa."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-64f62f7d-1001-4068-a3dd-dbfc72109315.png",
+  "generated_at": "2026-10-09T00:59:01.204069+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/piuchen.png",
+  "native_sha256": "ea43121b2384167e089b3aca27277eeba3556939e78ec25be4a51f1a09c3660c",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli diperiksa: Uji Sangar 7/7 ya. Kepala kadal dan dua sayap membran dominan; kedua cakar depan menerjang kamera, tubuh belakang dan kaki belakang terforeshortening di balik tubuh. Tidak ada efek gaib tambahan, teks, bingkai, atau gore.",
+    "limitations": [],
+    "native_sha256": "ea43121b2384167e089b3aca27277eeba3556939e78ec25be4a51f1a09c3660c",
+    "reviewed_at": "2026-10-09T00:59:01.204069+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ea43121b2384167e089b3aca27277eeba3556939e78ec25be4a51f1a09c3660c",
+    "notes": "Bat-winged lizard diving from a tree hollow at the viewer with jaws open and claws spread; two wings, four legs, long tail, no horns."
+  }
+}

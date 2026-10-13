@@ -1,0 +1,84 @@
+{
+  "slug": "seelkee",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Seelkee, the horse-headed serpent-like lake beast of Chilliwack swamps, in the single-headed recollected variant.\nANATOMY: Exactly ONE horse head with a long horse mouth and two long horse ears, two eyes; one long smooth sea-serpent body, entirely limbless, no mane of tentacles, no wings; ten-to-fifteen-foot creature. NOT the separate two-headed variant [seelkee-c03, seelkee-c08]\nMOMENT: Emerge from the reed channel and thrust its long horse muzzle down toward the viewer, coiling its smooth serpent body through the immediate foreground.\nPOWER: No curse victim or magical effects; motion of the serpent physically parts reeds and throws swamp water into the air [seelkee-c03, seelkee-c08]\nSCALE & CAMERA: extreme low angle; water-level low angle at a ten-to-fifteen-foot serpent, dominant close framing with nearby reeds as scale; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dominant amber moonbeam or dying-sun shaft, deep walnut shadows, high contrast rim light, physical dust or mist, no even daylight.\nSURFACE: smooth black-brown wet snake hide, wet horse muzzle and ears, muddy marsh water.\nSETTING: Winding swamp channels and marsh reeds in present-day Chilliwack, British Columbia [seelkee-c01, seelkee-c06]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Seelkee varian satu kepala kuda dan tubuh ular panjang c03/c08, tidak dicampur varian dua kepala.",
+  "basis_claim_ids": [
+    "seelkee-c03",
+    "seelkee-c08",
+    "seelkee-c01",
+    "seelkee-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE horse head with a long horse mouth and two long horse ears, two eyes; one long smooth sea-serpent body, entirely limbless, no mane of tentacles, no wings; ten-to-fifteen-foot creature. NOT the separate two-headed variant",
+      "claim_ids": [
+        "seelkee-c03",
+        "seelkee-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No curse victim or magical effects; motion of the serpent physically parts reeds and throws swamp water into the air",
+      "claim_ids": [
+        "seelkee-c03",
+        "seelkee-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Winding swamp channels and marsh reeds in present-day Chilliwack, British Columbia",
+      "claim_ids": [
+        "seelkee-c01",
+        "seelkee-c06"
+      ]
+    }
+  ],
+  "aura": "No curse victim or magical effects; motion of the serpent physically parts reeds and throws swamp water into the air [seelkee-c03, seelkee-c08]",
+  "artistic_choices": [
+    "Memilih varian horse-headed tunggal c03/c08; tidak mencampur dua kepala c04/c06 atau motif lingkar merah.",
+    "Tanpa efek sihir; cipratan dan reeds terbuka dampak gerak fisik di habitat."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-4459e36e-b38e-4e61-ab13-751686f2964d.png",
+  "generated_at": "2026-10-10T02:49:42.903791+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/seelkee.png",
+  "native_sha256": "6fc494926ea323682753a413d21f4dd8f4b8c32b31ad75d8516ac811eead7bd9",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: satu kepala kuda bermulut panjang dan dua telinga panjang c08, satu badan ular panjang tanpa tungkai c03; muncul aktif di marsh Chilliwack c01/c06 dengan cipratan gerak fisik. Tidak mencampur dua kepala. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "6fc494926ea323682753a413d21f4dd8f4b8c32b31ad75d8516ac811eead7bd9",
+    "reviewed_at": "2026-10-10T02:49:42.903791+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "6fc494926ea323682753a413d21f4dd8f4b8c32b31ad75d8516ac811eead7bd9",
+    "notes": "One horse head with long ears on a limbless serpent body thrashing through swamp reeds at sunset, water thrown up; not the two-headed variant."
+  }
+}

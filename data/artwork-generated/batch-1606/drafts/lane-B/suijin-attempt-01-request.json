@@ -1,0 +1,59 @@
+{
+  "slug": "suijin",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Suijin, the freshwater waterdeity manifesting in sourced serpentform. Native square PNG at least1024x1024.\nANATOMY: ONE LIVING SERPENT deity, ONE natural snakehead/TWO eyes, long continuous snakebody/ONE tapering tail, NO legs/arms/wings/horns/dragonwhiskers. Wet natural scale texture, no invented crown. [suijin-c01, suijin-c02, suijin-c06]\nMOMENT: RISE and COIL forcefully across freshwaterweir toward close viewer, head lifted with composed protective intent, body displaces water into two visible irrigationchannels.\nPOWER: Presides over freshwater/ricefieldwater and bringsfertility: forceful cleanwater flows through irrigationweir into paddies, physically turbulent but no beams/glow. [suijin-c05, suijin-c08, suijin-c11]\nSCALE & CAMERA: Extreme low waterlevelclose, serpenthead/coil dominantsquare, tinyshrine distant bydepth.\nLIGHT & WEATHER: One cold moonshaft on snake/water, deepwarm shadows, white physicalwaterspray.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Freshwater irrigationweir beside ricepaddies, small plain uninscribed stoneshrine in distance. [suijin-c05, suijin-c12]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the freshwater waterdeity manifesting in sourced serpentform",
+  "basis_claim_ids": [
+    "suijin-c01",
+    "suijin-c02",
+    "suijin-c06",
+    "suijin-c05",
+    "suijin-c08",
+    "suijin-c11",
+    "suijin-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE LIVING SERPENT deity, ONE natural snakehead/TWO eyes, long continuous snakebody/ONE tapering tail, NO legs/arms/wings/horns/dragonwhiskers. Wet natural scale texture, no invented crown.",
+      "claim_ids": [
+        "suijin-c01",
+        "suijin-c02",
+        "suijin-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Presides over freshwater/ricefieldwater and bringsfertility: forceful cleanwater flows through irrigationweir into paddies, physically turbulent but no beams/glow.",
+      "claim_ids": [
+        "suijin-c05",
+        "suijin-c08",
+        "suijin-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Freshwater irrigationweir beside ricepaddies, small plain uninscribed stoneshrine in distance.",
+      "claim_ids": [
+        "suijin-c05",
+        "suijin-c12"
+      ]
+    }
+  ],
+  "aura": "RISE and COIL forcefully across freshwaterweir toward close viewer, head lifted with composed protective intent, body displaces water into two visible irrigationchannels. Grounded in suijin-c01, suijin-c02, suijin-c06, suijin-c05, suijin-c08, suijin-c11, suijin-c12.",
+  "artistic_choices": [
+    "Snakeform documented c06 chosen rather than kappa anatomy not specified in claims. Waterflow rendered symbolic deity domain c11 not unsourced fire/storm. Respectful protectivefreshwaterguardian; closeframing not invented serpentinegigantism.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

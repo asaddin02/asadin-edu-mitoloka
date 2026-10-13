@@ -1,0 +1,76 @@
+{
+  "slug": "hua-she",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of hua she, Huà-shé from original text: human-faced dholebody, birdwings and snake-like gait.\nANATOMY: ONE beast with HUMANFACE on ONE head/TWO eyes, DHOLElike russet canine body, FOUR normal canine legs, ONE tail and exactly TWO BIRD feather WINGS. No serpent tail/body replacement; snake-like sinuous gait achieved by bending quadruped body. Fully furred opaque body, no human torso or nudity [hua-she-c02, hua-she-c03, hua-she-c06]\nMOMENT: SLITHER its low canine body sinuously through rising river water toward viewer, four legs staggered underbody, wings sweep outward and human mouth opens in shouting cry\nPOWER: Sighting foretells a great flood; rising turbulent river and flooded nearby town express flood context, no beams or claimed command over water [hua-she-c01, hua-she-c06]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one warm stormbreak low over water, deep rock shadows and real flood spray; only physical particles justified by action.\nSURFACE: wet russet dhole fur, rough dark bird feathers, intact humanface and churning riverwater.\nSETTING: Yang River joining Yi River beneath bare rocky Mount Yang with no grass/trees, tiny distant flood-threatened town [hua-she-c05, hua-she-c06]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE beast with HUMANFACE on ONE head/TWO eyes, DHOLElike russet canine body, FOUR normal canine legs, ONE tail and exactly TWO BIRD feather WINGS. No serpent tail/body replacement; snake-like sinuous gait achieved by bending quadruped body. Fully furred opaque body, no human torso or nudity",
+      "claim_ids": [
+        "hua-she-c02",
+        "hua-she-c03",
+        "hua-she-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sighting foretells a great flood; rising turbulent river and flooded nearby town express flood context, no beams or claimed command over water",
+      "claim_ids": [
+        "hua-she-c01",
+        "hua-she-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yang River joining Yi River beneath bare rocky Mount Yang with no grass/trees, tiny distant flood-threatened town",
+      "claim_ids": [
+        "hua-she-c05",
+        "hua-she-c06"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "hua-she-c02",
+    "hua-she-c03",
+    "hua-she-c06",
+    "hua-she-c01",
+    "hua-she-c05"
+  ],
+  "depicted_variant": "Huà-shé from original text: human-faced dholebody, birdwings and snake-like gait",
+  "artistic_choices": [
+    "Avoid later wingedserpent illustration c04. Flood is omen context, not magically summoned power. Humanface natural skin, coat/wingcolors editorial."
+  ],
+  "aura": "Sighting foretells a great flood; rising turbulent river and flooded nearby town express flood context, no beams or claimed command over water [hua-she-c01, hua-she-c06]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-057.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-9775-7750-a01c-b9844becc79f/exec-5cd5378e-4e97-41d6-ab0e-dcd3b1f27563.png",
+  "generated_at": "2026-10-12T18:04:54.585880+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/hua-she.png",
+  "native_sha256": "9e2050d8b8b9578bb8715037894e7aabca19310d8169d422e69b3f25014847cb",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: ONE human face with normal two eyes on wet russet dhole quadruped, four staggered canine legs, one tail, TWO feather birdwings c02/c03/c06; low twisting forward gait and human shout visible. Great physical riverflood/flooded town c01/c06 in bare rocky riverconfluence c05, no magical command/beams or later serpent anatomy. Full fur/no nudity; Sangar7 pass, no text/frame/watermark.",
+    "limitations": [],
+    "native_sha256": "9e2050d8b8b9578bb8715037894e7aabca19310d8169d422e69b3f25014847cb",
+    "reviewed_at": "2026-10-12T18:04:54.585880+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9e2050d8b8b9578bb8715037894e7aabca19310d8169d422e69b3f25014847cb",
+    "notes": "Human-faced dhole-bodied beast with two feathered wings slinking low through the rising flood that swamps the town behind; one head, four legs."
+  }
+}

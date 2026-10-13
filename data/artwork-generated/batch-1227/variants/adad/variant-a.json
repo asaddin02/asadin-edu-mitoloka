@@ -1,0 +1,72 @@
+{
+  "slug": "adad",
+  "worker": "codex",
+  "worker_agent": "chandra",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "batch": 1227,
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "aura": "Storm identity and held lightning (adad-c01/c04) act physically through rain and lightning contact; separate bull follows c03.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variant": "A",
+  "selected": true,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-c090-7651-9013-c7033afd12ca/exec-a8b58279-639e-40cb-9724-de1bf6df8281.png",
+  "generated_at": "2026-10-08T15:57:17.015Z",
+  "original_file": "data/artwork-generated/batch-1227/variants/adad/variant-a.png",
+  "native_sha256": "b9db400c88dcb90466eb022fa6baf493b4beb80168daec1fc1dfb20662aec2e2",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ADAD, the Babylonian storm deity [adad-c01].\nANATOMY: ONE conservative humanlike male divine figure, one head/two eyes/two arms/two legs, in full opaque heavy ancient Mesopotamian woven robes covering torso, shoulders and legs. ONE muscular BULL stands ALONGSIDE him, a separate animal with one head, two ordinary horns and four legs; he is NOT riding the bull. The bull association is documented [adad-c03]. No lion-headed body for the god, wings, extra limbs, horned crown or imported unclaimed iconography. Mature bearded face and plain wool clothing are editorial only.\nMOMENT: Adad leans forward above the low viewer and drives a jagged physical LIGHTNING BOLT in his RIGHT hand toward wet rock; his left hand extends open beside his body, exactly two hands. The bull surges alongside his rear left flank, clearly subordinate to the deity, tossing rain off its two-horned head.\nPOWER: documented held lightning bolt [adad-c04] makes contact with wet foreground stone, casting a flash over falling rain and real water spray; violent storm from his storm identity [adad-c01]. No extra magical destruction or floating energy.\nSCALE & CAMERA: close extreme low frontal three-quarter deity portrait, head/shoulders fill upper half, bolt hand foreshortened toward foreground and bull head visible to one side behind his shoulder. Normal body size, impose through tight framing. Full head visible, clear god/bull separation.\nLIGHT & WEATHER: dominant silver-white lightning flash, deep walnut-black storm shadows, heavy physical rain and wind pulling soaked robes, low gold highlights on aged metal. SURFACE: wet woven wool, worn metal attribute, rain-soaked beard, wet bull hair, muddy dark stone; painterly texture. SETTING: plain dark rocky ground under the storm, editorial minimal setting expressing storm domain [adad-c01], no invented named temple/battle. MOOD: overwhelming commanding storm-god presence, active and imposing, never ordinary herder or farmer. HARD CONSTRAINTS: no text, pseudo-cuneiform, logos, border, frame, watermark, signature, gore, nudity or victims; no added heads/limbs/weapons; no mount riding; no neon outline, generic aura, energy ribbons, runes or film/game/anime/comic design.",
+  "basis_claim_ids": [
+    "adad-c01",
+    "adad-c03",
+    "adad-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Conservative clothed deity carrying one lightning bolt, alongside one separate bull; not riding.",
+      "claim_ids": [
+        "adad-c03",
+        "adad-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Real storm lightning contacts wet rock with rain and water spray.",
+      "claim_ids": [
+        "adad-c01",
+        "adad-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Plain editorial storm ground expressing storm domain.",
+      "claim_ids": [
+        "adad-c01"
+      ]
+    }
+  ],
+  "depicted_variant": "Clothed storm deity driving lightning toward wet rock with a bull alongside.",
+  "artistic_choices": [
+    "Both variants keep bull alongside deity, never used as a mount. A chooses the lightning attribute, B the alternative hammer (c04).",
+    "Conservative humanlike body, bearded face, wool robes and patterned hem are editorial reconstruction of a deity carrying an attribute, not added claims.",
+    "Normal size and close camera, plain storm ground rather than an invented named shrine.",
+    "Bolt, rain and water spray are physical domain effects; B hammer remains inert metal and no aura."
+  ],
+  "selection_reason": "A chosen for physically held lightning and direct confrontation; B separate hammer-step composition retained.",
+  "native_observation": "Native inspected: one clothed humanlike god/two arms, right lightning hand and separate open left hand, separate one-headed two-horn bull alongside. Low dominating forward step and bolt-rock contact create physical spray under storm. No riding, extra body, text, glow envelope or gore. All Sangar answers yes.",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: one clothed humanlike god/two arms, right lightning hand and separate open left hand, separate one-headed two-horn bull alongside. Low dominating forward step and bolt-rock contact create physical spray under storm. No riding, extra body, text, glow envelope or gore. All Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "b9db400c88dcb90466eb022fa6baf493b4beb80168daec1fc1dfb20662aec2e2",
+    "reviewed_at": "2026-10-08T15:57:17.015Z"
+  }
+}

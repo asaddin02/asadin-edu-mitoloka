@@ -1,0 +1,88 @@
+{
+  "slug": "hasshaku-sama",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hasshaku-sama, the modern Japanese urban-legend ghost woman, an original restrained horror illustration, no game or film likeness.\nANATOMY: One pale woman approximately 240 centimetres tall, indeterminate adult age rendered as an older woman with an ordinary human face. One head, two arms, two legs, ordinary human hands with exactly five fingers each. Wearing one plain broad-brim hat and a fully opaque, loose, ankle-length one-piece dress with high closed neckline and long sleeves. No cleavage, no tight fitting costume, no monstrous mouth or claws. [hasshaku-sama-c01, hasshaku-sama-c03, hasshaku-sama-c04, hasshaku-sama-c11]\nMOMENT: leaning slightly down toward a modest house window, knocking with one curled human hand on the wooden window frame while the other hangs naturally; mouth slightly open in an eerie human-mechanical laugh as if imitating an acquaintance, gaze directed down toward viewer.\nPOWER: She lures with an imitated familiar voice and knocks at doors or windows; show the actual knocking gesture and disturbing speaking expression only. No written po-po-po, visible sound glyphs, eye glow, magical smoke or violent victim scene. [hasshaku-sama-c05, hasshaku-sama-c06]\nSCALE & CAMERA: extreme low angle; low exterior angle looking up past ordinary doorframe, full upper figure and hat dominant, hem and scale relative door readable; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one warm amber light spilling from the low window against deep indigo night shadows, broad hat shadow and pale face still readable; no neon glow.\nSURFACE: weathered uninscribed wood, tactile opaque woven off-white dress and plain off-white hat, naturally pale matte skin.\nSETTING: Outside a plain domestic wooden house in Japan at night, a normal approximately two-metre door and low window provide honest scale for a 2.4-metre figure. No signs, talismans, Jizo, inscriptions or franchise mansion. Empty scene with no child or victim. [hasshaku-sama-c01, hasshaku-sama-c06]\nMOOD: actively invasive and intimidating, quiet predatory looming, no seductive pose or smiling friendly expression.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Hasshaku-sama legenda urban modern: perempuan pucat sekitar240cm, gaun terusan dan topi; adegan mengetuk serta meniru suara c06.",
+  "basis_claim_ids": [
+    "hasshaku-sama-c01",
+    "hasshaku-sama-c03",
+    "hasshaku-sama-c04",
+    "hasshaku-sama-c11",
+    "hasshaku-sama-c05",
+    "hasshaku-sama-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One pale woman approximately 240 centimetres tall, indeterminate adult age rendered as an older woman with an ordinary human face. One head, two arms, two legs, ordinary human hands with exactly five fingers each. Wearing one plain broad-brim hat and a fully opaque, loose, ankle-length one-piece dress with high closed neckline and long sleeves. No cleavage, no tight fitting costume, no monstrous mouth or claws.",
+      "claim_ids": [
+        "hasshaku-sama-c01",
+        "hasshaku-sama-c03",
+        "hasshaku-sama-c04",
+        "hasshaku-sama-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "She lures with an imitated familiar voice and knocks at doors or windows; show the actual knocking gesture and disturbing speaking expression only. No written po-po-po, visible sound glyphs, eye glow, magical smoke or violent victim scene.",
+      "claim_ids": [
+        "hasshaku-sama-c05",
+        "hasshaku-sama-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Outside a plain domestic wooden house in Japan at night, a normal approximately two-metre door and low window provide honest scale for a 2.4-metre figure. No signs, talismans, Jizo, inscriptions or franchise mansion. Empty scene with no child or victim.",
+      "claim_ids": [
+        "hasshaku-sama-c01",
+        "hasshaku-sama-c06"
+      ]
+    }
+  ],
+  "aura": "She lures with an imitated familiar voice and knocks at doors or windows; show the actual knocking gesture and disturbing speaking expression only. No written po-po-po, visible sound glyphs, eye glow, magical smoke or violent victim scene. [hasshaku-sama-c05, hasshaku-sama-c06]",
+  "artistic_choices": [
+    "Warna off-white gaun/topi, usia dewasa lebih tua, kain dan rumah kayu sederhana adalah keputusan editorial, bukan atribut wajib sumber.",
+    "Bayang topi, kontras cahaya jendela dan kamera rendah menegaskan wujud jangkung tanpa desain franchise."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-992722f2-44f7-4981-a31c-fe9962e19b1b.png",
+  "generated_at": "2026-10-10T04:09:52.082027+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/hasshaku-sama.png",
+  "native_sha256": "1eeee07c1cf4a0ade419b2ec88a4ab32b0510dbe689843ab7daa053fa6a0aa5b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Satu perempuan pucat jangkung dengan topi serta gaun terusan buram, dua tangan manusia anatomis; mengetuk bingkai jendela dengan mulut terbuka aneh sesuai c06. Kamera rendah dan rumah domestik menegaskan tinggi. Native+200 sosok dominan, tidak ada desain franchise, efek ajaib, korban atau teks.",
+    "limitations": [],
+    "native_sha256": "1eeee07c1cf4a0ade419b2ec88a4ab32b0510dbe689843ab7daa053fa6a0aa5b",
+    "reviewed_at": "2026-10-10T04:09:52.082027+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "1eeee07c1cf4a0ade419b2ec88a4ab32b0510dbe689843ab7daa053fa6a0aa5b",
+    "notes": "Very tall pale woman in a white hat and dress knocking at a lit window at night, grinning down at the low camera; height made clear against the house."
+  }
+}

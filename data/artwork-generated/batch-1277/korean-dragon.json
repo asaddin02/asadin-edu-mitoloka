@@ -1,0 +1,85 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "korean-dragon",
+  "depicted_variant": "Naga Korea berjanggut sangat panjang membawa yeouiju di cakar dan muncul dari kabut Laut Timur.",
+  "basis_claim_ids": [
+    "korean-dragon-c05",
+    "korean-dragon-c06",
+    "korean-dragon-c03",
+    "korean-dragon-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu kepala naga, janggut panjang menonjol, bola yeouiju pada satu cakar; tubuh naga serpentin dan kaki sebagai detail artistik konvensional.",
+      "claim_ids": [
+        "korean-dragon-c05",
+        "korean-dragon-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Awan dan kabut menggelapkan jalan sebagai transformasi naga Laut Timur; tanpa kilat atau kuasa bola yang tidak diklaim.",
+      "claim_ids": [
+        "korean-dragon-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Laut dan jalan pesisir terhalang awan/kabut.",
+      "claim_ids": [
+        "korean-dragon-c03",
+        "korean-dragon-c11"
+      ]
+    }
+  ],
+  "aura": "Janggut panjang dan yeouiju c05/c06 serta kabut transformasi c11 memberi keagungan, tanpa menambahkan kuasa orb (klaim: korean-dragon-c11).",
+  "artistic_choices": [
+    "Wujud serpentin bersisik, empat kaki konvensional, tanduk sepasang dan warna tembaga dipakai sebagai interpretasi artistik naga karena riset tidak merinci detail tersebut.",
+    "Yeouiju tidak memancarkan aura atau cahaya ajaib; menangkap cahaya bulan biasa.",
+    "Framing rapat tanpa manusia menghindari ukuran fisik yang tidak didefinisikan pada varian umum.",
+    "Tidak menyamakan kisah transformasi kabut dengan Munmu; varian umum naga Laut Timur."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of KOREAN DRAGON, the East Sea dragon emerging through its transformation clouds and fog.\nANATOMY: ONE dragon head, TWO eyes, extremely LONG streaming BEARD clearly reaching below the chest; ONE yeouiju orb held in a visible foreclaw. Conventional original wingless serpentine scaled dragon body, TWO horns and FOUR articulated dragon legs, no extra limbs. Copper-brown scales are editorial. The beard is the prominent identifying feature. [korean-dragon-c05, korean-dragon-c06]\nMOMENT: sweeping forward out of black coastal fog toward the viewer, beard streaming, one foreclaw extending the rounded yeouiju near its face, coils driving sea spray aside.\nPOWER: thick CLOUDS and FOG darken the coastal road as the dragon transforms; no lightning, no orb beams or magical glow. [korean-dragon-c11]\nSCALE & CAMERA: extremely low angle close framing, dragon face, long beard and orb dominate the square, no invented size comparison.\nLIGHT & WEATHER: one moonbeam catches the wet copper scales, long silver-brown beard and polished orb, deep walnut shadows and rolling ordinary sea fog.\nSURFACE: tactile wet scales, coarse long beard, smooth reflective orb, foaming seawater.\nSETTING: sea and obscured coastal road in thick clouds and fog. [korean-dragon-c03, korean-dragon-c11]\nMOOD: reverent, awe-inspiring and overwhelming, noble and commanding, never evil, cute or decorative.\nHARD CONSTRAINTS: square at least1024px; no text, logo, border, watermark; no extra heads, limbs or fingers; no modern media design; no nudity/gore; no generic glowing aura, neon outlines or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-7946990e-1abd-4367-9024-0546c99e943d.png",
+  "generated_at": "2026-10-09T01:15:38.603Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1277/originals/korean-dragon.png",
+  "native_sha256": "1c4a25e4e7dc951a30469307ff1d1b20a9aa49c5a83e6f610b168707688d72f2",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat: satu kepala naga dua mata, janggut panjang sampai bagian bawah bingkai c05, satu yeouiju jelas di cakar c06, tubuh serpentin tanpa sayap, kaki tidak berlebih. Muncul dari kabut/awan yang menggelapkan pesisir c11, janggut/percikan bergerak, semua tujuh Uji Sangar ya; subjek agung pada thumbnail. Orb reflektif tidak memancarkan kuasa, tanpa kilat/aura/teks/gore atau desain adaptasi. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "1c4a25e4e7dc951a30469307ff1d1b20a9aa49c5a83e6f610b168707688d72f2",
+    "reviewed_at": "2026-10-09T01:15:38.729Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/korean-dragon-lane-A.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "1c4a25e4e7dc951a30469307ff1d1b20a9aa49c5a83e6f610b168707688d72f2",
+    "notes": "Long-bearded Korean dragon clutching a yeouiju pearl in one claw, rising out of sea spray at night."
+  }
+}

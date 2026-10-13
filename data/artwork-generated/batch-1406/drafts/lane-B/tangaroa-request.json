@@ -1,0 +1,48 @@
+{
+  "slug": "tangaroa",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tangaroa, Tangaroa-whakamau-tai, the Māori sea atua depicted in whale form. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: a living whale, one head, two eyes, two pectoral flippers and a broad horizontal tail; natural whale form with no humanoid parts, jewellery or invented tattoo motifs [tangaroa-c02]\nMOMENT: RISE from the tide toward the viewer as the tidal surge lifts around its immense close-framed head; benevolent but overwhelming, not a monster\nPOWER: the tide forms a powerful rising wall physically curling around the whale under its documented tidal authority, water and spray only [tangaroa-c02]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: single amber sunset seam lighting crest and wet whale, ocean shadows almost black\nSURFACE: wet slate-grey whale skin, heavy water sheets and spray\nSETTING: open sea, Tangaroa maritime realm [tangaroa-c01]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Tangaroa-whakamau-tai in documented whale form, controlling tides.",
+  "basis_claim_ids": [
+    "tangaroa-c02",
+    "tangaroa-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Whale depiction of Tangaroa-whakamau-tai",
+      "claim_ids": [
+        "tangaroa-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physically moving tidal surge",
+      "claim_ids": [
+        "tangaroa-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea realm",
+      "claim_ids": [
+        "tangaroa-c01"
+      ]
+    }
+  ],
+  "aura": "Reverent awe comes from whale manifestation amid its moving tide (tangaroa-c02).",
+  "artistic_choices": [
+    "Natural unspeciated whale body is editorial; no species identification asserted. Framing rather than miniature boats creates scale. Respectful awe for a living tradition; no menace toward people."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

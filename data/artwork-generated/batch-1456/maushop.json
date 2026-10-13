@@ -1,0 +1,76 @@
+{
+  "slug": "maushop",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Maushop, Moshup, the benevolent Wampanoag giant provider at Aquinnah. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one intact human giant, one head/two eyes, two arms/two legs; fully opaque plain rough tunic and knee-length wrapped garment covers torso and pelvis; no invented headdress, feathers, warpaint, tattoos or ritual symbols [maushop-c01, maushop-c08]\nMOMENT: LOWER a huge boulder from both hands into the ocean ahead of himself to make a stepping stone, body bending protectively toward shore, benevolent provider rather than destructive fighter\nPOWER: documented immense boulder-placement makes stepping stones, physically driving a circle of displaced seawater around boulder; no magical energy or gore [maushop-c04]\nSCALE & CAMERA: extreme low shore camera looking up, giant dominates, smaller AquinnahCliffs and ocean give documented scale\nLIGHT & WEATHER: one golden sunset shaft silhouettes giant and illuminates water splash; deep walnut cliff shadows\nSURFACE: weathered human skin, coarse opaque cloth, giant boulder stone and ocean spray\nSETTING: Aquinnah Cliffs Martha Vineyard and ocean below, cliffs small alongside documented giant [maushop-c02, maushop-c10, maushop-c12]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Benevolent Aquinnah giant making ocean stepping stones, no whale-killing episode or demonic redesign.",
+  "basis_claim_ids": [
+    "maushop-c01",
+    "maushop-c08",
+    "maushop-c04",
+    "maushop-c02",
+    "maushop-c10",
+    "maushop-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Benevolent giant human hero",
+      "claim_ids": [
+        "maushop-c01",
+        "maushop-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Places thrown boulders in ocean as steppingstones",
+      "claim_ids": [
+        "maushop-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "AquinnahCliffs/Ocean/MarthaVineyard",
+      "claim_ids": [
+        "maushop-c02",
+        "maushop-c10",
+        "maushop-c12"
+      ]
+    }
+  ],
+  "aura": "Reverent awe comes from benevolent giant forming ocean stepping stones with boulders (maushop-c04, maushop-c08).",
+  "artistic_choices": [
+    "Human facial details and fully opaque unornamented clothing editorial, not claims of specific tribal costume. Respectful living Wampanoag tradition; no stereotypes or sacred motifs. Massive scale grounded c04/c08; no victim or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-76b09e3b-5168-4b73-b813-beb88b168108.png",
+  "generated_at": "2026-10-12T08:51:51.077645+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/maushop.png",
+  "native_sha256": "8b8d4f5d70c44bee82db254a9279cd05cf294e6a04c5b4329907a973610ea15d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected all seven Sangar checks pass. Benevolent giant c01/c08 looms above Aquinnah cliffs and ocean c02/c10; one head/two eyes,two arms/two legs with lower legs in water, opaque plain tunic/wrap, no invented headdress/tattoos. Hands grasp boulder, natural five-digit near hand with farther fingers partly rock-occluded. Boulder making stepping stone c04 physically displaces ocean water, no magical aura or harming victims. Massive working moment and cliffs make reverent awe readable200. No text/gore/franchise cues.",
+    "limitations": [],
+    "native_sha256": "8b8d4f5d70c44bee82db254a9279cd05cf294e6a04c5b4329907a973610ea15d",
+    "reviewed_at": "2026-10-12T08:51:51.077850+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8b8d4f5d70c44bee82db254a9279cd05cf294e6a04c5b4329907a973610ea15d",
+    "notes": "Giant heaving a boulder into the surf beneath the coloured Aquinnah cliffs to make stepping stones; benevolent but powerful."
+  }
+}

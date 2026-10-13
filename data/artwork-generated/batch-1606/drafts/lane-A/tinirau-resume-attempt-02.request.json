@@ -1,0 +1,73 @@
+{
+  "slug": "tinirau",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "EDIT only the human half clothing in the reference Tinirau Mythics illustration. Preserve exact half-human anatomical RIGHT (viewerLEFT), half-fish anatomicalLEFT (viewerRIGHT) verticalsplit, onehead/twoeyes, humanright arm/hand reaching protectively, fishleft pectoralfin andlefttail, humanrightleg, face, natural waterwake andfish, lowangle nightMotutapu fishpool composition. REQUIRED: Fully cover ALL humanhalf TORSO from rightshoulder to waist with OPAQUE coarse dark wovencloth tunic. No exposed human chest, ribs or stomach; no sheer cloth or wet transparency. Rightarm/hand can remain visible. Extend opaque cloth over humanhalf hip andthigh; retain fishhalf natural scales/fin/tail fullyvisible. The garment should be naturally attached to the humanbody only, not overlay fishscales. Respectful protective fishguardian, no new anatomy/powers/attributes/tattoos. Basis tinirau-c01/c02/c04/c05/c06/c08. Native squarePNG min1024; no text/logo/watermark/frame, no gore/nudity/neon/runes/aura or borroweddesign.",
+  "depicted_variant": "the Polynesian fishguardian with one sidehuman and the otherfish",
+  "basis_claim_ids": [
+    "tinirau-c01",
+    "tinirau-c02",
+    "tinirau-c08",
+    "tinirau-c04",
+    "tinirau-c06",
+    "tinirau-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE upright deity with ONE head/TWO eyes, entire anatomical RIGHT SIDE human and LEFT SIDE fish: rightfacehalf human, leftfacehalf scaled fish/gill, rightbodyhalf fullyopaque cloth, leftbodyhalf smooth fishscales. ONE humanrightarm/hand and ONE leftpectoralFIN instead of leftarm; ONE humanrightleg and ONE long fishtail forms leftlowerhalf. No extra arms/wings or mermaid humanupper/fishlower arrangement.",
+      "claim_ids": [
+        "tinirau-c01",
+        "tinirau-c02",
+        "tinirau-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Guardian/lord offish with breedingfishpreserves: livingfish gather in naturalpool, water displaced physically byfishside, no inventedcontrolbeam/aura.",
+      "claim_ids": [
+        "tinirau-c01",
+        "tinirau-c04",
+        "tinirau-c06",
+        "tinirau-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Motutapu holyisland fishpreserve, darkbreedingpools beside rockyshore.",
+      "claim_ids": [
+        "tinirau-c05",
+        "tinirau-c06"
+      ]
+    }
+  ],
+  "aura": "TURN towardlowviewer and EXTEND humanhand protectively over fishpool while fishside tail pushes up a physicalwaterwake, leftfin opens andschool of fish circles nearby. Grounded in tinirau-c01, tinirau-c02, tinirau-c08, tinirau-c04, tinirau-c06, tinirau-c05.",
+  "artistic_choices": [
+    "OneSIDEhuman/otherfish c02 interpreted as lateralverticalsplit; exactsidechoice and mappingfin/tail editorial because source not moreprecise. Opaquecloth humanhalf, fishhalf natural scales; not ordinaryman. Respectful protectiveguardian, not demon; no whaleharm story.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1606/rejected/tinirau-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1606/rejected/tinirau-attempt-01.json",
+      "native_sha256": "575ba073cc5a434d38d261e788aacb910424e010e888c7af2677f3433fc9ac65",
+      "reason": "Humanright chest exposed despite fullyopaque torso garment requirement; correct opaque humanhalf clothing without changing lateral fishsplit."
+    }
+  ],
+  "request": {
+    "prompt": "EDIT only the human half clothing in the reference Tinirau Mythics illustration. Preserve exact half-human anatomical RIGHT (viewerLEFT), half-fish anatomicalLEFT (viewerRIGHT) verticalsplit, onehead/twoeyes, humanright arm/hand reaching protectively, fishleft pectoralfin andlefttail, humanrightleg, face, natural waterwake andfish, lowangle nightMotutapu fishpool composition. REQUIRED: Fully cover ALL humanhalf TORSO from rightshoulder to waist with OPAQUE coarse dark wovencloth tunic. No exposed human chest, ribs or stomach; no sheer cloth or wet transparency. Rightarm/hand can remain visible. Extend opaque cloth over humanhalf hip andthigh; retain fishhalf natural scales/fin/tail fullyvisible. The garment should be naturally attached to the humanbody only, not overlay fishscales. Respectful protective fishguardian, no new anatomy/powers/attributes/tattoos. Basis tinirau-c01/c02/c04/c05/c06/c08. Native squarePNG min1024; no text/logo/watermark/frame, no gore/nudity/neon/runes/aura or borroweddesign.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1606/drafts/lane-A/tinirau-resume-native-01.png"
+    ]
+  }
+}

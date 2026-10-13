@@ -1,0 +1,91 @@
+{
+  "slug": "wd-q757989",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Fuxi (負屓), living dragon-shaped literary offspring coiling around a stone stele. Native square PNG at least1024x1024.\nANATOMY: ONE living Chinese dragon-shaped creature, one head/two eyes and a long neck/body COILED around the TOP of a plain stone stele. Proud broad dragon muzzle, ridged brow, long whiskers, bristling beard and two antlerlike horns are conventional editorial rendering of dragon shape, not sourced anatomical counts. Limbs cropped outside frame. Not snake/turtle/petrified ornament. [wd-q757989-c02, wd-q757989-c07]\nMOMENT: UNCOIL and BEND its fierce alert head down toward low viewer, neck rubbing the stele edge; mouth opening in a powerful exhale, whiskers thrown forward.\nPOWER: No documented magical power. Dust shakes from stone where living coil physically contacts its edge; no magical writing or energy. [wd-q757989-c02]\nSCALE & CAMERA: Extreme low close confrontation; head/being fills most frame, distinguishing dragon face visible at200px; no undocumented gigantic body comparisons.\nLIGHT & WEATHER: One narrow warm sidelight against deep walnut shadows, hard rim, dark high contrast; physical water or dust only from documented scene.\nSURFACE: Living wet scales, coarse mane hairs, rain-wet opaque cloth when clothed, weathered stone or ordinary soil. Never plastic or glazed ornament.\nSETTING: TOP edge of weathered plain stone stele, blank face without inscriptions. [wd-q757989-c02]\nMOOD: Reverent overwhelming dragon awe, commanding and imposing, never cute, calm, decorative or ordinary snake.\nHARD CONSTRAINTS: No text, lettering, glyphs, logo, border, frame or watermark. No extra heads, eyes, limbs, fingers. No film/game/anime/comic designs, no nudity or explicit gore, no generic glow aura, neon outlines, floating runes or energy ribbons. All clothing fully opaque. Conventional Chinese dragon rendering details are artistic interpretation of documented dragon identity, not new physical powers or claimed exact iconography.",
+  "depicted_variant": "living dragon-shaped literary offspring coiling around a stone stele",
+  "basis_claim_ids": [
+    "wd-q757989-c02",
+    "wd-q757989-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE living Chinese dragon-shaped creature, one head/two eyes and a long neck/body COILED around the TOP of a plain stone stele. Proud broad dragon muzzle, ridged brow, long whiskers, bristling beard and two antlerlike horns are conventional editorial rendering of dragon shape, not sourced anatomical counts. Limbs cropped outside frame. Not snake/turtle/petrified ornament.",
+      "claim_ids": [
+        "wd-q757989-c02",
+        "wd-q757989-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented magical power. Dust shakes from stone where living coil physically contacts its edge; no magical writing or energy.",
+      "claim_ids": [
+        "wd-q757989-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "TOP edge of weathered plain stone stele, blank face without inscriptions.",
+      "claim_ids": [
+        "wd-q757989-c02"
+      ]
+    }
+  ],
+  "aura": "UNCOIL and BEND its fierce alert head down toward low viewer, neck rubbing the stele edge; mouth opening in a powerful exhale, whiskers thrown forward. Supported by wd-q757989-c02, wd-q757989-c07, wd-q757989-c02, wd-q757989-c02.",
+  "artistic_choices": [
+    "Documented dragon category is rendered with conventional Chinese dragon physiognomy as editorial detail; exact horns, mane, whiskers, limbs or historical portrait are not facts claimed by research.",
+    "Low camera, close framing, palette and directional light are editorial; no unsupported physical power.",
+    "Correction addresses owner-supplied Claude rejection: Ular biasa, bukan naga."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-01.json",
+      "native_sha256": "6e87ab7b75754efd74c6b5a1fb95c50de2fe06f42adeff81952605941a37d928",
+      "reason": "Visible prominent horns, dorsal spines and whiskers not supported by research; prompt/choices specified avoiding undocumented horn count. Too much lower plain stele reduces creature dominance."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-02.json",
+      "native_sha256": "ca55136ad862e6152ede37aed5b5ab22435df23e331391e4f5062343bfac4853",
+      "reason": "Ular biasa, bukan naga."
+    }
+  ],
+  "correction_cycle": {
+    "source": "owner-supplied Claude rejection 2026-10-13",
+    "maximum_new_calls": 3,
+    "prior_selected_native_sha256": "ca55136ad862e6152ede37aed5b5ab22435df23e331391e4f5062343bfac4853",
+    "archived_prior_receipt": "data/artwork-generated/batch-1406/rejected/wd-q757989-attempt-02-old-receipt.json"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330e-d0d4-7eb1-b0fb-c4178408d1a0/exec-19020701-91ab-4119-8abe-f70f7814c699.png",
+  "native_sha256": "d675f62167b5e6845919a2c9fd89f5ddb7bc3105ab5a16836400b6910a9a9073",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-13T03:05:28.920112+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/wd-q757989.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: undeniable LIVING Chinese dragon head with two eyes and coiling neck/body wraps stele TOP, uncoils toward viewer with open jaws and moving whiskers. Stele is rough plain stone with no inscription, contact dust only; no magical literary effect. Conventional branched antler pair, mane and whiskers are explicitly editorial interpretation of dragon-shaped category c07, not facts asserted by source. One head, limbs cropped, no snake silhouette/stone ornament/text/glow/adaptation. All seven Sangar checks pass; correction directly addresses ordinary snake rejection.",
+    "limitations": [],
+    "native_sha256": "d675f62167b5e6845919a2c9fd89f5ddb7bc3105ab5a16836400b6910a9a9073",
+    "reviewed_at": "2026-10-13T03:07:23.841812+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "d675f62167b5e6845919a2c9fd89f5ddb7bc3105ab5a16836400b6910a9a9073",
+    "notes": "Correction: living dragon-shaped creature coiled round the top of a stone stele, dust shaken loose, jaws open toward the viewer."
+  }
+}

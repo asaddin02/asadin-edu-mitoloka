@@ -1,0 +1,43 @@
+{
+  "slug": "langben-rese",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Långben Rese, the Nordic ballad giant at Skottfjället before the duel with Vidrik. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one living human-shaped giant, one head/two eyes, exactly two arms/two legs; fully opaque heavy tunic and trousers, no horns, fangs or invented magical attributes [langben-rese-c01, langben-rese-c03]\nMOMENT: STRIDE down toward the viewer from mountain rocks, one huge empty fist thrust forward in challenge and other arm braced behind; intact before the duel, no beheading scene\nPOWER: no documented supernatural power; intimidating giant motion and size only [langben-rese-c01, langben-rese-c03]\nSCALE & CAMERA: extreme low mountain-foot camera, documented giant towers over smaller rocks, full torso and charging legs visible\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: weathered human skin, coarse dark opaque cloth and rock dust\nSETTING: Skottfjället near Brattön in Bohuslän, rough mountain rocks [langben-rese-c02]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Living intact giant before duel, not the subsequent headless run.",
+  "basis_claim_ids": [
+    "langben-rese-c01",
+    "langben-rese-c03",
+    "langben-rese-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Nordic giant, intact before duel",
+      "claim_ids": [
+        "langben-rese-c01",
+        "langben-rese-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Skottfjället near Brattön Bohuslän",
+      "claim_ids": [
+        "langben-rese-c02"
+      ]
+    }
+  ],
+  "aura": "Threat comes from a giant striding down into a confrontational duel moment (langben-rese-c01, langben-rese-c03).",
+  "artistic_choices": [
+    "Fully opaque rough tunic/trousers, beard and weathered human face are editorial, not source iconography. No invented weapons or powers. Giant size documented; small mountain rocks frame towering body without invented architecture."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

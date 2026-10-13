@@ -1,0 +1,84 @@
+{
+  "slug": "wind-horse",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Wind Horse, the living flying-horse image symbolizing the soul and well-being in East and Central Asian and Tibetan traditions.\nANATOMY: ONE living natural horse, one equine head, two eyes, exactly four strong horse legs ending in ordinary single hooves, one flowing mane and one tail. A wingless horse flying through the air; no invented feather wings, jewel on back, saddle, rider, banner or flag, no extra legs [wind-horse-c01, wind-horse-c02]\nMOMENT: Gallop airborne directly toward the viewer, drive its four hooves through a full galloping cycle and bow its powerful head down in overwhelming protective vitality, wind lashes mane and tail backward.\nPOWER: The documented flying-horse form moves actively through the sky; real wind drives mane and tail and parts clouds, no generic divine glow, beams or ribbons [wind-horse-c01, wind-horse-c09]\nSCALE & CAMERA: extreme low angle; extreme low close tracking beneath the flying horse, forehooves strongly foreshortened, horse face and chest dominate; ordinary horse proportions, no invented cosmic giant scale; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one narrow amber moonbeam outlining warm dark chestnut fur, deep walnut cloud shadows, racing physical mist.\nSURFACE: wind-rough chestnut coat, wet mane strands, worn natural hooves, dense cloud mist.\nSETTING: High open air in East and Central Asian tradition, dark indistinct cloud masses and a far shadowed high horizon; no flags or written symbols [wind-horse-c01, wind-horse-c04]\nMOOD: respectful sacred grandeur and protective vitality, powerful active flight, never demon horse or calm ordinary animal.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Wind Horse sebagai kuda hidup terbang lambang soul/well-being, tanpa banner, permata atau sayap yang tidak didokumentasikan.",
+  "basis_claim_ids": [
+    "wind-horse-c01",
+    "wind-horse-c02",
+    "wind-horse-c09",
+    "wind-horse-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE living natural horse, one equine head, two eyes, exactly four strong horse legs ending in ordinary single hooves, one flowing mane and one tail. A wingless horse flying through the air; no invented feather wings, jewel on back, saddle, rider, banner or flag, no extra legs",
+      "claim_ids": [
+        "wind-horse-c01",
+        "wind-horse-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented flying-horse form moves actively through the sky; real wind drives mane and tail and parts clouds, no generic divine glow, beams or ribbons",
+      "claim_ids": [
+        "wind-horse-c01",
+        "wind-horse-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "High open air in East and Central Asian tradition, dark indistinct cloud masses and a far shadowed high horizon; no flags or written symbols",
+      "claim_ids": [
+        "wind-horse-c01",
+        "wind-horse-c04"
+      ]
+    }
+  ],
+  "aura": "The documented flying-horse form moves actively through the sky; real wind drives mane and tail and parts clouds, no generic divine glow, beams or ribbons [wind-horse-c01, wind-horse-c09]",
+  "artistic_choices": [
+    "Flyinghorse c01 divisualkan hidup sesuai GAMBAR makhluk lambang; tidak mengimpor jewel/wings dari ikonografi luar riset.",
+    "Warna chestnut dan horizon tinggi pilihan editorial; tidak mengklaim kuasa badai atau ukuran raksasa."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-6efae450-d73c-40b1-929a-09063e7eff21.png",
+  "generated_at": "2026-10-10T03:22:35.892759+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/wind-horse.png",
+  "native_sha256": "0bc8283b925ea051db7c4bd2f632d735eeb33fc323554def2f5ea5ddad95591d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: kuda hidup terbang wingless c01, satu kepala dua mata empat kaki dengan kaki belakang satu occluded, kuku kuda tunggal; gallop airborne ke viewer, mane/tail tersapu angin. Tidak ada banner/jewel/wings/aura. Sacred vitality c02/c09 lewat framing rendah. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "0bc8283b925ea051db7c4bd2f632d735eeb33fc323554def2f5ea5ddad95591d",
+    "reviewed_at": "2026-10-10T03:22:35.892759+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "0bc8283b925ea051db7c4bd2f632d735eeb33fc323554def2f5ea5ddad95591d",
+    "notes": "Wingless chestnut horse galloping across the clouds straight at the viewer, mane and tail driven by wind."
+  }
+}

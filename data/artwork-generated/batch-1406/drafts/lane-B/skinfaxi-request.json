@@ -1,0 +1,52 @@
+{
+  "slug": "skinfaxi",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Skinfaxi, the Norse horse whose shining mane lights the sky and earth. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one horse head, two eyes, four hooved legs, no wings or horns; mane and tail shining like gold; simple chariot traces taut behind it, chariot only a small partial edge with no driver visible [skinfaxi-c01, skinfaxi-c02]\nMOMENT: SURGE past the low viewer through the sky, forelegs thrust forward in a powerful mid-gallop, neck bent and eye intent\nPOWER: golden light originates in actual mane and tail hairs, illuminating cloud faces and the dark earth far below; not flame breath or magical ribbons [skinfaxi-c01, skinfaxi-c02, skinfaxi-c09]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: mane itself is the sole dominant golden light, deep twilight cloud shadows, physical airborne droplets\nSURFACE: coarse mane strands, short horse coat and worn harness\nSETTING: sky traversed by the horse of Day, earth visible beneath [skinfaxi-c01]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Skinfaxi drawing Day through the sky, gold-shining mane and tail account.",
+  "basis_claim_ids": [
+    "skinfaxi-c01",
+    "skinfaxi-c02",
+    "skinfaxi-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Horse; gold-shining mane and tail; harnessed to Day chariot",
+      "claim_ids": [
+        "skinfaxi-c01",
+        "skinfaxi-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mane illuminates sky and earth",
+      "claim_ids": [
+        "skinfaxi-c01",
+        "skinfaxi-c02",
+        "skinfaxi-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sky with earth below",
+      "claim_ids": [
+        "skinfaxi-c01"
+      ]
+    }
+  ],
+  "aura": "Awe comes from light shed by the gold-shining mane onto sky and earth (skinfaxi-c01, skinfaxi-c02, skinfaxi-c09).",
+  "artistic_choices": [
+    "White-grey coat and simple unadorned traces are editorial; no claim of canonical coat colour. Close camera creates dominance without enlarging the horse. Driver deliberately excluded because his iconography is not specified."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "wd-q9602528",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of 吉光, Jiguang, the auspicious patterned white horse with a red mane. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one horse head, two eyes, four hooved legs, one tail; white body with dark natural irregular coat patterning, rich RED mane in real hair strands, no horns, wings or jewellery [wd-q9602528-c02, wd-q9602528-c05]\nMOMENT: BURST forward from marsh water, forelegs thrusting up toward viewer and red mane whipped backward, intent gaze, commanding auspicious presence\nPOWER: no documented visual magic: only physical water splashes from motion; longevity and fireproof coat story are not converted into powers [wd-q9602528-c02, wd-q9602528-c05]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: single low amber sunset shaft, deep marsh shadows, heavy physical splashes\nSURFACE: wet white horse hair, rich red mane strands, dark marsh water\nSETTING: great marsh from which this horse is born, reeds at margins only [wd-q9602528-c02]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Patterned white, red-maned marsh horse form; not yellow Tenghuang alias.",
+  "basis_claim_ids": [
+    "wd-q9602528-c02",
+    "wd-q9602528-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Patterned white horse with red mane",
+      "claim_ids": [
+        "wd-q9602528-c02",
+        "wd-q9602528-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Great marsh",
+      "claim_ids": [
+        "wd-q9602528-c02"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the unusual patterned white coat and scarlet mane in vigorous marsh emergence (wd-q9602528-c02, wd-q9602528-c05).",
+  "artistic_choices": [
+    "Dark pattern arrangement, lighting and red mane shade are editorial. No visible magic; fire-resistant garment account c08 not treated as living horse ability. Framing and forceful movement provide awe without giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "ame-no-wakahiko",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ame no Wakahiko, the valorous young heavenly envoy and archer. Native square PNG at least 1024x1024 pixels.\nANATOMY: One handsome young ADULT man, one head, two eyes, two arms, two legs; plain fully opaque ancient Japanese robe; one heavenly deer-bow and one feathered arrow, no other weapons. [ame-no-wakahiko-c05, ame-no-wakahiko-c22, ame-no-wakahiko-c24]\nMOMENT: RELEASE a feathered arrow steeply upward toward heaven, powerful bow arm stretched overhead and drawing hand just opened beside face, eyes focused upward. Bow and arrow create a monumental diagonal across the entire frame. Face and both hands remain readable.\nPOWER: The physical arrow flies all the way to heaven in the envoy story; arrow visible leaving bow and climbing into the sky, without neon trail or invented grain control. [ame-no-wakahiko-c07, ame-no-wakahiko-c24]\nSCALE & CAMERA: extreme low close angle below his bow arm; foreshortened upper body fills the frame; close framing creates reverent divine awe without inventing giant anatomy. Sky opens dramatically above the arrow.\nLIGHT & WEATHER: one dominant amber sunset shaft through dark clouds, strong rim light on face and robe, deep walnut shadows.\nSURFACE: natural skin, wind-pulled coarse opaque cloth, tangible wood bow and feathers.\nSETTING: earth beneath heaven from the envoy account, minimal dark stone ledge with open sky. [ame-no-wakahiko-c03, ame-no-wakahiko-c07]\nMOOD: reverent, awe-inspiring and imposing divine action; never a calm ordinary portrait, cute or decorative.\nHARD CONSTRAINTS: no dead bird or victim; no invented antler ornaments, armour or halo; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Claim IDs are instructions, never visible text.",
+  "depicted_variant": "Youngadult deity heavenlyarcher fromNihongi envoyepisode, notmedievalserpenthusband orAjisukitakahikone.",
+  "basis_claim_ids": [
+    "ame-no-wakahiko-c05",
+    "ame-no-wakahiko-c22",
+    "ame-no-wakahiko-c24",
+    "ame-no-wakahiko-c07",
+    "ame-no-wakahiko-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Handsomeyoung envoy,valorous",
+      "claim_ids": [
+        "ame-no-wakahiko-c05",
+        "ame-no-wakahiko-c22"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Heavenlydeerbow/featheredarrows",
+      "claim_ids": [
+        "ame-no-wakahiko-c24"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Arrowfliesfromearthtoheaven",
+      "claim_ids": [
+        "ame-no-wakahiko-c07",
+        "ame-no-wakahiko-c24"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Earth/heaven envoyaccount",
+      "claim_ids": [
+        "ame-no-wakahiko-c03",
+        "ame-no-wakahiko-c07"
+      ]
+    }
+  ],
+  "aura": "Awe comes fromvalorousheavenlyarcher andarrowreachingheaven (ame-no-wakahiko-c22, ame-no-wakahiko-c24, ame-no-wakahiko-c07).",
+  "artistic_choices": [
+    "Opaqueplainrobe andhairstyle editorial, notcanonicalcostume. Bowmaterial simpledeer-antler-inspired tips onlysourcebowname notliteralantlerornament. No pheasantdeath, cosmicbody enlargement, sunhalo,stormcontrol orgrainpowermadeup. Lowangle andheavenboundarrowprovide reverent awe."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-f4bd5c00-1e19-4d32-ad1d-cf527593c2b7.png",
+  "generated_at": "2026-10-12T14:03:34.931570+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/ame-no-wakahiko.png",
+  "native_sha256": "73eb99bb70a1c47513b206ea3c2cfac1f065700a2e391d196dc51e0f4c294641",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG native1254px dan thumbnail200 diperiksa sendiri: sosok muda mendominasi sudut rendah, panah berbulu terbang ke langit dan tangan melepas terlihat; satu kepala dua lengan, jubah buram, busur besar. Semua7 UjiSangar ya: momen ilahi megah, bukan potret biasa; tanpa efek kuasa buatan/teks/gore.",
+    "limitations": [],
+    "native_sha256": "73eb99bb70a1c47513b206ea3c2cfac1f065700a2e391d196dc51e0f4c294641",
+    "reviewed_at": "2026-10-12T14:04:43.774248+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "73eb99bb70a1c47513b206ea3c2cfac1f065700a2e391d196dc51e0f4c294641",
+    "notes": "Young envoy in white robes loosing the heavenly-deer bow so the arrow flies up through a break in the clouds toward heaven; the deed, not a pose."
+  }
+}

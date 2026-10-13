@@ -1,0 +1,88 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "mujina",
+  "depicted_variant": "Wujud alamiah bermuka rakun dan tubuh badger dengan ghost-fire tanuki-bi, close-up agung namun tidak jahat.",
+  "basis_claim_ids": [
+    "mujina-c02",
+    "mujina-c04",
+    "mujina-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu kepala bermuka rakun, tubuh badger Jepang, empat kaki dan ekor tanpa fitur faceless.",
+      "claim_ids": [
+        "mujina-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Menciptakan ghost-fire mirip will-o'-the-wisps, api kecil terpisah yang memantul pada tanah.",
+      "claim_ids": [
+        "mujina-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Latar tanah gelap editorial, tidak diklaim lokasi cerita.",
+      "claim_ids": [
+        "mujina-c02"
+      ]
+    }
+  ],
+  "aura": "Wujud hibrida mujina-c02 dan api ghost-fire mujina-c04 memberi keagungan ganjil dengan hati lembut mujina-c15.",
+  "artistic_choices": [
+    "Palet cokelat gelap, cahaya api dan close-up tanah editorial; tidak diberi ukuran raksasa.",
+    "Tidak menggabungkan varian biksu/belly-drum; tanuki-bi berupa api terpisah, bukan aura.",
+    "Ekspresi waspada menggetarkan namun tidak membuat trickster berhati lembut menjadi pemangsa."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MUJINA, the shapeshifting Japanese yokai in its natural hybrid form.\nANATOMY: ONE RACCOON-FACED head, masked dark eyes, TWO eyes, JAPANESE BADGER body with FOUR paws and ONE short badger tail; dense coarse brown fur. NOT a raccoon body, NOT a faceless human, no oversized belly. [mujina-c02]\nMOMENT: stepping boldly from black shadow toward the viewer, head thrust forcefully into extreme foreground, brow knitted into a severe commanding stare, narrow deeply shadowed eyes, mouth OPEN in a fierce warning cry exposing natural badger teeth, coarse fur bristling, advancing paw raking leaves, fur and dry leaves swept by motion.\nPOWER: creates tanuki-bi GHOST FIRE like will-o'-the-wisps; THREE substantial tall distinct amber flames just above the ground behind and beside it, illuminating leaves physically, not surrounding the body. [mujina-c04]\nSCALE & CAMERA: ground-level close macro framing, ordinary badger size, ultra-tight confrontational muzzle portrait, severe face fills80percent with dark eye sockets, NOT round-eyed cute raccoon photography, no giant scale.\nLIGHT & WEATHER: the separated ghost flames are one dominant amber light source, deep walnut darkness, ordinary dust.\nSURFACE: matted coarse fur, moist nose, gritty earth and dead leaves.\nSETTING: neutral dark ground, editorial background, no invented narrative location.\nMOOD: overwhelming uncanny dignity in a fierce warning moment, rough ancient badger face, stern and wild but not evil, respecting its gentle heart; never cute/calm/decorative. [mujina-c15]\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-b64fe530-21d4-4d29-8b52-21d9c2f15e27.png",
+  "generated_at": "2026-10-10T02:53:42.535Z",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/mujina-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/mujina-attempt-01.json",
+      "native_sha256": "315d6be13bcb10552ce5167fe7a8c8115464bc809d4c48f40acecd557a3bcfd5",
+      "reason": "Natural-form face too soft and cute, reads as ordinary raccoon despite ghostfire; Uji Sangar item2/7 gagal."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/mujina.png",
+  "native_sha256": "5c2e2874753a605648e0911224e4d76de4af76c1260f3470104ce07aede2bd86",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native attempt02 dan200px dilihat: wajah rakun pada badan badger, satu kepala dua mata/empat kaki tanpa tambahan, langkah rapat/cakar/seruan peringatan, ghost-fire terpisah c04 menerangi daun. Semua7Uji Sangar ya; versi ini liar dan menggetarkan tanpa raut cute versi01. Tekstur/scaling natural, tanpa neon/glyph/gore atau desain adaptasi.",
+    "limitations": [],
+    "native_sha256": "5c2e2874753a605648e0911224e4d76de4af76c1260f3470104ce07aede2bd86",
+    "reviewed_at": "2026-10-10T02:53:42.676Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/mujina-attempt-02.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "5c2e2874753a605648e0911224e4d76de4af76c1260f3470104ce07aede2bd86",
+    "notes": "Raccoon-faced badger stalking toward the viewer among separate ghost fires; four legs, tail, not faceless."
+  }
+}

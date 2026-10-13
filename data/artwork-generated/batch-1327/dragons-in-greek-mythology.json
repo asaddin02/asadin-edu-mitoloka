@@ -1,0 +1,82 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "dragons-in-greek-mythology",
+  "depicted_variant": "Varian Colchian Dragon serpentgiant mengapit GoldenFleece di jaw dalam sacredgroveAres,tidak hundredheadsLadon.",
+  "basis_claim_ids": [
+    "dragons-in-greek-mythology-c07",
+    "dragons-in-greek-mythology-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Serpent giant satuhead2eyes,bodyconstrictorsnake tanpa wings/legs/horns; sangatbesar dari ship50oars.",
+      "claim_ids": [
+        "dragons-in-greek-mythology-c07",
+        "dragons-in-greek-mythology-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "GuardingGoldenFleece di fiercejaws,coiling/advancephysik tanpa venomglow/fire.",
+      "claim_ids": [
+        "dragons-in-greek-mythology-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Deepthicket sacredgroveAres Kolkhis.",
+      "claim_ids": [
+        "dragons-in-greek-mythology-c07",
+        "dragons-in-greek-mythology-c08"
+      ]
+    }
+  ],
+  "aura": "Colchian serpentgiant dragons-in-greek-mythology-c07 dan fiercejaws mengapitfleece dragons-in-greek-mythology-c08 memberi ancaman tanpa hybriddragon.",
+  "artistic_choices": [
+    "SatuvarianColchian,janganmix100headLadon/Hesperides atau Delphynehalf-girl.",
+    "Tightcoils/massivetrees memberi giantpresence; ship50oar sizeclaim takditambahboat di grove.",
+    "Fleece warnaantiquegold/serpentscalewalnut editorial; jawholding goldensheepskinno livinganimalvictim/monsterfire."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of DRAGONS IN GREEK MYTHOLOGY,choosing ONLY the COLCHIAN DRAGON guarding the Golden Fleece.\nANATOMY: ONE huge CONSTRICTOR-SNAKE head with TWO watchful eyes,ONE vast serpentine body,NO legs,wings,horns,extraheads or humanparts;massive jaw teeth,coarse darkbronze scales. It surpasses a50-oaredship in length/breadth. [dragons-in-greek-mythology-c07,dragons-in-greek-mythology-c08]\nMOMENT: lunging its immense head forward out of deepthicket,ferocious jaws holding the GOLDEN FLEECE,a golden woolly SHEEPSKIN clearly gripped across lowerjaw and drooping below;coils tighten against tree roots and stir soil,eyes fixedonviewer.\nPOWER: physical vigilant guarding and fierce jaws only,NOfirebreath,venomcloud,eyebeams or magicalaura. [dragons-in-greek-mythology-c08]\nSCALE & CAMERA: extreme low forestfloorangle,the snakehead/jaws/fleece fill almostentiresquare,smallgrovetrees visibly dwarfed by colossal coils.\nLIGHT & WEATHER: one dyinggoldsunshaft through thicket,deep walnutblack shadows,dirt/leaves thrown by coil.\nSURFACE: heavyreptilescales,roughgoldwool,drytreeroots,dampsoil.\nSETTING: deepthicket in sacredgrove of Ares at Kolkhis. [dragons-in-greek-mythology-c07,dragons-in-greek-mythology-c08]\nMOOD: ravenouswatchful and overwhelmingdanger,never modernwingeddragon,cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-b5389384-8bdf-47ca-bbc4-6272398dd77e.png",
+  "generated_at": "2026-10-10T03:37:30.085Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/dragons-in-greek-mythology.png",
+  "native_sha256": "a449ca6274b466fb1a1cb91c080c2c322ff9a6d6488bee31c5365671ab96a578",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native 1254px dan pratinjau 200px diperiksa. Satu kepala ular, dua mata, satu tubuh bersisik berliku tanpa kaki/sayap/tanduk, rahang besar memegang kulit berbulu Golden Fleece yang terbaca jelas. Debu dan akar memberi gerak fisik penjagaan aktif; kepala mendominasi sudut rendah. Varian Kolkhis terbatas pada dragons-in-greek-mythology-c07/c08, tanpa mencampur Ladon berkepala banyak, api atau naga fantasi Barat.",
+    "limitations": [],
+    "native_sha256": "a449ca6274b466fb1a1cb91c080c2c322ff9a6d6488bee31c5365671ab96a578",
+    "reviewed_at": "2026-10-10T03:37:30.189Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/dragons-in-greek-mythology-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "a449ca6274b466fb1a1cb91c080c2c322ff9a6d6488bee31c5365671ab96a578",
+    "notes": "Huge horned-less constrictor serpent in the grove of Ares holding the Golden Fleece in its jaws, coils filling the frame."
+  }
+}

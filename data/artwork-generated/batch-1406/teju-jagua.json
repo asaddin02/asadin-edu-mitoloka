@@ -1,0 +1,87 @@
+{
+  "slug": "teju-jagua",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Teju Jagua, the enormous Guaraní lizard guardian of caves and treasures, here the documented single-dog-head version. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: exactly ONE huge dog head on an enormous four-legged lizard body with one long lizard tail; two eyes emit actual fire; gold dust and mineral grains lie on scales; no horns, no additional heads [teju-jagua-c05, teju-jagua-c10, teju-jagua-c02, teju-jagua-c15]\nMOMENT: LIFT its great dog head out of the cavern while remaining heavily planted on four legs, jaws parting in a warning, not sprinting because mobility is limited\nPOWER: brief real fire flickers directly from the two eyes and lights the near cave stone; scales shine with gold dust from rolling on treasure [teju-jagua-c02, teju-jagua-c15]\nSCALE & CAMERA: extreme low angle inside cavern mouth, huge documented body looming over small rock fragments\nLIGHT & WEATHER: eye fire is the dominant warm light, deep cavern blackness, falling dust\nSURFACE: rough lizard scales covered with adhered gold dust, coarse dog muzzle fur, dark cave stone\nSETTING: cavern abyss of legendary Yaguarón hill, a few unworked gold grains and stones nearby [teju-jagua-c11, teju-jagua-c15]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Single dog-headed enormous lizard variant explicitly accepted by teju-jagua-c05/c10, with fiery gaze and gold-dusted skin.",
+  "basis_claim_ids": [
+    "teju-jagua-c05",
+    "teju-jagua-c10",
+    "teju-jagua-c02",
+    "teju-jagua-c15",
+    "teju-jagua-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single giant dog-head variant, enormous lizard body, limited mobility",
+      "claim_ids": [
+        "teju-jagua-c05",
+        "teju-jagua-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fire from eyes",
+      "claim_ids": [
+        "teju-jagua-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Gold-dust-shining skin",
+      "claim_ids": [
+        "teju-jagua-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cavern of Yaguarón hill",
+      "claim_ids": [
+        "teju-jagua-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hidden treasure of gold and precious stones",
+      "claim_ids": [
+        "teju-jagua-c15"
+      ]
+    }
+  ],
+  "aura": "Awe comes from enormous lizard anatomy and the feared fire-shooting gaze (teju-jagua-c02, teju-jagua-c05, teju-jagua-c10).",
+  "artistic_choices": [
+    "Single-head version avoids hiding or miscounting seven heads; it is not an invented reduction. Stationary body plus raised warning head respects limited mobility. No victims: guardian presented with reverent awe."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-00cb68c5-f8aa-4e59-92d0-49e026bc3e05.png",
+  "generated_at": "2026-10-12T02:38:21.743232+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/teju-jagua.png",
+  "native_sha256": "e62287d9038a2d1a17f9639b017e41dedd03f0baee1f129c3f203c0817ad3cb9",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px viewed; seven checks pass. Exactly one clearly canine head on enormous scaled lizard torso, planted forelegs and hindquarters with long curling tail. Gold dust coats scales and real flame originates at eye region, grounded c02/c15. Raised head is a moment respecting limited mobility. Cavern and treasure clear; no extra heads, text, nudity or gore. Low angle remains overwhelming at 200px.",
+    "limitations": [],
+    "native_sha256": "e62287d9038a2d1a17f9639b017e41dedd03f0baee1f129c3f203c0817ad3cb9",
+    "reviewed_at": "2026-10-12T02:38:21.743751+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e62287d9038a2d1a17f9639b017e41dedd03f0baee1f129c3f203c0817ad3cb9",
+    "notes": "Dog-headed giant lizard with fire coming from its eyes and gold-dusted scales guarding treasure in the Yaguarón cave; one head."
+  }
+}

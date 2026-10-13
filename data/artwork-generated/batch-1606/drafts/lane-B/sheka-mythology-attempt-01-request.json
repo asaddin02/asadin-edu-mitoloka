@@ -1,0 +1,54 @@
+{
+  "slug": "sheka-mythology",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Sheka, the grass-haired differently-eyed Slavic field-spirit variant of Sheka. Native square PNG at least1024x1024.\nANATOMY: ONE deformed DWARF-like adult spirit, one head/TWO DIFFERENT COLORED EYES (one brown one pale blue), GRASS grows instead of hair, TWO arms/TWO legs, fullyopaque ALL-BLACK simple clothes. No horns/claws/fangs. [sheka-mythology-c01, sheka-mythology-c02]\nMOMENT: REACH toward close viewer from a sharp bend in tall fieldgrass, crooked brow and intense gaze, plant one foot into wrong branching path as if leading astray; grasshair blown in sunsetwind.\nPOWER: Leads wanderers astray in fields: show two confusing branchingpaths behind him, no diseaseeffects, horses or childvictims. [sheka-mythology-c03, sheka-mythology-c05]\nSCALE & CAMERA: Lowclose camera at dwarf height, head/grasshair/twocoloreyes and reachinghand dominate, normal fieldstalks taller behind.\nLIGHT & WEATHER: One dominant warm sunset side light, deep walnut shadows, antique gold rim light, natural physical particles only.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Field at SUNSET with tall stalks and a confusing path junction. [sheka-mythology-c02, sheka-mythology-c03]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the grass-haired differently-eyed Slavic field-spirit variant of Sheka",
+  "basis_claim_ids": [
+    "sheka-mythology-c01",
+    "sheka-mythology-c02",
+    "sheka-mythology-c03",
+    "sheka-mythology-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE deformed DWARF-like adult spirit, one head/TWO DIFFERENT COLORED EYES (one brown one pale blue), GRASS grows instead of hair, TWO arms/TWO legs, fullyopaque ALL-BLACK simple clothes. No horns/claws/fangs.",
+      "claim_ids": [
+        "sheka-mythology-c01",
+        "sheka-mythology-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Leads wanderers astray in fields: show two confusing branchingpaths behind him, no diseaseeffects, horses or childvictims.",
+      "claim_ids": [
+        "sheka-mythology-c03",
+        "sheka-mythology-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Field at SUNSET with tall stalks and a confusing path junction.",
+      "claim_ids": [
+        "sheka-mythology-c02",
+        "sheka-mythology-c03"
+      ]
+    }
+  ],
+  "aura": "REACH toward close viewer from a sharp bend in tall fieldgrass, crooked brow and intense gaze, plant one foot into wrong branching path as if leading astray; grasshair blown in sunsetwind. Grounded in sheka-mythology-c01, sheka-mythology-c02, sheka-mythology-c03, sheka-mythology-c05.",
+  "artistic_choices": [
+    "Selected Slavic fieldvariant c02, not importing Turkic forestdwelling beyond dwarf-like shared identity. Grasshair and heterochromia source distinguishing anatomy, deformity asymmetry respectful notcomic. No invented giant size.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

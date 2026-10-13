@@ -1,0 +1,87 @@
+{
+  "slug": "ouni",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ouni, Ouni as the friendly long-black-haired hag spinning enormous hemp bundles.\nANATOMY: ONE ugly elderly humanlike woman with angry natural DEMON-WOMAN FACE, ONE head/TWO eyes/TWO arms/TWO legs/FIVE humanfingers per hand; body covered in long BLACK HAIR over a fullyOPAQUE worn robe, no horns/extraheads. Long black hair tangled in rope-like layers [ouni-c02, ouni-c05, ouni-c10]\nMOMENT: SPIN ramie/hemp thread at uncanny speed, biting fiberbundle to draw strands while hands pull huge tight bundles; face looms seriously toward viewer\nPOWER: Friendly toward kind hosts and spins enormous bundles in one night; physical taut fiberstrands and growing pile of thread move through hands, no magical aura [ouni-c06, ouni-c07, ouni-c12]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one low amber oillamp on worktable, deep warm timber shadows; only physical particles justified by action.\nSURFACE: tangled black hair, worn opaque weave, coarse hempfiber and timber.\nSETTING: inside rural mountain hut late at night, rough timber and simple fiberwork table [ouni-c05, ouni-c06, ouni-c09]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE ugly elderly humanlike woman with angry natural DEMON-WOMAN FACE, ONE head/TWO eyes/TWO arms/TWO legs/FIVE humanfingers per hand; body covered in long BLACK HAIR over a fullyOPAQUE worn robe, no horns/extraheads. Long black hair tangled in rope-like layers",
+      "claim_ids": [
+        "ouni-c02",
+        "ouni-c05",
+        "ouni-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Friendly toward kind hosts and spins enormous bundles in one night; physical taut fiberstrands and growing pile of thread move through hands, no magical aura",
+      "claim_ids": [
+        "ouni-c06",
+        "ouni-c07",
+        "ouni-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "inside rural mountain hut late at night, rough timber and simple fiberwork table",
+      "claim_ids": [
+        "ouni-c05",
+        "ouni-c06",
+        "ouni-c09"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "ouni-c02",
+    "ouni-c05",
+    "ouni-c10",
+    "ouni-c06",
+    "ouni-c07",
+    "ouni-c12",
+    "ouni-c09"
+  ],
+  "depicted_variant": "Ouni as the friendly long-black-haired hag spinning enormous hemp bundles",
+  "artistic_choices": [
+    "Preserve angrylooking face but helpful disposition c06, no aggression against host. Opaque robe modesty, fiberthreads literal physical material not energyribbons."
+  ],
+  "aura": "Friendly toward kind hosts and spins enormous bundles in one night; physical taut fiberstrands and growing pile of thread move through hands, no magical aura [ouni-c06, ouni-c07, ouni-c12]",
+  "generation_failures": [
+    {
+      "attempt": 1,
+      "reason": "Historical image_gen call interrupted 2026-10-13T00:39:50Z; no PNG returned or recovered. Counts against max3 attempts.",
+      "request_file": "data/artwork-generated/batch-1606/drafts/lane-A/ouni-request-attempt-01.json",
+      "started_at": "2026-10-13T00:39:22.718339+00:00"
+    }
+  ],
+  "rejected_attempts": [],
+  "worker_agent": "lane-A",
+  "worker": "codex",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330e-902b-7653-806a-459f8e1b2475/exec-97a76403-7125-4944-bc97-11f1a3ffe641.png",
+  "generated_at": "2026-10-13T02:23:54.619308+00:00",
+  "native_sha256": "afbda6de511e0cacef800c81dc539cb4119a295a8ab6bb450aac3b0a85405fdc",
+  "width": 1254,
+  "height": 1254,
+  "original_file": "data/artwork-generated/batch-1606/originals/ouni.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254 and200px. Angry elderly hag looms over lens actively biting hemp and pulling large physical bundles; black hair covers body and worn opaque robe; two human arms and natural grasping hands, no additional anatomy. Fierce expression and close pulling fiber moment read200px; helpful labor not assault. Chosen modern Yokai.com variant c05/c06/c07 and hempwork c12, no generic effects/text. All7 checks pass.",
+    "limitations": [],
+    "native_sha256": "afbda6de511e0cacef800c81dc539cb4119a295a8ab6bb450aac3b0a85405fdc",
+    "reviewed_at": "2026-10-13T02:24:27.684120+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "afbda6de511e0cacef800c81dc539cb4119a295a8ab6bb450aac3b0a85405fdc",
+    "notes": "Hair-covered old hag with a fierce face spinning enormous hemp bundles through her mouth and hands in a lamplit room."
+  }
+}

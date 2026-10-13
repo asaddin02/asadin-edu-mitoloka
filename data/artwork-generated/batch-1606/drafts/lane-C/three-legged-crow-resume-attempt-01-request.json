@@ -1,0 +1,56 @@
+{
+  "slug": "three-legged-crow",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Three-legged crow, the red three-legged solar crow of EastAsian myth. Native square PNG at least1024x1024.\nANATOMY: ONE RED CROW, ONE head/TWO eyes/ONE crowbeak, TWO wings, EXACTLY THREE LEGS and THREE SEPARATE crowfeet beneathbody, single natural crowtail. No phoenixcrest/horns or extra wings. [three-legged-crow-c01, three-legged-crow-c03, three-legged-crow-c05, three-legged-crow-c07]\nMOMENT: SWOOP straight toward lowviewer from before solar disc, spread bothwings, fan THREE legs into CLEAR separateleft/center/right positions with feetcurled naturally as it descends.\nPOWER: Represents sun and called qi ofsun; actual blazingSOLARDISC behindbird lights redfeathers, bird emits no flame/energybeam. [three-legged-crow-c01, three-legged-crow-c07]\nSCALE & CAMERA: Extreme low closeflightcamera, head/redwings dominate and3legs isolated against sunlight/darkcloud, no fourth hiddenleg.\nLIGHT & WEATHER: Actualsolar disc powerful backlight, darkwarm featherfront with antiquegoldrim, highcontrast.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Sky before the Sun, distant fusangtree silhouette lowerframe from suntransport tale, no humans. [three-legged-crow-c13]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the red three-legged solar crow of EastAsian myth",
+  "basis_claim_ids": [
+    "three-legged-crow-c01",
+    "three-legged-crow-c03",
+    "three-legged-crow-c05",
+    "three-legged-crow-c07",
+    "three-legged-crow-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE RED CROW, ONE head/TWO eyes/ONE crowbeak, TWO wings, EXACTLY THREE LEGS and THREE SEPARATE crowfeet beneathbody, single natural crowtail. No phoenixcrest/horns or extra wings.",
+      "claim_ids": [
+        "three-legged-crow-c01",
+        "three-legged-crow-c03",
+        "three-legged-crow-c05",
+        "three-legged-crow-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Represents sun and called qi ofsun; actual blazingSOLARDISC behindbird lights redfeathers, bird emits no flame/energybeam.",
+      "claim_ids": [
+        "three-legged-crow-c01",
+        "three-legged-crow-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sky before the Sun, distant fusangtree silhouette lowerframe from suntransport tale, no humans.",
+      "claim_ids": [
+        "three-legged-crow-c13"
+      ]
+    }
+  ],
+  "aura": "SWOOP straight toward lowviewer from before solar disc, spread bothwings, fan THREE legs into CLEAR separateleft/center/right positions with feetcurled naturally as it descends. Grounded in three-legged-crow-c01, three-legged-crow-c03, three-legged-crow-c05, three-legged-crow-c07, three-legged-crow-c13.",
+  "artistic_choices": [
+    "Choose Chinese redsun crow c05, not JapaneseYatagarasu cloth/film adaptation. Threelegs c03/c07 clear; no mix c08 threeTOES wording as limbcount. Disc is celestialbackdrop not glowingoutline.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

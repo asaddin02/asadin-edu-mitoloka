@@ -1,0 +1,89 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "aderyn-y-corff",
+  "depicted_variant": "Corpse bird tradisi Sikes tanpa bulu/sayap, terbang tanpa tumpuan dan memanggil di pintu orang sekarat.",
+  "basis_claim_ids": [
+    "aderyn-y-corff-c02",
+    "aderyn-y-corff-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Burung satu kepala2mata2kaki dan paruh, TANPA bulu dan TANPA sayap; kulitgelapeditorial.",
+      "claim_ids": [
+        "aderyn-y-corff-c02",
+        "aderyn-y-corff-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Terbang tanpa tumpuan dan chirpsdewch sebagai pertanda, tanpa memvisualkan kematian korban.",
+      "claim_ids": [
+        "aderyn-y-corff-c02",
+        "aderyn-y-corff-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Di luar pintu orang sekarat, malameditorial.",
+      "claim_ids": [
+        "aderyn-y-corff-c02"
+      ]
+    }
+  ],
+  "aura": "Burung tanpa bulu/sayap aderyn-y-corff-c06 tetap airborne dan panggilan pertanda di pintu aderyn-y-corff-c02 memberi keganjilan.",
+  "artistic_choices": [
+    "Tidak mencampur owl bersayap Owen c09/c10 dengan varian Sikeswingless.",
+    "Wujud unggasgelap berekor pendek/paruh sederhana dan kulit kasar editorial karena anatomi spesifik tak diberikan selainwinglessfeatherless.",
+    "Close-up tanpa besarrekaan; tidak ada darah/luka/amputasi; no dyingpatient shown."
+  ],
+  "prompt": "Edit ONLY the short TAIL extending to the RIGHT behind this original wingless bird: remove every feather-like tuft,barb,fan,ridge or filament there and replace it with ONE short blunt smooth LEATHERY tail-stub contiguous with its wrinkled bird body. The bird must have ABSOLUTELY NO FEATHERS and NO WINGS. Preserve the original two feet,two eyes,beak,skin,airborne action,doorway,rain,light,composition and every other element. No new anatomy,text,watermark or glow. Do not remove or alter the two legs.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-aab06dbb-0728-4df2-9ce0-7f0ae6cac36f.png",
+  "generated_at": "2026-10-10T03:28:09.445Z",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/aderyn-y-corff-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/aderyn-y-corff-attempt-01.json",
+      "native_sha256": "e187f974d82a3146e9909bd0c1f4560487c2b1c59eced3f03d235fbf3bf18ee3",
+      "reason": "Ekor di belakang tampak feather-like bercabang/berbaris meskipun tubuh tanpa bulu dan sayap. C06 mensyaratkan tanpa feathers; targeted edit tail smooth diperlukan."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/aderyn-y-corff.png",
+  "native_sha256": "fc9ac6b5c8bf02be36965d248cb55344d1f4989900326128f29caad373e56763",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native attempt02 dan200px dilihat: satuhead2eyes/2feet, tubuh sepenuhnya leathery TANPA sayap/bulu,tail sekarang smoothstub tanpa featherbarbs. Airborneunsupported dan callbeakoutside door c02/c06,7Uji Sangar semuaya; uncanny severe bukan owl cute. Tanpa pasien/korban,glow/teks/glyph/desainadaptasi.",
+    "limitations": [],
+    "native_sha256": "fc9ac6b5c8bf02be36965d248cb55344d1f4989900326128f29caad373e56763",
+    "reviewed_at": "2026-10-10T03:28:09.546Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/aderyn-y-corff-attempt-02.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "fc9ac6b5c8bf02be36965d248cb55344d1f4989900326128f29caad373e56763",
+    "notes": "Featherless, wingless dark bird hovering outside a doorway in the rain, beak gaping in its omen cry."
+  }
+}

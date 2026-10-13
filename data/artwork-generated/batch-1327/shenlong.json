@@ -1,0 +1,87 @@
+{
+  "slug": "shenlong",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shenlong, the azure-scaled spirit dragon governing storms, clouds and rain.\nANATOMY: One original naturalistic Chinese spirit dragon with azure scales: exactly one dragon head, two eyes, one long scaly sinuous body, four natural clawed limbs, no wings, no modern cartoon design; head and long neck dominate [shenlong-c01, shenlong-c04, shenlong-c05]\nMOMENT: Dive down from storm clouds toward the viewer, coil the long azure body across the sky and command the heavy rain with an imposing downward gaze.\nPOWER: Dense physical rain and storm cloud fronts surge across the sky under the rain-governing dragon; no lightning bolts from eyes or magical beams [shenlong-c01, shenlong-c02, shenlong-c04]\nSCALE & CAMERA: extreme low angle; extreme low angle from below the clouds; large dragon scale c03, tiny dark ridges far below; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dominant amber moonbeam or dying-sun shaft, deep walnut shadows, high contrast rim light, physical dust or mist, no even daylight.\nSURFACE: rough wet azure scales with warm antique-gold edge reflections, rain slick ridges.\nSETTING: Above rain-bearing clouds, the heavens into which the dragon rises [shenlong-c03, shenlong-c05]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Shenlong bersisik biru-azure memerintah awan hujan, bukan naga pop-culture.",
+  "basis_claim_ids": [
+    "shenlong-c01",
+    "shenlong-c04",
+    "shenlong-c05",
+    "shenlong-c02",
+    "shenlong-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One original naturalistic Chinese spirit dragon with azure scales: exactly one dragon head, two eyes, one long scaly sinuous body, four natural clawed limbs, no wings, no modern cartoon design; head and long neck dominate",
+      "claim_ids": [
+        "shenlong-c01",
+        "shenlong-c04",
+        "shenlong-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dense physical rain and storm cloud fronts surge across the sky under the rain-governing dragon; no lightning bolts from eyes or magical beams",
+      "claim_ids": [
+        "shenlong-c01",
+        "shenlong-c02",
+        "shenlong-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Above rain-bearing clouds, the heavens into which the dragon rises",
+      "claim_ids": [
+        "shenlong-c03",
+        "shenlong-c05"
+      ]
+    }
+  ],
+  "aura": "Dense physical rain and storm cloud fronts surge across the sky under the rain-governing dragon; no lightning bolts from eyes or magical beams [shenlong-c01, shenlong-c02, shenlong-c04]",
+  "artistic_choices": [
+    "Memilih ikonografi azure c04, bukan lima warna varian umum Guanzi.",
+    "Tidak mengarang Boshan yang bentuknya tidak dijelaskan atau lightning-eye; empat tungkai merupakan pembacaan naturalistik editorial naga."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-c47da19a-9b08-4375-8d30-c6649b6170d7.png",
+  "generated_at": "2026-10-10T02:49:43.009759+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/shenlong.png",
+  "native_sha256": "e94d1db785b0ad4470ed8622c23b0a187714e0ea40907b1e4f812806ee2a3f67",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: naga bersisik azure c04 satu kepala dengan badan panjang dan tungkai konsisten sebagian tertutup clouds; menukik dominan pada awan hujan c01/c04, tidak lightning-eye. Dua mata dan ciri naga jelas. Uji Sangar7/7, tanpa glyph/gore.",
+    "limitations": [],
+    "native_sha256": "e94d1db785b0ad4470ed8622c23b0a187714e0ea40907b1e4f812806ee2a3f67",
+    "reviewed_at": "2026-10-10T02:49:43.009759+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e94d1db785b0ad4470ed8622c23b0a187714e0ea40907b1e4f812806ee2a3f67",
+    "notes": "Azure Chinese dragon with four clawed limbs and no wings driving dense rain and cloud fronts over mountain peaks."
+  }
+}

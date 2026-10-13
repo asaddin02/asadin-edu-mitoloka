@@ -1,0 +1,59 @@
+{
+  "slug": "kay-s",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kayış, the Turkish strap-legged ghoul clinging to a traveller. Native square PNG at least1024x1024.\nANATOMY: ONE terrifying OLD-MAN ghoul head and human upper body, TWO arms/TWO hands, but EXACTLY TWO long LEATHER-STRAP legs without feet; straps wrap an adult traveller waist. ONE fully opaque plainly clothed adult male traveller with two arms/two legs/one head, no children. [kay-s-c01, kay-s-c02, kay-s-c03, kay-s-c05]\nMOMENT: CLING atop traveller shoulders, old ghoul head leans toward viewer with clenched expression; two long flat leather legs clearly tighten around waist while traveller staggers, adult travellers hands pulling at the straps.\nPOWER: Strap legs hold traveller and refuse release until journey ends; physical binding only, no magical aura or hypnosis beams. [kay-s-c02, kay-s-c03, kay-s-c05]\nSCALE & CAMERA: Low tight angle on ghoul above adult shoulders; head/arms and two waist-wrapped straps all readable, not distant scene.\nLIGHT & WEATHER: Single cold moonbeam, dark riverbank, deep walnut shadow.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: An unspecified riverside road at night. [kay-s-c04, kay-s-c08]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the Turkish strap-legged ghoul clinging to a traveller",
+  "basis_claim_ids": [
+    "kay-s-c01",
+    "kay-s-c02",
+    "kay-s-c03",
+    "kay-s-c05",
+    "kay-s-c04",
+    "kay-s-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE terrifying OLD-MAN ghoul head and human upper body, TWO arms/TWO hands, but EXACTLY TWO long LEATHER-STRAP legs without feet; straps wrap an adult traveller waist. ONE fully opaque plainly clothed adult male traveller with two arms/two legs/one head, no children.",
+      "claim_ids": [
+        "kay-s-c01",
+        "kay-s-c02",
+        "kay-s-c03",
+        "kay-s-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strap legs hold traveller and refuse release until journey ends; physical binding only, no magical aura or hypnosis beams.",
+      "claim_ids": [
+        "kay-s-c02",
+        "kay-s-c03",
+        "kay-s-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "An unspecified riverside road at night.",
+      "claim_ids": [
+        "kay-s-c04",
+        "kay-s-c08"
+      ]
+    }
+  ],
+  "aura": "CLING atop traveller shoulders, old ghoul head leans toward viewer with clenched expression; two long flat leather legs clearly tighten around waist while traveller staggers, adult travellers hands pulling at the straps. Grounded in kay-s-c01, kay-s-c02, kay-s-c03, kay-s-c05, kay-s-c04, kay-s-c08.",
+  "artistic_choices": [
+    "Selected hand-bearing clinging variant c05, not handless c04 or belly snake arms c10. Leather legs should be two flat weathered straps, no extra conventional legs. Older man face and ordinary clothes editorial. Non-graphic adult peril.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

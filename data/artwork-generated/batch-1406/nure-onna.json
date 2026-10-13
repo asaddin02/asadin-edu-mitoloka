@@ -1,0 +1,82 @@
+{
+  "slug": "nure-onna",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of nure onna, the armless enormous sea-serpent variant of the wet-haired yōkai.\nANATOMY: One woman head on a continuous enormous snake body, one head, two eyes, no human arms, no legs, no human torso, long dripping black hair, visibly forked snake tongue; no extra head or horns [nure-onna-c01, nure-onna-c05, nure-onna-c09, nure-onna-c10]\nMOMENT: Surge out of the shoreline water toward the viewer, coils driving forward, wet hair swept aside and forked tongue extending in an impending hunt\nPOWER: Natural spray driven by the surfacing snake body; predatory hunt documented, no blood-draining scene and no invented magical beams [nure-onna-c07, nure-onna-c14]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: one dominant moonbeam with warm reflected shore light, rim-lit water spray; physical particles only where justified by the action.\nSURFACE: wet black hair and slick rough snake scales.\nSETTING: Shoreline of Kyushu with shallow dark water [nure-onna-c04, nure-onna-c08]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One woman head on a continuous enormous snake body, one head, two eyes, no human arms, no legs, no human torso, long dripping black hair, visibly forked snake tongue; no extra head or horns",
+      "claim_ids": [
+        "nure-onna-c01",
+        "nure-onna-c05",
+        "nure-onna-c09",
+        "nure-onna-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Natural spray driven by the surfacing snake body; predatory hunt documented, no blood-draining scene and no invented magical beams",
+      "claim_ids": [
+        "nure-onna-c07",
+        "nure-onna-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Shoreline of Kyushu with shallow dark water",
+      "claim_ids": [
+        "nure-onna-c04",
+        "nure-onna-c08"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "nure-onna-c01",
+    "nure-onna-c05",
+    "nure-onna-c09",
+    "nure-onna-c10",
+    "nure-onna-c07",
+    "nure-onna-c14",
+    "nure-onna-c04",
+    "nure-onna-c08"
+  ],
+  "depicted_variant": "the armless enormous sea-serpent variant of the wet-haired yōkai",
+  "artistic_choices": [
+    "Choose armless serpent-body variant c09 and woman head only; no nude human torso.",
+    "Show hunt before contact, avoiding victims and gore.",
+    "Low moonlit water and dark bronze highlights are editorial."
+  ],
+  "aura": "Natural spray driven by the surfacing snake body; predatory hunt documented, no blood-draining scene and no invented magical beams [nure-onna-c07, nure-onna-c14]",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-050.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-499cdf5a-49ca-4af4-9925-85ecfccb7032.png",
+  "generated_at": "2026-10-12T02:42:30.579192+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/nure-onna.png",
+  "native_sha256": "17531da99031548c9533002070bc97dab51d6c1adca88aa26ba9ca8d69b65192",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native view: woman head directly joining a large coiling snake body, no human torso, arms or legs; two eyes, long wet black hair and clearly forked long tongue c10. Forward surface surge drives shoreline spray; no victim or gore. Serpentine anatomy and direct predatory gaze remain menacing at200px. Seven Sangar checks pass; no text or borrowed iconography.",
+    "limitations": [],
+    "native_sha256": "17531da99031548c9533002070bc97dab51d6c1adca88aa26ba9ca8d69b65192",
+    "reviewed_at": "2026-10-12T02:42:30.579192+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "17531da99031548c9533002070bc97dab51d6c1adca88aa26ba9ca8d69b65192",
+    "notes": "Woman's head with long wet hair and a forked tongue on a huge snake body surfacing in moonlit surf; no arms."
+  }
+}

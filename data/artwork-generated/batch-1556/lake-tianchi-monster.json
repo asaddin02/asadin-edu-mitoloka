@@ -1,0 +1,72 @@
+{
+  "slug": "lake-tianchi-monster",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Lake Tianchi Monster, the reported long-necked smooth grey human-headed lake creature. Native square PNG at least1024x1024.\nANATOMY: ONE creature with ONE HUMAN-LIKE HEAD, TWO BIG ROUND EYES and PROTRUDING MOUTH; smooth GREY SKIN; neck1.2-1.5metres long, clear WHITE RING separates neck from barely visible TORSO at waterline. Body below lake water completely obscured, no speculative legs/fins/wings added. [lake-tianchi-monster-c04, lake-tianchi-monster-c09]\nMOMENT: SURGE head and long neck straight out of dark water toward close viewer, mouth open and big eyes fixed, a heavy sheet of water cascading from white neck-base ring.\nPOWER: Reported aquatic appearance/swimming; physical wake/splash only, no magical powers or fire. [lake-tianchi-monster-c09]\nSCALE & CAMERA: Extreme low water-level camera inches from surfacing head, longneck fillsmost vertical frame with ring/base at bottom, no invented gigantic scale.\nLIGHT & WEATHER: One cold moon shaft over grey skin and dark water, white ring stark, natural spray.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Heaven Lake/Tianchi at Baekdu-Changbai volcanic peak, distant crater rim subordinate behind water. [lake-tianchi-monster-c01]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the reported long-necked smooth grey human-headed lake creature",
+  "basis_claim_ids": [
+    "lake-tianchi-monster-c04",
+    "lake-tianchi-monster-c09",
+    "lake-tianchi-monster-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE creature with ONE HUMAN-LIKE HEAD, TWO BIG ROUND EYES and PROTRUDING MOUTH; smooth GREY SKIN; neck1.2-1.5metres long, clear WHITE RING separates neck from barely visible TORSO at waterline. Body below lake water completely obscured, no speculative legs/fins/wings added.",
+      "claim_ids": [
+        "lake-tianchi-monster-c04",
+        "lake-tianchi-monster-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Reported aquatic appearance/swimming; physical wake/splash only, no magical powers or fire.",
+      "claim_ids": [
+        "lake-tianchi-monster-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Heaven Lake/Tianchi at Baekdu-Changbai volcanic peak, distant crater rim subordinate behind water.",
+      "claim_ids": [
+        "lake-tianchi-monster-c01"
+      ]
+    }
+  ],
+  "aura": "SURGE head and long neck straight out of dark water toward close viewer, mouth open and big eyes fixed, a heavy sheet of water cascading from white neck-base ring. Grounded in lake-tianchi-monster-c04, lake-tianchi-monster-c09, lake-tianchi-monster-c01.",
+  "artistic_choices": [
+    "Longneck/humanhead c09 report chosen, do not blend buffalo c02, horsehead c10 or seal/fins c12. Torso hidden by lake prevents fabricated anatomy. Sighting illustration not claim of verified species.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-be4f6187-2cc8-4af3-8c22-201fb22fc514.png",
+  "generated_at": "2026-10-12T20:24:39.350547+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/lake-tianchi-monster.png",
+  "native_sha256": "8765efb6d9eb61a0b567b5c6adac47887ec335a0753d2a855ee970f56598c463",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 viewed: onehumanlike rounded head with nose/large2roundeyes/protrudingmouth, longsmooth greyneck and distinct whitebase ring c04/c09; torso underwater, no speculative legs/fins or mixedbuffalo/horse variant. Close waterlevel surge and cascading physicalwater c09 over Tianchi craterlake c01 form imposing uncanny active subject at200, no invented giant size/magic/text/gore. All7Sangarchecks pass.",
+    "limitations": [],
+    "native_sha256": "8765efb6d9eb61a0b567b5c6adac47887ec335a0753d2a855ee970f56598c463",
+    "reviewed_at": "2026-10-12T20:28:33.499945+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8765efb6d9eb61a0b567b5c6adac47887ec335a0753d2a855ee970f56598c463",
+    "notes": "Long grey neck with a white ring at the waterline and a human-like head with big round eyes and protruding mouth rising from moonlit Heaven Lake under the crater walls; the reported form, eerie rather than comic."
+  }
+}

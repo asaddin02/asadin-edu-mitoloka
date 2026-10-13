@@ -1,0 +1,83 @@
+{
+  "slug": "aim",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Aim, the Goetia Duke with three distinctheads and a burningfirebrand, ridingaviper. Native square PNG at least1024x1024pixels.\nANATOMY: ONEhandsomehumanoidbody fullyclothed inopaqueplainrobe; exactlyTHREEheads arrangedseparateatshoulders: viewerLEFTserpenthead/twoeyes, CENTERhandsomehumanhead/twoeyes with exactlyTWOclearlyvisible STARshaped marksONFOREHEAD, viewerRIGHT CAThead/twoeyes. Exactlytwohumanarms/twolegs; RIGHThandholdsoneburningfirebrand; ridesONElimblessviperwithonehead/twoeyes. Noextrahorns/headsinflames [aim-c05, aim-c06]\nMOMENT: RIDE the rearingviper down towardviewer and THRUST burningfirebrand toward stonecastle, all3headsfacingviewer andall2foreheadstarsvisible\nPOWER: real firefromfirebrand ignitescastlewoodroof nearby, source power sets cities/castles ablaze; physicalsmoke/sparks only [aim-c06]\nSCALE & CAMERA: extreme lowangle; riderupperbody/headcluster fillsupperframe,viperonehead clearbelow,allthreeheadsunoccluded\nLIGHT & WEATHER: burningfirebrand isdominantamberlight, deepnight shadows, physicalsmokeandsparks\nSURFACE: naturalhuman/cat/snakefaces,wetviper scales,opaquecloth,charredwood\nSETTING: burningcastle atnight, closeforegroundviperandrider dominates, nootherpeople [aim-c06]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.\nCORRECTION: Make RIDER THREE HEADS occupy the entire UPPERHALF and be the unmistakable main subject, each head at least quarter frame width. Human forehead has exactlyTWOlarge gold star-shaped raisedmarks clearly separated, each as wide as an eye, unmistakable at200px; stars are attached forehead marks NOT floating runes. Vipersteed only small lowerquarter head/body, rider sits visibly on it. Keep all3riderheads fully visible and flames subordinate, burningfirebrandandcastle physicalfire retained. No extrahead in flames.",
+  "depicted_variant": "Sloane3825 serpent/man-with2stars/catheads ridingviper, not calf-headvariant.",
+  "basis_claim_ids": [
+    "aim-c05",
+    "aim-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Humanoidbody3heads serpent/humanwith2stars/cat",
+      "claim_ids": [
+        "aim-c05"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Viper steed/firebrand",
+      "claim_ids": [
+        "aim-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Firebrand sets castle aflame",
+      "claim_ids": [
+        "aim-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Castle",
+      "claim_ids": [
+        "aim-c06"
+      ]
+    }
+  ],
+  "aura": "Danger comes from3distinctheads andfirebrand burningcastle (aim-c05, aim-c06).",
+  "artistic_choices": [
+    "Opaqueplainrobe andstar-shapedflatforeheadmarks editorial material realization; no glowingglyphs. Fireeffect onlyfromdocumentedfirebrand, nolegion crowd. Threeheadseachclear andsteedheadnotconfusedwithrider."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/aim-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/aim-attempt-01.json",
+      "native_sha256": "773d7e44ce2d4fb435657f9997c5c6d1b6d9a4262de20af00f0b3c3fe88a6e86",
+      "reason": "Riderheadcluster too small comparedwithvipersteed; twoforeheadstars vanish at200px, failsattribute readability."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-c597-7a53-af3b-3c9b74362858/exec-38a7b76e-f071-44b5-aa29-2322d406037f.png",
+  "generated_at": "2026-10-12T14:14:24.506135+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/aim.png",
+  "native_sha256": "2a84676bf7d4f65b366c4b194cb293e59a97d5c9ee55898c9645095cc59f75cf",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px: tiga kepala rider serpent/man/cat terpisah, masingmasing2mata; tepat2stars di dahi manusia terbaca200px, vipersteed1kepala beda jelas, dua tangan/dua kaki berpakaian. Firebrand membakar kastil c06, subjek dominan konfrontatif. Attempt01reject lama dipertahankan;02lulus semua7UjiSangar.",
+    "limitations": [],
+    "native_sha256": "2a84676bf7d4f65b366c4b194cb293e59a97d5c9ee55898c9645095cc59f75cf",
+    "reviewed_at": "2026-10-12T14:14:24.506135+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2a84676bf7d4f65b366c4b194cb293e59a97d5c9ee55898c9645095cc59f75cf",
+    "notes": "Three heads (serpent, man with two stars on the brow, cat) on one robed body riding a viper and thrusting a firebrand while the castle burns."
+  }
+}

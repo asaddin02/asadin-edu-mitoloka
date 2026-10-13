@@ -1,0 +1,85 @@
+{
+  "slug": "heluo-fish",
+  "depicted_variant": "One-headed ten-bodied living fish; healing by eating is not visually depicted",
+  "basis_claim_ids": [
+    "heluo-fish-c01",
+    "heluo-fish-c05",
+    "heluo-fish-c03",
+    "heluo-fish-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE single fish head, two eyes and one mouth, joined behind the gills to EXACTLY TEN separate complete elongated fish bodies with ten clearly separate fish tails; fan five bodies to the left and five to the right with clear dark gaps, no extra heads, no tentacles, each branch scaly fish body and finned tail",
+      "claim_ids": [
+        "heluo-fish-c01",
+        "heluo-fish-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No healing beams or supernatural power; turbulence and spray caused by the ten bodies swimming",
+      "claim_ids": [
+        "heluo-fish-c03",
+        "heluo-fish-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "River Burning below Mount Burnbright, dark rushing freshwater",
+      "claim_ids": [
+        "heluo-fish-c02"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Surge upward in the rushing river, open the single mouth as if barking while all ten separate fish bodies fan behind its head (heluo-fish-c01, heluo-fish-c05, heluo-fish-c03).",
+  "artistic_choices": [
+    "One-headed ten-bodied living fish; healing by eating is not visually depicted",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "Edit the referenced original cinematic Mythics Heluo illustration. Keep the one central fish head with two eyes and open barking mouth, fish scales, dark river, low camera and dramatic physical swimming action. ANATOMY CORRECTION: The reference currently shows exactly EIGHT separate fish bodies/tails, four on the left and four on the right. ADD TWO MORE COMPLETE FISH BODIES attached to the same single head junction: one lower-left body ending in a separate fully visible fish tail at7oclock, and one lower-right body ending in a separate fully visible fish tail at5oclock. The FINAL image MUST SHOW EXACTLY TEN bodies and TEN COUNTABLE TAIL TIPS: FIVE at left and FIVE at right. Leave dark clear gaps around each of the two new tail tips. No head on a body branch, no eleventh tail, no tentacles. Every tail must fit fully inside square. [heluo-fish-c01,heluo-fish-c05]\nSETTING CORRECTION: Remove all orange glowing fire, lava or glowing streaks on the background mountains. Mount Burnbright and River Burning are place names in the Shanhaijing, not evidence of lava or fire. Keep background mountain stone and trees unlit and dark. [heluo-fish-c02]\nPOWER: no magic or healing light, only physical water splash below the bodies. [heluo-fish-c03,heluo-fish-c05]\nKeep subject dominating and eerie awe at200px, one head ten bodies without overlap. No text, glyphs, labels, symbols, watermark, border, neon, generic glow, nudity or gore. Square PNG1024 or larger.",
+  "referenced_image_paths": [
+    "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-d3b82f4a-84ff-4d77-8909-bbee082a57f8.png"
+  ],
+  "status": "tidak-digambar",
+  "reason": "Tiga percobaan kualitas gagal jumlah satu kepala sepuluh tubuh: attempt01 8–9 ekor, attempt02 delapan, attempt03 hanya sembilan terpisah (5kiri4kanan). Semua PNG nyata dan request/hash/alasan diarsipkan; tidak memilih gambar anatomi salah.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1327,
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/heluo-fish-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/heluo-fish-attempt-01.json",
+      "native_sha256": "dc96a3b14de9a3d257df97d7d53b9ba899f4ddaeb533bd656466bf1eac0a20ba",
+      "reason": "Ten bodies/tails required; only8–9 tail ends can be distinguished, some bodies overlap/disappear in spray. Fails anatomical count at native and200px."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/heluo-fish-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/heluo-fish-attempt-02.json",
+      "native_sha256": "a3623b53c8ca27fd5cacb7d3fc40d8c87ad8241244a004fa2aff334ca4aac82d",
+      "reason": "Only8 separate bodies/tails, four each side, not10. Orange firelike mountain streaks are also unsupported by c02, a place name is not actual fire."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/heluo-fish-attempt-03.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/heluo-fish-attempt-03.json",
+      "native_sha256": "02107d7e7ecffd2b832370cb35ca11ee47e9fffce87a03c89aa8a7d570be62d1",
+      "reason": "Final native and200px still show only9 countable tails: five left, four right. Required exactly10 bodies remains unfulfilled after3 quality attempts; decline rather than accept inaccurate anatomy."
+    }
+  ],
+  "visual_review": null,
+  "decided_at": "2026-10-10T03:10:35.249706+00:00"
+}

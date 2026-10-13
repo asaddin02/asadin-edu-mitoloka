@@ -1,0 +1,61 @@
+{
+  "slug": "wd-q11244093",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of 白竜, the White Dragon interpreted as a white sea waterspout in Korean tradition. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: no invented solid dragon anatomy; the subject IS the documented white waterspout manifestation, a massive twisting column of sea water and white foam, not a humanoid or a small distant funnel [wd-q11244093-c06]\nMOMENT: REAR directly above the viewer at the base of the twisting white sea column, its spiral leaning and wrenching the surface into an overwhelming vortex\nPOWER: active waterspout lifts ocean spray and churns a visible surface vortex; purely water and foam, no neon or dragon laser [wd-q11244093-c06]\nSCALE & CAMERA: extreme low sea-surface camera, white column fills frame from near foreground vortex to cropped cloud ceiling\nLIGHT & WEATHER: single amber gap in storm cloud lights spray, deep walnut-black ocean shadows\nSURFACE: dense white sea foam, torn spray and black-green water\nSETTING: Korean sea in the waterspout interpretation [wd-q11244093-c06]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Korean white-waterspout manifestation, not combined with Chinese dragon anatomy or novel powers.",
+  "basis_claim_ids": [
+    "wd-q11244093-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "White waterspout manifestation, deliberately no invented solid body",
+      "claim_ids": [
+        "wd-q11244093-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Active white water column and sea spray",
+      "claim_ids": [
+        "wd-q11244093-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea in Korean tradition",
+      "claim_ids": [
+        "wd-q11244093-c06"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the towering physical white sea waterspout regarded as White Dragon (wd-q11244093-c06).",
+  "artistic_choices": [
+    "Aniconic manifestation is intentional per GAMBAR 6.5 and explicitly documented by c06. The active white column is the subject and occupies almost the entire frame; not a calm seascape. No solid head, horns or claws invented."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-53f980fd-71bd-47da-8181-144d4ffa2a70.png",
+  "generated_at": "2026-10-12T02:46:21.521711+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/wd-q11244093.png",
+  "native_sha256": "b719d11d1971af0bac98dcca6d91113b08e1f4f5c6bcecb7710f981e9429286c",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px viewed; seven checks pass for deliberate documented manifestation. White sea waterspout itself fills almost whole frame; active swirling column rises from visible surface vortex and spray, not empty calm landscape. No invented dragon head/body or limb counts; water-column reading remains imposing at200px. Only physical foam/water effects grounded c06. No symbols, text, magical outlines or gore.",
+    "limitations": [],
+    "native_sha256": "b719d11d1971af0bac98dcca6d91113b08e1f4f5c6bcecb7710f981e9429286c",
+    "reviewed_at": "2026-10-12T02:46:21.522255+00:00"
+  }
+}

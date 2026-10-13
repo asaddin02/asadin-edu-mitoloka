@@ -12,7 +12,7 @@
     "bukan-makhluk": 127
   },
   "status": "in-progress",
-  "complete": 34,
+  "complete": 36,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -2332,7 +2332,7 @@
       "slug": "balarama",
       "canonical_name": "Balarama",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-072.review.json",
       "research": {
@@ -2341,7 +2341,7 @@
         "slug": "balarama",
         "task": "new",
         "tier": "core",
-        "researched_at": "2026-10-02",
+        "researched_at": "2026-10-08",
         "identity": {
           "canonical_name": "Balarama",
           "native_name": null,
@@ -2435,16 +2435,73 @@
               "balarama-c05",
               "balarama-c06"
             ]
+          },
+          {
+            "id": "Kisah-kisahnya menunjukkan kekuatan Balarama. Pada masa kecilnya sebagai penggembala ia membunuh asura Dhenuka dan pegulat Pralamba serta Mushtika, lalu panglima Kamsa, Kalavakra. Bajaknya menjadi senjata: dengan bajak itu ia melawan asura, menggali jalan bagi Yamuna, dan menyeret seluruh Hastinapura ke Gangga. Dalam perang Kaurava melawan Pandawa ia tetap netral karena telah mengajari Duryodhana maupun Bhima seni gada.",
+            "en": "His tales show Balarama's strength. As a cowherd boy he killed the asura Dhenuka and the wrestlers Pralamba and Mushtika, then Kamsa's commander Kalavakra. His plough is his weapon: with it he fights asuras, digs a channel for the Yamuna and drags all of Hastinapura into the Ganga. In the war of the Kauravas and Pandavas he stays neutral, having taught both Duryodhana and Bhima the art of the mace.",
+            "claim_ids": [
+              "balarama-c07",
+              "balarama-c08",
+              "balarama-c09"
+            ]
           }
         ],
         "cultural_context": null,
         "etymology": null,
         "story_mode": null,
         "did_you_know": null,
-        "abilities": [],
+        "abilities": [
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Bajak sebagai senjata berskala kota",
+              "en": "The plough as a city-scale weapon"
+            },
+            "description": {
+              "id": "Dengan bajaknya Balarama melawan asura, menggali jalan bagi Yamuna, dan menyeret seluruh Hastinapura ke Gangga.",
+              "en": "With his plough Balarama fights asuras, digs a channel for the Yamuna and drags all of Hastinapura into the Ganga."
+            },
+            "claim_ids": [
+              "balarama-c04",
+              "balarama-c08"
+            ]
+          },
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Kekuatan pembunuh asura dan pegulat",
+              "en": "Strength that slays asuras and wrestlers"
+            },
+            "description": {
+              "id": "Ia membunuh asura Dhenuka, pegulat Pralamba dan Mushtika, serta panglima Kamsa, Kalavakra.",
+              "en": "He kills the asura Dhenuka, the wrestlers Pralamba and Mushtika, and Kamsa's commander Kalavakra."
+            },
+            "claim_ids": [
+              "balarama-c07"
+            ]
+          }
+        ],
         "weaknesses": [],
         "variants": [],
-        "stories": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Balarama dalam perang Kaurava dan Pandawa",
+              "en": "Balarama in the war of Kauravas and Pandavas"
+            },
+            "role": {
+              "id": "Guru gada kedua pihak yang memilih netral",
+              "en": "Mace teacher of both sides who stays neutral"
+            },
+            "summary": {
+              "id": "Balarama mengajari Duryodhana dan Bhima bertarung dengan gada; ketika perang pecah antara Kaurava dan Pandawa ia tetap netral karena terikat pada kedua pihak.",
+              "en": "Balarama taught Duryodhana and Bhima to fight with the mace; when war broke out between Kauravas and Pandavas he stayed neutral, bound to both sides."
+            },
+            "claim_ids": [
+              "balarama-c09"
+            ]
+          }
+        ],
         "places": [],
         "timeline": [],
         "relations": [
@@ -2554,6 +2611,39 @@
               "id": "Mackenzie menjelaskan Balarama sebagai inkarnasi ular dunia Shesha.",
               "en": "Mackenzie describes Balarama as an incarnation of the world serpent Shesha."
             }
+          },
+          {
+            "id": "balarama-c07",
+            "source_id": "balarama-s1",
+            "quote": "He killed Dhenuka, an asura sent by Kamsa, as well as Pralamba and Mushtika wrestlers sent by the king. When Krishna was killing Kamsa, Balarama slew his mighty commander, Kalavakra.",
+            "locator": "Legend",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Balarama membunuh Dhenuka, asura kiriman Kamsa, serta pegulat Pralamba dan Mushtika yang dikirim raja itu; ketika Krishna membunuh Kamsa, Balarama menewaskan panglima perkasanya, Kalavakra.",
+              "en": "Balarama killed Dhenuka, an asura sent by Kamsa, and the wrestlers Pralamba and Mushtika sent by the king; while Krishna killed Kamsa, Balarama slew his mighty commander Kalavakra."
+            }
+          },
+          {
+            "id": "balarama-c08",
+            "source_id": "balarama-s1",
+            "quote": "The plough is Balarama's weapon. In the Bhagavata Purana, he uses it to fight asuras, dig a way for Yamuna river to bring it closer to Vrindavan, and he also availed it to drag the entire capital of Hastinapura into the Ganga river.",
+            "locator": "Legend",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Bajak adalah senjata Balarama; dalam Bhagavata Purana ia memakainya untuk melawan asura, menggali jalan bagi Sungai Yamuna agar lebih dekat ke Vrindavan, dan menyeret seluruh ibu kota Hastinapura ke Sungai Gangga.",
+              "en": "The plough is Balarama's weapon; in the Bhagavata Purana he uses it to fight asuras, to dig a channel bringing the Yamuna closer to Vrindavan, and to drag the whole capital of Hastinapura into the Ganga."
+            }
+          },
+          {
+            "id": "balarama-c09",
+            "source_id": "balarama-s1",
+            "quote": "Balarama taught both Duryodhana of the Kauravas and Bhima of the Pandavas the art of war with a mace. When war broke between the Kauravas and the Pandavas, Balarama carried obligations for both sides and so remained neutral.",
+            "locator": "Kurukshetra War",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Balarama mengajari Duryodhana dari pihak Kaurava dan Bhima dari pihak Pandawa seni perang dengan gada; ketika perang pecah ia terikat pada kedua pihak dan tetap netral.",
+              "en": "Balarama taught both Duryodhana of the Kauravas and Bhima of the Pandavas the art of mace warfare; when war broke out he had obligations to both sides and stayed neutral."
+            }
           }
         ],
         "conflicts": [],
@@ -2572,8 +2662,54 @@
         "balarama-c06"
       ],
       "receipt": "data/artwork-generated/batch-1047/balarama.json",
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/balarama.png",
-      "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/balarama.png",
+      "native_sha256": "8f088c605809a489a804d193780b57a24bf43c2e6c9d130a877d949dce9250ca",
+      "receipt_path": "data/artwork-generated/batch-1047/balarama.json",
+      "url": "/assets/art/balarama-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of BALARAMA, mighty Hindu deity and Krishna's elder brother, respectfully depicted during his extraordinary deed of drawing the Yamuna toward Vrindavan.\nANATOMY: one human head, exactly two arms and two hands visibly gripping ONE enormous traditional hooked wooden plough with an iron blade, no additional limbs. Opaque ivory tunic covering chest and abdomen and indigo draped garments covering legs; ornate antique gold crown is an editorial devotional choice. Plough weapon unmissable, angled from lower foreground toward shoulder. [balarama-c01, balarama-c04, balarama-c08]\nMOMENT: wrench the hooked plough toward the viewer with visible muscular exertion, torso twisting, commanding resolute gaze down toward the camera, actively tearing open a channel for the river. His face and shoulders occupy the upper half; both hands and immense plough cross the lower half.\nPOWER: the Yamuna surges into the channel being gouged by the plough: roaring water banks physically bend behind him, iron blade tears dark rock and sprays wet debris, immense pressure of diverted river water visibly responds to this one action. A supernatural divine deed, not a farmer working a field. No extra weapons, no fire, no magic aura. [balarama-c08]\nSCALE & CAMERA: extreme low angle from the torn riverbank beside the iron blade; towering visual dominance through tight foreshortened framing, body fills 80 percent of the square, face unmistakable at 200 pixels. No invented giant body size.\nLIGHT & WEATHER: one narrow warm sunset beam across his stern face and plough blade, deep walnut shadows; river spray and wet dust against the light, cinematic low-key contrast.\nSURFACE: soaked indigo cloth, woven ivory tunic, weathered wood, dark textured iron, churning opaque river water, splintered riverbank rock.\nSETTING: the Yamuna river being drawn nearer Vrindavan; gouged fresh channel, torrents curling behind the deity, background subordinated to his active figure. [balarama-c08]\nMOOD: awe-inspiring sacred power and overwhelming divine strength, reverent and imposing, never evil, cute, calm, decorative or an ordinary ploughman.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. ONE complete square image, not collage.",
+      "depicted_variant": "Balarama actively diverts the Yamuna with a monumental plough weapon, in a tight low-angle devotional action portrait.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Balarama as Hindu deity with unmistakable immense plough weapon; one head/two arms are restrained editorial rendering, clothing opaque.",
+          "claim_ids": [
+            "balarama-c01",
+            "balarama-c04",
+            "balarama-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "The plough draws the Yamuna into a newly torn channel, water physically redirected by the deity rather than routine agriculture.",
+          "claim_ids": [
+            "balarama-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Yamuna river approaching Vrindavan, torn riverbank and surging water during the documented deed.",
+          "claim_ids": [
+            "balarama-c08"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "balarama-c01",
+        "balarama-c04",
+        "balarama-c08"
+      ],
+      "aura": "Superhuman physical river redirection from balarama-c08, direct commanding gaze and foreshortened plough; no generic glow.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Root viewed native PNG: twisting active Balarama dominates, two visible arms/two hands on one large hooked plough, fully opaque covered torso/legs, water rushes in gouged channel. Seven Sangar checks pass: the river-redirection deed clearly exceeds routine agriculture; no extra anatomy, text, generic glow or copied franchise design.",
+        "limitations": [],
+        "native_sha256": "8f088c605809a489a804d193780b57a24bf43c2e6c9d130a877d949dce9250ca",
+        "reviewed_at": "2026-10-08T14:59:58.951Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "287ce28e22cf582214d147cc0aa82fa0a7894c5d48169ef0d58bc1b98c5a6a60"
     },
     {
       "index": 10,
@@ -7209,7 +7345,7 @@
       "slug": "chandra",
       "canonical_name": "Chandra",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-072.review.json",
       "research": {
@@ -7218,7 +7354,7 @@
         "slug": "chandra",
         "task": "new",
         "tier": "core",
-        "researched_at": "2026-10-02",
+        "researched_at": "2026-10-08",
         "identity": {
           "canonical_name": "Chandra",
           "native_name": null,
@@ -7308,10 +7444,46 @@
         "etymology": null,
         "story_mode": null,
         "did_you_know": null,
-        "abilities": [],
+        "abilities": [
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Penguasa Nakshatra dan tanaman obat",
+              "en": "Lord of the Nakshatras and of medicinal plants"
+            },
+            "description": {
+              "id": "Chandra menikahi 27 Nakshatra, dan ketika ia dikutuk menyusut, tanaman obat serta makhluk yang bergantung pada pengaruh bulan ikut menderita.",
+              "en": "Chandra is married to the 27 Nakshatras, and when he was cursed to waste away the medicinal plants and beings dependent on lunar influence suffered with him."
+            },
+            "claim_ids": [
+              "chandra-c01",
+              "chandra-c07",
+              "chandra-c08"
+            ]
+          }
+        ],
         "weaknesses": [],
         "variants": [],
-        "stories": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Kutukan Daksha",
+              "en": "Daksha's curse"
+            },
+            "role": {
+              "id": "Suami 27 Nakshatra yang dikutuk menyusut",
+              "en": "Husband of the 27 Nakshatras, cursed to waste away"
+            },
+            "summary": {
+              "id": "Chandra menikahi 27 putri Daksha tetapi mengistimewakan Rohini; Daksha mengutuknya menderita penyakit susut, yang juga menimpa tanaman obat dan makhluk yang bergantung pada bulan.",
+              "en": "Chandra married Daksha's 27 daughters but favoured Rohini; Daksha cursed him with a wasting disease that also struck the medicinal plants and beings dependent on the moon."
+            },
+            "claim_ids": [
+              "chandra-c07",
+              "chandra-c08"
+            ]
+          }
+        ],
         "places": [],
         "timeline": [],
         "relations": [],
@@ -7409,6 +7581,39 @@
               "id": "Mackenzie mengidentifikasi dewa Bulan Chandra dengan Soma.",
               "en": "Mackenzie identifies the Moon god Chandra with Soma."
             }
+          },
+          {
+            "id": "chandra-c07",
+            "source_id": "chandra-s1",
+            "quote": "Chandra is traditionally married to the 27 daughters of the sage Daksha, who personify the 27 Nakshatras (lunar mansions).",
+            "locator": "Legends",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Chandra secara tradisional menikahi 27 putri resi Daksha, yang mempersonifikasikan 27 Nakshatra (rumah bulan).",
+              "en": "Chandra is traditionally married to the 27 daughters of the sage Daksha, who personify the 27 Nakshatras."
+            }
+          },
+          {
+            "id": "chandra-c08",
+            "source_id": "chandra-s1",
+            "quote": "Despite being married to all 27, Chandra showed special affection for Rohini, causing jealousy among his other wives. ... In anger, Daksha cursed Chandra to suffer from Kshayaroga (consumption or tuberculosis). This affliction impacted not just Chandra but also affected the medicinal plants and other living beings dependent on lunar influence.",
+            "locator": "Legends",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Karena murka, Daksha mengutuk Chandra menderita Kshayaroga (penyakit susut); penderitaan itu tidak hanya menimpa Chandra tetapi juga tanaman obat dan makhluk hidup lain yang bergantung pada pengaruh bulan.",
+              "en": "In anger Daksha cursed Chandra to suffer from Kshayaroga (consumption); the affliction struck not only Chandra but also the medicinal plants and other living beings dependent on lunar influence."
+            }
+          },
+          {
+            "id": "chandra-c09",
+            "source_id": "chandra-s1",
+            "quote": "The most common is one where he is a white-coloured deity, holding a mace in his hand, riding a chariot with three wheels and three or more white horses (up to ten).",
+            "locator": "Iconography",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ikonografinya yang paling umum: dewa berwarna putih yang memegang gada dan mengendarai kereta beroda tiga yang ditarik tiga atau lebih kuda putih (sampai sepuluh).",
+              "en": "His most common iconography is a white deity holding a mace, riding a three-wheeled chariot drawn by three or more white horses (up to ten)."
+            }
           }
         ],
         "conflicts": [],
@@ -7424,8 +7629,61 @@
         ]
       },
       "selection_visual_claim_ids": [],
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/chandra.png",
-      "native_sha256": "c2276bb318a4c32ad2be27cc91dfc665d9e6adf00c608f8dbf7e869f07f997f0"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/chandra.png",
+      "native_sha256": "3521d2a4e4fdea36324c9a266a05bd1d08842be4feebb75c6f0306ad31c666a6",
+      "receipt_path": "data/artwork-generated/batch-1047/chandra.json",
+      "receipt": "data/artwork-generated/batch-1047/chandra.json",
+      "url": "/assets/art/chandra-verified.webp",
+      "prompt": "Use case: precise-object-edit. Edit this original respectful painterly cinematic Mythics illustration of CHANDRA, the Hindu moon deity.\nCHANGE ONLY CLOTHING: add a clearly visible opaque ivory-white HIGH-NECK LONG-SLEEVED UNDER-TUNIC underneath his existing draped ceremonial robes and gold jewelry. This must fully cover his chest, abdomen, right and left shoulders, upper arms, forearms and wrists; his two hands and face remain exposed. Make the under-tunic read unmistakably as woven fabric with a high collar, garment seams and folds, not as white bare skin. Keep the existing flowing outer robes and belt. No naked torso, nipples, bare shoulder or bare arm. Preserve dignity and respect for this living Hindu religion.\nPRESERVE EXACTLY: same one-headed two-armed white male deity and facial features; same right hand gripping ONE large mace; same left hand gripping the reins; same divine forward-driving action; exactly THREE white horses with exactly three heads; exactly THREE wheels in the same coherent three-wheeled chariot arrangement; same harnesses and each hand position; same square composition, camera, moon, night vegetation, dust, rich textures, moonlight and palette. Keep all three wheels and all three horse heads visible. Do not add, remove or move any objects.\nClaim grounding: white deity/mace/three-wheeled chariot/white horses chandra-c09; moonlight, night and vegetation chandra-c01; shining appearance chandra-c03. Clothing is a conservative editorial choice to obey full opaque garment rules, not a new research fact.\nHARD CONSTRAINTS: no text, pseudo-writing, logo, frame, border, watermark, signature, gore, nudity, extra heads, arms, limbs, horses or wheels; no magical aura, neon outline, energy ribbons, additional weapons, film/game/anime/comic designs. Change only the tunic coverage.",
+      "depicted_variant": "Respectful white Chandra actively driving a three-wheeled chariot drawn by exactly three white horses, holding a large mace under the moon.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "White male deity holding a clearly readable mace, wearing an opaque ivory high-neck long-sleeved under-tunic with ceremonial outer robes; one head and two arms as conservative humanlike depiction.",
+          "claim_ids": [
+            "chandra-c09"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "A physically coherent three-wheeled chariot pulled by exactly three white horses; all three wheels made legible through oblique forward view.",
+          "claim_ids": [
+            "chandra-c09"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Moonlight shines onto the active chariot procession and surrounding foliage; no invented destruction, magical beams or elemental storm.",
+          "claim_ids": [
+            "chandra-c01",
+            "chandra-c03"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Night sky with lunar disk and dark vegetation, drawn from his moon/night/plants domain.",
+          "claim_ids": [
+            "chandra-c01"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "chandra-c01",
+        "chandra-c03",
+        "chandra-c09"
+      ],
+      "aura": "His documented white deity, mace and moving three-wheeled horse chariot make the divine identity unmistakable (chandra-c09); physical moonlight over night plants supplies lunar grandeur (chandra-c01,chandra-c03).",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native 1254x1254 inspected after targeted edit. White deity and raised mace dominate the upper image; three white horse heads and dynamic hooves visibly surge forward, with three distinct chariot wheels below. High-neck opaque fabric now visibly covers torso, shoulders and both arms. One head and two hands/arms; no extra attributes or generic magic. Moonlight, night plants and ordinary contact dust are grounded as recorded. Distinct divine iconography and active arrival resolve the previous ordinary-man rejection. No visible lettering, watermark or frame. All seven Uji Sangar answers yes. Root viewed native final independently: high-neck tunic fully covers torso, white deity actively drives three-wheel chariot with three visible white horses while raising mace; seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "3521d2a4e4fdea36324c9a266a05bd1d08842be4feebb75c6f0306ad31c666a6",
+        "reviewed_at": "2026-10-08T15:03:07.944Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "28afc943034aeacf7d89404bf3c2f9777aa6ee6d1a769be77df9e6dd3bd05499"
     },
     {
       "index": 29,

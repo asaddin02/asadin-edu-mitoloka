@@ -1,0 +1,84 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "chamunda",
+  "depicted_variant": "Chamunda laterdepiction perempuan tua skeletal bersunkeneyes berdiri di atas demon kalah dekat sacredfig,tidak mixedKali.",
+  "basis_claim_ids": [
+    "chamunda-c05",
+    "chamunda-c06",
+    "chamunda-c04",
+    "chamunda-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Perempuantua skeletal,sunkeneyes,onehead2eyes,2arms/2legs editorial,fullopaqueclothing.",
+      "claim_ids": [
+        "chamunda-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Berdiri menguasai demon kalah,gerak turun dan gesturecommand; tanpa bloodmagic atau senjata Kali.",
+      "claim_ids": [
+        "chamunda-c06",
+        "chamunda-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dekat sacredfig/cremationgrounds.",
+      "claim_ids": [
+        "chamunda-c04"
+      ]
+    }
+  ],
+  "aura": "Fiercegoddess chamunda-c01 dengan skeletalaged/sunkeneyes chamunda-c05 dan vanquisheddemon chamunda-c06 memberi otoritas megah.",
+  "artistic_choices": [
+    "Dipilih laterdepiction c05/c06,tidak mengimpor lion/sword/skullgarland/tigerskin dari Kali narrative c08–11.",
+    "Opaque highneckdarktunic/sari-shawl menutup torso/pelvis,2arms/legs commonhumanlike editorial karena counttakdirinci.",
+    "Demon kalah merupakan siluet gelap berpakaian di tanah tanpa horns/gore/blood,victory bukanviolence.",
+    "Cremationgroundembers light editorialsetting c04,bukan kuasafire,giganticpresence via framing religiousrespect."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of CHAMUNDA,the fierce Hindu goddess in her later skeletal OLD WOMAN iconographic form,treated reverently.\nANATOMY: ONE ancient skeletal old WOMAN face,TWO deeply SUNKEN eyes,gaunt old face/neck;TWO human arms,TWO legs;FULLY OPAQUE high-neck dark cloth tunic and sari-like mantle covering entire chest,pelvis,torso and legs. No exposed breasts,extra arms,lollingtongue,skullgarland,lion,tigerskin,sword or weapons. [chamunda-c05]\nMOMENT: descending one foot firmly onto the back of a VANQUISHED DEMON,a shadowy fully clothed defeated figure lying low,while she leans toward viewer and raises one clenched hand in stern divine command,other hand firm at her side. No injuries,blood or corpse detail.\nPOWER: her imposing victory posture over the vanquished demon and fierce sovereign command,NO new magic energy. [chamunda-c06,chamunda-c01]\nSCALE & CAMERA: extreme low near herfeet,gaunt goddessface and stern hand dominate frame;demon is a secondary dark silhouette without extra iconographic anatomy.\nLIGHT & WEATHER: one deep amber emberlight from an off-frame cremationground hearth,low-key rim on sunkenoldface,deeper walnutblackshadows,ordinary smoke/dust.\nSURFACE: deeply wrinkled dry agedskin,gaunt cheekbones,weathered opaque cloth,roughash-covered ground,figroots.\nSETTING: sacredfigtree beside cremationgrounds,only fragments behind her. [chamunda-c04]\nMOOD: reverent,overwhelming awe of a fiercely protective divine victory,never evilwitch,ordinary woman,cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-cce826fb-774b-4fd4-83f4-6fb293438715.png",
+  "generated_at": "2026-10-10T03:37:17.444Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-073.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/chamunda.png",
+  "native_sha256": "4109fe368b497e570564d1a5b6c01c03fad10e94da2d19817e6074e0faa444a7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native 1254px dan pratinjau 200px diperiksa. Perempuan tua kerangka dengan dua mata cekung, dua lengan, pakaian opak dan satu kepalan yang tertutup secara anatomis; kaki menekan sosok demon berpakaian tanpa luka. Sudut sangat rendah dan tangan/kaki maju memberi dominasi aktif sesuai chamunda-c05/c06/c01. Pohon ara dan tempat kremasi mengikuti chamunda-c04; tidak menggabungkan ikonografi Kali atau menampilkan gore, tulisan, anatomi tambahan maupun aura cahaya generik.",
+    "limitations": [],
+    "native_sha256": "4109fe368b497e570564d1a5b6c01c03fad10e94da2d19817e6074e0faa444a7",
+    "reviewed_at": "2026-10-10T03:37:17.550Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/chamunda-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "4109fe368b497e570564d1a5b6c01c03fad10e94da2d19817e6074e0faa444a7",
+    "notes": "Skeletal old goddess with sunken eyes standing over a fallen demon on the cremation ground, fist raised in command; fully clothed, no blood or Kali weapons."
+  }
+}

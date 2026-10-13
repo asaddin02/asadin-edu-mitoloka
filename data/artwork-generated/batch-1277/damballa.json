@@ -1,0 +1,86 @@
+{
+  "slug": "damballa",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Damballa, as documented in the accepted traditional claims.\nANATOMY: One great white serpent: one natural serpent head, two eyes, one immense limbless coiling body, no horns or wings; benevolent and wise, not evil [damballa-c02, damballa-c07, damballa-c08]\nMOMENT: Rise majestically and turn toward the viewer while shedding the old translucent serpent skin from his massive coils.\nPOWER: Real freshwater cascades from the shedding skin and joins the spring, expressing the documented creation of Earth's waters [damballa-c06]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single warm shaft of early sun, deep walnut shadows, water mist.\nSURFACE: white ivory scales, dry translucent cast skin, wet bark.\nSETTING: A great tree beside a spring and river [damballa-c16, damballa-c20]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Damballa sebagai ular putih agung yang berganti kulit dan menghadirkan air.",
+  "basis_claim_ids": [
+    "damballa-c02",
+    "damballa-c07",
+    "damballa-c08",
+    "damballa-c06",
+    "damballa-c16",
+    "damballa-c20"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One great white serpent: one natural serpent head, two eyes, one immense limbless coiling body, no horns or wings; benevolent and wise, not evil",
+      "claim_ids": [
+        "damballa-c02",
+        "damballa-c07",
+        "damballa-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Real freshwater cascades from the shedding skin and joins the spring, expressing the documented creation of Earth's waters",
+      "claim_ids": [
+        "damballa-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A great tree beside a spring and river",
+      "claim_ids": [
+        "damballa-c16",
+        "damballa-c20"
+      ]
+    }
+  ],
+  "aura": "Real freshwater cascades from the shedding skin and joins the spring, expressing the documented creation of Earth's waters [damballa-c06]",
+  "artistic_choices": [
+    "Tetap baik hati dan menggetarkan, bukan predator jahat.",
+    "Tidak menggunakan 7000 lilitan secara harfiah; memilih perbuatan penciptaan air c06."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-fa6b3bf1-5fac-4737-b2e1-160742f34286.png",
+  "generated_at": "2026-10-09T01:06:28.817379+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/damballa.png",
+  "native_sha256": "c8425377cf243dc3ddb004c60d2a46db996abfddb472ea912d9c65d51bc63386",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: ular putih agung memenuhi bingkai dan menunduk aktif, satu kepala tanpa tungkai; kulit lama mengelupas dengan aliran air nyata c06. Pohon dan sumber air c16/c20 menjadi latar. Terasa pencipta baik hati yang menggetarkan, bukan hewan biasa. Uji Sangar 7/7.",
+    "limitations": [],
+    "native_sha256": "c8425377cf243dc3ddb004c60d2a46db996abfddb472ea912d9c65d51bc63386",
+    "reviewed_at": "2026-10-09T01:06:28.817379+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "c8425377cf243dc3ddb004c60d2a46db996abfddb472ea912d9c65d51bc63386",
+    "notes": "Great white serpent shedding its skin as freshwater pours into a spring beside a huge tree; benevolent and majestic."
+  }
+}

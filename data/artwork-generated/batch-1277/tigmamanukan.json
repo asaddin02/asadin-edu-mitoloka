@@ -1,0 +1,75 @@
+{
+  "slug": "tigmamanukan",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tigmamanukan, the revered blue augural bird sent by Bathala that opened primordial bamboo.\nANATOMY: one blue bird, thrush-sized, one head, two eyes, two feathered wings, two bird legs, pointed natural beak; no horns [tigmamanukan-c09,tigmamanukan-c17]\nMOMENT: Strike the thick primordial bamboo with its beak as the bamboo splits toward the viewer.\nPOWER: A physical split in the bamboo caused by its beak; wood fibres and splinters visible, no magical light [tigmamanukan-c13,tigmamanukan-c18]\nSCALE & CAMERA: extreme low angle; close dramatic foreshortening; subject fills almost the entire square frame, distinguishable anatomy immediately readable; no invented giant size.\nLIGHT & WEATHER: one dominant moonlight source, strong rim light, deep walnut shadows and antique gold highlights, airborne spray or dust only where physical action causes it.\nSURFACE: tactile rough fur, feather, scale, fabric or wet skin appropriate to the stated anatomy; strong painterly material detail, never plastic.\nSETTING: close to the primordial bamboo of the creation tale, surrounding dark vegetation [tigmamanukan-c13]\nMOOD: dangerous and imposing or respectfully awe-inspiring for sacred beings; decisive action, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. Output one square PNG at least 1024x1024.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one blue bird, thrush-sized, one head, two eyes, two feathered wings, two bird legs, pointed natural beak; no horns",
+      "claim_ids": [
+        "tigmamanukan-c09",
+        "tigmamanukan-c17"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A physical split in the bamboo caused by its beak; wood fibres and splinters visible, no magical light",
+      "claim_ids": [
+        "tigmamanukan-c13",
+        "tigmamanukan-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "close to the primordial bamboo of the creation tale, surrounding dark vegetation",
+      "claim_ids": [
+        "tigmamanukan-c13"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "tigmamanukan-c09",
+    "tigmamanukan-c17",
+    "tigmamanukan-c13",
+    "tigmamanukan-c18"
+  ],
+  "depicted_variant": "Respectful creation action; small size preserved by macro composition",
+  "aura": "Kesan kuat berasal dari strike the thick primordial bamboo with its beak as the bamboo splits toward the viewer (tigmamanukan-c13,tigmamanukan-c18).",
+  "artistic_choices": [
+    "Respectful creation action; small size preserved by macro composition",
+    "Sudut rendah dan framing rapat; palet walnut/emas antik, cahaya bulan adalah editorial.",
+    "Cuaca, tekstur, pakaian buram dan debu/cipratan biasa merupakan pilihan editorial; tidak menambahkan kuasa."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-018.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-c58d1247-95e6-4e24-8d23-ab9986d462a1.png",
+  "generated_at": "2026-10-09T01:00:59.019404+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/tigmamanukan.png",
+  "native_sha256": "d39efa813ddcbd848abb1fb4f6e8cb41d94968a4c155e428855e07a806e1b0f0",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli diperiksa: Uji Sangar 7/7 ya. Burung biru dominan mematuk bambu yang sedang terbelah, paruh dan mata tegas terbaca pada thumbnail. Dua sayap dan kaki burung konsisten, kaki jauh terhalang badan/bambu. Serpihan merupakan aksi c13/c18 tanpa aura. Framing makro menjaga ukuran tanpa pembanding manusia.",
+    "limitations": [],
+    "native_sha256": "d39efa813ddcbd848abb1fb4f6e8cb41d94968a4c155e428855e07a806e1b0f0",
+    "reviewed_at": "2026-10-09T01:00:59.019404+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "d39efa813ddcbd848abb1fb4f6e8cb41d94968a4c155e428855e07a806e1b0f0",
+    "notes": "Blue thrush-sized bird splitting a bamboo stalk with its beak at macro scale; natural bird anatomy, small size preserved."
+  }
+}

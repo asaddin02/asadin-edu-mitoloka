@@ -1,0 +1,73 @@
+{
+  "slug": "huoshu",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Huoshu, the large fire-dwelling white-haired mouse of the Shenyijing account. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one natural mouse head with two eyes and two round ears, four rodent legs and one long rodent tail; exceedingly long fine WHITE silklike hairs, no horns or reptile parts [huoshu-c04, huoshu-c07]\nMOMENT: EMERGE toward viewer from fire between inexhaustible tree trunks, white hair streaming, forepaws climbing over a glowing ember while head peers down directly\nPOWER: animal lives within real fire; fur shows red firelight in fire and white outside, not a magic energy outline or flame breath; trees withstand the fire [huoshu-c02, huoshu-c07, huoshu-c09]\nSCALE & CAMERA: extreme low angle, large documented thousand-jin mouse fills frame, ordinary small embers and tree base for scale\nLIGHT & WEATHER: real habitat fire is only dominant orange-red light; deep black tree shadows, sparks physically from fire\nSURFACE: singed-looking white silky strands lit by real flames, mouse skin, ember and unconsumed bark\nSETTING: southern Fire Mountain amid inexhaustible trees, as Shenyijing account [huoshu-c09]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Shenyijing thousand-jin long white-haired mouse, not rat-sized Yan-island variant.",
+  "basis_claim_ids": [
+    "huoshu-c04",
+    "huoshu-c07",
+    "huoshu-c02",
+    "huoshu-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Mouse with long fine white hair, thousand-jin weight in selected Shenyijing version",
+      "claim_ids": [
+        "huoshu-c04",
+        "huoshu-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dwells in fire/red while inside, white fur when outside",
+      "claim_ids": [
+        "huoshu-c02",
+        "huoshu-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Fire Mountain/inexhaustible trees",
+      "claim_ids": [
+        "huoshu-c09"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the great white-haired mouse emerging unhurt from fire in inexhaustible trees (huoshu-c07, huoshu-c09).",
+  "artistic_choices": [
+    "Fire is documented habitat, not projected fire attack. Large apparent mass grounded thousand-jin source; do not add human victim. Pink rodent nose and fine tail are editorial natural mouse rendering."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-684865ff-2b17-4e78-9d75-7ca0a5a346bc.png",
+  "generated_at": "2026-10-12T04:06:01.097545+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/huoshu.png",
+  "native_sha256": "99b7c206b0760539041a271534586ac19d0af4d5fd5da5723e17b6077b5b7812",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px viewed; all seven checks pass. One natural mouse head/two eyes/two round ears, four-leg body with hindlegs under long fur, one tail trailing upper-left. Long fine white fur clearly distinct against real habitat fire; imposing forward climbing moment. Tree trunks remain standing/inexhaustible in flames. No horns, reptile additions, flamebreath, text/glyphs/gore or generic body glow. At200px supernatural fire-dwelling great mouse remains unmistakable.",
+    "limitations": [],
+    "native_sha256": "99b7c206b0760539041a271534586ac19d0af4d5fd5da5723e17b6077b5b7812",
+    "reviewed_at": "2026-10-12T04:06:01.097879+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "99b7c206b0760539041a271534586ac19d0af4d5fd5da5723e17b6077b5b7812",
+    "notes": "Long-haired white mouse the size of a beast stepping out of the burning tree on the Fire Mountain."
+  }
+}

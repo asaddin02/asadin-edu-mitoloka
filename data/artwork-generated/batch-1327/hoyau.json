@@ -1,0 +1,73 @@
+{
+  "slug": "hoyau",
+  "depicted_variant": "Living winged turtle variant c12, no mixed narrow-snouted serpent anatomy; wing material editorial",
+  "basis_claim_ids": [
+    "hoyau-c12",
+    "hoyau-c07",
+    "hoyau-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one living TURTLE head, two eyes, stout shell-backed turtle body, four turtle legs, a short narrow turtle tail and exactly two wings; no serpent body or invented extra heads",
+      "claim_ids": [
+        "hoyau-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Foul nonluminous body vapor spreads downwind and nearby plants shrivel; no burning aura or humans injured",
+      "claim_ids": [
+        "hoyau-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lake Toya shore with reeds and dark water",
+      "claim_ids": [
+        "hoyau-c09",
+        "hoyau-c12"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Rear out of Lake Toya toward the viewer with wings spread and forefeet pressing wet shore stones (hoyau-c12, hoyau-c07).",
+  "artistic_choices": [
+    "Living winged turtle variant c12, no mixed narrow-snouted serpent anatomy; wing material editorial",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hoyau, the winged turtle manifestation of Hoyau Kamui of Lake Toya.\nANATOMY: one living TURTLE head, two eyes, stout shell-backed turtle body, four turtle legs, a short narrow turtle tail and exactly two wings; no serpent body or invented extra heads [hoyau-c12]\nMOMENT: Rear out of Lake Toya toward the viewer with wings spread and forefeet pressing wet shore stones.\nPOWER: Foul nonluminous body vapor spreads downwind and nearby plants shrivel; no burning aura or humans injured [hoyau-c07]\nSCALE & CAMERA: extreme low angle, close foreshortening, subject dominates square and identifying anatomy reads at200px; no invented giant scale unless documented.\nLIGHT & WEATHER: one dominant moon source, deep warm walnut shadows, antique gold rim highlights, wet air and ordinary physical spray or grit appropriate to action.\nSURFACE: tactile organic texture appropriate to anatomy, rough fur/feather/scales/cloth, wet stone, never plastic or statue.\nSETTING: Lake Toya shore with reeds and dark water [hoyau-c09,hoyau-c12]\nMOOD: dangerous imposing active moment, or reverent overwhelming majesty for sacred beings; never cute, calm, decorative or an ordinary animal/person.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-c7a07e9f-c5b4-4cd6-af7a-db7bd7d2a1ac.png",
+  "generated_at": "2026-10-10T02:49:30.128953+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/hoyau.png",
+  "native_sha256": "475685e0c43a1aac63f95467c50206343324d89a38e1e79f5b4c9e659cc68f9b",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px diperiksa: UjiSangar7/7 ya. Kura-kura bersayap keluar danau dengan cangkang dan kaki jelas, dua sayap berbulu editorial. Kepala/mata2/kaki4 konsisten dengan kaki jauh terhalang badan. Uap bau nonluminous dan tanaman layu c07; tidak ada aura, gore atau teks.",
+    "limitations": [],
+    "native_sha256": "475685e0c43a1aac63f95467c50206343324d89a38e1e79f5b4c9e659cc68f9b",
+    "reviewed_at": "2026-10-10T02:49:30.128953+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "475685e0c43a1aac63f95467c50206343324d89a38e1e79f5b4c9e659cc68f9b",
+    "notes": "Winged turtle crawling up the Lake Toya shore with foul vapor making plants shrivel; one turtle head, four legs, two wings."
+  }
+}

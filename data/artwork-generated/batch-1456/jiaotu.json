@@ -1,0 +1,65 @@
+{
+  "slug": "jiaotu",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Jiaotu, the frog-like door-ring guardian among Chinese dragon sons. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one living FROG-LIKE head, two eyes and broad amphibian mouth holding one plain heavy iron door ring; head and throat only, lower body/limbs outside crop; no dragon horns, beard, whiskers or snail shell combined [jiaotu-c02, jiaotu-c04]\nMOMENT: CLAMP its broad mouth around door ring and TURN directly toward approaching viewer at the closed doorway, muscles tensing; determined living guardian not a metal carving\nPOWER: no documented power; physical clamp and wary gaze express dislike of strangers entering, no magically slamming doors [jiaotu-c03, jiaotu-c04]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: wet pebbled amphibian skin, worn iron ring and old door wood\nSETTING: closed door with ring, close cropped and uninscribed [jiaotu-c04]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Frog-like living guardian and door-ring account, not mixed with primary-text snail form.",
+  "basis_claim_ids": [
+    "jiaotu-c02",
+    "jiaotu-c04",
+    "jiaotu-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Selected frog-like form, mouth holding door ring",
+      "claim_ids": [
+        "jiaotu-c02",
+        "jiaotu-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Closed door ring association/aversion to strangers",
+      "claim_ids": [
+        "jiaotu-c03",
+        "jiaotu-c04"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the unusual live frog-like door-ring guardian confronting an entrant (jiaotu-c02, jiaotu-c03, jiaotu-c04).",
+  "artistic_choices": [
+    "Natural amphibian skin and ring size are editorial. Macro framing supplies awe without enormous bodily scale. No supernatural effect invented. No lower-body or horn count invented; live flesh, not statue."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-2f58dc2d-d3d1-4ff4-a3a7-9dd88dc67200.png",
+  "generated_at": "2026-10-12T07:59:15.908900+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/jiaotu.png",
+  "native_sha256": "aa780e73e1915ebc91e3328d061cf1f8bbf44e2c0a349433e70ffe19be0c989a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Recovered prior successful built-in output, inspected native1254square and200px. All seven Sangar checks pass: one wet living frog-like head/two eyes with no horns or whiskers, mouth actively clamping one iron ring; tight low camera and wary direct gaze make unusual guardian imposing. No lower limb claims invented; closed wood door c03/c04, no supernatural effects. No text, border, franchise cues, nudity or gore.",
+    "limitations": [],
+    "native_sha256": "aa780e73e1915ebc91e3328d061cf1f8bbf44e2c0a349433e70ffe19be0c989a",
+    "reviewed_at": "2026-10-12T07:59:15.909119+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "aa780e73e1915ebc91e3328d061cf1f8bbf44e2c0a349433e70ffe19be0c989a",
+    "notes": "Living toad gripping the iron door ring in its mouth on a studded gate, glaring at the stranger; reads as a creature, not a cast knocker."
+  }
+}

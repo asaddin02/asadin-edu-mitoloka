@@ -1,0 +1,67 @@
+{
+  "slug": "yellow-dragon",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Yellow Dragon, the Yellow Emperor animal manifestation embodying earth in Chinese tradition. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one yellow dragon head, two eyes, close cropped coiling dragon neck; body and limbs remain outside image; no invented horns, wings, armour, additional faces or jewels; yellow scales are editorial rendering of named dragon form [yellow-dragon-c01, yellow-dragon-c03]\nMOMENT: RISE from the dark earth into the close viewer plane, head bending down in overwhelming reverent presence, not an evil monster\nPOWER: no earthquake, earth-splitting, breath weapon or supernatural glow is asserted; earth domain represented by soil held against yellow neck, displaced ordinary dust from emergence only [yellow-dragon-c02, yellow-dragon-c03]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: a single slanting warm sunset shaft, deep walnut shadows, strong rim light\nSURFACE: matte yellow-ochre scale texture and dry dark soil\nSETTING: earth-coloured ground at Chengji, location of recorded appearance, no invented palace [yellow-dragon-c06]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.\nCORRECTION: NO whiskers, NO beard, NO mane, NO hair, NO horns, NO ears, NO dorsal crest or spikes. Head has only yellow scales, two eyes, nasal openings and a broad elongated dragon muzzle with closed mouth. Close head-and-coiling-neck crop, limbs absent from frame. Maintain commanding reverent dragon emergence through ordinary soil, no invented earthquake or glow.",
+  "depicted_variant": "Yellow dragon manifestation, head and neck crop to avoid inventing undocumented limb or horn counts.",
+  "basis_claim_ids": [
+    "yellow-dragon-c01",
+    "yellow-dragon-c03",
+    "yellow-dragon-c02",
+    "yellow-dragon-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Yellow dragon manifestation of Yellow Emperor",
+      "claim_ids": [
+        "yellow-dragon-c01",
+        "yellow-dragon-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Earth domain and ground at Chengji",
+      "claim_ids": [
+        "yellow-dragon-c02",
+        "yellow-dragon-c03",
+        "yellow-dragon-c06"
+      ]
+    }
+  ],
+  "aura": "Reverent awe comes from the Yellow Emperor dragon manifestation and earth association (yellow-dragon-c01, yellow-dragon-c02, yellow-dragon-c03).",
+  "artistic_choices": [
+    "Scaly head and long neck are editorial minimal dragon-form rendering, not a claim of exact iconography. Yellow colour follows name; no unsupported powers derived from earth affiliation. Awe through close angle and emergence; no giant comparison or evil expression."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-01.json",
+      "native_sha256": "01125bbab915580b7b15e53127acd33d24536b605a933f71074d80099ef9b672",
+      "reason": "Generator inserted mane, beard and long whiskers, none specified by accepted Yellow Dragon research; minimal anatomy requested to avoid invention."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-3ece9027-0343-4a24-bd95-a76a6244a787.png",
+  "generated_at": "2026-10-12T03:23:59.101860+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/yellow-dragon.png",
+  "native_sha256": "733025f0c5a7dd9c6e8a9a16ca711048ed1727ceac63ad9afa542116c9d5b4e0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px viewed; seven checks pass after retry. One yellow scaled dragon-form head with two eyes and bending neck filling frame; no horns, ears, hair, beard, whiskers, wings or visible limbs. Emergence displaces ordinary soil, no magical earthquake or invented breath. Respectfully commanding rather than monstrous. At200px close yellow head and movement remain imposing; no text, symbols, gore or borrowed design.",
+    "limitations": [],
+    "native_sha256": "733025f0c5a7dd9c6e8a9a16ca711048ed1727ceac63ad9afa542116c9d5b4e0",
+    "reviewed_at": "2026-10-12T03:23:59.102107+00:00"
+  }
+}

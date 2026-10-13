@@ -1,0 +1,996 @@
+{
+  "generated_at": "2026-10-10T03:39:21.387883+00:00",
+  "batch": 1327,
+  "ledger": "data/artwork-batch-1327.json",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "counts": {
+    "selected_entries": 50,
+    "new_creatures": 47,
+    "final_native_pngs": 47,
+    "declined_candidates": 3,
+    "corrections": 0,
+    "tool_calls": 60,
+    "successful_native_pngs": 60,
+    "quality_rejected_pngs": 13,
+    "tool_failures": 0
+  },
+  "workers": {
+    "lane-A": {
+      "finals": 16,
+      "declined": 1,
+      "successful_image_calls": 23,
+      "quality_rejected_pngs": 7,
+      "tool_failures": 0,
+      "slugs": [
+        "milton-lizard",
+        "mujina",
+        "nguruvilu",
+        "ninki-nanka",
+        "nuno-sa-punso",
+        "seri-pahang",
+        "shadow-person",
+        "skunk-ape",
+        "tianma",
+        "wendigo",
+        "aderyn-y-corff",
+        "areop-enap",
+        "ashite-kojin",
+        "bahamut",
+        "cactus-cat",
+        "chamunda",
+        "dragons-in-greek-mythology"
+      ],
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    "lane-B": {
+      "finals": 15,
+      "declined": 2,
+      "successful_image_calls": 20,
+      "quality_rejected_pngs": 5,
+      "tool_failures": 0,
+      "slugs": [
+        "gogfran-gawr",
+        "heluo-fish",
+        "hoyau",
+        "huay-chivo",
+        "ichchhadhari-nag",
+        "inkanyamba",
+        "jivajivaka",
+        "khamot",
+        "kishi-folklore",
+        "krasnoludek",
+        "kun",
+        "manaul",
+        "mokumokuren",
+        "nine-sons-of-the-dragon",
+        "oozlum-bird",
+        "pugot",
+        "qiuniu"
+      ],
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    "lane-C": {
+      "finals": 16,
+      "declined": 0,
+      "successful_image_calls": 17,
+      "quality_rejected_pngs": 1,
+      "tool_failures": 0,
+      "slugs": [
+        "rhita-gawr",
+        "seelkee",
+        "shenlong",
+        "shippeitaro",
+        "siuru",
+        "strix-mythology",
+        "teng-mythology",
+        "thunderdell",
+        "tiangou",
+        "tianlong",
+        "tuchulcha",
+        "ubagabi",
+        "wani-dragon",
+        "wd-q10566254",
+        "wd-q89656688",
+        "wind-horse"
+      ],
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    }
+  },
+  "verification": {
+    "codex_main_viewed_all_native_final_pngs": true,
+    "codex_main_viewed_all_at_200px": true,
+    "codex_review_registry": "data/artwork-generated/batch-1327/drafts/root/root-native-reviews.json",
+    "validation_report": "data/artwork-generated/batch-1327/drafts/root/batch-validation.json",
+    "independent_review_pending": true,
+    "integration_performed": false
+  },
+  "archive_note": "PNG tersedia di workspace lokal; original dan rejected tidak dihapus. PNG ignored git.",
+  "new_creatures": [
+    {
+      "slug": "milton-lizard",
+      "canonical_name": "Milton lizard",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/milton-lizard.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/milton-lizard.png",
+      "native_sha256": "bc510f79f8d9a6f675b87793ca1d33b1fbca49404a457f78fa7443fb0780c001",
+      "basis_claim_ids": [
+        "milton-lizard-c01",
+        "milton-lizard-c05",
+        "milton-lizard-c06",
+        "milton-lizard-c03"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "mujina",
+      "canonical_name": "Mujina",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/mujina.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/mujina.png",
+      "native_sha256": "5c2e2874753a605648e0911224e4d76de4af76c1260f3470104ce07aede2bd86",
+      "basis_claim_ids": [
+        "mujina-c02",
+        "mujina-c04",
+        "mujina-c15"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/mujina-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/mujina-attempt-01.json",
+          "native_sha256": "315d6be13bcb10552ce5167fe7a8c8115464bc809d4c48f40acecd557a3bcfd5",
+          "reason": "Natural-form face too soft and cute, reads as ordinary raccoon despite ghostfire; Uji Sangar item2/7 gagal."
+        }
+      ]
+    },
+    {
+      "slug": "nguruvilu",
+      "canonical_name": "Nguruvilu",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/nguruvilu.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/nguruvilu.png",
+      "native_sha256": "c88fd6f5cb20b0d4ed1c8c9fd8ed44c75d11fb4e59c59f406b6924ea49cbf45a",
+      "basis_claim_ids": [
+        "nguruvilu-c02",
+        "nguruvilu-c03",
+        "nguruvilu-c07"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "ninki-nanka",
+      "canonical_name": "Ninki Nanka",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/ninki-nanka.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/ninki-nanka.png",
+      "native_sha256": "76ea70a8faa532f2b842dbf6db499fe08962c96a649361feae0b8871708c5000",
+      "basis_claim_ids": [
+        "ninki-nanka-c05",
+        "ninki-nanka-c06",
+        "ninki-nanka-c07"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/ninki-nanka-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/ninki-nanka-attempt-01.json",
+          "native_sha256": "492c478cd5b15c041416bac96731cebe1fbc1cb8bd0dab334d1fe15b2a3adf92",
+          "reason": "Marka menyerupai tulisan/signature kecil terlihat di sudut kanan bawah PNG; hard constraint no text/watermark dan Uji Sangar6 gagal meskipun3tanduk/anatomi bagus."
+        },
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/ninki-nanka-attempt-02.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/ninki-nanka-attempt-02.json",
+          "native_sha256": "59446f999ac0e8d87728d60a86778f4e136509556451c0c3c1fcec4660011695",
+          "reason": "Targeted edit attempt02 belum menghapus marka tulisan kecil sudut kananbawah; Uji Sangar6 masih gagal."
+        }
+      ]
+    },
+    {
+      "slug": "nuno-sa-punso",
+      "canonical_name": "Nuno sa Punso",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/nuno-sa-punso.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/nuno-sa-punso.png",
+      "native_sha256": "a6396ed9ad78e63dff1e295bd6afde22d1afa72f93733c163280629a77ca66ea",
+      "basis_claim_ids": [
+        "nuno-sa-punso-c27",
+        "nuno-sa-punso-c03",
+        "nuno-sa-punso-c10",
+        "nuno-sa-punso-c12"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/nuno-sa-punso-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/nuno-sa-punso-attempt-01.json",
+          "native_sha256": "7577a3ea51eebe80c4345f990284b4f33f6ece924012f500c57e158aa86c84a6",
+          "reason": "Root dan lane-A memeriksa ulang tangan terangkat: hanya ibu jari+3jari terbaca, tidak ada occlusion yang menjelaskan jari kelima. Targeted edit diperlukan; laporan pass awal keliru pada jumlah jari."
+        },
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/nuno-sa-punso-attempt-02.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/nuno-sa-punso-attempt-02.json",
+          "native_sha256": "c8bb6320b3ba8364d033554ebbd2ea6b8ae8cdeb9630f8137ef030578cc04dab",
+          "reason": "Targeted edit attempt02 menghasilkan6digit: thumb kanan+4jari tegak+digit ekstra rendah di kiri dekat pergelangan. Harus hapus satu digit ekstra, Uji anatomi gagal."
+        }
+      ]
+    },
+    {
+      "slug": "seri-pahang",
+      "canonical_name": "Seri Pahang",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/seri-pahang.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/seri-pahang.png",
+      "native_sha256": "9f6d49c42ce2e17f1db5d7341e85fb5ad253c336e02878de4b5dd2bf004d8bf3",
+      "basis_claim_ids": [
+        "seri-pahang-c01",
+        "seri-pahang-c08",
+        "seri-pahang-c12"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "shadow-person",
+      "canonical_name": "Shadow person",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/shadow-person.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/shadow-person.png",
+      "native_sha256": "c519e6e90ff5807aed0d27b152207c7eb8fd258621e84e7b4c4a649989a34c6d",
+      "basis_claim_ids": [
+        "shadow-person-c01",
+        "shadow-person-c04",
+        "shadow-person-c07",
+        "shadow-person-c18"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "skunk-ape",
+      "canonical_name": "Skunk ape",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/skunk-ape.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/skunk-ape.png",
+      "native_sha256": "940b8e1941e2bc8607720d829db882c80e811761b3d43e3a3672c70dd4b7921f",
+      "basis_claim_ids": [
+        "skunk-ape-c06",
+        "skunk-ape-c09"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tianma",
+      "canonical_name": "Tianma",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/tianma.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/tianma.png",
+      "native_sha256": "f4e863e8352fbbd6a6129c2f2acedc62539dd52f353652409f9e504d508d3371",
+      "basis_claim_ids": [
+        "tianma-c01",
+        "tianma-c11"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wendigo",
+      "canonical_name": "Wendigo",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/wendigo.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/wendigo.png",
+      "native_sha256": "4b8e1fb8ce0ad5f8923fca0e7b912395a772fd373ea264031400df6f7c2960c2",
+      "basis_claim_ids": [
+        "wendigo-c04",
+        "wendigo-c08",
+        "wendigo-c09",
+        "wendigo-c12"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "aderyn-y-corff",
+      "canonical_name": "Aderyn y Corff",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/aderyn-y-corff.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/aderyn-y-corff.png",
+      "native_sha256": "fc9ac6b5c8bf02be36965d248cb55344d1f4989900326128f29caad373e56763",
+      "basis_claim_ids": [
+        "aderyn-y-corff-c02",
+        "aderyn-y-corff-c06"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/aderyn-y-corff-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/aderyn-y-corff-attempt-01.json",
+          "native_sha256": "e187f974d82a3146e9909bd0c1f4560487c2b1c59eced3f03d235fbf3bf18ee3",
+          "reason": "Ekor di belakang tampak feather-like bercabang/berbaris meskipun tubuh tanpa bulu dan sayap. C06 mensyaratkan tanpa feathers; targeted edit tail smooth diperlukan."
+        }
+      ]
+    },
+    {
+      "slug": "areop-enap",
+      "canonical_name": "Areop-Enap",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/areop-enap.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/areop-enap.png",
+      "native_sha256": "5d8194fe1de17a4d3f2583a76dc6e6cd0d4682c8252f08bc8e3964bd73e0f2bf",
+      "basis_claim_ids": [
+        "areop-enap-c01",
+        "areop-enap-c06",
+        "areop-enap-c07",
+        "areop-enap-c10"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/areop-enap-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/areop-enap-attempt-01.json",
+          "native_sha256": "28f7ab3e531c41f013629960039c7b076f011f84e544570d5dd20f4d250c4b37",
+          "reason": "Delapan kaki tidak dapat dihitung dengan pasti dalam komposisi: beberapa kaki tumpang-tindih/tertutup badan dan islands; perlu frontal8legs jelas. Uji anatomi gagal."
+        }
+      ]
+    },
+    {
+      "slug": "bahamut",
+      "canonical_name": "Bahamut",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/bahamut.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/bahamut.png",
+      "native_sha256": "6cc915ccc9d60c8b2b900db7455afcd5f9aca158a8fc9a4c7f69fde2ef68ec86",
+      "basis_claim_ids": [
+        "bahamut-c01",
+        "bahamut-c13",
+        "bahamut-c14"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "cactus-cat",
+      "canonical_name": "cactus cat",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/cactus-cat.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/cactus-cat.png",
+      "native_sha256": "82c70b1c0c8d7c6c29969adeedf3d38c37a1359e8745ce114a7b0473c52def8e",
+      "basis_claim_ids": [
+        "cactus-cat-c02",
+        "cactus-cat-c06",
+        "cactus-cat-c07"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "chamunda",
+      "canonical_name": "Chamunda",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/chamunda.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/chamunda.png",
+      "native_sha256": "4109fe368b497e570564d1a5b6c01c03fad10e94da2d19817e6074e0faa444a7",
+      "basis_claim_ids": [
+        "chamunda-c05",
+        "chamunda-c06",
+        "chamunda-c04",
+        "chamunda-c01"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "dragons-in-greek-mythology",
+      "canonical_name": "Dragons in Greek mythology",
+      "worker_agent": "lane-A",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/dragons-in-greek-mythology.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/dragons-in-greek-mythology.png",
+      "native_sha256": "a449ca6274b466fb1a1cb91c080c2c322ff9a6d6488bee31c5365671ab96a578",
+      "basis_claim_ids": [
+        "dragons-in-greek-mythology-c07",
+        "dragons-in-greek-mythology-c08"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "gogfran-gawr",
+      "canonical_name": "Gogfran Gawr",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/gogfran-gawr.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/gogfran-gawr.png",
+      "native_sha256": "7151c31907e010e5b4a6dbcc2d6671d8dd0c5b49e8bf29db301d07c7a24c9baf",
+      "basis_claim_ids": [
+        "gogfran-gawr-c02",
+        "gogfran-gawr-c09",
+        "gogfran-gawr-c15"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "hoyau",
+      "canonical_name": "Hoyau",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/hoyau.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/hoyau.png",
+      "native_sha256": "475685e0c43a1aac63f95467c50206343324d89a38e1e79f5b4c9e659cc68f9b",
+      "basis_claim_ids": [
+        "hoyau-c12",
+        "hoyau-c07",
+        "hoyau-c09"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "huay-chivo",
+      "canonical_name": "Huay Chivo",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/huay-chivo.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/huay-chivo.png",
+      "native_sha256": "96076ad243f72c509564cbc326908c42fcd22e193d2c190cd01ad353773ce0cb",
+      "basis_claim_ids": [
+        "huay-chivo-c01",
+        "huay-chivo-c02",
+        "huay-chivo-c07"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "ichchhadhari-nag",
+      "canonical_name": "Ichchhadhari Nag",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/ichchhadhari-nag.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/ichchhadhari-nag.png",
+      "native_sha256": "cf634b332ceccebc4798809163ef409c62a414551f4548e7d5af347244dc9058",
+      "basis_claim_ids": [
+        "ichchhadhari-nag-c01",
+        "ichchhadhari-nag-c04",
+        "ichchhadhari-nag-c09",
+        "ichchhadhari-nag-c12"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "inkanyamba",
+      "canonical_name": "Inkanyamba",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/inkanyamba.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/inkanyamba.png",
+      "native_sha256": "227e23a6f1741b08339509132361d7ad8ee03319ddb52895168c566059e9fa1a",
+      "basis_claim_ids": [
+        "inkanyamba-c06",
+        "inkanyamba-c17",
+        "inkanyamba-c07",
+        "inkanyamba-c09",
+        "inkanyamba-c04"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "jivajivaka",
+      "canonical_name": "Jīvajīvaka",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/jivajivaka.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/jivajivaka.png",
+      "native_sha256": "20797561e72ff620aa2fffde4d3929aaa71803107309f01017ee27e1171bab43",
+      "basis_claim_ids": [
+        "jivajivaka-c01",
+        "jivajivaka-c08",
+        "jivajivaka-c02",
+        "jivajivaka-c07"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "khamot",
+      "canonical_name": "Khamot",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/khamot.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/khamot.png",
+      "native_sha256": "a130a8420f9984b8061af51e86230b5b0f422cb416faba7d254a359527cc5ab2",
+      "basis_claim_ids": [
+        "khamot-c02",
+        "khamot-c06",
+        "khamot-c07",
+        "khamot-c10"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "kishi-folklore",
+      "canonical_name": "Kishi",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/kishi-folklore.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/kishi-folklore.png",
+      "native_sha256": "cd87f8a2a15f2174d41ef318b7eb407cf44e017eaa57f4a10efb52841f474b15",
+      "basis_claim_ids": [
+        "kishi-folklore-c05",
+        "kishi-folklore-c07",
+        "kishi-folklore-c06"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-01.json",
+          "native_sha256": "598560faff3f64d7956cf97afb098ab528354e277587567250dd3086ca98fb51",
+          "reason": "Root visual check finds a separate vertical furry hyena neck beside human neck, reading2heads/2necks rather than two opposite faces on1shared skull/neck c05. Targeted correction required."
+        },
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-02.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-02.json",
+          "native_sha256": "b8d99a914b2e02575b8bbf63986eb5efc794a58ab9814220d8858f8a94a8e454",
+          "reason": "Targeted edit still preserves a distinct furry hyena neck/head column beside human neck; fused single skull and one neck not unequivocal. Final attempt must recompose original rather than preserve flawed reference."
+        }
+      ]
+    },
+    {
+      "slug": "krasnoludek",
+      "canonical_name": "Krasnoludek",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/krasnoludek.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/krasnoludek.png",
+      "native_sha256": "8305b49b1b5550cdea2ad5c9b29b39edd076e854e169b644d61f19882c20d6ee",
+      "basis_claim_ids": [
+        "krasnoludek-c01",
+        "krasnoludek-c06",
+        "krasnoludek-c05"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "kun",
+      "canonical_name": "Kun",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/kun.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/kun.png",
+      "native_sha256": "da612b51214e730bfefda710bec6ed42e7b3be2653f5711cc8433cfbee5339eb",
+      "basis_claim_ids": [
+        "kun-c01",
+        "kun-c02",
+        "kun-c05",
+        "kun-c06"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "manaul",
+      "canonical_name": "Manaul",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/manaul.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/manaul.png",
+      "native_sha256": "7c1e8360a55e074cf4e3b6f5d11f3c7cafacd465c0f87ed0b3c7638de89e5bde",
+      "basis_claim_ids": [
+        "manaul-c04",
+        "manaul-c24"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "mokumokuren",
+      "canonical_name": "Mokumokuren",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/mokumokuren.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/mokumokuren.png",
+      "native_sha256": "47b58835358c2a9ecd5b7979aec117b3d45f958f4fdc6b7efa6f732c853464f2",
+      "basis_claim_ids": [
+        "mokumokuren-c02",
+        "mokumokuren-c07",
+        "mokumokuren-c11",
+        "mokumokuren-c06"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "oozlum-bird",
+      "canonical_name": "Oozlum bird",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/oozlum-bird.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/oozlum-bird.png",
+      "native_sha256": "bb0f8532227fc9a52895e0e7b2bc83d2a784a402a1ddc9c5750d34e25cb89ac2",
+      "basis_claim_ids": [
+        "oozlum-bird-c01",
+        "oozlum-bird-c09",
+        "oozlum-bird-c03"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "pugot",
+      "canonical_name": "Pugot",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/pugot.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/pugot.png",
+      "native_sha256": "b6a35d641c9a1ad7380526d994b141fc32c52f76983766ef8a4abf9527b5aedd",
+      "basis_claim_ids": [
+        "pugot-c01",
+        "pugot-c16",
+        "pugot-c03",
+        "pugot-c02",
+        "pugot-c19"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "qiuniu",
+      "canonical_name": "Qiuniu",
+      "worker_agent": "lane-B",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/qiuniu.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/qiuniu.png",
+      "native_sha256": "493eed58af9838a4ebe278038a17954f1b49c78c370804ef5d6b9f7586ee4956",
+      "basis_claim_ids": [
+        "qiuniu-c02",
+        "qiuniu-c06",
+        "qiuniu-c07",
+        "qiuniu-c03"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "rhita-gawr",
+      "canonical_name": "Rhita Gawr",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/rhita-gawr.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/rhita-gawr.png",
+      "native_sha256": "52631dc13f1aae7eca3c34d7713598130e31c3fd5358065d572ce2b92ef1b5fb",
+      "basis_claim_ids": [
+        "rhita-gawr-c01",
+        "rhita-gawr-c06",
+        "rhita-gawr-c05",
+        "rhita-gawr-c07"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "seelkee",
+      "canonical_name": "Seelkee",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/seelkee.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/seelkee.png",
+      "native_sha256": "6fc494926ea323682753a413d21f4dd8f4b8c32b31ad75d8516ac811eead7bd9",
+      "basis_claim_ids": [
+        "seelkee-c03",
+        "seelkee-c08",
+        "seelkee-c01",
+        "seelkee-c06"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "shenlong",
+      "canonical_name": "Shenlong",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/shenlong.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/shenlong.png",
+      "native_sha256": "e94d1db785b0ad4470ed8622c23b0a187714e0ea40907b1e4f812806ee2a3f67",
+      "basis_claim_ids": [
+        "shenlong-c01",
+        "shenlong-c04",
+        "shenlong-c05",
+        "shenlong-c02",
+        "shenlong-c03"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "shippeitaro",
+      "canonical_name": "Shippeitarō",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/shippeitaro.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/shippeitaro.png",
+      "native_sha256": "99922d871b0efcaac0e6cc35e5e182e2fb16aa896bf825524c90b2027c868b64",
+      "basis_claim_ids": [
+        "shippeitaro-c01",
+        "shippeitaro-c08",
+        "shippeitaro-c10",
+        "shippeitaro-c11",
+        "shippeitaro-c03",
+        "shippeitaro-c07"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "siuru",
+      "canonical_name": "Siuru",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/siuru.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/siuru.png",
+      "native_sha256": "71151198a1a875eb79eeec1425278d16d09d8c9de0e5dc438ce63c9e0c01003f",
+      "basis_claim_ids": [
+        "siuru-c01",
+        "siuru-c04",
+        "siuru-c07",
+        "siuru-c09",
+        "siuru-c10"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "strix-mythology",
+      "canonical_name": "Strix (mythology)",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/strix-mythology.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/strix-mythology.png",
+      "native_sha256": "f280a92b331f68850b850d2478c7bd4f55056242d88a6bac438334ed1bc169cc",
+      "basis_claim_ids": [
+        "strix-mythology-c03",
+        "strix-mythology-c04",
+        "strix-mythology-c05",
+        "strix-mythology-c06",
+        "strix-mythology-c07",
+        "strix-mythology-c08"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "teng-mythology",
+      "canonical_name": "Teng (mythology)",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/teng-mythology.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/teng-mythology.png",
+      "native_sha256": "bb5b94240fc2cd52db59306b9f019202fca44a79d38589de8fff3195a456f00a",
+      "basis_claim_ids": [
+        "teng-mythology-c02",
+        "teng-mythology-c06",
+        "teng-mythology-c08",
+        "teng-mythology-c04",
+        "teng-mythology-c09",
+        "teng-mythology-c07"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "thunderdell",
+      "canonical_name": "Thunderdell",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/thunderdell.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/thunderdell.png",
+      "native_sha256": "a4712ceb5a9ef51ce9317291ca6c6947b8b80554e1afc869cb402d7e4b08d769",
+      "basis_claim_ids": [
+        "thunderdell-c01",
+        "thunderdell-c06",
+        "thunderdell-c08",
+        "thunderdell-c09",
+        "thunderdell-c02"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tiangou",
+      "canonical_name": "Tiangou",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/tiangou.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/tiangou.png",
+      "native_sha256": "3be9ee10c5275fb20502680a211e5d54abe763901eddf8297be67763c3e8d5a7",
+      "basis_claim_ids": [
+        "tiangou-c01",
+        "tiangou-c04",
+        "tiangou-c10",
+        "tiangou-c02",
+        "tiangou-c11"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tianlong",
+      "canonical_name": "Tianlong",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/tianlong.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/tianlong.png",
+      "native_sha256": "9b7d8f35640d454e76a11f5e17b308c8f131501ff60919dd8e1f676d947c0645",
+      "basis_claim_ids": [
+        "tianlong-c01",
+        "tianlong-c04",
+        "tianlong-c06",
+        "tianlong-c09"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "tuchulcha",
+      "canonical_name": "Tuchulcha",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/tuchulcha.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/tuchulcha.png",
+      "native_sha256": "c2ce2c375ccab57c71a129ef5fc73753ced1242eb086008415b327a17e8dd364",
+      "basis_claim_ids": [
+        "tuchulcha-c01",
+        "tuchulcha-c04",
+        "tuchulcha-c07",
+        "tuchulcha-c08",
+        "tuchulcha-c09",
+        "tuchulcha-c10",
+        "tuchulcha-c02"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": [
+        {
+          "original_file": "data/artwork-generated/batch-1327/rejected/tuchulcha-attempt-01.png",
+          "receipt_file": "data/artwork-generated/batch-1327/rejected/tuchulcha-attempt-01.json",
+          "native_sha256": "0c2fa7438aa401bf0c9a2dafea2806f94392f8422265400098be4b0f77b4e90f",
+          "reason": "Fingers diberi kuku hitam panjang seperti cakar yang tidak didokumentasikan. Wujud utama/paruh/telinga/snakehair/chiton sudah baik; targeted edit hanya kuku agar tangan natural tanpa cakar."
+        }
+      ]
+    },
+    {
+      "slug": "ubagabi",
+      "canonical_name": "Ubagabi",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/ubagabi.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/ubagabi.png",
+      "native_sha256": "c3cd81f5b842e96c5be079e9bbfccbad1a0da4626ae855a6e29eac9774a3a2d0",
+      "basis_claim_ids": [
+        "ubagabi-c02",
+        "ubagabi-c08",
+        "ubagabi-c14",
+        "ubagabi-c05",
+        "ubagabi-c10",
+        "ubagabi-c01",
+        "ubagabi-c07"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wani-dragon",
+      "canonical_name": "Wani (dragon)",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/wani-dragon.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/wani-dragon.png",
+      "native_sha256": "5b9ab30e1b4f5164d9c18cf8cafce5e3005adfb3ab635b38bccf082c90dc71be",
+      "basis_claim_ids": [
+        "wani-dragon-c01",
+        "wani-dragon-c02",
+        "wani-dragon-c06",
+        "wani-dragon-c11",
+        "wani-dragon-c17",
+        "wani-dragon-c05",
+        "wani-dragon-c12"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wd-q10566254",
+      "canonical_name": "飛頭蛮",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/wd-q10566254.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/wd-q10566254.png",
+      "native_sha256": "fae521db3fa1acd17200d52615088f79daab2e62f4a1e3a578cad746aec592a6",
+      "basis_claim_ids": [
+        "wd-q10566254-c01",
+        "wd-q10566254-c03",
+        "wd-q10566254-c05",
+        "wd-q10566254-c06"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wd-q89656688",
+      "canonical_name": "人面魚",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/wd-q89656688.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/wd-q89656688.png",
+      "native_sha256": "a48ce86a35e23d86e0b8e456d41f817d9e86807c4dd8d1e90d0993d1c366f8ab",
+      "basis_claim_ids": [
+        "wd-q89656688-c01",
+        "wd-q89656688-c02"
+      ],
+      "requires_catalogue_record": true,
+      "rejected_attempts": []
+    },
+    {
+      "slug": "wind-horse",
+      "canonical_name": "Wind Horse",
+      "worker_agent": "lane-C",
+      "status": "awaiting-independent-review",
+      "receipt": "data/artwork-generated/batch-1327/wind-horse.json",
+      "selected_png": "data/artwork-generated/batch-1327/originals/wind-horse.png",
+      "native_sha256": "0bc8283b925ea051db7c4bd2f632d735eeb33fc323554def2f5ea5ddad95591d",
+      "basis_claim_ids": [
+        "wind-horse-c01",
+        "wind-horse-c02",
+        "wind-horse-c09",
+        "wind-horse-c04"
+      ],
+      "requires_catalogue_record": false,
+      "rejected_attempts": []
+    }
+  ],
+  "corrections": [],
+  "declined": [
+    {
+      "slug": "ashite-kojin",
+      "reason": "Accepted research gives hand/foot healing worship, offerings, shrines, round sacred stone Okagami-ishi and historical warrior-origin spirit, but no deity bodily form or documented active manifestation. A static stone/shrine is landscape/object-only and fails Sangar; warrior-origin does not document Ashite Kōjin appearing as a samurai. No imported Shōmen Kongō anatomy or invented miraculous energy.",
+      "receipt_path": "data/artwork-generated/batch-1327/ashite-kojin.json"
+    },
+    {
+      "slug": "heluo-fish",
+      "reason": "Tiga percobaan kualitas gagal jumlah satu kepala sepuluh tubuh: attempt01 8–9 ekor, attempt02 delapan, attempt03 hanya sembilan terpisah (5kiri4kanan). Semua PNG nyata dan request/hash/alasan diarsipkan; tidak memilih gambar anatomi salah.",
+      "receipt_path": "data/artwork-generated/batch-1327/heluo-fish.json"
+    },
+    {
+      "slug": "nine-sons-of-the-dragon",
+      "reason": "Accepted research hanya memberi susunan kelompok, nama/sifat/dekorasi, wujud turtle untukBixi dan tiger untukBian; tidak menyediakan wujud konkret seluruh sembilan anggota dan nama berbeda menurut daftar. Tidak mengarang tujuh wujud tambahan atau sembilan naga generik. Tidak ada generasi dicoba.",
+      "receipt_path": "data/artwork-generated/batch-1327/nine-sons-of-the-dragon.json"
+    }
+  ]
+}

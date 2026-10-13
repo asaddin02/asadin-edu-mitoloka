@@ -1,0 +1,51 @@
+{
+  "slug": "lake-tianchi-monster",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Lake Tianchi Monster, the reported long-necked smooth grey human-headed lake creature. Native square PNG at least1024x1024.\nANATOMY: ONE creature with ONE HUMAN-LIKE HEAD, TWO BIG ROUND EYES and PROTRUDING MOUTH; smooth GREY SKIN; neck1.2-1.5metres long, clear WHITE RING separates neck from barely visible TORSO at waterline. Body below lake water completely obscured, no speculative legs/fins/wings added. [lake-tianchi-monster-c04, lake-tianchi-monster-c09]\nMOMENT: SURGE head and long neck straight out of dark water toward close viewer, mouth open and big eyes fixed, a heavy sheet of water cascading from white neck-base ring.\nPOWER: Reported aquatic appearance/swimming; physical wake/splash only, no magical powers or fire. [lake-tianchi-monster-c09]\nSCALE & CAMERA: Extreme low water-level camera inches from surfacing head, longneck fillsmost vertical frame with ring/base at bottom, no invented gigantic scale.\nLIGHT & WEATHER: One cold moon shaft over grey skin and dark water, white ring stark, natural spray.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Heaven Lake/Tianchi at Baekdu-Changbai volcanic peak, distant crater rim subordinate behind water. [lake-tianchi-monster-c01]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the reported long-necked smooth grey human-headed lake creature",
+  "basis_claim_ids": [
+    "lake-tianchi-monster-c04",
+    "lake-tianchi-monster-c09",
+    "lake-tianchi-monster-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE creature with ONE HUMAN-LIKE HEAD, TWO BIG ROUND EYES and PROTRUDING MOUTH; smooth GREY SKIN; neck1.2-1.5metres long, clear WHITE RING separates neck from barely visible TORSO at waterline. Body below lake water completely obscured, no speculative legs/fins/wings added.",
+      "claim_ids": [
+        "lake-tianchi-monster-c04",
+        "lake-tianchi-monster-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Reported aquatic appearance/swimming; physical wake/splash only, no magical powers or fire.",
+      "claim_ids": [
+        "lake-tianchi-monster-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Heaven Lake/Tianchi at Baekdu-Changbai volcanic peak, distant crater rim subordinate behind water.",
+      "claim_ids": [
+        "lake-tianchi-monster-c01"
+      ]
+    }
+  ],
+  "aura": "SURGE head and long neck straight out of dark water toward close viewer, mouth open and big eyes fixed, a heavy sheet of water cascading from white neck-base ring. Grounded in lake-tianchi-monster-c04, lake-tianchi-monster-c09, lake-tianchi-monster-c01.",
+  "artistic_choices": [
+    "Longneck/humanhead c09 report chosen, do not blend buffalo c02, horsehead c10 or seal/fins c12. Torso hidden by lake prevents fabricated anatomy. Sighting illustration not claim of verified species.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

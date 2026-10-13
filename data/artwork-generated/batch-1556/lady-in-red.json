@@ -1,0 +1,73 @@
+{
+  "slug": "lady-in-red",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Lady in Red (ghost), the distraught gliding ghost reported at Lower Bay transit station. Native square PNG at least1024x1024.\nANATOMY: ONE woman ghost wearing fully opaque SCARLET RED DRESS, ONE head/TWO arms. Eye sockets are EMPTY with NO EYES; dress hem ends above ground with NO FEET present or visible. No gore, wounds or rotting tissue. [lady-in-red-c01, lady-in-red-c02, lady-in-red-c09]\nMOMENT: GLIDE close along empty subway platform toward viewer, red skirt trailing above floor, distraught face inclining and hand reaching toward near empty space.\nPOWER: Reported gliding without feet or eyes; physical floating movement only, no invented attack, energy glow or lightning death. [lady-in-red-c09]\nSCALE & CAMERA: Extreme low full-length close approach, hem clearly floats above ground without feet, face emptyeyes readable.\nLIGHT & WEATHER: One old warm platform lamp, deep walnut shadow, red dress sole strong accent.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Closed Lower Bay Toronto transit station: dim tiled platform and dark railway, absolutely no station signs/lettering. [lady-in-red-c09]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the distraught gliding ghost reported at Lower Bay transit station",
+  "basis_claim_ids": [
+    "lady-in-red-c01",
+    "lady-in-red-c02",
+    "lady-in-red-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE woman ghost wearing fully opaque SCARLET RED DRESS, ONE head/TWO arms. Eye sockets are EMPTY with NO EYES; dress hem ends above ground with NO FEET present or visible. No gore, wounds or rotting tissue.",
+      "claim_ids": [
+        "lady-in-red-c01",
+        "lady-in-red-c02",
+        "lady-in-red-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Reported gliding without feet or eyes; physical floating movement only, no invented attack, energy glow or lightning death.",
+      "claim_ids": [
+        "lady-in-red-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Closed Lower Bay Toronto transit station: dim tiled platform and dark railway, absolutely no station signs/lettering.",
+      "claim_ids": [
+        "lady-in-red-c09"
+      ]
+    }
+  ],
+  "aura": "GLIDE close along empty subway platform toward viewer, red skirt trailing above floor, distraught face inclining and hand reaching toward near empty space. Grounded in lady-in-red-c01, lady-in-red-c02, lady-in-red-c09.",
+  "artistic_choices": [
+    "Toronto c09 variant selected, do not mix friendly Mizpah Rose/pearls or Charleston lightning story. Empty sockets clean and shadowed, not horror gore. Distraught rather than evil attacker.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-55b38861-e146-4f6f-beee-02c311e8a479.png",
+  "generated_at": "2026-10-12T20:16:47.203138+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/lady-in-red.png",
+  "native_sha256": "4c672b09dbe993faf55c6379c767994f335f10c5b7c048af763c3bdaefb7f70b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 seen: fullyopaque scarletdress c02, clearly EMPTY eyeless sockets and hem floating with nofeet c09,1head/2arms/fivefinger reach. Distressed face reaching/gliding over LowerBay tiledplatform c09 stays uncanny imposing at200; no malicious attack/lightingdeath from othervariants, no wounds/gore/glow/text. Seven Sangarchecks pass.",
+    "limitations": [],
+    "native_sha256": "4c672b09dbe993faf55c6379c767994f335f10c5b7c048af763c3bdaefb7f70b",
+    "reviewed_at": "2026-10-12T20:20:19.277699+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "4c672b09dbe993faf55c6379c767994f335f10c5b7c048af763c3bdaefb7f70b",
+    "notes": "Checked at full size: ghost in an opaque scarlet dress with empty eye sockets gliding at the viewer along the closed Lower Bay platform, hem ending above the floor with no feet."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "count-dracula",
+  "variant": "A",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration. Imposing undeniable main subject, high-contrast low-key dark walnut/antique gold palette, physically textured surfaces, strong silhouette legible at 200 pixels. HARD CONSTRAINTS: no text, lettering, pseudo-script, logo, watermark, signature, border or frame; no borrowed film/game/anime/comic design; no nudity, erotic scene or explicit gore; no generic glowing aura, neon lines, energy ribbons, floating runes, or unsupported anatomy.\nANATOMY: Stoker's Count Dracula: tall elderly human vampire, clean shaven chin and cheeks but LONG WHITE MOUSTACHE, aquiline hooked nose, extraordinary pale skin, extremely pointed ear tips, multiple sharp white teeth protruding over lips. Black opaque wool clothing from neck to feet without ANY colored lining, no cinema tuxedo, no sleek young lover, no bald Orlok likeness. One head, two eyes, two arms, two hands. [count-dracula-c02/c03] MOMENT: Lean down toward the low viewer with a threatening focused stare, one open palm extremely close showing a definite patch of hair in its center and long fine pointed fingernails, other arm spreading black cloth outward. [count-dracula-c04] POWER: He commands a physical thunderstorm and grey fog outside the broken castle window, rain drives through the opening, storm lightning lights the figure from one side; fog stays natural and non-luminous, no magic beams. [count-dracula-c09] SCALE & CAMERA: confronting half-body portrait, extreme low view, head and hairy palm take 80 percent of the frame; no tiny humans, no unsupported giant body. LIGHT & WEATHER: single natural lightning flash off to one side, deep black shadows, rain. SURFACE: aged pallid creased skin, coarse white moustache, rough black wool, wet eroded stone. SETTING: decaying Carpathian castle chamber. [count-dracula-c32] MOOD: ancient predatory vampire threat, not elegant charming man.",
+  "basis_claim_ids": [
+    "count-dracula-c02",
+    "count-dracula-c03",
+    "count-dracula-c04",
+    "count-dracula-c09",
+    "count-dracula-c19",
+    "count-dracula-c32"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Stoker's tall old pale man, clean-shaven except long white moustache; black head-to-foot clothing, aquiline nose, pointed ears, sharp white teeth over lips.",
+      "claim_ids": [
+        "count-dracula-c02",
+        "count-dracula-c03"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Long fine sharp nails and hairs at center of palm, shown clearly where palms face viewer.",
+      "claim_ids": [
+        "count-dracula-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A directs natural storm/fog; B moves down castle masonry in lizard fashion as a fully human vampire, not a literal lizard.",
+      "claim_ids": [
+        "count-dracula-c09",
+        "count-dracula-c19"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Decaying Carpathian castle, tight view rather than distant scenic landscape.",
+      "claim_ids": [
+        "count-dracula-c32"
+      ]
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-e4ef-74e2-8485-d5c798bdb472/exec-c0d24d7f-36fc-4887-b9ec-588b57be71b8.png",
+  "generated_at": "2026-10-08T15:12:10.655Z",
+  "selection_reason": "Retained alternative: hairy-palm portrait is strong but wall descent better distinguishes Stoker's literary Count.",
+  "selected": false,
+  "original_file": "data/artwork-generated/batch-1214/variants/count-dracula/A.png",
+  "native_sha256": "79a93ebd94309b593f73d4b2a2134cdd50c9fcd8700ba1f49591accdb2cd61a4",
+  "width": 1254,
+  "height": 1254,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native viewed: aged pallid aquiline face, long white moustache, pointed ear tips, hairy central palm and five long pointed nails in extreme foreground. Black opaque cloth and a thunderstorm through broken castle window. Two arms, one head, no text or visible gore. Sharp teeth are partly obscured by moustache in this portrait.",
+    "limitations": [
+      "Teeth partly obscured by moustache; lower body outside portrait.",
+      "Exact black garment cut and storm staging are editorial."
+    ],
+    "native_sha256": "79a93ebd94309b593f73d4b2a2134cdd50c9fcd8700ba1f49591accdb2cd61a4",
+    "reviewed_at": "2026-10-08T15:14:27.343629+00:00"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "kishi-folklore",
+  "depicted_variant": "Two-faced c05 variant only, no many-headed c01 blending; both faces immediately countable",
+  "basis_claim_ids": [
+    "kishi-folklore-c05",
+    "kishi-folklore-c07",
+    "kishi-folklore-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE SINGLE SHARED SKULL ON ONE NECK with TWO OPPOSITE FACES, handsome adult African mans face at FRONT and distinct hyena face at BACK, long sharp hyena teeth; one fully opaque clothed humanlike body, two arms two legs; no separate animal head or multiple necks",
+      "claim_ids": [
+        "kishi-folklore-c05",
+        "kishi-folklore-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No regeneration or magic; threat from rear hyena bite jaws and documented deception only, no victim or gore",
+      "claim_ids": [
+        "kishi-folklore-c06",
+        "kishi-folklore-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "a shadowed Angolan clearing, neutral editorial background with no specific invented buildings",
+      "claim_ids": [
+        "kishi-folklore-c05"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Twist the shared skull into clear side three-quarter view showing human face looking LEFT and hyena face looking RIGHT; step close toward viewer, rear hyena jaws open menacingly while front human expression invites (kishi-folklore-c05, kishi-folklore-c07, kishi-folklore-c06).",
+  "artistic_choices": [
+    "Two-faced c05 variant only, no many-headed c01 blending; both faces immediately countable",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics close-up of Kishi, the Angolan two-faced demon.\nANATOMY: Exactly ONE SINGLE HEAD with TWO FACES on its OPPOSITE FRONT AND BACK SURFACES, carried on exactly ONE SINGLE CENTRALLY PLACED BARE HUMAN NECK. The head is ONE CONTINUOUS CRANIAL DOME at ONE HEIGHT. Its front-left surface is a handsome adult African mans face. Its back-right OCCIPITAL SURFACE itself grows a HYENA FACE: spotted short fur, a hyena eye, a hyena muzzle and powerful open jaw with long sharp teeth. The HYENA FACE IS ANATOMY ON THE BACK OF THE HUMAN SKULL, not a complete second hyena head. NO HYENA NECK, NO FURRY THROAT COLUMN, NO SECOND HEAD, NO SECOND CROWN, NO ANIMAL HEAD MOUNTED ON SHOULDER. Shared single human neck is fully bare and entirely visible from skull base to shoulders, centered. Hyena lower jaw ends at the shared skulls chin level and MUST NOT descend into a second neck. One pair of shoulders, humanlike body with opaque cloth covering chest. [kishi-folklore-c05,kishi-folklore-c07]\nMOMENT: Twist its ONE fused two-faced head aggressively in clear lateral THREE-QUARTER PROFILE; front human face looks LEFT seductively while the rear hyena facial muzzle opens RIGHT in a snarl, both opposite faces visible, the single neck tendons tense. Composition crop upper chest to top of shared skull, neck entirely visible, shoulders beneath one head, face fills image.\nPOWER: No supernatural effects. Documented human deception and hyena jaws threat only. [kishi-folklore-c06,kishi-folklore-c07]\nSCALE & CAMERA: extreme low angle close-up, one head dominating, foreboding physical presence.\nLIGHT & WEATHER: one hard warm moonrim source, deep dark shadows, one warm accent.\nSURFACE: human skin merging at BACK OF SKULL into short spotted hyena facial fur, coarse opaque cloth.\nSETTING: neutral dark Angolan night background. [kishi-folklore-c05]\nMOOD: predatory uncanny frightening doubleface, active snarl, not ordinary man or twoheaded hybrid.\nHARD CONSTRAINTS: Exactly ONECRANIUM ON ONENECK WITH TWOOPPOSITEFACES, never two separate heads or necks; no separate hyena ears required, no manyheadsc01 blending; no text,glyph,logo,border,watermark; no nudity/gore; no aura/neon/energy/borrowed filmgameanime design. One squarePNG>=1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-f908fe0e-eb45-49af-9359-79bb12e64528.png",
+  "generated_at": "2026-10-10T03:33:37.593289+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/kishi-folklore.png",
+  "native_sha256": "cd87f8a2a15f2174d41ef318b7eb407cf44e017eaa57f4a10efb52841f474b15",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-01.json",
+      "native_sha256": "598560faff3f64d7956cf97afb098ab528354e277587567250dd3086ca98fb51",
+      "reason": "Root visual check finds a separate vertical furry hyena neck beside human neck, reading2heads/2necks rather than two opposite faces on1shared skull/neck c05. Targeted correction required."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1327/rejected/kishi-folklore-attempt-02.json",
+      "native_sha256": "b8d99a914b2e02575b8bbf63986eb5efc794a58ab9814220d8858f8a94a8e454",
+      "reason": "Targeted edit still preserves a distinct furry hyena neck/head column beside human neck; fused single skull and one neck not unequivocal. Final attempt must recompose original rather than preserve flawed reference."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px UjiSangar7/7 ya. Satu cranialdome kontinu, humanface depan-kiri dan spottedhyena face belakang-kanan di atas satu leher manusia broad jelas; tidak ada hyena neck kedua. Rear jaw snarls/teeth c07, humanface deceptionc06, satu badan clothed. Limbs di luar crop tidakdiklaim terlihat. Tanpa manyheadsblending,teks,glyph,aura atau gore.",
+    "limitations": [],
+    "native_sha256": "cd87f8a2a15f2174d41ef318b7eb407cf44e017eaa57f4a10efb52841f474b15",
+    "reviewed_at": "2026-10-10T03:33:37.593289+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "cd87f8a2a15f2174d41ef318b7eb407cf44e017eaa57f4a10efb52841f474b15",
+    "notes": "Single head with a man's face at the front and a snarling hyena face at the back, clothed shoulders, moonlit night."
+  }
+}

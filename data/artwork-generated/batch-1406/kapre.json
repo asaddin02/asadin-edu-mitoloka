@@ -1,0 +1,81 @@
+{
+  "slug": "kapre",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of kapre, the benign but unsettling giant tree-dweller of Philippine folklore.\nANATOMY: One gigantic dark humanlike muscular tree being with thick body hair, one head, two eyes, two arms and two legs; large glowing-red eyes, a large cigar, fully opaque bahag wrapped securely around hips; no caricature of living Indigenous people [kapre-c01, kapre-c08, kapre-c13]\nMOMENT: Lean down from a thick tree branch toward the viewer while lifting a smoking cigar; broad looming silhouette and keen watchful gaze\nPOWER: Thick physical tobacco smoke billows from the cigar and curls around the inhabited branches, with falling cigar embers [kapre-c08, kapre-c15, kapre-c28]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: dominant cigar ember light, deep canopy shadows, smoky rim light; physical particles only where justified by the action.\nSURFACE: coarse tangled body hair, bark and woven opaque cloth.\nSETTING: Night in the canopy of a large Philippine balete tree [kapre-c03, kapre-c12]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One gigantic dark humanlike muscular tree being with thick body hair, one head, two eyes, two arms and two legs; large glowing-red eyes, a large cigar, fully opaque bahag wrapped securely around hips; no caricature of living Indigenous people",
+      "claim_ids": [
+        "kapre-c01",
+        "kapre-c08",
+        "kapre-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Thick physical tobacco smoke billows from the cigar and curls around the inhabited branches, with falling cigar embers",
+      "claim_ids": [
+        "kapre-c08",
+        "kapre-c15",
+        "kapre-c28"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night in the canopy of a large Philippine balete tree",
+      "claim_ids": [
+        "kapre-c03",
+        "kapre-c12"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "kapre-c01",
+    "kapre-c08",
+    "kapre-c13",
+    "kapre-c15",
+    "kapre-c28",
+    "kapre-c03",
+    "kapre-c12"
+  ],
+  "depicted_variant": "the benign but unsettling giant tree-dweller of Philippine folklore",
+  "artistic_choices": [
+    "Awe rather than violence: no attack or ethnic caricature.",
+    "Use documented red eyes without a surrounding glow aura.",
+    "Branch scale shows documented gigantic size; opaque bahag maintains modesty."
+  ],
+  "aura": "Thick physical tobacco smoke billows from the cigar and curls around the inhabited branches, with falling cigar embers [kapre-c08, kapre-c15, kapre-c28]",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-012.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-e2aa8db1-f61c-4321-b038-151bbcd3db85.png",
+  "generated_at": "2026-10-12T02:31:47.987204+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/kapre.png",
+  "native_sha256": "347cc0d87b044b7b062cb316c18fe31e0236fd81a5aa79dc12e918752971f39b",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspection: enormous hairy humanlike tree dweller with one head, two red eyes, two arms and two naturally foreshortened legs; opaque bahag and smoking cigar clear. Leans forward over viewer, imposing without attack or ethnic caricature. Tobacco smoke and embers c08/c15/c28, no magical effect. Seven Sangar checks yes, including thumbnail dominance.",
+    "limitations": [],
+    "native_sha256": "347cc0d87b044b7b062cb316c18fe31e0236fd81a5aa79dc12e918752971f39b",
+    "reviewed_at": "2026-10-12T02:31:47.987204+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "347cc0d87b044b7b062cb316c18fe31e0236fd81a5aa79dc12e918752971f39b",
+    "notes": "Huge hairy tree giant with red eyes and a lit cigar sitting in a great tree, smoke curling through the branches; opaque loincloth."
+  }
+}

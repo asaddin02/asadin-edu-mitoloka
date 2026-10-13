@@ -1,0 +1,74 @@
+{
+  "slug": "giant-frog",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of GIANT-FROG, the supernatural Japanese giant toad from the mountains of Suo.\nANATOMY: one broad toad head, two glaring fire-red eyes, warty rocklike body, exactly four toad legs, no horns or wings, approximately 2.4 metres long. [giant-frog-c01, giant-frog-c03, giant-frog-c07]\nMOMENT: Open its cavernous mouth and inhale a small cloud of insects toward the viewer.\nPOWER: A restrained rainbow-like breath draws insects toward its open mouth, the ONLY visible colored magical effect and explicitly documented; no additional aura. [giant-frog-c04]\nSCALE & CAMERA: extreme low angle and close foreground, subject dominates the frame and its distinguishing features read clearly at 200 pixels. Numerical scale is asserted only when documented; otherwise dramatic close perspective.\nLIGHT & WEATHER: one strong warm sidelight, antique-gold rim light, walnut shadows, high contrast with visible dark details and appropriate natural moisture.\nSURFACE: rough physically convincing natural surfaces, textured scales or feathers or coarse fur as applicable, painterly cinematic realism rather than plastic.\nSETTING: dark rugged mountain slope in Suo, Japan, wet rocks and low mist. [giant-frog-c02]\nMOOD: dangerous or awe-inspiring as appropriate to the tradition; commanding, alert and actively moving; sacred beings treated with respect.\nHARD CONSTRAINTS: no text, letters, pseudo-glyphs, logos, watermark, border or frame; no extra heads, limbs, eyes or fingers; no nudity or explicit gore; no film, game, anime or comic design; no generic glow aura, neon outline, energy ribbons or luminous colored mist. One single square image.",
+  "basis_claim_ids": [
+    "giant-frog-c01",
+    "giant-frog-c03",
+    "giant-frog-c07",
+    "giant-frog-c04",
+    "giant-frog-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one broad toad head, two glaring fire-red eyes, warty rocklike body, exactly four toad legs, no horns or wings, approximately 2.4 metres long",
+      "claim_ids": [
+        "giant-frog-c01",
+        "giant-frog-c03",
+        "giant-frog-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A restrained rainbow-like breath draws insects toward its open mouth, the ONLY visible colored magical effect and explicitly documented; no additional aura",
+      "claim_ids": [
+        "giant-frog-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "dark rugged mountain slope in Suo, Japan, wet rocks and low mist",
+      "claim_ids": [
+        "giant-frog-c02"
+      ]
+    }
+  ],
+  "depicted_variant": "2.4-metre warty Suo toad with rainbow breath",
+  "aura": "A restrained rainbow-like breath draws insects toward its open mouth, the ONLY visible colored magical effect and explicitly documented; no additional aura Basis klaim: giant-frog-c01, giant-frog-c03, giant-frog-c07, giant-frog-c04, giant-frog-c02.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-a8ee13e7-342f-437c-9c42-0cedbd1c37b6.png",
+  "generated_at": "2026-10-09T01:00:53.095699+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/giant-frog.png",
+  "native_sha256": "ebb65ef4022f406155575fd86a3ca0f94bb9d8cced872e49dd5f424fe486c1bb",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat PNG native: satu kepala katak/kodok besar, dua mata merah terang, kulit berkutil dan tubuh/empat tungkai koheren dengan kaki belakang sebagian tersembunyi. Mulut lebar dan serangga tersedot melalui napas pelangi c04 membuatnya jelas supernatural, bukan katak biasa. Napas pelangi pengecualian terdokumentasi, tidak ada aura lain. Latar gunung Suo c02, ukuran c03, mata/kutil c07; tidak ada tulisan/gore. Uji Sangar tujuh butir lulus.",
+    "limitations": [],
+    "native_sha256": "ebb65ef4022f406155575fd86a3ca0f94bb9d8cced872e49dd5f424fe486c1bb",
+    "reviewed_at": "2026-10-09T01:00:53.095699+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ebb65ef4022f406155575fd86a3ca0f94bb9d8cced872e49dd5f424fe486c1bb",
+    "notes": "Warty red-eyed giant toad on wet rock exhaling a faint rainbow breath that pulls insects into its mouth; four legs, no horns."
+  }
+}

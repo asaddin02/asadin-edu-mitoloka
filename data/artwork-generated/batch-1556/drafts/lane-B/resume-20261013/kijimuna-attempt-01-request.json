@@ -1,0 +1,60 @@
+{
+  "slug": "kijimuna",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kijimuna, the mischievous red-haired Okinawan banyan spirit. Native square PNG at least1024x1024.\nANATOMY: ONE small wood spirit, child-like about3-4years form, one head/two eyes/two arms/two legs, wild thick BRIGHT RED hair and red-tinted skin, fully opaque simple plain tunic/short trousers. No horns/fangs/claws invented. [kijimuna-c02, kijimuna-c03, kijimuna-c04, kijimuna-c06]\nMOMENT: THRUST one hand from a banyan tree hollow toward viewer, wild hair flaring, intense offended gaze, protective wrath of a tree spirit rather than an evil child and body leaning sharply out; thick roots loom close around the spirit.\nPOWER: Wronged kijimuna can magically TRAP PEOPLE inside hollow trees; depict an adult silhouette enclosed far inside a separate dark hollow, without injury or energy effects. [kijimuna-c10]\nSCALE & CAMERA: Extreme close low lens at tree hollow, spirit head/red hair and reaching hand dominant; distant trapped adult silhouette small by depth, not invented spirit size.\nLIGHT & WEATHER: One cold moon shaft across red hair and deeply shadowed banyan roots.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Okinawan gajumaru banyan tree at night. [kijimuna-c01, kijimuna-c04, kijimuna-c05]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the mischievous red-haired Okinawan banyan spirit",
+  "basis_claim_ids": [
+    "kijimuna-c02",
+    "kijimuna-c03",
+    "kijimuna-c04",
+    "kijimuna-c06",
+    "kijimuna-c10",
+    "kijimuna-c01",
+    "kijimuna-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE small wood spirit, child-like about3-4years form, one head/two eyes/two arms/two legs, wild thick BRIGHT RED hair and red-tinted skin, fully opaque simple plain tunic/short trousers. No horns/fangs/claws invented. Respectful powerful tree-spirit identity, no demonic features.",
+      "claim_ids": [
+        "kijimuna-c02",
+        "kijimuna-c03",
+        "kijimuna-c04",
+        "kijimuna-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wronged kijimuna can magically TRAP PEOPLE inside hollow trees; depict an adult silhouette enclosed far inside a separate dark hollow, without injury or energy effects.",
+      "claim_ids": [
+        "kijimuna-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Okinawan gajumaru banyan tree at night.",
+      "claim_ids": [
+        "kijimuna-c01",
+        "kijimuna-c04",
+        "kijimuna-c05"
+      ]
+    }
+  ],
+  "aura": "THRUST one hand from a banyan tree hollow toward viewer, wild hair flaring, intense uncanny gaze and body leaning sharply out; thick roots loom close around the spirit. Grounded in kijimuna-c02, kijimuna-c03, kijimuna-c04, kijimuna-c06, kijimuna-c10, kijimuna-c01, kijimuna-c05.",
+  "artistic_choices": [
+    "Wrathful protecting-tree variant c10, ordinary small body shown close not giant. Adult silhouette minimal trapped-state indicator no suffering/gore. Hair and skin source red, simple opaque clothes editorial.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers.",
+    "Living Okinawan folk belief rendered respectfully as powerful offended tree protection; no demonic human-child distortion or invented attack anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

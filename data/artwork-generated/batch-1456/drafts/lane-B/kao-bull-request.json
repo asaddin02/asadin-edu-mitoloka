@@ -1,0 +1,44 @@
+{
+  "slug": "kao-bull",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kao (bull), the great divine Meitei bull of the Khamba Thoibi epic before its taming. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one living great bull, one head/two eyes, two natural bull horns, four hoofed legs and one bovine tail; no wings, jewellery or invented supernatural body parts [kao-bull-c01, kao-bull-c13, kao-bull-c15]\nMOMENT: BURST from water-edge reeds toward viewer with head lowered and horns thrust forward, powerful shoulders surging and reed stems bent by bodily contact\nPOWER: no documented magical power; imposing divine bull force conveyed by physical forward motion only, no aura [kao-bull-c13, kao-bull-c15]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: wet bovine hair, thick keratin horns, mud and snapped real reeds\nSETTING: reeds bordering the waters of Waithou [kao-bull-c13]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Untamed great divine bull at Waithou, before the father-name taming.",
+  "basis_claim_ids": [
+    "kao-bull-c01",
+    "kao-bull-c13",
+    "kao-bull-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Divine great bull and natural horns",
+      "claim_ids": [
+        "kao-bull-c01",
+        "kao-bull-c13",
+        "kao-bull-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waithou waters and reeds",
+      "claim_ids": [
+        "kao-bull-c13"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the great horned bull forcefully emerging at Waithou (kao-bull-c13, kao-bull-c15).",
+  "artistic_choices": [
+    "Dark bull coat is editorial. Powerful emergence and lowered horns echo dangerous pre-taming account without showing victim or gore. Respectful formidable divine animal, no demonic redesign or invented giant size beyond great bull."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

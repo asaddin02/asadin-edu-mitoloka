@@ -1,0 +1,54 @@
+{
+  "slug": "shukra",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shukra, the respectful four-armed Hindu Venus deity and sage restoring life. Native square PNG at least1024x1024.\nANATOMY: ONE human-shaped male DEITY/SAGE, one head/TWO eyes, EXACTLY FOUR ARMS/FOUR hands and TWO legs, fullyopaque white ceremonial robes. Hands clearly hold ONE STAFF, ONE ROSARY, ONE WATERPOT, and ONE open VARADA blessinghand. No extra arms, horses or chariot in this fourarm variant. [shukra-c01, shukra-c22]\nMOMENT: STEP forward with fourarms spread in clear separated positions, staff planted, rosary raised, waterpot extended, open blessinghand lowered toward ONE fullyclothed adult asura rising from the ground.\nPOWER: Mrtasanjivani restores life to asuras: the fullyclothed unharmed adult rises and draws breath under blessing, no corpse/wounds/gore/energy ribbons. [shukra-c07, shukra-c10]\nSCALE & CAMERA: Extreme low angle, respectful fourarmed deity towers close over muchsmaller risingadult in lowerforeground, everyhand/attribute legible.\nLIGHT & WEATHER: One brilliant celestial Venus sideillumination with white/gold rimlight, deep warm cloudshadow; no genericaura.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Abstract celestial Venus domain above deep cloudbanks, small bright Venus in sky; not a fabricated named temple. [shukra-c01, shukra-c07]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the respectful four-armed Hindu Venus deity and sage restoring life",
+  "basis_claim_ids": [
+    "shukra-c01",
+    "shukra-c22",
+    "shukra-c07",
+    "shukra-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE human-shaped male DEITY/SAGE, one head/TWO eyes, EXACTLY FOUR ARMS/FOUR hands and TWO legs, fullyopaque white ceremonial robes. Hands clearly hold ONE STAFF, ONE ROSARY, ONE WATERPOT, and ONE open VARADA blessinghand. No extra arms, horses or chariot in this fourarm variant.",
+      "claim_ids": [
+        "shukra-c01",
+        "shukra-c22"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mrtasanjivani restores life to asuras: the fullyclothed unharmed adult rises and draws breath under blessing, no corpse/wounds/gore/energy ribbons.",
+      "claim_ids": [
+        "shukra-c07",
+        "shukra-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Abstract celestial Venus domain above deep cloudbanks, small bright Venus in sky; not a fabricated named temple.",
+      "claim_ids": [
+        "shukra-c01",
+        "shukra-c07"
+      ]
+    }
+  ],
+  "aura": "STEP forward with fourarms spread in clear separated positions, staff planted, rosary raised, waterpot extended, open blessinghand lowered toward ONE fullyclothed adult asura rising from the ground. Grounded in shukra-c01, shukra-c22, shukra-c07, shukra-c10.",
+  "artistic_choices": [
+    "Fourarmed form directly c22; no mixing whitehorse c12 or8/10horsechariot c21. Facial age/beard/clothes details editorial. Adultasura rendered plain humanform as anatomy undescribed, no monsterfeatures. Scale reverently monumental as deity convention, no sinister expression.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

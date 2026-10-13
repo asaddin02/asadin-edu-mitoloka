@@ -1,0 +1,86 @@
+{
+  "slug": "hoop-snake",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hoop snake, the North American enormous rolling snake of the Hoop Snake Hill local legend, a living animal in a landscape, not an emblem.\nANATOMY: ONE continuous limbless scaly snake with ONE head and ONE tapering tail. Its body makes ONE complete upright circular HOOP, leaving a large empty hole in the middle. At the upper-right of the hoop its mouth clearly GRIPS ITS OWN narrow tail near the tail tip; tail is visibly between the closed jaws, with a small terminal hard SPIKE protruding just past the bite. One snake, two ordinary snake eyes; no limbs, wings, horns or second head. NO long spines on the inner hoop: do not mix the Australian variant. [hoop-snake-c02, hoop-snake-c07, hoop-snake-c08]\nMOMENT: rolling rapidly downhill toward the low camera like an actual upright wheel; body lower arc contacts stony ground and kicks physical gravel and dust, while the head still grips the tail at top-right. Make the complete hoop and mouth-to-tail join unmistakable, not a normal coiled snake.\nPOWER: Tail-gripping wheel-like pursuit down a hill is the visible action; the spiked tail remains held in the mouth in this moment before it straightens to strike. No victim, no venom beam, no tree magically dying in a scene where it is not jabbed. [hoop-snake-c02, hoop-snake-c07, hoop-snake-c08]\nSCALE & CAMERA: extreme low angle; near-ground view at three-quarter frontal angle, ring plane almost faces camera so central hole and upper bite joint remain clearly visible, entire hoop within frame; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: low amber dying-sun shaft through dark trees, dramatic black-brown shade and crisp rim light across scales, physically lit dust.\nSURFACE: wet rugged dark brown and copper snake scales, realistic scaly belly plates around inside of the ring; hard ordinary terminal tail spine.\nSETTING: Steep rough North American wooded hill slope, uninscribed trees and rocks; descending rolling motion toward viewer, no historical marker sign or text. [hoop-snake-c01, hoop-snake-c07]\nMOOD: dangerous active pursuit, formidable enormous living snake, no decorative ouroboros symbol.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Legenda lokal Hoop Snake Hill c07/c08: ular raksasa berguling menuruni bukit dengan ekor di rahang, duri ekor; bukan versi Australia berduri di sisi dalam.",
+  "basis_claim_ids": [
+    "hoop-snake-c02",
+    "hoop-snake-c07",
+    "hoop-snake-c08",
+    "hoop-snake-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE continuous limbless scaly snake with ONE head and ONE tapering tail. Its body makes ONE complete upright circular HOOP, leaving a large empty hole in the middle. At the upper-right of the hoop its mouth clearly GRIPS ITS OWN narrow tail near the tail tip; tail is visibly between the closed jaws, with a small terminal hard SPIKE protruding just past the bite. One snake, two ordinary snake eyes; no limbs, wings, horns or second head. NO long spines on the inner hoop: do not mix the Australian variant.",
+      "claim_ids": [
+        "hoop-snake-c02",
+        "hoop-snake-c07",
+        "hoop-snake-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tail-gripping wheel-like pursuit down a hill is the visible action; the spiked tail remains held in the mouth in this moment before it straightens to strike. No victim, no venom beam, no tree magically dying in a scene where it is not jabbed.",
+      "claim_ids": [
+        "hoop-snake-c02",
+        "hoop-snake-c07",
+        "hoop-snake-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Steep rough North American wooded hill slope, uninscribed trees and rocks; descending rolling motion toward viewer, no historical marker sign or text.",
+      "claim_ids": [
+        "hoop-snake-c01",
+        "hoop-snake-c07"
+      ]
+    }
+  ],
+  "aura": "Tail-gripping wheel-like pursuit down a hill is the visible action; the spiked tail remains held in the mouth in this moment before it straightens to strike. No victim, no venom beam, no tree magically dying in a scene where it is not jabbed. [hoop-snake-c02, hoop-snake-c07, hoop-snake-c08]",
+  "artistic_choices": [
+    "Palet brown/copper serta detail sisik generik adalah editorial; tidak mengklaim spesies nyata atau warna khas tertentu.",
+    "Kamera rendah melihat hampir frontal lingkaran dan debu kontak tanah adalah cara editorial membuat tindakan berguling terbaca."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-11ba899b-3b54-46d7-9b46-2fad36fc41d8.png",
+  "generated_at": "2026-10-10T04:09:52.215698+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/hoop-snake.png",
+  "native_sha256": "72b54539fd3928a4004ea26479b6d6a8b924f7ec4394161553684ddb509c69c7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Satu ular kontinu membentuk simpai tegak berguling menuruni bukit; rahang memegang ekor sendiri di kanan atas, duri terminal jelas, lubang tengah kosong dan kontak tanah/debu terbaca native+200. Tanpa kepala kedua atau duri dalam versi Australia; tidak menampilkan serangan tanpa membuka simpai.",
+    "limitations": [],
+    "native_sha256": "72b54539fd3928a4004ea26479b6d6a8b924f7ec4394161553684ddb509c69c7",
+    "reviewed_at": "2026-10-10T04:09:52.215698+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "72b54539fd3928a4004ea26479b6d6a8b924f7ec4394161553684ddb509c69c7",
+    "notes": "One snake forming an upright hoop with its spiked tail in its mouth, rolling down a hillside in dust."
+  }
+}

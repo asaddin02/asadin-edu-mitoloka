@@ -1,0 +1,88 @@
+{
+  "slug": "thunderbird",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Thunderbird, as documented in the accepted traditional claims.\nANATOMY: One enormous supernatural bird of prey, one raptor head, two eyes, exactly two immense feathered wings, two taloned feet, one fan tail; original naturalistic bird, no human hybrid or cultural art patterns [thunderbird-c01, thunderbird-c04, thunderbird-c19]\nMOMENT: Drive its enormous wings downward while diving toward the viewer, opening both eyes to cast lightning down into the storm.\nPOWER: Real lightning forks from the flashing eyes through the storm, thunder-driving wing strokes buffet the rain [thunderbird-c05, thunderbird-c10, thunderbird-c16]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single bright lightning flash, deep antique-gold and charcoal shadows, rain.\nSURFACE: wet rugged feathers, storm-worn beak and talons.\nSETTING: The upper storm sky over a distant dark landscape [thunderbird-c03]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Thunderbird burung pemangsa raksasa yang mengepakkan sayap dan melepaskan kilat dari mata.",
+  "basis_claim_ids": [
+    "thunderbird-c01",
+    "thunderbird-c04",
+    "thunderbird-c19",
+    "thunderbird-c05",
+    "thunderbird-c10",
+    "thunderbird-c16",
+    "thunderbird-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous supernatural bird of prey, one raptor head, two eyes, exactly two immense feathered wings, two taloned feet, one fan tail; original naturalistic bird, no human hybrid or cultural art patterns",
+      "claim_ids": [
+        "thunderbird-c01",
+        "thunderbird-c04",
+        "thunderbird-c19"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Real lightning forks from the flashing eyes through the storm, thunder-driving wing strokes buffet the rain",
+      "claim_ids": [
+        "thunderbird-c05",
+        "thunderbird-c10",
+        "thunderbird-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The upper storm sky over a distant dark landscape",
+      "claim_ids": [
+        "thunderbird-c03"
+      ]
+    }
+  ],
+  "aura": "Real lightning forks from the flashing eyes through the storm, thunder-driving wing strokes buffet the rain [thunderbird-c05, thunderbird-c10, thunderbird-c16]",
+  "artistic_choices": [
+    "Perlindungan dan daya alam disajikan penuh hormat; bukan monster jahat.",
+    "Tidak mengambil motif upacara atau desain totem spesifik."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-cce23276-bdd3-4fcc-bad9-2d74e68f41a8.png",
+  "generated_at": "2026-10-09T01:13:23.395542+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/thunderbird.png",
+  "native_sha256": "97ca3276fd5d0d39f93f3f11450a9998edf2e77793a44db4a58ed0226da2f6c8",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: burung pemangsa raksasa menukik dengan satu kepala, dua sayap dan dua kaki bercakar; mata melepaskan kilat bercabang nyata c05/c10/c16. Hujan dan langit didominasi burung, lanskap kecil memberi skala c19. Uji Sangar 7/7; tanpa simbol, teks atau aura generik.",
+    "limitations": [],
+    "native_sha256": "97ca3276fd5d0d39f93f3f11450a9998edf2e77793a44db4a58ed0226da2f6c8",
+    "reviewed_at": "2026-10-09T01:13:23.395542+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "97ca3276fd5d0d39f93f3f11450a9998edf2e77793a44db4a58ed0226da2f6c8",
+    "notes": "Huge raptor with two wings and taloned feet diving through a storm with lightning forking from its eyes."
+  }
+}

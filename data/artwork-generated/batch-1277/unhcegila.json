@@ -1,0 +1,90 @@
+{
+  "slug": "unhcegila",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Unhcegila, as documented in the accepted traditional claims.\nANATOMY: One massive horned water serpent, one fanged head, two eyes burning like fire, one long heavily armored scaly body; a pair of horns on the head. No visible limbs in this close coil-and-head composition, no extra heads [unhcegila-c01, unhcegila-c02, unhcegila-c05, unhcegila-c15]\nMOMENT: Emerge toward the viewer from a catastrophic flood, tilt the horned fanged head down in wrathful hunger while immense coils roll behind it.\nPOWER: Primordial water floods the land around the rising serpent; the documented eyes of fire cast tiny localized orange reflections, never a glowing body aura [unhcegila-c05, unhcegila-c06, unhcegila-c10]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single low amber storm break, wet black shadows, flood spray.\nSURFACE: nearly impenetrable layered dark scales, wet horn ridges.\nSETTING: Flooded land with dark Black Hills ridges [unhcegila-c07, unhcegila-c10]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Unhcegila ular air bertanduk bersisik tebal, muncul dari banjir.",
+  "basis_claim_ids": [
+    "unhcegila-c01",
+    "unhcegila-c02",
+    "unhcegila-c05",
+    "unhcegila-c15",
+    "unhcegila-c06",
+    "unhcegila-c10",
+    "unhcegila-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One massive horned water serpent, one fanged head, two eyes burning like fire, one long heavily armored scaly body; a pair of horns on the head. No visible limbs in this close coil-and-head composition, no extra heads",
+      "claim_ids": [
+        "unhcegila-c01",
+        "unhcegila-c02",
+        "unhcegila-c05",
+        "unhcegila-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Primordial water floods the land around the rising serpent; the documented eyes of fire cast tiny localized orange reflections, never a glowing body aura",
+      "claim_ids": [
+        "unhcegila-c05",
+        "unhcegila-c06",
+        "unhcegila-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Flooded land with dark Black Hills ridges",
+      "claim_ids": [
+        "unhcegila-c07",
+        "unhcegila-c10"
+      ]
+    }
+  ],
+  "aura": "Primordial water floods the land around the rising serpent; the documented eyes of fire cast tiny localized orange reflections, never a glowing body aura [unhcegila-c05, unhcegila-c06, unhcegila-c10]",
+  "artistic_choices": [
+    "Memilih varian ular bertanduk c15, bukan mencampur bentuk lembu Dorsey.",
+    "Tidak menunjukkan cakar karena jumlah tungkai tidak didokumentasikan; framing membatasi bagian kepala dan lilitan."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-6eeb1cdd-9ff1-4f19-add2-3c9bdabaa8f3.png",
+  "generated_at": "2026-10-09T01:14:21.021075+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/unhcegila.png",
+  "native_sha256": "5e4f6c35aa3bf50bb7c963453c36b5b04a15e9dbb684cf409df1e5e473f2d6c5",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: ular raksasa bertanduk satu kepala bermata api lokal, sisik lapis keras c02, mulut bertaring c05 dan tanduk c15; kepala menunduk menyerbu dari banjir c10. Tidak ada tungkai yang dikarang, Black Hills latar kecil c07. Uji Sangar 7/7.",
+    "limitations": [],
+    "native_sha256": "5e4f6c35aa3bf50bb7c963453c36b5b04a15e9dbb684cf409df1e5e473f2d6c5",
+    "reviewed_at": "2026-10-09T01:14:21.021075+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "5e4f6c35aa3bf50bb7c963453c36b5b04a15e9dbb684cf409df1e5e473f2d6c5",
+    "notes": "Horned, fire-eyed armored water serpent rising out of a flood with fangs bared; one head, no limbs."
+  }
+}

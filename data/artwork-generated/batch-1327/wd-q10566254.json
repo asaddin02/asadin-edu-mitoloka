@@ -1,0 +1,87 @@
+{
+  "slug": "wd-q10566254",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of 飛頭蛮, Feitouman in the Lingnan night-flying-head account, whose head sprouts wings and searches riverbank mud for crabs and worms.\nANATOMY: ONE detached adult human head, two natural eyes with pupils, one mouth, winglike ears/head wings as one small symmetrical pair. A thin red ringlike mark circles the closed smooth neck base; no exposed wound, no blood, no organs, no torso or hands or extra head. Do not use the separate pupil-less Java variant [wd-q10566254-c01, wd-q10566254-c03, wd-q10566254-c05, wd-q10566254-c06]\nMOMENT: Fly directly down toward the viewer and scan the muddy bank with ravenous intent, beat its two head-wings forward while turning the sickly face and mouth toward crabs in the immediate foreground.\nPOWER: Documented head detachment and night flight; physical head-wings beat and stir small mud droplets as it searches for crabs and worms, no generic aura [wd-q10566254-c01, wd-q10566254-c05, wd-q10566254-c06]\nSCALE & CAMERA: extreme low angle; very low extreme close-up from river mud level; normal human-sized detached head fills the frame because it flies close, no invented giant head; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dim amber moonbeam with wet dark mud reflections, deep walnut shadows, thin river mist.\nSURFACE: weathered sickly human skin, smooth closed neck base, wet thin wing membranes, muddy bank.\nSETTING: A dark muddy riverbank in the valleys of Lingnan at night, small crabs and wet reeds as close environmental detail [wd-q10566254-c05, wd-q10566254-c06]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Feitouman varian Lingnan berkepala terbang dengan sayap dan cincin merah leher, bukan varian Java tanpa pupil.",
+  "basis_claim_ids": [
+    "wd-q10566254-c01",
+    "wd-q10566254-c03",
+    "wd-q10566254-c05",
+    "wd-q10566254-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE detached adult human head, two natural eyes with pupils, one mouth, winglike ears/head wings as one small symmetrical pair. A thin red ringlike mark circles the closed smooth neck base; no exposed wound, no blood, no organs, no torso or hands or extra head. Do not use the separate pupil-less Java variant",
+      "claim_ids": [
+        "wd-q10566254-c01",
+        "wd-q10566254-c03",
+        "wd-q10566254-c05",
+        "wd-q10566254-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented head detachment and night flight; physical head-wings beat and stir small mud droplets as it searches for crabs and worms, no generic aura",
+      "claim_ids": [
+        "wd-q10566254-c01",
+        "wd-q10566254-c05",
+        "wd-q10566254-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark muddy riverbank in the valleys of Lingnan at night, small crabs and wet reeds as close environmental detail",
+      "claim_ids": [
+        "wd-q10566254-c05",
+        "wd-q10566254-c06"
+      ]
+    }
+  ],
+  "aura": "Documented head detachment and night flight; physical head-wings beat and stir small mud droplets as it searches for crabs and worms, no generic aura [wd-q10566254-c01, wd-q10566254-c05, wd-q10566254-c06]",
+  "artistic_choices": [
+    "Pangkal kepala tertutup halus tanpa wound/gore; dua head-wings editorial bentuk natural dari c03/c06.",
+    "Tidak menggabungkan tubuh/tangan terbang Shiyi ji c08 atau pupil-less c02."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-ca8365ff-7052-4b5a-9b9c-5dbeee97933f.png",
+  "generated_at": "2026-10-10T03:18:05.552825+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/wd-q10566254.png",
+  "native_sha256": "fae521db3fa1acd17200d52615088f79daab2e62f4a1e3a578cad746aec592a6",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: satu kepala dewasa detached dengan pair head-wings, mata berpupil normal, redring pada neckbase tertutup tanpa gore; turun mencari crabs di mud c05/c06. Tidak mencampur pupil-less Jawa atau flyinghands. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "fae521db3fa1acd17200d52615088f79daab2e62f4a1e3a578cad746aec592a6",
+    "reviewed_at": "2026-10-10T03:18:05.552825+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "fae521db3fa1acd17200d52615088f79daab2e62f4a1e3a578cad746aec592a6",
+    "notes": "Detached human head with winglike ears flying low over a mudflat full of crabs, thin red ring mark at the neck line, mud dripping; checked at full size, no wound or blood."
+  }
+}

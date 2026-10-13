@@ -1,0 +1,63 @@
+{
+  "slug": "kinie-ger",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kinie Ger, the quoll-headed and quoll-bodied hunter with human limbs of Southeastern Australian traditional stories. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one quoll head with two eyes/rounded ears, furred quoll torso and one quoll tail; exactly TWO human arms and TWO human legs, human five-finger hands and five-toe feet; fully opaque waist wrap; no spear or weapons, no armour, motifs or extra limbs [kinie-ger-c01, kinie-ger-c02]\nMOMENT: PIVOT from drinking at the waterhole to face viewer, one human hand coming upward into readiness, one human foot pushing from muddy edge\nPOWER: no documented supernatural power; predatory menace through human-limbed quoll anatomy, no victims shown [kinie-ger-c01, kinie-ger-c02]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: matted spotted quoll fur, human skin, rough opaque cloth, plain wood spear and mud\nSETTING: waterhole where the ambush story places him [kinie-ger-c03]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Quoll-headed/quoll-bodied hunter with human limbs before owl/crow ambush.",
+  "basis_claim_ids": [
+    "kinie-ger-c02",
+    "kinie-ger-c01",
+    "kinie-ger-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Quoll head/body, human limbs",
+      "claim_ids": [
+        "kinie-ger-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waterhole",
+      "claim_ids": [
+        "kinie-ger-c03"
+      ]
+    }
+  ],
+  "aura": "Threat comes from ruthless human-limbed quoll beast confronting at waterhole (kinie-ger-c01, kinie-ger-c02, kinie-ger-c03).",
+  "artistic_choices": [
+    "Opaque waist wrap is an editorial modesty choice. Natural quoll spots are animal rendering. No spear: embedded claims do not support one. No sacred designs, killing, blood, magical glow or giant scale invented."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-66cd1fa3-c6fc-4bcd-bd7a-c5b65d8f1779.png",
+  "generated_at": "2026-10-12T08:13:49.974273+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/kinie-ger.png",
+  "native_sha256": "622ba033bcad68e3231ed282f52d1059de6d8359c16101ecd2423b42eb390e8d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected all seven checks pass. One quoll head/two eyes/two ears, spotted quoll torso and tail c02; exactly two human arms and two human legs, near hand five digits, near foot five toes with far foot partly occluded. Opaque waistwrap, no weapon/sacred motif invented. Uncanny hybrid pivots forward at waterhole c03, direct gaze and reaching human hands read threatening at200px without enlarging into giant. No supernatural effects, text,gore or borrowed adaptation.",
+    "limitations": [],
+    "native_sha256": "622ba033bcad68e3231ed282f52d1059de6d8359c16101ecd2423b42eb390e8d",
+    "reviewed_at": "2026-10-12T08:13:49.974533+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "622ba033bcad68e3231ed282f52d1059de6d8359c16101ecd2423b42eb390e8d",
+    "notes": "Spotted quoll-headed being with human arms and legs stalking out of a waterhole at sunset."
+  }
+}

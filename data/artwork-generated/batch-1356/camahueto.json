@@ -1,0 +1,88 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "camahueto",
+  "depicted_variant": "Camahueto Chiloé Mitológico sebagai anak sapi hijau dengan satu tanduk kecil, muncul dari bumi di bukit dekat laut.",
+  "basis_claim_ids": [
+    "camahueto-c07",
+    "camahueto-c08",
+    "camahueto-c12",
+    "camahueto-c14",
+    "camahueto-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Anak sapi hijau dengan hanya satu tanduk kecil di dahi, bukan banteng dewasa atau tanduk lateral.",
+      "claim_ids": [
+        "camahueto-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Lahir dari kedalaman tanah bukit; longsor ditampilkan sebagai visualisasi tafsir penulis dan konteks destruktif darat.",
+      "claim_ids": [
+        "camahueto-c08",
+        "camahueto-c12",
+        "camahueto-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Bukit tepi laut Chiloé, menuju laut yang menjadi tempatnya.",
+      "claim_ids": [
+        "camahueto-c08",
+        "camahueto-c14"
+      ]
+    }
+  ],
+  "aura": "Kekuatan destruktif datang dari kemunculan anak sapi hijau bertanduk tunggal dari bukit laut serta longsor dalam tafsir sumber (camahueto-c07, camahueto-c08, camahueto-c12, camahueto-c15), tanpa membesarkan calf atau mengarang kuasa waktu.",
+  "artistic_choices": [
+    "Satu varian green calf c07 dari Chiloé Mitológico; tidak menggabungkan dewasa/sungai/time-control atau rain/thunder dari versi lain.",
+    "Satu kepala/dua mata/empat kaki/ekor dan hoof belah mengikuti anatomi calf; tanduk putih pendek hanya satu di tengah dahi sebagai warna editorial.",
+    "Cinematic close-up membuat dominasi tanpa ukuran raksasa, wajah tegas bukan cute.",
+    "Tanah runtuh mengvisualisasi penafsiran sumber c12, bukan klaim literal bahwa ia membuat earthquake; debris fisik lahir dari tanah c08.",
+    "Awan gelap dan ombak normal editorial, tanpa petir magis, korban atau gore."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of CAMAHUETO in the CHILOÉ MITOLÓGICO variant: a GREEN CALF with ONE SMALL forehead horn, born from the earth on a hill beside the sea.\nANATOMY: exactly ONE young CALF, ONE bovine head TWO natural eyes FOUR bovine legs ONE tail, unmistakably GREEN coarse wet fur. ONE SHORT SMALL IVORY HORN centered on its FOREHEAD, clearly readable but modest, no two lateral cow horns and no giant unicorn spear. Realistic calf face and split hooves; young lean calf body, not adult bull. [camahueto-c07]\nMOMENT: bursting UP and FORWARD from a split in the wet earth toward the viewer, forehead lowered confrontationally, one cloven front hoof drives into the near cliff ledge while dirt slides away under it; firm intense eyes and flared nostrils, not cute. Its newborn emergence physically displaces mud and stones. [camahueto-c08]\nPOWER: source says it is born from earth and describes destructive presence on land; crumbling coastal hillside visualizes the author's interpretation of spontaneous landslides, NOT an invented earthquake spell. No magical rain/thunder/time-control effect. [camahueto-c08,c12,c15]\nSCALE & CAMERA: extreme ground-level close angle beneath horn and landing hoof; green head, SHORT single horn and calf shoulders dominate square through perspective, actual calf size unchanged, NOT colossal.\nLIGHT & WEATHER: one warm low sun shaft through deep walnut-dark clouds, wet-earth rim light and flying mud.\nSURFACE: rough green wet hair, crusted earthy muzzle, small smooth ivory horn, muddy cloven hooves, split earth and rock.\nSETTING: high coastal hill beside the dark sea of Chiloé, sea belongs to it. [camahueto-c08,c14]\nMOOD: strange destructive force of the land, imposing and active, not ordinary dairy calf, pet or mascot.\n\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-398867a6-629e-4aa4-a629-e6e865c21a0e.png",
+  "generated_at": "2026-10-10T04:04:49.806Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/camahueto.png",
+  "native_sha256": "a11edb5d8fbc61698315474b763e463a24c76ff4736885867ba013b4095d5667",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa: calf berwarna hijau, satu tanduk pendek tengah dahi, dua mata, empat kaki dengan occlusion wajar, ekor tunggal, hoof belah. Melangkah keluar tanah yang runtuh pada coastalhill, bukan animal diam; sumber camahueto-c07/c08/c12/c14/c15. Longsor merupakan visualisasi interpretasi c12, tanpa rain/time power, tanduk lateral, glow, tulisan atau gore.",
+    "limitations": [],
+    "native_sha256": "a11edb5d8fbc61698315474b763e463a24c76ff4736885867ba013b4095d5667",
+    "reviewed_at": "2026-10-10T04:04:49.903Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/camahueto-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "a11edb5d8fbc61698315474b763e463a24c76ff4736885867ba013b4095d5667",
+    "notes": "Green calf with a single small forehead horn bursting out of a hillside with a landslide of earth above the coast."
+  }
+}

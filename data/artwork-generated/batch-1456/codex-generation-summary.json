@@ -1,0 +1,558 @@
+{
+  "batch": 1456,
+  "generation_complete": true,
+  "target": 50,
+  "awaiting_independent_review": 42,
+  "declined": 8,
+  "originals_main_reviewed": 42,
+  "thumbnails_200_main_reviewed": 42,
+  "image_model": "tidak dilaporkan alat",
+  "tool": "OpenAI built-in image_gen",
+  "all_batch_successful_calls": 62,
+  "prior_session_successful_calls": 17,
+  "resumed_successful_calls": 45,
+  "all_batch_archived_rejections": 20,
+  "image_tool_failures": [],
+  "concurrency_exception": "Empat keluaran aktual untuk Gyges, melampaui batas tiga yang dimaksud. Panggilan ketiga lane-A masih berjalan ketika agen dilaporkan errored capacity dan pekerjaan dialihkan; lane-C menjalankan percobaan ketiga tanpa informasi panggilan yang masih berjalan. Keluaran overlap diarsipkan sebagai kegagalan anatomi; tidak ada keluaran diterima dan tidak ada panggilan lebih lanjut. Sesi berikutnya wajib memeriksa panggilan yang masih berjalan sebelum mengambil alih.",
+  "declined_items": [
+    {
+      "slug": "e",
+      "reason": "Pirĕšti claims document generic humanlike messenger or unspecified bird, and invisible shoulder guardians; neither a distinctive visible anatomy nor an active physical manifestation supporting a Sangar illustration without invented wings/aura/scale.",
+      "receipt_path": "data/artwork-generated/batch-1456/e.json"
+    },
+    {
+      "slug": "glad",
+      "reason": "Claims identify a horse ridden to Yggdrasil and a horse of Day, but no distinctive nonordinary anatomy or documented physical light power; shining is etymology only, not permission for an emitting coat. Ordinary horse image fails Sangar without invention.",
+      "receipt_path": "data/artwork-generated/batch-1456/glad.json"
+    },
+    {
+      "slug": "gyges",
+      "reason": "Tiga percobaan gagal anatomi wajib gyges-c02:50 kepala dan100 lengan tepat. Percobaan01 memiliki48kepala,02memiliki45,03memiliki46(4baris10+barisbawah6); fanlengan tidak menetapkan100 secara countable. Tidak memilih gambar yang gagal UjiSangar5.",
+      "receipt_path": "data/artwork-generated/batch-1456/gyges.json"
+    },
+    {
+      "slug": "holawaka",
+      "reason": "Claims specify an unspecified messenger bird and painful crying, no species, distinctive anatomy or physical power. Rendering an invented species/plague morphology would exceed research and ordinary bird fails Sangar.",
+      "receipt_path": "data/artwork-generated/batch-1456/holawaka.json"
+    },
+    {
+      "slug": "khambrangchak",
+      "reason": "Riset hanya memberi burung wagtail (identifikasi yellow/whitepied berbeda antarpeneliti, khambrangchak-c04), kebiasaan merapikan bulu/rias wajah (c05), serta mencuci kaki dan digigit kepiting di sungai (c06/c07). Tidak ada tubuh supernatural, skala besar, kuasa, atau manifestasi aktif yang bisa membuat gambar agung/berbahaya tanpa mengarang. Adegan burung biasa dan kepiting akan gagal Uji Sangar; tidak mengubahnya menjadi monster/giant.",
+      "receipt_path": "data/artwork-generated/batch-1456/khambrangchak.json"
+    },
+    {
+      "slug": "koolakamba",
+      "reason": "Wujud yang tersedia hanya kera diduga-hibrida, round face/cheekbones/whiskers c09, rambut hitam c10, tinggi4ft3in c08, pemalu dan sulit didekati c11. Tidak ada kuasa, manifestasi aktif, skala raksasa, atau anatomi supernatural pembeda. Gambar kera biasa yang mundur akan gagal Uji Sangar; menambahkan agresi, fangs, giant scale atau efek gaib bertentangan klaim. Belum memakai panggilan image_gen untuk entri ini.",
+      "receipt_path": "data/artwork-generated/batch-1456/koolakamba.json"
+    },
+    {
+      "slug": "nie-xiaoqian",
+      "reason": "Accepted research depicts a beautiful18-year-old female ghost whose appearance is explicitly indistinguishable from a human. Her own recorded deed uses hidden foot-pricking and lethal blood/organ theft (c09), which cannot be shown distinctly without gore or becoming an ordinary human attacker. The active figure emerging from the leather bag (c11) is another ghost, not Nie Xiaoqian. No claim grounds a distinct non-gory bodily manifestation or visible power; an invented glow, deformation or adaptation design would violate policy. No generation call.",
+      "receipt_path": "data/artwork-generated/batch-1456/nie-xiaoqian.json"
+    },
+    {
+      "slug": "pop-ghost",
+      "reason": "Accepted research calls Phi Pop often shapeless (c29), inhabiting a living human host (c09/c25) and appearing human by day (c34). The black-dog form (c05) has no documented distinguishing anatomy or visible non-gory active power. Its other physical manifestation is host illness or internal viscera consumption (c30), which would show an ordinary sick person or require gore. Floating heads/organs belong to other ghost depictions and are not assigned here. Cannot meet the distinct-subject/sangar requirement without inventing anatomy or effects; no generation call.",
+      "receipt_path": "data/artwork-generated/batch-1456/pop-ghost.json"
+    }
+  ],
+  "ready": [
+    {
+      "slug": "chuzalongo",
+      "original_file": "data/artwork-generated/batch-1456/originals/chuzalongo.png",
+      "receipt_path": "data/artwork-generated/batch-1456/chuzalongo.json",
+      "native_sha256": "06648a8590877e2c2bc7489edf444af3ee2e2bfb5c662a828cbbc1cb70f1b05f",
+      "basis_claim_ids": [
+        "chuzalongo-c03",
+        "chuzalongo-c06",
+        "chuzalongo-c07",
+        "chuzalongo-c12",
+        "chuzalongo-c11",
+        "chuzalongo-c01"
+      ]
+    },
+    {
+      "slug": "ciguapa",
+      "original_file": "data/artwork-generated/batch-1456/originals/ciguapa.png",
+      "receipt_path": "data/artwork-generated/batch-1456/ciguapa.json",
+      "native_sha256": "76fc855f2338b33e923ce4c4c0bfcc57b30100c1bd03c2ca94e013c65047b450",
+      "basis_claim_ids": [
+        "ciguapa-c02",
+        "ciguapa-c05",
+        "ciguapa-c11",
+        "ciguapa-c06",
+        "ciguapa-c08",
+        "ciguapa-c03"
+      ]
+    },
+    {
+      "slug": "cihuateteo",
+      "original_file": "data/artwork-generated/batch-1456/originals/cihuateteo.png",
+      "receipt_path": "data/artwork-generated/batch-1456/cihuateteo.json",
+      "native_sha256": "ae07f8f7feb8b9a458345d8fd0ec36a8d6fd4b07ca7ba91ff0f3275e1e1efc4f",
+      "basis_claim_ids": [
+        "cihuateteo-c11",
+        "cihuateteo-c12",
+        "cihuateteo-c16",
+        "cihuateteo-c03",
+        "cihuateteo-c15"
+      ]
+    },
+    {
+      "slug": "dirawong",
+      "original_file": "data/artwork-generated/batch-1456/originals/dirawong.png",
+      "receipt_path": "data/artwork-generated/batch-1456/dirawong.json",
+      "native_sha256": "3922cf80435ebd783551f2a436e4a3161b0fd911731ade375db41c748bcf4d01",
+      "basis_claim_ids": [
+        "dirawong-c01",
+        "dirawong-c05",
+        "dirawong-c09",
+        "dirawong-c03",
+        "dirawong-c12"
+      ]
+    },
+    {
+      "slug": "dragon-turtle",
+      "original_file": "data/artwork-generated/batch-1456/originals/dragon-turtle.png",
+      "receipt_path": "data/artwork-generated/batch-1456/dragon-turtle.json",
+      "native_sha256": "3e782a47eb43917b088932d031ce45b98e056377672469d6b55fe2e48d0ef976",
+      "basis_claim_ids": [
+        "dragon-turtle-c01"
+      ]
+    },
+    {
+      "slug": "druk",
+      "original_file": "data/artwork-generated/batch-1456/originals/druk.png",
+      "receipt_path": "data/artwork-generated/batch-1456/druk.json",
+      "native_sha256": "b092d79a35d0f88e0772874fd73e07ed7ddd5f9221c2c19727200c62396bde09",
+      "basis_claim_ids": [
+        "druk-c01",
+        "druk-c02",
+        "druk-c05"
+      ]
+    },
+    {
+      "slug": "dyrnwch",
+      "original_file": "data/artwork-generated/batch-1456/originals/dyrnwch.png",
+      "receipt_path": "data/artwork-generated/batch-1456/dyrnwch.json",
+      "native_sha256": "9ef1b36ebe8575868deba383ec4906e46613e7df6118f5a3fdb7720214265881",
+      "basis_claim_ids": [
+        "dyrnwch-c01",
+        "dyrnwch-c03",
+        "dyrnwch-c10"
+      ]
+    },
+    {
+      "slug": "erawan",
+      "original_file": "data/artwork-generated/batch-1456/originals/erawan.png",
+      "receipt_path": "data/artwork-generated/batch-1456/erawan.json",
+      "native_sha256": "a6de00a738eb4eb6343f6a2b475e827edf297b7aad717b401a0afd81011c70f7",
+      "basis_claim_ids": [
+        "erawan-c01",
+        "erawan-c02",
+        "erawan-c06",
+        "erawan-c03"
+      ]
+    },
+    {
+      "slug": "ethiopian-pegasus",
+      "original_file": "data/artwork-generated/batch-1456/originals/ethiopian-pegasus.png",
+      "receipt_path": "data/artwork-generated/batch-1456/ethiopian-pegasus.json",
+      "native_sha256": "3961d102038fc80537abb245376d8b6f6cca3510341ec94fe806128009f4bfc4",
+      "basis_claim_ids": [
+        "ethiopian-pegasus-c01",
+        "ethiopian-pegasus-c04"
+      ]
+    },
+    {
+      "slug": "gangi-kozo",
+      "original_file": "data/artwork-generated/batch-1456/originals/gangi-kozo.png",
+      "receipt_path": "data/artwork-generated/batch-1456/gangi-kozo.json",
+      "native_sha256": "60ef3a576f1fd09c5cdb2b40b413253df6daed2303c8015e661141fede836b0f",
+      "basis_claim_ids": [
+        "gangi-kozo-c02",
+        "gangi-kozo-c04",
+        "gangi-kozo-c11"
+      ]
+    },
+    {
+      "slug": "headless-nun",
+      "original_file": "data/artwork-generated/batch-1456/originals/headless-nun.png",
+      "receipt_path": "data/artwork-generated/batch-1456/headless-nun.json",
+      "native_sha256": "93bc2e9c090e6c6baf771aa7a18c96ac8e5eb8f251860a4ec5ae48a738ca217c",
+      "basis_claim_ids": [
+        "headless-nun-c02",
+        "headless-nun-c03",
+        "headless-nun-c05",
+        "headless-nun-c10",
+        "headless-nun-c01",
+        "headless-nun-c06",
+        "headless-nun-c07"
+      ]
+    },
+    {
+      "slug": "hiderigami",
+      "original_file": "data/artwork-generated/batch-1456/originals/hiderigami.png",
+      "receipt_path": "data/artwork-generated/batch-1456/hiderigami.json",
+      "native_sha256": "d515f1c1ae67fce2c16d7c8df84c138658a5af24ceeabaec0209e926498c6f70",
+      "basis_claim_ids": [
+        "hiderigami-c09",
+        "hiderigami-c01",
+        "hiderigami-c11",
+        "hiderigami-c10"
+      ]
+    },
+    {
+      "slug": "hong-rainbow-dragon",
+      "original_file": "data/artwork-generated/batch-1456/originals/hong-rainbow-dragon.png",
+      "receipt_path": "data/artwork-generated/batch-1456/hong-rainbow-dragon.json",
+      "native_sha256": "20b888be99b6d52ea5ffa0640b80c31e77240c39dfb0c457487e9060ec172ef6",
+      "basis_claim_ids": [
+        "hong-rainbow-dragon-c01",
+        "hong-rainbow-dragon-c03",
+        "hong-rainbow-dragon-c07",
+        "hong-rainbow-dragon-c05"
+      ]
+    },
+    {
+      "slug": "hudson-river-monster",
+      "original_file": "data/artwork-generated/batch-1456/originals/hudson-river-monster.png",
+      "receipt_path": "data/artwork-generated/batch-1456/hudson-river-monster.json",
+      "native_sha256": "2b28b61d81a67f786e54fa3ff4defb63aa6202b218b1b97ce812b2ac6264924d",
+      "basis_claim_ids": [
+        "hudson-river-monster-c01",
+        "hudson-river-monster-c06"
+      ]
+    },
+    {
+      "slug": "huoshu",
+      "original_file": "data/artwork-generated/batch-1456/originals/huoshu.png",
+      "receipt_path": "data/artwork-generated/batch-1456/huoshu.json",
+      "native_sha256": "99b7c206b0760539041a271534586ac19d0af4d5fd5da5723e17b6077b5b7812",
+      "basis_claim_ids": [
+        "huoshu-c04",
+        "huoshu-c07",
+        "huoshu-c02",
+        "huoshu-c09"
+      ]
+    },
+    {
+      "slug": "jackalope",
+      "original_file": "data/artwork-generated/batch-1456/originals/jackalope.png",
+      "receipt_path": "data/artwork-generated/batch-1456/jackalope.json",
+      "native_sha256": "9945bb90d99a4b38ec8cdecc85dfffaa533ac6325cb2c26ba4caefda96d95923",
+      "basis_claim_ids": [
+        "jackalope-c05",
+        "jackalope-c14",
+        "jackalope-c15"
+      ]
+    },
+    {
+      "slug": "jiaotu",
+      "original_file": "data/artwork-generated/batch-1456/originals/jiaotu.png",
+      "receipt_path": "data/artwork-generated/batch-1456/jiaotu.json",
+      "native_sha256": "aa780e73e1915ebc91e3328d061cf1f8bbf44e2c0a349433e70ffe19be0c989a",
+      "basis_claim_ids": [
+        "jiaotu-c02",
+        "jiaotu-c04",
+        "jiaotu-c03"
+      ]
+    },
+    {
+      "slug": "joint-snake",
+      "original_file": "data/artwork-generated/batch-1456/originals/joint-snake.png",
+      "receipt_path": "data/artwork-generated/batch-1456/joint-snake.json",
+      "native_sha256": "9fe947de2e81c271417d2521113c9dd344e4a1d10523affb28080277452616a7",
+      "basis_claim_ids": [
+        "joint-snake-c01",
+        "joint-snake-c05",
+        "joint-snake-c02"
+      ]
+    },
+    {
+      "slug": "kanas-lake-monster",
+      "original_file": "data/artwork-generated/batch-1456/originals/kanas-lake-monster.png",
+      "receipt_path": "data/artwork-generated/batch-1456/kanas-lake-monster.json",
+      "native_sha256": "0a65b629647e2e0906b40b61e34d8f8ff1e7b7b456c3a7a76726653bfea9bb44",
+      "basis_claim_ids": [
+        "kanas-lake-monster-c01",
+        "kanas-lake-monster-c07",
+        "kanas-lake-monster-c09"
+      ]
+    },
+    {
+      "slug": "kanbari-nyudo",
+      "original_file": "data/artwork-generated/batch-1456/originals/kanbari-nyudo.png",
+      "receipt_path": "data/artwork-generated/batch-1456/kanbari-nyudo.json",
+      "native_sha256": "5696b85cfece93f48637570e69317c916ae33d1110aea5350f5430f983011170",
+      "basis_claim_ids": [
+        "kanbari-nyudo-c02",
+        "kanbari-nyudo-c01",
+        "kanbari-nyudo-c07"
+      ]
+    },
+    {
+      "slug": "kao-bull",
+      "original_file": "data/artwork-generated/batch-1456/originals/kao-bull.png",
+      "receipt_path": "data/artwork-generated/batch-1456/kao-bull.json",
+      "native_sha256": "66d2217df471fc88798d9ced0d55484260a6db2115079b6a7c5e6d1b92a776c1",
+      "basis_claim_ids": [
+        "kao-bull-c01",
+        "kao-bull-c13",
+        "kao-bull-c15"
+      ]
+    },
+    {
+      "slug": "kerakera-onna",
+      "original_file": "data/artwork-generated/batch-1456/originals/kerakera-onna.png",
+      "receipt_path": "data/artwork-generated/batch-1456/kerakera-onna.json",
+      "native_sha256": "2bff4aa4483c1e91a6999c6b1d589b50a1b4414ddda4432c36f38ca06c3d0fd2",
+      "basis_claim_ids": [
+        "kerakera-onna-c03",
+        "kerakera-onna-c08",
+        "kerakera-onna-c10",
+        "kerakera-onna-c04",
+        "kerakera-onna-c07",
+        "kerakera-onna-c11"
+      ]
+    },
+    {
+      "slug": "kinie-ger",
+      "original_file": "data/artwork-generated/batch-1456/originals/kinie-ger.png",
+      "receipt_path": "data/artwork-generated/batch-1456/kinie-ger.json",
+      "native_sha256": "622ba033bcad68e3231ed282f52d1059de6d8359c16101ecd2423b42eb390e8d",
+      "basis_claim_ids": [
+        "kinie-ger-c02",
+        "kinie-ger-c01",
+        "kinie-ger-c03"
+      ]
+    },
+    {
+      "slug": "klu",
+      "original_file": "data/artwork-generated/batch-1456/originals/klu.png",
+      "receipt_path": "data/artwork-generated/batch-1456/klu.json",
+      "native_sha256": "e1b9425928378f7c10ab162573f683c239cebbead2c0f1c584e7f3b2b4bab464",
+      "basis_claim_ids": [
+        "klu-c05",
+        "klu-c06",
+        "klu-c08",
+        "klu-c07"
+      ]
+    },
+    {
+      "slug": "kui-chinese-mythology",
+      "original_file": "data/artwork-generated/batch-1456/originals/kui-chinese-mythology.png",
+      "receipt_path": "data/artwork-generated/batch-1456/kui-chinese-mythology.json",
+      "native_sha256": "bcfd69cfc6f91ceb9f3c03588b4b28d2c2df5ba3ee456b13f2b000ab437c5498",
+      "basis_claim_ids": [
+        "kui-chinese-mythology-c05",
+        "kui-chinese-mythology-c06"
+      ]
+    },
+    {
+      "slug": "langben-rese",
+      "original_file": "data/artwork-generated/batch-1456/originals/langben-rese.png",
+      "receipt_path": "data/artwork-generated/batch-1456/langben-rese.json",
+      "native_sha256": "ff0b1407a6344b2f40d75c8bfe3421616b37772b6f77c1b1e6f13494ee9e404d",
+      "basis_claim_ids": [
+        "langben-rese-c01",
+        "langben-rese-c03",
+        "langben-rese-c02"
+      ]
+    },
+    {
+      "slug": "luduan",
+      "original_file": "data/artwork-generated/batch-1456/originals/luduan.png",
+      "receipt_path": "data/artwork-generated/batch-1456/luduan.json",
+      "native_sha256": "78643c60321b6e4b4651f4fa3a102f592a2ad0756a2e3daee45d9586b210a700",
+      "basis_claim_ids": [
+        "luduan-c01",
+        "luduan-c02",
+        "luduan-c03",
+        "luduan-c04",
+        "luduan-c07"
+      ]
+    },
+    {
+      "slug": "maushop",
+      "original_file": "data/artwork-generated/batch-1456/originals/maushop.png",
+      "receipt_path": "data/artwork-generated/batch-1456/maushop.json",
+      "native_sha256": "8b8d4f5d70c44bee82db254a9279cd05cf294e6a04c5b4329907a973610ea15d",
+      "basis_claim_ids": [
+        "maushop-c01",
+        "maushop-c08",
+        "maushop-c04",
+        "maushop-c02",
+        "maushop-c10",
+        "maushop-c12"
+      ]
+    },
+    {
+      "slug": "mikoshi-nyudo",
+      "original_file": "data/artwork-generated/batch-1456/originals/mikoshi-nyudo.png",
+      "receipt_path": "data/artwork-generated/batch-1456/mikoshi-nyudo.json",
+      "native_sha256": "8ffa44fe049efcb92584cccba35e9433014b9b762e4201aa22d87655426f51d1",
+      "basis_claim_ids": [
+        "mikoshi-nyudo-c01",
+        "mikoshi-nyudo-c10",
+        "mikoshi-nyudo-c03"
+      ]
+    },
+    {
+      "slug": "mino-waraji",
+      "original_file": "data/artwork-generated/batch-1456/originals/mino-waraji.png",
+      "receipt_path": "data/artwork-generated/batch-1456/mino-waraji.json",
+      "native_sha256": "fcb5bc383e1ffbb8d533125b704af9eb042010fdf364327a7b3afe005a85f0f1",
+      "basis_claim_ids": [
+        "mino-waraji-c02"
+      ]
+    },
+    {
+      "slug": "mintuci",
+      "original_file": "data/artwork-generated/batch-1456/originals/mintuci.png",
+      "receipt_path": "data/artwork-generated/batch-1456/mintuci.json",
+      "native_sha256": "903d7f889e05d0f07024f144f80e53ec95607230d853a5c4892e09e6b8299573",
+      "basis_claim_ids": [
+        "mintuci-c02",
+        "mintuci-c08",
+        "mintuci-c09",
+        "mintuci-c07",
+        "mintuci-c05"
+      ]
+    },
+    {
+      "slug": "mo-chinese-zoology",
+      "original_file": "data/artwork-generated/batch-1456/originals/mo-chinese-zoology.png",
+      "receipt_path": "data/artwork-generated/batch-1456/mo-chinese-zoology.json",
+      "native_sha256": "9f3f7ac2e366fc2c17fc82c47b82352ece3bf6875791ccded8b180576f293ad8",
+      "basis_claim_ids": [
+        "mo-chinese-zoology-c07",
+        "mo-chinese-zoology-c08"
+      ]
+    },
+    {
+      "slug": "moon-rabbit",
+      "original_file": "data/artwork-generated/batch-1456/originals/moon-rabbit.png",
+      "receipt_path": "data/artwork-generated/batch-1456/moon-rabbit.json",
+      "native_sha256": "ca55df4c2fc05d676a544647a45b40858334420346eb24fcf3d02d5392c20174",
+      "basis_claim_ids": [
+        "moon-rabbit-c01",
+        "moon-rabbit-c06",
+        "moon-rabbit-c20"
+      ]
+    },
+    {
+      "slug": "nuppeppo",
+      "original_file": "data/artwork-generated/batch-1456/originals/nuppeppo.png",
+      "receipt_path": "data/artwork-generated/batch-1456/nuppeppo.json",
+      "native_sha256": "8d5b525246ce9930792a97b644ce0e36c266001fcec053edf7b3bdd0f981dc3c",
+      "basis_claim_ids": [
+        "nuppeppo-c02",
+        "nuppeppo-c07",
+        "nuppeppo-c12",
+        "nuppeppo-c06",
+        "nuppeppo-c09",
+        "nuppeppo-c05"
+      ]
+    },
+    {
+      "slug": "nyami-nyami",
+      "original_file": "data/artwork-generated/batch-1456/originals/nyami-nyami.png",
+      "receipt_path": "data/artwork-generated/batch-1456/nyami-nyami.json",
+      "native_sha256": "0bf80445959428a602df65440228bcfce188f2d3b45439c99efc575c0c9d2d0e",
+      "basis_claim_ids": [
+        "nyami-nyami-c02",
+        "nyami-nyami-c03",
+        "nyami-nyami-c14",
+        "nyami-nyami-c04",
+        "nyami-nyami-c07"
+      ]
+    },
+    {
+      "slug": "osan-kitsune",
+      "original_file": "data/artwork-generated/batch-1456/originals/osan-kitsune.png",
+      "receipt_path": "data/artwork-generated/batch-1456/osan-kitsune.json",
+      "native_sha256": "2ca1e51115252a5bdc2079c7583d2ff38d4744fe2fee44029dc83c8c761ea78b",
+      "basis_claim_ids": [
+        "osan-kitsune-c01",
+        "osan-kitsune-c13"
+      ]
+    },
+    {
+      "slug": "panlong-mythology",
+      "original_file": "data/artwork-generated/batch-1456/originals/panlong-mythology.png",
+      "receipt_path": "data/artwork-generated/batch-1456/panlong-mythology.json",
+      "native_sha256": "cdde83d29063afd25d7bb1ca9d1dd7a1d6e7921a8244390046cb6b73e5e55470",
+      "basis_claim_ids": [
+        "panlong-mythology-c01",
+        "panlong-mythology-c03",
+        "panlong-mythology-c05"
+      ]
+    },
+    {
+      "slug": "peng",
+      "original_file": "data/artwork-generated/batch-1456/originals/peng.png",
+      "receipt_path": "data/artwork-generated/batch-1456/peng.json",
+      "native_sha256": "c1944d732a6305ad156831d992618e58b452b033d07e047cd10412d2b1672373",
+      "basis_claim_ids": [
+        "peng-c01",
+        "peng-c05",
+        "peng-c06"
+      ]
+    },
+    {
+      "slug": "penghou",
+      "original_file": "data/artwork-generated/batch-1456/originals/penghou.png",
+      "receipt_path": "data/artwork-generated/batch-1456/penghou.json",
+      "native_sha256": "f86dacc1a381f40256f4c15f97e5d93e637dd9727488d2433ff41751d3f25c75",
+      "basis_claim_ids": [
+        "penghou-c07"
+      ]
+    },
+    {
+      "slug": "pincoya",
+      "original_file": "data/artwork-generated/batch-1456/originals/pincoya.png",
+      "receipt_path": "data/artwork-generated/batch-1456/pincoya.json",
+      "native_sha256": "44c84f9ead4f5c990749100c7c08161bf976d8293ea95b7b6aba37fcf3418910",
+      "basis_claim_ids": [
+        "pincoya-c02",
+        "pincoya-c10",
+        "pincoya-c03",
+        "pincoya-c04",
+        "pincoya-c11",
+        "pincoya-c01"
+      ]
+    },
+    {
+      "slug": "rantas",
+      "original_file": "data/artwork-generated/batch-1456/originals/rantas.png",
+      "receipt_path": "data/artwork-generated/batch-1456/rantas.json",
+      "native_sha256": "50103562e5ac6236c8a4d73994f2e02243d93660a45e948e5adf878dbd84630d",
+      "basis_claim_ids": [
+        "rantas-c01",
+        "rantas-c05",
+        "rantas-c02",
+        "rantas-c10"
+      ]
+    },
+    {
+      "slug": "sasabonsam",
+      "original_file": "data/artwork-generated/batch-1456/originals/sasabonsam.png",
+      "receipt_path": "data/artwork-generated/batch-1456/sasabonsam.json",
+      "native_sha256": "ca16999cd051acd17a5d01a6587bfabc1d6028967d73e1128d6cbf2f4b954db1",
+      "basis_claim_ids": [
+        "sasabonsam-c24",
+        "sasabonsam-c25",
+        "sasabonsam-c04",
+        "sasabonsam-c05"
+      ]
+    }
+  ],
+  "subagents": {
+    "lane-A": "13newcalls +1oldDragonTurtle recovered; interrupted capacity, Ctakeover3calls",
+    "lane-B": "16newcalls +1oldJiaotu recovered",
+    "lane-C": "13newcalls +1oldMoonRabbit recovered;takeover3newcalls"
+  },
+  "validation_path": "data/artwork-generated/batch-1456/drafts/root/batch-validation.json",
+  "integration_performed": false
+}

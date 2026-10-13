@@ -1,0 +1,86 @@
+{
+  "slug": "ciguapa",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ciguapa, the long-haired backward-footed adult forest being.\nANATOMY: One adult womanlike being, one head, two eyes, knee-length long hair, two arms and two long legs, both bare feet reversed180degrees so toes point behind the direction of travel; both feet fully visible. Fully opaque loose high-neck long-sleeved dark dress ending above ankles, no exposed torso [ciguapa-c02, ciguapa-c05, ciguapa-c11]\nMOMENT: Advance through a forest stream toward viewer with head turned in intense watchfulness; both reverse feet at waterline visible, hair flowing behind\nPOWER: No visible magical beams or aura: predatory attraction expressed by documented eyes and song through focused gaze and parted lips [ciguapa-c06, ciguapa-c08]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one dominant moonshaft through canopy, deep forest shadow and wet rim light; only physical particles justified by action.\nSURFACE: knee-length wet hair, opaque rough dress and river stones.\nSETTING: Mountain forest and river in El Cibao at night [ciguapa-c02, ciguapa-c03]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.\nEDIT supplied image. Preserve the adult being, full opaque dress, hair, forest/river/night and square framing. Repair the farther LEFT-image bare foot: its toes currently point RIGHT, but MUST point LEFT, just like the nearer huge foot. Each foot must have exactly five natural toes at its LEFT end and a single heel at its RIGHT end. Both knees and torso travel RIGHT, both sets of toes point LEFT. No double-ended feet. Make the focused backward glance intensely predatory, eyes fixed toward viewer with lowered brows and no soft fashion-portrait expression. Do not invent eye glow or monster teeth.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One adult womanlike being, one head, two eyes, knee-length long hair, two arms and two long legs, both bare feet reversed180degrees so toes point behind the direction of travel; both feet fully visible. Fully opaque loose high-neck long-sleeved dark dress ending above ankles, no exposed torso",
+      "claim_ids": [
+        "ciguapa-c02",
+        "ciguapa-c05",
+        "ciguapa-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible magical beams or aura: predatory attraction expressed by documented eyes and song through focused gaze and parted lips",
+      "claim_ids": [
+        "ciguapa-c06",
+        "ciguapa-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain forest and river in El Cibao at night",
+      "claim_ids": [
+        "ciguapa-c02",
+        "ciguapa-c03"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "ciguapa-c02",
+    "ciguapa-c05",
+    "ciguapa-c11",
+    "ciguapa-c06",
+    "ciguapa-c08",
+    "ciguapa-c03"
+  ],
+  "depicted_variant": "the long-haired backward-footed adult forest being",
+  "artistic_choices": [
+    "Editorial full opaque dress replaces source nudity to follow collection modesty.",
+    "Backward feet must be obvious; ankle-length framing leaves feet unobstructed.",
+    "No sexual scene, victim or musical glyphs; water disturbance only from walking."
+  ],
+  "aura": "No visible magical beams or aura: predatory attraction expressed by documented eyes and song through focused gaze and parted lips [ciguapa-c06, ciguapa-c08]",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/ciguapa-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/ciguapa-attempt-01.json",
+      "native_sha256": "47fb26b4a04a2e785f539c9b84764ea8a7c67b72c0d8519bdfa911aa386d8df3",
+      "reason": "Farther foot points opposite to near foot; both reversed feet not verifiable. Expression too calm for predator."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-283af9f5-c7a4-4972-a713-13c69f6e777e.png",
+  "generated_at": "2026-10-12T04:03:45.051126+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/ciguapa.png",
+  "native_sha256": "76fc855f2338b33e923ce4c4c0bfcc57b30100c1bd03c2ca94e013c65047b450",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px observed: adult womanlike being, two arms/legs, both bare feet toes point left against rightward torso/knees, c02/c05; long hair reaches knees, full opaque dress. Intense backward predatory gaze and stepping river disturbance c06/c08, no beams or fabricated eyes. Frame-dominating uncanny inversion reads at200px;7Sangar checks yes, no nudity, text, glyphs or gore.",
+    "limitations": [],
+    "native_sha256": "76fc855f2338b33e923ce4c4c0bfcc57b30100c1bd03c2ca94e013c65047b450",
+    "reviewed_at": "2026-10-12T04:03:45.051126+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "76fc855f2338b33e923ce4c4c0bfcc57b30100c1bd03c2ca94e013c65047b450",
+    "notes": "Long-haired woman glancing back over her shoulder in a moonlit stream; checked at full size, her feet point back toward the viewer while she walks away."
+  }
+}

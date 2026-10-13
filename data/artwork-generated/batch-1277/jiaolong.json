@@ -1,0 +1,78 @@
+{
+  "slug": "jiaolong",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of JIAOLONG, the Chinese water dragon in the specific Pei Yuan passage preserved by Li Shizhen.\nANATOMY: one SMALL dragon head, thin long neck with WHITE tassels, a continuous long snake-like scaled body, exactly FOUR legs, sienna chest, BLUE-GREEN SPOTS on its back, FLESHY RINGS around its tail; NO horns or wings. [jiaolong-c02, jiaolong-c10, jiaolong-c13]\nMOMENT: Drive up through violent river water, twist toward the viewer with small head thrust forward and all four limbs attached to the same coherent body.\nPOWER: Water floods around the emerging dragon, following the documented belief that jiao hatching brings floods; no fire or lightning. [jiaolong-c08, jiaolong-c09]\nSCALE & CAMERA: extreme low angle and close foreground, subject dominates the frame and its distinguishing features read clearly at 200 pixels. Numerical scale is asserted only when documented; otherwise dramatic close perspective.\nLIGHT & WEATHER: one strong warm sidelight, antique-gold rim light, walnut shadows, high contrast with visible dark details and appropriate natural moisture.\nSURFACE: rough physically convincing natural surfaces, textured scales or feathers or coarse fur as applicable, painterly cinematic realism rather than plastic.\nSETTING: a southern Chinese river channel in a natural flood, tangled riverside roots. [jiaolong-c01, jiaolong-c04]\nMOOD: dangerous or awe-inspiring as appropriate to the tradition; commanding, alert and actively moving; sacred beings treated with respect.\nHARD CONSTRAINTS: no text, letters, pseudo-glyphs, logos, watermark, border or frame; no extra heads, limbs, eyes or fingers; no nudity or explicit gore; no film, game, anime or comic design; no generic glow aura, neon outline, energy ribbons or luminous colored mist. One single square image.",
+  "basis_claim_ids": [
+    "jiaolong-c02",
+    "jiaolong-c10",
+    "jiaolong-c13",
+    "jiaolong-c08",
+    "jiaolong-c09",
+    "jiaolong-c01",
+    "jiaolong-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one SMALL dragon head, thin long neck with WHITE tassels, a continuous long snake-like scaled body, exactly FOUR legs, sienna chest, BLUE-GREEN SPOTS on its back, FLESHY RINGS around its tail; NO horns or wings",
+      "claim_ids": [
+        "jiaolong-c02",
+        "jiaolong-c10",
+        "jiaolong-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Water floods around the emerging dragon, following the documented belief that jiao hatching brings floods; no fire or lightning",
+      "claim_ids": [
+        "jiaolong-c08",
+        "jiaolong-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "a southern Chinese river channel in a natural flood, tangled riverside roots",
+      "claim_ids": [
+        "jiaolong-c01",
+        "jiaolong-c04"
+      ]
+    }
+  ],
+  "depicted_variant": "Pei Yuan small-headed four-legged jiao",
+  "aura": "Water floods around the emerging dragon, following the documented belief that jiao hatching brings floods; no fire or lightning Basis klaim: jiaolong-c02, jiaolong-c10, jiaolong-c13, jiaolong-c08, jiaolong-c09, jiaolong-c01, jiaolong-c04.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-21463584-14ba-4349-8ba6-b3a8369b0f03.png",
+  "generated_at": "2026-10-09T01:05:40.480059+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/jiaolong.png",
+  "native_sha256": "e43dd302ac3b8917a45a186dac44a299af71c8a3b355ebd4dd1cc9cd5a57c425",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat native PNG: satu kepala relatif kecil, leher panjang sempit berjumbai putih, dada sienna, sisik berbintik biru-hijau dan cincin daging merah muda di ekor c13. Dua kaki depan jelas, kaki belakang tersembunyi air/coils; tubuh ular-naga koheren. Tanpa tanduk atau sayap; air banjir c09 aktif membingkai emergence dan tatapan langsung. Tidak ada api/petir/aura/teks. Tujuh cek Sangar lulus.",
+    "limitations": [],
+    "native_sha256": "e43dd302ac3b8917a45a186dac44a299af71c8a3b355ebd4dd1cc9cd5a57c425",
+    "reviewed_at": "2026-10-09T01:05:40.480059+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e43dd302ac3b8917a45a186dac44a299af71c8a3b355ebd4dd1cc9cd5a57c425",
+    "notes": "Small-headed four-legged snake-bodied jiao with white neck tassels, blue-green spots and ringed tail crawling out of a flooding river; no horns or wings."
+  }
+}

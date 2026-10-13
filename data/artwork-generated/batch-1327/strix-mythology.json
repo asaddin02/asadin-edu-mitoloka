@@ -1,0 +1,88 @@
+{
+  "slug": "strix-mythology",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Strix (mythology), the sinister night-flying large-headed bird with goggle eyes and hooked claws described in Ovid's Fasti.\nANATOMY: ONE menacing bird with an abnormally large single head, exactly two wide staring goggle eyes, a sharply rapacious hooked beak, exactly two greyish-white wings with grey-blotched feathers, two feet ending in long hooked claws, one tail; no human witch torso [strix-mythology-c03, strix-mythology-c04]\nMOMENT: Screech and swoop through the small chamber window straight toward the viewer, fling both hooked feet forward to seize with its head closest and glaring eyes hugely readable.\nPOWER: No magical effects; night-flight and screeching predatory attack, feathers and real dust burst through the air. No baby, victim, injury, blood or gore [strix-mythology-c04, strix-mythology-c05, strix-mythology-c06]\nSCALE & CAMERA: extreme low angle; extreme low close angle from the chamber floor, huge bird head filling much of the image and claws thrust toward lens; no extra animals; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one narrow amber moonbeam through the window, low-key walnut shadows, dust motes.\nSURFACE: grey-blotched coarse feathers, cracked horn beak, hooked natural talons.\nSETTING: Dark ancient Roman chambers of Proca with a small plain uninscribed window, no cradle or infant in view [strix-mythology-c06, strix-mythology-c07, strix-mythology-c08]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Strix varian Ovid dengan kepala besar, goggle eyes, sayap abu-putih dan cakar kait, menyerbu kamar tanpa korban.",
+  "basis_claim_ids": [
+    "strix-mythology-c03",
+    "strix-mythology-c04",
+    "strix-mythology-c05",
+    "strix-mythology-c06",
+    "strix-mythology-c07",
+    "strix-mythology-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE menacing bird with an abnormally large single head, exactly two wide staring goggle eyes, a sharply rapacious hooked beak, exactly two greyish-white wings with grey-blotched feathers, two feet ending in long hooked claws, one tail; no human witch torso",
+      "claim_ids": [
+        "strix-mythology-c03",
+        "strix-mythology-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical effects; night-flight and screeching predatory attack, feathers and real dust burst through the air. No baby, victim, injury, blood or gore",
+      "claim_ids": [
+        "strix-mythology-c04",
+        "strix-mythology-c05",
+        "strix-mythology-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark ancient Roman chambers of Proca with a small plain uninscribed window, no cradle or infant in view",
+      "claim_ids": [
+        "strix-mythology-c06",
+        "strix-mythology-c07",
+        "strix-mythology-c08"
+      ]
+    }
+  ],
+  "aura": "No magical effects; night-flight and screeching predatory attack, feathers and real dust burst through the air. No baby, victim, injury, blood or gore [strix-mythology-c04, strix-mythology-c05, strix-mythology-c06]",
+  "artistic_choices": [
+    "Tidak menggambar serangan pada bayi atau darah; aksi predatory diambil dari c04/c05.",
+    "Tidak membuat tubuh perempuan atau teats Pliny, karena varian Ovid yang dipilih."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-a6de0b30-d6f2-4320-9498-5b2e54c5b6be.png",
+  "generated_at": "2026-10-10T02:55:20.665187+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/strix-mythology.png",
+  "native_sha256": "f280a92b331f68850b850d2478c7bd4f55056242d88a6bac438334ed1bc169cc",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: kepala sangat besar dua goggle eyes, paruh rapacious, dua sayap grey-blotched dan dua kaki hooked claws c03/c04; screech dan swoop menyerbu kamar c06. Tanpa bayi/korban/darah, tanpa glyph. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "f280a92b331f68850b850d2478c7bd4f55056242d88a6bac438334ed1bc169cc",
+    "reviewed_at": "2026-10-10T02:55:20.665187+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "f280a92b331f68850b850d2478c7bd4f55056242d88a6bac438334ed1bc169cc",
+    "notes": "Big-headed goggle-eyed owl-like bird with hooked beak and long hooked claws diving into a room at night, feathers and dust flying; no victim."
+  }
+}

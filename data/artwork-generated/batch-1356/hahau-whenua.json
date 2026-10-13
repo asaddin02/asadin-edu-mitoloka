@@ -1,0 +1,86 @@
+{
+  "slug": "hahau-whenua",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hāhau-whenua, the huge living fish Hauhau-whenua that Maui pulls from the ocean before it becomes New Zealand's North Island.\nANATOMY: ONE immense living marine FISH, one fish head, two natural fish eyes, one broad scaled fish body and one natural caudal tail with ordinary fish fins. No island silhouette in place of fish, no horns, fangs, human face, tentacles, wings or invented stingray species; a generic great fish, not a named species [hahau-whenua-c01, hahau-whenua-c02, hahau-whenua-c07]\nMOMENT: Struggle upward toward the viewer as a taut fishing line extending out of frame draws the giant fish from the ocean depths, arch the living fish body and drive its tail through heaving seawater.\nPOWER: The documented great fish is physically pulled up from the ocean; immense seawater cascades off scales and body as it rises, no generic energy or magical aura [hahau-whenua-c01, hahau-whenua-c02, hahau-whenua-c04]\nSCALE & CAMERA: extreme low angle; extreme low angle at the water surface under the immense rising fish, head and scaled body dominate; tiny taut line at upper edge indicates the source act, no unsupported depiction of Maui's bodily appearance; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dying amber sunset shaft, deep walnut ocean shadows, huge physical salt spray.\nSURFACE: rugged wet bronze-grey fish scales, rough fin membranes, surging seawater.\nSETTING: The open ocean from whose depths Maui pulls the great fish, rolling dark sea and storm-shadowed horizon, no completed island landscape [hahau-whenua-c02, hahau-whenua-c04]\nMOOD: respectful awe-inspiring mythic emergence, overwhelming living fish in active struggle, not malicious monster or ordinary fish at pasture.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Hahau-whenua ikan besar hidup sebelum berubah menjadi NorthIsland, sedang ditarik dari kedalaman samudra.",
+  "basis_claim_ids": [
+    "hahau-whenua-c01",
+    "hahau-whenua-c02",
+    "hahau-whenua-c07",
+    "hahau-whenua-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE immense living marine FISH, one fish head, two natural fish eyes, one broad scaled fish body and one natural caudal tail with ordinary fish fins. No island silhouette in place of fish, no horns, fangs, human face, tentacles, wings or invented stingray species; a generic great fish, not a named species",
+      "claim_ids": [
+        "hahau-whenua-c01",
+        "hahau-whenua-c02",
+        "hahau-whenua-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented great fish is physically pulled up from the ocean; immense seawater cascades off scales and body as it rises, no generic energy or magical aura",
+      "claim_ids": [
+        "hahau-whenua-c01",
+        "hahau-whenua-c02",
+        "hahau-whenua-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The open ocean from whose depths Maui pulls the great fish, rolling dark sea and storm-shadowed horizon, no completed island landscape",
+      "claim_ids": [
+        "hahau-whenua-c02",
+        "hahau-whenua-c04"
+      ]
+    }
+  ],
+  "aura": "The documented great fish is physically pulled up from the ocean; immense seawater cascades off scales and body as it rises, no generic energy or magical aura [hahau-whenua-c01, hahau-whenua-c02, hahau-whenua-c04]",
+  "artistic_choices": [
+    "Riset tidak menentukan spesies; bentuk greatfish generik, bukan stingray dari ikonografi luar klaim.",
+    "Tidak menggambar tubuhMaui tanpa deskripsi accepted; tautline off-frame menyatakan pulledfish c02/c04."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-96310494-39a5-4521-bc36-da0eb53bda18.png",
+  "generated_at": "2026-10-10T04:05:27.275971+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/hahau-whenua.png",
+  "native_sha256": "30a622a4359b411a544d8f477f54ff9530013a6bf15716329fa0b1874d400192",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Satu ikan besar hidup ditarik tali dari laut; kepala, sisik, sirip dan ekor konsisten. Komposisi mendominasi dengan air tersibak dan tali tegang, terbaca native serta 200 px; tidak mengganti ikan dengan pulau atau mengarang anatomi Maui.",
+    "limitations": [],
+    "native_sha256": "30a622a4359b411a544d8f477f54ff9530013a6bf15716329fa0b1874d400192",
+    "reviewed_at": "2026-10-10T04:05:27.275971+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "30a622a4359b411a544d8f477f54ff9530013a6bf15716329fa0b1874d400192",
+    "notes": "Immense fish hauled up out of the sea on a line, seawater cascading off its scales at sunset; natural fish anatomy."
+  }
+}

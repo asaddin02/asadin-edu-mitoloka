@@ -1,0 +1,80 @@
+{
+  "slug": "tsurube-otoshi",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tsurube-otoshi, the gigantic disembodied humanhead falling from treetops. Native square PNG at least1024x1024.\nANATOMY: ONE GIGANTIC HUMAN HEAD, TWO naturaleyes/ONE nose/mouth, NO body/arms/legs, NO visible wound or severedneck; smooth shadowunderchin hides base. Normalhumanteeth, no demonhorns. PhysicalFLAMES surround fallinghead. [tsurube-otoshi-c03, tsurube-otoshi-c05, tsurube-otoshi-c09]\nMOMENT: DROP straight from treetop towardcloseviewer, fierceface and open laughingmouth dominate, leaves scatter above as immensehead accelerates downward.\nPOWER: Drops from trees like stone and can be flamewreathed: realorangeflames/embers fall alonghead, no genericghostlight/runes, no injuredvictims. [tsurube-otoshi-c02, tsurube-otoshi-c05, tsurube-otoshi-c06, tsurube-otoshi-c08]\nSCALE & CAMERA: Extreme low upwardcamera fromforestfloor, enormoushead fills mostsquare with smalltreecrowns behind to establish gigantic sourcedsize.\nLIGHT & WEATHER: Headsurrounding physicalorangeflames are dominantsource c05, deepwalnut forestdark, tangiblefallingleaves/embers.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Kansai foresttreetops at latenight, trunks muchsmaller than gianthead. [tsurube-otoshi-c06, tsurube-otoshi-c09]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the gigantic disembodied humanhead falling from treetops",
+  "basis_claim_ids": [
+    "tsurube-otoshi-c03",
+    "tsurube-otoshi-c05",
+    "tsurube-otoshi-c09",
+    "tsurube-otoshi-c02",
+    "tsurube-otoshi-c06",
+    "tsurube-otoshi-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE GIGANTIC HUMAN HEAD, TWO naturaleyes/ONE nose/mouth, NO body/arms/legs, NO visible wound or severedneck; smooth shadowunderchin hides base. Normalhumanteeth, no demonhorns. PhysicalFLAMES surround fallinghead.",
+      "claim_ids": [
+        "tsurube-otoshi-c03",
+        "tsurube-otoshi-c05",
+        "tsurube-otoshi-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Drops from trees like stone and can be flamewreathed: realorangeflames/embers fall alonghead, no genericghostlight/runes, no injuredvictims.",
+      "claim_ids": [
+        "tsurube-otoshi-c02",
+        "tsurube-otoshi-c05",
+        "tsurube-otoshi-c06",
+        "tsurube-otoshi-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kansai foresttreetops at latenight, trunks muchsmaller than gianthead.",
+      "claim_ids": [
+        "tsurube-otoshi-c06",
+        "tsurube-otoshi-c09"
+      ]
+    }
+  ],
+  "aura": "DROP straight from treetop towardcloseviewer, fierceface and open laughingmouth dominate, leaves scatter above as immensehead accelerates downward. Grounded in tsurube-otoshi-c03, tsurube-otoshi-c05, tsurube-otoshi-c09, tsurube-otoshi-c02, tsurube-otoshi-c06, tsurube-otoshi-c08.",
+  "artistic_choices": [
+    "Choose solitaryKansai gigantic HUMANhead c05/c09, not oni/tengu or groups. Falling/laughing c06/c08 sourceaction; no gore or explicitsevering. Flames physical c05 not unrelated lightning.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330e-d0d4-7eb1-b0fb-c4178408d1a0/exec-f7febe24-1d55-4f8c-969c-76744d8e6598.png",
+  "generated_at": "2026-10-13T02:28:44.803756+00:00",
+  "original_file": "data/artwork-generated/batch-1606/originals/tsurube-otoshi.png",
+  "native_sha256": "87d843af219fdbfe7d0f3650b9bc7a292d71e430911e38db031788db2572a0f4",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: solitary gigantic disembodied HUMAN head drops from treetops toward low viewer, mouth laughing fiercely, two natural eyes and ordinary human teeth, no body/limbs/horns/wound. Real orange flames and falling leaves/embers frame the head c05/c06/c08; giant scale c05/c09 and falling moment remain obvious at 200px. All seven Sangar checks pass; no text, aura, gore or adapted design.",
+    "limitations": [],
+    "native_sha256": "87d843af219fdbfe7d0f3650b9bc7a292d71e430911e38db031788db2572a0f4",
+    "reviewed_at": "2026-10-13T02:29:20.782372+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "87d843af219fdbfe7d0f3650b9bc7a292d71e430911e38db031788db2572a0f4",
+    "notes": "Gigantic disembodied head wreathed in real flames dropping from the treetops at the viewer with a manic grin; no neck stump or wound."
+  }
+}

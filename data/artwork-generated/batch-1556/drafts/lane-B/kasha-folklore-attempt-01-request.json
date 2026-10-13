@@ -1,0 +1,57 @@
+{
+  "slug": "kasha-folklore",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-050.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kasha (folklore), the large bipedal corpse-stealing monster cat. Native square PNG at least1024x1024.\nANATOMY: ONE large BIPEDAL feline, human-sized or taller, one head/two natural cat eyes/two ears, TWO arms ending clawed feline paws and TWO hind legs, one long tail. No second tail or demon horns. [kasha-folklore-c07, kasha-folklore-c09, kasha-folklore-c13]\nMOMENT: LEAP down from roof toward the close viewer, clutching a completely closed opaque cloth-wrapped coffin-length bundle in both clawed forepaws, hindlegs extending behind. Feline face confrontational with natural open teeth.\nPOWER: Documented hellish FLAMES accompany monster cat physically; flames lick rainy air around creature but no energy ribbons. Corpse theft represented by closed shrouded bundle, absolutely no visible body/wounds. [kasha-folklore-c07, kasha-folklore-c09, kasha-folklore-c10]\nSCALE & CAMERA: Extreme low camera below roof; cat fills most frame head-to-hindpaws, roof tiles much smaller behind.\nLIGHT & WEATHER: Hellish physical amber flame is dominant source c07; heavy rain and dark storm clouds c06/c08.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Night storm over plain Japanese funeral building and roof. [kasha-folklore-c08, kasha-folklore-c09]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the large bipedal corpse-stealing monster cat",
+  "basis_claim_ids": [
+    "kasha-folklore-c07",
+    "kasha-folklore-c09",
+    "kasha-folklore-c13",
+    "kasha-folklore-c10",
+    "kasha-folklore-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE large BIPEDAL feline, human-sized or taller, one head/two natural cat eyes/two ears, TWO arms ending clawed feline paws and TWO hind legs, one long tail. No second tail or demon horns.",
+      "claim_ids": [
+        "kasha-folklore-c07",
+        "kasha-folklore-c09",
+        "kasha-folklore-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented hellish FLAMES accompany monster cat physically; flames lick rainy air around creature but no energy ribbons. Corpse theft represented by closed shrouded bundle, absolutely no visible body/wounds.",
+      "claim_ids": [
+        "kasha-folklore-c07",
+        "kasha-folklore-c09",
+        "kasha-folklore-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night storm over plain Japanese funeral building and roof.",
+      "claim_ids": [
+        "kasha-folklore-c08",
+        "kasha-folklore-c09"
+      ]
+    }
+  ],
+  "aura": "LEAP down from roof toward the close viewer, clutching a completely closed opaque cloth-wrapped coffin-length bundle in both clawed forepaws, hindlegs extending behind. Feline face confrontational with natural open teeth. Grounded in kasha-folklore-c07, kasha-folklore-c09, kasha-folklore-c13, kasha-folklore-c10, kasha-folklore-c08.",
+  "artistic_choices": [
+    "One tail minimal feline morphology, not nekomata variant. Opaque closed bundle editorial non-graphic shorthand for corpse theft. Strong cat anatomy rather than borrowed horror design.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

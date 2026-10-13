@@ -1,0 +1,55 @@
+{
+  "slug": "khyah-legendary-creature",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Khyah (legendary creature), the dark hairy apelike household Newar spirit. Native square PNG at least1024x1024.\nANATOMY: ONE short FAT HAIRY APELIKE HUMANOID, one head/two eyes/two arms/two legs, black coarse hair covers body, plain opaque coarse waist cloth; no horns/wings or theatrical cowl/costume conflated with creature. [khyah-legendary-creature-c01, khyah-legendary-creature-c04, khyah-legendary-creature-c13]\nMOMENT: SCRAMBLE out of attic darkness toward viewer, large knuckled hand gripping close wooden beam, squat body crouching forward and intent uncanny stare.\nPOWER: No documented magical effects; dark household spirit movement and hair anatomy convey awe, no predatory harms added. [khyah-legendary-creature-c02, khyah-legendary-creature-c04, khyah-legendary-creature-c13]\nSCALE & CAMERA: Extreme low close camera on attic floor; short being fills frame by proximity, no giant scaling.\nLIGHT & WEATHER: One narrow warm lantern shaft from unseen source, deep attic darkness, rough fur rim light.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Attic dark wooden rafters and stored plain sacks/crates. [khyah-legendary-creature-c04]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the dark hairy apelike household Newar spirit",
+  "basis_claim_ids": [
+    "khyah-legendary-creature-c01",
+    "khyah-legendary-creature-c04",
+    "khyah-legendary-creature-c13",
+    "khyah-legendary-creature-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE short FAT HAIRY APELIKE HUMANOID, one head/two eyes/two arms/two legs, black coarse hair covers body, plain opaque coarse waist cloth; no horns/wings or theatrical cowl/costume conflated with creature.",
+      "claim_ids": [
+        "khyah-legendary-creature-c01",
+        "khyah-legendary-creature-c04",
+        "khyah-legendary-creature-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented magical effects; dark household spirit movement and hair anatomy convey awe, no predatory harms added.",
+      "claim_ids": [
+        "khyah-legendary-creature-c02",
+        "khyah-legendary-creature-c04",
+        "khyah-legendary-creature-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Attic dark wooden rafters and stored plain sacks/crates.",
+      "claim_ids": [
+        "khyah-legendary-creature-c04"
+      ]
+    }
+  ],
+  "aura": "SCRAMBLE out of attic darkness toward viewer, large knuckled hand gripping close wooden beam, squat body crouching forward and intent uncanny stare. Grounded in khyah-legendary-creature-c01, khyah-legendary-creature-c04, khyah-legendary-creature-c13, khyah-legendary-creature-c02.",
+  "artistic_choices": [
+    "Black dark household variant c13 chosen; appearance from c01 rather than borrowing dance costume c07. Crouch/knuckles/light are editorial. Do not make friendly mascot or invented giant ape.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

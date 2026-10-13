@@ -1,0 +1,18 @@
+import fs from 'node:fs';import crypto from 'node:crypto';
+const [batch,slug,notes]=process.argv.slice(2);const dir=`data/artwork-generated/batch-${batch}`;
+const ledgerPath=`data/artwork-batch-${batch}.json`,receiptPath=`${dir}/${slug}.json`;
+const r=JSON.parse(fs.readFileSync(receiptPath)),l=JSON.parse(fs.readFileSync(ledgerPath));
+const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+const variants=r.variants||r.variant_files;if(variants?.length!==2)throw Error('Expected exactly two final variants');
+const records=variants.map(v=>({original_file:v.original_file,native_sha256:hash(v.original_file),verdict:'pass'}));
+if(records[0].native_sha256===records[1].native_sha256)throw Error('Variants duplicate bytes');
+if(!records.some(v=>v.native_sha256===r.native_sha256))throw Error('Selected not among variants');
+if(hash(r.original_file)!==r.native_sha256)throw Error('Selected hash mismatch');
+const registry='data/artwork-generated/batch-1214/drafts/root/root-variant-reviews.json';const all=fs.existsSync(registry)?JSON.parse(fs.readFileSync(registry)):[];
+const record={batch:Number(batch),slug,reviewer:'codex',worker_agent:'root',reviewed_at:new Date().toISOString(),notes,variants:records};
+const i=all.findIndex(i=>i.batch===record.batch&&i.slug===slug);if(i<0)all.push(record);else all[i]=record;
+fs.writeFileSync(registry,JSON.stringify(all,null,2)+'\n');
+r.visual_review.notes+=' Root independently viewed BOTH native final variants: '+notes;r.visual_review.reviewed_at=record.reviewed_at;
+fs.writeFileSync(receiptPath,JSON.stringify(r,null,2)+'\n');
+Object.assign(l.items.find(i=>i.slug===slug),{status:r.status,receipt_path:receiptPath,original_file:r.original_file,native_sha256:r.native_sha256});
+fs.writeFileSync(ledgerPath,JSON.stringify(l,null,2)+'\n');console.log(JSON.stringify({batch,slug,reviewed_variants:2}));

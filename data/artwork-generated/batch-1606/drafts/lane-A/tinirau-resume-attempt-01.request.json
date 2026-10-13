@@ -1,0 +1,59 @@
+{
+  "slug": "tinirau",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tinirau, the Polynesian fishguardian with one sidehuman and the otherfish. Native square PNG at least1024x1024.\nANATOMY: ONE upright deity with ONE head/TWO eyes, entire anatomical RIGHT SIDE human and LEFT SIDE fish: rightfacehalf human, leftfacehalf scaled fish/gill, rightbodyhalf fullyopaque cloth, leftbodyhalf smooth fishscales. ONE humanrightarm/hand and ONE leftpectoralFIN instead of leftarm; ONE humanrightleg and ONE long fishtail forms leftlowerhalf. No extra arms/wings or mermaid humanupper/fishlower arrangement. [tinirau-c01, tinirau-c02, tinirau-c08]\nMOMENT: TURN towardlowviewer and EXTEND humanhand protectively over fishpool while fishside tail pushes up a physicalwaterwake, leftfin opens andschool of fish circles nearby.\nPOWER: Guardian/lord offish with breedingfishpreserves: livingfish gather in naturalpool, water displaced physically byfishside, no inventedcontrolbeam/aura. [tinirau-c01, tinirau-c04, tinirau-c06, tinirau-c08]\nSCALE & CAMERA: Extreme low poollevelclose, ONE splitface anddistinct human/fishside dominate, normalcloseness/deitypresence not speculativegiantbody.\nLIGHT & WEATHER: One moonshaft on fishscales/water, deepwarm shadows and physicalspray.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Motutapu holyisland fishpreserve, darkbreedingpools beside rockyshore. [tinirau-c05, tinirau-c06]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the Polynesian fishguardian with one sidehuman and the otherfish",
+  "basis_claim_ids": [
+    "tinirau-c01",
+    "tinirau-c02",
+    "tinirau-c08",
+    "tinirau-c04",
+    "tinirau-c06",
+    "tinirau-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE upright deity with ONE head/TWO eyes, entire anatomical RIGHT SIDE human and LEFT SIDE fish: rightfacehalf human, leftfacehalf scaled fish/gill, rightbodyhalf fullyopaque cloth, leftbodyhalf smooth fishscales. ONE humanrightarm/hand and ONE leftpectoralFIN instead of leftarm; ONE humanrightleg and ONE long fishtail forms leftlowerhalf. No extra arms/wings or mermaid humanupper/fishlower arrangement.",
+      "claim_ids": [
+        "tinirau-c01",
+        "tinirau-c02",
+        "tinirau-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Guardian/lord offish with breedingfishpreserves: livingfish gather in naturalpool, water displaced physically byfishside, no inventedcontrolbeam/aura.",
+      "claim_ids": [
+        "tinirau-c01",
+        "tinirau-c04",
+        "tinirau-c06",
+        "tinirau-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Motutapu holyisland fishpreserve, darkbreedingpools beside rockyshore.",
+      "claim_ids": [
+        "tinirau-c05",
+        "tinirau-c06"
+      ]
+    }
+  ],
+  "aura": "TURN towardlowviewer and EXTEND humanhand protectively over fishpool while fishside tail pushes up a physicalwaterwake, leftfin opens andschool of fish circles nearby. Grounded in tinirau-c01, tinirau-c02, tinirau-c08, tinirau-c04, tinirau-c06, tinirau-c05.",
+  "artistic_choices": [
+    "OneSIDEhuman/otherfish c02 interpreted as lateralverticalsplit; exactsidechoice and mappingfin/tail editorial because source not moreprecise. Opaquecloth humanhalf, fishhalf natural scales; not ordinaryman. Respectful protectiveguardian, not demon; no whaleharm story.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

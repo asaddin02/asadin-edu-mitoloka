@@ -1,0 +1,77 @@
+{
+  "slug": "mokumokuren",
+  "depicted_variant": "Harmless but uncanny many-eyed wall being, active eyes rather than ordinary empty landscape",
+  "basis_claim_ids": [
+    "mokumokuren-c02",
+    "mokumokuren-c07",
+    "mokumokuren-c11",
+    "mokumokuren-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "no humanoid body, heads, mouth, arms or legs; COUNTLESS separate ghostly eyes with normal irises and pupils emerge directly from holes in torn shoji paper, each eye connected to paper hole without gore; eyes fully open and directed toward viewer",
+      "claim_ids": [
+        "mokumokuren-c02",
+        "mokumokuren-c07",
+        "mokumokuren-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented eyes emerge and stare; no magical glowing pupils, energy or injured humans",
+      "claim_ids": [
+        "mokumokuren-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "torn neglected shoji screen in a ruined haunted Japanese house, wood grid and deep interior shadows",
+      "claim_ids": [
+        "mokumokuren-c02",
+        "mokumokuren-c06",
+        "mokumokuren-c11"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Pop dozens of watchful eyes out from deep paper holes toward the viewers low camera; nearest bulging eye huge by close perspective, other eyes densely cover whole shoji screen; torn paper edges flutter (mokumokuren-c02, mokumokuren-c07, mokumokuren-c11).",
+  "artistic_choices": [
+    "Harmless but uncanny many-eyed wall being, active eyes rather than ordinary empty landscape",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Mokumokuren, the Japanese yokai of countless eyes emerging from unrepaired shoji.\nANATOMY: no humanoid body, heads, mouth, arms or legs; COUNTLESS separate ghostly eyes with normal irises and pupils emerge directly from holes in torn shoji paper, each eye connected to paper hole without gore; eyes fully open and directed toward viewer [mokumokuren-c02,mokumokuren-c07,mokumokuren-c11]\nMOMENT: Pop dozens of watchful eyes out from deep paper holes toward the viewers low camera; nearest bulging eye huge by close perspective, other eyes densely cover whole shoji screen; torn paper edges flutter.\nPOWER: Documented eyes emerge and stare; no magical glowing pupils, energy or injured humans [mokumokuren-c07]\nSCALE & CAMERA: extreme low angle, close foreshortening, subject dominates square and identifying anatomy reads at200px; no invented giant scale unless documented.\nLIGHT & WEATHER: one dominant moon source, deep warm walnut shadows, antique gold rim highlights, wet air and ordinary physical spray or grit appropriate to action.\nSURFACE: tactile organic texture appropriate to anatomy, rough fur/feather/scales/cloth, wet stone, never plastic or statue.\nSETTING: torn neglected shoji screen in a ruined haunted Japanese house, wood grid and deep interior shadows [mokumokuren-c02,mokumokuren-c06,mokumokuren-c11]\nMOOD: dangerous imposing active moment, or reverent overwhelming majesty for sacred beings; never cute, calm, decorative or an ordinary animal/person.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-cf1818dd-7a21-4b13-a155-ff71b1f91d9d.png",
+  "generated_at": "2026-10-10T03:18:55.580857+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/mokumokuren.png",
+  "native_sha256": "47b58835358c2a9ecd5b7979aec117b3d45f958f4fdc6b7efa6f732c853464f2",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px UjiSangar7/7 ya. Puluhan eyeballs tumbuh dari holes kertas shoji dan mengawasi, nearesteye foreshortened jelas. Tanpa mouth/head/human limbs atau pupilglow. Screen beragen mata mendominasi bukan rumah kosong, paperedges/action c07; tidak ada gore atau teks.",
+    "limitations": [],
+    "native_sha256": "47b58835358c2a9ecd5b7979aec117b3d45f958f4fdc6b7efa6f732c853464f2",
+    "reviewed_at": "2026-10-10T03:18:55.580857+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "47b58835358c2a9ecd5b7979aec117b3d45f958f4fdc6b7efa6f732c853464f2",
+    "notes": "Countless eyes staring out of the holes of a torn shoji screen in a ruined house; no body, no gore."
+  }
+}

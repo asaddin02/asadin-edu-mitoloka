@@ -1,0 +1,88 @@
+{
+  "slug": "tiangou",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tiangou, the black heavenly dog growing enormous and consuming the Moon in the adverse eclipse legend.\nANATOMY: ONE BLACK DOG with one canine head, two eyes, exactly four natural legs and one tail, black coarse fur, huge canine jaws. No white fox head, no wings, no extra heads; ordinary dog anatomy at documented increasing cosmic size [tiangou-c01, tiangou-c04, tiangou-c10]\nMOMENT: Surge toward the viewer through the night sky and clamp its jaws around the cratered Moon, teeth meeting the lunar edge as part of the moon disappears into its mouth.\nPOWER: Physically eat the Moon during an eclipse, a real cratered lunar sphere visibly entering the jaws; no fire, meteor trail, eye beams or glowing energy aura [tiangou-c02, tiangou-c04, tiangou-c10]\nSCALE & CAMERA: extreme low angle; extreme low close angle below the black dog; immense jaws, forepaws and Moon dominate, cosmic size specifically from c10; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dominant reflected light from the Moon caught in the jaws, silver-amber rim on black fur, deep walnut space shadows.\nSURFACE: matted black fur, wet teeth, rough cracked lunar rock.\nSETTING: The dark sky at the lunar eclipse, sparse natural stars and one cratered Moon [tiangou-c02, tiangou-c10, tiangou-c11]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Tiangou varian anjing hitam membesar dan memakan Bulan, tidak dicampur meteor atau rubah putih.",
+  "basis_claim_ids": [
+    "tiangou-c01",
+    "tiangou-c04",
+    "tiangou-c10",
+    "tiangou-c02",
+    "tiangou-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE BLACK DOG with one canine head, two eyes, exactly four natural legs and one tail, black coarse fur, huge canine jaws. No white fox head, no wings, no extra heads; ordinary dog anatomy at documented increasing cosmic size",
+      "claim_ids": [
+        "tiangou-c01",
+        "tiangou-c04",
+        "tiangou-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physically eat the Moon during an eclipse, a real cratered lunar sphere visibly entering the jaws; no fire, meteor trail, eye beams or glowing energy aura",
+      "claim_ids": [
+        "tiangou-c02",
+        "tiangou-c04",
+        "tiangou-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The dark sky at the lunar eclipse, sparse natural stars and one cratered Moon",
+      "claim_ids": [
+        "tiangou-c02",
+        "tiangou-c10",
+        "tiangou-c11"
+      ]
+    }
+  ],
+  "aura": "Physically eat the Moon during an eclipse, a real cratered lunar sphere visibly entering the jaws; no fire, meteor trail, eye beams or glowing energy aura [tiangou-c02, tiangou-c04, tiangou-c10]",
+  "artistic_choices": [
+    "Skala luar biasa dari tumbuh membesar c10; tanpa Chang-e atau gore.",
+    "Tidak menambahkan fire/meteor c08 yang merupakan varian berbeda."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-bce37dc1-88a7-4201-860d-bc93330776fe.png",
+  "generated_at": "2026-10-10T03:01:06.683875+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/tiangou.png",
+  "native_sha256": "3be9ee10c5275fb20502680a211e5d54abe763901eddf8297be67763c3e8d5a7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: anjing hitam satu kepala dua mata, kaki depan berforeshortening dan ekor tunggal, kaki belakang tertutup badan/clouds. Bulan cratered benar-benar di jaws, sebagian tergerus c02/c04/c10; skala membesar bersumber c10. Uji Sangar7/7.",
+    "limitations": [],
+    "native_sha256": "3be9ee10c5275fb20502680a211e5d54abe763901eddf8297be67763c3e8d5a7",
+    "reviewed_at": "2026-10-10T03:01:06.683875+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "3be9ee10c5275fb20502680a211e5d54abe763901eddf8297be67763c3e8d5a7",
+    "notes": "Black dog with huge jaws biting into the moon in starry space; four legs, no wings or extra heads."
+  }
+}

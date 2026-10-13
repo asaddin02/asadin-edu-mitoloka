@@ -1,0 +1,90 @@
+{
+  "slug": "shunfeng-er",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shunfeng'er, the fierce-faced red guardian of Mazu listening for approaching storms. Native square PNG at least1024x1024.\nANATOMY: ONE red/brown-skinned humanoid guardian, ONE head/TWO eyes/TWO arms/TWO legs, prominent natural ears, fierce face WITHOUT invented horns/fangs. Fullyopaque weathered plain guardian robe and simple armour. ONE hand CUPS ONE ear, other hand firmly carries one plain short poleweapon. [shunfeng-er-c07, shunfeng-er-c10, shunfeng-er-c12, shunfeng-er-c13]\nMOMENT: STRIDE urgently across seashore templethreshold toward viewer, cup ear into incomingwind while poleweapon lowered forward protectively, cloak flares physically.\nPOWER: Hears sounds on wind to warn sailors of storms: stormwind and distant smallboat shown as contextual weather; NO soundwaves, magicwindcontrol or auralbeams. [shunfeng-er-c02, shunfeng-er-c06, shunfeng-er-c12]\nSCALE & CAMERA: Extreme low close view emphasizes earcupped hand/fierceface and weapon, temple/boat smaller by depth.\nLIGHT & WEATHER: One warm templelantern side light, cold dark stormclouds, physical wind/rain spray.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Mazu temple beside darksea during approaching naturalstorm. [shunfeng-er-c01, shunfeng-er-c08, shunfeng-er-c12]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.\nTARGETED CORRECTION: All lanterns and all temple surfaces COMPLETELY BLANK and UNINSCRIBED, no Chinesecharacters/calligraphy/glyphs/labels anywhere; lantern plain unmarked amber-paper shape. No writing on clothing/weapon or architecturalpanel. Preserve1head2arms redguardian listeninghand/weaponstep and naturalstorm.",
+  "depicted_variant": "the fierce-faced red guardian of Mazu listening for approaching storms",
+  "basis_claim_ids": [
+    "shunfeng-er-c07",
+    "shunfeng-er-c10",
+    "shunfeng-er-c12",
+    "shunfeng-er-c13",
+    "shunfeng-er-c02",
+    "shunfeng-er-c06",
+    "shunfeng-er-c01",
+    "shunfeng-er-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE red/brown-skinned humanoid guardian, ONE head/TWO eyes/TWO arms/TWO legs, prominent natural ears, fierce face WITHOUT invented horns/fangs. Fullyopaque weathered plain guardian robe and simple armour. ONE hand CUPS ONE ear, other hand firmly carries one plain short poleweapon.",
+      "claim_ids": [
+        "shunfeng-er-c07",
+        "shunfeng-er-c10",
+        "shunfeng-er-c12",
+        "shunfeng-er-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Hears sounds on wind to warn sailors of storms: stormwind and distant smallboat shown as contextual weather; NO soundwaves, magicwindcontrol or auralbeams.",
+      "claim_ids": [
+        "shunfeng-er-c02",
+        "shunfeng-er-c06",
+        "shunfeng-er-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mazu temple beside darksea during approaching naturalstorm.",
+      "claim_ids": [
+        "shunfeng-er-c01",
+        "shunfeng-er-c08",
+        "shunfeng-er-c12"
+      ]
+    }
+  ],
+  "aura": "STRIDE urgently across seashore templethreshold toward viewer, cup ear into incomingwind while poleweapon lowered forward protectively, cloak flares physically. Grounded in shunfeng-er-c07, shunfeng-er-c10, shunfeng-er-c12, shunfeng-er-c13, shunfeng-er-c02, shunfeng-er-c06, shunfeng-er-c01, shunfeng-er-c08.",
+  "artistic_choices": [
+    "Choose typical1head2arm red guardian c10 not3head6armvariant. Poleweapon form/robe design editorial because source c12 only says weapon. Guardianprotective not rampaging evil; ears enlarged compositionally but no new anatomy.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1606/rejected/shunfeng-er-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1606/rejected/shunfeng-er-attempt-01.json",
+      "native_sha256": "8f148aabe4e5bed32946743ee19c6bc5340c340eaa9d318e18bd94abcad81b5b",
+      "reason": "Native has visible Chinese LETTERING on upperleft lantern, violates no-text hardconstraint despite otherwise faithful guardian."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-1b160a23-42a7-4b67-a405-51a5fa57d5db.png",
+  "generated_at": "2026-10-12T23:17:44.951858+00:00",
+  "original_file": "data/artwork-generated/batch-1606/originals/shunfeng-er.png",
+  "native_sha256": "32a5c58f5600410f505444880fe040bee2213497dadc46777bc4f9af01edd1b3",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected: redbrown fierceguardian c10/c13 onehead2eyes2arms2legs, onehandcupsear otherweapon c12. Urgentstride/cape blown by naturalapproachingstorm c06/c08 protectingboat, no inventedwindcontrol. Blanklantern/temple removes01lettering, sourceMazu temple c01. Lowcamera imposingguardian at200, no horns/fangs/glow/text/gore; all7Sangar pass.",
+    "limitations": [],
+    "native_sha256": "32a5c58f5600410f505444880fe040bee2213497dadc46777bc4f9af01edd1b3",
+    "reviewed_at": "2026-10-12T23:26:56.914833+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "32a5c58f5600410f505444880fe040bee2213497dadc46777bc4f9af01edd1b3",
+    "notes": "Red-skinned guardian cupping one ear to the storm wind outside Mazu's temple with a short pole weapon, a small boat on the dark sea; no sound rings."
+  }
+}

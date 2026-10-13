@@ -1,0 +1,73 @@
+{
+  "slug": "dyrnwch-gawr",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of dyrnwch gawr, Dyrnwch Gawr the Welsh giant and owner of the bravery-testing cauldron.\nANATOMY: ONE enormous HUMAN-SHAPED adult male Welsh giant with ONE head/TWO eyes/TWO arms/TWO legs, fully opaque plain coarse tunic and trousers. Both large hands tilt ONE broad iron cauldron toward viewer. Small ordinary human figures beneath establish giant scale. No horns, crowns or invented weapons [dyrnwch-gawr-c01, dyrnwch-gawr-c02]\nMOMENT: HEAVE his cauldron forward toward viewer, towering above tiny human attendants, boiling liquid rolling against the iron rim\nPOWER: His cauldron swiftly boils meat intended for a brave person; actual rolling bubbles and thick steam inside cauldron, no generic aura or flames from body [dyrnwch-gawr-c03, dyrnwch-gawr-c11]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one dominant low orange hearth light beneath cauldron, deep night shadows and steam; only physical particles justified by action.\nSURFACE: coarse wool, weathered skin, rough black iron and rolling boiling water.\nSETTING: Welsh rocky ground in Gwent, neutral unnamed landscape [dyrnwch-gawr-c01]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE enormous HUMAN-SHAPED adult male Welsh giant with ONE head/TWO eyes/TWO arms/TWO legs, fully opaque plain coarse tunic and trousers. Both large hands tilt ONE broad iron cauldron toward viewer. Small ordinary human figures beneath establish giant scale. No horns, crowns or invented weapons",
+      "claim_ids": [
+        "dyrnwch-gawr-c01",
+        "dyrnwch-gawr-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "His cauldron swiftly boils meat intended for a brave person; actual rolling bubbles and thick steam inside cauldron, no generic aura or flames from body",
+      "claim_ids": [
+        "dyrnwch-gawr-c03",
+        "dyrnwch-gawr-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Welsh rocky ground in Gwent, neutral unnamed landscape",
+      "claim_ids": [
+        "dyrnwch-gawr-c01"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "dyrnwch-gawr-c01",
+    "dyrnwch-gawr-c02",
+    "dyrnwch-gawr-c03",
+    "dyrnwch-gawr-c11"
+  ],
+  "depicted_variant": "Dyrnwch Gawr the Welsh giant and owner of the bravery-testing cauldron",
+  "artistic_choices": [
+    "Plain clothes, iron cauldron material and tiny anonymous brave attendants are editorial realization. No iconography imported from Diwrnach or other giants. Meat implied beneath liquid, no gore or readable symbols."
+  ],
+  "aura": "His cauldron swiftly boils meat intended for a brave person; actual rolling bubbles and thick steam inside cauldron, no generic aura or flames from body [dyrnwch-gawr-c03, dyrnwch-gawr-c11]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-c597-7a53-af3b-3c9b74362858/exec-e40cffae-f0b8-4347-b8ab-4b5df734b4ba.png",
+  "generated_at": "2026-10-12T15:38:29.046113+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/dyrnwch-gawr.png",
+  "native_sha256": "64f911787e1ab08cd735f4cbf0a774a76042956a655b01cc1c49292027f48f34",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px: Welshgiant c01 towers over tinybraveattendants,2hands heave onecauldron c02, strongboiling/bubbles/steam c03/c11. Normalhumananatomy/opaque clothes correct; actual hearthlight, no invented aura or borrowedattributes. All7pass.",
+    "limitations": [],
+    "native_sha256": "64f911787e1ab08cd735f4cbf0a774a76042956a655b01cc1c49292027f48f34",
+    "reviewed_at": "2026-10-12T15:38:29.046113+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "64f911787e1ab08cd735f4cbf0a774a76042956a655b01cc1c49292027f48f34",
+    "notes": "Giant in coarse tunic tilting a boiling iron cauldron of meat toward the viewer, small men below for scale, steam rolling."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "jarita",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Jarita, the Sarngika mother bird sheltering four young during the Khandava fire. Native square PNG at least1024x1024.\nANATOMY: ONE natural mother bird with one head/two eyes, one beak, TWO wings/TWO bird legs, ordinary brown feathers; EXACTLY FOUR smaller nestling birds beneath her wings, no humanoid bird hybrid, jewellery or giant anatomy. [jarita-c01, jarita-c02, jarita-c12]\nMOMENT: SPREAD both wings into a fierce protective canopy over four young, chest thrust against incoming heat, open beak calling, gaze determined; wide wings fill most frame.\nPOWER: No invented magic from Jarita. Forest fire surrounds the shelter but does not touch mother or young; documented protection moment, no injuries or death. [jarita-c04, jarita-c10, jarita-c12]\nSCALE & CAMERA: Extreme low ground camera inches from bird; mother head and spread wings dominate, four young visibly countable below; natural bird scale.\nLIGHT & WEATHER: One dominant orange forest-fire light behind shelter, bright feather rim light, deep walnut shadow under wings, physical ash in air.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Khandava forest burning behind a tree-root shelter at ground level. [jarita-c04, jarita-c13]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the Sarngika mother bird sheltering four young during the Khandava fire",
+  "basis_claim_ids": [
+    "jarita-c01",
+    "jarita-c02",
+    "jarita-c12",
+    "jarita-c04",
+    "jarita-c10",
+    "jarita-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE natural mother bird with one head/two eyes, one beak, TWO wings/TWO bird legs, ordinary brown feathers; EXACTLY FOUR smaller nestling birds beneath her wings, no humanoid bird hybrid, jewellery or giant anatomy.",
+      "claim_ids": [
+        "jarita-c01",
+        "jarita-c02",
+        "jarita-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No invented magic from Jarita. Forest fire surrounds the shelter but does not touch mother or young; documented protection moment, no injuries or death.",
+      "claim_ids": [
+        "jarita-c04",
+        "jarita-c10",
+        "jarita-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Khandava forest burning behind a tree-root shelter at ground level.",
+      "claim_ids": [
+        "jarita-c04",
+        "jarita-c13"
+      ]
+    }
+  ],
+  "aura": "SPREAD both wings into a fierce protective canopy over four young, chest thrust against incoming heat, open beak calling, gaze determined; wide wings fill most frame. Grounded in jarita-c01, jarita-c02, jarita-c12, jarita-c04, jarita-c10, jarita-c13.",
+  "artistic_choices": [
+    "Bird species cannot be identified more precisely from research; generic brown avian morphology/colour editorial. Fire is story setting, not Jarita emitting fire or controlling it. Mother is courageous protector, not predator.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-486bc92c-df36-43af-a776-56099d53d476.png",
+  "generated_at": "2026-10-12T15:10:16.519644+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/jarita.png",
+  "native_sha256": "4f0bc0ca4236edd998656c50ad7bf774c794b1ffe596c0b5870f81050f8c85b8",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan200px dilihat: satu induk burung mendominasi dengan2sayap melindungi tepat4anak c02/c12, beak terbuka memanggil di kebakaran Khandava c04. Semua7 UjiSangar ya: keberanian pelindung menggetarkan, tidak hewan tenang; api latar bukan kuasa Jarita, tidak ada luka/teks/atribut buatan.",
+    "limitations": [],
+    "native_sha256": "4f0bc0ca4236edd998656c50ad7bf774c794b1ffe596c0b5870f81050f8c85b8",
+    "reviewed_at": "2026-10-12T15:16:36.183716+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "4f0bc0ca4236edd998656c50ad7bf774c794b1ffe596c0b5870f81050f8c85b8",
+    "notes": "Natural mother bird with wings spread over exactly four nestlings while the Khandava forest burns all around without touching them; the documented form is an ordinary bird, the fire carries the moment."
+  }
+}

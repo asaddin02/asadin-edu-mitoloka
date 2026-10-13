@@ -1,0 +1,102 @@
+{
+  "slug": "tangaroa",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "EDIT reference Tangaroa Mythics illustration ONLY the spear: keep same male personifiedatua, face/body/5fingerhands, fullyopaque coarse darkrobe, active lowangle pose, real TWO massive tidalwalls/spray/fish andstormsunset, c01/c02/c14/c15/c16. The heldweapon currentlyreads woodenstaff becausepoint cropped: make it clearly ONE SIMPLE SPEAR with ONE plain pointed triangular stonehead tied byplaincord to samewoodenshaft. Reposition the lowerforeground shaft end a littleUP withinframe so its pointedhead is fullyvisible nearbottomcenter, helddiagonally towardthe camera. ONE sharpnon-glowing point only, no trident/ornaments/symbols, no magicaleffect orimpact; spearheadmaterial editorial, sourced spear c14. No change to scene/body, no inventedpower/giantscale, no nudity/transparency/gore. Native squarePNG min1024, no text/logo/frame/watermark/aura/neon orborroweddesign.",
+  "depicted_variant": "the personified Māori sea atua rising and wielding a spear amid the tide",
+  "basis_claim_ids": [
+    "tangaroa-c14",
+    "tangaroa-c15",
+    "tangaroa-c16",
+    "tangaroa-c01",
+    "tangaroa-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE adult HUMAN-form male atua, ONE head/TWO eyes/TWO arms with naturalFIVE-finger hands/TWO legs, black windtornhair. FullyOPAQUE coarse dark wovencloak/tunic covering torso/hips/thighs, no exposedchest. ONE simple long wooden SPEAR in a humanhand with ONE plainlyvisible pointedstonehead (materialeditorial). No whalehead/tail, crown/trident/tattoos or borrowed sacredpatterns.",
+      "claim_ids": [
+        "tangaroa-c14",
+        "tangaroa-c15",
+        "tangaroa-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented tidalcontrol creates TWO physically rising walls ofsea curling inward at his gesture, real massivewaves/spray and flowingfish under sea-domain; spear isdocumented in Shortland battle and risingpersonifiedaction in Dixon. No lightbeams/runes, no victim/spearingwound; sea cannot be merely background.",
+      "claim_ids": [
+        "tangaroa-c01",
+        "tangaroa-c02",
+        "tangaroa-c14",
+        "tangaroa-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ocean and wetrock coast within Māori sea atua domain, dark horizon, no temples/inscriptions/culturalmotifs invented.",
+      "claim_ids": [
+        "tangaroa-c01",
+        "tangaroa-c02"
+      ]
+    }
+  ],
+  "aura": "Documented tidalcontrol creates TWO physically rising walls ofsea curling inward at his gesture, real massivewaves/spray and flowingfish under sea-domain; spear isdocumented in Shortland battle and risingpersonifiedaction in Dixon. No lightbeams/runes, no victim/spearingwound; sea cannot be merely background. [tangaroa-c01, tangaroa-c02, tangaroa-c14, tangaroa-c16]",
+  "artistic_choices": [
+    "Directly replaces ordinarywhale rejection with personifiedhuman atua inferred from sourced spear/rising acts c14/c16 andpersonifiedPower c15, not a claim of uniquelydocumented portrait.",
+    "Adultappearance/blackhair/plainopaque clothing editorial; no tattoo/moko/crown or specificiconography asserted. Tidalcontrol c02 physicallyactive, respectfulawe, sourcebattlevictim omitted.",
+    "Secondattempt targets readable spearpoint; plainstonehead/material/cord editorialweapon design, source c14 specifies spear butnot material."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/tangaroa-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/tangaroa-attempt-01.json",
+      "native_sha256": "44ff409492cba62d05bdddb543ca0b39f8d1d12f279a5add073989a6279c1de5",
+      "reason": "Hewan biasa; tidak menunjukkan dewa laut. User-authorized Claude correction2026-10-13."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/tangaroa-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/tangaroa-attempt-02.json",
+      "native_sha256": "493a69ba0093849e973d046026419aeb70c8ae0cd555fc3ce34823e225d5246e",
+      "reason": "Spear attribute appears as shaft/staff with tip cropped outsideframe; c14 weapon must read clearly. Preserve strongatua/tidalwall composition and addvisible simplepoint."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-251dbe84-39ff-4ab3-bcec-346f7d142a21.png",
+  "generated_at": "2026-10-12T02:37:22.219004+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/tangaroa.png",
+  "native_sha256": "44ff409492cba62d05bdddb543ca0b39f8d1d12f279a5add073989a6279c1de5",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native and 200px. All seven checks pass: overwhelming whale head and two natural flippers emerging in moving tidal walls; nonmonstrous reverent whale form c02. Wet skin and physical spray remain forceful at thumbnail scale. Whale fills frame; no human anatomy or added symbols; no glow or beams. Tail and far eye occluded by angle/water, not multiplied.",
+    "limitations": [],
+    "native_sha256": "44ff409492cba62d05bdddb543ca0b39f8d1d12f279a5add073989a6279c1de5",
+    "reviewed_at": "2026-10-12T02:37:22.219391+00:00"
+  },
+  "historical_native_sha256": [
+    "44ff409492cba62d05bdddb543ca0b39f8d1d12f279a5add073989a6279c1de5"
+  ],
+  "user_correction_cycle": {
+    "authorized_at": "2026-10-13",
+    "reason": "Hewan biasa; tidak menunjukkan dewa laut. User-authorized Claude correction2026-10-13.",
+    "new_attempt_limit": 3,
+    "previous_history_preserved": true
+  },
+  "request": {
+    "prompt": "EDIT reference Tangaroa Mythics illustration ONLY the spear: keep same male personifiedatua, face/body/5fingerhands, fullyopaque coarse darkrobe, active lowangle pose, real TWO massive tidalwalls/spray/fish andstormsunset, c01/c02/c14/c15/c16. The heldweapon currentlyreads woodenstaff becausepoint cropped: make it clearly ONE SIMPLE SPEAR with ONE plain pointed triangular stonehead tied byplaincord to samewoodenshaft. Reposition the lowerforeground shaft end a littleUP withinframe so its pointedhead is fullyvisible nearbottomcenter, helddiagonally towardthe camera. ONE sharpnon-glowing point only, no trident/ornaments/symbols, no magicaleffect orimpact; spearheadmaterial editorial, sourced spear c14. No change to scene/body, no inventedpower/giantscale, no nudity/transparency/gore. Native squarePNG min1024, no text/logo/frame/watermark/aura/neon orborroweddesign.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1406/drafts/lane-A-user-correction/tangaroa-new-native-01.png"
+    ]
+  }
+}

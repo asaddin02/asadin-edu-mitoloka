@@ -1,0 +1,86 @@
+{
+  "slug": "snallygaster",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Snallygaster, the Frederick County bird-reptile folklore chimera. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one reptile-bird head with exactly ONE eye centred high on its forehead and no side eyes; long pointed metallic beak opened enough to expose a row of sharp teeth; one pair enormous wings and two steel-hook-clawed legs; a few octopus-like tentacles distinctly separate from the legs [snallygaster-c04, snallygaster-c07, snallygaster-c08]\nMOMENT: SWOOP silently downward straight at the viewer with beak gaping and hook claws reaching, wing tips cropping frame\nPOWER: no invented supernatural effect; documented silent swooping attack, movement only [snallygaster-c05]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: one cold moon shaft, deep brown forest shadows, wind-stirred leaves\nSURFACE: weathered metal-like bill, rough scales, damp feathers and tactile tentacles\nSETTING: dark woods of Frederick County Maryland [snallygaster-c11]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Composite folklore description, central-eye enormous-wing account with metallic toothed beak and reported tentacles.",
+  "basis_claim_ids": [
+    "snallygaster-c04",
+    "snallygaster-c07",
+    "snallygaster-c08",
+    "snallygaster-c05",
+    "snallygaster-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Bird-reptile hybrid with metallic toothed beak",
+      "claim_ids": [
+        "snallygaster-c04"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Octopus-like tentacles",
+      "claim_ids": [
+        "snallygaster-c07"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Huge wings, hooked claws, central forehead eye",
+      "claim_ids": [
+        "snallygaster-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Silent swoop toward prey",
+      "claim_ids": [
+        "snallygaster-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Frederick County woods",
+      "claim_ids": [
+        "snallygaster-c11"
+      ]
+    }
+  ],
+  "aura": "Threat comes from the toothed beak, hooked claws and silent swoop (snallygaster-c04, snallygaster-c05, snallygaster-c08).",
+  "artistic_choices": [
+    "Wing and tentacle count beyond singular pair of wings is editorial staging, not asserted folklore count; only two legs shown. No blood-drinking scene or gore; no invented magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-148b35e2-6f07-44d9-933f-eeba78c4340f.png",
+  "generated_at": "2026-10-12T02:36:20.147907+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/snallygaster.png",
+  "native_sha256": "a1362281eec2c352b1dcf7487ed6f80398ef444962f2edfca8f0e6796377f863",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native and actual 200px. All seven checks pass: huge forward swoop; single central forehead eye; metallic pointed open beak visibly toothed; two immense wings, two hook-clawed legs, distinct octopus tentacles. Maryland woodland clear, no invented power beam, text, symbols or gore. At 200px eye and beak remain strongly threatening.",
+    "limitations": [],
+    "native_sha256": "a1362281eec2c352b1dcf7487ed6f80398ef444962f2edfca8f0e6796377f863",
+    "reviewed_at": "2026-10-12T02:36:20.148301+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "a1362281eec2c352b1dcf7487ed6f80398ef444962f2edfca8f0e6796377f863",
+    "notes": "One-eyed bird-reptile with a toothed metallic beak, octopus tentacles, hooked claws and huge wings swooping at the viewer in a night forest."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "shuten-doji",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shuten-dōji, the slumbering red giant oni trueform of the OeyamaEkotoba. Native square PNG at least1024x1024.\nANATOMY: ONE immense RED-bodied giant oni50feet tall when extended, ONE head with EXACTLY FIFTEEN closed EYES/eyelids, EXACTLY FIVE HORNS on the same head, TWO arms/TWO legs. NO eyes on horns/body. Fifteen eye-slits laid out as5rows of3 clearlydistinct on face;5horns spread across crown. Fullyopaque coarse robe covers body. [shuten-doji-c01, shuten-doji-c13]\nMOMENT: SHIFT restlessly in SLUMBER beside a huge sakebowl, colossal head rolls toward low viewer, one enormous hand drags cloth across stone; eyelids remain closed so trueform stays source sleepvariant.\nPOWER: No added power: overwhelming threat from50foot red giantbody with5horns15eyes in sleep c13, source loves sake bowl c06. No severedhead, lightning or genericglow. [shuten-doji-c06, shuten-doji-c13]\nSCALE & CAMERA: Extreme lowclose camera beside resting gianthead; head/crown fills mostsquare and little trees beyond shelter establish50foot scale; all15closedeyes and5horns unobscured.\nLIGHT & WEATHER: One warm low firelight offscreen, deep red/walnut shadow, horn/eyelid rim light; NO eyeglow because asleep.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Rocky dwelling on MountOe, low dark cave-like mountain shelter behind. [shuten-doji-c03, shuten-doji-c05]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.\nTARGETED CORRECTION: FACE MUST SHOW EXACTLY15 closed eyelids in a STRICT GRID of5HORIZONTAL ROWS with3eyelids EACH, across broad upperface above nose: row1three,row2three,row3three,row4three,row5three. All15 fullyvisible separate with clear gaps, NO extra normaleye pair. Nose BELOW entire15eye grid and mouth lower. Exactly5horns crown unchanged. One hand tightly pulls and wrinkles robe in uneasy violentdream slumber; sleeping trueform only. Remove fangtusks as not in selectedc13description.\nTARGETED CORRECTION: FINAL precise anatomy: face FRONT-ON NOT tilted. Arrange15 closedeyes as FIVE HORIZONTAL ROWS OF THREE closedeyes each above nose, like3vertical columns with5eyes each. Row1=3,row2=3,row3=3,row4=3,row5=3; every15 closedeyelid distinct and countable, no additional normaleyes. Long forehead and midface allow ALL5ROWS before low nose. Nose BELOW entireeyegrid, no eyes on nose. Fivehorns crown, sleepingred giant clutchingrobe retained.",
+  "depicted_variant": "the slumbering red giant oni trueform of the OeyamaEkotoba",
+  "basis_claim_ids": [
+    "shuten-doji-c01",
+    "shuten-doji-c13",
+    "shuten-doji-c06",
+    "shuten-doji-c03",
+    "shuten-doji-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE immense RED-bodied giant oni50feet tall when extended, ONE head with EXACTLY FIFTEEN closed EYES/eyelids, EXACTLY FIVE HORNS on the same head, TWO arms/TWO legs. NO eyes on horns/body. Fifteen eye-slits laid out as5rows of3 clearlydistinct on face;5horns spread across crown. Fullyopaque coarse robe covers body.",
+      "claim_ids": [
+        "shuten-doji-c01",
+        "shuten-doji-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No added power: overwhelming threat from50foot red giantbody with5horns15eyes in sleep c13, source loves sake bowl c06. No severedhead, lightning or genericglow.",
+      "claim_ids": [
+        "shuten-doji-c06",
+        "shuten-doji-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky dwelling on MountOe, low dark cave-like mountain shelter behind.",
+      "claim_ids": [
+        "shuten-doji-c03",
+        "shuten-doji-c05"
+      ]
+    }
+  ],
+  "aura": "SHIFT restlessly in SLUMBER beside a huge sakebowl, colossal head rolls toward low viewer, one enormous hand drags cloth across stone; eyelids remain closed so trueform stays source sleepvariant. Grounded in shuten-doji-c01, shuten-doji-c13, shuten-doji-c06, shuten-doji-c03, shuten-doji-c05.",
+  "artistic_choices": [
+    "OeyamaEkotoba sleep trueform c13 deliberatelychosen, not mixing2joOtogizoshi c09.15closedeyes anatomically countable; restless breathing/sleep movement editorial, not claiming awakeform. Garment and bowl shape editorial, no severing/gore.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1606/rejected/shuten-doji-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1606/rejected/shuten-doji-attempt-01.json",
+      "native_sha256": "90bf1ebb4d1438c397d38e897f519fc7a7ec85cbae329406a3a93a18d4784061",
+      "reason": "Fifteen closedeyes fail: face shows irregular rows of about14 eyelids, not EXACTLY15 source c13; count cannot confidently pass. Fivehorns correct. Also slumbermoment must show restlessaction rather than calmhead."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1606/rejected/shuten-doji-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1606/rejected/shuten-doji-attempt-02.json",
+      "native_sha256": "fea61e18ee0954e86e7d01cead7d7672c9ab3b88793543c4e5d5bb204d16a057",
+      "reason": "Eye count remains14:3row5 grid loses centerbottom eyelid to nose. Exact15 required c13 not satisfied."
+    }
+  ]
+}

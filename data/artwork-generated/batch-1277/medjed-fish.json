@@ -1,0 +1,68 @@
+{
+  "slug": "medjed-fish",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MEDJED-FISH, the sacred Egyptian elephantfish of Oxyrhynchus in its horned-sun-disc iconography.\nANATOMY: one living elephantfish with a long DOWNWARD-curving sharp snout, two natural eyes, coherent fish body and ordinary fish fins, ONE crown consisting of an antique golden SUN DISC held between TWO curved horns; no human arms or legs. [medjed-fish-c01, medjed-fish-c03, medjed-fish-c04, medjed-fish-c05]\nMOMENT: Surge toward the viewer underwater, twisting its sharp snout into close foreground and displacing a burst of real bubbles.\nPOWER: No documented active power; sacred presence through the clearly visible horned sun-disc crown and commanding close framing only, no electric beams. []\nSCALE & CAMERA: extreme low angle and close foreground, subject dominates the frame and its distinguishing features read clearly at 200 pixels. Numerical scale is asserted only when documented; otherwise dramatic close perspective.\nLIGHT & WEATHER: one strong warm sidelight, antique-gold rim light, walnut shadows, high contrast with visible dark details and appropriate natural moisture.\nSURFACE: rough physically convincing natural surfaces, textured scales or feathers or coarse fur as applicable, painterly cinematic realism rather than plastic.\nSETTING: river water at Per-Medjed in Upper Egypt, a shadowed riverbank hinted above the waterline. [medjed-fish-c01, medjed-fish-c03]\nMOOD: dangerous or awe-inspiring as appropriate to the tradition; commanding, alert and actively moving; sacred beings treated with respect.\nHARD CONSTRAINTS: no text, letters, pseudo-glyphs, logos, watermark, border or frame; no extra heads, limbs, eyes or fingers; no nudity or explicit gore; no film, game, anime or comic design; no generic glow aura, neon outline, energy ribbons or luminous colored mist. One single square image.",
+  "basis_claim_ids": [
+    "medjed-fish-c01",
+    "medjed-fish-c03",
+    "medjed-fish-c04",
+    "medjed-fish-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one living elephantfish with a long DOWNWARD-curving sharp snout, two natural eyes, coherent fish body and ordinary fish fins, ONE crown consisting of an antique golden SUN DISC held between TWO curved horns; no human arms or legs",
+      "claim_ids": [
+        "medjed-fish-c01",
+        "medjed-fish-c03",
+        "medjed-fish-c04",
+        "medjed-fish-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "river water at Per-Medjed in Upper Egypt, a shadowed riverbank hinted above the waterline",
+      "claim_ids": [
+        "medjed-fish-c01",
+        "medjed-fish-c03"
+      ]
+    }
+  ],
+  "depicted_variant": "living sharp-snouted sacred fish with horned sun-disc",
+  "aura": "No documented active power; sacred presence through the clearly visible horned sun-disc crown and commanding close framing only, no electric beams Basis klaim: medjed-fish-c01, medjed-fish-c03, medjed-fish-c04, medjed-fish-c05.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-f3fcf731-dec9-4f1b-ba00-c87b60f16f24.png",
+  "generated_at": "2026-10-09T01:09:15.192859+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/medjed-fish.png",
+  "native_sha256": "e0c2a770cd0d3b7f76656268f9e17535259c4049e955b97de5977df762d1a469",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat PNG native: ikan hidup bernose tajam menurun, dua mata dan sirip koheren, mahkota cakram matahari bertanduk dua c04/c05 sangat jelas. Kepala/snouthidung mendominasi gerak maju bawah air, tidak terbaca ikan biasa karena atribut sakral; gelembung akibat renang bukan kuasa. Tanpa organ Osiris/gore, tanpa listrik/neon/teks. Tujuh butir Sangar lulus.",
+    "limitations": [],
+    "native_sha256": "e0c2a770cd0d3b7f76656268f9e17535259c4049e955b97de5977df762d1a469",
+    "reviewed_at": "2026-10-09T01:09:15.192859+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e0c2a770cd0d3b7f76656268f9e17535259c4049e955b97de5977df762d1a469",
+    "notes": "Elephantfish with a long downward-curving snout and a gold sun disc between two horns swimming through the river at Per-Medjed; no limbs."
+  }
+}

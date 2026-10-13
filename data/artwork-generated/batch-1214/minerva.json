@@ -1,0 +1,95 @@
+{
+  "slug": "minerva",
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-038.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c01-4372-7571-933c-fdcac1f83308/exec-aae531ce-8a4f-4219-addf-3412edb14699.png",
+  "generated_at": "2026-10-08T15:15:25.383Z",
+  "original_file": "data/artwork-generated/batch-1214/originals/minerva.png",
+  "native_sha256": "65fa35409ed3ec66560956466437ef630c210a6ac2a662884455ce7a318ad044",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MINERVA, Roman goddess of wisdom, crafts, war and victory.\nANATOMY: one head, exactly two arms; Corinthian helmet pushed back to expose face, opaque belted chiton, a broad aegis bearing a clearly carved Medusa face, one shield on her left arm and one lance in right hand. [minerva-c01, minerva-c18, minerva-c22, minerva-c37]\nMOMENT: drive her broad shield right toward the viewer and lower her lance across the foreground while stepping forward; fierce focused eyes stare down at us.\nPOWER: No emitted supernatural effect; danger through forceful shield-and-lance movement and documented war/victory domain, no petrifying beam. [minerva-c01, minerva-c18, minerva-c22, minerva-c37]\nSCALE & CAMERA: extreme ground-level close portrait from inside shield arc; face and helmet occupy upper third, shield lower half, subject fills 85 percent.\nLIGHT & WEATHER: a single warm side/backlight, deep walnut shadows and antique gold highlights; low-key cinematic contrast, dramatic airborne dust or natural spray appropriate to scene; fire/sun/forge variants use that actual documented fire or sun as sole dominant light instead of external glow.\nSURFACE: scratched bronze, embossed aegis face, woven opaque cloth, dusty marble.\nSETTING: her Capitol temple in Rome, stone pillars only as secondary framing. [minerva-c01, minerva-c18, minerva-c22, minerva-c37]\nMOOD: overwhelming, imposing and awe-inspiring; malign Loki menacing, living Hindu Agni revered; never cute, neutral, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; opaque clothing covers torso and legs; no generic glow aura, neon outline or energy ribbons. ONE complete square image, not a collage.",
+  "depicted_variant": "Confrontational shield advance",
+  "basis_claim_ids": [
+    "minerva-c01",
+    "minerva-c18",
+    "minerva-c22",
+    "minerva-c37"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one head, exactly two arms; Corinthian helmet pushed back to expose face, opaque belted chiton, a broad aegis bearing a clearly carved Medusa face, one shield on her left arm and one lance in right hand",
+      "claim_ids": [
+        "minerva-c01",
+        "minerva-c18",
+        "minerva-c37"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No emitted supernatural effect; danger through forceful shield-and-lance movement and documented war/victory domain, no petrifying beam",
+      "claim_ids": [
+        "minerva-c01",
+        "minerva-c18",
+        "minerva-c22",
+        "minerva-c37"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "her Capitol temple in Rome, stone pillars only as secondary framing",
+      "claim_ids": [
+        "minerva-c01",
+        "minerva-c18",
+        "minerva-c22",
+        "minerva-c37"
+      ]
+    }
+  ],
+  "aura": "War/victory domain c01 and shield/lance/aegis iconography c18/c37, no invented effect",
+  "artistic_choices": [
+    "Square painterly walnut/antique-gold cinematic treatment, fully opaque garments; camera and tonal treatment are editorial.",
+    "Any symbolic divine scale is devotional composition, not an added claim of literal giant size; unspecified normal head/arm counts are restrained editorial rendering.",
+    "Varian 1 dipilih karena wajah, helm, aegis Medusa dan perisai lebih terbaca pada 200px; varian 2 menyimpan aksi langkah penuh yang berbeda."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variants": [
+    {
+      "variant": 1,
+      "selected": true,
+      "original_file": "data/artwork-generated/batch-1214/originals/minerva.png",
+      "native_sha256": "65fa35409ed3ec66560956466437ef630c210a6ac2a662884455ce7a318ad044"
+    },
+    {
+      "variant": 2,
+      "selected": false,
+      "original_file": "data/artwork-generated/batch-1214/variants/minerva/variant-2.png",
+      "native_sha256": "df7a5617e1ab3af260baef82dd587467e43b538d9ea6924b159990541f87fc4c"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root saw native square: advancing shield and foreshortened lance, clear helmet and embossed Medusa aegis, two arms, opaque chiton; powerful direct gaze fills frame. All seven Sangar checks pass, no emitted magic. Root independently viewed BOTH native final variants: A close shield/lance confrontation and B full temple-step advance; helmet, Medusa aegis and opaque chiton clear, two arms. Seven Sangar criteria pass; A sharper thumbnail identity.",
+    "limitations": [],
+    "native_sha256": "65fa35409ed3ec66560956466437ef630c210a6ac2a662884455ce7a318ad044",
+    "reviewed_at": "2026-10-08T15:25:15.444Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "65fa35409ed3ec66560956466437ef630c210a6ac2a662884455ce7a318ad044",
+    "notes": "Helmeted Minerva advancing with lance and shield, aegis with a carved Medusa face on her chest; one head, two arms, opaque chiton."
+  }
+}

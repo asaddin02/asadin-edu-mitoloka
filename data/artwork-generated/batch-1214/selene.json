@@ -1,0 +1,97 @@
+{
+  "slug": "selene",
+  "worker": "codex",
+  "worker_agent": "sita",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-040.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c03-0a50-7361-a9d2-553546ae71b7/exec-8bf2f19e-004e-45cb-ad9f-774712738f19.png",
+  "generated_at": "2026-10-08T15:18:12.135880+00:00",
+  "original_file": "data/artwork-generated/batch-1214/originals/selene.png",
+  "native_sha256": "96adfb7c4d388d4a073d5a8135c302ca54f0e9a19f461a4e0e3a52880e85a0c0",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SELENE. Wingless crescent-crowned Selene driving her two-white-horse chariot toward the viewer.\nANATOMY: ONE woman with one head, two eyes, two arms, two legs, a LARGE clearly crescent-shaped crown; NO wings on goddess or horses. Fully opaque long dark ivory Greek robe covering torso and legs. TWO silver-white horses pull her antique chariot, exactly two horse heads. [selene-c06, selene-c27, selene-c05, selene-c25]\nMOMENT: Drive the night chariot forcefully toward the viewer, leaning forward to pull the reins, robe twisting in the movement; face commanding and elevated toward us. The two white horses rear into the foreground.\nPOWER: She carries her night journey across the sky as the moon goddess; the moon itself is a clear physical silver lunar disc behind her, moonlight illuminates the robe and white horses. No emitted magic beams or energy trail. [selene-c01, selene-c02]\nSCALE & CAMERA: Tight frontal extreme low-angle chariot composition; Selene's crescent crown, face and upper body fill central upper two-thirds, two horse heads clearly separate along lower corners, no distant tiny goddess.\nLIGHT & WEATHER: One dominant silver moon backlight, deep midnight-brown sky, dramatic silver rim light and tactile robe folds.\nSURFACE: rich tactile cloth, fur, scales or stone appropriate to the specified anatomy, wet water surfaces and physical dust only where mentioned.\nSETTING: The vast dark night sky on her documented celestial journey. [selene-c02]\nMOOD: imposing, overwhelming, awe-inspiring or menacing as appropriate to the source; figure and identifying features instantly legible at 200 pixels; never cute, calm, decorative or an ordinary person or animal.\nHARD CONSTRAINTS: ONE square image, premium painterly cinematic illustration with tactile brushwork rather than glossy photoreal fashion rendering; no text, lettering, logo, border, frame, watermark, nudity, gore, extra heads, limbs, fingers or duplicated anatomy; no film, game, anime or comic design, no neon outline, generic glow aura, magic ribbons or floating runes. Every effect must belong to the cited deed; environmental lighting is artistic presentation.",
+  "depicted_variant": "Wingless crescent-crowned Selene driving her two-white-horse chariot toward the viewer.",
+  "basis_claim_ids": [
+    "selene-c01",
+    "selene-c02",
+    "selene-c05",
+    "selene-c06",
+    "selene-c23",
+    "selene-c25",
+    "selene-c27",
+    "selene-c33"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Wingless woman with crescent crown and long robe; exactly two white unwinged horses.",
+      "claim_ids": [
+        "selene-c06",
+        "selene-c27",
+        "selene-c05",
+        "selene-c25"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Moonlight and chariot journey across sky, without magical beams.",
+      "claim_ids": [
+        "selene-c01",
+        "selene-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night sky.",
+      "claim_ids": [
+        "selene-c02"
+      ]
+    }
+  ],
+  "aura": "Keagungan berasal dari dewi bulan dan perjalanan kereta langit malam (selene-c01/c02), mahkota bulan sabit (c06) serta dua kuda putih (c05/c25); cahaya hanya moonlight tanpa pancaran rekaan.",
+  "artistic_choices": [
+    "Rancangan kereta, pola logam/tali, palet ivory dan walnut serta lipatan kain adalah editorial, bukan rincian sumber.",
+    "A mengikuti ikonografi tanpa sayap dan crescent crown c06; B mengikuti varian hymnic long wings/gold diadem c23/c33; tidak mencampur anatomis kedua varian.",
+    "Moonlight dan foreshortening memberi dominasi tanpa mengklaim tinggi badan raksasa; horses dan kereta aktif sesuai c02/c25.",
+    "Varian A dipilih karena mahkota bulan sabit dan tatapan frontal rendah langsung mengenali dewi bulan pada thumbnail; varian B hymnic bersayap merupakan komposisi diagonal berbeda dan tetap dipertahankan.",
+    "Kedua komposisi dihasilkan dengan dua built-in calls terpisah dan PNG/receipt keduanya dipertahankan di variants/selene/. Tidak menebak nama model gambar."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat: Selene tanpa sayap, mahkota crescent sangat jelas, satu kepala/dua mata/dua lengan, jubah buram. Dua kuda putih tampak sebagai dua kepala berbeda dan sedang bergerak menarik kereta. Bulan fisik dominan di belakang, tanpa aura/rune; sudut rendah dan reins aktif menegaskan keagungan. Tidak ada teks, watermark atau bingkai. Uji Sangar lolos. Root independently viewed BOTH native final variants: A nonwinged crescent-crowned frontal chariot deity, B winged gold-crowned diagonal hymnic variant. Each has exactly two white horses, two arms, fully opaque long gown, moon as documented physical light; both pass.",
+    "limitations": [],
+    "native_sha256": "96adfb7c4d388d4a073d5a8135c302ca54f0e9a19f461a4e0e3a52880e85a0c0",
+    "reviewed_at": "2026-10-08T15:25:16.434Z"
+  },
+  "variant_files": [
+    {
+      "variant": "a",
+      "original_file": "data/artwork-generated/batch-1214/variants/selene/variant-a.png",
+      "native_sha256": "96adfb7c4d388d4a073d5a8135c302ca54f0e9a19f461a4e0e3a52880e85a0c0",
+      "status": "selected"
+    },
+    {
+      "variant": "b",
+      "original_file": "data/artwork-generated/batch-1214/variants/selene/variant-b.png",
+      "native_sha256": "278bafcd1c2ce25be6b00d02ff0ffe3d0673f530a0a80c6c73248bfaf8477cb5",
+      "status": "unselected-retained"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "96adfb7c4d388d4a073d5a8135c302ca54f0e9a19f461a4e0e3a52880e85a0c0",
+    "notes": "Wingless Selene with crescent crown driving exactly two white unwinged horses straight at the viewer before a huge moon."
+  }
+}

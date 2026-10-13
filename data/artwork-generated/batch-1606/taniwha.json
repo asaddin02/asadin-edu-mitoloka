@@ -1,0 +1,74 @@
+{
+  "slug": "taniwha",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Taniwha, the inland whale-sized tuatara-like ancestral waterguardian. Native square PNG at least1024x1024.\nANATOMY: ONE huge TUATARA/GECKO-like reptilian guardian of whale-like dimensions, ONE head/TWO eyes, FOUR lizardlegs, ONE long lizardtail, ONE row of spines alongback. No wings, dragonhorns or extraheads. [taniwha-c01, taniwha-c02, taniwha-c05]\nMOMENT: BURROW upward from riverbank and PLANT broad forefeet toward lowviewer, backspines tower, muddy earth rolls aside and one tree tips with exposed uprooted roots.\nPOWER: Can tunnel earth and uproot trees: physical tornriverbank/uprooting c05, no firebreath/lightning. Guardian shown imposing not eating or persecuting people. [taniwha-c05]\nSCALE & CAMERA: Extreme lowriverbank closecamera; hugefullbody towers over smallerrootball/tree establishing documented whale-size, allfourlegs andbackspines clear.\nLIGHT & WEATHER: One warm sunset breach through cloud, deepwalnut wetearth/shadow and water/soil spray.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Deep riverpool beside dark cave and forestbank in Aotearoa, dangerous naturalcurrent. [taniwha-c01, taniwha-c05]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the inland whale-sized tuatara-like ancestral waterguardian",
+  "basis_claim_ids": [
+    "taniwha-c01",
+    "taniwha-c02",
+    "taniwha-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE huge TUATARA/GECKO-like reptilian guardian of whale-like dimensions, ONE head/TWO eyes, FOUR lizardlegs, ONE long lizardtail, ONE row of spines alongback. No wings, dragonhorns or extraheads.",
+      "claim_ids": [
+        "taniwha-c01",
+        "taniwha-c02",
+        "taniwha-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Can tunnel earth and uproot trees: physical tornriverbank/uprooting c05, no firebreath/lightning. Guardian shown imposing not eating or persecuting people.",
+      "claim_ids": [
+        "taniwha-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Deep riverpool beside dark cave and forestbank in Aotearoa, dangerous naturalcurrent.",
+      "claim_ids": [
+        "taniwha-c01",
+        "taniwha-c05"
+      ]
+    }
+  ],
+  "aura": "BURROW upward from riverbank and PLANT broad forefeet toward lowviewer, backspines tower, muddy earth rolls aside and one tree tips with exposed uprooted roots. Grounded in taniwha-c01, taniwha-c02, taniwha-c05.",
+  "artistic_choices": [
+    "Choose inlandtuatara whale-size c05, not sea whale/shark c04 or floatinglogvariant. Tuatara jaw/feet/tail natural morphological rendering, scales/spines faithful. Respect kaitiakiguardian c02; no fabricated sacred motifs/tattoos.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330f-2da9-72a1-83e1-334c61917b19/exec-a1bddece-dcd0-40f4-ae79-dea7eecf6ad3.png",
+  "generated_at": "2026-10-13T02:29:32.305529+00:00",
+  "native_sha256": "c836d38fa92f94d766dec54c0e4b443c017081c64ddd5a6a60315a96ef5d13b5",
+  "width": 1254,
+  "height": 1254,
+  "original_file": "data/artwork-generated/batch-1606/originals/taniwha.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native/200 viewed: whale-sized inland tuatara-like guardian rises through riverbank, singlehead/twoeyes/backspine row/tail; limbs partly occluded by physicalwater/earth, noextra visible. Uprootedtree and soilburst c05 demonstrate activepower, respectful awe. All7Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "c836d38fa92f94d766dec54c0e4b443c017081c64ddd5a6a60315a96ef5d13b5",
+    "reviewed_at": "2026-10-13T02:30:05.688881+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "c836d38fa92f94d766dec54c0e4b443c017081c64ddd5a6a60315a96ef5d13b5",
+    "notes": "Whale-sized tuatara-like guardian with a row of back spines tearing up the river bank and uprooting trees."
+  }
+}

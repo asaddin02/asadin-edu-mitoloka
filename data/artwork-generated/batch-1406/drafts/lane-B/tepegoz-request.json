@@ -1,0 +1,50 @@
+{
+  "slug": "tepegoz",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tepegöz, the one-eyed giant ogre of the Oghuz Book of Dede Korkut. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one head with exactly ONE eye in forehead, no normal pair of eyes below; humanlike body with two arms and two legs; visibly tough leathery skin; torso and pelvis fully covered by heavy opaque undyed cloth, no helmet or horns [tepegoz-c01, tepegoz-c05, tepegoz-c06]\nMOMENT: LUNGE out of his cave, one empty hand reaching toward the viewer and the other braced on cave wall, single eye fixed on us\nPOWER: no invented magical effect; hard skin shown through dense rough surface only [tepegoz-c06]\nSCALE & CAMERA: extreme low angle at cave floor, giant looms over small cave stones\nLIGHT & WEATHER: single low dying fire outside frame lighting cave doorway, dust without magical smoke\nSURFACE: hard leathery skin, heavy coarse cloth, damp rock\nSETTING: his rocky cave lair [tepegoz-c05]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Adult single-forehead-eyed giant ogre before the blinding episode.",
+  "basis_claim_ids": [
+    "tepegoz-c01",
+    "tepegoz-c05",
+    "tepegoz-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One-eyed ogre with single forehead eye",
+      "claim_ids": [
+        "tepegoz-c01"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Giant with very hard skin",
+      "claim_ids": [
+        "tepegoz-c05",
+        "tepegoz-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cave lair",
+      "claim_ids": [
+        "tepegoz-c05"
+      ]
+    }
+  ],
+  "aura": "Threat comes from the giant cave ogre and single staring eye with tough skin (tepegoz-c01, tepegoz-c05, tepegoz-c06).",
+  "artistic_choices": [
+    "Full opaque rough garment is editorial to avoid nudity. No victims, gore or laser eye. Giant size is grounded in c05 original quote. No attack arrows inserted."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "thunderdell",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Thunderdell, the two-headed Cornish giant who chased Jack and broke the drawbridge with his great weight.\nANATOMY: ONE enormous humanoid giant with exactly TWO distinct heads and TWO necks on ONE body, each head has two eyes and one mouth; both heads fully visible side by side and turned toward viewer. Exactly TWO arms and TWO legs; full opaque rough wool tunic and leather trousers. No extra heads or arms [thunderdell-c01, thunderdell-c06, thunderdell-c08, thunderdell-c09]\nMOMENT: Charge toward the viewer across the drawbridge, bellow from both visible faces, reach forward with two huge hands as the timbers buckle under his weight.\nPOWER: His documented great weight physically breaks the wooden drawbridge; splintered timbers fall into the moat with real water spray. No magical effects or gore [thunderdell-c08, thunderdell-c09]\nSCALE & CAMERA: extreme low angle; extreme low angle at the cracking drawbridge edge; giant fills the image, small house stonework below the two heads for documented giant scale; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dominant amber moonbeam or dying-sun shaft, deep walnut shadows, high contrast rim light, physical dust or mist, no even daylight.\nSURFACE: weathered skin, tangled head hair, coarse wool tunic, worn leather, splintering wood.\nSETTING: The drawbridge and moat of the house in the Jack the Giant-Killer tale, plain uninscribed stone walls [thunderdell-c02, thunderdell-c09]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. ",
+  "depicted_variant": "Thunderdell tepat dua kepala mengejar di jembatan angkat yang pecah oleh beratnya.",
+  "basis_claim_ids": [
+    "thunderdell-c01",
+    "thunderdell-c06",
+    "thunderdell-c08",
+    "thunderdell-c09",
+    "thunderdell-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE enormous humanoid giant with exactly TWO distinct heads and TWO necks on ONE body, each head has two eyes and one mouth; both heads fully visible side by side and turned toward viewer. Exactly TWO arms and TWO legs; full opaque rough wool tunic and leather trousers. No extra heads or arms",
+      "claim_ids": [
+        "thunderdell-c01",
+        "thunderdell-c06",
+        "thunderdell-c08",
+        "thunderdell-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "His documented great weight physically breaks the wooden drawbridge; splintered timbers fall into the moat with real water spray. No magical effects or gore",
+      "claim_ids": [
+        "thunderdell-c08",
+        "thunderdell-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The drawbridge and moat of the house in the Jack the Giant-Killer tale, plain uninscribed stone walls",
+      "claim_ids": [
+        "thunderdell-c02",
+        "thunderdell-c09"
+      ]
+    }
+  ],
+  "aura": "His documented great weight physically breaks the wooden drawbridge; splintered timbers fall into the moat with real water spray. No magical effects or gore [thunderdell-c08, thunderdell-c09]",
+  "artistic_choices": [
+    "Busana buram sederhana editorial; tidak menambahkan senjata atau efek sihir.",
+    "Kedua wajah wajib terlihat; tanpa penggal kepala, darah atau korban."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-aad3e26b-1a81-4052-a160-30f10eb32da0.png",
+  "generated_at": "2026-10-10T03:01:06.573864+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/thunderdell.png",
+  "native_sha256": "a4712ceb5a9ef51ce9317291ca6c6947b8b80554e1afc869cb402d7e4b08d769",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat: tepat dua kepala pada satu tubuh, dua tangan dengan anatomi jari konsisten; kedua wajah membentak penuh terlihat c01/c06/c08. Satu kaki maju meremukkan drawbridge, splinters dan air nyata c09. Uji Sangar7/7, tanpa glyph/gore.",
+    "limitations": [],
+    "native_sha256": "a4712ceb5a9ef51ce9317291ca6c6947b8b80554e1afc869cb402d7e4b08d769",
+    "reviewed_at": "2026-10-10T03:01:06.573864+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "a4712ceb5a9ef51ce9317291ca6c6947b8b80554e1afc869cb402d7e4b08d769",
+    "notes": "Giant with two heads on two necks, both roaring at the viewer, breaking the castle drawbridge into the moat; two arms."
+  }
+}

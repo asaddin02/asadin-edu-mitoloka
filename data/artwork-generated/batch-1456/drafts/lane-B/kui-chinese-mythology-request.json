@@ -1,0 +1,55 @@
+{
+  "slug": "kui-chinese-mythology",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kui (Chinese mythology), Kui of the Liubo mountain Shanhaijing oxlike one-footed account. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one OX head with two eyes/two natural ox ears and absolutely NO HORNS; blue-green oxlike body, exactly ONE single central leg ending in ONE hoof beneath belly; all sides shown so no hidden legs exist; NO other legs, arms, wings or human face; one ox tail [kui-chinese-mythology-c05]\nMOMENT: BOUND out of water toward viewer balanced on its ONE central hoof, all body limbs fully readable against spray, head held forward with radiant gaze\nPOWER: its emergence brings WIND AND RAIN; rain driven across real spray and watersurface. Glare like sun and moon lights wet rain from the face, not generic body aura; voice thunder suggested by open ox muzzle, NO lightning beam or bolt invented [kui-chinese-mythology-c06]\nSCALE & CAMERA: extreme low shoreline camera, close whole body visibly containing exactly one central leg, no cropped/hidden legs\nLIGHT & WEATHER: documented face glare is dominant warm pale light, rain rim-lit against deep sea-storm shadows\nSURFACE: wet blue-green ox hair, single keratin hoof, heavy rain and sea spray\nSETTING: waters at Liubo mountain in East Sea, rock outline behind subordinate [kui-chinese-mythology-c05]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.\nCORRECTION: Mouth may roar but must have natural bovine dental pad on upper front, NO upper incisors/canines/fangs and NO pointed predator teeth. Only small flat LOWER bovine incisors if any teeth visible. Keep exactlyONEcentral leg/hoof and no horns; preserve wind/rain and documented radiant glare.",
+  "depicted_variant": "Shanhaijing hornless blue-green one-footed ox form; no musician, red drum or human-faced ape mixture.",
+  "basis_claim_ids": [
+    "kui-chinese-mythology-c05",
+    "kui-chinese-mythology-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Blue-green oxlike body, NOhorns, exactly one foot",
+      "claim_ids": [
+        "kui-chinese-mythology-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Water emergence causes wind/rain; glare like sun/moon, voice like thunder",
+      "claim_ids": [
+        "kui-chinese-mythology-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Liubo mountain East Sea",
+      "claim_ids": [
+        "kui-chinese-mythology-c05"
+      ]
+    }
+  ],
+  "aura": "Awe comes from single-footed hornless blue-green ox and emergence bringing wind/rain plus sun/moonlike glare (kui-chinese-mythology-c05, kui-chinese-mythology-c06).",
+  "artistic_choices": [
+    "Central placement and broad single hoof are editorial staging of explicit one-foot anatomy. Gaze illumination tied only to c06; no lightning inferred from thunder voice. No terrifying gore; overwhelming nature-being awe."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/kui-chinese-mythology-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/kui-chinese-mythology-attempt-01.json",
+      "native_sha256": "768ff775af307491366f08de3a4423d417a269d822caaa007a603ca480a7d32a",
+      "reason": "Upper mouth has sharp canine-like fangs, undocumented predatory addition to oxlike variant c05."
+    }
+  ]
+}

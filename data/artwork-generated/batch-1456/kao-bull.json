@@ -1,0 +1,65 @@
+{
+  "slug": "kao-bull",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kao (bull), the great divine Meitei bull of the Khamba Thoibi epic before its taming. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one living great bull, one head/two eyes, two natural bull horns, four hoofed legs and one bovine tail; no wings, jewellery or invented supernatural body parts [kao-bull-c01, kao-bull-c13, kao-bull-c15]\nMOMENT: BURST from water-edge reeds toward viewer with head lowered and horns thrust forward, powerful shoulders surging and reed stems bent by bodily contact\nPOWER: no documented magical power; imposing divine bull force conveyed by physical forward motion only, no aura [kao-bull-c13, kao-bull-c15]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: wet bovine hair, thick keratin horns, mud and snapped real reeds\nSETTING: reeds bordering the waters of Waithou [kao-bull-c13]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Untamed great divine bull at Waithou, before the father-name taming.",
+  "basis_claim_ids": [
+    "kao-bull-c01",
+    "kao-bull-c13",
+    "kao-bull-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Divine great bull and natural horns",
+      "claim_ids": [
+        "kao-bull-c01",
+        "kao-bull-c13",
+        "kao-bull-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waithou waters and reeds",
+      "claim_ids": [
+        "kao-bull-c13"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the great horned bull forcefully emerging at Waithou (kao-bull-c13, kao-bull-c15).",
+  "artistic_choices": [
+    "Dark bull coat is editorial. Powerful emergence and lowered horns echo dangerous pre-taming account without showing victim or gore. Respectful formidable divine animal, no demonic redesign or invented giant size beyond great bull."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-8ab60911-5485-4e67-8f33-c6d856836447.png",
+  "generated_at": "2026-10-12T08:08:05.408977+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/kao-bull.png",
+  "native_sha256": "66d2217df471fc88798d9ced0d55484260a6db2115079b6a7c5e6d1b92a776c1",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected; all seven Sangar checks pass. Great bull c01/c13 charges bodily through Waithou reeds c13: one head,two eyes,two bull horns,four natural hooflegs (rear legs perspective occluded),one tail. Direct lowered horn attack and churned mud/water physically from wateredge emergence create danger c13/c15, no magical power. Divine animal treated respectfully without demon anatomy. No calm dairycow reading/text/gore/franchise cues.",
+    "limitations": [],
+    "native_sha256": "66d2217df471fc88798d9ced0d55484260a6db2115079b6a7c5e6d1b92a776c1",
+    "reviewed_at": "2026-10-12T08:08:05.409189+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "66d2217df471fc88798d9ced0d55484260a6db2115079b6a7c5e6d1b92a776c1",
+    "notes": "Great black bull charging out of the Waithou reeds at the viewer; the research documents an ordinary but deadly great bull (c06, c13), so the charge and low camera carry the threat."
+  }
+}

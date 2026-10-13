@@ -1,0 +1,74 @@
+{
+  "slug": "qiqirn",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of qiqirn, the large bald canine spirit of Inuit folklore, not Kipling many-legged Quiquern.\nANATOMY: One large bald canine spirit with one dog head, two eyes, four dog legs and one tail. Almost entirely hairless, hair ONLY on feet, around mouth, ear tips and tail tip; bare wrinkled skin everywhere else. No extra legs, second head or ordinary fur coat [qiqirn-c01, qiqirn-c02]\nMOMENT: Scramble away across the foreground while twisting its head sharply back toward the viewer, startled and unsettling; not attacking humans\nPOWER: Its presence causes convulsions, but no victim or visible magical effect shown; uncanny anatomy and sudden flight alone [qiqirn-c02, qiqirn-c03]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: one dominant cold twilight sidelight with warm ground reflection, snow rim light; physical particles only where justified by the action.\nSURFACE: bare wrinkled gray-brown canine skin and sparse coarse tufts only at documented points.\nSETTING: Around Baffin Island, dark Arctic ground with sparse windblown snow [qiqirn-c01]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One large bald canine spirit with one dog head, two eyes, four dog legs and one tail. Almost entirely hairless, hair ONLY on feet, around mouth, ear tips and tail tip; bare wrinkled skin everywhere else. No extra legs, second head or ordinary fur coat",
+      "claim_ids": [
+        "qiqirn-c01",
+        "qiqirn-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Its presence causes convulsions, but no victim or visible magical effect shown; uncanny anatomy and sudden flight alone",
+      "claim_ids": [
+        "qiqirn-c02",
+        "qiqirn-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Around Baffin Island, dark Arctic ground with sparse windblown snow",
+      "claim_ids": [
+        "qiqirn-c01"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "qiqirn-c01",
+    "qiqirn-c02",
+    "qiqirn-c03"
+  ],
+  "depicted_variant": "the large bald canine spirit of Inuit folklore, not Kipling many-legged Quiquern",
+  "artistic_choices": [
+    "Choose traditional c01/c02 form and its fear of humans c03; no Kipling extra legs or double heads.",
+    "Do not visualize seizures as invented energy; no victim shown.",
+    "Windblown snow and low twilight are editorial regional scene treatment; scale through close foreground."
+  ],
+  "aura": "Its presence causes convulsions, but no victim or visible magical effect shown; uncanny anatomy and sudden flight alone [qiqirn-c02, qiqirn-c03]",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-d5cef242-fbd8-47fd-9a26-95617bd27d07.png",
+  "generated_at": "2026-10-12T02:54:36.069347+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/qiqirn.png",
+  "native_sha256": "e0b3620e87a0f2b722891ece1f7d5d6265d5ebffda152b2637f6653d762d8d10",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native view: large single-headed bald dog, two eyes, four legs all visible and one tail; tufts restricted to feet, mouth, ear ends and tail end c02. Scrambling away with head turned in frightened watchfulness respects c03. Bare wrinkled anatomy is uncanny at200px; no Kipling limbs or invented glowing seizure effect. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "e0b3620e87a0f2b722891ece1f7d5d6265d5ebffda152b2637f6653d762d8d10",
+    "reviewed_at": "2026-10-12T02:54:36.069347+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e0b3620e87a0f2b722891ece1f7d5d6265d5ebffda152b2637f6653d762d8d10",
+    "notes": "Large almost hairless dog with hair only on feet, muzzle, ear tips and tail running across Arctic snow; wrinkled bare skin is uncanny."
+  }
+}

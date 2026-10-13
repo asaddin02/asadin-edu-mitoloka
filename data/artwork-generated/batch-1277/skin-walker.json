@@ -1,0 +1,93 @@
+{
+  "slug": "skin-walker",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Skin-walker, as documented in the accepted traditional claims.\nANATOMY: One skin-walker in fully transformed coyote animal form, one coyote head, exactly two unmistakably HUMAN EYEBALLS embedded in the coyote face: very broad bright white sclera surrounding small pale blue human irises and round black pupils, almond-shaped human eyelids, absolutely not brown or yellow canine eyes, four paws, one tail, no deer antlers, no hybrid extra arms, no upright humanoid body [skin-walker-c07, skin-walker-c12, skin-walker-c16]\nMOMENT: Scrape the wooden entrance of a home with the front paws while twisting its head toward the viewer, a disturbingly human intelligent stare holding our gaze.\nPOWER: No glowing effects; human eyes in animal form express the documented unnatural transformation [skin-walker-c01, skin-walker-c12]\nSCALE & CAMERA: extreme low angle, dominant close framing; a face-and-front-paws close-up; face occupies over half the frame, both broad white HUMAN eye sclera readable at 200 pixels, rear body cropped out naturally.\nLIGHT & WEATHER: one dim warm light from the doorway, low-key darkness, windblown dust.\nSURFACE: matted coyote fur, weathered timber, dirty claws.\nSETTING: Outside a hogan home in deep night, tight view of a dark wooden doorway [skin-walker-c12, skin-walker-c17]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.\nCRITICAL: make the two human eyes visibly impossible on a coyote: large clean white sclera, small pale-blue human irises, human eyelids. This is the indispensable documented identifying trait. The face must stare with cold malevolent human intent as its front paws actively scrape the threshold. No brown/gold animal eyes, no generic monster eyes, no glowing eyes.",
+  "depicted_variant": "Skin-walker dalam wujud coyote bermata manusia yang menggores pintu rumah.",
+  "basis_claim_ids": [
+    "skin-walker-c07",
+    "skin-walker-c12",
+    "skin-walker-c16",
+    "skin-walker-c01",
+    "skin-walker-c17"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Fully transformed coyote with unmistakably human eyes: broad white sclera, pale human irises and human-shaped eyelids; natural four-pawed animal body, rear body cropped.",
+      "claim_ids": [
+        "skin-walker-c07",
+        "skin-walker-c12",
+        "skin-walker-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No glowing effects; human eyes in animal form express the documented unnatural transformation",
+      "claim_ids": [
+        "skin-walker-c01",
+        "skin-walker-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Outside a hogan home in deep night, tight view of a dark wooden doorway",
+      "claim_ids": [
+        "skin-walker-c12",
+        "skin-walker-c17"
+      ]
+    }
+  ],
+  "aura": "No glowing effects; human eyes in animal form express the documented unnatural transformation [skin-walker-c01, skin-walker-c12]",
+  "artistic_choices": [
+    "Tidak menambahkan antler monster modern, simbol ritual atau pakaian sakral.",
+    "Mata manusia harus tampak jelas; keanehan c12 dan aksi menggores pintu mencegah pembacaan hewan biasa."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/skin-walker-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/skin-walker-attempt-01.json",
+      "native_sha256": "8c7bcd172bdd51f4719a0e6724408b00fcece4ed1676486dbbeae795f5fe3293",
+      "reason": "Mata masih cokelat seperti coyote biasa; ciri mata manusia c12 tidak cukup terbaca pada thumbnail, sehingga berisiko terbaca hewan biasa. Ulangi close-up dengan sclera putih jelas dan bentuk kelopak manusia, bukan mata hewan atau glowing."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-f01c1a02-2256-45ca-a141-78dfd1e8548e.png",
+  "generated_at": "2026-10-09T01:12:20.660380+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/skin-walker.png",
+  "native_sha256": "9ab4a11494471ce948c2c2f33843f50d140577dce1de6da1d64d433235536a9a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli percobaan kedua: wajah coyote sangat dekat dengan dua mata manusia jelas, sclera putih luas dan iris manusia kecil c12; dua kaki depan aktif menggores ambang. Wujud hewan empat kaki tanpa tanduk atau tungkai hibrida. Uji Sangar 7/7, keganjilan terbaca pada thumbnail.",
+    "limitations": [],
+    "native_sha256": "9ab4a11494471ce948c2c2f33843f50d140577dce1de6da1d64d433235536a9a",
+    "reviewed_at": "2026-10-09T01:12:20.660380+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9ab4a11494471ce948c2c2f33843f50d140577dce1de6da1d64d433235536a9a",
+    "notes": "Coyote with unmistakably human eyes scratching at a wooden door frame outside a hogan at night; natural four-pawed body."
+  }
+}

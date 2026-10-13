@@ -1,0 +1,74 @@
+{
+  "slug": "vrykolakas",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of vrykolakas, Allatius drum-skinned undead Greek vrykolakas.\nANATOMY: One undead adultmale corpse,onehead/twoeyes/twoarms/twolegs, deadpuffybody with taut parchmentlike skin stretched tight like drum. Fullyopaque worn dark longcoat/shirt/trousers, no vampfangs added, nohorns/animalparts. Sallowdistortedface unmistakablydead [vrykolakas-c01, vrykolakas-c03, vrykolakas-c05]\nMOMENT: Press towardviewer at doorway and KNOCK with raisedknuckles on roughwooddoor, otherhand bracesdoorframe\nPOWER: The documented night doorcaller c04; no magicgaze ray or victimdeathshown [vrykolakas-c04]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one warm candlelight leaksfromdoor,deepnightshadows; only physical particles justified by action.\nSURFACE: unnaturallytaut drumparchmentskin,dirtstainedheavycloth and rougholdwood.\nSETTING: A Greekhouse doorway atnight, faint tombground behind [vrykolakas-c04]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One undead adultmale corpse,onehead/twoeyes/twoarms/twolegs, deadpuffybody with taut parchmentlike skin stretched tight like drum. Fullyopaque worn dark longcoat/shirt/trousers, no vampfangs added, nohorns/animalparts. Sallowdistortedface unmistakablydead",
+      "claim_ids": [
+        "vrykolakas-c01",
+        "vrykolakas-c03",
+        "vrykolakas-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented night doorcaller c04; no magicgaze ray or victimdeathshown",
+      "claim_ids": [
+        "vrykolakas-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A Greekhouse doorway atnight, faint tombground behind",
+      "claim_ids": [
+        "vrykolakas-c04"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "vrykolakas-c01",
+    "vrykolakas-c03",
+    "vrykolakas-c05",
+    "vrykolakas-c04"
+  ],
+  "depicted_variant": "Allatius drum-skinned undead Greek vrykolakas",
+  "artistic_choices": [
+    "No modern cinematicvampire design, nobloodfangs orrottinggore.",
+    "Corpse tautskinc05 is distinguishingfeature;handskin swollen/tensed, lowclosecamera. Clothingeditorial opaque."
+  ],
+  "aura": "The documented night doorcaller c04; no magicgaze ray or victimdeathshown [vrykolakas-c04]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-84b6-74c3-8189-ebb47cb5a8e6/exec-2d86211e-86b6-4377-952e-d6e0bd23c53d.png",
+  "generated_at": "2026-10-12T14:00:11.845017+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/vrykolakas.png",
+  "native_sha256": "2e75725020e9a988ce40c3f39f7c17993e753a89d281d339fff66daa2f01e650",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan thumbnail200 diperiksa: mayat berkulit tegang memenuhi bingkai, satu kepala/dua mata/dua tangan benar, momen mengetuk pintu terbaca, tanpa taring vampir tambahan/gore/teks; c04 doorcaller tanpa efek rekaan. Semua7UjiSangar ya.",
+    "limitations": [],
+    "native_sha256": "2e75725020e9a988ce40c3f39f7c17993e753a89d281d339fff66daa2f01e650",
+    "reviewed_at": "2026-10-12T14:00:11.845017+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2e75725020e9a988ce40c3f39f7c17993e753a89d281d339fff66daa2f01e650",
+    "notes": "Bloated undead man with drum-tight skin knocking at a Greek house door at night, cemetery chapel behind."
+  }
+}

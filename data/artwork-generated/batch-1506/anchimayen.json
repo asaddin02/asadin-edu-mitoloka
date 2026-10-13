@@ -1,0 +1,100 @@
+{
+  "slug": "anchimayen",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Anchimayen, a SMALL child-shaped Mapuche spirit appearing in a disorienting night encounter.\nANATOMY: ONE small normal human child figure, ONE head/TWO natural eyes/TWO arms/TWO legs. Fully clothed in a thick opaque long-sleeved dark tunic, opaque full-length trousers and simple boots. Short dark hair, unsmiling fixed steady gaze, normal human features. ONE ordinary adult observer appears partially at lowerforeground. [anchimayen-c01, anchimayen-c07]\nMOMENT: BOUND AIRBORNE toward lowcamera, knees bent and hands extended naturally forbalance. Hold cold fixedeyecontact with observer. The adult RECOILS from the brilliant light, SHIELDS EYES with forearm and turnshead aside, visibly momentarily disoriented. The small spirit acts as an obedient guardianservant, solemn rather than smiling or cute. [anchimayen-c02, anchimayen-c05, anchimayen-c07]\nPOWER: The spirit's visible figure radiates documented BRILLIANT WHITE LIGHT, physically overexposing the nearby adult face/forearm and casting severe white illumination across nearby rocks. Light comes directly from the figure and illuminates its skin/clothing; the figure remains clearly recognized as a small child. The adult's shielding andloss ofbalance demonstrate the source-described confusion/stunning from close light. No separateabstractsphere or detachedhalo. [anchimayen-c01, anchimayen-c07]\nSCALE & CAMERA: Extreme low groundcamera in a close encounter, the SMALL airbornefigure occupies upper70percent through foreshortening, only adulthead and shieldingforearm at a lowercorner. Grass/pebbles establish modestscale. Face and clothed humanlimbs clear at200px, never a giant.\nLIGHT & WEATHER: Harsh WHITE documented spiritlight against BLACK nightshadows, high cinematiccontrast, overexposed nearbyadult anddampground. Avoid golden angelicbeautylight andgeneric luminousborder.\nSURFACE: Real opaque rough woven clothing, tactile natural skin/hair, wet pebbles andgrass. No wings, monsterfeatures or decorativehalo.\nSETTING: Unspecified darkground during a close encounter; no invented ritual objects or cultural landmarks. [anchimayen-c01, anchimayen-c07]\nMOOD: Unsettling, imposing andhypnotic; active supernatural encounter whose brilliantlight demonstrably disorients nearby adult. Solemn protective/obedient smallspirit, never cutechildportrait, fairyangel or calmluminousperson. [anchimayen-c02, anchimayen-c05]\nHARD CONSTRAINTS: ONE native squarePNG minimum1024x1024. No text, letters, symbols, logo, watermark, border orframe. Exact normalhuman limbcounts. Full opaque clothing throughout. No game/film/comic design. No injury or graphiccontent. No angelwings, neonoutline, floatingrunes, energybeams or inventedpowers.",
+  "depicted_variant": "Small child-form Anchimayen in a close airborne encounter, visibly disorienting an adult with body-generated brilliant light.",
+  "basis_claim_ids": [
+    "anchimayen-c01",
+    "anchimayen-c02",
+    "anchimayen-c05",
+    "anchimayen-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE SMALL CHILD-shaped spirit,1normalhumanhead/2eyes/2arms/2legs. Natural childface with cold fixed unsmiling gaze, no monsterfeatures. FULLY OPAQUE coarse dark tunic and leggings cover chest/hips. ONE adult human observer partly visible at lowerforeground, normalhumanface/arms, shields eyes fromchild light.",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Actual childbody radiates brilliant harsh white light in closeairborne approach; documented c07confoundinglight visibly washes out the nearby adult who shields eyes, tilts head away andstaggers. Sourcechildform remains recognizable; no detachedhalo, neonoutline, angelwings, wounds or burns.",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Unspecified darknight ground/rocks during a close encounter; no ritual, symbols or specificculturallandmarks.",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c07"
+      ]
+    }
+  ],
+  "aura": "Small child-form approaches airborne with cold fixedgaze and its actual brilliant light confounds/stuns the adult who shields eyes, c01/c07.",
+  "artistic_choices": [
+    "Corrects rootrejected innocent angelchild: unsmiling fixedgaze, harshwhite lightsource, darknightcontrast andvisible adultshielding/disorientation make c07power physical. No invented malice or harm; obedient/guarding character c02/c05 retained.",
+    "One ordinary adultobserver is sourced by c07someone seeingupclose, not a secondmythologicalbeing. Fullopaque clothing, hair/color, plain rocks andcamera are editorial. No burningchild/injury/corpse/ritualimagery."
+  ],
+  "generation_failures": [
+    {
+      "attempt": 2,
+      "tool": "OpenAI built-in image_gen",
+      "error": "HTTP400 moderation_blocked input sexual category; requestID0b8f6e8f-49eb-4927-b330-4710286a09c2",
+      "request_id": "0b8f6e8f-49eb-4927-b330-4710286a09c2",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of Anchimayen, the SMALL Mapuche child-form spirit whose brilliant close-range light confounds the observer.\nANATOMY: ONE SMALL CHILD shaped being with normalhuman anatomy, ONE head/TWO naturaleyes/TWO arms/TWO legs. Plain shortdarkhair, naturalface, COLD FIXED UNSMILING UNBLINKING gaze; never smiling, adorable, cherubic orangelic. Fullyopaque coarse DARK tunic andleggings cover chest/hips. ONE adultobserver is PARTLY visible at lowerforeground, normalhumanbody shieldingeyes. NO wings, halos, monsterfeatures orgiantchild. [anchimayen-c01, anchimayen-c07]\nMOMENT: APPROACH the viewer in an airborne forward bound, face thrust close, hands balanced naturally, eyes fixed with unnerving intent. The adult in lowerforeground RECOILS and SHIELDS BOTH EYES with normal forearm/hand, tiltshead away andstumbles from the visible dazzlinglight. This is a threatening hypnotic encounter, not a child portrait or an angel visitation. Child is unharmed, no violent attack or wounds.\nPOWER: Actual brilliantwhite light emanates FROM the visible child's body, face/neck/hands andclothphysically lit from thatsource, physically overexposes the adultface andhand nearby and projects severe hardwhite light onto rocks. This is documented confounding/stunning/blinding c07 and child/flyingbrightfireball potential c01; no light unrelated to subject. NO detachedhalo, neonedge, generic aura, beam orenergy ribbon; no angelglow. [anchimayen-c01, anchimayen-c07]\nSCALE & CAMERA: Extreme low close camera beside the recoiling adult, SMALL normalchildfigure fills upper70percent by airborneapproach/foreshortening; only adulthead andshieldingforearm at lowercorner, enough to show closeencounter andordinaryadultratherthan giantchild. Thechild FACE/BODY remains unequivocal at200px; never replaceit with abstractfireball.\nLIGHT & WEATHER: HARSH COLD WHITE body-source illumination, BLACK nightdepth andheavy contrasting shadow, washedout nearbyobserver andforegroundstone. NO golden heaven, pastel warmth, diffusebeautylight or halo. Sparse ordinary nightmist only if black andnonglowing.\nSURFACE: Natural humanfeatures, matte rough fullyopaque DARK fabric, tangible damp pebbles/grass; bright actualbody luminosity illuminates skin andnearobjects. No burns, decay, gore, exposedbones or injuredchild.\nSETTING: Unspecified neutral darkground in a closeencounter, no Mapuche ritualobjects or inventedcultural landmarks. [anchimayen-c01, anchimayen-c07]\nMOOD: Unsettling, imposing, hypnotic, demonstrably dangerous through sourced disorientinglight. Small obedient/guarding servant of a kalku, not an invented evilmonster. No cutechildphotograph, calmfaceportrait orangelicrescue. [anchimayen-c02, anchimayen-c05]\nHARD CONSTRAINTS: ONE native squarePNG minimum1024x1024. No text/letters/symbols/watermark/frame/border. No extrahead/arms/legs/fingers, no designs fromfilm/game/anime/comics. No nudity/gore/injury/burningchild. No generichalo/neonoutline/angelwings/floatingrunes or new powers.",
+      "generated_file": null,
+      "recorded_at": "2026-10-13T03:01:42.749773+00:00"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-01.json",
+      "native_sha256": "b75bdf4759e38acb78a5f988713039cbec49dca75d9bfeb953993d2fe799003c",
+      "reason": "Bola api abstrak; tidak menunjukkan makhluknya."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-02.json",
+      "native_sha256": "8a1535905caa7f57627c6ed92f7e17f96a6bf4755dd65cc7299983df5728e25e",
+      "reason": "Root native+200 rejection: innocent warmly lit angelchild, cute/harmless portrait; fails Sangar2/7 despite clearchildbody."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330f-2da9-72a1-83e1-334c61917b19/exec-7f5f93e9-d72b-45ef-b724-2da4e22f7117.png",
+  "generated_at": "2026-10-13T03:04:07.921826+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/anchimayen.png",
+  "native_sha256": "3432377cce57e5f8e25e363574d7fe685de99aac88d42a929a7e8cacd2c62e5d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px viewed: SMALL normalchild figure in fullopaque darktunic/trousers/boots approachesairborne with fixedunsmilinggaze,2arms2legs/1head. Actualbrilliantwhite source-light physically overwhelms adultforegroundface/forearm; adultrecoils andshieldseyes, visibly demonstrating c07confounding closeencounter. Coldnightcontrast andconfrontation replace cuteangel01. Bodycount/text/claimedpowers checked;all7Sangar selfchecks pass. Cycle3calls total:01rootrejected,02inputmoderationfailure withoutPNG,03replacement pendingrootassessment.",
+    "limitations": [],
+    "native_sha256": "3432377cce57e5f8e25e363574d7fe685de99aac88d42a929a7e8cacd2c62e5d",
+    "reviewed_at": "2026-10-13T03:06:09.498118+00:00"
+  },
+  "correction_cycle": "user-authorized2026-10-13",
+  "correction_archive_receipt": "data/artwork-generated/batch-1506/rejected/anchimayen-attempt-01-old-receipt.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "3432377cce57e5f8e25e363574d7fe685de99aac88d42a929a7e8cacd2c62e5d",
+    "notes": "Correction: small child-shaped spirit with a cold unsmiling stare radiating harsh white light that washes out the adult shielding his eyes; opaque tunic, no cute angel look."
+  }
+}

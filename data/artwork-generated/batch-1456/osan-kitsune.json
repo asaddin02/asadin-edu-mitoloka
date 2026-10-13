@@ -1,0 +1,81 @@
+{
+  "slug": "osan-kitsune",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Osan Kitsune, the three-tailed fox spirit of the Yuki-cho Hiroshima account. Native square PNG at least1024 by1024 pixels.\nANATOMY: One ordinary fox head with two natural eyes, four fox legs and EXACTLY THREE separate fully visible fox tails. No human face, nine tails, fangs beyond normal fox teeth, flames or crown. [osan-kitsune-c01, osan-kitsune-c13]\nMOMENT: Step down a shadowy path toward the viewer, the three distinct tails spreading behind its turning body, eyes fixed on camera.\nPOWER: No visual magical effect; three documented tails and close movement distinguish the fox spirit. Do not import tail fire from the separate Hiroshima story. [osan-kitsune-c13]\nSCALE & CAMERA: extremely close low camera and foreshortening, no invented giant size, no tiny people as size references; distinguishing anatomy readable at200px.\nLIGHT & WEATHER: Single low warm sunset source through deep shadow, tangible fur and natural mist.\nSURFACE: tactile organic fur, skin, feather, scales, wet wood or opaque cloth corresponding to the documented subject, never plastic.\nSETTING: A dark path in Yuki-cho, Hiroshima, without invented shrine imagery. [osan-kitsune-c13]\nMOOD: imposing uncanny fox-spirit awe; never cute, calm, static or decorative. Dark walnut, antique-gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, glyph, lettering, logo, border, frame or watermark; no extra heads, eyes, arms, legs, fingers or attributes; no film, game, anime or comic adaptation; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons. Anatomical counts in this prompt override generic creature associations.",
+  "depicted_variant": "Yuki-cho three-tailed fox variant; no burning tail or transformed woman merged.",
+  "basis_claim_ids": [
+    "osan-kitsune-c01",
+    "osan-kitsune-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One ordinary fox head with two natural eyes, four fox legs and EXACTLY THREE separate fully visible fox tails. No human face, nine tails, fangs beyond normal fox teeth, flames or crown.",
+      "claim_ids": [
+        "osan-kitsune-c01",
+        "osan-kitsune-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visual magical effect; three documented tails and close movement distinguish the fox spirit. Do not import tail fire from the separate Hiroshima story.",
+      "claim_ids": [
+        "osan-kitsune-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark path in Yuki-cho, Hiroshima, without invented shrine imagery.",
+      "claim_ids": [
+        "osan-kitsune-c13"
+      ]
+    }
+  ],
+  "aura": "Step down a shadowy path toward the viewer, the three distinct tails spreading behind its turning body, eyes fixed on camera. Visual grounding: osan-kitsune-c01, osan-kitsune-c13.",
+  "artistic_choices": [
+    {
+      "description": "Directional low-key light, close camera, warm dark palette and opaque clothes when applicable are editorial choices, not added powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Yuki-cho three-tailed fox variant; no burning tail or transformed woman merged.",
+      "claim_ids": [
+        "osan-kitsune-c01",
+        "osan-kitsune-c13"
+      ]
+    }
+  ],
+  "tool": "OpenAI built-in image_gen",
+  "model_reported": false,
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-f0a6-7a91-b4c3-0510485213fd/exec-2b629b79-a32c-4578-a61b-bd47b8feb1b1.png",
+  "native_sha256": "2ca1e51115252a5bdc2079c7583d2ff38d4744fe2fee44029dc83c8c761ea78b",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T08:05:26.525052+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/osan-kitsune.png",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected. One fox head,twoeyes,four foxlimbs and exactly THREE separate tails visible c01/c13. Walking frontal fox-spirit glare and three tails dominate. No flames imported from c09, no invented shrine,text,gore or extra heads. All7 Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "2ca1e51115252a5bdc2079c7583d2ff38d4744fe2fee44029dc83c8c761ea78b",
+    "reviewed_at": "2026-10-12T08:05:26.525052+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2ca1e51115252a5bdc2079c7583d2ff38d4744fe2fee44029dc83c8c761ea78b",
+    "notes": "Fox with exactly three tails (counted at full size) stalking down a rocky path at dusk, eyes fixed on the viewer."
+  }
+}

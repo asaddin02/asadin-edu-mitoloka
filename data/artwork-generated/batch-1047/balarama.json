@@ -1,41 +1,83 @@
 {
   "slug": "balarama",
-  "prompt": "Use case: stylized-concept. Square premium Mythics painterly illustration, monumental low viewpoint, tiny environmental scale references, cinematic light, rich brush texture, no text, logo, watermark, border, gore, nudity or film/game/anime imitation. BALARAMA, respectfully depicted as mighty Hindu deity Krishna's elder brother (balarama-c01), FULLY clothed in traditional draped garments covering chest and legs, exactly ONE head and TWO arms, both hands holding ONE immense wooden plough (balarama-c04) with simple clear anatomy. Stands above tiny distant cultivated fields with furrows and golden crops, immense low-angle presence and strong silhouette. Farming power illustrated by earth freshly turned under the plough, sunlight and dust, no levitating earth, no fire, no lightning. No serpent bodies or extra heads, no weapon invented beyond plough. Original dignified sacred portrait.\nRevision instruction: Edit only clothing: cover entire exposed chest and abdomen including both nipples with opaque white traditional tunic underneath blue drapery. Keep all body proportions, two arms gripping one plough, face, backdrop and composition unchanged. FULLY clothed torso, no exposed chest; no new limbs or text.",
-  "depicted_variant": "Fully clothed mighty deity holding documented plough.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of BALARAMA, mighty Hindu deity and Krishna's elder brother, respectfully depicted during his extraordinary deed of drawing the Yamuna toward Vrindavan.\nANATOMY: one human head, exactly two arms and two hands visibly gripping ONE enormous traditional hooked wooden plough with an iron blade, no additional limbs. Opaque ivory tunic covering chest and abdomen and indigo draped garments covering legs; ornate antique gold crown is an editorial devotional choice. Plough weapon unmissable, angled from lower foreground toward shoulder. [balarama-c01, balarama-c04, balarama-c08]\nMOMENT: wrench the hooked plough toward the viewer with visible muscular exertion, torso twisting, commanding resolute gaze down toward the camera, actively tearing open a channel for the river. His face and shoulders occupy the upper half; both hands and immense plough cross the lower half.\nPOWER: the Yamuna surges into the channel being gouged by the plough: roaring water banks physically bend behind him, iron blade tears dark rock and sprays wet debris, immense pressure of diverted river water visibly responds to this one action. A supernatural divine deed, not a farmer working a field. No extra weapons, no fire, no magic aura. [balarama-c08]\nSCALE & CAMERA: extreme low angle from the torn riverbank beside the iron blade; towering visual dominance through tight foreshortened framing, body fills 80 percent of the square, face unmistakable at 200 pixels. No invented giant body size.\nLIGHT & WEATHER: one narrow warm sunset beam across his stern face and plough blade, deep walnut shadows; river spray and wet dust against the light, cinematic low-key contrast.\nSURFACE: soaked indigo cloth, woven ivory tunic, weathered wood, dark textured iron, churning opaque river water, splintered riverbank rock.\nSETTING: the Yamuna river being drawn nearer Vrindavan; gouged fresh channel, torrents curling behind the deity, background subordinated to his active figure. [balarama-c08]\nMOOD: awe-inspiring sacred power and overwhelming divine strength, reverent and imposing, never evil, cute, calm, decorative or an ordinary ploughman.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. ONE complete square image, not collage.",
+  "depicted_variant": "Balarama actively diverts the Yamuna with a monumental plough weapon, in a tight low-angle devotional action portrait.",
   "basis_claim_ids": [
     "balarama-c01",
-    "balarama-c04"
+    "balarama-c04",
+    "balarama-c08"
   ],
   "visual_requirements": [
-    "Single Hindu deity, modest two-arm editorial rendering (balarama-c01)",
-    "One plough and cultivated land (balarama-c04)",
-    "No invented serpent anatomy or emitted effects"
+    {
+      "kind": "anatomy",
+      "description": "Balarama as Hindu deity with unmistakable immense plough weapon; one head/two arms are restrained editorial rendering, clothing opaque.",
+      "claim_ids": [
+        "balarama-c01",
+        "balarama-c04",
+        "balarama-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The plough draws the Yamuna into a newly torn channel, water physically redirected by the deity rather than routine agriculture.",
+      "claim_ids": [
+        "balarama-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yamuna river approaching Vrindavan, torn riverbank and surging water during the documented deed.",
+      "claim_ids": [
+        "balarama-c08"
+      ]
+    }
   ],
-  "aura": "Natural golden farming landscape and plough strength (balarama-c04).",
+  "aura": "Superhuman physical river redirection from balarama-c08, direct commanding gaze and foreshortened plough; no generic glow.",
   "artistic_choices": [
-    "Research supplies plough/farming rather than emitted power; grandeur through scale and lighting. Exact garments/body are modest editorial choices.",
-    "Rejected first attempt retained in rejected/balarama-attempt-1.png for uncovered chest; corrected using built-in image editing."
+    "Opaque ivory tunic, indigo drapery and antique gold crown are editorial devotional clothing choices, not sourced anatomy.",
+    "Majesty from close foreshortened commanding action and superhuman river-redirection deed, no claimed literal giant body."
   ],
   "visual_review": {
-    "verdict": "pass",
-    "notes": "Native edited output viewed: entire chest now opaque white tunic, two arms gripping one plough, covered legs, cultivated land, no invented effects.",
     "reviewer": "codex",
-    "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73"
+    "verdict": "pass",
+    "notes": "Root viewed native PNG: twisting active Balarama dominates, two visible arms/two hands on one large hooked plough, fully opaque covered torso/legs, water rushes in gouged channel. Seven Sangar checks pass: the river-redirection deed clearly exceeds routine agriculture; no extra anatomy, text, generic glow or copied franchise design.",
+    "limitations": [],
+    "native_sha256": "8f088c605809a489a804d193780b57a24bf43c2e6c9d130a877d949dce9250ca",
+    "reviewed_at": "2026-10-08T14:59:58.951Z"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-2771da63-d479-4d31-8be4-56e6e828e17e.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/balarama.png",
-  "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c01-4372-7571-933c-fdcac1f83308/exec-e69d962c-1fa3-41ba-83d9-11697ad4ff49.png",
+  "original_file": "data/artwork-generated/batch-1047/originals/balarama.png",
+  "native_sha256": "8f088c605809a489a804d193780b57a24bf43c2e6c9d130a877d949dce9250ca",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-072.review.json",
   "reviewed_at": "2026-10-06T07:54:33.167668+00:00",
+  "worker_agent": "root",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1047,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T14:59:58.951Z",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/balarama-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/balarama-attempt-02.json",
+      "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73",
+      "reason": "Ordinary man ploughing a field.",
+      "missing_original_png": true,
+      "expected_old_original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/balarama.png"
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73",
-    "notes": "Ordinary man ploughing a field."
-  },
-  "correction_notes": "Ordinary man ploughing a field."
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8f088c605809a489a804d193780b57a24bf43c2e6c9d130a877d949dce9250ca",
+    "notes": "Balarama braced at low angle dragging a huge plough weapon through the Yamuna, water and earth thrown up; one head, two arms, opaque dress. No longer an ordinary ploughman."
+  }
 }

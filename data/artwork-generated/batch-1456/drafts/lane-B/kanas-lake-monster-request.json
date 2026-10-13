@@ -1,0 +1,50 @@
+{
+  "slug": "kanas-lake-monster",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kanas Lake Monster, the unconfirmed giant Red Fish described in the1985 report from Kanas Lake. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one massive RED fish, broad head reportedly over a metre wide; one head and two natural fish eyes, scaled fish neck/shoulder cropped close; do not specify taimen species or invent horns, whiskers, extra fins or predatory fangs, mouth partly open with no visible teeth [kanas-lake-monster-c01, kanas-lake-monster-c07]\nMOMENT: RISE up against the low viewer from the lake surface, broad red head and shoulder displacing a heavy wave, not a small normal fish at a distance\nPOWER: no documented supernatural powers; physical water displacement on emergence as reported; no swallowing livestock scene [kanas-lake-monster-c09]\nSCALE & CAMERA: extreme low waterline view, documented immense head fills frame; lake wave much smaller than head\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: wet red-brown fish scales and physically displaced lake water\nSETTING: Kanas Lake Xinjiang, far lake shore barely visible [kanas-lake-monster-c01]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "1985 reported giant Red Fish, intentionally unconfirmed and not identifying it as taimen.",
+  "basis_claim_ids": [
+    "kanas-lake-monster-c01",
+    "kanas-lake-monster-c07",
+    "kanas-lake-monster-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Reported giant red fish10–15m with head over1m wide; unconfirmed",
+      "claim_ids": [
+        "kanas-lake-monster-c01",
+        "kanas-lake-monster-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kanas Lake Xinjiang",
+      "claim_ids": [
+        "kanas-lake-monster-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Reported water emergence and breaking metre wave, physical displacement only",
+      "claim_ids": [
+        "kanas-lake-monster-c09"
+      ]
+    }
+  ],
+  "aura": "Awe comes from reported10–15m Red Fish with metre-wide head emerging close (kanas-lake-monster-c07).",
+  "artistic_choices": [
+    "Red fish report is depicted as a reported form, not species confirmation. Scale pattern and unspeciated fish head are editorial. Only close head/shoulder shows; no invented fin counts or mammal/reptile composite. No supernatural power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

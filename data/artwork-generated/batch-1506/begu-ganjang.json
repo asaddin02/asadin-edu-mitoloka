@@ -1,0 +1,79 @@
+{
+  "slug": "begu-ganjang",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-018.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Begu Ganjang, the Batak longshadow spirit in the elongatedgrowingform reports. Native square PNG at least1024x1024pixels.\nANATOMY: ONElargeTHINELONGATED DARKSHADOW-likehuman-formfigure,onehead silhouette,exactlytwoarm silhouettes/twolegs, opaque continuousshadowbody withoutnudity ordiscernibleeyes/teeth/horns/claws [begu-ganjang-c13, begu-ganjang-c15, begu-ganjang-c16, begu-ganjang-c23]\nMOMENT: LENGTHEN upwardwhile STRIDING towardcloseviewer acrossfieldedge, unnaturallylongbody fillsverticalframeanddarkheadleansdown, lowerstridelarge,notstaticdecorativeghost\nPOWER: documentedappearsgrowing tallerandbiggeraslookedat; elongatedshadowbodystretchesupward, no magicalribbons/killbeam or victimdamage [begu-ganjang-c15, begu-ganjang-c16, begu-ganjang-c23]\nSCALE & CAMERA: extreme lowfieldfloorcamera;elongatedfiguretowersovernearordinarycropstems,head/bodydominant\nLIGHT & WEATHER: one lowcoldmoonbeambehindfigure,silhouettingbody; deepwalnutfieldshadows,noemittedglow\nSURFACE: matteblackshadowoutline againstroughfieldgrass\nSETTING: farmlandfieldedgeassociatedwithguardiantradition, plaincrop silhouettes withoutspecificritual/house [begu-ganjang-c17, begu-ganjang-c24]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Documentedlongdarkgrowingbody/shadowform, notformlessvariant orevilowneraccusation.",
+  "basis_claim_ids": [
+    "begu-ganjang-c13",
+    "begu-ganjang-c15",
+    "begu-ganjang-c16",
+    "begu-ganjang-c23",
+    "begu-ganjang-c17",
+    "begu-ganjang-c24"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Large thin elongated darkshadowlikefigure",
+      "claim_ids": [
+        "begu-ganjang-c13",
+        "begu-ganjang-c15",
+        "begu-ganjang-c16",
+        "begu-ganjang-c23"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Apparentgrowthwhenlookedat",
+      "claim_ids": [
+        "begu-ganjang-c15",
+        "begu-ganjang-c16",
+        "begu-ganjang-c23"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Fieldassociation",
+      "claim_ids": [
+        "begu-ganjang-c17",
+        "begu-ganjang-c24"
+      ]
+    }
+  ],
+  "aura": "Awe/uncannythreat comes fromthinlongshadowbody thatgrowswhenlookedat (begu-ganjang-c15, begu-ganjang-c23).",
+  "artistic_choices": [
+    "Genericclosedhumanoidsilhouette editorialminimalform; nofacecountattributes/eyes invented. Shadowyopaquebodyusesactualdarknessnotneonmist. Noethniccostume, ritualor accusationsagainstpeople; aura fromheightgrowthonly."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-726c7c62-cbdc-4b4f-a525-9f83762c2eb6.png",
+  "generated_at": "2026-10-12T14:15:38.913798+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/begu-ganjang.png",
+  "native_sha256": "f37bffe0684aedbe1c2021e0b80847144bec118c748f7ae6664f13c5fcbd1e65",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200px dilihat: figur bayangan hitam sangat panjang kurus c23 memenuhi vertikal, satu kaki melangkah dekat dan kepala menunduk, skala meninggi c15/c16; dua lengan/dua kaki tanpa wajah/tanduk/teks. Sawah c24 menjadi dasar kecil. UjiSangar7 ya, sosok aktif ganjil dan menekan, tanpa aura gaib tambahan.",
+    "limitations": [],
+    "native_sha256": "f37bffe0684aedbe1c2021e0b80847144bec118c748f7ae6664f13c5fcbd1e65",
+    "reviewed_at": "2026-10-12T14:16:15.626698+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "f37bffe0684aedbe1c2021e0b80847144bec118c748f7ae6664f13c5fcbd1e65",
+    "notes": "Extremely tall thin shadow figure looming over the rice field against the moon, low camera."
+  }
+}

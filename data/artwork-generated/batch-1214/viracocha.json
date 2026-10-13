@@ -1,0 +1,100 @@
+{
+  "slug": "viracocha",
+  "worker": "codex",
+  "worker_agent": "radha",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-e4ef-74e2-8485-d5c798bdb472/exec-0a600f54-aba9-4e60-bc8e-f8eed03393e0.png",
+  "generated_at": "2026-10-08T15:23:25.808Z",
+  "original_file": "data/artwork-generated/batch-1214/originals/viracocha.png",
+  "native_sha256": "d1da3e71f0945fa5097b2ddc1d02f45c4cf175db6ed28747b8ad57d562c95d93",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration. Imposing undeniable main subject, high-contrast low-key dark walnut/antique gold palette, textured brushwork and physically tactile surfaces, legible silhouette at 200 pixels. HARD CONSTRAINTS: no text, lettering, pseudo-script, logo, watermark, signature, border or frame; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glowing aura, neon lines, energy ribbons, floating runes, or unsupported anatomy.\nANATOMY: VIRACOCHA, Andean supreme creator in an original human-appearing BEARDED male form, two human arms/hands and two legs, long opaque woven dark gold/crimson robe. An immense antique-gold CROWN WITH SUN RAYS fully inside image, ray crown broader than head. Hold ONE thunderbolt in EACH hand, both distinct hands readable, no staff in this variant. Tears streak his face in the storm, referring to iconographic tears representing rain. Beard and human form c02, hand thunderbolts and solar ray crown c19; natural Andean brown skin is editorial, do not use unsupported European white-god portrayal. [viracocha-c02/c19] MOMENT: Raise and extend both thunderbolt-bearing arms toward the storm, bend into a forceful forward step out of the dark gateway; stare downward at viewer with immense sovereign calm, not an ordinary standing man. POWER: actual forked lightning connects the hand-held thunderbolts to thunderclouds, rain lashes the gateway and water splashes under his feet; sun/storm sovereignty c22 and thunderbolts/tears c19, no extra colored energy ribbons or halo. SCALE & CAMERA: extreme worm-eye full figure fills 90 percent of square, ray crown and two lightning hands clearly readable; gateway pillars peripheral, apparent divine monumentality by tight perspective. LIGHT & WEATHER: a single lightning flash is dominant source, warm antique-gold reflected accents, black storm darkness, forceful rain. SURFACE: wet rough woven robe, carved gold rays, beard heavy with rain, weathered stone. SETTING: alive sacred rendering before the massive Tiwanaku gateway, not a sculpture. [viracocha-c19] MOOD: overwhelming respectful divine creator, awe not monstrous villain.",
+  "depicted_variant": "Alive bearded human-form Viracocha interpreting Tiwanaku sun-ray crown and two hand-held thunderbolts, striding out through rain and storm.",
+  "basis_claim_ids": [
+    "viracocha-c01",
+    "viracocha-c02",
+    "viracocha-c11",
+    "viracocha-c18",
+    "viracocha-c19",
+    "viracocha-c22",
+    "viracocha-c24"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Bearded human-form creator in fully opaque editorial woven robe, broad solar-ray crown, one thunderbolt in each of two visible hands; no staff in selected variant.",
+      "claim_ids": [
+        "viracocha-c02",
+        "viracocha-c19"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical forked lightning from thunderbolt-bearing hands into storm sky, rain/wet cheeks and water splashing under active step; no generic glow.",
+      "claim_ids": [
+        "viracocha-c19",
+        "viracocha-c22"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Alive deity before monumental Tiwanaku gateway, stone details editorial rather than a reproduction of archaeological structure.",
+      "claim_ids": [
+        "viracocha-c19"
+      ]
+    }
+  ],
+  "aura": "Tiwanaku solar ray crown and thunderbolts c19, rain/physical storm lightning c19/c22, bearded creator c02/c01 and low active stride provide sacred grandeur.",
+  "artistic_choices": [
+    "A human bearded source form c02 is combined with source Tiwanaku crown/thunderbolt iconography c19 as an alive respectful deity illustration, not a statue.",
+    "Long fully opaque woven robe, natural Andean brown skin and geometric gold ornament detail are editorial; no unsupported European white-god portrayal.",
+    "A uses two hand thunderbolts without staff; B separately uses source old robe/staff c18 in lake-emergence/light-creation narrative c24/c11.",
+    "Gold solid thunderbolt shapes/actual storm lightning visualize c19/c22; rain and wet cheek streaks refer to c19 tears/rain imagery, no generic magic aura.",
+    "Gateway stone details, palette and low viewpoint chosen editorially; both variants native inspected.",
+    "Proposed selected: solar-ray crown, both hand-held thunderbolts and active storm make creator identity most immediately imposing.",
+    "Editorial/visibility note: Topmost crown ray ends slightly clipped by upper edge; broad radial crown shape remains clear.",
+    "Editorial/visibility note: Geometric textile/metal ornaments and gateway details are editorial, not readable letters.",
+    "Editorial/visibility note: A beard/human form is c02 and Tiwanaku crown/bolts c19; staff is only alternative B."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native viewed: bearded human-appearing brown-skinned creator takes a forceful forward step from gateway in opaque heavy woven robe; two hands each hold a distinct gold zigzag thunderbolt with actual sky lightning, wide solar-ray crown above. Rain/wet cheek streaks and splashing stone, imposing low view. One head/two arms, no extra limbs, text, gore or generic aura. Root independently viewed BOTH native final variants: A bearded ray-crowned creator strides with one thunderbolt in each hand in documented rain, B distinct old bearded robed staff-bearer emerges from lake at first sun. Two arms/opaque dress, no source variants mixed. Decorative geometric motifs not readable letters. Both pass seven checks.",
+    "limitations": [],
+    "native_sha256": "d1da3e71f0945fa5097b2ddc1d02f45c4cf175db6ed28747b8ad57d562c95d93",
+    "reviewed_at": "2026-10-08T15:37:16.696Z"
+  },
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1214/variants/viracocha/A.png",
+      "receipt_file": "data/artwork-generated/batch-1214/variants/viracocha/A.json",
+      "native_sha256": "d1da3e71f0945fa5097b2ddc1d02f45c4cf175db6ed28747b8ad57d562c95d93",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1214/variants/viracocha/B.png",
+      "receipt_file": "data/artwork-generated/batch-1214/variants/viracocha/B.json",
+      "native_sha256": "33a4592c9fa1a16ae2cab4c239d608d097bfceae4d4d8f0c5bb201bbd1662c7c",
+      "selected": false
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "d1da3e71f0945fa5097b2ddc1d02f45c4cf175db6ed28747b8ad57d562c95d93",
+    "notes": "Bearded Viracocha with solar-ray crown and a thunderbolt in each hand striding out of a Tiwanaku gateway through rain and lightning, low camera."
+  }
+}

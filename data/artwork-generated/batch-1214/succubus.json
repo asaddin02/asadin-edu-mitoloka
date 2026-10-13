@@ -1,0 +1,94 @@
+{
+  "slug": "succubus",
+  "worker": "codex",
+  "worker_agent": "radha",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-e4ef-74e2-8485-d5c798bdb472/exec-ff9625d3-c7d8-4ac0-ac11-4752a5e38ee6.png",
+  "generated_at": "2026-10-08T15:18:17.253Z",
+  "original_file": "data/artwork-generated/batch-1214/originals/succubus.png",
+  "native_sha256": "77687dd11b82e718242423e60f769eadd13db549a80bdffaf53d0236b11b7fb5",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration. Imposing undeniable main subject, high-contrast low-key dark walnut/antique gold palette, physically textured surfaces, strong silhouette legible at 200 pixels. HARD CONSTRAINTS: no text, lettering, pseudo-script, logo, watermark, signature, border or frame; no borrowed film/game/anime/comic design; no nudity, erotic scene or explicit gore; no generic glowing aura, neon lines, energy ribbons, floating runes, or unsupported anatomy.\nANATOMY: A succubus in documented woman-with-BIRDLIKE-CLAWS variant. One adult human woman's head, two eyes, TWO human arms/hands, TWO legs ending in clearly visible bird talons rather than human feet. Beautiful yet unsettling mature face with focused predatory stare. FULLY OPAQUE modest worn black medieval gown covers shoulders, arms, chest, torso and hips; hem lifted by bent legs only enough to expose two scaly BIRD FEET with sharp talons. No horns, wings, snake tail or claws added to hands. [succubus-c07] MOMENT: Crouch forward on the edge of a stone doorway within an adult sleeper's nightmare, grip doorway with one hand and press the other forward, both bird talons prominently hook the foreground sill. No erotic pose, no sexual contact, no seduction scene. POWER: documented dream visitation / sleep paralysis, conveyed by claustrophobic perspective and nightmare threat only; no magical aura or invented draining beam. [succubus-c01/c04] SCALE & CAMERA: extreme low close full crouching body; face and both TALON FEET readable, figure fills 85 percent, no sleeper needed. LIGHT & WEATHER: one small candle off-frame at low left, warm lit claws and face, profound shadows. SURFACE: wrinkled rough opaque cloth, leathery bird toes, worn stone. SETTING: editorial old European sleeping-chamber doorway in nightmare. [succubus-c01] MOOD: dangerous uncanny nightmare visitor; no pinup, no lingerie, no cute demon, no glamour photo.",
+  "depicted_variant": "Fully clothed adult woman-form succubus with two bird-taloned feet crouching forward as a nightmare visitor.",
+  "basis_claim_ids": [
+    "succubus-c01",
+    "succubus-c04",
+    "succubus-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Adult human woman with two bird-taloned feet clearly visible, otherwise human hands/head; no invented horns or wings, fully opaque clothing. Serpent tail occurs in alternative B only.",
+      "claim_ids": [
+        "succubus-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Appears within a nightmare/sleep-paralysis context; no physical magic emission invented.",
+      "claim_ids": [
+        "succubus-c01",
+        "succubus-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Editorial dim European sleeping chamber presents documented dream visitation without sexual contact.",
+      "claim_ids": [
+        "succubus-c01"
+      ]
+    }
+  ],
+  "aura": "Uncanny documented bird claws c07 and predatory dream-visitor posture in c01/c04 context establish menace; no invented power glow.",
+  "artistic_choices": [
+    "Variant A chooses bird-claw deformity; B separately chooses appended snake-tail deformity from c07 rather than combining both.",
+    "Opaque modest gown, candle/moon lighting and European sleeping-chamber details are editorial; no sexual interaction depicted.",
+    "Human basic anatomy follows source woman form; no invented horns, wings or additional appendages beyond the stated variant.",
+    "Nightmare threat conveyed through active close viewpoint rather than invented draining beams.",
+    "Both variants individually viewed at native size.",
+    "Proposed selected: both bird talons clearly readable and full crouching anatomy better demonstrates documented deformity.",
+    "Editorial/visibility note: Exact bird species/toe count, dress cut and doorway are editorial; source specifies bird-like claws without species/count.",
+    "Editorial/visibility note: Dream/sleep-paralysis setting is an editorial staging, no physical energy effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native viewed: mature woman crouches forward at stone doorway with two clearly separate scaly bird feet and sharp talons hooking the sill, two human hands and one focused uncanny face. Dark opaque gown fully covers torso, arms and hips; no horns/wings/tail. Candlelight and predatory movement make a nightmare threat, no erotic interaction, text or gore. Root independently viewed BOTH native final variants: A stalking clothed woman with two bird-taloned feet and B separate serpent-tail variant beside empty bed. Distinct anatomies kept separate per c07; two human hands each, no erotic scene, aura or unclaimed horns. Both pass.",
+    "limitations": [],
+    "native_sha256": "77687dd11b82e718242423e60f769eadd13db549a80bdffaf53d0236b11b7fb5",
+    "reviewed_at": "2026-10-08T15:25:16.237Z"
+  },
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1214/variants/succubus/A.png",
+      "receipt_file": "data/artwork-generated/batch-1214/variants/succubus/A.json",
+      "native_sha256": "77687dd11b82e718242423e60f769eadd13db549a80bdffaf53d0236b11b7fb5",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1214/variants/succubus/B.png",
+      "receipt_file": "data/artwork-generated/batch-1214/variants/succubus/B.json",
+      "native_sha256": "4245a32f85ec065ada639436795898e4227981fbc9dd9200ec1419c70df7cee7",
+      "selected": false
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "77687dd11b82e718242423e60f769eadd13db549a80bdffaf53d0236b11b7fb5",
+    "notes": "Fully clothed woman-form succubus crouching over a doorway sill toward the viewer with two bird-taloned feet; no invented horns or wings."
+  }
+}

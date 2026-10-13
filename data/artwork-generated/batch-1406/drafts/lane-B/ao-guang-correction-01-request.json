@@ -1,0 +1,72 @@
+{
+  "slug": "ao-guang",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ao Guang, East Sea Dragon King coming out of his palace to greet his guest. Native square PNG at least1024x1024.\nANATOMY: ONE royal Dragon King portrayed as an anthropomorphic Chinese dragon ruler, one dragon head/two eyes, two human-shaped arms/two legs within fully OPAQUE layered royal robes, ordinary hands with five fingers. Dragon muzzle, beard, whiskers and two modest horns are conventional editorial rendering of Dragon King category, not claim-specific anatomy. Crown and opaque antique-gold/sea-green brocade are editorial king-costume choices. No tiny snake. [ao-guang-c01, ao-guang-c11]\nMOMENT: RISE from the palace threshold and stride toward the low viewer in a powerful royal greeting, one open hand welcoming, other hand held outward as rain pours across the palace approach; robes pulled by weather.\nPOWER: TORRENTIAL RAIN descends physically around the King, who provides rain in Journey to the West c10; no fire, iron staff, aura or water-energy ribbons. [ao-guang-c10]\nSCALE & CAMERA: Extreme low close confrontation; head/being fills most frame, distinguishing dragon face visible at200px; no undocumented gigantic body comparisons.\nLIGHT & WEATHER: One narrow warm sidelight against deep walnut shadows, hard rim, dark high contrast; physical water or dust only from documented scene.\nSURFACE: Living wet scales, coarse mane hairs, rain-wet opaque cloth when clothed, weathered stone or ordinary soil. Never plastic or glazed ornament.\nSETTING: Palace of the East Sea Dragon King; threshold and open doors with falling water visible, royal architecture editorial and uninscribed. [ao-guang-c01, ao-guang-c11]\nMOOD: Reverent overwhelming dragon awe, commanding and imposing, never cute, calm, decorative or ordinary snake.\nHARD CONSTRAINTS: No text, lettering, glyphs, logo, border, frame or watermark. No extra heads, eyes, limbs, fingers. No film/game/anime/comic designs, no nudity or explicit gore, no generic glow aura, neon outlines, floating runes or energy ribbons. All clothing fully opaque. Conventional Chinese dragon rendering details are artistic interpretation of documented dragon identity, not new physical powers or claimed exact iconography.",
+  "depicted_variant": "East Sea Dragon King coming out of his palace to greet his guest",
+  "basis_claim_ids": [
+    "ao-guang-c01",
+    "ao-guang-c11",
+    "ao-guang-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE royal Dragon King portrayed as an anthropomorphic Chinese dragon ruler, one dragon head/two eyes, two human-shaped arms/two legs within fully OPAQUE layered royal robes, ordinary hands with five fingers. Dragon muzzle, beard, whiskers and two modest horns are conventional editorial rendering of Dragon King category, not claim-specific anatomy. Crown and opaque antique-gold/sea-green brocade are editorial king-costume choices. No tiny snake.",
+      "claim_ids": [
+        "ao-guang-c01",
+        "ao-guang-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "TORRENTIAL RAIN descends physically around the King, who provides rain in Journey to the West c10; no fire, iron staff, aura or water-energy ribbons.",
+      "claim_ids": [
+        "ao-guang-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Palace of the East Sea Dragon King; threshold and open doors with falling water visible, royal architecture editorial and uninscribed.",
+      "claim_ids": [
+        "ao-guang-c01",
+        "ao-guang-c11"
+      ]
+    }
+  ],
+  "aura": "RISE from the palace threshold and stride toward the low viewer in a powerful royal greeting, one open hand welcoming, other hand held outward as rain pours across the palace approach; robes pulled by weather. Supported by ao-guang-c01, ao-guang-c11, ao-guang-c10, ao-guang-c01, ao-guang-c11.",
+  "artistic_choices": [
+    "Documented dragon category is rendered with conventional Chinese dragon physiognomy as editorial detail; exact horns, mane, whiskers, limbs or historical portrait are not facts claimed by research.",
+    "Low camera, close framing, palette and directional light are editorial; no unsupported physical power.",
+    "Correction addresses owner-supplied Claude rejection: Ular kecil, bukan Raja Naga."
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-01.json",
+      "native_sha256": "5fecc823d77aa4bd71d73c2766f8865a77b49dea63c764980ee7103ac46d45cb",
+      "reason": "Rendered as enormous sea serpent beside full-size surf and rock cliffs, contradicting documented small snake (ao-guang-c08). Needs macro-scale pebbles and sand."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-02.json",
+      "native_sha256": "f26e614cb8e10dd6eb4848c38ec4d2e1558c5feb7412a19ecc18744b96b72221",
+      "reason": "Ular kecil, bukan Raja Naga."
+    }
+  ],
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "correction_cycle": {
+    "source": "owner-supplied Claude rejection 2026-10-13",
+    "maximum_new_calls": 3,
+    "prior_selected_native_sha256": "f26e614cb8e10dd6eb4848c38ec4d2e1558c5feb7412a19ecc18744b96b72221",
+    "archived_prior_receipt": "data/artwork-generated/batch-1406/rejected/ao-guang-attempt-02-old-receipt.json"
+  }
+}

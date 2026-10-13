@@ -1,0 +1,78 @@
+{
+  "slug": "mokele-mbembe",
+  "worker": "codex",
+  "worker_agent": "chandra",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "batch": 1227,
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "aura": "Elephant/hippo bulk and unusual long-neck/small-head body (c03/c19) physically attack the canoe and raise heavy water spray (c04).",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variant": "B",
+  "selected": true,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-c090-7651-9013-c7033afd12ca/exec-31ca4db3-9148-4d1f-970e-615d3c5f5181.png",
+  "generated_at": "2026-10-08T15:50:16.909Z",
+  "original_file": "data/artwork-generated/batch-1227/variants/mokele-mbembe/variant-b.png",
+  "native_sha256": "d1f2b20b3fe741bd22be7e2713d814c909d2391212e08b0e6a8069d88e39d680",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MOKELE-MBEMBE, the water-dwelling Congo River Basin cryptid, portrayed as a threatening creature from the documented legends [mokele-mbembe-c02].\nANATOMY: ONE long-necked creature with an ELEPHANT-LIKE bulky body, FOUR stout legs, a very LONG NECK, ONE SMALL REPTILIAN HEAD with TWO eyes and ONE long TAIL; smooth wet GREY-BROWN SKIN [mokele-mbembe-c03,mokele-mbembe-c19]. Elephant/hippopotamus body size, not mountain-sized [c03,c17]. No trunk, tusks, horns, antlers, wings, scales, dorsal spines or extra necks. Herbivorous, no huge predator teeth [c06].\nMOMENT: the creature lunges sideways toward an EMPTY CANOE at a swampy Congo river bend; its long neck bends down toward the near camera, with one small intent-eyed head in the upper foreground, four-legged elephant-like torso half-emerging from dark water and one trailing long tail curling behind. Its body pushes the canoe and creates heavy physical spray, without crew or harm. Documented canoe aggression [mokele-mbembe-c04].\nPOWER: no supernatural ability; body contact raises a wall of muddy spray and rocks the canoe physically [c03,c04].\nSCALE & CAMERA: close oblique side view from the low bank; tiny head/long curved neck against bulky shoulder and visible forelegs, canoe at lower edge as elephant/hippo scale reference; composition clearly different from cave emergence. Smooth graybrown skin, no spikes, horns or giant dinosaur scale.\nSETTING: Congo River swamp at an eroded clay bend [mokele-mbembe-c05,mokele-mbembe-c18].\nLIGHT & WEATHER: one dominant fading gold shaft through riverbank foliage, deep walnut shadows, cold black water, natural river mist and spray, no luminous mist or magic. SURFACE: smooth wet graybrown hide with natural folds, mud, real water beads, soaked woody canoe, wet clay. MOOD: imposing confrontational wild cryptid, terrifying physical approach, not a cute dinosaur or ordinary hippo. HARD CONSTRAINTS: no people, victims, gore, text, writing, logo, frame, border, watermark, signature, borrowed movie/game/anime/comic designs; no extra heads, limbs or fingers; no supernatural aura, neon, runes, beam or new power.",
+  "basis_claim_ids": [
+    "mokele-mbembe-c02",
+    "mokele-mbembe-c03",
+    "mokele-mbembe-c04",
+    "mokele-mbembe-c05",
+    "mokele-mbembe-c06",
+    "mokele-mbembe-c17",
+    "mokele-mbembe-c18",
+    "mokele-mbembe-c19"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Elephant-like four-leg body, long neck, one small head, one tail and smooth grey-brown skin; elephant/hippo size.",
+      "claim_ids": [
+        "mokele-mbembe-c03",
+        "mokele-mbembe-c17",
+        "mokele-mbembe-c19"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical approach/attack on an empty canoe causes river spray, without victims or magic.",
+      "claim_ids": [
+        "mokele-mbembe-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Congo River swamp and eroded river-cut clay cave/bend.",
+      "claim_ids": [
+        "mokele-mbembe-c05",
+        "mokele-mbembe-c18"
+      ]
+    }
+  ],
+  "depicted_variant": "Grey-brown long-necked elephant-bodied river cryptid physically pressing an empty canoe at a Congo swamp bend.",
+  "artistic_choices": [
+    "No supernatural effects; threatening action is sourced canoe aggression. Empty canoe avoids depicting victims.",
+    "Choose B for direct near-canoe approach; A distinct clay-cave emergence preserved.",
+    "Four-legged conservative elephant-like anatomy; hind limbs partly underwater, one head/neck/tail, smooth graybrown wet hide. No unsupported horns or predator teeth.",
+    "Low camera, sunset shaft and dense wet foliage are editorial lighting/composition, not new body size claims."
+  ],
+  "selection_reason": "B chosen for stronger near canoe-contact event and long-neck/elephant-body silhouette; A cave emergence retained.",
+  "native_observation": "Native viewed: one small frontal reptilian head/two eyes, long curved neck, smooth greybrown elephant-like body, two visible forelegs and rear legs naturally submerged, single long tail. Creature presses empty foreground canoe and drives real heavy spray. Low close imposing confrontation, no unsupported teeth/horns/magic, no text/watermark/frame/gore. All seven Sangar checks yes.",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native viewed: one small frontal reptilian head/two eyes, long curved neck, smooth greybrown elephant-like body, two visible forelegs and rear legs naturally submerged, single long tail. Creature presses empty foreground canoe and drives real heavy spray. Low close imposing confrontation, no unsupported teeth/horns/magic, no text/watermark/frame/gore. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "d1f2b20b3fe741bd22be7e2713d814c909d2391212e08b0e6a8069d88e39d680",
+    "reviewed_at": "2026-10-08T15:50:16.909Z"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "tulevieja",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tulevieja, the Costa Rican and Panamanian winged ghost woman with a tule hat. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one aged witchlike woman head beneath broad tule hat, two eyes, two human arms ending in ordinary HUMAN hands, each exactly five human fingers including thumb, SHORT pale natural fingernails, absolutely NO talons or claws on hands; exactly two hawk legs with talons, exactly two bat wings; torso entirely covered by opaque worn blouse and heavy wrapped skirt with lower bird legs visible; a tied bundle of firewood on her back [tulevieja-c01, tulevieja-c03, tulevieja-c07, tulevieja-c08]\nMOMENT: DROP from a low flight toward the viewer, wings thrust outward and both hawk talons brought forward, old face intent beneath the clear broad hat\nPOWER: documented flight only; no glowing aura or invented spell [tulevieja-c09]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: a single slanting warm sunset shaft, deep walnut shadows, strong rim light\nSURFACE: coarse woven tule hat, aged skin, leathery bat wings, hawk scales and worn cloth\nSETTING: near the Virilla river and her dilapidated shack, glimpsed behind rather than dominating [tulevieja-c07]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.\nCORRECTION: hawk talons only on the two FEET. Hands are human five-digit hands with short fingernails, never long black hooked nails. Keep face, hat, bat wings, opaque clothing, firewood and descending river flight.",
+  "depicted_variant": "MINED Costa Rican bat-winged, hawk-legged old woman account, modestly clothed editorially.",
+  "basis_claim_ids": [
+    "tulevieja-c01",
+    "tulevieja-c07",
+    "tulevieja-c03",
+    "tulevieja-c08",
+    "tulevieja-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ghost woman wearing tule hat",
+      "claim_ids": [
+        "tulevieja-c01",
+        "tulevieja-c07"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Hawk legs, witch face, bat wings and firewood",
+      "claim_ids": [
+        "tulevieja-c03",
+        "tulevieja-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Taking flight and descending",
+      "claim_ids": [
+        "tulevieja-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Virilla river near dilapidated shack",
+      "claim_ids": [
+        "tulevieja-c07"
+      ]
+    }
+  ],
+  "aura": "Threat comes from the bird talons and sudden descending flight (tulevieja-c03, tulevieja-c08, tulevieja-c09).",
+  "artistic_choices": [
+    "Opaque blouse and skirt deliberately replace the source bare-breast detail to satisfy no nudity. No victim or gore. Hat woven texture, worn clothing colours and evening lighting are editorial. No reversed track marks needed in airborne view."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/tulevieja-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/tulevieja-attempt-01.json",
+      "native_sha256": "b460c7a6c67509cffc2bc8e84553b72fd8382361c94a8e86682b908590440ace",
+      "reason": "Hands have prominent unsupported black talon-like claws rather than ordinary human hands; hand digit clarity also insufficient. Hawk talons belong on feet only."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-cdd83e3e-0368-434b-bb44-afd26aa20a6c.png",
+  "generated_at": "2026-10-12T02:43:33.228444+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/tulevieja.png",
+  "native_sha256": "2c52423d9419d2e40f1b01236705e1a18df10442c7e9fe057d696e7062b1a707",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and actual 200px viewed; seven checks pass after retry. Two ordinary five-digit human hands with short nails; hawk claws only on two bird feet. One aged woman head, broad tule hat, two bat wings, visible firewood bundle, opaque blouse/skirt. Descending flight over river and shack remains threatening at 200px. No text, invented aura, nudity or gore. Attempt1 archived for incorrect clawed hands.",
+    "limitations": [],
+    "native_sha256": "2c52423d9419d2e40f1b01236705e1a18df10442c7e9fe057d696e7062b1a707",
+    "reviewed_at": "2026-10-12T02:43:33.228887+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "2c52423d9419d2e40f1b01236705e1a18df10442c7e9fe057d696e7062b1a707",
+    "notes": "Hag in a tule hat with bat wings, hawk legs and a bundle of firewood swooping off the Virilla river bank by a ruined shack, claws reaching."
+  }
+}

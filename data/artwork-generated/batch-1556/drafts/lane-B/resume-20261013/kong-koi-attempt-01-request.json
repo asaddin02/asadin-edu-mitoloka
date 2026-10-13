@@ -1,0 +1,53 @@
+{
+  "slug": "kong-koi",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-014.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Phi Kong Koi, the one-legged monkey-like tube-mouthed jungle ghost. Native square PNG at least1024x1024.\nANATOMY: ONE ugly MONKEY/LANGUR-like ghost, one head/TWO eyes/TWO arms, EXACTLY ONE leg and ONE foot centered below body. Fly-like tubular mouth/proboscis instead of ordinary monkey lips. Coarse natural dark fur, no wings, no second leg. [kong-koi-c01, kong-koi-c17]\nMOMENT: HOP directly toward viewer at jungle floor, single foot tucked under body and arms reaching in balance, tubular mouth extended toward camera as if shouting.\nPOWER: Toe-blood sucking lore represented by tube mouth only, no victim, blood or bites. [kong-koi-c02, kong-koi-c17]\nSCALE & CAMERA: Extreme low close jungle-floor camera; single foot/body visible with empty space where a second leg would be; head/extended tube mouth fill upper frame.\nLIGHT & WEATHER: One cold moonshaft through jungle, deep walnut darkness, ordinary mist.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Dark Thai/Lao jungle at night with forest floor ferns. [kong-koi-c01, kong-koi-c17]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the one-legged monkey-like tube-mouthed jungle ghost",
+  "basis_claim_ids": [
+    "kong-koi-c01",
+    "kong-koi-c17",
+    "kong-koi-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE ugly MONKEY/LANGUR-like ghost, one head/TWO eyes/TWO arms, EXACTLY ONE leg and ONE foot centered below body. Fly-like tubular mouth/proboscis instead of ordinary monkey lips. Coarse natural dark fur, no wings, no second leg.",
+      "claim_ids": [
+        "kong-koi-c01",
+        "kong-koi-c17"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Toe-blood sucking lore represented by tube mouth only, no victim, blood or bites.",
+      "claim_ids": [
+        "kong-koi-c02",
+        "kong-koi-c17"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark Thai/Lao jungle at night with forest floor ferns.",
+      "claim_ids": [
+        "kong-koi-c01",
+        "kong-koi-c17"
+      ]
+    }
+  ],
+  "aura": "HOP directly toward viewer at jungle floor, single foot tucked under body and arms reaching in balance, tubular mouth extended toward camera as if shouting. Grounded in kong-koi-c01, kong-koi-c17, kong-koi-c02.",
+  "artistic_choices": [
+    "One-legged/tubemouth/monkey variant from c01/c17, not ethnic human c05/c10, reversed-foot tinywoman c04 or shrew c11. Natural dark fur editorial, no giant size.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

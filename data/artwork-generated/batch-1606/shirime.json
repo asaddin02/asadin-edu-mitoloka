@@ -1,0 +1,87 @@
+{
+  "slug": "shirime",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-050.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Shirime, the faceless kimono-clad prankster yokai revealing its single supernatural rear eye. Native square PNG at least1024x1024.\nANATOMY: ONE adult human-shaped YOKAI with ONE completely SMOOTH FACE lacking eyes/nose/mouth, TWO arms/TWO legs, fully OPAQUE thick plain kimono/trousers completely cover all body skin except hands and blankface. ONE LARGE EYE at rear anatomical location shines through a SMALL round cloth aperture entirely filled by the EYE; no exposed buttocks/anus/genitals, NO nudity. [shirime-c01, shirime-c02, shirime-c07, shirime-c08, shirime-c09]\nMOMENT: BEND forward with back toward viewer, turn smooth featureless head over shoulder so blankface visible; kimono hems swing while supernatural rearEYE opens directly toward viewer through cloth.\nPOWER: The reareye shines like lightning: WHITE radiance originates ONLY from eyeball and illuminates nearby wetroad/cloth, no energybeam/runes/generic aura. Harmless startling prank not violence. [shirime-c03, shirime-c05, shirime-c06, shirime-c08, shirime-c10, shirime-c11]\nSCALE & CAMERA: Extreme low threequarter rear close view; giant reareye and blankturnedface both clearlyvisible, allbody covered. Figure fills square without invented giantbody.\nLIGHT & WEATHER: Reareye lightninglike white light is dominant source c08, deep walnut road shadow.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Road late at night in Japan with dark plain trees and wetstones. [shirime-c09]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the faceless kimono-clad prankster yokai revealing its single supernatural rear eye",
+  "basis_claim_ids": [
+    "shirime-c01",
+    "shirime-c02",
+    "shirime-c07",
+    "shirime-c08",
+    "shirime-c09",
+    "shirime-c03",
+    "shirime-c05",
+    "shirime-c06",
+    "shirime-c10",
+    "shirime-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE adult human-shaped YOKAI with ONE completely SMOOTH FACE lacking eyes/nose/mouth, TWO arms/TWO legs, fully OPAQUE thick plain kimono/trousers completely cover all body skin except hands and blankface. ONE LARGE EYE at rear anatomical location shines through a SMALL round cloth aperture entirely filled by the EYE; no exposed buttocks/anus/genitals, NO nudity.",
+      "claim_ids": [
+        "shirime-c01",
+        "shirime-c02",
+        "shirime-c07",
+        "shirime-c08",
+        "shirime-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The reareye shines like lightning: WHITE radiance originates ONLY from eyeball and illuminates nearby wetroad/cloth, no energybeam/runes/generic aura. Harmless startling prank not violence.",
+      "claim_ids": [
+        "shirime-c03",
+        "shirime-c05",
+        "shirime-c06",
+        "shirime-c08",
+        "shirime-c10",
+        "shirime-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Road late at night in Japan with dark plain trees and wetstones.",
+      "claim_ids": [
+        "shirime-c09"
+      ]
+    }
+  ],
+  "aura": "BEND forward with back toward viewer, turn smooth featureless head over shoulder so blankface visible; kimono hems swing while supernatural rearEYE opens directly toward viewer through cloth. Grounded in shirime-c01, shirime-c02, shirime-c07, shirime-c08, shirime-c09, shirime-c03, shirime-c05, shirime-c06, shirime-c10, shirime-c11.",
+  "artistic_choices": [
+    "Source dropskimono c10 adapted to opaquecloth with aperture fullyoccupied by eyeball to avoid nudity while retaining anatomical eye position. Entire skin around eye covered. No attack, victim, gore, vulgar anatomy or comicmask.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13139-c732-73c3-b66e-13e76165cd50/exec-edb9e577-8749-4275-ac27-1f2cc52c84d1.png",
+  "generated_at": "2026-10-12T22:28:37.761243+00:00",
+  "original_file": "data/artwork-generated/batch-1606/originals/shirime.png",
+  "native_sha256": "5522bba0f8d8c2e6638017b53398b61c6a3aa1668ec406c2505f5dffda35b861",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected: ONE blankfeatureless face c02/c08 and ONE giantshiningeye at rear coveredseat, fullyOPAQUEkimono/trousers/legwraps cover allsurroundingbody with aperture entirelyfilledbyeye; no exposedbuttocks/anus/genitals/nudity.1head2arms2legs, bentrearview with turnedblankface sourcec09/c10. Eyewhiteradiance alone c08 lights wetroad; uncannyharmless prank c05/c11, no attack/gore/text/aura. All7Sangar pass.",
+    "limitations": [],
+    "native_sha256": "5522bba0f8d8c2e6638017b53398b61c6a3aa1668ec406c2505f5dffda35b861",
+    "reviewed_at": "2026-10-12T22:37:06.737869+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "5522bba0f8d8c2e6638017b53398b61c6a3aa1668ec406c2505f5dffda35b861",
+    "notes": "Faceless kimono-clad yokai bending over on the wet night road to reveal a single huge shining eye; the light comes only from the eye."
+  }
+}

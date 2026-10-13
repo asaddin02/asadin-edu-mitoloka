@@ -1,0 +1,89 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "mapinguari",
+  "depicted_variant": "Varian berukuran manusia besar, satu mata di dahi dan mulut raksasa di perut, bulu merah kusut dan kaki terbalik.",
+  "basis_claim_ids": [
+    "mapinguari-c02",
+    "mapinguari-c10",
+    "mapinguari-c20"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu mata di dahi, mulut besar di tengah perut, bulu kemerahan panjang, dua tangan berkuku kait, dua kaki yang menghadap belakang.",
+      "claim_ids": [
+        "mapinguari-c02",
+        "mapinguari-c20"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Menerkam dari cahaya redup hutan, tanpa efek bau berwarna atau aura.",
+      "claim_ids": [
+        "mapinguari-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hutan dalam dengan cahaya redup.",
+      "claim_ids": [
+        "mapinguari-c10"
+      ]
+    }
+  ],
+  "aura": "Satu mata, mulut perut dan kaki terbalik c20 serta terkam c10 menyampaikan bahaya tanpa efek generik (klaim: mapinguari-c10).",
+  "artistic_choices": [
+    "Dipilih satu mata dahi c20, bukan mata perut c04; tanpa mulut kedua di wajah.",
+    "Ukuran manusia besar dari c20, kamera rapat rendah; bukan raksasa tanpa pembanding.",
+    "Bulu penuh menutup tubuh; tidak menampilkan korban, bau sebagai kabut, atau tembakan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MAPINGUARI, the Brazilian forest being in its single forehead eye and belly mouth variant.\nANATOMY: one head with EXACTLY ONE large eye centred in the forehead, NO second eye and NO face mouth; huge open tooth-lined mouth in the middle of the BELLY; body covered in long shaggy REDDISH fur; TWO arms with hook-shaped nails, TWO legs, BOTH feet anatomically reversed: the HEELS face FORWARD toward the viewer and the TOES with nails extend BEHIND the calves AWAY from viewer, soles point down; large human body size. [mapinguari-c02, mapinguari-c20]\nMOMENT: lunging from the deep forest toward us, single eye fixed on viewer, belly mouth wide open, arms spread and curled hook nails reaching, both backward feet readable in a side three-quarter stance: the feet point back behind its body, toes and nails visibly extend toward the rear, two blunt HEELS face the foreground. Neither foot may point toes toward the camera.\nPOWER: physical ambush and terrible scream; no visible magic and no stench cloud. Leaves scatter from the movement. [mapinguari-c10]\nSCALE & CAMERA: ground-level extreme low angle, frame includes both reversed feet, clearly showing heel pads in the foreground and toes pointing backward, and dominates from feet to head; tight foreshortened full-body portrait, no giant scale exaggeration.\nLIGHT & WEATHER: one late sun shaft from a break in the canopy, deep warm black shadows, plain damp haze.\nSURFACE: thick matted rust-red fur, dark rough skin around the single eye and belly jaws, muddy feet, mossy roots.\nSETTING: dim deep forest. [mapinguari-c10]\nMOOD: dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: square at least 1024px; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-ad4ce023-fb81-4435-b774-5bf3fa5ce151.png",
+  "generated_at": "2026-10-09T01:06:47.660Z",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/mapinguari-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/mapinguari-attempt-01.json",
+      "native_sha256": "6ee70e1b7b15b5e1ab552f52868357587de4633ea5d37604d58d0511105e0411",
+      "reason": "Kaki terbalik c20 tidak terbaca jelas: kaki kiri layar menyerupai jari menghadap penonton, kaki kanan menyamping. Uji anatomi gagal meski mata tunggal/mulut perut dan ancaman bagus."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1277/originals/mapinguari.png",
+  "native_sha256": "6a36f1fe5ca96c389bdc23e444035d90ffa4d3ed33a7fb67f360017bb9e8a5d7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli percobaan kedua dilihat: tepat satu mata dahi dan satu mulut perut, dua lengan berkuku kait dan dua kaki terbalik. Tumit menghadap depan/penonton, jari berkuku memanjang ke sisi-belakang kedua kaki; tidak ada mulut wajah. Bulu merah, terkam, latar hutan c20/c10 jelas. Semua tujuh Uji Sangar ya; ancaman pada thumbnail kuat. Percobaan1 diarsip karena orientasi kaki samar. Tanpa efek supernatural/teks/gore. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "6a36f1fe5ca96c389bdc23e444035d90ffa4d3ed33a7fb67f360017bb9e8a5d7",
+    "reviewed_at": "2026-10-09T01:06:47.799Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/mapinguari-lane-A-attempt-02.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "6a36f1fe5ca96c389bdc23e444035d90ffa4d3ed33a7fb67f360017bb9e8a5d7",
+    "notes": "Shaggy red one-eyed giant with a huge fanged mouth in its belly and hooked claws lunging through dim forest; feet are not clearly reversed, otherwise every documented part is readable."
+  }
+}

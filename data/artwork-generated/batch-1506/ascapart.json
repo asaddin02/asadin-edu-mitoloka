@@ -1,0 +1,82 @@
+{
+  "slug": "ascapart",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ascapart, the thirty-foot English giant beforehisduel withBevis. Native square PNG at least1024x1024pixels.\nANATOMY: one intacthuman-shapedGIANT,onehead/twoeyes,twoarms/twolegs; opaqueheavyplainmedievaltunic/trousers; one massive uprootedTREEusedasCLUB graspedinrighthand,nohorns or armour invented [ascapart-c01, ascapart-c02, ascapart-c06]\nMOMENT: SWING treeclub down towardcloseviewer, bodytwistingandonefoot steppingforward, fiercechallengebeforedefeat,notkidnappingscene\nPOWER: no supernaturalpower; documentedtreeclub andterrifyingvillages physicallyconveydanger, ordinarydustfromstride only [ascapart-c02, ascapart-c07]\nSCALE & CAMERA: extreme low camera, close foreshortened framing; no undocumented giant size\nLIGHT & WEATHER: one low amber sunset shaft, deep walnut shadows, sharp rimlight\nSURFACE: roughhumanskin,coarseopaquecloth,rawtreebarkandroots\nSETTING: Southampton countryside/NewForest folklore, smallsubordinateplaincottageroofs show30footscale [ascapart-c05, ascapart-c07]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Intact30-foot giant withtreeclub beforedefeat, not loyal squire orkidnappingepisode.",
+  "basis_claim_ids": [
+    "ascapart-c01",
+    "ascapart-c02",
+    "ascapart-c06",
+    "ascapart-c07",
+    "ascapart-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant30feettall",
+      "claim_ids": [
+        "ascapart-c01",
+        "ascapart-c02",
+        "ascapart-c06"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Treeclub",
+      "claim_ids": [
+        "ascapart-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Terrifieslocalvillages",
+      "claim_ids": [
+        "ascapart-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Southampton/NewForest countryside",
+      "claim_ids": [
+        "ascapart-c05",
+        "ascapart-c07"
+      ]
+    }
+  ],
+  "aura": "Threat comes from30-footgiant andtreeclub terrorizingvillages (ascapart-c02, ascapart-c06, ascapart-c07).",
+  "artistic_choices": [
+    "Plainopaqueclothes,hair anduninscribedcottages editorial. Exactly30footscale approximatebyordinaryroofs, no demonparts or magic. Clubtree sourced, impactnovictimorgore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-b1a9dfec-a67e-4bc6-9804-23fb902c33d9.png",
+  "generated_at": "2026-10-12T14:07:23.440869+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/ascapart.png",
+  "native_sha256": "aa4c54dcc340d07763821e4194f143a773e09c3b533de76cbe78e54b716d5cc1",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200px dilihat sendiri: raksasa melangkah mengangkat batang pohon berakar sebagai gada; rumah kecil menguatkan skala30kaki c02/c06. Satu kepala dua tangan dua kaki, pakaian buram, tanpa kuasa buatan atau teks. UjiSangar7 ya, ancaman dari gada dan langkah c07.",
+    "limitations": [],
+    "native_sha256": "aa4c54dcc340d07763821e4194f143a773e09c3b533de76cbe78e54b716d5cc1",
+    "reviewed_at": "2026-10-12T14:08:36.369239+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "aa4c54dcc340d07763821e4194f143a773e09c3b533de76cbe78e54b716d5cc1",
+    "notes": "Thirty-foot giant swinging an uprooted tree as a club over the New Forest village, cottages tiny at his feet, earth flying."
+  }
+}

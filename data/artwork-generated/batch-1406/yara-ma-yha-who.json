@@ -1,0 +1,91 @@
+{
+  "slug": "yara-ma-yha-who",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Yara-ma-yha-who, the red, toothless tree-dwelling monster recounted in Southeastern Australian Aboriginal lore. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one red humanoid figure about four feet tall, snake-like oversized head, huge toothless mouth, large protruding belly, two arms and two short legs; all five fingers on each hand and all five toes on each foot end in cup-shaped suckers; two eyes, no teeth, horns or wings; fully opaque plain dark waist wrap [yara-ma-yha-who-c04, yara-ma-yha-who-c05]\nMOMENT: DROP from a low wild-fig branch toward the close viewer in an ambush, hands thrust forward so every sucker fingertip is readable, mouth opening snake-wide\nPOWER: no invented magic or blood effects; documented dropping ambush and sucker anatomy only [yara-ma-yha-who-c06, yara-ma-yha-who-c15]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: single angled daytime sun shaft through dense canopy, deep warm leafy shadows\nSURFACE: matte red skin, cup-shaped sucker fingertips, rough fig bark and leaves\nSETTING: dense leafy wild fig tree during DAYLIGHT, canopy shaded with a single sun shaft, never night [yara-ma-yha-who-c02, yara-ma-yha-who-c06, yara-ma-yha-who-c12]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.\nCORRECTION: Each foot must visibly have exactly FIVE sucker-tipped toes, including a distinct inner big toe; each hand remains exactly FIVE sucker-tipped fingers. Count five circular toe cups per foot, no hidden/fused toes. Keep red snake-like head, huge toothless mouth and belly. Darken canopy dramatically with one narrow DAYTIME sunlight shaft; no night, no bright flat sunny forest, more shadow and threatening descending ambush.",
+  "depicted_variant": "Four-foot red toothless snake-headed humanoid with hand and foot suckers, daytime fig-tree ambush.",
+  "basis_claim_ids": [
+    "yara-ma-yha-who-c04",
+    "yara-ma-yha-who-c05",
+    "yara-ma-yha-who-c06",
+    "yara-ma-yha-who-c15",
+    "yara-ma-yha-who-c02",
+    "yara-ma-yha-who-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small red figure with huge snake-like head, belly and toothless mouth",
+      "claim_ids": [
+        "yara-ma-yha-who-c04",
+        "yara-ma-yha-who-c05"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Cup suckers at fingers and toes",
+      "claim_ids": [
+        "yara-ma-yha-who-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dropping tree ambush; no gore",
+      "claim_ids": [
+        "yara-ma-yha-who-c06",
+        "yara-ma-yha-who-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wild fig tree, daytime activity",
+      "claim_ids": [
+        "yara-ma-yha-who-c02",
+        "yara-ma-yha-who-c06",
+        "yara-ma-yha-who-c12"
+      ]
+    }
+  ],
+  "aura": "Threat comes from oversized toothless swallowing mouth and octopus-like fingertip/toe suckers in descending ambush (yara-ma-yha-who-c04, yara-ma-yha-who-c05, yara-ma-yha-who-c15).",
+  "artistic_choices": [
+    "Opaque waist wrap is editorial to avoid nudity. Dominance through close framing, not giant scale. Strongly shaded daytime canopy permits low-key lighting without contradicting daytime-only account. No Aboriginal motifs or designs borrowed."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/yara-ma-yha-who-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/yara-ma-yha-who-attempt-01.json",
+      "native_sha256": "0b0be7c4b4f534b4745cd7c37e379c0460426a17ec847a62cdb729efcd8954db",
+      "reason": "Both visible feet show only four toes rather than requested humanlike five; bright foliage also reduces low-key threat."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-4fb0928f-38ee-45bd-b05f-f2aba824a049.png",
+  "generated_at": "2026-10-12T03:10:57.742762+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/yara-ma-yha-who.png",
+  "native_sha256": "ba4e615b9959b92601ecf07772fffc1008174fcf3b08fd4d23ee35cd74abfb30",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and actual200px viewed; seven checks pass after retry. One red snake-like head, exactly two eyes, huge mouth without teeth, prominent belly, two arms/two legs. Each hand now has five cup-tipped fingers; each foot visibly five toe cups. Descending wild-fig ambush in shaded DAYLIGHT, opaque waist wrap. At200px swallowing mouth and reaching suction cups remain threatening. No night, glyphs, text, gore or invented magic.",
+    "limitations": [],
+    "native_sha256": "ba4e615b9959b92601ecf07772fffc1008174fcf3b08fd4d23ee35cd74abfb30",
+    "reviewed_at": "2026-10-12T03:10:57.742967+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ba4e615b9959b92601ecf07772fffc1008174fcf3b08fd4d23ee35cd74abfb30",
+    "notes": "Small red figure with a huge toothless mouth and sucker-tipped fingers and toes dropping from a fig tree at the viewer."
+  }
+}

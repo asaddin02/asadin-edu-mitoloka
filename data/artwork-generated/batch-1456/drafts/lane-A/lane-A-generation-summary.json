@@ -1,0 +1,58 @@
+{
+  "batch": 1456,
+  "worker_agent": "lane-A",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "created_at": "2026-10-12T09:05:21.669929+00:00",
+  "successful_new_calls_this_turn": 13,
+  "new_calls_by_creature": {
+    "druk": 1,
+    "dyrnwch": 1,
+    "erawan": 2,
+    "ethiopian-pegasus": 1,
+    "gangi-kozo": 2,
+    "gyges": 3,
+    "headless-nun": 1,
+    "hiderigami": 1,
+    "hong-rainbow-dragon": 1
+  },
+  "old_outputs_recovered_this_turn": [
+    "dragon-turtle"
+  ],
+  "old_outputs_recovered_count": 1,
+  "tool_failures_this_turn": [],
+  "basis_declines_this_lane": [
+    "e",
+    "glad",
+    "holawaka"
+  ],
+  "new_outputs_written_as_final_this_lane": [
+    "druk",
+    "dyrnwch",
+    "erawan",
+    "ethiopian-pegasus",
+    "gangi-kozo",
+    "headless-nun"
+  ],
+  "recovered_output_written_as_final_this_lane": [
+    "dragon-turtle"
+  ],
+  "own_successful_output_finalized_by_takeover": [
+    "hong-rainbow-dragon"
+  ],
+  "own_failed_outputs": [
+    "erawan-attempt-01",
+    "gangi-kozo-attempt-01",
+    "gyges-attempt-01",
+    "gyges-attempt-02",
+    "gyges-inflight-overlap",
+    "hiderigami-attempt-01"
+  ],
+  "takeover_calls_excluded": [
+    "gyges-native-attempt-03",
+    "hiderigami-followup-edits"
+  ],
+  "concurrency_exception": "Own Gyges call3 already running while lane-C takeover generated separate thirdcall; own call completed after and was retained asraw/nativeattempt04 plus rejected/gyges-inflight-overlap. TotalGyges4successfuloutputs acrosslanes, only3callsthis lane. Noneaccepted; root records exception.",
+  "protected_paths_modified": false,
+  "ledger_or_journal_modified": false
+}

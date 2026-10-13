@@ -1,0 +1,76 @@
+{
+  "slug": "yumboes",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Yumboes, one benevolent two-foot-high pearly-white ancestral spirit fromtheWolof account. Native square PNG at least1024x1024pixels.\nANATOMY: one smalladult humanlikespirit, onehead/twoeyes,twoarms/twolegs, pearlyWHITEskin andSILVERhair; fullyopaque simpleplainrobe toankles; naturalhands5digits. ExactlyaboutTWOfeet tall, nothumansizegiant [yumboes-c02, yumboes-c03, yumboes-c09, yumboes-c11]\nMOMENT: DANCE a solemn lament step on familygrave, onefoot raisedandhands lifted withfaceinclined downwardtowardviewer; compassionate ancestralpresence, no evilattack\nPOWER: documented lamenting/dancingongraves only, no necromanticglow,fire,giantscale or floatingrunes [yumboes-c12]\nSCALE & CAMERA: extreme lowmacrograveground camera; tiny2footspirit dominatescloseframe,ordinaryroot/graveearth show documented smallscale\nLIGHT & WEATHER: one lowcoldmoonbeam, deepwalnutshadows andsilverrimlight; ordinarywind\nSURFACE: pearlypaleskin,silveryhair,coarseplainclothanddampgraveearth\nSETTING: a plain uninscribed familygrave inJaloffmainland facingGoree tradition, graveearth/subordinateroots clarify smallscale [yumboes-c08, yumboes-c12]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.\nCORRECTION: One mature ADULT ancestral spirit with weathered middle-aged face, long silver hair, pearl-white skin, dignified intense mourning gaze, no baby cheeks or child proportions. Add one plain uninscribed standard adult grave marker about three feet high behind it as scaleproof: two-foot spirit clearly smaller than marker. Macro camera close on face/torso and one lifted foot in solemn dance, spectral pale skin contrasts dark grave. No giant body, evil aggression, magic glow or cute fairy smile.\nCORRECTION: Completely different frontal composition. Mature MALE ancestral spirit with intensely weathered adult face and long silver hair, entirely pearl-white skin. Short two-foot body caught in forceful solemn funeral dance, looking directly down toward viewer with grief and authority, mouth open in lament, NO smile. Standard adult grave marker THREEfeet tall on SAMEgroundplane directly behind spirit must visibly rise ABOVE its head; long adult grave plot surrounds tiny feet, one large ordinary tree root comparable to his torso width. No enlargement. Macro low camera puts face close and dance foot forward so tiny spirit commands frame. No horror redesign, aggression, magic glow or ordinary peaceful portrait.\nCORRECTION: No furtherattempt: maximumthree reached.",
+  "depicted_variant": "Single benevolent pearlywhite/silverhaired miniature ancestralspirit, no disembodiedservanthandvariant.",
+  "basis_claim_ids": [
+    "yumboes-c02",
+    "yumboes-c03",
+    "yumboes-c09",
+    "yumboes-c11",
+    "yumboes-c12",
+    "yumboes-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Pearlywhite spirit/silverhair,twofeetheight,localstyleclothing",
+      "claim_ids": [
+        "yumboes-c02",
+        "yumboes-c03",
+        "yumboes-c09",
+        "yumboes-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Lamenting/dancingonfamilygraves",
+      "claim_ids": [
+        "yumboes-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Jaloff mainland/Goreeaccount familygrave",
+      "claim_ids": [
+        "yumboes-c08",
+        "yumboes-c12"
+      ]
+    }
+  ],
+  "aura": "Awe comes fromtiny pearl-white ancestralspirit dancinglamentonfamilygrave (yumboes-c02, yumboes-c09, yumboes-c12).",
+  "artistic_choices": [
+    "Plainopaquecloth is editorial modestclothes without claimingexactWolofcostume. Moonreflection onpearlyskin notselfemittedlight. Macroframing notenlargedbody; respectful ancestralbelief, no stereotypes or occultmotifs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/yumboes-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/yumboes-attempt-01.json",
+      "native_sha256": "6df5ad08dbcfc6645ca73f284cba5c572a90928b4f0eb18837be4a92d110b55d",
+      "reason": "Reads as an ordinary pale child dancing in earth; insufficient ancestral awe at200px, adulthood and smallscale unclear."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/yumboes-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/yumboes-attempt-02.json",
+      "native_sha256": "a402dc14fbada47dba4d910c0618e6eee3c37c81f69d38022d03249fafc45234",
+      "reason": "Still ordinary pale adult dancer; two-foot scale unclear and insufficient ancestral awe at200px."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1506/rejected/yumboes-attempt-03.png",
+      "receipt_file": "data/artwork-generated/batch-1506/rejected/yumboes-attempt-03.json",
+      "native_sha256": "7e17251fb2fc3fb074cea2c817722f655218c909f1b1a1dfe299f3f8de898ade",
+      "reason": "Third result still reads as ordinary pale elderly dancer at200px; gravemarker does not establish cleartwofoot scale or overwhelming ancestral awe. Fails Sangar2/7."
+    }
+  ],
+  "reason": "Tiga percobaan native1254/thumbnail200 gagal Uji Sangar:01 mirip anak biasa;02/03 orang dewasa pucat menari dengan skala dua kaki belum jelas dan tidak menggetarkan. Tidak ada kuasa aktif selain lament/dance di grave c12; tidak mengarang aggressive ghost, giant, glow/aura untuk makhluk GoodPeople. Ketiga PNG/receipt/hash/alasan di rejected; maksimal3 tercapai."
+}

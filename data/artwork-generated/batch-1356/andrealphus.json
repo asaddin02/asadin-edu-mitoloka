@@ -1,0 +1,76 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "andrealphus",
+  "depicted_variant": "Andrealphus pada kemunculan awal sebagai merak yang membuat suara keras, menurut Goetia.",
+  "basis_claim_ids": [
+    "andrealphus-c09",
+    "andrealphus-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Wujud merak pada kemunculan awal, anatomi burung tanpa atribut humanoid.",
+      "claim_ids": [
+        "andrealphus-c09",
+        "andrealphus-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mulut terbuka mengeluarkan suara keras saat muncul; tanpa lingkaran suara atau glyph geometri.",
+      "claim_ids": [
+        "andrealphus-c09",
+        "andrealphus-c12"
+      ]
+    }
+  ],
+  "aura": "Ancaman marquis iblis datang dari merak yang muncul dengan suara keras dan konfrontasi jarak dekat (andrealphus-c09, andrealphus-c12).",
+  "artistic_choices": [
+    "Kemunculan merak dipilih, bukan tubuh cowherd/monkey/bear modern c08 atau pengorbanan c06.",
+    "Dua kaki, dua sayap, satu kepala, dua mata dan kipas ekor anatomi merak normal; eyespots alami adalah pola bulu bukan mata tambahan.",
+    "Batu gelap tanpa lokasi spesifik adalah latar editorial karena setting sumber tidak tercatat.",
+    "Kamera dekat, sayap maju dan paruh menjerit memberi ancaman tanpa memperbesar ukuran atau mengarang gelombang sonic; tidak menggambar pengajaran/legion/transformasi."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ANDREALPHUS, the mighty marquis spirit first appearing as a PEACOCK with great harsh noises in the Goetia.\nANATOMY: exactly ONE PEACOCK with ONE bird head, TWO natural eyes, TWO wings, TWO bird legs and ONE spectacular natural peacock tail fan; realistic crest and beak, NO human body or demon horns. Natural feather eyespots only, never actual eyeballs. [andrealphus-c09,c12]\nMOMENT: suddenly surging forward toward the viewer with both wings thrust wide, throat stretched and sharp beak OPEN in a harsh SCREAM, glaring directly at us; one clawed bird foot plants firmly toward foreground. Proud aggressive confrontation, not a quiet perched zoo bird.\nPOWER: great harsh noises accompany this appearance; show the active open screaming beak and tense throat, no visible sonic rings, no floating geometric symbols, no invented elemental powers. [andrealphus-c09,c12]\nSCALE & CAMERA: extremely low camera very close under beak and front claw; head, threatening wings and dark huge-in-frame tail dominate square through perspective, actual bird size unchanged.\nLIGHT & WEATHER: one warm low rim light against near-black walnut shadow, a few ordinary dust particles stirred by the foot.\nSURFACE: detailed rough layered feathers, deep antique blue-green iridescence, sharp horn-colored beak and talons.\nSETTING: neutral dark stone foreground dissolving into black, editorial nonhistorical setting with no inscriptions.\nMOOD: intimidating supernatural marquis in its sourced bird form, imposing, never ornamental mascot, pet or placid bird portrait.\n\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-e76fc8de-2138-4c53-82a5-d32226ab3368.png",
+  "generated_at": "2026-10-10T03:48:45.394Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/andrealphus.png",
+  "native_sha256": "d67bcefa5be00a7308ea7a373b1a6c3f2d066d312cad25ca030feebf80c3131f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa: merak berparuh terbuka menjerit, dua sayap maju, dua kaki dan pola eyespot bulu normal. Konfrontasi close-up dan langkah aktif jelas, tanpa sonic rings/glyph/cowherd modern. Ancaman dari kemunculan bersuara keras andrealphus-c09/c12, tidak tampak burung pasif.",
+    "limitations": [],
+    "native_sha256": "d67bcefa5be00a7308ea7a373b1a6c3f2d066d312cad25ca030feebf80c3131f",
+    "reviewed_at": "2026-10-10T03:48:45.477Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/andrealphus-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "d67bcefa5be00a7308ea7a373b1a6c3f2d066d312cad25ca030feebf80c3131f",
+    "notes": "Peacock with fanned tail and spread wings screeching at the viewer from the ground; bird anatomy only."
+  }
+}

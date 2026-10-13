@@ -1,0 +1,83 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1277,
+  "slug": "longma",
+  "depicted_variant": "Kuda bersayap di sisi tubuh bersisik naga, berjalan di permukaan sungai tanpa tenggelam.",
+  "basis_claim_ids": [
+    "longma-c01",
+    "longma-c07",
+    "longma-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tubuh dan kepala kuda, sisik naga, dua sayap di sisi, empat kaki kuda; satu kepala dan dua mata.",
+      "claim_ids": [
+        "longma-c01",
+        "longma-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Berjalan di air tanpa tenggelam; kuku menyentuh permukaan dengan percikan nyata.",
+      "claim_ids": [
+        "longma-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Permukaan air sebagai latar tindakan berjalan di air.",
+      "claim_ids": [
+        "longma-c07"
+      ]
+    }
+  ],
+  "aura": "Sayap/sisik dan langkah di atas air c07 memberi keagungan sebagai pertanda baik c02 (klaim: longma-c07).",
+  "artistic_choices": [
+    "Dipilih varian komentar umum c07; tanpa mencampur warna biru/merah varian741 c10 atau peta c08.",
+    "Sayap berbulu dan warna tembaga-sisik emas merupakan detail editorial karena bahan/warna sayap tak ditentukan.",
+    "Ukuran kuda besar biasa sekitar8chi5cun dari c07, framing rapat tanpa skala raksasa.",
+    "Cahaya matahari akhir dan percikan dari kuku editorial; tidak memakai aura kuasa."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of LONGMA, the winged dragon-scaled horse that walks on water without sinking.\nANATOMY: ONE unmistakable HORSE head with TWO eyes and TWO ears, horse neck and muscular HORSE body covered in clearly visible overlapping DRAGON SCALES; exactly FOUR equine legs with hooves, ONE horse tail; exactly TWO large feathered wings attached at its SIDES. No dragon head, no horns. [longma-c01, longma-c07]\nMOMENT: advancing forcefully toward the viewer across the very surface of the river, wings spread upward and outward, one hoof pressing on the WATER SURFACE without sinking, other legs striding; proud focused gaze.\nPOWER: walking upon water without sinking, sharp rings of surface water and small splashes under the contacting hooves, no floating platform, no energy aura. [longma-c07]\nSCALE & CAMERA: extremely low water-level angle, head, dragon scales, wings and advancing hooves fill the square, ordinary tall horse scale.\nLIGHT & WEATHER: one late sun lights edges of bronze-gold scales and brown feathers, deep walnut shadow, ordinary river mist.\nSURFACE: hard layered dragon scales visibly replace body coat, horse mane strands, tactile feather layering, wet dark hooves.\nSETTING: river surface, only dark banks faintly visible. [longma-c07]\nMOOD: awe-inspiring, powerful and imposing auspicious being, never evil, cute, calm or decorative. [longma-c02]\nHARD CONSTRAINTS: square at least1024px; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or wings; no film/game/anime/comic design; no nudity/gore; no generic glow aura, neon outline or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-8a67723d-157d-4310-8917-804b5bdc7e8b.png",
+  "generated_at": "2026-10-09T01:17:06.638Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1277/originals/longma.png",
+  "native_sha256": "5ec9c319724d19dddc2f7b0fe339c8ecbfc3d53f7de9954a61728066c62feec0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli dilihat: satu kepala kuda dua mata, dua sayap sisi, empat kaki berkuku, satu ekor dan sisik naga besar jelas menutupi tubuh c01/c07. Kuku depan menyentuh permukaan air tanpa tenggelam, langkah maju/percikan/mane bergerak c07. Semua tujuh Uji Sangar ya: subjek agung pada thumbnail, bukan kuda peternakan karena sisik/sayap terbaca; tanpa peta, warna varian741, efek aura, teks/gore atau desain adaptasi. Kontak thumbnail asli berukuran200 piksel dilihat ulang bersama13 PNG lane-A; ciri subjek dan kesan sangar/agung tetap terbaca.",
+    "limitations": [],
+    "native_sha256": "5ec9c319724d19dddc2f7b0fe339c8ecbfc3d53f7de9954a61728066c62feec0",
+    "reviewed_at": "2026-10-09T01:17:06.777Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1277/requests/longma-lane-A.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "5ec9c319724d19dddc2f7b0fe339c8ecbfc3d53f7de9954a61728066c62feec0",
+    "notes": "Dragon-scaled horse with two side wings striding across a river surface without sinking; one head, four legs."
+  }
+}

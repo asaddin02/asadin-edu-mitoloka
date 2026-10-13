@@ -1,0 +1,86 @@
+{
+  "slug": "nine-eared-hound",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of nine eared hound, the nine-ear Guangdong Xinyu hunting-dog variant.\nCRITICAL: Previous outputs had seven ears and were rejected. This FINAL requires nine, using five on left and four on right. Nine ears must be countable without overlap.\nANATOMY: One single-headed hunting dog with EXACTLY NINE ears. The NINE ears form a wide horizontal row along the upper head, FIVE ears on image-left and FOUR ears on image-right, no central ear. Each separate ear has its own pink interior and stands fully apart from its neighbours with dark gaps. Small triangular ears, not huge overlapping ears. Count5left+4right=9. Two eyes, one nose, four legs and one tail, no horns. [nine-eared-hound-c10, nine-eared-hound-c11]\nMOMENT: Circle forward around a thorn thicket and suddenly turn the face directly toward viewer, all nine ears lifted and quivering\nPOWER: The quivering nine ears indicate the documented hunting omen; no visible supernatural lightning or magical light [nine-eared-hound-c10, nine-eared-hound-c11]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: one dominant warm sidelight, deep shadows, strong rim light; physical particles only where justified by the action.\nSURFACE: coarse brown dog fur, black nose, dry thorn branches.\nSETTING: Wild land and a thorn thicket in the Guangdong Xinyu account [nine-eared-hound-c11]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One hunting hound, one head, two eyes, four legs and one tail, exactly nine clearly separated ears; countable five on image-left and four on image-right.",
+      "claim_ids": [
+        "nine-eared-hound-c10",
+        "nine-eared-hound-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The quivering nine ears indicate the documented hunting omen; no visible supernatural lightning or magical light",
+      "claim_ids": [
+        "nine-eared-hound-c10",
+        "nine-eared-hound-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wild land and a thorn thicket in the Guangdong Xinyu account",
+      "claim_ids": [
+        "nine-eared-hound-c11"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "nine-eared-hound-c10",
+    "nine-eared-hound-c11"
+  ],
+  "depicted_variant": "the nine-ear Guangdong Xinyu hunting-dog variant",
+  "artistic_choices": [
+    "Select nine-ear c10/c11 variant, not twelve-ear Taiping Guangji.",
+    "Frontal head and asymmetric5+4 ear arrangement are editorial placement to make documented nine-ear count verifiable.",
+    "Natural brown fur and low sunset light are editorial, no invented power."
+  ],
+  "aura": "The quivering nine ears indicate the documented hunting omen; no visible supernatural lightning or magical light [nine-eared-hound-c10, nine-eared-hound-c11]",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-01.json",
+      "native_sha256": "aa05967aaf18b118af0c526f13d71bd3287c50786cccf3bb8ca2cf0fc6b2bd27",
+      "reason": "Only seven distinguishable ears, three on each side plus crown; fails exact nine-ear anatomy."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/nine-eared-hound-attempt-02.json",
+      "native_sha256": "76a0832e27136b31354d199c423cb3278a077a1a5993520fbfbf7ebd81df4f5e",
+      "reason": "Again only seven clear ear interiors, three left three right plus center."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-529a9a4b-7e45-4944-bfa4-eea50ddd6340.png",
+  "generated_at": "2026-10-12T02:41:36.984646+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/nine-eared-hound.png",
+  "native_sha256": "cfde0081f6faf5898ec4bec70b23403623a4662a6a58989f05bfebf3929017ff",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native view: exactly nine distinct ears, five image-left plus four image-right, with nine pink interiors; one head, two eyes, normal four-legged hound body and one tail. Forward hunting step through thicket c11 is confrontational, no thunder power invented.9-ear count and anomalous silhouette clear at200px. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "cfde0081f6faf5898ec4bec70b23403623a4662a6a58989f05bfebf3929017ff",
+    "reviewed_at": "2026-10-12T02:41:36.984646+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "cfde0081f6faf5898ec4bec70b23403623a4662a6a58989f05bfebf3929017ff",
+    "notes": "Hound with exactly nine ears, five on image-left and four on image-right (counted at full size), stalking through thorn scrub."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "mothman",
+  "generation_failures": [
+    {
+      "variant": "A",
+      "attempt": 1,
+      "error": "image generation failed: connection failed: error sending request",
+      "receipt_file": "data/artwork-generated/batch-1227/rejected/mothman-A-attempt-01-error.json",
+      "failed_at": "2026-10-08T16:05:30.757679+00:00"
+    },
+    {
+      "variant": "B",
+      "attempt": 1,
+      "error": "image generation failed: connection failed: error sending request",
+      "receipt_file": "data/artwork-generated/batch-1227/rejected/mothman-B-attempt-01-error.json",
+      "failed_at": "2026-10-08T16:05:30.757679+00:00"
+    }
+  ],
+  "attempts_per_variant": {
+    "A": 2,
+    "B": 2
+  },
+  "pngs_generated": 2,
+  "total_calls": 4
+}

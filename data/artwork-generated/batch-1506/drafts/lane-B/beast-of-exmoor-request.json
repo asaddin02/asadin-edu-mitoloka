@@ -1,0 +1,52 @@
+{
+  "slug": "beast-of-exmoor",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Beast of Exmoor, the unconfirmed blackcat of Exmoor livestockpredationreports. Native square PNG at least1024x1024pixels.\nANATOMY: ONEblackPUMA-likecat,onehead/twoeyes,twoears,fourlegs,onelongtail,naturalcatcanines/claws; noleopardspots,mane,horns,sabreteethor magicfeatures [beast-of-exmoor-c05, beast-of-exmoor-c07]\nMOMENT: STALK towardviewer throughmoorgrass, shouldersrolling andnearforepaw reachingacrossforegroundstone, lipcurl showsnaturalcanines, musclesreadytopounce\nPOWER: no documentedmagic; reportedlivestockpredationassociatedwithcreature butunconfirmed, novictim/blood orconfirmedkillscene [beast-of-exmoor-c03, beast-of-exmoor-c06]\nSCALE & CAMERA: extreme lowtightforegroundcamera,pumaheadandforepawdominant,noinventedgiantscale\nLIGHT & WEATHER: one lowwarm sunsetshaft,deepwalnutshadows,ordinarymistside\nSURFACE: wetblackfur,naturalcatteeth/claws,roughmoorgrass\nSETTING: ruralExmoor Devon/Somerset, subordinategrassandlowstone [beast-of-exmoor-c05]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Reportedblackpuma variant, noassertionofspeciesorverified1983livestockkiller.",
+  "basis_claim_ids": [
+    "beast-of-exmoor-c05",
+    "beast-of-exmoor-c07",
+    "beast-of-exmoor-c03",
+    "beast-of-exmoor-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Reportedgrey/blackleopardorpuma-likecat;selectedpuma",
+      "claim_ids": [
+        "beast-of-exmoor-c05",
+        "beast-of-exmoor-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Allegedlivestockkillreportsnotconfirmed",
+      "claim_ids": [
+        "beast-of-exmoor-c03",
+        "beast-of-exmoor-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Exmoor Devon/Somerset",
+      "claim_ids": [
+        "beast-of-exmoor-c05"
+      ]
+    }
+  ],
+  "aura": "Threat comes fromcloseencounterwithreportedblackpredatorycat (beast-of-exmoor-c05, beast-of-exmoor-c06, beast-of-exmoor-c07).",
+  "artistic_choices": [
+    "Alertstalk/menace editorialstaging ofreportedpredatoryencounter, notconfirmedattack. Naturalbigcatparts,nooversizedgiantor paranormalpowers. No deadsealhoaxshown."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

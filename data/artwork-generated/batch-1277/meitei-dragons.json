@@ -1,0 +1,85 @@
+{
+  "slug": "meitei-dragons",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Meitei dragons, as documented in the accepted traditional claims.\nANATOMY: Pakhangba in his documented serpentine dragon/snake form: one snake head, two eyes, one long limbless scaled body, no invented horns or wings [meitei-dragons-c06, meitei-dragons-c11, meitei-dragons-c13]\nMOMENT: Rear toward the viewer out of tightly piled immense coils, lower the head in an overwhelming royal warning.\nPOWER: No visible magical effects; displeasure is expressed by the documented great-sized snake form [meitei-dragons-c13]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: one low moon beam, warm brown shadows, damp haze.\nSURFACE: weathered wet walnut scales.\nSETTING: Darkness of Manipur at night; minimal shadowed earth beneath the coils [meitei-dragons-c01, meitei-dragons-c03]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.\n",
+  "depicted_variant": "Pakhangba dalam wujud ular besar pada malam hari, bukan gabungan naga Meitei.",
+  "basis_claim_ids": [
+    "meitei-dragons-c06",
+    "meitei-dragons-c11",
+    "meitei-dragons-c13",
+    "meitei-dragons-c01",
+    "meitei-dragons-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Pakhangba in his documented serpentine dragon/snake form: one snake head, two eyes, one long limbless scaled body, no invented horns or wings",
+      "claim_ids": [
+        "meitei-dragons-c06",
+        "meitei-dragons-c11",
+        "meitei-dragons-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible magical effects; displeasure is expressed by the documented great-sized snake form",
+      "claim_ids": [
+        "meitei-dragons-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Darkness of Manipur at night; minimal shadowed earth beneath the coils",
+      "claim_ids": [
+        "meitei-dragons-c01",
+        "meitei-dragons-c03"
+      ]
+    }
+  ],
+  "aura": "No visible magical effects; displeasure is expressed by the documented great-sized snake form [meitei-dragons-c13]",
+  "artistic_choices": [
+    "Memilih Pakhangba saja dari entri kelompok; ular besar didukung c13.",
+    "Tidak ada efek energi; wujud ular, aksi menunduk, dan pencahayaan memberi keagungan."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-8a51358c-93fa-4722-a97c-91389e825b4c.png",
+  "generated_at": "2026-10-09T00:59:55.084875+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/meitei-dragons.png",
+  "native_sha256": "3f6acfe5e297b1140c3a53079a23bfb842433f9ec0c7fdf6795cf39794cd8e01",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: ular besar satu kepala tanpa tungkai mendominasi, kepala menunduk dan lidah menjulur memberi momen konfrontasi. Uji Sangar 7/7; tanpa efek magis, tanpa teks atau gore.",
+    "limitations": [],
+    "native_sha256": "3f6acfe5e297b1140c3a53079a23bfb842433f9ec0c7fdf6795cf39794cd8e01",
+    "reviewed_at": "2026-10-09T00:59:55.084875+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "3f6acfe5e297b1140c3a53079a23bfb842433f9ec0c7fdf6795cf39794cd8e01",
+    "notes": "Huge limbless serpent coiled in the Manipur night, head lowered toward the viewer; no horns or wings."
+  }
+}

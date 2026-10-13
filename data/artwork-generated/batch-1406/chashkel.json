@@ -1,0 +1,80 @@
+{
+  "slug": "chashkel",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Chashkel, the feared anthropophagous giant in Selknam mythology. Native PNG at least 1024 by 1024 pixels.\nANATOMY: One enormous humanlike giant, one head with two eyes, two arms and two legs, fully opaque rough hide garments; no invented horns, extra eyes or weapons. [chashkel-c01]\nMOMENT: Stride from the riverside hut toward the viewer, bending down with one powerful grasping hand, dogs rushing behind his feet.\nPOWER: No magical power effect; natural mud splashes from his stride, and the documented hunting dogs follow without gore. [chashkel-c07]\nSCALE & CAMERA: extreme low angle; documented large being fills the frame, tiny environmental references show scale; distinguishing anatomy remains clear at 200 pixels.\nLIGHT & WEATHER: One low sunset slit through dark cloud, rim light on rough cloth and moving river mist.\nSURFACE: tactile natural fur, hair, feather, skin, cloth, scale or metal as appropriate to the documented form, never plastic.\nSETTING: The bank of the Mac Lelan river beside the giant's hut. [chashkel-c03]\nMOOD: menacing, dangerous and imposing; never cute, calm or decorative. Dark walnut, antique gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, lettering, glyph, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Living giant before defeat, with his trained hunting dogs; no mutilation or dead victims.",
+  "basis_claim_ids": [
+    "chashkel-c01",
+    "chashkel-c07",
+    "chashkel-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous humanlike giant, one head with two eyes, two arms and two legs, fully opaque rough hide garments; no invented horns, extra eyes or weapons.",
+      "claim_ids": [
+        "chashkel-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical power effect; natural mud splashes from his stride, and the documented hunting dogs follow without gore.",
+      "claim_ids": [
+        "chashkel-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The bank of the Mac Lelan river beside the giant's hut.",
+      "claim_ids": [
+        "chashkel-c03",
+        "chashkel-c07"
+      ]
+    }
+  ],
+  "aura": "Stride from the riverside hut toward the viewer, bending down with one powerful grasping hand, dogs rushing behind his feet. Supported by chashkel-c01, chashkel-c07, chashkel-c03.",
+  "artistic_choices": [
+    {
+      "description": "Low camera, dark warm palette, directional light and opaque clothing when applicable are editorial choices; no unrecorded powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Living giant before defeat, with his trained hunting dogs; no mutilation or dead victims.",
+      "claim_ids": [
+        "chashkel-c01"
+      ]
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-f1eb-7812-bed1-d88bbc42e100/exec-43e05f7e-f92a-4abc-9204-200bbc4831d9.png",
+  "native_sha256": "19455ae654395cb63e11ceaad35f01f60f5e7914c70debf1a79a7ce78922c506",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T03:05:49.338931+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/chashkel.png",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. One huge humanlike giant with one head, two eyes, two arms and two legs strides toward viewer, reaching with a large hand. Opaque hide clothing covers his torso and intimate anatomy. Three small hunting dogs and hut at riverbank match c07 and establish documented giant scale c01. Splashing mud only, no victims, bones or gore. Giant and reach remain imposing at 200px; seven checks pass.",
+    "limitations": [],
+    "native_sha256": "19455ae654395cb63e11ceaad35f01f60f5e7914c70debf1a79a7ce78922c506",
+    "reviewed_at": "2026-10-12T03:05:49.338931+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "19455ae654395cb63e11ceaad35f01f60f5e7914c70debf1a79a7ce78922c506",
+    "notes": "Hide-clad giant striding out of the river toward the viewer at dawn with his hunting dogs and a hut for scale."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "xiao-mythology",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Xiao (mythology), the dreaded long-armed ape Xiao of the Western Shanhaijing. Native square PNG at least1024x1024pixels.\nANATOMY: one natural MACAQUE-like head/twoeyes/tworoundears; onefurredapetorso, TWO exceptionallylong ape arms,twoapelegs,oneape tail; no humanface or4wingbirdvariant [xiao-mythology-c04, xiao-mythology-c07]\nMOMENT: HURL oneplainrock forward towardviewer withright exceptionallylongarm, leftlongarm reachingback forbalance, mouth tense and eyesfocused. Fullupperarms/forearms visible so disproportionatelength clear\nPOWER: documented skilledthrowing only: physical rockleavinghand andordinary dust, no magic aura [xiao-mythology-c04, xiao-mythology-c07]\nSCALE & CAMERA: extreme low camera, close foreshortened framing; no undocumented giant size\nLIGHT & WEATHER: one low amber sunset shaft, deep walnut shadows, sharp rimlight\nSURFACE: matted brownmacaquefur, hardstone anddrydust\nSETTING: neutral roughground, WesternShanhaijing creature without specific mountain imported [xiao-mythology-c07]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Western long-armed macaque throwing, notNorthern4wing/oneeye/dogtailbird.",
+  "basis_claim_ids": [
+    "xiao-mythology-c04",
+    "xiao-mythology-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Longarmed ape resembling macaque",
+      "claim_ids": [
+        "xiao-mythology-c04",
+        "xiao-mythology-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Skilledthrowing/depictedthrowing",
+      "claim_ids": [
+        "xiao-mythology-c04",
+        "xiao-mythology-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "WesternShanhaijing account,neutralground",
+      "claim_ids": [
+        "xiao-mythology-c07"
+      ]
+    }
+  ],
+  "aura": "Threat comes fromdreadedlongarmedape hurling aprojectile (xiao-mythology-c07).",
+  "artistic_choices": [
+    "Rock is editorial concrete thingthrown; no magicpower. Longarms explicit; furcolour/ground editorial, closecamera no giantsizeinvented."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-88a0a064-1c5c-4ea0-861b-e708345cdc17.png",
+  "generated_at": "2026-10-12T09:28:58.236965+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/xiao-mythology.png",
+  "native_sha256": "fadd00da5afbdd05cba58f55ff72590b496be02cf2b34524558f111548b797ee",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected all seven Sangar checks pass. One macaque-likehead/twoeyes,twoears, exactlytwo exceptionallylongarms,twonaturalapelegs (farlegoccluded),onetail; nearhandgripsrock fingers partlybehindrock. Documented longarmed skilledthrower c04/c07 thrustsrock towardviewer, ordinarydustfrommovement notmagic. Fierce focused face/foreshortenedthrow dangerous200, no4wingbirdmix,extraappendages,gore,text or borrowed design.",
+    "limitations": [],
+    "native_sha256": "fadd00da5afbdd05cba58f55ff72590b496be02cf2b34524558f111548b797ee",
+    "reviewed_at": "2026-10-12T09:28:58.237155+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "fadd00da5afbdd05cba58f55ff72590b496be02cf2b34524558f111548b797ee",
+    "notes": "Long-armed macaque-like ape hurling a rock at the low camera; the long arms and throwing are the documented traits."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "qilin",
+  "worker": "codex",
+  "worker_agent": "sita",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1227,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c03-0a50-7361-a9d2-553546ae71b7/exec-c3a1fca5-288d-4d4d-8718-7e1c304093ac.png",
+  "generated_at": "2026-10-08T15:59:03.050143+00:00",
+  "original_file": "data/artwork-generated/batch-1227/originals/qilin.png",
+  "native_sha256": "8092023789d805371c63c95fec6111addafe740303dcce4b0f72b5eae2de1adf",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of QILIN. The QI of Shuowen quoted by Kangxi: benevolent deer-bodied ox-tailed beast with exactly ONE horn, not Guo Pu's hornless version.\nANATOMY: ONE living quadruped with a roe-deer-like body, ONE head, TWO eyes, FOUR natural hoofed legs, ONE unmistakable long OX tail ending in a dense bovine tuft, and exactly ONE solid straight central forehead HORN. No antlers, paired horns, wolf forehead, lion mane, dragon scales, five-colour requirement, wings, fire or armour. This is specifically the Shuowen QI one-horn description in c10, NOT Guo Pu's separate hornless interpretation. Natural dark warm brown fur; palette artistic. [qilin-c10]\nMOMENT: Leap diagonally upward toward the foreground across the rough natural ground, front legs lifted distinctly, rear hooves pushing off, tail sweeping fully across one side. Turn the proud head toward us with an intense wise gaze, single horn fully silhouetted.\nPOWER: No supernatural power effect, no flame or elemental control. Sacred overwhelming presence comes from the exact composite anatomy and dynamic approach of the benevolent beast. Physically scattered earth from the leap is small and plausible. [qilin-c10]\nSCALE & CAMERA: Full-body broad diagonal low-angle composition, beast occupies eighty-five percent of square with ALL FOUR legs, OX tail and ONE central horn readable. Ordinary body size through near-camera framing, not invented cosmic giant.\nLIGHT & WEATHER: One strong dying-sun sidelight, rich dark walnut and antique gold accents in the natural fur and hoof texture.\nSURFACE: Tactile natural fur, fish/serpent scales, hoof, feathers or stone as specified; premium traditional painterly brushwork, never glossy plastic or a toy.\nSETTING: Tight natural dark earth-and-rock background as neutral editorial staging; no invented temple, palace, ritual or named habitat claim.\nMOOD: overwhelming and imposing sacred presence; respectful, benevolent when source says so, energetic and majestic, never cute, calm or decorative.\nHARD CONSTRAINTS: one square original illustration; no text, labels, lettering, logo, border, frame or watermark; no extra limbs, heads, tails or digits beyond exact counts above; no nudity or gore; no design from a film, game, anime or comic; no generic glow aura, neon outline, energy ribbons, floating runes or unsupported supernatural effects. Identifying anatomical components all readable at thumbnail size.",
+  "depicted_variant": "The QI of Shuowen quoted by Kangxi: benevolent deer-bodied ox-tailed beast with exactly ONE horn, not Guo Pu's hornless version.",
+  "basis_claim_ids": [
+    "qilin-c01",
+    "qilin-c07",
+    "qilin-c08",
+    "qilin-c10",
+    "qilin-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exact c10 Shuowen QI source variant: deer body, ox tail, one horn; distinct from Guo Pu hornless reading.",
+      "claim_ids": [
+        "qilin-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented power effect; dynamic physical movement of benevolent beast only.",
+      "claim_ids": [
+        "qilin-c10"
+      ]
+    }
+  ],
+  "aura": "Keagungan berasal dari benevolent composite QI dengan satu tanduk, tubuh deer dan ox tail (qilin-c10); tidak ada fire/lightning atau kekuatan visual supernatural yang direka.",
+  "artistic_choices": [
+    "A uses Kangxi quoting Shuowen LIN c07; B uses Kangxi quoting Shuowen QI ONE-horn in c10. Guo Pu's separately cited hornless QI is not mixed into B.",
+    "c07 specifies wolf forehead/horse hooves/five colours/yellow belly and does not specify a horn. A plain unadorned brow is editorial restraint, not a new sourced assertion that c07 Lin is canonically hornless.",
+    "Exact five colour allocation in A and warm brown shaggy coat in B are editorial surface/palette details. No source assertion of dragon scales, mane, fire or rainbow magic.",
+    "A setting uses recorded Daye hunt c12 as natural terrain backdrop, no reenacted capture. B has neutral editorial natural terrain without claiming a specific sourced habitat.",
+    "Documented stature c07 underlies A; B dominance comes from close low-angle framing, without claiming cosmic or giant size. Physical dust is ordinary hoof impact.",
+    "B selected because the exactly ONE central horn of the explicit Shuowen QI variant is unmistakable at thumbnail and full-body leap displays ox-tail/deer body. A retains the distinct c07 Shuowen LIN variant with wolf forehead/five colours/yellow belly/HORSE hooves after correcting an initial cloven-hoof failure.",
+    "Kedua komposisi dihasilkan dengan dua built-in calls terpisah dan PNG/receipt keduanya dipertahankan di variants/qilin/. Tidak menebak nama model gambar."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1227/rejected/qilin-variant-a-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1227/rejected/qilin-variant-a-attempt-01.json",
+      "native_sha256": "3a055284e13f1072824bb45e29a8a69614a439d5af7d093cfeaf771a65c578eb",
+      "reason": "Fidelity/Uji Sangar butir5 gagal: hoof terbelah/cloven seperti deer, bukan horse-hooves c07; kepala/badan terlalu menyerupai wolf penuh dibanding roe-deer body + wolf forehead."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG inspected: specifically Shuowen QI in c10 with ONE central horn, deer-shaped quadruped body, four natural hoofed legs and ONE ox-tail bovine tuft. Full diagonal leap shows all anatomy clearly, no Guo Pu hornless interpretation mixed. Natural shaggy fur editorial, no dragon scale/fire/aura or added mythical attribute. Mythic onehorn silhouette and gaze are legible at thumbnail, active motion. No text/border/watermark. Uji Sangar pass. Root independently viewed BOTH native final variants: Root melihat kedua native: A empat kuku kuda tunggal tidak terbelah, badan mirip rusa, dahi wolf, bulu lima warna/perut kuning, ekor ox, tanpa tanduk tambahan pada versi LIN c07; B satu tanduk nyata, badan rusa, ekor ox dan kaki rusa untuk versi QI c10. Dua versi tetap terpisah, langkah/leap menonjol dan tidak ada api/energi rekaan.",
+    "limitations": [],
+    "native_sha256": "8092023789d805371c63c95fec6111addafe740303dcce4b0f72b5eae2de1adf",
+    "reviewed_at": "2026-10-08T16:06:08.245Z"
+  },
+  "variant_files": [
+    {
+      "variant": "a",
+      "original_file": "data/artwork-generated/batch-1227/variants/qilin/variant-a.png",
+      "native_sha256": "cd181ed478b729d016e51eab2233068d3bb23ef8ca07dbd7ae9538c6135f0673",
+      "status": "unselected-retained"
+    },
+    {
+      "variant": "b",
+      "original_file": "data/artwork-generated/batch-1227/variants/qilin/variant-b.png",
+      "native_sha256": "8092023789d805371c63c95fec6111addafe740303dcce4b0f72b5eae2de1adf",
+      "status": "selected"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8092023789d805371c63c95fec6111addafe740303dcce4b0f72b5eae2de1adf",
+    "notes": "Deer-bodied qilin with a single horn and ox tail leaping over broken ground at sunset; matches the Shuowen one-horn variant."
+  }
+}

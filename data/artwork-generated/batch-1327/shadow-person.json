@@ -1,0 +1,86 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "shadow-person",
+  "depicted_variant": "Siluet manusia hidup gelap yang mendekat dan menghilang di ambang pintu, tanpa menggabungkan Hat Man/Watchers.",
+  "basis_claim_ids": [
+    "shadow-person-c01",
+    "shadow-person-c04",
+    "shadow-person-c07",
+    "shadow-person-c18"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu bayang humanoid hitam featureless, satu kepala dua lengan dua kaki; wajah tanpa detail.",
+      "claim_ids": [
+        "shadow-person-c01",
+        "shadow-person-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mendekat pada pengalaman lumpuh tidur dan melintas/menghilang melalui pintu; tepi siluet flickering tanpa aura.",
+      "claim_ids": [
+        "shadow-person-c18",
+        "shadow-person-c07",
+        "shadow-person-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ambang pintu saat pengamat di tempat tidur, ruang editorial sederhana.",
+      "claim_ids": [
+        "shadow-person-c07",
+        "shadow-person-c18"
+      ]
+    }
+  ],
+  "aura": "Siluet hidup shadow-person-c01/c04 mendekat shadow-person-c18 dan menghilang di pintu shadow-person-c07 menciptakan keganjilan tanpa kuasa rekaan.",
+  "artistic_choices": [
+    "Tanpa hat/hood/cape/merah mata untuk menghindari campuran varian.",
+    "Ekspresi tidak dibuat karena siluet; ancaman via langkah closeup dan kegelapan dibanding ruang bercahaya.",
+    "Lampu samping dan kamar editorial, bukan klaim makhluk mengendalikan lampu/energi; no smoke body."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SHADOW PERSON, a living human shadow apparition.\nANATOMY: ONE solid pitch-black HUMAN SILHOUETTE with ONE head, TWO arms and TWO legs; no visible face, hair, skin, glowing eyes, hat, cape, hood or clothing details. This is a void-like silhouette, never a real dark-clothed man. [shadow-person-c01,shadow-person-c04]\nMOMENT: approaching the viewer from a doorway, one arm extending into foreground, torso leaning forward, one leg stepping across the threshold while its rear edge flickers out along the doorframe.\nPOWER: peripheral-vision flickering silhouette and disappearing through a doorway; dark solid edges vanish unevenly, no smoke, aura, energy beams or generic glow. [shadow-person-c04,shadow-person-c07,shadow-person-c18]\nSCALE & CAMERA: extreme low viewpoint as from a bed, apparition fills almost the entire square from head to reaching hand, doorway only narrow edge.\nLIGHT & WEATHER: single amber bedside light outlines the ordinary doorway, but the apparition stays utterly black and featureless; deep walnut shadow.\nSURFACE: light-absorbing absolute black silhouette against tactile old wooden door and dull plaster.\nSETTING: doorway and minimal bedroom seen by a reclining observer. [shadow-person-c07,shadow-person-c18]\nMOOD: uncanny overwhelming approaching presence, never ordinary person, cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-4ae517be-1008-4a5f-ba1a-07a3b219482a.png",
+  "generated_at": "2026-10-10T02:59:29.249Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-080.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/shadow-person.png",
+  "native_sha256": "c519e6e90ff5807aed0d27b152207c7eb8fd258621e84e7b4c4a649989a34c6d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px dilihat: satu siluet humanoid hitam tanpa wajah, kepala2lengan2kaki, tangan besar mencapai penonton dan tepi belakang flicker ke ambang pintu. Gerak mendekat c18/dissappear doorway c07,7Uji Sangar semua ya; tampil sebagai kegelapan hidup, bukan orang biasa. Sedikit lipatan gelap interpretasi volume, tanpa eye-glow/aura/teks/desainadaptasi.",
+    "limitations": [],
+    "native_sha256": "c519e6e90ff5807aed0d27b152207c7eb8fd258621e84e7b4c4a649989a34c6d",
+    "reviewed_at": "2026-10-10T02:59:29.356Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/shadow-person-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "c519e6e90ff5807aed0d27b152207c7eb8fd258621e84e7b4c4a649989a34c6d",
+    "notes": "Featureless black humanoid silhouette with flickering edges reaching from the doorway toward the bed."
+  }
+}

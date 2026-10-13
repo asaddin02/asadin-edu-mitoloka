@@ -1,0 +1,83 @@
+{
+  "slug": "mahishasura",
+  "worker": "codex",
+  "worker_agent": "chandra",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-073.review.json",
+  "batch": 1227,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c02-c090-7651-9013-c7033afd12ca/exec-16517d41-3ff6-4290-937c-37402de075d3.png",
+  "generated_at": "2026-10-08T15:58:40.276Z",
+  "original_file": "data/artwork-generated/batch-1227/originals/mahishasura.png",
+  "native_sha256": "a72563684a4dff43c7e964da3b7a8d90dd8eeeb521bb7f41ca355b2234c95cdd",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MAHISHASURA, the bovine asura of Hindu narrative who uses shape shifting for evil intentions, depicted respectfully as a formidable mythic antagonist [mahishasura-c01,mahishasura-c02].\nANATOMY: exactly ONE BUFFALO HEAD on a HUMAN BODY, the documented WHE form [mahishasura-c07]. The buffalo head has two eyes, two broad naturally curved buffalo horns, a long bovine muzzle, wet broad nostrils, dark rough short fur and blunt herbivore teeth; NO human head or extra animal head. Human body has TWO ARMS and TWO LEGS, five-finger human hands, no wings, cloven feet or additional horns. Fully opaque high-neck heavy Indian-inspired dark cloth tunic with long sleeves, secure trousers and boots cover the entire torso, shoulders, limbs and groin; head and hands exposed. No weapon or extra divine attribute is documented, so hold NONE.\nMOMENT: Mahishasura charges up a rough slope toward the low viewer, one closed HUMAN fist thrust forward, the other bent beside his body, cloth snapping with the step. Head is lowered, horn silhouette clear and eyes fixed directly on viewer; ordinary dust is kicked up by boot contact. Exactly two hands, no hidden third arm.\nPOWER: no visible magic or unsupported elemental power; menace through documented buffalo-head/human-body form and purposeful physical movement only [mahishasura-c07]. Do not show a transformation with duplicate heads/limbs or generic aura. SCALE & CAMERA: extreme low close camera, buffalo face/horns and clothed muscular shoulders dominate square; normal humanlike body size, no unsupported giant-size claim. Both horns completely inside image. LIGHT & WEATHER: one low warm side shaft, deep walnut shadows, natural contact dust. SURFACE: coarse wet buffalo fur, worn thick woven garments, muddy boots, rough unlettered ground, premium painterly texture. SETTING: plain dark non-specific physical ground, editorial backdrop; no invented named temple/place or other deity. MOOD: fierce and imposing mythic antagonist, not ordinary buffalo or bare-chested bodybuilder. Respect Hindu tradition. HARD CONSTRAINTS: no nudity, gore, victims, sacrificial scene, text, pseudo-script, logos, frames, borders, watermark, extra limbs or heads, weapons, glow envelope, neon, runes, energy ribbons or film/game/anime/comic borrowing.",
+  "depicted_variant": "Mahishasura in the WHE human-body/buffalo-head form, charging toward viewer without a weapon.",
+  "basis_claim_ids": [
+    "mahishasura-c01",
+    "mahishasura-c02",
+    "mahishasura-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One buffalo head with two natural horns and two eyes on a fully clothed human body with two arms/two legs and human hands.",
+      "claim_ids": [
+        "mahishasura-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No supernatural effects; physical charge/emergence and ordinary dust, no duplicated transformation anatomy.",
+      "claim_ids": [
+        "mahishasura-c02",
+        "mahishasura-c07"
+      ]
+    }
+  ],
+  "aura": "The buffalo head on human body (mahishasura-c07) and hostile purposeful charge express the asura with evil intentions (c02), without added power effects.",
+  "artistic_choices": [
+    "No unclaimed weapon, crown or magical power; shape-shifting deed is not visualized as duplicated transitional anatomy.",
+    "Opaque long-sleeved tunic/trousers/boots, normal human hands and buffalo horn shapes are conservative editorial surface details around c07 body form.",
+    "A selected for clear charge/body silhouette; B distinct close rock-bracing approach retained.",
+    "Backdrop is deliberately plain unnamed ground. Dust arises from boot contact, warm side shaft is editorial lighting; no setting claimed as researched place."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variants": [
+    {
+      "variant": "A",
+      "selected": true,
+      "original_file": "data/artwork-generated/batch-1227/variants/mahishasura/variant-a.png",
+      "receipt_file": "data/artwork-generated/batch-1227/variants/mahishasura/variant-a.json",
+      "native_sha256": "a72563684a4dff43c7e964da3b7a8d90dd8eeeb521bb7f41ca355b2234c95cdd"
+    },
+    {
+      "variant": "B",
+      "selected": false,
+      "original_file": "data/artwork-generated/batch-1227/variants/mahishasura/variant-b.png",
+      "receipt_file": "data/artwork-generated/batch-1227/variants/mahishasura/variant-b.json",
+      "native_sha256": "146720b7d029bc563f005c79fe2d9932f01cb7dfe24b11e995dab3156f062a05"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: one buffalo-like bovine head/two eyes/two broad curved horns on one humanoid body, exactly two human fists/arms and two trousered booted legs; all torso/shoulders/limbs opaquely covered except hands. Fierce direct low-angle charge and ordinary contact dust dominate, no weapon, extra anatomy or magic. No text/gore/watermark/frame. All Sangar answers yes. Root independently viewed BOTH native final variants: Root melihat kedua native: kepala buffalo dua tanduk, dua mata, tubuh manusia berpakaian buram penuh, dua tangan manusia bukan hoof. A berlari/menyerbu dengan kepalan, B menekan batu dekat; tidak ada senjata atau efek gaib yang takdidokumentasikan. Tatapan, foreshortening dan anatomi menjadikan ancaman jelas.",
+    "limitations": [],
+    "native_sha256": "a72563684a4dff43c7e964da3b7a8d90dd8eeeb521bb7f41ca355b2234c95cdd",
+    "reviewed_at": "2026-10-08T16:04:51.660Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "a72563684a4dff43c7e964da3b7a8d90dd8eeeb521bb7f41ca355b2234c95cdd",
+    "notes": "Buffalo-headed Mahishasura with two horns on a clothed human body charging at the viewer, fists clenched, no weapon."
+  }
+}

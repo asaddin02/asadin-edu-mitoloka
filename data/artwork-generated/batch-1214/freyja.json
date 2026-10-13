@@ -1,0 +1,103 @@
+{
+  "slug": "freyja",
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-038.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c01-4372-7571-933c-fdcac1f83308/exec-ed5adcd2-c0c6-4666-9d2b-85175e187188.png",
+  "generated_at": "2026-10-08T15:23:01.614Z",
+  "original_file": "data/artwork-generated/batch-1214/originals/freyja.png",
+  "native_sha256": "9047ca891ac8cf7ac95a1a4ae2f79800ba1acf6fe5325ec47e5932e3cc5ed6e0",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of FREYJA, Norse Vanir goddess associated with battle, seidr and wealth.\nANATOMY: one human head, exactly two arms; striking Brisingamen necklace broad and clear; opaque dark red gown with high covered torso, falcon-feather cloak; holds one seidr staff; in the chariot variant EXACTLY TWO great cats draw one chariot, both cats clearly distinct. [freyja-c03, freyja-c05, freyja-c07, freyja-c10, freyja-c20, freyja-c21]\nMOMENT: drive into the foreground standing braced in her chariot, raising seidr staff as both enormous cats bound toward the viewer; direct commanding gaze.\nPOWER: Her documented golden tears appear as actual small molten-looking gold droplets on cheeks in portrait, not beams or ribbons; in chariot scene only physical dust kicked by the two cats; no lightning or generic magic. [freyja-c03, freyja-c05, freyja-c07, freyja-c10, freyja-c20, freyja-c21]\nSCALE & CAMERA: extreme low ground view full active chariot deity, cats low foreground, face and necklace large and clear, fills 90 percent.\nLIGHT & WEATHER: a single warm side/backlight, deep walnut shadows and antique gold highlights; low-key cinematic contrast, dramatic airborne dust or natural spray appropriate to scene; fire/sun/forge variants use that actual documented fire or sun as sole dominant light instead of external glow.\nSURFACE: ruffled real falcon feathers, scratched gold necklace, heavy wool, dusty fur.\nSETTING: Folkvangr, her heavenly dwelling and field where she receives half the battle dead; no modern designs or corpses/gore. [freyja-c03, freyja-c05, freyja-c07, freyja-c10, freyja-c20, freyja-c21]\nMOOD: overwhelming, imposing and awe-inspiring; malign Loki menacing, living Hindu Agni revered; never cute, neutral, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; opaque clothing covers torso and legs; no generic glow aura, neon outline or energy ribbons. ONE complete square image, not a collage.",
+  "depicted_variant": "Two-cat chariot arrival",
+  "basis_claim_ids": [
+    "freyja-c03",
+    "freyja-c05",
+    "freyja-c07",
+    "freyja-c10",
+    "freyja-c20",
+    "freyja-c21"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one human head, exactly two arms; striking Brisingamen necklace broad and clear; opaque dark red gown with high covered torso, falcon-feather cloak; holds one seidr staff; in the chariot variant EXACTLY TWO great cats draw one chariot, both cats clearly distinct",
+      "claim_ids": [
+        "freyja-c03",
+        "freyja-c05",
+        "freyja-c07",
+        "freyja-c10",
+        "freyja-c21"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Her documented golden tears appear as actual small molten-looking gold droplets on cheeks in portrait, not beams or ribbons; in chariot scene only physical dust kicked by the two cats; no lightning or generic magic",
+      "claim_ids": [
+        "freyja-c03",
+        "freyja-c05",
+        "freyja-c07",
+        "freyja-c10",
+        "freyja-c20",
+        "freyja-c21"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Folkvangr, her heavenly dwelling and field where she receives half the battle dead; no modern designs or corpses/gore",
+      "claim_ids": [
+        "freyja-c03",
+        "freyja-c05",
+        "freyja-c07",
+        "freyja-c10",
+        "freyja-c20",
+        "freyja-c21"
+      ]
+    }
+  ],
+  "aura": "Documented two-cat chariot c05, seidr staff c03 and golden tears c21 convey divine identity without invented energy",
+  "artistic_choices": [
+    "Square painterly walnut/antique-gold cinematic treatment, fully opaque garments; camera and tonal treatment are editorial.",
+    "Any symbolic divine scale is devotional composition, not an added claim of literal giant size; unspecified normal head/arm counts are restrained editorial rendering.",
+    "Varian kereta dua kucing dipilih karena aksi dan identitas dewi lebih kuat pada thumbnail; potret kedua mempertahankan air mata emas terdokumentasi dalam framing yang berbeda."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variants": [
+    {
+      "variant": 1,
+      "selected": true,
+      "original_file": "data/artwork-generated/batch-1214/originals/freyja.png",
+      "native_sha256": "9047ca891ac8cf7ac95a1a4ae2f79800ba1acf6fe5325ec47e5932e3cc5ed6e0"
+    },
+    {
+      "variant": 2,
+      "selected": false,
+      "original_file": "data/artwork-generated/batch-1214/variants/freyja/variant-2.png",
+      "native_sha256": "ebbe0471130a019bd9d5d8dc0568f0c2a4394c0984c4e03baba96c28436f861f"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native seen by root: active chariot with exactly two great cats, two deity arms, staff, Brisingamen and falcon-feather garment; fully opaque gown, clear golden tears. All Sangar checks pass, dust physical only. Root independently viewed BOTH native final variants: A active two-great-cat chariot and B staff-lift close portrait; gold tears physically visible, feather garment/Brisingamen clear, opaque clothing. Seven Sangar criteria pass; A strongest active mythology.",
+    "limitations": [],
+    "native_sha256": "9047ca891ac8cf7ac95a1a4ae2f79800ba1acf6fe5325ec47e5932e3cc5ed6e0",
+    "reviewed_at": "2026-10-08T15:25:15.601Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9047ca891ac8cf7ac95a1a4ae2f79800ba1acf6fe5325ec47e5932e3cc5ed6e0",
+    "notes": "Freyja with broad Brisingamen, falcon-feather cloak and staff driving one chariot pulled by exactly two snarling great cats toward the viewer."
+  }
+}

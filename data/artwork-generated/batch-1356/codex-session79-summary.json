@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-10-10T04:16:36.534036+00:00",
+  "request": "lanjutkan 79 entri lagi",
+  "counts": {
+    "selected_entries": 79,
+    "new_creatures": 76,
+    "final_native_pngs": 76,
+    "declined_candidates": 3,
+    "corrections": 0,
+    "tool_calls": 96,
+    "successful_native_pngs": 96,
+    "quality_rejected_pngs": 20,
+    "tool_failures": 0
+  },
+  "workers": {
+    "lane-A": {
+      "entries": 27,
+      "finals": 26,
+      "declined": 1,
+      "successful_image_calls": 36,
+      "quality_rejected_pngs": 10,
+      "tool_failures": 0,
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "batches": {
+        "1327": {
+          "finals": 16,
+          "declined": 1,
+          "successful_image_calls": 23,
+          "quality_rejected_pngs": 7,
+          "tool_failures": 0,
+          "slugs": [
+            "milton-lizard",
+            "mujina",
+            "nguruvilu",
+            "ninki-nanka",
+            "nuno-sa-punso",
+            "seri-pahang",
+            "shadow-person",
+            "skunk-ape",
+            "tianma",
+            "wendigo",
+            "aderyn-y-corff",
+            "areop-enap",
+            "ashite-kojin",
+            "bahamut",
+            "cactus-cat",
+            "chamunda",
+            "dragons-in-greek-mythology"
+          ],
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        "1356": {
+          "finals": 10,
+          "declined": 0,
+          "successful_image_calls": 13,
+          "quality_rejected_pngs": 3,
+          "tool_failures": 0,
+          "slugs": [
+            "zhulong-mythology",
+            "aigamuxa",
+            "alan-legendary-creature",
+            "amarok",
+            "andrealphus",
+            "azumi-no-isora",
+            "bajang",
+            "black-dragon",
+            "cabraboc",
+            "camahueto"
+          ],
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        }
+      }
+    },
+    "lane-B": {
+      "entries": 27,
+      "finals": 25,
+      "declined": 2,
+      "successful_image_calls": 31,
+      "quality_rejected_pngs": 6,
+      "tool_failures": 0,
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "batches": {
+        "1327": {
+          "finals": 15,
+          "declined": 2,
+          "successful_image_calls": 20,
+          "quality_rejected_pngs": 5,
+          "tool_failures": 0,
+          "slugs": [
+            "gogfran-gawr",
+            "heluo-fish",
+            "hoyau",
+            "huay-chivo",
+            "ichchhadhari-nag",
+            "inkanyamba",
+            "jivajivaka",
+            "khamot",
+            "kishi-folklore",
+            "krasnoludek",
+            "kun",
+            "manaul",
+            "mokumokuren",
+            "nine-sons-of-the-dragon",
+            "oozlum-bird",
+            "pugot",
+            "qiuniu"
+          ],
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        "1356": {
+          "finals": 10,
+          "declined": 0,
+          "successful_image_calls": 11,
+          "quality_rejected_pngs": 1,
+          "tool_failures": 0,
+          "slugs": [
+            "carbuncle-legendary-creature",
+            "crinisus",
+            "cuca",
+            "daidarabotchi",
+            "dingonek",
+            "dover-demon",
+            "engkanto",
+            "feilong",
+            "fisher-s-ghost",
+            "fjalar-q11969058"
+          ],
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        }
+      }
+    },
+    "lane-C": {
+      "entries": 25,
+      "finals": 25,
+      "declined": 0,
+      "successful_image_calls": 29,
+      "quality_rejected_pngs": 4,
+      "tool_failures": 0,
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "batches": {
+        "1327": {
+          "finals": 16,
+          "declined": 0,
+          "successful_image_calls": 17,
+          "quality_rejected_pngs": 1,
+          "tool_failures": 0,
+          "slugs": [
+            "rhita-gawr",
+            "seelkee",
+            "shenlong",
+            "shippeitaro",
+            "siuru",
+            "strix-mythology",
+            "teng-mythology",
+            "thunderdell",
+            "tiangou",
+            "tianlong",
+            "tuchulcha",
+            "ubagabi",
+            "wani-dragon",
+            "wd-q10566254",
+            "wd-q89656688",
+            "wind-horse"
+          ],
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        "1356": {
+          "finals": 9,
+          "declined": 0,
+          "successful_image_calls": 12,
+          "quality_rejected_pngs": 3,
+          "tool_failures": 0,
+          "slugs": [
+            "galloway-puma",
+            "greif",
+            "grootslang",
+            "gulyabani",
+            "h-rt-k",
+            "hahau-whenua",
+            "hakawai-mythology",
+            "hasshaku-sama",
+            "hoop-snake"
+          ],
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        }
+      }
+    }
+  },
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batches": [
+    {
+      "batch": 1327,
+      "ledger": "data/artwork-batch-1327.json",
+      "handoff": "data/artwork-generated/batch-1327/codex-generation-summary.json",
+      "gallery": "docs/artwork-batch-1327.html",
+      "counts": {
+        "selected_entries": 50,
+        "new_creatures": 47,
+        "final_native_pngs": 47,
+        "declined_candidates": 3,
+        "corrections": 0,
+        "tool_calls": 60,
+        "successful_native_pngs": 60,
+        "quality_rejected_pngs": 13,
+        "tool_failures": 0
+      },
+      "validation": {
+        "checked_at": "2026-10-10T03:39:22.014664+00:00",
+        "batch": 1327,
+        "checks": 1404,
+        "errors": [],
+        "finals": 47,
+        "declined": 3,
+        "archived_rejected_pngs": 13,
+        "all_current_accepted_research_equal": true,
+        "all_native_and_200px_main_reviews": true,
+        "independent_review_pending": true,
+        "integration_performed": false
+      }
+    },
+    {
+      "batch": 1356,
+      "ledger": "data/artwork-batch-1356.json",
+      "handoff": "data/artwork-generated/batch-1356/codex-generation-summary.json",
+      "gallery": "docs/artwork-batch-1356.html",
+      "counts": {
+        "selected_entries": 29,
+        "new_creatures": 29,
+        "final_native_pngs": 29,
+        "declined_candidates": 0,
+        "corrections": 0,
+        "tool_calls": 36,
+        "successful_native_pngs": 36,
+        "quality_rejected_pngs": 7,
+        "tool_failures": 0
+      },
+      "validation": {
+        "checked_at": "2026-10-10T04:16:33.716506+00:00",
+        "batch": 1356,
+        "checks": 840,
+        "errors": [],
+        "finals": 29,
+        "declined": 0,
+        "archived_rejected_pngs": 7,
+        "all_current_accepted_research_equal": true,
+        "all_native_and_200px_main_reviews": true,
+        "independent_review_pending": true,
+        "integration_performed": false
+      }
+    }
+  ],
+  "declined": [
+    {
+      "slug": "ashite-kojin",
+      "reason": "Accepted research gives hand/foot healing worship, offerings, shrines, round sacred stone Okagami-ishi and historical warrior-origin spirit, but no deity bodily form or documented active manifestation. A static stone/shrine is landscape/object-only and fails Sangar; warrior-origin does not document Ashite Kōjin appearing as a samurai. No imported Shōmen Kongō anatomy or invented miraculous energy.",
+      "receipt_path": "data/artwork-generated/batch-1327/ashite-kojin.json",
+      "batch": 1327
+    },
+    {
+      "slug": "heluo-fish",
+      "reason": "Tiga percobaan kualitas gagal jumlah satu kepala sepuluh tubuh: attempt01 8–9 ekor, attempt02 delapan, attempt03 hanya sembilan terpisah (5kiri4kanan). Semua PNG nyata dan request/hash/alasan diarsipkan; tidak memilih gambar anatomi salah.",
+      "receipt_path": "data/artwork-generated/batch-1327/heluo-fish.json",
+      "batch": 1327
+    },
+    {
+      "slug": "nine-sons-of-the-dragon",
+      "reason": "Accepted research hanya memberi susunan kelompok, nama/sifat/dekorasi, wujud turtle untukBixi dan tiger untukBian; tidak menyediakan wujud konkret seluruh sembilan anggota dan nama berbeda menurut daftar. Tidak mengarang tujuh wujud tambahan atau sembilan naga generik. Tidak ada generasi dicoba.",
+      "receipt_path": "data/artwork-generated/batch-1327/nine-sons-of-the-dragon.json",
+      "batch": 1327
+    }
+  ],
+  "verification": {
+    "unique_selected_entries": 79,
+    "all_main_native_and_200px_reviews": true,
+    "current_research_equal": true,
+    "checks": 2244,
+    "errors": [],
+    "invalid_receipts": [],
+    "active_artwork": 1179,
+    "awaiting_receipts_total": 164,
+    "independent_review_pending": true,
+    "integration_performed": false,
+    "commit_or_push_performed": false
+  },
+  "archive_note": "Seluruh native final/rejected PNG tersedia lokal di workspace dan diabaikan git, tidak dihapus."
+}

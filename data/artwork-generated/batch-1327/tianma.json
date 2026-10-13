@@ -1,0 +1,81 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1327,
+  "slug": "tianma",
+  "depicted_variant": "Kuda terbang bersayap varian folklore, turun dari langit pada gerbang surgawi, tanpa menggabungkan sisik/bloodsweat.",
+  "basis_claim_ids": [
+    "tianma-c01",
+    "tianma-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Kuda satu kepala2mata4kaki, sayap sepasang dipilih literal dari varian wings.",
+      "claim_ids": [
+        "tianma-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Terbang turun dan berkelana gerbang langit; tanpa glow atau redblood.",
+      "claim_ids": [
+        "tianma-c01",
+        "tianma-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Gerbang langit/jade terrace hanya fragmen di belakang kuda.",
+      "claim_ids": [
+        "tianma-c11"
+      ]
+    }
+  ],
+  "aura": "Terbang tianma-c01 dan bergerak di gerbang langit tianma-c11 memberi keagungan tanpa mengarang efek aura.",
+  "artistic_choices": [
+    "Wings bisa metaforis menurut c01; varian bersayap literal dipilih dengan dua sayap berbulu editorial.",
+    "Warna kuda cokelat gelap/sayap bronze dan gate minimal editorial; tanpa scales/bloodsweat dari varian lain.",
+    "Framing rapat memberi dominasi tanpa gigantisme fisik; sayap c01 tidak ditafsir claim sejarah semua kuda Tianma."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of TIANMA, the heavenly flying horse, choosing the literal winged folklore variant.\nANATOMY: ONE noble HORSE head,TWOeyes,FOUR horse legs with hooves,ONE horse tail; TWO large FEATHERED WINGS,one at each side. Dark brown horse coat,NO horns,NO dragon scales. [tianma-c01]\nMOMENT: diving majestically downward toward viewer through a narrow opening at the gate of heaven, wings beating back, forehooves foreshortened forward, mane and tail streaming, intense commanding gaze.\nPOWER: actual flight only; airborne feathers and wind-driven ordinary cloud fragments,NO blood sweat or invented energy. [tianma-c01,tianma-c11]\nSCALE & CAMERA: extreme low close angle,the horse dominates from head to forward hooves,wings frame square; no human scale comparison.\nLIGHT & WEATHER: one low golden sun through gate opening,dark walnut shadows,sparse nonluminous clouds.\nSURFACE: coarse brown horse coat,matte bronze-brown feathered wings,black hooves,smooth weathered jade architectural fragment.\nSETTING: gate of heaven and tiny fragment of jade terrace behind the dominant horse. [tianma-c11]\nMOOD: awe-inspiring,powerful and overwhelming,not ordinary horse,cute/calm/decorative.\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-f47600df-a401-4c43-ae33-6cf286a960a6.png",
+  "generated_at": "2026-10-10T03:13:37.026Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1327/originals/tianma.png",
+  "native_sha256": "f4e863e8352fbbd6a6129c2f2acedc62539dd52f353652409f9e504d508d3371",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px dilihat: satu kepala kuda dua mata/dua sayap dan4kaki(total satuhindleg tertutup torso), horsecoat tanpa scales/horns. Turun mengarah penonton melalui gateheaven c11 dengan hoovesforeshortened,7Uji Sangar semua ya: kuat/agung pada200,tidak biasa. Ornamen gate relief nonliteral bukan lettering, tanpa teks/glyph/rune/aura/gore/desainadaptasi.",
+    "limitations": [],
+    "native_sha256": "f4e863e8352fbbd6a6129c2f2acedc62539dd52f353652409f9e504d508d3371",
+    "reviewed_at": "2026-10-10T03:13:37.139Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1327/requests/tianma-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "f4e863e8352fbbd6a6129c2f2acedc62539dd52f353652409f9e504d508d3371",
+    "notes": "Winged horse diving out of a jade sky gate through clouds straight at the viewer, hoof first; one head, four legs, one pair of wings."
+  }
+}

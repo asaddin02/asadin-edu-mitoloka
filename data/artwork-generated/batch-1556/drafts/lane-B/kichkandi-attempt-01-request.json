@@ -1,0 +1,59 @@
+{
+  "slug": "kichkandi",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kichkandi, the alluring woman ghost identified by backward feet. Native square PNG at least1024x1024.\nANATOMY: ONE young ADULT woman ghost, one head/two eyes/two arms/two legs, PALE skin, very long BLACK hair, fully opaque RED bridal clothes. BOTH FEET unnaturally reversed: face/chest toward camera while both foot TOES point AWAY from viewer and HEELS face camera. Ankles visible below raised hems, no extra feet. [kichkandi-c03, kichkandi-c04, kichkandi-c07, kichkandi-c09]\nMOMENT: LURE viewer with one beckoning hand while stepping close from dark riverside, inclined face intense, trailing red cloth; reverse feet clearly displayed in foreground at low angle.\nPOWER: Deadly lure to solitary men; no visual drain beams or invented floating aura. Menace solely backward feet, beckoning and close encounter. [kichkandi-c05, kichkandi-c08, kichkandi-c09]\nSCALE & CAMERA: Low fullbody close composition preserves face and both bare backward feet, figure fills vertical square.\nLIGHT & WEATHER: One cold moonbeam, warm red garment accent with deep shadow, thin ordinary river mist.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Night village path alongside a river and distant plain cremation-ground stones, no visible bones/remains. [kichkandi-c10]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the alluring woman ghost identified by backward feet",
+  "basis_claim_ids": [
+    "kichkandi-c03",
+    "kichkandi-c04",
+    "kichkandi-c07",
+    "kichkandi-c09",
+    "kichkandi-c05",
+    "kichkandi-c08",
+    "kichkandi-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE young ADULT woman ghost, one head/two eyes/two arms/two legs, PALE skin, very long BLACK hair, fully opaque RED bridal clothes. BOTH FEET unnaturally reversed: face/chest toward camera while both foot TOES point AWAY from viewer and HEELS face camera. Ankles visible below raised hems, no extra feet.",
+      "claim_ids": [
+        "kichkandi-c03",
+        "kichkandi-c04",
+        "kichkandi-c07",
+        "kichkandi-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Deadly lure to solitary men; no visual drain beams or invented floating aura. Menace solely backward feet, beckoning and close encounter.",
+      "claim_ids": [
+        "kichkandi-c05",
+        "kichkandi-c08",
+        "kichkandi-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night village path alongside a river and distant plain cremation-ground stones, no visible bones/remains.",
+      "claim_ids": [
+        "kichkandi-c10"
+      ]
+    }
+  ],
+  "aura": "LURE viewer with one beckoning hand while stepping close from dark riverside, inclined face intense, trailing red cloth; reverse feet clearly displayed in foreground at low angle. Grounded in kichkandi-c03, kichkandi-c04, kichkandi-c07, kichkandi-c09, kichkandi-c05, kichkandi-c08, kichkandi-c10.",
+  "artistic_choices": [
+    "Bride costume details and hairstyle editorial but source red/black/pale retained. Must show both backward feet clearly; not sexualized, no victim or inferred revenge. No floating pose used instead of reversed feet.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

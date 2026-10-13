@@ -1,0 +1,75 @@
+{
+  "slug": "krasnoludek",
+  "depicted_variant": "Helpful pointy-red-hat small humanoid variant, no mixed insect-size giant krosnalek; scale kept small with close camera",
+  "basis_claim_ids": [
+    "krasnoludek-c01",
+    "krasnoludek-c06",
+    "krasnoludek-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one very small human-shaped adult dwarf, one head two eyes two arms two legs, unmistakable pointy RED hat; full opaque rough clothes and boots; normal human eyes, no horns, no giant transformation",
+      "claim_ids": [
+        "krasnoludek-c01",
+        "krasnoludek-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magic effects; protective presence from close-up, movement and documented helpful guardian role",
+      "claim_ids": [
+        "krasnoludek-c05",
+        "krasnoludek-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "a dark hole in an old human dwelling with rough earth and stone",
+      "claim_ids": [
+        "krasnoludek-c05",
+        "krasnoludek-c06"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Emerge forcefully from a dark wall hole at the viewers floor-level camera, brace hands on the jagged opening and stride protectively toward viewer; sharp focused kindly stern gaze, not evil (krasnoludek-c01, krasnoludek-c06, krasnoludek-c05).",
+  "artistic_choices": [
+    "Helpful pointy-red-hat small humanoid variant, no mixed insect-size giant krosnalek; scale kept small with close camera",
+    "Waktu malam, cahaya bulan, palet walnut/emas, bahan pakaian/tekstur dan framing merupakan editorial, bukan fakta tambahan.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Krasnoludek, the small human-shaped helpful dwarf guardian in Polish folklore.\nANATOMY: one very small human-shaped adult dwarf, one head two eyes two arms two legs, unmistakable pointy RED hat; full opaque rough clothes and boots; normal human eyes, no horns, no giant transformation [krasnoludek-c01,krasnoludek-c06]\nMOMENT: Emerge forcefully from a dark wall hole at the viewers floor-level camera, brace hands on the jagged opening and stride protectively toward viewer; sharp focused kindly stern gaze, not evil.\nPOWER: No magic effects; protective presence from close-up, movement and documented helpful guardian role [krasnoludek-c05,krasnoludek-c06]\nSCALE & CAMERA: extreme low angle, close foreshortening, subject dominates square and identifying anatomy reads at200px; no invented giant scale unless documented.\nLIGHT & WEATHER: one dominant moon source, deep warm walnut shadows, antique gold rim highlights, wet air and ordinary physical spray or grit appropriate to action.\nSURFACE: tactile organic texture appropriate to anatomy, rough fur/feather/scales/cloth, wet stone, never plastic or statue.\nSETTING: a dark hole in an old human dwelling with rough earth and stone [krasnoludek-c05,krasnoludek-c06]\nMOOD: dangerous imposing active moment, or reverent overwhelming majesty for sacred beings; never cute, calm, decorative or an ordinary animal/person.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "batch": 1327,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-537ad59a-ec80-41b7-9a21-aa9ef3daaff5.png",
+  "generated_at": "2026-10-10T03:10:34.970264+00:00",
+  "original_file": "data/artwork-generated/batch-1327/originals/krasnoludek.png",
+  "native_sha256": "8305b49b1b5550cdea2ad5c9b29b39edd076e854e169b644d61f19882c20d6ee",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan200px UjiSangar7/7 ya. Small adult humanlike dwarf melangkah keluar lubang, pointed redhat besar jelas, dua tangan dan dua kaki konsisten. Tatapan stern protective, bukan maskot. Ukuran relatif lubang/ruang menjaga small form, tidak memakai giant variant; pakaian buram penuh. Tiada magic,teks,gore/glyph.",
+    "limitations": [],
+    "native_sha256": "8305b49b1b5550cdea2ad5c9b29b39edd076e854e169b644d61f19882c20d6ee",
+    "reviewed_at": "2026-10-10T03:10:34.970264+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8305b49b1b5550cdea2ad5c9b29b39edd076e854e169b644d61f19882c20d6ee",
+    "notes": "Small bearded dwarf in a pointed red hat crouching out of a hole in an old wall at the viewer; human eyes, opaque clothes and boots."
+  }
+}

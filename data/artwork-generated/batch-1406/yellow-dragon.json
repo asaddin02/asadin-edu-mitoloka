@@ -1,0 +1,94 @@
+{
+  "slug": "yellow-dragon",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Yellow Dragon, animal-form Yellow Emperor manifestation embodying earth. Native square PNG at least1024x1024.\nANATOMY: ONE living YELLOW CHINESE DRAGON head/two eyes with powerful scaled coiling neck. Broad noble dragon muzzle, ridged brow, long ochre whiskers, coarse beard/mane and two branching antlerlike horns are conventional editorial rendering of dragon category, not claimed exact source iconography. Body/limbs outside close crop. No wings. [yellow-dragon-c01, yellow-dragon-c03]\nMOMENT: RISE and turn its imposing head down toward the low viewer from dark ordinary soil, protective commanding gaze, dust rolling off neck; mouth open in a reverent powerful breath.\nPOWER: Earth association represented by soil clinging to neck and ordinary contact dust only. No earthquake, cracking earth, beam, glowing aura or breath weapon. [yellow-dragon-c02, yellow-dragon-c03]\nSCALE & CAMERA: Extreme low close confrontation; head/being fills most frame, distinguishing dragon face visible at200px; no undocumented gigantic body comparisons.\nLIGHT & WEATHER: One narrow warm sidelight against deep walnut shadows, hard rim, dark high contrast; physical water or dust only from documented scene.\nSURFACE: Living wet scales, coarse mane hairs, rain-wet opaque cloth when clothed, weathered stone or ordinary soil. Never plastic or glazed ornament.\nSETTING: Ordinary dark earthen ground at Chengji, where its appearance is recorded. [yellow-dragon-c06]\nMOOD: Reverent overwhelming dragon awe, commanding and imposing, never cute, calm, decorative or ordinary snake.\nHARD CONSTRAINTS: No text, lettering, glyphs, logo, border, frame or watermark. No extra heads, eyes, limbs, fingers. No film/game/anime/comic designs, no nudity or explicit gore, no generic glow aura, neon outlines, floating runes or energy ribbons. All clothing fully opaque. Conventional Chinese dragon rendering details are artistic interpretation of documented dragon identity, not new physical powers or claimed exact iconography.",
+  "depicted_variant": "animal-form Yellow Emperor manifestation embodying earth",
+  "basis_claim_ids": [
+    "yellow-dragon-c01",
+    "yellow-dragon-c03",
+    "yellow-dragon-c02",
+    "yellow-dragon-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE living YELLOW CHINESE DRAGON head/two eyes with powerful scaled coiling neck. Broad noble dragon muzzle, ridged brow, long ochre whiskers, coarse beard/mane and two branching antlerlike horns are conventional editorial rendering of dragon category, not claimed exact source iconography. Body/limbs outside close crop. No wings.",
+      "claim_ids": [
+        "yellow-dragon-c01",
+        "yellow-dragon-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Earth association represented by soil clinging to neck and ordinary contact dust only. No earthquake, cracking earth, beam, glowing aura or breath weapon.",
+      "claim_ids": [
+        "yellow-dragon-c02",
+        "yellow-dragon-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ordinary dark earthen ground at Chengji, where its appearance is recorded.",
+      "claim_ids": [
+        "yellow-dragon-c06"
+      ]
+    }
+  ],
+  "aura": "RISE and turn its imposing head down toward the low viewer from dark ordinary soil, protective commanding gaze, dust rolling off neck; mouth open in a reverent powerful breath. Supported by yellow-dragon-c01, yellow-dragon-c03, yellow-dragon-c02, yellow-dragon-c03, yellow-dragon-c06.",
+  "artistic_choices": [
+    "Documented dragon category is rendered with conventional Chinese dragon physiognomy as editorial detail; exact horns, mane, whiskers, limbs or historical portrait are not facts claimed by research.",
+    "Low camera, close framing, palette and directional light are editorial; no unsupported physical power.",
+    "Correction addresses owner-supplied Claude rejection: Ular biasa, bukan naga."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-01.json",
+      "native_sha256": "01125bbab915580b7b15e53127acd33d24536b605a933f71074d80099ef9b672",
+      "reason": "Generator inserted mane, beard and long whiskers, none specified by accepted Yellow Dragon research; minimal anatomy requested to avoid invention."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-02.json",
+      "native_sha256": "733025f0c5a7dd9c6e8a9a16ca711048ed1727ceac63ad9afa542116c9d5b4e0",
+      "reason": "Ular biasa, bukan naga."
+    }
+  ],
+  "correction_cycle": {
+    "source": "owner-supplied Claude rejection 2026-10-13",
+    "maximum_new_calls": 3,
+    "prior_selected_native_sha256": "733025f0c5a7dd9c6e8a9a16ca711048ed1727ceac63ad9afa542116c9d5b4e0",
+    "archived_prior_receipt": "data/artwork-generated/batch-1406/rejected/yellow-dragon-attempt-02-old-receipt.json"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a1330e-d0d4-7eb1-b0fb-c4178408d1a0/exec-84a897db-6454-47cd-aca1-97ddabecf7d8.png",
+  "native_sha256": "7c86883d924d4587aee746b1396cffadd0da3bf2329f138df80bb4155605f044",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-13T03:09:01.289105+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/yellow-dragon.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: Yellow Dragon living face and powerful coiling neck rise toward viewer through ordinary soil; yellow scales and commanding two-eyed gaze dominate, dragon muzzle/jaws/mane/whiskers/branched horn pair make identity immediate at200px. Conventional physiognomy explicitly editorial, category grounded c01/c03. Soil/dust only from physical contact represents earth association c02/c03, no earthquake or breath weapon. Respectful commanding presence, not human-harming scene. One head, limbs cropped, no text/glow/adaptation. Seven Sangar checks pass; ordinary-snake rejection addressed.",
+    "limitations": [],
+    "native_sha256": "7c86883d924d4587aee746b1396cffadd0da3bf2329f138df80bb4155605f044",
+    "reviewed_at": "2026-10-13T03:13:22.961146+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "7c86883d924d4587aee746b1396cffadd0da3bf2329f138df80bb4155605f044",
+    "notes": "Correction: yellow dragon with branching horns heaving its coiled neck out of the earth, soil clinging and falling; no longer an ordinary snake."
+  }
+}

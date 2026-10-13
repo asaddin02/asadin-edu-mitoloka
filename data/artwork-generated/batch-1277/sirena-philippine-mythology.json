@@ -1,0 +1,84 @@
+{
+  "slug": "sirena-philippine-mythology",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-014.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Sirena (Philippine mythology), as documented in the accepted traditional claims.\nANATOMY: One adult mermaid with one woman's head and torso, two eyes and two arms, very long flowing wavy black hair, one fish tail from the waist down and no legs. Fully opaque weathered dark cloth covers the entire chest and torso [sirena-philippine-mythology-c01, sirena-philippine-mythology-c12]\nMOMENT: Surge toward the viewer out of the shore rocks while singing with intense direct gaze, her long scaled tail curling through the foreground.\nPOWER: The water rises rapidly into a real engulfing surge around her, physically drowning the rocky shore; no music symbols or magical beams [sirena-philippine-mythology-c03, sirena-philippine-mythology-c24]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single low moon shaft, deep walnut-black shadows, violent salt spray.\nSURFACE: wet fish scales, tangled black hair, coarse opaque cloth.\nSETTING: Rocky Philippine shore in the darkness beside the sea [sirena-philippine-mythology-c09]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Sirena berekor ikan mengangkat air di pantai berbatu saat menyanyi.",
+  "basis_claim_ids": [
+    "sirena-philippine-mythology-c01",
+    "sirena-philippine-mythology-c12",
+    "sirena-philippine-mythology-c03",
+    "sirena-philippine-mythology-c24",
+    "sirena-philippine-mythology-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One adult mermaid with one woman's head and torso, two eyes and two arms, very long flowing wavy black hair, one fish tail from the waist down and no legs. Fully opaque weathered dark cloth covers the entire chest and torso",
+      "claim_ids": [
+        "sirena-philippine-mythology-c01",
+        "sirena-philippine-mythology-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The water rises rapidly into a real engulfing surge around her, physically drowning the rocky shore; no music symbols or magical beams",
+      "claim_ids": [
+        "sirena-philippine-mythology-c03",
+        "sirena-philippine-mythology-c24"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky Philippine shore in the darkness beside the sea",
+      "claim_ids": [
+        "sirena-philippine-mythology-c09"
+      ]
+    }
+  ],
+  "aura": "The water rises rapidly into a real engulfing surge around her, physically drowning the rocky shore; no music symbols or magical beams [sirena-philippine-mythology-c03, sirena-philippine-mythology-c24]",
+  "artistic_choices": [
+    "Busana buram merupakan pilihan editorial demi menghindari ketelanjangan.",
+    "Tidak memakai rupa Dyesebel atau adaptasi televisi; efek air c24."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-24cbfb92-0654-43d7-9628-dff479efa599.png",
+  "generated_at": "2026-10-09T01:10:16.435576+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/sirena-philippine-mythology.png",
+  "native_sha256": "998fd238fe50a3e9f596d33bc0edb4b174403c9da19743e70ba8942553fa5738",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: sirena satu kepala dua lengan dengan satu ekor ikan tanpa kaki; busana dada dan torso buram. Tangan meraih penonton dan mulut menyanyi, gelombang naik nyata c24 di batu pantai c09. Ekor besar foreground membuat makhluk langsung terbaca. Uji Sangar 7/7.",
+    "limitations": [],
+    "native_sha256": "998fd238fe50a3e9f596d33bc0edb4b174403c9da19743e70ba8942553fa5738",
+    "reviewed_at": "2026-10-09T01:10:16.435576+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "998fd238fe50a3e9f596d33bc0edb4b174403c9da19743e70ba8942553fa5738",
+    "notes": "Black-haired mermaid with one fish tail, chest covered by dark cloth, reaching out as the sea surges over the rocks under the moon."
+  }
+}

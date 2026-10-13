@@ -1,0 +1,95 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "bajang",
+  "depicted_variant": "Bajang sebagai pole-cat familiar yang muncul dari tabung bambu dan menerjang karena diabaikan tuannya.",
+  "basis_claim_ids": [
+    "bajang-c04",
+    "bajang-c03",
+    "bajang-c09",
+    "bajang-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Wujud pole-cat sesuai Skeat, bukan cricket/lizard atau hantu humanoid gabungan.",
+      "claim_ids": [
+        "bajang-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mengganggu rumah dan menyerang tuan jika kelaparan/diabaikan; aksi menerjang, tanpa aura atau possession beam.",
+      "claim_ids": [
+        "bajang-c04",
+        "bajang-c09",
+        "bajang-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior rumah dengan tabung bambu sebagai tempat menyimpan familiar.",
+      "claim_ids": [
+        "bajang-c04",
+        "bajang-c03"
+      ]
+    }
+  ],
+  "aura": "Ancaman familiar datang dari pole-cat yang mengganggu rumah dan dapat menyerang tuannya jika diabaikan (bajang-c04, bajang-c09, bajang-c07).",
+  "artistic_choices": [
+    "Varian pole-cat dipilih; tidak memakai cricket/lizard/musang atau kuku panjang hantu humanoid.",
+    "Satu kepala, dua mata, empat kaki dan ekor mengikuti pole-cat biasa, warna bulu cokelat/hitam editorial.",
+    "Tidak menggambar fetus/anak/victim/injury atau counter-charm tulisan.",
+    "Tabung bambu terbuka, mangkuk susu kosong dan telur adalah properti editorial dari c03/c09; ukuran tubuh dipertahankan melalui framing close-up.",
+    "Tidak memvisualisasi penyakit sebagai cahaya atau kabut supernatural."
+  ],
+  "prompt": "EDIT ONLY the bamboo storage CONTAINER behind the attacking pole-cat in attached Bajang illustration. Preserve animal anatomy, fur, snarl, paws, tail, pose, lamp, floor, egg, bowl, dust and all lighting unchanged.\nThe current container looks like a WOVEN BASKET cylinder. Replace it with ONE HOLLOW NATURAL BAMBOO STEM TUBE, cut open at the near end: solid continuous smooth yellow-brown bamboo wall with longitudinal grain, one natural raised bamboo NODE RING farther back, thick circular cut rim and black hollow cavity. NO WOVEN STRIPS, NO lattice, NO crosshatching, NO basket construction. It lies in the same location and scale as the current container, behind the pole-cat. Preserve empty opening and original composition. No markings, glyphs, lettering or added objects. Everything else exactly unchanged.",
+  "edit_target_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-c8f04217-bce6-4d6e-a2e2-8b3d3ab9ce2b.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-75ab260b-de58-4ed6-892e-df7bb9001bcd.png",
+  "generated_at": "2026-10-10T03:58:57.117Z",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1356/rejected/bajang-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1356/rejected/bajang-attempt-01.json",
+      "native_sha256": "c7b1309bf565dac2dec6a0268bd9f531a45f6efe6a76223b8b0e2958bd892c4d",
+      "reason": "Tabung bambu c03 dihasilkan sebagai keranjang anyaman silinder; bukan rongga batang bambu alami yang didokumentasikan. Perlu edit targeted container saja."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-011.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/bajang.png",
+  "native_sha256": "9a0ea023595eaada8b18c45ec7ff587f0ce3a4a5d5c26eeade228dd112cc0f9f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa setelah edit02 container. Pole-cat menerjang dengan satu kepala, dua mata natural, empat kaki secara occlusion wajar, ekor tunggal dan anatomi paw wajar. Container kini batang bambu solid berongga, bukan anyaman. Snarl/aksi rumah dari bajang-c04/c09, tabung c03, tanpa ghostfire/gore/glyph; sifat maligna bersumber c07 dan tidak cute.",
+    "limitations": [],
+    "native_sha256": "9a0ea023595eaada8b18c45ec7ff587f0ce3a4a5d5c26eeade228dd112cc0f9f",
+    "reviewed_at": "2026-10-10T03:58:57.234Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/bajang-attempt-02.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9a0ea023595eaada8b18c45ec7ff587f0ce3a4a5d5c26eeade228dd112cc0f9f",
+    "notes": "Polecat snarling and clawing out of a bamboo tube across a house floor at lamplight; no humanoid ghost traits."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "ratoshikamuy",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Rātoshikamuy, as documented in the accepted traditional claims.\nANATOMY: One immense octopus with one mantle/head, two eyes, exactly eight sucker-lined arms, no other appendages; head stays underwater [ratoshikamuy-c01, ratoshikamuy-c03, ratoshikamuy-c04]\nMOMENT: Curl eight huge arms toward the viewer and pull backward with impossible force; confront us with angry eyes beneath the surface.\nPOWER: Black ink physically pours from the octopus mouth into the water; arms wrench up seawater [ratoshikamuy-c03, ratoshikamuy-c04]\nSCALE & CAMERA: extreme low angle, dominant close framing; subject fills the image and distinguishing anatomy is readable at 200 pixels.\nLIGHT & WEATHER: single dim moon shaft through turbid water, churning spray.\nSURFACE: wet red-brown mottled flesh and tactile suckers.\nSETTING: The sea at the mouth of the Ishikari River, a close split-level underwater view showing the head submerged [ratoshikamuy-c02]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating symbols.",
+  "depicted_variant": "Gurita raksasa Rātoshikamuy dilihat melintasi permukaan air, kepala tetap terendam.",
+  "basis_claim_ids": [
+    "ratoshikamuy-c01",
+    "ratoshikamuy-c03",
+    "ratoshikamuy-c04",
+    "ratoshikamuy-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One immense octopus with one mantle/head, two eyes, exactly eight sucker-lined arms, no other appendages; head stays underwater",
+      "claim_ids": [
+        "ratoshikamuy-c01",
+        "ratoshikamuy-c03",
+        "ratoshikamuy-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Black ink physically pours from the octopus mouth into the water; arms wrench up seawater",
+      "claim_ids": [
+        "ratoshikamuy-c03",
+        "ratoshikamuy-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The sea at the mouth of the Ishikari River, a close split-level underwater view showing the head submerged",
+      "claim_ids": [
+        "ratoshikamuy-c02"
+      ]
+    }
+  ],
+  "aura": "Black ink physically pours from the octopus mouth into the water; arms wrench up seawater [ratoshikamuy-c03, ratoshikamuy-c04]",
+  "artistic_choices": [
+    "Huri tidak ditampilkan agar delapan lengan dan subjek utama jelas.",
+    "Ink hitam dan tarikan lengan berasal dari c03/c04; warna kulit pilihan editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-6a90190b-34f3-47a0-bef5-26642e13fbec.png",
+  "generated_at": "2026-10-09T01:03:02.353466+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/ratoshikamuy.png",
+  "native_sha256": "3bcf5aadf36cb84f86355078cb1d664fb46148afd69f4e6ad0feda42597b686d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: kepala dan dua mata gurita di bawah garis air, lengan bersucker melingkungi bingkai dengan tarikan aktif, tinta hitam menyebar nyata c03. Delapan lengan sebagian terendam dan terforeshortening; tanpa tambahan anggota, teks atau gore. Uji Sangar 7/7.",
+    "limitations": [],
+    "native_sha256": "3bcf5aadf36cb84f86355078cb1d664fb46148afd69f4e6ad0feda42597b686d",
+    "reviewed_at": "2026-10-09T01:03:02.353466+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "3bcf5aadf36cb84f86355078cb1d664fb46148afd69f4e6ad0feda42597b686d",
+    "notes": "Giant octopus with head kept under water, arms wrenching up the sea and black ink pouring out at a river mouth; split-level view."
+  }
+}

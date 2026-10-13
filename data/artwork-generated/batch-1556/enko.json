@@ -1,0 +1,76 @@
+{
+  "slug": "enko",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of enko, Enkō the furry monkeylike river yōkai with elastic clawed limbs.\nANATOMY: ONE furry MONKEYLIKE small being, about small-child scale; ONE head/TWO eyes/TWO long elastic arms/TWO legs; fingers terminate in sharp CLAWS. Plain monkey anatomy, no dish on head or turtle shell imported from generic kappa. Long arms stretch conspicuously toward camera, limbs remain exactly four [enko-c02, enko-c04, enko-c05]\nMOMENT: SURGE from river and STRETCH its clawed arms toward viewer at water level, head lowered and teeth bared; a horse lower leg at frame edge gives small scale\nPOWER: Elastic limbs extend while pulling at horse leg in river, physical stretch and splashing only; no victim wounds [enko-c04, enko-c10]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one low warm bank light across dark river, wet rim and real water spray; only physical particles justified by action.\nSURFACE: soaked coarse fur, natural sharp claws, muddy river water.\nSETTING: river in Japan where Enkō attacks horses [enko-c03, enko-c10]\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE furry MONKEYLIKE small being, about small-child scale; ONE head/TWO eyes/TWO long elastic arms/TWO legs; fingers terminate in sharp CLAWS. Plain monkey anatomy, no dish on head or turtle shell imported from generic kappa. Long arms stretch conspicuously toward camera, limbs remain exactly four",
+      "claim_ids": [
+        "enko-c02",
+        "enko-c04",
+        "enko-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Elastic limbs extend while pulling at horse leg in river, physical stretch and splashing only; no victim wounds",
+      "claim_ids": [
+        "enko-c04",
+        "enko-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "river in Japan where Enkō attacks horses",
+      "claim_ids": [
+        "enko-c03",
+        "enko-c10"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "enko-c02",
+    "enko-c04",
+    "enko-c05",
+    "enko-c10",
+    "enko-c03"
+  ],
+  "depicted_variant": "Enkō the furry monkeylike river yōkai with elastic clawed limbs",
+  "artistic_choices": [
+    "Select monkeylike c02 variant, not slimy child c08 alternate appearance. Scale childlike for non-giant framing; no organ extraction shown. Horse partial leg is comparator only, no metal tack."
+  ],
+  "aura": "Elastic limbs extend while pulling at horse leg in river, physical stretch and splashing only; no victim wounds [enko-c04, enko-c10]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "batch": 1556,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-c597-7a53-af3b-3c9b74362858/exec-ff8f5a2b-5bc3-4312-97f1-3347387bef44.png",
+  "generated_at": "2026-10-12T16:23:23.718156+00:00",
+  "original_file": "data/artwork-generated/batch-1556/originals/enko.png",
+  "native_sha256": "62e45fe16534df8524d0bc3f03c140d0c96d779c33774a751a8bb12698d6b515",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native/200px: furry monkeylike riverbeing2eyes c02, two elongatedelasticarms with sharpclaws c04/c05 onepullshorseleg c10, physicalsplashes only. Horsesmallscale avoids inventedgiant; subjectfurious directgaze. No kappa-shell/dish/gore/metal. All7pass.",
+    "limitations": [],
+    "native_sha256": "62e45fe16534df8524d0bc3f03c140d0c96d779c33774a751a8bb12698d6b515",
+    "reviewed_at": "2026-10-12T16:23:23.718156+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "62e45fe16534df8524d0bc3f03c140d0c96d779c33774a751a8bb12698d6b515",
+    "notes": "Furry monkey-like river yokai stretching elastic clawed arms to grab a horse's leg in the river, fangs bared; no dish or shell."
+  }
+}

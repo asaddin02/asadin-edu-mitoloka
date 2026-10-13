@@ -1,0 +1,71 @@
+{
+  "slug": "kanbari-nyudo",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kanbari nyūdō, the Japanese toilet yokai in Sekien monk-like bird-expelling form. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one monk-like human figure with one head/two eyes, two arms/two legs, shaved or balding scalp, fully opaque simple monk robe; one living bird emerging from open mouth, bird has one head/two wings/two legs, no blood or injury [kanbari-nyudo-c02]\nMOMENT: LEAN suddenly into dark toilet doorway toward viewer while a bird bursts from his open mouth with wings already beating; one hand grabs doorpost\nPOWER: documented mouth-expelled bird only; no gold head, aura, magic chant glyphs or fox body mixed in [kanbari-nyudo-c02]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: single low oil-lamp light outside crop, dark toilet doorway, dusty cold air\nSURFACE: aged human skin, coarse opaque robe, natural bird feathers and wooden post\nSETTING: old wooden toilet doorway at year end, no fixtures or human visitor shown [kanbari-nyudo-c01, kanbari-nyudo-c07]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Sekien monk-like bird-expelling depiction, not severed-head or fox anecdote.",
+  "basis_claim_ids": [
+    "kanbari-nyudo-c02",
+    "kanbari-nyudo-c01",
+    "kanbari-nyudo-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Monk-like figure, bird expelled from mouth",
+      "claim_ids": [
+        "kanbari-nyudo-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical bird exit from mouth",
+      "claim_ids": [
+        "kanbari-nyudo-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Toilet at year end",
+      "claim_ids": [
+        "kanbari-nyudo-c01",
+        "kanbari-nyudo-c07"
+      ]
+    }
+  ],
+  "aura": "Uncanny threat comes from the monk-like yokai expelling a live bird from his mouth (kanbari-nyudo-c02).",
+  "artistic_choices": [
+    "Simple opaque brown robe, bare scalp and small unspeciated bird are editorial monk/bird rendering. Close framing not invented giant scale; no gross bodily functions or toilet use. Frightening supernatural event without gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-fe744210-4159-4a59-bdf2-d5b5362ba124.png",
+  "generated_at": "2026-10-12T08:06:37.733051+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/kanbari-nyudo.png",
+  "native_sha256": "5696b85cfece93f48637570e69317c916ae33d1110aea5350f5430f983011170",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected all seven checks pass. Monk-like yokai one human head/two eyes, opaque robe, left grip hand five digits; other limb portions naturally occluded. One bird physically exits mouth c02 with one head,two wings,two legs, no injury. Startling forward lean dominates old toilet doorway c01/c07, uncanny bird expulsion readable at200px. No invented magical symbols, severed head variant, gore or film design.",
+    "limitations": [],
+    "native_sha256": "5696b85cfece93f48637570e69317c916ae33d1110aea5350f5430f983011170",
+    "reviewed_at": "2026-10-12T08:06:37.733248+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "5696b85cfece93f48637570e69317c916ae33d1110aea5350f5430f983011170",
+    "notes": "Monk-like figure at a privy door with a bird bursting out of his gaping mouth."
+  }
+}

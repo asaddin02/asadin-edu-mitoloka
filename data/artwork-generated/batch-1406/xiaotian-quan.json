@@ -1,0 +1,79 @@
+{
+  "slug": "xiaotian-quan",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Xiaotian Quan, the black celestial dog accompanying Erlang Shen, using its powerful bite and howl. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one BLACK thin hunting dog with one head, two eyes, four legs and one tail, natural canine muzzle and teeth, no wings, horns, armour or anthropomorphic body [xiaotian-quan-c01, xiaotian-quan-c02, xiaotian-quan-c11]\nMOMENT: LEAP forward snarling in a forceful bark at the viewer, forepaws reaching and hindquarters propelling, loyal celestial guardian rather than evil beast\nPOWER: documented powerful bite and howl expressed in open jaws and air from barking; no visual sound rings or invented magic [xiaotian-quan-c02]\nSCALE & CAMERA: extreme low angle, tight foreshortened framing; no invented gigantic size\nLIGHT & WEATHER: a single slanting warm sunset shaft, deep walnut shadows, strong rim light\nSURFACE: coarse black fur, sinewy limbs, wet black nose and stone gate\nSETTING: near the Southern Heavenly Gate of the loyal-dog legend, only a dark unlettered gate edge seen [xiaotian-quan-c08]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented character; never cute, calm or decorative. The creature itself dominates and remains striking at 200 pixels.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, coloured magic mist or energy ribbons. Bracketed claim IDs are instructions, never visible text.",
+  "depicted_variant": "Loyal black thin celestial hunting dog, not the wicked-woman variant.",
+  "basis_claim_ids": [
+    "xiaotian-quan-c01",
+    "xiaotian-quan-c02",
+    "xiaotian-quan-c11",
+    "xiaotian-quan-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Black dog",
+      "claim_ids": [
+        "xiaotian-quan-c01",
+        "xiaotian-quan-c02"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Thin hunting dog appearance",
+      "claim_ids": [
+        "xiaotian-quan-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bite and howl used to subdue demons",
+      "claim_ids": [
+        "xiaotian-quan-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Southern Heavenly Gate in loyal dog legend",
+      "claim_ids": [
+        "xiaotian-quan-c08"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the loyal dog violent forward movement and documented battle bite/howl (xiaotian-quan-c01, xiaotian-quan-c02).",
+  "artistic_choices": [
+    "No demon victim, blood or invented sound energy. Unornamented heavenly gate is editorial; no religious symbols invented. Close framing keeps dog extraordinary through confrontational celestial guardianship without colossal size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-b23d-7ca0-854b-2026eb415ea9/exec-a5b8a7b8-40e3-425e-b2c9-b5c3c374c022.png",
+  "generated_at": "2026-10-12T02:57:23.998385+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/xiaotian-quan.png",
+  "native_sha256": "78936ed1601cf6fb34102ee5c047e0a8e1e4839a096aac8c9465f8945ff42228",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native and200px; seven checks pass. One black canine head with two eyes, four natural limbs and one tail (far hind leg largely occluded), dynamic leap/bark. Thin hindlimb and hunting-dog silhouette, perspective enlarges head/forepaws. Unlettered heavenly gate edge shows guardian context. No horns, wings, glow, soundrings, gore or text. Fierce loyal guardian remains dominant at200px.",
+    "limitations": [],
+    "native_sha256": "78936ed1601cf6fb34102ee5c047e0a8e1e4839a096aac8c9465f8945ff42228",
+    "reviewed_at": "2026-10-12T02:57:23.999013+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "78936ed1601cf6fb34102ee5c047e0a8e1e4839a096aac8c9465f8945ff42228",
+    "notes": "Thin black hunting dog snarling and charging out of the Southern Heavenly Gate above the clouds."
+  }
+}

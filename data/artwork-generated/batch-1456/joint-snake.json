@@ -1,0 +1,85 @@
+{
+  "slug": "joint-snake",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of joint snake, the Southern American snake said to break apart and rejoin. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one serpent head, two eyes, one otherwise limbless nearly straight rigid snake body; hard parchmentlike smooth skin; rear body split into several short clean segments, with no blood or exposed organs; no extra heads [joint-snake-c01, joint-snake-c02, joint-snake-c05]\nMOMENT: SNAP its dry separated tail segments back into alignment as the near-straight neck and head slide toward close viewer, gaps between four or five small rear segments clearly visible before reconnection\nPOWER: documented breaking and reassembling physically shown by separated pieces drawing into a single chain; no light ribbons, sparks or aura [joint-snake-c02, joint-snake-c05]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: glass-smooth matte-brown snake skin, parchment-hard closed segment faces and dry ground\nSETTING: Southern United States tale, neutral dark ground; no specific habitat invented [joint-snake-c01]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.\nCORRECTION: Use a narrow angular snake head with small slit-pupil eyes in deep sockets, tense jaw slightly open, realistic restrained natural snake teeth. Do not use large round mascot eyes. Head must be severe and alert, scales glass-smooth and matte, body mostly straight and rigid. Separated short tail pieces should lie almost level just above ground, not arc into a floating decorative curve.\nCORRECTION: Body must be straight like a rigid wooden rod from behind head all the way to detached tail pieces. Side-three-quarter camera places head bottom-left and straight body diagonally to upper-right. Absolutely NO loop, coiling, S-curve, neck arch or bent body. Mouth close to closed with only tiny natural teeth, no exaggerated fangs. Detached pieces under an inch long are small compared with head, low to ground with tiny gaps.",
+  "depicted_variant": "Legendary self-reassembling snake, not a claim that actual glass lizards can rejoin.",
+  "basis_claim_ids": [
+    "joint-snake-c01",
+    "joint-snake-c05",
+    "joint-snake-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Legendary snake, hard smooth stiff skin",
+      "claim_ids": [
+        "joint-snake-c01",
+        "joint-snake-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Breaks in short clean bloodless segments/reassembles",
+      "claim_ids": [
+        "joint-snake-c02",
+        "joint-snake-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "SouthernUnitedStates, unspecified ground",
+      "claim_ids": [
+        "joint-snake-c01"
+      ]
+    }
+  ],
+  "aura": "Threat comes from bloodless pieces actively drawing into a snake behind its poised head (joint-snake-c02, joint-snake-c05).",
+  "artistic_choices": [
+    "Dry segment boundaries are clean closed surfaces to avoid gore. Brown scale colour and plain ground are editorial. Mythic action shown without inventing actual lizard anatomy or scientific ability."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/joint-snake-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/joint-snake-attempt-01.json",
+      "native_sha256": "136935f52b5866239a4794f48ef27709f6006e82a96dad6210f825ca2e5337c0",
+      "reason": "Eyes oversized and rounded face reads as cute toy snake at200px; fails Sangar2/7."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/joint-snake-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/joint-snake-attempt-02.json",
+      "native_sha256": "5ba9a9b57ed7eb8a018261e7d806c9e9102f5e53b6cd6454cf0be383acfc2f90",
+      "reason": "Neck and body form broad folded curve despite source c05 nearly unable to bend; unsupported flexible body depiction."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-6d7287a8-06b3-4e5a-a310-d715582bd1f7.png",
+  "generated_at": "2026-10-12T08:03:22.277242+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/joint-snake.png",
+  "native_sha256": "9fe947de2e81c271417d2521113c9dd344e4a1d10523affb28080277452616a7",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected; all seven checks pass. One serpent head/two eyes (far eye partly occluded by threequarter perspective), zero limbs, rigid near-straight body c05 and four small separate clean tail segments reconnecting c02/c05. Severe near-camera eye and uncanny disconnection read at200px. No gore or invented power/letters. First cute result and second curved result archived; final correction uses rigid rod staging.",
+    "limitations": [],
+    "native_sha256": "9fe947de2e81c271417d2521113c9dd344e4a1d10523affb28080277452616a7",
+    "reviewed_at": "2026-10-12T08:03:22.277444+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9fe947de2e81c271417d2521113c9dd344e4a1d10523affb28080277452616a7",
+    "notes": "Snake on bare ground whose stiff tail has broken into clean bloodless segments; the documented trait is the subject, though the mood is quiet."
+  }
+}

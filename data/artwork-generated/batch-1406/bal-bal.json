@@ -1,0 +1,90 @@
+{
+  "slug": "bal-bal",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Bal-Bal, a manlike corpse-stealing creature in Tagbanua traditions. Native PNG at least 1024 by 1024 pixels.\nANATOMY: One manlike head, two eyes, two arms with large curved claws, two wings, two legs, and one exceptionally long tongue; body covered with fully opaque worn cloth. [bal-bal-c15]\nMOMENT: Claw open a thatch roof, one wing raised, its long tongue thrust down through the opening toward the dark room.\nPOWER: Physical tearing of thatch by curved nails, with the long tongue probing the opening; no corpses or gore visible. [bal-bal-c16]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening provide dominance; do not invent giant size; distinguishing anatomy remains clear at 200 pixels.\nLIGHT & WEATHER: One moon source silhouettes the spread wings and broken thatch, airborne dust.\nSURFACE: tactile natural fur, hair, feather, skin, cloth, scale or metal as appropriate to the documented form, never plastic.\nSETTING: A thatched house during a burial vigil, shown only as the roof and dark interior. [bal-bal-c12]\nMOOD: menacing, dangerous and imposing; never cute, calm or decorative. Dark walnut, antique gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, lettering, glyph, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Older Tagbanua winged manlike thatch-tearing variant.",
+  "basis_claim_ids": [
+    "bal-bal-c15",
+    "bal-bal-c16",
+    "bal-bal-c12",
+    "bal-bal-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One manlike head, two eyes, two arms with large curved claws, two wings, two legs, and one exceptionally long tongue; body covered with fully opaque worn cloth.",
+      "claim_ids": [
+        "bal-bal-c01",
+        "bal-bal-c12",
+        "bal-bal-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical tearing of thatch by curved nails, with the long tongue probing the opening; no corpses or gore visible.",
+      "claim_ids": [
+        "bal-bal-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A thatched house during a burial vigil, shown only as the roof and dark interior.",
+      "claim_ids": [
+        "bal-bal-c12"
+      ]
+    }
+  ],
+  "aura": "Claw open a thatch roof, one wing raised, its long tongue thrust down through the opening toward the dark room. Supported by bal-bal-c15, bal-bal-c16, bal-bal-c12.",
+  "artistic_choices": [
+    {
+      "description": "Low camera, dark warm palette, directional light and opaque clothing when applicable are editorial choices; no unrecorded powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Older Tagbanua winged manlike thatch-tearing variant.",
+      "claim_ids": [
+        "bal-bal-c15"
+      ]
+    },
+    {
+      "description": "Feather texture of the documented wings is editorial; wing material is not specified. Sharp teeth and curved claws follow c01/c12, with long tongue c12 and wings c15.",
+      "claim_ids": [
+        "bal-bal-c01",
+        "bal-bal-c12",
+        "bal-bal-c15"
+      ]
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-f1eb-7812-bed1-d88bbc42e100/exec-2e8e8868-4ffd-4ccb-be11-122b9e6715af.png",
+  "native_sha256": "ec090443eb2a7dc171fea35f30e8af97ebe1cb6976f90d5cce6ddba170045c2a",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-015.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T02:43:02.885331+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/bal-bal.png",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. One clothed manlike ghoul with two spread wings, two clawed arms and one long tongue tears a visible thatch opening. Two eyes and one face; legs cropped behind roof. Face, claws and tongue dominate at 200px. Physical thatch fragments and dust are tied to c16, no corpse or gore. Seven checks pass; no symbols or text.",
+    "limitations": [],
+    "native_sha256": "ec090443eb2a7dc171fea35f30e8af97ebe1cb6976f90d5cce6ddba170045c2a",
+    "reviewed_at": "2026-10-12T02:43:02.885331+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "ec090443eb2a7dc171fea35f30e8af97ebe1cb6976f90d5cce6ddba170045c2a",
+    "notes": "Winged ghoul in rags tearing through a thatched roof with hooked claws, its long tongue probing down into the house."
+  }
+}

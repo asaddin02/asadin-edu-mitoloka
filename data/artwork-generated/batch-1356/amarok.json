@@ -1,0 +1,82 @@
+{
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "batch": 1356,
+  "slug": "amarok",
+  "depicted_variant": "Amarok sebagai serigala raksasa tunggal yang memburu pelintas/pemburu malam.",
+  "basis_claim_ids": [
+    "amarok-c01",
+    "amarok-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu serigala raksasa, bukan kawanan; anatomi serigala normal.",
+      "claim_ids": [
+        "amarok-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mengintai lalu menerjang pemburu yang sendirian pada malam hari.",
+      "claim_ids": [
+        "amarok-c01",
+        "amarok-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lingkungan Arktik malam, satu pemburu sebagai pembanding kecil.",
+      "claim_ids": [
+        "amarok-c01"
+      ]
+    }
+  ],
+  "aura": "Bahaya dari skala serigala raksasa dan perburuan tunggal malam (amarok-c01, amarok-c09), tanpa kekuatan Waheela yang tidak dijadikan basis.",
+  "artistic_choices": [
+    "Bulu kelabu gelap, salju/medan Arktik dan moonlight editorial dari konteks Inuit.",
+    "Empat kaki, satu kepala, dua mata, satu ekor mengikuti anatomi serigala; tidak menambahkan tanduk/mata bercahaya.",
+    "Pemburu berpakaian tebal sangat kecil tanpa luka sebagai pembanding ukuran raksasa.",
+    "Tidak menampilkan kisah anak/anak serigala atau efek supranatural dari asosiasi Waheela."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of AMAROK, the gigantic solitary wolf of Inuit tradition that stalks lone hunters by night.\nANATOMY: exactly ONE GIANT WOLF, ONE head TWO natural eyes FOUR legs ONE tail; realistic wolf anatomy, immense coarse gray-black winter fur and visible wolf teeth, no horns or antlers. [amarok-c01]\nMOMENT: bursting from a dark snow ridge straight toward the viewer, one enormous forepaw crashes down into foreground snow, mouth open in a fierce hunting snarl, gaze fixed toward us; a tiny solitary fully clothed hunter retreats far below for clear scale, no injury.\nPOWER: documented giant solitary predator, stalking people foolish enough to hunt alone after dark; physical hunt and snow displaced by paws only, no magical beams or glow. [amarok-c01,c09]\nSCALE & CAMERA: extreme low angle beside its landing paw, huge head and shoulders loom and fill the square, hunter barely knee-high relative to paw, definitely NOT an ordinary wolf.\nLIGHT & WEATHER: one low warm moon edge lighting heavy fur; deep walnut-black night and windblown snow.\nSURFACE: tangled damp coarse fur, frosted whiskers, massive rough claws, churned snow.\nSETTING: editorial Arctic snow wilderness at night consistent with Inuit context. [amarok-c01]\nMOOD: overwhelming danger, imminent contact, massive solitary hunter, never pet, cute or calm.\n\nHARD CONSTRAINTS: square at least1024px; no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, exposed breasts or explicit gore; no generic glow aura, neon outlines, floating runes or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-5255-7c92-9edc-6bb78a6a20df/exec-c4da50be-f14f-454d-9537-755c11620b46.png",
+  "generated_at": "2026-10-10T03:48:45.236Z",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "original_file": "data/artwork-generated/batch-1356/originals/amarok.png",
+  "native_sha256": "007432a125c03fc7c7395b512540b962e2814962739808e87c25f41ed576037a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px diperiksa: satu serigala raksasa, dua mata, dua forelegs jelas dan hindlegs tertutup tubuh secara wajar, satu ekor; pemburu kecil memberi bukti skala. Paw mendarat/salju bergerak sesuai perburuan amarok-c01/c09, tanpa glow/tanduk/gore/teks.",
+    "limitations": [],
+    "native_sha256": "007432a125c03fc7c7395b512540b962e2814962739808e87c25f41ed576037a",
+    "reviewed_at": "2026-10-10T03:48:45.319Z"
+  },
+  "generation_metadata": {
+    "request_file": "data/artwork-generated/batch-1356/requests/amarok-attempt-01.json",
+    "transparent_background": false,
+    "output_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_model_reported": false
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "007432a125c03fc7c7395b512540b962e2814962739808e87c25f41ed576037a",
+    "notes": "Single giant wolf charging through snow at the viewer under the moon, a lone hunter small in the distance for scale."
+  }
+}

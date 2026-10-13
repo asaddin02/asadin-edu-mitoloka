@@ -1,0 +1,76 @@
+{
+  "slug": "many-finned-sea-serpent",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of many finned sea serpent, Aelian scolopendra sea-monster with nostril hairs and paired rowing appendages.\nANATOMY: One enormous long marine serpent: one head with two eyes, very long hairs protruding from the nostrils, numerous paired paddle-like feet or fins in rows on either side of the body, one flat crayfish-like tail; no horns, wings or extra heads [many-finned-sea-serpent-c05, many-finned-sea-serpent-c06, many-finned-sea-serpent-c07]\nMOMENT: Thrust the entire head out of the sea toward the viewer as rows of paddles churn the surface; the long body and flat tail remain readable diagonally across the frame\nPOWER: Natural seawater churned by its numerous rowing appendages; spray from the head surfacing, no supernatural power [many-finned-sea-serpent-c06, many-finned-sea-serpent-c07]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: one dominant dying amber sunlight shaft through dark clouds, rim-lit spray; physical particles only where justified by the action.\nSURFACE: wet rough marine skin, dripping long nostril hairs and ridged flat tail.\nSETTING: Open sea in the ancient Aelian account [many-finned-sea-serpent-c06, many-finned-sea-serpent-c07]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous long marine serpent: one head with two eyes, very long hairs protruding from the nostrils, numerous paired paddle-like feet or fins in rows on either side of the body, one flat crayfish-like tail; no horns, wings or extra heads",
+      "claim_ids": [
+        "many-finned-sea-serpent-c05",
+        "many-finned-sea-serpent-c06",
+        "many-finned-sea-serpent-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Natural seawater churned by its numerous rowing appendages; spray from the head surfacing, no supernatural power",
+      "claim_ids": [
+        "many-finned-sea-serpent-c06",
+        "many-finned-sea-serpent-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Open sea in the ancient Aelian account",
+      "claim_ids": [
+        "many-finned-sea-serpent-c06",
+        "many-finned-sea-serpent-c07"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "many-finned-sea-serpent-c05",
+    "many-finned-sea-serpent-c06",
+    "many-finned-sea-serpent-c07"
+  ],
+  "depicted_variant": "Aelian scolopendra sea-monster with nostril hairs and paired rowing appendages",
+  "artistic_choices": [
+    "Choose the ancient Aelian account, not mix later45m report.",
+    "Documented trireme bulk; low sea-level view and diagonal whole body emphasize scale.",
+    "No invented elemental powers."
+  ],
+  "aura": "Natural seawater churned by its numerous rowing appendages; spray from the head surfacing, no supernatural power [many-finned-sea-serpent-c06, many-finned-sea-serpent-c07]",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-d3d7b7b0-27e0-4934-8704-677d61ee580f.png",
+  "generated_at": "2026-10-12T02:36:58.056815+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/many-finned-sea-serpent.png",
+  "native_sha256": "5d1d0fd81b9face76e95c47a6bf97283124197045cb8c69be14dbbcad462f9dd",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native view: head fully above sea, two eyes and long hairs from both nostrils; elongated marine body with rows of paired rowing fins, one flat fanlike crayfish tail visible. Head surfaces toward camera and paired paddles churn real water c06/c07, no invented magical power. Strong silhouette at200px; all seven checks pass.",
+    "limitations": [],
+    "native_sha256": "5d1d0fd81b9face76e95c47a6bf97283124197045cb8c69be14dbbcad462f9dd",
+    "reviewed_at": "2026-10-12T02:36:58.056815+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "5d1d0fd81b9face76e95c47a6bf97283124197045cb8c69be14dbbcad462f9dd",
+    "notes": "Long sea serpent with long nostril hairs, rows of paddle fins and a flat tail surging through the sea."
+  }
+}

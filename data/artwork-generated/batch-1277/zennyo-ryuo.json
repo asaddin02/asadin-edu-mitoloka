@@ -1,0 +1,88 @@
+{
+  "slug": "zennyo-ryuo",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Zennyo Ryūō, the revered Japanese rain dragon deity in the woman manifestation encountered by Keien.\nANATOMY: one dignified woman's head, two eyes, two arms, two legs under full opaque Japanese layered robes; her right hand is shown in clear side profile with palm facing upward; thumb, index, middle and ring fingers are FOUR separate small ordinary fingers held loosely out of the way; the OUTERMOST FIFTH DIGIT, HER LITTLE FINGER, transforms into a continuous three-metre-long dragon finger ending in a huge hooked nail; the giant finger is living scaled flesh CONNECTED ANATOMICALLY TO THE OUTSIDE EDGE OF HER PALM, not an object held in the hand, no extra fingers, no dragon body [zennyo-ryuo-c10,zennyo-ryuo-c11]\nMOMENT: Reach an OPEN PALM toward the viewer; the long outermost little finger is a living scaled dragon digit extending from the palm and curving across the foreground, its huge claw at the tip; do not grip anything, no weapons, no blade, no handle, no sickle; show the anatomical connection and all four normal digits separately; heavy rain pounds the cave entrance.\nPOWER: Heavy rain falls across the scene; the documented immense claw casts restrained five-coloured light physically onto the wet robes and rocks [zennyo-ryuo-c11,zennyo-ryuo-c13]\nSCALE & CAMERA: extreme low angle; close dramatic foreshortening; subject fills almost the entire square frame, distinguishable anatomy immediately readable; no invented giant size.\nLIGHT & WEATHER: one dominant moonlight source, strong rim light, deep walnut shadows and antique gold highlights, airborne spray or dust only where physical action causes it.\nSURFACE: tactile rough fur, feather, scale, fabric or wet skin appropriate to the stated anatomy; strong painterly material detail, never plastic.\nSETTING: the dragon cave on Mount Murō, its rocky entrance and rain-filled darkness [zennyo-ryuo-c09]\nMOOD: dangerous and imposing or respectfully awe-inspiring for sacred beings; decisive action, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. Output one square PNG at least 1024x1024.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one dignified woman's head, two eyes, two arms, two legs under full opaque Japanese layered robes; one little finger extends into a claw longer than three metres, no extra fingers, no dragon body",
+      "claim_ids": [
+        "zennyo-ryuo-c10",
+        "zennyo-ryuo-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Heavy rain falls across the scene; the documented immense claw casts restrained five-coloured light physically onto the wet robes and rocks",
+      "claim_ids": [
+        "zennyo-ryuo-c11",
+        "zennyo-ryuo-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the dragon cave on Mount Murō, its rocky entrance and rain-filled darkness",
+      "claim_ids": [
+        "zennyo-ryuo-c09"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "zennyo-ryuo-c10",
+    "zennyo-ryuo-c11",
+    "zennyo-ryuo-c13",
+    "zennyo-ryuo-c09"
+  ],
+  "depicted_variant": "Respectful sacred woman manifestation; claw size is sourced, human scale preserved",
+  "aura": "Kesan kuat berasal dari extend her immense little-finger claw downward across the foreground as heavy rain pours around her (zennyo-ryuo-c11,zennyo-ryuo-c13).",
+  "artistic_choices": [
+    "Respectful sacred woman manifestation; claw size is sourced, human scale preserved",
+    "Sudut rendah dan framing rapat; palet walnut/emas antik, cahaya bulan adalah editorial.",
+    "Cuaca, tekstur, pakaian buram dan debu/cipratan biasa merupakan pilihan editorial; tidak menambahkan kuasa."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-cfaa686a-c0b9-418d-b797-4dfa3f8b7ef5.png",
+  "generated_at": "2026-10-09T01:08:04.118877+00:00",
+  "original_file": "data/artwork-generated/batch-1277/originals/zennyo-ryuo.png",
+  "native_sha256": "e050a8511e0c31833edb31e182b594257c2a5cae78c136d011aa705bda35e0f3",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/zennyo-ryuo-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/zennyo-ryuo-attempt-01.json",
+      "native_sha256": "f492cb9fac920e6f52b1277a41f86651cd19f9d566f23324386189b08ea17d59",
+      "reason": "Cakar bercahaya tumbuh dari jari tengah/manis, bukan kelingking seperti c11, dan panjang lebih dari 3 meter belum terbaca jelas."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1277/rejected/zennyo-ryuo-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1277/rejected/zennyo-ryuo-attempt-02.json",
+      "native_sha256": "d2feb69556e2d224e7a426240c2e0ede4a2d8999dbdea072c3468b47f4f8589e",
+      "reason": "Cakar panjang tampak sebagai senjata yang digenggam, sambungan ke kelingking tidak terbaca. Anatomi c11 belum lolos."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "PNG asli: Uji Sangar 7/7 ya. Empat jari biasa terlihat terpisah; kelingking luar menjadi jari naga panjang dengan cakar besar, sambungan ke telapak jelas tanpa senjata. Cakar lima warna dan hujan c11/c13 memberi keagungan. Dua lengan, kepala tunggal dan tubuh berpakaian buram. Tidak ada teks atau aura generik.",
+    "limitations": [],
+    "native_sha256": "e050a8511e0c31833edb31e182b594257c2a5cae78c136d011aa705bda35e0f3",
+    "reviewed_at": "2026-10-09T01:08:04.118877+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e050a8511e0c31833edb31e182b594257c2a5cae78c136d011aa705bda35e0f3",
+    "notes": "Robed woman in rain whose little finger extends from the side of her hand into a very long scaly claw; checked at full size, other fingers human, no dragon body."
+  }
+}

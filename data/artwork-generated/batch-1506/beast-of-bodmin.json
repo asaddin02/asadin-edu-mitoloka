@@ -1,0 +1,71 @@
+{
+  "slug": "beast-of-bodmin",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Beast of Bodmin, the unconfirmed darkpuma-like predatory BeastofBodminMoor. Native square PNG at least1024x1024pixels.\nANATOMY: one naturalPUMA-like largecatwithdarkgreytoBLACKfur,onehead/twoeyes,twoears,fourcatlegs,onelongcattail; noleopardspots,mane,horns,sabreteethor supernaturalparts [beast-of-bodmin-c02, beast-of-bodmin-c05]\nMOMENT: LUNGE fromdarkmoorgrass towardcloseviewer, mouthdrawnback withnaturalcatcanines, nearforepawclaws reaching,headlowandeyesfixed, no preyinjuryshown\nPOWER: no documentedmagic; reportedpredatory threat tiedtoallegedlivestockdeaths, no confirmedkills depicted [beast-of-bodmin-c01]\nSCALE & CAMERA: extreme low camera, close foreshortened framing; no undocumented giant size\nLIGHT & WEATHER: one lowcoldmoonbeam, deepwalnutshadows andcoldrimlight,ordinarymist\nSURFACE: coarsewetblackcatfur,naturalclaws,moorgrassandroughstone\nSETTING: BodminMoor Cornwall, darkroughgrass/stone andlowhorizon [beast-of-bodmin-c02]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Reportedblackpuma-likecat, notprovenblackleopardskull orscientificexistenceclaim.",
+  "basis_claim_ids": [
+    "beast-of-bodmin-c02",
+    "beast-of-bodmin-c05",
+    "beast-of-bodmin-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Darkgrey/blackpuma-likebigcat reported",
+      "claim_ids": [
+        "beast-of-bodmin-c02",
+        "beast-of-bodmin-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Allegedpredatorythreat blamedforlivestockdeaths",
+      "claim_ids": [
+        "beast-of-bodmin-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "BodminMoorCornwall",
+      "claim_ids": [
+        "beast-of-bodmin-c02"
+      ]
+    }
+  ],
+  "aura": "Threat comes fromallegedlargepredatorycatlunging atclosemoorlevel (beast-of-bodmin-c01, beast-of-bodmin-c05).",
+  "artistic_choices": [
+    "Momentoflunge editorialrendering ofallegedpredation, noassertionofconfirmedkill. Darkpumaformc05 notrugleopardc04. Closecamera ordinarybigcatscale,nomagicaleffect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-2dec0d7a-b46a-4376-a317-39f7f07a30e7.png",
+  "generated_at": "2026-10-12T14:12:33.704256+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/beast-of-bodmin.png",
+  "native_sha256": "0467aad202e707980e944ab687ac7fd816dafdd8f56ab406df82952cacda46e3",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200px dilihat: kucing besar hitam mirip puma c05 menerjang sangat dekat di padang Bodmin c02; taring alami dan cakar depan jelas, satu kepala/ekor dan empat kaki konsisten dengan sebagian kaki belakang terhalang perspektif. Tanpa efek gaib, korban atau teks. UjiSangar7 ya, berburu mengancam bukan hewan tenang.",
+    "limitations": [],
+    "native_sha256": "0467aad202e707980e944ab687ac7fd816dafdd8f56ab406df82952cacda46e3",
+    "reviewed_at": "2026-10-12T14:13:15.805726+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "0467aad202e707980e944ab687ac7fd816dafdd8f56ab406df82952cacda46e3",
+    "notes": "Black puma-like cat lunging out of moorland grass at night, claws and fangs bared; the documented form is an ordinary-looking big cat, so menace comes from the attack and light."
+  }
+}

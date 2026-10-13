@@ -1,0 +1,80 @@
+{
+  "slug": "dover-demon",
+  "depicted_variant": "Witness-described form c13/c15; roadside wall c01. Headlight light replaces editorial moon as dominant.",
+  "basis_claim_ids": [
+    "dover-demon-c06",
+    "dover-demon-c13",
+    "dover-demon-c14",
+    "dover-demon-c15",
+    "dover-demon-c01",
+    "dover-demon-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One huge watermelon/double-lobed peanut-shaped head, two large orange reflecting eyes and NO visible nose or mouth; pale peach-white skin, very thin neck, tiny torso, skinny arms and legs, long fingers; roughly4feet tall",
+      "claim_ids": [
+        "dover-demon-c06",
+        "dover-demon-c13",
+        "dover-demon-c14",
+        "dover-demon-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Orange eyes reflect vehicle headlights as described; no other supernatural power, no beam, forehead gem or aura",
+      "claim_ids": [
+        "dover-demon-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Broken stone wall beside Farm Street in Dover Massachusetts at night",
+      "claim_ids": [
+        "dover-demon-c01",
+        "dover-demon-c05",
+        "dover-demon-c06"
+      ]
+    }
+  ],
+  "aura": "Kesan aktif berasal dari Clamber across a broken roadside stone wall, long fingers gripping near camera and torso twisted towards viewer, enormous blank face suddenly caught by headlights (dover-demon-c06, dover-demon-c13, dover-demon-c14, dover-demon-c15).",
+  "artistic_choices": [
+    "Witness-described form c13/c15; roadside wall c01. Headlight light replaces editorial moon as dominant.",
+    "Headlight framing, wet stone and dark palette editorial; no UFO or pop-culture alien design.",
+    "Tidak ada efek kuasa di luar yang tertulis; gerak debu/cipratan biasa mengikuti gerak badan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Dover Demon, the small thin large-headed being claimed in the1977 Dover roadside sightings.\nANATOMY: One huge watermelon/double-lobed peanut-shaped head, two large orange reflecting eyes and NO visible nose or mouth; pale peach-white skin, very thin neck, tiny torso, skinny arms and legs, long fingers; roughly4feet tall [dover-demon-c06,dover-demon-c13,dover-demon-c14,dover-demon-c15]\nMOMENT: Clamber across a broken roadside stone wall, long fingers gripping near camera and torso twisted towards viewer, enormous blank face suddenly caught by headlights.\nPOWER: Orange eyes reflect vehicle headlights as described; no other supernatural power, no beam, forehead gem or aura [dover-demon-c15]\nSCALE & CAMERA: extreme low angle, close foreshortening, subject dominates square and identifying anatomy reads at200px; no invented giant scale unless documented.\nLIGHT & WEATHER: one dominant low vehicle-headlight source, deep warm walnut shadows, antique gold rim highlights, wet air and ordinary physical spray or grit appropriate to action.\nSURFACE: tactile organic texture appropriate to anatomy, rough fur/feather/scales/cloth, wet stone, never plastic or statue.\nSETTING: Broken stone wall beside Farm Street in Dover Massachusetts at night [dover-demon-c01,dover-demon-c05,dover-demon-c06]\nMOOD: dangerous imposing active moment, or reverent overwhelming majesty for sacred beings; never cute, calm, decorative or an ordinary animal/person.\nHARD CONSTRAINTS: no text, glyphs, lettering, logo, border, watermark; no extra heads, eyes, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or floating runes. One square PNG at least1024x1024.",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-82a0-7580-b2b6-7bcd3f6458ba/exec-f38d3737-ab34-479c-aee6-14ffdd8688cd.png",
+  "generated_at": "2026-10-10T03:54:18.944010+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/dover-demon.png",
+  "native_sha256": "4d087118c3be36b421d8782f08ebfe2830d7b1b6c18ecaa1c253a47246741c44",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat. Sangar7/7: double-lobed enormous head, two orange eyes reflecting headlights, peach-white skin, NO nose/mouth, pencil-thin limbs/neck, long gripping fingers on broken stone wall. Active clamber and confronting blank face fill frame. One head/two arms/two legs, fingers correct natural five near hand, others occluded.",
+    "limitations": [],
+    "native_sha256": "4d087118c3be36b421d8782f08ebfe2830d7b1b6c18ecaa1c253a47246741c44",
+    "reviewed_at": "2026-10-10T03:54:18.944010+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "4d087118c3be36b421d8782f08ebfe2830d7b1b6c18ecaa1c253a47246741c44",
+    "notes": "Huge peanut-shaped head with two orange reflecting eyes, no nose or mouth, thin limbs and long fingers gripping a stone wall by a lit road."
+  }
+}

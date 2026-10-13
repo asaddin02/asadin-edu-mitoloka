@@ -1,0 +1,79 @@
+{
+  "slug": "mo-chinese-zoology",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Mo, the composite metal-eating protective beast described by Bai Juyi. Native square PNG at least1024 by1024 pixels.\nANATOMY: One composite quadruped with one head bearing an elephant trunk and exactly two rhinoceros-like eyes, FOUR tiger paws and one cow tail with a tuft. No rhinoceros horn, elephant tusks, extra heads or panda form. [mo-chinese-zoology-c07]\nMOMENT: Pull an iron bar into its mouth with its trunk and brace tiger paws toward the viewer.\nPOWER: Physically bite and bend iron and copper implements, the documented diet; no dream-eating or invented spell. [mo-chinese-zoology-c08]\nSCALE & CAMERA: extremely close low camera and foreshortening, no invented giant size, no tiny people as size references; distinguishing anatomy readable at200px.\nLIGHT & WEATHER: Single dying sun source rim-lighting trunk, tiger paws and metal fragments; natural ground dust.\nSURFACE: tactile organic fur, skin, feather, scales, wet wood or opaque cloth corresponding to the documented subject, never plastic.\nSETTING: Mountain valleys of the south named by Bai Juyi. [mo-chinese-zoology-c07]\nMOOD: protective and awe-inspiring; never cute, calm, static or decorative. Dark walnut, antique-gold and parchment palette with one strong accent.\nHARD CONSTRAINTS: no text, glyph, lettering, logo, border, frame or watermark; no extra heads, eyes, arms, legs, fingers or attributes; no film, game, anime or comic adaptation; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons. Anatomical counts in this prompt override generic creature associations.",
+  "depicted_variant": "Bai Juyi elephant-trunk, rhinoceros-eye, cow-tail and tiger-paw chimera, not panda/tapir or Japanese baku.",
+  "basis_claim_ids": [
+    "mo-chinese-zoology-c07",
+    "mo-chinese-zoology-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One composite quadruped with one head bearing an elephant trunk and exactly two rhinoceros-like eyes, FOUR tiger paws and one cow tail with a tuft. No rhinoceros horn, elephant tusks, extra heads or panda form.",
+      "claim_ids": [
+        "mo-chinese-zoology-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physically bite and bend iron and copper implements, the documented diet; no dream-eating or invented spell.",
+      "claim_ids": [
+        "mo-chinese-zoology-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain valleys of the south named by Bai Juyi.",
+      "claim_ids": [
+        "mo-chinese-zoology-c07"
+      ]
+    }
+  ],
+  "aura": "Pull an iron bar into its mouth with its trunk and brace tiger paws toward the viewer. Visual grounding: mo-chinese-zoology-c07, mo-chinese-zoology-c08.",
+  "artistic_choices": [
+    {
+      "description": "Directional low-key light, close camera, warm dark palette and opaque clothes when applicable are editorial choices, not added powers.",
+      "claim_ids": []
+    },
+    {
+      "description": "Bai Juyi elephant-trunk, rhinoceros-eye, cow-tail and tiger-paw chimera, not panda/tapir or Japanese baku.",
+      "claim_ids": [
+        "mo-chinese-zoology-c07"
+      ]
+    }
+  ],
+  "tool": "OpenAI built-in image_gen",
+  "model_reported": false,
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-f1eb-7812-bed1-d88bbc42e100/exec-88973c59-d0b1-4654-a6c1-94c4649e4bdd.png",
+  "native_sha256": "9f3f7ac2e366fc2c17fc82c47b82352ece3bf6875791ccded8b180576f293ad8",
+  "width": 1254,
+  "height": 1254,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_at": "2026-10-12T04:12:44.176116+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/mo-chinese-zoology.png",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected: one composite head has elephant trunk and2rhino-like eyes, no horn or tusks; striped tiger forepaws and4-legged body with rear paws occluded, single tufted cow tail visible. Trunk curls iron into biting mouth while physical metal fragments fall. Southern mountain valley frames protective imposing creature at200px. No dream power, glow or text. Seven checks pass.",
+    "limitations": [],
+    "native_sha256": "9f3f7ac2e366fc2c17fc82c47b82352ece3bf6875791ccded8b180576f293ad8",
+    "reviewed_at": "2026-10-12T04:12:44.176116+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9f3f7ac2e366fc2c17fc82c47b82352ece3bf6875791ccded8b180576f293ad8",
+    "notes": "Elephant-trunked tiger-pawed beast with a tufted cow tail chewing an iron bar to splinters; no horn or tusks."
+  }
+}

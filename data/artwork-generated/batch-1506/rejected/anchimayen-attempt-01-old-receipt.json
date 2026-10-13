@@ -1,0 +1,63 @@
+{
+  "slug": "anchimayen",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1506,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Anchimayen, the Mapuche bright flying fireball manifestation of Anchimayen. Native square PNG at least1024x1024pixels.\nANATOMY: ONEbright flyingFIREBALL, nochildface/body/limbs insidefire andnoreconstructedremains; thisis documentedtransformedmanifestation [anchimayen-c01]\nMOMENT: FLY straightpastcloseviewer, compactphysicalwhite-hotfireballfillsmostframe withviolentnaturalflameedges, luminouslightfloodingforegroundground\nPOWER: documentedbrilliantlight confuses/disorientsnearviewer; lightwashesoutnearforeground asfireballpasses, novictim,sickeyes,laserbeam,runes or genericcharacterhalo [anchimayen-c07]\nSCALE & CAMERA: extreme lowclosegroundcamera; fireballfillsframeandactivelypasses,notanemptylandscape\nLIGHT & WEATHER: fireballitselfdocumentedbrillianceonlydominantlight; deepblackshadows,strongnaturalbloom,nocolourfog\nSURFACE: turbulentphysicalflameedges,scorched-lookingneutralrockbutnoinventedburndamage\nSETTING: neutraldarkground, no specific Mapuchelandmark or inventedritualscene [anchimayen-c01, anchimayen-c07]\nMOOD: imposing and awe-inspiring or dangerous according to documented character; never cute, calm, tame or decorative. Subject dominates frame and remains striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no design from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.",
+  "depicted_variant": "Active flying fireballmanifestation, not literalchildcorpse/childbody ormoon-goddessconfusion.",
+  "basis_claim_ids": [
+    "anchimayen-c01",
+    "anchimayen-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Transformedbrightflyingfireballmanifestation",
+      "claim_ids": [
+        "anchimayen-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Brightlight disorientsupclose",
+      "claim_ids": [
+        "anchimayen-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Closeencounter inunspecifieddarkground",
+      "claim_ids": [
+        "anchimayen-c01",
+        "anchimayen-c07"
+      ]
+    }
+  ],
+  "aura": "Danger comes frombrightflyingfireball andblinding/disorientingnearencounter (anchimayen-c01, anchimayen-c07).",
+  "artistic_choices": [
+    "§6.5documentedactive manifestation chosen insteadofchildbody. Physicalbrightballnotgenericbodyaura; amberwhitefirecolourandneutralground editorial. Nochildinperil orillustratedremains."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13067-fa26-7ee0-b752-9569198c12e6/exec-7305141d-875f-4113-9765-12ebcb96b6b7.png",
+  "generated_at": "2026-10-12T14:05:41.523145+00:00",
+  "original_file": "data/artwork-generated/batch-1506/originals/anchimayen.png",
+  "native_sha256": "b75bdf4759e38acb78a5f988713039cbec49dca75d9bfeb953993d2fe799003c",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan200px diperiksa: satu bola api terang c01 melintas dekat tanah, nyala fisik dan cahaya menyilaukan c07 memenuhi bingkai; tanpa tubuh anak atau atribut buatan. UjiSangar7 ya, manifestasi aktif bukan lanskap atau aura generik.",
+    "limitations": [],
+    "native_sha256": "b75bdf4759e38acb78a5f988713039cbec49dca75d9bfeb953993d2fe799003c",
+    "reviewed_at": "2026-10-12T14:06:22.313340+00:00"
+  }
+}

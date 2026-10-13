@@ -1,0 +1,98 @@
+{
+  "slug": "helios",
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-040.review.json",
+  "batch": 1214,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11c01-4372-7571-933c-fdcac1f83308/exec-55dc6a6b-a592-44c8-98a4-ad0ad60c83ac.png",
+  "generated_at": "2026-10-08T15:44:52.798Z",
+  "original_file": "data/artwork-generated/batch-1214/originals/helios.png",
+  "native_sha256": "8e99493a9e6f392c8fa7cc06957b5271ecd1981a25a273877b42f4ad13a51999",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of HELIOS, Greek Titan sun god who carries the sun across the sky each day.\nANATOMY: one youthful usually beardless male head, exactly two arms, fully opaque PURPLE robes; documented shining solar aureole/crown of sun rays at head; ONE golden chariot drawn by EXACTLY FOUR WINGED HORSES, count all four distinct horses with one head/two wings/four legs each. [helios-c01, helios-c02, helios-c12, helios-c15, helios-c18]\nMOMENT: drive the golden chariot straight toward the viewer as FOUR winged horses surge upward, reins visibly held in two hands, purple robes whip backward, direct commanding stare.\nPOWER: the actual sun carried across the sky is behind his head and golden chariot; solar glare burns across clouds and sea, crown rays allowed documented solar aureole, no random flame beams or lightning. [helios-c01, helios-c02, helios-c12, helios-c15, helios-c18]\nSCALE & CAMERA: extreme low front full chariot, deity face upper third clear, ALL four horse heads distinct across lower frame and visible wings, no fifth horse.\nLIGHT & WEATHER: a single warm side/backlight, deep walnut shadows and antique gold highlights; low-key cinematic contrast, dramatic airborne dust or natural spray appropriate to scene; fire/sun/forge variants use that actual documented fire or sun as sole dominant light instead of external glow.\nSURFACE: hammered worn gold chariot, heavy purple cloth, horses' real hair and feathers, physical solar illumination.\nSETTING: emerge at dawn from golden palace on River Okeanos at earth's far eastern ends, sky chariot above the river. [helios-c01, helios-c02, helios-c12, helios-c15, helios-c18]\nMOOD: overwhelming, imposing and awe-inspiring; malign Loki menacing, living Hindu Agni revered; never cute, neutral, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; opaque clothing covers torso and legs; no generic glow aura, neon outline or energy ribbons. ONE complete square image, not a collage.",
+  "depicted_variant": "Frontal four-horse dawn ascent",
+  "basis_claim_ids": [
+    "helios-c01",
+    "helios-c02",
+    "helios-c12",
+    "helios-c15",
+    "helios-c18"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one youthful usually beardless male head, exactly two arms, fully opaque PURPLE robes; documented shining solar aureole/crown of sun rays at head; ONE golden chariot drawn by EXACTLY FOUR WINGED HORSES, count all four distinct horses with one head/two wings/four legs each",
+      "claim_ids": [
+        "helios-c01",
+        "helios-c12",
+        "helios-c18"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "the actual sun carried across the sky is behind his head and golden chariot; solar glare burns across clouds and sea, crown rays allowed documented solar aureole, no random flame beams or lightning",
+      "claim_ids": [
+        "helios-c01",
+        "helios-c02",
+        "helios-c12",
+        "helios-c15",
+        "helios-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "emerge at dawn from golden palace on River Okeanos at earth's far eastern ends, sky chariot above the river",
+      "claim_ids": [
+        "helios-c01",
+        "helios-c02",
+        "helios-c12",
+        "helios-c15",
+        "helios-c18"
+      ]
+    }
+  ],
+  "aura": "Sun-bearing chariot c02/c12 with four winged horses and solar crown, one actual dominant sun, no generic aura",
+  "artistic_choices": [
+    "Square painterly walnut/antique-gold cinematic treatment, fully opaque garments; camera and tonal treatment are editorial.",
+    "Any symbolic divine scale is devotional composition, not an added claim of literal giant size; unspecified normal head/arm counts are restrained editorial rendering.",
+    "Varian A dipilih karena anatomi utama dan atribut sumber lebih mudah dibaca; varian B tetap disimpan utuh."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "variants": [
+    {
+      "variant": 1,
+      "selected": true,
+      "original_file": "data/artwork-generated/batch-1214/originals/helios.png",
+      "native_sha256": "8e99493a9e6f392c8fa7cc06957b5271ecd1981a25a273877b42f4ad13a51999"
+    },
+    {
+      "variant": 2,
+      "selected": false,
+      "original_file": "data/artwork-generated/batch-1214/variants/helios/variant-2.png",
+      "native_sha256": "98203c1f04111c35e285f9a213095c2206874bbefea43944a8cb2c9a4fc59a27"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Empat kepala kuda bersayap berbeda, kereta emas, pemuda berjubah ungu dan mahkota solar; sumber cahaya matahari dan gerak kereta jelas. Root independently viewed BOTH native final variants: Empat kepala kuda bersayap berbeda, kereta emas, pemuda berjubah ungu dan mahkota solar; sumber cahaya matahari dan gerak kereta jelas. Root melihat kedua PNG native secara langsung; keduanya lulus tujuh cek visual.",
+    "limitations": [],
+    "native_sha256": "8e99493a9e6f392c8fa7cc06957b5271ecd1981a25a273877b42f4ad13a51999",
+    "reviewed_at": "2026-10-08T15:44:53.228Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "8e99493a9e6f392c8fa7cc06957b5271ecd1981a25a273877b42f4ad13a51999",
+    "notes": "Helios in purple robes with a ray crown driving one golden chariot drawn by exactly four winged horses out of the dawn sea; each horse one head."
+  }
+}

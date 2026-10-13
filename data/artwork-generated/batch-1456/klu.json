@@ -1,0 +1,79 @@
+{
+  "slug": "klu",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of klu, a Ladakh lu/naga water spirit in documented human-torso serpent-tail form. Native square PNG at least 1024 by 1024 pixels.\nANATOMY: one human head with two eyes, human torso with exactly two human arms, serpent lower body and one long tail instead of legs; fully opaque dark tunic/mantle over torso and opaque wrap at waist-to-tail transition; NO legs, horns, extra heads or snake hood invented [klu-c05]\nMOMENT: RISE in a slow commanding bend from spring water toward low viewer, hands held open while physical spring water arches up around the coiled lower serpent body; reverent nature spirit, not a demon\nPOWER: water controlled physically, clear spring water curves upward and pours back over stones under documented water authority; no neon aura or illness effect [klu-c06, klu-c08]\nSCALE & CAMERA: extreme low angle; close foreshortened framing creates dominance, no invented gigantic size\nLIGHT & WEATHER: one low warm sunset shaft; deep walnut shadows and strong rim light\nSURFACE: natural human skin, rough opaque cloth, dark wet serpent scales and clear spring water\nSETTING: natural spring in Ladakh, plain uninscribed rock and water [klu-c07]\nMOOD: imposing and awe-inspiring or menacing according to documented character; never cute, calm, tame or decorative. Being dominates and is striking at200px.\nHARD CONSTRAINTS: no text, lettering, glyphs, logos, border, frame or watermark; no extra heads, eyes, limbs or fingers; no designs from films, games, anime or comics; no nudity, gore or visible wounds; no generic luminous aura, neon outline, energy ribbons or coloured magical fog. Bracketed claimIDs are instructions, never visible text.\nCORRECTION: NO jewellery of any kind: bare ears, bare neck covered by plain tunic, no necklace, beads, amulet, earrings, crown, patterns or symbols. Hands anatomically human with clearly five digits each, one thumb and four fingers, preferably partly turned palms to allow count. Dynamic water command and serpentine lower body remain clear; no ordinary standing portrait.",
+  "depicted_variant": "Ladakh human-torso serpent-tail naga form, not Bon animal-headed composites.",
+  "basis_claim_ids": [
+    "klu-c05",
+    "klu-c06",
+    "klu-c08",
+    "klu-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ladakh naga: human torso with serpent tail",
+      "claim_ids": [
+        "klu-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Controls water",
+      "claim_ids": [
+        "klu-c06",
+        "klu-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Natural spring affinity in Ladakh",
+      "claim_ids": [
+        "klu-c07"
+      ]
+    }
+  ],
+  "aura": "Awe comes from documented naga hybrid rising in its physically moving spring water (klu-c05, klu-c06, klu-c08).",
+  "artistic_choices": [
+    "Human face, fully opaque dark simple clothes and scale colour are editorial generic form, not precise canonical iconography. No jewellery/ritual symbols invented. Reverent awe for living belief, with water only; no visible disease or destructive action."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/klu-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/klu-attempt-01.json",
+      "native_sha256": "59b03edf26b5a490622d21f52f11bf4c07cb4b10bed05cda55d9144c0362b501",
+      "reason": "Added necklace and dangling earrings despite prompt banning invented ritual jewellery; not documented in chosen Klu claims."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-be42-7960-a89f-3460fae3bae5/exec-20724291-ba5d-449c-b9e5-bfe430118713.png",
+  "generated_at": "2026-10-12T08:18:50.672845+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/klu.png",
+  "native_sha256": "e1b9425928378f7c10ab162573f683c239cebbead2c0f1c584e7f3b2b4bab464",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254/200 inspected all seven checks pass. Ladakh naga variant c05: one human head/two eyes,two human arms, each hand five visible human digits, one continuous serpent lower body/tail and no legs. Plain opaque tunic/waist wrap, no jewellery after rejected first attempt. Rising water physically arches around commanding figure c06/c08 at spring c07. Reverent awe through hybrid anatomy and water authority, no disease/neon glyphs/text/gore/borrowed adaptation.",
+    "limitations": [],
+    "native_sha256": "e1b9425928378f7c10ab162573f683c239cebbead2c0f1c584e7f3b2b4bab464",
+    "reviewed_at": "2026-10-12T08:18:50.673043+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "e1b9425928378f7c10ab162573f683c239cebbead2c0f1c584e7f3b2b4bab464",
+    "notes": "Naga with a woman's torso and long scaled serpent tail rising from a Ladakh spring, the water lifting around her outstretched hands; respectful."
+  }
+}

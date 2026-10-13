@@ -1,0 +1,60 @@
+{
+  "slug": "tezcatlipoca",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1606,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Tezcatlipoca, the smokingmirror Aztec deity with obsidian leftfoot and four arrows. Native square PNG at least1024x1024.\nANATOMY: ONE human-shaped male deity, ONE head/TWO eyes/TWO arms/TWO legs, but anatomical LEFT FOOT is replaced entirely by ONE polished BLACK OBSIDIAN roundMIRROR at leftankle; anatomicalRIGHTfoot normal. Fullyopaque plain warriorcostume. AnatomicalRIGHThand holds EXACTLY FOUR separated ARROWS, fourarrowheads plainlycountable; a single TURQUOISE SNAKE coils nearby. [tezcatlipoca-c05, tezcatlipoca-c11, tezcatlipoca-c15, tezcatlipoca-c16]\nMOMENT: STRIDE toward lowviewer at crossroads, raise fourarrows in righthand and set leftanklemirror closeabove wetstone, freehand opens incommand; hurricane wind pulls opaque cloak.\nPOWER: Associated with night/hurricanes/obsidian/conflict; naturalviolentwind blows dust and trees, mirrored blacksurface releases restrained ordinarysmoke as visualinterpretation of SmokingMirror name, no lasers/runes/glow. [tezcatlipoca-c01, tezcatlipoca-c05, tezcatlipoca-c13, tezcatlipoca-c14]\nSCALE & CAMERA: Extreme lowfullbody confrontation, mirror replacingLEFTfoot (viewerright) largeforeground,4arrows hand readableabove, normalRIGHTfoot distinct, deity fills square.\nLIGHT & WEATHER: One moonshaft through hurricanenight, antiquegold/blackclothing, turquoise snake accent and darksmoke.\nSURFACE: Tangible natural fur, feathers, skin, wet scales, coarse opaque cloth, weathered wood or stone appropriate to anatomy. No plastic finish.\nSETTING: Crossroads at dead ofnight, ancient Mesoamerican darkroad, no invented templedecoration or letters. [tezcatlipoca-c14]\nMOOD: Powerful mythic danger or reverent awe appropriate to source. Benevolent beings remain protective; living religions treated respectfully. Never cute, calm, decorative or static. Substantial action and distinguishing anatomy remain striking at200px.\nHARD CONSTRAINTS: No text, letters, glyphs, logo, watermark, border or frame; no extra heads, limbs or fingers; no design from films/games/anime/comics; no nudity or explicit gore. Fully opaque clothing on clothed humanoids. No generic glow aura, neon outlines, colored energy ribbons, floating runes or unclaimed powers. Bracketed claim IDs are instructions never visible text.",
+  "depicted_variant": "the smokingmirror Aztec deity with obsidian leftfoot and four arrows",
+  "basis_claim_ids": [
+    "tezcatlipoca-c05",
+    "tezcatlipoca-c11",
+    "tezcatlipoca-c15",
+    "tezcatlipoca-c16",
+    "tezcatlipoca-c01",
+    "tezcatlipoca-c13",
+    "tezcatlipoca-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE human-shaped male deity, ONE head/TWO eyes/TWO arms/TWO legs, but anatomical LEFT FOOT is replaced entirely by ONE polished BLACK OBSIDIAN roundMIRROR at leftankle; anatomicalRIGHTfoot normal. Fullyopaque plain warriorcostume. AnatomicalRIGHThand holds EXACTLY FOUR separated ARROWS, fourarrowheads plainlycountable; a single TURQUOISE SNAKE coils nearby.",
+      "claim_ids": [
+        "tezcatlipoca-c05",
+        "tezcatlipoca-c11",
+        "tezcatlipoca-c15",
+        "tezcatlipoca-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Associated with night/hurricanes/obsidian/conflict; naturalviolentwind blows dust and trees, mirrored blacksurface releases restrained ordinarysmoke as visualinterpretation of SmokingMirror name, no lasers/runes/glow.",
+      "claim_ids": [
+        "tezcatlipoca-c01",
+        "tezcatlipoca-c05",
+        "tezcatlipoca-c13",
+        "tezcatlipoca-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Crossroads at dead ofnight, ancient Mesoamerican darkroad, no invented templedecoration or letters.",
+      "claim_ids": [
+        "tezcatlipoca-c14"
+      ]
+    }
+  ],
+  "aura": "STRIDE toward lowviewer at crossroads, raise fourarrows in righthand and set leftanklemirror closeabove wetstone, freehand opens incommand; hurricane wind pulls opaque cloak. Grounded in tezcatlipoca-c05, tezcatlipoca-c11, tezcatlipoca-c15, tezcatlipoca-c16, tezcatlipoca-c01, tezcatlipoca-c13, tezcatlipoca-c14.",
+  "artistic_choices": [
+    "Laterdepicted leftfootmirror c15 and4arrows/turquoisesnake c16 retained. Costume inspired sourcewarriorimpersonation c11 but decorative motifs omitted as unresearched. Mirror smoke editorial interpretation of name c05, not claimed attack. Reverent monumental deity, no sacrifice/gore.",
+    "Low camera, directional light, dark warm palette and minimal uninscribed scenery are editorial rendering choices, not extra powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

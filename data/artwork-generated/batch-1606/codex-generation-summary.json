@@ -1,0 +1,273 @@
+{
+  "completed_at": "2026-10-13T03:54:49.201373+00:00",
+  "batch": 1606,
+  "generation_complete": true,
+  "final": 45,
+  "declined": 5,
+  "pending": 0,
+  "resumed_receipts": 27,
+  "resumed_final": 25,
+  "resumed_declined": 2,
+  "recovered_historical_outputs": [
+    "wd-q15925032",
+    "sihuhata"
+  ],
+  "all_native_and_200px_root_reviews": true,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "subagents": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "lane-A": {
+      "batch_assigned": 9,
+      "corrections": 4
+    },
+    "lane-B": {
+      "batch_assigned": 9,
+      "corrections": 5
+    },
+    "lane-C": {
+      "batch_assigned": 9,
+      "corrections": 3
+    }
+  },
+  "main_agent_corrections": [
+    "hatmehit",
+    "chiwen",
+    "namaka"
+  ],
+  "session_calls": {
+    "total": 53,
+    "successful_pngs": 52,
+    "tool_failures": 1,
+    "new_quality_rejections": 14,
+    "new_selected_batch_pngs": 23,
+    "new_selected_correction_pngs": 15
+  },
+  "historical_interrupted_call": {
+    "slug": "ouni",
+    "attempt": 1,
+    "png_returned": false
+  },
+  "batch_archived_rejections": 18,
+  "batch_validation": {
+    "checked_at": "2026-10-13T03:21:09.014Z",
+    "batch": 1606,
+    "checks": 5506,
+    "errors": [],
+    "finals": 45,
+    "declined": 5,
+    "archived_rejected_pngs": 18,
+    "unique_selected_hashes": 45,
+    "protected_files_unchanged": true,
+    "all_current_accepted_research_equal": true,
+    "all_native_and_200px_main_reviews": true,
+    "independent_review_pending": true,
+    "integration_performed": false
+  },
+  "corrections_validation": {
+    "checked_at": "2026-10-13T03:42:02.244Z",
+    "checks": 816,
+    "errors": [],
+    "corrections": 15,
+    "unique_selected_hashes": 15,
+    "all_current_accepted_research_equal": true,
+    "all_native_and_200px_root_reviews": true,
+    "archived_rejected_pngs": 22,
+    "recorded_generation_failures": 1,
+    "independent_review_pending": true,
+    "integration_performed": false
+  },
+  "corrections": [
+    {
+      "ledger": "data/artwork-batch-1277.json",
+      "slug": "hatmehit",
+      "receipt_path": "data/artwork-generated/batch-1277/hatmehit.json",
+      "reason": "Kain tipis tembus pandang; pakaian harus sepenuhnya buram.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "0bd40e5e17e177a824382261f2f8753c5f03cd7fa0343e3ea4b36f6904ea6394",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1277.json",
+      "slug": "chiwen",
+      "receipt_path": "data/artwork-generated/batch-1277/chiwen.json",
+      "reason": "Terlihat seperti ornamen keramik; gambarkan makhluk hidup.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "af7dc2abdf22b0fbbb0511d20f0a268d3034f85062dcfcee3a36d7c7f56bf6de",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1356.json",
+      "slug": "carbuncle-legendary-creature",
+      "receipt_path": "data/artwork-generated/batch-1356/carbuncle-legendary-creature.json",
+      "reason": "Anak anjing lucu; harus terasa sangar tanpa mengarang anatomi.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "ed0e13704e07fa8ac266790af363e2e9c859c6007a4939f8c74953a7320faa7a",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "namaka",
+      "receipt_path": "data/artwork-generated/batch-1406/namaka.json",
+      "reason": "Hanya ombak; tidak menunjukkan makhluknya.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "96ed667de626b7245b62bb1abb47cc2d8609f3ac477456b04bfb2766877bd0fb",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "panhu",
+      "receipt_path": "data/artwork-generated/batch-1406/panhu.json",
+      "reason": "Hewan biasa; tidak menunjukkan makhluk mitologis.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "4f6cd4ff001e71e28775b81d27ed0e441d03736bd10fff9a552efd8dde29982b",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "rep-un-kamuy",
+      "receipt_path": "data/artwork-generated/batch-1406/rep-un-kamuy.json",
+      "reason": "Hewan biasa; tidak menunjukkan dewa/roh laut.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "d42998699e2aacc5389565c030a7b157d801b8d5b261b8b568ecaa2fd5bed38b",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "tangaroa",
+      "receipt_path": "data/artwork-generated/batch-1406/tangaroa.json",
+      "reason": "Hewan biasa; tidak menunjukkan dewa laut.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "3fb4522beb2f4854d1a037e674ddf141109057c778cdd5d22d306de098349093",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1456.json",
+      "slug": "dirawong",
+      "receipt_path": "data/artwork-generated/batch-1456/dirawong.json",
+      "reason": "Hewan biasa; tidak menunjukkan makhluk mitologis.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "76238ac4e79ab940fb0dbcbe27d1693e472d7a9b6fa2ecb35fb7e1f3d2f5c328",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "wd-q11244093",
+      "receipt_path": "data/artwork-generated/batch-1406/wd-q11244093.json",
+      "reason": "Hanya waterspout; tidak menunjukkan makhluknya.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "82dabc7786933ebd6e541dc34cc2b4e85249f5410575f0536a760fcc7a0628ce",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "wd-q757989",
+      "receipt_path": "data/artwork-generated/batch-1406/wd-q757989.json",
+      "reason": "Ular biasa, bukan naga.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "d675f62167b5e6845919a2c9fd89f5ddb7bc3105ab5a16836400b6910a9a9073",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "yellow-dragon",
+      "receipt_path": "data/artwork-generated/batch-1406/yellow-dragon.json",
+      "reason": "Ular biasa, bukan naga.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "7c86883d924d4587aee746b1396cffadd0da3bf2329f138df80bb4155605f044",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1456.json",
+      "slug": "panlong-mythology",
+      "receipt_path": "data/artwork-generated/batch-1456/panlong-mythology.json",
+      "reason": "Ular biasa, bukan naga.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "d27fe0684587822199a9a222383a0c095c924bce447ec4f40531d889a90f0bd4",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1406.json",
+      "slug": "ao-guang",
+      "receipt_path": "data/artwork-generated/batch-1406/ao-guang.json",
+      "reason": "Ular kecil, bukan Raja Naga.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "7f2b25a1c97a5e045298543ee8d4657f9e11d7cafd9d2761160fc1e0c99ff69f",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1456.json",
+      "slug": "pincoya",
+      "receipt_path": "data/artwork-generated/batch-1456/pincoya.json",
+      "reason": "Perempuan biasa di pantai; tidak menunjukkan dewi laut.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "c61dd9dd763b60017c77de31d15a3d38c287a5a86fef9766fbcec9967985b943",
+      "root_native_and_thumbnail_pass": true
+    },
+    {
+      "ledger": "data/artwork-batch-1506.json",
+      "slug": "anchimayen",
+      "receipt_path": "data/artwork-generated/batch-1506/anchimayen.json",
+      "reason": "Bola api abstrak; tidak menunjukkan makhluknya.",
+      "source": "Pesan pemilik 2026-10-13: laporan tinjauan Claude sebelum penulisan receipt",
+      "status": "awaiting-independent-review",
+      "new_native_sha256": "3432377cce57e5f8e25e363574d7fe685de99aac88d42a929a7e8cacd2c62e5d",
+      "root_native_and_thumbnail_pass": true
+    }
+  ],
+  "declined_entries": [
+    {
+      "slug": "obambo",
+      "reason": "Riset c01–c16 mendokumentasikan roh/soul yang belum dimakamkan benar, penyakit dan possession, tetapi tidak mendeskripsikan tubuh atau manifestasi visual aktif roh. Orang sakit, idol/bier atau lanskap kuburan akan menggantikan subjek dengan manusia/objek biasa; tidak mengarang bentuk Obambo."
+    },
+    {
+      "slug": "picolaton",
+      "reason": "Riset c01–c06 hanya menyebut burung khayalan yang mencubit tumit/bokong dan bersarang di semak berduri; ukuran, warna, spesies, anatomi pembeda atau manifestasi aktif luar biasa tidak didokumentasikan. Burung umum di semak tidak dapat memenuhi identitas visual dan Sangar tanpa mengarang wujud."
+    },
+    {
+      "slug": "udug",
+      "reason": "Udug secara eksplisit tak berbentuk/tak bernama c11; c13 hanya bayangan gelap/ketiadaan cahaya/racun/suara, dan c09/c10 penyakit. Riset tidak mendeskripsikan tubuh atau manifestasi visual aktif spesifik yang dapat menjadi subjek sangar tanpa mengarang figur iblis, anatomi, atau efek. Tidak mengganti roh dengan orang sakit atau lanskap."
+    },
+    {
+      "slug": "wd-q17030967",
+      "reason": "Three attempts failed required horse feet: front hooves repeatedly rendered bovine cloven or centrally split. No image accepted."
+    },
+    {
+      "slug": "white-river-monster",
+      "reason": "Two source-limited forehead/horn attempts failed Sangar creature legibility. Claims supply gray size, horn, spiny back and prints but no identifiable face/body/appendage anatomy; competing manatee/elephant-seal/gar hypotheses cannot be asserted. No third attempt warranted without fabricating physical form."
+    }
+  ],
+  "independent_review_pending": true,
+  "integration_performed": false,
+  "commit_push_deploy_performed": false,
+  "protected_files_snapshot": "data/artwork-generated/batch-1606/drafts/root/protected-resume-before.json",
+  "note": "All 15 correction verdicts were supplied in the owner message; Claude had not yet written them to repository receipts. The replacements need fresh independent review. Three root-generated corrections use null sub-agent metadata truthfully.",
+  "journal_completion": "2026-10-13 10:54 WIB",
+  "final_status": {
+    "active_artwork": 1179,
+    "awaiting": 388,
+    "invalid": 0,
+    "needs_correction": 0
+  },
+  "gallery_validation": {
+    "checked_local_links": 861,
+    "missing": [],
+    "protected_files": 2931,
+    "changed": []
+  }
+}

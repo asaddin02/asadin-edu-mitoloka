@@ -1,0 +1,75 @@
+{
+  "slug": "qianliyan",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of qianliyan, the green-skinned far-seeing Mazu temple guardian.\nANATOMY: One green-skinned guardian figure with one head, two sharp natural eyes, two arms and two hands; fully opaque layered plain ceremonial general robe, no added horns, fangs, wings or extra eyes; one hand shields his eyes from glare [qianliyan-c06, qianliyan-c12]\nMOMENT: Lean forward from a temple doorway and turn his far-seeing gaze over the viewer toward the unseen sailors, lifting hand to shade the eyes\nPOWER: Far-seeing vigilance protects sailors in fog and bad weather; show no eye beams, glowing magical eyes or physical weather control [qianliyan-c08]\nSCALE & CAMERA: extreme low angle; tight frame and foreshortening, distinguishing anatomy clearly visible; the creature dominates 80 percent of the square; never invent colossal size beyond the documented form.\nLIGHT & WEATHER: one dominant late sunlight shaft that the hand shields against, deep doorway shadow and fog rim light; physical particles only where justified by the action.\nSURFACE: textured green skin, rough opaque woven robe and weathered temple wood.\nSETTING: Mazu temple doorway by the sea, distant fog obscuring the water [qianliyan-c01, qianliyan-c08]\nMOOD: imposing and awe-inspiring or menacing as appropriate to the documented disposition; never cute, calm or decorative. Living belief beings treated respectfully.\nHARD CONSTRAINTS: render ONE native square PNG at least 1024x1024 pixels; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One green-skinned guardian figure with one head, two sharp natural eyes, two arms and two hands; fully opaque layered plain ceremonial general robe, no added horns, fangs, wings or extra eyes; one hand shields his eyes from glare",
+      "claim_ids": [
+        "qianliyan-c06",
+        "qianliyan-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Far-seeing vigilance protects sailors in fog and bad weather; show no eye beams, glowing magical eyes or physical weather control",
+      "claim_ids": [
+        "qianliyan-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mazu temple doorway by the sea, distant fog obscuring the water",
+      "claim_ids": [
+        "qianliyan-c01",
+        "qianliyan-c08"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "qianliyan-c06",
+    "qianliyan-c12",
+    "qianliyan-c08",
+    "qianliyan-c01"
+  ],
+  "depicted_variant": "the green-skinned far-seeing Mazu temple guardian",
+  "artistic_choices": [
+    "Reverent guardian awe with tight looming bust framing, no inferred3m body height from procession costumes.",
+    "Opaque robe is modest editorial clothing; no iconography or weapons added beyond claims.",
+    "Far-sight has no documented visual beam, so eye shading and focused gaze express it."
+  ],
+  "aura": "Far-seeing vigilance protects sailors in fog and bad weather; show no eye beams, glowing magical eyes or physical weather control [qianliyan-c08]",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12df0-73b3-7530-b8d9-ecfc3bda1d2d/exec-352d4136-4f78-4839-9270-9391965929ff.png",
+  "generated_at": "2026-10-12T02:47:40.152747+00:00",
+  "original_file": "data/artwork-generated/batch-1406/originals/qianliyan.png",
+  "native_sha256": "f6721c22bd07c5c89accd496232ae21fafb07788cfaa5a07eacd79a190720cf0",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native view: green-skinned single-headed temple guardian, two eyes, two arms and hands, fully opaque general robe; hand actively shades eyes c12 while leaning from Mazu doorway c01 toward fogged sea c08. No eye beam, added horns or extra eyes; gaze and extreme low framing convey protective awe at200px. All seven checks pass. Clothing ornament is editorial, not claimed iconography.",
+    "limitations": [],
+    "native_sha256": "f6721c22bd07c5c89accd496232ae21fafb07788cfaa5a07eacd79a190720cf0",
+    "reviewed_at": "2026-10-12T02:47:40.152747+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "f6721c22bd07c5c89accd496232ae21fafb07788cfaa5a07eacd79a190720cf0",
+    "notes": "Green-skinned robed guardian shading his eyes and peering far over a fog-bound sea from a temple gate, low camera; no eye beams."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "dyrnwch",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of dyrnwch, the Welsh giant owner of the miraculous cauldron.\nANATOMY: One male human-shaped giant, one head, two eyes, two arms, two legs; full opaque rough wool cloak and tunic. A large plain black iron cauldron held by rim in one hand [dyrnwch-c01, dyrnwch-c03]\nMOMENT: Pull the heavy cauldron protectively close and thrust his free palm toward viewer, refusing to yield it\nPOWER: Food physically boils inside the cauldron, with ordinary rising steam; its documented discrimination of brave and cowardly is not invented as colored magic [dyrnwch-c10]\nSCALE & CAMERA: extreme low angle; tight framing and foreshortening, distinguishing anatomy fully readable; being fills most of square; no invented gigantic size.\nLIGHT & WEATHER: one dominant warm sidelight, deep shadows and strong rim light; only physical particles justified by action.\nSURFACE: rough wool, weathered skin, hammered soot-dark iron.\nSETTING: Dark interior ground without invented geographical features []\nMOOD: imposing awe or menace appropriate to documented disposition, never cute, calm or decorative. Living religious traditions treated reverently.\nHARD CONSTRAINTS: ONE native square PNG minimum1024x1024; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One male human-shaped giant, one head, two eyes, two arms, two legs; full opaque rough wool cloak and tunic. A large plain black iron cauldron held by rim in one hand",
+      "claim_ids": [
+        "dyrnwch-c01",
+        "dyrnwch-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Food physically boils inside the cauldron, with ordinary rising steam; its documented discrimination of brave and cowardly is not invented as colored magic",
+      "claim_ids": [
+        "dyrnwch-c10"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "dyrnwch-c01",
+    "dyrnwch-c03",
+    "dyrnwch-c10"
+  ],
+  "depicted_variant": "the Welsh giant owner of the miraculous cauldron",
+  "artistic_choices": [
+    "Clothing, rugged face and ground are restrained editorial choices because their details are unspecified.",
+    "Steam shows cauldron boiling c10, no magical glow. Giant identity supports imposing scale; no depiction of ordinary farmer."
+  ],
+  "aura": "Food physically boils inside the cauldron, with ordinary rising steam; its documented discrimination of brave and cowardly is not invented as colored magic [dyrnwch-c10]",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a12f1d-84b6-74c3-8189-ebb47cb5a8e6/exec-b4faa671-ba0e-443a-9956-bb35340e7cad.png",
+  "generated_at": "2026-10-12T08:02:57.043801+00:00",
+  "original_file": "data/artwork-generated/batch-1456/originals/dyrnwch.png",
+  "native_sha256": "9ef1b36ebe8575868deba383ec4906e46613e7df6118f5a3fdb7720214265881",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200 inspected;7Sangar pass. Giant fillsframe, extreme below-knee camera and enlarged foreshortened forbidding palm establish dominance, forceful protectivereach c05. Cauldron c03/c10 visibly boils with physicalsteam.1head/2eyes/2arms, foregroundpalm5digits; opaqueclothes; no unsupported magic,text,gore.",
+    "limitations": [],
+    "native_sha256": "9ef1b36ebe8575868deba383ec4906e46613e7df6118f5a3fdb7720214265881",
+    "reviewed_at": "2026-10-12T08:02:57.043801+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "9ef1b36ebe8575868deba383ec4906e46613e7df6118f5a3fdb7720214265881",
+    "notes": "Bearded giant in a rough cloak holding a huge iron cauldron of boiling food, raising his palm to refuse the viewer."
+  }
+}

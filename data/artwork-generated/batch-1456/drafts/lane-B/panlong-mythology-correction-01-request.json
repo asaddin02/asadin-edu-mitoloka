@@ -1,0 +1,73 @@
+{
+  "slug": "panlong-mythology",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Panlong, living aquatic Chinese coiled dragon in its lair. Native square PNG at least1024x1024.\nANATOMY: ONE living aquatic CHINESE DRAGON, one head/two eyes and continuous scaled body tightly COILED in water. Broad pronounced dragon muzzle, ridged brow, long wet whiskers and coarse beard/mane are conventional editorial dragon physiognomy, not exact sourced iconography. Hornless rendering; limbs and tail end entirely submerged. Not ordinary python/crocodile/statue. [panlong-mythology-c01, panlong-mythology-c03]\nMOMENT: UNCOIL sharply toward the low water-level viewer, head raised out of breaking water while a tight visible circular body pushes water over itself; whiskers whip and jaws open.\nPOWER: Moving aquatic coils physically displace water into a bow wave and draining sheets. Source motif used in rain magic is not a claimed rain-control power. [panlong-mythology-c01]\nSCALE & CAMERA: Extreme low close confrontation; head/being fills most frame, distinguishing dragon face visible at200px; no undocumented gigantic body comparisons.\nLIGHT & WEATHER: One narrow warm sidelight against deep walnut shadows, hard rim, dark high contrast; physical water or dust only from documented scene.\nSURFACE: Living wet scales, coarse mane hairs, rain-wet opaque cloth when clothed, weathered stone or ordinary soil. Never plastic or glazed ornament.\nSETTING: Dark aquatic lair, wet rocks framing tight partly submerged coil. [panlong-mythology-c01, panlong-mythology-c05]\nMOOD: Reverent overwhelming dragon awe, commanding and imposing, never cute, calm, decorative or ordinary snake.\nHARD CONSTRAINTS: No text, lettering, glyphs, logo, border, frame or watermark. No extra heads, eyes, limbs, fingers. No film/game/anime/comic designs, no nudity or explicit gore, no generic glow aura, neon outlines, floating runes or energy ribbons. All clothing fully opaque. Conventional Chinese dragon rendering details are artistic interpretation of documented dragon identity, not new physical powers or claimed exact iconography.",
+  "depicted_variant": "living aquatic Chinese coiled dragon in its lair",
+  "basis_claim_ids": [
+    "panlong-mythology-c01",
+    "panlong-mythology-c03",
+    "panlong-mythology-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE living aquatic CHINESE DRAGON, one head/two eyes and continuous scaled body tightly COILED in water. Broad pronounced dragon muzzle, ridged brow, long wet whiskers and coarse beard/mane are conventional editorial dragon physiognomy, not exact sourced iconography. Hornless rendering; limbs and tail end entirely submerged. Not ordinary python/crocodile/statue.",
+      "claim_ids": [
+        "panlong-mythology-c01",
+        "panlong-mythology-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Moving aquatic coils physically displace water into a bow wave and draining sheets. Source motif used in rain magic is not a claimed rain-control power.",
+      "claim_ids": [
+        "panlong-mythology-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark aquatic lair, wet rocks framing tight partly submerged coil.",
+      "claim_ids": [
+        "panlong-mythology-c01",
+        "panlong-mythology-c05"
+      ]
+    }
+  ],
+  "aura": "UNCOIL sharply toward the low water-level viewer, head raised out of breaking water while a tight visible circular body pushes water over itself; whiskers whip and jaws open. Supported by panlong-mythology-c01, panlong-mythology-c03, panlong-mythology-c01, panlong-mythology-c01, panlong-mythology-c05.",
+  "artistic_choices": [
+    "Documented dragon category is rendered with conventional Chinese dragon physiognomy as editorial detail; exact horns, mane, whiskers, limbs or historical portrait are not facts claimed by research.",
+    "Low camera, close framing, palette and directional light are editorial; no unsupported physical power.",
+    "Correction addresses owner-supplied Claude rejection: Ular biasa, bukan naga."
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/panlong-mythology-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/panlong-mythology-attempt-01.json",
+      "native_sha256": "cea73e7f4848301c87383980cc43164a253756a4007c641864a267a8a590faab",
+      "reason": "Added sharp triangular dorsal spikes along neck and coil not documented in accepted research; minimal dragon rendering must omit them."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1456/rejected/panlong-mythology-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1456/rejected/panlong-mythology-attempt-02.json",
+      "native_sha256": "cdde83d29063afd25d7bb1ca9d1dd7a1d6e7921a8244390046cb6b73e5e55470",
+      "reason": "Ular biasa, bukan naga."
+    }
+  ],
+  "tool": "OpenAI built-in image_gen",
+  "model_reported": false,
+  "image_model": "tidak dilaporkan alat",
+  "worker": "codex",
+  "worker_agent": "lane-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "status": "draft-before-generation",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1456,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "correction_cycle": {
+    "source": "owner-supplied Claude rejection 2026-10-13",
+    "maximum_new_calls": 3,
+    "prior_selected_native_sha256": "cdde83d29063afd25d7bb1ca9d1dd7a1d6e7921a8244390046cb6b73e5e55470",
+    "archived_prior_receipt": "data/artwork-generated/batch-1456/rejected/panlong-mythology-attempt-02-old-receipt.json"
+  }
+}

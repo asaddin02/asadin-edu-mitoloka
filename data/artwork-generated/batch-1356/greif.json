@@ -1,0 +1,89 @@
+{
+  "slug": "greif",
+  "worker": "codex",
+  "worker_agent": "lane-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "batch": 1356,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Greif, the Ptolemaic Egyptian winged hybrid described in the demotic fable with falcon beak, human eyes, lion limbs, fish ears and serpent tail.\nANATOMY: ONE original living winged hybrid with exactly one head, large FALCON BEAK, exactly two unmistakably HUMAN EYES with white sclera and small dark round pupils, two clearly readable FISH EARS expressed as fin-ray-textured ear flaps at the sides of the head, lion body and exactly FOUR LION LIMBS ending in lion paws, two broad natural feathered wings, and one long SNAKE-LIKE TAIL without a second head. No human head between wings, no eagle forelegs, no extra faces [greif-c04]\nMOMENT: Charge toward the viewer across desert stone, spread both feathered wings while the four lion paws drive forward, lower the falcon beak and turn its two human eyes directly on us in fierce protective authority.\nPOWER: No magic aura; protective/desert-hunting nature expressed by physical charging motion, wings beating real dust and sand and serpentine tail lashing behind [greif-c04, greif-c05, greif-c09]\nSCALE & CAMERA: extreme low angle; extreme low close angle with beak, HUMAN EYES and FISH ear fins filling foreground; body and four lion paws visible in a running stride; subject fills the image, distinguishing anatomy readable at 200 pixels.\nLIGHT & WEATHER: one dying amber sunbeam, high contrast walnut shadows, physical desert dust.\nSURFACE: coarse lion fur, falcon feather/beak texture, ray-textured fish ear fins, rough snake tail scales.\nSETTING: A dark North African Egyptian desert hunting ground with plain rocky sand, no statues, hieroglyphs, carved writing or painted palette [greif-c05]\nMOOD: dangerous or awe-inspiring, imposing active presence, never cute, neutral, decorative or calm.\nHARD CONSTRAINTS: one square image, native resolution at least 1024x1024; no text, glyphs, runes, inscriptions, symbols, lettering, logo, border, frame or watermark; all architecture and objects plain and uninscribed; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; fully opaque clothing; no generic glowing aura, neon outline, energy ribbons or floating symbols. \nTARGETED EDIT of the supplied original: change ONLY the two EYES. Replace the owl-like golden bird eyes with unmistakably HUMAN EYES: very wide clearly white sclera surrounding small pale blue-gray human irises, round small black pupils, almond-shaped human eyelids. The head still has the falcon BEAK, not a human mouth or human face. Preserve both fish-ear fins, two wings, four lion limbs, one serpentine tail, active running pose, background, lighting and square composition. No other changes. Human eyes are required by the source claim.",
+  "depicted_variant": "Greif varian Ptolemaic c04: falconbeak/humaneyes/lionlimbs/fishears/snaketail, tanpa kepala manusia MiddleKingdom.",
+  "basis_claim_ids": [
+    "greif-c04",
+    "greif-c05",
+    "greif-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE original living winged hybrid with exactly one head, large FALCON BEAK, exactly two unmistakably HUMAN EYES with white sclera and small dark round pupils, two clearly readable FISH EARS expressed as fin-ray-textured ear flaps at the sides of the head, lion body and exactly FOUR LION LIMBS ending in lion paws, two broad natural feathered wings, and one long SNAKE-LIKE TAIL without a second head. No human head between wings, no eagle forelegs, no extra faces Human white sclera and small human irises must be unmistakable at thumbnail200.",
+      "claim_ids": [
+        "greif-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magic aura; protective/desert-hunting nature expressed by physical charging motion, wings beating real dust and sand and serpentine tail lashing behind",
+      "claim_ids": [
+        "greif-c04",
+        "greif-c05",
+        "greif-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark North African Egyptian desert hunting ground with plain rocky sand, no statues, hieroglyphs, carved writing or painted palette",
+      "claim_ids": [
+        "greif-c05"
+      ]
+    }
+  ],
+  "aura": "No magic aura; protective/desert-hunting nature expressed by physical charging motion, wings beating real dust and sand and serpentine tail lashing behind [greif-c04, greif-c05, greif-c09]",
+  "artistic_choices": [
+    "Memilih hanya varian Ptolemaic c04, tidak mencampur combwings atau humanhead/collar c02.",
+    "Fish ears ditafsir visual sebagai flaps dengan fin-ray texture; tidak menambah kuasa energi atau glyph."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1356/rejected/greif-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1356/rejected/greif-attempt-01.json",
+      "native_sha256": "3ef6087188f6dc732c40ce933c0ddec7b2f42b3eaabed732fda6029e32f9ef61",
+      "reason": "Mata masih menyerupai mata burung dengan iris besar kekuningan, ciri humaneyes c04 tidak terbaca cukup jelas. Fish ears/lionlimbs/snaketail sudah baik; targeted edit hanya mata ke sclera putih luas dan iris manusia kecil."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e28-a9e2-7573-af2b-64c9d7d953c1/exec-6868a654-804d-43d6-ba68-bfafdb38c8f7.png",
+  "generated_at": "2026-10-10T03:56:56.313493+00:00",
+  "original_file": "data/artwork-generated/batch-1356/originals/greif.png",
+  "native_sha256": "6ac75eb60a233c26dcd04c541122fd1b0c80f3067135b0e56dc2a1710be97e78",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 attempt02 dilihat: falconbeak, dua humaneyes whitesclera+iris kecil jelas, dua fishear fins, dua wings, empat lionlimbs dengan paw belakang tertutup body dan satu snaketail tanpa kepala kedua c04. Chargeaktif desertc05 tanpa glyph/aura. Uji7/7.",
+    "limitations": [],
+    "native_sha256": "6ac75eb60a233c26dcd04c541122fd1b0c80f3067135b0e56dc2a1710be97e78",
+    "reviewed_at": "2026-10-10T03:56:56.313493+00:00",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-13T11:33:01+07:00",
+    "native_sha256": "6ac75eb60a233c26dcd04c541122fd1b0c80f3067135b0e56dc2a1710be97e78",
+    "notes": "Falcon-beaked winged hybrid with two human eyes, fin-like fish ears, lion limbs and a snake tail charging across the desert in dust."
+  }
+}

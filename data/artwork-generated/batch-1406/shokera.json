@@ -1,0 +1,42 @@
+{
+  "slug": "shokera",
+  "worker": "codex",
+  "worker_agent": "lane-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "reason": "Riset hanya memberi bentuk binatang generik (c11), aksi mengintip jendela atap (c04), dan tafsir belakangan tiga jari berkuku tajam (c12); tidak menetapkan kepala, wajah, tubuh, kulit, jumlah anggota badan atau atribut pembeda yang cukup. Ilustrasi sangar terperinci akan mengarang anatomi iblis; tidak ada manifestasi aktif non-anatomis yang cukup spesifik. Decline sesuai GAMBAR§6.5.",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1406,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "basis_claim_ids": [
+    "shokera-c03",
+    "shokera-c04",
+    "shokera-c11",
+    "shokera-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Only generic beast form and three sharp-nailed fingers documented; defining bodily anatomy insufficient.",
+      "claim_ids": [
+        "shokera-c11",
+        "shokera-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Peering through roof skylight.",
+      "claim_ids": [
+        "shokera-c04"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "No image generated rather than invent identifiable demon anatomy from the generic beast term."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "chiwen",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of CHIWEN, the living fishlike hornless Chinese dragon that guards roof ridges.\nANATOMY: one hornless dragon-fish head, two eyes, exceptionally broad open mouth, very truncated stout fishlike body, winding tail lifted upward; no wings, no legs, no horn or antler. [chiwen-c02, chiwen-c07, chiwen-c14]\nMOMENT: Grip the end of a traditional roof ridge in its massive jaws while the winding tail thrusts upward.\nPOWER: Protective domain is signalled by rain running off the intact roof; no invented fire breath or attacks. [chiwen-c08, chiwen-c09]\nSCALE & CAMERA: extreme low angle and close foreground, subject dominates the frame and its distinguishing features read clearly at 200 pixels. Numerical scale is asserted only when documented; otherwise dramatic close perspective.\nLIGHT & WEATHER: one strong warm sidelight, antique-gold rim light, walnut shadows, high contrast with visible dark details and appropriate natural moisture.\nSURFACE: rough physically convincing natural surfaces, textured scales or feathers or coarse fur as applicable, painterly cinematic realism rather than plastic.\nSETTING: one end of a Chinese temple roof ridge in natural heavy rain. [chiwen-c06, chiwen-c13]\nMOOD: dangerous or awe-inspiring as appropriate to the tradition; commanding, alert and actively moving; sacred beings treated with respect.\nHARD CONSTRAINTS: no text, letters, pseudo-glyphs, logos, watermark, border or frame; no extra heads, limbs, eyes or fingers; no nudity or explicit gore; no film, game, anime or comic design; no generic glow aura, neon outline, energy ribbons or luminous colored mist. One single square image.",
+  "basis_claim_ids": [
+    "chiwen-c02",
+    "chiwen-c07",
+    "chiwen-c14",
+    "chiwen-c08",
+    "chiwen-c09",
+    "chiwen-c06",
+    "chiwen-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one hornless dragon-fish head, two eyes, exceptionally broad open mouth, very truncated stout fishlike body, winding tail lifted upward; no wings, no legs, no horn or antler",
+      "claim_ids": [
+        "chiwen-c02",
+        "chiwen-c07",
+        "chiwen-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective domain is signalled by rain running off the intact roof; no invented fire breath or attacks",
+      "claim_ids": [
+        "chiwen-c08",
+        "chiwen-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "one end of a Chinese temple roof ridge in natural heavy rain",
+      "claim_ids": [
+        "chiwen-c06",
+        "chiwen-c13"
+      ]
+    }
+  ],
+  "depicted_variant": "living fishlike roof-ridge guardian",
+  "aura": "Protective domain is signalled by rain running off the intact roof; no invented fire breath or attacks Basis klaim: chiwen-c02, chiwen-c07, chiwen-c14, chiwen-c08, chiwen-c09, chiwen-c06, chiwen-c13.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, perspektif dekat, cahaya dan tekstur adalah pilihan editorial; tidak menambahkan kekuatan atau anatomi di luar klaim."
+  ],
+  "worker": "codex",
+  "worker_agent": "root",
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1277,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11e26-568e-77e0-88ac-161f40bd1802/exec-58a1a650-1217-4567-8ca0-ac44d439e32a.png",
+  "generated_at": "2026-10-09T01:00:52.918561+00:00",
+  "original_file": "data/artwork-generated/batch-1277/rejected/chiwen-attempt-01.png",
+  "native_sha256": "d8994b354146eda85c1f9630a834eb61b78f11633323a64dae044a4c24ace51a",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Root melihat native PNG: Chiwen hidup berkepala satu tanpa tanduk, mulut lebar menggigit ujung bubungan, tubuh ikan pendek dengan sirip/duri ikan dan ekor terangkat. Mata/mulut mendominasi; hujan dan cipratan adalah lingkungan, bukan serangan. Tidak ada teks, frame atau glow, dekorasi atap berupa motif bunga tanpa huruf. Tujuh cek Sangar lulus. Protective meaning c08/c09 is contextual, not a new emitted power.",
+    "limitations": [],
+    "native_sha256": "d8994b354146eda85c1f9630a834eb61b78f11633323a64dae044a4c24ace51a",
+    "reviewed_at": "2026-10-09T01:00:52.918561+00:00"
+  },
+  "reason": "Owner relays Claude: looked like ceramic ornament."
+}
