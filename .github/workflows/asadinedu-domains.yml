@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: inspect, or attach a domain to a Pages project
+        description: inspect; attach a domain to a Pages project; or redirects (301 from <project>.pages.dev to <project>.asadinedu.com)
         type: choice
-        options: [inspect, attach]
+        options: [inspect, attach, redirects]
         default: inspect
       project:
         description: Pages project (attach only), for example mitoloka
@@ -66,3 +66,27 @@ jobs:
           else
             echo "A DNS record for $HOSTNAME_IN already exists; left unchanged."
           fi
+      - name: Redirect the pages.dev addresses to asadinedu.com
+        if: inputs.mode == 'redirects'
+        run: |
+          api=https://api.cloudflare.com/client/v4
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          acct="$api/accounts/$CLOUDFLARE_ACCOUNT_ID"
+          name=pages_dev_to_asadinedu
+          lid=$(curl -sS -H "$auth" "$acct/rules/lists" | jq -r --arg n "$name" '.result[]? | select(.name == $n) | .id')
+          if [ -z "$lid" ]; then
+            lid=$(curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$acct/rules/lists" \
+              --data "$(jq -nc --arg n "$name" '{name: $n, kind: "redirect", description: "Pages projects moved to asadinedu.com subdomains"}')" \
+              | tee /dev/stderr | jq -r '.result.id')
+          fi
+          [ -n "$lid" ] && [ "$lid" != null ] || exit 1
+          items=$(jq -nc '[ "biotaloka", "kimialoka", "fisikaloka", "mitoloka" ] | map({redirect: {
+            source_url: "\(.).pages.dev/", target_url: "https://\(.).asadinedu.com/", status_code: 301,
+            include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }})')
+          curl -sS -X PUT -H "$auth" -H 'Content-Type: application/json' "$acct/rules/lists/$lid/items" --data "$items" \
+            | tee /dev/stderr | jq -e '.success' > /dev/null
+          rules=$(jq -nc --arg n "$name" '{rules: [{ description: "pages.dev to asadinedu.com", enabled: true,
+            expression: "http.request.full_uri in $\($n)", action: "redirect",
+            action_parameters: { from_list: { name: $n, key: "http.request.full_uri" } } }]}')
+          curl -sS -X PUT -H "$auth" -H 'Content-Type: application/json' "$acct/rulesets/phases/http_request_redirect/entrypoint" \
+            --data "$rules" | tee /dev/stderr | jq -e '.success' > /dev/null
