@@ -1113,12 +1113,11 @@
       ]
     },
     {
-      "id": "Ahli folklor Iwai Hiromi menggolongkannya sebagai yōkai perempuan tua penghuni sungai yang bersifat serupa kappa. Tani no Hibiki, sumber aslinya, menghimpun banyak cerita aneh dari wilayah Tsugaru dan dianggap catatan berharga tentang yōkai yang dipercayai rakyat pada akhir era Edo. Sungai Iwaki, tempat kisah ini berlangsung, berhulu di Desa Nishimeya dan mengalir melewati Hirosaki ke Dataran Tsugaru.",
-      "en": "The folklorist Iwai Hiromi classes it as an old-woman river yōkai similar in character to the kappa. Tani no Hibiki, its original source, collects many strange tales of the Tsugaru domain and is regarded as a valuable record of yōkai believed by commoners in the late Edo period. The Iwaki River, where the account is set, rises in Nishimeya village and flows past Hirosaki to the Tsugaru Plain.",
+      "id": "Ahli folklor Iwai Hiromi menggolongkannya sebagai yōkai perempuan tua penghuni sungai yang bersifat serupa kappa. Tani no Hibiki, sumber aslinya, menghimpun banyak cerita aneh dari wilayah Tsugaru dan dianggap catatan berharga tentang yōkai yang dipercayai rakyat pada akhir era Edo.",
+      "en": "The folklorist Iwai Hiromi classes it as an old-woman river yōkai similar in character to the kappa. Tani no Hibiki, its original source, collects many strange tales of the Tsugaru domain and is regarded as a valuable record of yōkai believed by commoners in the late Edo period.",
       "claim_ids": [
         "wd-q11553807-c05",
-        "wd-q11553807-c06",
-        "wd-q11553807-c07"
+        "wd-q11553807-c06"
       ]
     }
   ],
@@ -1133,17 +1132,16 @@
   "places": [
     {
       "name": {
-        "id": "Sungai Iwaki",
-        "en": "Iwaki River"
+        "id": "Sungai Iwaki (岩木川)",
+        "en": "Iwaki River (岩木川)"
       },
       "type": "river",
       "description": {
-        "id": "Sungai yang hulunya menjadi latar kisah Kawauba, berhulu di Nishimeya.",
-        "en": "River whose upper reaches are the setting of the Kawauba account, rising in Nishimeya."
+        "id": "Hulu sungai ini menjadi latar kisah Kawauba.",
+        "en": "Its upper reaches are the setting of the Kawauba account."
       },
       "claim_ids": [
-        "wd-q11553807-c02",
-        "wd-q11553807-c07"
+        "wd-q11553807-c02"
       ]
     }
   ],
@@ -1192,17 +1190,6 @@
       "language": "ja",
       "type": "wikipedia",
       "accessed": "2026-10-01"
-    },
-    {
-      "id": "wd-q11553807-s2",
-      "url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%9C%A8%E5%B7%9D",
-      "title": "岩木川",
-      "author": null,
-      "publisher": "Wikipedia",
-      "published": null,
-      "language": "ja",
-      "type": "wikipedia",
-      "accessed": "2026-10-14"
     }
   ],
   "claims": [
@@ -1224,8 +1211,8 @@
       "locator": "Article text, paragraph 2",
       "context": "traditional-belief",
       "statement": {
-        "id": "Pada suatu malam bulan kedelapan tahun 1847 di Desa Bankan, para penebang mendengar suara perempuan tua berterima kasih atas bantuan bagi anak-anaknya, tetapi tidak melihat siapa pun.",
-        "en": "One night in the eighth month of 1847 at Bankan village, woodcutters heard an old woman thanking them for helping her children, but saw nobody."
+        "id": "Pada suatu malam bulan kedelapan tahun 1847 di Desa Bankan, para penebang di hulu Sungai Iwaki (岩木川) mendengar suara perempuan tua berterima kasih atas bantuan bagi anak-anaknya, tetapi tidak melihat siapa pun.",
+        "en": "One night in the eighth month of 1847 at Bankan village, woodcutters on the upper Iwaki River (岩木川) heard an old woman thanking them for helping her children, but saw nobody."
       }
     },
     {
@@ -1270,17 +1257,6 @@
       "statement": {
         "id": "Tani no Hibiki, sumber asli kisah ini, menghimpun banyak cerita aneh di wilayah Tsugaru berdasarkan pengalaman kerabat, kenalan, dan Hirao Rosen sendiri, dan dianggap catatan berharga tentang yōkai yang dipercayai rakyat Tsugaru pada akhir era Edo (bakumatsu).",
         "en": "Tani no Hibiki, the original source, collects many strange tales told in the Tsugaru domain, based on the experiences of Hirao Rosen's relatives, acquaintances, and himself, and is regarded as a valuable record of yōkai believed by Tsugaru commoners in the late Edo (bakumatsu) period."
-      }
-    },
-    {
-      "id": "wd-q11553807-c07",
-      "source_id": "wd-q11553807-s2",
-      "quote": "青森県中津軽郡西目屋村の白神山地雁森岳（標高987m）に源を発し、岩木山南麓を北東に流れる。弘前市から概ね北に向きを変え、津軽平野を潤す。",
-      "locator": "Lead / 地理",
-      "context": "historical-record",
-      "statement": {
-        "id": "Sungai Iwaki berhulu di Gunung Gamoridake di Pegunungan Shirakami, Desa Nishimeya, Aomori (ketinggian 987 m), mengalir ke timur laut di kaki selatan Gunung Iwaki, lalu berbelok ke utara dari Hirosaki dan mengairi Dataran Tsugaru.",
-        "en": "The Iwaki River rises on Mount Gamoridake in the Shirakami Mountains, Nishimeya village, Aomori (987 m), flows northeast along the southern foot of Mount Iwaki, then turns roughly north from Hirosaki to water the Tsugaru Plain."
       }
     }
   ],
@@ -2146,14 +2122,6 @@
       "claim_ids": [
         "wd-q11559425-c04"
       ]
-    },
-    {
-      "id": "Hutan tempat suara itu terdengar terletak di belakang Keta Taisha, kuil utama Provinsi Noto di Hakui. Kawasan suci Irazu no Mori ini tertutup bagi siapa pun selain pendeta yang menyelenggarakan ritus Okumiya pada malam tahun baru.",
-      "en": "The forest where the sounds are heard lies behind Keta Taisha, the chief shrine of Noto Province at Hakui. This sacred Irazu no Mori is closed to all but the priests who hold the Okumiya rite on New Year's Eve.",
-      "claim_ids": [
-        "wd-q11559425-c05",
-        "wd-q11559425-c06"
-      ]
     }
   ],
   "cultural_context": null,
@@ -2167,8 +2135,8 @@
   "places": [
     {
       "name": {
-        "id": "Irazu no Mori, Keta Taisha",
-        "en": "Irazu no Mori, Keta Taisha"
+        "id": "Irazu no Mori (入らずの森), Keta Taisha (気多大社)",
+        "en": "Irazu no Mori (入らずの森), Keta Taisha (気多大社)"
       },
       "type": "forest",
       "description": {
@@ -2176,7 +2144,6 @@
         "en": "Sacred forest behind Keta Taisha whose sounds are linked to the warrior monks' ghosts."
       },
       "claim_ids": [
-        "wd-q11559425-c06",
         "wd-q11559425-c02",
         "wd-q11559425-c03"
       ]
@@ -2226,17 +2193,6 @@
       "language": "ja",
       "type": "museum-or-archive",
       "accessed": "2026-10-14"
-    },
-    {
-      "id": "wd-q11559425-s3",
-      "url": "https://ja.wikipedia.org/wiki/%E6%B0%97%E5%A4%9A%E5%A4%A7%E7%A4%BE",
-      "title": "気多大社",
-      "author": null,
-      "publisher": "Wikipedia",
-      "published": null,
-      "language": "ja",
-      "type": "wikipedia",
-      "accessed": "2026-10-14"
     }
   ],
   "claims": [
@@ -2269,8 +2225,8 @@
       "locator": "Article text, paragraph 3",
       "context": "traditional-belief",
       "statement": {
-        "id": "Arwah itu konon merangkak ke darat dan mengguncang pepohonan; versi lain menghubungkan teriakannya dengan gemuruh laut.",
-        "en": "The ghosts supposedly crawl ashore and shake trees; another version links their cries to the sea's rumbling."
+        "id": "Hutan ini disebut juga Irazu no Mori (入らずの森); arwah itu konon merangkak ke darat dan mengguncang pepohonan, dan versi lain menghubungkan teriakannya dengan gemuruh laut.",
+        "en": "This forest is also called Irazu no Mori (入らずの森); the ghosts supposedly crawl ashore and shake trees, and another version links their cries to the sea's rumbling."
       }
     },
     {
@@ -2282,28 +2238,6 @@
       "statement": {
         "id": "Ringkasan Nichibun atas tulisan Fujii (1929) menyebut bahwa ketika Kenshin menyerbu Noto, para biksu prajurit tenggelam ke laut saat benteng jatuh; sejak itu deru laut yang terdengar dianggap jeritan mereka dan disebut \"Umināri-kobōzu tiga ribu biksu kecil\".",
         "en": "The Nichibun summary of Fujii (1929) says that when Kenshin invaded Noto, warrior monks sank into the sea as the castle fell; the sea roar heard since then is taken as their screams and called the \"sea-roaring little monks of the three thousand\"."
-      }
-    },
-    {
-      "id": "wd-q11559425-c05",
-      "source_id": "wd-q11559425-s3",
-      "quote": "気多大社（けたたいしゃ、正式名：氣多大社）は、石川県羽咋市寺家町にある神社。式内社（名神大社）、能登国一宮。",
-      "locator": "Lead",
-      "context": "historical-record",
-      "statement": {
-        "id": "Keta Taisha adalah kuil Shinto di Jikemachi, Hakui, Prefektur Ishikawa, dan merupakan ichinomiya (kuil utama) Provinsi Noto.",
-        "en": "Keta Taisha is a Shinto shrine at Jikemachi, Hakui, Ishikawa Prefecture, and the ichinomiya (chief shrine) of Noto Province."
-      }
-    },
-    {
-      "id": "wd-q11559425-c06",
-      "source_id": "wd-q11559425-s3",
-      "quote": "境内裏手には、原生林の社叢が広がっている。神門の内は神域「入らずの森」として、大晦日の奥宮例祭を催行する宮司ら神職以外は立ち入りは禁止されている。",
-      "locator": "入らずの森",
-      "context": "religious-tradition",
-      "statement": {
-        "id": "Di belakang halaman Keta Taisha terbentang hutan purba; di balik gerbang kuil, kawasan suci \"Irazu no Mori\" (Hutan Terlarang) tertutup bagi siapa pun selain pendeta yang menyelenggarakan ritus Okumiya pada malam tahun baru.",
-        "en": "Behind the Keta Taisha precinct lies a primeval forest; inside the shrine gate the sacred \"Irazu no Mori\" (Forbidden Forest) is closed to all but the priests who hold the Okumiya rite on New Year's Eve."
       }
     }
   ],

@@ -993,14 +993,6 @@
         "wd-q11569945-c03",
         "wd-q11569945-c04"
       ]
-    },
-    {
-      "id": "Air Terjun Atera no Nanataki, yang disebut dalam kisah ini, jatuh dalam tujuh undakan dan ditetapkan sebagai tempat indah serta monumen alam nasional. Batu konglomerat di bawahnya disebut Kodakiishi dan menurut tradisi mendatangkan anugerah anak, sementara dewa naga air terjunnya dipuja sebagai dewa pemanggil hujan.",
-      "en": "The Atera no Nanataki falls named in this account drop in seven steps and are designated a national place of scenic beauty and natural monument. The conglomerate rock below is called Kodakiishi and by tradition grants children, while the falls' dragon god is revered as a rain-bringing deity.",
-      "claim_ids": [
-        "wd-q11569945-c05",
-        "wd-q11569945-c06"
-      ]
     }
   ],
   "cultural_context": null,
@@ -1014,18 +1006,16 @@
   "places": [
     {
       "name": {
-        "id": "Atera no Nanataki",
-        "en": "Atera no Nanataki"
+        "id": "Atera no Nanataki (阿寺の七滝)",
+        "en": "Atera no Nanataki (阿寺の七滝)"
       },
       "type": "other",
       "description": {
-        "id": "Air terjun tujuh undakan dengan batu Kodakiishi, tempat perempuan yang mencari anak konon kehilangan sebelah sandalnya.",
-        "en": "Seven-step waterfall with the Kodakiishi rock, where women seeking children supposedly lost one sandal."
+        "id": "Air terjun dengan batu Kodakiishi (子抱き石), tempat perempuan yang mencari anak konon kehilangan sebelah sandalnya.",
+        "en": "Waterfall with the Kodakiishi (子抱き石) rock, where women seeking children supposedly lost one sandal."
       },
       "claim_ids": [
-        "wd-q11569945-c02",
-        "wd-q11569945-c05",
-        "wd-q11569945-c06"
+        "wd-q11569945-c02"
       ]
     }
   ],
@@ -1046,28 +1036,6 @@
       "language": "ja",
       "type": "wikipedia",
       "accessed": "2026-10-01"
-    },
-    {
-      "id": "wd-q11569945-s2",
-      "url": "https://www.aichinow.pref.aichi.jp/spots/detail/138/",
-      "title": "阿寺の七滝 | スポット検索 | 【公式】愛知県の観光サイトAichi Now",
-      "author": null,
-      "publisher": "Aichi Prefecture (Aichi Now)",
-      "published": null,
-      "language": "ja",
-      "type": "cultural-agency",
-      "accessed": "2026-10-14"
-    },
-    {
-      "id": "wd-q11569945-s3",
-      "url": "https://ja.wikipedia.org/wiki/%E9%98%BF%E5%AF%BA%E3%81%AE%E4%B8%83%E6%BB%9D",
-      "title": "阿寺の七滝",
-      "author": null,
-      "publisher": "Wikipedia",
-      "published": null,
-      "language": "ja",
-      "type": "wikipedia",
-      "accessed": "2026-10-14"
     }
   ],
   "claims": [
@@ -1089,8 +1057,8 @@
       "locator": "Article text, paragraph 2",
       "context": "traditional-belief",
       "statement": {
-        "id": "Ia berupa perempuan bangsawan cantik berkaki satu, yang konon mengambil sebelah sandal bertali kertas.",
-        "en": "It appears as a beautiful one-legged noblewoman, supposedly taking one sandal with paper straps."
+        "id": "Ia berupa perempuan bangsawan cantik berkaki satu yang konon mengambil sebelah sandal bertali kertas; perempuan yang pergi ke batu Kodakiishi (子抱き石) di air terjun Atera no Nanataki (阿寺の七滝) dengan sandal semacam itu konon kehilangan sebelahnya.",
+        "en": "It appears as a beautiful one-legged noblewoman who supposedly takes one sandal with paper straps; women who went to the Kodakiishi (子抱き石) rock at the Atera no Nanataki (阿寺の七滝) falls in such sandals supposedly lost one."
       }
     },
     {
@@ -1113,28 +1081,6 @@
       "statement": {
         "id": "Pencurian buruan juga dijelaskan sebagai perbuatan Yamaotoko atau anjing gunung.",
         "en": "Game theft is also explained as the work of Yamaotoko or mountain dogs."
-      }
-    },
-    {
-      "id": "wd-q11569945-c05",
-      "source_id": "wd-q11569945-s2",
-      "quote": "巣山高原から流れ落ちる水が、礫岩の断層崖で7段の階段状になっていることから「七滝」と名付けられた幽玄な滝。「日本の滝100選」にも選ばれた滝とその周辺は、国の名勝および天然記念物に指定されています。滝の下の礫岩は「子抱石」とも呼ばれ、子宝を授かるといういわれも。",
-      "locator": "Spot description",
-      "context": "traditional-belief",
-      "statement": {
-        "id": "Situs pariwisata resmi Prefektur Aichi menjelaskan bahwa Air Terjun Atera no Nanataki dinamai \"tujuh air terjun\" karena airnya jatuh dalam tujuh undakan, ditetapkan sebagai tempat indah dan monumen alam nasional, dan batu konglomerat di bawahnya disebut \"Kodakiishi\" yang konon memberi anugerah anak.",
-        "en": "Aichi Prefecture's official tourism site explains that the Atera no Nanataki falls are named \"seven falls\" for their seven steps, are designated a national place of scenic beauty and natural monument, and that the conglomerate rock below is called \"Kodakiishi\", said to grant children."
-      }
-    },
-    {
-      "id": "wd-q11569945-c06",
-      "source_id": "wd-q11569945-s3",
-      "quote": "自然林内の礫岩の断層にかかる7段の滝となっている事から、七滝と名付けられた。この礫岩は子抱石といわれ、祀ることで子宝に恵まれるとの伝承がある。なお、滝の竜神は雨乞の神として信仰されている。",
-      "locator": "概要",
-      "context": "religious-tradition",
-      "statement": {
-        "id": "Atera no Nanataki dinamai demikian karena terdiri atas tujuh undakan; batu konglomeratnya disebut Kodakiishi dan menurut tradisi memujanya mendatangkan anak, sedangkan dewa naga air terjun itu dipuja sebagai dewa pemanggil hujan.",
-        "en": "Atera no Nanataki is so named for its seven steps; its conglomerate rock is called Kodakiishi and by tradition worshipping it brings children, while the falls' dragon god is revered as a rain-bringing deity."
       }
     }
   ],
@@ -1229,12 +1175,10 @@
       ]
     },
     {
-      "id": "Tempat kemunculannya yang paling terkenal adalah sekitar balai kota Naze. Naze adalah kota inti di Amami Ōshima, pulau terbesar Kepulauan Amami, sampai bergabung menjadi Kota Amami pada 2006.",
-      "en": "Its best-known haunt was around the Naze city hall. Naze was the core city of Amami Ōshima, the largest of the Amami Islands, until it merged into Amami City in 2006.",
+      "id": "Tempat kemunculannya yang paling terkenal adalah sekitar balai kota Naze (名瀬市, kini Amami/奄美市).",
+      "en": "Its best-known haunt was around the city hall of Naze (名瀬市, now Amami/奄美市).",
       "claim_ids": [
-        "wd-q11569946-c03",
-        "wd-q11569946-c06",
-        "wd-q11569946-c07"
+        "wd-q11569946-c03"
       ]
     }
   ],
@@ -1249,8 +1193,8 @@
   "places": [
     {
       "name": {
-        "id": "Sekitar balai kota Naze (kini Kota Amami)",
-        "en": "Around Naze city hall (now Amami City)"
+        "id": "Sekitar balai kota Naze (名瀬市, kini Amami/奄美市)",
+        "en": "Around Naze (名瀬市) city hall (now Amami/奄美市)"
       },
       "type": "city",
       "description": {
@@ -1258,9 +1202,7 @@
         "en": "The best-known place where Katakirauwa appeared."
       },
       "claim_ids": [
-        "wd-q11569946-c03",
-        "wd-q11569946-c06",
-        "wd-q11569946-c07"
+        "wd-q11569946-c03"
       ]
     }
   ],
@@ -1281,17 +1223,6 @@
       "language": "ja",
       "type": "wikipedia",
       "accessed": "2026-10-01"
-    },
-    {
-      "id": "wd-q11569946-s2",
-      "url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E7%80%AC%E5%B8%82",
-      "title": "名瀬市",
-      "author": null,
-      "publisher": "Wikipedia",
-      "published": null,
-      "language": "ja",
-      "type": "wikipedia",
-      "accessed": "2026-10-14"
     }
   ],
   "claims": [
@@ -1324,8 +1255,8 @@
       "locator": "Article text, paragraph 3",
       "context": "traditional-belief",
       "statement": {
-        "id": "Ia disebut melompat dan bergerak secepat kelinci, serta berbau tajam.",
-        "en": "It is said to hop and move as quickly as a rabbit and have a pungent smell."
+        "id": "Tempat kemunculannya tetap, yang paling terkenal sekitar balai kota Naze (名瀬市, kini Amami); ia disebut melompat dan bergerak secepat kelinci, serta berbau tajam.",
+        "en": "It appears in fixed places, best known around the Naze (名瀬市, now Amami) city hall; it is said to hop and move as quickly as a rabbit and have a pungent smell."
       }
     },
     {
@@ -1348,28 +1279,6 @@
       "statement": {
         "id": "Makhluk tersebut dikatakan tidak berbayang; menyilangkan kaki dianggap cara menghindarinya.",
         "en": "These beings are said to cast no shadow; crossing the legs is regarded as a way to avoid them."
-      }
-    },
-    {
-      "id": "wd-q11569946-c06",
-      "source_id": "wd-q11569946-s2",
-      "quote": "名瀬市（なぜし）は、鹿児島県南部、奄美群島最大の島である奄美大島に所在した市。",
-      "locator": "Lead",
-      "context": "historical-record",
-      "statement": {
-        "id": "Kota Naze adalah bekas kota di Amami Ōshima, pulau terbesar Kepulauan Amami, di selatan Prefektur Kagoshima.",
-        "en": "Naze was a city on Amami Ōshima, the largest island of the Amami Islands, in southern Kagoshima Prefecture."
-      }
-    },
-    {
-      "id": "wd-q11569946-c07",
-      "source_id": "wd-q11569946-s2",
-      "quote": "県内離島自治体中最大の人口規模を有し、名瀬合同庁舎や大島支庁などの行政機関、文化施設や商業施設、物流等が集中する、奄美地方の中核都市であった。2006年3月20日、笠利町・住用村と合併し、奄美市となった。",
-      "locator": "Lead",
-      "context": "historical-record",
-      "statement": {
-        "id": "Naze adalah kota inti wilayah Amami dengan kantor pemerintahan, fasilitas budaya, dan perdagangan, lalu pada 20 Maret 2006 bergabung dengan Kasari dan Sumiyō menjadi Kota Amami.",
-        "en": "Naze was the core city of the Amami region, concentrating government offices, cultural and commercial facilities, and on 20 March 2006 merged with Kasari and Sumiyō to become Amami City."
       }
     }
   ],
