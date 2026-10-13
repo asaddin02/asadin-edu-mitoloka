@@ -1,19 +1,21 @@
 # Review batch-062
 
-Diperiksa 2026-10-07T09:21:05.336Z. Berkas: batch-062.md, batch-062-fix-1.md, batch-062-fix-2.md, batch-062-fix-3.md.
+Diperiksa 2026-10-13T19:24:46.082Z. Berkas: batch-062.md, batch-062-fix-1.md, batch-062-fix-2.md, batch-062-fix-3.md, batch-062-fix-4.md, batch-062-fix-5.md.
 
 ## sekison-gongen — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sekison-gongen-c01 | exact | ja.wikipedia.org | Sekison Gongen is a syncretic deity combining Ōyama mountain worship with Shugendō practice. | 石尊権現（せきそんごんげん）は、大山の山岳信仰と修験道的な信仰が融合した神仏習合の神であり、十一面観音を本地仏とする。大山寺の本尊が不動明王であったため誤解されることが多いが、門前町の観音寺の本尊が本地仏である。神仏分離・廃仏毀釈が行われる以前は、相模国雨降山大山寺から勧請されて全国の石尊社で祀られた。石尊大権現、大山石尊大権現ともいう。 |
-| sekison-gongen-c02 | exact | ja.wikipedia.org | Eleven-faced Kannon is regarded as its underlying Buddhist form. | 石尊権現（せきそんごんげん）は、大山の山岳信仰と修験道的な信仰が融合した神仏習合の神であり、十一面観音を本地仏とする。大山寺の本尊が不動明王であったため誤解されることが多いが、門前町の観音寺の本尊が本地仏である。神仏分離・廃仏毀釈が行われる以前は、相模国雨降山大山寺から勧請されて全国の石尊社で祀られた。石尊大権現、大山石尊大権現ともいう。 |
-| sekison-gongen-c03 | exact | ja.wikipedia.org | It is also called Sekison Daigongen and Ōyama Sekison Daigongen. | 石尊権現（せきそんごんげん）は、大山の山岳信仰と修験道的な信仰が融合した神仏習合の神であり、十一面観音を本地仏とする。大山寺の本尊が不動明王であったため誤解されることが多いが、門前町の観音寺の本尊が本地仏である。神仏分離・廃仏毀釈が行われる以前は、相模国雨降山大山寺から勧請されて全国の石尊社で祀られた。石尊大権現、大山石尊大権現ともいう。 |
+| sekison-gongen-c01 | exact | ja.wikipedia.org | Sekison Gongen is a syncretic deity combining Ōyama mountain worship with Shugendō practice. | 石尊権現（せきそんごんげん）は、大山の山岳信仰と修験道的な信仰が融合した神仏習合の神であり、十一面観音を本地仏とする。 |
+| sekison-gongen-c02 | exact | ja.wikipedia.org | Eleven-faced Kannon is regarded as its underlying Buddhist form. | 石尊権現（せきそんごんげん）は、大山の山岳信仰と修験道的な信仰が融合した神仏習合の神であり、十一面観音を本地仏とする。 |
+| sekison-gongen-c03 | exact | ja.wikipedia.org | It is also called Sekison Daigongen and Ōyama Sekison Daigongen. | 神仏分離・廃仏毀釈が行われる以前は、相模国雨降山大山寺から勧請されて全国の石尊社で祀られた。石尊大権現、大山石尊大権現ともいう。 |
 | sekison-gongen-c04 | exact | www.klnet.pref.kanagawa.jp | A regional archive records the worship of Sekison Daigongen on Ōyama's summit. | それが山頂部に突出したもので、山頂には石尊大権現（石尊社）が祀られている。 |
 | sekison-gongen-c05 | exact | ja.wikipedia.org | During the Edo period, Ōyama pilgrimages developed alongside worship associations. | 江戸時代に大山は江ノ島と並んで江戸近郊の半ば観光地となって大山詣が盛んになり、関東一円で大山講が組成されるとともに、源頼朝の戦勝祈願の故事に由来した納め太刀が流行した。当時の様子は江戸から石尊権現の神名を記した大きな木刀を担いで大山に参詣する浮世絵にもみられる。代表例として歌川豊国の「大當大願成就有が瀧壷」や歌川芳虎の「大山石尊大権現」などの作品がある。大山詣が盛んになるにつれ宿坊が建ち並び、大山詣を案内をする御師が活躍した。その規模は八大院、坊舎十八院、御師百五十余宇に至るほど隆盛した。また、石尊権現信仰は関東周辺に広がり、各地で石尊山の名称や石尊宮の建立が興り、それらでも石尊講が組成されたり納め太刀が奉納された。 |
 | sekison-gongen-c06 | exact | ja.wikipedia.org | The Meiji separation of religions suppressed Sekison Gongen's syncretic cult. | 明治維新の神仏分離令による廃仏毀釈によって、神仏習合信仰の石尊権現は廃された。明治元年（1868年）頂上の石尊社ならびに大山寺は各々大山阿夫利神社の頂上本社（ならびに奥社・前社）と下社に改組された。多くの寺宝は破壊されたが、雨降山大山寺は現在の大山ケーブルカーの大山寺駅近くに再興されて廃寺は免れた。また大山寺本尊不動明王像も廃仏毀釈から守られ現在も大山寺の本尊として祀られている。また各地の石尊社で廃仏毀釈を免れて石尊神社として残っているものもある。 |
+| sekison-gongen-c07 | exact | kotobank.jp | The dictionary defines Sekison Gongen as the popular name of Afuri Shrine (阿夫利神社) on Mount Ōyama in Isehara, Kanagawa (神奈川県伊勢原市), from the time it was called Ōyama-dera (大山寺) under syncretism, and also as the image enshrined together with a Fudō statue. | 神奈川県伊勢原市、大山(おおやま)にある阿夫利神社が、神仏習合により、大山寺(たいさんじ)と呼ばれたころの俗称。また、不動尊像とともに安置された像。 |
+| sekison-gongen-c08 | exact | ja.wikipedia.org | The sacred rock (iwakura) on the summit became the main sanctuary of Ōyama-dera as Sekison Gongen; Daitengu-sha, Kotengu-sha and Tokuichi-gū were also worshipped there. | 山頂の磐座は「石尊権現」として大山寺本宮（石尊社）となり、石尊権現以外にも、大天狗社（現在の奥社）、小天狗社（現在の前社）、徳一宮（現在の地主神）なども祀られ信仰された。 |
 
 
 ## shibataro — lulus-otomatis
@@ -21,30 +23,32 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 kutipan berbeda dari 6 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shibataro-c01 | exact | ja.wikipedia.org | Shibatarō is a shape-changing tanuki in Awaji Island stories, described as Shibaemon's son. | 芝太郎（しばたろう）は、淡路島に伝わる化け狸で、淡路で勢力の高い狸の芝右衛門（しばえもん）の息子にあたる狸。名称については複数語られており、柴助（しばすけ）などとも。 |
 | shibataro-c02 | exact | ja.wikipedia.org | Another name is Shibasuke. | 芝太郎（しばたろう）は、淡路島に伝わる化け狸で、淡路で勢力の高い狸の芝右衛門（しばえもん）の息子にあたる狸。名称については複数語られており、柴助（しばすけ）などとも。 |
 | shibataro-c03 | exact | ja.wikipedia.org | His parents, Shibaemon and Omasu, are said to have died in a dog attack while attending a performance in Osaka. | 両親である芝右衛門とお増（おます）は大坂へ芝居見物に行き、そこで2匹とも犬に襲われて命を落としたといわれている。 |
-| shibataro-c04 | exact | ja.wikipedia.org | He boards the boat of a fish seller named Saemon to travel to Osaka. | 芝太郎は大坂の中座に両親の供養に行こうと考え、大坂へ魚を売りに行く左衛門という男の船に乗るが発見されてしまう。芝太郎は船に積んであった魚の目玉を食べて空腹を満たしてもおり、謝罪として金の茶釜に化けた。左衛門はその茶釜を売却して大金を得たという。しばらくのあいだは売却先で茶釜のままの姿でいたが、やがて姿を消し、目的を果たしたという。 |
-| shibataro-c05 | exact | ja.wikipedia.org | After eating the eyes of the cargo fish, he apologizes by turning into a golden kettle. | 芝太郎は大坂の中座に両親の供養に行こうと考え、大坂へ魚を売りに行く左衛門という男の船に乗るが発見されてしまう。芝太郎は船に積んであった魚の目玉を食べて空腹を満たしてもおり、謝罪として金の茶釜に化けた。左衛門はその茶釜を売却して大金を得たという。しばらくのあいだは売却先で茶釜のままの姿でいたが、やがて姿を消し、目的を果たしたという。 |
-| shibataro-c06 | exact | ja.wikipedia.org | Saemon sells the kettle for a large sum; the tanuki later disappears from the buyer's place. | 芝太郎は大坂の中座に両親の供養に行こうと考え、大坂へ魚を売りに行く左衛門という男の船に乗るが発見されてしまう。芝太郎は船に積んであった魚の目玉を食べて空腹を満たしてもおり、謝罪として金の茶釜に化けた。左衛門はその茶釜を売却して大金を得たという。しばらくのあいだは売却先で茶釜のままの姿でいたが、やがて姿を消し、目的を果たしたという。 |
+| shibataro-c04 | exact | ja.wikipedia.org | He boards the boat of a fish seller named Saemon to travel to Osaka. | 芝太郎は大坂の中座に両親の供養に行こうと考え、大坂へ魚を売りに行く左衛門という男の船に乗るが発見されてしまう。芝太郎は船に積んであった魚の目玉を食べて空腹を満たしてもおり、謝罪として金の茶釜に化けた。 |
+| shibataro-c05 | exact | ja.wikipedia.org | After eating the eyes of the cargo fish, he apologizes by turning into a golden kettle. | 芝太郎は大坂の中座に両親の供養に行こうと考え、大坂へ魚を売りに行く左衛門という男の船に乗るが発見されてしまう。芝太郎は船に積んであった魚の目玉を食べて空腹を満たしてもおり、謝罪として金の茶釜に化けた。 |
+| shibataro-c06 | exact | ja.wikipedia.org | Saemon sells the kettle for a large sum; the tanuki later disappears from the buyer's place. | 左衛門はその茶釜を売却して大金を得たという。しばらくのあいだは売却先で茶釜のままの姿でいたが、やがて姿を消し、目的を果たしたという。 |
 
 
 ## shinchu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shinchu-c01 | exact | ja.wikipedia.org | Shinchū is an insectlike figure in the Hekija-e scroll, believed to repel disasters and epidemics. | 神虫（しんちゅう）は、奈良国立博物館に所蔵されている絵巻『辟邪絵』に描かれている、災厄・疫病を退散させるとされる虫のようなもの。 |
 | shinchu-c02 | exact | ja.wikipedia.org | The scroll is held by the Nara National Museum. | 神虫（しんちゅう）は、奈良国立博物館に所蔵されている絵巻『辟邪絵』に描かれている、災厄・疫病を退散させるとされる虫のようなもの。 |
 | shinchu-c03 | exact | ja.wikipedia.org | It is depicted with a beetlelike body and eight limbs, grasping an onilike figure. | 甲虫のような胴体に8本の肢を持ち、災厄をもたらす鬼のようなものをつかんでいる。 外部リンク |
+| shinchu-c04 | exact | online.bunka.go.jp | The scroll gathers evil-repelling deities (hekija-shin) believed in China (中国) to punish and drive off plague demons; Shinchū (神虫) is among them alongside Tenkeisei, Sendan Kendatsuba, Shōki and Bishamonten, who wound or devour the plague demons. | むしろ人間を害する疫鬼や鬼神を懲らしめ追払うとして中国で信仰された辟邪神を集めたものであり、天刑星・栴檀乾闥婆・神虫・鍾馗・毘沙門天の各神が、疫鬼共を傷つけあるいは食らうという凄惨な場面が一貫して描かれる。 |
+| shinchu-c05 | exact | online.bunka.go.jp | The designs are thought to have come from China, but the images of Tenkeisei and Shinchū are known only from this painting. | 図様はいずれも中国から伝わったと考えられるが、天刑星と神虫は本図においてのみその像が知られるなど、内容は極めて特異性に富むといえよう。 |
+| shinchu-c06 | exact | online.bunka.go.jp | The heavy colouring of Shinchū's body is singled out as distinctive and powerful in the painting. | 辟邪神の扱い方は、像を画面一杯に表すものや、説話的構成の中に組み込むものなど、各図の間で若干の相違が認められるものの、表現は明快な配色や勁直な描線によって全体にいきいきとしており、強い隈取りや神虫の体躯の重い色調などは特異で迫力がある。 |
+| shinchu-c07 | exact | online.bunka.go.jp | The painting is thought to have been made between the end of the Heian period and the beginning of the Kamakura period. | 少なくともそれらと同時期、平安時代末から鎌倉時代初め頃の製作と考えられ、卓抜な表現はそれらと較べても高く評価されるものである。 |
+| shinchu-c08 | exact | serai.jp | Shinchū in the 12th-century National Treasure (国宝) Hekija-e (辟邪絵) is cited as the clearest example of an insect enlarged into a monster. | そのもっともわかりやすい例が、１２世紀に描かれた国宝「辟邪絵（へきじゃえ）」の「神虫（しんちゅう）」です。昆虫を巨大化することで怪獣にしています。 |
 
 
 ## shirahiwake — lulus-otomatis
@@ -74,10 +78,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## shunsen-yurei — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -85,46 +86,49 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | shunsen-yurei-c02 | exact | ja.wikipedia.org | The text describes spirits lingering through regret, neglect of Buddhist teachings, or death from hunger and thirst. | 『絵本百物語』の本文には、死に際して遺言を残すことの出来ずに執念が残ってしまった者や、仏法の教えにほとんど従わなかった者・飢えや渇きに苦しんで亡くなった者が迷ってこの世に残りとどまっている幽霊であるとされる。水乞幽霊が水を得て渇きを少しでも癒すことのできる機会は、仏法の教えにのっとった甘露の雨が降るときなど供養が通じた時だけである。 |
 | shunsen-yurei-c03 | exact | ja.wikipedia.org | Water can ease their thirst only when memorial offerings reach them, as with nectar rain in Buddhist teaching. | 『絵本百物語』の本文には、死に際して遺言を残すことの出来ずに執念が残ってしまった者や、仏法の教えにほとんど従わなかった者・飢えや渇きに苦しんで亡くなった者が迷ってこの世に残りとどまっている幽霊であるとされる。水乞幽霊が水を得て渇きを少しでも癒すことのできる機会は、仏法の教えにのっとった甘露の雨が降るときなど供養が通じた時だけである。 |
 | shunsen-yurei-c04 | exact | ja.wikipedia.org | Shigeru Mizuki discusses it as Yuigon yūrei, a spirit that asks for water and cries at night. | 水木しげるは著書で「遺言幽霊」として『絵本百物語』の「遺言幽霊 水乞幽霊」を紹介をしており、この世に思いを残したまま亡くなった者の霊で、夜ごとに現われては水を欲しがって泣き叫ぶと解説している。 |
+| shunsen-yurei-c05 | exact | hyakumonogatari.com | The term yuigon yūrei (遺言幽霊) literally means "last-request ghost", a yūrei pleading for something from the living; usually a drink of water, but it may be something else such as a prayer service. | The term yuigon yurei (遺言幽霊) translates somewhat literally into “last-request ghost,” and refers to yurei making some sort of plea from the living. Usually this is for a drink of water, but it can be for other things—a prayer service, for example. |
+| shunsen-yurei-c06 | exact | hyakumonogatari.com | The water-requesting version is sometimes called Mizukoi Yurei (水乞幽霊), the "Thirsty Ghost". | The water-requesting version is also sometimes referred to as a Mizukoi Yurei (水乞幽霊; Thirsty Ghost). |
+| shunsen-yurei-c07 | exact | hyakumonogatari.com | Mizuki modelled his picture on Takehara Shusen's Yuigon Yurei picture in the Ehon Hyaku Monogatari (絵本百物語). | he modeled his picture after Takehara Shusen’s Yuigon Yurei picture from his Ehon Hyaku Monogatari (絵本百物語 ; Picture Book of a Hundred Stories). |
+| shunsen-yurei-c08 | exact | hyakumonogatari.com | In the translated Ehon Hyaku Monogatari text, those who die without a final testament or with unfinished business or desire become thirsty in the afterlife and cry bitterly for water. | Those who die without making their final testament, or with some unfinished business or desire, will find themselves thirsty in the afterlife. They will cry bitterly for a drink of water. |
 
 
 ## sin-you — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | sin-you-c01 | exact | en.wikipedia.org | Sin-you is a mythical being known across several East Asian cultures. | The Sin-you (Japanese 神羊, shin'yō, also called Hiai Chai, Chiai Tung, or Kai Tsi) is a mythical creature known throughout various East Asian cultures. |
-| sin-you-c02 | exact | en.wikipedia.org | Its form is compared with the Qilin but portrayed as more feral and intimidating. | The appearance of the Sin-you is similar to that of a Qilin, but more feral and imposing. It is a large quadruped with a feline or ovine body, a shaggy mane, and is either depicted with hooves or feline paws (the latter often to stress its difference from the Qilin). It has a single, unbranching horn in the center of its head, like a western unicorn. |
-| sin-you-c03 | exact | en.wikipedia.org | It is a quadruped with a catlike or sheeplike body and a shaggy mane. | The appearance of the Sin-you is similar to that of a Qilin, but more feral and imposing. It is a large quadruped with a feline or ovine body, a shaggy mane, and is either depicted with hooves or feline paws (the latter often to stress its difference from the Qilin). It has a single, unbranching horn in the center of its head, like a western unicorn. |
-| sin-you-c04 | exact | en.wikipedia.org | A single unbranched horn stands at the center of its head. | The appearance of the Sin-you is similar to that of a Qilin, but more feral and imposing. It is a large quadruped with a feline or ovine body, a shaggy mane, and is either depicted with hooves or feline paws (the latter often to stress its difference from the Qilin). It has a single, unbranching horn in the center of its head, like a western unicorn. |
-| sin-you-c05 | exact | en.wikipedia.org | In its stories, Sin-you symbolizes justice and can detect a lie or guilt with a glance. | The Sin-you is highly symbolic of justice, and is believed to have the power to know if a person is lying or know if they are guilty with a glance. It sometimes depicted at court beside the ruler or judge: if a person told a falsehood in its presence, it would leap forward and impale the perjurer though the heart with its horn. |
-| sin-you-c06 | exact | en.wikipedia.org | It is said to strike a perjurer with its horn in court. | The Sin-you is highly symbolic of justice, and is believed to have the power to know if a person is lying or know if they are guilty with a glance. It sometimes depicted at court beside the ruler or judge: if a person told a falsehood in its presence, it would leap forward and impale the perjurer though the heart with its horn. |
+| sin-you-c02 | exact | en.wikipedia.org | Its form is compared with the Qilin but portrayed as more feral and intimidating. | The appearance of the Sin-you is similar to that of a Qilin, but more feral and imposing. |
+| sin-you-c03 | exact | en.wikipedia.org | It is a quadruped with a catlike or sheeplike body and a shaggy mane. | It is a large quadruped with a feline or ovine body, a shaggy mane, and is either depicted with hooves or feline paws (the latter often to stress its difference from the Qilin). |
+| sin-you-c04 | exact | en.wikipedia.org | A single unbranched horn stands at the center of its head. | It has a single, unbranching horn in the center of its head, like a western unicorn. |
+| sin-you-c05 | exact | en.wikipedia.org | In its stories, Sin-you symbolizes justice and can detect a lie or guilt with a glance. | The Sin-you is highly symbolic of justice, and is believed to have the power to know if a person is lying or know if they are guilty with a glance. |
+| sin-you-c06 | exact | en.wikipedia.org | It is said to strike a perjurer with its horn in court. | It sometimes depicted at court beside the ruler or judge: if a person told a falsehood in its presence, it would leap forward and impale the perjurer though the heart with its horn. |
+| sin-you-c07 | exact | en.wikipedia.org | Its eyes are said to be very intense and imposing, as if burning into whoever it gazes at like a predator. | The Sin-you’s eyes are said to be very intense and imposing, figuratively burning into whomever it gazes at in a predatory fashion. |
+| sin-you-c08 | exact | en.wikipedia.org | In other accounts, a judge set convicted murderers before the Sin-you, which slew them if truly guilty but left the innocent unharmed. | In other instances, the judge would put convicted murderers before the Sin-you, who would slay them in the same fashion if they were truly the perpetrator, but leave the innocent unharmed. |
+| sin-you-c09 | exact | kotobank.jp | The Jitsū dictionary defines 神羊 (shin'yō) as a sheep used in divine judgment (神判), also called kaichi (かいち), citing the Hou Hanshu (後漢書) on the law-officer's cap (法冠). | 神判に用いた羊。 豸(かいち)。〔後漢書、輿服志下〕法冠、～法を執る 之れを す。 |
+| sin-you-c10 | exact | kotobank.jp | The cited text says the creature can tell straight from crooked (曲直), and through its link with a king of Chu (楚王) its form was made into a cap (冠). | 之れを 豸冠と謂ふ。 豸は 羊、能く曲直を別つ。楚王嘗(かつ)て之れを たり。故に以て冠と爲す。 |
 
 
 ## sugane — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | sugane-c01 | exact | ja.wikipedia.org | Sugane is a deity mentioned in Japanese mythology. | スガネ（須義祢、須義禰、須我禰）とは、日本神話に登場する神。 |
 | sugane-c02 | exact | ja.wikipedia.org | The name appears in the Ushio section of Izumo no Kuni Fudoki; Unochihiko is identified as the deity's child. | 『出雲国風土記』大原郡の海潮郷条に登場する。子神としてウノチヒコが伝わる。 |
 | sugane-c03 | exact | ja.wikipedia.org | In the story, Unochihiko resents Sugane and drives seawater inland to sweep the parent away. | 海潮郷。郡家の正東十六里三十三歩にある。古老が伝えて言うところには、宇能治比古命が御祖の須義祢命（須義禰命）を恨み、北から出雲の海水を押し上げていって御祖の神を漂わせたが、その海水がここにまで届いた。そのような謂れがあって得塩（うしお）と言うようになった。神亀三年に字が海潮と改められた。東北の須我の小川の湯渕の村の川は中に温泉がある。名は付けられていない。同じ川上の毛間の村の川も中に温泉が出ている。名は付けられていない。 |
-| sugane-c04 | exact | ja.wikipedia.org | Sugane's gender is not explicit in the Fudoki, allowing interpretations as either father or mother. | 諸注釈によっては「須義祢」の「義」を「美」とするが、草書体が類似しているゆえの誤写であり、「義」が本来の字でガの古訓を当てるとされている。性別に関して『出雲国風土記』では明記されていないが、父神とする説と「御祖」が女性を指す語であることから女神＝母神とする説がある。神名は「須我の地主神」の意と解釈されており、『出雲国風土記』大原郡条の須我社（島根県雲南市大東町須賀の須我神社）はもとはスガネが祭神であったと考えられている。子神と争う点については、儒教や仏教の影響を受けていない素朴な親子の説話であり、海潮温泉近くに残る海水の侵食を受けて削られたようにも見える岩が神話の成立に関わっているとする説や、スガネを母神と見る立場からは山の女神と水の神による対決と考える説が提唱されている。 |
+| sugane-c04 | exact | ja.wikipedia.org | Sugane's gender is not explicit in the Fudoki, allowing interpretations as either father or mother. | 性別に関して『出雲国風土記』では明記されていないが、父神とする説と「御祖」が女性を指す語であることから女神＝母神とする説がある。 |
+| sugane-c05 | exact | ja.wikipedia.org | The name is interpreted as "landlord deity of Suga" (須我の地主神), and the Suga-sha (須我社) of the Izumo no Kuni Fudoki, Suga Shrine in Daitō, Unnan, Shimane (島根県雲南市大東町), is thought originally to have enshrined Sugane. | 神名は「須我の地主神」の意と解釈されており、『出雲国風土記』大原郡条の須我社（島根県雲南市大東町須賀の須我神社）はもとはスガネが祭神であったと考えられている。 |
+| sugane-c06 | exact | ja.wikipedia.org | The conflict with the child deity is seen as a simple parent-child tale free of Confucian or Buddhist influence; one theory links the myth to rocks near Ushio hot spring (海潮温泉) that look eroded by seawater, another reads it as a contest between a mountain goddess and a water deity. | 子神と争う点については、儒教や仏教の影響を受けていない素朴な親子の説話であり、海潮温泉近くに残る海水の侵食を受けて削られたようにも見える岩が神話の成立に関わっているとする説や、スガネを母神と見る立場からは山の女神と水の神による対決と考える説が提唱されている。 |
+| sugane-c07 | exact | ja.wikipedia.org | Sugane is the main deity of Sumine Shrine (須美禰神社) in Tachibara, Kamo, Unnan (雲南市加茂町立原), said to have been founded by transferring worship from Unoji Shrine (宇能遲神社) in Uji. | 須美禰神社（島根県雲南市加茂町立原） - 主祭神 立原が近松庄に編入した頃に、同庄へ属した宇治の宇能遲神社（上述）から勧請して創祀したとされる。 |
+| sugane-c08 | exact | kotobank.jp | According to the Fudoki, the name Ushio (得塩) comes from Unochihiko (宇能治比古命) resenting his parent Sugane (須義禰命) and pushing up the sea of Izumo (出雲) to set that deity adrift; the seawater reached this place. | 風土記によれば大原郡八郷の一つで、郡家の東一六里余に郷長の家があり、地名は宇能治比古命が御祖の須義禰命を恨み、「出雲の海潮を押し上げて、御祖神を漂はししとき、此の海潮至りき」ゆえに得塩と称したという。 |
 
 
 ## takamaru — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -134,14 +138,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | takamaru-c04 | exact | ja.wikipedia.org | In Genkō Shakusho, he is portrayed as a rebel of Ōshū who is subdued. | 上古の英雄とされていたことから、鎌倉時代末期には平安時代の「清水寺縁起」では登場していなかった「奥州の逆賊高丸」を討伐する物語が付会されている。こうして『元亨釈書』で「清水寺縁起」に鬼神討伐譚が脚色されたことで、伝説上の人物としての坂上田村丸とともに高丸伝説は御伽草子『鈴鹿の草子』へと繋がっていく（御伽草子節も参照）。 |
 | takamaru-c05 | exact | ja.wikipedia.org | Suwa traditions connect him with the origins of hunting and mounted-archery ceremonies. | 諏訪大社は田村語りを縁起や祭礼由来などに取り入れることによって、自らの神威を高揚しようと画策した。南北朝時代中期に作成された『神道集』や『諏訪大明神絵詞』がその証である。これらの説話では御射山祭または流鏑馬の由来の中で高丸が登場している。 |
 | takamaru-c06 | exact | ja.wikipedia.org | Sources present different versions of his conqueror's name and background. | 『諏訪大明神絵詞』では高丸を征討したのは「将軍坂上田村丸」であるが、『神道集』では震旦国（中国）から亡命してきた「田村丸」を勝田の宰相が養子にして「稲瀬五郎田村丸」と名乗らせたとあり、御伽草子『鈴鹿の草子』で近江の高丸を討つ「稲瀬五郎坂上俊宗」と共通する名前が見える。このことから『神道集』の高丸伝説は『鈴鹿の草子』の成立時期を示唆する史料のひとつと目されている。 |
+| takamaru-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.tohokukanko.jp | The cave housing Takkoku no Iwaya Bishamon-dō (達谷窟毘沙門堂) is said to have been the fortress of Emishi (蝦夷) such as Akuro-ō (悪路王), Akagashira (赤頭) and Takamaru (高丸), who repeatedly behaved violently there. | 「達谷窟毘沙門堂」の建つ窟は、かつてこの地で乱暴なふるまいをくり返していた悪路王、赤頭、高丸らの蝦夷が砦を構えていた場所と言われています。 |
+| takamaru-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.tohokukanko.jp | According to local tradition, in 801 (Enryaku 20) Sakanoue no Tamuramaro (坂上田村麻呂), on Emperor Kanmu's (桓武天皇) orders, came as seii taishōgun and defeated those Emishi (蝦夷) after fierce fighting. | 801年（延暦20年）、桓武天皇の命を受けた坂上田村麻呂は、征夷大将軍としてこの地に赴き、激戦の末に蝦夷を打ち破りました。 |
 
 
 ## takei-otomo-no-ookami — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -151,27 +154,27 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | takei-otomo-no-ookami-c04 | exact | ja.wikipedia.org | In one story he and Moriya oppose Takeminakata, lose, and then serve him. | 諏訪地方の先住神とされる。伝承によると、諏訪大社に祀られている建御名方神（諏訪明神）が諏訪に入ろうとした時、洩矢神と共に建御名方神と対抗するも敗れてしまい、2柱は建御名方神に仕える者となった。建御名方神が諏訪に踏み入る前に、進入者と妥協すべしと洩矢神を説得しようとすると洩矢神の怒りを買ってしまったという話もある。 |
 | takei-otomo-no-ookami-c05 | exact | ja.wikipedia.org | The Tateshina tradition says he cedes land to the Suwa deity and ascends Mount Tateshina. | 蓼科神社（北佐久郡立科町）の社伝では、武居夷神（大伴主神か）が諏訪大神（建御名方神）に領土を譲ってから蓼科山に登ったと言われている。 |
 | takei-otomo-no-ookami-c06 | exact | ja.wikipedia.org | He is regarded as an ancestor of the Imai family holding the Takei Hōri office. | 諏訪大社下社の神職の一つ・武居祝（たけいほうり）を務めてきた今井氏の始祖とされた。 |
+| takei-otomo-no-ookami-c07 | exact | www.nagano-jinjacho.jp | The Nagano Prefecture shrine association records the Tateshina Shrine (蓼科神社) legend that Takei Ebisu-no-kami (武居夷神) ceded his land to Suwa Ōkami (諏訪大神) and climbed Mount Tateshina (蓼科山). | 伝説には武居夷神が領土を諏訪大神に譲って蓼科山に登ったとか、小雄命東夷征代に来た時奉斎したとか、坂上田村慶が当社修理したとか言われる。 |
 
 
 ## takeminawake-no-mikoto — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | takeminawake-no-mikoto-c01 | exact | ja.wikipedia.org | Takeminawake no Mikoto is considered identical with Takemizuwake, the deity worshipped at Takemizuwake Shrine. | 『延喜式』巻9・10の神名帳に記載される東山道信濃国更級郡の「武水別神社」に比定される式内社論社・武水別神社の祭神として知られる武水別大神（たけみずわけのおおかみ）と同神であると考えられる。 |
 | takeminawake-no-mikoto-c02 | exact | ja.wikipedia.org | The article introduces the figure as belonging to ancient Japan. | 武美名別命（たけみなわけのみこと）は、古代日本の人物。 概要 |
+| takeminawake-no-mikoto-c03 | exact | ja.wikipedia.org | The article's infobox lists the other names Takemizuwake-no-Ōkami (武水別大神), Takemizuwake-no-Mikoto (武水別命), Hikowake-no-Mikoto (彦別命) and Takeminakatahikokamiwake-no-Mikoto (健御名方彦神別命). | 別名 武水別大神、武水別命、彦別命、健御名方彦神別命 特記 事項 |
+| takeminawake-no-mikoto-c04 | exact | ja.wikipedia.org | The same infobox records the divine rank junior second (従二位) and its status as the deity enshrined at Takemizuwake Shrine (武水別神社) and Hichi Ōkami Shrine (樋知大神社). | 特記 事項 従二位、武水別神社・樋知大神社祭神 テンプレートを表示 |
 
 
 ## takuzudama-no-kami — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -180,14 +183,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | takuzudama-no-kami-c03 | exact | ja.wikipedia.org | Takuzudama Shrine is associated with a shrine name recorded in the Engishiki. | 古くは「魂」の字を付さずに「多久頭神社」と称されており、『延喜式神名帳』に対馬国下県郡十三座のうちとして記される「多久頭神社」は対馬市豆酘の多久頭魂神社に比定されている。多久頭魂神社は、神武天皇の治世の創立との伝承もあるが、これは後世の付会であり、正確な創建の時期・事情は不明である。現在の祭神は天照大神など5柱とされているが、本来の祭神は多久頭神である。『続日本後紀』承和4年（837年）2月5日条には、多久都神を無位から従五位下に叙する旨の記述があり、当社の祭神である多久頭魂神を指していると考えられる。 |
 | takuzudama-no-kami-c04 | exact | ja.wikipedia.org | Takuzudama was also associated with Tendō Hōshi. | 『對州神社誌』に「天道大菩薩」とあるように、多久頭魂神は天道法師と混合されることもあった。 |
 | takuzudama-no-kami-c05 | exact | ja.wikipedia.org | The worship is linked with a mother-and-child cult involving Kamimusubi. | また、多久頭魂神は、天神多久頭魂神社あるいはその付近にある神御魂神社の神魂命とあわせて、八幡信仰のような、九州地方特有の母子信仰を展開していた。 |
+| takuzudama-no-kami-c06 | exact | kotobank.jp | The original deity of the shrine at Tsutsu is Takuzu-no-kami (多久頭神); it is identified with Takutsu-no-kami (多久都神) in the Shoku Nihon Kōki (続日本後紀) entry for the 5th day of the 2nd month of Jōwa 4 (837), when it was raised from no rank to junior fifth rank lower (従五位下). | この由緒は後世の作で、本来の祭神は多久頭神である。「続日本後紀」承和四年（八三七）二月五日条にみえる「多久都神」に比定され、神階が無位から従五位下となっている。 |
+| takuzudama-no-kami-c07 | exact | kotobank.jp | The dictionary notes that the deity's name was formerly also written Takutsu-no-kami (多久都神), and the shrine is now named Takutsutama Shrine (多久頭魂神社). | 古くは多久都神ともみえ、現号は 多久頭魂 （ たくつたま ） 神社とする。 |
 
 
 ## tamahime-no-mikoto — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -197,6 +199,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | tamahime-no-mikoto-c04 | exact | ja.wikipedia.org | She blocks the river with stones so that the shark cannot reach her. | 玉日女命は仁多郡は阿伊の村に住んでいたが、玉日女を恋い慕ったサメが川を遡りやってきた。これを嫌がった玉日女命が石で川を塞いでしまったので、サメは玉日女命に会うことができなくなった。ゆえにこの山を恋山という。 |
 | tamahime-no-mikoto-c05 | exact | ja.wikipedia.org | The mountain in the story is now known as Oni no Shitaburui. | 現在では恋山は「鬼の舌震（おにのしたぶるい）」と呼ばれ、島根県の名勝の一つとなっている。 |
 | tamahime-no-mikoto-c06 | exact | ja.wikipedia.org | One interpretation connects Tama in her name with a goddess's role as a sacred medium. | 神名の「玉」は古来、女神の巫女的性格を表していたとされ、そこから恋山の女神である玉日女命が山の神の巫女として信仰されていたとする説もある。 |
+| tamahime-no-mikoto-c07 | exact | kotobank.jp | Mount Shitai (恋山) in Nita district (仁多郡) of the Izumo no Kuni Fudoki (出雲国風土記) is identified with the mountain at Oni no Shitaburui (鬼の舌震); according to the elders quoted in the Fudoki, a wani (和爾) came upstream longing for Tamahime no Mikoto (玉日女命), the deity dwelling in Ai village (阿伊村). | 「出雲国風土記」の仁多郡に載る 恋 （ したい ） 山が鬼の舌震の山に比定され、「古老の伝へに云へらく、和爾、阿伊村に坐す神、玉日女命を恋ひて上り到りき。 |
 
 
 ## tamaru-hime — lulus-otomatis
@@ -216,26 +219,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## tanabatabime-no-mikoto — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tanabatabime-no-mikoto-c01 | exact | ja.wikipedia.org | Tanabatabime-no-Mikoto is a goddess of Japanese mythology associated with weaving. | 天棚機姫神(あめたなばたひめ)は日本神話に登場する女神である。天八千千比売命や天衣織女命という別名がある。また機織の神であることから栲幡千千姫命と同一神という説がある。 |
 | tanabatabime-no-mikoto-c02 | exact | ja.wikipedia.org | There is a view identifying her with Takuhatachijihime. | 天棚機姫神(あめたなばたひめ)は日本神話に登場する女神である。天八千千比売命や天衣織女命という別名がある。また機織の神であることから栲幡千千姫命と同一神という説がある。 |
-| tanabatabime-no-mikoto-c03 | exact | ja.wikipedia.org | Kogo Shūi says she weaves garments to entice Amaterasu out of the cave. | 古語拾遺に登場する。天照大御神が天岩戸から誘い出すために、神衣和衣を織ったとされている。天羽槌雄神と共に機織の神として知られている。天棚機姫神は、天八千千比売命の母神であるという説があり、神道五部書の一つの倭姫命世記には、天八千千比売命は天棚機姫神の孫とされている。また、茨城県神社誌では天速玉姫神の母神とされている。 |
-| tanabatabime-no-mikoto-c04 | exact | ja.wikipedia.org | She is known with Ame no Hazuchi as a weaving deity. | 古語拾遺に登場する。天照大御神が天岩戸から誘い出すために、神衣和衣を織ったとされている。天羽槌雄神と共に機織の神として知られている。天棚機姫神は、天八千千比売命の母神であるという説があり、神道五部書の一つの倭姫命世記には、天八千千比売命は天棚機姫神の孫とされている。また、茨城県神社誌では天速玉姫神の母神とされている。 |
-| tanabatabime-no-mikoto-c05 | exact | ja.wikipedia.org | Some accounts make Ame no Yachichihime her child; Yamatohime no Mikoto Seiki identifies that figure as her grandchild. | 古語拾遺に登場する。天照大御神が天岩戸から誘い出すために、神衣和衣を織ったとされている。天羽槌雄神と共に機織の神として知られている。天棚機姫神は、天八千千比売命の母神であるという説があり、神道五部書の一つの倭姫命世記には、天八千千比売命は天棚機姫神の孫とされている。また、茨城県神社誌では天速玉姫神の母神とされている。 |
+| tanabatabime-no-mikoto-c03 | exact | ja.wikipedia.org | Kogo Shūi says she weaves garments to entice Amaterasu out of the cave. | 古語拾遺に登場する。天照大御神が天岩戸から誘い出すために、神衣和衣を織ったとされている。 |
+| tanabatabime-no-mikoto-c04 | exact | ja.wikipedia.org | She is known with Ame no Hazuchi as a weaving deity. | 天羽槌雄神と共に機織の神として知られている。天棚機姫神は、天八千千比売命の母神であるという説があり、神道五部書の一つの倭姫命世記には、天八千千比売命は天棚機姫神の孫とされている。また、茨城県神社誌では天速玉姫神の母神とされている。 |
+| tanabatabime-no-mikoto-c05 | exact | ja.wikipedia.org | Some accounts make Ame no Yachichihime her child; Yamatohime no Mikoto Seiki identifies that figure as her grandchild. | 天羽槌雄神と共に機織の神として知られている。天棚機姫神は、天八千千比売命の母神であるという説があり、神道五部書の一つの倭姫命世記には、天八千千比売命は天棚機姫神の孫とされている。また、茨城県神社誌では天速玉姫神の母神とされている。 |
+| tanabatabime-no-mikoto-c06 | exact | ja.wikipedia.org | The Ibaraki Prefecture shrine record (茨城県神社誌) makes her the mother of Ame no Hayatamahime (天速玉姫神). | 天羽槌雄神と共に機織の神として知られている。天棚機姫神は、天八千千比売命の母神であるという説があり、神道五部書の一つの倭姫命世記には、天八千千比売命は天棚機姫神の孫とされている。また、茨城県神社誌では天速玉姫神の母神とされている。 |
+| tanabatabime-no-mikoto-c07 | exact | kotobank.jp | The Nihon Jinmei Daijiten describes her as a deity in the Kogo Shūi (古語拾遺) who wove sacred garments (神衣) to lure Amaterasu (天照大神) out of the Ama-no-Iwato cave (天の岩戸). | 「古語拾遺」にみえる神。 天照大神(あまてらすおおみかみ)を天の岩戸からさそいだすために,神衣をおったという。 |
+| tanabatabime-no-mikoto-c08 | exact | kotobank.jp | Ubuginu Shrine (初生衣神社) in Mikkabi enshrines Ame no Tanabatahime (天棚機姫命) as the ancestral deity of weaving (機織の祖神); the thatched shrine has a weaving hall (織殿) and is known locally as Onzo-sama (御衣様). | 藁葺の小社殿で、同じく藁葺で古態をとどめる織殿を配している。祭神は機織の祖神天棚機姫命。往古より伊勢神明初生衣社などと称され、地元では御衣（オンゾ）様として親しまれる。 |
+| tanabatabime-no-mikoto-c09 | exact | www.city.hamamatsu.shizuoka.jp | Hamamatsu City (浜松市) notes that Ubuginu Shrine enshrines Ame no Tanabatahime as the ancestral deity of weaving; formerly a new weaving hall was built in the precinct every year to weave silk (絹) offered to Ise Grand Shrine (伊勢神宮). | 初生衣神社は、機織の祖神である天棚機姫命（あめのたなばたひめのみこと）を祀る神社で、古くは 境内に毎年「織殿」を新造し、ここで絹を織り伊勢神宮に納めてきたという。 |
 
 
 ## tateyama-gongen — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -245,19 +246,22 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | tateyama-gongen-c04 | exact | ja.wikipedia.org | The Ashikura religious community spreads its worship during the Edo period. | 江戸時代には芦峅衆徒によって、立山権現信仰が全国に広められた。 神仏分離・廃仏毀釈 |
 | tateyama-gongen-c05 | exact | ja.wikipedia.org | The Meiji separation of religions suppresses this syncretic form of worship. | 明治維新による神仏分離・廃仏毀釈によって、修験道に基づく立山権現は廃された。明治2年（1869年）、芦峅寺・岩峅寺は廃寺に追い込まれ、雄山神社に強制的に改組された。また、立山修験道の布橋大灌頂や立山権現信仰の布教が禁じられた。 |
 | tateyama-gongen-c06 | exact | ja.wikipedia.org | Ashikuraji and Iwakuraji are forcibly reorganized as Oyama Shrine in 1869. | 明治維新による神仏分離・廃仏毀釈によって、修験道に基づく立山権現は廃された。明治2年（1869年）、芦峅寺・岩峅寺は廃寺に追い込まれ、雄山神社に強制的に改組された。また、立山修験道の布橋大灌頂や立山権現信仰の布教が禁じられた。 |
+| tateyama-gongen-c07 | exact | kotobank.jp | The core of Tateyama belief was the view of Mount Tateyama (立山) as the Pure Land (極楽浄土) of Amida (阿弥陀如来), Tateyama Gongen's original Buddha, together with belief in the Tateyama hell (立山地獄) centred on Jigokudani (地獄谷). | 立山信仰の中核は，立山を立山権現の本地仏阿弥陀如来の極楽浄土とみる信仰と，地獄谷を中心とする立山地獄の信仰であった。 |
+| tateyama-gongen-c08 | exact | kotobank.jp | The Tateyama hell was long known, as introduced in the Hokke Genki (法華験記) and the Konjaku Monogatarishū (今昔物語集). | とりわけ立山地獄は《法華験記》《今昔物語集》に紹介されているように，古くから世に知られており |
 
 
 ## tenaga — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tenaga-c01 | exact | eo.wikipedia.org | Tenaga is a mythical being with exceptionally long arms. | Tenaga estas mita estulo kun longegaj brakoj. |
 | tenaga-c02 | exact | eo.wikipedia.org | Depicting Tenaga with Ashinaga in one netsuke symbolizes mutual assistance. | Kiam prezentita kun Ashinaga sur ununura netsuke, ili simbolas helpon, kiun oni ŝuldas unu al la alia. |
+| tenaga-c03 | exact | kotobank.jp | The Nihon Jinmei Daijiten traces Tenaga-Ashinaga (手長足長) to Chinese (中国) legend: figures with extraordinarily long arms (手) or legs, recorded in the ancient geography Shanhaijing (山海経) as the long-armed (長臂人) and long-legged (長股人) people. | 中国の伝説上の人。 手あるいは足が異様にながいとされる。古代中国の地理書「山海経(せんがいきょう)」に長臂人,長股人とある。 |
+| tenaga-c04 | exact | kotobank.jp | After entering Japan (日本) under a new name, they were treated as immortals (神仙) wishing long life for the emperor (天皇) and permanence for the court, painted in palace decorations, and mentioned in the Makura no Sōshi (枕草子) and Ōkagami (大鏡). | 日本にはいって名をかえ,天皇の長寿と朝廷の永久性をねがう不老長寿の神仙としてあつかわれ,宮中の装飾画にえがかれた。「枕草子」「大鏡」などに記述がある。 |
+| tenaga-c05 | exact | kotobank.jp | Digital Daijisen Plus calls Tenaga-Ashinaga a Japanese yōkai (日本の妖怪): giants (巨人) with extraordinarily long arms or legs told of in the Tōhoku and Hokuriku regions (東北・北陸), such as Akita, Yamagata, Fukushima, Nagano and Fukui prefectures (秋田県、山形県、福島県、長野県、福井県). | 日本の妖怪。秋田県、山形県、福島県、長野県、福井県など東北・北陸地方に伝承がある、手や足が異様に長い巨人。 |
+| tenaga-c06 | exact | www.nichibun.ac.jp | In a Mount Bandai (磐梯山) legend, monsters (怪物) called Tenaga (手長) and Ashinaga (足長) once gathered clouds to darken all of Aizu (会津), raised floods and storms and ruined crops; Kōbō Daishi (弘法大師) tricked them, shut them in a small box and enshrined them as Bandai Myōjin (磐梯明神). | 磐梯山には昔、手長、足長と言う怪物がおり、雲を集めて会津一帯を真っ暗にし、洪水や嵐を起こして農作物を荒らしては喜んでいた。そこで弘法大師が手長足長をだまして小箱に閉じこめ、磐梯明神として祀ったという。 |
 
 
 ## three-famous-tanuki-of-japan — skip
@@ -284,10 +288,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## todaiki — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -297,11 +298,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | todaiki-c04 | exact | ja.wikipedia.org | His son Hitsu no Saishō searches for him and encounters a man turned into a candle stand. | 昔、「軽大臣（迦留大臣、かるのおとど、かるのだいじん）」という日本人が、遣唐使として中国にわたったきり、行方不明になった。息子の「弼宰相（ひつのさいしょう）」は、父の消息を探すため、中国へ渡った。彼は中国のとある場所で、「灯台鬼」を見た。これは「人間燭台」のことである。頭に大きなロウソクを載せる台をしつらえ、体中にびっしり入れ墨をほどこされ、薬で喉をつぶされた灯台鬼は、弼宰相の姿を見るとポタポタと涙を流し、声を出せないので指先を歯で噛み切り、次のような漢詩を書いた。 |
 | todaiki-c05 | exact | ja.wikipedia.org | The son then recognizes the figure as his father. | 弼宰相は、目の前の灯台鬼が、自分の父親の変わり果てた姿であることを知り、愕然とした。 |
 | todaiki-c06 | exact | ja.wikipedia.org | Folklorist Yoshiyuki Iikura rejects treating resemblance to a modern urban legend as proof of narrative transmission. | 民俗学者の飯倉義之は灯台鬼説話の中心が孝子説話であり異郷での身体変容に話の重きが置かれていないうえ、灯台鬼と都市伝説には1000年以上もの時間的開きがあることから物語の類似が時間軸上の前後関係に当てはめられて説話の伝承・系譜と誤読されて生成されたのではないかと否定している。 |
+| todaiki-c07 | exact | kotobank.jp | Digital Daijisen Plus calls Tōdaiki a Japanese yōkai (日本の妖怪) recorded in the Heike Monogatari (平家物語), Genpei Jōsuiki (源平盛衰記) and Wakan Sansai Zue (和漢三才図会): an envoy to China (中国) who had a candlestand (燭台) nailed onto his head and was turned into an oni (鬼). | 日本の妖怪。「平家物語」、「源平盛衰記」、「和漢三才図会」などに記述がある。遣唐使として中国に渡った人物が、頭に燭台を打ちつけられ、鬼に変化(へんげ)させられたものとされる。 |
+| todaiki-c08 | exact | kotobank.jp | The Seihan Nihon Kokugo Daijiten defines it as an oni bearing a lamp (灯台) on its head, protagonist of the tale of Karu no Otodo (軽の大臣) turned into an oni by the Tang emperor (唐帝); its earliest cited example is the Hōbutsushū (宝物集, c. 1179), which mentions a lamp fixed on the head and a painted body. | 頭に灯台をのせた鬼。遣唐使として唐に渡った軽の大臣が、唐帝によって姿を鬼に変えられたという説話の主人公。 [初出の実例]「かしらに燈台という物打、身にはゑをかきて燈台鬼と云名を付て侍ける」(出典：宝物集（1179頃）) |
 
 
 ## tosho-daigongen — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -311,11 +314,13 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | tosho-daigongen-c04 | exact | www.rinnoji.or.jp | Rinnōji identifies Yakushi Nyorai as Tōshō Daigongen's underlying Buddhist form. | 神としての東照大権現の本地仏は薬師如来です。神と仏を同体と見る神仏習合の思想では，神とは，仏が神の姿を権りて現れた（すなわち権現）ものと考えます。つまり，東照大権現は薬師如来が本来の姿なのです。家康公の生涯と日光に祀られるまでを描き出す『東照宮御縁起』にも，家康公の母君が三河国鳳来寺（愛知県新城市）に子宝を授かるよう祈願する場面が描かれていますが，この鳳来寺の御本尊は薬師如来です。 |
 | tosho-daigongen-c05 | exact | www.rinnoji.or.jp | The Nikkō shrine completed in 1617 also includes a hall for worshipping Yakushi. | 元和3年（1617）3月に竣工した日光東照社にも薬師如来を祀る薬師堂（鳴竜として著名）が造営され，日光山において薬師如来は重要な位置付けを与えられるようになりました。その後も五十年ごとの御遠忌には，大幅の薬師如来の画像を作り，全国から大勢の高僧を集めて大規模な法要を営みました。 |
 | tosho-daigongen-c06 | exact | www.rinnoji.or.jp | After the Meiji separation of religions, its Buddhist treasures were collected at Rinnōji. | 明治の神仏分離によって仏教にまつわる宝物は輪王寺に集められました。日光が鮮やかな秋の彩りに包まれるこの季節，家康公の生前の姿を伝える東照権現像（霊夢像）を中心とした選りすぐりの宝物をお楽しみいただければ何よりの幸いです。 |
+| tosho-daigongen-c07 | exact | kotobank.jp | Tōshō Daigongen is the imperially granted posthumous title (勅諡号) of Tokugawa Ieyasu (徳川家康), a divine title bestowed by Emperor Go-Mizunoo (後水尾天皇) in Genna 3 (1617). | 徳川家康の勅諡号。元和三年（一六一七）、後水尾天皇から贈られた神号。 |
+| tosho-daigongen-c08 | exact | kotobank.jp | Tenkai (天海) of Kan'ei-ji (寛永寺) claimed Ieyasu had willed to be worshipped in the Sannō Ichijitsu Shintō (山王一実神道) manner and rejected the myōjin title as ill-omened after the fall of the Toyokuni shrine (豊国社); thus in 1617 (Genna 3) the divine title Tōshō Daigongen was decided. | 江戸上野の寛永寺天海は家康が生存中天台の山王一実神道を授けられ死後この神道の流儀でまつられるよう遺言したと称し，また明神号は豊国社没落の不吉の例ありとして権現号をもって山王一実神道の祭りを強引に推進し，ついに1617年(元和3)家康は東照大権現の神号に決定された。 |
 
 
 ## totsuyami-sakitara-no-kami — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -325,14 +330,13 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | totsuyami-sakitara-no-kami-c04 | exact | ja.wikipedia.org | The deity is also recorded with the spelling Totsuyamasaki Obi no Kami. | 『古事記』にのみ登場する神で、十七世神（とおまりななよのかみ）の最後の神。初代八島士奴美神の14世孫にあたる。名称は他に遠津山岬帯神とも表記される。 |
 | totsuyami-sakitara-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | The meaning of the deity's name is uncertain. | 遠津山岬多良斯神の名義は詳らかでない。遠い処の山の崎の帯のように細長く延びている処を掌る神の意とする説や、遠方の山の崎が満ち足りていることの意とする説、遠方の山々の間を樹木で十分に満たしている神の意とする説がある。 |
 | totsuyami-sakitara-no-kami-c06 | exact | ja.wikipedia.org | The Kojiki does not continue the genealogy beyond this deity. | 大国主神の8世孫にあたる天日腹大科度美神が、天之狭霧神の娘である遠津待根神を娶って生んだ神。十七世神の最後であり、古事記にこれ以降の系譜の記述はない。 |
+| totsuyami-sakitara-no-kami-c07 | exact | kojiki.kokugakuin.ac.jp | The element "Tōtsu" (遠津), carried over from the mother Tōtsumachine (遠津待根神), is read as "distant", and "yamasaki" (山岬) as a mountain spur; one theory sees yamasaki as a plateau at the mountain's tip watered by mountain streams and forming a granary. | 「遠津」は母神の遠津待根神をうけて、遠くのという意に解され、「山岬」は山崎と解される。「山岬」について、山の先端で台地になっていて、山からの水が潤して穀倉地帯を形成する場所であるとする説がある。 |
+| totsuyami-sakitara-no-kami-c08 | exact | kojiki.kokugakuin.ac.jp | The element "tarashi" (多良斯) is also written "帯" in the counting note; one theory reads it as a sash (帯), another as "making sufficient" (足らし). | 「多良斯」は計数注では「帯」とも表記されており、帯の意に取る説、足らしの意で充足することとする説がある。 |
 
 
 ## toyokuni-daimyojin — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -342,14 +346,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | toyokuni-daimyojin-c04 | exact | ja.wikipedia.org | The court grants the title Toyokuni Daimyōjin, whose name is connected with an old designation for Japan. | 4月17日、朝廷から遣わされた正親町季秀が仮殿において、「豊国大明神」の神号宣下を行った。『豊国大明神臨時祭礼御日記』によれば、日本の古名である「豊葦原中津国」を由来とするが、豊臣の姓を意識したものでもあった。 |
 | toyokuni-daimyojin-c05 | exact | ja.wikipedia.org | Sources offer different interpretations of why he does not receive the Hachiman title. | 八幡神ではなく大明神となったのは、八幡神が皇祖神であるから勅許が下りなかったとする説や、反本地垂迹説を掲げる吉田神道による運動の結果とする説がある。いずれにせよ、秀吉の希望した「新八幡」の神号は朝廷から下されず、その生前の意志に反するものとなった。 |
 | toyokuni-daimyojin-c06 | exact | ja.wikipedia.org | His worship spreads to daimyo domains through the transfer of a portion of his divine spirit. | 豊国大明神を祀る豊国社は、京都の東山のみならず、大名らの領する諸国にも分霊されていった。それに伴って、豊国大明神の神影が多数制作されたが、その神影の秀吉は日本古来の冠ではなく、唐冠を被っていることから、豊国大明神が「その威を大陸にまで轟かせた偉大な軍神」であることを示している。 |
+| toyokuni-daimyojin-c07 | exact | kotobank.jp | Toyotomi Hideyoshi (豊臣秀吉) died on the 18th day of the 8th month of 1598 (Keichō 3) and was buried at Amidagamine (阿弥陀ヶ峰) in Higashiyama; a shrine to worship him was founded at the foot of the mountain, and the following year the divine title Toyokuni Daimyōjin and the highest divine rank (正一位) were conferred. | 1598年(慶長3)8月18日に死去した豊臣秀吉は東山の阿弥陀ヶ峰に埋葬されたが，彼をまつるため山麓に創建され，翌年〈豊国大明神〉の神号と正一位の神位が宣下された。 |
+| toyokuni-daimyojin-c08 | exact | kotobank.jp | Toyotomi Hideyori (豊臣秀頼) appointed Yoshida Kanemi (吉田兼見) as shrine administrator, his younger brother Bonshun (梵舜) of Shinryūin as shrine monk, and his grandson Hagiwara Kaneyori (萩原兼従) as chief priest. | 豊臣秀頼は吉田兼見を社務に，兼見の弟神竜院 梵舜 を社僧に，孫の萩原兼従（かねより）を神主に任命した。 |
 
 
 ## uho-doji — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -359,6 +362,8 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | uho-doji-c04 | exact | ja.wikipedia.org | Temple tradition attributes the statue to Kūkai, but its form indicates the late Heian period. | 三重県伊勢市にある臨済宗南禅寺派の金剛證寺には「木造雨宝童子立像」があり、1912年（明治45年）2月8日には国の重要文化財に指定された。寺伝によると天長2年（825年）に弘法大師（空海）によって彫出されたものとされるが、仏像のつくりなどからは平安時代後期の作と考えられている。 |
 | uho-doji-c05 | exact | ja.wikipedia.org | Hasedera also has an Uhō-dōji statue beside its principal image. | 奈良県桜井市にある真言宗豊山派の長谷寺には本尊の左側に「雨宝童子立像」があり、国の重要文化財に指定されている。天文7年（1538年）に大仏師の運宗等が造立したものとされる。 |
 | uho-doji-c06 | exact | ja.wikipedia.org | Senryūji has a manifestation painting of Uhō-dōji attributed to the Muromachi period. | 山梨県北杜市の泉龍寺には室町時代の作とされる雨宝童子垂迹画がある。泉龍寺の山号は雨宝山である。 脚注 |
+| uho-doji-c07 | exact | kotobank.jp | In Ryōbu Shintō (両部神道), Uhō-dōji is said to be the form Amaterasu (天照大神) took on descending to Hyūga (日向); the image is a youth (童子) resting the right hand on a vajra staff, holding a jewel in the left and bearing a five-element stupa (五輪塔) on the head. | 両部神道(りょうぶしんとう)で天照大神が日向に下生(げしょう)した時の姿という。右手を金剛宝棒に支え左手に宝珠を持ち、頭上に五輪塔をいただく童子の像。 |
+| uho-doji-c08 | exact | kotobank.jp | The earliest example of the name Uhō-dōji cited by the dictionary is from the Tamon'in Nikki (多聞院日記), dated the 6th day of the 12th month of Tenshō 8 (1580). | [初出の実例]「宝寿院へ助報遣レ之。専識房誂の虚空蔵遣。本尊明星、雨宝童子、赤童子、荒神加て一石にて書レ之。表補六斗つつ」(出典：多聞院日記‐天正八年（1580）一二月六日) |
 
 
 ## unochihiko — lulus-otomatis
