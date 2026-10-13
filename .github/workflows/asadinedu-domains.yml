@@ -37,7 +37,7 @@ jobs:
           api=https://api.cloudflare.com/client/v4
           auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
           zone=$(curl -sS -H "$auth" "$api/zones?name=$ZONE_NAME")
-          echo "$zone" | jq '{success, errors, zones: [.result[]? | {name, status, account: .account.id == env.CLOUDFLARE_ACCOUNT_ID}]}'
+          echo "$zone" | jq '{success, errors, zones: [.result[]? | {name, status, same_account: (.account.id == env.CLOUDFLARE_ACCOUNT_ID)}]}'
           zid=$(echo "$zone" | jq -r '.result[0].id // empty')
           [ -n "$zid" ] || { echo "Zone not visible to the token (needs Zone:Read for $ZONE_NAME)."; exit 1; }
           echo "ZID=$zid" >> "$GITHUB_ENV"
