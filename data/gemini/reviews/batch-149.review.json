@@ -1,29 +1,27 @@
 {
   "batch_id": "batch-149",
-  "checked_at": "2026-09-30T09:11:45.082Z",
+  "checked_at": "2026-10-13T19:44:03.764Z",
   "files": [
     "batch-149.md",
-    "batch-149-fix-1.md"
+    "batch-149-fix-1.md",
+    "batch-149-fix-2.md",
+    "batch-149-fix-3.md",
+    "batch-149-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "irdlirvirissong",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "b8a5358de6565d0b34b69b03ec452c8353ddff109d955a1ecc11a1f2f9add289",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "irdlirvirissong-c01",
@@ -44,26 +42,81 @@
           "quote": "Irdlirvirissong uppges ibland uppträda på himlen med dans och clownkonster, men att skratta åt henne kan vara farligt och leda till att man blir uppäten.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "irdlirvirissong-c03",
+          "source_id": "irdlirvirissong-s2",
+          "host": "archive.org",
+          "statement": "Besides the wife and sister of Aningan (the moon), Aningan has a female cousin, Irdlirvirisissong, who lives in the sky in a separate house and sometimes visits him.",
+          "statement_id": "Selain istri dan saudari Aningan (bulan), Aningan punya sepupu perempuan bernama Irdlirvirisissong yang tinggal di langit di rumah terpisah dan kadang mengunjunginya.",
+          "quote": "Besides Aningan’s wife and sister, he has a cousin, also a woman, Irdlirvirisissong. She lives in the sky, but in a separate house, and sometimes visits Aningan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irdlirvirissong-c04",
+          "source_id": "irdlirvirissong-s2",
+          "host": "archive.org",
+          "statement": "Her nose is turned up on the sides, and she carries a plate for her dogs, of which she has a number.",
+          "statement_id": "Hidungnya terangkat di kedua sisi, dan ia membawa sebuah piring untuk anjing-anjingnya yang banyak.",
+          "quote": "Her nose is turned up on the sides. She carries a plate called ... for her dogs, of whom she has a number.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irdlirvirissong-c05",
+          "source_id": "irdlirvirissong-s2",
+          "host": "archive.org",
+          "statement": "She waits for people who die so that she can feed their intestines to her dogs.",
+          "statement_id": "Ia menunggu orang-orang yang meninggal agar dapat memberi makan anjing-anjingnya dengan usus mereka.",
+          "quote": "She waits for people who die, so that when they come she can feed her. dogs on their intestines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irdlirvirissong-c06",
+          "source_id": "irdlirvirissong-s2",
+          "host": "archive.org",
+          "statement": "Those who laugh she cuts open and gives their entrails to the dogs, while others are spared; Aningan therefore warns people not to laugh.",
+          "statement_id": "Orang yang tertawa dibelahnya dan isi perutnya diberikan kepada anjing, sedangkan yang lain dibiarkan; karena itu Aningan memperingatkan orang agar tidak tertawa.",
+          "quote": "Those of the people that laugh, she cuts open, and gives their entrails to the dogs. Others are spared. Aningan consequently warns the people not to laugh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irdlirvirissong-c07",
+          "source_id": "irdlirvirissong-s2",
+          "host": "archive.org",
+          "statement": "When an angakoq (shaman) goes up to visit Aningan, he turns his head aside so that his laughter may not be seen.",
+          "statement_id": "Ketika seorang angakoq (dukun) naik mengunjungi Aningan, ia memalingkan kepala agar tawanya tidak terlihat.",
+          "quote": "When an angakoq comes up to visit Aningan, he turns his head aside, so that his laughter may not be seen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irdlirvirissong-c08",
+          "source_id": "irdlirvirissong-s2",
+          "host": "archive.org",
+          "statement": "In Greenland she is called Erdlaveersissok (\"the entrail-seizer\"); living on the way to the moon, she tempts people to laugh with her dancing and grimaces and, if she succeeds, takes out their intestines.",
+          "statement_id": "Di Greenland ia disebut Erdlaveersissok (\"perampas isi perut\"); ia tinggal di jalan menuju bulan dan menggoda orang agar tertawa dengan tarian dan mimik lucunya, lalu mengambil usus orang yang tertawa.",
+          "quote": "In Greenland she is called ‘ Erdlaveersissok’ (‘ the entrail-seizer ’). Residing on the way to the moon, she tempts people to laugh by her dancing and grimaces, and if successful takes out their intestines.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "jack-mistigri",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "11188c792d000bcf365b9a4c6bd4d6a679e84bfc05326f654244df64703622db",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jack-mistigri-c01",
@@ -104,26 +157,151 @@
           "quote": "À la tombée de la nuit, ces derniers débutent leurs danses macabres.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c05",
+          "source_id": "jack-mistigri-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Sightings of jack mistigris generally take place in the forests of Québec, between the Saint-Maurice River and the Outaouais River.",
+          "statement_id": "Penampakan jack mistigri umumnya dikisahkan terjadi di hutan-hutan Québec, di antara Sungai Saint-Maurice dan Sungai Outaouais.",
+          "quote": "Les observations des jack mistigris ont généralement lieu dans les forêts du Québec, entre la rivière Saint-Maurice et la rivière des Outaouais.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c06",
+          "source_id": "jack-mistigri-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "They usually kill their victims, some of whom join them in their macabre dances until the end of time.",
+          "statement_id": "Mereka biasanya membunuh korbannya, dan sebagian korban ikut bergabung dalam tarian maut mereka sampai akhir zaman.",
+          "quote": "Ils tuent généralement leurs victimes, certaines d'entre elles les rejoignant dans leurs danses macabres jusqu'à la fin des temps.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c07",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "Jos Violon is a character created by Louis Fréchette who appears in several of his tales; he is jovial, colourful in speech, and spent his youth in the logging camps.",
+          "statement_id": "Jos Violon adalah tokoh ciptaan Louis Fréchette yang tampil dalam beberapa ceritanya; ia digambarkan periang, bertutur kocak, dan menghabiskan masa mudanya di kamp-kamp penebangan kayu.",
+          "quote": "Jos Violon, personnage créé par Louis Fréchette, qu’il met en scène dans plusieurs de ses contes, est un type jovial, au parler truculent, qui a passé sa jeunesse dans les chantiers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c08",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "In Jos Violon's tale, the jack mistigris are skeletons of every size and build: small, tall, thin, and pot-bellied.",
+          "statement_id": "Dalam cerita Jos Violon, jack mistigri adalah kerangka-kerangka dari segala ukuran dan bentuk: kecil, besar, kurus, dan buncit.",
+          "quote": "Des esquelettes de tous les gabarits et de toutes les corporations : des petits, des grands, des minces, des ventrus",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c09",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "Some have human limbs with snake bodies, others ox heads set on frog thighs.",
+          "statement_id": "Ada yang bertungkai manusia dengan tubuh ular, dan ada yang berkepala sapi di atas paha katak.",
+          "quote": "des membres de chrétien avec des corps de serpent, des têtes de bœufs sus des cuisses de grenouilles",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c10",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "All of them have ghostly faces, lewd behaviour and foul-smelling mouths.",
+          "statement_id": "Semuanya berwajah seperti hantu, bertingkah cabul, dan bermulut sangat busuk.",
+          "quote": "Tout ça avec des faces de revenants, des comportements d’impudiques, et des gueules puantes à vous faire passer l’envie de renifler pour vingt ans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c11",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "Around midnight, when the gueulard howls, this infernal crowd springs up dancing, jumping and rolling about.",
+          "statement_id": "Sekitar tengah malam, ketika gueulard melolong, gerombolan neraka itu muncul sambil menari, melompat, dan berguling.",
+          "quote": "Sur les minuit, le gueulard pousse son hurlement ; et alors faut voir ressourdre c’te pacotille infernale, en dansant, en sautant, en se roulant",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c12",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "Any Christian nearby is finished: within ten minutes he is sucked, emptied and gnawed.",
+          "statement_id": "Orang Kristen yang berada di dekat situ akan habis: dalam sepuluh menit ia diisap, dikosongkan, dan digerogoti.",
+          "quote": "Si y a un chrétien dans les environs, il est fini. En dix minutes, il est sucé, vidé, grignoté",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c13",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "If he is not in a state of grace, he is himself turned into a jack mistigri and condemned to that life until the end of the world.",
+          "statement_id": "Jika ia tidak dalam keadaan rahmat, ia sendiri diubah menjadi jack mistigri dan dihukum menjalani hidup itu sampai akhir dunia.",
+          "quote": "s’il a la chance de pas être en état de grâce, il se trouve à son tour emmorphosé en jack mistigris, et condamné à mener c’te vie de chien-là jusqu’à la fin du monde.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c14",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "According to the narrator, the Mont à l'Oiseau is no ordinary place.",
+          "statement_id": "Menurut pencerita, Mont à l'Oiseau bukan tempat biasa.",
+          "quote": "Faut vous dire que le mont à l’Oiseau, c’est pas une place ordinaire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c15",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "On that mountain, besides the gueulard, there is also what is called the dance of the jack mistigris.",
+          "statement_id": "Di gunung itu, selain gueulard, ada pula yang disebut tarian jack mistigri.",
+          "quote": "Et puis, y a ce qu’on appelle la danse des jacks mistigris.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c16",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "Any traveller of the Saint-Maurice would rather sleep alone in the cemetery than camp in a group near that place.",
+          "statement_id": "Para pengelana Saint-Maurice lebih suka tidur sendirian di kuburan daripada berkemah beramai-ramai di sekitar tempat itu.",
+          "quote": "N’importe queu voyageur du Saint-Maurice vous dira qu’il aimerait cent fois mieux coucher tout fin seul dans le cimiquière, que de camper en gang dans les",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jack-mistigri-c17",
+          "source_id": "jack-mistigri-s2",
+          "host": "beq.ebooksgratuits.com",
+          "statement": "Louis Fréchette introduces the character Jos Violon in the tale Tipite Vallerand.",
+          "statement_id": "Tokoh Jos Violon diperkenalkan oleh Louis Fréchette dalam cerita Tipite Vallerand.",
+          "quote": "tout le monde l’appelle Jos Violon. Dans le conte Tipite Vallerand, Louis Fréchette nous présente ainsi le personnage",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "jichi",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "5f4066954fa26ce1e39395ce7b35b3b69b63ab0bf39705c7c3c55cccbc491753",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jichi-c01",
@@ -154,26 +332,71 @@
           "quote": "Se lo considera una deidad guardiana de las aguas, dadora del origen de la vida, y que solo se manifiesta cuando se esconde el sol.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jichi-c04",
+          "source_id": "jichi-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to popular knowledge, when people do not manage water wisely, the Jichi leaves, bringing drought and poor fishing, game flees and life becomes unsustainable.",
+          "statement_id": "Menurut kepercayaan rakyat, bila manusia tidak mengelola air dengan bijak, Jichi pergi dan meninggalkan kekeringan, tangkapan ikan yang buruk, hewan buruan yang lari, dan kehidupan yang tak tertahankan.",
+          "quote": "Según el saber popular, cuando el hombre no administra sabiamente el agua, el Jichi se marcha dejando sequía, mala pesca, la caza huye y la vida se vuelve insostenible.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jichi-c05",
+          "source_id": "jichi-s2",
+          "host": "dspace.palermo.edu",
+          "statement": "The Chiquitanos call jichis, or nixhixh (in Besɨro), the beings that guard flora, fauna and the various spheres of nature such as rivers, mountains and the forest.",
+          "statement_id": "Orang Chiquitano menyebut jichi atau nixhixh (dalam bahasa besɨro) bagi makhluk-makhluk yang menjaga flora, fauna, dan berbagai ranah alam seperti sungai, gunung, dan hutan.",
+          "quote": "los Chiquitanos designan como jichis o nixhixh (en besɨro), a estos seres que custodian la flora, la fauna y las distintas esferas de la naturaleza, como los ríos, las montañas, el bosque, etc.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jichi-c06",
+          "source_id": "jichi-s2",
+          "host": "dspace.palermo.edu",
+          "statement": "Each jichi is the lord or owner of one domain of nature.",
+          "statement_id": "Setiap jichi adalah tuan atau pemilik satu ranah alam.",
+          "quote": "Cada jichi es el señor o el dueño de un dominio de la naturaleza",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jichi-c07",
+          "source_id": "jichi-s2",
+          "host": "dspace.palermo.edu",
+          "statement": "In the Chiquitano worldview, jichis are believed able to take human, animal or hybrid forms when interacting with people.",
+          "statement_id": "Menurut pandangan dunia Chiquitano, jichi diyakini mampu mengambil wujud manusia, hewan, atau campuran ketika berhubungan dengan orang.",
+          "quote": "Según la cosmovisión chiquitana, se cree que los jichis tienen la capacidad de adoptar formas humanas, animales o híbridas al interactuar con las personas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jichi-c08",
+          "source_id": "jichi-s2",
+          "host": "dspace.palermo.edu",
+          "statement": "The Jichi of the water is represented as a great serpent, and even as an enormous serpent with a horse's head.",
+          "statement_id": "Jichi air digambarkan sebagai ular besar, bahkan juga sebagai ular raksasa berkepala kuda.",
+          "quote": "Por ejemplo, el Jichi del agua es representado por una gran serpiente, e incluso también como una enorme serpiente con cabeza de caballo",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "joao-galafuz",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "fadec9bca3cb43bf03efb44a982d8fee974d212715aff50c5b6850887f798f4b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "joao-galafuz-c01",
@@ -194,26 +417,71 @@
           "quote": "Crença dominante entre os pescadores e homens do mar, no estado de Pernambuco, nas cidades de Barreiros, na Praia do Porto e principalmente na ilha de  Itamaracá, dizendo-se que esse duende marinho é a alma penada de um caboclo, que morreu pagão, acaso conhecido por João Galafuz.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "joao-galafuz-c03",
+          "source_id": "joao-galafuz-s2",
+          "host": "archive.org",
+          "statement": "In Alagoas the names João Galafoice and João Galafaice are given to the luminous phenomenon called Jean de la foice in Sergipe and João Galafuz in Pernambuco.",
+          "statement_id": "Di Alagoas nama João Galafoice dan João Galafaice diberikan kepada fenomena cahaya yang di Sergipe disebut Jean de la foice dan di Pernambuco disebut João Galafuz.",
+          "quote": "João Galafoice. Dão esse nome ... o de João Galafaice, em Alagoas, ao fenômeno luminoso, denominado - Jean de la foice, em Sergipe, e João Galafuz em Pernambuco",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "joao-galafuz-c04",
+          "source_id": "joao-galafuz-s2",
+          "host": "archive.org",
+          "statement": "In Alagoas, João Galafoice belongs to the frightening band of child-abductors and is pictured as an old Black man.",
+          "statement_id": "Di Alagoas, João Galafoice termasuk golongan sosok menakutkan penculik anak dan digambarkan sebagai seorang lelaki tua berkulit hitam.",
+          "quote": "o João Galafoice pertence ao bando assustador dos negros raptores de crianças. É um preto velho",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "joao-galafuz-c05",
+          "source_id": "joao-galafuz-s2",
+          "host": "archive.org",
+          "statement": "The legend of João Galafuz is perhaps connected with the luminosity of sea water, and it is described by Dr. Pereira da Costa in his Folclore Pernambucano.",
+          "statement_id": "Legenda João Galafuz mungkin berkaitan dengan pendaran cahaya air laut, dan legenda ini dideskripsikan oleh Dr. Pereira da Costa dalam Folclore Pernambucano.",
+          "quote": "A lenda de João Galafuz, prendendo-se talvez à luminosidade da água do mar, lenda que o Dr. Pereira da Costa descreve no seu Folclore Pernambucano",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "joao-galafuz-c06",
+          "source_id": "joao-galafuz-s2",
+          "host": "archive.org",
+          "statement": "In the Boitatá entry, João Galafuz is listed as one of the regional names of the boitatá, alongside Jean de la foice or Jean Delafosse in Sergipe and Alagoas.",
+          "statement_id": "Dalam entri Boitatá, João Galafuz disebut sebagai salah satu nama daerah untuk boitatá, di samping Jean de la foice atau Jean Delafosse di Sergipe dan Alagoas.",
+          "quote": "Boitata. Baitatá, Batatá, no Centro-Sul, ... Jean de la foice ou Jean Delafosse em Sergipe e Alagoas, João Galafuz em",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "joao-galafuz-c07",
+          "source_id": "joao-galafuz-s3",
+          "host": "portal.sescsp.org.br",
+          "statement": "In Pernambuco there is João Galafuz, a luminous goblin that emerges from the waves foretelling storms and shipwrecks.",
+          "statement_id": "Di Pernambuco dikenal João Galafuz, makhluk kecil bercahaya yang muncul dari ombak sebagai pertanda badai dan kapal karam.",
+          "quote": "Em Pernambuco, conheceu João Galafuz, duende luminoso que emerge das ondas prenunciando tempestades e naufrágios.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "joe-bush-ghost",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "d354d02b4713ec52ce577b5d294fd36dc369018484cb3586f96fde28040f1213",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "joe-bush-ghost-c01",
@@ -244,6 +512,76 @@
           "quote": "anything that happened on the dredge, or something went wrong, it was Joe Bush",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c04",
+          "source_id": "joe-bush-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wes Dickson, a Sumpter dredge employee in the 1940s, it all started as a joke, and he blamed George Hansen.",
+          "statement_id": "Menurut Wes Dickson, pekerja kapal keruk Sumpter pada 1940-an, kisah ini bermula sebagai lelucon dan ia menyalahkan George Hansen.",
+          "quote": "According to Wes Dickson, an employee of the Sumpter dredge during the 1940s, \"it all started as a joke, and I'd blame George Hansen\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c05",
+          "source_id": "joe-bush-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Skeleton Creek book series, a man named Henry, trying to get gold from the dredge, pretends to be the ghost of Joe Bush.",
+          "statement_id": "Dalam seri buku Skeleton Creek, seorang lelaki bernama Henry yang mencoba mendapatkan emas dari kapal keruk itu berpura-pura menjadi hantu Joe Bush.",
+          "quote": "In the Skeleton Creek book series, a man named Henry, trying to get gold from the dredge, pretends to be the ghost of Joe Bush.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c06",
+          "source_id": "joe-bush-ghost-s2",
+          "host": "bakercityherald.com",
+          "statement": "According to Norm Hansen, when the power failed there were no lights at all, and the workers left behind sat in the dark waiting for Joe Bush to come by.",
+          "statement_id": "Menurut Norm Hansen, saat listrik padam tidak ada lampu sama sekali, dan pekerja yang tertinggal duduk dalam gelap menunggu Joe Bush lewat.",
+          "quote": "There were no lights, nothing. They just sat in the dark and waited for Joe Bush to come by.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c07",
+          "source_id": "joe-bush-ghost-s2",
+          "host": "bakercityherald.com",
+          "statement": "Norm's older brother, the late George Hansen, is credited with spreading the story of Joe Bush.",
+          "statement_id": "Kakak Norm, mendiang George Hansen, dianggap sebagai penyebar kisah Joe Bush.",
+          "quote": "Norm’s older brother, the late George Hansen, is credited with spreading the story of Joe Bush.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c08",
+          "source_id": "joe-bush-ghost-s2",
+          "host": "bakercityherald.com",
+          "statement": "The legend of Joe Bush always resurfaces at the annual Dredge Workers Reunion held every June.",
+          "statement_id": "Legenda Joe Bush selalu muncul kembali dalam reuni tahunan para pekerja kapal keruk setiap bulan Juni.",
+          "quote": "The legend of Joe Bush always resurfaces at the annual Dredge Workers Reunion held every June.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c09",
+          "source_id": "joe-bush-ghost-s3",
+          "host": "bluemountaineagle.com",
+          "statement": "The name Joe Bush does not appear in company records, but in 1918 an oiler named Chris Rowe was crushed in the gearbox of Sumpter No. 1, and the story goes that his spirit may have ended up in the third dredge.",
+          "statement_id": "Nama Joe Bush tidak tercatat dalam arsip perusahaan; namun pada 1918 seorang petugas pelumas bernama Chris Rowe tewas terjepit di kotak roda gigi Sumpter No. 1, dan menurut cerita arwahnya mungkin berpindah ke kapal keruk ketiga.",
+          "quote": "The name Joe Bush does not appear in company records, but in 1918 an oiler named Chris Rowe was crushed in the gearbox of Sumpter No. 1, and the story goes that his spirit may have ended up inside the third dredge",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joe-bush-ghost-c10",
+          "source_id": "joe-bush-ghost-s3",
+          "host": "bluemountaineagle.com",
+          "statement": "A film crew shot footage of Sumpter No. 3 for an episode of the 2013 television series Ghost Mine about a phantom called Joe Bush.",
+          "statement_id": "Sebuah kru film merekam Sumpter No. 3 untuk satu episode serial televisi Ghost Mine tahun 2013 tentang hantu bernama Joe Bush.",
+          "quote": "A film crew shot footage of Sumpter No. 3 for an episode in the 2013 television series “Ghost Mine” about a phantom called Joe Bush.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
@@ -251,6 +589,7 @@
     {
       "slug": "jupi-pari",
       "file": "batch-149.md",
+      "entry_sha256": "0c43068949cc97687e375858c7c935bb0a453f328327f93aa1639dc75f1cbdb7",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -290,20 +629,15 @@
     },
     {
       "slug": "kaneikokala",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "ddd11d26a054712fd882a8edb2718b18245de6a36ea0aff44bfb0ebba09e143f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kaneikokala-c01",
@@ -344,16 +678,107 @@
           "quote": "where it had been hidden to protect Kāneikokala at a time when images of Hawaiian gods were endangered.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c05",
+          "source_id": "kaneikokala-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kāneikokala was a confessor, a kahuna who forgives transgressions; after death he and his sister became protective shark ʻaumakua who help people resist evil.",
+          "statement_id": "Kāneikokala adalah seorang pengaku dosa, kahuna yang mengampuni pelanggaran; setelah meninggal, ia dan saudarinya menjadi ʻaumakua hiu pelindung yang membantu orang menolak kejahatan.",
+          "quote": "Kāneikokala was \"a confessor, a kahuna who forgives transgressions\". After they died, they became protective shark ʻaumakua who help people resist evil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c06",
+          "source_id": "kaneikokala-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kāneikokala would appear and return the survivors to their own home islands.",
+          "statement_id": "Kāneikokala akan muncul dan mengembalikan para penyintas ke pulau asal masing-masing.",
+          "quote": "Kāneikokala would appear and return the survivors to their respective home island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c07",
+          "source_id": "kaneikokala-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Around 1885 an old man named Wahinenui dreamed of Kāneikokala, who said he was cold and asked to be dug up.",
+          "statement_id": "Sekitar 1885, seorang lelaki tua bernama Wahinenui bermimpi tentang Kāneikokala yang mengatakan dirinya kedinginan dan meminta digali.",
+          "quote": "Around 1885, an old man named Wahinenui had dreams about Kāneikokala, who said he was cold and asked to be dug up.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c08",
+          "source_id": "kaneikokala-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The stone came to the Bishop Museum in 1906 and was set into the floor of Hawaiian Hall.",
+          "statement_id": "Batu itu sampai di Bishop Museum pada 1906 dan dipasang di lantai Hawaiian Hall.",
+          "quote": "The stone came to the Bishop Museum in 1906 and was installed in the floor of Hawaiian Hall.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c09",
+          "source_id": "kaneikokala-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Workers dug at the stone and used a jackhammer without reaching its base, until elders pointed out that nobody had consulted Kāneikokala about the move; in the end Kāneikokala stayed in the hall.",
+          "statement_id": "Pekerja menggali di sekitar batu itu dan memakai bor tanpa berhasil mencapai dasarnya, hingga para tetua mengingatkan bahwa tak seorang pun meminta izin Kāneikokala; akhirnya Kāneikokala tetap berada di aula itu.",
+          "quote": "Workers dug at the stone and brought in a jackhammer without reaching the base, until elders pointed out that no one had consulted Kāneikokala about the move. Ultimately, Kāneikokala remained in the hall.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c10",
+          "source_id": "kaneikokala-s2",
+          "host": "archive.org",
+          "statement": "The most important ancestral sharks (mano kumupaʻa) are Ku-hai-moana, Kane-huna-moku, Kau-huhu, Ka-moho-aliʻi and Kane-i-kokala.",
+          "statement_id": "Hiu-hiu leluhur (mano kumupaʻa) yang terpenting adalah Ku-hai-moana, Kane-huna-moku, Kau-huhu, Ka-moho-aliʻi, dan Kane-i-kokala.",
+          "quote": "The most important of these ancestral sharks (mano kumupa‘a) named by him are Ku-hai-moana, Kane-huna-moku, Kau-huhu, Ka-moho-ali‘i, and Kane-i-ko- kala.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c11",
+          "source_id": "kaneikokala-s2",
+          "host": "archive.org",
+          "statement": "Kane-i-kokala is a kindly shark aumakua who saves shipwrecked people and brings them safely to shore.",
+          "statement_id": "Kane-i-kokala adalah aumakua hiu yang baik hati, yang menyelamatkan korban kapal karam dan membawa mereka dengan selamat ke pantai.",
+          "quote": "Kane-i-kokala is a kindly shark aumakua who saves people who are shipwrecked and brings them safe to shore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c12",
+          "source_id": "kaneikokala-s2",
+          "host": "archive.org",
+          "statement": "According to Kamakau, the kokala fish are sacred to him, and the people of Kahiki-nui, peopled by his family, fear to eat these fish, to touch food that has touched them, or even to cross the smoke of an oven where they are cooking.",
+          "statement_id": "Menurut Kamakau, ikan kokala keramat baginya, dan orang Kahiki-nui yang merupakan keluarganya takut memakan ikan itu, menyentuh makanan yang bersentuhan dengannya, atau bahkan melintasi asap tungku tempat ikan itu dimasak.",
+          "quote": "The kokala fish are sacred to him, and the folk of Kahiki-nui, which is peopled by his family, says Kamakau, fear to eat these fish or to touch any food that has come in contact with them or even to cross the smoke of an oven where they are cooking.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaneikokala-c13",
+          "source_id": "kaneikokala-s2",
+          "host": "archive.org",
+          "statement": "These ancestral shark gods can appear in forms other than a shark, such as owls, hilu fish, moʻo or human beings.",
+          "statement_id": "Dewa-dewa hiu leluhur itu dapat muncul dalam wujud selain hiu, seperti burung hantu, ikan hilu, moʻo, atau manusia.",
+          "quote": "appear in other than shark form, as owls, hilu fish, mo‘o, or human",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kayeri",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "5c049f261ca3bec1093f665492e0c0cb1d1e2f99ffd2d3cc45116c0d7d6d712c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -361,7 +786,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -404,26 +829,31 @@
           "quote": "The Kayeri diet consists solely of cows, and the Cuiban people often attribute the disappearance or deaths of their cattle to the Kayeri who are strong enough to carry bovine away.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kayeri-c05",
+          "source_id": "kayeri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said that the most effective way to kill them is to shoot them in the kidney with a bone-tipped arrow.",
+          "statement_id": "Konon cara paling ampuh untuk membunuh kayeri adalah memanahnya di ginjal dengan anak panah berujung tulang.",
+          "quote": "It is said that the most effective way to kill them is to shoot them in the kidney with a bone-tipped arrow.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kumugwe",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "4417333c49ae40da6e149e1ec8115cedbc1e1939ece11ae5ffae65f88725db8c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kumugwe-c01",
@@ -464,16 +894,67 @@
           "quote": "Kumugwe is master of the seals. The posts and beams of his house are living sea lions.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kumugwe-c05",
+          "source_id": "kumugwe-s2",
+          "host": "archive.org",
+          "statement": "Q'o'moqoa, the spirit of the sea and protector of the seals who kills hunters, occurs less frequently in the clan legends.",
+          "statement_id": "Q'o'moqoa, roh laut pelindung anjing laut yang membunuh para pemburu, lebih jarang muncul dalam legenda klan.",
+          "quote": "Of less frequent occurrence is the spirit of th esea, Q’o'moqoa, the protector of the seals, who kills hunters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kumugwe-c06",
+          "source_id": "kumugwe-s2",
+          "host": "archive.org",
+          "statement": "There are a number of tales of how he took the ancestor of a tribe to the bottom of the sea and gave him his crest.",
+          "statement_id": "Ada sejumlah kisah tentang bagaimana ia membawa leluhur suatu suku ke dasar laut dan memberinya lambang (crest).",
+          "quote": "There are a number of tales relating how he took the ancestor of a tribe to the bottom of the sea and gave him his crest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kumugwe-c07",
+          "source_id": "kumugwe-s2",
+          "host": "archive.org",
+          "statement": "In a recorded feast speech, Q'o'moqoa is called a sea monster who swallows everything.",
+          "statement_id": "Dalam sebuah pidato pesta yang dicatat, Q'o'moqoa disebut monster laut yang menelan segalanya.",
+          "quote": "Now take care, Gua'ts’enox, for here is the Q’o'moqoa, a sea monster, who swallows everything",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kumugwe-c08",
+          "source_id": "kumugwe-s2",
+          "host": "archive.org",
+          "statement": "In one legend a mouse leads a chief down the rock to Q'o'moqoa's house.",
+          "statement_id": "Dalam satu legenda, seekor tikus menuntun seorang kepala suku menuruni batu karang menuju rumah Q'o'moqoa.",
+          "quote": "She led him down the rock to Q’o'moqoae’s house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kumugwe-c09",
+          "source_id": "kumugwe-s2",
+          "host": "archive.org",
+          "statement": "The chief jumped through the door when it opened, and Q'o'moqoa gave him the ha'mats'a dance and the raven mask.",
+          "statement_id": "Kepala suku itu melompati pintu ketika terbuka, lalu Q'o'moqoa memberinya tarian ha'mats'a dan topeng gagak.",
+          "quote": "The chief jumped through the door when it opened. Q’o'maqoae gave him the ha'mats’a dance and the raven mask.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "lobisomem-do-acre",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-2.md",
+      "entry_sha256": "3386816d09f428d6c8e01c8f792e4cc15e65b3210cb825bc9208139ff3e18f74",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -481,7 +962,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -514,26 +995,51 @@
           "quote": "A criatura é comparada ao Mapinguari que vive na Floresta Amazônica.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "lobisomem-do-acre-c04",
+          "source_id": "lobisomem-do-acre-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "After a three-day pursuit by a team of police accompanied by local councillor Chico Peres, huge round footprints with deep claw marks in the soil and the remains of other devoured animals were found.",
+          "statement_id": "Setelah pengejaran tiga hari oleh tim polisi bersama anggota dewan setempat Chico Peres, ditemukan jejak kaki bulat yang sangat besar, bekas cakar dalam di tanah, dan sisa hewan lain yang telah dimangsa.",
+          "quote": "Após uma perseguição de três dias por uma equipe formada por policias, acompanhados pelo vereador local Chico Peres, foram encontraram pegadas redondas enormes, com rastros de garras profundas na terra e restos de outros animais que haviam sido devorados.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lobisomem-do-acre-c05",
+          "source_id": "lobisomem-do-acre-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "In another attack, on 22 July 1990, the creature tried to carry off a child beside the BR-364 highway but was stopped by the child's grandfather.",
+          "statement_id": "Dalam serangan lain pada 22 Juli 1990, makhluk itu mencoba membawa seorang anak di tepi jalan raya BR-364, tetapi dicegah oleh kakek anak tersebut.",
+          "quote": "Em outro ataque, a criatura tentou levar uma criança as margens da rodovia BR-364, no dia 22 de julho de 1990, mas foi impedida pelo avô da criança.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lobisomem-do-acre-c06",
+          "source_id": "lobisomem-do-acre-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "After this appearance, the creature was never again seen by local people.",
+          "statement_id": "Setelah penampakan itu, makhluk tersebut tidak pernah lagi dilihat warga.",
+          "quote": "Após esta aparição, a criatura nunca mais foi vista por populares.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "loira-do-bonfim",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "30a6abe116d0fc392540dcf751262df8a6bdc055c30a875d4d148bca13d02e83",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "loira-do-bonfim-c01",
@@ -564,26 +1070,61 @@
           "quote": "Ao chegar lá, ela se dirigia ao cemitério e dizia que ali era sua morada. Depois, ela desaparecia.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "loira-do-bonfim-c04",
+          "source_id": "loira-do-bonfim-s2",
+          "host": "catracalivre.com.br",
+          "statement": "In the 1950s a legend became very famous in Belo Horizonte: in the Bonfim neighbourhood, home to one of the state capital's cemeteries, a taxi driver once drove a blonde woman.",
+          "statement_id": "Pada 1950-an, sebuah legenda menjadi sangat terkenal di Belo Horizonte: di bairro Bonfim, tempat salah satu pemakaman ibu kota negara bagian itu, seorang sopir taksi pernah mengantar seorang perempuan berambut pirang.",
+          "quote": "Nos anos 1950, uma lenda ficou super famosa em Belo Horizonte. Ela dizia que no bairro Bonfim, onde fica um dos cemitérios da capital mineira, um taxista uma vez fez uma corrida com uma mulher loira.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "loira-do-bonfim-c05",
+          "source_id": "loira-do-bonfim-s2",
+          "host": "catracalivre.com.br",
+          "statement": "The woman asked the taxi driver to take her to the cemetery gate and, after paying the fare, walked off towards the graves and vanished.",
+          "statement_id": "Perempuan itu meminta diantar sampai gerbang pemakaman, lalu setelah membayar ia berjalan ke arah makam-makam dan menghilang.",
+          "quote": "A moça pediu para o motorista do táxi levá-la até a porta do cemitério e depois de pagar a conta, saiu andando em direção aos túmulos e desapareceu!!!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "loira-do-bonfim-c06",
+          "source_id": "loira-do-bonfim-s2",
+          "host": "catracalivre.com.br",
+          "statement": "For years the legend frightened many grown men, who ran when they saw a blonde woman walking alone in the area.",
+          "statement_id": "Selama bertahun-tahun legenda ini menakuti banyak lelaki dewasa, yang lari bila melihat perempuan berambut pirang berjalan sendirian di kawasan itu.",
+          "quote": "Por vários anos essa lenda colocou medo em muitos marmanjos que corriam ao ver uma mulher loira andando sozinha pela região.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "loira-do-bonfim-c07",
+          "source_id": "loira-do-bonfim-s3",
+          "host": "www.ufmg.br",
+          "statement": "A university museum names the Loira do Cemitério do Bonfim among the urban legends that live in the imagination of Belo Horizonte residents, featuring it in a storytelling programme.",
+          "statement_id": "Sebuah museum universitas menyebut Loira do Cemitério do Bonfim sebagai salah satu legenda urban yang hidup dalam imajinasi warga Belo Horizonte, dan menampilkannya dalam acara mendongeng.",
+          "quote": "contação de histórias sobre lendas urbanas que habitam o imaginário dos belo-horizontinos, como a Loira do Cemitério do Bonfim",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "maira",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "154ffe1a20dc54dfaa9ab25aa9e91c171030212e0f27b6945680f1728d81e3d7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "maira-c01",
@@ -614,16 +1155,97 @@
           "quote": "O frade franciscano francês do século XVI André Thevet explica que “Mair” quer dizer “Transformador”",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "maira-c04",
+          "source_id": "maira-s2",
+          "host": "pib.socioambiental.org",
+          "statement": "The Asuriní regard Mahira, \"our old grandfather\", as the creator of human beings and the one who established order on Earth.",
+          "statement_id": "Orang Asuriní menganggap Mahira, \"kakek tua kami\", sebagai pencipta manusia dan penegak tatanan di Bumi.",
+          "quote": "Os Asuriní consideram que Mahira, \"nosso velho avô\", foi o criador dos seres humanos e o responsável pela instauração da ordem na Terra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c05",
+          "source_id": "maira-s2",
+          "host": "pib.socioambiental.org",
+          "statement": "Mahira passed basic knowledge to people, such as growing manioc, making flutes, and music.",
+          "statement_id": "Mahira mewariskan pengetahuan dasar kepada manusia, seperti menanam singkong, membuat seruling, dan musik.",
+          "quote": "transmitindo aos homens os conhecimentos básicos, como o cultivo da mandioca, a confecção das flautas e as músicas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c06",
+          "source_id": "maira-s2",
+          "host": "pib.socioambiental.org",
+          "statement": "Mahira's daughter never stayed married long, because Mahira grew annoyed with his sons-in-law and, smoking his tawari, turned them into animals.",
+          "statement_id": "Putri Mahira tak pernah lama menikah karena Mahira kesal pada para menantunya dan, sambil mengisap tawari, mengubah mereka menjadi hewan.",
+          "quote": "Sua filha nunca conseguia permanecer muito tempo casada pois Mahira aborrecia-se com seus genros e, fumando seu tawari, transformava-os em animais.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c07",
+          "source_id": "maira-s2",
+          "host": "pib.socioambiental.org",
+          "statement": "Today Mahira and his wife live in the sky, in a place called Tupana, which is also where the dead go.",
+          "statement_id": "Kini Mahira dan istrinya tinggal di langit, di tempat bernama Tupana, yang juga menjadi tujuan orang mati.",
+          "quote": "Hoje, Mahira e sua esposa, moram no céu, em um local denominado Tupana. É para este mesmo lugar que vão os mortos",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c08",
+          "source_id": "maira-s2",
+          "host": "pib.socioambiental.org",
+          "statement": "Every Asuriní child is understood as the fruit of its mother's sexual relation with Mahira (a mythic hero), which takes place in a dream.",
+          "statement_id": "Setiap anak Asuriní dipahami sebagai buah hubungan ibunya dengan Mahira (pahlawan mitis) yang terjadi dalam mimpi.",
+          "quote": "Toda criança Asuriní é concebida como fruto da relação sexual de sua mãe com Mahira (herói mítico), o que ocorre durante o sonho.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c09",
+          "source_id": "maira-s3",
+          "host": "pib.socioambiental.org",
+          "statement": "For the Awa, humanity was created by Maíra, the culture hero; alone in the world, he made the first woman from a tree trunk, whose pregnancy began the cycle with the birth of twin boys, Maíra and Ajỹ.",
+          "statement_id": "Bagi orang Awa, umat manusia diciptakan oleh Maíra, sang pahlawan budaya; seorang diri di dunia, ia membuat perempuan pertama dari sebatang batang pohon, dan kehamilannya mengawali kelahiran dua anak kembar bernama Maíra dan Ajỹ.",
+          "quote": "A humanidade foi criada por Maíra, o herói cultural. Sozinho no mundo, produziu a partir de um tronco de árvore a primeira mulher na terra (wya). Com o seu surgimento e a consequente gravidez, inicia-se um ciclo a partir do nascimento de dois meninos gêmeos, os filhos dos heróis, Maíra e Ajỹ.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c10",
+          "source_id": "maira-s3",
+          "host": "pib.socioambiental.org",
+          "statement": "The narratives (mumu'uaena) told by the Awa recount the adventures of those twins (Maíra's children) on earth, before they decide to leave it and live in the sky.",
+          "statement_id": "Kisah-kisah (mumu'uaena) orang Awa menceritakan petualangan anak kembar itu (anak-anak Maíra) selama di bumi, sebelum mereka meninggalkannya dan tinggal di langit.",
+          "quote": "As narrativas (mumu'uaena) contadas pelos Awa abordam as aventuras desses gêmeos enquanto estavam na terra, pois depois decidem abandoná-la e vão viver no céu (iwa).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "maira-c11",
+          "source_id": "maira-s4",
+          "host": "pib.socioambiental.org",
+          "statement": "In one Tupi tradition, Mbahíra (Maír in other Tupi mythologies) is a creator-trickster who brought fire to people, originated many cultural items and practices, and shaped the landscape.",
+          "statement_id": "Dalam satu tradisi Tupi, Mbahíra (Maír dalam mitologi Tupi lain) adalah pencipta sekaligus trickster yang membawa api kepada manusia, mengawali banyak benda dan praktik budaya, serta membentuk bentang alam.",
+          "quote": "do criador-trickster Mbahíra (Maír em outras mitologias Tupi), que trouxe o fogo aos homens e deu origem a muitos itens e práticas culturais, assim como deu forma à paisagem.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mandao",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "e4db138e948cdf539f88a7f8020c496b28dc821e02547bbc155c41d2a2c86ae2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 8,
         "sources": 1,
         "images": 0
       },
@@ -631,7 +1253,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -664,26 +1286,71 @@
           "quote": "La leyenda cuenta que el Mandao, al igual que el Raiquén, Coo o Deñ, son aves relacionadas estrechamente con los Brujos de Chiloé. Entre estas aves, el Mandao sería escogido como un ayudante diurno de los brujos.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mandao-c04",
+          "source_id": "mandao-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Its only difference from an ordinary diucón is strange behaviour and a markedly redder iris, which stands out against its dark head and glows like \"eyes of fire\".",
+          "statement_id": "Satu-satunya perbedaannya dari diucón biasa adalah tingkah yang aneh dan iris mata yang jauh lebih merah, yang menonjol pada kepalanya yang gelap dan bersinar seperti \"mata api\".",
+          "quote": "Siendo la única diferencia la presencia de un extraño comportamiento y un aumento muy notorio del color rojo del iris de sus ojos; que al resaltar en el tono oscuro de su cabeza, brillan como si fueran \"ojos de fuego\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandao-c05",
+          "source_id": "mandao-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Mandao approaches the windows of the house it was sent to spy on; when delivering a message, it starts pecking at the window panes.",
+          "statement_id": "Mandao mendekati jendela rumah yang hendak dimata-matainya; bila membawa pesan, ia mulai mematuk kaca jendela.",
+          "quote": "El modo de actuar del Mandao, sería acercarse a las ventanas del hogar donde fue enviado para espiar. En el caso de avisar un mensaje, comenzaría a picotear los cristales de la ventana",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandao-c06",
+          "source_id": "mandao-s1",
+          "host": "es.wikipedia.org",
+          "statement": "For this reason in Chiloé it is considered a bird of ill omen.",
+          "statement_id": "Karena itu di Chiloé ia dianggap burung pembawa sial.",
+          "quote": "Por ello es que en Chiloé, se le considera un ave de mal agüero (ave de mala suerte).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandao-c07",
+          "source_id": "mandao-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is also said that when the Mandao rises from a branch and then swoops quickly back down onto the same branch, it is summoning bad weather.",
+          "statement_id": "Konon bila Mandao terbang naik dari sebuah dahan lalu menukik cepat kembali ke dahan yang sama, itu berarti ia sedang memanggil cuaca buruk.",
+          "quote": "Igualmente se dice que cuando el Mandao se eleva desde una rama y luego se deja caer rápidamente en picada a la misma rama; significa que está convocando el mal clima.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandao-c08",
+          "source_id": "mandao-s1",
+          "host": "es.wikipedia.org",
+          "statement": "So it is said that the Chiloé diucón must not be mistreated, as it might be a mandao, and harming it could bring reprisals.",
+          "statement_id": "Karena itu diucón Chiloé tidak boleh diperlakukan buruk, sebab bisa saja ia seekor mandao, dan menyakitinya dapat mendatangkan pembalasan.",
+          "quote": "Por ello se dice que al Diucón de Chiloé no hay que tratarlo mal, ya que pudieran ser un mandao; y podría haber represalias si se le dañara.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mistapew",
-      "file": "batch-149-fix-1.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "ccc6c064707f08c964826114fb8c90f4d34fae2e8142a81bbd456d6605515f02",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mistapew-c01",
@@ -704,26 +1371,141 @@
           "quote": "Stories of Mistapew are current in Indigenous North American traditional and popular culture in the twenty-first century.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mistapew-c03",
+          "source_id": "mistapew-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mistapew combines the augmentative prefix misti- (\"big, great\") with the noun nâpêw (\"man\"), meaning \"big man\" (in Plains Cree forms).",
+          "statement_id": "Mistapew adalah gabungan awalan misti- (\"besar, agung\") dan kata benda nâpêw (\"lelaki\"), sehingga berarti \"lelaki besar\" (dalam bentuk Cree Dataran).",
+          "quote": "Mistapew is a compound of the augmentative prefix misti - \"big, great\" and the noun nâpêw \"man\", thus meaning \"big man\" (using Plains Cree forms).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c04",
+          "source_id": "mistapew-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Flannery found that in the cultures she studied, Mištapew was not a hunter's own spirit but a spirit ally whom the hunter might meet and seek wisdom from.",
+          "statement_id": "Menurut temuan Flannery, Mištapew bukan roh milik pemburu sendiri, melainkan sekutu roh yang dapat dijumpai pemburu untuk dimintai kebijaksanaan.",
+          "quote": "Flannery found that in these cultures, Mištapew was not a hunter's own spirit, but spirit ally whom the hunter might encounter and seek wisdom from.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c05",
+          "source_id": "mistapew-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the shaking-tent ceremony, Mistapew's role was host or master of ceremonies, introducing the spirits and conveying and interpreting their messages.",
+          "statement_id": "Dalam upacara tenda bergoyang, peran Mistapew adalah tuan rumah atau pemandu upacara yang memperkenalkan roh-roh serta menyampaikan dan menafsirkan pesan mereka.",
+          "quote": "The role of Mistapew in the ceremony was to be the host or master of ceremonies, introducing the spirits and conveying and interpreting their messages.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c06",
+          "source_id": "mistapew-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because Mistapew can eat humans in some stories, Speck saw some similarity between Mistapew and the Witigo.",
+          "statement_id": "Karena dalam beberapa cerita Mistapew dapat memakan manusia, Speck melihat kemiripan antara Mistapew dan Witigo.",
+          "quote": "Noting that, in some stories, Mistapew can eat humans, Speck perceived some similarity between the Mistapew and Witigo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c07",
+          "source_id": "mistapew-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Cree elders, the teacher of honesty is the \"Sabe\" or \"Mistapew\" who dwells in the unseen aspects of the world; it is often called \"Bigfoot\", a term felt not to reflect it favourably.",
+          "statement_id": "Menurut para tetua Cree, guru kejujuran adalah \"Sabe\" atau \"Mistapew\" yang berdiam di sisi tak kasatmata dunia; ia sering disebut \"Bigfoot\", istilah yang dianggap tidak menggambarkannya dengan baik.",
+          "quote": "The teacher of honesty has been the \"Sabe\" or \"Mistapew\" who dwells in the unseen aspects of our world. Sabe or Mistapew is often called \"Bigfoot,\" a term that does not reflect on their being favorably.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c08",
+          "source_id": "mistapew-s2",
+          "host": "ojs.library.carleton.ca",
+          "statement": "Mistapew is also spelled Mistabeo and glossed as 'great man, spirit-helper'.",
+          "statement_id": "Mistapew juga dieja Mistabeo dan diartikan \"lelaki agung, roh penolong\".",
+          "quote": "rather than Mistapew (also spelled Mistabeo, 'great man, spirithelper')",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c09",
+          "source_id": "mistapew-s2",
+          "host": "ojs.library.carleton.ca",
+          "statement": "His major role was in the Shaking Tent Rite; a person was free to accept or reject his power and could use it to predict the future, overcome the Atush, or for sorcery.",
+          "statement_id": "Peran utamanya ada dalam Upacara Tenda Bergoyang; seseorang bebas menerima atau menolak kekuatannya, dan dapat memakainya untuk meramal masa depan, mengalahkan Atush, atau untuk sihir.",
+          "quote": "His major role was in the Shaking Tent Rite, and an individual was free to accept or reject his power, to use it in predicting the future, to overcome the Atush, or in sorcery.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c10",
+          "source_id": "mistapew-s2",
+          "host": "ojs.library.carleton.ca",
+          "statement": "Mistapew was still the master of ceremonies in the shaking tent, last practised at Rupert House in 1965.",
+          "statement_id": "Mistapew tetap menjadi pemandu upacara dalam tenda bergoyang, yang terakhir dilakukan di Rupert House pada 1965.",
+          "quote": "Mistapew was still the master of ceremonies in the shaking tent, last practiced at Rupert House in 1965",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c11",
+          "source_id": "mistapew-s2",
+          "host": "ojs.library.carleton.ca",
+          "statement": "Some Cree took the Christian God as a more powerful replacement for Mistabeo, while others accepted the missionaries' discrediting of Mistabeo as a manifestation of the Devil.",
+          "statement_id": "Sebagian orang Cree menerima Tuhan Kristen sebagai pengganti Mistabeo yang lebih kuat, sementara yang lain menerima tuduhan misionaris bahwa Mistabeo adalah perwujudan Iblis.",
+          "quote": "by others as a more powerful replacement for Mistabeo, while others accepted the missionaries' discrediting of Mistabeo as the Devil's manifestation",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c12",
+          "source_id": "mistapew-s2",
+          "host": "ojs.library.carleton.ca",
+          "statement": "Mistapew can see into the future better than humans, though he may be wrong, and can go out and kill caribou quickly.",
+          "statement_id": "Mistapew dapat melihat masa depan lebih baik daripada manusia meski bisa keliru, dan dapat keluar berburu serta membunuh karibu dengan cepat.",
+          "quote": "can see into the future better than humans can but he might be wrong ... Mistapew can go out and kill caribou quickly.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c13",
+          "source_id": "mistapew-s3",
+          "host": "mfnerc.org",
+          "statement": "In a Cree star story, a young man's uncles came upon a mistapew (giant) who traded in spirits and could capture spirits and transfer them from one spirit being to another.",
+          "statement_id": "Dalam kisah bintang Cree, para paman seorang pemuda bertemu mistapew (raksasa) yang memperdagangkan roh dan dapat menangkap roh serta memindahkannya dari satu makhluk roh ke makhluk lain.",
+          "quote": "The young man was told that his uncles happened upon a mistapew (Giant). This mistapew traded in spirits and could capture spirits and transfer them from one spirit being to another.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mistapew-c14",
+          "source_id": "mistapew-s3",
+          "host": "mfnerc.org",
+          "statement": "As the brothers slept, the giant crept into their dreams and took their spirits.",
+          "statement_id": "Saat kakak-beradik itu tidur, raksasa itu menyusup ke dalam mimpi mereka dan mengambil roh mereka.",
+          "quote": "As the brothers slept the giant crept into their dreams and took their spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mobile-wolf-woman",
-      "file": "batch-149-fix-1.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "a01cfafac9058b6ef7cc6d3d39b10cfbbdc9f90b30333b66fe88c628b65f6c86",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mobile-wolf-woman-c01",
@@ -754,26 +1536,81 @@
           "quote": "Witnessed described the creature as \"pretty and hairy\" and that \"the top half was a woman and the bottom was a wolf\".",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "mobile-wolf-woman-c04",
+          "source_id": "mobile-wolf-woman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There has been speculation about the creature's true identity, including claims that it was a German Shepherd put in a wig as an April Fools' Day prank, or a long-haired Afghan Hound.",
+          "statement_id": "Ada spekulasi tentang identitas sebenarnya makhluk itu, termasuk dugaan bahwa ia seekor anjing gembala Jerman yang dipakaikan wig sebagai lelucon April Fools' Day, atau seekor anjing Afghan Hound berbulu panjang.",
+          "quote": "There has been speculation about the true identity of the creature, including claims that it was a German Shepherd that was put in a wig as an April Fools' Day prank or that it was a long-haired Afghan Hound.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mobile-wolf-woman-c05",
+          "source_id": "mobile-wolf-woman-s2",
+          "host": "web.archive.org",
+          "statement": "She was seen at night stalking residents but never harmed anyone.",
+          "statement_id": "Ia terlihat pada malam hari membuntuti warga, tetapi tidak pernah mencelakai siapa pun.",
+          "quote": "She was seen at night, stalking residents, but never harming anyone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mobile-wolf-woman-c06",
+          "source_id": "mobile-wolf-woman-s2",
+          "host": "web.archive.org",
+          "statement": "On 8 April 1971 the newspaper reported the phenomenon, complete with a drawing of the creature by a newspaper illustrator.",
+          "statement_id": "Pada 8 April 1971 surat kabar itu memberitakan fenomena tersebut, lengkap dengan gambar makhluk itu karya seorang ilustrator koran.",
+          "quote": "On April 8, 1971, the newspaper reported the phenomenon, complete with a drawing of the creature conceived by a newspaper illustrator",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mobile-wolf-woman-c07",
+          "source_id": "mobile-wolf-woman-s2",
+          "host": "web.archive.org",
+          "statement": "An unnamed teenager said his father saw it down in a marsh and it chased him home.",
+          "statement_id": "Seorang remaja tanpa nama mengatakan ayahnya melihat makhluk itu di rawa dan dikejar olehnya sampai ke rumah.",
+          "quote": "An unnamed teenager is quoted as saying: \"My daddy saw it down in a marsh and it chased him home.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mobile-wolf-woman-c08",
+          "source_id": "mobile-wolf-woman-s2",
+          "host": "web.archive.org",
+          "statement": "One witness had heard that the creature had escaped from a circus sideshow.",
+          "statement_id": "Seorang saksi pernah mendengar bahwa makhluk itu kabur dari pertunjukan sirkus.",
+          "quote": "One witness had heard the creature had escaped from a circus sideshow.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mobile-wolf-woman-c09",
+          "source_id": "mobile-wolf-woman-s2",
+          "host": "web.archive.org",
+          "statement": "Within days sightings of the Wolf Woman of Mobile stopped and have not been reported since.",
+          "statement_id": "Dalam beberapa hari penampakan Wolf Woman of Mobile berhenti dan sejak itu tidak pernah dilaporkan lagi.",
+          "quote": "Within days, sightings of the Wolf Woman of Mobile stopped and have not been reported since.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "moon-lake-monster",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "3f62e87dd4d245645ffe4060f7a63f3e3fa628bef9966bc97392a8152be5eaf8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "moon-lake-monster-c01",
@@ -794,26 +1631,91 @@
           "quote": "The legend of a creature in the lake has roots in local folklore, including accounts attributed to the Ute people who historically avoided the area, describing the lake as being inhabited by \"water spirits\" or Water babies.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c03",
+          "source_id": "moon-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Traditional stories suggest the lake was approached with caution because these spirits were believed able to pull people beneath the surface.",
+          "statement_id": "Cerita-cerita tradisional menunjukkan danau itu dipandang dengan waspada karena roh-roh tersebut dianggap mampu menarik orang ke bawah permukaan air.",
+          "quote": "Traditional stories suggest the lake was viewed with caution due to these spirits' perceived ability to pull individuals beneath the surface.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c04",
+          "source_id": "moon-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern sightings usually describe a large, dark, serpent-like being that leaves distinctive V-shaped wakes on the water's surface.",
+          "statement_id": "Penampakan modern biasanya menggambarkan makhluk besar, gelap, menyerupai ular, yang meninggalkan riak berbentuk V di permukaan air.",
+          "quote": "Modern sightings typically describe a large, dark, serpentine entity that creates distinctive V-shaped wake patterns on the water's surface.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c05",
+          "source_id": "moon-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1994 Bill Reardon, a local author and former owner of the Moon Lake Resort, reported seeing through binoculars a ripple moving steadily across the lake in a zigzag.",
+          "statement_id": "Pada 1994 Bill Reardon, penulis setempat dan mantan pemilik Moon Lake Resort, melaporkan melihat riak melalui teropong yang bergerak mantap melintasi danau secara zig-zag.",
+          "quote": "In 1994, Bill Reardon, a local author and former owner of the Moon Lake Resort, reported observing a ripple through binoculars that moved steadily across the lake in a \"zigzag\" pattern",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c06",
+          "source_id": "moon-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other witnesses described it as looking like a \"bumpy log\" with visible scales, estimated at 12 to 15 feet long.",
+          "statement_id": "Saksi lain menggambarkannya seperti \"batang kayu bergelombang\" dengan sisik yang terlihat, panjangnya diperkirakan 12 sampai 15 kaki.",
+          "quote": "Other witnesses have described the creature as appearing like a \"bumpy log\" with visible scales, estimated to be between 12 and 15 feet long.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c07",
+          "source_id": "moon-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Though often overshadowed by the Bear Lake Monster, Moonie is a fixture of local folklore in the High Uintas.",
+          "statement_id": "Meski sering kalah tenar dibanding Bear Lake Monster, Moonie adalah bagian tetap cerita rakyat setempat di High Uintas.",
+          "quote": "While often overshadowed by the Bear Lake Monster, Moonie is a fixture of local folklore in the High Uintas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c08",
+          "source_id": "moon-lake-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "Stories of a Moon Lake Monster, among other legends, keep some people away; according to locals, the Ute Indians will not come near the lake out of certain superstitions, although their reservation is only a few miles away.",
+          "statement_id": "Kisah-kisah tentang Moon Lake Monster, di samping legenda lain, membuat sebagian orang menjauh; menurut warga setempat, orang Indian Ute tidak mau mendekati danau itu karena takhayul tertentu, padahal reservasi mereka hanya beberapa mil jauhnya.",
+          "quote": "Stories of a Moon Lake Monster, among other legends, keep others away. According to the locals, Ute Indians won't come near the lake in deference to certain superstitions, although their reservation is just a few miles away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moon-lake-monster-c09",
+          "source_id": "moon-lake-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "Locals say there has been a lot of talk over the years of a Moon Lake Monster.",
+          "statement_id": "Warga setempat mengatakan bahwa selama bertahun-tahun banyak dibicarakan tentang adanya Moon Lake Monster.",
+          "quote": "Never mind the tales of the locals, who say, as Jessen reminds us, \"There's been a lot of talk over the years of a Moon Lake Monster.\"",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mugwump-folklore",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "ec08e4a245263eebd6b6ba74b2a82658b25fc4902bd8bc3e2e8765ee4ff7cd99",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mugwump-folklore-c01",
@@ -834,26 +1736,91 @@
           "quote": "The name \"mugwump\" comes from an Algonquin word, the exact meaning of which is unclear.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c03",
+          "source_id": "mugwump-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a 1979 piece on the creature, New Liskeard mayor Jack Dent reported that the name translated as \"fearless sturgeon\" in English.",
+          "statement_id": "Dalam tulisan tahun 1979 tentang makhluk ini, Wali Kota New Liskeard Jack Dent melaporkan bahwa nama itu berarti \"sturgeon pemberani\" dalam bahasa Inggris.",
+          "quote": "In a 1979 communication on the creature, New Liskeard mayor Jack Dent reported that the name translated to \"fearless sturgeon\" in English.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c04",
+          "source_id": "mugwump-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Dent's source, the mugwump was reputed to be as long as four Indigenous warriors, so probably over 20 feet long.",
+          "statement_id": "Menurut sumber Dent, panjang mugwump konon setara empat orang pejuang pribumi, sehingga diperkirakan lebih dari 20 kaki.",
+          "quote": "... the mugwump was reputed to be the length of four Indian braves. Putting the average height of a brave at about five feet ... the mugwump was probably over 20 feet long.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c05",
+          "source_id": "mugwump-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The most common explanation for the Mugwump is that it is a large sturgeon.",
+          "statement_id": "Penjelasan yang paling umum adalah bahwa Mugwump sebenarnya ikan sturgeon besar.",
+          "quote": "The most common explanation for the Mugwump is that it is a large sturgeon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c06",
+          "source_id": "mugwump-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an 1879 canoe-trip account, the writer notes that anyone passing those rocks with a loaded canoe would know the offering was very advisable to court the favour of the water sprite.",
+          "statement_id": "Dalam catatan perjalanan kano tahun 1879, penulisnya menyebut bahwa siapa pun yang melintas di depan tebing itu dengan kano bermuatan akan memahami pentingnya persembahan tersebut untuk meraih kemurahan roh air.",
+          "quote": "I never learned the real significance of the performance, but anyone who passed on the lake with a loaded canoe in front of those rocks will know that such practice was very advisable to court the favor of the water sprite.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c07",
+          "source_id": "mugwump-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The voyageur Sha-Ka-Nash described his Anishinaabe guides making tobacco offerings at places such as Devil's Rock to an otherworldly creature living in the lake.",
+          "statement_id": "Voyageur Sha-Ka-Nash menceritakan bahwa para pemandu Anishinaabe-nya mempersembahkan tembakau di tempat seperti Devil's Rock kepada makhluk gaib yang tinggal di danau.",
+          "quote": "the voyageur Sha-Ka-Nash described how his Anishinaabe guides made offerings of tobacco at sites like Devil's Rock to an otherworldy creature living in the lake",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c08",
+          "source_id": "mugwump-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first written documentation of the creature comes from Jack Dent in the North Bay Nugget on 20 April 1979.",
+          "statement_id": "Dokumentasi tertulis pertama tentang makhluk ini berasal dari Jack Dent di North Bay Nugget pada 20 April 1979.",
+          "quote": "The first written documentation concerning the creature is from Jack Dent, reporting on the assertions made by his unidentified source in the North Bay Nugget on 20 April 1979.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mugwump-folklore-c09",
+          "source_id": "mugwump-folklore-s2",
+          "host": "www.northernontario.travel",
+          "statement": "The lake is also said to be home to a monster named Mugwamp with a horse's head and a serpent's body.",
+          "statement_id": "Danau itu konon menjadi rumah bagi monster bernama Mugwamp yang berkepala kuda dan bertubuh ular.",
+          "quote": "The lake is also said to be home to a sea monster named Mugwamp that has a horse's head and serpent's body.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ngen-ko",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "fde9f72a2d13ad301a29eedb2ac9ab919d382b11b677b37c5e482f0154c1aa31",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ngen-ko-c01",
@@ -884,26 +1851,71 @@
           "quote": "Ellos tienen poder para transformarse en animal, gente, piedra o tronco de agua.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ngen-ko-c04",
+          "source_id": "ngen-ko-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Ngen-ko controls the waters and rains, watching over their continuous flow and their fertilising action on the land.",
+          "statement_id": "Ngen-ko menguasai air dan hujan, menjaga alirannya tetap berlangsung dan daya suburnya bagi tanah.",
+          "quote": "Ejerce el control de las aguas y lluvias, velando por su flujo continuo y su acción fertilizadora de la tierra",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ngen-ko-c05",
+          "source_id": "ngen-ko-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Ngen-ko speaks and sings when the water runs strong; it requires its waters always to be accompanied by wild vegetation, and if that is removed, the water spirit moves to another leafy place.",
+          "statement_id": "Ngen-ko berbicara dan bernyanyi ketika air mengalir deras; ia menuntut airnya selalu disertai tumbuhan liar, dan bila tumbuhan itu dihilangkan, roh air itu pindah ke tempat lain yang rimbun.",
+          "quote": "Ngen-ko habla y canta cuando el agua tiene mucho raudal. No obstante, ngen-ko requiere que sus aguas estén siempre acompañadas de vegetación silvestre. Si ésta es eliminada, el espíritu del agua se muda a otro lugar frondoso.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ngen-ko-c06",
+          "source_id": "ngen-ko-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It usually appears as a mammal (bull, cow, heifer, horse, sheep, pig or dog), but also as a toad or a sumpall mermaid.",
+          "statement_id": "Ia biasanya menampakkan diri sebagai mamalia seperti banteng, sapi, sapi muda, kuda, domba, babi, atau anjing, tetapi juga sebagai katak atau putri duyung sumpall.",
+          "quote": "Suele presentarse como un mamífero —toro, vaca, vaquilla, caballo, oveja, cerdo o perro—, pero también como un sapo o sirena sumpall.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ngen-ko-c07",
+          "source_id": "ngen-ko-s2",
+          "host": "web.archive.org",
+          "statement": "For the Mapuche, water is not only a giver of life but life itself; it has an essence or spirit, the NgenKo, and so is a newen or energy.",
+          "statement_id": "Bagi orang Mapuche, air bukan hanya pemberi hidup tetapi kehidupan itu sendiri; ia memiliki esensi atau roh, yaitu NgenKo, sehingga merupakan newen atau energi.",
+          "quote": "Para el mapuche el Agua no sólo es dadora de vida, sino es vida en sí, tiene esencia o espíritu, el NgenKo, por tanto es un Newen o energía",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ngen-ko-c08",
+          "source_id": "ngen-ko-s2",
+          "host": "web.archive.org",
+          "statement": "To cross a stream or creek, one had to perform an efku or prayer asking permission of the NgenKo, the protecting spirit of the water, in order to pass.",
+          "statement_id": "Untuk menyeberangi sungai kecil atau rawa, orang harus melakukan efku atau doa untuk meminta izin kepada NgenKo, roh pelindung air, agar boleh lewat.",
+          "quote": "Que para atravesar un arroyo o un estero había que hacer un efku o un ruego para pedir permiso al NgenKo, espíritu protector del agua para poder pasar.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "niles-canyon-ghost",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "348f918f484efb3eff13a9d8c2e5e0dcde821b7cc7bffff4705d0deaada2794e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "niles-canyon-ghost-c01",
@@ -924,26 +1936,101 @@
           "quote": "the ghost is said to walk the road on that day every year, looking to hitch a ride to San Francisco.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c03",
+          "source_id": "niles-canyon-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another version describes the ghost as a White Lady killed in a carriage accident a hundred years earlier.",
+          "statement_id": "Versi lain menggambarkan hantu itu sebagai White Lady (Wanita Putih) yang tewas dalam kecelakaan kereta kuda seratus tahun sebelumnya.",
+          "quote": "Another version of the story has the ghost described as a White Lady killed in a carriage accident a hundred years previously.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c04",
+          "source_id": "niles-canyon-ghost-s2",
+          "host": "www.ttownmedia.com",
+          "statement": "The story that appears in the Tri-Valley Herald every few years credits Billy Rose with an actual encounter with the ghost.",
+          "statement_id": "Kisah yang muncul di Tri-Valley Herald setiap beberapa tahun menyebut Billy Rose sebagai orang yang benar-benar pernah berjumpa dengan hantu itu.",
+          "quote": "The story that shows up in the Tri-Valley Herald every few years credits Billy Rose, a close friend of our family’s who had an actual encounter with the ghost.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c05",
+          "source_id": "niles-canyon-ghost-s2",
+          "host": "www.ttownmedia.com",
+          "statement": "Billy and a friend, unaware of the legend, saw a girl in white hitchhiking; they let her in, and she insisted on sitting in the back seat, directing them to an address in San Francisco.",
+          "statement_id": "Billy dan seorang temannya, yang tidak tahu legenda itu, melihat gadis berpakaian putih mencari tumpangan; mereka mengajaknya naik, dan ia bersikeras duduk di kursi belakang sambil memberi arah ke sebuah alamat di San Francisco.",
+          "quote": "Billy and a friend, not knowing the legend, saw a girl in white trying to hitch a ride. According to their story, they let her in and she insisted in riding in the back seat, giving them the directions to an address in San Francisco.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c06",
+          "source_id": "niles-canyon-ghost-s2",
+          "host": "www.ttownmedia.com",
+          "statement": "When the toll keeper handed back a nickel, Billy turned to point to the passenger in the back and found the back seat empty.",
+          "statement_id": "Saat penjaga gerbang tol mengembalikan uang lima sen, Billy menoleh untuk menunjuk penumpang di belakang dan mendapati kursi belakang kosong.",
+          "quote": "When the tollkeeper handed a nickel back to Billy, he turns to point to the passenger in the back only to find the back seat empty.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c07",
+          "source_id": "niles-canyon-ghost-s2",
+          "host": "www.ttownmedia.com",
+          "statement": "At the address, the woman who answered said it was her daughter, whose car ran off the road in Niles Canyon 20 years earlier on her way back from a dance.",
+          "statement_id": "Di alamat itu, perempuan yang membuka pintu berkata bahwa gadis itu putrinya, yang 20 tahun sebelumnya tewas ketika mobilnya keluar jalan di Niles Canyon sepulang dari pesta dansa.",
+          "quote": "When they knock on the door, the woman who answers tells them, “That was my daughter. She was on her way back from a dance 20 years ago when her car ran off the road in Niles Canyon.”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c08",
+          "source_id": "niles-canyon-ghost-s2",
+          "host": "www.ttownmedia.com",
+          "statement": "In another incident, some people driving into Sunol claimed they had seen the ghost girl walking across the railway trestle.",
+          "statement_id": "Dalam kejadian lain, beberapa orang yang berkendara ke Sunol mengaku melihat gadis hantu itu berjalan di atas jembatan rel.",
+          "quote": "This one is some people who drove into Sunol claiming they had seen the ghost girl walking across the bridge trestle.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c09",
+          "source_id": "niles-canyon-ghost-s2",
+          "host": "www.ttownmedia.com",
+          "statement": "The columnist states that the \"ghost girl\" in that incident was in fact his Uncle Clarence.",
+          "statement_id": "Penulis kolom itu menyatakan bahwa \"gadis hantu\" dalam kejadian tersebut sebenarnya pamannya, Clarence.",
+          "quote": "I know the story’s true because the ghost girl was my Uncle Clarence.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "niles-canyon-ghost-c10",
+          "source_id": "niles-canyon-ghost-s3",
+          "host": "web.archive.org",
+          "statement": "Niles Canyon is also where the Bay Area's version of the Woman in White ghost story appears, as a woman supposedly killed in a carriage accident almost 100 years ago.",
+          "statement_id": "Niles Canyon juga menjadi tempat versi Bay Area dari kisah hantu Woman in White, berupa perempuan yang konon tewas dalam kecelakaan kereta kuda hampir 100 tahun lalu.",
+          "quote": "This is also where the Bay Area's version of the classic Woman in White ghost story manifests in the form of a woman supposedly killed in a carriage accident almost 100 years ago.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "okeus",
-      "file": "batch-149-fix-1.md",
+      "file": "batch-149-fix-3.md",
+      "entry_sha256": "b386a260f18686e3cfca8bba7258044cb3e85fac2cbaa1d8673ed3738b0c4077",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "okeus-c01",
@@ -974,13 +2061,114 @@
           "quote": "Oki could be protective or punishing depending on whether harmony with the natural and spiritual world was maintained",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "okeus-c04",
+          "source_id": "okeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Strachey described Okeus (an anglicised form of oki) as a kind of \"devil\" worshipped to avoid his wrath, contrasting him with a supposedly benevolent being called Ahone.",
+          "statement_id": "Strachey menggambarkan Okeus (bentuk Inggris dari oki) sebagai semacam \"iblis\" yang disembah agar murkanya terhindar, dan mempertentangkannya dengan makhluk yang konon baik bernama Ahone.",
+          "quote": "Strachey described Okeus (an Anglicized rendering of oki) as a kind of \"devil\" worshipped to avoid his wrath, contrasting him with a supposedly benevolent being called Ahone.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c05",
+          "source_id": "okeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Scholars such as Helen C. Rountree and Ives Goddard have argued that these were gross oversimplifications and projections of Christian dualism.",
+          "statement_id": "Para sarjana seperti Helen C. Rountree dan Ives Goddard berpendapat bahwa gambaran itu merupakan penyederhanaan kasar dan proyeksi dualisme Kristen.",
+          "quote": "Scholars such as Helen C. Rountree and Ives Goddard have argued that these were gross oversimplifications and projections of Christian dualism.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c06",
+          "source_id": "okeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Offerings to oki were common, especially before crossing rivers, entering forests or harvesting from the land.",
+          "statement_id": "Persembahan kepada oki lazim dilakukan, terutama sebelum menyeberangi sungai, memasuki hutan, atau memanen hasil bumi.",
+          "quote": "Offerings to oki were common, particularly before crossing rivers, entering forests, or harvesting from the land.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c07",
+          "source_id": "okeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The early Jamestown chroniclers, including William Strachey and John Smith, often misunderstood or mischaracterised indigenous beliefs.",
+          "statement_id": "Para penulis kronik awal Jamestown, termasuk William Strachey dan John Smith, sering salah memahami atau salah menggambarkan kepercayaan pribumi.",
+          "quote": "The early Jamestown chroniclers, including William Strachey and John Smith, often misunderstood or mischaracterized indigenous beliefs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c08",
+          "source_id": "okeus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to John Smith's colonial account, the chief god they worshipped was \"the Devil\", whom they called Okee and served more out of fear than love.",
+          "statement_id": "Menurut catatan kolonial John Smith, dewa utama yang mereka sembah adalah \"Iblis\" yang mereka sebut Okee, dan mereka melayaninya lebih karena takut daripada cinta.",
+          "quote": "But their chiefe God they worship is the Devill. Him they call ... Okee, and serve him more of feare then love.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c09",
+          "source_id": "okeus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In their temples they kept a carved image of him, painted, adorned with copper chains and beads, and covered with a skin.",
+          "statement_id": "Di kuil-kuil mereka terdapat arca Okee yang diukir, dicat, dihiasi rantai tembaga dan manik-manik, lalu ditutupi kulit.",
+          "quote": "In their Temples they have his image evill favouredly carved, and then painted and adorned with chaines of copper, and beads, and covered with a skin",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c10",
+          "source_id": "okeus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "When passing the principal temple by river, they solemnly cast copper, white beads or pocones into the river for fear their Okee would be offended and take revenge.",
+          "statement_id": "Saat melewati kuil utama di Uttamussack melalui sungai, mereka melemparkan tembaga, manik-manik putih, atau pocones ke sungai karena takut Okee tersinggung dan membalas dendam.",
+          "quote": "they solemnly cast some peece of copper, white beads, or Pocones into the river, for feare their Okee should be offended and revenged of them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c11",
+          "source_id": "okeus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Their principal temple was at Uttamussack in Pamaunkee.",
+          "statement_id": "Kuil utama mereka berada di Uttamussack, di Pamaunkee.",
+          "quote": "Their principall Temple or place of superstition is at Uttamussack at Pamaunkee",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c12",
+          "source_id": "okeus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to the account, if a certain ceremony were omitted, Okee and the other quiyoughcosughes (their other gods) would give them no deer, turkeys, corn or fish.",
+          "statement_id": "Menurut catatan itu, jika upacara tertentu dilalaikan, Okee dan para quiyoughcosughes (dewa-dewa lain) tidak akan memberi mereka rusa, kalkun, jagung, maupun ikan.",
+          "quote": "if they should omit it, their Okee or Devill, and all their other Quiyoughcosughes, which are their other Gods, would let them have no Deere, Turkies, Corne, nor fish",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "okeus-c13",
+          "source_id": "okeus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "On one occasion warriors advanced with their Okee carried before them, an idol made of skins stuffed with moss, painted and hung with chains and copper.",
+          "statement_id": "Dalam satu peristiwa, para pejuang Powhatan maju sambil membawa Okee mereka di depan, berupa berhala dari kulit berisi lumut yang dicat dan digantungi rantai serta tembaga.",
+          "quote": "with their Okee (which was an Idoll made of skinnes, stuffed with mosse, all painted and hung with chaines and copper) borne before them",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "old-book",
-      "file": "batch-149.md",
+      "file": "batch-149-fix-4.md",
+      "entry_sha256": "82278923ef62d0a1f78c746cc180e0028668cee22c57f2e1ccf3a2ace66d5e96",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1009,9 +2197,9 @@
           "id": "old-book-c02",
           "source_id": "old-book-s1",
           "host": "en.wikipedia.org",
-          "statement": "Old Book worked as a gravedigger at Peoria State Hospital and reportedly leaned against an old elm tree weeping for the dead.",
-          "statement_id": "Old Book bekerja sebagai penggali kubur di Peoria State Hospital dan dikisahkan bersandar pada pohon elm tua sambil menangisi jenazah.",
-          "quote": "The well-liked Old Book worked as a gravedigger during his time at Peoria State Hospital. It is said that following burial services for deceased patients he would lean against an old elm tree and weep for the dead.",
+          "statement": "Old Book was a well-liked patient who worked as a gravedigger at Peoria State Hospital; after each burial he was said to lean against an old elm tree and weep for the dead.",
+          "statement_id": "Old Book adalah pasien yang disukai dan bekerja sebagai penggali kubur selama berada di Peoria State Hospital; setelah setiap pemakaman ia dikisahkan bersandar pada pohon elm tua dan menangisi orang yang meninggal.",
+          "quote": "\"Old Book\" was a well-liked patient who worked as a gravedigger during his time at Peoria State Hospital. After each burial service, he was said to lean against an old elm tree and weep for the dead.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1021,6 +2209,7 @@
     {
       "slug": "old-scratch",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "29c2824256ec5a983b49282fab5fd206fcfa1317df8a1f4f485dbde8915e1ba8",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1061,6 +2250,7 @@
     {
       "slug": "pai-do-mato",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "fd150cf2d04d3b0695de73e5b45e577361534d982d5891d7559363e0dc73bf10",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -1091,6 +2281,7 @@
     {
       "slug": "palatine-light",
       "file": "batch-149.md",
+      "entry_sha256": "eed2d5d4efbd91a47684f20af5765a7f2db51459ffad8cd65cd743200c8e9add",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1131,6 +2322,7 @@
     {
       "slug": "pend-oreille-paddler",
       "file": "batch-149.md",
+      "entry_sha256": "b794fecf9a4fbb30e18db5954da4c391b30b5071c0c68507a979b652e57f8009",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1171,6 +2363,7 @@
     {
       "slug": "qudlivun",
       "file": "batch-149.md",
+      "entry_sha256": "da2b2738a98325e2071afff2c15cec8c175ec1f0819d96134341b587fc42dce6",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1211,6 +2404,7 @@
     {
       "slug": "red-lady-of-huntingdon-college",
       "file": "batch-149.md",
+      "entry_sha256": "7892157f029367d7a163a074a3bf9534a1f615088f43e192ff80f27f679273a8",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1251,6 +2445,7 @@
     {
       "slug": "sachayoj-mythology",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "7e17eeacd4c0f3d9e1941a86cffa9245989fdca9b8757bbc5f0a7a2d5c924123",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1291,6 +2486,7 @@
     {
       "slug": "serpiente-cola-negra",
       "file": "batch-149.md",
+      "entry_sha256": "ebdf767e3696b02078982498876d6806c2f69f4360aa4f73a96bbf3719ebff78",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1341,6 +2537,7 @@
     {
       "slug": "sisiutl",
       "file": "batch-149.md",
+      "entry_sha256": "fd832f9f965b52a02cdf582363ea2715cad3b4a5cf6277228ff16e4f33b9f2be",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1391,6 +2588,7 @@
     {
       "slug": "slag-pile-annie",
       "file": "batch-149.md",
+      "entry_sha256": "83b7ea048df71c4010d61287f893c2c594df8ec13063ef1b172ae3a4e8639139",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1431,6 +2629,7 @@
     {
       "slug": "spearfinger",
       "file": "batch-149.md",
+      "entry_sha256": "fcf9f5cf8a73c4cbc9aee603517f7405e89a44b59b4c33a6d526e8030cf088f0",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1481,6 +2680,7 @@
     {
       "slug": "tailypo",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "a28ab2b44036c76b4cc82cb86fb7e3587c57ec0cb9d740d662be55418ba53f2b",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1531,6 +2731,7 @@
     {
       "slug": "tapire-iauara",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "8405c92fb3ae5b324aa74f1add857687d2ef662d01f3c23dfdbd55d3b7105b22",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1581,6 +2782,7 @@
     {
       "slug": "teiniagua",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "188839f0029583f5c70174fd5e2fe2a702c6846342bb0242e0f32530b0afb6db",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1621,6 +2823,7 @@
     {
       "slug": "the-gray-man-ghost",
       "file": "batch-149.md",
+      "entry_sha256": "a1596787a0e84760e82c3532fe32207db89b4ade6eced39bcdfcb2dce0fdd378",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1661,6 +2864,7 @@
     {
       "slug": "utah-lake-monster",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "8137285fb821076426fee1c4591870e826f34b10f37113e90dd87cabd781fa1c",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1701,6 +2905,7 @@
     {
       "slug": "walgren-lake-monster",
       "file": "batch-149.md",
+      "entry_sha256": "438578882d44e2b196978b395392c2e63ede8c9f8dc7837b1617213a3e8d21e1",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1741,6 +2946,7 @@
     {
       "slug": "wechuge",
       "file": "batch-149.md",
+      "entry_sha256": "353b2c5966b5211a4f71e74b6111998793f2490c8590d9f981cb564a7f757a6a",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1781,6 +2987,7 @@
     {
       "slug": "winalagalis",
       "file": "batch-149.md",
+      "entry_sha256": "98127b1aaf213c836d46b8b1ec0d2652a0fc21e767ce8b583ca0ce526491e9f7",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1831,6 +3038,7 @@
     {
       "slug": "wirapuru",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "0f009388c4cbdb768e7232cbb9110e948ee6ff8d529aa1de4aa80b399cbb88c5",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1871,6 +3079,7 @@
     {
       "slug": "yei-tso",
       "file": "batch-149-fix-1.md",
+      "entry_sha256": "6536689c4ecc823763ded5287c85a17d6c3f6718702a71a43d067114b3c7d79e",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
