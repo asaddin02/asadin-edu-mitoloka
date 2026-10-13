@@ -8,7 +8,7 @@ on:
       mode:
         description: inspect; attach a domain to a Pages project; redirects (301 from <project>.pages.dev and www); or landing (publish asaddin02/asadinedu to asadinedu.com)
         type: choice
-        options: [inspect, attach, redirects, landing]
+        options: [inspect, attach, redirects, landing, no-analytics]
         default: inspect
       project:
         description: Pages project (attach only), for example mitoloka
@@ -84,6 +84,8 @@ jobs:
             source_url: "\(.).pages.dev/", target_url: "https://\(.).asadinedu.com/", status_code: 301,
             include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }}))
             + [{redirect: { source_url: "www.asadinedu.com/", target_url: "https://asadinedu.com/", status_code: 301,
+            include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }},
+               {redirect: { source_url: "asadinedu.pages.dev/", target_url: "https://asadinedu.com/", status_code: 301,
             include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }}]')
           curl -sS -X PUT -H "$auth" -H 'Content-Type: application/json' "$acct/rules/lists/$lid/items" --data "$items" \
             | tee /dev/stderr | jq -e '.success' > /dev/null
@@ -111,4 +113,14 @@ jobs:
                 --data "$(jq -nc --arg n "$host" '{type: "CNAME", name: $n, content: "asadinedu.pages.dev", proxied: true, ttl: 1}')" \
                 | jq -c '{dns: "'"$host"'", success, errors: [.errors[]?.message]}'
             fi
+          done
+      - name: Turn off Cloudflare Web Analytics injection (the sites promise no analytics)
+        if: inputs.mode == 'no-analytics'
+        run: |
+          api=https://api.cloudflare.com/client/v4
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          list=$(curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info/list?per_page=50")
+          echo "$list" | jq -c '{success, errors: [.errors[]?.message], sites: [.result[]? | {site_tag, host: .ruleset.zone_name, auto_install}]}'
+          for tag in $(echo "$list" | jq -r '.result[]? | select(.ruleset.zone_name == env.ZONE_NAME) | .site_tag'); do
+            curl -sS -X DELETE -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info/$tag" | jq -c '{deleted: "'"$tag"'", success, errors: [.errors[]?.message]}'
           done
