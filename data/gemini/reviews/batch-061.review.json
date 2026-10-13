@@ -1,30 +1,27 @@
 {
   "batch_id": "batch-061",
-  "checked_at": "2026-10-01T10:10:03.403Z",
+  "checked_at": "2026-10-13T20:14:39.925Z",
   "files": [
     "batch-061.md",
     "batch-061-fix-1.md",
-    "batch-061-fix-2.md"
+    "batch-061-fix-2.md",
+    "batch-061-fix-3.md",
+    "batch-061-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "haguro-gongen",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "d4473182392f30425be4a87687783a2fd9dd537abf31cdc14aea40380a797d10",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "haguro-gongen-c01",
@@ -55,26 +52,51 @@
           "quote": "慶應4年（1868）の「神仏判然令」によって権現号が禁止され、仏像は廃棄されるか、末寺などに移された。手向の黄金堂にある仏像はその名残である。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "haguro-gongen-c04",
+          "source_id": "haguro-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to tradition, Prince Hachiko (蜂子皇子), third son of Emperor Sushun (崇峻天皇), was guided by a three-legged crow and opened Mount Haguro after receiving a miraculous sign of Shō Kannon at Akoya; in the medieval period its manifested deity came to be called Haguro-san Daigongen.",
+          "statement_id": "Menurut tradisi, Pangeran Hachiko (蜂子皇子), putra ketiga Kaisar Sushun (崇峻天皇), dituntun burung gagak berkaki tiga dan membuka Gunung Haguro setelah mendapat mukjizat Shō Kannon di Akoya; pada Abad Pertengahan dewa jelmaannya disebut Haguro-san Daigongen.",
+          "quote": "崇峻天皇の第三王子である蜂子皇子が三本足の霊烏に導かれ、羽黒山の阿古谷で聖観音菩薩の霊験を得て開山したとされる。中世にはその垂迹神が羽黒山大権現と呼ばれるようになった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haguro-gongen-c05",
+          "source_id": "haguro-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Under the intendant Ten'yū and the protection of the Edo shogunate, the three gongen (Haguro-san, Gassan and Yudono-san Daigongen) flourished as the chief guardians of the 33 eastern provinces, a counterpart to the Kumano Sansho Gongen of the west.",
+          "statement_id": "Pada masa kepala kuil Ten'yū, di bawah perlindungan keshogunan Edo, tiga gongen (Haguro-san, Gassan, dan Yudono-san Daigongen) berjaya sebagai pelindung utama 33 provinsi timur, sebagai padanan Kumano Sansho Gongen di barat.",
+          "quote": "天宥別当の時に、東叡山寛永寺直末となり、江戸幕府の庇護の下で、西国の熊野三所権現に対する東国三十三ヶ国総鎮守の三所権現（羽黒山大権現・月山大権現・湯殿山大権現）として、宗教的にも経済的にも隆盛を極めた。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "haguro-gongen-c06",
+          "source_id": "haguro-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "The Haguro school (羽黒派) is a branch of Shugendō, the yamabushi who served Haguro Gongen (Ideha Shrine/出羽神社) on Mount Haguro in Uzen province (Yamagata).",
+          "statement_id": "Aliran Haguro (羽黒派) adalah cabang Shugendō, yaitu para yamabushi yang melayani Haguro Gongen (Kuil Ideha/出羽神社) di Gunung Haguro, provinsi Uzen (Yamagata).",
+          "quote": "修験道の一派。羽前国（山形県）羽黒山の羽黒権現（出羽(いでは)神社）に奉仕した山伏の一派。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hakone-gongen",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "2aca31bf58e31570a20344484d53c54493b5b009936695d721c6eaf24997d667",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hakone-gongen-c01",
@@ -115,26 +137,51 @@
           "quote": "伝承では、万巻は神託に基づいて、箱根権現を祀る社殿（現在の箱根神社）を建立したほか、地元の人々を悩ませていた九頭龍を鎮め、龍を祀る社（九頭龍神社）も建立したとされる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hakone-gongen-c05",
+          "source_id": "hakone-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Hakone Gongen is the popular name of Hakone Shrine (箱根神社) and its former Buddhist-style name, used before the separation of Shinto and Buddhism in Meiji 1 (1868).",
+          "statement_id": "Hakone Gongen adalah nama populer Kuil Hakone (箱根神社) sekaligus nama lamanya dalam istilah Buddha, yang dipakai sebelum pemisahan Shinto dan Buddha pada tahun Meiji 1 (1868).",
+          "quote": "箱根神社の俗称、また、仏語による旧称。明治元年（一八六八）の神仏分離以前に用いられた。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hakone-gongen-c06",
+          "source_id": "hakone-gongen-s3",
+          "host": "kotobank.jp",
+          "statement": "The Hakone Gongen cult is said to have been opened by Mangan (万巻) between the late Nara and early Heian periods (757 according to the Hakonesan Engi); after the intendant Gyōjitsu aided Minamoto no Yoritomo following his defeat at Ishibashiyama, Yoritomo revered it deeply, and together with Izusan Gongen it was called Nisho Gongen, visited by the shogunate throughout the Kamakura period.",
+          "statement_id": "Pemujaan Hakone Gongen konon dibuka oleh Mangan (万巻) antara akhir zaman Nara dan awal Heian (757 menurut Hakonesan Engi); sejak kepala kuil Gyōjitsu membantu Minamoto no Yoritomo setelah kekalahan di Ishibashiyama, Yoritomo sangat memujanya, dan bersama Izusan Gongen ia disebut Nisho Gongen, yang diziarahi keshogunan sepanjang zaman Kamakura.",
+          "quote": "箱根権現は，万巻（まんがん）上人によって奈良時代末から平安初期(《箱根山縁起》によれば757年)にかけて開かれたといい，石橋山敗戦の折に別当行実（ぎようじつ）が援助して以来，源頼朝の尊崇はあつく，当社に特別の保護を加えて，伊豆山権現( 伊豆山神社 )とともに〈二所権現〉と称し，鎌倉時代を通じて幕府は二所詣･二所奉幣を行った。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hakone-gongen-c07",
+          "source_id": "hakone-gongen-s3",
+          "host": "kotobank.jp",
+          "statement": "The pair is also called Ryōsho Gongen; in the Kamakura period the shogunal house was devoted to it, and the Nisho-mōde pilgrimage to both shrines in the first month became a regular annual event.",
+          "statement_id": "Pasangan dewa ini juga disebut Ryōsho Gongen; pada zaman Kamakura keluarga shogun sangat memujanya, dan ziarah Nisho-mōde ke kedua kuil pada bulan pertama menjadi acara tahunan.",
+          "quote": "両所権現とも称される。鎌倉期に将軍家の信仰があつく、正月に両社に参詣する二所詣は恒例行事として行われた。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hakusan-gongen",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "d0b43691b768acb391c35b03444286654bf796880fe90926e5f0364f773cb0e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hakusan-gongen-c01",
@@ -175,26 +222,41 @@
           "quote": "白山頂上本社と白山寺白山本宮は本地と垂迹の関係で、神道としては白山権現は伊弉冊尊であり、両神が即ち白山比咩神（しらやまひめのかみ）であった。しかし、1480年（文明12年）白山寺白山本宮が加賀一向一揆の攻撃で焼失して三ノ宮に移転して同座したが、吉田神道の『大日本国一宮記』に「白山比咩神社、下社（本宮）伊弉冊尊、上社（三ノ宮）菊理媛、号白山権現」と記されたため、この記載にある上社を移転先の三ノ宮ではなく白山頂上本社と誤認して、菊理媛神を白山比咩神や白山権現とする異説が流布し始めるに至った。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hakusan-gongen-c05",
+          "source_id": "hakusan-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Near Iwaya-ji (岩屋寺) in Ehime, Hakusan Gongen is worshipped on top of a rock peak: pilgrims enter from the 逼割岩 rock, climb chains up the rock among old cedars, and then a ladder of 21 rungs.",
+          "statement_id": "Di kawasan Kuil Iwaya-ji (岩屋寺), Ehime, Hakusan Gongen dipuja di puncak tebing batu: peziarah masuk dari batu 逼割岩, memanjat rantai di puncak batu di antara pohon sugi tua, lalu menaiki tangga 21 anak tangga.",
+          "quote": "愛媛県：上浮穴郡 美川村 七鳥村 岩屋寺 白山権現 逼割岩から入り、老杉中に聳立する巌峰に掛る鎖を攀じて巌頭に登ると、さらに二一級の梯子があり、その上に白山権現を祀る。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hakusan-gongen-c06",
+          "source_id": "hakusan-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to local tradition, Hakusan Gongen in the form of an old man and a hermit (sennin) were husband and wife; the old man was 21 when he climbed, and the number of ladder rungs derives from this.",
+          "statement_id": "Menurut cerita setempat, Hakusan Gongen yang berwujud orang tua dan seorang pertapa (sennin) adalah suami-istri; usia si orang tua saat mendaki adalah 21 tahun, dan jumlah anak tangga diambil dari angka itu.",
+          "quote": "白山権現の翁と仙人とは夫婦で、翁の登山の時の年齢は二一、梯子の数はこれにちなむという。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hayasasurahime",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "5a96d4918de1d39779d3b5a31a256635058bd8481a8d52795b50c54ae95012c0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hayasasurahime-c01",
@@ -245,26 +307,41 @@
           "quote": "Some theories further associate Hayasasurahime with Kazaketsuwakenooshio no kami , while still others suggest that the three kami of Sumiyoshi ( Uwazutsunoo, Nakazutsunoo, Sokozutsunoo ) should be included with the haraedo no kami .",
           "context": "scholarly-interpretation",
           "status": "loose"
+        },
+        {
+          "id": "hayasasurahime-c06",
+          "source_id": "hayasasurahime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The haraedo no kami are the four kami named in the Ōharae no norito for the Great Purification on the last day of the sixth month, namely Seoritsuhime, Hayaakitsuhime, Ibukidonushi and Hayasasurahime.",
+          "statement_id": "Haraedo no kami adalah empat dewa yang disebut namanya dalam Ōharae no norito untuk Penyucian Agung pada hari terakhir bulan keenam, yaitu Seoritsuhime, Hayaakitsuhime, Ibukidonushi, dan Hayasasurahime.",
+          "quote": "The haraedo no kami refers to the four kami mentioned by name in the Ōharae no norito for the Great Purification observed on the last day of the sixth month, namely Seoritsuhime, Hayaakitsuhime, Ibukidonushi, and Hayasasurahime.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hayasasurahime-c07",
+          "source_id": "hayasasurahime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Most theories suggest the four are the same kami produced by Izanagi during his purification at Awagihara.",
+          "statement_id": "Sebagian besar teori menganggap keempat dewa itu sama dengan dewa-dewa yang dilahirkan Izanagi ketika menyucikan diri di Awagihara.",
+          "quote": "Most theories suggest the four are the same kami produced by Izanagi during his purification at Awagihara.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hikawa-hime",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "d4e70ae8f537b1431e32f6bbc5e95ec9f6d6064aeb803b7a3cdfda9f6f7630c6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hikawa-hime-c01",
@@ -285,26 +362,61 @@
           "quote": "『古事記』にのみ登場する神で、水神である淤加美神の娘。 「日」はヒと読み、「霊」「氷」「檜」などの借訓、「河」は正訓で河川の意、「命」がないのは巫女性を表すと解し、名義は「霊的な川に奉仕する巫女」とする説や、「氷川」と同じかとして諸国の氷川神社と関連づける説がある。また親神の淤加美神や、子孫の深淵之水夜礼花神・淤美豆奴神と同じく、水にまつわる神と考えられている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "hikawa-hime-c03",
+          "source_id": "hikawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Hikawahime appears in the genealogy of Susanoo; she is the daughter of Okami (Okami-no-kami) and with Fuwanomojikunusunu (Fuwanomojikunusunu-no-kami) bore Fukabuchi-no-mizuyarehana (Fukabuchi-no-mizuyarehana-no-kami).",
+          "statement_id": "Hikawahime muncul dalam silsilah Susanoo; ia putri Okami (Okami-no-kami) dan bersama Fuwanomojikunusunu (Fuwanomojikunusunu-no-kami) melahirkan Fukabuchi-no-mizuyarehana (Fukabuchi-no-mizuyarehana-no-kami).",
+          "quote": "須佐之男命の系譜中に見える。淤迦美神の娘で、布波能母遅久奴須奴神との間に深淵之水夜礼花神を生んだ。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hikawa-hime-c04",
+          "source_id": "hikawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Most deities in this genealogy do not appear in other texts and their deeds are not told in the Kojiki, so their significance and relationships are hard to establish.",
+          "statement_id": "Sebagian besar dewa dalam silsilah ini tidak muncul di teks lain dan perbuatannya tidak diceritakan dalam Kojiki, sehingga makna dan hubungan masing-masing sulit dipastikan.",
+          "quote": "系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hikawa-hime-c05",
+          "source_id": "hikawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "One theory holds that the character \"日\" in Hikawahime's name is read \"hi\" as a phonetic loan for \"spirit\", \"ice\" or \"cypress\", while \"河\" means river.",
+          "statement_id": "Menurut satu pendapat, aksara \"日\" dalam nama Hikawahime dibaca \"hi\" sebagai pinjaman bunyi untuk \"roh\", \"es\", atau \"hinoki\", sedangkan \"河\" berarti sungai.",
+          "quote": "日河比売の名義について、「日」字はヒと読み、「霊」「氷」「檜」などの借訓とする説があり、「河」字は、正訓で河川の意とする説がある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hikawa-hime-c06",
+          "source_id": "hikawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The genealogies of Susanoo and of Ōkuninushi in the Izumo myths of the Kojiki are said to have originally been one continuous record.",
+          "statement_id": "Silsilah Susanoo dan silsilah Ōkuninushi dalam mitos Izumo di Kojiki konon semula merupakan satu catatan yang bersambung.",
+          "quote": "『古事記』の出雲神話中に記された須佐之男命の系譜と大国主神の系譜は、もとは一つに連続した記事だったといわれる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hikokamiwake-no-mikoto",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "7a4f20d9063313ca6f39b04de098155b775d96b4bfbb10e4e13b5f3d8e3a0a8d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hikokamiwake-no-mikoto-c01",
@@ -345,13 +457,34 @@
           "quote": "建御名方神が八坂刀売神を娶って生んだ子で、御子神に庭津女神、馬背神、八須良雄命、知努命、沙南豆良姫命（一説に佐那都良雄命）、武彦根命がいる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "hikokamiwake-no-mikoto-c05",
+          "source_id": "hikokamiwake-no-mikoto-s2",
+          "host": "kotobank.jp",
+          "statement": "The Takeminakatatomi-no-mikoto-hikokamiwake Shrine at Jōyama, Nagano, enshrines Takeminakatatomi and Hikokamiwake; it was founded within the grounds of Zenkō-ji (善光寺), received an imperial rite together with Suwa Taisha in Jitō 5 (691), was later absorbed by Zenkō-ji as the Toshigami-dō (年神堂), and was moved to its present site in Meiji 12 (1879).",
+          "statement_id": "Kuil Takeminakatatomi-no-mikoto-hikokamiwake di Jōyama, Nagano, memuja Takeminakatatomi dan Hikokamiwake; kuil ini didirikan di kawasan Zenkō-ji (善光寺), menerima upacara kekaisaran bersama Suwa Taisha pada tahun Jitō 5 (691), kemudian diserap Zenkō-ji sebagai Toshigami-dō (年神堂), dan dipindahkan ke lokasinya sekarang pada Meiji 12 (1879).",
+          "quote": "長野市長野城山にある神社。旧県社。祭神は健御名方富命、彦神別命。上古、現在の善光寺境内に創立。持統天皇五年（六九一）諏訪大社とともに勅祭が行なわれたが、のち善光寺に吸収されて年神堂として存続、明治一二年（一八七九）現在地に遷座。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hikokamiwake-no-mikoto-c06",
+          "source_id": "hikokamiwake-no-mikoto-s2",
+          "host": "kotobank.jp",
+          "statement": "The Suwa Daimyōjin Ekotoba (諏方大明神画詞), compiled in Enbun 1 (1356), states that the Toshigami-dō enshrines Takeminakatatomi-no-mikoto-hikokamiwake-no-mikoto and equates the Minochi deity (水内神) of the Jitō 5 record with the Toshigami-dō.",
+          "statement_id": "Suwa Daimyōjin Ekotoba (諏方大明神画詞) yang disusun pada tahun Enbun 1 (1356) menyatakan bahwa Toshigami-dō memuja Takeminakatatomi-no-mikoto-hikokamiwake-no-mikoto dan menyamakan dewa Minochi (水内神) dalam catatan tahun Jitō 5 dengan Toshigami-dō.",
+          "quote": "延文元年（一三五六）になった「諏方大明神画詞」の当社別宮事に、 ... と記し、年神堂は健御名方富命彦神別命を祀ると説き、かつ持統天皇五年八月、「遣使者祭竜田風神、信濃須波・水内等神」とある水内神を年神堂に擬している。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hikosachi-no-mikoto",
-      "file": "batch-061-fix-1.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "09325041c82109c5b6f8c5e0dc18971e0833582d341e69b3503cf0269f44c243",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -404,8 +537,8 @@
           "id": "hikosachi-no-mikoto-c05",
           "source_id": "hikosachi-no-mikoto-s2",
           "host": "www.kokugakuin.ac.jp",
-          "statement": "He and Taoki Hōi build Amaterasu’s auspicious palace in the Imibe tradition.",
-          "statement_id": "Ia bersama Taoki Hōi membangun istana suci Amaterasu dalam tradisi Imibe.",
+          "statement": "According to the tradition of the Inbe (Imibe) clan, under the direction of Futodama, he and Taoki Hōi built the Zuiden, the auspicious palace for Amaterasu.",
+          "statement_id": "Menurut tradisi klan Inbe (Imibe), di bawah arahan Futodama, ia bersama Taoki Hōi membangun Zuiden, istana suci untuk Amaterasu.",
           "quote": "This is a repeat succession, as transmitted down from the Inbe 忌部 clan themselves, for which it was recorded that under the direction of Futodama no Kami 太玉神, Taoki Hōi and Hikosashri constructed the Zuiden 瑞殿 (lit. “Auspicious Palace”) for Amaterasu.",
           "context": "traditional-belief",
           "status": "exact"
@@ -414,9 +547,9 @@
           "id": "hikosachi-no-mikoto-c06",
           "source_id": "hikosachi-no-mikoto-s2",
           "host": "www.kokugakuin.ac.jp",
-          "statement": "Futodama directs their divine construction work.",
-          "statement_id": "Futodama mengarahkan pekerjaan pembangunan ilahi mereka.",
-          "quote": "This is a repeat succession, as transmitted down from the Inbe 忌部 clan themselves, for which it was recorded that under the direction of Futodama no Kami 太玉神, Taoki Hōi and Hikosashri constructed the Zuiden 瑞殿 (lit. “Auspicious Palace”) for Amaterasu.",
+          "statement": "The Kogo Shūi records Ame no Tomi leading the descendants of Taoki Hōi and Hikosashiri in building the Kashiwara Palace for Jinmu Tennō.",
+          "statement_id": "Kogo Shūi mencatat Ame no Tomi memimpin keturunan Taoki Hōi dan Hikosashiri membangun Istana Kashiwara untuk Jinmu Tennō.",
+          "quote": "If we look at the Kogo Shūi 古語拾遺, there is a record of Ame no Tomi no Mikoto 天富命, leading the descendents of Taoki Hōi 手置帆負 and Hikosashiri 彦狭知, and constructing the Kashiwara Palace 橿原宮 for Jinmu Tennō 神武天皇.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -440,24 +573,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "f9e404d0b9e878230c0329995769c781950a65c10f3e729560e66969dd5cd71e"
     },
     {
       "slug": "hinateri-nukada-bichio-ikochini-no-kami",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "330d5c7b87bc004acc0343faaaf6bfc7ec4846a501da203c98ce5e80c33a1e4c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hinateri-nukada-bichio-ikochini-no-kami-c01",
@@ -496,6 +625,46 @@
           "statement": "The latter portion is interpreted as a vigorous spirit symbolizing flourishing rice.",
           "statement_id": "Bagian akhir ditafsirkan sebagai roh kuat yang melambangkan padi subur.",
           "quote": "次に「伊許知邇」の「伊許」は「厳（いか）」で、「いこよか」の語もあるように、勢いの盛んなさまで、ここでは「稲の繁茂」の表象、「知」は「神霊」、「邇」は人につく親称と解する。これが娘神の名。 上記から名義は「日が照る、額田辺の道を父にもつ、勢いの盛んな精霊」と考えられる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hinateri-nukada-bichio-ikochini-no-kami-c05",
+          "source_id": "hinateri-nukada-bichio-ikochini-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "With Torinarumi (Torinarumi-no-kami) this goddess bore Kunioshitomi (Kunioshitomi-no-kami); the genealogies of Susanoo and Ōkuninushi (大国主神) in the Kojiki are said to have originally been one continuous record.",
+          "statement_id": "Bersama Torinarumi (Torinarumi-no-kami) dewi ini melahirkan Kunioshitomi (Kunioshitomi-no-kami); silsilah Susanoo dan silsilah Ōkuninushi (大国主神) dalam Kojiki konon semula satu catatan yang bersambung.",
+          "quote": "鳥鳴海神との間に国忍富神を生んだ。 諸説 　『古事記』の出雲神話中に記された須佐之男命の系譜と大国主神の系譜は、もとは一つに連続した記事だったといわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hinateri-nukada-bichio-ikochini-no-kami-c06",
+          "source_id": "hinateri-nukada-bichio-ikochini-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because her name is longer than those of other deities and contains the element \"male\" although she is a goddess, a strong view holds that the written form contains an error.",
+          "statement_id": "Karena namanya lebih panjang daripada dewa lain dan memuat unsur \"laki-laki\" padahal ia dewi, banyak yang berpendapat penulisannya mengandung kesalahan.",
+          "quote": "日名照額田毘道男伊許知邇神は、他の神に比べて名前が長く、また、女神であるはずが「男」とつく所に不審があることから、表記に誤りがあるとする見方が強い。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hinateri-nukada-bichio-ikochini-no-kami-c07",
+          "source_id": "hinateri-nukada-bichio-ikochini-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The element \"Hinateru\" is understood as the shining of the sun, the opposite of \"hinakumori\" (clouded sun) in the Man'yōshū (万葉集).",
+          "statement_id": "Unsur \"Hinateru\" dipahami sebagai matahari yang bersinar terang, lawan dari \"hinakumori\" (matahari tertutup awan) dalam Man'yōshū (万葉集).",
+          "quote": "「日名照」はヒナテル（日な照る）で、ヒナクモリ（日な曇り。『万葉集』巻20・4407）に対する、日の照り輝く意とされる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hinateri-nukada-bichio-ikochini-no-kami-c08",
+          "source_id": "hinateri-nukada-bichio-ikochini-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "\"Nukata\" is interpreted either as a place-name or as a good square rice field, while \"bichio\" is read as a vigorous man or as a man of the road leading to Nukata.",
+          "statement_id": "\"Nukata\" ditafsirkan sebagai nama tempat atau sawah persegi yang baik, sedangkan \"bichio\" ditafsirkan sebagai laki-laki yang bersemangat atau laki-laki di jalan menuju Nukata.",
+          "quote": "「額田」は、地名とする説や、額のような四角い田のことで、良田を指すとする説がある。「毘道男」は元気のよい男という説や、「辺道男」の意で額田辺へ行く道の男の意とする説がある。",
           "context": "etymology",
           "status": "exact"
         }
@@ -582,7 +751,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "48526a1c9bc9a866fd87d125ad387de8ab1ef565ce989dace2a467cecf1b37f5"
     },
     {
       "slug": "ibukidonushi",
@@ -656,24 +826,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f51c78c0b78de452159750a2a7a757bcf986be6f4daeb88aecaf9a7e69f3f54c"
     },
     {
       "slug": "ihika",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "bac89f4766ffe97136922b5b41c61f2b567448fa9cf56546d22204cf9d48a8ed",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ihika-c01",
@@ -714,26 +880,61 @@
           "quote": "ここでいう井とは後世でいうような地中を掘った井戸ではなく、川岸に桁（木を井の字形に組んだもの）を出したものとみられ、「井氷鹿が井から出て来た」とは、「川から上がって来た」といった意味と考えられる（『記』の場合、「光る川」という意味になる）。 尾については臀部に何かをぶら下げていたとも解釈されている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "ihika-c05",
+          "source_id": "ihika-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "\"Wi\" means well and \"hika\" means shining; the deity's name comes from its emergence from a shining well.",
+          "statement_id": "\"Wi\" berarti sumur dan \"hika\" berarti bercahaya; nama dewa ini berasal dari kemunculannya dari sumur yang bercahaya.",
+          "quote": "ヰは「井戸」、ヒカは「光る」の意で、光る井戸から出てきたことが神名の由来となっている。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ihika-c06",
+          "source_id": "ihika-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Since almost all of its names relate to abundant water, Ihika has a strong character as a water deity; its depiction as a goddess in the Shinsen Shōjiroku (新撰姓氏録) is linked to female productive power, since water is the source of plant growth.",
+          "statement_id": "Karena hampir semua namanya berkaitan dengan air yang melimpah, Ihika memiliki sifat yang kuat sebagai dewa air; penggambarannya sebagai dewi dalam Shinsen Shōjiroku (新撰姓氏録) dikaitkan dengan daya produktif perempuan, karena air adalah sumber pertumbuhan tanaman.",
+          "quote": "ほとんどの神名が豊富な水にかかわる名義をもっているように、井光鹿は水神としての性格が濃厚である。『新撰姓氏録』で女性神とされることも、水が植物の生産の根源であるところから、女性の生産力と結びついたものとされる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ihika-c07",
+          "source_id": "ihika-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because both the Kojiki and Nihon Shoki (記紀) describe Ihika as tailed and light-emitting, one theory sees it as a half-human, half-animal being.",
+          "statement_id": "Karena Kojiki dan Nihon Shoki (記紀) sama-sama menyebut Ihika berekor dan memancarkan cahaya, satu pendapat memandangnya sebagai makhluk setengah manusia setengah hewan.",
+          "quote": "記紀ともに井氷鹿は尾を生やしていたとされ、そこに動物説話的な性質を読みとり、他方では光を放つという神秘性を併せもつとして、井光鹿を半人半獣的な存在と捉える説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ihika-c08",
+          "source_id": "ihika-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The tail is also interpreted as a custom of wearing animal skins at the waist, and one theory explains the shining well through the mercury deposits of Yoshino.",
+          "statement_id": "Ekor itu juga ditafsirkan sebagai kebiasaan mengenakan kulit binatang di pinggang, dan sumur yang bercahaya dijelaskan oleh satu pendapat melalui endapan raksa (merkuri) di Yoshino.",
+          "quote": "ただし尾は腰に獣皮等を纏う習俗を表現したものともされ、また井戸が光っていたことについても、吉野に存在する水銀鉱床とのかかわりから理解する説もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "iiyorihiko",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-3.md",
+      "entry_sha256": "e30929da18798ef6a0a56599cea42b3ebaf37719596b21e8e31436f4b7fab77a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "iiyorihiko-c01",
@@ -774,26 +975,61 @@
           "quote": "仁和4年12月15日、従五位下から従五位上に神階を昇る。 讃岐国の国魂神とされる。鵜足郡の飯野山の飯神社(現香川県丸亀市）に祀られている。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "iiyorihiko-c05",
+          "source_id": "iiyorihiko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The island of Iyo-no-futana, the second island born of Izanagi (Izanagi-no-kami) and Izanami (Izanami-no-kami), has one body with four faces: Iyo is called Ehime, Sanuki is called Iiyorihiko, Awa is called Ōgetsuhime, and Tosa is called Takeyoriwake.",
+          "statement_id": "Pulau Iyo-no-futana, pulau kedua yang dilahirkan Izanagi (Izanagi-no-kami) dan Izanami (Izanami-no-kami), memiliki satu tubuh dengan empat wajah: Iyo disebut Ehime, Sanuki disebut Iiyorihiko, Awa disebut Ōgetsuhime, dan Tosa disebut Takeyoriwake.",
+          "quote": "伊耶那岐神・伊耶那美神が生んだ大八島国の第二の島、伊予之二名島は、身一つに面が四つあり、その四つのうち、伊予国を愛比売といい、讃岐国を飯依比古、阿波国を大宜都比売、土佐国を建依別という。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "iiyorihiko-c06",
+          "source_id": "iiyorihiko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because of the element \"ii\" (cooked rice), the name is thought to relate to food; \"hiko\" means male, and one theory reads \"yori\" as \"possessed by\", giving the meaning of a man possessed by the spirit of rice.",
+          "statement_id": "Karena unsur \"ii\" (nasi), nama ini dianggap berkaitan dengan makanan; \"hiko\" berarti laki-laki, dan satu pendapat membaca \"yori\" sebagai \"dirasuki\", sehingga namanya berarti laki-laki yang dirasuki roh nasi.",
+          "quote": "名義は、「飯」の語から、食物に関係のある名と考えられる。「比古」は男性。「依」を依り憑く意とみて、飯の霊が依り憑く男性の意とする説がある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "iiyorihiko-c07",
+          "source_id": "iiyorihiko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Ii Shrine enshrines Iiyorihiko-no-mikoto together with Sukunahikona (Sukunahikona-no-mikoto) in a shared sanctuary; one theory identifies him with the deity of the Kojiki and sees him as the spirit of the province of Sanuki.",
+          "statement_id": "Kuil Ii memuja Iiyorihiko-no-mikoto bersama Sukunahikona (Sukunahikona-no-mikoto) di ruang pendamping; satu pendapat menyamakannya dengan dewa dalam Kojiki dan memandangnya sebagai roh negeri Sanuki.",
+          "quote": "その祭神には、飯依比古命と、相殿の少彦名命を祀っているが、飯依比古命を『古事記』と同神とし、その神格を讃岐国の国魂とみる説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "iiyorihiko-c08",
+          "source_id": "iiyorihiko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because the Harima Fudoki only names a \"rice deity\" (飯の神), another theory holds that this deity was originally distinct from Iiyorihiko.",
+          "statement_id": "Karena Harima Fudoki hanya menyebut \"dewa nasi\" (飯の神), ada pula pendapat bahwa dewa itu semula berbeda dari Iiyorihiko.",
+          "quote": "「飯の神」とあるだけなので、もともと飯依比古とは別神とする説もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "isurugi-gongen",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "23d8b8992cffd564c6b43d37cedf231d9e8bb95247c95575177f23ca2eddfcc5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "isurugi-gongen-c01",
@@ -834,16 +1070,37 @@
           "quote": "明治維新の際の神仏分離令による廃仏毀釈によって、修験道に基づく石動権現は廃された。明治3年（1870年）、真言宗の石動山天平寺も廃寺に追い込まれ、伊須流岐比古神社（石川県）に強制的に改組された。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "isurugi-gongen-c05",
+          "source_id": "isurugi-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "The Shintōshū (神道集) of around the 14th–15th centuries contains a honji tale portraying Isurugi Gongen of Noto province in two bodies, male (with Kokūzō as honji) and female (with Nyoirin Kannon as honji); its virtue is giving healing medicines to the sick, and seven princes (ōji) of seven shrines are linked to the blessings of the seven Yakushi Buddhas.",
+          "statement_id": "Shintōshū (神道集) dari sekitar abad ke-14–15 memuat kisah honji yang menggambarkan Isurugi Gongen di provinsi Noto dalam dua wujud, laki-laki (dengan Kokūzō sebagai honji) dan perempuan (dengan Nyoirin Kannon sebagai honji); kebajikannya adalah memberi obat penyembuh kepada orang sakit, dan tujuh pangeran (ōji) dari tujuh kuil dikaitkan dengan berkah tujuh Buddha Yakushi.",
+          "quote": "一四―一五世紀頃成立の「神道集」は、能登国石動権現を男女両体（男体は本地虚空蔵菩薩、女体は本地如意輪観音）とする本地説話を載せ、権現の功徳を病衆に平癒の薬種を与えたこととし、ほかに七社の王子として七仏薬師の利益を説いている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isurugi-gongen-c06",
+          "source_id": "isurugi-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Mount Isurugi absorbed various beliefs, beginning with Hakusan worship, and in the medieval period formed the Gosha Gongen (five-shrine gongen); the belief spread widely along the Sea of Japan coast, perhaps because the mountain served as a landmark (yamaate) for ships on the Sea of Japan.",
+          "statement_id": "Gunung Isurugi menyerap berbagai kepercayaan, termasuk pemujaan Hakusan, dan pada Abad Pertengahan membentuk Gosha Gongen (lima kuil gongen); kepercayaan itu tersebar luas di sisi Laut Jepang, mungkin karena gunung itu menjadi penanda arah (yamaate) bagi kapal di Laut Jepang.",
+          "quote": "石動山は白山信仰をはじめ各種の信仰を取り入れ，中世には五社権現を成立させた。その信仰は日本海側の各地に広く伝播しているが，これは石動山が日本海を航行する船のヤマアテとなっていることとも関係があろう。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "itsuhayahime-no-mikoto",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "85b295c9afd07d0a3858ef1bcd1cfe2fc19498dcd4055e5c955ae64a39e96679",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -851,7 +1108,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -894,26 +1151,31 @@
           "quote": "建御名方神と八坂刀売神との間に生まれた二十二柱（異説有り）の御子神の一柱伊豆速男命が、洩矢神の娘多満留姫を娶って生んだ神。可毛羽神、若木比売神、草奈井比売神、佐和恵多良六老彦神等の兄妹がいる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "itsuhayahime-no-mikoto-c05",
+          "source_id": "itsuhayahime-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Shūho Suwa-shi Keizu (修補諏訪氏系図) concludes that, since \"Itsuhaya\" and \"Ijihaya\" correspond in sound, they are truly the same deity; because Amenokagoyama guarded the land of Koshi and Izuhayao administered the bordering land of Shinano, the marriage is called a naturally formed bond.",
+          "statement_id": "Shūho Suwa-shi Keizu (修補諏訪氏系図) menyimpulkan bahwa karena bunyi \"Itsuhaya\" dan \"Ijihaya\" bersesuaian, keduanya sungguh dewa yang sama; karena Amenokagoyama menjaga negeri Koshi dan Izuhayao mengelola Shinano yang saling berbatasan, pernikahan itu dianggap ikatan yang terjalin secara alami.",
+          "quote": "これについて『修補諏訪氏系図』では「（前略）按伊都速、伊自波夜、音訓相通ズ真ニ同神ナルベシ、而シテ天香語山命ハ越ノ国ヲ鎮護シ出速雄命ハ信濃国ヲ経営ス其ノ境相接スル等ノ縁由ヲ以テ其ノ婚約ヲ結合セシニヤ、自然投合ノ契約ト云フベシ」と結論づけている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "iwaoshiwaku-no-ko",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "f7644de397b64b8cdd44d004920a8c931f6fffb74ad301f73a9999939bf1a1d4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "iwaoshiwaku-no-ko-c01",
@@ -954,16 +1216,47 @@
           "quote": "この神が尾を生やしていると表現されることについて、獣皮の尻当てをした穴居住民の描写とする説や、国つ神を動物や自然に近いものとする神話的な分類法に基づいた説、あるいは未開の地に住まう者を異形として描いたものとする説などがある。また、岩を押し分けて出てきたという描写については、吉野の山神に奉仕する地中から出現した神人と解する説もある。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "iwaoshiwaku-no-ko-c05",
+          "source_id": "iwaoshiwaku-no-ko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Nihon Shoki (書紀) writes the name as \"磐排別之子\" and indicates the reading \"oshiwaku\" for \"排別\" with the phonetic characters 飫時和句.",
+          "statement_id": "Nihon Shoki (書紀) menuliskannya \"磐排別之子\" dan menunjukkan bacaan \"oshiwaku\" untuk \"排別\" dengan aksara bunyi 飫時和句.",
+          "quote": "書紀は「磐排別之子」に作り、「排別」の読みを「飫時和句（おしわく）」と示している。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "iwaoshiwaku-no-ko-c06",
+          "source_id": "iwaoshiwaku-no-ko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Kuzu are thought to have originally been natives of Yoshino; the account in the Jinmu chapter is regarded as the ancestral legend of that group, telling the origin of their submission to royal authority.",
+          "statement_id": "Kaum Kuzu semula dianggap penduduk asli Yoshino; kisah dalam bagian Jinmu dipandang sebagai legenda leluhur kaum itu yang menceritakan asal-usul ketundukan mereka kepada kekuasaan istana.",
+          "quote": "本来は吉野の土着民であったとされるが、神武記の記述は、その一族の始祖伝承であり、王権に服属した起源を物語る意義を持っていると見なされる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "iwaoshiwaku-no-ko-c07",
+          "source_id": "iwaoshiwaku-no-ko-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Shinsen Shōjiroku (新撰姓氏録) names the ancestor of the Kuzu as Iwaho-oshiwaku-no-kami (石穂押別神) with a story like that of the Kojiki and Nihon Shoki, adding that the name Kuzu was bestowed when Emperor Jinmu (神武天皇) met him.",
+          "statement_id": "Shinsen Shōjiroku (新撰姓氏録) menyebut leluhur kaum Kuzu sebagai Iwaho-oshiwaku-no-kami (石穂押別神) dengan kisah serupa Kojiki dan Nihon Shoki, dan menambahkan bahwa nama Kuzu dianugerahkan ketika Kaisar Jinmu (神武天皇) bertemu dengannya.",
+          "quote": "『新撰姓氏録』大和国神別には、国栖について、石穂押別神（いはほおしわくのかみ）を祖とし、記紀と同様の話を載せるが、神武天皇が出会った際に国栖の名を賜ったといい、",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "izuhayao-no-mikoto",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "d05a8314b9137644e07448b163ebe88a50c8a7dfc9a90e68a49c068e4acc0c79",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -971,7 +1264,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1014,26 +1307,41 @@
           "quote": "また武居氏（下社の社家）の家伝によると、父神の寵愛を受けた出早雄神は弟の意岐萩神（ここでは武居氏の祖先とされる）から諏訪の地を譲り授けられ、意岐萩神とともにそこに鎮座した。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "izuhayao-no-mikoto-c05",
+          "source_id": "izuhayao-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "His name is also written Izuhayao-no-kami (出早雄神), 出速雄命, 伊豆速男神, 伊豆早雄命, 伊豆速雄命, 出早命 and 出早神.",
+          "statement_id": "Namanya juga ditulis Izuhayao-no-kami (出早雄神), 出速雄命, 伊豆速男神, 伊豆早雄命, 伊豆速雄命, 出早命, dan 出早神.",
+          "quote": "出早雄神（いずはやおのかみ）、出速雄命、伊豆速男神、伊豆早雄命、伊豆速雄命、出早命、出早神とも書く。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "izuhayao-no-mikoto-c06",
+          "source_id": "izuhayao-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Moriya family genealogy Jinchō Moriya-shi Keifu (神長守矢氏系譜, early Meiji) says he married Tamaruhime, daughter of Moriya-no-kami (洩矢神); he is generally regarded as the ancestral deity of the Suwa clan, who held the office of ōhōri at the Kamisha.",
+          "statement_id": "Silsilah keluarga Moriya, Jinchō Moriya-shi Keifu (神長守矢氏系譜, awal Meiji), menyebut ia menikahi Tamaruhime, putri Moriya-no-kami (洩矢神); ia umumnya dianggap dewa leluhur klan Suwa yang menjabat ōhōri di Kamisha.",
+          "quote": "諏訪上社社家・守矢氏の家系図『神長守矢氏系譜』（明治初期成立）では洩矢神の娘・多満留姫を娶ったとされている。一般に上社の大祝職を務めた諏訪氏（また洲羽国造）の祖神とされる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "izusan-gongen",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "d5277d1ef7fd67ccce5925a7404034246da369d73830d98b3033af9ad34daed0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "izusan-gongen-c01",
@@ -1074,26 +1382,51 @@
           "quote": "そのほか、応神天皇の時代に日金山頂上に現れた円鏡を松葉仙人が奉祀したのが走湯権現の始まりともされており、木生仙人・金地仙人・蘭脱仙人が続いて現れた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "izusan-gongen-c05",
+          "source_id": "izusan-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "The Homusubi-no-mikoto Shrine (火牟須比命神社) of the Engishiki (延喜式) is thought to be this shrine, which venerated the miraculous power of the hot springs; from the medieval period the deity was called Izusan Gongen or Sōtōzan Gongen, and together with Hakone Shrine was called Nisho Gongen and deeply revered by Minamoto no Yoritomo (源頼朝).",
+          "statement_id": "Kuil Homusubi-no-mikoto (火牟須比命神社) dalam Engishiki (延喜式) diduga adalah kuil ini, yang memuja daya ajaib mata air panas; sejak Abad Pertengahan dewa ini disebut Izusan Gongen atau Sōtōzan Gongen, dan bersama Kuil Hakone disebut Nisho Gongen serta sangat dipuja Minamoto no Yoritomo (源頼朝).",
+          "quote": "《延喜式》に見える〈火牟須比命神社〉が，当社のことと思われるが，温泉の霊験をまつったものといえる。中世以降は，伊豆山権現とも走湯山（そうとうさん）権現とも呼ばれた。また 箱根神社 とともに二所権現と称され，源頼朝の篤い崇敬が寄せられた。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "izusan-gongen-c06",
+          "source_id": "izusan-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Izusan Shrine at Izusan, Atami, Shizuoka, was also called Izusan Gongen, Sōtō Gongen, or Sōtōzan for short; the Shingon (真言宗) temple Hannya-in served as its administering temple (bettō-ji).",
+          "statement_id": "Kuil Izusan di Izusan, Atami, Shizuoka, juga disebut Izusan Gongen, Sōtō Gongen, atau singkatnya Sōtōzan; kuil Buddha Hannya-in dari sekte Shingon (真言宗) adalah kuil pengelolanya (bettō-ji).",
+          "quote": "静岡県熱海市伊豆山に鎮座する 伊豆山神社 の古名に由来する名称で，伊豆山神社は伊豆山権現，走湯権現，略して走湯山ともいった。真言宗般若院は同社の別当寺である。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "izusan-gongen-c07",
+          "source_id": "izusan-gongen-s3",
+          "host": "kotobank.jp",
+          "statement": "The Izusan and Hakone pair is also called Ryōsho Gongen; in the Kamakura period the shogunal house was devoted to it, and the Nisho-mōde pilgrimage to both shrines in the first month became a regular annual event.",
+          "statement_id": "Pasangan dewa Izusan dan Hakone juga disebut Ryōsho Gongen; pada zaman Kamakura keluarga shogun sangat memujanya, dan ziarah Nisho-mōde ke kedua kuil pada bulan pertama menjadi acara tahunan.",
+          "quote": "両所権現とも称される。鎌倉期に将軍家の信仰があつく、正月に両社に参詣する二所詣は恒例行事として行われた。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "jao-gongen",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "af91ebc4856d622e54c0245f9ce8682fae3c3d5d8751800155ab67b75922fa5f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jao-gongen-c01",
@@ -1134,26 +1467,51 @@
           "quote": "鹿児島県の姶良では、「御池の主」として蛇王権現が祀られており、池の大蛇に生贄がささげられていたが、その大蛇を住吉大神が退治したという伝説を伴っている。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jao-gongen-c05",
+          "source_id": "jao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Edo period, the title Jaō Gongen was used in various places when snakes were granted divine rank; the Jaō Gongen shrine at Nagai, Hanaizumi (岩手県花泉町永井), is said to have begun with the worship of a snake's spirit after a family that killed a great serpent suffered continued misfortune.",
+          "statement_id": "Pada zaman Edo, gelar Jaō Gongen dipakai di berbagai tempat ketika ular diberi kedudukan ilahi; kuil Jaō Gongen di Nagai, Hanaizumi (岩手県花泉町永井), konon bermula dari pemujaan roh ular setelah keluarga yang membunuh seekor ular besar terus ditimpa kemalangan.",
+          "quote": "江戸時代には、各地でヘビに対して神位が与えられる際にも称号として蛇王権現が用いられている。岩手県花泉町永井の蛇王権現社は、大蛇を殺した後に家の者に不幸がつづいたため、蛇の霊を祀ったのがはじまりだとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jao-gongen-c06",
+          "source_id": "jao-gongen-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A 1921 report from Kokufu, Tokushima, records a deity 蛇王大明神 in a thicket that became very popular for granting wishes; there was no shrine building, only banners and an offering box.",
+          "statement_id": "Sebuah laporan tahun 1921 dari Kokufu, Tokushima, mencatat dewa 蛇王大明神 di semak belukar yang sangat populer karena dipercaya mengabulkan permohonan; tidak ada kuil kecil, hanya panji dan kotak persembahan.",
+          "quote": "藪林の中に蛇王大明神があって願い事がかなうといい非常にはやった。祠はなく、幟を立てて賽銭箱を置いただけのもの。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jao-gongen-c07",
+          "source_id": "jao-gongen-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The cult began when a bamboo cutter saw the tail of a great serpent, fled and told the villagers; the police later banned visits, and Hebiō-sama (蛇王様) was abolished.",
+          "statement_id": "Pemujaan itu bermula dari seorang penebang bambu yang melihat ekor ular besar lalu lari dan memberi tahu penduduk desa; kantor polisi kemudian melarang ziarah, dan Hebiō-sama (蛇王様) pun dihapuskan.",
+          "quote": "竹伐の男が大蛇の尾を見て逃げ帰り村民に伝えたのが始まりという。警察署が参詣を禁じ、蛇王様も廃されてしまった。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kajiga-baba",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "b0969d886505b276e14ddbc3f67a844b08710e1f41c23a61c0d8150b1a4c98e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kajiga-baba-c01",
@@ -1193,6 +1551,46 @@
           "statement_id": "Wujud iblisnya adalah serigala putih besar yang memakai mangkuk besi di kepala.",
           "quote": "In ihrer dämonischen Gestalt soll die Hexe als riesiger, weißer Wolf mit eiserner Schüssel auf dem Kopf erscheinen.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kajiga-baba-c05",
+          "source_id": "kajiga-baba-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Kajiga Kaka or Kajiga Baba (鍛冶が嬶, 鍛冶が媼) is a tale handed down in Muroto, Kōchi Prefecture (高知県室戸市).",
+          "statement_id": "Kajiga Kaka atau Kajiga Baba (鍛冶が嬶, 鍛冶が媼) adalah kisah yang diwariskan di Muroto, prefektur Kōchi (高知県室戸市).",
+          "quote": "鍛冶が嬶、鍛冶が媼（かじがかか、かじがばば）は、高知県室戸市に伝わる説話。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kajiga-baba-c06",
+          "source_id": "kajiga-baba-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In the tale, the wolves call for \"the blacksmith's wife of Sakihama\" (佐喜浜); then an especially large wolf covered in white fur and wearing a pot appears and attacks a courier (飛脚).",
+          "statement_id": "Dalam kisah itu, kawanan serigala berseru agar \"istri pandai besi dari Sakihama\" (佐喜浜) dipanggil; lalu muncul serigala yang jauh lebih besar, berbulu putih dan memakai panci di kepala, dan menyerang seorang kurir (飛脚).",
+          "quote": "その内にオオカミたちは「佐喜浜の鍛冶嬶を呼べ」と言い出した。しばらくすると、白毛に覆われた一際大きいオオカミが鍋をかぶった姿で現れ、飛脚に襲い掛かった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kajiga-baba-c07",
+          "source_id": "kajiga-baba-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The courier entered the blacksmith's house and cut down the sleeping wife; the one in the wife's form was the white-furred wolf, and under the floor lay many human bones, including those of the real wife.",
+          "statement_id": "Kurir itu masuk ke rumah pandai besi dan menebas istri yang sedang tidur; ternyata yang berwujud istri itu adalah serigala berbulu putih tadi, dan di bawah lantai berserakan banyak tulang manusia, termasuk tulang istri yang asli.",
+          "quote": "飛脚は屋内に入り込み、中で寝ていた嬶を斬り倒した。嬶の姿をしていたのはあの白毛のオオカミであり、床下には多くの人骨、そして本物の嬶の骨も転がっていたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kajiga-baba-c08",
+          "source_id": "kajiga-baba-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Edo-period collection of strange tales Ehon Hyaku Monogatari (絵本百物語), the story titled \"Kajiga Kaka\" tells of the spirit of a woman eaten by a wolf possessing a wolf and attacking people.",
+          "statement_id": "Dalam kumpulan kisah aneh zaman Edo, Ehon Hyaku Monogatari (絵本百物語), cerita berjudul \"Kajiga Kaka\" mengisahkan roh perempuan yang dimakan serigala merasuki serigala dan menyerang orang.",
+          "quote": "江戸時代の奇談集『絵本百物語』では「鍛冶が嬶」と題し、オオカミに食い殺された女の霊がオオカミに憑いて人を襲う話となっており",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1270,14 +1668,16 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1a10c88f733ebbe28692b3bd2936ffaf401a7dff2e9739c852ccd8052c1305de"
     },
     {
       "slug": "kanatsubute",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "2e122fff6cf5747ddd554bd8b7b3fd84757a1a30aebac136019d06156a5604da",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 7,
         "sources": 1,
         "images": 0
       },
@@ -1285,7 +1685,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1328,26 +1728,51 @@
           "quote": "りょうせんは山へと逃げはじめるが、俊宗が三代に渡って受け継いできた神通の鏑矢を射放つと7日7夜に渡ってりょうせんを追い続け、りょうせんはついに降伏する。りょうせんを捕縛した俊宗は都へと凱旋して御門に閲覧し、りょうせんは船岡山で処刑されることとなった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kanatsubute-c05",
+          "source_id": "kanatsubute-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "When the Hōbutsushū tale was absorbed into the otogizōshi Suzuka no Sōshi and Tamura no Sōshi, this supernatural thrower of metal stones appears under names such as Konzō and Ryōsen.",
+          "statement_id": "Ketika kisah dalam Hōbutsushū diserap ke dalam otogizōshi Suzuka no Sōshi dan Tamura no Sōshi, makhluk gaib pelempar batu logam ini muncul dengan nama seperti Konzō dan Ryōsen.",
+          "quote": "『宝物集』で記された金礫の説話が御伽草子『鈴鹿の草子』『田村の草子』などの田村語りに採り入れられると、金礫を打つこの化生の名前として、こんざう、りゃうせん（りょうせん）などがみえる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kanatsubute-c06",
+          "source_id": "kanatsubute-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Tamura no Sōshi, Ryōsen honed his skill at throwing metal stones for 500 years in China (唐土), 500 years in Goryeo (高麗国), 80 years in Japan and 3 years at Narasaka.",
+          "statement_id": "Menurut Tamura no Sōshi, Ryōsen mengasah kemahirannya melempar batu logam selama 500 tahun di Tiongkok (唐土), 500 tahun di Goryeo (高麗国), 80 tahun di Jepang, dan 3 tahun di Narasaka.",
+          "quote": "『田村の草子』では、りょうせんが金礫を打つ腕前は唐土にて500年、高麗国にて500年、日本で80年、奈良坂で3年かかって磨いたものであったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kanatsubute-c07",
+          "source_id": "kanatsubute-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "He used three metal stones named Tarō, Jirō and Saburō; Tarō was made of 600 ryō of gold and could shatter even a mountain used as a shield, while Saburō was made of 300 ryō of gold.",
+          "statement_id": "Ia memakai tiga batu logam bernama Tarō, Jirō, dan Saburō; Tarō dibuat dari 600 ryō emas dan mampu menghancurkan bahkan gunung yang dijadikan perisai, sedangkan Saburō dibuat dari 300 ryō emas.",
+          "quote": "また太郎礫、次郎礫、三郎礫という3つの金礫を使い、太郎礫は600両の金を使い山を盾にしようとも微塵に打ち崩してしまうほどの金の礫で、三郎礫は300両の金の礫である。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "karajishi",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "a7bf00b82b0e044b1ead031e426b4ef3f57e142246c2ce37340c7225364e6718",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "karajishi-c01",
@@ -1388,16 +1813,47 @@
           "quote": "仏教において獅子は、釈迦や文殊菩薩と関係する霊獣として扱われ、仏像の台座や仏教寺院の守護像などにも表された。 京都国立博物館は、仏教伝来とともに獅子像が日本へ伝わり、のちに神社や寺院の守護獣像として展開したと説明している。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "karajishi-c05",
+          "source_id": "karajishi-s2",
+          "host": "kotobank.jp",
+          "statement": "Karajishi is a lion decoratively stylised in art; the motif became especially popular from the Momoyama period and appears often on byōbu (folding screens), tsuitate (partitions) and fusuma paintings.",
+          "statement_id": "Karajishi adalah singa yang dihias dan distilisasi secara artistik; motif ini terutama populer sejak zaman Momoyama dan banyak muncul pada byōbu (layar lipat), tsuitate (sekat), dan lukisan fusuma.",
+          "quote": "獅子を美術的に装飾化・図案化したもの。特に、桃山時代から盛んになった。 屏風 びょうぶ ・ 衝立 ついたて ・ 襖絵 ふすまえ などに多い。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "karajishi-c06",
+          "source_id": "karajishi-s2",
+          "host": "kotobank.jp",
+          "statement": "The word also means lion: a foreign \"shishi\" (beast), distinguished from the wild boar (inoshishi) and deer (shishi) native to Japan.",
+          "statement_id": "Kata ini juga berarti singa: \"shishi\" (binatang) dari negeri asing, untuk membedakannya dari babi hutan (inoshishi) dan rusa (shishi) yang hidup di Jepang.",
+          "quote": "ライオン。獅子。日本に産する猪(いのしし)、鹿(しし)と区別して、外国産のしし（獣）の意。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "karajishi-c07",
+          "source_id": "karajishi-s2",
+          "host": "kotobank.jp",
+          "statement": "Karajishi is also the name of a family crest (mon) in the shape of a lion, attested in the ukiyo-zōshi Futokorosuzuri (懐硯) of 1687.",
+          "statement_id": "Karajishi juga nama lambang keluarga (mon) berbentuk singa, yang tercatat dalam ukiyo-zōshi Futokorosuzuri (懐硯) tahun 1687.",
+          "quote": "紋所の名。獅子の形の紋。 [初出の実例]「十七八なる若衆空色の小袖に唐鹿(カラシシ)の紋所」(出典：浮世草子・懐硯（1687）五)",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "katakurabe-no-mikoto",
-      "file": "batch-061.md",
+      "file": "batch-061-fix-4.md",
+      "entry_sha256": "48e7621ec0c60b499162a1d12a40e25cfc210b4ba8275f0199290edc8b2fcd66",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -1405,7 +1861,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1446,6 +1902,26 @@
           "statement": "His three child deities include Kodamahiko, whose marriage produces Yakushi.",
           "statement_id": "Tiga dewa anaknya mencakup Kodamahiko, yang pernikahannya menghasilkan Yakushi.",
           "quote": "建御名方神と八坂刀売神の子で、后神は不明だが児玉彦命、上津御玉神、下津御玉神の三柱の御子神がいる。 その内児玉彦命は、千鹿頭神の後を継いで祭政を執り、守達神の娘・美都多麻比売神を娶って八櫛神を生む。このため守矢氏の系図では児玉彦命を四代目に数えている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "katakurabe-no-mikoto-c05",
+          "source_id": "katakurabe-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The name is also written Katakurabe-no-kami and Katakurabe-no-mikoto (片倉辺尊); there is a similarly named deity, Mikurabe-no-mikoto (御倉辺命), but whether they are the same is unclear.",
+          "statement_id": "Namanya juga ditulis Katakurabe-no-kami dan Katakurabe-no-mikoto (片倉辺尊); ada dewa bernama mirip, Mikurabe-no-mikoto (御倉辺命), tetapi tidak jelas apakah keduanya dewa yang sama.",
+          "quote": "片倉辺神、片倉辺尊とも表記され、また類似した神名に御倉辺命（みくらべのみこと）がいるが、同一神かどうかは不明。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "katakurabe-no-mikoto-c06",
+          "source_id": "katakurabe-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "He is worshipped at, among others, the Wakamiko-sha of Maemiya, Suwa Taisha Kamisha (Miyagawa, Chino), Jūgosha Jinja at Toyohira, Chino, and the Wakamiya-sha of Akimiya, Suwa Taisha Shimosha (Shimosuwa).",
+          "statement_id": "Ia dipuja antara lain di Wakamiko-sha di Maemiya, Suwa Taisha Kamisha (Miyagawa, Chino), Jūgosha Jinja di Toyohira, Chino, dan Wakamiya-sha di Akimiya, Suwa Taisha Shimosha (Shimosuwa).",
+          "quote": "諏訪大社上社前宮 若御子社（長野県茅野市宮川） 十五社神社（長野県茅野市豊平） 諏訪大社下社秋宮 若宮社（長野県諏訪郡下諏訪町）",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -1524,7 +2000,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "80764b1d12c0a28915980367a1e13c96723edbc17eff21dd2012f8b3e5c24dd7"
     },
     {
       "slug": "kihisakamitakahiko",
@@ -1584,7 +2061,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3b83cf93bebbfc076b78b9cee07dd1f899cd25c23350e9e770b7d099bf98cb1f"
     },
     {
       "slug": "kihisatsumi",
@@ -1644,7 +2122,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b16472d9d43db81cecc6d027924c8c2f9e7d62ff2771fccfeb9b47ad3c43685"
     },
     {
       "slug": "kodamahiko-no-mikoto",
@@ -1694,7 +2173,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a6126718c26de15a31dfc43570e7c6d161b354f03756f7c74f9d0b33849599e6"
     },
     {
       "slug": "kokemusume",
@@ -1744,7 +2224,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c83ec3279c67e85435ca71c9b76936224e827f2b3bfa7eed1448f483d4483948"
     },
     {
       "slug": "kuninotoshimi-no-kami",
@@ -1794,7 +2275,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f30f00bae3c610649a5429287038cc7f6d13fec57d043f34d760d4dc517a8b1"
     },
     {
       "slug": "kuraokaminokami",
@@ -1868,7 +2350,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dabf7da7c24efad9c0abe6d2892f9b169390cf7099e6dc9b24b3294ab8961103"
     },
     {
       "slug": "kuruppa",
@@ -1887,7 +2370,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "4330969b56910cf2b22c61871b7d2d7c5f14db76189e01d914cdd00be5e09f14"
     },
     {
       "slug": "kushimachi-no-mikoto",
@@ -1947,7 +2431,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9c68fdd2a7318d4b54a34bcbdd665f7441008a7f817ead67999d581c04effe21"
     },
     {
       "slug": "kushimachi-no-mikoto-q98083023",
@@ -2007,7 +2492,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "534cd40690fe7f43f0e8fea9ba3b1449581c5f56a32f54be638bb97fe256be32"
     },
     {
       "slug": "kushiyatama",
@@ -2077,7 +2563,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "daf961cea887e442ba283046493c789b1d21bb2011690421e4e7b8cb029977bc"
     },
     {
       "slug": "matamatsukutamanomurahime",
@@ -2137,7 +2624,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c08ba2ab21ae1345092f457d80004465751ab1619df049a96c5e92fad5850f16"
     },
     {
       "slug": "mikashikiyahime",
@@ -2187,7 +2675,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ecf3f76e91f1d1487208666454c69377f587a4dd9461c4b70027d17ef84d1e21"
     },
     {
       "slug": "mimatsuhiko-irodo-no-mikoto",
@@ -2261,7 +2750,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0d5d035171471d2a91333bd5b9a4eaee7972f77bc35f1eeab4200ea0565a5ef9"
     },
     {
       "slug": "moritachi-no-kami",
@@ -2321,7 +2811,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ef9f1c817022ca94150a2d3310c853ee454ba2883cac448a292845598ff3c88c"
     },
     {
       "slug": "moritaku-no-kami",
@@ -2381,7 +2872,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0999f58da37c2a9a7e4a86b7c4f5f124c9fe357e0db8be5a37c58238d2e1476a"
     },
     {
       "slug": "munasukihime",
@@ -2441,7 +2933,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "64f560ed75e684ef00ce6c8c66806429a1ab5331a99056b4d4b2d9a939fed6ff"
     },
     {
       "slug": "nebiros",
@@ -2515,7 +3008,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "61afa192f38f1b664bb5e687a05cfa0cf76a569de8f6577367175561bea5c3a0"
     },
     {
       "slug": "nezu-gongen",
@@ -2575,7 +3069,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "292e2e880f74d8ed329303975407e34aba4d01ad17aa8e85b789864f6b64ac82"
     },
     {
       "slug": "niemotsu-no-ko",
@@ -2635,7 +3130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ed2f1c3eac4b0227954f139120dd617864a25ea8f3b01dfcee27606bf9eb9681"
     },
     {
       "slug": "onotehime",
@@ -2695,7 +3191,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "df9d6a3b463ff06f698ce663d0c20d8db8ee745810a2d31b462cf9a18c5b1c4e"
     },
     {
       "slug": "otakemaru",
@@ -2745,7 +3242,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b4314030d76e7565b6fe3c7cf912892bd7ad17e275668ccf3d502d71177bb70e"
     },
     {
       "slug": "sanki-daigongen",
@@ -2819,7 +3317,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a78fd0909efcd997cf7eb8552ab6fe918182159b136924b05c0b3a30309722a1"
     },
     {
       "slug": "sashikuni-wakahime",
@@ -2879,7 +3378,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "732c94b06c732059683fdbb4a4534ff85ab24eb85d703d77020cee189e6938d2"
     },
     {
       "slug": "satahiko",
@@ -2953,7 +3453,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c1f1413244cd861be6bff04ba456d58faadf8755638c1d3439394a4900973521"
     }
   ]
 }

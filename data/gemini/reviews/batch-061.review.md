@@ -1,27 +1,24 @@
 # Review batch-061
 
-Diperiksa 2026-10-01T10:10:03.403Z. Berkas: batch-061.md, batch-061-fix-1.md, batch-061-fix-2.md.
+Diperiksa 2026-10-13T20:14:39.925Z. Berkas: batch-061.md, batch-061-fix-1.md, batch-061-fix-2.md, batch-061-fix-3.md, batch-061-fix-4.md.
 
 ## haguro-gongen — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | haguro-gongen-c01 | exact | ja.wikipedia.org | Haguro Gongen is a syncretic deity of Mount Haguro, manifested as a trace of Shō Kannon. | 羽黒権現（はぐろごんげん）は出羽国羽黒山の山岳信仰と修験道に基づく神仏習合の神である。本地垂迹説に基づき聖観音菩薩を本地仏として「権」（かり）の姿で現れた垂迹神とされた。 |
 | haguro-gongen-c02 | exact | ja.wikipedia.org | Haguro, Gassan and Yudono form a mountain cult associated with Shugendō. | 羽黒山大権現・月山大権現・湯殿山大権現は古くは羽黒三山（あるいは羽州三山）と総称され、大峯山や彦山と並ぶ修験道の道場として栄えた。 |
 | haguro-gongen-c03 | exact | ja.wikipedia.org | The 1868 religious separation suppressed the Gongen title and displaced its Buddhist images. | 慶應4年（1868）の「神仏判然令」によって権現号が禁止され、仏像は廃棄されるか、末寺などに移された。手向の黄金堂にある仏像はその名残である。 |
+| haguro-gongen-c04 | exact | ja.wikipedia.org | According to tradition, Prince Hachiko (蜂子皇子), third son of Emperor Sushun (崇峻天皇), was guided by a three-legged crow and opened Mount Haguro after receiving a miraculous sign of Shō Kannon at Akoya; in the medieval period its manifested deity came to be called Haguro-san Daigongen. | 崇峻天皇の第三王子である蜂子皇子が三本足の霊烏に導かれ、羽黒山の阿古谷で聖観音菩薩の霊験を得て開山したとされる。中世にはその垂迹神が羽黒山大権現と呼ばれるようになった。 |
+| haguro-gongen-c05 | exact | ja.wikipedia.org | Under the intendant Ten'yū and the protection of the Edo shogunate, the three gongen (Haguro-san, Gassan and Yudono-san Daigongen) flourished as the chief guardians of the 33 eastern provinces, a counterpart to the Kumano Sansho Gongen of the west. | 天宥別当の時に、東叡山寛永寺直末となり、江戸幕府の庇護の下で、西国の熊野三所権現に対する東国三十三ヶ国総鎮守の三所権現（羽黒山大権現・月山大権現・湯殿山大権現）として、宗教的にも経済的にも隆盛を極めた。 |
+| haguro-gongen-c06 | exact | kotobank.jp | The Haguro school (羽黒派) is a branch of Shugendō, the yamabushi who served Haguro Gongen (Ideha Shrine/出羽神社) on Mount Haguro in Uzen province (Yamagata). | 修験道の一派。羽前国（山形県）羽黒山の羽黒権現（出羽(いでは)神社）に奉仕した山伏の一派。 |
 
 
 ## hakone-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -29,14 +26,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hakone-gongen-c02 | exact | ja.wikipedia.org | The cult’s names connect Hakone with Izusan and Mishima. | 箱根大権現、伊豆山神社と合わせて箱根二所権現、更に三嶋大社を合わせて箱根三所権現とも呼ばれた。 |
 | hakone-gongen-c03 | exact | ja.wikipedia.org | Mangan’s founding tradition identifies three forms corresponding to the Buddhist triad. | 天平宝字元年（757年）朝廷の命を受けて、万巻が箱根山の山岳信仰を束ねる目的で箱根山に入山し、神山や駒ケ岳で3年間修行して、三所権現（法躰・俗躰・女躰）を感得した。法躰は文殊菩薩の垂迹、俗躰は弥勒菩薩の垂迹、女躰は観世音菩薩の垂迹とされる。 |
 | hakone-gongen-c04 | exact | ja.wikipedia.org | Mangan is also said to pacify the local nine-headed dragon and establish its shrine. | 伝承では、万巻は神託に基づいて、箱根権現を祀る社殿（現在の箱根神社）を建立したほか、地元の人々を悩ませていた九頭龍を鎮め、龍を祀る社（九頭龍神社）も建立したとされる。 |
+| hakone-gongen-c05 | exact | kotobank.jp | Hakone Gongen is the popular name of Hakone Shrine (箱根神社) and its former Buddhist-style name, used before the separation of Shinto and Buddhism in Meiji 1 (1868). | 箱根神社の俗称、また、仏語による旧称。明治元年（一八六八）の神仏分離以前に用いられた。 |
+| hakone-gongen-c06 | exact | kotobank.jp | The Hakone Gongen cult is said to have been opened by Mangan (万巻) between the late Nara and early Heian periods (757 according to the Hakonesan Engi); after the intendant Gyōjitsu aided Minamoto no Yoritomo following his defeat at Ishibashiyama, Yoritomo revered it deeply, and together with Izusan Gongen it was called Nisho Gongen, visited by the shogunate throughout the Kamakura period. | 箱根権現は，万巻（まんがん）上人によって奈良時代末から平安初期(《箱根山縁起》によれば757年)にかけて開かれたといい，石橋山敗戦の折に別当行実（ぎようじつ）が援助して以来，源頼朝の尊崇はあつく，当社に特別の保護を加えて，伊豆山権現( 伊豆山神社 )とともに〈二所権現〉と称し，鎌倉時代を通じて幕府は二所詣･二所奉幣を行った。 |
+| hakone-gongen-c07 | exact | kotobank.jp | The pair is also called Ryōsho Gongen; in the Kamakura period the shogunal house was devoted to it, and the Nisho-mōde pilgrimage to both shrines in the first month became a regular annual event. | 両所権現とも称される。鎌倉期に将軍家の信仰があつく、正月に両社に参詣する二所詣は恒例行事として行われた。 |
 
 
 ## hakusan-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -44,14 +41,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hakusan-gongen-c02 | exact | ja.wikipedia.org | Taichō’s founding legend reveals a nine-headed dragon identifying itself with Izanami and Hakusan. | 717年（養老元年）修験者泰澄が加賀国（当時は越前国）白山の主峰、御前峰（ごぜんがみね）に登って瞑想していた時に、緑碧池（翠ヶ池）から十一面観音の垂迹である九頭龍王（くずりゅうおう）が出現して、自らを伊弉冊尊の化身で白山明神・妙理大菩薩と名乗って顕現したのが起源で、併せて白山修験場開創の由来と伝わる。 |
 | hakusan-gongen-c03 | exact | ja.wikipedia.org | Companion manifestations form the threefold Hakusan Gongen grouping. | 孤峰（別山）では聖観音菩薩の垂迹である宰官身の大行事権現が伊弉冊尊の神務輔佐の行事貫主として、大汝峰（おおなんじみね）では翁姿の大己貴命（大汝権現）が伊弉冊尊の神務輔弼として泰澄に顕われたと伝わり、泰澄に顕われた三神（白山妙理権現、大行事権現、大汝権現）を併せて白山三所権現と称する。 |
 | hakusan-gongen-c04 | exact | ja.wikipedia.org | Accounts differ between Izanami and a later Kukurihime identification of the mountain deity. | 白山頂上本社と白山寺白山本宮は本地と垂迹の関係で、神道としては白山権現は伊弉冊尊であり、両神が即ち白山比咩神（しらやまひめのかみ）であった。しかし、1480年（文明12年）白山寺白山本宮が加賀一向一揆の攻撃で焼失して三ノ宮に移転して同座したが、吉田神道の『大日本国一宮記』に「白山比咩神社、下社（本宮）伊弉冊尊、上社（三ノ宮）菊理媛、号白山権現」と記されたため、この記載にある上社を移転先の三ノ宮ではなく白山頂上本社と誤認して、菊理媛神を白山比咩神や白山権現とする異説が流布し始めるに至った。 |
+| hakusan-gongen-c05 | exact | kotobank.jp | Near Iwaya-ji (岩屋寺) in Ehime, Hakusan Gongen is worshipped on top of a rock peak: pilgrims enter from the 逼割岩 rock, climb chains up the rock among old cedars, and then a ladder of 21 rungs. | 愛媛県：上浮穴郡 美川村 七鳥村 岩屋寺 白山権現 逼割岩から入り、老杉中に聳立する巌峰に掛る鎖を攀じて巌頭に登ると、さらに二一級の梯子があり、その上に白山権現を祀る。 |
+| hakusan-gongen-c06 | exact | kotobank.jp | According to local tradition, Hakusan Gongen in the form of an old man and a hermit (sennin) were husband and wife; the old man was 21 when he climbed, and the number of ladder rungs derives from this. | 白山権現の翁と仙人とは夫婦で、翁の登山の時の年齢は二一、梯子の数はこれにちなむという。 |
 
 
 ## hayasasurahime — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 5, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -60,27 +56,27 @@ Klaim 5 (exact 3, loose 2), sumber 2, gambar 0.
 | hayasasurahime-c03 | exact | ja.wikipedia.org | Norinaga identifies her with Suserihime. | 江戸時代の国学者、本居宣長は、速佐須良比売神を須世理比売命と同一視した。 |
 | hayasasurahime-c04 | loose | d-museum.kokugakuin.ac.jp | The encyclopedia notes that these liturgical names are absent from Kojiki and Nihongi. | These four kami purify the Central Land from its imperfections ( tsumi ) and pollution ( kegare ), but since the four names are not found in the Kojiki and Nihongi , it is unclear what deities they might refer to in those two works. |
 | hayasasurahime-c05 | loose | d-museum.kokugakuin.ac.jp | Other theories associate Hayasasurahime with Kazaketsuwakenooshio. | Some theories further associate Hayasasurahime with Kazaketsuwakenooshio no kami , while still others suggest that the three kami of Sumiyoshi ( Uwazutsunoo, Nakazutsunoo, Sokozutsunoo ) should be included with the haraedo no kami . |
+| hayasasurahime-c06 | exact | d-museum.kokugakuin.ac.jp | The haraedo no kami are the four kami named in the Ōharae no norito for the Great Purification on the last day of the sixth month, namely Seoritsuhime, Hayaakitsuhime, Ibukidonushi and Hayasasurahime. | The haraedo no kami refers to the four kami mentioned by name in the Ōharae no norito for the Great Purification observed on the last day of the sixth month, namely Seoritsuhime, Hayaakitsuhime, Ibukidonushi, and Hayasasurahime. |
+| hayasasurahime-c07 | exact | d-museum.kokugakuin.ac.jp | Most theories suggest the four are the same kami produced by Izanagi during his purification at Awagihara. | Most theories suggest the four are the same kami produced by Izanagi during his purification at Awagihara. |
 
 
 ## hikawa-hime — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hikawa-hime-c01 | exact | ja.wikipedia.org | Hikawahime is a goddess of Japanese mythology. | 日河比売（ヒカワヒメ、歴史的仮名遣：ヒカハヒメ）とは、日本神話に登場する女神。 |
 | hikawa-hime-c02 | exact | ja.wikipedia.org | Her name and family connections suggest a water deity or priestess serving a sacred river. | 『古事記』にのみ登場する神で、水神である淤加美神の娘。 「日」はヒと読み、「霊」「氷」「檜」などの借訓、「河」は正訓で河川の意、「命」がないのは巫女性を表すと解し、名義は「霊的な川に奉仕する巫女」とする説や、「氷川」と同じかとして諸国の氷川神社と関連づける説がある。また親神の淤加美神や、子孫の深淵之水夜礼花神・淤美豆奴神と同じく、水にまつわる神と考えられている。 |
+| hikawa-hime-c03 | exact | kojiki.kokugakuin.ac.jp | Hikawahime appears in the genealogy of Susanoo; she is the daughter of Okami (Okami-no-kami) and with Fuwanomojikunusunu (Fuwanomojikunusunu-no-kami) bore Fukabuchi-no-mizuyarehana (Fukabuchi-no-mizuyarehana-no-kami). | 須佐之男命の系譜中に見える。淤迦美神の娘で、布波能母遅久奴須奴神との間に深淵之水夜礼花神を生んだ。 |
+| hikawa-hime-c04 | exact | kojiki.kokugakuin.ac.jp | Most deities in this genealogy do not appear in other texts and their deeds are not told in the Kojiki, so their significance and relationships are hard to establish. | 系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。 |
+| hikawa-hime-c05 | exact | kojiki.kokugakuin.ac.jp | One theory holds that the character "日" in Hikawahime's name is read "hi" as a phonetic loan for "spirit", "ice" or "cypress", while "河" means river. | 日河比売の名義について、「日」字はヒと読み、「霊」「氷」「檜」などの借訓とする説があり、「河」字は、正訓で河川の意とする説がある。 |
+| hikawa-hime-c06 | exact | kojiki.kokugakuin.ac.jp | The genealogies of Susanoo and of Ōkuninushi in the Izumo myths of the Kojiki are said to have originally been one continuous record. | 『古事記』の出雲神話中に記された須佐之男命の系譜と大国主神の系譜は、もとは一つに連続した記事だったといわれる。 |
 
 
 ## hikokamiwake-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -88,6 +84,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hikokamiwake-no-mikoto-c02 | exact | ja.wikipedia.org | The Minochi deity recorded in 691 is associated with his registered shrine. | 文献では、持統天皇5年（691年）に天皇の命で信濃国に「水内神」を祀らせたとする記述があり、これが文献上初見とされる。『延喜式』神名帳に「水内神」の記載はないが、上記の通り健御名方富命彦神別神社が水内郡唯一の大社であることから、この「水内神」は健御名方富命彦神別神社を指すと考えられている。 |
 | hikokamiwake-no-mikoto-c03 | exact | ja.wikipedia.org | Shinshūshinmachi explicitly worships him, while the Iiyama shrine worships six child deities. | 明確に建御名方彦神別命を祀る神社は健御名方冨命彦神別神社 (長野市信州新町)だけであるが、健御名方富命彦神別神社 (飯山市)では御子神6柱を祀っている。 |
 | hikokamiwake-no-mikoto-c04 | exact | ja.wikipedia.org | His parents are Takeminakata and Yasakatome, and his genealogy lists six children. | 建御名方神が八坂刀売神を娶って生んだ子で、御子神に庭津女神、馬背神、八須良雄命、知努命、沙南豆良姫命（一説に佐那都良雄命）、武彦根命がいる。 |
+| hikokamiwake-no-mikoto-c05 | exact | kotobank.jp | The Takeminakatatomi-no-mikoto-hikokamiwake Shrine at Jōyama, Nagano, enshrines Takeminakatatomi and Hikokamiwake; it was founded within the grounds of Zenkō-ji (善光寺), received an imperial rite together with Suwa Taisha in Jitō 5 (691), was later absorbed by Zenkō-ji as the Toshigami-dō (年神堂), and was moved to its present site in Meiji 12 (1879). | 長野市長野城山にある神社。旧県社。祭神は健御名方富命、彦神別命。上古、現在の善光寺境内に創立。持統天皇五年（六九一）諏訪大社とともに勅祭が行なわれたが、のち善光寺に吸収されて年神堂として存続、明治一二年（一八七九）現在地に遷座。 |
+| hikokamiwake-no-mikoto-c06 | exact | kotobank.jp | The Suwa Daimyōjin Ekotoba (諏方大明神画詞), compiled in Enbun 1 (1356), states that the Toshigami-dō enshrines Takeminakatatomi-no-mikoto-hikokamiwake-no-mikoto and equates the Minochi deity (水内神) of the Jitō 5 record with the Toshigami-dō. | 延文元年（一三五六）になった「諏方大明神画詞」の当社別宮事に、 ... と記し、年神堂は健御名方富命彦神別命を祀ると説き、かつ持統天皇五年八月、「遣使者祭竜田風神、信濃須波・水内等神」とある水内神を年神堂に擬している。 |
 
 
 ## hikosachi-no-mikoto — lulus-otomatis
@@ -100,8 +98,8 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | hikosachi-no-mikoto-c02 | exact | ja.wikipedia.org | One name interpretation combines an excellent man with an iron arrow. | 神名について、ヒコを「すぐれた男子」、サチを「鉄の矢」の意味と解する説がある。 |
 | hikosachi-no-mikoto-c03 | exact | ja.wikipedia.org | A Nihon Shoki variant makes him a shield-maker alongside his father Taokihooi. | 『日本書紀』巻第二の神代下第九段の第二の一書で父の手置帆負神と共に登場し、作盾者（たてぬい）としたことが記される。 |
 | hikosachi-no-mikoto-c04 | exact | ja.wikipedia.org | Kogoshūi traditions have him produce divine buildings and equipment, then help construct Jinmu’s palace. | 『古語拾遺』の神代段でも父と共に登場し、天御量を使って大小の峡谷の木を伐採して瑞殿を造営し、御笠・矛・盾を制作したとされる。同書の神武天皇段にも再び父と共に登場し、太玉命の孫・天富命に率いられて山から木を伐採して、神武天皇の正殿を造営した。 |
-| hikosachi-no-mikoto-c05 | exact | www.kokugakuin.ac.jp | He and Taoki Hōi build Amaterasu’s auspicious palace in the Imibe tradition. | This is a repeat succession, as transmitted down from the Inbe 忌部 clan themselves, for which it was recorded that under the direction of Futodama no Kami 太玉神, Taoki Hōi and Hikosashri constructed the Zuiden 瑞殿 (lit. “Auspicious Palace”) for Amaterasu. |
-| hikosachi-no-mikoto-c06 | exact | www.kokugakuin.ac.jp | Futodama directs their divine construction work. | This is a repeat succession, as transmitted down from the Inbe 忌部 clan themselves, for which it was recorded that under the direction of Futodama no Kami 太玉神, Taoki Hōi and Hikosashri constructed the Zuiden 瑞殿 (lit. “Auspicious Palace”) for Amaterasu. |
+| hikosachi-no-mikoto-c05 | exact | www.kokugakuin.ac.jp | According to the tradition of the Inbe (Imibe) clan, under the direction of Futodama, he and Taoki Hōi built the Zuiden, the auspicious palace for Amaterasu. | This is a repeat succession, as transmitted down from the Inbe 忌部 clan themselves, for which it was recorded that under the direction of Futodama no Kami 太玉神, Taoki Hōi and Hikosashri constructed the Zuiden 瑞殿 (lit. “Auspicious Palace”) for Amaterasu. |
+| hikosachi-no-mikoto-c06 | exact | www.kokugakuin.ac.jp | The Kogo Shūi records Ame no Tomi leading the descendants of Taoki Hōi and Hikosashiri in building the Kashiwara Palace for Jinmu Tennō. | If we look at the Kogo Shūi 古語拾遺, there is a record of Ame no Tomi no Mikoto 天富命, leading the descendents of Taoki Hōi 手置帆負 and Hikosashiri 彦狭知, and constructing the Kashiwara Palace 橿原宮 for Jinmu Tennō 神武天皇. |
 
 
 ## himuro-gongen — skip
@@ -117,10 +115,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## hinateri-nukada-bichio-ikochini-no-kami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -128,6 +123,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hinateri-nukada-bichio-ikochini-no-kami-c02 | exact | ja.wikipedia.org | Her name has variant readings, while the Kojiki supplies genealogy rather than distinct deeds. | 書籍によってヒナテリヌカタビチオイコチニノカミと訓むものとヒナテルヌカタビチオイコチニノカミと訓むものがある。 『古事記』にのみ登場する神であるが、系譜以外の具体的な事績については不明。 |
 | hinateri-nukada-bichio-ikochini-no-kami-c03 | exact | ja.wikipedia.org | One interpretation treats the masculine portion as her father’s name prefixed to her own. | 長い神名は文字の配列から考えて「日名照・額田毘道男・伊許知邇神」と分解できる。次にこの神は女神であるのに、「男」を含むのは異常であるから、「日名照・額田毘道男」は「伊許知邇神」の父神の名で、それを娘の名に冠したものと考えられる。 |
 | hinateri-nukada-bichio-ikochini-no-kami-c04 | exact | ja.wikipedia.org | The latter portion is interpreted as a vigorous spirit symbolizing flourishing rice. | 次に「伊許知邇」の「伊許」は「厳（いか）」で、「いこよか」の語もあるように、勢いの盛んなさまで、ここでは「稲の繁茂」の表象、「知」は「神霊」、「邇」は人につく親称と解する。これが娘神の名。 上記から名義は「日が照る、額田辺の道を父にもつ、勢いの盛んな精霊」と考えられる。 |
+| hinateri-nukada-bichio-ikochini-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | With Torinarumi (Torinarumi-no-kami) this goddess bore Kunioshitomi (Kunioshitomi-no-kami); the genealogies of Susanoo and Ōkuninushi (大国主神) in the Kojiki are said to have originally been one continuous record. | 鳥鳴海神との間に国忍富神を生んだ。 諸説 『古事記』の出雲神話中に記された須佐之男命の系譜と大国主神の系譜は、もとは一つに連続した記事だったといわれる。 |
+| hinateri-nukada-bichio-ikochini-no-kami-c06 | exact | kojiki.kokugakuin.ac.jp | Because her name is longer than those of other deities and contains the element "male" although she is a goddess, a strong view holds that the written form contains an error. | 日名照額田毘道男伊許知邇神は、他の神に比べて名前が長く、また、女神であるはずが「男」とつく所に不審があることから、表記に誤りがあるとする見方が強い。 |
+| hinateri-nukada-bichio-ikochini-no-kami-c07 | exact | kojiki.kokugakuin.ac.jp | The element "Hinateru" is understood as the shining of the sun, the opposite of "hinakumori" (clouded sun) in the Man'yōshū (万葉集). | 「日名照」はヒナテル（日な照る）で、ヒナクモリ（日な曇り。『万葉集』巻20・4407）に対する、日の照り輝く意とされる。 |
+| hinateri-nukada-bichio-ikochini-no-kami-c08 | exact | kojiki.kokugakuin.ac.jp | "Nukata" is interpreted either as a place-name or as a good square rice field, while "bichio" is read as a vigorous man or as a man of the road leading to Nukata. | 「額田」は、地名とする説や、額のような四角い田のことで、良田を指すとする説がある。「毘道男」は元気のよい男という説や、「辺道男」の意で額田辺へ行く道の男の意とする説がある。 |
 
 
 ## hito-gitsune — lulus-otomatis
@@ -163,10 +162,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## ihika — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -174,14 +170,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ihika-c02 | exact | ja.wikipedia.org | Jinmu’s journey encounters Ihika as a shining, tailed figure emerging from water. | 『記』の記述には、神武天皇が東征のおり、熊野から吉野（大和）へ入り、贄持之子の次に出会った神とされ、光る井から出て来た上に、尾のある人（有尾人）であったとしている（『紀』では、「光りて尾あり」と記述されるのみ）。 |
 | ihika-c03 | exact | ja.wikipedia.org | The deity names itself an earthly god and ancestor of Yoshino leaders. | 天皇がお前は誰かと問うと、「私は国津神で、名を井氷鹿」と答え、吉野首等（よしののおびとら）の祖なりと記される。 |
 | ihika-c04 | exact | ja.wikipedia.org | Commentary interprets the emergence as rising from a river and the tail as an attached object. | ここでいう井とは後世でいうような地中を掘った井戸ではなく、川岸に桁（木を井の字形に組んだもの）を出したものとみられ、「井氷鹿が井から出て来た」とは、「川から上がって来た」といった意味と考えられる（『記』の場合、「光る川」という意味になる）。 尾については臀部に何かをぶら下げていたとも解釈されている。 |
+| ihika-c05 | exact | kojiki.kokugakuin.ac.jp | "Wi" means well and "hika" means shining; the deity's name comes from its emergence from a shining well. | ヰは「井戸」、ヒカは「光る」の意で、光る井戸から出てきたことが神名の由来となっている。 |
+| ihika-c06 | exact | kojiki.kokugakuin.ac.jp | Since almost all of its names relate to abundant water, Ihika has a strong character as a water deity; its depiction as a goddess in the Shinsen Shōjiroku (新撰姓氏録) is linked to female productive power, since water is the source of plant growth. | ほとんどの神名が豊富な水にかかわる名義をもっているように、井光鹿は水神としての性格が濃厚である。『新撰姓氏録』で女性神とされることも、水が植物の生産の根源であるところから、女性の生産力と結びついたものとされる。 |
+| ihika-c07 | exact | kojiki.kokugakuin.ac.jp | Because both the Kojiki and Nihon Shoki (記紀) describe Ihika as tailed and light-emitting, one theory sees it as a half-human, half-animal being. | 記紀ともに井氷鹿は尾を生やしていたとされ、そこに動物説話的な性質を読みとり、他方では光を放つという神秘性を併せもつとして、井光鹿を半人半獣的な存在と捉える説がある。 |
+| ihika-c08 | exact | kojiki.kokugakuin.ac.jp | The tail is also interpreted as a custom of wearing animal skins at the waist, and one theory explains the shining well through the mercury deposits of Yoshino. | ただし尾は腰に獣皮等を纏う習俗を表現したものともされ、また井戸が光っていたことについても、吉野に存在する水銀鉱床とのかかわりから理解する説もある。 |
 
 
 ## iiyorihiko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -189,14 +186,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | iiyorihiko-c02 | exact | ja.wikipedia.org | The Kojiki gives this name to Sanuki, one face of Shikoku. | 古事記において、伊予之二名島（四国）の一面の讃岐国を飯依比古と謂う。 |
 | iiyorihiko-c03 | exact | ja.wikipedia.org | The Harima Fudoki connects a mountain-name with his consort’s settlement. | 播磨国風土記において、妾の飯盛大刀自（イイモリノオオトジ）が、播磨国揖保郡香山里飯盛山に渡り住み、山名の故になったと云う。 |
 | iiyorihiko-c04 | exact | ja.wikipedia.org | Sanuki’s land spirit is worshiped at Iinoyama’s Ii Shrine and received an increased court rank. | 仁和4年12月15日、従五位下から従五位上に神階を昇る。 讃岐国の国魂神とされる。鵜足郡の飯野山の飯神社(現香川県丸亀市）に祀られている。 |
+| iiyorihiko-c05 | exact | kojiki.kokugakuin.ac.jp | The island of Iyo-no-futana, the second island born of Izanagi (Izanagi-no-kami) and Izanami (Izanami-no-kami), has one body with four faces: Iyo is called Ehime, Sanuki is called Iiyorihiko, Awa is called Ōgetsuhime, and Tosa is called Takeyoriwake. | 伊耶那岐神・伊耶那美神が生んだ大八島国の第二の島、伊予之二名島は、身一つに面が四つあり、その四つのうち、伊予国を愛比売といい、讃岐国を飯依比古、阿波国を大宜都比売、土佐国を建依別という。 |
+| iiyorihiko-c06 | exact | kojiki.kokugakuin.ac.jp | Because of the element "ii" (cooked rice), the name is thought to relate to food; "hiko" means male, and one theory reads "yori" as "possessed by", giving the meaning of a man possessed by the spirit of rice. | 名義は、「飯」の語から、食物に関係のある名と考えられる。「比古」は男性。「依」を依り憑く意とみて、飯の霊が依り憑く男性の意とする説がある。 |
+| iiyorihiko-c07 | exact | kojiki.kokugakuin.ac.jp | Ii Shrine enshrines Iiyorihiko-no-mikoto together with Sukunahikona (Sukunahikona-no-mikoto) in a shared sanctuary; one theory identifies him with the deity of the Kojiki and sees him as the spirit of the province of Sanuki. | その祭神には、飯依比古命と、相殿の少彦名命を祀っているが、飯依比古命を『古事記』と同神とし、その神格を讃岐国の国魂とみる説がある。 |
+| iiyorihiko-c08 | exact | kojiki.kokugakuin.ac.jp | Because the Harima Fudoki only names a "rice deity" (飯の神), another theory holds that this deity was originally distinct from Iiyorihiko. | 「飯の神」とあるだけなので、もともと飯依比古とは別神とする説もある。 |
 
 
 ## isurugi-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -204,14 +202,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | isurugi-gongen-c02 | exact | ja.wikipedia.org | An old origin account credits Hōdō, followed by Chitoku’s foundation work. | 『石動山古縁起』によると、崇神天皇6年に方道仙人が開山し、養老元年（717年）に智徳上人が登山して天平勝宝8歳（756年）に大礼殿（講堂）を造営したという。 |
 | isurugi-gongen-c03 | exact | ja.wikipedia.org | Another foundation tradition instead credits Taichō. | 一方、泰澄による開創の伝承が古くからあり、近世初期に林羅山が著した『新縁起』も、泰澄により構築されたとする。 |
 | isurugi-gongen-c04 | exact | ja.wikipedia.org | Meiji religious separation suppresses the cult and converts its temple into a shrine. | 明治維新の際の神仏分離令による廃仏毀釈によって、修験道に基づく石動権現は廃された。明治3年（1870年）、真言宗の石動山天平寺も廃寺に追い込まれ、伊須流岐比古神社（石川県）に強制的に改組された。 |
+| isurugi-gongen-c05 | exact | kotobank.jp | The Shintōshū (神道集) of around the 14th–15th centuries contains a honji tale portraying Isurugi Gongen of Noto province in two bodies, male (with Kokūzō as honji) and female (with Nyoirin Kannon as honji); its virtue is giving healing medicines to the sick, and seven princes (ōji) of seven shrines are linked to the blessings of the seven Yakushi Buddhas. | 一四―一五世紀頃成立の「神道集」は、能登国石動権現を男女両体（男体は本地虚空蔵菩薩、女体は本地如意輪観音）とする本地説話を載せ、権現の功徳を病衆に平癒の薬種を与えたこととし、ほかに七社の王子として七仏薬師の利益を説いている。 |
+| isurugi-gongen-c06 | exact | kotobank.jp | Mount Isurugi absorbed various beliefs, beginning with Hakusan worship, and in the medieval period formed the Gosha Gongen (five-shrine gongen); the belief spread widely along the Sea of Japan coast, perhaps because the mountain served as a landmark (yamaate) for ships on the Sea of Japan. | 石動山は白山信仰をはじめ各種の信仰を取り入れ，中世には五社権現を成立させた。その信仰は日本海側の各地に広く伝播しているが，これは石動山が日本海を航行する船のヤマアテとなっていることとも関係があろう。 |
 
 
 ## itsuhayahime-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -219,14 +219,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | itsuhayahime-no-mikoto-c02 | exact | ja.wikipedia.org | She is also called Izuhayahime and Aizuhime, and is a daughter of Izuhayao. | 伊都速比売命または出早比売命と表記され、会津比売神の別名ともされる。 諏訪大社の祭神建御名方神の御子神出早雄命の娘。 |
 | itsuhayahime-no-mikoto-c03 | exact | ja.wikipedia.org | Accounts propose associating her with Awa’s Ijihayahime and Amemurakumo’s consort. | 諏訪固有の神とされるが、阿波国の式内社「天村雲伊自波夜比売神社二座」に比定される天村雲神社の祭神に伊志波夜比売命（いじはやひめのみこと）がある。この神について『大日本神祇誌』では「建御名方命の孫にあたる出速雄命の女であり、天村雲命の妃である」としており、『大日本地名辞書』には「信濃諏訪系に建御名方命の御子 出速雄命の女に 出速姫命あるは、伊自波夜比売神に由あり」とする。 |
 | itsuhayahime-no-mikoto-c04 | exact | ja.wikipedia.org | One genealogy names Tamaruhime as her mother and lists several siblings. | 建御名方神と八坂刀売神との間に生まれた二十二柱（異説有り）の御子神の一柱伊豆速男命が、洩矢神の娘多満留姫を娶って生んだ神。可毛羽神、若木比売神、草奈井比売神、佐和恵多良六老彦神等の兄妹がいる。 |
+| itsuhayahime-no-mikoto-c05 | exact | ja.wikipedia.org | The Shūho Suwa-shi Keizu (修補諏訪氏系図) concludes that, since "Itsuhaya" and "Ijihaya" correspond in sound, they are truly the same deity; because Amenokagoyama guarded the land of Koshi and Izuhayao administered the bordering land of Shinano, the marriage is called a naturally formed bond. | これについて『修補諏訪氏系図』では「（前略）按伊都速、伊自波夜、音訓相通ズ真ニ同神ナルベシ、而シテ天香語山命ハ越ノ国ヲ鎮護シ出速雄命ハ信濃国ヲ経営ス其ノ境相接スル等ノ縁由ヲ以テ其ノ婚約ヲ結合セシニヤ、自然投合ノ契約ト云フベシ」と結論づけている。 |
 
 
 ## iwaoshiwaku-no-ko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -234,14 +232,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | iwaoshiwaku-no-ko-c02 | exact | ja.wikipedia.org | He is the ancestral figure of Yoshino’s Kuzu people. | 『日本書紀』では、磐排別之子と表記される。吉野の国巣の祖とされる。『日本書紀』では、「国巣部（ら）の始祖（もとつおや）なり」と記される。 |
 | iwaoshiwaku-no-ko-c03 | exact | ja.wikipedia.org | Jinmu meets the tailed deity emerging through parted rocks in Yoshino’s mountains. | 『古事記』の記述には、神武天皇が東征のおり、熊野から吉野（大和）へ入り、3番目に出会った国津神とされ、山に入った所で岩を押し分けて出て来た上、2番目に出会った井氷鹿と同様に尾が生えていたので、「天皇がお前は誰か」と問うと、「私は国津神で、名を石押分之子」と答え、「今、天津神の御子である天皇の行幸と聞き、迎えに参じた者です」と説明した。 |
 | iwaoshiwaku-no-ko-c04 | exact | ja.wikipedia.org | Scholarly readings vary between a skin-clad cave dweller and a mountain cult figure. | この神が尾を生やしていると表現されることについて、獣皮の尻当てをした穴居住民の描写とする説や、国つ神を動物や自然に近いものとする神話的な分類法に基づいた説、あるいは未開の地に住まう者を異形として描いたものとする説などがある。また、岩を押し分けて出てきたという描写については、吉野の山神に奉仕する地中から出現した神人と解する説もある。 |
+| iwaoshiwaku-no-ko-c05 | exact | kojiki.kokugakuin.ac.jp | The Nihon Shoki (書紀) writes the name as "磐排別之子" and indicates the reading "oshiwaku" for "排別" with the phonetic characters 飫時和句. | 書紀は「磐排別之子」に作り、「排別」の読みを「飫時和句（おしわく）」と示している。 |
+| iwaoshiwaku-no-ko-c06 | exact | kojiki.kokugakuin.ac.jp | The Kuzu are thought to have originally been natives of Yoshino; the account in the Jinmu chapter is regarded as the ancestral legend of that group, telling the origin of their submission to royal authority. | 本来は吉野の土着民であったとされるが、神武記の記述は、その一族の始祖伝承であり、王権に服属した起源を物語る意義を持っていると見なされる。 |
+| iwaoshiwaku-no-ko-c07 | exact | kojiki.kokugakuin.ac.jp | The Shinsen Shōjiroku (新撰姓氏録) names the ancestor of the Kuzu as Iwaho-oshiwaku-no-kami (石穂押別神) with a story like that of the Kojiki and Nihon Shoki, adding that the name Kuzu was bestowed when Emperor Jinmu (神武天皇) met him. | 『新撰姓氏録』大和国神別には、国栖について、石穂押別神（いはほおしわくのかみ）を祖とし、記紀と同様の話を載せるが、神武天皇が出会った際に国栖の名を賜ったといい、 |
 
 
 ## izuhayao-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -249,14 +250,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | izuhayao-no-mikoto-c02 | exact | ja.wikipedia.org | Imperial chronicles record successive divine rank promotions in the ninth century. | 『日本三代実録』によると貞観2年（860年）2月5日には「信濃国正六位上馬背神、飄別神、妻科地神、無位駒弓神、出速雄神」には従五位下が授与された。更に貞観15年（873年）4月5日、「信濃国従五位下出早雄神」が従五位上に昇格されたとある。元慶2年（878年）2月7日に正五位下となる。 |
 | izuhayao-no-mikoto-c03 | exact | ja.wikipedia.org | Later Suwa tradition makes him Takeminakata’s second son and heir governing Suwa. | 諏訪地方では建御名方神（諏訪大社の祭神）の御子神とされている。近世の伝承では建御名方神の次男で、父神の世継ぎとして諏訪を治めたと伝わる。 |
 | izuhayao-no-mikoto-c04 | exact | ja.wikipedia.org | The Takei family tradition connects his settlement with his brother Okihagi’s gift of the land. | また武居氏（下社の社家）の家伝によると、父神の寵愛を受けた出早雄神は弟の意岐萩神（ここでは武居氏の祖先とされる）から諏訪の地を譲り授けられ、意岐萩神とともにそこに鎮座した。 |
+| izuhayao-no-mikoto-c05 | exact | ja.wikipedia.org | His name is also written Izuhayao-no-kami (出早雄神), 出速雄命, 伊豆速男神, 伊豆早雄命, 伊豆速雄命, 出早命 and 出早神. | 出早雄神（いずはやおのかみ）、出速雄命、伊豆速男神、伊豆早雄命、伊豆速雄命、出早命、出早神とも書く。 |
+| izuhayao-no-mikoto-c06 | exact | ja.wikipedia.org | The Moriya family genealogy Jinchō Moriya-shi Keifu (神長守矢氏系譜, early Meiji) says he married Tamaruhime, daughter of Moriya-no-kami (洩矢神); he is generally regarded as the ancestral deity of the Suwa clan, who held the office of ōhōri at the Kamisha. | 諏訪上社社家・守矢氏の家系図『神長守矢氏系譜』（明治初期成立）では洩矢神の娘・多満留姫を娶ったとされている。一般に上社の大祝職を務めた諏訪氏（また洲羽国造）の祖神とされる。 |
 
 
 ## izusan-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -264,14 +264,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | izusan-gongen-c02 | exact | ja.wikipedia.org | Before religious separation it was worshiped at Izusan Shrine and Hannyain. | 神仏分離・廃仏毀釈が行われる以前は、伊豆山権現社（現・伊豆山神社）・走湯山般若院で祀られた。伊豆山三所権現、走湯権現とも呼ばれた。 |
 | izusan-gongen-c03 | exact | ja.wikipedia.org | The mountain’s Sōtōzan name connects its worship with coastal hot springs. | 現在の静岡県熱海市にある伊豆山は、海岸に沿って走るようなかたちで温泉が湧いていたため、走湯山（そうとうざん）とも呼ばれ、古くから山岳信仰の対象となっていた。 |
 | izusan-gongen-c04 | exact | ja.wikipedia.org | One origin tradition starts with a round mirror worshiped on Higane’s summit. | そのほか、応神天皇の時代に日金山頂上に現れた円鏡を松葉仙人が奉祀したのが走湯権現の始まりともされており、木生仙人・金地仙人・蘭脱仙人が続いて現れた。 |
+| izusan-gongen-c05 | exact | kotobank.jp | The Homusubi-no-mikoto Shrine (火牟須比命神社) of the Engishiki (延喜式) is thought to be this shrine, which venerated the miraculous power of the hot springs; from the medieval period the deity was called Izusan Gongen or Sōtōzan Gongen, and together with Hakone Shrine was called Nisho Gongen and deeply revered by Minamoto no Yoritomo (源頼朝). | 《延喜式》に見える〈火牟須比命神社〉が，当社のことと思われるが，温泉の霊験をまつったものといえる。中世以降は，伊豆山権現とも走湯山（そうとうさん）権現とも呼ばれた。また 箱根神社 とともに二所権現と称され，源頼朝の篤い崇敬が寄せられた。 |
+| izusan-gongen-c06 | exact | kotobank.jp | Izusan Shrine at Izusan, Atami, Shizuoka, was also called Izusan Gongen, Sōtō Gongen, or Sōtōzan for short; the Shingon (真言宗) temple Hannya-in served as its administering temple (bettō-ji). | 静岡県熱海市伊豆山に鎮座する 伊豆山神社 の古名に由来する名称で，伊豆山神社は伊豆山権現，走湯権現，略して走湯山ともいった。真言宗般若院は同社の別当寺である。 |
+| izusan-gongen-c07 | exact | kotobank.jp | The Izusan and Hakone pair is also called Ryōsho Gongen; in the Kamakura period the shogunal house was devoted to it, and the Nisho-mōde pilgrimage to both shrines in the first month became a regular annual event. | 両所権現とも称される。鎌倉期に将軍家の信仰があつく、正月に両社に参詣する二所詣は恒例行事として行われた。 |
 
 
 ## jao-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -279,14 +279,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | jao-gongen-c02 | exact | ja.wikipedia.org | Pond and waterfall worship connects the deity with wealth and successful sericulture. | 東北地方から九州地方にかけて、日本各地の寺社や祠・石碑などに数多くその名が確認されている。池や滝の主などとして祀られることが多い。 ヘビを信仰するという点で、弁財天などと同様に富をもたらす財神として、蛇王が祀られることも多い。山形県尾花沢市鶴巻田の旧家には、家の板の間を蛇王様が通ったときに残った鱗のあとを切り抜いて、蛇王大権現のご神体として、招財や養蚕の成功を願っていたという。 |
 | jao-gongen-c03 | exact | ja.wikipedia.org | A Miyazaki legend makes a fugitive promise worship to the giant snake that shelters him. | 宮崎県には、平家滅亡後に那珂郡に落ち延びてきた野辺相模守という武士が、追手から隠れるために入った大蛇に蛇王権現としてまつることを誓い、かくまってもらったという伝説がある。大蛇の穴に隠れて無事に追手から逃れることのできた相模守は、農民となったあとも約束どおり、大蛇を蛇王権現として祠にまつっていたという。 |
 | jao-gongen-c04 | exact | ja.wikipedia.org | An Aira version instead has Sumiyoshi kill the sacrificial pond snake. | 鹿児島県の姶良では、「御池の主」として蛇王権現が祀られており、池の大蛇に生贄がささげられていたが、その大蛇を住吉大神が退治したという伝説を伴っている。 |
+| jao-gongen-c05 | exact | ja.wikipedia.org | In the Edo period, the title Jaō Gongen was used in various places when snakes were granted divine rank; the Jaō Gongen shrine at Nagai, Hanaizumi (岩手県花泉町永井), is said to have begun with the worship of a snake's spirit after a family that killed a great serpent suffered continued misfortune. | 江戸時代には、各地でヘビに対して神位が与えられる際にも称号として蛇王権現が用いられている。岩手県花泉町永井の蛇王権現社は、大蛇を殺した後に家の者に不幸がつづいたため、蛇の霊を祀ったのがはじまりだとされる。 |
+| jao-gongen-c06 | exact | www.nichibun.ac.jp | A 1921 report from Kokufu, Tokushima, records a deity 蛇王大明神 in a thicket that became very popular for granting wishes; there was no shrine building, only banners and an offering box. | 藪林の中に蛇王大明神があって願い事がかなうといい非常にはやった。祠はなく、幟を立てて賽銭箱を置いただけのもの。 |
+| jao-gongen-c07 | exact | www.nichibun.ac.jp | The cult began when a bamboo cutter saw the tail of a great serpent, fled and told the villagers; the police later banned visits, and Hebiō-sama (蛇王様) was abolished. | 竹伐の男が大蛇の尾を見て逃げ帰り村民に伝えたのが始まりという。警察署が参詣を禁じ、蛇王様も廃されてしまった。 |
 
 
 ## kajiga-baba — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -294,6 +294,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kajiga-baba-c02 | exact | de.wikipedia.org | She is described as a cannibalistic witch with strong dark magic. | Kajiga Baba wird als kannibalistisch geneigte Hexe mit enormen schwarzmagischen Kräften beschrieben. |
 | kajiga-baba-c03 | exact | de.wikipedia.org | Tradition attributes will-o’-wisp conjuring and shape-changing to her. | Sie kann vorgeblich Irrlichter beschwören und ihre Gestalt ändern. |
 | kajiga-baba-c04 | exact | de.wikipedia.org | Her demonic form is a huge white wolf wearing an iron bowl on its head. | In ihrer dämonischen Gestalt soll die Hexe als riesiger, weißer Wolf mit eiserner Schüssel auf dem Kopf erscheinen. |
+| kajiga-baba-c05 | exact | ja.wikipedia.org | Kajiga Kaka or Kajiga Baba (鍛冶が嬶, 鍛冶が媼) is a tale handed down in Muroto, Kōchi Prefecture (高知県室戸市). | 鍛冶が嬶、鍛冶が媼（かじがかか、かじがばば）は、高知県室戸市に伝わる説話。 |
+| kajiga-baba-c06 | exact | ja.wikipedia.org | In the tale, the wolves call for "the blacksmith's wife of Sakihama" (佐喜浜); then an especially large wolf covered in white fur and wearing a pot appears and attacks a courier (飛脚). | その内にオオカミたちは「佐喜浜の鍛冶嬶を呼べ」と言い出した。しばらくすると、白毛に覆われた一際大きいオオカミが鍋をかぶった姿で現れ、飛脚に襲い掛かった。 |
+| kajiga-baba-c07 | exact | ja.wikipedia.org | The courier entered the blacksmith's house and cut down the sleeping wife; the one in the wife's form was the white-furred wolf, and under the floor lay many human bones, including those of the real wife. | 飛脚は屋内に入り込み、中で寝ていた嬶を斬り倒した。嬶の姿をしていたのはあの白毛のオオカミであり、床下には多くの人骨、そして本物の嬶の骨も転がっていたという。 |
+| kajiga-baba-c08 | exact | ja.wikipedia.org | In the Edo-period collection of strange tales Ehon Hyaku Monogatari (絵本百物語), the story titled "Kajiga Kaka" tells of the spirit of a woman eaten by a wolf possessing a wolf and attacking people. | 江戸時代の奇談集『絵本百物語』では「鍛冶が嬶」と題し、オオカミに食い殺された女の霊がオオカミに憑いて人を襲う話となっており |
 
 
 ## kamuna-obi — lulus-otomatis
@@ -312,10 +316,10 @@ Klaim 6 (exact 4, loose 2), sumber 2, gambar 0.
 
 ## kanatsubute — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -323,14 +327,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kanatsubute-c02 | exact | ja.wikipedia.org | Hōbutsushū records the Narasaka bandit’s execution around the late twelfth century. | 平安時代末期の治承3年（1179年）頃に平康頼が記した仏教説話集『宝物集』の中で鈴鹿山の立烏帽子と並んで奈良坂のかなつぶてという盗賊が処刑されたことが記されている。 |
 | kanatsubute-c03 | exact | ja.wikipedia.org | A giant monk-form opponent attacks Toshimune with three named golden stones. | すると背丈が2丈（約6メートル）もある異様な風体の法師が現れ、並び立てた着物を置いていけと大笑いする声が聞こえた。俊宗が着物を渡すわけにはいかないというと、法師は三郎礫と名付けられた金の礫を打ち、俊宗は扇で落とした。続けて次郎礫が打たれるが、これも俊宗に打ち落とされ、最後に太郎礫を打つも鐙の端で蹴落とされた。 |
 | kanatsubute-c04 | exact | ja.wikipedia.org | A supernatural arrow pursues him for seven days before surrender and execution. | りょうせんは山へと逃げはじめるが、俊宗が三代に渡って受け継いできた神通の鏑矢を射放つと7日7夜に渡ってりょうせんを追い続け、りょうせんはついに降伏する。りょうせんを捕縛した俊宗は都へと凱旋して御門に閲覧し、りょうせんは船岡山で処刑されることとなった。 |
+| kanatsubute-c05 | exact | ja.wikipedia.org | When the Hōbutsushū tale was absorbed into the otogizōshi Suzuka no Sōshi and Tamura no Sōshi, this supernatural thrower of metal stones appears under names such as Konzō and Ryōsen. | 『宝物集』で記された金礫の説話が御伽草子『鈴鹿の草子』『田村の草子』などの田村語りに採り入れられると、金礫を打つこの化生の名前として、こんざう、りゃうせん（りょうせん）などがみえる。 |
+| kanatsubute-c06 | exact | ja.wikipedia.org | According to the Tamura no Sōshi, Ryōsen honed his skill at throwing metal stones for 500 years in China (唐土), 500 years in Goryeo (高麗国), 80 years in Japan and 3 years at Narasaka. | 『田村の草子』では、りょうせんが金礫を打つ腕前は唐土にて500年、高麗国にて500年、日本で80年、奈良坂で3年かかって磨いたものであったという。 |
+| kanatsubute-c07 | exact | ja.wikipedia.org | He used three metal stones named Tarō, Jirō and Saburō; Tarō was made of 600 ryō of gold and could shatter even a mountain used as a shield, while Saburō was made of 300 ryō of gold. | また太郎礫、次郎礫、三郎礫という3つの金礫を使い、太郎礫は600両の金を使い山を盾にしようとも微塵に打ち崩してしまうほどの金の礫で、三郎礫は300両の金の礫である。 |
 
 
 ## karajishi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -338,14 +342,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | karajishi-c02 | exact | ja.wikipedia.org | They have curled manes, prominent eyes, strong legs and exaggerated claws or fangs. | 唐獅子は、百獣の王・瑞獣としての獅子イメージと結びつき、巻き毛のたてがみ、大きな目、力強い脚、誇張された爪や牙などをもつ姿で表されることが多い。 |
 | karajishi-c03 | exact | ja.wikipedia.org | Peony motifs are common, while the artistic concept is distinguished from komainu and shīsā. | 日本では、牡丹と組み合わされた「唐獅子牡丹」または「獅子牡丹」の図様が特によく知られる。 中国文化圏の門前守護像である石獅子、日本の寺社に置かれる狛犬、沖縄のシーサーとは関連するが、唐獅子は主に日本美術・工芸・芸能における意匠上の概念である。 |
 | karajishi-c04 | exact | ja.wikipedia.org | Buddhist associations connect lions with Shakyamuni, Monju and sacred guardian imagery. | 仏教において獅子は、釈迦や文殊菩薩と関係する霊獣として扱われ、仏像の台座や仏教寺院の守護像などにも表された。 京都国立博物館は、仏教伝来とともに獅子像が日本へ伝わり、のちに神社や寺院の守護獣像として展開したと説明している。 |
+| karajishi-c05 | exact | kotobank.jp | Karajishi is a lion decoratively stylised in art; the motif became especially popular from the Momoyama period and appears often on byōbu (folding screens), tsuitate (partitions) and fusuma paintings. | 獅子を美術的に装飾化・図案化したもの。特に、桃山時代から盛んになった。 屏風 びょうぶ ・ 衝立 ついたて ・ 襖絵 ふすまえ などに多い。 |
+| karajishi-c06 | exact | kotobank.jp | The word also means lion: a foreign "shishi" (beast), distinguished from the wild boar (inoshishi) and deer (shishi) native to Japan. | ライオン。獅子。日本に産する猪(いのしし)、鹿(しし)と区別して、外国産のしし（獣）の意。 |
+| karajishi-c07 | exact | kotobank.jp | Karajishi is also the name of a family crest (mon) in the shape of a lion, attested in the ukiyo-zōshi Futokorosuzuri (懐硯) of 1687. | 紋所の名。獅子の形の紋。 [初出の実例]「十七八なる若衆空色の小袖に唐鹿(カラシシ)の紋所」(出典：浮世草子・懐硯（1687）五) |
 
 
 ## katakurabe-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -353,6 +360,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | katakurabe-no-mikoto-c02 | exact | ja.wikipedia.org | He is associated with Takeminakata’s descendants and sites near Mount Moriya and Saku. | 建御名方神の御子神で、守屋山南麓（片倉）に坐す神とされ、また佐久郡旧入片倉村にも鎮座するとされる。神陵は佐久郡にあるとされる。 |
 | katakurabe-no-mikoto-c03 | exact | ja.wikipedia.org | Genealogies connect his son Kodamahiko with Moriya ritual succession and himself with the Katakura clan. | 明治初期に書かれた守矢氏の家系図『神長守矢氏系譜』の中で、守矢氏四代目として洩矢神の孫千鹿頭神の跡を継いだ者を、片倉辺命の子児玉彦命と記載する。また『諏訪氏系図.続編』においては片倉氏の祖神とされる。 |
 | katakurabe-no-mikoto-c04 | exact | ja.wikipedia.org | His three child deities include Kodamahiko, whose marriage produces Yakushi. | 建御名方神と八坂刀売神の子で、后神は不明だが児玉彦命、上津御玉神、下津御玉神の三柱の御子神がいる。 その内児玉彦命は、千鹿頭神の後を継いで祭政を執り、守達神の娘・美都多麻比売神を娶って八櫛神を生む。このため守矢氏の系図では児玉彦命を四代目に数えている。 |
+| katakurabe-no-mikoto-c05 | exact | ja.wikipedia.org | The name is also written Katakurabe-no-kami and Katakurabe-no-mikoto (片倉辺尊); there is a similarly named deity, Mikurabe-no-mikoto (御倉辺命), but whether they are the same is unclear. | 片倉辺神、片倉辺尊とも表記され、また類似した神名に御倉辺命（みくらべのみこと）がいるが、同一神かどうかは不明。 |
+| katakurabe-no-mikoto-c06 | exact | ja.wikipedia.org | He is worshipped at, among others, the Wakamiko-sha of Maemiya, Suwa Taisha Kamisha (Miyagawa, Chino), Jūgosha Jinja at Toyohira, Chino, and the Wakamiya-sha of Akimiya, Suwa Taisha Shimosha (Shimosuwa). | 諏訪大社上社前宮 若御子社（長野県茅野市宮川） 十五社神社（長野県茅野市豊平） 諏訪大社下社秋宮 若宮社（長野県諏訪郡下諏訪町） |
 
 
 ## kesaran-pasaran — lulus-otomatis
