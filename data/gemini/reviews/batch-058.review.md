@@ -1,6 +1,6 @@
 # Review batch-058
 
-Diperiksa 2026-10-07T07:43:50.472Z. Berkas: batch-058.md, batch-058-fix-1.md, batch-058-fix-2.md, batch-058-fix-3.md, batch-058-fix-4.md, batch-058-fix-5.md.
+Diperiksa 2026-10-13T18:19:11.997Z. Berkas: batch-058.md, batch-058-fix-1.md, batch-058-fix-2.md, batch-058-fix-3.md, batch-058-fix-4.md, batch-058-fix-5.md, batch-058-fix-6.md, batch-058-fix-7.md.
 
 ## konseijin — lulus-otomatis
 
@@ -459,10 +459,7 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## sashikuni-okami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -470,14 +467,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | sashikuni-okami-c02 | exact | ja.wikipedia.org | The Kojiki and Awa manuscript use different written names. | 『古事記』では刺国大神、粟鹿神社の書物『粟鹿大明神元記』では佐志久斯布刀比売と表記される。 |
 | sashikuni-okami-c03 | exact | ja.wikipedia.org | One interpretation reads the name as a parent deity occupying the land. | 刺国大神の「刺す」は「標（しめ）」を刺すこと、占有すること、「大」は刺国若比売に対応する親の意と解し、名義は「国を占有する親」と考えられる。 |
 | sashikuni-okami-c04 | exact | ja.wikipedia.org | The Kojiki names Sashikuni Okami as Sashikuni Wakahime’s parent. | 『古事記』では刺国大神、粟鹿神社の書物『粟鹿大明神元記』では佐志久斯布刀比売と表記される。 『古事記』においは刺国若比売の親（父）として名前のみ登場。 |
+| sashikuni-okami-c05 | exact | kojiki.kokugakuin.ac.jp | The Kokugakuin Kojiki database records the view that the name means a parent who occupies the land, and that it is taken to lead toward the grandson Ōkuninushi (大国主神), who will later rule the land. | 刺国大神の名義は、国を占有する親の意とする説がある。サシは、所有をしめす標識となる標をさすことで占有、領有する意といい、やがて国土を領有することになる孫の大国主神を導く名称になっているとする説がある。 |
+| sashikuni-okami-c06 | exact | kojiki.kokugakuin.ac.jp | The element "ō" (大) is taken as the counterpart of "waka" (若, young) in the name of the daughter Sashikuni Wakahime; the tone mark attached to that character in the original text is held to indicate its structure and meaning. | 「大」は娘の刺国若比売の「若」に対する語とされる。原文の「大」の字につけられた「上」の声注は、語調によってその語構成や意味を示すものとされており |
+| sashikuni-okami-c07 | exact | kojiki.kokugakuin.ac.jp | To stress that "大神" here is not "ōkami" meaning "great", the reading "Ōnokami", with an inserted "no", is adopted. | 「大神」の読みについても、偉大を意味するオホカミではないことを取り立てる立場から、ノを挿入したオホノカミという読み方が採られている。 |
+| sashikuni-okami-c08 | exact | kojiki.kokugakuin.ac.jp | Many deities in this genealogy do not appear in other texts and the Kojiki narrates no deeds for them, so their significance and relationships are hard to establish. | 系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。 |
 
 
 ## seiryu-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -485,6 +483,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | seiryu-gongen-c02 | exact | ja.wikipedia.org | Tradition identifies her with Zennyo Ryūō and a daughter of the dragon king Sāgara. | 清瀧権現は経軌（経文と儀軌）には説かれておらず、空海の御遺告によると、インド神話に登場する八大竜王の一、沙掲羅（しゃがら、サガーラ）の第三王女（一説には第四王女とも伝えられる）である善女（善如）龍王で、無熱地に住していた。 |
 | seiryu-gongen-c03 | exact | ja.wikipedia.org | The story brings her to Japan on Kūkai’s ship to protect esoteric Buddhism. | 後年、弘法大師空海が青龍寺を訪れ仏法を学んだ際、三昧耶戒を授けてほしいと空海に懇請したが許されなかった。空海が帰国する際に船中に現れて密教を守護することを誓ったため、京都洛西の高雄山麓に勧請された。 |
 | seiryu-gongen-c04 | exact | ja.wikipedia.org | Her water-associated written name is explained through that crossing of the sea. | その際、海を渡ったので龍の字に「さんずい」を加えて日本では「清瀧権現」と敬称するようになった。 |
+| seiryu-gongen-c05 | exact | kotobank.jp | The Kodansha biographical dictionary calls Seiryū Gongen a guardian deity of Buddhism, a female dragon deity who is the third daughter of the dragon king Shakara (娑竭羅); her worship began when Kūkai (空海) invited the tutelary deity of Seiryū-ji in Chang'an (長安), China (唐), to Japan. | 仏教の守護神。 娑竭羅(しゃから)竜王の3女にあたる女体の竜神。空海によって唐(中国)長安の青竜寺の鎮守神が日本に勧請(かんじょう)されたのがはじまり。 |
+| seiryu-gongen-c06 | exact | kotobank.jp | This dragon deity is prayed to when rain rituals are held, and she is also called Seiryō Daimyōjin (清滝大明神). | 雨ごいをおこなう場合はこの竜神にいのる。清滝(せいりょう)大明神ともいわれる。 |
 
 
 ## seoritsuhime — lulus-otomatis
@@ -517,10 +517,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## shichimen-tennyo — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -528,14 +525,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | shichimen-tennyo-c02 | exact | ja.wikipedia.org | Her worship spreads from Kuon-ji at Mount Minobu to Nichiren temples elsewhere. | 七面天女は当初、日蓮宗総本山である身延山久遠寺の守護神として信仰され、日蓮宗が広まるにつれ、法華経を守護する神として各地の日蓮宗寺院で祀られるようになった。 |
 | shichimen-tennyo-c03 | exact | ja.wikipedia.org | Her Buddhist identity is associated with either Kisshōten or Benzaiten. | その本地は、山梨県南巨摩郡早川町にある標高1982mの七面山山頂にある寺（敬慎院）に祀られている神で、吉祥天とも弁財天ともいわれる。 |
 | shichimen-tennyo-c04 | exact | ja.wikipedia.org | In a legend, a woman hearing Nichiren’s teaching becomes a red dragon and pledges protection. | すると、女性は笑みを湛え「お水を少し賜りとう存じます」と答えると、日蓮は傍らにあった水差しの水を一滴、その婦人に落とした。すると今まで美しい姿をしていた婦人は、たちまち緋色の鮮やかな紅龍の姿に変じて仰った。 「私は七面山に住む七面大明神です。身延山の裏鬼門をおさえて、身延一帯を守っております。末法の時代に、法華経を修め広める方々を末代まで守護し、その苦しみを除き心の安らぎと満足を与えます」と。 |
+| shichimen-tennyo-c05 | exact | kotobank.jp | According to the Sekai Daihyakka Jiten, Mount Shichimen (七面山), administered by Kuon-ji (久遠寺), enshrines Shichimen Daimyōjin (Shichimen Tennyo), guardian deity of Mount Minobu (身延山). | 久遠寺管理下に身延町の飛地的存在である七面山があり，身延山守護神七面大明神(七面天女)をまつる。 |
+| shichimen-tennyo-c06 | exact | kotobank.jp | The mountain is thought to have originally been an object of local mikumari (水分, water-distribution) belief, and by the beginning of the early modern period a sanctuary hall of Shichimen Daimyōjin had already been built. | もと周辺の水分（みくまり）信仰の対象であったと考えられるが，近世初頭にはすでに七面大明神宝殿が造営されている。 |
+| shichimen-tennyo-c07 | exact | www.nichibun.ac.jp | In an origin tale from Iida recorded in the Nichibunken database, a girl says she is Kisshō Tennyo (吉祥天女), protecting the Dharma by the Buddha's command; after the holy man gives her water she becomes a kōryū dragon (蛟龍) about two jō long and flies away west, and she is Shichimen Daimyōjin. | 聖人が尋ねると、少女は仏勅を受け仏法を守護する吉祥天女だという。少女は聖人に水を乞いこれを与えると、二丈ばかりの蛟龍となって西に飛び去った。これが現在の七面大明神である。 |
 
 
 ## shii-yokai — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -543,14 +540,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | shii-yokai-c02 | exact | ja.wikipedia.org | Dictionaries place it in Tsukushi and Suō, entering homes at night to harm livestock. | 『日本国語大辞典』や『広辞苑』の記述によると、シイは筑紫国（現・福岡県）や周防国（現・山口県）などに伝わる怪獣で、その姿はイタチに似ており、夜になると人家に侵入し家畜の牛や馬を害する存在であるという。 |
 | shii-yokai-c03 | exact | ja.wikipedia.org | Yamato Honzō describes it as clever and fast, making capture difficult. | 『大和本草』の解説によると、周防国や筑紫国におり、やはり牛馬に害をなすもので、賢い上に素早いのでなかなか捕えることはできないとある。 |
 | shii-yokai-c04 | exact | ja.wikipedia.org | A Nagato tradition associates attacks on oxen with breaking agricultural taboos. | 山口県 大津郡長門市では田で牛を使う際、5月5日に牛を使う、田植え時期に牛に牛具を付けたまま川を渡す、女に牛具を持たせる、5月5日から八朔までの間にほかの村の牛を引き入れるといった行為がタブーとされており、これらを破るとシイが憑いて牛を食い殺すといわれた。 |
+| shii-yokai-c05 | exact | www.nichibun.ac.jp | The Nichibunken database summary of the Edo essay Shiojiri (塩尻) says this "thing" also exists around Suō (周防) and Tsukushi (筑紫) in Japan, and asks whether the kamaitachi of Bandō (坂東), a black gust that wounds people, is the same thing. | 日本では周防、及び筑紫のあたりでこの「物」がある。坂東でかまいたちと言って、黒い疾風で人が傷つくことがあると言うのは、この「物」だろうか。 |
+| shii-yokai-c06 | exact | ja.wikipedia.org | In Hiro, Arida (Wakayama) and Yamagata (Hiroshima) the shii is also called "yamaarashi"; because oxen greatly fear its bristling form, ox keepers call "shii shii" to make the ox move forward. | 和歌山県有田郡廣村（現・広川町）や広島県山県郡では、シイを「ヤマアラシ」ともいって、毛を逆立てる姿を牛がたいへん恐れるので、牛を飼う者は牛に前進させる際に「後ろにシイがいるぞ」という意味で「シイシイ」と命令するのだという。 |
+| shii-yokai-c07 | exact | ja.wikipedia.org | At Fukuchiyama Dam in Nōgata a stone monument has been erected recording the local legend of the shii (shiiraku). | 直方市にある福智山ダムには、地元に伝わるシイ（しいらく）の伝承を伝える石碑が建てられている。 |
 
 
 ## shiotsuchi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -558,14 +555,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | shiotsuchi-c02 | exact | ja.wikipedia.org | One interpretation makes him a deity of currents and navigation. | 名前の「シホツチ」は「潮つ霊」「潮つ路」であり、潮流を司る神、航海の神と解釈する説もある。 |
 | shiotsuchi-c03 | exact | ja.wikipedia.org | Shiogama Shrine tradition credits him with teaching fishing and salt production. | シオツチノオジを祀る神社の総本宮である鹽竈神社（宮城県塩竈市）の社伝では、武甕槌神と経津主神は、塩土老翁の先導で諸国を平定した後に塩竈にやってきたとする。武甕槌神と経津主神はすぐに去って行くが塩土老翁はこの地にとどまり、人々に漁業や製塩法を教えたという。 |
 | shiotsuchi-c04 | exact | ja.wikipedia.org | He guides Hoori toward the sea deity’s palace in the lost-fishhook story. | 海幸山幸の説話においては、ホデリ（海幸彦）の釣針を失くして悲嘆にくれるホオリ（山幸彦）の前に現れる。ホオリから事情を聞くと小舟（または目の詰まった竹籠）を出してホオリを乗せ、そのまま進めば良い潮路に乗って海神の宮に着くから、宮の前の木の上で待っていれば、あとは海神が良いようにしてくれると告げる。 |
+| shiotsuchi-c05 | exact | kojiki.kokugakuin.ac.jp | Shiotsuchi appears in several passages of the Kojiki and Nihon Shoki (記紀), and in all of them plays the important role of showing the protagonist which way to go. In the Nihon Shoki (日本書紀) he is called Shiotsuchi no Oji (塩土老翁) or Shiozutsu no Oji (塩筒老翁) in the Umisachi-Yamasachi myth, and in the descent of the heavenly grandson he appears as another name of Kotokatsukunikatsu-nagasa (事勝国勝長狭), who offers the land to Ninigi (瓊瓊杵尊). | シホツチは記紀の複数の箇所に登場するが、いずれにおいても主人公に行くべき方向を示すという重要な役割を担っている。『日本書紀』の海幸山幸神話では塩土老翁、塩筒老翁と見え、天孫降臨神話では瓊瓊杵尊に国を奉る、事勝国勝長狭、事勝国勝神の亦の名として見える。 |
+| shiotsuchi-c06 | exact | kojiki.kokugakuin.ac.jp | In the section before Jimmu's (神武) enthronement, Shiotsuchi no Oji tells Emperor Jimmu there is a good land to the east, prompting the eastern expedition. | 神武即位前紀では、塩土老翁が神武天皇に東方によい国があると教えたことで、東征の契機となった。 |
+| shiotsuchi-c07 | exact | kotobank.jp | According to the Sekai Daihyakka Jiten (Heibonsha), "chi" means spirit, so Shiotsuchi means "spirit of the tide", a god governing sea routes; the title "old man" (老翁) shows that his role rests on rich wisdom and experience. | チは霊の意，シオツチとは〈潮の霊〉すなわち潮路をつかさどる神の意である。老翁と呼ばれているのは，この役目がゆたかな知恵と経験にもとづくことを物語っている。 |
+| shiotsuchi-c08 | exact | kotobank.jp | Nipponica notes that all his appearances are set in Hyūga (Miyazaki) and links court bamboo goods with the Hayato (隼人), so he is presumed to have originally been a sea god worshipped by the Hayato. | 出現の場面がすべて日向(ひゅうが)国（宮崎）であり、宮廷で使用される竹製品と隼人(はやと)との密接な関係が隼人司式(はやとのつかさしき)を中心にみられることを考えると、この神は本来隼人が信奉した海神であろうと推定される。 |
 
 
 ## shirachigo — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -573,14 +571,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | shirachigo-c02 | exact | ja.wikipedia.org | Depictions vary between a child beside Inugami and a puppy wearing clothes. | 子供の姿で描かれている妖怪で、犬神とワンセットで描かれる。『画図百鬼夜行』では稚児髷（ちごわげ）の髪形をした子供、作者不明の絵巻『化物づくし』（湯本豪一所蔵）では着物をつけた仔犬として描かれている。 |
 | shirachigo-c03 | exact | ja.wikipedia.org | The puppy depiction faces another robed canine figure. | 後者は大坊主という妖怪と向かい合って描かれているが大坊主は大きな犬が袈裟をまとったすがたで描かれており、石燕による犬神・白児とおなじくこちらも犬の要素が高い。 |
 | shirachigo-c04 | exact | ja.wikipedia.org | Later yōkai guides make Shirachigo Inugami’s disciple or the spirit of a child killed by a dog. | 犬神の近くに従って描かれている様子から、昭和以後の妖怪図鑑の解説などでは犬神の家来・門人・弟子として仕えている存在として白児が紹介されることが多い。また、犬にかみ殺された子供がなる妖怪が白児で犬神の家来として命令を何でもきくなどとも解説されている。 |
+| shirachigo-c05 | exact | kotobank.jp | Digital Daijisen Plus defines the shirachigo as a Japanese yōkai in the form of a child, said to serve the inugami (犬神), a possessing dog spirit. | 日本の妖怪。童子の姿で、犬霊の憑き物である犬神に仕えるとされる。 |
+| shirachigo-c06 | exact | ko.wikipedia.org | Korean Wikipedia glosses the name 白児 (shirachigo) as "white child" (하얀 아이) and calls it a yōkai in the picture collection of Toriyama Sekien (도리야마 세키엔). | 시라치고(일본어: 白児 ( しらちご ) →하얀 아이)는 도리야마 세키엔의 요괴화집 『화도 백귀야행』에 그려져 있는 요괴다. |
 
 
 ## soroban-bozu — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -588,27 +585,27 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | soroban-bozu-c02 | exact | ja.wikipedia.org | A Kameoka account places the monk-like figure beneath a tree near Saikō-ji at night. | 西別院村笑路（現：亀岡市）では、夜中に笑路の西光寺の近くを通ると、寺のそばにあるカヤの木の下に坊主の姿で現れ、木の下で盛んに算盤を弾き始めるものを「算盤坊主」と呼ぶ。 |
 | soroban-bozu-c03 | exact | ja.wikipedia.org | Accounts identify it either as a tanuki trick or the spirit of a deceased novice. | タヌキの仕業ともいわれているが、その寺では、かつて計算を間違えて和尚に叱られた小坊主が、その木で首を吊って自殺したと言われており、その坊主の霊とも言われている。 |
 | soroban-bozu-c04 | exact | ja.wikipedia.org | Another tradition makes the neighboring shrine’s young visitor the youthful founder of Saikō-ji. | また、この西光寺の隣の素盞嗚神社でも、毎晩午前1時頃、境内の大木の下に少年の姿で現れて算盤の稽古を始めるものを「算盤小僧」という。一説によれば、この少年は西光寺の開山・萬安英種という和尚で、幼い頃に夜中に人知れず勉学に励んでいた姿だと伝えられている。 |
+| soroban-bozu-c05 | exact | www.nichibun.ac.jp | In Yanagita Kunio's (柳田国男) "Yōkai Meii" (1938), the soroban-bōzu is a yōkai that stays, for example, under trees by the roadside and makes a sound like an abacus being clicked. | 要約 算盤坊主は路ばたの木の下などにいて、算盤をはじくような音をさせる妖怪である。 |
+| soroban-bozu-c06 | exact | www.nichibun.ac.jp | The legend collection Kuchi-Tanba Kōhishū (1925) records that late at night a man who looks like a monk clicks an abacus under a kaya tree (榧) beside Saikō-ji (西光寺); this is called soroban-bōzu (算盤坊主), and some say it is the work of a tanuki (狸). | 夜遅く、西光寺の側にある一本の榧の木に下で坊主に見える男が算盤を弾ているという。それを算盤坊主と言い、狸の仕業とも言われるが、 |
 
 
 ## tahiriki-shimarumi-no-kami — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tahiriki-shimarumi-no-kami-c01 | exact | ja.wikipedia.org | Tahiriki Shimarumi is a Japanese deity. | 多比理岐志麻流美神（タヒリキシマルミ）は、日本神話に登場する神。 |
 | tahiriki-shimarumi-no-kami-c02 | exact | ja.wikipedia.org | The Kojiki names this fifth-generation descendant of Ōkuninushi without narrating deeds. | 『古事記』の大国主神の系譜に5世の孫神として登場するが、神名のみで事跡も語られていないため、その名義も不明である。十七世神（とおまりななよのかみ）の一柱である国津神。 |
+| tahiriki-shimarumi-no-kami-c03 | exact | kojiki.kokugakuin.ac.jp | The genealogies of Susanoo (須佐之男命) and of Ōkuninushi (大国主神) in the Izumo (出雲) myths of the Kojiki are said to have originally been one continuous record. | 『古事記』の出雲神話中に記された須佐之男命の系譜と大国主神の系譜は、もとは一つに連続した記事だったといわれる。 |
+| tahiriki-shimarumi-no-kami-c04 | exact | kojiki.kokugakuin.ac.jp | This deity appears in the genealogy of Ōkuninushi (大国主神) as the child of Mikanushihiko (甕主日子神) by Hinarashibime (比那良志毘売), daughter of Okami (淤加美神). The deity married Aonumaumanuoshihime (青沼馬沼押比売), daughter of Hihiragi-no-Sonohanamazumi (比々羅木之其花麻豆美神), and fathered Nunooshitomitorinarumi (布忍富鳥鳴海神). | 大国主神の系譜中に見える。甕主日子神が淤加美神の娘の比那良志毘売を娶って生んだ子。また、比々羅木之其花麻豆美神の娘の青沼馬沼押比売を娶って、布忍富鳥鳴海神を生んだ。 |
+| tahiriki-shimarumi-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | The meaning of the name is unknown. The Izumo no Kuni Fudoki (出雲国風土記) records Kijimatsumi (伎自麻都美命) at Kishima in Iishi, whose name has been noted as similar, but the relationship is unclear. | 多比理岐志麻流美の名義は未詳である。『出雲国風土記』飯石郡来嶋郷条に、その地名の由来とされる「伎自麻都美命」が鎮座しており、この神との名称の類似が指摘されているが、関係は明らかでない。 |
+| tahiriki-shimarumi-no-kami-c06 | exact | kojiki.kokugakuin.ac.jp | Many deities in this genealogy do not appear in other texts and the Kojiki narrates no deeds for them, so their significance and relationships are hard to establish. | 系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。 |
 
 
 ## takamen — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (loose 1, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -616,14 +613,15 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | takamen-c02 | exact | en.wikipedia.org | The rituals seek harvests, protection against illness and removal of evil. | It is featured as part of religious ceremonies aimed at ensuring good harvests, protection from illness, and the warding off of evil. |
 | takamen-c03 | exact | en.wikipedia.org | The ritual mask is tall and conical, with ear-like parts and cut-paper decoration. | The mask of the Takamen is conical in shape and over one meter tall, adorned with large ear-like decorations and vibrantly decorated using kirigami (cut paper). |
 | takamen-c04 | exact | en.wikipedia.org | The costumed figure dances to gongs and drums and gently strikes participants with brushwood. | During the ritual, the Takamen dances in rhythm with gongs and drums played by villagers, walking around while gently striking them with a bundle of brushwood (shiba). |
+| takamen-c05 | exact | mishimamura.com | According to the Mishima Village website, Takamen is a masked deity over 1 m tall who appears in the Hassaku dance (八朔踊り) held on 31 August. | 8月31日に行われる「八朔踊り」。高さ1ｍ以上もある仮面神「タカメン」が登場します。 |
+| takamen-c06 | exact | mishimamura.com | This masked deity is said to drive away the residents' misfortune and bring prosperity. | 高さ1ｍ以上もある仮面神「タカメン」が登場します。住民の厄を祓い、繁盛をもたらすといわれています。 |
+| takamen-c07 | exact | en.wikipedia.org | There are several theories on the origin of the name Takamen: from the tall, pointed shape of the mask, or because the mask is modelled on a hawk (taka). | There are various theories regarding the origin of the name "Takamen." One suggests that it derives from the tall, pointed shape of the mask. Another posits that the name refers to the mask being modeled after a hawk (taka in Japanese). |
+| takamen-c08 | exact | en.wikipedia.org | The smaller accompanying masks that follow the Takamen are called Kazuramen. | Smaller accompanying masks that follow the Takamen are called Kazuramen. |
 
 
 ## taniguku — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -631,14 +629,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | taniguku-c02 | exact | ja.wikipedia.org | He directs Ōkuninushi to Kuebiko to identify a small god arriving from the sea. | 『古事記』における同段によると、大国主が出雲の御大岬（美保岬）にいたとき、海の向こうから小さな神がやって来たが、名を尋ねても答えず、誰もこの神の名を知らなかった。このとき、かかしの久延毘古なら知っているはずと注進したのが、ヒキガエルの多邇具久であった。 |
 | taniguku-c03 | exact | ja.wikipedia.org | Kuebiko identifies the visitor as Sukunahikona, child of Kamimusubi. | はたして、久延毘古によって、その小さな神の名は「神産巣日神の子の少彦名神」であると知らされる。 |
 | taniguku-c04 | exact | ja.wikipedia.org | Interpretations link the ubiquitous toad with knowledge of the entire land. | 谷蟆（ヒキガエル）は、地上のどこにでも生息しているため、「国土の隅々まで知り尽くした存在」であるとか「地上を這い回る支配者」と考えられていた。 |
+| taniguku-c05 | exact | kojiki.kokugakuin.ac.jp | The Kokugakuin Kojiki database summarizes that Taniguku (多邇具久) said Kuebiko (久延毘古) would know; Kuebiko was summoned and revealed the god to be Sukunabikona (少名毘古那神), child of Kamimusubi (神産巣日神). | 多邇具久（たにぐく）が、久延毘古が知っているはずだというので呼び寄せて問うと、久延毘古は、その神が神産巣日神の子の少名毘古那神であることを明かした。 |
+| taniguku-c06 | exact | kojiki.kokugakuin.ac.jp | One theory treats Kuebiko as a single deity with Taniguku (the toad), a form given to the toad's knowledge of crawling over the earth and knowing everything under heaven. | また、多邇具久（たにぐく＝ヒキガエル）と一体の神と捉え、地上をはいずり回って天下のことを知り尽くすという、ヒキガエルの知の働きに形が与えられたものと見る説もある。 |
 
 
 ## tenaga-ashinaga — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -646,6 +643,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tenaga-ashinaga-c02 | exact | ja.wikipedia.org | They appear as one giant, a married pair or siblings with unusually long limbs. | その特徴は｢手足が異常に長い巨人｣で各地の伝説は共通しているが、手足の長い一人の巨人、または夫の足（脚）が異常に長く妻の手（腕）が異様に長い夫婦、または兄弟の巨人とも言われ、各地で細部は異なることもある。 |
 | tenaga-ashinaga-c03 | exact | ja.wikipedia.org | Mount Chōkai accounts describe attacks on travelers and ships. | 秋田では鳥海山に棲んでいたとされ、山から山に届くほど長い手足を持ち、旅人をさらって食べたり、日本海を行く船を襲うなどの悪事を働いていた。 |
 | tenaga-ashinaga-c04 | exact | ja.wikipedia.org | Accounts differ between their disappearance after prayer and surrender with an end to cannibalism. | それでも手長足長の悪行は続いたため、後にこの地を訪れた慈覚大師が吹浦（山形県鳥海山大物忌神社）で百日間祈りを捧げた末、鳥海山は吹き飛んで手長足長が消え去ったという。また消えたのではなく、大師の前に降参して人を食べなくなったともいわれ、大師がこの地を去るときに手長足長のために食糧としてタブノキの実を撒いたことから、現在でも三崎山（にかほ市小砂川地域）にはタブノキが茂っているのだという。 |
+| tenaga-ashinaga-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a Japanese yōkai, a giant with extraordinarily long arms or legs told of in the Tōhoku and Hokuriku regions, such as Akita, Yamagata, Fukushima, Nagano and Fukui. | 日本の妖怪。秋田県、山形県、福島県、長野県、福井県など東北・北陸地方に伝承がある、手や足が異様に長い巨人。 |
+| tenaga-ashinaga-c06 | exact | kotobank.jp | The Kodansha biographical dictionary calls tenaga-ashinaga legendary figures of China (中国) with extraordinarily long arms or legs, recorded in the ancient geography Shanhaijing (山海経) as the long-armed and long-legged people (長臂人, 長股人). | 中国の伝説上の人。 手あるいは足が異様にながいとされる。古代中国の地理書「山海経(せんがいきょう)」に長臂人,長股人とある。 |
+| tenaga-ashinaga-c07 | exact | kotobank.jp | After entering Japan (日本) under a new name, they were treated as immortal beings invoked for the emperor's (天皇) longevity and the permanence of the court, and were painted as decoration in the palace. | 日本にはいって名をかえ,天皇の長寿と朝廷の永久性をねがう不老長寿の神仙としてあつかわれ,宮中の装飾画にえがかれた。 |
+| tenaga-ashinaga-c08 | exact | www.nichibun.ac.jp | In a Yuza (Yamagata) version recorded in the Nichibunken database, this huge monster sat on the summit of Mount Chōkai (鳥海山), raking in ships offshore with its feet and eating their crews; the god of heaven grew angry and blew up Mount Chōkai, and the part of the summit that flew off became Tobishima (飛島). | この魔物はものすごく大きく、鳥海山の頂上にいながら沖合の船を足でかき寄せて乗員を喰っていた。天の神がこれを怒り、鳥海山を爆発させたとき飛んでいった頂上の一部が飛島である。 |
 
 
 ## tenjokudari — lulus-otomatis
@@ -675,24 +676,22 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## tentoki-and-ryutoki — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tentoki-and-ryutoki-c01 | exact | en.wikipedia.org | Tentōki and Ryūtōki are a pair of demonlike figures in Japanese tradition. | Tentōki and Ryūtōki (木造天燈鬼立像 mokuzō tentōki ritsuzō) and (木造竜燈鬼立像 mokuzō ryūtōki ritsuzō) are a pair of demon-like creatures in Japanese folklore. |
 | tentoki-and-ryutoki-c02 | exact | en.wikipedia.org | Their small-oni appearance symbolizes the Four Heavenly Kings’ victory over evil. | They are usually depicted as small oni, and symbolize the power of the Shitennō to repel and defeat evil. |
 | tentoki-and-ryutoki-c03 | exact | en.wikipedia.org | Kōben’s statues at Kōfuku-ji carry lantern offerings for the Buddha. | Kōben sculpted notable statues of Tentōki and Ryūtōki, each considered a National Treasure of Japan, carrying lanterns as offering to the Historical Buddha at Kōfuku-ji in Nara. |
+| tentoki-and-ryutoki-c04 | exact | kotobank.jp | According to Digital Daijisen, Tentōki is an oni-shaped statue owned by Kōfuku-ji (興福寺) in Nara, of joined wood and painted, made by Kōben (康弁) in 1215; it pairs with Ryūtōki, supports a lantern with its left shoulder and hand, and is a National Treasure (国宝). | 奈良興福寺所蔵の鬼の姿の彫像。寄せ木造り。着色。建保3年（1215）康弁作。竜灯鬼と一対をなし、左肩と左手で灯籠を支え持つ。国宝。 |
+| tentoki-and-ryutoki-c05 | exact | kotobank.jp | The Nihon Kokugo Daijiten also records this standing oni statue under the name Tōdaiki (灯台鬼), forming a two-figure pair with Ryūtōki. | 彫刻。木造。建保三年（一二一五）、康弁(こうべん)作。肩と左手で灯籠(とうろう)を支えている鬼の立像。龍灯鬼と二体一対をなす。奈良興福寺蔵。国宝。灯台鬼。 |
+| tentoki-and-ryutoki-c06 | exact | kotobank.jp | Ryūtōki is a statue at Kōfuku-ji paired with Tentōki, made by Kōben in 1215; a dragon coils around its body and it carries a lantern on its head. | 奈良興福寺所蔵の、天灯鬼と一対をなす彫像。寄せ木造り。着色。建保3年（1215）康弁作。胴体に竜がからみ、頭上に灯籠をのせる。 |
+| tentoki-and-ryutoki-c07 | exact | kotobank.jp | Ryūtōki stands with feet planted, hands crossed in front, mouth pressed into a downturned line and eyes glancing upward; a slip of paper inside the statue states that it was made by Hokkyō Kōben (法橋康弁) on the 26th day of the fourth month of Kenpō 3 (建保三年). | 足を踏まえ、手を前に組んで口をへの字に結び、上目をしている。胎内(たいない)に建保三年卯月廿六日法橋康弁作と書かれた紙片が納められていた。 |
 
 
 ## the-lake-inba-monster — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -701,28 +700,27 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | the-lake-inba-monster-c03 | exact | ja.wikipedia.org | Records give it a black body, an apelike face and very long claws. | 『年代記』や『密説風聞書』に残された記録によれば、怪獣は、体長1丈6尺（約4.8メートル）で全身が黒く、鼻の低い猿のような顔つきで、1尺（30センチメートル）もある爪を持っていた。 |
 | the-lake-inba-monster-c04 | exact | ja.wikipedia.org | Its thunderlike cry is said to kill thirteen officials or more. | 怪獣は、しばらく大きな岩の上に腰掛けていたが、突然、雷のような轟音を立てると、監視中の役人13人（またはそれ以上）が即死してしまい、生還した者達も重病になったという。 |
 | the-lake-inba-monster-c05 | exact | ja.wikipedia.org | Yamaguchi Bintarō suggests the story satirized the government’s reclamation project. | 山口敏太郎によれば、役人が大勢殺害される描写などから、幕府の印旛沼干拓に対する批判や皮肉を込めて、地元住民が創作した目撃談ではないかという。 |
+| the-lake-inba-monster-c06 | exact | az.wikipedia.org | One guess holds that a large seal (suiti) may have travelled far inland and confused local residents; another view calls it an invented story meant to obstruct the work on the lake. | Ehtimalların birinə görə böyük bir suiti ölkənin daxili hissələrinə qədər gəlib çıxa bilmiş və yerli sakinləri çaşdırmışdır. Bir başqa fikrə görə bu, göldə aparılan işlərin qarşısını almaq məqsədilə ortaya atılmış uydurma hekayədir. |
+| the-lake-inba-monster-c07 | exact | az.wikipedia.org | In 2020 the Yaçiyo municipal folklore museum near the lake created a 1:4 scale model of the creature. | 2020-ci ildə gölün yaxınlığında yerləşən Yaçiyo Bələdiyyə Folklor Muzeyində İnba gölü bədheybətinin 1:4 miqyasında olan modeli yaradılmışdır. |
 
 
 ## toyohiwake-no-mikoto — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | toyohiwake-no-mikoto-c01 | exact | ja.wikipedia.org | Toyohiwake is the divine face of Toyo among the four faces of Tsukushi Island in the Kojiki. | 『古事記』国産みの段において、伊邪那岐命・伊邪那美命が産んだ大八島国の一つである筑紫島は、伊予之二名島と同じく体は1つだが顔は4つあるとした。その2番目が豊国であるが、神の顔の名は豊日別であると記している。 |
 | toyohiwake-no-mikoto-c02 | exact | ja.wikipedia.org | The other faces represent Tsukushi, Hi and Kumaso. | 他の3つの顔は筑紫国の白日別、肥国の建日向日豊久士比泥別、熊襲国の建日別である。 |
 | toyohiwake-no-mikoto-c03 | exact | ja.wikipedia.org | Watarai Nobuyoshi interprets the divine names as older regional names. | ただし、江戸中期の神道学者の度会延佳は、筑紫国や豊国といった国名は、いささか後世になってからの名称であって、神代には、国名が白日別、豊日別などの名称だったのであろう、筑紫島が9国に分かれ西海道と呼ばれるようになったのも（律令制が敷かれた）のちのことである、としている。 |
+| toyohiwake-no-mikoto-c04 | exact | kojiki.kokugakuin.ac.jp | The land of Toyo (豊国) corresponds to Buzen (豊前国) and Bungo (豊後国), which were split into two provinces around the end of the seventh century. | 豊国は、豊前国と豊後国に当たり、七世紀末頃に二国に分けられた。 |
+| toyohiwake-no-mikoto-c05 | exact | kojiki.kokugakuin.ac.jp | On the meaning of Toyohiwake (豊日別), one theory takes "toyohi" as a sun abundant in light and another derives it from the land's name; it is also noted that the names of the lands of Tsukushi Island (筑紫島) all contain "hi" (日). | 豊日別の名義について、「豊日」は光豊かな太陽の意とする説や、国名に由来するという説がある。筑紫島の国々の持つ名前に、みな「日」がついていることにも注意される。 |
+| toyohiwake-no-mikoto-c06 | exact | kojiki.kokugakuin.ac.jp | The title "wake" (別) is found in ancient personal names, and the attachment of wake, hiko and hime to the islands and lands born of Izanagi and Izanami (岐美二神) has been discussed as personifying naming. | 「別」という称号は古代の人名に見られ、岐美二神の生んだ島やその国の名前にワケ・ヒコ・ヒメとつくのは擬人的な命名であると論じられている。 |
 
 
 ## tsuki-no-usagi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -730,6 +728,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tsuki-no-usagi-c02 | exact | fr.wikipedia.org | One associated legend makes the hare a friend of a monkey and fox. | Dans le passé, le lièvre s'est lié d'amitié avec le singe et le renard. |
 | tsuki-no-usagi-c03 | exact | fr.wikipedia.org | It offers itself in a fire to feed an old visitor. | Lorsque les flammes s'élèvent et que les braises sont suffisamment chaudes, le lièvre se jette sur le bûcher en sacrifice et offre son corps comme nourriture au vieillard. |
 | tsuki-no-usagi-c04 | exact | fr.wikipedia.org | The visitor, a disguised divine king, places the hare’s remains on the Moon. | Ce dernier, déclinant son titre de roi des dieux, réunit les restes du lièvre et les place sur la Lune afin que le sacrifice de l'animal soit visible de tous. |
+| tsuki-no-usagi-c05 | exact | kotobank.jp | The Nihon Kokugo Daijiten defines tsuki no usagi (月の兎) as the hare said in legend to live on the Moon, lists it as an autumn season word (季語), and gives its earliest example from the haikai collection Kefukigusa (毛吹草, 1638). | 伝説で、月にいるという兎。《 季語・秋 》 [初出の実例]「いとはじな月の兎(ウサギ)の下り坂〈忠也〉」(出典：俳諧・毛吹草（1638）六) |
+| tsuki-no-usagi-c06 | exact | fr.wikipedia.org | Another Japanese legend says that on the eighth night of the eighth month, at full moon, a female hare (hase) descends from the sky toward the sea and plays in the waves. | Une autre légende japonaise, venant en complément, affirme que la huitième nuit du huitième mois, lors de la pleine lune, une hase descend du ciel en direction de la mer et joue dans les vagues. |
+| tsuki-no-usagi-c07 | exact | fr.wikipedia.org | The idea of the hare in the Moon is said to originate in India (Indes), where the legend of the hare's sacrifice comes from. | Cette idée trouve son origine aux Indes d'où vient la légende suivante. |
 
 
 ## umi-nyobo — lulus-otomatis
@@ -748,10 +749,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## ura — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -759,6 +757,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ura-c02 | exact | ja.wikipedia.org | Tradition makes him a Kibi ruler defeated by Kibitsuhiko. | 温羅とは伝承上の鬼・人物で、古代吉備地方の統治者であったとされる。「鬼神」「吉備冠者（きびのかじゃ）」という異称があり、伝承によると吉備には吉備津彦命（きびつひこのみこと）が派遣され退治されたという。 |
 | ura-c03 | exact | ja.wikipedia.org | Kibitsuhiko wounds his left eye by shooting two arrows together. | 温羅に対して矢を1本ずつ射たが温羅はその都度石を投げて撃ち落とした。そこで命が2本同時に射たところ、1本は撃ち落とされたが、もう1本は温羅の左眼を射抜いた。 |
 | ura-c04 | exact | ja.wikipedia.org | Their pursuit changes from pheasant and hawk to carp and cormorant before Ura surrenders. | すると温羅は雉に化けて逃げたので、五十狭芹彦命は鷹に化けて追った。さらに温羅は鯉に身を変えて逃げたので、五十狭芹彦命は鵜に変化してついに捕らえたところ温羅は降参し「吉備冠者」の名を五十狭芹彦命に献上した。これにより五十狭芹彦命は吉備津彦命と呼ばれるようになった。 |
+| ura-c05 | exact | www.nichibun.ac.jp | According to a summary in the Nichibunken database, in the reign of Emperor Suinin (垂仁天皇) Isaserihiko no Mikoto was sent to subdue Ura, a demon (鬼神) from Baekje (百済) who repeatedly plundered the land of Kibi (吉備国). | 垂仁天皇の時代、吉備国で略奪を繰り返す百済の鬼神、温羅を退治するため、イサセリヒコノミコトが派遣された。 |
+| ura-c06 | exact | www.nichibun.ac.jp | After catching Ura, who fled by turning into a pheasant and a carp, the prince beheaded him and displayed the head; because the head kept roaring loudly for years, Ura's spirit was enshrined to pacify it. | 雉や鯉に姿を変えて逃れる温羅を捕らえたミコトは、首を刎ねて曝したが、その首が何年も大声でうなり続けたため、温羅の霊を祀って鎮めた。 |
+| ura-c07 | exact | www.nichibun.ac.jp | Kibitsuhiko Shrine (吉備津彦神社) has a cauldron hall (お釜殿); those wishing to divine good or ill fortune ask a shrine maiden called Asome (阿曾女), who burns brushwood and holds offering rice in a sieve over the cauldron's steam. | 吉備津彦神社にはお釜殿があり、吉凶を占いたければ阿曾女という巫女に請えば、巫女は柴をたき、供米を篩に入れて釜の湯気にかざす。 |
+| ura-c08 | exact | www.nichibun.ac.jp | The cauldron's sound is said to be Ura's cry, because when Kibitsuhiko (吉備津彦命) cut off his head it still seemed alive, so it was buried under the cauldron. | これは昔、吉備津彦命が温羅の首をはねたときに、まだ生きているようだったので命はこれを釜の下に生められたため、その叫び声であるといわれている。 |
 
 
 ## ushirogami — lulus-otomatis
