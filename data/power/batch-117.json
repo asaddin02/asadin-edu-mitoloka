@@ -948,13 +948,36 @@
     "tanggal": "2026-10-06"
   },
   "bleiddwn": {
-    "power": null,
+    "power": "mortal",
     "threat": null,
-    "fear": null,
-    "reasons": {},
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Perkiraan editorial dari kisahnya: anak serigala hasil sihir Math atas Gwydion dan Gilfaethwy yang kemudian dijadikan manusia oleh Math; setelah berwujud manusia tanpa kemampuan yang diceritakan, ia dinilai Mortal.",
+        "en": "Editorial estimate from its story: a wolf cub born of Math's magic on Gwydion and Gilfaethwy and later made human by Math; once in human form with no abilities told, he is rated Mortal.",
+        "claim_ids": [
+          "bleiddwn-c02",
+          "bleiddwn-c03",
+          "bleiddwn-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan Bleiddwn sendiri; hukuman dan sihir adalah perbuatan Math, jadi ancaman belum dinilai.",
+        "en": "The research holds no deeds by Bleiddwn himself; the punishment and magic are Math's doing, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perkiraan editorial dari kisahnya: kelahiran dari dua pria yang diubah menjadi pasangan serigala sebagai hukuman memberi kesan ganjil; Fear Unsettling ini terbatas pada asal-usulnya.",
+        "en": "Editorial estimate from its story: birth from two men turned into a wolf pair as punishment gives an uncanny impression; this Unsettling Fear is limited to his origin.",
+        "claim_ids": [
+          "bleiddwn-c02",
+          "bleiddwn-c05"
+        ]
+      }
+    },
     "perlu_riset": "Riset hanya mencatat kelahiran Bleiddwn dari serigala dan perubahannya menjadi manusia oleh Math; kemampuan, perbuatan, dan perannya sendiri belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-14"
   },
   "bluecap": {
     "power": "superhuman",
@@ -1044,5 +1067,36 @@
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
+  },
+  "buarainech": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Buarainech adalah raksasa dari bangsa Fomori dan ayah Balor raja mereka; wujud raksasa menjadi dasar Monstrous, sedangkan riset tidak memuat kemampuan atau perbuatannya sendiri.",
+        "en": "Buarainech is a Fomorian giant and father of their king Balor; giant form supports Monstrous, while the research records no abilities or deeds of his own.",
+        "claim_ids": [
+          "buarainech-c02",
+          "buarainech-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Buarainech sendiri; tatapan maut dan kekalahan di tangan Lugh adalah kisah putranya Balor, jadi ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Buarainech himself; the deadly gaze and defeat by Lugh belong to his son Balor, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Nama yang ditafsirkan sebagai berwajah sapi, sesuai rupa khas Fomori, menjadi dasar Fear Unsettling; tafsir Squire ini tidak menjelaskan sifat lain.",
+        "en": "A name read as cow-faced, fitting the typical Fomorian look, supports Unsettling Fear; Squire's reading says nothing further about his nature.",
+        "claim_ids": [
+          "buarainech-c03",
+          "buarainech-c06"
+        ]
+      }
+    },
+    "perlu_riset": "Riset hanya memuat silsilah (putra Neit, ayah Balor) dan arti namanya; kemampuan, perbuatan, dan peran Buarainech dalam kisah Fomori belum ada.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-14"
   }
 }

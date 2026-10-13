@@ -259,34 +259,73 @@
     "tanggal": "2026-10-13"
   },
   "set-animal": {
-    "perlu_riset": "Riset hanya membahas ikonografi dan identitas hewan Set (sha); tidak ada kekuatan, perbuatan, atau kisah mandiri (klaim set-animal-c12 menyebut tidak ada mitologi sendiri), sehingga tiga sumbu belum bisa dinilai.",
-    "oleh": "claude-lokal",
-    "tanggal": "2026-10-13"
-  },
-  "medjed-fish": {
-    "power": null,
+    "power": "superhuman",
     "threat": null,
-    "fear": null,
+    "fear": "f1",
     "reasons": {
       "power": {
-        "id": "Ikan ini dipuja di Oxyrhynchus dan digambarkan bermahkota cakram matahari bertanduk, tetapi riset tidak memuat kuasa atas suatu ranah; pemujaan bukan bukti kuasa, jadi Power belum dinilai.",
-        "en": "The fish is worshipped at Oxyrhynchus and shown with horned sun-disc crowns, but the research records no authority over a domain; worship is not evidence of power, so Power is not assessed.",
-        "claim_ids": []
+        "id": "Perkiraan editorial dari kisahnya: binatang Set (sha) atau binatang Typhon yang kepalanya dipakai dewa Set dan hieroglifnya menandai penderitaan, kekerasan, dan badai; sebagai binatang dewa tanpa kisah mandiri, ia dinilai Superhuman terendah.",
+        "en": "Editorial estimate from its story: the Set animal (sha) or Typhonian beast, whose head the god Set bears and whose hieroglyph marks suffering, violence and storms; as a god's animal with no independent story, it is rated the lowest Superhuman.",
+        "claim_ids": [
+          "set-animal-c01",
+          "set-animal-c03",
+          "set-animal-c04",
+          "set-animal-c12"
+        ]
       },
       "threat": {
-        "id": "Ikan memakan anggota tubuh Osiris yang tercecer dan akibatnya Osiris tidak utuh (c12) adalah kisah pengantar, bukan perbuatan menyerang; perang Oxyrhynchus-Cynopolis dipicu manusia, jadi ancaman belum dinilai.",
-        "en": "The fish eating Osiris's scattered member, leaving him incomplete (c12), is an incidental event in the tale rather than an attack, and the Oxyrhynchus-Cynopolis war was caused by humans, so threat is not assessed.",
+        "id": "Riset menyebut sha tidak punya mitologi sendiri di luar kaitannya dengan Set, sehingga tidak ada perbuatan yang bisa dinilai; ancaman belum dinilai.",
+        "en": "The research states the sha has no mythology of its own beyond its link to Set, so no deeds can be assessed; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
-        "id": "Riset mencatat orang Mesir menjauhi ikan ini sebagai pantangan, bukan sebagai makhluk yang ditakuti; Fear belum dinilai.",
-        "en": "The research records Egyptians avoiding these fish as a taboo, not as a feared being; Fear is not assessed.",
-        "claim_ids": []
+        "id": "Perkiraan editorial dari kisahnya: hewan tak terkenali bertelinga tegak bersudut dan berekor kaku yang menjadi tanda kekerasan dan badai memberi kesan ganjil; Fear Unsettling dipilih karena ia sendiri tidak berbuat apa-apa.",
+        "en": "Editorial estimate from its story: an unidentifiable animal with angular upright ears and a stiff tail that marks violence and storms gives an uncanny impression; Unsettling Fear is chosen because it does nothing itself.",
+        "claim_ids": [
+          "set-animal-c02",
+          "set-animal-c04",
+          "set-animal-c05"
+        ]
       }
     },
-    "perlu_riset": "Riset kini memuat pemujaan, pantangan, dan kisah Osiris dalam Plutarkhos, tetapi belum ada kemampuan, ranah, atau perbuatan yang menjadi dasar ketiga sumbu.",
+    "perlu_riset": "Riset hanya membahas ikonografi dan identitas hewan Set (sha); tidak ada kekuatan, perbuatan, atau kisah mandiri (set-animal-c12).",
     "oleh": "claude-lokal",
-    "tanggal": "2026-10-13"
+    "tanggal": "2026-10-14"
+  },
+  "medjed-fish": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Perkiraan editorial dari kisahnya: ikan suci bermahkota cakram matahari bertanduk yang dipuja di Oxyrhynchus dan dalam mitos menelan bagian tubuh Osiris; status suci itu menjadi dasar Superhuman terendah, karena riset tidak memuat kuasa atas suatu ranah.",
+        "en": "Editorial estimate from its story: a sacred fish crowned with horned sun-discs, worshipped at Oxyrhynchus and in myth swallowing part of Osiris's body; that sacred status supports the lowest Superhuman, since the research records no authority over a domain.",
+        "claim_ids": [
+          "medjed-fish-c01",
+          "medjed-fish-c02",
+          "medjed-fish-c04"
+        ]
+      },
+      "threat": {
+        "id": "Perkiraan editorial dari kisahnya: ikan menelan anggota tubuh Osiris sehingga Osiris tidak utuh dan tidak lagi bisa memerintah dunia orang hidup; akibat pada satu sosok ini dinilai skala individu, dan itu terjadi setelah Set mencerai-beraikan tubuhnya.",
+        "en": "Editorial estimate from its story: the fish swallowed Osiris's member, leaving him incomplete and unable to rule the living; this effect on a single figure is rated individual scale, and it happened after Set had scattered his body.",
+        "claim_ids": [
+          "medjed-fish-c06",
+          "medjed-fish-c12"
+        ]
+      },
+      "fear": {
+        "id": "Perkiraan editorial dari kisahnya: orang Mesir menjauhi ikan ini dan tidak menyentuh ikan yang ditangkap dengan kail karena kisah Osiris; Fear Unsettling ini berasal dari pantangan, bukan dari makhluk yang memburu manusia.",
+        "en": "Editorial estimate from its story: Egyptians avoided these fish and would not touch hook-caught fish because of the Osiris story; this Unsettling Fear comes from taboo, not from a being that hunts humans.",
+        "claim_ids": [
+          "medjed-fish-c07",
+          "medjed-fish-c08"
+        ]
+      }
+    },
+    "perlu_riset": "Riset memuat pemujaan, pantangan, dan kisah Osiris dalam Plutarkhos, tetapi belum ada kemampuan atau ranah ikan ini.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-14"
   },
   "greif": {
     "power": "superhuman",
@@ -315,5 +354,38 @@
     "perlu_riset": "Riset belum memuat skala kekuatan, perbuatan terhadap manusia, atau kisah perjumpaan dengan Greif.",
     "oleh": "claude-lokal",
     "tanggal": "2026-10-13"
+  },
+  "apshait": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Apshait adalah kumbang besar pemakan mayat yang harus diusir dengan bab khusus Kitab Kematian; ancaman bagi jasad orang mati menjadi dasar Superhuman, bukan kekuatan monster yang menghancurkan kawasan.",
+        "en": "The Apshait is a large corpse-eating beetle that must be kept back with a dedicated Book of the Dead chapter; a danger to the bodies of the dead supports Superhuman rather than area-devastating monster power.",
+        "claim_ids": [
+          "apshait-c01",
+          "apshait-c03"
+        ]
+      },
+      "threat": {
+        "id": "Bab XXXVI ditujukan untuk mengusir Apshait dari satu orang mati; ancaman ditafsirkan pada skala individu.",
+        "en": "Chapter XXXVI is meant to keep the Apshait away from a single deceased person; the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "apshait-c03",
+          "apshait-c04"
+        ]
+      },
+      "fear": {
+        "id": "Kengerian utamanya adalah jasad yang dimangsa serangga rakus, yang oleh Renouf disamakan dengan kecoak Blatta orientalis.",
+        "en": "The primary horror is a body devoured by a voracious insect, which Renouf compared to the cockroach Blatta orientalis.",
+        "claim_ids": [
+          "apshait-c01",
+          "apshait-c05"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-14"
   }
 }
