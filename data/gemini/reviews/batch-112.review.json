@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-112",
-  "checked_at": "2026-10-13T15:02:25.208Z",
+  "checked_at": "2026-10-13T18:28:46.404Z",
   "files": [
     "batch-112.md",
-    "batch-112-fix-1.md"
+    "batch-112-fix-1.md",
+    "batch-112-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -890,20 +891,15 @@
     },
     {
       "slug": "ashaqlun",
-      "file": "batch-112.md",
+      "file": "batch-112-fix-2.md",
+      "entry_sha256": "3a789a3a254638fcd5a0bf09f9012c8655a45fdc4566d13f49bc050a226cc75b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ashaqlun-c01",
@@ -944,10 +940,69 @@
           "quote": "Nun brachten sie ihre Kinder zu ihm und er verspeiste die Knaben und gab die Mädchen seiner Gemahlin, um sich an deren „Lebenslichtern“ zu nähren. Anschließend vereinigten sich die beiden und Nebroel wurde schwanger. Sie gebar einen Sohn, dem sie den Namen „Adam“ gab.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ashaqlun-c05",
+          "source_id": "ashaqlun-s2",
+          "host": "archive.org",
+          "statement": "Ashaqlun, Son of the King of Darkness, said to the abortions: \"Give me your sons and your daughters and I will make for you a form like that which you have seen.\"",
+          "statement_id": "Ashaqlun, putra Raja Kegelapan, berkata kepada makhluk-makhluk hasil keguguran (abortions): \"Berikan kepadaku putra-putri kalian, dan aku akan membuatkan bagi kalian suatu wujud seperti yang telah kalian lihat.\"",
+          "quote": "Son of the King of Darkness, said to the abortions, \"Give me your sons and your daughters and I will make for you a form like that which you have seen",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ashaqlun-c06",
+          "source_id": "ashaqlun-s2",
+          "host": "archive.org",
+          "statement": "He, however, devoured the males and gave the females to Namrael.",
+          "statement_id": "Namun ia melahap yang laki-laki dan memberikan yang perempuan kepada Namrael.",
+          "quote": "He, however, devoured the males and gave the females to Namrael",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ashaqlun-c07",
+          "source_id": "ashaqlun-s2",
+          "host": "archive.org",
+          "statement": "Namrael and Ashaqlun united; she conceived by him and bore a son whom she named Adam.",
+          "statement_id": "Namrael dan Ashaqlun bersatu, lalu Namrael mengandung dan melahirkan seorang putra yang ia namai Adam.",
+          "quote": "And Namrael and Ashaqlun united together and she conceived by him and gave birth to a son, and she called his name Adam.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ashaqlun-c08",
+          "source_id": "ashaqlun-s2",
+          "host": "archive.org",
+          "statement": "She conceived again and bore a daughter whom she named Eve (Hawwa).",
+          "statement_id": "Ia mengandung lagi dan melahirkan seorang putri yang ia namai Hawa (Eve, Hawwa).",
+          "quote": "She also conceived (again) and gave birth to a daughter and called her name Eve (Hawwa).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ashaqlun-c09",
+          "source_id": "ashaqlun-s2",
+          "host": "archive.org",
+          "statement": "According to the translator's note, the passage is of particular interest because it gives the traditional name of the son of the King of Darkness.",
+          "statement_id": "Menurut catatan penerjemah, bagian ini penting karena memuat nama tradisional putra Raja Kegelapan.",
+          "quote": "has a particular interest on account of its giving the traditional name of the son of the King of Darkness",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ashaqlun-c10",
+          "source_id": "ashaqlun-s2",
+          "host": "archive.org",
+          "statement": "The translator adopts the form Namrael but judges that Nebroel would probably be better, based on allusions by patristic writers.",
+          "statement_id": "Penerjemah memakai bentuk Namrael, tetapi menilai bentuk Nebroel mungkin lebih tepat berdasarkan rujukan para penulis patristik.",
+          "quote": "has here been adopted, but Nebroel would probably be better, judging from allusions to this proper name by patristic writers",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8d90e41ae3f06691d0700cd23f51923a7cb6e678611302d78c6c342e154e3ad1"
+      "images": []
     },
     {
       "slug": "aufhocker",
@@ -1401,20 +1456,15 @@
     },
     {
       "slug": "brunnmigi",
-      "file": "batch-112.md",
+      "file": "batch-112-fix-2.md",
+      "entry_sha256": "755b7629972dde9649881923464b13f186f5770f7c4c0bb6f72bf4dc84ea4ffc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "brunnmigi-c01",
@@ -1445,10 +1495,49 @@
           "quote": "El Brunnmigi es mencionado en el segundo libro de la serie \"Magnus Chase y los dioses de Asgard\", El Martillo de Thor",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "brunnmigi-c04",
+          "source_id": "brunnmigi-s3",
+          "host": "heimskringla.no",
+          "statement": "Two men went to fetch water from a stream falling from a cliff (bjarg); there they saw a brunnmigi and told King (konungr) Hjörleifr.",
+          "statement_id": "Dua orang pergi mengambil air dari anak sungai yang jatuh dari tebing (bjarg); di sana mereka melihat brunnmigi dan melaporkannya kepada Raja (konungr) Hjörleifr.",
+          "quote": "ok fóru tveir menn at sækja vatn til lækjar, er fell af bjargi fram. Þar sá þeir brunnmiga ok sögðu Hjörleifi konungi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brunnmigi-c05",
+          "source_id": "brunnmigi-s3",
+          "host": "heimskringla.no",
+          "statement": "The king then heated a pointed spear (broddspjót) in the fire and shot it at the creature.",
+          "statement_id": "Raja kemudian memanaskan tombak berujung tajam (broddspjót) di api dan melemparkannya ke arah makhluk itu.",
+          "quote": "Síðan heitir konungr broddspjót í eldi ok skaut til hans.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brunnmigi-c06",
+          "source_id": "brunnmigi-s3",
+          "host": "heimskringla.no",
+          "statement": "Then they took water, while the giant (þursinn) darted into the cliff (bjargit).",
+          "statement_id": "Orang-orang itu lalu mengambil air, sedangkan sang raksasa (þursinn) melesat masuk ke dalam tebing (bjargit).",
+          "quote": "Þá tóku þeir vatn, en þursinn skauzt inn í bjargit.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brunnmigi-c07",
+          "source_id": "brunnmigi-s3",
+          "host": "heimskringla.no",
+          "statement": "Hjörleifr then shot the same spear into the eye of that troll (trölli).",
+          "statement_id": "Hjörleifr kemudian melemparkan tombak yang sama ke mata troll (trölli) itu.",
+          "quote": "Þá skaut Hjörleifr inu sama spjóti í auga því trölli.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "08b84d98097dc7db6f790dfa7607f38aa1f6e92f91b1b901b1a07d30c80bfa3c"
+      "images": []
     },
     {
       "slug": "buschgro-mutter",
@@ -3922,20 +4011,15 @@
     },
     {
       "slug": "melanchaetes",
-      "file": "batch-112.md",
+      "file": "batch-112-fix-2.md",
+      "entry_sha256": "02fde2e38e63987651d2771a009477941e02da3cbe2ba611e95162a56a2c1074",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "melanchaetes-c01",
@@ -3976,10 +4060,49 @@
           "quote": "Melanchaetes, one of the centaurs who tried to steal the wine of Pholus and was killed by Heracles.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "melanchaetes-c05",
+          "source_id": "melanchaetes-s3",
+          "host": "www.thelatinlibrary.com",
+          "statement": "In Ovid's Latin text Melanchaetes is the first to wound Actaeon's back (in tergo), followed by Theridamas, while Oresitrophos clings to his shoulder.",
+          "statement_id": "Dalam teks Latin Ovidius, Melanchaetes yang pertama melukai punggung Aktaion (in tergo), disusul Theridamas, sementara Oresitrophos mencengkeram bahunya.",
+          "quote": "prima Melanchaetes in tergo vulnera fecit, proxima Theridamas, Oresitrophos haesit in armo",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "melanchaetes-c06",
+          "source_id": "melanchaetes-s3",
+          "host": "www.thelatinlibrary.com",
+          "statement": "These hounds had set out later, but got ahead by a shortcut over the mountain (per conpendia montis).",
+          "statement_id": "Anjing-anjing itu berangkat lebih lambat, tetapi mendahului lewat jalan pintas gunung (per conpendia montis).",
+          "quote": "tardius exierant, sed per conpendia montis anticipata via est",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "melanchaetes-c07",
+          "source_id": "melanchaetes-s4",
+          "host": "www.theoi.com",
+          "statement": "In the English translation, the hound called Blackmane is the first to seize and tear his master's back.",
+          "statement_id": "Dalam terjemahan bahasa Inggris, anjing bernama Blackmane menjadi yang pertama menerkam dan mencabik punggung tuannya.",
+          "quote": "First Blackmane seized and tore his master's back,",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "melanchaetes-c08",
+          "source_id": "melanchaetes-s4",
+          "host": "www.theoi.com",
+          "statement": "They cut through a by-path, arrived first, and clung to their master until the pack came up.",
+          "statement_id": "Anjing-anjing itu memotong lewat jalan pintas, tiba lebih dulu, dan mencengkeram tuan mereka sampai seluruh kawanan datang.",
+          "quote": "cut through a by-path and arriving first clung to their master till the pack came up",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "23777a7ecc9f3684add1596ae0cf887f1c6f58d29c28e6ca345b9d8b67b3c66b"
+      "images": []
     },
     {
       "slug": "roggenwolf",
@@ -4643,20 +4766,15 @@
     },
     {
       "slug": "wanambi",
-      "file": "batch-112.md",
+      "file": "batch-112-fix-2.md",
+      "entry_sha256": "c0a78d3fe5226ed3db5014321049279a08dc3682ae3ada6b05c3c7c88ceb6b81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wanambi-c01",
@@ -4677,10 +4795,49 @@
           "quote": "Wanambi är i Oceaniens mytologi hos urinvånarna i västra Australien namnet på ”den stora regnbågsormen”. Han är fortfarande fruktad för sin stora makt.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wanambi-c03",
+          "source_id": "wanambi-s3",
+          "host": "en.wikipedia.org",
+          "statement": "A number of legends concern the great snake king Wanambi, said to live on the summit of Kata Tjuṯa and to come down only in the dry season.",
+          "statement_id": "Sejumlah legenda berkisah tentang raja ular agung Wanambi, yang konon tinggal di puncak Kata Tjuṯa dan hanya turun pada musim kemarau.",
+          "quote": "A number of legends surround the great snake king Wanambi, who is said to live on the summit of Kata Tjuṯa and only comes down during the dry season.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wanambi-c04",
+          "source_id": "wanambi-s3",
+          "host": "en.wikipedia.org",
+          "statement": "His breath was said to be able to turn a breeze into a hurricane to punish those who did evil deeds.",
+          "statement_id": "Napasnya konon dapat mengubah angin sepoi menjadi badai untuk menghukum orang yang berbuat jahat.",
+          "quote": "His breath was said to be able to transform a breeze into a hurricane in order to punish those who did evil deeds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wanambi-c05",
+          "source_id": "wanambi-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Many Pitjantjatjara Dreamtime legends are associated with Kata Tjuṯa and everything around it, including Uluṟu.",
+          "statement_id": "Ada banyak legenda Dreamtime Pitjantjatjara yang berkaitan dengan Kata Tjuṯa dan seluruh sekitarnya, termasuk Uluṟu.",
+          "quote": "There are many Pitjantjatjara Dreamtime legends associated with this place and indeed everything in the vicinity including Uluṟu / Ayers Rock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wanambi-c06",
+          "source_id": "wanambi-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Most of the mythology surrounding the site is not disclosed to outsiders, particularly women.",
+          "statement_id": "Sebagian besar mitologi tentang situs ini tidak diungkapkan kepada orang luar, terutama kepada perempuan.",
+          "quote": "The majority of mythology surrounding the site is not disclosed to outsiders, and in particular, women.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0e2a810419e648bcd2264c85b0ef0e4a7cd1da4af2a907e5d4bbcc801a0f3582"
+      "images": []
     }
   ]
 }

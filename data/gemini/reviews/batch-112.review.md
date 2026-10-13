@@ -1,6 +1,6 @@
 # Review batch-112
 
-Diperiksa 2026-10-13T15:02:25.208Z. Berkas: batch-112.md, batch-112-fix-1.md.
+Diperiksa 2026-10-13T18:28:46.404Z. Berkas: batch-112.md, batch-112-fix-1.md, batch-112-fix-2.md.
 
 ## lorelei — lulus-otomatis
 
@@ -144,10 +144,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## ashaqlun — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -155,6 +152,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ashaqlun-c02 | exact | de.wikipedia.org | Ashaqlun is the son of the King of Darkness (Königs der Finsternis); his consort is Namrael or Nebroel; they supposedly created the first human pair, Gehmurd (first man, Adam) and Murdiyanag (mother of life, Eve/Eva). | Ashaqlun ist der Sohn des Königs der Finsternis. Seine Gemahlin ist Namrael oder Nebroel. Angeblich erschufen sie das erste Menschenpaar, Gehmurd (Erster Mensch=Adam) und Murdiyanag (Mutter des Lebens=Eva). |
 | ashaqlun-c03 | exact | de.wikipedia.org | Ashaqlun said: bring me your sons and daughters and give me some of the Light we have taken; it is I who will make for you a form like what you have seen, the first man. | “Bring me your sons and daughters; come, give me some of the Light we have taken; it is I who will make for you a form like what you have seen, which is the first man (not the heavenly first man).” |
 | ashaqlun-c04 | exact | de.wikipedia.org | They brought him their children; he ate the boys and gave the girls to his consort to feed on their 'life-lights' (Lebenslichtern); then the two united, Nebroel conceived and bore a son named Adam, and later a daughter named Eve (Eva). | Nun brachten sie ihre Kinder zu ihm und er verspeiste die Knaben und gab die Mädchen seiner Gemahlin, um sich an deren „Lebenslichtern“ zu nähren. Anschließend vereinigten sich die beiden und Nebroel wurde schwanger. Sie gebar einen Sohn, dem sie den Namen „Adam“ gab. |
+| ashaqlun-c05 | exact | archive.org | Ashaqlun, Son of the King of Darkness, said to the abortions: "Give me your sons and your daughters and I will make for you a form like that which you have seen." | Son of the King of Darkness, said to the abortions, "Give me your sons and your daughters and I will make for you a form like that which you have seen |
+| ashaqlun-c06 | exact | archive.org | He, however, devoured the males and gave the females to Namrael. | He, however, devoured the males and gave the females to Namrael |
+| ashaqlun-c07 | exact | archive.org | Namrael and Ashaqlun united; she conceived by him and bore a son whom she named Adam. | And Namrael and Ashaqlun united together and she conceived by him and gave birth to a son, and she called his name Adam. |
+| ashaqlun-c08 | exact | archive.org | She conceived again and bore a daughter whom she named Eve (Hawwa). | She also conceived (again) and gave birth to a daughter and called her name Eve (Hawwa). |
+| ashaqlun-c09 | exact | archive.org | According to the translator's note, the passage is of particular interest because it gives the traditional name of the son of the King of Darkness. | has a particular interest on account of its giving the traditional name of the son of the King of Darkness |
+| ashaqlun-c10 | exact | archive.org | The translator adopts the form Namrael but judges that Nebroel would probably be better, based on allusions by patristic writers. | has here been adopted, but Nebroel would probably be better, judging from allusions to this proper name by patristic writers |
 
 
 ## aufhocker — lulus-otomatis
@@ -230,16 +233,17 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## brunnmigi — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | brunnmigi-c01 | exact | en.wikipedia.org | In Norse mythology a Brunnmigi (Old Norse 'pees in a well') is a being that defiles wells met by King Hjörleifr in Hálfs saga ok Hálfsrekka and, per the Prose Edda þulur, also a kenning for foxes; it is a large beast. | In Norse mythology, a Brunnmigi (Old Norse "pees in a well") is a being who defiles wells encountered by King Hjörleifr in Hálfs saga ok Hálfsrekka and, as recorded in the Prose Edda þulur, is also a kenning applied to foxes. It is a large beast. |
 | brunnmigi-c02 | exact | es.wikipedia.org | The Spanish article likewise calls the Brunnmigi a being of Norse (nórdica) mythology that defiles wells met by King Hjörleifr in Hálfs saga ok Hálfsrekka. | En la mitología nórdica, un Brunnmigi (nórdico antiguo "hace pis en un pozo") es un ser que profana los pozos encontrados por el rey Hjörleifr en Hálfs saga ok Hálfsrekka |
 | brunnmigi-c03 | exact | es.wikipedia.org | The Brunnmigi appears in the second book of the Magnus Chase and the Gods of Asgard series, The Hammer of Thor (El Martillo de Thor). | El Brunnmigi es mencionado en el segundo libro de la serie "Magnus Chase y los dioses de Asgard", El Martillo de Thor |
+| brunnmigi-c04 | exact | heimskringla.no | Two men went to fetch water from a stream falling from a cliff (bjarg); there they saw a brunnmigi and told King (konungr) Hjörleifr. | ok fóru tveir menn at sækja vatn til lækjar, er fell af bjargi fram. Þar sá þeir brunnmiga ok sögðu Hjörleifi konungi. |
+| brunnmigi-c05 | exact | heimskringla.no | The king then heated a pointed spear (broddspjót) in the fire and shot it at the creature. | Síðan heitir konungr broddspjót í eldi ok skaut til hans. |
+| brunnmigi-c06 | exact | heimskringla.no | Then they took water, while the giant (þursinn) darted into the cliff (bjargit). | Þá tóku þeir vatn, en þursinn skauzt inn í bjargit. |
+| brunnmigi-c07 | exact | heimskringla.no | Hjörleifr then shot the same spear into the eye of that troll (trölli). | Þá skaut Hjörleifr inu sama spjóti í auga því trölli. |
 
 
 ## buschgro-mutter — lulus-otomatis
@@ -643,10 +647,7 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## melanchaetes — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -654,6 +655,10 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | melanchaetes-c02 | exact | de.wikipedia.org | Melanchaetes (Ancient Greek Μελαγχαίτης, 'black-haired') is, in Ovid's (Ovids) Metamorphoses and Hyginus's (Hygins) Fabulae, one of Actaeon's (Aktaion) hounds that finally tear him apart. | Melanchaetes (altgriechisch Μελαγχαίτης Melanchaítēs, deutsch ‚schwarzhaarig‘) ist in Ovids Metamorphosen und Hygins Fabulae einer der Hunde des Aktaion, die ihn schließlich zerreißen. |
 | melanchaetes-c03 | exact | de.wikipedia.org | Melanchaetes fell behind the pack in the hunt but took a shortcut over a ridge, so she was the first bitch to attack Actaeon (Aktaion) and wound his back, while Theridamas and Oresitrophos seized his shoulders. | Er war auf der Jagd gegen das Rudel zurückgefallen, hatte dann aber eine Abkürzung über einen Bergrücken genommen. So war Melanchaetes die erste Hündin, die Aktaion angreift und im Rücken verwundet, während zwei weitere Hündinnen, Theridamas und Oresitrophos, seine Schultern packen. |
 | melanchaetes-c04 | exact | en.wikipedia.org | Melanchaetes is also one of the centaurs who tried to steal Pholus's wine and was killed by Heracles. | Melanchaetes, one of the centaurs who tried to steal the wine of Pholus and was killed by Heracles. |
+| melanchaetes-c05 | exact | www.thelatinlibrary.com | In Ovid's Latin text Melanchaetes is the first to wound Actaeon's back (in tergo), followed by Theridamas, while Oresitrophos clings to his shoulder. | prima Melanchaetes in tergo vulnera fecit, proxima Theridamas, Oresitrophos haesit in armo |
+| melanchaetes-c06 | exact | www.thelatinlibrary.com | These hounds had set out later, but got ahead by a shortcut over the mountain (per conpendia montis). | tardius exierant, sed per conpendia montis anticipata via est |
+| melanchaetes-c07 | exact | www.theoi.com | In the English translation, the hound called Blackmane is the first to seize and tear his master's back. | First Blackmane seized and tore his master's back, |
+| melanchaetes-c08 | exact | www.theoi.com | They cut through a by-path, arrived first, and clung to their master until the pack came up. | cut through a by-path and arriving first clung to their master till the pack came up |
 
 
 ## roggenwolf — lulus-otomatis
@@ -772,13 +777,14 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wanambi — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wanambi-c01 | exact | nl.wikipedia.org | In Australian Aboriginal mythology Wanambi is a mythical serpent living in a waterhole near Kata Tjuṯa's highest rock, Wanambi-pidi; its hair is the dark lines on the rock's east side, the wind through the rock's holes is its breath, and when very angry it swells into a hurricane (orkaan). | Wanambi is een mythologische slang die in de mythologie van de Australische Aboriginals in een waterhol dicht bij de hoogste rots van Kata Tjuṯa, Wanambi-pidi leeft. De haren van de slang zijn de donkere lijnen op de oostkant van de rots. De wind die door de vele gaten van de rots waait is zijn adem. Als de slang erg boos is zwelt deze aan tot een orkaan. |
 | wanambi-c02 | exact | sv.wikipedia.org | In Oceanian (Oceaniens) mythology, among the indigenous people of western Australia (västra Australien), Wanambi is the name of 'the great rainbow serpent', still feared for its great power. | Wanambi är i Oceaniens mytologi hos urinvånarna i västra Australien namnet på ”den stora regnbågsormen”. Han är fortfarande fruktad för sin stora makt. |
+| wanambi-c03 | exact | en.wikipedia.org | A number of legends concern the great snake king Wanambi, said to live on the summit of Kata Tjuṯa and to come down only in the dry season. | A number of legends surround the great snake king Wanambi, who is said to live on the summit of Kata Tjuṯa and only comes down during the dry season. |
+| wanambi-c04 | exact | en.wikipedia.org | His breath was said to be able to turn a breeze into a hurricane to punish those who did evil deeds. | His breath was said to be able to transform a breeze into a hurricane in order to punish those who did evil deeds. |
+| wanambi-c05 | exact | en.wikipedia.org | Many Pitjantjatjara Dreamtime legends are associated with Kata Tjuṯa and everything around it, including Uluṟu. | There are many Pitjantjatjara Dreamtime legends associated with this place and indeed everything in the vicinity including Uluṟu / Ayers Rock. |
+| wanambi-c06 | exact | en.wikipedia.org | Most of the mythology surrounding the site is not disclosed to outsiders, particularly women. | The majority of mythology surrounding the site is not disclosed to outsiders, and in particular, women. |
 

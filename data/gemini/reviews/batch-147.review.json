@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-147",
-  "checked_at": "2026-10-07T07:39:04.997Z",
+  "checked_at": "2026-10-13T18:28:45.223Z",
   "files": [
     "batch-147.md",
     "batch-147-fix-1.md",
@@ -9,7 +9,9 @@
     "batch-147-fix-4.md",
     "batch-147-fix-5.md",
     "batch-147-fix-6.md",
-    "batch-147-fix-7.md"
+    "batch-147-fix-7.md",
+    "batch-147-fix-8.md",
+    "batch-147-fix-9.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4822,20 +4824,15 @@
     },
     {
       "slug": "mohan-legendary",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "93fd90f9664bcea0bd7d13c67e8e40889cae723810a14030d914aaf8aa39b9ff",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mohan-legendary-c01",
@@ -4866,27 +4863,131 @@
           "quote": "The Mohan is also known as an avatar whose form shamans can adopt.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c04",
+          "source_id": "mohan-legendary-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The most common use of the term refers to the souls of the dead and the indigenous ancestors of old.",
+          "statement_id": "Penggunaan istilah ini yang paling umum merujuk pada arwah orang mati dan leluhur pribumi dari masa lampau.",
+          "quote": "The most common use of the term is to refer to the souls of the dead and the indigenous ancestors of old.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c05",
+          "source_id": "mohan-legendary-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Colombia, Mohan can also mean a forest or barren-land spirit.",
+          "statement_id": "Di Colombia, Mohan juga bisa berarti roh hutan atau roh tanah tandus.",
+          "quote": "In Colombia, Mohan can also mean a forest or barren land spirit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c06",
+          "source_id": "mohan-legendary-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some legends it is a satyr-like being that steals and eats young women and lives in a cave-like grotto at the bottom of great jungle rivers, where it keeps its captives.",
+          "statement_id": "Dalam sebagian legenda, Mohan adalah makhluk mirip satir yang menculik dan memakan perempuan muda serta tinggal di gua di dasar sungai-sungai besar di rimba, tempat ia menyimpan tawanannya.",
+          "quote": "In some legends, it is a satyr-like being who steals and eats young women and lives in a cave-like grotto at the bottom of the great jungle rivers where he keeps his female captives.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c07",
+          "source_id": "mohan-legendary-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other versions it steals fishermen's bait, catch or nets and has the power to change shape into a cat-like beast.",
+          "statement_id": "Dalam versi lain, Mohan mencuri umpan, tangkapan, atau jala nelayan dan mampu berubah wujud menjadi binatang mirip kucing.",
+          "quote": "who steals fishermen's bait, catch or nets, and has the power to change shape into a cat-like beast",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c08",
+          "source_id": "mohan-legendary-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One myth tells how a shaman became an alligator to be close to the girls who played in the river.",
+          "statement_id": "Satu mitos mengisahkan seorang dukun yang menjadi aligator (alligator) agar bisa dekat dengan gadis-gadis yang bermain di sungai.",
+          "quote": "One myth tells of how a shaman became an alligator to be close to the girls who played in the river.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c09",
+          "source_id": "mohan-legendary-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Poira, whose name is interchangeable with the Mohan, is described by some as an Indian warlock living on the Cerro del Pacandé in Tolima, Colombia.",
+          "statement_id": "Poira, yang namanya dapat dipertukarkan dengan Mohan, oleh sebagian orang digambarkan sebagai penyihir pribumi yang tinggal di Cerro del Pacandé, Tolima, Colombia.",
+          "quote": "The Poira, whose name is interchangeable with the Mohan, is described by others as an Indian warlock who lives on the Cerro del Pacandé in Tolima, Colombia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c10",
+          "source_id": "mohan-legendary-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The Mohán is a figure of Colombian folk myth, described as a very corpulent human with abundant, long, unkempt hair covering much of its body.",
+          "statement_id": "Mohán adalah tokoh dalam mitos rakyat Colombia, digambarkan sebagai manusia bertubuh sangat besar (muy corpulento) dengan rambut lebat, panjang, dan kusut yang menutupi sebagian besar tubuhnya.",
+          "quote": "El Mohán es un personaje perteneciente a los mitos folclóricos de Colombia. Se le describe como un ser humano, muy corpulento, con una abundante, larga y descuidada cabellera con la que cubre gran parte de su cuerpo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c11",
+          "source_id": "mohan-legendary-s2",
+          "host": "es.wikipedia.org",
+          "statement": "According to legend it roams caves near streams, rivers or lagoons and can be detected at night near the river.",
+          "statement_id": "Menurut legenda, Mohán berkeliaran di gua-gua dekat anak sungai, sungai, atau laguna (cavernas cercanas a quebradas, ríos o lagunas), dan dapat dijumpai pada malam hari di dekat sungai.",
+          "quote": "Según las leyendas, ronda en cavernas cercanas a quebradas, ríos o lagunas, se dice que el Mohán puede ser detectado en las noches cerca del río.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c12",
+          "source_id": "mohan-legendary-s2",
+          "host": "es.wikipedia.org",
+          "statement": "It is one of the most representative mythological figures of the former Estado Soberano del Tolima (Colombia), which comprised present-day Tolima and Huila.",
+          "statement_id": "Mohán adalah salah satu tokoh mitologis paling representatif dari wilayah yang dahulu disebut Estado Soberano del Tolima (Colombia), meliputi Tolima dan Huila sekarang.",
+          "quote": "Es uno de los personajes mitológicos más representativos de lo que anteriormente se conocía como Estado Soberano del Tolima (Colombia), que comprendía los territorios actuales de Tolima y Huila.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c13",
+          "source_id": "mohan-legendary-s2",
+          "host": "es.wikipedia.org",
+          "statement": "According to tradition in Tolima it travels by raft, smokes tobacco to drive away insects, and turns into a human to buy aguardiente.",
+          "statement_id": "Menurut tradisi di Tolima, Mohán bepergian dengan rakit (balsa), mengisap tembakau (tabaco) untuk mengusir serangga, dan menjelma menjadi manusia untuk membeli aguardiente.",
+          "quote": "Según la tradición, este se transporta en balsa, fuma tabaco para espantar los insectos y se transforma en ser humano para comprar aguardiente.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mohan-legendary-c14",
+          "source_id": "mohan-legendary-s2",
+          "host": "es.wikipedia.org",
+          "statement": "It is considered a deity of the waters, rivers, streams and brooks.",
+          "statement_id": "Mohán dianggap sebagai dewa perairan, sungai, anak sungai, dan kali kecil (deidad de las aguas).",
+          "quote": "Es considerado una deidad de las aguas, ríos, quebradas y riachuelos.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "51d68cc06cdbb08830a243fcf634e6d76992226b8fa5e2b82938c85c2466a0d7"
+      "images": []
     },
     {
       "slug": "momo-the-monster",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "5278c56ee72ef6e8840705a974dc3d15e37b41eb8631c7fca3c82c8b89c88446",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "momo-the-monster-c01",
@@ -4917,27 +5018,151 @@
           "quote": "On July 11, 1972, two young boys were playing in their backyard on the rural outskirts of Louisiana, Missouri.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c04",
+          "source_id": "momo-the-monster-s2",
+          "host": "web.archive.org",
+          "statement": "The \"Momo\" (\"Missouri monster\") scare began on Tuesday, July 11, 1972, at 3:30 p.m. on the outskirts of the city of Louisiana (pop. 4,600).",
+          "statement_id": "Kegemparan \"Momo\" (\"Missouri monster\") dimulai pada Selasa, 11 Juli 1972, pukul 15.30 di pinggiran kota Louisiana (penduduk 4.600).",
+          "quote": "\"Momo\" (\"Missouri monster\") scare began on Tuesday, July 11, 1972, at 3:30 p.m. on the outskirts of the city of Louisiana (pop. 4,600).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c05",
+          "source_id": "momo-the-monster-s2",
+          "host": "web.archive.org",
+          "statement": "She saw something standing by a tree: six or seven feet tall, black and hairy, standing like a man but not looking like one.",
+          "statement_id": "Ia melihat sesuatu berdiri di dekat pohon: setinggi enam atau tujuh kaki, hitam dan berbulu, berdiri seperti manusia tetapi tidak tampak seperti manusia.",
+          "quote": "saw something standing by a tree: \"Six or seven feet tall, black and hairy. It stood like a man but it didn't look like one to me.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c06",
+          "source_id": "momo-the-monster-s2",
+          "host": "web.archive.org",
+          "statement": "The thing was flecked with blood, probably from the dead dog it carried under its arm; its face was hidden by hair and it seemed to have no neck.",
+          "statement_id": "Makhluk itu berbercak darah, mungkin dari anjing mati yang dikepitnya; wajahnya tak terlihat di balik rambut lebat dan ia tampak tidak berleher.",
+          "quote": "thing was flecked with blood, probably from the dead dog it carried under its arm. Its face could not be seen under the mass of hair covering it, and it seemed to be without a neck.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c07",
+          "source_id": "momo-the-monster-s2",
+          "host": "web.archive.org",
+          "statement": "Harrison later described the odor as \"a moldy, horse smell or a strong garbage smell.\"",
+          "statement_id": "Harrison kemudian menggambarkan bau yang ia cium sebagai \"bau apak seperti kuda atau bau sampah yang kuat\".",
+          "quote": "Harrison subsequently described it as \"a moldy, horse smell or a strong garbage smell.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c08",
+          "source_id": "momo-the-monster-s2",
+          "host": "web.archive.org",
+          "statement": "In Ellis Minor's report the thing turned and dashed across the road, past the railroad tracks and into the woods.",
+          "statement_id": "Dalam laporan Ellis Minor, makhluk itu berbalik dan berlari menyeberangi jalan, melewati rel kereta, lalu masuk ke hutan (woods).",
+          "quote": "the thing turned around and dashed across the road, past the railroad tracks and into the woods",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c09",
+          "source_id": "momo-the-monster-s2",
+          "host": "web.archive.org",
+          "statement": "Missouri has had its share of mysteries; \"Momo,\" as the monster of July and August 1972 was called, is only the most famous.",
+          "statement_id": "Missouri memiliki banyak misteri; \"Momo\", sebutan bagi monster bulan Juli dan Agustus 1972, hanyalah yang paling terkenal.",
+          "quote": "Missouri has had its share of mysteries. \"Momo,\" as the monster of July and August 1972 was called, is only the most famous.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c10",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Purportedly covered in dark hair, it has been described as emitting a putrid odor.",
+          "statement_id": "Makhluk ini konon tertutup rambut gelap dan digambarkan mengeluarkan bau busuk.",
+          "quote": "Purportedly covered in dark hair, it has been described as emitting a putrid odor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c11",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As a result of these purported encounters, a 20-person posse was formed to hunt the creature, without success.",
+          "statement_id": "Akibat laporan perjumpaan itu, dibentuk regu berisi 20 orang untuk memburu makhluk tersebut, tetapi usaha mereka gagal.",
+          "quote": "As a result of these purported encounters, a 20-person posse was formed to hunt the creature, though their attempts were unsuccessful.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c12",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike areas with similar Bigfoot-like reports such as the Fouke Monster or Honey Island Swamp monster, Momo did not become a major tourist or economic attraction.",
+          "statement_id": "Berbeda dengan daerah lain yang punya laporan serupa tentang makhluk mirip Bigfoot seperti Fouke Monster atau Honey Island Swamp monster, Momo tidak menjadi daya tarik wisata atau ekonomi yang besar.",
+          "quote": "Unlike other areas with similar reports of Bigfoot-like creatures such as the Fouke Monster or Honey Island Swamp monster, Momo did not become a major tourist or economic folklore attraction.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c13",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2019 a docudrama horror film titled Momo: The Missouri Monster was released, dramatizing the events of 1972.",
+          "statement_id": "Pada 2019 dirilis film horor dokudrama berjudul Momo: The Missouri Monster yang mendramatisasi peristiwa tahun 1972.",
+          "quote": "In 2019, a docudrama horror film titled Momo: The Missouri Monster was released and features a dramatization of the events of 1972.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c14",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The American theme park Six Flags St. Louis had a ride named after the creature that operated from 1973 until 1994.",
+          "statement_id": "Taman hiburan Amerika Six Flags St. Louis pernah memiliki wahana yang dinamai menurut makhluk ini dan beroperasi dari 1973 sampai 1994.",
+          "quote": "American theme park Six Flags St. Louis had a ride that operated from 1973 until 1994 named after the creature.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c15",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Momo is short for the Missouri Monster.",
+          "statement_id": "Momo adalah singkatan dari Missouri Monster.",
+          "quote": "Momo is short for the Missouri Monster.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "momo-the-monster-c16",
+          "source_id": "momo-the-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their older sister, Doris, was in the kitchen when she heard her brothers screaming.",
+          "statement_id": "Kakak perempuan mereka, Doris, sedang di dapur ketika mendengar adik-adiknya menjerit.",
+          "quote": "Their older sister, Doris, was in the kitchen when she heard her brothers screaming.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "87ea911fa72d8bd60b2bf45cabf478487c6b00317b9183c99a2bb1f7ae5b8181"
+      "images": []
     },
     {
       "slug": "mono-grande",
-      "file": "batch-147-fix-1.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "4b8575bff3bfecf76ff461b401b1cd89d82ae7b6d2fc086cba7af92b5903bc39",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mono-grande-c01",
@@ -5003,15 +5228,64 @@
           "id": "mono-grande-c07",
           "source_id": "mono-grande-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Swedish author Rolf Blomberg (1966) speculated that rumours of hidden monsters in the Amazon basin may have been inspired by Arthur Conan Doyle's The Lost World (1912).",
-          "statement_id": "Penulis Swedia Rolf Blomberg (1966) menduga desas-desus tentang monster tersembunyi di lembah Amazon mungkin terilhami buku The Lost World (1912) karya Arthur Conan Doyle.",
-          "quote": "The Swedish author Rolf Blomberg speculates (1966) that rumours of hidden monsters in the Amazon basin might have been inspired by Arthur Conan Doyle's book The Lost World (1912)",
+          "statement": "The Swedish author Rolf Blomberg speculated that rumours of hidden monsters in the Amazon basin may have been inspired by Arthur Conan Doyle's The Lost World (1912).",
+          "statement_id": "Penulis Swedia Rolf Blomberg menduga desas-desus tentang monster tersembunyi di lembah Amazon mungkin terilhami buku The Lost World (1912) karya Arthur Conan Doyle.",
+          "quote": "The Swedish author Rolf Blomberg speculates that rumours of hidden monsters in the Amazon basin might have been inspired by Arthur Conan Doyle's book The Lost World (1912)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mono-grande-c08",
+          "source_id": "mono-grande-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Among the cataracts Humboldt began to hear of the hairy man of the woods, called salvaje, that carries off women, builds huts and sometimes eats human flesh.",
+          "statement_id": "Di sekitar air terjun (katarak) Orinoco, Humboldt mulai mendengar tentang \"manusia hutan berbulu\" bernama salvaje yang menculik perempuan, membangun gubuk, dan kadang memakan daging manusia.",
+          "quote": "It was among the cataracts that we began to hear of the hairy man of the woods, called salvaje, that carries off women, constructs huts, and sometimes eats human flesh.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mono-grande-c09",
+          "source_id": "mono-grande-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Tamanacs call it achi, and the Maypures vasitri, or great devil.",
+          "statement_id": "Orang Tamanac menyebutnya achi, sedangkan orang Maypure menyebutnya vasitri atau \"setan besar\" (great devil).",
+          "quote": "The Tamanacs call it achi, and the Maypures vasitri, or great devil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mono-grande-c10",
+          "source_id": "mono-grande-s2",
+          "host": "www.gutenberg.org",
+          "statement": "It is asserted that the salvaje is easily recognized by its footprints, whose toes are turned backward.",
+          "statement_id": "Konon salvaje mudah dikenali dari jejak kakinya, karena jari-jari kakinya menghadap ke belakang.",
+          "quote": "it is asserted that the salvaje is easily recognized by the traces of its feet, the toes of which are turned backward",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mono-grande-c11",
+          "source_id": "mono-grande-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Among the most cultivated society, Humboldt and his companion were everywhere blamed for being the only ones to doubt the existence of the great anthropomorphous monkey of America.",
+          "statement_id": "Di kalangan masyarakat terpelajar, Humboldt dan rekannya di mana-mana dicela karena menjadi satu-satunya orang yang meragukan keberadaan monyet besar berwujud manusia di Amerika.",
+          "quote": "We were everywhere blamed, in the most cultivated class of society, for being the only persons to doubt the existence of the great anthropomorphous monkey of America.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mono-grande-c12",
+          "source_id": "mono-grande-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Humboldt judged it most probable that the man of the woods was one of the large bears whose footprints resemble a man's.",
+          "statement_id": "Humboldt menilai kemungkinan besar \"manusia hutan\" itu sebenarnya beruang besar yang jejaknya mirip jejak manusia.",
+          "quote": "the man of the woods was one of those large bears, the footsteps of which resemble those of a man, and which are believed in every country to attack women",
           "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cde3017e88755d702890154996cc8aec7f1981033fc08bdaa180f0e8e30629af"
+      "images": []
     },
     {
       "slug": "papa-bois",
@@ -5130,20 +5404,15 @@
     },
     {
       "slug": "pe-de-garrafa",
-      "file": "batch-147-fix-1.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "12ce2840866421ede4c6964989ef86fb643c0125da9d008d1e4437fdcedc35b2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pe-de-garrafa-c01",
@@ -5234,27 +5503,51 @@
           "quote": "Gustavo Barroso wrote it was a \"species of Caapora\" (Caipora), while Vale Cabral (1884) only suggested it shared the same forest habitat as the Caapora.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "pe-de-garrafa-c10",
+          "source_id": "pe-de-garrafa-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to one ethnographic account, it was so tall that its head reached the leaves of the tallest trees, with one eye and one leg, the foot huge and round, hence the name \"bottle foot\".",
+          "statement_id": "Menurut satu catatan etnografis, makhluk ini sangat tinggi hingga kepalanya mencapai dedaunan pohon tertinggi, bermata satu dan berkaki satu, dengan kaki besar dan bulat sehingga disebut \"kaki botol\".",
+          "quote": "\"背はひじょうに高く、いちばん高い木の葉のところまで頭が届き、単眼で一本足、その足は巨大で丸く、よって「瓶足」と呼ばれた\"という。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pe-de-garrafa-c11",
+          "source_id": "pe-de-garrafa-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "There was once an attempt to capture the creature; according to the informant it was a hairy one-legged being with a hoof like the bottom of a bottle.",
+          "statement_id": "Pernah ada upaya menangkap makhluk ini; menurut informannya, ia makhluk berbulu lebat berkaki satu dengan kuku seperti dasar botol.",
+          "quote": "この生物の捕獲を試みたことがあった。その情報筋によれば、一本足の毛むくじゃらの生物で、瓶の底のような蹄を持ち",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pe-de-garrafa-c12",
+          "source_id": "pe-de-garrafa-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Its round footprints resemble those of the Basajaun (バシャジャウン), the wild man of the Basque (バスク) region; the Pé de garrafa may be a borrowing from there, though the same legend is not known in Portugal (ポルトガル).",
+          "statement_id": "Jejak kaki bundarnya mirip dengan Basajaun (バシャジャウン), manusia liar dari wilayah Basque (バスク); Pé de garrafa mungkin pinjaman dari sana, tetapi legenda yang sama tidak dikenal di Portugal (ポルトガル).",
+          "quote": "丸い足跡を残すというのは、バスク地方の野生人であるバシャジャウンと類似していおり、ペー・ジ・ガハッファというのもバスク地方からの借用かもしれないが、ポルトガル本国では同じ伝承は知られていない。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d49aabbccc869c76ad38132a0071d89375052706ab539cb49c3dd2ed75845ee8"
+      "images": []
     },
     {
       "slug": "phantome",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "bc8ddff6a219b549dfc08dd014fd191f78b6233944ca696d1e3dcb5cd93492a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "phantome-c01",
@@ -5315,27 +5608,51 @@
           "quote": "In some tellings, a traveller who walks around it quietly is left unharmed, but one who taunts it or distracts its gaze from the moon has their brain consumed through the palm of its hand.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "phantome-c07",
+          "source_id": "phantome-s2",
+          "host": "storyworks.scholastic.com",
+          "statement": "This play is a Guyanese folktale about a spirit called the Moongazer and a brave young girl who helps it return home.",
+          "statement_id": "Drama The Moongazer mengangkat cerita rakyat Guyana tentang roh bernama Moongazer dan seorang gadis pemberani yang membantunya pulang.",
+          "quote": "This play is a Guyanese folktale about a spirit called the Moongazer and a brave young girl who helps it return home.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "phantome-c08",
+          "source_id": "phantome-s2",
+          "host": "storyworks.scholastic.com",
+          "statement": "The story's author drew inspiration from her grandmother, Cleo, who was from Guyana and told her about the Moongazer.",
+          "statement_id": "Penulis cerita itu mendapat ilham dari neneknya, Cleo, yang berasal dari Guyana dan menceritakan tentang Moongazer kepadanya.",
+          "quote": "The inspiration for this story came from my grandmother, Cleo. She was from Guyana and told me about the Moongazer.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "phantome-c09",
+          "source_id": "phantome-s2",
+          "host": "storyworks.scholastic.com",
+          "statement": "The play appeared in the October/November 2024 issue.",
+          "statement_id": "Drama ini dimuat dalam edisi Oktober/November 2024.",
+          "quote": "From the October/November 2024 Issue",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "013298fe26eb91155c5ae004c35e18e4850165e23fc88678737dacfbcc8dd420"
+      "images": []
     },
     {
       "slug": "proctor-valley-monster",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "62af9b36fe7aae165e3840e6266eddd455898415f4a8923fa8cc9e6a46633273",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "proctor-valley-monster-c01",
@@ -5396,27 +5713,41 @@
           "quote": "The Bonita Museum & Cultural Center has hosted Film Festivals dedicated to celebrating the Proctor Valley Monster.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "proctor-valley-monster-c07",
+          "source_id": "proctor-valley-monster-s2",
+          "host": "bonitahistoricalsociety.org",
+          "statement": "The festival organisers call the Proctor Valley Monster its favorite urban legend.",
+          "statement_id": "Penyelenggara festival menyebut Monster Proctor Valley sebagai legenda urban favorit mereka.",
+          "quote": "Let’s celebrate our favorite urban legend, the Proctor Valley Monster.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "proctor-valley-monster-c08",
+          "source_id": "proctor-valley-monster-s2",
+          "host": "bonitahistoricalsociety.org",
+          "statement": "The festival on Friday and Saturday, July 22-23, featured short films, artists and zines about the famous PVM and other Sweetwater Valley favorites.",
+          "statement_id": "Festival pada Jumat dan Sabtu, 22–23 Juli, menampilkan film pendek, seniman, dan zine tentang PVM (Proctor Valley Monster) yang terkenal serta legenda lain dari Sweetwater Valley.",
+          "quote": "Friday and Saturday July 22-23 find short films as well as artists and zines about the famous PVM as well as other Sweetwater Valley favorites.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a2c356e321342551d3af2c5a2e070dc3f41877d3e9d9f475ce4b35865c352367"
+      "images": []
     },
     {
       "slug": "resurrection-mary",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "354921447ed39e0afa0ee1106de9cc7fcada94a80d46d51bc62e6041617cdaa3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 12,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "resurrection-mary-c01",
@@ -5537,27 +5868,71 @@
           "quote": "In 1999, Chicago author Ursula Bielski documented a possible connection to Anna \"Marija\" Norkus, who died in a 1927 auto accident while on her way home from the Oh Henry Ballroom",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "resurrection-mary-c13",
+          "source_id": "resurrection-mary-s2",
+          "host": "www.ghostvillage.com",
+          "statement": "According to Bielski, many researchers regard Jerry (Palus) as the phantom's first encounter; until his death he claimed to have danced with her \"all night\" in 1936 at the Liberty Grove and Hall ballroom on 47th street.",
+          "statement_id": "Menurut Bielski, banyak peneliti menganggap Jerry (Palus) sebagai orang pertama yang berjumpa dengan hantu itu; sampai wafatnya ia mengaku berdansa dengannya \"semalaman\" pada 1936 di ballroom Liberty Grove and Hall di 47th street.",
+          "quote": "Jerry is believed by many hard-core Mary researchers to have been the phantom's first encounter; till the day he died, Jerry claimed to have danced with her \"all night\" in 1936 at the old Liberty Grove and Hall ballroom on 47th street",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "resurrection-mary-c14",
+          "source_id": "resurrection-mary-s2",
+          "host": "www.ghostvillage.com",
+          "statement": "One version told to the researcher Andrejasich traced Resurrection Mary to the 1940s, when a young Polish girl crashed near Resurrection Cemetery at about 1:20 a.m. after taking the family car to visit her boyfriend in Willow Springs.",
+          "statement_id": "Satu versi yang diceritakan kepada peneliti Andrejasich menelusuri Resurrection Mary ke tahun 1940-an, ketika seorang gadis muda Polandia (Polish) mengalami kecelakaan di dekat Resurrection Cemetery sekitar pukul 01.20 setelah membawa mobil keluarganya untuk menemui pacarnya di Willow Springs.",
+          "quote": "told Andrejasich that Resurrection Mary could be traced to the 1940s, when a young Polish girl crashed near Resurrection Cemetery at around 1:20 a.m. after she took the family car to visit her boyfriend in Willow Springs",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "resurrection-mary-c15",
+          "source_id": "resurrection-mary-s2",
+          "host": "www.ghostvillage.com",
+          "statement": "Another parishioner said that in life the wraith was Mary Miskowski of the Bridgeport neighborhood on Chicago's South side.",
+          "statement_id": "Jemaat gereja lain menyebut bahwa semasa hidup hantu itu adalah Mary Miskowski dari lingkungan Bridgeport di South side Chicago.",
+          "quote": "Still another parishioner told Frank that the wayward wraith was, in life, Mary Miskowski of the South side Chicago neighborhood of Bridgeport.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "resurrection-mary-c16",
+          "source_id": "resurrection-mary-s2",
+          "host": "www.ghostvillage.com",
+          "statement": "Andrejasich came to believe that Resurrection Mary is the spiritual counterpart of the youngest candidate, a 12-year-old girl named Anna Norkus.",
+          "statement_id": "Andrejasich akhirnya meyakini bahwa Resurrection Mary adalah padanan arwah dari kandidat termuda, yaitu gadis berusia 12 tahun bernama Anna Norkus.",
+          "quote": "Andrejasich came to believe that the ghost known as Resurrection Mary is the spiritual counterpart of the youngest of all the candidates: a 12-year-old girl named, surprisingly, Anna Norkus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "resurrection-mary-c17",
+          "source_id": "resurrection-mary-s2",
+          "host": "www.ghostvillage.com",
+          "statement": "On the evening of July 20, 1927, Anna and her father set out from their Chicago home for the famous O Henry Ballroom.",
+          "statement_id": "Pada malam 20 Juli 1927, Anna dan ayahnya berangkat dari rumah mereka di Chicago menuju O Henry Ballroom yang terkenal.",
+          "quote": "On the evening of July 20, 1927, father and daughter set out from their Chicago home at 5421 S. Neva for the famous O Henry Ballroom",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f617e6aca61617a9cfb9f7dc4f6922d9a9205ca7ca3986eaf5701c5d78c1a921"
+      "images": []
     },
     {
       "slug": "sharlie",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "d8b67d354ea58d66dde37fd810cc4f2b44a15415fc375e533fb46f31ff915cf3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sharlie-c01",
@@ -5618,27 +5993,61 @@
           "quote": "Sharlie was reportedly sighted dozens of times between 1956 and the last documented sighting in 1997.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "sharlie-c07",
+          "source_id": "sharlie-s2",
+          "host": "lib.uidaho.edu",
+          "statement": "The McCall Public Library collection holds 66 pages of subject files about Sharlie.",
+          "statement_id": "Koleksi Perpustakaan Umum McCall menyimpan 66 halaman berkas subjek tentang Sharlie.",
+          "quote": "66 pages of subject files containing and related to Sharlie",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sharlie-c08",
+          "source_id": "sharlie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In September 1946 the serpent was reportedly sighted by a group of twenty people.",
+          "statement_id": "Pada September 1946, ular itu dilaporkan terlihat oleh sekelompok dua puluh orang.",
+          "quote": "In September 1946 the serpent was reportedly sighted by a group of twenty people.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sharlie-c09",
+          "source_id": "sharlie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The winning name, \"Sharlie\", was submitted by Lelsle Hennefer Tury of Springfield, Virginia.",
+          "statement_id": "Nama pemenang, \"Sharlie\", diajukan oleh Lelsle Hennefer Tury dari Springfield, Virginia.",
+          "quote": "The winning name, “Sharlie”, was submitted by Lelsle Hennefer Tury of Springfield, Virginia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sharlie-c10",
+          "source_id": "sharlie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name referred to a popular catch phrase often spoken by Jack Pearl on his old-time radio show.",
+          "statement_id": "Nama itu merujuk pada ungkapan populer yang sering diucapkan Jack Pearl dalam acara radionya.",
+          "quote": "This was a reference to the popular catch phrase often spoken by Jack Pearl during his old time radio show.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ddf3a1a4983f5190f1604cccb24d18458b287153558dfe8d2ed769a8234dbdf6"
+      "images": []
     },
     {
       "slug": "shuswap-lake-monster",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "263e61d353eaf837dd5ec96d4c8d5b122f09df6b7928d1df5d15eae41bcc395b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shuswap-lake-monster-c01",
@@ -5679,27 +6088,81 @@
           "quote": "la senyora Griffiths va dir que la criatura s'assemblava a una serp de ràpid moviment, de al voltant de 20 a 25 peus de longitud total, i que havia nedat amb ondulacions verticals.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "shuswap-lake-monster-c05",
+          "source_id": "shuswap-lake-monster-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The animal crossed in front of the boat before finally submerging.",
+          "statement_id": "Hewan itu melintas di depan perahu sebelum akhirnya menyelam.",
+          "quote": "L'animal va creuar davant de l'embarcació abans de, finalment submergir-se.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shuswap-lake-monster-c06",
+          "source_id": "shuswap-lake-monster-s2",
+          "host": "saobserver.net",
+          "statement": "A Shuswap woman did not expect a morning beach walk to produce what could be the latest Shuswaggi sighting.",
+          "statement_id": "Seorang perempuan di Shuswap tak menyangka jalan pagi di pantai akan menghasilkan apa yang mungkin menjadi penampakan Shuswaggi terbaru.",
+          "quote": "A Shuswap woman had no idea a morning stroll along the beach would result in what could be the latest Shuswaggi sighting.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "shuswap-lake-monster-c07",
+          "source_id": "shuswap-lake-monster-s2",
+          "host": "saobserver.net",
+          "statement": "The witness, Dumont, said that whatever it was, it was big and looked like it had some kind of black humps.",
+          "statement_id": "Saksi itu, Dumont, mengatakan bahwa apa pun itu, ukurannya besar dan tampak seperti ada punuk-punuk hitam.",
+          "quote": "Whatever it was, it was big. It looked like there were some kind of black humps.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "shuswap-lake-monster-c08",
+          "source_id": "shuswap-lake-monster-s2",
+          "host": "saobserver.net",
+          "statement": "When Dumont posted the videos to Facebook, the infamous Shuswaggi lake monster was suggested as the likely culprit beneath the waves.",
+          "statement_id": "Ketika Dumont mengunggah videonya ke Facebook, monster danau Shuswaggi yang terkenal disebut-sebut sebagai kemungkinan penyebabnya.",
+          "quote": "When Dumont posted the videos to Facebook, the infamous Shuswaggi lake monster came up as the likely culprit lurking beneath the waves.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "shuswap-lake-monster-c09",
+          "source_id": "shuswap-lake-monster-s2",
+          "host": "saobserver.net",
+          "statement": "Some said there are big sturgeon in the lake, but the waves in the video were judged to show far too many humps.",
+          "statement_id": "Sebagian orang menyebut ada ikan sturgeon besar di danau itu, tetapi gelombang dalam video itu dinilai memiliki terlalu banyak punuk.",
+          "quote": "who said there are big sturgeon in the lake, but that has way too many humps in the waves",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "shuswap-lake-monster-c10",
+          "source_id": "shuswap-lake-monster-s2",
+          "host": "saobserver.net",
+          "statement": "Cryptozoologist Karl Shuker theorized that a Basilosaurus could be hidden in Shuswap Lake, which contributes to the Shuswaggi legend.",
+          "statement_id": "Kriptozoolog Karl Shuker berteori bahwa seekor Basilosaurus mungkin tersembunyi di Danau Shuswap; gagasan ini ikut membentuk legenda Shuswaggi.",
+          "quote": "An illustration of a Basilosaurus, which cryptozoologist Karl Shuker theorized could be hidden in Shuswap Lake, contributes to the legend of Shuswaggi.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fd03d9e0e1ac7ec2000c975d9d2fe5d25ed6464099f99596c781a877108b54e6"
+      "images": []
     },
     {
       "slug": "sirena-chilota",
-      "file": "batch-147-fix-1.md",
+      "file": "batch-147-fix-8.md",
+      "entry_sha256": "fdd00f9f54965755c358155850b086672bfff537cc368d5efa18b3fe0c796431",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 12,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sirena-chilota-c01",
@@ -5820,27 +6283,71 @@
           "quote": "The Sirena Chilota plays an important role in the film Caleuche.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "sirena-chilota-c13",
+          "source_id": "sirena-chilota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Her human half looks like a very beautiful adolescent girl with long golden hair and incomparable charm and sweetness.",
+          "statement_id": "Bagian manusianya berupa remaja putri yang sangat cantik, berambut panjang keemasan, dengan pesona dan kelembutan tiada banding.",
+          "quote": "Su parte humana tendría el aspecto de una adolescente muy hermosa, de larga cabellera dorada como el oro, y de un encanto y dulzura incomparables.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-chilota-c14",
+          "source_id": "sirena-chilota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The people of Chiloé (chilotes), especially fishermen, tell that the Sirena chilota is the youngest daughter of Millalobo and Huenchula.",
+          "statement_id": "Orang Chiloé (chilotes), terutama nelayan, mengisahkan bahwa Sirena chilota adalah putri bungsu Millalobo dan Huenchula.",
+          "quote": "Los chilotes, especialmente los pescadores, cuentan en sus leyendas que la Sirena chilota, sería la hija menor del Millalobo y la Huenchula.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-chilota-c15",
+          "source_id": "sirena-chilota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "On moonlit nights a lucky sailor may see her sitting on the rocks, combing her golden hair with a golden comb.",
+          "statement_id": "Pada malam berbulan, pelaut yang beruntung bisa melihatnya duduk di atas karang sambil menyisir rambut keemasannya dengan sisir emas.",
+          "quote": "en la noches de luna, si el marinero tiene suerte, puede observar a la sirena chilota sentada sobre los roquerios, y con su peine de oro, peinándose su dorada cabellera",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-chilota-c16",
+          "source_id": "sirena-chilota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "If a man tries to leave, the siren will weep and tell him her sad story of loneliness until she seduces him.",
+          "statement_id": "Bila pria yang tertarik hendak menjauh, sang sirena akan menangis dan menceritakan kisah sedih kesepiannya sampai berhasil memikatnya.",
+          "quote": "la Sirena llorará y entre su llanto le contará su triste historia de soledad, hasta lograr seducir al hombre",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-chilota-c17",
+          "source_id": "sirena-chilota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "A man taken beneath the water by her spells can no longer return to his former life on land, but in exchange receives immense riches.",
+          "statement_id": "Pria yang telah dibawa ke bawah air karena mantranya tidak bisa kembali ke kehidupan lamanya di darat, tetapi sebagai gantinya ia menerima kekayaan yang sangat besar.",
+          "quote": "Si el hombre se ha sumergido bajo el agua, debido a los hechizos recibidos, él ya no podrá volver a su antigua vida en la tierra; pero a cambio de vivir con la sirena chilota, el hombre recibirá riquezas inmensas.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e1d2f69c5e1f074d0924ddde77c95c1a57c8f5d1db71232159eba00a0ddfb66d"
+      "images": []
     },
     {
       "slug": "sisimito",
-      "file": "batch-147-fix-2.md",
+      "file": "batch-147-fix-9.md",
+      "entry_sha256": "e271504f67628fe4519e6a565166432db9724468a49e93cea5f66f19131303dd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 16,
-        "sources": 1,
+        "claims": 23,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sisimito-c01",
@@ -6001,27 +6508,91 @@
           "quote": "The Sisimite is featured in the 1951 B-movie Bride of the Gorilla, directed by Curt Siodmak.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "sisimito-c17",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "According to the tale, the sisimite is a monkey-like animal with a face like a person's, living in the mountains and very amorous.",
+          "statement_id": "Menurut cerita, sisimite adalah hewan mirip monyet (mono) dengan wajah seperti manusia, tinggal di pegunungan, dan sangat mudah jatuh cinta.",
+          "quote": "Según se cuenta, el sisimite es un animal parecido a un mono, su cara es como la de una persona, vive en las montañas y es muy enamorado",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sisimito-c18",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "In all the tales told, it fathers a child, who is the one that later kills it.",
+          "statement_id": "Dalam semua kisah yang diceritakan, ia memperoleh seorang anak, dan anak itulah yang kelak membunuhnya.",
+          "quote": "En todos los relatos que se cuentan se dice que procrea un hijo, que es el que más tarde le da muerte.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sisimito-c19",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "The sisimite has been seen after a burn, as it apparently likes to eat hot ash and smell freshly burned tree trunks, although it is vegetarian.",
+          "statement_id": "Sisimite pernah terlihat setelah pembakaran lahan karena tampaknya ia suka memakan abu panas (ceniza caliente) dan mencium batang pohon yang baru terbakar, meskipun ia vegetarian.",
+          "quote": "Al sisimite se le ha visto después de una quema, ya que al parecer le agrada comer ceniza caliente y oler los troncos de los árboles recién quemados, aunque es vegetariano.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sisimito-c20",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "When it walks forward its tracks look as if it were walking backward, and when it walks backward its trail looks as if it were walking forward.",
+          "statement_id": "Bila ia berjalan maju, jejaknya tampak seperti berjalan mundur, dan bila berjalan mundur, jejaknya tampak seperti berjalan maju.",
+          "quote": "Si camina para adelante deja las huellas como si fuera caminando para atrás, y si camina para atrás, deja su rastro como si fuera para adelante.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sisimito-c21",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "In the tale the missing girl was never found, but pairs of reversed footprints were found throughout the woods, leading together to the top of a hill.",
+          "statement_id": "Dalam kisah itu, gadis yang hilang tidak pernah ditemukan, tetapi di seluruh hutan ditemukan pasangan jejak kaki terbalik yang bersama-sama menuju puncak bukit.",
+          "quote": "Cuentan que nunca la encontraron, pero hallaron por todo el monte pares de huellas al revés que llegaban juntas a la cima de un cerro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sisimito-c22",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "So people said it had been the ash-eating sisimite that had carried the girl off forever.",
+          "statement_id": "Karena itu orang berkata bahwa sisimite pemakan abu (come ceniza) telah membawa gadis itu untuk selamanya.",
+          "quote": "Por eso dijeron que había sido el sisimite come ceniza que se había llevado a la muchacha para siempre.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sisimito-c23",
+          "source_id": "sisimito-s2",
+          "host": "nacerenhonduras.com",
+          "statement": "The text is taken from the book Leyendas, Azoros y Relatos de mi Pueblo by Javier Durón Padilla (Editorial Hibueras, 2005).",
+          "statement_id": "Teks ini diambil dari buku Leyendas, Azoros y Relatos de mi Pueblo karya Javier Durón Padilla (Editorial Hibueras, 2005).",
+          "quote": "Tomado del Libro Leyendas, Azoros y Relatos de mi Pueblo de Javier Durón Padilla. Editorial Hibueras. 2005.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "79f219362683a08cb44fbd1d98fae5ed6d6150d0f62bed68b000f4af878ec3ee"
+      "images": []
     },
     {
       "slug": "tahoe-tessie",
-      "file": "batch-147-fix-1.md",
+      "file": "batch-147-fix-9.md",
+      "entry_sha256": "d904b82ca62df624ed55939ee1246ea49a5be358b7bd2205738239f284b05e1a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tahoe-tessie-c01",
@@ -6122,10 +6693,79 @@
           "quote": "In 2023, the ECHL's new hockey team, the Tahoe Knight Monsters, was named after the folklore surrounding Tessie.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c11",
+          "source_id": "tahoe-tessie-s2",
+          "host": "www.moonshineink.com",
+          "statement": "In her modern incarnation Tessie is reported to resemble a dinosaur, an appearance possibly influenced by Nessie of Loch Ness.",
+          "statement_id": "Dalam wujud modernnya, Tessie dilaporkan mirip dinosaurus, penampilan yang mungkin dipengaruhi Nessie dari Loch Ness.",
+          "quote": "Tessie, in her modern incarnation, is reported to be similar to a dinosaur, an appearance that may have been influenced by Nessie of Loch Ness fame.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c12",
+          "source_id": "tahoe-tessie-s2",
+          "host": "www.moonshineink.com",
+          "statement": "Sightings have been reported since the early 20th century and keep flourishing every summer.",
+          "statement_id": "Penampakannya dilaporkan sejak awal abad ke-20 dan terus bermunculan setiap musim panas.",
+          "quote": "Sightings have been reported since the early 20th century and continue to flourish each summer.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c13",
+          "source_id": "tahoe-tessie-s2",
+          "host": "www.moonshineink.com",
+          "statement": "Stories of a Tahoe lake monster go back about 100 years, but the name Tahoe Tessie is only about 43 years old and copyrighted.",
+          "statement_id": "Cerita tentang monster danau di Tahoe sudah ada sekitar 100 tahun, tetapi nama Tahoe Tessie baru berusia sekitar 43 tahun dan dilindungi hak cipta.",
+          "quote": "Stories of a lake monster in Tahoe go back about 100 years, but the name Tahoe Tessie is actually only about 43 years old — and copyrighted.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c14",
+          "source_id": "tahoe-tessie-s2",
+          "host": "www.moonshineink.com",
+          "statement": "Kings Beach resident Bob McCormick told Moonshine Ink that he dreamed up the name on a sea kayaking trip with a friend in 1975, and the Tessie story grew around the campfire that night.",
+          "statement_id": "Bob McCormick, warga Kings Beach, mengatakan kepada Moonshine Ink bahwa ia menciptakan nama itu saat berkayak bersama temannya pada 1975, dan cerita Tessie berkembang di sekitar api unggun malam itu.",
+          "quote": "Kings Beach resident Bob McCormick told Moonshine Ink that he dreamed up the name on a sea kayaking trip with a buddy in 1975, and the story of Tessie evolved around the campfire that night.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c15",
+          "source_id": "tahoe-tessie-s2",
+          "host": "www.moonshineink.com",
+          "statement": "McCormick eventually found an illustrator and published the book in 1984.",
+          "statement_id": "McCormick akhirnya menemukan ilustrator dan menerbitkan buku tentang Tessie pada 1984.",
+          "quote": "McCormick eventually found an illustrator, and published the book in 1984.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c16",
+          "source_id": "tahoe-tessie-s3",
+          "host": "www.tahoedailytribune.com",
+          "statement": "According to Goldman, all Tessie sightings share one thing: no one ever sees the head or tail, only dark objects in the water.",
+          "statement_id": "Menurut Goldman, semua penampakan Tessie punya satu kesamaan: tak seorang pun pernah melihat kepala atau ekornya, hanya benda gelap di dalam air.",
+          "quote": "All Tessie sightings have one thing in common, said Goldman – no one ever sees the head or tail, only dark objects in the water.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tahoe-tessie-c17",
+          "source_id": "tahoe-tessie-s3",
+          "host": "www.tahoedailytribune.com",
+          "statement": "In one sighting, a witness named Douglas saw a solid-looking shape with three to five humps along its back, and her friend Talmage flatly called it Tessie.",
+          "statement_id": "Dalam satu penampakan, saksi bernama Douglas melihat bentuk padat dengan tiga sampai lima punuk di punggungnya, dan temannya, Talmage, langsung menyebutnya Tessie.",
+          "quote": "When Douglas replied that the shape – with three to five humps along its back – did look solid, Talmage flatly said “Damn, that’s Tessie.”",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f108a2d50b9b3213f5db1263ddf9e79248977a1f697d1d48a83805ee1bd4c4f1"
+      "images": []
     }
   ]
 }

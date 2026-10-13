@@ -1,6 +1,6 @@
 # Review batch-147
 
-Diperiksa 2026-10-07T07:39:04.997Z. Berkas: batch-147.md, batch-147-fix-1.md, batch-147-fix-2.md, batch-147-fix-3.md, batch-147-fix-4.md, batch-147-fix-5.md, batch-147-fix-6.md, batch-147-fix-7.md.
+Diperiksa 2026-10-13T18:28:45.223Z. Berkas: batch-147.md, batch-147-fix-1.md, batch-147-fix-2.md, batch-147-fix-3.md, batch-147-fix-4.md, batch-147-fix-5.md, batch-147-fix-6.md, batch-147-fix-7.md, batch-147-fix-8.md, batch-147-fix-9.md.
 
 ## basilisco-chilote — lulus-otomatis
 
@@ -703,38 +703,53 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## mohan-legendary — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mohan-legendary-c01 | exact | en.wikipedia.org | The Mohan or Poira is a name applied to several supernatural creatures in South and Central American folklore. | The Muan, Moan or Mohan (moo-ahn), sometimes also known as Poira, is a name applied to several mythological or otherwise supernatural creatures in South and Central American folklore. |
 | mohan-legendary-c02 | exact | en.wikipedia.org | Various legends exist about the Mohan, many emerging from Colombia. | Various legends exist about the Mohan, with many of them emerging from Colombia. |
 | mohan-legendary-c03 | exact | en.wikipedia.org | The Mohan is known as an avatar whose form can be adopted by shamans. | The Mohan is also known as an avatar whose form shamans can adopt. |
+| mohan-legendary-c04 | exact | en.wikipedia.org | The most common use of the term refers to the souls of the dead and the indigenous ancestors of old. | The most common use of the term is to refer to the souls of the dead and the indigenous ancestors of old. |
+| mohan-legendary-c05 | exact | en.wikipedia.org | In Colombia, Mohan can also mean a forest or barren-land spirit. | In Colombia, Mohan can also mean a forest or barren land spirit. |
+| mohan-legendary-c06 | exact | en.wikipedia.org | In some legends it is a satyr-like being that steals and eats young women and lives in a cave-like grotto at the bottom of great jungle rivers, where it keeps its captives. | In some legends, it is a satyr-like being who steals and eats young women and lives in a cave-like grotto at the bottom of the great jungle rivers where he keeps his female captives. |
+| mohan-legendary-c07 | exact | en.wikipedia.org | In other versions it steals fishermen's bait, catch or nets and has the power to change shape into a cat-like beast. | who steals fishermen's bait, catch or nets, and has the power to change shape into a cat-like beast |
+| mohan-legendary-c08 | exact | en.wikipedia.org | One myth tells how a shaman became an alligator to be close to the girls who played in the river. | One myth tells of how a shaman became an alligator to be close to the girls who played in the river. |
+| mohan-legendary-c09 | exact | en.wikipedia.org | The Poira, whose name is interchangeable with the Mohan, is described by some as an Indian warlock living on the Cerro del Pacandé in Tolima, Colombia. | The Poira, whose name is interchangeable with the Mohan, is described by others as an Indian warlock who lives on the Cerro del Pacandé in Tolima, Colombia. |
+| mohan-legendary-c10 | exact | es.wikipedia.org | The Mohán is a figure of Colombian folk myth, described as a very corpulent human with abundant, long, unkempt hair covering much of its body. | El Mohán es un personaje perteneciente a los mitos folclóricos de Colombia. Se le describe como un ser humano, muy corpulento, con una abundante, larga y descuidada cabellera con la que cubre gran parte de su cuerpo. |
+| mohan-legendary-c11 | exact | es.wikipedia.org | According to legend it roams caves near streams, rivers or lagoons and can be detected at night near the river. | Según las leyendas, ronda en cavernas cercanas a quebradas, ríos o lagunas, se dice que el Mohán puede ser detectado en las noches cerca del río. |
+| mohan-legendary-c12 | exact | es.wikipedia.org | It is one of the most representative mythological figures of the former Estado Soberano del Tolima (Colombia), which comprised present-day Tolima and Huila. | Es uno de los personajes mitológicos más representativos de lo que anteriormente se conocía como Estado Soberano del Tolima (Colombia), que comprendía los territorios actuales de Tolima y Huila. |
+| mohan-legendary-c13 | exact | es.wikipedia.org | According to tradition in Tolima it travels by raft, smokes tobacco to drive away insects, and turns into a human to buy aguardiente. | Según la tradición, este se transporta en balsa, fuma tabaco para espantar los insectos y se transforma en ser humano para comprar aguardiente. |
+| mohan-legendary-c14 | exact | es.wikipedia.org | It is considered a deity of the waters, rivers, streams and brooks. | Es considerado una deidad de las aguas, ríos, quebradas y riachuelos. |
 
 
 ## momo-the-monster — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | momo-the-monster-c01 | exact | en.wikipedia.org | Momo is a large, hairy humanoid creature reportedly sighted in rural Missouri. | Momo is a large, hairy mythical humanoid creature said to have been sighted in rural Missouri. |
 | momo-the-monster-c02 | exact | en.wikipedia.org | Witnesses alleged the creature resembles a bipedal ape standing about 7 feet tall. | Witnesses have alleged that the creature resembles a human or bipedal ape that stands about 7 ft (2.1 m) tall |
 | momo-the-monster-c03 | exact | en.wikipedia.org | On July 11, 1972, two young boys were playing in their yard on the outskirts of Louisiana, Missouri. | On July 11, 1972, two young boys were playing in their backyard on the rural outskirts of Louisiana, Missouri. |
+| momo-the-monster-c04 | exact | web.archive.org | The "Momo" ("Missouri monster") scare began on Tuesday, July 11, 1972, at 3:30 p.m. on the outskirts of the city of Louisiana (pop. 4,600). | "Momo" ("Missouri monster") scare began on Tuesday, July 11, 1972, at 3:30 p.m. on the outskirts of the city of Louisiana (pop. 4,600). |
+| momo-the-monster-c05 | exact | web.archive.org | She saw something standing by a tree: six or seven feet tall, black and hairy, standing like a man but not looking like one. | saw something standing by a tree: "Six or seven feet tall, black and hairy. It stood like a man but it didn't look like one to me." |
+| momo-the-monster-c06 | exact | web.archive.org | The thing was flecked with blood, probably from the dead dog it carried under its arm; its face was hidden by hair and it seemed to have no neck. | thing was flecked with blood, probably from the dead dog it carried under its arm. Its face could not be seen under the mass of hair covering it, and it seemed to be without a neck. |
+| momo-the-monster-c07 | exact | web.archive.org | Harrison later described the odor as "a moldy, horse smell or a strong garbage smell." | Harrison subsequently described it as "a moldy, horse smell or a strong garbage smell." |
+| momo-the-monster-c08 | exact | web.archive.org | In Ellis Minor's report the thing turned and dashed across the road, past the railroad tracks and into the woods. | the thing turned around and dashed across the road, past the railroad tracks and into the woods |
+| momo-the-monster-c09 | exact | web.archive.org | Missouri has had its share of mysteries; "Momo," as the monster of July and August 1972 was called, is only the most famous. | Missouri has had its share of mysteries. "Momo," as the monster of July and August 1972 was called, is only the most famous. |
+| momo-the-monster-c10 | exact | en.wikipedia.org | Purportedly covered in dark hair, it has been described as emitting a putrid odor. | Purportedly covered in dark hair, it has been described as emitting a putrid odor. |
+| momo-the-monster-c11 | exact | en.wikipedia.org | As a result of these purported encounters, a 20-person posse was formed to hunt the creature, without success. | As a result of these purported encounters, a 20-person posse was formed to hunt the creature, though their attempts were unsuccessful. |
+| momo-the-monster-c12 | exact | en.wikipedia.org | Unlike areas with similar Bigfoot-like reports such as the Fouke Monster or Honey Island Swamp monster, Momo did not become a major tourist or economic attraction. | Unlike other areas with similar reports of Bigfoot-like creatures such as the Fouke Monster or Honey Island Swamp monster, Momo did not become a major tourist or economic folklore attraction. |
+| momo-the-monster-c13 | exact | en.wikipedia.org | In 2019 a docudrama horror film titled Momo: The Missouri Monster was released, dramatizing the events of 1972. | In 2019, a docudrama horror film titled Momo: The Missouri Monster was released and features a dramatization of the events of 1972. |
+| momo-the-monster-c14 | exact | en.wikipedia.org | The American theme park Six Flags St. Louis had a ride named after the creature that operated from 1973 until 1994. | American theme park Six Flags St. Louis had a ride that operated from 1973 until 1994 named after the creature. |
+| momo-the-monster-c15 | exact | en.wikipedia.org | Momo is short for the Missouri Monster. | Momo is short for the Missouri Monster. |
+| momo-the-monster-c16 | exact | en.wikipedia.org | Their older sister, Doris, was in the kitchen when she heard her brothers screaming. | Their older sister, Doris, was in the kitchen when she heard her brothers screaming. |
 
 
 ## mono-grande — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -744,7 +759,12 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | mono-grande-c04 | exact | en.wikipedia.org | In the early 19th century, the German naturalist Alexander von Humboldt heard stories from the Orinoco about furry human-like creatures called Salvaje, rumoured to capture women, build huts and occasionally eat human flesh. | The German naturalist Alexander von Humboldt, who travelled in South America during early 19th century, heard stories from Orinoco about furry human-like creatures called Salvaje ("Wild"), which were rumoured to capture women, build huts and to occasionally eat human flesh. |
 | mono-grande-c05 | exact | en.wikipedia.org | De Loys's ape, photographed by the Swiss geologist Francois de Loys in 1920 and proposed as an unknown great ape, was later identified as almost certainly a spider monkey. | The so-called De Loys's ape was photographed by Swiss geologist Francois de Loys in 1920 and proposed as a possible unknown great ape of South America; it has since been identified as almost certainly a spider monkey |
 | mono-grande-c06 | exact | en.wikipedia.org | Humboldt considered the Salvaje reports to be myths brought to South America by European colonists. | Humboldt considered the reports of Salvaje to be just myths that came to South America with European colonists. |
-| mono-grande-c07 | exact | en.wikipedia.org | The Swedish author Rolf Blomberg (1966) speculated that rumours of hidden monsters in the Amazon basin may have been inspired by Arthur Conan Doyle's The Lost World (1912). | The Swedish author Rolf Blomberg speculates (1966) that rumours of hidden monsters in the Amazon basin might have been inspired by Arthur Conan Doyle's book The Lost World (1912) |
+| mono-grande-c07 | exact | en.wikipedia.org | The Swedish author Rolf Blomberg speculated that rumours of hidden monsters in the Amazon basin may have been inspired by Arthur Conan Doyle's The Lost World (1912). | The Swedish author Rolf Blomberg speculates that rumours of hidden monsters in the Amazon basin might have been inspired by Arthur Conan Doyle's book The Lost World (1912) |
+| mono-grande-c08 | exact | www.gutenberg.org | Among the cataracts Humboldt began to hear of the hairy man of the woods, called salvaje, that carries off women, builds huts and sometimes eats human flesh. | It was among the cataracts that we began to hear of the hairy man of the woods, called salvaje, that carries off women, constructs huts, and sometimes eats human flesh. |
+| mono-grande-c09 | exact | www.gutenberg.org | The Tamanacs call it achi, and the Maypures vasitri, or great devil. | The Tamanacs call it achi, and the Maypures vasitri, or great devil. |
+| mono-grande-c10 | exact | www.gutenberg.org | It is asserted that the salvaje is easily recognized by its footprints, whose toes are turned backward. | it is asserted that the salvaje is easily recognized by the traces of its feet, the toes of which are turned backward |
+| mono-grande-c11 | exact | www.gutenberg.org | Among the most cultivated society, Humboldt and his companion were everywhere blamed for being the only ones to doubt the existence of the great anthropomorphous monkey of America. | We were everywhere blamed, in the most cultivated class of society, for being the only persons to doubt the existence of the great anthropomorphous monkey of America. |
+| mono-grande-c12 | exact | www.gutenberg.org | Humboldt judged it most probable that the man of the woods was one of the large bears whose footprints resemble a man's. | the man of the woods was one of those large bears, the footsteps of which resemble those of a man, and which are believed in every country to attack women |
 
 
 ## papa-bois — lulus-otomatis
@@ -767,10 +787,7 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## pe-de-garrafa — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -783,14 +800,14 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | pe-de-garrafa-c07 | exact | en.wikipedia.org | It is also known as the monster leaving huge footprints in the sandy and clayey soil of Massapê, Ceará, in northeastern Brazil. | It is also known as the monster who leaves huge footprints in the sandy and clayey soil of Massapê, Ceará, also in northeastern Brazil. |
 | pe-de-garrafa-c08 | exact | en.wikipedia.org | Cascudo wrote that it is a variant of the Mapinguari and Capelobo legends, though there is no testimony that it is a man-eater like them. | Cascudo wrote that it is a variant of the Mapinguari and Capelobo legends, however, there is no testimony that Pé de garrafa is a maneater like the others. |
 | pe-de-garrafa-c09 | exact | en.wikipedia.org | Gustavo Barroso called it a "species of Caapora" (Caipora), while Vale Cabral (1884) only said it shared the Caapora's forest habitat. | Gustavo Barroso wrote it was a "species of Caapora" (Caipora), while Vale Cabral (1884) only suggested it shared the same forest habitat as the Caapora. |
+| pe-de-garrafa-c10 | exact | ja.wikipedia.org | According to one ethnographic account, it was so tall that its head reached the leaves of the tallest trees, with one eye and one leg, the foot huge and round, hence the name "bottle foot". | "背はひじょうに高く、いちばん高い木の葉のところまで頭が届き、単眼で一本足、その足は巨大で丸く、よって「瓶足」と呼ばれた"という。 |
+| pe-de-garrafa-c11 | exact | ja.wikipedia.org | There was once an attempt to capture the creature; according to the informant it was a hairy one-legged being with a hoof like the bottom of a bottle. | この生物の捕獲を試みたことがあった。その情報筋によれば、一本足の毛むくじゃらの生物で、瓶の底のような蹄を持ち |
+| pe-de-garrafa-c12 | exact | ja.wikipedia.org | Its round footprints resemble those of the Basajaun (バシャジャウン), the wild man of the Basque (バスク) region; the Pé de garrafa may be a borrowing from there, though the same legend is not known in Portugal (ポルトガル). | 丸い足跡を残すというのは、バスク地方の野生人であるバシャジャウンと類似していおり、ペー・ジ・ガハッファというのもバスク地方からの借用かもしれないが、ポルトガル本国では同じ伝承は知られていない。 |
 
 
 ## phantome — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -800,14 +817,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | phantome-c04 | exact | en.wikipedia.org | The only warning is a shrill whistle just before the attack. | The only warning is said to be a shrill whistle emitted just before the attack. |
 | phantome-c05 | exact | en.wikipedia.org | The Phantome can make itself invisible; only its shadow in the moonlight reveals it. | The Phantome is said to be able to make itself invisible, its presence revealed only by the shadow it casts in the moonlight. |
 | phantome-c06 | exact | en.wikipedia.org | In some versions, a traveller who quietly walks around it is unharmed, but one who taunts it or distracts its gaze from the moon has their brain consumed through its palm. | In some tellings, a traveller who walks around it quietly is left unharmed, but one who taunts it or distracts its gaze from the moon has their brain consumed through the palm of its hand. |
+| phantome-c07 | exact | storyworks.scholastic.com | This play is a Guyanese folktale about a spirit called the Moongazer and a brave young girl who helps it return home. | This play is a Guyanese folktale about a spirit called the Moongazer and a brave young girl who helps it return home. |
+| phantome-c08 | exact | storyworks.scholastic.com | The story's author drew inspiration from her grandmother, Cleo, who was from Guyana and told her about the Moongazer. | The inspiration for this story came from my grandmother, Cleo. She was from Guyana and told me about the Moongazer. |
+| phantome-c09 | exact | storyworks.scholastic.com | The play appeared in the October/November 2024 issue. | From the October/November 2024 Issue |
 
 
 ## proctor-valley-monster — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -817,14 +834,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | proctor-valley-monster-c04 | exact | en.wikipedia.org | The nearby Bonita Museum & Cultural Center claims to display an unknown humanoid footprint that many locals see as evidence of the cryptid. | The nearby Bonita Museum & Cultural Center claims to have an unknown humanoid footprint on display, which many locals interpet as concrete evidence of the cryptid's existence. |
 | proctor-valley-monster-c05 | exact | en.wikipedia.org | It inspired the Boom! Studios comic series "Proctor Valley Road", in which it is blamed for the disappearance of students on a ghost tour of the road. | The Proctor Valley Monster has inspired a comic book series produced by Boom! Studios titled "Proctor Valley Road" in which the cryptid is blamed for the disappearances of a group of students participating in a Ghost Tour of the road. |
 | proctor-valley-monster-c06 | exact | en.wikipedia.org | The Bonita Museum & Cultural Center has hosted film festivals celebrating the Proctor Valley Monster. | The Bonita Museum & Cultural Center has hosted Film Festivals dedicated to celebrating the Proctor Valley Monster. |
+| proctor-valley-monster-c07 | exact | bonitahistoricalsociety.org | The festival organisers call the Proctor Valley Monster its favorite urban legend. | Let’s celebrate our favorite urban legend, the Proctor Valley Monster. |
+| proctor-valley-monster-c08 | exact | bonitahistoricalsociety.org | The festival on Friday and Saturday, July 22-23, featured short films, artists and zines about the famous PVM and other Sweetwater Valley favorites. | Friday and Saturday July 22-23 find short films as well as artists and zines about the famous PVM as well as other Sweetwater Valley favorites. |
 
 
 ## resurrection-mary — lulus-otomatis
 
-Klaim 12 (exact 12), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -840,14 +856,16 @@ Klaim 12 (exact 12), sumber 1, gambar 0.
 | resurrection-mary-c10 | exact | en.wikipedia.org | Jerry Palus, a Chicago southsider, reported meeting a person he came to believe was Resurrection Mary at the Liberty Grove and Hall in 1939. | Jerry Palus, a Chicago southsider, reported that in 1939, he met a person whom he came to believe was Resurrection Mary at the Liberty Grove and Hall at 47th and Mozart |
 | resurrection-mary-c11 | exact | en.wikipedia.org | In August 1976 she reportedly burned her handprints into the cemetery fence, though cemetery officials said a truck had damaged it with no evidence of a ghost. | She also reportedly burned her handprints into the wrought-iron fence around the cemetery in August 1976, although officials at the cemetery have stated that a truck had damaged the fence with no evidence of a ghost. |
 | resurrection-mary-c12 | exact | en.wikipedia.org | In 1999, Chicago author Ursula Bielski documented a possible link to Anna "Marija" Norkus, who died in a 1927 car accident on her way home from the Oh Henry Ballroom. | In 1999, Chicago author Ursula Bielski documented a possible connection to Anna "Marija" Norkus, who died in a 1927 auto accident while on her way home from the Oh Henry Ballroom |
+| resurrection-mary-c13 | exact | www.ghostvillage.com | According to Bielski, many researchers regard Jerry (Palus) as the phantom's first encounter; until his death he claimed to have danced with her "all night" in 1936 at the Liberty Grove and Hall ballroom on 47th street. | Jerry is believed by many hard-core Mary researchers to have been the phantom's first encounter; till the day he died, Jerry claimed to have danced with her "all night" in 1936 at the old Liberty Grove and Hall ballroom on 47th street |
+| resurrection-mary-c14 | exact | www.ghostvillage.com | One version told to the researcher Andrejasich traced Resurrection Mary to the 1940s, when a young Polish girl crashed near Resurrection Cemetery at about 1:20 a.m. after taking the family car to visit her boyfriend in Willow Springs. | told Andrejasich that Resurrection Mary could be traced to the 1940s, when a young Polish girl crashed near Resurrection Cemetery at around 1:20 a.m. after she took the family car to visit her boyfriend in Willow Springs |
+| resurrection-mary-c15 | exact | www.ghostvillage.com | Another parishioner said that in life the wraith was Mary Miskowski of the Bridgeport neighborhood on Chicago's South side. | Still another parishioner told Frank that the wayward wraith was, in life, Mary Miskowski of the South side Chicago neighborhood of Bridgeport. |
+| resurrection-mary-c16 | exact | www.ghostvillage.com | Andrejasich came to believe that Resurrection Mary is the spiritual counterpart of the youngest candidate, a 12-year-old girl named Anna Norkus. | Andrejasich came to believe that the ghost known as Resurrection Mary is the spiritual counterpart of the youngest of all the candidates: a 12-year-old girl named, surprisingly, Anna Norkus. |
+| resurrection-mary-c17 | exact | www.ghostvillage.com | On the evening of July 20, 1927, Anna and her father set out from their Chicago home for the famous O Henry Ballroom. | On the evening of July 20, 1927, father and daughter set out from their Chicago home at 5421 S. Neva for the famous O Henry Ballroom |
 
 
 ## sharlie — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -857,14 +875,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | sharlie-c04 | exact | en.wikipedia.org | In August 1944, several groups reported it as 30 to 35 feet long with a dinosaur-like head, camel-like humps and shell-like skin. | In August 1944, the serpent was reportedly seen by several groups of people who described it as 30 to 35 feet in length with a dinosaur-like head, pronounced jaws, humps like a camel, and shell-like skin. |
 | sharlie-c05 | exact | en.wikipedia.org | In 1954, A. Boone McCallum, editor of The Star News, held a contest to name the Payette Lake serpent. | In 1954 A. Boone McCallum, Editor of The Star News held a contest to name the serpent of Payette Lake. |
 | sharlie-c06 | exact | en.wikipedia.org | Sharlie was reportedly sighted dozens of times between 1956 and the last documented sighting in 1997. | Sharlie was reportedly sighted dozens of times between 1956 and the last documented sighting in 1997. |
+| sharlie-c07 | exact | lib.uidaho.edu | The McCall Public Library collection holds 66 pages of subject files about Sharlie. | 66 pages of subject files containing and related to Sharlie |
+| sharlie-c08 | exact | en.wikipedia.org | In September 1946 the serpent was reportedly sighted by a group of twenty people. | In September 1946 the serpent was reportedly sighted by a group of twenty people. |
+| sharlie-c09 | exact | en.wikipedia.org | The winning name, "Sharlie", was submitted by Lelsle Hennefer Tury of Springfield, Virginia. | The winning name, “Sharlie”, was submitted by Lelsle Hennefer Tury of Springfield, Virginia. |
+| sharlie-c10 | exact | en.wikipedia.org | The name referred to a popular catch phrase often spoken by Jack Pearl on his old-time radio show. | This was a reference to the popular catch phrase often spoken by Jack Pearl during his old time radio show. |
 
 
 ## shuswap-lake-monster — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 1, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -872,14 +891,17 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | shuswap-lake-monster-c02 | exact | ca.wikipedia.org | On 3 June 1984, a woman named Linda Griffiths was boating on the lake with her two children and a friend of theirs. | El 3 de juny de 1984, una dona anomenada Linda Griffiths estava navegant al llac amb els seus dos fills i un amic d'ells |
 | shuswap-lake-monster-c03 | exact | ca.wikipedia.org | She saw seven brownish-grey humps moving above the water surface in a straight line at a fast pace. | va observar set geps de color gris marronós movent-se per sobre de la superfície de l'aigua en línia recta, i a un ritme accelerat. |
 | shuswap-lake-monster-c04 | exact | ca.wikipedia.org | Griffiths said the creature resembled a fast-moving snake about 20 to 25 feet long that swam with vertical undulations. | la senyora Griffiths va dir que la criatura s'assemblava a una serp de ràpid moviment, de al voltant de 20 a 25 peus de longitud total, i que havia nedat amb ondulacions verticals. |
+| shuswap-lake-monster-c05 | exact | ca.wikipedia.org | The animal crossed in front of the boat before finally submerging. | L'animal va creuar davant de l'embarcació abans de, finalment submergir-se. |
+| shuswap-lake-monster-c06 | exact | saobserver.net | A Shuswap woman did not expect a morning beach walk to produce what could be the latest Shuswaggi sighting. | A Shuswap woman had no idea a morning stroll along the beach would result in what could be the latest Shuswaggi sighting. |
+| shuswap-lake-monster-c07 | exact | saobserver.net | The witness, Dumont, said that whatever it was, it was big and looked like it had some kind of black humps. | Whatever it was, it was big. It looked like there were some kind of black humps. |
+| shuswap-lake-monster-c08 | exact | saobserver.net | When Dumont posted the videos to Facebook, the infamous Shuswaggi lake monster was suggested as the likely culprit beneath the waves. | When Dumont posted the videos to Facebook, the infamous Shuswaggi lake monster came up as the likely culprit lurking beneath the waves. |
+| shuswap-lake-monster-c09 | exact | saobserver.net | Some said there are big sturgeon in the lake, but the waves in the video were judged to show far too many humps. | who said there are big sturgeon in the lake, but that has way too many humps in the waves |
+| shuswap-lake-monster-c10 | exact | saobserver.net | Cryptozoologist Karl Shuker theorized that a Basilosaurus could be hidden in Shuswap Lake, which contributes to the Shuswaggi legend. | An illustration of a Basilosaurus, which cryptozoologist Karl Shuker theorized could be hidden in Shuswap Lake, contributes to the legend of Shuswaggi. |
 
 
 ## sirena-chilota — lulus-otomatis
 
-Klaim 12 (exact 12), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -895,14 +917,16 @@ Klaim 12 (exact 12), sumber 1, gambar 0.
 | sirena-chilota-c10 | exact | en.wikipedia.org | She then brings the lured men to the bottom of the ocean to live in a palace with her family. | The Sirena Chilota then brings them to the bottom of the ocean to live in a palace with her family. |
 | sirena-chilota-c11 | exact | en.wikipedia.org | The descendants of a man who escapes her are born with fish tails. | His future descendants are born with fish tails, and the rest of the town will know he slept with the Sirena Chilota. |
 | sirena-chilota-c12 | exact | en.wikipedia.org | The Sirena Chilota plays an important role in the film Caleuche. | The Sirena Chilota plays an important role in the film Caleuche. |
+| sirena-chilota-c13 | exact | es.wikipedia.org | Her human half looks like a very beautiful adolescent girl with long golden hair and incomparable charm and sweetness. | Su parte humana tendría el aspecto de una adolescente muy hermosa, de larga cabellera dorada como el oro, y de un encanto y dulzura incomparables. |
+| sirena-chilota-c14 | exact | es.wikipedia.org | The people of Chiloé (chilotes), especially fishermen, tell that the Sirena chilota is the youngest daughter of Millalobo and Huenchula. | Los chilotes, especialmente los pescadores, cuentan en sus leyendas que la Sirena chilota, sería la hija menor del Millalobo y la Huenchula. |
+| sirena-chilota-c15 | exact | es.wikipedia.org | On moonlit nights a lucky sailor may see her sitting on the rocks, combing her golden hair with a golden comb. | en la noches de luna, si el marinero tiene suerte, puede observar a la sirena chilota sentada sobre los roquerios, y con su peine de oro, peinándose su dorada cabellera |
+| sirena-chilota-c16 | exact | es.wikipedia.org | If a man tries to leave, the siren will weep and tell him her sad story of loneliness until she seduces him. | la Sirena llorará y entre su llanto le contará su triste historia de soledad, hasta lograr seducir al hombre |
+| sirena-chilota-c17 | exact | es.wikipedia.org | A man taken beneath the water by her spells can no longer return to his former life on land, but in exchange receives immense riches. | Si el hombre se ha sumergido bajo el agua, debido a los hechizos recibidos, él ya no podrá volver a su antigua vida en la tierra; pero a cambio de vivir con la sirena chilota, el hombre recibirá riquezas inmensas. |
 
 
 ## sisimito — lulus-otomatis
 
-Klaim 16 (exact 16), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 23 (exact 23), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -922,14 +946,18 @@ Klaim 16 (exact 16), sumber 1, gambar 0.
 | sisimito-c14 | exact | en.wikipedia.org | If one dances in a circle, the Sisimite follows but trips and falls because of its backward-facing feet. | If one dances in a circle, the Sisimite will try to follow them. However, due to his backward-facing feet he would trip and fall. |
 | sisimito-c15 | exact | en.wikipedia.org | The ultimate way to get rid of the Sisimite is to set fire to his long hair. | The ultimate way to get rid of the Sisimite is to set fire to his long hair. |
 | sisimito-c16 | exact | en.wikipedia.org | The Sisimite appears in the 1951 B-movie Bride of the Gorilla, directed by Curt Siodmak. | The Sisimite is featured in the 1951 B-movie Bride of the Gorilla, directed by Curt Siodmak. |
+| sisimito-c17 | exact | nacerenhonduras.com | According to the tale, the sisimite is a monkey-like animal with a face like a person's, living in the mountains and very amorous. | Según se cuenta, el sisimite es un animal parecido a un mono, su cara es como la de una persona, vive en las montañas y es muy enamorado |
+| sisimito-c18 | exact | nacerenhonduras.com | In all the tales told, it fathers a child, who is the one that later kills it. | En todos los relatos que se cuentan se dice que procrea un hijo, que es el que más tarde le da muerte. |
+| sisimito-c19 | exact | nacerenhonduras.com | The sisimite has been seen after a burn, as it apparently likes to eat hot ash and smell freshly burned tree trunks, although it is vegetarian. | Al sisimite se le ha visto después de una quema, ya que al parecer le agrada comer ceniza caliente y oler los troncos de los árboles recién quemados, aunque es vegetariano. |
+| sisimito-c20 | exact | nacerenhonduras.com | When it walks forward its tracks look as if it were walking backward, and when it walks backward its trail looks as if it were walking forward. | Si camina para adelante deja las huellas como si fuera caminando para atrás, y si camina para atrás, deja su rastro como si fuera para adelante. |
+| sisimito-c21 | exact | nacerenhonduras.com | In the tale the missing girl was never found, but pairs of reversed footprints were found throughout the woods, leading together to the top of a hill. | Cuentan que nunca la encontraron, pero hallaron por todo el monte pares de huellas al revés que llegaban juntas a la cima de un cerro. |
+| sisimito-c22 | exact | nacerenhonduras.com | So people said it had been the ash-eating sisimite that had carried the girl off forever. | Por eso dijeron que había sido el sisimite come ceniza que se había llevado a la muchacha para siempre. |
+| sisimito-c23 | exact | nacerenhonduras.com | The text is taken from the book Leyendas, Azoros y Relatos de mi Pueblo by Javier Durón Padilla (Editorial Hibueras, 2005). | Tomado del Libro Leyendas, Azoros y Relatos de mi Pueblo de Javier Durón Padilla. Editorial Hibueras. 2005. |
 
 
 ## tahoe-tessie — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -943,4 +971,11 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 | tahoe-tessie-c08 | exact | en.wikipedia.org | According to limnologist Charles Goldman of the UC Davis Tahoe Research Group, many sightings of humps or waves could be caused by wind or water movements. | According to limnologist Charles Goldman of the UC Davis Tahoe Research Group, many sightings of Tessie, particularly those describing humps or waves, could be caused by wind patterns or water movements |
 | tahoe-tessie-c09 | exact | en.wikipedia.org | By the late 20th century, Tessie had become a lighthearted local figure, often depicted as a friendly dragon. | By the late 20th century, Tessie had become a more lighthearted figure in local culture, often depicted as a friendly dragon. |
 | tahoe-tessie-c10 | exact | en.wikipedia.org | In 2023, the ECHL's new hockey team, the Tahoe Knight Monsters, was named after the Tessie folklore. | In 2023, the ECHL's new hockey team, the Tahoe Knight Monsters, was named after the folklore surrounding Tessie. |
+| tahoe-tessie-c11 | exact | www.moonshineink.com | In her modern incarnation Tessie is reported to resemble a dinosaur, an appearance possibly influenced by Nessie of Loch Ness. | Tessie, in her modern incarnation, is reported to be similar to a dinosaur, an appearance that may have been influenced by Nessie of Loch Ness fame. |
+| tahoe-tessie-c12 | exact | www.moonshineink.com | Sightings have been reported since the early 20th century and keep flourishing every summer. | Sightings have been reported since the early 20th century and continue to flourish each summer. |
+| tahoe-tessie-c13 | exact | www.moonshineink.com | Stories of a Tahoe lake monster go back about 100 years, but the name Tahoe Tessie is only about 43 years old and copyrighted. | Stories of a lake monster in Tahoe go back about 100 years, but the name Tahoe Tessie is actually only about 43 years old — and copyrighted. |
+| tahoe-tessie-c14 | exact | www.moonshineink.com | Kings Beach resident Bob McCormick told Moonshine Ink that he dreamed up the name on a sea kayaking trip with a friend in 1975, and the Tessie story grew around the campfire that night. | Kings Beach resident Bob McCormick told Moonshine Ink that he dreamed up the name on a sea kayaking trip with a buddy in 1975, and the story of Tessie evolved around the campfire that night. |
+| tahoe-tessie-c15 | exact | www.moonshineink.com | McCormick eventually found an illustrator and published the book in 1984. | McCormick eventually found an illustrator, and published the book in 1984. |
+| tahoe-tessie-c16 | exact | www.tahoedailytribune.com | According to Goldman, all Tessie sightings share one thing: no one ever sees the head or tail, only dark objects in the water. | All Tessie sightings have one thing in common, said Goldman – no one ever sees the head or tail, only dark objects in the water. |
+| tahoe-tessie-c17 | exact | www.tahoedailytribune.com | In one sighting, a witness named Douglas saw a solid-looking shape with three to five humps along its back, and her friend Talmage flatly called it Tessie. | When Douglas replied that the shape – with three to five humps along its back – did look solid, Talmage flatly said “Damn, that’s Tessie.” |
 
