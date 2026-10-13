@@ -1,6 +1,6 @@
 # Review batch-070
 
-Diperiksa 2026-10-13T18:43:46.117Z. Berkas: batch-070.md, batch-070-fix-1.md, batch-070-fix-2.md, batch-070-fix-3.md.
+Diperiksa 2026-10-13T19:16:41.593Z. Berkas: batch-070.md, batch-070-fix-1.md, batch-070-fix-2.md, batch-070-fix-3.md, batch-070-fix-4.md, batch-070-fix-5.md.
 
 ## wd-q10325168 — skip
 
@@ -401,10 +401,7 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 
 ## wd-q10566523 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -414,11 +411,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q10566523-c04 | exact | zh.wikipedia.org | Mabanshe is a name used by the people of Shu for jiao. | 馬絆蛇，或稱馬絆，為出沒於中國四川、雲南一帶河川中的蛟龍。其形体如蚂蟥也就是水蛭。因为会害人，所以乡里就招募能讨伐的勇者。而“马绊蛇”本身是蜀人对“蛟”的称呼。记载于《太平广记》，另说馬絆蛇的头像猫或鼠,颜色有一点白，通常会害人，栖息在汉州古城潭内。另说馬絆蛇是钩蛇别称。 |
 | wd-q10566523-c05 | exact | zh.wikipedia.org | Another version gives it a catlike or mouselike head with some white coloration. | 馬絆蛇，或稱馬絆，為出沒於中國四川、雲南一帶河川中的蛟龍。其形体如蚂蟥也就是水蛭。因为会害人，所以乡里就招募能讨伐的勇者。而“马绊蛇”本身是蜀人对“蛟”的称呼。记载于《太平广记》，另说馬絆蛇的头像猫或鼠,颜色有一点白，通常会害人，栖息在汉州古城潭内。另说馬絆蛇是钩蛇别称。 |
 | wd-q10566523-c06 | exact | zh.wikipedia.org | Its account is associated with the Taiping Guangji and a pool in the old city of Hanzhou. | 馬絆蛇，或稱馬絆，為出沒於中國四川、雲南一帶河川中的蛟龍。其形体如蚂蟥也就是水蛭。因为会害人，所以乡里就招募能讨伐的勇者。而“马绊蛇”本身是蜀人对“蛟”的称呼。记载于《太平广记》，另说馬絆蛇的头像猫或鼠,颜色有一点白，通常会害人，栖息在汉州古城潭内。另说馬絆蛇是钩蛇别称。 |
+| wd-q10566523-c07 | exact | zh.wikisource.org | The Taiping Guangji (太平廣記) records a southern monk's account that the jiao (蛟) is shaped like a leech, slimy and fishy-smelling, wraps people with its tail and sucks their blood; the people of Shu (蜀) call it Mabanshe (馬絆蛇). | 南僧說蛟之形，如馬蟥，即水蛭也，涎沫腥黏，掉尾纏人，而噬其血。蜀人號為「馬絆蛇」。 |
+| wd-q10566523-c08 | exact | zh.wikisource.org | In the story taken from the Beimeng Suoyan (北夢瑣言), a brave man recruited by the villagers coated his body with medicine and swam to the bottom of the Hanzhou (漢州) pool; the jiao leapt onto the sandy bank, writhed until its strength gave out, and was killed while the villagers cheered. | 頭如貓鼠，有一點白，漢州古城潭內馬絆蛇，往往害人。鄉里募勇者伐之，身涂藥，游泳於潭底，蛟乃躍於沙汭，蟠蜿力困，裡灌噪以助，竟斃之。〈（出《北夢瑣言》）〉 |
+| wd-q10566523-c09 | exact | zh.wikisource.org | The Suichang Zalu (遂昌雜錄) records a story told by Feng Shiqi (士啟) from his service in Bafan (八蕃): a post-station clerk warned him not to travel that night because the Maban (馬絆) was out on the river. | 士啟嘗言其在八蕃時，乘驛出向某所，最後至一驛。驛吏語以「今夕晚矣，且馬絆出在江上，不若毋行。」 |
+| wd-q10566523-c10 | exact | zh.wikisource.org | In that story, in faint moonlight, something as large as a small house was seen rolling into the water amid a fishy wind and foul-smelling waves; the guide called it the Maban (馬絆). | 時月微明，睹一物如小屋大寬滾入流水，腥風臭浪襲人。行數里許，乃問之。烏剌赤曰：「是之謂馬絆。」 |
+| wd-q10566523-c11 | exact | zh.wikisource.org | The clerk at the next station explained that the Maban is a Mahuang spirit (馬黃精) and that whoever meets it is usually devoured. | 驛吏出迎，錯愕曰：「是何大膽，敢越馬絆來乎？」士啟問馬絆，驛吏乃言此馬黃精也，遇之者輒為所啖。 |
 
 
 ## wd-q10566576 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -428,11 +430,15 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | wd-q10566576-c04 | exact | zh.wikipedia.org | Its voice resembles a drum. | 駮是一種外貌似馬的動物，狀似白馬，黑尾，头有一角，有利齿且四足为爪，发出来的声音如同鼓声，专吃虎、豹。最早記載出自《山海經》。《逸周書》記載，義渠稱之為茲白。 |
 | wd-q10566576-c05 | exact | zh.wikipedia.org | Bo is said to eat tigers and leopards. | 駮是一種外貌似馬的動物，狀似白馬，黑尾，头有一角，有利齿且四足为爪，发出来的声音如同鼓声，专吃虎、豹。最早記載出自《山海經》。《逸周書》記載，義渠稱之為茲白。 |
 | wd-q10566576-c06 | exact | zh.wikisource.org | The classical text places Bo on Mount Zhongqu. | 又西三百里，曰中曲之山，其陽多玉，其陰多雄黃、白玉及金。有獸焉，其狀如馬而白身黑尾，一角，虎牙爪，音如鼓音，其名曰駮，是食虎豹〈爾雅說駮不道有角及虎爪駮亦在畏狩畫中〉，可以禦兵〈養之辟兵刃也〉。有木焉，其狀如棠，而員葉赤實，實大如木𤓰〈木𤓰如小𤓰〉，名曰櫰〈音懷〉木，食之多力〈尸子曰木食之人多為仁者名為若木此之𩔖〉。 |
+| wd-q10566576-c07 | exact | zh.wikisource.org | The Haiwai Beijing (海外北經) of the Shan Hai Jing places Bo (駮) within the Northern Sea (北海) region as a beast like a white horse with saw-like teeth that eats tigers and leopards. | 北海內有獸，其狀如馬，名曰騊駼。有獸焉，其名曰駮，狀如白馬，鋸牙，食虎豹。 |
+| wd-q10566576-c08 | exact | zh.wikisource.org | The Yi Zhou Shu (逸周書) records that the northern state of Yiqu (義渠) presented the Zibai (茲白), a beast like a white horse with saw-like teeth that eats tigers and leopards; its commentary states that Zibai is another name for Bo (駮). | 正北方義渠以茲白。茲白者，若白馬，鋸牙，食虎豹〈亦在臺北，於大塵相對。義渠，西戎國。茲白，一名駮者也。〉 |
+| wd-q10566576-c09 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Shuo Yuan (說苑): when a tiger crouched before Duke Ping (平公) of Jin, Shi Kuang (師曠) explained a chain of predators including 'the leopard eats the Bo, the Bo eats the tiger', and that the Bo resembles the dappled horse (駁馬) drawing the duke's chariot. | 師曠曰：「鵲食猬，猬食鵔〈音俊〉鸃〈音宜〉，鵔鸃食豹，豹食駮，駮食虎。夫駮之狀，有似駁馬。今者君之出，必驂駁馬而出畋乎？」公曰：「然。」 |
+| wd-q10566576-c10 | exact | zh.wikisource.org | In the Bo Zan (駮贊), Guo Pu (郭璞) of the Jin dynasty calls the Bo a kind of horse and the finest of livestock, raising its head and neighing like thunder, swallowing tigers and warding off weapons. | 晉郭璞《駮贊》曰：駮惟馬類，實畜之英。騰髮驤首，噓天雷鳴。氣無不凌，吞虎辟兵。 |
 
 
 ## wd-q10567375 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -442,14 +448,18 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | wd-q10567375-c04 | exact | zh.wikisource.org | As a result, Mounts Daiyu and Yuanjiao drift north and sink, forcing the immortals to move. | 而龍伯之國有大人，舉足不盈數步而暨五山之所，一釣而連六鼇，合負而趣歸其國，灼其骨以數焉。於是岱輿員嶠二山流於北極，沈於大海，仙聖之播遷者巨億計。帝憑怒，侵減龍伯之國使阨，侵小龍伯之民使短。至伏羲神農時，其國人猶數十丈。 |
 | wd-q10567375-c05 | exact | zh.wikisource.org | The divine ruler punishes the Longbo land and people by reducing their size. | 而龍伯之國有大人，舉足不盈數步而暨五山之所，一釣而連六鼇，合負而趣歸其國，灼其骨以數焉。於是岱輿員嶠二山流於北極，沈於大海，仙聖之播遷者巨億計。帝憑怒，侵減龍伯之國使阨，侵小龍伯之民使短。至伏羲神農時，其國人猶數十丈。 |
 | wd-q10567375-c06 | exact | zh.wikisource.org | The text says that even in the time of Fuxi and Shennong its people remain tens of zhang tall. | 而龍伯之國有大人，舉足不盈數步而暨五山之所，一釣而連六鼇，合負而趣歸其國，灼其骨以數焉。於是岱輿員嶠二山流於北極，沈於大海，仙聖之播遷者巨億計。帝憑怒，侵減龍伯之國使阨，侵小龍伯之民使短。至伏羲神農時，其國人猶數十丈。 |
+| wd-q10567375-c07 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Hetu Yuban (河圖玉板): the land of Longbo (龍伯國) lies ninety thousand li north of Kunlun (昆侖); its people are thirty zhang tall and live eighteen thousand years before dying. | 《河圖玉板》曰：從昆侖以北九萬里得龍伯國，人長三十丈，生萬八千歲而死。 |
+| wd-q10567375-c08 | exact | zh.wikisource.org | In the Longbo Guoren Zan (龍伯國人讚), Huang Tao (黃滔) writes that with one cast the Longbo man hooked six giant turtles (鼇), leaving only one, while the immortals still roamed on Penglai (蓬萊) and Fangzhang (方丈). | 國人之釣也，一釣聯六鼇，而存者一鼇而已。其猶背蓬萊方丈，嬉遊神仙。 |
+| wd-q10567375-c09 | exact | zh.wikisource.org | In the Da Lie Fu (大獵賦), Li Bai (李白) mentions Longbo fishing up his spirit turtle (靈鼇) alongside Ren Gong (任公) catching a giant fish, as part of a list of hunting marvels. | 斬飛鵬於日域，摧大鳳於天墟；龍伯釣其靈鼇，任公獲其巨魚。窮造化之譎詭，何神怪之有餘？ |
+| wd-q10567375-c10 | exact | zh.wikisource.org | In chapter 46 of the Sanguo Yanyi (三國演義), a fu names Longbo together with Hairuo (海若), Jiangfei (江妃), Shuimu (水母), thousand-zhang whales, and other strange beings that all gather there. | 至若龍伯、海若、江妃、水母，長鯨千丈，天蜈九首，鬼怪異類，咸集而有。 |
 
 
 ## wd-q10877378 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 kutipan berbeda dari 8 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -459,14 +469,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q10877378-c04 | exact | zh.wikisource.org | Its nose is compared to a saw. | 有丹蝦，長十丈，鬚長八尺，有兩翅，其鼻如鋸。載紫桂之林，以鬚纏身急流，以為棲息之處。馬丹嘗折蝦鬚為杖，後棄杖而飛，鬚化為丹，亦在海傍。 |
 | wd-q10877378-c05 | exact | zh.wikisource.org | The narrative connects it with a forest of purple cassia and the use of its whiskers to wrap around. | 有丹蝦，長十丈，鬚長八尺，有兩翅，其鼻如鋸。載紫桂之林，以鬚纏身急流，以為棲息之處。馬丹嘗折蝦鬚為杖，後棄杖而飛，鬚化為丹，亦在海傍。 |
 | wd-q10877378-c06 | exact | zh.wikisource.org | Ma Dan breaks a whisker to use as a staff; after it is discarded, the whisker becomes dan in the narrative. | 有丹蝦，長十丈，鬚長八尺，有兩翅，其鼻如鋸。載紫桂之林，以鬚纏身急流，以為棲息之處。馬丹嘗折蝦鬚為杖，後棄杖而飛，鬚化為丹，亦在海傍。 |
+| wd-q10877378-c07 | exact | zh.wikisource.org | The Beihu Lu (北戶錄) refers to the shrimp-whisker staff in the Dongming Ji (洞冥記): its note says Ma Dan (馬丹) broke off a Danxia (丹蝦) whisker as a staff, and after it was discarded the staff became a red stone (丹石) by the sea. | 《洞冥記》載蝦鬚杖。〈馬丹常折丹蝦鬚爲杖，後棄杖爲丹石於海傍也。 |
+| wd-q10877378-c08 | exact | zh.wikisource.org | In the Yulizi (郁離子), the whiskers of the Danxia (丹蝦之鬚) are listed among rare treasures: strong like a drawn-out rainbow, brilliantly shining, looking as if they flow yet not wet to the touch. | 丹蝦之鬚，勁若抽虹，煥爛晶熒，望之欲流，撫之不濡。玄象之牙，厥大盈舟。 |
 
 
 ## wd-q10889265 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -475,6 +484,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q10889265-c03 | exact | zh.wikipedia.org | Its hands are sharp claws and its clothes ragged. | 傲因，古代人形妖怪名，舌頭很長，喜歡吃人腦，手是利爪，穿著破爛衣服，用燒燙的大石頭砸就能殺死。記載於《神異經·西南荒經》。 |
 | wd-q10889265-c04 | exact | zh.wikipedia.org | Within the narrative, a heated large stone is said to kill it. | 傲因，古代人形妖怪名，舌頭很長，喜歡吃人腦，手是利爪，穿著破爛衣服，用燒燙的大石頭砸就能殺死。記載於《神異經·西南荒經》。 |
 | wd-q10889265-c05 | exact | zh.wikipedia.org | The Shenyi Jing uses a different name for a similar description, while a similarly named creature in the Shan Hai Jing has a different account. | 神異經所記載的此妖怪名為獏㺔（或作獏為），但與一般對傲因的敘述相近；而山海經雖有獓𤝱（或作𢕟𢓨、傲噎）一詞，但敘述與傲因相差甚遠。 |
+| wd-q10889265-c06 | exact | zh.wikisource.org | The Shenyi Jing (神異經) says that in the Western Wilds (西荒) there is a being of human height, dressed in ragged patched clothes, with tiger-claw hands, named Moyin (獏㺔), which waits for people walking alone and eats their brains. | 西荒之中有人焉，長短如人，著百結敗衣，手虎爪，名曰獏㺔。伺人獨行，輒食人腦 |
+| wd-q10889265-c07 | exact | zh.wikisource.org | According to the Shenyi Jing, its tongue sometimes sticks out and coils on the ground for more than a zhang; people who hear its sound first heat a large stone and throw it onto the tongue so that the creature dies, and otherwise it eats human brains. | 或舌出盤地丈餘，人先開其声，燒大石以投其舌，乃氣絕而死。不然食人腦矣。 |
+| wd-q10889265-c08 | exact | zh.wikisource.org | The Shenyi Jing quotation in the Taiping Yulan (太平御覽) gives it tiger claws on both hands and feet, and a note by Zhang Maoxian (張茂先) gives its popular name as Maowei (貌偽). | 《神異經》曰：西荒擲晷有人焉，長短如人，著百結敗衣，手足虎爪，名獏㺔。〈張茂先曰：俗曰貌偽。音撝。〉 |
+| wd-q10889265-c09 | exact | zh.wikisource.org | The Taiping Yulan version says the creature approaches sleeping people to eat their brains, first has them catch lice, then lies down with its tongue out; people prepare a heated stone and throw it onto the tongue so that the creature drops its head and dies. | 伺人眠，輒往就人，欲食人腦。先使捕蝨，得臥而舌出，槃地丈餘，聞其聲。常燒火石，伺其得臥舌出，以石投舌上，於是低頭絕氣而死。 |
 
 
 ## wd-q10891520 — skip
@@ -520,10 +533,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wd-q11047879 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -531,11 +541,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11047879-c02 | exact | zh.wikipedia.org | The creature is said to smile on seeing humans. | 山𤟤亦稱𤟤子，中国古代传说中的狗。有人脸，见人则笑，其行如风。出现会风灾。。 |
 | wd-q11047879-c03 | exact | zh.wikipedia.org | Its movement is compared to the wind. | 山𤟤亦稱𤟤子，中国古代传说中的狗。有人脸，见人则笑，其行如风。出现会风灾。。 |
 | wd-q11047879-c04 | exact | zh.wikipedia.org | Its appearance is regarded as an omen of wind disaster. | 山𤟤亦稱𤟤子，中国古代传说中的狗。有人脸，见人则笑，其行如风。出现会风灾。。 |
+| wd-q11047879-c05 | exact | zh.wikisource.org | The Beishan Jing (北山經) of the Shan Hai Jing places Shanhui (山𤟤) on Mount Yuefa (嶽法之山) and says it is good at throwing (善投), besides having a human face, laughing on seeing people, moving like the wind, and foretelling great winds across the realm. | 有獸焉，其狀如犬而人面，善投，見人則笑，其名山𤟤，其行如風，見則天下大風。 |
+| wd-q11047879-c06 | exact | zh.wikisource.org | Wu Renchen (任臣) quotes the Erya Yi (爾雅翼), which lists the names Huihui (揮揮), Xiaoyang (梟羊), and Shanhui (山𤟤), gives its popular name as Shandu (山都) and in the north Tulou (土螻), and states that the state of Zhoumi (州麋) presented one in the time of King Cheng of Zhou (周成王). | 見人則笑其名山𤟤〈郭曰音暉 任臣案爾雅翼曰□□亦作□一名揮揮一名梟羊一名山𤟤俗謂之山都北方謂之土螻周成王時州麋國獻之竊謂狒狒者梟羊也山𤟤者山都山丈𩔖吳都賦𤟤子長嘯是也又狒狒人形山𤟤獸狀故有差别羅氏誤矣 |
+| wd-q11047879-c07 | exact | zh.wikisource.org | Wu Renchen argues that the Feifei (狒狒) is the Xiaoyang, whereas Shanhui is a kind of Shandu or Shanzhang; he links it with the Huizi (𤟤子) of the Wudu Fu (吳都賦), and judges Luo (羅氏) mistaken, since the Feifei has human form while Shanhui has an animal form. | 見人則笑其名山𤟤〈郭曰音暉 任臣案爾雅翼曰□□亦作□一名揮揮一名梟羊一名山𤟤俗謂之山都北方謂之土螻周成王時州麋國獻之竊謂狒狒者梟羊也山𤟤者山都山丈𩔖吳都賦𤟤子長嘯是也又狒狒人形山𤟤獸狀故有差别羅氏誤矣 |
+| wd-q11047879-c08 | exact | zh.wikisource.org | Guo Pu (郭) explains that 'moving like the wind' means swift (言疾), and Wu Renchen quotes the Shou Jing (獸經), which says the wind beast portends wind. | 其行如風〈郭曰言疾〉見則天下大風〈任臣案獸經云風獸兆風圖贊曰山𤟤之獸見人歡謔 |
+| wd-q11047879-c09 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Shanhaijing Tuzan (山海經圖贊): Shanhui is merry and cries out on seeing people, is given to throwing, darts like an arrow, and is an essence of qi whose appearance raises the wind. | 《山海經圖贊》曰：山𤟤之獸，見乃歡唬。厥性善投，行如矢繳。是惟氣精，出則風作。 |
+| wd-q11047879-c10 | exact | zh.wikisource.org | The Wudu Fu (吳都賦) mentions the Huizi (𤟤子) giving long whistling cries up in the trees, while old apes wail and other animals leap among the branches. | 其上則猨父哀吟，𤟤子長嘯。狖鼯猓然，騰趠飛超。爭接縣垂，競游遠枝。 |
 
 
 ## wd-q11069488 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -545,6 +561,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | wd-q11069488-c04 | exact | zh.wikipedia.org | The article associates its account with the fourth eastern section of the Shan Hai Jing. | 當康，又稱作牙豚，是中國古代神話傳說中的神獸之一，是一種兆豐穰的瑞獸。栖息在山中有獠牙的猪，叫声像在叫自己的名字。在《山海經·東次四經》有所記載。 |
 | wd-q11069488-c05 | exact | zh.wikisource.org | The classical text places Dangkang on Mount Qin. | 又東南二百里，曰欽山，多金玉而無石。師水出焉，而北流注于皋澤，其中多鱃魚，多文貝。有獸焉，其狀如豚而有牙，其名曰當康，其鳴自叫，見則天下大穰。 |
 | wd-q11069488-c06 | exact | zh.wikisource.org | Mount Qin in that account contains gold and jade and is the source of the Shi water. | 又東南二百里，曰欽山，多金玉而無石。師水出焉，而北流注于皋澤，其中多鱃魚，多文貝。有獸焉，其狀如豚而有牙，其名曰當康，其鳴自叫，見則天下大穰。 |
+| wd-q11069488-c07 | exact | zh.wikisource.org | In the Shanhaijing Guangzhu, Wu Renchen (任臣) notes that the Pianya (駢雅) calls Dangkang (當康) Yatun (牙豚), and that the Shiwu Ganzhu (事物紺珠) wrongly writes it with the character 庚. | 其名曰當康〈任臣案駢雅云當康牙豚也事物紺珠當作庚誤〉其鳴自叫見則天下大穰 |
+| wd-q11069488-c08 | exact | zh.wikisource.org | Wu Renchen quotes the Tuzan (圖贊): Dangkang is like a pig and its appearance signals a harvest year; the bird-winged, glowing Hua fish (䱻魚), an omen of drought, comes from the same region; the Tuzan says the two bring different omens, disaster or blessing. | 疑⿰即䱻也〉其狀如魚而鳥翼出入有光其音如鴛鴦見則天下大旱〈任臣案圖贊曰當康如豚見則歳穰䱻魚鳥翼飛乃流光同出殊應或灾或祥 |
+| wd-q11069488-c09 | exact | zh.wikipedia.org | The Wikipedia note quotes Hao Yixing (郝懿行), who explains that 'Dangkang' is close in sound and meaning to 大穰 (great harvest): when the year is about to be fruitful, this beast appears first and cries out as an auspicious sign. | 郝懿行注：「當康大穰，声转义近，盖岁将丰稔，兹兽先出以鸣瑞。」 |
+| wd-q11069488-c10 | exact | zh.wikipedia.org | According to the same notes, Hu Wenhuan's (胡文煥) Shanhaijing Tushuo also records Dangkang on Mount Qin and explains, quoting Hanzi (韓子), that 'rang' (穰) means a ripe harvest year. | 胡文煥《山海經圖說》云：「欽山中有獸焉，狀如豚，名當康，其名自呼。見則天下大穰。韓子曰：穰，歲之稔也。」 |
 
 
 ## wd-q11070120 — skip
@@ -560,10 +580,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wd-q11107876 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -573,28 +590,32 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q11107876-c04 | exact | zh.wikipedia.org | The Erya places the serpent in the central region of its five direction scheme. | 《爾雅·釋地》中提及「五方」時，指中央處「中有枳首蛇焉。」與東方的「比目魚」、南方的「比翼鳥」、西方的「比肩獸」、北方的「比肩民」相對應，五者分別是「四方」及「中國」的「異氣」。東晉郭璞注解指枳首蛇就是「岐頭蛇也。」又補充「今江東呼兩頭蛇，為越王約髮。亦名弩弦。」是枳首蛇的典源所在。《山海經·海外西經》中提到一隻擁有兩個頭部的異獸「并封」時，郭璞亦於注解中提到：「今弩弦蛇亦此類也。」郝懿行補充指：「弩弦蛇即兩頭蛇也，見爾雅釋地枳首蛇注。」宋代沈括《夢溪筆談·雜志二》亦提到：「宣州寧國縣多枳首蛇，其長盈尺，黑鱗白章，兩首文彩同，但一首逆鱗耳。」指宣州有很多枳首蛇，其長度大都足有一尺，擁有黑色的鱗片及白色的花紋，兩個頭部的斑紋與色彩均一致，只是其中一個蛇頭上的鱗片與身體其他部分的鱗片生長方向相反而已。 |
 | wd-q11107876-c05 | exact | zh.wikipedia.org | The Sun Shuao story connects the two headed serpent with an omen of death for those who see it. | 春秋時代楚國人孫叔敖亦曾遇兩頭蛇，因聞知「見兩頭蛇者將死」之傳說而殺掉及埋掉該蛇，善念及人，成為一時佳話。 |
 | wd-q11107876-c06 | exact | zh.wikipedia.org | A Kuaiji tradition describes the serpent forming from the bowstring of the king of Yue. | 《本草綱目·鱗部》中亦有提及枳首蛇，李時珍引郭璞的形容，指枳首蛇又名越王蛇，會稽一帶有傳說指這種蛇是由越王的弩弦變化而成的，因此又稱弩弦蛇。陳藏器補充，兩頭蛇的大小只如人的手指，其中一個蛇頭沒有眼部及口部，兩頭都可以向前行，世俗認為見此兩頭蛇是不祥之兆。劉恂《嶺表錄異》有更具體的記載：「嶺外極多，長尺餘，大如小指，背有錦紋，腹下鱗紅。人視為常，不以為異。」羅願《爾雅翼》亦指：「寧國甚多，數十同穴。」其大小約與蚯蚓相似。李時珍載兩頭蛇為無毒蛇，東南方的外族人會加以進食。此蛇主治瘧疾，山野間的土人會將蛇身風乾，並將其繋於頸上。 |
+| wd-q11107876-c07 | exact | zh.wikisource.org | The Mengxi Bitan (夢溪筆談) records many Zhishoushe (枳首蛇) in Ningguo County, Xuanzhou (宣州寧國縣): about one chi long, black-scaled with white markings, both heads patterned alike but one with reversed scales, and dozens may share one hole in house courtyards, somewhat like earthworms. | 宣州寧國縣多枳首蛇，其長盈尺，黑鱗白章，兩首文彩同，但一首逆鱗耳。人家庭檻間，動有數十同穴，略如蚯蚓。 |
+| wd-q11107876-c08 | exact | zh.wikisource.org | The Lienü Zhuan (列女傳) tells that Sun Shu'ao (叔敖), as a child, saw a two-headed snake (兩頭蛇), killed and buried it, then wept to his mother because he had heard that whoever sees a two-headed snake will die. | 叔敖為嬰兒之時，出遊，見兩頭蛇，殺而埋之。歸見其母而泣焉，母問其故，對曰：「吾聞見兩頭蛇者死，今者出遊見之。」 |
+| wd-q11107876-c09 | exact | zh.wikisource.org | He explained that he had buried the snake so that others would not see it, and his mother replied that he would not die, because hidden virtue is openly rewarded, virtue overcomes ill omens, and benevolence wards off a hundred calamities. | 對曰：「吾恐他人復見之，殺而埋之矣。」其母曰：「汝不死矣。夫有陰德者，陽報之。德勝不祥，仁除百禍。 |
 
 
 ## wd-q11174091 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11174091-c01 | exact | zh.wikipedia.org | Yuezhuo is commonly understood as another name or a type of phoenix in Chinese tradition. | 一般认为，鸑鷟是凤凰的别称或认为是凤的一种，古书中有时会直接用鸑鷟指代凤，如“鸑鷟鸣岐”即等同于“凤鸣岐山”。但也有看法认为鸑鷟应为鸀鳿的别称。 |
 | wd-q11174091-c02 | exact | zh.wikipedia.org | Another interpretation associates the name with the Zhuyu bird. | 一般认为，鸑鷟是凤凰的别称或认为是凤的一种，古书中有时会直接用鸑鷟指代凤，如“鸑鷟鸣岐”即等同于“凤鸣岐山”。但也有看法认为鸑鷟应为鸀鳿的别称。 |
 | wd-q11174091-c03 | exact | zh.wikipedia.org | Its use in poetry often refers to an auspicious bird and a metaphor for virtuous officials. | 古时，由于鸑鷟多被认为是为一种瑞鸟，故常见于在许多古籍或诗词中，有时也会出现于小说中。“鸑”“鷟”二字有时也会被分开使用，但仍表示凤属神鸟，如“凤鷟”“鸾鷟”“鹓鸑”，仍多象征明臣贤士。 鸑鷟作为一般水鸟的意义，有时也会出现于古代诗词中。 |
+| wd-q11174091-c04 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Guoyu (國語) that when Zhou (周) rose, the Yuezhuo (鸑鷟) sang on Mount Qi (歧山), and the Shuowen (說文), which calls the Yuezhuo a kind of phoenix (鳳屬) and a divine bird (神鳥). | 《國語》曰：周之興，鸑鷟鳴於歧山。 《說文》曰：鸑鷟，鳳屬，神鳥也。 |
+| wd-q11174091-c05 | exact | zh.wikisource.org | According to the Sanfu Juelu (三輔決錄) note quoted in the Taiping Yulan, the court astronomer Cai Heng (蔡衡) stated that the one whose plumage is mostly purple is the Yuezhuo; the next quotation, from the Hou Hanshu (後漢書), records divine birds with five-coloured crests gathering at the palace in the Yongping (永平) era. | 《三輔決錄》注曰：太史令蔡衡云：「毛色多紫者為鸑鷟。」 《後漢書》曰：永平中，有神雀集宮殿官府，冠羽有五彩色。 |
+| wd-q11174091-c06 | exact | zh.wikisource.org | In that Hou Hanshu account, Jia Kui (逵) answers the emperor that when King Wu (武王) completed his father's work the Yuezhuo was at Qi (歧), and that Yuezhuo is another name for the phoenix (鳳之別名). | 帝乃召見逵，問之，對曰：「昔武王終父之業，鸑鷟在歧。鸑鷟，鳳之別名也。 |
+| wd-q11174091-c07 | exact | zh.wikisource.org | The quotation from the Tang Shu (唐書) about Zhang Zhuo (張鷟) says his grandfather interpreted a dream of a purple bird: the five-coloured bird with red markings is the phoenix, whereas the one with purple markings is the Yuezhuo, the phoenix's assistant (鳳之佐); the child was named after it. | 《唐書》曰：張鷟，字文成，聰警絕倫，無書不覽。為兒童時，夢紫色大鳥，五色成文，降於家庭。其祖謂之曰：「五色赤文，鳳也；紫文，鸑鷟也，為鳳之佐。兒當以文章瑞於明廷。」因以為名字。 |
 
 
 ## wd-q11174183 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 10 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -604,14 +625,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q11174183-c04 | exact | zh.wikipedia.org | It is said to raise its upper body upright. | 鸡冠蛇是中国民间传说中和古籍上记载的一种神秘生物。在中国东部、南部广大地区都有它的传说。民间传说认为，鸡冠蛇长有类似公鸡的肉冠，体色不一，可直立上身，发出怪声，叫声如母鸡，会腾空飞行。 |
 | wd-q11174183-c05 | exact | zh.wikipedia.org | Its voice resembles a hen. | 鸡冠蛇是中国民间传说中和古籍上记载的一种神秘生物。在中国东部、南部广大地区都有它的传说。民间传说认为，鸡冠蛇长有类似公鸡的肉冠，体色不一，可直立上身，发出怪声，叫声如母鸡，会腾空飞行。 |
 | wd-q11174183-c06 | exact | zh.wikipedia.org | In the legend the serpent can fly into the air. | 鸡冠蛇是中国民间传说中和古籍上记载的一种神秘生物。在中国东部、南部广大地区都有它的传说。民间传说认为，鸡冠蛇长有类似公鸡的肉冠，体色不一，可直立上身，发出怪声，叫声如母鸡，会腾空飞行。 |
+| wd-q11174183-c07 | exact | zh.wikisource.org | The Taiping Guangji (太平廣記), quoting the Luyi Ji (錄異記), says the Jiguanshe (雞冠蛇) has a head like a rooster's with a comb, is over one chi long and several cun round, that its bite is certainly fatal, and that it lives at the foot of Mount Kuaiji (會稽山). | 雞冠蛇，頭如雄雞有冠。身長尺餘，圍可數寸，中人必死。會稽山下有之。〈（出《錄異記》）〉 |
+| wd-q11174183-c08 | exact | zh.wikisource.org | The Shuo She (說蛇) records a Jiguanshe at Wanfu Temple (萬福寺), one li from the seat of Zhenxiong prefecture (鎮雄府): it is two to three zhang long with a red comb like a rooster's on its head; at sunset it comes out of the mountain, hundreds of small snakes line the path to welcome it, and when it enters the spring hole to the left of the temple the water overflows. | 雞冠蛇。產鎮雄府治一里萬福寺。其長二三丈，首有紅冠如雞。日落則自山出，小蛇數百夾道而迎入寺左泉穴，水皆泛溢。 |
+| wd-q11174183-c09 | exact | zh.wikisource.org | According to that account, when the former native chieftain Long Lianyue (隴聯嶽) visited the temple, the snake leaned against the wall and looked down at him; that same year Lianyue died, and the snake was never seen again. | 故土府隴聯嶽遊寺中，蛇倚牆而下視，其年聯嶽死，蛇亦不復見。 藍蛇。首有大毒 |
+| wd-q11174183-c10 | exact | zh.wikisource.org | The Wumen Biaoyin (吳門表隱) records a Jiguanshe behind Liuxian Hall (柳仙堂) outside Lou Gate (婁門), with a rooster's comb on its head, and able to crow (能啼). | 兩頭蛇，出穹窿山顧家宕，一身兩頭岐出。 雞冠蛇，出婁門外柳仙堂後，頭上生雞冠，能啼。 |
 
 
 ## wd-q11179559 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -620,14 +642,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11179559-c03 | exact | zh.wikipedia.org | The Huainanzi mentions Heili in its Qi Su Xun section. | 黑蜧出現於《淮南子·齊俗訓》，書中提到「犧牛粹毛，宜於廟牲。其於以致雨，不若黑蜧。」高誘注解指黑蜧是「蛇神也」，平時潛藏在深淵之中，能興雲布雨。南朝梁時《玉篇》亦指蜧是「神蛇也」。 |
 | wd-q11179559-c04 | exact | zh.wikipedia.org | Gao You's commentary calls it a serpent deity hiding in deep waters and producing clouds and rain. | 黑蜧出現於《淮南子·齊俗訓》，書中提到「犧牛粹毛，宜於廟牲。其於以致雨，不若黑蜧。」高誘注解指黑蜧是「蛇神也」，平時潛藏在深淵之中，能興雲布雨。南朝梁時《玉篇》亦指蜧是「神蛇也」。 |
 | wd-q11179559-c05 | exact | zh.wikipedia.org | The Yupian from the Liang period also explains li as a divine serpent. | 黑蜧出現於《淮南子·齊俗訓》，書中提到「犧牛粹毛，宜於廟牲。其於以致雨，不若黑蜧。」高誘注解指黑蜧是「蛇神也」，平時潛藏在深淵之中，能興雲布雨。南朝梁時《玉篇》亦指蜧是「神蛇也」。 |
+| wd-q11179559-c06 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽), in its Huainanzi quotations on signs of rain, calls the Heili (黑蜧) a divine dragon (神虯) that dwells in springs and leaps when rain is about to fall. | 又曰：天。且雨也，魚已噞噞。〈(音宜檢反。)〉 又曰：黑蜧神虯，潛泉而居，將雨而躍。〈(蜧，音麗)〉 |
+| wd-q11179559-c07 | exact | zh.wikisource.org | The Erya Yi (爾雅翼) explains the Lun (蜦) as a black kind of snake hiding in divine depths that can raise wind and rain, notes the character is sometimes written with the 戾 component, and quotes the Huainanzi (淮南子) on Heili as a rain-bringer. | 蜦蛇屬黒色潛于神淵能興風雨〈或從戾〉淮南子曰犧牛粹毛宜於廟牲其於以致雨不若黑蜧 |
+| wd-q11179559-c08 | exact | zh.wikisource.org | In his prayer for clear weather to Emperor Shun (舜廟祈晴文), Liu Zongyuan (柳宗元) laments the incessant rain and hopes that the Heili (黑蜧) will be punished so that the earth may dry. | 恒雨獲戾，循咎增淒。忍茲嘉生，均彼蓬藜。敢望誅黑蜧，抶陰。式乾後土，以廓天倪。 |
+| wd-q11179559-c09 | exact | zh.wikisource.org | In the Pili Fu (霹靂賦), Zhang Ding (張鼎) depicts a thunderstorm in which the Heili (黑蜧) soars in the clouds and the sky darkens. | 殷其，在南山之隈。黑蜧翔雲暗天起，黃雀驚風動地來。飄忽兮霏煙驛霧拂樓台 |
 
 
 ## wd-q11180093 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -637,28 +660,33 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q11180093-c04 | exact | zh.wikipedia.org | Its fur is said to make clothes and quilts that withstand cold. | 亦作磎鼠或鼷鼠，记载于《神异经》，居于冰下，有千斤重，肉可以吃。皮毛可以制衣被，时御寒的上品。用其皮做的鼓，声可以传到千里远，毛发可以召集鼠类。一般認為，內容中的奚鼠被認為可能是長毛象，或有可能是麝牛。 |
 | wd-q11180093-c05 | exact | zh.wikipedia.org | In the narrative, its hide makes a drum heard a thousand li away, and its hair can gather mice. | 亦作磎鼠或鼷鼠，记载于《神异经》，居于冰下，有千斤重，肉可以吃。皮毛可以制衣被，时御寒的上品。用其皮做的鼓，声可以传到千里远，毛发可以召集鼠类。一般認為，內容中的奚鼠被認為可能是長毛象，或有可能是麝牛。 |
 | wd-q11180093-c06 | exact | zh.wikipedia.org | Interpretations summarised in the article associate the creature with a woolly mammoth or muskox. | 亦作磎鼠或鼷鼠，记载于《神异经》，居于冰下，有千斤重，肉可以吃。皮毛可以制衣被，时御寒的上品。用其皮做的鼓，声可以传到千里远，毛发可以召集鼠类。一般認為，內容中的奚鼠被認為可能是長毛象，或有可能是麝牛。 |
+| wd-q11180093-c07 | exact | zh.wikisource.org | The Shenyi Jing (神異經) says that in the north lies ice ten thousand li wide and a hundred zhang thick; in the soil beneath it lives the Xishu (磎鼠), shaped like a mouse and eating plants, weighing a thousand jin; its flesh can be made into dried meat, and eating it cures heat. | 北方層冰萬里，厚百丈，有磎鼠在冰下土中焉。形如鼠，食草木肉。重千斤，可以作脯，食之已熱。 |
+| wd-q11180093-c08 | exact | zh.wikisource.org | According to the Shenyi Jing, its hair is eight chi long and can be made into bedding that keeps off the cold, its hide can cover a drum heard a thousand li away, and wherever its hair is, mice gather. | 其毛八尺，可以為羽褥，臥之卻寒。其皮可以蒙鼓，聞千里。其毛可以來鼠，此毛所在，鼠輒聚焉。 |
+| wd-q11180093-c09 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Shenyi Jing under the name of Dongfang Shuo (東方朔) with the spelling Xishu (鼷鼠), and its note explains that 'cures heat' means it treats feverish illness (除熱病). | 東方朔《神異經》曰：北方有冰萬里，厚百丈，有鼷鼠在冰下出焉。其形如鼠，食草木，肉重千斤，可以作脯，食之已熱。〈除熱病也。〉 |
+| wd-q11180093-c10 | exact | zh.wikisource.org | In the Taiping Yulan version, a note says bedding from its hair treats wind illness (治風病), and what attracts mice is its fine tail (美尾): wherever the tail hair is, mice come and gather. | 其毛長可八尺，可為蓐，臥之可以卻寒。〈治風病也。〉其皮可以蒙鼓，其聲聞千里。有美尾，可來鼠。〈此鼠尾毛所在，鼠斬輒入此聚。〉 |
 
 
 ## wd-q127514188 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 7 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q127514188-c01 | exact | zh.wikipedia.org | Yufu is a fish creature formed from a snake in Chinese legend. | 鱼妇是中国传说的异兽，是蛇化成的鱼，记载于《山海經》大荒西经。出自半坡人文化信仰，鱼凫传为“鱼妇”，鲧为“鱼妇”。另说颛顼死变化鱼妇。 |
 | wd-q127514188-c02 | exact | zh.wikipedia.org | The Shan Hai Jing records it in the Da Huang Xi Jing. | 鱼妇是中国传说的异兽，是蛇化成的鱼，记载于《山海經》大荒西经。出自半坡人文化信仰，鱼凫传为“鱼妇”，鲧为“鱼妇”。另说颛顼死变化鱼妇。 |
 | wd-q127514188-c03 | exact | zh.wikipedia.org | One version connects it with Zhuanxu transforming after death. | 鱼妇是中国传说的异兽，是蛇化成的鱼，记载于《山海經》大荒西经。出自半坡人文化信仰，鱼凫传为“鱼妇”，鲧为“鱼妇”。另说颛顼死变化鱼妇。 |
+| wd-q127514188-c04 | exact | zh.wikisource.org | The Dahuang Xijing (大荒西經) says there is a fish withered on one side (偏枯) named Yufu (魚婦); when the wind comes from the north, the springs overflow, snakes change into fish, and that is Yufu; Zhuanxu (顓頊) dies and then revives. | 有魚偏枯，名曰魚婦。顓頊死即復蘇。風道北来，天乃大水泉，蛇乃化為魚，是謂魚婦。顓頊死即復蘇。 |
+| wd-q127514188-c05 | exact | zh.wikisource.org | Guo Pu (郭) reads this passage as meaning that the person can transform, and Wu Renchen (任臣) compares it with the flying-head woman of Champa (占城) in the Xingcha Shenglan (星槎勝覽), whose head flies at night to devour children's heads and then rejoins its body. | 有魚偏枯名曰魚婦顓頊死即復蘇〈郭曰言其人能變化也 任臣案星槎勝覽占城有飛頭婦號屍致魚夜飛頭入人家食小兒頭返合體如故亦此𩔖也 |
+| wd-q127514188-c06 | exact | zh.wikisource.org | Wu Renchen notes that the Guanbian (冠編) says Yu Mu (虞幕) married a daughter of the Zhuanxu clan named Yufu (魚婦) who bore Qiongshan (窮鱓), but he doubts the link since only the name is shared; Guo Pu explains that the springs overflow violently because of the wind. | 又冠編云虞幕取顓頊氏女曰魚婦生窮鱓名與此同然語不相𫎇疑非是〉風道北来天乃大水泉〈郭曰言泉水得風暴溢出道猶従也 |
+| wd-q127514188-c07 | exact | zh.wikisource.org | Guo Pu links Yufu with the Huainanzi (淮南子) statement that at the grave of Houji (后稷) west of Jianmu (建木) the dead revive and some become fish; Wu Renchen adds Gao You's (髙誘) comment that the dead come back to life or turn into fish, and Yang Shen's (楊慎) note that southern Miao (苗) peoples can spell corpses into fish and eat them. | 韓非曰𤣥 二八道南方而来〉蛇乃化為魚是謂魚婦顓頊死即復蘇〈郭曰淮南子曰后稷龍在建木西其人死復蘇其中為魚盖謂此也任臣案髙誘淮南注云人死復生或化為魚楊慎補注曰今南中諸苗能以術呪尸為魚而食之西南國風 |
 
 
 ## wd-q131389273 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -667,15 +695,19 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q131389273-c03 | exact | encykorea.aks.ac.kr | In the Bak Hyeokgeose account, Gyeryong appears beside the Alyeong well in Saryang-ri. | 같은 날에 사량리 알영 우물가에 계룡이 나타나 그 왼쪽 겨드랑이로 딸아이를 낳으니 그 용모가 수려하였으나 입술이 꼭 닭의 부리와 같았다. |
 | wd-q131389273-c04 | exact | encykorea.aks.ac.kr | The girl it bears has lips like a chicken's beak. | 같은 날에 사량리 알영 우물가에 계룡이 나타나 그 왼쪽 겨드랑이로 딸아이를 낳으니 그 용모가 수려하였으나 입술이 꼭 닭의 부리와 같았다. |
 | wd-q131389273-c05 | exact | encykorea.aks.ac.kr | The Samguk Yusa gives the birth from the dragon's left armpit, while the Samguk Sagi gives the right side. | 이상은 『삼국유사』에 따른 것이지만 『삼국사기』의 기록은 이보다 훨씬 간략하다. 그러나 줄거리 자체에는 큰 차이가 없다. 『삼국유사』와 『삼국사기』의 두드러진 차이라면 전자가 알영을 계룡의 왼쪽 겨드랑이에서 탄생하였다고 하고 있는 것과는 달리, 후자에서는 겨드랑이 바른쪽으로 되어 있는 정도이다. |
+| wd-q131389273-c06 | exact | zh.wikisource.org | The Samguk Yusa (三國遺事) writes that on that day the Gyeryong (雞龍) appeared beside the Alyeong well (閼英井) in Saryang-ri (沙梁里) and bore a girl from its left side; an inserted note gives another version in which the dragon appeared and died, and the girl was obtained by cutting open its belly. | 是日沙梁里閼英井〈一作娥利英井〉邊有雞龍現。而左脅誕生童女〈一云龍現死。而剖其腹得之〉姿容殊麗。然而唇似雞觜。 |
+| wd-q131389273-c07 | exact | zh.wikisource.org | According to the Samguk Yusa, the country was sometimes called Gyerim (雞林國) because of the auspicious appearance of the Gyeryong; another version links the name to a cock crowing in the forest when Kim Alji (金閼智) was found in the time of King Talhae (脫解王). | 初王生於雞井。故或云雞林國。以其雞龍現瑞也。一說。脫解王時得金閼智。而雞鳴於林中。 |
+| wd-q131389273-c08 | exact | zh.wikisource.org | In an inserted note, the Samguk Yusa asks whether the auspicious appearance of the Gyeryong that bore Alyeong (閼英) might not also be a manifestation of the Holy Mother of Seosul (西述聖母). | 故中華人讚仚桃聖母。有娠賢肇邦之語是也。乃至雞龍現瑞產閼英。又焉知非西述聖母之所現耶 |
+| wd-q131389273-c09 | exact | zh.wikisource.org | The Samguk Sagi (三國史記) records that in the first month of the fifth year a dragon (龍) appeared at the Alyeong well and bore a girl from its right side; an old woman, struck by this, took her in and raised her, naming her after the well. | 五年春正月，龍見於閼英井，右脇誕生女兒。老嫗見而異之，收養之，以井名名之。 |
 
 
 ## wd-q136297166 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 1, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Tradisi Amis".
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 kutipan berbeda dari 8 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -685,14 +717,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q136297166-c04 | exact | zh.wikipedia.org | Breaking the taboos is believed to bring Hadai's curse. | 海德是魚王之靈，住在河中。如果族人想要抓河裡的魚，必須遵守相關的捕魚禁忌，不然會遭受到海德的詛咒。 |
 | wd-q136297166-c05 | exact | zh.wikipedia.org | The Amis name Hadai includes meanings of wandering or drifting. | 「海德」一詞在阿美語裡有「漂泊、漂流」的意思，海德傳說很有可能來自對於溺死亡靈的敬畏。 |
 | wd-q136297166-c06 | exact | zh.wikipedia.org | The article proposes that the account may originate in reverence for the spirits of drowned people. | 「海德」一詞在阿美語裡有「漂泊、漂流」的意思，海德傳說很有可能來自對於溺死亡靈的敬畏。 |
+| wd-q136297166-c07 | exact | zh.wikipedia.org | According to one story, a man who ate meat before fishing in the Qilai River (奇萊溪), a tributary of the Hualien River (花蓮溪), caught nothing; his net held only a glaring human head, the net clung to his hand and he felt an invisible hand touching his back, until he realised he had broken a taboo and prayed to Hadai (海德), after which the strange events stopped. | 傳說中有一個人在前往奇萊溪（花蓮溪的支流）捕魚的時候因為事先吃了肉，使得就算河裡有很多魚也始終抓不到魚，網子拉上來時裡面只有一個人頭，正張開眼睛和嘴巴怒視著他，嚇得當場跑走，但裝著人頭的網子卻一直纏在手上甩不掉，還感覺到有隻隱形的手在觸摸自己的背，這才想起自己觸犯禁忌而連忙向海德祈禱，詭異的現象才消失。 |
+| wd-q136297166-c08 | exact | zh.wikipedia.org | In another story, a man who forgot to pray to Hadai before fishing was chased by several spear-bearing spirits that rose from the river; he was spared only after, on the verge of fainting, he recognised his offence and apologised to Hadai in a dream. | 有人在河邊捕魚前忘了向海德祈禱，因此在他把漁網拉起來的時候，河中突然出現好幾個拿著長矛的亡靈追殺他，他雖然努力想要逃跑但卻一直感覺矛尖戳著自己的背，直到在昏倒前才想起自己觸犯禁忌，在夢裡向海德道歉，亡靈才沒有傷害他。 |
 
 
 ## wd-q138044702 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -701,14 +732,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q138044702-c03 | exact | ja.wikipedia.org | Xiang Furen is regarded as the spouse of Xiang Jun. | 湘夫人（しょうふじん）は、中国楚地の湘江流域で信仰された水神で、『楚辞』九歌に描かれる女神。湘君の配偶神とされ、その哀怨な神性は古代楚の祭祀文化と貴族文学の融合を体現する存在として知られる。帝舜の妃娥皇・女英と習合される説が広く流布している。 |
 | wd-q138044702-c04 | exact | ja.wikipedia.org | The article connects her portrayal with the combination of Chu ritual culture and aristocratic literature. | 湘夫人（しょうふじん）は、中国楚地の湘江流域で信仰された水神で、『楚辞』九歌に描かれる女神。湘君の配偶神とされ、その哀怨な神性は古代楚の祭祀文化と貴族文学の融合を体現する存在として知られる。帝舜の妃娥皇・女英と習合される説が広く流布している。 |
 | wd-q138044702-c05 | exact | ja.wikipedia.org | One tradition identifies the goddess with Ehuang and Nüying, Shun's wives. | 湘夫人（しょうふじん）は、中国楚地の湘江流域で信仰された水神で、『楚辞』九歌に描かれる女神。湘君の配偶神とされ、その哀怨な神性は古代楚の祭祀文化と貴族文学の融合を体現する存在として知られる。帝舜の妃娥皇・女英と習合される説が広く流布している。 |
+| wd-q138044702-c06 | exact | zh.wikisource.org | In the song Xiang Furen (湘夫人), the speaker gallops to the riverbank in the morning and crosses at dusk, hears the Fair One (佳人) calling him so that he will set off with her, and builds a house in the water roofed with lotus leaves. | 朝馳余馬兮江皋，夕濟兮西澨。 聞佳人兮召予，將騰駕兮偕逝。 築室兮水中，葺之兮荷蓋。 |
+| wd-q138044702-c07 | exact | zh.wikisource.org | The Chuci Zhangju (楚辭章句) commentary reads Dizi as the daughters of Yao (堯女): Yao's two daughters, Ehuang (娥皇) and Nüying (女英), followed Shun (舜) and did not return, drowned on the shore of the Xiang River (湘水), and so became Xiang Furen. | 【帝子降兮北渚，】帝子，謂堯女也。降，下也。言堯二女娥皇、女英，隨舜不反，沒於湘水之渚，因為湘夫人。 |
+| wd-q138044702-c08 | exact | zh.wikisource.org | According to the same commentary, the title Gongzi (公子) in the song refers to Xiang Furen; the poet uses it out of reluctance to name the revered figure directly, and though the two daughters are dead he still longs for their spirits. | 【思公子兮未敢言。】公子，謂湘夫人也。重以卑說尊，故變言公子也。言己想若舜之遇二女，二女雖死，猶思其神 |
+| wd-q138044702-c09 | exact | zh.wikisource.org | The commentary also explains that Qu Yuan (屈原), living in seclusion among the marshes, hoped Xiang Furen would summon him so that he could set off at once to meet her. | 【將騰駕兮偕逝。】偕，俱也。逝，往也。屈原幽居草澤，思神念鬼，冀湘夫人有命召呼，則願命駕騰馳而往，不待侶偶也。 |
+| wd-q138044702-c10 | exact | zh.wikisource.org | In his note on Mount Dongting in the Shan Hai Jing, Guo Pu (郭) identifies the 'two daughters of the emperor' who live there with the Xiang Furen called Dizi in the Jiu Ge (九歌), daughters of the Heavenly Emperor who became river goddesses, whereas the Hetu Yuban (河圖玉版) calls Xiang Furen the daughter of Emperor Yao (帝堯). | 其草多葌蘪蕪芍藥芎藭〈郭曰麋蕪似蛇牀而香也〉帝之二女居之〈郭曰天帝之二女而處江為神即列仙傳江妃二女也離騷九歌所謂湘夫人稱帝子者是也而河圖玉版曰湘夫人者帝堯女也 |
 
 
 ## wd-q139502802 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -718,4 +751,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q139502802-c04 | exact | zh.wikipedia.org | The Bowu Zhi states that a thousand year old Honghu gives live birth rather than laying eggs, as a fabulous trait in the text. | 《博物志》曰：鴻鵠千歲者皆胎產。 文學引用 [编辑] 鴻鵠的字義，在後世文學中常被譬喻為大鳥，進而衍生出志向遠大之人的涵義 |
 | wd-q139502802-c05 | exact | zh.wikipedia.org | In later literature, the name Honghu becomes a metaphor for lofty ambitions. | 鴻鵠的字義，在後世文學中常被譬喻為大鳥，進而衍生出志向遠大之人的涵義。 |
 | wd-q139502802-c06 | exact | zh.wikipedia.org | The Shuo Yuan uses the high flying Honghu as a parable about essential support compared with additions that do not help. | 舟人古乘對曰：「鴻鵠高飛遠翔，其所恃者六翮也，背上之毛，腹下之毳，無尺寸之數，去之滿把，飛不能為之益卑；益之滿把，飛不能為之益高。不知門下左右客千人者，有六翮之用乎？將盡毛毳也。」 |
+| wd-q139502802-c07 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Maoshi Yishu (毛詩義疏): the Honghu (鴻鵠) has glossy pure-white plumage, resembles a crane but is larger, has a long neck, and its flesh is as tasty as a wild goose's. | 《毛詩義疏》曰：鴻鵠，羽毛光澤純白，似鶴而大，長頸，肉美如雁。 |
+| wd-q139502802-c08 | exact | zh.wikisource.org | In the Guanzi (管子) quotation, Duke Huan (桓公) watches the Honghu flying sometimes south and sometimes north, with no direction too far for it, able to reach wherever it wishes because of its wings. | 桓公嘆曰：「仲父，今彼鴻鵠有時而南，有時而北，四方無遠，所欲至而至焉，惟有羽翼之故 |
+| wd-q139502802-c09 | exact | zh.wikisource.org | Another quotation in the Taiping Yulan states that a Honghu chick, though its wings are not yet fully grown, already has a heart reaching to the four seas, just as the worthy are from birth. | 虎豹未成文，而有食牛之氣；鴻鵠之鷇，羽翼未合，而有四海之心。賢者之生亦然。 |
 
