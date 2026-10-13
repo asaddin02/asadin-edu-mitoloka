@@ -1,10 +1,10 @@
 # Batch batch-154 — Tambahan manual (makhluk yang terlewat worklist)
 
-Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
+Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-154`
 - Jumlah makhluk: 14
-- `task` `new`: Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, agama tradisional, atau makhluk dari karya sastra (§12); kalau bukan, kirim entri skip.
+- `task` `new`: Makhluk ini belum ada di Mitoloka. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, agama tradisional, atau makhluk dari karya sastra (§12); kalau bukan, kirim entri skip.
 
 ## Daftar makhluk
 

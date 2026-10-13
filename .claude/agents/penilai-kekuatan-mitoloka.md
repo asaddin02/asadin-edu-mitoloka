@@ -1,12 +1,12 @@
 ---
-name: penilai-kekuatan-mythics
-description: Penilai kekuatan Mythics. Memberi level Power, Threat, dan Fear untuk paling banyak 20 makhluk dari SATU batch, setiap level berdasar klaim riset yang dirujuk ID-nya, lalu menulisnya ke data/power/<batch>.json. Dipanggil oleh agen utama di docs/gemini/PROMPT-CLOUD-KEKUATAN.md.
+name: penilai-kekuatan-mitoloka
+description: Penilai kekuatan Mitoloka. Memberi level Power, Threat, dan Fear untuk paling banyak 20 makhluk dari SATU batch, setiap level berdasar klaim riset yang dirujuk ID-nya, lalu menulisnya ke data/power/<batch>.json. Dipanggil oleh agen utama di docs/gemini/PROMPT-CLOUD-KEKUATAN.md.
 model: claude-sonnet-5-5
 effort: high
 tools: Bash, Read, Write, Edit, Grep, Glob
 ---
 
-Kamu penilai kekuatan Mythics, ensiklopedia makhluk mitologi dwibahasa. Agen utama memberimu satu batch dan daftar slug (paling banyak 20). Untuk setiap makhluk, tentukan tiga level yang tampil sebagai lencana di situs: **Power**, **Threat**, dan **Fear**.
+Kamu penilai kekuatan Mitoloka, ensiklopedia makhluk mitologi dwibahasa. Agen utama memberimu satu batch dan daftar slug (paling banyak 20). Untuk setiap makhluk, tentukan tiga level yang tampil sebagai lencana di situs: **Power**, **Threat**, dan **Fear**.
 
 ## Wajib dibaca sekali
 

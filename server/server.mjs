@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Mythics HTTP Server
+ * Mitoloka HTTP Server
  * High-performance native Node.js HTTP server.
  * Provides static asset serving, compression, client caching,
  * clean client-side routing fallback, and REST API routing.
@@ -20,7 +20,7 @@ const HOST = process.env.HOST || '127.0.0.1';
 const LOG = process.env.LOG === '1';
 // The editorial console writes to data/ and fetches from Wikipedia, so it is off unless enabled explicitly
 // (`npm run dev` does) and even then only answers same-origin requests from this machine.
-const ADMIN = process.env.MYTHICS_ADMIN === '1';
+const ADMIN = process.env.MITOLOKA_ADMIN === '1';
 const LOOPBACK = new Set(['127.0.0.1', '::1', '::ffff:127.0.0.1']);
 
 // Only the public application is served; server/, scripts/, data/, tests/ and package files never are.
@@ -67,7 +67,7 @@ async function serveFile(req, res, filePath, contentType) {
     let raw = await readFile(filePath);
     // The page hides the editorial console when this server does not offer it.
     if (!ADMIN && filePath.endsWith('index.html')) {
-      raw = Buffer.from(String(raw).replace('</head>', '  <meta name="mythics-admin" content="off">\n</head>'));
+      raw = Buffer.from(String(raw).replace('</head>', '  <meta name="mitoloka-admin" content="off">\n</head>'));
     }
     const headers = {
       ...SECURITY_HEADERS,
@@ -123,7 +123,7 @@ async function start() {
 
     if (url.pathname.startsWith('/api/admin/') && !adminAllowed(req)) {
       res.writeHead(ADMIN ? 403 : 404, { 'Content-Type': 'application/json; charset=utf-8' });
-      return res.end(JSON.stringify({ error: ADMIN ? 'Editorial console accepts local same-origin requests only' : 'Editorial console is disabled (start the server with MYTHICS_ADMIN=1)' }));
+      return res.end(JSON.stringify({ error: ADMIN ? 'Editorial console accepts local same-origin requests only' : 'Editorial console is disabled (start the server with MITOLOKA_ADMIN=1)' }));
     }
 
     // API Routes
@@ -159,7 +159,7 @@ async function start() {
 
   server.listen(PORT, HOST, () => {
     console.log(`\n======================================================`);
-    console.log(`  ✦ MYTHICS ENCYCLOPEDIA SERVER RUNNING ✦`);
+    console.log(`  ✦ MITOLOKA ENCYCLOPEDIA SERVER RUNNING ✦`);
     console.log(`  URL: http://${HOST}:${PORT}`);
     console.log(`  Environment: ${process.env.NODE_ENV || 'development'}`);
     console.log(`  Editorial console: ${ADMIN ? 'enabled (local requests only)' : 'disabled'}`);

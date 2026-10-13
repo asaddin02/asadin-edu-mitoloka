@@ -1,5 +1,5 @@
 /**
- * Mythics Schema Enricher
+ * Mitoloka Schema Enricher
  * Standardizes and enriches creature entities with multi-tier content classification:
  * - Content Tier (Core / Rich / Archive)
  * - Claim-level Source Provenance
@@ -106,8 +106,8 @@ export function buildClaimsProvenance(creature) {
   const primarySource = sources[0] || {
     id: 'src-default',
     title: 'Kompilasi Arsip Tradisi',
-    source_name: 'Mythics Cultural Registry',
-    url: 'https://mythics.org',
+    source_name: 'Mitoloka Cultural Registry',
+    url: 'https://mitoloka.org',
     source_type: 'Reference'
   };
 

@@ -1,6 +1,6 @@
 # Batch batch-001 — uji coba
 
-Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 1)" yang sudah dikirim di percakapan ini.
+Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi 1)" yang sudah dikirim di percakapan ini.
 
 - `batch_id`: `batch-001`
 - `task`: `rewrite`. Entri lama berisi teks template dan sumber yang belum terverifikasi. Tulis ulang dari nol berdasarkan riset baru; isi entri lama hanya petunjuk pencarian.

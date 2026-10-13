@@ -1,4 +1,4 @@
-# Jurnal ilustrasi Mythics
+# Jurnal ilustrasi Mitoloka
 
 Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tambahkan entri di akhir berkas, jangan ubah atau hapus entri lama, bahasa Indonesia. Format entri ada di `docs/codex/GAMBAR.md` §7. Angka yang bisa dihitung ulang tidak perlu ditulis panjang; `node scripts/artwork-status.mjs` menghitungnya. Yang berharga di sini adalah **pelajaran**: prompt yang berhasil, alasan penolakan, keputusan yang diambil.
 
@@ -169,7 +169,7 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - Klarifikasi pemeriksaan ketat tambahan: enam receipt lane Radha memakai metadata hash varian di mini-receipt, dan catatan editorial di limitations. Menyelaraskan hash/selected pada daftar variants serta memindahkan catatan ke artistic_choices agar limitations literal [] sesuai §8; seluruh informasi dipertahankan.
 
 ### Progres 23:00 WIB
-- 31 tokoh baru × dua varian = 62 PNG final sudah dilihat root, pemeriksaan ketat /tmp/mythics-validate-session.mjs lulus 0 errors; empat tokoh tambahan masih berjalan (mothman, vajrapani, rahu, black-tortoise).
+- 31 tokoh baru × dua varian = 62 PNG final sudah dilihat root, pemeriksaan ketat /tmp/mitoloka-validate-session.mjs lulus 0 errors; empat tokoh tambahan masih berjalan (mothman, vajrapani, rahu, black-tortoise).
 - Qilin A-first ditolak karena kuku cloven/tubuh terlalu canine, PNG/receipt nyata diarsipkan, retry kini berkuku kuda tunggal sesuai c07; B onehorn c10 tidak dicampur dengan A.
 - Dua panggilan Mothman gagal koneksi dengan pesan exact image generation failed: connection failed: error sending request; tidak ada PNG diklaim. Retry built-in berjalan, tanpa fallback.
 
@@ -269,7 +269,7 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 
 ## 2026-10-12 09:28 WIB — Codex — mulai
 
-- Pemilik meminta melanjutkan penggambaran Mythics dan menghitung sisa. Fokus dikoreksi dari workspace KasirDW ke repositori Mythics; KasirDW tidak diubah.
+- Pemilik meminta melanjutkan penggambaran Mitoloka dan menghitung sisa. Fokus dikoreksi dari workspace KasirDW ke repositori Mitoloka; KasirDW tidak diubah.
 - Status awal: 1179 ilustrasi aktif; 1583 lengkap-informasi tanpa ilustrasi aktif = 1402 kandidat baru + 164 awaiting-independent-review + 17 tidak-digambar; 0 needs-correction dan 0 receipt invalid. Tidak mengulang entri menunggu/ditolak. Ada 1 receipt reviewed batch1094 yang menjadi tugas integrasi Claude.
 - Rencana: satu batch paling banyak50 sesuai GAMBAR, tiga lane ilustrator gpt-6.1-sol/high; root membaca seluruh hasil PNG native dan thumbnail200, menulis ledger/jurnal/handoff. Skill imagegen dan built-in image_gen; model gambar dicatat hanya jika dilaporkan.
 - Perubahan sesi terdahulu dipertahankan; riset/katalog/power/JS/manifest/WebP/backups tidak diubah. Tanpa integrasi/commit/push.
@@ -302,7 +302,7 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 ## 2026-10-12 14:56 WIB — Codex — mulai
 
 - Pemilik meminta melanjutkan sesi sebelumnya ditambah satu batch. Dipulihkan dari status, jurnal dan riwayat: batch1456 terputus dengan14receipt (11final+3decline),36pending. Selesaikan1456 dahulu, kemudian50entri baru satu batch tambahan.
-- Status awal:1179aktif,222awaitingClaude,0receiptinvalid,0needs-correction. KasirDW tidak diubah; fokus Mythics mengikuti koreksi pemilik pada sesi sebelumnya.
+- Status awal:1179aktif,222awaitingClaude,0receiptinvalid,0needs-correction. KasirDW tidak diubah; fokus Mitoloka mengikuti koreksi pemilik pada sesi sebelumnya.
 - Tiga lane gpt-6.1-sol/high sesuaiGAMBAR§2; root melihat setiap nativePNG dan200px, mengelola ledger/jurnal/galeri/validasi. Pakai imagegen built-in; nama model sesuai laporan alat. Pertahankan semua perubahan sebelumnya dan riwayatPNG; tanpa integrasi/commit/push.
 
 ### Progres 15:16 WIB

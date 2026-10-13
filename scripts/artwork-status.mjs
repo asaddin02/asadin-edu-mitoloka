@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Status ilustrasi Mythics, dibangun dari berkas nyata (ledger, receipt, fill status), bukan dari ingatan sesi.
+ * Status ilustrasi Mitoloka, dibangun dari berkas nyata (ledger, receipt, fill status), bukan dari ingatan sesi.
  * Dipakai di awal setiap sesi Codex (ilustrator) dan Claude (peninjau) supaya konteks tidak hilang.
  *
  *   node scripts/artwork-status.mjs            ringkasan, antrean, batch terbuka, receipt bermasalah, jurnal, saran
@@ -148,7 +148,7 @@ const report = { computed_at: now, counts, active_artwork: Object.keys(manifest)
 if (args.json) { console.log(JSON.stringify(report, null, 2)); process.exit(0); }
 
 const list = (slugs, max) => (args.semua || slugs.length <= max ? slugs : [...slugs.slice(0, max), `… (${slugs.length - max} lagi, pakai --semua)`]).join(', ');
-console.log(`Status ilustrasi Mythics — ${now}`);
+console.log(`Status ilustrasi Mitoloka — ${now}`);
 console.log(`Ilustrasi aktif terpasang: ${report.active_artwork}. Lengkap-bergambar ${counts['lengkap-bergambar']}, lengkap-informasi ${counts['lengkap-informasi']}, tidak-lengkap ${counts['tidak-lengkap']}, belum-ada-entri ${counts['belum-ada-entri']}.`);
 console.log(`Dikecualikan permanen: ${report.excluded}. Gambar ditahan (entri belum lengkap): ${held.length}${held.length ? ` (${held.join(', ')})` : ''}.`);
 console.log('');

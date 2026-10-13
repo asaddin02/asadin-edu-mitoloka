@@ -7,9 +7,9 @@
  *   keep their number and content; the new batches continue after the highest of them.
  * - DROP removes duplicates of existing entries, non-beings and characters from modern works
  *   (decided by hand on 2026-09-30); they are kept in worklist.dropped with the reason.
- * - RENAME gives a homonym of an existing Mythics entry a name the verifier will not take
+ * - RENAME gives a homonym of an existing Mitoloka entry a name the verifier will not take
  *   for a duplicate. Other shared names get a hint naming the other beings.
- * - Culture comes from the current Mythics entry (enrich) or from Wikidata (P495 country of
+ * - Culture comes from the current Mitoloka entry (enrich) or from Wikidata (P495 country of
  *   origin, P1080 narrative universe, P2596 culture, P361 part of, P17, P172, P140, P1269),
  *   classes and description, and finally from the language of the only Wikipedia editions.
  *
@@ -87,7 +87,7 @@ const GROUPS = [
 ];
 const LABEL = Object.fromEntries([...GROUPS.map(([key, label]) => [key, label]), ['lain', 'Lintas budaya & lainnya']]);
 const ORDER = [...GROUPS.map(([key]) => key), 'lain'];
-// Mythics culture ids of current entries → group.
+// Mitoloka culture ids of current entries → group.
 const CULTURE_GROUP = {
   'japanese-folklore': 'jepang', 'tradition-ainu': 'jepang', 'tradition-okinawan': 'jepang',
   'chinese-mythology': 'tiongkok', 'tradition-korean': 'tiongkok', 'tradition-taiwanese': 'tiongkok', 'tradition-tibetan': 'tiongkok', 'tradition-east-asian': 'tiongkok',
@@ -140,7 +140,7 @@ const dropped = [...(worklist.dropped || [])];
 const todo = [];
 for (const item of open) {
   if (DROP.has(item.slug)) dropped.push({ ...item, batch_id: null, dropped_reason: DROP.get(item.slug) });
-  else todo.push(RENAME.has(item.slug) ? { ...item, canonical_name: RENAME.get(item.slug), hint: `Nama ini dibedakan dari entri Mythics lain yang bernama sama. Pakai \`canonical_name\` persis "${RENAME.get(item.slug)}" dan teliti makhluk sesuai Wikidata ${item.qid}.` } : item);
+  else todo.push(RENAME.has(item.slug) ? { ...item, canonical_name: RENAME.get(item.slug), hint: `Nama ini dibedakan dari entri Mitoloka lain yang bernama sama. Pakai \`canonical_name\` persis "${RENAME.get(item.slug)}" dan teliti makhluk sesuai Wikidata ${item.qid}.` } : item);
 }
 
 // ---------------------------------------------------------------- culture per item

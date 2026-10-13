@@ -1,11 +1,11 @@
 /**
- * Mythics Client-side API Service
+ * Mitoloka Client-side API Service
  * Handles data fetching, in-memory caching, error management,
  * and seamless fallback handling.
  *
  * Two back ends answer the same calls:
  * - the Node server (server/api.mjs), which runs the queries;
- * - static hosting (scripts/build-site.mjs marks index.html with <meta name="mythics-data" content="static">),
+ * - static hosting (scripts/build-site.mjs marks index.html with <meta name="mitoloka-data" content="static">),
  *   where every read is a pre-built JSON file under /api/ and search, filters, pagination and random
  *   encounters run in the browser with the same query engine over /api/catalog.json.
  */
@@ -15,9 +15,9 @@ import * as engine from './query-engine.js';
 const CACHE = new Map();
 
 const meta = name => document.querySelector(`meta[name="${name}"]`)?.content;
-const STATIC = meta('mythics-data') === 'static';
-/** The editorial console needs the local server started with MYTHICS_ADMIN=1. */
-export const adminEnabled = !STATIC && meta('mythics-admin') !== 'off';
+const STATIC = meta('mitoloka-data') === 'static';
+/** The editorial console needs the local server started with MITOLOKA_ADMIN=1. */
+export const adminEnabled = !STATIC && meta('mitoloka-admin') !== 'off';
 
 /** Static file for a server endpoint: /api/creatures/Garuda → /api/creatures/garuda.json */
 const staticPath = (dir, key) => `/api/${dir}/${encodeURIComponent(engine.normalizeText(key))}.json`;
@@ -41,7 +41,7 @@ function toParams(params, skip) {
 }
 
 function staticOnly() {
-  throw new Error('The editorial console is available only on the local Mythics server (npm run dev).');
+  throw new Error('The editorial console is available only on the local Mitoloka server (npm run dev).');
 }
 
 async function getJson(endpoint, cacheTtlMs = 60000) {

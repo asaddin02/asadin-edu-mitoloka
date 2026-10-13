@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Mythics Data Quality Control & Validation Script
+ * Mitoloka Data Quality Control & Validation Script
  * Verifies schema integrity, bilingual completeness, source provenance,
  * image attribution, and taxonomy reference sanity.
  */
@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
 async function runCheck() {
-  console.log('=== MYTHICS DATA QUALITY AUDIT ===\n');
+  console.log('=== MITOLOKA DATA QUALITY AUDIT ===\n');
 
   const creatures = JSON.parse(await readFile(join(ROOT, 'data', 'creatures.json'), 'utf8'));
   const cultures = JSON.parse(await readFile(join(ROOT, 'data', 'cultures.json'), 'utf8'));

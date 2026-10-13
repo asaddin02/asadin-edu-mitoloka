@@ -80,7 +80,7 @@ try {
   assert.throws(() => assertBaseline(ledger, { artworks: {} }));
   assert.throws(() => assertBaseline(ledger, { artworks: { other: {} } }));
   assertBaseline(ledger, { artworks: { test: {}, added: {} } }); // artwork added by later batches is allowed
-  const relocated = `/obsolete/asadin-mythological-creatures/${oldNative}`;
+  const relocated = `/obsolete/asadin-edu-mitoloka/${oldNative}`;
   assert.equal(assetPath(relocated), resolve(root, oldNative));
   assert.equal(hash(relocated), item.old_native_sha256);
   console.log('PASS: default and named revisions; grounded effects; preserved hashes; relocation; independent-review boundary; stale and forged receipts rejected');

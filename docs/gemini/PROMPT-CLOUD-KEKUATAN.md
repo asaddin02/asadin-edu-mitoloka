@@ -12,12 +12,12 @@ npm ci
 npm run -s power:queue
 ```
 
-Baca sendiri, sekali saja: `.claude/agents/penilai-kekuatan-mythics.md` (aturan untuk subagent) dan `js/scaling.js` (definisi level dan contoh penilaian), supaya kamu bisa menilai hasil subagent.
+Baca sendiri, sekali saja: `.claude/agents/penilai-kekuatan-mitoloka.md` (aturan untuk subagent) dan `js/scaling.js` (definisi level dan contoh penilaian), supaya kamu bisa menilai hasil subagent.
 
 ## Subagent
 
-- Pakai subagent bertipe **`penilai-kekuatan-mythics`**. Definisinya mengunci model `claude-sonnet-5-5` dengan effort `high`, dan pengaturan *thinking* ikut sesimu. Saat memanggil Agent, isi juga `model: "sonnet"`.
-- Kalau tipe itu tidak tersedia, pakai `general-purpose` dengan `model: "sonnet"`. Tempelkan seluruh isi `.claude/agents/penilai-kekuatan-mythics.md` (tanpa frontmatter) di awal prompt-nya. Jangan memakai `haiku`.
+- Pakai subagent bertipe **`penilai-kekuatan-mitoloka`**. Definisinya mengunci model `claude-sonnet-5-5` dengan effort `high`, dan pengaturan *thinking* ikut sesimu. Saat memanggil Agent, isi juga `model: "sonnet"`.
+- Kalau tipe itu tidak tersedia, pakai `general-purpose` dengan `model: "sonnet"`. Tempelkan seluruh isi `.claude/agents/penilai-kekuatan-mitoloka.md` (tanpa frontmatter) di awal prompt-nya. Jangan memakai `haiku`.
 - Jalankan **5 subagent sekaligus** di latar belakang. Masing-masing memegang **satu batch** dengan **paling banyak 20 makhluk**. Dua subagent tidak boleh memegang batch yang sama pada waktu yang sama.
 
 ## Alur

@@ -11,7 +11,7 @@ import { REGIONS, CLASSIFICATIONS, ABILITIES, HABITATS, cultureRecords } from '.
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(HERE, '..', '..');
-export const DEFAULT_DB_PATH = process.env.MYTHICS_DB || join(ROOT, 'data', 'mythics.db');
+export const DEFAULT_DB_PATH = process.env.MITOLOKA_DB || join(ROOT, 'data', 'mitoloka.db');
 
 let instance = null;
 

@@ -1,5 +1,7 @@
 # Serah terima — 6 Oktober 2026 (sore)
 
+> **Catatan 13 Oktober 2026:** proyek ini kini bernama **Mitoloka** (https://mitoloka.pages.dev, repo `asadin-edu-mitoloka`). Nama dan alamat lama di dokumen bertanggal ini sudah diganti; alamat pages.dev yang sudah dihapus ditulis secara umum.
+
 Untuk PC lain: **jalankan `git pull` dulu.** Semua yang tercantum sebagai selesai di bawah sudah di-commit dan di-push ke `main`. Dokumen ini menggantikan [HANDOFF-STATUS-2026-10-06.md](HANDOFF-STATUS-2026-10-06.md) (pagi). Pembagian kerja dan keputusan pemilik proyek yang lebih rinci ada di [BAGI-TUGAS-2026-10-06.md](BAGI-TUGAS-2026-10-06.md).
 
 ## Angka sekarang
@@ -32,7 +34,7 @@ Penilaian kekuatan (Power, Threat, Fear) yang tampil di situs: **868 makhluk** (
 | Commit | Isi |
 |---|---|
 | `67f76c9` | Lima kategori status dan penanda `gambar_ditahan` |
-| `ab9cd02` | Mode `verify.mjs --changed`, `gemini:enrich-queue`, subagent `peneliti-mythics` |
+| `ab9cd02` | Mode `verify.mjs --changed`, `gemini:enrich-queue`, subagent `peneliti-mitoloka` |
 | `b264e0e` | 5 gambar Gemini lolos (batch 1005); Gemini dihentikan |
 | `db1e3b9` | Tokoh sastra (batch-154); antrean dari nama terbesar; jalur penilaian kekuatan; aturan gambar nama besar |
 | `b0214a1` | Gabungan sesi Claude Cloud pengayaan pertama: batch 140–141 diterima, 175 entri diperkaya |
@@ -46,7 +48,7 @@ Penilaian kekuatan (Power, Threat, Fear) yang tampil di situs: **868 makhluk** (
 Sesi pengayaan pertama dimatikan setelah 175 entri, dan hasilnya sudah digabung ke `main`. **Sesi baru belum dimulai.** Prompt-nya sudah siap, dan Tahap 1 sudah ditandai selesai.
 
 Cara memulai di claude.ai/code:
-1. Pilih repo `asaddin02/asadin-mythological-creatures`.
+1. Pilih repo `asaddin02/asadin-edu-mitoloka`.
 2. Pilih model **Sonnet 5.5** dengan effort **high**.
 3. Atur akses jaringan environment ke **Full**. Ini wajib, karena verifier mengunduh halaman sumber.
 4. Kirim pesan ini:
@@ -122,6 +124,6 @@ Setelah Codex selesai, Claude lokal yang menjadi peninjau kedua: lihat setiap ga
 
 ## Proyek lain yang dikerjakan hari ini
 
-- **SEO kelima situs:** sitemap, halaman 404 yang benar, dan tag Google Search Console lewat variabel repo `GOOGLE_SITE_VERIFICATION`. Kodenya per akun, jadi satu kode berlaku untuk semua situs. BioTaxa, Alchemist, Phsyco, dan Mythics didaftarkan pemilik ke Search Console.
+- **SEO kelima situs:** sitemap, halaman 404 yang benar, dan tag Google Search Console lewat variabel repo `GOOGLE_SITE_VERIFICATION`. Kodenya per akun, jadi satu kode berlaku untuk semua situs. Biotaloka, Alchemist, Fisikaloka, dan Mitoloka didaftarkan pemilik ke Search Console.
 - **Portofolio sengaja tidak diindeks**, karena berisi CV: setiap halaman diberi `noindex`, header `X-Robots-Tag` dipasang, dan sitemap dihapus. Untuk mengaktifkan lagi, ubah `SEARCH_INDEXING` di `src/layouts/Base.astro`.
-- **Alamat Mythics** sekarang https://mythologies.pages.dev.
+- **Alamat Mitoloka** sekarang https://mitoloka.pages.dev.

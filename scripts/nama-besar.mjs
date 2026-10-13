@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * The "nama besar" (big names) of Mythics and the dramatic illustration policy the owner asked for on
+ * The "nama besar" (big names) of Mitoloka and the dramatic illustration policy the owner asked for on
  * 6 October 2026: famous gods, demons and monsters get imposing artwork with visible power effects,
  * as long as every effect comes from a documented power, domain or attribute.
  *

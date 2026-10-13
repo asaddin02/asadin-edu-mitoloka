@@ -9,8 +9,8 @@
  * the app. The editorial console needs the Node server (npm run dev) and is not part of the static site.
  *
  *   npm run build:site
- *   SITE_URL=https://mythics.example npm run build:site   absolute link-preview and canonical URLs
- *   MYTHICS_PUBLISH=complete npm run build:site   public library only: creatures whose verified research
+ *   SITE_URL=https://mitoloka.example npm run build:site   absolute link-preview and canonical URLs
+ *   MITOLOKA_PUBLISH=complete npm run build:site   public library only: creatures whose verified research
  *                                                 meets its tier target and has an approved image, shown
  *                                                 with that research (scripts/publish/research-record.mjs)
  *   MEDIA_BASE=/media npm run build:site          creature artwork is served from object storage under this
@@ -29,8 +29,8 @@ import { buildPages, fileFor, renderPage } from './prerender.mjs';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dist = join(root, 'dist');
 const distMedia = join(root, 'dist-media');
-const publishMode = process.env.MYTHICS_PUBLISH || 'all';
-if (!['all', 'complete'].includes(publishMode)) throw new Error(`MYTHICS_PUBLISH must be "all" or "complete", got "${publishMode}"`);
+const publishMode = process.env.MITOLOKA_PUBLISH || 'all';
+if (!['all', 'complete'].includes(publishMode)) throw new Error(`MITOLOKA_PUBLISH must be "all" or "complete", got "${publishMode}"`);
 const mediaBase = (process.env.MEDIA_BASE || '').replace(/\/+$/, '');
 if (mediaBase && !/^\/[a-z0-9-]+$/.test(mediaBase)) throw new Error(`MEDIA_BASE must look like /media, got "${mediaBase}"`);
 const siteURL = (process.env.SITE_URL || '').replace(/\/+$/, '');
@@ -175,12 +175,12 @@ for (const reg of data.regions) {
 // index.html tells js/api-client.js to read the static API and hides the editorial console.
 let html = await readFile(join(root, 'index.html'), 'utf8');
 const marker = '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-const ogURL = '<meta property="og:url" content="https://mythics.org/">';
+const ogURL = '<meta property="og:url" content="https://mitoloka.org/">';
 if (!html.includes(marker) || !html.includes(ogURL))
   throw new Error('index.html head changed; update scripts/build-site.mjs');
 html = html.replace(
   marker,
-  `${marker}\n  <meta name="mythics-data" content="static">\n  <meta name="mythics-admin" content="off">`
+  `${marker}\n  <meta name="mitoloka-data" content="static">\n  <meta name="mitoloka-admin" content="off">`
 );
 if (siteURL) html = html.replaceAll('content="/assets/logo.png"', `content="${siteURL}/assets/logo.png"`);
 // Google Search Console ownership: GOOGLE_SITE_VERIFICATION is the content of its meta tag (or the whole tag).

@@ -1,4 +1,4 @@
-# Tugas Claude Cloud Code: riset batch-154 dan perkaya entri Mythics yang tidak lengkap
+# Tugas Claude Cloud Code: riset batch-154 dan perkaya entri Mitoloka yang tidak lengkap
 
 Kamu agen utama. Kamu bekerja di repositori ini lewat Claude Code di cloud, jadi satu-satunya jalan agar pekerjaanmu tidak hilang adalah **commit dan push ke GitHub**. Penelitiannya dikerjakan oleh beberapa subagent sekaligus. Tugasmu membagi pekerjaan, memeriksa hasilnya, dan menyimpannya.
 
@@ -14,12 +14,12 @@ curl -s -o /dev/null -w '%{http_code}\n' 'https://en.wikipedia.org/w/api.php?act
 
 Kalau perintah terakhir tidak menghasilkan `200`, berhenti dan beri tahu pengguna: akses jaringan environment cloud harus diubah ke **Full** (atau izinkan semua domain), karena riset dan verifier mengunduh halaman dari banyak situs.
 
-Baca sendiri, sekali saja: `.claude/agents/peneliti-mythics.md` (aturan untuk subagent) dan §1, §4, §11, §12 di `docs/gemini/00-instruksi-utama.md`, supaya kamu bisa menilai hasil subagent.
+Baca sendiri, sekali saja: `.claude/agents/peneliti-mitoloka.md` (aturan untuk subagent) dan §1, §4, §11, §12 di `docs/gemini/00-instruksi-utama.md`, supaya kamu bisa menilai hasil subagent.
 
 ## Subagent
 
-- Pakai subagent bertipe **`peneliti-mythics`**. Definisinya mengunci model `claude-sonnet-5-5` dengan effort `high`, dan pengaturan *thinking* ikut sesimu. Saat memanggil Agent, isi juga `model: "sonnet"`.
-- Kalau tipe `peneliti-mythics` tidak tersedia, pakai `general-purpose` dengan `model: "sonnet"`. Tempelkan seluruh isi `.claude/agents/peneliti-mythics.md` (tanpa frontmatter) di awal prompt-nya. Jangan pernah memakai `haiku`.
+- Pakai subagent bertipe **`peneliti-mitoloka`**. Definisinya mengunci model `claude-sonnet-5-5` dengan effort `high`, dan pengaturan *thinking* ikut sesimu. Saat memanggil Agent, isi juga `model: "sonnet"`.
+- Kalau tipe `peneliti-mitoloka` tidak tersedia, pakai `general-purpose` dengan `model: "sonnet"`. Tempelkan seluruh isi `.claude/agents/peneliti-mitoloka.md` (tanpa frontmatter) di awal prompt-nya. Jangan pernah memakai `haiku`.
 - Jalankan **5 subagent sekaligus** di latar belakang. Masing-masing memegang **satu batch** dengan **paling banyak 10 entri**. Dua subagent tidak boleh memegang batch yang sama pada waktu yang sama.
 - Prompt tiap subagent memuat: jenis tugas (`validasi` atau `perkaya`), batch, nomor berkas fix `<n>`, dan untuk setiap slug: `nama`, `tier`, `berkas`, dan `kurang` dari antrean (atau daftar error dari laporan verifier untuk tugas validasi).
 - Cara menentukan `<n>`: ambil angka `-fix-N` terbesar yang sudah ada untuk batch itu di `data/gemini/inbox/`, lalu tambah 1. Kalau belum ada, `n = 1`.

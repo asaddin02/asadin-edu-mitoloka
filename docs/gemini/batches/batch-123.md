@@ -1,11 +1,11 @@
 # Batch batch-123 — Slavia, Baltik, Finlandia & Eropa Timur (3/7)
 
-Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
+Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-123`
 - Jumlah makhluk: 43
 - `task` `enrich`: Entri sekarang hanya berisi ringkasan pengantar dari Wikipedia. Tulis entri lengkap berdasarkan riset baru; sumber Wikipedia yang ditandai "terverifikasi" boleh dipakai, dengan kutipan dari halamannya.
-- `task` `new`: Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
+- `task` `new`: Makhluk ini belum ada di Mitoloka. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
 
 ## Daftar makhluk
 
@@ -397,7 +397,7 @@ Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemi
   - pl: https://pl.wikipedia.org/wiki/Lamia_(mitologia_s%C5%82owia%C5%84ska)
   - bg: https://bg.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BC%D1%8F
   - io: https://io.wikipedia.org/wiki/Lamia_(Slava_mitologio)
-- Catatan: Nama ini dibedakan dari entri Mythics lain yang bernama sama. Pakai `canonical_name` persis "Lamia (Bulgarian folklore)" dan teliti makhluk sesuai Wikidata Q12284666.
+- Catatan: Nama ini dibedakan dari entri Mitoloka lain yang bernama sama. Pakai `canonical_name` persis "Lamia (Bulgarian folklore)" dan teliti makhluk sesuai Wikidata Q12284666.
 
 ### 35. `maaema` — Maaemä (task `new`, tier `core`)
 - **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).

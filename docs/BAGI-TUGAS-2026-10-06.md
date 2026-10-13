@@ -1,4 +1,6 @@
-# Pembagian tugas Mythics — mulai 6 Oktober 2026
+# Pembagian tugas Mitoloka — mulai 6 Oktober 2026
+
+> **Catatan 13 Oktober 2026:** proyek ini kini bernama **Mitoloka** (https://mitoloka.pages.dev, repo `asadin-edu-mitoloka`). Nama dan alamat lama di dokumen bertanggal ini sudah diganti; alamat pages.dev yang sudah dihapus ditulis secara umum.
 
 Status awal dari `node scripts/gemini/fill-status.mjs`, dengan 4.842 makhluk dalam rencana:
 
@@ -14,7 +16,7 @@ Aturan pemilik proyek: **hanya entri yang lengkap dan valid boleh bergambar.** A
 
 ## Claude Cloud Code: validasi dan pengayaan
 
-- Prompt: [`docs/gemini/PROMPT-CLOUD.md`](gemini/PROMPT-CLOUD.md). Subagent: [`.claude/agents/peneliti-mythics.md`](../.claude/agents/peneliti-mythics.md), dikunci ke `claude-sonnet-5-5` dengan effort `high`.
+- Prompt: [`docs/gemini/PROMPT-CLOUD.md`](gemini/PROMPT-CLOUD.md). Subagent: [`.claude/agents/peneliti-mitoloka.md`](../.claude/agents/peneliti-mitoloka.md), dikunci ke `claude-sonnet-5-5` dengan effort `high`.
 - Pilih model sesi **Sonnet 5.5** dengan effort **high**, dan atur akses jaringan environment ke **Full**, karena riset dan verifier mengunduh halaman dari banyak situs.
 - Antrean: `npm run gemini:enrich-queue` → `data/gemini/enrich-queue.json` (tidak di-commit). Catatan hasil per batch ada di `data/gemini/enrich/<batch>.json`.
 - Verifikasi pengayaan memakai `node scripts/gemini/verify.mjs <batch> --changed`, yang hanya memeriksa ulang entri yang berubah. Entri lain tetap memakai hasil pemeriksaan sebelumnya, sehingga tidak gugur karena artikel Wikipedia-nya sudah diedit sejak diriset.
@@ -34,7 +36,7 @@ Keputusan pemilik proyek:
 - **Makhluk dari karya sastra boleh masuk**, klasik maupun modern. Film, anime, komik, dan game tetap tidak. Manusia tetap dilewati, jadi Tang Sanzang dan Rulai (Buddha) tidak dibuat entri. Aturannya ada di §12 `00-instruksi-utama.md`. Batch-154 berisi 14 makhluk: Sun Wukong, Zhu Bajie, Sha Wujing, White Dragon Horse, Bull Demon King, Red Boy, Princess Iron Fan, Baigujing, Six-Eared Macaque, Erlang Shen, Nezha, Count Dracula, Cthulhu, dan Frankenstein's monster. Risetnya dikerjakan sesi Claude Cloud pengayaan (Tahap 1b).
 - **Antrean pengayaan mendahulukan nama besar**, yaitu makhluk dengan edisi Wikipedia terbanyak (Shiva, Zeus, Athena, Odin, Ra, Anubis, …). Hampir semua nama besar masih tidak lengkap.
 - **Nama besar mendapat gambar yang sangar, dengan efek kekuatan yang terdokumentasi.** Daftar dan aturan gayanya ada di `data/artwork-nama-besar.json` (`node scripts/nama-besar.mjs`). Dikerjakan **Codex** dengan [`docs/PROMPT-CODEX-NAMA-BESAR.md`](PROMPT-CODEX-NAMA-BESAR.md): 143 siap digambar (56 mengganti gambar lama, termasuk Lucifer, Ra, dan Medusa), dan 235 menunggu risetnya lengkap.
-- **Penilaian Power, Threat, dan Fear** untuk sekitar 890 makhluk yang sudah tampil dikerjakan **sesi Claude Cloud kedua** dengan [`docs/gemini/PROMPT-CLOUD-KEKUATAN.md`](gemini/PROMPT-CLOUD-KEKUATAN.md), memakai subagent `penilai-kekuatan-mythics`. Setiap level wajib merujuk klaim riset. Data ditulis ke `data/power/<batch>.json`, lalu `node scripts/build-power.mjs` membuat `js/power-assessments.js` untuk situs. Makhluk yang risetnya belum membahas kekuatan ditandai `perlu_riset`, dan diperkaya setelah sesi pengayaan selesai. Contohnya Lucifer: risetnya hanya membahas nama dan bintang fajar.
+- **Penilaian Power, Threat, dan Fear** untuk sekitar 890 makhluk yang sudah tampil dikerjakan **sesi Claude Cloud kedua** dengan [`docs/gemini/PROMPT-CLOUD-KEKUATAN.md`](gemini/PROMPT-CLOUD-KEKUATAN.md), memakai subagent `penilai-kekuatan-mitoloka`. Setiap level wajib merujuk klaim riset. Data ditulis ke `data/power/<batch>.json`, lalu `node scripts/build-power.mjs` membuat `js/power-assessments.js` untuk situs. Makhluk yang risetnya belum membahas kekuatan ditandai `perlu_riset`, dan diperkaya setelah sesi pengayaan selesai. Contohnya Lucifer: risetnya hanya membahas nama dan bintang fajar.
 
 ## Claude Code lokal: pemeriksa akhir
 

@@ -1,5 +1,5 @@
 /**
- * Mythics Content Ingestion Pipeline
+ * Mitoloka Content Ingestion Pipeline
  * 
  * Scalable automated & semi-automated entity discovery, research,
  * source verification, license checking, ability extraction, and bilingual resolution.
@@ -9,7 +9,7 @@
 import { calculatePowerProfile } from './power-engine.mjs';
 import { enrichCreatureSchema } from './schema-enricher.mjs';
 
-const USER_AGENT = 'MythicsEncyclopedia/1.0 (https://asadin.id/mythics; research@asadin.id) Node.js';
+const USER_AGENT = 'MitolokaEncyclopedia/1.0 (https://asadin.id/mitoloka; research@asadin.id) Node.js';
 
 // Pre-classified culture heuristics mapping
 const CULTURE_MAPPINGS = [

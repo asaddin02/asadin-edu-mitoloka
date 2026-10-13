@@ -56,7 +56,7 @@ for record in records:
         'caption': {'id': f"{name['id']} — interpretasi artistik AI berdasarkan ciri dalam sumber folklor.",
                     'en': f"{name['en']} — AI artistic interpretation based on features in folklore sources."},
         'source_name': 'OpenAI built-in image_gen', 'source_url': url,
-        'author': 'Mythics · OpenAI image generation',
+        'author': 'Mitoloka · OpenAI image generation',
         'license': 'AI-generated editorial illustration; see assets/art/README.md',
         'image_type': 'AI-generated editorial illustration', 'ai_generated': True,
         'is_primary': True, 'width': width, 'height': height,

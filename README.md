@@ -1,15 +1,15 @@
-# ✦ MYTHICS — Global Mythological Creatures & Legendary Beings Encyclopedia
+# ✦ MITOLOKA — Global Mythological Creatures & Legendary Beings Encyclopedia
 
-> **Mythics** adalah ensiklopedia digital modern, kuratorial, dan interaktif untuk menjelajahi makhluk mitologi, arwah cerita rakyat, naga purba, dan entitas supernatural dari berbagai peradaban dunia dengan catatan sumber, panduan belajar, dan konteks budaya.
+> **Mitoloka** adalah ensiklopedia digital modern, kuratorial, dan interaktif untuk menjelajahi makhluk mitologi, arwah cerita rakyat, naga purba, dan entitas supernatural dari berbagai peradaban dunia dengan catatan sumber, panduan belajar, dan konteks budaya.
 
-**Lanjut dari PC lain:** baca [serah terima 7 Oktober 2026](docs/HANDOFF-2026-10-07.md): status terbaru, hasil tes kelima proyek, pekerjaan yang belum jalan, dan perintah melanjutkan.
+**Lanjut dari PC lain:** baca [serah terima 13 Oktober 2026](docs/HANDOFF-2026-10-13.md): nama baru Mitoloka, 377 gambar baru, koreksi yang menunggu Codex, dan antrean berikutnya. Riwayat sebelumnya ada di [serah terima 7 Oktober](docs/HANDOFF-2026-10-07.md).
 
 ---
 
 ## 🏛️ Visi & Prinsip Kuratorial
 
-Mythics dirancang sebagai perpaduan antara **arsip museum digital premium**, **indeks makhluk interaktif (bestiary)**, dan **platform eksplorasi budaya**:
-1. **Diferensiasi Tradisi Autentik vs Budaya Populer**: Mythics membedakan secara tegas antara tradisi lisan/sejarah yang terdokumentasi dengan adaptasi media modern (video game, film, atau legenda urban internet).
+Mitoloka dirancang sebagai perpaduan antara **arsip museum digital premium**, **indeks makhluk interaktif (bestiary)**, dan **platform eksplorasi budaya**:
+1. **Diferensiasi Tradisi Autentik vs Budaya Populer**: Mitoloka membedakan secara tegas antara tradisi lisan/sejarah yang terdokumentasi dengan adaptasi media modern (video game, film, atau legenda urban internet).
 2. **Tanpa Fabrikasi Data**: Tidak menciptakan kekuatan fiktif atau tanggal historis palsu. Jika bukti tradisi minim, sistem menandainya sebagai *Tidak Terdokumentasi* atau *Ambivalen*.
 3. **Sistem Atribusi & Provenansi Sumber**: Setiap entitas menyertakan rujukan bibliografi primer/sekunder dan lisensi hak cipta gambar yang terverifikasi (Public Domain, Creative Commons BY/BY-SA).
 4. **Dwibahasa Sejati (Bilingual)**: Tersedia dalam Bahasa Indonesia (primer 🇮🇩) dan Bahasa Inggris (sekunder 🇬🇧), baik pada label antarmuka pengguna maupun konten esai entitas.
@@ -25,7 +25,7 @@ Mythics dirancang sebagai perpaduan antara **arsip museum digital premium**, **i
   - *Mode Arsip (Mendalam)*: Menampilkan analisis filologi, nama alternatif, tingkat bukti, dan rujukan naskah kuno.
   - *Tahukah Anda?*: Fakta historis unik terverifikasi.
   - *Kemampuan Terdokumentasi*: Dilengkapi lencana tingkat bukti (*Documented Tradition*).
-  - *Mythics Power Profile*: Visualisasi dimensional deterministik (Fisik, Supernatural, Ketahanan, Mobilitas, Kecerdasan, Pengaruh) yang diturunkan secara algoritmik dari atribut terdokumentasi (disertai penafian metodologi etis).
+  - *Mitoloka Power Profile*: Visualisasi dimensional deterministik (Fisik, Supernatural, Ketahanan, Mobilitas, Kecerdasan, Pengaruh) yang diturunkan secara algoritmik dari atribut terdokumentasi (disertai penafian metodologi etis).
 - **Matriks Perbandingan Entitas (Comparison Mode)**: Analisis perbandingan berdampingan dua makhluk (contoh: Garuda vs Minotaur, atau Pocong vs Kitsune) lengkap dengan indikator perbedaan relatif.
 - **Buku Petualang (Bestiary Journal)**: Pelacakan progres eksplorasi pengguna lokal dan lencana pencapaian (*First Encounter*, *Penjelajah Nusantara*, *Pemburu Naga*, dll).
 - **Pusat Kontrol Redaksi & Riset (Admin Ingestion)**:
@@ -48,7 +48,7 @@ Mythics dirancang sebagai perpaduan antara **arsip museum digital premium**, **i
 ## 📂 Struktur Repositori
 
 ```text
-asadin-mythological-creatures/
+asadin-edu-mitoloka/
 ├── assets/
 │   └── placeholders/
 │       └── creature-fallback.svg    # Placeholder elegan untuk aset tanpa lisensi
@@ -104,7 +104,7 @@ asadin-mythological-creatures/
 ```bash
 npm run dev
 ```
-Aplikasi akan aktif di `http://127.0.0.1:8095`. `npm run dev` mengaktifkan Pusat Kontrol Redaksi (`/admin`, `MYTHICS_ADMIN=1`), yang hanya menerima permintaan dari komputer itu sendiri dan dari origin yang sama. `npm start` (server produksi) mematikannya: rute `/api/admin/*` menjawab 404 dan tautan Admin tidak tampil. Server hanya menyajikan `index.html`, `manifest.webmanifest`, `css/`, `js/`, dan `assets/`; `data/`, `server/`, `scripts/`, `tests/`, dan berkas paket selalu 404.
+Aplikasi akan aktif di `http://127.0.0.1:8095`. `npm run dev` mengaktifkan Pusat Kontrol Redaksi (`/admin`, `MITOLOKA_ADMIN=1`), yang hanya menerima permintaan dari komputer itu sendiri dan dari origin yang sama. `npm start` (server produksi) mematikannya: rute `/api/admin/*` menjawab 404 dan tautan Admin tidak tampil. Server hanya menyajikan `index.html`, `manifest.webmanifest`, `css/`, `js/`, dan `assets/`; `data/`, `server/`, `scripts/`, `tests/`, dan berkas paket selalu 404.
 
 ### 2. Menjalankan Audit Kualitas Data (QC Check)
 
@@ -136,14 +136,14 @@ node scripts/ingest-cli.mjs "Valkyrie" --publish
 Situs publik adalah **situs statis**: `npm run build:site` menyusun `dist/` berisi aplikasi dan seluruh API baca sebagai berkas JSON (`dist/api/…`) yang dihasilkan oleh mesin query yang sama dengan server (`js/query-engine.js`). Di browser, pencarian, filter, pengurutan, halaman, dan pertemuan acak dijalankan atas `dist/api/catalog.json`, dengan hasil yang sama dengan server (`npm run test:static` membuktikannya, lalu menjalankan tes browser yang sama pada situs statis). Konsol redaksi tidak ikut terbit; tambahkan atau setujui entri secara lokal, commit `data/`, lalu push.
 
 1. Buat API token Cloudflare dengan izin **Account · Cloudflare Pages · Edit** dan **Account · Workers R2 Storage · Edit**, lalu salin **Account ID** dari **Workers & Pages**.
-2. Di GitHub, buka **Settings → Secrets and variables → Actions**. Isi secret `CLOUDFLARE_API_TOKEN` dan `CLOUDFLARE_ACCOUNT_ID`, serta variable `CLOUDFLARE_PAGES_PROJECT` (misalnya `asadin-mythics`). Opsional: variable `SITE_URL` untuk domain sendiri; tanpa itu dipakai `https://<proyek>.pages.dev`.
+2. Di GitHub, buka **Settings → Secrets and variables → Actions**. Isi secret `CLOUDFLARE_API_TOKEN` dan `CLOUDFLARE_ACCOUNT_ID`, serta variable `CLOUDFLARE_PAGES_PROJECT` (misalnya `asadin-mitoloka`). Opsional: variable `SITE_URL` untuk domain sendiri; tanpa itu dipakai `https://<proyek>.pages.dev`.
 3. Workflow [Deploy](.github/workflows/deploy.yml) berjalan setiap [CI](.github/workflows/ci.yml) lulus di `main`, atau jalankan manual dari tab **Actions**. Sebelum variable diisi, workflow ini dilewati.
 
-Workflow membangun katalog dengan `MYTHICS_PUBLISH=complete MEDIA_BASE=/media`, sehingga hanya entri dengan riset lengkap yang disetujui dan gambar tersedia yang tampil publik. Seluruh ilustrasi aktif yang telah diperiksa tetap diunggah ke R2 `mythics-media`, termasuk gambar untuk entri yang belum memenuhi syarat publik. Unggahan membandingkan hash, memakai empat pekerja, dan menyimpan kemajuan yang berhasil jika terjadi kegagalan. Setelah deploy, setiap ilustrasi R2 diperiksa melalui alamat publik dan dicocokkan dengan hash aset yang disetujui.
+Workflow membangun katalog dengan `MITOLOKA_PUBLISH=complete MEDIA_BASE=/media`, sehingga hanya entri dengan riset lengkap yang disetujui dan gambar tersedia yang tampil publik. Seluruh ilustrasi aktif yang telah diperiksa tetap diunggah ke R2 `mitoloka-media`, termasuk gambar untuk entri yang belum memenuhi syarat publik. Unggahan membandingkan hash, memakai empat pekerja, dan menyimpan kemajuan yang berhasil jika terjadi kegagalan. Setelah deploy, setiap ilustrasi R2 diperiksa melalui alamat publik dan dicocokkan dengan hash aset yang disetujui.
 
 Jalankan `npm run test:public` untuk menguji katalog publik dan rute media R2 pada desktop serta ponsel sebelum deploy. Berkas WebP dan catatan JSON pemeriksaan disimpan di Git; PNG native dan contact sheet tetap berada di workspace lokal. Audit native dan galeri yang memakai PNG asli membutuhkan berkas lokal tersebut.
 
-Isi `SITE_URL` dengan alamat yang benar-benar diberikan Cloudflare. Sejak 6 Oktober 2026 proyek Pages bernama `mythologies` dan terbit di `https://mythologies.pages.dev`. [Cloudflare tidak dapat mengganti nama atau subdomain proyek Pages yang sudah ada](https://developers.cloudflare.com/pages/platform/known-issues/), jadi proyek baru dibuat oleh workflow Deploy dan proyek lama (`mythics`, `mythics-99o.pages.dev`) dihapus dengan workflow manual `Delete retired Pages project`, yang menolak menghapus proyek aktif dan tidak menyentuh bucket R2. API tidak memperlihatkan pemilik namespace di akun lain; jangan menyimpulkan kepemilikan hanya dari DNS atau akhiran subdomain. Workflow manual `Pages domain` menyediakan pemeriksaan akun dan percobaan reservasi nama.
+Isi `SITE_URL` dengan alamat yang benar-benar diberikan Cloudflare. Sejak 13 Oktober 2026 proyek Pages bernama `mitoloka` dan terbit di `https://mitoloka.pages.dev`. [Cloudflare tidak dapat mengganti nama atau subdomain proyek Pages yang sudah ada](https://developers.cloudflare.com/pages/platform/known-issues/), jadi proyek baru dibuat oleh workflow Deploy dan proyek lama dihapus dengan workflow manual `Delete retired Pages project`, yang menolak menghapus proyek aktif dan tidak menyentuh bucket R2. API tidak memperlihatkan pemilik namespace di akun lain; jangan menyimpulkan kepemilikan hanya dari DNS atau akhiran subdomain. Workflow manual `Pages domain` menyediakan pemeriksaan akun dan percobaan reservasi nama.
 
 Tanpa GitHub Actions: `SITE_URL=https://alamat-situs npm run build:site`, lalu `npx wrangler pages deploy dist --project-name <nama>`. `dist/` berisi sekitar 5.400 berkas; unggahan drag-and-drop di dashboard juga bisa, tetapi Wrangler lebih cepat. Pratinjau lokal: `npm run preview:static` (meniru Cloudflare Pages) atau `npm run preview:cloudflare`.
 
@@ -153,7 +153,7 @@ Tanpa GitHub Actions: `SITE_URL=https://alamat-situs npm run build:site`, lalu `
 
 - Seluruh kode sumber dirilis di bawah lisensi [MIT](LICENSE). Teks pengantar dari Wikipedia berlisensi CC BY-SA 4.0; lihat [data/CONTENT-LICENSE.md](data/CONTENT-LICENSE.md).
 - Gambar yang disajikan diperoleh dari repositori berlisensi terbuka (Wikimedia Commons, Public Domain, CC BY, CC BY-SA) dengan mencantumkan nama kreator asli dan tautan lisensi.
-- Mythics menghormati nilai-nilai sakral tradisi lisan masyarakat adat dan peradaban dunia. Informasi disajikan untuk tujuan edukasi kultural dan literatur penjelajahan.
+- Mitoloka menghormati nilai-nilai sakral tradisi lisan masyarakat adat dan peradaban dunia. Informasi disajikan untuk tujuan edukasi kultural dan literatur penjelajahan.
 
 ## Editorial redesign · September 2026
 

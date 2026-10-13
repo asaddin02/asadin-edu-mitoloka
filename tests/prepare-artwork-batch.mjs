@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
 
-const root = await mkdtemp(join(tmpdir(), 'mythics-commons-batch-'));
+const root = await mkdtemp(join(tmpdir(), 'mitoloka-commons-batch-'));
 const save = (path, value) => writeFile(join(root, path), JSON.stringify(value));
 const read = async path => JSON.parse(await readFile(join(root, path), 'utf8'));
 try {

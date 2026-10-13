@@ -1,5 +1,5 @@
 /**
- * Mythics Automated Test Suite
+ * Mitoloka Automated Test Suite
  * Tests power profiling, database querying, search indexing,
  * API routes, and ingestion heuristics.
  */
@@ -11,7 +11,7 @@ import { initDb, queryCreatures, getCreatureBySlug, getRandomCreature, compareCr
 import { extractTraitsAndAbilities, calculateCompleteness, calculateConfidence } from '../server/ingestion.mjs';
 
 async function runTests() {
-  console.log('🧪 RUNNING MYTHICS TEST SUITE...\n');
+  console.log('🧪 RUNNING MITOLOKA TEST SUITE...\n');
 
   // 1. Power Profile Engine
   console.log('1. Testing Power Profile Calculation...');

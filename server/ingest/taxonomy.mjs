@@ -1,12 +1,12 @@
 /**
- * Mythics taxonomy: regions, cultural traditions and classifications.
+ * Mitoloka taxonomy: regions, cultural traditions and classifications.
  *
  * Cultures are derived from the *names* of Wikipedia categories a page belongs to
  * (e.g. "Javanese legendary creatures" → Javanese). A culture is never guessed from
  * free text. Region comes from the culture (or is null for transregional
  * religious traditions — we do not force geography onto them).
  *
- * Labels here are Mythics editorial translations of tradition names (ID/EN).
+ * Labels here are Mitoloka editorial translations of tradition names (ID/EN).
  */
 
 export const REGIONS = [

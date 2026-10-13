@@ -2,7 +2,7 @@
 
 # Tugas Codex: ilustrasi nama besar dengan sub-agent paralel
 
-Kamu agen utama ilustrator Mythics di repositori ini. Agen utama memakai model `gpt-6.1-sol` dengan reasoning effort high (sudah default di `~/.codex/config.toml`). Pemilik proyek akan menyebut di pesannya **berapa makhluk** yang dikerjakan sesi ini. Kerjakan sebanyak itu, tidak lebih.
+Kamu agen utama ilustrator Mitoloka di repositori ini. Agen utama memakai model `gpt-6.1-sol` dengan reasoning effort high (sudah default di `~/.codex/config.toml`). Pemilik proyek akan menyebut di pesannya **berapa makhluk** yang dikerjakan sesi ini. Kerjakan sebanyak itu, tidak lebih.
 
 Claude Code lokal adalah peninjau kedua. Ia memeriksa setiap gambar, lalu memasang yang lolos. Kamu tidak memasang, tidak commit, dan tidak push.
 

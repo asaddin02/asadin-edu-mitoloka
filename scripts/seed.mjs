@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Mythics Seed Generator
+ * Mitoloka Seed Generator
  * Compiles a rich, verified, multilingual initial creature database.
  * Runs deterministic power profile calculations and validates schema integrity.
  */
@@ -1873,7 +1873,7 @@ const RAW_CREATURES = [
 ];
 
 async function seed() {
-  console.log('Seeding Mythics database...');
+  console.log('Seeding Mitoloka database...');
   
   // Calculate power profile & enrich schema with claims provenance, ability matrix, and relations
   const processedCreatures = RAW_CREATURES.map(creature => {

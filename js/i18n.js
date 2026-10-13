@@ -1,5 +1,5 @@
 /**
- * Mythics Bilingual Internationalization Engine (i18n)
+ * Mitoloka Bilingual Internationalization Engine (i18n)
  * Supports Indonesian (Primary - id) and English (Secondary - en).
  * Seamless key lookup, event dispatching, and localized content extraction.
  */
@@ -7,7 +7,7 @@
 export const translations = {
   id: {
     // Navigation
-    "nav.brand": "MYTHICS",
+    "nav.brand": "MITOLOKA",
     "nav.explore": "Jelajah Arsip",
     "nav.cultures": "Tradisi Budaya",
     "nav.random": "Pertemuan Acak",
@@ -64,8 +64,8 @@ export const translations = {
     "detail.associatedStories": "Kisah & Epos Terkait",
     "detail.associatedPlaces": "Lanskap & Tempat Sakral",
     "detail.variants": "Variasi Tradisi & Regional",
-    "detail.powerProfile": "Mythics Power Profile",
-    "detail.powerDisclaimer": "Mythics Power Profile — klasifikasi editorial/hiburan yang diturunkan secara deterministik dari atribut tradisi terdokumentasi; bukan peringkat kanonik dari budaya sumber.",
+    "detail.powerProfile": "Mitoloka Power Profile",
+    "detail.powerDisclaimer": "Mitoloka Power Profile — klasifikasi editorial/hiburan yang diturunkan secara deterministik dari atribut tradisi terdokumentasi; bukan peringkat kanonik dari budaya sumber.",
     "detail.storyMode": "Mode Cerita (Ringkas)",
     "detail.expertMode": "Mode Arsip (Mendalam)",
     "detail.didYouKnow": "Tahukah Anda?",
@@ -160,9 +160,9 @@ export const translations = {
     "admin.noPending": "Tidak ada draf yang sedang menunggu persetujuan.",
 
     // Footer
-    "footer.aboutTitle": "Tentang Mythics",
-    "footer.aboutText": "Mythics adalah proyek ensiklopedia digital independen untuk mendokumentasikan makhluk mitologi, cerita rakyat, dan tradisi kepercayaan dari seluruh peradaban dunia.",
-    "footer.philosophy": "Mythics membedakan dengan tegas antara tradisi historis yang terdokumentasi, interpretasi budaya populer, dan rekonstruksi modern demi menjaga rasa hormat atas warisan kebudayaan manusia.",
+    "footer.aboutTitle": "Tentang Mitoloka",
+    "footer.aboutText": "Mitoloka adalah proyek ensiklopedia digital independen untuk mendokumentasikan makhluk mitologi, cerita rakyat, dan tradisi kepercayaan dari seluruh peradaban dunia.",
+    "footer.philosophy": "Mitoloka membedakan dengan tegas antara tradisi historis yang terdokumentasi, interpretasi budaya populer, dan rekonstruksi modern demi menjaga rasa hormat atas warisan kebudayaan manusia.",
     "footer.quickLinks": "Tautan Cepat",
     "footer.sourcesPolicy": "Kebijakan Data & Sumber",
     "footer.licensing": "Lisensi & Hak Cipta Gambar"
@@ -170,7 +170,7 @@ export const translations = {
 
   en: {
     // Navigation
-    "nav.brand": "MYTHICS",
+    "nav.brand": "MITOLOKA",
     "nav.explore": "Explore Archive",
     "nav.cultures": "World Cultures",
     "nav.random": "Random Encounter",
@@ -227,8 +227,8 @@ export const translations = {
     "detail.associatedStories": "Associated Epics & Stories",
     "detail.associatedPlaces": "Associated Sacred Landscapes",
     "detail.variants": "Regional & Traditional Variants",
-    "detail.powerProfile": "Mythics Power Profile",
-    "detail.powerDisclaimer": "Mythics Power Profile — editorial/entertainment classification deterministically derived from documented traditional attributes; not a canonical rating from the source tradition.",
+    "detail.powerProfile": "Mitoloka Power Profile",
+    "detail.powerDisclaimer": "Mitoloka Power Profile — editorial/entertainment classification deterministically derived from documented traditional attributes; not a canonical rating from the source tradition.",
     "detail.storyMode": "Story Mode (Summary)",
     "detail.expertMode": "Archive Mode (Scholarly)",
     "detail.didYouKnow": "Did You Know?",
@@ -323,9 +323,9 @@ export const translations = {
     "admin.noPending": "No candidate drafts are currently pending editorial review.",
 
     // Footer
-    "footer.aboutTitle": "About Mythics",
-    "footer.aboutText": "Mythics is an independent digital encyclopedia documenting folklore, mythological beings, and supernatural heritage from world civilizations.",
-    "footer.philosophy": "Mythics rigorously distinguishes between documented traditional lore, modern pop adaptations, and artistic reconstructions in respect of human cultural heritage.",
+    "footer.aboutTitle": "About Mitoloka",
+    "footer.aboutText": "Mitoloka is an independent digital encyclopedia documenting folklore, mythological beings, and supernatural heritage from world civilizations.",
+    "footer.philosophy": "Mitoloka rigorously distinguishes between documented traditional lore, modern pop adaptations, and artistic reconstructions in respect of human cultural heritage.",
     "footer.quickLinks": "Navigation",
     "footer.sourcesPolicy": "Data & Sourcing Policy",
     "footer.licensing": "Licensing & Image Attribution"
@@ -338,7 +338,7 @@ let currentLang = 'id';
  * Initialize language from localStorage or browser preferences
  */
 export function initI18n() {
-  const saved = localStorage.getItem('mythics_lang');
+  const saved = localStorage.getItem('mitoloka_lang');
   if (saved && (saved === 'id' || saved === 'en')) {
     currentLang = saved;
   } else {
@@ -362,9 +362,9 @@ export function getLanguage() {
 export function setLanguage(lang) {
   if (lang !== 'id' && lang !== 'en') return;
   currentLang = lang;
-  localStorage.setItem('mythics_lang', lang);
+  localStorage.setItem('mitoloka_lang', lang);
   document.documentElement.lang = lang;
-  window.dispatchEvent(new CustomEvent('mythics:lang-change', { detail: { lang } }));
+  window.dispatchEvent(new CustomEvent('mitoloka:lang-change', { detail: { lang } }));
 }
 
 /**

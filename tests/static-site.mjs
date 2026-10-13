@@ -78,9 +78,9 @@ for (const field of ['slug', 'canonical_name', 'display_name', 'short_descriptio
   assert.ok(card[field] !== undefined, `catalog keeps ${field}`);
 
 const html = await readFile(new URL('index.html', dist), 'utf8');
-assert.match(html, /<meta name="mythics-data" content="static">/);
-assert.match(html, /<meta name="mythics-admin" content="off">/);
-assert.doesNotMatch(html, /mythics\.org/, 'no link previews for a domain this project does not own');
+assert.match(html, /<meta name="mitoloka-data" content="static">/);
+assert.match(html, /<meta name="mitoloka-admin" content="off">/);
+assert.doesNotMatch(html, /mitoloka\.org/, 'no link previews for a domain this project does not own');
 // 404.html is the bare shell (unknown paths still boot the app) and must not be indexed.
 const notFound = await readFile(new URL('404.html', dist), 'utf8');
 assert.match(notFound, /<meta name="robots" content="noindex">/);

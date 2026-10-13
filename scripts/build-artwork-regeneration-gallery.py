@@ -25,7 +25,7 @@ for item in batch['items']:
 <p>Alasan penolakan lama: {reason}</p><p>Pilihan artistik:</p><ul>{differences}</ul>
 <a href="../{escape(item['receipt_path'])}">Receipt lengkap dan sumber</a><pre>{escape(receipt['prompt'])}</pre></details></article>''')
 page = f'''<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mythics — Regenerasi 139 ilustrasi</title><style>body{{margin:0;padding:24px;background:#171713;color:#f4ead6;font:16px/1.6 system-ui}}main{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px}}article{{background:#29261f;padding:16px;border-radius:12px}}img{{width:100%;aspect-ratio:1;object-fit:contain}}h2{{font-size:22px}}pre{{white-space:pre-wrap;overflow-wrap:anywhere}}a{{color:#d9b572}}</style>
+<title>Mitoloka — Regenerasi 139 ilustrasi</title><style>body{{margin:0;padding:24px;background:#171713;color:#f4ead6;font:16px/1.6 system-ui}}main{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px}}article{{background:#29261f;padding:16px;border-radius:12px}}img{{width:100%;aspect-ratio:1;object-fit:contain}}h2{{font-size:22px}}pre{{white-space:pre-wrap;overflow-wrap:anywhere}}a{{color:#d9b572}}</style>
 <h1>Regenerasi 139 ilustrasi</h1><p>{batch['complete']}/{batch['target']} pengganti terpasang setelah dua pemeriksaan visual.</p><main>{''.join(cards)}</main></html>'''
 (ROOT / 'docs/artwork-regeneration-139.html').write_text(page)
 print(f"Gallery: {batch['complete']}/{batch['target']} approved replacements")

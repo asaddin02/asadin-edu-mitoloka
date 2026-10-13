@@ -18,7 +18,7 @@ export async function renderJournalView(container) {
   container.innerHTML = `
     <div class="container browse-page">
       <div class="section-header">
-        <span class="section-badge">MYTHICS / ${bi('JURNAL SAYA','MY JOURNAL')}</span>
+        <span class="section-badge">MITOLOKA / ${bi('JURNAL SAYA','MY JOURNAL')}</span>
         <h1 class="section-title">${bi('Setiap penemuan,<br>bagian dari perjalanan.','Every discovery,<br>part of your journey.')}</h1>
         <p class="section-subtitle">${t('journal.subtitle')}</p>
       </div>

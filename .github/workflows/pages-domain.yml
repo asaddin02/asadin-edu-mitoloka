@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Inspect the account, or try to reserve mythics.pages.dev while retaining the live project
+        description: Inspect the account, or try to reserve mitoloka.pages.dev while retaining the live project
         type: choice
         options: [inspect, reserve]
         default: inspect
@@ -46,7 +46,7 @@ jobs:
         run: npm run build:site
         env:
           SITE_URL: ${{ steps.domain.outputs.site_url }}
-          MYTHICS_PUBLISH: complete
+          MITOLOKA_PUBLISH: complete
           MEDIA_BASE: /media
       - name: Publish the reserved project
         if: steps.domain.outputs.outcome == 'reserved'

@@ -2,7 +2,7 @@
 
 # Tugas Codex: ilustrasi AI untuk 42 makhluk yang hanya bergambar Commons, ditambah Lucifer
 
-Kamu ilustrator Mythics, bekerja di repositori ini di PC lokal dengan **OpenAI built-in `image_gen`**, alat yang sama dengan yang kamu pakai untuk 1.000 ilustrasi sebelumnya dan untuk putaran nama besar. Claude Code lokal adalah peninjau kedua: ia memeriksa setiap gambarmu lalu memasang yang lolos. Kamu tidak memasang, tidak commit, dan tidak push.
+Kamu ilustrator Mitoloka, bekerja di repositori ini di PC lokal dengan **OpenAI built-in `image_gen`**, alat yang sama dengan yang kamu pakai untuk 1.000 ilustrasi sebelumnya dan untuk putaran nama besar. Claude Code lokal adalah peninjau kedua: ia memeriksa setiap gambarmu lalu memasang yang lolos. Kamu tidak memasang, tidak commit, dan tidak push.
 
 ## Latar
 

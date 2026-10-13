@@ -9,7 +9,7 @@
 import { SCALES } from '../js/scaling.js';
 import { lessons } from '../js/learning-content.js';
 
-const SITE_NAME = 'Mythics';
+const SITE_NAME = 'Mitoloka';
 const FEATURED = ['garuda', 'kitsune', 'jormungandr', 'barong'];
 const esc = value =>
   String(value ?? '')
@@ -45,17 +45,17 @@ const SECTIONS = [
   ['/scales', 'Klasifikasi', 'Panduan kelas kekuatan, ancaman, dan rasa takut'],
   ['/learn', 'Ruang Belajar', 'Belajar membaca mitos, legenda, dan sumbernya'],
   ['/journal', 'Jurnal Saya', 'Favorit dan penemuanmu'],
-  ['/dukung', 'Dukung Mythics', 'Dukungan sukarela untuk ruang belajar gratis'],
+  ['/dukung', 'Dukung Mitoloka', 'Dukungan sukarela untuk ruang belajar gratis'],
 ];
 const sectionNav = () =>
-  `<nav class="prerender-sections" aria-label="Bagian situs"><h2>Jelajahi Mythics</h2>${list(
+  `<nav class="prerender-sections" aria-label="Bagian situs"><h2>Jelajahi Mitoloka</h2>${list(
     SECTIONS.map(([href, label, desc]) => `${link(href, label)} — ${esc(desc)}`)
   )}</nav>`;
 
 /**
  * @param {object} ctx
  * @param {{ creatures: object[], cultures: object[], regions: object[] }} ctx.data the published library
- * @param {string} ctx.siteURL absolute origin ("https://mythologies.pages.dev") or ""
+ * @param {string} ctx.siteURL absolute origin ("https://mitoloka.pages.dev") or ""
  * @param {Record<string, string>} ctx.editorialArt creature slug → artwork URL as the app serves it
  * @param {(data: object, slug: string) => object} ctx.getCreatureBySlug the query engine's resolver
  * @param {string} ctx.today ISO date used as lastmod for pages without their own date
@@ -81,9 +81,9 @@ export function buildPages({ data, siteURL, editorialArt, getCreatureBySlug, tod
   const breadcrumb = trail => ({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: [['Mythics', '/'], ...trail].map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: absolute(path) || path })),
+    itemListElement: [['Mitoloka', '/'], ...trail].map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: absolute(path) || path })),
   });
-  const intro = `<p>Mythics adalah ensiklopedia digital dwibahasa (Bahasa Indonesia &amp; English) tentang makhluk mitologi, arwah folklor, naga purba, dan entitas supernatural dari seluruh peradaban dunia, dengan rujukan sumber dan konteks budaya.</p><p lang="en">Mythics is a bilingual digital encyclopedia of mythological creatures, folklore spirits, ancient dragons and supernatural beings from world civilizations, with cited sources and cultural context.</p>`;
+  const intro = `<p>Mitoloka adalah ensiklopedia digital dwibahasa (Bahasa Indonesia &amp; English) tentang makhluk mitologi, arwah folklor, naga purba, dan entitas supernatural dari seluruh peradaban dunia, dengan rujukan sumber dan konteks budaya.</p><p lang="en">Mitoloka is a bilingual digital encyclopedia of mythological creatures, folklore spirits, ancient dragons and supernatural beings from world civilizations, with cited sources and cultural context.</p>`;
   const pages = [];
   const page = p => pages.push({ type: 'website', lastmod: today, jsonLd: [], ...p });
 
@@ -92,9 +92,9 @@ export function buildPages({ data, siteURL, editorialArt, getCreatureBySlug, tod
   const activeCultures = cultures.filter(cu => creatures.some(c => c.culture === cu.id));
   page({
     route: '/',
-    title: 'Mythics — Ensiklopedia Makhluk Mitologi & Folklor Dunia',
-    description: 'Mythics adalah ensiklopedia digital dwibahasa untuk mengeksplorasi makhluk mitologi, arwah legenda, naga purba, dan entitas supernatural dari seluruh peradaban dunia dengan rujukan sumber dan konteks budaya.',
-    body: `<article class="prerender container"><h1>Mythics — Ensiklopedia Makhluk Mitologi &amp; Folklor Dunia</h1>${intro}<p>${creatures.length.toLocaleString('id-ID')} makhluk dan legenda dari ${activeCultures.length} tradisi budaya di ${regions.length} kawasan dunia.</p>
+    title: 'Mitoloka — Ensiklopedia Makhluk Mitologi & Folklor Dunia',
+    description: 'Mitoloka adalah ensiklopedia digital dwibahasa untuk mengeksplorasi makhluk mitologi, arwah legenda, naga purba, dan entitas supernatural dari seluruh peradaban dunia dengan rujukan sumber dan konteks budaya.',
+    body: `<article class="prerender container"><h1>Mitoloka — Ensiklopedia Makhluk Mitologi &amp; Folklor Dunia</h1>${intro}<p>${creatures.length.toLocaleString('id-ID')} makhluk dan legenda dari ${activeCultures.length} tradisi budaya di ${regions.length} kawasan dunia.</p>
 <section><h2>Legenda pilihan</h2>${list((featured.length ? featured : creatures.slice(0, 4)).map(creatureItem))}</section>
 <section><h2>Peradaban</h2>${list(activeCultures.map(cu => `${link(`/cultures/${cu.id}`, id(cu.name))} (${creatures.filter(c => c.culture === cu.id).length})`))}</section>
 <section><h2>Atlas dunia</h2>${list(regions.map(r => `${link(`/regions/${r.id}`, id(r.name))} — ${esc(clip(id(r.description), 160))}`))}</section>
@@ -131,7 +131,7 @@ ${sectionNav()}</article>`,
       description,
       image,
       lastmod: (c.updated_at || today).slice(0, 10),
-      body: `<article class="prerender container"><nav aria-label="Breadcrumb">${link('/', 'Mythics')} › ${link('/explore', 'Bestiary')} › ${culture ? link(`/cultures/${culture.id}`, id(culture.name)) : esc(words(c.culture))}</nav>
+      body: `<article class="prerender container"><nav aria-label="Breadcrumb">${link('/', 'Mitoloka')} › ${link('/explore', 'Bestiary')} › ${culture ? link(`/cultures/${culture.id}`, id(culture.name)) : esc(words(c.culture))}</nav>
 <header><h1>${esc(c.canonical_name)}${displayEn && displayEn !== c.canonical_name ? ` <span lang="en">${esc(displayEn)}</span>` : ''}</h1>${c.original_name && c.original_name !== c.canonical_name ? `<p class="prerender-original">${esc(c.original_name)}</p>` : ''}</header>
 <figure><img src="${esc(artwork(c))}" alt="${esc(displayEn || c.canonical_name)}" loading="lazy" decoding="async"><figcaption>${editorialArt[c.slug] ? 'Ilustrasi editorial · interpretasi artistik AI' : esc(text(c.images?.[0]?.caption?.id || c.images?.[0]?.caption || ''))}</figcaption></figure>
 <section><h2>Ringkasan</h2>${bilingual(c.short_description)}</section>
@@ -186,7 +186,7 @@ ${sectionNav()}</article>`,
       route: `/cultures/${cu.id}`,
       title: `${id(cu.name)}${en(cu.name) && en(cu.name) !== id(cu.name) ? ` (${en(cu.name)})` : ''} — Makhluk Mitologi & Folklor | ${SITE_NAME}`,
       description: clip(id(cu.description) || en(cu.description) || `Makhluk mitologi dan folklor dari tradisi ${id(cu.name)}.`, 300),
-      body: `<article class="prerender container"><nav aria-label="Breadcrumb">${link('/', 'Mythics')} › ${link('/cultures', 'Peradaban')}</nav><h1>${esc(id(cu.name))}${en(cu.name) && en(cu.name) !== id(cu.name) ? ` <span lang="en">${esc(en(cu.name))}</span>` : ''}</h1>${bilingual(cu.description)}
+      body: `<article class="prerender container"><nav aria-label="Breadcrumb">${link('/', 'Mitoloka')} › ${link('/cultures', 'Peradaban')}</nav><h1>${esc(id(cu.name))}${en(cu.name) && en(cu.name) !== id(cu.name) ? ` <span lang="en">${esc(en(cu.name))}</span>` : ''}</h1>${bilingual(cu.description)}
 <dl>${region ? `<dt>Kawasan / Region</dt><dd>${link(`/regions/${region.id}`, id(region.name))}</dd>` : cu.region ? `<dt>Kawasan / Region</dt><dd>${esc(cu.region)}</dd>` : ''}${cu.country ? `<dt>Negara / Country</dt><dd>${esc(cu.country)}</dd>` : ''}<dt>Entri</dt><dd>${own.length} makhluk</dd></dl>
 <section><h2>Makhluk dalam tradisi ini / Beings of this tradition</h2>${own.length ? list(own.map(creatureItem)) : '<p>Belum ada entri yang diterbitkan untuk tradisi ini. / No published entries yet.</p>'}</section>
 <p>${link(`/explore?culture=${encodeURIComponent(cu.id)}`, `Jelajahi ${id(cu.name)} di Bestiary`)}</p>${sectionNav()}</article>`,
@@ -211,7 +211,7 @@ ${sectionNav()}</article>`,
       route: `/regions/${r.id}`,
       title: `${id(r.name)}${en(r.name) && en(r.name) !== id(r.name) ? ` (${en(r.name)})` : ''} — Atlas Makhluk Mitologi | ${SITE_NAME}`,
       description: clip(id(r.description) || en(r.description), 300),
-      body: `<article class="prerender container"><nav aria-label="Breadcrumb">${link('/', 'Mythics')} › ${link('/regions', 'Atlas Dunia')}</nav><h1>${esc(id(r.name))}${en(r.name) && en(r.name) !== id(r.name) ? ` <span lang="en">${esc(en(r.name))}</span>` : ''}</h1>${bilingual(r.description)}
+      body: `<article class="prerender container"><nav aria-label="Breadcrumb">${link('/', 'Mitoloka')} › ${link('/regions', 'Atlas Dunia')}</nav><h1>${esc(id(r.name))}${en(r.name) && en(r.name) !== id(r.name) ? ` <span lang="en">${esc(en(r.name))}</span>` : ''}</h1>${bilingual(r.description)}
 <section><h2>Tradisi di kawasan ini / Traditions</h2>${list(traditions.map(cu => `${link(`/cultures/${cu.id}`, id(cu.name))} (${creatures.filter(c => c.culture === cu.id).length})`))}</section>
 <section><h2>Makhluk dari kawasan ini / Beings of this region</h2>${own.length ? list(own.map(creatureItem)) : '<p>Belum ada entri yang diterbitkan untuk kawasan ini. / No published entries yet.</p>'}</section>
 <p>${link(`/explore?region=${encodeURIComponent(r.id)}`, `Jelajahi ${id(r.name)} di Bestiary`)}</p>${sectionNav()}</article>`,
@@ -242,8 +242,8 @@ ${sectionNav()}</article>`,
   page({
     route: '/scales',
     title: `Panduan Kelas Kekuatan, Ancaman & Rasa Takut | ${SITE_NAME}`,
-    description: 'Tujuh kelas kekuatan dari Mortal hingga Transcendent, tujuh tingkat ancaman, dan enam tingkat rasa takut: skala editorial Mythics untuk membaca makhluk mitologi.',
-    body: `<article class="prerender container"><h1>Panduan Klasifikasi</h1><p>Skala editorial Mythics untuk membaca makhluk mitologi: kelas kekuatan, tingkat ancaman, dan tingkat rasa takut. Skala ini tidak menggantikan tradisi; ia membantu membandingkan.</p><p lang="en">Mythics' editorial scales for reading mythological beings: power class, threat level and fear level. They do not replace tradition; they help comparison.</p>
+    description: 'Tujuh kelas kekuatan dari Mortal hingga Transcendent, tujuh tingkat ancaman, dan enam tingkat rasa takut: skala editorial Mitoloka untuk membaca makhluk mitologi.',
+    body: `<article class="prerender container"><h1>Panduan Klasifikasi</h1><p>Skala editorial Mitoloka untuk membaca makhluk mitologi: kelas kekuatan, tingkat ancaman, dan tingkat rasa takut. Skala ini tidak menggantikan tradisi; ia membantu membandingkan.</p><p lang="en">Mitoloka' editorial scales for reading mythological beings: power class, threat level and fear level. They do not replace tradition; they help comparison.</p>
 ${Object.entries(SCALES).map(([axis, levels]) => `<section><h2>${esc(scaleNames[axis]?.[0] || axis)} <span lang="en">${esc(scaleNames[axis]?.[1] || '')}</span></h2><ol>${levels.map(l => `<li><strong>${esc(l.name)}</strong>${axis === 'power' ? ` — ${link(`/explore?power=${l.id}`, 'lihat makhluk')}` : ''}${bilingual(l.description)}</li>`).join('')}</ol></section>`).join('')}
 ${sectionNav()}</article>`,
     jsonLd: [breadcrumb([['Klasifikasi', '/scales']])],
@@ -253,7 +253,7 @@ ${sectionNav()}</article>`,
   page({
     route: '/learn',
     title: `Ruang Belajar — Membaca Mitos, Legenda & Sumbernya | ${SITE_NAME}`,
-    description: 'Pelajari cara membaca mitos, legenda, dan folklor: jenis cerita, simbol, menelusuri sumber, dan menguji pemahaman di Ruang Belajar Mythics.',
+    description: 'Pelajari cara membaca mitos, legenda, dan folklor: jenis cerita, simbol, menelusuri sumber, dan menguji pemahaman di Ruang Belajar Mitoloka.',
     body: `<article class="prerender container"><h1>Ruang Belajar</h1><p>Belajar melihat di balik legenda: pahami simbol, telusuri sumber, dan uji pemahamanmu.</p><p lang="en">Learn to read between the legends: explore symbols, trace sources, and test your understanding.</p>
 ${lessons.map(l => `<section><h2>${esc(id(l.title))} <span lang="en">${esc(en(l.title))}</span></h2>${bilingual(l.summary)}${(l.objectives || []).length ? list(l.objectives.map(o => esc(text(id(o))))) : ''}<p>${link(`/learn?module=${encodeURIComponent(l.id)}`, `Buka modul (${l.minutes} menit)`)}</p></section>`).join('')}
 ${sectionNav()}</article>`,
@@ -277,7 +277,7 @@ ${a && b ? `<p>Contoh: ${link(`/compare?a=${a.slug}&b=${b.slug}`, `${a.canonical
   page({
     route: '/journal',
     title: `Jurnal Saya — Favorit & Penemuan | ${SITE_NAME}`,
-    description: 'Jurnal pribadi Mythics: makhluk favorit dan legenda yang sudah kamu temukan, tersimpan di perangkatmu.',
+    description: 'Jurnal pribadi Mitoloka: makhluk favorit dan legenda yang sudah kamu temukan, tersimpan di perangkatmu.',
     body: `<article class="prerender container"><h1>Jurnal Saya</h1><p>Favorit dan penemuanmu tersimpan di perangkat ini. Tandai makhluk sebagai favorit dari halaman detailnya, lalu kembali ke sini untuk melanjutkan penjelajahan.</p><p lang="en">Your favorites and discoveries are kept on this device. Mark beings as favorites from their pages, then return here to continue exploring.</p>${sectionNav()}</article>`,
     jsonLd: [breadcrumb([['Jurnal Saya', '/journal']])],
   });
@@ -285,10 +285,10 @@ ${a && b ? `<p>Contoh: ${link(`/compare?a=${a.slug}&b=${b.slug}`, `${a.canonical
   // Support
   page({
     route: '/dukung',
-    title: `Dukung Mythics — Ruang Belajar Gratis | ${SITE_NAME}`,
-    description: 'Mythics adalah ruang belajar gratis. Orang tua, guru, dan sahabat pendidikan dapat mendukung pengembangannya secara sukarela.',
-    body: `<article class="prerender container"><h1>Dukung Mythics</h1><p>Mythics adalah ruang belajar gratis. Jika bermanfaat, orang tua, guru, dan sahabat pendidikan dapat mendukung pengembangannya secara sukarela. Dukungan bersifat sukarela; belajar tetap gratis.</p><p lang="en">Mythics is a free learning space. Parents, teachers and friends of education can voluntarily support its development. Support is optional; learning stays free.</p>${sectionNav()}</article>`,
-    jsonLd: [breadcrumb([['Dukung Mythics', '/dukung']])],
+    title: `Dukung Mitoloka — Ruang Belajar Gratis | ${SITE_NAME}`,
+    description: 'Mitoloka adalah ruang belajar gratis. Orang tua, guru, dan sahabat pendidikan dapat mendukung pengembangannya secara sukarela.',
+    body: `<article class="prerender container"><h1>Dukung Mitoloka</h1><p>Mitoloka adalah ruang belajar gratis. Jika bermanfaat, orang tua, guru, dan sahabat pendidikan dapat mendukung pengembangannya secara sukarela. Dukungan bersifat sukarela; belajar tetap gratis.</p><p lang="en">Mitoloka is a free learning space. Parents, teachers and friends of education can voluntarily support its development. Support is optional; learning stays free.</p>${sectionNav()}</article>`,
+    jsonLd: [breadcrumb([['Dukung Mitoloka', '/dukung']])],
   });
 
   return pages;

@@ -1,6 +1,6 @@
-# Instruksi agen untuk repositori Mythics
+# Instruksi agen untuk repositori Mitoloka
 
-Repositori ini adalah ensiklopedia makhluk mitologi (Mythics, live di https://mythologies.pages.dev). Setiap fakta di situs berasal dari klaim riset dengan kutipan sumber; tidak ada yang boleh dikarang.
+Repositori ini adalah ensiklopedia makhluk mitologi (Mitoloka, live di https://mitoloka.pages.dev). Setiap fakta di situs berasal dari klaim riset dengan kutipan sumber; tidak ada yang boleh dikarang.
 
 ## Codex: ilustrator
 

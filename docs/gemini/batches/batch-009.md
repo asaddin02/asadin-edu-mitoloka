@@ -1,6 +1,6 @@
 # Batch batch-009
 
-Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
+Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-009`
 - Jumlah makhluk: 5

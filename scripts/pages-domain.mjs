@@ -40,7 +40,7 @@ export async function reserveName(api, target, projects, report = console.log) {
 async function main() {
   const token = process.env.CLOUDFLARE_API_TOKEN;
   const account = process.env.CLOUDFLARE_ACCOUNT_ID;
-  const target = process.env.PAGES_TARGET || 'mythics';
+  const target = process.env.PAGES_TARGET || 'mitoloka';
   if (!token || !account) throw new Error('Cloudflare credentials are required.');
   if (!/^[a-z0-9][a-z0-9-]{0,50}$/.test(target)) throw new Error('Invalid Pages target.');
   const api = async (method, path, body, envelope = false) => {

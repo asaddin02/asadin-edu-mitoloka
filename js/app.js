@@ -1,5 +1,5 @@
 /**
- * Mythics Client Application Main Entry Point
+ * Mitoloka Client Application Main Entry Point
  * Routing, view lifecycle management, and global event coordination.
  */
 
@@ -24,9 +24,9 @@ class App {
   init() {
     // A single, permanent dark identity, including visitors with a saved legacy light theme.
     document.documentElement.dataset.theme = 'dark';
-    localStorage.removeItem('mythics_theme');
+    localStorage.removeItem('mitoloka_theme');
 
-    localStorage.removeItem('mythics_aura');
+    localStorage.removeItem('mitoloka_aura');
 
     // 2. Initialize i18n
     initI18n();
@@ -40,7 +40,7 @@ class App {
     upgradeLegacyHash();
     interceptLinks();
     window.addEventListener('popstate', () => this.handleRouting());
-    window.addEventListener('mythics:lang-change', () => {
+    window.addEventListener('mitoloka:lang-change', () => {
       this.renderChrome();
       this.handleRouting();
     });
@@ -61,7 +61,7 @@ class App {
               <div class="footer-brand">
                 <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
                   <span class="footer-emblem" aria-hidden="true">${icon('crown', 30)}</span>
-                  <span style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--gold-500); letter-spacing: 0.15em;">MYTHICS</span>
+                  <span style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--gold-500); letter-spacing: 0.15em;">MITOLOKA</span>
                 </div>
                 <p class="footer-desc">${t('footer.aboutText')}</p>
                 <div class="footer-philosophy">${t('footer.philosophy')}</div>
@@ -81,7 +81,7 @@ class App {
               <div>
                 <h4 class="footer-col-title">${bi('Tentang arsip', 'About the archive')}</h4>
                 <ul class="footer-links">
-                  <li><a href="/dukung">${bi('Dukung Mythics', 'Support Mythics')}</a></li>
+                  <li><a href="/dukung">${bi('Dukung Mitoloka', 'Support Mitoloka')}</a></li>
                   <li><a href="/learn?module=reading">${t('footer.sourcesPolicy')}</a></li>
                   <li><a href="/learn?module=reading">${t('footer.licensing')}</a></li>
                   <li><span style="font-size: 0.85rem; color: var(--text-muted);">${bi('Tradisi · Konteks · Interpretasi', 'Tradition · Context · Interpretation')}</span></li>
@@ -90,7 +90,7 @@ class App {
             </div>
 
             <div class="footer-bottom">
-              <div>© 2026 Mythics · ${bi('Proyek eksplorasi budaya oleh Asadin', 'A cultural exploration project by Asadin')}</div>
+              <div>© 2026 Mitoloka · ${bi('Proyek eksplorasi budaya oleh Asadin', 'A cultural exploration project by Asadin')}</div>
               <div>Bilingual Platform (Bahasa Indonesia & English)</div>
             </div>
           </div>

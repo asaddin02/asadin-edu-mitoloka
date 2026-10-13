@@ -1,4 +1,4 @@
-# Mythics · The Living Bestiary
+# Mitoloka · The Living Bestiary
 
 The Royal Atlas interface presents mythology as a royal illustrated archive: walnut-brown surfaces, antique gold, parchment type, cinematic artwork, and three independent classification axes. Indonesian is the default language; public navigation and new controls also support English.
 

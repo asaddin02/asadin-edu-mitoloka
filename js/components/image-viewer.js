@@ -7,7 +7,7 @@ export function artwork(creature) {
     src: art || source?.url || source?.preview_url || source?.thumbnail_url || '',
     name: resolveLocalized(creature.display_name, creature.canonical_name),
     slug: creature.slug,
-    credit: art ? bi('Interpretasi artistik AI · Mythics', 'AI artistic interpretation · Mythics') : [source?.author, source?.license].filter(Boolean).join(' · '),
+    credit: art ? bi('Interpretasi artistik AI · Mitoloka', 'AI artistic interpretation · Mitoloka') : [source?.author, source?.license].filter(Boolean).join(' · '),
   };
 }
 export function previewAttributes(data) {
@@ -24,7 +24,7 @@ async function saveArtwork(src, slug, isCurrent = () => true) {
   if (!isCurrent()) return false;
   const url = URL.createObjectURL(blob), link = document.createElement('a');
   const ext = ({'image/webp':'webp','image/png':'png','image/jpeg':'jpg','image/svg+xml':'svg','image/avif':'avif'})[blob.type] || 'img';
-  link.href = url; link.download = `mythics-${(slug || 'illustration').replace(/[^a-z0-9-]/gi,'-')}.${ext}`;
+  link.href = url; link.download = `mitoloka-${(slug || 'illustration').replace(/[^a-z0-9-]/gi,'-')}.${ext}`;
   document.body.append(link); link.click(); link.remove();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
   return true;
@@ -61,7 +61,7 @@ export function initImageViewer() {
     open(trigger);
   });
   window.addEventListener('popstate', close);
-  window.addEventListener('mythics:lang-change', close);
+  window.addEventListener('mitoloka:lang-change', close);
 
   function open(trigger) {
     if (dialog?.open) close();

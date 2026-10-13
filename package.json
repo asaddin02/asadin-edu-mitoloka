@@ -1,12 +1,12 @@
 {
-  "name": "asadin-mythological-creatures",
+  "name": "asadin-edu-mitoloka",
   "version": "1.0.0",
-  "description": "Mythics — Global Mythological Creatures & Legendary Beings Encyclopedia. Bilingual (Indonesian & English) discovery platform and research pipeline.",
+  "description": "Mitoloka — Global Mythological Creatures & Legendary Beings Encyclopedia. Bilingual (Indonesian & English) discovery platform and research pipeline.",
   "type": "module",
   "private": true,
   "scripts": {
     "start": "node server/server.mjs",
-    "dev": "MYTHICS_ADMIN=1 PORT=8095 HOST=127.0.0.1 LOG=1 node server/server.mjs",
+    "dev": "MITOLOKA_ADMIN=1 PORT=8095 HOST=127.0.0.1 LOG=1 node server/server.mjs",
     "seed": "node scripts/seed.mjs",
     "ingest": "node scripts/ingest-cli.mjs",
     "check": "node scripts/check-data.mjs",
@@ -37,7 +37,7 @@
     "indonesian-folklore",
     "encyclopedia",
     "bestiary",
-    "mythics"
+    "mitoloka"
   ],
   "author": "Asadin",
   "license": "MIT",

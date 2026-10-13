@@ -25,7 +25,7 @@ export function revisionArgs(extra = {}) {
 export function assetPath(path) {
   const file = resolve(root, path);
   if (existsSync(file) || !isAbsolute(path)) return file;
-  const marker = '/asadin-mythological-creatures/';
+  const marker = '/asadin-edu-mitoloka/';
   const index = path.indexOf(marker);
   return index === -1 ? file : resolve(root, path.slice(index + marker.length));
 }

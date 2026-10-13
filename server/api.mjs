@@ -1,5 +1,5 @@
 /**
- * Mythics API Route Handlers
+ * Mitoloka API Route Handlers
  * REST endpoints for public discovery, detailed creature inspection,
  * comparison, random encounter, and administrative editorial workflow.
  */

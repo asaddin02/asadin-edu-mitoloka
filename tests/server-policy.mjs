@@ -1,6 +1,6 @@
 /**
  * Production-server policy: only public files are served, and the editorial console is off unless
- * MYTHICS_ADMIN=1, in which case it still refuses cross-origin writes.
+ * MITOLOKA_ADMIN=1, in which case it still refuses cross-origin writes.
  */
 
 import assert from 'node:assert/strict';
@@ -12,7 +12,7 @@ const BASE_PORT = Number(process.env.POLICY_TEST_PORT || 28195);
 async function start(port, env = {}) {
   const child = spawn(process.execPath, ['server/server.mjs'], {
     cwd: new URL('..', import.meta.url),
-    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', MYTHICS_ADMIN: '', ...env },
+    env: { ...process.env, PORT: String(port), HOST: '127.0.0.1', MITOLOKA_ADMIN: '', ...env },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
   await Promise.race([
@@ -51,13 +51,13 @@ try {
     404,
     'no writes when the console is off'
   );
-  assert.match(await (await fetch(base)).text(), /<meta name="mythics-admin" content="off">/);
+  assert.match(await (await fetch(base)).text(), /<meta name="mitoloka-admin" content="off">/);
   console.log('  ✓ public files only; editorial console off by default');
 } finally {
   await stop(server);
 }
 
-server = await start(BASE_PORT + 1, { MYTHICS_ADMIN: '1' });
+server = await start(BASE_PORT + 1, { MITOLOKA_ADMIN: '1' });
 try {
   const base = `http://127.0.0.1:${BASE_PORT + 1}`;
   assert.equal(await status(`${base}/api/admin/stats`), 200, 'local console reads');
@@ -71,7 +71,7 @@ try {
     404,
     'same-origin writes reach the console'
   );
-  assert.doesNotMatch(await (await fetch(base)).text(), /mythics-admin/);
+  assert.doesNotMatch(await (await fetch(base)).text(), /mitoloka-admin/);
   console.log('  ✓ enabled console accepts same-origin local requests only');
 } finally {
   await stop(server);

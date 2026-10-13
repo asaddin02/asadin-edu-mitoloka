@@ -1,11 +1,11 @@
 /**
- * Mythics Bestiary Journal & Gamification Engine
+ * Mitoloka Bestiary Journal & Gamification Engine
  * Anonymously tracks exploration progress, favorited entities,
  * and unlocks scholar badges in localStorage.
  */
 
-const STORAGE_KEY_DISCOVERED = 'mythics_discovered_beings';
-const STORAGE_KEY_FAVORITES = 'mythics_favorite_beings';
+const STORAGE_KEY_DISCOVERED = 'mitoloka_discovered_beings';
+const STORAGE_KEY_FAVORITES = 'mitoloka_favorite_beings';
 
 export const gamification = {
   getDiscovered() {
@@ -36,7 +36,7 @@ export const gamification = {
         name: metadata.canonical_name || slug
       };
       localStorage.setItem(STORAGE_KEY_DISCOVERED, JSON.stringify(discovered));
-      window.dispatchEvent(new CustomEvent('mythics:discovered-change', { detail: { slug } }));
+      window.dispatchEvent(new CustomEvent('mitoloka:discovered-change', { detail: { slug } }));
     }
   },
 
@@ -54,7 +54,7 @@ export const gamification = {
       favs.push(slug);
     }
     localStorage.setItem(STORAGE_KEY_FAVORITES, JSON.stringify(favs));
-    window.dispatchEvent(new CustomEvent('mythics:favorites-change', { detail: { slug, isFavorite: !isFav } }));
+    window.dispatchEvent(new CustomEvent('mitoloka:favorites-change', { detail: { slug, isFavorite: !isFav } }));
     return !isFav;
   },
 

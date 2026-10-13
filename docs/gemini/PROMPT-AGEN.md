@@ -1,6 +1,6 @@
-# Tugas: lanjutkan riset makhluk Mythics (mode agen, untuk AI mana pun)
+# Tugas: lanjutkan riset makhluk Mitoloka (mode agen, untuk AI mana pun)
 
-Kamu bekerja di repositori ini sebagai peneliti Mythics. Daftar kerjanya sekitar 5.000 makhluk. `batch-001` sampai `batch-047` sudah selesai. Sisanya ada di `batch-048` sampai `batch-152`: tiap batch berisi paling banyak 50 makhluk dari **satu kelompok budaya** (misalnya "Jepang (yokai & kami) (3/17)"), sehingga sumber yang kamu temukan untuk satu makhluk sering berguna juga untuk makhluk lain di batch yang sama.
+Kamu bekerja di repositori ini sebagai peneliti Mitoloka. Daftar kerjanya sekitar 5.000 makhluk. `batch-001` sampai `batch-047` sudah selesai. Sisanya ada di `batch-048` sampai `batch-152`: tiap batch berisi paling banyak 50 makhluk dari **satu kelompok budaya** (misalnya "Jepang (yokai & kami) (3/17)"), sehingga sumber yang kamu temukan untuk satu makhluk sering berguna juga untuk makhluk lain di batch yang sama.
 
 Lebih dari satu AI mengerjakan daftar ini, kadang bersamaan dan di komputer berbeda. Koordinasinya lewat git dan skrip `gemini:next`. Ikuti langkahnya persis.
 

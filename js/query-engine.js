@@ -1,6 +1,6 @@
 import { getAssessment, SCALES } from './scaling.js';
 /**
- * Mythics Query Engine
+ * Mitoloka Query Engine
  * Pure read-only queries over the library data, shared by the Node server (server/db.mjs),
  * the static site builder (scripts/build-site.mjs) and the browser on static hosting
  * (js/api-client.js). `data` is { creatures, cultures, categories, traits, regions }.

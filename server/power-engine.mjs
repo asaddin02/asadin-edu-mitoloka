@@ -1,5 +1,5 @@
 /**
- * Mythics Power Profile — editorial visualisation, not a canonical ranking.
+ * Mitoloka Power Profile — editorial visualisation, not a canonical ranking.
  *
  * Every point comes from a stored, evidenced attribute (an attributed ability,
  * an evidenced classification, or a measurable signal such as the number of
@@ -67,8 +67,8 @@ export function computePowerProfile({ abilities = [], categories = [], popularit
 }
 
 export const POWER_DISCLAIMER = {
-  en: 'Mythics Power Profile is an editorial classification for visualisation and entertainment. The values are not a canonical ranking or an objective measure of power in the original tradition. Each value lists the evidenced attributes it was calculated from; dimensions without evidence show no value.',
-  id: 'Mythics Power Profile adalah klasifikasi editorial untuk tujuan visualisasi dan hiburan. Nilai ini bukan ranking kanonik atau ukuran objektif kekuatan dalam tradisi asli. Setiap nilai mencantumkan atribut berbukti yang menjadi dasar perhitungannya; dimensi tanpa bukti tidak diberi nilai.'
+  en: 'Mitoloka Power Profile is an editorial classification for visualisation and entertainment. The values are not a canonical ranking or an objective measure of power in the original tradition. Each value lists the evidenced attributes it was calculated from; dimensions without evidence show no value.',
+  id: 'Mitoloka Power Profile adalah klasifikasi editorial untuk tujuan visualisasi dan hiburan. Nilai ini bukan ranking kanonik atau ukuran objektif kekuatan dalam tradisi asli. Setiap nilai mencantumkan atribut berbukti yang menjadi dasar perhitungannya; dimensi tanpa bukti tidak diberi nilai.'
 };
 
 /**

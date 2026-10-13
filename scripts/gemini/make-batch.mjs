@@ -20,7 +20,7 @@ export const INSTRUCTIONS_VERSION = 3;
 export const TASKS = {
   rewrite: 'Entri lama berisi teks template dan sumber yang belum terverifikasi. Tulis ulang dari nol berdasarkan riset baru; isi entri lama hanya petunjuk pencarian.',
   enrich: 'Entri sekarang hanya berisi ringkasan pengantar dari Wikipedia. Tulis entri lengkap berdasarkan riset baru; sumber Wikipedia yang ditandai "terverifikasi" boleh dipakai, dengan kutipan dari halamannya.',
-  new: 'Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.'
+  new: 'Makhluk ini belum ada di Mitoloka. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.'
 };
 
 // Images the 2026-09-29 audit found to depict something else; both were checked against Commons metadata.
@@ -32,7 +32,7 @@ const KNOWN_WRONG_IMAGES = new Map([
 const fileTitle = url => decodeURIComponent(String(url || '').split('/wiki/')[1] || '').replace(/_/g, ' ').replace(/^File:/i, '');
 const wikiUrl = (wiki, title) => `https://${wiki.replace(/wiki$/, '').replace(/_/g, '-')}.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
 
-/** Prompt section for one work item; `creature` is the current Mythics record, if any. */
+/** Prompt section for one work item; `creature` is the current Mitoloka record, if any. */
 function describe(item, creature, n) {
   const lines = [`### ${n}. \`${item.slug}\` — ${item.canonical_name} (task \`${item.task}\`, tier \`${item.tier}\`)`];
   if (item.jenis) lines.push(`- **Jenis: ${item.jenis}** (dugaan awal dari ${item.qid ? 'kelas/deskripsi Wikidata' : 'klasifikasi lama'}; pastikan dengan sumber, isi \`jenis\` dan \`classification\` sesuai temuanmu).`);
@@ -82,7 +82,7 @@ export async function writeBatch({ id, title = '', items, creaturesBySlug }) {
   const prompt = [
     `# Batch ${id}${title ? ` — ${title}` : ''}`,
     '',
-    `Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi ${INSTRUCTIONS_VERSION})" di \`docs/gemini/00-instruksi-utama.md\`.`,
+    `Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi ${INSTRUCTIONS_VERSION})" di \`docs/gemini/00-instruksi-utama.md\`.`,
     '',
     `- \`batch_id\`: \`${id}\``,
     `- Jumlah makhluk: ${items.length}`,

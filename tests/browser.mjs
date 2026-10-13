@@ -143,7 +143,7 @@ try {
   const downloadEvent = page.waitForEvent('download');
   await page.locator('.viewer-download').click();
   const download = await downloadEvent;
-  assert.equal(download.suggestedFilename(), 'mythics-kitsune.webp');
+  assert.equal(download.suggestedFilename(), 'mitoloka-kitsune.webp');
   const { stat } = await import('node:fs/promises');
   assert((await stat(await download.path())).size > 10000, 'Downloads contain the actual illustration');
   // A blocked remote download must give a usable original-image fallback.
@@ -179,7 +179,7 @@ try {
   const directDownloadEvent = page.waitForEvent('download');
   await page.locator('.detail-download').click();
   const directDownload = await directDownloadEvent;
-  assert.equal(directDownload.suggestedFilename(), 'mythics-kitsune.webp');
+  assert.equal(directDownload.suggestedFilename(), 'mitoloka-kitsune.webp');
   assert((await stat(await directDownload.path())).size > 10000);
   await page.route(imagePath, route => route.request().resourceType() === 'fetch' ? route.abort() : route.continue());
   await page.locator('.detail-download').click();
@@ -316,10 +316,10 @@ try {
   assert.equal(await page.locator("html").getAttribute("lang"), "en");
   assert.match(
     await page.locator(".lesson-article h2").innerText(),
-    /Myth, legend/,
+    /The humans behind every creature/,
   );
   // Legacy light preferences and OS settings cannot change the permanent dark identity.
-  await page.evaluate(() => localStorage.setItem('mythics_theme', 'light'));
+  await page.evaluate(() => localStorage.setItem('mitoloka_theme', 'light'));
   await page.emulateMedia({colorScheme:'light'});
   await reload();
   assert.equal(await page.locator('html').getAttribute('data-theme'), 'dark');
@@ -384,11 +384,11 @@ try {
   await page.locator('.scale-level').first().waitFor();
   await go('');
   await page.locator('.gateway').waitFor();
-  await page.evaluate(() => localStorage.setItem('mythics_aura', 'true'));
+  await page.evaluate(() => localStorage.setItem('mitoloka_aura', 'true'));
   await reload();
   await page.locator('.gateway').waitFor();
   assert.equal(await page.locator('.card-aura, #aura-toggle-btn, .is-tilting').count(), 0, 'Aura and pointer tilt stay removed even with a legacy preference');
-  assert.equal(await page.evaluate(() => localStorage.getItem('mythics_aura')), null);
+  assert.equal(await page.evaluate(() => localStorage.getItem('mitoloka_aura')), null);
 
 
   // Dossier tabs preserve all topics and keep the portrait in place on desktop.
@@ -579,7 +579,7 @@ try {
       ),
     );
   }
-  // Visitors never see the editorial console: it needs the local server started with MYTHICS_ADMIN=1.
+  // Visitors never see the editorial console: it needs the local server started with MITOLOKA_ADMIN=1.
   assert.equal(await page.locator('a[href="/admin"]').count(), 0);
   // A debounced search from a detached view cannot hijack later navigation.
   await go('explore');
@@ -688,7 +688,7 @@ try {
   console.error('Browser audit failure:', page?.url(), diagnostics.slice(-12));
   if (page && !page.isClosed()) {
     console.error('Visible page:', (await page.locator('#app').innerText()).slice(-2500));
-    await page.screenshot({path:`/tmp/mythics-audit-${STATIC ? 'static' : 'server'}-failure.png`,fullPage:true}).catch(()=>{});
+    await page.screenshot({path:`/tmp/mitoloka-audit-${STATIC ? 'static' : 'server'}-failure.png`,fullPage:true}).catch(()=>{});
   }
   throw error;
 } finally {

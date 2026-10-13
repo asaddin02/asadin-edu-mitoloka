@@ -4,7 +4,7 @@ Dibuat 8 Oktober 2026. Penilaian Power, Threat, dan Fear hanya boleh berdasar kl
 
 Dua peran:
 - **Agen utama** (Claude Code lokal atau cloud): membagi slug ke peneliti, memeriksa hasil, commit, lalu menjalankan penilai ulang.
-- **Peneliti** (subagent `peneliti-mythics`, atau `general-purpose` model Sonnet dengan brief di bawah ditempel utuh): satu peneliti memegang beberapa batch, dan satu batch hanya dipegang satu peneliti.
+- **Peneliti** (subagent `peneliti-mitoloka`, atau `general-purpose` model Sonnet dengan brief di bawah ditempel utuh): satu peneliti memegang beberapa batch, dan satu batch hanya dipegang satu peneliti.
 
 Sasaran dihitung dari `data/power/*.json`: makhluk `lengkap-bergambar` yang `perlu_riset`, diutamakan yang **tidak punya lencana sama sekali**, lalu nama besar (sitelinks ≥ 40) yang baru sebagian dinilai. Pada 8 Oktober: 32 + 18 = 50 makhluk di 26 batch.
 
@@ -12,7 +12,7 @@ Sasaran dihitung dari `data/power/*.json`: makhluk `lengkap-bergambar` yang `per
 
 ## Brief peneliti (tempel utuh ke prompt subagent)
 
-Kamu peneliti Mythics, ensiklopedia makhluk mitologi dwibahasa (Indonesia dan Inggris), bekerja di repositori `/home/asadin/Projects/asadin-mythological-creatures` (jalankan semua perintah dari sana). Tugasmu **`perkaya-kekuatan`**: entri yang kamu pegang sudah lengkap dan valid, tetapi risetnya tidak memuat dasar untuk menilai kekuatannya. Kamu menambahkan klaim berkutipan tentang **kuasa, ranah, perbuatan, skala, dan rasa takut** makhluk itu, tanpa mengubah apa pun yang sudah ada.
+Kamu peneliti Mitoloka, ensiklopedia makhluk mitologi dwibahasa (Indonesia dan Inggris), bekerja di repositori `/home/asadin/Projects/asadin-edu-mitoloka` (jalankan semua perintah dari sana). Tugasmu **`perkaya-kekuatan`**: entri yang kamu pegang sudah lengkap dan valid, tetapi risetnya tidak memuat dasar untuk menilai kekuatannya. Kamu menambahkan klaim berkutipan tentang **kuasa, ranah, perbuatan, skala, dan rasa takut** makhluk itu, tanpa mengubah apa pun yang sudah ada.
 
 ### Wajib dibaca sekali
 
@@ -80,4 +80,4 @@ Satu baris per slug: `slug | hasil | klaim sebelum→sesudah | sumber baru (pene
 2. Prompt tiap peneliti = brief di atas + daftar `batch`, `fix`, dan untuk setiap slug: `nama`, `tier`, jumlah klaim sekarang, level yang sudah ada, dan `kurang` (teks `perlu_riset`).
 3. Setelah peneliti selesai: jalankan `verify.mjs <batch> --changed` sendiri untuk setiap batch; pastikan tidak ada entri lain di batch itu yang berubah menjadi `perlu-perbaikan`. Periksa sampel klaim baru: `statement` sesuai `quote`, prosa tidak menambah nama atau angka.
 4. Commit: `data/gemini/inbox/<batch>-fix-<n>.md`, `data/gemini/reviews/<batch>.*`, `data/gemini/enrich/<batch>.json`. Jangan jalankan `gemini:done` untuk batch pengayaan.
-5. Nilai ulang dengan penilai (`docs/gemini/PROMPT-CLOUD-KEKUATAN.md`, aturan `.claude/agents/penilai-kekuatan-mythics.md`): penilai menerima daftar slug beserta id klaim baru, menulis ulang entri slug itu di `data/power/<batch>.json` (hapus atau persempit `perlu_riset`), lalu `node scripts/build-power.mjs --validate`. Agen utama meninjau setiap level terhadap klaimnya, menjalankan `node scripts/build-power.mjs` dan `npm test`, lalu commit `data/power/*.json` bersama `js/power-assessments.js`.
+5. Nilai ulang dengan penilai (`docs/gemini/PROMPT-CLOUD-KEKUATAN.md`, aturan `.claude/agents/penilai-kekuatan-mitoloka.md`): penilai menerima daftar slug beserta id klaim baru, menulis ulang entri slug itu di `data/power/<batch>.json` (hapus atau persempit `perlu_riset`), lalu `node scripts/build-power.mjs --validate`. Agen utama meninjau setiap level terhadap klaimnya, menjalankan `node scripts/build-power.mjs` dan `npm test`, lalu commit `data/power/*.json` bersama `js/power-assessments.js`.

@@ -1,10 +1,12 @@
 # Serah terima status — 6 Oktober 2026
 
+> **Catatan 13 Oktober 2026:** proyek ini kini bernama **Mitoloka** (https://mitoloka.pages.dev, repo `asadin-edu-mitoloka`). Nama dan alamat lama di dokumen bertanggal ini sudah diganti; alamat pages.dev yang sudah dihapus ditulis secara umum.
+
 Untuk PC lain: jalankan `git pull` sebelum bekerja. Semua pekerjaan di bawah sudah di-commit, di-push, dan dideploy. Tidak ada perubahan lokal yang tertinggal.
 
 ## Yang sudah dilakukan
 
-- **Alamat situs berubah** menjadi **https://mythologies.pages.dev** (sebelumnya mythics-99o.pages.dev). Variable repo kini `CLOUDFLARE_PAGES_PROJECT=mythologies` dan `SITE_URL=https://mythologies.pages.dev`. Proyek lama `mythics` sudah dihapus lewat workflow manual `Delete retired Pages project`. Bucket R2 `mythics-media` dipertahankan.
+- **Alamat situs berubah** menjadi **https://mitoloka.pages.dev** (sebelumnya alamat pages.dev pertama (sudah dihapus)). Variable repo kini `CLOUDFLARE_PAGES_PROJECT=mythologies` dan `SITE_URL=https://mitoloka.pages.dev`. Proyek lama `mitoloka` sudah dihapus lewat workflow manual `Delete retired Pages project`. Bucket R2 `mitoloka-media` dipertahankan.
 - **Ilustrasi: target 1.000 tercapai.** Batch 1000 selesai 203/203 dan 141 ilustrasi diganti lewat revisi tampilan. Katalog memuat 1.936 entri dengan 1.000 ilustrasi aktif. Rincian ada di [HANDOFF-ARTWORK-1000-2026-10-05.md](HANDOFF-ARTWORK-1000-2026-10-05.md) dan [HANDOFF-ARTWORK-REVISION-2026-10-06.md](HANDOFF-ARTWORK-REVISION-2026-10-06.md).
 - **Riset:** pembersihan batch 120 dan 138–141 dicatat di commit `7b0ed3d`.
 - **Banner beranda dirombak oleh Codex** (commit `f649f1a` dan `4872b0a`): foto tajam memenuhi banner, slide lebih pelan, kartu legenda tidak menutupi wajah. Diuji pada tujuh ukuran layar.

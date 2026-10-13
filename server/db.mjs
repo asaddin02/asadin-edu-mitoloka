@@ -1,5 +1,5 @@
 /**
- * Mythics Normalized Database Layer
+ * Mitoloka Normalized Database Layer
  * In-memory indexed cache with file persistence and transactional updates.
  * Read queries (search, filters, relations) live in js/query-engine.js so the static site
  * builder and the browser on static hosting answer exactly like this server.

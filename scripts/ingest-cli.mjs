@@ -24,7 +24,7 @@ if (!entityName) {
 }
 
 async function run() {
-  console.log(`\n=== MYTHICS INGESTION PIPELINE ===`);
+  console.log(`\n=== MITOLOKA INGESTION PIPELINE ===`);
   console.log(`Target: "${entityName}" (Auto-publish: ${autoPublish})\n`);
 
   const result = await researchEntity(entityName, { autoPublish });

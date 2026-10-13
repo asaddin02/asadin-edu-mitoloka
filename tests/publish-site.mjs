@@ -1,5 +1,5 @@
 /**
- * The public build (MYTHICS_PUBLISH=complete MEDIA_BASE=/media npm run build:site) publishes only creatures
+ * The public build (MITOLOKA_PUBLISH=complete MEDIA_BASE=/media npm run build:site) publishes only creatures
  * whose verified research meets its tier target and has an approved image, shows that research, and moves
  * their artwork out of dist/ into dist-media/ for R2.
  */
@@ -14,7 +14,7 @@ const read = async p => JSON.parse(await readFile(new URL(p, root), 'utf8'));
 
 await promisify(execFile)('node', ['scripts/build-site.mjs'], {
   cwd: root,
-  env: { ...process.env, MYTHICS_PUBLISH: 'complete', MEDIA_BASE: '/media' },
+  env: { ...process.env, MITOLOKA_PUBLISH: 'complete', MEDIA_BASE: '/media' },
 });
 
 const creatures = await read('data/creatures.json');

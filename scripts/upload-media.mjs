@@ -18,7 +18,7 @@ import { promisify } from 'node:util';
 const run = promisify(execFile);
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dir = join(root, 'dist-media');
-const bucket = process.argv.slice(2).find(arg => !arg.startsWith('--')) || 'mythics-media';
+const bucket = process.argv.slice(2).find(arg => !arg.startsWith('--')) || 'mitoloka-media';
 const TYPES = { webp: 'image/webp', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', avif: 'image/avif', json: 'application/json' };
 const wrangler = args => run('npx', ['--yes', 'wrangler@4', ...args], { cwd: root, maxBuffer: 64 * 1024 * 1024 });
 
@@ -39,7 +39,7 @@ if (process.argv.includes('--dry-run')) {
   process.exit(0);
 }
 
-const tmp = await mkdtemp(join(tmpdir(), 'mythics-media-'));
+const tmp = await mkdtemp(join(tmpdir(), 'mitoloka-media-'));
 let previous = {};
 try {
   await wrangler(['r2', 'object', 'get', `${bucket}/_manifest.json`, '--remote', '--file', join(tmp, 'manifest.json')]);

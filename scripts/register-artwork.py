@@ -90,7 +90,7 @@ creature['images'] = [{
     },
     'source_name': args.tool,
     'source_url': url,
-    'author': 'Mythics · OpenAI image generation' if args.tool == 'OpenAI built-in image_gen' else f'Mythics · {args.tool}',
+    'author': 'Mitoloka · OpenAI image generation' if args.tool == 'OpenAI built-in image_gen' else f'Mitoloka · {args.tool}',
     'license': 'AI-generated editorial illustration; see assets/art/README.md',
     'image_type': 'AI-generated editorial illustration',
     'ai_generated': True,

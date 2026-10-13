@@ -13,10 +13,10 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
-export const CACHE_DIR = process.env.MYTHICS_CACHE_DIR || join(ROOT, 'data', 'cache');
+export const CACHE_DIR = process.env.MITOLOKA_CACHE_DIR || join(ROOT, 'data', 'cache');
 
 export const USER_AGENT =
-  'MythicsBot/2.0 (+https://github.com/asaddin02/asadin-mythological-creatures) node-fetch';
+  'MitolokaBot/2.0 (+https://github.com/asaddin02/asadin-edu-mitoloka) node-fetch';
 
 export const ALLOWED_HOSTS = new Set([
   'www.wikidata.org',

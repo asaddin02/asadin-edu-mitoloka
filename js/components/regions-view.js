@@ -2,7 +2,7 @@ import { api } from '../api-client.js';
 import { t, resolveLocalized as tr } from '../i18n.js';
 import { bi, escapeHtml as esc, icon } from '../ui.js';
 export async function renderRegionsView(container) {
-  container.innerHTML=`<div class="container browse-page"><header class="section-header"><span class="eyebrow">MYTHICS / ${bi('ATLAS DUNIA','WORLD ATLAS')}</span><h1 class="section-title">${bi('Legenda tak mengenal<br>batas dunia.','Legends know<br>no borders.')}</h1><p class="section-subtitle">${t('regions.subtitle')}</p></header><div id="regions-grid-slot" class="culture-grid"></div></div>`;
+  container.innerHTML=`<div class="container browse-page"><header class="section-header"><span class="eyebrow">MITOLOKA / ${bi('ATLAS DUNIA','WORLD ATLAS')}</span><h1 class="section-title">${bi('Legenda tak mengenal<br>batas dunia.','Legends know<br>no borders.')}</h1><p class="section-subtitle">${t('regions.subtitle')}</p></header><div id="regions-grid-slot" class="culture-grid"></div></div>`;
   const slot=container.querySelector('#regions-grid-slot');
   try {
     const regions=await api.getRegions();

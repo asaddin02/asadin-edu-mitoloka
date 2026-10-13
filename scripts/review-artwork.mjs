@@ -26,7 +26,7 @@ for (const slug of slugs) {
 }
 const escape = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const browser = await chromium.launch({ headless: true });
-const output = `/home/asadin/.codex/generated_images/mythics-review-${slugs.join('_')}.png`;
+const output = `/home/asadin/.codex/generated_images/mitoloka-review-${slugs.join('_')}.png`;
 try {
   const page = await browser.newPage({ viewport: { width: 2000, height: entries.length > 2 ? 2080 : 1040 }, deviceScaleFactor: 1 });
   await page.setContent(`<style>body{margin:0;background:#111;color:#fff;font:24px sans-serif}main{display:grid;grid-template-columns:repeat(2,1000px)}figure{margin:0;height:1040px}h2{height:40px;line-height:40px;font-size:24px;margin:0;padding:0 20px}img{display:block;width:1000px;height:1000px;object-fit:contain}</style><main>${entries.map(e => `<figure><h2>${escape(e.slug)}</h2><img src="data:image/png;base64,${e.data}"></figure>`).join('')}</main>`);

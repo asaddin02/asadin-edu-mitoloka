@@ -1,4 +1,4 @@
--- Mythics relational schema (SQLite).
+-- Mitoloka relational schema (SQLite).
 -- Claims carry their own evidence (claim_sources.evidence_quote), so provenance
 -- lives at claim level rather than page level.
 

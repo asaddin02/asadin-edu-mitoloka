@@ -140,8 +140,8 @@ export const lessons = [
           "A being is a doorway, not an entire culture",
         ),
         text: L(
-          "Halaman makhluk di Mythics menghubungkan ringkasan, konteks, dan sumber. Sebuah label seperti “penjaga” atau “arwah” hanya alat penelusuran. Label itu tidak mewakili semua pandangan dalam suatu wilayah. Saat membaca dua versi yang berbeda, catat tempat, waktu, dan siapa yang menceritakannya sebelum memutuskan bahwa keduanya bertentangan.",
-          "A Mythics entry connects a summary, context, and sources. A label such as “guardian” or “spirit” is a browsing aid. It does not represent every perspective in a region. When two versions differ, record their place, time, and narrator before deciding they contradict one another.",
+          "Halaman makhluk di Mitoloka menghubungkan ringkasan, konteks, dan sumber. Sebuah label seperti “penjaga” atau “arwah” hanya alat penelusuran. Label itu tidak mewakili semua pandangan dalam suatu wilayah. Saat membaca dua versi yang berbeda, catat tempat, waktu, dan siapa yang menceritakannya sebelum memutuskan bahwa keduanya bertentangan.",
+          "A Mitoloka entry connects a summary, context, and sources. A label such as “guardian” or “spirit” is a browsing aid. It does not represent every perspective in a region. When two versions differ, record their place, time, and narrator before deciding they contradict one another.",
         ),
       },
       {
@@ -334,8 +334,8 @@ export const lessons = [
           "Use comparisons critically",
         ),
         text: L(
-          "Fitur Bandingkan di Mythics menyandingkan atribut cerita. Angka kekuatan adalah ringkasan editorial untuk eksplorasi, bukan ukuran ilmiah atau klaim budaya sumber. Buat tabel catatanmu sendiri dengan kolom “wujud”, “peran”, “lingkungan”, dan “sumber”. Persamaan menjadi lebih bermakna ketika perbedaannya tetap terlihat.",
-          "Mythics Compare places story attributes side by side. Power scores are editorial summaries for exploration, not scientific measures or claims made by source cultures. Make your own notes with columns for “form,” “role,” “environment,” and “source.” Similarities become more meaningful when differences remain visible.",
+          "Fitur Bandingkan di Mitoloka menyandingkan atribut cerita. Angka kekuatan adalah ringkasan editorial untuk eksplorasi, bukan ukuran ilmiah atau klaim budaya sumber. Buat tabel catatanmu sendiri dengan kolom “wujud”, “peran”, “lingkungan”, dan “sumber”. Persamaan menjadi lebih bermakna ketika perbedaannya tetap terlihat.",
+          "Mitoloka Compare places story attributes side by side. Power scores are editorial summaries for exploration, not scientific measures or claims made by source cultures. Make your own notes with columns for “form,” “role,” “environment,” and “source.” Similarities become more meaningful when differences remain visible.",
         ),
       },
     ],
@@ -443,8 +443,8 @@ export const lessons = [
     ],
     quiz: {
       question: L(
-        "Apa arti ilustrasi berlabel “AI · ART” di Mythics?",
-        "What does an illustration labeled “AI · ART” mean in Mythics?",
+        "Apa arti ilustrasi berlabel “AI · ART” di Mitoloka?",
+        "What does an illustration labeled “AI · ART” mean in Mitoloka?",
       ),
       options: [
         L(

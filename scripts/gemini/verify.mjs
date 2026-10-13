@@ -43,7 +43,7 @@ if (!/^batch-\d{3,4}$/.test(batchId || '')) {
 const CACHE = join(ROOT, 'data', 'cache', 'gemini-verify');
 const THUMBS = join(CACHE, 'thumbs', batchId);
 const REVIEWS = join(ROOT, 'data', 'gemini', 'reviews');
-const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36 MythicsSourceVerifier/1.0 (+https://github.com/asaddin02/asadin-mythological-creatures)';
+const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36 MitolokaSourceVerifier/1.0 (+https://github.com/asaddin02/asadin-edu-mitoloka)';
 const readJson = async p => JSON.parse(await readFile(join(ROOT, p), 'utf8'));
 
 // ---------------------------------------------------------------- taxonomy
@@ -798,7 +798,7 @@ for (const [slug, { entry, file }] of submission.entries) {
     // A catalogue record published from this batch's own research is this creature, not a duplicate.
     const own = creatures.find(c => c.slug === slug && c.research_batch === batchId);
     const dup = existingNames.get(looseNorm(entry.identity?.canonical_name));
-    if (own ? dup && dup !== slug : creatures.some(c => c.slug === slug) || dup) issues.push({ level: 'error', where: 'slug', message: `Makhluk ini sudah ada di Mythics (${dup || slug}).` });
+    if (own ? dup && dup !== slug : creatures.some(c => c.slug === slug) || dup) issues.push({ level: 'error', where: 'slug', message: `Makhluk ini sudah ada di Mitoloka (${dup || slug}).` });
   }
   checkDetails(entry, issues);
   const claims = await checkQuotes(entry, ctx, issues);

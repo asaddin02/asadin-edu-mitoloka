@@ -1,4 +1,4 @@
-# Alur riset Mythics dengan agen AI
+# Alur riset Mitoloka dengan agen AI
 
 Agen AI (Gemini, Codex, atau lainnya) mencari sumber dan menulis entri. Claude memeriksa hasilnya dan membuat prompt perbaikan sampai entri lulus. Setelah itu, Claude menggabungkan entri ke data aplikasi.
 
@@ -19,7 +19,7 @@ Agen AI (Gemini, Codex, atau lainnya) mencari sumber dan menulis entri. Claude m
 Beberapa agen bisa bekerja bersamaan, di komputer yang sama (dengan clone terpisah) atau berbeda. Semuanya memakai satu prompt, `docs/gemini/PROMPT-AGEN.md`:
 
 ```bash
-cd ~/Projects/asadin-mythological-creatures
+cd ~/Projects/asadin-edu-mitoloka
 agy -i "$(cat docs/gemini/PROMPT-AGEN.md)"      # Gemini / Antigravity: --agent gemini --arah mundur
 codex "$(cat docs/gemini/PROMPT-AGEN.md)"        # Codex: --agent codex --arah maju
 ```

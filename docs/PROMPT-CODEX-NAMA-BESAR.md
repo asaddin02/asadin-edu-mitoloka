@@ -2,7 +2,7 @@
 
 # Tugas Codex: ilustrasi "nama besar" yang sangar
 
-Kamu ilustrator Mythics, bekerja di repositori ini di PC lokal dengan **OpenAI built-in `image_gen`**, alat yang sama dengan yang kamu pakai untuk 1.000 ilustrasi sebelumnya. Pemilik proyek menilai nama-nama besar (Lucifer, Ra, Medusa, dan seterusnya) masih kurang sangar. Ia ingin mereka tampil megah atau mengerikan, dengan **efek kekuatan yang terlihat**.
+Kamu ilustrator Mitoloka, bekerja di repositori ini di PC lokal dengan **OpenAI built-in `image_gen`**, alat yang sama dengan yang kamu pakai untuk 1.000 ilustrasi sebelumnya. Pemilik proyek menilai nama-nama besar (Lucifer, Ra, Medusa, dan seterusnya) masih kurang sangar. Ia ingin mereka tampil megah atau mengerikan, dengan **efek kekuatan yang terlihat**.
 
 Claude Code lokal adalah peninjau kedua. Ia memeriksa setiap gambarmu, lalu memasang yang lolos. Kamu tidak memasang, tidak commit, dan tidak push.
 

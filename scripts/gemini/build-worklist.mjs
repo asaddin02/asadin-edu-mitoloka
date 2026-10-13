@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Builds the full Gemini work plan: every current Mythics entry plus new beings from
+ * Builds the full Gemini work plan: every current Mitoloka entry plus new beings from
  * Wikidata until the target is reached, split into batches (rich: 5, core: 10).
  *
  * New beings must be an instance of a being class (legendary creature, ghost, kami; deities
@@ -41,7 +41,7 @@ const SEA_COUNTRIES = new Set(['Q252', 'Q833', 'Q928', 'Q869', 'Q881', 'Q424', '
 const SEA_WORDS = /indonesia|javanese|balinese|sundanese|malay|filipino|philippine|thai|vietnam|khmer|cambodia|burmese|myanmar|lao|dayak|batak|minangkabau|bugis|nusantara|borneo|sumatra|sulawesi|maluku|papua/i;
 const OTHER_WIKIS = ['jawiki', 'zhwiki', 'dewiki', 'frwiki', 'eswiki', 'ruwiki', 'itwiki', 'ptwiki', 'plwiki', 'kowiki', 'hiwiki', 'jvwiki', 'suwiki', 'mswiki', 'tlwiki', 'thwiki', 'viwiki'];
 
-/** Kind of being in plain Indonesian, from Wikidata classes (first match wins) or the current Mythics classification. */
+/** Kind of being in plain Indonesian, from Wikidata classes (first match wins) or the current Mitoloka classification. */
 const JENIS = [
   [/fallen angel|demon|devil|rakshasa|asura|\bdiv\b|daeva|shaitan/i, 'iblis/setan'],
   [/angel|archangel|cherub|seraph/i, 'malaikat'],

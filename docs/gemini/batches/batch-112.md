@@ -1,10 +1,10 @@
 # Batch batch-112 — Nordik & Jermanik (5/7)
 
-Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
+Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-112`
 - Jumlah makhluk: 46
-- `task` `new`: Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
+- `task` `new`: Makhluk ini belum ada di Mitoloka. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
 - `task` `enrich`: Entri sekarang hanya berisi ringkasan pengantar dari Wikipedia. Tulis entri lengkap berdasarkan riset baru; sumber Wikipedia yang ditandai "terverifikasi" boleh dipakai, dengan kutipan dari halamannya.
 
 ## Daftar makhluk
@@ -153,7 +153,7 @@ Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemi
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
   - de: https://de.wikipedia.org/wiki/Dvalarr
   - no: https://no.wikipedia.org/wiki/Dvalin
-- Catatan: Nama ini dibedakan dari entri Mythics lain yang bernama sama. Pakai `canonical_name` persis "Dvalinn (stag)" dan teliti makhluk sesuai Wikidata Q118525447.
+- Catatan: Nama ini dibedakan dari entri Mitoloka lain yang bernama sama. Pakai `canonical_name` persis "Dvalinn (stag)" dan teliti makhluk sesuai Wikidata Q118525447.
 
 ### 17. `elder-mother` — Elder Mother (task `enrich`, tier `core`)
 - **Jenis: tokoh legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).

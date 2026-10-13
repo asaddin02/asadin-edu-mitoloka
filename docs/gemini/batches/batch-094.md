@@ -1,10 +1,10 @@
 # Batch batch-094 — Yunani & Romawi (5/18)
 
-Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
+Ikuti seluruh "MITOLOKA — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-094`
 - Jumlah makhluk: 49
-- `task` `new`: Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
+- `task` `new`: Makhluk ini belum ada di Mitoloka. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
 - `task` `enrich`: Entri sekarang hanya berisi ringkasan pengantar dari Wikipedia. Tulis entri lengkap berdasarkan riset baru; sumber Wikipedia yang ditandai "terverifikasi" boleh dipakai, dengan kutipan dari halamannya.
 
 ## Daftar makhluk
@@ -199,7 +199,7 @@ Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemi
   - ja: https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%AB%E3%83%88%E3%82%A5%E3%83%8C%E3%82%B9
   - de: https://de.wikipedia.org/wiki/Portunus
   - fr: https://fr.wikipedia.org/wiki/Portunus
-- Catatan: Nama ini dibedakan dari entri Mythics lain yang bernama sama. Pakai `canonical_name` persis "Portunes (Roman god)" dan teliti makhluk sesuai Wikidata Q1570477.
+- Catatan: Nama ini dibedakan dari entri Mitoloka lain yang bernama sama. Pakai `canonical_name` persis "Portunes (Roman god)" dan teliti makhluk sesuai Wikidata Q1570477.
 
 ### 21. `briareus` — Briareus (task `new`, tier `core`)
 - **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).

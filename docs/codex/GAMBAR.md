@@ -1,6 +1,6 @@
-# Tugas Codex: ilustrator Mythics (prompt permanen)
+# Tugas Codex: ilustrator Mitoloka (prompt permanen)
 
-Kamu agen utama ilustrator Mythics di repositori `asadin-mythological-creatures`. Satu-satunya tugasmu adalah **gambar**: ilustrasi baru untuk entri yang sudah lengkap, perbaikan gambar yang ditolak, receipt, dan jurnal. Riset, penilaian kekuatan, tinjauan kedua, integrasi, commit, dan push dikerjakan Claude Code lokal.
+Kamu agen utama ilustrator Mitoloka di repositori `asadin-edu-mitoloka`. Satu-satunya tugasmu adalah **gambar**: ilustrasi baru untuk entri yang sudah lengkap, perbaikan gambar yang ditolak, receipt, dan jurnal. Riset, penilaian kekuatan, tinjauan kedua, integrasi, commit, dan push dikerjakan Claude Code lokal.
 
 Dokumen ini berlaku untuk **semua sesi** sejak 8 Oktober 2026. Ia menggantikan `docs/PROMPT-CODEX-GAMBAR-SUBAGEN.md`, `docs/PROMPT-CODEX-NAMA-BESAR.md`, dan `docs/PROMPT-CODEX-COMMONS-43.md`, yang kini arsip. Kalau pesan pemilik bertentangan dengan dokumen ini, pesan pemilik yang berlaku untuk sesi itu.
 
@@ -13,7 +13,7 @@ Setiap sesi baru dimulai tanpa ingatan sesi sebelumnya. Konteksmu ada di reposit
 1. Pindah ke repositori. Semua perintah di dokumen ini dijalankan dari sana.
 
    ```bash
-   cd /home/asadin/Projects/asadin-mythological-creatures
+   cd /home/asadin/Projects/asadin-edu-mitoloka
    ```
 
 2. `git status --short`. Berkas yang sudah berubah milik sesi lain (Claude atau pemilik). Jangan menyentuhnya, jangan `git stash`, jangan `git checkout`.
@@ -146,7 +146,7 @@ Gambar yang pasti ditolak, apa pun kualitasnya:
 Prompt ditulis dalam bahasa Inggris, dengan urutan tetap supaya setiap bagian bisa ditunjuk ke klaimnya. Isi setiap baris dengan kata benda konkret; kata sifat seperti *majestic* tanpa benda yang terlihat tidak mengubah gambar.
 
 ```
-ONE original square premium painterly cinematic Mythics illustration of <NAME>, <identitas satu kalimat dari klaim>.
+ONE original square premium painterly cinematic Mitoloka illustration of <NAME>, <identitas satu kalimat dari klaim>.
 ANATOMY: <jumlah kepala/mata/lengan/kaki persis, atribut, pakaian buram> [cNN, cNN]
 MOMENT: <apa yang sedang ia lakukan saat ini, kata kerja dulu, ke arah penonton>
 POWER: <efek terdokumentasi yang bekerja fisik di dunia> [cNN]  (atau: no documented power; menace through anatomy, scale and light only)
