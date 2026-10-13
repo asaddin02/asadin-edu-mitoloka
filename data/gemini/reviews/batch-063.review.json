@@ -1,29 +1,32 @@
 {
   "batch_id": "batch-063",
-  "checked_at": "2026-10-01T12:50:41.925Z",
+  "checked_at": "2026-10-13T18:39:40.011Z",
   "files": [
     "batch-063.md",
     "batch-063-fix-1.md",
     "batch-063-fix-2.md",
-    "batch-063-fix-3.md"
+    "batch-063-fix-3.md",
+    "batch-063-fix-4.md",
+    "batch-063-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "wd-q11302416",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "c7d0c28e8382e83c06bfb49d55dee3c8ecb8d1977ac8a8d625282bafb0cd1d3a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -56,24 +59,45 @@
           "quote": "磐田郡ではクダギツネとも呼ばれ、谷間やグミの林に棲むイタチに似た妖怪とされる。こちらは近くを通る人間をたぶらかすほか、人に憑くこともある。病人に憑依すると、憑かれた者は千里眼で見通したかのように、見えないはずのことを語り始めるという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11302416-c04",
+          "source_id": "wd-q11302416-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A 1979 field record from Tatsuyama, Iwata describes the kobocchi as a weasel-like (いたち) creature that possesses people; whoever catches one is said to go out of their mind.",
+          "statement_id": "Catatan lapangan dari Tatsuyama, Iwata (1979) menyebut kobocchi sebagai makhluk mirip cerpelai (いたち) yang merasuki orang; siapa yang menangkapnya dikatakan menjadi tidak waras.",
+          "quote": "コボッチといういたちに似たものがいる。人に憑くという。コボッチをとってくると気がおかしくなってアタルといわれている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11302416-c05",
+          "source_id": "wd-q11302416-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The kobocchi is said to often possess women, and those it possesses fall ill for a long time.",
+          "statement_id": "Kobocchi dikatakan sering merasuki perempuan, dan orang yang dirasukinya sakit untuk waktu lama.",
+          "quote": "アタルといわれている。女性によく憑くという。憑かれると長く患うという。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11307469",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "6f99e886c0b94407c3057541c199b2a70bd7d9da3dd9ffb8ad1bb54db634c004",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -104,6 +128,16 @@
           "statement": "Its name is associated with the grating sound of thrown stones.",
           "statement_id": "Namanya dikaitkan dengan bunyi berisik lemparan batu.",
           "quote": "また、しばとは短い草、つまり芝のことで芝が生えている場所を指す。そこから「がりがり」と音を立てながら石を投げてくるのでこの名がついた。妖怪漫画家・水木しげるの著書『妖怪大図鑑』では名称が「しばがき」とされているが、初出の資料である柳田國男の『妖怪談義』での表記は「シバカキ」であり、水木の後年の著書『妖鬼化』などでも名称が「しばかき」に統一されている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11307469-c04",
+          "source_id": "wd-q11307469-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "In Yanagita Kunio's \"Yōkai Meii\" (1938), the shibakaki is a yōkai that throws stones from the roadside at night and is presumed to make a sound like scratching turf (芝).",
+          "statement_id": "Dalam \"Yōkai Meii\" karya Yanagita Kunio (1938), shibakaki adalah yōkai yang melempar batu dari tepi jalan pada malam hari, dan diduga membuat bunyi seperti mencakar rumput (芝).",
+          "quote": "要約 夜、路傍で石を投げる妖怪で、芝を引っかくような音をさせると推察される。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -182,15 +216,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9d6e7a069598f02d2839f127973b17f62b89cc5c41bfdb929fa1b61a9b1bbedf"
     },
     {
       "slug": "wd-q11310067",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "8f25874986c50c08bcfe0c2a4300baa278088aedd305f4b1d41aba9acef7bd53",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -202,7 +238,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -245,26 +281,31 @@
           "quote": "また、別の神話では、シベリアの大地にチュリュグディという隻腕、隻手、隻眼の容貌魁偉な怪物が現れ、元から生息していた動物達の安穏を脅かした時、ジャブダルがマンモスと共にチュリュグディを迎撃して撃退した。このチュリュグディとの戦いの中でジャブダルが這った跡が川になったと伝えられている。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11310067-c05",
+          "source_id": "wd-q11310067-s2",
+          "host": "atlaskmns.ru",
+          "statement": "The Ilimpeya Evenks ascribed the origins of the earth's terrain and rivers to the mammoth Seli and the giant serpent Dzhyabdar.",
+          "statement_id": "Orang Evenk Ilimpeya menganggap bentuk muka bumi dan sungai-sungai berasal dari mamut Seli dan ular raksasa Dzhyabdar.",
+          "quote": "Ilimpeya Evenks ascribed the origins of the earth's terrain and rivers to the mammoth Seli and the giant serpent Dzhyabdar.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11316186",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "501a62363c9d06ad31b72df9c6c7fe31135afeb6674d813f696c3e39b1025a69",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11316186-c01",
@@ -295,26 +336,51 @@
           "quote": "名称の「クチナワ」には、蛇または蛇憑きの意味がある。 脚注 [編集]",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11316186-c04",
+          "source_id": "wd-q11316186-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Miyatake Shōzō's 1932 record from Ogi, Saga calls the tatsukuchinawa a snake with ears; whoever swims when it passes over the water meets disaster from a kappa (河童).",
+          "statement_id": "Catatan Miyatake Shōzō (1932) dari Ogi, Saga menyebut tatsukuchinawa sebagai ular bertelinga; siapa yang berenang saat ia melintas di permukaan air akan celaka oleh kappa (河童).",
+          "quote": "要約 蛇に耳があるものをいう。これが水面を通過した時に水泳をすると河童の難にあうという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11316186-c05",
+          "source_id": "wd-q11316186-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "According to Yanagita Kunio (1934), a snake with ears is believed to be a ryūja (龍蛇, read tatsukuchinawa); whoever swims when it crosses Ryūō Pond (龍王池) is sure to meet disaster from a kappa.",
+          "statement_id": "Menurut Yanagita Kunio (1934), ular bertelinga dipercaya sebagai ryūja (龍蛇, dibaca tatsukuchinawa); siapa yang berenang ketika ia melintasi Kolam Ryūō (龍王池) pasti celaka oleh kappa.",
+          "quote": "耳のある蛇は龍蛇（たつくちなわ）だと信じられている。龍王池を龍蛇が通るときに水泳をしていると、必ず河童の難に遭うという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11316186-c06",
+          "source_id": "wd-q11316186-s4",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Miyagi prefectural history (1956) also records that swimming when the tatsukuchinawa passes over the water surely brings disaster from a kappa.",
+          "statement_id": "Sejarah prefektur Miyagi (1956) juga mencatat bahwa berenang saat tatsukuchinawa melintas di permukaan air pasti mendatangkan celaka dari kappa.",
+          "quote": "要約 このタツクチナワが水面をとおるとき泳いだりすると、必ず河童の難にあうとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11316501",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "8fa26b5b562e56320bd1b9a4095be371405e9185ffdb3094aa0ef151644560fe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11316501-c01",
@@ -355,24 +421,45 @@
           "quote": "東北各地に伝わるこれらの柿の精がタンタンコロリンと同一視されるが、上述の「放置された柿の精」以外の「柿の精」が「タンタンコロリン」という名前で呼ばれ、同一の存在として扱われる事例が見つかっていない点からこれには疑問が呈されている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11316501-c05",
+          "source_id": "wd-q11316501-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "In Yanagita Kunio's \"Yōkai Meii\" (1938), the tantan-kororin is said to be a giant bald figure (大入道) transformed from an old persimmon tree, and a tree was said to become one if its fruit was left unpicked.",
+          "statement_id": "Dalam \"Yōkai Meii\" karya Yanagita Kunio (1938), tantan-kororin dikatakan raksasa botak (大入道) jelmaan pohon kesemek tua, dan konon pohon menjadi makhluk ini jika buahnya tidak dipetik.",
+          "quote": "要約 タンタンコロリンは古い柿の木が化けた大入道だといわれている。柿の実をとらずにおいておくとこれになるとも言われていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11316501-c06",
+          "source_id": "wd-q11316501-s3",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai transformed from an old persimmon tree, from Sendai in Miyagi, that appears when persimmons are left unpicked; it is also called tankororin.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai jelmaan pohon kesemek tua dari Sendai, Miyagi, yang muncul bila buah kesemek dibiarkan; ia juga disebut tankororin.",
+          "quote": "日本の妖怪。古い柿の木が化けたもので、柿の実を放置しておくと出現するとされる。宮城県仙台市に伝わる。「タンコロリン」とも。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11324381",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "26d4d3df406224485ca2137221e59ff57a622fbbc7019485ab43487d5ac6f487",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -405,26 +492,31 @@
           "quote": "名称は「湿地の苔の心臓」を意味する。 脚注 [編集] [脚注の使い方]",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11324381-c04",
+          "source_id": "wd-q11324381-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai of Ainu (アイヌ) tradition, spherical and winged, also called nittarasanpe.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai dalam tradisi Ainu (アイヌ), berbentuk bulat dan bersayap, yang juga disebut nittarasanpe.",
+          "quote": "アイヌの伝承上の妖怪。球形で翼が生えているとされる。「ニッタラサンペ」とも呼ばれる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11325707",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "7e8ebf27b6020399d33246831539cd866fac32f02ec36e1f1d70b7217102e768",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11325707-c01",
@@ -465,26 +557,51 @@
           "quote": "牛馬の死霊が道行く人に祟りをなす行逢神の一種との説もあり、四国に多いノヅコサン、ノヅコ塚と呼ばれる祠や塚は、死んだ牛の祟りを鎮めるために建てられたものとされる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11325707-c05",
+          "source_id": "wd-q11325707-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Ōshima Tatehiko's 1959 record from Minamiuwa says the notsugo, like the yosuzume, follows people; those it follows become hungry, but it settles once they eat a little.",
+          "statement_id": "Catatan Ōshima Tatehiko (1959) dari Minamiuwa menyebut notsugo, seperti yosuzume, membuntuti orang; orang yang dibuntutinya menjadi lapar, tetapi tenang kembali setelah makan sedikit.",
+          "quote": "山犬のほかに夜雀やノツゴも人をつける。ノツゴにつけられるとひもじくなるが、何か少し食べるとついたものが安心する。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11325707-c06",
+          "source_id": "wd-q11325707-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "In the same record, on the night of the 16 September festival a notsugo suddenly cried on a riverbed near Konpira with a baby-like \"awā awā\".",
+          "statement_id": "Dalam catatan yang sama, pada malam festival 16 September notsugo tiba-tiba menangis di dasar sungai dekat Konpira dengan suara bayi \"awā awā\".",
+          "quote": "9月16日の祭りの夜、金毘羅様に近い川原で急にノツゴが鳴きだした。「アワーアワー」と赤ん坊のような声でせわしく鳴きたてるので、ひどく淋しかったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11325707-c07",
+          "source_id": "wd-q11325707-s4",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Matsumoto (1973) writes that the notsugo seems to be the ghost of a wandering child, but in Kōchi (高知) it is worshipped as a deity petitioned for the health of oxen and horses.",
+          "statement_id": "Matsumoto (1973) menulis bahwa notsugo tampaknya arwah anak yang berkeliaran, tetapi di Kōchi (高知) ia dipuja sebagai dewa yang dimohon untuk keselamatan sapi dan kuda.",
+          "quote": "ノツゴは迷い歩く子供の亡霊のことのようである。しかし、高知にいくと牛馬の息災を祈願する神として祀られている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11337525",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "eeb924330b8bf754c4645fe6f4450a9a891a96109f6cc585dbaf7000291dc530",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11337525-c01",
@@ -502,7 +619,7 @@
           "host": "ja.wikipedia.org",
           "statement": "Its image pulls down its lower eyelids and sticks out its tongue; further behavior is unexplained.",
           "statement_id": "Gambarnya menarik kelopak mata bawah dan menjulurkan lidah; perilaku lainnya tidak dijelaskan.",
-          "quote": "べか太郎（べかたろう）は日本の妖怪絵巻にある妖怪。松井文庫に所蔵されている江戸時代に描かれた絵巻物『百鬼夜行絵巻』（1832年）に両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。",
+          "quote": "両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -515,16 +632,47 @@
           "quote": "おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）では同様の格好をした妖怪があかんべい（あかんへい）という名前で描かれているが、こちらも詳細は不明である。雑誌『太陽』75年8月号（特集「お化けと幽霊」）のカラーページでは、絵巻物（『百鬼夜行絵巻』の「べか太郎」）の写真が「べろり太郎」という名前で紹介されているが「何をし何処に出た妖怪かもわからない」と記されている。なお、あかんべえのことを「べかこ」や「べっかんこう」とも言う。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11337525-c04",
+          "source_id": "wd-q11337525-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com lists the alternate names bekuwatarō, bekuwabō, beroritarō, peroritarō and akanbei.",
+          "statement_id": "Yokai.com mencatat nama lain bekuwatarō, bekuwabō, beroritarō, peroritarō dan akanbei.",
+          "quote": "Alternate names: bekuwatarō, bekuwabō, beroritarō, peroritarō, akanbei",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11337525-c05",
+          "source_id": "wd-q11337525-s2",
+          "host": "yokai.com",
+          "statement": "Bekatarō appears only as a named illustration, so nothing is known of what it does or where it comes from; a backstory was later invented by Mizuki Shigeru.",
+          "statement_id": "Bekatarō hanya muncul sebagai gambar bernama, sehingga perilaku dan asalnya tidak diketahui; kisah latarnya kemudian diciptakan oleh Mizuki Shigeru.",
+          "quote": "It appears as an illustration with a name only, so nothing is known about what it does or where it comes from. A backstory was eventually invented for bekatarō by Mizuki Shigeru.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11337525-c06",
+          "source_id": "wd-q11337525-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Mizuki's work, \"Perori Tarō\" is a man named Tarō abandoned by his parents for his gluttony, who began eating humans from hunger and became a yōkai.",
+          "statement_id": "Dalam karya Mizuki, \"Perori Tarō\" adalah lelaki bernama Tarō yang dibuang orang tuanya karena terlalu rakus, lalu memakan manusia karena lapar dan menjadi yōkai.",
+          "quote": "このペロリ太郎は、あまりにも食いしん坊であるために両親に捨てられ、空腹のあまり人間を食べるようになった太郎という男が妖怪化したものだとされる。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11337551",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "555f2aa852f1bc4df607a26aebb27044b538102e207cea0b652833f6dd61276a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -532,7 +680,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -575,26 +723,41 @@
           "quote": "やがて目覚めた村長は村へ戻り、翌朝に村の者たちが死体を確かめに行ったところ、ペンタチコロオヤシの正体は、性悪のワタリガラスだったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11337551-c05",
+          "source_id": "wd-q11337551-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "A village chief visiting Kotankeshi on the northern east coast of Sakhalin (樺太) met a pentachikoro-oyashi on a night road; its torch made the surroundings as bright as day.",
+          "statement_id": "Seorang kepala desa yang mengunjungi Kotankeshi di pantai timur utara Sakhalin (樺太) bertemu pentachikoro-oyashi di jalan malam; obornya membuat sekeliling terang seperti siang.",
+          "quote": "ある村の村長が、樺太東海岸北部のコタンケシという村を訪ねて夜道を歩いていたところ、ペンタチコロオヤシに出遭った。妖怪の持つ松明により、夜のはずが周囲は昼間のように明るかった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11337551-c06",
+          "source_id": "wd-q11337551-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Such beings, animals or plants like foxes or otters that take human form, are called \"ishinekap\" by the Ainu of Sakhalin and northeastern Hokkaido and \"ishinerep\" by the Ainu of southwestern Hokkaido (both meaning \"that which transformed\").",
+          "statement_id": "Makhluk seperti ini, yaitu hewan atau tumbuhan seperti rubah atau berang-berang yang menjelma manusia, disebut \"ishinekap\" oleh orang Ainu Sakhalin dan Hokkaido timur laut, dan \"ishinerep\" oleh Ainu Hokkaido barat daya (keduanya berarti \"yang menjelma itu\").",
+          "quote": "なお、このようにキツネやカワウソなど動植物が人間の姿に化けるものを、樺太や北海道北東部のアイヌでは「イシネカプ」といい、北海道南西部のアイヌでは「イシネレプ」という（ともに『それが化けたもの』の意）。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11345380",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-4.md",
+      "entry_sha256": "cc21ab85af9bec8be48813e8b3509444df3832c4de9f126ee271881621ca8606",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11345380-c01",
@@ -634,6 +797,36 @@
           "statement_id": "Penafsiran dalam artikel menghubungkan cerita itu dengan bunyi banjir dan kekhawatiran masyarakat terhadap luapan sungai.",
           "quote": "推定できる現象として、河川の洪水の初期段階は侵食が主体であるため、川岸や川底が濁流に洗われ大きな石が流れ転がる際の音を「ヤロカヤロカ」と表現し、終盤には上流で発生した土石流に伴う土砂が堆積し、水が溢れる際の状況を「ヨコサバヨコセ」と表現したものと考えられる。あるいは暴風雨の夜、暴風による風の音が、「ヤロカヤロカ」と聞こえた為とも推測される。木曽三川流域は、常に洪水の危険性があり、洪水に対する人々の不安から、若しくは後世への注意喚起のため創られたともいう。鉄砲水がその正体である、という説もある。",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11345380-c05",
+          "source_id": "wd-q11345380-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A 1916 report from Minokamo, Gifu tells that two or three hundred years ago, during continuous rain, a voice called \"yaroka yaroka\" from the upper Kiso River; a villager answered \"ikosaba ikose\", and the water rose into a great flood called yaroka-mizu.",
+          "statement_id": "Laporan dari Minokamo, Gifu (1916) menceritakan bahwa dua-tiga ratus tahun lalu, saat hujan terus-menerus, terdengar suara \"yaroka yaroka\" dari hulu Sungai Kiso; seorang warga menjawab \"ikosaba ikose\", lalu air naik hingga banjir besar yang disebut yaroka-mizu.",
+          "quote": "今から2・300年前、雨天続きの時、木曽川の上流で「やろかやろか」と呼ぶ声がした。村民の中にこれに応えて「いこさばいこせ」と言った者がいた。するとしばらくして川の水が増加し、ついに大洪水になった。この大水をヤロカ水と称する。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11345380-c06",
+          "source_id": "wd-q11345380-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "An Inuyama version (1923): during heavy rain, the keeper of the Ukaiya weir on the Kiso River went to check its groaning gate, heard a voice saying \"yaroka yaroka\" from nowhere, and inadvertently answered \"yokosaba yokose\".",
+          "statement_id": "Versi Inuyama (1923): saat hujan lebat, penjaga bendungan Ukaiya di Sungai Kiso pergi memeriksa pintu bendungan yang berderit, mendengar suara \"yaroka yaroka\" entah dari mana, dan tanpa sengaja menjawab \"yokosaba yokose\".",
+          "quote": "大雨が続き、木曽川の鵜飼屋の井関を守る男が、井関の扉が苦しそうに鳴るので様子を見に行った。するとどこからともなく「やろかやろか」という声がするので、思わず「よこさばよこせ」と答えてしまった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11345380-c07",
+          "source_id": "wd-q11345380-s4",
+          "host": "kotobank.jp",
+          "statement": "The Sekai Daihyakka Jiten records the yaroka-mizu legend of the lower Kiso River: in great floods a cry of \"yarokaa, yarokaa\" is heard, and if answered the water floods in.",
+          "statement_id": "Sekai Daihyakka Jiten mencatat legenda yaroka-mizu di hilir Sungai Kiso: saat banjir besar terdengar seruan \"yarokaa, yarokaa\", dan jika dijawab air pun masuk.",
+          "quote": "木曾川下流域では大増水の際，〈やろかぁー，やろかぁー〉という叫びが聞こえ，これに応答すると水が浸入するという〈やろか水〉の伝説が語られている。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -692,24 +885,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2215c3b219c68c96dd86e948afd4eedbfb4897a9dee2304464f35ec39667d8d0"
     },
     {
       "slug": "wd-q11351484",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "b489a0cd628ee6a27feffef8c6a24e26bbee154085984b79552addb34ca8ad04",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11351484-c01",
@@ -760,26 +949,31 @@
           "quote": "名称の「ワロドン」は、「ヤマワロ（山童）」が河童に対する忌み言葉で、「ワロドン」は2段階の忌み言葉と考えられており、「ヤマワロ」の「ヤマ」を略して「殿」を意味する「ドン」を付けたとの解釈もある。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11351484-c06",
+          "source_id": "wd-q11351484-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Maruyama Manabu's 1952 record says the garappa of Sendai (川内), Kagoshima, also climbs mountains and is said to have helped with rice planting; it is sometimes called warodon.",
+          "statement_id": "Catatan Maruyama Manabu (1952) menyebut garappa di Sendai (川内), Kagoshima, juga naik ke gunung dan konon pernah membantu menanam padi; makhluk itu kadang disebut warodon.",
+          "quote": "川内のガラッパは山にも登るし、田植えの手伝いをしたという話もあるという。また、ワロドンという呼称で呼ぶ場合もある。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11353009",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "bdce52c6eb80e9a3b478ca0e1d2c1e7f3e2d3d7912563ece1d23ca8aea05e5ea",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11353009-c01",
@@ -830,26 +1024,31 @@
           "quote": "ある日、馬主は悪い考えを起こし、約束を破って鉤を返さずに持ち帰った。すると入道は魚を貢がず、それどころか毎年正月15日に馬主の家を襲うようになった。馬主は一晩中念仏を唱え、危機を免れようとした。こうして入道の祟りが無くなった頃、馬主は観音堂を建て、本尊の白毫（びゃくごう。仏の眉間にあって光を放つという白い毛）に入道の鉤をはめた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11353009-c06",
+          "source_id": "wd-q11353009-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Niigata Prefectural History (1984) records the ichimoku-nyūdō as the water god (水神) of Lake Kamo; caught by a horse's owner while playing on horseback on a hill at Katabata, Ryōtsu, he wrote a letter of apology promising fresh fish on a lapis lazuli hook every day, provided the hook was returned each morning.",
+          "statement_id": "Sejarah Prefektur Niigata (1984) mencatat ichimoku-nyūdō sebagai dewa air (水神) Danau Kamo; setelah tertangkap pemilik kuda saat bermain menunggang kuda di bukit Katabata, Ryōtsu, ia menulis surat permintaan maaf yang menjanjikan ikan segar di kait lapis lazuli setiap hari, asalkan kaitnya dikembalikan setiap pagi.",
+          "quote": "昔、加茂湖に一つ目入道の水神が住んでいた。ある時、両津市潟端の丘に登り、馬に乗ってたわむれていたのを飼い主に見つかり侘び証文を書かされる。その証文には毎日鮮魚をるりの鉤にかけておくから、毎朝その鉤はそのつど返すように書いてあった。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11353396",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "c87c65f902e27203506112a95d98aa65827fa145090e7f0bdc63c2397b252682",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11353396-c01",
@@ -890,26 +1089,51 @@
           "quote": "同様に四国の7人連れの霊として知られるものに、七人ミサキがある。 七人童子",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11353396-c05",
+          "source_id": "wd-q11353396-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A 1933 record from Marugame equates the shichinin-dōgyō with the yagyō-san of Awa (阿波); they are invisible but walk the town at midnight, and whoever bumps into them is thrown to the ground.",
+          "statement_id": "Catatan dari Marugame (1933) menyamakan shichinin-dōgyō dengan yagyō-san di Awa (阿波); mereka tak terlihat tetapi berjalan di kota tengah malam, dan siapa yang menabrak mereka terlempar ke tanah.",
+          "quote": "七人同行は阿波の夜行さんに当たるものである。目に見えないが深夜町を歩いていて、七人同行に突き当たると地べたに放られてしまう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11353396-c06",
+          "source_id": "wd-q11353396-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A 1939 record from Nakatado: when someone was leading an ox at night it suddenly stopped; looking between its legs, they saw the shichinin-dōgyō walking in procession, and animals and people who can move their ears are said to see them clearly.",
+          "statement_id": "Catatan dari Nakatado (1939): saat seseorang menuntun sapi di malam hari, sapi itu tiba-tiba berhenti; dari celah kaki sapi terlihat shichinin-dōgyō berjalan beriringan, dan konon hewan serta orang yang bisa menggerakkan telinga melihat mereka dengan jelas.",
+          "quote": "ある人が夜、牛を連れていると急に牛が動かなくなった。牛の股から向こうを見ると七人同行が行列して歩いて行くのが見えた。獣や耳の動く人にはよく見えるという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11353396-c07",
+          "source_id": "wd-q11353396-s4",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai of seven ghosts from the Chūgoku and Shikoku regions, with similar figures called shichinin-misaki, shichinin-dōshi and shichinin-dōji.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai berupa tujuh arwah dari wilayah Chūgoku dan Shikoku, dengan sosok serupa bernama shichinin-misaki, shichinin-dōshi dan shichinin-dōji.",
+          "quote": "日本の妖怪。7人組の亡霊で、中国・四国地方に伝わる。類似したものに「七人みさき」「七人同志」「七人童子」などと呼ばれるものがある。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11353587",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "fd7b4a25dd72222c72615ccd3cf5a33a638c97a301bf469709c99297664b80cc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11353587-c01",
@@ -960,26 +1184,31 @@
           "quote": "東山西の麓にある浦井という屋敷で、何匹もの奇怪な蛇が出現したのを退治したところ、ある日庭の木々が次々に枯れて倒れ、庭石も砕け散り、砕けた石の下からこの七歩蛇が出てきたとされる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11353587-c06",
+          "source_id": "wd-q11353587-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai described in the Edo-period tale collection Otogibōko (伽婢子), a small dragon-like snake with deadly venom; the name is also read shichifuja.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai dalam kumpulan kisah ganjil zaman Edo Otogibōko (伽婢子), ular kecil mirip naga yang berbisa kuat; namanya juga dibaca shichifuja.",
+          "quote": "江戸時代の怪異譚集「伽婢子(とぎぼうこ)」に記述のある妖怪。龍に姿の似た小さな蛇で猛毒を持つとされる。「しちふじゃ」とも読む。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11354613",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "e6b7bcdbc51fff7ae2746ef0e761b3bbad8e727f8738edd8d1f1bb3bca2dd056",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11354613-c01",
@@ -1019,6 +1248,26 @@
           "statement_id": "Cerita ini dikaitkan dengan pemujaan Sankichi di Gunung Taihei.",
           "quote": "こうした三吉鬼の伝承には秋田の太平山に伝わる鬼神・三吉様の信仰が背景にあるといわれ、太平山三吉神社の三吉霊神が人間の姿で人前に現れたときには三吉鬼の名で呼ばれたとする説もある。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11354613-c05",
+          "source_id": "wd-q11354613-s2",
+          "host": "www.akita-u.ac.jp",
+          "statement": "An Akita University report (2021) notes that according to Sugae Masumi (菅江真澄), in a work roughly contemporary with \"Mukashibanashi\", the \"Sankichi\" living on Mount Taihei (太平山) was a \"shinki\" (神鬼, god-oni).",
+          "statement_id": "Laporan Universitas Akita (2021) mencatat bahwa menurut Sugae Masumi (菅江真澄) dalam karya yang sezaman dengan \"Mukashibanashi\", \"Sankichi\" yang tinggal di Gunung Taihei (太平山) adalah \"shinki\" (神鬼, dewa-oni).",
+          "quote": "このような真葛の『むかしばなし』とほぼ同じ頃に成立したのが、菅江真澄の 『月酒遠呂智泥』である。真澄によれば、太平山に住む「三吉」は「神鬼」であ ったという。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11354613-c06",
+          "source_id": "wd-q11354613-s2",
+          "host": "www.akita-u.ac.jp",
+          "statement": "The report argues that in the later 18th century Sankichi was increasingly told of as an oni (鬼), yet not merely a feared oni but a kishin (鬼神) bringing both misfortune and blessings.",
+          "statement_id": "Laporan itu berpendapat bahwa pada paruh akhir abad ke-18 Sankichi lebih sering diceritakan sebagai oni (鬼), tetapi bukan oni yang semata ditakuti, melainkan kishin (鬼神) yang mendatangkan bencana sekaligus berkah.",
+          "quote": "後半には「鬼」として語られることが多くなった。しかしただ恐れるべき「鬼」 ではなく、災いをもたらす一方で恵みも与えてくれるという「鬼神」としての要",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1098,24 +1347,20 @@
           "detail": "halaman dinamis; teks tidak terbaca otomatis"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f3a210a7058b2bc8646d0f3ed8e1773789a459b56677aaffda006fd942fae28"
     },
     {
       "slug": "wd-q11361860",
-      "file": "batch-063-fix-2.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "714dd177d68b2660e764c99774e6d495f0f07723de6202729f94da61601e290f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11361860-c01",
@@ -1156,26 +1401,41 @@
           "quote": "水木しげるの著作では、京都府の竹寺に伝わるもので新しく亡くなった者が寺に運ばれて来る際に現われる墓場の提灯の妖怪であるという解説がなされているが、石燕の作品などからはこの解説は確認されていない。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11361860-c05",
+          "source_id": "wd-q11361860-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines it as a yōkai in the Edo-period painter Toriyama Sekien's picture collection, a kind of tsukumogami (付喪神), a lantern monster.",
+          "statement_id": "Digital Daijisen Plus mendefinisikannya sebagai yōkai dalam kumpulan gambar Toriyama Sekien zaman Edo, sejenis tsukumogami (付喪神), yaitu hantu lentera.",
+          "quote": "江戸時代の画家、鳥山石燕(せきえん)の画集「画図百器徒然袋」に描かれた妖怪。付喪神(つくもがみ)の一種で、提灯の化け物。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11361860-c06",
+          "source_id": "wd-q11361860-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Sekien's caption says that what looks like a lantern's fire standing in the paddy was, in a dream, thought to be fox-fire (kitsunebi, 狐火) from a fox hiding in a field of chrysanthemums.",
+          "statement_id": "Teks penjelas Sekien menyatakan bahwa apa yang tampak seperti api lentera di sawah, dalam mimpi, dikira api rubah (kitsunebi, 狐火) yang bersembunyi di padang krisan.",
+          "quote": "とあり、田に立っている提灯の火のように見えるが、蘭菊の野に隠れすんでいる狐のおこす火（狐火）なのではないかと夢の中で思った、と記されている。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11370565",
-      "file": "batch-063-fix-1.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "d731d26f127f55ed0de9611e78f727995cd73707bd0c0e6d81ea896fa79d4aba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11370565-c01",
@@ -1203,7 +1463,7 @@
           "host": "ja.wikipedia.org",
           "statement": "In Nakijin, a version says it abducts living children from graves or water.",
           "statement_id": "Di Nakijin, suatu versi menyatakan ia menculik anak hidup dari makam atau air.",
-          "quote": "一方で今帰仁村などでは、童墓や水中にいる乳の親が、まだ生きている子供を奪い去るといわれる。幼児に鏡を見せると、水面を鏡と思って水面に行きたがり、その挙句に乳の親に引きずり込まれるので、鏡を見せるべきではないとされている。",
+          "quote": "一方で今帰仁村などでは、童墓や水中にいる乳の親が、まだ生きている子供を奪い去るといわれる。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1213,7 +1473,37 @@
           "host": "ja.wikipedia.org",
           "statement": "A taboo against showing infants mirrors is linked to the danger of their approaching reflective water and being dragged in by the being.",
           "statement_id": "Larangan memperlihatkan cermin kepada bayi dikaitkan dengan bahaya bayi mendekati permukaan air dan ditarik makhluk itu.",
-          "quote": "一方で今帰仁村などでは、童墓や水中にいる乳の親が、まだ生きている子供を奪い去るといわれる。幼児に鏡を見せると、水面を鏡と思って水面に行きたがり、その挙句に乳の親に引きずり込まれるので、鏡を見せるべきではないとされている。",
+          "quote": "幼児に鏡を見せると、水面を鏡と思って水面に行きたがり、その挙句に乳の親に引きずり込まれるので、鏡を見せるべきではないとされている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11370565-c05",
+          "source_id": "wd-q11370565-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "According to Sakihara (1998), it seems to be a yōkai that nurses small children who have died in the afterlife, but when children approach children's graves or water it may take their lives.",
+          "statement_id": "Menurut Sakihara (1998), ia tampaknya yōkai yang menyusui anak kecil yang meninggal di alam baka, tetapi bila anak mendekati makam anak atau air, ia bisa mengambil nyawa mereka.",
+          "quote": "小さい子供が亡くなったときにあの世で乳を飲ませてくれる妖怪であるらしい。しかし、童墓や水下に近付くとすすんで子供の命を取ることもある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11370565-c06",
+          "source_id": "wd-q11370565-s3",
+          "host": "yokai.com",
+          "statement": "Because chīnouya watch over the spirits of dead children, when a child under six dies it is customary to ask them to care for its spirit by leaving tiered boxes of food at the graveyard.",
+          "statement_id": "Karena chīnouya menjaga arwah anak yang meninggal, bila anak di bawah enam tahun meninggal, menurut kebiasaan mereka dimohon menjaga arwahnya dengan meninggalkan kotak makanan bersusun di makam.",
+          "quote": "Because chīnouya watch over of the spirits of dead children, when a child under six years old dies, it is customary to ask them to look after the spirits of the deceased by leaving multi-tiered boxes of food at the graveyard as an offering.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11370565-c07",
+          "source_id": "wd-q11370565-s3",
+          "host": "yokai.com",
+          "statement": "Chīnouya come from the folklore of Yanbaru, the forested northern part of Okinawa Island.",
+          "statement_id": "Chīnouya berasal dari cerita rakyat Yanbaru, bagian utara Pulau Okinawa yang berhutan.",
+          "quote": "Origin: Chīnouya come from the folklore of Yanbaru, the forested, northern part of Okinawa Island.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1222,20 +1512,15 @@
     },
     {
       "slug": "wd-q11370810",
-      "file": "batch-063.md",
+      "file": "batch-063-fix-5.md",
+      "entry_sha256": "d285ffafa8b80f085c8419175686ab3059fac511d6b42d1840879eb40b5cde8f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11370810-c01",
@@ -1284,6 +1569,16 @@
           "statement": "The account ends with a samurai killing a large nyūdō that proves to be a mujina, after which the castle disturbances cease.",
           "statement_id": "Kisah itu berakhir dengan samurai membunuh nyūdō besar yang ternyata mujina, lalu gangguan kastel berhenti.",
           "quote": "同年の夏のこと。7尺（約2.1メートル）もの大入道が田のそばで水を汲んでいた。それを見た城の武士が一刀のもとに斬り捨てると、それは大きな狢だった。以来、城で怪異が起ることはなかったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11370810-c06",
+          "source_id": "wd-q11370810-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus defines Kamehime as a princess-shaped yōkai dwelling in the keep of Inawashiro Castle (亀ケ城) in Fukushima, said to be a transformed mujina (ムジナ, badger).",
+          "statement_id": "Digital Daijisen Plus mendefinisikan kamehime sebagai yōkai berwujud putri yang menghuni menara utama Kastel Inawashiro (亀ケ城) di Fukushima, dan disebut jelmaan mujina (ムジナ, luak).",
+          "quote": "日本の妖怪。福島県耶麻郡猪苗代町の猪苗代城（亀ケ城）の天守に住みついていたとされる姫の姿の妖怪で、ムジナが化けたものとされる。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1348,7 +1643,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b28b5d7931c65faca8577870057d3e9b1885e667df4cb3850e5bd55532a0026"
     },
     {
       "slug": "wd-q11377665",
@@ -1408,7 +1704,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "781e998cbca3acc0e5b5ad7c3f0dd13443d81d150968d68fd63d8c98ed8fe5cd"
     },
     {
       "slug": "wd-q11386538",
@@ -1478,7 +1775,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9e095852e781b264179dc3298674fb8e45f64a308ef5c1358be60acc5b6afa6e"
     },
     {
       "slug": "wd-q11395510",
@@ -1538,7 +1836,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "27f6621881bfac6d081f65e488a363771c60a363956d3b435fb8054b70b41600"
     },
     {
       "slug": "wd-q11398404",
@@ -1608,7 +1907,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "019953b0dc6a8846d144002cc4b5539e0c44f24a966a1a5d0c57984a2a7a08ed"
     },
     {
       "slug": "wd-q11423884",
@@ -1668,7 +1968,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ffe800e4c84b33f8bb32aff2d8aac4a6d323084178147c0f02ba530f38b000cc"
     },
     {
       "slug": "wd-q11431740",
@@ -1718,7 +2019,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "63868fb8ccd80e23edfe2737541f3eb63f3814b99c26201c8a1cb98d826c1166"
     },
     {
       "slug": "wd-q11435362",
@@ -1778,7 +2080,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "68ec268ceafddbfeae3dd1c047709f1026c249576c455510d30cffdeb3b55797"
     },
     {
       "slug": "wd-q11437796",
@@ -1848,7 +2151,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "63fb686d167e69cc89dcba2133f4e106c4abc9baec775b8f9c308ef84b01359a"
     },
     {
       "slug": "wd-q11446705",
@@ -1898,7 +2202,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5531d791e223de4c6b09bb9bdd6d09dc6f5fbdc7c4b804d1e7d2d455f3e88a63"
     },
     {
       "slug": "wd-q11449263",
@@ -1968,7 +2273,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "44d70e4861fb6028420deda8ad1f8a21efff3b0b07fc00a72cddd742250fe183"
     },
     {
       "slug": "wd-q11450001",
@@ -2028,7 +2334,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a1bc90e81ced632ae21473e83b353e78579d5629c5799b84fe5eb220c46d4f64"
     },
     {
       "slug": "wd-q11462883",
@@ -2102,7 +2409,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "da0fb9c688c625b14c7574f8af7e89ce526675ce0ca5f4d19b4708ba31f28401"
     },
     {
       "slug": "wd-q11464418",
@@ -2152,7 +2460,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7623eb5e80a33c93d8d7abf57ea8ae6e6461f02e2e60db6ecfd3f77df8f4732c"
     },
     {
       "slug": "wd-q11464873",
@@ -2212,7 +2521,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ea2a077638d2b585d353295c2342fd016fc2f3266a36d3db7f2da52f0e900e18"
     },
     {
       "slug": "wd-q11465776",
@@ -2282,7 +2592,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c4db6683dddb2cb4752d3d74c6c8a338f0947ee5793fe94c753d415bafbcff61"
     },
     {
       "slug": "wd-q11467724",
@@ -2366,7 +2677,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1777735d139d796c567505c1ab578ab9b626505b7028ef8741e7c63a939b8f6e"
     },
     {
       "slug": "wd-q11475708",
@@ -2436,7 +2748,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8673de1c7e3ca89e5dc5b61ea0f8aecd7861a6bc03bdfbdbbf50fa0b92381582"
     },
     {
       "slug": "wd-q11478976",
@@ -2496,7 +2809,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59166c10d8b09abcc7ee454a4e491977fc7a8c3c464859047818e5d55a4b4cb8"
     },
     {
       "slug": "wd-q11479052",
@@ -2556,7 +2870,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fc15f2e444d6235054febaabba620d8611a3a71f5df4bf1dfd275a022177a997"
     },
     {
       "slug": "wd-q11481315",
@@ -2616,7 +2931,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b00504964bbd713f0676138ebb1d6197189c55e6f7c436560c0314635639ce13"
     },
     {
       "slug": "wd-q11481886",
@@ -2666,7 +2982,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "faf0a0f390ec9272be2d3988ac092b108ba89d7a54cb0a825a01479e5632e5f2"
     },
     {
       "slug": "wd-q11488364",
@@ -2726,7 +3043,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2dd72013ef828827e49a9cd32d81f77fe8bcfa780bc1c04dec29a7922be44e7c"
     },
     {
       "slug": "wd-q11497077",
@@ -2786,7 +3104,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fc566b033ecf7091a7c5deb8ba614247acfb54ab03c43cc19693ed05940e72f8"
     },
     {
       "slug": "wd-q11497275",
@@ -2846,7 +3165,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e7200b267d82557ffe93e6d32f4b72b8c4ec135be6f396b128e3ea10bd2b5f88"
     },
     {
       "slug": "wd-q11498388",
@@ -2916,7 +3236,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8bb07d1f185cee94236182cbff6c5ad2062600e1d616ee3638b55a5e7a46ba5d"
     },
     {
       "slug": "wd-q11498674",
@@ -2966,7 +3287,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dc8608cd7b4323c0815af116e0a754a737db00c7ce86ff3a05fac298e3e1a74f"
     },
     {
       "slug": "wd-q11534177",
@@ -3026,7 +3348,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "143c29765824cf0db6e337f3646970287ad50ff7370f1e2e7a98debf02d0880b"
     }
   ]
 }

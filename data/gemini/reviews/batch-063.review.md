@@ -1,33 +1,36 @@
 # Review batch-063
 
-Diperiksa 2026-10-01T12:50:41.925Z. Berkas: batch-063.md, batch-063-fix-1.md, batch-063-fix-2.md, batch-063-fix-3.md.
+Diperiksa 2026-10-13T18:39:40.011Z. Berkas: batch-063.md, batch-063-fix-1.md, batch-063-fix-2.md, batch-063-fix-3.md, batch-063-fix-4.md, batch-063-fix-5.md.
 
 ## wd-q11302416 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11302416-c01 | exact | ja.wikipedia.org | Kobocchi is a yōkai from the Tōtōmi region of Shizuoka, Japan. | コボッチは、静岡県の遠江地方、磐田郡に伝わる妖怪。 概要 [編集] |
 | wd-q11302416-c02 | exact | ja.wikipedia.org | Some accounts describe a small childlike mountain dweller, while others identify an aged kappa. | 遠江地方では子供のような姿の山中の妖怪といい、河童が年を経た水中の妖怪ともいう。 磐田郡ではクダギツネとも呼ばれ |
 | wd-q11302416-c03 | exact | ja.wikipedia.org | In Iwata, it is described as weasel-like, bewildering travelers and possessing people. | 磐田郡ではクダギツネとも呼ばれ、谷間やグミの林に棲むイタチに似た妖怪とされる。こちらは近くを通る人間をたぶらかすほか、人に憑くこともある。病人に憑依すると、憑かれた者は千里眼で見通したかのように、見えないはずのことを語り始めるという。 |
+| wd-q11302416-c04 | exact | www.nichibun.ac.jp | A 1979 field record from Tatsuyama, Iwata describes the kobocchi as a weasel-like (いたち) creature that possesses people; whoever catches one is said to go out of their mind. | コボッチといういたちに似たものがいる。人に憑くという。コボッチをとってくると気がおかしくなってアタルといわれている。 |
+| wd-q11302416-c05 | exact | www.nichibun.ac.jp | The kobocchi is said to often possess women, and those it possesses fall ill for a long time. | アタルといわれている。女性によく憑くという。憑かれると長く患うという。 |
 
 
 ## wd-q11307469 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11307469-c01 | exact | ja.wikipedia.org | Shibakaki is a yōkai in accounts from Nankan, Kumamoto, Japan. | シバカキは、熊本県玉名郡南関町に伝わる妖怪。 伝承 [編集] |
 | wd-q11307469-c02 | exact | ja.wikipedia.org | It supposedly throws stones beside roads at night; its identity is unknown. | 夜、外を歩いているときに路傍から石を投げてくるといわれている。正体について言及した伝承は確認されていないが、単なるほかの人間の悪戯が妖怪と見なされたとの説もある。 |
 | wd-q11307469-c03 | exact | ja.wikipedia.org | Its name is associated with the grating sound of thrown stones. | また、しばとは短い草、つまり芝のことで芝が生えている場所を指す。そこから「がりがり」と音を立てながら石を投げてくるのでこの名がついた。妖怪漫画家・水木しげるの著書『妖怪大図鑑』では名称が「しばがき」とされているが、初出の資料である柳田國男の『妖怪談義』での表記は「シバカキ」であり、水木の後年の著書『妖鬼化』などでも名称が「しばかき」に統一されている。 |
+| wd-q11307469-c04 | exact | www.nichibun.ac.jp | In Yanagita Kunio's "Yōkai Meii" (1938), the shibakaki is a yōkai that throws stones from the roadside at night and is presumed to make a sound like scratching turf (芝). | 要約 夜、路傍で石を投げる妖怪で、芝を引っかくような音をさせると推察される。 |
 
 
 ## wd-q11307473 — lulus-otomatis
@@ -46,11 +49,11 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q11310067 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Tradisi Evenki".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -58,28 +61,26 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11310067-c02 | exact | ja.wikipedia.org | In a creation account, it works with a mammoth to shape Siberia's land. | エヴェンキの神話の中で、ジャブダルはマンモスと共にシベリアの大地を創造した神として登場する。 シベリアの大地は |
 | wd-q11310067-c03 | exact | ja.wikipedia.org | The mammoth piles up seabed rocks, then Jabdar levels the land; water in its tracks becomes rivers. | シベリアの大地は、はじめ四方を海に囲まれた矮小な小島であった。その小島を人が居住できるように、マンモスが海底に堆積している岩塊を角で掘削し、積み上げて巨大な大陸を作った。ジャブダルはマンモスが岩塊を積み上げて作った大陸の上を這いずり回って地ならしを行い、大地を平坦にした。また、ジャブダルが這った軌跡には水が流れ込み、川が出来たという。 |
 | wd-q11310067-c04 | exact | ja.wikipedia.org | Another version links river formation to Jabdar and the mammoth fighting the monster Churyugdy. | また、別の神話では、シベリアの大地にチュリュグディという隻腕、隻手、隻眼の容貌魁偉な怪物が現れ、元から生息していた動物達の安穏を脅かした時、ジャブダルがマンモスと共にチュリュグディを迎撃して撃退した。このチュリュグディとの戦いの中でジャブダルが這った跡が川になったと伝えられている。 |
+| wd-q11310067-c05 | exact | atlaskmns.ru | The Ilimpeya Evenks ascribed the origins of the earth's terrain and rivers to the mammoth Seli and the giant serpent Dzhyabdar. | Ilimpeya Evenks ascribed the origins of the earth's terrain and rivers to the mammoth Seli and the giant serpent Dzhyabdar. |
 
 
 ## wd-q11316186 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11316186-c01 | exact | ja.wikipedia.org | Tatsukuchinawa is a supernatural snake from northern Kyushu, Japan. | タツクチナワとは、北部九州に伝わる怪蛇である。 耳を持つ蛇であり |
 | wd-q11316186-c02 | exact | ja.wikipedia.org | It is said to have ears and is associated with Ryūten Pond in Ogi, Saga. | 耳を持つ蛇であり、佐賀県小城市の龍天池では、これが水面を通るときに池で泳いでいる者は、必ず河童による水難に遭うという。 |
 | wd-q11316186-c03 | exact | ja.wikipedia.org | Kuchinawa can mean a snake or possession by a snake. | 名称の「クチナワ」には、蛇または蛇憑きの意味がある。 脚注 [編集] |
+| wd-q11316186-c04 | exact | www.nichibun.ac.jp | Miyatake Shōzō's 1932 record from Ogi, Saga calls the tatsukuchinawa a snake with ears; whoever swims when it passes over the water meets disaster from a kappa (河童). | 要約 蛇に耳があるものをいう。これが水面を通過した時に水泳をすると河童の難にあうという。 |
+| wd-q11316186-c05 | exact | www.nichibun.ac.jp | According to Yanagita Kunio (1934), a snake with ears is believed to be a ryūja (龍蛇, read tatsukuchinawa); whoever swims when it crosses Ryūō Pond (龍王池) is sure to meet disaster from a kappa. | 耳のある蛇は龍蛇（たつくちなわ）だと信じられている。龍王池を龍蛇が通るときに水泳をしていると、必ず河童の難に遭うという。 |
+| wd-q11316186-c06 | exact | www.nichibun.ac.jp | The Miyagi prefectural history (1956) also records that swimming when the tatsukuchinawa passes over the water surely brings disaster from a kappa. | 要約 このタツクチナワが水面をとおるとき泳いだりすると、必ず河童の難にあうとされる。 |
 
 
 ## wd-q11316501 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -87,28 +88,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11316501-c02 | exact | ja.wikipedia.org | An old tree whose fruit remains unpicked supposedly becomes a giant monk. | 古い柿の木が化けた大入道で、柿の実を採らずに放置しておくと現れるという。 また |
 | wd-q11316501-c03 | exact | ja.wikipedia.org | Its name is thought to imitate persimmons falling and rolling. | タンタンコロリンという名前については、この表現が何かを転がす際の擬音として登場する話がいくつかあることから、この呼称は柿の実が転がる際の表現ではないかという指摘がある。柳田國男も『妖怪談義』の中で同様の指摘をしている。 |
 | wd-q11316501-c04 | exact | ja.wikipedia.org | Identification with other persimmon-spirit tales requires caution because the name Tantankororin is unconfirmed in those examples. | 東北各地に伝わるこれらの柿の精がタンタンコロリンと同一視されるが、上述の「放置された柿の精」以外の「柿の精」が「タンタンコロリン」という名前で呼ばれ、同一の存在として扱われる事例が見つかっていない点からこれには疑問が呈されている。 |
+| wd-q11316501-c05 | exact | www.nichibun.ac.jp | In Yanagita Kunio's "Yōkai Meii" (1938), the tantan-kororin is said to be a giant bald figure (大入道) transformed from an old persimmon tree, and a tree was said to become one if its fruit was left unpicked. | 要約 タンタンコロリンは古い柿の木が化けた大入道だといわれている。柿の実をとらずにおいておくとこれになるとも言われていた。 |
+| wd-q11316501-c06 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai transformed from an old persimmon tree, from Sendai in Miyagi, that appears when persimmons are left unpicked; it is also called tankororin. | 日本の妖怪。古い柿の木が化けたもので、柿の実を放置しておくと出現するとされる。宮城県仙台市に伝わる。「タンコロリン」とも。 |
 
 
 ## wd-q11324381 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11324381-c01 | exact | ja.wikipedia.org | Nitarasanpe is a being in Ainu tradition. | ニタッラサンペまたはニッタラサンペは、アイヌに伝わる妖怪。 姿はマリモのような球形で |
 | wd-q11324381-c02 | exact | ja.wikipedia.org | It is depicted as a winged brown marimo-like ball that rolls; seeing it is believed to bring misfortune. | 姿はマリモのような球形で、翼が生えており、色は茶褐色。全長は約20センチメートル、または2メートルといわれる。地面を転がって走り、その様子を見た者は運勢が悪くなってしまうといわれている。 |
 | wd-q11324381-c03 | exact | ja.wikipedia.org | Its name means the heart of wetland moss. | 名称は「湿地の苔の心臓」を意味する。 脚注 [編集] [脚注の使い方] |
+| wd-q11324381-c04 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai of Ainu (アイヌ) tradition, spherical and winged, also called nittarasanpe. | アイヌの伝承上の妖怪。球形で翼が生えているとされる。「ニッタラサンペ」とも呼ばれる。 |
 
 
 ## wd-q11325707 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -116,28 +117,31 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11325707-c02 | exact | ja.wikipedia.org | Its name is used to warn children against wandering at night. | ノツゴが伝承されている地方ではノツゴの名は子供を躾けるためにも用いられており、愛媛の内海村では夜に外出しようとする子供を「ノツゴが憑く」と言って戒め、三間町曾根では夕方遅くまで外で遊んでいる子供は「ノツゴに隠されるから早く帰れ」と言われたという。 |
 | wd-q11325707-c03 | exact | ja.wikipedia.org | Some accounts associate it with children who died through neglect or infanticide. | ノツゴの正体ははっきりしていないが、これらの地方では間引きや堕胎が多く行われているほか、私生児を産んだ娘が子供の口を塞いで土に埋めて殺したこともあったといい、そのように不遇な死を遂げた子供の霊が成仏できずにこの世をさまよっているものが、ノツゴの正体といわれている。愛媛の広見町でのノツゴは、母親の乳が出ずに栄養失調で死んだ子供だという。このようなノツゴは、1004杯の水をかけて供養することで成仏するともいう。 |
 | wd-q11325707-c04 | exact | ja.wikipedia.org | Other accounts regard it as a livestock spirit, so its identity varies between traditions. | 牛馬の死霊が道行く人に祟りをなす行逢神の一種との説もあり、四国に多いノヅコサン、ノヅコ塚と呼ばれる祠や塚は、死んだ牛の祟りを鎮めるために建てられたものとされる。 |
+| wd-q11325707-c05 | exact | www.nichibun.ac.jp | Ōshima Tatehiko's 1959 record from Minamiuwa says the notsugo, like the yosuzume, follows people; those it follows become hungry, but it settles once they eat a little. | 山犬のほかに夜雀やノツゴも人をつける。ノツゴにつけられるとひもじくなるが、何か少し食べるとついたものが安心する。 |
+| wd-q11325707-c06 | exact | www.nichibun.ac.jp | In the same record, on the night of the 16 September festival a notsugo suddenly cried on a riverbed near Konpira with a baby-like "awā awā". | 9月16日の祭りの夜、金毘羅様に近い川原で急にノツゴが鳴きだした。「アワーアワー」と赤ん坊のような声でせわしく鳴きたてるので、ひどく淋しかったという。 |
+| wd-q11325707-c07 | exact | www.nichibun.ac.jp | Matsumoto (1973) writes that the notsugo seems to be the ghost of a wandering child, but in Kōchi (高知) it is worshipped as a deity petitioned for the health of oxen and horses. | ノツゴは迷い歩く子供の亡霊のことのようである。しかし、高知にいくと牛馬の息災を祈願する神として祀られている。 |
 
 
 ## wd-q11337525 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11337525-c01 | exact | ja.wikipedia.org | Bekatarō is a yōkai in Japan's 1832 Matsui Hyakki Yagyō scroll. | べか太郎（べかたろう）は日本の妖怪絵巻にある妖怪。松井文庫に所蔵されている江戸時代に描かれた絵巻物『百鬼夜行絵巻』（1832年）に両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。 |
-| wd-q11337525-c02 | exact | ja.wikipedia.org | Its image pulls down its lower eyelids and sticks out its tongue; further behavior is unexplained. | べか太郎（べかたろう）は日本の妖怪絵巻にある妖怪。松井文庫に所蔵されている江戸時代に描かれた絵巻物『百鬼夜行絵巻』（1832年）に両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。 |
+| wd-q11337525-c02 | exact | ja.wikipedia.org | Its image pulls down its lower eyelids and sticks out its tongue; further behavior is unexplained. | 両手で両目の下まぶたを下げ、口から舌を出すしぐさをした姿で描かれているが、どのような妖怪なのか詳細は不明である。 |
 | wd-q11337525-c03 | exact | ja.wikipedia.org | A similar image appears under the name Akanbei in a 1780 work. | おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）では同様の格好をした妖怪があかんべい（あかんへい）という名前で描かれているが、こちらも詳細は不明である。雑誌『太陽』75年8月号（特集「お化けと幽霊」）のカラーページでは、絵巻物（『百鬼夜行絵巻』の「べか太郎」）の写真が「べろり太郎」という名前で紹介されているが「何をし何処に出た妖怪かもわからない」と記されている。なお、あかんべえのことを「べかこ」や「べっかんこう」とも言う。 |
+| wd-q11337525-c04 | exact | yokai.com | Yokai.com lists the alternate names bekuwatarō, bekuwabō, beroritarō, peroritarō and akanbei. | Alternate names: bekuwatarō, bekuwabō, beroritarō, peroritarō, akanbei |
+| wd-q11337525-c05 | exact | yokai.com | Bekatarō appears only as a named illustration, so nothing is known of what it does or where it comes from; a backstory was later invented by Mizuki Shigeru. | It appears as an illustration with a name only, so nothing is known about what it does or where it comes from. A backstory was eventually invented for bekatarō by Mizuki Shigeru. |
+| wd-q11337525-c06 | exact | ja.wikipedia.org | In Mizuki's work, "Perori Tarō" is a man named Tarō abandoned by his parents for his gluttony, who began eating humans from hunger and became a yōkai. | このペロリ太郎は、あまりにも食いしん坊であるために両親に捨てられ、空腹のあまり人間を食べるようになった太郎という男が妖怪化したものだとされる。 |
 
 
 ## wd-q11337551 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -145,14 +149,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11337551-c02 | exact | ja.wikipedia.org | Its name means a ghost brandishing a torch; it supposedly troubles nighttime travelers. | 名称は「松明をかざすお化け」を意味しており、夜中に松明を持って横行し、道を行く人々に様々な怪をなすという。 |
 | wd-q11337551-c03 | exact | ja.wikipedia.org | In one story, a village chief stabs the being and then faints. | この話を聞いたコタンケシの村長が夜道に出かけると、背後にペンタチコロオヤシが現れたので、持っていた刀で刺し殺したが、同時に彼も気を失ってしまった。 |
 | wd-q11337551-c04 | exact | ja.wikipedia.org | The following morning, the being's corpse is found to be a malicious raven. | やがて目覚めた村長は村へ戻り、翌朝に村の者たちが死体を確かめに行ったところ、ペンタチコロオヤシの正体は、性悪のワタリガラスだったという。 |
+| wd-q11337551-c05 | exact | ja.wikipedia.org | A village chief visiting Kotankeshi on the northern east coast of Sakhalin (樺太) met a pentachikoro-oyashi on a night road; its torch made the surroundings as bright as day. | ある村の村長が、樺太東海岸北部のコタンケシという村を訪ねて夜道を歩いていたところ、ペンタチコロオヤシに出遭った。妖怪の持つ松明により、夜のはずが周囲は昼間のように明るかった。 |
+| wd-q11337551-c06 | exact | ja.wikipedia.org | Such beings, animals or plants like foxes or otters that take human form, are called "ishinekap" by the Ainu of Sakhalin and northeastern Hokkaido and "ishinerep" by the Ainu of southwestern Hokkaido (both meaning "that which transformed"). | なお、このようにキツネやカワウソなど動植物が人間の姿に化けるものを、樺太や北海道北東部のアイヌでは「イシネカプ」といい、北海道南西部のアイヌでは「イシネレプ」という（ともに『それが化けたもの』の意）。 |
 
 
 ## wd-q11345380 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -160,6 +163,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11345380-c02 | exact | ja.wikipedia.org | The accounts circulate around the Kiso, Nagara, and Ibi river basins. | 愛知県、岐阜県の木曽三川（木曽川、長良川、揖斐川）流域一帯、特に木曽川流域で伝承される。 |
 | wd-q11345380-c03 | exact | ja.wikipedia.org | During heavy rain, a voice upstream asks whether water is wanted; accepting supposedly brings a flood that swallows the village. | 激しい雨の夜、川が増水するとやがて、「ヤロカヤロカ」（欲しいか欲しいか）という声が川の上流から聞こえてくる。この声に答えて「ヨコサバヨコセ」（貰えるのなら頂戴）と叫ぶと、瞬く間に川の水が増し、その答えた村人のいる村は一瞬のうちに水に飲み込まれるという。また、川面に赤い目や口が見えることもあるという。 |
 | wd-q11345380-c04 | exact | ja.wikipedia.org | An interpretation in the article links the account to flood sounds and communal anxiety about overflowing rivers. | 推定できる現象として、河川の洪水の初期段階は侵食が主体であるため、川岸や川底が濁流に洗われ大きな石が流れ転がる際の音を「ヤロカヤロカ」と表現し、終盤には上流で発生した土石流に伴う土砂が堆積し、水が溢れる際の状況を「ヨコサバヨコセ」と表現したものと考えられる。あるいは暴風雨の夜、暴風による風の音が、「ヤロカヤロカ」と聞こえた為とも推測される。木曽三川流域は、常に洪水の危険性があり、洪水に対する人々の不安から、若しくは後世への注意喚起のため創られたともいう。鉄砲水がその正体である、という説もある。 |
+| wd-q11345380-c05 | exact | www.nichibun.ac.jp | A 1916 report from Minokamo, Gifu tells that two or three hundred years ago, during continuous rain, a voice called "yaroka yaroka" from the upper Kiso River; a villager answered "ikosaba ikose", and the water rose into a great flood called yaroka-mizu. | 今から2・300年前、雨天続きの時、木曽川の上流で「やろかやろか」と呼ぶ声がした。村民の中にこれに応えて「いこさばいこせ」と言った者がいた。するとしばらくして川の水が増加し、ついに大洪水になった。この大水をヤロカ水と称する。 |
+| wd-q11345380-c06 | exact | www.nichibun.ac.jp | An Inuyama version (1923): during heavy rain, the keeper of the Ukaiya weir on the Kiso River went to check its groaning gate, heard a voice saying "yaroka yaroka" from nowhere, and inadvertently answered "yokosaba yokose". | 大雨が続き、木曽川の鵜飼屋の井関を守る男が、井関の扉が苦しそうに鳴るので様子を見に行った。するとどこからともなく「やろかやろか」という声がするので、思わず「よこさばよこせ」と答えてしまった。 |
+| wd-q11345380-c07 | exact | kotobank.jp | The Sekai Daihyakka Jiten records the yaroka-mizu legend of the lower Kiso River: in great floods a cry of "yarokaa, yarokaa" is heard, and if answered the water floods in. | 木曾川下流域では大増水の際，〈やろかぁー，やろかぁー〉という叫びが聞こえ，これに応答すると水が浸入するという〈やろか水〉の伝説が語られている。 |
 
 
 ## wd-q11348993 — lulus-otomatis
@@ -179,10 +185,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## wd-q11351484 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -191,14 +194,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11351484-c03 | exact | ja.wikipedia.org | Its dismembered body supposedly regenerates; eating one piece is said to prevent that recovery. | ワロドンは体をバラバラに切り刻まれても、元の体となって生き返るとされ、2,3日程度で生き返るともいう。これを防ぐためには、切り刻まれた肉片のうちの一切れでも食べてしまえば、ワロドンは生き返ることができないといわれるが、肉が不味いことを察知しているのか、多くの動物はこの肉を食べようとしないという。このほかに河童と同様、鉄を嫌うともいう。 |
 | wd-q11351484-c04 | exact | ja.wikipedia.org | Accounts say many Warodon can inhabit water collected in a horse's footprint. | 馬の足跡にたまった水の中に千匹も住んでおり、これがいると水が濁り、犬も逃げ出すという。身長は1メートルほどともいうが、この馬の足跡にまつわる伝承から、体の大きさを自在に変えることができるという説もある。 |
 | wd-q11351484-c05 | exact | ja.wikipedia.org | Its name is interpreted as a shortened yamawaro with the honorific ending don. | 名称の「ワロドン」は、「ヤマワロ（山童）」が河童に対する忌み言葉で、「ワロドン」は2段階の忌み言葉と考えられており、「ヤマワロ」の「ヤマ」を略して「殿」を意味する「ドン」を付けたとの解釈もある。 |
+| wd-q11351484-c06 | exact | www.nichibun.ac.jp | Maruyama Manabu's 1952 record says the garappa of Sendai (川内), Kagoshima, also climbs mountains and is said to have helped with rice planting; it is sometimes called warodon. | 川内のガラッパは山にも登るし、田植えの手伝いをしたという話もあるという。また、ワロドンという呼称で呼ぶ場合もある。 |
 
 
 ## wd-q11353009 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -207,14 +208,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11353009-c03 | exact | ja.wikipedia.org | It promises fish every night if released and its hook returned. | そこへ馬主がやって来て、入道は捕らわれてしまった。陸上では入道も手も足も出ず「ご勘弁下さい。その代わりにこれから毎晩、瑠璃の鉤で一貫の鮮魚を捕らえて献上します。但し魚を採るのに必要なので、鉤だけはお返し下さい」と言った。馬主は面白がって約束を受け入れ、入道を放した。 |
 | wd-q11353009-c04 | exact | ja.wikipedia.org | The horse's owner receives fish and returns the hook for years. | 翌朝に馬主が湖へ行ってみると、約束通り取れたての魚が鉤に掛けられていた。馬主は喜び、入道が言った通り鉤を湖へ返し、魚を持ち帰った。こうしたことが何年も続いた。 |
 | wd-q11353009-c05 | exact | ja.wikipedia.org | After the hook is withheld, the gifts stop and the being attacks the horse owner's home. | ある日、馬主は悪い考えを起こし、約束を破って鉤を返さずに持ち帰った。すると入道は魚を貢がず、それどころか毎年正月15日に馬主の家を襲うようになった。馬主は一晩中念仏を唱え、危機を免れようとした。こうして入道の祟りが無くなった頃、馬主は観音堂を建て、本尊の白毫（びゃくごう。仏の眉間にあって光を放つという白い毛）に入道の鉤をはめた。 |
+| wd-q11353009-c06 | exact | www.nichibun.ac.jp | The Niigata Prefectural History (1984) records the ichimoku-nyūdō as the water god (水神) of Lake Kamo; caught by a horse's owner while playing on horseback on a hill at Katabata, Ryōtsu, he wrote a letter of apology promising fresh fish on a lapis lazuli hook every day, provided the hook was returned each morning. | 昔、加茂湖に一つ目入道の水神が住んでいた。ある時、両津市潟端の丘に登り、馬に乗ってたわむれていたのを飼い主に見つかり侘び証文を書かされる。その証文には毎日鮮魚をるりの鉤にかけておくから、毎朝その鉤はそのつど返すように書いてあった。 |
 
 
 ## wd-q11353396 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -222,14 +221,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11353396-c02 | exact | ja.wikipedia.org | Seven human-looking ghosts walk in a line; encountering them is supposedly fatal. | 人間と同様の姿の7人組の亡霊で、常に一列に並んで歩いている。非業の死を遂げた者たちの霊ともいい、人間がこの七人同行に行き遭うと死んでしまう、投げつけられるなどといわれる。 |
 | wd-q11353396-c03 | exact | ja.wikipedia.org | They are usually invisible but supposedly visible through a cow's legs. | 通常は姿が見えることがないが、牛の股間から覗くと見えるという。ある人が牛を連れて歩いていたところ、四辻で急に牛が立ち止まったので、股間から覗いたところ七人同行がおり、難を逃れることができたという伝承もある。また、耳を動かすことができる人にも見えるともいう。 |
 | wd-q11353396-c04 | exact | ja.wikipedia.org | The article compares them with Shichinin-misaki, another group of seven Shikoku ghosts. | 同様に四国の7人連れの霊として知られるものに、七人ミサキがある。 七人童子 |
+| wd-q11353396-c05 | exact | www.nichibun.ac.jp | A 1933 record from Marugame equates the shichinin-dōgyō with the yagyō-san of Awa (阿波); they are invisible but walk the town at midnight, and whoever bumps into them is thrown to the ground. | 七人同行は阿波の夜行さんに当たるものである。目に見えないが深夜町を歩いていて、七人同行に突き当たると地べたに放られてしまう。 |
+| wd-q11353396-c06 | exact | www.nichibun.ac.jp | A 1939 record from Nakatado: when someone was leading an ox at night it suddenly stopped; looking between its legs, they saw the shichinin-dōgyō walking in procession, and animals and people who can move their ears are said to see them clearly. | ある人が夜、牛を連れていると急に牛が動かなくなった。牛の股から向こうを見ると七人同行が行列して歩いて行くのが見えた。獣や耳の動く人にはよく見えるという。 |
+| wd-q11353396-c07 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai of seven ghosts from the Chūgoku and Shikoku regions, with similar figures called shichinin-misaki, shichinin-dōshi and shichinin-dōji. | 日本の妖怪。7人組の亡霊で、中国・四国地方に伝わる。類似したものに「七人みさき」「七人同志」「七人童子」などと呼ばれるものがある。 |
 
 
 ## wd-q11353587 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -238,14 +237,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11353587-c03 | exact | ja.wikipedia.org | This small snake resembles a dragon, with four legs, red coloration, and golden gleams between its scales. | 体長4寸（約12センチメートル）ほどの小さい蛇だが、姿形は龍そっくりで、4本の足がある。色は真っ赤で鱗の間が金色に光り、耳は立っている。 |
 | wd-q11353587-c04 | exact | ja.wikipedia.org | Its name refers to bite victims supposedly dying before taking seven steps. | この蛇に噛まれた者は、その猛毒により7歩歩かぬ内に死んでしまうので、「七歩蛇」という名前がつけられたという。 |
 | wd-q11353587-c05 | exact | ja.wikipedia.org | In the story, the snake emerges beneath a stone after trees and stones in a yard are destroyed. | 東山西の麓にある浦井という屋敷で、何匹もの奇怪な蛇が出現したのを退治したところ、ある日庭の木々が次々に枯れて倒れ、庭石も砕け散り、砕けた石の下からこの七歩蛇が出てきたとされる。 |
+| wd-q11353587-c06 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai described in the Edo-period tale collection Otogibōko (伽婢子), a small dragon-like snake with deadly venom; the name is also read shichifuja. | 江戸時代の怪異譚集「伽婢子(とぎぼうこ)」に記述のある妖怪。龍に姿の似た小さな蛇で猛毒を持つとされる。「しちふじゃ」とも読む。 |
 
 
 ## wd-q11354613 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -253,6 +250,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11354613-c02 | exact | ja.wikipedia.org | In Tadano Makuzu's account, a mysterious man drinks sake and brings disaster when charged, but repays offered sake with firewood. | 三吉神（鬼）の最も古い記録は、只野真葛や菅江真澄のものがある。江戸女流文学者の只野真葛が著した『むかしばなし』では三吉鬼は「見知らぬ男」と言われている。酒屋で酒を飲んで、そのまま出ていこうとするが、そこで男に酒代を請求すると必ず災いに遭い、酒を捧げると酒代十杯ほどの薪が門に積み上がっている。それからは、その男だろうと酒をあくまで飲ませれば必ず夜中に代わりの物が積み上がっているので、誰が言うと無く「三吉鬼」と呼んだ。後にはどこかの山の大松をこの庭に移してくれと願をかけて酒樽をささげると酒は無くなり一夜のうちに松の木が庭に植えられている。大名も人力で動かせない品を酒を出して願うと、願いに従って運ぶ。三吉鬼三吉鬼ともてはやしたが、文化年中より三～四十年前より絶えてその者は人里に出なくなってしまった。 |
 | wd-q11354613-c03 | exact | ja.wikipedia.org | The account states that he eventually stops visiting settlements. | そのように人々にもてはやされていた三吉鬼だが、文化年中より30-40年ほど前からは人里に現れることはなくなったという。 |
 | wd-q11354613-c04 | exact | ja.wikipedia.org | The account is associated with the worship of Sankichi at Mount Taihei. | こうした三吉鬼の伝承には秋田の太平山に伝わる鬼神・三吉様の信仰が背景にあるといわれ、太平山三吉神社の三吉霊神が人間の姿で人前に現れたときには三吉鬼の名で呼ばれたとする説もある。 |
+| wd-q11354613-c05 | exact | www.akita-u.ac.jp | An Akita University report (2021) notes that according to Sugae Masumi (菅江真澄), in a work roughly contemporary with "Mukashibanashi", the "Sankichi" living on Mount Taihei (太平山) was a "shinki" (神鬼, god-oni). | このような真葛の『むかしばなし』とほぼ同じ頃に成立したのが、菅江真澄の 『月酒遠呂智泥』である。真澄によれば、太平山に住む「三吉」は「神鬼」であ ったという。 |
+| wd-q11354613-c06 | exact | www.akita-u.ac.jp | The report argues that in the later 18th century Sankichi was increasingly told of as an oni (鬼), yet not merely a feared oni but a kishin (鬼神) bringing both misfortune and blessings. | 後半には「鬼」として語られることが多くなった。しかしただ恐れるべき「鬼」 ではなく、災いをもたらす一方で恵みも与えてくれるという「鬼神」としての要 |
 
 
 ## wd-q11356811 — lulus-otomatis
@@ -274,10 +273,7 @@ Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
 
 ## wd-q11361860 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -285,29 +281,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11361860-c02 | exact | ja.wikipedia.org | The image shows a lantern tied to bamboo, its tear resembling a mouth, leaning toward a road. | 『百器徒然袋』では、竹に結びつけられ、さけ目を口のようにひらいた提灯が道に向かっておおいかぶさるように傾いている様子が描かれている。解説文には、 |
 | wd-q11361860-c03 | exact | ja.wikipedia.org | The image inscription and contents list use different character orders. | 画中に書き込まれた表記は不々落々という字順で「ぶらぶら」と読ませているが、当該の巻の目録では不落々々とあり、音などからも「不落不落」の表記が一般的に用いられている。 |
 | wd-q11361860-c04 | exact | ja.wikipedia.org | The funeral account in Mizuki's work is not confirmed by Sekien's image. | 水木しげるの著作では、京都府の竹寺に伝わるもので新しく亡くなった者が寺に運ばれて来る際に現われる墓場の提灯の妖怪であるという解説がなされているが、石燕の作品などからはこの解説は確認されていない。 |
+| wd-q11361860-c05 | exact | kotobank.jp | Digital Daijisen Plus defines it as a yōkai in the Edo-period painter Toriyama Sekien's picture collection, a kind of tsukumogami (付喪神), a lantern monster. | 江戸時代の画家、鳥山石燕(せきえん)の画集「画図百器徒然袋」に描かれた妖怪。付喪神(つくもがみ)の一種で、提灯の化け物。 |
+| wd-q11361860-c06 | exact | ja.wikipedia.org | Sekien's caption says that what looks like a lantern's fire standing in the paddy was, in a dream, thought to be fox-fire (kitsunebi, 狐火) from a fox hiding in a field of chrysanthemums. | とあり、田に立っている提灯の火のように見えるが、蘭菊の野に隠れすんでいる狐のおこす火（狐火）なのではないかと夢の中で思った、と記されている。 |
 
 
 ## wd-q11370565 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11370565-c01 | exact | ja.wikipedia.org | Chī-no-uya is a female yōkai from Okinawa, Japan, supposedly nursing children buried in children's graves. | 乳の親（ちーのうや、ちちのうや、ちちのおや）は、沖縄県に伝わる女の妖怪。 ... ここには乳の親がいて、葬られた子供に乳を飲ませて養うと信じられている。 |
 | wd-q11370565-c02 | exact | ja.wikipedia.org | It is described with long black hair and large breasts. | 外見は優しい顔立ちの女性で、洗いざらしのような黒髪を長く垂らしており、乳房が非常に大きい。 |
-| wd-q11370565-c03 | exact | ja.wikipedia.org | In Nakijin, a version says it abducts living children from graves or water. | 一方で今帰仁村などでは、童墓や水中にいる乳の親が、まだ生きている子供を奪い去るといわれる。幼児に鏡を見せると、水面を鏡と思って水面に行きたがり、その挙句に乳の親に引きずり込まれるので、鏡を見せるべきではないとされている。 |
-| wd-q11370565-c04 | exact | ja.wikipedia.org | A taboo against showing infants mirrors is linked to the danger of their approaching reflective water and being dragged in by the being. | 一方で今帰仁村などでは、童墓や水中にいる乳の親が、まだ生きている子供を奪い去るといわれる。幼児に鏡を見せると、水面を鏡と思って水面に行きたがり、その挙句に乳の親に引きずり込まれるので、鏡を見せるべきではないとされている。 |
+| wd-q11370565-c03 | exact | ja.wikipedia.org | In Nakijin, a version says it abducts living children from graves or water. | 一方で今帰仁村などでは、童墓や水中にいる乳の親が、まだ生きている子供を奪い去るといわれる。 |
+| wd-q11370565-c04 | exact | ja.wikipedia.org | A taboo against showing infants mirrors is linked to the danger of their approaching reflective water and being dragged in by the being. | 幼児に鏡を見せると、水面を鏡と思って水面に行きたがり、その挙句に乳の親に引きずり込まれるので、鏡を見せるべきではないとされている。 |
+| wd-q11370565-c05 | exact | www.nichibun.ac.jp | According to Sakihara (1998), it seems to be a yōkai that nurses small children who have died in the afterlife, but when children approach children's graves or water it may take their lives. | 小さい子供が亡くなったときにあの世で乳を飲ませてくれる妖怪であるらしい。しかし、童墓や水下に近付くとすすんで子供の命を取ることもある。 |
+| wd-q11370565-c06 | exact | yokai.com | Because chīnouya watch over the spirits of dead children, when a child under six dies it is customary to ask them to care for its spirit by leaving tiered boxes of food at the graveyard. | Because chīnouya watch over of the spirits of dead children, when a child under six years old dies, it is customary to ask them to look after the spirits of the deceased by leaving multi-tiered boxes of food at the graveyard as an offering. |
+| wd-q11370565-c07 | exact | yokai.com | Chīnouya come from the folklore of Yanbaru, the forested northern part of Okinawa Island. | Origin: Chīnouya come from the folklore of Yanbaru, the forested, northern part of Okinawa Island. |
 
 
 ## wd-q11370810 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -316,6 +311,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11370810-c03 | exact | ja.wikipedia.org | The child names Kamehime and Osakabehime, then announces that the administrator's fate is sealed. | 主膳は「この城の主は我が主人・加藤明成、城代はこの主膳であり、他に城主などいない」と言い返して睨みつけた。すると子供は笑い「姫路のおさかべ姫と猪苗代の亀姫を知らないのか? お前の命運はすでに尽きた」と言い残して姿を消した。 |
 | wd-q11370810-c04 | exact | ja.wikipedia.org | Funeral equipment subsequently appears at his seat; following other disturbances, the administrator dies. | 年が明け、正月の朝。主膳が城の広間へ行くと、自分の席には棺桶や葬儀の道具などが置かれていた。家来たちに尋ねても、何者の仕業かはわからなかった。その日の夕方には、どこからか大勢で餅をつくような怪音が響くなどの怪異があった。その正月の18日、主膳は便所で倒れ、2日後に息を引き取った。 |
 | wd-q11370810-c05 | exact | ja.wikipedia.org | The account ends with a samurai killing a large nyūdō that proves to be a mujina, after which the castle disturbances cease. | 同年の夏のこと。7尺（約2.1メートル）もの大入道が田のそばで水を汲んでいた。それを見た城の武士が一刀のもとに斬り捨てると、それは大きな狢だった。以来、城で怪異が起ることはなかったという。 |
+| wd-q11370810-c06 | exact | kotobank.jp | Digital Daijisen Plus defines Kamehime as a princess-shaped yōkai dwelling in the keep of Inawashiro Castle (亀ケ城) in Fukushima, said to be a transformed mujina (ムジナ, badger). | 日本の妖怪。福島県耶麻郡猪苗代町の猪苗代城（亀ケ城）の天守に住みついていたとされる姫の姿の妖怪で、ムジナが化けたものとされる。 |
 
 
 ## wd-q11372024 — lulus-otomatis
