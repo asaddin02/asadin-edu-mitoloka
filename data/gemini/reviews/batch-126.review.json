@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-126",
-  "checked_at": "2026-10-02T15:42:24.677Z",
+  "checked_at": "2026-10-13T20:17:02.629Z",
   "files": [
-    "batch-126.md"
+    "batch-126.md",
+    "batch-126-fix-1.md",
+    "batch-126-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "croglin-grange",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-1.md",
+      "entry_sha256": "64c1322de0bb41b559ecc3df2fd5b915731faaa6c23ada781aa60da083dd771f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "croglin-grange-c01",
@@ -103,6 +100,46 @@
           "quote": "A version of the story appears under the title \"The Window\" in Alvin Schwartz and Stephen Gammell's More Scary Stories to Tell in the Dark (1984).",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c09",
+          "source_id": "croglin-grange-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Hare writes that the story was told to him by Captain Fisher and was connected with the Fisher family itself.",
+          "statement_id": "Hare menulis bahwa kisah ini diceritakan kepadanya oleh Captain Fisher dan berkaitan dengan keluarga Fisher sendiri.",
+          "quote": "Captain Fisher also told us this really extraordinary story connected with his own family",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c10",
+          "source_id": "croglin-grange-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story the Fisher family had for hundreds of years owned an old place in Cumberland called Croglin Grange, a house that was never more than one story high.",
+          "statement_id": "Menurut kisah itu, keluarga Fisher selama ratusan tahun memiliki tempat tua di Cumberland bernama Croglin Grange, rumah yang tidak pernah lebih dari satu lantai.",
+          "quote": "for many hundreds of years they have possessed a very curious old place in Cumberland, which bears the weird name of Croglin Grange. The great characteristic of the house is that never at any period of its very long existence has it been more than one story high",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c11",
+          "source_id": "croglin-grange-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Hare's text the tenants of the house are described as two brothers and a sister, without names.",
+          "statement_id": "Dalam teks Hare, penyewa rumah itu disebut dua bersaudara laki-laki dan seorang saudari, tanpa nama.",
+          "quote": "They were extremely fortunate in their tenants, two brothers and a sister.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c12",
+          "source_id": "croglin-grange-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The body found bore the marks of a recent pistol shot in the leg, and they burned it, which the story calls the only thing that can lay a vampire.",
+          "statement_id": "Jasad yang ditemukan memiliki bekas tembakan pistol di kaki, dan mereka membakarnya, yang menurut kisah itu satu-satunya cara menenangkan vampir.",
+          "quote": "with the marks of a recent pistol-shot in the leg; and they did—the only thing that can lay a vampire—they burnt it.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -145,7 +182,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c44b171ec9ddb14cf657b006e8fb722df5914994eac678d7f5acc0c511a7c04a"
     },
     {
       "slug": "djadadjii",
@@ -205,7 +243,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5aab1ad108d1949ce6745729b076ed7ab28af14503ffde4087ae2691602cfcbc"
     },
     {
       "slug": "flocka",
@@ -325,24 +364,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "08e4f91c9c3323fcfcb5b920dfa7f9ee87ece1276814d39d8d4c25e7e2a79d6f"
     },
     {
       "slug": "forest-spirits-in-polish-mythology",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-1.md",
+      "entry_sha256": "86a9f20da36348320dd27b24d5077862bc8b8ac93ca8c1a6e0dbfded44cf73c0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "forest-spirits-in-polish-mythology-c01",
@@ -403,26 +438,71 @@
           "quote": "у западных славян функции покровителя лесных зверей и охотников полностью перешли от лесных духов к святому Хуберту, а защитника людей от волков — к святому Николаю",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c07",
+          "source_id": "forest-spirits-in-polish-mythology-s2",
+          "host": "pl.wikisource.org",
+          "statement": "The encyclopedia records that in old popular notions still kept by country folk there was an evil spirit or devil (czart) called borowy, leśny, borowiec or borowik.",
+          "statement_id": "Ensiklopedia ini mencatat bahwa dalam kepercayaan lama yang masih dipegang rakyat desa ada roh jahat atau iblis (czart) yang disebut borowy, leśny, borowiec, atau borowik.",
+          "quote": "Że zaś w dawnych pojęciach narodu, przechowanych dotąd przez lud wiejski, istniał zły duch czyli czart borowy, leśny, borowiec, borowik",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c08",
+          "source_id": "forest-spirits-in-polish-mythology-s2",
+          "host": "pl.wikisource.org",
+          "statement": "According to the encyclopedia, because of its similarity to the word bór, the people transferred the human name Boruta to the devil, also called borowy, rokita and other names, a spirit living in pine forests, thickets and dry willows.",
+          "statement_id": "Menurut ensiklopedia ini, karena kemiripan bunyi dengan kata bór, rakyat memindahkan nama manusia Boruta kepada iblis yang juga disebut borowy, rokita, dan lain-lain, roh yang tinggal di hutan pinus, semak, dan pohon dedalu kering.",
+          "quote": "lud przeniósł nazwisko ludzkie Boruta (jak to potwierdza i Karłowicz) na djabła, zwanego także borowym, rokitą, rokickim, wierzbickim, łożińskim, jako na ducha, mieszkającego w boru, rokitach, łozach i suchych wierzbach",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c09",
+          "source_id": "forest-spirits-in-polish-mythology-s2",
+          "host": "pl.wikisource.org",
+          "statement": "Tales of Boruta, who frightened people at night on dykes and in forests, played tricks by leading them off the right road and sometimes appeared as a black dog, circulated throughout the country.",
+          "statement_id": "Kisah tentang Boruta, yang menakut-nakuti orang pada malam hari di tanggul dan hutan, mengerjai mereka dengan menyesatkan dari jalan yang benar, dan kadang muncul sebagai anjing hitam, beredar di seluruh negeri.",
+          "quote": "Podania o Borucie, który zajęty był straszeniem ludzi nocą po groblach i lasach i płataniem psot przez sprowadzanie ich z dobrej drogi, a ukazywał się nieraz w postaci psa czarnego, krążyły w całym kraju",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c10",
+          "source_id": "forest-spirits-in-polish-mythology-s2",
+          "host": "pl.wikisource.org",
+          "statement": "The encyclopedia judges that only some Polish writers in the first half of the 19th century put into the mouths of the people things they had never heard from their forefathers.",
+          "statement_id": "Ensiklopedia ini menilai bahwa baru sebagian sastrawan Polandia pada paruh pertama abad ke-19 yang memasukkan ke mulut rakyat hal-hal yang tidak pernah didengar rakyat dari leluhurnya.",
+          "quote": "Dopiero niektórzy literaci polscy w pierwszej połowie XIX wieku włożyli w usta ludu to, o czem on nigdy od ojców swoich nie słyszał",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c11",
+          "source_id": "forest-spirits-in-polish-mythology-s2",
+          "host": "pl.wikisource.org",
+          "statement": "Those writers dressed Boruta in a kontusz (Polish noble robe) for greater effect in their printed legends.",
+          "statement_id": "Para sastrawan itu mendandani Boruta dengan kontusz (jubah bangsawan Polandia) demi efek legenda cetakan mereka.",
+          "quote": "przebrali Borutę w kontusz dla większego efektu drukowanych swoich legend",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gabartai",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-1.md",
+      "entry_sha256": "5a842c1185efe52ffd28ab4bfbdc2b39d12d8eb2c1b3ff4ec55d9ad707e66385",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gabartai-c01",
@@ -463,26 +543,61 @@
           "quote": "A. J. Greimas juos sieja su jaujos vartais, pagal jį jaujoje gyvena Gabjaujis (Gabjauja), o jaują nuo viso kluono atskiria gabvartai. Tačiau apskritai gabartų klausimas yra neaiškus.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "gabartai-c05",
+          "source_id": "gabartai-s2",
+          "host": "archive.org",
+          "statement": "Greimas notes that the Academic Dictionary of Lithuanian (LKZ), on the basis of the Schultz grammar, treats Gabvartas as a synonym of Gabjaujis.",
+          "statement_id": "Greimas mencatat bahwa kamus akademik bahasa Lituania (LKZ), berdasarkan tata bahasa Schultz, menganggap Gabvartas sinonim Gabjaujis.",
+          "quote": "The same LKZ provides one more word, Gabvartas, which, without citing any examples but on the basis of the Schultz grammar, is considered to be a synonym of Gabjaujis.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gabartai-c06",
+          "source_id": "gabartai-s2",
+          "host": "archive.org",
+          "statement": "According to Praetorius (as translated by Greimas), the Nadravers had gods called Kaukarus, Gabwartus and Gabartus, the same as the Kaukuczei or earth gods, who brought many goods and blessings into their barns and stables.",
+          "statement_id": "Menurut Praetorius (dalam terjemahan Greimas), orang Nadravers punya dewa-dewa bernama Kaukarus, Gabwartus, dan Gabartus, yaitu Kaukuczei atau dewa bumi yang membawa banyak barang dan berkah ke lumbung dan kandang mereka.",
+          "quote": "The Nadravers also have some gods whom they call Kaukarus, as well as Gabwartus and Gabartus. These same are the previous Kaukuczei, or earth gods, who used to bring them many goods and blessings into their barns and stables.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gabartai-c07",
+          "source_id": "gabartai-s2",
+          "host": "archive.org",
+          "statement": "Greimas argues that since the jauja is the dwelling of Gabjaujis, it is separated and guarded by the Gabvartai.",
+          "statement_id": "Greimas berpendapat bahwa karena jauja adalah tempat tinggal Gabjaujis, ruang itu dipisahkan dan dijaga oleh Gabvartai.",
+          "quote": "Since the jauja is the dwelling of Gabjaujis, it is separated and guarded by the Gabvartai.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gabartai-c08",
+          "source_id": "gabartai-s2",
+          "host": "archive.org",
+          "statement": "Greimas concludes that the Gabvartai cannot be a synonym for Gabjaujis, yet are hard to imagine as kaukai as Praetorius proposed, since their place is the threshing barn, not the granary.",
+          "statement_id": "Greimas menyimpulkan bahwa Gabvartai bukan sinonim Gabjaujis, tetapi juga sulit dibayangkan sebagai kaukai seperti usul Praetorius, karena tempat mereka di lumbung pengirikan, bukan di lumbung gandum.",
+          "quote": "Gabvartai cannot be a synonym for Gabjaujis but it is difficult to imagine them as ... as is offered by Praetorius: their place is in the threshing barn and not in the granary.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ghost-of-ship",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-1.md",
+      "entry_sha256": "8c859e82e584f6205a4545be86419117e2141b3c69788b78e2f4791d9011ae02",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ghost-of-ship-c01",
@@ -521,6 +636,86 @@
           "statement": "The ship spirit is said to leave old, rotting ships and boats, and as soon as it does, the ship perishes.",
           "statement_id": "Roh kapal konon meninggalkan kapal dan perahu yang tua dan lapuk, dan begitu ia pergi, kapal itu akan binasa.",
           "quote": "No veciem un satrunējušiem kuģiem un laivām kuģa gars aizejot, un tiklīdz to ir izdarījis kuģis ejot bojā.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c05",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "Every ship was said to have its own good spirit (juva gara) and also its own bad spirit (äbjuva gara).",
+          "statement_id": "Setiap kapal konon punya roh baiknya sendiri (juva gara) dan juga roh jahatnya sendiri (äbjuva gara).",
+          "quote": "Igal laeval olevat oma hää vaim = juva gara ja samuti ka oma paha vaim = äbjuva gara",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c06",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "This ship spirit is sometimes called simply laevavaim (koig-gara), laevakummitus (koig-spuok) or merevaim (mjer-gara).",
+          "statement_id": "Roh kapal ini kadang disebut laevavaim (koig-gara), laevakummitus (koig-spuok), atau merevaim (mjer-gara).",
+          "quote": "Seda laevahaldjat kutsutakse mõnikord lihtsalt laevavaim = koig-gara (Sr, Kr, Pr, Kl), laevakummitus = koig-spuok (Sr), merevaim = mjer-gara (L, Pr)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c07",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "Nowadays the ship spirit is most often called by the German name Klabautermann, borrowed from Baltic Sea (Baltimere) sailors.",
+          "statement_id": "Kini roh kapal itu paling sering dipanggil dengan nama Jerman Klabautermann, yang dipinjam dari pelaut Laut Baltik (Baltimere).",
+          "quote": "Praegu hüütaksegi sagedaimini laevahaldjat Baltimere laevureilt lainatud saksakeelse nimega Klabautermann",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c08",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "Sometimes the potermann is said to be the devil (kurat), yet it is not an evil spirit but a helper: it keeps and steers the ship.",
+          "statement_id": "Kadang potermann disebut iblis (kurat), tetapi ia bukan roh jahat, melainkan penolong: ia menjaga dan mengemudikan kapal.",
+          "quote": "Mõnikord öeldakse ka, et potermann on kurat ... ometi ta pole paha vaim, vaid avitaja: ta hoiab ja juhib laeva",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c09",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "The potermann is said to take many forms, most commonly a man, and to wear blue trousers, a red jumper and a black hat.",
+          "statement_id": "Potermann konon berwujud macam-macam, paling sering seorang laki-laki, dan ia memakai celana biru, sweter merah, dan topi hitam.",
+          "quote": "ta olevat mitmekujuline (L), üldiseimalt meesterahvas ... ning temal on sinised püksid, punane kampsun ja must kübar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c10",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "As soon as a ship is being built, the potermann takes its place there.",
+          "statement_id": "Sejak kapal sedang dibuat, potermann sudah langsung mengambil tempatnya di sana.",
+          "quote": "Juba kui laeva tehakse, ta võtab kohe endale sinna koha",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c11",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "If the potermann goes ashore carrying a bundle under its arm, the ship will indeed be lost, but the people will still escape with their lives.",
+          "statement_id": "Jika potermann turun dari kapal sambil mengepit buntalan di ketiaknya, kapal itu memang akan binasa, tetapi orang-orangnya masih selamat.",
+          "quote": "kui potermann lähebki maha, kuid kui tal on kaasas mingi paun kainla all, siis see laev läheb küll hukka, ometi inimesed pääsevad veel eluga",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c12",
+          "source_id": "ghost-of-ship-s2",
+          "host": "www.folklore.ee",
+          "statement": "The same word occurs on the Eesti islands: kotermann (Saaremaa, Muhu), potermann (Sõrve) and putermann (Kihnu).",
+          "statement_id": "Kata yang sama muncul di pulau-pulau Eesti: kotermann (Saaremaa, Muhu), potermann (Sõrve), dan putermann (Kihnu).",
+          "quote": "Niisama sõna esineb Eesti saartel: kotermann (Saaremaa, Muhu) ~ potermann (Sõrve) ~ putermann (Kihnu).",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -565,7 +760,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5856b6f3cb09df8efc673ce75248deaafbbb632bc6486be407c95ebbe5864b19"
     },
     {
       "slug": "hajaja",
@@ -584,24 +780,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "34ba7d6746e3609e8647f5cc1126fa7c4d9977d35a71cae027ca91e1aa169676"
     },
     {
       "slug": "hejkal",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-1.md",
+      "entry_sha256": "f27af58edac9a9721f3ee78f26ce8144437f82f8c71694822016119904b7fcdb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hejkal-c01",
@@ -671,6 +863,46 @@
           "statement_id": "Hejkal adalah judul dongeng televisi Cekoslowakia tahun 1978.",
           "quote": "Hejkal, československá televizní pohádka, 1978",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c08",
+          "source_id": "hejkal-s2",
+          "host": "clanky.rvp.cz",
+          "statement": "It is never wise to answer the hejkal's cry with a similar halloo; the hejkals cannot stand it.",
+          "statement_id": "Tidak pernah bijak membalas teriakan hejkal dengan teriakan serupa; hejkal sangat membenci hal itu.",
+          "quote": "Nikdy není radno na hejkalí křik odpovídat podobným zahalekáním. To hejkalové přímo nesnášejí.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c09",
+          "source_id": "hejkal-s2",
+          "host": "clanky.rvp.cz",
+          "statement": "Some legends (pověsti) even say that a person who mimicked the hejkals was torn to pieces by them.",
+          "statement_id": "Beberapa legenda (pověsti) bahkan menyebut bahwa orang yang meniru-niru hejkal dicabik-cabik oleh mereka.",
+          "quote": "V některých pověstech se dokonce píše o tom, že člověka, který se po hejkalech opičil, roztrhali na kusy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c10",
+          "source_id": "hejkal-s2",
+          "host": "clanky.rvp.cz",
+          "statement": "The book says the hejkadla, found in the forests of the Českomoravská vysočina, especially around Jihlava, Pelhřimov and Havlíčkův Brod (Jihlavsku, Pelhřimovsku, Havlíčkobrodsku), resemble owls.",
+          "statement_id": "Buku itu menyebut hejkadla, yang ada di hutan-hutan Českomoravská vysočina, terutama di sekitar Jihlava, Pelhřimov, dan Havlíčkův Brod (Jihlavsku, Pelhřimovsku, Havlíčkobrodsku), mirip burung hantu.",
+          "quote": "Hejkadla, která se vyskytují v lesích na Českomoravské vysočině, zejména na Jihlavsku, Pelhřimovsku a Havlíčkobrodsku, jsou podobná sovám.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c11",
+          "source_id": "hejkal-s2",
+          "host": "clanky.rvp.cz",
+          "statement": "In the book, hejkals grow to about human height, some a little smaller; their arms and legs look like thick twisted branches and their skin resembles pine bark.",
+          "statement_id": "Dalam buku itu, hejkal kira-kira setinggi manusia, sebagian sedikit lebih kecil; tangan dan kakinya seperti dahan pohon yang tebal dan bengkok, dan kulitnya menyerupai kulit kayu pinus.",
+          "quote": "Hejkalové dorůstají přibližně stejné výšky jako lidé. Jen část z nich je o trochu menší. Jejich ruce i nohy vypadají jako silné pokroucené větve stromů a jejich kůže se podobá kůře borovic.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -744,24 +976,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3c017971ff7b6725a5880bf19e697e765cd6e3f9a642deca98c28304a66f2c90"
     },
     {
       "slug": "hippa",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "385276a7d98fb70a0a5ef1cace711bd43365599746956ad92bfb66e772b4320d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hippa-c01",
@@ -822,6 +1050,46 @@
           "quote": "HIPPA, (Ylimmäinen metän Kuningas) Faunus el. Pan, tärkein Metsänjumala, kenties sama, joka on nimeltään Kuippana",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "hippa-c07",
+          "source_id": "hippa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Krohn describes hippa or hiippa as a name belonging to the language of folk poetry, most often used in addressing the forest spirit: \"metsän hippa\", grey-bearded (halliparta); the corresponding \"veden hippa\" (water hippa) is rare.",
+          "statement_id": "Krohn menyebut hippa atau hiippa sebagai nama dalam bahasa puisi rakyat, paling sering dalam sapaan kepada roh hutan: \"metsän hippa\" yang berjanggut kelabu (halliparta); \"veden hippa\" (hippa air) jarang ditemukan.",
+          "quote": "Sitävastoin on hippa eli hiippa runokieleen kuuluva nimitys. Tavallisimmin se esiintyy metsänhaltian puhuttelussa: metsän hippa (hiippa, hyppä) \"halliparta\"; vastaava veden hippa on harvinainen.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c08",
+          "source_id": "hippa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Krohn, Castrén explained the forest spirit's name hippa as deriving from its tall headdress (hiippa).",
+          "statement_id": "Menurut Krohn, Castrén menjelaskan bahwa nama hippa untuk roh hutan berasal dari penutup kepalanya yang tinggi (hiippa).",
+          "quote": "Castrén selittää metsänhaltian hippa nimityksen johtuvan hänen korkeasta päähineestään, hiipastaan.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c09",
+          "source_id": "hippa-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Ganander records that another Hippa was regarded as a daughter of Hiisi (Hijsi), who was to torment thieves.",
+          "statement_id": "Ganander mencatat bahwa ada Hippa lain yang dianggap putri Hiisi (Hijsi) dan bertugas menyiksa pencuri.",
+          "quote": "En annan vid namn Hippa anses för Hijsis dotter, Som skulle plåga tjufvar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c10",
+          "source_id": "hippa-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the entry on Hiisi, Ganander writes that Hippa was one of Hiisi's daughters who, together with Kalma, made thieves hurry to return what they had stolen.",
+          "statement_id": "Dalam entri tentang Hiisi, Ganander menulis bahwa Hippa adalah salah satu putri Hiisi yang bersama Kalma membuat pencuri tergesa-gesa mengembalikan barang curian.",
+          "quote": "Hippa var en af Hijsis döttrar, som i lag med Kalma gaf brådtom åt tjufvar, at återhämta det bortstulna.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -874,24 +1142,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dcdb6b88de6892e51e7558f29765440ac853adb08a56bbdd6980eeadd0168805"
     },
     {
       "slug": "illhveli",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "5c57592c284a0e18d629158f25d0e61921c47b6f3df12f51f0a9ac3041450d75",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "illhveli-c01",
@@ -932,26 +1196,101 @@
           "quote": "Злыми считались кашалот и нарвал, а также некоторые мифические киты.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "illhveli-c05",
+          "source_id": "illhveli-s2",
+          "host": "is.wikisource.org",
+          "statement": "The most universal rule of caution at sea was never to say \"whale\" but always \"big fish\" (stórfisk), because as soon as a forbidden name is spoken, the whale bearing it comes and wants to destroy the boat.",
+          "statement_id": "Aturan kehati-hatian paling umum di laut adalah tidak pernah menyebut \"paus\", melainkan \"ikan besar\" (stórfisk), karena begitu nama terlarang diucapkan, paus pemilik nama itu datang dan ingin menghancurkan kapal.",
+          "quote": "er það einhver algildasta varúðarregla á sjó að nefna aldrei hval, heldur ávallt „stórfisk“ við hvern hval sem maður á, því undireins og maður nefnir eitthvert þeirra nafna sem sjóvíti sætir kemur sá hvalur sem nafnið á og vill granda skipinu",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c06",
+          "source_id": "illhveli-s2",
+          "host": "is.wikisource.org",
+          "statement": "Rorquals (reyðarhvalir) were believed always to protect boats from the illhveli, driving them off and lying on top of them.",
+          "statement_id": "Paus rorqual (reyðarhvalir) dipercaya selalu melindungi kapal dari illhveli, mengusir mereka, dan berbaring di atas mereka.",
+          "quote": "fyrir reyðarhvölum sem verja jafnan skipin fyrir illhvelum, bægja þeim frá og liggja ofan á þeim",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c07",
+          "source_id": "illhveli-s2",
+          "host": "is.wikisource.org",
+          "statement": "It is said that the mark of all illhveli is that no \"smoke\" rises from them when they blow, only spray, whereas good whales give off much \"smoke\" when they blow.",
+          "statement_id": "Konon ciri semua illhveli adalah tidak ada \"asap\" yang keluar saat mereka menyembur, hanya percikan air, sedangkan paus baik mengeluarkan banyak \"asap\" saat menyembur.",
+          "quote": "Það segja menn að sé einkenni á öllum illhvelum að enginn reykur komi upp úr þeim þegar þau blása, heldur vatnsýrir einar, en upp af góðum hvölum leggur reyk mikinn þegar þeir blása",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c08",
+          "source_id": "illhveli-s2",
+          "host": "is.wikisource.org",
+          "statement": "It was and still is believed that the illhveli are so greedy that they take a boat with its men into their jaws, smash the boat to pieces and swallow the men.",
+          "statement_id": "Dulu dan sampai kini dipercaya bahwa illhveli begitu rakus sehingga mencaplok kapal beserta orang-orangnya, meremukkan kapal, dan menelan orang-orangnya.",
+          "quote": "Það hefur verið trú og er enn að illhvelin sé svo gráðug að þau taki skip með mönnum og öllu saman í gin sér, brjóti skipið í smámola, en gleypi mennina",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c09",
+          "source_id": "illhveli-s2",
+          "host": "is.wikisource.org",
+          "statement": "Many if not all illhveli are considered inedible, and the law forbids eating some of them.",
+          "statement_id": "Banyak, jika bukan semua, illhveli dianggap tidak layak dimakan, dan hukum melarang memakan sebagian dari mereka.",
+          "quote": "Mörg ef ekki öll illhvelin eru talin óætisfiskar og bannað í lögum að leggja suma þeirra sér til munns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c10",
+          "source_id": "illhveli-s2",
+          "host": "is.wikisource.org",
+          "statement": "The hrosshveli (horse-whale) is said by some to have the shape of a horse, to neigh like a horse and to have a tail like a horse.",
+          "statement_id": "Hrosshveli (paus kuda) menurut sebagian orang berwujud kuda, meringkik seperti kuda, dan berekor seperti kuda.",
+          "quote": "Hrosshvelið segja sumir að sé í hestslíki, hneggi eins og hestur og hafi tagl sem hestar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c11",
+          "source_id": "illhveli-s3",
+          "host": "is.wikisource.org",
+          "statement": "The nauthveli (bull-whale), also called fjósi, is said to be the largest of all illhveli apart from the lyngbakur.",
+          "statement_id": "Nauthveli (paus sapi), juga disebut fjósi, konon illhveli terbesar selain lyngbakur.",
+          "quote": "Nauthvelið á að vera stærst allra illhvela að undanteknum lyngbak; það heitir og „fjósi“.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c12",
+          "source_id": "illhveli-s3",
+          "host": "is.wikisource.org",
+          "statement": "Rauðkembingur is one of the illhveli, said to have red hair along its back, from which its name comes.",
+          "statement_id": "Rauðkembingur adalah salah satu illhveli, konon berambut merah di sepanjang punggungnya, dan dari situlah namanya berasal.",
+          "quote": "Rauðkembingur heitir illhveli eitt; er það sagt að hann hafi rauð hár eftir hryggnum og þaðan sé dregið nafn hans",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "irudica",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "5321ab096ac334ee3633ce7c70ec1a8232e79f833c82fc48be4988a66ae81fcf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "irudica-c01",
@@ -1012,6 +1351,66 @@
           "quote": "В комментарии к этим стихам собиратель объяснил, что имя Рудица восходит к её рыжим волосам",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "irudica-c07",
+          "source_id": "irudica-s2",
+          "host": "morepress.unizd.hr",
+          "statement": "In Croatian (hrvatskoj) tradition Herodias is called Poganica and her daughter Irudica; according to folk belief Irudica leads storms accompanied by heavy thunder, while her mother Poganica, hidden in a cloud, shields her from being struck.",
+          "statement_id": "Dalam tradisi Kroasia (hrvatskoj), Herodias disebut Poganica dan putrinya Irudica; menurut kepercayaan rakyat, Irudica memimpin badai disertai guntur keras, sementara ibunya Poganica bersembunyi di awan dan melindunginya agar tidak tersambar.",
+          "quote": "U hrvatskoj se tradiciji Herodijada naziva Poganica, a njezina kćerka Irudica. Po narodnome vjerovanju, Irudica predvodi olujno nevrijeme praćeno jakom grmljavinom, a njezina majka Poganica, sakrivena u oblaku, krije ju da ne bude pogođena.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c08",
+          "source_id": "irudica-s2",
+          "host": "morepress.unizd.hr",
+          "statement": "The Croats (Hrvati) once cast spells against Irudica; the old charms have been Christianised and are still spoken today during thunder and lightning to protect people and their property from Irudica.",
+          "statement_id": "Dahulu orang Kroasia (Hrvati) merapal mantra melawan Irudica; mantra-mantra lama itu telah dikristenkan dan sampai kini masih diucapkan saat guntur dan kilat untuk melindungi orang dan harta mereka dari Irudica.",
+          "quote": "Nekoć su Hrvati bajali protiv Irudice. Nekadašnje su basme kristijanizirane te se i u naše vrijeme izgovaraju kad grmi i sijeva kako bi se ljudi i njihovo imanje zaštitili od Irudice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c09",
+          "source_id": "irudica-s2",
+          "host": "morepress.unizd.hr",
+          "statement": "Most of the examples in Dragić's study were recorded in the field between 1997 and 2016 in Croatia (Republici Hrvatskoj) and Bosnia and Herzegovina (Bosni i Hercegovini).",
+          "statement_id": "Sebagian besar contoh dalam kajian Dragić direkam di lapangan antara 1997 dan 2016 di Kroasia (Republici Hrvatskoj) serta Bosnia dan Herzegovina (Bosni i Hercegovini).",
+          "quote": "Najviše je primjera izvorno na terenu snimljeno od 1997. do 2016. godine u Republici Hrvatskoj i Bosni i Hercegovini.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c10",
+          "source_id": "irudica-s2",
+          "host": "morepress.unizd.hr",
+          "statement": "In 1897 Antun Ilija Carić published the paper \"Rudica, kćer Poganice. Narodno vjerovanje na otocima Hvaru i Braču\" on folk belief on the islands of Hvar and Brač.",
+          "statement_id": "Pada 1897 Antun Ilija Carić menerbitkan tulisan \"Rudica, kćer Poganice. Narodno vjerovanje na otocima Hvaru i Braču\" tentang kepercayaan rakyat di pulau Hvar dan Brač.",
+          "quote": "Antun Ilija Carić 1897. objavio je rad \"Rudica, kćer Poganice. Narodno vjerovanje na otocima Hvaru i Braču\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c11",
+          "source_id": "irudica-s2",
+          "host": "morepress.unizd.hr",
+          "statement": "According to Frano Ivanišević's record, people in Poljica believe that Saint Elijah (sv. Ilija) shoots thunderbolts at Irudica to destroy her.",
+          "statement_id": "Menurut catatan Frano Ivanišević, orang di Poljica percaya bahwa Santo Elia (sv. Ilija) menembakkan petir kepada Irudica untuk membinasakannya.",
+          "quote": "navodi da narod u Poljicima vjeruje da sv. Ilija gromovima puca na Irudicu (đavlinom) kako bi je smaknuo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c12",
+          "source_id": "irudica-s2",
+          "host": "morepress.unizd.hr",
+          "statement": "Dragić judges that the demonic beings Irudica and Poganica remain extremely under-researched in Croatian folkloristics.",
+          "statement_id": "Dragić menilai bahwa makhluk demonik Irudica dan Poganica masih sangat kurang diteliti dalam folkloristik Kroasia.",
+          "quote": "Ipak, u folkloristici Hrvata iznimno su nedostatno istražena demonska bića Irudica i Poganica.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1064,7 +1463,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "354ad8fd302e7e3c560d1ce595c837964252bcc5f9745ca98dd73f7fd364e654"
     },
     {
       "slug": "javu-dvasios",
@@ -1083,7 +1483,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "739dceeb7d698229dd661daa90324a5af6d308ce1b733854a69d5476cb5b545c"
     },
     {
       "slug": "jij",
@@ -1102,24 +1503,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "236f1367a9d62481a1310bbd6bfb2277f834af1a353345627948aa3b78f10fcf"
     },
     {
       "slug": "khaan-khereti",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "7aa8d1553bf08f7c091c99f9011d9c5e29c22529646f3e10bbb986ad414aa4f6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "khaan-khereti-c01",
@@ -1180,26 +1577,51 @@
           "quote": "По тибетской традиции, некоторые тувинцы склонны изображать Хаан-Херети в виде Гаруды и наносить её изображение на флажки.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c07",
+          "source_id": "khaan-khereti-s2",
+          "host": "www.asu.ru",
+          "statement": "Khusainova compares Bashkir and Tuvan tales: the hero saves the chicks of Samrigush (Bashkir) or Khaan-Khereti (Tuvan) from a nine-headed azhdaha (Bashkir) or a fifteen-headed serpent (Tuvan), and the bird promises to lift him to the Upper World.",
+          "statement_id": "Khusainova membandingkan kisah Bashkir dan Tuva: pahlawan menyelamatkan anak-anak Samrigush (Bashkir) atau Khaan-Khereti (Tuva) dari azhdaha berkepala sembilan (Bashkir) atau ular berkepala lima belas (Tuva), lalu burung itu berjanji membawanya ke Dunia Atas.",
+          "quote": "/ Хаан-Херети (тувинск.) от прожорливой девятиглавой аждахи (башк.) / пятнадцатиголовый змей (тувинск.), за что птица обещает батыра поднять в Верхний мир.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c08",
+          "source_id": "khaan-khereti-s2",
+          "host": "www.asu.ru",
+          "statement": "In the Bashkir tale Samrigush tells the hero to lay in forty bowls of meat and milk, while in the Tuvan tale it tells him to shoot ducks.",
+          "statement_id": "Dalam kisah Bashkir, Samrigush menyuruh pahlawan menyiapkan empat puluh mangkuk daging dan susu, sedangkan dalam kisah Tuva ia menyuruhnya menembak bebek.",
+          "quote": "В башкирской сказке Самригуш велит батыру запастись сорока мисками мяса, молока, а в тувинской – настрелять уток",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c09",
+          "source_id": "khaan-khereti-s2",
+          "host": "www.asu.ru",
+          "statement": "Khusainova highlights that as the mythical bird carries the hero to the Upper World, its food runs out before they arrive; in the Bashkir tale the hero feeds it a piece of meat cut from his own leg, while in the Tuvan tale he throws his hat into its mouth.",
+          "statement_id": "Khusainova menyoroti bahwa saat burung mitos itu membawa pahlawan ke Dunia Atas, makanannya habis sebelum tiba; dalam kisah Bashkir pahlawan memberinya sepotong daging dari kakinya sendiri, sedangkan dalam kisah Tuva ia melemparkan topinya ke mulut burung itu.",
+          "quote": "Привлекает внимание, как мифическая птица помогает герою выбраться в Верхний мир, но перед выходом заканчивается еда для птицы и в башкирской сказке батыр кормит птицу куском мяса, отрезанным из своей ноги, а в тувинской – бросает ей в рот свою шапку.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kiira",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "d04a300ebba4e4570e264021a80210573b4add60750ff6b0ce34d7cad50f3950",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kiira-c01",
@@ -1270,26 +1692,91 @@
           "quote": "Suomen kielen nimitys kiira on ilmeisesti laina muinaisruotsista. Nykyruotsin vastaava sana on skär 'puhdas'.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "kiira-c08",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "This source describes driving out the kiira (kiiran ajo) as a distinctive expression of purification over a wide area of the country: a sledge loaded with metal objects and a burning tar pot was dragged around the buildings.",
+          "statement_id": "Sumber ini menyebut pengusiran kiira (kiiran ajo) sebagai wujud khas penyucian di wilayah luas negeri itu: kereta luncur bermuatan benda logam dan wadah ter yang menyala ditarik mengelilingi bangunan.",
+          "quote": "Omalaatuinen puhdistautumisen ilmentymä laajalla alueella maassamme oli kiiran ajo: vedettiin rakennusten ympäri kelkkaa, johon oli lastattu mm. metalliesineitä ja palava terva-astia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c09",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "While dragging it, people said for example \"Kitis kiira metsään, tulta savua selkään\" (Off to the forest, kiira, fire and smoke on your back).",
+          "statement_id": "Sambil menarik kereta luncur, orang mengucapkan misalnya \"Kitis kiira metsään, tulta savua selkään\" (Pergi kiira ke hutan, api dan asap di punggungmu).",
+          "quote": "Vedettäessä lausuttiin esimerkiksi: \"Kitis kiira metsään, tulta savua selkään.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c10",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "Metal objects might also be tied around the waist and a cowbell hung around the neck.",
+          "statement_id": "Benda logam juga bisa diikatkan di pinggang dan lonceng sapi digantungkan di leher.",
+          "quote": "Metalliesineitä saatettiin kiinnittää myös vyötäisille ja lehmänkello kaulaan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c11",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "With these acts people sought to ensure that snakes did not come into the yard in summer and that the cattle came home on time.",
+          "statement_id": "Dengan upacara ini orang berusaha memastikan agar ular tidak masuk pekarangan pada musim panas dan ternak pulang tepat waktu.",
+          "quote": "pyrittiin varmistamaan, ettei käärmeitä tullut kesällä pihaan ja että karja saapui ajoissa kotiin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c12",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "Kiira, also called piharikko in charms, was some being or force that disturbed the peace of the yard.",
+          "statement_id": "Kiira, yang dalam mantra juga disebut piharikko, adalah makhluk atau kekuatan yang mengganggu ketenangan pekarangan.",
+          "quote": "Kiira, josta loitsuissa käytettiin myös nimeä piharikko, oli jokin pihan rauhaa häiritsevä olento tai voima.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c13",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "Before disappearing, driving out the kiira and ringing cowbells still lived on in the 20th century (1900-luvulla) as a play tradition of children and the childlike.",
+          "statement_id": "Sebelum lenyap, pengusiran kiira dan bunyi lonceng sapi masih hidup pada abad ke-20 (1900-luvulla) sebagai tradisi permainan anak-anak.",
+          "quote": "Ennen häviämistään kiiran ajo ja lehmänkellojen soitto on elänyt vielä 1900-luvulla lasten ja lapsenmielisten leikkiperinteenä.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c14",
+          "source_id": "kiira-s2",
+          "host": "web.archive.org",
+          "statement": "The use of smoke was apparently learned from the Catholic censer.",
+          "statement_id": "Penggunaan asap tampaknya dipelajari dari pedupaan Katolik.",
+          "quote": "Savun käyttö oli ilmeisesti opittu katolisesta suitsutusastiasta.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kodinhaltija",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "7c3caac49911fdc26cb83f3342b202be7337eb097a53db3d92916c19227b0d8d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kodinhaltija-c01",
@@ -1340,26 +1827,81 @@
           "quote": "Kun kodinhaltijan haluttiin muuttavan uuteen taloon jos sellainen rakennettiin vanhan tilalle, tuotiin uuteen taloon vanhan talon tulisijan kiviä, tuhkaa tai multaa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c06",
+          "source_id": "kodinhaltija-s2",
+          "host": "archive.org",
+          "statement": "Holmberg writes that the Baltic Finns call the household spirit \"the Ruler\" (Finnish Haltia, Esthonian Haldja).",
+          "statement_id": "Holmberg menulis bahwa bangsa Finn Baltik (Baltic Finns) menyebut roh rumah \"Sang Penguasa\" (bahasa Finlandia: Haltia, bahasa Estonia: Haldja).",
+          "quote": "The Baltic Finns, who form a group by themselves, call the household spirit \"the Ruler\" (Finnish Haltia, Esthonian Haldja).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c07",
+          "source_id": "kodinhaltija-s2",
+          "host": "archive.org",
+          "statement": "When settling in a new dwelling, and even when staying anywhere for the night, permission must first be begged of this Ruler.",
+          "statement_id": "Saat menempati rumah baru, bahkan saat menginap semalam di mana pun, orang harus lebih dulu memohon izin kepada Sang Penguasa ini.",
+          "quote": "When settling in a new dwelling, and even when staying anywhere for the night, permission must first be begged of this",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c08",
+          "source_id": "kodinhaltija-s2",
+          "host": "archive.org",
+          "statement": "If even one log of the old house was used again, the Haltia moved with it into the new house; the ashes from all the hearths were also taken to the new fireplaces.",
+          "statement_id": "Bila satu batang kayu dari rumah lama dipakai lagi, Haltia pindah bersamanya ke rumah baru; abu dari semua perapian juga dibawa ke perapian baru.",
+          "quote": "But if even one log was taken into use, he removed with this into the new house. ... the ashes from all the hearths were taken over to the new fireplaces.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c09",
+          "source_id": "kodinhaltija-s2",
+          "host": "archive.org",
+          "statement": "According to a belief prevalent in Finland, the person who died first in the house, or who lit the first fire there, became the Haltia of the house.",
+          "statement_id": "Menurut kepercayaan yang umum di Finlandia (Finland), orang yang pertama meninggal di rumah atau yang pertama menyalakan api di sana menjadi Haltia rumah itu.",
+          "quote": "According to a belief prevalent in Finland, the person who died first in the house, or the one who lit the first fire there, became the Haltia of the house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c10",
+          "source_id": "kodinhaltija-s2",
+          "host": "archive.org",
+          "statement": "In Ingria the Haltia is said to have appeared as a dog or a mottled or striped cat, which was a sign of fire.",
+          "statement_id": "Di Ingria, Haltia konon menampakkan diri sebagai anjing atau kucing belang, dan itu dianggap pertanda kebakaran.",
+          "quote": "In Ingria the Haltia is said to have appeared at such times in the shape of a dog or a mottled or striped cat. This was a sign of fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c11",
+          "source_id": "kodinhaltija-s2",
+          "host": "archive.org",
+          "statement": "The male Haltia ranked higher than the female, as the master had stood above the mistress in life, but children grew up better where the Haltia was a woman.",
+          "statement_id": "Haltia laki-laki berkedudukan lebih tinggi daripada Haltia perempuan, seperti tuan rumah di atas nyonya rumah semasa hidup, tetapi anak-anak tumbuh lebih baik di rumah yang Haltia-nya perempuan.",
+          "quote": "The male Haltia was of higher rank than the female, just as in life the master had stood above the mistress ... but children grew up better where the Haltia was a woman.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kratti",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-2.md",
+      "entry_sha256": "ed2906e0e3ce2356abbf8bd6b7534ab8cea21b65cbb90b53cf0d5550d1b1c25f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kratti-c01",
@@ -1399,6 +1941,76 @@
           "statement_id": "Menurut sebuah puisi Sigfridus Aronus Forsius dari abad ke-16 atau ke-17 (1500- atau 1600-an), Kratti bermata satu dan menganugerahkan kekayaan kepada pemujanya.",
           "quote": "Sigfridus Aronus Forsiuksen 1500- tai 1600-luvulla kirjoittaman runon mukaan Kratti on yksisilmäinen ja lahjoittaa rikkautta palvojalleen.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c05",
+          "source_id": "kratti-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Ganander calls Kratti a money god of the Tavastians (Tavasters), the same as the Swedes' Skratt.",
+          "statement_id": "Ganander menyebut Kratti sebagai dewa uang orang Tavastia (Tavasters), sama dengan Skratt orang Swedia.",
+          "quote": "KRATTI, En Tavasters Penninge-Gud, samme som Svenskarnes Skratt.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c06",
+          "source_id": "kratti-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Kratti was believed not to give up the hidden hoard without offerings and various charms; it often showed the money chest at the surface of the ground or water, but sank it again when not favourable.",
+          "statement_id": "Kratti dipercaya tidak menyerahkan harta tersembunyi tanpa sesaji dan berbagai mantra; ia sering menampakkan peti uang di permukaan tanah atau air, lalu menenggelamkannya lagi bila tidak berkenan.",
+          "quote": "Kratti troddes ock ej upgifva gömman, utan offer och åtskilliga signerier. Viste ofta penninge-kistan vid jord- eller vattu-ytan, men sänkte den åter ned, då han ej var gunstig.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c07",
+          "source_id": "kratti-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the entry on the tonttu, Ganander equates the Raha-Tonttu (money tonttu) with Kratti.",
+          "statement_id": "Dalam entri tentang tonttu, Ganander menyamakan Raha-Tonttu (tonttu uang) dengan Kratti.",
+          "quote": "Jywä Tonttu bar hem skylar och ökte sädes-bingen. Raha-Tonttu, samma som Kratti",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c08",
+          "source_id": "kratti-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Krohn calls kratt a Scandinavian loanword, also found in Slavic languages meaning a household spirit; in Old Icelandic skratti meant a ghost.",
+          "statement_id": "Krohn menyebut kratt sebagai kata pinjaman Skandinavia yang juga ditemukan dalam bahasa-bahasa Slavia dengan arti roh rumah; dalam bahasa Islandia kuno skratti berarti hantu.",
+          "quote": "Myös kratt on skandinaavilainen lainasana, joka tavataan slaavilaisissakin kielissä kodinhaltian merkityksessä; muinaisislannissa skratti merkitsi kummitusta.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c09",
+          "source_id": "kratti-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Kratti was once known in Finland too; among the gods of the Häme people named by Agricola, the kratti \"took care of property\", but there is very little information about it from more recent times.",
+          "statement_id": "Kratti pernah dikenal di Finlandia; di antara dewa orang Häme yang disebut Agricola, kratti \"mengurus harta benda\", tetapi dari masa yang lebih baru keterangan tentangnya sangat sedikit.",
+          "quote": "Suomessakin on kratti aikoinaan ollut tunnettu. Agricolan mainitsemista hämäläisten jumalista kratti \"murheen piti tavarasta\". Uudemmalta ajalta on siitä kuitenkin perin vähän tietoja.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c10",
+          "source_id": "kratti-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In central Uusimaa (Keski-Uusimaa), the kratti is understood as an invisible being that makes a humming sound heard by travellers on dark nights.",
+          "statement_id": "Di Uusimaa bagian tengah (Keski-Uusimaa), kratti dipahami sebagai makhluk tak terlihat yang mengeluarkan bunyi dengung yang didengar para pelancong pada malam gelap.",
+          "quote": "Keski-Uudellamaalla ymmärretään kratilla näkymätöntä olentoa, joka päästää hyrisevän äänen, minkä matkustajat pimeinä öinä kuulevat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c11",
+          "source_id": "kratti-s4",
+          "host": "archive.org",
+          "statement": "Holmberg writes that the Esthonian Kratt, like the Finnish Para, could be made of certain materials and carried money in a sack; food was offered to it, generally porridge and milk.",
+          "statement_id": "Holmberg menulis bahwa Kratt orang Estonia (Esthonian), seperti Para di Finlandia, dapat dibuat dari bahan tertentu dan membawa uang dalam karung; ia diberi sesaji makanan, biasanya bubur dan susu.",
+          "quote": "The Esthonian Kratt, which, like the Finnish Para, could be manufactured of certain ma- terials, carried money, etc., in a sack. Food was offered up to it — generally porridge and milk.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1482,7 +2094,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b1e9688d9fefd9a6ed792cf896ea70d001a49994f3541f18bfc5acf244f2d1b3"
     },
     {
       "slug": "kuyva",
@@ -1562,7 +2175,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fd64c15a7e59e96e9a6c233465ebb36ba5052580a0bd07d76aacfec0b45c90ef"
     },
     {
       "slug": "lacaena",
@@ -1581,7 +2195,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "6ae259d7314027b944c75426bb046d239841716846e3f933d6158724e8e04a7f"
     },
     {
       "slug": "lannetar",
@@ -1641,7 +2256,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d6d6621338e0d561d089518116b375f462864f9bd3dc06ebb305d01c4196637f"
     },
     {
       "slug": "lemmas",
@@ -1681,7 +2297,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5315c8e6ce472feeeba86d937773fd95d1249ecd920f6adc79c224b2bd503e90"
     },
     {
       "slug": "liekkio",
@@ -1801,7 +2418,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "77c35e27cf0787cecb2c006404b42ee7d1061e4e3732692f6d7f8eeaa3a649c1"
     },
     {
       "slug": "ljubi",
@@ -1881,7 +2499,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ed19c6ab0752ae41091db99579402f19c4b0eb4dabab0030b9468a500412873e"
     },
     {
       "slug": "lukomlskoye-dragon",
@@ -2001,7 +2620,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "17d3c544c4442708042788759140ec887c9307532e1f62aeeaed81f13a0f8698"
     },
     {
       "slug": "majuna",
@@ -2031,7 +2651,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2eb6085e8d0a3332eb599257e5b74636a7fd3afbc221a2817d063afe92b8ed24"
     },
     {
       "slug": "makkylan-kummitus",
@@ -2050,7 +2671,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "6fedbbc0365f9aa2b47275b1e73ab6ab3a597d4ce727c59d0533865ae776e748"
     },
     {
       "slug": "mamuna",
@@ -2069,7 +2691,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "244e41555208d13c8b7d9d08c328933b8d4986e34c6e2cedff09a3175e5d8af8"
     },
     {
       "slug": "manush-lolo",
@@ -2139,7 +2762,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "81c582b33c3d6b5c36cfb2878b8087265860376ff287f065baaa8448e0a243a1"
     },
     {
       "slug": "miernik",
@@ -2209,7 +2833,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "29ff940065d09fa15379b4f878d37dc2b01151290a420ace843928af9a5769bd"
     },
     {
       "slug": "mirigy",
@@ -2269,7 +2894,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f1aa91e14a6383d888f513100cfcfa18484ad75f08b0915920d7b83ef79e5da7"
     },
     {
       "slug": "nezit",
@@ -2299,7 +2925,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9876d7dda8d3b398e184f398a6e8d473ce239e2203941946c98b822360c7a5a0"
     },
     {
       "slug": "nightmare",
@@ -2433,7 +3060,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3be4f7a0508e557f8e95036a58af34f577265c03f5f3e6ae96a1e35acd9deb2"
     },
     {
       "slug": "oblakinia",
@@ -2493,7 +3121,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "621c40821de730b89553cc7f00c54280bf1e137794ff30fa2594f693ba5155e3"
     },
     {
       "slug": "polovoi",
@@ -2512,7 +3141,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "f54016b55c4dd05ae3c2f9f5682f3b4d3ee378839b8f792656667d800ad1162b"
     },
     {
       "slug": "praded",
@@ -2607,7 +3237,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b6e5fe9f98101af2f4fd6610f8471abd347293f8d6cf996597617ad7be9c5e11"
     },
     {
       "slug": "ravga",
@@ -2677,7 +3308,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "caa2f0a554479836f3959f3515e52e27108afe53a4f7d6f1b5f77af4e1da8672"
     },
     {
       "slug": "spor",
@@ -2696,7 +3328,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "7477cdee66a41093c5adab37237ee03eca1945862362dc980a1f168deca32334"
     }
   ]
 }

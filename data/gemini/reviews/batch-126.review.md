@@ -1,13 +1,10 @@
 # Review batch-126
 
-Diperiksa 2026-10-02T15:42:24.677Z. Berkas: batch-126.md.
+Diperiksa 2026-10-13T20:17:02.629Z. Berkas: batch-126.md, batch-126-fix-1.md, batch-126-fix-2.md.
 
 ## croglin-grange — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -19,6 +16,10 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 | croglin-grange-c06 | exact | en.wikipedia.org | It was described as having a brown face and flaming eyes; the vampire bit her in the throat. | It was described as having a brown face and flaming eyes. The vampire bit her in the throat. |
 | croglin-grange-c07 | exact | en.wikipedia.org | Amelia's brother shot it in the leg and tracked it to a vault in the local cemetery; the next day they found the vampire's body, with a fresh leg wound, lying in a coffin, and burned it. | The brother shot it in the leg and was able to track it down to a vault in the local cemetery. They waited until the next day to enter the vault, where they found the body of the vampire, with a fresh wound to the leg, resting inside a coffin. They then burned it. |
 | croglin-grange-c08 | exact | en.wikipedia.org | A version of the story appears as "The Window" in Alvin Schwartz and Stephen Gammell's More Scary Stories to Tell in the Dark (1984). | A version of the story appears under the title "The Window" in Alvin Schwartz and Stephen Gammell's More Scary Stories to Tell in the Dark (1984). |
+| croglin-grange-c09 | exact | www.gutenberg.org | Hare writes that the story was told to him by Captain Fisher and was connected with the Fisher family itself. | Captain Fisher also told us this really extraordinary story connected with his own family |
+| croglin-grange-c10 | exact | www.gutenberg.org | In the story the Fisher family had for hundreds of years owned an old place in Cumberland called Croglin Grange, a house that was never more than one story high. | for many hundreds of years they have possessed a very curious old place in Cumberland, which bears the weird name of Croglin Grange. The great characteristic of the house is that never at any period of its very long existence has it been more than one story high |
+| croglin-grange-c11 | exact | www.gutenberg.org | In Hare's text the tenants of the house are described as two brothers and a sister, without names. | They were extremely fortunate in their tenants, two brothers and a sister. |
+| croglin-grange-c12 | exact | www.gutenberg.org | The body found bore the marks of a recent pistol shot in the leg, and they burned it, which the story calls the only thing that can lay a vampire. | with the marks of a recent pistol-shot in the leg; and they did—the only thing that can lay a vampire—they burnt it. |
 
 
 ## deattan — lulus-otomatis
@@ -72,10 +73,7 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 
 ## forest-spirits-in-polish-mythology — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -85,14 +83,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | forest-spirits-in-polish-mythology-c04 | exact | ru.wikipedia.org | But they could also help people out of the forest and reward someone they liked. | Но могли и помочь выйти из леса, одарить понравившегося |
 | forest-spirits-in-polish-mythology-c05 | exact | ru.wikipedia.org | Of the Slavic forest spirits, the best described is the East Slavic leshy (in some regions also called borovoi and borovik), with which the Polish spirits share some similarities. | Лучше всего из славянских лесных духов описан восточнославянский леший (его также в некоторых регионах называют боровым и боровиком), с которым польские духи имеют некоторое сходство. |
 | forest-spirits-in-polish-mythology-c06 | exact | ru.wikipedia.org | Among the West Slavs, the role of protector of forest animals and hunters passed entirely from the forest spirits to Saint Hubert, and that of protector against wolves to Saint Nicholas. | у западных славян функции покровителя лесных зверей и охотников полностью перешли от лесных духов к святому Хуберту, а защитника людей от волков — к святому Николаю |
+| forest-spirits-in-polish-mythology-c07 | exact | pl.wikisource.org | The encyclopedia records that in old popular notions still kept by country folk there was an evil spirit or devil (czart) called borowy, leśny, borowiec or borowik. | Że zaś w dawnych pojęciach narodu, przechowanych dotąd przez lud wiejski, istniał zły duch czyli czart borowy, leśny, borowiec, borowik |
+| forest-spirits-in-polish-mythology-c08 | exact | pl.wikisource.org | According to the encyclopedia, because of its similarity to the word bór, the people transferred the human name Boruta to the devil, also called borowy, rokita and other names, a spirit living in pine forests, thickets and dry willows. | lud przeniósł nazwisko ludzkie Boruta (jak to potwierdza i Karłowicz) na djabła, zwanego także borowym, rokitą, rokickim, wierzbickim, łożińskim, jako na ducha, mieszkającego w boru, rokitach, łozach i suchych wierzbach |
+| forest-spirits-in-polish-mythology-c09 | exact | pl.wikisource.org | Tales of Boruta, who frightened people at night on dykes and in forests, played tricks by leading them off the right road and sometimes appeared as a black dog, circulated throughout the country. | Podania o Borucie, który zajęty był straszeniem ludzi nocą po groblach i lasach i płataniem psot przez sprowadzanie ich z dobrej drogi, a ukazywał się nieraz w postaci psa czarnego, krążyły w całym kraju |
+| forest-spirits-in-polish-mythology-c10 | exact | pl.wikisource.org | The encyclopedia judges that only some Polish writers in the first half of the 19th century put into the mouths of the people things they had never heard from their forefathers. | Dopiero niektórzy literaci polscy w pierwszej połowie XIX wieku włożyli w usta ludu to, o czem on nigdy od ojców swoich nie słyszał |
+| forest-spirits-in-polish-mythology-c11 | exact | pl.wikisource.org | Those writers dressed Boruta in a kontusz (Polish noble robe) for greater effect in their printed legends. | przebrali Borutę w kontusz dla większego efektu drukowanych swoich legend |
 
 
 ## gabartai — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -100,14 +100,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | gabartai-c02 | exact | lt.wikipedia.org | They were first mentioned in 1666 in D. Klein's hymnal, without their functions; in 1673 T. Schultz mentions Gabvartas after the kaukas. | Pirmą kartą paminėtos 1666 m. D. Kleino giesmyne, tačiau funkcijos nepaminėtos. 1673 m. T. Šulcas Gabvartą mini po kauko. |
 | gabartai-c03 | exact | lt.wikipedia.org | According to M. Praetorius they are identical with the kaukai, earth gods who bring wealth; the etymology is unclear. | Pagal M. Pretorijų jie yra tapatus kaukams, žemės dievams, kurie neša turtus. Etimologija neaiški. |
 | gabartai-c04 | exact | lt.wikipedia.org | A. J. Greimas links them with the gates of the drying barn (jauja): in his view Gabjaujis (Gabjauja) lives in the jauja, and the gabvartai separate the jauja from the rest of the barn; but overall the question of the gabartai remains unclear. | A. J. Greimas juos sieja su jaujos vartais, pagal jį jaujoje gyvena Gabjaujis (Gabjauja), o jaują nuo viso kluono atskiria gabvartai. Tačiau apskritai gabartų klausimas yra neaiškus. |
+| gabartai-c05 | exact | archive.org | Greimas notes that the Academic Dictionary of Lithuanian (LKZ), on the basis of the Schultz grammar, treats Gabvartas as a synonym of Gabjaujis. | The same LKZ provides one more word, Gabvartas, which, without citing any examples but on the basis of the Schultz grammar, is considered to be a synonym of Gabjaujis. |
+| gabartai-c06 | exact | archive.org | According to Praetorius (as translated by Greimas), the Nadravers had gods called Kaukarus, Gabwartus and Gabartus, the same as the Kaukuczei or earth gods, who brought many goods and blessings into their barns and stables. | The Nadravers also have some gods whom they call Kaukarus, as well as Gabwartus and Gabartus. These same are the previous Kaukuczei, or earth gods, who used to bring them many goods and blessings into their barns and stables. |
+| gabartai-c07 | exact | archive.org | Greimas argues that since the jauja is the dwelling of Gabjaujis, it is separated and guarded by the Gabvartai. | Since the jauja is the dwelling of Gabjaujis, it is separated and guarded by the Gabvartai. |
+| gabartai-c08 | exact | archive.org | Greimas concludes that the Gabvartai cannot be a synonym for Gabjaujis, yet are hard to imagine as kaukai as Praetorius proposed, since their place is the threshing barn, not the granary. | Gabvartai cannot be a synonym for Gabjaujis but it is difficult to imagine them as ... as is offered by Praetorius: their place is in the threshing barn and not in the granary. |
 
 
 ## ghost-of-ship — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -115,6 +116,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ghost-of-ship-c02 | exact | lv.wikipedia.org | It warns of approaching disaster, such as a storm, stranding or wreck, by knocking and rattling, sometimes even by moans, weeping and cries. | kas ar klaudzēšanu, klaudzināšanu vai dažkārt pat vaidiem, raudām un kliedzieniem brīdina par tuvojošos nelaimi, piemēram, vētru, kuģa strandēšanu vai bojāeju. |
 | ghost-of-ship-c03 | exact | lv.wikipedia.org | Sometimes in such cases the ship spirit gives sailors instructions in human language, and is said to be harsh to those who do not obey. | Dažkārt kuģa gars šādos gadījumos jūrniekiem mēdzot dod norādījumus arī cilvēku valodā, un esot bargs pret tiem, kas viņu neklausa. |
 | ghost-of-ship-c04 | exact | lv.wikipedia.org | The ship spirit is said to leave old, rotting ships and boats, and as soon as it does, the ship perishes. | No veciem un satrunējušiem kuģiem un laivām kuģa gars aizejot, un tiklīdz to ir izdarījis kuģis ejot bojā. |
+| ghost-of-ship-c05 | exact | www.folklore.ee | Every ship was said to have its own good spirit (juva gara) and also its own bad spirit (äbjuva gara). | Igal laeval olevat oma hää vaim = juva gara ja samuti ka oma paha vaim = äbjuva gara |
+| ghost-of-ship-c06 | exact | www.folklore.ee | This ship spirit is sometimes called simply laevavaim (koig-gara), laevakummitus (koig-spuok) or merevaim (mjer-gara). | Seda laevahaldjat kutsutakse mõnikord lihtsalt laevavaim = koig-gara (Sr, Kr, Pr, Kl), laevakummitus = koig-spuok (Sr), merevaim = mjer-gara (L, Pr) |
+| ghost-of-ship-c07 | exact | www.folklore.ee | Nowadays the ship spirit is most often called by the German name Klabautermann, borrowed from Baltic Sea (Baltimere) sailors. | Praegu hüütaksegi sagedaimini laevahaldjat Baltimere laevureilt lainatud saksakeelse nimega Klabautermann |
+| ghost-of-ship-c08 | exact | www.folklore.ee | Sometimes the potermann is said to be the devil (kurat), yet it is not an evil spirit but a helper: it keeps and steers the ship. | Mõnikord öeldakse ka, et potermann on kurat ... ometi ta pole paha vaim, vaid avitaja: ta hoiab ja juhib laeva |
+| ghost-of-ship-c09 | exact | www.folklore.ee | The potermann is said to take many forms, most commonly a man, and to wear blue trousers, a red jumper and a black hat. | ta olevat mitmekujuline (L), üldiseimalt meesterahvas ... ning temal on sinised püksid, punane kampsun ja must kübar |
+| ghost-of-ship-c10 | exact | www.folklore.ee | As soon as a ship is being built, the potermann takes its place there. | Juba kui laeva tehakse, ta võtab kohe endale sinna koha |
+| ghost-of-ship-c11 | exact | www.folklore.ee | If the potermann goes ashore carrying a bundle under its arm, the ship will indeed be lost, but the people will still escape with their lives. | kui potermann lähebki maha, kuid kui tal on kaasas mingi paun kainla all, siis see laev läheb küll hukka, ometi inimesed pääsevad veel eluga |
+| ghost-of-ship-c12 | exact | www.folklore.ee | The same word occurs on the Eesti islands: kotermann (Saaremaa, Muhu), potermann (Sõrve) and putermann (Kihnu). | Niisama sõna esineb Eesti saartel: kotermann (Saaremaa, Muhu) ~ potermann (Sõrve) ~ putermann (Kihnu). |
 
 
 ## gorgonya — lulus-otomatis
@@ -143,10 +152,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## hejkal — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -157,6 +163,10 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | hejkal-c05 | exact | cs.wikipedia.org | The hejkal resembles the East Slavic leshy (lešij), as well as the fauns (faunům) and satyrs (satyrům) of antiquity and the Western European dusii (dusům). | Hejkal se podobá východoslovanskému lešijovi, ale také antickým faunům a satyrům, a západoevropským dusům. |
 | hejkal-c06 | exact | cs.wikipedia.org | Its female counterparts are the hejkalky, divoženky and lesní panny (forest maidens). | Ženskou obdobou jsou hejkalky, divoženky a lesní panny. |
 | hejkal-c07 | exact | cs.wikipedia.org | Hejkal is the title of a 1978 Czechoslovak television fairy tale. | Hejkal, československá televizní pohádka, 1978 |
+| hejkal-c08 | exact | clanky.rvp.cz | It is never wise to answer the hejkal's cry with a similar halloo; the hejkals cannot stand it. | Nikdy není radno na hejkalí křik odpovídat podobným zahalekáním. To hejkalové přímo nesnášejí. |
+| hejkal-c09 | exact | clanky.rvp.cz | Some legends (pověsti) even say that a person who mimicked the hejkals was torn to pieces by them. | V některých pověstech se dokonce píše o tom, že člověka, který se po hejkalech opičil, roztrhali na kusy. |
+| hejkal-c10 | exact | clanky.rvp.cz | The book says the hejkadla, found in the forests of the Českomoravská vysočina, especially around Jihlava, Pelhřimov and Havlíčkův Brod (Jihlavsku, Pelhřimovsku, Havlíčkobrodsku), resemble owls. | Hejkadla, která se vyskytují v lesích na Českomoravské vysočině, zejména na Jihlavsku, Pelhřimovsku a Havlíčkobrodsku, jsou podobná sovám. |
+| hejkal-c11 | exact | clanky.rvp.cz | In the book, hejkals grow to about human height, some a little smaller; their arms and legs look like thick twisted branches and their skin resembles pine bark. | Hejkalové dorůstají přibližně stejné výšky jako lidé. Jen část z nich je o trochu menší. Jejich ruce i nohy vypadají jako silné pokroucené větve stromů a jejich kůže se podobá kůře borovic. |
 
 
 ## herattaja — lulus-otomatis
@@ -177,10 +187,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## hippa — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -190,6 +197,10 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | hippa-c04 | exact | fi.wikipedia.org | Occasionally Hippa could also be female. | Satunnaisesti Hippa saattoi olla myös nainen |
 | hippa-c05 | exact | fi.wikipedia.org | The name Hippa possibly comes from the creature's "hiippalakki", a tall pointed headdress. | Hippa-nimitys tulee mahdollisesti olennon hiippalakista, korkeasta suiposta päähineestä. |
 | hippa-c06 | exact | fi.wikipedia.org | An old text calls Hippa the supreme king of the forest, likened to Faunus or Pan, the most important forest god, perhaps the same as the one named Kuippana. | HIPPA, (Ylimmäinen metän Kuningas) Faunus el. Pan, tärkein Metsänjumala, kenties sama, joka on nimeltään Kuippana |
+| hippa-c07 | exact | www.gutenberg.org | Krohn describes hippa or hiippa as a name belonging to the language of folk poetry, most often used in addressing the forest spirit: "metsän hippa", grey-bearded (halliparta); the corresponding "veden hippa" (water hippa) is rare. | Sitävastoin on hippa eli hiippa runokieleen kuuluva nimitys. Tavallisimmin se esiintyy metsänhaltian puhuttelussa: metsän hippa (hiippa, hyppä) "halliparta"; vastaava veden hippa on harvinainen. |
+| hippa-c08 | exact | www.gutenberg.org | According to Krohn, Castrén explained the forest spirit's name hippa as deriving from its tall headdress (hiippa). | Castrén selittää metsänhaltian hippa nimityksen johtuvan hänen korkeasta päähineestään, hiipastaan. |
+| hippa-c09 | exact | www.gutenberg.org | Ganander records that another Hippa was regarded as a daughter of Hiisi (Hijsi), who was to torment thieves. | En annan vid namn Hippa anses för Hijsis dotter, Som skulle plåga tjufvar |
+| hippa-c10 | exact | www.gutenberg.org | In the entry on Hiisi, Ganander writes that Hippa was one of Hiisi's daughters who, together with Kalma, made thieves hurry to return what they had stolen. | Hippa var en af Hijsis döttrar, som i lag med Kalma gaf brådtom åt tjufvar, at återhämta det bortstulna. |
 
 
 ## hrabia-manteufel — lulus-otomatis
@@ -208,10 +219,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## illhveli — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -219,14 +227,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | illhveli-c02 | exact | ru.wikipedia.org | The Icelanders placed a taboo on their names; anyone who spoke them was left without food. | У исландцев было наложено табу на их названия, за их произнесение оставляли без пищи. |
 | illhveli-c03 | exact | ru.wikipedia.org | According to the Icelanders there were "evil" and "good" whales: good whales save drowning shipwrecked people, while evil ones smash ships and devour the drowning. | По мнению исландцев, существовали «злые» и «добрые» киты. Добрые киты спасают тонущих людей, терпящих крушение, а злые наоборот, сокрушают суда и пожирают утопающих. |
 | illhveli-c04 | exact | ru.wikipedia.org | The sperm whale and the narwhal, as well as some mythical whales, were considered evil. | Злыми считались кашалот и нарвал, а также некоторые мифические киты. |
+| illhveli-c05 | exact | is.wikisource.org | The most universal rule of caution at sea was never to say "whale" but always "big fish" (stórfisk), because as soon as a forbidden name is spoken, the whale bearing it comes and wants to destroy the boat. | er það einhver algildasta varúðarregla á sjó að nefna aldrei hval, heldur ávallt „stórfisk“ við hvern hval sem maður á, því undireins og maður nefnir eitthvert þeirra nafna sem sjóvíti sætir kemur sá hvalur sem nafnið á og vill granda skipinu |
+| illhveli-c06 | exact | is.wikisource.org | Rorquals (reyðarhvalir) were believed always to protect boats from the illhveli, driving them off and lying on top of them. | fyrir reyðarhvölum sem verja jafnan skipin fyrir illhvelum, bægja þeim frá og liggja ofan á þeim |
+| illhveli-c07 | exact | is.wikisource.org | It is said that the mark of all illhveli is that no "smoke" rises from them when they blow, only spray, whereas good whales give off much "smoke" when they blow. | Það segja menn að sé einkenni á öllum illhvelum að enginn reykur komi upp úr þeim þegar þau blása, heldur vatnsýrir einar, en upp af góðum hvölum leggur reyk mikinn þegar þeir blása |
+| illhveli-c08 | exact | is.wikisource.org | It was and still is believed that the illhveli are so greedy that they take a boat with its men into their jaws, smash the boat to pieces and swallow the men. | Það hefur verið trú og er enn að illhvelin sé svo gráðug að þau taki skip með mönnum og öllu saman í gin sér, brjóti skipið í smámola, en gleypi mennina |
+| illhveli-c09 | exact | is.wikisource.org | Many if not all illhveli are considered inedible, and the law forbids eating some of them. | Mörg ef ekki öll illhvelin eru talin óætisfiskar og bannað í lögum að leggja suma þeirra sér til munns. |
+| illhveli-c10 | exact | is.wikisource.org | The hrosshveli (horse-whale) is said by some to have the shape of a horse, to neigh like a horse and to have a tail like a horse. | Hrosshvelið segja sumir að sé í hestslíki, hneggi eins og hestur og hafi tagl sem hestar |
+| illhveli-c11 | exact | is.wikisource.org | The nauthveli (bull-whale), also called fjósi, is said to be the largest of all illhveli apart from the lyngbakur. | Nauthvelið á að vera stærst allra illhvela að undanteknum lyngbak; það heitir og „fjósi“. |
+| illhveli-c12 | exact | is.wikisource.org | Rauðkembingur is one of the illhveli, said to have red hair along its back, from which its name comes. | Rauðkembingur heitir illhveli eitt; er það sagt að hann hafi rauð hár eftir hryggnum og þaðan sé dregið nafn hans |
 
 
 ## irudica — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -236,6 +249,12 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | irudica-c04 | exact | ru.wikipedia.org | Among the Croats the granddaughter of Herod the Great is known as Poganica, and her daughter Salome as Irudica. | У хорватов внучка Ирода Великого известна как Poganica (Поганица), а её дочь Саломея как Irudica (Ирудица). |
 | irudica-c05 | exact | ru.wikipedia.org | In Dalmatia John the Baptist acted as protector against the thunderbolts that God directed at Irudica; fleeing the lightning, she is doomed to wander the world finding no shelter, riddled by lightning. | В Далмации Иоанн Креститель выступал в качестве защитника от громовых ударов, которые по воле Божьей были направлены против Ирудицы. Спасаясь от молний она обречена скитаться по свету не находя нигде укрытия и изрешечена молниями. |
 | irudica-c06 | exact | ru.wikipedia.org | In a commentary on a folk song from the island of Hvar, its collector explained that the name Rudica derives from her red hair. | В комментарии к этим стихам собиратель объяснил, что имя Рудица восходит к её рыжим волосам |
+| irudica-c07 | exact | morepress.unizd.hr | In Croatian (hrvatskoj) tradition Herodias is called Poganica and her daughter Irudica; according to folk belief Irudica leads storms accompanied by heavy thunder, while her mother Poganica, hidden in a cloud, shields her from being struck. | U hrvatskoj se tradiciji Herodijada naziva Poganica, a njezina kćerka Irudica. Po narodnome vjerovanju, Irudica predvodi olujno nevrijeme praćeno jakom grmljavinom, a njezina majka Poganica, sakrivena u oblaku, krije ju da ne bude pogođena. |
+| irudica-c08 | exact | morepress.unizd.hr | The Croats (Hrvati) once cast spells against Irudica; the old charms have been Christianised and are still spoken today during thunder and lightning to protect people and their property from Irudica. | Nekoć su Hrvati bajali protiv Irudice. Nekadašnje su basme kristijanizirane te se i u naše vrijeme izgovaraju kad grmi i sijeva kako bi se ljudi i njihovo imanje zaštitili od Irudice. |
+| irudica-c09 | exact | morepress.unizd.hr | Most of the examples in Dragić's study were recorded in the field between 1997 and 2016 in Croatia (Republici Hrvatskoj) and Bosnia and Herzegovina (Bosni i Hercegovini). | Najviše je primjera izvorno na terenu snimljeno od 1997. do 2016. godine u Republici Hrvatskoj i Bosni i Hercegovini. |
+| irudica-c10 | exact | morepress.unizd.hr | In 1897 Antun Ilija Carić published the paper "Rudica, kćer Poganice. Narodno vjerovanje na otocima Hvaru i Braču" on folk belief on the islands of Hvar and Brač. | Antun Ilija Carić 1897. objavio je rad "Rudica, kćer Poganice. Narodno vjerovanje na otocima Hvaru i Braču". |
+| irudica-c11 | exact | morepress.unizd.hr | According to Frano Ivanišević's record, people in Poljica believe that Saint Elijah (sv. Ilija) shoots thunderbolts at Irudica to destroy her. | navodi da narod u Poljicima vjeruje da sv. Ilija gromovima puca na Irudicu (đavlinom) kako bi je smaknuo |
+| irudica-c12 | exact | morepress.unizd.hr | Dragić judges that the demonic beings Irudica and Poganica remain extremely under-researched in Croatian folkloristics. | Ipak, u folkloristici Hrvata iznimno su nedostatno istražena demonska bića Irudica i Poganica. |
 
 
 ## jaroszek — lulus-otomatis
@@ -276,10 +295,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## khaan-khereti — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -289,14 +305,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | khaan-khereti-c04 | exact | ru.wikipedia.org | It is a giant bird in the form of an eagle, more often a hawk; sometimes depicted as fiery, and able to speak human language. | Гигантская птица в виде орла, чаще ястреба. В некоторых случаях изображается огненной. Умеет говорить на человеческом языке. |
 | khaan-khereti-c05 | exact | ru.wikipedia.org | An example motif: a batyr (hero) saves the chicks of Khaan-Khereti (Tuvan) or Samrigush (Bashkir) from a voracious nine-headed azhdaha (Bashkir) or fifteen-headed serpent (Tuvan), and in return the bird promises to lift him to the Upper World. | Пример: Батыр спасает птенцов Хаан-Херети (тувинск.) Самригуш (башк.) от прожорливой девятиглавой аждахи (башк.) / пятнадцатиголовый змей (тувинск.), за что птица обещает батыра поднять в Верхний мир. |
 | khaan-khereti-c06 | exact | ru.wikipedia.org | Following Tibetan tradition, some Tuvans tend to depict Khaan-Khereti as Garuda and put her image on small flags. | По тибетской традиции, некоторые тувинцы склонны изображать Хаан-Херети в виде Гаруды и наносить её изображение на флажки. |
+| khaan-khereti-c07 | exact | www.asu.ru | Khusainova compares Bashkir and Tuvan tales: the hero saves the chicks of Samrigush (Bashkir) or Khaan-Khereti (Tuvan) from a nine-headed azhdaha (Bashkir) or a fifteen-headed serpent (Tuvan), and the bird promises to lift him to the Upper World. | / Хаан-Херети (тувинск.) от прожорливой девятиглавой аждахи (башк.) / пятнадцатиголовый змей (тувинск.), за что птица обещает батыра поднять в Верхний мир. |
+| khaan-khereti-c08 | exact | www.asu.ru | In the Bashkir tale Samrigush tells the hero to lay in forty bowls of meat and milk, while in the Tuvan tale it tells him to shoot ducks. | В башкирской сказке Самригуш велит батыру запастись сорока мисками мяса, молока, а в тувинской – настрелять уток |
+| khaan-khereti-c09 | exact | www.asu.ru | Khusainova highlights that as the mythical bird carries the hero to the Upper World, its food runs out before they arrive; in the Bashkir tale the hero feeds it a piece of meat cut from his own leg, while in the Tuvan tale he throws his hat into its mouth. | Привлекает внимание, как мифическая птица помогает герою выбраться в Верхний мир, но перед выходом заканчивается еда для птицы и в башкирской сказке батыр кормит птицу куском мяса, отрезанным из своей ноги, а в тувинской – бросает ей в рот свою шапку. |
 
 
 ## kiira — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -307,14 +323,18 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | kiira-c05 | exact | fi.wikipedia.org | According to Vilkuna, the old people's most common explanation for driving out kiira was that snakes would then not come into the yard in summer. | Vilkunan mukaan vanhan kansan tavallisin selitys kiiran ajamiselle on, että näin menetellen käärmet eivät tulleet kesällä pihaan. |
 | kiira-c06 | exact | fi.wikipedia.org | According to Vilkuna, kiira remained a vague being to the people, and behind the custom there apparently lies an old purification rite from Catholic times. | Kiira on Vilkunan mukaan jäänyt kansalle epäselväksi olennoksi. Tavan takana on hänen mukaansa ilmeisesti vanha katolisaikainen puhdistusmeno. |
 | kiira-c07 | exact | fi.wikipedia.org | The Finnish word kiira is apparently a loan from Old Swedish; the corresponding modern Swedish word is "skär" (pure). | Suomen kielen nimitys kiira on ilmeisesti laina muinaisruotsista. Nykyruotsin vastaava sana on skär 'puhdas'. |
+| kiira-c08 | exact | web.archive.org | This source describes driving out the kiira (kiiran ajo) as a distinctive expression of purification over a wide area of the country: a sledge loaded with metal objects and a burning tar pot was dragged around the buildings. | Omalaatuinen puhdistautumisen ilmentymä laajalla alueella maassamme oli kiiran ajo: vedettiin rakennusten ympäri kelkkaa, johon oli lastattu mm. metalliesineitä ja palava terva-astia. |
+| kiira-c09 | exact | web.archive.org | While dragging it, people said for example "Kitis kiira metsään, tulta savua selkään" (Off to the forest, kiira, fire and smoke on your back). | Vedettäessä lausuttiin esimerkiksi: "Kitis kiira metsään, tulta savua selkään." |
+| kiira-c10 | exact | web.archive.org | Metal objects might also be tied around the waist and a cowbell hung around the neck. | Metalliesineitä saatettiin kiinnittää myös vyötäisille ja lehmänkello kaulaan. |
+| kiira-c11 | exact | web.archive.org | With these acts people sought to ensure that snakes did not come into the yard in summer and that the cattle came home on time. | pyrittiin varmistamaan, ettei käärmeitä tullut kesällä pihaan ja että karja saapui ajoissa kotiin. |
+| kiira-c12 | exact | web.archive.org | Kiira, also called piharikko in charms, was some being or force that disturbed the peace of the yard. | Kiira, josta loitsuissa käytettiin myös nimeä piharikko, oli jokin pihan rauhaa häiritsevä olento tai voima. |
+| kiira-c13 | exact | web.archive.org | Before disappearing, driving out the kiira and ringing cowbells still lived on in the 20th century (1900-luvulla) as a play tradition of children and the childlike. | Ennen häviämistään kiiran ajo ja lehmänkellojen soitto on elänyt vielä 1900-luvulla lasten ja lapsenmielisten leikkiperinteenä. |
+| kiira-c14 | exact | web.archive.org | The use of smoke was apparently learned from the Catholic censer. | Savun käyttö oli ilmeisesti opittu katolisesta suitsutusastiasta. |
 
 
 ## kodinhaltija — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -323,14 +343,17 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | kodinhaltija-c03 | exact | fi.wikipedia.org | The kodinhaltija is usually said to like being by the hearth, on top of or behind the stove, and sometimes banged the stove door as a sign that someone was coming to the house. | Kodinhaltijan on yleensä kerrottu viihtyvän tulisijan äärellä, uunin päällä tai uunin takana. Joskus sen on kuvailtu pamautelleen uunin luukkua merkiksi siitä, että joku tuli taloon. |
 | kodinhaltija-c04 | exact | fi.wikipedia.org | At the table the kodinhaltija was often given its share before the other diners; people tried to stay on good terms with it, since a badly treated kodinhaltija began to cause trouble, and its appearance was taken as an omen of misfortune or death. | Ruokapöydässä kodinhaltijalle annettiin usein oma osuutensa ennen muita ruokailijoita. Kodinhaltijan kanssa yritettiin pysyä hyvissä väleissä, sillä huonosti kohdeltu kodinhaltija alkoi häiriköidä. Haltijan näyttäytymistä pidettiin onnettomuuden tai kuoleman enteenä. |
 | kodinhaltija-c05 | exact | fi.wikipedia.org | When the kodinhaltija was wanted to move into a new house built to replace the old one, stones, ash or soil from the old hearth were brought to the new house. | Kun kodinhaltijan haluttiin muuttavan uuteen taloon jos sellainen rakennettiin vanhan tilalle, tuotiin uuteen taloon vanhan talon tulisijan kiviä, tuhkaa tai multaa. |
+| kodinhaltija-c06 | exact | archive.org | Holmberg writes that the Baltic Finns call the household spirit "the Ruler" (Finnish Haltia, Esthonian Haldja). | The Baltic Finns, who form a group by themselves, call the household spirit "the Ruler" (Finnish Haltia, Esthonian Haldja). |
+| kodinhaltija-c07 | exact | archive.org | When settling in a new dwelling, and even when staying anywhere for the night, permission must first be begged of this Ruler. | When settling in a new dwelling, and even when staying anywhere for the night, permission must first be begged of this |
+| kodinhaltija-c08 | exact | archive.org | If even one log of the old house was used again, the Haltia moved with it into the new house; the ashes from all the hearths were also taken to the new fireplaces. | But if even one log was taken into use, he removed with this into the new house. ... the ashes from all the hearths were taken over to the new fireplaces. |
+| kodinhaltija-c09 | exact | archive.org | According to a belief prevalent in Finland, the person who died first in the house, or who lit the first fire there, became the Haltia of the house. | According to a belief prevalent in Finland, the person who died first in the house, or the one who lit the first fire there, became the Haltia of the house. |
+| kodinhaltija-c10 | exact | archive.org | In Ingria the Haltia is said to have appeared as a dog or a mottled or striped cat, which was a sign of fire. | In Ingria the Haltia is said to have appeared at such times in the shape of a dog or a mottled or striped cat. This was a sign of fire. |
+| kodinhaltija-c11 | exact | archive.org | The male Haltia ranked higher than the female, as the master had stood above the mistress in life, but children grew up better where the Haltia was a woman. | The male Haltia was of higher rank than the female, just as in life the master had stood above the mistress ... but children grew up better where the Haltia was a woman. |
 
 
 ## kratti — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -338,6 +361,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kratti-c02 | exact | fi.wikipedia.org | Aarni is a similar being; the name Kratti comes from the Swedish word "skratt" (laughter). | Samantapainen on myös Aarni. Nimi Kratti tulee ruotsin sanasta skratt ’nauru’. |
 | kratti-c03 | exact | fi.wikipedia.org | According to Mikael Agricola, Kratti was among the guardian spirits (haltija) worshipped by the Tavastians (Häme people). | Mikael Agricolan mukaan Kratti kuului hämäläisten palvomiin haltijoihin. |
 | kratti-c04 | exact | fi.wikipedia.org | According to a poem by Sigfridus Aronus Forsius written in the 1500s or 1600s, Kratti is one-eyed and grants wealth to its worshipper. | Sigfridus Aronus Forsiuksen 1500- tai 1600-luvulla kirjoittaman runon mukaan Kratti on yksisilmäinen ja lahjoittaa rikkautta palvojalleen. |
+| kratti-c05 | exact | www.gutenberg.org | Ganander calls Kratti a money god of the Tavastians (Tavasters), the same as the Swedes' Skratt. | KRATTI, En Tavasters Penninge-Gud, samme som Svenskarnes Skratt. |
+| kratti-c06 | exact | www.gutenberg.org | Kratti was believed not to give up the hidden hoard without offerings and various charms; it often showed the money chest at the surface of the ground or water, but sank it again when not favourable. | Kratti troddes ock ej upgifva gömman, utan offer och åtskilliga signerier. Viste ofta penninge-kistan vid jord- eller vattu-ytan, men sänkte den åter ned, då han ej var gunstig. |
+| kratti-c07 | exact | www.gutenberg.org | In the entry on the tonttu, Ganander equates the Raha-Tonttu (money tonttu) with Kratti. | Jywä Tonttu bar hem skylar och ökte sädes-bingen. Raha-Tonttu, samma som Kratti |
+| kratti-c08 | exact | www.gutenberg.org | Krohn calls kratt a Scandinavian loanword, also found in Slavic languages meaning a household spirit; in Old Icelandic skratti meant a ghost. | Myös kratt on skandinaavilainen lainasana, joka tavataan slaavilaisissakin kielissä kodinhaltian merkityksessä; muinaisislannissa skratti merkitsi kummitusta. |
+| kratti-c09 | exact | www.gutenberg.org | Kratti was once known in Finland too; among the gods of the Häme people named by Agricola, the kratti "took care of property", but there is very little information about it from more recent times. | Suomessakin on kratti aikoinaan ollut tunnettu. Agricolan mainitsemista hämäläisten jumalista kratti "murheen piti tavarasta". Uudemmalta ajalta on siitä kuitenkin perin vähän tietoja. |
+| kratti-c10 | exact | www.gutenberg.org | In central Uusimaa (Keski-Uusimaa), the kratti is understood as an invisible being that makes a humming sound heard by travellers on dark nights. | Keski-Uudellamaalla ymmärretään kratilla näkymätöntä olentoa, joka päästää hyrisevän äänen, minkä matkustajat pimeinä öinä kuulevat. |
+| kratti-c11 | exact | archive.org | Holmberg writes that the Esthonian Kratt, like the Finnish Para, could be made of certain materials and carried money in a sack; food was offered to it, generally porridge and milk. | The Esthonian Kratt, which, like the Finnish Para, could be manufactured of certain ma- terials, carried money, etc., in a sack. Food was offered up to it — generally porridge and milk. |
 
 
 ## krepel-mythology — lulus-otomatis
