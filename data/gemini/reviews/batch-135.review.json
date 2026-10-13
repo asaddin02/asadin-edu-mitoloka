@@ -1,19 +1,22 @@
 {
   "batch_id": "batch-135",
-  "checked_at": "2026-10-02T04:28:32.349Z",
+  "checked_at": "2026-10-13T18:37:10.951Z",
   "files": [
-    "batch-135.md"
+    "batch-135.md",
+    "batch-135-fix-1.md",
+    "batch-135-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "mich",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "521b2209eaadf1ba2c08ac895ca52c189489341ddcd85ae38e1fc3aa74519515",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -21,11 +24,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Masyarakat adat Kamchatka\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -48,26 +46,71 @@
           "quote": "Mich solo piensa en sí mismo, por lo que aquellos pueblos no esperan del dios ningún beneficio, pues si envía los peces a las orillas del mar, solo es para que le busquen y lleven la madera para hacer sus canoas y no para ser útiles a los hombres.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "mich-c03",
+          "source_id": "mich-s2",
+          "host": "archive.org",
+          "statement": "This mythology dictionary says the Kamchadals (kamtschadales) made themselves a sea god, whose name reads 'Mi¿g' in the scanned text.",
+          "statement_id": "Kamus mitologi ini menyebut orang Kamchadal (kamtschadales) membuat seorang dewa laut, yang namanya dalam teks pindaian terbaca 'Mi¿g'.",
+          "quote": "Se han he- cho un dios del mar, llamado por ellos Mi¿g } que representan bajo Ja",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mich-c04",
+          "source_id": "mich-s2",
+          "host": "archive.org",
+          "statement": "The god is represented in the form of a fish (pescado), but he thinks only of himself.",
+          "statement_id": "Dewa itu digambarkan dalam wujud ikan (pescado), tetapi ia hanya memikirkan dirinya sendiri.",
+          "quote": "forma de un pescado; pero este dios solo piensa en sí mismo.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mich-c05",
+          "source_id": "mich-s2",
+          "host": "archive.org",
+          "statement": "If he sends fish to the seashore, it is in search of wood (madera), not so that they may serve as food for people.",
+          "statement_id": "Bila ia mengirim ikan ke tepi laut, itu untuk mencari kayu (madera), bukan agar ikan itu menjadi makanan manusia.",
+          "quote": "Si en- vía peces á la orilla del mar , es en busca de madera y no para que sir- van de alimento á los hombres.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mich-c06",
+          "source_id": "mich-s2",
+          "host": "archive.org",
+          "statement": "These peoples cannot be persuaded that a deity could do good to people.",
+          "statement_id": "Bangsa-bangsa ini tidak bisa diyakinkan bahwa suatu dewa dapat berbuat baik kepada manusia.",
+          "quote": "pueblos no pueden persuadirse de que una divinidad pueda hacer bien á los hombres.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mich-c07",
+          "source_id": "mich-s2",
+          "host": "archive.org",
+          "statement": "The Kamchadals (kamtschadales) give nothing to their god because they expect no benefit from him either.",
+          "statement_id": "Orang Kamchadal (kamtschadales) tidak memberi apa pun kepada dewanya karena mereka juga tidak mengharapkan manfaat apa pun darinya.",
+          "quote": "si los kamtschadales no dan nada á sn dios es porque tampoco esperan de él ningún beneficio.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "moixina",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "30bf130a0ea4fb4c8b9ae10aed72f66c7e9d94e7de708637c1ac028534fe2cd4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "moixina-c01",
@@ -88,26 +131,81 @@
           "quote": "Té molt de mal geni i pega els nens dolents; a les nenes les pentina amb cardots i els fa unes estrebades tan fortes que els arrenca tots els cabells i queden ben pelades.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "moixina-c03",
+          "source_id": "moixina-s2",
+          "host": "surtdecasa.cat",
+          "statement": "The Moixina is a Catalan cave-dwelling ogress: a strange, grumbling old woman with a very bad temper who beats naughty boys and combs badly behaved girls with thistles.",
+          "statement_id": "Moixina adalah raksasa perempuan (ogressa) penghuni gua dari Katalonia (catalana): perempuan tua yang aneh dan suka menggerutu, sangat pemarah, memukul anak laki-laki nakal dan menyisir anak perempuan yang tidak berkelakuan baik dengan duri (cardots).",
+          "quote": "La Moixina és una ogressa cavernícola catalana. És una vella estranya i grunyidora, amb molt mal geni, que pega els nens dolents i pentina les nenes que no es porten bé amb cardots.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moixina-c04",
+          "source_id": "moixina-s2",
+          "host": "surtdecasa.cat",
+          "statement": "She tugs so hard that she pulls the hair out, leaving the head as bald as a monkey's.",
+          "statement_id": "Ia menarik begitu keras hingga rambut tercabut dan kepala menjadi gundul seperti kepala monyet (mona).",
+          "quote": "Fa tantes estrebades que arrenca els cabells, deixant el cap pelat com una mona.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moixina-c05",
+          "source_id": "moixina-s2",
+          "host": "surtdecasa.cat",
+          "statement": "Espantanens are typical figures of European folklore used to frighten children, who are told that if they do not behave, one espantanens or another will come.",
+          "statement_id": "Espantanens adalah tokoh khas folklor Eropa yang dipakai untuk menakuti anak-anak: mereka diberi tahu bahwa kalau tidak berkelakuan baik, espantanens tertentu akan datang.",
+          "quote": "Els espantanens són uns personatges típics del folklore europeu que es fan servir per espantar la mainada, tot dient-los que si no es porten bé, vindrà tal o qual espantanens",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "moixina-c06",
+          "source_id": "moixina-s3",
+          "host": "bibgirona.cat",
+          "statement": "A 2021 Viure als Pirineus report likewise calls the Moixina a Catalan cave-dwelling ogress, a strange, bad-tempered old woman who beats naughty children.",
+          "statement_id": "Liputan Viure als Pirineus tahun 2021 juga menyebut Moixina sebagai raksasa perempuan (ogressa) penghuni gua dari Katalonia (catalana), perempuan tua aneh yang pemarah dan memukul anak nakal.",
+          "quote": "La Moixina: és una ogressa cavernícola catalana. És una vella estranya i grunyidora, amb molt mal geni, que pega els nens dolents",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moixina-c07",
+          "source_id": "moixina-s4",
+          "host": "bibgirona.cat",
+          "statement": "According to a 2023 report, the Moixina is a being of ambiguous character, a nymph in the form of a cat that lives hidden among the waters of a spring in Olot.",
+          "statement_id": "Menurut liputan tahun 2023, Moixina adalah makhluk berwatak ambigu, nimfa berwujud kucing (gat) yang hidup tersamar di antara air sebuah mata air (font) di Olot.",
+          "quote": "La Moixina és un ésser de personalitat ambigua, una nimfa en forma de gat que viu confosa entre les aigües d'una font a Olot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moixina-c08",
+          "source_id": "moixina-s4",
+          "host": "bibgirona.cat",
+          "statement": "The Espantanens paraded through the streets of Puigcerdà, handing out sweets to the children and scaring young and old alike.",
+          "statement_id": "Para Espantanens berparade di jalan-jalan Puigcerdà, membagikan permen kepada anak-anak sambil menakuti orang tua dan anak kecil.",
+          "quote": "Els Espantanens han desfilat puntualment aquest dissabte pels carrers de Puigcerdà, repartint caramels entre la mainada i espantant grans i petits.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "molsosa",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "fd677cf4200d04992683077196e2c07079b570b0c0f094061ee8ec8bb694d605",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "molsosa-c01",
@@ -158,26 +256,31 @@
           "quote": "els carboners creien que els atacava perquè tallaven els arbres",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "molsosa-c06",
+          "source_id": "molsosa-s2",
+          "host": "www.eltemps.cat",
+          "statement": "The magazine El Temps includes the Molsosa in its list of local mythological figures (personatges mitològics), alongside the simiot, the Pesanta and the Quarantamaula.",
+          "statement_id": "Majalah El Temps memasukkan Molsosa ke dalam daftar tokoh mitologi (personatges mitològics) daerah setempat, bersama simiot, Pesanta, dan Quarantamaula.",
+          "quote": "La llista de personatges mitològics de les nostres contrades inclou també éssers com la Molsosa, el simiot, la Pesanta, la Quarantamaula, el Trip Reial, els nyitols, el bocarrot, gegants com el Puigmal, el Nonell, el Caramançó",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "monachicchio",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "b89ef4af50c8ba7a8adf3628527e555d3743aee9d0035e6676194fc9eb23253a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "monachicchio-c01",
@@ -268,26 +371,51 @@
           "quote": "L'unico modo per porre fine ai loro scherzi è privarlo del cappello.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "monachicchio-c10",
+          "source_id": "monachicchio-s2",
+          "host": "www.meer.com",
+          "statement": "In Basilicata these house spirits are called munaceddi and monachicchi interchangeably.",
+          "statement_id": "Di Basilicata, roh-roh rumah ini disebut munaceddi atau monachicchi tanpa dibedakan.",
+          "quote": "In Basilicata li chiamano indifferentemente munaceddi e monachicchi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c11",
+          "source_id": "monachicchio-s2",
+          "host": "www.meer.com",
+          "statement": "Carlo Levi's Cristo si è fermato ad Eboli describes these lively spirits of Basilicata running swiftly and elusively through the house, catchable only by a lightning grab at the red cap (berretto) on their heads.",
+          "statement_id": "Buku Cristo si è fermato ad Eboli karya Carlo Levi melukiskan roh-roh lincah di Basilicata ini berlari cepat di dalam rumah dan sulit ditangkap, kecuali dengan gerakan kilat menyambar topi (berretto) merah di kepala mereka.",
+          "quote": "Se leggete qualche pagina di Cristo si è fermato ad Eboli di Carlo Levi vi divertirete con una descrizione di questi spiriti vivaci e irrequieti, presenti in Basilicata, che corrono per la casa veloci e imprendibili, afferrabili solo con una mossa veloce e fulminea per il berretto rosso che hanno in testa.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c12",
+          "source_id": "monachicchio-s2",
+          "host": "www.meer.com",
+          "statement": "Each region has its own name for these little spirits: salvanelli in Veneto, linchetti in Tuscany (Toscana), pamarindi in Friuli, farfareddi in Sicily (Sicilia), monachicci in Basilicata and munacielli in Campania.",
+          "statement_id": "Setiap daerah punya nama sendiri untuk roh-roh kecil ini: salvanelli di Veneto, linchetti di Toscana, pamarindi di Friuli, farfareddi di Sicilia, monachicci di Basilicata, dan munacielli di Campania.",
+          "quote": "Regione che vai, nome che trovi. Salvanelli in Veneto, linchetti in Toscana, pamarindi in Friuli, farfareddi in Sicilia, monachicci in Basilicata, munacielli in Campania",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mu-ye",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "8d7a3a6b3e8739dcb5ceb770d3bf97230639bc10289ddcc9a865cea3eb821f1f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mu-ye-c01",
@@ -298,26 +426,81 @@
           "quote": "Mu'ye était le dieu de la pluie des Otomis, à l’époque mésoaméricaine.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "mu-ye-c02",
+          "source_id": "mu-ye-s2",
+          "host": "revistas.inah.gob.mx",
+          "statement": "Hmü´ye is one of the principal deities in historical Otomi (otomí) thought about rain (lluvia).",
+          "statement_id": "Hmü´ye adalah salah satu dewa utama dalam pemikiran historis orang Otomi (otomí) tentang hujan (lluvia).",
+          "quote": "Hmü´ye es una de las principales deidades relacionadas con el pensamiento histórico otomí en torno a la lluvia",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250716145148id_/https://revistas.inah.gob.mx/index.php/cuicuilco/article/download/20234/22369/42996",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "mu-ye-c03",
+          "source_id": "mu-ye-s2",
+          "host": "revistas.inah.gob.mx",
+          "statement": "His cult is closely related to Tláloc within the Mesoamerican worldview; iconographically he is shown with goggle-like eye rings (anteojeras) and fangs bearing serpent figures.",
+          "statement_id": "Pemujaannya berkerabat erat dengan Tláloc dalam pandangan dunia Mesoamerika; secara ikonografis ia digambarkan dengan lingkaran mata (anteojeras) dan taring yang memuat sosok-sosok ular.",
+          "quote": "su culto se encuentra profundamente emparentado con Tláloc dentro de la cosmovisión mesoamericana, figurado iconográficamente con anteojeras y colmillos en los que se reproducen figuras serpentinas.",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250716145148id_/https://revistas.inah.gob.mx/index.php/cuicuilco/article/download/20234/22369/42996",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "mu-ye-c04",
+          "source_id": "mu-ye-s2",
+          "host": "revistas.inah.gob.mx",
+          "statement": "In the Valle del Mezquital his depiction since pre-Hispanic times is clear in petroglyphs and rock paintings on the banks of the Río Tula.",
+          "statement_id": "Di Valle del Mezquital, penggambarannya sejak masa pra-Hispanik tampak jelas pada petroglif dan lukisan cadas di tepi Río Tula.",
+          "quote": "En el Valle del Mezquital es clara su representación desde épocas prehispánicas en petrograbados y pintura rupestre a orillas del Río Tula",
+          "context": "historical-record",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250716145148id_/https://revistas.inah.gob.mx/index.php/cuicuilco/article/download/20234/22369/42996",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "mu-ye-c05",
+          "source_id": "mu-ye-s2",
+          "host": "revistas.inah.gob.mx",
+          "statement": "The word comes from the Otomi (otomí) language, from the morphemes hmü, 'lord' (señor), and ´ye, 'rain' (lluvia); Fray Esteban García identifies him as the 'god of the waters' (dios de las aguas).",
+          "statement_id": "Nama ini berasal dari bahasa Otomi (otomí), dari morfem hmü 'tuan' (señor) dan ´ye 'hujan' (lluvia); Fray Esteban García menyebutnya 'dewa perairan' (dios de las aguas).",
+          "quote": "Palabra proveniente de la lengua otomí, con los morfemas hmü, “señor”, y ´ye, “lluvia”. Fray Esteban García lo identifica como el “dios de las aguas”",
+          "context": "etymology",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250716145148id_/https://revistas.inah.gob.mx/index.php/cuicuilco/article/download/20234/22369/42996",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "mu-ye-c06",
+          "source_id": "mu-ye-s2",
+          "host": "revistas.inah.gob.mx",
+          "statement": "This deity was not alone: he was commonly linked with another group of mythical beings, the little water gods (diosecillos del agua) or k´angandho.",
+          "statement_id": "Dewa ini tidak sendirian: ia biasa dikaitkan dengan kelompok makhluk mitos lain, yaitu dewa-dewa kecil air (diosecillos del agua) atau k´angandho.",
+          "quote": "Sin embargo, esta deidad no estaba sola, ya que comúnmente se encontraba emparentada con otro grupo de seres míticos, los denominados diosecillos del agua o k´angandho",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250716145148id_/https://revistas.inah.gob.mx/index.php/cuicuilco/article/download/20234/22369/42996",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
         }
       ],
       "images": []
     },
     {
       "slug": "mulher-marinha",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "7ed2d0a11fde6af7c12a138ddb76aa21ed491485402ee043a5be36388f156e81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mulher-marinha-c01",
@@ -358,26 +541,101 @@
           "quote": "onde também é associada às mouras encantadas, Nereidas e Oceânides",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c05",
+          "source_id": "mulher-marinha-s2",
+          "host": "lendarium.org",
+          "statement": "In the tale of Dona Marinha, a knight riding along the sea found a 'molher marinha' (sea woman) lying asleep on the shore.",
+          "statement_id": "Dalam kisah Dona Marinha, seorang ksatria yang sedang berkuda di tepi laut menemukan seorang 'molher marinha' (perempuan laut) tidur di pantai.",
+          "quote": "E andando ũu dia em seu cavalo per riba do mar, a seu monte, achou ũa molher marinha jazer dormindo na ribeira.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c06",
+          "source_id": "mulher-marinha-s2",
+          "host": "lendarium.org",
+          "statement": "The tale is quoted from the Livro de Linhagens do Conde Dom Pedro (José Mattoso's edition, Academia das Ciências, 1980).",
+          "statement_id": "Kisah ini dikutip dari Livro de Linhagens do Conde Dom Pedro (edisi José Mattoso, Academia das Ciências, 1980).",
+          "quote": "MATTOSO, José Livro de Linhagens do Conde Dom Pedro Lisbon, Academia das Ciências, 1980",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c07",
+          "source_id": "mulher-marinha-s2",
+          "host": "lendarium.org",
+          "statement": "He had her baptised and named her Marinha because she had come out of the sea, and so she was called dona Marinha.",
+          "statement_id": "Ksatria itu membaptisnya dan menamainya Marinha karena ia keluar dari laut, sehingga ia disebut dona Marinha.",
+          "quote": "e el fe-a bautizar, que lhe nom caia tanto nome nem uu como Marinha, porque saira do mar; e assi lhe pôs nome, e chamarom-lhe dona Marinha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c08",
+          "source_id": "mulher-marinha-s2",
+          "host": "lendarium.org",
+          "statement": "This dona Marinha did not speak at all.",
+          "statement_id": "Dona Marinha sama sekali tidak berbicara.",
+          "quote": "E esta dona Marinha nom falava nemigalha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c09",
+          "source_id": "mulher-marinha-s2",
+          "host": "lendarium.org",
+          "statement": "Fearing for her son, she strained to cry out, and with the cry a piece of flesh came out of her mouth; from then on she spoke.",
+          "statement_id": "Karena cemas akan anaknya, ia berteriak keras; bersama teriakan itu sepotong daging keluar dari mulutnya, dan sejak itu ia bisa berbicara.",
+          "quote": "E ela, com raiva do filho, esforçou de braadar, e com o braado deitou pela boca ũa peça de carne, e dali adiante falou.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c10",
+          "source_id": "mulher-marinha-s3",
+          "host": "lendarium.org",
+          "statement": "In the Azorean (Açores) version, what D. Froião found was a woman, a daughter of the sea (filha do mar), sleeping peacefully.",
+          "statement_id": "Dalam versi dari Açores (Azores), yang ditemukan D. Froião adalah seorang perempuan, putri laut (filha do mar), yang sedang tidur.",
+          "quote": "Mas o que encontrou foi uma mulher, filha do mar, que dormia, descansada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c11",
+          "source_id": "mulher-marinha-s3",
+          "host": "lendarium.org",
+          "statement": "He had her baptised, named her Marinha and had children by her, the Marinhos.",
+          "statement_id": "Ia membaptisnya, menamainya Marinha, dan darinya memperoleh anak-anak yang disebut keluarga Marinhos.",
+          "quote": "Fê-la baptizar, deu-lhe o nome de Marinha, e dela teve os seus filhos, os Marinhos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c12",
+          "source_id": "mulher-marinha-s3",
+          "host": "lendarium.org",
+          "statement": "According to that version, one of the sons of Dona Marinha and D. Froião, Machico, discovered Madeira.",
+          "statement_id": "Menurut versi itu, salah satu anak Dona Marinha dan D. Froião, Machico, menemukan Madeira.",
+          "quote": "Foi um destes filhos de Dona Marinha e de D. Frõião, Machico, que descobriu a Madeira.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "na-ruixa",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "e2f457b2db4f98c017bfe401839b2f28d75f14f4c7a7c9358c67746b186f4a4c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "na-ruixa-c01",
@@ -418,24 +676,85 @@
           "quote": "Es conta que viu a les coves d'un lloc indeterminat de l'illa de Mallorca (suposadament, a la badia de Pollença). Així mateix, porta un ample mantell blau amb el qual captura els mariners incauts enmig de les tempestes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c05",
+          "source_id": "na-ruixa-s2",
+          "host": "webfrl.rae.es",
+          "statement": "An essay in the Boletín de la Real Academia Española describes Na Ruixamantells as malign and beautiful, of raw youth, like a fairy of the Pyrenees (Pirineos).",
+          "statement_id": "Dalam kajian di Boletín de la Real Academia Española, Na Ruixamantells digambarkan jahat sekaligus cantik, berjiwa muda yang mentah, seperti peri dari Pirineos (Pyrenees).",
+          "quote": "Na Ruixamantells es maligna y bella, de cruda juventud, como una hada de los Pirineos.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c06",
+          "source_id": "na-ruixa-s3",
+          "host": "blocs.xtec.cat",
+          "statement": "In Imma Villegas's retelling, Na Ruixa Mantells is a very beautiful fairy (fada) with blond hair like a thread of gold.",
+          "statement_id": "Dalam penceritaan ulang Imma Villegas, Na Ruixa Mantells adalah peri (fada) yang sangat cantik dengan rambut pirang seperti benang emas.",
+          "quote": "Recull i Adaptació: Imma Villegas Na Ruixa Mantells és una fada molt guapa, té els cabells rossos com un fil d’or",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c07",
+          "source_id": "na-ruixa-s3",
+          "host": "blocs.xtec.cat",
+          "statement": "With her wondrous melodious voice she enchants sailors who risk sailing in such bad conditions and drags them to her watery domain.",
+          "statement_id": "Dengan suaranya yang merdu luar biasa ia memikat para pelaut yang nekat berlayar dalam cuaca buruk dan menyeret mereka ke wilayah airnya.",
+          "quote": "amb la seva prodigiosa veu melodiosa, encanta els mariners que s’arrisquen a navegar en aquestes penoses condicions, i els arrossega als seus dominis aquàtics",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c08",
+          "source_id": "na-ruixa-s3",
+          "host": "blocs.xtec.cat",
+          "statement": "According to that retelling, she lives in a wondrous palace at the bottom of the sea with slender columns of red coral.",
+          "statement_id": "Menurut penceritaan ulang itu, ia tinggal di istana menakjubkan di dasar laut dengan tiang-tiang ramping dari karang merah.",
+          "quote": "viu en un fantàstic palau al fons del mar, presidit per esveltes columnes de corall vermell",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c09",
+          "source_id": "na-ruixa-s3",
+          "host": "blocs.xtec.cat",
+          "statement": "In the poem, Na Ruixa-mantells seized the girl's beloved in a strong gale.",
+          "statement_id": "Dalam sajak tersebut, Na Ruixa-mantells merenggut kekasih si gadis di tengah angin kencang.",
+          "quote": "i d’ell va fer presa dins forta ventada Na Ruixa-mantells",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c10",
+          "source_id": "na-ruixa-s3",
+          "host": "blocs.xtec.cat",
+          "statement": "The story is told by the poet Miquel Costa i Llobera in a poem set to music and popularised by Maria del Mar Bonet.",
+          "statement_id": "Kisah ini diceritakan oleh penyair Miquel Costa i Llobera dalam sebuah sajak yang digubah menjadi lagu dan dipopulerkan oleh Maria del Mar Bonet.",
+          "quote": "Així ens ho explica el poeta Miquel Costa i Llobera, en un fantàstic poema musicat i popularitzat per Maria del Mar Bonet.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "negoogunogumbar",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "7468e333c81b53bb6612e0d4f8e1b7a42636c8a3e80ae99f0c6afe5313f07c0f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 3,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -458,26 +777,31 @@
           "quote": "La mythologie mbuti est la mythologie d'un peuple pygmée de la République démocratique du Congo, les Mbuti.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "negoogunogumbar-c03",
+          "source_id": "negoogunogumbar-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Negoogunogumbar is a child-eating giant.",
+          "statement_id": "Negoogunogumbar adalah raksasa pemakan anak-anak.",
+          "quote": "Negoogunogumbar is a child-eating giant.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nonell-de-la-neu",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "e4a6b0134831cd32fbc3a390dfa5d242409c82524f5a895d6c4e4c8c265e38ec",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nonell-de-la-neu-c01",
@@ -538,26 +862,31 @@
           "quote": "En Nonell era un xicot de gran bellesa, amb barba poblada i llargs cabells rossos.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nonell-de-la-neu-c07",
+          "source_id": "nonell-de-la-neu-s2",
+          "host": "www.eltemps.cat",
+          "statement": "The magazine El Temps names the Nonell among the giants (gegants) in its list of local mythological figures, together with the Puigmal and the Caramançó.",
+          "statement_id": "Majalah El Temps menyebut Nonell di antara para raksasa (gegants) dalam daftar tokoh mitologi daerah setempat, bersama Puigmal dan Caramançó.",
+          "quote": "La llista de personatges mitològics de les nostres contrades inclou també éssers com la Molsosa, el simiot, la Pesanta, la Quarantamaula, el Trip Reial, els nyitols, el bocarrot, gegants com el Puigmal, el Nonell, el Caramançó",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ogre-de-la-caputxa-negra",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-1.md",
+      "entry_sha256": "79a14f6d69e4c2ad25b2cb484bfb4e88a9abc2b2de01b9d213de15ee0e6ec73c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ogre-de-la-caputxa-negra-c01",
@@ -588,26 +917,51 @@
           "quote": "Francesc Gisbert ens conta que la clau del palau on viu la du sempre penjada al coll per evitar robatoris.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ogre-de-la-caputxa-negra-c04",
+          "source_id": "ogre-de-la-caputxa-negra-s2",
+          "host": "web.archive.org",
+          "statement": "The Ogre de la Caputxa Negra is an example of a terrifying creature whose face is covered and who carries off all the children (xiquets) he meets on the road.",
+          "statement_id": "Ogre de la Caputxa Negra adalah contoh makhluk menakutkan yang wajahnya tertutup dan membawa pergi semua anak (xiquets) yang ditemuinya di jalan.",
+          "quote": "L’ogre de la Caputxa Negra és una altre exemple de criatura aterradora però en aquest cas, porta la cara tapada i s’emporta a tots els xiquets que troba pel camí.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogre-de-la-caputxa-negra-c05",
+          "source_id": "ogre-de-la-caputxa-negra-s2",
+          "host": "web.archive.org",
+          "statement": "His home is a palace where he hides a treasure and an enchanted princess who can only leave it transformed into a mermaid (sirena); the only way this giant creature could die is if sunlight strikes his face.",
+          "statement_id": "Rumahnya adalah istana tempat ia menyembunyikan harta dan seorang putri tersihir yang hanya bisa keluar dalam wujud putri duyung (sirena); makhluk raksasa ini hanya bisa mati bila sinar matahari mengenai wajahnya.",
+          "quote": "La seua llar es troba a un palau on amaga un tresor i una princesa encantada, la qual sols pot eixir del palau convertida en sirena. L’única forma en què aquesta criatura gegant podria morir seria si la llum del sol li pega a la cara.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogre-de-la-caputxa-negra-c06",
+          "source_id": "ogre-de-la-caputxa-negra-s2",
+          "host": "web.archive.org",
+          "statement": "What distinguishes an ogre from a giant (gegant) is that the ogre eats human flesh; Valencian (valencians) ogres have another peculiar trait as well: they are black.",
+          "statement_id": "Yang membedakan ogre dari raksasa biasa (gegant) adalah bahwa ogre memakan daging manusia; ogre-ogre Valencia (valencians) juga punya ciri khas lain, yaitu berwarna hitam.",
+          "quote": "El que diferencia un gegant d’un ogre, és que aquest últim, a més de ser un gegant, menja carn humana. Els ogres valencians, a més de ser antropòfags, tenen altra característica peculiar: són negres.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "oilar",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "6c1417ec67eaf2431f954b49969536c51c89fb0753abfdb463eaba04b9525673",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "oilar-c01",
@@ -656,6 +1010,26 @@
           "statement": "If the head is not yet formed, the feathers are burned at a crossroads and the illness is cured.",
           "statement_id": "Bila kepalanya belum terbentuk, bulu itu dibakar di persimpangan jalan dan penyakit itu pun sembuh.",
           "quote": "Si la tête n'est pas formée, il faut porter les plumes à une croisée de chemins et les y brûler : alors la maladie sera guéri.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oilar-c06",
+          "source_id": "oilar-s2",
+          "host": "buber.net",
+          "statement": "In one Basque story, a brother says that the animal he brings, a rooster, will be in charge of 'opening the day'; indeed, when the rooster crowed 'kikiriki', day had already dawned.",
+          "statement_id": "Dalam satu cerita Basque, seorang saudara berkata bahwa hewan yang dibawanya, seekor ayam jantan (rooster), akan bertugas 'membuka hari'; benar saja, ketika ayam jantan itu berkokok 'kikiriki', hari sudah fajar.",
+          "quote": "The brother responded “Go to sleep. This animal that I bring will be in charge of opening the day. When I sing kikiriki, get up and you will see how it is daytime.” They did so and indeed, when the rooster crowed kikiriki, the day had already dawned.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oilar-c07",
+          "source_id": "oilar-s2",
+          "host": "buber.net",
+          "statement": "A brother who had a rooster saw a group of men hitting a rock with a stick; they said they were 'opening the day' so that the sun could warm the world.",
+          "statement_id": "Seorang saudara yang memiliki ayam jantan melihat sekelompok orang memukul batu dengan tongkat; mereka berkata sedang 'membuka hari' agar matahari bisa menghangatkan dunia.",
+          "quote": "A brother, who had a rooster, saw a group of men hitting a rock with a stick. When he asked what they were doing, they said “Opening the day so that the sun can warm the world.”",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -715,22 +1089,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9bc6edcb5fdd4a7584b345527d5f9460491979276a2ec54c8ac65e73f21cba8f"
     },
     {
       "slug": "olhapim",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "97f7331bc0986fd8a55ce702ce296c3ca1cb48eafa600df7c68742773a4e35e0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -753,26 +1129,41 @@
           "quote": "Os olhapins têm quatro olhos, dois para a frente e dois para trás por isso olham para todo o lado. Diferem dos olharapos por serem muito pequenos e os olharapos serem gigantes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "olhapim-c03",
+          "source_id": "olhapim-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "According to the article on the olharapo, folk tradition also recognises the olharapa and the olhapim.",
+          "statement_id": "Menurut artikel tentang olharapo, tradisi rakyat juga mengenal olharapa dan olhapim.",
+          "quote": "A tradição popular reconhece ainda a olharapa e o olhapim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olhapim-c04",
+          "source_id": "olhapim-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "In the municipality (concelho) of Vinhais there is a common proverb: 'In the land of the olhapins, he who has two eyes is king' (Na terra dos olhapins, quem tem dois olhos é rei).",
+          "statement_id": "Di kabupaten (concelho) Vinhais ada peribahasa yang sering diucapkan: 'Di negeri para olhapim, yang bermata dua menjadi raja' (Na terra dos olhapins, quem tem dois olhos é rei).",
+          "quote": "para justificar um provérbio recorrente no concelho de Vinhais: “Na terra dos olhapins, quem tem dois olhos é rei”.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "olharapo",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "d531b39afb005fc4460a36402119cf2f4c0b249a12ada28a7ba05e303cc2044d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "olharapo-c01",
@@ -813,26 +1204,71 @@
           "quote": "para justificar um provérbio recorrente no concelho de Vinhais: “Na terra dos olhapins, quem tem dois olhos é rei”.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "olharapo-c05",
+          "source_id": "olharapo-s2",
+          "host": "lendarium.org",
+          "statement": "In a tale recorded at Souto, the olharapos are said to be a people that still exists.",
+          "statement_id": "Dalam sebuah cerita yang dicatat di Souto, olharapo disebut bangsa yang masih ada.",
+          "quote": "Os olharapos são um povo ainda existente.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c06",
+          "source_id": "olharapo-s2",
+          "host": "lendarium.org",
+          "statement": "A man who entered their house learned from a child that the parents were out, would soon come back and would eat him.",
+          "statement_id": "Seorang pria yang masuk ke rumah mereka diberi tahu oleh seorang anak bahwa orang tuanya sedang di luar, akan segera pulang, dan akan memakannya.",
+          "quote": "Depois de algumas perguntas, o homem soube do pequeno que os pais andavam por fora, e não tardavam a entrar e que o comeriam.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c07",
+          "source_id": "olharapo-s2",
+          "host": "lendarium.org",
+          "statement": "From up a pine tree the man saw the olharapo and his wife enter the house and then come out with torches (lumieiras) searching the whole pine wood for him without finding him.",
+          "statement_id": "Dari atas pohon pinus, pria itu melihat olharapo dan istrinya masuk ke rumah, lalu keluar membawa obor (lumieiras) mencarinya di seluruh hutan pinus tanpa menemukannya.",
+          "quote": "Viu depois o olharapo e a mulher entrar em casa, sair depois com lumieiras a procurá-lo por todo o pinhal, não o descobrindo, etc.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c08",
+          "source_id": "olharapo-s2",
+          "host": "lendarium.org",
+          "statement": "The narrator, a labourer named Jerónimo, knows a story about olharapos but does not know that they have only one eye.",
+          "statement_id": "Pencerita, seorang pekerja bernama Jerónimo, mengetahui satu cerita tentang olharapo tetapi tidak tahu bahwa mereka bermata satu.",
+          "quote": "O Jerónimo, trabalhador, conhece uma história de olharapos, mas ignora a circunstância deles terem um só olho.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c09",
+          "source_id": "olharapo-s2",
+          "host": "lendarium.org",
+          "statement": "The tale comes from Francisco Martins Sarmento's Antígua, Tradições e Contos Populares (Sociedade Martins Sarmento, 1998).",
+          "statement_id": "Cerita ini bersumber dari Antígua, Tradições e Contos Populares karya Francisco Martins Sarmento (Sociedade Martins Sarmento, 1998).",
+          "quote": "SARMENTO, Francisco Martins Antígua, Tradições e Contos Populares Guimaraes, Sociedade Martins Sarmento, 1998",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "onocoete",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "c1de1b44688d7a094dbfcc9251e80503e4e68725e26e47ac37277dda49cbf171",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "onocoete-c01",
@@ -853,26 +1289,71 @@
           "quote": "Era una delle voci popolari diffuse nel mondo pagano sul dio dei Cristiani.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "onocoete-c03",
+          "source_id": "onocoete-s2",
+          "host": "archive.org",
+          "statement": "An old mythology dictionary records the name form Onochoètes (garbled in the scanned text) as a monster half ass (âne) and half pig (porc), which the pagans said the Christians (chrétiens) had made their god.",
+          "statement_id": "Kamus mitologi lama mencatat bentuk nama Onochoètes (dalam teks pindaian tertulis rusak) sebagai monster setengah keledai (âne) setengah babi (porc), yang menurut orang pagan dijadikan dewa oleh orang Kristen (chrétiens).",
+          "quote": "UNOCHOÏRn Es, OnochoètÉs, mons- ' tre moitié âne et moitié porc , dont les païens disaient que les chrétiens avaient fait leur dieu.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "onocoete-c04",
+          "source_id": "onocoete-s3",
+          "host": "www.newadvent.org",
+          "statement": "Tertullian, shortly before writing his treatise (about 197), relates that a man (described as an apostate Jew) appeared in the streets of Carthage carrying a toga-robed figure with the ears and hoofs of an ass.",
+          "statement_id": "Tertullian, tak lama sebelum menulis risalahnya (sekitar 197), menceritakan bahwa seorang pria (disebut Yahudi murtad) muncul di jalan-jalan Carthage membawa sosok berjubah toga dengan telinga dan kuku keledai (ass).",
+          "quote": "A short time before he wrote the latter of these treatises (about 197) Tertullian relates that an apostate Jew one day appeared in the streets of Carthage carrying a figure robed in a toga, with the ears and hoofs of an ass",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "onocoete-c05",
+          "source_id": "onocoete-s3",
+          "host": "www.newadvent.org",
+          "statement": "The figure was labelled 'Deus Christianorum Onocoetes', 'the God of the Christians begotten of an ass'.",
+          "statement_id": "Sosok itu diberi label 'Deus Christianorum Onocoetes', yaitu 'Tuhan orang Kristen yang dilahirkan dari keledai'.",
+          "quote": "this monstrosity was labelled: Deus Christianorum Onocoetes (the God of the Christians begotten of an ass)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "onocoete-c06",
+          "source_id": "onocoete-s3",
+          "host": "www.newadvent.org",
+          "statement": "Minucius Felix in the Octavius (ch. ix) also alludes to this defamatory accusation against the Christians.",
+          "statement_id": "Minucius Felix dalam Octavius (bab ix) juga menyinggung tuduhan fitnah terhadap orang Kristen ini.",
+          "quote": "Minucius Felix (Octavius, ix) also alludes to this defamatory accusation against the Christians.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "onocoete-c07",
+          "source_id": "onocoete-s4",
+          "host": "www.tertullian.org",
+          "statement": "In Tertullian's Apology, a man exhibited a picture inscribed 'The God of the Christians, born of an ass'; the figure had an ass's ears, a hoof on one foot, and carried a book.",
+          "statement_id": "Dalam Apology karya Tertullian, seorang pria memamerkan gambar bertuliskan 'Tuhan orang Kristen, yang lahir dari keledai'; sosok itu bertelinga keledai, berkuku pada satu kaki, dan membawa buku.",
+          "quote": "who exhibited a picture with this inscription: The God of the Christians, born of an ass ... He had the ears of an ass, was hoofed in one foot, carried a book",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "opinicus",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "2671add97d5fe1923d011af7cf720706f0d52c2f8a965fed57493cb15e4f7011",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "opinicus-c01",
@@ -883,26 +1364,71 @@
           "quote": "Cal no confondre'l amb l'opinicus, un animal semblant però amb les potes davanteres també de lleó.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "opinicus-c02",
+          "source_id": "opinicus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In heraldry the opinicus is a monster seldom met with; when it does occur it is shown as a winged gryphon with a lion's legs and a short tail.",
+          "statement_id": "Dalam heraldik, opinicus adalah monster yang jarang dipakai; bila muncul, ia digambarkan sebagai griffin (gryphon) bersayap dengan kaki singa dan ekor pendek.",
+          "quote": "The Opinicus (Fig. 439) is another monster seldom met with in armory. When it does occur it is represented as a winged gryphon, with a lion's legs and short tail.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "opinicus-c03",
+          "source_id": "opinicus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Another description gives it the body and forelegs of a lion, the head, neck and wings of an eagle, and the tail of a camel.",
+          "statement_id": "Deskripsi lain memberinya tubuh dan kaki depan singa, kepala, leher, dan sayap elang, serta ekor unta.",
+          "quote": "Another description of it gives it the ... body and forelegs of a lion, the head, neck, and wings of an eagle, and the tail of a camel.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "opinicus-c04",
+          "source_id": "opinicus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "It is the crest of the Livery Company of Barbers in London.",
+          "statement_id": "Opinicus menjadi jambul (crest) lambang Livery Company of Barbers di London.",
+          "quote": "It is the crest of the Livery Company of Barbers in London",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "opinicus-c06",
+          "source_id": "opinicus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "This doubtless explains its appearance in the recent grant of arms to Sir Frederick Treves.",
+          "statement_id": "Hal itu agaknya menjadi asal munculnya opinicus dalam pemberian lambang (grant of arms) yang baru kepada Sir Frederick Treves.",
+          "quote": "which doubtless gives us the origin of it in the recent grant of arms to Sir Frederick Treves, Bart.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "opinicus-c05",
+          "source_id": "opinicus-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Sometimes the wings are omitted.",
+          "statement_id": "Kadang-kadang sayapnya dihilangkan.",
+          "quote": "Sometimes the wings are omitted.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "orcolat",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "efd597e0581be9c4b661abb6591c30bc846e85ec33a222f7442109649dd2aa85",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "orcolat-c01",
@@ -963,26 +1489,51 @@
           "quote": "Nel 2026 il regista friulano Federico Savonitto ha realizzato il film documentario omonimo alla creatura mitologica, Orcolat, prodotto da Kublai Film con Rai Cinema e narrato da Bruno Pizzul.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "orcolat-c07",
+          "source_id": "orcolat-s2",
+          "host": "www.ilgazzettino.it",
+          "statement": "The Orcolat, or 'orcaccio', is a monstrous being that Friulian (friulana) folk tradition named as the cause and origin of earthquakes.",
+          "statement_id": "Orcolat atau 'orcaccio' adalah makhluk mengerikan yang oleh tradisi rakyat Friuli (friulana) dianggap sebagai penyebab dan asal gempa bumi.",
+          "quote": "L'Orcolat, o \"orcaccio\", un essere mostruoso, che la tradizione popolare friulana ha indicato come causa e origini dei terremoti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c08",
+          "source_id": "orcolat-s2",
+          "host": "www.ilgazzettino.it",
+          "statement": "According to the tales handed down, the creature lives shut in among the mountains of Carnia and every sudden movement it makes causes an earthquake (terremoto).",
+          "statement_id": "Menurut cerita turun-temurun, makhluk itu hidup terkurung di antara pegunungan Carnia dan setiap gerakannya yang tiba-tiba menimbulkan gempa (terremoto).",
+          "quote": "Come tramandato dai racconti, la figura vivrebbe rinchiusa tra le montagne della Carnia e ogni suo movimento brusco provocherebbe un terremoto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c09",
+          "source_id": "orcolat-s2",
+          "host": "www.ilgazzettino.it",
+          "statement": "So it happened in 1976, when in one minute the Orcolat unleashed the tragedy.",
+          "statement_id": "Begitulah yang terjadi pada 1976, ketika dalam satu menit Orcolat memicu tragedi itu.",
+          "quote": "Così accadde nel 1976, quando in un minuto l'Orcolat scatenò la tragedia.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "oriande",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "c25c013ea00b168bcd123cf85008e4fd5a6e1c8a6c1d343a56ad0d46363b4d29",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "oriande-c01",
@@ -1023,26 +1574,51 @@
           "quote": "L’épreuve décisive qu’elle lui impose pour confirmer ses pouvoirs est de délivrer Bayard, retenu sous terre sur l’île volcanique de Bocan/Boucam",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "oriande-c05",
+          "source_id": "oriande-s2",
+          "host": "nouvellemythologiecomparee.hautetfort.com",
+          "statement": "According to Jacques E. Merceron's study, the fairy Oriande of Mongibel (Etna) is the equivalent of Morgan le Fay, and Oriande is also the female serpent who gave birth to the horse Bayart.",
+          "statement_id": "Menurut kajian Jacques E. Merceron, peri Oriande dari Mongibel (Etna) adalah padanan Morgan le Fay, dan Oriande juga naga betina (female serpent) yang melahirkan kuda Bayart.",
+          "quote": "the fairy Oriande of Mongibel (Etna) is the equivalent of Morgan le Fay; Oriande is also the female serpent who gave birth to Bayart",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oriande-c06",
+          "source_id": "oriande-s2",
+          "host": "nouvellemythologiecomparee.hautetfort.com",
+          "statement": "The study compares the conquest of Bayart on a Sicilian (sicilienne) volcanic island in Maugis d'Aigremont with Apollo's (Apollon) fight against Delphunè at Delphi (Delphes) and Perseus's (Persée) against Medusa (Méduse).",
+          "statement_id": "Kajian itu membandingkan perebutan Bayart di pulau gunung api Sisilia (sicilienne) dalam Maugis d'Aigremont dengan pertarungan Apollon melawan Delphunè di Delphi dan Perseus (Persée) melawan Medusa (Méduse).",
+          "quote": "la conquête de Bayart sur une île volcanique sicilienne dans la geste de Maugis d’Aigremont et les combats d’Apollon contre Delphunè à Delphes et de Persée contre Méduse",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oriande-c07",
+          "source_id": "oriande-s3",
+          "host": "www.arlima.net",
+          "statement": "ARLIMA dates the chanson de geste Maugis d'Aigremont to the early 13th century (Début du XIIIe siècle); this French (Français) work runs to 9078 alexandrines in monorhymed laisses.",
+          "statement_id": "ARLIMA menanggalkan chanson de geste Maugis d'Aigremont pada awal abad ke-13 (Début du XIIIe siècle); karya berbahasa Prancis (Français) ini terdiri atas 9078 larik aleksandrin dalam laisse berima tunggal.",
+          "quote": "Date: Début du XIIIe siècle Langue: Français Genre: Chanson de geste Forme: 9078 alexandrins répartis en laisses monorimes",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ornias",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "9c6fc1375c768f92101c1bb06b69fb54a535ff2c59f278eebdc9cfc37bfd5a97",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ornias-c01",
@@ -1083,26 +1659,81 @@
           "quote": "svelò di essere colui che tenta gli uomini che si innamorano di una donna , trasformandosi in piacevoli donzelle e giocando con loro",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ornias-c05",
+          "source_id": "ornias-s2",
+          "host": "en.wikisource.org",
+          "statement": "The demon Ornias came among the Temple workers toward sunset and took half the pay and half the food of the chief deviser's little boy.",
+          "statement_id": "Iblis Ornias datang menjelang matahari terbenam ke tengah para pekerja Bait Suci dan mengambil separuh upah serta separuh makanan anak laki-laki kepala perancang.",
+          "quote": "Ornias the demon came among them toward sunset; and he took away the half of the pay of the chief-deviser's little boy, as well as half his food.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c06",
+          "source_id": "ornias-s2",
+          "host": "en.wikisource.org",
+          "statement": "At the usual hour Ornias, the fierce demon, came like a burning fire to take the child's pay.",
+          "statement_id": "Pada jam yang biasa, Ornias, iblis yang ganas, datang seperti api yang menyala untuk mengambil upah anak itu.",
+          "quote": "at the customary hour Ornias, the fierce demon, came like a burning fire to take the pay from the child.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c07",
+          "source_id": "ornias-s2",
+          "host": "en.wikisource.org",
+          "statement": "When Solomon asked which zodiacal sign he was subject to, Ornias answered: the Water-pourer.",
+          "statement_id": "Ketika Salomo bertanya rasi zodiak mana yang membawahinya, Ornias menjawab: Pembawa Air (Water-pourer, Aquarius).",
+          "quote": "Tell me, O demon, to what zodiacal sign thou art subject.\" And he answered: \"To the Water-pourer.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c08",
+          "source_id": "ornias-s2",
+          "host": "en.wikisource.org",
+          "statement": "The great and bold demon Ornias was commanded to cut stones at the Temple.",
+          "statement_id": "Ornias, iblis besar yang berani itu, diperintahkan memotong batu untuk Bait Suci (Temple).",
+          "quote": "And he commanded the great demon and bold, Ornias, to cut stones at the Temple.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c09",
+          "source_id": "ornias-s2",
+          "host": "en.wikisource.org",
+          "statement": "Ornias took the ring and went off to Beelzeboul, king of the demons, to summon him to Solomon.",
+          "statement_id": "Ornias membawa cincin itu dan pergi kepada Beelzeboul, raja para iblis, untuk memanggilnya menghadap Salomo.",
+          "quote": "So Ornias took the finger-ring, and went off to Beelzeboul, who has kingship over the demons.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c10",
+          "source_id": "ornias-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to the translator's introduction, after the thirty-six spirits have been imprisoned or set to work, Ornias reappears and foretells a youth's death within three days.",
+          "statement_id": "Menurut pengantar penerjemah, setelah ketiga puluh enam roh itu dipenjara atau dipekerjakan, Ornias muncul lagi dan meramalkan kematian seorang pemuda dalam tiga hari.",
+          "quote": "When these thirty-six spirits have been imprisoned or set to work, Ornias reappears and foretells the death of a youth within three days.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "orphan-bird",
-      "file": "batch-135.md",
+      "file": "batch-135-fix-2.md",
+      "entry_sha256": "f366a0749de0993ebfe8129ea16d14f49f724d9d791600826c42a004a6d6d88d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "orphan-bird-c01",
@@ -1152,6 +1783,46 @@
           "statement_id": "Satu-satunya sumber tentang makhluk ini adalah bestiarium Pierre de Beauvais.",
           "quote": "The only source for this creature is the bestiary of Pierre de Beauvais.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c06",
+          "source_id": "orphan-bird-s2",
+          "host": "bestiary.ca",
+          "statement": "It has a crest, a peacock's neck and chest, an eagle's beak, a swan's feet and a crane's body; its wings are red, white and black.",
+          "statement_id": "Burung ini berjambul, leher dan dadanya seperti merak (peacock), paruhnya seperti elang, kakinya seperti angsa, tubuhnya seperti bangau, dan sayapnya merah, putih, dan hitam.",
+          "quote": "It has a crest, its neck and chest are like those of a peacock, it has the beak of an eagle, the feet of a swan, and the body of a crane. Its wings are red, white and black.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c07",
+          "source_id": "orphan-bird-s2",
+          "host": "bestiary.ca",
+          "statement": "When the eggs hatch, the good ones rise under the mother's wings, where the chicks come forth joyfully and are led to their father.",
+          "statement_id": "Saat menetas, telur yang baik naik ke bawah sayap induknya; anak-anaknya keluar dengan gembira dan dibawa kepada ayah mereka.",
+          "quote": "When it is time for the eggs to hatch, the good ones rise up under the mother's wings, where the chick come joyfully forth and are led to their father.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c08",
+          "source_id": "orphan-bird-s2",
+          "host": "bestiary.ca",
+          "statement": "In the bestiary allegory, the mother bird represents Christ, the eggs are the people of the earth, and the chicks inside are their souls.",
+          "statement_id": "Dalam alegori bestiarium, induk burung melambangkan Kristus (Christ), telur-telurnya umat manusia di bumi, dan anak burung di dalam telur adalah jiwa mereka.",
+          "quote": "The mother bird represents Christ, the eggs are the people of the earth, the chicks in the eggs are their souls.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c09",
+          "source_id": "orphan-bird-s2",
+          "host": "bestiary.ca",
+          "statement": "At the time of judgment, Christ takes the good souls to meet God, while the bad souls remain in the darkness and grief of hell.",
+          "statement_id": "Pada saat penghakiman, Kristus (Christ) membawa jiwa-jiwa yang baik menghadap Tuhan (God), sedangkan jiwa yang jahat tetap dalam kegelapan dan duka neraka.",
+          "quote": "At the time of judgment, Christ takes the good souls to meet God; the bad souls remain in the darkness and grief of hell.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -1215,7 +1886,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3539bcb9a1d7f87dd9e1d3dc7b5d4c8e8818e25d5f91c484bcd07cda8bbd0eec"
     },
     {
       "slug": "ozena",
@@ -1255,7 +1927,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ee8d42a2e9d09227cf37caf9eb64aa127db63d811eada1de63dd5d77147049ef"
     },
     {
       "slug": "pantafica",
@@ -1315,7 +1988,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6ab67ce112f8d0b5c83fdb23ae0cba559fa92243acbcc8f59b13a0a9dfa04a1b"
     },
     {
       "slug": "pardalo",
@@ -1385,7 +2059,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "13deed0545f31147ddd6eb2d6a192774d770270ae9ca348476286321eea98080"
     },
     {
       "slug": "pardalot",
@@ -1435,7 +2110,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ef29b3100e6f005ffccb8fcc4ce57ce643048e4610af69f213e570c957d8936f"
     },
     {
       "slug": "pare-esme",
@@ -1475,7 +2151,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2812172ec0b662dc3857841282f090712fc4eef98e5e08ccb8caec82bfe39d33"
     },
     {
       "slug": "peeira-mythological-creature",
@@ -1535,7 +2212,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6b4e3586f72fc4036e9b1e4e70e30aa0b53b52b538b3507f46feb6e687f6f2e7"
     },
     {
       "slug": "peladits",
@@ -1575,7 +2253,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "06cf3f293526e7ca476fba8eee3cdd65754c06dd50e09afe77e947507a1dd600"
     },
     {
       "slug": "perico",
@@ -1615,7 +2294,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ee94c0d0360f51ef474e96777fa0df30bc4af29fdf0539e134a05ec3d79dc8ad"
     },
     {
       "slug": "pertenidor",
@@ -1655,7 +2335,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6fe73b6d09232b422085399a9ece097b378ec3742fe3158cfceb2e7ccbb2dd0d"
     },
     {
       "slug": "petitcrieu",
@@ -1725,7 +2406,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "377c1959d80ae68d4b2254116941e42ea60693a9fddd0a89569a07d927c91dbd"
     },
     {
       "slug": "pettenedda",
@@ -1775,7 +2457,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "56344663e21d486d53d40ed5d91d5ca673015bbe4cd17f7038c25728fd28614a"
     },
     {
       "slug": "piterne",
@@ -1805,7 +2488,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "46ffce93be6f7aa9c2180f5d703a23af29e227bbf29496e0452c9eaf265de9a8"
     },
     {
       "slug": "porviso",
@@ -1870,7 +2554,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "78681048d6eaa13f21e180d50ee50bbade0600b7db9c51408d85a4e33693fbc3"
     },
     {
       "slug": "prestere",
@@ -1930,7 +2615,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cda6ca25b94db8f34b1e9ff88b863cd9ab59b69d51f8cab571b30fa928f7d974"
     },
     {
       "slug": "pretinho-do-barrete-encarnado",
@@ -1980,7 +2666,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "26f001b0fbfea265f6e565161d8476a2cca5f08733659b24dd21cb8b35d0bd82"
     },
     {
       "slug": "pucel",
@@ -2050,7 +2737,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "43d6723dd70a65863d10bce5b2600b979a22ff981d6f825a3987f6e9333e93a5"
     },
     {
       "slug": "rosegacebes",
@@ -2100,7 +2788,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bc5b7917bfc83c4f17cf46ec31190871d980aa5c04ba56795685f79318711276"
     },
     {
       "slug": "rosemunho",
@@ -2150,7 +2839,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "57a54607d913d16f224655ae872ef24a842f7d202e828a1c7a90c6226e9b3cd8"
     },
     {
       "slug": "rou-rou",
@@ -2180,7 +2870,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c1a89ab518cda8190c92d4e8bc7d4625cb683cc98cbc803fee1e9777689e9b21"
     },
     {
       "slug": "salamanca-do-jarau",
@@ -2230,7 +2921,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d77a43cf1249c1c56cd7ef41af458c8bec93d111b96f00d5a8eb6f96aab3b1c2"
     },
     {
       "slug": "salina",
@@ -2290,7 +2982,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f07cffc6af54f3b432505fb4d4ce45324c30c4bd08b5013f73350e6d77671f29"
     },
     {
       "slug": "santa-pupa",
@@ -2340,7 +3033,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "88a7e4ca36f54a85ffa8169c0295974122b09a7ae6f92dc571b89afd0eca7b1a"
     },
     {
       "slug": "satyrus-ape",
@@ -2400,7 +3094,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2c178258b6b0dfd21a4770fa0efced39a45db33e252ee42d7202584eabdebeb7"
     },
     {
       "slug": "secular-das-nuvens",
@@ -2460,7 +3155,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d9ec570ac00583cf2c3662d643dc71e83476316fd5de9d54e7c349586562725b"
     },
     {
       "slug": "selemeg",
@@ -2495,7 +3191,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "938f150cbebde36b4130d4c9f391398fc060ab3a426755a7c23203a14fb8e79a"
     },
     {
       "slug": "serpent-de-manlleu",
@@ -2555,7 +3252,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "939b456795d32ff2e319c19cf2eba384bac4dee378db4198f03a49bacde7c409"
     },
     {
       "slug": "serpente-regolo",
@@ -2615,7 +3313,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7307b00183a90fbc23e4a807fa5ab682a58ed1919c41b0483a90095c97f69854"
     }
   ]
 }
