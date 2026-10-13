@@ -1,6 +1,6 @@
 # Review batch-134
 
-Diperiksa 2026-10-13T19:04:00.813Z. Berkas: batch-134.md, batch-134-fix-1.md, batch-134-fix-2.md.
+Diperiksa 2026-10-13T19:45:41.881Z. Berkas: batch-134.md, batch-134-fix-1.md, batch-134-fix-2.md, batch-134-fix-3.md, batch-134-fix-4.md, batch-134-fix-5.md.
 
 ## gatto-mammone — lulus-otomatis
 
@@ -373,10 +373,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## komat — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -386,14 +383,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | komat-c04 | exact | es.wikipedia.org | The brothers asked flying red ants to dig into the earth so the waters would recede and there would be land to live on. | Enseguida los hermanos pidieron a las hormigas rojas voladoras, que excavaran en el interior de la Tierra para hacer que las aguas bajaran y pudiera haber tierra donde vivir. |
 | komat-c05 | exact | es.wikipedia.org | The two brothers then shaped clay figures that would become people on earth. | Los dos hermanos comenzaron a formar muñecos de barro que serían hombres sobre la Tierra |
 | komat-c06 | exact | es.wikipedia.org | As in many creation myths, Komat and Sipa represented the duality of good and evil. | Como en varios mitos de creación, Komat y Sipa representaban la dualidad del bien y el mal. |
+| komat-c07 | exact | www.ivpressonline.com | In this version the twins Sipa and Komat emerged from a primordial sea; Komat came out first with his eyes closed, while Sipa opened his eyes underwater and was blinded. | The creation story also features twin siblings, Sipa and Komat, who emerged from a primordial sea. Komat emerged first with his eyes closed. Sipa opened his eyes underwater and was blinded. |
+| komat-c08 | exact | www.ivpressonline.com | To form the land, ants helped them bring earth from the depths; together they created various peoples, but rivalry led Sipa into conflict. | To form the land they had help from ants to bring earth from the depths, transforming the watery world into dry land. Together they created various peoples, but rivalry led Sipa to conflict. |
+| komat-c09 | exact | www.ivpressonline.com | Their quarrel climaxed with Komat descending into the underworld, releasing sickness and death into the world. | Their disagreements climaxed in Komat descending into the underworld, releasing sickness and death into the world. |
 
 
 ## krivapeta — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -404,14 +401,14 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | krivapeta-c05 | exact | it.wikipedia.org | They can be cruel to people, or kind and ready to advise them, telling farmers the best time to sow. | Le Krivapete possono essere cattive con gli uomini oppure buone e pronte a dare loro consigli su come realizzare cose ancora ignote ed a suggerire ai contadini i momenti più adatti alla semina |
 | krivapeta-c06 | exact | it.wikipedia.org | In return for their help they may demand to take away small children, since some are cruel and cannibalistic. | In cambio dell'aiuto però possono richiedere di portare via i bambini piccoli in quanto alcune sono crudeli e cannibali. |
 | krivapeta-c07 | exact | it.wikipedia.org | The grandparents' frightening tales served to keep children away from dangerous places such as caves, cliffs and streams. | I racconti dei nonni, con la loro atmosfera paurosa, servivano quindi, in tempi in cui i giovani giocavano per lo più nei prati e nei boschi, a far sì che i piccoli si tenessero lontani dai luoghi pericolosi. |
+| krivapeta-c08 | exact | ojs.zrc-sazu.si | Krivopete are wild women whose feet face backwards; folklore about them is found in the far north-west of the Slovene ethnic territory: Trenta, Breginj, Livško and the Natissone Valleys in the Italian Slavia Veneta. | Krivopete are wild women whose feet are turned backwards. Folklore tradition about these mythical beings can be found in the extreme north-western part of the Slovenian ethnic territory: in Trenta, Breginj, Livško, and the Natissone Valleys in the Italian Slavia Veneta. |
+| krivapeta-c09 | exact | ojs.zrc-sazu.si | Tales of the krivopete are usually tied to real locations, so the places where they lived or appeared can be traced through toponyms and microtoponyms. | Since folktales about the krivopete are typically installed in a concrete location these places have been identified through the toponyms and microtoponyms where the krivopete allegedly lived, manifested themselves, or acted. |
+| krivapeta-c10 | exact | ojs.zrc-sazu.si | Their dwellings were typically hideous, inaccessible or dangerous terrain: caves, rock shelters, steep ravines and streams. | A common feature of such locations, which indicated where these women dwelled, was the hideous, inaccessible, and/or dangerous terrain: caves, rocky shelters, steep ravines, and streams. |
 
 
 ## la-serena — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -424,14 +421,18 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | la-serena-c07 | exact | ca.wikipedia.org | In the past it was told at home to frighten children, who were warned the beast would take them if they misbehaved. | antigament s'explicava en l'àmbit familiar per espantar els xiquets, a qui s'amenaçava dient-los que, si no es portaven bé, se'ls enduria la bèstia. |
 | la-serena-c08 | exact | ca.wikipedia.org | Mateu Aubà of Gandesa set out to recover the legend before it was lost, and some old women of the town passed it on to him. | Fou el gandesà Mateu Aubà qui s'interessà a recuperar-la, davant la possibilitat que pogués perdre's. Unes dones grans del poble li la transmeteren. |
 | la-serena-c09 | exact | ca.wikipedia.org | In 2013, on Mateu Aubà's initiative and with Gandesa town council funding, a children's book by the illustrator Àngels Cid was published that finally revived the legend of the Serena. | El 2013, a iniciativa de Mateu Aubà i finançament de l'ajuntament de Gandesa, es va publicar un conte infantil a càrrec de la il·lustradora Àngels Cid, el qual va servir per a recuperar definitivament la llegenda de la Serena. |
+| la-serena-c10 | exact | www.ipcite.cat | In its medieval origin the Serena story carried a moralising message condemning lust, pleasure, sexual fantasy and beauty; the Gandesa version instead focuses on the creature's ferocity and the fear inspired by her looks and actions. | Tanmateix, en origen medieval, la seva història perseguia un discurs moralitzador que desaprovava la luxúria, el plaer, la fantasia sexual i la bellesa; en canvi, en la versió gandesana, es focalitza en la ferotgia del personatge i en la temor que representen el seu físic i les seves accions. |
+| la-serena-c11 | exact | www.ipcite.cat | Of the 14th- to 16th-century Catalan bestiaries describing the Serena, five derive from Tuscan texts (the Bestiario toscano), one is of uncertain origin, and the last is Brunetto Latini's Livre dou trésor, translated by Guillem de Copons in the 15th century. | Datats entre els segles XIV i XVI, cinc deriven dels textos toscans —el Bestiario toscano—, un no es pot precisar l’origen, i el darrer correspon al Livre dou trésor de Brunetto Latini, traduït per Guillem de Copons al s. XV. |
+| la-serena-c12 | exact | www.ipcite.cat | The medieval bestiary calls the serena a marvellous creature of three kinds: half fish and half woman, half bird and half woman, and half horse and half woman. | La serena és una criatura molt maravelosa, e són-ne de tres maneres: la una és mig pex, e l’altra meitat és semblant de fembra; l’altre és mig ocell e mig fembra; la tercera és mig cavall e mig fembra. |
+| la-serena-c13 | exact | www.ipcite.cat | The half-bird serena plays a harp sound so sweet that everyone comes to hear it and falls asleep, and then the serena kills them. | E quela que és mig oçell e mig fembra fa un ço de arpa tant dolç que tothom ve a hoir volenterós aquel ço, e plau ha hom tant, que adormse tot qui·l va a hoir; e axí matex aquesta serena l’osiu. |
+| la-serena-c14 | exact | www.ipcite.cat | According to Ebro oral tradition, the Serena of Gandesa is a vengeful, lustful fantastic being who deceives men through her music. | Tal com exposa l’autor i segons descriu la tradició oral ebrenca, el personatge de la Serena gandesana es caracteritza per ser un ésser fantàstic venjatiu i luxuriós que enganya als homes a través de la seva música. |
+| la-serena-c15 | exact | www.ipcite.cat | The only source detailing the legend's origin is Joan Perucho. | Tanmateix, l’única font que detalla quin va ser el seu origen la descriu en Joan Perucho |
+| la-serena-c16 | exact | www.ipcite.cat | Perucho never documents where his information came from, and since he was known for blending imaginative fiction with historical elements, the reference is thought to follow the same style. | L’autor en cap moment documenta d’on extreu la informació i tot fa pensar que si en Perucho destacava per combinar elements imaginatius i de pura ficció amb altres d’arrel històrica, aquesta referència respongui al mateix estil. |
 
 
 ## lampago — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -439,14 +440,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | lampago-c02 | exact | en.wikipedia.org | It should be distinguished from the similar heraldic beasts the manticore and the satyral. | It should be distinguished from similar mythical heraldic beasts the manticore and the satyral. |
 | lampago-c03 | exact | en.wikipedia.org | Its best-known heraldic use is in the arms of the ancient Radford family of the manor of Radford in the parish of Plymstock, Devon. | The best-known usage of the lampago in heraldry is in the arms of the ancient Radford family of the manor of Radford in the parish of Plymstock in Devon |
 | lampago-c04 | exact | en.wikipedia.org | The arms read: sable, three lampagoes passant in pale coward argent. | Sable, three lampagoes passant in pale coward argent. |
+| lampago-c05 | exact | drawshield.net | According to a heraldic glossary, the Mantiger or Lampago, called Montegre and Manticora by writers, is shown with the body of a heraldic tiger and the head of an old man with long spiral horns. | The Mantiger or Lampago, called by writers Montegre and Manticora, also occurs, e.g. the body of an heraldic tiger, with the head of an old man with long spiral horns. |
+| lampago-c06 | exact | drawshield.net | The supporters to the arms of the Earl of Huntingdon are shown without horns. | The supporters, however, to the arms of the Earl of HUNTINGDON are without horns. |
+| lampago-c07 | exact | drawshield.net | The glossary records the Radford arms of Cheynstone and Chawleigh, Devon: three silver man-tigers (lampagoes) in pale on black. | Sable, three man-tigers(or lampagoes) in pale argent--RADFORD, Cheynstone, Chawleigh, co. Devon. |
+| lampago-c08 | exact | drawshield.net | According to a heraldic dictionary, the Limpago is generally shown with a lion's body and a man's face bearing the scalp and horns of a bull. | It is generally represented as a Lion's body,the face of a man with the scalp and horns of a Bull. |
+| lampago-c09 | exact | drawshield.net | The dictionary says its engraving of the Limpago is copied from Burke's Heraldic Illustrations. | The engraving, P. 26, f. 55, is a copy of a Limpago given in Burke's Heraldic Illustrations. |
 
 
 ## laurieddhu — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -460,6 +463,12 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 | laurieddhu-c08 | exact | it.wikipedia.org | It is kind to girls, protecting them from cruel stepmothers and mistresses, even doing their housework for them. | È benevolo con le fanciulle, e le protegge dalle angherie delle matrigne e delle padrone, arrivando a fare i lavori di casa al posto loro. |
 | laurieddhu-c09 | exact | it.wikipedia.org | In 1954 the singer-songwriter Domenico Modugno dedicated a song to it, using the Brindisi name Scarcagnulu. | Il cantautore Domenico Modugno nel 1954 gli ha dedicato una canzone, chiamandolo con il nome usato nel Brindisino cioè Scarcagnulu |
 | laurieddhu-c10 | exact | it.wikipedia.org | The myth can be traced to the incubus spirit mentioned by Petronius Arbiter, Pliny and Saint Augustine, and also to the lares (source of the name laurieddhu) and penates. | L'origine del mito dello Scazzamurrieddhru si può far risalire a quello dello spirito incubo citato da Petronio Arbitro, Plinio, Sant'Agostino e altri, ma anche, per altri aspetti, alle figure dei lari (da cui il nome laurieddhu) e dei penati. |
+| laurieddhu-c11 | exact | www.nostrofiglio.it | Depending on the area, the municeddhu of Salento is also called "scazzamureddhu" or "laurieddhu". | A seconda della zona può cambiare nome e diventare lo “scazzamureddhu” oppure il “laurieddhu”. |
+| laurieddhu-c12 | exact | www.nostrofiglio.it | According to tradition it is only 40 centimetres tall, with shiny black eyes, and always wears a red cap on its hairy head. | E' alto, secondo la tradizione, solo 40 centimetri, ha gli occhi neri e lucidi e calza sempre un berretto rosso sulla testa pelosa. |
+| laurieddhu-c13 | exact | www.nostrofiglio.it | Sometimes it takes one horse's fodder and gives it to the next, so one grows thin and the other too fat. | A volte toglie la biada a un cavallo e la dà a quello vicino, così uno dimagrisce e l'altro ingrassa troppo, per la disperazione del padrone. |
+| laurieddhu-c14 | exact | www.nostrofiglio.it | Its cap can only be stolen at dawn, because at night it is unbeatable and by day it vanishes; if one succeeds, it promises wonderful treasures to whoever returns the cap. | Ci si può provare solo all'alba, perché di notte è imbattibile e di giorno scompare. Se ci si riesce, il municeddhu diventa improvvisamente dolce e simpatico e promette di far scoprire fantastici tesori a chi gli restituisce il copricapo. |
+| laurieddhu-c15 | exact | www.nostrofiglio.it | The promise is only a trick, and many fall for it, so the mischievous sprite gets its cap back. | Naturalmente è solo un trucco, ma molti ci cascano e il folletto dispettoso torna in possesso del suo prezioso copricapo. |
+| laurieddhu-c16 | exact | en.wikipedia.org | One encyclopedic summary calls the Laurieddu a malignant sprite of Salento folklore. | The Laurieddu is a malignant sprite of the folkloric imaginary of Salento. |
 
 
 ## lauro — lulus-otomatis
@@ -493,10 +502,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## lenghelo — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -507,28 +513,30 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | lenghelo-c05 | exact | it.wikipedia.org | It hides or breaks small objects in the house, but can also make people find money. | Inoltre, nasconde o rompe piccoli oggetti nella casa, ma può anche far trovare soldi |
 | lenghelo-c06 | exact | it.wikipedia.org | One tradition puts its refuge in the Palazzo Sforza-Cesarini in Genzano di Roma, but the more common belief was that every family had one. | Secondo una tradizione popolare, il rifugio del lenghelo sarebbe all'interno di Palazzo Sforza-Cesarini di Genzano di Roma, ma la credenza più diffusa, almeno nel passato, è che ogni famiglia ne avesse uno |
 | lenghelo-c07 | exact | it.wikipedia.org | The lenghelo appears in the Marino dialect saying "Te ballo sopp'a panza comm'u lenghelu!" ("I'll dance on your belly like the lenghelo!"). | Il lenghelo compare nella tipica espressione in dialetto marinese Te ballo sopp'a panza comm'u lenghelu! |
+| lenghelo-c08 | exact | en.wikipedia.org | The Lenghelo is a goblin or sprite of the popular tradition of the Castelli Romani, with roots in ancient Rome. | The Lenghelo is a goblin or sprite present in the popular tradition of the Castelli Romani which has its roots in ancient Rome. |
 
 
 ## llufa — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | llufa-c01 | exact | ca.wikipedia.org | In Catalan mythology a llufa is a female, ethereal, indeterminate being of the folk culture of the Empordà. | Una llufa és, dins la mitologia catalana, un ésser femení, eteri i indeterminat, propi de la cultura popular de l'Empordà. |
 | llufa-c02 | exact | ca.wikipedia.org | In Roses and Cap de Creus the llufes are well-meaning and just, while in the Baix Empordà they are more like little sprites also called "encantades of wind and smoke". | A Roses i el Cap de Creus, les llufes són benintencionades i justicieres, mentre que al Baix Empordà són més aviat una mena de petits follets que es coneixen també com a «encantades de vent i de fum». |
+| llufa-c03 | exact | www.enciclopedia.cat | In the Empordà people speak of the llufes, producers of the echo, sly and annoying beings. | I a l’Empordà es parla de les llufes, productores de l’eco, uns éssers sorneguers i empipadors |
+| llufa-c04 | exact | www.enciclopedia.cat | The only way to get rid of them is to bless them or sprinkle them with holy water. | només és possible alliberar-se’n beneint-les o esquitxant-les amb aigua beneita. |
 
 
 ## loberno — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -539,14 +547,13 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | loberno-c05 | exact | gl.wikipedia.org | Martín Sarmiento, in his Catálogo de voces y frases de la lengua gallega, places it around Santo André de Teixido. | Martín Sarmiento no seu Catálogo de voces y frases de la lengua gallega sitúao na zona de Santo André de Teixido e arredores. |
 | loberno-c06 | exact | gl.wikipedia.org | Sarmiento describes it as a harmful animal, worse than the wolf because it only sucks the cattle's blood, doing great harm. | Descríbeo como un animal pernicioso, peor co lobo pois só succiona o sangue do ganado facendo moito mal. |
 | loberno-c07 | exact | gl.wikipedia.org | Xoán Cuveiro Piñol, in his 19th-century dictionary, defined the word loberno as a lynx. | Xoán Cuveiro Piñol no seu dicionario do século XIX describía a voz loberno como un lince |
+| loberno-c08 | exact | archive.org | Cuveiro Piñol's Galician dictionary equates loberno, lobezno and lobican with the lince (lynx), a four-footed animal two or more feet tall, dark reddish with black spots, short-tailed, with long upright ears. | Loberno, lobezno y lobican— lince, animal cuadrúpedo, de dos ó mas pies de alto, color bermejo oscuro con manchas negras, cola corta, orejas largas y erguidas |
+| loberno-c09 | exact | archive.org | The dictionary adds that what is said of its sight and urine deserves no credit at all. | lo que se dice de su vista y orines no merece el menor crédito. Lynx. |
 
 
 ## lobisomem — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -558,6 +565,11 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 | lobisomem-c06 | exact | en.wikipedia.org | In all versions it transforms at night, usually attacking travellers and animals on the road. | Either way, in all versions it transforms at night, usually attacking travelers and animals on the road. |
 | lobisomem-c07 | exact | en.wikipedia.org | The name comes from Latin lupus and homo, Portuguese lobo ("wolf") and homem ("man"). | The name is derived from Latin lupus + homo, respectively lobo ("wolf"), and homem ("man") in Portuguese. |
 | lobisomem-c08 | exact | en.wikipedia.org | In parts of the Amazon the term Cumacanga is used, though it is unclear whether it is a female lobisomem or a different, related story. | In some parts of the Amazon the term Cumacanga is used, though it is unclear if this is the female version of lobisomem, or if this is a different but related story. |
+| lobisomem-c09 | exact | archive.org | The collection places the superstition of the Lobishomem, whose roaming ends at midnight, among the beliefs of the nocturnal solstice, common to all of Europe. | A superstição do Lobishomem^ que termina as suas vacações ao dar da meia noite ... do solsticio nocturno, commum a toda a Europa. |
+| lobisomem-c10 | exact | archive.org | According to Herculano, quoted in the collection, the lobis-homens are those fated to undress at night in the middle of a road. | commum a toda a Europa. Herculano descreve-o ... Os lobis-homens são aquelles que têm o fado ou sina de se despirem de noite no meio de qualquer caminho |
+| lobisomem-c11 | exact | archive.org | In the Azores, if a woman has seven sons in a row, the youngest becomes a lobishomem and at nightfall turns into a pig, a donkey or some other animal. | Se uma mulher tem sete filhos a seguir, o mais novo de todos fica lobishomem, isto é, tem de correr o seu fado : por isso logo que é noite fechada, elle transforma-se em porco, em burro, ou em qualquer outro animal |
+| lobisomem-c12 | exact | archive.org | The belief holds that someone who meets the lobishomem during its roaming may wound it and draw blood. | Se durante a vacaçao é encontrado por alguém, se este o ferir e lhe fizer sangue |
+| lobisomem-c13 | exact | archive.org | In S. Christovam de Mafamude and elsewhere in Portugal, the lobishomem roams between eleven and midnight, and light bothers and enrages it. | a vacaçao do lobishomem, é entre as onze e a meia noite em S. Christovam de Mafamude e outros pontos de Portugal ; a luz encommoda-o e enfurece-o |
 
 
 ## lobo-branco — lulus-otomatis
@@ -581,10 +593,7 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 
 ## loogaroo — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -598,14 +607,15 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 | loogaroo-c08 | exact | en.wikipedia.org | In Trinidad and Tobago the Lagahoo appears at night as a man with a coffin on his neck instead of a head, with three lit candles on top. | At night, he is described as taking the appearance of a man with a coffin on his neck instead of a head, atop which are three lit candles. |
 | loogaroo-c09 | exact | en.wikipedia.org | To defeat him he must be struck repeatedly with a stick soaked in holy water and holy oils for nine days. | To defeat him, he must be repeatedly struck with a stick doused in holy water and holy oils for nine days. |
 | loogaroo-c10 | exact | en.wikipedia.org | In Mauritian folklore the Lougarou is a notorious figure used mostly to scare children; it appears at full moon and brings trouble to the locals. | In Mauritian folklore, the Lougarou is a notorious figure mostly used to scare children. It appears at full moon and brings trouble to the local population. |
+| loogaroo-c11 | exact | en.wikipedia.org | On top of the Lagahoo's coffin are three lit candles, and the loose end of a heavy iron chain noosed around its waist trails behind it. | On top of the coffin are three lighted candles and the long loose end of a heavy iron chain, noosed around its waist, trails behind him. |
+| loogaroo-c12 | exact | en.wikipedia.org | The Lagahoo can shapeshift into various animals, including horses, pigs or goats, and is said often to take a centaur-like form. | It can shapeshift into various animals, including horses, pigs or goats, and said to often take the form of a creature similar to a centaur |
+| loogaroo-c13 | exact | en.wikipedia.org | The Lagahoo can also change its size from tiny to gigantic in an instant. | The Lagahoo also possesses the ability to alter its size from tiny to gigantic in an instant. |
+| loogaroo-c14 | exact | en.wikipedia.org | When beaten, it turns into a snarling dog, a horse, a cat, a pig, a wild bull and thundering waves of water, and finally vanishes into black mist. | While beating the demon, it changes into other beasts such as a snarling dog, horse, cat, and pig, a wild bull and thunderous waves of water and finally will disappear into a black mist. |
 
 
 ## machecroute — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -619,40 +629,44 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 | machecroute-c08 | exact | fr.wikipedia.org | According to Charles Joisten's fieldwork in Isère and Savoie, the Mâchecroute could also be a bogeyman, aquatic or not, that preferably devoured children. | la Mâchecroute, peut également être présentée comme un « croquemitaine », aquatique ou non, dévorant préférentiellement les enfants. |
 | machecroute-c09 | exact | fr.wikipedia.org | The geographer Jacques Béthemont compares the Mâchecroute with the Tarasque of Tarascon or the Gargouille of Rouen. | Le géographe Jacques Béthemont rapproche la Mâchecroute de la Tarasque de Tarascon ou de la Gargouille de Rouen. |
 | machecroute-c10 | exact | fr.wikipedia.org | The Entre Rhône et Saône festival chose it as its mascot in 2022. | Le festival Entre Rhône et Saône l'a choisie comme mascotte en 2022. |
+| machecroute-c11 | exact | www.gutenberg.org | In the English translation of Rabelais, the statue is called Maschecroute or Gnawcrust at Lyons during the Carnival, and Manduce by the Gastrolaters. | At Lyons during the Carnival it is called Maschecroute or Gnawcrust; they call’d this Manduce. |
+| machecroute-c12 | exact | www.gutenberg.org | It was a monstrous, ridiculous, hideous figure fit to frighten little children; its eyes were bigger than its belly and its head larger than the rest of its body. | It was a monstrous, ridiculous, hideous figure, fit to fright little children; its eyes were bigger than its belly, and its head larger than all the rest of its body |
+| machecroute-c13 | exact | www.gutenberg.org | The paraded statue was wooden, crudely carved and shoddily painted. | carried a wooden statue, grossly carved, and as scurvily daubed over with paint |
+| machecroute-c14 | exact | www.gutenberg.org | Its jaws were made to clash and rattle dreadfully, as is done at Metz with St. Clement's dragon. | were made to clash, clatter, and rattle dreadfully one against another; as they do at Metz with St. Clement’s dragon. |
 
 
 ## magoria — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 3 (exact 3), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | magoria-c01 | exact | ca.wikipedia.org | The Magòria is a fantastic animal of Catalan mythology that can bring either luck or misfortune, a voracious beast living underground with a tail easily mistaken for mistletoe. | La Magòria és un animal fantàstic propi de la mitologia catalana que tant pot portar sort com desgràcia. Es tracta d'una fera voraç que viu sota terra i té una cua que es confon amb el vesc. |
+| magoria-c02 | exact | www.enciclopedia.cat | The encyclopedia of tradition lists the Magòria among the fantastic animals of popular imagination: it lives underground and can bring good fortune or misfortune. | la Magòria, que viu sota terra i pot portar ventura o desgràcia |
+| magoria-c03 | exact | lesradesgrises.com | A review of an encyclopedic volume says the Magòria lives underground and its tail is easily mistaken for mistletoe. | Aquest volum enciclopèdic no només descriu follets, esperits, bruixes o elements més populars com la cuca fera, els menairons o les dones d’aigua, sinó que ens parla del Pericó (un gegant constituït de ferro massís), la Magòria (que viu sota terra i la seva cua es confon amb el vesc) |
 
 
 ## mandi-legendary-creature — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mandi-legendary-creature-c01 | exact | en.wikipedia.org | According to Pliny the Elder, the Mandi are a short-lived people from India. | The Mandi, according to Pliny the Elder, are a short-lived people from India. |
 | mandi-legendary-creature-c02 | exact | en.wikipedia.org | Pliny equates the Mandi, named by Cleitarchus and Megasthenes, whose women can bear children at seven and grow old at forty, with the Macrobii. | Pliny equates the Mandi, named by Cleitarchus and Megasthenes, whose women can bear children in their seventh year and who become old at forty, with the Macrobii |
 | mandi-legendary-creature-c03 | exact | en.wikipedia.org | Pliny also says Agatharchides describes them as living on locusts and being swift-footed. | Pliny also states that Agatharchides describes them as living off of a diet of locusts and being swift-footed. |
+| mandi-legendary-creature-c04 | exact | www.perseus.tufts.edu | Pliny writes of a people bordering the country of the Macrobii who never live beyond their fortieth year, and whose women bear children only once in their lives. | On the other hand, there are some people joining up to the country of the Macrobii, who never live beyond their fortieth year, and their females have children once only during their lives. |
+| mandi-legendary-creature-c05 | exact | www.perseus.tufts.edu | Clitarchus and Megasthenes call this people the Mandi and count as many as three hundred villages belonging to them. | Clitarchus and Megasthenes give these people the name of Mandi, and enumerate as many as three hundred villages which belong to them. |
+| mandi-legendary-creature-c06 | exact | www.perseus.tufts.edu | Their women can bear children in their seventh year and become old at forty. | Their women are capable of bearing children in the seventh year of their age, and become old at forty |
+| mandi-legendary-creature-c07 | exact | www.perseus.tufts.edu | Agatharchides also mentions this, adding that they live on locusts and are very swift of foot. | This circumstance is also mentioned by Agatharchides, who states, in addition, that they live ... and are very swift of foot. |
 
 
 ## marfanto — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -662,28 +676,30 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | marfanto-c04 | exact | ca.wikipedia.org | It has sometimes been suggested that the marfantos are a legendary memory of former slaves, Moriscos, fugitives or smugglers who wandered the Ebro delta. | De vegades s'ha postulat que els marfantos podrien ser un record llegendari d'antics esclaus, moriscos, furtius o contrabandistes que vagarejaven per la zona del delta de l'Ebre. |
 | marfanto-c05 | exact | ca.wikipedia.org | The marfantes, the female form, were bogeys used to scare children with the threat "The marfantes will come!" if they misbehaved. | una mena d'espantamainades que es feien servir per a atemorir els xiquets sota l'amenaça que, si no es portaven bé, «Vindran les marfantes!» |
 | marfanto-c06 | exact | ca.wikipedia.org | The DCVB dictionary defines marfanta as a ghost, or a person who appears disguised at night to frighten others. | El DCVB defineix el mot 'marfanta' com a «Fantasma; individu que es presenta desfressat, de nit, per fer por» |
+| marfanto-c07 | exact | www.diaridetarragona.com | A newspaper describes the marfantos as outcasts from beyond the grave who eke out an existence in the Delta, the Baix Ebre and the Montsià, and who may have been slaves, Moriscos or poachers. | Los marfantos, proscritos de ultratumba que malviven en el Delta, el Baix Ebre y el Montsià y que podían ser esclavos, moriscos o furtivos. |
+| marfanto-c08 | exact | dcvb.iec.cat | The DCVB defines marfanta as a ghost or a person disguised at night to frighten, recording the word at Tortosa. | Fantasma; individu que es presenta desfressat, de nit, per fer por (Tortosa); cast. fantasma. |
+| marfanto-c09 | exact | dcvb.iec.cat | According to the DCVB, the word marfanta comes from marfana crossed with farfanta, following Coromines. | Etim.: de marfana encreuat amb farfanta (Coromines, BDC, xxiv, 26). |
 
 
 ## maria-da-grade — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | maria-da-grade-c01 | exact | pt.wikipedia.org | The maria da grade, also known as Mari'grade, is a mythical being of Portuguese folklore equivalent to the Maria da manta. | A maria da grade, também conhecida como Mari'grade é um ser mítico do folclore português, equivalente à Maria da manta. |
 | maria-da-grade-c02 | exact | pt.wikipedia.org | In popular belief it lives in rivers, lakes and wells, luring and drowning children who come near. | Segundo a crença popular, habita nos rios, lagos e poços, atrai e afoga as crianças que se aproximam destes lugares. |
 | maria-da-grade-c03 | exact | pt.wikipedia.org | It is thought to be a remnant of pagan nymphs. | Supõe-se que possa ser uma reminiscência das ninfas pagãs. |
+| maria-da-grade-c04 | exact | archive.org | The Revista Lusitana records the Maria-da-grade (OCR "Marki-da-grade") from Sangalhos as a fantastic woman (mulher fantástica). | Marki-da-grade, (Sangalhos), mulher fantástica que |
+| maria-da-grade-c05 | exact | archive.org | The journal says the figure may be a remnant of pagan nymphs, citing a dictionary (dic. de Cândido de …). | Talvez reminiscências das ninfas pagãs (dic. de Cândido de |
 
 
 ## maria-da-manta — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -694,14 +710,12 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | maria-da-manta-c05 | exact | pt.wikipedia.org | In Mirandese and in Galicia she is called Marimanta, and Badajoz celebrates the burning of the Marimanta. | Também conhecida como Marimanta em mirandês e na Galiza. Em Badajoz celebra-se a queima da Marimanta. |
 | maria-da-manta-c06 | exact | pt.wikipedia.org | A folk rhyme says she has fire in her eyes and firewood on her horns, roams hills and valleys, and kills children in pairs. | Tem lume nos olhos ... E lenha nos cornos ... Corre montes e vales ... E mata meninos aos pares. |
 | maria-da-manta-c07 | exact | pt.wikipedia.org | The maria da manta is a mythical being of Portuguese folklore. | A maria da manta é um ser mítico do folclore português. |
+| maria-da-manta-c08 | exact | estraviz.org | The Galician-Portuguese Estraviz dictionary defines mariamanta as a very ugly imaginary woman who carries children off. | Mulher imaginária muito feia que leva as crianças. |
 
 
 ## maria-gancha — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -709,14 +723,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | maria-gancha-c02 | exact | pt.wikipedia.org | She has hook-shaped arms, lives at the bottom of wells, and drowns children who come near her well. | A Maria Gancha tem os braços em forma de gancho e vive no fundo dos poços. A Maria Gancha afoga os meninos que se aproximam do poço onde ela vive. |
 | maria-gancha-c03 | exact | pt.wikipedia.org | In the legends of Mallorca she is called Maria Enganxa. | Nas lendas de Maiorca ela chama-se Maria Enganxa. |
 | maria-gancha-c04 | exact | pt.wikipedia.org | As one of the child-scaring Medos or Papões, the Maria Gancha was used to keep children away from wells. | No caso da Maria Gancha, os poços eram os locais perigosos a evitar. |
+| maria-gancha-c05 | exact | lendarium.org | Elders warned children not to go near the edge of the well, because the Maria Gancha lives there and can seize them and take them to the bottom. | Não vás para a beira do poço, pois vive lá a Maria Gancha e ela pode agarrar-te e levar-te para o fundo. |
+| maria-gancha-c06 | exact | lendarium.org | The elders used this warning to stop children approaching wells, which are a real danger. | Os mais velhos, para evitar que as crianças se aproximassem dos poços, que são um autêntico perigo, costumavam dizer aos filhos: |
+| maria-gancha-c07 | exact | lendarium.org | In the tale a boy throws a stone into the well and wakes the Maria Gancha; angered, she climbs the bucket rope, seizes him with her hook-shaped arms, takes him to the bottom and drowns him. | Esta, zangada com o atrevimento do rapaz, subiu pela corda do balde com que se tirava a água, agarrou-o com os seus braços em forma de gancho e levou-o para o fundo e ali o afogou. |
+| maria-gancha-c08 | exact | lendarium.org | The boy threw a stone that clattered against the well walls and stirred the water at the bottom, waking the Maria Gancha. | Pegou num calhau e lançou-o dentro. O dito calhau fez um grande estardalhaço ao tocar nas paredes do poço, que eram de pedra e, ao chegar ao fundo, agitou as águas, acordando a Maria Gancha. |
+| maria-gancha-c09 | exact | lendarium.org | The next day a neighbour drawing water found the boy floating at the bottom of the well. | Uma vizinha, quando no dia seguinte foi tirar água ao poço para fazer a janta, deu com ele a boiar no fundo. |
 
 
 ## marranghino — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -726,14 +742,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | marranghino-c04 | exact | it.wikipedia.org | It looks clumsy: very short, moustached, pot-bellied and big-headed. | il Marranghino si presenta con un aspetto goffo: particolarmente basso di statura, con i mustacchi, un grosso pancione e una grande testa. |
 | marranghino-c05 | exact | it.wikipedia.org | It is not wicked but a joking little spirit that likes to jest, laugh and play with people without causing harm. | Il Marranghino non viene descritto come un essere cattivo, ma piuttosto come uno spiritello burlone che si diverte a scherzare, ridere e giocare con le persone, senza causare danni. |
 | marranghino-c06 | exact | it.wikipedia.org | In legends and tales it especially enjoys hiding farmers' tools during field work. | Nelle leggende e nelle fiabe tradizionali, si diverte in modo particolare a nascondere gli attrezzi contadini durante il lavoro agricolo. |
+| marranghino-c07 | exact | siviaggia.it | In the Matera area the Maranghino is a good-natured, joking little spirit likened to a kind of thin-legged spider. | Nel territorio di Matera ecco il Maranghino, spiritello bonaccione e burlone che è accostabile a una sorta di ragno dalle zampe sottili. |
+| marranghino-c08 | exact | siviaggia.it | It was a likeable spirit tolerated by people, breaking up dull rural days with its little pranks. | Era un simpatico spirito tollerato dalle persone che spezzava le noiose giornate rurali con i suoi piccoli dispetti. |
 
 
 ## marroca — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -743,14 +758,18 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | marroca-c04 | exact | it.wikipedia.org | In the province of Viterbo in northern Lazio, especially the caldera of the former Latera volcano, the marròca means something else: a witch or an ugly, wicked woman. | In provincia di Viterbo, nell'alto Lazio, ed in particolare nella caldera dell'ex vulcano di Latera, si ritrova la marroca con un'accezione differente: simboleggerebbe una strega o comunque una donna brutta e malvagia. |
 | marroca-c05 | exact | it.wikipedia.org | In Fastello it is imagined like an octopus and can make water poisonous to whoever drinks it. | viene fatta assomigliare ad una specie di piovra e ha la capacità di rendere l’acqua velenosa per chi la beve. |
 | marroca-c06 | exact | it.wikipedia.org | A similar animal with a different name is the biddrina, said to haunt the wetlands of the province of Caltanissetta. | Animale simile ma con nome diverso è la biddrina, che infesterebbe le zone umide della campagna della provincia di Caltanissetta |
+| marroca-c07 | exact | www.lavaldichiana.it | The Marroca is a fantastic figure, a monster shaped like a large water snake or a big slug, living in dark places with stagnant water, in sewers and marshes. | La Marroca è una figura fantastica, un mostro che assume l’aspetto di una grossa biscia o di un grosso lumacone, che vive nei luoghi oscuri dove ristagna l’acqua, nelle fogne e negli acquitrini. |
+| marroca-c08 | exact | www.lavaldichiana.it | Tales of this monster are especially widespread in the Chiana countryside, particularly around Montepulciano. | I racconti attorno a questo mostro sono particolarmente diffusi nelle campagne chianine, specialmente a Montepulciano e dintorni. |
+| marroca-c09 | exact | www.lavaldichiana.it | It likes to come out at night and uses its long tentacle-like fingers to crawl, grip its prey, drag it into the water and devour it. | Ama uscire di notte, quando gli acquitrini sono più pericolosi, e utilizza le sue lunghe dita che sembrano tentacoli, per strisciare lungo il terreno e avvinghiare le prede, portandole in acqua e divorandole. |
+| marroca-c10 | exact | www.lavaldichiana.it | Children in the Valdichiana were warned to go to bed without fuss, or else "the witch Marroca" would come and take them away. | “E ora a letto senza fare le bizze, altrimenti arriva la strega Marroca e ti porta via” |
+| marroca-c11 | exact | www.lavaldichiana.it | Around Viterbo the monster also lives in stagnant pools, but it looks more like an octopus than a slug. | Di Marroca si parla anche nel viterbese, non molto distante dalla Valdichiana. Anche in questa zona il mostro abita in pozze d’acqua stagnanti, ma il suo aspetto è più simile a una piovra che a quello di un lumacone. |
+| marroca-c12 | exact | www.lavaldichiana.it | The Marroca of Tuscia closely resembles the Occhiomalo, a monster of Tuscan Maremma legend that lives at the bottom of wells and drowns its victims. | La Marroca della Tuscia ha quindi molte somiglianze con l’Occhiomalo, una creatura delle leggende della maremma toscana e diffusa in tutto il grossetano: un mostro che vive in fondo ai pozzi e che porta i malcapitati ad annegare. |
+| marroca-c13 | exact | www.lavaldichiana.it | Today the Marroca is mainly spoken of as a witch who carries off a naughty child or one who will not sleep. | Oggi si parla di Marroca principalmente nella sua accezione di strega, che porta via il bambino capriccioso o che non vuol dormire. |
 
 
 ## maruxinho — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -759,41 +778,53 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | maruxinho-c03 | exact | pt.wikipedia.org | They are small and slight, with wrinkled faces and lively eyes, big ears, and claws instead of hands. | Os maruxinhos são de pequena estatura, franzinos, tem o rosto enrugado e os olhos vivos, são orelhudos e possuem garras em vez de mãos. |
 | maruxinho-c04 | exact | pt.wikipedia.org | They are considered clever and cunning, able to hide in any crack. | Os Maruxinhos são considerados seres espertos e matreiros que escondem-se em qualquer fresta. |
 | maruxinho-c05 | exact | pt.wikipedia.org | The saying "És fino como um maruxinho!" ("You're as sly as a maruxinho!") is still used of a clever, cunning person. | Ainda é usada a expressão "És fino como um maruxinho!". para dizer que uma pessoa é esperta e matreira |
+| maruxinho-c06 | exact | lendarium.org | According to the legend, the ruins of the Castelo do Mau Vizinho came to be inhabited by the maruxinhos, a magical tribe of tiny imps who lived by night and hid as much as they could by day. | as ruínas do castelo passaram a ser habitadas pelos maruxinhos, uma tribo mágica de mafarricos miudinhos que viviam de noite e escondiam-se, o mais que podiam, durante o dia. |
+| maruxinho-c07 | exact | lendarium.org | Being small and slight, they struggled to move the stones of the Castelo do Mau Vizinho so they could get in and live there. | sendo eles pequenos e franzinos, se viam gregos para desviar as pedras do Castelo do Mau Vizinho para lá poderem entrar e morar. |
+| maruxinho-c08 | exact | lendarium.org | After the people of Lebução were tricked into turning the great rock, the maruxinhos watched from afar, hidden in the cracks of the rocks, pleased and amused. | E quanto aos maruxinhos, diz a lenda que assistiam de longe, escondidos nas fissuras das fragas, satisfeitos e divertidos. |
+| maruxinho-c09 | exact | lendarium.org | According to another legend, the maruxinhos also lived in the ruins of the Fortaleza de São Sebastião near the village of Castanheira, in the municipality of Chaves. | Segundo a lenda, os maruxinhos viviam também nas ruínas da Fortaleza de São Sebastião, situada próximo da aldeia da Castanheira, no concelho de Chaves. |
+| maruxinho-c10 | exact | lendarium.org | At night they entered the stables, fed the horses huge amounts of grain, then rode them all night around the seven surrounding parishes. | Entravam nos currais, abriam os sacos de cereal e davam-no a comer, em enormes quantidades, aos cavalos, que, por isso, estavam sempre muito gordos e fartos. Depois montavam-nos e andavam a noite inteira a correr as sete freguesias à volta. |
+| maruxinho-c11 | exact | lendarium.org | When a farmer scattered linseed on the stable floor to catch their footprints, the next day the floor was completely clean, without a single grain left. | Ao outro dia o lavrador ao entrar no curral, encontrou o chão completa limpo. Nem um grãozinho por mais minúsculo que fosse, estava lá perdido. |
 
 
 ## maski-mon-gwe-zo-os — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 8 (exact 2, unreachable 6), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 6 kutipan tidak bisa dicek otomatis: www.native-languages.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | maski-mon-gwe-zo-os-c01 | exact | fr.wikipedia.org | In Abenaki mythology the Maski-mon-gwe-zo-os is a frog-shaped creature that seduces men and children and kills them. | Maski-mon-gwe-zo-os : une créature en forme de grenouille qui séduit les hommes et les enfants et les tue. |
 | maski-mon-gwe-zo-os-c02 | exact | fr.wikipedia.org | It appears either as a partridge or as a woman dressed in moss with a belt of Thuja occidentalis bark. | Apparaît soit dans la forme d'une perdrix, soit dans la forme d'une femme habillée en mousse avec une ceinture en écorce de Thuja occidentalis. |
+| maski-mon-gwe-zo-os-c03 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | Maski-mon-gwe-zo-os is listed as one of the Native-language names of the Swamp Woman, alongside Pskegdemus, Mskagwdemos and others. | Names in Native languages: Pskegdemus, P-Skig-Demo-Os, Mskagwdemos, Meskagkwedemos, M-ska-gwe-demoos, Maski-mon-gwe-zo-os |
+| maski-mon-gwe-zo-os-c04 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | In Wabanaki folklore, the Swamp Woman is a female ghost who lives in the swamps and makes mournful cries. | In Wabanaki folklore, Swamp Woman is a female ghost that lives in the swamps and makes mournful cries. |
+| maski-mon-gwe-zo-os-c05 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | Anyone who follows the sound of her crying will be lost in the swamp and killed. | Anyone who tries to follow the sound of her crying will be lost in the swamp and killed. |
+| maski-mon-gwe-zo-os-c06 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | She was mainly a bogey figure used to scare children away from straying into the swamp. | she was primarily a bogeyman to scare children away from straying into the swamp. |
+| maski-mon-gwe-zo-os-c07 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | In some tellings she is a malevolent creature who deliberately lures children to their deaths out of spite or to eat them. | By some tellings, Swamp Woman was more of a malevolent creature, intentionally luring children to their deaths out of spite or so that she could eat them. |
+| maski-mon-gwe-zo-os-c08 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | In other tellings she is the ghost of a childless woman who calls children out of loneliness, but they die when her ghostly hands touch them. | the ghost of a childless woman who calls children to her out of genuine loneliness, only to have them die when her ghostly hands touch them. |
 
 
 ## medo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | medo-c01 | exact | pt.wikipedia.org | The Medo is an evil being of Portuguese folklore that appears at the "open hours" as an apparition or lost soul. | O Medo é uma entidade maléfica do folclore português. Este ser aparece nas horas-abertas como aparição ou alma penada. |
 | medo-c02 | exact | pt.wikipedia.org | Throughout the Algarve people believe Medos appear at noon, at midnight or after the Ave Maria bell. | Em todo o Algarve se crê na aparição de Medos ao meio-dia, à meia-noite ou ainda depois do toque das ave-marias. |
 | medo-c03 | exact | pt.wikipedia.org | Medos appear above all in summer, on fine moonlit nights and at the height of noon heat, when everyone sleeps or rests. | É sobretudo no verão que os Medos aparecem, nas belas noites de luar e ao pino do meio dia, pela força do calor, quando tudo dorme ou descansa . |
+| medo-c04 | exact | archive.org | Hence people say that a Medo appears in such and such a place. | Por isso diz-se que em tal sitio apparece um Medo. |
+| medo-c05 | exact | archive.org | In Lagoa and Estombar such apparitions are very numerous, each with its own name and legend. | Em Lagoa e Estombar o numero d'essas apparições é enorme e todas teem o seu nome distincto e a sua lenda. |
+| medo-c06 | exact | archive.org | One of these apparitions appears on moonlit nights riding a white mare and making an infernal din across the fields. | Apparece nas noites de luar montada numa égua branca, fazendo um barulho infernal pelos campos |
+| medo-c07 | exact | archive.org | She is the "old woman of the white mare" (velha da égua branca), the terror of the stroke of midnight. | E' a velha da égua branca., o terror da meia-noite em pino. |
+| medo-c08 | exact | archive.org | Another, the pretinho do barrete encarnado ("little black one in the red cap"), always appears at the calmest, hottest hour. | O 'pretinho do barrete encarnado apparece sempre á hora de maior calma. |
+| medo-c09 | exact | archive.org | Among the various evil entities, the homem do chapeo de ferro ("man in the iron hat") stands out as the most terrible. | Entre as diversas entidades maléficas, o homem do chapeo de ferro sobresáe como a mais terrível. |
 
 
 ## mekhala — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -806,4 +837,9 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | mekhala-c07 | exact | es.wikipedia.org | In these pockets mekhalas imprison the souls of sleeping children, and if they meet an animal they suck its blood like vampires. | se dice que en estos bolsillos las mekhalas aprisionan las almas de niños dormidos que se cruzan en su camino y que si se topan con un animal le chupan la sangre, cual vampiros. |
 | mekhala-c08 | exact | es.wikipedia.org | To defend oneself one invokes the khonopas, minor household guardian gods, or sets up an image of Mama Sara, a waka or maize idol. | Para defenderse, hay que invocar a khonopas o qonopas, dioses menores protectores de las casas o poner una imagen de Mama Sara, una waka o ídolo del maíz |
 | mekhala-c09 | exact | es.wikipedia.org | José Camarlinghi wrote about the mekhalas in his poem Illa tocanta. | En su poema Illa tocanta, José Camarlinghi escribió sobre las mekhalas |
+| mekhala-c10 | exact | archive.org | According to the peasants, she is a tall, thin woman of livid colour and flabby flesh, with dishevelled, flowing hair. | Según éstos, es una mujer alta, flaca, de color lívido, carnes lacias, cabellera desgreñada y suelta al aire |
+| mekhala-c11 | exact | archive.org | She is said to move by leaps, dressed in a long red tunic. | Dicen que anda a saltos, vestida de una larga túnica roja |
+| mekhala-c12 | exact | archive.org | She takes the best crops and stuffs them into all her pockets, which can never be filled. | de los mejores frutos y los introduce en todos sus bolsillos, imposibles de ser rellenados |
+| mekhala-c13 | exact | archive.org | Her passage is marked by the devastation she leaves behind. | Su paso se señala por las devastaciones que deja tras sí. |
+| mekhala-c14 | exact | archive.org | Catholic missionaries urged the Indigenous people not to seek protection from their idols but to check her with crosses set in the fields and behind fold doors, and also with salt and rosemary leaves. | Los misioneros católicos exhortaban y aconsejaban a los indios a no buscar el amparo de sus ídolos contra ... sino contener su osadía con cruces que ponían en las sementeras y tras la puerta de las majadas ... también empleaban con el mismo objeto, la sal y hojas de romero. |
 
