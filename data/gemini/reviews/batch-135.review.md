@@ -1,6 +1,6 @@
 # Review batch-135
 
-Diperiksa 2026-10-13T19:17:57.844Z. Berkas: batch-135.md, batch-135-fix-1.md, batch-135-fix-2.md, batch-135-fix-3.md, batch-135-fix-4.md, batch-135-fix-5.md.
+Diperiksa 2026-10-13T19:18:31.671Z. Berkas: batch-135.md, batch-135-fix-1.md, batch-135-fix-2.md, batch-135-fix-3.md, batch-135-fix-4.md, batch-135-fix-5.md.
 
 ## mich — lulus-otomatis
 
@@ -655,7 +655,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 | santa-pupa-c01 | exact | it.wikipedia.org | Santa Pupa is a saint absent from the Catholic martyrology, yet her help is still popularly invoked in Rome and central Italy to protect children when they fall. | Santa Pupa è una santa inesistente, o che comunque non compare nel martirologio della Chiesa cattolica. Il suo soccorso è tuttavia ancora popolarmente invocato a Roma e nell'Italia centrale, a protezione dei bambini quando cadono e rischiano di farsi male. |
 | santa-pupa-c02 | exact | it.wikipedia.org | Pupa is probably the Christianisation of a pagan deity who protected children. | È verosimile che Pupa sia la cristianizzazione di una qualche divinità pagana che aveva il compito di proteggere i bambini |
 | santa-pupa-c03 | exact | it.wikipedia.org | The Roman poet Gioacchino Belli dedicated one of his famous sonnets to this household saint. | Il poeta romano Gioacchino Belli doveva nutrirle una particolare devozione, se dedicò, a questa santa domestica, uno dei suoi famosi sonetti |
-| santa-pupa-c04 | exact | www.laboratorioroma.it | In Rome's working-class families, Santa Pupa, together with Saint Anne, mother of the Madonna, was the special protector of children. | Santa Pupa, insieme a San'Anna, madre della Madonna, era la particolare protettrice dei bambini. |
+| santa-pupa-c04 | exact | www.laboratorioroma.it | Santa Pupa, together with Saint Anne, mother of the Madonna, was the special protector of children. | Santa Pupa, insieme a San'Anna, madre della Madonna, era la particolare protettrice dei bambini. |
 | santa-pupa-c05 | exact | www.laboratorioroma.it | Pupa means 'little girl' (bambina, ragazzina). | Pupa significa "bambina”, “ragazzina". |
 | santa-pupa-c06 | exact | www.laboratorioroma.it | Belli, the exasperated father of a very lively child, dedicated a sonnet to this imaginary saint in 1833. | A questa santa immaginaria il Belli, padre esasperato d’un bimbo vivacissimo, dedicò un sonetto, nel 1833 |
 | santa-pupa-c07 | exact | www.laboratorioroma.it | An oil painting of Santa Pupa by an unknown artist is held at the Museo di Roma in Trastevere. | Santa Pupa- olio di autore ignoto Museo di Roma in Trastevere |

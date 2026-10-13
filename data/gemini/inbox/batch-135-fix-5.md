@@ -321,269 +321,269 @@
 
 ```json
 {
- "schema": "mythics-entry/1",
- "batch_id": "batch-135",
- "slug": "santa-pupa",
- "task": "new",
- "tier": "core",
- "researched_at": "2026-10-14",
- "identity": {
-  "canonical_name": "Santa Pupa",
-  "native_name": null,
-  "display_name": {
-   "id": "Santa Pupa",
-   "en": "Santa Pupa"
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-135",
+  "slug": "santa-pupa",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-14",
+  "identity": {
+    "canonical_name": "Santa Pupa",
+    "native_name": null,
+    "display_name": {
+      "id": "Santa Pupa",
+      "en": "Santa Pupa"
+    },
+    "wikidata_qid": "Q3949223",
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
   },
-  "wikidata_qid": "Q3949223",
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "alternate_names": [],
- "jenis": {
-  "value": "orang suci",
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "classification": {
-  "value": "legendary-figure",
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "culture": {
-  "value": "tradition-italian",
-  "suggested_new": null,
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "region": {
-  "value": "europe",
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "countries": {
-  "value": [
-   "Italy"
+  "alternate_names": [],
+  "jenis": {
+    "value": "orang suci",
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-figure",
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-italian",
+    "suggested_new": null,
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Italy"
+    ],
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "protective",
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Santa Pupa adalah santa rakyat yang tidak diakui Gereja Katolik tetapi diseru di Roma dan Italia tengah untuk melindungi anak yang jatuh.",
+    "en": "Santa Pupa is a folk saint absent from the Catholic martyrology but invoked in Rome and central Italy to protect children who fall.",
+    "claim_ids": [
+      "santa-pupa-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Santa Pupa adalah santa yang tidak tercantum dalam martirologi Gereja Katolik, tetapi pertolongannya masih diseru rakyat di Roma dan Italia tengah untuk melindungi anak-anak yang jatuh. Ia kemungkinan kristenisasi dewa pagan pelindung anak, dan penyair Roma Gioacchino Belli mendedikasikan sebuah sonetanya kepadanya.",
+      "en": "Santa Pupa is a saint absent from the Catholic martyrology, yet her help is still invoked in Rome and central Italy to protect children who fall. She is probably the Christianisation of a pagan protector of children, and the Roman poet Gioacchino Belli dedicated a sonnet to her.",
+      "claim_ids": [
+        "santa-pupa-c01",
+        "santa-pupa-c02",
+        "santa-pupa-c03"
+      ]
+    },
+    {
+      "id": "Namanya berarti 'anak perempuan kecil', dan di keluarga rakyat Roma ia bersama Santa Anna dianggap pelindung khusus anak-anak. Gioacchino Belli menulis sonetanya untuk santa khayalan ini pada tahun 1833, dan sebuah lukisan minyak Santa Pupa karya pelukis tak dikenal tersimpan di Museo di Roma in Trastevere.",
+      "en": "Her name means 'little girl', and in Rome's working-class families she and Saint Anne were held to be special protectors of children. Gioacchino Belli wrote his sonnet to this imaginary saint in 1833, and an oil painting of Santa Pupa by an unknown artist is held at the Museo di Roma in Trastevere.",
+      "claim_ids": [
+        "santa-pupa-c03",
+        "santa-pupa-c04",
+        "santa-pupa-c05",
+        "santa-pupa-c06",
+        "santa-pupa-c07"
+      ]
+    }
   ],
-  "claim_ids": [
-   "santa-pupa-c01"
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "Pupa",
+    "language": "Italian",
+    "literal_meaning": {
+      "id": "anak perempuan kecil",
+      "en": "little girl"
+    },
+    "claim_ids": [
+      "santa-pupa-c05"
+    ]
+  },
+  "story_mode": {
+    "who": {
+      "id": "Santa rakyat pelindung anak.",
+      "en": "A folk saint protecting children.",
+      "claim_ids": [
+        "santa-pupa-c01"
+      ]
+    },
+    "origin": {
+      "id": "Roma dan Italia tengah.",
+      "en": "Rome and central Italy.",
+      "claim_ids": [
+        "santa-pupa-c01"
+      ]
+    },
+    "role": {
+      "id": "Melindungi anak yang jatuh.",
+      "en": "Protects children who fall.",
+      "claim_ids": [
+        "santa-pupa-c01"
+      ]
+    },
+    "famous_for": null
+  },
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Museo di Roma in Trastevere",
+        "en": "Museo di Roma in Trastevere"
+      },
+      "type": "other",
+      "description": {
+        "id": "Menyimpan lukisan minyak Santa Pupa karya pelukis tak dikenal.",
+        "en": "Holds an oil painting of Santa Pupa by an unknown artist."
+      },
+      "claim_ids": [
+        "santa-pupa-c07"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "santa-pupa-s1",
+      "url": "https://it.wikipedia.org/wiki/Santa_Pupa",
+      "title": "Santa Pupa",
+      "author": null,
+      "publisher": "Wikipedia (it)",
+      "published": null,
+      "language": "it",
+      "type": "wikipedia",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "santa-pupa-s2",
+      "url": "https://www.laboratorioroma.it/santa-pupa.html",
+      "title": "Santa Pupa (Roma si racconta – curiosità)",
+      "author": "Sergio Natalizia",
+      "publisher": "LaboratorioRoma.it",
+      "published": null,
+      "language": "it",
+      "type": "other",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "claims": [
+    {
+      "id": "santa-pupa-c01",
+      "source_id": "santa-pupa-s1",
+      "quote": "Santa Pupa è una santa inesistente, o che comunque non compare nel martirologio della Chiesa cattolica. Il suo soccorso è tuttavia ancora popolarmente invocato a Roma e nell'Italia centrale, a protezione dei bambini quando cadono e rischiano di farsi male.",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Santa Pupa adalah santa yang tidak ada dalam martirologi Gereja Katolik, tetapi pertolongannya masih diseru rakyat di Roma dan Italia tengah untuk melindungi anak yang jatuh.",
+        "en": "Santa Pupa is a saint absent from the Catholic martyrology, yet her help is still popularly invoked in Rome and central Italy to protect children when they fall."
+      }
+    },
+    {
+      "id": "santa-pupa-c02",
+      "source_id": "santa-pupa-s1",
+      "quote": "È verosimile che Pupa sia la cristianizzazione di una qualche divinità pagana che aveva il compito di proteggere i bambini",
+      "locator": null,
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Pupa kemungkinan kristenisasi dewa pagan pelindung anak-anak.",
+        "en": "Pupa is probably the Christianisation of a pagan deity who protected children."
+      }
+    },
+    {
+      "id": "santa-pupa-c03",
+      "source_id": "santa-pupa-s1",
+      "quote": "Il poeta romano Gioacchino Belli doveva nutrirle una particolare devozione, se dedicò, a questa santa domestica, uno dei suoi famosi sonetti",
+      "locator": null,
+      "context": "historical-record",
+      "statement": {
+        "id": "Penyair Roma Gioacchino Belli mendedikasikan salah satu sonetanya yang terkenal kepada santa rumah tangga ini.",
+        "en": "The Roman poet Gioacchino Belli dedicated one of his famous sonnets to this household saint."
+      }
+    },
+    {
+      "id": "santa-pupa-c04",
+      "source_id": "santa-pupa-s2",
+      "quote": "Santa Pupa, insieme a San'Anna, madre della Madonna, era la particolare protettrice dei bambini.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Santa Pupa, bersama Santa Anna, ibu Bunda Maria, adalah pelindung khusus anak-anak.",
+        "en": "Santa Pupa, together with Saint Anne, mother of the Madonna, was the special protector of children."
+      }
+    },
+    {
+      "id": "santa-pupa-c05",
+      "source_id": "santa-pupa-s2",
+      "quote": "Pupa significa \"bambina”, “ragazzina\".",
+      "locator": null,
+      "context": "etymology",
+      "statement": {
+        "id": "Pupa berarti 'anak perempuan kecil' (bambina, ragazzina).",
+        "en": "Pupa means 'little girl' (bambina, ragazzina)."
+      }
+    },
+    {
+      "id": "santa-pupa-c06",
+      "source_id": "santa-pupa-s2",
+      "quote": "A questa santa immaginaria il Belli, padre esasperato d’un bimbo vivacissimo, dedicò un sonetto, nel 1833",
+      "locator": null,
+      "context": "historical-record",
+      "statement": {
+        "id": "Belli, ayah yang kewalahan menghadapi anaknya yang sangat lincah, mempersembahkan sebuah soneta kepada santa khayalan ini pada tahun 1833.",
+        "en": "Belli, the exasperated father of a very lively child, dedicated a sonnet to this imaginary saint in 1833."
+      }
+    },
+    {
+      "id": "santa-pupa-c07",
+      "source_id": "santa-pupa-s2",
+      "quote": "Santa Pupa- olio di autore ignoto Museo di Roma in Trastevere",
+      "locator": null,
+      "context": "historical-record",
+      "statement": {
+        "id": "Sebuah lukisan minyak Santa Pupa karya pelukis tak dikenal tersimpan di Museo di Roma in Trastevere.",
+        "en": "An oil painting of Santa Pupa by an unknown artist is held at the Museo di Roma in Trastevere."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+    }
   ]
- },
- "era": null,
- "habitats": [],
- "disposition": {
-  "value": "protective",
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "traits": [],
- "short_description": {
-  "id": "Santa Pupa adalah santa rakyat yang tidak diakui Gereja Katolik tetapi diseru di Roma dan Italia tengah untuk melindungi anak yang jatuh.",
-  "en": "Santa Pupa is a folk saint absent from the Catholic martyrology but invoked in Rome and central Italy to protect children who fall.",
-  "claim_ids": [
-   "santa-pupa-c01"
-  ]
- },
- "long_description": [
-  {
-   "id": "Santa Pupa adalah santa yang tidak tercantum dalam martirologi Gereja Katolik, tetapi pertolongannya masih diseru rakyat di Roma dan Italia tengah untuk melindungi anak-anak yang jatuh. Ia kemungkinan kristenisasi dewa pagan pelindung anak, dan penyair Roma Gioacchino Belli mendedikasikan sebuah sonetanya kepadanya.",
-   "en": "Santa Pupa is a saint absent from the Catholic martyrology, yet her help is still invoked in Rome and central Italy to protect children who fall. She is probably the Christianisation of a pagan protector of children, and the Roman poet Gioacchino Belli dedicated a sonnet to her.",
-   "claim_ids": [
-    "santa-pupa-c01",
-    "santa-pupa-c02",
-    "santa-pupa-c03"
-   ]
-  },
-  {
-   "id": "Namanya berarti 'anak perempuan kecil', dan di keluarga rakyat Roma ia bersama Santa Anna dianggap pelindung khusus anak-anak. Gioacchino Belli menulis sonetanya untuk santa khayalan ini pada tahun 1833, dan sebuah lukisan minyak Santa Pupa karya pelukis tak dikenal tersimpan di Museo di Roma in Trastevere.",
-   "en": "Her name means 'little girl', and in Rome's working-class families she and Saint Anne were held to be special protectors of children. Gioacchino Belli wrote his sonnet to this imaginary saint in 1833, and an oil painting of Santa Pupa by an unknown artist is held at the Museo di Roma in Trastevere.",
-   "claim_ids": [
-    "santa-pupa-c03",
-    "santa-pupa-c04",
-    "santa-pupa-c05",
-    "santa-pupa-c06",
-    "santa-pupa-c07"
-   ]
-  }
- ],
- "cultural_context": null,
- "etymology": {
-  "original_form": "Pupa",
-  "language": "Italian",
-  "literal_meaning": {
-   "id": "anak perempuan kecil",
-   "en": "little girl"
-  },
-  "claim_ids": [
-   "santa-pupa-c05"
-  ]
- },
- "story_mode": {
-  "who": {
-   "id": "Santa rakyat pelindung anak.",
-   "en": "A folk saint protecting children.",
-   "claim_ids": [
-    "santa-pupa-c01"
-   ]
-  },
-  "origin": {
-   "id": "Roma dan Italia tengah.",
-   "en": "Rome and central Italy.",
-   "claim_ids": [
-    "santa-pupa-c01"
-   ]
-  },
-  "role": {
-   "id": "Melindungi anak yang jatuh.",
-   "en": "Protects children who fall.",
-   "claim_ids": [
-    "santa-pupa-c01"
-   ]
-  },
-  "famous_for": null
- },
- "did_you_know": null,
- "abilities": [],
- "weaknesses": [],
- "variants": [],
- "stories": [],
- "places": [
-  {
-   "name": {
-    "id": "Museo di Roma in Trastevere",
-    "en": "Museo di Roma in Trastevere"
-   },
-   "type": "other",
-   "description": {
-    "id": "Menyimpan lukisan minyak Santa Pupa karya pelukis tak dikenal.",
-    "en": "Holds an oil painting of Santa Pupa by an unknown artist."
-   },
-   "claim_ids": [
-    "santa-pupa-c07"
-   ]
-  }
- ],
- "timeline": [],
- "relations": [],
- "modern_depictions": [],
- "tradition_vs_modern": null,
- "learning_questions": [],
- "images": [],
- "sources": [
-  {
-   "id": "santa-pupa-s1",
-   "url": "https://it.wikipedia.org/wiki/Santa_Pupa",
-   "title": "Santa Pupa",
-   "author": null,
-   "publisher": "Wikipedia (it)",
-   "published": null,
-   "language": "it",
-   "type": "wikipedia",
-   "accessed": "2026-10-02"
-  },
-  {
-   "id": "santa-pupa-s2",
-   "url": "https://www.laboratorioroma.it/santa-pupa.html",
-   "title": "Santa Pupa (Roma si racconta – curiosità)",
-   "author": "Sergio Natalizia",
-   "publisher": "LaboratorioRoma.it",
-   "published": null,
-   "language": "it",
-   "type": "other",
-   "accessed": "2026-10-14"
-  }
- ],
- "claims": [
-  {
-   "id": "santa-pupa-c01",
-   "source_id": "santa-pupa-s1",
-   "quote": "Santa Pupa è una santa inesistente, o che comunque non compare nel martirologio della Chiesa cattolica. Il suo soccorso è tuttavia ancora popolarmente invocato a Roma e nell'Italia centrale, a protezione dei bambini quando cadono e rischiano di farsi male.",
-   "locator": null,
-   "context": "religious-tradition",
-   "statement": {
-    "id": "Santa Pupa adalah santa yang tidak ada dalam martirologi Gereja Katolik, tetapi pertolongannya masih diseru rakyat di Roma dan Italia tengah untuk melindungi anak yang jatuh.",
-    "en": "Santa Pupa is a saint absent from the Catholic martyrology, yet her help is still popularly invoked in Rome and central Italy to protect children when they fall."
-   }
-  },
-  {
-   "id": "santa-pupa-c02",
-   "source_id": "santa-pupa-s1",
-   "quote": "È verosimile che Pupa sia la cristianizzazione di una qualche divinità pagana che aveva il compito di proteggere i bambini",
-   "locator": null,
-   "context": "scholarly-interpretation",
-   "statement": {
-    "id": "Pupa kemungkinan kristenisasi dewa pagan pelindung anak-anak.",
-    "en": "Pupa is probably the Christianisation of a pagan deity who protected children."
-   }
-  },
-  {
-   "id": "santa-pupa-c03",
-   "source_id": "santa-pupa-s1",
-   "quote": "Il poeta romano Gioacchino Belli doveva nutrirle una particolare devozione, se dedicò, a questa santa domestica, uno dei suoi famosi sonetti",
-   "locator": null,
-   "context": "historical-record",
-   "statement": {
-    "id": "Penyair Roma Gioacchino Belli mendedikasikan salah satu sonetanya yang terkenal kepada santa rumah tangga ini.",
-    "en": "The Roman poet Gioacchino Belli dedicated one of his famous sonnets to this household saint."
-   }
-  },
-  {
-   "id": "santa-pupa-c04",
-   "source_id": "santa-pupa-s2",
-   "quote": "Santa Pupa, insieme a San'Anna, madre della Madonna, era la particolare protettrice dei bambini.",
-   "locator": null,
-   "context": "traditional-belief",
-   "statement": {
-    "id": "Di keluarga rakyat Roma, Santa Pupa bersama Santa Anna, ibu Bunda Maria, adalah pelindung khusus anak-anak.",
-    "en": "In Rome's working-class families, Santa Pupa, together with Saint Anne, mother of the Madonna, was the special protector of children."
-   }
-  },
-  {
-   "id": "santa-pupa-c05",
-   "source_id": "santa-pupa-s2",
-   "quote": "Pupa significa \"bambina”, “ragazzina\".",
-   "locator": null,
-   "context": "etymology",
-   "statement": {
-    "id": "Pupa berarti 'anak perempuan kecil' (bambina, ragazzina).",
-    "en": "Pupa means 'little girl' (bambina, ragazzina)."
-   }
-  },
-  {
-   "id": "santa-pupa-c06",
-   "source_id": "santa-pupa-s2",
-   "quote": "A questa santa immaginaria il Belli, padre esasperato d’un bimbo vivacissimo, dedicò un sonetto, nel 1833",
-   "locator": null,
-   "context": "historical-record",
-   "statement": {
-    "id": "Belli, ayah yang kewalahan menghadapi anaknya yang sangat lincah, mempersembahkan sebuah soneta kepada santa khayalan ini pada tahun 1833.",
-    "en": "Belli, the exasperated father of a very lively child, dedicated a sonnet to this imaginary saint in 1833."
-   }
-  },
-  {
-   "id": "santa-pupa-c07",
-   "source_id": "santa-pupa-s2",
-   "quote": "Santa Pupa- olio di autore ignoto Museo di Roma in Trastevere",
-   "locator": null,
-   "context": "historical-record",
-   "statement": {
-    "id": "Sebuah lukisan minyak Santa Pupa karya pelukis tak dikenal tersimpan di Museo di Roma in Trastevere.",
-    "en": "An oil painting of Santa Pupa by an unknown artist is held at the Museo di Roma in Trastevere."
-   }
-  }
- ],
- "conflicts": [],
- "gaps": [
-  {
-   "field": "images",
-   "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
-  }
- ]
 }
 ```
 
