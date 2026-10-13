@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: inspect; attach a domain to a Pages project; or redirects (301 from <project>.pages.dev to <project>.asadinedu.com)
+        description: inspect; attach a domain to a Pages project; redirects (301 from <project>.pages.dev and www); or landing (publish asaddin02/asadinedu to asadinedu.com)
         type: choice
-        options: [inspect, attach, redirects]
+        options: [inspect, attach, redirects, landing]
         default: inspect
       project:
         description: Pages project (attach only), for example mitoloka
@@ -58,7 +58,7 @@ jobs:
           curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' \
             "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT/domains" \
             --data "$(jq -nc --arg n "$HOSTNAME_IN" '{name: $n}')" | jq '{success, errors, result: .result | {name, status}}'
-          existing=$(curl -sS -H "$auth" "$api/zones/$ZID/dns_records?name=$HOSTNAME_IN" | jq -r '.result | length')
+          existing=$(curl -sS -H "$auth" "$api/zones/$ZID/dns_records?name=$HOSTNAME_IN" | jq -r '[.result[] | select(.type == "CNAME" or .type == "A" or .type == "AAAA")] | length')
           if [ "$existing" = 0 ]; then
             curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/dns_records" \
               --data "$(jq -nc --arg n "$HOSTNAME_IN" --arg c "$PROJECT.pages.dev" '{type: "CNAME", name: $n, content: $c, proxied: true, ttl: 1}')" \
@@ -80,9 +80,11 @@ jobs:
               | tee /dev/stderr | jq -r '.result.id')
           fi
           [ -n "$lid" ] && [ "$lid" != null ] || exit 1
-          items=$(jq -nc '[ "biotaloka", "kimialoka", "fisikaloka", "mitoloka" ] | map({redirect: {
+          items=$(jq -nc '([ "biotaloka", "kimialoka", "fisikaloka", "mitoloka" ] | map({redirect: {
             source_url: "\(.).pages.dev/", target_url: "https://\(.).asadinedu.com/", status_code: 301,
-            include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }})')
+            include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }}))
+            + [{redirect: { source_url: "www.asadinedu.com/", target_url: "https://asadinedu.com/", status_code: 301,
+            include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }}]')
           curl -sS -X PUT -H "$auth" -H 'Content-Type: application/json' "$acct/rules/lists/$lid/items" --data "$items" \
             | tee /dev/stderr | jq -e '.success' > /dev/null
           rules=$(jq -nc --arg n "$name" '{rules: [{ description: "pages.dev to asadinedu.com", enabled: true,
@@ -90,3 +92,23 @@ jobs:
             action_parameters: { from_list: { name: $n, key: "http.request.full_uri" } } }]}')
           curl -sS -X PUT -H "$auth" -H 'Content-Type: application/json' "$acct/rulesets/phases/http_request_redirect/entrypoint" \
             --data "$rules" | tee /dev/stderr | jq -e '.success' > /dev/null
+      - name: Publish the Asadin Edu landing to asadinedu.com
+        if: inputs.mode == 'landing'
+        run: |
+          git clone --depth 1 https://github.com/asaddin02/asadinedu.git landing
+          mkdir site && (cd landing && cp -r index.html 404.html styles.css app.js robots.txt sitemap.xml _headers assets ../site/)
+          npx --yes wrangler@4 pages project create asadinedu --production-branch=main || echo "Project already exists."
+          npx --yes wrangler@4 pages deploy site --project-name=asadinedu --branch=main --commit-hash="$(git -C landing rev-parse HEAD)" --commit-dirty=true
+          api=https://api.cloudflare.com/client/v4
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          for host in asadinedu.com www.asadinedu.com; do
+            curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' \
+              "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/asadinedu/domains" \
+              --data "$(jq -nc --arg n "$host" '{name: $n}')" | jq -c '{host: "'"$host"'", success, errors: [.errors[]?.message]}'
+            n=$(curl -sS -H "$auth" "$api/zones/$ZID/dns_records?name=$host" | jq -r '[.result[] | select(.type == "CNAME" or .type == "A" or .type == "AAAA")] | length')
+            if [ "$n" = 0 ]; then
+              curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/dns_records" \
+                --data "$(jq -nc --arg n "$host" '{type: "CNAME", name: $n, content: "asadinedu.pages.dev", proxied: true, ttl: 1}')" \
+                | jq -c '{dns: "'"$host"'", success, errors: [.errors[]?.message]}'
+            fi
+          done
