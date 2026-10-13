@@ -406,6 +406,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "adad": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa badai Babilonia yang membawa palu atau petir dan disebut sebagai dewa cuaca dalam keluarga Enlil.",
+        "en": "A Babylonian storm god who carries a hammer or lightning bolt and is named a weather deity in Enlil’s family.",
+        "claim_ids": [
+          "adad-c01",
+          "adad-c04",
+          "adad-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak seperti banjir atau badai; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds such as floods or storms; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research holds no fear he inspires; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "adamastor": {
     "power": "regional",
     "threat": null,
@@ -488,6 +514,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "adar-rhiannon-c01",
           "adar-rhiannon-c06"
+        ]
+      }
+    }
+  },
+  "aderyn-y-corff": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung tanpa bulu dan sayap yang melayang tanpa penopang dan meramalkan kematian berada di luar batas hewan; versi folklor Wales yang dicatat Sikes.",
+        "en": "A featherless, wingless bird that soars unsupported and foretells death exceeds natural animals; this follows the Welsh folklore recorded by Sikes.",
+        "claim_ids": [
+          "aderyn-y-corff-c01",
+          "aderyn-y-corff-c02",
+          "aderyn-y-corff-c06"
+        ]
+      },
+      "threat": {
+        "id": "Pertanda kematian bukan bukti menyebabkan kematian; ancaman belum dinilai.",
+        "en": "Foretelling death is not evidence of causing it; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Kicauan di depan pintu orang yang akan mati dan hidup di alam lain menjadi dasar sifat supernatural.",
+        "en": "Chirping at the door of one about to die and dwelling on another plane support the supernatural category.",
+        "claim_ids": [
+          "aderyn-y-corff-c01",
+          "aderyn-y-corff-c02",
+          "aderyn-y-corff-c06"
         ]
       }
     }
@@ -613,6 +669,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "aethon-q1371462": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Elang raksasa yang kepakannya menggoyang layar kapal dan memakan hati abadi Prometheus setiap hari ditafsirkan sebagai kekuatan monster besar; ia akhirnya dipanah Herakles.",
+        "en": "A gigantic eagle whose wingbeats shake a ship’s sails and which devours Prometheus’s immortal liver each day is interpreted as the power of a great monster; Herakles eventually shoots it down.",
+        "claim_ids": [
+          "aethon-q1371462-c03",
+          "aethon-q1371462-c05",
+          "aethon-q1371462-c07"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan yang dicatat adalah menyiksa satu korban, Prometheus, atas perintah Zeus, sehingga ancamannya berskala individu.",
+        "en": "The recorded deed is tormenting a single victim, Prometheus, at Zeus’s command, so the threat is individual in scale.",
+        "claim_ids": [
+          "aethon-q1371462-c02",
+          "aethon-q1371462-c08"
+        ]
+      },
+      "fear": {
+        "id": "Hati yang tumbuh kembali setiap malam dan asal-usulnya sebagai otomaton perunggu atau anak Ekhidna menempatkannya di luar hukum alam.",
+        "en": "A liver that regrows each night, and its origin as a bronze automaton or child of Echidna, place it beyond natural law.",
+        "claim_ids": [
+          "aethon-q1371462-c04",
+          "aethon-q1371462-c06"
+        ]
+      }
+    }
+  },
   "afanc": {
     "power": "monstrous",
     "threat": "t1",
@@ -670,6 +758,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "The horror is being hunted and swallowed by a giant serpent disguised as a cavern, the fear of becoming prey.",
         "claim_ids": [
           "aghasura-c04"
+        ]
+      }
+    }
+  },
+  "agni": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa api Hindu yang membawa persembahan kepada para dewa, bertanggung jawab atas petir, dan menuntun orang mati ke Yama; kuasa atas ranah api dan kurban menjadi dasar Divine, dinilai sebagai tafsir editorial atas tradisi yang masih dianut.",
+        "en": "The Hindu god of fire who carries offerings to the gods, is responsible for lightning, and leads the dead to Yama; authority over fire and sacrifice supports Divine, an editorial reading of a living tradition.",
+        "claim_ids": [
+          "agni-c01",
+          "agni-c06",
+          "agni-c17",
+          "agni-c18"
+        ]
+      },
+      "threat": {
+        "id": "Dalam himne Rigveda ia memusnahkan para raksasa dengan tombak apinya dan diminta membakar musuh yang dilindungi iblis, dasar tafsir skala kelompok; ia sendiri dikenal sebagai pelindung manusia dan rumah.",
+        "en": "In a Rigveda hymn he destroys the raksasas with flaming spears and is asked to burn enemies protected by fiends, supporting a group-scale reading; he is himself regarded as a protector of humans and the home.",
+        "claim_ids": [
+          "agni-c24",
+          "agni-c33",
+          "agni-c02"
+        ]
+      },
+      "fear": {
+        "id": "Gambaran bergading besi tajam yang menelan korban tanpa ampun menunjukkan sisi menakutkan yang melampaui hukum alam, di samping api dan petir sebagai kuasanya; Fear bukan penilaian moral.",
+        "en": "The image of sharp iron tusks that devour victims without mercy shows a fearsome side beyond natural law, alongside fire and lightning as his powers; Fear is not a moral judgment.",
+        "claim_ids": [
+          "agni-c24",
+          "agni-c03"
         ]
       }
     }
@@ -791,6 +913,69 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "ahuizotl-mythology-c01",
           "ahuizotl-mythology-c07"
+        ]
+      }
+    }
+  },
+  "aigamuxa": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Pemakan manusia bergigi sangat panjang dan bermata di kaki, anatomi yang melampaui manusia; riset tidak mencatat kekuatan lain.",
+        "en": "A man-eater with extremely elongated teeth and eyes on its feet, an anatomy beyond humans; the research records no other power.",
+        "claim_ids": [
+          "aigamuxa-c02",
+          "aigamuxa-c04"
+        ]
+      },
+      "threat": {
+        "id": "Ia memburu pelancong gurun yang sendirian, tetapi kebodohannya membuatnya jarang berhasil, jadi ancaman ditafsirkan pada individu.",
+        "en": "It hunts lone desert travellers, but its clumsiness means it seldom succeeds, so the threat is read at the individual scale.",
+        "claim_ids": [
+          "aigamuxa-c03",
+          "aigamuxa-c11"
+        ]
+      },
+      "fear": {
+        "id": "Pemburu manusia yang mengintai di balik bukit pasir menimbulkan rasa takut menjadi mangsa.",
+        "en": "A hunter of humans lying in wait behind sand dunes evokes the fear of becoming prey.",
+        "claim_ids": [
+          "aigamuxa-c02",
+          "aigamuxa-c03",
+          "aigamuxa-c10"
+        ]
+      }
+    }
+  },
+  "aim": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Adipati agung Goetia dengan tiga kepala, memerintah 26 legiun roh, dan membakar kota serta puri dengan obor, menunjukkan kekuatan besar tetapi tanpa kuasa atas ranah kosmik yang terdokumentasi.",
+        "en": "A great Goetia duke with three heads who commands 26 legions of spirits and burns cities and castles with his firebrand shows great might, but no cosmic domain is documented.",
+        "claim_ids": [
+          "aim-c05",
+          "aim-c06",
+          "aim-c07"
+        ]
+      },
+      "threat": {
+        "id": "Ia disebut membakar kota, puri, dan tempat-tempat besar dengan obornya, yang menjadi dasar ancaman skala permukiman.",
+        "en": "He is said to set cities, castles, and great places on fire with his firebrand, supporting a settlement-scale threat.",
+        "claim_ids": [
+          "aim-c06"
+        ]
+      },
+      "fear": {
+        "id": "Wujud tiga kepala (ular, manusia berbintang dua, kucing) yang menunggangi ular berbisa dengan obor menyala melampaui hukum alam.",
+        "en": "A three-headed form (serpent, star-browed man, cat) riding a viper with a burning firebrand exceeds natural law.",
+        "claim_ids": [
+          "aim-c05",
+          "aim-c06"
         ]
       }
     }
@@ -1254,6 +1439,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "al-ana": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh atau iblis perempuan mematikan yang menukar bayi baru lahir dengan anaknya sendiri adalah kemampuan gaib di atas manusia; riset tidak merinci kuasa yang lebih besar.",
+        "en": "A deadly female spirit or demon who swaps newborns for her own children has a supernatural ability beyond humans; no greater power is detailed.",
+        "claim_ids": [
+          "al-ana-c01",
+          "al-ana-c03"
+        ]
+      },
+      "threat": {
+        "id": "Sasarannya bayi dan ibu yang baru melahirkan; satu sumber menyebut kerabatnya Albastı merobek hati perempuan itu, sehingga ancaman ditafsirkan terhadap individu.",
+        "en": "Her targets are newborns and women in childbed; one source says her kin Albastı tears out the woman’s liver, so the threat is interpreted as to individuals.",
+        "claim_ids": [
+          "al-ana-c03",
+          "al-ana-c13"
+        ]
+      },
+      "fear": {
+        "id": "Perempuan tua berambut lebat yang mencuri bayi dan meninggalkan anak tukar yang cacat menimbulkan rasa takut supernatural yang melahirkan banyak ritus perlindungan.",
+        "en": "A hairy old woman who steals babies and leaves a deformed changeling creates supernatural dread, giving rise to many protective rites.",
+        "claim_ids": [
+          "al-ana-c02",
+          "al-ana-c04",
+          "al-ana-c07"
+        ]
+      }
+    }
+  },
   "al-basty": {
     "power": "superhuman",
     "threat": "t1",
@@ -1369,6 +1586,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "ala-demon-c04",
           "ala-demon-c17",
           "ala-demon-c02"
+        ]
+      }
+    }
+  },
+  "alan-legendary-creature": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Roh bersayap yang dapat terbang dan mengubah darah haid atau sisa kelahiran menjadi anak manusia melampaui manusia; Tinguian menganggapnya roh yang kurang berkuasa.",
+        "en": "Winged spirits that fly and turn menstrual blood or birth remains into human children exceed humans; the Tinguian regard them as less powerful spirits.",
+        "claim_ids": [
+          "alan-legendary-creature-c01",
+          "alan-legendary-creature-c02",
+          "alan-legendary-creature-c26"
+        ]
+      },
+      "threat": {
+        "id": "Satu kisah mencatat alan mengancam membakar rumah seorang pria dan rumah itu terbakar, sehingga ancaman ditafsirkan pada individu; sumber lain menyebutnya relatif tidak berbahaya.",
+        "en": "One tale records alan threatening to burn a man’s house and it burned, so the threat is interpreted at an individual; another source calls them relatively harmless.",
+        "claim_ids": [
+          "alan-legendary-creature-c25",
+          "alan-legendary-creature-c13"
+        ]
+      },
+      "fear": {
+        "id": "Wujud cacat bersayap dengan jari dan jempol kaki menghadap belakang yang bergantung terbalik terasa ganjil, bukan memburu.",
+        "en": "A deformed winged form with backward-pointing fingers and toes hanging upside down feels uncanny rather than predatory.",
+        "claim_ids": [
+          "alan-legendary-creature-c01",
+          "alan-legendary-creature-c12",
+          "alan-legendary-creature-c23"
         ]
       }
     }
@@ -1656,6 +1906,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "amalanhig": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Aswang yang bangkit dari kubur dan membunuh dengan menggigit leher melampaui kemampuan manusia.",
+        "en": "An aswang that rises from the grave and kills by biting necks exceeds human ability.",
+        "claim_ids": [
+          "amalanhig-c01"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan yang tercatat hanya membunuh manusia dengan menggigit leher, sehingga ancaman ditafsirkan pada individu.",
+        "en": "The only recorded deed is killing humans by biting their necks, so the threat is interpreted at individuals.",
+        "claim_ids": [
+          "amalanhig-c01"
+        ]
+      },
+      "fear": {
+        "id": "Mayat hidup yang bangkit dari kubur dan ditandai bau busuk adalah kengerian supernatural; sumber modern menilai laporannya jarang andal.",
+        "en": "A corpse risen from the grave and announced by a rotting stench is supernatural horror; modern writers find sighting reports rarely reliable.",
+        "claim_ids": [
+          "amalanhig-c01",
+          "amalanhig-c07",
+          "amalanhig-c05"
+        ]
+      }
+    }
+  },
   "amanojaku": {
     "power": "superhuman",
     "threat": "t1",
@@ -1685,6 +1965,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "amanojaku-c04",
           "amanojaku-c05",
           "amanojaku-c09"
+        ]
+      }
+    }
+  },
+  "amarok": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Serigala raksasa dalam religi Inuit yang bahkan dapat membanting seorang anak dengan ekornya; kekuatan monster besar, tanpa kuasa atas suatu ranah.",
+        "en": "A gigantic wolf in Inuit religion that can pin a boy to the ground with its tail; the might of a great monster, without authority over a domain.",
+        "claim_ids": [
+          "amarok-c01",
+          "amarok-c03"
+        ]
+      },
+      "threat": {
+        "id": "Ia menguntit dan memangsa pemburu yang berburu sendirian di malam hari, ancaman skala individu; satu kisah lain menampilkannya sebagai pelatih kekuatan.",
+        "en": "It stalks and devours people who hunt alone at night, an individual-scale threat; another tale shows it as a trainer of strength.",
+        "claim_ids": [
+          "amarok-c01",
+          "amarok-c09",
+          "amarok-c05"
+        ]
+      },
+      "fear": {
+        "id": "Serigala raksasa yang menguntit pemburu sendirian di malam hari menimbulkan ketakutan menjadi mangsa; riset juga menyebut versi roh serigala dan hubungannya dengan Waheela.",
+        "en": "A giant wolf stalking lone hunters at night evokes the fear of becoming prey; the research also notes the wolf-spirit sense and the link to the Waheela.",
+        "claim_ids": [
+          "amarok-c01",
+          "amarok-c09",
+          "amarok-c04"
         ]
       }
     }
@@ -1775,6 +2088,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "amaterasu-c14",
           "amaterasu-c18"
         ]
+      }
+    }
+  },
+  "ame-no-wakahiko": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa padi-padian (amatsukami) dalam mitologi Jepang yang diutus ke bumi; kuasanya atas ranah biji-bijian menjadi dasar Divine, tanpa kuasa lain yang diperinci.",
+        "en": "A grain god (amatsukami) of Japanese mythology sent down to earth; authority over the grain domain supports Divine, with no further power detailed.",
+        "claim_ids": [
+          "ame-no-wakahiko-c01",
+          "ame-no-wakahiko-c18"
+        ]
+      },
+      "threat": {
+        "id": "Riset memuat pengkhianatan dan kematiannya oleh panah balasan, tetapi bukan perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds his disloyalty and death by the returned arrow, but no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan kesan menakutkan yang ia timbulkan; Fear belum dinilai.",
+        "en": "The research does not describe any dread he inspires; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -2072,6 +2410,67 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "anchimayen": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Wujud anak kecil yang berubah menjadi bola api terbang dan cahayanya dapat membutakan melampaui kemampuan manusia; ia hanya abdi seorang kalku.",
+        "en": "A small child form that turns into a flying fireball whose light can blind exceeds human ability; it is only a kalku’s servant.",
+        "claim_ids": [
+          "anchimayen-c01",
+          "anchimayen-c02",
+          "anchimayen-c07"
+        ]
+      },
+      "threat": {
+        "id": "Cahayanya membingungkan atau membutakan orang yang melihat dari dekat, dan ia berbuat baik atau jahat sesuai kehendak tuannya, jadi ancaman ditafsirkan pada individu.",
+        "en": "Its light disorients or blinds those who see it up close and it does good or evil as its master wishes, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "anchimayen-c05",
+          "anchimayen-c07"
+        ]
+      },
+      "fear": {
+        "id": "Bola api terbang yang terdengar seperti tangis bayi dan berasal dari sisa jasad anak adalah fenomena supernatural.",
+        "en": "A flying fireball heard like a newborn’s cry and made from a dead child’s remains is a supernatural phenomenon.",
+        "claim_ids": [
+          "anchimayen-c01",
+          "anchimayen-c04",
+          "anchimayen-c06"
+        ]
+      }
+    }
+  },
+  "andrealphus": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Marquis Goetia yang memimpin 30 legiun roh, mengajarkan geometri dan astronomi, serta dapat mengubah manusia menjadi burung adalah kuasa gaib di atas manusia; riset tidak memuat kekuatan tempurnya sehingga level tidak dinaikkan.",
+        "en": "A Goetia marquis commanding 30 legions, teaching geometry and astronomy, and able to transform a man into a bird holds supernatural power beyond humans; the research describes no combat strength, so the level is not raised.",
+        "claim_ids": [
+          "andrealphus-c02",
+          "andrealphus-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat peran pengajar dan perubahan wujud, bukan perbuatan merusak berskala tertentu; ancaman belum dinilai.",
+        "en": "The research holds only a teaching role and transformations, not destructive deeds of a given scale; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Muncul sebagai merak yang bising lalu berwujud manusia, dan mampu mengubah manusia menjadi burung, melampaui hukum alam.",
+        "en": "Appearing first as a noisy peacock and then in human shape, and able to turn a man into a bird, he exceeds natural law.",
+        "claim_ids": [
+          "andrealphus-c09",
+          "andrealphus-c10"
+        ]
+      }
+    }
+  },
   "anguane": {
     "power": "superhuman",
     "threat": "t1",
@@ -2134,6 +2533,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "animikii": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung petir raksasa yang menimbulkan guntur dengan kepakan sayapnya dan disebut sangat kuat memegang kuasa atas ranah petir; dinilai dengan hormat sebagai tafsir editorial atas tradisi Ojibwe.",
+        "en": "A giant thunderbird whose wingbeats cause thunder and who is called very powerful holds authority over the domain of thunder; assessed respectfully as an editorial reading of Ojibwe tradition.",
+        "claim_ids": [
+          "animikii-c02",
+          "animikii-c04",
+          "animikii-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut thunderbird jarang mengganggu manusia dan dihormati; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The research says thunderbirds rarely bother humans and are revered; there are no destructive deeds, so threat is not assessed.",
+        "claim_ids": [
+          "animikii-c05"
+        ]
+      },
+      "fear": {
+        "id": "Guntur yang ditimbulkan kepakan sayap burung raksasa melampaui hukum alam; Fear di sini berupa rasa hormat gaib, bukan penilaian moral.",
+        "en": "Thunder caused by the wingbeats of a giant bird exceeds natural law; Fear here is supernatural awe, not a moral judgment.",
+        "claim_ids": [
+          "animikii-c01",
+          "animikii-c02",
+          "animikii-c04"
+        ]
+      }
+    }
+  },
   "anjana-cantabrian-mythology": {
     "power": "superhuman",
     "threat": null,
@@ -2156,6 +2587,61 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan anjana lembut dan penolong, tanpa unsur yang menimbulkan rasa takut; Fear belum dinilai.",
         "en": "The research presents anjanas as gentle helpers with no element that evokes fear; fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "anka": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung merah raksasa berkualitas gaib yang lahir kembali dari abunya dan menjaga Gunung Kaf melampaui burung biasa; Karakurt tidak mencatat kuasa atas ranah.",
+        "en": "A giant red bird with supernatural qualities, reborn from its ashes and guarding Mount Kaf, exceeds any ordinary bird; Karakurt records no domain authority.",
+        "claim_ids": [
+          "anka-c02",
+          "anka-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Anka; ia dilukiskan sebagai lambang keabadian dan kebangkitan, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Anka; it is presented as a symbol of immortality and resurrection, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Anka; Fear belum dinilai.",
+        "en": "The research does not describe the fear Anka provokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "anki-kiele": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Sebagai roh laut dan penguasa (aun-ralyt) yang dapat menganugerahkan hasil tangkapan, ia memegang kuasa atas ranah laut, sehingga ditafsirkan Divine.",
+        "en": "As the sea spirit and a master spirit (aun-ralyt) able to grant a catch, he holds authority over the domain of the sea, so he is interpreted as Divine.",
+        "claim_ids": [
+          "anki-kiele-c01",
+          "anki-kiele-c02",
+          "anki-kiele-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; kategori kele memang mencakup roh bermusuhan, tetapi tidak ada tindakan Anki-Kiele yang dicatat, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; the kele category does include hostile spirits, but no act by Anki-Kiele is recorded, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Roh dasar laut berkepala besar berbulu lebat, mulut bergigi, dan tubuh ikan merupakan keberadaan di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "A sea-bed spirit with a huge shaggy head, a toothy maw, and a fish body is a presence beyond natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "anki-kiele-c01",
+          "anki-kiele-c03",
+          "anki-kiele-c04"
+        ]
       }
     }
   },
@@ -2323,6 +2809,67 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "A divine sky creature in the form of a giant lion-headed bird lies beyond natural law.",
         "claim_ids": [
           "anzu-c01"
+        ]
+      }
+    }
+  },
+  "ao-bing": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pangeran naga yang dahulu dipuja sebagai dewa hujan dan diangkat menjadi dewa bintang Huagai; tafsir Divine atas dewa naga dalam Fengshen Yanyi.",
+        "en": "A dragon prince once revered as a rain god and later made the god of the Huagai star; Divine is a reading of a dragon deity in Fengshen Yanyi.",
+        "claim_ids": [
+          "ao-bing-c05",
+          "ao-bing-c06"
+        ]
+      },
+      "threat": {
+        "id": "Bersama ayah dan saudaranya ia ditakuti karena badai yang ganas, tetapi riset hanya merinci pertempuran dengan Nezha; ditafsirkan skala kelompok.",
+        "en": "With his father and brothers he was feared for stormy malevolence, but the research details only the fight with Nezha; interpreted at group scale.",
+        "claim_ids": [
+          "ao-bing-c06",
+          "ao-bing-c10"
+        ]
+      },
+      "fear": {
+        "id": "Wujud naga yang menyingkap diri saat dikalahkan dan badai yang ditakuti rakyat bersifat supernatural.",
+        "en": "A dragon form revealed upon defeat and storms feared by the people are supernatural.",
+        "claim_ids": [
+          "ao-bing-c06",
+          "ao-bing-c12"
+        ]
+      }
+    }
+  },
+  "ao-guang": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raja Naga Laut Timur dan nāgarāja yang menguasai pasokan hujan dunia menurut Avataṃsaka Sūtra; kuasa atas ranah air menjadi dasar Divine.",
+        "en": "The East Sea Dragon King and a nāgarāja presiding over the world’s rain supply per the Avataṃsaka Sūtra; authority over a watery domain supports Divine.",
+        "claim_ids": [
+          "ao-guang-c01",
+          "ao-guang-c03"
+        ]
+      },
+      "threat": {
+        "id": "Dalam Fengshen Yanyi ia menimbulkan kekacauan dengan kekeringan, badai, dan bencana lain; ditafsirkan berdampak regional, hanya pada versi itu.",
+        "en": "In Fengshen Yanyi he brought chaos through droughts, storms, and other disasters; interpreted as regional reach, in that version only.",
+        "claim_ids": [
+          "ao-guang-c06"
+        ]
+      },
+      "fear": {
+        "id": "Kuasa atas hujan, badai, dan kekeringan serta kemampuan menjelma ular melampaui hukum alam; ia juga tampil ramah dalam Journey to the West.",
+        "en": "Power over rain, storms, and drought and the ability to turn into a snake exceed natural law; he also appears courteous in Journey to the West.",
+        "claim_ids": [
+          "ao-guang-c06",
+          "ao-guang-c08"
         ]
       }
     }
@@ -2687,6 +3234,57 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "ardhanarisvara": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Wujud Siwa yang menyatu dengan Parwati, melambangkan penyatuan energi maskulin dan feminin atau Purusha dan Prakriti; kedudukan sebagai wujud Siwa menjadi dasar Divine, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "A form of Shiva united with Parvati, symbolizing the union of masculine and feminine energies or Purusha and Prakriti; its standing as a form of Shiva supports Divine, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "ardhanarisvara-c01",
+          "ardhanarisvara-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Ardhanarisvara; yang dibahas hanya ikonografi dan simbolismenya, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Ardhanarishvara; it covers only iconography and symbolism, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Ardhanarisvara, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Ardhanarishvara, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "areop-enap": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Laba-laba purba yang ada sejak awal, membentuk Bumi, langit, Matahari, Bulan, dan pulau-pulau dari cangkang kerang raksasa.",
+        "en": "The ancient spider who exists from the beginning and fashions Earth, sky, Sun, Moon, and islands from a giant clam.",
+        "claim_ids": [
+          "areop-enap-c02",
+          "areop-enap-c06",
+          "areop-enap-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat perbuatan penciptaan; tidak ada perbuatan merusak terhadap manusia atau dunia, sehingga ancaman belum dinilai.",
+        "en": "The research holds only acts of creation and no destruction aimed at humans or the world, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan penciptaan yang tertib, tanpa unsur kengerian terhadap manusia; Fear belum dinilai.",
+        "en": "The research describes an orderly creation without horror directed at humans; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "ares": {
     "power": "divine",
     "threat": "t4",
@@ -2830,6 +3428,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "artemis-c12",
           "artemis-c11"
+        ]
+      }
+    }
+  },
+  "ascapart": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa setinggi 30 kaki yang mampu membawa Bevis, istrinya, dan kudanya di bawah satu lengan; kecil di antara raksasa, sehingga Monstrous.",
+        "en": "A 30-foot giant able to carry Bevis, his wife, and his horse under one arm; small among giants, hence Monstrous.",
+        "claim_ids": [
+          "ascapart-c01",
+          "ascapart-c02",
+          "ascapart-c06"
+        ]
+      },
+      "threat": {
+        "id": "Ia menculik istri Bevis dan menakuti desa-desa sekitar Southampton, ditafsirkan sebagai ancaman kelompok.",
+        "en": "He kidnaps Bevis’s wife and terrifies the villages around Southampton, interpreted as a group-scale threat.",
+        "claim_ids": [
+          "ascapart-c03",
+          "ascapart-c07",
+          "ascapart-c09"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa yang menakuti desa menimbulkan rasa takut terhadap pemangsa; ini tafsir, karena riset tidak mencatat korban yang dimangsa.",
+        "en": "A giant who terrifies villages evokes fear of a predator; this is an interpretation, as the research records no devoured victims.",
+        "claim_ids": [
+          "ascapart-c07"
         ]
       }
     }
@@ -3004,6 +3634,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "aswang-c02",
           "aswang-c12",
           "aswang-c07"
+        ]
+      }
+    }
+  },
+  "atahsaia": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa beberapa kali lebih besar daripada manusia yang bahunya tak muat masuk gua dan hanya dikalahkan oleh dewa perang kembar menjadi dasar Monstrous.",
+        "en": "A giant several times larger than a human whose shoulders cannot fit into a cave, and who was defeated only by the twin war gods, supports Monstrous.",
+        "claim_ids": [
+          "atahsaia-c02",
+          "atahsaia-c03",
+          "atahsaia-c15"
+        ]
+      },
+      "threat": {
+        "id": "Ia kanibal yang menculik dua gadis dan menggorok tawanan lalu membuang tulangnya ke jurang, ditafsirkan sebagai ancaman bagi kelompok; riset tidak mencatat serangan ke permukiman.",
+        "en": "A cannibal who lures two maidens and cuts captives’ throats before casting their bones into the chasm, interpreted as a group-scale threat; the research records no attack on a settlement.",
+        "claim_ids": [
+          "atahsaia-c04",
+          "atahsaia-c07",
+          "atahsaia-c11"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa pemakan manusia yang membohongi korbannya agar mengikutinya ke guanya membuat kengerian utamanya adalah dimangsa; riset juga mencatat fungsinya sebagai pelajaran kepatuhan bagi anak.",
+        "en": "A man-eating giant who lies to lure victims to his cave makes being devoured the central horror; the research also notes his role as an obedience lesson for children.",
+        "claim_ids": [
+          "atahsaia-c04",
+          "atahsaia-c07",
+          "atahsaia-c05"
         ]
       }
     }
@@ -3270,6 +3934,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "ayida-wedo": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Ia membantu dewi pencipta Mawu-Lisa membentuk dunia dan tubuh ular pelangi meninggalkan ngarai, sungai, lembah, dan gunung, sehingga skalanya setingkat dunia.",
+        "en": "She helped the creator goddess Mawu-Lisa form the world, and the rainbow serpent's body left behind canyons, rivers, valleys, and mountains, which gives her a world-scale reach.",
+        "claim_ids": [
+          "ayida-wedo-c02",
+          "ayida-wedo-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ia justru digambarkan pengasih yang mengangkat kutukan, jadi ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; she is described as merciful and lifting curses, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat sifat yang menakutkan; ia digambarkan sebagai dewi langit, kekayaan, dan keberuntungan, jadi jenis ketakutannya belum dinilai.",
+        "en": "The research holds nothing frightening about her; she is described as a goddess of sky, wealth, and luck, so the kind of fear is unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "azhdaha": {
     "power": "monstrous",
     "threat": "t2",
@@ -3392,6 +4081,60 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "azukibabaa-c09",
           "azukibabaa-c10"
         ]
+      }
+    }
+  },
+  "azumi-no-isora": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Dewa laut dan leluhur klan Azumi yang menjadi perantara permata pasang surut dari istana naga dinilai dengan hormat sebagai kuasa atas ranah laut, setara Divine; sebagian tafsir menganggapnya tokoh shaman setengah dewa.",
+        "en": "A sea god and ancestor of the Azumi clan who brokers the tide jewels from the dragon palace is respectfully read as holding a sea domain, at Divine; some scholars see a half-divine shaman figure.",
+        "claim_ids": [
+          "azumi-no-isora-c05",
+          "azumi-no-isora-c15",
+          "azumi-no-isora-c17"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; perannya menolong Permaisuri Jingu, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; he aids Empress Jingu, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujudnya yang ditempeli kerang dan rumput laut sehingga tidak tampak seperti manusia menimbulkan rasa ganjil, bukan penilaian moral.",
+        "en": "His body encrusted with shellfish and seaweed insects, looking nothing like a human, produces uncanny unease, not a moral judgment.",
+        "claim_ids": [
+          "azumi-no-isora-c14",
+          "azumi-no-isora-c09"
+        ]
+      }
+    }
+  },
+  "azure-dragon": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga Azure disebut tertinggi pangkatnya di antara semua naga dan dikaitkan dengan Raja Naga Laut Timur Ao Guang; kedudukan ini menjadi dasar Divine.",
+        "en": "The Azure Dragon is called the highest in rank among all dragons and is linked to the East Sea Dragon King Ao Guang; this standing supports Divine.",
+        "claim_ids": [
+          "azure-dragon-c07",
+          "azure-dragon-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan naga ini sebagai penjaga dan pertanda baik dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows this dragon as a guardian and a good omen and holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan kemunculannya sebagai pertanda sangat baik dan tidak memuat unsur menakutkan; rasa takut belum dinilai.",
+        "en": "The research shows its appearance as a very good omen and holds no frightening element; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -3604,6 +4347,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "bahamut": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f5",
+    "reasons": {
+      "power": {
+        "id": "Dalam kosmografi al-Qazwini, Bahamut menopang fondasi bumi dan memikul banteng kosmik di punggungnya, sehingga skalanya setingkat dunia.",
+        "en": "In al-Qazwini’s cosmography, Bahamut supports the foundation of the earth and carries the cosmic bull on its back, placing its scale at the level of the world.",
+        "claim_ids": [
+          "bahamut-c01",
+          "bahamut-c02"
+        ]
+      },
+      "threat": {
+        "id": "Perannya menopang bumi, dan upaya Iblis membuatnya mengguncang bumi digagalkan; riset tidak memuat perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "Its role is to support the earth, and Iblis’s attempt to make it cause a quake is foiled; the research holds no destructive deeds, so threat is not assessed.",
+        "claim_ids": [
+          "bahamut-c07"
+        ]
+      },
+      "fear": {
+        "id": "Ikan raksasa yang tak seorang pun sanggup memandangnya karena ukurannya dan kilatan matanya menjadikan manusia tak berarti di hadapan skala kosmos.",
+        "en": "An enormous fish no one can look upon because of its size and the flash of its eyes renders humanity insignificant before a cosmic scale.",
+        "claim_ids": [
+          "bahamut-c13"
+        ]
+      }
+    }
+  },
   "bahkauv": {
     "power": "superhuman",
     "threat": "t1",
@@ -3661,6 +4433,30 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "bai-ze": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Bai Ze dapat berbicara dan memahami hakikat segala hal serta menyebut 11.520 jenis hantu dan roh; kuasanya berupa pengetahuan, dinilai superhuman.",
+        "en": "Bai Ze can speak and understands the nature of all things and named 11,520 kinds of ghosts and spirits; its power is knowledge, rated superhuman.",
+        "claim_ids": [
+          "bai-ze-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan Bai Ze sebagai pemberi pengetahuan penangkal roh jahat, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows Bai Ze as a giver of knowledge for warding off evil spirits, without destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan Bai Ze sebagai penangkal hantu dan wabah, bukan penebar rasa takut; rasa takut belum dinilai.",
+        "en": "The research shows Bai Ze as a ward against ghosts and epidemics rather than a source of fear; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "baigujing": {
     "power": "superhuman",
     "threat": "t1",
@@ -3690,6 +4486,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "baigujing-c03",
           "baigujing-c07",
           "baigujing-c12"
+        ]
+      }
+    }
+  },
+  "bajang": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh golongan jin yang berwujud musang, jangkrik, atau kadal serta merasuki korban pilihan tuannya melampaui kemampuan manusia.",
+        "en": "A jinn-class spirit that takes the form of a pole-cat, cricket, or lizard and possesses a victim chosen by its master exceeds human ability.",
+        "claim_ids": [
+          "bajang-c01",
+          "bajang-c05",
+          "bajang-c23"
+        ]
+      },
+      "threat": {
+        "id": "Ia sering menyerang anak-anak dan korban pilihan tuannya dengan penyakit yang bisa mematikan, jadi ancamannya berskala individu.",
+        "en": "It often attacks children and the victim its master chooses with a possibly fatal illness, so the threat is at an individual scale.",
+        "claim_ids": [
+          "bajang-c02",
+          "bajang-c23",
+          "bajang-c24"
+        ]
+      },
+      "fear": {
+        "id": "Penyakit misterius yang tak terjelaskan dan hanya sembuh dengan sihir menjadi dasar kengerian supernatural.",
+        "en": "An unaccountable ailment curable only by magic supports supernatural fear.",
+        "claim_ids": [
+          "bajang-c02",
+          "bajang-c24"
         ]
       }
     }
@@ -3872,6 +4701,95 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "bal-bal": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pemakan jenazah yang dapat terbang, berubah menjadi burung, anjing, babi, atau rumah, dan merobek atap melampaui kemampuan manusia.",
+        "en": "A corpse-eater that flies, takes the form of a bird, dog, pig, or house, and rips open thatch exceeds human ability.",
+        "claim_ids": [
+          "bal-bal-c05",
+          "bal-bal-c11",
+          "bal-bal-c12",
+          "bal-bal-c14"
+        ]
+      },
+      "threat": {
+        "id": "Sasaran utamanya jenazah; hanya cerita modern yang menyebut orang yang menyebut namanya dicari dan dimangsa, sehingga ancaman dinilai pada individu.",
+        "en": "Its main targets are corpses; only a modern tale has anyone who speaks its name hunted and devoured, so the threat is rated at an individual scale.",
+        "claim_ids": [
+          "bal-bal-c08",
+          "bal-bal-c12"
+        ]
+      },
+      "fear": {
+        "id": "Pencuri dan pemakan jenazah yang meninggalkan batang pisang menggantikan tubuh dihitung sebagai salah satu makhluk paling ditakuti dan bersifat supernatural.",
+        "en": "A thief and eater of corpses who leaves a banana trunk in place of the body is counted among the most feared creatures and is supernatural.",
+        "claim_ids": [
+          "bal-bal-c03",
+          "bal-bal-c05",
+          "bal-bal-c04"
+        ]
+      }
+    }
+  },
+  "balaha": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda terbang putih berkekuatan supernormal yang dapat berbicara dan membawa dua ratus lima puluh pedagang menyeberangi laut melampaui kemampuan manusia; ia wujud bodhisattva, dinilai menurut Jataka.",
+        "en": "A white flying horse with supernormal powers that can speak and carry two hundred and fifty merchants across the sea exceeds human ability; it is a bodhisattva form, assessed after the Jataka.",
+        "claim_ids": [
+          "balaha-c06",
+          "balaha-c08",
+          "balaha-c09"
+        ]
+      },
+      "threat": {
+        "id": "Balaha adalah penyelamat yang menolong pedagang dari pulau para rakshasa; peran pelindung bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "Balaha is a rescuer who saves merchants from the island of the rakshasas; a protective role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan kuda penolong yang bersuara penuh belas kasih dan tidak memuat unsur yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "The research shows a helping horse who speaks with mercy and holds nothing that evokes fear; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "balarama": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa Hindu, kakak Krishna, yang dalam Bhagavata Purana menyeret seluruh Hastinapura ke Gangga dengan bajaknya dan dipandang inkarnasi Sesa; kuasa ini menjadi dasar Divine, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "A Hindu deity, Krishna’s elder brother, who in the Bhagavata Purana drags all of Hastinapura into the Ganga with his plough and is regarded as an incarnation of Shesha; this power supports Divine, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "balarama-c01",
+          "balarama-c05",
+          "balarama-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia membunuh Dhenuka, Pralamba, Mushtika, dan Kalavakra serta menyeret seluruh ibu kota Hastinapura ke Gangga; tindakan terhadap sebuah kota menjadi dasar skala permukiman, bukan bukti ancaman yang lebih luas.",
+        "en": "He kills Dhenuka, Pralamba, Mushtika, and Kalavakra and drags the entire capital Hastinapura into the Ganga; an act against a city supports settlement scale, not evidence of wider threat.",
+        "claim_ids": [
+          "balarama-c07",
+          "balarama-c08"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Balarama; ia digambarkan sebagai pembunuh asura utusan Kamsa dan guru ilmu gada, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Balarama; he is shown as a slayer of Kamsa’s asuras and a teacher of mace warfare, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "balaur": {
     "power": "monstrous",
     "threat": "t3",
@@ -3927,6 +4845,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "baldanders-c04",
           "baldanders-c05"
+        ]
+      }
+    }
+  },
+  "ball-tailed-cat": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Kucing mirip singa gunung dengan ekor panjang berujung bola padat yang dapat memukul pingsan mangsa melampaui hewan biasa, namun kisahnya adalah dongeng penebang kayu.",
+        "en": "A mountain-lion-like cat whose long ball-tipped tail can knock prey unconscious exceeds an ordinary animal, though it is a logging-camp tall tale.",
+        "claim_ids": [
+          "ball-tailed-cat-c01",
+          "ball-tailed-cat-c05",
+          "ball-tailed-cat-c06"
+        ]
+      },
+      "threat": {
+        "id": "Varian Sliver Cat memukul pingsan dan menusuk pengelana, sehingga ancaman ditafsirkan pada individu.",
+        "en": "The Sliver Cat variant knocks wayfarers unconscious and pierces them, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "ball-tailed-cat-c05"
+        ]
+      },
+      "fear": {
+        "id": "Kucing pemburu yang memukul mangsanya dengan ekor berbola menimbulkan rasa takut diburu, meski berfungsi sebagai lelucon untuk mengerjai pendatang baru.",
+        "en": "A hunting cat that strikes prey with a ball-tipped tail evokes the fear of being hunted, though it served as a jest for hazing newcomers.",
+        "claim_ids": [
+          "ball-tailed-cat-c01",
+          "ball-tailed-cat-c06"
         ]
       }
     }
@@ -4048,6 +4997,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "baobh-shith-c02",
           "baobh-shith-c06"
         ]
+      }
+    }
+  },
+  "barak": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Anjing suci yang dianggap bukan anjing biasa dan ditunggangi syaman naik ke langit melampaui kemampuan hewan biasa.",
+        "en": "A sacred dog regarded as no ordinary dog and ridden by shamans up to the sky exceeds an ordinary animal.",
+        "claim_ids": [
+          "barak-c02",
+          "barak-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Barak; ia digambarkan sebagai anjing yang diberkati, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Barak; it is presented as a blessed dog, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Barak; Fear belum dinilai.",
+        "en": "The research does not describe the fear Barak provokes; Fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -4471,6 +5445,67 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "beast-of-bladenboro": {
+    "power": "mortal",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Saksi dan pelacak mengira ia kucing liar dan seekor bobcat ditembak, sehingga kemampuannya setara hewan; identitasnya tidak pernah dipastikan.",
+        "en": "Witnesses and trackers thought it a wildcat and a bobcat was shot, so its ability is animal-level; its identity was never confirmed.",
+        "claim_ids": [
+          "beast-of-bladenboro-c02",
+          "beast-of-bladenboro-c09"
+        ]
+      },
+      "threat": {
+        "id": "Korban yang tercatat terutama anjing dan hewan ternak yang diremukkan atau dikuras darahnya, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "Recorded victims were mainly dogs and farm animals crushed or drained of blood, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "beast-of-bladenboro-c03",
+          "beast-of-bladenboro-c19"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk mirip kucing dengan jeritan mengerikan yang memburu hewan membuat kota diteror dan diburu lebih dari 500 orang; literatur cenderung skeptis.",
+        "en": "A cat-like creature with a terrible scream that hunted animals terrorized the town and drew a hunt of over 500 people; the literature leans skeptical.",
+        "claim_ids": [
+          "beast-of-bladenboro-c17",
+          "beast-of-bladenboro-c18",
+          "beast-of-bladenboro-c08"
+        ]
+      }
+    }
+  },
+  "beast-of-bodmin": {
+    "power": "mortal",
+    "threat": null,
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Hewan mirip kucing besar atau puma yang dilaporkan di Bodmin Moor tidak diberi kemampuan gaib; riset justru menyebut laporan itu biasanya tidak andal dan tengkoraknya berasal dari karpet kulit macan tutul.",
+        "en": "A big-cat or puma-like animal reported on Bodmin Moor is given no supernatural ability; the research notes such reports are usually unreliable and the skull came from a leopard-skin rug.",
+        "claim_ids": [
+          "beast-of-bodmin-c05",
+          "beast-of-bodmin-c07",
+          "beast-of-bodmin-c04"
+        ]
+      },
+      "threat": {
+        "id": "Kematian ternak yang dituduhkan padanya tidak terbukti, dan penyelidikan 1995 tidak menemukan bukti; ancaman belum dinilai.",
+        "en": "The livestock deaths blamed on it are unproven, and the 1995 inquiry found no evidence; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Predator mirip kucing besar yang dikaitkan dengan kematian ternak dan dilaporkan lebih dari 60 kali menimbulkan rasa takut diburu; ini rasa takut folklor, bukan bukti hewannya ada.",
+        "en": "A big-cat-like predator linked to livestock deaths and reported over 60 times evokes the fear of being hunted; this is folklore fear, not evidence the animal exists.",
+        "claim_ids": [
+          "beast-of-bodmin-c01",
+          "beast-of-bodmin-c02"
+        ]
+      }
+    }
+  },
   "beast-of-bray-road": {
     "power": "superhuman",
     "threat": "t1",
@@ -4552,6 +5587,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "beast-of-exmoor": {
+    "power": "mortal",
+    "threat": null,
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Kucing besar berbulu abu gelap atau hitam yang disangka macan tutul atau puma lepasan tidak diberi kemampuan gaib; tidak ada kucing besar yang pernah terbukti.",
+        "en": "A dark grey or black big cat thought to be an escaped leopard or puma is given no supernatural ability; no big cat has ever been confirmed.",
+        "claim_ids": [
+          "beast-of-exmoor-c07",
+          "beast-of-exmoor-c03"
+        ]
+      },
+      "threat": {
+        "id": "Pembunuhan lebih dari seratus domba pada 1983 dituduhkan padanya, tetapi kini dikaitkan dengan anjing besar; ancaman belum dinilai.",
+        "en": "More than a hundred sheep killed in 1983 were blamed on it, but are now attributed to large dogs; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Predator yang dituduh merobek tenggorokan lebih dari seratus domba dan menjadi berita nasional menimbulkan rasa takut diburu; ini rasa takut folklor, bukan bukti hewannya ada.",
+        "en": "A predator blamed for tearing the throats of over a hundred sheep and making national news evokes the fear of being hunted; this is folklore fear, not evidence the animal exists.",
+        "claim_ids": [
+          "beast-of-exmoor-c06",
+          "beast-of-exmoor-c02"
+        ]
+      }
+    }
+  },
   "beast-of-gevaudan": {
     "power": "superhuman",
     "threat": "t4",
@@ -4612,6 +5675,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "bedawang-c18",
           "bedawang-c19"
+        ]
+      }
+    }
+  },
+  "begu-ganjang": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh sebesar bayangan yang tampak makin tinggi bila dipandang dan dipercaya dapat menyebabkan kematian mendadak melampaui kemampuan manusia.",
+        "en": "A shadow-like spirit that seems to grow taller the longer it is looked at and is believed to cause sudden death exceeds human ability.",
+        "claim_ids": [
+          "begu-ganjang-c23",
+          "begu-ganjang-c16"
+        ]
+      },
+      "threat": {
+        "id": "Ia dipelihara untuk mencelakai orang tertentu dan meninggalkan memar di leher korban, sehingga ancamannya ditafsirkan pada individu; sebagian kisah tidak menganggapnya jahat.",
+        "en": "It is kept to harm particular people and leaves a bruise on the victim’s throat, so the threat is interpreted at the individual level; some tales do not call it evil.",
+        "claim_ids": [
+          "begu-ganjang-c01",
+          "begu-ganjang-c05"
+        ]
+      },
+      "fear": {
+        "id": "Sosok bayangan yang terus membesar saat dipandang dan dikaitkan dengan kematian mendadak tanpa sebab menjadi dasar ketakutan supernatural.",
+        "en": "A shadow figure that keeps growing as it is looked at and is linked to unexplained sudden death supports a supernatural fear.",
+        "claim_ids": [
+          "begu-ganjang-c23",
+          "begu-ganjang-c05"
         ]
       }
     }
@@ -4903,6 +5997,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "bi-an": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Putra naga yang dikatakan membedakan benar dan salah serta dianggap berwibawa sehingga dipasang di pintu penjara; sumber juga meragukan asal-usul daftarnya.",
+        "en": "A dragon’s son said to tell right from wrong and held to have the authority that earns it a place above prison gates; sources also doubt the list’s origin.",
+        "claim_ids": [
+          "bi-an-c09",
+          "bi-an-c10",
+          "bi-an-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkannya sebagai penjaga keadilan dan hiasan bangunan, bukan sumber kengerian; Fear belum dinilai.",
+        "en": "The research describes it as a guardian of justice and a building ornament, not a source of dread; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "bichura-folklore": {
     "power": "superhuman",
     "threat": "t1",
@@ -5173,6 +6293,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "black-dragon": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga hitam dikaitkan dengan unsur air dan utara sebagai penjaga suci, disembah, diidentikkan dengan dewa Kokuryū Daimyōjin, dan dipuja sebagai salah satu Delapan Raja Naga; tafsir ini mengikuti tradisi Asia Timur.",
+        "en": "The black dragon is tied to water and the north as a sacred guardian, is worshipped, identified with the deity Kokuryū Daimyōjin and enshrined as one of the Eight Dragon Kings; this follows the East Asian tradition.",
+        "claim_ids": [
+          "black-dragon-c02",
+          "black-dragon-c03",
+          "black-dragon-c07",
+          "black-dragon-c08"
+        ]
+      },
+      "threat": {
+        "id": "Nüwa membunuh naga hitam untuk menyelamatkan Jizhou dan membendung banjir, sehingga bahayanya tersirat berskala wilayah; ini satu catatan dan peran penjaganya tidak menjadi bukti ancaman.",
+        "en": "Nüwa slew a black dragon to save Jizhou and stop the flood, implying a region-scale danger; this is a single account, and its guardian role is not evidence of threat.",
+        "claim_ids": [
+          "black-dragon-c06"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan naga hitam; Fear belum dinilai.",
+        "en": "The research describes no fear caused by the black dragon; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "black-lady-of-bradley-woods": {
     "power": "superhuman",
     "threat": null,
@@ -5230,6 +6379,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "black-shuck-c05",
           "black-shuck-c07"
         ]
+      }
+    }
+  },
+  "black-tortoise": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Xuanwu digambarkan sebagai raja utara dengan dua jenderal di bawahnya dan dikaitkan dengan arah utara; kuasa atas ranah arah ini menjadi dasar Divine (versi Xuanwu penjaga empat arah dan versi Journey to the West).",
+        "en": "Xuanwu is described as a king of the north with two generals under him and is tied to the northern direction; authority over this directional domain supports Divine (the Four Symbols guardian and the Journey to the West version).",
+        "claim_ids": [
+          "black-tortoise-c09",
+          "black-tortoise-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; Xuanwu tampil sebagai penjaga arah dan pengiring perjalanan, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; Xuanwu appears as a directional guardian and escort, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; ia adalah lambang penjaga dan simbol umur panjang, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; it is a guardian emblem and a symbol of longevity, so fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -5681,6 +6855,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "bramrachokh": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Piring api di kepala, mata bercahaya di dahi, dan cahaya penyesat melampaui kemampuan manusia.",
+        "en": "The pot of fire on his head, the shining forehead eye, and the misleading light exceed human ability.",
+        "claim_ids": [
+          "bramrachokh-c03",
+          "bramrachokh-c04",
+          "bramrachokh-c05"
+        ]
+      },
+      "threat": {
+        "id": "Cahayanya dikatakan menuntun pengelana ke parit, gua, atau kematian, sehingga ancaman ditafsirkan pada korban individu.",
+        "en": "His light is said to lead travelers to a ditch, cave, or death, so the threat is interpreted at the level of individual victims.",
+        "claim_ids": [
+          "bramrachokh-c05"
+        ]
+      },
+      "fear": {
+        "id": "Hantu atau iblis penghuni tempat sepi yang menyamar sebagai cahaya adalah keberadaan supernatural.",
+        "en": "A demon or ghost dwelling in waste places and pretending to be a light is a supernatural presence.",
+        "claim_ids": [
+          "bramrachokh-c01",
+          "bramrachokh-c07"
+        ]
+      }
+    }
+  },
   "bran-and-sceolang": {
     "power": "superhuman",
     "threat": "t1",
@@ -6064,6 +7269,69 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "bulgasari-creature": {
+    "power": "monstrous",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk pemakan logam yang tubuhnya terus membesar dan tidak mempan busur atau pedang; dasar Monstrous.",
+        "en": "A metal-eating creature that grows ever larger and was unharmed by bows and swords; this supports Monstrous.",
+        "claim_ids": [
+          "bulgasari-creature-c10",
+          "bulgasari-creature-c11"
+        ]
+      },
+      "threat": {
+        "id": "Dalam kisah, tubuhnya menjadi bola api hingga berbagai tempat menjadi lautan api; ditafsirkan berdampak regional, hanya pada kisah itu.",
+        "en": "In the tale its body became a ball of fire so that places everywhere became seas of flame; interpreted as regional reach, in that tale only.",
+        "claim_ids": [
+          "bulgasari-creature-c11"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang tidak bisa dibunuh dan berkeliaran sebagai bola api melampaui hukum alam; tradisi lain menjadikannya penolak roh jahat.",
+        "en": "A creature that cannot be killed and roams as a ball of fire exceeds natural law; other traditions make it a ward against evil spirits.",
+        "claim_ids": [
+          "bulgasari-creature-c06",
+          "bulgasari-creature-c11"
+        ]
+      }
+    }
+  },
+  "bull-demon-king": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Wujud asli banteng putih raksasa seribu zhang lebih dan kepala yang tumbuh kembali setelah dipenggal Nezha menjadi dasar Monstrous, versi novel Perjalanan ke Barat.",
+        "en": "His true form as a giant white bull over a thousand zhang long and heads that regrow after Nezha cuts them off support Monstrous, per the novel Journey to the West.",
+        "claim_ids": [
+          "bull-demon-king-c13",
+          "bull-demon-king-c14"
+        ]
+      },
+      "threat": {
+        "id": "Antagonis utama novel yang menghadapi Sun Wukong dan Zhu Bajie sekaligus dengan tipu daya dan wujud raksasa, sehingga ditafsirkan mengancam kelompok; riset tidak memuat korban massal.",
+        "en": "The novel’s major antagonist who confronts Sun Wukong and Zhu Bajie together with trickery and a giant form, interpreted as a group-scale threat; the research records no mass harm.",
+        "claim_ids": [
+          "bull-demon-king-c05",
+          "bull-demon-king-c12",
+          "bull-demon-king-c16"
+        ]
+      },
+      "fear": {
+        "id": "Perubahan wujud menjadi angsa atau Zhu Bajie dan wujud banteng raksasa merupakan kemampuan di luar hukum alam.",
+        "en": "Turning into a swan or Zhu Bajie and assuming a giant bull form are abilities beyond natural law.",
+        "claim_ids": [
+          "bull-demon-king-c12",
+          "bull-demon-king-c13",
+          "bull-demon-king-c16"
+        ]
+      }
+    }
+  },
   "bull-of-heaven": {
     "power": "monstrous",
     "threat": null,
@@ -6337,6 +7605,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "caboclo-de-agua": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raksasa berotot berkulit perunggu dengan satu mata besar dan jantung kebal peluru yang menguasai air dan ikan sungai São Francisco; kuasanya terbatas pada satu sungai.",
+        "en": "A giant, muscular bronze-skinned being with one huge eye and a bullet-proof heart that holds dominion over the São Francisco River waters and fish; its power is confined to one river.",
+        "claim_ids": [
+          "caboclo-de-agua-c02",
+          "caboclo-de-agua-c03",
+          "caboclo-de-agua-c09"
+        ]
+      },
+      "threat": {
+        "id": "Ia mengejar perahu agar terbalik dan memburu nelayan yang tidak disukainya, sehingga ancaman ditafsirkan pada awak perahu atau kelompok nelayan.",
+        "en": "It chases boats to capsize them and pursues fishermen it dislikes, so the threat is interpreted at the scale of boat crews or groups of fishermen.",
+        "claim_ids": [
+          "caboclo-de-agua-c06",
+          "caboclo-de-agua-c10"
+        ]
+      },
+      "fear": {
+        "id": "Wujud raksasa bermata satu, jantung kebal peluru, dan kemampuan menjelma hewan lain berada di luar hukum alam.",
+        "en": "A one-eyed giant form, a bullet-proof heart, and the ability to take the shape of other animals lie beyond natural law.",
+        "claim_ids": [
+          "caboclo-de-agua-c02",
+          "caboclo-de-agua-c03",
+          "caboclo-de-agua-c04"
+        ]
+      }
+    }
+  },
   "cabra-cabriola": {
     "power": "superhuman",
     "threat": "t1",
@@ -6363,6 +7664,65 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "cabra-cabriola-c02",
           "cabra-cabriola-c06"
+        ]
+      }
+    }
+  },
+  "cabraboc": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Wujud setengah manusia setengah kambing yang mengejar pengelana di hutan malam melampaui kemampuan manusia; kadang digambarkan bersayap kelelawar.",
+        "en": "A half-human, half-goat form that chases night travellers through the forest exceeds human ability; sometimes described with bat wings.",
+        "claim_ids": [
+          "cabraboc-c01",
+          "cabraboc-c03"
+        ]
+      },
+      "threat": {
+        "id": "Kejaran sering berakhir dengan korban jatuh dari tebing, sehingga ancaman ditafsirkan pada korban individu.",
+        "en": "The chases often end with the victim falling off a cliff, so the threat is interpreted at the scale of individual victims.",
+        "claim_ids": [
+          "cabraboc-c03"
+        ]
+      },
+      "fear": {
+        "id": "Kejaran terhadap pengelana malam di hutan menimbulkan rasa takut menjadi mangsa.",
+        "en": "Chasing night travellers in the forest evokes the fear of becoming prey.",
+        "claim_ids": [
+          "cabraboc-c02"
+        ]
+      }
+    }
+  },
+  "cactus-cat": {
+    "power": "mortal",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Hewan mirip lynx berduri dengan bilah tulang di lengan dan ekor berlapis baja, yang kemampuannya bersifat fisik belaka, ditafsirkan pada kapasitas Mortal; ia cerita kayu tebang, bukan kuasa gaib.",
+        "en": "A thorny, bobcat-like animal with bone blades on its forearms and an armored tail, whose abilities are purely physical, is interpreted at Mortal capacity; it is a lumberjack tale, not supernatural power.",
+        "claim_ids": [
+          "cactus-cat-c02",
+          "cactus-cat-c06",
+          "cactus-cat-c07"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatannya hanya menyayat kaktus dan meminum getahnya; tidak ada bahaya bagi manusia yang dicatat, sehingga ancaman belum dinilai.",
+        "en": "Its deeds are limited to slashing cacti and drinking their sap; no danger to people is recorded, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Cerita rimbawan semacam ini dipakai untuk menakuti pendatang baru, dan tampilan berduri serta jeritan makhluk mabuk itu lebih ganjil daripada memburu manusia.",
+        "en": "Tales like this were used to frighten newcomers, and the spiny look and screaming drunken beast are more uncanny than predatory.",
+        "claim_ids": [
+          "cactus-cat-c02",
+          "cactus-cat-c08",
+          "cactus-cat-c10"
         ]
       }
     }
@@ -6395,6 +7755,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "cadejo-c01",
           "cadejo-c02",
           "cadejo-c06"
+        ]
+      }
+    }
+  },
+  "cagrino": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh jahat berwujud landak kuning yang menunggangi kuda semalaman hingga kelelahan melampaui kemampuan hewan biasa.",
+        "en": "An evil spirit shaped like a yellow hedgehog that rides horses to exhaustion overnight exceeds an ordinary animal.",
+        "claim_ids": [
+          "cagrino-c01",
+          "cagrino-c03"
+        ]
+      },
+      "threat": {
+        "id": "Korbannya kuda yang tampak sakit dan lelah keesokan harinya; bahaya ditafsirkan terbatas pada hewan milik individu, bukan manusia.",
+        "en": "Its victims are horses that look sick and exhausted the next day; the harm is interpreted as limited to an individual's animals, not people.",
+        "claim_ids": [
+          "cagrino-c04"
+        ]
+      },
+      "fear": {
+        "id": "Roh jahat yang menunggangi kuda secara gaib setiap malam merupakan keberadaan supernatural.",
+        "en": "An evil spirit that rides horses nightly by supernatural means is a supernatural presence.",
+        "claim_ids": [
+          "cagrino-c01",
+          "cagrino-c03"
         ]
       }
     }
@@ -6460,6 +7850,67 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "camahueto": {
+    "power": "regional",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Berbagai versi menyebut banteng bertanduk satu ini menciptakan hujan atau petir sesuka hati, sehingga pengaruhnya ditafsirkan pada wilayah lewat cuaca.",
+        "en": "Various versions say this one-horned bull creates rain or thunder at will, so its influence is interpreted as regional through weather.",
+        "claim_ids": [
+          "camahueto-c04"
+        ]
+      },
+      "threat": {
+        "id": "Legenda mencatat orang yang melintas atau mendekati tempat istirahatnya diseret ke laut dan sebagian versi menyebutnya memakan manusia, sehingga ditafsirkan pada kelompok.",
+        "en": "Legends record people who cross its path or near its resting place being dragged into the sea, and some versions say it eats humans, so the threat is interpreted at group scale.",
+        "claim_ids": [
+          "camahueto-c04",
+          "camahueto-c05"
+        ]
+      },
+      "fear": {
+        "id": "Pengendalian hujan dan petir serta kelahirannya dari perut bumi berada di luar hukum alam; ia juga menjadi penjelasan longsor.",
+        "en": "Control of rain and thunder and a birth from the depths of the earth lie beyond natural law; it also serves to explain landslides.",
+        "claim_ids": [
+          "camahueto-c04",
+          "camahueto-c08"
+        ]
+      }
+    }
+  },
+  "camazotz": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh kelelawar pelayan penguasa dunia bawah yang menyambar kepala Hunahpu dan membawanya ke lapangan bola melampaui kemampuan manusia; kaitan ikonografi klasik diperdebatkan.",
+        "en": "A bat spirit serving the lords of the underworld who snatched off Hunahpu’s head and carried it to the ballcourt exceeds human ability; the link to classic iconography is disputed.",
+        "claim_ids": [
+          "camazotz-c03",
+          "camazotz-c05",
+          "camazotz-c04"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan tercatatnya memenggal satu pahlawan, Hunahpu, ancaman pada skala individu.",
+        "en": "Its recorded deed is taking the head of a single hero, Hunahpu, an individual-scale threat.",
+        "claim_ids": [
+          "camazotz-c03"
+        ]
+      },
+      "fear": {
+        "id": "Kelelawar maut dari dunia bawah yang menyambar kepala korban di rumah kegelapan adalah kengerian supernatural.",
+        "en": "A death bat from the underworld that snatches a victim’s head in the House of Bats is supernatural horror.",
+        "claim_ids": [
+          "camazotz-c03",
+          "camazotz-c05"
+        ]
+      }
+    }
+  },
   "capcaun": {
     "power": "monstrous",
     "threat": "t1",
@@ -6519,6 +7970,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "capelobo-c02",
           "capelobo-c11",
           "capelobo-c16"
+        ]
+      }
+    }
+  },
+  "carbuncle-legendary-creature": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat permata bercahaya dan peran penjaga harta; kemampuan yang dapat dinilai belum ada.",
+        "en": "The research holds only a glowing gem and a treasure-guardian role; no assessable ability is documented.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak oleh makhluknya sendiri; bahaya bagi pemburu harta tidak dikaitkan langsung dengannya, jadi ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by the creature itself; danger to treasure seekers is not attributed directly to it, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Cahaya merah menyala di malam hari pada hewan kecil yang tak pernah terlihat jelas terasa ganjil, bukan memburu.",
+        "en": "A red glow at night on a small animal nobody ever saw clearly feels uncanny rather than predatory.",
+        "claim_ids": [
+          "carbuncle-legendary-creature-c02",
+          "carbuncle-legendary-creature-c07",
+          "carbuncle-legendary-creature-c13"
         ]
       }
     }
@@ -6703,6 +8180,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "cavalo-do-pensamento": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda yang menyemburkan api dari mata dan mulut serta membawa penunggang pulang sekejap mata melampaui hewan biasa.",
+        "en": "A horse that spits fire from its eyes and mouth and carries its rider home in a blink exceeds an ordinary animal.",
+        "claim_ids": [
+          "cavalo-do-pensamento-c02",
+          "cavalo-do-pensamento-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; kuda ini hanya digambarkan sebagai tunggangan, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; the horse is only described as a mount, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan kuda ini; Fear belum dinilai.",
+        "en": "The research does not describe the fear kuda ini provokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "ceasg": {
     "power": "superhuman",
     "threat": "t1",
@@ -6787,6 +8289,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "cegua-c02",
           "cegua-c06"
+        ]
+      }
+    }
+  },
+  "cenocroca": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Hewan legendaris bersuara manusia dengan rahang singa dan tanduk kambing gunung yang menirukan panggilan untuk memikat mangsa melampaui hewan biasa.",
+        "en": "A legendary beast with a human voice, lion's jaws and ibex horns that mimics calls to lure prey exceeds an ordinary animal.",
+        "claim_ids": [
+          "cenocroca-c02",
+          "cenocroca-c03"
+        ]
+      },
+      "threat": {
+        "id": "Memikat dan memangsa korban dengan menirukan suara ditafsirkan pada skala individu; riset tidak memuat serangan massal.",
+        "en": "Luring and devouring prey by mimicry is interpreted at an individual scale; the research holds no mass attacks.",
+        "claim_ids": [
+          "cenocroca-c03"
+        ]
+      },
+      "fear": {
+        "id": "Tiruan suara untuk memikat lalu memangsa korban menimbulkan rasa takut menjadi mangsa.",
+        "en": "Mimicking voices to lure and then devour victims evokes the fear of becoming prey.",
+        "claim_ids": [
+          "cenocroca-c03"
         ]
       }
     }
@@ -6915,6 +8446,92 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "chakor": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung yang dipercaya hidup dari sinar bulan dan memakan bara melampaui kodrat burung biasa; ini tafsir dari kepercayaan tradisi.",
+        "en": "A bird believed to live on moonlight and eat embers exceeds an ordinary bird; this is an interpretation of traditional belief.",
+        "claim_ids": [
+          "chakor-c02",
+          "chakor-c04",
+          "chakor-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Burung yang diam semalaman menatap bulan tidak menimbulkan unsur menakutkan dalam riset; Fear belum dinilai.",
+        "en": "A bird that sits still all night watching the moon shows nothing frightening in the research; fear is unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "chamunda": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Wujud garang Chandi atau Mahadevi, salah satu Matrika, dan satu-satunya yang berupa Shakti Dewi; dinilai dengan hormat sebagai tafsir editorial atas tradisi Hindu.",
+        "en": "A fierce form of Chandi or Mahadevi, one of the Matrikas, and the only one who is a Shakti of the Goddess; assessed respectfully as an editorial interpretation of the Hindu tradition.",
+        "claim_ids": [
+          "chamunda-c01",
+          "chamunda-c20",
+          "chamunda-c13"
+        ]
+      },
+      "threat": {
+        "id": "Ia membunuh asura Chanda dan Munda serta, lewat identifikasi dengan Kali, melahap pasukan musuh para dewa; para Matrika juga lambang wabah, jadi ditafsirkan skala kelompok, bukan permukiman.",
+        "en": "She slays the asuras Chanda and Munda and, through her identification with Kali, devours the army of the gods' foes; the Matrikas also emblematize pestilence, so this is read at group scale, not settlement.",
+        "claim_ids": [
+          "chamunda-c03",
+          "chamunda-c09",
+          "chamunda-c15",
+          "chamunda-c19"
+        ]
+      },
+      "fear": {
+        "id": "Rupa perempuan tua kurus di tanah pembakaran yang melambangkan keniscayaan usia tua, kematian, dan kehancuran menghadapkan manusia pada kerapuhan hidup.",
+        "en": "The skeletal old woman in cremation grounds symbolising the inevitability of old age, death, and decay confronts people with the fragility of life.",
+        "claim_ids": [
+          "chamunda-c05",
+          "chamunda-c04",
+          "chamunda-c22"
+        ]
+      }
+    }
+  },
+  "chandra": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa Bulan Hindu yang berkuasa atas malam dan tumbuhan serta termasuk Navagraha; kuasa atas ranah bulan menjadi dasar Divine, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "The Hindu Moon god with authority over night and plants and one of the Navagraha; authority over the lunar domain supports Divine, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "chandra-c01",
+          "chandra-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Chandra; kutukan Daksha justru menimpanya dan makhluk yang bergantung pada bulan, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Chandra; Daksha’s curse instead afflicted him and the beings dependent on the moon, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Chandra, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Chandra, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "changeling": {
     "power": "superhuman",
     "threat": "t1",
@@ -6944,6 +8561,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "chashkel": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa pemakan manusia yang ditakuti rekan sezamannya karena kekuatan besarnya, dan baru dikalahkan lewat perangkap dan tipu daya Kwányip, menjadi dasar Monstrous.",
+        "en": "A man-eating giant feared by his contemporaries for his enormous power, defeated only by Kwányip’s trap and cunning, supports Monstrous.",
+        "claim_ids": [
+          "chashkel-c01",
+          "chashkel-c04",
+          "chashkel-c09"
+        ]
+      },
+      "threat": {
+        "id": "Ia memakan banyak orang, melatih anjing pemburu manusia, dan menculik dua bersaudara Sasán, ditafsirkan sebagai ancaman bagi kelompok; riset tidak mencatat serangan ke permukiman.",
+        "en": "He devoured many people, trained dogs to hunt humans, and kidnapped the Sasán brothers, interpreted as a group-scale threat; the research records no attack on a settlement.",
+        "claim_ids": [
+          "chashkel-c01",
+          "chashkel-c06",
+          "chashkel-c07",
+          "chashkel-c08"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa pemakan manusia dengan anjing pemburu manusia membuat kengerian utamanya adalah diburu dan dimangsa.",
+        "en": "A man-eating giant with dogs trained to hunt people makes being hunted and devoured the central horror.",
+        "claim_ids": [
+          "chashkel-c01",
+          "chashkel-c07",
+          "chashkel-c08"
+        ]
+      }
+    }
+  },
   "chernava": {
     "power": "superhuman",
     "threat": null,
@@ -6966,6 +8618,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak menggambarkan Chernava sebagai sumber rasa takut, sehingga jenis ketakutan belum dinilai.",
         "en": "The research does not portray Chernava as a source of fear, so fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "cheukshin": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa rumah tangga yang menguasai jamban dan diyakini mampu menjatuhkan sakit hingga kematian yang sulit diredakan dukun; tafsir Divine bersifat editorial atas dewa domestik tingkat kecil.",
+        "en": "A household god presiding over the latrine who is believed to cause illness and death that even shamans rarely appease; Divine is an editorial reading of a minor domestic deity.",
+        "claim_ids": [
+          "cheukshin-c07",
+          "cheukshin-c12"
+        ]
+      },
+      "threat": {
+        "id": "Rambutnya dipercaya membuat orang yang tersentuh jatuh sakit dan biasanya meninggal; kisah berpusat pada korban individu.",
+        "en": "Her hair is believed to make the person it touches fall ill and usually die; the accounts center on individual victims.",
+        "claim_ids": [
+          "cheukshin-c08",
+          "cheukshin-c12"
+        ]
+      },
+      "fear": {
+        "id": "Dewi pemarah yang dianggap roh jahat dan bisa mencelakai siapa pun di jamban merupakan ketakutan supernatural sehari-hari.",
+        "en": "An easily angered goddess regarded as an evil god who can harm anyone in the latrine is an everyday supernatural fear.",
+        "claim_ids": [
+          "cheukshin-c07",
+          "cheukshin-c08",
+          "cheukshin-c12"
+        ]
       }
     }
   },
@@ -7123,6 +8807,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "chiwen": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Menurut Wuzazu, chiwen menelan segala pengaruh jahat dan dipercaya menolak api, banjir, dan topan; dasar Superhuman.",
+        "en": "Per the Wuzazu, chiwen swallow all evil influences and are believed to ward off fire, floods, and typhoons; this supports Superhuman.",
+        "claim_ids": [
+          "chiwen-c06",
+          "chiwen-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat peran pelindung bangunan; ancaman belum dinilai.",
+        "en": "The research holds only its role as a building guardian; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan hiasan pelindung tanpa perbuatan yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "The research presents a protective ornament with no frightening deeds; fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "chonchon": {
     "power": "superhuman",
     "threat": "t1",
@@ -7239,6 +8948,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "chudo-yudo-c05",
           "chudo-yudo-c06"
+        ]
+      }
+    }
+  },
+  "chullachaki": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan menyamar sebagai kerabat, orang yang dirindukan, hewan buruan, atau anak lain melampaui manusia.",
+        "en": "The ability to disguise himself as a relative, a long-unseen loved one, prey, or another child exceeds human limits.",
+        "claim_ids": [
+          "chullachaki-c03",
+          "chullachaki-c07"
+        ]
+      },
+      "threat": {
+        "id": "Ia memikat korban, terutama anak, masuk ke hutan hingga tersesat, dan dikatakan mengutuk yang menolak tantangannya; ancaman ditafsirkan pada skala individu.",
+        "en": "He lures victims, especially children, into the forest to get lost and is said to curse those who decline his challenge; the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "chullachaki-c03",
+          "chullachaki-c11",
+          "chullachaki-c12"
+        ]
+      },
+      "fear": {
+        "id": "Penyamaran sebagai orang dekat dengan kaki yang janggal adalah keberadaan supernatural; sebagian sumber juga menyebutnya pelindung hutan, bukan sekadar jahat.",
+        "en": "Disguise as a loved one with a telltale odd foot is a supernatural presence; some sources also call him a forest protector rather than merely evil.",
+        "claim_ids": [
+          "chullachaki-c03",
+          "chullachaki-c08",
+          "chullachaki-c04"
         ]
       }
     }
@@ -7362,6 +9104,104 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "chuzalongo": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan membunuh dengan hembusan angin saat marah dan kaki terbalik untuk mengelabui pengejar melampaui manusia, walau tubuhnya sekecil anak enam tahun.",
+        "en": "Killing with a blow of wind when angered and feet turned backward to elude pursuers exceed human ability, although its body is as small as a six-year-old child.",
+        "claim_ids": [
+          "chuzalongo-c03",
+          "chuzalongo-c07",
+          "chuzalongo-c11"
+        ]
+      },
+      "threat": {
+        "id": "Versi yang dicatat menyebut ia menyerang lalu biasanya membunuh perempuan yang sendirian, sehingga ancamannya ditafsirkan pada skala individu.",
+        "en": "Recorded versions say it assaults and usually kills women found alone, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "chuzalongo-c09",
+          "chuzalongo-c11"
+        ]
+      },
+      "fear": {
+        "id": "Sosok kecil bersifat gaib yang diturunkan dari roh gunung dan membunuh dengan angin melampaui hukum alam, dengan unsur diburu bagi perempuan yang sendirian; riset juga mencatat fungsi fabel moralnya.",
+        "en": "A small supernatural being descended from mountain spirits that kills with wind exceeds natural law, with a predatory element toward lone women; the research also notes its function as a moral fable.",
+        "claim_ids": [
+          "chuzalongo-c02",
+          "chuzalongo-c09",
+          "chuzalongo-c11",
+          "chuzalongo-c14"
+        ]
+      }
+    }
+  },
+  "ciguapa": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan memikat laki-laki dengan kecantikan, mata, dan nyanyian di luar kewajaran menjadi dasar Superhuman; riset juga mencatat kisahnya mungkin ciptaan modern (fakelore).",
+        "en": "Her ability to bewitch men with beauty, eyes, and song exceeds the ordinary and supports Superhuman; the research also notes the legend may be modern invented lore (fakelore).",
+        "claim_ids": [
+          "ciguapa-c06",
+          "ciguapa-c14"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikisahkan membunuh laki-laki yang ia pikat, sehingga ancaman ditafsirkan pada korban individu.",
+        "en": "She is said to kill the men she bewitches, so the threat is interpreted at the level of individual victims.",
+        "claim_ids": [
+          "ciguapa-c06"
+        ]
+      },
+      "fear": {
+        "id": "Wanita berkaki terbalik yang menjerat lelaki di hutan malam dan tak pernah terlihat bicara menimbulkan kengerian supernatural.",
+        "en": "A backward-footed woman who ensnares men in night forests and is never seen to speak evokes supernatural dread.",
+        "claim_ids": [
+          "ciguapa-c02",
+          "ciguapa-c05",
+          "ciguapa-c08"
+        ]
+      }
+    }
+  },
+  "cihuateteo": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Arwah perempuan yang meninggal saat melahirkan, merasuki orang lemah, dan menuntun matahari ke barat; kemampuan gaib itu melampaui manusia, tetapi riset tidak menunjukkan kuasa atas suatu ranah.",
+        "en": "Spirits of women who died in childbirth, they possess the weak and guide the sun westward; these supernatural abilities exceed humans, but the research shows no authority over a domain.",
+        "claim_ids": [
+          "cihuateteo-c06",
+          "cihuateteo-c15",
+          "cihuateteo-c01"
+        ]
+      },
+      "threat": {
+        "id": "Menurut tradisi, mereka menculik anak, menimbulkan kegilaan, kejang, dan penyakit pada bayi; korban yang dicatat adalah individu, meski keluarga berjaga pada hari-hari tertentu.",
+        "en": "By tradition they steal children and cause madness, seizures, and infant diseases; the recorded victims are individuals, although families take precautions on certain days.",
+        "claim_ids": [
+          "cihuateteo-c04",
+          "cihuateteo-c14"
+        ]
+      },
+      "fear": {
+        "id": "Iblis malam yang berkeliaran di persimpangan dan merasuki tubuh, dengan wajah putih pucat dan cakar mengepal, berada di luar hukum alam; tradisi lain menghormati mereka setara prajurit.",
+        "en": "Night demons haunting crossroads and entering bodies, with dead-white faces and clenched claw-like fists, exceed natural law; the tradition also honors them as equals of warriors.",
+        "claim_ids": [
+          "cihuateteo-c03",
+          "cihuateteo-c15",
+          "cihuateteo-c11"
+        ]
+      }
+    }
+  },
   "cikavac": {
     "power": "superhuman",
     "threat": "t1",
@@ -7387,6 +9227,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat gambaran yang menimbulkan rasa takut dari cikavac; ia dipaparkan sebagai pencuri pesuruh pemiliknya, sehingga jenis ketakutan belum dinilai.",
         "en": "The research holds no depiction of the cikavac evoking fear; it is presented as a thieving servant of its owner, so the fear type remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "cipactli": {
+    "power": "cosmic",
+    "threat": "t6",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Monster laut primordial yang tubuhnya dirobek para dewa menjadi langit dan bumi, sehingga kuasanya berskala dunia; dalam versi lain ia disamakan dengan Tlaltecuhtli.",
+        "en": "A primeval sea monster whose body the gods tore into sky and earth, giving it world-scale significance; in other versions it is identified with Tlaltecuhtli.",
+        "claim_ids": [
+          "cipactli-c01",
+          "cipactli-c12",
+          "cipactli-c16"
+        ]
+      },
+      "threat": {
+        "id": "Para dewa menilai kosmos kelima tidak akan makmur selama makhluk buas itu berkeliaran, dan bila nafsunya tidak dipuaskan panen gagal; ini menyiratkan ancaman berskala dunia.",
+        "en": "The gods judged the fifth cosmos could not prosper with the fiendish creature roaming, and if her hunger goes unsated crops fail; this implies a world-scale threat.",
+        "claim_ids": [
+          "cipactli-c11",
+          "cipactli-c14"
+        ]
+      },
+      "fear": {
+        "id": "Rasa lapar tak terpuaskan, mulut di setiap sendi, dan tuntutan jantung korban kurban membuat manusia sadar akan ketergantungan hidup pada kuasa yang tak bisa dikendalikan.",
+        "en": "An insatiable hunger, mouths at every joint, and a demand for sacrificial hearts confront humans with how their lives depend on a power they cannot control.",
+        "claim_ids": [
+          "cipactli-c02",
+          "cipactli-c10",
+          "cipactli-c14"
+        ]
       }
     }
   },
@@ -7471,6 +9344,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "clurichaun-c01",
           "clurichaun-c03",
           "clurichaun-c05"
+        ]
+      }
+    }
+  },
+  "coatlicue": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi bumi dan ibu para dewa yang diasosiasikan dengan kelahiran, perang, pemerintahan, dan pertanian, serta sisi perempuan Ometeotl, berkuasa atas ranah (Divine).",
+        "en": "The earth-mother goddess, patron of childbirth and linked to war, governance, and agriculture as the female aspect of Ometeotl, holds authority over domains (Divine).",
+        "claim_ids": [
+          "coatlicue-c05",
+          "coatlicue-c06"
+        ]
+      },
+      "threat": {
+        "id": "Peringatannya tentang jatuhnya kota-kota Aztek adalah ramalan, bukan perbuatan merusak; ancaman belum dinilai.",
+        "en": "Her warning that Aztec cities would fall is a prophecy, not a destructive deed; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Rok ular, kalung hati dan tengkorak manusia, serta cakar yang mencabik jenazah menampilkan citra supernatural yang menggentarkan.",
+        "en": "The skirt of snakes, necklace of human hearts and skulls, and claws that rip up corpses present a fearsome supernatural image.",
+        "claim_ids": [
+          "coatlicue-c01",
+          "coatlicue-c13"
         ]
       }
     }
@@ -7744,6 +9645,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "count-dracula": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kekuatan dua puluh orang, pengubah wujud, dan pengendali badai, kabut, serta hewan dalam jangkauannya; tafsir Monstrous mengikuti versi novel Stoker.",
+        "en": "The strength of twenty men, shapeshifting, and command of storm, fog, and animals within his range; Monstrous follows Stoker’s novel version.",
+        "claim_ids": [
+          "count-dracula-c08",
+          "count-dracula-c07",
+          "count-dracula-c09"
+        ]
+      },
+      "threat": {
+        "id": "Korbannya menjadi Un-Dead yang memangsa sesamanya dan ia berniat menciptakan ras vampir di London, sehingga ditafsirkan berpotensi pada skala permukiman.",
+        "en": "His victims become Un-Dead who prey on others and he seeks to create a race of vampires in London, interpreted as settlement-scale potential.",
+        "claim_ids": [
+          "count-dracula-c13",
+          "count-dracula-c41"
+        ]
+      },
+      "fear": {
+        "id": "Tanpa bayangan dan pantulan, berubah menjadi kabut atau kelelawar, serta abadi; semuanya melampaui hukum alam.",
+        "en": "He casts no shadow or reflection, becomes mist or bat, and cannot die of age, all beyond natural law.",
+        "claim_ids": [
+          "count-dracula-c06",
+          "count-dracula-c07",
+          "count-dracula-c12"
+        ]
+      }
+    }
+  },
   "cressie": {
     "power": null,
     "threat": null,
@@ -7767,6 +9701,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "cressie-c11",
           "cressie-c15"
         ]
+      }
+    }
+  },
+  "crinisus": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa sungai Krimisos di Sisilia barat memiliki kuasa atas ranah sungai; ini penilaian editorial atas peran dewa sungai, bukan kekuatan besar yang dicatat.",
+        "en": "The river god of the Sicilian Crimisus holds authority over the domain of a river; this is an editorial reading of a river god’s role, not a recorded great feat.",
+        "claim_ids": [
+          "crinisus-c01",
+          "crinisus-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ia hanya diceritakan memperistri perempuan Troya dalam rupa anjing, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; it only tells of him taking a Trojan woman in the form of a dog, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -7835,6 +9794,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "cthulhu": {
+    "power": "cosmic",
+    "threat": "t6",
+    "fear": "f5",
+    "reasons": {
+      "power": {
+        "id": "Entitas dari luar ruang dan waktu yang membentuk mimpi manusia, mengawetkan para Great Old Ones dengan mantra, dan dikisahkan bergerak dengan kekuatan kosmis; kekuatan fisiknya dalam cerita sempat dihentikan sementara oleh kapal.",
+        "en": "An entity from beyond space and time that molds human dreams, preserved the Great Old Ones with spells, and moves with cosmic potency; in the story a ship only briefly checks his body.",
+        "claim_ids": [
+          "cthulhu-c15",
+          "cthulhu-c07",
+          "cthulhu-c27",
+          "cthulhu-c10"
+        ]
+      },
+      "threat": {
+        "id": "Para pemujanya menanti ia bangkit untuk membawa bumi kembali di bawah kekuasaannya, sehingga ancaman ditafsirkan berskala dunia; ini niat dan nubuat, bukan kehancuran yang tercatat.",
+        "en": "His cultists await his rising to bring the earth again beneath his sway, so the threat is interpreted at world scale; this is intent and prophecy, not recorded destruction.",
+        "claim_ids": [
+          "cthulhu-c06",
+          "cthulhu-c13"
+        ]
+      },
+      "fear": {
+        "id": "Teror yang berasal dari entitas asing di luar pemahaman manusia dan melambangkan kerapuhan serta ketidakberartian manusia, ciri kengerian kosmik.",
+        "en": "Terror arising from alien entities beyond human understanding that stand for humanity’s frailty and insignificance, the mark of cosmic horror.",
+        "claim_ids": [
+          "cthulhu-c14",
+          "cthulhu-c15"
+        ]
+      }
+    }
+  },
   "cu-sith": {
     "power": "superhuman",
     "threat": "t1",
@@ -7864,6 +9856,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "cu-sith-c03",
           "cu-sith-c04",
           "cu-sith-c06"
+        ]
+      }
+    }
+  },
+  "cuca": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Penyihir berwujud buaya yang berusia ribuan tahun, lahir kembali dari telur tiap seribu tahun, dan hanya tidur sekali tiap tujuh tahun melampaui manusia.",
+        "en": "A crocodilian witch thousands of years old, reborn from an egg every thousand years and sleeping only once every seven years, exceeds humans.",
+        "claim_ids": [
+          "cuca-c02",
+          "cuca-c10",
+          "cuca-c11"
+        ]
+      },
+      "threat": {
+        "id": "Ia menculik anak-anak, sehingga ancamannya ditafsirkan pada skala individu; riset tidak mencatat perbuatan massal.",
+        "en": "She kidnaps children, so the threat is interpreted at an individual scale; the research records no mass deeds.",
+        "claim_ids": [
+          "cuca-c01",
+          "cuca-c08"
+        ]
+      },
+      "fear": {
+        "id": "Penyihir tua berwajah buaya dengan cakar elang dan usia yang tak wajar merupakan keberadaan supernatural; ia juga tokoh penakut-nakut anak dalam folklor Brasil.",
+        "en": "An old witch with an alligator face, hawk-like claws, and an unnatural age is a supernatural presence; she is also a bogey figure for children in Brazilian folklore.",
+        "claim_ids": [
+          "cuca-c02",
+          "cuca-c08",
+          "cuca-c12"
         ]
       }
     }
@@ -7926,6 +9951,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "cuelebre-c03",
           "cuelebre-c11"
+        ]
+      }
+    }
+  },
+  "cuero-legendary-creature": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk berbentuk kulit terbentang bercakar tajam yang menyelubungi dan menyeret mangsa ke dasar serta memunculkan pusaran air adalah kekuatan monster air.",
+        "en": "A stretched-hide creature with sharp claws that envelops prey, drags it to the bottom, and raises whirlpools is aquatic monstrous power.",
+        "claim_ids": [
+          "cuero-legendary-creature-c04",
+          "cuero-legendary-creature-c06",
+          "cuero-legendary-creature-c07"
+        ]
+      },
+      "threat": {
+        "id": "Korban yang tercatat adalah manusia dan hewan yang masuk ke air satu per satu, sehingga ancaman ditafsirkan pada individu.",
+        "en": "Recorded victims are humans and animals entering the water, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "cuero-legendary-creature-c05",
+          "cuero-legendary-creature-c07"
+        ]
+      },
+      "fear": {
+        "id": "Menyelubungi lalu menyeret mangsa ke dasar air adalah rasa takut diburu oleh pemangsa tersembunyi.",
+        "en": "Enveloping and dragging prey to the bottom is the fear of being hunted by a hidden predator.",
+        "claim_ids": [
+          "cuero-legendary-creature-c05",
+          "cuero-legendary-creature-c07"
         ]
       }
     }
@@ -8160,6 +10217,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "daidarabotchi": {
+    "power": "regional",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Jejak kakinya membentuk danau dan rawa, dan ia disebut membentuk gunung serta bukit; kuasa atas bentang alam ini dinilai Regional, dan tafsir sebagai dewa pencipta langit dan bumi tidak dipakai sebagai dasar tingkat lebih tinggi.",
+        "en": "Its footprints formed lakes and marshes and it is said to have shaped mountains and hills; this control of the landscape is rated Regional, and the interpretation of a heaven-and-earth creator god is not used to rate it higher.",
+        "claim_ids": [
+          "daidarabotchi-c02",
+          "daidarabotchi-c06",
+          "daidarabotchi-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak terhadap manusia; membentuk bentang alam bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive acts against people; shaping the landscape is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan sang raksasa; Fear belum dinilai.",
+        "en": "The research does not describe the fear the giant inspires; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "dainn-norse-dwarf": {
     "power": "superhuman",
     "threat": null,
@@ -8240,6 +10323,100 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "dakuwaqa": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa hiu penjaga pulau-pulau Fiji yang mampu berubah wujud dan menjadi pelindung Kadavu; kuasa atas ranah laut.",
+        "en": "The shark god who guards the Fijian islands, can shapeshift, and became protector of Kadavu; authority over the sea realm.",
+        "claim_ids": [
+          "dakuwaqa-c01",
+          "dakuwaqa-c03",
+          "dakuwaqa-c06"
+        ]
+      },
+      "threat": {
+        "id": "Ia berniat menaklukkan Pulau Kadavu dan melancarkan serangan besar sebelum dikalahkan dewi gurita; ancaman dinilai pada skala permukiman karena ia akhirnya menjadi pelindung.",
+        "en": "He planned to conquer Kadavu Island and launched a massive attack before the octopus goddess defeated him; a settlement scale is used because he became a protector.",
+        "claim_ids": [
+          "dakuwaqa-c04",
+          "dakuwaqa-c05",
+          "dakuwaqa-c06"
+        ]
+      },
+      "fear": {
+        "id": "Monster laut garang dengan tubuh manusia berkepala hiu yang bisa mengubah wujud dan nyaris menenggelamkan kapal, kehadiran gaib di luar hukum alam.",
+        "en": "A fierce sea monster with a shark-headed human form that can shapeshift and nearly capsized a ship, a supernatural presence beyond natural law.",
+        "claim_ids": [
+          "dakuwaqa-c01",
+          "dakuwaqa-c03",
+          "dakuwaqa-c07"
+        ]
+      }
+    }
+  },
+  "damballa": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Ia dipercaya pencipta primordial yang membentuk kosmos dengan lilitannya dan membuat semua perairan, serta pencipta dunia dan para dewa lain, sehingga skalanya kosmis.",
+        "en": "He is held to be the primordial creator who shaped the cosmos with his coils and made all the waters, and the creator of the world and the other gods, so his scale is cosmic.",
+        "claim_ids": [
+          "damballa-c04",
+          "damballa-c05",
+          "damballa-c06",
+          "damballa-c17"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkannya baik hati, sabar, dan bijak; tidak ada perbuatan merusak, jadi ancaman belum dinilai.",
+        "en": "The research describes him as benevolent, patient, and wise; no destructive deeds are given, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat sifat yang menimbulkan rasa takut; ia digambarkan melindungi dan menjauh dari urusan manusia, jadi ketakutan belum dinilai.",
+        "en": "The research holds nothing that inspires fear; he is described as benevolent and detached from human affairs, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "daramulum": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pahlawan langit putra Baiame yang suaranya adalah guntur, menjaga arwah orang mati, dan menjadi sumber kuasa tabib; Howitt menyebut tidak ada pemujaan langsung, jadi ini tafsir editorial.",
+        "en": "A sky hero and son of Baiame whose voice is thunder, who tends the souls of the dead, and who is the source of a medicine-man’s power; Howitt notes no direct worship, so this is an editorial reading.",
+        "claim_ids": [
+          "daramulum-c01",
+          "daramulum-c08",
+          "daramulum-c09",
+          "daramulum-c10",
+          "daramulum-c15"
+        ]
+      },
+      "threat": {
+        "id": "Anak laki-laki diperingatkan bahwa ia akan melukai atau membunuh mereka dengan batu panas bila rahasia dibocorkan; cakupannya perorangan.",
+        "en": "Initiates are warned he will injure or kill them with heated stones if they reveal secrets, a personal-scale threat.",
+        "claim_ids": [
+          "daramulum-c14"
+        ]
+      },
+      "fear": {
+        "id": "Suaranya terdengar lewat bullroarer dan guntur, kehadiran gaib yang tak terjelaskan oleh hukum alam.",
+        "en": "His voice is heard through the bullroarer and thunder, a supernatural presence beyond natural law.",
+        "claim_ids": [
+          "daramulum-c03",
+          "daramulum-c08"
+        ]
+      }
+    }
+  },
   "dark-watchers": {
     "power": "superhuman",
     "threat": null,
@@ -8267,6 +10444,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "dark-watchers-c03",
           "dark-watchers-c04",
           "dark-watchers-c09"
+        ]
+      }
+    }
+  },
+  "daucina": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa pelayaran dan penangkapan ikan di seluruh Fiji, kedua setelah Ndengei, yang memberi angin baik dan hasil tangkapan.",
+        "en": "The god of seafaring and fishing throughout Fiji, next after Ndengei, who grants fair winds and good fishing.",
+        "claim_ids": [
+          "daucina-c01",
+          "daucina-c04",
+          "daucina-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia menculik perempuan bangsawan pada malam hari dan menerangi pertahanan agar penyerang berhasil mengepung; dinilai pada skala kelompok karena dampaknya tidak digambarkan lebih luas.",
+        "en": "He steals women of rank by night and lights up defences to guide besiegers; a group scale is used since no wider effect is described.",
+        "claim_ids": [
+          "daucina-c06",
+          "daucina-c07",
+          "daucina-c10"
+        ]
+      },
+      "fear": {
+        "id": "Pembawa obor yang berkeliaran di karang pada malam hari dengan wadah api di kepalanya adalah sosok gaib di luar hukum alam.",
+        "en": "The torch-bearer who roams the reefs by night with a flaming brazier on his head is a supernatural figure beyond natural law.",
+        "claim_ids": [
+          "daucina-c05"
         ]
       }
     }
@@ -8326,6 +10535,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "death-c02",
           "death-c05"
+        ]
+      }
+    }
+  },
+  "degei": {
+    "power": "cosmic",
+    "threat": "t4",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa tertinggi Fiji berwujud ular yang menciptakan dunia, buah, dan manusia, menjadi dewa gempa, badai, dan musim, serta menghakimi arwah.",
+        "en": "The supreme serpent god of Fiji who creates the world, fruits, and humans, rules earthquakes, storms, and seasons, and judges souls.",
+        "claim_ids": [
+          "degei-c01",
+          "degei-c02",
+          "degei-c04",
+          "degei-c03"
+        ]
+      },
+      "threat": {
+        "id": "Menghukum rakyatnya dengan merusak panen atau banjir; keinginan menelan seluruh dunia hanya digambarkan sebagai rasa lapar, sehingga dinilai pada skala wilayah.",
+        "en": "He punishes his people by ruining crops or sending floods; the wish to swallow the world is only described as hunger, so a regional scale is used.",
+        "claim_ids": [
+          "degei-c06"
+        ]
+      },
+      "fear": {
+        "id": "Dewa murka yang menyatakan diri secara mengerikan dan lapar tak terpuaskan menekankan betapa kecil kendali manusia atas panen dan banjir.",
+        "en": "A wrathful god who reveals himself terribly, with insatiable hunger, stresses how little control humans have over harvests and floods.",
+        "claim_ids": [
+          "degei-c06"
         ]
       }
     }
@@ -8715,6 +10955,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "dingonek": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Hewan air bersisik sepanjang 14 hingga 16 kaki dengan taring panjang yang disebut dapat menembus tubuh manusia; tafsir editorial atas laporan pemburu.",
+        "en": "A scaled water beast fourteen to sixteen feet long with long fangs said to go through a man; an editorial reading of hunters' reports.",
+        "claim_ids": [
+          "dingonek-c10",
+          "dingonek-c11",
+          "dingonek-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat serangan atau korban; penduduk justru menganggap kedatangan makhluk air besar sebagai pertanda panen baik, jadi ancaman belum dinilai.",
+        "en": "The research holds no attacks or victims; locals took a great water reptile's coming as a sign of good harvests, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat dampaknya pada manusia selain laporan penampakan; jenis ketakutan belum dinilai.",
+        "en": "The research holds nothing on its effect on people beyond sighting reports; the kind of fear is unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "dionysus": {
     "power": "divine",
     "threat": "t4",
@@ -8780,6 +11046,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "dip-catalan-myth-c01",
           "dip-catalan-myth-c10"
         ]
+      }
+    }
+  },
+  "dirawong": {
+    "power": "regional",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Makhluk leluhur biawak yang bersama Ular Pelangi membentuk bagian Sungai Richmond dan Goanna Headland, dan hanya ia yang cukup kuat mengusir Ular Pelangi.",
+        "en": "An ancestral goanna that with the Rainbow Serpent shaped parts of the Richmond River and Goanna Headland, and the only one strong enough to drive the Rainbow Serpent away.",
+        "claim_ids": [
+          "dirawong-c03",
+          "dirawong-c08",
+          "dirawong-c09"
+        ]
+      },
+      "threat": {
+        "id": "Dirawong digambarkan sebagai pelindung yang baik hati; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "Dirawong is described as a benevolent protector with no destructive deeds, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan Dirawong sebagai pelindung dan pengajar, bukan sumber ketakutan; Fear belum dinilai.",
+        "en": "The research shows Dirawong as protector and teacher rather than a source of fear; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -8996,6 +11288,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "donotsura": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset tidak memuat kemampuan atau kuasa Dōnotsura; gulungan lama hanya memberi nama dan gambar, sehingga Power belum dinilai.",
+        "en": "The research holds no ability or power for Dōnotsura; the old scrolls give only a name and a picture, so power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive acts; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Tubuh tanpa kepala dengan wajah besar di dada menimbulkan rasa janggal yang tidak semestinya, tanpa catatan perburuan.",
+        "en": "A headless body with a huge face on its torso causes an uncanny sense of something out of place, with no hunting recorded.",
+        "claim_ids": [
+          "donotsura-c02",
+          "donotsura-c03",
+          "donotsura-c08"
+        ]
+      }
+    }
+  },
   "dormarch": {
     "power": "superhuman",
     "threat": null,
@@ -9049,6 +11367,62 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat unsur yang menimbulkan rasa takut; Dōsojin dihormati sebagai pelindung, sehingga Fear belum dinilai.",
         "en": "The research holds no element that evokes fear; the Dōsojin are venerated as protectors, so fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "dover-demon": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset tidak memuat kemampuan atau kuasa makhluk ini; Power belum dinilai.",
+        "en": "The research holds no abilities or powers for this being; Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk kecil berkepala besar dengan mata oranye menyala tanpa wajah lain, dilaporkan remaja di jalan malam, terasa ganjil dan tidak semestinya.",
+        "en": "A small big-headed creature with glowing orange eyes and no other facial features, reported by teenagers on night roads, feels uncanny and out of place.",
+        "claim_ids": [
+          "dover-demon-c06",
+          "dover-demon-c15"
+        ]
+      }
+    }
+  },
+  "doydu": {
+    "power": "regional",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ikan raksasa bawah tanah yang gerakan kepala dan tubuhnya memicu gempa dan badai menunjukkan pengaruh pada wilayah luas; versi utama adalah ikan maut kosmogoni Turki dan Altai.",
+        "en": "A giant subterranean fish whose head and body movements trigger earthquakes and storms shows influence over a broad region; the main version is the death fish of Turkic and Altay cosmogony.",
+        "claim_ids": [
+          "doydu-c03",
+          "doydu-c04"
+        ]
+      },
+      "threat": {
+        "id": "Gempa dan badai yang timbul bila ia bergerak ditafsirkan mengancam wilayah luas; ia terikat rantai dan riset tidak menyebut serangan sengaja.",
+        "en": "Earthquakes and storms when it moves are interpreted as threatening a broad region; it is chained and the research mentions no deliberate attack.",
+        "claim_ids": [
+          "doydu-c04",
+          "doydu-c06"
+        ]
+      },
+      "fear": {
+        "id": "Ikan maut raksasa berwujud ganjil di laut bawah tanah berada di luar hukum alam.",
+        "en": "A giant death fish of strange anatomy in a subterranean sea lies beyond natural law.",
+        "claim_ids": [
+          "doydu-c01",
+          "doydu-c03"
+        ]
       }
     }
   },
@@ -9139,6 +11513,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "A dragon that preys on farmers and livestock near the village evokes the fear of being hunted; it spared Maud.",
         "claim_ids": [
           "dragon-of-mordiford-c03"
+        ]
+      }
+    }
+  },
+  "dragons-in-greek-mythology": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Drakōn raksasa seperti ular seratus kepala Ladon dan naga Kolkhis yang melampaui panjang kapal berdayung lima puluh, dengan ludah atau napas beracun, setara monster besar; dinilai sebagai kategori umum, bukan satu naga.",
+        "en": "Giant drakōn such as the hundred-headed Ladon and the Colchian dragon exceeding a fifty-oared ship, with poisonous spit or breath, match great monsters; this assesses the general category, not one dragon.",
+        "claim_ids": [
+          "dragons-in-greek-mythology-c04",
+          "dragons-in-greek-mythology-c06",
+          "dragons-in-greek-mythology-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset mencatat naga sebagai penjaga yang dikalahkan pahlawan, bukan perbuatan merusak terhadap manusia; ancaman belum dinilai.",
+        "en": "The research records dragons as guardians defeated by heroes, not destructive deeds against people; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Ular besar pencekik dengan rahang yang lapar menimbulkan ketakutan menjadi mangsa.",
+        "en": "Large constricting serpents with ravenous jaws evoke the fear of becoming prey.",
+        "claim_ids": [
+          "dragons-in-greek-mythology-c03",
+          "dragons-in-greek-mythology-c08"
         ]
       }
     }
@@ -9318,6 +11721,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Drudwyn; Fear belum dinilai.",
         "en": "The research does not describe any fear Drudwyn inspires; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "druk": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Druk adalah naga petir; kisah pendirian Ralung mengaitkan badai dan guntur dengan raungannya. Riset belum memuat kuasa atas ranah, sehingga dinilai superhuman.",
+        "en": "Druk is the thunder dragon, and the Ralung foundation story links storm and thunder to its roar. The research gives no authority over a domain, so it is rated superhuman.",
+        "claim_ids": [
+          "druk-c01",
+          "druk-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan Druk sebagai lambang bangsa dan garis perguruan, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows Druk as a national and lineage emblem without destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; Druk hadir sebagai lambang dan nama negeri, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; Druk appears as an emblem and the name of a country, so fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -9583,6 +12011,56 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "dwarf-folklore-c07",
           "dwarf-folklore-c20"
         ]
+      }
+    }
+  },
+  "dyrnwch": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Raksasa pemilik kuali ajaib yang membedakan orang baik dari orang jahat melampaui kemampuan manusia biasa, tetapi tanpa kuasa atas ranah tertentu.",
+        "en": "A giant owning a magic cauldron that tells good people from bad exceeds ordinary humans, though he holds no domain of his own.",
+        "claim_ids": [
+          "dyrnwch-c01",
+          "dyrnwch-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat Dyrnwch menolak menyerahkan kuali lalu dibunuh; tidak ada perbuatan merusak darinya, ancaman belum dinilai.",
+        "en": "The research only records that Dyrnwch refuses to hand over the cauldron and is then killed; no destructive deeds by him, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Dyrnwch; Fear belum dinilai.",
+        "en": "The research does not describe the fear Dyrnwch provokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "dyrnwch-gawr": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Raksasa Wales pemilik kuali ajaib yang tidak merebus daging pengecut melampaui manusia biasa; versi utama yang dipakai adalah Pair Dyrnwch Gawr.",
+        "en": "A Welsh giant owning a magic cauldron that will not boil a coward's meat exceeds ordinary humans; the main version used is the Pair Dyrnwch Gawr.",
+        "claim_ids": [
+          "dyrnwch-gawr-c01",
+          "dyrnwch-gawr-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Dyrnwch Gawr; hanya kualitas kualinya yang dicatat, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Dyrnwch Gawr; only the quality of his cauldron is recorded, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Dyrnwch Gawr; Fear belum dinilai.",
+        "en": "The research does not describe the fear Dyrnwch Gawr provokes; Fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -9921,6 +12399,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "el-silbon": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Jiwa tersesat yang siulannya meramalkan kematian dan yang dapat tampil sebagai raksasa sekitar enam meter melampaui kemampuan manusia.",
+        "en": "A lost soul whose whistle foretells death and who may appear as a giant of about six meters exceeds human ability.",
+        "claim_ids": [
+          "el-silbon-c02",
+          "el-silbon-c09",
+          "el-silbon-c12"
+        ]
+      },
+      "threat": {
+        "id": "Ia menghisap alkohol dari pemabuk dan mencabik pria hidung belang, sehingga ancaman ditafsirkan pada korban individu.",
+        "en": "It drains alcohol from drunkards and tears womanizers apart, so the threat is interpreted at individual victims.",
+        "claim_ids": [
+          "el-silbon-c10",
+          "el-silbon-c11"
+        ]
+      },
+      "fear": {
+        "id": "Siulan yang meramalkan kematian dan hantu yang tak dapat dihentikan selain oleh anjing, cabai, atau cambuk bersifat supernatural; legenda juga berfungsi sebagai peringatan moral.",
+        "en": "A death-foretelling whistle and a ghost stopped only by a dog, a chili, or a whip are supernatural; the legend also serves as a moral warning.",
+        "claim_ids": [
+          "el-silbon-c08",
+          "el-silbon-c09",
+          "el-silbon-c03"
+        ]
+      }
+    }
+  },
   "el-sombreron": {
     "power": "superhuman",
     "threat": "t1",
@@ -10094,6 +12605,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "emela-ntouka": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Hewan sebesar gajah bertanduk yang menurut cerita membunuh hewan besar dengan tanduknya; ini tafsir editorial atas klaim tradisi kriptid.",
+        "en": "An elephant-sized, horned animal said to kill large animals with its horn; this is an editorial reading of traditional cryptid claims.",
+        "claim_ids": [
+          "emela-ntouka-c05",
+          "emela-ntouka-c13"
+        ]
+      },
+      "threat": {
+        "id": "Ia menyerang gajah, badak, dan kuda nil, namanya berarti pembunuh gajah; riset tidak mencatat korban manusia, sehingga hanya dinilai pada skala individu sebagai potensi.",
+        "en": "It attacks elephants, rhinoceroses, and hippopotamuses and its name means elephant killer; the research records no human victims, so it is rated only at an individual-scale potential.",
+        "claim_ids": [
+          "emela-ntouka-c03",
+          "emela-ntouka-c13",
+          "emela-ntouka-c16"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak memuat perjumpaan atau dampaknya pada manusia; jenis ketakutan belum dinilai.",
+        "en": "The research holds no human encounters or their effect on people; the kind of fear is unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "enbarr": {
     "power": "superhuman",
     "threat": null,
@@ -10176,6 +12716,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "engkanto": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh lingkungan yang dapat menampakkan diri sebagai manusia, menyerupai kerabat, dan menjatuhkan kutukan penyakit melampaui manusia biasa.",
+        "en": "Environmental spirits that can appear as humans, take the likeness of relatives, and inflict curse-borne illness exceed ordinary humans.",
+        "claim_ids": [
+          "engkanto-c01",
+          "engkanto-c29",
+          "engkanto-c31"
+        ]
+      },
+      "threat": {
+        "id": "Mereka dikisahkan menyesatkan dan menculik pengelana serta membuat orang sakit atau hilang, sehingga ancaman ditafsirkan pada skala individu; engkanto bisa baik atau buruk.",
+        "en": "They are said to mislead and kidnap travelers and to make people ill or vanish, so the threat is interpreted at an individual scale; engkanto may be good or bad.",
+        "claim_ids": [
+          "engkanto-c10",
+          "engkanto-c05",
+          "engkanto-c12"
+        ]
+      },
+      "fear": {
+        "id": "Roh tak kasatmata yang dapat menampar atau memukul, menyamar sebagai orang dikenal, dan menimbulkan gila atau hilang berada di luar hukum alam.",
+        "en": "Invisible spirits that can slap or strike, pose as familiar people, and cause madness or disappearance lie beyond natural law.",
+        "claim_ids": [
+          "engkanto-c05",
+          "engkanto-c29",
+          "engkanto-c32"
+        ]
+      }
+    }
+  },
   "enki": {
     "power": "cosmic",
     "threat": "t4",
@@ -10208,6 +12782,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "enki-c25",
           "enki-c27",
           "enki-c30"
+        ]
+      }
+    }
+  },
+  "enko": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Lengan yang dapat memanjang tanpa habis dan penyamaran sebagai perempuan atau boneka melampaui kemampuan manusia.",
+        "en": "Arms that stretch without end and disguises as women or dolls exceed human ability.",
+        "claim_ids": [
+          "enko-c04",
+          "enko-c06",
+          "enko-c10"
+        ]
+      },
+      "threat": {
+        "id": "Ia disebut menyerang perenang dengan menarik hati lewat anus serta menyerang sapi dan kuda; korbannya perorangan.",
+        "en": "It is said to attack swimmers by pulling out the liver through the anus and to attack cows and horses; its victims are individual.",
+        "claim_ids": [
+          "enko-c03",
+          "enko-c13"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk air yang menyerang perenang dan mengambil hati hidup-hidup menimbulkan rasa takut dimangsa.",
+        "en": "A water creature that attacks swimmers and pulls out the living liver evokes the fear of becoming prey.",
+        "claim_ids": [
+          "enko-c03"
         ]
       }
     }
@@ -10287,6 +12892,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat unsur yang menimbulkan rasa takut pada Eos; kisahnya berpusat pada fajar, keluarga, dan kesedihan atas Memnon, sehingga Fear belum dinilai.",
         "en": "The research holds nothing that evokes fear in Eos; her accounts center on dawn, family, and grief over Memnon, so fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "erawan": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Devatā gajah tunggangan Indra yang berubah menjadi gajah putih raksasa bermahkota 33 kepala; dinilai hormat sebagai tafsir editorial atas tradisi Thai dan Hindu-Buddha.",
+        "en": "The devatā elephant mount of Indra transforms into a giant white elephant of 33 heads; assessed respectfully as an editorial reading of the Thai and Hindu-Buddhist tradition.",
+        "claim_ids": [
+          "erawan-c03",
+          "erawan-c04",
+          "erawan-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkan tunggangan Indra dan motif hiasan; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The research describes Indra’s mount and an ornamental motif; no destructive deeds, so threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perubahan devatā menjadi gajah sebesar gunung berkepala banyak melampaui hukum alam; peran tunggangan bukan predator.",
+        "en": "A devatā transforming into a mountain-sized, many-headed elephant exceeds natural law; its role is a mount, not a predator.",
+        "claim_ids": [
+          "erawan-c02",
+          "erawan-c05"
+        ]
       }
     }
   },
@@ -10494,6 +13128,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari elang ini; Fear belum dinilai.",
         "en": "The research holds nothing that inspires fear in this eagle; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "ethiopian-pegasus": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda bersayap dan bertanduk yang disebut Pliny sebagai salah satu keajaiban Etiopia; kemampuan terbang itu melampaui kuda biasa, tetapi riset hanya memuat wujudnya.",
+        "en": "A winged, horned horse that Pliny lists among Ethiopia’s monstrosities; flight exceeds an ordinary horse, but the research holds only its form.",
+        "claim_ids": [
+          "ethiopian-pegasus-c04",
+          "ethiopian-pegasus-c01"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat wujud dan asal-usulnya, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds only its form and origin, without destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; jenis ketakutannya belum dinilai.",
+        "en": "The research holds nothing frightening; its kind of fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -10915,6 +13574,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "feilong": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga terbang yang menunggangi awan; namun sumber juga menyebutnya setara cacing bila awan hilang.",
+        "en": "A flying dragon that rides the clouds; sources also say it equals an earthworm once the clouds vanish.",
+        "claim_ids": [
+          "feilong-c01",
+          "feilong-c05",
+          "feilong-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggunakan naga terbang sebagai citra orang agung, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research uses the flying dragon as an image of a great person, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "feldgeister": {
     "power": "superhuman",
     "threat": "t1",
@@ -11241,6 +13926,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "firedrakes-in-english-folklore": {
+    "power": null,
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya menjelaskan firedrake sebagai penampakan bola api dan arti katanya; tidak ada kemampuan atau kuasa yang diuraikan, sehingga kekuatan belum dinilai.",
+        "en": "The research only explains the firedrake as a fireball sighting and a word; no ability or authority is described, so power is unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak firedrake; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds of the firedrake; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Bola api di langit yang dianggap Iblis berwujud naga adalah penampakan di luar penjelasan alam menurut kepercayaan.",
+        "en": "Fireballs in the sky thought to be the Devil in dragon form are sightings beyond natural explanation in belief.",
+        "claim_ids": [
+          "firedrakes-in-english-folklore-c01",
+          "firedrakes-in-english-folklore-c02"
+        ]
+      }
+    }
+  },
   "firefox-mythology": {
     "power": "superhuman",
     "threat": null,
@@ -11294,6 +14004,64 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "fisher-s-ghost": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Arwah korban pembunuhan yang menampakkan diri di jembatan dan menunjuk lokasi jasadnya; riset menambahkan bahwa kisahnya mungkin karangan, jadi ini penilaian tentang versi legendanya.",
+        "en": "The ghost of a murder victim appears on a bridge and points to where his body lay; the research adds the tale may be invented, so this rates the legend version.",
+        "claim_ids": [
+          "fisher-s-ghost-c06",
+          "fisher-s-ghost-c07",
+          "fisher-s-ghost-c10"
+        ]
+      },
+      "threat": {
+        "id": "Hantu ini hanya menunjuk tempat jasadnya dan tidak digambarkan menyakiti siapa pun; ancaman belum dinilai.",
+        "en": "The ghost only points to the place of his body and is not described harming anyone; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penampakan diam di pagar jembatan yang membuat saksi gelisah adalah kehadiran gaib di luar hukum alam.",
+        "en": "A silent apparition on a bridge rail that leaves its witness agitated is a supernatural presence beyond natural law.",
+        "claim_ids": [
+          "fisher-s-ghost-c06",
+          "fisher-s-ghost-c07"
+        ]
+      }
+    }
+  },
+  "fjalar-q11969058": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kurcaci yang membunuh Kvasir yang bijak dan meracik mead puisi dari darahnya melampaui kemampuan manusia.",
+        "en": "A dwarf who killed the wise Kvasir and brewed the mead of poetry from his blood exceeds human ability.",
+        "claim_ids": [
+          "fjalar-q11969058-c04",
+          "fjalar-q11969058-c05"
+        ]
+      },
+      "threat": {
+        "id": "Ia dan Galar membunuh Kvasir, Gillingr, dan istrinya lewat tipu daya satu per satu, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "He and Galar killed Kvasir, Gillingr, and his wife by guile one at a time, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "fjalar-q11969058-c04",
+          "fjalar-q11969058-c07",
+          "fjalar-q11969058-c08"
+        ]
+      },
+      "fear": {
+        "id": "Riset menekankan tipu daya dan pembunuhan, bukan jenis rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research stresses deceit and killings, not the kind of fear he causes; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "flaming-teeth": {
     "power": "monstrous",
     "threat": "t3",
@@ -11320,6 +14088,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "A giant that eats villagers evokes the fear of being eaten.",
         "claim_ids": [
           "flaming-teeth-c02"
+        ]
+      }
+    }
+  },
+  "flathead-lake-monster": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk danau bertubuh mirip belut sepanjang sekitar dua puluh hingga empat puluh kaki dengan kepala bertanduk besar menunjukkan kekuatan monster; tafsir ikan sturgeon tidak dinilai.",
+        "en": "A lake creature with an eel-like body about twenty to forty feet long and a giant-antlered head shows monstrous power; the sturgeon interpretation is not assessed.",
+        "claim_ids": [
+          "flathead-lake-monster-c03",
+          "flathead-lake-monster-c07"
+        ]
+      },
+      "threat": {
+        "id": "Dalam legenda Kutenai separuh suku tenggelam ketika monster menembus es, ditafsirkan sebagai ancaman skala permukiman; laporan modern tidak mencatat korban dan satu versi menyebutnya ramah.",
+        "en": "In the Kutenai legend half the tribe drowned when the monster rose through the ice, interpreted as a settlement-scale threat; modern reports record no victims and one version calls it friendly.",
+        "claim_ids": [
+          "flathead-lake-monster-c03",
+          "flathead-lake-monster-c04"
+        ]
+      },
+      "fear": {
+        "id": "Kepala bertanduk raksasa yang menembus es beku dan menenggelamkan separuh suku melampaui hukum alam.",
+        "en": "A giant-antlered head rising through frozen ice and drowning half a tribe exceeds natural law.",
+        "claim_ids": [
+          "flathead-lake-monster-c03",
+          "flathead-lake-monster-c04"
         ]
       }
     }
@@ -11595,6 +14394,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "freybug-c01",
           "freybug-c02",
           "freybug-c05"
+        ]
+      }
+    }
+  },
+  "freyja": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi Vanir yang menguasai seiðr, menerima separuh prajurit gugur di Fólkvangr, dan dikenal sebagai dewi cinta, kesuburan, dan kekayaan; kuasa atas ranah itu menjadi dasar Divine.",
+        "en": "A Vanir goddess who masters seiðr, receives half the battle dead in Fólkvangr, and is a goddess of love, fertility, and wealth; authority over these domains supports Divine.",
+        "claim_ids": [
+          "freyja-c03",
+          "freyja-c06",
+          "freyja-c20",
+          "freyja-c34"
+        ]
+      },
+      "threat": {
+        "id": "Atas permintaan Odin ia merapal sihir yang memaksa dua raja bertempur abadi, dasar tafsir potensi pada skala kelompok; perannya yang utama bukan perusak dan tindakan itu dilakukan karena tuntutan.",
+        "en": "At Odin’s demand she cast a spell forcing two mighty kings into an eternal battle, supporting a group-scale reading; her primary role is not destructive and the act was done under demand.",
+        "claim_ids": [
+          "freyja-c15"
+        ]
+      },
+      "fear": {
+        "id": "Seiðr, sihir peramal yang bahkan diajarkan kepada Odin, dan pemilihan separuh prajurit gugur menempatkan Freyja di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "Seiðr, a foresight magic she even taught to Odin, and her claim on half the slain place Freyja beyond natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "freyja-c03",
+          "freyja-c04",
+          "freyja-c06"
         ]
       }
     }
@@ -11931,6 +14763,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "galeru": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ular pelangi yang menjadi penyelamat, penopang, dan pemberi hukum perkawinan, serta sumber kerang mutiara; versi Kimberley timur laut dari Kaberry.",
+        "en": "A rainbow serpent who is life saver, sustainer, lawgiver of marriage rules, and source of pearl shells; the northeastern Kimberley account from Kaberry.",
+        "claim_ids": [
+          "galeru-c07",
+          "galeru-c08",
+          "galeru-c09"
+        ]
+      },
+      "threat": {
+        "id": "Dalam tradisi Arnhem Land ia menelan Djanggawul; riset tidak memuat perbuatan yang lebih luas, sehingga dinilai pada skala perorangan.",
+        "en": "An Arnhem Land tradition has him swallow the Djanggawul; the research holds no wider deed, so a personal scale is used.",
+        "claim_ids": [
+          "galeru-c05"
+        ]
+      },
+      "fear": {
+        "id": "Ular pelangi yang menelan makhluk leluhur dan mimpi tentang kerang mutiaranya yang berbahaya menempatkannya di luar hukum alam.",
+        "en": "A rainbow serpent that swallowed ancestral beings, with dangerous dreams of its pearl shells, places it beyond natural law.",
+        "claim_ids": [
+          "galeru-c05",
+          "galeru-c09"
+        ]
+      }
+    }
+  },
   "gallinipper-mythology": {
     "power": "monstrous",
     "threat": "t1",
@@ -11955,6 +14818,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menyajikannya sebagai dongeng lucu yang diangkat ke pertunjukan minstrel dan lagu blues, bukan kisah horor; jenis ketakutannya belum dinilai.",
         "en": "The research presents it as a comic tall tale taken into minstrel shows and blues songs, not a horror story; the kind of fear is left unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "galloway-puma": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat laporan penampakan kucing besar; tidak ada kemampuan gaib yang terdokumentasi, sehingga kekuatan belum dinilai.",
+        "en": "The research holds only big-cat sighting reports; no supernatural ability is documented, so power is unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Laporan menyebut kucing yang kabur saat anjing menggonggong dan tidak ada serangan; ancaman belum dinilai.",
+        "en": "Reports describe a cat that fled when a dog barked and record no attacks; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Kucing hitam misterius yang muncul sesekali di hutan terasa ganjil, tanpa catatan perburuan manusia.",
+        "en": "A mysterious black cat occasionally seen in the forest is uncanny, with no recorded hunting of people.",
+        "claim_ids": [
+          "galloway-puma-c01",
+          "galloway-puma-c04"
+        ]
       }
     }
   },
@@ -12188,6 +15076,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "gangi-kozo": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat rupa seperti kappa berbulu, gigi bergerigi, dan kebiasaan memancing; kemampuan tidak tercatat sehingga Power belum dinilai.",
+        "en": "The research gives only its hairy kappa-like look, serrated teeth, and fishing habit; no abilities are recorded, so power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Ia disebut umumnya menghindari manusia dan tidak ada perbuatan merusak yang tercatat; ancaman belum dinilai.",
+        "en": "It is said to generally avoid people and no destructive acts are recorded; threat remains unassessed.",
+        "claim_ids": [
+          "gangi-kozo-c06"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk berbulu bergigi gergaji di tepi sungai yang membuat pedagang ikan melempar ikan lalu lari menimbulkan rasa janggal, bukan perburuan.",
+        "en": "A hairy, saw-toothed creature on the riverbank that makes a fishmonger throw fish and flee evokes unease rather than hunting.",
+        "claim_ids": [
+          "gangi-kozo-c03",
+          "gangi-kozo-c09"
+        ]
+      }
+    }
+  },
   "ganipota": {
     "power": "superhuman",
     "threat": "t1",
@@ -12252,6 +15167,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "gatipedro": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Kucing putih bertanduk yang menuang air dari tanduknya hingga anak bermimpi buang air kecil adalah kemampuan gaib di luar kemampuan manusia.",
+        "en": "A white horned cat that pours water from its horn so a child dreams of urinating is a supernatural ability beyond human reach.",
+        "claim_ids": [
+          "gatipedro-c03"
+        ]
+      },
+      "threat": {
+        "id": "Ia masuk kamar anak pada malam hari dan membuat mereka mengompol, jadi ancaman ditafsirkan pada individu dan sebatas gangguan.",
+        "en": "It enters children’s rooms at night and makes them wet the bed, so the threat is interpreted at the individual level and limited to a nuisance.",
+        "claim_ids": [
+          "gatipedro-c03"
+        ]
+      },
+      "fear": {
+        "id": "Kucing bertanduk yang menyelinap ke kamar anak saat malam terasa ganjil dan mengusik, tanpa catatan memangsa.",
+        "en": "A horned cat slipping into children’s rooms at night feels uncanny and unsettling, with no record of preying.",
+        "claim_ids": [
+          "gatipedro-c01",
+          "gatipedro-c03"
+        ]
+      }
+    }
+  },
   "gaueko": {
     "power": "divine",
     "threat": "t2",
@@ -12279,6 +15223,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "gaueko-c03",
           "gaueko-c08"
+        ]
+      }
+    }
+  },
+  "gazeka": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memerikan rupa dan ukuran hewan mirip babi; kemampuan gaib belum dinilai.",
+        "en": "The research only describes the appearance and size of a pig-like animal; no supernatural ability is assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk ganjil bermoncong panjang yang dikira iblis berwujud babi membuat saksi ketakutan; Fear dinilai pada tingkat ganjil.",
+        "en": "A strange long-snouted creature mistaken for a demon in pig form frightened the witness; Fear is rated at the unsettling level.",
+        "claim_ids": [
+          "gazeka-c05",
+          "gazeka-c06"
         ]
       }
     }
@@ -12430,6 +15399,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "ghoul-c07",
           "ghoul-c13",
           "ghoul-c14"
+        ]
+      }
+    }
+  },
+  "giant-frog": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Katak raksasa sepanjang sekitar 2,4 meter yang napas mirip pelanginya menarik burung dan serangga ke mulutnya melampaui hewan biasa.",
+        "en": "A giant toad roughly 2.4 metres long whose rainbow-like breath draws birds and insects into its mouth exceeds ordinary animals.",
+        "claim_ids": [
+          "giant-frog-c03",
+          "giant-frog-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat mangsa burung, serangga, dan ular, bukan perbuatan merusak terhadap manusia; ancaman belum dinilai.",
+        "en": "The research records only birds, insects, and snakes as prey, not destructive deeds against people; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Batu yang ternyata katak raksasa dengan mata merah menyala lalu lenyap menimbulkan rasa ganjil, bukan perburuan terhadap manusia.",
+        "en": "A rock revealed as a giant toad with fire-red eyes that then vanishes evokes uncanny unease, not a hunt for people.",
+        "claim_ids": [
+          "giant-frog-c07"
         ]
       }
     }
@@ -12764,6 +15760,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "gogfran-gawr": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Berstatus raksasa dalam tradisi Wales sehingga melampaui manusia biasa; riset tidak merinci kekuatan atau perbuatannya sendiri, jadi tingkat ini bersifat hati-hati.",
+        "en": "He is a giant in Welsh tradition and so exceeds ordinary humans; the research details no powers or deeds of his own, so this tier is cautious.",
+        "claim_ids": [
+          "gogfran-gawr-c01",
+          "gogfran-gawr-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Gogfran Gawr; raksasa yang menahan saudara Gwenhwyfar adalah tokoh lain, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Gogfran Gawr; the giants imprisoning Gwenhwyfar's brothers are other figures, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Gogfran Gawr; Fear belum dinilai.",
+        "en": "The research does not describe the fear Gogfran Gawr provokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "gogmagog": {
     "power": "monstrous",
     "threat": "t1",
@@ -13064,6 +16085,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "greif": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Makhluk campuran pelindung yang menolak iblis dan kejahatan serta berfungsi sebagai mata surya pelindung; kemampuan ini melampaui hewan biasa.",
+        "en": "A hybrid guardian that averts demons and evil and can act as a protective solar eye, abilities beyond an ordinary animal.",
+        "claim_ids": [
+          "greif-c02",
+          "greif-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya menunjukkan penggambaran memangsa herbivora dan fungsi pelindung; tidak ada dampak pada manusia, sehingga ancaman belum dinilai.",
+        "en": "The research shows only depictions preying on herbivores and a protective function, with no effect on people, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat rasa takut yang ditimbulkannya pada manusia; Fear belum dinilai.",
+        "en": "The research holds no fear it inspires in people; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "gremlin": {
     "power": "superhuman",
     "threat": "t2",
@@ -13211,6 +16257,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "grootslang": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Ular raksasa sepanjang sekitar 40 kaki yang konon memangsa gajah; sebagian kisah menyebutnya lebih tua dari dunia, tetapi dinilai pada saksi yang tercatat.",
+        "en": "A giant serpent about forty feet long said to devour elephants; some tales call it older than the world, but the rating rests on the recorded witness accounts.",
+        "claim_ids": [
+          "grootslang-c17",
+          "grootslang-c22",
+          "grootslang-c04"
+        ]
+      },
+      "threat": {
+        "id": "Ia konon mengambil ternak, memangsa gajah, dan dirumorkan membunuh seorang pencari harta pada 1917, jadi ancaman ditafsirkan pada individu.",
+        "en": "It is said to take cattle, devour elephants, and was rumoured to have killed a treasure hunter in 1917, so the threat is read at the individual scale.",
+        "claim_ids": [
+          "grootslang-c12",
+          "grootslang-c22",
+          "grootslang-c06"
+        ]
+      },
+      "fear": {
+        "id": "Penduduk sangat takut kepadanya dan enggan memandu ke guanya, yang menunjukkan rasa takut menjadi mangsa pemangsa besar.",
+        "en": "Local people fear it greatly and are reluctant to guide expeditions to its cave, showing the fear of becoming prey to a great predator.",
+        "claim_ids": [
+          "grootslang-c12",
+          "grootslang-c14",
+          "grootslang-c22"
+        ]
+      }
+    }
+  },
   "guajona": {
     "power": "superhuman",
     "threat": "t1",
@@ -13239,6 +16319,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "guajona-c03",
           "guajona-c05",
           "guajona-c06"
+        ]
+      }
+    }
+  },
+  "guhuoniao": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung golongan arwah yang berubah menjadi wanita dengan menanggalkan bulu dan dapat mengambil jiwa orang.",
+        "en": "A spirit-class bird that becomes a woman by shedding its feathers and can take away people’s souls.",
+        "claim_ids": [
+          "guhuoniao-c04",
+          "guhuoniao-c06"
+        ]
+      },
+      "threat": {
+        "id": "Menandai pakaian anak dengan darah hingga anak sakit dan menculik bayi; korban berpusat pada anak-anak individu.",
+        "en": "It marks children’s clothing with blood so they fall ill and takes infants; victims are individual children.",
+        "claim_ids": [
+          "guhuoniao-c05",
+          "guhuoniao-c07",
+          "guhuoniao-c09"
+        ]
+      },
+      "fear": {
+        "id": "Arwah perempuan yang meninggal saat melahirkan dan berubah menjadi burung malam melampaui hukum alam.",
+        "en": "The spirit of a woman who died in childbirth turned into a night bird exceeds natural law.",
+        "claim_ids": [
+          "guhuoniao-c06",
+          "guhuoniao-c08",
+          "guhuoniao-c09"
         ]
       }
     }
@@ -13297,6 +16410,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan lambang kerakusan, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a symbol of gluttony, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "gulyabani": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh pengubah wujud berbulu besar yang menantang lelaki kuat bergulat melampaui manusia biasa; ia disebut roh jahat tingkat rendah.",
+        "en": "A large hairy shapeshifting spirit that challenges strong men to wrestle exceeds ordinary humans; it is called a lesser evil spirit.",
+        "claim_ids": [
+          "gulyabani-c01",
+          "gulyabani-c09"
+        ]
+      },
+      "threat": {
+        "id": "Ia gemar menakuti pelancong malam dan menantang bergulat, sehingga ancamannya ditafsirkan pada individu.",
+        "en": "It loves to frighten night travelers and challenges them to wrestle, so the threat is interpreted at the individual level.",
+        "claim_ids": [
+          "gulyabani-c02",
+          "gulyabani-c09"
+        ]
+      },
+      "fear": {
+        "id": "Roh gurun dan kuburan berbau tajam dengan kaki terbalik serta wujud berganti berada di luar hukum alam.",
+        "en": "A steppe and cemetery spirit with a sharp smell, backward feet, and changing forms lies beyond natural law.",
+        "claim_ids": [
+          "gulyabani-c02",
+          "gulyabani-c07"
+        ]
       }
     }
   },
@@ -13443,6 +16587,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "gwyllion-c01",
           "gwyllion-c04",
           "gwyllion-c05"
+        ]
+      }
+    }
+  },
+  "h-rt-k": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Jin sungai berwujud manusia dan hewan yang meniru rupa orang tertentu serta menunggangi kuda hingga lelah melampaui kemampuan manusia.",
+        "en": "A river jinn, human and animal in form, that imitates particular people and rides horses to exhaustion exceeds human ability.",
+        "claim_ids": [
+          "h-rt-k-c03",
+          "h-rt-k-c05"
+        ]
+      },
+      "threat": {
+        "id": "Korban yang dibujuk ke hutan atau tepi sungai lalu ditenggelamkan dan dibunuh satu per satu; ancaman ditafsirkan pada individu.",
+        "en": "Victims lured to a forest or riverbank are drowned and killed one by one; the threat is interpreted at the individual scale.",
+        "claim_ids": [
+          "h-rt-k-c03",
+          "h-rt-k-c07"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang mencekik lalu memakan korbannya, memikat dengan menyamar sebagai kenalan, menimbulkan rasa takut menjadi mangsa.",
+        "en": "A creature that strangles and eats its victims, luring them in the guise of acquaintances, evokes the fear of becoming prey.",
+        "claim_ids": [
+          "h-rt-k-c03",
+          "h-rt-k-c07"
         ]
       }
     }
@@ -13596,6 +16771,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "hag-c06",
           "hag-c07"
+        ]
+      }
+    }
+  },
+  "hakawai-mythology": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung tapu milik dewa angin yang turun dari langit saat malam, dapat menghilang, dan keturunan Tangaroa dan Rehua; riset tidak memuat kuasa atas suatu ranah.",
+        "en": "A tapu bird of the wind god that descends from the heavens at night, can turn invisible, and descends from Tangaroa and Rehua; the research records no authority over a domain.",
+        "claim_ids": [
+          "hakawai-mythology-c02",
+          "hakawai-mythology-c08",
+          "hakawai-mythology-c06"
+        ]
+      },
+      "threat": {
+        "id": "Mendengar hakawai dianggap pertanda perang, tetapi pertanda bukan bukti perbuatan merusak; ancaman belum dinilai.",
+        "en": "Hearing the hakawai was an omen of war, but an omen is not evidence of destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Seruan dan raungan dari ketinggian oleh burung langit yang tak terlihat berada di luar hukum alam; ada tafsir ilmiah bahwa suara itu berasal dari burung biasa.",
+        "en": "A call and roar from a sky bird that is rarely seen lies beyond natural law; scholars also propose it was an ordinary bird.",
+        "claim_ids": [
+          "hakawai-mythology-c05",
+          "hakawai-mythology-c07",
+          "hakawai-mythology-c11"
         ]
       }
     }
@@ -13828,6 +17033,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hasshaku-sama": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Hantu wanita raksasa setinggi sekitar 240 cm yang dapat meniru suara kenalan dan membunuh targetnya dalam beberapa hari melampaui manusia; ini legenda urban modern.",
+        "en": "A giant woman-ghost about 240 cm tall who can imitate an acquaintance’s voice and kills her target within days exceeds humans; this is a modern urban legend.",
+        "claim_ids": [
+          "hasshaku-sama-c11",
+          "hasshaku-sama-c06",
+          "hasshaku-sama-c05"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikisahkan membunuh targetnya dalam beberapa hari, terutama anak-anak, sehingga ancaman ditafsirkan pada korban individu.",
+        "en": "She is said to kill her target within days, especially children, so the threat is interpreted at the level of individual victims.",
+        "claim_ids": [
+          "hasshaku-sama-c05"
+        ]
+      },
+      "fear": {
+        "id": "Tawa \"po po po\" yang aneh dan tiruan suara orang dikenal menjadi dasar kengerian supernatural.",
+        "en": "The eerie \"po po po\" laugh and imitation of a familiar voice support supernatural horror.",
+        "claim_ids": [
+          "hasshaku-sama-c05",
+          "hasshaku-sama-c06"
+        ]
+      }
+    }
+  },
   "hathor": {
     "power": "cosmic",
     "threat": "t6",
@@ -13859,6 +17095,57 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "hathor-c23",
           "hathor-c25"
         ]
+      }
+    }
+  },
+  "hatmehit": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi ikan Delta Nil yang dipuja di Mendes dan menjadi bagian triad Mendes, dengan julukan penguasa wewangian.",
+        "en": "A Nile Delta fish goddess worshipped at Mendes and part of the Mendes triad, with epithets connected to scent.",
+        "claim_ids": [
+          "hatmehit-c01",
+          "hatmehit-c08",
+          "hatmehit-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research holds no fear she inspires; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "hatsadiling": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung berukuran rumah dengan kekuatan lima gajah tergolong monster besar; riset tidak menyebut kuasa atas suatu ranah.",
+        "en": "A house-sized bird with the strength of five elephants fits a great monster; the research names no domain of authority.",
+        "claim_ids": [
+          "hatsadiling-c06",
+          "hatsadiling-c07"
+        ]
+      },
+      "threat": {
+        "id": "Teks Buddhis hanya mencatat burung ini membawa pergi orang karena mengira mereka korban, tanpa niat mencelakai; ancaman belum dinilai.",
+        "en": "Buddhist texts only record the bird carrying people away because it thought they were victims, with no intent of harm; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menekankan peran seni pemakaman dan kekuatannya, bukan rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research stresses its funerary art role and strength, not the fear it causes; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -13918,6 +17205,69 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat gambaran rasa takut yang ia timbulkan; ia lebih dikenang sebagai pendiri biara, sehingga Fear belum dinilai.",
         "en": "The research holds no account of fear he causes; he is remembered mainly as an abbey founder, so Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "headless-horseman": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dalam versi utama dullahan, panggilan namanya membunuh seketika dan sentuhan penunggang tanpa kepala membunuh; kemampuan gaib itu melampaui manusia, tanpa kuasa atas suatu ranah.",
+        "en": "In the main dullahan version, calling a name kills at once and a headless rider's touch kills; these supernatural abilities exceed humans, without authority over a domain.",
+        "claim_ids": [
+          "headless-horseman-c07",
+          "headless-horseman-c11",
+          "headless-horseman-c24"
+        ]
+      },
+      "threat": {
+        "id": "Dullahan membunuh orang yang namanya dipanggil dan penunggang Rhineland membunuh dengan sentuhan, ancaman skala individu; Sleepy Hollow versi Irving sebagian besar tipuan.",
+        "en": "The dullahan kills the person whose name he calls and Rhineland riders kill by touch, an individual-scale threat; Irving's Sleepy Hollow version is largely a prank.",
+        "claim_ids": [
+          "headless-horseman-c07",
+          "headless-horseman-c11",
+          "headless-horseman-c24"
+        ]
+      },
+      "fear": {
+        "id": "Penunggang tanpa kepala, peri iblis, dan pertanda kematian keluarga berada di luar hukum alam; versi Sleepy Hollow menambahkan hantu prajurit Hessian.",
+        "en": "A headless rider, demonic fairy, and omen of family death exceed natural law; the Sleepy Hollow version adds the ghost of a Hessian trooper.",
+        "claim_ids": [
+          "headless-horseman-c06",
+          "headless-horseman-c10",
+          "headless-horseman-c19"
+        ]
+      }
+    }
+  },
+  "headless-nun": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Arwah yang terus bergentayangan mencari kepalanya dan menjaga harta karun setelah mati melampaui kemampuan manusia; riset tidak memuat kekuatan lain.",
+        "en": "A spirit that keeps roaming in search of its head and guarding treasure after death exceeds human ability; the research gives no other powers.",
+        "claim_ids": [
+          "headless-nun-c05",
+          "headless-nun-c10"
+        ]
+      },
+      "threat": {
+        "id": "Ia digambarkan sebagai korban pembunuhan yang berkeliaran, bukan pelaku; riset tidak memuat perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "She is portrayed as a murder victim who roams, not as an aggressor; the research holds no destructive deeds, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Hantu biarawati tanpa kepala yang bergentayangan di teluk merupakan keberadaan supernatural.",
+        "en": "A headless nun’s ghost roaming the cove is a supernatural presence.",
+        "claim_ids": [
+          "headless-nun-c01",
+          "headless-nun-c05",
+          "headless-nun-c10"
+        ]
       }
     }
   },
@@ -14055,6 +17405,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "helhest-c06",
           "helhest-c05"
+        ]
+      }
+    }
+  },
+  "helios": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Titan dewa matahari yang membawa matahari melintasi langit dengan kereta emas, penjaga sumpah, dan dewa penglihatan yang melihat serta mendengar segalanya; kuasa atas ranah matahari menjadi dasar Divine.",
+        "en": "The Titan sun god who carries the sun across the sky in a golden chariot, guardian of oaths, and god of sight who sees and hears everything; authority over the sun supports Divine.",
+        "claim_ids": [
+          "helios-c02",
+          "helios-c11",
+          "helios-c20"
+        ]
+      },
+      "threat": {
+        "id": "Setelah awak Odysseus memakan ternaknya, ia meminta Zeus menghukum mereka dan kapal itu dihancurkan serta awaknya tenggelam; ini mendukung skala kelompok, tetapi hukuman itu dijatuhkan Zeus, bukan Helios sendiri.",
+        "en": "After Odysseus’s crew ate his cattle he asked Zeus to punish them, and the ship was destroyed and the crew drowned; this supports group scale, but the punishment was carried out by Zeus rather than Helios himself.",
+        "claim_ids": [
+          "helios-c07",
+          "helios-c30"
+        ]
+      },
+      "fear": {
+        "id": "Pengetahuan yang melihat dan mendengar segalanya, hingga menyingkap perselingkuhan Aphrodite, adalah kemampuan di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "Seeing and hearing everything, enough to expose Aphrodite’s affair, is an ability beyond natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "helios-c20",
+          "helios-c21"
         ]
       }
     }
@@ -14433,6 +17815,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hiderigami": {
+    "power": "regional",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kehadirannya saja mendatangkan kekeringan di sekitarnya, kuasa atas cuaca dan air yang dinilai Regional; riset mencatat banyak versi, dan penilaian ini memakai dewi kekeringan Hanba sebagai versi utama.",
+        "en": "Its mere presence brings drought to its surroundings, a power over weather and water rated Regional; the research records several versions, and this uses the drought goddess Hanba as the main one.",
+        "claim_ids": [
+          "hiderigami-c01",
+          "hiderigami-c10",
+          "hiderigami-c12"
+        ]
+      },
+      "threat": {
+        "id": "Hanba disebut menyedot seluruh air Yanchi dan membawa kekeringan ke tempat ia berada hingga harus dikurung, ditafsirkan pada skala permukiman; luas kekeringan tidak dijelaskan.",
+        "en": "Hanba is said to have drained all of Yanchi and brings drought wherever she goes until she had to be confined, interpreted at settlement scale; the extent of the drought is not stated.",
+        "claim_ids": [
+          "hiderigami-c05",
+          "hiderigami-c06",
+          "hiderigami-c12"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk setengah dewa setengah monster yang mengeringkan wilayah hanya dengan hadir berada di luar hukum alam.",
+        "en": "A being both god and monster that dries up a place merely by being present lies beyond natural law.",
+        "claim_ids": [
+          "hiderigami-c07",
+          "hiderigami-c12"
+        ]
+      }
+    }
+  },
   "hiiden-hirvi": {
     "power": "superhuman",
     "threat": null,
@@ -14715,6 +18130,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hiyang-athouba": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Mayat yang berubah menjadi makhluk buas, menyerupai orang yang meninggal, dan melempari korban dengan batu melampaui kemampuan manusia; ia tergolong roh jahat Lai Phattaba.",
+        "en": "A corpse transformed into a monstrous being that mimics the deceased and throws stones at its victim exceeds human ability; it counts among the evil Lai Phattaba spirits.",
+        "claim_ids": [
+          "hiyang-athouba-c01",
+          "hiyang-athouba-c02",
+          "hiyang-athouba-c10"
+        ]
+      },
+      "threat": {
+        "id": "Dalam kisah yang dicatat ia mengejar satu suami, tetapi tanpa upacara kremasi ia disebut akan menyiksa seluruh desa, sehingga ditafsirkan berskala kelompok.",
+        "en": "In the recorded tale it pursues one husband, but without cremation rites it is said to torment the whole village, so it is interpreted at group scale.",
+        "claim_ids": [
+          "hiyang-athouba-c10",
+          "hiyang-athouba-c12"
+        ]
+      },
+      "fear": {
+        "id": "Mayat yang hidup kembali di malam hari dan menjawab dengan suara istri yang telah meninggal merupakan kengerian supernatural.",
+        "en": "A corpse that revives at night and answers in the voice of the dead wife is supernatural horror.",
+        "claim_ids": [
+          "hiyang-athouba-c06",
+          "hiyang-athouba-c09",
+          "hiyang-athouba-c11"
+        ]
+      }
+    }
+  },
   "ho-ly-tinh": {
     "power": "superhuman",
     "threat": "t2",
@@ -14919,6 +18367,64 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hong-rainbow-dragon": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset tidak memuat kemampuan atau kuasa Hong selain wujud dan maknanya sebagai pertanda; Power belum dinilai.",
+        "en": "The research holds no abilities or powers of Hong beyond its form and meaning as an omen; Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Hong dibaca sebagai pertanda buruk, bukan penyebab bencana; ancaman belum dinilai.",
+        "en": "Hong is read as a bad omen, not a cause of disaster; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Naga pelangi berkepala dua dianggap pertanda buruk yang tidak berani ditunjuk, memberi rasa ganjil dan tidak semestinya.",
+        "en": "A two-headed rainbow dragon read as an ill omen that no one dares point at gives a sense of something out of place.",
+        "claim_ids": [
+          "hong-rainbow-dragon-c05",
+          "hong-rainbow-dragon-c08",
+          "hong-rainbow-dragon-c11"
+        ]
+      }
+    }
+  },
+  "hoop-snake": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Ular legendaris yang menggulung menjadi lingkaran dan menyengat dengan ekor berbisa hingga tanaman layu melampaui ular biasa; cakupan kuasa lebih besar tidak tercatat.",
+        "en": "A legendary snake that rolls as a hoop and strikes with a venomous tail that withers plants exceeds an ordinary snake; no larger scale of power is recorded.",
+        "claim_ids": [
+          "hoop-snake-c02",
+          "hoop-snake-c03",
+          "hoop-snake-c05"
+        ]
+      },
+      "threat": {
+        "id": "Kisah hanya menggambarkan serangan terhadap korban perseorangan yang dikejar dan ditusuk dengan ekor.",
+        "en": "The tales describe only attacks on individual victims chased down and skewered by the tail.",
+        "claim_ids": [
+          "hoop-snake-c03",
+          "hoop-snake-c08"
+        ]
+      },
+      "fear": {
+        "id": "Kengerian utamanya adalah dikejar dan diburu oleh ular yang menggelinding seperti roda.",
+        "en": "The main horror is being chased and hunted by a snake rolling like a wheel.",
+        "claim_ids": [
+          "hoop-snake-c02",
+          "hoop-snake-c07"
+        ]
+      }
+    }
+  },
   "horned-serpent-q1086222": {
     "power": "regional",
     "threat": "t2",
@@ -14986,6 +18492,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hoyau": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Naga atau dewa (kamui) yang mengusir dewa cacar dengan bau busuknya dan bisa merasuki dukun menunjukkan kuasa setingkat dewa; tafsir ini mengikuti tradisi Ainu.",
+        "en": "A dragon or deity (kamui) that drove off the smallpox deity with its stench and can possess a shamaness shows godlike power; this follows Ainu tradition.",
+        "claim_ids": [
+          "hoyau-c01",
+          "hoyau-c09",
+          "hoyau-c10"
+        ]
+      },
+      "threat": {
+        "id": "Baunya mematikan manusia dan dewa hingga dewa Okikurmi harus membunuhnya, dan tumbuhan mati karenanya; ini ditafsirkan sebagai ancaman skala permukiman, sedangkan versi Danau Tōya menjadikannya pelindung.",
+        "en": "Its stench is lethal to humans and gods so that the deity Okikurmi had to slay it, and plants die from it; this is read as settlement-scale, while the Lake Tōya version makes it a guardian.",
+        "claim_ids": [
+          "hoyau-c07",
+          "hoyau-c08",
+          "hoyau-c11"
+        ]
+      },
+      "fear": {
+        "id": "Naga beracun dengan bau mematikan yang menjadikan tumbuhan layu dan membuat bulu manusia rontok berada di luar hukum alam.",
+        "en": "A venomous dragon whose lethal stench withers plants and makes human body hair fall out lies beyond natural law.",
+        "claim_ids": [
+          "hoyau-c01",
+          "hoyau-c07",
+          "hoyau-c08"
+        ]
+      }
+    }
+  },
   "hrimfaxi": {
     "power": "superhuman",
     "threat": null,
@@ -15008,6 +18548,155 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan Hrímfaxi sebagai penarik malam dan penyebab embun, tanpa unsur menakutkan; Fear belum dinilai.",
         "en": "The research portrays Hrímfaxi as the drawer of night and source of dew with no frightening element; fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "hua-she": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk hibrida berwajah manusia, bertubuh dhole, dan bersayap yang bergerak seperti ular dan berkaitan dengan banjir; kuasa atas banjir tidak diperjelas.",
+        "en": "A hybrid with a human face, dhole body, and wings that moves like a snake and is tied to floods; any authority over floods is not clarified.",
+        "claim_ids": [
+          "hua-she-c01",
+          "hua-she-c02",
+          "hua-she-c06"
+        ]
+      },
+      "threat": {
+        "id": "Kemunculannya disebut disertai banjir besar bagi kota, tetapi riset tidak memastikan apakah ia penyebab atau hanya pertanda; ancaman belum dinilai.",
+        "en": "Its appearance is recorded alongside a great flood for the town, but the research does not establish whether it causes the flood or only portends it; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujud campuran manusia, binatang buas, dan sayap dengan jeritan seperti teriakan berada di luar hukum alam.",
+        "en": "A mixture of human face, beast body, and wings with a shouting cry lies beyond natural law.",
+        "claim_ids": [
+          "hua-she-c02",
+          "hua-she-c03",
+          "hua-she-c06"
+        ]
+      }
+    }
+  },
+  "huay-chivo": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dukun jahat yang berubah menjadi kambing, anjing, atau rusa melampaui kemampuan manusia; ia dapat dikalahkan dengan ramuan dan anjing penjaga.",
+        "en": "An evil sorcerer who turns into a goat, dog, or deer exceeds human ability; stories show it defeated with herbs and a guard dog.",
+        "claim_ids": [
+          "huay-chivo-c02",
+          "huay-chivo-c11",
+          "huay-chivo-c12"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan yang tercatat adalah memangsa atau memakan ternak dan berbuat nakal, sehingga ancaman ditafsirkan pada skala individu pemilik ternak.",
+        "en": "Recorded deeds are preying on or eating livestock and mischief, so the threat is interpreted at the scale of individual livestock owners.",
+        "claim_ids": [
+          "huay-chivo-c02",
+          "huay-chivo-c07"
+        ]
+      },
+      "fear": {
+        "id": "Setengah manusia setengah hewan bermata merah menyala yang adalah dukun penjelma bersifat supernatural.",
+        "en": "A half-man, half-beast with burning red eyes that is a shapeshifting sorcerer is supernatural.",
+        "claim_ids": [
+          "huay-chivo-c01",
+          "huay-chivo-c02"
+        ]
+      }
+    }
+  },
+  "hubal": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa pra-Islam Quraysh di Mekah yang patungnya dipercaya mengendalikan ramalan lewat anak panah; riset menyebut pula tafsir dewa hujan dan perang yang bersifat sarjana.",
+        "en": "A pre-Islamic Quraysh god of Mecca believed to govern divination by arrows; the research also gives a scholarly view of him as a rain and war god.",
+        "claim_ids": [
+          "hubal-c01",
+          "hubal-c10",
+          "hubal-c15"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research holds no fear he inspires; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "hudson-river-monster": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Laporan 1886 menyebut ular laut sepanjang seratus kaki yang menegak setinggi sepuluh kaki; dasarnya hanya ukuran yang dilaporkan, dan benda itu kemudian diidentifikasi sebagai kayu terbakar.",
+        "en": "The 1886 reports describe a hundred-foot sea serpent rearing ten feet high; the basis is only the reported size, and the object was later identified as a burned timber.",
+        "claim_ids": [
+          "hudson-river-monster-c06",
+          "hudson-river-monster-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak atau korban; ancaman belum dinilai.",
+        "en": "The research holds no destructive acts or victims; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Sosok ular laut raksasa yang muncul di sungai kota dan tidak pernah terfoto menimbulkan rasa janggal, bukan ketakutan sebagai mangsa.",
+        "en": "A giant sea serpent appearing in a city river and never photographed evokes uncanny unease rather than fear of being prey.",
+        "claim_ids": [
+          "hudson-river-monster-c06",
+          "hudson-river-monster-c09"
+        ]
+      }
+    }
+  },
+  "huitzilopochtli": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa matahari dan perang, dewa tertinggi bagi Mexica, yang bersenjatakan Xiuhcoatl, menjadi dasar kuasa atas ranah (Divine).",
+        "en": "The god of the sun and war, supreme for the Mexica and wielding Xiuhcoatl, supports authority over a domain (Divine).",
+        "claim_ids": [
+          "huitzilopochtli-c05",
+          "huitzilopochtli-c06",
+          "huitzilopochtli-c02"
+        ]
+      },
+      "threat": {
+        "id": "Ia mengalahkan dan menyebarkan 400 saudaranya serta memenggal Coyolxauhqui di Coatepec, perbuatan terdokumentasi pada skala kelompok; peran pelindung bangsa tidak dinilai sebagai ancaman.",
+        "en": "He defeated and dispersed his 400 siblings and beheaded Coyolxauhqui on Coatepec, a documented deed at group scale; his role as protector of a people is not counted as a threat.",
+        "claim_ids": [
+          "huitzilopochtli-c09",
+          "huitzilopochtli-c10",
+          "huitzilopochtli-c12"
+        ]
+      },
+      "fear": {
+        "id": "Lahir dari jasad ibunya dengan seluruh senjata, serta menuntut korban manusia yang darahnya menguatkannya, menegaskan kengerian supernatural.",
+        "en": "Springing from his mother’s corpse fully armed, and receiving human sacrifices whose blood strengthened him, supports supernatural dread.",
+        "claim_ids": [
+          "huitzilopochtli-c10",
+          "huitzilopochtli-c17"
+        ]
       }
     }
   },
@@ -15088,6 +18777,99 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "humbaba-c06",
           "humbaba-c02"
+        ]
+      }
+    }
+  },
+  "huodou": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Anjing hitam besar pemakan dan penyembur api yang kotorannya menjadi api merupakan kemampuan supernatural.",
+        "en": "A large black dog that eats and spits fire, whose dung turns into fire, has a supernatural ability.",
+        "claim_ids": [
+          "huodou-c02",
+          "huodou-c06",
+          "huodou-c09"
+        ]
+      },
+      "threat": {
+        "id": "Api dari kotorannya dapat membakar rumah orang dan kemunculannya menandai kebakaran; ditafsirkan skala kelompok.",
+        "en": "Fire from its dung can burn people’s houses and its appearance marks fire; interpreted at group scale.",
+        "claim_ids": [
+          "huodou-c03",
+          "huodou-c06"
+        ]
+      },
+      "fear": {
+        "id": "Binatang pemakan dan penyembur api yang dianggap tidak bertuah melampaui hukum alam.",
+        "en": "An ill-omened beast that eats and spits fire exceeds natural law.",
+        "claim_ids": [
+          "huodou-c03",
+          "huodou-c09"
+        ]
+      }
+    }
+  },
+  "huoshu": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Tikus seberat seribu jin yang hidup dalam api tanpa terbakar dengan rambut tahan api; kemampuan gaib dasar Superhuman.",
+        "en": "A thousand-jin rat that lives in fire without burning, with fireproof hair; this supernatural trait supports Superhuman.",
+        "claim_ids": [
+          "huoshu-c02",
+          "huoshu-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Tikus bercahaya merah yang hidup di dalam api terasa ganjil, tanpa catatan menyerang manusia.",
+        "en": "A red-glowing rat living inside fire feels uncanny, with no recorded attacks on humans.",
+        "claim_ids": [
+          "huoshu-c07"
+        ]
+      }
+    }
+  },
+  "huri-kamuy": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Burung raksasa Ainu yang dalam sebagian catatan memburu mangsa besar dan paus; catatan wilayah berbeda-beda, dan kaitan dengan badai hanya pada leluhurnya.",
+        "en": "An enormous Ainu bird that in some accounts hunts large game and whales; regional accounts differ, and the link to windstorms concerns only its ancestors.",
+        "claim_ids": [
+          "huri-kamuy-c01",
+          "huri-kamuy-c02",
+          "huri-kamuy-c04",
+          "huri-kamuy-c03"
+        ]
+      },
+      "threat": {
+        "id": "Sebagian wilayah menggambarkannya sebagai pembunuh yang harus dibasmi dan menindih dua anak, tanpa bukti kehancuran permukiman; ancaman dinilai pada kelompok.",
+        "en": "Some regions describe it as a killer to be exterminated that pinned two children, without evidence of settlement-scale destruction; the threat is rated at the group level.",
+        "claim_ids": [
+          "huri-kamuy-c05",
+          "huri-kamuy-c10",
+          "huri-kamuy-c06"
+        ]
+      },
+      "fear": {
+        "id": "Burung raksasa yang memburu mangsa besar dan dianggap pembunuh menimbulkan ketakutan menjadi mangsa; sebagian catatan menyebutnya tidak berbahaya.",
+        "en": "An enormous bird that hunts large prey and is seen as a killer evokes the fear of becoming prey; some accounts call it harmless.",
+        "claim_ids": [
+          "huri-kamuy-c04",
+          "huri-kamuy-c05"
         ]
       }
     }
@@ -15224,6 +19006,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "ichchhadhari-nag": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ular kobra yang berubah menjadi manusia atau makhluk apa pun dan memiliki permata nagamani melampaui hewan biasa; versi utama adalah nag folklor India, bukan dewa naga.",
+        "en": "Cobras that can take human or any living form and hold the nagamani jewel exceed ordinary animals; this is the folklore nag, not a divine serpent king.",
+        "claim_ids": [
+          "ichchhadhari-nag-c02",
+          "ichchhadhari-nag-c04",
+          "ichchhadhari-nag-c07"
+        ]
+      },
+      "threat": {
+        "id": "Nag yang marah dapat membunuh pelanggar dengan bisa dan keluarganya membalas pembunuh, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "An angered nag may kill an offender with venom and its kin take revenge on a killer, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "ichchhadhari-nag-c10",
+          "ichchhadhari-nag-c14"
+        ]
+      },
+      "fear": {
+        "id": "Perubahan wujud ular menjadi manusia dan permata yang menghidupkan kembali menempatkannya di luar hukum alam.",
+        "en": "Snake-to-human shapeshifting and a jewel that can revive its owner place it beyond natural law.",
+        "claim_ids": [
+          "ichchhadhari-nag-c02",
+          "ichchhadhari-nag-c04"
+        ]
+      }
+    }
+  },
   "ichneumon-medieval-zoology": {
     "power": "superhuman",
     "threat": null,
@@ -15302,6 +19116,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "idittu-c05",
           "idittu-c07",
           "idittu-c08"
+        ]
+      }
+    }
+  },
+  "igopogo": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat ukuran dan rupa yang beragam serta penjelasan skeptis; tidak ada kekuatan atau perbuatan terdokumentasi, sehingga kekuatan belum dinilai.",
+        "en": "The research gives only varying size and appearance plus skeptical explanations; no strength or deeds are documented, so power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Hewan seperti anjing laut raksasa yang muncul sebagai riak dan sosok tak jelas, dengan deskripsi yang tidak pernah sama, menimbulkan rasa ganjil, bukan perburuan.",
+        "en": "A giant seal-like animal appearing as wakes and indistinct shapes, with descriptions that never agree, evokes uncanniness rather than predation.",
+        "claim_ids": [
+          "igopogo-c06",
+          "igopogo-c09"
         ]
       }
     }
@@ -15445,6 +19284,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkannya; Fear belum dinilai.",
         "en": "The research holds no account of the fear it inspires; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "imbunche": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Manusia cacat yang menjaga gua penyihir, memperoleh pengetahuan gaib, dan dipakai sebagai alat kutukan dan balas dendam melampaui manusia biasa.",
+        "en": "A deformed human that guards a warlock’s cave, gains magical knowledge, and serves as an instrument of curses and revenge exceeds ordinary humans.",
+        "claim_ids": [
+          "imbunche-c01",
+          "imbunche-c07"
+        ]
+      },
+      "threat": {
+        "id": "Ia dipakai penyihir sebagai alat balas dendam dan kutukan serta mengumumkan malapetaka, ditafsirkan pada skala individu; riset tidak mencatat perusakan massal.",
+        "en": "Warlocks use it as an instrument of revenge and curses, and it announces misfortune, interpreted at an individual scale; the research records no mass destruction.",
+        "claim_ids": [
+          "imbunche-c07",
+          "imbunche-c08"
+        ]
+      },
+      "fear": {
+        "id": "Anak yang dicacatkan lewat ritual sihir, berkepala terpuntir, berkulit biru, dan memakan jenazah merupakan sosok supernatural yang mengerikan.",
+        "en": "A child deformed by magical ritual, with a twisted head and blue skin and feeding on corpses, is a supernatural and horrifying figure.",
+        "claim_ids": [
+          "imbunche-c02",
+          "imbunche-c04",
+          "imbunche-c06",
+          "imbunche-c09"
+        ]
       }
     }
   },
@@ -15622,6 +19494,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "inkanyamba": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa atau dewi badai, air, dan hujan es yang disebut penyebab tornado, tubuhnya membentang dari langit ke bumi; dinilai sebagai penguasa ranah badai.",
+        "en": "A deity of storm, water, and hail said to be the root cause of tornadoes, its body stretching from heaven to earth; assessed as master of the storm domain.",
+        "claim_ids": [
+          "inkanyamba-c07",
+          "inkanyamba-c14",
+          "inkanyamba-c06"
+        ]
+      },
+      "threat": {
+        "id": "Amarahnya dipercaya menimbulkan badai musiman, yang ditafsirkan mengancam wilayah luas; mendamaikannya justru membawa hujan dan kesuburan.",
+        "en": "Its anger is believed to cause the seasonal storms, interpreted as a threat to a broad region; appeasing it instead brings rain and fertility.",
+        "claim_ids": [
+          "inkanyamba-c09",
+          "inkanyamba-c10"
+        ]
+      },
+      "fear": {
+        "id": "Ular raksasa penyebab tornado yang membentang dari langit ke bumi merupakan fenomena yang tidak dapat dijelaskan oleh hukum alam.",
+        "en": "A giant serpent behind tornadoes that stretches from heaven to earth is a phenomenon beyond natural law.",
+        "claim_ids": [
+          "inkanyamba-c06",
+          "inkanyamba-c07"
+        ]
+      }
+    }
+  },
   "inmyeonjo": {
     "power": "superhuman",
     "threat": null,
@@ -15644,6 +19548,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan lambang umur panjang dan kelahiran kembali, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a symbol of longevity and rebirth, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "inti": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa matahari Inca yang dipandang mahakuasa dan memerintah dunia lewat perantaraan Viracocha menjadi dasar kuasa atas ranah (Divine).",
+        "en": "The Inca sun god, regarded as all-powerful and governing the world on Viracocha’s behalf, supports authority over a domain (Divine).",
+        "claim_ids": [
+          "inti-c05",
+          "inti-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut kemurkaannya hanya lewat gerhana tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research notes his anger only through eclipses, without destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Gerhana sebagai tanda murkanya, yang menuntut korban untuk memulihkan restunya, bersifat supernatural; ia umumnya dipandang baik hati.",
+        "en": "Eclipses as signs of his anger, calling for sacrifices to regain his favour, are supernatural; he was generally considered benevolent.",
+        "claim_ids": [
+          "inti-c06"
+        ]
       }
     }
   },
@@ -15828,6 +19759,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "itsumade": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung gaib berkepala manusia, berbadan ular, dan berbentang sayap sekitar 4,8 meter yang meludahkan api dan memancarkan kilat melampaui hewan biasa; ia ditembak jatuh oleh seorang pemanah sehingga tidak dinaikkan lebih tinggi.",
+        "en": "An eerie bird with a human head, serpent body, and wingspan of about 4.8 metres that spits flame and flashes lightning exceeds an ordinary animal; a single archer brought it down, so the level is not raised.",
+        "claim_ids": [
+          "itsumade-c10",
+          "itsumade-c11",
+          "itsumade-c03"
+        ]
+      },
+      "threat": {
+        "id": "Kemunculannya bersamaan dengan wabah dan hanya dicatat sebagai pertanda, bukan penyebab kematian; ancaman belum dinilai.",
+        "en": "Its appearance coincides with an epidemic and is recorded only as an omen, not a cause of death; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Burung bermuka manusia yang berseru “itsumade” di atas istana saat wabah dan dikaitkan dengan arwah dendam menimbulkan kengerian supernatural.",
+        "en": "A human-faced bird crying “itsumade” above the palace during an epidemic, and linked to vengeful spirits, creates supernatural dread.",
+        "claim_ids": [
+          "itsumade-c09",
+          "itsumade-c15",
+          "itsumade-c17"
+        ]
+      }
+    }
+  },
   "izanagi": {
     "power": "cosmic",
     "threat": null,
@@ -15850,6 +19811,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset menggambarkan pencipta dan penyuci, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a creator and purifier, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "jackalope": {
+    "power": "mortal",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kelinci bertanduk yang dapat menanduk pemburu dan menirukan suara manusia masih setara hewan buruan; ia tokoh cerita bualan dan rekayasa taksidermi 1930-an.",
+        "en": "A horned hare that can gore hunters and mimic human voices stays at the level of an animal; it is a tall-tale figure and a 1930s taxidermy creation.",
+        "claim_ids": [
+          "jackalope-c14",
+          "jackalope-c15",
+          "jackalope-c02"
+        ]
+      },
+      "threat": {
+        "id": "Pemburu disarankan memakai pelindung kaki agar tidak ditanduk, ancaman bagi individu dalam cerita bualan.",
+        "en": "Hunters are advised to wear leg guards against being gored, an individual-scale threat within a tall tale.",
+        "claim_ids": [
+          "jackalope-c14"
+        ]
+      },
+      "fear": {
+        "id": "Riset menempatkannya sebagai makhluk cerita bualan yang menjadi hiburan dan suvenir, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research places it as a tall-tale critter used for entertainment and souvenirs, not a source of fear; Fear is not assessed.",
         "claim_ids": []
       }
     }
@@ -15943,6 +19932,62 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "jarita": {
+    "power": "mortal",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Jarita digambarkan sebagai induk burung yang tak berdaya menyelamatkan anaknya dari kobaran hutan, sehingga kapasitasnya setara makhluk fana biasa.",
+        "en": "Jarita is shown as a mother bird unable to save her young from the burning forest herself, so her capacity matches an ordinary mortal.",
+        "claim_ids": [
+          "jarita-c11",
+          "jarita-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan induk pelindung tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research presents a protective mother with no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan Jarita sebagai sumber rasa takut; Fear belum dinilai.",
+        "en": "The research does not portray Jarita as a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "jenglot": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Boneka kecil yang bila diisi ilmu hitam dipercaya melindungi tuannya dan memiliki kekuatan mistis; sebagian besar spesimen terbukti rekayasa, sehingga level ini hanya mengikuti kepercayaan.",
+        "en": "A small doll said to protect its master and hold mystical power when imbued with black magic; most specimens proved fabricated, so this level only follows the belief.",
+        "claim_ids": [
+          "jenglot-c01",
+          "jenglot-c22",
+          "jenglot-c04"
+        ]
+      },
+      "threat": {
+        "id": "Jenglot dipercaya membalas dendam pada musuh tuannya, tetapi bonekanya sendiri tidak berbuat apa-apa, sehingga hanya skala individu.",
+        "en": "The jenglot is said to take revenge on its master’s enemy, but the doll itself does nothing, so only an individual scale applies.",
+        "claim_ids": [
+          "jenglot-c01"
+        ]
+      },
+      "fear": {
+        "id": "Boneka mirip mumi dengan wajah tengkorak, taring, rambut dan kuku panjang terasa ganjil dan tidak nyaman, bukan predator yang memburu.",
+        "en": "A mummy-like doll with a skull face, fangs, and long hair and nails is uncanny and unsettling rather than a hunting predator.",
+        "claim_ids": [
+          "jenglot-c24",
+          "jenglot-c19"
+        ]
+      }
+    }
+  },
   "jenny-greenteeth": {
     "power": "superhuman",
     "threat": "t1",
@@ -16031,6 +20076,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "jiaolong": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Naga ular yang disebut penguasa makhluk air dan, menurut komentar Guo Pu, yang besar mampu menelan manusia utuh; dasar Monstrous.",
+        "en": "A serpentine dragon called lord of aquatic beings whom, per Guo Pu’s commentary, the large ones could swallow a person whole; this supports Monstrous.",
+        "claim_ids": [
+          "jiaolong-c08",
+          "jiaolong-c10"
+        ]
+      },
+      "threat": {
+        "id": "Orang Wu percaya banjir terjadi saat jiao menetas dan yang besar menelan manusia; ditafsirkan sebagai potensi bencana skala permukiman, berdasar kepercayaan.",
+        "en": "People of Wu believed floods followed the hatching of jiao and large ones swallowed people; interpreted as settlement-scale potential, based on belief.",
+        "claim_ids": [
+          "jiaolong-c09",
+          "jiaolong-c10"
+        ]
+      },
+      "fear": {
+        "id": "Naga air yang menelan manusia utuh menimbulkan rasa takut menjadi mangsa.",
+        "en": "A water dragon that swallows people whole evokes the fear of becoming prey.",
+        "claim_ids": [
+          "jiaolong-c10",
+          "jiaolong-c11"
+        ]
+      }
+    }
+  },
   "jimmy-squarefoot": {
     "power": "superhuman",
     "threat": "t1",
@@ -16058,6 +20134,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "Charges with gleaming tusks and gnashing fangs evoke the fear of being hunted.",
         "claim_ids": [
           "jimmy-squarefoot-c08"
+        ]
+      }
+    }
+  },
+  "jinmenju": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya mencatat bunga yang tersenyum atau tertawa tanpa memahami bahasa manusia; tidak ada kuasa yang terdokumentasi, sehingga Power belum dinilai.",
+        "en": "The research records only flowers that smile or laugh without understanding human language; no power is documented, so Power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive acts; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Pohon dengan bunga berwujud kepala manusia yang terus tersenyum tanpa suara menimbulkan rasa ganjil, bukan rasa diburu.",
+        "en": "A tree whose flowers resemble human heads and keep smiling silently creates an uncanny unease rather than the fear of being hunted.",
+        "claim_ids": [
+          "jinmenju-c02",
+          "jinmenju-c06",
+          "jinmenju-c07"
         ]
       }
     }
@@ -16093,6 +20195,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "jinn-c06",
           "jinn-c07",
           "jinn-c31"
+        ]
+      }
+    }
+  },
+  "jivajivaka": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset memuatnya sebagai burung dua kepala di Tanah Murni dengan bulu dan suara indah, tanpa kemampuan atau kuasa tertentu; Power belum dinilai.",
+        "en": "The research presents it as a two-headed bird of the Pure Land with beautiful feathers and song, without specific abilities or authority; power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Satu-satunya perbuatan yang dicatat adalah satu kepala meracuni kepala lainnya hingga keduanya mati; ancaman terhadap pihak lain belum dinilai.",
+        "en": "The only recorded act is one head poisoning the other so both die; threat to others remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dua kepala pada satu tubuh terasa ganjil, dan kisahnya berfungsi sebagai ajaran moral, bukan teror.",
+        "en": "Two heads on one body feel uncanny, and its tale serves as a moral lesson rather than terror.",
+        "claim_ids": [
+          "jivajivaka-c01",
+          "jivajivaka-c03",
+          "jivajivaka-c04"
         ]
       }
     }
@@ -16158,6 +20286,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "joint-eater-c01",
           "joint-eater-c02",
           "joint-eater-c06"
+        ]
+      }
+    }
+  },
+  "joint-snake": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan dikabarkan memecah diri dan menyatu kembali melampaui batas ular biasa; riset sekaligus mencatat penjelasan ilmiah bahwa itu salah kaprah soal kadal tanpa kaki.",
+        "en": "The reputed ability to break apart and reassemble exceeds the limits of an ordinary snake; the research also records the scholarly explanation that it is a mistaken identity with legless lizards.",
+        "claim_ids": [
+          "joint-snake-c02",
+          "joint-snake-c04",
+          "joint-snake-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan yang membahayakan; ancaman belum dinilai.",
+        "en": "The research holds no harmful deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Ular licin seperti kaca yang dapat patah dan menyambung kembali terasa ganjil dan tidak semestinya, bukan memburu manusia.",
+        "en": "A glass-smooth snake that breaks and rejoins feels strange and out of place rather than hunting people.",
+        "claim_ids": [
+          "joint-snake-c02",
+          "joint-snake-c05"
         ]
       }
     }
@@ -16525,6 +20682,56 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kanas-lake-monster": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat ukuran dan penampakan, serta tafsir sebagai taimen raksasa; tidak ada kemampuan gaib yang terdokumentasi, sehingga kekuatan belum dinilai.",
+        "en": "The research holds only size and sightings plus the giant taimen interpretation; no supernatural ability is documented, so power is unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Hilangnya ternak di tepi danau hanya diajukan sebagai pertanyaan dan keberadaan makhluknya belum terbukti; ancaman belum dinilai.",
+        "en": "Livestock disappearing along the lake is only raised as a question and the creature is unconfirmed; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dua benda gelap besar yang tiba-tiba melesat dari air lalu lenyap menimbulkan rasa janggal, tanpa catatan serangan terhadap manusia.",
+        "en": "Two very large dark objects springing from the water and vanishing evoke uncanniness, with no recorded attacks on people.",
+        "claim_ids": [
+          "kanas-lake-monster-c05",
+          "kanas-lake-monster-c09"
+        ]
+      }
+    }
+  },
+  "kanbari-nyudo": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset tidak memuat kemampuan yang jelas; ia hanya disebut yokai toilet yang akhirnya digigit anjing, sehingga kuasanya belum dinilai.",
+        "en": "The research holds no clear abilities; it is only a toilet yokai that is finally bitten by a dog, so its power is unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset hanya menyebut bencana yang dikaitkan dengannya tanpa perbuatan yang jelas; ancaman belum dinilai.",
+        "en": "The research only mentions misfortune linked to it without clear deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Sosok mirip biksu yang muncul di toilet pada akhir tahun terasa ganjil dan tidak semestinya, dengan mantra untuk menghindarinya.",
+        "en": "A monk-like figure appearing in toilets at year’s end feels uncanny and out of place, with a chant to avert it.",
+        "claim_ids": [
+          "kanbari-nyudo-c01",
+          "kanbari-nyudo-c07"
+        ]
+      }
+    }
+  },
   "kanthaka": {
     "power": "mortal",
     "threat": null,
@@ -16547,6 +20754,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan kuda setia, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a loyal horse, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "kao-bull": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Banteng ilahi yang membunuh banyak orang di tepi air dan membawa Khamba ke hutan menunjukkan kekuatan monster besar; riset tidak menyebut kuasa ilahi atas suatu ranah.",
+        "en": "A divine bull that killed many people near the water and carried Khamba into the woods shows great-monster might; the research names no divine domain.",
+        "claim_ids": [
+          "kao-bull-c01",
+          "kao-bull-c06",
+          "kao-bull-c07"
+        ]
+      },
+      "threat": {
+        "id": "Banteng yang membunuh banyak orang dan meneror penduduk Khuman ditafsirkan mengancam kelompok manusia.",
+        "en": "A bull that killed many people and terrorized the people of Khuman is interpreted as a threat to groups of people.",
+        "claim_ids": [
+          "kao-bull-c03",
+          "kao-bull-c06"
+        ]
+      },
+      "fear": {
+        "id": "Banteng yang mengintai di antara alang-alang dan membunuh orang yang menangkap ikan menimbulkan rasa takut menjadi mangsa.",
+        "en": "A bull lurking among the reeds and killing people who fish creates the fear of becoming prey.",
+        "claim_ids": [
+          "kao-bull-c06",
+          "kao-bull-c13"
+        ]
       }
     }
   },
@@ -16577,6 +20816,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "The core fear is being dragged into a river or pond by a being that waits in the water, the fear of becoming prey.",
         "claim_ids": [
           "kappa-folklore-c04"
+        ]
+      }
+    }
+  },
+  "kapre": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raksasa pohon yang bisa menyesatkan orang dan memakai sabuk yang membuatnya tak terlihat melampaui manusia; riset tidak mencatat kekuatan yang lebih besar.",
+        "en": "A tree giant that can lead people astray and wears a belt making it unseen exceeds humans; the research records no greater power.",
+        "claim_ids": [
+          "kapre-c01",
+          "kapre-c04",
+          "kapre-c13"
+        ]
+      },
+      "threat": {
+        "id": "Kapre umumnya jinak dan jahil, tetapi bisa membalas dendam bila pohonnya ditebang, sehingga ancamannya berskala individu.",
+        "en": "The kapre is generally benign and mischievous but may turn vengeful when its tree is cut down, so the threat is individual in scale.",
+        "claim_ids": [
+          "kapre-c03",
+          "kapre-c04"
+        ]
+      },
+      "fear": {
+        "id": "Tawa tanpa wujud, asap dari pucuk pohon, dan mata merah menyala di malam hari menandai kehadiran gaib; Fear bukan penilaian moral dan kapre tidak selalu jahat.",
+        "en": "Unseen laughter, smoke from a treetop, and glaring red eyes at night mark a supernatural presence; Fear is not a moral judgment and the kapre is not always evil.",
+        "claim_ids": [
+          "kapre-c08",
+          "kapre-c04"
         ]
       }
     }
@@ -16812,6 +21083,97 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kasha-folklore": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kucing besar berdiri dengan api neraka atau petir yang berasal dari kucing tua yang memperoleh kekuatan gaib melampaui manusia; versi kucing dinilai sebagai wujud utama.",
+        "en": "A large bipedal cat with hellish flames or lightning, grown from an old cat that gains magical powers, exceeds humans; the cat form is treated as the main version.",
+        "claim_ids": [
+          "kasha-folklore-c07",
+          "kasha-folklore-c13"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat pencurian jenazah dari peti mati, bukan korban hidup atau kehancuran; ancaman belum dinilai.",
+        "en": "The research records only the theft of corpses from coffins, not living victims or destruction; threat is not assessed.",
+        "claim_ids": [
+          "kasha-folklore-c09"
+        ]
+      },
+      "fear": {
+        "id": "Kucing rumah biasa yang menyingkap wujud aslinya di pemakaman, membawa api neraka, dan melayani neraka berada di luar hukum alam.",
+        "en": "An ordinary house cat revealing its true form at funerals, bearing hellish flames and serving hell, lies beyond natural law.",
+        "claim_ids": [
+          "kasha-folklore-c09",
+          "kasha-folklore-c10"
+        ]
+      }
+    }
+  },
+  "kasogonaga": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi cuaca Toba yang menjadi pemilik hujan, guntur, dan kilat serta dapat menolong manusia saat kekeringan dan banjir memegang kuasa atas suatu ranah.",
+        "en": "A Toba weather goddess who owns rain, thunder, and lightning and can help people in droughts and floods holds authority over a domain.",
+        "claim_ids": [
+          "kasogonaga-c01",
+          "kasogonaga-c07",
+          "kasogonaga-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkannya sebagai penolong yang membalas bantuan; tidak ada perbuatan merusak yang dicatat, sehingga ancaman belum dinilai.",
+        "en": "The research portrays her as a helper who repays aid; no destructive deeds are recorded, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Hewan warna-warni yang menyemburkan kilat dari mulutnya dan tampil dalam penglihatan dukun melampaui hukum alam; Fear bukan penilaian moral.",
+        "en": "A colorful animal shooting lightning from its mouth and appearing in shamans’ visions exceeds natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "kasogonaga-c02",
+          "kasogonaga-c03",
+          "kasogonaga-c04"
+        ]
+      }
+    }
+  },
+  "kay-s": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk mirip gulyabani berkaki sabuk kulit yang memanjang hingga kepalanya menyentuh awan melampaui kemampuan manusia.",
+        "en": "A ghoul-like being with leather-strap legs that stretches until its head touches the clouds exceeds human ability.",
+        "claim_ids": [
+          "kay-s-c01",
+          "kay-s-c06"
+        ]
+      },
+      "threat": {
+        "id": "Menunggangi dan memperbudak orang yang lewat serta menghantui perempuan yang baru melahirkan ditafsirkan sebagai ancaman terhadap individu.",
+        "en": "Riding and enslaving passers-by and haunting women who have just given birth is interpreted as a threat to individuals.",
+        "claim_ids": [
+          "kay-s-c05",
+          "kay-s-c09"
+        ]
+      },
+      "fear": {
+        "id": "Jin bengkok yang muncul setelah gelap dan dipakai menakuti anak adalah makhluk gaib; riset menyebut kisahnya dipakai untuk mencegah anak keluar malam.",
+        "en": "A crooked jinn appearing after dark and used to frighten children is a supernatural being; the research notes the tale was told to keep children indoors at night.",
+        "claim_ids": [
+          "kay-s-c07",
+          "kay-s-c08"
+        ]
+      }
+    }
+  },
   "kek": {
     "power": "cosmic",
     "threat": null,
@@ -16928,6 +21290,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kerakera-onna": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Perempuan raksasa berkimono yang tertawa melewati dinding, dengan tawa yang hanya terdengar oleh satu orang, melampaui manusia biasa; sumber utamanya hanya gambar Sekien dan tafsir kemudian.",
+        "en": "A giant kimono-clad woman laughing over a wall, with laughter only one person can hear, exceeds ordinary humans; the main source is only Sekien’s picture and later interpretation.",
+        "claim_ids": [
+          "kerakera-onna-c03",
+          "kerakera-onna-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat tawa yang menakuti orang di jalan sepi; perbuatan merusak belum didokumentasikan, sehingga ancaman belum dinilai.",
+        "en": "The research records only laughter that frightens people on lonely roads; no destructive deed is documented, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Tawa cekikikan dari balik dinding di jalan sepi yang hanya didengar satu orang menimbulkan rasa ganjil dan tidak nyaman.",
+        "en": "Shrill laughter from behind a wall on a lonely road that only one person hears creates uncanny unease.",
+        "claim_ids": [
+          "kerakera-onna-c07",
+          "kerakera-onna-c11"
+        ]
+      }
+    }
+  },
   "keshi": {
     "power": "monstrous",
     "threat": "t1",
@@ -17013,6 +21403,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "keukegen-c02",
           "keukegen-c03",
           "keukegen-c04"
+        ]
+      }
+    }
+  },
+  "khamot": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Cahaya mengambang yang lenyap saat didekati lalu muncul mengelilingi pelancong, serta pengubahan wujud dalam sebagian kepercayaan, melampaui kemampuan manusia.",
+        "en": "A floating light that vanishes on approach and reappears around travelers, plus shapeshifting in some beliefs, exceeds human ability.",
+        "claim_ids": [
+          "khamot-c02",
+          "khamot-c07",
+          "khamot-c13"
+        ]
+      },
+      "threat": {
+        "id": "Ia menyesatkan dan menghantui pelancong di hutan, sehingga ancamannya ditafsirkan pada individu; sebagian versi menyebutnya roh hutan tanpa niat jahat.",
+        "en": "It misleads and haunts travelers in the forest, so the threat is interpreted at the individual level; some versions describe a forest spirit without malice.",
+        "claim_ids": [
+          "khamot-c02",
+          "khamot-c13"
+        ]
+      },
+      "fear": {
+        "id": "Cahaya misterius yang menghilang lalu muncul dari segala arah tidak dapat dijelaskan hukum alam menurut tradisi, meski kamus menjelaskannya sebagai gas metana.",
+        "en": "A mysterious light vanishing and reappearing from all directions defies natural law in tradition, although a dictionary explains it as methane.",
+        "claim_ids": [
+          "khamot-c07",
+          "khamot-c03"
         ]
       }
     }
@@ -17123,6 +21545,130 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "khyah-legendary-creature": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Khyah lahir dari daging anak dewa tua dan kuasa kembar itu perlu dikendalikan dengan instrumen Dhimay, melampaui manusia biasa.",
+        "en": "Khyah came from the flesh of the old gods' child and the twins' power had to be controlled with the Dhimay, exceeding ordinary humans.",
+        "claim_ids": [
+          "khyah-legendary-creature-c10",
+          "khyah-legendary-creature-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya menyebut khyah jahat membawa masalah tanpa perbuatan rinci; ancaman belum dinilai.",
+        "en": "The research only says bad khyah bring trouble without specific deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk berbulu mirip kera yang menghuni loteng gelap dan takut cahaya terasa ganjil dan tidak nyaman.",
+        "en": "An ape-like hairy being that dwells in dark attics and fears light feels strange and uncomfortable.",
+        "claim_ids": [
+          "khyah-legendary-creature-c01",
+          "khyah-legendary-creature-c04",
+          "khyah-legendary-creature-c13"
+        ]
+      }
+    }
+  },
+  "kichkandi": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh perempuan yang menyamar sebagai manusia nyata dan menguras daya hidup korban melampaui kemampuan manusia.",
+        "en": "A woman's spirit that appears as a real woman and drains her victim's life force exceeds human ability.",
+        "claim_ids": [
+          "kichkandi-c05",
+          "kichkandi-c09"
+        ]
+      },
+      "threat": {
+        "id": "Ia memikat pengelana lelaki yang sendirian hingga sakit atau mati, sehingga ancaman berskala individu.",
+        "en": "She lures lone male travellers until they fall ill or die, so the threat is at an individual scale.",
+        "claim_ids": [
+          "kichkandi-c05",
+          "kichkandi-c08"
+        ]
+      },
+      "fear": {
+        "id": "Roh berkaki terbalik yang tampak seperti perempuan biasa dan mematikan menjadi dasar kengerian supernatural.",
+        "en": "A spirit with backward feet who looks like an ordinary woman yet is deadly supports supernatural horror.",
+        "claim_ids": [
+          "kichkandi-c04",
+          "kichkandi-c08",
+          "kichkandi-c09"
+        ]
+      }
+    }
+  },
+  "kijimuna": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh pohon yang dapat menindih dada orang hingga tak bisa bergerak dan menjebak orang di pohon berongga secara gaib melampaui kemampuan manusia.",
+        "en": "A tree spirit that can pin a person's chest so they cannot move and magically trap people in hollow trees exceeds human ability.",
+        "claim_ids": [
+          "kijimuna-c10",
+          "kijimuna-c11"
+        ]
+      },
+      "threat": {
+        "id": "Kijimuna yang disakiti membunuh ternak, menenggelamkan perahu, dan menjebak orang; dampaknya ditafsirkan pada skala individu atau pemilik perahu, dan banyak kisah menampilkannya sebagai penolong.",
+        "en": "Wronged kijimuna kill livestock, sink boats, and trap people; the impact is interpreted at an individual or boat-owner scale, and many tales show them as helpers.",
+        "claim_ids": [
+          "kijimuna-c09",
+          "kijimuna-c10"
+        ]
+      },
+      "fear": {
+        "id": "Menindih dada hingga tak bisa bergerak atau bernapas dan menjebak orang secara gaib adalah gangguan supernatural, bukan perburuan.",
+        "en": "Pinning a chest so a person cannot move or breathe and magically trapping people are supernatural afflictions, not hunting.",
+        "claim_ids": [
+          "kijimuna-c10",
+          "kijimuna-c11"
+        ]
+      }
+    }
+  },
+  "kijo": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Lebih kuat daripada kebanyakan manusia tetapi lebih lemah daripada oni, ahli sihir, kutukan, racun, dan ilusi; tingkat ini sengaja di bawah oni.",
+        "en": "Stronger than most humans though weaker than oni, skilled in magic, curses, poisons, and illusions; this tier is deliberately below the oni.",
+        "claim_ids": [
+          "kijo-c10"
+        ]
+      },
+      "threat": {
+        "id": "Kijo menyergap korban dari gua atau jalan gunung dan, dalam satu kisah, memakan janin; ditafsirkan pada korban perseorangan, bukan kelompok sekaligus.",
+        "en": "Kijo prey on victims from caves and mountain roads and, in one tale, ate a fetus; this is interpreted at the scale of individual victims, not a group at once.",
+        "claim_ids": [
+          "kijo-c09",
+          "kijo-c11",
+          "kijo-c14"
+        ]
+      },
+      "fear": {
+        "id": "Wanita yang menjadi iblis menetap di tempat terpencil yang terus menyediakan korban, sehingga rasa takutnya adalah menjadi mangsa.",
+        "en": "A woman turned demon who lives in secluded places that supply a steady stream of victims makes the fear that of becoming prey.",
+        "claim_ids": [
+          "kijo-c09",
+          "kijo-c11",
+          "kijo-c14"
+        ]
+      }
+    }
+  },
   "kikimora": {
     "power": "superhuman",
     "threat": "t1",
@@ -17150,6 +21696,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "kikimora-c15",
           "kikimora-c05"
+        ]
+      }
+    }
+  },
+  "kinie-ger": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk setengah manusia setengah kuol yang menyusut menjadi kuol pertama setelah dikalahkan; riset tidak memuat kemampuan lain, dan ia dikalahkan burung hantu dan gagak.",
+        "en": "A half-man, half-quoll beast that shrank into the first quoll when defeated; the research records no further abilities, and the owl and crow overcame it.",
+        "claim_ids": [
+          "kinie-ger-c02",
+          "kinie-ger-c04",
+          "kinie-ger-c03"
+        ]
+      },
+      "threat": {
+        "id": "Ia dicatat membunuh orang, hewan, dan burung, tetapi tanpa skala kelompok atau permukiman; ancaman dinilai pada tingkat pribadi.",
+        "en": "It is recorded killing people, animals, and birds, but with no group or settlement scale; the threat is rated at the personal level.",
+        "claim_ids": [
+          "kinie-ger-c06",
+          "kinie-ger-c01"
+        ]
+      },
+      "fear": {
+        "id": "Binatang buas kejam yang membunuh dan menyergap korban di lubang air adalah ketakutan menjadi mangsa.",
+        "en": "A ruthless beast that kills and preys on victims at a water hole embodies the fear of becoming prey.",
+        "claim_ids": [
+          "kinie-ger-c06"
         ]
       }
     }
@@ -17204,6 +21781,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kishi-folklore": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa pemakan manusia berkepala banyak yang kepalanya tumbuh kembali setelah dipenggal menjadi dasar kekuatan monster.",
+        "en": "A many-headed man-eating monster whose head regrows once cut off supports monstrous power.",
+        "claim_ids": [
+          "kishi-folklore-c01",
+          "kishi-folklore-c02",
+          "kishi-folklore-c11"
+        ]
+      },
+      "threat": {
+        "id": "Legenda Sudika-mbambi mencatat makishi menghancurkan desa dan membantai penduduknya, menjadi dasar skala permukiman.",
+        "en": "The Sudika-mbambi legend records the makishi destroying a village and massacring its people, supporting settlement scale.",
+        "claim_ids": [
+          "kishi-folklore-c03",
+          "kishi-folklore-c10"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk kanibal yang memikat perempuan muda dengan wajah manusia lalu memangsanya dengan wajah hiena menekankan ketakutan menjadi mangsa.",
+        "en": "A cannibal that lures young women with a human face and devours them with a hyena face emphasizes the fear of becoming prey.",
+        "claim_ids": [
+          "kishi-folklore-c01",
+          "kishi-folklore-c06"
+        ]
+      }
+    }
+  },
   "klagmuhme": {
     "power": "superhuman",
     "threat": "t1",
@@ -17231,6 +21840,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "klagmuhme-c01",
           "klagmuhme-c06"
+        ]
+      }
+    }
+  },
+  "klu": {
+    "power": "regional",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Klu dikenal mengendalikan air dan memberi kekayaan, dengan pengaruh pada mata air dan lingkungan setempat; dinilai Regional seperti naga air, bukan Divine, dan versi utama adalah lu di Ladakh serta klu Bon.",
+        "en": "Klu are known to control water and bestow wealth, with influence over springs and local surroundings; rated Regional like water dragons rather than Divine, following the Ladakhi lu and Bon klu.",
+        "claim_ids": [
+          "klu-c01",
+          "klu-c06",
+          "klu-c08"
+        ]
+      },
+      "threat": {
+        "id": "Lu yang terganggu dikatakan membawa penyakit dan tragedi bagi individu, keluarga, atau komunitas; ancaman setingkat kelompok.",
+        "en": "Disturbed lu are said to bring illness and tragedy to an individual, family, or community; a group-level threat.",
+        "claim_ids": [
+          "klu-c02",
+          "klu-c06",
+          "klu-c07"
+        ]
+      },
+      "fear": {
+        "id": "Roh air yang dapat berganti wujud dan mendatangkan penyakit bila terusik berada di luar hukum alam.",
+        "en": "Water spirits that shape-shift and bring illness when disturbed lie beyond natural law.",
+        "claim_ids": [
+          "klu-c02",
+          "klu-c06",
+          "klu-c07"
         ]
       }
     }
@@ -17416,6 +22059,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kong-koi": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Hantu hutan bertungkai satu yang melompat dan dipercaya mengisap darah dari jempol kaki pelancong melampaui kemampuan manusia; wujudnya berbeda menurut tradisi (Karen, Tai Dam).",
+        "en": "A one-legged hopping jungle ghost believed to suck blood from travellers’ toes exceeds human ability; its form differs by tradition (Karen, Tai Dam).",
+        "claim_ids": [
+          "kong-koi-c01",
+          "kong-koi-c02",
+          "kong-koi-c11"
+        ]
+      },
+      "threat": {
+        "id": "Korban yang dipercaya adalah pelancong yang tidur sendirian di hutan, sehingga ancaman ditafsirkan pada individu.",
+        "en": "Believed victims are travellers sleeping in the jungle, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "kong-koi-c02",
+          "kong-koi-c17"
+        ]
+      },
+      "fear": {
+        "id": "Mengisap darah dari jempol kaki orang yang tidur di hutan adalah rasa takut diburu saat tak berdaya.",
+        "en": "Sucking blood from the toes of people asleep in the forest is the fear of being hunted while defenceless.",
+        "claim_ids": [
+          "kong-koi-c02",
+          "kong-koi-c11",
+          "kong-koi-c17"
+        ]
+      }
+    }
+  },
   "kongamato": {
     "power": "monstrous",
     "threat": "t2",
@@ -17496,6 +22172,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menampilkan burung ini sebagai pembawa api dan objek pencarian, tanpa unsur menakutkan; rasa takut belum dinilai.",
         "en": "The research presents this bird as a fire-bringer and quest object with no frightening element; fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "korean-dragon": {
+    "power": "regional",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Naga Korea terutama dikaitkan dengan air, hujan, awan, dan pertanian, dan naga laut Timur mengubah kabut dan awan; pengaruh atas cuaca dan laut menjadi dasar Regional (versi utama naga Samguk Yusa).",
+        "en": "Korean dragons are chiefly tied to water, rain, clouds, and agriculture, and the East Sea dragon transforms clouds and fog; influence over weather and sea supports Regional (the main Samguk Yusa dragon).",
+        "claim_ids": [
+          "korean-dragon-c03",
+          "korean-dragon-c11"
+        ]
+      },
+      "threat": {
+        "id": "Hanya satu perbuatan merusak tercatat: naga laut menculik istri seorang bangsawan di paviliun pantai, yaitu ancaman terhadap individu.",
+        "en": "Only one harmful deed is recorded: a sea dragon seizes a lord's wife at a seaside pavilion, a threat to an individual.",
+        "claim_ids": [
+          "korean-dragon-c13"
+        ]
+      },
+      "fear": {
+        "id": "Kabut yang menyesatkan rombongan raja dan naga yang menculik seseorang ke laut merupakan kuasa di luar hukum alam; riset juga menampilkan naga sebagai pelindung negara.",
+        "en": "Fog that loses a royal party and a dragon that carries a person into the sea are powers beyond natural law; the research also shows the dragon as a protector of the state.",
+        "claim_ids": [
+          "korean-dragon-c11",
+          "korean-dragon-c13"
+        ]
       }
     }
   },
@@ -17671,6 +22377,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "krasnoludek": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dalam bentuk dialek krosnalek ia sebesar serangga namun menjadi raksasa saat ketakutan, kemampuan gaib yang melampaui manusia; tradisi daerahnya beragam.",
+        "en": "In the dialect form krosnalek it is insect-sized yet becomes a giant when frightened, a supernatural ability beyond humans; regional traditions vary.",
+        "claim_ids": [
+          "krasnoludek-c08",
+          "krasnoludek-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkannya sebagai penolong dan pelindung rumah; peran itu bukan bukti ancaman, dan perbuatan merusak tidak tercatat sehingga belum dinilai.",
+        "en": "The research portrays it as a helper and house protector; that role is not evidence of threat, and no destructive deeds are recorded, so it is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; ia digambarkan membantu dan tidak berbahaya, sehingga jenis ketakutannya belum dinilai.",
+        "en": "The research holds nothing frightening; it is described as helpful and harmless, so its kind of fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "krasue": {
     "power": "superhuman",
     "threat": "t1",
@@ -17766,6 +22497,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kuafu": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuafu adalah raksasa yang berlomba dengan matahari, meminum Sungai He dan Wei, dan menyusul bayangan matahari; dinilai superhuman karena ia tetap mati kehausan.",
+        "en": "Kuafu is a giant who races the sun, drinks the He and Wei rivers, and overtakes the sun's shadow; rated superhuman since he still dies of thirst.",
+        "claim_ids": [
+          "kuafu-c09",
+          "kuafu-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; Kuafu hanya mengejar matahari dan binasa, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; Kuafu only chases the sun and perishes, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; kisahnya berpusat pada kesombongan dan kematian, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; his tale centres on overreach and death, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "kubera": {
     "power": "divine",
     "threat": null,
@@ -17824,6 +22580,86 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kudan-yokai": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk berkepala manusia bertubuh sapi yang berbicara sejak lahir dan meramalkan bencana, wabah, atau panen sebelum mati adalah kemampuan di luar batas manusia.",
+        "en": "A human-headed bovine creature that speaks from birth and prophesies disasters, epidemics, or harvests before dying has an ability beyond human limits.",
+        "claim_ids": [
+          "kudan-yokai-c15",
+          "kudan-yokai-c17"
+        ]
+      },
+      "threat": {
+        "id": "Peran peramal dan jimat pelindung bukan bukti kerusakan; riset tidak memuat perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "A prophet and protective talisman is not evidence of destruction; the research holds no destructive deeds, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujud setengah manusia setengah sapi yang bernubuat tentang malapetaka menjadi dasar rasa takut supernatural.",
+        "en": "A half-human, half-bovine form that prophesies calamity gives it a supernatural kind of dread.",
+        "claim_ids": [
+          "kudan-yokai-c05",
+          "kudan-yokai-c15"
+        ]
+      }
+    }
+  },
+  "kui-chinese-mythology": {
+    "power": "regional",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Binatang berkaki satu yang keluar masuk air membawa angin dan hujan, sorot mata bagai matahari-bulan; versi binatang gunung dinilai di sini.",
+        "en": "A one-footed beast whose passage in and out of water brings wind and rain, its glare like the sun and moon; the mountain-beast sense is assessed here.",
+        "claim_ids": [
+          "kui-chinese-mythology-c05",
+          "kui-chinese-mythology-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat cuaca yang menyertainya tanpa korban atau kerusakan; ancaman belum dinilai.",
+        "en": "The research records only the weather that accompanies it, with no victims or damage; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Sorot mata seperti matahari-bulan dan suara seperti guntur melampaui hukum alam.",
+        "en": "A glare like the sun and moon and a voice like thunder exceed natural law.",
+        "claim_ids": [
+          "kui-chinese-mythology-c06"
+        ]
+      }
+    }
+  },
+  "kukulkan": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa tertinggi Maya Yucatec, pencipta, serta dewa hujan, angin, badai, dan kehidupan, dinilai sejajar Quetzalcoatl pada skala dunia.",
+        "en": "The chief god of the Yucatec Maya, a creator and god of rain, wind, storms, and life, is rated alongside Quetzalcoatl at world scale.",
+        "claim_ids": [
+          "kukulkan-c17",
+          "kukulkan-c18"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; sebutan ular jahat hanya pada versi Lacandon tanpa perbuatan, jadi ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; the evil-serpent label appears only in the Lacandon version without deeds, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewa pencipta dan pembawa hujan; versi Lacandon hanya menyebutnya jahat tanpa uraian, jadi Fear belum dinilai.",
+        "en": "The research describes a creator and rain-bringer; the Lacandon version merely calls him evil without detail, so Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "kulshedra": {
     "power": "regional",
     "threat": "t4",
@@ -17879,6 +22715,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "kun": {
+    "power": "regional",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Ikan yang membentang ribuan li dan berubah menjadi burung Peng; skala dalam perumpamaan Zhuangzi, jadi dinilai Regional secara hati-hati.",
+        "en": "A fish spanning thousands of li that transforms into the bird Peng; a scale from a Zhuangzi parable, so Regional is read cautiously.",
+        "claim_ids": [
+          "kun-c02",
+          "kun-c03",
+          "kun-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menyajikan Kun sebagai perumpamaan filosofis, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research presents Kun as a philosophical parable, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "kuperan": {
     "power": "superhuman",
     "threat": "t2",
@@ -17905,6 +22767,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset memuat kisah pengkhianatan dan pertarungan epik, tetapi tidak memuat unsur yang menimbulkan rasa takut khusus; rasa takut belum dinilai.",
         "en": "The research holds a tale of betrayal and heroic combat but nothing that evokes a particular kind of fear; fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "kurangaituku": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk gaib setengah perempuan setengah burung yang bersayap dan menempuh jarak jauh dalam tiga langkah; riset tidak memuat kuasa yang lebih besar.",
+        "en": "A supernatural half-woman, half-bird with wings who covers great distance in three strides; the research records no greater power.",
+        "claim_ids": [
+          "kurangaituku-c01",
+          "kurangaituku-c06",
+          "kurangaituku-c09"
+        ]
+      },
+      "threat": {
+        "id": "Ia menawan dan memenjarakan Hatupatu; perbuatannya dicatat terhadap satu individu.",
+        "en": "She captured and imprisoned Hatupatu; her deeds are recorded against a single individual.",
+        "claim_ids": [
+          "kurangaituku-c02"
+        ]
+      },
+      "fear": {
+        "id": "Wujud perempuan bersayap yang menombak burung dengan bibirnya dan terbang mengejar tawanannya adalah keberadaan gaib di luar hukum alam.",
+        "en": "A winged woman who spears birds with her lips and flies after her captive is a supernatural presence beyond natural law.",
+        "claim_ids": [
+          "kurangaituku-c06",
+          "kurangaituku-c08",
+          "kurangaituku-c01"
+        ]
       }
     }
   },
@@ -17959,6 +22853,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "kurayaro-c02",
           "kurayaro-c05"
         ]
+      }
+    }
+  },
+  "kurma": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Sebagai Akupara, kura-kura dunia yang menopang Bumi, serta penopang Gunung Mandara saat pengadukan lautan susu, skalanya setingkat dunia (tafsir editorial atas tradisi Hindu).",
+        "en": "As Akupara, the World-Turtle supporting the Earth, and the bearer of Mount Mandara during the churning of the milk ocean, his scale is world-level (an editorial reading of the Hindu tradition).",
+        "claim_ids": [
+          "kurma-c04",
+          "kurma-c36",
+          "kurma-c38"
+        ]
+      },
+      "threat": {
+        "id": "Riset memuat peran penopang dan penyelamat, bukan perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds a supporting and saving role, not destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan avatar Wisnu yang menolong para dewa, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes an avatar of Vishnu who aids the gods, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -18080,6 +23000,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "lady-in-red": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Hantu yang tampak nyata lalu lenyap, berbisik di telinga tamu, dan meninggalkan mutiara di bawah bantal melampaui kemampuan manusia.",
+        "en": "A ghost that appears real then vanishes, whispers in guests’ ears, and leaves pearls under pillows exceeds human ability.",
+        "claim_ids": [
+          "lady-in-red-c04",
+          "lady-in-red-c14",
+          "lady-in-red-c15"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut ia biasanya ramah dan tidak memuat perbuatan merusaknya; ancaman belum dinilai.",
+        "en": "The research says she is usually friendly and holds no destructive deeds by her; threat is not assessed.",
+        "claim_ids": [
+          "lady-in-red-c03"
+        ]
+      },
+      "fear": {
+        "id": "Sosok arwah bergaun merah yang muncul dan lenyap di tempat umum bersifat supernatural; ia umumnya ramah, jadi ini bukan tentang diburu.",
+        "en": "A red-gowned apparition that appears and vanishes in public places is supernatural; she is usually friendly, so it is not about being hunted.",
+        "claim_ids": [
+          "lady-in-red-c02",
+          "lady-in-red-c03",
+          "lady-in-red-c04"
+        ]
+      }
+    }
+  },
   "lady-midday": {
     "power": "superhuman",
     "threat": "t1",
@@ -18108,6 +23060,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "lady-midday-c04",
           "lady-midday-c05"
+        ]
+      }
+    }
+  },
+  "lake-tianchi-monster": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat laporan penampakan dan kecepatan renang; kekuatan terdokumentasi belum ada sehingga belum dinilai.",
+        "en": "The research holds only sighting reports and swimming speed; no documented power, so it is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive acts; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk tak dikenal berkepala mirip manusia dan berleher panjang yang muncul di danau gunung terasa ganjil, tanpa catatan serangan.",
+        "en": "Unidentified creatures with human-like heads and long necks in a mountain lake feel uncanny, with no recorded attacks.",
+        "claim_ids": [
+          "lake-tianchi-monster-c04",
+          "lake-tianchi-monster-c09"
         ]
       }
     }
@@ -18385,6 +23362,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "langben-rese": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Raksasa balada Nordik yang bertarung melawan pahlawan Vidrik dan masih berlari tanpa kepala setelah dipenggal melampaui manusia biasa.",
+        "en": "A giant of Nordic ballads who fought the hero Vidrik and still ran headless after being beheaded exceeds ordinary humans.",
+        "claim_ids": [
+          "langben-rese-c01",
+          "langben-rese-c03",
+          "langben-rese-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat duel dengan Vidrik dan penguburannya; tidak ada perbuatan merusak yang dicatat, sehingga ancaman belum dinilai.",
+        "en": "The research holds only the duel with Vidrik and his burial; no destructive deeds are recorded, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkannya pada manusia; Fear belum dinilai.",
+        "en": "The research does not describe the fear he provokes in people; fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "lange-wapper": {
     "power": "superhuman",
     "threat": "t1",
@@ -18649,6 +23652,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak menggambarkan Leiger sebagai sosok yang ditakuti; hanya Tõll yang gentar oleh dengkurnya dalam satu kisah jenaka, sehingga jenis ketakutan belum dinilai.",
         "en": "The research does not portray Leiger as a feared being; only Tõll is startled by his turning in bed in one humorous tale, so fear is unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "lembuswana": {
+    "power": "regional",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Penjaga Sungai Mahakam yang dipercaya berdiam di sungai itu, hidup di darat, air, dan udara, dan menjadi tunggangan dewa; kuasanya dinilai atas wilayah sungai, bukan sebagai dewa.",
+        "en": "The guardian of the Mahakam River believed to dwell in it, living on land, in water, and in the air, and the mount of a god; its power is rated over the river region, not as a deity.",
+        "claim_ids": [
+          "lembuswana-c03",
+          "lembuswana-c04",
+          "lembuswana-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset memuatnya sebagai penjaga dan lambang kerajaan, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research presents it as a guardian and royal emblem with no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Hibrida emas bergading yang terbang secepat kilat dan hidup di tiga ranah melampaui hukum alam; peran pelindung tidak menjadikannya predator.",
+        "en": "A golden tusked hybrid that flies as fast as lightning and lives in three realms exceeds natural law; its protective role does not make it a predator.",
+        "claim_ids": [
+          "lembuswana-c02",
+          "lembuswana-c26",
+          "lembuswana-c09"
+        ]
       }
     }
   },
@@ -19019,6 +24052,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "limokon": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung pertanda yang menjadi utusan roh dan pembawa peringatan atau dorongan bagi pelancong; kemampuannya meramal, tanpa kuasa atas ranah.",
+        "en": "An omen bird that serves as the spirits' envoy and carries warnings or encouragement to travelers; its ability is prophecy, without authority over a domain.",
+        "claim_ids": [
+          "limokon-c04",
+          "limokon-c19",
+          "limokon-c12"
+        ]
+      },
+      "threat": {
+        "id": "Pertanda dan larangan membunuhnya bukan bukti perbuatan merusak; ancaman belum dinilai.",
+        "en": "Omens and the taboo against killing it are not evidence of destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Suara yang dipercaya membawa pesan roh dan menentukan nasib perjalanan merupakan gejala di luar hukum alam; burungnya sendiri dipandang jinak.",
+        "en": "A voice believed to carry spirit messages and decide the fate of journeys lies beyond natural law; the bird itself is regarded as harmless.",
+        "claim_ids": [
+          "limokon-c04",
+          "limokon-c17",
+          "limokon-c18"
+        ]
+      }
+    }
+  },
   "linchetto": {
     "power": "superhuman",
     "threat": "t1",
@@ -19269,6 +24332,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "loki": {
+    "power": "divine",
+    "threat": "t6",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa penipu Nordik, saudara angkat sumpah Odin, yang berubah wujud menjadi elang, lalat, ikan salmon, anjing laut, hingga kuda betina dan datang ke Ragnarök bersama para raksasa es; dasar Divine adalah kedudukannya sebagai dewa dengan sihir pengubah wujud, bukan satu ranah tunggal.",
+        "en": "The Norse trickster god, Odin’s sworn brother, who changes into a hawk, fly, salmon, seal, even a mare and comes to Ragnarök with the frost-giants; Divine rests on his standing as a god with shapeshifting, not on a single domain.",
+        "claim_ids": [
+          "loki-c01",
+          "loki-c02",
+          "loki-c06",
+          "loki-c25"
+        ]
+      },
+      "threat": {
+        "id": "Perannya dalam kematian Baldr dikaitkan dengan datangnya Ragnarök, ia datang ke medan bersama para raksasa es dan bergulat hingga bumi berguncang; Threat 6 mengikuti pola penilaian Ragnarök, sebagai peserta penggerak, bukan satu-satunya sebab.",
+        "en": "His role in Baldr’s death is linked to the coming of Ragnarök, he arrives on the battle plain with the frost-giants, and his struggle shakes the earth; Threat 6 follows the Ragnarök pattern, as a driving participant rather than the sole cause.",
+        "claim_ids": [
+          "loki-c03",
+          "loki-c21",
+          "loki-c25",
+          "loki-c24"
+        ]
+      },
+      "fear": {
+        "id": "Perubahan wujud menjadi lalat, kutu, ikan, dan kuda betina yang melahirkan Sleipnir berada di luar hukum alam; Fear bukan penilaian moral dan riset juga mencatat ia sering menolong para dewa.",
+        "en": "Turning into a fly, flea, salmon, and a mare who bears Sleipnir exceeds natural law; Fear is not a moral judgment, and the research also records that he often helps the gods.",
+        "claim_ids": [
+          "loki-c06",
+          "loki-c10",
+          "loki-c17"
+        ]
+      }
+    }
+  },
   "longana": {
     "power": "superhuman",
     "threat": null,
@@ -19291,6 +24390,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menekankan sifat ambigu dan keindahannya tanpa unsur yang jelas menimbulkan ketakutan, sehingga jenis ketakutan belum dinilai.",
         "en": "The research stresses her ambiguity and beauty with no clear frightening element, so fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "longma": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda bersayap bersisik naga yang berjalan di atas air tanpa tenggelam dan menempuh tiga ratus mil; dasar Superhuman.",
+        "en": "A winged, dragon-scaled horse that walks on water without sinking and covers three hundred miles; this supports Superhuman.",
+        "claim_ids": [
+          "longma-c07",
+          "longma-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkannya sebagai pertanda penguasa bijak, bukan pelaku kerusakan; ancaman belum dinilai.",
+        "en": "The research presents it as an omen of a sage ruler, not a destroyer; threat is not assessed.",
+        "claim_ids": [
+          "longma-c02"
+        ]
+      },
+      "fear": {
+        "id": "Kemunculannya dicatat sebagai pertanda baik; riset tidak memuat unsur yang menakutkan, jadi Fear belum dinilai.",
+        "en": "Its appearance is recorded as a good omen; the research holds nothing frightening, so fear is not assessed.",
+        "claim_ids": [
+          "longma-c08",
+          "longma-c10"
+        ]
       }
     }
   },
@@ -19465,6 +24594,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "lucifer-c28",
           "lucifer-c29"
         ]
+      }
+    }
+  },
+  "luduan": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dipercaya menempuh 18.000 li sehari dan menguasai semua bahasa, kemampuan di luar batas manusia.",
+        "en": "Credited with traveling 18,000 li a day and speaking every language, abilities beyond human limits.",
+        "claim_ids": [
+          "luduan-c03",
+          "luduan-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat makhluk pertanda baik yang menyukai kehidupan dan membenci pembunuhan; ancaman belum dinilai.",
+        "en": "The research presents an auspicious beast that loves life and hates killing; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut terhadap makhluk pertanda baik ini; Fear belum dinilai.",
+        "en": "The research describes no fear of this auspicious creature; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -19735,6 +24889,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "ma-bong": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh Lanna yang berwujud kuda dan manusia, menghilang meninggalkan jejak kuku; versi utama dipakai dari kisah dua sahabat, bukan semua variasi.",
+        "en": "A Lanna spirit with horse and human form that vanishes leaving hoofprints; this uses the main tale of two friends, not every variant.",
+        "claim_ids": [
+          "ma-bong-c01",
+          "ma-bong-c03",
+          "ma-bong-c14"
+        ]
+      },
+      "threat": {
+        "id": "Beberapa versi menyebutnya memikat dan membunuh pemuda; korban yang dicatat adalah perseorangan.",
+        "en": "Some versions say it lures and kills young men; the recorded victims are individuals.",
+        "claim_ids": [
+          "ma-bong-c06",
+          "ma-bong-c16"
+        ]
+      },
+      "fear": {
+        "id": "Derap kuda tanpa wujud, mata merah seperti api, dan tubuh kuda pada wajah sahabat adalah kengerian supernatural.",
+        "en": "Hoofbeats with no visible source, fire-red eyes, and a horse's body under a friend's face create supernatural horror.",
+        "claim_ids": [
+          "ma-bong-c03",
+          "ma-bong-c13",
+          "ma-bong-c14"
+        ]
+      }
+    }
+  },
   "maa-alused": {
     "power": "superhuman",
     "threat": "t1",
@@ -19886,6 +25073,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "maero": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raksasa atau manusia liar pegunungan yang tubuhnya terpotong dapat menyatu kembali; ini melampaui kemampuan manusia, tetapi riset tidak menyebut skala kekuatan yang lebih besar.",
+        "en": "Mountain giants or wild men whose dismembered body can reassemble itself, which exceeds human ability, though the research states no larger scale of power.",
+        "claim_ids": [
+          "maero-c02",
+          "maero-c08"
+        ]
+      },
+      "threat": {
+        "id": "Mereka digambarkan ganas dan bersenjata gada batu, tetapi riset tidak memuat korban kelompok atau permukiman; ancaman dinilai pada tingkat pribadi.",
+        "en": "They are described as violent and armed with stone clubs, but the research records no group or settlement victims; the threat is rated at the personal level.",
+        "claim_ids": [
+          "maero-c03"
+        ]
+      },
+      "fear": {
+        "id": "Kepala yang tetap hidup dan memanggil tolong lalu tubuh yang menyatu kembali melampaui hukum alam; mereka adalah iwi-atua, bangsa gaib.",
+        "en": "A head that stays alive and calls for help, and a body that reassembles, exceed natural law; they are an iwi-atua, a supernatural people.",
+        "claim_ids": [
+          "maero-c07",
+          "maero-c08",
+          "maero-c01"
+        ]
+      }
+    }
+  },
   "maggy-moulach": {
     "power": "superhuman",
     "threat": "t1",
@@ -19914,6 +25132,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "maggy-moulach-c02",
           "maggy-moulach-c03"
         ]
+      }
+    }
+  },
+  "mahishasura": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Asura berwujud kerbau yang mampu berubah wujud dan memperoleh anugerah bahwa tak ada lelaki yang dapat membunuhnya; kemampuan gaib itu melampaui manusia.",
+        "en": "A buffalo-form asura who can shapeshift and obtained a boon that no man can kill him; these supernatural abilities exceed human limits.",
+        "claim_ids": [
+          "mahishasura-c02",
+          "mahishasura-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusaknya; ancaman belum dinilai.",
+        "en": "The research holds no account of his destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat dampaknya pada manusia atau dewa selain kekalahannya; ketakutan belum dinilai.",
+        "en": "The research holds nothing on his effect on humans or gods beyond his defeat; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -20025,6 +25268,68 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "mami-wata": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi kekayaan, kesuburan, dan penyembuhan yang dapat mengendalikan samudra dan sungai; penilaian memakai versi utama riset, dewi air Afrika.",
+        "en": "A goddess of wealth, fertility, and healing who can manipulate oceans and rivers; this uses the research's main version, the African water goddess.",
+        "claim_ids": [
+          "mami-wata-c05",
+          "mami-wata-c01"
+        ]
+      },
+      "threat": {
+        "id": "Pada pria yang tidak setia ia merampas kekayaan lalu membuatnya sakit atau gila, sehingga ancaman ditafsirkan pada individu.",
+        "en": "Against an unfaithful favoured man she strips his wealth and makes him ill or insane, so the threat is read at the individual scale.",
+        "claim_ids": [
+          "mami-wata-c13",
+          "mami-wata-c22"
+        ]
+      },
+      "fear": {
+        "id": "Kemampuan berubah wujud untuk memikat manusia dan sifat air yang ambivalen, menyembuhkan sekaligus merusak, melampaui hukum alam.",
+        "en": "Her ability to transform to seduce humans and her ambivalent, healing yet destructive nature exceed natural law.",
+        "claim_ids": [
+          "mami-wata-c05",
+          "mami-wata-c22"
+        ]
+      }
+    }
+  },
+  "mamlambo": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh air perempuan yang disebut dewi sungai Natal dan memberi keberuntungan kepada pemujanya; kuasa atas ranah sungai menjadi dasar Divine.",
+        "en": "A female water spirit called the goddess of the rivers of Natal who grants fortune to those who sacrifice to her; authority over the river domain supports Divine.",
+        "claim_ids": [
+          "mamlambo-c07",
+          "mamlambo-c01"
+        ]
+      },
+      "threat": {
+        "id": "Ia menuntut korban, kadang nyawa manusia, dan laporan 1997 mengaitkan hingga sembilan kematian dengannya; ini klaim populer modern sehingga ditafsirkan skala kelompok.",
+        "en": "She demands sacrifice, sometimes a human life, and a 1997 report attributed up to nine deaths to her; this is a modern popular claim, so it is read at group scale.",
+        "claim_ids": [
+          "mamlambo-c01",
+          "mamlambo-c09"
+        ]
+      },
+      "fear": {
+        "id": "Perubahan wujud menjadi ular, babon, atau wanita cantik, serta sifat memikat yang membawa kemakmuran sekaligus kehancuran, melampaui hukum alam.",
+        "en": "Shapeshifting into a snake, baboon, or beautiful woman, and a seductive nature that brings both prosperity and ruin, exceed natural law.",
+        "claim_ids": [
+          "mamlambo-c03",
+          "mamlambo-c12"
+        ]
+      }
+    }
+  },
   "managarmr": {
     "power": "divine",
     "threat": "t6",
@@ -20052,6 +25357,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "managarmr-c02",
           "managarmr-c03"
+        ]
+      }
+    }
+  },
+  "manaia-mythological-creature": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Perantara antara manusia dan roh serta penjaga dari kejahatan merupakan peran gaib; riset hanya memuat ukiran dan simbol sehingga kuasanya tidak lebih jauh dinilai.",
+        "en": "Messenger between mortals and spirits and guardian against evil is a supernatural role; the research covers carvings and symbols only, so its power is not rated further.",
+        "claim_ids": [
+          "manaia-mythological-creature-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; peran pelindung bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; a guardian role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujud hibrida kepala burung, ekor ikan, dan tubuh manusia terasa ganjil; sifatnya pelindung sehingga Fear hanya pada tingkat Unsettling.",
+        "en": "A hybrid of bird head, fish tail, and human body feels uncanny; as a guardian it rates only Unsettling.",
+        "claim_ids": [
+          "manaia-mythological-creature-c02",
+          "manaia-mythological-creature-c04"
         ]
       }
     }
@@ -20112,6 +25444,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "manannan-mac-lir-c09",
           "manannan-mac-lir-c03"
         ]
+      }
+    }
+  },
+  "manaul": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung pertanda yang diutus Bathala dan, dalam versi raja, dewa melemparkan batu raksasa kepadanya namun ia lolos, ditafsirkan melampaui manusia; sumber Pavón ditandai tidak sahih sehingga penilaian bersifat tafsir.",
+        "en": "An omen bird sent by Bathala and, in the king version, a being who escaped immense rocks hurled by a god is read as beyond human; the Pavón source is flagged as unreliable, so this is interpretive.",
+        "claim_ids": [
+          "manaul-c04",
+          "manaul-c20",
+          "manaul-c06"
+        ]
+      },
+      "threat": {
+        "id": "Dalam versi raja ia dikisahkan melahap anak burung dan sebagian burung lain, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "In the king version he devours chicks and some other birds, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "manaul-c18"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menjadikan Manaul sumber rasa takut yang jelas; Fear belum dinilai.",
+        "en": "The research holds no clear element making Manaul a source of fear; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -20250,6 +25610,68 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat penggambaran rasa takut yang ditimbulkannya; jenis ketakutan belum dinilai.",
         "en": "The research holds no account of the fear it provokes; the fear type remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "many-finned-sea-serpent": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Makhluk laut terbesar menurut Aelian, seukuran trireme, dan dilaporkan sepanjang sekitar 45 meter serta mampu mengimbangi kapal perang.",
+        "en": "The biggest sea monster in Aelian, comparable to a trireme, and reported at about 45 meters, keeping pace with a warship.",
+        "claim_ids": [
+          "many-finned-sea-serpent-c05",
+          "many-finned-sea-serpent-c07",
+          "many-finned-sea-serpent-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat penampakan dan ukuran, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds only sightings and size, without destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Menurut Aelian tak seorang pun berani memandangnya bila terdampar, dan bulu hidungnya yang panjang terasa ganjil, tanpa catatan memburu manusia.",
+        "en": "In Aelian no one would dare look at it if cast ashore, and its long nostril hairs feel uncanny, with no record of hunting humans.",
+        "claim_ids": [
+          "many-finned-sea-serpent-c05",
+          "many-finned-sea-serpent-c06"
+        ]
+      }
+    }
+  },
+  "mapinguari": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa berbulu yang kebal peluru kecuali dekat pusar, memakai bau busuk yang membuat gila dan raungan yang membuat manusia lari; riset juga mencatat bahwa ia hanya dikaitkan dengan cerita rakyat.",
+        "en": "A hairy giant effectively bulletproof save near the navel, with a stench that drives people mad and a roar that sends them fleeing; the research also notes it is purely folkloric.",
+        "claim_ids": [
+          "mapinguari-c08",
+          "mapinguari-c21",
+          "mapinguari-c10"
+        ]
+      },
+      "threat": {
+        "id": "Pemakan manusia yang melahap korban dari kepala, dengan satu laporan 1928 tentang seorang rekan yang dimangsa; korban yang dicatat adalah individu.",
+        "en": "A man-eater that devours victims head-first, with a 1928 account of a companion being eaten; the recorded victims are individuals.",
+        "claim_ids": [
+          "mapinguari-c09",
+          "mapinguari-c13"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang menunggu dalam remang hutan lalu menerkam dan memangsa manusia menimbulkan ketakutan menjadi mangsa; sisi pelindung hutan juga dicatat riset.",
+        "en": "A creature that lies in wait in the dim forest, lunges, and eats people evokes the fear of becoming prey; the research also notes its role as a forest protector.",
+        "claim_ids": [
+          "mapinguari-c10",
+          "mapinguari-c09",
+          "mapinguari-c19"
+        ]
       }
     }
   },
@@ -20527,6 +25949,60 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "maui": {
+    "power": "regional",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Menarik pulau-pulau dari dasar laut dengan kail gaib dan menjerat Matahari agar berjalan lambat; ia tokoh setengah dewa, bukan dewa yang disembah.",
+        "en": "He hauls islands up from the sea floor with a magic hook and snares the Sun to slow its passage; he is a demigod and folk hero rather than a worshipped god.",
+        "claim_ids": [
+          "maui-c04",
+          "maui-c09",
+          "maui-c11",
+          "maui-c14",
+          "maui-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset memuat perbuatan Māui yang justru memperbaiki hidup manusia; tidak ada perbuatan merusak berskala luas, sehingga ancaman belum dinilai.",
+        "en": "The research presents Māui’s deeds as improving human life and holds no large-scale destruction, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan Māui sebagai pahlawan budaya dan penipu yang jenaka, bukan sumber ketakutan; Fear belum dinilai.",
+        "en": "The research portrays Māui as a culture hero and rascally trickster rather than a source of dread; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "maushop": {
+    "power": "regional",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Raksasa yang dalam kepercayaan suku Aquinnah membentuk Martha’s Vineyard, Nantucket, dan pulau sekitarnya serta masih mengawasi nasib mereka menunjukkan kuasa atas bentang alam yang luas; dinilai dengan hormat sebagai tafsir editorial.",
+        "en": "A giant who, in Aquinnah belief, shaped Martha’s Vineyard, Nantucket, and neighbouring islands and still presides over their destinies shows power over a broad landscape; assessed respectfully as an editorial reading.",
+        "claim_ids": [
+          "maushop-c08",
+          "maushop-c14",
+          "maushop-c15"
+        ]
+      },
+      "threat": {
+        "id": "Ia digambarkan sebagai penyedia yang baik hati; riset tidak memuat perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "He is portrayed as a benevolent provider; the research holds no destructive deeds, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkannya; ia dihormati sebagai guru dan penyedia, sehingga Fear belum dinilai.",
+        "en": "The research does not describe fear he provokes; he is revered as a teacher and provider, so fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "mavka": {
     "power": "superhuman",
     "threat": "t1",
@@ -20646,6 +26122,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "meitei-dragons": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pakhangba, raja-dewa yang diberi takhta alam semesta untuk melindungi dunia dan memiliki kuasa ilahi, menjadi dasar Divine; penilaian mengikuti naga-raja ini, bukan semua naga Meitei.",
+        "en": "Pakhangba, the God-king given the throne of the universe to protect the world and holding divine power, supports Divine; the rating follows this dragon-king, not every Meitei dragon.",
+        "claim_ids": [
+          "meitei-dragons-c03",
+          "meitei-dragons-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak yang jelas; Poubi Lai hanya disebut tiran tanpa perbuatan, sehingga ancaman belum dinilai.",
+        "en": "The research holds no clear destructive deeds; Poubi Lai is only called a tyrant without any recorded acts, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perubahan wujud antara naga ular dan manusia serta kuasa ilahi bergerak di malam hari melampaui hukum alam.",
+        "en": "Changing between a serpentine dragon and a human, and divine power to move about at night, exceed natural law.",
+        "claim_ids": [
+          "meitei-dragons-c03",
+          "meitei-dragons-c06"
+        ]
+      }
+    }
+  },
   "melion": {
     "power": "superhuman",
     "threat": null,
@@ -20667,6 +26171,89 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset menceritakan lai tentang pengkhianatan dan pemulihan, bukan rasa takut yang ditimbulkan Melion; Fear belum dinilai.",
         "en": "The research tells a lai of betrayal and restoration, not of fear caused by Melion; fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "melon-heads": {
+    "power": "mortal",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Dalam versi utama mereka adalah anak-anak penderita hidrosefalus yang menyingkir ke hutan, sehingga kemampuannya tidak melampaui manusia; riset menegaskan tidak ada bukti nyata.",
+        "en": "In the main versions they are children with hydrocephalus who retreated into the woods, so their ability does not exceed human limits; the research stresses there is no real evidence.",
+        "claim_ids": [
+          "melon-heads-c19",
+          "melon-heads-c18"
+        ]
+      },
+      "threat": {
+        "id": "Mereka dikisahkan menyerang manusia yang masuk wilayahnya dan membunuh Dr. Crow, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "They are said to attack people who enter their territory and to have killed Dr. Crow, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "melon-heads-c01",
+          "melon-heads-c09",
+          "melon-heads-c12"
+        ]
+      },
+      "fear": {
+        "id": "Kengerian utamanya adalah dikejar dan dimangsa di hutan malam atau di tepi jalan; riset menilai kisah ini legenda urban tanpa bukti.",
+        "en": "The primary horror is being chased and preyed upon in night forests or by the roadside; the research treats the tale as an urban legend without evidence.",
+        "claim_ids": [
+          "melon-heads-c12",
+          "melon-heads-c17"
+        ]
+      }
+    }
+  },
+  "memphre": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya mencatat penampakan mirip ular laut; kemampuan atau kekuatan yang cukup untuk menilai level kuasa belum ada.",
+        "en": "The research records only sea-serpent-like sightings; no abilities or force sufficient to assess a power level are documented.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penduduk asli dikatakan takut berenang di danau yang dihuni ular laut, rasa takut yang tumbuh dari sesuatu yang ganjil dan tersembunyi di perairan.",
+        "en": "Indigenous people were said to fear swimming in a lake inhabited by a sea serpent, a fear growing from something uncanny hidden in the water.",
+        "claim_ids": [
+          "memphre-c07",
+          "memphre-c08"
+        ]
+      }
+    }
+  },
+  "menehune": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Bangsa kerdil yang tak terlihat kecuali oleh keturunannya dan mampu membangun bendungan serta heiau dalam semalam dengan kekuatan gaib; versi tradisi yang dipakai, bukan tafsir pascakontak.",
+        "en": "A dwarf-like people invisible except to their kin who raise dams and heiau in a single night through supernatural power; this follows the traditional account, not the post-contact interpretation.",
+        "claim_ids": [
+          "menehune-c12",
+          "menehune-c13",
+          "menehune-c15"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan Menehune sebagai pekerja yang bersedia melayani; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The research shows the Menehune as willing helpers; there are no destructive deeds, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan Menehune sebagai penebar rasa takut; Fear belum dinilai.",
+        "en": "The research does not depict the Menehune as inspiring fear; fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -20701,6 +26288,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "mercury-c06",
           "mercury-c40",
           "mercury-c41"
+        ]
+      }
+    }
+  },
+  "meretseger": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi kobra Thebes yang menjaga nekropolis dan Lembah Para Raja serta menghukum atau menyembuhkan; kuasa atas ranah itu menjadi dasar Divine.",
+        "en": "A Theban cobra goddess who guards the necropolis and Valley of the Kings and punishes or heals; authority over that domain supports Divine.",
+        "claim_ids": [
+          "meretseger-c01",
+          "meretseger-c05"
+        ]
+      },
+      "threat": {
+        "id": "Ia dipercaya menghukum pelanggar dengan gigitan berbisa, ditafsirkan pada skala individu.",
+        "en": "She is believed to punish transgressors with a poisonous bite, interpreted at an individual scale.",
+        "claim_ids": [
+          "meretseger-c05"
+        ]
+      },
+      "fear": {
+        "id": "Hukuman gaib berupa gigitan berbisa bagi pelanggar, dengan kemungkinan pemulihan bagi yang bertobat, bersifat supernatural.",
+        "en": "Divine punishment by poisonous bite for transgressors, with healing for the repentant, is supernatural in nature.",
+        "claim_ids": [
+          "meretseger-c05"
         ]
       }
     }
@@ -20821,6 +26437,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "miage-nyudo": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Sosok biksu kecil yang bertambah tinggi setiap kali dipandang ke atas melampaui kemampuan manusia; di sebagian cerita ia disebut bentuk yang dipakai hewan pengubah wujud.",
+        "en": "A small monk figure that grows taller whenever it is looked up at exceeds human ability; some accounts say shape-shifting animals take this form.",
+        "claim_ids": [
+          "miage-nyudo-c03",
+          "miage-nyudo-c14"
+        ]
+      },
+      "threat": {
+        "id": "Ia disebut menghancurkan dan membunuh musafir malam serta mencuri bekal dan uang; korban yang dicatat adalah pejalan perorangan.",
+        "en": "It is said to crush and kill night travelers and to steal their food and money; the recorded victims are individual wayfarers.",
+        "claim_ids": [
+          "miage-nyudo-c05",
+          "miage-nyudo-c08"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa yang menjulang tak wajar setiap kali dipandang dan menjatuhkan orang ke belakang berada di luar hukum alam.",
+        "en": "A giant that looms unnaturally whenever it is looked at and makes people fall backwards lies beyond natural law.",
+        "claim_ids": [
+          "miage-nyudo-c03",
+          "miage-nyudo-c11"
+        ]
+      }
+    }
+  },
   "michael": {
     "power": "divine",
     "threat": "t4",
@@ -20884,6 +26531,63 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "mikoshi-nyudo": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Yokai bertubuh biarawan yang makin tinggi dan makin panjang lehernya ketika dipandang ke atas adalah kemampuan di luar batas manusia; sebagian wilayah menafsirkannya sebagai hewan penjelma.",
+        "en": "A monk-shaped yokai that grows taller and longer-necked the more one looks up exceeds human limits; some regions read it as a transformed animal.",
+        "claim_ids": [
+          "mikoshi-nyudo-c11",
+          "mikoshi-nyudo-c07"
+        ]
+      },
+      "threat": {
+        "id": "Mengejutkan pelancong di jalan dan, dalam satu esai Edo, menjadi dewa penyakit yang menimbulkan demam pada orang; cakupannya ditafsirkan terhadap individu.",
+        "en": "It startles travellers on roads and, in one Edo essay, is a plague deity that gives people fever; the scope is interpreted as individuals.",
+        "claim_ids": [
+          "mikoshi-nyudo-c04",
+          "mikoshi-nyudo-c09"
+        ]
+      },
+      "fear": {
+        "id": "Sosok yang terus membesar saat dipandang dan lenyap oleh ucapan “mikoshita” adalah fenomena di luar hukum alam.",
+        "en": "A figure that keeps growing as it is watched and vanishes at the words “mikoshita” is a phenomenon beyond natural law.",
+        "claim_ids": [
+          "mikoshi-nyudo-c11",
+          "mikoshi-nyudo-c06"
+        ]
+      }
+    }
+  },
+  "milton-lizard": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat ukuran sekitar 15 kaki, desisan, dan penampakan di tempat rongsokan; tidak ada kekuatan terdokumentasi, sehingga kekuatan belum dinilai.",
+        "en": "The research gives only a size of about 15 feet, hissing, and sightings at a junkyard; no strength is documented, so power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat serangan atau perbuatan merusak; ia hanya mendesis dan lari, sehingga ancaman belum dinilai.",
+        "en": "The research holds no attacks or destructive deeds; it only hissed and fled, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Kadal raksasa yang muncul tiba-tiba dari tumpukan bangkai mobil dan mendesis menimbulkan rasa ganjil bagi para saksi, tanpa catatan memburu manusia.",
+        "en": "A giant lizard emerging suddenly from wrecked cars and hissing unsettled the witnesses, with no record of hunting people.",
+        "claim_ids": [
+          "milton-lizard-c01",
+          "milton-lizard-c03",
+          "milton-lizard-c06"
+        ]
+      }
+    }
+  },
   "min": {
     "power": "divine",
     "threat": null,
@@ -20942,6 +26646,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "minerva": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi kebijaksanaan, kerajinan, dan seni yang menaungi segala kerajinan, penemuan, dan ilmu, serta pemberi kemenangan dalam perang; kuasa atas ranah itu menjadi dasar Divine.",
+        "en": "A goddess of wisdom, crafts, and the arts who presided over all handicrafts, inventions, and sciences and bestowed victory in war; authority over these domains supports Divine.",
+        "claim_ids": [
+          "minerva-c01",
+          "minerva-c21",
+          "minerva-c28"
+        ]
+      },
+      "threat": {
+        "id": "Hukumannya terhadap Arachne (memukul lalu mengubahnya menjadi laba-laba, menurut Ovid) menyasar satu individu; dinilai pada skala pribadi, bukan bukti ancaman yang lebih luas.",
+        "en": "Her punishment of Arachne (striking her and turning her into a spider, per Ovid) targets a single individual; this is rated at personal scale, not evidence of wider threat.",
+        "claim_ids": [
+          "minerva-c08",
+          "minerva-c38",
+          "minerva-c40"
+        ]
+      },
+      "fear": {
+        "id": "Mengubah manusia menjadi laba-laba dengan ramuan Hecate dan menyingkap wujud dewi dari penyamaran perempuan tua berada di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "Turning a mortal into a spider with the herbs of Hecate and revealing herself from an old woman’s guise exceed natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "minerva-c35",
+          "minerva-c40"
+        ]
+      }
+    }
+  },
   "minhocao-legendary-creature": {
     "power": "monstrous",
     "threat": "t1",
@@ -20968,6 +26705,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "Dragging large animals under water supports the fear of becoming prey; the research does not name humans as targets.",
         "claim_ids": [
           "minhocao-legendary-creature-c03"
+        ]
+      }
+    }
+  },
+  "mino-waraji": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Jas hujan jerami yang berjalan tegak dengan sandal sebagai kaki dan roh pemiliknya terperangkap di dalamnya melampaui benda dan manusia biasa; skala yang lebih besar tidak dicatat.",
+        "en": "A straw raincoat walking upright on sandal feet, with its owner’s soul trapped inside, exceeds ordinary objects and humans; no larger scale is recorded.",
+        "claim_ids": [
+          "mino-waraji-c02",
+          "mino-waraji-c07",
+          "mino-waraji-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebutnya murung tetapi tidak berbahaya dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research calls it grumpy but harmless and holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Sosok jerami berjalan di tepi sawah atau rumpun bambu terasa ganjil dan tidak semestinya, tetapi tradisinya menyebutnya tidak berbahaya.",
+        "en": "A straw figure walking at the edge of rice fields or bamboo groves feels uncanny and out of place, though the tradition calls it harmless.",
+        "claim_ids": [
+          "mino-waraji-c07",
+          "mino-waraji-c10"
         ]
       }
     }
@@ -21008,6 +26774,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "mintuci": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Roh air setengah manusia setengah hewan yang dapat berubah menjadi pemuda dan merasuki orang melampaui manusia; peran penguasa ikan belum cukup untuk level lebih tinggi.",
+        "en": "A half-human, half-beast water spirit that can turn into a youth and possess people exceeds humans; its role controlling fish is not enough for a higher tier.",
+        "claim_ids": [
+          "mintuci-c02",
+          "mintuci-c13",
+          "mintuci-c18"
+        ]
+      },
+      "threat": {
+        "id": "Kisah menyebut mintuci menyeret manusia dan ternak ke bawah air serta memangsa mereka, yang menunjukkan ancaman terhadap individu.",
+        "en": "Accounts say the mintuci drag people and livestock underwater and devour them, indicating a threat to individuals.",
+        "claim_ids": [
+          "mintuci-c07",
+          "mintuci-c22"
+        ]
+      },
+      "fear": {
+        "id": "Penyeret korban ke dalam air yang menyobek dan memakan manusia menonjolkan ketakutan menjadi mangsa; ada juga jenis pirika mintuci yang membantu manusia.",
+        "en": "A creature dragging victims underwater to disembowel and eat them stresses predatory fear; benevolent pirika mintuci also exist.",
+        "claim_ids": [
+          "mintuci-c07",
+          "mintuci-c22",
+          "mintuci-c23"
+        ]
+      }
+    }
+  },
   "mitra": {
     "power": "divine",
     "threat": null,
@@ -21030,6 +26829,91 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan dewa perjanjian dan persahabatan, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a god of covenant and friendship, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "mixtecatl": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Raksasa putra Iztac-Mixcoatl yang menghuni bumi setelah Banjir Besar dan pendiri Mixtlan; sifat raksasa menjadi dasar, kemampuan rincinya tidak dicatat.",
+        "en": "A giant son of Iztac-Mixcoatl who populated the earth after the Great Flood and founded Mixtlan; his giant nature is the basis, and specific abilities are not recorded.",
+        "claim_ids": [
+          "mixtecatl-c01",
+          "mixtecatl-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; peran sebagai pendiri bangsa bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive acts; a role as founder of a people is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari tokoh ini; Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from this figure; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "mizuchi": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ular air besar yang menyemburkan racun hingga membunuh banyak pelintas dan dapat berubah menjadi rusa menjadi dasar kekuatan monster; versi utama adalah kisah Nihon Shoki, sedangkan sebagian pakar menafsirkannya dewa air.",
+        "en": "A great water serpent that spewed venom killing many passersby and could turn into a deer supports monstrous power; the main version is the Nihon Shoki tale, while some scholars read it as a water deity.",
+        "claim_ids": [
+          "mizuchi-c05",
+          "mizuchi-c06",
+          "mizuchi-c02"
+        ]
+      },
+      "threat": {
+        "id": "Racunnya mematikan banyak pelintas di tepi sungai, sehingga ancaman ditafsirkan pada skala kelompok.",
+        "en": "Its venom killed many passersby at the river fork, so the threat is interpreted at a group scale.",
+        "claim_ids": [
+          "mizuchi-c05"
+        ]
+      },
+      "fear": {
+        "id": "Racun gaib dan perubahan menjadi rusa melampaui hukum alam.",
+        "en": "Supernatural venom and the shift into a deer exceed natural law.",
+        "claim_ids": [
+          "mizuchi-c05",
+          "mizuchi-c06"
+        ]
+      }
+    }
+  },
+  "mo-chinese-zoology": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Makan besi dan tembaga saja serta gambar dan kulitnya dipercaya menolak kejahatan dan wabah, kemampuan di luar batas hewan biasa; versi utama adalah makhluk campuran Bai Juyi.",
+        "en": "Eating only iron and copper, with its image and pelt believed to ward off evil and pestilence, exceeds ordinary animals; this follows the composite creature of Bai Juyi.",
+        "claim_ids": [
+          "mo-chinese-zoology-c03",
+          "mo-chinese-zoology-c07",
+          "mo-chinese-zoology-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya menampilkan peran pelindung dan pola makan logam; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The research shows only a protective role and a metal diet; no destructive deeds are recorded, so threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Tubuh gabungan belalai gajah, mata badak, ekor sapi, dan cakar harimau terasa ganjil, bukan memburu; perannya justru menolak bala.",
+        "en": "A composite body of elephant trunk, rhinoceros eyes, ox tail, and tiger paws is uncanny rather than predatory; its role is to avert harm.",
+        "claim_ids": [
+          "mo-chinese-zoology-c02",
+          "mo-chinese-zoology-c07"
+        ]
       }
     }
   },
@@ -21090,6 +26974,70 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "moddey-dhoo-c01",
           "moddey-dhoo-c05"
+        ]
+      }
+    }
+  },
+  "mokele-mbembe": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Hewan sebesar gajah yang menurut laporan menyerang perahu dan membunuh awaknya; ini tafsir editorial atas laporan tradisi dan catatan, sedangkan para ilmuwan meragukan keberadaannya.",
+        "en": "An elephant-sized animal reported to attack canoes and kill their crews; this is an editorial reading of traditional and reported accounts, while scientists doubt it exists.",
+        "claim_ids": [
+          "mokele-mbembe-c03",
+          "mokele-mbembe-c04",
+          "mokele-mbembe-c12"
+        ]
+      },
+      "threat": {
+        "id": "Perahu yang mendekat disebut celaka dan awaknya dibunuh, sehingga ancaman ditafsirkan pada kelompok awak perahu, bukan wilayah luas.",
+        "en": "Approaching canoes are said to be doomed and their crews killed, so the threat is read at the scale of a boat crew, not a broad region.",
+        "claim_ids": [
+          "mokele-mbembe-c04"
+        ]
+      },
+      "fear": {
+        "id": "Penyerangan mendadak terhadap perahu di sungai dan rawa menjadi dasar rasa takut menjadi mangsa, walau pemakan tumbuhan dan jasad tidak dimakan.",
+        "en": "Sudden attacks on boats in rivers and swamps support the fear of becoming prey, even though it is a plant-eater and does not eat the bodies.",
+        "claim_ids": [
+          "mokele-mbembe-c04",
+          "mokele-mbembe-c06"
+        ]
+      }
+    }
+  },
+  "mokumokuren": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Mata hantu yang muncul di lubang shoji dan, dalam kisah, mencabut bola mata korban melampaui kemampuan manusia.",
+        "en": "Ghostly eyes that appear in shoji holes and, in tales, remove a sleeper's eyeballs exceed human ability.",
+        "claim_ids": [
+          "mokumokuren-c07",
+          "mokumokuren-c10",
+          "mokumokuren-c13"
+        ]
+      },
+      "threat": {
+        "id": "Kisah pencabutan mata menyasar satu penghuni rumah; riset juga menyebut makhluk ini tidak berbahaya, dan bahayanya terutama pada yokai pendampingnya.",
+        "en": "Tales of eyes being taken target a single occupant; the research also calls it harmless, with the real danger in the yokai that accompany it.",
+        "claim_ids": [
+          "mokumokuren-c08",
+          "mokumokuren-c10",
+          "mokumokuren-c13"
+        ]
+      },
+      "fear": {
+        "id": "Mata yang mengintai dari rumah rusak disebut tidak berbahaya tetapi sangat menyeramkan, jadi rasa takutnya bersifat ganjil.",
+        "en": "Eyes watching from a ruined house are called harmless but incredibly creepy, so the fear is an uncanny unease.",
+        "claim_ids": [
+          "mokumokuren-c07",
+          "mokumokuren-c08"
         ]
       }
     }
@@ -21262,6 +27210,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "mooinjer-veggey-c04",
           "mooinjer-veggey-c05"
         ]
+      }
+    }
+  },
+  "moon-rabbit": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kelinci bulan yang terus menumbuk ramuan abadi bagi para dewa dan Chang’e hidup di bulan, kemampuan gaib di atas hewan biasa; ia bukan figur kekuatan tempur.",
+        "en": "The Moon rabbit who ceaselessly pounds the elixir of life for the immortals and Chang’e lives on the Moon, a supernatural ability beyond an ordinary animal; it is not a combat figure.",
+        "claim_ids": [
+          "moon-rabbit-c06",
+          "moon-rabbit-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan kelinci yang dermawan dan berbudi, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a charitable, virtuous rabbit, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -21439,6 +27412,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "mothman": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Menurut saksi ia terbang menyusul mobil yang melaju 100 mil per jam; penafsir skeptis mengaitkan laporan dengan burung biasa.",
+        "en": "By witnesses’ accounts it flew alongside a car travelling at 100 miles per hour; skeptical readings link the reports to ordinary birds.",
+        "claim_ids": [
+          "mothman-c09",
+          "mothman-c32"
+        ]
+      },
+      "threat": {
+        "id": "Kaitan dengan runtuhnya Jembatan Silver hanya legenda pertanda, bukan perbuatan yang tercatat; ancaman belum dinilai.",
+        "en": "The link to the Silver Bridge collapse is an omen legend, not a recorded deed; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Mata merah menyala yang menghipnotis dan gangguan aneh pada telepon serta radio membangkitkan rasa ganjil, bukan pemangsaan.",
+        "en": "Glowing red hypnotic eyes and strange disruption of telephones and radios evoke uncanniness rather than predation.",
+        "claim_ids": [
+          "mothman-c07",
+          "mothman-c08",
+          "mothman-c26"
+        ]
+      }
+    }
+  },
   "motsognir": {
     "power": "superhuman",
     "threat": null,
@@ -21549,6 +27551,70 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Naga ini digambarkan melindungi dan bersujud kepada Buddha, tanpa unsur yang menimbulkan rasa takut; Fear belum dinilai.",
         "en": "This naga is shown protecting and bowing to the Buddha, with nothing that evokes fear; Fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "mujina": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Perubahan wujud menjadi komet, tiang pagar, batu, pohon, atau pendeta berjubah hitam serta api hantu melampaui kemampuan hewan atau manusia biasa.",
+        "en": "Transforming into comets, fence posts, stones, trees, or a black-robed priest, plus ghost-fire, exceeds the ability of an ordinary animal or human.",
+        "claim_ids": [
+          "mujina-c04",
+          "mujina-c05",
+          "mujina-c06"
+        ]
+      },
+      "threat": {
+        "id": "Penipuan dan menakut-nakuti orang dalam wujud 大入道 ditafsirkan sebagai ancaman personal; riset menyebut leluconnya tidak berbahaya.",
+        "en": "Deceiving and frightening people in the form of a 大入道 is interpreted as a personal-scale threat; the research calls its pranks harmless.",
+        "claim_ids": [
+          "mujina-c10",
+          "mujina-c14"
+        ]
+      },
+      "fear": {
+        "id": "Tipuan dan penampakan yang ganjil menimbulkan rasa tidak nyaman, bukan rasa diburu; riset menyebut hatinya lembut.",
+        "en": "Its tricks and uncanny appearances create unease rather than the fear of being hunted; the research describes a gentle heart.",
+        "claim_ids": [
+          "mujina-c10",
+          "mujina-c14",
+          "mujina-c15"
+        ]
+      }
+    }
+  },
+  "muki-mythology": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kurcaci tambang yang berubah menjadi hewan atau pria pirang dan bertubuh sangat berotot melampaui batas manusia, meski tingginya tidak sampai dua kaki.",
+        "en": "A mine dwarf who turns into an animal or a blond man and is disproportionately muscular exceeds human limits, though under two feet tall.",
+        "claim_ids": [
+          "muki-mythology-c05",
+          "muki-mythology-c14"
+        ]
+      },
+      "threat": {
+        "id": "Sebagian legenda menggambarkannya menyerang anak-anak atau penambang yang sendirian dan kesepakatannya dapat berbalik merugikan penambang, ditafsirkan pada individu.",
+        "en": "Some legends show it attacking children or isolated miners and its deals can backfire on miners, interpreted at the individual scale; other stories portray it as helpful.",
+        "claim_ids": [
+          "muki-mythology-c10",
+          "muki-mythology-c13"
+        ]
+      },
+      "fear": {
+        "id": "Perubahan wujud untuk menipu penambang dan sosok pucat bermata berkilau logam di bawah tanah melampaui hukum alam.",
+        "en": "Shapeshifting to deceive miners and a ghostly figure with metal-bright eyes underground exceed natural law.",
+        "claim_ids": [
+          "muki-mythology-c05",
+          "muki-mythology-c14"
+        ]
       }
     }
   },
@@ -21675,6 +27741,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "munjya-c01",
           "munjya-c02"
+        ]
+      }
+    }
+  },
+  "murkatta": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Arwah orang mati tanpa kepala dengan mata dan mulut di dada melampaui batas manusia.",
+        "en": "A headless spirit of the dead with eyes and a mouth in its chest exceeds human limits.",
+        "claim_ids": [
+          "murkatta-c01",
+          "murkatta-c03"
+        ]
+      },
+      "threat": {
+        "id": "Festival Ghode Jatra diadakan agar mata jahatnya tidak menimpa anak-anak, menyiratkan bahaya bagi individu; tidak ada catatan skala lebih besar.",
+        "en": "The Ghode Jatra festival is held to keep its evil eyes from children, implying danger to individuals; no larger scale is recorded.",
+        "claim_ids": [
+          "murkatta-c05"
+        ]
+      },
+      "fear": {
+        "id": "Hantu tanpa kepala yang membawa kepalanya di bawah lengan merupakan keberadaan supernatural.",
+        "en": "A headless ghost carrying its head under its arm is a supernatural presence.",
+        "claim_ids": [
+          "murkatta-c01",
+          "murkatta-c02"
         ]
       }
     }
@@ -22019,6 +28115,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "nahuelito-c02",
           "nahuelito-c06"
         ]
+      }
+    }
+  },
+  "namaka": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi laut dari keluarga Pele yang mengirim ombak pasang dan banjir, mengalahkan seluruh keluarga Pele.",
+        "en": "A sea goddess of the Pele family who sends tidal waves and floods and defeats Pele’s whole family.",
+        "claim_ids": [
+          "namaka-c01",
+          "namaka-c04",
+          "namaka-c11"
+        ]
+      },
+      "threat": {
+        "id": "Gelombang pasang dan banjir menghancurkan tanah dan rumah Pele serta memaksa keluarganya masuk ke laut; korbannya para dewa dalam perselisihan keluarga, jadi dinilai pada skala permukiman dengan hati-hati.",
+        "en": "Tidal waves and floods destroy Pele’s lands and homes and drive her family into the ocean; the victims are gods in a family feud, so a settlement scale is applied cautiously.",
+        "claim_ids": [
+          "namaka-c04",
+          "namaka-c11"
+        ]
+      },
+      "fear": {
+        "id": "Riset menyajikan Namaka dalam pertikaian antardewa, bukan sebagai sumber ketakutan manusia; Fear belum dinilai.",
+        "en": "The research presents Nāmaka within a feud among gods, not as a source of human fear; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -22420,6 +28545,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "nephthys": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi dalam Ennead Heliopolis yang berkuasa atas ranah perkabungan, malam, dan perlindungan, serta memanggil kembali jiwa Osiris dari kematian.",
+        "en": "A goddess of the Heliopolitan Ennead with authority over mourning, night, and protection, who calls Osiris’s soul back from death.",
+        "claim_ids": [
+          "nephthys-c01",
+          "nephthys-c05",
+          "nephthys-c14"
+        ]
+      },
+      "threat": {
+        "id": "Riset memuat peran pelindung dan peratap, bukan perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research describes a protective and mourning role rather than destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkannya; perannya pelindung orang mati, sehingga Fear belum dinilai.",
+        "en": "The research does not describe any fear she inspires; her role is protecting the dead, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "neptune": {
     "power": "divine",
     "threat": "t4",
@@ -22509,6 +28660,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "The research describes a protector of children, not a source of fear; Fear is not assessed.",
         "claim_ids": [
           "nezha-c05"
+        ]
+      }
+    }
+  },
+  "nguruvilu": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Ekor bercakar yang menyambar orang yang menyeberang dan pusaran maut di sungai menjadi dasar kekuatan monster air (versi utama: kepala rubah, tubuh ular).",
+        "en": "A clawed tail that snatches waders and killing whirlpools in rivers support aquatic monstrous power (main version: fox head, snake body).",
+        "claim_ids": [
+          "nguruvilu-c02",
+          "nguruvilu-c03",
+          "nguruvilu-c07"
+        ]
+      },
+      "threat": {
+        "id": "Korban yang tercatat adalah orang yang menyeberang atau berenang, sehingga ancaman ditafsirkan pada skala individu; sebagian tradisi menyebut ia tidak mengganggu bila dipuja.",
+        "en": "Recorded victims are people wading or bathing, so the threat is interpreted at an individual scale; one tradition says it does no harm when worshipped.",
+        "claim_ids": [
+          "nguruvilu-c03",
+          "nguruvilu-c07",
+          "nguruvilu-c11"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk ini menyambar dan memangsa orang di air serta memikat dengan air yang tampak dangkal, sehingga rasa takutnya bersifat diburu.",
+        "en": "It seizes and devours people in the water and lures them with deceptively shallow water, so the fear is that of being hunted.",
+        "claim_ids": [
+          "nguruvilu-c03",
+          "nguruvilu-c05",
+          "nguruvilu-c07"
         ]
       }
     }
@@ -22694,6 +28879,129 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "nine-eared-hound": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Telinganya meramalkan jumlah buruan dan anjing ini menuntun pemiliknya ke telur besar tempat anak petir menetas, kemampuan gaib di atas anjing biasa.",
+        "en": "Its ears foretell the number of prey and the hound leads its master to the great egg from which a thunder child hatches, abilities beyond an ordinary dog.",
+        "claim_ids": [
+          "nine-eared-hound-c04",
+          "nine-eared-hound-c05",
+          "nine-eared-hound-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds of the hound; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Anjing berkuping banyak yang telinganya bergerak sebagai pertanda dan melolong di tepi laut menimbulkan rasa ganjil, bukan perburuan manusia.",
+        "en": "A many-eared hound whose ears move as omens and which howls by the sea evokes uncanniness, not the hunting of people.",
+        "claim_ids": [
+          "nine-eared-hound-c04",
+          "nine-eared-hound-c08"
+        ]
+      }
+    }
+  },
+  "nine-headed-bird": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Guiche menurut Bencao Gangmu terbang dalam gelap, masuk rumah, dan mengambil jiwa manusia; kemampuan gaib dasar Superhuman.",
+        "en": "The Guiche per the Bencao Gangmu flies in the dark, enters homes, and takes people’s souls; this supernatural ability supports Superhuman.",
+        "claim_ids": [
+          "nine-headed-bird-c06",
+          "nine-headed-bird-c08"
+        ]
+      },
+      "threat": {
+        "id": "Pengambilan jiwa dan tetesan darah pembawa sial ditafsirkan mengancam penghuni satu rumah tangga.",
+        "en": "Soul-taking and misfortune-bearing blood are interpreted as a threat to the people of a single household.",
+        "claim_ids": [
+          "nine-headed-bird-c06"
+        ]
+      },
+      "fear": {
+        "id": "Burung pencabut jiwa yang membuat orang memadamkan lampu saat mendengar tangisnya menimbulkan kengerian supernatural; versi Guiche dinilai.",
+        "en": "A soul-taking bird whose cry makes people put out their lamps evokes supernatural dread; the Guiche version is assessed.",
+        "claim_ids": [
+          "nine-headed-bird-c06",
+          "nine-headed-bird-c07"
+        ]
+      }
+    }
+  },
+  "ningyo": {
+    "power": "superhuman",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kutukan kuat atas manusia yang melukainya dan daging yang diyakini memberi umur panjang melampaui kemampuan manusia.",
+        "en": "A powerful curse on those who wound it and flesh believed to grant long life exceed human ability.",
+        "claim_ids": [
+          "ningyo-c09",
+          "ningyo-c10"
+        ]
+      },
+      "threat": {
+        "id": "Dalam beberapa legenda seluruh kota ditelan gempa atau gelombang pasang setelah seorang nelayan membawa pulang ningyo, sehingga ancaman ditafsirkan berskala permukiman; hanya bila diganggu.",
+        "en": "In some legends whole towns are swallowed by earthquakes or tidal waves after a fisherman brings a ningyo home, so the threat is interpreted at settlement scale, and only when provoked.",
+        "claim_ids": [
+          "ningyo-c10"
+        ]
+      },
+      "fear": {
+        "id": "Wujud setengah ikan yang mengerikan, pertanda buruk saat terdampar, dan kutukannya berada di luar hukum alam.",
+        "en": "A hideous half-fish form, an ill omen when stranded, and a curse all lie beyond natural law.",
+        "claim_ids": [
+          "ningyo-c05",
+          "ningyo-c07",
+          "ningyo-c10"
+        ]
+      }
+    }
+  },
+  "ninki-nanka": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Naga rawa sepanjang sekitar 9 meter dengan tatapan maut seperti Medusa dan sisik yang berkilau; dinilai sebagai makhluk besar berkemampuan gaib.",
+        "en": "A marsh dragon about nine metres long with a deadly Medusa-like stare and shimmering scales; assessed as a large being with supernatural ability.",
+        "claim_ids": [
+          "ninki-nanka-c05",
+          "ninki-nanka-c06",
+          "ninki-nanka-c07"
+        ]
+      },
+      "threat": {
+        "id": "Pandangan matanya dipercaya mematikan dan membuat penduduk menjauhi rawa dan sungai subur, sehingga ditafsirkan mengancam kelompok yang berpapasan dengannya.",
+        "en": "Its gaze is believed to kill and it kept people away from fertile swamps and rivers, so it is interpreted as a threat to groups who meet it.",
+        "claim_ids": [
+          "ninki-nanka-c06",
+          "ninki-nanka-c08",
+          "ninki-nanka-c02"
+        ]
+      },
+      "fear": {
+        "id": "Tatapan yang mematikan dan sisik yang berubah warna untuk berkamuflase melampaui hukum alam.",
+        "en": "A fatal stare and scales that shimmer to camouflage it exceed natural law.",
+        "claim_ids": [
+          "ninki-nanka-c06",
+          "ninki-nanka-c07"
+        ]
+      }
+    }
+  },
   "nis-puk": {
     "power": "superhuman",
     "threat": "t1",
@@ -22725,6 +29033,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "nittaewo": {
+    "power": "mortal",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Mereka makhluk kerdil yang tak mampu melawan panah Veddha dan akhirnya dimusnahkan, sehingga kekuatannya tidak melampaui manusia.",
+        "en": "They are a small race that cannot resist Veddha arrows and were eventually exterminated, so their power does not exceed that of humans.",
+        "claim_ids": [
+          "nittaewo-c06",
+          "nittaewo-c09"
+        ]
+      },
+      "threat": {
+        "id": "Mereka menyerang berkelompok dan mencabik daging dengan kuku panjang, sehingga ditafsirkan mengancam kelompok orang.",
+        "en": "They attacked in companies and tore flesh with long nails, so they are interpreted as a threat to groups of people.",
+        "claim_ids": [
+          "nittaewo-c08",
+          "nittaewo-c11"
+        ]
+      },
+      "fear": {
+        "id": "Kanibal berbulu yang membelah perut korban yang sedang tidur menimbulkan ketakutan menjadi mangsa.",
+        "en": "Hairy cannibals who disembowel sleeping victims create the fear of becoming prey.",
+        "claim_ids": [
+          "nittaewo-c07",
+          "nittaewo-c08"
+        ]
+      }
+    }
+  },
   "nobusuma": {
     "power": "superhuman",
     "threat": "t1",
@@ -22752,6 +29091,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "nobusuma-c03",
           "nobusuma-c04"
+        ]
+      }
+    }
+  },
+  "nocnitsa": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh iblis perempuan bersayap seperti kelelawar yang dapat mencekik orang dalam tidurnya dan membawa penyakit melampaui kemampuan manusia.",
+        "en": "A winged female demon with bat-like wings that can choke sleepers and bring disease exceeds human ability.",
+        "claim_ids": [
+          "nocnitsa-c04",
+          "nocnitsa-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset mencatat gangguan dan pencekikan terhadap anak serta bayi yang tidur, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "The research records harassment and choking of sleeping children and infants, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "nocnitsa-c02",
+          "nocnitsa-c04"
+        ]
+      },
+      "fear": {
+        "id": "Roh malam yang menyiksa anak dan menyesatkan orang ke tempat tak berjejak berada di luar hukum alam.",
+        "en": "A night spirit that torments children and leads people into trackless country lies beyond natural law.",
+        "claim_ids": [
+          "nocnitsa-c07",
+          "nocnitsa-c15"
         ]
       }
     }
@@ -22835,6 +29205,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "noppera-bo-c02",
           "noppera-bo-c04",
           "noppera-bo-c10"
+        ]
+      }
+    }
+  },
+  "north-shore-monster": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk bertubuh buaya dan berkepala kuda yang ditaksir sekitar tujuh puluh lima kaki dengan jejak batu besar terbalik menunjukkan kekuatan monster; sebagian menduganya kerbau.",
+        "en": "A crocodile-bodied, horse-headed creature estimated at about seventy-five feet long with overturned boulders on its trail shows monstrous power; some suppose it was a buffalo.",
+        "claim_ids": [
+          "north-shore-monster-c04",
+          "north-shore-monster-c07",
+          "north-shore-monster-c09"
+        ]
+      },
+      "threat": {
+        "id": "Pada laporan 1877 makhluk itu menyerbu sekelompok pekerja pabrik garam hingga mereka lari ke pegunungan, ditafsirkan pada kelompok; Deseret News meragukan laporan itu.",
+        "en": "In the 1877 report the creature charged a group of saltworks workers who fled to the mountains, interpreted at group scale; the Deseret News doubted the report.",
+        "claim_ids": [
+          "north-shore-monster-c06",
+          "north-shore-monster-c07",
+          "north-shore-monster-c05"
+        ]
+      },
+      "fear": {
+        "id": "Raungan menakutkan dan serbuan ke arah para pekerja menempatkan kengeriannya pada diburu oleh pemangsa.",
+        "en": "A frightful bellow and a charge at the workers place its horror in being hunted by a predator.",
+        "claim_ids": [
+          "north-shore-monster-c06",
+          "north-shore-monster-c07"
         ]
       }
     }
@@ -22961,6 +29364,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "nukekubi": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kepala yang terlepas sepenuhnya dari tubuh dan dapat terbang adalah kemampuan di luar batas manusia, tanpa kuasa lain yang didokumentasikan.",
+        "en": "A head that detaches completely from the body and flies is beyond human limits, with no other power documented.",
+        "claim_ids": [
+          "nukekubi-c02",
+          "nukekubi-c05"
+        ]
+      },
+      "threat": {
+        "id": "Menurut Yokai.com, kepala terbangnya menghisap darah korban, ditafsirkan sebagai ancaman terhadap individu dan bukan kelompok atau permukiman.",
+        "en": "According to Yokai.com its flying head sucks victims’ blood, interpreted as a threat to individuals rather than groups or settlements.",
+        "claim_ids": [
+          "nukekubi-c06"
+        ]
+      },
+      "fear": {
+        "id": "Kepala terbang yang menghisap darah seperti vampir melanggar hukum alam sehingga masuk kategori supernatural.",
+        "en": "A flying head that drinks blood like a vampire defies natural law, placing it in the supernatural category.",
+        "claim_ids": [
+          "nukekubi-c02",
+          "nukekubi-c06"
+        ]
+      }
+    }
+  },
   "nun-q276563": {
     "power": "cosmic",
     "threat": "t7",
@@ -22988,6 +29421,98 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "nun-q276563-c02",
           "nun-q276563-c03"
+        ]
+      }
+    }
+  },
+  "nuno-sa-punso": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh leluhur kecil yang dapat mengutuk penerobos dengan penyakit, bengkak, atau memuntahkan darah melampaui kemampuan manusia.",
+        "en": "A small ancestral spirit that can curse trespassers with illness, swelling, or vomiting of blood exceeds human ability.",
+        "claim_ids": [
+          "nuno-sa-punso-c01",
+          "nuno-sa-punso-c04",
+          "nuno-sa-punso-c10"
+        ]
+      },
+      "threat": {
+        "id": "Pembalasannya menimpa orang yang merusak atau mengganggu sarangnya, sehingga ancaman ditafsirkan pada individu; catatan awal menyebut kepala diputar ke belakang.",
+        "en": "Its retribution falls on those who damage or disturb its mound, so the threat is interpreted at individuals; an early account mentions heads twisted backward.",
+        "claim_ids": [
+          "nuno-sa-punso-c03",
+          "nuno-sa-punso-c28"
+        ]
+      },
+      "fear": {
+        "id": "Kutukan yang dipercaya menjadi sebab penyakit yang tidak tersembuhkan obat modern bersifat supernatural, bukan diburu.",
+        "en": "A curse believed to cause illness modern medicine cannot cure is supernatural rather than predatory.",
+        "claim_ids": [
+          "nuno-sa-punso-c04",
+          "nuno-sa-punso-c05"
+        ]
+      }
+    }
+  },
+  "nuppeppo": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan melarikan diri dari warga yang marah dan, dalam satu sumber, menyamar sebagai tabib melampaui manusia biasa, tetapi kuasa lain tidak dicatat.",
+        "en": "Outrunning angry villagers and, in one source, disguising itself as a doctor exceed ordinary humans, but no further power is recorded.",
+        "claim_ids": [
+          "nuppeppo-c09",
+          "nuppeppo-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut nuppeppo tidak dikenal menimbulkan kerugian selain menjijikkan; ancaman belum dinilai.",
+        "en": "The research says the nuppeppo is not known to cause harm beyond being disgusting; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Gumpalan daging keriput yang berbau daging busuk muncul di kuburan dan kuil tua, menimbulkan rasa jijik dan ganjil, bukan rasa diburu.",
+        "en": "A wrinkled lump of flesh smelling of rotten meat appearing in graveyards and old temples creates disgust and unease rather than the fear of being hunted.",
+        "claim_ids": [
+          "nuppeppo-c05",
+          "nuppeppo-c07",
+          "nuppeppo-c08"
+        ]
+      }
+    }
+  },
+  "nure-onna": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Menyamar sebagai perempuan dengan bayi yang mendadak seberat batu besar sehingga korban tak bisa bergerak melampaui kemampuan manusia; versi ular laut berkepala perempuan.",
+        "en": "Disguising as a woman with a baby that turns as heavy as a boulder, pinning the victim, exceeds human ability; this is the sea-serpent-with-a-woman’s-head version.",
+        "claim_ids": [
+          "nure-onna-c11",
+          "nure-onna-c13"
+        ]
+      },
+      "threat": {
+        "id": "Ia memikat dan menghisap darah korban satu per satu, nelayan atau pelaut, sehingga ancamannya berskala individu.",
+        "en": "It lures and drains the blood of individual victims such as fishers and sailors, so the threat is individual in scale.",
+        "claim_ids": [
+          "nure-onna-c11",
+          "nure-onna-c14"
+        ]
+      },
+      "fear": {
+        "id": "Ular laut penghisap darah yang mengintai pantai untuk memangsa manusia menimbulkan ketakutan menjadi mangsa.",
+        "en": "A blood-drinking sea serpent haunting shores to eat humans evokes the fear of becoming prey.",
+        "claim_ids": [
+          "nure-onna-c07",
+          "nure-onna-c14"
         ]
       }
     }
@@ -23133,6 +29658,72 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "nyami-nyami": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa sungai Zambezi suku Tonga yang mengatur air sungai dan memastikan ikan serta pengairan ladang; kuasa atas ranah sungai menjadi dasar Divine.",
+        "en": "The Zambezi river god of the Tonga who rules the river's waters and ensures fish and field irrigation; authority over the river domain supports Divine.",
+        "claim_ids": [
+          "nyami-nyami-c01",
+          "nyami-nyami-c03",
+          "nyami-nyami-c14"
+        ]
+      },
+      "threat": {
+        "id": "Menurut legenda Kariba, kemarahannya memicu banjir 1957 yang menyapu bendungan setengah jadi dan membunuh banyak pekerja; peran utamanya pelindung, jadi ini ditafsirkan skala kelompok.",
+        "en": "In the Kariba legend his anger caused the 1957 floods that swept away the half-built dam and killed many workers; his main role is protective, so this is read at group scale.",
+        "claim_ids": [
+          "nyami-nyami-c17",
+          "nyami-nyami-c08",
+          "nyami-nyami-c09"
+        ]
+      },
+      "fear": {
+        "id": "Hilangnya para pekerja yang tenggelam dikaitkan dengan dewa sungai dan baru reda setelah ritual, sehingga rasa takutnya bersifat supernatural.",
+        "en": "The drowning of workers was attributed to the river god and resolved only after a ritual, giving a supernatural character to the fear.",
+        "claim_ids": [
+          "nyami-nyami-c09",
+          "nyami-nyami-c10",
+          "nyami-nyami-c11"
+        ]
+      }
+    }
+  },
+  "nymph": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi alam kecil yang mata airnya dipercaya memberi kuasa ramalan dan ilham puisi serta menyembuhkan orang sakit; kemampuan gaib itu melampaui manusia, tetapi riset menyebut mereka dewa minor (kategori umum, bukan satu sosok).",
+        "en": "Minor nature deities whose springs were thought to grant prophecy and poetic inspiration and to heal the sick; these supernatural abilities exceed human limits, but the research calls them minor deities (a general category, not one individual).",
+        "claim_ids": [
+          "nymph-c01",
+          "nymph-c13",
+          "nymph-c14"
+        ]
+      },
+      "threat": {
+        "id": "Nimfa di habitatnya dapat membuat manusia gila atau kehilangan akal (nympholepsy) dan menakuti pengelana yang sendirian; dinilai pada skala individu.",
+        "en": "Nymphs in their habitat may drive mortals insane or insensate (nympholepsy) and frighten solitary travellers; this is rated at individual scale.",
+        "claim_ids": [
+          "nymph-c21",
+          "nymph-c15"
+        ]
+      },
+      "fear": {
+        "id": "Kegilaan gaib pada tengah hari dan kemunculan yang menakuti pengelana adalah gangguan di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "Supernatural madness at midday and apparitions that frighten travellers are disturbances beyond natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "nymph-c21",
+          "nymph-c15"
+        ]
+      }
+    }
+  },
   "nyx": {
     "power": "cosmic",
     "threat": null,
@@ -23214,6 +29805,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "obayifo": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan mendiami tubuh orang biasa dan memancarkan cahaya fosfor saat berkelana malam melampaui manusia; kemampuan terbang dan berubah wujud hanya dicatat pada asiman yang disamakan dengannya.",
+        "en": "Inhabiting ordinary people and emitting phosphorescent light at night exceed human ability; flight and shapeshifting are recorded only for the asiman it is likened to.",
+        "claim_ids": [
+          "obayifo-c02",
+          "obayifo-c03",
+          "obayifo-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak yang konkret; ancaman belum dinilai.",
+        "en": "The research holds no concrete destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk mirip vampir dan penyihir yang menghuni tubuh orang biasa serta bercahaya di malam hari berada di luar hukum alam.",
+        "en": "A vampire- and witch-like being that dwells in ordinary people and glows at night lies beyond natural law.",
+        "claim_ids": [
+          "obayifo-c01",
+          "obayifo-c02",
+          "obayifo-c03"
+        ]
+      }
+    }
+  },
   "obyda": {
     "power": "superhuman",
     "threat": "t1",
@@ -23242,6 +29863,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "obyda-c04"
         ]
+      }
+    }
+  },
+  "oceanus": {
+    "power": "cosmic",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Titan tertua yang menjadi sungai air tawar pengelilingi bumi, sumber seluruh air tawar, dan pengatur benda langit yang terbit dan terbenam dari airnya; skala dunia ini mendasari Cosmic, dengan catatan awal mitos kerap memandangnya sebagai unsur.",
+        "en": "The eldest Titan, personified as the fresh-water river encircling the earth, the source of all fresh water, and regulator of heavenly bodies rising from and setting into his waters; this world scale supports Cosmic, noting early myth often saw him as an element.",
+        "claim_ids": [
+          "oceanus-c02",
+          "oceanus-c04",
+          "oceanus-c14",
+          "oceanus-c25"
+        ]
+      },
+      "threat": {
+        "id": "Satu-satunya perbuatan merusak yang tercatat adalah ombak besar untuk menghentikan Herakles yang akhirnya ditenangkan; ini pada skala pribadi, dan ia tidak ikut berperang melawan Zeus.",
+        "en": "The only hostile act recorded is raising great waves to stop Hercules, who made him calm the waters; this is personal scale, and he did not join the war against Zeus.",
+        "claim_ids": [
+          "oceanus-c27",
+          "oceanus-c15"
+        ]
+      },
+      "fear": {
+        "id": "Riset menggambarkan Oceanus sebagai dewa yang tenang, tidak berperang, dan tanpa kultus; tidak ada unsur yang menimbulkan rasa takut, sehingga Fear belum dinilai.",
+        "en": "The research describes Oceanus as a placid god who did not fight and had no cult; nothing in it evokes fear, so Fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -23274,6 +29925,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "ocho-kochi-c08",
           "ocho-kochi-c05"
+        ]
+      }
+    }
+  },
+  "oci-koci": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Iblis berbulu lebat dengan cakar panjang dan kapak yang membelah lawan menjadi dua, serta bisa hidup kembali bila ditembak lagi, setara monster besar.",
+        "en": "A thickly haired demon with long claws and an axe that splits opponents in two, and which revives if shot again, matches a great monster.",
+        "claim_ids": [
+          "oci-koci-c03",
+          "oci-koci-c04",
+          "oci-koci-c05"
+        ]
+      },
+      "threat": {
+        "id": "Menghantui desa pada musim dingin, memakan anak laki-laki dan anak sapi, serta membunuh pejalan kaki dengan pelukan; ditafsirkan pada skala kelompok. Versi utama: kepercayaan Megrel.",
+        "en": "Haunting villages in winter, eating boys and calves and killing passers-by by embrace is interpreted at group scale. Main version: Megrel belief.",
+        "claim_ids": [
+          "oci-koci-c02",
+          "oci-koci-c07"
+        ]
+      },
+      "fear": {
+        "id": "Pemangsa berbulu yang memakan anak dan membunuh pejalan kaki menimbulkan rasa takut menjadi mangsa.",
+        "en": "A hairy predator that eats children and kills passers-by evokes the fear of becoming prey.",
+        "claim_ids": [
+          "oci-koci-c02",
+          "oci-koci-c07"
         ]
       }
     }
@@ -23340,6 +30023,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "odin-c13",
           "odin-c19",
           "odin-c22"
+        ]
+      }
+    }
+  },
+  "ogopogo": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk seperti ular sepanjang hingga 15 m, bergerak sangat cepat, dan konon menciptakan badai dengan ekornya menjadi dasar kekuatan monster; keberadaannya sebagai hewan tidak terbukti.",
+        "en": "A serpent-like creature up to 15 m long that moves at great speed and is said to raise storms with its tail supports monstrous power; its existence as an animal is unproven.",
+        "claim_ids": [
+          "ogopogo-c03",
+          "ogopogo-c04",
+          "ogopogo-c05"
+        ]
+      },
+      "threat": {
+        "id": "Dikisahkan menenggelamkan korban dan keluarga Timbasket di kanonya, serta menyeret kuda ke dalam air, ancaman pada skala kelompok; sebagian tradisi Syilx memandangnya roh suci.",
+        "en": "It is said to drown victims and the family of Timbasket in their canoe and to drag horses under, a group-scale threat; some Syilx tradition regards it as a sacred spirit.",
+        "claim_ids": [
+          "ogopogo-c04",
+          "ogopogo-c09",
+          "ogopogo-c12"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk danau yang menyeret dan menenggelamkan penyeberang menimbulkan rasa takut menjadi mangsa.",
+        "en": "A lake creature that drags and drowns those crossing evokes the fear of becoming prey.",
+        "claim_ids": [
+          "ogopogo-c04",
+          "ogopogo-c12"
         ]
       }
     }
@@ -23500,6 +30216,97 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "okuri-inu": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Anjing atau serigala gaib yang menyergap dengan kecepatan supernatural dan membuat yokai serta hewan buas lain menjauh melampaui hewan biasa; riset tidak merinci kekuatan yang lebih besar.",
+        "en": "A supernatural dog or wolf that pounces with supernatural speed and keeps other yokai and wild animals away exceeds ordinary animals; no greater strength is detailed.",
+        "claim_ids": [
+          "okuri-inu-c06",
+          "okuri-inu-c02"
+        ]
+      },
+      "threat": {
+        "id": "Yang terjatuh dalam perjalanan malam diterkam dan dicabik, ditafsirkan sebagai ancaman terhadap individu; ada juga versi pelindung yang tidak menyerang.",
+        "en": "A traveller who falls on a night walk is pounced on and torn apart, read as a threat to individuals; some versions are protective and do not attack.",
+        "claim_ids": [
+          "okuri-inu-c05",
+          "okuri-inu-c11"
+        ]
+      },
+      "fear": {
+        "id": "Membuntuti pejalan sendirian dari jarak aman lalu menerkam bila ia tersandung adalah rasa takut menjadi mangsa.",
+        "en": "Stalking a lone traveller from a safe distance and pouncing if they stumble is the fear of becoming prey.",
+        "claim_ids": [
+          "okuri-inu-c05",
+          "okuri-inu-c03"
+        ]
+      }
+    }
+  },
+  "olanoiko-zakurra": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh anjing abu-abu besar penjaga gua Olanoi yang termasuk irelu (roh) mitologi Basque menunjukkan sifat gaib di atas hewan biasa; kekuatan rincinya tidak dicatat.",
+        "en": "A big grey dog spirit guarding the Olanoi cave and counted among the irelu (spirits) of Basque mythology shows a supernatural nature beyond an ordinary animal; its specific powers are not recorded.",
+        "claim_ids": [
+          "olanoiko-zakurra-c01",
+          "olanoiko-zakurra-c07"
+        ]
+      },
+      "threat": {
+        "id": "Roh ini menyerang siapa pun yang mendekati guanya, sehingga ancaman ditafsirkan pada individu yang datang ke gua.",
+        "en": "The spirit attacks anyone who approaches its cave, so the threat is interpreted at the scale of individuals who come near.",
+        "claim_ids": [
+          "olanoiko-zakurra-c03"
+        ]
+      },
+      "fear": {
+        "id": "Roh berbentuk anjing yang bersemayam di gua dan menyerang pendatang berada di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "A dog-shaped spirit that dwells in a cave and attacks those who approach lies beyond natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "olanoiko-zakurra-c02",
+          "olanoiko-zakurra-c07"
+        ]
+      }
+    }
+  },
+  "olokun": {
+    "power": "divine",
+    "threat": "t6",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa laut dan perairan, kekayaan, serta kesuburan; kuasa atas ranah laut menjadi dasar Divine, dan versi Edo menyebutnya putra sulung Osanobua.",
+        "en": "A deity of the sea and waters, wealth, and fertility; authority over the sea supports Divine, and the Edo version calls him the senior son of Osanobua.",
+        "claim_ids": [
+          "olokun-c01",
+          "olokun-c08"
+        ]
+      },
+      "threat": {
+        "id": "Menurut satu sumber, ia pernah mencoba membunuh umat manusia dengan air bah sebelum dirantai Obbatalá; ini percobaan yang digagalkan dan hanya satu sumber, jadi Global ditafsirkan sebagai potensi.",
+        "en": "One source says he tried to kill humanity with a flood before Obbatalá chained him; this was a foiled attempt from a single source, so Global is read as a potential.",
+        "claim_ids": [
+          "olokun-c20"
+        ]
+      },
+      "fear": {
+        "id": "Laut dalam sisi yang menakutkan dan asing bagi manusia, dengan upaya menenggelamkan manusia, menekankan betapa kecilnya kendali manusia.",
+        "en": "The sea in its terrifying aspect, alien to humans, with an attempt to drown humanity, stresses how little control people have.",
+        "claim_ids": [
+          "olokun-c19",
+          "olokun-c20"
+        ]
+      }
+    }
+  },
   "onikuma": {
     "power": "monstrous",
     "threat": "t2",
@@ -23650,6 +30457,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "orang-minyak": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Berlumur minyak hitam, ia memanjat dinding dan luput dari tangkapan, dan saksi menyebut ia merayap naik tangga lalu melompat ke atap dan lenyap; sebagian versi menyebutnya penyihir manusia, dan ahli skeptis menilai kemampuannya tidak masuk akal.",
+        "en": "Coated in black grease, it climbs walls and escapes capture, and a witness says it crawled up stairs, jumped onto a roof, and vanished; some versions make it a human warlock, and a skeptic calls its abilities implausible.",
+        "claim_ids": [
+          "orang-minyak-c02",
+          "orang-minyak-c18",
+          "orang-minyak-c04",
+          "orang-minyak-c14"
+        ]
+      },
+      "threat": {
+        "id": "Ia menculik perempuan muda pada malam hari dan disebut sebagai pemerkosa; sasaran perseorangan, meski kisahnya memicu ronda warga bersenjata.",
+        "en": "It abducts young women at night and is called a rapist; the targets are individuals, although the tales prompted armed citizen patrols.",
+        "claim_ids": [
+          "orang-minyak-c01",
+          "orang-minyak-c03",
+          "orang-minyak-c19"
+        ]
+      },
+      "fear": {
+        "id": "Ia memburu perempuan muda pada malam hari dan tidak pernah tertangkap, sehingga rasa takutnya adalah menjadi mangsa.",
+        "en": "It hunts young women at night and has never been captured, so the fear is that of becoming prey.",
+        "claim_ids": [
+          "orang-minyak-c01",
+          "orang-minyak-c03",
+          "orang-minyak-c20"
+        ]
+      }
+    }
+  },
   "orang-pendek": {
     "power": "mortal",
     "threat": "t1",
@@ -23708,6 +30550,68 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "ordog-c05",
           "ordog-c06"
+        ]
+      }
+    }
+  },
+  "osan-kitsune": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Menyamar sebagai perempuan cantik dan berubah menjadi singa dengan api di ekor melampaui kemampuan manusia; versi utama adalah rubah folklor Chugoku.",
+        "en": "Disguising itself as a beautiful woman and turning into a lion with fire on its tail exceeds human ability; the main version is the Chugoku folklore fox.",
+        "claim_ids": [
+          "osan-kitsune-c07",
+          "osan-kitsune-c09"
+        ]
+      },
+      "threat": {
+        "id": "Tipuan terhadap pemuda hingga rambutnya digigit dan dijadikan biksu ditafsirkan sebagai ancaman bagi individu; riset juga mencatat rubah Eba yang tidak pernah membunuh.",
+        "en": "Tricks that leave a young man with his hair bitten off and made a monk are interpreted as an individual-scale threat; the research also notes the Eba fox never killed people.",
+        "claim_ids": [
+          "osan-kitsune-c18",
+          "osan-kitsune-c11"
+        ]
+      },
+      "fear": {
+        "id": "Penyamaran, api di ekor, dan perubahan menjadi singa tidak dapat dijelaskan oleh hukum alam.",
+        "en": "Its disguises, tail fire, and transformation into a lion cannot be explained by natural law.",
+        "claim_ids": [
+          "osan-kitsune-c07",
+          "osan-kitsune-c09"
+        ]
+      }
+    }
+  },
+  "oseichu": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Serangga atau penyakit yang menirukan ucapan penderitanya dari dalam perut merupakan kemampuan gaib di luar batas biasa; riset juga mencatat tafsir bahwa ini hanya cacing gelang.",
+        "en": "An insect or illness that mimics the sufferer’s speech from inside the belly is a supernatural ability beyond the ordinary; the research also notes the reading that it is merely a roundworm.",
+        "claim_ids": [
+          "oseichu-c01",
+          "oseichu-c04"
+        ]
+      },
+      "threat": {
+        "id": "Mulut di perut itu menyiksa penderita dengan demam tinggi bila permintaannya ditolak, sehingga ancamannya terbatas pada satu penderita.",
+        "en": "The belly mouth torments the patient with high fever if refused, so its threat is limited to a single sufferer.",
+        "claim_ids": [
+          "oseichu-c10",
+          "oseichu-c04"
+        ]
+      },
+      "fear": {
+        "id": "Suara dan mulut yang tumbuh di perut sendiri terasa ganjil dan tidak semestinya, lebih mengusik daripada memburu.",
+        "en": "A voice and mouth growing in one’s own belly feel uncanny and out of place, more unsettling than predatory.",
+        "claim_ids": [
+          "oseichu-c02",
+          "oseichu-c04"
         ]
       }
     }
@@ -23772,6 +30676,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "otora-kitsune": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Merasuki orang hingga ia berbicara dan bertindak tidak seperti biasa melampaui kemampuan manusia.",
+        "en": "Possessing people so that they speak and act unlike their usual selves exceeds human ability.",
+        "claim_ids": [
+          "otora-kitsune-c05",
+          "otora-kitsune-c06"
+        ]
+      },
+      "threat": {
+        "id": "Perasukan menyiksa penderita yang sakit, dan riset mencatat bahaya bagi anggota keluarga yang tidak disebut saat pengusiran; cakupannya ditafsirkan sebatas individu atau rumah tangga.",
+        "en": "Possession afflicts mostly sick individuals, and the research notes harm to family members not named during removal; the scope is interpreted as individual or household.",
+        "claim_ids": [
+          "otora-kitsune-c03",
+          "otora-kitsune-c08"
+        ]
+      },
+      "fear": {
+        "id": "Perasukan oleh rubah dan penderita yang membicarakan Pertempuran Nagashino tidak dapat dijelaskan oleh hukum alam.",
+        "en": "Fox possession and sufferers speaking of the Battle of Nagashino cannot be explained by natural law.",
+        "claim_ids": [
+          "otora-kitsune-c03",
+          "otora-kitsune-c06"
+        ]
+      }
+    }
+  },
   "otoroshi": {
     "power": null,
     "threat": null,
@@ -23822,6 +30757,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "otso-c01",
           "otso-c07"
+        ]
+      }
+    }
+  },
+  "ouni": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Yamauba yang memintal benang dalam jumlah besar dalam semalam, dengan kecepatan mustahil bagi manusia, memiliki kemampuan di atas manusia; riset tidak menyebut kuasa lain.",
+        "en": "A yamauba who spins an enormous amount of thread in one night, at a speed impossible for humans, has abilities beyond humans; no other power is mentioned.",
+        "claim_ids": [
+          "ouni-c07",
+          "ouni-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkannya ramah kepada tuan rumah yang baik dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research describes her as friendly to kind hosts and holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perempuan tua bermuka marah dengan tubuh tertutup rambut hitam panjang yang muncul tengah malam menimbulkan rasa ganjil, meski ramah.",
+        "en": "An old woman with an angry face and a body covered in long black hair arriving at night creates uncanny unease, even though she is friendly.",
+        "claim_ids": [
+          "ouni-c05",
+          "ouni-c06"
         ]
       }
     }
@@ -23883,6 +30846,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "pachamama": {
+    "power": "cosmic",
+    "threat": "t6",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewi purba yang melambangkan ruang-waktu, dari kesuburannya kosmos lahir dan bumi disuburkan, berkuasa pada skala dunia.",
+        "en": "A primordial goddess representing space-time, from whose fertility the cosmos is born and the earth fertilized, with world-scale power.",
+        "claim_ids": [
+          "pachamama-c01",
+          "pachamama-c04",
+          "pachamama-c14"
+        ]
+      },
+      "threat": {
+        "id": "Saat disakiti ia dapat menghancurkan manusia dan segala yang ada di atas atau di dalamnya, bahkan merusak keselarasan semesta bila tidak diberi persembahan; ancaman ini bersyarat, bukan sifat utamanya.",
+        "en": "When offended she can destroy people and everything above or within her, even upsetting universal harmony if not offered to; this threat is conditional, not her primary nature.",
+        "claim_ids": [
+          "pachamama-c10",
+          "pachamama-c15"
+        ]
+      },
+      "fear": {
+        "id": "Ibu pemberi hidup yang bisa menjadi kejam dan merusak mengingatkan manusia akan ketergantungan total pada bumi.",
+        "en": "A life-giving mother who can turn cruel and destructive reminds people of their complete dependence on the earth.",
+        "claim_ids": [
+          "pachamama-c10",
+          "pachamama-c15"
+        ]
+      }
+    }
+  },
   "pakhangba": {
     "power": "divine",
     "threat": null,
@@ -23933,6 +30928,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "pangu-c06",
           "pangu-c11"
         ]
+      }
+    }
+  },
+  "panhu": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Anjing-naga yang berubah menjadi manusia dan menyerahkan kepala jenderal musuh menunjukkan kemampuan di luar manusia biasa; versi utama kisah asal-usul yang dipakai.",
+        "en": "A dragon-dog that becomes a man and brings back an enemy general’s head shows ability beyond ordinary humans; this uses the main origin-myth version.",
+        "claim_ids": [
+          "panhu-c02",
+          "panhu-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak di luar membunuh satu jenderal atas perintah raja; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds beyond killing one general at a king’s command; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menempatkan Panhu sebagai leluhur dan dewa yang dipuja, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research treats Panhu as an ancestor and worshiped figure, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -24301,6 +31321,59 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "peng": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Punggung Peng membentang ribuan li dan sayapnya seperti awan, serta memukul air sejauh tiga ribu li saat bermigrasi; ukuran raksasa menjadi dasar Monstrous.",
+        "en": "Peng's back spans thousands of li and its wings are like clouds, and it beats the water for three thousand li in migration; its giant scale supports Monstrous.",
+        "claim_ids": [
+          "peng-c05",
+          "peng-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat ukuran dan penerbangan Peng, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds only Peng's size and flight, without destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; Peng hadir dalam perumpamaan Zhuangzi, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; Peng appears in a Zhuangzi parable, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "penghou": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Roh yang berevolusi dari esensi kayu dan menghuni pohon berusia seribu tahun melampaui hewan biasa, tetapi riset tidak mencatat kuasa lain; ia juga dalam kisah dimasak dan dimakan.",
+        "en": "A spirit evolved from the essence of wood that possesses thousand-year-old trees exceeds an ordinary animal, but the research records no further power; in the tale it is also cooked and eaten.",
+        "claim_ids": [
+          "penghou-c03",
+          "penghou-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak oleh penghou; ancaman belum dinilai.",
+        "en": "The research holds no destructive acts by the penghou; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk berwajah manusia dan bertubuh anjing yang keluar bersama darah dari pohon yang ditebang menimbulkan rasa ganjil, bukan rasa diburu.",
+        "en": "A human-faced, dog-bodied creature emerging with blood from a felled tree creates uncanny unease rather than the fear of being hunted.",
+        "claim_ids": [
+          "penghou-c04",
+          "penghou-c07"
+        ]
+      }
+    }
+  },
   "perkunas": {
     "power": "divine",
     "threat": null,
@@ -24596,6 +31669,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "pincoya": {
+    "power": "regional",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Tarian yang menentukan ikan dan kerang melimpah atau langka di pesisir Chiloé menunjukkan pengaruh atas kesuburan laut suatu wilayah.",
+        "en": "Her dance deciding whether fish and shellfish are plentiful or scarce shows influence over the sea fertility of a coastal region.",
+        "claim_ids": [
+          "pincoya-c03",
+          "pincoya-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkannya sebagai pelindung baik hati dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research portrays her as a kind protector and holds no destructive deeds; threat is not assessed.",
+        "claim_ids": [
+          "pincoya-c11",
+          "pincoya-c12"
+        ]
+      },
+      "fear": {
+        "id": "Roh laut yang kuasanya melampaui hukum alam dan membimbing pelaut tenggelam ke kapal hantu Caleuche bersifat supernatural, bukan predator; tradisi memandangnya ramah.",
+        "en": "A sea spirit whose power exceeds natural law and who guides drowned sailors to the phantom ship Caleuche is supernatural rather than predatory; the tradition regards her kindly.",
+        "claim_ids": [
+          "pincoya-c04",
+          "pincoya-c07",
+          "pincoya-c13"
+        ]
+      }
+    }
+  },
   "pishtaco": {
     "power": "superhuman",
     "threat": "t1",
@@ -24656,6 +31761,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "pitsen-c03",
           "pitsen-c04"
+        ]
+      }
+    }
+  },
+  "piuchen": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Menurut tradisi Chiloé ia merobohkan pohon besar dan dapat memunculkan ombak yang menenggelamkan perahu, melampaui hewan biasa; versi utama adalah ular terbang atau kadal bersayap kelelawar.",
+        "en": "In Chilote lore it fells huge trees and can raise waves that sink boats, exceeding an ordinary animal; the main version is a flying snake or bat-winged lizard.",
+        "claim_ids": [
+          "piuchen-c15",
+          "piuchen-c16",
+          "piuchen-c02"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikisahkan mengisap darah manusia dan hewan yang tidur serta menyerang ternak, sehingga ancaman ditafsirkan pada skala individu; sumber lain justru menyebutnya tidak mencelakai siapa pun.",
+        "en": "It is said to suck the blood of sleeping people and animals and to attack cattle, so the threat is interpreted at an individual scale; another source says it harms no one.",
+        "claim_ids": [
+          "piuchen-c07",
+          "piuchen-c09",
+          "piuchen-c26"
+        ]
+      },
+      "fear": {
+        "id": "Desis dan tatapan yang membunuh atau melumpuhkan mangsa serta bulu beracun berada di luar hukum alam; sebagian ahli mengaitkannya dengan kelelawar penghisap darah.",
+        "en": "A hiss and gaze that kill or paralyze prey and poisonous bristles exceed natural law; some scholars link the lore to the vampire bat.",
+        "claim_ids": [
+          "piuchen-c02",
+          "piuchen-c13",
+          "piuchen-c10"
         ]
       }
     }
@@ -24722,6 +31861,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "pluto-q152262": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa dunia bawah Romawi yang memperoleh Tartarus dan dunia bawah, menjaga gerbangnya tetap tertutup, dan memiliki helm yang membuat pemakainya tak terlihat; kuasa atas ranah kematian menjadi dasar Divine.",
+        "en": "The Roman god of the underworld who gained Tartarus and the lower world, kept its gates closed, and owned a helmet that makes its wearer invisible; authority over the realm of the dead supports Divine.",
+        "claim_ids": [
+          "pluto-q152262-c01",
+          "pluto-q152262-c04",
+          "pluto-q152262-c19",
+          "pluto-q152262-c08"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan buruk yang tercatat adalah menculik Proserpina dan menahannya sebagian tahun di dunia bawah; ini pada skala individu, dan memerintah dunia bawah bukan bukti ancaman yang lebih luas.",
+        "en": "The recorded harmful deed is abducting Proserpina and holding her part of each year in the underworld; this is individual scale, and ruling the underworld is not evidence of wider threat.",
+        "claim_ids": [
+          "pluto-q152262-c06",
+          "pluto-q152262-c23"
+        ]
+      },
+      "fear": {
+        "id": "Sifat yang digambarkan keras dan tak tergoyahkan, dewa yang paling dibenci manusia, dengan gerbang tertutup bagi yang mati, menekankan rapuhnya hidup; sifat itu berasal dari Hades yang dipadankan dengan Pluto.",
+        "en": "His fierce and inexorable character, the god most hated by mortals, with gates closed to the dead, underscores the fragility of life; this character is drawn from Hades, his Greek counterpart.",
+        "claim_ids": [
+          "pluto-q152262-c18",
+          "pluto-q152262-c19"
+        ]
+      }
+    }
+  },
   "polevik": {
     "power": "superhuman",
     "threat": "t1",
@@ -24778,6 +31950,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat rasa takut yang ditimbulkan Polkan; ia digambarkan sebagai sekutu setia, sehingga jenis ketakutan belum dinilai.",
         "en": "The research holds no fear Polkan evokes; he is portrayed as a loyal ally, so the fear type remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "pombero": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan menghilang, menyelinap lewat celah sempit, dan berubah menjadi batang kayu atau batu melampaui batas manusia.",
+        "en": "The ability to turn invisible, squeeze through narrow gaps, and become a log or stone exceeds human limits.",
+        "claim_ids": [
+          "pombero-c15",
+          "pombero-c25"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikenal sebagai pengacau yang tidak berbahaya, namun mengejar hewan ternak orang yang mengejeknya; ancaman ditafsirkan paling jauh pada skala individu.",
+        "en": "He is regarded as a harmless troublemaker, yet pursues the animals of those who mock him; the threat is interpreted at most at an individual scale.",
+        "claim_ids": [
+          "pombero-c14",
+          "pombero-c23"
+        ]
+      },
+      "fear": {
+        "id": "Roh malam yang tak terlihat, menirukan suara hewan, dan masih ditakuti petani sehingga namanya tidak lagi disebut menjadi dasar sifat supernatural.",
+        "en": "An unseen night spirit that mimics animals and is still feared by peasants, who avoid saying his name, supports the supernatural category.",
+        "claim_ids": [
+          "pombero-c15",
+          "pombero-c28",
+          "pombero-c29"
+        ]
       }
     }
   },
@@ -25109,6 +32313,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "pugot": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pengubahan wujud menjadi babi, anjing, kucing bermata api, atau bola api serta gerak yang sangat cepat melampaui manusia.",
+        "en": "Shapeshifting into hogs, dogs, a fiery-eyed cat, or a ball of fire, plus very rapid movement, exceeds human ability.",
+        "claim_ids": [
+          "pugot-c01",
+          "pugot-c03",
+          "pugot-c18"
+        ]
+      },
+      "threat": {
+        "id": "Dalam kisah Pampanga ia menjatuhkan pemburu dan menghabiskan bekalnya, tetapi sumber lain menyebutnya relatif tidak berbahaya; ancamannya pada individu.",
+        "en": "In the Pampanga tale it knocks down a hunter and eats his food, but other sources call it relatively harmless; the threat is individual.",
+        "claim_ids": [
+          "pugot-c08",
+          "pugot-c03"
+        ]
+      },
+      "fear": {
+        "id": "Sosok hitam raksasa tanpa kepala yang berubah wujud dan lenyap sebagai bola api menjadi dasar rasa takut supernatural.",
+        "en": "A giant black headless figure that changes shape and vanishes as a ball of fire supports a supernatural fear.",
+        "claim_ids": [
+          "pugot-c01",
+          "pugot-c18"
+        ]
+      }
+    }
+  },
   "puigmal": {
     "power": "regional",
     "threat": "t1",
@@ -25136,6 +32372,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "puigmal-c06",
           "puigmal-c01"
+        ]
+      }
+    }
+  },
+  "pulao-dragon": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga kecil bersifat suka meraung dan berkekuatan ilahi menurut daftar Lu Rong; dasar Superhuman.",
+        "en": "A small dragon given to roaring and possessing divine strength per Lu Rong’s list; this supports Superhuman.",
+        "claim_ids": [
+          "pulao-dragon-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya menjelaskan raungannya dan hubungannya dengan paus; ancaman belum dinilai.",
+        "en": "The research explains only its roar and its link to the whale; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Raungan Pulao dijelaskan sebagai teriakan takut pada paus dan untuk hiasan lonceng; tidak ada dasar Fear.",
+        "en": "Pulao’s roar is explained as a cry of fear of the whale and for bell ornament; there is no basis for Fear.",
+        "claim_ids": [
+          "pulao-dragon-c06"
         ]
       }
     }
@@ -25192,6 +32454,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "qarakorshaq": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Jin yang dapat menjelma sebagai keledai, anjing, babi, atau kambing serta meniru suara dan rupa yang dikenal korban adalah kemampuan di atas manusia; riset tidak merinci kekuatan yang lebih besar.",
+        "en": "A jinn that can take the guise of a donkey, dog, pig, or goat and mimic a voice and appearance the victim knows has abilities beyond humans; no greater strength is detailed.",
+        "claim_ids": [
+          "qarakorshaq-c06",
+          "qarakorshaq-c07"
+        ]
+      },
+      "threat": {
+        "id": "Menyergap, membawa pergi, dan memakan satu korban dari tempat gelap atau rumah kosong ditafsirkan sebagai ancaman terhadap individu.",
+        "en": "Seizing, carrying off, and devouring a single victim from dark places or empty houses is interpreted as a threat to individuals.",
+        "claim_ids": [
+          "qarakorshaq-c02",
+          "qarakorshaq-c07"
+        ]
+      },
+      "fear": {
+        "id": "Mengetuk pintu malam hari dengan suara yang dikenal lalu menculik penghuninya, dalam wujud jin berganti rupa, menimbulkan rasa takut supernatural.",
+        "en": "Knocking at night in a familiar voice and then abducting the occupant, as a shape-changing jinn, creates supernatural dread.",
+        "claim_ids": [
+          "qarakorshaq-c07",
+          "qarakorshaq-c06"
+        ]
+      }
+    }
+  },
   "qareen": {
     "power": "superhuman",
     "threat": "t1",
@@ -25219,6 +32512,121 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "qareen-c01",
           "qareen-c02"
+        ]
+      }
+    }
+  },
+  "qianliyan": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa laut dan pintu dengan penglihatan seribu li yang dalam beberapa kisah melihat segala sesuatu di dunia; ditafsirkan Divine atas ranah penglihatan.",
+        "en": "A sea and door god with thousand-li sight who in some accounts sees everything in the world; read as Divine over the domain of sight.",
+        "claim_ids": [
+          "qianliyan-c01",
+          "qianliyan-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan penjaga dan letnan yang akhirnya ditundukkan Mazu, tanpa perbuatan merusak berskala; ancaman belum dinilai.",
+        "en": "The research shows a guardian and lieutenant eventually subdued by Mazu, with no large-scale destructive deeds; threat is not assessed.",
+        "claim_ids": [
+          "qianliyan-c09",
+          "qianliyan-c10"
+        ]
+      },
+      "fear": {
+        "id": "Penglihatan yang menembus jarak dan rupa iblis berkulit hijau melampaui hukum alam; perannya kini pelindung pelaut.",
+        "en": "Sight across vast distances and a green-skinned demon form exceed natural law; his role is now protector of sailors.",
+        "claim_ids": [
+          "qianliyan-c08",
+          "qianliyan-c12"
+        ]
+      }
+    }
+  },
+  "qilin": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Qilin disebut pemimpin segala makhluk berbulu dan kemunculannya dikaitkan dengan orang bijak atau penguasa agung; dinilai superhuman, bukan lebih tinggi.",
+        "en": "The qilin is called chief of all furred creatures and its appearance is linked to a sage or distinguished ruler; rated superhuman, not higher.",
+        "claim_ids": [
+          "qilin-c09",
+          "qilin-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan qilin sebagai binatang kebajikan dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows the qilin as a benevolent beast and holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; qilin digambarkan sebagai binatang kebajikan, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; the qilin is described as a benevolent beast, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "qiqirn": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh anjing besar yang kehadirannya memicu kejang pada manusia dan anjing melampaui kemampuan manusia, tetapi ia takut manusia dan lari dari angakkuq.",
+        "en": "A large dog spirit whose presence triggers convulsions in humans and dogs exceeds human ability, yet it fears humans and flees from the angakkuq.",
+        "claim_ids": [
+          "qiqirn-c01",
+          "qiqirn-c02",
+          "qiqirn-c03"
+        ]
+      },
+      "threat": {
+        "id": "Kejang yang kadang berakibat fatal tercatat menimpa orang dan anjing yang berada di dekatnya, jadi ancaman ditafsirkan pada individu.",
+        "en": "Sometimes fatal convulsions are recorded for people and dogs near it, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "qiqirn-c02"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk hantu yang membuat orang dan anjing kejang tanpa sebab alami bersifat supernatural; versi Kipling adalah tafsiran modern.",
+        "en": "A spectral being that causes fits in people and dogs without natural cause is supernatural; Kipling’s version is a modern reinterpretation.",
+        "claim_ids": [
+          "qiqirn-c01",
+          "qiqirn-c02",
+          "qiqirn-c07"
+        ]
+      }
+    }
+  },
+  "qiulong": {
+    "power": "regional",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Naga yang naik bersama pusaran angin hingga kekuatannya menggerakkan langit dan bumi serta menjelajah Jizhou; bahasa sastra Huainanzi, jadi Regional ditafsirkan hati-hati.",
+        "en": "A dragon that rises on the whirlwind so its might moves heaven and earth and roams Jizhou; Huainanzi’s literary language, so Regional is read cautiously.",
+        "claim_ids": [
+          "qiulong-c08",
+          "qiulong-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkan qiulong tenang saat langit cerah dan tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows the qiulong calm when the sky is clear and holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Suaranya mengguncang negeri sehingga harimau dan macan tutul tidak berani mengaum, melampaui hukum alam.",
+        "en": "Its sound shakes the realm so tigers and leopards dare not roar, exceeding natural law.",
+        "claim_ids": [
+          "qiulong-c09"
         ]
       }
     }
@@ -25348,6 +32756,98 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "radha": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi Hindu, permaisuri utama Krishna, dipandang sebagai inkarnasi Lakshmi dan hladini shakti Krishna, bahkan sebagai yang tertinggi dalam sebagian tradisi; kedudukan ini menjadi dasar Divine, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "A Hindu goddess and Krishna’s chief consort, regarded as an incarnation of Lakshmi and Krishna’s hladini shakti, even as supreme in some traditions; this standing supports Divine, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "radha-c01",
+          "radha-c04",
+          "radha-c07",
+          "radha-c18"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Radha; ia digambarkan sebagai dewi cinta, kasih, dan bhakti, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Radha; she is described as a goddess of love, compassion, and devotion, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Radha, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Radha, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "rahu": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Anggota Navagraha yang merupakan simpul bulan utara dan, sebagai kepala Svarbhanu yang telah meminum amrita, abadi serta menelan matahari dan bulan dalam kisah gerhana; kuasa atas benda langit menjadi dasar Divine, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "A Navagraha member personifying the north lunar node who, as the head of Svarbhanu who drank amrita, is immortal and swallows the sun and moon in eclipse narratives; power over celestial bodies supports Divine, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "rahu-c01",
+          "rahu-c07",
+          "rahu-c06"
+        ]
+      },
+      "threat": {
+        "id": "Menelan matahari dan bulan hanyalah penjelasan gerhana yang bersifat sementara; riset tidak memuat kehancuran yang ia timbulkan, sehingga ancaman belum dinilai.",
+        "en": "Swallowing the sun and moon is only the explanation of a temporary eclipse; the research holds no destruction he causes, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Kepala tanpa tubuh yang abadi dan menelan matahari serta bulan, ditambah waktu Rahu kala yang dianggap tidak baik, berada di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "An immortal severed head that swallows the sun and moon, plus the inauspicious Rahu kala, lies beyond natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "rahu-c05",
+          "rahu-c06",
+          "rahu-c03"
+        ]
+      }
+    }
+  },
+  "rainbow-serpent": {
+    "power": "cosmic",
+    "threat": "t3",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Pencipta leluhur yang membentuk daratan dan keragaman, berperan dalam sebagian besar mitos zaman penciptaan bentang alam.",
+        "en": "An ancestral creator who forms the land and its diversity and plays an active role in most myths of the creative era that shaped the landscape.",
+        "claim_ids": [
+          "rainbow-serpent-c04",
+          "rainbow-serpent-c15",
+          "rainbow-serpent-c16"
+        ]
+      },
+      "threat": {
+        "id": "Dapat menjadi kekuatan perusak bila marah, dengan banjir dan badai monsun, serta menelan manusia; riset juga menekankan ia bukan semata perusak, jadi dinilai pada skala permukiman.",
+        "en": "It can be destructive when angered, through monsoon floods and storms, and swallows people; the research stresses it is not merely a destroyer, so a settlement scale is used.",
+        "claim_ids": [
+          "rainbow-serpent-c05",
+          "rainbow-serpent-c11",
+          "rainbow-serpent-c22",
+          "rainbow-serpent-c20"
+        ]
+      },
+      "fear": {
+        "id": "Kekuatan alam yang menakjubkan sekaligus menakutkan, yang menelan manusia lalu mengubahnya, menegaskan betapa kecil kendali manusia.",
+        "en": "Awe-inspiring and fearsome forces of nature that swallow humans and transform them underline how little control people have.",
+        "claim_ids": [
+          "rainbow-serpent-c20",
+          "rainbow-serpent-c19",
+          "rainbow-serpent-c22"
+        ]
+      }
+    }
+  },
   "rakhsh": {
     "power": "superhuman",
     "threat": null,
@@ -25432,6 +32932,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "rantas": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Sihir dan kemampuan menyamar sebagai manusia mana pun melampaui manusia biasa; ada kepercayaan bahwa sehelai rambut khusus mengendalikan kekuatan superhumannya.",
+        "en": "Magic and the ability to disguise herself as any human exceed ordinary humans; a special hair is said to control her superhuman power.",
+        "claim_ids": [
+          "rantas-c13",
+          "rantas-c14"
+        ]
+      },
+      "threat": {
+        "id": "Ia menculik pemuda ke sarangnya dan disebut berusaha membunuh perempuan yang ia sergap, sehingga ancaman ditafsirkan pada skala individu.",
+        "en": "She kidnaps young men to her lair and is said to try to murder women she surprises, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "rantas-c06",
+          "rantas-c11"
+        ]
+      },
+      "fear": {
+        "id": "Rupa cantik yang menyembunyikan wujud mengerikan serta kaki terbalik menjadi dasar kengerian supernatural.",
+        "en": "A beautiful guise hiding a terrifying form, together with reversed feet, supports supernatural horror.",
+        "claim_ids": [
+          "rantas-c07",
+          "rantas-c13"
+        ]
+      }
+    }
+  },
   "rarog": {
     "power": "superhuman",
     "threat": "t1",
@@ -25483,6 +33014,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset tidak memuat unsur menakutkan dari tokoh ini; jenis rasa takut belum dinilai.",
         "en": "The research holds nothing frightening about this figure; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "ratoshikamuy": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Gurita raksasa yang disebut terkuat di laut dan seimbang melawan burung raksasa Huri bersayap tujuh ri menjadi dasar kekuatan monster besar.",
+        "en": "A giant octopus called the strongest in the sea and evenly matched against the giant bird Huri, whose wing spans seven ri, supports great-monster power.",
+        "claim_ids": [
+          "ratoshikamuy-c02",
+          "ratoshikamuy-c04",
+          "ratoshikamuy-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat adu kekuatan yang berakhir seri dan asal nama Ishikari, tanpa korban atau kerusakan; ancaman belum dinilai.",
+        "en": "The research holds only an evenly matched contest of strength and the origin of the name Ishikari, with no victims or damage; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkannya, hanya adu kekuatan dan asal nama tempat; Fear belum dinilai.",
+        "en": "The research does not describe fear it provokes, only a contest of strength and a place-name origin; Fear is not assessed.",
         "claim_ids": []
       }
     }
@@ -25585,6 +33142,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "rep-un-kamuy": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kamuy yang menguasai laut dan, menurut Batchelor, tertinggi di antara para dewa laut menjadi dasar Divine; dinilai dengan hormat sebagai tafsir editorial atas tradisi Ainu.",
+        "en": "The kamuy who governs the sea and, per Batchelor, the greatest of the sea gods supports Divine; assessed respectfully as an editorial reading of Ainu tradition.",
+        "claim_ids": [
+          "rep-un-kamuy-c01",
+          "rep-un-kamuy-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkan dewa laut yang ramah dan penyelamat desa, bukan sumber kehancuran; ancaman belum dinilai.",
+        "en": "The research describes a benevolent sea god who saves a village, not a source of destruction; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewa yang dimuliakan dan bermurah hati, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a revered and generous god, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "revenant": {
     "power": "superhuman",
     "threat": "t1",
@@ -25612,6 +33194,66 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "revenant-c03",
           "revenant-c04"
+        ]
+      }
+    }
+  },
+  "rhea": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Titan betina dan ibu para dewa Olimpia yang juga dewi bumi dan Ibu Agung; kedudukan dan ranah itu menjadi dasar Divine.",
+        "en": "A female Titan, mother of the Olympian gods, and a goddess of the earth and Great Mother; this standing and domain support Divine.",
+        "claim_ids": [
+          "rhea-c01",
+          "rhea-c02",
+          "rhea-c12",
+          "rhea-c15"
+        ]
+      },
+      "threat": {
+        "id": "Menurut sebagian riwayat ia melempar Eurynome ke Tartaros; satu tindakan terhadap satu individu, sehingga dinilai pada skala pribadi, dan peran pelindung Zeus bukan bukti ancaman.",
+        "en": "In some accounts she cast Eurynome into Tartarus; a single act against one individual, so it is rated at personal scale, and her role as Zeus’s protector is not evidence of threat.",
+        "claim_ids": [
+          "rhea-c20"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Rhea; peran ibu dan penyelamat Zeus bukan dasar, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Rhea; her role as mother and rescuer of Zeus is no basis, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "rhita-gawr": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa yang membunuh banyak raja dan menantang Arthur berduel di gunung setara kekuatan monster besar; kalah oleh Arthur.",
+        "en": "A giant who killed many kings and challenged Arthur to a duel on the mountain matches great monster strength; he was defeated by Arthur.",
+        "claim_ids": [
+          "rhita-gawr-c01",
+          "rhita-gawr-c06"
+        ]
+      },
+      "threat": {
+        "id": "Jubah dari janggut raja-raja yang dibunuhnya dan tantangan duel kepada Arthur menjadi dasar ancaman terhadap kelompok penguasa, bukan wilayah.",
+        "en": "A cloak from the beards of kings he killed and a duel challenge to Arthur support a threat to a group of rulers, not a region.",
+        "claim_ids": [
+          "rhita-gawr-c06",
+          "rhita-gawr-c07"
+        ]
+      },
+      "fear": {
+        "id": "Pembunuh raja yang mengumpulkan janggut korban sebagai piala dan menuntut janggut Arthur menimbulkan rasa takut menjadi mangsa.",
+        "en": "A killer of kings who collects victims’ beards as trophies and demands Arthur’s beard evokes the fear of becoming prey.",
+        "claim_ids": [
+          "rhita-gawr-c06",
+          "rhita-gawr-c07"
         ]
       }
     }
@@ -25710,6 +33352,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "roesschaert": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh pengganggu yang berubah wujud menjadi kucing, keledai, anak, tong berjalan, dan nelayan melampaui kemampuan manusia; versi utama adalah legenda Blankenberge.",
+        "en": "A tormenting spirit that changes into a cat, donkey, child, walking barrel, and fisherman exceeds human ability; this follows the main Blankenberge legend.",
+        "claim_ids": [
+          "roesschaert-c05",
+          "roesschaert-c06"
+        ]
+      },
+      "threat": {
+        "id": "Ia mengganggu dan menarik jari kaki nelayan, tanpa korban jiwa atau skala kelompok yang tercatat; ancaman dinilai pada tingkat pribadi.",
+        "en": "It pesters fishermen and tugs at toes, with no recorded deaths or group scale; the threat is rated at the personal level.",
+        "claim_ids": [
+          "roesschaert-c01",
+          "roesschaert-c09",
+          "roesschaert-c15"
+        ]
+      },
+      "fear": {
+        "id": "Roh yang berganti wujud dan tak mampu menyebut nama Tuhan, sehingga para nelayan sangat takut saat melaut, adalah ketakutan supernatural.",
+        "en": "A spirit that shifts shape and cannot utter the name of God, leaving fishermen greatly afraid at sea, evokes supernatural fear.",
+        "claim_ids": [
+          "roesschaert-c05",
+          "roesschaert-c06",
+          "roesschaert-c15"
+        ]
+      }
+    }
+  },
   "roggenwolf": {
     "power": "monstrous",
     "threat": "t2",
@@ -25799,6 +33474,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "rokurokubi-c09",
           "rokurokubi-c01"
+        ]
+      }
+    }
+  },
+  "rompo": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memerikan wujud hibrida sepanjang sekitar tiga kaki dan kebiasaan makannya, tanpa kekuatan atau kemampuan gaib; kuasa belum dinilai.",
+        "en": "The research only describes a hybrid body about three feet long and its feeding habit, with no strength or supernatural ability; power is left unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Rompo hanya disebut memakan mayat dari kubur dan tidak ada perbuatan terhadap orang hidup; ancaman belum dinilai.",
+        "en": "The Rompo is said only to eat corpses dug from graves, with no acts against the living recorded; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penggali kubur yang memakan mayat, mengitari tubuh seolah takut, dan bersenandung saat makan menimbulkan rasa janggal dan tidak nyaman.",
+        "en": "A grave-digger that eats corpses, circles a body as if afraid, and hums while eating evokes an uncanny, uncomfortable unease.",
+        "claim_ids": [
+          "rompo-c02",
+          "rompo-c03",
+          "rompo-c04"
         ]
       }
     }
@@ -26379,6 +34080,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "sasabonsam": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk mirip vampir bergigi besi dan bersayap hampir 20 kaki; dinilai pada versi folklor Akan utama, sedangkan tradisi religius menyebutnya dewa gempa.",
+        "en": "A vampire-like being with iron teeth and wings nearly 20 feet wide; assessed on the main Akan folklore version, while the religious tradition calls it an earthquake god.",
+        "claim_ids": [
+          "sasabonsam-c04",
+          "sasabonsam-c06",
+          "sasabonsam-c18"
+        ]
+      },
+      "threat": {
+        "id": "Ia memangsa pengembara yang masuk wilayahnya dan, dalam tradisi religius, mengguncang bumi hingga rumah menimpa penghuninya, sehingga ditafsirkan mengancam kelompok.",
+        "en": "It preys on those who wander into its territory and, in the religious tradition, shakes the earth so houses collapse on their occupants, interpreted as a group-scale threat.",
+        "claim_ids": [
+          "sasabonsam-c05",
+          "sasabonsam-c13",
+          "sasabonsam-c18"
+        ]
+      },
+      "fear": {
+        "id": "Pemangsa dari atas pohon yang menjerat pemburu dan memakan pengembara sendirian menimbulkan rasa takut menjadi mangsa.",
+        "en": "A predator in the treetops that entangles hunters and devours lone wayfarers evokes the fear of becoming prey.",
+        "claim_ids": [
+          "sasabonsam-c04",
+          "sasabonsam-c09",
+          "sasabonsam-c13"
+        ]
+      }
+    }
+  },
   "satan": {
     "power": "divine",
     "threat": "t6",
@@ -26651,6 +34386,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "scorpion-demoness": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kalajengking raksasa yang sengatnya melukai Sun Wukong dan Buddha serta mampu menculik Tang Sanzang; dikalahkan bintang berwujud ayam jantan, sehingga skalanya monster, bukan dewata.",
+        "en": "A giant scorpion whose sting hurts both Sun Wukong and the Buddha and who can abduct Tang Sanzang; a rooster-formed star official defeats her, so her scale is monstrous rather than divine.",
+        "claim_ids": [
+          "scorpion-demoness-c02",
+          "scorpion-demoness-c03",
+          "scorpion-demoness-c05",
+          "scorpion-demoness-c06",
+          "scorpion-demoness-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia menculik Tang Sanzang dan melukai rombongan peziarah dalam novel; skala kelompok, tanpa catatan kehancuran permukiman.",
+        "en": "She abducts Tang Sanzang and harms the pilgrim party in the novel; a group scale, with no record of destroying settlements.",
+        "claim_ids": [
+          "scorpion-demoness-c03",
+          "scorpion-demoness-c05"
+        ]
+      },
+      "fear": {
+        "id": "Roh kalajengking raksasa dengan racun yang menyiksa hingga Rulai menunjukkan kengerian di luar hukum alam; versi yang dinilai adalah novel Perjalanan ke Barat.",
+        "en": "A giant scorpion spirit whose venom torments even Rulai shows horror beyond natural law; the version assessed is the novel Journey to the West.",
+        "claim_ids": [
+          "scorpion-demoness-c02",
+          "scorpion-demoness-c07",
+          "scorpion-demoness-c08"
+        ]
+      }
+    }
+  },
   "sea-monk": {
     "power": null,
     "threat": null,
@@ -26672,6 +34442,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "sea-monk-c01",
           "sea-monk-c04"
+        ]
+      }
+    }
+  },
+  "sea-swine": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya menggambarkan rupa dan sejarah peta makhluk ini tanpa kemampuan atau kuasa; Power belum dinilai.",
+        "en": "The research describes only its appearance and map history without abilities or authority; power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; kawanan ratusan ekor tidak menunjukkan serangan, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; packs of hundreds do not show attacks, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Babi laut berkaki naga dengan mata ketiga di pusar terasa ganjil dan tidak semestinya; tafsir sezaman memakainya sebagai simbol dosa.",
+        "en": "A sea hog with dragon feet and a third eye at the navel feels uncanny and out of place; contemporary readings used it as a symbol of sin.",
+        "claim_ids": [
+          "sea-swine-c03",
+          "sea-swine-c09",
+          "sea-swine-c13"
         ]
       }
     }
@@ -26724,6 +34520,103 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "searrach-uisge-c03",
           "searrach-uisge-c06",
           "searrach-uisge-c09"
+        ]
+      }
+    }
+  },
+  "sedna": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi laut dan penguasa hewan laut yang juga memerintah dunia bawah Adlivun berkuasa atas ranah (Divine).",
+        "en": "Goddess of the sea and mistress of marine animals who also rules the underworld Adlivun, with authority over domains (Divine).",
+        "claim_ids": [
+          "sedna-c01",
+          "sedna-c02",
+          "sedna-c06"
+        ]
+      },
+      "threat": {
+        "id": "Ia menahan hewan laut ketika pantangan dilanggar, padahal hewan itu hampir seluruh dasar kehidupan Inuit, sehingga ancamannya ditafsirkan berskala permukiman.",
+        "en": "She withholds sea animals when taboos are broken, and these were the basis of nearly all Inuit life, so the threat is interpreted at settlement scale.",
+        "claim_ids": [
+          "sedna-c08",
+          "sedna-c11"
+        ]
+      },
+      "fear": {
+        "id": "Namanya dihindari karena ia ditakuti sekaligus dihormati, dan dukun harus bertarung dengannya sebelum menyisir rambutnya, menandakan kuasa gaib.",
+        "en": "Her name is avoided because she is feared as well as respected, and a shaman must fight her before combing her hair, signalling supernatural power.",
+        "claim_ids": [
+          "sedna-c03",
+          "sedna-c09"
+        ]
+      }
+    }
+  },
+  "seelkee": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk mirip ular berkepala kuda atau dua kepala yang dapat terbang antar danau dan membuat tubuh orang terpelintir hingga mati melampaui kemampuan manusia.",
+        "en": "A horse-headed or two-headed serpent-like creature that can fly between lakes and twist a person’s body to death exceeds human ability.",
+        "claim_ids": [
+          "seelkee-c07",
+          "seelkee-c09"
+        ]
+      },
+      "threat": {
+        "id": "Kekuatannya mencelakai orang yang lari ketika melihatnya, sehingga ancaman ditafsirkan pada individu.",
+        "en": "Its power harms a person who runs on seeing it, so the threat is interpreted at the individual scale.",
+        "claim_ids": [
+          "seelkee-c07"
+        ]
+      },
+      "fear": {
+        "id": "Kemampuan terbang antar danau dan memelintir tubuh korban hingga mati berada di luar hukum alam.",
+        "en": "Flying between lakes and twisting a victim’s body to death lie beyond natural law.",
+        "claim_ids": [
+          "seelkee-c07",
+          "seelkee-c09"
+        ]
+      }
+    }
+  },
+  "selene": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Titan dewi bulan yang tiap malam melintasi langit dengan kereta bulan; ranah bulan menjadi dasar Divine, dan ia disebut menciptakan Singa Nemea serta bergulat dengan Typhon.",
+        "en": "The Titan moon goddess who crosses the sky each night in her moon chariot; the lunar domain supports Divine, and she is credited with creating the Nemean Lion and struggling with Typhon.",
+        "claim_ids": [
+          "selene-c01",
+          "selene-c02",
+          "selene-c11",
+          "selene-c43",
+          "selene-c37"
+        ]
+      },
+      "threat": {
+        "id": "Dalam satu tradisi ia membuat Singa Nemea memangsa kaumnya sendiri sebagai hukuman; ini mendukung skala kelompok, tetapi hanya satu versi dan bukan perbuatannya sendiri secara langsung.",
+        "en": "In one tradition she made the Nemean Lion prey on her own people as punishment; this supports group scale, but it is one variant and not a direct act of her own.",
+        "claim_ids": [
+          "selene-c44",
+          "selene-c43"
+        ]
+      },
+      "fear": {
+        "id": "Kereta bulan malam, kuasa yang dikaitkan dengan penyihir yang menurunkan bulan, dan penciptaan singa buas berada di luar hukum alam; Fear bukan penilaian moral, dan ia digambarkan ramah dalam Himne Homerik.",
+        "en": "A night moon chariot, powers tied to witches who bring down the moon, and the creation of a ferocious lion lie beyond natural law; Fear is not a moral judgment, and she is kindly in the Homeric Hymn.",
+        "claim_ids": [
+          "selene-c02",
+          "selene-c35",
+          "selene-c43"
         ]
       }
     }
@@ -26866,6 +34759,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "seri-pahang": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Buaya putih raksasa yang mengalahkan iblis laut dalam duel panjang dan mengubah kunyit menjadi emas; tradisi mencatat versi buaya, sedangkan versi naga disebut sebagai varian.",
+        "en": "A giant white crocodile that killed a sea demon in a long duel and turned turmeric into gold; the crocodile is the main version, with the naga as a variant.",
+        "claim_ids": [
+          "seri-pahang-c01",
+          "seri-pahang-c12",
+          "seri-pahang-c04",
+          "seri-pahang-c07"
+        ]
+      },
+      "threat": {
+        "id": "Ia digambarkan melawan iblis laut yang merusak dan dihormati; riset tidak memuat perbuatan merusak olehnya, sehingga ancaman belum dinilai.",
+        "en": "He is shown fighting a devastating sea demon and is honored; the research records no destructive deeds by him, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penjelmaan buaya menjadi lelaki tua dan kembali, serta emas dari kunyit, berada di luar hukum alam; ia pelindung, bukan pemangsa.",
+        "en": "A crocodile turning into an old man and back, and turmeric becoming gold, lie beyond natural law; he is a protector, not a predator.",
+        "claim_ids": [
+          "seri-pahang-c03",
+          "seri-pahang-c04",
+          "seri-pahang-c13"
+        ]
+      }
+    }
+  },
   "serket": {
     "power": "divine",
     "threat": null,
@@ -26893,6 +34817,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "serket-c02",
           "serket-c05"
         ]
+      }
+    }
+  },
+  "sesa": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga ilahi, raja ular, dan makhluk penciptaan primordial yang menjadi tempat Wisnu berbaring serta menjelma sebagai Laksmana dan Balarama; skala primordial ini menjadi dasar Cosmic, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "A divine naga, king of serpents, and primordial creation being on whom Vishnu rests and who incarnates as Lakshmana and Balarama; this primordial scale supports Cosmic, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "sesa-c01",
+          "sesa-c03",
+          "sesa-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Sesa; perannya sebagai alas Wisnu dan titisan bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Shesha; his role as Vishnu’s couch and as an incarnating being is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Sesa, hanya ikonografi tudungnya, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Shesha beyond hood iconography, so Fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -26956,6 +34906,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "sewer-alligator": {
+    "power": "mortal",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Buaya aligator besar yang digambarkan ganas, sebagian versi menambahkan albino atau mutan; pada dasarnya hewan, dan keberadaannya sebagai legenda perkotaan tidak terbukti.",
+        "en": "A large, vicious alligator, with some versions adding albino or mutant traits; it is essentially an animal, and its existence as an urban legend is unproven.",
+        "claim_ids": [
+          "sewer-alligator-c03",
+          "sewer-alligator-c08"
+        ]
+      },
+      "threat": {
+        "id": "Legenda menyebut aligator mengancam para pekerja saluran dan membuat mereka membawa senjata api, ancaman skala individu; riset menegaskan tidak ada populasi tersembunyi.",
+        "en": "The legend says alligators threaten sewer workers, who carry firearms for protection, an individual-scale threat; the research stresses there is no hidden population.",
+        "claim_ids": [
+          "sewer-alligator-c03",
+          "sewer-alligator-c07"
+        ]
+      },
+      "fear": {
+        "id": "Aligator besar dan ganas yang mengintai di saluran gelap menimbulkan ketakutan menjadi mangsa.",
+        "en": "A large, vicious alligator lurking in dark sewers evokes the fear of becoming prey.",
+        "claim_ids": [
+          "sewer-alligator-c03",
+          "sewer-alligator-c08"
+        ]
+      }
+    }
+  },
   "sha-wujing": {
     "power": "superhuman",
     "threat": "t3",
@@ -27011,6 +34992,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "shadow-person": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset tidak memuat kemampuan yang terdokumentasi selain penampakan; Power belum dinilai.",
+        "en": "The research holds no documented abilities beyond appearing; Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Pengikut kepercayaan ini tidak sepakat apakah sosok itu jahat, membantu, atau netral; ancaman belum dinilai.",
+        "en": "Believers disagree on whether the figure is evil, helpful, or neutral; threat is not assessed.",
+        "claim_ids": [
+          "shadow-person-c05"
+        ]
+      },
+      "fear": {
+        "id": "Siluet manusia gelap tanpa wajah yang berkelebat di sudut penglihatan atau tampak seperti kekosongan hitam terasa ganjil dan tidak semestinya.",
+        "en": "A dark, featureless human silhouette flickering at the edge of vision, or a void-like black form, feels uncanny and out of place.",
+        "claim_ids": [
+          "shadow-person-c04",
+          "shadow-person-c07",
+          "shadow-person-c08"
+        ]
+      }
+    }
+  },
   "shahmaran": {
     "power": "divine",
     "threat": null,
@@ -27063,6 +35072,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "shangyang": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung berkaki satu yang meramalkan hujan besar dan banjir adalah kemampuan di luar batas manusia, seperti firasat pada banshee.",
+        "en": "A one-legged bird that foretells heavy rain and flood has an ability beyond human limits, like the foretelling of the banshee.",
+        "claim_ids": [
+          "shangyang-c01",
+          "shangyang-c08"
+        ]
+      },
+      "threat": {
+        "id": "Kemunculannya hanya pertanda banjir, bukan penyebabnya; ancaman belum dinilai.",
+        "en": "Its appearance is only an omen of the flood, not its cause; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Tarian satu kaki yang menandai banjir besar bersifat gaib dan tidak dapat dijelaskan hukum alam.",
+        "en": "A one-legged dance heralding a great flood is uncanny and beyond natural explanation.",
+        "claim_ids": [
+          "shangyang-c03",
+          "shangyang-c08"
+        ]
+      }
+    }
+  },
   "sharabha": {
     "power": "divine",
     "threat": null,
@@ -27086,6 +35123,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak menjelaskan rasa takut yang ditimbulkan Sharabha, hanya wujud dan perannya; Fear belum dinilai.",
         "en": "The research does not describe the fear Sharabha evokes, only his form and role; Fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "sheka-mythology": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh ladang dalam tradisi Slavia yang menyesatkan orang dan menularkan penyakit melampaui kemampuan manusia; versi kerdil Turkik yang jenaka tidak dipakai sebagai dasar.",
+        "en": "The Slavic field spirit leads people astray and gives them diseases beyond human ability; the comical Turkic dwarf version is not used as the basis.",
+        "claim_ids": [
+          "sheka-mythology-c03",
+          "sheka-mythology-c05"
+        ]
+      },
+      "threat": {
+        "id": "Kisah lokal berpusat pada orang yang tersesat, sakit, atau terpaksa bernyanyi berjam-jam, sehingga ancamannya ditafsirkan pada individu.",
+        "en": "Local accounts center on people led astray, made ill, or forced to sing for hours, so the threat is interpreted at the individual scale.",
+        "claim_ids": [
+          "sheka-mythology-c03",
+          "sheka-mythology-c06"
+        ]
+      },
+      "fear": {
+        "id": "Menyesatkan orang di ladang dan menularkan penyakit secara gaib menjadi dasar rasa takut supernatural.",
+        "en": "Supernaturally misleading people in a field and giving them disease supports a supernatural fear.",
+        "claim_ids": [
+          "sheka-mythology-c03"
+        ]
       }
     }
   },
@@ -27113,6 +35180,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "shellycoat-c02",
           "shellycoat-c03"
+        ]
+      }
+    }
+  },
+  "shenlong": {
+    "power": "regional",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Naga roh penguasa badai, awan, dan hujan yang menopang pertanian; kuasa atas cuaca wilayah menjadi dasar Regional.",
+        "en": "The spirit dragon governing storms, clouds, and the rain agriculture depends on; weather authority over a region supports Regional.",
+        "claim_ids": [
+          "shenlong-c01",
+          "shenlong-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat sifatnya yang kasar dan galak tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research records only a rough and fierce nature with no destructive deeds; threat is not assessed.",
+        "claim_ids": [
+          "shenlong-c07"
+        ]
+      },
+      "fear": {
+        "id": "Menurut Guanzi dan Bencao Gangmu naga ini berubah ukuran, wujud air atau api, dan napasnya membentuk awan; itu di luar hukum alam.",
+        "en": "Per the Guanzi and Bencao Gangmu this dragon changes size, turns into water or fire, and its breath forms clouds, beyond natural law.",
+        "claim_ids": [
+          "shenlong-c03",
+          "shenlong-c06"
         ]
       }
     }
@@ -27147,6 +35244,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "shippeitaro": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Anjing penolong ini bersama pemuda mengalahkan roh kucing dan menggigit makhluk kucing raksasa penguasa gunung; roh-roh itu takut kepadanya, tanpa bukti kuasa yang lebih besar.",
+        "en": "This helper dog, with the youth, vanquishes the cat spirits and bites the giant cat that rules the mountain, and the spirits fear him, with no evidence of greater power.",
+        "claim_ids": [
+          "shippeitaro-c02",
+          "shippeitaro-c03",
+          "shippeitaro-c11"
+        ]
+      },
+      "threat": {
+        "id": "Ia berperan sebagai penolong yang menyelamatkan gadis desa; riset tidak memuat perbuatan merusak olehnya sehingga ancaman belum dinilai.",
+        "en": "He acts as a helper who saves the village maidens; the research holds no destructive acts by him, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkannya pada manusia; hanya roh jahat yang takut kepadanya, sehingga Fear belum dinilai.",
+        "en": "The research describes no fear he causes in humans; only hostile spirits fear him, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "shiranui-optical-phenomenon": {
     "power": null,
     "threat": null,
@@ -27169,6 +35292,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "shiranui-optical-phenomenon-c01",
           "shiranui-optical-phenomenon-c03",
           "shiranui-optical-phenomenon-c05"
+        ]
+      }
+    }
+  },
+  "shirime": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat wujud tanpa wajah dengan mata bersinar; kemampuan yang terdokumentasi belum ada, jadi Power belum dinilai.",
+        "en": "The research holds only a faceless form with a shining eye; no documented abilities, so Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Kisahnya menyebut shirime tidak berniat mencelakai; riset tidak memuat perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The tale says shirime does not intend harm; the research holds no destructive deeds, so threat is not assessed.",
+        "claim_ids": [
+          "shirime-c05",
+          "shirime-c11"
+        ]
+      },
+      "fear": {
+        "id": "Sosok yang tampak seperti manusia tetapi tanpa wajah dan membuka mata raksasa dari pantatnya hanya mengejutkan dan terasa ganjil.",
+        "en": "A figure that looks human but is faceless and reveals a giant eye in its rear merely startles and feels uncanny.",
+        "claim_ids": [
+          "shirime-c02",
+          "shirime-c10",
+          "shirime-c11"
         ]
       }
     }
@@ -27410,6 +35562,165 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "shukra": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Resi dan dewa pelindung Venus yang memiliki Mrtasanjivani, ilmu menghidupkan kembali orang mati, anugerah Siwa, dan yogi dengan siddhi luar biasa; kuasa atas kehidupan dan kematian serta ranah Venus menjadi dasar Divine.",
+        "en": "The sage and presiding god of Venus who holds the Mrtasanjivani, the knowledge of raising the dead granted by Shiva, and a yogi of extraordinary siddhi; power over life and death and the domain of Venus supports Divine.",
+        "claim_ids": [
+          "shukra-c01",
+          "shukra-c07",
+          "shukra-c10",
+          "shukra-c15"
+        ]
+      },
+      "threat": {
+        "id": "Dengan siddhi ia memasuki Kubera dan merampas kekayaan serta kebebasannya; ini pada skala individu, sedangkan menghidupkan kembali para asura menyiratkan dampak kelompok tetapi riset tidak merinci akibatnya.",
+        "en": "With his siddhi he entered Kubera and deprived him of wealth and freedom; this is individual scale, while reviving the asuras implies group impact but the research does not detail its effects.",
+        "claim_ids": [
+          "shukra-c15",
+          "shukra-c10"
+        ]
+      },
+      "fear": {
+        "id": "Ilmu membangkitkan orang mati dan kemampuan memasuki tubuh makhluk lain berada di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "Raising the dead and entering another being’s body exceed natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "shukra-c07",
+          "shukra-c15"
+        ]
+      }
+    }
+  },
+  "shunfeng-er": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa laut dan pintu penjaga Mazu dengan pendengaran tanpa batas, pendengar segala urusan dunia; versi utama sebagai jenderal pengawal yang ditundukkan.",
+        "en": "A sea and door god guarding Mazu with boundless hearing over the world’s affairs; this uses the main version as a subdued guardian general.",
+        "claim_ids": [
+          "shunfeng-er-c01",
+          "shunfeng-er-c06",
+          "shunfeng-er-c12"
+        ]
+      },
+      "threat": {
+        "id": "Dalam asal-usulnya ia roh jahat yang menakuti dan mencelakai penduduk sebelum ditundukkan Mazu; kini peran utamanya pelindung.",
+        "en": "In its origin it was a spirit-monster that frightened and harmed residents before Mazu subdued it; its main role now is protective.",
+        "claim_ids": [
+          "shunfeng-er-c08",
+          "shunfeng-er-c13"
+        ]
+      },
+      "fear": {
+        "id": "Wujud iblis berkulit merah atau cokelat dengan pendengaran gaib melampaui hukum alam; Fear bukan penilaian moral.",
+        "en": "A red- or brown-skinned demon form with supernatural hearing exceeds natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "shunfeng-er-c10",
+          "shunfeng-er-c12"
+        ]
+      }
+    }
+  },
+  "shuten-doji": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pemimpin oni setinggi sekitar 50 kaki dengan tubuh merah, lima tanduk, dan lima belas mata dalam wujud aslinya adalah monster besar; ia baru dikalahkan lewat sake ilahi dan bantuan para dewa, tetapi tidak memegang ranah dewata.",
+        "en": "An oni leader some 50 feet tall with a red body, five horns, and fifteen eyes in his true form is a great monster; he fell only to divine sake and the gods’ aid, yet holds no divine domain.",
+        "claim_ids": [
+          "shuten-doji-c13",
+          "shuten-doji-c09",
+          "shuten-doji-c11"
+        ]
+      },
+      "threat": {
+        "id": "Penculikan banyak orang, terutama perempuan muda, dan penjarahan harta di ibu kota ditafsirkan sebagai ancaman skala kota, dengan batas bahwa tafsir ini berasal dari versi tertua legenda.",
+        "en": "The abduction of many people, mostly young women, and plundering of treasure in the capital is read as a city-scale threat, limited to the oldest versions of the legend.",
+        "claim_ids": [
+          "shuten-doji-c12",
+          "shuten-doji-c05"
+        ]
+      },
+      "fear": {
+        "id": "Wujud asli raksasa berkepala lima tanduk dan kepala terpenggal yang terbang menyerang Raiko melampaui hukum alam.",
+        "en": "A giant true form with a five-horned head and a severed head that flies up to attack Raiko exceed natural law.",
+        "claim_ids": [
+          "shuten-doji-c13",
+          "shuten-doji-c09",
+          "shuten-doji-c02"
+        ]
+      }
+    }
+  },
+  "shuzi": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Binatang besar mirip harimau yang membunuh harimau dan macan tutul melampaui kekuatan hewan biasa; riset tidak memuat kemampuan gaib lain.",
+        "en": "A large tiger-like beast that kills tigers and leopards exceeds ordinary animals; the research holds no other supernatural ability.",
+        "claim_ids": [
+          "shuzi-c03",
+          "shuzi-c07",
+          "shuzi-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut ia menyerang harimau dan macan tutul, bukan manusia, dan kemunculannya dibaca sebagai pertanda baik; ancaman belum dinilai.",
+        "en": "The research says it attacks tigers and leopards, not people, and its appearance is read as an auspicious omen; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Pemburu pemangsa besar yang membunuh harimau menimbulkan rasa takut dimangsa; ini tafsir, karena riset tidak mencatat korban manusia.",
+        "en": "A large predator that kills tigers evokes the fear of being prey; this is an interpretation, since the research records no human victims.",
+        "claim_ids": [
+          "shuzi-c03",
+          "shuzi-c09"
+        ]
+      }
+    }
+  },
+  "sigbin": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan menghilang dari pandangan manusia dan melompat jauh menunjukkan kekuatan di atas manusia, dengan wujud berbeda antarversi legenda.",
+        "en": "Becoming invisible to humans and leaping great distances indicate power beyond humans, with forms that differ between versions of the legend.",
+        "claim_ids": [
+          "sigbin-c01",
+          "sigbin-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikatakan memburu anak-anak untuk diambil jantungnya dan memakan siapa pun yang mendekati sarangnya, sehingga ancamannya berskala individu.",
+        "en": "It is said to hunt children for their hearts and to eat anyone who nears its lair, so the threat is individual in scale.",
+        "claim_ids": [
+          "sigbin-c02",
+          "sigbin-c09"
+        ]
+      },
+      "fear": {
+        "id": "Penghisap darah malam hari yang memangsa anak-anak membuat orang mengunci diri di rumah, menekankan ketakutan menjadi mangsa.",
+        "en": "A night blood-sucker that preys on children makes people lock themselves indoors, emphasizing the fear of becoming prey.",
+        "claim_ids": [
+          "sigbin-c01",
+          "sigbin-c02",
+          "sigbin-c10"
+        ]
+      }
+    }
+  },
   "sigmund": {
     "power": "superhuman",
     "threat": null,
@@ -27487,6 +35798,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "sihuanaba-c03",
           "sihuanaba-c07"
+        ]
+      }
+    }
+  },
+  "sihuhata": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Mengubah arang membara menjadi emas dan dalam sebagian tradisi adalah Indra yang menguji kebajikan, kemampuan gaib; versi naskah daun lontar dipakai.",
+        "en": "Turning burning coals into gold and, in some traditions, being Indra testing virtue are supernatural abilities; the palm-leaf manuscript version is followed.",
+        "claim_ids": [
+          "sihuhata-c02",
+          "sihuhata-c03",
+          "sihuhata-c08"
+        ]
+      },
+      "threat": {
+        "id": "Kisah menggambarkan makhluk yang justru membawa emas dan lari ketakutan; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The tale shows a creature that yields gold and flees in fear; no destructive deeds, so threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Beruang hitam berempat telinga dan lima mata terasa ganjil, bukan memangsa.",
+        "en": "A black bear-like beast with four ears and five eyes is uncanny rather than predatory.",
+        "claim_ids": [
+          "sihuhata-c01",
+          "sihuhata-c07"
         ]
       }
     }
@@ -27604,6 +35944,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "sirena-philippine-mythology": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Suara yang menghipnotis pria, perubahan menjadi manusia, dan kemampuan menaikkan air melampaui manusia (versi utama: sirena pemikat nelayan; ada versi baik hati).",
+        "en": "A voice that hypnotizes men, a human disguise, and the ability to raise the water exceed human ability (main version: a siren luring fishermen; a kind variant exists).",
+        "claim_ids": [
+          "sirena-philippine-mythology-c03",
+          "sirena-philippine-mythology-c20",
+          "sirena-philippine-mythology-c24",
+          "sirena-philippine-mythology-c18"
+        ]
+      },
+      "threat": {
+        "id": "Nyanyiannya membuat para nelayan dan pelaut karam atau tenggelam, dan banyak mitos Pangasinan menyebut nelayan dan prajurit tenggelam, sehingga ancaman ditafsirkan pada kelompok.",
+        "en": "Her song causes fishermen and sailors to be shipwrecked or drowned and Pangasinan myths tell of fishermen and warriors drowned, so the threat is interpreted at group scale.",
+        "claim_ids": [
+          "sirena-philippine-mythology-c03",
+          "sirena-philippine-mythology-c05",
+          "sirena-philippine-mythology-c28"
+        ]
+      },
+      "fear": {
+        "id": "Memikat dengan nyanyian atau pura-pura minta tolong lalu menenggelamkan korban adalah rasa takut diburu.",
+        "en": "Luring with song or feigned distress and then drowning victims is the fear of being hunted.",
+        "claim_ids": [
+          "sirena-philippine-mythology-c09",
+          "sirena-philippine-mythology-c10",
+          "sirena-philippine-mythology-c11"
+        ]
+      }
+    }
+  },
   "sirin": {
     "power": "superhuman",
     "threat": "t1",
@@ -27633,6 +36008,58 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "sirin-c18",
           "sirin-c07"
         ]
+      }
+    }
+  },
+  "sita": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi Hindu dan tokoh perempuan utama Ramayana, dipandang sebagai inkarnasi Lakshmi dan putri Dewi Bumi yang menyambutnya kembali ke dalam bumi; kedudukan ilahi ini menjadi dasar Divine, sebagai tafsir editorial dengan hormat atas tradisi yang masih dianut.",
+        "en": "A Hindu goddess and the principal female figure of the Ramayana, regarded as an incarnation of Lakshmi and a daughter of the earth goddess who receives her back into the earth; this divine standing supports Divine, an editorial and respectful reading of a living tradition.",
+        "claim_ids": [
+          "sita-c01",
+          "sita-c03",
+          "sita-c04",
+          "sita-c18"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Sita; kisahnya berpusat pada penculikan, ujian, dan pengasingan yang ia alami, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Sita; her story centers on the abduction, trial, and exile she endures, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Sita, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear from Sita, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "siuru": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Sayap seringan angin dari Uku dan penerbangan melintasi tiga dunia melampaui burung biasa; ia tokoh puisi Kreutzwald, bukan kepercayaan rakyat yang terdokumentasi, sehingga tidak dinaikkan.",
+        "en": "Wings lighter than the wind from Uku and flight over three worlds exceed an ordinary bird; she is a figure of Kreutzwald’s poetry rather than documented folk belief, so the tier is not raised.",
+        "claim_ids": [
+          "siuru-c04",
+          "siuru-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat hal yang menimbulkan rasa takut; ia digambarkan sebagai burung yatim yang ditolong dewa, sehingga Fear belum dinilai.",
+        "en": "The research holds nothing that provokes fear; she is described as an orphaned bird helped by a god, so fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -27698,6 +36125,64 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "skin-walker": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Penyihir yang berubah menjadi hewan, merasuki makhluk lain, menguasai pikiran lewat tatapan, dan membangkitkan mayat melampaui manusia; riset menyebutnya penyihir, bukan makhluk adikodrati, sehingga tingkatnya dibatasi.",
+        "en": "A witch who turns into animals, possesses others, controls minds by gaze, and reanimates corpses exceeds human limits; the research calls them witches rather than supernatural beings, which caps the tier.",
+        "claim_ids": [
+          "skin-walker-c01",
+          "skin-walker-c08",
+          "skin-walker-c09"
+        ]
+      },
+      "threat": {
+        "id": "Mereka menyebabkan penyakit, kematian, dan perusakan harta, serta dianggap penyihir paling berbahaya; catatan ketakutan 1878 menunjukkan dampak pada kelompok, bukan permukiman.",
+        "en": "They cause illness, death, and property destruction and are regarded as the most dangerous witches; the 1878 purge shows group-level fear and harm rather than settlement-scale destruction.",
+        "claim_ids": [
+          "skin-walker-c05",
+          "skin-walker-c08",
+          "skin-walker-c13"
+        ]
+      },
+      "fear": {
+        "id": "Pengubah wujud yang mengetuk jendela, bermata hewan dalam wujud manusia, dan membangkitkan arwah melampaui hukum alam.",
+        "en": "A shapeshifter that raps on windows, has animal eyes in human form, and calls up the dead exceeds natural law.",
+        "claim_ids": [
+          "skin-walker-c12",
+          "skin-walker-c09"
+        ]
+      }
+    }
+  },
+  "skinfaxi": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda penarik kereta Dagr yang surainya menyinari langit dan bumi memberinya peran atas ranah siang, setara tingkat ilahi.",
+        "en": "The horse drawing Dagr's chariot, whose mane lights sky and earth, holds a role over the domain of day, matching the divine tier.",
+        "claim_ids": [
+          "skinfaxi-c01",
+          "skinfaxi-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan kuda pembawa siang tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research presents the horse that brings day with no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan Skinfaxi sebagai sumber rasa takut; Fear belum dinilai.",
+        "en": "The research does not portray Skinfaxi as a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "skogsra": {
     "power": "superhuman",
     "threat": "t1",
@@ -27725,6 +36210,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "skogsra-c02",
           "skogsra-c03"
+        ]
+      }
+    }
+  },
+  "skunk-ape": {
+    "power": "mortal",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Makhluk mirip kera setinggi 1,5 sampai 2,1 m yang dilaporkan membunuh ternak seperti kuda dan sapi jantan; setara hewan besar, dan keberadaannya tidak terbukti.",
+        "en": "An ape-like creature 1.5 to 2.1 m tall reported to have killed livestock such as a horse and a bull; comparable to a large animal, and its existence is unproven.",
+        "claim_ids": [
+          "skunk-ape-c06",
+          "skunk-ape-c11",
+          "skunk-ape-c24"
+        ]
+      },
+      "threat": {
+        "id": "Laporan menyebut ia menyerbu rumah, menguntit orang, dan menggedor kendaraan, ancaman skala individu; tidak ada tubuh atau bukti yang pernah ditemukan.",
+        "en": "Reports say it invaded homes, stalked people, and beat on a vehicle, an individual-scale threat; no body or evidence was ever found.",
+        "claim_ids": [
+          "skunk-ape-c11",
+          "skunk-ape-c09"
+        ]
+      },
+      "fear": {
+        "id": "Sosok mirip kera berbulu dengan bau busuk yang membuat mual dan perjumpaan malam hari terasa ganjil dan tidak nyaman, bukan pemburu yang terdokumentasi.",
+        "en": "A shaggy ape-like figure with a nauseating stench and night encounters feels uncanny and uncomfortable, not a documented hunter.",
+        "claim_ids": [
+          "skunk-ape-c21",
+          "skunk-ape-c10"
         ]
       }
     }
@@ -27849,6 +36366,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "sluagh-c04",
           "sluagh-c05"
+        ]
+      }
+    }
+  },
+  "snallygaster": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Kimera burung-reptil bersayap besar berparuh logam bergigi tajam yang menyambar korban dari langit memenuhi gambaran monster besar; laporan 1909 diakui sebagai hoaks.",
+        "en": "A bird-reptile chimera with a metallic, razor-toothed beak that swoops on victims from the sky fits a great monster; the 1909 reports were admitted to be a hoax.",
+        "claim_ids": [
+          "snallygaster-c04",
+          "snallygaster-c05",
+          "snallygaster-c08",
+          "snallygaster-c09"
+        ]
+      },
+      "threat": {
+        "id": "Kisah mencatat ia membawa pergi dan menghisap darah korban, sehingga ancaman ditafsirkan pada individu.",
+        "en": "Stories record it carrying off and draining victims, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "snallygaster-c05",
+          "snallygaster-c06"
+        ]
+      },
+      "fear": {
+        "id": "Menyambar diam-diam dari langit untuk membawa mangsa dan menghisap darah adalah rasa takut diburu.",
+        "en": "Swooping silently from the sky to carry off prey and drink blood is the fear of being hunted.",
+        "claim_ids": [
+          "snallygaster-c05",
+          "snallygaster-c06",
+          "snallygaster-c12"
         ]
       }
     }
@@ -28146,6 +36697,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "spirit-turtle": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kura-kura yang dianggap berusia seribu tahun dan bercorak lima warna, pemuka makhluk bercangkang, melampaui hewan biasa; riset tidak mencatat kuasa atas ranah tertentu.",
+        "en": "A turtle said to be a thousand years old with five colors, chief of shelled creatures, exceeds ordinary animals; the research records no authority over a specific domain.",
+        "claim_ids": [
+          "spirit-turtle-c03",
+          "spirit-turtle-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; sebagai lambang umur panjang dan keberuntungan, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; as an emblem of longevity and auspiciousness, threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menempatkannya sebagai makhluk pertanda baik, bukan sumber kengerian, sehingga Fear belum dinilai.",
+        "en": "The research presents it as an auspicious being rather than a source of dread, so Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "spriggan": {
     "power": "monstrous",
     "threat": "t3",
@@ -28298,6 +36874,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "strix-mythology": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Burung pembawa sial hasil metamorfosis atau mantra yang terbang malam dan masuk ke kamar bayi melampaui makhluk biasa; Plinius meragukan kisahnya, sehingga tingkat ini hati-hati.",
+        "en": "An ill-omened bird born of metamorphosis or enchantment that flies by night into nurseries exceeds ordinary creatures; Pliny doubts the tales, so this tier is cautious.",
+        "claim_ids": [
+          "strix-mythology-c01",
+          "strix-mythology-c06"
+        ]
+      },
+      "threat": {
+        "id": "Menurut Ovidius, burung ini menyerang dan menghisap bayi tanpa pengasuh, jadi ancamannya berskala individu.",
+        "en": "In Ovid, the birds attack and suck infants left without a nurse, so the threat is at an individual scale.",
+        "claim_ids": [
+          "strix-mythology-c04",
+          "strix-mythology-c07"
+        ]
+      },
+      "fear": {
+        "id": "Burung bermata melotot berparuh buas yang mencabik dan meminum darah bayi pada malam hari menimbulkan ketakutan menjadi mangsa.",
+        "en": "Goggle-eyed birds with rapacious beaks that rend and drink the blood of infants by night evoke the fear of being preyed upon.",
+        "claim_ids": [
+          "strix-mythology-c04",
+          "strix-mythology-c05"
+        ]
+      }
+    }
+  },
   "strzyga": {
     "power": "superhuman",
     "threat": "t1",
@@ -28324,6 +36931,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "strzyga-c06",
           "strzyga-c02"
+        ]
+      }
+    }
+  },
+  "succubus": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Iblis yang masuk ke mimpi dan dapat berganti wujud serta jenis kelamin; kemampuan ini melampaui manusia biasa.",
+        "en": "A demon that enters dreams and can change form and sex, abilities beyond ordinary humans.",
+        "claim_ids": [
+          "succubus-c01",
+          "succubus-c20",
+          "succubus-c26"
+        ]
+      },
+      "threat": {
+        "id": "Perjumpaan berulang menguras kesehatan korban sampai mati, yang dicatat pada skala individu.",
+        "en": "Repeated encounters drain the victim’s health until death, recorded at an individual scale.",
+        "claim_ids": [
+          "succubus-c02"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang mendatangi lelaki lewat mimpi dan menguras hidupnya merupakan gangguan supernatural; riset juga menunjuk kelumpuhan tidur sebagai latar kepercayaan.",
+        "en": "A being that visits men through dreams and drains their lives is a supernatural intrusion; the research also names sleep paralysis as a background to the belief.",
+        "claim_ids": [
+          "succubus-c01",
+          "succubus-c04"
         ]
       }
     }
@@ -28361,6 +36999,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "suijin": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa air yang menaungi air minum, sawah, dan nelayan, dipuja di kuil dan di mata air, memiliki kuasa atas ranah air sehingga dinilai Divine dengan hormat sebagai tafsir editorial atas tradisi yang masih hidup.",
+        "en": "A water deity presiding over drinking water, rice fields, and fishermen and worshipped at shrines and springs holds authority over the domain of water, rated Divine with respect as an editorial reading of a living tradition.",
+        "claim_ids": [
+          "suijin-c01",
+          "suijin-c05",
+          "suijin-c07",
+          "suijin-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan Suijin sebagai dewa pelindung yang bermanfaat dan tidak memuat perbuatan merusak; peran pelindung bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research presents Suijin as a benevolent protector and holds no destructive acts; a protective role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Suijin; Fear belum dinilai.",
+        "en": "The research does not describe the fear Suijin inspires; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "sun-wukong": {
     "power": "divine",
     "threat": "t5",
@@ -28391,6 +37056,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "sun-wukong-c33",
           "sun-wukong-c22"
+        ]
+      }
+    }
+  },
+  "sundel-bolong": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Arwah wanita yang meninggal saat hamil dan dapat menampakkan diri serta menyerang korbannya melampaui manusia; kemampuan menggeser mobil hanya berasal dari film dan tidak dipakai.",
+        "en": "The spirit of a woman who died pregnant who can appear and attack her victims exceeds the human; moving a car appears only in a film and is not used.",
+        "claim_ids": [
+          "sundel-bolong-c04",
+          "sundel-bolong-c05",
+          "sundel-bolong-c18"
+        ]
+      },
+      "threat": {
+        "id": "Korbannya terutama pria dan anak-anak, dengan pembalasan seperti mengebiri pria yang menolaknya dan mengambil bayi; ini ditafsirkan pada korban perseorangan.",
+        "en": "Her victims are mainly men and children, with revenge such as castrating men who reject her and taking newborns; this is interpreted at an individual scale.",
+        "claim_ids": [
+          "sundel-bolong-c05"
+        ]
+      },
+      "fear": {
+        "id": "Hantu wanita cantik dengan punggung berlubang yang menampakkan organ dalam dan muncul di tempat ia dibunuh adalah keberadaan supernatural.",
+        "en": "A beautiful female ghost with a back hole exposing her organs who appears where she was killed is a supernatural presence.",
+        "claim_ids": [
+          "sundel-bolong-c18",
+          "sundel-bolong-c20",
+          "sundel-bolong-c16"
         ]
       }
     }
@@ -28799,6 +37496,59 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "takaonna": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan memanjangkan tubuh hingga beberapa meter melampaui manusia biasa, tanpa kuasa lain yang didokumentasikan.",
+        "en": "The ability to elongate the body to several metres exceeds ordinary humans, with no other power documented.",
+        "claim_ids": [
+          "takaonna-c08",
+          "takaonna-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat mengintip dan menakut-nakuti serta jarang menyerang fisik; ancaman belum dinilai.",
+        "en": "The research records only peeping and frightening, rarely physical attacks; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perempuan jangkung yang mengintip lantai dua rumah bordil menimbulkan rasa ganjil dan menakutkan, bukan rasa diburu.",
+        "en": "A tall woman peering into upper floors of brothels causes uncanny unease rather than the fear of being hunted.",
+        "claim_ids": [
+          "takaonna-c09",
+          "takaonna-c10"
+        ]
+      }
+    }
+  },
+  "tangaroa": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Atua utama laut, danau, sungai, dan ikan, yang juga mengatur pasang surut.",
+        "en": "The principal atua of the sea, lakes, rivers, and fish, who also governs the tides.",
+        "claim_ids": [
+          "tangaroa-c01",
+          "tangaroa-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak yang berhasil; upayanya merobek langit dan bumi gagal, sehingga ancaman belum dinilai.",
+        "en": "The research holds no successful destructive deed; his attempt to rend heaven and earth fails, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan Tangaroa sebagai penguasa ranah laut yang dihormati dengan persembahan, bukan sumber teror tertentu; Fear belum dinilai.",
+        "en": "The research presents Tangaroa as a revered lord of the sea realm, honoured with offerings, not as a specific source of terror; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "tangie": {
     "power": "superhuman",
     "threat": "t1",
@@ -28824,6 +37574,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "Abducting and devouring travellers at night stresses the fear of becoming prey.",
         "claim_ids": [
           "tangie-c02"
+        ]
+      }
+    }
+  },
+  "taniwha": {
+    "power": "regional",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk gaib besar yang menurut legenda mengukir pelabuhan dan Danau Waikaremoana; ini versi umum untuk taniwha, sebagian di antaranya pelindung.",
+        "en": "Large supernatural beings credited by legend with carving harbours and Lake Waikaremoana; this is the general account of taniwha, some of whom are guardians.",
+        "claim_ids": [
+          "taniwha-c01",
+          "taniwha-c06",
+          "taniwha-c07"
+        ]
+      },
+      "threat": {
+        "id": "Taniwha pemangsa memakan orang dari suku asing, dan tubuh Hotu-puku berisi banyak jasad pria, wanita, dan anak; dinilai pada skala kelompok, sementara banyak taniwha pelindung.",
+        "en": "Predatory taniwha eat people from unconnected tribes and Hotu-puku held many bodies of men, women, and children; a group scale is used, while many taniwha are guardians.",
+        "claim_ids": [
+          "taniwha-c13",
+          "taniwha-c14",
+          "taniwha-c15"
+        ]
+      },
+      "fear": {
+        "id": "Penghuni lubuk dan gua gelap yang memakan manusia adalah ketakutan menjadi mangsa, meski riset juga mencatat peran pelindungnya.",
+        "en": "Dwellers of dark pools and caves that devour people evoke the fear of being prey, although the research also records their guardian role.",
+        "claim_ids": [
+          "taniwha-c01",
+          "taniwha-c13",
+          "taniwha-c25"
         ]
       }
     }
@@ -28900,6 +37684,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan hewan langka penyamar, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a rare camouflaging animal, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "tarantasio": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Naga danau yang menghancurkan perahu, memangsa anak-anak, dan mencemari udara dengan napas busuk menjadi dasar kekuatan monster.",
+        "en": "A lake dragon that wrecks boats, preys on children, and fouls the air with its breath supports monstrous power.",
+        "claim_ids": [
+          "tarantasio-c02",
+          "tarantasio-c03",
+          "tarantasio-c05"
+        ]
+      },
+      "threat": {
+        "id": "Napas yang mencemari udara sekitar dan pemangsaan anak-anak ditafsirkan mengancam permukiman di sekitar Danau Gerundo; ini tafsir atas tradisi lokal, bukan catatan sejarah.",
+        "en": "A breath that contaminates the surrounding air and the preying on children are interpreted as threatening the settlements around Lake Gerundo; this reads local tradition, not historical record.",
+        "claim_ids": [
+          "tarantasio-c03",
+          "tarantasio-c05"
+        ]
+      },
+      "fear": {
+        "id": "Kengerian utamanya adalah menjadi mangsa naga yang memakan anak-anak dan menghancurkan perahu di danau.",
+        "en": "The primary horror is becoming prey of a dragon that devours children and wrecks boats on the lake.",
+        "claim_ids": [
+          "tarantasio-c02",
+          "tarantasio-c05"
+        ]
       }
     }
   },
@@ -29053,6 +37869,92 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "teju-jagua": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kadal raksasa berkepala tujuh anjing dengan mata menyemburkan api serta penguasa gua menjadi dasar kekuatan monster.",
+        "en": "A giant lizard with seven dog heads and fire-shooting eyes, lord of the caves, supports monstrous power.",
+        "claim_ids": [
+          "teju-jagua-c02",
+          "teju-jagua-c10"
+        ]
+      },
+      "threat": {
+        "id": "Sebagian orang percaya ia membawa korban ke gua untuk dimakan, tetapi tradisi lain menyebutnya tenang dan hanya makan buah; ancaman ditafsirkan pada skala individu.",
+        "en": "Many believe he carried victims to his cavern to devour them, though other tradition calls him calm and a fruit eater; the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "teju-jagua-c12",
+          "teju-jagua-c06",
+          "teju-jagua-c13"
+        ]
+      },
+      "fear": {
+        "id": "Tatapan api dan wujud monster yang dikutuk membuatnya ditakuti sebagai keberadaan supernatural.",
+        "en": "His fiery gaze and cursed monstrous form made him feared as a supernatural presence.",
+        "claim_ids": [
+          "teju-jagua-c04",
+          "teju-jagua-c06"
+        ]
+      }
+    }
+  },
+  "teng-mythology": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga terbang tanpa kaki yang menunggangi awan dan terbang melintasi ribuan mil.",
+        "en": "A footless flying dragon that rides the clouds and flies over a thousand miles.",
+        "claim_ids": [
+          "teng-mythology-c01",
+          "teng-mythology-c06",
+          "teng-mythology-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; sumber justru menyebutnya tak berdaya tanpa awan dan terancam kelabang.",
+        "en": "The research holds no destructive deeds; sources instead note it is helpless without clouds and endangered by the centipede.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut terhadap Teng; Fear belum dinilai.",
+        "en": "The research describes no fear of Teng; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "tenghuang": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Penunggangnya dipercaya hidup dua hingga tiga ribu tahun dan makhluk ini menempuh sepuluh ribu li sehari; versi rubah bertanduk dan versi kuda sama-sama diakui.",
+        "en": "Its rider is believed to live two to three thousand years and it covers ten thousand li a day; both the horned fox and horse versions are recorded.",
+        "claim_ids": [
+          "tenghuang-c04",
+          "tenghuang-c06",
+          "tenghuang-c07",
+          "tenghuang-c08",
+          "tenghuang-c09"
+        ]
+      },
+      "threat": {
+        "id": "Tenghuang adalah makhluk pertanda baik dan riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "Tenghuang is an auspicious creature and the research holds no destructive deeds; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk pertanda baik yang ditunggangi dan dikaitkan dengan kemuliaan tidak menunjukkan unsur yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "An auspicious steed tied to honour shows nothing that evokes fear in the research; fear is unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "tengu": {
     "power": "superhuman",
     "threat": "t2",
@@ -29144,6 +38046,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "tepegoz": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa bermata satu yang kulitnya begitu keras sehingga pedang tidak melukai dan panah tidak membunuhnya adalah monster besar; ia akhirnya dikalahkan oleh Basat lewat matanya.",
+        "en": "A one-eyed giant whose skin is so hard that no sword cuts and no arrow kills him is a great monster; Basat finally defeats him through his eye.",
+        "claim_ids": [
+          "tepegoz-c06",
+          "tepegoz-c01",
+          "tepegoz-c07"
+        ]
+      },
+      "threat": {
+        "id": "Ia menyerang dan memakan banyak orang hingga bangsa Oghuz harus menyerahkan dua orang dan 500 domba setiap hari, tanda ancaman terhadap seluruh permukiman.",
+        "en": "He attacks and eats many people until the Oghuz must hand over two men and 500 sheep daily, a sign of a threat to a whole settlement.",
+        "claim_ids": [
+          "tepegoz-c09",
+          "tepegoz-c08"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa yang menggiring orang ke gua untuk dimakan menimbulkan rasa takut menjadi mangsa.",
+        "en": "A giant who drives people into his cave to eat them evokes the fear of becoming prey.",
+        "claim_ids": [
+          "tepegoz-c05",
+          "tepegoz-c09"
+        ]
+      }
+    }
+  },
   "tesso": {
     "power": "monstrous",
     "threat": null,
@@ -29169,6 +38103,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "tesso-c01",
           "tesso-c04"
+        ]
+      }
+    }
+  },
+  "tezcatlipoca": {
+    "power": "cosmic",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa pencipta yang tak terlihat dan mahakuasa, penguasa Matahari pertama, bersama Quetzalcoatl menciptakan Matahari kelima, berkuasa pada skala dunia.",
+        "en": "An invisible, omnipotent creator god who ruled the first Sun and with Quetzalcoatl created the fifth Sun, with world-scale power.",
+        "claim_ids": [
+          "tezcatlipoca-c06",
+          "tezcatlipoca-c09"
+        ]
+      },
+      "threat": {
+        "id": "Sebagai penyihir hitam ia membawa kejahatan, kematian, dan kehancuran, serta menantang prajurit di persimpangan; cakupan pastinya tidak dirinci sehingga ditafsirkan pada tataran permukiman.",
+        "en": "As a black-magic sorcerer he brings evil, death, and destruction and challenges warriors at crossroads; the exact reach is not detailed, so it is interpreted at settlement scale.",
+        "claim_ids": [
+          "tezcatlipoca-c13",
+          "tezcatlipoca-c14"
+        ]
+      },
+      "fear": {
+        "id": "Penguasa bayang-bayang dan malam, penyihir hitam yang dapat campur tangan langsung dalam urusan manusia, menegaskan kengerian supernatural.",
+        "en": "Lord of shadows and night and a black-magic sorcerer who can intervene directly in human affairs supports supernatural dread.",
+        "claim_ids": [
+          "tezcatlipoca-c13"
         ]
       }
     }
@@ -29321,6 +38285,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "the-mistress-of-the-copper-mountain": {
+    "power": "regional",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Sebagai penguasa Pegunungan Ural yang dapat mengizinkan atau melarang penambangan dan mengancam menenggelamkan seluruh tembaga Gumeshki, ia menguasai bentang alam tambang; ini tafsir editorial dari kisah Bazhov dan kepercayaan penambang.",
+        "en": "As mistress of the Urals who can permit or forbid mining and threatens to sink all the copper of Gumeshki, she commands the mining landscape; this is an editorial reading of Bazhov’s tale and miners’ belief.",
+        "claim_ids": [
+          "the-mistress-of-the-copper-mountain-c02",
+          "the-mistress-of-the-copper-mountain-c20"
+        ]
+      },
+      "threat": {
+        "id": "Orang yang syaratnya tidak dipenuhi kehilangan keberuntungan dan keahlian bahkan bisa mati, sehingga ancaman dinilai pada skala individu; peran pelindung penambang tidak menjadi dasar ancaman.",
+        "en": "A person whose conditions go unmet loses luck and skill and may even die, so the threat is rated at an individual scale; her role as miners’ patroness is not a basis for threat.",
+        "claim_ids": [
+          "the-mistress-of-the-copper-mountain-c05"
+        ]
+      },
+      "fear": {
+        "id": "Siapa pun yang melihatnya jatuh di bawah pesonanya, dan ia dapat berubah menjadi kadal atau ular, sehingga rasa takutnya bersifat supernatural.",
+        "en": "Whoever sees her falls under her spell, and she can become a lizard or a snake, so the fear is supernatural.",
+        "claim_ids": [
+          "the-mistress-of-the-copper-mountain-c04",
+          "the-mistress-of-the-copper-mountain-c05"
+        ]
+      }
+    }
+  },
   "the-ratman-of-southend": {
     "power": "superhuman",
     "threat": null,
@@ -29450,6 +38444,94 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "three-legged-crow": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Gagak berkaki tiga adalah burung gaib penghuni matahari yang membawa matahari dan menjadi utusan Xiwangmu; dinilai superhuman, bukan lebih tinggi.",
+        "en": "The three-legged crow is a divine bird of the sun that carries the suns and serves as Xiwangmu's messenger; rated superhuman, not higher.",
+        "claim_ids": [
+          "three-legged-crow-c13",
+          "three-legged-crow-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan gagak ini sebagai pembawa matahari dan utusan, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows this crow as a carrier of the sun and a messenger, without destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; gagak ini lambang matahari dan pertanda baik, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; this crow is a solar emblem and auspicious sign, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "thunderbird": {
+    "power": "regional",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Menciptakan guntur dengan kepakan sayap, petir dengan kilatan mata, dan menguasai hujan serta hujan es menunjukkan pengaruh atas cuaca di wilayah luas; tradisi bervariasi.",
+        "en": "Making thunder with wingbeats, lightning with flashing eyes, and controlling rain and hail indicates influence over weather across a broad area; traditions vary.",
+        "claim_ids": [
+          "thunderbird-c05",
+          "thunderbird-c08",
+          "thunderbird-c10"
+        ]
+      },
+      "threat": {
+        "id": "Dalam versi Ojibwe, thunderbird menghukum manusia yang melanggar aturan moral, ditafsirkan sebagai ancaman terhadap individu; peran pelindungnya lebih menonjol.",
+        "en": "In the Ojibwe version thunderbirds punished humans who broke moral rules, interpreted as an individual-scale threat; the protector role is more prominent.",
+        "claim_ids": [
+          "thunderbird-c07",
+          "thunderbird-c06"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk roh berkekuatan besar yang menciptakan guntur dan petir berada di luar hukum alam.",
+        "en": "A spirit of great power that makes thunder and lightning lies beyond natural law.",
+        "claim_ids": [
+          "thunderbird-c02",
+          "thunderbird-c05"
+        ]
+      }
+    }
+  },
+  "thunderdell": {
+    "power": "monstrous",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Raksasa berkepala dua yang bergemuruh menyerbu perjamuan dan mengancam mencabik lawannya setara kekuatan monster besar; ia akhirnya kalah oleh tipu daya Jack.",
+        "en": "A two-headed giant who storms a banquet and threatens to tear his foe apart matches great monster strength; he is finally beaten by Jack’s trick.",
+        "claim_ids": [
+          "thunderdell-c01",
+          "thunderdell-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia datang membalas kematian saudaranya dan mengancam Jack secara pribadi, jadi ancamannya dinilai pada individu.",
+        "en": "He comes to avenge his kinsmen and threatens Jack personally, so the threat is assessed at the individual level.",
+        "claim_ids": [
+          "thunderdell-c06",
+          "thunderdell-c08"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa yang mengendus darah dan mengancam menggigit, mengisap darah, serta menggiling tulang menimbulkan rasa takut menjadi mangsa.",
+        "en": "A giant who smells blood and threatens to bite, suck blood, and grind bones evokes the fear of becoming prey.",
+        "claim_ids": [
+          "thunderdell-c07",
+          "thunderdell-c08"
+        ]
+      }
+    }
+  },
   "tiamat": {
     "power": "cosmic",
     "threat": null,
@@ -29481,6 +38563,88 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "tiangou": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Diyakini memakan matahari atau bulan saat gerhana, dan dalam legenda menelan Bulan; kuasa atas benda langit ditafsirkan Divine, bukan sebagai dewa.",
+        "en": "Believed to eat the sun or moon during an eclipse, and in legend it swallowed the Moon; power over celestial bodies is read as Divine, not as a god.",
+        "claim_ids": [
+          "tiangou-c02",
+          "tiangou-c10"
+        ]
+      },
+      "threat": {
+        "id": "Bulan dimuntahkan kembali dan tidak ada kerusakan terdokumentasi; pertanda perang dalam Shiji hanyalah tanda, jadi ancaman belum dinilai.",
+        "en": "The Moon was spat back out and no destruction is recorded; the war omen in the Shiji is only a sign, so threat is not assessed.",
+        "claim_ids": [
+          "tiangou-c08",
+          "tiangou-c11"
+        ]
+      },
+      "fear": {
+        "id": "Anjing langit yang melahap bulan atau matahari adalah peristiwa gaib di luar hukum alam; varian jinaknya justru pelindung.",
+        "en": "A heavenly dog devouring the moon or sun is a supernatural event beyond natural law; its benevolent variant is a protector.",
+        "claim_ids": [
+          "tiangou-c02",
+          "tiangou-c04"
+        ]
+      }
+    }
+  },
+  "tianlong": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dalam tradisi Mahayana naga langit menjaga dan menopang Istana Langit agar tidak jatuh; kuasa atas ranah surgawi ditafsirkan Divine.",
+        "en": "In the Mahayana tradition heavenly dragons guard and carry the Heavenly Palace so it does not fall; authority in a heavenly domain is read as Divine.",
+        "claim_ids": [
+          "tianlong-c06",
+          "tianlong-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat peran penjaga dan nama bintang; ancaman belum dinilai.",
+        "en": "The research holds only its guardian role and star name; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan unsur menakutkan dari naga langit; Fear belum dinilai.",
+        "en": "The research describes nothing frightening about the heavenly dragon; fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "tianma": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda terbang yang menempuh sepuluh ribu li dan berkeringat darah merah, melampaui kuda biasa.",
+        "en": "A flying horse that crosses ten thousand li and sweats red blood, beyond an ordinary horse.",
+        "claim_ids": [
+          "tianma-c01",
+          "tianma-c02",
+          "tianma-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan kuda surgawi yang dikagumi, bukan ditakuti; Fear belum dinilai.",
+        "en": "The research portrays an admired heavenly horse, not a feared one; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "tiddy-mun": {
     "power": "regional",
     "threat": "t3",
@@ -29507,6 +38671,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "tiddy-mun-c04",
           "tiddy-mun-c06"
         ]
+      }
+    }
+  },
+  "tigmamanukan": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Arah terbang dan nyanyiannya dibaca sebagai pertanda hasil perjalanan, dan ia diyakini diutus Bathala; kemampuan firasat itu melampaui batas manusia.",
+        "en": "The direction of its flight and its song were read as omens of a journey’s outcome, and it was believed sent by Bathala; this foresight exceeds human limits.",
+        "claim_ids": [
+          "tigmamanukan-c03",
+          "tigmamanukan-c12"
+        ]
+      },
+      "threat": {
+        "id": "Burung pertanda dan peran dalam mitos penciptaan bukan bukti perbuatan merusak; ancaman belum dinilai.",
+        "en": "An omen bird and its role in a creation myth are not evidence of destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkannya sebagai pertanda perjalanan, bukan makhluk yang menakutkan; jenis ketakutannya belum dinilai.",
+        "en": "The research describes it as a journey omen rather than a frightening being; its kind of fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -29573,6 +38762,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "tin-tin": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Duende yang dapat berubah menjadi burung dan memikat perempuan lewat petikan gitarnya, dengan asal dari dewa kelelawar Tin, melampaui manusia biasa.",
+        "en": "A duende that can turn into a bird and enchant women with his guitar, descended from the bat god Tin, exceeds ordinary humans.",
+        "claim_ids": [
+          "tin-tin-c03",
+          "tin-tin-c07",
+          "tin-tin-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikisahkan mengejar perempuan muda; cerita berpusat pada individu, sehingga ancamannya ditafsirkan pada skala personal.",
+        "en": "He is said to pursue young women; the stories center on individuals, so the threat is interpreted at a personal scale.",
+        "claim_ids": [
+          "tin-tin-c05",
+          "tin-tin-c07"
+        ]
+      },
+      "fear": {
+        "id": "Sosok kerdil berkepala besar bertopi raksasa, bersiul sendu, dan dapat berubah menjadi burung merupakan keberadaan supernatural.",
+        "en": "A small big-headed figure in an enormous hat, giving a wailing whistle and able to turn into a bird, is a supernatural presence.",
+        "claim_ids": [
+          "tin-tin-c05",
+          "tin-tin-c06",
+          "tin-tin-c08"
+        ]
+      }
+    }
+  },
   "tinilau": {
     "power": "divine",
     "threat": "t1",
@@ -29597,6 +38819,100 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menonjolkan kisah cinta dan perannya sebagai penjaga, sementara sifat destruktifnya hanya disebut singkat; Fear belum dinilai.",
         "en": "The research stresses his love story and guardian role while his destructive side is mentioned only briefly; Fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "tinirau": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa pelindung ikan dan penguasa semua ikan, putra Tangaroa, yang memelihara paus jinak di pulau sucinya.",
+        "en": "The tutelary deity and lord of fishes, a son of Tangaroa, who keeps domesticated whales on his holy island.",
+        "claim_ids": [
+          "tinirau-c01",
+          "tinirau-c04",
+          "tinirau-c08",
+          "tinirau-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Tinirau; ia hanya mengirim Hina menjebak Kae yang membunuh pausnya, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Tinirau; he only sends Hina to trap Kae, who killed his whale, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan Tinirau sebagai penjaga ikan yang dermawan; tidak ada unsur ketakutan, sehingga Fear belum dinilai.",
+        "en": "The research shows Tinirau as a bountiful guardian of fish with no element of fear, so fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "tiyanak": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Meniru bayi dan tangisnya, lalu berubah menjadi wujud aslinya, terbang, atau menjadi burung hitam melampaui kemampuan manusia; wujudnya berbeda antardaerah.",
+        "en": "Mimicking a baby and its cries then reverting to its true form, flying, or turning into a black bird exceeds human ability; its form differs by region.",
+        "claim_ids": [
+          "tiyanak-c01",
+          "tiyanak-c12",
+          "tiyanak-c14",
+          "tiyanak-c24"
+        ]
+      },
+      "threat": {
+        "id": "Kisah menceritakan bayi menggigit istri hingga tewas dan bayi yang menguras tenaga ibunya hingga mati, sehingga ancaman ditafsirkan pada individu.",
+        "en": "Stories tell of an infant biting a wife to death and of one draining its mother until she died, so the threat is interpreted at an individual scale.",
+        "claim_ids": [
+          "tiyanak-c28",
+          "tiyanak-c29",
+          "tiyanak-c01"
+        ]
+      },
+      "fear": {
+        "id": "Tangisan bayi yang menuntun korban ke tempat berbahaya lalu berubah wujud adalah tipuan supernatural.",
+        "en": "A baby’s cry that draws a traveller to a dangerous place before transforming is a supernatural deception.",
+        "claim_ids": [
+          "tiyanak-c01",
+          "tiyanak-c38",
+          "tiyanak-c36"
+        ]
+      }
+    }
+  },
+  "tlaloc": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa hujan yang berkuasa atas hujan, hujan es, guntur, petir, dan pertanian merupakan kuasa atas ranah, dasar Divine.",
+        "en": "The rain god with authority over rain, hail, thunder, lightning, and agriculture holds power over a domain, supporting Divine.",
+        "claim_ids": [
+          "tlaloc-c01",
+          "tlaloc-c03",
+          "tlaloc-c05"
+        ]
+      },
+      "threat": {
+        "id": "Badai dan kekeringan yang ia kirim, serta kekeringan, penyakit, dan embun beku yang mematikan manusia dan panen, ditafsirkan mengancam wilayah luas; ia juga dermawan.",
+        "en": "The storms and drought he sends, with drought, disease, and frost deadly to people and crops, are interpreted as a regional threat; he was also a giver of life.",
+        "claim_ids": [
+          "tlaloc-c06",
+          "tlaloc-c08"
+        ]
+      },
+      "fear": {
+        "id": "Ia ditakuti karena kuasanya atas hujan es, guntur, dan petir, kekuatan alam gaib yang melampaui kendali manusia.",
+        "en": "He was feared for his power over hail, thunder, and lightning, supernatural forces beyond human control.",
+        "claim_ids": [
+          "tlaloc-c03",
+          "tlaloc-c06"
+        ]
       }
     }
   },
@@ -29651,6 +38967,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "tofu-kozo-c11",
           "tofu-kozo-c17",
           "tofu-kozo-c07"
+        ]
+      }
+    }
+  },
+  "toyol": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Bayi mayat yang bergerak terlalu cepat untuk ditangkap dan dapat memanjat tembok serta atap melampaui kemampuan manusia.",
+        "en": "An undead infant that moves too fast to be caught and can scale walls and roofs exceeds human ability.",
+        "claim_ids": [
+          "toyol-c01",
+          "toyol-c22",
+          "toyol-c29"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatannya mencuri harta untuk tuannya, yang ditafsirkan sebagai ancaman terhadap individu; riset menyebut ia tidak melukai atau memangsa manusia.",
+        "en": "Its deed is stealing wealth for its master, interpreted as a threat to individuals; the research says it does not harm or devour people.",
+        "claim_ids": [
+          "toyol-c01",
+          "toyol-c14",
+          "toyol-c27"
+        ]
+      },
+      "fear": {
+        "id": "Balita telanjang bermata merah dan bergigi tajam yang disimpan dalam botol menimbulkan rasa ganjil, bukan rasa diburu; ia bersifat seperti anak yang suka bermain.",
+        "en": "A naked toddler with red eyes and sharp teeth kept in a bottle creates uncanny unease rather than the fear of being hunted; it behaves like a playful child.",
+        "claim_ids": [
+          "toyol-c03",
+          "toyol-c04",
+          "toyol-c20"
         ]
       }
     }
@@ -30008,6 +39358,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "tsurube-otoshi": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Kepala raksasa tanpa tubuh, kadang berselimut api, yang menjatuhkan diri dari pohon dan menyeret korban ke ember adalah kemampuan gaib; riset tidak merinci kekuatan yang lebih besar.",
+        "en": "A gigantic disembodied head, sometimes wreathed in flame, that drops from trees and drags victims into a bucket is a supernatural ability; the research details no greater strength.",
+        "claim_ids": [
+          "tsurube-otoshi-c05",
+          "tsurube-otoshi-c11"
+        ]
+      },
+      "threat": {
+        "id": "Kisah-kisah menyebutnya menyergap dan memangsa orang yang lewat satu per satu, sehingga ancamannya ditafsirkan terhadap individu.",
+        "en": "Stories have it ambushing and devouring passers-by one at a time, so the threat is interpreted as aimed at individuals.",
+        "claim_ids": [
+          "tsurube-otoshi-c04",
+          "tsurube-otoshi-c11"
+        ]
+      },
+      "fear": {
+        "id": "Bersembunyi di pucuk pohon menunggu mangsa lewat lalu menjatuhkan diri untuk makan menimbulkan ketakutan menjadi mangsa.",
+        "en": "Lurking in the treetops for prey to pass and dropping to feed creates the fear of becoming prey.",
+        "claim_ids": [
+          "tsurube-otoshi-c06",
+          "tsurube-otoshi-c02"
+        ]
+      }
+    }
+  },
   "tsurubebi": {
     "power": "superhuman",
     "threat": null,
@@ -30034,6 +39415,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "tsurubebi-c04",
           "tsurubebi-c05"
+        ]
+      }
+    }
+  },
+  "tuchulcha": {
+    "power": null,
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya menyebut Tuchulcha sebagai daimon bawah tanah dari satu lukisan makam; kemampuannya belum ada, jadi Power belum dinilai.",
+        "en": "The research names Tuchulcha only as a chthonic daimon from one tomb painting; no abilities are given, so Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Daimon dunia bawah berparuh burung, berambut ular, dan bertelinga serigala atau keledai adalah wujud supernatural dari dunia orang mati.",
+        "en": "A chthonic daimon with a bird’s beak, snake hair, and wolf or donkey ears is a supernatural figure of the world of the dead.",
+        "claim_ids": [
+          "tuchulcha-c01",
+          "tuchulcha-c08"
         ]
       }
     }
@@ -30066,6 +39472,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "tugarin-c01",
           "tugarin-c05"
+        ]
+      }
+    }
+  },
+  "tulevieja": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Hantu perempuan setengah burung berkaki elang yang terbang dan meninggalkan jejak terbalik melampaui manusia; kisah menyebutnya pergi bila dibacakan doa.",
+        "en": "A half-bird female ghost with eagle legs who flies and leaves reversed footprints exceeds humans; accounts say she flees when a prayer is recited.",
+        "claim_ids": [
+          "tulevieja-c02",
+          "tulevieja-c03",
+          "tulevieja-c05"
+        ]
+      },
+      "threat": {
+        "id": "Ia disebut menukik menyerang orang yang berdosa berat dan mencabik-cabiknya, sehingga ancaman ditafsirkan pada individu.",
+        "en": "She is said to swoop down on a person in mortal sin and tear them apart, so the threat is interpreted at the individual scale.",
+        "claim_ids": [
+          "tulevieja-c09"
+        ]
+      },
+      "fear": {
+        "id": "Hantu bertopi tule berwujud burung-perempuan dengan jejak terbalik dan lari dari doa merupakan keberadaan supernatural.",
+        "en": "A tule-hatted ghost in woman-bird form with reversed tracks who flees at a prayer is a supernatural presence.",
+        "claim_ids": [
+          "tulevieja-c01",
+          "tulevieja-c03",
+          "tulevieja-c05"
         ]
       }
     }
@@ -30153,6 +39591,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "tuttle-bottoms-monster": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat rupa seperti kera berbulu setinggi sekitar delapan kaki; tidak ada kekuatan atau kemampuan terdokumentasi, sehingga kekuatan belum dinilai.",
+        "en": "The research gives only a hairy ape-like form about eight feet long; no strength or ability is documented, so power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Sekitar 50 laporan tidak memuat serangan atau korban; ancaman belum dinilai.",
+        "en": "About 50 reports include no attacks or victims; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk berbulu bermoncong panjang yang berjalan mendekati pasangan tanpa takut membuat saksi panik dan menelepon polisi, tetapi tidak dicatat sebagai pemburu manusia.",
+        "en": "A hairy long-snouted creature that walked up to couples unafraid made witnesses panic and call the police, but it is not recorded as hunting people.",
+        "claim_ids": [
+          "tuttle-bottoms-monster-c02",
+          "tuttle-bottoms-monster-c06",
+          "tuttle-bottoms-monster-c08"
+        ]
+      }
+    }
+  },
   "twrch-trwyth": {
     "power": "superhuman",
     "threat": null,
@@ -30206,6 +39670,70 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "tzitzimitl-c07",
           "tzitzimitl-c08"
+        ]
+      }
+    }
+  },
+  "u-scultone": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Naga atau ular abadi yang tatapannya mematikan dan hanya dapat dinetralkan oleh rasul Petrus lewat cermin menjadi dasar Monstrous.",
+        "en": "An immortal dragon or serpent whose gaze kills and who was neutralised only by the apostle Peter with a mirror supports Monstrous.",
+        "claim_ids": [
+          "u-scultone-c01",
+          "u-scultone-c02",
+          "u-scultone-c04"
+        ]
+      },
+      "threat": {
+        "id": "Seluruh dataran tinggi Golgo disebut berada di bawah belas kasihannya dengan tuntutan korban manusia, ditafsirkan sebagai ancaman skala permukiman di sekitar Baunei.",
+        "en": "The whole Golgo plateau is said to have been at its mercy, with demands for human sacrifice, interpreted as a settlement-scale threat around Baunei.",
+        "claim_ids": [
+          "u-scultone-c01",
+          "u-scultone-c05",
+          "u-scultone-c06"
+        ]
+      },
+      "fear": {
+        "id": "Tatapan yang membunuh dan keabadian melampaui hukum alam; ia versi utama legenda Sardinia, dengan kemiripan basilisk dicatat riset.",
+        "en": "A killing gaze and immortality exceed natural law; this is the main Sardinian legend, with the basilisk parallel noted in the research.",
+        "claim_ids": [
+          "u-scultone-c02",
+          "u-scultone-c04",
+          "u-scultone-c09"
+        ]
+      }
+    }
+  },
+  "ubagabi": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Bola api yang terbang hingga empat kilometer dalam sekejap dan dapat berubah menjadi burung menunjukkan kemampuan gaib di atas manusia.",
+        "en": "A fireball that flies up to four kilometers in an instant and can take a bird form shows supernatural ability above humans.",
+        "claim_ids": [
+          "ubagabi-c08",
+          "ubagabi-c10"
+        ]
+      },
+      "threat": {
+        "id": "Orang yang bahunya tersentuh disebut pasti meninggal dalam tiga tahun; dampaknya terdokumentasi pada korban perorangan.",
+        "en": "A person whose shoulder is grazed is said to die within three years; the documented effect falls on individual victims.",
+        "claim_ids": [
+          "ubagabi-c10"
+        ]
+      },
+      "fear": {
+        "id": "Bola api berwajah nenek yang muncul pada malam hujan dan terbang cepat di luar hukum alam menjadi dasar rasa takut supernatural.",
+        "en": "A fireball with an old woman’s face that appears on rainy nights and flies beyond natural law supports supernatural fear.",
+        "claim_ids": [
+          "ubagabi-c02",
+          "ubagabi-c08"
         ]
       }
     }
@@ -30417,6 +39945,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "unhcegila": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ular raksasa bersisik berzirah nyaris tak tertembus dengan cakar besi dan tatapan yang membutakan atau menggilakan menunjukkan kekuatan monster; versi Dorsey tentang Unkteheh sebagai kuasa air yang lebih besar tidak dipakai.",
+        "en": "A giant scaly serpent with near-impenetrable armor, iron claws, and a gaze that blinds or maddens shows monstrous power; Dorsey’s version of the Unkteheh as greater water powers is not used.",
+        "claim_ids": [
+          "unhcegila-c02",
+          "unhcegila-c03",
+          "unhcegila-c06"
+        ]
+      },
+      "threat": {
+        "id": "Ia dipersalahkan atas banyak orang hilang dan tewas dan keturunannya harus dibunuh suku ketika mulai memangsa manusia, ditafsirkan pada skala permukiman.",
+        "en": "She is blamed for many disappearances and deaths and her offspring had to be killed by the tribes when they began feeding on people, interpreted at settlement scale.",
+        "claim_ids": [
+          "unhcegila-c01",
+          "unhcegila-c12"
+        ]
+      },
+      "fear": {
+        "id": "Siapa pun yang memandangnya buta atau gila dan matanya berapi dalam kabut, sebuah kengerian di luar hukum alam.",
+        "en": "Whoever looks on her goes blind or insane and her eyes burn within a smoky mass, a horror beyond natural law.",
+        "claim_ids": [
+          "unhcegila-c03",
+          "unhcegila-c05"
+        ]
+      }
+    }
+  },
   "unnamed-eagle-on-the-top-of-yggdrasil": {
     "power": "superhuman",
     "threat": null,
@@ -30439,6 +39999,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan elang bijak yang memicu perselisihan lewat pesan Ratatoskr, tanpa unsur kengerian yang terdokumentasi; Fear belum dinilai.",
         "en": "The research portrays a wise eagle provoked by Ratatoskr’s messages, with no documented element of horror; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "unuqay": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kaki kambing yang memanjang dan kekuatannya yang bertambah saat itu melampaui hewan biasa; ia dikenal sebagai wujud kambing Hal anası.",
+        "en": "The goat's lengthening legs and the strength that grows with them exceed an ordinary animal; it is known as the goat form of Hal anası.",
+        "claim_ids": [
+          "unuqay-c04",
+          "unuqay-c05"
+        ]
+      },
+      "threat": {
+        "id": "Menipu dan menekan penunggang kuda hingga cacat bertahan lama, seperti gagap atau pincang; ditafsirkan pada korban individu.",
+        "en": "Deceiving and squeezing riders until they suffer lasting defects such as stammering or limping is interpreted at the scale of individual victims.",
+        "claim_ids": [
+          "unuqay-c02",
+          "unuqay-c05"
+        ]
+      },
+      "fear": {
+        "id": "Monster yang menjelma kambing di dekat pekuburan saat senja, lalu memanjangkan kaki, berada di luar hukum alam.",
+        "en": "A monster taking the form of a goat near cemeteries at dusk and then lengthening its legs lies beyond natural law.",
+        "claim_ids": [
+          "unuqay-c01",
+          "unuqay-c03",
+          "unuqay-c04"
+        ]
       }
     }
   },
@@ -30771,6 +40363,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset menggambarkan Buddha kosmis, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a cosmic Buddha, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "vajrapani": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Bodhisattva Mahayana pelindung Buddha yang melambangkan kekuatan Buddha dan pemegang vajra; dinilai dengan hormat sebagai tafsir editorial atas tradisi Buddha.",
+        "en": "A Mahayana bodhisattva and protector of the Buddha who symbolizes the Buddha's power and holds the vajra; assessed respectfully as an editorial interpretation of the Buddhist tradition.",
+        "claim_ids": [
+          "vajrapani-c01",
+          "vajrapani-c03",
+          "vajrapani-c04"
+        ]
+      },
+      "threat": {
+        "id": "Peran pelindung bukan bukti ancaman dan riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "A protector's role is not evidence of threat and the research holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset hanya menyebut penggambarannya yang murka dalam Vajrayana tanpa dampaknya pada manusia; ketakutan belum dinilai.",
+        "en": "The research only notes his wrathful depiction in Vajrayana without any effect on people; fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -31300,6 +40918,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "viracocha": {
+    "power": "cosmic",
+    "threat": "t4",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa pencipta tertinggi yang membentuk bumi, langit, matahari, bulan, bintang, dan waktu menempatkan skalanya pada tataran dunia.",
+        "en": "The supreme creator who formed the earth, heavens, sun, moon, stars, and time places his scale at the level of the world.",
+        "claim_ids": [
+          "viracocha-c01",
+          "viracocha-c05",
+          "viracocha-c22"
+        ]
+      },
+      "threat": {
+        "id": "Ia menghukum raksasa batu dengan banjir besar dan memusnahkan penduduk sekitar Danau Titicaca dengan Unu Pachakuti, kehancuran terdokumentasi pada skala wilayah, bukan seluruh dunia.",
+        "en": "He punished the stone giants with a great flood and destroyed the people around Lake Titicaca in the Unu Pachakuti, documented destruction at regional scale rather than worldwide.",
+        "claim_ids": [
+          "viracocha-c09",
+          "viracocha-c27"
+        ]
+      },
+      "fear": {
+        "id": "Pencipta yang dapat memusnahkan ciptaannya dengan banjir lalu pergi tanpa kembali menegaskan betapa rapuh dan bergantungnya manusia (tafsir editorial).",
+        "en": "A creator who can wipe out his creations with a flood and then depart without return stresses human fragility and dependence (an editorial reading).",
+        "claim_ids": [
+          "viracocha-c09",
+          "viracocha-c27",
+          "viracocha-c06"
+        ]
+      }
+    }
+  },
   "vishap": {
     "power": "regional",
     "threat": "t4",
@@ -31357,6 +41008,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "vishnu-c14",
           "vishnu-c15",
           "vishnu-c20"
+        ]
+      }
+    }
+  },
+  "vision-serpent": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ular raksasa yang menjadi gerbang ke alam roh dan cara leluhur serta dewa menampakkan diri, dianggap ular Maya terpenting, menjadi dasar kuasa atas ranah penghubung dunia roh.",
+        "en": "A giant serpent that is a gateway to the spirit realm and the way ancestors and gods manifest, thought the most important Maya serpent, supports authority over the domain linking the spirit world.",
+        "claim_ids": [
+          "vision-serpent-c03",
+          "vision-serpent-c05",
+          "vision-serpent-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; perannya sebagai penghubung ritual bukan bukti ancaman; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; its role as a ritual link is not evidence of threat; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penampakan dalam penglihatan setelah ritual darah, dengan roh leluhur atau dewa keluar dari mulutnya, bersifat supernatural.",
+        "en": "Its appearance in visions after bloodletting, with ancestors or gods emerging from its mouth, is supernatural.",
+        "claim_ids": [
+          "vision-serpent-c05",
+          "vision-serpent-c12"
         ]
       }
     }
@@ -31544,6 +41224,73 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "vrykolakas": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Jasad yang dirasuki roh jahat, tidak membusuk, dan dapat membunuh hanya dengan penampakannya melampaui kemampuan manusia.",
+        "en": "A corpse entered by an evil spirit that does not decay and can kill by its mere aspect exceeds human ability.",
+        "claim_ids": [
+          "vrykolakas-c05",
+          "vrykolakas-c06",
+          "vrykolakas-c08"
+        ]
+      },
+      "threat": {
+        "id": "Ia memanggil seorang penghuni rumah yang akan mati keesokan harinya, menindih orang tidur, dan membunuh orang yang dihampirinya, jadi ancamannya berskala individu.",
+        "en": "It calls one member of a household who dies the next day, weighs on sleepers, and kills those it approaches, so the threat is individual in scale.",
+        "claim_ids": [
+          "vrykolakas-c04",
+          "vrykolakas-c06",
+          "vrykolakas-c09"
+        ]
+      },
+      "fear": {
+        "id": "Mayat tak membusuk yang keluar dari makam, mengetuk pintu, dan membunuh hanya dengan memandang berada di luar hukum alam.",
+        "en": "A body that does not decay, leaves its tomb, knocks at doors, and kills by sight lies beyond natural law.",
+        "claim_ids": [
+          "vrykolakas-c04",
+          "vrykolakas-c05",
+          "vrykolakas-c06"
+        ]
+      }
+    }
+  },
+  "vulcan": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa api dan tempa yang menaungi pandai logam; para Cyclops di bengkelnya menempa petir Jupiter, dan ia membuat zirah Aeneas serta istana para dewa, jadi kuasa atas ranah api menjadi dasar Divine.",
+        "en": "The god of fire and the forge and patron of smiths; the Cyclopes at his forge work Jupiter’s thunderbolts, and he made Aeneas’s arms and the gods’ palaces, so authority over fire supports Divine.",
+        "claim_ids": [
+          "vulcan-c01",
+          "vulcan-c18",
+          "vulcan-c08",
+          "vulcan-c15"
+        ]
+      },
+      "threat": {
+        "id": "Sebagai dewa api yang merusak dan gunung berapi, ia dianggap salah satu dewa yang paling ditakuti, dan kuilnya diletakkan di luar kota demi keselamatan dari api; ini menyiratkan potensi pada skala permukiman, bukan perbuatan yang tercatat.",
+        "en": "As god of devastating fire and volcanoes he was among the most dreaded gods, and his temples stood outside cities for safety from fire; this implies settlement-scale potential, not a recorded deed.",
+        "claim_ids": [
+          "vulcan-c16",
+          "vulcan-c17"
+        ]
+      },
+      "fear": {
+        "id": "Kuasa atas api yang merusak dan gunung berapi menjadikannya dewa yang ditakuti; sifatnya adalah kekuatan alam yang berada di luar kendali manusia, bukan penilaian moral.",
+        "en": "Authority over devastating fire and volcanoes made him a dreaded god; this is a natural force beyond human control, not a moral judgment.",
+        "claim_ids": [
+          "vulcan-c16",
+          "vulcan-c10"
+        ]
+      }
+    }
+  },
   "wadjet": {
     "power": "divine",
     "threat": null,
@@ -31566,6 +41313,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Wadjet pada manusia, sehingga jenis ketakutan belum dinilai.",
         "en": "The research holds no account of the fear Wadjet inspires in humans, so the type of fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "wagyl": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Manifestasi Ular Pelangi Noongar yang menciptakan Sungai Swan dan Canning dan, menurut sebagian kelompok, penguasa bumi dan langit.",
+        "en": "The Noongar manifestation of the Rainbow Serpent who made the Swan and Canning rivers and, in some groups, rules Earth and sky.",
+        "claim_ids": [
+          "wagyl-c01",
+          "wagyl-c02",
+          "wagyl-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan Wagyl sebagai pemberi kehidupan yang membentuk sungai dan tanjung; tidak ada perbuatan merusak terhadap manusia, sehingga ancaman belum dinilai.",
+        "en": "The research presents the Wagyl as a life-giver who shapes rivers and landforms; no harm to people is described, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan Wagyl sebagai sumber teror; Fear belum dinilai.",
+        "en": "The research does not describe the Wagyl as a source of terror; fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -31593,6 +41366,66 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "waira-c03",
           "waira-c04"
         ]
+      }
+    }
+  },
+  "wakwak": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk bersayap kelelawar bercakar panjang yang terbang malam hari melampaui kemampuan manusia; ia tidak dapat memisahkan tubuh seperti manananggal.",
+        "en": "A bat-winged, long-taloned creature flying at night exceeds human ability; unlike the manananggal it cannot detach its torso.",
+        "claim_ids": [
+          "wakwak-c01",
+          "wakwak-c02",
+          "wakwak-c03"
+        ]
+      },
+      "threat": {
+        "id": "Ia dikatakan menyambar manusia dan mencabik korban untuk mengambil jantungnya, sehingga ancaman ditafsirkan pada individu.",
+        "en": "It is said to snatch humans and slash victims to take their hearts, so the threat is interpreted at individuals.",
+        "claim_ids": [
+          "wakwak-c01",
+          "wakwak-c03",
+          "wakwak-c16"
+        ]
+      },
+      "fear": {
+        "id": "Suara kepak sayap yang terdengar sebelum makhluk pemburu malam mengambil korban menimbulkan rasa takut diburu.",
+        "en": "The wing-beat heard before a night hunter takes its victim evokes the fear of being hunted.",
+        "claim_ids": [
+          "wakwak-c01",
+          "wakwak-c02",
+          "wakwak-c18"
+        ]
+      }
+    }
+  },
+  "wani-dragon": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Wani dicatat sebagai monster laut atau naga sepanjang delapan depa yang dapat dipanggil dan menjadi pengawal bagi dewa laut; versi utama di sini adalah monster laut, bukan dewa laut seperti tafsir De Visser.",
+        "en": "The wani is recorded as a sea monster or dragon eight fathoms long, summoned to escort the sea god; the main version here is a sea monster, not a sea god as in De Visser’s reading.",
+        "claim_ids": [
+          "wani-dragon-c01",
+          "wani-dragon-c05",
+          "wani-dragon-c17"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak yang jelas; wani hanya menyambar seekor kelinci dan berenang menyusuri sungai, sehingga ancaman belum dinilai.",
+        "en": "The research holds no clear destructive acts; the wani only seizes a hare and swims up rivers, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset lebih banyak membahas identitas wani (buaya, hiu, naga) daripada rasa takut yang ditimbulkannya, sehingga Fear belum dinilai.",
+        "en": "The research concentrates on the wani’s identity (crocodile, shark, dragon) rather than the fear it causes, so fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -31744,6 +41577,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "wd-q10566254": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kepala yang bersayap dan terlepas dari tubuh untuk terbang pada malam hari melampaui kemampuan manusia; versi utama adalah feitou liaozi dari Lingnan.",
+        "en": "A head that sprouts wings and detaches from the body to fly at night exceeds human ability; the main version is the Lingnan feitou liaozi.",
+        "claim_ids": [
+          "wd-q10566254-c01",
+          "wd-q10566254-c05",
+          "wd-q10566254-c06"
+        ]
+      },
+      "threat": {
+        "id": "Kepala itu hanya mencari kepiting dan cacing di lumpur tepi sungai; riset tidak memuat perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The head only seeks crabs and worms in riverbank mud; the research holds no destructive deeds, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Kepala yang terlepas dan terbang lalu kembali sebelum fajar melanggar hukum alam.",
+        "en": "A head that detaches, flies, and returns before dawn defies natural law.",
+        "claim_ids": [
+          "wd-q10566254-c01",
+          "wd-q10566254-c06"
+        ]
+      }
+    }
+  },
   "wd-q10927868": {
     "power": null,
     "threat": "t1",
@@ -31797,6 +41659,113 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "wd-q109781296-c01"
         ]
+      }
+    }
+  },
+  "wd-q11244093": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga putih pelayan kaisar langit yang terbang sangat cepat dan dapat berubah menjadi ikan melampaui manusia; versi dewa Ao Run raja naga laut barat dicatat tetapi tidak dijadikan dasar utama.",
+        "en": "A white dragon serving the celestial emperor that flies very fast and can turn into a fish exceeds humans; the Ao Run deity version, dragon king of the western sea, is noted but not the main basis.",
+        "claim_ids": [
+          "wd-q11244093-c01",
+          "wd-q11244093-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkannya; naga putih digambarkan sebagai pelayan dan pelindung, sehingga Fear belum dinilai.",
+        "en": "The research does not describe fear it provokes; the white dragon appears as a servant and protector, so Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "wd-q11298280": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Burung berwajah manusia dan bermata empat yang kemunculannya menjadi pertanda kekeringan besar; kemampuan firasat itu melampaui manusia, dan teks tidak menyatakan ia menyebabkannya.",
+        "en": "A human-faced, four-eyed bird whose appearance foretells great drought; this foresight exceeds humans, and the text does not say it causes the drought.",
+        "claim_ids": [
+          "wd-q11298280-c05",
+          "wd-q11298280-c06"
+        ]
+      },
+      "threat": {
+        "id": "Pertanda kekeringan bukan bukti ia menyebabkannya; ancaman belum dinilai.",
+        "en": "An omen of drought is not evidence that it causes it; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujud burung hantu berwajah manusia dengan empat mata terasa ganjil dan tidak semestinya.",
+        "en": "The form of an owl with a human face and four eyes feels uncanny and out of place.",
+        "claim_ids": [
+          "wd-q11298280-c05"
+        ]
+      }
+    }
+  },
+  "wd-q11353466": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Perempuan raksasa setinggi tujuh hiro yang membentang di antara gunung dan pantai melampaui manusia biasa, tetapi dapat dilukai dan dipetrifikasi oleh manusia.",
+        "en": "A giant woman seven hiro tall who spans mountains and the coast exceeds ordinary humans, yet a man could wound her and turn her to stone.",
+        "claim_ids": [
+          "wd-q11353466-c01",
+          "wd-q11353466-c04",
+          "wd-q11353466-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkan pengemis, penumbuk padi, dan batu yang terus tumbuh tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows a beggar, a rice pounder, and a growing rock with no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perempuan raksasa di jalan gunung dengan rambut menjuntai dan gigi hitam terasa ganjil dan tidak semestinya.",
+        "en": "A giant woman on mountain roads with hanging hair and black teeth feels uncanny and out of place.",
+        "claim_ids": [
+          "wd-q11353466-c02",
+          "wd-q11353466-c04"
+        ]
+      }
+    }
+  },
+  "wd-q11410474": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung berpupil ganda yang kunjungannya mengusir binatang buas dan mencegah malapetaka, dan citranya mengusir siluman, menunjukkan kemampuan pelindung gaib.",
+        "en": "A double-pupilled bird whose visits drive off beasts and prevent calamity, and whose image repels goblins, shows protective supernatural ability.",
+        "claim_ids": [
+          "wd-q11410474-c02",
+          "wd-q11410474-c03",
+          "wd-q11410474-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan burung pembawa keberuntungan yang disambut, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a welcomed bird of good fortune, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -31859,6 +41828,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "wd-q13166364": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kuda perang dan tulpar yang lahir dari induk tanpa pejantan dan, dalam satu varian, mendadak dapat bicara melampaui kuda biasa.",
+        "en": "A war horse and tulpar born of a mare with no stallion and, in one variant, suddenly able to speak exceeds an ordinary horse.",
+        "claim_ids": [
+          "wd-q13166364-c03",
+          "wd-q13166364-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Achbuudan; ia justru menyelamatkan Joloy dari maut, ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Achbuudan; it in fact saved Joloy from death, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ditimbulkan Achbuudan; Fear belum dinilai.",
+        "en": "The research does not describe the fear Achbuudan provokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "wd-q15893916": {
     "power": "monstrous",
     "threat": "t3",
@@ -31886,6 +41880,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "wd-q15893916-c01",
           "wd-q15893916-c02",
           "wd-q15893916-c03"
+        ]
+      }
+    }
+  },
+  "wd-q15925032": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Jing mampu berubah wujud menjadi manusia dan memakai ilusi; ini kategori roh umum, bukan satu sosok, sehingga dinilai pada tingkat jing biasa.",
+        "en": "Jing can take human form and use illusion; this is a general category of spirit rather than a single figure, so it is rated at the level of an ordinary jing.",
+        "claim_ids": [
+          "wd-q15925032-c07",
+          "wd-q15925032-c11"
+        ]
+      },
+      "threat": {
+        "id": "Jing menyesatkan dan menguji manusia, dan contoh Xinang menarik orang dengan tangannya; dampak yang dicatat berpusat pada individu.",
+        "en": "Jing dazzle and test people, and the example of Xinang pulls people with its hand; the recorded effects center on individuals.",
+        "claim_ids": [
+          "wd-q15925032-c11",
+          "wd-q15925032-c15"
+        ]
+      },
+      "fear": {
+        "id": "Roh dari benda atau hewan tua yang menyamar sebagai manusia dan hanya terbongkar oleh cermin berada di luar hukum alam.",
+        "en": "A spirit of an aged thing or animal that poses as a human and is exposed only by a mirror lies beyond natural law.",
+        "claim_ids": [
+          "wd-q15925032-c06",
+          "wd-q15925032-c11",
+          "wd-q15925032-c13"
         ]
       }
     }
@@ -31940,6 +41966,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "wd-q17060952-c02",
           "wd-q17060952-c03",
           "wd-q17060952-c04"
+        ]
+      }
+    }
+  },
+  "wd-q22098849": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kucing yang berubah wujud dengan makan cahaya bulan dan menjelma rupa manusia menawan, serta merasuki korban, melampaui kemampuan hewan dan manusia.",
+        "en": "A cat that transforms by feeding on moonlight, takes attractive human forms, and possesses victims exceeds animals and humans.",
+        "claim_ids": [
+          "wd-q22098849-c02",
+          "wd-q22098849-c03"
+        ]
+      },
+      "threat": {
+        "id": "Kisah mencatat gadis yang diganggu dan sakit parah akibat makhluk ini, sehingga ancamannya ditafsirkan pada individu.",
+        "en": "Tales record a girl haunted and gravely ill because of it, so its threat is interpreted at the individual scale.",
+        "claim_ids": [
+          "wd-q22098849-c04",
+          "wd-q22098849-c05",
+          "wd-q22098849-c07"
+        ]
+      },
+      "fear": {
+        "id": "Perubahan wujud karena cahaya bulan dan perasukan tidak dapat dijelaskan oleh hukum alam.",
+        "en": "Moonlit transformation and possession cannot be explained by natural law.",
+        "claim_ids": [
+          "wd-q22098849-c02",
+          "wd-q22098849-c03"
         ]
       }
     }
@@ -32044,6 +42102,66 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "wd-q8320871": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Binatang bak domba tanpa mulut yang tak dapat dibunuh dan, dalam kisah Han, menghalangi rombongan kaisar dengan kaki terbenam di tanah hingga lenyap oleh arak.",
+        "en": "A mouthless sheep-like beast that cannot be killed and, in the Han tale, blocks the emperor’s party with its feet sunk in the earth until wine makes it vanish.",
+        "claim_ids": [
+          "wd-q8320871-c04",
+          "wd-q8320871-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ia hanya menghalangi jalan, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; it only blocks the road, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Makhluk tak dapat dibunuh yang lahir dari kegelisahan para tahanan dan membuat para pejabat ketakutan bersifat supernatural.",
+        "en": "An unkillable being born from prisoners’ distress that frightened the officials is supernatural.",
+        "claim_ids": [
+          "wd-q8320871-c04",
+          "wd-q8320871-c07"
+        ]
+      }
+    }
+  },
+  "wd-q89656688": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ikan berwajah manusia yang berbicara dalam legenda urban dan dalam kisah arwah ikan; versi utama legenda urban, dan penulis artikel menafsirkannya sebagai kebetulan wajah.",
+        "en": "A human-faced fish that speaks in the urban legend and in the fish-spirit tale; this uses the main urban-legend version, which the article’s authors read as face pareidolia.",
+        "claim_ids": [
+          "wd-q89656688-c04",
+          "wd-q89656688-c05",
+          "wd-q89656688-c09"
+        ]
+      },
+      "threat": {
+        "id": "Penangkapnya dikisahkan meninggal esok hari dan arwah ikan menuntut satu nyawa tiap ikan besar tertangkap; korban berupa individu.",
+        "en": "The catcher is said to die the next day and the fish spirit takes one life for each large fish caught; victims are individuals.",
+        "claim_ids": [
+          "wd-q89656688-c05",
+          "wd-q89656688-c09"
+        ]
+      },
+      "fear": {
+        "id": "Ikan panggang berwajah nenek yang bersuara melanggar hukum alam dan membuat saksi muntah ketakutan.",
+        "en": "A grilled fish with an old woman’s face and voice defies natural law and made witnesses vomit in fear.",
+        "claim_ids": [
+          "wd-q89656688-c04",
+          "wd-q89656688-c05"
+        ]
+      }
+    }
+  },
   "wd-q9428574": {
     "power": null,
     "threat": null,
@@ -32066,6 +42184,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "wd-q9428574-c01",
           "wd-q9428574-c06"
         ]
+      }
+    }
+  },
+  "wd-q9602528": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Penunggangnya dipercaya hidup seribu hingga tiga ribu tahun dan jubah bulunya tidak tenggelam di air maupun hangus di api; versi kuda putih berambut merah dipakai sebagai patokan.",
+        "en": "Its rider is believed to live one to three thousand years and its fur coat neither sinks in water nor scorches in fire; the white horse with a red mane serves as the reference.",
+        "claim_ids": [
+          "wd-q9602528-c05",
+          "wd-q9602528-c06",
+          "wd-q9602528-c07",
+          "wd-q9602528-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; Jiguang adalah hewan pertanda baik sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; Jiguang is an auspicious animal, so threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan hewan keberuntungan tanpa unsur yang menakutkan; Fear belum dinilai.",
+        "en": "The research describes a fortunate animal with nothing frightening; fear is unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -32127,6 +42272,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "welsh-dragon-c09",
           "welsh-dragon-c11",
           "welsh-dragon-c12"
+        ]
+      }
+    }
+  },
+  "wendigo": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raksasa berkali lipat lebih besar dari manusia yang tumbuh setiap kali memakan korban dan tak pernah kenyang menjadi dasar kekuatan monster.",
+        "en": "A giant many times larger than a human that grows with each person eaten and is never sated supports monstrous power.",
+        "claim_ids": [
+          "wendigo-c09",
+          "wendigo-c10"
+        ]
+      },
+      "threat": {
+        "id": "Hasrat memakan manusia dan membunuh, serta kisah penculikan anak, ditafsirkan mengancam kelompok; belum ada catatan kehancuran permukiman.",
+        "en": "Its cannibal urge and murder, with the tale of a stolen boy, are interpreted as a group-scale threat; no settlement-scale destruction is recorded.",
+        "claim_ids": [
+          "wendigo-c03",
+          "wendigo-c14"
+        ]
+      },
+      "fear": {
+        "id": "Roh jahat yang merasuki manusia, menularkan nafsu kanibal, dan lahir dari keserakahan melampaui hukum alam; unsur pemangsaannya juga kuat.",
+        "en": "An evil spirit that possesses people and spreads cannibal hunger, born of greed, exceeds natural law; its predatory side is also strong.",
+        "claim_ids": [
+          "wendigo-c02",
+          "wendigo-c03",
+          "wendigo-c17"
         ]
       }
     }
@@ -32220,6 +42397,62 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "werewolf-in-slavic-mythology-c09",
           "werewolf-in-slavic-mythology-c05"
         ]
+      }
+    }
+  },
+  "white-dragon-horse": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pangeran naga yang dapat berubah menjadi pemuda atau kuda putih dan sempat bertarung melawan Sun Wukong, tetapi kalah; versi utama novel Perjalanan ke Barat.",
+        "en": "A dragon prince who can become a young man or a white horse and once fought Sun Wukong but lost; this follows the main novel version of Journey to the West.",
+        "claim_ids": [
+          "white-dragon-horse-c06",
+          "white-dragon-horse-c08"
+        ]
+      },
+      "threat": {
+        "id": "Satu-satunya perbuatan menyerang yang tercatat adalah menelan kuda putih Tang Sanzang, sehingga ditafsirkan pada skala individu.",
+        "en": "The only recorded aggression is swallowing Tang Sanzang’s white horse, so it is interpreted at an individual scale.",
+        "claim_ids": [
+          "white-dragon-horse-c06",
+          "white-dragon-horse-c19"
+        ]
+      },
+      "fear": {
+        "id": "Naga putih raksasa yang muncul dari sungai dan menelan kuda adalah penampakan supernatural; perannya kemudian justru pendamping peziarah.",
+        "en": "A gigantic white dragon rising from a stream to swallow a horse is a supernatural apparition, though he later becomes the pilgrims’ companion.",
+        "claim_ids": [
+          "white-dragon-horse-c06",
+          "white-dragon-horse-c19"
+        ]
+      }
+    }
+  },
+  "white-tiger": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Harimau Putih adalah binatang penjaga arah barat dalam Huainanzi dan penjaga gerbang kuil Tao; riset memuat korespondensi arah dan musim, bukan kuasa atas ranah, sehingga dinilai superhuman.",
+        "en": "The White Tiger is the beast of the west in the Huainanzi and a temple-gate guardian in Taoist temples; the research gives direction and season correspondences rather than authority over a domain, so it is rated superhuman.",
+        "claim_ids": [
+          "white-tiger-c05",
+          "white-tiger-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; Harimau Putih tampil sebagai lambang dan penjaga, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; the White Tiger appears as an emblem and guardian, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan atau perburuan terhadap manusia; rasa takut belum dinilai.",
+        "en": "The research holds no frightening element or hunting of humans; fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -32513,6 +42746,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "wuzhiqi": {
+    "power": "regional",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa air sungai Huai dan Guo dengan kekuatan melebihi sembilan gajah, yang hanya bisa ditundukkan Gengchen dan baru bergerak dengan lima puluh lembu.",
+        "en": "A water god of the Huai and Guo rivers with strength surpassing nine elephants, subdued only by Gengchen and moved only with fifty oxen.",
+        "claim_ids": [
+          "wuzhiqi-c06",
+          "wuzhiqi-c07",
+          "wuzhiqi-c09",
+          "wuzhiqi-c10"
+        ]
+      },
+      "threat": {
+        "id": "Pengurungannya di bawah Gunung Kura-kura agar Sungai Huai mengalir tenang menyiratkan gelombang, angin, dan hujan yang mengganggu; ditafsirkan skala permukiman di sepanjang sungai.",
+        "en": "Its confinement beneath Turtle Mountain so the Huai flows peacefully implies troubling waves, wind, and rain; interpreted at the scale of settlements along the river.",
+        "claim_ids": [
+          "wuzhiqi-c03",
+          "wuzhiqi-c09"
+        ]
+      },
+      "fear": {
+        "id": "Kera berleher panjang bermata kilat yang membuat penonton lari melampaui hewan biasa.",
+        "en": "A long-necked ape with lightning-bright eyes that made onlookers flee exceeds an ordinary animal.",
+        "claim_ids": [
+          "wuzhiqi-c07",
+          "wuzhiqi-c12"
+        ]
+      }
+    }
+  },
   "wyvern": {
     "power": "superhuman",
     "threat": null,
@@ -32565,6 +42831,119 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "xana-c04",
           "xana-c05"
+        ]
+      }
+    }
+  },
+  "xelhua": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Raksasa yang selamat dari banjir dan menurut legenda mulai membangun Piramida Agung Cholula ditafsirkan melampaui manusia biasa; sebagian ahli menilainya tokoh bertubuh normal, sehingga tafsir ini memakai versi legenda raksasa.",
+        "en": "A giant who survived the flood and, by legend, began building the Great Pyramid of Cholula is read as beyond ordinary humans; some scholars treat him as a normal-statured figure, so this uses the giant legend version.",
+        "claim_ids": [
+          "xelhua-c01",
+          "xelhua-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak oleh Xelhua; kehancuran menara justru berasal dari dewa; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by Xelhua; the destruction of the tower comes from the gods; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut dari Xelhua sendiri; Fear belum dinilai.",
+        "en": "The research holds nothing that makes Xelhua himself a source of fear; fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "xiangliu": {
+    "power": "regional",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Xiangliu, menteri Gonggong, berkepala sembilan; tempat yang dilewatinya menjadi rawa beracun yang pahit sehingga tak ada hewan hidup; pengaruhnya atas bentang alam menjadi dasar Regional.",
+        "en": "Xiangliu, Gonggong's minister, is nine-headed; where it passes the land becomes bitter marshes where no beast can live; its effect on the landscape supports Regional.",
+        "claim_ids": [
+          "xiangliu-c09",
+          "xiangliu-c05"
+        ]
+      },
+      "threat": {
+        "id": "Ia memakan sembilan gunung dan sembilan negeri, dan tempat yang dicapainya menjadi rawa sehingga biji-bijian tak bisa tumbuh dan tanah tak dapat dihuni; ini ditafsirkan sebagai ancaman wilayah luas sampai Yu membunuhnya.",
+        "en": "It eats from nine mountains and nine lands, and where it reaches becomes marsh so grain cannot grow and the land is uninhabitable; this is interpreted as a broad-region threat until Yu killed it.",
+        "claim_ids": [
+          "xiangliu-c07",
+          "xiangliu-c09"
+        ]
+      },
+      "fear": {
+        "id": "Ular berkepala sembilan berwajah manusia dengan tubuh biru yang meracuni tanah melampaui hukum alam; ini sifat supernatural, bukan penilaian moral.",
+        "en": "A nine-headed serpent with human faces and a blue body that poisons the land exceeds natural law; this is a supernatural category, not a moral judgment.",
+        "claim_ids": [
+          "xiangliu-c08",
+          "xiangliu-c05"
+        ]
+      }
+    }
+  },
+  "xiao-mythology": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memerikan kera berlengan panjang yang pandai melempar dan burung bersayap empat; tidak ada kemampuan gaib atau kuasa, sehingga kekuatan belum dinilai.",
+        "en": "The research only describes a long-armed ape skilled at throwing and a four-winged bird; no supernatural ability or authority, so power is unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Burung bersayap empat, bermata satu, dan berekor anjing menimbulkan rasa janggal, bukan perburuan; versi burung dipakai sebagai patokan.",
+        "en": "A bird with four wings, one eye, and a dog’s tail evokes uncanniness rather than predation; the bird version serves as the reference.",
+        "claim_ids": [
+          "xiao-mythology-c05",
+          "xiao-mythology-c08"
+        ]
+      }
+    }
+  },
+  "xiaotian-quan": {
+    "power": "divine",
+    "threat": "t6",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Anjing pendamping Erlang Shen yang membantu menaklukkan iblis dan menyandang gelar Tiangou, penjaga Gerbang Surgawi Selatan, setara kuasa ilahi; kisah menelan bulan hanya tafsir tambahan.",
+        "en": "Erlang Shen's dog that helps subdue demons and bears the title Tiangou, guardian of the Southern Heavenly Gate, matches divine standing; swallowing the moon is an additional tale.",
+        "claim_ids": [
+          "xiaotian-quan-c02",
+          "xiaotian-quan-c07",
+          "xiaotian-quan-c08"
+        ]
+      },
+      "threat": {
+        "id": "Hanya dalam legenda asal-usul yang berbeda ia mencoba menelan matahari dan bulan hingga dunia gelap; sebagai pendamping Erlang ia pelindung, sehingga ini penilaian bersyarat pada versi tersebut.",
+        "en": "Only in a different origin legend does it try to swallow the sun and moon and plunge the world into darkness; as Erlang's companion it is a protector, so this is conditional on that version.",
+        "claim_ids": [
+          "xiaotian-quan-c07",
+          "xiaotian-quan-c09"
+        ]
+      },
+      "fear": {
+        "id": "Gonggongan yang menaklukkan iblis serta kemampuan menelan bulan berada di luar hukum alam.",
+        "en": "A howl that subdues demons and the ability to swallow the moon lie beyond natural law.",
+        "claim_ids": [
+          "xiaotian-quan-c02",
+          "xiaotian-quan-c07"
         ]
       }
     }
@@ -32626,6 +43005,127 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "xolotl": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa api, petir, kematian, dan pemandu arwah yang melindungi matahari dari bahaya dunia bawah berkuasa atas ranah (Divine).",
+        "en": "A god of fire, lightning, and death, and guide of the dead who protects the sun from the dangers of the underworld, holds authority over domains (Divine).",
+        "claim_ids": [
+          "xolotl-c01",
+          "xolotl-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut ranah kemalangan dan penyakit, tetapi tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research names domains of misfortune and sickness but no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dewa berkepala anjing yang disebut sinister, penguasa monster, kematian, dan cacat, merupakan sosok supernatural yang menggentarkan.",
+        "en": "The dog-headed god called sinister, lord of monsters, death, and deformities, is a fearsome supernatural figure.",
+        "claim_ids": [
+          "xolotl-c01",
+          "xolotl-c05"
+        ]
+      }
+    }
+  },
+  "xtabay": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Iblis yang dalam beberapa versi dapat tampil dalam wujud atau jenis kelamin apa pun dan lahir dari perjanjian dengan roh jahat melampaui manusia; versi utama adalah perempuan penggoda.",
+        "en": "A demon that in some versions can appear in any form or sex and arose from a pact with evil spirits exceeds humans; the main version is the seductress.",
+        "claim_ids": [
+          "xtabay-c07",
+          "xtabay-c09",
+          "xtabay-c17"
+        ]
+      },
+      "threat": {
+        "id": "Ia memikat laki-laki ke kematian mereka di hutan; kisahnya berpusat pada korban individu, dan versi Quintana Roo yang menjadikannya penghukum pemabuk tidak mengubah skala itu.",
+        "en": "She lures men to their deaths in the forest; the tales center on individual victims, and the Quintana Roo version making her a punisher of drunks does not change that scale.",
+        "claim_ids": [
+          "xtabay-c01",
+          "xtabay-c02",
+          "xtabay-c16"
+        ]
+      },
+      "fear": {
+        "id": "Perempuan cantik berambut hitam sampai mata kaki yang menunggu di balik pohon ceiba dan memikat korban merupakan kengerian supernatural dengan unsur predator.",
+        "en": "A beautiful woman with ankle-length black hair waiting behind a ceiba tree to lure victims is supernatural horror with a predatory element.",
+        "claim_ids": [
+          "xtabay-c01",
+          "xtabay-c03",
+          "xtabay-c08"
+        ]
+      }
+    }
+  },
+  "yahui": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Sosok supranatural berwujud campuran hewan dan manusia yang berperan dalam ritus kosmologis menunjukkan sifat gaib; kekuatan rincinya tidak dijelaskan riset.",
+        "en": "A supernatural figure of mixed animal and human form that takes part in cosmological rites shows a supernatural nature; the research does not describe its specific powers.",
+        "claim_ids": [
+          "yahui-c01",
+          "yahui-c04",
+          "yahui-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat ikonografi kodeks dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research covers codex iconography only and holds no destructive acts; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menyajikan yahui sebagai motif ikonografi dan peran ritual, bukan sebagai sumber ketakutan; Fear belum dinilai.",
+        "en": "The research presents the yahui as an iconographic motif with ritual roles, not as a source of fear; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "yako": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Rubah gaib berpangkat rendah yang dapat berubah menjadi manusia dengan bantuan tulang dan merasuki orang adalah kemampuan di atas manusia; ia bukan utusan dewa.",
+        "en": "A low-ranking fox spirit that can take human form with a bone as focus and possess people holds abilities beyond humans; it is not a messenger of the gods.",
+        "claim_ids": [
+          "yako-c05",
+          "yako-c06",
+          "yako-c08"
+        ]
+      },
+      "threat": {
+        "id": "Menyiksa, menipu, dan merasuki manusia (yako-tsuki), lalu merasuki ternak bila keluarga tak sanggup menampungnya, ditafsirkan sebagai ancaman terhadap individu dan keluarga.",
+        "en": "Tormenting, tricking, and possessing people (yako-tsuki), then possessing cattle when a family can no longer support it, is read as a threat to individuals and households.",
+        "claim_ids": [
+          "yako-c06",
+          "yako-c13"
+        ]
+      },
+      "fear": {
+        "id": "Perasukan, wujud manusia palsu, dan keberadaan tak kasatmata menjadi dasar rasa takut supernatural.",
+        "en": "Possession, false human forms, and invisibility give it a supernatural kind of dread.",
+        "claim_ids": [
+          "yako-c02",
+          "yako-c06",
+          "yako-c12"
+        ]
+      }
+    }
+  },
   "yaksha": {
     "power": "superhuman",
     "threat": "t1",
@@ -32651,6 +43151,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "The ghost version that waylays and devours travellers supports the fear of becoming prey; this does not apply to harmless yakshas.",
         "claim_ids": [
           "yaksha-c03"
+        ]
+      }
+    }
+  },
+  "yakusaikazuchi": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Delapan dewa petir yang mewakili berbagai bentuk badai dan dikerahkan mengejar Izanagi menjadi dasar kuasa setingkat dewa atas ranah petir.",
+        "en": "Eight thunder kami representing different forms of storm and sent to pursue Izanagi support godlike authority over the domain of thunder.",
+        "claim_ids": [
+          "yakusaikazuchi-c01",
+          "yakusaikazuchi-c02",
+          "yakusaikazuchi-c13"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat pengejaran Izanagi yang berakhir dengan persembahan buah persik; tidak ada kehancuran yang tercatat sehingga ancaman belum dinilai.",
+        "en": "The research records only the pursuit of Izanagi, which ends with the thrown peaches; no destruction is recorded, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Delapan petir yang bersemayam dalam jasad Izanami di Yomi dan memburu Izanagi menjadi dasar kengerian supernatural dunia kematian.",
+        "en": "Eight thunders lodged in Izanami’s corpse in Yomi that hunt Izanagi support the supernatural horror of the land of the dead.",
+        "claim_ids": [
+          "yakusaikazuchi-c05",
+          "yakusaikazuchi-c08"
         ]
       }
     }
@@ -32909,6 +43438,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "yara-ma-yha-who": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Lelaki merah kecil bermulut ular yang menguras darah dengan tangan dan kaki penghisap serta mampu menelan orang dewasa; kemampuan itu melampaui manusia.",
+        "en": "A small red man with a snake-like mouth who drains blood with sucker-tipped hands and feet and can swallow a grown man, beyond human ability.",
+        "claim_ids": [
+          "yara-ma-yha-who-c04",
+          "yara-ma-yha-who-c05",
+          "yara-ma-yha-who-c06"
+        ]
+      },
+      "threat": {
+        "id": "Menerkam pelancong yang beristirahat di bawah pohon ara dan menelannya satu per satu; cakupannya korban perorangan.",
+        "en": "It pounces on travellers resting under fig trees and swallows them one at a time, a personal-scale threat.",
+        "claim_ids": [
+          "yara-ma-yha-who-c06",
+          "yara-ma-yha-who-c15"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk penyergap yang menguras darah lalu menelan mangsanya utuh adalah ketakutan menjadi mangsa; kisah ini juga dipakai menakuti anak nakal.",
+        "en": "An ambushing creature that drains blood and swallows prey whole embodies the fear of becoming prey; the tale was also told to misbehaving children.",
+        "claim_ids": [
+          "yara-ma-yha-who-c06",
+          "yara-ma-yha-who-c07",
+          "yara-ma-yha-who-c13"
+        ]
+      }
+    }
+  },
   "yatagarasu": {
     "power": "divine",
     "threat": null,
@@ -32994,6 +43556,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "yelbeghen-c01",
           "yelbeghen-c02"
         ]
+      }
+    }
+  },
+  "yellow-dragon": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Naga Kuning adalah wujud hewan Kaisar Kuning dan binatang pusat bagi unsur tanah dalam Huainanzi; kaitan dengan Huangdi menjadi dasar Divine.",
+        "en": "The Yellow Dragon is the animal form of the Yellow Emperor and the beast of the centre and earth in the Huainanzi; the tie to Huangdi supports Divine.",
+        "claim_ids": [
+          "yellow-dragon-c01",
+          "yellow-dragon-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset menampilkan kemunculannya sebagai pertanda bagi penguasa dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research shows its appearance as an omen for rulers and holds no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menakutkan; naga ini pertanda kebajikan bagi dinasti, sehingga rasa takut belum dinilai.",
+        "en": "The research holds no frightening element; this dragon is a favourable omen for dynasties, so fear remains unassessed.",
+        "claim_ids": []
       }
     }
   },
@@ -33469,6 +44056,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "zennyo-ryuo": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raja naga penghujan yang dipuja di kuil dan dikisahkan mengirim hujan deras ke seluruh negeri memberinya kuasa atas ranah hujan; ini tafsir editorial atas tradisi Buddha yang masih dianut.",
+        "en": "A rain-bringing dragon king worshipped at a shrine and said to send heavy rain over the whole country gives authority over the domain of rain; this is an editorial reading of a living Buddhist tradition.",
+        "claim_ids": [
+          "zennyo-ryuo-c01",
+          "zennyo-ryuo-c06",
+          "zennyo-ryuo-c13"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; perannya sebagai pembawa hujan bukan bukti ancaman; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; its role as a rain-bringer is not evidence of threat; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujud perempuan yang jarinya ternyata cakar panjang bercahaya lima warna adalah penampakan supernatural; kesan yang ditimbulkan lebih berupa kekaguman daripada permusuhan.",
+        "en": "A woman whose little finger proves to be a long five-coloured claw is a supernatural manifestation; the impression is awe more than hostility.",
+        "claim_ids": [
+          "zennyo-ryuo-c10",
+          "zennyo-ryuo-c11"
+        ]
+      }
+    }
+  },
   "zeus": {
     "power": "divine",
     "threat": "t6",
@@ -33554,6 +44170,34 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "zhu-bajie-c17",
           "zhu-bajie-c33"
+        ]
+      }
+    }
+  },
+  "zhulong-mythology": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Membuka mata menghasilkan siang, menutupnya malam, dan napasnya membentuk musim serta angin; tubuhnya seribu li. Dasar Cosmic.",
+        "en": "Opening his eyes makes day, closing them night, and his breath makes the seasons and winds; his body is a thousand li long. This supports Cosmic.",
+        "claim_ids": [
+          "zhulong-mythology-c03",
+          "zhulong-mythology-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dewa raksasa yang mengatur siang, malam, dan musim menekankan betapa kecil kendali manusia atas alam.",
+        "en": "A giant god governing day, night, and the seasons emphasizes how little control humans have over nature.",
+        "claim_ids": [
+          "zhulong-mythology-c07",
+          "zhulong-mythology-c09"
         ]
       }
     }
