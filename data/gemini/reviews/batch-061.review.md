@@ -1,6 +1,6 @@
 # Review batch-061
 
-Diperiksa 2026-10-13T20:14:39.925Z. Berkas: batch-061.md, batch-061-fix-1.md, batch-061-fix-2.md, batch-061-fix-3.md, batch-061-fix-4.md.
+Diperiksa 2026-10-14T02:54:21.261Z. Berkas: batch-061.md, batch-061-fix-1.md, batch-061-fix-2.md, batch-061-fix-3.md, batch-061-fix-4.md, batch-061-fix-5.md, batch-061-fix-6.md.
 
 ## haguro-gongen — lulus-otomatis
 
@@ -375,15 +375,15 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | kesaran-pasaran-c03 | exact | ja.wikipedia.org | Accounts disagree over whether it is an animal, plant or small yōkai. | 一つ一つが小さな妖力を持つ妖怪とも言われるが、植物か動物かは判然とせず、未確認動物として扱われることもある。 |
 | kesaran-pasaran-c04 | exact | ja.wikipedia.org | Keeping it in a ventilated paulownia box with face powder is said to bring luck or multiplication. | 穴の開いた桐の箱の中でおしろいを与えることで飼育でき、増殖したり、持ち主に幸せを呼んだりすると言われている。だが、穴がないと窒息して死んでしまう、おしろいは香料や着色料の含まれていないものが望ましい、1年に2回以上見るとその効果は消えてしまうなどと言われることもある。 |
 | kesaran-pasaran-c05 | exact | www2.ngu.ac.jp | A word-formation study concludes that an onomatopoeic origin for the name is unlikely. | 結論としては，オノマトペ標識「ラ」「ン」を含むこと，前方の語基音が変化した後方語基 型の形を持つ点ではオノマトペに近い形をしているが，変化した語基音が独立した意味を持つ ことはほぼないことから，オノマトペ起源である可能性は低いとした。 |
-| kesaran-pasaran-c06 | exact | www2.ngu.ac.jp | The study cites traditions giving a size range from an adzuki bean to a chicken egg. | ウサギの尻尾のような形をした 白い毛玉で，小豆から鶏卵くらいの大きさとするのが一般的である。 |
+| kesaran-pasaran-c06 | exact | www2.ngu.ac.jp | It is said to be found in shrine grounds or deep mountains, or to fly into gardens from somewhere; in Onabe, Nezugaseki village, Nishitagawa district, Yamagata Prefecture (Atsumi), it is said to fall from the sky with thunder as a treasure granted by heaven, and owning one is said to bring happiness. | 神社の境内や深山などに落ちていたり，庭先などにどこからか飛んでくるという。 山形県西田川郡念珠関村小名部（温海町）では，雷と一緒に天から落ちてくるもので，天 から授かった宝物だとしている。持っていると幸せが訪れるといわれ |
 
 
 ## kihisakamitakahiko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 4, unreachable 2), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 2 kutipan tidak bisa dicek otomatis: ksu.repo.nii.ac.jp (HTTP 406).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -391,6 +391,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kihisakamitakahiko-c02 | exact | ja.wikipedia.org | A mountain passage is associated with the similarly named deity in the Shitsuchi locality. | 『出雲国風土記』出雲郡の神名火山条に登場する。漆治郷条のアマツキヒサカミタカヒコ（天津枳比佐可美高日子）と同一神かとされる。 |
 | kihisakamitakahiko-c03 | exact | ja.wikipedia.org | The Shitsuchi account names Kamimusubi as parent and connects the deity’s name with the locality. | 神魂命の御子である天津枳比佐可美高日子命の御名をまたは薦枕志都治値（こもまくらしつちち）といった。この神は郷の中に鎮座していらっしゃる。よって、志丑治（しつち）とされた。神亀三年に字を漆治とした。 |
 | kihisakamitakahiko-c04 | exact | ja.wikipedia.org | Identity theories relate him to Kihisatsumi, either as one deity or as figures with shared origins. | 「キヒサ」の語を名に持つことから、『古事記』に登場する出雲国造の祖であるキヒサツミと関係があるとされており、「ミ」＝「精霊」から「カミ」＝「神」へ成長したとして同一視する説や、起源を共有する神と人であると解釈する説が提唱されている。 |
+| kihisakamitakahiko-c05 | unreachable (HTTP 406) | ksu.repo.nii.ac.jp | Mount Butsukyō (仏経山), the kannabi mountain (神奈備山) shared by two archaeological sites, has a sacred rock (磐座) on its summit; at its foot stands Soginoya Shrine (曾枳能夜神社), where Kihisakamitakahiko, ancestor of the Izumo kuni-no-miyatsuko (出雲国造), worships the Great Deity of Izumo (出雲大神). | 両遺跡に共通する神奈備山が仏経山であり，その山頂には磐座 が存在し，麓には出雲国造の祖・伎比佐加美高日子命（きひさかみたかひこのみこと）が出雲大神 を奉祭する曾枳能夜神社（そぎのやじんじゃ）がある． |
+| kihisakamitakahiko-c06 | unreachable (HTTP 406) | ksu.repo.nii.ac.jp | According to the author, before moving to Kizuki (杵築), the spirit of the Great Deity of Izumo dwelt on this mountain and was worshipped by the ancestor of the kuni-no-miyatsuko (国造). | のちに杵築に移るまでの間，出雲大神の魂 はこの山上にあり，国造の祖によって奉祭されてきたのである． |
 
 
 ## kihisatsumi — lulus-otomatis
@@ -410,16 +412,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## kodamahiko-no-mikoto — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kodamahiko-no-mikoto-c01 | exact | ja.wikipedia.org | Kodamahiko is a deity of Nagano’s Suwa folk belief. | 児玉彦命（こだまひこのみこと）は、長野県諏訪地方の民間信仰（諏訪信仰）の神。 |
 | kodamahiko-no-mikoto-c02 | exact | ja.wikipedia.org | The Moriya genealogy makes him Katakurabe’s son and successor to Chikato’s ritual leadership. | 大神御子片倉辺命之御子也、大神之御言之随千鹿頭神之跡乎継弖主祭政、守達神御子美都多麻比売神乎娶弖八櫛神乎生 （大神の御子片倉辺命の御子なり。大神の御言の随に、千鹿頭神の跡を継ぎて祭政を主る。守達神の御子・美都多麻比売神を娶りて、八櫛神を生む。） とある。このことから守矢氏の系図では児玉彦命を四代目に数えられる。 |
 | kodamahiko-no-mikoto-c03 | exact | ja.wikipedia.org | He marries Moritachi’s daughter Mitsutamahime and fathers the next ancestral deity Yakushi. | 片倉辺命の子であり、母は明らかでない。后神である守達神の子、美都多麻比売命との間に八櫛神が生まれる。この神は守矢氏の五代目とされる。 |
+| kodamahiko-no-mikoto-c04 | exact | ja.wikipedia.org | One view holds that Chikato's (千鹿頭神) successor being a grandson of Takeminakata (建御名方神) signifies that the 神氏 clan entering the Suwa (諏訪) region took over the rites of the local power. | 千鹿頭神の跡継ぎが建御名方神の孫神となっているのは、諏訪地方に進入した神氏（神話上の建御名方神とその子孫）が土着勢力の祭祀を肩代わりしたことを意味するという見解もある。 |
+| kodamahiko-no-mikoto-c05 | exact | ja.wikipedia.org | Because Kodamahiko (児玉彦命) is recorded as the successor, one theory holds that the Moriya clan (守矢氏) are heirs to the rites of Moreya (洩矢神) rather than his blood descendants. | 建御名方神の孫・児玉彦命（片倉辺命の御子神）がその跡を継いだとも書かれているため、守矢氏は洩矢神の祭祀の後継者であってその血族的子孫ではないとする説もある。 |
+| kodamahiko-no-mikoto-c06 | exact | ja.wikipedia.org | His father Katakurabe (片倉辺命) had three children: Kodamahiko, Uwatsumitama (上津御玉神) and Shimotsumitama (下津御玉神). | 建御名方神と八坂刀売神の子で、后神は不明だが児玉彦命、上津御玉神、下津御玉神の三柱の御子神がいる。 |
 
 
 ## kokemusume — lulus-otomatis
@@ -438,16 +440,16 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## kuninotoshimi-no-kami — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kuninotoshimi-no-kami-c01 | exact | ja.wikipedia.org | Kunioshitomi is an earthly deity named in the Kojiki as Ōkuninushi’s grandson. | 『古事記』において大国主神の孫とされるが、名前のみ登場の神。『日本書紀』に記載はない。十七世神（とおまりななよのかみ）の一柱の国津神。 |
 | kuninotoshimi-no-kami-c02 | exact | ja.wikipedia.org | His name is interpreted as abundant land inheriting his mother’s agricultural character. | 「国」は「国土」、「忍」は「威圧的」、「富」は「豊富」を表し、名義は「国土が威圧的に豊富になること」と考えられ、母の田の豊作を受け継いでいる。 |
 | kuninotoshimi-no-kami-c03 | exact | ja.wikipedia.org | The Susa shrine family genealogy instead places a similarly named deity as Kayanarumi’s child. | 大国主神の後裔を称する須佐神社の社家・須佐氏の系譜に、大国主神の御子神賀夜奈流美命の御子神に「国忍富命」が登場する。 |
+| kuninotoshimi-no-kami-c04 | exact | kojiki.kokugakuin.ac.jp | He appears in the genealogy of Ōkuninushi (大国主神) as the child of Torinarumi (鳥鳴海神) and Hinateri-nukata-bichio-ikochini (日名照額田毘道男伊許知邇神); he married Ashinadaka (葦那陀迦神, also Yagawaehime/八河江比売) and fathered Hayamikanotakesahayajinumi (速甕之多気佐波夜遅奴美神). | 大国主神の系譜中に見える。鳥鳴海神が日名照額田毘道男伊許知邇神を娶って生んだ神。葦那陀迦神（またの名を八河江比売）を娶って速甕之多気佐波夜遅奴美神を生む。 |
+| kuninotoshimi-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | One reading takes 'oshi' (忍) as 'all over', so the name means a land prosperous throughout; another takes 'oshi' as 'many' and 'tomi' as a word of praise. | 国忍富神の名義は、「忍」を、おしなべて・一体にして、の意ととり、国がおしなべて富んでいる意とする説や、「忍」を多いこと、トミを讃え詞とする説 |
+| kuninotoshimi-no-kami-c06 | exact | kojiki.kokugakuin.ac.jp | Many deities in this genealogy do not appear in other texts and the Kojiki (古事記) narrates no deeds for them, so their meaning and relationships are hard to determine. | 系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。 |
 
 
 ## kuraokaminokami — lulus-otomatis
@@ -477,10 +479,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## kushimachi-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -488,14 +487,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kushimachi-no-mikoto-c02 | exact | ja.wikipedia.org | The register also records related names in Musashi and the capital. | また、武蔵国多磨郡の式内社として大麻止乃豆乃天神社、京中の左京二条坐神として太詔戸命神と共に久慈真智命神の名が見える。 |
 | kushimachi-no-mikoto-c03 | exact | ja.wikipedia.org | One genealogy identifies him with Ame no Koyane, father of Ame no Oshikumo. | 「郡」系図では天押雲命の父を櫛真智命としており、天児屋命の別名とする説がある。 |
 | kushimachi-no-mikoto-c04 | exact | ja.wikipedia.org | Watarai and Urabe genealogies preserve additional forms and different descendant lines. | 度会氏の系図では櫛真乳魂命（くしまちむすひ/くしまちたま）と表記され、天曽多智命の父で天牟羅雲命の五世の祖としている。卜部氏の系図では武乳速命の父としてその名が記され、別名が麻等能豆命（まとのずのみこと）とされる。 |
+| kushimachi-no-mikoto-c05 | exact | kotobank.jp | According to the Yamato provincial tax register of 730 (天平二年, Shōsōin documents 正倉院文書), the deity Kushimachi (久志麻知神) held one chō of divine rice fields, and in 806 (大同元年) was granted one sustenance household (神封). | 天平二年（七三〇）の大倭国正税帳（正倉院文書）によると 久志麻知 （ くしまち ） 神は神田一町を有し、大同元年（八〇六）には大和国に神封一戸を寄せられた（新抄格勅符抄）。 |
+| kushimachi-no-mikoto-c06 | exact | kotobank.jp | The Sandai Jitsuroku (三代実録) records that on the 27th day of the first month of 859 (貞観元年) the deity Amenokaguyama Ōmatonochi (天香山大麻等野知神) was promoted from junior fifth rank lower to junior fifth rank upper. | 「三代実録」貞観元年（八五九）正月二七日条には天香山大麻等野知神とみえ、従五位下より従五位上に昇叙。 |
+| kushimachi-no-mikoto-c07 | exact | kotobank.jp | In the fourth month of 994 (正暦五年) the court sent a member of the Nakatomi clan (中臣氏) with offerings to this shrine to pray against epidemics and fires (本朝世紀). | 正暦五年（九九四）四月には中臣氏人を宣命使とし、当社に幣帛を奉って疫疾火災の変を祈らしめている（本朝世紀）。 |
 
 
 ## kushimachi-no-mikoto-q98083023 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -503,33 +502,30 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kushimachi-no-mikoto-q98083023-c02 | exact | ja.wikipedia.org | His origins are uncertain, and the Engishiki associates him with AmenoKaguyama and an older name. | 古事記と日本書紀に登場しておらず、出自不明とされる。延喜式神名帳には天香山神社の祭神として記述されている。また、「元名 大麻等乃知神」との注記がある。 |
 | kushimachi-no-mikoto-q98083023-c03 | exact | ja.wikipedia.org | One hypothesis connects the name with Kashima and identifies him with Ame no Koyane. | 櫛眞（くしま）を鹿島とする説があり、天児屋命の別名とする説がある。 |
 | kushimachi-no-mikoto-q98083023-c04 | exact | ja.wikipedia.org | A competing interpretation questions the Kashima link because of the register’s older name. | しかし、延喜式神名帳の大和国十市郡の天香山坐櫛眞知命神社に関して「元名 大麻等乃知神」とあり、 鹿島との関連を疑う説もある。 |
+| kushimachi-no-mikoto-q98083023-c05 | exact | kotobank.jp | According to the Yamato provincial tax register of 730 (天平二年, Shōsōin documents 正倉院文書), the deity Kushimachi (久志麻知神) held one chō of divine rice fields, and in 806 (大同元年) was granted one sustenance household (神封). | 天平二年（七三〇）の大倭国正税帳（正倉院文書）によると 久志麻知 （ くしまち ） 神は神田一町を有し、大同元年（八〇六）には大和国に神封一戸を寄せられた（新抄格勅符抄）。 |
+| kushimachi-no-mikoto-q98083023-c06 | exact | kotobank.jp | The Sandai Jitsuroku (三代実録) records that on the 27th day of the first month of 859 (貞観元年) the deity Amenokaguyama Ōmatonochi (天香山大麻等野知神) was promoted from junior fifth rank lower to junior fifth rank upper. | 「三代実録」貞観元年（八五九）正月二七日条には天香山大麻等野知神とみえ、従五位下より従五位上に昇叙。 |
+| kushimachi-no-mikoto-q98083023-c07 | exact | kotobank.jp | In the fourth month of 994 (正暦五年) the court sent a member of the Nakatomi clan (中臣氏) with offerings to this shrine to pray against epidemics and fires (本朝世紀). | 正暦五年（九九四）四月には中臣氏人を宣命使とし、当社に幣帛を奉って疫疾火災の変を祈らしめている（本朝世紀）。 |
 
 
 ## kushiyatama — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Ōkuninushi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `conflicts[0].positions[1].summary` Tidak muncul di kutipan mana pun: Ōkuninushi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kushiyatama-c01 | exact | ja.wikipedia.org | Kushiyatama is a deity, grandson of the water-gate gods, appointed as cook for a divine feast. | 水戸神（速秋津日子神と速秋津比売神）の孫である櫛八玉神を膳夫に任命して（別説：櫛八玉神が膳夫になって）天の御饗（みあえ）を献上するときに、祝福の言葉を申し上げて、 |
 | kushiyatama-c02 | exact | ja.wikipedia.org | He prepares a divine feast, becomes a cormorant and makes vessels and fire tools from sea materials. | また、私の子である百八十の神たちは、八重事代主神を先頭としてお仕え申し上げれば、背く神はいません」と答えて出雲国の多芸志（たぎし）の小浜に天の御舎（みあらか）を造って、水戸神（速秋津日子神と速秋津比売神）の孫である櫛八玉神を膳夫に任命して（別説：櫛八玉神が膳夫になって）天の御饗（みあえ）を献上するときに、祝福の言葉を申し上げて、櫛八玉神は鵜に変化して海底に入り、底にある土を摘んで天の八十平瓮（やそびらか）を作り、海藻の茎を刈り取って燧臼（ひきりうす）を作り、さらにまた海藻の茎で燧杵（ひきりきね）を作り、火を鑽りだして次のように述べた。 |
 | kushiyatama-c03 | exact | ja.wikipedia.org | Interpretations link his name with mysterious spiritual power, pearls and Izumo origins. | 神名の櫛は奇（くし）の借字、八は多数、玉は真珠の意として海の霊力を持つ神、あるいは霊妙な多数の霊魂を持つ神と考えられており、多くの霊魂の発動によってあらゆる行為をする様を指しているとされる。『出雲国造神賀詞』に登場する倭大物主櫛𤭖玉命や『古語拾遺』で出雲国に住む玉作の祖とされる櫛明玉命などと似た名称であるため、櫛と玉を冠する神名は出雲にルーツがあると推測されている。 |
-| kushiyatama-c04 | exact | ja.wikipedia.org | Scholars disagree over the action’s subject and the divine feast’s recipient. | 多芸志の小浜に天の御舎が造られた後の記述は原文だと主語がクシヤタマとオオクニヌシのどちらであるのかが明確になっておらず、クシヤタマ及び膳夫について言及される箇所を「櫛八玉神、膳夫と為りて」と訓んで以降の言動をクシヤタマが主体となっているものとする説と、「櫛八玉神を膳夫と為て」と訓み行動の主体は前文から変わらずオオクニヌシのままで、クシヤタマはオオクニヌシの代理で行動しているとする説がある。饗膳である天の真魚咋が献上された相手についてもオオクニヌシとする説、または高天原の天つ神とする説とで解釈が分かれている。 |
+| kushiyatama-c04 | exact | ja.wikipedia.org | Scholars disagree whether the actor is Kushiyatama or Ōkuninushi (オオクニヌシ), and whether the feast was offered to Ōkuninushi or to the heavenly gods. | 多芸志の小浜に天の御舎が造られた後の記述は原文だと主語がクシヤタマとオオクニヌシのどちらであるのかが明確になっておらず、クシヤタマ及び膳夫について言及される箇所を「櫛八玉神、膳夫と為りて」と訓んで以降の言動をクシヤタマが主体となっているものとする説と、「櫛八玉神を膳夫と為て」と訓み行動の主体は前文から変わらずオオクニヌシのままで、クシヤタマはオオクニヌシの代理で行動しているとする説がある。饗膳である天の真魚咋が献上された相手についてもオオクニヌシとする説、または高天原の天つ神とする説とで解釈が分かれている。 |
+| kushiyatama-c05 | exact | kojiki.kokugakuin.ac.jp | Kushiyatama (櫛八玉神) became a cormorant, took clay from the sea floor to make eighty vessels (八十びらか), then made a fire-board and fire-drill from seaweed stalks and kindled fire. | 櫛八玉神は鵜となって海の底の土を食い取って容器の八十びらかを作り、海布の茎で燧臼、海蓴の柄で燧杵を作って、それによって火を起こした。 |
+| kushiyatama-c06 | exact | kojiki.kokugakuin.ac.jp | One view explains his appearance by his status as ancestral deity of the Bekki clan (別火氏) of Izumo (出雲), who hereditarily kindled pure fire and cooked offerings. | また、櫛八玉神が登場するのは、浄火を鑚りだして神饌を調理する膳夫としての家業を受け継いできた出雲の別火氏の祖神とされる神だからという見解がある。 |
+| kushiyatama-c07 | exact | kojiki.kokugakuin.ac.jp | If he is the one who recites the blessing (寿詞, 鑚火詞), one interpretation sees him as a figure akin to a shaman. | 主体を櫛八玉神とみる場合、祭りをおこなう過程を寿詞（鑚火詞）によって自ら語っていることから、櫛八玉神をシャーマンに通じる存在と捉える説がある。 |
+| kushiyatama-c08 | exact | kojiki.kokugakuin.ac.jp | His actions are tied to the sea; this is explained either as an association from his status as grandson of the river-mouth gods (水戸神), or conversely he was deemed their grandson because of his sea link. | 梗概にあるように、櫛八玉神の行動は海に関連するものである。これについて、水戸神の孫からの連想が働いているとも、あるいは逆に海との関連のために水戸神の孫と見なされたとも説かれている。 |
 
 
 ## matamatsukutamanomurahime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -537,6 +533,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | matamatsukutamanomurahime-c02 | exact | ja.wikipedia.org | The Asayama account identifies her as Kamimusubi’s child and Ōnamochi’s wife. | 『出雲国風土記』神門郡の朝山郷条に登場するオオナモチの妻神で、カムムスヒの御子神と伝わる。他には見られない。 |
 | matamatsukutamanomurahime-c03 | exact | ja.wikipedia.org | The place-name Asayama is explained through Ōnamochi’s morning visits to her. | 神魂命の御子である真玉著（着）玉邑日女命がここに鎮座していた。その時、所造天下大神である大穴持命が女神と結婚なさって、毎朝この地へお通いになった。故に、朝山と言うようになった。 |
 | matamatsukutamanomurahime-c04 | exact | ja.wikipedia.org | Interpretations range from a local land goddess to a powerful village priestess. | 土地の主権を握る土着の女神とする説や「マ」を接頭辞、「ツク」を精霊の依り憑く意と捉えて玉依比売信仰の一種とする説、「タマムラヒメ」を「魂の村姫」と解して集落の首長である最高位の巫女のこととする説、「玉」を美しさの比喩表現と見て邑に坐す美しい女神の意とする説などが唱えられている。 |
+| matamatsukutamanomurahime-c05 | exact | kotobank.jp | She is the main deity of Asayama Shrine (朝山神社), on a mountainside at the western end of Asayama-chō, Izumo city (出雲市), a former prefectural-rank shrine. | [現在地名]出雲市朝山町 朝山町西端の山腹にあり、主祭神は真玉著玉之邑日女命。旧県社。 |
+| matamatsukutamanomurahime-c06 | exact | kotobank.jp | Her shrine is identified with the Asayama shrine (浅山社) of the Izumo Fudoki (出雲国風土記) and the Asayama Shrine in the Engishiki (延喜式) register of deities. | 「出雲国風土記」の浅山社、「延喜式」神名帳の朝山神社である。 |
+| matamatsukutamanomurahime-c07 | exact | kotobank.jp | In 1520 (永正一七年) she appears under the name Uitaki Myōjin (雲井滝明神), after the old name of Mount Uitaki (宇比多伎山), a name that lasted until early Meiji (明治). | 永正一七年（一五二〇）に古名の 宇比多伎 （ ういたき ） 山にちなむ 雲井滝 （ ういたき ） 明神の名で現れ、明治初年まで続いた。 |
 
 
 ## mikashikiyahime — lulus-otomatis
@@ -584,10 +583,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## moritaku-no-kami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -595,14 +591,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | moritaku-no-kami-c02 | exact | ja.wikipedia.org | The Moriya genealogy makes him Moriya’s son, inheritor of ritual leadership and father of Chikato. | 明治初期に書かれた守矢氏の家系図『神長守矢氏系譜』の中では初代の洩矢神に次いで2代目とされる神で、妹には多満留姫がいる。これによると父である洩矢神から祭政官としての地位を引き継ぎ、諏訪大神（建御名方神）と狩りに行った際に1,000頭の鹿を得たことから自分の子を千鹿頭神と名付けた。 |
 | moritaku-no-kami-c03 | exact | ja.wikipedia.org | Some traditions identify him with Moritachi and associate him with Mount Moriya. | 長野市七二会にある守田神社（式内社・守田神社の論社）の祭神の守達神（建御名方神の御子神）とも同視されている。 『信濃国官社諏訪神社神長官守矢家略系図』（延川和彦著『修補諏訪氏系図』に収録）では守屋山に鎮座する神とされている。 |
 | moritaku-no-kami-c04 | exact | ja.wikipedia.org | Interpretations disagree over whether Moriya and Moritaku are one deity or differentiated ancestral figures. | 江戸末期には「守宅」を「もりや」と読み守屋山の神として洩矢神に比定する説が現れたが、『守矢氏系譜』では洩矢神は守宅神の父神とし両者を別としている。 これについて山田肇（1929年）は「モレヤもモリヤも同語ではないか、洩矢の子は直ちに千鹿頭であらう。然るに此の間に守矢を置くのは洩矢神社と守矢大神祠とがあり、これを別神と認めた作為で、其の実は洩矢神即ち守矢大神とあらねばならぬ。されば一書には守矢の亦名千鹿頭となつてゐる」と書いている。 一方大和岩雄（1990年）は狩猟性を示す洩矢神（ここでは守矢氏が祀るミシャグジと同視）が農耕性を持ったことから狩猟的「洩矢」と区別して農耕的「モリヤ」を「守宅（守田）」として『系譜』では父子関係になったという説を立てている。 |
+| moritaku-no-kami-c05 | exact | ja.wikipedia.org | The Moriya genealogy says Moritaku (守宅神) was born with wondrous power and great strength, bore bow and arrows in place of his father, and hunted with the Great Deity, obtaining a thousand deer. | 守宅神、生まれて霊異幹力あり、父に代はりて弓矢を負ひ、大神に従ひ遊猟し、千の鹿を得る。 |
+| moritaku-no-kami-c06 | exact | ja.wikipedia.org | Because some hold that Moreya (洩矢神) and Moritaku are in fact the same deity, Chikato (千鹿頭神) is sometimes called Moreya's child. | なお、洩矢神と守宅神は実は同一神であるという説もあり、そのことから千鹿頭神は洩矢神の子とされる場合がある。 |
+| moritaku-no-kami-c07 | exact | ja.wikipedia.org | According to that genealogy, his sister Tamaruhime (多満留姫) married Izuhayao (出早雄命), son of Takeminakata (建御名方神), while Moritaku fathered Chikato and became heir to Moreya's rites. | 明治初期成立の『神長守矢氏系譜』によれば、洩矢神には守宅神と多満留姫の2柱の御子神がおり、多満留姫は建御名方神の御子神・出早雄命に嫁ぎ、守宅神は千鹿頭神をもうけ、洩矢神の祭政の跡継ぎとなった。 |
 
 
 ## munasukihime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -610,6 +606,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | munasukihime-c02 | exact | ja.wikipedia.org | One legend has an elderly couple adopt a young princess arriving by box boat at Hashi. | 神代の昔、石見の国の波子（はし）の浦に一艘の箱舟が流れ着いた。中にいたのは歳六・七歳ほどの麗しい幼い姫であった。これは出雲の国の須佐能男命のお血筋に違いないといって、子の無い翁と媼が姫を育てることになった。 |
 | munasukihime-c03 | exact | ja.wikipedia.org | She grows skilled in archery, and smoke signals rise to the east when she is thirteen. | 老夫婦が慈しんで育て、見目麗しく成長した姫だったが、弓矢の稽古に余念がなかった。姫が十三歳になったある日、東の空に狼煙が上がった。 |
 | munasukihime-c04 | exact | ja.wikipedia.org | She returns to defend Izumo; her adoptive parents die pursuing her, and she is worshiped at Hashihayashi Shrine. | このときになって姫はようやく自らの出自を明らかにし、出雲の国に寇が迫っているので急ぎ帰らなければならないと言った。翁と媼は引き留めたが、姫は家を忍び出て東に向かった。気づいた翁と媼は跡を追ったが、浅利の海岸で力尽きて亡くなった。出雲に戻った姫は寇を見事防いだという。姫は波子早脚神社に祀られているという。 |
+| munasukihime-c05 | exact | ja.wikipedia.org | In another version, the girl revealed herself as Tagorihime (田心姫), daughter of Susanoo (須佐能男命) of Izumo, set adrift after angering her father with her wild temper as a child. | 娘は出雲の須佐能男命の娘で田心姫といった。幼い頃、心が荒々しかったため、父の怒りに触れ流されたという。 |
+| munasukihime-c06 | exact | ja.wikipedia.org | The girl hid behind a rock when her foster parents pursued her, and they died exhausted on the Asari (浅利) shore; back in Izumo, Tagorihime swiftly destroyed the Jūra (十羅) raiders and was given the name Jūrasetsunyo (十羅刹女). | 跡を追った老夫婦だったが、娘は岩陰に隠れてやり過ごした。老夫婦は浅利の海岸まで来たところで力尽きて亡くなってしまった。出雲に戻った田心姫はたちまちの内に十羅の賊を滅ぼし、十羅刹女の名を贈られた。 |
+| munasukihime-c07 | exact | ja.wikipedia.org | A legend of Gōtsu city (江津市), Shimane Prefecture (島根県), syncretically merges Jūrasetsunyo with Munasukihime (胸鉏比売命) and identifies her with Tagorihime. | といった内容である。また、島根県江津市に伝わる伝説では十羅刹女を胸鉏比売命と神仏習合させたものがあり田心姫の事とされる。 |
 
 
 ## nebiros — lulus-otomatis
@@ -628,10 +627,7 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 ## nezu-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -639,14 +635,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | nezu-gongen-c02 | exact | ja.wikipedia.org | The Gongen title declined after Meiji religious separation, though local usage survives. | 根津神社は、江戸時代には山王神道の権現社であり、当時は「根津権現」とも称された。この呼称は明治初期の神仏分離の際に「権現」の称が一時期禁止されたために衰退したが、地元では現在も使われる場合がある。 |
 | nezu-gongen-c03 | exact | ja.wikipedia.org | During the Edo period a Tendai temple administered the cult under Sannō Shintō. | 江戸時代になると、天台宗の医王山正運寺昌泉院が神宮寺（別当）を務め、根津大権現の社は山王神道の権現社となった。 |
 | nezu-gongen-c04 | exact | ja.wikipedia.org | Meiji reforms replaced the syncretic rites with a State Shintō arrangement of worshiped gods. | その後の明治維新では、神仏分離・廃仏毀釈によって、山王神道に基づく根津権現の祭祀は廃され、当時の国家神道に基づき、本殿にはスサノオ、大山咋神、八幡神を、相殿には大国主と菅原道真を祀る形式へ強制的に改組された。 |
+| nezu-gongen-c05 | exact | kotobank.jp | The shrine at Nezu 1-chōme, Bunkyō ward, Tokyo (東京都文京区), a former prefectural shrine, is popularly called Nezu Gongen (根津権現) or Suga Shrine (須賀神社); its main deity is Susanoo (素盞嗚尊). | 東京都文京区根津1丁目（旧須賀(すが)町）に鎮座、旧府社。俗に根津権現(ごんげん)、須賀神社ともいう。主祭神は素盞嗚尊(すさのおのみこと)。 |
+| nezu-gongen-c06 | exact | kotobank.jp | The shrine was revered especially by the inner palace of the fifth Tokugawa shogun Tsunayoshi (綱吉); after the sixth shogun Ienobu (家宣) made it his tutelary shrine, successive shoguns and lords honoured it and it held vermilion-seal lands of 500 koku. | とくに徳川5代将軍綱吉(つなよし)の大奥が崇敬し、6代家宣(いえのぶ)が当社を氏神として以来、代々の将軍、諸侯の尊崇厚く朱印地500石を領した。 |
+| nezu-gongen-c07 | exact | kotobank.jp | In the early modern period the shrine was called Nezu Gongen; formerly it was the general guardian shrine of Komagome (駒込) village, served by the village's founding farmers. | 須賀 （ すが ） 神社ともいい、近世には根津権現とよばれた。古くは 駒込 （ こまごめ ） 村の惣鎮守で、同村の草分百姓たちが奉仕したという（寺社備考）。 |
 
 
 ## niemotsu-no-ko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -654,14 +650,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | niemotsu-no-ko-c02 | exact | ja.wikipedia.org | The Nihon Shoki uses a different written form of his name, and he is ancestor of Ada’s cormorant keepers. | 『書紀』では、苞苴担之子（にえもつのこ、にえもつがこ）と表記される。阿太の養鸕部の始祖（『古事記』では、「阿陀（あだ）の鵜養（うかい）の祖（おや）」と記される）。 |
 | niemotsu-no-ko-c03 | exact | ja.wikipedia.org | The nie element refers to food tribute through which rulers confirmed possession. | 「贄」は神または天皇に供する貢納物（山野河海の食料品）の一種で、はじめは共同体の首長が神に貢納していたものが、地方首長の天皇への貢納物へと変化していった。天皇はそれらを口にすることで、その領有権を確認していた。 |
 | niemotsu-no-ko-c04 | exact | ja.wikipedia.org | His name is interpreted as a person bearing food offered to a god or emperor. | 「苞苴」とは、わらづと（わらなどを束ね、中に食品を包んだもの）、贈り物、みやげものを指す語であり、「にへもつのこ」で、「神や天皇に捧げる食物を持つ者という意味になる。 |
+| niemotsu-no-ko-c05 | exact | kojiki.kokugakuin.ac.jp | He is the first deity met by Kamuyamato-iwarebiko (神倭伊波礼毘古命), guided by Yatagarasu (八咫烏), at the lower Yoshino River (吉野川); he was catching fish with a fish trap and, when asked, called himself an earthly deity (国つ神). | 八咫烏に先導された神倭伊波礼毘古命が、吉野川の川尻で最初に出会った神。筌で魚を捕っており、神倭伊波礼毘古命が尋ねると国つ神を称した。 |
+| niemotsu-no-ko-c06 | exact | kojiki.kokugakuin.ac.jp | The Yoshino River is famed for ayu, and the tribute (nie) of the cormorant keepers of Ada (阿陀之鵜養) to the court is thought to have been ayu; since the Kume songs (久米歌) mention a "band of cormorant keepers", they are thought to have been linked with the Kume group (来目部). | 吉野川は鮎の名産地として知られ、阿陀之鵜養が朝廷に貢上したニヘも鮎とみられる。また久米歌では「鵜養が伴」のことが歌われており、この「鵜養の伴」が阿陀之鵜養と考えられることから、阿陀之鵜養は来目部と関係を有していたことが指摘されている。 |
+| niemotsu-no-ko-c07 | exact | kojiki.kokugakuin.ac.jp | Because the Kojiki and Nihon Shoki (記紀) do not depict him as a resister, scholars suggest he did not resist the Yamato kingship (倭王権) or submitted very early. | ただし贄持之子は記紀に反抗者や敵対者としての描かれておらず、そのため倭王権に対して無抵抗であったか、あるいはきわめて早い段階で帰順した可能性が指摘されている。 |
 
 
 ## onotehime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -669,20 +665,26 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | onotehime-c02 | exact | ja.wikipedia.org | She is worshiped as Shōdoshima’s land spirit, and a name element is associated with bronze bells. | 小豆島では島の島玉神として祀られ、島内にはかつて大鐸村などの地名もあった。「おおぬでひめ」の「鐸」（ぬで、ぬて、ぬりて）とは銅鐸のことで、実際に三五郎池の西側から銅鐸が出土している。 |
 | onotehime-c03 | exact | ja.wikipedia.org | Kojiki makes her a child of Izanagi and Izanami without recording husband or descendants. | 『古事記』では伊邪那岐命と伊邪那美命の子とされ、夫や子孫に関する記述はない。 |
 | onotehime-c04 | exact | ja.wikipedia.org | Hōga questions later marital genealogy and proposes identification with a different ancestral couple. | その夫について、宝賀寿男は、前記の通り天日方奇日方命との世代ズレや、越前に祀られることにから系譜伝承には難があり、三輪氏の祖神とは位置づけられないとし、河内国式内社の鐸比古神社と鐸比売神社の存在から考えると、祭神の鐸比古神・鐸比売神とは、本来凡河内国造の祖・彦己曽保理命の両親たる意富伊我都命とその妻の異名にあたるのではないかと主張した。 |
+| onotehime-c05 | exact | kojiki.kokugakuin.ac.jp | In the land-birth by Izanagi and Izanami (伊耶那岐・伊耶那美), it is another name of Azukishima (小豆島), one of six islands born alongside Ōyashima (大八島国). | 伊耶那岐・伊耶那美二神の国生みにおいて、大八島国に付随して生んだ六島のうちの、小豆島の別名。原文は「手」の字の下に「上」の声注がある。 |
+| onotehime-c06 | exact | kojiki.kokugakuin.ac.jp | Azukishima is identified with present-day Shōdoshima (小豆島, しょうどしま) in Kagawa Prefecture (香川県). | 小豆島（あづきしま）は、今の香川県小豆島（しょうどしま）に比定される。 |
+| onotehime-c07 | exact | kojiki.kokugakuin.ac.jp | One interpretation takes 'note' as a shift from 'naede' (苗手), the straw binding sacred rice seedlings, with 'ō' as an honorific, so the name means a maiden gathering rice seedlings. | 「苗手（なえで）」の転として、昔から神聖視されている稲の苗を束ねる藁のことと見て、「大」は美称と取り、早苗取る早少女の意として |
+| onotehime-c08 | exact | kojiki.kokugakuin.ac.jp | Another takes 'te' (手) as a suffix for terrain, so the name means a woman with the landform of a broad plain, after the island's terrain. | 「手」を地形・方向・側面を表わす接尾語として、小豆島の地形による命名と見て、大きな野の地形を持つ女性の意とする説 |
 
 
 ## otakemaru — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | otakemaru-c01 | exact | ja.wikipedia.org | Ōtakemaru is a legendary Emishi chief or oni of Mount Iwate in Mutsu. | 大武丸（おおたけまる）は、陸奥国の岩手山（岩鷲山、霧山）に住んでいたと伝わる伝説上の蝦夷の首長、もしくは鬼。 |
 | otakemaru-c02 | exact | ja.wikipedia.org | He inhabits the mountain summit’s Onigajō in local Tamuramaru legends. | 岩手山やその周辺に伝わる田村丸伝説では、岩手山の山頂にある鬼ヶ城に棲んだ鬼が大武丸であり、岩手山にはのちに神として田村丸が岩鷲大夫権現（岩鷲山大権現）として現れ、烏帽子岳（乳頭山）には田村丸の妻である立烏帽子神女が、姫神山には2人の娘である松林姫が現れたという。 |
 | otakemaru-c03 | exact | ja.wikipedia.org | Abe interprets this legend through early modern jōruri influence rather than the Tamura Sandaiki tradition. | 阿部幹男は、岩手山の田村丸伝説は旧仙台藩や北上川流域を中心に語られた奥浄瑠璃『田村三代記』が影響して発生した伝説ではなく、南部氏が盛岡に本拠を構えた近世に江戸や上方で興隆した古浄瑠璃から新たに本地譚が創出された影響から発生した伝説ではないかとしている。 |
+| otakemaru-c04 | exact | ja.wikipedia.org | Inō Kanori (伊能嘉矩) concluded that the names 大嶽丸, 大竹丸, 大武丸 and 大猛丸 in regional traditions are all corruptions, linked through Akuji-no-Takamaru to Akuro-ō (悪路王), so they originally referred to a single figure. | 伊能嘉矩は、各地の伝承に見える大嶽丸・大竹丸・大武丸・大猛丸の名はみな転訛であり、大高丸→悪事の高丸→悪路王と通じるので、つまりは本来ひとつの対象を指していたと結論している。 |
+| otakemaru-c05 | exact | ja.wikipedia.org | According to Negishi Hideyuki (根岸英之), the name Ōtakemaru (オオタケマル) can be read as 'a great and fierce man' or 'a man who dwells on a lofty peak', against a background of belief in mountain-linked demon-gods. | また根岸英之によれば、「オオタケマル」という名称は「偉大で猛々しい男」ないし「雄峻な嶽に棲む男」と解釈可能であり、山に属性を持つ鬼神信仰が背景にあって |
+| otakemaru-c06 | exact | ja.wikipedia.org | In the Kōfuku-ji (興福寺) legend, General Tamura prayed to Kannon; Suzuka Gozen (鈴鹿御前) opened the gate and drugged Ōtakemaru with poisoned sake, after which the general beheaded him and built a Kannon hall over the buried head so he could not revive. | 田村将軍が大悲観音に祈ると、御台所の鈴鹿御前に気持ちが通じた。彼女は門を開けて将軍を招きいれ、大武丸に毒酒を盛って眠らせた。その隙に大武丸の首を取った田村将軍は、賊が蘇ることのないよう、首を埋めた地の上に観音の梵閣を建て、それが興福寺の基となったという。 |
+| otakemaru-c07 | exact | ja.wikipedia.org | Tradition holds that the name Onishigai (鬼死骸) comes from Sakanoue no Tamuramaro (坂上田村麻呂) defeating Ōtakemaru in 801 and burying his body there. | 801年（延暦20年）、蝦夷征伐のため陸奥国へ侵攻した坂上田村麻呂が大武丸を討伐し、その亡骸を埋めたことに由来して鬼死骸と呼ばれるようになったと言い伝えられている。 |
+| otakemaru-c08 | exact | ja.wikipedia.org | A great stone called Oni-ishi (鬼石) is said to have been placed on his burial site; nearby are the Abara-ishi (肋石), where his ribs were buried, and Kashima Shrine (鹿島神社), said to have been founded by Tamuramaro. | 大武丸の埋葬地には「鬼石」とよばれる巨石を置いたとされ、近くにはあばら骨が埋められた場所と伝えられる「肋石」と坂上田村麻呂が平安を祈願して勧請したとされる鹿島神社があり |
 
 
 ## sanki-daigongen — lulus-otomatis
@@ -701,10 +703,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## sashikuni-wakahime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -712,6 +711,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | sashikuni-wakahime-c02 | exact | ja.wikipedia.org | After his second murder she revives him again and sends him to Ōyabiko in Ki. | しかし、またも八十神たちの謀略によって大国主神が殺されたため、再び蘇生させて息子に大屋毘古神の木の国に行くよう施した。 |
 | sashikuni-wakahime-c03 | exact | ja.wikipedia.org | An Awaga shrine text records an alternative written name read Sashikushi Wakahime. | 粟鹿神社の書物『粟鹿大明神元記』では佐斯久斯和可比売（サシクシワカヒメ）と記述されている。 |
 | sashikuni-wakahime-c04 | exact | ja.wikipedia.org | Name interpretation describes a daughter-priestess connected with possession of territory. | 「刺国」は「標」を刺すことで、領有を表し、「若」は親神の「大」に対する娘の意で、「命」がつかないのは巫女性を表すとして、名義は「国を占有する子の巫女」と考えられる。 |
+| sashikuni-wakahime-c05 | exact | kojiki.kokugakuin.ac.jp | She appears in the genealogy of Susanoo (須佐之男命) as daughter of Sashikuni-no-Ōkami (刺国大神), and with Amenofuyukinu (天之冬衣神) bore Ōkuninushi (大国主神). | 須佐之男命の系譜中に見える。刺国大神の娘で、天之冬衣神との間に大国主神を生む。 |
+| sashikuni-wakahime-c06 | exact | kojiki.kokugakuin.ac.jp | The Mioya-no-mikoto (御祖命) who helped Ōkuninushi when persecuted by the Yasogami (八十神) is taken to be this goddess; the title shows her important standing as Ōkuninushi's mother. | 八十神に迫害を受ける大国主神を助けた「御祖命」はこの神にあたるとされ、その称号からも、大国主神の母神として重要な神に位置付けられていたことが窺われる。 |
+| sashikuni-wakahime-c07 | exact | kojiki.kokugakuin.ac.jp | One interpretation reads her name as 'young princess who pierces the land', and her mother-child bond with Ōkuninushi as a story of land creation. | 神名を、国土を刺す若々しい姫の意ととり、大国主神との親子関係が国土創生の物語を表しているとする説がある。 |
+| sashikuni-wakahime-c08 | exact | kojiki.kokugakuin.ac.jp | The Awaga Daimyōjin Motoki (粟鹿大明神元記), a genealogy of the Awaga shrine's deities said to have been submitted in 708, records her as Sashikushi-wakahinume (佐志久斯和可比奴売), daughter of Sashikushi-futohime (佐志久斯布刀比売). | 『粟鹿大明神元記』（和銅元年（708）上申とされる粟鹿神社の祭神の系図）には「佐志久斯布刀比売」の娘「佐志久斯和可比奴売」とある。 |
 
 
 ## satahiko — lulus-otomatis
