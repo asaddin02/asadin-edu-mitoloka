@@ -1,6 +1,6 @@
 # Review batch-133
 
-Diperiksa 2026-10-07T05:45:06.903Z. Berkas: batch-133.md, batch-133-fix-1.md, batch-133-fix-2.md.
+Diperiksa 2026-10-14T03:25:56.631Z. Berkas: batch-133.md, batch-133-fix-1.md, batch-133-fix-2.md, batch-133-fix-3.md.
 
 ## bitru — lulus-otomatis
 
@@ -300,24 +300,22 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## crespell — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | crespell-c01 | exact | ca.wikipedia.org | In Ibizan folk mythology a crespell is a monstrous being living in groups in caves; crespells have warty bodies, grunt and shoot fire from their eyes. | A la mitologia popular eivissenca, un crespell és un ésser monstruós que viu en grup a les coves. Els crespells tenen el cos ple de berrugues, grunyen i treuen foc pels ulls. |
 | crespell-c02 | exact | ca.wikipedia.org | These little monsters live in the Cova des Crespells at Buscastell. | Aquests petits monstres viuen dins la Cova des Crespells, situada a Buscastell. |
 | crespell-c03 | exact | ca.wikipedia.org | Mothers threatened naughty children with these creatures, which supposedly come out at night and eat small children. | Les mares "amenaçaven" els nens que es portaven malament amb aquestes criatures, que suposadament apareixen durant la nit i es mengen els nens petits. |
+| crespell-c04 | exact | ca.wikipedia.org | They are a kind of mix of forest beings and espantamainades (child-scaring bogeys). | Venen a ser una mena de barreja d'éssers del bosc i espantamainades. |
+| crespell-c05 | exact | www.noudiari.es | Crespells are among the beings that people the woods and feature in legends in Ibizan oral tradition (tradición oral ibicenca). | El relato bebe directamente de la tradición oral ibicenca con referencias a los seres que pueblan bosques y protagonizan leyendas, en este caso los crespells. |
+| crespell-c06 | exact | www.noudiari.es | In the illustrated children's tale Es drac de sa font Nova, Jan meets the crespells in the middle of a forest on a night adventure looking for fireflies, and an unexpected ally helps him protect himself from them. | Jan se los encontrará en mitad de un bosque, en una ventura nocturna en busca de luciérnagas. Un inesperado aliado le echará una mano para protegerse de los crespells. |
+| crespell-c07 | exact | www.noudiari.es | Writer Marga Torres Planells presented her new illustrated tale Es drac de sa font Nova at the hall of the Associació de Vesins de Buscastell. | La escritora Marga Torres Planells presenta este sábado 10 de diciembre a las 18 horas en el local social de la Associació de Vesins de Buscastell Es drac de sa font Nova, un nuevo cuento ilustrado |
 
 
 ## crieur — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -330,28 +328,29 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | crieur-c07 | exact | fr.wikipedia.org | George Sand mentions the creature in her rustic legends: in Berry the lupeux repeats "Ah! Ah!" until someone answers. | George Sand évoque cette créature dans ses légendes rustiques : dans le Berry, le lupeux répète Ah ! Ah ! jusqu'à ce qu'on lui réponde. |
 | crieur-c08 | exact | fr.wikipedia.org | The moine de Saire looks like a little man in a white tailcoat; sometimes he appears in the Cherbourg roadstead as if drowning, begging sailors for help. | Le moine de Saire a l'apparence d'un petit homme en frac blanc. Tantôt, il apparaît dans la rade de Cherbourg où il semble se noyer, suppliant les matelots et les marins de l'aider. |
 | crieur-c09 | exact | fr.wikipedia.org | The legend is found everywhere in many variants sharing the theme of night and its dangers. | Cette légende est universellement présente sous diverses variantes qui ont pour point commun la nuit et ses dangers. |
+| crieur-c10 | exact | fr.wikisource.org | George Sand writes that the lupeux is a demon (démon) whose nature was never well defined and whose appearance varies by locality; it lives in the Brenne country. | Le lupeux est un démon dont la nature n’a jamais été bien définie et dont l’apparaissance varie suivant les localités. C’est encore au pays de Brenne qu’il fait sa résidence |
+| crieur-c11 | exact | fr.wikisource.org | According to the guide in Sand's account, the lupeux starts by joking and laughing, draws people off their path, then grows angry and kills them in some bog (fondrière). | c’est le lupeux ! Ça commence par plaisanter avec vous, ça rit, ça vous tire de votre chemin, ça vous emmène et puis ça se fâche, et ça vous périt dans quelque fondrière. |
+| crieur-c12 | exact | fr.wikisource.org | The lupeux leads its victim to the edge of deceptive water and tells them to look into that fantastic mirror. | Il vous conduit au bord d’une eau trompeuse et vous dit : Regarde ! Vous vous penchez vers ce fantastique miroir |
+| crieur-c13 | exact | fr.wikisource.org | As the victim leans over, the lupeux pushes them; as death takes hold, the lupeux is heard perched on a branch above the water. | mais le perfide vous pousse, et quand la mort vous enlace de ses bras glacés, vous entendez le lupeux, perché sur une branche au-dessus de l’eau |
 
 
 ## cucala — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cucala-c01 | exact | ca.wikipedia.org | In Catalan mythology a cucala, cucula or cucal is a shapeless creature equivalent to the gambosí, found in the Terres de l'Ebre, the Camp de Tarragona and Mallorca. | Una cucala, cucula o cucal és, dins la mitologia catalana, una criatura de forma indefinida equivalent al gambosí pròpia de les Terres de l'Ebre, el Camp de Tarragona i Mallorca. |
 | cucala-c02 | exact | ca.wikipedia.org | In the Camp de Tarragona people believed the cucala watched the streets at night and beat hard anyone it found there, whether passing by or looking out of a window. | Al Camp de Tarragona, hom creia que la cucala vigilava pels carrers de nit i pegava ben fort tothom que hi trobés a aquelles hores, ja fos passant-hi o traient el cap per la finestra. |
 | cucala-c03 | exact | ca.wikipedia.org | A similar figure of the Ribera d'Ebre, the feram, tugged women's skirts and said indecent things to them. | Un personatge semblant i propi de la Ribera d'Ebre, la feram, estirava les faldilles de les dones i els deia paraules deshonestes |
+| cucala-c04 | exact | dcvb.iec.cat | The DCVB dictionary, under the second sense of cucala, records the task of watching the streets to beat anyone who puts their head out of the window (after Montoliu's Tarragona vocabulary). | vigilar pels carrers per a tupar el qui treu el cap per la finestra (Montoliu Voc. Tarr.) |
+| cucala-c05 | exact | dcvb.iec.cat | In the sense of something fearsome (temible), the word cucala is used in an expression asking what one has to be afraid of: the cucales of Manacor (ses cucales de Manacor)? | i temible’, es troba usat el mot cucala en aquesta ... has de tenir por? ... de ses cucales de Manacor? |
+| cucala-c06 | exact | www.diaridetarragona.com | Cucales are among the creatures of the Ebre landscape, alongside gambutzins, fardatxos and bubotes, and come to life in the book Història mítica de les Terres de l'Ebre (Comanegra). | gambutzins, fardatxos, cucales i bubotes, ogres i sirenes formen part del paisatge ebrenc i cobren vida en el volum Història mítica de les Terres de l’Ebre (Comanegra) |
 
 
 ## dames-blanches — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -364,14 +363,17 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | dames-blanches-c07 | exact | en.wikipedia.org | In Quebec there are stories of a Dame Blanche at Montmorency Falls, believed to be the spirit of a young woman named Mathilde. | In Quebec, there are stories of a Dame Blanche at Montmorency Falls. It is believed that this is the spirit of a young woman named Mathilde. |
 | dames-blanches-c08 | exact | en.wikipedia.org | After finding her fiancé dead on the battlefield, the distraught Mathilde threw herself over the falls in her wedding gown. | Distraught, she threw herself over the falls while still in her wedding gown. |
 | dames-blanches-c09 | exact | en.wikipedia.org | J. A. MacCulloch thinks the Dames Blanches are a recasting of pre-Christian goddesses, suggesting the name Dame derives from the ancient guardian goddesses called the Matres. | MacCulloch believes Dames Blanches are one of the recharacterizations of pre-Christian female goddesses, and suggested their name Dame may have derived from the ancient guardian goddesses known as the Matres |
+| dames-blanches-c10 | exact | www.gutenberg.org | Keightley describes the Dames Blanches (White Ladies) as a kind of Fée in Normandy of a less benevolent character. | There is another kind of Fées known in Normandy by the name of ... or White Ladies, who are of a less benevolent character. |
+| dames-blanches-c11 | exact | www.gutenberg.org | They lurk in narrow places such as ravines, fords and bridges that travellers cannot easily avoid, and there try to attract their attention. | These lurk in narrow places, such as ravines, fords and bridges, where passengers cannot well avoid them, and there seek to attract their attention. |
+| dames-blanches-c12 | exact | www.gutenberg.org | The Dame Blanche sometimes asks the person she meets to join her in a dance or to hand her over a plank; if he does, she makes him many courtesies and vanishes. | The Dame Blanche sometimes requires him whom she thus meets to join her in a dance, or to hand her over a plank. If he does so she makes him many courtesies, and then vanishes. |
+| dames-blanches-c13 | exact | www.gutenberg.org | According to Keightley, La Dame d'Aprigny flung anyone who drew back from her invitation into a ditch full of briars and thorns. | but if he drew back, she seized him and flung him into one of the ditches which were full of briars and thorns. |
+| dames-blanches-c14 | exact | www.gutenberg.org | Keightley names the Bayeux figure La Dame d'Aprigny, who appeared in a winding narrow ravine on the site of the present Rue Saint Quentin. | One of these ladies named La Dame d'Aprigny, used to appear in a winding narrow ravine which occupied the place of the present Rue Saint Quentin at Bayeux |
+| dames-blanches-c15 | exact | www.gutenberg.org | The Dame Blanche of the Pont d'Angot handed anyone who refused to kneel over to the cats, owls and other beings under her sway, who tormented him cruelly. | if he refused, the Fée gave him over to the ... the cats, owls, and other beings which, under her sway, haunt the place, by whom he was cruelly tormented. |
 
 
 ## demone-dal-dito-di-ferro — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -381,34 +383,42 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | demone-dal-dito-di-ferro-c04 | exact | it.wikipedia.org | On waking, the victim showed signs of an unknown illness, wasted away and inevitably died. | Al risveglio, la vittima manifestava i sintomi di una malattia ignota, deperiva e si spegneva inesorabilmente. |
 | demone-dal-dito-di-ferro-c05 | exact | it.wikipedia.org | When the Cherokee chiefs hunting it were about to give up, a little bird singing at sunset told them to strike its iron finger, the monster's only weak spot, and the demon weakened until it vanished. | un uccellino che cantava al tramonto suggerì loro di colpire il dito di ferro, l'unico punto debole del mostro. Così avvenne, e il demone perse vigore fino a scomparire. |
 | demone-dal-dito-di-ferro-c06 | exact | it.wikipedia.org | Some years later other demons arose with the same grisly habits, but without the iron finger. | Dopo alcuni anni altri demoni rinacquero, con le stesse macabre abitudini, ma non avevano più il dito di ferro. |
+| demone-dal-dito-di-ferro-c07 | exact | archive.org | A demon with an iron finger lived in a cave in the Tusquittee Mountain, in what is now Clay County, N. C, and could assume the exact form of anyone he chose. | there resided in a cave in the Tusquittee Mountain, in what is now Clay County, N. C, a demon with an iron finger, who had the power to assume the exact form and image of any one whom he chose to represent. |
+| demone-dal-dito-di-ferro-c08 | exact | archive.org | His food was human lungs and livers, obtained by impersonating an absent family member and with the help of his iron finger. | His food was human lungs and livers, which he procured by his power of personating any absent member of a family and the aid of his iron finger. |
+| demone-dal-dito-di-ferro-c09 | exact | archive.org | With his iron finger he pierced the victim's side and took the liver and lungs without pain; the wound healed at once, leaving no mark. | Then with his iron finger would he pierce the victim's side and take his liver and lungs, but without pain. The wound would immediately heal, leaving no outward mark. |
+| demone-dal-dito-di-ferro-c10 | exact | archive.org | The more they shot at him, the louder he laughed and the more he taunted them. | The more they shot at him the louder he laughed, and the more he taunted them. |
+| demone-dal-dito-di-ferro-c11 | exact | archive.org | A little bird sang out to them to shoot him on his iron finger, and they at once began to aim at it. | a little bird sang out to them, "Shoot him on his iron finger." At once they began to aim at that. |
+| demone-dal-dito-di-ferro-c12 | exact | archive.org | Since that day the little bird, the wren, has been sacred to the Cherokees, and they will on no account harm it. | Since that day the little bird, the wren, is sacred to the Cherokees, and on no account will they harm it. |
+| demone-dal-dito-di-ferro-c13 | exact | archive.org | Some of the demon's descendants learned the art and occasionally secured a victim, but none ever matched the power or malignity of the demon of the iron finger. | some of the demon's descendants learned the art and occasionally secured a victim, but none of them ever attained either the power or malignity of the demon of the iron finger. |
+| demone-dal-dito-di-ferro-c14 | exact | archive.org | He drew the arrows out of his body and tossed them back at the men who shot them, his wounds healing the instant the arrows were withdrawn. | would draw them out of his body and toss them back at the men who shot them, his wounds healing the instant the arrows were withdrawn. |
 
 
 ## dianho — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dianho-c01 | exact | pt.wikipedia.org | The dianho is a mythical being of Portuguese folklore, an evil being regarded as a devil or one of the devil's names. | O dianho é um ser mítico do folclore português. Ele é um ser maléfico tido como um diabo ou um dos nomes do diabo. |
 | dianho-c02 | exact | pt.wikipedia.org | Another hypothesis sees it as a remnant of the cult of the god Janus; in Asturias it appears as the diañu burlón. | Uma outra hipótese é que seria uma reminiscência do culto do deus Jano. Nas Astúrias ele surge como "diañu burlón". |
 | dianho-c03 | exact | pt.wikipedia.org | A folk saying holds that witches roam at night and kiss the Dianho, the calf with black horns. | As Bruxas andam de noite e beijam o Dianho, que é o bezerro dos cornos pretos |
+| dianho-c04 | exact | archive.org | Among the names by which the common people refer to the Devil (Diabo) is Diânho, alongside Diabinho, Diabrete, Diacho and Diálho. | Os nomes com que o povo representa o Diabo são ... Diabo, Diabinho, Diabelho, Diabiltio, Diabrete, Diacho, Decho, Diânho, Diálho |
+| dianho-c05 | exact | archive.org | According to popular belief, it is less of a sin (menos peccado) to pronounce some of these names of the Devil than others. | E' menos peccado pronunciar alguns d'estes nomes do que outros |
+| dianho-c06 | exact | archive.org | The name Diânho also appears in popular exclamations, such as "Manta do Diânho!". | Valha-te o Diabo ! Manta do Diânho ! Ora o Diacho ! |
 
 
 ## dimoni-cucarell — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dimoni-cucarell-c01 | exact | ca.wikipedia.org | The Dimoni Cucarell is an incubus demon of Mallorcan folk imagination; local tales say it loves parties, eating and drinking greedily, chasing pretty girls and idling all day. | El Dimoni Cucarell és un dimoni íncube propi de l'imaginari popular de Mallorca. Segons les contalles mallorquines, al dimoni cucarell li agrada la festa, beure i menjar amb desfici, empaitar noies de bon veure i fer el gandul tot el dia. |
 | dimoni-cucarell-c02 | exact | ca.wikipedia.org | In short it is a good-for-nothing, debauched and coarse, as well as ugly and misshapen. | És, en definitiva, un poca-solta cràpula i groller, a més de lleig i estrafet. |
 | dimoni-cucarell-c03 | exact | ca.wikipedia.org | The Alcover-Moll dictionary defines it as a class of demon people have no clear idea of, but not confused with the great devil or the dimonis boiets; in Menorca it is called the dimoni serenell. | certa classe de dimonis de la qual la gent no té idea clara, però que no es confon ni amb el dimoni gros ni amb els dimonis boiets. A Menorca en diuen el dimoni serenell. |
+| dimoni-cucarell-c04 | exact | dcvb.iec.cat | A Mallorcan folk song says the dimoni cucarell was born in pomegranate season (temps de magranes), and his mother longed to tap the back of his neck. | El dimoni cucarell ... en temps de magranes; \| sa mare tenia ganes \| de tocar-li es clotell |
+| dimoni-cucarell-c05 | exact | dcvb.iec.cat | In Alcover's Rondaies (vol. vii, p. 231), the dimonis cucarells are named alongside the dimonis boiets in a question about who prepares someone's food. | Qui li arregla la menjua? Es dimonis cucarells? es dimonis boiets?, Alcover Rond. vii, 231 |
+| dimoni-cucarell-c06 | exact | dcvb.iec.cat | The origin of the word cucarell is uncertain, though the Catalan word seems clearly related to Provençal cucarel or cucareu. | Etim.: insegura. Sembla segura la ... del cat. cucarell amb el prov. cucarel o cucareu |
 
 
 ## drac-de-banyoles — skip
@@ -424,10 +434,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## drac-de-beaucaire — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -438,14 +445,18 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | drac-de-beaucaire-c05 | exact | ca.wikipedia.org | The dragon seized a washerwoman and explained it wanted a wet nurse for its son; she raised the little dragon for seven years before being released. | el drac li va explicar que, en realitat, l'havia agafada perquè volia una dida per al seu fill, el draconet. La bugadera va criar el petit drac durant set anys abans de ser alliberada. |
 | drac-de-beaucaire-c06 | exact | ca.wikipedia.org | When she recognised it in human form at the Beaucaire market, the furious dragon blinded her for life and returned to the river for ever. | Furiós en veure's desemmascarat, el drac va cegar la pobra dona, que va romandre cega la resta de la seva vida, i se'n va tornar al riu per sempre més. |
 | drac-de-beaucaire-c07 | exact | ca.wikipedia.org | Frederic Mistral took up the legend in canto VI of his Poema del Roine (Lou Pouèmo dóu Rose), published in 1897. | Al cant VI del seu Poema del Roine (Lou Pouèmo dóu Rose), publicat el 1897, Frederic Mistral reprèn el tema de la llegenda del Drac de Bellcaire. |
+| drac-de-beaucaire-c08 | exact | archive.org | A medieval writer quoted in a folklore collection states that the dracs can take human form and show themselves in public. | Un assure, dit-il, que les dracs peuvent prendre la forme humaine et se montrer en public. |
+| drac-de-beaucaire-c09 | exact | archive.org | The dracs above all carry off nursing women (femmes qui allaitent), so that they will nurse the dracs' own children. | Cela arrive surtout aux femmes qui allaitent, car les dracs les enlèvent pour qu'elles nourrissent leurs enfants à eux. |
+| drac-de-beaucaire-c10 | exact | archive.org | In the tale, a woman washing linen on the bank of the Rhône caught sight of a wooden cup (coupe en bois). | Une femme qui lavait du linge au bord du Rhône, aperçut une coupe en bois |
+| drac-de-beaucaire-c11 | exact | archive.org | In the drac's palace she was given a cake containing serpent flesh (chair de serpent) to eat, and she then at once had the power to see clearly under water. | donna à manger un gâteau dans lequel entrait de la chair de serpent ... elle eut aussitôt le pouvoir de voir clair sous l'eau |
+| drac-de-beaucaire-c12 | exact | archive.org | When they met again the Drac asked with which eye she had seen him; she showed him, and the Drac laid his finger on her eye, after which she lost her former power. | lui demanda le Drac. Elle le lui montra; le Drac posa le doigt sur l'œil de la femme qui perdit dès lors son ancien pouvoir |
+| drac-de-beaucaire-c13 | exact | archive.org | In the notes to his Rhône poem, Mistral records that Gervais de Tilbury told the story of the Drac and the woman of Beaucaire. | Gervais de Tilbury, qui écrivait à Arles vers 12^0, a conté l'histoire du Drac et de la femme de Beaucaire |
+| drac-de-beaucaire-c14 | exact | archive.org | The washerwomen of the Rhône still use carved washing-beetles (battoirs) that traditionally bear a Drac in the form of a lizard. | Les lavandières du Rhône, aux Saintes-Mariés de la Mer, se servent encore de battoirs sculptés qui portent par tradition un Drac en forme de lézard. |
 
 
 ## drac-de-sant-llorenc-del-munt — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -456,6 +467,12 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | drac-de-sant-llorenc-del-munt-c05 | exact | ca.wikipedia.org | When the knight Spes and his men met the dragon, their horses panicked and plunged off a cliff now known as the Cingle dels Cavalls. | els cavalls, preses del pànic, van entrar en desbandada i es van estimbar per un espadat que avui es coneix com al Cingle dels Cavalls. |
 | drac-de-sant-llorenc-del-munt-c06 | exact | ca.wikipedia.org | Guifré attacked the beast with an oak branch that broke and fell at its feet in the shape of a cross. | Quan Guifré va arribar a la cova del Drac, va atacar la bèstia amb una branca de roure, que, en colpir el drac, es va trencar i va caure als peus de la fera en forma de creu |
 | drac-de-sant-llorenc-del-munt-c07 | exact | ca.wikipedia.org | The count then wounded the dragon in the belly with his lance and drove his sword in near its heart. | Llavors, el comte va ferir el drac al ventre amb la seva llança i després va poder enfonsar-li l'espasa a prop del cor. |
+| drac-de-sant-llorenc-del-munt-c08 | exact | www.festes.org | The oldest known written version of this legend was recorded in 1871 by Anton Vergés i Mirassó. | La versió escrita més antiga que es coneix d'aquesta llegenda és la recollida l'any 1871 per Anton Vergés i Mirassó |
+| drac-de-sant-llorenc-del-munt-c09 | exact | www.festes.org | The legend places the beast's hiding place at the Cova de Santa Agnès, a cave in the mountain with water seeping from the rock itself. | hi ha la Cova de Santa Agnès, un indret privilegiat per a la vida dins la muntanya, per l'existència d'aigua provinent de les mateixes pedres, i on la llegenda situa l'amagatall de la bèstia. |
+| drac-de-sant-llorenc-del-munt-c10 | exact | www.festes.org | The Puig de la Creu, or Sot de Goteras, is believed to be where the dragon fell dead. | O el Puig de la Creu o Sot de Goteras, que és on es creu que el drac va caure mort. |
+| drac-de-sant-llorenc-del-munt-c11 | exact | www.festes.org | According to the 1871 text, after the victory it was decreed that every religious or civic festivity with a procession should carry the figure of the fierce dragon (fiero drach) in its midst. | Se establí després que en totas las festas ó funcions espirituals y cívicas en ques' practicás la professó portessen en mitj de ella la figura del fiero drach |
+| drac-de-sant-llorenc-del-munt-c12 | exact | www.festes.org | The festival giant Llorenç, representing Guifré el Pilós, carries a sword, the shield with the four bars, and the dragon of Sant Llorenç del Munt on his helmet. | Llorenç, que representa a Guifré el Pilós, duu una espasa a la mà esquerra, l'escut amb les quatre barres i un drac, el de Sant Llorenç del Munt, al casc. |
+| drac-de-sant-llorenc-del-munt-c13 | exact | www.festes.org | Since 1981 Terrassa has had a festival dragon for the Festa Major de Sant Pere, and the dragon is staged as coming down from the mountain to the city centre. | Així, Terrassa disposa, des del 1981, d'un drac festiu que surt per la Festa Major de Sant Pere. ... s'escenifica que el drac baixa des de la muntanya a la urbs fins arribar al centre de la ciutat |
 
 
 ## duende-de-zaragoza — skip
