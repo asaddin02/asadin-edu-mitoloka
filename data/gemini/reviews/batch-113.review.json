@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-113",
-  "checked_at": "2026-10-03T01:28:56.491Z",
+  "checked_at": "2026-10-14T03:27:29.287Z",
   "files": [
-    "batch-113.md"
+    "batch-113.md",
+    "batch-113-fix-1.md",
+    "batch-113-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "abundia",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "718fdc228d9484e99b3462663713cf809255a9c4847292afc4d1677415b4deaf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "abundia-c01",
@@ -83,6 +80,36 @@
           "quote": "Celle-ci en particulier, fait partie d'un ensemble de croyances et de rituels destinés à capter la bienveillance de forces positives, afin d'assurer la bonne marche de la vie paysanne, et surtout la fertilité et le renouvellement annuel des produits de la terre. À partir du XIIIe siècle, l'Église les pourchasse et diabolise de plus en plus.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "abundia-c07",
+          "source_id": "abundia-s2",
+          "host": "archive.org",
+          "statement": "The study quotes Guillaume d'Auvergne, bishop of Paris who died in 1248, on a spirit in the guise of a woman said to visit houses and cellars by night with others; people called her Satia from satiety (satietas) and domina Abundia from abundance (abundantia).",
+          "statement_id": "Kajian ini mengutip Guillaume d'Auvergne, uskup Paris yang wafat pada 1248, tentang roh yang dengan rupa perempuan bersama roh-roh lain dikatakan mendatangi rumah dan gudang pada malam hari; orang menyebutnya Satia dari kata 'kekenyangan' (satietas) dan domina Abundia dari kata 'kelimpahan' (abundantia).",
+          "quote": "A bishop of Paris, Guihehnus Alvemus (Guillaume d' Auvergne), who died 1248, speaks thus of nymphs and lamiae ... qui praetextu mulieris, cum aliis de nocte domos et cellaria dicitur frequentare, et vocant eam Satiam a satietate, et dominam Ahundiam pro abundantia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abundia-c08",
+          "source_id": "abundia-s2",
+          "host": "archive.org",
+          "statement": "The quoted Latin text calls the beings that appear in houses 'night ladies' (dominas nocturnas), whose chief is called domina Abundia, because they are believed to grant an abundance of temporal goods to the houses they frequent.",
+          "statement_id": "Teks Latin yang dikutip menyebut makhluk-makhluk yang muncul di rumah sebagai 'nyonya-nyonya malam' (dominas nocturnas), dengan pemimpin yang disebut domina Abundia, karena mereka diyakini memberi kelimpahan harta duniawi kepada rumah yang mereka datangi.",
+          "quote": "quas dominas nocturnas, et frincipem earum vocant dominam Abundiam, pro eo quod domibus, quas frequentant, abundantiam bonorum temporalium praestare",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abundia-c09",
+          "source_id": "abundia-s2",
+          "host": "archive.org",
+          "statement": "The study counts Abundia among goddesses known only under foreign names, together with Isis, Diana and Herodias.",
+          "statement_id": "Kajian ini menggolongkan Abundia di antara dewi-dewi yang hanya dikenal dengan nama asing, bersama Isis, Diana, dan Herodias.",
+          "quote": "others resembling them have only become known to us under foreign appellations (Isis, Diana, Herodias, Abundia)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -90,6 +117,7 @@
     {
       "slug": "aio",
       "file": "batch-113.md",
+      "entry_sha256": "1b786fef2ed998f30bca87a5b59b1db4c7e08d0e797d036628340b59c43fc205",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -108,23 +136,19 @@
     },
     {
       "slug": "alsvi-r",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "cfb4a9a3e58f9016ad4518922047077ed542470fcfece8a7db58a5332eb33402",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
           "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
+          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan)."
         }
       ],
       "claims": [
@@ -176,28 +200,46 @@
           "statement_id": "Dalam Younger Edda (terjemahan Anderson), para dewa menyuruh Sól (Sun) mengendarai kuda-kuda penarik kereta matahari, yang dibuat dari percikan api Muspelheim untuk menerangi dunia; kuda-kuda itu bernama Arvak dan Alsvid, dan di bawah gumba mereka dipasang dua kantong angin pendingin, yang dalam sebagian puisi disebut ísarnkol (\"besi dingin\").",
           "quote": "and made Sun drive the horses that draw the car of the sun, which the gods had made to light up the world from sparks that flew out of Muspelheim. These horses hight Arvak and Alsvid. Under their withers the gods placed two wind-bags to cool them, but in some songs it is called ironcold (ísarnkol).",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "alsvi-r-c06",
+          "source_id": "alsvi-r-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Thorpe's translation of Grimnismal, Arvakr and Alsvid must draw the sun up from here fasting, and the Æsir have concealed an 'iron-coolness' under their shoulder.",
+          "statement_id": "Dalam Grimnismal terjemahan Thorpe, Arvakr dan Alsvid bertugas menarik matahari dari sini dalam keadaan lapar (fasting), dan para Æsir menyembunyikan 'kesejukan besi' di bawah bahu mereka.",
+          "quote": "Arvakr and Alsvid, theirs 'tis up hence fasting the sun to draw: under their shoulder the gentle powers, the Æsir, have concealed an iron-coolness.",
+          "context": "traditional-belief",
           "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "detail": "tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan",
+          "archive_url": "https://web.archive.org/web/20260930162145id_/https://www.gutenberg.org/files/14726/14726-h/14726-h.htm"
+        },
+        {
+          "id": "alsvi-r-c07",
+          "source_id": "alsvi-r-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Thorpe's translation of the Lay of Sigrdrifa, things are said to be graven on the shield before the shining god, on Arvakr's ear, on Alsvid's hoof, and on the wheel under Rognir's car.",
+          "statement_id": "Dalam Lay of Sigrdrifa terjemahan Thorpe, sesuatu dikatakan terukir (graven) pada perisai di depan dewa yang bersinar, pada telinga Arvakr, pada kuku Alsvid, dan pada roda di bawah kereta Rognir.",
+          "quote": "They are, it said, on the shield graven, which stands before the shining god, on Arvakr's ear, and on Alsvid's hoof, on the wheel which rolls under Rognir's car",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260930162145id_/https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
       "images": []
     },
     {
       "slug": "anka-q2649344",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "d3b9f5657819555ff010f4a6c6c2002f4f437fa469b8679fb4f75418c3dffb5d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "anka-q2649344-c01",
@@ -238,6 +280,56 @@
           "quote": "Een vroege Arabische schrijver, Kazweenee, noemde het de grootste van de vogels: \"Het draagt een olifant zoals een kat een muis draagt. Deze vogel at alle vogels van de Demaj-berg op. Op een dag was hij hongerig en de vogels waren schaars geworden, dus stortte hij zich op een kind en droeg het weg.\"",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "anka-q2649344-c05",
+          "source_id": "anka-q2649344-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The name is also spelled 'Anqa', Anka, Anqa Mughrib or Anqa al-Mughrib.",
+          "statement_id": "Nama makhluk ini juga dieja 'Anqa', Anka, Anqa Mughrib, atau Anqa al-Mughrib.",
+          "quote": "also spelled 'Anqa', or Anka, or Anqa Mughrib or Anqa al-Mughrib",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "anka-q2649344-c06",
+          "source_id": "anka-q2649344-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Anqa is a golden, mysterious or fabulous female bird in pre-Islamic Arab mythology.",
+          "statement_id": "Anqa adalah burung betina berwarna keemasan yang misterius atau dongeng dalam mitologi Arab pra-Islam.",
+          "quote": "is a golden mysterious or fabulous female bird in pre-Islamic Arab mythology",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anka-q2649344-c07",
+          "source_id": "anka-q2649344-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The word ʿanqāʾ is the feminine form of ʾaʿnaq, meaning 'long-necked' and also 'long and thick in the neck'.",
+          "statement_id": "Kata ʿanqāʾ adalah bentuk feminin dari ʾaʿnaq, yang berarti 'berleher panjang' dan juga 'berleher panjang dan tebal'.",
+          "quote": "The word ʿanqāʾ is the feminine form of ʾaʿnaq (أعنق) meaning \"long-necked\" and also \"long and thick in the neck\".",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "anka-q2649344-c08",
+          "source_id": "anka-q2649344-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Zakariya al-Qazwini, in his cosmological book Aja'ib al-Makhluqat ('The Wonders of Creation'), describes the Anqa as the king of birds living alone on Mount Qaf.",
+          "statement_id": "Zakariya al-Qazwini dalam kitab kosmologinya Aja'ib al-Makhluqat ('Keajaiban Ciptaan') menyebut Anqa sebagai raja para burung yang hidup menyendiri di Gunung Qaf.",
+          "quote": "Zakariya al-Qazwini in this cosmological book Aja'ib al-Makhluqat \"The Wonders of Creation\" comments about the Anqa as the kin of birds that lived alone on Mount Qaf",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anka-q2649344-c09",
+          "source_id": "anka-q2649344-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Anqa is frequently identified, to the point of becoming synonymous, with the simurgh of Persian mythology.",
+          "statement_id": "Anqa sering disamakan, hingga menjadi sinonim, dengan simurgh dalam mitologi Persia.",
+          "quote": "The Anqa is frequently identified (to the point of becoming synonymous) with the simurgh of Persian mythology",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -245,6 +337,7 @@
     {
       "slug": "aranda",
       "file": "batch-113.md",
+      "entry_sha256": "793012dd7a7c0ad395f1a01b37ea30556bb2b21fff2aff89cc2ababf3c113c7a",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -274,20 +367,15 @@
     },
     {
       "slug": "atla",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "46e22c0d962a33b65fd7d69392e60d9ba152e470b0d9fe4be5d77c843f39ec18",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atla-c01",
@@ -330,26 +418,53 @@
           "quote": "D. h., die Namen scheinen nicht eindeutig festgelegt gewesen zu sein, sondern jedes Synonym für „Welle“ konnte von den Dichtern benutzt werden.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "atla-c05",
+          "source_id": "atla-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Thorpe's translation of Hyndluljod, nine Jotun maids gave birth to the gracious god at the world's margin.",
+          "statement_id": "Dalam Hyndluljod terjemahan Thorpe, sembilan gadis jötunn (Jotun maids) melahirkan dewa yang mulia itu di tepi dunia.",
+          "quote": "nine Jotun maids gave birth to the gracious god, at the world's margin.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260930162145id_/https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "atla-c06",
+          "source_id": "atla-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The name Atla is glossed 'The Furious One', and it appears listed among the jötnar in the Nafnaþulur.",
+          "statement_id": "Nama Atla diartikan 'Yang Murka' (The Furious One), dan nama ini tercantum di antara para jötunn dalam Nafnaþulur.",
+          "quote": "Atla \"The Furious One\" Name appears listed among jötnar in the Nafnaþulur",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "atla-c07",
+          "source_id": "atla-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The link between the Nine Mothers of Heimdallr and the Nine Daughters of Ægir and Rán has been questioned because the names of the two groups (as found in Völuspá hin skamma) do not match.",
+          "statement_id": "Pengaitan sembilan ibu Heimdallr dengan sembilan putri Ægir dan Rán dipertanyakan karena nama-nama kedua kelompok dalam Völuspá hin skamma tidak sama.",
+          "quote": "However, this connection has been questioned on the grounds that the names presented for the Nine Daughters of Ægir and Rán and the Nine Mothers of Heimdallr (as found in Völuspá hin skamma) do not match.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "berlingr",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "9277e0b8172973c160d5313664c18ae9adbe8227f8aacb24035e30e72812c77b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "berlingr-c01",
@@ -400,26 +515,41 @@
           "quote": "Danach beobachtete die Göttin Freyja die vier Zwerge Álfrigg, Dvalin, Berlingr und Grérr in einem Felsen dabei, wie sie ein goldenes Halsband schmiedeten.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "berlingr-c06",
+          "source_id": "berlingr-s2",
+          "host": "heimskringla.no",
+          "statement": "According to Sörla þáttr, the four were so skilled that they could turn their hand to anything; such men were called dwarfs (dverga), and they lived in a stone.",
+          "statement_id": "Menurut Sörla þáttr, keempat orang itu sangat terampil sehingga dapat mengerjakan apa saja; orang seperti mereka disebut kurcaci (dverga), dan mereka tinggal di sebuah batu.",
+          "quote": "Þeir váru menn svá hagir, at þeir lögðu á allt gerva hönd. Þess háttar menn, sem þeir váru, kölluðu menn dverga. Þeir byggðu einn stein.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "berlingr-c07",
+          "source_id": "berlingr-s2",
+          "host": "heimskringla.no",
+          "statement": "After four nights had passed and all terms were fulfilled, they handed the necklace to Freyja.",
+          "statement_id": "Setelah empat malam berlalu dan semua syarat dipenuhi, mereka menyerahkan kalung itu kepada Freyja.",
+          "quote": "Ok at liðnum fjórum náttum ok enduðum öllum skildaga, afhenda þeir Freyju menit.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bieresel",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "788fc68ce049148dd7fde71a1f973b35437e45af621f79b9e7fc39a752cee901",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bieresel-c01",
@@ -490,6 +620,36 @@
           "quote": "This household spirit abides particularly in breweries and in the bierkeller (i.e. beer cellar) of inns and pubs. In these establishments, the Biersal will gladly clean bottles, steins, casks and kegs that have been used in return for payment in the form of his own portion of beer. When not properly remunerated, however, they resort to mischief and vandalism.",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "bieresel-c08",
+          "source_id": "bieresel-s2",
+          "host": "de.wikisource.org",
+          "statement": "At Grimma the Bieresel reputedly lives in a cellar running into a hill; at night it tolerates no one inside, and, as people used to tell, it sometimes comes out and frightens passers-by.",
+          "statement_id": "Di Grimma, Bieresel konon tinggal di sebuah ruang bawah tanah yang menjorok ke dalam bukit; pada malam hari ia tidak membiarkan siapa pun di dalamnya, dan menurut cerita dulu kadang keluar dan menakut-nakuti orang yang lewat.",
+          "quote": "eine von diesen enthält einen Keller, der in den Berg hineingeht, und in diesem befindet sich angeblich der Bieresel. Dieser leidet des Nachts Niemand darin, kommt auch manchmal, wie man sonst erzählte, heraus und erschreckt die Vorübergehenden.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bieresel-c09",
+          "source_id": "bieresel-s3",
+          "host": "de.wikisource.org",
+          "statement": "In the Voigtland, when a child laughs very loudly, people say: 'You laugh like the Bieresel.'",
+          "statement_id": "Di Voigtland, bila seorang anak tertawa sangat keras, orang berkata: 'Kau tertawa seperti Bieresel.'",
+          "quote": "Wenn im Voigtlande ein Kind recht laut lacht, so sagt man, „Du lachst wie der Bieresel“.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bieresel-c10",
+          "source_id": "bieresel-s3",
+          "host": "de.wikisource.org",
+          "statement": "In the Voigtland it is said that the Bieresel goes into inns, sits among the guests and drinks up their beer; if it is not teased it harms no one and goes quietly on its way. The recorder doubts whether it takes the shape of a three-legged donkey there.",
+          "statement_id": "Di Voigtland orang berkata Bieresel masuk ke kedai minum, duduk di antara para tamu, dan meminum bir mereka; bila tidak diganggu, ia tidak mencelakai siapa pun dan pergi lagi dengan tenang. Pencatatnya ragu apakah ia di sana berwujud keledai berkaki tiga.",
+          "quote": "Man sagt nämlich, er gehe (doch nicht in Eselsgestalt auf drei Beinen?) in die Wirthshäuser, setze sich dort unter die Gäste, und trinke denselben ihr Bier aus, wenn er aber nicht geneckt werde, thue er Niemandem etwas zu Leide, sondern gehe wieder ruhig seiner Wege.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -497,6 +657,7 @@
     {
       "slug": "bisterk-ding",
       "file": "batch-113.md",
+      "entry_sha256": "9434938ab67d316488059b22516b7676ebf4921e1ba1e201607c1934dbea9633",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -537,6 +698,7 @@
     {
       "slug": "brise",
       "file": "batch-113.md",
+      "entry_sha256": "2c580edc4abd7e5bb782de48d9a93ad1ce3f17eb904be965bceaf161db768600",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -566,20 +728,15 @@
     },
     {
       "slug": "centicore",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-1.md",
+      "entry_sha256": "77e13727ec5b985a2a0f9844d77d17fb951c3f718747c622ce2f52291518b3e6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "centicore-c01",
@@ -600,16 +757,57 @@
           "quote": "De centicore heeft nog het meest weg van een paard, maar met de borst van een leeuw, een grote ronde snuit en oren in zijn bek in plaats van tanden.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "centicore-c03",
+          "source_id": "centicore-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The yale or centicore (Latin: eale) is a mythical beast found in European mythology and heraldry.",
+          "statement_id": "Yale atau centicore (Latin: eale) adalah makhluk mitos dalam mitologi dan heraldik Eropa.",
+          "quote": "The yale or centicore (Latin: eale) is a mythical beast found in European mythology and heraldry.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centicore-c04",
+          "source_id": "centicore-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The yale was first written about by Pliny the Elder in Book VIII of his Natural History, who describes the eale as a creature found in Aethiopia.",
+          "statement_id": "Yale pertama kali ditulis oleh Pliny the Elder dalam Buku VIII Natural History, yang menggambarkan eale sebagai makhluk dari Aethiopia.",
+          "quote": "The yale was first written about by Pliny the Elder in Book VIII of his Natural History. He describes the eale as a creature found in Aethiopia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centicore-c05",
+          "source_id": "centicore-s2",
+          "host": "en.wikipedia.org",
+          "statement": "According to Pliny the eale is the size of the river-horse, has an elephant's tail, is black or tawny, has the jaws of a wild boar, and movable horns more than a cubit long.",
+          "statement_id": "Menurut Pliny, eale sebesar kuda nil (river-horse), berekor gajah, berwarna hitam atau cokelat kekuningan, berahang babi hutan, dan bertanduk yang dapat digerakkan dengan panjang lebih dari satu hasta.",
+          "quote": "it is the size of the river-horse, has the tail of the elephant, and is of a black or tawny colour. It has also the jaws of the wild boar, and horns that are moveable, and more than a cubit in length",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centicore-c06",
+          "source_id": "centicore-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The yale later featured in medieval bestiaries and heraldry.",
+          "statement_id": "Yale kemudian muncul dalam bestiari dan heraldik Abad Pertengahan.",
+          "quote": "The yale subsequently featured in medieval bestiaries and heraldry.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cucuio",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "ae906f69339ec08bccc8dbb2e0011729cb12a33ad75552724d21d9e8cb26a564",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -617,7 +815,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -660,6 +858,16 @@
           "quote": "De luminescentie uit dode cucuio's kan als lichtgevende verf gebruikt worden.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cucuio-c05",
+          "source_id": "cucuio-s1",
+          "host": "nl.wikipedia.org",
+          "statement": "In the Indies (Indië), people are said to carry them (meedragen) in the dark (in het donker) to light the way (de weg te verlichten).",
+          "statement_id": "Di Hindia (Indië), orang konon membawa (meedragen) cucuio dalam gelap (in het donker) untuk menerangi jalan (de weg te verlichten).",
+          "quote": "In Indië zou men ze in het donker meedragen om de weg te verlichten.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -667,19 +875,14 @@
     {
       "slug": "dainn",
       "file": "batch-113.md",
+      "entry_sha256": "8f8f181bf678e79e5a6e592f98750eb8821e27132c00b8da5fbaac5c461430bf",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dainn-c01",
@@ -719,8 +922,7 @@
           "statement_id": "Dalam Younger Edda (terjemahan Anderson): empat rusa melompat-lompat di dahan pohon ash dan menggigit dedaunannya.",
           "quote": "Four stags leap about in the branches of the ash and bite the leaves.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "dainn-c05",
@@ -740,8 +942,7 @@
           "statement_id": "Daftar nama dalam terjemahan Anderson: Dain adalah salah satu rusa yang menggigit daun Yggdrasil (Ygdrasil).",
           "quote": "Dain. One of the stags that bite the leaves of Ygdrasil.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         }
       ],
       "images": []
@@ -749,6 +950,7 @@
     {
       "slug": "dibulok",
       "file": "batch-113.md",
+      "entry_sha256": "a4898c591ca89fca4daa229d5f0e1a174d0528eef5b5b5bdfed00b9d41d888f3",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -798,20 +1000,15 @@
     },
     {
       "slug": "draak-van-india-en-ethiopie",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "509f16481f94ef2ea5fcabdd7a55e50fede0e501db9da47efb7f38aaf5e942bd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "draak-van-india-en-ethiopie-c01",
@@ -862,26 +1059,61 @@
           "quote": "Ze gaan op een boom of rots zitten en wachten tot hun slachtoffer nadert. Dan kronkelt het beest zijn staart om de nek van zijn slachtoffer en verstikt hem. Het komt voor dat als de dode olifant omvalt, hij hierbij de draak verplettert.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "draak-van-india-en-ethiopie-c06",
+          "source_id": "draak-van-india-en-ethiopie-s2",
+          "host": "www.theoi.com",
+          "statement": "Aelian writes that in India the elephant and the drakon (dragon-serpent) are the bitterest enemies.",
+          "statement_id": "Aelian menulis bahwa di India gajah dan drakon (naga-ular) adalah musuh yang paling sengit.",
+          "quote": "In India, I am told, the Elephant and the Drakon (Dragon-Serpent) are the bitterest enemies.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "draak-van-india-en-ethiopie-c07",
+          "source_id": "draak-van-india-en-ethiopie-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Aelian, the drakon winds round the elephant's neck, holds onto the tree with the lower part of its body, and strangles the elephant with the upper part.",
+          "statement_id": "Menurut Aelian, drakon melilit leher gajah, berpegang pada pohon dengan bagian bawah tubuhnya, dan mencekik gajah itu dengan bagian atas tubuhnya.",
+          "quote": "Next the Drakon winds round the Elephant's neck, and as it clings to the tree with the lower part of its body, it tightens its hold with the upper part and strangles the Elephant with an unusual and singular noose.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "draak-van-india-en-ethiopie-c08",
+          "source_id": "draak-van-india-en-ethiopie-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Philostratus, the mountain dragons of India make a noise like clashing brass when burrowing under the earth, and from their fiery red crests flashes a fire brighter than a torch.",
+          "statement_id": "Menurut Philostratus, naga gunung di India mengeluarkan bunyi seperti dentang kuningan ketika menggali di bawah tanah, dan dari jambulnya yang merah menyala memancar api yang lebih terang daripada obor.",
+          "quote": "And they give off a noise like the clashing of brass whenever they are burrowing under the earth, and from their crests, which are all fiery red there flashes a fire brighter than a torch.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "draak-van-india-en-ethiopie-c09",
+          "source_id": "draak-van-india-en-ethiopie-s3",
+          "host": "www.theoi.com",
+          "statement": "Aelian calls the land of Aithiopia (Ethiopia) the mother of the very largest drakones, which reach a length of one hundred and eighty feet, and people say they kill elephants.",
+          "statement_id": "Aelian menyebut tanah Aithiopia (Etiopia) sebagai ibu bagi drakon terbesar, yang panjangnya mencapai seratus delapan puluh kaki, dan orang berkata mereka membunuh gajah.",
+          "quote": "The land of Aithiopia (Ethiopia)--the place where the gods bathe ... this land, I say, is the mother of the very largest Drakones (Dragon-Serpents). For, you must know, they attain to a length of one hundred and eighty feet, and they are not called by the name of any species, but people say that they kill elephants",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "durnir",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "f84b23af9d030b7bb2ee7480cc85ccb1201ddb8297c622e7333da77a235a91f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "durnir-c01",
@@ -942,26 +1174,41 @@
           "quote": "He also appears in a list of Dwarves in the anonymous Dverga heiti",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "durnir-c07",
+          "source_id": "durnir-s2",
+          "host": "heimskringla.no",
+          "statement": "In the Old Norse text of Þjóðólfr's stanza in Ynglinga saga, the hall-warden of Durnir's kin (Durnis niðja) deceived Svegðir when he ran into the stone after the dwarf (dvergi).",
+          "statement_id": "Dalam teks Norse Kuno bait Þjóðólfr di Ynglinga saga, penjaga aula dari keturunan Durnir (Durnis niðja) memperdaya Svegðir ketika ia berlari ke dalam batu mengejar kurcaci (dvergi).",
+          "quote": "En dagskjarr Durnis niðja salvörðuðr Svegði vélti, þá er í stein hinn stórgeði dulsa konr ept dvergi hljóp",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "durnir-c08",
+          "source_id": "durnir-s2",
+          "host": "heimskringla.no",
+          "statement": "According to the prose of Ynglinga saga, Svegðir saw a dwarf sitting under a stone; the dwarf stood in the doorway and called him to come in if he wished to meet Odin (Óðin). Svegðir ran into the stone, which at once closed again, and Svegðir never came back.",
+          "statement_id": "Menurut prosa Ynglinga saga, Svegðir melihat seorang kurcaci duduk di bawah batu; kurcaci itu berdiri di ambang pintu dan memanggilnya masuk bila ia ingin bertemu Odin (Óðin). Svegðir berlari ke dalam batu, batu itu segera menutup, dan Svegðir tidak pernah kembali.",
+          "quote": "sá hann til steinsins, at dvergr sat undir steininum. ... Dvergrinn stóð í durum ok kallaði á Sveigði, bað hann þar inn ganga, ef hann vildi Óðin hitta. Svegðir hljóp í steininn; en steinninn laukst þegar aptr, ok kom Svegðir eigi aptr.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ecke",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "a66e4d107838320d78fc3ba1c5c339ff1b5ef5b29e38d53e18d04cd1c8706f46",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ecke-c01",
@@ -1012,26 +1259,71 @@
           "quote": "Um den Namen von Dietrichs Schwert zu erklären, der schon im 12. Jahrhundert literarisch bezeugt ist, wurde also ein ehemaliger Besitzer mit Namen Ecke erfunden.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "ecke-c06",
+          "source_id": "ecke-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Eckenlied tells of Dietrich's fight against the giant Ecke, who has been sent out by three queens to fetch Dietrich.",
+          "statement_id": "Eckenlied mengisahkan pertarungan Dietrich melawan raksasa Ecke, yang diutus tiga ratu untuk menjemput Dietrich.",
+          "quote": "The Eckenlied tells the story of Dietrich's fight against the giant Ecke, who has been sent out by three queens to fetch Dietrich.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ecke-c07",
+          "source_id": "ecke-s2",
+          "host": "en.wikipedia.org",
+          "statement": "To encourage Ecke not to kill Dietrich, Seburg gives Ecke a sword and armour hardened in dragon blood.",
+          "statement_id": "Agar Ecke tidak membunuh Dietrich, Seburg memberinya pedang dan baju zirah yang dikeraskan dengan darah naga.",
+          "quote": "To encourage Ecke not to kill Dietrich, Seburg gives Ecke a sword and armor hardened in dragon blood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ecke-c08",
+          "source_id": "ecke-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Because of Ecke's invincible armour, Dietrich is forced to stab the giant dishonourably through a gap in his armour.",
+          "statement_id": "Karena baju zirah Ecke tak tertembus, Dietrich terpaksa menikam raksasa itu secara tidak terhormat melalui celah pada zirahnya.",
+          "quote": "Due to Ecke's invincible armor, Dietrich is forced to stab the giant dishonorably through a gap in his armor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ecke-c09",
+          "source_id": "ecke-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Ecke asks Dietrich to cut off his head and bring it to Seburg, which Dietrich does.",
+          "statement_id": "Ecke meminta Dietrich memenggal kepalanya dan membawanya kepada Seburg, dan Dietrich melakukannya.",
+          "quote": "Ecke asks Dietrich to cut off his head and bring it to Seburg, which he does.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ecke-c10",
+          "source_id": "ecke-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The saying 'Ecke ist an den Berner geraten' (Ecke has met the Berner, i.e. Dietrich) means that someone has met their match.",
+          "statement_id": "Ungkapan 'Ecke ist an den Berner geraten' (Ecke bertemu sang Berner, yaitu Dietrich) berarti seseorang telah bertemu tandingannya.",
+          "quote": "\"Ecke ist an den Berner geraten\" (Ecke has met the Berner [i.e. Dietrich]), meaning that someone has met their match.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "einheer",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "ca4ec88bf509a9c779abc46d93d054caa3adb8f3e6fba6a0cb140902d93b5942",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "einheer-c01",
@@ -1052,26 +1344,81 @@
           "quote": "Einheer-Skulptur auf dem Spielplatz „Schwanenstadt“ auf der Melzerwiese im Schwanenteichpark in Zwickau (2025)",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "einheer-c03",
+          "source_id": "einheer-s2",
+          "host": "de.wikisource.org",
+          "statement": "According to Deutsche Sagen, in the time of Carl the Great (Charlemagne) there lived a giant and warrior called Einheer, a Swabian.",
+          "statement_id": "Menurut Deutsche Sagen, pada zaman Carl yang Agung (Karel Agung) hidup seorang raksasa dan pahlawan bernama Einheer, seorang Swabia.",
+          "quote": "Zu Zeiten Carls des Großen lebt ein Ries’ und Recke, hieß Einheer, war ein Schwab, bürtig aus",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "einheer-c04",
+          "source_id": "einheer-s2",
+          "host": "de.wikisource.org",
+          "statement": "Einheer waded through all waters and needed no bridge, dragged his horse along by its tail, and always said: 'Now, comrade, you must come along too!'",
+          "statement_id": "Einheer mengarungi semua perairan sehingga tak perlu menyeberang jembatan, menarik kudanya dengan ekornya, dan selalu berkata: 'Nah kawan, kau juga harus ikut!'",
+          "quote": "der wuthe (wadete) über alle Wasser, dorft (braucht) über keine Brücke gehen, zoge sein Pferd bei dem Schwanz hernach, sagt allzeit: „nun Gesell, du mußt auch hernach!“",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "einheer-c05",
+          "source_id": "einheer-s2",
+          "host": "de.wikisource.org",
+          "statement": "In war Einheer mowed people down like grass with a scythe, hung them on his spear and carried them over his shoulders like hares and foxes.",
+          "statement_id": "Dalam perang, Einheer membabat orang seperti rumput dengan sabit, menusuk mereka pada tombaknya, dan memanggulnya di bahu seperti kelinci dan rubah.",
+          "quote": "er mähet die Leut, gleich wie das Gras mit einer Sensen, alle nieder, hängt sie an den Spieß, trugs über die Achseln wie Hasen und Füchs",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "einheer-c06",
+          "source_id": "einheer-s2",
+          "host": "de.wikisource.org",
+          "statement": "The giant is called Einheer because in war he was almost equal to an army (Heer); his enemies, the Wends (Winden) and Huns (Haunen), fled from him, thinking he was the devil.",
+          "statement_id": "Raksasa ini dinamai Einheer karena dalam perang ia hampir menyamai satu pasukan (Heer); musuh-musuhnya, bangsa Wend (Winden) dan Hun (Haunen), lari darinya karena mengira ia iblis.",
+          "quote": "Diesen Riesen nennt man Einheer, daß (weil) er sich in Kriegen schier einem Heer vergleicht und also viel ausrichtet. Es flohen ihm die Feinde, Winden und Haunen, meinten, es wär der leidige Teufel.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "einheer-c07",
+          "source_id": "einheer-s3",
+          "host": "de.wikisource.org",
+          "statement": "According to a later collection, the giant Einheer lived at Zwickau; his real name was Aenotherus, and he was a Swabian born in Thurgau in Switzerland (Schweiz).",
+          "statement_id": "Menurut kumpulan legenda yang lebih kemudian, raksasa Einheer hidup di Zwickau; nama aslinya Aenotherus, dan ia orang Swabia kelahiran Thurgau di Swiss (Schweiz).",
+          "quote": "lebte zu Zwickau ein Riese, Namens Einheer (eigentlich hieß er Aenotherus), ein Schwabe, gebürtig aus dem Thurgau in der Schweiz.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "einheer-c08",
+          "source_id": "einheer-s3",
+          "host": "de.wikisource.org",
+          "statement": "Back from the war, Einheer complained that he had carried seven or eight of the enemy on his spear without knowing what they were 'croaking', and that it was not worth the Emperor's (Kaiser) while to gather so many troops against such 'toads and worms'.",
+          "statement_id": "Sepulang perang, Einheer mengeluh bahwa ia memanggul tujuh atau delapan musuh di tombaknya tanpa tahu apa yang mereka 'kuakkan', dan bahwa tak sepadan bagi Kaisar mengerahkan begitu banyak orang melawan 'katak dan cacing' itu.",
+          "quote": "„was soll ich von diesen Fröschleins sagen? ich trug ihrer sieben oder acht an dem Spieße über der Achsel und weiß gar nicht, was sie quacken; es ist der Mühe nicht werth, daß der Kaiser so viel Volk wider diese Kröten und Würmer zusammengebracht hat.“",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "enerbanske",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "75af3836652211153c1817cb60ff147a4b3f725e894c27997210896d25151ef8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "enerbanske-c01",
@@ -1112,26 +1459,61 @@
           "quote": "Wie viele andere vergleichbare Wesen helfen sie beim Haushalt und erledigen über Nacht die Arbeiten der Hausbewohner.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "enerbanske-c05",
+          "source_id": "enerbanske-s2",
+          "host": "archive.org",
+          "statement": "According to Müllenhoff, little people live under the earth, mostly in old burial mounds; in Holstein they are called Dwarge or Unnererske, on Silt (Sylt) Onnererske, and on Föhr and Amrum Onnerbänkissen.",
+          "statement_id": "Menurut Müllenhoff, orang-orang kecil tinggal di bawah tanah, kebanyakan di gundukan makam kuno; di Holstein mereka disebut Dwarge atau Unnererske, di Silt (Sylt) Onnererske, dan di Föhr serta Amrum Onnerbänkissen.",
+          "quote": "Unter der Erde, meiſt in alten Grabhügeln wohnen kleine Leute, die man in Holſtein Dwarge oder Unnererske, auch auf Silt Onnererske, aber auf Föhr und Amrum Onnerbänkiſſen nennt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "enerbanske-c06",
+          "source_id": "enerbanske-s2",
+          "host": "archive.org",
+          "statement": "The Onnerbänkissen of Amrum dwell especially in the Fögedshoog by the dunes; people have seen them dancing round in the moonlight in the evening and spreading out their washing there by day.",
+          "statement_id": "Onnerbänkissen di Amrum terutama berdiam di bukit Fögedshoog dekat bukit pasir; orang melihat mereka menari berkeliling di bawah cahaya bulan pada malam hari dan menjemur cucian di sana pada siang hari.",
+          "quote": "Die Onnerbänkiſſen auf Amrum haben beſonders in dem Fö— gedshoog bei den Dünen ihr Weſen. Da hat man fie Abends im ... Mondenſchein ringsherum tanzen und bei Tage ihre Wäſche darauf ausbreiten ſehen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "enerbanske-c07",
+          "source_id": "enerbanske-s2",
+          "host": "archive.org",
+          "statement": "In many houses on Amrum an Onnerbänkis lived invisibly; it always had to have a bit of butter in its porridge and must not be forgotten at any meal.",
+          "statement_id": "Di banyak rumah di Amrum, seorang Onnerbänkis tinggal tanpa terlihat; ia harus selalu mendapat sepotong mentega di buburnya dan tidak boleh dilupakan pada waktu makan.",
+          "quote": "In vielen Häuſern auf Amrum hat ſich ein Onnerbänkis unſichtbar aufgehalten. Es muſte immer ein Stücklein Butter im Brei haben und durfte bei keiner Mahlzeit vergeſſen werden.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "enerbanske-c08",
+          "source_id": "enerbanske-s2",
+          "host": "archive.org",
+          "statement": "When the mother was out, the cradle rocked by itself; that was the Onnerbänkis.",
+          "statement_id": "Ketika sang ibu pergi, buaian berayun sendiri; itu perbuatan Onnerbänkis.",
+          "quote": "Wenn die Mutter aus war, wiegte die Wiege von ſelbſt; das that das Onnerbänkis.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "entenwick",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "a16a7df5e502114745610a7e832a1984b8c10c55fc175112c3799ca1f67b85f9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "entenwick-c01",
@@ -1212,6 +1594,36 @@
           "quote": "Der war mit langen spitzen am ellenbogen und duch auß, die finger aber an der handt auch spitzig und greulich und die farb so erschrockenlich, mit ploe und blutfarb und gelen spreckln also vermischt",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "entenwick-c09",
+          "source_id": "entenwick-s2",
+          "host": "de.wikisource.org",
+          "statement": "Things he carried were seen moving through the air without anyone visible carrying them, and no one was ever able to grasp him.",
+          "statement_id": "Benda-benda yang dibawanya terlihat melayang di udara tanpa seorang pun yang tampak membawanya, dan tak seorang pun pernah dapat menyentuhnya.",
+          "quote": "Solchs hat man im luft sehen daher geen und niemands, der das getragen, sehen künden. Keiner hat ine nie greifen künden.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "entenwick-c10",
+          "source_id": "entenwick-s2",
+          "host": "de.wikisource.org",
+          "statement": "Entenwick let it be known that as long as he was at Sachsenhaim, the family would never lose its honour and wealth.",
+          "statement_id": "Entenwick menyatakan bahwa selama ia berada di Sachsenhaim, keluarga itu tidak akan pernah kehilangan kehormatan dan hartanya.",
+          "quote": "bemelter Entenwick vernemen lassen, aldieweil er zu Sachsenhaim, so werde das geschlecht an ehren und guet nimmer zerrinnen",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "entenwick-c11",
+          "source_id": "entenwick-s2",
+          "host": "de.wikisource.org",
+          "statement": "Shortly afterwards Sachsenhaim castle burned to the ground, and everyone blamed Entenwick.",
+          "statement_id": "Tak lama kemudian kastel Sachsenhaim terbakar habis, dan orang-orang menyalahkan Entenwick.",
+          "quote": "In kürze hernach ist das schloß Sachsenhaim uf den grund ußbronnen, in dem doch menigclich dem Entenwick die schuldt gegeben.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1219,6 +1631,7 @@
     {
       "slug": "fanfreluche",
       "file": "batch-113.md",
+      "entry_sha256": "a57491932b9e68a1a45bddcb9b06f605b1bbc24da87b0fb644442a8f88b1bb13",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -1237,20 +1650,15 @@
     },
     {
       "slug": "father-raven",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "16b23a76d47335791dfd77175e2d861ea188eec1419cc655cee6d08ab3e48a42",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "father-raven-c01",
@@ -1261,31 +1669,81 @@
           "quote": "Fader korp eller Tulungersaq är hos Alaskas inuiter, samt hos många angränsande folkgrupper, en mytologiskt centralgestalt. Inuiternas mytologi har dock ingen allmän skapargestalt.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "father-raven-c02",
+          "source_id": "father-raven-s2",
+          "host": "archive.org",
+          "statement": "The creation of the earth and everything upon it is credited to the Raven Father, who is said to have come from the sky and made the earth when everything was covered with water.",
+          "statement_id": "Penciptaan bumi dan segala isinya dikaitkan dengan Raven Father, yang konon datang dari langit dan membuat bumi ketika segalanya tertutup air.",
+          "quote": "The creation of the earth and everything upon it is credited to the Raven Father ... who is said to have come from the sky and made the earth when everything was covered with water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "father-raven-c03",
+          "source_id": "father-raven-s2",
+          "host": "archive.org",
+          "statement": "He kept the form of a raven and changed into a man at will by pushing up his beak.",
+          "statement_id": "Ia mempertahankan wujud gagak dan berubah menjadi manusia sesuka hati dengan mendorong paruhnya ke atas.",
+          "quote": "he retained the form of a raven and changed to a man at will by pushing up his beak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "father-raven-c04",
+          "source_id": "father-raven-s2",
+          "host": "archive.org",
+          "statement": "The raven's part in the creation legend is believed by the Eskimo from the Kusko-kwim river northward to Bering Strait and well around the Arctic coast.",
+          "statement_id": "Peran gagak dalam legenda penciptaan dipercaya oleh orang Eskimo dari sungai Kusko-kwim ke utara sampai Selat Bering dan sepanjang pesisir Arktik.",
+          "quote": "is believed by the Eskimo from Kusko- kwim river northward to Bering strait and well around on the Arctic coast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "father-raven-c05",
+          "source_id": "father-raven-s2",
+          "host": "archive.org",
+          "statement": "The Eskimo about Norton Sound place pieces of dried fish or other food on the tundra as offerings to the Raven Father in the sky, who in return gives them fine weather.",
+          "statement_id": "Orang Eskimo di sekitar Norton Sound meletakkan potongan ikan kering atau makanan lain di tundra sebagai persembahan kepada Raven Father di langit, yang sebagai balasannya memberi mereka cuaca baik.",
+          "quote": "that the Eskimo about Norton sound place fragments of dried fish or other food in different places on the tundra as offerings to the Eaven Father in the sky; in return for which he gives them fine weather.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "father-raven-c06",
+          "source_id": "father-raven-s2",
+          "host": "archive.org",
+          "statement": "The Unalit say that killing a raven will make the Raven Father very angry and send bad weather.",
+          "statement_id": "Orang Unalit berkata bahwa membunuh gagak akan membuat Raven Father sangat marah dan mengirim cuaca buruk.",
+          "quote": "The Unalit say that to kill a raven will cause the Eaven Father to become very angry and to send bad weather",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "father-raven-c07",
+          "source_id": "father-raven-s2",
+          "host": "archive.org",
+          "statement": "The first man made on earth returned to the sky land, where the shades of shamans and of people who died a violent death also go; the Raven Father is believed still to live there.",
+          "statement_id": "Manusia pertama yang dibuat di bumi kembali ke negeri langit, tempat arwah para dukun (shaman) dan orang yang mati karena kekerasan juga pergi; Raven Father dipercaya masih tinggal di sana.",
+          "quote": "The tirst man made on the earth returned to the sky land, where the shades of shamans and people who are recompensed for a violent death also go; the Eaven Father is believed still to live there.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "freki",
-      "file": "batch-113.md",
+      "file": "batch-113-fix-2.md",
+      "entry_sha256": "76a2b40f7edcad93f145a8b27a9354d74771b2923769af48a0131d8ee59c92d6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "freki-c01",
@@ -1315,8 +1773,7 @@
           "statement_id": "Dalam Younger Edda (terjemahan Anderson), Ganglere bertanya apakah Odin makan makanan yang sama dengan para einherjes; Har menjawab bahwa makanan di meja Odin ia berikan kepada kedua serigalanya, Gere dan Freke; ia sendiri tak butuh makanan, anggur adalah makanan sekaligus minumannya.",
           "quote": "Ganglere asked: Does Odin have the same kind of food as the einherjes? Har answered: The food that is placed on his table he gives to his two wolves, which hight Gere and Freke. He needs no food himself. Wine is to him both food and drink",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "freki-c04",
@@ -1337,6 +1794,36 @@
           "quote": "De nevnes i Grimnismål («Grimnnes tale»):",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "freki-c06",
+          "source_id": "freki-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Freki is also a name applied to the monstrous wolf Fenrir in the Poetic Edda poem Völuspá.",
+          "statement_id": "Freki juga merupakan nama yang dikenakan pada serigala raksasa Fenrir dalam puisi Völuspá di Poetic Edda.",
+          "quote": "Freki is also a name applied to the monstrous wolf Fenrir in the Poetic Edda poem Völuspá.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freki-c07",
+          "source_id": "freki-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Freki is used in a kenning for 'carrion' ('Freki's meal') in a work by Þórðr Sjáreksson in chapter 58 of Skáldskaparmál.",
+          "statement_id": "Freki dipakai dalam kenning untuk 'bangkai' ('hidangan Freki') dalam karya Þórðr Sjáreksson yang dikutip di bab 58 Skáldskaparmál.",
+          "quote": "Freki is also used in a kenning for \"carrion\" (\"Freki's meal\") in a work by Þórðr Sjáreksson in chapter 58 of Skáldskaparmál.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "freki-c08",
+          "source_id": "freki-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The name Freki can be traced back to the Proto-Germanic adjective *frekaz.",
+          "statement_id": "Nama Freki dapat ditelusuri ke kata sifat Proto-Jermanik *frekaz.",
+          "quote": "The name Freki can be traced back to the Proto-Germanic adjective *frekaz",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1344,6 +1831,7 @@
     {
       "slug": "gajendra",
       "file": "batch-113.md",
+      "entry_sha256": "d4ab6246b911f6bc115222c613c584a9ef0712e2349f10490d20e742224d8ec7",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -1424,6 +1912,7 @@
     {
       "slug": "gayant",
       "file": "batch-113.md",
+      "entry_sha256": "4e5b6ac76fd269b14011199e17e87d5a683b64e4f264bc14749690e8908885b2",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 8,
@@ -1524,6 +2013,7 @@
     {
       "slug": "geri",
       "file": "batch-113.md",
+      "entry_sha256": "a55806f0d97f7a1c4996a56879ccfdb0173ec094edd89dd048a1978ede1edc1f",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -1535,11 +2025,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
         }
       ],
       "claims": [
@@ -1571,8 +2056,7 @@
           "statement_id": "Dalam Younger Edda (terjemahan Anderson), Ganglere bertanya apakah Odin makan makanan yang sama dengan para einherjes; Har menjawab bahwa makanan di meja Odin ia berikan kepada kedua serigalanya, Gere dan Freke; ia sendiri tak butuh makanan, anggur adalah makanan sekaligus minumannya.",
           "quote": "Ganglere asked: Does Odin have the same kind of food as the einherjes? Har answered: The food that is placed on his table he gives to his two wolves, which hight Gere and Freke. He needs no food himself. Wine is to him both food and drink",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "geri-c04",
@@ -1600,6 +2084,7 @@
     {
       "slug": "gloeiige",
       "file": "batch-113.md",
+      "entry_sha256": "8c199c4036636e21a637be58162a8e06c942020e2774245443f654f495cfdca7",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -1670,6 +2155,7 @@
     {
       "slug": "goliath-en-gerarda",
       "file": "batch-113.md",
+      "entry_sha256": "9f937a503b72f79df8503303255f4b7dc679873ebdf7b47f0976ee6823b993e5",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -1689,6 +2175,7 @@
     {
       "slug": "hanghuhn",
       "file": "batch-113.md",
+      "entry_sha256": "ec279651a52259c399652d46798c2060d765e59220080dd6c2c45fd6ab85e9b4",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -1708,6 +2195,7 @@
     {
       "slug": "harpyia",
       "file": "batch-113.md",
+      "entry_sha256": "57eccbaf3a6be6faf4f8a369b0be7182130264fd5ed97e40f2efa992061200aa",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -1719,11 +2207,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
         }
       ],
       "claims": [
@@ -1775,8 +2258,7 @@
           "statement_id": "Catatan terjemahan Riley atas Metamorphoses (bait 215) mengartikan nama Harpyia sebagai \"si pemangsa\" (Ravener), dari kata Yunani untuk harpy.",
           "quote": "Ver. 215. ‘Ravener.’ From the Greek word",
           "context": "etymology",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         }
       ],
       "images": []
@@ -1784,6 +2266,7 @@
     {
       "slug": "heimchen",
       "file": "batch-113.md",
+      "entry_sha256": "22a64813b4809313100758968006b52e5f6e627c1b4cc8735d966205d4b58a97",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 15,
@@ -1948,6 +2431,7 @@
     {
       "slug": "heintjevaar",
       "file": "batch-113.md",
+      "entry_sha256": "54fe55757891e52e8d824079d2a5877bdec7924f80c0232a5b4dc9be599167f9",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 7,
@@ -2038,6 +2522,7 @@
     {
       "slug": "hemann",
       "file": "batch-113.md",
+      "entry_sha256": "d590ca1bad09818653a085f541e7c48e0a07f33698b5297eb343be2f8327d837",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 14,
@@ -2192,6 +2677,7 @@
     {
       "slug": "hercynisch-hert",
       "file": "batch-113.md",
+      "entry_sha256": "a0b2190566bde0e5eb3ac7ff91ce63d83919ee658d02db269d7dd5095697bf5a",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -2268,6 +2754,7 @@
     {
       "slug": "hija",
       "file": "batch-113.md",
+      "entry_sha256": "c1d9797b77e1309b10d7c88af45303179cd7389faa3f1697162941c635a29837",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -2348,6 +2835,7 @@
     {
       "slug": "hyldemoer",
       "file": "batch-113.md",
+      "entry_sha256": "8c3795257587ab79d598f70c3c81f82de9907d409d0f538ea409cf88176a5b3d",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2367,6 +2855,7 @@
     {
       "slug": "kabouter-pimpelnoas",
       "file": "batch-113.md",
+      "entry_sha256": "975b48f797deed46b8d9e689fa5ce947b0c6f827d8af8bcc8293b0de30f8c297",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2386,6 +2875,7 @@
     {
       "slug": "kelenken",
       "file": "batch-113.md",
+      "entry_sha256": "61f9d56444c1bc9a455361e1461eb1e75d6c408404d272088736da8da43ae294",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -2460,6 +2950,7 @@
     {
       "slug": "kinneke-baba",
       "file": "batch-113.md",
+      "entry_sha256": "f8068bdc55796217aa9b1bfb9db5c7201331200f5e104926bbc1f1cb5ac57dc0",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2479,6 +2970,7 @@
     {
       "slug": "korean-dragons",
       "file": "batch-113.md",
+      "entry_sha256": "b526f2786c5e238e9283a0a5245eadf71d5a39f3a52bcc842c17fbe052640167",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2498,6 +2990,7 @@
     {
       "slug": "kornmann",
       "file": "batch-113.md",
+      "entry_sha256": "57b168cb287e104a6d90d4967491e77b4f327afc196e01d7c0327e1f7d260221",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 15,
@@ -2662,6 +3155,7 @@
     {
       "slug": "kotcha-si",
       "file": "batch-113.md",
+      "entry_sha256": "1cd6a9fc862e472298625c8254b277f1b45e809664efeca12917ba7957c5586e",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 4,
@@ -2722,6 +3216,7 @@
     {
       "slug": "kuperan",
       "file": "batch-113.md",
+      "entry_sha256": "d9bede4c1acb41b4bf387c289ba61e3618625c374c39e0dd328467d3d66e2420",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 9,
@@ -2826,6 +3321,7 @@
     {
       "slug": "langben-rese",
       "file": "batch-113.md",
+      "entry_sha256": "9bf6a06c57fc2a247f3a199244074edb8a3722946d6bade0024c3e897786adbd",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -2900,6 +3396,7 @@
     {
       "slug": "leucrota",
       "file": "batch-113.md",
+      "entry_sha256": "c3c2ba43ae50353b8840d398129158a6a67b767264e150ba7329b160060b1c0e",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 9,
@@ -3004,6 +3501,7 @@
     {
       "slug": "lierelei",
       "file": "batch-113.md",
+      "entry_sha256": "84c1fe8ac97b424145c022b8fafdfecb83c06ba3e919837be668c2d0af9d51b2",
       "verdict": "skip",
       "counts": {
         "claims": 0,

@@ -1,13 +1,10 @@
 # Review batch-113
 
-Diperiksa 2026-10-03T01:28:56.491Z. Berkas: batch-113.md.
+Diperiksa 2026-10-14T03:27:29.287Z. Berkas: batch-113.md, batch-113-fix-1.md, batch-113-fix-2.md.
 
 ## abundia — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -17,6 +14,9 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | abundia-c04 | exact | fr.wikipedia.org | Émile Littré's dictionary (1863), under 'abonde', calls Dame Abonde, the fairy Abonde, the chief of the beneficent fairies. | Le Dictionnaire de la langue française (1863) d'Émile Littré donne à l'entrée "abonde" le propos suivant : "Dame Abonde, la fée Abonde, la principale des fées bienfaisantes.". |
 | abundia-c05 | exact | fr.wikipedia.org | According to Lucie Félix-Faure Goyau in La vie et la mort des fées (1910), she mainly visits 'poor people'. | D'après Lucie Félix-Faure Goyau, dans La vie et la mort des fées; essai d'histoire littéraire (1910), elle visiterait principalement les « pauvres gens ». |
 | abundia-c06 | exact | fr.wikipedia.org | Per Jérôme Baschet (after Jean-Claude Schmitt), this belief belongs to a set of beliefs and rituals to win the goodwill of positive forces for peasant life, above all fertility and the yearly renewal of crops; from the 13th century the Church increasingly hunted and demonised them. | Celle-ci en particulier, fait partie d'un ensemble de croyances et de rituels destinés à capter la bienveillance de forces positives, afin d'assurer la bonne marche de la vie paysanne, et surtout la fertilité et le renouvellement annuel des produits de la terre. À partir du XIIIe siècle, l'Église les pourchasse et diabolise de plus en plus. |
+| abundia-c07 | exact | archive.org | The study quotes Guillaume d'Auvergne, bishop of Paris who died in 1248, on a spirit in the guise of a woman said to visit houses and cellars by night with others; people called her Satia from satiety (satietas) and domina Abundia from abundance (abundantia). | A bishop of Paris, Guihehnus Alvemus (Guillaume d' Auvergne), who died 1248, speaks thus of nymphs and lamiae ... qui praetextu mulieris, cum aliis de nocte domos et cellaria dicitur frequentare, et vocant eam Satiam a satietate, et dominam Ahundiam pro abundantia |
+| abundia-c08 | exact | archive.org | The quoted Latin text calls the beings that appear in houses 'night ladies' (dominas nocturnas), whose chief is called domina Abundia, because they are believed to grant an abundance of temporal goods to the houses they frequent. | quas dominas nocturnas, et frincipem earum vocant dominam Abundiam, pro eo quod domibus, quas frequentant, abundantiam bonorum temporalium praestare |
+| abundia-c09 | exact | archive.org | The study counts Abundia among goddesses known only under foreign names, together with Isis, Diana and Herodias. | others resembling them have only become known to us under foreign appellations (Isis, Diana, Herodias, Abundia) |
 
 
 ## aio — skip
@@ -32,11 +32,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## alsvi-r — lulus-otomatis
 
-Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
+Klaim 7 (exact 6, unreachable 1), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
+- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -44,15 +43,14 @@ Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
 | alsvi-r-c02 | exact | en.wikipedia.org | Both horses are named in Gylfaginning and Grímnismál, and their names often go with descriptions of the Sun. | Both horses are mentioned in Gylfaginning and Grímnismál and their names are frequently associated with descriptions of the Sun. |
 | alsvi-r-c03 | exact | en.wikipedia.org | Two large bellows (ísarnkol, 'cold iron') were placed under the two horses' shoulders to shield them from the Sun's immense heat. | Two large bellows (ísarnkol; cold iron) were placed under the shoulders of the two horses to protect them from the immense heat of the Sun. |
 | alsvi-r-c04 | exact | en.wikipedia.org | Sól cannot stop driving, else Sköll will catch and devour the Sun; this is expected on the day of Ragnarök. | Sól is unable to stop driving the chariot or else Sköll will catch the Sun and devour it; the Sun is expected to be caught and devoured on the day of Ragnarök. |
-| alsvi-r-c05 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | In the Younger Edda (Anderson's translation), the gods made Sun drive the horses of the sun's car, made from sparks of Muspelheim to light the world; these horses are called Arvak and Alsvid, and two cooling wind-bags were placed under their withers, called in some songs ironcold (ísarnkol). | and made Sun drive the horses that draw the car of the sun, which the gods had made to light up the world from sparks that flew out of Muspelheim. These horses hight Arvak and Alsvid. Under their withers the gods placed two wind-bags to cool them, but in some songs it is called ironcold (ísarnkol). |
+| alsvi-r-c05 | exact | www.gutenberg.org | In the Younger Edda (Anderson's translation), the gods made Sun drive the horses of the sun's car, made from sparks of Muspelheim to light the world; these horses are called Arvak and Alsvid, and two cooling wind-bags were placed under their withers, called in some songs ironcold (ísarnkol). | and made Sun drive the horses that draw the car of the sun, which the gods had made to light up the world from sparks that flew out of Muspelheim. These horses hight Arvak and Alsvid. Under their withers the gods placed two wind-bags to cool them, but in some songs it is called ironcold (ísarnkol). |
+| alsvi-r-c06 | unreachable (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan) | www.gutenberg.org | In Thorpe's translation of Grimnismal, Arvakr and Alsvid must draw the sun up from here fasting, and the Æsir have concealed an 'iron-coolness' under their shoulder. | Arvakr and Alsvid, theirs 'tis up hence fasting the sun to draw: under their shoulder the gentle powers, the Æsir, have concealed an iron-coolness. |
+| alsvi-r-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Thorpe's translation of the Lay of Sigrdrifa, things are said to be graven on the shield before the shining god, on Arvakr's ear, on Alsvid's hoof, and on the wheel under Rognir's car. | They are, it said, on the shield graven, which stands before the shining god, on Arvakr's ear, and on Alsvid's hoof, on the wheel which rolls under Rognir's car |
 
 
 ## anka-q2649344 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 8, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -60,6 +58,11 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | anka-q2649344-c02 | exact | nl.wikipedia.org | Some sources make the Anka a phoenix (feniks): after its 1,700 years it burns itself and rises again from the ashes. | Volgens sommige bronnen is de Anka een feniks; na de 1700 jaar van zijn leven verbrandt hij zichzelf en herrijst weer uit het as. |
 | anka-q2649344-c03 | exact | nl.wikipedia.org | According to the Arabs (Arabieren), it was God's creation, first the perfect bird, later a curse for its great appetite; finally God stopped it breeding and the species died out. | Volgens de Arabieren was het een creatie van God, eerst de perfecte vogel, maar later een vloek vanwege zijn grote eetlust. Uiteindelijk voorkwam God dat zij zich verder voortplantten, en de soort stierf uit. |
 | anka-q2649344-c04 | exact | nl.wikipedia.org | The early Arab writer Kazweenee called it the largest of birds: it carries an elephant as a cat carries a mouse, ate all the birds of Mount Demaj (Demaj-berg) and one hungry day swooped on a child and carried it off. | Een vroege Arabische schrijver, Kazweenee, noemde het de grootste van de vogels: "Het draagt een olifant zoals een kat een muis draagt. Deze vogel at alle vogels van de Demaj-berg op. Op een dag was hij hongerig en de vogels waren schaars geworden, dus stortte hij zich op een kind en droeg het weg." |
+| anka-q2649344-c05 | exact | en.wikipedia.org | The name is also spelled 'Anqa', Anka, Anqa Mughrib or Anqa al-Mughrib. | also spelled 'Anqa', or Anka, or Anqa Mughrib or Anqa al-Mughrib |
+| anka-q2649344-c06 | exact | en.wikipedia.org | The Anqa is a golden, mysterious or fabulous female bird in pre-Islamic Arab mythology. | is a golden mysterious or fabulous female bird in pre-Islamic Arab mythology |
+| anka-q2649344-c07 | loose | en.wikipedia.org | The word ʿanqāʾ is the feminine form of ʾaʿnaq, meaning 'long-necked' and also 'long and thick in the neck'. | The word ʿanqāʾ is the feminine form of ʾaʿnaq (أعنق) meaning "long-necked" and also "long and thick in the neck". |
+| anka-q2649344-c08 | exact | en.wikipedia.org | Zakariya al-Qazwini, in his cosmological book Aja'ib al-Makhluqat ('The Wonders of Creation'), describes the Anqa as the king of birds living alone on Mount Qaf. | Zakariya al-Qazwini in this cosmological book Aja'ib al-Makhluqat "The Wonders of Creation" comments about the Anqa as the kin of birds that lived alone on Mount Qaf |
+| anka-q2649344-c09 | exact | en.wikipedia.org | The Anqa is frequently identified, to the point of becoming synonymous, with the simurgh of Persian mythology. | The Anqa is frequently identified (to the point of becoming synonymous) with the simurgh of Persian mythology |
 
 
 ## aranda — lulus-otomatis
@@ -76,10 +79,7 @@ Klaim 1 (exact 1), sumber 1, gambar 0.
 
 ## atla — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -87,14 +87,14 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | atla-c02 | exact | de.wikipedia.org | Atla is a water goddess, daughter of the sea deities Ægir (Ägir) and Rán (Ran); with her eight sisters she forms the sea's waves, and they helped their father, the sea giant Ægir, brew ale for the Æsir's (Asen) feasts. | Atla ist eine Wassergöttin und die Tochter der Meeresgötter Ägir und Ran. Atla und ihre acht Schwestern bilden die Wogen des Meeres. Sie halfen ihrem Vater dem Meeresriesen Ägir, das Bier für die Feste der Asen zu brauen. |
 | atla-c03 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Thorpe's translation of Hyndluljóð, the jötun maids who bore the god are Gialp, Greip, Eistla, Angeia, Ulfrun, Eyrgiafa, Imd, Atla and Jarnsaxa. | Gialp gave him birth, Greip gave him birth, Eistla gave him birth, and Angeia; Ulfrun gave him birth, and Eyrgiafa, Imd and Atla, and Jarnsaxa. |
 | atla-c04 | exact | de.wikipedia.org | The names of Ægir's nine daughters seem not to have been fixed; any synonym for 'wave' (Welle) could be used by the poets (Dichtern). | D. h., die Namen scheinen nicht eindeutig festgelegt gewesen zu sein, sondern jedes Synonym für „Welle“ konnte von den Dichtern benutzt werden. |
+| atla-c05 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Thorpe's translation of Hyndluljod, nine Jotun maids gave birth to the gracious god at the world's margin. | nine Jotun maids gave birth to the gracious god, at the world's margin. |
+| atla-c06 | exact | en.wikipedia.org | The name Atla is glossed 'The Furious One', and it appears listed among the jötnar in the Nafnaþulur. | Atla "The Furious One" Name appears listed among jötnar in the Nafnaþulur |
+| atla-c07 | exact | en.wikipedia.org | The link between the Nine Mothers of Heimdallr and the Nine Daughters of Ægir and Rán has been questioned because the names of the two groups (as found in Völuspá hin skamma) do not match. | However, this connection has been questioned on the grounds that the names presented for the Nine Daughters of Ægir and Rán and the Nine Mothers of Heimdallr (as found in Völuspá hin skamma) do not match. |
 
 
 ## berlingr — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -103,14 +103,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | berlingr-c03 | exact | de.wikipedia.org | Sörla þáttr: there were men in Asía named Álfrigg, Dvalinn, Berlingr and Grérr, living not far from the king's hall (höll konungs). | Menn þeir váru í Asía, er einn hét Álfrigg, annarr Dvalinn, þriði Berlingr, fjórði Grérr. Þeir áttu heima skammt frá höll konungs. |
 | berlingr-c04 | exact | de.wikipedia.org | Freyja offered the dwarfs gold and silver for the jewel, but they were not interested; each would give her his share of the necklace if she spent a night with him; Freyja agreed and so gained the precious necklace. | Freyja bot den Zwergen Gold und Silber für den Schmuck an, doch diese waren daran nicht interessiert. Sie erklärten, dass ein jeder seinen Anteil am Halsband an Freyja übertrage, wenn sie mit ihm eine Nacht das Lager teilen würde. Freyja erklärte sich dazu bereit und erwarb auf diese Weise den kostbaren Halsschmuck. |
 | berlingr-c05 | exact | de.wikipedia.org | The goddess Freyja watched the four dwarfs Álfrigg, Dvalin, Berlingr and Grérr in a rock forging a golden necklace. | Danach beobachtete die Göttin Freyja die vier Zwerge Álfrigg, Dvalin, Berlingr und Grérr in einem Felsen dabei, wie sie ein goldenes Halsband schmiedeten. |
+| berlingr-c06 | exact | heimskringla.no | According to Sörla þáttr, the four were so skilled that they could turn their hand to anything; such men were called dwarfs (dverga), and they lived in a stone. | Þeir váru menn svá hagir, at þeir lögðu á allt gerva hönd. Þess háttar menn, sem þeir váru, kölluðu menn dverga. Þeir byggðu einn stein. |
+| berlingr-c07 | exact | heimskringla.no | After four nights had passed and all terms were fulfilled, they handed the necklace to Freyja. | Ok at liðnum fjórum náttum ok enduðum öllum skildaga, afhenda þeir Freyju menit. |
 
 
 ## bieresel — lulus-otomatis
 
-Klaim 7 (exact 6, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -121,6 +120,9 @@ Klaim 7 (exact 6, loose 1), sumber 1, gambar 0.
 | bieresel-c05 | exact | en.wikipedia.org | In Grochwitz near Torgau, Saxony, the Bieresel brings beer into the house like a Drak and does chores like a Kobold; its only reward is a glass of beer each evening, and without it, it breaks everything. | In Grochwitz near Torgau in Saxony, the Bieresel brings beer inside the house like a Drak and also does other household chores like a Kobold. The only reward the Bieresel expects is a glass of beer every evening. If it doesn’t get its beer, then it will break everything. |
 | bieresel-c06 | exact | en.wikipedia.org | In formerly German-speaking Bohemia, dishonest barkeepers are said to turn into the Bieresel, a noisy poltergeist monster; in a Braunau district village it occupied a tavern room, and meeting it was reputedly deadly. | In former German-speaking Bohemia, it is said that unscrupulous barkeepers turn into the bieresel, a noisy Poltergeist monster, and in one of the villages of the Braunau District [de] there was a story of the monster taking occupancy in one of the rooms at a tavern. An encounter was reputed to be deadly. |
 | bieresel-c07 | loose | en.wikipedia.org | This house spirit lives mainly in breweries and inn beer cellars (bierkeller); the Biersal gladly cleans bottles, steins and kegs for its share of beer, but if unpaid it makes mischief. | This household spirit abides particularly in breweries and in the bierkeller (i.e. beer cellar) of inns and pubs. In these establishments, the Biersal will gladly clean bottles, steins, casks and kegs that have been used in return for payment in the form of his own portion of beer. When not properly remunerated, however, they resort to mischief and vandalism. |
+| bieresel-c08 | exact | de.wikisource.org | At Grimma the Bieresel reputedly lives in a cellar running into a hill; at night it tolerates no one inside, and, as people used to tell, it sometimes comes out and frightens passers-by. | eine von diesen enthält einen Keller, der in den Berg hineingeht, und in diesem befindet sich angeblich der Bieresel. Dieser leidet des Nachts Niemand darin, kommt auch manchmal, wie man sonst erzählte, heraus und erschreckt die Vorübergehenden. |
+| bieresel-c09 | exact | de.wikisource.org | In the Voigtland, when a child laughs very loudly, people say: 'You laugh like the Bieresel.' | Wenn im Voigtlande ein Kind recht laut lacht, so sagt man, „Du lachst wie der Bieresel“. |
+| bieresel-c10 | exact | de.wikisource.org | In the Voigtland it is said that the Bieresel goes into inns, sits among the guests and drinks up their beer; if it is not teased it harms no one and goes quietly on its way. The recorder doubts whether it takes the shape of a three-legged donkey there. | Man sagt nämlich, er gehe (doch nicht in Eselsgestalt auf drei Beinen?) in die Wirthshäuser, setze sich dort unter die Gäste, und trinke denselben ihr Bier aus, wenn er aber nicht geneckt werde, thue er Niemandem etwas zu Leide, sondern gehe wieder ruhig seiner Wege. |
 
 
 ## bisterk-ding — lulus-otomatis
@@ -150,23 +152,24 @@ Klaim 1 (exact 1), sumber 1, gambar 0.
 
 ## centicore — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | centicore-c01 | exact | nl.wikipedia.org | The centicore is a fabulous beast with four legs and straight sharp horns, one of which it turns away in combat, just like the yale. | De centicore is een fabeldier. Het heeft vier poten en rechte scherpe hoorns, waarvan het er één wegdraait in gevecht, net als de yale. |
 | centicore-c02 | exact | nl.wikipedia.org | The centicore most resembles a horse (paard), but with a lion's (leeuw) chest, a big round muzzle and ears in its mouth instead of teeth. | De centicore heeft nog het meest weg van een paard, maar met de borst van een leeuw, een grote ronde snuit en oren in zijn bek in plaats van tanden. |
+| centicore-c03 | exact | en.wikipedia.org | The yale or centicore (Latin: eale) is a mythical beast found in European mythology and heraldry. | The yale or centicore (Latin: eale) is a mythical beast found in European mythology and heraldry. |
+| centicore-c04 | exact | en.wikipedia.org | The yale was first written about by Pliny the Elder in Book VIII of his Natural History, who describes the eale as a creature found in Aethiopia. | The yale was first written about by Pliny the Elder in Book VIII of his Natural History. He describes the eale as a creature found in Aethiopia |
+| centicore-c05 | exact | en.wikipedia.org | According to Pliny the eale is the size of the river-horse, has an elephant's tail, is black or tawny, has the jaws of a wild boar, and movable horns more than a cubit long. | it is the size of the river-horse, has the tail of the elephant, and is of a black or tawny colour. It has also the jaws of the wild boar, and horns that are moveable, and more than a cubit in length |
+| centicore-c06 | exact | en.wikipedia.org | The yale later featured in medieval bestiaries and heraldry. | The yale subsequently featured in medieval bestiaries and heraldry. |
 
 
 ## cucuio — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -174,23 +177,21 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | cucuio-c02 | exact | nl.wikipedia.org | People supposedly caught cucuios as a light source that rain or wind would not put out; a few could replace candles or torches. | Mensen zouden de cucuio vangen om als lichtbron te dienen. Een voordeel hiervan, is dat ze niet zullen uitgaan door regen of wind. Een paar van deze dieren kunnen kaarsen of fakkels vervangen. |
 | cucuio-c03 | exact | nl.wikipedia.org | The cucuio is thought related to the ercinee and the alicanto, also fabulous animals, and is probably derived from the firefly (vuurvlieg). | De cucuio zou verwant zijn aan de ercinee en de alicanto, eveneens fabeldieren. De cucuio is waarschijnlijk afgeleid van de vuurvlieg. |
 | cucuio-c04 | exact | nl.wikipedia.org | The luminescence from dead cucuios can be used as luminous paint. | De luminescentie uit dode cucuio's kan als lichtgevende verf gebruikt worden. |
+| cucuio-c05 | exact | nl.wikipedia.org | In the Indies (Indië), people are said to carry them (meedragen) in the dark (in het donker) to light the way (de weg te verlichten). | In Indië zou men ze in het donker meedragen om de weg te verlichten. |
 
 
 ## dainn — lulus-otomatis
 
-Klaim 6 (exact 4, unreachable 2), sumber 3, gambar 0.
-
-**manual**
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dainn-c01 | exact | no.wikipedia.org | In Norse (norrønt) mythology, Dåin (Dáinn), Dvalin, Dunøyr and Duratro are four deer that, per Gylfaginning (Gylvaginning) in the Younger Edda, run about Yggdrasil's branches grazing its foliage. | Dåin, Dvalin, Dunøyr og Duratro (norrønt: Dáinn, Dvalinn, Duneyrr og Duraþrór) er fire hjortedyr som ifølge Gylvaginning i Den yngre Edda løper omkring på greinene til verdenstreet Yggdrasil og beiter i løvverket. |
 | dainn-c02 | exact | no.wikipedia.org | The four stags are also mentioned in Grímnismál (Grimnesmål) in the Elder Edda. | De fire hjortene omtales også i Grimnesmål i Den eldre Edda |
 | dainn-c03 | exact | en.wikipedia.org | In 1824, interpreting their names, Finnur Magnússon took Dáinn ('The Dead One') and Dvalinn ('The Unconscious One') to be calm winds. | Based on an interpretation of their names, he took Dáinn ("The Dead One") and Dvalinn ("The Unconscious One") to be calm winds |
-| dainn-c04 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | In the Younger Edda (Anderson's translation): four stags leap about in the branches of the ash and bite the leaves. | Four stags leap about in the branches of the ash and bite the leaves. |
+| dainn-c04 | exact | www.gutenberg.org | In the Younger Edda (Anderson's translation): four stags leap about in the branches of the ash and bite the leaves. | Four stags leap about in the branches of the ash and bite the leaves. |
 | dainn-c05 | exact | en.wikipedia.org | Finnur Magnússon noted that dwarfs control the winds (cf. Norðri, Suðri, Austri and Vestri), and that two stag names, Dáinn and Dvalinn, are also dwarf names. | He noted that dwarves control the winds (cf. Norðri, Suðri, Austri and Vestri, the dwarves of the cardinal points), and that two of the stag names, Dáinn and Dvalinn, are also dwarf names as well. |
-| dainn-c06 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | The glossary of Anderson's translation: Dain, one of the stags that bite the leaves of Yggdrasil (Ygdrasil). | Dain. One of the stags that bite the leaves of Ygdrasil. |
+| dainn-c06 | exact | www.gutenberg.org | The glossary of Anderson's translation: Dain, one of the stags that bite the leaves of Yggdrasil (Ygdrasil). | Dain. One of the stags that bite the leaves of Ygdrasil. |
 
 
 ## dibulok — lulus-otomatis
@@ -209,10 +210,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## draak-van-india-en-ethiopie — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -221,14 +219,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | draak-van-india-en-ethiopie-c03 | exact | nl.wikipedia.org | The dragon lives deep underground and moving sounds like clanging copper; on stormy evenings four or five hook their tails and fly over the sea; they usually hunt elephants. | De draak leeft diep onder de grond en als hij beweegt, klinkt dit als knallend koper. Op stormachtige avonden haken 4 of 5 draken hun staarten ineen en vliegen uit over de zee. De dieren jagen meestal op olifanten. |
 | draak-van-india-en-ethiopie-c04 | exact | nl.wikipedia.org | According to medieval bestiaries the dragon is Satan (satan) and its mouth a gate to hell. | Volgens middeleeuwse bestiaria is de draak satan en is zijn mond een poort naar de hel. |
 | draak-van-india-en-ethiopie-c05 | exact | nl.wikipedia.org | They sit on a tree or rock waiting for the victim to approach, then coil the tail round its neck and strangle it; sometimes the dead elephant falls and crushes the dragon. | Ze gaan op een boom of rots zitten en wachten tot hun slachtoffer nadert. Dan kronkelt het beest zijn staart om de nek van zijn slachtoffer en verstikt hem. Het komt voor dat als de dode olifant omvalt, hij hierbij de draak verplettert. |
+| draak-van-india-en-ethiopie-c06 | exact | www.theoi.com | Aelian writes that in India the elephant and the drakon (dragon-serpent) are the bitterest enemies. | In India, I am told, the Elephant and the Drakon (Dragon-Serpent) are the bitterest enemies. |
+| draak-van-india-en-ethiopie-c07 | exact | www.theoi.com | According to Aelian, the drakon winds round the elephant's neck, holds onto the tree with the lower part of its body, and strangles the elephant with the upper part. | Next the Drakon winds round the Elephant's neck, and as it clings to the tree with the lower part of its body, it tightens its hold with the upper part and strangles the Elephant with an unusual and singular noose. |
+| draak-van-india-en-ethiopie-c08 | exact | www.theoi.com | According to Philostratus, the mountain dragons of India make a noise like clashing brass when burrowing under the earth, and from their fiery red crests flashes a fire brighter than a torch. | And they give off a noise like the clashing of brass whenever they are burrowing under the earth, and from their crests, which are all fiery red there flashes a fire brighter than a torch. |
+| draak-van-india-en-ethiopie-c09 | exact | www.theoi.com | Aelian calls the land of Aithiopia (Ethiopia) the mother of the very largest drakones, which reach a length of one hundred and eighty feet, and people say they kill elephants. | The land of Aithiopia (Ethiopia)--the place where the gods bathe ... this land, I say, is the mother of the very largest Drakones (Dragon-Serpents). For, you must know, they attain to a length of one hundred and eighty feet, and they are not called by the name of any species, but people say that they kill elephants |
 
 
 ## durnir — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -238,14 +237,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | durnir-c04 | exact | en.wikipedia.org | Snorri also lists Dúrnir among giants in the Skáldskaparmál section of his Prose Edda. | Snorri also includes Dúrnir in a list of giants in the Skáldskaparmál section of his Prose Edda (Faulkes translation, p. 157). |
 | durnir-c05 | exact | en.wikipedia.org | The name Durnir may be an emendation of Durinn, father of the dwarfs in Dvergatal; both mean 'door' or 'door-warden' and do not appear in the same texts. | It is possible that the name Durnir is an emendation of Durinn, mentioned as the father of dwarves in Dvergatal. Both names mean door, or door-warden. The names Durinn and Durnir do not appear in the same texts. |
 | durnir-c06 | exact | en.wikipedia.org | He also appears in a list of dwarves in the anonymous Dverga heiti, and the third poem is found in the Laufás-Edda. | He also appears in a list of Dwarves in the anonymous Dverga heiti |
+| durnir-c07 | exact | heimskringla.no | In the Old Norse text of Þjóðólfr's stanza in Ynglinga saga, the hall-warden of Durnir's kin (Durnis niðja) deceived Svegðir when he ran into the stone after the dwarf (dvergi). | En dagskjarr Durnis niðja salvörðuðr Svegði vélti, þá er í stein hinn stórgeði dulsa konr ept dvergi hljóp |
+| durnir-c08 | exact | heimskringla.no | According to the prose of Ynglinga saga, Svegðir saw a dwarf sitting under a stone; the dwarf stood in the doorway and called him to come in if he wished to meet Odin (Óðin). Svegðir ran into the stone, which at once closed again, and Svegðir never came back. | sá hann til steinsins, at dvergr sat undir steininum. ... Dvergrinn stóð í durum ok kallaði á Sveigði, bað hann þar inn ganga, ef hann vildi Óðin hitta. Svegðir hljóp í steininn; en steinninn laukst þegar aptr, ok kom Svegðir eigi aptr. |
 
 
 ## ecke — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -254,27 +252,32 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ecke-c03 | exact | de.wikipedia.org | Ecke was incited, among other things, by a promise of marriage from three royal maidens to kill Dietrich von Bern. | Ecke wurde u. a. mit einem Eheversprechen von drei königlichen Jungfrauen angestiftet, Dietrich von Bern zu töten. |
 | ecke-c04 | exact | de.wikipedia.org | The duel between Ecke and Dietrich is decided for Dietrich because Ecke, in the heat of battle, comes too close to Dietrich's horse, which kills the giant with a kick; Ecke owned the famous sword Eckesachs and lost it to Dietrich. | Der Zweikampf zwischen Ecke und Dietrich von Bern wird jedoch zugunsten Dietrichs dadurch entschieden, dass Ecke im Eifer des Gefechtes Dietrichs Pferd zu nahe kommt und dieses den Riesen durch einen Huftritt tötet. Ecke besaß das berühmte Schwert Eckesachs und verliert es in diesem Kampf an Dietrich von Bern. |
 | ecke-c05 | exact | de.wikipedia.org | To explain the name of Dietrich's sword, already attested in 12th-century literature, a former owner named Ecke was invented. | Um den Namen von Dietrichs Schwert zu erklären, der schon im 12. Jahrhundert literarisch bezeugt ist, wurde also ein ehemaliger Besitzer mit Namen Ecke erfunden. |
+| ecke-c06 | exact | en.wikipedia.org | The Eckenlied tells of Dietrich's fight against the giant Ecke, who has been sent out by three queens to fetch Dietrich. | The Eckenlied tells the story of Dietrich's fight against the giant Ecke, who has been sent out by three queens to fetch Dietrich. |
+| ecke-c07 | exact | en.wikipedia.org | To encourage Ecke not to kill Dietrich, Seburg gives Ecke a sword and armour hardened in dragon blood. | To encourage Ecke not to kill Dietrich, Seburg gives Ecke a sword and armor hardened in dragon blood. |
+| ecke-c08 | exact | en.wikipedia.org | Because of Ecke's invincible armour, Dietrich is forced to stab the giant dishonourably through a gap in his armour. | Due to Ecke's invincible armor, Dietrich is forced to stab the giant dishonorably through a gap in his armor. |
+| ecke-c09 | exact | en.wikipedia.org | Ecke asks Dietrich to cut off his head and bring it to Seburg, which Dietrich does. | Ecke asks Dietrich to cut off his head and bring it to Seburg, which he does. |
+| ecke-c10 | exact | en.wikipedia.org | The saying 'Ecke ist an den Berner geraten' (Ecke has met the Berner, i.e. Dietrich) means that someone has met their match. | "Ecke ist an den Berner geraten" (Ecke has met the Berner [i.e. Dietrich]), meaning that someone has met their match. |
 
 
 ## einheer — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 7, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | einheer-c01 | exact | de.wikipedia.org | Einheer is a figure of German legend (deutschen Sagengestalt), a Swabian giant (schwäbischen Riesen) said to come from Thurgau; he supposedly lived around Zwickau during the eastward expansion (Ostexpansion) and fought the Wends (Wenden). | Einheer ist der Name einer deutschen Sagengestalt. Es handelt sich dabei um einen schwäbischen Riesen, dessen Heimat im Thurgau liegen soll. Er soll zu Zeiten der Ostexpansion in der Gegend um Zwickau gelebt und gegen die Wenden gekämpft haben. |
 | einheer-c02 | exact | de.wikipedia.org | An Einheer sculpture stands in the 'Schwanenstadt' playground in the Schwanenteich park (Schwanenteichpark), Zwickau (photo 2025). | Einheer-Skulptur auf dem Spielplatz „Schwanenstadt“ auf der Melzerwiese im Schwanenteichpark in Zwickau (2025) |
+| einheer-c03 | exact | de.wikisource.org | According to Deutsche Sagen, in the time of Carl the Great (Charlemagne) there lived a giant and warrior called Einheer, a Swabian. | Zu Zeiten Carls des Großen lebt ein Ries’ und Recke, hieß Einheer, war ein Schwab, bürtig aus |
+| einheer-c04 | exact | de.wikisource.org | Einheer waded through all waters and needed no bridge, dragged his horse along by its tail, and always said: 'Now, comrade, you must come along too!' | der wuthe (wadete) über alle Wasser, dorft (braucht) über keine Brücke gehen, zoge sein Pferd bei dem Schwanz hernach, sagt allzeit: „nun Gesell, du mußt auch hernach!“ |
+| einheer-c05 | exact | de.wikisource.org | In war Einheer mowed people down like grass with a scythe, hung them on his spear and carried them over his shoulders like hares and foxes. | er mähet die Leut, gleich wie das Gras mit einer Sensen, alle nieder, hängt sie an den Spieß, trugs über die Achseln wie Hasen und Füchs |
+| einheer-c06 | exact | de.wikisource.org | The giant is called Einheer because in war he was almost equal to an army (Heer); his enemies, the Wends (Winden) and Huns (Haunen), fled from him, thinking he was the devil. | Diesen Riesen nennt man Einheer, daß (weil) er sich in Kriegen schier einem Heer vergleicht und also viel ausrichtet. Es flohen ihm die Feinde, Winden und Haunen, meinten, es wär der leidige Teufel. |
+| einheer-c07 | loose | de.wikisource.org | According to a later collection, the giant Einheer lived at Zwickau; his real name was Aenotherus, and he was a Swabian born in Thurgau in Switzerland (Schweiz). | lebte zu Zwickau ein Riese, Namens Einheer (eigentlich hieß er Aenotherus), ein Schwabe, gebürtig aus dem Thurgau in der Schweiz. |
+| einheer-c08 | exact | de.wikisource.org | Back from the war, Einheer complained that he had carried seven or eight of the enemy on his spear without knowing what they were 'croaking', and that it was not worth the Emperor's (Kaiser) while to gather so many troops against such 'toads and worms'. | „was soll ich von diesen Fröschleins sagen? ich trug ihrer sieben oder acht an dem Spieße über der Achsel und weiß gar nicht, was sie quacken; es ist der Mühe nicht werth, daß der Kaiser so viel Volk wider diese Kröten und Würmer zusammengebracht hat.“ |
 
 
 ## enerbanske — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -282,14 +285,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | enerbanske-c02 | exact | de.wikipedia.org | They also appear at births and try to swap the children with their own (Wechselbalg); as a countermeasure parents smear the newborn's feet with butter. | Sie erscheinen aber auch bei Geburten und versuchen die Kinder mit ihren eigenen zu vertauschen (siehe Wechselbalg). Als Gegenmaßnahme sollen die Eltern die Füße des neugeborenen Kindes mit Butter bestreichen. |
 | enerbanske-c03 | exact | de.wikipedia.org | The tradition of the Enerbanske as North Frisian (nordfriesische) subterraneans exists under other names on the other North Frisian islands: Onerbäänkin on Amrum, Oterbaankin on Föhr and Önereersken on Sylt. | Die Überlieferung der Enerbanske als nordfriesische Unterirdische findet sich unter abweichenden Begriffen auch auf den anderen nordfriesischen Inseln. Auf Amrum werden diese als Onerbäänkin bezeichnet, auf Föhr als Oterbaankin und auf Sylt als Önereersken. |
 | enerbanske-c04 | exact | de.wikipedia.org | Like many comparable beings, they help with the housework and finish the residents' tasks overnight. | Wie viele andere vergleichbare Wesen helfen sie beim Haushalt und erledigen über Nacht die Arbeiten der Hausbewohner. |
+| enerbanske-c05 | exact | archive.org | According to Müllenhoff, little people live under the earth, mostly in old burial mounds; in Holstein they are called Dwarge or Unnererske, on Silt (Sylt) Onnererske, and on Föhr and Amrum Onnerbänkissen. | Unter der Erde, meiſt in alten Grabhügeln wohnen kleine Leute, die man in Holſtein Dwarge oder Unnererske, auch auf Silt Onnererske, aber auf Föhr und Amrum Onnerbänkiſſen nennt. |
+| enerbanske-c06 | exact | archive.org | The Onnerbänkissen of Amrum dwell especially in the Fögedshoog by the dunes; people have seen them dancing round in the moonlight in the evening and spreading out their washing there by day. | Die Onnerbänkiſſen auf Amrum haben beſonders in dem Fö— gedshoog bei den Dünen ihr Weſen. Da hat man fie Abends im ... Mondenſchein ringsherum tanzen und bei Tage ihre Wäſche darauf ausbreiten ſehen. |
+| enerbanske-c07 | exact | archive.org | In many houses on Amrum an Onnerbänkis lived invisibly; it always had to have a bit of butter in its porridge and must not be forgotten at any meal. | In vielen Häuſern auf Amrum hat ſich ein Onnerbänkis unſichtbar aufgehalten. Es muſte immer ein Stücklein Butter im Brei haben und durfte bei keiner Mahlzeit vergeſſen werden. |
+| enerbanske-c08 | exact | archive.org | When the mother was out, the cradle rocked by itself; that was the Onnerbänkis. | Wenn die Mutter aus war, wiegte die Wiege von ſelbſt; das that das Onnerbänkis. |
 
 
 ## entenwick — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -301,6 +305,9 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 | entenwick-c06 | exact | de.wikipedia.org | Zimmern Chronicle: not only did the castle burn, but the ancient family died out within a few years. | sonder auch das uralt geschlecht ist in wenig jaren abgestorben, welches doch bei unsern vorfarn in hochem ansehen gewesen |
 | entenwick-c07 | exact | de.wikipedia.org | He repeated every prayer said before him, the Creed and the Lord's Prayer too, except the words 'lead us not into temptation, but deliver us from evil', which he would not say. | Alle gebett, was man ime vorgesprochen, das hat er nachgesagt, auch den glauben und das vatterunser, ohne die wort, und füer uns nit in böse versuchung, sondern erlös uns von allem übel!' die hat er geschwigen und nit sagen wellen. |
 | entenwick-c08 | exact | de.wikipedia.org | The arm had long spikes at the elbow and all along, the fingers pointed and ghastly, the colour frightful, mixed with blue (ploe), blood-red and yellow specks. | Der war mit langen spitzen am ellenbogen und duch auß, die finger aber an der handt auch spitzig und greulich und die farb so erschrockenlich, mit ploe und blutfarb und gelen spreckln also vermischt |
+| entenwick-c09 | exact | de.wikisource.org | Things he carried were seen moving through the air without anyone visible carrying them, and no one was ever able to grasp him. | Solchs hat man im luft sehen daher geen und niemands, der das getragen, sehen künden. Keiner hat ine nie greifen künden. |
+| entenwick-c10 | exact | de.wikisource.org | Entenwick let it be known that as long as he was at Sachsenhaim, the family would never lose its honour and wealth. | bemelter Entenwick vernemen lassen, aldieweil er zu Sachsenhaim, so werde das geschlecht an ehren und guet nimmer zerrinnen |
+| entenwick-c11 | exact | de.wikisource.org | Shortly afterwards Sachsenhaim castle burned to the ground, and everyone blamed Entenwick. | In kürze hernach ist das schloß Sachsenhaim uf den grund ußbronnen, in dem doch menigclich dem Entenwick die schuldt gegeben. |
 
 
 ## fanfreluche — skip
@@ -316,31 +323,33 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## father-raven — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | father-raven-c01 | exact | sv.wikipedia.org | Father Raven (Fader korp) or Tulungersaq is a central mythological figure for the Inuit of Alaska (Alaskas inuiter) and many neighbouring peoples; yet Inuit mythology has no general creator figure. | Fader korp eller Tulungersaq är hos Alaskas inuiter, samt hos många angränsande folkgrupper, en mytologiskt centralgestalt. Inuiternas mytologi har dock ingen allmän skapargestalt. |
+| father-raven-c02 | exact | archive.org | The creation of the earth and everything upon it is credited to the Raven Father, who is said to have come from the sky and made the earth when everything was covered with water. | The creation of the earth and everything upon it is credited to the Raven Father ... who is said to have come from the sky and made the earth when everything was covered with water. |
+| father-raven-c03 | exact | archive.org | He kept the form of a raven and changed into a man at will by pushing up his beak. | he retained the form of a raven and changed to a man at will by pushing up his beak. |
+| father-raven-c04 | exact | archive.org | The raven's part in the creation legend is believed by the Eskimo from the Kusko-kwim river northward to Bering Strait and well around the Arctic coast. | is believed by the Eskimo from Kusko- kwim river northward to Bering strait and well around on the Arctic coast. |
+| father-raven-c05 | exact | archive.org | The Eskimo about Norton Sound place pieces of dried fish or other food on the tundra as offerings to the Raven Father in the sky, who in return gives them fine weather. | that the Eskimo about Norton sound place fragments of dried fish or other food in different places on the tundra as offerings to the Eaven Father in the sky; in return for which he gives them fine weather. |
+| father-raven-c06 | exact | archive.org | The Unalit say that killing a raven will make the Raven Father very angry and send bad weather. | The Unalit say that to kill a raven will cause the Eaven Father to become very angry and to send bad weather |
+| father-raven-c07 | exact | archive.org | The first man made on earth returned to the sky land, where the shades of shamans and of people who died a violent death also go; the Raven Father is believed still to live there. | The tirst man made on the earth returned to the sky land, where the shades of shamans and people who are recompensed for a violent death also go; the Eaven Father is believed still to live there. |
 
 
 ## freki — lulus-otomatis
 
-Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | freki-c01 | exact | no.wikipedia.org | In Norse (norrøne) mythology Gere (Geri) and Freke (Freki) are Odin's two wolves; their names mean 'the greedy one' and 'the ravenous one'. | Gere og Freke er i den norrøne mytologien Odins to ulver. Navnene betyr "den grådige" og "den glupske". |
 | freki-c02 | exact | no.wikipedia.org | The wolves get all the food served to Odin in Valhalla (Valhall), since he lives on wine alone; Odin sends them out into the world to fetch news for him. | Ulvene får all mat som Odin serveres i Valhall, siden han lever av vin alene. Odin sender dem ut i verden for å hente nytt til ham. |
-| freki-c03 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | In the Younger Edda (Anderson's translation), Ganglere asks whether Odin eats the same food as the einherjes; Har answers that the food placed on his table he gives to his two wolves, Gere and Freke; he needs no food himself, wine being both food and drink to him. | Ganglere asked: Does Odin have the same kind of food as the einherjes? Har answered: The food that is placed on his table he gives to his two wolves, which hight Gere and Freke. He needs no food himself. Wine is to him both food and drink |
+| freki-c03 | exact | www.gutenberg.org | In the Younger Edda (Anderson's translation), Ganglere asks whether Odin eats the same food as the einherjes; Har answers that the food placed on his table he gives to his two wolves, Gere and Freke; he needs no food himself, wine being both food and drink to him. | Ganglere asked: Does Odin have the same kind of food as the einherjes? Har answered: The food that is placed on his table he gives to his two wolves, which hight Gere and Freke. He needs no food himself. Wine is to him both food and drink |
 | freki-c04 | exact | no.wikipedia.org | The Norse god Odin sits on the throne Hliðskjálf (Lidskjalv) with the wolves Gere and Freke and the ravens Huginn (Hugin) and Muninn (Munin). | Den norrøne guden Odin sitter på trona Lidskjalv med ulvene Gere og Freke og ravnene Hugin og Munin. |
 | freki-c05 | exact | no.wikipedia.org | The wolves are named in Grímnismál (Grimnismål). | De nevnes i Grimnismål («Grimnnes tale»): |
+| freki-c06 | exact | en.wikipedia.org | Freki is also a name applied to the monstrous wolf Fenrir in the Poetic Edda poem Völuspá. | Freki is also a name applied to the monstrous wolf Fenrir in the Poetic Edda poem Völuspá. |
+| freki-c07 | exact | en.wikipedia.org | Freki is used in a kenning for 'carrion' ('Freki's meal') in a work by Þórðr Sjáreksson in chapter 58 of Skáldskaparmál. | Freki is also used in a kenning for "carrion" ("Freki's meal") in a work by Þórðr Sjáreksson in chapter 58 of Skáldskaparmál. |
+| freki-c08 | exact | en.wikipedia.org | The name Freki can be traced back to the Proto-Germanic adjective *frekaz. | The name Freki can be traced back to the Proto-Germanic adjective *frekaz |
 
 
 ## gajendra — lulus-otomatis
@@ -381,17 +390,16 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 
 ## geri — lulus-otomatis
 
-Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | geri-c01 | exact | no.wikipedia.org | In Norse (norrøne) mythology Gere (Geri) and Freke (Freki) are Odin's two wolves; their names mean 'the greedy one' and 'the ravenous one'. | Gere og Freke er i den norrøne mytologien Odins to ulver. Navnene betyr "den grådige" og "den glupske". |
 | geri-c02 | exact | no.wikipedia.org | The wolves get all the food served to Odin in Valhalla (Valhall), since he lives on wine alone; Odin sends them out into the world to fetch news for him. | Ulvene får all mat som Odin serveres i Valhall, siden han lever av vin alene. Odin sender dem ut i verden for å hente nytt til ham. |
-| geri-c03 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | In the Younger Edda (Anderson's translation), Ganglere asks whether Odin eats the same food as the einherjes; Har answers that the food placed on his table he gives to his two wolves, Gere and Freke; he needs no food himself, wine being both food and drink to him. | Ganglere asked: Does Odin have the same kind of food as the einherjes? Har answered: The food that is placed on his table he gives to his two wolves, which hight Gere and Freke. He needs no food himself. Wine is to him both food and drink |
+| geri-c03 | exact | www.gutenberg.org | In the Younger Edda (Anderson's translation), Ganglere asks whether Odin eats the same food as the einherjes; Har answers that the food placed on his table he gives to his two wolves, Gere and Freke; he needs no food himself, wine being both food and drink to him. | Ganglere asked: Does Odin have the same kind of food as the einherjes? Har answered: The food that is placed on his table he gives to his two wolves, which hight Gere and Freke. He needs no food himself. Wine is to him both food and drink |
 | geri-c04 | exact | no.wikipedia.org | The Norse god Odin sits on the throne Hliðskjálf (Lidskjalv) with the wolves Gere and Freke and the ravens Huginn (Hugin) and Muninn (Munin). | Den norrøne guden Odin sitter på trona Lidskjalv med ulvene Gere og Freke og ravnene Hugin og Munin. |
 | geri-c05 | exact | no.wikipedia.org | The wolves are named in Grímnismál (Grimnismål). | De nevnes i Grimnismål («Grimnnes tale»): |
 
@@ -436,11 +444,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## harpyia — lulus-otomatis
 
-Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -448,7 +455,7 @@ Klaim 5 (exact 4, unreachable 1), sumber 2, gambar 0.
 | harpyia-c02 | exact | de.wikipedia.org | Actaeon (Aktaion) was a mythical hunter who accidentally surprised the goddess Artemis (Diana) bathing; she turned him into a stag, which was then torn apart by his own hounds, Harpyia among them. | Aktaion war ein mythologischer Jäger, der eines Tages unabsichtlich die Göttin Artemis (bzw. deren römische Entsprechung, Diana) beim Bade überraschte. Diese verwandelte ihn daraufhin in einen Hirsch, der dann von seinen eigenen Jagdhunden, darunter Harpyia, zerfleischt wurde. |
 | harpyia-c03 | exact | de.wikipedia.org | Harpyia is named in three versions of the Actaeon legend: by Aeschylus (Aischylos), Ovid and Hyginus; per Ovid's Metamorphoses two of her sons accompanied her. | Harpyia wird in drei Versionen der Sage des Aktaion erwähnt: bei Aischylos, Ovid und Hyginus. Laut Ovids Metamorphosen begleiteten sie zwei ihrer Söhne. |
 | harpyia-c04 | exact | de.wikipedia.org | Harpyia's name may be inspired by the harpies (Harpyien), bird-hybrid beings that often killed people in Greek mythology. | Der Name der Harpyia mag von den Harpyien inspiriert sein, Vogelmischwesen, die in der griechischen Mythologie häufig Menschen töteten. |
-| harpyia-c05 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | The notes to Riley's translation of the Metamorphoses (verse 215) gloss Harpyia as 'Ravener', from the Greek word for a harpy. | Ver. 215. ‘Ravener.’ From the Greek word |
+| harpyia-c05 | exact | www.gutenberg.org | The notes to Riley's translation of the Metamorphoses (verse 215) gloss Harpyia as 'Ravener', from the Greek word for a harpy. | Ver. 215. ‘Ravener.’ From the Greek word |
 
 
 ## heimchen — lulus-otomatis
