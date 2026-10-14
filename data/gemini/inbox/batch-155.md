@@ -3342,3 +3342,568 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-155",
+  "slug": "buto-ijo",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-14",
+  "identity": {
+    "canonical_name": "Buto Ijo",
+    "native_name": null,
+    "display_name": {
+      "id": "Buto Ijo",
+      "en": "Buto Ijo"
+    },
+    "wikidata_qid": null,
+    "claim_ids": [
+      "buto-ijo-c01",
+      "buto-ijo-c02",
+      "buto-ijo-c12"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Buta Ijo",
+      "language": "jv",
+      "name_type": "alias",
+      "claim_ids": [
+        "buto-ijo-c02"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "raksasa",
+    "claim_ids": [
+      "buto-ijo-c01",
+      "buto-ijo-c12"
+    ]
+  },
+  "classification": {
+    "value": "giant",
+    "claim_ids": [
+      "buto-ijo-c01",
+      "buto-ijo-c12"
+    ]
+  },
+  "culture": {
+    "value": "indonesian-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "buto-ijo-c01"
+    ]
+  },
+  "region": {
+    "value": "southeast-asia",
+    "claim_ids": [
+      "buto-ijo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "buto-ijo-c01",
+      "buto-ijo-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "giant",
+      "claim_ids": [
+        "buto-ijo-c12",
+        "buto-ijo-c13"
+      ]
+    },
+    {
+      "value": "supernatural-strength",
+      "claim_ids": [
+        "buto-ijo-c12"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Buto Ijo adalah raksasa hijau dalam dongeng Jawa Timun Mas, yang memberi biji mentimun ajaib dengan syarat anak yang lahir darinya diserahkan untuk dimakan, lalu tewas tenggelam saat mengejarnya.",
+    "en": "Buto Ijo is the green giant of the Javanese folktale Timun Mas, who gives a magic cucumber seed on condition that the child born of it be handed over to be eaten, and drowns while chasing her.",
+    "claim_ids": [
+      "buto-ijo-c01",
+      "buto-ijo-c03",
+      "buto-ijo-c08",
+      "buto-ijo-c12"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Buto Ijo, atau Buta Ijo yang dalam bahasa Jawa berarti raksasa hijau, adalah tokoh jahat dalam dongeng Jawa Timun Mas. Ia diceritakan bertubuh tinggi, besar, dan hijau, dengan kekuatan yang sangat besar, dan ingin menangkap serta memakan sang gadis.",
+      "en": "Buto Ijo, or Buta Ijo, Javanese for green giant, is the villain of the Javanese folktale Timun Mas. He is told as tall, big and green, with tremendous strength, and he wants to catch and eat the girl.",
+      "claim_ids": [
+        "buto-ijo-c01",
+        "buto-ijo-c02",
+        "buto-ijo-c12",
+        "buto-ijo-c13"
+      ]
+    },
+    {
+      "id": "Kisahnya berawal dari sebuah perjanjian. Dalam satu versi, Buta Ijo menyuruh seorang janda, Mbok Srini, menanam biji mentimun agar mendapat anak; dalam versi lain ia memberi biji ajaib kepada sepasang petani tua. Syaratnya sama: anak yang lahir dari mentimun emas itu harus diserahkan kepadanya untuk dimakan, menurut satu versi saat berusia 17 tahun.",
+      "en": "The story begins with a pact. In one version Buta Ijo tells a widow, Mbok Srini, to plant a cucumber seed to have a child; in another he gives a magic seed to an elderly farming couple. The condition is the same: the child born of the golden cucumber must be handed over for him to eat, at 17 in one version.",
+      "claim_ids": [
+        "buto-ijo-c03",
+        "buto-ijo-c09",
+        "buto-ijo-c10"
+      ]
+    },
+    {
+      "id": "Ketika ia datang menagih dan mengejar Timun Mas, raksasa yang murka itu menghancurkan gubuk Mbok Srini. Bekal-bekal yang dilemparkan sang gadis berubah menjadi sulur mentimun yang mengikatnya, hutan bambu tajam yang melukainya, dan lautan yang ia seberangi dengan berenang. Akhirnya terasi berubah menjadi lautan lumpur mendidih, atau dalam versi lain bara api, dan Buto Ijo tenggelam di dalamnya.",
+      "en": "When he comes to collect and chases Timun Mas, the furious giant destroys Mbok Srini's shack. The things the girl throws become a cucumber vine that binds him, a sharp bamboo forest that wounds him and a sea he swims across. At last the terasi becomes a sea of boiling mud, or embers in another version, and Buto Ijo drowns in it.",
+      "claim_ids": [
+        "buto-ijo-c04",
+        "buto-ijo-c05",
+        "buto-ijo-c06",
+        "buto-ijo-c07",
+        "buto-ijo-c08",
+        "buto-ijo-c14"
+      ]
+    },
+    {
+      "id": "Cerita ini dibaca sebagai peringatan tentang bahaya berjanji dengan makhluk jahat atau mengambil jalan pintas. Dalam iklan Marjan, Buto Ijo justru diberi akhir bahagia dengan merayakan Lebaran bersama keluarga Timun Mas.",
+      "en": "The tale is read as a warning against making promises to evil beings or taking shortcuts. A Marjan advertisement instead gives Buto Ijo a happy ending, celebrating Lebaran with Timun Mas's family.",
+      "claim_ids": [
+        "buto-ijo-c11",
+        "buto-ijo-c15"
+      ]
+    }
+  ],
+  "cultural_context": {
+    "id": "Kisah Buto Ijo dibaca sebagai peringatan tentang bahaya membuat janji dengan makhluk jahat atau mengambil jalan pintas untuk mencapai keinginan.",
+    "en": "The Buto Ijo story is read as a warning about making promises to evil beings or taking shortcuts to one's wishes.",
+    "claim_ids": [
+      "buto-ijo-c11"
+    ]
+  },
+  "etymology": {
+    "original_form": "Buta Ijo",
+    "language": "Jawa / Javanese",
+    "literal_meaning": {
+      "id": "raksasa hijau",
+      "en": "green giant"
+    },
+    "claim_ids": [
+      "buto-ijo-c02"
+    ]
+  },
+  "story_mode": {
+    "who": {
+      "id": "Raksasa hijau yang sangat kuat.",
+      "en": "A tremendously strong green giant.",
+      "claim_ids": [
+        "buto-ijo-c12",
+        "buto-ijo-c13"
+      ]
+    },
+    "origin": {
+      "id": "Dongeng Jawa Timun Mas.",
+      "en": "The Javanese folktale Timun Mas.",
+      "claim_ids": [
+        "buto-ijo-c01"
+      ]
+    },
+    "role": {
+      "id": "Pemberi biji mentimun yang menagih anak untuk dimakan.",
+      "en": "Giver of the cucumber seed who claims the child to eat.",
+      "claim_ids": [
+        "buto-ijo-c03",
+        "buto-ijo-c10"
+      ]
+    },
+    "famous_for": {
+      "id": "Dikalahkan bekal-bekal ajaib Timun Mas dan tenggelam dalam lautan terasi.",
+      "en": "Being beaten by Timun Mas's magic gifts and drowning in the sea of terasi.",
+      "claim_ids": [
+        "buto-ijo-c05",
+        "buto-ijo-c06",
+        "buto-ijo-c07",
+        "buto-ijo-c08"
+      ]
+    }
+  },
+  "did_you_know": {
+    "id": "Dalam sebuah iklan Marjan, Buto Ijo tidak tenggelam, melainkan merayakan Lebaran bersama keluarga Timun Mas.",
+    "en": "In a Marjan advertisement Buto Ijo does not drown but celebrates Lebaran with Timun Mas's family.",
+    "claim_ids": [
+      "buto-ijo-c15"
+    ]
+  },
+  "abilities": [
+    {
+      "ability_id": "supernatural-strength",
+      "name": {
+        "id": "Kekuatan besar",
+        "en": "Great strength"
+      },
+      "description": {
+        "id": "Ia diceritakan memiliki kekuatan besar dan bisa lepas dari sulur mentimun serta menyeberangi lautan.",
+        "en": "He is told as hugely strong, breaking free of the cucumber vine and swimming across the sea."
+      },
+      "claim_ids": [
+        "buto-ijo-c07",
+        "buto-ijo-c12"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "name": {
+        "id": "Bekal ajaib Timun Mas",
+        "en": "Timun Mas's magic gifts"
+      },
+      "description": {
+        "id": "Biji mentimun, jarum, garam, dan terasi yang dilempar Timun Mas menghambat lalu menenggelamkannya.",
+        "en": "The cucumber seeds, needles, salt and terasi Timun Mas throws hold him back and finally drown him."
+      },
+      "claim_ids": [
+        "buto-ijo-c05",
+        "buto-ijo-c06",
+        "buto-ijo-c07",
+        "buto-ijo-c08"
+      ]
+    }
+  ],
+  "variants": [],
+  "stories": [
+    {
+      "title": {
+        "id": "Timun Mas",
+        "en": "Timun Mas"
+      },
+      "role": {
+        "id": "Raksasa yang menagih janji dan mengejar sang gadis.",
+        "en": "The giant who claims his due and chases the girl."
+      },
+      "summary": {
+        "id": "Buto Ijo memberi biji mentimun dengan syarat anaknya diserahkan untuk dimakan. Saat mengejar Timun Mas, ia dihambat sulur mentimun, hutan bambu, dan lautan, lalu tenggelam dalam lautan yang tercipta dari terasi.",
+        "en": "Buto Ijo gives a cucumber seed on condition the child be given to him to eat. Chasing Timun Mas, he is held back by a cucumber vine, a bamboo forest and a sea, then drowns in the sea made from terasi."
+      },
+      "claim_ids": [
+        "buto-ijo-c03",
+        "buto-ijo-c05",
+        "buto-ijo-c06",
+        "buto-ijo-c07",
+        "buto-ijo-c08"
+      ]
+    }
+  ],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [
+    {
+      "title": "Iklan Marjan versi Timun Mas dan Buto Ijo",
+      "year": null,
+      "medium": "other",
+      "description": {
+        "id": "Iklan yang memberi Buto Ijo akhir bahagia merayakan Lebaran bersama keluarga Timun Mas.",
+        "en": "An advertisement giving Buto Ijo a happy ending, celebrating Lebaran with Timun Mas's family."
+      },
+      "claim_ids": [
+        "buto-ijo-c15"
+      ]
+    }
+  ],
+  "tradition_vs_modern": {
+    "traditional": {
+      "id": "Dalam cerita rakyat, Buto Ijo mati tenggelam dalam lautan terasi yang menjadi bara api.",
+      "en": "In the folktale Buto Ijo drowns in a sea of terasi turned to embers."
+    },
+    "modern": {
+      "id": "Dalam iklan Marjan ia bergabung dengan keluarga Timun Mas merayakan Lebaran.",
+      "en": "In the Marjan advertisement he joins Timun Mas's family to celebrate Lebaran."
+    },
+    "claim_ids": [
+      "buto-ijo-c14",
+      "buto-ijo-c15"
+    ]
+  },
+  "learning_questions": [
+    {
+      "id": "Mengapa dongeng sering menghukum tokoh yang membuat perjanjian dengan makhluk jahat?",
+      "en": "Why do folktales often punish those who make pacts with evil beings?"
+    },
+    {
+      "id": "Apa yang berubah ketika tokoh dongeng dipakai dalam iklan?",
+      "en": "What changes when a folktale character is used in advertising?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "buto-ijo-s1",
+      "url": "https://en.wikipedia.org/wiki/Timun_Mas",
+      "title": "Timun Mas",
+      "author": null,
+      "publisher": "Wikipedia (en)",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "buto-ijo-s2",
+      "url": "https://id.wikipedia.org/wiki/Timun_Mas",
+      "title": "Timun Mas",
+      "author": null,
+      "publisher": "Wikipedia (id)",
+      "published": null,
+      "language": "id",
+      "type": "wikipedia",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "buto-ijo-s3",
+      "url": "https://journal.unnes.ac.id/sju/sutasoma/article/download/42836/19566",
+      "title": "Analisis Intertekstual Timun Mas dan Buto Ijo pada Iklan Marjan dan Cerita Rakyat Indonesia",
+      "author": "Ade Husnul Mawadah; Ade Anggraini Kartika Devi",
+      "publisher": "Sutasoma: Jurnal Sastra Jawa (Universitas Negeri Semarang)",
+      "published": "2021",
+      "language": "id",
+      "type": "journal-article",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "claims": [
+    {
+      "id": "buto-ijo-c01",
+      "source_id": "buto-ijo-s1",
+      "quote": "is a Javanese folktale telling the story of a brave girl who tries to escape from an evil green giant that tries to catch and eat her.",
+      "locator": "Lead",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Timun Mas adalah dongeng Jawa (Javanese) tentang gadis pemberani yang berusaha lolos dari raksasa hijau jahat yang hendak menangkap dan memakannya.",
+        "en": "Timun Mas is a Javanese folktale about a brave girl trying to escape an evil green giant who wants to catch and eat her."
+      }
+    },
+    {
+      "id": "buto-ijo-c02",
+      "source_id": "buto-ijo-s1",
+      "quote": "a green-skinned giant named Buta Ijo (Javanese for \"Green Giant\") appeared behind her.",
+      "locator": "Summary",
+      "context": "etymology",
+      "statement": {
+        "id": "Raksasa berkulit hijau itu bernama Buta Ijo, yang dalam bahasa Jawa berarti raksasa hijau (Green Giant).",
+        "en": "The green-skinned giant is named Buta Ijo, Javanese for Green Giant."
+      }
+    },
+    {
+      "id": "buto-ijo-c03",
+      "source_id": "buto-ijo-s1",
+      "quote": "The Buta Ijo told her to plant the cucumber seed and that she would have a child to nurture. However, when the child had grown up, Mbok Srini had to return the child to Buta Ijo to be devoured.",
+      "locator": "Summary",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Buta Ijo menyuruh Mbok Srini menanam biji mentimun agar mendapat anak, dengan syarat anak itu dikembalikan kepadanya untuk dimakan setelah dewasa.",
+        "en": "Buta Ijo told Mbok Srini to plant a cucumber seed to have a child, on condition that the grown child be returned to him to be devoured."
+      }
+    },
+    {
+      "id": "buto-ijo-c04",
+      "source_id": "buto-ijo-s1",
+      "quote": "The green-skinned giant was furious and destroyed Mbok Srini's shack while chasing Timun Mas.",
+      "locator": "Summary",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Raksasa hijau itu murka dan menghancurkan gubuk Mbok Srini sambil mengejar Timun Mas.",
+        "en": "The furious green giant destroyed Mbok Srini's shack while chasing Timun Mas."
+      }
+    },
+    {
+      "id": "buto-ijo-c05",
+      "source_id": "buto-ijo-s1",
+      "quote": "Suddenly, a large cucumber vine appeared and bound the giant's body, trapping it so he could not move.",
+      "locator": "Summary",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Biji mentimun yang ditaburkan menjadi sulur besar yang mengikat tubuh raksasa sampai ia tak bisa bergerak.",
+        "en": "The scattered cucumber seeds became a great vine that bound the giant so he could not move."
+      }
+    },
+    {
+      "id": "buto-ijo-c06",
+      "source_id": "buto-ijo-s1",
+      "quote": "The needles transformed into a bamboo forest. The sharp bamboos wounded the giant badly.",
+      "locator": "Summary",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Jarum-jarum menjadi hutan bambu yang tajam dan melukai raksasa dengan parah.",
+        "en": "The needles became a sharp bamboo forest that badly wounded the giant."
+      }
+    },
+    {
+      "id": "buto-ijo-c07",
+      "source_id": "buto-ijo-s1",
+      "quote": "Timun Mas then opened her third bag and spread salt behind her. Suddenly, a vast sea appeared, drowning the evil giant. Buta Ijo swam across the sea and continued the chase.",
+      "locator": "Summary",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Garam yang ditaburkan menjadi lautan luas, tetapi Buta Ijo berenang menyeberanginya dan terus mengejar.",
+        "en": "The salt became a vast sea, but Buta Ijo swam across it and kept up the chase."
+      }
+    },
+    {
+      "id": "buto-ijo-c08",
+      "source_id": "buto-ijo-s1",
+      "quote": "The terasi transformed into a sea of boiling mud. Sinking under the boiling mud, Buto Ijo drowned in the mud.",
+      "locator": "Summary",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Terasi berubah menjadi lautan lumpur mendidih, dan Buto Ijo tenggelam di dalamnya.",
+        "en": "The terasi (shrimp paste) became a sea of boiling mud, in which Buto Ijo sank and drowned."
+      }
+    },
+    {
+      "id": "buto-ijo-c09",
+      "source_id": "buto-ijo-s2",
+      "quote": "Mereka kemudian bertemu dengan seorang raksasa (sering disebut Buto Ijo) yang memberikan mereka biji mentimun ajaib.",
+      "locator": "Perjanjian dengan Raksasa",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam versi ini, sepasang suami-istri petani tua bertemu raksasa yang sering disebut Buto Ijo dan diberi biji mentimun ajaib.",
+        "en": "In this version, an elderly farming couple meet a giant often called Buto Ijo, who gives them a magic cucumber seed."
+      }
+    },
+    {
+      "id": "buto-ijo-c10",
+      "source_id": "buto-ijo-s2",
+      "quote": "Raksasa tersebut berjanji bahwa dari biji itu akan lahir seorang anak, tetapi dengan syarat: saat anak tersebut berusia 17 tahun, ia harus diserahkan kembali kepada raksasa untuk dimakan.",
+      "locator": "Perjanjian dengan Raksasa",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Raksasa itu berjanji dari biji tersebut akan lahir anak, dengan syarat anak itu diserahkan kepadanya untuk dimakan saat berusia 17 tahun.",
+        "en": "The giant promised a child would come from the seed, on condition that at 17 the child be handed back to him to be eaten."
+      }
+    },
+    {
+      "id": "buto-ijo-c11",
+      "source_id": "buto-ijo-s2",
+      "quote": "Konsep Perjanjian: Cerita ini menjadi peringatan tentang bahaya membuat janji dengan entitas jahat atau mengambil jalan pintas dalam mencapai keinginan.",
+      "locator": "Analisis budaya",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Cerita ini dibaca sebagai peringatan tentang bahaya berjanji dengan makhluk jahat atau mengambil jalan pintas.",
+        "en": "The story is read as a warning against making promises to evil beings or taking shortcuts to one's wishes."
+      }
+    },
+    {
+      "id": "buto-ijo-c12",
+      "source_id": "buto-ijo-s3",
+      "quote": "Buto Ijo, sesuai dengan namanya diceritakan sebagai tokoh raksasa bertubuh hijau yang memiliki kekuatan besar.",
+      "locator": "Abstrak",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sesuai namanya, Buto Ijo diceritakan sebagai raksasa bertubuh hijau yang sangat kuat.",
+        "en": "As his name says, Buto Ijo is told as a green-bodied giant of great strength."
+      }
+    },
+    {
+      "id": "buto-ijo-c13",
+      "source_id": "buto-ijo-s3",
+      "quote": "Persamaannya adalah Buto Ijo bertubuh tinggi, besar, dan berwarna hijau.",
+      "locator": "Abstrak",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam iklan maupun cerita rakyat, Buto Ijo bertubuh tinggi, besar, dan berwarna hijau.",
+        "en": "In both the advertisement and the folktale, Buto Ijo is tall, big and green."
+      }
+    },
+    {
+      "id": "buto-ijo-c14",
+      "source_id": "buto-ijo-s3",
+      "quote": "Sementara pada cerita rakyat, Buto Ijo memiliki akhir yang tragis. Buto Ijo meninggal dunia karena tenggelam dalam lautan terasi yang berubah jadi bara api di lautan.",
+      "locator": "Abstrak",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat, akhir Buto Ijo tragis: ia mati tenggelam dalam lautan terasi yang berubah menjadi bara api.",
+        "en": "In the folktale Buto Ijo's end is tragic: he drowns in a sea of terasi that has turned into embers."
+      }
+    },
+    {
+      "id": "buto-ijo-c15",
+      "source_id": "buto-ijo-s3",
+      "quote": "Pada iklan, Buto Ijo memiliki akhir yang bahagia dengan bergabung bersama keluarga Timun Mas untuk merayakan Lebaran.",
+      "locator": "Abstrak",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Dalam iklan Marjan, Buto Ijo justru berakhir bahagia dengan merayakan Lebaran bersama keluarga Timun Mas.",
+        "en": "In the Marjan advertisement Buto Ijo instead ends happily, celebrating Lebaran with Timun Mas's family."
+      }
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": {
+        "id": "Penerima biji mentimun",
+        "en": "Who receives the cucumber seed"
+      },
+      "positions": [
+        {
+          "summary": {
+            "id": "Seorang janda bernama Mbok Srini.",
+            "en": "A widow named Mbok Srini."
+          },
+          "claim_ids": [
+            "buto-ijo-c03"
+          ]
+        },
+        {
+          "summary": {
+            "id": "Sepasang suami-istri petani tua.",
+            "en": "An elderly farming couple."
+          },
+          "claim_ids": [
+            "buto-ijo-c09"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": {
+        "id": "Akhir hidup Buto Ijo",
+        "en": "Buto Ijo's end"
+      },
+      "positions": [
+        {
+          "summary": {
+            "id": "Tenggelam dalam lautan lumpur mendidih.",
+            "en": "Drowns in a sea of boiling mud."
+          },
+          "claim_ids": [
+            "buto-ijo-c08"
+          ]
+        },
+        {
+          "summary": {
+            "id": "Tenggelam dalam lautan terasi yang menjadi bara api.",
+            "en": "Drowns in a sea of terasi turned to embers."
+          },
+          "claim_ids": [
+            "buto-ijo-c14"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "identity.wikidata_qid",
+      "searched": "Prompt batch tidak memberi QID; tidak ada artikel Wikipedia tersendiri untuk Buto Ijo (id 'Buto Ijo' dan jv 'Buta Ijo' tidak ada), sehingga riset bertumpu pada artikel Timun Mas."
+    },
+    {
+      "field": "images",
+      "searched": "Pencarian Commons 'Buto Ijo' dan 'Buta Ijo' tidak menemukan gambar terkait; 'Timun Mas' hanya menemukan foto buku cerita modern tahun 2018, bukan karya tradisional."
+    }
+  ]
+}
+```
+

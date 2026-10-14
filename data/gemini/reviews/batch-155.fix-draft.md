@@ -5,4 +5,4 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
 ## Belum dikirim
-Kerjakan juga: gilgamesh, enkidu, kemamang, jerangkong, hantu-kopek, parakang, buto-ijo, lampor.
+Kerjakan juga: gilgamesh, enkidu, kemamang, jerangkong, hantu-kopek, parakang, lampor.

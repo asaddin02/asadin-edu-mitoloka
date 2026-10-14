@@ -1,8 +1,8 @@
 # Review batch-155
 
-Diperiksa 2026-10-14T05:12:30.521Z. Berkas: batch-155.md.
+Diperiksa 2026-10-14T05:18:15.233Z. Berkas: batch-155.md.
 
-**Belum dikirim:** gilgamesh, enkidu, kemamang, jerangkong, hantu-kopek, parakang, buto-ijo, lampor
+**Belum dikirim:** gilgamesh, enkidu, kemamang, jerangkong, hantu-kopek, parakang, lampor
 
 ## nyi-blorong — lulus-otomatis
 
@@ -185,4 +185,27 @@ Klaim 16 (exact 16), sumber 4, gambar 0.
 | palasik-c14 | exact | al-qanatir.com | In Nagari Parik the belief in the palasik is held by the old and the young, and wearing dasun or jerangau serves as spiritual prevention. | In Nagari Parik, Koto Balingka District, West Pasaman, the belief in Palasik is not only held by the elderly, but also by the younger generation. Symbolic practices such as wearing dasun or jerangau are used as spiritual preventive measures. |
 | palasik-c15 | exact | ejournal.iainkerinci.ac.id | Many people believe a dead child's grave must be given a lamp because it is still at risk from the palasik. | Bahkan dalam hal lain, banyak masyarakat percaya anak yang sudah meninggal pun harus diberi lampu di pekuburan atau makamnya karena masih rentan dalam incaran palasik. |
 | palasik-c16 | exact | ejournal.iainkerinci.ac.id | According to residents, without a light the palasik will eat the buried child's corpse. | Menurut warga jika tidak diberi penerangan maka palasik akan memakan mayat si anak yang siudah dimakamkan tersebut |
+
+
+## buto-ijo — lulus-otomatis
+
+Klaim 15 (exact 15), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| buto-ijo-c01 | exact | en.wikipedia.org | Timun Mas is a Javanese folktale about a brave girl trying to escape an evil green giant who wants to catch and eat her. | is a Javanese folktale telling the story of a brave girl who tries to escape from an evil green giant that tries to catch and eat her. |
+| buto-ijo-c02 | exact | en.wikipedia.org | The green-skinned giant is named Buta Ijo, Javanese for Green Giant. | a green-skinned giant named Buta Ijo (Javanese for "Green Giant") appeared behind her. |
+| buto-ijo-c03 | exact | en.wikipedia.org | Buta Ijo told Mbok Srini to plant a cucumber seed to have a child, on condition that the grown child be returned to him to be devoured. | The Buta Ijo told her to plant the cucumber seed and that she would have a child to nurture. However, when the child had grown up, Mbok Srini had to return the child to Buta Ijo to be devoured. |
+| buto-ijo-c04 | exact | en.wikipedia.org | The furious green giant destroyed Mbok Srini's shack while chasing Timun Mas. | The green-skinned giant was furious and destroyed Mbok Srini's shack while chasing Timun Mas. |
+| buto-ijo-c05 | exact | en.wikipedia.org | The scattered cucumber seeds became a great vine that bound the giant so he could not move. | Suddenly, a large cucumber vine appeared and bound the giant's body, trapping it so he could not move. |
+| buto-ijo-c06 | exact | en.wikipedia.org | The needles became a sharp bamboo forest that badly wounded the giant. | The needles transformed into a bamboo forest. The sharp bamboos wounded the giant badly. |
+| buto-ijo-c07 | exact | en.wikipedia.org | The salt became a vast sea, but Buta Ijo swam across it and kept up the chase. | Timun Mas then opened her third bag and spread salt behind her. Suddenly, a vast sea appeared, drowning the evil giant. Buta Ijo swam across the sea and continued the chase. |
+| buto-ijo-c08 | exact | en.wikipedia.org | The terasi (shrimp paste) became a sea of boiling mud, in which Buto Ijo sank and drowned. | The terasi transformed into a sea of boiling mud. Sinking under the boiling mud, Buto Ijo drowned in the mud. |
+| buto-ijo-c09 | exact | id.wikipedia.org | In this version, an elderly farming couple meet a giant often called Buto Ijo, who gives them a magic cucumber seed. | Mereka kemudian bertemu dengan seorang raksasa (sering disebut Buto Ijo) yang memberikan mereka biji mentimun ajaib. |
+| buto-ijo-c10 | exact | id.wikipedia.org | The giant promised a child would come from the seed, on condition that at 17 the child be handed back to him to be eaten. | Raksasa tersebut berjanji bahwa dari biji itu akan lahir seorang anak, tetapi dengan syarat: saat anak tersebut berusia 17 tahun, ia harus diserahkan kembali kepada raksasa untuk dimakan. |
+| buto-ijo-c11 | exact | id.wikipedia.org | The story is read as a warning against making promises to evil beings or taking shortcuts to one's wishes. | Konsep Perjanjian: Cerita ini menjadi peringatan tentang bahaya membuat janji dengan entitas jahat atau mengambil jalan pintas dalam mencapai keinginan. |
+| buto-ijo-c12 | exact | journal.unnes.ac.id | As his name says, Buto Ijo is told as a green-bodied giant of great strength. | Buto Ijo, sesuai dengan namanya diceritakan sebagai tokoh raksasa bertubuh hijau yang memiliki kekuatan besar. |
+| buto-ijo-c13 | exact | journal.unnes.ac.id | In both the advertisement and the folktale, Buto Ijo is tall, big and green. | Persamaannya adalah Buto Ijo bertubuh tinggi, besar, dan berwarna hijau. |
+| buto-ijo-c14 | exact | journal.unnes.ac.id | In the folktale Buto Ijo's end is tragic: he drowns in a sea of terasi that has turned into embers. | Sementara pada cerita rakyat, Buto Ijo memiliki akhir yang tragis. Buto Ijo meninggal dunia karena tenggelam dalam lautan terasi yang berubah jadi bara api di lautan. |
+| buto-ijo-c15 | exact | journal.unnes.ac.id | In the Marjan advertisement Buto Ijo instead ends happily, celebrating Lebaran with Timun Mas's family. | Pada iklan, Buto Ijo memiliki akhir yang bahagia dengan bergabung bersama keluarga Timun Mas untuk merayakan Lebaran. |
 
