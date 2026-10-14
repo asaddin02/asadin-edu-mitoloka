@@ -1,12 +1,14 @@
 {
   "batch_id": "batch-071",
-  "checked_at": "2026-10-13T19:51:19.760Z",
+  "checked_at": "2026-10-14T02:28:33.705Z",
   "files": [
     "batch-071.md",
     "batch-071-fix-1.md",
     "batch-071-fix-2.md",
     "batch-071-fix-3.md",
-    "batch-071-fix-4.md"
+    "batch-071-fix-4.md",
+    "batch-071-fix-5.md",
+    "batch-071-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2591,20 +2593,15 @@
     },
     {
       "slug": "wd-q22101025",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "2fd30a549e65a6704e812e896b715c14c3eb71b06c3754988343fa7f81c4c77d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22101025-c01",
@@ -2665,18 +2662,68 @@
           "quote": "中國傳說中的神獸，屬虬螭類，牛頭，身上有龍鱗。《宸垣識略》記載：「西內海子中有斗牛，即虬螭之類，遇陰雨作雲霧，常蜿蜒道旁，及金鰲玉蝀坊之上」。明朝有斗牛紋的賜服。中國傳統建築上的脊獸，斗牛是其中之一。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22101025-c07",
+          "source_id": "wd-q22101025-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Juan 67 of the Mingshi (明史) records that in the second year of Tianshun (天順) the clothing of officials and commoners was forbidden to use the douniu (斗牛) motif, together with the python-dragon (蟒龍) and flying-fish (飛魚) motifs.",
+          "statement_id": "Mingshi (明史) juan 67 mencatat bahwa pada tahun kedua Tianshun (天順) pakaian pejabat dan rakyat dilarang memakai motif douniu (斗牛), bersama motif naga-ular (蟒龍) dan ikan terbang (飛魚).",
+          "quote": "天順二年，定官民衣服不得用蟒龍、飛魚、斗牛、大鵬、像生獅子、四寶相花、大西番蓮、大雲花樣",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101025-c08",
+          "source_id": "wd-q22101025-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Mingshi, in the thirteenth year, when the imperial carriage returned to the capital, officials were granted red silk with motifs by rank: douniu for the first rank, flying fish for the second, and python-dragon (蟒) for the third.",
+          "statement_id": "Menurut Mingshi, pada tahun ketiga belas, ketika kereta kaisar kembali ke ibu kota, para pejabat dianugerahi kain sutra merah dengan motif sesuai pangkat: pangkat pertama douniu, pangkat kedua ikan terbang, pangkat ketiga ular naga (蟒).",
+          "quote": "十三年，車駕還京，傳旨，俾迎候者用曳撒大帽、鸞帶。尋賜羣臣大紅紵絲羅紗各一。其服色，一品斗牛，二品飛魚，三品蟒",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101025-c09",
+          "source_id": "wd-q22101025-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Mingshi also records a ruling of the Ministry of Rites (禮部) that civil and military officials were not allowed to use the douniu motif without authorisation.",
+          "statement_id": "Mingshi juga mencatat ketetapan Kementerian Ritus (禮部) bahwa pejabat sipil dan militer tidak boleh memakai motif douniu tanpa izin.",
+          "quote": "於是禮部奏定，文武官不許擅用蟒衣、飛魚、斗牛、違禁華異服色。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101025-c10",
+          "source_id": "wd-q22101025-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the seventeenth year, the emperor told the grand secretary Liu Jian (劉健) that the douniu motif was prohibited from the start and must not be woven privately.",
+          "statement_id": "Pada tahun ketujuh belas, kaisar berkata kepada menteri Liu Jian (劉健) bahwa motif douniu sejak awal termasuk yang dilarang dan tidak boleh ditenun secara pribadi.",
+          "quote": "十七年，諭閣臣劉健曰：「內臣僭妄尤多。」因言服色所宜禁，曰：「蟒、龍、飛魚、斗牛，本在所禁，不合私織。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101025-c11",
+          "source_id": "wd-q22101025-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Juan 3 of the Minggong Shi (明宫史) states that among palace eunuchs the douniu badge (補) ranked just below the seated python-dragon (坐蟒) badge worn by the top officials of the Sili Jian (司禮監).",
+          "statement_id": "Minggong Shi (明宫史) juan 3 menyebut bahwa di kalangan kasim istana, lencana (補) motif douniu berada setingkat di bawah lencana ular naga duduk (坐蟒) yang dipakai pejabat tertinggi Sili Jian (司禮監).",
+          "quote": "圓領襯襬 與外廷同各按品級凡司禮監掌印秉筆及乾清宫管事與有勞者其補皆得坐蟒次則斗牛及都知監有牙牌者鸚哥雜禽補 官帽",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "32e6d5638722cc5250a3313253273bbb65bb3f45ea8bb00a7575033dc2b5e1a0"
+      "images": []
     },
     {
       "slug": "wd-q22101134",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "826284fa98d1edfb700f46fcbba9e7f21f9d43b12f31f562d0f9ed4bd801ea9b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2707,7 +2754,7 @@
           "host": "zh.wikisource.org",
           "statement": "The primary text describes patterned arms and leopard and tiger features.",
           "statement_id": "Teks primer menyebut lengan bercorak serta ciri macan tutul dan harimau.",
-          "quote": "《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻",
+          "quote": "食之宜子孫。有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父〈或作夸父。〉",
           "context": "historical-record",
           "status": "exact"
         },
@@ -2717,7 +2764,7 @@
           "host": "zh.wikisource.org",
           "statement": "Jufu is described as skilled at throwing.",
           "statement_id": "Jufu disebut pandai melempar.",
-          "quote": "《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻",
+          "quote": "食之宜子孫。有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父〈或作夸父。〉",
           "context": "historical-record",
           "status": "exact"
         },
@@ -2727,7 +2774,7 @@
           "host": "zh.wikisource.org",
           "statement": "Chongwu is the first mountain in the third western section and lies south of the river.",
           "statement_id": "Chongwu adalah gunung pertama dalam bagian barat ketiga dan berada di selatan sungai besar.",
-          "quote": "《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻",
+          "quote": "《西次三經》之首，曰崇吾之山，在河之南，北望冢遂〈山名。〉，南望䍃〈音遥。〉之澤",
           "context": "historical-record",
           "status": "exact"
         },
@@ -2737,13 +2784,52 @@
           "host": "zh.wikisource.org",
           "statement": "The same mountain account also includes the one winged and one eyed Manman bird that flies in pairs.",
           "statement_id": "Uraian gunung yang sama juga memuat burung Manman bersayap dan bermata satu yang terbang berpasangan.",
-          "quote": "《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻",
+          "quote": "有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻〈比翼鳥也，色青赤",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101134-c07",
+          "source_id": "wd-q22101134-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The note under this name in the Shan Hai Jing text states that the name is also written Kuafu (夸父).",
+          "statement_id": "Catatan dalam teks Shan Hai Jing di bawah nama ini menyebut bahwa nama tersebut juga ditulis Kuafu (夸父).",
+          "quote": "食之宜子孫。有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父〈或作夸父。〉",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101134-c08",
+          "source_id": "wd-q22101134-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Shan Hai Jing Guangzhu (山海經廣注), the commentator Renchen (任臣) notes that the characters of the phrase 'leopard tiger' (豹虎) in the Jufu description are erroneous.",
+          "statement_id": "Dalam Shan Hai Jing Guangzhu (山海經廣注), komentator Renchen (任臣) mencatat bahwa aksara pada frasa 'macan tutul harimau' (豹虎) dalam uraian Jufu keliru.",
+          "quote": "食之宜子孫有獸焉其狀如禺而文臂豹虎〈任臣案字有誤〉而善投名曰舉父",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101134-c09",
+          "source_id": "wd-q22101134-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The same commentary, citing the Bencao (本草), identifies the Jufu with the ju (豦) of the Jianping (建平) mountains, which throws stones at people, says there is also a juefu (玃父) of the same kind, and quotes the Jianxiu Fu (蹇修賦) by a writer surnamed Xu (徐) that mentions the Jufu (舉父).",
+          "statement_id": "Komentar yang sama, mengutip Bencao (本草), menyamakan Jufu dengan hewan ju (豦) dari pegunungan Jianping (建平) yang suka melempar batu ke orang, menyebut ada pula juefu (玃父) yang sejenis, dan mengutip syair Jianxiu Fu (蹇修賦) karya seorang bermarga Xu (徐) yang menyebut Jufu (舉父).",
+          "quote": "而善投名曰舉父〈郭曰或作夸父　任臣案本草豦音㨿建平山有之大如狗狀如猴黄黑色多髯鬛好奮頭舉石擲人即舉父也又有玃父亦豦𩔖徐氏蹇修賦云慜舉父之不量兮鷲九鳥使安居〉",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101134-c10",
+          "source_id": "wd-q22101134-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu (本草綱目) identifies the Jufu with the ju (豦), which according to Guo Pu (郭璞) lives in the Jianping (建平) mountains, is the size of a dog, resembles a monkey, is yellowish-black, heavily whiskered, and likes to toss its head and throw stones at people; its quotation of the Xi Shan Jing speaks of long arms (長臂).",
+          "statement_id": "Bencao Gangmu (本草綱目) menyamakan Jufu dengan hewan ju (豦), yang menurut Guo Pu (郭璞) hidup di pegunungan Jianping (建平), sebesar anjing, mirip kera, berwarna kuning kehitaman, berjanggut lebat, dan suka mengibaskan kepala sambil melempar batu ke orang; kutipannya atas Xi Shan Jing menyebut lengan panjang (長臂).",
+          "quote": "按郭璞云︰建平山中有之。大如狗，狀如猴，黃黑色，多髯鬣。好奮頭舉石擲人。《西山經》云︰崇吾之山有獸焉，狀如禺而長臂善投，名曰舉父。即此也。",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9a5a601937657ff5ae4f023c015f88958d6cfc6b42f166f892089ba5bf3f739a"
+      "images": []
     },
     {
       "slug": "wd-q22101290",
@@ -2767,20 +2853,15 @@
     },
     {
       "slug": "wd-q9382976",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "85ea89269bae083349e08dddbb65ebb7179a66c77ef092b8e37e20ee1ff47403",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9382976-c01",
@@ -2841,27 +2922,51 @@
           "quote": "《尔雅.释鱼》里三足鳖别称“能”，束皙《发蒙记》三足鳖另别称“熊”",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9382976-c07",
+          "source_id": "wd-q9382976-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Zhong Shan Jing places the three-legged softshell turtle (三足鼈) in the Cong water (從水), which emerges on top of Mount Cong (從山) and sinks underground at its foot; the animal has a forked tail, and eating it prevents gu sickness (蠱疾).",
+          "statement_id": "Zhong Shan Jing menempatkan labi-labi berkaki tiga (三足鼈) di Sungai Cong (從水), yang keluar di puncak Gunung Cong (從山) dan menghilang ke bawah tanah di kakinya; hewan itu berekor bercabang dan memakannya mencegah penyakit gu (蠱疾).",
+          "quote": "又東南三十五里，曰從山，其上多松柏，其下多竹。從水出于其上，潛于其下，其中多三足鼈，枝尾，食之無蠱疾。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9382976-c08",
+          "source_id": "wd-q9382976-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Shan Hai Jing Guangzhu (山海經廣注), Guo (郭) calls the three-legged turtle neng (能) after the Erya (爾雅), and Renchen (任臣) quotes the Erya Yi (爾雅翼) that a pool on Mount Jun (君山) in Yangxian county (陽羨縣) produces three-legged turtles, which are a kind of their own.",
+          "statement_id": "Dalam Shan Hai Jing Guangzhu (山海經廣注), Guo (郭) menyebut labi-labi berkaki tiga sebagai neng (能) menurut Erya (爾雅), dan Renchen (任臣) mengutip Erya Yi (爾雅翼) bahwa sebuah kolam di Gunung Jun (君山), Kabupaten Yangxian (陽羨縣), menghasilkan labi-labi berkaki tiga yang merupakan jenis tersendiri.",
+          "quote": "其中多三足鼈枝尾〈郭曰三足鼈者能見爾雅　任臣案羅良願爾雅翼云能鼈之三足者今陽羨縣君山有池出三足鼈葢自是一種",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9382976-c09",
+          "source_id": "wd-q9382976-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Renchen notes that according to the Gengsi Bian (庚巳編) a man of Taicang (太倉) cooked and ate a three-legged turtle and his body turned into bloody water; Su Song (蘇頌) says eating it kills, while Li Shizhen (李時珍) says some have eaten it by mistake without harm; since the views differ, both are recorded. He also cites the Jiang Fu (江賦) of Jingchun (景純), which mentions a three-legged turtle.",
+          "statement_id": "Renchen mencatat bahwa menurut Gengsi Bian (庚巳編), seorang warga Taicang (太倉) memasak dan memakan labi-labi berkaki tiga lalu tubuhnya berubah menjadi air darah; Su Song (蘇頌) berkata memakannya membunuh, sedangkan Li Shizhen (李時珍) menyebut ada yang memakannya tanpa sengaja dan tidak apa-apa; karena pendapat berbeda, keduanya dicatat. Ia juga menyebut Jiang Fu (江賦) karya Jingchun (景純) yang menyebut labi-labi berkaki tiga.",
+          "quote": "景純江賦云有鼈三足有龜六眸又白澤圗載一足龞池精名𩬊頊更異也〉食之無蠱疫〈任臣案庚巳編太倉民得三足鼈烹食畢形化為血水蘇頌云三足鼈食之殺人經謂食之無蠱疫而李時珍亦云近有誤食無恙者說都不同兩記之",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1420917f9651978fb04b9a984903f85260fb57032719b89277245c8885734f85"
+      "images": []
     },
     {
       "slug": "wd-q9384676",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "046fafdc3f974f16889b652225966263ecea761424de0cd553d327ea840d8059",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9384676-c01",
@@ -2892,10 +2997,59 @@
           "quote": "丹鱼是传说中的鱼。出入有赤光环绕。用其血涂在脚上可步行在水上。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9384676-c04",
+          "source_id": "wd-q9384676-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Baopuzi (抱朴子), in a method for obtaining 'hidden cinnabar' (伏丹法), says that all rivers named Dan (丹), such as the Dan river of Nanyang (南陽), contain danyu (丹魚).",
+          "statement_id": "Baopuzi (抱朴子), dalam uraian cara memperoleh 'cinnabar tersembunyi' (伏丹法), menyebut bahwa semua sungai yang bernama Dan (丹), seperti Sungai Dan di Nanyang (南陽), memiliki ikan danyu (丹魚).",
+          "quote": "又有取伏丹法云，天下諸水，有名丹者，有南陽之丹水之屬也，其中皆有丹魚，",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9384676-c05",
+          "source_id": "wd-q9384676-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Baopuzi, the fish is awaited at night ten days before the summer solstice (夏至), when it is sure to float at the water's edge with red light shining upward, blazing like fire, and is then caught with a net.",
+          "statement_id": "Menurut Baopuzi, ikan ini ditunggu pada malam sepuluh hari sebelum titik balik musim panas (夏至), ketika ia pasti mengapung di tepi air dengan cahaya merah memancar ke atas, menyala seperti api, lalu ditangkap dengan jaring.",
+          "quote": "當先夏至十日夜伺之，丹魚必浮於水側，赤光上照，赫然如火也，網而取之可得之，",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9384676-c06",
+          "source_id": "wd-q9384676-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Baopuzi advises not taking them all even when many are caught; its blood is smeared on the soles so that a person can walk on water and dwell long in the depths.",
+          "statement_id": "Baopuzi menganjurkan agar ikan ini tidak diambil semuanya walaupun tertangkap banyak; darahnya dioleskan ke telapak kaki agar orang dapat berjalan di atas air dan lama tinggal di dalam lubuk.",
+          "quote": "得之雖多，勿盡取也，割其血，塗足下，則可步行水上，長居淵中矣。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9384676-c07",
+          "source_id": "wd-q9384676-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Yiyu Tuzan Jian (異魚圖賛箋) contains a eulogy saying that the danyu's appearance ten days before the summer solstice never misses its date (其期不爽), and notes that the Shuyi (述異) says the Dan river issues from below Mount Longchao (龍巢山), while the Fengtu Ji (風土記) places it in Neixiang county (内鄉縣).",
+          "statement_id": "Yiyu Tuzan Jian (異魚圖賛箋) memuat bait pujian bahwa waktu kemunculan danyu sepuluh hari sebelum titik balik musim panas tidak pernah meleset (其期不爽), dan mencatat bahwa Shuyi (述異) menyebut Sungai Dan keluar dari kaki Gunung Longchao (龍巢山), sedangkan Fengtu Ji (風土記) menempatkannya di Kabupaten Neixiang (内鄉縣).",
+          "quote": "丹水丹魚出于南陽以夜伺之浮水有光夏至十日其期不爽取血塗足水上可行〈抱朴子〉 抱朴子南陽丹水出丹魚常先夏至十日夜伺之魚浮于水赤光上照赫然如火網取之割其血以塗足可歩行水上如履平地按述異所載同但云丹水出龍巢山下風土記亦同云丹水在内鄉縣",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9384676-c08",
+          "source_id": "wd-q9384676-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Huanyu Ji (太平寰宇記) quotes the Sui Tujing (隋圖經) that the Dan river of Fengzhou (豐州) produces danyu, which are netted when they float glowing red before the summer solstice, and whose blood lets a person walk on water.",
+          "statement_id": "Taiping Huanyu Ji (太平寰宇記) mengutip Sui Tujing (隋圖經) bahwa Sungai Dan di Fengzhou (豐州) menghasilkan danyu, yang ditangkap dengan jaring saat mengapung bercahaya merah sebelum titik balik musim panas, dan darahnya memungkinkan orang berjalan di atas air.",
+          "quote": "又東經龍巢山下　丹水隋圖經云豐州丹水出丹魚先夏至前十日夜伺之浮水有赤光上照如火以網取之割其血以塗足可步行水上廢豐縣西二百四十里元〈闕〉",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "01325fd6d6c64a23a47d3fb6b230ce96646afa3ae8bdab8228e2e90d28b9788a"
+      "images": []
     },
     {
       "slug": "wd-q9428574",
@@ -3014,20 +3168,15 @@
     },
     {
       "slug": "wd-q9433134",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "a8b75f14713e6602e4d734ba97ed2b804ce8f247a1cf0be169c05022285a42fa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9433134-c01",
@@ -3088,27 +3237,71 @@
           "quote": "有冰蠶長七寸，黑色，有角有麟，以霜雪覆之，然後作繭，長一尺，其色五彩，織爲文錦，入水不濡，以之投火，經宿不燎。唐堯之世，海人獻之，堯以爲黼黻。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9433134-c07",
+          "source_id": "wd-q9433134-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Bingcan Fu (冰蠶賦) by Wang Qi (王起) of the Tang (唐), this precious silkworm lives in the ice of the bitterly cold far north, does not eat mulberry leaves (柔桑), and is not kept in a dark room.",
+          "statement_id": "Dalam Bingcan Fu (冰蠶賦) karya Wang Qi (王起) dari masa Tang (唐), ulat sutra berharga ini tinggal di dalam es di wilayah kutub utara yang sangat dingin, tidak memakan daun murbei (柔桑), dan tidak dipelihara di ruang gelap.",
+          "quote": "懿北極之寒勁，有珍蠶之處冰。非柔桑之是食，非幽室之是憑。托彼峨峨，且不資於春煦；",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9433134-c08",
+          "source_id": "wd-q9433134-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same poem depicts it spinning fine thread from behind layers of ice, and that red and green thread is used to make the embroidery of ceremonial robes (黼黻).",
+          "statement_id": "Syair yang sama menggambarkannya memintal benang tipis dari balik lapisan es, dan benang merah-hijau itu dipakai untuk membuat sulaman pakaian upacara (黼黻).",
+          "quote": "觀夫如臨如履，經之營之。隔皚皚之積冰，吐漠漠之輕絲。朱綠曳而愈出，黼黻成而是資。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9433134-c09",
+          "source_id": "wd-q9433134-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Hairen Xian Bingcan Fu (海人獻冰蠶賦) by Zhang Liangqi (張良器) says the people of Yuanjiao (圓嶠), a distant land beside the remotest sea, present the ice silkworm as tribute.",
+          "statement_id": "Hairen Xian Bingcan Fu (海人獻冰蠶賦) karya Zhang Liangqi (張良器) menyebut orang-orang Yuanjiao (圓嶠), negeri jauh di tepi laut terpencil, mempersembahkan bingcan sebagai upeti.",
+          "quote": "圓嶠之人兮，回踴遐壤，旁臨窮海。嘉冰蠶之底貢，彰遠人之無怠。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9433134-c10",
+          "source_id": "wd-q9433134-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to that poem, the ice silkworm is reared out of the usual season, completes its growth only in the depth of winter, and cannot be raised in the central lands (中國).",
+          "statement_id": "Menurut syair itu, bingcan dibesarkan di luar musim biasa, baru selesai tumbuh pada puncak musim dingin, dan tidak dapat dipelihara di negeri tengah (中國).",
+          "quote": "懿乎生乃因地，育乃非時。四氣平分，屆嚴冬而成止；五方異俗，在中國之莫為。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9433134-c11",
+          "source_id": "wd-q9433134-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The poem Yuanjiao Xiansheng (員嶠先生) by Xu Ning (徐凝) depicts an elder from Yuanjiao (員嶠) who wishes to present five-coloured ice-silkworm thread to the ruler of Taotang (陶唐).",
+          "statement_id": "Puisi Yuanjiao Xiansheng (員嶠先生) karya Xu Ning (徐凝) menggambarkan seorang tua dari Yuanjiao (員嶠) yang ingin mempersembahkan benang lima warna dari bingcan kepada penguasa Taotang (陶唐).",
+          "quote": "員嶠先生無白髮，海煙深處採青芝。 逢人借問陶唐主，欲進冰蠶五色絲。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c90c27da2e3d707d12d42b84f9cd21f48549e43847001acb042d7e70ec599280"
+      "images": []
     },
     {
       "slug": "wd-q9441475",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "4ef2b8ed2090775f457c66cd89aab7d85659b6d3a127adf3d9de3fa02a0e72be",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9441475-c01",
@@ -3116,7 +3309,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Daolaogui is a supernatural creature in the Soushen Ji that roams the mountains of Linchuan, Jiangxi.",
           "statement_id": "Daolaogui adalah makhluk gaib dalam Soushen Ji yang berkeliaran di pegunungan Linchuan, Jiangxi.",
-          "quote": "刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。",
+          "quote": "刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3126,7 +3319,7 @@
           "host": "zh.wikipedia.org",
           "statement": "It is said to arrive with storms and heavy rain.",
           "statement_id": "Ia dikatakan datang bersama badai dan hujan deras.",
-          "quote": "刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。",
+          "quote": "刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3136,7 +3329,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The creature makes a long sound resembling a howl.",
           "statement_id": "Makhluk itu mengeluarkan suara panjang menyerupai lolongan.",
-          "quote": "刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。",
+          "quote": "刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3169,27 +3362,61 @@
           "quote": "原文：“临川间诸山有妖物，来常因大风雨，有声如啸，能射人，其所着者，有顷，便肿，大毒。有雌雄：雄急，而雌缓；急者不过半日间，缓者经宿。其旁人常有以救之，救之少迟，则死。俗名曰“刀劳鬼”。 ”",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9441475-c07",
+          "source_id": "wd-q9441475-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "According to the Wikipedia summary, a person struck by it swells and dies in less than a day, and the dead person, if not cremated (火化), will also become a daolaogui.",
+          "statement_id": "Menurut ringkasan Wikipedia, orang yang terkena tembakannya membengkak dan meninggal dalam waktu kurang dari sehari, dan orang yang mati itu, jika tidak dikremasi (火化), juga akan menjadi daolaogui.",
+          "quote": "被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9441475-c08",
+          "source_id": "wd-q9441475-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Soushen Ji (搜神記), after naming the daolaogui (刀勞鬼), the author quotes the 'outer books' (外書) that ghosts and spirits are the visible signs of fortune and misfortune in the world.",
+          "statement_id": "Dalam Soushen Ji (搜神記), setelah menyebut nama daolaogui (刀勞鬼), penulis mengutip 'kitab luar' (外書) bahwa hantu dan dewa adalah tanda nyata keberuntungan dan kemalangan di dunia.",
+          "quote": "俗名曰「刀勞鬼。」故外書云：「鬼神者，其禍福發揚之驗於世者也。」",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9441475-c09",
+          "source_id": "wd-q9441475-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same passage closes with the view that the living are governed by yang (陽) and the dead by yin (陰), and that strange beings (怪物) exist within the great yin (太陰).",
+          "statement_id": "Bagian yang sama ditutup dengan pandangan bahwa yang hidup dikuasai yang (陽) dan yang mati dikuasai yin (陰), dan bahwa di dalam yin agung (太陰) terdapat makhluk-makhluk aneh (怪物).",
+          "quote": "生者主陽，死者主陰，性之所托，各安其生，太陰之中，怪物存焉。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9441475-c10",
+          "source_id": "wd-q9441475-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Fayuan Zhulin (法苑珠林) carries a version of this account that calls the creature a 'demon' (妖魅) of the mountain counties (諸山縣) of Linchuan (臨川), and describes the struck spot as 'like a hoof' (如蹄) and swelling with severe poison.",
+          "statement_id": "Fayuan Zhulin (法苑珠林) memuat versi kisah ini yang menyebut makhluknya 'siluman' (妖魅) dari kabupaten-kabupaten pegunungan (諸山縣) di Linchuan (臨川), dan bagian tubuh yang terkena digambarkan 'seperti kuku hewan' (如蹄) serta membengkak dengan racun hebat.",
+          "quote": "臨川間。諸山縣有妖魅來。常因大風雨有聲如嘯能射人。其所著者如蹄頭腫大毒有雌雄。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "78c15b41543e3fbe8213fa393f6fc6801a6ef4cf5994b00bb83d7a9ab2809e44"
+      "images": []
     },
     {
       "slug": "wd-q9547028",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "14c489a3327ee7fb84d1f848b5ce07dc96a3eea78bcf0d176b0f44aafa3297cd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9547028-c01",
@@ -3230,27 +3457,71 @@
           "quote": "却尘犀又叫辟尘犀、駭雞犀、辟水犀、光明犀，是中國古代传说中一種海獸，據說從未有人見過。它的樣貌很像犀牛，他的角可以避却尘埃。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9547028-c05",
+          "source_id": "wd-q9547028-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shuyi Ji (述異記) calls the quechenxi (却塵犀) a sea beast (海獸) whose horn repels dust: when the horn is placed at a seat, dust does not enter.",
+          "statement_id": "Shuyi Ji (述異記) menyebut quechenxi (却塵犀) sebagai hewan laut (海獸) yang tanduknya menolak debu: bila tanduk itu diletakkan di tempat duduk, debu tidak masuk.",
+          "quote": "其水所經之處物皆漬為石 却塵犀海獸也然其角辟塵致之於座塵埃不入羊山上有燃石其色黄而文理疎以水沃之便如煎沸其上可炊烹稍冷即復以水沃之 䝟貐獸中最大者龍頭馬尾虎爪長四百尺",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547028-c06",
+          "source_id": "wd-q9547028-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji (太平廣記), quoting the Lingbiao Yilu (嶺表異錄), names the haijixi (駭雞犀), at the sight of which chickens scatter, and the bichenxi (辟塵犀), which, made into women's hairpins and combs, keeps dust from settling.",
+          "statement_id": "Taiping Guangji (太平廣記), mengutip Lingbiao Yilu (嶺表異錄), menyebut haijixi (駭雞犀) yang membuat ayam berhamburan bila melihatnya, dan bichenxi (辟塵犀) yang bila dijadikan tusuk konde dan sisir perempuan membuat debu tidak menempel.",
+          "quote": "又有駭雞犀。〈（群雞見之驚散）〉。辟塵犀〈（為婦人簪梳，塵不著也）〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547028-c07",
+          "source_id": "wd-q9547028-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The same source describes the bishuixi (辟水犀): when this rhinoceros walks in the sea the water parts for it, and placed in mist it does not get wet.",
+          "statement_id": "Sumber yang sama menyebut bishuixi (辟水犀): bila badak ini berjalan di laut, air terbelah baginya, dan bila ditaruh di dalam kabut ia tidak basah.",
+          "quote": "辟水犀、〈（雲此犀行於海水為之開，置於霧之中不濕矣，「置」原作「色」，據明抄本改）〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547028-c08",
+          "source_id": "wd-q9547028-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji closes the list by saying the guangmingxi gives light in a dark room, and that these rhinoceroses are known only from accounts and cannot be seen.",
+          "statement_id": "Taiping Guangji menutup daftar itu dengan menyebut guangmingxi bercahaya di ruang gelap, dan bahwa badak-badak ini hanya dikenal dari cerita dan tidak dapat dilihat.",
+          "quote": "〈（處於暗室則有光明）〉。此數犀但聞其說，即不可得而見也。〈（出《嶺表異錄》）〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547028-c09",
+          "source_id": "wd-q9547028-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Gujin Hebi Shilei Beiyao (古今合璧事類備要), citing the Bencao (本草), tells that according to Li Zongyi (李宗易), Shi Baoji (石保吉) sat downwind whenever the old buildings of the Chenzhou (陳州) offices were demolished, and the dust parted by itself because he wore a dust-repelling rhinoceros belt (服帶辟塵).",
+          "statement_id": "Gujin Hebi Shilei Beiyao (古今合璧事類備要), mengutip Bencao (本草), menceritakan bahwa menurut Li Zongyi (李宗易), Shi Baoji (石保吉) duduk di arah bawah angin setiap kali bangunan tua kantor Chenzhou (陳州) dibongkar, dan debu menyingkir dengan sendirinya karena ia memakai sabuk badak penolak debu (服帶辟塵).",
+          "quote": "梳塵不着髮嶺表錄異〉服帶辟塵〈李司封宗易嘗言石駙馬保吉知陳州其州廨一皆新之每毁舊屋則坐於下風塵自分去人皆驚怪蓋其所丨丨丨丨犀也本草〉",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "72d406232d44240f9485c47bf5ed6e25591a810a0dc3048dc910bedfd599921e"
+      "images": []
     },
     {
       "slug": "wd-q9547118",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "049bba026bfb3f74ccf9a4281e5e4b1c7b30f96292c4fff45342c01eaa66a58b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9547118-c01",
@@ -3291,10 +3562,59 @@
           "quote": "却火雀，为传说中的鸟名。其状如燕，能灭火，放在火中，火就会散去。记载在《杜阳杂编》卷上。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9547118-c05",
+          "source_id": "wd-q9547118-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the middle juan (卷中) of the Duyang Zabian (杜陽雜編), the kingdom of Jumi (拘弭國) presents a pair of quehuoque (却火雀), male and female, together with a water-walking pearl, everlasting ice, and a day-changing grass, in the year Emperor Shunzong (順宗) took the throne.",
+          "statement_id": "Dalam juan tengah (卷中) Duyang Zabian (杜陽雜編), negeri Jumi (拘弭國) mempersembahkan sepasang quehuoque (却火雀), jantan dan betina, bersama mutiara pejalan air, es abadi, dan rumput pengubah siang pada tahun Kaisar Shunzong (順宗) naik takhta.",
+          "quote": "卷中 順宗皇帝即位歲，拘弭國貢却火雀一雄一雌、履水珠、常堅冰、變晝草。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547118-c06",
+          "source_id": "wd-q9547118-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Duyang Zabian describes the bird as pure black, the size of a swallow, with a clear voice unlike ordinary birds, and when placed in fire, the fire disperses by itself.",
+          "statement_id": "Duyang Zabian menggambarkan burung ini hitam legam, sebesar burung layang-layang, bersuara jernih, tidak seperti burung biasa, dan bila diletakkan di dalam api, api itu menyingkir dengan sendirinya.",
+          "quote": "其却火雀純黑，大小似燕，其聲清，殆不類尋常禽鳥，置於火中，火自散去。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547118-c07",
+          "source_id": "wd-q9547118-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The emperor admired its strangeness and kept it in a crystal cage (水精籠) hung in his sleeping hall; at night palace women burned it with candles, but its feathers were never harmed.",
+          "statement_id": "Kaisar mengagumi keanehannya dan menaruhnya dalam sangkar kristal (水精籠) yang digantung di balairung tidur; pada malam hari para dayang membakarnya dengan lilin, tetapi bulunya tidak pernah rusak.",
+          "quote": "上嘉其異，遂盛於水精籠，懸於寢殿。夜則宮人持蠟炬以燒之，終不能損其毛羽。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547118-c08",
+          "source_id": "wd-q9547118-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Siku Quanshu edition names Su E (蘇鶚) of the Tang (唐) as the author of the middle juan of the Duyang Zabian, and the quehuoque account stands at the start of that juan.",
+          "statement_id": "Edisi Siku Quanshu menyebut juan tengah Duyang Zabian sebagai karya Su E (蘇鶚) dari masa Tang (唐), dan catatan quehuoque berada di awal juan itu.",
+          "quote": "杜陽雜編卷中 唐　蘇鶚　撰 順宗皇帝即位歲拘弭國貢却火雀一雄一雌",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9547118-c09",
+          "source_id": "wd-q9547118-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji (太平廣記) version calls the cage a 'fire-essence' cage (火精籠) rather than a crystal cage.",
+          "statement_id": "Versi Taiping Guangji (太平廣記) menyebut sangkarnya sebagai sangkar 'inti api' (火精籠), bukan sangkar kristal.",
+          "quote": "上嘉其異，遂盛於火精籠，懸於寢殿，夜則宮人並蠟炬燒之，終不能損其毛羽。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6b0dfb8b3335b7c5ae2966400d2d37a228be769509fb7bb4ad5b1ba460a9d007"
+      "images": []
     },
     {
       "slug": "wd-q97299884",
@@ -3379,20 +3699,15 @@
     },
     {
       "slug": "wugui",
-      "file": "batch-071-fix-1.md",
+      "file": "batch-071-fix-6.md",
+      "entry_sha256": "5576cb1cbe507e3f831d2d13599964b3571859cd8b1b7fe870ab52367ebc74c4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wugui-c01",
@@ -3433,27 +3748,81 @@
           "quote": "杜甫有《戏作俳谐遣闷》诗之一：“异俗吁可怪，斯人难并居。家家養烏鬼，頓頓食黃魚”。何謂烏鬼？歷代解釋不一。沈括在《夢溪筆談》以為烏鬼是指鸕鶿，更精確的說法是普通鸕鶿，沈括曾到過四川，見過鸕鶿被馴養補魚的情況。宋代無名氏著《漫叟詩話》則認為烏鬼是豬，“川人呼猪作为乌鬼声”。馬永卿《嬾真子錄》中反駁沈括之見解，他認為黃魚的體形大，鸕鶿根本無法捕捉黃魚。郭沫若《李白与杜甫·杜甫的地主生活》：“乌鬼有种种解释，有人解为鸕鶿（四川人呼为渔老鸦），我认为比较可靠。”",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wugui-c05",
+          "source_id": "wugui-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Tiaoxi Yuyin Conghua (苕溪漁隱叢話) records four interpretations of Du Fu's line 'every household keeps wugui (烏鬼)': a pig according to the Manshou Shihua (漫叟詩話), the Wuye god (烏野神) according to Cai Kuanfu (蔡寬夫), the Wuman ghost (烏蠻鬼) according to the Lengzhai Yehua (冷齋夜話), and the cormorant (鸕鶿) according to the Bitan (筆談) of Shen Cunzhong (沈存中) and the Xiangsu Zaji (緗素雜記).",
+          "statement_id": "Tiaoxi Yuyin Conghua (苕溪漁隱叢話) mencatat empat tafsiran atas baris Du Fu 'setiap rumah memelihara wugui (烏鬼)': babi menurut Manshou Shihua (漫叟詩話), dewa Wuye (烏野神) menurut Cai Kuanfu (蔡寬夫), hantu Wuman (烏蠻鬼) menurut Lengzhai Yehua (冷齋夜話), dan burung kormoran (鸕鶿) menurut Bitan (筆談) karya Shen Cunzhong (沈存中) dan Xiangsu Zaji (緗素雜記).",
+          "quote": "苕溪漁隱曰：「『家家養烏鬼』之句，余觀諸公詩話，其說蓋有四焉。《漫叟詩話》以豬為烏鬼，蔡寬夫《詩話》以烏野神為烏鬼，《冷齋夜話》以烏蠻鬼為烏鬼，沈存中《筆談》、《緗素雜記》以鸕鶿為烏鬼，今具載其說焉。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wugui-c06",
+          "source_id": "wugui-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to Cai Kuanfu's Shihua as quoted there, the Jiangling poem (江陵詩) by Yuan Weizhi (元微之) and its note say that southerners who fall ill hold offerings to the wugui.",
+          "statement_id": "Menurut Shihua Cai Kuanfu yang dikutip di sana, puisi Jiangling (江陵詩) karya Yuan Weizhi (元微之) beserta catatannya menyebut bahwa orang selatan yang jatuh sakit mengadakan persembahan bagi wugui.",
+          "quote": "然元微之《江陵詩》云：病賽烏稱鬼，巫占瓦代龜。注云：南人染病則賽烏鬼。則烏鬼之名，自見於此。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wugui-c07",
+          "source_id": "wugui-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Cai Kuanfu also notes that in the Ba and Chu (巴楚) region people were once caught killing humans as offerings to a spirit; when asked, they named their deity the seven-headed god Wuye (烏野七頭神), so he concludes that wugui is the name of a worshipped god.",
+          "statement_id": "Cai Kuanfu juga mencatat bahwa di wilayah Ba dan Chu (巴楚) pernah ditangkap orang yang membunuh manusia untuk persembahan kepada roh; ketika ditanya, dewa yang mereka sembah disebut dewa berkepala tujuh Wuye (烏野七頭神), sehingga ia menyimpulkan wugui adalah nama dewa yang dipuja.",
+          "quote": "巴楚間嘗有捕得殺人祭鬼者，問其神明，曰烏野七頭神。則烏鬼乃所事神名爾。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wugui-c08",
+          "source_id": "wugui-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Yeke Congshu (野客叢書) judges that of the four interpretations only the Lengzhai (冷齋) view is well founded, citing the Nanman (南蠻傳) section of the Tangshu (唐書), which records a custom of revering shamans and spirits, with greater (大鬼主) and lesser (小鬼主) spirit chiefs, and the Wuman (烏蠻) clans.",
+          "statement_id": "Yeke Congshu (野客叢書) menilai bahwa dari empat tafsiran, hanya pendapat Lengzhai (冷齋) yang berdasar, dengan merujuk Tangshu (唐書) bagian Nanman (南蠻傳) yang mencatat kebiasaan memuja dukun dan roh, dengan ketua roh besar (大鬼主) dan kecil (小鬼主), serta suku Wuman (烏蠻).",
+          "quote": "四說不同。惟冷齋之說為有據。觀《唐書·南蠻傳》，俗尚巫鬼，大部落有大鬼主，百家則置小鬼主。一姓白蠻，五姓烏蠻。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wugui-c09",
+          "source_id": "wugui-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Yeke Congshu acknowledges that Yuan Weizhi's poems, which speak of household gods served with 'wu' (烏) and of sick southerners vying to make offerings to the wugui, seem to give a different explanation.",
+          "statement_id": "Yeke Congshu mengakui bahwa puisi Yuan Weizhi, yang menyebut dewa rumah tangga dilayani dengan 'wu' (烏) dan orang selatan yang sakit berlomba memberi persembahan kepada wugui, tampak memberi penjelasan yang berbeda.",
+          "quote": "然觀元微之詩曰「鄉味尤珍蛤，家神悉事烏。」又曰「病賽烏稱鬼，巫占瓦代龜。」註：南人染病，競賽烏鬼。此說又似不同，",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wugui-c10",
+          "source_id": "wugui-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Mengxi Bitan (夢溪筆談) records that Liu Ke (劉克), citing the Kuizhou Tujing (夔州圖經), says people of the gorges call the cormorant wugui, and that Shu (蜀) people living by the water keep cormorants with cords on their necks to catch fish.",
+          "statement_id": "Mengxi Bitan (夢溪筆談) mencatat bahwa Liu Ke (劉克), merujuk Kuizhou Tujing (夔州圖經), menyebut orang di ngarai menamai burung kormoran wugui, dan orang Shu (蜀) yang tinggal di tepi air memelihara kormoran berikat leher untuk menangkap ikan.",
+          "quote": "克乃按《夔州圖經》，稱峽中人謂鸕鶿為「烏鬼」。蜀人臨水居者，皆養鸕鶿，繩繋其頸，使之捕魚，",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "03816c8ddaab535ec9eccfcdc5dd2c26f86c8a45b8acc0461e5b4169a578d236"
+      "images": []
     },
     {
       "slug": "yangong",
-      "file": "batch-071-fix-1.md",
+      "file": "batch-071-fix-6.md",
+      "entry_sha256": "d14f5ed0faf54802f44ef07bfb86acc9fd8c15976f62dc06070f4322d59a4c66",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yangong-c01",
@@ -3534,10 +3903,19 @@
           "quote": "晏公作为水神，基本职能是平定风浪、保驾护航。明初胡行简《清江镇晏公祠庙碑》一文中说，无论官吏还是百姓，行舟运货时，遇到强风大浪，往往都会呼喊晏公的名字，便能转危为安，如履平地。晏公救朱元璋于江上的故事也本自这一特性。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "yangong-c09",
+          "source_id": "yangong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Gujin Tushu Jicheng (古今圖書集成), in its record of temples of Linjiang prefecture (臨江府), places the Yangong temple (晏公廟) in Qingjiang town (清江鎮), thirty li north-east of the prefectural seat; according to old tradition, Yangong was named Shuzi (戍仔), head of a brocade bureau in the early Yuan (元), who on returning home ill 'shed his corpse' (尸解) as soon as he boarded a boat, was then worshipped as a god manifesting power on rivers and lakes, and received the title Pinglang Hou (平浪侯) under the Ming (明).",
+          "statement_id": "Gujin Tushu Jicheng (古今圖書集成), dalam catatan kuil Prefektur Linjiang (臨江府), menyebut kuil Yangong (晏公廟) di kota Qingjiang (清江鎮), tiga puluh li di timur laut kantor prefektur; menurut cerita lama, Yangong bernama Shuzi (戍仔), kepala biro brokat pada awal Yuan (元), yang ketika pulang karena sakit langsung 'melepaskan jasad' (尸解) begitu naik perahu, lalu dipuja sebagai dewa yang menampakkan kesaktian di sungai dan danau, dan diberi gelar Pinglang Hou (平浪侯) pada masa Ming (明).",
+          "quote": "晏公廟　在府治東北三十里清江鎮。舊傳本鎮人，名戍仔，元初為文錦局堂長，因病歸，登舟即尸解。人以為神，立廟祀之。有靈顯于江湖。明封平浪侯。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b01afa67cc03d79ed004df6065ed63599401b9dc13530d282bbbd4d2e78607ab"
+      "images": []
     },
     {
       "slug": "wd-q28418194",
@@ -3636,20 +4014,15 @@
     },
     {
       "slug": "wd-q22101447",
-      "file": "batch-071-fix-1.md",
+      "file": "batch-071-fix-5.md",
+      "entry_sha256": "12103245a15041652ec4f4ce4d2932a81fef93940d4c2b0129b56d5b900fe686",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22101447-c01",
@@ -3690,10 +4063,59 @@
           "quote": "北海之内，有蛇山者，蛇水出焉，東入于海。有五彩之鳥，飛蔽一鄉，名曰翳鳥。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22101447-c05",
+          "source_id": "wd-q22101447-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Guo Pu's (郭) note in the Shan Hai Jing Guangzhu (山海經廣注) says that in the first year of Yuankang (元康) under Emperor Xuan of Han (漢宣帝), five-coloured birds numbering tens of thousands passed over the Shu capital (蜀都), and that these were this bird.",
+          "statement_id": "Catatan Guo Pu (郭) yang dimuat Shan Hai Jing Guangzhu (山海經廣注) menyebut bahwa pada tahun pertama Yuankang (元康) masa Kaisar Xuan dari Han (漢宣帝), burung lima warna berjumlah puluhan ribu melintasi ibu kota Shu (蜀都), dan itulah burung ini.",
+          "quote": "有五彩之鳥飛蔽一鄉〈郭曰漢宣帝 元康元年五色鳥以萬數過蜀都即此鳥也〉",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101447-c06",
+          "source_id": "wd-q22101447-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Guo Pu classes the Yiniao as a kind of phoenix (鳳属) and links it to the Li Sao (離騷) line about riding the yi (翳); the commentator Renchen (任臣) identifies the yi with the luan bird (鸞).",
+          "statement_id": "Guo Pu menggolongkan Yiniao sebagai kerabat phoenix (鳳属) dan mengaitkannya dengan baris Li Sao (離騷) tentang menunggang yi (翳); komentator Renchen (任臣) menyamakan yi dengan burung luan (鸞).",
+          "quote": "名曰翳鳥〈郭曰鳳属也離騷曰駟玊虬而乗翳　任臣案翳即鸞也瑞應圗云鸞乃赤神之精鳳皇之佐",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101447-c07",
+          "source_id": "wd-q22101447-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Renchen also notes that the Lushi (路史) quotes this passage with the character 鷖, and that the bird 'brushed' (拂鷖鳥) in the Shanglin Fu (上林賦) is this bird.",
+          "statement_id": "Renchen juga mencatat bahwa Lushi (路史) mengutip teks ini dengan aksara 鷖, dan bahwa burung yang 'dikibas' (拂鷖鳥) dalam Shanglin Fu (上林賦) adalah burung ini.",
+          "quote": "黄曰土符路史引經作鷖上林賦云拂鷖鳥即此也〉又有不距之山巧倕葬其西〈郭曰",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101447-c08",
+          "source_id": "wd-q22101447-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Chuci Zhangju (楚辭章句), Wang Yi glosses the Li Sao line about riding the yi (鷖) by calling the yi another name for the phoenix (鳳皇) and quoting the Shan Hai Jing that its body is five-coloured.",
+          "statement_id": "Dalam Chuci Zhangju (楚辭章句), Wang Yi menerangkan baris Li Sao tentang menunggang yi (鷖) dengan menyebut yi sebagai nama lain phoenix (鳳皇) dan mengutip Shan Hai Jing bahwa tubuhnya berwarna lima.",
+          "quote": "【駟玉虯以乘鷖兮，】有角曰龍，無角曰虯。鷖，鳳皇別名也。山海經曰：鷖，身有五采。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101447-c09",
+          "source_id": "wd-q22101447-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Tianzhong Ji (天中記) quotes the Guangya (廣雅) that the yi (鷖) is of the phoenix kind, and quotes the Shan Hai Jing in a form saying that the five-coloured bird of Mount She flies so as to cover the sun (飛蔽日).",
+          "statement_id": "Tianzhong Ji (天中記) mengutip Guangya (廣雅) bahwa yi (鷖) termasuk jenis phoenix, dan mengutip Shan Hai Jing dalam bentuk bahwa burung lima warna di Gunung She itu terbang menutupi matahari (飛蔽日).",
+          "quote": "悲淑人之希合〈思𤣥賦〉駟玉虬以乗鷖兮溘埃風余上征王逸曰鷖鳯别名也廣雅曰鷖鳯屬也山海經曰蛇山有鳥五色飛蔽日名鷖鳥",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ec6b29822944eeb9941d040855d8c8a28147192414f2b65a692019f65a9e2ac9"
+      "images": []
     }
   ]
 }

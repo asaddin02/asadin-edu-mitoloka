@@ -1,6 +1,6 @@
 # Review batch-071
 
-Diperiksa 2026-10-13T19:51:19.760Z. Berkas: batch-071.md, batch-071-fix-1.md, batch-071-fix-2.md, batch-071-fix-3.md, batch-071-fix-4.md.
+Diperiksa 2026-10-14T02:28:33.705Z. Berkas: batch-071.md, batch-071-fix-1.md, batch-071-fix-2.md, batch-071-fix-3.md, batch-071-fix-4.md, batch-071-fix-5.md, batch-071-fix-6.md.
 
 ## wd-q15890299 — skip
 
@@ -461,10 +461,7 @@ Klaim 12 (exact 12), sumber 6, gambar 0.
 
 ## wd-q22101025 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -474,20 +471,29 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q22101025-c04 | exact | zh.wikipedia.org | The account places it by roads and above the Jin'ao Yudong gateway. | 中國傳說中的神獸，屬虬螭類，牛頭，身上有龍鱗。《宸垣識略》記載：「西內海子中有斗牛，即虬螭之類，遇陰雨作雲霧，常蜿蜒道旁，及金鰲玉蝀坊之上」。明朝有斗牛紋的賜服。中國傳統建築上的脊獸，斗牛是其中之一。 |
 | wd-q22101025-c05 | exact | zh.wikipedia.org | Ming era bestowed garments used Douniu patterns. | 中國傳說中的神獸，屬虬螭類，牛頭，身上有龍鱗。《宸垣識略》記載：「西內海子中有斗牛，即虬螭之類，遇陰雨作雲霧，常蜿蜒道旁，及金鰲玉蝀坊之上」。明朝有斗牛紋的賜服。中國傳統建築上的脊獸，斗牛是其中之一。 |
 | wd-q22101025-c06 | exact | zh.wikipedia.org | Douniu is among the creature figures placed on the ridges of traditional Chinese architecture. | 中國傳說中的神獸，屬虬螭類，牛頭，身上有龍鱗。《宸垣識略》記載：「西內海子中有斗牛，即虬螭之類，遇陰雨作雲霧，常蜿蜒道旁，及金鰲玉蝀坊之上」。明朝有斗牛紋的賜服。中國傳統建築上的脊獸，斗牛是其中之一。 |
+| wd-q22101025-c07 | exact | zh.wikisource.org | Juan 67 of the Mingshi (明史) records that in the second year of Tianshun (天順) the clothing of officials and commoners was forbidden to use the douniu (斗牛) motif, together with the python-dragon (蟒龍) and flying-fish (飛魚) motifs. | 天順二年，定官民衣服不得用蟒龍、飛魚、斗牛、大鵬、像生獅子、四寶相花、大西番蓮、大雲花樣 |
+| wd-q22101025-c08 | exact | zh.wikisource.org | According to the Mingshi, in the thirteenth year, when the imperial carriage returned to the capital, officials were granted red silk with motifs by rank: douniu for the first rank, flying fish for the second, and python-dragon (蟒) for the third. | 十三年，車駕還京，傳旨，俾迎候者用曳撒大帽、鸞帶。尋賜羣臣大紅紵絲羅紗各一。其服色，一品斗牛，二品飛魚，三品蟒 |
+| wd-q22101025-c09 | exact | zh.wikisource.org | The Mingshi also records a ruling of the Ministry of Rites (禮部) that civil and military officials were not allowed to use the douniu motif without authorisation. | 於是禮部奏定，文武官不許擅用蟒衣、飛魚、斗牛、違禁華異服色。 |
+| wd-q22101025-c10 | exact | zh.wikisource.org | In the seventeenth year, the emperor told the grand secretary Liu Jian (劉健) that the douniu motif was prohibited from the start and must not be woven privately. | 十七年，諭閣臣劉健曰：「內臣僭妄尤多。」因言服色所宜禁，曰：「蟒、龍、飛魚、斗牛，本在所禁，不合私織。 |
+| wd-q22101025-c11 | exact | zh.wikisource.org | Juan 3 of the Minggong Shi (明宫史) states that among palace eunuchs the douniu badge (補) ranked just below the seated python-dragon (坐蟒) badge worn by the top officials of the Sili Jian (司禮監). | 圓領襯襬 與外廷同各按品級凡司禮監掌印秉筆及乾清宫管事與有勞者其補皆得坐蟒次則斗牛及都知監有牙牌者鸚哥雜禽補 官帽 |
 
 
 ## wd-q22101134 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q22101134-c01 | exact | zh.wikipedia.org | Jufu is an apelike creature associated with Mount Chongwu in the Shan Hai Jing. | 举父，是中国传说里的妖怪，样子像猿猴，它们的头骨圆润，浑身银白，嘴周围长着白色绒毛。举父记载在《山海經·西山經》中，並且生活在崇吾之山。 |
 | wd-q22101134-c02 | exact | zh.wikipedia.org | The Wikipedia summary describes it as silvery white with white fur around its mouth. | 举父，是中国传说里的妖怪，样子像猿猴，它们的头骨圆润，浑身银白，嘴周围长着白色绒毛。举父记载在《山海經·西山經》中，並且生活在崇吾之山。 |
-| wd-q22101134-c03 | exact | zh.wikisource.org | The primary text describes patterned arms and leopard and tiger features. | 《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻 |
-| wd-q22101134-c04 | exact | zh.wikisource.org | Jufu is described as skilled at throwing. | 《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻 |
-| wd-q22101134-c05 | exact | zh.wikisource.org | Chongwu is the first mountain in the third western section and lies south of the river. | 《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻 |
-| wd-q22101134-c06 | exact | zh.wikisource.org | The same mountain account also includes the one winged and one eyed Manman bird that flies in pairs. | 《西次三經》之首，曰崇吾之山，在河之南，北望冢遂 ... 有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父 ... 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻 |
+| wd-q22101134-c03 | exact | zh.wikisource.org | The primary text describes patterned arms and leopard and tiger features. | 食之宜子孫。有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父〈或作夸父。〉 |
+| wd-q22101134-c04 | exact | zh.wikisource.org | Jufu is described as skilled at throwing. | 食之宜子孫。有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父〈或作夸父。〉 |
+| wd-q22101134-c05 | exact | zh.wikisource.org | Chongwu is the first mountain in the third western section and lies south of the river. | 《西次三經》之首，曰崇吾之山，在河之南，北望冢遂〈山名。〉，南望䍃〈音遥。〉之澤 |
+| wd-q22101134-c06 | exact | zh.wikisource.org | The same mountain account also includes the one winged and one eyed Manman bird that flies in pairs. | 有鳥焉，其狀如鳧，而一翼一目，相得乃飛，名曰蠻蠻〈比翼鳥也，色青赤 |
+| wd-q22101134-c07 | exact | zh.wikisource.org | The note under this name in the Shan Hai Jing text states that the name is also written Kuafu (夸父). | 食之宜子孫。有獸焉，其狀如禺而文臂，豹虎而善投，名曰舉父〈或作夸父。〉 |
+| wd-q22101134-c08 | exact | zh.wikisource.org | In the Shan Hai Jing Guangzhu (山海經廣注), the commentator Renchen (任臣) notes that the characters of the phrase 'leopard tiger' (豹虎) in the Jufu description are erroneous. | 食之宜子孫有獸焉其狀如禺而文臂豹虎〈任臣案字有誤〉而善投名曰舉父 |
+| wd-q22101134-c09 | exact | zh.wikisource.org | The same commentary, citing the Bencao (本草), identifies the Jufu with the ju (豦) of the Jianping (建平) mountains, which throws stones at people, says there is also a juefu (玃父) of the same kind, and quotes the Jianxiu Fu (蹇修賦) by a writer surnamed Xu (徐) that mentions the Jufu (舉父). | 而善投名曰舉父〈郭曰或作夸父 任臣案本草豦音㨿建平山有之大如狗狀如猴黄黑色多髯鬛好奮頭舉石擲人即舉父也又有玃父亦豦𩔖徐氏蹇修賦云慜舉父之不量兮鷲九鳥使安居〉 |
+| wd-q22101134-c10 | exact | zh.wikisource.org | The Bencao Gangmu (本草綱目) identifies the Jufu with the ju (豦), which according to Guo Pu (郭璞) lives in the Jianping (建平) mountains, is the size of a dog, resembles a monkey, is yellowish-black, heavily whiskered, and likes to toss its head and throw stones at people; its quotation of the Xi Shan Jing speaks of long arms (長臂). | 按郭璞云︰建平山中有之。大如狗，狀如猴，黃黑色，多髯鬣。好奮頭舉石擲人。《西山經》云︰崇吾之山有獸焉，狀如禺而長臂善投，名曰舉父。即此也。 |
 
 
 ## wd-q22101290 — skip
@@ -503,10 +509,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wd-q9382976 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -516,20 +519,25 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q9382976-c04 | exact | zh.wikipedia.org | The Shan Hai Jing version associates eating it with protection against gu as a narrative belief. | 三足鳖是《山海经·中山經》中紀載的妖怪，最早记载于《山海经中山经》。样貌如同只有三只脚的鳖，尾巴有分叉，传说人吃了可以防蛊疾。据说是鲧死后化为三足鳖。 |
 | wd-q9382976-c05 | exact | zh.wikipedia.org | The Gengsi Ji instead recounts fatal consequences for someone who accidentally eats it. | 《庚巳集》则记载如果误食的人会化为血水只剩下头发和耳朵。 《尔雅.释鱼》里三足鳖别称“能”，束皙《发蒙记》三足鳖另别称“熊” |
 | wd-q9382976-c06 | exact | zh.wikipedia.org | The Erya uses the name Nai, while the Fameng Ji is associated with the name Xiong. | 《尔雅.释鱼》里三足鳖别称“能”，束皙《发蒙记》三足鳖另别称“熊” |
+| wd-q9382976-c07 | exact | zh.wikisource.org | The Zhong Shan Jing places the three-legged softshell turtle (三足鼈) in the Cong water (從水), which emerges on top of Mount Cong (從山) and sinks underground at its foot; the animal has a forked tail, and eating it prevents gu sickness (蠱疾). | 又東南三十五里，曰從山，其上多松柏，其下多竹。從水出于其上，潛于其下，其中多三足鼈，枝尾，食之無蠱疾。 |
+| wd-q9382976-c08 | exact | zh.wikisource.org | In the Shan Hai Jing Guangzhu (山海經廣注), Guo (郭) calls the three-legged turtle neng (能) after the Erya (爾雅), and Renchen (任臣) quotes the Erya Yi (爾雅翼) that a pool on Mount Jun (君山) in Yangxian county (陽羨縣) produces three-legged turtles, which are a kind of their own. | 其中多三足鼈枝尾〈郭曰三足鼈者能見爾雅 任臣案羅良願爾雅翼云能鼈之三足者今陽羨縣君山有池出三足鼈葢自是一種 |
+| wd-q9382976-c09 | exact | zh.wikisource.org | Renchen notes that according to the Gengsi Bian (庚巳編) a man of Taicang (太倉) cooked and ate a three-legged turtle and his body turned into bloody water; Su Song (蘇頌) says eating it kills, while Li Shizhen (李時珍) says some have eaten it by mistake without harm; since the views differ, both are recorded. He also cites the Jiang Fu (江賦) of Jingchun (景純), which mentions a three-legged turtle. | 景純江賦云有鼈三足有龜六眸又白澤圗載一足龞池精名𩬊頊更異也〉食之無蠱疫〈任臣案庚巳編太倉民得三足鼈烹食畢形化為血水蘇頌云三足鼈食之殺人經謂食之無蠱疫而李時珍亦云近有誤食無恙者說都不同兩記之 |
 
 
 ## wd-q9384676 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q9384676-c01 | exact | zh.wikipedia.org | Danyu is a legendary fish in Chinese tradition. | 丹鱼是传说中的鱼。出入有赤光环绕。用其血涂在脚上可步行在水上。 |
 | wd-q9384676-c02 | exact | zh.wikipedia.org | When coming and going, the fish is said to be surrounded by red light. | 丹鱼是传说中的鱼。出入有赤光环绕。用其血涂在脚上可步行在水上。 |
 | wd-q9384676-c03 | exact | zh.wikipedia.org | In the story, its blood applied to the feet enables a person to walk on water. | 丹鱼是传说中的鱼。出入有赤光环绕。用其血涂在脚上可步行在水上。 |
+| wd-q9384676-c04 | exact | zh.wikisource.org | The Baopuzi (抱朴子), in a method for obtaining 'hidden cinnabar' (伏丹法), says that all rivers named Dan (丹), such as the Dan river of Nanyang (南陽), contain danyu (丹魚). | 又有取伏丹法云，天下諸水，有名丹者，有南陽之丹水之屬也，其中皆有丹魚， |
+| wd-q9384676-c05 | exact | zh.wikisource.org | According to the Baopuzi, the fish is awaited at night ten days before the summer solstice (夏至), when it is sure to float at the water's edge with red light shining upward, blazing like fire, and is then caught with a net. | 當先夏至十日夜伺之，丹魚必浮於水側，赤光上照，赫然如火也，網而取之可得之， |
+| wd-q9384676-c06 | exact | zh.wikisource.org | The Baopuzi advises not taking them all even when many are caught; its blood is smeared on the soles so that a person can walk on water and dwell long in the depths. | 得之雖多，勿盡取也，割其血，塗足下，則可步行水上，長居淵中矣。 |
+| wd-q9384676-c07 | exact | zh.wikisource.org | The Yiyu Tuzan Jian (異魚圖賛箋) contains a eulogy saying that the danyu's appearance ten days before the summer solstice never misses its date (其期不爽), and notes that the Shuyi (述異) says the Dan river issues from below Mount Longchao (龍巢山), while the Fengtu Ji (風土記) places it in Neixiang county (内鄉縣). | 丹水丹魚出于南陽以夜伺之浮水有光夏至十日其期不爽取血塗足水上可行〈抱朴子〉 抱朴子南陽丹水出丹魚常先夏至十日夜伺之魚浮于水赤光上照赫然如火網取之割其血以塗足可歩行水上如履平地按述異所載同但云丹水出龍巢山下風土記亦同云丹水在内鄉縣 |
+| wd-q9384676-c08 | exact | zh.wikisource.org | The Taiping Huanyu Ji (太平寰宇記) quotes the Sui Tujing (隋圖經) that the Dan river of Fengzhou (豐州) produces danyu, which are netted when they float glowing red before the summer solstice, and whose blood lets a person walk on water. | 又東經龍巢山下 丹水隋圖經云豐州丹水出丹魚先夏至前十日夜伺之浮水有赤光上照如火以網取之割其血以塗足可步行水上廢豐縣西二百四十里元〈闕〉 |
 
 
 ## wd-q9428574 — lulus-otomatis
@@ -552,10 +560,7 @@ Klaim 10 (exact 10), sumber 4, gambar 0.
 
 ## wd-q9433134 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -565,31 +570,34 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q9433134-c04 | exact | zh.wikisource.org | Its cocoon has five colours and can be woven into patterned cloth. | 有冰蠶長七寸，黑色，有角有麟，以霜雪覆之，然後作繭，長一尺，其色五彩，織爲文錦，入水不濡，以之投火，經宿不燎。唐堯之世，海人獻之，堯以爲黼黻。 |
 | wd-q9433134-c05 | exact | zh.wikisource.org | The cloth is said not to get wet in water or burn after a night in fire. | 有冰蠶長七寸，黑色，有角有麟，以霜雪覆之，然後作繭，長一尺，其色五彩，織爲文錦，入水不濡，以之投火，經宿不燎。唐堯之世，海人獻之，堯以爲黼黻。 |
 | wd-q9433134-c06 | exact | zh.wikisource.org | The account says sea people present it in Yao's time and he uses it for ceremonial garments. | 有冰蠶長七寸，黑色，有角有麟，以霜雪覆之，然後作繭，長一尺，其色五彩，織爲文錦，入水不濡，以之投火，經宿不燎。唐堯之世，海人獻之，堯以爲黼黻。 |
+| wd-q9433134-c07 | exact | zh.wikisource.org | In the Bingcan Fu (冰蠶賦) by Wang Qi (王起) of the Tang (唐), this precious silkworm lives in the ice of the bitterly cold far north, does not eat mulberry leaves (柔桑), and is not kept in a dark room. | 懿北極之寒勁，有珍蠶之處冰。非柔桑之是食，非幽室之是憑。托彼峨峨，且不資於春煦； |
+| wd-q9433134-c08 | exact | zh.wikisource.org | The same poem depicts it spinning fine thread from behind layers of ice, and that red and green thread is used to make the embroidery of ceremonial robes (黼黻). | 觀夫如臨如履，經之營之。隔皚皚之積冰，吐漠漠之輕絲。朱綠曳而愈出，黼黻成而是資。 |
+| wd-q9433134-c09 | exact | zh.wikisource.org | The Hairen Xian Bingcan Fu (海人獻冰蠶賦) by Zhang Liangqi (張良器) says the people of Yuanjiao (圓嶠), a distant land beside the remotest sea, present the ice silkworm as tribute. | 圓嶠之人兮，回踴遐壤，旁臨窮海。嘉冰蠶之底貢，彰遠人之無怠。 |
+| wd-q9433134-c10 | exact | zh.wikisource.org | According to that poem, the ice silkworm is reared out of the usual season, completes its growth only in the depth of winter, and cannot be raised in the central lands (中國). | 懿乎生乃因地，育乃非時。四氣平分，屆嚴冬而成止；五方異俗，在中國之莫為。 |
+| wd-q9433134-c11 | exact | zh.wikisource.org | The poem Yuanjiao Xiansheng (員嶠先生) by Xu Ning (徐凝) depicts an elder from Yuanjiao (員嶠) who wishes to present five-coloured ice-silkworm thread to the ruler of Taotang (陶唐). | 員嶠先生無白髮，海煙深處採青芝。 逢人借問陶唐主，欲進冰蠶五色絲。 |
 
 
 ## wd-q9441475 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q9441475-c01 | exact | zh.wikipedia.org | Daolaogui is a supernatural creature in the Soushen Ji that roams the mountains of Linchuan, Jiangxi. | 刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。 |
-| wd-q9441475-c02 | exact | zh.wikipedia.org | It is said to arrive with storms and heavy rain. | 刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。 |
-| wd-q9441475-c03 | exact | zh.wikipedia.org | The creature makes a long sound resembling a howl. | 刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人，被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。 |
+| wd-q9441475-c01 | exact | zh.wikipedia.org | Daolaogui is a supernatural creature in the Soushen Ji that roams the mountains of Linchuan, Jiangxi. | 刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人， |
+| wd-q9441475-c02 | exact | zh.wikipedia.org | It is said to arrive with storms and heavy rain. | 刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人， |
+| wd-q9441475-c03 | exact | zh.wikipedia.org | The creature makes a long sound resembling a howl. | 刀勞鬼，是中国传说中的妖怪，记载在干宝的《搜神记》卷十二中。游荡在江西临川山间，常跟随狂风暴雨出现，发出的声音很长，能射伤人， |
 | wd-q9441475-c04 | exact | zh.wikipedia.org | The Soushen Ji quotation describes its attack causing swelling and poison within the narrative. | 原文：“临川间诸山有妖物，来常因大风雨，有声如啸，能射人，其所着者，有顷，便肿，大毒。有雌雄：雄急，而雌缓；急者不过半日间，缓者经宿。其旁人常有以救之，救之少迟，则死。俗名曰“刀劳鬼”。 ” |
 | wd-q9441475-c05 | exact | zh.wikipedia.org | The text distinguishes males and females with faster or slower attack effects. | 原文：“临川间诸山有妖物，来常因大风雨，有声如啸，能射人，其所着者，有顷，便肿，大毒。有雌雄：雄急，而雌缓；急者不过半日间，缓者经宿。其旁人常有以救之，救之少迟，则死。俗名曰“刀劳鬼”。 ” |
 | wd-q9441475-c06 | exact | zh.wikipedia.org | The quoted version places the fatal consequence within half a day or overnight, as a story detail. | 原文：“临川间诸山有妖物，来常因大风雨，有声如啸，能射人，其所着者，有顷，便肿，大毒。有雌雄：雄急，而雌缓；急者不过半日间，缓者经宿。其旁人常有以救之，救之少迟，则死。俗名曰“刀劳鬼”。 ” |
+| wd-q9441475-c07 | exact | zh.wikipedia.org | According to the Wikipedia summary, a person struck by it swells and dies in less than a day, and the dead person, if not cremated (火化), will also become a daolaogui. | 被射到会肿胀，不到一天内会死。而死的人如果不火化也会变刀勞鬼。 |
+| wd-q9441475-c08 | exact | zh.wikisource.org | In the Soushen Ji (搜神記), after naming the daolaogui (刀勞鬼), the author quotes the 'outer books' (外書) that ghosts and spirits are the visible signs of fortune and misfortune in the world. | 俗名曰「刀勞鬼。」故外書云：「鬼神者，其禍福發揚之驗於世者也。」 |
+| wd-q9441475-c09 | exact | zh.wikisource.org | The same passage closes with the view that the living are governed by yang (陽) and the dead by yin (陰), and that strange beings (怪物) exist within the great yin (太陰). | 生者主陽，死者主陰，性之所托，各安其生，太陰之中，怪物存焉。 |
+| wd-q9441475-c10 | exact | zh.wikisource.org | The Fayuan Zhulin (法苑珠林) carries a version of this account that calls the creature a 'demon' (妖魅) of the mountain counties (諸山縣) of Linchuan (臨川), and describes the struck spot as 'like a hoof' (如蹄) and swelling with severe poison. | 臨川間。諸山縣有妖魅來。常因大風雨有聲如嘯能射人。其所著者如蹄頭腫大毒有雌雄。 |
 
 
 ## wd-q9547028 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -597,14 +605,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q9547028-c02 | exact | zh.wikipedia.org | The article lists Bichenxi, Haijixi, Bishuixi, and Guangmingxi as alternative names. | 却尘犀又叫辟尘犀、駭雞犀、辟水犀、光明犀，是中國古代传说中一種海獸，據說從未有人見過。它的樣貌很像犀牛，他的角可以避却尘埃。 |
 | wd-q9547028-c03 | exact | zh.wikipedia.org | In the story, its horn has the power to repel dust. | 却尘犀又叫辟尘犀、駭雞犀、辟水犀、光明犀，是中國古代传说中一種海獸，據說從未有人見過。它的樣貌很像犀牛，他的角可以避却尘埃。 |
 | wd-q9547028-c04 | exact | zh.wikipedia.org | The description states that nobody has seen the creature itself directly. | 却尘犀又叫辟尘犀、駭雞犀、辟水犀、光明犀，是中國古代传说中一種海獸，據說從未有人見過。它的樣貌很像犀牛，他的角可以避却尘埃。 |
+| wd-q9547028-c05 | exact | zh.wikisource.org | The Shuyi Ji (述異記) calls the quechenxi (却塵犀) a sea beast (海獸) whose horn repels dust: when the horn is placed at a seat, dust does not enter. | 其水所經之處物皆漬為石 却塵犀海獸也然其角辟塵致之於座塵埃不入羊山上有燃石其色黄而文理疎以水沃之便如煎沸其上可炊烹稍冷即復以水沃之 䝟貐獸中最大者龍頭馬尾虎爪長四百尺 |
+| wd-q9547028-c06 | exact | zh.wikisource.org | The Taiping Guangji (太平廣記), quoting the Lingbiao Yilu (嶺表異錄), names the haijixi (駭雞犀), at the sight of which chickens scatter, and the bichenxi (辟塵犀), which, made into women's hairpins and combs, keeps dust from settling. | 又有駭雞犀。〈（群雞見之驚散）〉。辟塵犀〈（為婦人簪梳，塵不著也）〉 |
+| wd-q9547028-c07 | exact | zh.wikisource.org | The same source describes the bishuixi (辟水犀): when this rhinoceros walks in the sea the water parts for it, and placed in mist it does not get wet. | 辟水犀、〈（雲此犀行於海水為之開，置於霧之中不濕矣，「置」原作「色」，據明抄本改）〉 |
+| wd-q9547028-c08 | exact | zh.wikisource.org | The Taiping Guangji closes the list by saying the guangmingxi gives light in a dark room, and that these rhinoceroses are known only from accounts and cannot be seen. | 〈（處於暗室則有光明）〉。此數犀但聞其說，即不可得而見也。〈（出《嶺表異錄》）〉 |
+| wd-q9547028-c09 | exact | zh.wikisource.org | The Gujin Hebi Shilei Beiyao (古今合璧事類備要), citing the Bencao (本草), tells that according to Li Zongyi (李宗易), Shi Baoji (石保吉) sat downwind whenever the old buildings of the Chenzhou (陳州) offices were demolished, and the dust parted by itself because he wore a dust-repelling rhinoceros belt (服帶辟塵). | 梳塵不着髮嶺表錄異〉服帶辟塵〈李司封宗易嘗言石駙馬保吉知陳州其州廨一皆新之每毁舊屋則坐於下風塵自分去人皆驚怪蓋其所丨丨丨丨犀也本草〉 |
 
 
 ## wd-q9547118 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -612,6 +622,11 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q9547118-c02 | exact | zh.wikipedia.org | The bird is said to extinguish fire. | 却火雀，为传说中的鸟名。其状如燕，能灭火，放在火中，火就会散去。记载在《杜阳杂编》卷上。 |
 | wd-q9547118-c03 | exact | zh.wikipedia.org | In the story, fire disperses when the bird is placed in it. | 却火雀，为传说中的鸟名。其状如燕，能灭火，放在火中，火就会散去。记载在《杜阳杂编》卷上。 |
 | wd-q9547118-c04 | exact | zh.wikipedia.org | Its account is associated with the first volume of the Duyang Zabian. | 却火雀，为传说中的鸟名。其状如燕，能灭火，放在火中，火就会散去。记载在《杜阳杂编》卷上。 |
+| wd-q9547118-c05 | exact | zh.wikisource.org | In the middle juan (卷中) of the Duyang Zabian (杜陽雜編), the kingdom of Jumi (拘弭國) presents a pair of quehuoque (却火雀), male and female, together with a water-walking pearl, everlasting ice, and a day-changing grass, in the year Emperor Shunzong (順宗) took the throne. | 卷中 順宗皇帝即位歲，拘弭國貢却火雀一雄一雌、履水珠、常堅冰、變晝草。 |
+| wd-q9547118-c06 | exact | zh.wikisource.org | The Duyang Zabian describes the bird as pure black, the size of a swallow, with a clear voice unlike ordinary birds, and when placed in fire, the fire disperses by itself. | 其却火雀純黑，大小似燕，其聲清，殆不類尋常禽鳥，置於火中，火自散去。 |
+| wd-q9547118-c07 | exact | zh.wikisource.org | The emperor admired its strangeness and kept it in a crystal cage (水精籠) hung in his sleeping hall; at night palace women burned it with candles, but its feathers were never harmed. | 上嘉其異，遂盛於水精籠，懸於寢殿。夜則宮人持蠟炬以燒之，終不能損其毛羽。 |
+| wd-q9547118-c08 | exact | zh.wikisource.org | The Siku Quanshu edition names Su E (蘇鶚) of the Tang (唐) as the author of the middle juan of the Duyang Zabian, and the quehuoque account stands at the start of that juan. | 杜陽雜編卷中 唐 蘇鶚 撰 順宗皇帝即位歲拘弭國貢却火雀一雄一雌 |
+| wd-q9547118-c09 | exact | zh.wikisource.org | The Taiping Guangji (太平廣記) version calls the cage a 'fire-essence' cage (火精籠) rather than a crystal cage. | 上嘉其異，遂盛於火精籠，懸於寢殿，夜則宮人並蠟炬燒之，終不能損其毛羽。 |
 
 
 ## wd-q97299884 — lulus-otomatis
@@ -633,10 +648,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## wugui — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -644,14 +656,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wugui-c02 | exact | zh.wikipedia.org | Cheng Dachang uses a Yuan Zhen poem to support an interpretation that there was a spirit named Wugui in Tang times. | 另一說烏鬼指鬼神或称乌蛮鬼。程大昌《程氏演繁露》据元稹诗“乡味犹珍蛤，家神爱事乌。”一句，认为“唐俗真有一鬼，正名乌鬼”。 |
 | wugui-c03 | exact | zh.wikipedia.org | Another account connects the term with worship of crows as sacred birds in the Chu gorges. | 又《楊慎外集》載“峽中養鴉雛，帶銅錫環獻神之烏鬼。”《诗辞事略》又谓“楚峡之间事乌为神，所谓神鸦也。” |
 | wugui-c04 | exact | zh.wikipedia.org | The spirit meaning does not cover every usage: interpretations of Du Fu's poem also identify it as a cormorant or pig. | 杜甫有《戏作俳谐遣闷》诗之一：“异俗吁可怪，斯人难并居。家家養烏鬼，頓頓食黃魚”。何謂烏鬼？歷代解釋不一。沈括在《夢溪筆談》以為烏鬼是指鸕鶿，更精確的說法是普通鸕鶿，沈括曾到過四川，見過鸕鶿被馴養補魚的情況。宋代無名氏著《漫叟詩話》則認為烏鬼是豬，“川人呼猪作为乌鬼声”。馬永卿《嬾真子錄》中反駁沈括之見解，他認為黃魚的體形大，鸕鶿根本無法捕捉黃魚。郭沫若《李白与杜甫·杜甫的地主生活》：“乌鬼有种种解释，有人解为鸕鶿（四川人呼为渔老鸦），我认为比较可靠。” |
+| wugui-c05 | exact | zh.wikisource.org | The Tiaoxi Yuyin Conghua (苕溪漁隱叢話) records four interpretations of Du Fu's line 'every household keeps wugui (烏鬼)': a pig according to the Manshou Shihua (漫叟詩話), the Wuye god (烏野神) according to Cai Kuanfu (蔡寬夫), the Wuman ghost (烏蠻鬼) according to the Lengzhai Yehua (冷齋夜話), and the cormorant (鸕鶿) according to the Bitan (筆談) of Shen Cunzhong (沈存中) and the Xiangsu Zaji (緗素雜記). | 苕溪漁隱曰：「『家家養烏鬼』之句，余觀諸公詩話，其說蓋有四焉。《漫叟詩話》以豬為烏鬼，蔡寬夫《詩話》以烏野神為烏鬼，《冷齋夜話》以烏蠻鬼為烏鬼，沈存中《筆談》、《緗素雜記》以鸕鶿為烏鬼，今具載其說焉。 |
+| wugui-c06 | exact | zh.wikisource.org | According to Cai Kuanfu's Shihua as quoted there, the Jiangling poem (江陵詩) by Yuan Weizhi (元微之) and its note say that southerners who fall ill hold offerings to the wugui. | 然元微之《江陵詩》云：病賽烏稱鬼，巫占瓦代龜。注云：南人染病則賽烏鬼。則烏鬼之名，自見於此。 |
+| wugui-c07 | exact | zh.wikisource.org | Cai Kuanfu also notes that in the Ba and Chu (巴楚) region people were once caught killing humans as offerings to a spirit; when asked, they named their deity the seven-headed god Wuye (烏野七頭神), so he concludes that wugui is the name of a worshipped god. | 巴楚間嘗有捕得殺人祭鬼者，問其神明，曰烏野七頭神。則烏鬼乃所事神名爾。 |
+| wugui-c08 | exact | zh.wikisource.org | The Yeke Congshu (野客叢書) judges that of the four interpretations only the Lengzhai (冷齋) view is well founded, citing the Nanman (南蠻傳) section of the Tangshu (唐書), which records a custom of revering shamans and spirits, with greater (大鬼主) and lesser (小鬼主) spirit chiefs, and the Wuman (烏蠻) clans. | 四說不同。惟冷齋之說為有據。觀《唐書·南蠻傳》，俗尚巫鬼，大部落有大鬼主，百家則置小鬼主。一姓白蠻，五姓烏蠻。 |
+| wugui-c09 | exact | zh.wikisource.org | The Yeke Congshu acknowledges that Yuan Weizhi's poems, which speak of household gods served with 'wu' (烏) and of sick southerners vying to make offerings to the wugui, seem to give a different explanation. | 然觀元微之詩曰「鄉味尤珍蛤，家神悉事烏。」又曰「病賽烏稱鬼，巫占瓦代龜。」註：南人染病，競賽烏鬼。此說又似不同， |
+| wugui-c10 | exact | zh.wikisource.org | The Mengxi Bitan (夢溪筆談) records that Liu Ke (劉克), citing the Kuizhou Tujing (夔州圖經), says people of the gorges call the cormorant wugui, and that Shu (蜀) people living by the water keep cormorants with cords on their necks to catch fish. | 克乃按《夔州圖經》，稱峽中人謂鸕鶿為「烏鬼」。蜀人臨水居者，皆養鸕鶿，繩繋其頸，使之捕魚， |
 
 
 ## yangong — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -663,6 +678,7 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 | yangong-c06 | exact | zh.wikipedia.org | The article records a Song era source about Yangong, earlier than the character's dating in the Yuan origin version. | 虽然在最流行的传说中，晏公是元代人，明初获封平浪侯，但晏公信仰早在宋朝就已出现；宋人蒋叔兴编撰的《无上黄箓大斋立成仪》中，就已经提到了“都督晏元帅平浪侯”。宋元以来，晏公的形象塑造愈加具体，传说故事趋于定型，终于在元末明初成为了职责明确的水神，并传播到了全国各地。江西清江镇、浙江杭州、安徽凤阳、太和、江苏阳湖、仪真、徐州、嘉定、湖北黄州、广东高要、四会、山东日照、北京密云等多地的晏公庙都明确说明建于洪武年间。 |
 | yangong-c07 | exact | zh.wikipedia.org | Fishermen, boat crews, sailors, merchants, and canal transport workers are among his worshippers. | 晏公最主要的信众是渔民、漕军、船工、水手、商人等群体，分布地域也多在水路密布之处。在江河交错的南方，晏公信仰的覆盖面很大。长江、鄱阳湖、太湖、珠江等水域相互勾连，漕运发达，商业繁华，加快了晏公信仰的传播，扩展了其流布范围。在京杭大运河沿线区域，从杭州、桐乡直到德州、天津、通州，也都分布着晏公庙宇，不过总体上还是南多北少。此外，晏公信仰还因人口迁移而流布到了贵州、云南 、宁夏等更远的地域。 |
 | yangong-c08 | exact | zh.wikipedia.org | His main role is calming waves and protecting navigation according to devotees' beliefs. | 晏公作为水神，基本职能是平定风浪、保驾护航。明初胡行简《清江镇晏公祠庙碑》一文中说，无论官吏还是百姓，行舟运货时，遇到强风大浪，往往都会呼喊晏公的名字，便能转危为安，如履平地。晏公救朱元璋于江上的故事也本自这一特性。 |
+| yangong-c09 | exact | zh.wikisource.org | The Gujin Tushu Jicheng (古今圖書集成), in its record of temples of Linjiang prefecture (臨江府), places the Yangong temple (晏公廟) in Qingjiang town (清江鎮), thirty li north-east of the prefectural seat; according to old tradition, Yangong was named Shuzi (戍仔), head of a brocade bureau in the early Yuan (元), who on returning home ill 'shed his corpse' (尸解) as soon as he boarded a boat, was then worshipped as a god manifesting power on rivers and lakes, and received the title Pinglang Hou (平浪侯) under the Ming (明). | 晏公廟 在府治東北三十里清江鎮。舊傳本鎮人，名戍仔，元初為文錦局堂長，因病歸，登舟即尸解。人以為神，立廟祀之。有靈顯于江湖。明封平浪侯。 |
 
 
 ## wd-q28418194 — lulus-otomatis
@@ -692,10 +708,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wd-q22101447 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -703,4 +716,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q22101447-c02 | exact | zh.wikisource.org | Its flight is described as shading an entire settlement. | 北海之内，有蛇山者，蛇水出焉，東入于海。有五彩之鳥，飛蔽一鄉，名曰翳鳥。 |
 | wd-q22101447-c03 | exact | zh.wikisource.org | The bird is placed in the area of Mount She within the Northern Sea. | 北海之内，有蛇山者，蛇水出焉，東入于海。有五彩之鳥，飛蔽一鄉，名曰翳鳥。 |
 | wd-q22101447-c04 | exact | zh.wikisource.org | The same account says the She water rises from the mountain and flows east into the sea. | 北海之内，有蛇山者，蛇水出焉，東入于海。有五彩之鳥，飛蔽一鄉，名曰翳鳥。 |
+| wd-q22101447-c05 | exact | zh.wikisource.org | Guo Pu's (郭) note in the Shan Hai Jing Guangzhu (山海經廣注) says that in the first year of Yuankang (元康) under Emperor Xuan of Han (漢宣帝), five-coloured birds numbering tens of thousands passed over the Shu capital (蜀都), and that these were this bird. | 有五彩之鳥飛蔽一鄉〈郭曰漢宣帝 元康元年五色鳥以萬數過蜀都即此鳥也〉 |
+| wd-q22101447-c06 | exact | zh.wikisource.org | Guo Pu classes the Yiniao as a kind of phoenix (鳳属) and links it to the Li Sao (離騷) line about riding the yi (翳); the commentator Renchen (任臣) identifies the yi with the luan bird (鸞). | 名曰翳鳥〈郭曰鳳属也離騷曰駟玊虬而乗翳 任臣案翳即鸞也瑞應圗云鸞乃赤神之精鳳皇之佐 |
+| wd-q22101447-c07 | exact | zh.wikisource.org | Renchen also notes that the Lushi (路史) quotes this passage with the character 鷖, and that the bird 'brushed' (拂鷖鳥) in the Shanglin Fu (上林賦) is this bird. | 黄曰土符路史引經作鷖上林賦云拂鷖鳥即此也〉又有不距之山巧倕葬其西〈郭曰 |
+| wd-q22101447-c08 | exact | zh.wikisource.org | In the Chuci Zhangju (楚辭章句), Wang Yi glosses the Li Sao line about riding the yi (鷖) by calling the yi another name for the phoenix (鳳皇) and quoting the Shan Hai Jing that its body is five-coloured. | 【駟玉虯以乘鷖兮，】有角曰龍，無角曰虯。鷖，鳳皇別名也。山海經曰：鷖，身有五采。 |
+| wd-q22101447-c09 | exact | zh.wikisource.org | The Tianzhong Ji (天中記) quotes the Guangya (廣雅) that the yi (鷖) is of the phoenix kind, and quotes the Shan Hai Jing in a form saying that the five-coloured bird of Mount She flies so as to cover the sun (飛蔽日). | 悲淑人之希合〈思𤣥賦〉駟玉虬以乗鷖兮溘埃風余上征王逸曰鷖鳯别名也廣雅曰鷖鳯屬也山海經曰蛇山有鳥五色飛蔽日名鷖鳥 |
 
