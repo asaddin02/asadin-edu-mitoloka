@@ -1,30 +1,33 @@
 {
   "batch_id": "batch-065",
-  "checked_at": "2026-10-03T15:58:12.083Z",
+  "checked_at": "2026-10-14T02:28:32.728Z",
   "files": [
     "batch-065.md",
     "batch-065-fix-1.md",
     "batch-065-fix-2.md",
     "batch-065-fix-3.md",
-    "batch-065-fix-4.md"
+    "batch-065-fix-4.md",
+    "batch-065-fix-5.md",
+    "batch-065-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "wd-q11667794",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "98d2cf9cb2e814cb659a91406900fa6eef257e5c9ae7ea9259f7b4b806653b38",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 5,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -56,6 +59,26 @@
           "statement_id": "Iwamura Kaidan Roku mencatat kaki kuda yang muncul dari pagar pada malam hujan.",
           "quote": "また山口県の怪談集『岩邑怪談録』によれば、雨の夜、安達氏という家の垣塀から馬の足が突然突き出したと記述があり、前述の福岡の伝承とほぼ同じものと見られている。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11667794-c04",
+          "source_id": "wd-q11667794-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "According to a folklore record summary, at night a single horse leg (馬の片足) dangles and swings from a tree branch reaching out over an old wall; anyone passing beneath it unawares gets kicked.",
+          "statement_id": "Menurut ringkasan catatan folklor, pada malam hari sebelah kaki kuda (馬の片足) tergantung berayun dari dahan pohon yang menjulur dari tembok tua; orang yang lewat di bawahnya tanpa sadar akan ditendang.",
+          "quote": "夜になると、古塀から枝を差し出している木の枝に、馬の片足が下がってぶらぶらしている。気づかずにその下を通ると、それに蹴飛ばされるという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11667794-c05",
+          "source_id": "wd-q11667794-s3",
+          "host": "kotobank.jp",
+          "statement": "The デジタル大辞泉プラス dictionary calls it a yōkai handed down in Fukuoka (福岡県) and Yamaguchi (山口県) Prefectures, taking the form of a horse leg hanging from a tree branch along a night road.",
+          "statement_id": "Kamus デジタル大辞泉プラス menyebutnya yōkai yang diwariskan di Prefektur Fukuoka (福岡県) dan Yamaguchi (山口県), berwujud kaki kuda yang tergantung di dahan pohon di jalan malam.",
+          "quote": "福岡県、山口県に伝わる妖怪。夜道の木の枝にぶら下がっている馬の足の姿をしたもの。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -143,22 +166,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "56abc5ce9c59b926ec3b1bb947201f120287912703d4c02a2c012480c6ee6338"
     },
     {
       "slug": "wd-q11673348",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "808477c4c6cbf9dcc1df49aa680b6c2be5f15bf1366a459fa828f2ae640928bb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -191,31 +216,31 @@
           "quote": "古より人間の頭髪には不思議な力があるといわれており、その伝承を元に石燕が創作した妖怪とされる。 脚注",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11673348-c04",
+          "source_id": "wd-q11673348-s2",
+          "host": "kotobank.jp",
+          "statement": "The デジタル大辞泉プラス dictionary describes the kamioni as a Japanese yōkai: hair imbued with an evil heart such as jealousy (嫉妬) grows long and stands up like an oni's horns, becoming a yōkai; it is also called kihatsu (鬼髪).",
+          "statement_id": "Kamus デジタル大辞泉プラス menyebut kamioni sebagai yōkai Jepang: rambut yang dirasuki hati jahat seperti kecemburuan (嫉妬) memanjang dan berdiri seperti tanduk oni, lalu menjadi yōkai; ia juga disebut kihatsu (鬼髪).",
+          "quote": "日本の妖怪。嫉妬などの邪悪な心がこもった頭髪が長く伸び、鬼の角のように逆立ち妖怪化したもの。鬼髪(きはつ)とも。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11677502",
-      "file": "batch-065-fix-3.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "474f0deeaab0c5d25c82a98c41c0a10c473c02f117e3939de6b10f36e7bfb6de",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "modern_depictions[0].title",
-          "message": "Tidak muncul di kutipan mana pun: Mizuki Shigeru. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11677502-c01",
@@ -256,26 +281,41 @@
           "quote": "妖怪漫画家・水木しげるの著書では「麻桶毛（まゆげ）」の題で記載されており、大きな毛の塊のような姿で人を襲う様子が描かれている。",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11677502-c05",
+          "source_id": "wd-q11677502-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "At the 彌都波能売神社 shrine there is a belief about a sacred hair (神毛): a single long hair normally kept inside an asaoke (麻桶).",
+          "statement_id": "Di kuil 彌都波能売神社 ada kepercayaan tentang rambut suci (神毛): sehelai rambut panjang yang biasanya disimpan di dalam asaoke (麻桶).",
+          "quote": "彌都波能売神社には神毛にまつわる信仰がある。この神毛は一筋の長い毛であり、普段は麻桶の中に安置してある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11677502-c06",
+          "source_id": "wd-q11677502-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "When the deity's will (神慮) is unsettled, the hair splits in two and grows until it pushes up the container and comes out; the villagers (里の人たち) say it returns to normal once the deity is appeased.",
+          "statement_id": "Ketika kehendak dewa (神慮) tidak tenang, rambut itu bercabang dua dan memanjang hingga mendorong tutup wadah dan keluar; penduduk desa (里の人たち) bercerita bahwa ia kembali seperti semula bila hati dewa sudah reda.",
+          "quote": "神慮の穏かでないときは、その毛が二岐に分かれで伸び、桶を押し上げて外に出るほどになるという。神意が和むと元に戻るのだと里の人たちは語っている。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q11678278",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "6ba0587a5054dc6a2800b84e6a8ed79dcf399b3c3640b86cced387cbe9274a44",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11678278-c01",
@@ -326,26 +366,51 @@
           "quote": "漫画家・水木しげるはこの妖怪を三本指で人間くらいの大きさの猿のような姿で描いている。ただしこの絵の元となったのは江戸時代の古書『絵本小夜時雨』巻五にある播州の奇談「播州士異獣を斬」であり、黒手とは異なる。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11678278-c06",
+          "source_id": "wd-q11678278-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes the kurote as a bizarre, hairy yōkai from the Noto peninsula in Ishikawa Prefecture.",
+          "statement_id": "Yokai.com menggambarkan kurote sebagai yōkai berbulu yang aneh dari Semenanjung Noto di Prefektur Ishikawa.",
+          "quote": "Appearance: A kurote is a bizarre, hairy yōkai from the Noto peninsula in Ishikawa Prefecture.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11678278-c07",
+          "source_id": "wd-q11678278-s2",
+          "host": "yokai.com",
+          "statement": "With one swing of his sword, Jingobei cut the hand clean off and put it into a box.",
+          "statement_id": "Dengan sekali ayunan pedang, Jingobei memotong tangan itu, lalu menyimpannya di dalam sebuah kotak.",
+          "quote": "With one swing of his sword, Jingobei sliced the hand clean off. He put it into a box.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11678278-c08",
+          "source_id": "wd-q11678278-s2",
+          "host": "yokai.com",
+          "statement": "The Yokai.com version calls Kasamatsu Jingobei of Noto province a samurai.",
+          "statement_id": "Versi Yokai.com menyebut Kasamatsu Jingobei dari Provinsi Noto sebagai seorang samurai.",
+          "quote": "Long ago in the province of Noto, there was a samurai named Kasamatsu Jingobei.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q125544551",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "9ab7cdf1e71b5aeb1abc0536634ef2bf60477054405527b2f4fd0b9b013a2611",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q125544551-c01",
@@ -386,26 +451,41 @@
           "quote": "ヤドモリ（宿守）やヤモリ（屋守）という名称は、家を護ると信じられていた点からつけられており、愛媛県の宇和地方では盗人が侵入して来たことを「宿守」が知らせる、高知県では床下にこれが住んでいれば嵐のときに大黒柱を抱いて家を護ってくれる、ヤドモリが護っている家には火事が起こらないなどの俗信が見られる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q125544551-c05",
+          "source_id": "wd-q125544551-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes yadomori as giant toads about as large as a human, with long black hair and wearing clothes.",
+          "statement_id": "Yokai.com menggambarkan yadomori seperti katak raksasa sebesar manusia, berambut hitam panjang, dan berpakaian.",
+          "quote": "Appearance: Yadomori look like giant toads about as large as a human. They have long, black hair and they wear clothes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q125544551-c06",
+          "source_id": "wd-q125544551-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, yadomori form from the spirits of toads crushed to death by humans; the angry spirits bear a grudge, become giant toad monsters, and sneak into their killer's bedroom to haunt them at night.",
+          "statement_id": "Menurut Yokai.com, yadomori terbentuk dari roh katak yang mati terinjak manusia; roh yang marah itu menyimpan dendam, berubah menjadi monster katak raksasa, dan menyelinap ke kamar tidur pembunuhnya untuk menghantuinya pada malam hari.",
+          "quote": "Behavior: Yadomori are formed from the spirits of toads which have been crushed to death by humans. The angry spirits develop a grudge and transform into giant toad monsters, sneaking into their killer’s bedroom to haunt them at night.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q125553081",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "80af6f9ff36eb6bcd8e76c6906a50a2357f6248a94b7b97a147c8d75d214e3b0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q125553081-c01",
@@ -445,6 +525,36 @@
           "statement_id": "Cerita kerasukan dalam buku modern tidak memiliki dukungan dari bahan lama yang disebut dalam artikel.",
           "quote": "現代仮名づかい表記において、むましかと表記されることもあるが、「むま」は一般的な「馬」（んま・うま）の歴史的仮名づかいでの表記であり、原文表記以外の場面で、現代仮名づかいとしての読み表記に用いるのは不統一な誤用に過ぎない。また、平成以降の妖怪図鑑などでの解説には、人間に取り憑いて無益な行動や力を持たせ馬鹿者にしてしまう妖怪であるという内容も語られているが、そのような言及のある過去の資料は存在していない。",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q125553081-c05",
+          "source_id": "wd-q125553081-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes mumashika as comical-looking yōkai with the body of a deer and the head of a horse, and only one eye.",
+          "statement_id": "Yokai.com menggambarkan mumashika sebagai yōkai berpenampilan lucu dengan tubuh rusa dan kepala kuda, serta hanya bermata satu.",
+          "quote": "Appearance: Mumashika are comical looking yōkai with the body of a deer and the head of a horse. They have only one eye.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q125553081-c06",
+          "source_id": "wd-q125553081-s2",
+          "host": "yokai.com",
+          "statement": "Its name is pronounced mumashika but written with kanji commonly read as baka, meaning foolish or stupid.",
+          "statement_id": "Namanya dilafalkan mumashika, tetapi ditulis dengan kanji yang biasa dibaca baka, yang berarti bodoh.",
+          "quote": "Although the name is pronounced mumashika, it is written with kanji commonly read as baka—meaning foolish or stupid.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q125553081-c07",
+          "source_id": "wd-q125553081-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The image description of the Nichibunken 化物尽絵巻: a horse-like (馬) creature with one horn on the crown of its head and bulging eyeballs, wrapped in a robe (衣) and posing comically (滑稽).",
+          "statement_id": "Deskripsi gambar dalam 化物尽絵巻 milik Nichibunken: makhluk seperti kuda (馬) dengan satu tanduk di puncak kepala, bola mata menonjol, berbalut jubah (衣), dan bergaya lucu (滑稽).",
+          "quote": "馬のような化物で、頭頂部には1本の角がある。目玉が飛び出ている。衣をまとい、滑稽な仕草をしている。",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -498,24 +608,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "87535a6a216a1e3f2549472da50653996b8552255a637438d4b95cb89c219952"
     },
     {
       "slug": "wd-q17192850",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "afaf6b712ca96920a4196f443f2b66d7cb51f18b71309a179335d10cbda16777",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q17192850-c01",
@@ -554,6 +660,36 @@
           "statement": "Accounts connect it with neighboring kappa exchanging gifts.",
           "statement_id": "Cerita menghubungkannya dengan sejumlah kappa tetangga yang saling memberi hadiah.",
           "quote": "笹井の竹坊や小畔の小次郎、小沼のかじ坊などといった河童と仲が良かったともいわれ、その交流を語る伝承も複数残されている。\n所沢市の曼陀羅淵に棲む河童も襲った子供の腸を竹坊や袈裟坊への贈り物にしていたとされている。\nまた、伊草の河童と持明院の曼陀羅堂の河童（曼荼羅淵の河童）は夫婦だったともいわれている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17192850-c05",
+          "source_id": "wd-q17192850-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "It is said that the kappa of the 曼荼羅池 pond took the livers of living people (生き胆) because it had to send them as chūgen (中元) gifts to its fellow kappa named 「袈裟坊」 and 「竹坊」.",
+          "statement_id": "Konon kappa di kolam 曼荼羅池 mengambil hati manusia hidup (生き胆) karena harus mengirimkannya sebagai hadiah chūgen (中元) kepada kawannya, kappa bernama 「袈裟坊」 dan 「竹坊」.",
+          "quote": "曼荼羅池の河童が生き胆を取る理由は、仲間の「袈裟坊」と「竹坊」という河童に、中元の進物として贈らなければならないからだと言われている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17192850-c06",
+          "source_id": "wd-q17192850-s3",
+          "host": "www.tama6.jp",
+          "statement": "This place was called a \"kappa dwelling\" (河童のすみか) together with 伊草の袈裟坊 (けさぼう) and 笹井の竹が淵.",
+          "statement_id": "Tempat ini disebut sebagai \"tempat tinggal kappa\" (河童のすみか) bersama 伊草の袈裟坊 (けさぼう) dan 笹井の竹が淵.",
+          "quote": "ここは、伊草の袈裟坊(けさぼう)、笹井の竹が淵とともに「河童のすみか」といわれていました。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17192850-c07",
+          "source_id": "wd-q17192850-s3",
+          "host": "www.tama6.jp",
+          "statement": "Long ago the kappa of 曼荼羅ヶ淵 passed along the riverbed every chūgen (中元) season to bring the human livers it had taken to 「笹井の竹が淵」 beyond 豊岡 and to 「伊草の袈裟坊」 north of 川越 as gifts (土産).",
+          "statement_id": "Dahulu kappa di 曼荼羅ヶ淵 setiap musim chūgen (中元) melewati dasar sungai untuk membawa hati manusia hidup yang diambilnya ke 「笹井の竹が淵」 di seberang 豊岡 dan ke 「伊草の袈裟坊」 di utara 川越 sebagai oleh-oleh (土産).",
+          "quote": "昔ここにいた河童は、毎年五月の過ぎ中元になると、川底を通り抜けて、曼荼羅ヶ淵で取った人間の生き肝を、豊岡の先の「笹井の竹が淵」と川越の北の「伊草の袈裟坊」へ土産として持参することになっていました。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -642,7 +778,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ae5c8cf9e49072302595d9937c2152dec673f8e5795bd3884afdcf9696cae23c"
     },
     {
       "slug": "wd-q17225776",
@@ -702,24 +839,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f7d8b42a019701a5eba71396f33132df51e4c7e3fab86ec970d8fa22bfced4a8"
     },
     {
       "slug": "wd-q20043065",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-5.md",
+      "entry_sha256": "7dac52d38f109aedb42d644fb69f95cb1293526585953323ac76affaad0faca8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q20043065-c01",
@@ -750,24 +883,55 @@
           "quote": "どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。 脚注 [編集]",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q20043065-c04",
+          "source_id": "wd-q20043065-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes igabō as blue-skinned and wearing baggy robes, their most prominent feature being a jaw covered in several spiky protuberances.",
+          "statement_id": "Yokai.com menggambarkan igabō berkulit biru dan berjubah longgar, dengan ciri paling menonjol berupa rahang yang ditutupi beberapa tonjolan berduri.",
+          "quote": "Appearance: Igabō have blue skin and wear baggy robes. Their most prominent feature is their jaw, which is covered in several spikey protuberances.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q20043065-c05",
+          "source_id": "wd-q20043065-s2",
+          "host": "yokai.com",
+          "statement": "Igabō appear in several yōkai scrolls only as pictures; aside from the name, there are no stories of what they actually do.",
+          "statement_id": "Igabō muncul di beberapa gulungan yōkai hanya sebagai gambar; selain namanya, tidak ada kisah tentang apa yang sebenarnya mereka lakukan.",
+          "quote": "Origin: Igabō appear in several yōkai scrolls, but only as pictures. Aside from the name, there are no stories as to what they actually do.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q20043065-c06",
+          "source_id": "wd-q20043065-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the word \"iga\" means \"burr\", and because of the resemblance to the igabō's spiky jaw, this yōkai may be the spirit of a chestnut burr.",
+          "statement_id": "Menurut Yokai.com, kata \"iga\" berarti kulit buah berduri (burr), dan karena kemiripannya dengan rahang igabō yang berduri, yōkai ini mungkin roh kulit buah kastanye (chestnut burr).",
+          "quote": "The word “iga” means “burr,” and due to the resemblance with the igabō’s spikey jaw, this yōkai may be the spirit of a chestnut burr.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q20044987",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-6.md",
+      "entry_sha256": "551d3619b14f6fc085dc847ac40773496b8cd9086ce1b1ee3be7a1c7aa7ce539",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: yokai.com (tidak bisa dibuka (timeout))."
         }
       ],
       "claims": [
@@ -810,26 +974,54 @@
           "quote": "どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。 脚注 [編集]",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q20044987-c05",
+          "source_id": "wd-q20044987-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes shiro ukari as a ghost-like spirit with a very long tail, white in colour, with large eyes staring into the distance as if lost in thought.",
+          "statement_id": "Yokai.com menggambarkan shiro ukari sebagai roh mirip hantu dengan ekor sangat panjang, berwarna putih, dan bermata besar yang menatap jauh seolah tenggelam dalam pikiran.",
+          "quote": "Appearance: Shiro ukari is a ghost-like spirit with a very long tail. It is white, with large eyes that stare off into the distance as if lost in thought.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "wd-q20044987-c06",
+          "source_id": "wd-q20044987-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, shiro ukari appears only on a few Edo-period scroll paintings and was invented by an artist rather than recorded from folklore.",
+          "statement_id": "Menurut Yokai.com, shiro ukari hanya muncul di beberapa lukisan gulungan zaman Edo dan diciptakan oleh seniman, bukan dicatat dari cerita rakyat.",
+          "quote": "Origin: Shiro ukari appears on a few Edo period scroll paintings, and nowhere else. It was invented by an artist rather than recorded from folklore.",
+          "context": "modern-popular-culture",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "wd-q20044987-c07",
+          "source_id": "wd-q20044987-s2",
+          "host": "yokai.com",
+          "statement": "Shiro ukari literally means \"white floater\", and both words carry a number of nuances that could refer to the spirit's true nature.",
+          "statement_id": "Secara harfiah shiro ukari berarti \"pengapung putih\" (white floater), dan kedua katanya memiliki sejumlah nuansa yang mungkin merujuk pada hakikat roh ini.",
+          "quote": "While it shiro ukari literally means “white floater,” both of these words carry a number of nuances which could refer to this spirit’s true nature.",
+          "context": "etymology",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q22123521",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-6.md",
+      "entry_sha256": "a18c5a9e60f686ca19b3bb2707bf754cdb31bebcbb00cc071fd724628c97c6de",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22123521-c01",
@@ -878,6 +1070,36 @@
           "statement": "The Taiheiki version depicts a dragon deity turning into a giant fish before being killed.",
           "statement_id": "Versi Taiheiki menggambarkan dewa naga yang berubah menjadi ikan raksasa sebelum dibunuh.",
           "quote": "室町時代に書かれた『太平記』では、鮫大魚とする。僧の妙吉が足利直義に語った故事として記される。やはり蓬莱山に不死の薬を求めた徐福・文政という道士が、竜神の祟りのせいで蓬莱に行けないと言い立てたため、始皇帝は数万槽の大船を率いて海に乗り出した。之罘の大河を過ぎるとき、300万人がときの声をあげると、驚いた竜神が鮫大魚という500丈（約1500メートル）ばかりの魚に変じて姿を現した。その頭は師子（獅子）のようで天に向かってそびえ、背は竜虵のようで海に横たわった。だが、四方から放たれた数百万の毒の矢を受けてたちまち殺された。その夜、始皇帝は竜神と戦う夢を見たが、翌日から病み苦しみ、7日後に死んだという。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22123521-c06",
+          "source_id": "wd-q22123521-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiji (史記) records that the fangshi Xu Fu (徐巿) and his companions, who for years failed to find the divine medicine (神藥) at sea and feared punishment, falsely claimed that the Penglai (蓬萊) medicine could be obtained but they were always troubled by a great fish (大鮫魚), and asked for skilled archers to shoot it with repeating crossbows (連弩).",
+          "statement_id": "Shiji (史記) mencatat bahwa ahli ilmu gaib Xu Fu (徐巿) dan kawan-kawannya, yang bertahun-tahun gagal menemukan obat dewa (神藥) di laut dan takut dihukum, berdusta bahwa obat Penglai (蓬萊) bisa didapat tetapi mereka selalu diganggu oleh ikan besar (大鮫魚), lalu meminta pemanah ulung untuk menembaknya dengan busur silang beruntun (連弩).",
+          "quote": "方士徐巿等入海求神藥，數歲不得，費多，恐譴，乃詐曰：「蓬萊藥可得，然常為大鮫魚所苦，故不得至，願請善射與俱，見則以連弩射之。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22123521-c07",
+          "source_id": "wd-q22123521-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The First Emperor (始皇) dreamed of fighting a sea god (海神) in human shape; the dream interpreter (博士) said the water god cannot be seen and great fish and dragons (大魚蛟龍) are its sign, and that this evil god (惡神) should be removed so the good gods could come.",
+          "statement_id": "Sang Kaisar Pertama (始皇) bermimpi bertarung dengan dewa laut (海神) berwujud manusia; penafsir mimpi (博士) berkata bahwa dewa air tidak terlihat dan ikan besar serta naga (大魚蛟龍) adalah tandanya, dan dewa jahat (惡神) itu harus disingkirkan agar dewa baik dapat datang.",
+          "quote": "始皇夢與海神戰，如人狀。問占夢，博士曰：「水神不可見，以大魚蛟龍為候。今上禱祠備謹，而有此惡神，當除去，而善神可致。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22123521-c08",
+          "source_id": "wd-q22123521-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The emperor ordered those going to sea to carry gear for catching the giant fish (巨魚) and himself waited with repeating crossbows; from 瑯邪 north to 榮成山 it was not seen, but at 之罘 he saw a giant fish and shot one dead.",
+          "statement_id": "Kaisar memerintahkan orang yang berlayar membawa alat penangkap ikan raksasa (巨魚) dan sendiri menunggu dengan busur silang beruntun; dari 瑯邪 ke utara sampai 榮成山 ikan itu tidak terlihat, tetapi di 之罘 ia melihat ikan raksasa dan memanah mati seekor.",
+          "quote": "乃令入海者齎捕巨魚具，而自以連弩候大魚出射之。自瑯邪北至榮成山，弗見。至之罘，見巨魚，射殺一魚。",
           "context": "historical-record",
           "status": "exact"
         }
@@ -932,7 +1154,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2d15f383b186470a0a1a55e422e3846863ee42e9f728c53bdb1d5d63d08ac822"
     },
     {
       "slug": "wd-q22124194",
@@ -982,24 +1205,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "03a54a29a2e6bf58a1e027f3e0e3f5619d56896b17ba4fae991e0a8ded41d509"
     },
     {
       "slug": "wd-q22128603",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-6.md",
+      "entry_sha256": "4e2c40e90bac445520292307a89215032ef484baad9f8f764a8e6d7410e61646",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22128603-c01",
@@ -1029,6 +1248,46 @@
           "statement_id": "Perilakunya tidak dijelaskan; gambarnya diduga mengambil acuan dari gulungan abad pertengahan.",
           "quote": "どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。デザイン上のモデルとなったのは、室町時代の『百鬼夜行絵巻』に描かれている同様の姿をした妖怪であると考えられている。",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22128603-c04",
+          "source_id": "wd-q22128603-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes nigawarai as large, ugly yōkai with horns and green-tinged, hairy bodies, wearing dirty rags.",
+          "statement_id": "Yokai.com menggambarkan nigawarai sebagai yōkai besar dan buruk rupa, bertanduk, bertubuh berbulu kehijauan, dan berpakaian kain lusuh.",
+          "quote": "Appearance: Nigawarai are large, ugly yōkai with horns and green-tinged, hairy bodies. They wear dirty rags.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22128603-c05",
+          "source_id": "wd-q22128603-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, nigawarai are created from the negative feelings of human beings, particularly ill humour and forced, feigned amusement.",
+          "statement_id": "Menurut Yokai.com, nigawarai tercipta dari perasaan negatif manusia, terutama suasana hati buruk dan keriangan yang dipaksakan atau pura-pura.",
+          "quote": "Behavior: Nigawarai are created out of the negative feelings of human beings—particularly, ill-humor and forced, feigned amusement.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22128603-c06",
+          "source_id": "wd-q22128603-s2",
+          "host": "yokai.com",
+          "statement": "The earliest references to nigawarai go back to the Muromachi period, in monster scrolls; those paintings carried no description, so the artists' original intent is unknown.",
+          "statement_id": "Rujukan paling awal tentang nigawarai berasal dari zaman Muromachi, dalam gulungan monster; lukisan-lukisan itu tanpa keterangan, sehingga maksud asli para senimannya tidak diketahui.",
+          "quote": "Origin: The earliest references to nigawarai go back to the Muromachi period, where they appear in monster scrolls. These paintings appeared without description, so the original intent of the artists in describing this yōkai is unknown.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22128603-c07",
+          "source_id": "wd-q22128603-s2",
+          "host": "yokai.com",
+          "statement": "Over the centuries nigawarai kept appearing in other monster scrolls, and through the work of many artists they eventually acquired the traits known today.",
+          "statement_id": "Selama berabad-abad nigawarai terus muncul di gulungan monster lain, dan melalui karya banyak seniman akhirnya terbentuk ciri-ciri yang dikenal sekarang.",
+          "quote": "Over the centuries, nigawarai continued to appear in other monster scrolls. Through the work of numerous artists, they eventually developed the traits that they are known for today.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1092,24 +1351,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f0779a0fefc6184d8b7733c301135ca2b25509a58f805b234350dbb1b8ea40f"
     },
     {
       "slug": "wd-q22131065",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-6.md",
+      "entry_sha256": "440ce8eff4998fc42469fdd93482ed2bd82b4fd3ef189b360bb7e3d8b58a156e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22131065-c01",
@@ -1150,26 +1405,41 @@
           "quote": "熊本県八代市の松井文庫に所蔵されている妖怪絵巻『百鬼夜行絵巻』では同じ形状の妖怪がじゅうじゅう坊（じゅうじゅうぼう）という名前で描かれている。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22131065-c05",
+          "source_id": "wd-q22131065-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes minokedachi as ugly spirits resembling hairy old men, their bodies covered in short, bristly hairs standing on end, the feature the yōkai is named for.",
+          "statement_id": "Yokai.com menggambarkan minokedachi sebagai roh buruk rupa yang menyerupai lelaki tua berbulu, dengan tubuh tertutup bulu pendek kaku yang berdiri tegak, ciri yang menjadi asal namanya.",
+          "quote": "Appearance: Minokedachi are ugly spirits which resemble hairy old men. Their bodies are covered in short, bristly hairs which stand up on end–the feature which this yōkai is named for.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22131065-c06",
+          "source_id": "wd-q22131065-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com mentions a theory that, since hair stands on end from fear, this yōkai may be a spirit of fear or cowardice.",
+          "statement_id": "Yokai.com menyebut satu teori: karena bulu berdiri akibat rasa takut, yōkai ini mungkin roh ketakutan atau kepengecutan.",
+          "quote": "Another theory is that that since hair stands up on end as a result of fear, this yōkai may be a spirit of either fear or cowardice.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q28685478",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-6.md",
+      "entry_sha256": "6f9a5fc87a10d81b5bd78348b39bcd8168ae16a35782109179d8818819336ccb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q28685478-c01",
@@ -1199,6 +1469,46 @@
           "statement_id": "Ia ditemukan dalam beberapa gulungan zaman Edo, sementara bentuk serupa pada versi Gōchō tidak diberi nama.",
           "quote": "両手を頭の上にかかげ、顔を恥ずかしがって隠しているように見える姿で描かれている。江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）や『化物絵巻』（蔵・国立歴史民俗博物館）、『化物尽絵巻』（蔵・国際日本文化研究センター）などに確認されている。尾田郷澄『百鬼夜行絵巻』にも同様の図柄が描かれているが名称の記述はなく無名である。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q28685478-c04",
+          "source_id": "wd-q28685478-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes hajikkaki as pathetic-looking yōkai with plump, white, hairless blobby bodies, round eyes and protruding fangs.",
+          "statement_id": "Yokai.com menggambarkan hajikkaki sebagai yōkai berpenampilan menyedihkan dengan tubuh gumpal yang gemuk, putih, dan tak berbulu, bermata bulat, dan bertaring menonjol.",
+          "quote": "Appearance: Hajikkaki are pathetic looking yōkai with plump, white, hairless blobby bodies. They have round eyes and protruding fangs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q28685478-c05",
+          "source_id": "wd-q28685478-s2",
+          "host": "yokai.com",
+          "statement": "Hajikkaki appear in a number of old yōkai scrolls such as the Bakemono zukushi emaki; like most scroll yōkai, all that is recorded is a name and an illustration.",
+          "statement_id": "Hajikkaki muncul di sejumlah gulungan yōkai lama seperti Bakemono zukushi emaki; seperti kebanyakan yōkai gulungan, yang tercatat hanyalah nama dan gambar.",
+          "quote": "Origin: Hajikkaki appear in a number of old yokai scrolls, such as the Bakemono zukushi emaki. Like most of the yōkai found in scrolls, all that is recorded is a name and an illustration.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q28685478-c06",
+          "source_id": "wd-q28685478-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, although nothing is written about hajikkaki, its illustrations are based on a Chinese spirit called the shahyōchū (謝豹虫).",
+          "statement_id": "Menurut Yokai.com, meskipun tidak ada tulisan tentang hajikkaki, gambarnya didasarkan pada roh dari Tiongkok (Chinese) yang disebut shahyōchū (謝豹虫).",
+          "quote": "Although nothing is written about hajikkaki, its illustrations are based on a Chinese spirit called the shahyōchū (謝豹虫).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q28685478-c07",
+          "source_id": "wd-q28685478-s2",
+          "host": "yokai.com",
+          "statement": "In Chinese folklore, shahyōchū are frog-like bugs born from the souls of people who died while feeling embarrassed.",
+          "statement_id": "Dalam cerita rakyat Tiongkok (Chinese folklore), shahyōchū adalah serangga mirip katak yang lahir dari jiwa orang yang meninggal dalam keadaan malu.",
+          "quote": "In Chinese folklore, shahyōchū are frog-like bugs which are born from the souls of people who died while feeling embarrassed.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1272,22 +1582,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "871e09f60109b53d5fb759ab77cfe7ac12df732307a1abe1211ef5ebf134bc72"
     },
     {
       "slug": "wd-q4247357",
-      "file": "batch-065.md",
+      "file": "batch-065-fix-6.md",
+      "entry_sha256": "f1b55a8e3adbce5a1119154475e9bd0bdd882d73f85e3edc39d7542173558151",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 kutipan berbeda dari 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1330,6 +1642,16 @@
           "quote": "Некоторые определяют кунэюсури как разновидность полтергейста, другие — как результат деятельности животных, ведущих ночной образ жизни.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q4247357-c05",
+          "source_id": "wd-q4247357-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The bakemono (化物) that violently shakes hedges (生垣) is called kune-yusuri (クネ揺すり); it stays right beside the azuki-togi (小豆とぎ), a bakemono that makes the sound of washing azuki (小豆) beans.",
+          "statement_id": "Makhluk (化物) yang mengguncang pagar tanaman (生垣) dengan keras disebut kune-yusuri (クネ揺すり); ia berada tepat di samping azuki-togi (小豆とぎ), makhluk yang memperdengarkan suara mencuci kacang merah (小豆).",
+          "quote": "生垣をひどくゆする化物をクネ揺すりという。小豆とぎ（小豆をとぐ音を聞かせる化物）のすぐ傍らにいる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1351,7 +1673,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "9ced60b63257c33cb161345bd92e7814b150d0299a86135e4f0f912c38d5513b"
     },
     {
       "slug": "wd-q97185451",
@@ -1411,7 +1734,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "252df58907092bd3c7d13adf378b4fded178a0fd2d57f9d6572f613e61f7dd78"
     },
     {
       "slug": "wd-q97189476",
@@ -1481,7 +1805,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "29d19543057bd63bf8b38e2c0f1d8c0d44b08c28ab89f66fa1906d7e08ec98fd"
     },
     {
       "slug": "wd-q97218240",
@@ -1605,7 +1930,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e94f3caad6dc6cacf00eeffc72ecf6e845584df38beb84df3d9e0a142186c9f5"
     },
     {
       "slug": "yachinomi-no-mikoto",
@@ -1665,7 +1991,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c9def8d256f8798df34c366a9e6b3dd687c1b6ad9a6a3007ea710d6e9b7fed12"
     },
     {
       "slug": "yametsuhime",
@@ -1735,7 +2062,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "822d12bba08d7d3b3aae7da4cd8546665cb241e749b69c04fad76ec2e784d521"
     },
     {
       "slug": "yashimamuji",
@@ -1805,7 +2133,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "27b8684993c9521c4bebcf5098656993a99a36d1711758e0c668ff4aaf68ecca"
     },
     {
       "slug": "yatsuagata-sukune",
@@ -1875,7 +2204,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "905e22cdf915c0bc689ee266bfa942629a6a295135ace05826b9a675ce68844d"
     },
     {
       "slug": "yazuka-otoko-no-mikoto",
@@ -1935,7 +2265,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e9ec609784acf03cecf5550b9875796b1990bf2c8ad5b5425ab3d970c7f7d93c"
     },
     {
       "slug": "yofune-nushi",
@@ -2005,7 +2336,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "60a0f045f6125ab9698f3a04ca436e5bd01cd4667f90fe9d0afe3778e965b0d1"
     },
     {
       "slug": "yuga-daigongen",
@@ -2075,7 +2407,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2ddacaee6d55ea4d2e9bb3666f46725df930c289f8c22fd396749d3a7babd0fd"
     }
   ]
 }

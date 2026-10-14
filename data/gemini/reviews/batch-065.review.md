@@ -1,19 +1,21 @@
 # Review batch-065
 
-Diperiksa 2026-10-03T15:58:12.083Z. Berkas: batch-065.md, batch-065-fix-1.md, batch-065-fix-2.md, batch-065-fix-3.md, batch-065-fix-4.md.
+Diperiksa 2026-10-14T02:28:32.728Z. Berkas: batch-065.md, batch-065-fix-1.md, batch-065-fix-2.md, batch-065-fix-3.md, batch-065-fix-4.md, batch-065-fix-5.md, batch-065-fix-6.md.
 
 ## wd-q11667794 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11667794-c01 | exact | ja.wikipedia.org | Umanoashi is a Japanese yōkai appearing as horse legs hanging from tree branches at night, supposedly kicking approaching travelers. | 馬の足（うまのあし）とは、夜道を歩いているときに遭遇するといわれる日本の妖怪。馬の足が木の枝になぜかぶら下がっているような姿で出現し、不用意に近づくと蹴り飛ばされるといわれる。 |
 | wd-q11667794-c02 | exact | ja.wikipedia.org | A Kurume account attributes the large-leg apparition to a tanuki bewildering travelers. | 福岡県では夜に塀から突き出した木の枝などから現れたという。福岡県久留米市原古賀町では、かつて多くの木々が茂り、後に木が切られて根ばかりになった地があったが、この地でタヌキが通行人を化かし、真夜中には長さ1丈（約3メートル）の馬の足をぶら下げたという。 |
 | wd-q11667794-c03 | exact | ja.wikipedia.org | Iwamura Kaidan Roku records horse legs appearing from a fence on a rainy night. | また山口県の怪談集『岩邑怪談録』によれば、雨の夜、安達氏という家の垣塀から馬の足が突然突き出したと記述があり、前述の福岡の伝承とほぼ同じものと見られている。 |
+| wd-q11667794-c04 | exact | www.nichibun.ac.jp | According to a folklore record summary, at night a single horse leg (馬の片足) dangles and swings from a tree branch reaching out over an old wall; anyone passing beneath it unawares gets kicked. | 夜になると、古塀から枝を差し出している木の枝に、馬の片足が下がってぶらぶらしている。気づかずにその下を通ると、それに蹴飛ばされるという。 |
+| wd-q11667794-c05 | exact | kotobank.jp | The デジタル大辞泉プラス dictionary calls it a yōkai handed down in Fukuoka (福岡県) and Yamaguchi (山口県) Prefectures, taking the form of a horse leg hanging from a tree branch along a night road. | 福岡県、山口県に伝わる妖怪。夜道の木の枝にぶら下がっている馬の足の姿をしたもの。 |
 
 
 ## wd-q11669032 — lulus-otomatis
@@ -33,27 +35,22 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## wd-q11673348 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11673348-c01 | exact | ja.wikipedia.org | Kamioni, also called Kihatsu, is a Japanese hair yōkai in Sekien's Hyakki Tsurezure Bukuro. | 髪鬼（かみおに）または鬼髪（きはつ）とは、鳥山石燕の妖怪画集『百器徒然袋』にある日本の妖怪の一つで、頭髪の妖怪。 |
 | wd-q11673348-c02 | exact | ja.wikipedia.org | A woman's hatred or jealousy supposedly makes her hair lengthen and stand like horns, continuing to grow despite being cut. | 人間の女性の怨みの念や嫉妬心が自分の頭髪にこもって妖怪と化したものとされる。髪がどんどん長く伸び、その名前が示すようにあたかも鬼の角のように逆立つ。長く伸びた髪をいくら切り落とそうとも、どんどんと際限なく伸び続けてしまうという。 |
 | wd-q11673348-c03 | exact | ja.wikipedia.org | The being is regarded as Sekien's invention drawing on beliefs about hair's power. | 古より人間の頭髪には不思議な力があるといわれており、その伝承を元に石燕が創作した妖怪とされる。 脚注 |
+| wd-q11673348-c04 | exact | kotobank.jp | The デジタル大辞泉プラス dictionary describes the kamioni as a Japanese yōkai: hair imbued with an evil heart such as jealousy (嫉妬) grows long and stands up like an oni's horns, becoming a yōkai; it is also called kihatsu (鬼髪). | 日本の妖怪。嫉妬などの邪悪な心がこもった頭髪が長く伸び、鬼の角のように逆立ち妖怪化したもの。鬼髪(きはつ)とも。 |
 
 
 ## wd-q11677502 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `modern_depictions[0].title` Tidak muncul di kutipan mana pun: Mizuki Shigeru. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -61,14 +58,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q11677502-c02 | exact | ja.wikipedia.org | It is identified as hair within an asaoke container serving as a shrine's sacred object. | 加茂村の彌都比売神社（やつひめ）神社（文献によっては弥都波能売〈みつはのめ〉神社とも）の神体の麻桶に入れられた毛がその正体であるという。 |
 | wd-q11677502-c03 | exact | ja.wikipedia.org | When the deity is unsettled, the hair supposedly grows; one tale says it binds robbers until they are captured. | 神社に奉られている神の心が穏やかでないときに、その毛が長く伸びて麻桶から出て人を襲いだすという。『阿州奇事雑話』にある伝説によれば、かつて近隣の村を荒らし回っていた山賊が、ある晩に神社の祠に集まって盗品を分配していたところ、気づかぬ内にこの神体の毛が長く伸びて麻桶の蓋を突き上げ、1本の毛が山賊の人数分に裂け、山賊たちを締め上げた。そのまま山賊たちはどうすることもできず、翌朝追っ手に捕えられてしまったという。 |
 | wd-q11677502-c04 | exact | ja.wikipedia.org | Mizuki later depicts it as a large hair mass under the name Mayuge. | 妖怪漫画家・水木しげるの著書では「麻桶毛（まゆげ）」の題で記載されており、大きな毛の塊のような姿で人を襲う様子が描かれている。 |
+| wd-q11677502-c05 | exact | www.nichibun.ac.jp | At the 彌都波能売神社 shrine there is a belief about a sacred hair (神毛): a single long hair normally kept inside an asaoke (麻桶). | 彌都波能売神社には神毛にまつわる信仰がある。この神毛は一筋の長い毛であり、普段は麻桶の中に安置してある。 |
+| wd-q11677502-c06 | exact | www.nichibun.ac.jp | When the deity's will (神慮) is unsettled, the hair splits in two and grows until it pushes up the container and comes out; the villagers (里の人たち) say it returns to normal once the deity is appeased. | 神慮の穏かでないときは、その毛が二岐に分かれで伸び、桶を押し上げて外に出るほどになるという。神意が和むと元に戻るのだと里の人たちは語っている。 |
 
 
 ## wd-q11678278 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -77,14 +73,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q11678278-c03 | exact | ja.wikipedia.org | The being returns as three monks, takes its hand, and vanishes after revealing a gigantic form. | そして数日後、妖怪が3人組の僧に化けて手を取り返しに来た。僧の正体を知らない甚五兵衛は、自宅に怪しい相があるといわれ、件の手を見せた。手を受け取った僧の1人が「これは人家の便所に住み着く黒手という物だ」と言った。さらに別の僧が手を受け取り「これはお前に斬られた我が手だ!」と叫び、九尺（約2.7メートル）もの丈のある正体を現し、手を奪って3人もろとも消え去った。 |
 | wd-q11678278-c04 | exact | ja.wikipedia.org | In the story's continuation, a cloth-like thing lifts and drops the villager, and his sword disappears. | 後日、甚五兵衛が夕方遅くに家への帰り道を歩いていたところ、突然空から衾のようなものが降りてきて彼を包み込み、6～7尺（約1.8～2.1メートル）も宙に持ち上げ、下に落とした。気づいたときには甚五兵衛の懐から、黒手を斬った刀が奪われていたという。 |
 | wd-q11678278-c05 | exact | ja.wikipedia.org | Mizuki's ape-like image draws on a different account, so it does not establish Kurote's form in the early source. | 漫画家・水木しげるはこの妖怪を三本指で人間くらいの大きさの猿のような姿で描いている。ただしこの絵の元となったのは江戸時代の古書『絵本小夜時雨』巻五にある播州の奇談「播州士異獣を斬」であり、黒手とは異なる。 |
+| wd-q11678278-c06 | exact | yokai.com | Yokai.com describes the kurote as a bizarre, hairy yōkai from the Noto peninsula in Ishikawa Prefecture. | Appearance: A kurote is a bizarre, hairy yōkai from the Noto peninsula in Ishikawa Prefecture. |
+| wd-q11678278-c07 | exact | yokai.com | With one swing of his sword, Jingobei cut the hand clean off and put it into a box. | With one swing of his sword, Jingobei sliced the hand clean off. He put it into a box. |
+| wd-q11678278-c08 | exact | yokai.com | The Yokai.com version calls Kasamatsu Jingobei of Noto province a samurai. | Long ago in the province of Noto, there was a samurai named Kasamatsu Jingobei. |
 
 
 ## wd-q125544551 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -92,14 +88,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q125544551-c02 | exact | ja.wikipedia.org | It is drawn facing Bakotsu inside a mosquito net and said to visit the room of someone who killed a toad. | 『土佐お化け草紙』に描かれている蝦蟇の妖怪で、馬の妖怪「馬骨」（ばこつ）と室内に釣られた蚊帳（かや）の中で向かい合っている様子が描かれている。蝦蟇を殺した人間の寝室の中へやって来ると記載されている。 |
 | wd-q125544551-c03 | exact | ja.wikipedia.org | Yadomori is also a regional toad name in Shikoku, not exclusively a yōkai name. | 本来、ヤドモリというのは四国地方でのヒキガエルの地方名であり、呼称としては妖怪のみをさす固有名詞ではない。土佐国（高知県）ではクツヒキやオクツ、ヤモリやヤモリグツと呼ばれることのほうが多かったようである。 |
 | wd-q125544551-c04 | exact | ja.wikipedia.org | Local beliefs associate the toad with protecting homes from thieves, storms, or fire. | ヤドモリ（宿守）やヤモリ（屋守）という名称は、家を護ると信じられていた点からつけられており、愛媛県の宇和地方では盗人が侵入して来たことを「宿守」が知らせる、高知県では床下にこれが住んでいれば嵐のときに大黒柱を抱いて家を護ってくれる、ヤドモリが護っている家には火事が起こらないなどの俗信が見られる。 |
+| wd-q125544551-c05 | exact | yokai.com | Yokai.com describes yadomori as giant toads about as large as a human, with long black hair and wearing clothes. | Appearance: Yadomori look like giant toads about as large as a human. They have long, black hair and they wear clothes. |
+| wd-q125544551-c06 | exact | yokai.com | According to Yokai.com, yadomori form from the spirits of toads crushed to death by humans; the angry spirits bear a grudge, become giant toad monsters, and sneak into their killer's bedroom to haunt them at night. | Behavior: Yadomori are formed from the spirits of toads which have been crushed to death by humans. The angry spirits develop a grudge and transform into giant toad monsters, sneaking into their killer’s bedroom to haunt them at night. |
 
 
 ## wd-q125553081 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -107,6 +102,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q125553081-c02 | exact | ja.wikipedia.org | Its image resembles a clothed horse with protruding eyes and split hooves recalling a deer. | 衣服を着て前足を左右に広げ、目の玉が上に向かって飛び出した馬の姿で描かれている。前足の蹄はふたつに割れており鹿であることを示しているようである。江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）に描かれているのが確認されている。江戸時代に描かれた絵巻物のひとつである尾田郷澄『百鬼夜行絵巻』や、『化物尽絵巻』（国際日本文化研究センター所蔵）にも全くおなじ姿勢で同画題は描かれている。 |
 | wd-q125553081-c03 | exact | ja.wikipedia.org | Its behavior is unexplained; its form is thought to play on the horse and deer characters in baka. | 絵巻物にしか見られない同様の妖怪たちの例とおなじく、どのようなことをする妖怪であるのかは絵巻物にも示されていないため、具体的な意図や来歴の詳細は不明である。1990年代までは尾田郷澄『百鬼夜行絵巻』における独自に描かれた妖怪と見られていたが、いそがしや白うかりのように他の妖怪絵巻の類にも前後して描かれている事実が確認出来た妖怪のひとつである。「馬鹿」という言葉の漢字表記から連想されて描かれたものであると見られている。 |
 | wd-q125553081-c04 | exact | ja.wikipedia.org | Possession accounts in modern books lack support from the older material cited in the article. | 現代仮名づかい表記において、むましかと表記されることもあるが、「むま」は一般的な「馬」（んま・うま）の歴史的仮名づかいでの表記であり、原文表記以外の場面で、現代仮名づかいとしての読み表記に用いるのは不統一な誤用に過ぎない。また、平成以降の妖怪図鑑などでの解説には、人間に取り憑いて無益な行動や力を持たせ馬鹿者にしてしまう妖怪であるという内容も語られているが、そのような言及のある過去の資料は存在していない。 |
+| wd-q125553081-c05 | exact | yokai.com | Yokai.com describes mumashika as comical-looking yōkai with the body of a deer and the head of a horse, and only one eye. | Appearance: Mumashika are comical looking yōkai with the body of a deer and the head of a horse. They have only one eye. |
+| wd-q125553081-c06 | exact | yokai.com | Its name is pronounced mumashika but written with kanji commonly read as baka, meaning foolish or stupid. | Although the name is pronounced mumashika, it is written with kanji commonly read as baka—meaning foolish or stupid. |
+| wd-q125553081-c07 | exact | www.nichibun.ac.jp | The image description of the Nichibunken 化物尽絵巻: a horse-like (馬) creature with one horn on the crown of its head and bulging eyeballs, wrapped in a robe (衣) and posing comically (滑稽). | 馬のような化物で、頭頂部には1本の角がある。目玉が飛び出ている。衣をまとい、滑稽な仕草をしている。 |
 
 
 ## wd-q125629490 — lulus-otomatis
@@ -125,10 +123,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## wd-q17192850 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -136,6 +131,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q17192850-c02 | exact | ja.wikipedia.org | Its name is associated with monk-like kesa robes; it supposedly receives human intestines as gifts from other kappa. | 法師のように袈裟を纏っていることからこの名で呼ばれたといい、周辺の河童たちは毎年袈裟坊に人間の腸を中元として献上したという。 落合橋付近を夜遅く通ると呼び止められ、振り向くと大男が道に立ちふさがり、車を挽いて行くと後ろに吊下るなどして悪戯をした。 日本妖怪変化語彙では宮城県柴田郡の河童と記されている。 |
 | wd-q17192850-c03 | exact | ja.wikipedia.org | It blocks nighttime travelers near a bridge and hangs onto the backs of vehicles. | 法師のように袈裟を纏っていることからこの名で呼ばれたといい、周辺の河童たちは毎年袈裟坊に人間の腸を中元として献上したという。 落合橋付近を夜遅く通ると呼び止められ、振り向くと大男が道に立ちふさがり、車を挽いて行くと後ろに吊下るなどして悪戯をした。 日本妖怪変化語彙では宮城県柴田郡の河童と記されている。 |
 | wd-q17192850-c04 | exact | ja.wikipedia.org | Accounts connect it with neighboring kappa exchanging gifts. | 笹井の竹坊や小畔の小次郎、小沼のかじ坊などといった河童と仲が良かったともいわれ、その交流を語る伝承も複数残されている。 所沢市の曼陀羅淵に棲む河童も襲った子供の腸を竹坊や袈裟坊への贈り物にしていたとされている。 また、伊草の河童と持明院の曼陀羅堂の河童（曼荼羅淵の河童）は夫婦だったともいわれている。 |
+| wd-q17192850-c05 | exact | www.nichibun.ac.jp | It is said that the kappa of the 曼荼羅池 pond took the livers of living people (生き胆) because it had to send them as chūgen (中元) gifts to its fellow kappa named 「袈裟坊」 and 「竹坊」. | 曼荼羅池の河童が生き胆を取る理由は、仲間の「袈裟坊」と「竹坊」という河童に、中元の進物として贈らなければならないからだと言われている。 |
+| wd-q17192850-c06 | exact | www.tama6.jp | This place was called a "kappa dwelling" (河童のすみか) together with 伊草の袈裟坊 (けさぼう) and 笹井の竹が淵. | ここは、伊草の袈裟坊(けさぼう)、笹井の竹が淵とともに「河童のすみか」といわれていました。 |
+| wd-q17192850-c07 | exact | www.tama6.jp | Long ago the kappa of 曼荼羅ヶ淵 passed along the riverbed every chūgen (中元) season to bring the human livers it had taken to 「笹井の竹が淵」 beyond 豊岡 and to 「伊草の袈裟坊」 north of 川越 as gifts (土産). | 昔ここにいた河童は、毎年五月の過ぎ中元になると、川底を通り抜けて、曼荼羅ヶ淵で取った人間の生き肝を、豊岡の先の「笹井の竹が淵」と川越の北の「伊草の袈裟坊」へ土産として持参することになっていました。 |
 
 
 ## wd-q17223573 — lulus-otomatis
@@ -170,24 +168,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## wd-q20043065 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q20043065-c01 | exact | ja.wikipedia.org | Igabō is a yōkai in Japanese illustrated scrolls. | いが坊（いがぼう）は、日本の妖怪絵巻に描かれている妖怪。 概要 |
 | wd-q20043065-c02 | exact | ja.wikipedia.org | It is drawn with many chin protrusions and clothing lowered at the shoulders; a 1780 version names it Uwakuchi. | 顎の部分に数多くの突起物の生えた顔をしており、衣服を肩脱ぎした上半身の姿で描かれている。熊本県八代市の松井文庫所蔵品である妖怪絵巻『百鬼夜行絵巻』に描かれている。おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）ではうわ口（うわくち）という名前で同じ姿の妖怪が描かれている。 |
 | wd-q20043065-c03 | exact | ja.wikipedia.org | The scroll provides no explanation of its behavior. | どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。 脚注 [編集] |
+| wd-q20043065-c04 | exact | yokai.com | Yokai.com describes igabō as blue-skinned and wearing baggy robes, their most prominent feature being a jaw covered in several spiky protuberances. | Appearance: Igabō have blue skin and wear baggy robes. Their most prominent feature is their jaw, which is covered in several spikey protuberances. |
+| wd-q20043065-c05 | exact | yokai.com | Igabō appear in several yōkai scrolls only as pictures; aside from the name, there are no stories of what they actually do. | Origin: Igabō appear in several yōkai scrolls, but only as pictures. Aside from the name, there are no stories as to what they actually do. |
+| wd-q20043065-c06 | exact | yokai.com | According to Yokai.com, the word "iga" means "burr", and because of the resemblance to the igabō's spiky jaw, this yōkai may be the spirit of a chestnut burr. | The word “iga” means “burr,” and due to the resemblance with the igabō’s spikey jaw, this yōkai may be the spirit of a chestnut burr. |
 
 
 ## wd-q20044987 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 7 (exact 4, unreachable 3), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 3 kutipan tidak bisa dicek otomatis: yokai.com (tidak bisa dibuka (timeout)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -195,14 +193,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q20044987-c02 | exact | ja.wikipedia.org | It is drawn with an elongated white body in several Edo-period scrolls. | 白くて細長い胴体をした姿で描かれている。江戸時代に描かれた絵巻物のひとつである尾田郷澄『百鬼夜行絵巻』をはじめ、おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）や『ばけ物つくし帖』などに描かれているのが確認されている。 |
 | wd-q20044987-c03 | exact | ja.wikipedia.org | Comparison with other scrolls reveals the full body, which is cropped or fades in Gōchō's version. | 絵巻物に描かれている姿は下半身が非常に長く延びた状態で描かれているが、郷澄によるものは先端がぼかすように切れて描かれており、どのようになっているのかよくわからなかったが、『百物語化絵絵巻』や『ばけ物つくし帖』では郷澄の描写とは異なり、全身が画面内に描かれており、見てとることが出来る。2000年代に資料が公表・確認されることを通じて、類型からの検証が進んだ例のひとつである。 |
 | wd-q20044987-c04 | exact | ja.wikipedia.org | The scrolls do not explain its behavior. | どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。 脚注 [編集] |
+| wd-q20044987-c05 | unreachable (tidak bisa dibuka (timeout)) | yokai.com | Yokai.com describes shiro ukari as a ghost-like spirit with a very long tail, white in colour, with large eyes staring into the distance as if lost in thought. | Appearance: Shiro ukari is a ghost-like spirit with a very long tail. It is white, with large eyes that stare off into the distance as if lost in thought. |
+| wd-q20044987-c06 | unreachable (tidak bisa dibuka (timeout)) | yokai.com | According to Yokai.com, shiro ukari appears only on a few Edo-period scroll paintings and was invented by an artist rather than recorded from folklore. | Origin: Shiro ukari appears on a few Edo period scroll paintings, and nowhere else. It was invented by an artist rather than recorded from folklore. |
+| wd-q20044987-c07 | unreachable (tidak bisa dibuka (timeout)) | yokai.com | Shiro ukari literally means "white floater", and both words carry a number of nuances that could refer to the spirit's true nature. | While it shiro ukari literally means “white floater,” both of these words carry a number of nuances which could refer to this spirit’s true nature. |
 
 
 ## wd-q22123521 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -211,6 +209,9 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q22123521-c03 | exact | ja.wikipedia.org | Li Bai's poem depicts it as an enormous whale generating waves and thunderclouds. | 大鮫魚の姿について、李白の漢詩『古風五十九首』其3は、それを巨鯨として描いている。詩文では、始皇帝が射殺した海魚は崔嵬（さいかい）たる長鯨であり、その額と鼻は五岳（高大な名山）に似て、鬈（縮れた毛）と鬣（頸部の毛）は青天を覆い、波涛を巻き起こし、雲雷を吐き出したという。 |
 | wd-q22123521-c04 | exact | ja.wikipedia.org | Japan's Konjaku Monogatari version connects the fish's killing with the emperor's illness and death. | 平安時代の『今昔物語集』は高大魚と書く。始皇帝は左驂馬という愛馬を大高魚が食い殺す夢を見て、高大魚を殺せという命令を下した。人々は高大魚を探したが、とても殺せるものではない。それとは別に、不死の薬を求めた始皇帝は、方士を蓬莱山に使わしたが、これも高大魚に妨げられた。そこで始皇帝がみずから船に乗り、高大魚を射殺した。すると帰る間に重い病を受けて病死したという。 |
 | wd-q22123521-c05 | exact | ja.wikipedia.org | The Taiheiki version depicts a dragon deity turning into a giant fish before being killed. | 室町時代に書かれた『太平記』では、鮫大魚とする。僧の妙吉が足利直義に語った故事として記される。やはり蓬莱山に不死の薬を求めた徐福・文政という道士が、竜神の祟りのせいで蓬莱に行けないと言い立てたため、始皇帝は数万槽の大船を率いて海に乗り出した。之罘の大河を過ぎるとき、300万人がときの声をあげると、驚いた竜神が鮫大魚という500丈（約1500メートル）ばかりの魚に変じて姿を現した。その頭は師子（獅子）のようで天に向かってそびえ、背は竜虵のようで海に横たわった。だが、四方から放たれた数百万の毒の矢を受けてたちまち殺された。その夜、始皇帝は竜神と戦う夢を見たが、翌日から病み苦しみ、7日後に死んだという。 |
+| wd-q22123521-c06 | exact | zh.wikisource.org | The Shiji (史記) records that the fangshi Xu Fu (徐巿) and his companions, who for years failed to find the divine medicine (神藥) at sea and feared punishment, falsely claimed that the Penglai (蓬萊) medicine could be obtained but they were always troubled by a great fish (大鮫魚), and asked for skilled archers to shoot it with repeating crossbows (連弩). | 方士徐巿等入海求神藥，數歲不得，費多，恐譴，乃詐曰：「蓬萊藥可得，然常為大鮫魚所苦，故不得至，願請善射與俱，見則以連弩射之。」 |
+| wd-q22123521-c07 | exact | zh.wikisource.org | The First Emperor (始皇) dreamed of fighting a sea god (海神) in human shape; the dream interpreter (博士) said the water god cannot be seen and great fish and dragons (大魚蛟龍) are its sign, and that this evil god (惡神) should be removed so the good gods could come. | 始皇夢與海神戰，如人狀。問占夢，博士曰：「水神不可見，以大魚蛟龍為候。今上禱祠備謹，而有此惡神，當除去，而善神可致。」 |
+| wd-q22123521-c08 | exact | zh.wikisource.org | The emperor ordered those going to sea to carry gear for catching the giant fish (巨魚) and himself waited with repeating crossbows; from 瑯邪 north to 榮成山 it was not seen, but at 之罘 he saw a giant fish and shot one dead. | 乃令入海者齎捕巨魚具，而自以連弩候大魚出射之。自瑯邪北至榮成山，弗見。至之罘，見巨魚，射殺一魚。 |
 
 
 ## wd-q22123669 — lulus-otomatis
@@ -243,16 +244,17 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## wd-q22128603 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q22128603-c01 | exact | ja.wikipedia.org | Nigawarai is a yōkai in Japanese illustrated scrolls. | にがわらいは、日本の妖怪絵巻に描かれている妖怪。苦笑（にがわらい）とも書かれる。 |
 | wd-q22128603-c02 | exact | ja.wikipedia.org | It is drawn as a horned monster in several Edo-period scrolls. | 角の生えた怪物のような姿で描かれる。熊本県八代市の松井文庫所蔵品である妖怪絵巻『百鬼夜行絵巻』をはじめ、おなじく江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）や『ばけ物つくし帖』に描かれている。 |
 | wd-q22128603-c03 | exact | ja.wikipedia.org | Its behavior is unexplained; its image is thought to draw on a medieval scroll. | どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。デザイン上のモデルとなったのは、室町時代の『百鬼夜行絵巻』に描かれている同様の姿をした妖怪であると考えられている。 |
+| wd-q22128603-c04 | exact | yokai.com | Yokai.com describes nigawarai as large, ugly yōkai with horns and green-tinged, hairy bodies, wearing dirty rags. | Appearance: Nigawarai are large, ugly yōkai with horns and green-tinged, hairy bodies. They wear dirty rags. |
+| wd-q22128603-c05 | exact | yokai.com | According to Yokai.com, nigawarai are created from the negative feelings of human beings, particularly ill humour and forced, feigned amusement. | Behavior: Nigawarai are created out of the negative feelings of human beings—particularly, ill-humor and forced, feigned amusement. |
+| wd-q22128603-c06 | exact | yokai.com | The earliest references to nigawarai go back to the Muromachi period, in monster scrolls; those paintings carried no description, so the artists' original intent is unknown. | Origin: The earliest references to nigawarai go back to the Muromachi period, where they appear in monster scrolls. These paintings appeared without description, so the original intent of the artists in describing this yōkai is unknown. |
+| wd-q22128603-c07 | exact | yokai.com | Over the centuries nigawarai kept appearing in other monster scrolls, and through the work of many artists they eventually acquired the traits known today. | Over the centuries, nigawarai continued to appear in other monster scrolls. Through the work of numerous artists, they eventually developed the traits that they are known for today. |
 
 
 ## wd-q22130416 — lulus-otomatis
@@ -272,10 +274,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## wd-q22131065 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -283,20 +282,23 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q22131065-c02 | exact | ja.wikipedia.org | Its image is a short-haired body in profile with a protruding mouth, without an explanation of behavior. | 短い毛の多数生えた身体で、口を突き出した横向きの上半身の姿で描かれている。国際日本文化研究センター所蔵の『化物尽絵巻』や国立歴史民俗博物館所蔵の『化物絵巻』、『百物語化絵絵巻』（1780年）にも描かれている。解説文などは一切なく、どのようなことをする妖怪であるのかは絵巻物にも示されていないため詳細は不明である。 |
 | wd-q22131065-c03 | exact | ja.wikipedia.org | The name Minoketachi occurs in an older image record quoted in Kiyū Shōran. | 江戸時代の随筆『嬉遊笑覧』に引かれている古法眼元信が描いた「化物絵」に描かれていたとされる妖怪の中には「身の毛たち」という名称が確認できる。 |
 | wd-q22131065-c04 | exact | ja.wikipedia.org | A similar form in the Matsui Bunko scroll is named Jūjūbō. | 熊本県八代市の松井文庫に所蔵されている妖怪絵巻『百鬼夜行絵巻』では同じ形状の妖怪がじゅうじゅう坊（じゅうじゅうぼう）という名前で描かれている。 |
+| wd-q22131065-c05 | exact | yokai.com | Yokai.com describes minokedachi as ugly spirits resembling hairy old men, their bodies covered in short, bristly hairs standing on end, the feature the yōkai is named for. | Appearance: Minokedachi are ugly spirits which resemble hairy old men. Their bodies are covered in short, bristly hairs which stand up on end–the feature which this yōkai is named for. |
+| wd-q22131065-c06 | exact | yokai.com | Yokai.com mentions a theory that, since hair stands on end from fear, this yōkai may be a spirit of fear or cowardice. | Another theory is that that since hair stands up on end as a result of fear, this yōkai may be a spirit of either fear or cowardice. |
 
 
 ## wd-q28685478 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q28685478-c01 | exact | ja.wikipedia.org | Hajikaki is a yōkai in Japanese scrolls, also written Hajikkaki; details about it are unknown. | はじかきは、日本の妖怪絵巻に描かれている妖怪。絵巻物によっては名称ははじっかきとも書かれる。絵巻物に姿が描かれているのみの妖怪であり、詳細は不明である。 |
 | wd-q28685478-c02 | exact | ja.wikipedia.org | The image raises both hands above the head and appears to hide its face in embarrassment. | 両手を頭の上にかかげ、顔を恥ずかしがって隠しているように見える姿で描かれている。江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）や『化物絵巻』（蔵・国立歴史民俗博物館）、『化物尽絵巻』（蔵・国際日本文化研究センター）などに確認されている。尾田郷澄『百鬼夜行絵巻』にも同様の図柄が描かれているが名称の記述はなく無名である。 |
 | wd-q28685478-c03 | exact | ja.wikipedia.org | It occurs in several Edo-period scrolls, while a similar form in Gōchō's version is unnamed. | 両手を頭の上にかかげ、顔を恥ずかしがって隠しているように見える姿で描かれている。江戸時代に描かれた絵巻物『百物語化絵絵巻』（1780年）や『化物絵巻』（蔵・国立歴史民俗博物館）、『化物尽絵巻』（蔵・国際日本文化研究センター）などに確認されている。尾田郷澄『百鬼夜行絵巻』にも同様の図柄が描かれているが名称の記述はなく無名である。 |
+| wd-q28685478-c04 | exact | yokai.com | Yokai.com describes hajikkaki as pathetic-looking yōkai with plump, white, hairless blobby bodies, round eyes and protruding fangs. | Appearance: Hajikkaki are pathetic looking yōkai with plump, white, hairless blobby bodies. They have round eyes and protruding fangs. |
+| wd-q28685478-c05 | exact | yokai.com | Hajikkaki appear in a number of old yōkai scrolls such as the Bakemono zukushi emaki; like most scroll yōkai, all that is recorded is a name and an illustration. | Origin: Hajikkaki appear in a number of old yokai scrolls, such as the Bakemono zukushi emaki. Like most of the yōkai found in scrolls, all that is recorded is a name and an illustration. |
+| wd-q28685478-c06 | exact | yokai.com | According to Yokai.com, although nothing is written about hajikkaki, its illustrations are based on a Chinese spirit called the shahyōchū (謝豹虫). | Although nothing is written about hajikkaki, its illustrations are based on a Chinese spirit called the shahyōchū (謝豹虫). |
+| wd-q28685478-c07 | exact | yokai.com | In Chinese folklore, shahyōchū are frog-like bugs born from the souls of people who died while feeling embarrassed. | In Chinese folklore, shahyōchū are frog-like bugs which are born from the souls of people who died while feeling embarrassed. |
 
 
 ## wd-q28690843 — lulus-otomatis
@@ -317,10 +319,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## wd-q4247357 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 kutipan berbeda dari 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -328,6 +330,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q4247357-c02 | exact | ru.wikipedia.org | It is rarely seen, regarded as timid and harmless, and associated with Azukiarai. | Кунэюсури (яп. クネユスリ, трясущий живую изгородь), или кунэкосури (яп. クネコスリ) — призрачное явление и существо в японском фольклоре. Представляет собой звук подобный тому, как будто кто-то вдруг сильно потряс живую изгородь. Кунэюсури редко кто видел, так как это существо, в основном, робкое и не представляющее опасности для животных и человека. |
 | wd-q4247357-c03 | exact | ru.wikipedia.org | Accounts about it are recorded in Kakunodate, Akita. | Рассказы о кунэюсури были записаны в посёлке Какунодатэ (ныне — часть города Сембоку) в префектуре Акита на севере острова Хонсю. |
 | wd-q4247357-c04 | exact | ru.wikipedia.org | Interpretations vary between a poltergeist and nocturnal animal activity. | Некоторые определяют кунэюсури как разновидность полтергейста, другие — как результат деятельности животных, ведущих ночной образ жизни. |
+| wd-q4247357-c05 | exact | www.nichibun.ac.jp | The bakemono (化物) that violently shakes hedges (生垣) is called kune-yusuri (クネ揺すり); it stays right beside the azuki-togi (小豆とぎ), a bakemono that makes the sound of washing azuki (小豆) beans. | 生垣をひどくゆする化物をクネ揺すりという。小豆とぎ（小豆をとぐ音を聞かせる化物）のすぐ傍らにいる。 |
 
 
 ## wd-q56353727 — skip
