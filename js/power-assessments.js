@@ -5796,6 +5796,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "batara-kala": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa waktu dan kematian yang berkuasa dari gua bersama Setesuyara dan kemudian menguasai dunia bawah.",
+        "en": "The god of time and death who rules from a cave with Setesuyara and later came to rule the underworld.",
+        "claim_ids": [
+          "batara-kala-c01",
+          "batara-kala-c02",
+          "batara-kala-c05"
+        ]
+      },
+      "threat": {
+        "id": "Ia hanya ingin melahap manusia sehingga para dewa menariknya dari Bumi, dan ia berhak memangsa orang kelahiran Tumpek Wayang.",
+        "en": "He wanted only to devour humans, so the devas recalled him from Earth, and he may prey on those born on Tumpek Wayang.",
+        "claim_ids": [
+          "batara-kala-c05",
+          "batara-kala-c12"
+        ]
+      },
+      "fear": {
+        "id": "Raksasa waktu dan kematian yang mengancam orang sukerta menghadapkan manusia pada rapuhnya hidup.",
+        "en": "A giant of time and death who threatens sukerta people confronts humans with life's fragility.",
+        "claim_ids": [
+          "batara-kala-c02",
+          "batara-kala-c15",
+          "batara-kala-c16"
+        ]
+      }
+    }
+  },
   "batibat": {
     "power": "superhuman",
     "threat": "t1",
@@ -12140,6 +12173,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "dewey-lake-monster-c02",
           "dewey-lake-monster-c09"
         ]
+      }
+    }
+  },
+  "dewi-sri": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi padi dan kesuburan yang di Kerajaan Sunda kuno dianggap dewi tertinggi bagi masyarakat agraris.",
+        "en": "The goddess of rice and fertility, held in the ancient Sunda Kingdom to be the highest goddess for agricultural society.",
+        "claim_ids": [
+          "dewi-sri-c01",
+          "dewi-sri-c15"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan sosok yang dihormati, bukan rasa takut kepadanya; rasa takut belum dinilai.",
+        "en": "The research describes a revered figure, not fear of it; fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
@@ -38767,6 +38825,31 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "selma-lake-monster-c02",
           "selma-lake-monster-c04"
         ]
+      }
+    }
+  },
+  "semar": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Penjelmaan Dewa Sang Hyang Ismaya dan roh penjaga Jawa, satu-satunya tokoh yang berani memprotes bahkan memaksa para dewa.",
+        "en": "The god Sang Hyang Ismaya in human form and guardian spirit of Java, the only figure who dares protest and even compel the gods.",
+        "claim_ids": [
+          "semar-c02",
+          "semar-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan sosok yang dihormati, bukan rasa takut kepadanya; rasa takut belum dinilai.",
+        "en": "The research describes a revered figure, not fear of it; fear is not assessed.",
+        "claim_ids": []
       }
     }
   },
