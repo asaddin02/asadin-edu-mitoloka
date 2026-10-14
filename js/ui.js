@@ -1,5 +1,8 @@
 import { getLanguage } from "./i18n.js";
-import { EDITORIAL_ART } from "./editorial-art.js";
+import * as ART from "./editorial-art.js";
+const EDITORIAL_ART = ART.EDITORIAL_ART;
+// Only the built site has thumbnails (scripts/build-site.mjs); the source file exports EDITORIAL_ART alone.
+const EDITORIAL_THUMBS = ART.EDITORIAL_THUMBS || {};
 export const bi = (id, en) => (getLanguage() === "en" ? en : id);
 export const escapeHtml = (value) =>
   String(value ?? "").replace(
@@ -29,3 +32,6 @@ export const icon = (name, size = 20) => {
 };
 export const editorialArt = (slug) =>
   Object.hasOwn(EDITORIAL_ART, slug) ? EDITORIAL_ART[slug] : null;
+/** The small copy for cards and lists; falls back to the full artwork where no thumbnail was built. */
+export const editorialThumb = (slug) =>
+  (Object.hasOwn(EDITORIAL_THUMBS, slug) ? EDITORIAL_THUMBS[slug] : null) || editorialArt(slug);

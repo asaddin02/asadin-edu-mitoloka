@@ -88,3 +88,5 @@
   .creature-card,.creature-card:hover { transition:none; transform:none; }
   .creature-card .card-media img { transition:none; }
 }
+/* A card's <picture> only chooses the file; the image keeps the card's own layout rules. */
+.card-media picture { display: contents; }

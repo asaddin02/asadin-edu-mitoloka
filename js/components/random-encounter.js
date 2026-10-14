@@ -3,7 +3,7 @@
  * Mysterious, immersive encounter reveal with cultural filtering.
  */
 
-import { editorialArt } from '../ui.js';
+import { editorialThumb } from '../ui.js';
 import { navigate } from '../router.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
@@ -97,7 +97,7 @@ export function openRandomEncounterModal(preferredCulture = null) {
 
       const displayName = resolveLocalized(creature.display_name, creature.canonical_name);
       const shortDesc = resolveLocalized(creature.short_description, '');
-      const primaryImg = editorialArt(creature.slug) || creature.images?.[0]?.thumbnail_url || '/assets/placeholders/creature-fallback.svg';
+      const primaryImg = editorialThumb(creature.slug) || creature.images?.[0]?.thumbnail_url || '/assets/placeholders/creature-fallback.svg';
 
       slot.innerHTML = `
         <div style="text-align: center; width: 100%;">

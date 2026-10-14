@@ -62,13 +62,19 @@ const upload = async () => {
       manifest[key] = hash;
       sent++;
       console.log(`uploaded ${key}`);
+      // Checkpoint every 100 files, so a deploy that runs out of time does not lose what it already sent.
+      if (sent % 100 === 0) await saveManifest();
     } catch (error) { failure = error; }
   }
 };
+async function saveManifest() {
+  const file = join(tmp, `manifest-${sent}.json`);
+  await writeFile(file, JSON.stringify(manifest, null, 1));
+  await wrangler(['r2', 'object', 'put', `${bucket}/_manifest.json`, '--remote', '--file', file, '--content-type', 'application/json']);
+}
 // Bound simultaneous uploads so a large illustration batch fits the deploy window.
-await Promise.all(Array.from({ length: 4 }, upload));
-await writeFile(join(tmp, 'manifest.json'), JSON.stringify(manifest, null, 1));
-if (sent) await wrangler(['r2', 'object', 'put', `${bucket}/_manifest.json`, '--remote', '--file', join(tmp, 'manifest.json'), '--content-type', 'application/json']);
+await Promise.all(Array.from({ length: 8 }, upload));
+if (sent) await saveManifest();
 if (failure) {
   // Successful objects stay checkpointed; the next deploy retries only unfinished files.
   throw failure;

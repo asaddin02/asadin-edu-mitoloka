@@ -8,7 +8,7 @@ const TYPES = { webp: 'image/webp', png: 'image/png', jpg: 'image/jpeg', jpeg: '
 export async function onRequestGet({ request, env, params, waitUntil }) {
   const key = (params.path || []).join('/');
   const ext = key.split('.').pop().toLowerCase();
-  if (!/^art\/[a-z0-9][a-z0-9._-]*$/i.test(key) || !TYPES[ext]) return new Response('Not found', { status: 404 });
+  if (!/^art\/(thumb\/)?[a-z0-9][a-z0-9._-]*$/i.test(key) || !TYPES[ext]) return new Response('Not found', { status: 404 });
 
   const cache = caches.default;
   const cached = await cache.match(request);

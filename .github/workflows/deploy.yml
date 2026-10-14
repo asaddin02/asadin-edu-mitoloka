@@ -33,7 +33,7 @@ jobs:
         github.event.workflow_run.event == 'push' &&
         github.event.workflow_run.head_repository.full_name == github.repository))
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     env:
       PROJECT: ${{ vars.CLOUDFLARE_PAGES_PROJECT }}
     steps:
