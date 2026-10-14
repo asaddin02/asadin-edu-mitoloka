@@ -11,6 +11,7 @@ import { renderGildedFrame } from './gilded-frame.js';
 import { getAssessment } from '../scaling.js';
 import { renderScaleBadges, renderAssessmentPanel } from './scaling-guide.js';
 import { bi, editorialArt, escapeHtml, icon } from '../ui.js';
+import { reportURL } from './about-view.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { renderCreatureCard } from './creature-card.js';
@@ -95,7 +96,7 @@ export async function renderCreatureDetail(container, slug) {
                 <div><dt>${bi('Elemen','Element')}</dt><dd>${escapeHtml(creature.element || '—')}</dd></div>
                 <div><dt>${bi('Periode','Period')}</dt><dd>${escapeHtml(creature.era || bi('Tradisi lintas zaman','A tradition across time'))}</dd></div>
               </dl>
-              <div class="detail-header-actions"><button class="btn btn-primary" data-scroll="detail-lore">${bi('Baca kisahnya','Read the story')} ${icon('arrow',17)}</button><button class="detail-save" id="btn-toggle-favorite" aria-pressed="${isFav}"><span id="fav-icon">${isFav ? '★' : '☆'}</span><span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span></button><a class="detail-compare-link" href="/compare?a=${creature.slug}">${t('nav.compare')} ↗</a></div>
+              <div class="detail-header-actions"><button class="btn btn-primary" data-scroll="detail-lore">${bi('Baca kisahnya','Read the story')} ${icon('arrow',17)}</button><button class="detail-save" id="btn-toggle-favorite" aria-pressed="${isFav}"><span id="fav-icon">${isFav ? '★' : '☆'}</span><span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span></button><a class="detail-compare-link" href="/compare?a=${creature.slug}">${t('nav.compare')} ↗</a><a class="detail-compare-link detail-report-link" href="${escapeHtml(reportURL(displayName, creature.slug))}" target="_blank" rel="noopener noreferrer">${bi('Laporkan kesalahan', 'Report an error')} ↗</a></div>
             </div>
             <figure class="detail-illustration">
               <div class="detail-art-stage power-${profile.power || 'unknown'}"><button type="button" class="detail-preview image-preview-trigger" ${previewAttributes(artData)}><img src="${escapeHtml(imgUrl)}" alt="${escapeHtml(displayName)}" class="detail-primary-img" decoding="async" onerror="this.onerror=null;this.src='/assets/placeholders/creature-fallback.svg';"><span class="detail-zoom-mark">${icon('zoom',20)}<span>${bi('Perbesar','Zoom')}</span></span></button>${renderGildedFrame(profile.power)}</div>
@@ -543,6 +544,7 @@ export async function renderCreatureDetail(container, slug) {
                   </div>
                 `).join('')}
               </div>
+              <p class="source-report-note">${bi('Ada kutipan yang tidak cocok atau fakta yang keliru?', 'Is a quote mismatched or a fact wrong?')} <a href="${escapeHtml(reportURL(displayName, creature.slug))}" target="_blank" rel="noopener noreferrer">${bi('Laporkan kesalahan', 'Report an error')} ↗</a> · <a href="/tentang#sumber">${bi('Cara isi disusun', 'How content is made')}</a></p>
             </div>
           ` : ''}
             </article>

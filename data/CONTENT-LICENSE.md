@@ -1,3 +1,10 @@
+# Mitoloka content licence
+
+Mitoloka's own text (descriptions, summaries, statements and power rationales written for the site) and its editorial illustrations (`assets/art/*-verified*.webp`, marked "AI · ART" on the site) are licensed under **Creative Commons Attribution–ShareAlike 4.0** (decided by the owner on 2026-10-14):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Credit: **Mitoloka (Asadin Edu), https://mitoloka.asadinedu.com**, with a link to the page used. Quotes from sources stay under their publishers' terms (see below and each record's `sources`). The application code is MIT licensed (`LICENSE`). The public summary is the site's `/tentang#lisensi` page.
+
 # Imported reference introductions
 
 Records marked `import_method: "wikipedia-category-library"` contain introductory text reproduced from Wikipedia. Whitespace is normalized, and card descriptions may be shortened with an ellipsis. Each record carries the original page URL, revision ID, contributor attribution, access time, and license. Where available, Indonesian and English introductions come from their respective language editions; they are not presented as translations of one another.

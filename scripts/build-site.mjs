@@ -96,7 +96,7 @@ for (const cult of data.cultures) {
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
-for (const file of ['manifest.webmanifest']) await cp(join(root, file), join(dist, file));
+for (const file of ['manifest.webmanifest', 'favicon.ico']) await cp(join(root, file), join(dist, file));
 for (const dir of ['css', 'js', 'assets'])
   await cp(join(root, dir), join(dist, dir), {
     recursive: true,

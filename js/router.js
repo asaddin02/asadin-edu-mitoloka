@@ -50,9 +50,11 @@ export function interceptLinks() {
     if (url.origin !== location.origin) return;
     // Files (JSON, images) are not routes.
     if (/\.[a-z0-9]{2,5}$/i.test(url.pathname) && !url.pathname.endsWith('.html')) return;
+    const page = url.pathname.replace(/\.html$/, '') + url.search;
+    // A section link on the page already open (/tentang#lisensi) is a plain browser jump.
+    if (url.hash && page === location.pathname + location.search) return;
     event.preventDefault();
-    const target = url.pathname.replace(/\.html$/, '') + url.search;
-    // Re-opening the current page re-renders it without growing the history.
-    navigate(target, { replace: target === location.pathname + location.search });
+    // Re-opening the current page re-renders it without growing the history; a #section is kept for the view.
+    navigate(page + url.hash, { replace: page === location.pathname + location.search });
   });
 }

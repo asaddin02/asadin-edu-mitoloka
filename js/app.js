@@ -81,9 +81,12 @@ class App {
               <div>
                 <h4 class="footer-col-title">${bi('Tentang arsip', 'About the archive')}</h4>
                 <ul class="footer-links">
+                  <li><a href="/tentang">${bi('Tentang Mitoloka', 'About Mitoloka')}</a></li>
+                  <li><a href="/tentang#sumber">${t('footer.sourcesPolicy')}</a></li>
+                  <li><a href="/tentang#lisensi">${t('footer.licensing')}</a></li>
+                  <li><a href="/tentang#privasi">${bi('Privasi', 'Privacy')}</a></li>
+                  <li><a href="/tentang#koreksi">${bi('Laporkan kesalahan', 'Report an error')}</a></li>
                   <li><a href="/dukung">${bi('Dukung Mitoloka', 'Support Mitoloka')}</a></li>
-                  <li><a href="/learn?module=reading">${t('footer.sourcesPolicy')}</a></li>
-                  <li><a href="/learn?module=reading">${t('footer.licensing')}</a></li>
                   <li><span style="font-size: 0.85rem; color: var(--text-muted);">${bi('Tradisi · Konteks · Interpretasi', 'Tradition · Context · Interpretation')}</span></li>
                 </ul>
               </div>
@@ -141,6 +144,14 @@ class App {
     if (path === '/scales') {
       renderScalingGuide(routeContainer, params);
       window.scrollTo({ top: 0, behavior: 'instant' });
+      return;
+    }
+
+    if (path === '/tentang') {
+      const { renderAboutView } = await import('./components/about-view.js');
+      if (!routeContainer.isConnected) return;
+      if (!location.hash) window.scrollTo({ top: 0, behavior: 'instant' });
+      renderAboutView(routeContainer);
       return;
     }
 

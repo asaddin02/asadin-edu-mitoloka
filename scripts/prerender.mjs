@@ -46,6 +46,7 @@ const SECTIONS = [
   ['/learn', 'Ruang Belajar', 'Belajar membaca mitos, legenda, dan sumbernya'],
   ['/journal', 'Jurnal Saya', 'Favorit dan penemuanmu'],
   ['/dukung', 'Dukung Mitoloka', 'Dukungan sukarela untuk ruang belajar gratis'],
+  ['/tentang', 'Tentang Mitoloka', 'Sumber, lisensi, privasi, dan cara melaporkan kesalahan'],
 ];
 const sectionNav = () =>
   `<nav class="prerender-sections" aria-label="Bagian situs"><h2>Jelajahi Mitoloka</h2>${list(
@@ -289,6 +290,15 @@ ${a && b ? `<p>Contoh: ${link(`/compare?a=${a.slug}&b=${b.slug}`, `${a.canonical
     description: 'Mitoloka adalah ruang belajar gratis. Orang tua, guru, dan sahabat pendidikan dapat mendukung pengembangannya secara sukarela.',
     body: `<article class="prerender container"><h1>Dukung Mitoloka</h1><p>Mitoloka adalah ruang belajar gratis. Jika bermanfaat, orang tua, guru, dan sahabat pendidikan dapat mendukung pengembangannya secara sukarela. Dukungan bersifat sukarela; belajar tetap gratis.</p><p lang="en">Mitoloka is a free learning space. Parents, teachers and friends of education can voluntarily support its development. Support is optional; learning stays free.</p>${sectionNav()}</article>`,
     jsonLd: [breadcrumb([['Dukung Mitoloka', '/dukung']])],
+  });
+
+  // About, sources, licence and privacy
+  page({
+    route: '/tentang',
+    title: `Tentang Mitoloka — Sumber, Lisensi & Privasi | ${SITE_NAME}`,
+    description: 'Cara isi Mitoloka disusun dari kutipan sumber, lisensi CC BY-SA 4.0, privasi tanpa akun atau pelacakan, dan cara melaporkan kesalahan.',
+    body: `<article class="prerender container"><h1>Tentang Mitoloka</h1><p>Mitoloka adalah ensiklopedia dwibahasa yang gratis tentang makhluk mitologi dan cerita rakyat, bagian dari Asadin Edu, payung independen untuk pendidikan di Indonesia yang dikelola satu orang. Setiap fakta berasal dari klaim riset dengan kutipan kata demi kata dari sumbernya. Teks tulisan dan ilustrasi editorialnya berlisensi CC BY-SA 4.0. Mitoloka tidak memakai akun, iklan, cookie pelacak, atau analitik pengunjung.</p><p lang="en">Mitoloka is a free bilingual encyclopedia of mythological beings and folklore, part of Asadin Edu, an independent one-person umbrella for education in Indonesia. Every fact comes from a research claim with a word-for-word source quote. Its own text and editorial illustrations are licensed CC BY-SA 4.0. Mitoloka uses no accounts, ads, tracking cookies or visitor analytics.</p>${sectionNav()}</article>`,
+    jsonLd: [breadcrumb([['Tentang Mitoloka', '/tentang']])],
   });
 
   return pages;

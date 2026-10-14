@@ -39,8 +39,8 @@ const s = S({
   ],
   feedback: ['Bantu materi semakin baik', 'Help improve the lessons'],
   feedbackText: [
-    'Menemukan istilah yang sulit atau informasi yang keliru? Beri tahu kami agar bisa diperbaiki.',
-    'Found an unclear term or inaccurate information? Let us know so we can improve it.',
+    'Menemukan istilah yang sulit atau informasi yang keliru? Laporkan agar bisa diperbaiki.',
+    'Found an unclear term or inaccurate information? Report it so it can be fixed.',
   ],
   send: ['Kirim masukan', 'Send feedback'],
   classroom: ['Gunakan dalam kegiatan belajar', 'Bring Mitoloka into learning activities'],

@@ -151,7 +151,7 @@ Tanpa GitHub Actions: `SITE_URL=https://alamat-situs npm run build:site`, lalu `
 
 ## ⚖️ Lisensi & Etika Budaya
 
-- Seluruh kode sumber dirilis di bawah lisensi [MIT](LICENSE). Teks pengantar dari Wikipedia berlisensi CC BY-SA 4.0; lihat [data/CONTENT-LICENSE.md](data/CONTENT-LICENSE.md).
+- Seluruh kode sumber dirilis di bawah lisensi [MIT](LICENSE). Teks tulisan Mitoloka dan ilustrasi editorialnya berlisensi CC BY-SA 4.0; kutipan sumber mengikuti lisensi penerbitnya (Wikipedia: CC BY-SA 4.0). Lihat [data/CONTENT-LICENSE.md](data/CONTENT-LICENSE.md) dan halaman `/tentang` di situs.
 - Gambar yang disajikan diperoleh dari repositori berlisensi terbuka (Wikimedia Commons, Public Domain, CC BY, CC BY-SA) dengan mencantumkan nama kreator asli dan tautan lisensi.
 - Mitoloka menghormati nilai-nilai sakral tradisi lisan masyarakat adat dan peradaban dunia. Informasi disajikan untuk tujuan edukasi kultural dan literatur penjelajahan.
 
