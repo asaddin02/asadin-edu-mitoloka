@@ -1,0 +1,101 @@
+{
+  "slug": "hua-po",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hua Po, the palm-sized jade-white hairless woman tree spirit of Chinese lore, reviving under water.\nANATOMY: one unmistakably mature ADULT woman's head, elongated adult facial planes, deep grave eyes, high cheekbones and an intense sorrowful confrontational gaze; no round baby face, no child or teenager; one head, two eyes, two arms and two legs; completely hairless smooth pale white skin like white jade, grief clearly in eyes and brows; palm-sized, wearing a fully opaque simple ivory wrap robe [hua-po-c03,hua-po-c06]. No wings, horns, pointed ears or claws.\nMOMENT: rise with one hand braced on rough bark and reach upward as a single enormous droplet of ordinary water breaks across her head and shoulders; chin lowered and grave adult eyes looking directly into the viewer, austere supernatural presence.\nPOWER: she is revived by water, shown by her now-upright body amid a physical splash; no magical energy or glow [hua-po-c05,hua-po-c08].\nSCALE & CAMERA: extreme macro low angle at bark surface, spirit fills most of square; the ordinary adult human fingertip dripping water above is several times her head size, clearly establishes palm-sized body.\nLIGHT & WEATHER: one narrow dim amber side light from below, very dark low-key scene, deep walnut tree hollow shadows, physical wet droplets only.\nSURFACE: matte white jade-like skin, coarse opaque cloth, ancient textured bark, real clear water.\nSETTING: in the tree on Zhanggong Mountain where Xie found and later returned her [hua-po-c06,hua-po-c09].\nMOOD: austere uncanny adult spirit, overwhelming solemnity and grief, dark haunted stare, never evil or cute; powerful visual presence through macro framing.\nHARD CONSTRAINTS: no hanged people, no hanging ropes; no text, logo, border or watermark; no extra heads/limbs/fingers; no entertainment design imitation; no nudity/gore; no generic glow aura/neon/energy ribbons.",
+  "depicted_variant": "Hua Po palm-sized jade-white hairless spirit pulih ketika disiram air.",
+  "basis_claim_ids": [
+    "hua-po-c03",
+    "hua-po-c06",
+    "hua-po-c05",
+    "hua-po-c08",
+    "hua-po-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "hua-po-c03",
+      "hua-po-c06"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "hua-po-c05",
+      "hua-po-c08"
+    ],
+    "tempat": [
+      "hua-po-c06",
+      "hua-po-c09"
+    ],
+    "sifat": [
+      "hua-po-c02",
+      "hua-po-c06",
+      "hua-po-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Hairless perempuan putih seperti jade berukuran telapak tangan, sorrowful brows.",
+      "claim_ids": [
+        "hua-po-c03",
+        "hua-po-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Air memulihkan tubuh Hua Po; splash fisik, tanpa aura.",
+      "claim_ids": [
+        "hua-po-c05",
+        "hua-po-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pohon Zhanggong Mountain tempat ditemukan/dikembalikan.",
+      "claim_ids": [
+        "hua-po-c06",
+        "hua-po-c09"
+      ]
+    }
+  ],
+  "aura": "Pemulihan air c05/c08, putih jade hairless dan palm-size c03/c06 memberi uncanny presence.",
+  "artistic_choices": [
+    "Opaque ivory wrap editorial karena sumber tidak menetapkan pakaian; macro + fingertip skala, side light editorial; sorrowful bukan dibuat jahat; tanpa hanged people."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/hua-po-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/hua-po-attempt-01.json",
+      "native_sha256": "16ce6534cc90942e85b885c616f54bb4d9cb86031d8f9d30bca1a61d9709df23",
+      "reason": "Wajah dan proporsi terbaca anak/baby fairy lucu pada native dan 200px; gagal Uji Sangar2/7 serta beautiful woman dewasa c03/c06."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-e011-7771-8a2a-bae45481a643/exec-7b1d6820-768d-40d8-b26c-b0b0c2ea9eda.png",
+  "generated_at": "2026-10-13T17:47:18.017999+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/hua-po.png",
+  "native_sha256": "8c6671f60dbd70f90cddd591480f7de4422d0860aa72a28de03fb10987a8b562",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan thumbnail200 diperiksa. Uji Sangar7 ya: adult hairless jade-white grieving face dominan, palm-scale fingertip, air memulihkan c05/c08, reach aktif, no aura/teks/gore. Percobaan02 lolos,01 wajah anak tetap diarsipkan.",
+    "limitations": [],
+    "native_sha256": "8c6671f60dbd70f90cddd591480f7de4422d0860aa72a28de03fb10987a8b562",
+    "reviewed_at": "2026-10-13T17:47:18.017999+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "8c6671f60dbd70f90cddd591480f7de4422d0860aa72a28de03fb10987a8b562",
+    "notes": "Hairless jade-white woman with sorrowful brows reviving in a tree hollow as water pours over her; the vessel and stream dwarf her head, so the palm size reads from the macro framing. Passes narrowly: the face alone could read as an ordinary woman."
+  }
+}

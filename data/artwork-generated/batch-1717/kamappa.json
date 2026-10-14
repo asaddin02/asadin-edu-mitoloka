@@ -1,0 +1,95 @@
+{
+  "slug": "kamappa",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kamappa, the immense shapeless Basotho devourer.\nANATOMY: an immense shapeless continuous irregular fleshy mass, no recognizable animal skeleton, no eyes, no horns, no wings, no limbs. One frightful open jaw emerges from the front of the mass, multiple long sharp tongues thrust outward as weapons [kamappa-c02,c08,c10,c13].\nMOMENT: surge toward the viewer with tongues stabbing the air, swollen bulk physically wedged in a narrow mountain pass [kamappa-c02,c14].\nPOWER: engulfing immense expanding mass, no magical energy, no victims or gore [kamappa-c02].\nSCALE & CAMERA: very low near-ground camera; mouth and three visible sharp tongues dominate; vast irregular bulk trails out of view between tiny high cliff walls.\nLIGHT & WEATHER: one low copper sunset from the side, deep walnut shadows, natural dust from heavy bulk pressing against earth.\nSURFACE: coarse wrinkled dark organic skin, saliva and mud, realistic rock.\nSETTING: narrow pass at a Basotho valley entrance [kamappa-c14].\nMOOD: overwhelming menace, vast and horrible, never cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+  "depicted_variant": "Shapeless swollen devourer with multiple sharp tongues at the valley pass.",
+  "basis_claim_ids": [
+    "kamappa-c02",
+    "kamappa-c08",
+    "kamappa-c10",
+    "kamappa-c13",
+    "kamappa-c14",
+    "kamappa-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kamappa-c02",
+      "kamappa-c08",
+      "kamappa-c10",
+      "kamappa-c13"
+    ],
+    "kekuatan": [
+      "kamappa-c02"
+    ],
+    "tempat": [
+      "kamappa-c14"
+    ],
+    "sifat": [
+      "kamappa-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Huge shapeless monster with frightful jaws and multiple sharp tongues; no invented eyes, wings, legs or horns.",
+      "claim_ids": [
+        "kamappa-c02",
+        "kamappa-c08",
+        "kamappa-c10",
+        "kamappa-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Swollen bulk wedges at narrow valley pass; tongues thrust as weapons.",
+      "claim_ids": [
+        "kamappa-c02",
+        "kamappa-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Narrow valley entrance.",
+      "claim_ids": [
+        "kamappa-c14"
+      ]
+    }
+  ],
+  "aura": "Vast body and weapon tongues c02/c08, wedged pass c14.",
+  "artistic_choices": [
+    "Skin texture, three tongues (unspecified multiple), light and perspective editorial.",
+    "No imported python shape, eyes, wings or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cc-66db-78b1-b552-b9280b8aa6f3/exec-3e39dab6-2a2f-4a78-9de5-3c5c3cdcb8b4.png",
+  "generated_at": "2026-10-13T17:54:04.064973+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/kamappa.png",
+  "native_sha256": "789d1e16b78bdc1019c9c66b81f3b285fcd355c30a2cb4d5a1bb80b808e37725",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 inspected,7yes:1vast shapeless mass dominates;2three sharp tongues threatening at200;3tongues thrust while bulk pushes pass;4dust physicalcontact only/weapon tongues c02 and wedgingc14;5no eyes/wings/limbs,one jawc10,multiple tonguesc02,immense bodyc08/c13;6no text/frame/copiedIP/nudity/gore;7not mundane animal or landscape. Teeth are jaw editorial texture, not extra named powers.",
+    "limitations": [],
+    "native_sha256": "789d1e16b78bdc1019c9c66b81f3b285fcd355c30a2cb4d5a1bb80b808e37725",
+    "reviewed_at": "2026-10-13T17:54:04.064973+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "789d1e16b78bdc1019c9c66b81f3b285fcd355c30a2cb4d5a1bb80b808e37725",
+    "notes": "Shapeless swollen bulk wedged in the valley pass, jaws gaping and several sharp tongues thrusting out; no invented eyes, legs, wings or horns."
+  }
+}

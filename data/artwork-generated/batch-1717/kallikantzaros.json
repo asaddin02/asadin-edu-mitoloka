@@ -1,0 +1,93 @@
+{
+  "slug": "kallikantzaros",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of a Kallikantzaros, the malicious underground creature of Greek folklore.\nANATOMY: one black-faced humanlike creature with two glaring red eyes, two long donkey ears, an enormous mouth flanked by two ferocious tusks, and one lolling blood-red tongue [kallikantzaros-c08]; two arms and two legs, fully opaque ragged wool clothing editorial.\nMOMENT: wrench apart a thick timber chair while lunging through a cottage doorway toward the viewer, splinters flying from its terrible strength [kallikantzaros-c07, kallikantzaros-c09].\nPOWER: physical superhuman force snaps wooden furniture, no magic beams or eye-fire [kallikantzaros-c07, kallikantzaros-c09].\nSCALE & CAMERA: extreme low close doorway angle; the tusked face and wrenching hands dominate the frame, normal body scale emphasized through tight perspective.\nLIGHT & WEATHER: one cottage hearth fire offscreen casts copper side-light; deep walnut night shadows, dust and splinters.\nSURFACE: rough dark face, chipped tusks, coarse wool, splintered aged wood.\nSETTING: house doorway in the twelve days of Christmas, broken furniture and dim chimney at rear [kallikantzaros-c02, kallikantzaros-c07].\nMOOD: menacing malevolent mischief, dangerous, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Satu Kallikantzaros mendobrakpintu dan mematahkanfurnitur.",
+  "basis_claim_ids": [
+    "kallikantzaros-c08",
+    "kallikantzaros-c07",
+    "kallikantzaros-c09",
+    "kallikantzaros-c02",
+    "kallikantzaros-c01",
+    "kallikantzaros-c11"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kallikantzaros-c08"
+    ],
+    "kekuatan": [
+      "kallikantzaros-c07",
+      "kallikantzaros-c09"
+    ],
+    "tempat": [
+      "kallikantzaros-c02",
+      "kallikantzaros-c07"
+    ],
+    "sifat": [
+      "kallikantzaros-c01",
+      "kallikantzaros-c11"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Blackface/redglaringeyes/donkeyears/hugetuskedmouth/redtongue.",
+      "claim_ids": [
+        "kallikantzaros-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Merusak furnitur dengan kekuatan fisik luar biasa.",
+      "claim_ids": [
+        "kallikantzaros-c07",
+        "kallikantzaros-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Masuk rumah melalui pintu pada12hariChristmas.",
+      "claim_ids": [
+        "kallikantzaros-c02",
+        "kallikantzaros-c07"
+      ]
+    }
+  ],
+  "aura": "Tuskedmouthc08 dan destructiveforcec07/c09.",
+  "artistic_choices": [
+    "Donkeyear variant dipilih; pakaianraggedopaque dan hearthlight editorial.",
+    "Mata merah hanya warna/glaring, tidak memancarkan api."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cc-66db-78b1-b552-b9280b8aa6f3/exec-eabc445b-9066-43dc-9c19-d2c7745d259a.png",
+  "generated_at": "2026-10-13T17:52:41.624544+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/kallikantzaros.png",
+  "native_sha256": "6ac57cbf6a909dbd2d926385ceb3736a793bdadbe0749bc208a641e7b85a773e",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200px inspected: all7Sangar yes.1subject fills doorway;2tusked face threatening at200;3chair snapped mid-lunge;4physical furniture break c07/c09 only;5one blackface,2red eyes,2donkeyears,2tusks,redtongue,twoarms/twolegs;6no text/frame/copiedIP/gore;7neither ordinaryhuman nor passive. Redeyes not magicalfire.",
+    "limitations": [],
+    "native_sha256": "6ac57cbf6a909dbd2d926385ceb3736a793bdadbe0749bc208a641e7b85a773e",
+    "reviewed_at": "2026-10-13T17:52:41.624544+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "6ac57cbf6a909dbd2d926385ceb3736a793bdadbe0749bc208a641e7b85a773e",
+    "notes": "Black-faced goblin with red eyes, donkey ears, tusks and a red tongue smashing a chair inside the house."
+  }
+}

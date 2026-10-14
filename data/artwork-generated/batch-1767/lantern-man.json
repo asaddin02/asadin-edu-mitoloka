@@ -1,0 +1,91 @@
+{
+  "slug": "lantern-man",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of lantern-man, Active disembodied ghost light scorching the distracting horn. Create one square PNG at least 1024 by 1024.\nANATOMY: One disembodied atmospheric ghost light, no face, skull, limbs or humanoid figure: a dense natural amber-white flame-shaped apparition. It must be the dominant visible subject. [lantern-man-c01, lantern-man-c03]\nMOMENT: Surge close over reed beds and curl around the animal horn hanging at the end of a long wooden pole; the light is actively burning the horn.\nPOWER: The hanging horn burns and blackens under the ghost light; small orange embers and real smoke from contact, not neon or aura. [lantern-man-c06]\nSCALE & CAMERA: extreme low angle, confrontational close framing; subject fills 80 percent of the image, unmistakable silhouette at 200 pixels. The apparition, horn and point of combustion fill the image; no landscape-only scene.\nLIGHT & WEATHER: one dominant low-key warm moonlight or dusk source as appropriate, sharp rim light, deep walnut shadows, sparse contextual spray or dust; dark warm painterly palette with antique gold accent, no flat daylight.\nSURFACE: tactile weathered natural materials, detailed rough skin, wet scales or coarse hair where anatomically appropriate; thick expressive oil brushwork and premium cinematic composition.\nSETTING: East Anglian Wicken Fen, wet reeds, mud and a pole projecting from a distant shadowed cottage. [lantern-man-c01]\nMOOD: Menacing spirit luring victims; overwhelming and imposing, never cute, calm, decorative or static. No modern costume.\nHARD CONSTRAINTS: no text, no lettering, no symbols, no glyphs or pseudo-glyphs, no inscriptions, logo, border, frame or watermark; no extra heads, limbs, fingers or eyes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Background subordinate to subject.",
+  "depicted_variant": "Active disembodied ghost light scorching the distracting horn",
+  "basis_claim_ids": [
+    "lantern-man-c01",
+    "lantern-man-c03",
+    "lantern-man-c06",
+    "lantern-man-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "lantern-man-c01",
+      "lantern-man-c03"
+    ],
+    "kuasa": [
+      "lantern-man-c06"
+    ],
+    "tempat": [
+      "lantern-man-c01"
+    ],
+    "sifat": [
+      "lantern-man-c01",
+      "lantern-man-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One disembodied atmospheric ghost light, no face, skull, limbs or humanoid figure: a dense natural amber-white flame-shaped apparition. It must be the dominant visible subject.",
+      "claim_ids": [
+        "lantern-man-c01",
+        "lantern-man-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "East Anglian Wicken Fen, wet reeds, mud and a pole projecting from a distant shadowed cottage.",
+      "claim_ids": [
+        "lantern-man-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The hanging horn burns and blackens under the ghost light; small orange embers and real smoke from contact, not neon or aura.",
+      "claim_ids": [
+        "lantern-man-c06"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari The hanging horn burns and blackens under the ghost light; small orange embers and real smoke from contact, not neon or aura.; lantern-man-c06.",
+  "artistic_choices": [
+    "Manifestasi cahaya hantu aktif c01/c06, tanpa tubuh rekaan sesuai GAMBAR §6.5.",
+    "Warna api amber dan bentuk pusaran lokal adalah editorial; bukan wajah atau aura baru.",
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-cfce9297-b99e-482b-9663-b2f71180bfd6.png",
+  "generated_at": "2026-10-13T18:32:31.198938+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/lantern-man.png",
+  "native_sha256": "1694aaf549640456503c6cb4a2973a9b0628550fc281d3d758a51b08373e80b1",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat; Uji Sangar 1–7 ya. Manifestasi cahaya hantu mendominasi dan membakar tanduk c06 secara fisik, fen c01 terbaca. Tidak ada tubuh humanoid rekaan, teks/glyph atau aura generik; api adalah subjek cahaya hantu c01/c03 dan kontak pembakaran c06. Ancaman aktif, bukan lanskap.",
+    "limitations": [],
+    "native_sha256": "1694aaf549640456503c6cb4a2973a9b0628550fc281d3d758a51b08373e80b1",
+    "reviewed_at": "2026-10-13T18:32:31.198938+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "1694aaf549640456503c6cb4a2973a9b0628550fc281d3d758a51b08373e80b1",
+    "notes": "Faceless amber ghost light as the dominant subject, scorching the horn hung from the cottage pole over the fen; embers and smoke, no neon aura."
+  }
+}

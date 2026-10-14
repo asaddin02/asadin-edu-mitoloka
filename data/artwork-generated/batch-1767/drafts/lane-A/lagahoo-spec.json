@@ -1,0 +1,73 @@
+{
+  "slug": "lagahoo",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Lagahoo, the nocturnal headless coffin bearer of Trinidad and Tobago.\nANATOMY: One headless human male body with TWO arms and TWO legs, opaque plain ragged clothes; a plain unmarked wooden coffin rests on its NECK in place of head; exactly THREE lit candles on top of coffin; one heavy iron chain noosed around waist trails behind. No head, skull, face, extra coffin or inscriptions [lagahoo-c02, lagahoo-c03]\nMOMENT: Stalks down a forest road toward the low viewer, one heavy foot landing, chain dragged taut behind, coffin tipped forward and three separated flames readable\nPOWER: Its documented gigantic size looms over trees; the trailing iron chain scrapes roadside dirt; three candles provide real flame, no aura [lagahoo-c05, lagahoo-c11]\nSCALE & CAMERA: close low camera, subject occupies most of the square, sharp diagnostic anatomy, no unclaimed gigantic size; all required countable features separated and visible.\nLIGHT & WEATHER: one dominant warm raking dusk light, deep walnut shadows and antique-gold highlights, high contrast, atmospheric depth without magical glow.\nSURFACE: tactile natural skin, fur, feathers, scales or cloth as appropriate, painterly material detail, never plastic.\nSETTING: Trinidad and Tobago forest road at night [lagahoo-c02, lagahoo-c08]\nMOOD: imposing and awe-inspiring or threatening according to documented character, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, pseudo-writing, rune, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No decorative symbols or inscriptions.",
+  "depicted_variant": "One headless human male body with TWO arms and TWO legs, opaque plain ragged clothes; a plain unmarked wooden coffin rests on its NECK in place of head; exactly THREE lit candles on top of coffin; one heavy iron chain noosed around waist trails behind. No head, skull, face, extra coffin or inscriptions",
+  "basis_claim_ids": [
+    "lagahoo-c02",
+    "lagahoo-c03",
+    "lagahoo-c05",
+    "lagahoo-c11",
+    "lagahoo-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "lagahoo-c02",
+      "lagahoo-c03"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "lagahoo-c05",
+      "lagahoo-c11"
+    ],
+    "tempat": [
+      "lagahoo-c02",
+      "lagahoo-c08"
+    ],
+    "sifat": [
+      "lagahoo-c11"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One headless human male body with TWO arms and TWO legs, opaque plain ragged clothes; a plain unmarked wooden coffin rests on its NECK in place of head; exactly THREE lit candles on top of coffin; one heavy iron chain noosed around waist trails behind. No head, skull, face, extra coffin or inscriptions",
+      "claim_ids": [
+        "lagahoo-c02",
+        "lagahoo-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Its documented gigantic size looms over trees; the trailing iron chain scrapes roadside dirt; three candles provide real flame, no aura",
+      "claim_ids": [
+        "lagahoo-c05",
+        "lagahoo-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Trinidad and Tobago forest road at night",
+      "claim_ids": [
+        "lagahoo-c02",
+        "lagahoo-c08"
+      ]
+    }
+  ],
+  "aura": "Its documented gigantic size looms over trees; the trailing iron chain scrapes roadside dirt; three candles provide real flame, no aura lagahoo-c05, lagahoo-c11",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Gigantic form is expressly supported c05/c11; no wounds, severed neck gore, carved writing, or extra heads."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

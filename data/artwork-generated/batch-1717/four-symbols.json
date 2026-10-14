@@ -1,0 +1,87 @@
+{
+  "slug": "four-symbols",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Four Symbols, exactly FOUR sacred directional constellation guardians.\nANATOMY: four guardian compositions: one Azure Dragon with one head, one Vermilion Bird with one head and two wings, one White Tiger with one head and four legs, one Black Turtle-Snake composite with a turtle head and ONE snake wound continuously around its shell. The snake belongs to the turtle-snake entity and is never a separate fifth guardian. Distinct dragon/bird/tiger/turtle faces, all readable. [four-symbols-c02,c05,c06]\nMOMENT: converge toward the low camera in coordinated guarding movement: azure dragon curves down across upper left, vermilion bird sweeps its red wings across upper right, white tiger leaps forward at lower left, black turtle pushes forward at lower right while its attached serpent tightens around its shell. Four interlocking silhouettes, no independent snake floating elsewhere.\nPOWER: no documented attack; do not depict fire, lightning, magical water or energy. Majesty through physical anatomy, directional convergence and constellation context only. [four-symbols-c01,c03]\nSCALE & CAMERA: tight low-angle perspective, four entities together fill 90 percent square; no human or giant-size comparison.\nLIGHT & WEATHER: single warm horizon light, deep night shadows, antique gold rim light, natural star points only.\nSURFACE: azure dragon scales, layered vermilion feathers, coarse white tiger fur with dark stripes, black weathered turtle shell and natural dark serpent scales.\nSETTING: dark celestial sky of their constellations, subtle natural stars; no diagram, symbols, constellations joined by lines or invented palace. [four-symbols-c01]\nMOOD: awe-inspiring sacred protectors, energetic and imposing, never evil, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Empat penjaga konstelasi maju dalam satu komposisi, Xuanwu tetap satu kesatuan kura-kura-ular.",
+  "basis_claim_ids": [
+    "four-symbols-c02",
+    "four-symbols-c05",
+    "four-symbols-c06",
+    "four-symbols-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "four-symbols-c02",
+      "four-symbols-c05",
+      "four-symbols-c06"
+    ],
+    "kekuatan_perbuatan": [
+      "four-symbols-c01",
+      "four-symbols-c03"
+    ],
+    "tempat": [
+      "four-symbols-c01"
+    ],
+    "sifat": [
+      "four-symbols-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Empat penjaga saja: naga biru, burung merah, harimau putih, kesatuan kura-kura hitam berbelit ular.",
+      "claim_ids": [
+        "four-symbols-c02",
+        "four-symbols-c05",
+        "four-symbols-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Langit bintang sebagai konstelasi empat penjuru.",
+      "claim_ids": [
+        "four-symbols-c01"
+      ]
+    }
+  ],
+  "aura": "Keagungan empat penjaga c01/c02 lewat konvergensi aktif tanpa efek kuasa rekaan.",
+  "artistic_choices": [
+    "Gerak konvergen dan cahaya horizon editorial; tidak menafsir asosiasi unsur c03 sebagai kuasa serangan.",
+    "Detail warna/bulu/sisik mengikuti jenis hewan c02; satu ular melilit kura-kura bukan entitas kelima.",
+    "Tanduk/janggut naga dan crest burung adalah interpretasi editorial konservatif jenis hewan, bukan ikonografi exact sourced; tanah berbatu/cloudhorizon adalah pijakan komposisi konstelasi, bukan klaim habitat."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-09259349-f313-455b-9d0b-95cb89988d25.png",
+  "generated_at": "2026-10-13T17:51:45.588748+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/four-symbols.png",
+  "native_sha256": "e3ce9ea5ba435f19572bd9e882e7a0c102e9ab6977e70f7aa488f77b927db1bb",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "Uji Sangar7/7 native+200: empat guardian komposisi maju dominan, blue dragon/red bird/white tiger/black turtle-snake jelas. Satu ular kontinu melilit shell bukan guardian kelima. Tiger step/dragon curve/bird wing sweep/turtle advancing memberi moment. Tanpa elementalattack atau generic aura; horizonlight alami, stars c01. Anatomi tiap entity plausible/tidak extra; no text/IP."
+    ],
+    "limitations": [],
+    "native_sha256": "e3ce9ea5ba435f19572bd9e882e7a0c102e9ab6977e70f7aa488f77b927db1bb",
+    "reviewed_at": "2026-10-13T17:51:45.588748+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "e3ce9ea5ba435f19572bd9e882e7a0c102e9ab6977e70f7aa488f77b927db1bb",
+    "notes": "Only the four guardians: azure dragon, vermilion bird, white tiger and a single black tortoise wound with a snake, under stars."
+  }
+}

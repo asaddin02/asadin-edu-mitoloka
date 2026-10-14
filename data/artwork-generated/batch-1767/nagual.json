@@ -1,0 +1,91 @@
+{
+  "slug": "nagual",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nagual, a revered Mesoamerican human shapeshifter taking an animal counterpart.\nANATOMY: One figure in a single continuous PHYSICAL transition from fully clothed human to wolf: ONE head, two eyes, exactly four total limbs; wolf muzzle and fur replacing face, two forelimbs replacing human arms, two hind legs replacing legs, one emerging tail. No overlapping second body. Plain opaque dark woven mantle covers torso. [c05,c07]\nMOMENT: Transform forward in a low braced stance, hands becoming wolf paws touching the earth, face becoming wolf muzzle while looking directly toward viewer. [c05]\nPOWER: Actual shapeshifting of body and fur, no ghost animal, aura, projection or trails. [c05]\nSCALE & CAMERA: Close low angle, head and transforming forelimbs large; natural human/wolf scale, no giant claim\nLIGHT & WEATHER: Single moonlit edge through night shade, warm umber-black palette\nSURFACE: Rough wolf fur growing within human skin texture, unmarked woven cloth, dirt under paws\nSETTING: Rural Mesoamerican night environment, earth path with vegetation [c02,c07]\nMOOD: Revered and formidable protector c12, not evil witch; awe at transformation\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Protective nagual physically changing into wolf counterpart",
+  "basis_claim_ids": [
+    "nagual-c05",
+    "nagual-c07",
+    "nagual-c02"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "nagual-c05",
+      "nagual-c07",
+      "nagual-c18"
+    ],
+    "kuasa": [
+      "nagual-c05",
+      "nagual-c12"
+    ],
+    "tempat": [
+      "nagual-c02",
+      "nagual-c07"
+    ],
+    "sifat": [
+      "nagual-c01",
+      "nagual-c12"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Human physically shapeshifting into wolf counterpart",
+      "claim_ids": [
+        "nagual-c05",
+        "nagual-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Single bodily transformation into animal",
+      "claim_ids": [
+        "nagual-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mesoamerican rural night setting",
+      "claim_ids": [
+        "nagual-c02",
+        "nagual-c07"
+      ]
+    }
+  ],
+  "aura": "Transformation c05 with community-protective reverence c12.",
+  "artistic_choices": [
+    "Moment during bodily change is editorial interpretation of shapeshifting, no hybrid species claimed. Plain woven mantle editorial modesty; wolf form chosen from c07; no victim or blood."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-994951e3-cf88-4e16-ae52-2009eafaadd8.png",
+  "generated_at": "2026-10-13T18:36:07.844619+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/nagual.png",
+  "native_sha256": "d4bbd1f1005a81e1d0a5e8c5aa7373605b7072b4e6139295cfd9de695e8c4ffe",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat. Uji Sangar 7/7 ya: single continuous human-wolf transformation c05/c07, four limbs no doubled body, human face partly replaced by wolf muzzle, protective intent c12, forward bracing action, no text/aura/gore.",
+    "limitations": [],
+    "native_sha256": "d4bbd1f1005a81e1d0a5e8c5aa7373605b7072b4e6139295cfd9de695e8c4ffe",
+    "reviewed_at": "2026-10-13T18:36:07.844619+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "d4bbd1f1005a81e1d0a5e8c5aa7373605b7072b4e6139295cfd9de695e8c4ffe",
+    "notes": "Mid-transformation: the human face splitting into a wolf muzzle while the body already stands on wolf legs under a poncho; one body, one change."
+  }
+}

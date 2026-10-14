@@ -1,0 +1,104 @@
+{
+  "slug": "wd-q10409490",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE square original premium painterly cinematic Mitoloka illustration of Lili, the PIGLET-LIKE animal with rear foot spurs in the Shan Hai Jing.\nANATOMY: ONE piglet-shaped body, ONE pig head with normal pig snout, TWO eyes, FOUR legs with FOUR cloven hoof feet, ONE curly pig tail. At the BACK of each hoof ankle sits ONE raised, backward-pointing CHICKEN-LIKE SPUR. Single rear spur each, NOT two sideways horns or tusks on each foot. FOUR limbs spread clearly apart outside body contour: two front legs below snout, two hind legs behind belly, all four feet visible. No dog head/teeth, giant tusks, wings or extra limbs [wd-q10409490-c01, wd-q10409490-c02, wd-q10409490-c07].\nMOMENT: Springs diagonally down a bare earth ledge toward the viewer in an active bounding leap, little body suspended and FOUR legs thrown apart, both rear legs fully outside body silhouette, muzzle opens in a barklike cry [wd-q10409490-c03].\nPOWER: Real earth crumbs kicked up by feet, no magic. Construction omen is not shown as earth-control power [wd-q10409490-c04].\nSCALE & CAMERA: Slightly raised THREE-QUARTER SIDE view looking at the creature diagonally; piglet fills almost entire square, both flank and snout visible, four legs clearly separate at 200px. No hidden far hind leg, no invented giant size.\nLIGHT & WEATHER: Dark walnut background, single warm raking late sunlight, deep contrast, leafless plain slope, no bright stock-animal photography.\nSURFACE: Painterly rough oil brushwork, damp bristles, dirt at cloven hooves, horn-textured rear spurs.\nSETTING: Earth slope of Mount Gui with Ying water distant [wd-q10409490-c05, wd-q10409490-c08].\nMOOD: Uncanny spurred animal in confronting leap, not a calm farm pig, cute piglet or monster dog.\nHARD CONSTRAINTS: No text/lettering/runes/symbols/logos/border/watermark, no extra heads/limbs, no nudity/gore, no glow/aura/neon/energy; no copied IP. All four feet need visible single rear spur.",
+  "depicted_variant": "One piglet-shaped animal, one pig head with two eyes and snout, four legs; each foot has a conspicuous rear-pointing elevated spur like a chicken foot; no chicken head or added wings",
+  "basis_claim_ids": [
+    "wd-q10409490-c01",
+    "wd-q10409490-c02",
+    "wd-q10409490-c07",
+    "wd-q10409490-c03",
+    "wd-q10409490-c04",
+    "wd-q10409490-c05",
+    "wd-q10409490-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10409490-c01",
+      "wd-q10409490-c02",
+      "wd-q10409490-c07"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "wd-q10409490-c03",
+      "wd-q10409490-c04"
+    ],
+    "tempat": [
+      "wd-q10409490-c05",
+      "wd-q10409490-c08"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One piglet-shaped animal, one pig head with two eyes and snout, four legs; each foot has a conspicuous rear-pointing elevated spur like a chicken foot; no chicken head or added wings",
+      "claim_ids": [
+        "wd-q10409490-c01",
+        "wd-q10409490-c02",
+        "wd-q10409490-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Only dirt disturbed by running feet; construction-omen c04 is not turned into earth-moving magic, doglike bark suggested by open mouth",
+      "claim_ids": [
+        "wd-q10409490-c03",
+        "wd-q10409490-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Gui, reddish earthy slope near the Ying water",
+      "claim_ids": [
+        "wd-q10409490-c05",
+        "wd-q10409490-c08"
+      ]
+    }
+  ],
+  "aura": "Only dirt disturbed by running feet; construction-omen c04 is not turned into earth-moving magic, doglike bark suggested by open mouth wd-q10409490-c03, wd-q10409490-c04",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Spurs exaggerated only for legibility, not extra legs; no unclaimed giant size or earth-control spell.",
+    "Second attempt exposes both hind feet and single rear ankle spurs, not lateral horn pairs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/wd-q10409490-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/wd-q10409490-attempt-01.json",
+      "native_sha256": "80d83cb3b49d6d93165e50699905c63a579f2ca3d6162593bd809f85ef92b69e",
+      "reason": "Only three pig legs/feet visible and foot spurs appear as paired lateral horns rather than distinct rear chicken-like spur. Exact four-leg and rear-spur fidelity fail."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-9e638148-2ebc-4347-acb9-26c30460d0b6.png",
+  "generated_at": "2026-10-13T18:46:50.569813+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/wd-q10409490.png",
+  "native_sha256": "3de48aba4172ae61ab674f5250af61186005e15ddd024480daf5ebc1c29ffea5",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES: piglet-like beast fills frame in confronting bound and open barking mouth, FOUR feet/one curly tail/one head verified, each ankle has SINGLE backward-pointing spur c02/c07 visible at 200px, dust only hoof movement not magic, no text/glow/IP; diagnostic spurs distinguish it from ordinary farm pig.",
+    "limitations": [],
+    "native_sha256": "3de48aba4172ae61ab674f5250af61186005e15ddd024480daf5ebc1c29ffea5",
+    "reviewed_at": "2026-10-13T18:46:50.569813+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "3de48aba4172ae61ab674f5250af61186005e15ddd024480daf5ebc1c29ffea5",
+    "notes": "Piglet-shaped beast barking as it charges down the red slope of Mount Gui, a rear-pointing chicken-like spur raised on every foot; no wings or chicken head. Passes narrowly: the spurs are what keep it from an ordinary pig."
+  }
+}

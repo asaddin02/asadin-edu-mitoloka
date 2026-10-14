@@ -1,0 +1,74 @@
+{
+  "slug": "golden-kite",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-057.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Golden Kite, sacred golden spirit bird perched on Jinmu's bow and dazzling the opposing army.\nANATOMY: exactly ONE golden kite raptor with one beaked head, two piercing eyes, two broad wings and exactly TWO taloned feet visibly gripping the TIP of a tall curved bow. No crow anatomy, no third leg. Jinmu is secondary, one fully clothed distant figure holding the bow, with opaque plain historical robes and no invented ornate imperial crown. [golden-kite-c01,c02,c05]\nMOMENT: brace on the bowtip with talons visibly planted and sweep both wings outward toward the low viewer, golden head turned down in commanding direct gaze; opposing warriors behind recoil and shield their eyes.\nPOWER: documented bright golden lightning-like LIGHT radiates physically from golden feathers and illuminates the hail and enemy faces, dazzling the army; depict no electrical attack bolts, no floating rune or circular aura. Sudden dark sky and falling hail. [golden-kite-c02,c05]\nSCALE & CAMERA: extreme low close viewpoint to bowtip, kite fills 80 percent square through perspective, Jinmu hand and opaque sleeve near base of bow, small warriors blurred behind; no unsupported giant bird size.\nLIGHT & WEATHER: bird's documented golden light is the single dominant source, deep storm-dark background, illuminated falling hail, antique gold/umber palette. [golden-kite-c05]\nSURFACE: highly tactile metallic-golden feather barbs, dark gold beak, rough wooden bow and translucent hailstones.\nSETTING: dark battlefield from Jinmu narrative, opposing army reacting, no flag lettering or historical emblems. [golden-kite-c05,c06]\nMOOD: awe-inspiring sacred beneficent omen, commanding and luminous, never evil, demonic or cute.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Kite emas dua kaki pada ujung busur menyilaukan pasukan dalam hujan es.",
+  "basis_claim_ids": [
+    "golden-kite-c01",
+    "golden-kite-c02",
+    "golden-kite-c05",
+    "golden-kite-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "golden-kite-c01",
+      "golden-kite-c02",
+      "golden-kite-c05"
+    ],
+    "kekuatan_perbuatan": [
+      "golden-kite-c02",
+      "golden-kite-c05"
+    ],
+    "tempat": [
+      "golden-kite-c05",
+      "golden-kite-c06"
+    ],
+    "sifat": [
+      "golden-kite-c01",
+      "golden-kite-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu burung kite emas suci bertengger ujung busur Jinmu, bukan gagak tiga kaki.",
+      "claim_ids": [
+        "golden-kite-c01",
+        "golden-kite-c02",
+        "golden-kite-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Cahaya emas seperti kilat menyilaukan musuh; hujan es dan langit gelap.",
+      "claim_ids": [
+        "golden-kite-c02",
+        "golden-kite-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Medan pertempuran Jinmu/Tomi.",
+      "claim_ids": [
+        "golden-kite-c05",
+        "golden-kite-c06"
+      ]
+    }
+  ],
+  "aura": "Cahaya penyilau documented c02/c05 dan wingbrace pada bowtip membuat keagungan sakral.",
+  "artistic_choices": [
+    "Cahaya emas c02/c05 adalah pengecualian terdukung, bukan aura generik. Tidak memberi lightningattack; pola feathers golden dan busana plain editorial.",
+    "Tidak mencampur Yatagarasu c03; kaki dua, tidak gagak. Framing membuat burung dominan tanpa klaim giant."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

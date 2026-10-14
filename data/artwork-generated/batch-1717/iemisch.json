@@ -1,0 +1,101 @@
+{
+  "slug": "iemisch",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium PAINTERLY cinematic Mitoloka illustration of Iemisch, an earless Patagonian nocturnal water monster. A visually counted FOUR-LEGGED creature in a wide diagonal airborne leap toward viewer.\nANATOMY: Short round mammalian head, two fierce eyes, oversized canines, NO external ears whatsoever. Slender long dark wet-furred torso. Exactly FOUR separate short webbed feet, each connected by one visible continuous leg to body: TWO FOREPAWS each have EXACTLY THREE toes and THREE claws; TWO HINDPAWS each have EXACTLY FOUR toes and FOUR claws. Give paws LARGE clean silhouettes, spread like open fans, no folded toes or overlapping claws. Exactly one long broad FLAT paddle ribbon tail with flat top surface visible, hooks around rock [iemisch-c05].\nMOMENT: Launch sideways out of water directly at viewer and scream open-mouthed; all four legs spread in DIFFERENT silhouette quadrants, body diagonal, head at upper left, tail at upper right; nearer forepaw at lower left shows3, farther forepaw uppermiddle shows3; nearer hindpaw lower right shows4, farther hindpaw at rightmiddle shows4. Keep paws apart, absolutely no paw hidden by body or another paw [iemisch-c02,c06].\nPOWER: predator able to drag horses underwater, no magicaleffects [iemisch-c02]; physical ordinary water splash.\nSCALE & CAMERA: LOW THREE-QUARTER SIDE VIEW of the complete creature, LONGER SLENDER TORSO to separate all4limbs, NOT frontal otter portrait. Creature fills frame, head threatening. Tiny horse retreats on shore unharmed.\nLIGHT & WEATHER: one moonlight rim, dark walnut waters, white splash from physical leap.\nSURFACE: coarse wet fur, large leathery webbed feet, flat wet ribbon tail.\nSETTING: Lake Colhue Patagonia night [iemisch-c01,c02].\nMOOD: ferocious strange aquatic beast, active menacing confrontation, premium painted brush textures.\nHARD CONSTRAINTS: no text/logo/watermark/border; no externalears; no extraheads/limbs/toes; no entertainment imitation; no nudity/gore; no glow aura/neon/ribbons.",
+  "depicted_variant": "Iemisch menyerbu tepi danau, empat telapak3/4toe terlihat.",
+  "basis_claim_ids": [
+    "iemisch-c05",
+    "iemisch-c02",
+    "iemisch-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "iemisch-c05",
+      "iemisch-c07"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "iemisch-c02",
+      "iemisch-c06"
+    ],
+    "tempat": [
+      "iemisch-c01"
+    ],
+    "sifat": [
+      "iemisch-c02",
+      "iemisch-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Short head big canines no external ears; exactly3webbed foretoes and4webbed hindtoes on each foot; long flat prehensiletail.",
+      "claim_ids": [
+        "iemisch-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Menyerang di air malam, horse di belakang untuk kekuatan ancaman tanpa injury.",
+      "claim_ids": [
+        "iemisch-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "LakeColhue Patagonia malam.",
+      "claim_ids": [
+        "iemisch-c01",
+        "iemisch-c02"
+      ]
+    }
+  ],
+  "aura": "Nocturnal attack c02/c06 dan anomali3/4toe/flatprehensiletail c05.",
+  "artistic_choices": [
+    "Fur/palet/rock/horse composition editorial; noinventsize; flatprehensiletail dan toes wajib, tanpa boneplates efek rekaan."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/iemisch-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/iemisch-attempt-01.json",
+      "native_sha256": "ee578148f81777b6c48e6d2eceaef39bb423c5bb4645b1b49900ef586867a851",
+      "reason": "Native1254+200: externalear kecil terlihat di belakang kepala, melanggar c05; hindtoe count tidak cukup jelas dan tail masih terbaca bulat bukan flatprehensile. Forefeet3 bagus tetapi uji5 gagal."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/iemisch-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/iemisch-attempt-02.json",
+      "native_sha256": "6a35964c27970578a799c334d3e05489ec9c480259981016655a6e58536ac4a3",
+      "reason": "Native+200: satu hindfoot tersembunyi sehingga hanya3limbs terlihat, foreleft count ambigu4; gagal anatomytest5. Earsabsent dan flat-tail improved."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-e011-7771-8a2a-bae45481a643/exec-83e088f0-f97e-476a-9bbf-6eca1e860946.png",
+  "generated_at": "2026-10-13T17:55:22.407011+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/iemisch.png",
+  "native_sha256": "a26ab977719f8b368b3d7da393da71f249c63f3944185579f3cc7215927dc73f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 diperiksa7Sangar ya. Fourfeet visible, uppermiddle/leftlower fore3each; rightmiddle/rightlower hind4each; smooth head earless; flat wide ribbonprehensiletail hooksrock c05. Openmouth scream/leap c06, splashphysical, no aura/gore/text.03passes after2anatomyrejections.",
+    "limitations": [],
+    "native_sha256": "a26ab977719f8b368b3d7da393da71f249c63f3944185579f3cc7215927dc73f",
+    "reviewed_at": "2026-10-13T17:55:22.407011+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "a26ab977719f8b368b3d7da393da71f249c63f3944185579f3cc7215927dc73f",
+    "notes": "Otter-like attacker leaping from Lake Colhué at night with a frightened horse behind; on a large view exactly three claws on each forefoot, four on each hind foot, no external ears, long flat tail."
+  }
+}

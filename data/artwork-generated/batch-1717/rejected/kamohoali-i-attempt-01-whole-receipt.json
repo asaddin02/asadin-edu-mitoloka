@@ -1,0 +1,84 @@
+{
+  "slug": "kamohoali-i",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kamohoalii, protective Hawaiian shark god guiding lost sailors.\nANATOMY: one living shark incarnation with one head, two eyes, normal shark fins and one powerful tail; no human parts or crown [kamohoali-i-c07,c08].\nMOMENT: swim directly past the low water-level viewer, sharply shake the tail to lead a small distant voyaging canoe toward the island shore [kamohoali-i-c03]. Mouth closed; guardian expression steady and authoritative.\nPOWER: a real curved wake and scattering water physically follow the guiding tail, no fire, steam magic or supernatural beams [kamohoali-i-c03].\nSCALE & CAMERA: extreme close split-water side-front view, head dominates front, entire continuous body and tail readable; canoe distant by perspective, NOT a giant shark.\nLIGHT & WEATHER: one amber low sun beneath deep storm clouds, crisp side-light on wet skin, ocean spray.\nSURFACE: natural rough gray-brown shark skin, wet specular water, deep sea green.\nSETTING: waters around Maui and Kahoolawe, distant dark Hawaiian island [kamohoali-i-c02].\nMOOD: awe-inspiring sacred benevolent guardian, protecting sailors; no attacking victims or evil horror.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+  "depicted_variant": "Protective shark incarnation turning to guide a distant canoe.",
+  "basis_claim_ids": [
+    "kamohoali-i-c07",
+    "kamohoali-i-c08",
+    "kamohoali-i-c03",
+    "kamohoali-i-c02",
+    "kamohoali-i-c04",
+    "kamohoali-i-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kamohoali-i-c07",
+      "kamohoali-i-c08"
+    ],
+    "kekuatan": [
+      "kamohoali-i-c03"
+    ],
+    "tempat": [
+      "kamohoali-i-c02"
+    ],
+    "sifat": [
+      "kamohoali-i-c04",
+      "kamohoali-i-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Shark incarnation, one head and normal shark fins and tail.",
+      "claim_ids": [
+        "kamohoali-i-c07",
+        "kamohoali-i-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tail motion guides lost sailors home; natural wake only.",
+      "claim_ids": [
+        "kamohoali-i-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waters near Maui and Kahoolawe.",
+      "claim_ids": [
+        "kamohoali-i-c02"
+      ]
+    }
+  ],
+  "aura": "Shark king c04 embodied as protective shark c07/c08; guiding tail c03.",
+  "artistic_choices": [
+    "Species-neutral shark anatomy and cinematic split-water camera editorial.",
+    "No unsupported giant size, flame, steam effect or crown; normal sea spray only."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cc-66db-78b1-b552-b9280b8aa6f3/exec-1b8de5a5-9b3e-40df-8ce8-f76be6055b6b.png",
+  "generated_at": "2026-10-13T17:55:46.913751+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/kamohoali-i.png",
+  "native_sha256": "6ac2bdf01c092bdcbfee94a19d3c1f704a73ffe3989396dd40269b84726d6d05",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 inspected,7yes:1sharkhead fills near frame;2low splitwater close guardian is imposing at200;3tail visibly turns and throws curved guiding wake;4natural spray/wake from tail guiding c03, no flames/steam powers;5one natural shark body/head/tail and fins c07/c08, no invented size;6no lettering/frame/copiedIP/gore;7active guardian escort of voyaging canoe with dramatic frontal proximity, not calm animal portrait. Respectful benevolent incarnation, mouth closed.",
+    "limitations": [],
+    "native_sha256": "6ac2bdf01c092bdcbfee94a19d3c1f704a73ffe3989396dd40269b84726d6d05",
+    "reviewed_at": "2026-10-13T17:55:46.913751+00:00"
+  }
+}

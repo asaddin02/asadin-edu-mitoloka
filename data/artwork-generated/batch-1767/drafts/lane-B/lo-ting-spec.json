@@ -1,0 +1,95 @@
+{
+  "slug": "lo-ting",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "EDIT ONLY the tiny tail at the rear hip of the supplied image. Preserve the entire image otherwise: same adult Lo Ting face, short yellow hair, normal round ears, dark scaled skin, exactly two arms and two legs, opaque cloth, oyster-shell wall, direct focused gaze, plunge into seawater, lighting, composition, square dimensions and painterly realism. The current tail sticking from the rear-right hip is much too long. Replace it with ONLY a small rounded blunt nub 3 cm long (one cun), about the width of the tip of this adult's thumb. Only the first 15 percent of the current tail should remain; remove the outer 85 percent seamlessly, filling the vacated area with the existing shell-wall background. It must be a smooth blunt nub, with no fin and no spikes. No other changes. No text, lettering, pseudo-glyphs, watermark, extra anatomy, neon or aura. This is the third and final attempt; anatomical tail length is essential.",
+  "depicted_variant": "Dark-faced short-yellow-haired fish-person plunging into the sea",
+  "basis_claim_ids": [
+    "lo-ting-c01",
+    "lo-ting-c09",
+    "lo-ting-c04",
+    "lo-ting-c06",
+    "lo-ting-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "lo-ting-c01",
+      "lo-ting-c09"
+    ],
+    "kuasa": [
+      "lo-ting-c09"
+    ],
+    "tempat": [
+      "lo-ting-c04",
+      "lo-ting-c06",
+      "lo-ting-c09"
+    ],
+    "sifat": [
+      "lo-ting-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One human-height fish-person with a dark humanlike face, short yellowish hair, two eyes, two arms and two legs, and a tiny one-cun tail at the lower back. Fully opaque plain dark linen torso and hip covering, legs visible; wet fishlike skin, no huge mermaid tail or extra fins.",
+      "claim_ids": [
+        "lo-ting-c01",
+        "lo-ting-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Island seashore around Dayushan, Hong Kong, with an oyster-shell wall.",
+      "claim_ids": [
+        "lo-ting-c04",
+        "lo-ting-c06",
+        "lo-ting-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forceful plunge into water when encountering people, a real close-up splash. No supernatural attack.",
+      "claim_ids": [
+        "lo-ting-c09"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari Forceful plunge into water when encountering people, a real close-up splash. No supernatural attack.; lo-ting-c09.",
+  "artistic_choices": [
+    "Menyeleksi deskripsi Guangdong Xinyu c09, tidak meminjam keluarga putri duyung film c12.",
+    "Pakaian linen polos adalah penutupan editorial; tubuh bukan ikonografi film.",
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru.",
+    "Percobaan kedua menegaskan tubuh dewasa, telinga manusia bulat, ekor 3cm tanpa sirip dan rambut cropped agar c09 terbaca.",
+    "Root menolak02 karena ekor panjang; edit03 hanya memendekkan menjadi nub seujung ibu jari sesuai satu cun, mempertahankan adegan."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-01.json",
+      "native_sha256": "1c538595e0a8db57f71141b3d8155529dd8df27d2d05f90865db280ed6f26fe8",
+      "reason": "Kuping lancip/fins tambahan tak didukung, ekor kipas besar bukan satu cun, dan wajah kekanak-kanakan terlalu lucu untuk Uji Sangar2/5/7."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-02.json",
+      "native_sha256": "602534c03864d7bc384f662f6629268890c48e1a593cc7868adbe5d8416c8ead",
+      "reason": "Rootreview reject: rearhiptail clearly about15cm or more vs documented onecun about3cm; visibleappendage x1000–1150 in1254frame. Otherwise adult/normalears/shortyellowhair/plungegood. Must shorten to thumbtip-sized3cmnub."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-03.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-03.json",
+      "native_sha256": "5838978320c10a8eb1e0533c176525e3ebd62b4f6da08fb208e9f04b13a50b58",
+      "reason": "Edit03 menghapus ekorpanjang tetapi tidak ada nub3cm yang dapat diverifikasi pada native/crop. Klaim c09 tinyonecun tail belum terpenuhi. Maksimum3percobaan, tidakada4th."
+    }
+  ]
+}

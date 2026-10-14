@@ -1,0 +1,78 @@
+{
+  "slug": "ka-a-pora",
+  "worker": "codex",
+  "worker_agent": "lane1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ka'a Pora, the gigantic hairy forest spirit of Parana.\nANATOMY: one enormous humanlike hairy man with an unusually large head, two eyes, two arms and two legs; dense long body hair and an opaque plain bark-brown waist wrap [ka-a-pora-c07]. No horns or invented animal anatomy.\nMOMENT: push aside a heavy hanging branch while leaning down toward the viewer, one broad hand reaching into the close foreground, mouth set in grave authority, the huge head looming above.\nPOWER: no visible supernatural effect; documented giant anatomy and the spirit's direct emergence from the forest provide awe [ka-a-pora-c07].\nSCALE & CAMERA: extreme low angle, full giant crouching between small forest trunks, a distant adult silhouette smaller than his forearm provides scale.\nLIGHT & WEATHER: one warm shaft of late sunset through canopy, deep walnut shadows, natural disturbed leaf dust.\nSURFACE: coarse matted hair, weathered skin, wet tree bark, rough opaque cloth.\nSETTING: the forest of Parana, dense trunks and vegetation [ka-a-pora-c07, ka-a-pora-c04].\nMOOD: imposing supernatural forest authority, dangerous and awe-inspiring, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons; no pipe, pig or flames from alternative versions.",
+  "depicted_variant": "Pria raksasa berbulu dan kepala besar dari varian Parana.",
+  "basis_claim_ids": [
+    "ka-a-pora-c07",
+    "ka-a-pora-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "ka-a-pora-c07"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "ka-a-pora-c04",
+      "ka-a-pora-c07"
+    ],
+    "sifat": [
+      "ka-a-pora-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Pria raksasa berbulu berkepala besar varian Parana.",
+      "claim_ids": [
+        "ka-a-pora-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hutan Parana.",
+      "claim_ids": [
+        "ka-a-pora-c07",
+        "ka-a-pora-c04"
+      ]
+    }
+  ],
+  "aura": "Ukuran raksasa dan kepala besar c07 menjulang di hutan c04.",
+  "artistic_choices": [
+    "Tidak mencampur invisiblewoman, skullpipe, pig/dogfire varian lain.",
+    "Pakaian buram sederhana, cahaya sunset dan momen mendorong cabang pilihan editorial.",
+    "Tidak ada efek kekuatan rekaan; awe lewat giant size c07."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b7-5f40-7b62-b062-51d26573639d/exec-7a958602-3958-4c30-a2a7-02b3decd6ea6.png",
+  "generated_at": "2026-10-13T14:49:06.638489+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/ka-a-pora.png",
+  "native_sha256": "d2227cdb14a580a9536bdde39c097f56f193e42917b729c19b56edd62e7c8bac",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan200px dilihat; tujuh UjiSangar ya: giant hairy head c07, skala berbanding manusia, gestur aktif branch+reaching, tiada magic, anatomi2arms2legs, tiada text, tidak ordinaryhuman.",
+    "limitations": [],
+    "native_sha256": "d2227cdb14a580a9536bdde39c097f56f193e42917b729c19b56edd62e7c8bac",
+    "reviewed_at": "2026-10-13T14:49:06.638489+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "d2227cdb14a580a9536bdde39c097f56f193e42917b729c19b56edd62e7c8bac",
+    "notes": "Hairy giant man with an oversized head reaching through the Paraná forest, a tiny human figure behind for scale."
+  }
+}

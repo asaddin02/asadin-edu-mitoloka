@@ -1,0 +1,81 @@
+{
+  "slug": "qianlima",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium hand-painted cinematic Mitoloka illustration of Qianlima, the exceptional thousand-li horse [qianlima-c01].\nANATOMY: Exactly one horse head, two eyes, four legs and one tail; no wings, horn or added anatomy. Natural powerful horse anatomy.\nMOMENT: Charges THROUGH the viewer’s space at the peak of a furious long-distance gallop, one huge foreshortened forehoof almost striking the lens, head lowered in fierce focused confrontation, eyes sharply fixed on viewer, mane ripped backward. Four legs clearly separated. Visibly an overwhelming racing force, not a graceful horse portrait.\nPOWER: The documented thousand-li endurance and speed [qianlima-c01] shown as an explosive curtain of soil thrown by hooves, broken motion of foreground stones and wind-whipped mane. No supernatural aura, no rays, no dust tornado or invented magic.\nSCALE & CAMERA: Camera inches above the earth immediately in its path, extremely tight frontal composition, forehead and imminent hoof occupy almost whole square; no giant size implied, no small humans for scale.\nLIGHT & WEATHER: Extremely low-key dusk, almost black walnut atmosphere, one narrow antique-gold raking side light catching fierce eye, stressed sinew and sharp hoof edge; deep shadows. Thick earthen dust is physically kicked by galloping.\nSURFACE: Deliberate painterly brushwork, rough expressive oil-paint texture, sweat, dirt and tangled mane; no photorealistic equestrian stock photo.\nSETTING: Unlocated minimal earthen route, editorial only, largely obscured by charging horse.\nMOOD: Terrifying imminent impact and mythic endurance, never neutral, graceful, cute or pastoral.\nHARD CONSTRAINTS: no text, letters, marks, symbols, inscriptions, logo, frame or watermark; no extra anatomy, no horns or wings, no nude human, no gore, no aura/neon/energy ribbons, no copyrighted design.",
+  "depicted_variant": "One horse head, two eyes, four horse legs, one mane and one tail; powerful normal horse anatomy, no horns or wings",
+  "basis_claim_ids": [
+    "qianlima-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "qianlima-c01"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "qianlima-c01"
+    ],
+    "tempat": [],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One horse head, two eyes, four horse legs, one mane and one tail; powerful normal horse anatomy, no horns or wings",
+      "claim_ids": [
+        "qianlima-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Its thousand-li travel ability is suggested only by extreme running momentum: hooves fling dirt backward; no magical trails",
+      "claim_ids": [
+        "qianlima-c01"
+      ]
+    }
+  ],
+  "aura": "Its thousand-li travel ability is suggested only by extreme running momentum: hooves fling dirt backward; no magical trails qianlima-c01",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Coat colour and unlocated earthen route are editorial; the horse is not made a giant.",
+    "Revision after root rejected ordinary galloping photograph: explicit frontal impact, low-key oil brushwork and endurance momentum without altering sourced horse anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/qianlima-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/qianlima-attempt-01.json",
+      "native_sha256": "58f1569f0f663b9aaed3c09a91b86c48d5a1ff27e22dd9c12b53582bdd8a652b",
+      "reason": "Root native + 200px review: exactly normal horse photo galloping; thousand-li exceptional being not distinguishable; ordinary animal on route, §6.1 and Uji Sangar #7 fail."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-dac780ba-0e47-488f-b3f6-49e24fc920ee.png",
+  "generated_at": "2026-10-13T18:47:52.403266+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/qianlima.png",
+  "native_sha256": "37c5914e78a56ea0f16bc21af981b408ba010f29d1720e42d161c18b5ede011c",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES locally: imminent foreshortened hoof almost hits lens, intense frontal head/eyes dominate, charging endurance moment with heavy earth clods c01, natural one horse head/four legs/tail, no invented anatomy/giant size/text/glow/IP. Attempt02 answers root ordinary stock horse concern through darker oil brushwork and confronting impact. Root must judge exceptional presence.",
+    "limitations": [],
+    "native_sha256": "37c5914e78a56ea0f16bc21af981b408ba010f29d1720e42d161c18b5ede011c",
+    "reviewed_at": "2026-10-13T18:47:52.403266+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "37c5914e78a56ea0f16bc21af981b408ba010f29d1720e42d161c18b5ede011c",
+    "notes": "The sources make it a normal horse, so the frontal charge with flung earth and storm light must carry the thousand-li speed. Passes narrowly for that reason; no horns, wings or trails."
+  }
+}

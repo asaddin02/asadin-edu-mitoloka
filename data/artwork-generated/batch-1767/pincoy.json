@@ -1,0 +1,89 @@
+{
+  "slug": "pincoy",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Pincoy, the handsome male sea spirit and strict maritime guardian of Chiloé.\nANATOMY: ONE large SILVER SEAL BODY with a handsome masculine HUMAN FACE and thick LONG GOLDEN MANE, two eyes, exactly TWO foreflippers and TWO rear flippers; NO human arms or legs, no fish tail. [c06]\nMOMENT: Swim toward viewer with extraordinary speed, silver seal body driving a deep wake and foreflippers cutting water, serious watchful human gaze. [c13,c07]\nPOWER: Extraordinary swimming speed creates real white water and spray; silver shine is reflected light on body, no silver energy ray or aura. [c13]\nSCALE & CAMERA: Extreme low waterline angle, handsome human face and golden mane dominant, seal body and flippers clearly visible behind; large seal scale c06\nLIGHT & WEATHER: Single warm sunset break above dark sea, silver reflections and walnut water\nSURFACE: Slick silver-gray seal hide, heavy wet golden hair, churning water\nSETTING: Sea around Chiloé, distant island shore [c01,c13]\nMOOD: Respectful awe at severe administrator and guardian c07, not evil and not ordinary seal\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Silver-seal body variant with masculine human face and golden mane",
+  "basis_claim_ids": [
+    "pincoy-c06",
+    "pincoy-c13",
+    "pincoy-c01"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "pincoy-c02",
+      "pincoy-c06"
+    ],
+    "kuasa": [
+      "pincoy-c07",
+      "pincoy-c13"
+    ],
+    "tempat": [
+      "pincoy-c01",
+      "pincoy-c13"
+    ],
+    "sifat": [
+      "pincoy-c07",
+      "pincoy-c11"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Large silver seal body, handsome human face and golden mane",
+      "claim_ids": [
+        "pincoy-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Extraordinary speed swimming with physical wake",
+      "claim_ids": [
+        "pincoy-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Chiloé sea",
+      "claim_ids": [
+        "pincoy-c01",
+        "pincoy-c13"
+      ]
+    }
+  ],
+  "aura": "Hybrid human face on seal c06 and extraordinary swimming c13, severe guardian c07.",
+  "artistic_choices": [
+    "c06 silver seal chosen instead of golden sea-lion c02. Silver-ray simile c13 translated reflected body shine only, not beam. Close action makes face/flippers readable."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-05acd59f-cf6a-4097-b6b7-eb90cea3e206.png",
+  "generated_at": "2026-10-13T18:46:21.495079+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/pincoy.png",
+  "native_sha256": "c5f1c6d321154185f5e5d3d92c1880225807ac52d7665409ffae5b33f4ee1b25",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat. Uji Sangar 7/7 ya: large silver seal body and handsome masculine human face golden mane c06, two foreflippers rear flippers behind, no human limbs/fish tail, forceful speed wake c13, severe guardian stare c07; no text/aura/gore, respectful awe.",
+    "limitations": [],
+    "native_sha256": "c5f1c6d321154185f5e5d3d92c1880225807ac52d7665409ffae5b33f4ee1b25",
+    "reviewed_at": "2026-10-13T18:46:21.495079+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "c5f1c6d321154185f5e5d3d92c1880225807ac52d7665409ffae5b33f4ee1b25",
+    "notes": "Silver seal body with a handsome bearded human face and golden mane speeding through the Chiloé surf."
+  }
+}

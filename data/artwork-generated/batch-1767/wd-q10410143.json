@@ -1,0 +1,101 @@
+{
+  "slug": "wd-q10410143",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Edit this original Boyi illustration with ONE precise anatomy correction, preserving its threatening forward bounding moment, square cinematic oil-paint composition, natural sheep-shaped body, FOUR legs, EXACTLY NINE individually separated tails, TWO EYES ON BACK and ZERO facial eyes, dark Mount Ji rocks and raking golden low light [wd-q10410143-c01, wd-q10410143-c02, wd-q10410143-c04, wd-q10410143-c05, wd-q10410143-c07].\nCRITICAL EAR CORRECTION: It currently has FIVE ears: TWO on the viewer-left side of the head and THREE on the viewer-right side. REMOVE ONLY the MIDDLE horizontal ear at VIEWER RIGHT (the long ear projecting horizontally to the right, between the upper diagonal ear and the lower diagonal ear). Fill that removed ear’s area seamlessly with background or normal head wool as appropriate. Preserve the upper and lower ears on viewer-right and both existing ears on viewer-left. Final count exactly FOUR ears, TWO on each side, all four exposed and clearly visible. No ear stump, nub or extra fifth ear.\nTAILS INVARIANT: Preserve ALL NINE tails with nine separate tips; do not remove, merge, add or hide a tail. BACK EYES invariant: retain BOTH large biological eyes on the torso BACK, no facial eyes added. NO horns. All diagnostic features readable at 200 pixels. Sheep mouth remains open in active forward bound, never static/cute.\nNo power effects added; fear-dispelling hide is not aura [wd-q10410143-c03]. No text, numerals, labels, pseudo-writing, symbols, watermark, border, extra anatomy, glowing aura/neon, nudity/gore or borrowed design. One final square image, no before/after panel.",
+  "depicted_variant": "One sheep-like body with one head, FOUR EARS separated in two pairs, exactly FOUR sheep legs, exactly NINE long distinct tails fanned apart at the rump, exactly TWO EYES ON ITS BACK and ZERO eyes on its face. Hair parted around the two dorsal eyes. No horns added",
+  "basis_claim_ids": [
+    "wd-q10410143-c01",
+    "wd-q10410143-c02",
+    "wd-q10410143-c07",
+    "wd-q10410143-c03",
+    "wd-q10410143-c04",
+    "wd-q10410143-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10410143-c01",
+      "wd-q10410143-c02",
+      "wd-q10410143-c07"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "wd-q10410143-c03"
+    ],
+    "tempat": [
+      "wd-q10410143-c04",
+      "wd-q10410143-c05"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One sheep-like body with one head, FOUR EARS separated in two pairs, exactly FOUR sheep legs, exactly NINE long distinct tails fanned apart at the rump, exactly TWO EYES ON ITS BACK and ZERO eyes on its face. Hair parted around the two dorsal eyes. No horns added",
+      "claim_ids": [
+        "wd-q10410143-c01",
+        "wd-q10410143-c02",
+        "wd-q10410143-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible magic; legendary fear-dispelling hide is not represented as an aura, action and strange anatomy only",
+      "claim_ids": [
+        "wd-q10410143-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Ji, dark rocky slope with unusual trees distant",
+      "claim_ids": [
+        "wd-q10410143-c04",
+        "wd-q10410143-c05"
+      ]
+    }
+  ],
+  "aura": "No visible magic; legendary fear-dispelling hide is not represented as an aura, action and strange anatomy only wd-q10410143-c03",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Higher three-quarter view deliberately replaces generic low angle so dorsal eyes and exact tail count are visible. No facial eyes.",
+    "Attempt02 targeted built-in edit removes only fifth ear while preserving nine tails/two dorsal eyes/zero facial eyes."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/wd-q10410143-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/wd-q10410143-attempt-01.json",
+      "native_sha256": "564c1a20f7a8c463b4c13bc1f9431b1fad9f88e78139642db2074a10ff135297",
+      "reason": "Nine tails and two dorsal eyes/zero facial eyes correct, but FIVE ears: two on viewer-left and three on viewer-right. Source requires exactly four ears. Anatomy fail."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-50764b2d-fccb-42d6-a1b1-9fb014eb1e26.png",
+  "generated_at": "2026-10-13T19:05:25.078440+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/wd-q10410143.png",
+  "native_sha256": "e14d81c9569dc2899de19e3f4d6b821fe280c53ed74a1855433e3919bfc5e4ac",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES: sheep-like Boyi dominates in forward twisting bound, uncanny TWO large biological eyes on BACK stare up at viewer, ZERO facial eyes; EXACT NINE tails with distinct tips counted along fan and FOUR ears (two per side), four sheep legs/one head/no horns. No magic from fear-dispelling-hide belief, dark Mount Ji habitat c04/c05, no text/glow/IP. Attempt02 removes fifth ear while preserving other anatomy.",
+    "limitations": [],
+    "native_sha256": "e14d81c9569dc2899de19e3f4d6b821fe280c53ed74a1855433e3919bfc5e4ac",
+    "reviewed_at": "2026-10-13T19:05:25.078440+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "e14d81c9569dc2899de19e3f4d6b821fe280c53ed74a1855433e3919bfc5e4ac",
+    "notes": "Boyi: sheep-like body with nine fanned tails, four ears in two pairs, two eyes on the back and none on the face (native crop); no horns."
+  }
+}

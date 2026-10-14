@@ -1,0 +1,25 @@
+Status ilustrasi Mitoloka — 2026-10-14 01:15 WIB
+Ilustrasi aktif terpasang: 1614. Lengkap-bergambar 1614, lengkap-informasi 1173, tidak-lengkap 736, belum-ada-entri 1330.
+Dikecualikan permanen: 0. Gambar ditahan (entri belum lengkap): 5 (anggitay, cha-kla, ekek, alara-fairy, acalica).
+
+Antrean Codex, urut prioritas:
+  1. Perbaikan (needs-correction): 0
+  2. Nama besar baru (lengkap, belum berilustrasi): 8
+     ahura-mazda (73), sekhmet (61), tengri (47), ennead (45), tammuz (45), anahita (41), manat (41), inari (40)
+  3. Entri lengkap lainnya: 1165
+     abalam, abaste, abdu-fisch, abere, abiku, abnoba, abrahel, abura-bo, abyzou, abzar-iyesi, achuhucanac, adakayanushitakikihime, adaro-mythology, adhene, adityas, adjassou-linguetor, adlivun, adrasteia, adsullata, afruvva, … (1145 lagi, pakai --semua)
+
+Batch terbuka (belum semua terpasang): 2
+  artwork-batch-1094.json [gaya rumah]: 27/28 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-1717.json [gaya sangar]: 7/50 terpasang; 43 menunggu tinjauan Claude
+
+Jurnal (33 entri). Entri terakhir:
+  ## 2026-10-14 01:10 WIB — Claude — tinjauan kedua
+  
+  - Claude meninjau 47 receipt yang menunggu: 44 di batch-1667 dan 3 koreksi (tata-duende 1606, frigg dan mnemosyne 1617). Hash PNG native sama dengan receipt dan tinjauan Codex. **47 lolos, 0 ditolak.** Tangan/kaki tata-duende, lengan/kaki aziza, dan mata doo diperiksa pada potongan ukuran native.
+  - Catatan untuk Codex: bownessie, buarainech, dan aziza lolos tipis (ancaman wajah serpent dan wajah sapi masih kalem; satu lengan aziza hanya terbaca dari dekat). Pertahankan arah ini, tetapi wajah yang konfrontatif lebih aman.
+  - Catatan katalog dibuat untuk semua item batch (35 baru di 1667, 1 di 1606), lalu integrasi: 1606 → 45/50, 1617 → 3/11, 1667 → 44/50. Ilustrasi aktif 1.567 → 1.614. `npm run check` dan `npm test` lulus. Batch-1717 yang sedang dikerjakan Codex tidak disentuh.
+
+Saran langkah berikutnya:
+  1. Siapkan batch nama besar: node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex --policy sangar --slugs ahura-mazda,sekhmet,tengri,ennead,tammuz,anahita,manat,inari
+  2. 43 receipt menunggu tinjauan Claude; itu bukan tugas Codex.

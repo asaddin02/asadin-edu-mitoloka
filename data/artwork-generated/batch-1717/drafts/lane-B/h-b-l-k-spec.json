@@ -1,0 +1,74 @@
+{
+  "slug": "h-b-l-k",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hıbılık, the chest-pressing nocturnal spirit of Turkish folk belief in its documented cat form wearing a magic börk cap.\nANATOMY: one feline head, two feline eyes, four cat legs and one tail; wears a small dark felt börk cap on the crown, clearly visible between the ears [h-b-l-k-c07,h-b-l-k-c08].\nMOMENT: crouch aggressively on a fully clothed sleeping adult's upper chest, both forepaws pressing the collarbone near the throat, leaning its face directly towards the viewer with tense exposed teeth; sleeper sweating with closed eyes, no wound.\nPOWER: physical chest pressure immobilizes the sleeper; show compression of the blanket and a strained sweating face, no magical beams or levitation [h-b-l-k-c03,h-b-l-k-c05,h-b-l-k-c12].\nSCALE & CAMERA: mattress-level extreme low close angle; the capped cat's face and forepaws dominate, natural cat scale, sleeper foreshortened beneath.\nLIGHT & WEATHER: one warm oil lamp from the side; deep dark room and crisp amber rim light, no glowing eyes.\nSURFACE: coarse dark fur, worn felt cap, opaque woven bedding and clothing.\nSETTING: bedside of a sleeping person in a dark room [h-b-l-k-c05,h-b-l-k-c12].\nMOOD: sinister supernatural night visitation, confrontational and threatening, never a cute house cat.\nHARD CONSTRAINTS: no extra heads, legs or fingers; no wings or horns; no text, lettering, logo, border, frame or watermark; no design borrowed from film/game/anime/comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Hıbılık varian kucing berbörk menindih dada korban tidur.",
+  "basis_claim_ids": [
+    "h-b-l-k-c07",
+    "h-b-l-k-c08",
+    "h-b-l-k-c03",
+    "h-b-l-k-c05",
+    "h-b-l-k-c12"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "h-b-l-k-c07",
+      "h-b-l-k-c08"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "h-b-l-k-c03",
+      "h-b-l-k-c05",
+      "h-b-l-k-c12"
+    ],
+    "tempat": [
+      "h-b-l-k-c05",
+      "h-b-l-k-c12"
+    ],
+    "sifat": [
+      "h-b-l-k-c01",
+      "h-b-l-k-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Varian kucing memakai börk ajaib.",
+      "claim_ids": [
+        "h-b-l-k-c07",
+        "h-b-l-k-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Menekan dada/tenggorokan tidur sehingga lumpuh dan berkeringat.",
+      "claim_ids": [
+        "h-b-l-k-c03",
+        "h-b-l-k-c05",
+        "h-b-l-k-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tempat tidur korban yang sedang tidur.",
+      "claim_ids": [
+        "h-b-l-k-c05",
+        "h-b-l-k-c12"
+      ]
+    }
+  ],
+  "aura": "Tekanan nyata pada dada c03/c05/c12 dan börk c07 memberi ancaman spirit.",
+  "artistic_choices": [
+    "Börk felt gelap dan oil lamp editorial; anatomi kucing skala alami; tanpa efek cahaya sihir."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

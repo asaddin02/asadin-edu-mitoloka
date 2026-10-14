@@ -1,0 +1,97 @@
+{
+  "slug": "nuba",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nüba, the Chinese goddess whose presence ends rain and brings drought.\nANATOMY: ONE female deity, one head two eyes, two arms and two legs, FULLY OPAQUE DARK-BLUE LONG ROBES covering entire body; plain unmarked garment. Shanhaijing clothed variant, never nude. [c05,c07]\nMOMENT: Descend forward through the last rain while sweeping one sleeve aside; rain curtain ends at her approach and dry earth appears under her step. [c07,c10]\nPOWER: Documented stopping rain and drought: dark rain behind, dry cracked soil foreground, no fire, no energy aura. [c04,c07,c08]\nSCALE & CAMERA: Extreme low angle; monumental presentation as explicit respectful EDITORIAL ALLEGORY of deity, not a factual claim of body size; figure fills frame, small earth ridges below\nLIGHT & WEATHER: One gap of warm sunlight after stopped storm, severe shadow, natural drifting dry dust\nSURFACE: Heavy dark-blue woven robes, parched cracked soil, residual wet stones behind\nSETTING: Northern earth north of Red River, newly drought-stricken field [c08,c10]\nMOOD: Respectful sacred awe at goddess drought power, solemn authority, never evil or monstrous\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Dark-blue-clothed Shanhaijing goddess stopping rain",
+  "basis_claim_ids": [
+    "nuba-c05",
+    "nuba-c07",
+    "nuba-c04",
+    "nuba-c08",
+    "nuba-c10"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "nuba-c05",
+      "nuba-c07",
+      "nuba-c12"
+    ],
+    "kuasa": [
+      "nuba-c04",
+      "nuba-c07",
+      "nuba-c08",
+      "nuba-c10"
+    ],
+    "tempat": [
+      "nuba-c08",
+      "nuba-c10"
+    ],
+    "sifat": [
+      "nuba-c01",
+      "nuba-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Shanhaijing deity in dark-blue clothing",
+      "claim_ids": [
+        "nuba-c05",
+        "nuba-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rain stopped where goddess arrives and drought-stricken soil",
+      "claim_ids": [
+        "nuba-c04",
+        "nuba-c07",
+        "nuba-c08",
+        "nuba-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "North of Red River",
+      "claim_ids": [
+        "nuba-c08"
+      ]
+    }
+  ],
+  "aura": "Drought and cessation of rain c04/c07/c08, sacred authority c01.",
+  "artistic_choices": [
+    "Monumental size is editorial sacred allegory permitted GAMBAR§6.5, explicitly not source anatomy. Clothing choice follows c05/c07 and excludes naked small Shenyijing c12 variant. Natural cracked soil illustrates drought; no fire."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-0423f3f9-bf1a-4017-8178-6a7230565145.png",
+  "generated_at": "2026-10-13T18:40:12.550744+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/nuba.png",
+  "native_sha256": "b879e9b1e0a1e8155417836590bd1b6f41fbdd6fea84e1e434b3f93bae7a3053",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat. Uji Sangar 7/7 ya: monumental editorial sacred allegory, dark-blue opaque robes c05/c07, active step and sleeve sweep, rainfall stops beside parched earth c04/c07/c08, tiny plants convey sacred scale; two hands one head, no text/aura/gore; solemn not evil.",
+    "limitations": [],
+    "native_sha256": "b879e9b1e0a1e8155417836590bd1b6f41fbdd6fea84e1e434b3f93bae7a3053",
+    "reviewed_at": "2026-10-13T18:40:12.550744+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "b879e9b1e0a1e8155417836590bd1b6f41fbdd6fea84e1e434b3f93bae7a3053",
+    "notes": "Goddess in dark-blue robes striding over cracked drought soil as the rain stops where she walks — rain behind, sun and dead trees ahead. Passes narrowly: she has no other documented anatomy, and the split weather plus the low giant-scale camera carry the divinity."
+  }
+}

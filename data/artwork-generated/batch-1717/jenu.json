@@ -1,0 +1,93 @@
+{
+  "slug": "jenu",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Jenu, the wild hairy emaciated human-transformed giant of Mi'kmaq and northern Wabanaki winter tales.\nANATOMY: ONE humanlike head, TWO eyes, TWO long bony arms, TWO long gaunt legs; giant covered in coarse matted hair, very emaciated hollow cheeks, sharp intact-skin cheekbones, knuckles and elbows protruding [jenu-c01,c03]. A fully opaque rough dark torn long tunic and trousers cover torso/hips, cloth clings to skeletal contours. Interpret bones poking as bony contours UNDER INTACT skin, NO exposed bone or wounds. NO antlers, horns, animal skull, claws, glowingeyes or ice armor.\nMOMENT: stride out between winter trees directly toward viewer hunting, bend face low in ravenous snarl, reach one enormous gaunt hand toward lens; near bare knuckles and face sharply visible, opposite arm sweeps branches. A much smaller fullyclothed adult hunter flees far below, unharmed [jenu-c04].\nPOWER: human-hunting giant in winter, no physical magic or cold beams; iceheart is not external armor [jenu-c04,c08].\nSCALE & CAMERA: extreme low snow-level view, giant fills square from face to knees, tiny fleeing adult near feet and tree comparison establishgiantsize [jenu-c01].\nLIGHT & WEATHER: one low moon, cold rim on coarse hair, deep warm walnut darkness, ordinary kicked snowflakes.\nSURFACE: tangled wet winter hair, weathered intact skin, ragged opaque cloth, crisp snow.\nSETTING: northern Wabanaki winter woodland [jenu-c04,c06,c08].\nMOOD: gaunt ravenous imposing giant, active predatory confrontation, no explicit cannibalism shown.\nHARD CONSTRAINTS: no text, letters, logo, border, watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons.",
+  "depicted_variant": "Hairyemaciated Jenu berburu musimwinter tanpa gore/antlers.",
+  "basis_claim_ids": [
+    "jenu-c01",
+    "jenu-c03",
+    "jenu-c04",
+    "jenu-c06",
+    "jenu-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "jenu-c01",
+      "jenu-c03"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "jenu-c04",
+      "jenu-c08"
+    ],
+    "tempat": [
+      "jenu-c04",
+      "jenu-c06"
+    ],
+    "sifat": [
+      "jenu-c01",
+      "jenu-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Hairyemaciatedgiant protrudingbonecontours intactskin no gore.",
+      "claim_ids": [
+        "jenu-c01",
+        "jenu-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Winterhunting advance, no magicaleffects.",
+      "claim_ids": [
+        "jenu-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Winter northernWabanakiforest.",
+      "claim_ids": [
+        "jenu-c04",
+        "jenu-c06",
+        "jenu-c08"
+      ]
+    }
+  ],
+  "aura": "Hairyemaciatedgiant c01/c03 dan winterhuntc04/c08.",
+  "artistic_choices": [
+    "Opaquecloth/moon/woodland staging editorial; sourcebones interpreted intactskin due no-gore; noWendigoskull orantlers copied."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-e011-7771-8a2a-bae45481a643/exec-6958a244-9087-4a24-bc42-3fba6748f8c8.png",
+  "generated_at": "2026-10-13T18:07:17.547416+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/jenu.png",
+  "native_sha256": "47612f38fa16b1d0cf7fcb31330283436204eca6b99d766e38f9eaa196257ae8",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 Sangar7yes: hairygauntgiant c01/c03, hollowface bonyknuckles intactskin, opaquecloth, tinyadult sizecomparison. Active winterhuntingreachc04, no antlers/skull/magicgore/auratext. Hair/cloth textures no copieddesign.",
+    "limitations": [],
+    "native_sha256": "47612f38fa16b1d0cf7fcb31330283436204eca6b99d766e38f9eaa196257ae8",
+    "reviewed_at": "2026-10-13T18:07:17.547416+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "47612f38fa16b1d0cf7fcb31330283436204eca6b99d766e38f9eaa196257ae8",
+    "notes": "Hairy, gaunt giant with bony contours lunging through the winter forest after a fleeing hunter; skin intact, no antlers, no gore."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "giant-anaconda",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Giant Anaconda, the legendary immense serpent of Amazon tales, a report rather than verified zoology.\nANATOMY: one enormous anaconda with exactly one head, two eyes, a single unbroken muscular coiling body and one tail, no legs, horns or wings. Natural olive-black blotched scales, closed powerful mouth without exaggerated fangs. [giant-anaconda-c01,c02,c07]\nMOMENT: tighten a heavy coil around a wooden canoe, visibly buckling and tipping its hull while lifting its head directly toward the low viewer; continuous thick body loops behind the boat, no gore or people.\nPOWER: physical boat capsizing and crushing as reported in the modern account of the legend, no spell, electrical effect or invented poison. Water erupts from the rolling hull. [giant-anaconda-c07]\nSCALE & CAMERA: waterline close wide view; huge snake fills foreground, a recognisable full-size wooden canoe in its coil supports the reported more-than-nine-meter scale without extrapolating a hundred-meter monster. [giant-anaconda-c02,c07]\nLIGHT & WEATHER: single dusk break through rainforest canopy, warm gold rims, very dark green shadows, natural muddy splashes.\nSURFACE: wet textured blotched scales, soaked scratched canoe planks, muddy river water, dense humid foliage.\nSETTING: flooded Amazon rainforest river margin. [giant-anaconda-c01,c07]\nMOOD: dangerous crushing confrontation, powerful documented legendary scale, never ordinary zoological portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Legenda anaconda besar membalik dan menekan kano kayu, memakai account c07.",
+  "basis_claim_ids": [
+    "giant-anaconda-c01",
+    "giant-anaconda-c02",
+    "giant-anaconda-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "giant-anaconda-c01",
+      "giant-anaconda-c02",
+      "giant-anaconda-c07"
+    ],
+    "kekuatan_perbuatan": [
+      "giant-anaconda-c07"
+    ],
+    "tempat": [
+      "giant-anaconda-c01",
+      "giant-anaconda-c07"
+    ],
+    "sifat": [
+      "giant-anaconda-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ular anaconda raksasa lebih dari 9 meter menurut laporan legenda, bukan specimen fact.",
+      "claim_ids": [
+        "giant-anaconda-c01",
+        "giant-anaconda-c02",
+        "giant-anaconda-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Membalik/meremukkan perahu kayu dengan tubuh.",
+      "claim_ids": [
+        "giant-anaconda-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hutan hujan Amazon.",
+      "claim_ids": [
+        "giant-anaconda-c01",
+        "giant-anaconda-c07"
+      ]
+    }
+  ],
+  "aura": "Anaconda berukuran legenda c01/c02 menekan kano c07 memberi ancaman nyata.",
+  "artistic_choices": [
+    "Perahu kosong, air/latar Amazon editorial; ukuran menggunakan laporan c02/c07 dan tidak dipresentasikan sebagai specimen terbukti.",
+    "Efek kapal dipakai hanya dari modern-popular-culture c07, bukan atribut universal atau riset biologis."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-4f001788-abcf-4d0d-b8e0-8b0b36e79ca9.png",
+  "generated_at": "2026-10-13T17:58:48.693816+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/giant-anaconda.png",
+  "native_sha256": "d3b77f70c8d31e60aa8b40d1e8c8a9f607d78acb9630474c382201d3a0a900bd",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "UjiSangar7/7native+200: exactly one snakehead/twoeyes, uninterrupted heavy coils/no limbs/horns; head confronts and coils visibly crush/tip emptycanoe with splitplanks+physicalwater c07. Canoe supports legendarygreaterthaneveryday size c01/c02; Amazonforestc01/c07. Dominant menace200 bukan naturalportrait, no text/IP/aura/gore."
+    ],
+    "limitations": [],
+    "native_sha256": "d3b77f70c8d31e60aa8b40d1e8c8a9f607d78acb9630474c382201d3a0a900bd",
+    "reviewed_at": "2026-10-13T17:58:48.693816+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "d3b77f70c8d31e60aa8b40d1e8c8a9f607d78acb9630474c382201d3a0a900bd",
+    "notes": "Huge anaconda coiling over and crushing a wooden canoe in an Amazon river; threat is clear."
+  }
+}

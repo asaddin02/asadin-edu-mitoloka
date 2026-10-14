@@ -1,0 +1,71 @@
+{
+  "slug": "sharlie",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Sharlie, the 1944 Payette Lake serpent.\nANATOMY: One thirty-to-thirty-five-foot sea-serpent body, one DINOSAUR-LIKE head with two eyes, several CAMEL-LIKE humps along its back, hard SHELL-LIKE textured skin and one tail; no legs or wings [sharlie-c01, sharlie-c04]\nMOMENT: LUNGES its dinosaur-like head directly toward the waterline lens, head occupying sixty percent of image, JAW WIDE OPEN with natural sharp reptile teeth, eyes intensely fixed on viewer; body surges violently behind with clear camel-like humps, a massive curtain of displaced lake water; never closed-mouth placid neck pose\nPOWER: No documented supernatural power; long body produces churning displaced lake water [sharlie-c04]\nSCALE & CAMERA: camera AT WATERLINE inches ahead of the open jaws, violent foreshortened confronting head; sharp diagnostic anatomy, no unclaimed gigantic size; all required countable features separated and visible.\nLIGHT & WEATHER: extremely low-key overcast late light, narrow warm side rim over deep black-walnut shadows, strong contrast, no bright orange postcard sunset; physical water spray only.\nSURFACE: tactile natural skin, fur, feathers, scales or cloth as appropriate, painterly material detail, never plastic.\nSETTING: Payette Lake near McCall, Idaho [sharlie-c01]\nMOOD: imposing and awe-inspiring or threatening according to documented character, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, pseudo-writing, rune, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No decorative symbols or inscriptions.",
+  "depicted_variant": "The 1944 dinosaur-headed camel-humped shell-skinned reported form.",
+  "basis_claim_ids": [
+    "sharlie-c01",
+    "sharlie-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "sharlie-c01",
+      "sharlie-c04"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "sharlie-c04"
+    ],
+    "tempat": [
+      "sharlie-c01"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One thirty-to-thirty-five-foot sea-serpent body, one DINOSAUR-LIKE head with two eyes, several CAMEL-LIKE humps along its back, hard SHELL-LIKE textured skin and one tail; no legs or wings",
+      "claim_ids": [
+        "sharlie-c01",
+        "sharlie-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented supernatural power; long body produces churning displaced lake water",
+      "claim_ids": [
+        "sharlie-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Payette Lake near McCall, Idaho",
+      "claim_ids": [
+        "sharlie-c01"
+      ]
+    }
+  ],
+  "aura": "No documented supernatural power; long body produces churning displaced lake water sharlie-c04",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Second attempt replaces placid surfacing with open-jawed close surge and darker light; no new powers or anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/sharlie-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/sharlie-attempt-01.json",
+      "native_sha256": "f20573f19218af040c269a7fe6522494a955e08fae5e87cb2f8214c88b762bc1",
+      "reason": "Anatomy follows dinosaur head/humps/shell skin but expression and moment are placid, like a calm decorative lake creature. Uji Sangar #2/#3/#7 fail."
+    }
+  ]
+}

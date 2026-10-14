@@ -1,0 +1,108 @@
+{
+  "slug": "mama-d-leau",
+  "worker": "codex",
+  "worker_agent": "correct_mama_dleau",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Use case: precise-object-edit\nAsset type: ONE square premium painterly cinematic Mitoloka illustration of Mama D’Leau, at least 1024 by 1024.\nInput image 1: edit target; preserve this exact composition, character, pose and painterly finish.\nPRIMARY REQUEST: Change ONLY the hair. Replace ALL living snakes on her head with ordinary long flowing black human hair in smooth sinuous snakelike waves. The accepted claims describe long hair and snaky hair, meaning a snakelike wavy shape; they do not document living snakes in the hair. Every strand must have ordinary fine hair fibers, softly tapering ends and no animal features. Remove EVERY snake head, eye, mouth, fang, tongue and scale from the hair, including the silhouette at the top, left and right. Keep long wavy hair in motion around the head and shoulders, and preserve the raised golden comb passing through it. [mama-d-leau-c03, mama-d-leau-c04]\nINVARIANTS: Preserve one human female head with exactly two eyes and her original human face, gaze and narrow forked HUMAN mouth tongue. Preserve exactly TWO arms and exactly two hands with five fingers each, the left-image hand holding the golden comb and right-image hand reaching toward the river. Preserve her full opaque bronze-brown gown, gold earrings and bracelets, one continuous LARGE SNAKE LOWER BODY coiling from the waist instead of legs, existing scales ONLY on that lower body, river spray caused by the body's physical motion, sheltered river fish, rocks, tropical foliage, moonlight, low camera and close dominating framing. Preserve the dignified river guardian, protector and healer mood. [mama-d-leau-c02, mama-d-leau-c03, mama-d-leau-c04, mama-d-leau-c07, mama-d-leau-c09]\nHARD CONSTRAINTS: no living snakes or snake anatomy anywhere in the hair; no Medusa hairstyle. No additional snake heads elsewhere. No new objects or characters. No extra heads, eyes, arms, legs or fingers; no text, lettering, symbols, inscriptions, logo, border, frame or watermark; no nudity, gore, generic aura, neon outline or energy ribbons. Keep the square image and the same strongly imposing active composition.",
+  "depicted_variant": "River mother with serpent lower body and golden comb",
+  "basis_claim_ids": [
+    "mama-d-leau-c03",
+    "mama-d-leau-c04",
+    "mama-d-leau-c07",
+    "mama-d-leau-c01",
+    "mama-d-leau-c02",
+    "mama-d-leau-c09",
+    "mama-d-leau-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "mama-d-leau-c03",
+      "mama-d-leau-c04",
+      "mama-d-leau-c07"
+    ],
+    "kuasa": [
+      "mama-d-leau-c02",
+      "mama-d-leau-c07"
+    ],
+    "tempat": [
+      "mama-d-leau-c01",
+      "mama-d-leau-c02",
+      "mama-d-leau-c09"
+    ],
+    "sifat": [
+      "mama-d-leau-c02",
+      "mama-d-leau-c06",
+      "mama-d-leau-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One beautiful human female head with two eyes, two arms with five fingers each, torso fully covered in opaque unpatterned bronze-brown cloth, and one large snake body coiling continuously from the waist instead of legs. Long snaky hair, a narrow forked tongue briefly visible, and one plain golden comb with no inscriptions.",
+      "claim_ids": [
+        "mama-d-leau-c03",
+        "mama-d-leau-c04",
+        "mama-d-leau-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Caribbean river, rocky bank and dark tropical foliage.",
+      "claim_ids": [
+        "mama-d-leau-c01",
+        "mama-d-leau-c02",
+        "mama-d-leau-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical river displacement by her documented snake body, with river animals sheltering behind the coils; no conjured energy.",
+      "claim_ids": [
+        "mama-d-leau-c02",
+        "mama-d-leau-c07"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari Physical river displacement by her documented snake body, with river animals sheltering behind the coils; no conjured energy.; mama-d-leau-c02, mama-d-leau-c07.",
+  "artistic_choices": [
+    "Varian tubuh ular c03/c07, tidak mencampur ekor ikan.",
+    "Pakaian polos buram adalah editorial untuk penutupan tubuh.",
+    "Cipratan berasal dari gerak tubuh di air, bukan kuasa badai rekaan.",
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru.",
+    "Gelang polos/ornamen geometris kecil dan anting emas adalah aksesori editorial tanpa simbol atau efek; bukan atribut sumber."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/mama-d-leau-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/mama-d-leau-attempt-01.json",
+      "native_sha256": "54d70774b402af743daba7023256cea77265672a9ae5c08ceedcea6db003c488",
+      "reason": "Root Codex rejected unsupported literal living snake heads, tongues and scales in the hair. Accepted c03 describes long hair; c04 says snaky hair (rambutnya yang seperti ular), not living snakes. Uji Sangar #5 claim-faithful anatomy fails; preserve the documented human head/forked tongue, golden comb and single large snake lower body."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-91752ede-a4da-4945-a28f-9739ce98de03.png",
+  "generated_at": "2026-10-13T18:39:28.381532+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/mama-d-leau.png",
+  "native_sha256": "54d70774b402af743daba7023256cea77265672a9ae5c08ceedcea6db003c488",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat; Sangar1–7 ya. Sosok dominan menggerakkan coils dan menyisir rambut ular memakai combemas c04; tonguefork kecil terbaca native, dua mata/satu kepala manusia/dua lengan tangan limajari/tanpa kaki; kain torso buram. Pelindung hewan sungai c02, ikan berlindung tanpa serangan/gore. Tanpa teks/glyph/aura; armband pola diagonal geometris tanpa inskripsi. Tidak manusia biasa karena tubuh/rambut ular.",
+    "limitations": [],
+    "native_sha256": "54d70774b402af743daba7023256cea77265672a9ae5c08ceedcea6db003c488",
+    "reviewed_at": "2026-10-13T18:39:28.381532+00:00"
+  },
+  "edit_source_file": "data/artwork-generated/batch-1767/originals/mama-d-leau.png",
+  "edit_source_sha256": "54d70774b402af743daba7023256cea77265672a9ae5c08ceedcea6db003c488",
+  "attempt_number": 2
+}

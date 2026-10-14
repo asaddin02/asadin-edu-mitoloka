@@ -1,0 +1,95 @@
+{
+  "slug": "kaimingshou",
+  "worker": "codex",
+  "worker_agent": "lane1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kaimingshou, the divine guardian of the nine Kunlun gates.\nANATOMY: ONE immense tiger body, exactly FOUR tiger legs, one tiger tail, and EXACTLY NINE distinct necks with NINE human-faced heads [kaimingshou-c03, kaimingshou-c04, kaimingshou-c08]. Arrange the nine heads in a clean fan: five in the upper row and four in the lower row, all nine faces fully visible, no face hidden or merged. Each head has two human eyes and a stern adult human face with weathered skin, never feline faces. No tenth head. Tiger fur only on the body and necks.\nMOMENT: advance one heavy forepaw onto the stone threshold, all nine grave faces turn toward the approaching viewer, tiger shoulders tense in active guardianship.\nPOWER: no documented supernatural effects; awe through nine-head anatomy and the massive guardian body only.\nSCALE & CAMERA: low close frontal-three-quarter angle; the head fan fills the upper two thirds while the large tiger body and forepaws fill the base; tiny gates recede behind.\nLIGHT & WEATHER: one warm sunset side-light, deep walnut shadows, natural threshold dust.\nSURFACE: coarse striped tiger fur, weathered human faces, ancient rough stone.\nSETTING: nine gates of Kunlun, lower capital of the heavenly ruler, mountain stone gateway [kaimingshou-c02, kaimingshou-c07, kaimingshou-c08].\nMOOD: awe-inspiring divine protector, respectful and imposing, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: exactly nine visible faces, exactly four legs, no extra limbs; no text, lettering, logo, border, frame or watermark; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Penjaga bertubuh harimau besar, sembilan kepala masingmasing wajahmanusia.",
+  "basis_claim_ids": [
+    "kaimingshou-c03",
+    "kaimingshou-c04",
+    "kaimingshou-c08",
+    "kaimingshou-c02",
+    "kaimingshou-c07",
+    "kaimingshou-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kaimingshou-c03",
+      "kaimingshou-c04",
+      "kaimingshou-c08"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "kaimingshou-c02",
+      "kaimingshou-c07",
+      "kaimingshou-c08"
+    ],
+    "sifat": [
+      "kaimingshou-c01",
+      "kaimingshou-c02"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu tubuh besar serupa harimau dengan tepat9kepala berwajahmanusia terlihat.",
+      "claim_ids": [
+        "kaimingshou-c03",
+        "kaimingshou-c04",
+        "kaimingshou-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sembilan gerbang Kunlun kediaman penguasa langit di dunia bawah.",
+      "claim_ids": [
+        "kaimingshou-c02",
+        "kaimingshou-c07"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Penjaga ilahi dihormati, tidak dipaksa jahat.",
+      "claim_ids": [
+        "kaimingshou-c01",
+        "kaimingshou-c02"
+      ]
+    }
+  ],
+  "aura": "Keagungan9wajah c04 dan tubuhharimaubesar c03 melindungi Kunlun c02.",
+  "artistic_choices": [
+    "Susunanfan5+4 untuk hitungan terbaca pilihan editorial.",
+    "Tanpa efek kekuatan karena tiada klaimnya; sunset dan debu alami editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b7-5f40-7b62-b062-51d26573639d/exec-5f8bb7c5-2043-479d-bf43-35d78d3ea47f.png",
+  "generated_at": "2026-10-13T14:50:11.152174+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/kaimingshou.png",
+  "native_sha256": "b2f4b62e26c549a77bc6fb92a83646b20f085729cdcd339129dc916c17da0cd6",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan200px dilihat; tujuhUjiSangar ya. Tepat9kepala wajahmanusia dihitung5atas+4bawah, tubuhharimau1/fourlegs/tail1; melangkah forepaw ke threshold aktif; no supernatural effects; divineprotectiveawe; tanpa tulisan atau desainpinjaman.",
+    "limitations": [],
+    "native_sha256": "b2f4b62e26c549a77bc6fb92a83646b20f085729cdcd339129dc916c17da0cd6",
+    "reviewed_at": "2026-10-13T14:50:11.152174+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "b2f4b62e26c549a77bc6fb92a83646b20f085729cdcd339129dc916c17da0cd6",
+    "notes": "One great tiger body carrying exactly nine human-faced heads (five over four) before the Kunlun gates; dignified guardian, not forced into villainy."
+  }
+}

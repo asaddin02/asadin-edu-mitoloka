@@ -1,0 +1,36 @@
+import sys,json
+sys.path.insert(0,'data/artwork-generated/batch-1717/drafts/lane-C');from helpers import spec,decline
+H='\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.'
+def make(s,g,req,p,v,c,a): return spec(s,g,[{'kind':k,'description':d,'claim_ids':ids} for k,d,ids in req],p+H,v,c,a)
+s='kaka';p='''ONE original square premium painterly cinematic Mitoloka illustration of El Familiar, the man-tall black dog spirit of Argentine sugar mills.
+ANATOMY: one huge black dog as tall as an adult man at the shoulder, one head, two blazing eyes, four canine legs and one tail [kaka-c05].
+MOMENT: spring out of the mill shed darkness toward the viewer, forepaws striking the dusty yard, enormous jaws open in threat.
+POWER: its blazing eyes cast short real flames forward, lighting the muzzle and curling into air [kaka-c05]; no fire from mouth.
+SCALE & CAMERA: extreme low close three-quarter angle, enormous dog dominates from paws to ears; tiny adult worker beside distant shed demonstrates man-tall dog.
+LIGHT & WEATHER: dominant natural orange eye-fire illuminating black fur, deep dark brown moonless shadows, dust from forepaw impact.
+SURFACE: dense shaggy black dog fur, soot, yellowed teeth, rough shed wood.
+SETTING: sugar mill yard in northwestern Argentina, worker sheds and indistinct sugarcane machinery [kaka-c01, kaka-c06].
+MOOD: menacing, dangerous and imposing, never ordinarypet, cute, calm or decorative.'''
+make(s,{'wujud':['kaka-c05'],'kekuatan':['kaka-c05'],'tempat':['kaka-c01','kaka-c06'],'sifat':['kaka-c01','kaka-c02']},[('anatomy','Anjinghitambesar setinggimanusia bermatamenyala.',['kaka-c05']),('effect','Api pendek keluar dari mata, sesuai varian akun.',['kaka-c05']),('setting','Pabriktebu Argentina baratlaut dan shedworkers.',['kaka-c01','kaka-c06'])],p,'Hugeblackdog dengan matamengeluarkan api.',['Variananjing tidak dicampur snake; dustjump dan malam editorial.','Firelightc05 nyata tanpa auragenerik.'],'Ukuranmanusia/matafire c05 mendominasi ambangpabrik c01.')
+s='kaldaz';make(s,{'wujud':[],'kekuatan':['kaldaz-c01','kaldaz-c03'],'tempat':[],'sifat':['kaldaz-c02']},[('effect','Ranah/penjagafire, tanpa manifestasi spesifik Kaldaz.',['kaldaz-c01','kaldaz-c03'])],'Not generated: no documented appearance or identifiable active manifestation of Kaldaz herself.','Tidak dipilih; rupa subordinateKaldazin tidak dialihkan ke Kaldaz.',['Kaldazinc07-c09 bukan Kaldaz sendiri; etimologi bald bukan anatomicalclaim.'],'Ranahfire c01/c03 saja tidak menetapkan rupa.')
+decline(s,'Klaim c01/c03 hanya menyebut dewi/penjaga api, tanpa rupa atau manifestasi aktif yang dapat dikenali sebagai Kaldaz. Wujud pendek berjanggut7span/yellow-sable c07-c09 adalah Kaldazin bawahannya (c02/c04), bukan Kaldaz. Api saja mengulang subjekabsen; tidak mengarang tubuh dari etimologi bald c05/c06.')
+s='kaliya';p='''ONE original square premium painterly cinematic Mitoloka illustration of Kaliya, the venomous thousand-hooded naga in the Yamuna.
+ANATOMY: ONE enormous intertwined serpent body with ONE THOUSAND cobra hoods, each hood carrying its own serpent head; no limbs, no wings [kaliya-c01, kaliya-c07]. The hoods form a vast dense mass, not seven or nine heads: detailed twenty-five tiers of forty visible narrow cobra hoods each spreading backward above the river, with the nearest ranks large and clear and the distant ranks smaller but individually separated. The thousand-headed naga itself is the subject.
+MOMENT: rear the entire multitude of hoods upward from boiling poison water, nearest mouths open toward the viewer, coils churning the river.
+POWER: river water visibly boils and bubbles around the many serpent coils from its poison [kaliya-c02]; no neon or glowing venom.
+SCALE & CAMERA: extreme low water-level angle, monumental naga hood mass fills nearly the entire frame with very little empty sky; prioritize dense anatomically separated thousand-hood multitude.
+LIGHT & WEATHER: one low amber sunset rim-light behind dark hoods, deep brown shadows, natural boiling spray and steam.
+SURFACE: wet black-brown snake scales, translucent water droplets, earthy poisoned river surface.
+SETTING: Yamuna at Vrindavan, distant dark riverbank [kaliya-c01].
+MOOD: overwhelming awe and danger, respectful Hindu narrative illustration, never comic, cute or decorative.'''
+make(s,{'wujud':['kaliya-c01','kaliya-c07'],'kekuatan':['kaliya-c02'],'tempat':['kaliya-c01'],'sifat':['kaliya-c08']},[('anatomy','Naga dengan1000hoods sesuai jumlahliteralc07, tanpa limbs.',['kaliya-c01','kaliya-c07']),('effect','AirYamuna boiling/bubbling denganpoison.',['kaliya-c02']),('setting','YamunaVrindavan.',['kaliya-c01'])],p,'Kaliya mass1000hoods sebelum penyerahan diri; tanpaKrishna.', ['Tidakmengimpor7/9hoods dari ikonografi lain; mass25x40 adalah susunan editorial untuk pemeriksaan jumlah.','Bukan adegan gore atau pertarunganKrishna; framing closewaterlevel dan sunset editorial.'],'Mass1000hoodsc07 dan poisonedboilingYamunac02.')
+s='kallikantzaros';p='''ONE original square premium painterly cinematic Mitoloka illustration of a Kallikantzaros, the malicious underground creature of Greek folklore.
+ANATOMY: one black-faced humanlike creature with two glaring red eyes, two long donkey ears, an enormous mouth flanked by two ferocious tusks, and one lolling blood-red tongue [kallikantzaros-c08]; two arms and two legs, fully opaque ragged wool clothing editorial.
+MOMENT: wrench apart a thick timber chair while lunging through a cottage doorway toward the viewer, splinters flying from its terrible strength [kallikantzaros-c07, kallikantzaros-c09].
+POWER: physical superhuman force snaps wooden furniture, no magic beams or eye-fire [kallikantzaros-c07, kallikantzaros-c09].
+SCALE & CAMERA: extreme low close doorway angle; the tusked face and wrenching hands dominate the frame, normal body scale emphasized through tight perspective.
+LIGHT & WEATHER: one cottage hearth fire offscreen casts copper side-light; deep walnut night shadows, dust and splinters.
+SURFACE: rough dark face, chipped tusks, coarse wool, splintered aged wood.
+SETTING: house doorway in the twelve days of Christmas, broken furniture and dim chimney at rear [kallikantzaros-c02, kallikantzaros-c07].
+MOOD: menacing malevolent mischief, dangerous, never cute, calm or decorative.'''
+make(s,{'wujud':['kallikantzaros-c08'],'kekuatan':['kallikantzaros-c07','kallikantzaros-c09'],'tempat':['kallikantzaros-c02','kallikantzaros-c07'],'sifat':['kallikantzaros-c01','kallikantzaros-c11']},[('anatomy','Blackface/redglaringeyes/donkeyears/hugetuskedmouth/redtongue.',['kallikantzaros-c08']),('effect','Merusak furnitur dengan kekuatan fisik luar biasa.',['kallikantzaros-c07','kallikantzaros-c09']),('setting','Masuk rumah melalui pintu pada12hariChristmas.',['kallikantzaros-c02','kallikantzaros-c07'])],p,'Satu Kallikantzaros mendobrakpintu dan mematahkanfurnitur.',['Donkeyear variant dipilih; pakaianraggedopaque dan hearthlight editorial.','Mata merah hanya warna/glaring, tidak memancarkan api.'],'Tuskedmouthc08 dan destructiveforcec07/c09.')

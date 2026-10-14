@@ -1,0 +1,104 @@
+{
+  "slug": "sisimito",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Edit this original Sisimito illustration with one precise anatomical correction. Keep the entire composition, one humanlike face, long dark body hair, two arms, straight kneeless two legs, both backwards-pointing feet with forward rounded heels, cave forest, brown-gold cinematic light, oil brushwork and active confrontation unchanged.\nCRITICAL CORRECTION [sisimito-c03]: On the hand at VIEWER RIGHT, remove the small side THUMB that projects from the LEFT edge of that palm (nearest the torso). That hand currently has five digits; after removing that side thumb it must have EXACTLY FOUR LONG FINGERS TOTAL, the four long fingers already extending upward/right from the top edge of palm. Smooth the now thumbless left side of palm seamlessly, with no stump or short nub. Four fingertips only. The hand at VIEWER LEFT already has FOUR total digits; preserve that hand exactly. Both hands are THUMBLESS four-fingered hands. Do not add a new thumb or finger anywhere.\nBOTH reversed feet must retain forward-facing heels and toes facing behind the calves [sisimito-c03]. Preserve visible feet, do not invent normal forward toes. All other anatomy and physical leaf litter unchanged [sisimito-c01, sisimito-c09, sisimito-c10].\nNo added power, glow, aura, symbols, pseudo-writing, text, watermark, border, gore, nudity, extra limbs or copied design. One square premium painterly final image; no inset or before/after.",
+  "depicted_variant": "One upright gorilla-like creature with a HUMAN-LIKE HEAD, two eyes, long body hair, two arms and two straight knee-less legs; each of its TWO OPEN HANDS has exactly FOUR LONG FINGERS and NO THUMB; BOTH FEET point BACKWARDS with toes behind the body and heels toward the viewer. Show full body in three-quarter front view, both palms fully readable and both reversed feet clearly uncovered",
+  "basis_claim_ids": [
+    "sisimito-c01",
+    "sisimito-c03",
+    "sisimito-c10",
+    "sisimito-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "sisimito-c01",
+      "sisimito-c03"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "sisimito-c10"
+    ],
+    "tempat": [
+      "sisimito-c09"
+    ],
+    "sifat": [
+      "sisimito-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One upright gorilla-like creature with a HUMAN-LIKE HEAD, two eyes, long body hair, two arms and two straight knee-less legs; each of its TWO OPEN HANDS has exactly FOUR LONG FINGERS and NO THUMB; BOTH FEET point BACKWARDS with toes behind the body and heels toward the viewer. Show full body in three-quarter front view, both palms fully readable and both reversed feet clearly uncovered",
+      "claim_ids": [
+        "sisimito-c01",
+        "sisimito-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible supernatural effect; confrontation follows its fierce human-threatening character; loose leaves at feet only",
+      "claim_ids": [
+        "sisimito-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky high forest beside a dark cave",
+      "claim_ids": [
+        "sisimito-c09"
+      ]
+    }
+  ],
+  "aura": "No visible supernatural effect; confrontation follows its fierce human-threatening character; loose leaves at feet only sisimito-c10",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "No knee joints, no thumbs, and reversed feet must be visible. No burning hair, animal victims or gore.",
+    "Attempt02 emphasizes four total fingertips with smooth thumbless palm sides; both reversed feet retained.",
+    "Final third call is a targeted built-in edit to remove only the remaining viewer-right thumb; no new mythology or composition."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/sisimito-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/sisimito-attempt-01.json",
+      "native_sha256": "8c423536158896a237fd6e7ff8b7677bda2c4d0c748787f86b491bca161e15be",
+      "reason": "Both palms have five digits including a thumb; source c03 requires four fingers and no thumbs. Reversed feet succeed but hand count fails Uji Sangar anatomy."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/sisimito-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/sisimito-attempt-02.json",
+      "native_sha256": "8f3324394a99746f7e0f6455cc91cab83a4937e15483acd8f4ffbabbc8ac7b26",
+      "reason": "Viewer-left hand has four total digits but viewer-right hand still has five including a side thumb. Source c03 forbids thumbs on both hands; anatomy fail."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-6b1e8489-fce7-4cc9-ad53-71761d50729e.png",
+  "generated_at": "2026-10-13T19:00:13.620397+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/sisimito.png",
+  "native_sha256": "76de465bdd181c41f3fee74678940cc78a05f017507b0b96d8ddf6a85129f97a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES: frame-dominating threatening human-headed long-haired ape form, reaching moment; BOTH hands now have FOUR long fingertips and ZERO thumb with smooth palm edge, BOTH heels face forward while feet extend backwards behind calves, straight kneeless legs c03; cave/forest c09 and leaves only, no text/glow/IP. Third targeted built-in edit resolves remaining right thumb; no further call available.",
+    "limitations": [],
+    "native_sha256": "76de465bdd181c41f3fee74678940cc78a05f017507b0b96d8ddf6a85129f97a",
+    "reviewed_at": "2026-10-13T19:00:13.620397+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "76de465bdd181c41f3fee74678940cc78a05f017507b0b96d8ddf6a85129f97a",
+    "notes": "Upright hairy creature with a human-like head and knee-less legs blocking the cave mouth; native crops confirm four thumbless fingers on each hand and both feet reversed with the heels toward the viewer."
+  }
+}

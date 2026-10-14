@@ -1,0 +1,54 @@
+{
+  "slug": "feilian",
+  "worker": "codex",
+  "worker_agent": "lane1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Feilian, the Chinese sacred beast controlling winds in the historically documented Jin Zhuo form.\nANATOMY: exactly ONE bird head with a strong avian beak, a pair of horns growing from that head; a deer's body with exactly four deer legs and hooves, markings like leopard spots, exactly ONE long SNAKE tail clearly curving beside the body. NO WINGS and no deer head, no dragon body: this is the Jin Zhuo variant. [feilian-c10]\nMOMENT: charge toward the viewer from a swirling gale, forehooves digging into earth, bird head lowered in sovereign determination, snake tail whipping in a clear S curve along one side.\nPOWER: its documented control of winds physically bends tall reeds and low trees away from its path and drives a stream of fallen leaves and grit around the body; no colored energy. [feilian-c10]\nSCALE & CAMERA: ground-level low close camera; beast fills the square, front hoof and bird head clearly readable at thumbnail; no invented giant size.\nLIGHT & WEATHER: one low warm sunset break through dark gale clouds, rim light, wind-tossed grit and leaves, deep walnut shadows.\nSURFACE: short spotted deer fur, textured horns, avian beak, dry snake scales on the tail, wet dark earth.\nSETTING: open earth-and-reed ground as neutral editorial stage for wind, no invented sacred landmark.\nMOOD: awe-inspiring sacred wind beast, imposing and active, never evil, cute or calm.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; one bird head, four deer legs, one snake tail, no wings; no film/game/anime/comic design; no nudity/gore; no aura/neon/energy ribbons.",
+  "depicted_variant": "Varian historis Jin Zhuo: kepala burung, tubuh rusa bercak, tanduk, ekor ular.",
+  "basis_claim_ids": [
+    "feilian-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "feilian-c10"
+    ],
+    "kekuatan_perbuatan": [
+      "feilian-c10"
+    ],
+    "tempat": [],
+    "sifat": [
+      "feilian-c01",
+      "feilian-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Varian Jin Zhuo: tubuh rusa empat kaki, kepala burung bertanduk, ekor ular dan bercak macan; tidak mencampur varian bersayap.",
+      "claim_ids": [
+        "feilian-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Kuasa angin membengkokkan buluh/pohon dan menggerakkan daun/debu secara fisik.",
+      "claim_ids": [
+        "feilian-c10"
+      ]
+    }
+  ],
+  "aura": "Anatomi gabungan c10 dan kuasa angin fisik c10 memberi keagungan.",
+  "artistic_choices": [
+    "Panggung tanah/buluh netral editorial, tidak diklaim lokasi cerita.",
+    "Tanpa sayap agar tidak menggabungkan c11 dengan c10."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

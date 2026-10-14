@@ -1,0 +1,85 @@
+{
+  "slug": "gajasimha",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-074.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Gajasimha, the sacred living elephant-headed lion guardian.\nANATOMY: exactly one elephant head with two eyes, two elephant ears, one trunk and two natural tusks attached to one powerful lion body with four lion legs, lion mane around the neck and one lion tail. No second animal or second lion face. [gajasimha-c01,c07,c10]\nMOMENT: bound down from the dark temple threshold toward the low viewer, one forepaw planted and one raised, trunk sweeping forward and mane blowing; all four leg attachments plausible.\nPOWER: no documented magical attack; guarding action and hybrid anatomy only. Ordinary dust stirred by paws, no shockwaves or supernatural ground cracks.\nSCALE & CAMERA: very low close camera, elephant head and lion torso fill 85 percent square; no humans or invented giant-size comparison.\nLIGHT & WEATHER: one warm oil lamp within the doorway, gold rim light on elephant ears and mane, deep shadows, physical disturbed dust.\nSURFACE: thick creased elephant skin, coarse lion mane and ochre fur, weathered stone threshold.\nSETTING: main doorway of temple natamandapa as a living dvarapala guardian rather than sculpture; restrained dark stone doorway without specific invented iconography. [gajasimha-c08]\nMOOD: sacred and awe-inspiring guardian, solemn powerful protection, never evil or cute.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Gajah berkepala satu pada tubuh singa hidup melangkah aktif dari pintu kuil.",
+  "basis_claim_ids": [
+    "gajasimha-c01",
+    "gajasimha-c07",
+    "gajasimha-c10",
+    "gajasimha-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "gajasimha-c01",
+      "gajasimha-c07",
+      "gajasimha-c10"
+    ],
+    "kekuatan_perbuatan": [
+      "gajasimha-c08"
+    ],
+    "tempat": [
+      "gajasimha-c08"
+    ],
+    "sifat": [
+      "gajasimha-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tubuh singa dengan satu kepala gajah dan belalai.",
+      "claim_ids": [
+        "gajasimha-c01",
+        "gajasimha-c07",
+        "gajasimha-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pintu utama natamandapa kuil konteks penjaga.",
+      "claim_ids": [
+        "gajasimha-c08"
+      ]
+    }
+  ],
+  "aura": "Anatomi hybrid c01/c10 dan tugas penjaga pintu c08 memberi keagungan aktif.",
+  "artistic_choices": [
+    "Tidak mencampur motif singa menindih gajah dengan varian hybrid elephant-headed c01/c10.",
+    "Tusk/mane/detail tubuh hewan dan lampu/pintu polos editorial konservatif; tidak mengklaim ornamentasi kuil khusus. Tidak ada efek kuasa karena sumber tidak memuatnya."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-a1c5d78b-b103-422c-a8c1-9b60ad5768ca.png",
+  "generated_at": "2026-10-13T17:54:08.357039+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/gajasimha.png",
+  "native_sha256": "257168a9c286fbfc824374752f0c33691929417055faae896843f14ed227f8ff",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "UjiSangar7/7native+200: satu kepala elephant/trunk/dua tusks/twoeyes menyatu tubuh lion mane+fourpaws+tail; forepaw forward/raised dan dust kontak memberi gerak maju. Hybrid c01/c10 dominan bukan elephantordinary; templeguardian contextc08 sacred notevil. Tidak powersinvented/text/IP/gore."
+    ],
+    "limitations": [],
+    "native_sha256": "257168a9c286fbfc824374752f0c33691929417055faae896843f14ed227f8ff",
+    "reviewed_at": "2026-10-13T17:54:08.357039+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "257168a9c286fbfc824374752f0c33691929417055faae896843f14ed227f8ff",
+    "notes": "Lion body with a single elephant head and trunk striding out of the temple doorway; four lion paws."
+  }
+}

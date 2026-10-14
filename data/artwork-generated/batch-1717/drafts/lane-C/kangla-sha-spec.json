@@ -1,0 +1,63 @@
+{
+  "slug": "kangla-sha",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kangla Sha, sacred Meitei guardian dragon lion.\nANATOMY: ONE living lion body with four muscular feline legs, one lion tail, ONE clearly REPTILIAN DRAGON HEAD with a LONG elongated reptile snout and reptile nostrils, entirely smooth-edged plated scales and NO feline nose or feline face, bearing EXACTLY TWO prominent horns, two eyes; no wings, no extra horns, NO facial spikes, NO cheek spikes, NO brow spikes, NO dorsal spikes [kangla-sha-c01]. Living warm skin, fur, muscles, not stone or sculpture.\nMOMENT: stride protectively out of the shadowed royal palace entrance toward the viewer, front paw raised and reaching into foreground, head lowered with sovereign vigilance.\nPOWER: no documented magical effect; grandeur comes only from anatomy, movement, texture and light.\nSCALE & CAMERA: extreme low close three-quarter angle; horned dragon head and lion chest fill upper frame, four legs legible, no invented giant body size.\nLIGHT & WEATHER: one narrow low amber sunset cuts across otherwise very dark courtyard, deep brown palace shadows, fine dust from paw contact.\nSURFACE: tawny dark lion fur, real dragon scales on head, two ivory-brown horns, rough courtyard earth.\nSETTING: entrance of Meitei royal palace, distant understated architecture [kangla-sha-c06].\nMOOD: sacred awe-inspiring benevolent guardian and royal dignity, never evil, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+  "depicted_variant": "Living two-horned dragon-headed lion guardian at palace entrance.",
+  "basis_claim_ids": [
+    "kangla-sha-c01",
+    "kangla-sha-c06",
+    "kangla-sha-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kangla-sha-c01"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "kangla-sha-c06"
+    ],
+    "sifat": [
+      "kangla-sha-c01",
+      "kangla-sha-c02"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Living guardian lion body with one dragon head and exactly two horns.",
+      "claim_ids": [
+        "kangla-sha-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Royal palace entrance, sacred royal association.",
+      "claim_ids": [
+        "kangla-sha-c06"
+      ]
+    }
+  ],
+  "aura": "Lion-dragon anatomy c01 and sacred royal guardianship c01/c02/c06.",
+  "artistic_choices": [
+    "Color, fur/scales texture and stride editorial; no magical effect.",
+    "Do not depict historical statue or claim statue sizes as living size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/kangla-sha-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/kangla-sha-attempt-01.json",
+      "native_sha256": "5b4d8e7759308bb9896dca5146c6b08aeb26f552b9e9476c8dc50300f15fd670",
+      "reason": "Uji#5 gagal: kepala terlalu singa berhidungkucing dengan sisik, bukan kepala naga jelas; banyak spike melengkung pada sisi kepala mengaburkan tepat2horns c01. Actionguardian baik tetapi anatomi harus diperjelas."
+    }
+  ]
+}

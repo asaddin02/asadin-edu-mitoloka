@@ -1,0 +1,76 @@
+{
+  "slug": "nain-rouge",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nain Rouge, the red dwarf presaging misfortune at Detroit.\nANATOMY: A single small uncanny dwarf with very RED FACE, TWO bright glistening eyes, grinning mouth with sharp pointed teeth. Exactly two arms and two legs. Plain opaque weathered dark clothing, no hat, no horns. [c06,c07]\nMOMENT: Run across the shore directly toward the low viewer, one foot lifting, face twisted in a sharp mocking laugh, pointed teeth visible. [c09,c11]\nPOWER: No supernatural visual effect; misfortune is a presage, shown through threatening face and approach only [c01,c10]\nSCALE & CAMERA: Extremely tight low-angle foreground portrait with foreshortened running body, normal dwarf size, no invented giant stature\nLIGHT & WEATHER: Single low warm lantern reflection, deep night shadows, muted red face\nSURFACE: Ruddy rough skin, jagged teeth, unmarked coarse cloth\nSETTING: Detroit strait shore at night, beach stones behind [c04,c06,c11]\nMOOD: Malignant if offended c08; uncanny dangerous grin, never cute\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Red-faced sharp-toothed dwarf running and mocking",
+  "basis_claim_ids": [
+    "nain-rouge-c06",
+    "nain-rouge-c07",
+    "nain-rouge-c09",
+    "nain-rouge-c11",
+    "nain-rouge-c04"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "nain-rouge-c06",
+      "nain-rouge-c07"
+    ],
+    "kuasa": [
+      "nain-rouge-c01",
+      "nain-rouge-c09",
+      "nain-rouge-c10",
+      "nain-rouge-c11"
+    ],
+    "tempat": [
+      "nain-rouge-c04",
+      "nain-rouge-c06",
+      "nain-rouge-c11"
+    ],
+    "sifat": [
+      "nain-rouge-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Red dwarf face, glistening eyes, pointed teeth",
+      "claim_ids": [
+        "nain-rouge-c06",
+        "nain-rouge-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Running along shore and mocking laugh, no magic effects",
+      "claim_ids": [
+        "nain-rouge-c09",
+        "nain-rouge-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Detroit Strait beach",
+      "claim_ids": [
+        "nain-rouge-c04",
+        "nain-rouge-c06",
+        "nain-rouge-c11"
+      ]
+    }
+  ],
+  "aura": "Red face c06 sharp teeth c07 and mocking shore-running c09/c11.",
+  "artistic_choices": [
+    "Opaque plain clothing, lighting and tight crop editorial. Misfortune not depicted as invented energy. Two eyes natural dwarf anatomy, source singular glistening eye is descriptive not one-eyed claim.",
+    "Distant modern Detroit lights are editorial setting shorthand, not historical reconstruction of c11."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

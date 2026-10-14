@@ -1,0 +1,96 @@
+{
+  "slug": "kanedama",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kanedama, the auspicious Japanese money spirit appearing as an unworked natural object with red light.\nANATOMY: ONE rough irregular unworked rounded natural stone, no face, eyes, limbs, engraving or coin design [kanedama-c06]; natural state maintained.\nMOMENT: roll right toward the viewer's feet at night, stone tipped onto one edge, scraping fine real dust across old wooden floor [kanedama-c06].\nPOWER: the stone itself gives off deep red light, directly illuminating nearby wood grain and ordinary opaque cloth feet at frame edge; light confined to object and surfaces, no aura cloud [kanedama-c06,c10].\nSCALE & CAMERA: extreme floor-level macro, stone occupies most of image, small incidental human cloth foot at far edge demonstrates close camera not gigantic object.\nLIGHT & WEATHER: dominant natural-looking red light from the stone itself, deep walnut night shadows.\nSURFACE: rough porous dark rusty stone, unpolished irregular surface; aged wood and dust.\nSETTING: Japanese room with COMPLETELY EMPTY dark tokonoma recess behind, bare plain walls and floor, NO hanging scroll, NO wall art, NO paper signs, NO drawings or calligraphy anywhere, night [kanedama-c06].\nMOOD: uncanny and awe-inspiring auspicious presence, never evil; powerful object rather than mundane still life.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+  "depicted_variant": "Numazu account of natural-state red-light object rolling at night.",
+  "basis_claim_ids": [
+    "kanedama-c06",
+    "kanedama-c10",
+    "kanedama-c01",
+    "kanedama-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kanedama-c06",
+      "kanedama-c10"
+    ],
+    "kekuatan": [
+      "kanedama-c06"
+    ],
+    "tempat": [
+      "kanedama-c06"
+    ],
+    "sifat": [
+      "kanedama-c01",
+      "kanedama-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Unworked natural object kept in its natural state.",
+      "claim_ids": [
+        "kanedama-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rolls at feet at night giving off red light.",
+      "claim_ids": [
+        "kanedama-c06",
+        "kanedama-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night interior before tokonoma.",
+      "claim_ids": [
+        "kanedama-c06"
+      ]
+    }
+  ],
+  "aura": "Red-light rolling presence c06/c10, auspicious household c01/c04.",
+  "artistic_choices": [
+    "Natural stone material editorial for unworked object; not claiming meteorite interpretation as fact.",
+    "Avoid modern10yen coin variant and lettering; red light expressly documented c06/c10."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/kanedama-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/kanedama-attempt-01.json",
+      "native_sha256": "1003b984493e876bf910d8526699df9dbcf352da2626b1ff42d5cf502dba79a1",
+      "reason": "Uji#6 gagal: hanging scroll di tokonoma menampilkan kaligrafi/tanda mirip tulisan. Rolling red naturalstone c06 baik, tetapi teks dilarang."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cc-66db-78b1-b552-b9280b8aa6f3/exec-2ef9b262-3015-49bf-8bca-5b22ee064f77.png",
+  "generated_at": "2026-10-13T17:56:33.309654+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/kanedama.png",
+  "native_sha256": "50be146a6d9f4684aa0d5a8c1951c751d155304e89e478b6062d825ae83b63a0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 inspected,all7yes:1naturalstate object dominates macro;2redlight powerful uncanny at200;3tilted stone rolling at feet with dust contact;4redlight physically reflected on floor fromc06/c10, no surrounding generic aura;5unworked irregular object nofacelimbs or coinlettering;6empty tokonoma no text/frame/copiedIP/gore;7active documented manifestation not landscape or everyday stone stilllife. Attempt01 rejected backgroundcalligraphy retained.",
+    "limitations": [],
+    "native_sha256": "50be146a6d9f4684aa0d5a8c1951c751d155304e89e478b6062d825ae83b63a0",
+    "reviewed_at": "2026-10-13T17:56:33.309654+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "50be146a6d9f4684aa0d5a8c1951c751d155304e89e478b6062d825ae83b63a0",
+    "notes": "Unworked rock glowing red as it rolls across the floorboards at night toward a sock-clad foot, tokonoma behind; no scroll or inscriptions. Quiet, but true to an object-spirit."
+  }
+}

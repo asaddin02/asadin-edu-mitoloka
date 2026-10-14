@@ -1,0 +1,83 @@
+{
+  "slug": "oshira-sama",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Tidak ada generasi: bukti rupa/manifestasi tidak cukup.",
+  "depicted_variant": "Tidak digambar",
+  "basis_claim_ids": [
+    "oshira-sama-c03",
+    "oshira-sama-c11",
+    "oshira-sama-c05",
+    "oshira-sama-c09"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "oshira-sama-c03",
+      "oshira-sama-c05",
+      "oshira-sama-c11",
+      "oshira-sama-c12"
+    ],
+    "kuasa": [
+      "oshira-sama-c05",
+      "oshira-sama-c07",
+      "oshira-sama-c15",
+      "oshira-sama-c17",
+      "oshira-sama-c18"
+    ],
+    "tempat": [
+      "oshira-sama-c09",
+      "oshira-sama-c10"
+    ],
+    "sifat": [
+      "oshira-sama-c01",
+      "oshira-sama-c07",
+      "oshira-sama-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ritual image has horse/maiden faces; not documented living deity anatomy",
+      "claim_ids": [
+        "oshira-sama-c03",
+        "oshira-sama-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Myth says descent as silkworms",
+      "claim_ids": [
+        "oshira-sama-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Northeastern Japanese household protective tradition",
+      "claim_ids": [
+        "oshira-sama-c09"
+      ]
+    }
+  ],
+  "aura": "Tidak ada efek kekuatan yang digambar.",
+  "artistic_choices": [
+    "Keputusan pragen sesuai GAMBAR§6.5; tidak mengarang tubuh/efek."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "reason": "Wajah kuda/gadis c03/c11 ialah rupa citra ritual pada tongkat, bukan tubuh dewa hidup; menggambarnya sebagai patung melanggar arah seni. Manifestasi ulat sutra c05 tidak memberi ciri pembeda yang cukup agar bukan hewan biasa; tidak mengarang tubuh dewa atau meniru film c08.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "visual_review": null
+}

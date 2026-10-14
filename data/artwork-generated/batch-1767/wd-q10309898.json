@@ -1,0 +1,113 @@
+{
+  "slug": "wd-q10309898",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Xuangui, the BLACK turtle with BIRD HEAD and SNAKE TAIL [wd-q10309898-c01, wd-q10309898-c02, wd-q10309898-c07].\nANATOMY MUST BE READABLE: One black round turtle shell at CENTER of image. EXACTLY FOUR turtle limbs attached to shell, spread OUTSIDE shell silhouette like a broad X: front-left foot lower left, front-right foot lower right, rear-left foot upper left, rear-right foot upper right. All FOUR feet are completely visible with exposed toes and separated from head/tail/each other. One bird head with beak and two bird eyes extends from shell toward lower center; one tapering snake tail extends from shell toward upper center and curls away, no tail head. No extra limbs or wings. Each limb clear at thumbnail.\nMOMENT: lunges across a flat wet river stone toward the viewer, all four limbs stretched outward and shell lifted so no foot can be hidden; bird beak opens in a sharp cry. Head lifted to confront the lens.\nPOWER: Only shallow river spray below rock, not over feet; wood-splitting sound suggested by open beak [wd-q10309898-c03]. No supernatural effects.\nSCALE & CAMERA: DIRECTLY ABOVE with slight forward tilt, looking DOWN at full body; this overhead view is required so BOTH rear feet are clearly visible beside shell. Close large creature dominates square, no invented giant size. Shape resembles a turtle viewed from above, not side view.\nLIGHT & WEATHER: Deep dark river, narrow warm raking late light; high contrast and dramatic shadows, not bright nature photography.\nSURFACE: Heavy oil painting brushwork, black wet shell, scaled legs and snake tail, tactile black bird feathers.\nSETTING: Guai water of Mount Niuyang [wd-q10309898-c04, wd-q10309898-c05].\nMOOD: imposing uncanny hybrid confronting camera, never cute or placid.\nHARD CONSTRAINTS: No text, marks, symbols, inscriptions, logos or frames, no extra anatomy, no nudity/gore, no aura/neon/rays, no borrowed design. Reject any composition showing only three feet.",
+  "depicted_variant": "One black turtle body and shell, exactly FOUR turtle legs and FOUR feet, one BIRD HEAD with beak and two eyes, one long tapering SNAKE TAIL with no head on the tail; head, all feet and tail simultaneously visible",
+  "basis_claim_ids": [
+    "wd-q10309898-c01",
+    "wd-q10309898-c02",
+    "wd-q10309898-c07",
+    "wd-q10309898-c09",
+    "wd-q10309898-c03",
+    "wd-q10309898-c04",
+    "wd-q10309898-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10309898-c01",
+      "wd-q10309898-c02",
+      "wd-q10309898-c07",
+      "wd-q10309898-c09"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "wd-q10309898-c03",
+      "wd-q10309898-c07"
+    ],
+    "tempat": [
+      "wd-q10309898-c04",
+      "wd-q10309898-c05"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One black turtle body and shell, exactly FOUR turtle legs and FOUR feet, one BIRD HEAD with beak and two eyes, one long tapering SNAKE TAIL with no head on the tail; head, all feet and tail simultaneously visible",
+      "claim_ids": [
+        "wd-q10309898-c01",
+        "wd-q10309898-c02",
+        "wd-q10309898-c07",
+        "wd-q10309898-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible magic; shallow river water splashes from its moving turtle feet; sound is suggested by open beak, no actual splintered wood",
+      "claim_ids": [
+        "wd-q10309898-c03",
+        "wd-q10309898-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Guai water beneath Mount Niuyang",
+      "claim_ids": [
+        "wd-q10309898-c04",
+        "wd-q10309898-c05"
+      ]
+    }
+  ],
+  "aura": "No visible magic; shallow river water splashes from its moving turtle feet; sound is suggested by open beak, no actual splintered wood wd-q10309898-c03, wd-q10309898-c07",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "No healing effect or split timber is invented from a sound comparison.",
+    "Revision camera raised and dry rock top used to ensure four exposed turtle feet; no unsupported effects.",
+    "Final attempt uses overhead anatomical visibility instead of low angle, retaining active lunge and dramatic contrast."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/wd-q10309898-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/wd-q10309898-attempt-01.json",
+      "native_sha256": "eeff4c6a2bf50c914c8f2c61a1434bbab29f93cde5f2a4361d3ac8534f6ff9ae",
+      "reason": "Only three turtle feet clearly readable; fourth obscured beneath body/neck and water at native and 200px. Exact anatomy verification fail."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/wd-q10309898-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/wd-q10309898-attempt-02.json",
+      "native_sha256": "b60ed92f722b47a475afad37956299126e2b24d15327b8d37c7d0abc0e54f014",
+      "reason": "Again only three feet visible; far rear foot missing/hidden by shell. Exact four-foot requirement not satisfied."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-53478919-45cb-41fb-a82c-9608d1043407.png",
+  "generated_at": "2026-10-13T18:44:15.671679+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/wd-q10309898.png",
+  "native_sha256": "1c2aac058a025e7b12e997ba5c77e5981807d38dad93d14d38904643f397b88e",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES: frame-filled black turtle hybrid, forward crawl/open crying beak, one bird head/two eyes/FOUR fully exposed turtle feet/one snake tail counted at native and 200px, river spray c05 only, no actual timber-splitting or healing aura, no text/glow/IP. Attempt03 overhead resolves prior hidden fourth foot.",
+    "limitations": [],
+    "native_sha256": "1c2aac058a025e7b12e997ba5c77e5981807d38dad93d14d38904643f397b88e",
+    "reviewed_at": "2026-10-13T18:44:15.671679+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "1c2aac058a025e7b12e997ba5c77e5981807d38dad93d14d38904643f397b88e",
+    "notes": "Black turtle with exactly four legs, a beaked bird head and a single snake tail with no head, all visible at once, splashing through river shallows."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "mich",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Mich, the fish-form sea deity of Kamchatka.\nANATOMY: One living fish-form deity: one fish head, two eyes, one scaled body, ordinary fins and one tail; no human limbs, horns, crown or invented hybrid [mich-c01, mich-c04]\nMOMENT: Surges through a heavy curve of ocean water toward the close viewer while a surrounding school of smaller fish swims toward driftwood by the shore\nPOWER: Sends fish to shore to fetch wood: smaller fish stream toward floating wooden fragments; ocean displacement is physical habitat movement, not glowing magic [mich-c02, mich-c05]\nSCALE & CAMERA: close low camera, subject occupies most of the square, sharp diagnostic anatomy, no unclaimed gigantic size; all required countable features separated and visible.\nLIGHT & WEATHER: one dominant warm raking dusk light, deep walnut shadows and antique-gold highlights, high contrast, atmospheric depth without magical glow.\nSURFACE: tactile natural skin, fur, feathers, scales or cloth as appropriate, painterly material detail, never plastic.\nSETTING: Sea and rocky shore of Kamchatka [mich-c01]\nMOOD: imposing and awe-inspiring or threatening according to documented character, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, pseudo-writing, rune, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No decorative symbols or inscriptions.",
+  "depicted_variant": "One living fish-form deity: one fish head, two eyes, one scaled body, ordinary fins and one tail; no human limbs, horns, crown or invented hybrid",
+  "basis_claim_ids": [
+    "mich-c01",
+    "mich-c04",
+    "mich-c02",
+    "mich-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "mich-c01",
+      "mich-c04"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "mich-c02",
+      "mich-c05"
+    ],
+    "tempat": [
+      "mich-c01"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living fish-form deity: one fish head, two eyes, one scaled body, ordinary fins and one tail; no human limbs, horns, crown or invented hybrid",
+      "claim_ids": [
+        "mich-c01",
+        "mich-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sends fish to shore to fetch wood: smaller fish stream toward floating wooden fragments; ocean displacement is physical habitat movement, not glowing magic",
+      "claim_ids": [
+        "mich-c02",
+        "mich-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea and rocky shore of Kamchatka",
+      "claim_ids": [
+        "mich-c01"
+      ]
+    }
+  ],
+  "aura": "Sends fish to shore to fetch wood: smaller fish stream toward floating wooden fragments; ocean displacement is physical habitat movement, not glowing magic mich-c02, mich-c05",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Monumental editorial allegory under §6.5 for fish-form deity, not a claim of giant physical size. Fish species and the large close framing are editorial. Driftwood conveys documented selfish wood-seeking behaviour."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-f07189e9-34ef-4d62-8e82-20e054534237.png",
+  "generated_at": "2026-10-13T18:50:10.991798+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/mich.png",
+  "native_sha256": "91c12bf630ccd25be9138e09519af80d800697c085299f3d57d4479623dc2647",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES locally: large foreground fish-form deity commands school surging to shoreline driftwood, mouth and body dominate; physical fish-to-wood deed c02/c05 reads at both sizes; one ordinary fish-form head/body/fins/tail c01/c04, no invented hybrid/text/glow/IP. Monumental presence explicitly editorial sacred-deity allegory in prewritten artistic_choices, not source fact of giant size. Root to judge imposing god versus ordinary fish.",
+    "limitations": [],
+    "native_sha256": "91c12bf630ccd25be9138e09519af80d800697c085299f3d57d4479623dc2647",
+    "reviewed_at": "2026-10-13T18:50:10.991798+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "91c12bf630ccd25be9138e09519af80d800697c085299f3d57d4479623dc2647",
+    "notes": "Huge fish-form deity driving a stream of smaller fish toward floating driftwood off the Kamchatka shore; plain fish anatomy. Passes narrowly: alone it could read as a big salmon, the herded shoal and logs carry the deed."
+  }
+}

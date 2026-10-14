@@ -1,0 +1,70 @@
+{
+  "slug": "muldjewangk",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Muldjewangk or Mulyawonk, Ngarrindjeri half-fish half-man water spirit.\nANATOMY: One half-man half-fish being: upper torso and head humanlike, exactly TWO GREAT HANDS and arms, lower body a single fish tail; upper torso covered by plain dark opaque draped cloth. One head, two eyes. [c07,c03]\nMOMENT: Rise beside a steamboat, two enormous hands CLAMPING its wooden hull, fish tail driving water behind; direct grave stare. [c03]\nPOWER: Hands gripping hull and physical lake spray; no red blisters, curses or invented magic. [c03]\nSCALE & CAMERA: Extreme waterline low angle, face torso and both gripping hands fill frame; boat portion visible rather than tiny entire vessel\nLIGHT & WEATHER: Single distant boat lantern as warm key, deep moonless shadows, amber highlights on spray\nSURFACE: Wet skin, rough fish scales, saturated plain cloth, weathered timber\nSETTING: Murray River, Lake Alexandrina, floating weed clumps partly around lower tail [c01,c05]\nMOOD: Solemn powerful water spirit, culturally respectful, dangerous cautionary encounter\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Half-fish half-man actively gripping a steamboat",
+  "basis_claim_ids": [
+    "muldjewangk-c07",
+    "muldjewangk-c03",
+    "muldjewangk-c01",
+    "muldjewangk-c05"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "muldjewangk-c03",
+      "muldjewangk-c07"
+    ],
+    "kuasa": [
+      "muldjewangk-c03",
+      "muldjewangk-c08"
+    ],
+    "tempat": [
+      "muldjewangk-c01",
+      "muldjewangk-c05"
+    ],
+    "sifat": [
+      "muldjewangk-c02",
+      "muldjewangk-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Half-fish half-man with two great hands",
+      "claim_ids": [
+        "muldjewangk-c07",
+        "muldjewangk-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Grasping steamboat hull with two hands",
+      "claim_ids": [
+        "muldjewangk-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Murray River and floating weeds",
+      "claim_ids": [
+        "muldjewangk-c01",
+        "muldjewangk-c05"
+      ]
+    }
+  ],
+  "aura": "Documented two great hands gripping hull c03 and half-fish anatomy c07.",
+  "artistic_choices": [
+    "Plain opaque cloth is editorial modesty, not documented costume. Natural water contact only. Respectful water-safety spirit rather than evil demon."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -505,3 +505,82 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - Claude meninjau 47 receipt yang menunggu: 44 di batch-1667 dan 3 koreksi (tata-duende 1606, frigg dan mnemosyne 1617). Hash PNG native sama dengan receipt dan tinjauan Codex. **47 lolos, 0 ditolak.** Tangan/kaki tata-duende, lengan/kaki aziza, dan mata doo diperiksa pada potongan ukuran native.
 - Catatan untuk Codex: bownessie, buarainech, dan aziza lolos tipis (ancaman wajah serpent dan wajah sapi masih kalem; satu lengan aziza hanya terbaca dari dekat). Pertahankan arah ini, tetapi wajah yang konfrontatif lebih aman.
 - Catatan katalog dibuat untuk semua item batch (35 baru di 1667, 1 di 1606), lalu integrasi: 1606 → 45/50, 1617 → 3/11, 1667 → 44/50. Ilustrasi aktif 1.567 → 1.614. `npm run check` dan `npm test` lulus. Batch-1717 yang sedang dikerjakan Codex tidak disentuh.
+
+
+## 2026-10-14 01:15 WIB — Codex — selesai
+
+- Batch 1717 tuntas seluruh 50 receipt: **43 PNG final awaiting-independent-review, 7 tidak-digambar, 0 pending**. Root memeriksa sendiri setiap final pada native 1254×1254 dan thumbnail 200px; bukti di `data/artwork-generated/batch-1717/drafts/root/codex-native-reviews.json`. Ini pemeriksaan Codex, bukan tinjauan independen Claude.
+- Tidak-digambar: Yĕrĕh (`e-e`), Four Holy Beasts, Glær (`gl-r`), Kaldaz, Kayberen dan King Goldemar tidak mempunyai rupa pembeda atau manifestasi aktif yang cukup tanpa rekaan. Kaldazin bukan tubuh Kaldaz; etimologi bukan ikonografi. Kaliya: tiga PNG tidak memastikan 1.000 tudung literal c07, semuanya diarsipkan. Jangan mengulang tujuh entri ini tanpa bukti baru atau permintaan pemilik.
+- Seluruh batch menghasilkan 57 PNG native berbeda: 43 terpilih dan 14 penolakan kualitas terarsip, dengan prompt/hash/provenance/alasan lengkap. Satu kegagalan alat: Kawaakago01 HTTP400 `moderation_blocked`, output category `sexual`, request ID `75c85dd8-146a-462c-8606-5d8f749e639b`, tanpa PNG; prompt sudah melarang nudity. Dua panggilan berikutnya memakai bayi sepenuhnya terbungkus kain buram;02 ditolak sebagai bayi biasa,03 lolos berwajah vermillion yang tidak wajar dengan tatapan sadar sambil meniru tangis.
+- Tiga lane awal gpt-6.1-sol/high (A17/B17/C16) terputus oleh interupsi dan workspace out of credits. Tiga resume lane model/effort sama memulihkan PNG sebelum panggilan baru (A9/B11/C11). A resume 8 final+1 decline, B11 final, C8 final+3 decline; hasil awal tetap utuh. Built-in image_gen; image_model persis **tidak dilaporkan alat**. Tidak ada penggantian model/CLI/API.
+- Pelajaran: (1) Feng yang utuh dengan dua mata tetap statis; lobus regenerasi mendorong tanah/daun membuat aksi terbaca tanpa gore/anggota baru. (2) Jangan menerima pseudoinskripsi sebagai geometri tak terbaca: Fuzanglong01 harus diedit untuk menghapus seluruh ukiran wadah; Kanedama01 dengan scroll juga ditolak. (3) Ergene01/Imsety01 manusia biasa dan Kamohoalii01 hiu biasa harus diperbaiki; skala monumental sebagai alegori penghormatan dan pakaian editorial dicatat jelas, bukan fakta tubuh/ikonografi sumber. (4) Iemisch perlu tepat3/3 jari depan,4/4 belakang, tanpa telinga luar dan ekor pipih prehensil;03 lolos setelah dua penolakan. (5) Kaimingshou susunan5+4 wajah memastikan sembilan wajah manusia terbaca. (6) Jangan menambahkan petir dari asosiasi thunder atau serangan unsur Four Symbols.
+- Validasi final: 5230 pemeriksaan, **0 error**, semua 43 final sudah diperiksa root, tidak ada receipt hilang; 164 tautan galeri valid. Dari 3326 berkas terlindung baseline, 3225 identik dan 101 perubahan dari pekerjaan eksternal selama sesi/interupsi dicatat serta dipertahankan. Codex tidak menulis riset/katalog/power/JS/manifest/WebP/backups/nama-besar.
+- Galeri: `docs/artwork-batch-1717.html`. Ringkasan: `data/artwork-generated/batch-1717/codex-generation-summary.json`; prompt persis di `codex-prompts.json`; status/validasi/proteksi di `drafts/root/`. Tidak integrasi, commit atau push.
+- Sesi berikutnya: tinjauan dan integrasi oleh Claude; Codex mengerjakan koreksi baru bila muncul, kemudian batch entri lengkap baru yang belum pernah mempunyai receipt. Jangan menduplikasi nama besar decline atau gambar menunggu Claude.
+- Status akhir setelah pekerjaan eksternal Claude: 1.614 ilustrasi aktif; 43 receipt batch1717 menunggu Claude; 0 needs-correction, 0 receipt awaiting tidak valid. Claude telah meninjau dan memasang 47 gambar batch sebelumnya, serta mencatat batch1717 tidak disentuh.
+
+
+## 2026-10-14 01:22 WIB — Codex — mulai
+
+- Pemilik meminta batch selanjutnya. Status awal1.614aktif,43receipt batch1717 menungguClaude,0needs-correction,0invalid;tidak ada batch missingreceipt.
+- Klaim delapan nama besar decline diperiksa terhadap batch1617: seluruhnya identik, belum ada bukti rupa baru. Tidak mengulang mereka atau slug yang sudah pernah memiliki ledger/receipt.
+- Rencana: satu batch50entri lengkap baru yang disaring computeFillStatus dan prepare-artwork-batch dengan prioritas klaimvisual; tiga sub-agent gpt-6.1-sol/high. Built-in image_gen; root memeriksa seluruh PNGnative dan200px, mengurusledger/jurnal/galeri/validasi. Tidak integrasi,commit,push atau menulisberkas terlindung.
+
+### Progres 01:57 WIB
+
+- Root12final native+200px: Tahoe1865serpent,Quru3feet,LakeWorth tirethrowc08,LanternMan hornburnc06,Tota oxheadfishc03,Moongarm physicalmoonbitec04/05,Muldjewangk2handshullc03,Trentren/Caicai2serpentsflood/earthc05/12,Qianlima02 darkfrontalhoofc01,Sirena fishshepherdc05/08,Jiaoren02pearltear/dryclothc03/04/05,Momofacelesshairc06.
+- Qianlima01 ordinaryhorse rootreject;02lolos extremeclosefrontal. LoTing02 tailterlalupanjangdibanding1cunc09;03editmalahhilang,decline3calls. Monachicchio2attemptsordinarychild/elfear/extracap/coinpseudoglyph,selfdecline tanpa mengubah gentlechild menjadi jahat. Semua penolakan tersimpan.
+
+
+## 2026-10-14 09:25 WIB — Codex — mulai
+
+- Permintaan pemilik: lanjutkan sesi sebelumnya dan tuntaskan satu batch. Memulihkan batch1767: 48receipt (39final+9decline), kompira/lagahoo belumreceipt;12final sudahrootreview. Tidak membuka batch baru sebelum1767 tuntas.
+- Gunakan skillimagegen built-in; dua sub-agent gpt-6.1-sol/high memegang kompira dan lagahoo sesuai GAMBAR§2. Rootmemeriksa hasil tersimpan native+200px, melengkapi ledger/jurnal/galeri/validasi. Tidak integrasi,commit,push atau mengubahriset/katalog/power/JS/manifest/WebP/backups.
+
+### Progres 09:31 WIB
+
+- Root23final sudahtercatat native+200px, sebelastambahan pulihan: Madre,MamaQucha,Maui,Mazomba,Mich,Millalobo,Misshaku,Mogollon,Moixina,Monai,Monopod. Efekberdasarklaim: Qucha calmwaterc02,Maui fishlandc03,Misshaku prisonbreakc10,Monai birdhypnosisc02 tanpabeams.
+- Kompira orphanPNG ditemukan; petirditolak karena hanyaasosiasi thunder, dieditbuilt-in. Lagahoo baru1call tepat3lilin. MamaDLeau perlueditrambut: snake-like tidakmembuktikankepalaularhidup. Tidak menerima tambahananatomi Medusa.
+
+### Progres 09:45 WIB
+
+- Seluruh 41 PNG final batch 1767 telah diperiksa agen utama pada native 1254×1254 dan thumbnail 200px. Bukti hash dan tujuh Uji Sangar tercatat di drafts/root/codex-native-reviews.json; semua 50 entri memiliki receipt, nol pending.
+- Tambahan pemeriksaan mencakup Nagual, Nain Rouge, Nandi Bear, Nian, Nüba, Orang Mawas, Otomitl, Pallas, Pincoy, Sharlie, Sisimito, Xuangui, Lili, Boyi, Luoluo, Kompira, Lagahoo, dan Mama D’Leau hasil koreksi. Sisimito tepat empat jari tiap tangan tanpa ibu jari, kaki terbalik; Xuangui tepat empat kaki; Boyi sembilan ekor, empat telinga, dua mata punggung dan nol mata wajah.
+- Validasi progres: 5320 pemeriksaan, nol error; 18 percobaan ditolak diarsipkan, nol kegagalan alat. Perubahan riset eksternal dicatat dan dipertahankan. Sisa pekerjaan sesi ini: galeri, ringkasan, validasi final, dan entri selesai.
+
+
+## 2026-10-14 09:52 WIB — Codex — selesai
+
+- Batch 1767 tuntas seluruh 50 receipt: **41 PNG final awaiting-independent-review, 9 tidak-digambar, 0 pending**. Kompira dan Lagahoo selesai; 29 final diperiksa agen utama pada sesi ini, bersama 12 bukti sesi sebelumnya. Seluruh 41 hash native 1254×1254 dan thumbnail 200px ada di `data/artwork-generated/batch-1767/drafts/root/codex-native-reviews.json`. Ini pemeriksaan Codex, bukan tinjauan independen Claude.
+- Tidak-digambar: Monachicchio gagal dua percobaan (telinga elf rekaan, bocah biasa/topi ganda/tanda semu); Lo Ting gagal tiga percobaan memastikan ekor satu cun. Knochenfund von Seweckenberge hanya rekonstruksi tulang inert; Lava Bear hewan biasa; Mirokutana belum memiliki ciri/manifestasi pembeda; Muckie hanya sonar tanpa rupa; Okuri-suzume tidak pernah terlihat; Orang Bunian hampir identik manusia; Oshira-sama rupa pada tongkat ritual, bukan tubuh hidup dewa. Alasan lengkap di receipt/ringkasan. Jangan mengulang tanpa bukti baru atau permintaan pemilik.
+- Total batch: **59 PNG native berbeda: 41 terpilih dan 18 percobaan ditolak terarsip; 0 kegagalan alat**. Built-in image_gen; image_model persis `tidak dilaporkan alat`. Tiga sub-agent resume gpt-6.1-sol/high: finish_kompira (pulihkan orphan lalu edit), finish_lagahoo (satu gambar baru), correct_mama_dleau (koreksi rambut). Tidak ada CLI/API fallback atau perubahan model.
+- Pelajaran: (1) Asosiasi thunder-kami bukan bukti serangan petir; Kompira01 ditolak, edit02 menghapus petir tanpa mengubah serpent guardian. (2) Snaky hair bukan ular hidup; Mama D’Leau01 ditolak, edit02 menjadi rambut hitam panjang berombak, tetap lidah bercabang manusia dan satu tubuh bawah ular. (3) Periksa hardlink sebelum mengganti originals: overwrite dapat mengubah generated_file lama. PNG lama Mama masih utuh di rejected; root mengisolasi final dengan atomic replace lalu memulihkan byte native historis dari arsip, kedua SHA diverifikasi (catatan recovery di drafts/root). Gunakan copy mandiri/atomic replace untuk koreksi. (4) Kamera tinggi Boyi/Xuangui diperlukan agar semua ciri bisa dihitung.
+- Validasi final: **5332 pemeriksaan, 0 error**; semua 41 final diperiksa root, nol receipt hilang; **168 tautan galeri valid**. Dari 3403 berkas terlindung baseline, 3359 identik dan 44 perubahan riset eksternal dicatat serta dipertahankan. Riset sesi lain tetap berjalan; validator mencatat hash yang dibaca pada waktu pemeriksaan agar tidak balapan dengan snapshot terpisah. Codex tidak menulis riset/katalog/power/JS/manifest/WebP/backups/nama-besar.
+- Galeri: `docs/artwork-batch-1767.html`; prompt persis: `data/artwork-generated/batch-1767/codex-prompts.json`; ringkasan: `data/artwork-generated/batch-1767/codex-generation-summary.json`. Ledger generation_complete, status menunggu tinjauan, bukan terpasang. Tidak integrasi, commit, atau push.
+- Status akhir: 1.614 ilustrasi aktif; 84 receipt menunggu Claude (43 batch1717, 41 batch1767), 0 needs-correction, 0 receipt menunggu yang tidak valid.
+- Sesi berikutnya: koreksi baru dahulu jika muncul, lalu satu batch entri lengkap baru yang belum pernah memiliki receipt. Delapan nama besar decline tetap menunggu bukti rupa baru; jangan menduplikasi gambar menunggu Claude. Batch1767 tidak perlu dilanjutkan lagi kecuali ditolak atau diperintah pemilik.
+
+
+## 2026-10-14 10:27 WIB — Codex — mulai
+
+- Pemilik meminta satu batch berikutnya. Status awal: 1.614 ilustrasi aktif; 84 receipt menunggu Claude; nol koreksi, nol receipt invalid, dan tidak ada batch dengan receipt hilang. Batch1767 sudah tuntas.
+- Menyiapkan batch1817 berisi 50 entri lengkap baru, mengikuti urutan klaim wujud dari prepare-artwork-batch; mengecualikan semua slug ledger lama agar tidak menduplikasi gambar atau decline. Delapan nama besar decline diperiksa kembali terhadap klaim saat ini.
+- Built-in image_gen; tiga lane sub-agent gpt-6.1-sol/high sesuai GAMBAR§2. Agen utama memeriksa setiap PNG native dan200px, menulis ledger/jurnal/galeri/validasi. Riset, katalog, power, JS, manifest, WebP, backups, integrasi, commit, dan push tetap tugas Claude.
+
+
+## 2026-10-14 10:39 WIB — Claude — tinjauan kedua batch-1717 dan 1767
+
+- Claude meninjau 84 receipt yang menunggu (43 di 1717, 41 di 1767). Hash PNG native sama dengan receipt dan tinjauan Codex untuk ke-84-nya. **80 lolos, 4 ditolak** (status `needs-correction`, alasan di `correction_notes`). Belum diintegrasikan.
+- Ditolak:
+  - **jengu** (1717): penyelam memakai perlengkapan selam modern (selang regulator, tali masker, baju selam). Sumber c05/c08 menyebut anggota kultus yang menyelam membawa sesaji. Pertahankan jengu dan komposisinya; gambar ulang penyelam sebagai penyelam bebas ritual Sawa berkain buram, tanpa masker/selang/tabung/baju selam.
+  - **merperson-in-southsea** (1767, jiaoren): air mata mutiara terbaca di ukuran native, tetapi gambar utuhnya perempuan biasa yang menangis di tepi laut. Letakkan dia sepenuhnya di bawah air, menenun di dasar Laut Selatan; kain jiao tetap kering (c04, c06, c07), mutiara jatuh dari matanya. Tetap tanpa ekor ikan rekaan.
+  - **nandi-bear** (1767): terbaca sebagai beruang grizzly biasa; wajah beruang hanya tafsiran dari nama. Tonjolkan bahu depan yang jelas tinggi dan kaki panjang (c05, c06), bulu kemerahan, kepala yang tidak meniru beruang maupun hiena, berdiri dengan kaki belakang (c12); jebakan di pintu gubuk (c14) bisa jadi latar.
+  - **otomitl** (1767): terbaca sebagai lelaki biasa mendaki lereng; ukuran raksasanya tidak terbukti karena desa hanya tampak jauh. Beri pembanding skala yang menempel padanya (pinus setinggi mata kaki, satu tangan menutup puncak bukit, atau permukiman dekat kakinya).
+- Lolos tipis (pertahankan arahnya, tetapi lebih aman bila lebih tegas): hua-po (ukuran telapak tangan hanya terbaca dari bejana), imsety (wajah tenang, skala yang mengangkatnya), mama-d-leau (lidah bercabang hanya samar di native, hilang di thumbnail), mich (sendirian mirip salmon besar), nuba, qianlima, wd-q10409490 (taji yang membedakannya dari babi biasa).
+- Diperiksa pada potongan native: kaki Enfield monster (3), cakar golden-kite, jari Iemisch (3/4, tanpa telinga luar), wadah Fuzanglong (tanpa tulisan), jubah hone-onna (noda tanah, bukan gore), tangan dan kaki Sisimito (4 jari, kaki terbalik), telinga dan mata Boyi, pisau lengan orang-mawas.
+- Batch-1817 yang sedang dikerjakan Codex tidak disentuh.
+
+### Progres 10:50 WIB
+
+- Agen utama memeriksa 12 PNG final native1254×1254 dan200px: Drac Sant Llorenç, Maolong02, Draak India/Etiopia, Yiniao, Gegant Romaní, Houéran, Isabit, Drac Beaucaire, Ecke, Laurieddhu, Mâchecroute, Loberno. Efek: Isabit suction c03/c08, Houéran bara c10, Yiniao bayangan permukiman c02/c09, Mâchecroute banjir c01.
+- Maolong01 ditolak tanduk rusa rekaan dan02 dihapus; Orphan Bird01 ditolak kaki takberselaput,02 menunggu pemeriksaan root; Petitcrieu01 ditolak anjinglucubiasa,02 tersedia. Semua penolakan tetap diarsipkan.

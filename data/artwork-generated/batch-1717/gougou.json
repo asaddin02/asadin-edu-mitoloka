@@ -1,0 +1,91 @@
+{
+  "slug": "gougou",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Gougou, the immense woman-shaped man-eating ogress of Miscou Island.\nANATOMY: one frightful woman's head, two eyes, two arms and two legs; fully opaque coarse ancient cloth clothing with one enormous deep cloth pocket on her front, its opening as large as a sailing ship [gougou-c04,gougou-c06,gougou-c07]. No horns or invented animal anatomy.\nMOMENT: loom over the viewer and thrust one grasping hand downward towards a tiny wooden sailing vessel at the shore, the other hand gripping open her vast pocket; ferocious open mouth, no blood or injury.\nPOWER: no documented magical power; menace through immense size and the documented capturing pocket [gougou-c05,gougou-c06,gougou-c07].\nSCALE & CAMERA: extreme low angle from the water beside the tiny ship; its tallest masts only reach below the ogress's waist; her face, hand and vast pocket dominate the square.\nLIGHT & WEATHER: one low amber setting sun rims her face and cloth, deep walnut shadows, sea spray.\nSURFACE: rough weathered skin, coarse woven cloth, wet rock and battered wooden ship.\nSETTING: rocky Miscou Island shore at Bay of Chaleurs [gougou-c02,gougou-c04,gougou-c10].\nMOOD: terrifying and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Raksasa perempuan berkantong menangkap dari tepian Miscou.",
+  "basis_claim_ids": [
+    "gougou-c04",
+    "gougou-c05",
+    "gougou-c06",
+    "gougou-c07",
+    "gougou-c02",
+    "gougou-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "gougou-c04",
+      "gougou-c05",
+      "gougou-c07"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "gougou-c06",
+      "gougou-c07"
+    ],
+    "tempat": [
+      "gougou-c02",
+      "gougou-c04",
+      "gougou-c10"
+    ],
+    "sifat": [
+      "gougou-c04",
+      "gougou-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ogress berwujud perempuan menakutkan dengan kantong yang bisa menampung kapal; mast kapal tidak mencapai tengah tubuh.",
+      "claim_ids": [
+        "gougou-c04",
+        "gougou-c05",
+        "gougou-c06",
+        "gougou-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pantai Miscou di dekat Bay of Chaleurs.",
+      "claim_ids": [
+        "gougou-c02",
+        "gougou-c04",
+        "gougou-c10"
+      ]
+    }
+  ],
+  "aura": "Ukuran raksasa dan kantong penangkap c05–c07 memberi ancaman.",
+  "artistic_choices": [
+    "Kain kasar buram, angle rendah, sunset dan kapal pembanding adalah editorial; tidak ada efek sihir."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b7-2048-7152-9ed6-a8d2649d9b0a/exec-acf73526-8e20-459f-a345-6a2f8b1c44c8.png",
+  "generated_at": "2026-10-13T14:45:52.124382+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/gougou.png",
+  "native_sha256": "b682a61aefc0aa70d3b10ef658ca690d9e3f704d1518960e4c9c0af6b0f9e156",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan thumbnail 200px diperiksa: tujuh Uji Sangar ya; ogress mendominasi, kantong dan kapal pembanding terbaca, tangan menangkap aktif, anatomi tunggal benar, tanpa efek sihir/teks/gore.",
+    "limitations": [],
+    "native_sha256": "b682a61aefc0aa70d3b10ef658ca690d9e3f704d1518960e4c9c0af6b0f9e156",
+    "reviewed_at": "2026-10-13T14:45:52.124382+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "b682a61aefc0aa70d3b10ef658ca690d9e3f704d1518960e4c9c0af6b0f9e156",
+    "notes": "Screaming giant ogress reaching from the Miscou shore with her sack; the ship's mast stays far below her waist."
+  }
+}

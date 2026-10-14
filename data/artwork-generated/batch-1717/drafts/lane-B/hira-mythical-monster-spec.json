@@ -1,0 +1,76 @@
+{
+  "slug": "hira-mythical-monster",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hira, the supernatural buffalo monster of Songhai tales with unbreakable hide.\nANATOMY: one powerful buffalo head, two eyes, two natural buffalo horns, four cloven-hoofed legs, one tail, heavy coarse dark hide [hira-mythical-monster-c03,hira-mythical-monster-c07].\nMOMENT: lunge directly toward the viewer, violent lowered head and twisted shoulder; a wooden spear shaft snaps visibly against the hide at the near shoulder and broken arrow shafts tumble from contact; no injured people.\nPOWER: spear and arrows physically break against Hira [hira-mythical-monster-c10]. No elemental effects or magical aura. Remain fully buffalo, do not mix elephant or lion anatomy.\nSCALE & CAMERA: extreme low tight angle; head and huge shoulders dominate foreground without inventing numerical giant size.\nLIGHT & WEATHER: one low amber late-evening sun, rim light on horns, deep walnut shadows and dust from hooves.\nSURFACE: thick scarred hide, coarse hair, splintered wood and gritty soil.\nSETTING: threatening scrub bush country beside the Niger River tradition, dense dark bush visible behind [hira-mythical-monster-c01,hira-mythical-monster-c08,hira-mythical-monster-c09].\nMOOD: brutal supernatural force, terrifying, never a grazing farm animal.\nHARD CONSTRAINTS: no text/logo/frame/watermark; no extra heads/limbs; no borrowed entertainment design; no explicit gore or nudity; no generic glowing aura, energy ribbons or neon.",
+  "depicted_variant": "Buffalo Hira menghancurkan tombak dan panah saat menerjang.",
+  "basis_claim_ids": [
+    "hira-mythical-monster-c03",
+    "hira-mythical-monster-c07",
+    "hira-mythical-monster-c10",
+    "hira-mythical-monster-c01",
+    "hira-mythical-monster-c08",
+    "hira-mythical-monster-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "hira-mythical-monster-c03",
+      "hira-mythical-monster-c07"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "hira-mythical-monster-c10",
+      "hira-mythical-monster-c11",
+      "hira-mythical-monster-c13",
+      "hira-mythical-monster-c14"
+    ],
+    "tempat": [
+      "hira-mythical-monster-c01",
+      "hira-mythical-monster-c08",
+      "hira-mythical-monster-c09"
+    ],
+    "sifat": [
+      "hira-mythical-monster-c03",
+      "hira-mythical-monster-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Varian buffalo utuh, tidak hybrid elephant/lion.",
+      "claim_ids": [
+        "hira-mythical-monster-c03",
+        "hira-mythical-monster-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tombak dan panah patah ketika menghantam tubuhnya.",
+      "claim_ids": [
+        "hira-mythical-monster-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Brousse yang diteror Hira dalam tradisi sepanjang Niger.",
+      "claim_ids": [
+        "hira-mythical-monster-c01",
+        "hira-mythical-monster-c08",
+        "hira-mythical-monster-c09"
+      ]
+    }
+  ],
+  "aura": "Senjata pecah nyata c10 membedakan dari buffalo biasa.",
+  "artistic_choices": [
+    "Satu wujud buffalo dipilih tanpa visual morph atau gore; sunset, low camera, dust editorial; tidak membuat giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

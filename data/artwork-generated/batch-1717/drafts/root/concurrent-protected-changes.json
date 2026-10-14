@@ -1,0 +1,711 @@
+{
+  "changes": [
+    {
+      "path": "data/power/batch-143.json",
+      "baseline_sha256": "0d0241db25a5be797a638472b4cb7baab9d2359772d890e21bafcab70845609f",
+      "observed_sha256": "1368673a7704af87ba94126da94e9da9f4a4049655b822cce1934d2827875ad4",
+      "observed_at": "2026-10-13T14:47:34.629546+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-152.json",
+      "baseline_sha256": "ece777cd9a49b3914d2b3ae9fdf798e0c5d29dbb676d858ab26a65ff224017e7",
+      "observed_sha256": "f75e0a8e4b0971c8103b9a916293be723c6a8172f89777bb3d0d88dd73e0fc21",
+      "observed_at": "2026-10-13T14:47:34.644808+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-066.review.json",
+      "baseline_sha256": "ad46bb78224ebb12f06c1ad4b2de4bdbe645438221bc6dbdd2e4f6fc47f3e59b",
+      "observed_sha256": "e19cb4a30235c9905493516b795174e1b9664e53a9da1210a152d8fa15ad4e49",
+      "observed_at": "2026-10-13T17:48:24.002843+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-053.review.md",
+      "baseline_sha256": "cbe908e60a79e5043a973f3acb21a67aafec4812697c2fdda05f9bdec033896c",
+      "observed_sha256": "00ad7624901bd72a1a2d5aab7a186c294230c6550adfcd4e31e4b6711aacec50",
+      "observed_at": "2026-10-13T17:48:24.006714+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-117.review.json",
+      "baseline_sha256": "5c7672542507dc14eb31fab517990a6056c7ad2eed20178778750ba590065d18",
+      "observed_sha256": "8647672c619df99c7d6aab41ec2979c9a7b8e098161f9be6d7ae426517843e34",
+      "observed_at": "2026-10-13T17:48:24.008580+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-066.review.md",
+      "baseline_sha256": "85192cfcc5f478b6e6567a0e5733da8a0f3852cc6aecb1f2f908be1c79ea9acf",
+      "observed_sha256": "8e7698a39b2a8455f8046fdf5b91fe1cb2b5a058d2f2dc45373c532dc0f9a33f",
+      "observed_at": "2026-10-13T17:48:24.010022+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-059.review.json",
+      "baseline_sha256": "e2aae450235fc6debc918c60767a4d282bb8f6ad9a812cf712fe8d3f53c81251",
+      "observed_sha256": "1a63a93ef4ba90a1c9bf5445180806429a156366223de4da62b5b96f77037023",
+      "observed_at": "2026-10-13T17:48:24.011548+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-110.review.md",
+      "baseline_sha256": "040063c5ef5dd0a0b8e664501ea568c3f5ae6765d88b25524d9c5e64d4a34545",
+      "observed_sha256": "318fcd54ddd012a9edef81db7dc66780edf223e3cd2c20516e9291d198161737",
+      "observed_at": "2026-10-13T17:48:24.018789+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-118.review.json",
+      "baseline_sha256": "01600d9c823213bbbe81c415fa9b5aa996c8561495f60c71dd12c6f13f3da654",
+      "observed_sha256": "0eed6fc81fccac94696a9d7ac33e73a5297b0e16d9848886b66f31d29876c05a",
+      "observed_at": "2026-10-13T17:48:24.021810+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-150.review.md",
+      "baseline_sha256": "1ca3ec0435c26d39f696103644370694e45ddbbad85ad71716a31925bb987c6b",
+      "observed_sha256": "ac60e831d782e8ff7af825a05d537e12905891dee3292598d4f85f0d0b53c560",
+      "observed_at": "2026-10-13T17:48:24.022619+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-142.review.json",
+      "baseline_sha256": "9721f760f1e7b618ddfc375db5154345f592a0de332b44c0dd7543836f2367cb",
+      "observed_sha256": "325f04b7e7b022b6457b2d325a0bccded5bbee883d44b39b7ed08fe320fc7bd4",
+      "observed_at": "2026-10-13T17:48:24.031342+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-112.review.md",
+      "baseline_sha256": "adfeef4726f23060f0bee2151b6cc2bb212620a9c4e4fe9a4dbe675c6790cfd8",
+      "observed_sha256": "27d3f1058dce6b8ae93b6f4c1bf1e29a1c33ac3c335271ec8183140e32e99ca1",
+      "observed_at": "2026-10-13T17:48:24.032991+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-068.review.md",
+      "baseline_sha256": "9ca2a0aefa463c07fee7744338d6dc61da5840adde8fd273a688dc2fdde850fb",
+      "observed_sha256": "64021c877d07cb4720f49f7b6dfc9428fd61716656f12982fec9ad05ee852a78",
+      "observed_at": "2026-10-13T17:48:24.045982+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-075.review.json",
+      "baseline_sha256": "545e2c17a19832d13f0b9d2a34fe58600939209b5a7ac4d50bbd57736e169a55",
+      "observed_sha256": "04c0541dd5e21194bffd0299a119c34e525ae60a7c9186fb53c7bc0c96ac232f",
+      "observed_at": "2026-10-13T17:48:24.050701+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-060.review.md",
+      "baseline_sha256": "792e2df6e105b67483622ab2f3f1e9968e985043e188eff073f49199c6f3dac2",
+      "observed_sha256": "48546a45399bc37eb17b4f9fe05ebb6c702bdbd3e5f50e4bd27fa7f1d46af26d",
+      "observed_at": "2026-10-13T17:48:24.053566+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-069.review.md",
+      "baseline_sha256": "45f67e1926186b71fd7d491b8819a09fd2021519313c62a07256607fd41e129d",
+      "observed_sha256": "940d5d9b5fb0f9976aa20a6b63ab7502ab33ee57d130c8ba29f94abb48ad93f4",
+      "observed_at": "2026-10-13T17:48:24.055414+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-067.review.md",
+      "baseline_sha256": "652962558825cd50e3c58e2718f2037045ba2bdcb374cedbb311c718565062a3",
+      "observed_sha256": "9421403d849e8fa2f0ad7a21f60742d379488411a9b156279a5c6fd249327007",
+      "observed_at": "2026-10-13T17:48:24.056892+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-145.review.md",
+      "baseline_sha256": "c7a47be5ae99958a5bb076bd78bbc0d5a4e4af8b649f28e1fd7e190a88c0820b",
+      "observed_sha256": "498ff7b9f3abf94fed4fcb30cbc76bafd3b02a123ff8bb397bd8e390c4eadf2e",
+      "observed_at": "2026-10-13T17:48:24.057780+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-145.review.json",
+      "baseline_sha256": "287f1daafe0cfdfec858256e4f3b5d51fd5acc76ff8f772aea510b2bea1f78b9",
+      "observed_sha256": "8cc7f666cb17b1534129219fa313ffec62994ec3d89ad68e2e5e8d55a1ffb0b2",
+      "observed_at": "2026-10-13T17:48:24.061041+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-151.review.md",
+      "baseline_sha256": "5ecfe5a9553744c361b464a714446987d71e4a1bc5782e0d8d17ff754ce52c64",
+      "observed_sha256": "9a18cbcab65525f1e01f2aee6546f83b2bda75e1e3e1f26670f986b5f140bb9b",
+      "observed_at": "2026-10-13T17:48:24.061887+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-078.review.json",
+      "baseline_sha256": "389177e52dfeb866c818ff529931cbdc57e4f0e4809798a8babaa95f5c37a02b",
+      "observed_sha256": "d107e0b100aa0abdac5f024e1403cc2b4dba4c38fae7230249463190084f406f",
+      "observed_at": "2026-10-13T17:48:24.064718+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-059.review.md",
+      "baseline_sha256": "b3541da75beedf9f9fa7f44ea354cdd932b2b06195f9fe766e11de2a1399845b",
+      "observed_sha256": "2afd66970df7f742e6294537252de14ae7b97c348903cd75f07b5eb0ac2cb434",
+      "observed_at": "2026-10-13T17:48:24.070881+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-053.review.json",
+      "baseline_sha256": "fbd026f03f62d3f6585aa6a14fab74f89886ea4572c9c93d07eeb2be0f55dd15",
+      "observed_sha256": "5cf512234bd791872e5407c1a586356b6e97f1d3d023239bccca712cc80086b1",
+      "observed_at": "2026-10-13T17:48:24.072164+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-072.review.json",
+      "baseline_sha256": "dd02f1f82009bf46278c37c6f6fcbc59402628dfca44c4239c786f67e683e301",
+      "observed_sha256": "8ead52b03b57a6c1dd39e2c08c1f9c45fd7337e3e32b06a8776695b098a73757",
+      "observed_at": "2026-10-13T17:48:24.074431+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-055.review.md",
+      "baseline_sha256": "fcf3ff8281bed81d43d14f7d11c1f1531bce0d19e7944981ccfc1d9e18a67ed8",
+      "observed_sha256": "1ab26869767a2594a5df1f002eb927f75be6bdfae7b4fbee9432840220424de3",
+      "observed_at": "2026-10-13T17:48:24.075489+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-056.review.json",
+      "baseline_sha256": "8994e201d83039158e2d8b671491090b7ff7ee2461c7b772c4032899d6c6a93d",
+      "observed_sha256": "15a87185efbc90c33cef9b54cd2b404ca50ae4aa7f7568f7afe328344acdc9a4",
+      "observed_at": "2026-10-13T17:48:24.082377+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-141.review.json",
+      "baseline_sha256": "380fde06e03c5b19a3cc16ae25501d746a500edc3813dae70633d430867ce271",
+      "observed_sha256": "741a1d5ee21bd4163250c4d4fa6083956213cd54b8dea9b25aee439dc7e87f4a",
+      "observed_at": "2026-10-13T17:48:24.086111+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-112.review.json",
+      "baseline_sha256": "a79aef2a8f20c6d06db1eff960bb4c15196d15fd9ee3961652b28fa5d540c3b8",
+      "observed_sha256": "40be62ab7a90e12b51b10ef6b51792093a6e18e4ecdd2efe13945c8b2db92385",
+      "observed_at": "2026-10-13T17:48:24.089939+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-055.review.json",
+      "baseline_sha256": "4832c67fbc04566075b9a97faa98b0f87ae5c89bedc4b1e8f94dc1e1235df5a6",
+      "observed_sha256": "8d46f49a484922c7da2758b0434bb42d66b019ff15360ebd93531288c74b1d90",
+      "observed_at": "2026-10-13T17:48:24.092684+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-140.review.md",
+      "baseline_sha256": "cbdfca9f266286e65b5a4407479ca7d4bf3490fd70658aacba3ac636a2e5ec66",
+      "observed_sha256": "e9c326b53d3b903e09cf6abc17040ddadad41ec12289aa1b9c4104ed87f8a70b",
+      "observed_at": "2026-10-13T17:48:24.095744+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-060.review.json",
+      "baseline_sha256": "ad9b866b2ca2f93c1d95227d9eed343ba1c9be9607f6e9d291a24a3809654c8c",
+      "observed_sha256": "4453a1def94f076ffd9b61208100017e78240676edf9fa7d8ff9df5e345e4d24",
+      "observed_at": "2026-10-13T17:48:24.097569+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-150.review.json",
+      "baseline_sha256": "ec446d100ea5e5da6b3d80a328ebe360e0e06935c9b3e6c0f9162f070c04d760",
+      "observed_sha256": "3eaa82227a52c17e540d9b3a9a2c315ce1720a4c41a48674cf962ff71b00962c",
+      "observed_at": "2026-10-13T17:48:24.099052+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-117.review.md",
+      "baseline_sha256": "1de7bfc0d4acf85ba9da86f86b0df2d0af17649c73e261bd18007f51d8634030",
+      "observed_sha256": "74ee61c911fe27ec6ec5c5895936cda13ec25db0c41e65af0bfd8c253f4d6114",
+      "observed_at": "2026-10-13T17:48:24.100640+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-142.review.md",
+      "baseline_sha256": "7ca1f651518227366c9d56c1bd61540e826bdb1261ae4ca95a9a2142b275e9e5",
+      "observed_sha256": "87ed46ffbeb5b630ff143cd143c028588ee620620a73286017556823b67e2598",
+      "observed_at": "2026-10-13T17:48:24.101458+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-118.review.md",
+      "baseline_sha256": "e90fb6749c8d56b1ddc4ea097b61e83ffa10e651c7a289fde5d2c95a7a7f056b",
+      "observed_sha256": "e5b825d891d40c199817b94cab1aa9365c6500217d20aa8245d56c606621b28f",
+      "observed_at": "2026-10-13T17:48:24.102276+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-080.review.md",
+      "baseline_sha256": "83ddab1f6340556c3fb4337b005a86af47d83d27219cc98e8370948a6dc3e8d6",
+      "observed_sha256": "7eec822d697143a0d05b0461a2de2c6e6395822317e8e51df436ffc2c1e582ee",
+      "observed_at": "2026-10-13T17:48:24.105982+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-075.review.md",
+      "baseline_sha256": "a29bcd547c87c9cb964e54c1f0b8a18dae07661ed7a5b03838afa559d5498266",
+      "observed_sha256": "c4fedd5dd32c940448db24ab3e334bc6b8e324b344ee26f61cd5bb6e1c5a91e5",
+      "observed_at": "2026-10-13T17:48:24.107836+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-141.review.md",
+      "baseline_sha256": "74993484e73476edd45de44149f29295ffeb5f0daae72996c516b0965cfe3694",
+      "observed_sha256": "60d8d175f84102f49e3fb821b3298db3a3ad06798933ea0cfd722698a4c21dfa",
+      "observed_at": "2026-10-13T17:48:24.108351+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-116.review.json",
+      "baseline_sha256": "5ca94f535c4a18c3d804e438390a8ebb02d9b65627c3a013bd886f7cce0ca2e1",
+      "observed_sha256": "414a138f92e40e7cc6df06ec99b6bbd1184893e74d5defaf6c0e8d8e6b86df52",
+      "observed_at": "2026-10-13T17:48:24.109106+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-072.review.md",
+      "baseline_sha256": "d036a5d29322dfd5e037a8986a27f710e0329656c86bab60c5d1ffb8cb793399",
+      "observed_sha256": "7d776c33b3ab4bec4bfbaaacb7bce4e9c207af9387beb62de656a32a0753dde2",
+      "observed_at": "2026-10-13T17:48:24.109765+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-067.review.json",
+      "baseline_sha256": "ce333c0efe9579759d6e63f53afb74f09d2344537965e18448282b2bbd0c7123",
+      "observed_sha256": "76513366c2cb87c2a95fe27762101f9c1f4c1670ce023bf92b1a417f3bbeb226",
+      "observed_at": "2026-10-13T17:48:24.110654+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-056.review.md",
+      "baseline_sha256": "9d012782f2a28507b2cc773431cc914ae96240583634e7acaaef1f21d8ea9e7a",
+      "observed_sha256": "8079c3ef1e11557af9b09273fc2f63c79b1c5eb8a0c0aa7ef02d62f3bf28fb97",
+      "observed_at": "2026-10-13T17:48:24.113385+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-080.review.json",
+      "baseline_sha256": "4a20d30875b90ad1d7283768d809dc80213538f604050f4d4ec3c2ef8126f2d8",
+      "observed_sha256": "10386d86648be31d254181590dc22e7d0a67a83f36c60973c31229c80624332c",
+      "observed_at": "2026-10-13T17:48:24.115425+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-151.review.json",
+      "baseline_sha256": "c02d04ff4f4fa3d1772decfe54659dc4d8e16e505458c77306e0d3f2c50e3607",
+      "observed_sha256": "f4ca2ddf9543fb194a9dd5a2a320e092670164772adfd5dccab420ddcd3ed7c4",
+      "observed_at": "2026-10-13T17:48:24.116508+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-140.review.json",
+      "baseline_sha256": "2b061601cefc95e7b09fe4ece8188acacc3348b66102fed9b026f3f3874e4a90",
+      "observed_sha256": "58c963ff12e9dab60b6e1b3286d7aa5d6fc37f8f559ffd66c6d760addaa936cc",
+      "observed_at": "2026-10-13T17:48:24.119423+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-069.review.json",
+      "baseline_sha256": "53fef98b2050a91de8d87ca69e54b9220a9a7e687c4014e6f06810e891b0bc90",
+      "observed_sha256": "d07d8c00cd6d6efe9add7a5d82679eafcb280f3ba11816ff215a5b44330bf9fd",
+      "observed_at": "2026-10-13T17:48:24.120120+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-078.review.md",
+      "baseline_sha256": "04cdb7c9223b0f7c48a2bf6f27db1b1f610d1e41df3acc04b45edacc81f398af",
+      "observed_sha256": "3ff5ed2eb4596e2ce87578f078fb9c2731600c99123f8baacb23fbeb96b19207",
+      "observed_at": "2026-10-13T17:48:24.120811+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-110.review.json",
+      "baseline_sha256": "2b79a83d42ec139b3b45ce16fff4a4a5b2127455f9ab3f6393ee13669c884d48",
+      "observed_sha256": "560bb79ce2e863685c0de3baac1fe1e2f2859c02c8e4e1b27bf2e987e8ebb74a",
+      "observed_at": "2026-10-13T17:48:24.121792+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-068.review.json",
+      "baseline_sha256": "a9904589937227066c47508e0b1efb459b5565d1ba360d6bc79337cd89be047c",
+      "observed_sha256": "54277a9bbc6e30f9430546cced223bfd89467f112524b8c3128488698ad25dde",
+      "observed_at": "2026-10-13T17:48:24.125076+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-116.review.md",
+      "baseline_sha256": "7d1081afad518ee83087cb02b5631f82e143c4032097c95895fd5b03af54195f",
+      "observed_sha256": "55e0d219947dbb71c5171e7eb308d3ae4ebc68cb32020bdbdaaae3b09dbedecb",
+      "observed_at": "2026-10-13T17:48:24.128460+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-142.json",
+      "baseline_sha256": "81ccb19b86348c22f29ea9b0749d5a1592e1a9de6360535e40cb839e94d4e73e",
+      "observed_sha256": "5b7b6db4ef0bdab7e5b32b7e5e60d27990f4d9d0c74dc906d2e893a6f53acd36",
+      "observed_at": "2026-10-13T17:48:24.142009+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-066.json",
+      "baseline_sha256": "4a642b5ded2d27988f9fa69479ff2245287387755932a9f46f32e40ee93ea233",
+      "observed_sha256": "ef95bed7e0454d73404224aff67fc50e312a428e040a73d9c9f56ec1ef174b52",
+      "observed_at": "2026-10-13T17:48:24.142303+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-068.json",
+      "baseline_sha256": "4bc293ace6c7af725884488bf2225300d38cf2becf544cdc46e37d9b5c51eb2e",
+      "observed_sha256": "4e4c1dbb611f8be01b1d0bf37a729326ab9520dd1bd2fc65961df1eba0d5679c",
+      "observed_at": "2026-10-13T17:48:24.143417+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-080.json",
+      "baseline_sha256": "1d529389919c541cbaec123c6e0537742ecc15b0411db782a2dbe290b752c92f",
+      "observed_sha256": "a1928d9d1657f9f5a0ff3e0f49482c00df87eaafcce5fe2e0cc32ddc410fe69b",
+      "observed_at": "2026-10-13T17:48:24.143997+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-150.json",
+      "baseline_sha256": "cbdc2dc2f77ebcb221613e907be6115cb62a87f0b3e613cdb0c0d5a4ec00424a",
+      "observed_sha256": "f3af58466c8d0de9431210e1b74e6c17b5253c7d5de6e01cfe3a9e77d766b0d4",
+      "observed_at": "2026-10-13T17:48:24.144137+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-151.json",
+      "baseline_sha256": "052d7956cca596dff50eb6bd728dd13ea3fb8df41dd8d6a9da869dc474b47932",
+      "observed_sha256": "16721683480e93f17e11923a17591342529a13ba6934b009f855e734b377991b",
+      "observed_at": "2026-10-13T17:48:24.144370+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-117.json",
+      "baseline_sha256": "231ce7ddd33d7cebc122a6a1d04d33ea5674a5551d2bbbfbbe28cb8735558670",
+      "observed_sha256": "05fd9e62a08400387a4cc22da626362355ac4ac9b07ec51080109c920503e1d2",
+      "observed_at": "2026-10-13T17:48:24.144816+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-059.json",
+      "baseline_sha256": "c9b7ddc542285c4d4cd3baf598bbbb9e880b819a89c370381f907039046a0473",
+      "observed_sha256": "364c83f6d29f1447a66c9216b78bbd7264973c71879f1af2e2955c2d3f3b2202",
+      "observed_at": "2026-10-13T17:48:24.145034+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-053.json",
+      "baseline_sha256": "4a5ef8a2af8091477ae5831312f9bcd2610e7a2d9eece681bd9d5bcfd46d05f2",
+      "observed_sha256": "fd6c7128f7111c8785ac053a3443019ce3a45033a590ada3029a9c373adc5fe5",
+      "observed_at": "2026-10-13T17:48:24.145154+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-075.json",
+      "baseline_sha256": "e3a288cc7053872f8ea2ee4c4d23897e21bf58f8a0c204dad0689e7522d1ae70",
+      "observed_sha256": "3472479a058b4bcfd14a038506849af4d785a07511b928bb9061e9eea7f1b0a4",
+      "observed_at": "2026-10-13T17:48:24.145799+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-145.json",
+      "baseline_sha256": "aec3f4b4c53b8665bb29de54e28c372d88426b8c713538f0b13342038534948e",
+      "observed_sha256": "43adb0fc0f3712d82a7b682de52a8ad7900b23bc5e1bfecafa3f74f55af85cce",
+      "observed_at": "2026-10-13T17:48:24.146041+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-072.json",
+      "baseline_sha256": "0e3ab2b6b6aa74e92c3b38fb6af9f781c2d798d9aed3e4b10941a991312f005c",
+      "observed_sha256": "8e8ae4b42ecfef81c8452a0201b13b7c7a189efeaa72d7fc3ac3f9926286fe4d",
+      "observed_at": "2026-10-13T17:48:24.146420+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-067.json",
+      "baseline_sha256": "6da37e06b454a5bd3b2d2fb22d3c60168054bc2f16170ce6d95221b574e7f3ea",
+      "observed_sha256": "65284bf75558038edf86c62d50c4f7b818facdd05d69e44536c3d72a8fa63140",
+      "observed_at": "2026-10-13T17:48:24.146835+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-060.json",
+      "baseline_sha256": "b88b8e0276e2374f7da7fdbfaedbb40f5a1c07165f8c9fd76cfcb60f4672b279",
+      "observed_sha256": "a9261ca142c15f51b425876f694ba64c136efa5f8f1eb2d5fe0d88b1726377af",
+      "observed_at": "2026-10-13T17:48:24.147129+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-078.json",
+      "baseline_sha256": "f5f866c552519e57e13b4c0784d3d3b144555ee229e4578b3229b138d6d6bee7",
+      "observed_sha256": "242262e4d2fe9d52a0502837c4d4dbfb8451faba876380c6a9b5557811683de4",
+      "observed_at": "2026-10-13T17:48:24.148415+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-110.json",
+      "baseline_sha256": "e20cddf4f271701106218e784964a495c0b42fa1ac26fc5d10a7d778b90fa5ea",
+      "observed_sha256": "079cc09fc627db07cec1a1b0cb145418c2f577e8199f4edd7bedec74db06351b",
+      "observed_at": "2026-10-13T17:48:24.148786+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-055.json",
+      "baseline_sha256": "e73a5060417d3bda3e92acf36ca54765a6c45d127fbf5ec2f22b4780f28b657c",
+      "observed_sha256": "a8c0a522fb99c361e2d0ee9ff958805c16235a107d32ecb35cc605fe33e4c489",
+      "observed_at": "2026-10-13T17:48:24.149239+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-056.json",
+      "baseline_sha256": "cf01f5a469ecc67b0c9a4bc082a90ed70dbc38bb6b55e45cec6ef69b8355a2de",
+      "observed_sha256": "62266e4da19043f2e4b4fc30b80114b25c8d2e019d4c5fa1c2a17348dc528dea",
+      "observed_at": "2026-10-13T17:48:24.150320+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-118.json",
+      "baseline_sha256": "1ae1a431487415229a428637aa6d36b2b47e4b6f382fe5cae8f8dce54823a5d8",
+      "observed_sha256": "cbb1d0c2926b48053973f54a5756312f3bcc698e5f8329a7c46fd7130b1a6223",
+      "observed_at": "2026-10-13T17:48:24.150708+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-112.json",
+      "baseline_sha256": "dd0d3f94756602663041b6eba28ad26a837c76df3d89146a82b2ff9dcf3c7304",
+      "observed_sha256": "55b96b83e1e9797e76f2e58a0e06388fe72b2b3c55d6d4d1e789a6d5d5d7cfcd",
+      "observed_at": "2026-10-13T17:48:24.150897+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/enrich/batch-069.json",
+      "baseline_sha256": "0da67279e4712601d75dc954f60b213c66cad40f27a34edc849d489632ee69de",
+      "observed_sha256": "ddcf6c84e11bfeaa7c66e970475cfa5f75ad7d4860677df396952bf1125a79be",
+      "observed_at": "2026-10-13T17:48:24.151004+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-142.json",
+      "baseline_sha256": "f76c7e0e7cba13e0aee0636a542ae51a0c88fa3a35e914b91cf0e87603e89716",
+      "observed_sha256": "c9401b44857092d76248728c67488f6e599095b25e28b18a0b40ee315104f450",
+      "observed_at": "2026-10-13T17:48:24.151658+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-066.json",
+      "baseline_sha256": "e0b736c915547975ca3ca47d2b1528db835185735a2a1cec4ee515e9d64f1274",
+      "observed_sha256": "d2f1fe55a70b741501ecd6febcce6dc17bfd5a61db95671ed95f9d65343873b5",
+      "observed_at": "2026-10-13T17:48:24.152047+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-068.json",
+      "baseline_sha256": "bea310545d0609b71ab23233cc1c09e5006e0454015c7c1b132029a26d0bf6cd",
+      "observed_sha256": "84bdbf2d79530ee40a32a2e1651cfb7ac80d68139390a0027f7a6ec6791b3a7e",
+      "observed_at": "2026-10-13T17:48:24.154309+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-080.json",
+      "baseline_sha256": "156cc5b8e8ac5ac82fb91c451be01b5cc8493414992993d8c1c152c17621e207",
+      "observed_sha256": "09ad698d8e929c9506432743dd9fe7190c3b0cb1e49be48bbc6c6d21862c6aeb",
+      "observed_at": "2026-10-13T17:48:24.155100+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-150.json",
+      "baseline_sha256": "a3299a268942aeb6eb74f703efe8eda0a55a4029e2cd0402924216f38d0e503d",
+      "observed_sha256": "64f2db10b640780df1da58ec492f4cca0193bc565b7a8968bd43ffc9ee9d4e50",
+      "observed_at": "2026-10-13T17:48:24.155309+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-151.json",
+      "baseline_sha256": "a76c4b101c67ad1d75bc4a27bf571b1d8f69a07684a8ade7a138f1b802610799",
+      "observed_sha256": "11e27e44faec152c0b64823af74365d0bc1cbf92315ff97ec5bd2d6372383ec6",
+      "observed_at": "2026-10-13T17:48:24.155476+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-117.json",
+      "baseline_sha256": "f2cbb820e5f33b22c04fd837f4e86cc34216706d825dc8e783eb41060fa71732",
+      "observed_sha256": "2d6cfe80607020e400197c5ec045d2cba802b5a8b31f9fc40583044939972357",
+      "observed_at": "2026-10-13T17:48:24.156094+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-059.json",
+      "baseline_sha256": "da80a49365a26621e5050f0453d2203f52ad7e592f23cb4fea294c6faa3382e0",
+      "observed_sha256": "09c754768d68aefe4d56b0d580faf15b715bb4fd6ca4877b340b1f45e7770a18",
+      "observed_at": "2026-10-13T17:48:24.156376+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-053.json",
+      "baseline_sha256": "cafac9bf9c5aa69168b900611096ba51bfdcfbdf2f6061e51775aee9531c6597",
+      "observed_sha256": "3338864dda5de691faa2240cd489f371784f19be060760b2fc17efcce460abcf",
+      "observed_at": "2026-10-13T17:48:24.156523+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-075.json",
+      "baseline_sha256": "06943fea5dcb94b01f1ea763d5047d58caaee5ba569f7aec2a988046f6c8d38c",
+      "observed_sha256": "b78aa8b13da2e0d73e76e58fe58b8b91c9e87762b2f88f198ab5408707d293c2",
+      "observed_at": "2026-10-13T17:48:24.157597+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-145.json",
+      "baseline_sha256": "3e7351892e0b0a61fd89918aa1fdb7d30c36f4afbda72081d4da5ee252d6e107",
+      "observed_sha256": "a1116349401698324a6f1e40f110ecd78d45e34f85f22be66cccf602e5db3981",
+      "observed_at": "2026-10-13T17:48:24.157801+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-072.json",
+      "baseline_sha256": "0672f5711947650c9e79f21aca1f49933c5dc3c455c8f07ed1c2d947635c08f6",
+      "observed_sha256": "821baf7ce8c14747c57e99210590f35c9e1115578b3d12da8027b35ad1dc71d8",
+      "observed_at": "2026-10-13T17:48:24.158240+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-067.json",
+      "baseline_sha256": "bf9ec2847bc87135e90fadd872c3d2862484eb210742f01a1e11846909785c24",
+      "observed_sha256": "e1e1a9a200a19986e20f8121cc6dbc7e99c93941753025904c3a552b88a56c7b",
+      "observed_at": "2026-10-13T17:48:24.158558+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-078.json",
+      "baseline_sha256": "dd34d974e816689df977cb716b4c98bcee78625713947b567a090c92e43df3c4",
+      "observed_sha256": "ebce19e73cb1fcfa4858295b53d0d08eb8b5f7a15e72be640a7e889503703ff5",
+      "observed_at": "2026-10-13T17:48:24.159987+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-141.json",
+      "baseline_sha256": "baec3f85a749a43e54dff9853459900965c1e4bc657c747693900dc3b81687df",
+      "observed_sha256": "4ad0b52c8baddb28e09ed24c7c6b53950e763bc6d1b365ce19945460c3de7838",
+      "observed_at": "2026-10-13T17:48:24.160681+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-055.json",
+      "baseline_sha256": "624378b1ebc05706479247339484f4343968a1159d3cda50709c2389230526d5",
+      "observed_sha256": "96d47845a6d56bd27c5fe0517c2f9551287e29664261d7850b7e2b6c3f5de015",
+      "observed_at": "2026-10-13T17:48:24.160925+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-056.json",
+      "baseline_sha256": "6bfb9caa43461b388171c7f13408b3fa115c65c0fab7836dec6c8b50321ad338",
+      "observed_sha256": "371c3e85ad1403b50c67c237e65fe8f1457c3c89852908e0275aa985032aa492",
+      "observed_at": "2026-10-13T17:48:24.162122+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-118.json",
+      "baseline_sha256": "82e64ce1737d559b902aa131c9cdaface5942948ddc32839ecb23246ba2105ac",
+      "observed_sha256": "646fa1f4db6cfbf0ab0ecdbdf72d066c839d3c254001fd8b5bfcf08465678c5c",
+      "observed_at": "2026-10-13T17:48:24.162896+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/power/batch-069.json",
+      "baseline_sha256": "a0ddd7b8c593c9f48599db9dd4d6bb4911f1cc13f59c7879e9878b7bbec0fa6f",
+      "observed_sha256": "ffd77e3fef8abb04b318dd43a43022f798cd380d20fa7f28947cd4aac57f7e19",
+      "observed_at": "2026-10-13T17:48:24.163405+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "js/power-assessments.js",
+      "baseline_sha256": "1c932ef35cc1d555da7a4b234ab5ff71bcd20c8a7b817b6f5ab1d38a732312ec",
+      "observed_sha256": "37b1fc26d68b55f84cbde0453e7c2a35dd930c6f5a9a1774be9058a71285f7cc",
+      "observed_at": "2026-10-13T17:48:24.169803+00:00",
+      "source": "External concurrent work during interruption; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/power-queue.json",
+      "baseline_sha256": "3f6c6ff8af3eee06835d7b444ddd5f70d111895451be4e64a8fa25a72fee3a98",
+      "observed_sha256": "ed5018b99238b954e8d233fb4ff8d92b7bff946aad55145d1742f30f3df9b1d9",
+      "observed_at": "2026-10-13T18:13:34.816298+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-135.review.md",
+      "baseline_sha256": "71e5c3835edc55c5b35112a87ad4bd2ecb7d5922cf3a13f7f7c105fd5eb7a92d",
+      "observed_sha256": "bc57ac7b4bf472ff9bd07a61dd008beae9a637f4bc9a73ecba6a79c586e24656",
+      "observed_at": "2026-10-13T18:13:35.053153+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-147.fix-draft.md",
+      "baseline_sha256": "6500f6953eed9eac3145c4d546936681a73c64af68cd2b50e9b48420ef16141f",
+      "observed_sha256": "5f0ef19a5cad731adcb7465ede87b36cafd2628ba95794332fac125435949d7c",
+      "observed_at": "2026-10-13T18:13:35.053747+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-135.review.json",
+      "baseline_sha256": "0adc8e739cb8488557af215c62a81a1f1d031796914011149ffe3a81c4866426",
+      "observed_sha256": "d647075c685cac7d905500edd5b9f3e90109eae0364e6405abae488f243cdfc8",
+      "observed_at": "2026-10-13T18:13:35.096429+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-147.review.md",
+      "baseline_sha256": "c84d7a9bf463e5abf6b13915f27f699d5dbce697c6153718702004ed2710a80e",
+      "observed_sha256": "1c717dce8621ff831205cbe5f0b6b91211d6a96e362648f32e507d9d024190bc",
+      "observed_at": "2026-10-13T18:13:35.142899+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/gemini/reviews/batch-147.review.json",
+      "baseline_sha256": "d78107e6e5b98cc1d8b895cc58f4f18015ce3679476558530e125dc0109c6209",
+      "observed_sha256": "5f3d8d4f03a0dcc66cb02d2eeee2b8176a35992d7de69625080e5e36539df0ad",
+      "observed_at": "2026-10-13T18:13:35.219927+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "js/editorial-art.js",
+      "baseline_sha256": "b0a28326232bfe1ef873e4156180eaf7d488a6a7cd59b0feec4aa4a8cbd0c213",
+      "observed_sha256": "48f1b1a6015d8171ab3a099ee7d84742f9fa3ad0abf2a18b7cb928494b4362b6",
+      "observed_at": "2026-10-13T18:13:35.293023+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "assets/art/verified-manifest.json",
+      "baseline_sha256": "92a4df3f6685ffaf1d8ce920824b69aa96a3774d03803c8054db886fd465fc1e",
+      "observed_sha256": "c0ee8f7780a7a2983975df4ecaf53462a1e3a6dd1a7ae5d83e3de8130555c715",
+      "observed_at": "2026-10-13T18:13:35.380259+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "assets/art/verified-prompts.json",
+      "baseline_sha256": "dbee489db30e86a85883dc76e217c387c3f647a8776e4b73264b5cd81b2ffebf",
+      "observed_sha256": "ba4266e6554028b4cd7c8bbbd2936e7322e98a4e567e2eb1597851a5609fc142",
+      "observed_at": "2026-10-13T18:13:35.595583+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    },
+    {
+      "path": "data/creatures.json",
+      "baseline_sha256": "77217a288316d3c4671a54f10409960e7ae52930900ee075831cfe0370107478",
+      "observed_sha256": "461b2f6370715d57d4af35ea9e3bb73d246e48201b17d809aaef2f6e84f14a78",
+      "observed_at": "2026-10-13T18:13:36.761093+00:00",
+      "source": "External concurrent work; Codex root/lanes have not written protected paths."
+    }
+  ]
+}

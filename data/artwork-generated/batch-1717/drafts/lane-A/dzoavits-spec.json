@@ -1,0 +1,63 @@
+{
+  "slug": "dzoavits",
+  "worker": "codex",
+  "worker_agent": "lane1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Dzoavits, a gigantic Shoshone ogre dwelling in a stone house.\nANATOMY: one humanoid head, two arms, two legs, huge heavy ogre face and hands; opaque rough earth-brown woven tunic and blanket cloak. No horns or invented animal anatomy. [dzoavits-c04]\nMOMENT: lurch forward through a massive stone doorway toward the viewer, one forearm thrust close to camera, cruel predatory stare downward, mouth open in a threatening roar.\nPOWER: an arrow physically shatters against the thick uninjured forearm, broken wooden pieces falling; this expresses the documented invulnerability rather than magic glow. [dzoavits-c05]\nSCALE & CAMERA: extreme low angle; the gigantic ogre fills 85 percent of the square, tiny stone doorway rubble at its feet conveys size.\nLIGHT & WEATHER: one low amber firelight source outside the doorway, rim light, dust kicked from stone threshold.\nSURFACE: weathered leathery face, thick scarred skin, coarse opaque cloth, rough stone.\nSETTING: massive stone house at nighttime. [dzoavits-c04]\nMOOD: menacing and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Ogre gigantik muncul dari rumah batu; panah pecah di lengannya.",
+  "basis_claim_ids": [
+    "dzoavits-c04",
+    "dzoavits-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "dzoavits-c04"
+    ],
+    "kekuatan_perbuatan": [
+      "dzoavits-c05"
+    ],
+    "tempat": [
+      "dzoavits-c04"
+    ],
+    "sifat": [
+      "dzoavits-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ogre humanoid gigantik dengan satu kepala, dua lengan dan dua kaki; pakaian buram editorial.",
+      "claim_ids": [
+        "dzoavits-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Panah pecah menyentuh lengan yang tidak terluka.",
+      "claim_ids": [
+        "dzoavits-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rumah batu para ogre gigantik.",
+      "claim_ids": [
+        "dzoavits-c04"
+      ]
+    }
+  ],
+  "aura": "Skala ogre gigantik c04 dan lengan kebal panah c05 memberi ancaman.",
+  "artistic_choices": [
+    "Pakaian buram dan tekstur kulit pilihan editorial.",
+    "Api rendah hanya pencahayaan alami."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

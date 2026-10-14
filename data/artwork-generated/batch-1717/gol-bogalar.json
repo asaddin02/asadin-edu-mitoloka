@@ -1,0 +1,99 @@
+{
+  "slug": "gol-bogalar",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Göl Boğaları, a lake bull emerging from a mountain lake to wrestle a shepherd's bull.\nANATOMY: exactly TWO bulls, one central dark lake bull and one secondary brown terrestrial bull, each with one head, two eyes, two natural horns, four hooved legs and one tail. No steel horns, aquatic fins, extra heads, fantasy eyes or invented monster anatomy. [gol-bogalar-c04,c10]\nMOMENT: the massive-framed lake bull surges half out of the water and locks its horns with the shore bull, both necks straining and heads lowered near the viewer; the lake bull dominates, legs physically driving the surge.\nPOWER: physical emergence and wrestling at the shore, a dense sheet of water drains from the lake bull and waves crash from its movement; no magical water manipulation or curse effects. [gol-bogalar-c02,c04,c10]\nSCALE & CAMERA: extreme low waterline camera, lake bull head and shoulders fill 65 percent square, its rival side-on at right secondary but clearly identifiable, natural bull scale, no giant comparison.\nLIGHT & WEATHER: first dawn light from one narrow warm horizon strip, wet gold rimlight, deep mountain shadow, natural spray and cold mist. [gol-bogalar-c02]\nSURFACE: soaked dark coarse fur, heavy wet natural horns, brown rival fur, rocky shore and dark lake water.\nSETTING: mountain lake in Karçal mountains of Ardanuç, rocky shore at dawn. [gol-bogalar-c01,c02,c10]\nMOOD: mythic aquatic confrontation, dangerous wrestling action, never passive ordinary grazing livestock.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Bull danau Karçal muncul dan bergulat bull peternak pada fajar.",
+  "basis_claim_ids": [
+    "gol-bogalar-c04",
+    "gol-bogalar-c10",
+    "gol-bogalar-c02",
+    "gol-bogalar-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "gol-bogalar-c01",
+      "gol-bogalar-c04",
+      "gol-bogalar-c10"
+    ],
+    "kekuatan_perbuatan": [
+      "gol-bogalar-c02",
+      "gol-bogalar-c04",
+      "gol-bogalar-c10"
+    ],
+    "tempat": [
+      "gol-bogalar-c01",
+      "gol-bogalar-c03",
+      "gol-bogalar-c10"
+    ],
+    "sifat": [
+      "gol-bogalar-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu bull air dan satu bull peternak yang bergulat.",
+      "claim_ids": [
+        "gol-bogalar-c04",
+        "gol-bogalar-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bull lake muncul dari air dan bergulat bull manusia.",
+      "claim_ids": [
+        "gol-bogalar-c02",
+        "gol-bogalar-c04",
+        "gol-bogalar-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Danau pegunungan Karçal pada cahaya pagi awal.",
+      "claim_ids": [
+        "gol-bogalar-c01",
+        "gol-bogalar-c02",
+        "gol-bogalar-c10"
+      ]
+    }
+  ],
+  "aura": "Muncul dari danau dan bergulat c02/c04/c10 memberi ancaman naratif tanpa anatomi rekaan.",
+  "artistic_choices": [
+    "Bulu hitam/coklat pembeda editorial, bukan warna bersumber. Tidak menambah horn-steel karena atribut bull blacksmith versi lain c08.",
+    "Tidak memakai buffalo appearance c09 dari rumour Van Monster lain, atau darah/curses c05/c06/c13. Efek air seluruhnya kontak fisik c02/c04/c10."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-b4a06aba-48b2-49e7-9486-08f9b1d9c326.png",
+  "generated_at": "2026-10-13T18:00:01.737737+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/gol-bogalar.png",
+  "native_sha256": "651ddd32c6870f69d236f54182a67e136d7a676123972d440704487944251f0a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "UjiSangar7/7native+200: dua bulls kepala masing-masing jelas, naturalhorns dan plausible4legs tidak fins/extra. Lakebullhitam emerges with sheetwater while hornlocking brownbull di shoreline c02/c04/c10; violent active confrontation dominan bukan grazingordinary. Dawnmountainlakec01/c02/c10, effects physicalsplashes only, no curse/blood/aura/text/IP."
+    ],
+    "limitations": [],
+    "native_sha256": "651ddd32c6870f69d236f54182a67e136d7a676123972d440704487944251f0a",
+    "reviewed_at": "2026-10-13T18:00:01.737737+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "651ddd32c6870f69d236f54182a67e136d7a676123972d440704487944251f0a",
+    "notes": "Black lake bull surging out of the Karçal lake at dawn to lock horns with the herder's bull; the emergence from the water carries the myth."
+  }
+}

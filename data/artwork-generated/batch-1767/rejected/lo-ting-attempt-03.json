@@ -1,0 +1,47 @@
+{
+  "original_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-03.png",
+  "receipt_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-03.json",
+  "native_sha256": "5838978320c10a8eb1e0533c176525e3ebd62b4f6da08fb208e9f04b13a50b58",
+  "reason": "Edit03 menghapus ekorpanjang tetapi tidak ada nub3cm yang dapat diverifikasi pada native/crop. Klaim c09 tinyonecun tail belum terpenuhi. Maksimum3percobaan, tidakada4th.",
+  "prompt": "EDIT ONLY the tiny tail at the rear hip of the supplied image. Preserve the entire image otherwise: same adult Lo Ting face, short yellow hair, normal round ears, dark scaled skin, exactly two arms and two legs, opaque cloth, oyster-shell wall, direct focused gaze, plunge into seawater, lighting, composition, square dimensions and painterly realism. The current tail sticking from the rear-right hip is much too long. Replace it with ONLY a small rounded blunt nub 3 cm long (one cun), about the width of the tip of this adult's thumb. Only the first 15 percent of the current tail should remain; remove the outer 85 percent seamlessly, filling the vacated area with the existing shell-wall background. It must be a smooth blunt nub, with no fin and no spikes. No other changes. No text, lettering, pseudo-glyphs, watermark, extra anatomy, neon or aura. This is the third and final attempt; anatomical tail length is essential.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-82f003ec-25e0-46c5-ace1-0cb43273f97b.png",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "worker_agent": "lane1767-B",
+  "basis_claim_ids": [
+    "lo-ting-c01",
+    "lo-ting-c09",
+    "lo-ting-c04",
+    "lo-ting-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One human-height fish-person with a dark humanlike face, short yellowish hair, two eyes, two arms and two legs, and a tiny one-cun tail at the lower back. Fully opaque plain dark linen torso and hip covering, legs visible; wet fishlike skin, no huge mermaid tail or extra fins.",
+      "claim_ids": [
+        "lo-ting-c01",
+        "lo-ting-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Island seashore around Dayushan, Hong Kong, with an oyster-shell wall.",
+      "claim_ids": [
+        "lo-ting-c04",
+        "lo-ting-c06",
+        "lo-ting-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forceful plunge into water when encountering people, a real close-up splash. No supernatural attack.",
+      "claim_ids": [
+        "lo-ting-c09"
+      ]
+    }
+  ],
+  "generation_mode": "edit",
+  "referenced_image_paths": [
+    "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-793737da-50ef-41eb-9115-73539199c901.png"
+  ]
+}

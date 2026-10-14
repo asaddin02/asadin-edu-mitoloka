@@ -1,0 +1,95 @@
+{
+  "slug": "lo-ting",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of lo-ting, Dark-faced short-yellow-haired fish-person plunging into the sea. Create one square PNG at least 1024 by 1024.\nANATOMY: One MATURE ADULT human-height fish-person, never childlike with a dark humanlike face, very short cropped yellowish hair, only 2 cm long, two eyes, two arms and two legs, and a tiny blunt cylindrical one-cun (3 cm) tail, absolutely no fins on this tail at the lower back. Fully opaque plain dark linen torso and hip covering, legs visible; wet fishlike skin, normal round human ears, absolutely no pointed ears, no huge mermaid tail and no fins anywhere. [lo-ting-c01, lo-ting-c09]\nMOMENT: Plunge forcefully from an oyster-shell island wall into dark seawater toward the foreground, twisting so the tiny tail is clearly visible; mature adult weathered face and small focused intense eyes face the viewer, splashing landing.\nPOWER: Forceful plunge into water when encountering people, a real close-up splash. No supernatural attack. [lo-ting-c09]\nSCALE & CAMERA: extreme low angle, confrontational close framing; subject fills 80 percent of the image, unmistakable silhouette at 200 pixels. Strictly human-sized; dominance only from close perspective, no tiny boats or giant scale.\nLIGHT & WEATHER: one dominant low-key warm moonlight or dusk source as appropriate, sharp rim light, deep walnut shadows, sparse contextual spray or dust; dark warm painterly palette with antique gold accent, no flat daylight.\nSURFACE: tactile weathered natural materials, detailed rough skin, wet scales or coarse hair where anatomically appropriate; thick expressive oil brushwork and premium cinematic composition.\nSETTING: Island seashore around Dayushan, Hong Kong, with an oyster-shell wall. [lo-ting-c04, lo-ting-c06, lo-ting-c09]\nMOOD: Overwhelming uncanny awe through unfamiliar ancient fish-person anatomy; startled harmless being, never evil; overwhelming and imposing, never cute, calm, decorative or static. No modern costume.\nHARD CONSTRAINTS: no text, no lettering, no symbols, no glyphs or pseudo-glyphs, no inscriptions, logo, border, frame or watermark; no extra heads, limbs, fingers or eyes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Background subordinate to subject.",
+  "depicted_variant": "Dark-faced short-yellow-haired fish-person plunging into the sea",
+  "basis_claim_ids": [
+    "lo-ting-c01",
+    "lo-ting-c09",
+    "lo-ting-c04",
+    "lo-ting-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "lo-ting-c01",
+      "lo-ting-c09"
+    ],
+    "kuasa": [
+      "lo-ting-c09"
+    ],
+    "tempat": [
+      "lo-ting-c04",
+      "lo-ting-c06",
+      "lo-ting-c09"
+    ],
+    "sifat": [
+      "lo-ting-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One human-height fish-person with a dark humanlike face, short yellowish hair, two eyes, two arms and two legs, and a tiny one-cun tail at the lower back. Fully opaque plain dark linen torso and hip covering, legs visible; wet fishlike skin, no huge mermaid tail or extra fins.",
+      "claim_ids": [
+        "lo-ting-c01",
+        "lo-ting-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Island seashore around Dayushan, Hong Kong, with an oyster-shell wall.",
+      "claim_ids": [
+        "lo-ting-c04",
+        "lo-ting-c06",
+        "lo-ting-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forceful plunge into water when encountering people, a real close-up splash. No supernatural attack.",
+      "claim_ids": [
+        "lo-ting-c09"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari Forceful plunge into water when encountering people, a real close-up splash. No supernatural attack.; lo-ting-c09.",
+  "artistic_choices": [
+    "Menyeleksi deskripsi Guangdong Xinyu c09, tidak meminjam keluarga putri duyung film c12.",
+    "Pakaian linen polos adalah penutupan editorial; tubuh bukan ikonografi film.",
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru.",
+    "Percobaan kedua menegaskan tubuh dewasa, telinga manusia bulat, ekor 3cm tanpa sirip dan rambut cropped agar c09 terbaca."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/lo-ting-attempt-01.json",
+      "native_sha256": "1c538595e0a8db57f71141b3d8155529dd8df27d2d05f90865db280ed6f26fe8",
+      "reason": "Kuping lancip/fins tambahan tak didukung, ekor kipas besar bukan satu cun, dan wajah kekanak-kanakan terlalu lucu untuk Uji Sangar2/5/7."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-793737da-50ef-41eb-9115-73539199c901.png",
+  "generated_at": "2026-10-13T18:35:54.008909+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/lo-ting.png",
+  "native_sha256": "602534c03864d7bc384f662f6629268890c48e1a593cc7868adbe5d8416c8ead",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat; Sangar1–7 ya. Dewasa bersisik wajah gelap/rambut kuning pendek/telinga bulat, ekor pendek tampak di pinggang belakang; satu kepala/dua mata/dua lengan/dua kaki, tangan anatomis. Plunge c09 dan splash aktif, tatapan asing kuat; tidak lucu/manusia biasa, tanpa teks/glyph/aura/IP. Putaran01 diarsipkan karena telinga/sirip/ekor dan wajah kekanak-kanakan.",
+    "limitations": [],
+    "native_sha256": "602534c03864d7bc384f662f6629268890c48e1a593cc7868adbe5d8416c8ead",
+    "reviewed_at": "2026-10-13T18:35:54.008909+00:00"
+  }
+}

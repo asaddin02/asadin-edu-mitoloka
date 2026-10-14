@@ -1,0 +1,105 @@
+{
+  "slug": "fuzanglong",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Edit the supplied Fuzanglong illustration. Preserve the existing dragon head, anatomy, pose, scale, pearl, golden treasures, erupting volcano, rock fragments, lighting, square composition and painterly medium exactly. Remove ALL carved ornaments, relief markings, inscription bands, boxed glyphs, patterns and pseudo-lettering from EVERY bronze/gold vessel and metal object throughout the image, especially the large bowl at bottom right and vessels at bottom left. Replace these surfaces with completely PLAIN HAMMERED BRONZE, smooth irregular metal patina with no symbols or bands whatsoever. No text, lettering, characters, numbers, runes, logos, borders or watermark anywhere. No other changes. Keep one dragon, one pearl, no generic aura, no invented powers, no gore. The inherited dragon/treasure/pearl/volcanic emergence is supported by fuzanglong-c01,c02,c03,c04,c07.",
+  "depicted_variant": "Naga penjaga harta menerobos tanah gunung api sambil melindungi mutiara.",
+  "basis_claim_ids": [
+    "fuzanglong-c01",
+    "fuzanglong-c04",
+    "fuzanglong-c03",
+    "fuzanglong-c02",
+    "fuzanglong-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "fuzanglong-c01",
+      "fuzanglong-c04"
+    ],
+    "kekuatan_perbuatan": [
+      "fuzanglong-c01",
+      "fuzanglong-c03",
+      "fuzanglong-c06"
+    ],
+    "tempat": [
+      "fuzanglong-c01",
+      "fuzanglong-c07"
+    ],
+    "sifat": [
+      "fuzanglong-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu naga bawah tanah dengan satu mutiara berharga.",
+      "claim_ids": [
+        "fuzanglong-c01",
+        "fuzanglong-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Naga menerobos tanah sebagai asal gunung api dalam cerita.",
+      "claim_ids": [
+        "fuzanglong-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tanah bawah dunia dan harta terpendam alami/buatan.",
+      "claim_ids": [
+        "fuzanglong-c01",
+        "fuzanglong-c02",
+        "fuzanglong-c07"
+      ]
+    }
+  ],
+  "aura": "Terobosan vulkanik c03 dan tatapan penjaga harta c01 mendominasi.",
+  "artistic_choices": [
+    "Anatomi naga konservatif bersisik/serpentine berkaki empat tanpa sayap adalah interpretasi editorial c01; bukan klaim tanduk/jari sumber.",
+    "Bukaan magma adalah visualisasi gunung api c03, tidak menambahkan kuasa napas-api. Mutiara c04 tidak diberi aura atau sinar rekaan.",
+    "Percobaan02 built-in edit khusus menghapus semua engraving/pseudoinscription vessel01; plain hammeredmetal saja, anatomy/pearl/volcano tetap."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/fuzanglong-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/fuzanglong-attempt-01.json",
+      "native_sha256": "089e2bd563490263d06a381ea4fb19f0bfa2d2c2ab44cd89d1827c7d307c1f96",
+      "reason": "Root Codex reject native: bottomright bronze vessel band repeated boxed strokes read as Chinese lettering/pseudo-inscription, violates no lettering hard constraint. Dragon/action/pearl otherwise pass."
+    }
+  ],
+  "edit_reference_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-71c394de-9ffa-4ace-99c0-72cb43d5644f.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-214a608d-9b8d-4cfa-bee0-3e8a323e8349.png",
+  "generated_at": "2026-10-13T17:57:28.362999+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/fuzanglong.png",
+  "native_sha256": "1d93df189204448a81879d4b61008de7feb3b7712ffb78bd86eb46d22da56557",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "UjiSangar7/7native+200: edited bowls now plain hammeredmetal patina, no boxedmarks/inscription bands anywhere. Dragon/onepearl/continuousbody/volcanicbreach+rockdebris c03/treasurec01/c02 preserved, active and dominant. No pearlbeam/firebreath/generic aura; no text/IP/gore."
+    ],
+    "limitations": [],
+    "native_sha256": "1d93df189204448a81879d4b61008de7feb3b7712ffb78bd86eb46d22da56557",
+    "reviewed_at": "2026-10-13T17:57:28.362999+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "1d93df189204448a81879d4b61008de7feb3b7712ffb78bd86eb46d22da56557",
+    "notes": "Treasure dragon tearing up through volcanic earth, one pearl in its claws; vessels only carry hammered texture, no pseudo-inscriptions (native crop)."
+  }
+}

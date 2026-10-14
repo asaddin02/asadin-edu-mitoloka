@@ -1,0 +1,62 @@
+{
+  "slug": "imr",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Imre, the Turkic spring jinn depicted ONLY as its documented active Cemre manifestation, a falling ember of legendary fire warming the natural elements.\nANATOMY: NO invented humanoid body, face, eyes, wings or limbs; the SUBJECT is ONE enormous-in-frame irregular ember of fire, a solid dark coal with orange cracked incandescent surface and flickering real flame tongues [imr-c09,c12]. Size in image is close framing, not a claimed physical size.\nMOMENT: plunge toward viewer into winter lake ice at the instant of contact; the coal dominates foreground, transparent ice slabs split and immediately melt around the hot point; water churns, ordinary white steam rolls backward [imr-c03,c09].\nPOWER: it falls on ice and melts it, later warms earth producing steam; show physical ice melting by hot ember only, no lightning or energy aura [imr-c03,c09].\nSCALE & CAMERA: ice-level extreme close shot, single ember and melting ice fill square; no distant tiny fire, no empty landscape.\nLIGHT & WEATHER: one ember's orange combustion light, black walnut night, dense uncolored steam, ice droplets.\nSURFACE: cracked burning charcoal, wet clear fractured ice, opaque white steam.\nSETTING: frozen natural water at winter's end, coming spring [imr-c03,c06].\nMOOD: overwhelming primordial warmth breaking winter, majestic and dynamic rather than demonic.\nHARD CONSTRAINTS: no text, letters, logo, border, watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons.",
+  "depicted_variant": "Cemre aktif ember memanaskan/mencairkan ice, tanpa tubuh rekaan.",
+  "basis_claim_ids": [
+    "imr-c03",
+    "imr-c09",
+    "imr-c12",
+    "imr-c06"
+  ],
+  "claim_classification": {
+    "wujud": [],
+    "kekuatan_ranah_perbuatan": [
+      "imr-c02",
+      "imr-c03",
+      "imr-c09",
+      "imr-c12"
+    ],
+    "tempat": [
+      "imr-c03",
+      "imr-c06"
+    ],
+    "sifat": [
+      "imr-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "effect",
+      "description": "Manifestasi ember/fire jatuh memanaskan air/ice; melt dan steam.",
+      "claim_ids": [
+        "imr-c03",
+        "imr-c09",
+        "imr-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Air beku akhirwinter awal spring.",
+      "claim_ids": [
+        "imr-c03",
+        "imr-c06"
+      ]
+    }
+  ],
+  "aura": "Firetouch c09 dan ice melt c03 memberi manifestasiagung.",
+  "artistic_choices": [
+    "Manifestasi terdokumentasi §6.5; closeframing bukan ukuran faktual; coaltexture/lightnight editorial, steam ordinary bukan aura."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

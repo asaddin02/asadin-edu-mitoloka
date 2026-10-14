@@ -1,0 +1,73 @@
+{
+  "slug": "ergene-iyesi",
+  "worker": "codex",
+  "worker_agent": "lane1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ergene iyesi, a guardian of mines in its documented Shakhta Ata old-man manifestation.\nANATOMY: one old man's head, two arms, two legs, one hand carrying a blazing physical wooden torch; fully opaque layered sacred ceremonial robes with large antique-gold trim and a structured mantle, dignified elderly face, long silver beard as editorial styling. [ergene-iyesi-c07]\nMOMENT: thrust the torch forward and raise the other open hand commanding miners to escape a collapsing tunnel; urgent authoritative expression, rise with sovereign composure out of the black mouth of the mine; a sacred guardian with an enormous solemn presence, not a ragged miner; the guardian fills the foreground.\nPOWER: no invented magic; large stones physically fall and roof beams split in an imminent mine collapse while the guardian warns workers away, based on its documented warning and protection. [ergene-iyesi-c11]\nSCALE & CAMERA: extreme low angle; sacred monumental allegorical portrayal of the protective mine deity, towering from the bottom to top of the square with a vast torch; tiny miners at his knees flee into foreground. Monumental scale is editorial allegory, not a factual source claim.\nLIGHT & WEATHER: torch is the only dominant light; amber flame rim, black cavern shadows, thick naturally stirred stone dust.\nSURFACE: wrinkled human skin, coarse opaque cloth, soot, rough rock and timber.\nSETTING: underground mine workings with veins of dull crystals and metals. [ergene-iyesi-c03]\nMOOD: awe-inspiring protective authority, dignified and urgent, never evil, ordinary casual or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or explicit gore; no glowing crystals, no aura or energy ribbons.",
+  "depicted_variant": "Shakhta Ata memperingatkan pekerja agar keluar dari tambang yang hendak runtuh.",
+  "basis_claim_ids": [
+    "ergene-iyesi-c07",
+    "ergene-iyesi-c11",
+    "ergene-iyesi-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "ergene-iyesi-c07"
+    ],
+    "kekuatan_perbuatan": [
+      "ergene-iyesi-c04",
+      "ergene-iyesi-c11"
+    ],
+    "tempat": [
+      "ergene-iyesi-c03"
+    ],
+    "sifat": [
+      "ergene-iyesi-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Manifestasi Shakhta Ata lelaki tua membawa obor; pakaian buram editorial.",
+      "claim_ids": [
+        "ergene-iyesi-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Peringatan pelindung saat tambang hendak runtuh; batu jatuh/debu bukan efek sihir.",
+      "claim_ids": [
+        "ergene-iyesi-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Terowongan tambang bawah tanah dengan kristal dan logam.",
+      "claim_ids": [
+        "ergene-iyesi-c03"
+      ]
+    }
+  ],
+  "aura": "Obor c07 dan tindakan melindungi dalam runtuhan c11 memberi kewibawaan.",
+  "artistic_choices": [
+    "Janggut, pakaian upacara buram, perspektif dekat pilihan editorial; ukuran raksasa tidak diklaim.",
+    "Runtuhan adalah peristiwa tambang c11 bukan kuasa baru.",
+    "Percobaan02: monumental sacred scale sebagai alegori editorial penjaga, bukan fakta ukuran tubuh; jubah upacara bukan ikonografi sumber."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/ergene-iyesi-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/ergene-iyesi-attempt-01.json",
+      "native_sha256": "cd7fb3ba83c77719ca6bdec6ae1ce48929cc136049d039ce1f86b65aa3c274f6",
+      "reason": "Root Codex menolak setelah native+200: aksi runtuhan/obor kuat tetapi sosok masih ordinaryoldman berpakaian lusuh seukuran pekerja; kewibawaan supernatural tidak terbaca."
+    }
+  ]
+}

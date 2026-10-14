@@ -1,0 +1,95 @@
+{
+  "slug": "h-b-l-k",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hıbılık, the chest-pressing nocturnal spirit of Turkish folk belief in its documented cat form wearing a magic börk cap.\nANATOMY: one feline head, two feline eyes, four cat legs and one tail; wears a small dark felt börk cap on the crown, clearly visible between the ears [h-b-l-k-c07,h-b-l-k-c08].\nMOMENT: crouch aggressively on a fully clothed sleeping adult's upper chest, both forepaws pressing the collarbone near the throat, leaning its face directly towards the viewer with tense exposed teeth; sleeper sweating with closed eyes, no wound.\nPOWER: physical chest pressure immobilizes the sleeper; show compression of the blanket and a strained sweating face, no magical beams or levitation [h-b-l-k-c03,h-b-l-k-c05,h-b-l-k-c12].\nSCALE & CAMERA: mattress-level extreme low close angle; the capped cat's face and forepaws dominate, natural cat scale, sleeper foreshortened beneath.\nLIGHT & WEATHER: one warm oil lamp from the side; deep dark room and crisp amber rim light, no glowing eyes.\nSURFACE: coarse dark fur, worn felt cap, opaque woven bedding and clothing.\nSETTING: bedside of a sleeping person in a dark room [h-b-l-k-c05,h-b-l-k-c12].\nMOOD: sinister supernatural night visitation, confrontational and threatening, never a cute house cat.\nHARD CONSTRAINTS: no extra heads, legs or fingers; no wings or horns; no text, lettering, logo, border, frame or watermark; no design borrowed from film/game/anime/comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Hıbılık varian kucing berbörk menindih dada korban tidur.",
+  "basis_claim_ids": [
+    "h-b-l-k-c07",
+    "h-b-l-k-c08",
+    "h-b-l-k-c03",
+    "h-b-l-k-c05",
+    "h-b-l-k-c12"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "h-b-l-k-c07",
+      "h-b-l-k-c08"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "h-b-l-k-c03",
+      "h-b-l-k-c05",
+      "h-b-l-k-c12"
+    ],
+    "tempat": [
+      "h-b-l-k-c05",
+      "h-b-l-k-c12"
+    ],
+    "sifat": [
+      "h-b-l-k-c01",
+      "h-b-l-k-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Varian kucing memakai börk ajaib.",
+      "claim_ids": [
+        "h-b-l-k-c07",
+        "h-b-l-k-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Menekan dada/tenggorokan tidur sehingga lumpuh dan berkeringat.",
+      "claim_ids": [
+        "h-b-l-k-c03",
+        "h-b-l-k-c05",
+        "h-b-l-k-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tempat tidur korban yang sedang tidur.",
+      "claim_ids": [
+        "h-b-l-k-c05",
+        "h-b-l-k-c12"
+      ]
+    }
+  ],
+  "aura": "Tekanan nyata pada dada c03/c05/c12 dan börk c07 memberi ancaman spirit.",
+  "artistic_choices": [
+    "Börk felt gelap dan oil lamp editorial; anatomi kucing skala alami; tanpa efek cahaya sihir."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b7-2048-7152-9ed6-a8d2649d9b0a/exec-72f8ed7e-ae23-4a1b-9680-1b972cf7179c.png",
+  "generated_at": "2026-10-13T14:49:32.935689+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/h-b-l-k.png",
+  "native_sha256": "00d1582bb5356e6e3eed79d1e2f2f59a0f501eb876a5809248ab4c6304d01b10",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200px dilihat, tujuh Uji Sangar ya: capped cat menekan dada korban yang berkeringat, bukan kucing tenang; dua forepaws menekan selimut, empat kaki feline implied dengan belakang sebagian tersembunyi; no magic light/no text, gore atau extra limbs.",
+    "limitations": [],
+    "native_sha256": "00d1582bb5356e6e3eed79d1e2f2f59a0f501eb876a5809248ab4c6304d01b10",
+    "reviewed_at": "2026-10-13T14:49:32.935689+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "00d1582bb5356e6e3eed79d1e2f2f59a0f501eb876a5809248ab4c6304d01b10",
+    "notes": "Cat variant wearing the börk, crouched snarling on the chest of a sweating sleeper; the hat and the pinning make it more than an ordinary cat."
+  }
+}

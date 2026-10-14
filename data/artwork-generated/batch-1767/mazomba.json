@@ -1,0 +1,99 @@
+{
+  "slug": "mazomba",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of mazomba, Giant talking Mazomba addressing the traveler. Create one square PNG at least 1024 by 1024.\nANATOMY: One giant fish, a single large fish head with two lateral eyes, paired pectoral fins, one dorsal fin and tail fin; closed scaled body, no humanoid limbs, horns, beard or invented monster anatomy. [mazomba-c01, mazomba-c03, mazomba-c04]\nMOMENT: Rise almost vertically from the water close to the viewer, open the fish mouth as if speaking to a tiny lone woman on the near bank, imposing direct eye contact.\nPOWER: The giant fish addresses the woman; water physically pours off its lifted head, no magical effects. [mazomba-c06, mazomba-c07]\nSCALE & CAMERA: extreme low angle, confrontational close framing; subject fills 80 percent of the image, unmistakable silhouette at 200 pixels. Documented giant fish; woman on bank far smaller than its head, opaque clothing. Fish dominates image.\nLIGHT & WEATHER: one dominant low-key warm moonlight or dusk source as appropriate, sharp rim light, deep walnut shadows, sparse contextual spray or dust; dark warm painterly palette with antique gold accent, no flat daylight.\nSURFACE: tactile weathered natural materials, detailed rough skin, wet scales or coarse hair where anatomically appropriate; thick expressive oil brushwork and premium cinematic composition.\nSETTING: Chaga tale water beside the route toward Mulungu; dark Tanzanian waters and bank. [mazomba-c06, mazomba-c07]\nMOOD: Awe-inspiring talking giant fish, no predatory attack on the woman; overwhelming and imposing, never cute, calm, decorative or static. No modern costume.\nHARD CONSTRAINTS: no text, no lettering, no symbols, no glyphs or pseudo-glyphs, no inscriptions, logo, border, frame or watermark; no extra heads, limbs, fingers or eyes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Background subordinate to subject.",
+  "depicted_variant": "Giant talking Mazomba addressing the traveler",
+  "basis_claim_ids": [
+    "mazomba-c01",
+    "mazomba-c03",
+    "mazomba-c04",
+    "mazomba-c06",
+    "mazomba-c07",
+    "mazomba-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "mazomba-c01",
+      "mazomba-c03",
+      "mazomba-c04"
+    ],
+    "kuasa": [
+      "mazomba-c06",
+      "mazomba-c07"
+    ],
+    "tempat": [
+      "mazomba-c06",
+      "mazomba-c07"
+    ],
+    "sifat": [
+      "mazomba-c06",
+      "mazomba-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One giant fish, a single large fish head with two lateral eyes, paired pectoral fins, one dorsal fin and tail fin; closed scaled body, no humanoid limbs, horns, beard or invented monster anatomy.",
+      "claim_ids": [
+        "mazomba-c01",
+        "mazomba-c03",
+        "mazomba-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Chaga tale water beside the route toward Mulungu; dark Tanzanian waters and bank.",
+      "claim_ids": [
+        "mazomba-c06",
+        "mazomba-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The giant fish addresses the woman; water physically pours off its lifted head, no magical effects.",
+      "claim_ids": [
+        "mazomba-c06",
+        "mazomba-c07"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari The giant fish addresses the woman; water physically pours off its lifted head, no magical effects.; mazomba-c06, mazomba-c07.",
+  "artistic_choices": [
+    "Jenis ikan tidak ditentukan sumber; bentuk ikan bersisik umum adalah editorial.",
+    "Percakapan ditunjukkan melalui mulut terbuka dan arah pandang; tidak menambah kuasa unsur.",
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-27c27c39-ba4d-4284-aac1-c6650661a8e5.png",
+  "generated_at": "2026-10-13T18:43:23.018165+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/mazomba.png",
+  "native_sha256": "8ab5dda97b5a73fc66156a195f822c146afe4199fe555747c7284f33509bf90b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native+200 dilihat; Sangar1–7 ya. Ikan raksasa c01/c03 secara dominan muncul dengan mulut berbicara c06 kepada perempuan; splash fisik bukan kuasa sihir. Satu kepala/dua mata/sirip wajar tanpa tangan/tanduk/fangs, ukuran terlihat dari perempuan kecil. Bukan ikan biasa karena skala raksasa dan aksi tutur; tanpa teks/glyph/aura/IP/gore.",
+    "limitations": [],
+    "native_sha256": "8ab5dda97b5a73fc66156a195f822c146afe4199fe555747c7284f33509bf90b",
+    "reviewed_at": "2026-10-13T18:43:23.018165+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "8ab5dda97b5a73fc66156a195f822c146afe4199fe555747c7284f33509bf90b",
+    "notes": "Giant fish lifting its streaming head out of the dark water to speak to the woman on the bank; plain fish anatomy, no limbs or beard."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "julunggul",
+  "worker": "codex",
+  "worker_agent": "lane1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Julunggul, the great python and respected Yolngu water-hole guardian.\nANATOMY: one python head, two eyes, one massive continuous limbless snake body, no wings; choose the single-body great-python variant [julunggul-c04, julunggul-c05].\nMOMENT: surge upward out of the dark water hole toward the viewer, head above the close foreground, enormous coils displacing water, watchful guardian authority.\nPOWER: monsoon rain driven sideways by west wind; water splashing naturally from the emerging great snake [julunggul-c13]. No rainbow glow or invented magic.\nSCALE & CAMERA: extreme low water-level angle; great python fills almost the entire frame, small distant trees establish scale.\nLIGHT & WEATHER: one warm break in monsoon cloud rim-lights the wet head, deep walnut shadows, heavy wind-driven rain.\nSURFACE: wet dark python scales, rough riverbank earth, water beads.\nSETTING: its special Arnhem Land water hole, dark bank and distant vegetation [julunggul-c09].\nMOOD: awe-inspiring revered guardian, imposing and dignified, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly one head, no limbs or wings; no design borrowed from film, game, anime or comic; no nudity, victims or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Great Python satu tubuh muncul dari water hole.",
+  "basis_claim_ids": [
+    "julunggul-c04",
+    "julunggul-c05",
+    "julunggul-c13",
+    "julunggul-c09",
+    "julunggul-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "julunggul-c04",
+      "julunggul-c05"
+    ],
+    "kekuatan": [
+      "julunggul-c13"
+    ],
+    "tempat": [
+      "julunggul-c09"
+    ],
+    "sifat": [
+      "julunggul-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ular piton agung satu kepala, tubuh tanpa anggota; varian satu tubuh.",
+      "claim_ids": [
+        "julunggul-c04",
+        "julunggul-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Angin monsun membawa hujan; cipratan fisik kemunculan ular.",
+      "claim_ids": [
+        "julunggul-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Water hole khusus Arnhem Land.",
+      "claim_ids": [
+        "julunggul-c09"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Penjaga situs dihormati, bukan monster jahat.",
+      "claim_ids": [
+        "julunggul-c10"
+      ]
+    }
+  ],
+  "aura": "Keagungan Great Python c05 dan monsun c13, bukan aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan rim light hangat editorial; gerakan naik interpretasi kemunculan dari habitat, tanpa klaim adegan historis.",
+    "Tidak memakai varian double body opsional; tidak menampilkan korban."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b7-5f40-7b62-b062-51d26573639d/exec-591d03a9-accc-4439-b0bd-8edfa98f22d6.png",
+  "generated_at": "2026-10-13T14:47:25.898789+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/julunggul.png",
+  "native_sha256": "b6f88d93ce0afad4add7d7fa321ac801b983b309c4577ec5484407e0f0821bf2",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 dan200px dilihat: tujuh Uji Sangar ya. Piton agung memenuhi bingkai; naik dari air aktif; hujan c13/cipratan fisik; kepala1 tanpa limbs; tiada tulisan; guardian monumental bukan hewan biasa.",
+    "limitations": [],
+    "native_sha256": "b6f88d93ce0afad4add7d7fa321ac801b983b309c4577ec5484407e0f0821bf2",
+    "reviewed_at": "2026-10-13T14:47:25.898789+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "b6f88d93ce0afad4add7d7fa321ac801b983b309c4577ec5484407e0f0821bf2",
+    "notes": "Single great python, one head and no limbs, rising out of the water hole as monsoon rain sweeps in; reads as a revered power, not a villain."
+  }
+}

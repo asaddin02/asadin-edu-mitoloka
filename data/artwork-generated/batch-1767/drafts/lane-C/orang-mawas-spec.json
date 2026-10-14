@@ -1,0 +1,80 @@
+{
+  "slug": "orang-mawas",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-012.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Orang Mawas, great black-furred bipedal ape of Malay folklore.\nANATOMY: One 2.4–3 metre tall BLACK-FURRED manlike ape, one head two eyes, TWO arms and TWO legs, no tail; irregular widely gapped snaggle teeth clearly visible. A woodknife BLADE replaces forearm bone in traditional variant, shown as integrated hard blade edge along outer forearm, NOT held weapon, no extra limb. [c02,c03,c07]\nMOMENT: Stride through undergrowth and cut a thick vine with integrated forearm blade, face turned down toward viewer and mouth open showing snaggle teeth. [c07]\nPOWER: Physical undergrowth cutting with documented forearm blade, leaves and cut vine falling; no magic [c07]\nSCALE & CAMERA: Extreme low jungle viewpoint, towering 3m ape face shoulders and forearms fill frame, small saplings indicate documented scale c02\nLIGHT & WEATHER: Single warm shaft through night canopy, dense black shadows\nSURFACE: Dense wet black fur, rough dark forearm blade, torn leaves\nSETTING: Johor jungle, dense undergrowth [c01,c07]\nMOOD: Formidable folklore ape, direct confrontation not ordinary calm gorilla\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Tall black ape with snaggle teeth and integrated forearm woodknife",
+  "basis_claim_ids": [
+    "orang-mawas-c02",
+    "orang-mawas-c03",
+    "orang-mawas-c06",
+    "orang-mawas-c07",
+    "orang-mawas-c01"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "orang-mawas-c02",
+      "orang-mawas-c03",
+      "orang-mawas-c06",
+      "orang-mawas-c07"
+    ],
+    "kuasa": [
+      "orang-mawas-c07"
+    ],
+    "tempat": [
+      "orang-mawas-c01",
+      "orang-mawas-c07"
+    ],
+    "sifat": [
+      "orang-mawas-c03",
+      "orang-mawas-c13"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tall black-furred bipedal manlike ape with snaggle teeth",
+      "claim_ids": [
+        "orang-mawas-c02",
+        "orang-mawas-c03",
+        "orang-mawas-c06"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Woodknife replaces forearm bone",
+      "claim_ids": [
+        "orang-mawas-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Cutting undergrowth while walking",
+      "claim_ids": [
+        "orang-mawas-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Johor jungle",
+      "claim_ids": [
+        "orang-mawas-c01"
+      ]
+    }
+  ],
+  "aura": "Documented stature c02, snaggle teeth c03 and woodknife cutting c07.",
+  "artistic_choices": [
+    "Visible forearm blade is an editorial visualization of internal bone claim to make documented cutting readable; no held weapon. Source traditions paired explicitly. Natural vegetation cutting only.",
+    "Generated key light is a warm canopy shaft; dramatic shadow remains. Forearm blade edge illustrates c07 cutting function and is integral rather than a held extra weapon."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

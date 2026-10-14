@@ -1,0 +1,61 @@
+{
+  "slug": "kitovras",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kitovras, the wise centaur-like king of Russian apocrypha.\nANATOMY: one centaur-like being: ONE male human torso and head, two human arms seamlessly rising from ONE horse body, exactly four horse legs, ONE horse tail; unwinged variant [kitovras-c01,c02]. Fully opaque dark antique ceremonial robe covers human torso and waist; horse body natural coat.\nMOMENT: advance with one front hoof striking stone toward the low viewer, one hand raised in emphatic wise declaration, face stern and commanding [kitovras-c04].\nPOWER: no visible prophecy effect; wisdom through speaking gesture only [kitovras-c04].\nSCALE & CAMERA: extreme low side three-quarter view, imposing hybrid dominates, horse-human junction and all four legs clearly separated, head turned toward viewer; no invented giant size.\nLIGHT & WEATHER: one low copper evening sun, deep walnut shadows, real hoof dust.\nSURFACE: rough horse coat, coarse opaque robe, stone paving.\nSETTING: understated old city of Lukorye, dim city walls behind [kitovras-c04].\nMOOD: awe-inspiring royal wisdom and power, never ordinary rider, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+  "depicted_variant": "Unwinged centaur variant proclaiming wisdom in Lukorye.",
+  "basis_claim_ids": [
+    "kitovras-c01",
+    "kitovras-c02",
+    "kitovras-c04",
+    "kitovras-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kitovras-c01",
+      "kitovras-c02"
+    ],
+    "kekuatan": [
+      "kitovras-c04"
+    ],
+    "tempat": [
+      "kitovras-c04"
+    ],
+    "sifat": [
+      "kitovras-c03",
+      "kitovras-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Centaur-like half man half horse, unwinged variant.",
+      "claim_ids": [
+        "kitovras-c01",
+        "kitovras-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lukorye city associated with reign.",
+      "claim_ids": [
+        "kitovras-c04"
+      ]
+    }
+  ],
+  "aura": "Centaur anatomy c01/c02 and authoritative wisdom/reign c04.",
+  "artistic_choices": [
+    "Robes, plain metal headband, human face/hair, architecture and twilight are editorial costume/composition; not source-specified iconography. Headband refers to reignc04, not claimed magicalattribute.",
+    "Prophecy not depicted as glow; no weapon, wings or magic effects imported."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

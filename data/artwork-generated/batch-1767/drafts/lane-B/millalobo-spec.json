@@ -1,0 +1,94 @@
+{
+  "slug": "millalobo",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of millalobo, Golden-furred human and sea-lion sea ruler commanding the tide. Create one square PNG at least 1024 by 1024.\nANATOMY: One being the size of a large seal, with a humanlike chest and two arms, a lower body entirely sea-lion shaped with flippers instead of legs, and one face visibly blending an adult MAN and a SEA LION (a marine seal animal, NOT a land lion): human forehead, human brow and human expressive eyes, human upper nose bridge transitioning to a rounded broad dark seal nose and blunt broad sea-lion muzzle with short sparse whiskers. Absolutely no feline triangular nose, cat face, lion mane or large cat canines. Two eyes, very short shiny golden-yellow fur, no mane over the body; no fish tail, trident, crown or extra head. [millalobo-c02, millalobo-c05, millalobo-c10, millalobo-c11]\nMOMENT: Rear from the rocky shallows and thrust one hand toward a surging tide, blunt seal muzzle open in a forceful bleat, small normal marine mammal teeth only, gaze down directly at viewer.\nPOWER: Documented lordship over seas, directing tides and calms/storms: surf physically banks and divides around his command; no magic glow. [millalobo-c04, millalobo-c12, millalobo-c14]\nSCALE & CAMERA: extreme low angle, confrontational close framing; subject fills 80 percent of the image, unmistakable silhouette at 200 pixels. Strictly large-seal-sized, no unsupported giant scale; imposing only through extreme close low perspective.\nLIGHT & WEATHER: one dominant low-key warm moonlight or dusk source as appropriate, sharp rim light, deep walnut shadows, sparse contextual spray or dust; dark warm painterly palette with antique gold accent, no flat daylight.\nSURFACE: tactile weathered natural materials, detailed rough skin, wet scales or coarse hair where anatomically appropriate; thick expressive oil brushwork and premium cinematic composition.\nSETTING: Chiloe sea in rocky shallows, dark water and sea floor behind. [millalobo-c06, millalobo-c08, millalobo-c16]\nMOOD: Awe-inspiring sea ruler respected by benevolent and evil beings; not a villain; overwhelming and imposing, never cute, calm, decorative or static. No modern costume.\nHARD CONSTRAINTS: no text, no lettering, no symbols, no glyphs or pseudo-glyphs, no inscriptions, logo, border, frame or watermark; no extra heads, limbs, fingers or eyes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Background subordinate to subject.",
+  "depicted_variant": "Golden-furred human and sea-lion sea ruler commanding the tide",
+  "basis_claim_ids": [
+    "millalobo-c02",
+    "millalobo-c05",
+    "millalobo-c10",
+    "millalobo-c11",
+    "millalobo-c06",
+    "millalobo-c08",
+    "millalobo-c16",
+    "millalobo-c04",
+    "millalobo-c12",
+    "millalobo-c14",
+    "millalobo-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "millalobo-c02",
+      "millalobo-c05",
+      "millalobo-c10",
+      "millalobo-c11"
+    ],
+    "kuasa": [
+      "millalobo-c04",
+      "millalobo-c12",
+      "millalobo-c14"
+    ],
+    "tempat": [
+      "millalobo-c06",
+      "millalobo-c08",
+      "millalobo-c16"
+    ],
+    "sifat": [
+      "millalobo-c07",
+      "millalobo-c12"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One being the size of a large seal, with a humanlike chest and two arms, a lower body entirely sea-lion shaped with flippers instead of legs, and one face visibly blending a man and a sea lion. Two eyes, short shiny golden-yellow fur over the body; no fish tail, trident, crown or extra head.",
+      "claim_ids": [
+        "millalobo-c02",
+        "millalobo-c05",
+        "millalobo-c10",
+        "millalobo-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Chiloe sea in rocky shallows, dark water and sea floor behind.",
+      "claim_ids": [
+        "millalobo-c06",
+        "millalobo-c08",
+        "millalobo-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented lordship over seas, directing tides and calms/storms: surf physically banks and divides around his command; no magic glow.",
+      "claim_ids": [
+        "millalobo-c04",
+        "millalobo-c12",
+        "millalobo-c14"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari Documented lordship over seas, directing tides and calms/storms: surf physically banks and divides around his command; no magic glow.; millalobo-c04, millalobo-c12, millalobo-c14.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/millalobo-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/millalobo-attempt-01.json",
+      "native_sha256": "c55806ec6169d0f0e64e6a929d7a9522529e86825ed05ead70f217c6abdba0e3",
+      "reason": "Wajah berbaca sebagai singa/kucing darat (hidung segitiga dan muzzle feline), bukan campuran manusia dengan singa laut c02. Perlu bluntseal muzzle dan wajah manusia jelas."
+    }
+  ]
+}

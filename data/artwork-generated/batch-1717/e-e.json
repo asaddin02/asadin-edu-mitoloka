@@ -1,0 +1,71 @@
+{
+  "slug": "e-e",
+  "worker": "codex",
+  "worker_agent": "lane1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Tidak ada panggilan gambar; penilaian kelayakan visual berbasis klaim.",
+  "depicted_variant": "Tidak dipilih untuk ilustrasi.",
+  "basis_claim_ids": [
+    "e-e-c05",
+    "e-e-c07",
+    "e-e-c03",
+    "e-e-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "e-e-c05",
+      "e-e-c07",
+      "e-e-c09"
+    ],
+    "kekuatan_perbuatan": [
+      "e-e-c05",
+      "e-e-c07"
+    ],
+    "tempat": [
+      "e-e-c03",
+      "e-e-c08"
+    ],
+    "sifat": [
+      "e-e-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Kadang tampak dalam mimpi sebagai perempuan lajang tua; tubuh umumnya tak terlihat.",
+      "claim_ids": [
+        "e-e-c05",
+        "e-e-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Perapian rumah dan keranjang tempat persembahan.",
+      "claim_ids": [
+        "e-e-c03",
+        "e-e-c08"
+      ]
+    }
+  ],
+  "aura": "Pelindung perapian c03 dan penyembuh c05; tidak ditambahkan cahaya/transformasi rekaan.",
+  "artistic_choices": [
+    "Wujud mimpi perempuan tua ada, namun ciri pembeda supranatural dan manifestasi aktif yang dapat divisualkan tanpa rekaan tidak cukup."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "reason": "c05/c07 hanya perempuan tua dalam mimpi atau tak terlihat; c09 memuat beberapa figur simbolik yang tidak menetapkan rupa roh. Penyembuhan c05 dan penjagaan perapian c03 tidak mendokumentasikan manifestasi visual aktif. Ilustrasi akan menjadi perempuan biasa atau objek keranjang, sehingga ditahan tanpa mengarang tubuh, skala, atau efek.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "visual_review": null
+}

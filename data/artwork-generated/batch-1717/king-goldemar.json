@@ -1,0 +1,68 @@
+{
+  "slug": "king-goldemar",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Not generated: refuses to be seen, touch-described frog hands not permission for visible body.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+  "depicted_variant": "No visible king or frog hands invented.",
+  "basis_claim_ids": [
+    "king-goldemar-c01",
+    "king-goldemar-c04",
+    "king-goldemar-c03",
+    "king-goldemar-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "king-goldemar-c01",
+      "king-goldemar-c04"
+    ],
+    "kekuatan": [
+      "king-goldemar-c04",
+      "king-goldemar-c05"
+    ],
+    "tempat": [
+      "king-goldemar-c03"
+    ],
+    "sifat": [
+      "king-goldemar-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dwarf/kobold refuses to be seen; frog-like hands known by touch.",
+      "claim_ids": [
+        "king-goldemar-c01",
+        "king-goldemar-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Castle Hardenstein on Ruhr.",
+      "claim_ids": [
+        "king-goldemar-c03"
+      ]
+    }
+  ],
+  "aura": "Unseen kobold c04.",
+  "artistic_choices": [
+    "Harp-playing alone not visible active manifestation; violent act not used as gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "reason": "Goldemar menolak terlihat dan hanya dapat diraba (c04); tangan mirip katak adalah deskripsi rabaan, bukan izin menampilkan tubuh. C03 pemainharpa tidak memberikan manifestasi terlihat yang mendominasi; ruangan/harpa saja subjekabsen. Tidak mengarang sosok dwarf terlihat atau memakai gore c05.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "visual_review": null
+}

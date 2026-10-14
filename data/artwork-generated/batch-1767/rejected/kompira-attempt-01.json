@@ -1,0 +1,80 @@
+{
+  "slug": "kompira",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "rejected",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Konpira, choosing the rural serpent-kami tradition.\nANATOMY: One serpent-form kami: one snake head, two eyes, one continuous serpentine body and one tapering tail, zero legs, arms, wings or horns; dignified living serpent, no human deity invented [kompira-c10]\nMOMENT: Rises in a commanding coil above moving sea water facing viewer, majestic protective posture; distant merchant boat rides behind its sheltered coil\nPOWER: Water-kami and thunder-kami domains: heavy sea water curls and a single natural lightning bolt lights the far sky, the guardian shields the distant merchant boat; no aura [kompira-c02, kompira-c07, kompira-c12]\nSCALE & CAMERA: extreme low waterline view; MONUMENTAL sacred serpent rises above a distant tiny merchant boat, fills almost whole square. This scale is EXPRESSLY an editorial allegory of deity presence under §6.5, not a sourced claim of literal giant bodily size. Sharp dignified serpent face, protective coil and continuous body; no ordinary closeup wildlife snake.\nLIGHT & WEATHER: one dominant distant real lightning bolt in a dark storm sky, silver-gold rim catching serpent scales, deep walnut storm water and shadow, realistic sea spray; no magical glow.\nSURFACE: tactile natural skin, fur, feathers, scales or cloth as appropriate, painterly material detail, never plastic.\nSETTING: Japanese maritime waters, protective seafaring context [kompira-c02]\nMOOD: imposing and awe-inspiring or threatening according to documented character, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, pseudo-writing, rune, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No decorative symbols or inscriptions. No jewellery, crown, costume, armour, dragon whiskers or added dragon anatomy; dignified sacred snake, not a demon.",
+  "depicted_variant": "Rural serpent-kami worship c10, not iconographic crocodile/dragon-human conflation.",
+  "basis_claim_ids": [
+    "kompira-c10",
+    "kompira-c02",
+    "kompira-c07",
+    "kompira-c12"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kompira-c10"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "kompira-c02",
+      "kompira-c07",
+      "kompira-c12"
+    ],
+    "tempat": [
+      "kompira-c02"
+    ],
+    "sifat": [
+      "kompira-c06",
+      "kompira-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One serpent-form kami: one snake head, two eyes, one continuous serpentine body and one tapering tail, zero legs, arms, wings or horns; dignified living serpent, no human deity invented",
+      "claim_ids": [
+        "kompira-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Water-kami and thunder-kami domains: heavy sea water curls and a single natural lightning bolt lights the far sky, the guardian shields the distant merchant boat; no aura",
+      "claim_ids": [
+        "kompira-c02",
+        "kompira-c07",
+        "kompira-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Japanese maritime waters, protective seafaring context",
+      "claim_ids": [
+        "kompira-c02"
+      ]
+    }
+  ],
+  "aura": "Water-kami and thunder-kami domains: heavy sea water curls and a single natural lightning bolt lights the far sky, the guardian shields the distant merchant boat; no aura kompira-c02, kompira-c07, kompira-c12",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Monumental serpent composition is an expressly editorial sacred-deity allegory under §6.5, not source claim of giant size. Boat and single far lightning express guardian/water/thunder domains, honour rather than evil.",
+    "Prompt expressly declares monumental sacred-serpent presence as editorial deity allegory rather than source bodily-size fact; same rural serpent variant, no iconography invented."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "original_file": "data/artwork-generated/batch-1767/rejected/kompira-attempt-01.png",
+  "receipt_file": "data/artwork-generated/batch-1767/rejected/kompira-attempt-01.json",
+  "native_sha256": "2923e77e0e41139cae4815a95df72f9d42b68351118d9ed70d04acc05bad54cd",
+  "reason": "Prominent lightning is unsupported as a depicted action: kompira-c07 states thunder-kami association, not a documented lightning manifestation. Old orphan PNG recovered before new call; preserve and edit out lightning.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-bcb01131-5b96-4d21-acb3-078fef30ae46.png",
+  "generated_at": "2026-10-13T19:06:13.907536+00:00",
+  "generation_time_provenance": "Filesystem mtime of recovered original; actual tool timestamp unavailable.",
+  "recovered_by": "finish_kompira"
+}

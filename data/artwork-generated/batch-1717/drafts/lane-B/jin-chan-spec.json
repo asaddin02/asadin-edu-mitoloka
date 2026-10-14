@@ -1,0 +1,64 @@
+{
+  "slug": "jin-chan",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Jin Chan, the living golden three-legged prosperity toad of Chinese lore.\nANATOMY: ONE broad living toad head, TWO red eyes, golden warty skin, EXACTLY THREE LEGS TOTAL: two forelegs at left and right shoulders and ONE CENTRAL HINDLEG at the pelvis midpoint, NO pairedhindlegs. One plain round antique coin with square center hole held in mouth, coin is completely UNINSCRIBED with no letters or glyphs [jin-chan-c01,c03,c07]. Show all THREE legs and their clear body connections, no fourth limb hidden or implied.\nMOMENT: spring forward from dark wet stone toward viewer, frontleft and frontright legs spread apart and thrust towardlens, ONE central rearleg visible straight back under belly, its single rearfoot pressing stone to propel leap; red eyes fixed imperiously forward, mouth clenches plain coin, scattering a few plain coins by physical contact.\nPOWER: attracts and protects wealth, represented by a handful of ordinary plain coins; NO magic or glowingmoney [jin-chan-c04].\nSCALE & CAMERA: extreme low macro side-threequarter fullbody, toad fills square, belly tilted towardcamera so twofrontlegs and singlecentralrearleg are distinct. Natural toad proportions, dominance from framing notinventedgiantsize; creature ALIVE, NOT statue ornament.\nLIGHT & WEATHER: ONE fullmoon, sharpsilver rim on antiquegold skin, deep walnutwetstone, small ordinary droplets.\nSURFACE: moist irregular golden toad warts and breathing skin, tarnished plainmetal coin, rough wet stone.\nSETTING: fullmoon appearance near a place expecting goodnews, dark unmarked courtyard threshold editorial [jin-chan-c02].\nMOOD: sacred imposing prosperity guardian, intensely alive, awe-inspiring, never evil or cute mascot.\nHARD CONSTRAINTS: no text, letters, logo, border, watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons.",
+  "depicted_variant": "JinChan hidup golden3legs red-eyes plaincoinmouth saatfullmoon.",
+  "basis_claim_ids": [
+    "jin-chan-c01",
+    "jin-chan-c03",
+    "jin-chan-c07",
+    "jin-chan-c02",
+    "jin-chan-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "jin-chan-c01",
+      "jin-chan-c03",
+      "jin-chan-c07"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "jin-chan-c04"
+    ],
+    "tempat": [
+      "jin-chan-c02"
+    ],
+    "sifat": [
+      "jin-chan-c04",
+      "jin-chan-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Livinggoldentoadred2eyes exactly3legs andplaincoinmouth.",
+      "claim_ids": [
+        "jin-chan-c01",
+        "jin-chan-c03",
+        "jin-chan-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Muncul saatfullmoon wealthcontext.",
+      "claim_ids": [
+        "jin-chan-c02",
+        "jin-chan-c04"
+      ]
+    }
+  ],
+  "aura": "Redeyes/3legs/coin c03 dan fullmoon c02, wealthguardianc04.",
+  "artistic_choices": [
+    "Macro/framing/palet/courtyard threshold/scatteredplaincoins editorial; leapeditorialphysicalaction; no wealthmagiceffects; no inscriptions."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

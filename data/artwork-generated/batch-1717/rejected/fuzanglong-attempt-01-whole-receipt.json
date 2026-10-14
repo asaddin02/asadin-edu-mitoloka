@@ -1,0 +1,90 @@
+{
+  "slug": "fuzanglong",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Fuzanglong, the underworld dragon guarding buried treasure and a treasured magical pearl.\nANATOMY: one original Chinese dragon with a long scaled serpentine body, one head and two eyes, four conservative clawed legs, no wings; one large pearl held close beneath a foreclaw. No extra heads or pearls. Conventional dragon silhouette is restrained editorial interpretation of the word dragon, not a source-specific horn or claw count. [fuzanglong-c01,c04]\nMOMENT: thrust its head and front body upward through a broken rock ceiling toward the viewer while sheltering its pearl, mouth open in commanding warning, visibly connected coils below.\nPOWER: a volcanic breach physically cracks earth and sends stones and dark ash upward as the dragon breaks through to report to heaven; warm molten rock visible only in the distant fissure. The pearl casts no magic beam. [fuzanglong-c03]\nSCALE & CAMERA: extreme low-angle close view, head and body fill 85 percent square; avoid unsupported humans or size comparisons.\nLIGHT & WEATHER: single molten-rock backlight from fissure, amber rim on scales, dark volcanic ash and falling natural rock fragments.\nSURFACE: rugged dark umber scales, mineral dust, scratched old gold and unpolished natural gems, smooth ivory pearl.\nSETTING: earthen underworld cavern, partially revealed buried treasure of natural minerals and old unmarked metal vessels. [fuzanglong-c01,c02,c07]\nMOOD: imposing treasure guardian, awe and physical danger, never cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Naga penjaga harta menerobos tanah gunung api sambil melindungi mutiara.",
+  "basis_claim_ids": [
+    "fuzanglong-c01",
+    "fuzanglong-c04",
+    "fuzanglong-c03",
+    "fuzanglong-c02",
+    "fuzanglong-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "fuzanglong-c01",
+      "fuzanglong-c04"
+    ],
+    "kekuatan_perbuatan": [
+      "fuzanglong-c01",
+      "fuzanglong-c03",
+      "fuzanglong-c06"
+    ],
+    "tempat": [
+      "fuzanglong-c01",
+      "fuzanglong-c07"
+    ],
+    "sifat": [
+      "fuzanglong-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu naga bawah tanah dengan satu mutiara berharga.",
+      "claim_ids": [
+        "fuzanglong-c01",
+        "fuzanglong-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Naga menerobos tanah sebagai asal gunung api dalam cerita.",
+      "claim_ids": [
+        "fuzanglong-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tanah bawah dunia dan harta terpendam alami/buatan.",
+      "claim_ids": [
+        "fuzanglong-c01",
+        "fuzanglong-c02",
+        "fuzanglong-c07"
+      ]
+    }
+  ],
+  "aura": "Terobosan vulkanik c03 dan tatapan penjaga harta c01 mendominasi.",
+  "artistic_choices": [
+    "Anatomi naga konservatif bersisik/serpentine berkaki empat tanpa sayap adalah interpretasi editorial c01; bukan klaim tanduk/jari sumber.",
+    "Bukaan magma adalah visualisasi gunung api c03, tidak menambahkan kuasa napas-api. Mutiara c04 tidak diberi aura atau sinar rekaan.",
+    "Tanduk/janggut/ornamen naga serta pola geometris non-legible pada wadah treasure editorial, bukan exact iconography c01; tidak ada teks yang dibaca."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-71c394de-9ffa-4ace-99c0-72cb43d5644f.png",
+  "generated_at": "2026-10-13T17:52:55.628766+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/fuzanglong.png",
+  "native_sha256": "089e2bd563490263d06a381ea4fb19f0bfa2d2c2ab44cd89d1827c7d307c1f96",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "UjiSangar7/7 native+200: satu dragon kepala/continuousbody, foreclaw melindungi satu pearl; breakthrough rock/magma dan debris mendominasi active c03, harta c01/c02. Tidak firebreath, pearlbeam atau aura. Scales/horns detail editorial konservatif, tidak extrahead/wing. Subjek jelas saat200, no readabletext/IP/gore."
+    ],
+    "limitations": [],
+    "native_sha256": "089e2bd563490263d06a381ea4fb19f0bfa2d2c2ab44cd89d1827c7d307c1f96",
+    "reviewed_at": "2026-10-13T17:52:55.628766+00:00"
+  }
+}

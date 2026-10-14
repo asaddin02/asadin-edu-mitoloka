@@ -1,0 +1,85 @@
+{
+  "slug": "enfield-monster",
+  "worker": "codex",
+  "worker_agent": "lane1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Enfield Monster, the reported three-legged creature at an Illinois front door.\nANATOMY: exactly THREE separate legs arranged left leg, central leg, right leg, all three clearly visible with separate feet on the threshold; exactly TWO very short arms attached high on its short compact dirty-gray hairy torso; one disproportionately large head, exactly two huge PINK eyes as wide as flashlights. Height four and a half feet, not giant. [enfield-monster-c05,c06]\nMOMENT: scratch the wooden front door with one short arm, twisting its large head sharply toward the viewer, mouth tense and open; crouch on three widely spaced legs, each foot unobstructed.\nPOWER: no documented supernatural power; menace through uncanny anatomy, close framing and natural light only.\nSCALE & CAMERA: very low close camera from porch floor; creature fills 85 percent of square; the three feet form a clear tripod across the lower third. No leg hidden behind another leg.\nLIGHT & WEATHER: one warm porch lamp side-light, deep cool night shadows, natural airborne dust.\nSURFACE: coarse matted dirty-gray fur, cracked porch wood, pink eyes reflective without emitting light.\nSETTING: front door of a house in Enfield Illinois at night. [enfield-monster-c01,c04]\nMOOD: unnerving and imposing, never cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly three legs and two short arms, no extra limbs; no film/game/anime/comic design; no nudity or explicit gore; no glow aura, neon outline, eye beams or energy ribbons.",
+  "depicted_variant": "Laporan McDaniel: makhluk pendek tiga kaki dengan mata pink menggaruk pintu.",
+  "basis_claim_ids": [
+    "enfield-monster-c05",
+    "enfield-monster-c06",
+    "enfield-monster-c01",
+    "enfield-monster-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "enfield-monster-c05",
+      "enfield-monster-c06"
+    ],
+    "kekuatan_perbuatan": [
+      "enfield-monster-c04"
+    ],
+    "tempat": [
+      "enfield-monster-c01",
+      "enfield-monster-c04"
+    ],
+    "sifat": [
+      "enfield-monster-c13"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tubuh pendek abu-abu kotor berbulu, kepala besar, dua mata pink besar, dua lengan pendek dan tepat tiga kaki.",
+      "claim_ids": [
+        "enfield-monster-c05",
+        "enfield-monster-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pintu depan rumah Enfield malam hari; suara garukan.",
+      "claim_ids": [
+        "enfield-monster-c01",
+        "enfield-monster-c04"
+      ]
+    }
+  ],
+  "aura": "Keganjilan tiga kaki c05 dan kepala besar mata pink c06 mengancam tanpa efek rekaan.",
+  "artistic_choices": [
+    "Tidak membesarkan tinggi empat-setengah kaki; dominasi lewat kamera dekat.",
+    "Mata pink memantulkan lampu, tidak memancarkan kuasa."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b6-ce8b-7442-86bb-336e214d7a01/exec-70228cd8-0507-4915-b2ab-c69c907bef12.png",
+  "generated_at": "2026-10-13T14:47:58.842360+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/enfield-monster.png",
+  "native_sha256": "0f9a51a01e2eded2433c9e95fd7bdf8b52d25c45a9dfb0d5c08e657a88ba0896",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "Uji Sangar7/7 native dan200px: makhluk dominan menggaruk pintu; tepat3kaki terpisah,2lengan pendek,2mata pink besar,dirtygrayfur; tanpa efek/teks; uncanny bukanhewanbiasa."
+    ],
+    "limitations": [],
+    "native_sha256": "0f9a51a01e2eded2433c9e95fd7bdf8b52d25c45a9dfb0d5c08e657a88ba0896",
+    "reviewed_at": "2026-10-13T14:47:58.842360+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "0f9a51a01e2eded2433c9e95fd7bdf8b52d25c45a9dfb0d5c08e657a88ba0896",
+    "notes": "Short matted grey creature with large head and two big pink eyes scratching at the door at night; exactly three clawed legs checked on a native crop."
+  }
+}

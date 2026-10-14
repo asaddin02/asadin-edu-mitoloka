@@ -1,0 +1,73 @@
+{
+  "slug": "guayota",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-080.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Guayota, the Guanche malignant deity in the documented form of a black dog imprisoning the sun inside Teide.\nANATOMY: one black canine head, two natural eyes, four canine legs, one tail; thick black fur, a powerful canine jaw and no horns [guayota-c13].\nMOMENT: brace the forepaws on volcanic rock and drag the luminous sun down into a black cavern with the open jaws closing around its rim, snarling towards the viewer.\nPOWER: the kidnapped sun is being shut inside Teide, darkness swallowing the landscape beyond; the sun is a physical spherical golden disk at the dog's mouth, not a magical aura [guayota-c03,guayota-c14].\nSCALE & CAMERA: extreme low angle, tightly framed head and forequarters occupy nearly the entire square, no invented numerical giant size.\nLIGHT & WEATHER: one source only, the captive sun lights the dog's teeth and black fur with antique gold rim light while cavern shadows dominate.\nSURFACE: coarse soot-dusted fur, sharp natural teeth, rough volcanic basalt.\nSETTING: inside the Mount Teide volcanic cavern [guayota-c02,guayota-c12,guayota-c18].\nMOOD: dangerous supernatural presence, menacing, never ordinary pet or calm decorative dog.\nHARD CONSTRAINTS: no fire breath, lava magic or floating runes; no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Anjing hitam Guayota menarik matahari ke dalam Teide.",
+  "basis_claim_ids": [
+    "guayota-c13",
+    "guayota-c03",
+    "guayota-c14",
+    "guayota-c02",
+    "guayota-c12",
+    "guayota-c18"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "guayota-c13"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "guayota-c03",
+      "guayota-c14"
+    ],
+    "tempat": [
+      "guayota-c02",
+      "guayota-c12",
+      "guayota-c18"
+    ],
+    "sifat": [
+      "guayota-c01",
+      "guayota-c11"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Wujud anjing hitam.",
+      "claim_ids": [
+        "guayota-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Matahari dikurung di Teide dan dunia di luar menjadi gelap.",
+      "claim_ids": [
+        "guayota-c03",
+        "guayota-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior Teide.",
+      "claim_ids": [
+        "guayota-c02",
+        "guayota-c12",
+        "guayota-c18"
+      ]
+    }
+  ],
+  "aura": "Sun imprisonment c03/c14 terlihat fisik pada mulut, membedakannya dari anjing biasa.",
+  "artistic_choices": [
+    "Sun sphere adalah representasi editorial Magec sebagai matahari, bukan ikonografi tubuh Magec; framing rapat bukan klaim ukuran; tidak menambah fire breath."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "nian",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nian, a ferocious beast of Chinese New Year tales.\nANATOMY: One original flat-faced LION HEAD on a DOG BODY, coarse lion mane, two eyes, four dog legs and one dog tail; NO horns in this chosen variant. [c04]\nMOMENT: Bound up from dark shore and recoil with jaws bared from a red lantern and small natural fire at frame edge, twisted body still charging toward viewer. [c03,c09]\nPOWER: Fear of red and flames acts through physical recoil only; no elemental fire breath or magical explosions. [c09]\nSCALE & CAMERA: Extreme low angle lion face dominant, dog torso and front paws visible in action, no unsupported gigantic scale\nLIGHT & WEATHER: Single natural flame at edge as warm light, deep water shadows, one plain red lantern without lettering\nSURFACE: Wet rough fur and mane, worn teeth, weathered shoreline stones\nSETTING: Chinese sea shore beside simple unmarked village wall [c01,c07]\nMOOD: Ferocious threatened beast, dangerous and active\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Flat-faced lion dog-body variant recoiling from red flame",
+  "basis_claim_ids": [
+    "nian-c04",
+    "nian-c03",
+    "nian-c09",
+    "nian-c01",
+    "nian-c07"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "nian-c04",
+      "nian-c07"
+    ],
+    "kuasa": [
+      "nian-c03",
+      "nian-c09",
+      "nian-c10"
+    ],
+    "tempat": [
+      "nian-c01",
+      "nian-c07"
+    ],
+    "sifat": [
+      "nian-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Flat-faced lion with dog body, variant without horns",
+      "claim_ids": [
+        "nian-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Attack emerging at New Year and recoil from red flames",
+      "claim_ids": [
+        "nian-c03",
+        "nian-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Seashore",
+      "claim_ids": [
+        "nian-c01",
+        "nian-c07"
+      ]
+    }
+  ],
+  "aura": "Ferocious attack c03 and visible recoil from documented fears c09.",
+  "artistic_choices": [
+    "Lion-dog c04 chosen separately from horned c07 anatomy. Plain lantern and natural flame are fear-trigger set dressing, not beast power. No inscriptions or firecracker wrappers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "monai",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of monai, Two-antenna huge serpent entrancing a bird as it descends a tree. Create one square PNG at least 1024 by 1024.\nANATOMY: One extraordinarily large limbless serpent, one head with two eyes, exactly two pointed spike-like antennae on its head, a mouth with clearly visible pointed teeth, long unbroken coils. No limbs, wings or extra horns. [monai-c02, monai-c13]\nMOMENT: Climb a tree and slide a huge upper coil down toward a bird halted in front of its two antennae, head facing viewer, jaws parting.\nPOWER: Bird entranced by hypnotic antennae holds still on a branch within reach, physically readable interaction; no hypnosis beams, aura or floating symbols. [monai-c02]\nSCALE & CAMERA: extreme low angle, confrontational close framing; subject fills 80 percent of the image, unmistakable silhouette at 200 pixels. Documented extraordinary size; tree trunk small beside coils, close head. Antennae conspicuous as exactly two spikes.\nLIGHT & WEATHER: one dominant low-key warm moonlight or dusk source as appropriate, sharp rim light, deep walnut shadows, sparse contextual spray or dust; dark warm painterly palette with antique gold accent, no flat daylight.\nSURFACE: tactile weathered natural materials, detailed rough skin, wet scales or coarse hair where anatomically appropriate; thick expressive oil brushwork and premium cinematic composition.\nSETTING: Paraguayan field-edge tree close to dark swamp water near Yaguaron. [monai-c04, monai-c12]\nMOOD: Dangerous mythic presence, without slaughter or attacks on people; overwhelming and imposing, never cute, calm, decorative or static. No modern costume.\nHARD CONSTRAINTS: no text, no lettering, no symbols, no glyphs or pseudo-glyphs, no inscriptions, logo, border, frame or watermark; no extra heads, limbs, fingers or eyes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Background subordinate to subject.",
+  "depicted_variant": "Two-antenna huge serpent entrancing a bird as it descends a tree",
+  "basis_claim_ids": [
+    "monai-c02",
+    "monai-c13",
+    "monai-c04",
+    "monai-c12",
+    "monai-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "monai-c02",
+      "monai-c13"
+    ],
+    "kuasa": [
+      "monai-c02"
+    ],
+    "tempat": [
+      "monai-c04",
+      "monai-c12"
+    ],
+    "sifat": [
+      "monai-c01",
+      "monai-c13"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One extraordinarily large limbless serpent, one head with two eyes, exactly two pointed spike-like antennae on its head, a mouth with clearly visible pointed teeth, long unbroken coils. No limbs, wings or extra horns.",
+      "claim_ids": [
+        "monai-c02",
+        "monai-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Paraguayan field-edge tree close to dark swamp water near Yaguaron.",
+      "claim_ids": [
+        "monai-c04",
+        "monai-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bird entranced by hypnotic antennae holds still on a branch within reach, physically readable interaction; no hypnosis beams, aura or floating symbols.",
+      "claim_ids": [
+        "monai-c02"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari Bird entranced by hypnotic antennae holds still on a branch within reach, physically readable interaction; no hypnosis beams, aura or floating symbols.; monai-c02.",
+  "artistic_choices": [
+    "Memilih varian perburuan/hipnosis c02; tidak menggambar korban manusia.",
+    "Hipnosis terbaca melalui arah antena dan burung yang diam, tanpa kuasa cahaya rekaan.",
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

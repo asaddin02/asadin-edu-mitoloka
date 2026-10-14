@@ -1,0 +1,75 @@
+{
+  "slug": "ibaraki-doji",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ibaraki-doji, the enormous fearsome female oni of Heian tales carrying Tsuna through the air.\nANATOMY: one frightening female head, two eyes, a mouth of strong teeth clearly visible, two arms and two legs; giant fully opaque dark ancient robe [ibaraki-doji-c04,ibaraki-doji-c07,ibaraki-doji-c12]. No horns, wings, claws or extra limbs.\nMOMENT: surge upward through the night above a Kyoto gate, one hand firmly gripping the hair at the crown of the much smaller fully clothed adult warrior Tsuna below, other hand stretched toward viewer; giant face grimacing and looking down, warrior unharmed and sword sheathed, no severed arm.\nPOWER: documented unassisted flight while carrying Tsuna by his hair toward Mount Atago; both figures airborne, robe lifted by wind, no beam or aura [ibaraki-doji-c10].\nSCALE & CAMERA: extreme low angle from under the huge oni, her face, hands and torso fill square; adult Tsuna dangling small beside her arm gives clearly monstrous giant scale [ibaraki-doji-c04,ibaraki-doji-c12].\nLIGHT & WEATHER: one low moon behind clouds, cool rim light and deep warm walnut cloth shadows, wind-tossed fabric.\nSURFACE: weathered skin, irregular large teeth, coarse opaque robes, old wooden gate beams.\nSETTING: above Kyoto gate in direction of Mount Atago [ibaraki-doji-c02,ibaraki-doji-c10,ibaraki-doji-c12].\nMOOD: terrible and havoc-bringing, supernatural airborne ogress, never an ordinary woman or calm portrait.\nHARD CONSTRAINTS: no text/logo/border/watermark; no extra heads/limbs/fingers; no borrowed entertainment design; no nudity, blood, injury or explicit gore; no generic glow aura/neon/energy ribbons.",
+  "depicted_variant": "Giant female oni Ibaraki terbang membawa Tsuna sebelum pemotongan lengan.",
+  "basis_claim_ids": [
+    "ibaraki-doji-c04",
+    "ibaraki-doji-c07",
+    "ibaraki-doji-c12",
+    "ibaraki-doji-c10",
+    "ibaraki-doji-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "ibaraki-doji-c04",
+      "ibaraki-doji-c07",
+      "ibaraki-doji-c12"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "ibaraki-doji-c09",
+      "ibaraki-doji-c10"
+    ],
+    "tempat": [
+      "ibaraki-doji-c02",
+      "ibaraki-doji-c10",
+      "ibaraki-doji-c12"
+    ],
+    "sifat": [
+      "ibaraki-doji-c04",
+      "ibaraki-doji-c14"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Varian female oni fearsome giant, teeth; busana buram, tanpa horns tidak diklaim.",
+      "claim_ids": [
+        "ibaraki-doji-c04",
+        "ibaraki-doji-c07",
+        "ibaraki-doji-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Terbang sambil membawa Tsuna dari rambutnya.",
+      "claim_ids": [
+        "ibaraki-doji-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kyoto menuju Mount Atago, gate.",
+      "claim_ids": [
+        "ibaraki-doji-c02",
+        "ibaraki-doji-c10",
+        "ibaraki-doji-c12"
+      ]
+    }
+  ],
+  "aura": "Giant c04/c12 dan flight carrying warrior c10 memberi ancaman supernatural.",
+  "artistic_choices": [
+    "Robe gelap, moon, angle dan giant scale composition editorial sesuai claims giant; satu momen pre-injury, no severed arm; tidak menambah horns dari stereotip oni."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

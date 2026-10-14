@@ -1,0 +1,88 @@
+{
+  "slug": "feng-mythology",
+  "worker": "codex",
+  "worker_agent": "resume1717-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Feng, the Chinese look-flesh creature, a two-eyed living mass shaped like an ox liver.\nANATOMY: one smooth lobed asymmetrical fleshy mass with the broad curved outer silhouette of an ox liver, exactly TWO large watchful eyes embedded directly in the mass; no head, no mouth, no nose, no limbs, no teeth, no blood or exposed organ detail. Matte dark walnut-maroon exterior, fully intact skinlike surface, not a butcher's organ. [feng-mythology-c01,c05,c06]\nMOMENT: swell and reform toward the camera; one smooth peripheral indentation is closing as the whole mass returns to its former rounded shape, the two eyes rotating to fix directly on the viewer.\nPOWER: regeneration shown as a smooth seamless lobe bulging back into its previous form, no cut surface or gore; the creature is never consumed and regrows. [feng-mythology-c02,c05]\nSCALE & CAMERA: extreme macro ground-level close view, the broad flesh-mass and its two unblinking eyes occupy 85 percent of the square; do not imply giant dimensions.\nLIGHT & WEATHER: one sliver of low amber evening light across the eyes, deep cool forest shadows, fine natural dust.\nSURFACE: soft rubbery matte skinlike texture with shallow wrinkles, intact smooth surface; wet leaf litter and dark stone.\nSETTING: dark rocky mountain slope with woodland litter, Mount Di from the classical account. [feng-mythology-c13]\nMOOD: deeply uncanny and imposing through impossible living anatomy, never cute, food photograph or decorative.\nHARD CONSTRAINTS: no text/logo/border/frame/watermark; exactly two eyes and zero limbs; no human miniature variant, no Jupiter orb; no blood, wounds, dissection, exposed viscera, gore or eating scene; no film/game/anime/comic design; no aura, glow, neon or energy ribbons.",
+  "depicted_variant": "Shirou dua mata dengan bentuk massa menyerupai hati sapi, permukaan utuh non-gore.",
+  "basis_claim_ids": [
+    "feng-mythology-c01",
+    "feng-mythology-c05",
+    "feng-mythology-c06",
+    "feng-mythology-c02",
+    "feng-mythology-c13"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "feng-mythology-c01",
+      "feng-mythology-c05",
+      "feng-mythology-c06"
+    ],
+    "kekuatan_perbuatan": [
+      "feng-mythology-c02",
+      "feng-mythology-c05"
+    ],
+    "tempat": [
+      "feng-mythology-c13"
+    ],
+    "sifat": [
+      "feng-mythology-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Massa daging berprofil hati sapi dengan tepat dua mata; tidak bertubuh humanoid dan tanpa gore.",
+      "claim_ids": [
+        "feng-mythology-c01",
+        "feng-mythology-c05",
+        "feng-mythology-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Regenerasi bentuk utuh sebagai lobus halus kembali menggembung, tanpa luka terbuka.",
+      "claim_ids": [
+        "feng-mythology-c02",
+        "feng-mythology-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lereng Gunung Di.",
+      "claim_ids": [
+        "feng-mythology-c13"
+      ]
+    }
+  ],
+  "aura": "Dua mata pada massa tanpa anggota c05 dan pembentukan ulang c02 memberi keganjilan.",
+  "artistic_choices": [
+    "Tidak memadukan varian manusia kecil c10.",
+    "Permukaan utuh matte dan pembengkakan non-gore menyampaikan regenerasi c05; warna/pencahayaan editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-60ef-7023-a20d-94ffb18c7ac6/exec-de3cf58b-877e-4a66-8ec6-09ceefe3236a.png",
+  "generated_at": "2026-10-13T17:45:55.326046+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/feng-mythology.png",
+  "native_sha256": "97bf7bbc24869ebac5b2f49a6acd16ff1fa4d2710d0e15ea8e41454468a2a942",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": [
+      "Uji Sangar 7/7 native+200px: massa lobus bentuk hati-sapi memenuhi bingkai, tepat dua mata frontal jelas dan tanpa kepala/mulut/anggota; bulging lobus mulus ditafsir sebagai pembentukan ulang c02/c05 tanpa gore. Tatapan uncanny bukan hewan biasa, cahaya/latar alami tanpa efek rekaan; tidak ada teks atau desain IP."
+    ],
+    "limitations": [],
+    "native_sha256": "97bf7bbc24869ebac5b2f49a6acd16ff1fa4d2710d0e15ea8e41454468a2a942",
+    "reviewed_at": "2026-10-13T17:45:55.326046+00:00"
+  }
+}

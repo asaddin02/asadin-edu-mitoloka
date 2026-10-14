@@ -1,0 +1,94 @@
+{
+  "slug": "lake-worth-monster",
+  "worker": "codex",
+  "worker_agent": "lane1767-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of lake-worth-monster, Furred and scaled man-goat throwing a tire from the bluff. Create one square PNG at least 1024 by 1024.\nANATOMY: One part-man part-goat body, one goatlike head, two eyes, two arms with long five-fingered clawed hands, two goatlike legs; ragged fur mingled with clearly visible thick scales. No ornamental horns or armor. [lake-worth-monster-c02, lake-worth-monster-c03, lake-worth-monster-c05]\nMOMENT: Hurl a heavy worn unlettered car tire from a lakeside bluff directly toward the foreground, body lunging, teeth bared, one hand releasing the tire and the other braced against rock.\nPOWER: A physically hurled tire in the foreground, no magic. [lake-worth-monster-c08]\nSCALE & CAMERA: extreme low angle, confrontational close framing; subject fills 80 percent of the image, unmistakable silhouette at 200 pixels. Normal plausible creature size, no giant landscape scale.\nLIGHT & WEATHER: one dominant low-key warm moonlight or dusk source as appropriate, sharp rim light, deep walnut shadows, sparse contextual spray or dust; dark warm painterly palette with antique gold accent, no flat daylight.\nSURFACE: tactile weathered natural materials, detailed rough skin, wet scales or coarse hair where anatomically appropriate; thick expressive oil brushwork and premium cinematic composition.\nSETTING: Lake Worth bluff by Greer Island near Fort Worth; dark lake below. [lake-worth-monster-c01, lake-worth-monster-c06]\nMOOD: Menacing attacking cryptid; overwhelming and imposing, never cute, calm, decorative or static. No modern costume.\nHARD CONSTRAINTS: no text, no lettering, no symbols, no glyphs or pseudo-glyphs, no inscriptions, logo, border, frame or watermark; no extra heads, limbs, fingers or eyes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Background subordinate to subject.",
+  "depicted_variant": "Furred and scaled man-goat throwing a tire from the bluff",
+  "basis_claim_ids": [
+    "lake-worth-monster-c02",
+    "lake-worth-monster-c03",
+    "lake-worth-monster-c05",
+    "lake-worth-monster-c01",
+    "lake-worth-monster-c06",
+    "lake-worth-monster-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "lake-worth-monster-c02",
+      "lake-worth-monster-c03",
+      "lake-worth-monster-c05"
+    ],
+    "kuasa": [
+      "lake-worth-monster-c08"
+    ],
+    "tempat": [
+      "lake-worth-monster-c01",
+      "lake-worth-monster-c06"
+    ],
+    "sifat": [
+      "lake-worth-monster-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One part-man part-goat body, one goatlike head, two eyes, two arms with long five-fingered clawed hands, two goatlike legs; ragged fur mingled with clearly visible thick scales. No ornamental horns or armor.",
+      "claim_ids": [
+        "lake-worth-monster-c02",
+        "lake-worth-monster-c03",
+        "lake-worth-monster-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lake Worth bluff by Greer Island near Fort Worth; dark lake below.",
+      "claim_ids": [
+        "lake-worth-monster-c01",
+        "lake-worth-monster-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A physically hurled tire in the foreground, no magic.",
+      "claim_ids": [
+        "lake-worth-monster-c08"
+      ]
+    }
+  ],
+  "aura": "Kesan kekuatan dari A physically hurled tire in the foreground, no magic.; lake-worth-monster-c08.",
+  "artistic_choices": [
+    "Palet walnut/emas antik, kamera rendah dan konfrontasi rapat adalah pilihan editorial.",
+    "Cuaca, tekstur dan penutupan tubuh adalah pilihan visual, bukan fakta ikonografi baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13684-a45f-72c0-920b-ca853f22d089/exec-20f102ad-fdca-430a-a9f9-41e479f75c10.png",
+  "generated_at": "2026-10-13T18:31:35.557101+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/lake-worth-monster.png",
+  "native_sha256": "f3cc2aa00ab86c01a7f8f9c8b0e17c9b8579cb3446b370b6235b20cd4589e77d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan thumbnail 200px dilihat. Uji Sangar 1–7 ya: subjek hybrid berbulu/bersisik dominan, ban terlempar c08 aktif dan berbahaya, dua mata/satu kepala/dua lengan/dua kaki sesuai, tangan depan lima jari bercakar; tanpa teks/glyph/aura/gore. Dominasi melalui perspektif rapat, bukan ukuran tubuh baru.",
+    "limitations": [],
+    "native_sha256": "f3cc2aa00ab86c01a7f8f9c8b0e17c9b8579cb3446b370b6235b20cd4589e77d",
+    "reviewed_at": "2026-10-13T18:31:35.557101+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "f3cc2aa00ab86c01a7f8f9c8b0e17c9b8579cb3446b370b6235b20cd4589e77d",
+    "notes": "Goat-headed man with matted fur and visible scales hurling a tyre from the bluff above Lake Worth; clawed five-fingered hands, no horns added."
+  }
+}

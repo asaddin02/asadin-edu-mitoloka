@@ -1,0 +1,89 @@
+{
+  "slug": "wd-q22100555",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Quru, the human-faced three-footed bird of Mount Daoguo.\nANATOMY: One small duck-like bird body with two wings, white feathered head bearing one HUMAN FACE with two eyes and a human mouth, exactly THREE small avian legs and three feet near the tail, one bird tail; no beak on the human face [wd-q22100555-c01, wd-q22100555-c02, wd-q22100555-c06]\nMOMENT: Pushes off a bare rock toward the viewer, wings raised and human mouth open in a cry, all THREE feet stretched apart below body in clear silhouette\nPOWER: The open human mouth suggests its self-naming call; no written sound and no supernatural effects [wd-q22100555-c03]\nSCALE & CAMERA: close low camera, subject occupies most of the square, sharp diagnostic anatomy, no unclaimed gigantic size; all required countable features separated and visible.\nLIGHT & WEATHER: one dominant warm raking dusk light, deep walnut shadows and antique-gold highlights, high contrast, atmospheric depth without magical glow.\nSURFACE: tactile natural skin, fur, feathers, scales or cloth as appropriate, painterly material detail, never plastic.\nSETTING: Mount Daoguo, rocky mountainside [wd-q22100555-c04]\nMOOD: imposing and awe-inspiring or threatening according to documented character, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, pseudo-writing, rune, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No decorative symbols or inscriptions.",
+  "depicted_variant": "White-headed human-faced Quru with three feet, not the alternate three hands.",
+  "basis_claim_ids": [
+    "wd-q22100555-c01",
+    "wd-q22100555-c02",
+    "wd-q22100555-c06",
+    "wd-q22100555-c03",
+    "wd-q22100555-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q22100555-c01",
+      "wd-q22100555-c02",
+      "wd-q22100555-c06"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "wd-q22100555-c03"
+    ],
+    "tempat": [
+      "wd-q22100555-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One small duck-like bird body with two wings, white feathered head bearing one HUMAN FACE with two eyes and a human mouth, exactly THREE small avian legs and three feet near the tail, one bird tail; no beak on the human face",
+      "claim_ids": [
+        "wd-q22100555-c01",
+        "wd-q22100555-c02",
+        "wd-q22100555-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The open human mouth suggests its self-naming call; no written sound and no supernatural effects",
+      "claim_ids": [
+        "wd-q22100555-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Daoguo, rocky mountainside",
+      "claim_ids": [
+        "wd-q22100555-c04"
+      ]
+    }
+  ],
+  "aura": "The open human mouth suggests its self-naming call; no written sound and no supernatural effects wd-q22100555-c03",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-3de5225a-d124-4b10-a564-fc94c8f29ff6.png",
+  "generated_at": "2026-10-13T18:32:55.352629+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/wd-q22100555.png",
+  "native_sha256": "05c0d780729897555532a9221d40e280984a3b10d86dd542f1c0cebd71aa3533",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES: human face and white head fill frame, launching cry, THREE separated feet/two wings/one tail counted at both sizes, no text/glow/IP. Mountain c04; vocal action c03 only.",
+    "limitations": [],
+    "native_sha256": "05c0d780729897555532a9221d40e280984a3b10d86dd542f1c0cebd71aa3533",
+    "reviewed_at": "2026-10-13T18:32:55.352629+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "05c0d780729897555532a9221d40e280984a3b10d86dd542f1c0cebd71aa3533",
+    "notes": "Duck-like bird with a white-feathered head bearing a screaming human face and exactly three small feet near the tail, landing on Mount Daoguo."
+  }
+}

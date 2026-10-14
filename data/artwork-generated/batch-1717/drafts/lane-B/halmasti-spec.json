@@ -1,0 +1,71 @@
+{
+  "slug": "halmasti",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Halmasti, the horse-sized malevolent sky hound of Chitrali mythology.\nANATOMY: a large wolf-like hound with dark red fur, elongated legs and a broad long muzzle; exactly one head, two eyes, four long legs and one tail [halmasti-c01,halmasti-c04]. No horns, no wings.\nMOMENT: leap through a dark courtyard doorway toward the viewer, forelegs thrust forward and jaws exhaling a vigorous jet of real orange fire into the foreground.\nPOWER: documented fire breath physically illuminates and scorches a patch of ground [halmasti-c05]. Do not add thunder powers.\nSCALE & CAMERA: extreme low angle; horse-sized hound fills the square; ordinary doorway behind measures its shoulder height [halmasti-c01].\nLIGHT & WEATHER: the breath flame is the single light source, deep walnut shadows, smoke and sparks from contact on the ground.\nSURFACE: dark red matted fur, leathery nose, damp stone and blackened earth.\nSETTING: exterior of a dwelling where a newborn is being protected, dark doorway behind, no baby visible [halmasti-c06,halmasti-c08].\nMOOD: terrifying nocturnal menace, dangerous and imposing, never pet-like.\nHARD CONSTRAINTS: no text, logo, border or watermark; no extra heads/limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no neon outline, generic aura or energy ribbons.",
+  "depicted_variant": "Halmasti wolf-like horse-sized menerjang dengan napas api.",
+  "basis_claim_ids": [
+    "halmasti-c01",
+    "halmasti-c04",
+    "halmasti-c05",
+    "halmasti-c06",
+    "halmasti-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "halmasti-c01",
+      "halmasti-c04"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "halmasti-c05",
+      "halmasti-c06",
+      "halmasti-c08"
+    ],
+    "tempat": [
+      "halmasti-c06"
+    ],
+    "sifat": [
+      "halmasti-c01",
+      "halmasti-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Hound sebesar kuda, wolf-like, bulu merah gelap, appendages panjang, muzzle besar.",
+      "claim_ids": [
+        "halmasti-c01",
+        "halmasti-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mengembuskan api.",
+      "claim_ids": [
+        "halmasti-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Di luar kediaman tempat kelahiran anak.",
+      "claim_ids": [
+        "halmasti-c06",
+        "halmasti-c08"
+      ]
+    }
+  ],
+  "aura": "Napas api c05 dan ukuran kuda c01 memberi ancaman fisik.",
+  "artistic_choices": [
+    "Pintu pembanding skala dan courtyard editorial; tidak meminjam lightning Tiangou c13 sebagai kekuatannya."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

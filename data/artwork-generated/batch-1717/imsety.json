@@ -1,0 +1,100 @@
+{
+  "slug": "imsety",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Imsety, the human-headed Egyptian protector god guarding the canopic vessel containing the liver of the deceased.\nANATOMY: ONE human male head, two human eyes, two arms, two legs under fully opaque richly folded ceremonial linen robes; composed stern godly face. No animal head, no horns, no invented weapon or solar disk. A TINY sealed canopic vessel with a human-head lid, only HALF THE HEIGHT OF HIS FINGERNAIL, is protected below his hands; no exposed organ [imsety-c01,c04,c06].\nMOMENT: sweep a vast sheltering hand downward around the sealed liver jar while the other hand braces its lid, descend and lean protectively toward the viewer with commanding guardian gaze. His near hand and face command the frame, robe folds move, decisive active shielding.\nPOWER: protection of the liver and canopic vessel only, no physical magic or glow [imsety-c01,c04].\nSCALE & CAMERA: extreme low angle, god fills entire square and looms over a tiny canopic jar in foreground; his body occupies a vast hypostyle chamber, his head reaches high stone ceiling. Several minute fully clothed adult funerary attendants at his fingertips establish an overwhelmingly colossal sacred divinity, his fingertip bigger than the attendants. Foreground jar and attendants must remain tiny compared with his hand; MONUMENTAL SCALE IS HONORIFIC EDITORIAL ALLEGORY OF DIVINE STATUS, not a source claim about body size. Never an ordinary standing man.\nLIGHT & WEATHER: one low funerary oil flame offscreen, antique gold rim on linen and human face, very deep walnut shadows and suspended dust, no aura.\nSURFACE: coarse ceremonial opaque linen, weathered stone jar, solemn natural skin.\nSETTING: dark enormous funerary canopic chamber of plain UNINSCRIBED stone pillars without glyphs, an editorial staging of the attested liver-jar protection, south-associated guardian [imsety-c03,c04].\nMOOD: sacred awe-inspiring guardian, respectful, protective and magnificent rather than evil.\nHARD CONSTRAINTS: no text, letters, logo, border, watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons.",
+  "depicted_variant": "Imsety humanheaded guardian shelters sealedliverjar; scalehonorificallegory.",
+  "basis_claim_ids": [
+    "imsety-c01",
+    "imsety-c04",
+    "imsety-c06",
+    "imsety-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "imsety-c01",
+      "imsety-c04",
+      "imsety-c06"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "imsety-c01",
+      "imsety-c04"
+    ],
+    "tempat": [
+      "imsety-c03"
+    ],
+    "sifat": [
+      "imsety-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dewa humanhead/male penuh busana buram; canopicjar liver tertutup.",
+      "claim_ids": [
+        "imsety-c01",
+        "imsety-c04",
+        "imsety-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Guardianliver, gerak tangan menutup/shelter jar tanpa spell.",
+      "claim_ids": [
+        "imsety-c01",
+        "imsety-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Funerary canopic context, south implied orientation not labeling.",
+      "claim_ids": [
+        "imsety-c03",
+        "imsety-c04"
+      ]
+    }
+  ],
+  "aura": "Human-headed god c01/c04/c06 dan guardianshieldliverc04 memberi wibawa.",
+  "artistic_choices": [
+    "Ukuranmonumental honorificeditorial §6.5 bukanfactsumber; linen/chamber/flamelight editorial tanpa ikonografirekaan; no organs visible.",
+    "Attendantsskala dan enlargedhypostyle editorialallegory bukanfactsumber; noinscriptions."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/imsety-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/imsety-attempt-01.json",
+      "native_sha256": "8c4df9fae6b96d1ae86f661b97ebf2a89c602e167759d7cd751fe21375ab7ced",
+      "reason": "Native+200: man guarding jar looks ordinary human scale, no monumental divineallegory evident; Uji7fails. Jar is large in hand, contrary tinyjar composition."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-e011-7771-8a2a-bae45481a643/exec-f6a7acba-cc25-43d9-a679-fbffe98f846a.png",
+  "generated_at": "2026-10-13T18:00:12.315587+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/imsety.png",
+  "native_sha256": "149e6b3d2978d3da519f5f569193a1f951455d895ef83146128ab6f0a6442036",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 Sangar7ya: monumental honorificdeity evident from tiny adult attendants by fingers; humanhead c01/c04/c06, guardianhand shelteringsealedjar c04, sacred non-evil, actionshield. No magic/aura/gore/text. Scale allegory documented editorial;01ordinaryman archived.",
+    "limitations": [],
+    "native_sha256": "149e6b3d2978d3da519f5f569193a1f951455d895ef83146128ab6f0a6442036",
+    "reviewed_at": "2026-10-13T18:00:12.315587+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "149e6b3d2978d3da519f5f569193a1f951455d895ef83146128ab6f0a6442036",
+    "notes": "Human-male god (as the sources describe) at monumental scale, shielding a small sealed canopic jar beside tiny attendants. Passes narrowly: the calm face is close to an ordinary man and only the scale lifts it."
+  }
+}

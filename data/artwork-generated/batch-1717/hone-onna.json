@@ -1,0 +1,89 @@
+{
+  "slug": "hone-onna",
+  "worker": "codex",
+  "worker_agent": "lane1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hone-onna, the skeletal woman yōkai returning from her grave to seek her lover.\nANATOMY: exactly one bare dry skull head with two empty eye sockets, two skeletal hands, two arms and two legs under a fully opaque weathered Japanese robe; exposed bones only at head and hands, no wet tissue, wounds or gore [hone-onna-c02,hone-onna-c06].\nMOMENT: rise from an opened grave and lean forward toward the viewer, one skeletal hand firmly pulling her body above the stone edge, the other reaching toward the viewer; robe and loose earth in motion.\nPOWER: documented nighttime awakening from the grave is the active physical manifestation [hone-onna-c04]; no life-force beams, no glowing eyes or invented visual energy.\nSCALE & CAMERA: extreme low close view; skull, reaching hand and shoulders fill most of the square, natural human proportions.\nLIGHT & WEATHER: one low moon lights pale bone and robe edges; deep walnut shadows and ordinary ground mist.\nSURFACE: dry weathered bone, frayed opaque cloth, damp rough stone and clinging soil.\nSETTING: dark graveyard at night [hone-onna-c04,hone-onna-c05].\nMOOD: grief-bound ominous apparition, unsettling and overwhelming, never smiling or decorative.\nHARD CONSTRAINTS: no written grave inscriptions, text, logo, border or watermark; no extra heads or limbs; no film/anime/game/comic imitation; no nudity or explicit gore; no generic glow aura, neon lines or energy ribbons.",
+  "depicted_variant": "Hone-onna skeletal true form bangkit dari kubur malam.",
+  "basis_claim_ids": [
+    "hone-onna-c02",
+    "hone-onna-c06",
+    "hone-onna-c04",
+    "hone-onna-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "hone-onna-c02",
+      "hone-onna-c06"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "hone-onna-c04",
+      "hone-onna-c07"
+    ],
+    "tempat": [
+      "hone-onna-c05"
+    ],
+    "sifat": [
+      "hone-onna-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Perempuan berupa tulang; tengkorak dan tangan tulang jelas, tubuh berbusana buram tanpa gore.",
+      "claim_ids": [
+        "hone-onna-c02",
+        "hone-onna-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bangkit dari kubur pada malam hari.",
+      "claim_ids": [
+        "hone-onna-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Graveyard gelap.",
+      "claim_ids": [
+        "hone-onna-c04",
+        "hone-onna-c05"
+      ]
+    }
+  ],
+  "aura": "True skeletal form c02/c06 dan grave rising c04 membuat sosok jelas supernatural.",
+  "artistic_choices": [
+    "Opaque robe bentuk historis editorial; dry skeleton menghindari gore; life drain tidak divisualisasikan sebagai beam; kesedihan bukan amarah rekaan."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135b7-2048-7152-9ed6-a8d2649d9b0a/exec-3b5385ed-dd2d-418c-b200-c9b15ee6726d.png",
+  "generated_at": "2026-10-13T14:57:07.859101+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/hone-onna.png",
+  "native_sha256": "be49e03871c10a1dc89375bfd56c22eb2b0890b901c1492163a08f4467a786d6",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat, tujuh Uji Sangar ya. Skeletal true form menggapai sambil bangkit dari kubur c04, skull/dua hands jelas; natural anatomy, opaque robe, no gore/energy/text; bukan manusia biasa atau pose tenang.",
+    "limitations": [],
+    "native_sha256": "be49e03871c10a1dc89375bfd56c22eb2b0890b901c1492163a08f4467a786d6",
+    "reviewed_at": "2026-10-13T14:57:07.859101+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "be49e03871c10a1dc89375bfd56c22eb2b0890b901c1492163a08f4467a786d6",
+    "notes": "Skeletal woman with long hair clawing out of a grave under the moon; skull and bone hands clear. Robe stains read as grave soil and a red under-kimono, not gore (native crop)."
+  }
+}

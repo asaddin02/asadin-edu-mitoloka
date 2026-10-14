@@ -1,0 +1,90 @@
+{
+  "slug": "kawaakago",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kawaakago, the Japanese riverside spirit in the form of a small SWADDLED supernatural VERMILION-RED infant [kawaakago-c01,c03].\nANATOMY: Show ONLY one small UNNATURALLY SOLID VERMILION-RED face, red across the entire forehead, nose and cheeks, NOT pink or a natural crying flush, emerging from a THICK FULLY OPAQUE DARK OCHRE SWADDLED BLANKET. The blanket completely covers and conceals the entire body, neck, chest, shoulders, both arms, hands and lower body. NO skin visible anywhere below the face. Dense riverside reeds hide the lower blanket bundle [kawaakago-c01,c02,c03]. No horns, fangs or claws.\nMOMENT: the red face leans out from its cloth bundle between wet reeds toward the close viewer, mouth open deliberately imitating a baby cry while ONE EYE is wide open directly WATCHING the viewer mid-prank, alert calculated gaze rather than distressed natural sobbing, no tears; a yokai lure meant to attract a passerby [kawaakago-c04]. No reaching bare hand.\nPOWER: no magic effect, just an uncanny prank cry at the dangerous water edge; no victims depicted [kawaakago-c04,c05].\nSCALE & CAMERA: extreme close low riverbank view, EXTREME CLOSE-UP, vermilion face fills most of the image, only edges of opaque cloth bundle seen, normal reeds very large relative to tiny infant, not a giant baby. All blanket edges secure and closed.\nLIGHT & WEATHER: one low amber moon catches red face; deep dark walnut shadows across opaque blanket and deep water.\nSURFACE: small red face, coarse thick opaque woven blanket, wet riverside reeds.\nSETTING: night riverside reeds [kawaakago-c02].\nMOOD: unsettling mischievous supernatural crying presence, startling uncanny direct eye contact, risky deceptive riverside prank rather than distressed ordinarybaby or cute; no demonicevil or gore.\nHARD CONSTRAINTS: fullyclothed and fullyswaddled, face-only visible skin. No nudity, no exposed chest, arms, hands or lowerbody. No text, letters, logo, border, frame, watermark, glowing aura, neon or copiedfilm/gamedesign.",
+  "depicted_variant": "Small red-skinned crying yokai in opaque cloth among riverside reeds.",
+  "basis_claim_ids": [
+    "kawaakago-c01",
+    "kawaakago-c02",
+    "kawaakago-c03",
+    "kawaakago-c04",
+    "kawaakago-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kawaakago-c01",
+      "kawaakago-c02",
+      "kawaakago-c03"
+    ],
+    "kekuatan": [
+      "kawaakago-c04",
+      "kawaakago-c05"
+    ],
+    "tempat": [
+      "kawaakago-c02"
+    ],
+    "sifat": [
+      "kawaakago-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small red-faced baby fully wrapped in opaque blanket, onlyfacevisible, reedscoverlowerbundle.",
+      "claim_ids": [
+        "kawaakago-c01",
+        "kawaakago-c02",
+        "kawaakago-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mouth mimicking infant cry to attract passerby; no magic effect.",
+      "claim_ids": [
+        "kawaakago-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Riverside reeds.",
+      "claim_ids": [
+        "kawaakago-c02"
+      ]
+    }
+  ],
+  "aura": "Uncanny red infant c03 and lure cry beside deep water c04/c05.",
+  "artistic_choices": [
+    "Opaque garment is editorial modesty; reeds corroborated c02.",
+    "No extra evil powers; infant prank c04/c05 only.",
+    "After outputmoderationfailure, newcomposition shows onlyface; entirebody/neck/arms/hands enclosed in opaque blanket."
+  ],
+  "generation_failures": [
+    {
+      "attempt": 1,
+      "stage": "output",
+      "tool": "OpenAI built-in image_gen",
+      "error": "HTTP400 moderation_blocked safety_violations=[sexual]",
+      "request_id": "75c85dd8-146a-462c-8606-5d8f749e639b",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kawaakago, the small red-skinned baby-shaped Japanese yokai beside river reeds.\nANATOMY: ONE small baby with red skin, one head, two eyes, two arms; fully opaque dark ochre wrapped cloth covers entire torso and lower body; thick reeds additionally conceal lower body [kawaakago-c01,c02,c03]. No nudity, horns, fangs or claws.\nMOMENT: lean forward between wet reeds toward the low close viewer, mouth open while imitating an infant's cry to attract a passerby, one small hand reaching out [kawaakago-c04].\nPOWER: no visible magic; the prank cry near deep water is the danger, no victim shown [kawaakago-c04,c05].\nSCALE & CAMERA: extreme close riverbank view at infant eye level, small red face dominates image, large normal reeds prove small size, not a giant baby.\nLIGHT & WEATHER: one low amber moon side-lights red cheek and wet reeds; deep walnut water shadows, ripples only from natural river movement.\nSURFACE: natural red skin, rough opaque wrapped textile, wet brown-green reeds.\nSETTING: dark riverside reeds [kawaakago-c02].\nMOOD: strange unsettling mischievous yokai with risky prank, solemn and uncanny, not cute or a demonic evil child.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design from films, games, anime or comics; no nudity, no explicit gore; no generic glow aura, neon outlines, floating symbols or energy ribbons.",
+      "generated_file": null,
+      "recorded_at": "2026-10-13T18:02:19.444037+00:00"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/kawaakago-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/kawaakago-attempt-02.json",
+      "native_sha256": "1bca4c2f23f9371b59e2dde00ede90e5013463a635869c0dc9f80a3b5b613fd5",
+      "reason": "Sangar#2/#7 gagal: fullyswaddled aman, tetapi wajah ordinarydistressedcryingbaby, merah dapat dibaca flushalami. Tidak jelas yokaiuncannyprank c03/c04/c05."
+    }
+  ]
+}

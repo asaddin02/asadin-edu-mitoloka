@@ -1,0 +1,99 @@
+{
+  "slug": "kamohoali-i",
+  "worker": "codex",
+  "worker_agent": "resume1717-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kamohoalii, sacred Hawaiian shark god actively rescuing and guiding lost sailors home.\nANATOMY: ONE mighty shark incarnation, one head, two eyes, normal shark fins and one powerful tail, no human parts or crown [kamohoali-i-c07,c08]. A sacred monumental visual allegory, NOT a factual claim that sources specify giant body size.\nMOMENT: drive protectively toward the low viewer, head lowered with powerful stern authority, tail flexing sharply outward in a forceful visible guiding stroke. An imperiled voyaging canoe with sailors desperately holding the gunwales follows his curved tail wake toward the distant safe island [kamohoali-i-c03]. Mouth CLOSED. Not attack, not friendly smiling wildlife.\nPOWER: real huge displaced water curls behind the sharply moving guiding tail; physical wake visibly provides a path for the lost canoe [kamohoali-i-c03]. Weather and waves are editorial natural conditions, NOT a claim he creates storms. No fire, steam, magic beams or aura.\nSCALE & CAMERA: extreme low split-water close view looking UP at the shark's towering shoulder and great dorsal fin, looming head fills foreground, enormous tail and turbulent curved wake dominate the rest. Canoe much smaller as a sacred monumental editorial allegory, not asserted source anatomy size.\nLIGHT & WEATHER: dark threatening ocean squall, ONE narrow antique-gold break of sunset side-light across the shark brow, deep black-brown sea shadows, heavy rain and violent ordinary natural waves.\nSURFACE: rugged scarred gray shark skin, dark emerald depths, heavy textured water and foam, premium painterly brushwork, not wildlife stock photography.\nSETTING: dark waters around Maui and Kahoolawe with a far safe Hawaiian island [kamohoali-i-c02].\nMOOD: overwhelming sacred awe and divine protective authority, benevolent rescuer amid danger, no evil grin, no attacking canoe, no victims or gore.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra body parts; no film/game/anime/comic design; no nudity, gore, glow aura, neon or energy ribbons.",
+  "depicted_variant": "Sacred monumental editorial shark allegory leading lost canoe, not source-definedgiantbody.",
+  "basis_claim_ids": [
+    "kamohoali-i-c07",
+    "kamohoali-i-c08",
+    "kamohoali-i-c03",
+    "kamohoali-i-c02",
+    "kamohoali-i-c04",
+    "kamohoali-i-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kamohoali-i-c07",
+      "kamohoali-i-c08"
+    ],
+    "kekuatan": [
+      "kamohoali-i-c03"
+    ],
+    "tempat": [
+      "kamohoali-i-c02"
+    ],
+    "sifat": [
+      "kamohoali-i-c04",
+      "kamohoali-i-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Shark incarnation, one head and normal shark fins and tail.",
+      "claim_ids": [
+        "kamohoali-i-c07",
+        "kamohoali-i-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tail motion guides lost sailors home; natural wake only.",
+      "claim_ids": [
+        "kamohoali-i-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waters near Maui and Kahoolawe.",
+      "claim_ids": [
+        "kamohoali-i-c02"
+      ]
+    }
+  ],
+  "aura": "Shark king c04 embodied as protective shark c07/c08; guiding tail c03.",
+  "artistic_choices": [
+    "Species-neutral shark anatomy and cinematic split-water camera editorial.",
+    "No unsupported giant size, flame, steam effect or crown; normal sea spray only.",
+    "Monumental divine scale is explicit editorial allegory under GAMBAR6.5, NOT a factual source claim of giantshark. Squall and waves naturaleditorial, no stormcreatingpower."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1717/rejected/kamohoali-i-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1717/rejected/kamohoali-i-attempt-01.json",
+      "native_sha256": "6ac2bdf01c092bdcbfee94a19d3c1f704a73ffe3989396dd40269b84726d6d05",
+      "reason": "Root inspected native+200: friendly calm ordinary shark wildlifephoto ahead of normal canoe; no awestruck divine presence. Sangar#2/#7 fail. Revise protective guidance in urgent scene, explicit editorial divine monumental allegory, no invented storm/fire power."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cc-66db-78b1-b552-b9280b8aa6f3/exec-8731f24e-a444-487a-845c-79e8fdc9da10.png",
+  "generated_at": "2026-10-13T18:01:01.240934+00:00",
+  "original_file": "data/artwork-generated/batch-1717/originals/kamohoali-i.png",
+  "native_sha256": "e195be98e79b122fb14b3ba138e57d782df317aa9392b9165dbdcded03df2f06",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+2007yes:1monumental editorialsharkhead dominatesforeground;2sternprotectiveimmensity stronglyawe at200;3visible mighty tailturn and turbulent curved wake guides imperiledcanoe;4tailguidancec03 only, natural squall/rain editorial NOTstormpower;5one sharkhead/body/fins/tail c07/c08, monumental scale expliciteditorialallegory notsourcegiantsize;6no text/frame/copiedIP/gore;7urgentdivineguardian escort neither calmwildlifephoto nor evilattack.01rootrejected andwhole receipt/native preserved.",
+    "limitations": [],
+    "native_sha256": "e195be98e79b122fb14b3ba138e57d782df317aa9392b9165dbdcded03df2f06",
+    "reviewed_at": "2026-10-13T18:01:01.240934+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "e195be98e79b122fb14b3ba138e57d782df317aa9392b9165dbdcded03df2f06",
+    "notes": "Huge shark incarnation ploughing through storm swells ahead of a lost canoe off Maui; normal shark anatomy, scale against the canoe gives the awe."
+  }
+}

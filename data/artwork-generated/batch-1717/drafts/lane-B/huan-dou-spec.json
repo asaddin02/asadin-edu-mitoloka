@@ -1,0 +1,61 @@
+{
+  "slug": "huan-dou",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Huan Dou, the bird-beaked winged man of the Classic of Mountains and Seas.\nANATOMY: exactly one human head with human facial structure and one unmistakable large bird beak replacing mouth and nose, two human eyes, two human arms, two human legs and two large feathered wings attached to the back; fully opaque rough ancient robe [huan-dou-c09,huan-dou-c14]. No bird legs or extra heads.\nMOMENT: swoop toward the viewer over the sea, wings driving air and breaking spray, two hands gripping a freshly caught large fish; sharp solemn gaze directly at viewer, beak open slightly over fish, no blood.\nPOWER: no documented magical power; the winged fish-catching manifestation itself is active [huan-dou-c09,huan-dou-c14].\nSCALE & CAMERA: extreme low close framing, face, beak and wings dominate square, natural human body proportions not invented giant scale.\nLIGHT & WEATHER: one warm setting sun, rim light on dark feather edges, deep walnut shadows, ordinary ocean spray.\nSURFACE: worn feather vanes, real human skin, coarse opaque cloth, wet fish scales.\nSETTING: sea where he eats and catches fish [huan-dou-c09,huan-dou-c14].\nMOOD: imposing ancestral mythical being, solemn and awe-inspiring; not a villain, cute mascot or calm portrait.\nHARD CONSTRAINTS: no text/logo/border/watermark; no extra heads/limbs; no borrowed film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Winged bird-beaked Huan Dou menangkap ikan dari laut.",
+  "basis_claim_ids": [
+    "huan-dou-c09",
+    "huan-dou-c14"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "huan-dou-c09",
+      "huan-dou-c14"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "huan-dou-c09",
+      "huan-dou-c14"
+    ],
+    "tempat": [
+      "huan-dou-c09",
+      "huan-dou-c14"
+    ],
+    "sifat": [
+      "huan-dou-c01",
+      "huan-dou-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Wujud manusia berparuh burung dan bersayap, wajah manusia, busana buram.",
+      "claim_ids": [
+        "huan-dou-c09",
+        "huan-dou-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Menangkap/makan ikan laut.",
+      "claim_ids": [
+        "huan-dou-c09",
+        "huan-dou-c14"
+      ]
+    }
+  ],
+  "aura": "Beak/wing anatomy c09/c14 mendominasi framing ketika menangkap ikan.",
+  "artistic_choices": [
+    "Warna bulu, robe, sunset dan swoop framing editorial; without magical power effects; respect ancestor c10."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}
