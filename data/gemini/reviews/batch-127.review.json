@@ -1,15 +1,18 @@
 {
   "batch_id": "batch-127",
-  "checked_at": "2026-10-02T15:34:36.818Z",
+  "checked_at": "2026-10-14T02:45:26.117Z",
   "files": [
-    "batch-127.md"
+    "batch-127.md",
+    "batch-127-fix-1.md",
+    "batch-127-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "spor-slavic-demon",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "1fc15af312f7801bb84925f627282ec8b0b1c213459a4711a99800c05a01679c",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -49,11 +52,12 @@
     },
     {
       "slug": "stedra-baba",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "fa8b0e8fee6242a24a942575f8f3352082b1a9f86f17378a84b20ca5fe58982e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -61,11 +65,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"tradisi rakyat Ceko (Czech folk culture)\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -128,13 +127,24 @@
           "quote": "Štědrá bába je také název rozhlasové pohádky Marie Kubátové z roku 1993.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "stedra-baba-c07",
+          "source_id": "stedra-baba-s2",
+          "host": "www.krnap.cz",
+          "statement": "In the Czech part of Krkonoše the Christmas gifts were brought by Krystylle-Ježíšek or by štědrá bába, while in the German part it was the Christkind.",
+          "statement_id": "Di bagian Ceko Krkonoše, hadiah Natal dibawa oleh Krystylle-Ježíšek atau oleh štědrá bába, sedangkan di bagian Jerman oleh Christkind.",
+          "quote": "Nadílku obstarával v české části Krkonoš Krystylle-Ježíšek, nebo štědrá bába, v části německé to byl Christkind.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sumpurnis",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "d0bf8c9adc7f7a5e154d5ac81f478bc06e307fe90d7e7b02d85410a66bfe8a3e",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 7,
@@ -224,20 +234,15 @@
     },
     {
       "slug": "talamaur",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "f777fd4cd83d2f3e5586f6702fefce2a4cb581ccaac6afdf2fd97095b5167525",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "talamaur-c01",
@@ -308,26 +313,71 @@
           "quote": "Both forms descend from Proto-Torres-Banks *tala-mauri, literally \"living soul\" (*tala \"soul\", *mauri \"to live\").",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "talamaur-c08",
+          "source_id": "talamaur-s2",
+          "host": "archive.org",
+          "statement": "Codrington records a belief in the Banks Islands in a power like that of vampires.",
+          "statement_id": "Codrington mencatat kepercayaan di Kepulauan Banks tentang suatu kekuatan yang mirip kekuatan vampir.",
+          "quote": "There is a belief in the Banks' Islands in the existence of a power like that of Vampires.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "talamaur-c09",
+          "source_id": "talamaur-s2",
+          "host": "archive.org",
+          "statement": "The power was sought out of a morbid desire for communion with a ghost; to gain it a person would steal and eat a morsel of a corpse.",
+          "statement_id": "Kekuatan itu dicari karena hasrat yang tidak sehat untuk berhubungan dengan suatu arwah; untuk mendapatkannya orang mencuri dan memakan secuil jenazah.",
+          "quote": "this power out of a morbid desire for communion with some ghost, and to gain it would steal and eat a morsel of a corpse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "talamaur-c10",
+          "source_id": "talamaur-s2",
+          "host": "archive.org",
+          "statement": "The afflicted man would feel something influencing his life and come to dread a particular neighbour, who was then suspected of being a talamaur.",
+          "statement_id": "Orang yang diganggu merasa ada sesuatu yang memengaruhi hidupnya dan menjadi takut pada tetangga tertentu, yang lalu dicurigai sebagai talamaur.",
+          "quote": "The man so afflicted would feel that something was influencing his life, and would come to dread some particular person among his neighbours, who was therefore suspected of being a talamaur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "talamaur-c11",
+          "source_id": "talamaur-s2",
+          "host": "archive.org",
+          "statement": "A story is told of a woman who made no secret of doing this; when a neighbour died she announced that she would come in the night and eat the corpse.",
+          "statement_id": "Diceritakan ada seorang perempuan yang terang-terangan melakukannya; ketika seorang tetangga meninggal, ia mengumumkan akan datang pada malam hari untuk memakan jenazahnya.",
+          "quote": "There was a woman some years ago of whom the story is told that she made no secret of doing this, and that once on the death of a neighbour she gave notice that she should go in the night and eat the corpse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "talamaur-c12",
+          "source_id": "talamaur-s2",
+          "host": "archive.org",
+          "statement": "Such a woman took a morbid delight in the dread she inspired and was secretly rewarded by those whose spite she gratified.",
+          "statement_id": "Perempuan semacam itu menikmati rasa takut yang ditimbulkannya dan diam-diam diberi upah oleh orang yang dendamnya ia lampiaskan.",
+          "quote": "Such a woman would feel a morbid delight in the dread which she inspired, and would also be secretly rewarded by some whose secret spite she gratified.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "todorci",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "6ceb1a0de617cae77b279684732890e24f2dbd7a28ae8aefe248274d4d9d7cfd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 11,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "todorci-c01",
@@ -438,6 +488,56 @@
           "quote": "Ти обреди су свршени са циљем да се ови ноћни демони умилостиве и отерају.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "todorci-c12",
+          "source_id": "todorci-s2",
+          "host": "izdanja.filfak.ni.ac.rs",
+          "statement": "The Todorova subota complex includes beliefs about processions of (invisible) night horses and riders, with the motif of punishment by trampling for breaking taboos: spinning (предења), going out at night, or lighting.",
+          "statement_id": "Kompleks ritual Todorova subota mencakup kepercayaan tentang iring-iringan kuda dan penunggang malam (tak kasatmata), dengan motif hukuman diinjak karena melanggar tabu: memintal (предења), keluar malam, atau menyalakan penerangan.",
+          "quote": "Комплекс укључује и веровања и предања везана за поворке (невидљивих) ноћних коња и јахача, за које је карактеристичан и мотив кажњавања гажењем због кршења табуа: предења, излажења ноћу, осветљења.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "todorci-c13",
+          "source_id": "todorci-s2",
+          "host": "izdanja.filfak.ni.ac.rs",
+          "statement": "According to Radenković, such beliefs are attested among Serbs in north-eastern Serbia (Србији), Vojvodina (Војводини) and Hungary (Мађарској), Bulgarians in northern Bulgaria (Бугарској), Vlachs in north-eastern Serbia, and Romanians (Румуна).",
+          "statement_id": "Menurut Radenković, kepercayaan semacam itu tercatat pada orang Serbia di timur laut Serbia (Србији), Vojvodina (Војводини) dan Hungaria (Мађарској), orang Bulgaria di Bulgaria utara (Бугарској), orang Vlach di timur laut Serbia, dan orang Rumania (Румуна).",
+          "quote": "закључује да су оваква веровања потврђена код Срба у североисточној Србији, Војводини и Мађарској, код Бугара у северној Бугарској, код Влаха у североисточној Србији и код Румуна.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "todorci-c14",
+          "source_id": "todorci-s2",
+          "host": "izdanja.filfak.ni.ac.rs",
+          "statement": "In the mid-20th century Milenko Filipović (Миленко Филиповић, 1950) pointed out that the cult of the demonic todorci developed in areas once inhabited by Thracians (Трачанима).",
+          "statement_id": "Pada pertengahan abad ke-20 Milenko Filipović (Миленко Филиповић, 1950) menunjukkan bahwa kultus makhluk demonis todorci berkembang di wilayah yang dahulu dihuni orang Thrakia (Трачанима).",
+          "quote": "Средином 20. века Миленко Филиповић (1950) указao je на чињеницу да је култ демонских бића тодорци развијен на просторима који су били насељени Трачанима",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "todorci-c15",
+          "source_id": "todorci-s2",
+          "host": "izdanja.filfak.ni.ac.rs",
+          "statement": "The features of these demons, as summarised from Agapkina's study, include the belief that they come from the unclean dead, a system of taboos, and sometimes lameness.",
+          "statement_id": "Ciri-ciri demon ini, sebagaimana dirangkum dari kajian Agapkina, mencakup kepercayaan bahwa mereka berasal dari orang mati yang najis, sistem tabu, dan kadang kepincangan.",
+          "quote": "Осим карактеристика и функција демона (веровања да потичу од нечистих покојника, систем табуа, некада хромост и сл.)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "todorci-c16",
+          "source_id": "todorci-s2",
+          "host": "izdanja.filfak.ni.ac.rs",
+          "statement": "Agapkina (Агапкина) concludes that the appearance of this type of demon in the early spring calendar is peculiar to the Balkan Slavs and has no parallel in other Slavic traditions.",
+          "statement_id": "Agapkina (Агапкина) menyimpulkan bahwa munculnya demon jenis ini pada awal kalender musim semi adalah kekhasan Slavia Balkan yang tidak ada padanannya dalam tradisi Slavia lain.",
+          "quote": "Агапкина констатује да је појава оваквог типа демона у раном делу пролећног календара особеност балканских Словена која нема паралеле у другим словенским традицијама.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -459,7 +559,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "c08742055335201579ba7ccedf0d90ac87dab023bb4de30150b1a522d3d8ec7d"
     },
     {
       "slug": "tsmok",
@@ -478,22 +579,24 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "4321c90de6e40fddbaed367b933256b318a516e667e150f9dfc9571f1a749f1e"
     },
     {
       "slug": "tur-bosnian-slavic-mythology",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "8425edeae4e62109a55d894e23c07923cad04f5488ccaf154049dae93f872c63",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -536,6 +639,16 @@
           "quote": "He is described as a giant black bull with curved, pointy horns.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tur-bosnian-slavic-mythology-c05",
+          "source_id": "tur-bosnian-slavic-mythology-s2",
+          "host": "web.archive.org",
+          "statement": "A folklore archive record mentions the Bosnian-Slavic myth of Tur, a giant bull that lives underground and causes earthquakes when he moves his horn, and notes its similarity to the Greek myth of Atlas holding up the world on his shoulders.",
+          "statement_id": "Sebuah catatan arsip folklor menyebut mitos Bosnia-Slavia tentang Tur, banteng raksasa yang hidup di bawah tanah dan menimbulkan gempa ketika menggerakkan tanduknya, serta menyebut kemiripannya dengan mitos Yunani tentang Atlas yang menyangga dunia di bahunya.",
+          "quote": "There is also a very similar Bosnian-Slavic myth, Tur, which tells of a giant bull that lives underground, causing earthquakes when he moves his horn, and even similarities to the Greek myth of Atlas holding up the world on his shoulders.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -557,24 +670,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c094d92ad2bf66a05660470af34d13d936bacbd7f37417f3e39610d4ad62d84"
     },
     {
       "slug": "ulemiste-vanake",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "84feef77f743d79f0ca70eb05bd36d436610226a20efd71cc583eb33a9674f9f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ulemiste-vanake-c01",
@@ -615,6 +724,36 @@
           "quote": "Jaanilaupäeva öösel pidi käima küsimas, kas linn on valmis. Vastatud ikka, et ei ole valmis.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ulemiste-vanake-c05",
+          "source_id": "ulemiste-vanake-s2",
+          "host": "www.folklore.ee",
+          "statement": "According to a legend, every Midsummer (jaanipäev) night a small black man comes out of Lake Ülemiste (Ülemiste järvest) in Tallinn and asks the lake keeper: \"Is the town finished yet?\"",
+          "statement_id": "Menurut sebuah muistend, setiap malam jaanipäev seorang lelaki kecil berkulit hitam keluar dari Danau Ülemiste (Ülemiste järvest) di Tallinn dan bertanya kepada penjaga danau: \"Apakah kota sudah selesai?\"",
+          "quote": "Tallinna Ülemiste järvest tulla iga jaanipäevaööse üks veike must mees välja ja küsida järvevahi käest: “Kas linn juba valmis on?”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ulemiste-vanake-c06",
+          "source_id": "ulemiste-vanake-s2",
+          "host": "www.folklore.ee",
+          "statement": "If the keeper said the town was finished, the lake would overflow and drown the town.",
+          "statement_id": "Jika penjaga itu menjawab bahwa kota sudah selesai, danau akan meluap dan menenggelamkan kota.",
+          "quote": "Kui vaht peaks ütlema, et linn valmis on, siis hakkaks järv üle ajama ja uputaks linna ära.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ulemiste-vanake-c07",
+          "source_id": "ulemiste-vanake-s2",
+          "host": "www.folklore.ee",
+          "statement": "Archive reference E 37538 (1898): recorded in Tallinn by A. Borner from M. Kukk.",
+          "statement_id": "Catatan arsip E 37538 (1898): dicatat di Tallinn oleh A. Borner dari M. Kukk.",
+          "quote": "E 37538 (1898) < Tallinn – A. Borner < M. Kukk (1898)",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
@@ -636,7 +775,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "61f168d50212f8a5e67a8773399a9f5e5b9d8985f4a2a3d7dc5370292ac8992e"
     },
     {
       "slug": "vila",
@@ -655,24 +795,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "eac56bd572b20e49d51922246d1b3c6c610cda0da4c5a9dfbf3255d6e0577d57"
     },
     {
       "slug": "vorota-beast",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "5b457362b6dd08cdc7837c2942fbf9b67eb83b635008ba48d47b843f00dcd0f2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vorota-beast-c01",
@@ -718,19 +854,39 @@
           "id": "vorota-beast-c05",
           "source_id": "vorota-beast-s1",
           "host": "zh.wikipedia.org",
-          "statement": "Its head was about 6 feet wide and its body about 30 to 40 feet long; there was a large fin on its hump.",
-          "statement_id": "Kepalanya kira-kira selebar 6 kaki dan tubuhnya kira-kira 30 sampai 40 kaki panjangnya; di punuknya ada sirip besar.",
-          "quote": "它的头大约6英尺宽，身体大约30至40英尺长。在它的肉峰上有一个大的鳍。",
+          "statement": "Its head was about 6 feet wide and its body about 30 to 40 feet long; there was a large fin on its hump. In the 1960s several geologists also claimed to have seen a huge grey creature with a fin on its back.",
+          "statement_id": "Kepalanya kira-kira selebar 6 kaki dan tubuhnya kira-kira 30 sampai 40 kaki panjangnya; di punuknya ada sirip besar. Pada 1960-an, beberapa ahli geologi juga mengaku melihat makhluk abu-abu raksasa bersirip di punggungnya.",
+          "quote": "它的头大约6英尺宽，身体大约30至40英尺长。在它的肉峰上有一个大的鳍。 20世纪60年代，有几个地质学家也声称看到了一个背上有鳍的巨大灰色生物。",
           "context": "historical-record",
           "status": "exact"
         },
         {
-          "id": "vorota-beast-c06",
-          "source_id": "vorota-beast-s1",
-          "host": "zh.wikipedia.org",
-          "statement": "There was a large fin on its hump; in the 1960s several geologists also claimed to have seen a huge grey creature with a fin on its back.",
-          "statement_id": "Di punuknya ada sirip besar; pada 1960-an, beberapa ahli geologi juga mengaku melihat makhluk abu-abu raksasa bersirip di punggungnya.",
-          "quote": "在它的肉峰上有一个大的鳍。 20世纪60年代，有几个地质学家也声称看到了一个背上有鳍的巨大灰色生物。",
+          "id": "vorota-beast-c07",
+          "source_id": "vorota-beast-s2",
+          "host": "www.nbcnews.com",
+          "statement": "Besides local folklore about Lake Labynkyr, some scientists have reported seeing a strange creature in that lake and in nearby Lake Vorota.",
+          "statement_id": "Selain cerita rakyat setempat tentang Danau Labynkyr, beberapa ilmuwan melaporkan melihat makhluk aneh di danau itu dan di Danau Vorota yang berdekatan.",
+          "quote": "In addition to local folklore, some scientists have reported seeing a strange creature in the lake (and in nearby Lake Vorota).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vorota-beast-c08",
+          "source_id": "vorota-beast-s2",
+          "host": "www.nbcnews.com",
+          "statement": "In 1953 a team of geologists from the Soviet Academy of Sciences led by Viktor Tverdokhlebov visited Lake Vorota; Tverdokhlebov reported seeing a large underwater animal the size of an orca swimming near the surface.",
+          "statement_id": "Pada 1953 tim ahli geologi Akademi Ilmu Pengetahuan Soviet (Soviet Academy of Sciences) yang dipimpin Viktor Tverdokhlebov mengunjungi Danau Vorota; Tverdokhlebov melaporkan melihat hewan besar di bawah air seukuran orca berenang dekat permukaan.",
+          "quote": "In 1953, a team of geologists from the Soviet Academy of Sciences led by Viktor Tverdokhlebov visited Lake Vorota. Tverdokhlebov reported seeing a large, underwater animal the size of an orca swimming near the surface of the lake, according to a report in the Siberia Times.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vorota-beast-c09",
+          "source_id": "vorota-beast-s2",
+          "host": "www.nbcnews.com",
+          "statement": "Rumours of the Labynkyr \"Devil\" and any Vorota \"monster\" are met with considerable skepticism, especially given the lack of verifiable photographs, video or physical evidence.",
+          "statement_id": "Kabar tentang \"Iblis\" Labynkyr dan \"monster\" Vorota disambut skeptis, terutama karena tidak ada foto, video, atau bukti fisik yang dapat diverifikasi.",
+          "quote": "Of course, considerable skepticism surrounds rumors of the Labynkyr \"Devil\" and any Vorota \"monster,\" especially given the lack of any verifiable photographs, video or physical evidence.",
           "context": "historical-record",
           "status": "exact"
         }
@@ -739,20 +895,15 @@
     },
     {
       "slug": "vostrukha",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "43c8fd61db32e4702f3b8ed5a9b11ff9dbcb9cc9e7f86117aba335822c0a5284",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vostrukha-c01",
@@ -843,24 +994,35 @@
           "quote": "Мелкие седовласые старушки-вострухи — духи-защитницы дома",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "vostrukha-c10",
+          "source_id": "vostrukha-s2",
+          "host": "be.wikipedia.org",
+          "statement": "According to the article on Belarusian folk demonology, scholars have shown that a number of mythological characters arose mainly as armchair reconstructions by researchers of the second half of the 19th century, above all P. Shpilevsky (Шпілеўскага); Vastrukha (Ваструха) is among them, along with Vazila, Lyubmel, Bordzya, Kumyalgan, Yarkun and Hartsuki.",
+          "statement_id": "Menurut artikel tentang demonologi rakyat Belarus, para peneliti telah menunjukkan bahwa sejumlah tokoh mitologis muncul terutama sebagai rekonstruksi \"di belakang meja\" para peneliti paruh kedua abad ke-19, terutama P. Shpilevsky (Шпілеўскага); Vastrukha (Ваструха) termasuk di antaranya, bersama Vazila, Lyubmel, Bordzya, Kumyalgan, Yarkun, dan Hartsuki.",
+          "quote": "навукоўцамі ўжо даказана, што шэраг міфалагічных персанажаў з’явіліся пераважна як вынік кабінетных рэканструкцый даследчыкаў другой паловы ХІХ ст., у першую чаргу П. Шпілеўскага. Да такіх персанажаў могуць быць аднесены Вазіла, Ваструха, Любмел, Бордзя, Кумяльган, Яркун, Гарцукі і інш.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "vuokko",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-1.md",
+      "entry_sha256": "f35099acbda0b6fd746ada3d53ed0797cd7e9b227603cce10cbec2a58d0422a1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -903,6 +1065,16 @@
           "quote": "Vuokko on laina vaakalintua tarkoittavasta sanasta.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "vuokko-c05",
+          "source_id": "vuokko-s2",
+          "host": "runeberg.org",
+          "statement": "According to Leem's account of Danish Lapland, Vuokko was well known to many of the Laplanders as an evil demon appearing as a huge, foul bird, from which the noaidi (Neaaid, magician) was said to receive the infamous, noxious flies that caused so many bad effects.",
+          "statement_id": "Menurut catatan Leem tentang Lapland Denmark, Vuokko dikenal banyak orang Sami (Laplanders) sebagai demon jahat yang menampakkan diri sebagai burung besar yang menjijikkan; dari Vuokko itulah sang noaidi (Neaaid, penyihir) konon menerima lalat-lalat jahat yang menjadi penyebab banyak keburukan.",
+          "quote": "Vuokko is alfo well known to many of the Laplanders, and defcribed asa bad demon, appearing in the form of a hugeand foul bird, from which the Neaaid, or magician, is faid to receive thofe in- famous and noxious flies, the caufe and means of fo many bad effects.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -924,24 +1096,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "1aa2d63194cdbc15fcd25e2aa45e197f79e46afff7cb99430640a18e397548cd"
     },
     {
       "slug": "vyal",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "9a809dbcffbee554081e30878c02ef19efe0e991a1b51d1e414cacb91a2c68b6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vyal-c01",
@@ -1002,26 +1170,51 @@
           "quote": "У Польшчы захавалася легенда пра Вавельскага цмока, які жыў у прыгорку пад Кракавам і быў знішчаны гэтакім жа чынам, як і Вяль",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "vyal-c07",
+          "source_id": "vyal-s2",
+          "host": "web.archive.org",
+          "statement": "In Iryna Dubianetskaya's telling, the dragon lived near a locality, played with a big stone and kept people from passing; that was the only bad thing it did in this story.",
+          "statement_id": "Menurut penuturan Iryna Dubianetskaya, naga itu tinggal dekat sebuah tempat, bermain dengan batu besar dan menghalangi orang lewat; hanya itu perbuatan buruknya dalam kisah ini.",
+          "quote": "Каля нейкай беларускай мясцовасці жыў цмок, што бавіўся з вялікім каменем і не даваў людзям прайсці. Гэта адзінае, што ён рабіў кепскага ў гэтай гісторыі.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vyal-c08",
+          "source_id": "vyal-s2",
+          "host": "web.archive.org",
+          "statement": "Dubianetskaya recorded this legend of the dragon named Vyal (Вяль) in the village of Valeikishki (Валэйкішкі) in the Astravets area; local people link the village's name to the dragon's name.",
+          "statement_id": "Dubianetskaya mencatat legenda tentang naga bernama Vyal (Вяль) ini di desa Valeikishki (Валэйкішкі) di wilayah Astravets; penduduk setempat mengaitkan nama desa itu dengan nama naga tersebut.",
+          "quote": "А цмока звалі Вяль. Гэтую легенду я запісала ў вёсцы Валэйкішкі на Астравеччыне. Мясцовыя жыхары звязваюць назву вёскі менавіта з імем цмока.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vyal-c09",
+          "source_id": "vyal-s2",
+          "host": "web.archive.org",
+          "statement": "According to Dubianetskaya, similar legends are fairly widespread in Belarus (Беларусі).",
+          "statement_id": "Menurut Dubianetskaya, legenda serupa cukup tersebar di Belarus (Беларусі).",
+          "quote": "І таксама здох са страху”. Аналагічныя легенды досыць пашыраныя ў Беларусі.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wars-and-sawa",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "16a37aac01261884e44b35de95e490186f645c59152dbe97fa2b271df798ec3c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wars-and-sawa-c01",
@@ -1102,26 +1295,81 @@
           "quote": "Statue of Wars and Sawa in the Warsaw Old Town (Brzozowa Street).",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "wars-and-sawa-c09",
+          "source_id": "wars-and-sawa-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "According to another version, Warsz and Sawa were brothers, fishermen living on the Vistula (Wisła) at the foot of the New Town (Nowe Miasto).",
+          "statement_id": "Menurut versi lain, Warsz dan Sawa adalah dua bersaudara nelayan yang tinggal di tepi Sungai Vistula (Wisła), di kaki Kota Baru (Nowe Miasto).",
+          "quote": "Według innej wersji Warsz i Sawa byli braćmi, rybakami mieszkającymi nad Wisłą, u podnóża Nowego Miasta",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wars-and-sawa-c10",
+          "source_id": "wars-and-sawa-s3",
+          "host": "muzeumwarszawy.pl",
+          "statement": "In this version, by the riverbank behind the reeds the duke saw a water maiden (panna wodna) holding a yew bow.",
+          "statement_id": "Dalam versi ini, di tepi sungai di balik alang-alang sang adipati melihat seorang putri air (panna wodna) yang memegang busur dari kayu yew.",
+          "quote": "Przy brzegu, za trzcinami, ujrzał pannę wodną. W rękach miała cisowy łuk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wars-and-sawa-c11",
+          "source_id": "wars-and-sawa-s3",
+          "host": "muzeumwarszawy.pl",
+          "statement": "The mermaid (Syrena) drew her bowstring and loosed a golden arrow, and the duke followed its track.",
+          "statement_id": "Sang putri duyung (Syrena) menarik tali busurnya dan melepaskan anak panah emas, lalu sang adipati mengikuti arahnya.",
+          "quote": "Syrena napięła cięciwę łuku, a wypuszczona złota strzała poszybowała przed siebie. Jej tropem podążył książę.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wars-and-sawa-c12",
+          "source_id": "wars-and-sawa-s3",
+          "host": "muzeumwarszawy.pl",
+          "statement": "Moved by the poor couple's hospitality, Siemowit decided to become godfather to their children and named them Warsz and Sawa.",
+          "statement_id": "Tersentuh oleh keramahan pasangan miskin itu, Siemowit memutuskan menjadi ayah baptis anak-anak mereka dan menamai mereka Warsz dan Sawa.",
+          "quote": "Siemowit wzruszony gościnnością ubogiej pary postanowił zostać ojcem chrzestnym ich dzieci. Nadał im imiona Warsz i Sawa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wars-and-sawa-c13",
+          "source_id": "wars-and-sawa-s3",
+          "host": "muzeumwarszawy.pl",
+          "statement": "Only the Syrena, patroness of the future city, knew that the duke's promises would come true.",
+          "statement_id": "Hanya Syrena, pelindung kota yang akan datang, yang tahu bahwa janji sang adipati akan terwujud.",
+          "quote": "I tylko Syrena, uśmiechająca się do niej patronka przyszłego miasta, wiedziała, że tak się stanie.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wars-and-sawa-c14",
+          "source_id": "wars-and-sawa-s3",
+          "host": "muzeumwarszawy.pl",
+          "statement": "This retelling is based on Ewa Szelburg-Zarembina's legend \"Wróżba panny wodnej\".",
+          "statement_id": "Penceritaan ulang ini disusun berdasarkan legenda karya Ewa Szelburg-Zarembina, \"Wróżba panny wodnej\".",
+          "quote": "Tekst powstał na podstawie legendy Ewy Szelburg-Zarembiny „Wróżba panny wodnej”",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q114458257",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "87f8807387c3dc656efad984c1f84663b6d84acbc083924d7711ffe2a27303b2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q114458257-c01",
@@ -1182,26 +1430,51 @@
           "quote": "Гэтыя нячысцікі маюць агульныя рысы з іншымі крывасмокамі: вупырамі, ератнікамі.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q114458257-c07",
+          "source_id": "wd-q114458257-s2",
+          "host": "archive.org",
+          "statement": "According to Nikiforovsky, in outward appearance the kasny (касны) seem smaller than the sheshki (шешекъ), but are far cleverer, more persistent and always act in a pack.",
+          "statement_id": "Menurut Nikiforovsky, dari rupa luarnya kasny (касны) tampak lebih kecil daripada šeški (шешекъ), tetapi jauh lebih cerdik, lebih gigih, dan selalu bertindak berkawanan.",
+          "quote": "По внЪшнему облику касны какъ будто меньше шешекъ, но гораздо толковће ихъ, болфе настойчивы и дйствують непре- мЪнно скопомъ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q114458257-c08",
+          "source_id": "wd-q114458257-s2",
+          "host": "archive.org",
+          "statement": "Rage intoxicates the kasny so that they no longer even feel the people's means of rescue, that is, being struck with consecrated objects.",
+          "statement_id": "Amarah memabukkan kasny sehingga mereka bahkan tidak lagi merasakan sarana penyelamat manusia, yaitu pukulan dengan benda-benda yang diberkati.",
+          "quote": "Злоба опьяняетъ касновъ: они даже перестають чув- ствовать воздЪйстве спасательныхъ людскихъ средствъ— поражеше освященными предметами.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q114458257-c09",
+          "source_id": "wd-q114458257-s2",
+          "host": "archive.org",
+          "statement": "As a result some kasny perish or are maimed while attacking, or perish together with the victim, not letting go even after stronger unclean spirits have long withdrawn; together with their weak fertility, this leads to their gradual decline.",
+          "statement_id": "Akibatnya sebagian kasny binasa atau cedera saat menyerang, atau binasa bersama korbannya karena tidak mau melepaskannya bahkan setelah roh-roh jahat yang lebih kuat sudah pergi; ditambah kesuburan mereka yang rendah, hal ini membuat jumlah mereka berangsur berkurang.",
+          "quote": "Сл$дстыемъ сего бываеть, что отдфль- ные касны гибнуть, или увфчатся еще во время приставаній, гибнуть и вмЪст съ жертвою, оть которой иные не отстаютъ тогда, когда довершивиие гибель ея боле сильные нечистики давно отступили прочь. А это, въ соединеній со слабою плодо- витостью касновъ, ведеть къ постепенному уменьшению ихъ.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q114728962",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "86be6ef99fa5793b0e98caf9ab3d9aa2b93281a625764c4b38002dabedede572",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q114728962-c01",
@@ -1252,26 +1525,41 @@
           "quote": "Павел Шпілеўскі вядомы шматлікімі фальсіфікацыямі міфаў і фальклора.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q114728962-c06",
+          "source_id": "wd-q114728962-s2",
+          "host": "web.archive.org",
+          "statement": "The interviewee explains that according to the author the hartsuki (гарцукоў) are helpers of Perun (Перуна), spirits flying in the sky and carrying out his errands; yet in 200 years of Belarusian ethnography nobody recorded even similar characters, so the writer most likely invented them.",
+          "statement_id": "Narasumber wawancara menjelaskan bahwa menurut sang pengarang, hartsuki (гарцукоў) adalah pembantu Perun (Перуна), roh yang terbang di langit dan menjalankan perintahnya; namun selama 200 tahun etnografi Belarus tidak ada yang mencatat tokoh serupa, sehingga kemungkinan besar sang penulis mengarangnya.",
+          "quote": "— Вазьміце гарцукоў: паводле аўтара, гэта памочнікі Перуна, духі, якія лётаюць па небе і выконваюць яго даручэнні. Аднак за 200 гадоў беларускай этнаграфіі больш ніхто нідзе не фіксаваў хаця б падобных персанажаў, інфармацыі пра іх — нуль. Адкуль пісьменнік іх узяў? Хутчэй за ўсё проста прыдумаў.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q114728962-c07",
+          "source_id": "wd-q114728962-s2",
+          "host": "web.archive.org",
+          "statement": "This is why the hartsuki (гарцукоў) and other characters that never existed in native folklore reappear on book pages.",
+          "statement_id": "Karena itu hartsuki (гарцукоў) dan tokoh lain yang tidak pernah ada dalam folklor Belarus muncul lagi di halaman-halaman buku.",
+          "quote": "Таму на старонках ізноў бачым гарцукоў і іншых персанажаў, якія ніколі не існавалі ў айчынным фальклоры.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q12279265",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "9449cc7f6f15e5d1e4fcd589a7d0a6660641a89a7a99101774df33c476750195",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q12279265-c01",
@@ -1372,26 +1660,81 @@
           "quote": "Качила се на гърба му и разпръснала част от билките върху главата му. От всичко това той се почувствал щастлив и въодушевен, обърнал се и потеглил в тръс с Куа на гърба си.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q12279265-c11",
+          "source_id": "wd-q12279265-s2",
+          "host": "archive.org",
+          "statement": "In the tale recorded by Bleek and Lloyd, a young woman was in her hut because she was still ill; the Rain scented her and went forth on account of it.",
+          "statement_id": "Dalam kisah yang dicatat Bleek dan Lloyd, seorang perempuan muda berada di pondoknya karena masih sakit; Hujan (the Rain) mencium baunya lalu keluar karenanya.",
+          "quote": "while the young woman was in (her) hut, because she felt that she was still ill. The Rain scented her, and the Rain went forth, on account of it;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12279265-c12",
+          "source_id": "wd-q12279265-s2",
+          "host": "archive.org",
+          "statement": "According to a footnote to the tale, the Rain resembled a bull.",
+          "statement_id": "Menurut catatan kaki kisah itu, Hujan menyerupai seekor banteng (bull).",
+          "quote": "He resembled a bull, while he felt that (he) was the Rain's",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12279265-c13",
+          "source_id": "wd-q12279265-s2",
+          "host": "archive.org",
+          "statement": "The young woman took up buchu and threw it upon his forehead.",
+          "statement_id": "Perempuan muda itu mengambil buchu dan melemparkannya ke dahi Banteng Hujan.",
+          "quote": "The young woman took up buchu in her hand, the young woman threw buchu upon his forehead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12279265-c14",
+          "source_id": "wd-q12279265-s2",
+          "host": "archive.org",
+          "statement": "She mounted the Rain, and the Rain took her away.",
+          "statement_id": "Ia menaiki Hujan, dan Hujan membawanya pergi.",
+          "quote": "She mounted the Rain; and the Eain took her away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12279265-c15",
+          "source_id": "wd-q12279265-s2",
+          "host": "archive.org",
+          "statement": "She laid her child down because she thought she would die and go to become a frog.",
+          "statement_id": "Ia meletakkan anaknya karena mengira dirinya akan mati dan berubah menjadi katak (frog).",
+          "quote": "She laid it down, while she thought that she should die, (and) go to become a frog.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12279265-c16",
+          "source_id": "wd-q12279265-s2",
+          "host": "archive.org",
+          "statement": "According to the people quoted, when the Rain's Bull goes out of his pit, the water pit dries up.",
+          "statement_id": "Menurut orang San yang dikutip, ketika Banteng Hujan (the Rain's Bull) keluar dari lubang airnya, lubang itu menjadi kering.",
+          "quote": "the pit becomes dry, while it feels that the Rain has gone out, the Rain's Bull. Therefore, the pit dries up on account of it.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q12282902",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "50b256f6f4c2cd7e42afb793d4acd66974dba48b46f92c0ffb64324a6db27e78",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q12282902-c01",
@@ -1432,26 +1775,71 @@
           "quote": "Напада по пладне, като жертвите му обикновено са пладнуващи овце, оставени без надзор от пастирите си, но е смъртно опасно и за човека.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q12282902-c05",
+          "source_id": "wd-q12282902-s2",
+          "host": "cts.perseids.org",
+          "statement": "Nicander calls the kenchrines (κεγχρίνεω) a long monster (δολιχὸν τέρας), named the \"spotted lion\" (λέοντα αἰόλον) and dotted all over with scales (περίστικτον φολίδεσσι).",
+          "statement_id": "Nikandros menyebut kenchrines (κεγχρίνεω) sebagai makhluk ajaib yang panjang (δολιχὸν τέρας), yang dinamai \"singa berbintik\" (λέοντα αἰόλον) dan berbintik-bintik sisiknya (περίστικτον φολίδεσσι).",
+          "quote": "δήεις κεγχρίνεω δολιχὸν τέρας, ὅν τε λέοντα αἰόλον αὐδάξαντο, περίστικτον φολίδεσσι",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12282902-c06",
+          "source_id": "wd-q12282902-s2",
+          "host": "cts.perseids.org",
+          "statement": "When the sun's (ἠελίοιο) ray is hottest it rages over the jagged mountains (οὔρεα), craving blood (αἵματος) and lying in wait for tame sheep (μῆλα).",
+          "statement_id": "Ketika sinar matahari (ἠελίοιο) paling terik, ia mengamuk menjelajahi gunung-gunung berbatu (οὔρεα), haus darah (αἵματος), dan mengintai domba jinak (μῆλα).",
+          "quote": "Ἤτοι ὅτ’ ἠελίοιο θερειτάτη ἵσταται ἀκτὶς, οὔρεα μαιμώσσων ἐπινίσσεται ὀκριόεντα, αἵματος ἰσχανόων, καὶ ἐπὶ κτίλα μῆλα δοκεύων",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12282902-c07",
+          "source_id": "wd-q12282902-s2",
+          "host": "cts.perseids.org",
+          "statement": "Nicander names Saos (Σάου) and Mosychlos (Μοσύχλου), where the flocks of the fields cool off under tall firs (ἐλάτῃσι) when the herdsmen (νομήων) have left their work.",
+          "statement_id": "Nikandros menyebut gunung Saos (Σάου) dan Mosychlos (Μοσύχλου), tempat kawanan di padang berteduh di bawah pohon cemara tinggi (ἐλάτῃσι) setelah para penggembala (νομήων) meninggalkan pekerjaan mereka.",
+          "quote": "ἢ Σάου ἠὲ Μοσύχλου ὅτ’ ἀμφ’ ἐλάτῃσι μακεδναῖς ἄγραυλοι ψύχωσι, λελοιπότες ἔργα νομήων",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12282902-c08",
+          "source_id": "wd-q12282902-s2",
+          "host": "cts.perseids.org",
+          "statement": "Nicander advises fleeing (Φεῦγε) by a winding, not a single straight path, because in many-turning bends its spine (ἀκάνθης) is hampered, while on a straight track it crawls very swiftly (ὢκιστος).",
+          "statement_id": "Nikandros menasihati agar orang melarikan diri (Φεῦγε) melalui jalur yang berkelok-kelok dan tidak lurus, karena di tikungan yang berliku tulang punggungnya (ἀκάνθης) terhambat, sedangkan di jalur lurus ia merayap sangat cepat (ὢκιστος).",
+          "quote": "Φεῦγε δ’ ἀεὶ σκολιήν τε καὶ οὐ μίαν ἀτραπὸν ἴλλων. δοχμὸς ἀνακρούων θηρὸς πάτον· ἦ γὰρ ὃ δεσμοὺς βλάπτεται ἐν καμπῇσι πολυστρέπτοισιν ἀκάνθης, ἰθεῖαν δ’ ὢκιστος ἐπιδρομάδην στίβον ἕρπει.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12282902-c09",
+          "source_id": "wd-q12282902-s2",
+          "host": "cts.perseids.org",
+          "statement": "Such a snake (ὄφις) haunts the Thracian islands (Θρηικίῃσιν νήσοισι).",
+          "statement_id": "Ular (ὄφις) seperti itu berkeliaran di pulau-pulau Thrakia (Θρηικίῃσιν νήσοισι).",
+          "quote": "Τοῖος Θρηικίῃσιν ὄφις νήσοισι πολάζει.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q12284251",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "9e3d7c4afaa31dfc7cab187a50f01c32b31f28d336c9e67bd3a496edf42f04fd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q12284251-c01",
@@ -1542,26 +1930,91 @@
           "quote": "се наложило да се обърнат за помощ към бога-творец Цагн, защото повече не можели да живеят с тази огромна вина.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c10",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "The Porcupine is married to Kwammang-a, a mythical person not identified with any animal but seen in the rainbow.",
+          "statement_id": "Si Landak (Porcupine) menikah dengan Kwammang-a, tokoh mitis yang tidak disamakan dengan hewan apa pun, tetapi terlihat dalam pelangi (rainbow).",
+          "quote": "The Porcupine is married to Kwammang-a*, a mythical person not identified with any animal, but seen in the rainbow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c11",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "The couple have two children: young Kwammang-a, brave and quiet like his father, and the young Ichneumon, a great talker always lecturing his grandfather the Mantis.",
+          "statement_id": "Pasangan itu punya dua anak: Kwammang-a muda, pemberani dan pendiam seperti ayahnya, dan Ichneumon muda yang banyak bicara dan selalu menasihati kakeknya, si Mantis (Mantis).",
+          "quote": "This strange couple have two children, young Kwammang-a, who is brave and quiet like his father, and the young Ichneumon, who is a great talker, always lecturing his grandfather the Mantis on his foolish doings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c12",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "In one tale the Mantis calls Kwammang-a \"my sister's son\".",
+          "statement_id": "Dalam satu kisah, si Mantis menyebut Kwammang-a \"anak saudara perempuanku\".",
+          "quote": "In one tale the Mantis calls him ‘‘ my sister’s son.”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c13",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "The Mantis made an Eland out of Kwammang-a's shoe.",
+          "statement_id": "Si Mantis membuat seekor eland (Eland) dari sepatu Kwammang-a.",
+          "quote": "Then the Mantis made an Eland out of Kwammang-a's shoe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c14",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "The Rainbow is yellow above and red below, because the Mantis, who is also yellow, lies above and Kwammang-a lies below.",
+          "statement_id": "Pelangi (Rainbow) kuning di bagian atas dan merah di bagian bawah, karena si Mantis yang juga kuning berada di atas, sedangkan Kwammang-a berada di bawah.",
+          "quote": "The Rainbow is yellow in that part which lies above ; the piece which seems red lies below. For the Mantis, who 1s also yellow, lies above, and Kwammang-a lies below.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c15",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "The Rainbow is called Kwammang-a; children call it so because the grown-up people called it so.",
+          "statement_id": "Pelangi (Rainbow) itu disebut Kwammang-a; anak-anak menyebutnya begitu karena orang dewasa menyebutnya demikian.",
+          "quote": "It is the Rainbow. Men call it Kwammang-a. Therefore we who are children say ‘* Kwammang-a \"to it, because the grown-up people said Kwammang-a to it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284251-c16",
+          "source_id": "wd-q12284251-s2",
+          "host": "archive.org",
+          "statement": "People say: \"The Rainbow stands yonder and the rain will break.\"",
+          "statement_id": "Orang berkata: \"Pelangi (Rainbow) berdiri di sana dan hujan akan reda.\"",
+          "quote": "The Rainbow stands yonder and the rain will break.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q12284431",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "aa1e528f9187bb095dd7c6f66a22ac882a28d3ba1b95c6b212aa6a36b1d7eb48",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q12284431-c01",
@@ -1632,26 +2085,31 @@
           "quote": "Куцулан се нарича също и последният ден от Вълчите празници.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q12284431-c08",
+          "source_id": "wd-q12284431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "In the imagination of the Bulgarians (българите) this lone wolf is the mythical leader of the pack, described as lame or one-legged (compare the lame devil), and called Kutsulan (Куцулан), Klekutsan (Клекуцан), Natlapan (Натлапан) or Krivlyo (Кривльо).",
+          "statement_id": "Dalam bayangan orang Bulgaria (българите), serigala penyendiri ini adalah pemimpin mitis kawanan, digambarkan pincang atau berkaki satu (bandingkan iblis pincang), dan disebut Kutsulan (Куцулан), Klekutsan (Клекуцан), Natlapan (Натлапан), atau Krivlyo (Кривльо).",
+          "quote": "В представите на българите това е митичният предводител на глутницата, описван е като куц или еднокрак (срв. с куция дявол) и е наричан Куцулан, Клекуцан, Натлапан или Кривльо.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q12284837",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "05157e1b44c6ef48a6ad4e3524968bf4d08c6ac93a4dbda37fe6602cb001844b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q12284837-c01",
@@ -1692,26 +2150,41 @@
           "quote": "Затова при майката и бебето до този ден винаги трябва да има някого, а след изтичане на 40тия ден се омесва медена пита, за да ги умилостиви.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q12284837-c05",
+          "source_id": "wd-q12284837-s2",
+          "host": "www.24chasa.bg",
+          "statement": "The sequel to the audio series \"Мамник\" (Mamnik) was released on Storytel under the title \"Лехуса\" (Lehusa), again voiced by Vlado Penev (Владо Пенев).",
+          "statement_id": "Lanjutan serial audio \"Мамник\" (Mamnik) dirilis di Storytel dengan judul \"Лехуса\" (Lehusa) dan kembali dibacakan oleh Vlado Penev (Владо Пенев).",
+          "quote": "Дългоочакваното продължение на хитовия аудиосериал “Мамник” излезе тази седмица в Storytel. Новата част носи заглавието “Лехуса” и отново е озвучена от незабравимия глас на Владо Пенев.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12284837-c06",
+          "source_id": "wd-q12284837-s2",
+          "host": "www.24chasa.bg",
+          "statement": "According to the author Vasil Popov (Васил Попов), the lehusa is a creature of Bulgarian tradition, a kind of spirit or monster born of the pain of a woman whose child was taken from her by force, and is believed to pursue new mothers and pregnant women.",
+          "statement_id": "Menurut pengarang Vasil Popov (Васил Попов), lehusa adalah makhluk dari tradisi Bulgaria, semacam roh atau monster yang lahir dari derita seorang perempuan yang anaknya direnggut paksa, dan dipercaya memburu perempuan yang baru melahirkan dan perempuan hamil.",
+          "quote": "Лехусата е създание от нашата традиция – нещо като дух или чудовище, родено от болката на жена, на която насилствено са отнели детето. Вярва се, че преследва родилки и бременни”, обяснява авторът Васил Попов",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q12287431",
-      "file": "batch-127.md",
+      "file": "batch-127-fix-2.md",
+      "entry_sha256": "fdf1c9a126c53463f38e31f91f5a4e68ebe1079fe67f7bb52332bd4156e58251",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q12287431-c01",
@@ -1730,6 +2203,66 @@
           "statement": "Mainly in Northern and Western Bulgaria the feast of Mratintsi is kept in his honour; he is pictured as a big, extremely ugly black hen with large wings and huge eyes.",
           "statement_id": "Terutama di Bulgaria Utara dan Barat dirayakan hari raya Mratintsi untuk menghormatinya; ia digambarkan sebagai ayam betina hitam besar yang sangat buruk rupa, bersayap besar dan bermata sangat besar.",
           "quote": "Главно в Северна и Западна България в негова чест се почита празника Мратинци. Представян е като голяма черна кокошка с изключително грозен вид, големи криле и огромни очи.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12287431-c03",
+          "source_id": "wd-q12287431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "The Mratintsi custom is known mainly in Northern and Western Bulgaria (България) and is kept on 14 November, the day of the Apostle Philip (Филип) in the Orthodox calendar, traditionally linked with the start of the Christmas fast and the end of the wedding season.",
+          "statement_id": "Adat Mratintsi dikenal terutama di Bulgaria Utara dan Barat (България) dan dirayakan pada 14 November, hari Rasul Filipus (Филип) dalam kalender Ortodoks, yang secara tradisional dikaitkan dengan awal puasa Natal dan akhir musim pernikahan.",
+          "quote": "Известен е главно в Северна и Западна България и се чества на 14 ноември (в православния календар това е денят на апостол Филип, свързван традиционно с началото на Коледните пости и с края на сватбения сезон).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12287431-c04",
+          "source_id": "wd-q12287431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "In some places in Western Bulgaria, Mratintsi denotes the period of 11–16 (21) November, a local variant of the Wolf Holidays (Вълчите празници).",
+          "statement_id": "Di beberapa tempat di Bulgaria Barat, Mratintsi menandai periode 11–16 (21) November, sebagai varian lokal Hari Raya Serigala (Вълчите празници).",
+          "quote": "На някои места в Западна България с Мратинци се обозначава периодът 11 – 16 (21) ноември, явяващ се местен вариант на Вълчите празници.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12287431-c05",
+          "source_id": "wd-q12287431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "The Mratintsi nights were considered more dangerous even than the Mrasnite dni (Мръсните дни), the time when, in old belief, the most dangerous and disease-bringing evil forces run wild.",
+          "statement_id": "Malam-malam Mratintsi dianggap lebih berbahaya bahkan daripada Mrasnite dni (Мръсните дни), masa ketika menurut bayangan lama kekuatan jahat yang paling berbahaya dan pembawa penyakit merajalela.",
+          "quote": "Мратинските нощи са считани за по-опасни дори и от Мръсните дни (и нощи) - време, в което, в старинните представи, вилнеят най-опасните и болестотворни зли сили",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12287431-c06",
+          "source_id": "wd-q12287431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "The ritual is performed by women: to appease the mratinyak (мратиняка), on that day they slaughter a chicken, usually a young cockerel, preferably a black one.",
+          "statement_id": "Ritualnya dilakukan oleh perempuan: untuk meredakan mratinyak (мратиняка), pada hari itu mereka menyembelih seekor anak ayam, biasanya jantan, sebaiknya yang hitam.",
+          "quote": "Ритуалът се изпълнява от жени. За да умилостивят мратиняка, на този ден колят пиле (обикновено - петле, т.е. мъжко дете на кокошка), за предпочитане - черно.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12287431-c07",
+          "source_id": "wd-q12287431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "When the older woman puts the knife to the chicken's neck, the younger asks \"What are you slaughtering?\"; the older answers \"I am slaughtering mratinyak (мратиняк)\" and kills it, saying \"It is not we who slaughter you, it is mratinyak who slaughters you.\"",
+          "statement_id": "Saat perempuan tua menempelkan pisau ke leher ayam, perempuan yang lebih muda bertanya \"Apa yang kau sembelih?\"; yang tua menjawab \"Aku menyembelih mratinyak (мратиняк)\", lalu menyembelihnya sambil berkata \"Bukan kami yang menyembelihmu, mratinyak yang menyembelihmu.\"",
+          "quote": "Когато възрастната опре ножа до врата на пилето, по-младата пита: „Какво колиш?“, на което по-възрастната отговаря: „Коля мратиняк.“ и заколва пилето, отправяйки му следната реплика: „Не те колим ние, но те коли мратиняк.“",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q12287431-c08",
+          "source_id": "wd-q12287431-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "The chicken is cooked and eaten, while its feathers are kept and burned when needed to treat various illnesses by fumigation (прекадяване).",
+          "statement_id": "Ayam itu dimasak dan dimakan, sedangkan bulunya disimpan dan bila perlu dibakar untuk mengobati berbagai penyakit dengan pengasapan (прекадяване).",
+          "quote": "Пилето се сготвя и изяжда, а перушината се запазва и при случай перата се горят за лекуване (чрез прекадяване с дим) на разни болести.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1753,7 +2286,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "42a3a940b2eceac0a8649f39a1eaf62b8750ddf76ae578665881880cc939c119"
     },
     {
       "slug": "wd-q12751029",
@@ -1893,7 +2427,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d64b63c17b1ee33cdbc209759814b5cb72ad6d7ff06598323d09bbfcd362cd09"
     },
     {
       "slug": "wd-q17047177",
@@ -2013,7 +2548,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "42674ef1c1f720e653375c0913dbee7039600b7ec4d061c8be0843db1cdaf0d4"
     },
     {
       "slug": "wd-q17047194",
@@ -2063,7 +2599,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b081b71d68849ca3e876aa8c2ecab9a4f06c67ff5688f264a5c61efec533d624"
     },
     {
       "slug": "wd-q17047370",
@@ -2153,7 +2690,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec9c3e649d01c24326a12419fdef668a614c778f1470c62b081a3b8110bfcf5e"
     },
     {
       "slug": "wd-q17047475",
@@ -2223,7 +2761,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "00a8334cb1f8ac56c39ec74cb49c0b4fe1d93837290d1e598941c7d5c253c9da"
     },
     {
       "slug": "wd-q17094439",
@@ -2313,7 +2852,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f357afabc2e1377239a7a889f5a8930bf263f577449d8d8912dbbbbbce375457"
     },
     {
       "slug": "wd-q18396497",
@@ -2332,7 +2872,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "bd79c362eef3a2979e12dc3e9bdd0a9654d61e0c54b02fcdfc72a7a1bbaab5b0"
     },
     {
       "slug": "wd-q21720598",
@@ -2432,7 +2973,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a60cc5e37b82d75376b863519ac60e695ce723911e5e612eefcc2c64bdc1fbd7"
     },
     {
       "slug": "wd-q4128235",
@@ -2532,7 +3074,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "61883f5769907b518cd3541fb212404d80e45edf8059d08b0a7423f2f8523a80"
     },
     {
       "slug": "wd-q4272121",
@@ -2582,7 +3125,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "677b25e248c04684467111305fa5b2eb427257543e5594064da1386462fd2d5b"
     },
     {
       "slug": "wd-q4400126",
@@ -2632,7 +3176,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "942f482965b4752c422152396736176def81ad7bfbbdd61737a34fa21a284655"
     },
     {
       "slug": "wd-q4527303",
@@ -2732,7 +3277,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a970e266c97840222d1348adb7d7cb905464b2bec2115e6c3854b495805b6008"
     },
     {
       "slug": "wd-q58197643",
@@ -2751,7 +3297,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "cd0b3bd5a808bb9e86f8e50dd03824b26d5f8f9522d1d2106715730d7717f4a3"
     },
     {
       "slug": "wd-q93778798",
@@ -2881,7 +3428,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "847b077bd2534fb4bbcf7c8227b13625a3bd3919618880b3c4061739c1b07493"
     },
     {
       "slug": "wd-q94698922",
@@ -2991,7 +3539,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3d99ce3db79e139feb3e45644a39d37a725fd8c68f06135f02924ad36225164"
     },
     {
       "slug": "xhindi",
@@ -3061,7 +3610,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3dbf7ba57a2a6f73aa647755014e0cf0ad3dcc24b41205265d5bb6555c3bac65"
     }
   ]
 }

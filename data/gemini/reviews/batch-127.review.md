@@ -1,6 +1,6 @@
 # Review batch-127
 
-Diperiksa 2026-10-02T15:34:36.818Z. Berkas: batch-127.md.
+Diperiksa 2026-10-14T02:45:26.117Z. Berkas: batch-127.md, batch-127-fix-1.md, batch-127-fix-2.md.
 
 ## spor-slavic-demon — lulus-otomatis
 
@@ -17,11 +17,10 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 ## stedra-baba — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "tradisi rakyat Ceko (Czech folk culture)".
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -31,6 +30,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | stedra-baba-c04 | exact | cs.wikipedia.org | According to Čeněk Zíbrt, in Vysoké nad Jizerou children hang stockings for Štědrá bába as close to the door as possible on Christmas Eve; she never enters the room and so cannot be seen, and on Christmas Day morning they find presents in them, while naughty children may get frozen potatoes. | Podle Čeňka Zíbrta ve Vysokém nad Jizerou děti věší na Štědrý večer pro Štědrou bábu punčochy co nejblíže dveřím, ta nikdy nevstoupí do světnice a nelze ji tak spatřit, na Boží hod ráno v nich naleznou dárky, zlobivé děti ale mohou například dostat zmrzlé brambory. |
 | stedra-baba-c05 | exact | cs.wikipedia.org | Around 2010 there were also attempts to revive the custom, for example in Tanvald. | Kolem roku 2010 existovaly také snahy o obnovu tohoto zvyku, například v Tanvaldu. |
 | stedra-baba-c06 | exact | cs.wikipedia.org | Štědrá bába is also the title of a 1993 radio fairy tale by Marie Kubátová. | Štědrá bába je také název rozhlasové pohádky Marie Kubátové z roku 1993. |
+| stedra-baba-c07 | exact | www.krnap.cz | In the Czech part of Krkonoše the Christmas gifts were brought by Krystylle-Ježíšek or by štědrá bába, while in the German part it was the Christkind. | Nadílku obstarával v české části Krkonoš Krystylle-Ježíšek, nebo štědrá bába, v části německé to byl Christkind. |
 
 
 ## sumpurnis — lulus-otomatis
@@ -53,10 +53,7 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 
 ## talamaur — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -67,14 +64,16 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | talamaur-c05 | exact | en.wikipedia.org | Injuries to the talamaur's ghostly form appeared on its living body, and such bruises were used to identify a talamaur. | Injuries inflicted on the talamaur's ghostly form would appear on its living body; such bruising was used to identify a talamaur. |
 | talamaur-c06 | exact | en.wikipedia.org | The name talamaur comes from the Mota language of the Banks Islands of Vanuatu and is cognate with Mwotlap na-talmiy. | comes from the Mota language, spoken in the Banks Islands of Vanuatu. It is cognate with Mwotlap na-talmiy |
 | talamaur-c07 | exact | en.wikipedia.org | Both forms descend from Proto-Torres-Banks *tala-mauri, literally "living soul" (*tala "soul", *mauri "to live"). | Both forms descend from Proto-Torres-Banks *tala-mauri, literally "living soul" (*tala "soul", *mauri "to live"). |
+| talamaur-c08 | exact | archive.org | Codrington records a belief in the Banks Islands in a power like that of vampires. | There is a belief in the Banks' Islands in the existence of a power like that of Vampires. |
+| talamaur-c09 | exact | archive.org | The power was sought out of a morbid desire for communion with a ghost; to gain it a person would steal and eat a morsel of a corpse. | this power out of a morbid desire for communion with some ghost, and to gain it would steal and eat a morsel of a corpse. |
+| talamaur-c10 | exact | archive.org | The afflicted man would feel something influencing his life and come to dread a particular neighbour, who was then suspected of being a talamaur. | The man so afflicted would feel that something was influencing his life, and would come to dread some particular person among his neighbours, who was therefore suspected of being a talamaur. |
+| talamaur-c11 | exact | archive.org | A story is told of a woman who made no secret of doing this; when a neighbour died she announced that she would come in the night and eat the corpse. | There was a woman some years ago of whom the story is told that she made no secret of doing this, and that once on the death of a neighbour she gave notice that she should go in the night and eat the corpse. |
+| talamaur-c12 | exact | archive.org | Such a woman took a morbid delight in the dread she inspired and was secretly rewarded by those whose spite she gratified. | Such a woman would feel a morbid delight in the dread which she inspired, and would also be secretly rewarded by some whose secret spite she gratified. |
 
 
 ## todorci — lulus-otomatis
 
-Klaim 11 (exact 11), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -89,6 +88,11 @@ Klaim 11 (exact 11), sumber 1, gambar 0.
 | todorci-c09 | exact | sr.wikipedia.org | On the feast of Todorova subota they supposedly appear, and on that day women bake special cakes shaped like horse hooves called todorčići or kopitnjaci; part of the cake must be given to the horses. | На празник Тодорова субота, они се, наводно, појављују и на тај дан жене пеку нарочите колаче у облику коњских копита, који се зову тодорчићи или копитњаци. Део овог колача обавезно се даје коњима. |
 | todorci-c10 | exact | sr.wikipedia.org | By custom no work is done on that day and children are forbidden to leave the house. | Обичај је да се на тај дан ништа не ради, а деци је забрањено да излазе из куће. |
 | todorci-c11 | exact | sr.wikipedia.org | These rites were performed to appease and drive away these night demons. | Ти обреди су свршени са циљем да се ови ноћни демони умилостиве и отерају. |
+| todorci-c12 | exact | izdanja.filfak.ni.ac.rs | The Todorova subota complex includes beliefs about processions of (invisible) night horses and riders, with the motif of punishment by trampling for breaking taboos: spinning (предења), going out at night, or lighting. | Комплекс укључује и веровања и предања везана за поворке (невидљивих) ноћних коња и јахача, за које је карактеристичан и мотив кажњавања гажењем због кршења табуа: предења, излажења ноћу, осветљења. |
+| todorci-c13 | exact | izdanja.filfak.ni.ac.rs | According to Radenković, such beliefs are attested among Serbs in north-eastern Serbia (Србији), Vojvodina (Војводини) and Hungary (Мађарској), Bulgarians in northern Bulgaria (Бугарској), Vlachs in north-eastern Serbia, and Romanians (Румуна). | закључује да су оваква веровања потврђена код Срба у североисточној Србији, Војводини и Мађарској, код Бугара у северној Бугарској, код Влаха у североисточној Србији и код Румуна. |
+| todorci-c14 | exact | izdanja.filfak.ni.ac.rs | In the mid-20th century Milenko Filipović (Миленко Филиповић, 1950) pointed out that the cult of the demonic todorci developed in areas once inhabited by Thracians (Трачанима). | Средином 20. века Миленко Филиповић (1950) указao je на чињеницу да је култ демонских бића тодорци развијен на просторима који су били насељени Трачанима |
+| todorci-c15 | exact | izdanja.filfak.ni.ac.rs | The features of these demons, as summarised from Agapkina's study, include the belief that they come from the unclean dead, a system of taboos, and sometimes lameness. | Осим карактеристика и функција демона (веровања да потичу од нечистих покојника, систем табуа, некада хромост и сл.) |
+| todorci-c16 | exact | izdanja.filfak.ni.ac.rs | Agapkina (Агапкина) concludes that the appearance of this type of demon in the early spring calendar is peculiar to the Balkan Slavs and has no parallel in other Slavic traditions. | Агапкина констатује да је појава оваквог типа демона у раном делу пролећног календара особеност балканских Словена која нема паралеле у другим словенским традицијама. |
 
 
 ## trzesawid — skip
@@ -115,10 +119,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## tur-bosnian-slavic-mythology — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -126,6 +130,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tur-bosnian-slavic-mythology-c02 | exact | en.wikipedia.org | According to tales, Tur is a giant bull that holds the Earth on its back, like Kujata, the world-bearing ox of Islamic mythology, or the World Elephant. | According to tales, Tur is a giant bull that holds the Earth on its back, akin to Kujata, the ox that helps in holding the world in Islamic mythology, or the World Elephant. |
 | tur-bosnian-slavic-mythology-c03 | exact | en.wikipedia.org | Whenever he moves his horns an earthquake happens; should Tur one day move his whole body, the world would end. | Whenever he moves his horns, an earthquake happens. Should Tur one day move his whole body, this would cause the end of the world. |
 | tur-bosnian-slavic-mythology-c04 | exact | en.wikipedia.org | He is described as a giant black bull with curved, pointed horns. | He is described as a giant black bull with curved, pointy horns. |
+| tur-bosnian-slavic-mythology-c05 | exact | web.archive.org | A folklore archive record mentions the Bosnian-Slavic myth of Tur, a giant bull that lives underground and causes earthquakes when he moves his horn, and notes its similarity to the Greek myth of Atlas holding up the world on his shoulders. | There is also a very similar Bosnian-Slavic myth, Tur, which tells of a giant bull that lives underground, causing earthquakes when he moves his horn, and even similarities to the Greek myth of Atlas holding up the world on his shoulders. |
 
 
 ## turosik — skip
@@ -141,10 +146,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## ulemiste-vanake — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -152,6 +154,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ulemiste-vanake-c02 | exact | et.wikipedia.org | He is said to want to drown Tallinn once it is finished; therefore he must always be told that Tallinn is not finished yet. | Ta tahtvat Tallinna ära uputada, kui see valmis saab. Sellepärast peab talle alati ütlema, et Tallinn pole veel valmis. |
 | ulemiste-vanake-c03 | exact | et.wikipedia.org | According to a folklore record, there is a big stone in Lake Ülemiste; formerly there was no lake. A man was ploughing there when suddenly a cloud came and someone shouted "Get away!"; the man was drowned and became the lake keeper. | Ülemiste järves on suur kivi. Enne polnud seal järve. Mees kündnud seal kohal, korraga pilv tuleb, karjutud: "Eest ära!" Uputanud mehe ära, mees jäänud järvevahiks. |
 | ulemiste-vanake-c04 | exact | et.wikipedia.org | On Midsummer Eve (Jaanilaupäev) night he was said to come and ask whether the town was finished, and he was always told that it was not. | Jaanilaupäeva öösel pidi käima küsimas, kas linn on valmis. Vastatud ikka, et ei ole valmis. |
+| ulemiste-vanake-c05 | exact | www.folklore.ee | According to a legend, every Midsummer (jaanipäev) night a small black man comes out of Lake Ülemiste (Ülemiste järvest) in Tallinn and asks the lake keeper: "Is the town finished yet?" | Tallinna Ülemiste järvest tulla iga jaanipäevaööse üks veike must mees välja ja küsida järvevahi käest: “Kas linn juba valmis on?” |
+| ulemiste-vanake-c06 | exact | www.folklore.ee | If the keeper said the town was finished, the lake would overflow and drown the town. | Kui vaht peaks ütlema, et linn valmis on, siis hakkaks järv üle ajama ja uputaks linna ära. |
+| ulemiste-vanake-c07 | exact | www.folklore.ee | Archive reference E 37538 (1898): recorded in Tallinn by A. Borner from M. Kukk. | E 37538 (1898) < Tallinn – A. Borner < M. Kukk (1898) |
 
 
 ## veda — skip
@@ -178,10 +183,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## vorota-beast — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -189,16 +191,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | vorota-beast-c02 | exact | zh.wikipedia.org | A historical document kept at the Russian Academy of Sciences, the diary of the Labynkyr geological expedition of the East Siberian branch of the USSR Academy of Sciences, records the sighting report of two Soviet scientists. | 保存于俄罗斯科学院的一份历史文献《苏联科学院东西伯利亚分院拉宾基尔(Labynkyr)地质勘探队日志》中记载了两位苏联科学家的目击报告。 |
 | vorota-beast-c03 | exact | zh.wikipedia.org | On 30 July 1953 the geologists Viktor A. Tverdokhlebov and Boris Bashkatov led a small team doing geological research by the lake. | 1953年7月30日，地质学家维克托·特维尔多赫列博夫（Viktor A. Tverdokhlebov）和鲍里斯·巴斯卡托夫（Boris Bashkatov）带领一个小队在湖边做地质研究。 |
 | vorota-beast-c04 | exact | zh.wikipedia.org | An oblong grey-black body showed slightly above the surface, with two symmetrical bright spots like animal eyes and a stick-like object rising from the body. | 湖面上稍稍露出长圆形的灰黑胴体，上面能清楚看到两个像动物眼睛的对称亮点，从身体内还竖起一根类似棍子的东西。 |
-| vorota-beast-c05 | exact | zh.wikipedia.org | Its head was about 6 feet wide and its body about 30 to 40 feet long; there was a large fin on its hump. | 它的头大约6英尺宽，身体大约30至40英尺长。在它的肉峰上有一个大的鳍。 |
-| vorota-beast-c06 | exact | zh.wikipedia.org | There was a large fin on its hump; in the 1960s several geologists also claimed to have seen a huge grey creature with a fin on its back. | 在它的肉峰上有一个大的鳍。 20世纪60年代，有几个地质学家也声称看到了一个背上有鳍的巨大灰色生物。 |
+| vorota-beast-c05 | exact | zh.wikipedia.org | Its head was about 6 feet wide and its body about 30 to 40 feet long; there was a large fin on its hump. In the 1960s several geologists also claimed to have seen a huge grey creature with a fin on its back. | 它的头大约6英尺宽，身体大约30至40英尺长。在它的肉峰上有一个大的鳍。 20世纪60年代，有几个地质学家也声称看到了一个背上有鳍的巨大灰色生物。 |
+| vorota-beast-c07 | exact | www.nbcnews.com | Besides local folklore about Lake Labynkyr, some scientists have reported seeing a strange creature in that lake and in nearby Lake Vorota. | In addition to local folklore, some scientists have reported seeing a strange creature in the lake (and in nearby Lake Vorota). |
+| vorota-beast-c08 | exact | www.nbcnews.com | In 1953 a team of geologists from the Soviet Academy of Sciences led by Viktor Tverdokhlebov visited Lake Vorota; Tverdokhlebov reported seeing a large underwater animal the size of an orca swimming near the surface. | In 1953, a team of geologists from the Soviet Academy of Sciences led by Viktor Tverdokhlebov visited Lake Vorota. Tverdokhlebov reported seeing a large, underwater animal the size of an orca swimming near the surface of the lake, according to a report in the Siberia Times. |
+| vorota-beast-c09 | exact | www.nbcnews.com | Rumours of the Labynkyr "Devil" and any Vorota "monster" are met with considerable skepticism, especially given the lack of verifiable photographs, video or physical evidence. | Of course, considerable skepticism surrounds rumors of the Labynkyr "Devil" and any Vorota "monster," especially given the lack of any verifiable photographs, video or physical evidence. |
 
 
 ## vostrukha — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -211,14 +212,15 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | vostrukha-c07 | exact | ru.wikipedia.org | Levkievskaya thinks Drevlyansky apparently "constructed" names for some characters by association with real words, such as Vastrukha from "ostryi" (sharp). | Видимо, считает Левкиевская, Древлянский «сконструировал» названия для некоторых персонажей «по ассоциации с реальными словами: Ваструха — острый |
 | vostrukha-c08 | exact | ru.wikipedia.org | According to the critic V. Kostyrko, this is how the sharp-eyed "Vastrukha", the Belarusian goddess of truth, came about. | Литературный критик, эссеист В. Костырко отмечает ... Так, например, появилась зоркая «Ваструха», белорусская богиня правды». |
 | vostrukha-c09 | exact | ru.wikipedia.org | In Aleksandr Prozorov's novel "Molot Odina" the vostrukhi are small grey-haired old women, protective spirits of the house. | Мелкие седовласые старушки-вострухи — духи-защитницы дома |
+| vostrukha-c10 | exact | be.wikipedia.org | According to the article on Belarusian folk demonology, scholars have shown that a number of mythological characters arose mainly as armchair reconstructions by researchers of the second half of the 19th century, above all P. Shpilevsky (Шпілеўскага); Vastrukha (Ваструха) is among them, along with Vazila, Lyubmel, Bordzya, Kumyalgan, Yarkun and Hartsuki. | навукоўцамі ўжо даказана, што шэраг міфалагічных персанажаў з’явіліся пераважна як вынік кабінетных рэканструкцый даследчыкаў другой паловы ХІХ ст., у першую чаргу П. Шпілеўскага. Да такіх персанажаў могуць быць аднесены Вазіла, Ваструха, Любмел, Бордзя, Кумяльган, Яркун, Гарцукі і інш. |
 
 
 ## vuokko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -226,6 +228,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | vuokko-c02 | exact | fi.wikipedia.org | The vuokko could also carry the shaman's soul on its journey during a trance. | Vuokko saattoi myös kuljettaa noidan sielua transsitilan aikaisella matkalla. |
 | vuokko-c03 | exact | fi.wikipedia.org | On the other hand, in one story the vuokko was a gigantic bird lurking on a rocky island for passing ships. | Toisaalta vuokko oli eräässä tarinassa jättiläismäinen lintu, joka vaani kivisaarella ohikulkevia laivoja. |
 | vuokko-c04 | exact | fi.wikipedia.org | The word vuokko is a loan from a word meaning vaakalintu (a giant mythical bird). | Vuokko on laina vaakalintua tarkoittavasta sanasta. |
+| vuokko-c05 | exact | runeberg.org | According to Leem's account of Danish Lapland, Vuokko was well known to many of the Laplanders as an evil demon appearing as a huge, foul bird, from which the noaidi (Neaaid, magician) was said to receive the infamous, noxious flies that caused so many bad effects. | Vuokko is alfo well known to many of the Laplanders, and defcribed asa bad demon, appearing in the form of a hugeand foul bird, from which the Neaaid, or magician, is faid to receive thofe in- famous and noxious flies, the caufe and means of fo many bad effects. |
 
 
 ## vuorenpeikko — skip
@@ -241,10 +244,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## vyal — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -254,14 +254,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | vyal-c04 | exact | be.wikipedia.org | Hot tar filled his throat and he died at once; before dying Vyal roared so loudly that the tsmok Krok, who lived near Kraków, heard him and himself died of fright. | Гарачая смала заліла яму глотку, і ён адразу памёр. Перад смерцю Вяль зароў так громка, што яго пачуў цмок Крок, што жыў пад Кракавам, і сам адразу памёр са страху. |
 | vyal-c05 | exact | be.wikipedia.org | The name Vyal points to the names of Baltic gods who guard the dead and the underworld: Vels among the Latvians, Velinas among the Lithuanians, and also Veles, whose name is genetically related. | Імя Вяль адсылае да імёнаў балцкіх багоў-апекуноў памерлых і падзем’я: Vels у латышоў, Velinas у літоўцаў, а таксама Вялеса, імя якога генетычна да іх узыходзіць. |
 | vyal-c06 | exact | be.wikipedia.org | In Poland there is a legend of the Wawel Dragon, who lived in a hill near Kraków and was destroyed in the same way as Vyal. | У Польшчы захавалася легенда пра Вавельскага цмока, які жыў у прыгорку пад Кракавам і быў знішчаны гэтакім жа чынам, як і Вяль |
+| vyal-c07 | exact | web.archive.org | In Iryna Dubianetskaya's telling, the dragon lived near a locality, played with a big stone and kept people from passing; that was the only bad thing it did in this story. | Каля нейкай беларускай мясцовасці жыў цмок, што бавіўся з вялікім каменем і не даваў людзям прайсці. Гэта адзінае, што ён рабіў кепскага ў гэтай гісторыі. |
+| vyal-c08 | exact | web.archive.org | Dubianetskaya recorded this legend of the dragon named Vyal (Вяль) in the village of Valeikishki (Валэйкішкі) in the Astravets area; local people link the village's name to the dragon's name. | А цмока звалі Вяль. Гэтую легенду я запісала ў вёсцы Валэйкішкі на Астравеччыне. Мясцовыя жыхары звязваюць назву вёскі менавіта з імем цмока. |
+| vyal-c09 | exact | web.archive.org | According to Dubianetskaya, similar legends are fairly widespread in Belarus (Беларусі). | І таксама здох са страху”. Аналагічныя легенды досыць пашыраныя ў Беларусі. |
 
 
 ## wars-and-sawa — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -273,14 +273,17 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 | wars-and-sawa-c06 | exact | en.wikipedia.org | In another version Sawa was a mermaid living in the Vistula river with whom a fisherman named Wars fell in love. | According to another version of the legend, Sawa was a mermaid living in the Vistula river with whom a fisherman named Wars fell in love. |
 | wars-and-sawa-c07 | exact | en.wikipedia.org | In yet another version Wars and Sawa were brothers, fishermen living near today's Warsaw Old Town. | In yet another version of the legend, Wars and Sawa were brothers, who were fishermen living near modern Warsaw Old Town. |
 | wars-and-sawa-c08 | exact | en.wikipedia.org | There is a statue of Wars and Sawa in Warsaw Old Town (Brzozowa Street). | Statue of Wars and Sawa in the Warsaw Old Town (Brzozowa Street). |
+| wars-and-sawa-c09 | exact | pl.wikipedia.org | According to another version, Warsz and Sawa were brothers, fishermen living on the Vistula (Wisła) at the foot of the New Town (Nowe Miasto). | Według innej wersji Warsz i Sawa byli braćmi, rybakami mieszkającymi nad Wisłą, u podnóża Nowego Miasta |
+| wars-and-sawa-c10 | exact | muzeumwarszawy.pl | In this version, by the riverbank behind the reeds the duke saw a water maiden (panna wodna) holding a yew bow. | Przy brzegu, za trzcinami, ujrzał pannę wodną. W rękach miała cisowy łuk. |
+| wars-and-sawa-c11 | exact | muzeumwarszawy.pl | The mermaid (Syrena) drew her bowstring and loosed a golden arrow, and the duke followed its track. | Syrena napięła cięciwę łuku, a wypuszczona złota strzała poszybowała przed siebie. Jej tropem podążył książę. |
+| wars-and-sawa-c12 | exact | muzeumwarszawy.pl | Moved by the poor couple's hospitality, Siemowit decided to become godfather to their children and named them Warsz and Sawa. | Siemowit wzruszony gościnnością ubogiej pary postanowił zostać ojcem chrzestnym ich dzieci. Nadał im imiona Warsz i Sawa |
+| wars-and-sawa-c13 | exact | muzeumwarszawy.pl | Only the Syrena, patroness of the future city, knew that the duke's promises would come true. | I tylko Syrena, uśmiechająca się do niej patronka przyszłego miasta, wiedziała, że tak się stanie. |
+| wars-and-sawa-c14 | exact | muzeumwarszawy.pl | This retelling is based on Ewa Szelburg-Zarembina's legend "Wróżba panny wodnej". | Tekst powstał na podstawie legendy Ewy Szelburg-Zarembiny „Wróżba panny wodnej” |
 
 
 ## wd-q114458257 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -290,14 +293,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q114458257-c04 | exact | be.wikipedia.org | If only one kasny clings there is nothing to fear; but if two or three attack, while one stays by the victim the others can summon more. | Калі прыстае адзін з каснаў, то баяцца няма чаго. Калі ж напад зроблены двума-трыма каснамі, то пакуль адзін ля ахвяры, астатнія могуць склікаць іншых. |
 | wd-q114458257-c05 | exact | be.wikipedia.org | A victim can hear their squeaking only when carrying the amulet called "Thursday salt", salt blessed in church on Maundy Thursday. | Іх піск ахвяра можа пачуць толькі маючы пры сабе такі абярэг як «чацвярговая соль» — гэта значыць соль, асвечаная ў храме на Чысты чацвер. |
 | wd-q114458257-c06 | exact | be.wikipedia.org | These unclean beings share traits with other bloodsuckers such as the vupyr and eretnik. | Гэтыя нячысцікі маюць агульныя рысы з іншымі крывасмокамі: вупырамі, ератнікамі. |
+| wd-q114458257-c07 | exact | archive.org | According to Nikiforovsky, in outward appearance the kasny (касны) seem smaller than the sheshki (шешекъ), but are far cleverer, more persistent and always act in a pack. | По внЪшнему облику касны какъ будто меньше шешекъ, но гораздо толковће ихъ, болфе настойчивы и дйствують непре- мЪнно скопомъ |
+| wd-q114458257-c08 | exact | archive.org | Rage intoxicates the kasny so that they no longer even feel the people's means of rescue, that is, being struck with consecrated objects. | Злоба опьяняетъ касновъ: они даже перестають чув- ствовать воздЪйстве спасательныхъ людскихъ средствъ— поражеше освященными предметами. |
+| wd-q114458257-c09 | exact | archive.org | As a result some kasny perish or are maimed while attacking, or perish together with the victim, not letting go even after stronger unclean spirits have long withdrawn; together with their weak fertility, this leads to their gradual decline. | Сл$дстыемъ сего бываеть, что отдфль- ные касны гибнуть, или увфчатся еще во время приставаній, гибнуть и вмЪст съ жертвою, оть которой иные не отстаютъ тогда, когда довершивиие гибель ея боле сильные нечистики давно отступили прочь. А это, въ соединеній со слабою плодо- витостью касновъ, ведеть къ постепенному уменьшению ихъ. |
 
 
 ## wd-q114728962 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -306,14 +309,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q114728962-c03 | exact | be.wikipedia.org | The hartsuki haul the thunder millstone across the sky, on which Perun rides with a fiery bow; they raise winds, storms, whirlwinds and other natural phenomena. | Гарцукі возяць па небе грамавы жоран, на якім раз’язджае Пярун з вогненным лукам; яны ўтвараюць вятры, буру і віхры і іншыя стыхійныя прыродныя з’явы. |
 | wd-q114728962-c04 | exact | be.wikipedia.org | These characters are mentioned only in the texts of the ethnographer Pavel Shpilevsky; later researchers noted that Belarusian peasants had heard nothing of them and that Shpilevsky may simply have invented them. | Персанажы згаданы толькі ў тэктах этнографа Паўла Шпілеўскага. Пазнейшыя даследчыкі заўважалі, што беларускія сяляне нічога не чулі пра гэтых персанажаў і што Шпілеўскі, магчыма, проста іх выдумаў. |
 | wd-q114728962-c05 | exact | be.wikipedia.org | Pavel Shpilevsky is known for numerous falsifications of myths and folklore. | Павел Шпілеўскі вядомы шматлікімі фальсіфікацыямі міфаў і фальклора. |
+| wd-q114728962-c06 | exact | web.archive.org | The interviewee explains that according to the author the hartsuki (гарцукоў) are helpers of Perun (Перуна), spirits flying in the sky and carrying out his errands; yet in 200 years of Belarusian ethnography nobody recorded even similar characters, so the writer most likely invented them. | — Вазьміце гарцукоў: паводле аўтара, гэта памочнікі Перуна, духі, якія лётаюць па небе і выконваюць яго даручэнні. Аднак за 200 гадоў беларускай этнаграфіі больш ніхто нідзе не фіксаваў хаця б падобных персанажаў, інфармацыі пра іх — нуль. Адкуль пісьменнік іх узяў? Хутчэй за ўсё проста прыдумаў. |
+| wd-q114728962-c07 | exact | web.archive.org | This is why the hartsuki (гарцукоў) and other characters that never existed in native folklore reappear on book pages. | Таму на старонках ізноў бачым гарцукоў і іншых персанажаў, якія ніколі не існавалі ў айчынным фальклоры. |
 
 
 ## wd-q12279265 — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -327,14 +329,17 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 | wd-q12279265-c08 | exact | bg.wikipedia.org | Gradually the illness left her; she rose, took her child from her sister's arms and rocked it. | Постепенно болестта започнала да я напуска, тя се изправила, взела детето от ръцете на сестра си и го залюляла. |
 | wd-q12279265-c09 | exact | bg.wikipedia.org | Finally, at a clear spring, he realised he had found his home, from which to send life-giving rain over all the earth for every living creature. | Разбрал, че е намерил своя дом, откъдето да изпраща животворен дъжд по цялата земя за всички живи създания. |
 | wd-q12279265-c10 | exact | bg.wikipedia.org | Kua climbed onto his back and scattered some of the herbs on his head; he felt happy and elated and trotted off with Kua on his back. | Качила се на гърба му и разпръснала част от билките върху главата му. От всичко това той се почувствал щастлив и въодушевен, обърнал се и потеглил в тръс с Куа на гърба си. |
+| wd-q12279265-c11 | exact | archive.org | In the tale recorded by Bleek and Lloyd, a young woman was in her hut because she was still ill; the Rain scented her and went forth on account of it. | while the young woman was in (her) hut, because she felt that she was still ill. The Rain scented her, and the Rain went forth, on account of it; |
+| wd-q12279265-c12 | exact | archive.org | According to a footnote to the tale, the Rain resembled a bull. | He resembled a bull, while he felt that (he) was the Rain's |
+| wd-q12279265-c13 | exact | archive.org | The young woman took up buchu and threw it upon his forehead. | The young woman took up buchu in her hand, the young woman threw buchu upon his forehead. |
+| wd-q12279265-c14 | exact | archive.org | She mounted the Rain, and the Rain took her away. | She mounted the Rain; and the Eain took her away. |
+| wd-q12279265-c15 | exact | archive.org | She laid her child down because she thought she would die and go to become a frog. | She laid it down, while she thought that she should die, (and) go to become a frog. |
+| wd-q12279265-c16 | exact | archive.org | According to the people quoted, when the Rain's Bull goes out of his pit, the water pit dries up. | the pit becomes dry, while it feels that the Rain has gone out, the Rain's Bull. Therefore, the pit dries up on account of it. |
 
 
 ## wd-q12282902 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -342,14 +347,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q12282902-c02 | exact | bg.wikipedia.org | Also called the "spotted lion" (or "lion speckled with scales"), it is a huge snake, probably with a lion's head. | Наричано още „шарен лъв“ (или „пропъстрен с люспи лъв“), то представлява огромна змия, вероятно с лъвска глава. |
 | wd-q12282902-c03 | exact | bg.wikipedia.org | The kenchrines kills with a strong venom that rots the skin, eats away the joints and causes severe stomach pain, or by coiling round and strangling its victim and sucking its blood. | Кенхринес убива със силна отрова, причиняваща загнивания на кожата, разяждане на ставите и силни стомашни болки или обвивайки и задушавайки жертвата си и изсмуква кръвта ѝ. |
 | wd-q12282902-c04 | exact | bg.wikipedia.org | It attacks at noon, its victims usually being sheep resting at midday unattended by their shepherds, but it is deadly to humans as well. | Напада по пладне, като жертвите му обикновено са пладнуващи овце, оставени без надзор от пастирите си, но е смъртно опасно и за човека. |
+| wd-q12282902-c05 | exact | cts.perseids.org | Nicander calls the kenchrines (κεγχρίνεω) a long monster (δολιχὸν τέρας), named the "spotted lion" (λέοντα αἰόλον) and dotted all over with scales (περίστικτον φολίδεσσι). | δήεις κεγχρίνεω δολιχὸν τέρας, ὅν τε λέοντα αἰόλον αὐδάξαντο, περίστικτον φολίδεσσι |
+| wd-q12282902-c06 | exact | cts.perseids.org | When the sun's (ἠελίοιο) ray is hottest it rages over the jagged mountains (οὔρεα), craving blood (αἵματος) and lying in wait for tame sheep (μῆλα). | Ἤτοι ὅτ’ ἠελίοιο θερειτάτη ἵσταται ἀκτὶς, οὔρεα μαιμώσσων ἐπινίσσεται ὀκριόεντα, αἵματος ἰσχανόων, καὶ ἐπὶ κτίλα μῆλα δοκεύων |
+| wd-q12282902-c07 | exact | cts.perseids.org | Nicander names Saos (Σάου) and Mosychlos (Μοσύχλου), where the flocks of the fields cool off under tall firs (ἐλάτῃσι) when the herdsmen (νομήων) have left their work. | ἢ Σάου ἠὲ Μοσύχλου ὅτ’ ἀμφ’ ἐλάτῃσι μακεδναῖς ἄγραυλοι ψύχωσι, λελοιπότες ἔργα νομήων |
+| wd-q12282902-c08 | exact | cts.perseids.org | Nicander advises fleeing (Φεῦγε) by a winding, not a single straight path, because in many-turning bends its spine (ἀκάνθης) is hampered, while on a straight track it crawls very swiftly (ὢκιστος). | Φεῦγε δ’ ἀεὶ σκολιήν τε καὶ οὐ μίαν ἀτραπὸν ἴλλων. δοχμὸς ἀνακρούων θηρὸς πάτον· ἦ γὰρ ὃ δεσμοὺς βλάπτεται ἐν καμπῇσι πολυστρέπτοισιν ἀκάνθης, ἰθεῖαν δ’ ὢκιστος ἐπιδρομάδην στίβον ἕρπει. |
+| wd-q12282902-c09 | exact | cts.perseids.org | Such a snake (ὄφις) haunts the Thracian islands (Θρηικίῃσιν νήσοισι). | Τοῖος Θρηικίῃσιν ὄφις νήσοισι πολάζει. |
 
 
 ## wd-q12284251 — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -362,14 +369,18 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | wd-q12284251-c07 | exact | bg.wikipedia.org | The two Kwammangas, father and son, knew they would be punished if they killed the old antelope, but hunger forced them to do it. | Те знаели, че ако я убият ще бъдат наказани, но гладът ги принудил да го направят. |
 | wd-q12284251-c08 | exact | bg.wikipedia.org | The people ate it without remorse for destroying another living being created by God, but guilt then lodged in their minds like a scourge and began to torment them. | Хората я изяли без да почувстват угризение за това, че унищожават друго живо същество, сътворено от Бога. Но вината се загнездила като бич в съзнанието им и започнала да ги мъчи. |
 | wd-q12284251-c09 | exact | bg.wikipedia.org | They had to turn for help to the creator god Cagn, because they could no longer live with such great guilt. | се наложило да се обърнат за помощ към бога-творец Цагн, защото повече не можели да живеят с тази огромна вина. |
+| wd-q12284251-c10 | exact | archive.org | The Porcupine is married to Kwammang-a, a mythical person not identified with any animal but seen in the rainbow. | The Porcupine is married to Kwammang-a*, a mythical person not identified with any animal, but seen in the rainbow. |
+| wd-q12284251-c11 | exact | archive.org | The couple have two children: young Kwammang-a, brave and quiet like his father, and the young Ichneumon, a great talker always lecturing his grandfather the Mantis. | This strange couple have two children, young Kwammang-a, who is brave and quiet like his father, and the young Ichneumon, who is a great talker, always lecturing his grandfather the Mantis on his foolish doings. |
+| wd-q12284251-c12 | exact | archive.org | In one tale the Mantis calls Kwammang-a "my sister's son". | In one tale the Mantis calls him ‘‘ my sister’s son.” |
+| wd-q12284251-c13 | exact | archive.org | The Mantis made an Eland out of Kwammang-a's shoe. | Then the Mantis made an Eland out of Kwammang-a's shoe. |
+| wd-q12284251-c14 | exact | archive.org | The Rainbow is yellow above and red below, because the Mantis, who is also yellow, lies above and Kwammang-a lies below. | The Rainbow is yellow in that part which lies above ; the piece which seems red lies below. For the Mantis, who 1s also yellow, lies above, and Kwammang-a lies below. |
+| wd-q12284251-c15 | exact | archive.org | The Rainbow is called Kwammang-a; children call it so because the grown-up people called it so. | It is the Rainbow. Men call it Kwammang-a. Therefore we who are children say ‘* Kwammang-a "to it, because the grown-up people said Kwammang-a to it. |
+| wd-q12284251-c16 | exact | archive.org | People say: "The Rainbow stands yonder and the rain will break." | The Rainbow stands yonder and the rain will break. |
 
 
 ## wd-q12284431 — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -380,14 +391,12 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | wd-q12284431-c05 | exact | bg.wikipedia.org | After hearing them, God ruled that the wolf might eat the man, which the wolf did. | Господ след като ги изслушал отсъдил, че вълкът може да изяде човека, което вълкът и сторил. |
 | wd-q12284431-c06 | exact | bg.wikipedia.org | Since then this wolf (Kutsulan) has been the most dangerous to people and animals. | Оттогава този вълк (Куцулан) е най-опасният за хората и животните. |
 | wd-q12284431-c07 | exact | bg.wikipedia.org | Kutsulan is also the name of the last day of the Wolf Holidays (Valchi praznitsi). | Куцулан се нарича също и последният ден от Вълчите празници. |
+| wd-q12284431-c08 | exact | bg.wikipedia.org | In the imagination of the Bulgarians (българите) this lone wolf is the mythical leader of the pack, described as lame or one-legged (compare the lame devil), and called Kutsulan (Куцулан), Klekutsan (Клекуцан), Natlapan (Натлапан) or Krivlyo (Кривльо). | В представите на българите това е митичният предводител на глутницата, описван е като куц или еднокрак (срв. с куция дявол) и е наричан Куцулан, Клекуцан, Натлапан или Кривльо. |
 
 
 ## wd-q12284837 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -395,19 +404,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q12284837-c02 | exact | bg.wikipedia.org | It comes from the Greek word eleousa, meaning "merciful", often used to name the Most Holy Mother of God. | Произлиза от гръцката дума елеуса, в превод милостива, с която често се назовава Пресвета Богородица. |
 | wd-q12284837-c03 | exact | bg.wikipedia.org | According to Bulgarian folk belief, lehusi are also spirits that visit new mothers until the 40th day after birth; if not stopped, they bring illness, madness and death. | Според българските народни вярвания лехусите са и духове, които идват при родилките до 40-ия ден след раждането. Ако не бъдат спрени, донасят болести, лудост, смърт. |
 | wd-q12284837-c04 | exact | bg.wikipedia.org | Therefore someone must always be with the mother and baby until that day, and after the 40th day a honey loaf is kneaded to appease the spirits. | Затова при майката и бебето до този ден винаги трябва да има някого, а след изтичане на 40тия ден се омесва медена пита, за да ги умилостиви. |
+| wd-q12284837-c05 | exact | www.24chasa.bg | The sequel to the audio series "Мамник" (Mamnik) was released on Storytel under the title "Лехуса" (Lehusa), again voiced by Vlado Penev (Владо Пенев). | Дългоочакваното продължение на хитовия аудиосериал “Мамник” излезе тази седмица в Storytel. Новата част носи заглавието “Лехуса” и отново е озвучена от незабравимия глас на Владо Пенев. |
+| wd-q12284837-c06 | exact | www.24chasa.bg | According to the author Vasil Popov (Васил Попов), the lehusa is a creature of Bulgarian tradition, a kind of spirit or monster born of the pain of a woman whose child was taken from her by force, and is believed to pursue new mothers and pregnant women. | Лехусата е създание от нашата традиция – нещо като дух или чудовище, родено от болката на жена, на която насилствено са отнели детето. Вярва се, че преследва родилки и бременни”, обяснява авторът Васил Попов |
 
 
 ## wd-q12287431 — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q12287431-c01 | exact | bg.wikipedia.org | In Bulgarian folk belief Mratinyak is a malevolent demon causing the disease of the same name in hens and poultry (also called hen disease), the personification of poultry diseases. | в българските народни вярвания е злотворен демон, причиняващ едноименната болест по кокошките и домашните птици (наричана още кокоша болест), олицетворение на болестите по домашните птици. |
 | wd-q12287431-c02 | exact | bg.wikipedia.org | Mainly in Northern and Western Bulgaria the feast of Mratintsi is kept in his honour; he is pictured as a big, extremely ugly black hen with large wings and huge eyes. | Главно в Северна и Западна България в негова чест се почита празника Мратинци. Представян е като голяма черна кокошка с изключително грозен вид, големи криле и огромни очи. |
+| wd-q12287431-c03 | exact | bg.wikipedia.org | The Mratintsi custom is known mainly in Northern and Western Bulgaria (България) and is kept on 14 November, the day of the Apostle Philip (Филип) in the Orthodox calendar, traditionally linked with the start of the Christmas fast and the end of the wedding season. | Известен е главно в Северна и Западна България и се чества на 14 ноември (в православния календар това е денят на апостол Филип, свързван традиционно с началото на Коледните пости и с края на сватбения сезон). |
+| wd-q12287431-c04 | exact | bg.wikipedia.org | In some places in Western Bulgaria, Mratintsi denotes the period of 11–16 (21) November, a local variant of the Wolf Holidays (Вълчите празници). | На някои места в Западна България с Мратинци се обозначава периодът 11 – 16 (21) ноември, явяващ се местен вариант на Вълчите празници. |
+| wd-q12287431-c05 | exact | bg.wikipedia.org | The Mratintsi nights were considered more dangerous even than the Mrasnite dni (Мръсните дни), the time when, in old belief, the most dangerous and disease-bringing evil forces run wild. | Мратинските нощи са считани за по-опасни дори и от Мръсните дни (и нощи) - време, в което, в старинните представи, вилнеят най-опасните и болестотворни зли сили |
+| wd-q12287431-c06 | exact | bg.wikipedia.org | The ritual is performed by women: to appease the mratinyak (мратиняка), on that day they slaughter a chicken, usually a young cockerel, preferably a black one. | Ритуалът се изпълнява от жени. За да умилостивят мратиняка, на този ден колят пиле (обикновено - петле, т.е. мъжко дете на кокошка), за предпочитане - черно. |
+| wd-q12287431-c07 | exact | bg.wikipedia.org | When the older woman puts the knife to the chicken's neck, the younger asks "What are you slaughtering?"; the older answers "I am slaughtering mratinyak (мратиняк)" and kills it, saying "It is not we who slaughter you, it is mratinyak who slaughters you." | Когато възрастната опре ножа до врата на пилето, по-младата пита: „Какво колиш?“, на което по-възрастната отговаря: „Коля мратиняк.“ и заколва пилето, отправяйки му следната реплика: „Не те колим ние, но те коли мратиняк.“ |
+| wd-q12287431-c08 | exact | bg.wikipedia.org | The chicken is cooked and eaten, while its feathers are kept and burned when needed to treat various illnesses by fumigation (прекадяване). | Пилето се сготвя и изяжда, а перушината се запазва и при случай перата се горят за лекуване (чрез прекадяване с дим) на разни болести. |
 
 
 ## wd-q12748776 — skip
