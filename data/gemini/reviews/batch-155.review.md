@@ -1,8 +1,8 @@
 # Review batch-155
 
-Diperiksa 2026-10-14T05:09:15.463Z. Berkas: batch-155.md.
+Diperiksa 2026-10-14T05:12:30.521Z. Berkas: batch-155.md.
 
-**Belum dikirim:** gilgamesh, enkidu, palasik, kemamang, jerangkong, hantu-kopek, parakang, buto-ijo, lampor
+**Belum dikirim:** gilgamesh, enkidu, kemamang, jerangkong, hantu-kopek, parakang, buto-ijo, lampor
 
 ## nyi-blorong — lulus-otomatis
 
@@ -162,3 +162,27 @@ Klaim 23 (exact 23), sumber 3, gambar 2.
   - dipakai di: cs.wikipedia.org: Semar; en.wikipedia.org: Semar
   - bukti dari Gemini: Judul berkas Commons: 'Houten wajang topengmasker voorstellende Semar'; dipakai di artikel en.wikipedia Semar.
   - thumbnail: /home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/cache/gemini-verify/thumbs/batch-155/semar-2.jpg
+
+## palasik — lulus-otomatis
+
+Klaim 16 (exact 16), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| palasik-c01 | exact | id.wikipedia.org | Palasik is a figure in the traditional belief of the Minangkabau people of West Sumatra (Sumatra Barat). | Pelesit atau Palasik adalah sosok dalam kepercayaan tradisional masyarakat Minangkabau di Sumatra Barat. |
+| palasik-c02 | exact | id.wikipedia.org | In local oral tradition the palasik is pictured as a person believed to have supernatural powers or to practise black magic (ilmu hitam). | Dalam tradisi lisan setempat, palasik digambarkan sebagai manusia yang diyakini memiliki kemampuan gaib atau mempraktikkan ilmu hitam. |
+| palasik-c03 | exact | id.wikipedia.org | Its power is believed to come from black magic or to be inherited down a family line (turun-temurun). | Kekuatan tersebut dipercaya dapat diperoleh melalui praktik ilmu hitam atau diwariskan secara turun-temurun dalam suatu keluarga. |
+| palasik-c04 | exact | id.wikipedia.org | The palasik's main targets are children, especially babies and toddlers (balita); in some stories it also attacks the unborn so that babies are born dead. | Kepercayaan masyarakat menyebutkan bahwa sasaran utama palasik adalah anak-anak, terutama bayi dan balita. Dalam beberapa cerita, palasik juga diyakini dapat menyerang janin dalam kandungan sehingga bayi dapat lahir dalam kondisi meninggal. |
+| palasik-c05 | exact | id.wikipedia.org | The palasik bangkai is described as eating the flesh or bones of buried humans. | Palasik bangkai digambarkan sebagai individu yang memiliki kebiasaan memakan daging atau tulang manusia yang telah dikuburkan. |
+| palasik-c06 | exact | id.wikipedia.org | The second kind, the palasik kuduang, called penanggal in some stories, is believed able to separate its head from its body. | Jenis kedua adalah palasik kuduang, yang dalam beberapa cerita juga dikenal sebagai penanggal. Palasik jenis ini dipercaya memiliki kemampuan untuk memisahkan kepala dari tubuhnya. |
+| palasik-c07 | exact | id.wikipedia.org | The head then moves about at night seeking prey, while the body stays where it was. | Kepala tersebut kemudian bergerak pada malam hari untuk mencari mangsa, sementara tubuhnya tetap berada di tempat asal. |
+| palasik-c08 | exact | id.wikipedia.org | The palasik kuduang is often described as immune to sharp weapons and able to vanish quickly when chased. | Palasik kuduang juga sering digambarkan kebal terhadap senjata tajam dan mampu menghilang dengan cepat apabila dikejar. |
+| palasik-c09 | exact | id.wikipedia.org | Protections include scattering salt around the house, hanging garlic on doors and windows, or burying goose eggs in the yard. | Selain itu, terdapat pula praktik lain seperti menaburkan garam di sekeliling rumah, menggantung bawang putih pada pintu dan jendela, atau menanam telur angsa di halaman rumah. |
+| palasik-c10 | exact | id.wikipedia.org | Some people keep geese because their cry is believed to drive the palasik away. | Dalam beberapa kasus, masyarakat juga memelihara angsa karena suara hewan tersebut dipercaya dapat mengusir palasik. |
+| palasik-c11 | exact | min.wikipedia.org | By the myth, a palasik has no groove between lip and nose (bibia jo iduangnyo) and covers its neck (lihianyo) so the seam of head and body does not show. | nan partamo urang palasik indak punyo lubang antaro bibia jo iduangnyo, nan kaduo urang palasik manutuik lihianyo supayo ndak nampak bakeh sambuangan kapalo jo badannyo |
+| palasik-c12 | exact | min.wikipedia.org | A palasik dislikes the smell of garlic, shallots and betel leaf (bawang putiah, bawang merah, daun salasiah). | urang palasik indak suko jo baun bawang putiah, bawang merah, daun salasiah |
+| palasik-c13 | exact | al-qanatir.com | The palasik is understood as a supernatural being believed to target fetuses and newborns. | Palasik is understood as a supernatural being or entity that is believed to target fetuses and newborns. |
+| palasik-c14 | exact | al-qanatir.com | In Nagari Parik the belief in the palasik is held by the old and the young, and wearing dasun or jerangau serves as spiritual prevention. | In Nagari Parik, Koto Balingka District, West Pasaman, the belief in Palasik is not only held by the elderly, but also by the younger generation. Symbolic practices such as wearing dasun or jerangau are used as spiritual preventive measures. |
+| palasik-c15 | exact | ejournal.iainkerinci.ac.id | Many people believe a dead child's grave must be given a lamp because it is still at risk from the palasik. | Bahkan dalam hal lain, banyak masyarakat percaya anak yang sudah meninggal pun harus diberi lampu di pekuburan atau makamnya karena masih rentan dalam incaran palasik. |
+| palasik-c16 | exact | ejournal.iainkerinci.ac.id | According to residents, without a light the palasik will eat the buried child's corpse. | Menurut warga jika tidak diberi penerangan maka palasik akan memakan mayat si anak yang siudah dimakamkan tersebut |
+

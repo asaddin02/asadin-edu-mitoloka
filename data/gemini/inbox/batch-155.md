@@ -2763,3 +2763,582 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-155",
+  "slug": "palasik",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-14",
+  "identity": {
+    "canonical_name": "Palasik",
+    "native_name": null,
+    "display_name": {
+      "id": "Palasik",
+      "en": "Palasik"
+    },
+    "wikidata_qid": "Q97214181",
+    "claim_ids": [
+      "palasik-c01",
+      "palasik-c02"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Palasik kuduang",
+      "language": "min",
+      "name_type": "regional",
+      "claim_ids": [
+        "palasik-c06"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "palasik-c13"
+    ]
+  },
+  "classification": {
+    "value": "undead",
+    "claim_ids": [
+      "palasik-c06",
+      "palasik-c07",
+      "palasik-c13"
+    ]
+  },
+  "culture": {
+    "value": "indonesian-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "palasik-c01"
+    ]
+  },
+  "region": {
+    "value": "southeast-asia",
+    "claim_ids": [
+      "palasik-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "dwelling",
+      "claim_ids": [
+        "palasik-c09",
+        "palasik-c10"
+      ]
+    },
+    {
+      "value": "graveyard",
+      "claim_ids": [
+        "palasik-c05",
+        "palasik-c15"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "palasik-c04",
+      "palasik-c13"
+    ]
+  },
+  "traits": [
+    {
+      "value": "nocturnal",
+      "claim_ids": [
+        "palasik-c07"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Palasik adalah sosok dalam kepercayaan Minangkabau di Sumatra Barat: manusia berilmu hitam yang dipercaya memangsa bayi, balita, dan janin, dan pada jenis palasik kuduang dapat melepas kepalanya.",
+    "en": "The palasik is a figure of Minangkabau belief in West Sumatra: a person with black magic believed to prey on babies, toddlers and the unborn, the palasik kuduang kind able to detach its head.",
+    "claim_ids": [
+      "palasik-c01",
+      "palasik-c02",
+      "palasik-c04",
+      "palasik-c06"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam kepercayaan tradisional Minangkabau di Sumatra Barat, palasik digambarkan sebagai manusia yang berkemampuan gaib atau mempraktikkan ilmu hitam. Kekuatan itu dipercaya didapat lewat ilmu hitam atau diwariskan turun-temurun dalam keluarga. Kajian modern memahaminya sebagai makhluk gaib yang menyasar janin dan bayi baru lahir.",
+      "en": "In the traditional belief of the Minangkabau of West Sumatra, the palasik is pictured as a person with supernatural powers or one who practises black magic. That power is believed to come from black magic or to be inherited within a family. Modern study understands it as a supernatural being that targets fetuses and newborns.",
+      "claim_ids": [
+        "palasik-c01",
+        "palasik-c02",
+        "palasik-c03",
+        "palasik-c13"
+      ]
+    },
+    {
+      "id": "Sasaran utamanya anak-anak, terutama bayi dan balita, dan dalam beberapa cerita palasik menyerang janin sehingga bayi lahir meninggal. Cerita rakyat membedakan palasik bangkai, yang memakan daging atau tulang manusia yang telah dikubur, dan palasik kuduang, yang dapat memisahkan kepala dari tubuh lalu mencari mangsa pada malam hari. Palasik kuduang juga disebut kebal senjata tajam dan cepat menghilang bila dikejar.",
+      "en": "Its main targets are children, above all babies and toddlers, and in some stories the palasik attacks the unborn so that babies are born dead. Folklore distinguishes the palasik bangkai, which eats the flesh or bones of the buried, from the palasik kuduang, which can separate its head from its body and hunt at night. The palasik kuduang is also said to be immune to sharp weapons and to vanish quickly when chased.",
+      "claim_ids": [
+        "palasik-c04",
+        "palasik-c05",
+        "palasik-c06",
+        "palasik-c07",
+        "palasik-c08"
+      ]
+    },
+    {
+      "id": "Menurut mitos, orang palasik bisa dikenali karena tidak punya lekuk antara bibir dan hidung, dan menutupi lehernya agar bekas sambungan kepala tidak tampak. Penangkalnya beragam: bau bawang putih, bawang merah, dan daun sirih, garam di sekeliling rumah, telur angsa di halaman, atau angsa peliharaan yang suaranya dipercaya mengusir palasik.",
+      "en": "By the myth a palasik can be recognised because it has no groove between lip and nose, and it covers its neck so the seam of the head does not show. Protections vary: the smell of garlic, shallots and betel leaf, salt around the house, goose eggs in the yard, or kept geese whose cry is believed to drive the palasik off.",
+      "claim_ids": [
+        "palasik-c09",
+        "palasik-c10",
+        "palasik-c11",
+        "palasik-c12"
+      ]
+    },
+    {
+      "id": "Kepercayaan ini masih hidup. Di Nagari Parik, generasi tua maupun muda memakai dasun atau jerangau sebagai pencegahan, dan menurut kajian lain banyak warga memasang lampu di makam anak karena percaya palasik akan memakan mayat anak yang tidak diberi penerangan.",
+      "en": "The belief is still alive. In Nagari Parik both old and young wear dasun or jerangau as prevention, and another study finds many residents lighting a child's grave, believing the palasik will eat a buried child's corpse left in the dark.",
+      "claim_ids": [
+        "palasik-c14",
+        "palasik-c15",
+        "palasik-c16"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": {
+    "who": {
+      "id": "Manusia berilmu hitam yang dipercaya memangsa bayi.",
+      "en": "A person with black magic believed to prey on babies.",
+      "claim_ids": [
+        "palasik-c02",
+        "palasik-c04"
+      ]
+    },
+    "origin": {
+      "id": "Kepercayaan tradisional Minangkabau di Sumatra Barat.",
+      "en": "Traditional Minangkabau belief in West Sumatra.",
+      "claim_ids": [
+        "palasik-c01"
+      ]
+    },
+    "role": {
+      "id": "Penyebab yang dipercaya atas sakit dan kematian bayi.",
+      "en": "A believed cause of babies' illness and death.",
+      "claim_ids": [
+        "palasik-c04",
+        "palasik-c13"
+      ]
+    },
+    "famous_for": {
+      "id": "Palasik kuduang yang kepalanya terlepas dan berkeliaran pada malam hari.",
+      "en": "The palasik kuduang, whose head detaches and roams at night.",
+      "claim_ids": [
+        "palasik-c06",
+        "palasik-c07"
+      ]
+    }
+  },
+  "did_you_know": {
+    "id": "Menurut mitos Minangkabau, orang palasik menutupi lehernya agar bekas sambungan kepala dan badannya tidak terlihat.",
+    "en": "By Minangkabau myth, a palasik covers its neck so the seam between head and body does not show.",
+    "claim_ids": [
+      "palasik-c11"
+    ]
+  },
+  "abilities": [
+    {
+      "ability_id": null,
+      "name": {
+        "id": "Melepas kepala",
+        "en": "Detaching its head"
+      },
+      "description": {
+        "id": "Palasik kuduang memisahkan kepala dari tubuh untuk mencari mangsa pada malam hari.",
+        "en": "The palasik kuduang separates its head from its body to hunt at night."
+      },
+      "claim_ids": [
+        "palasik-c06",
+        "palasik-c07"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "name": {
+        "id": "Bawang dan daun sirih",
+        "en": "Garlic, shallots and betel"
+      },
+      "description": {
+        "id": "Palasik tidak suka bau bawang putih, bawang merah, dan daun sirih.",
+        "en": "The palasik dislikes the smell of garlic, shallots and betel leaf."
+      },
+      "claim_ids": [
+        "palasik-c12"
+      ]
+    },
+    {
+      "name": {
+        "id": "Angsa",
+        "en": "Geese"
+      },
+      "description": {
+        "id": "Suara angsa dipercaya mengusir palasik.",
+        "en": "The cry of geese is believed to drive the palasik away."
+      },
+      "claim_ids": [
+        "palasik-c10"
+      ]
+    },
+    {
+      "name": {
+        "id": "Cahaya di makam",
+        "en": "Light on the grave"
+      },
+      "description": {
+        "id": "Lampu di makam anak dipercaya mencegah palasik memakan mayatnya.",
+        "en": "A lamp on a child's grave is believed to keep the palasik from eating the body."
+      },
+      "claim_ids": [
+        "palasik-c15",
+        "palasik-c16"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "name": "Palasik bangkai",
+      "tradition": {
+        "id": "Minangkabau",
+        "en": "Minangkabau"
+      },
+      "description": {
+        "id": "Jenis yang memakan daging atau tulang manusia yang telah dikubur.",
+        "en": "The kind that eats the flesh or bones of buried humans."
+      },
+      "claim_ids": [
+        "palasik-c05"
+      ]
+    },
+    {
+      "name": "Palasik kuduang",
+      "tradition": {
+        "id": "Minangkabau",
+        "en": "Minangkabau"
+      },
+      "description": {
+        "id": "Jenis yang dapat melepas kepalanya, juga disebut penanggal.",
+        "en": "The kind that can detach its head, also called penanggal."
+      },
+      "claim_ids": [
+        "palasik-c06"
+      ]
+    }
+  ],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Penanggal",
+      "relation_type": "associated",
+      "note": {
+        "id": "Palasik kuduang dalam beberapa cerita juga dikenal sebagai penanggal.",
+        "en": "In some stories the palasik kuduang is also known as penanggal."
+      },
+      "claim_ids": [
+        "palasik-c06"
+      ]
+    },
+    {
+      "target_name": "Pelesit",
+      "relation_type": "associated",
+      "note": {
+        "id": "Satu sumber membuka uraiannya dengan nama Pelesit atau Palasik.",
+        "en": "One source opens its account with the name Pelesit or Palasik."
+      },
+      "claim_ids": [
+        "palasik-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa kepercayaan tentang palasik muncul di sekitar kehamilan dan bayi?",
+      "en": "Why might palasik beliefs gather around pregnancy and infancy?"
+    },
+    {
+      "id": "Bagaimana kepercayaan lama dan layanan kesehatan modern bisa saling melengkapi?",
+      "en": "How might old beliefs and modern health care complement each other?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "palasik-s1",
+      "url": "https://id.wikipedia.org/wiki/Palasik",
+      "title": "Palasik",
+      "author": null,
+      "publisher": "Wikipedia (id)",
+      "published": null,
+      "language": "id",
+      "type": "wikipedia",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "palasik-s2",
+      "url": "https://min.wikipedia.org/wiki/Palasik",
+      "title": "Palasik",
+      "author": null,
+      "publisher": "Wikipedia (min)",
+      "published": null,
+      "language": "min",
+      "type": "wikipedia",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "palasik-s3",
+      "url": "https://al-qanatir.com/aq/article/download/1305/897/6536",
+      "title": "Exhaustive Need Approach in Exploring Pregnant Women's Specific Information Needs on Palasik Myths in Minangkabau",
+      "author": "Fadhila Nurul Husna Zalmi; Nadiana Razu; Arwendria; Fadira Az-zahra",
+      "publisher": "Al-Qanatir: International Journal of Islamic Studies",
+      "published": "2025",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "palasik-s4",
+      "url": "https://ejournal.iainkerinci.ac.id/index.php/thullab/article/download/2819/943/9484",
+      "title": "Penggunaan Jimat Dalam Masyarakat Minangkabau (Studi Kasus: Nagari Tanjuang Gadang Tahun 1970-2020)",
+      "author": null,
+      "publisher": "Thullab: Jurnal Riset dan Publikasi Mahasiswa (IAIN Kerinci)",
+      "published": "2023",
+      "language": "id",
+      "type": "journal-article",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "claims": [
+    {
+      "id": "palasik-c01",
+      "source_id": "palasik-s1",
+      "quote": "Pelesit atau Palasik adalah sosok dalam kepercayaan tradisional masyarakat Minangkabau di Sumatra Barat.",
+      "locator": "Pembuka",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Palasik adalah sosok dalam kepercayaan tradisional masyarakat Minangkabau di Sumatra Barat.",
+        "en": "Palasik is a figure in the traditional belief of the Minangkabau people of West Sumatra (Sumatra Barat)."
+      }
+    },
+    {
+      "id": "palasik-c02",
+      "source_id": "palasik-s1",
+      "quote": "Dalam tradisi lisan setempat, palasik digambarkan sebagai manusia yang diyakini memiliki kemampuan gaib atau mempraktikkan ilmu hitam.",
+      "locator": "Pembuka",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam tradisi lisan setempat, palasik digambarkan sebagai manusia yang diyakini berkemampuan gaib atau mempraktikkan ilmu hitam.",
+        "en": "In local oral tradition the palasik is pictured as a person believed to have supernatural powers or to practise black magic (ilmu hitam)."
+      }
+    },
+    {
+      "id": "palasik-c03",
+      "source_id": "palasik-s1",
+      "quote": "Kekuatan tersebut dipercaya dapat diperoleh melalui praktik ilmu hitam atau diwariskan secara turun-temurun dalam suatu keluarga.",
+      "locator": "Asal-usul kepercayaan",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kekuatannya dipercaya diperoleh lewat ilmu hitam atau diwariskan turun-temurun dalam keluarga.",
+        "en": "Its power is believed to come from black magic or to be inherited down a family line (turun-temurun)."
+      }
+    },
+    {
+      "id": "palasik-c04",
+      "source_id": "palasik-s1",
+      "quote": "Kepercayaan masyarakat menyebutkan bahwa sasaran utama palasik adalah anak-anak, terutama bayi dan balita. Dalam beberapa cerita, palasik juga diyakini dapat menyerang janin dalam kandungan sehingga bayi dapat lahir dalam kondisi meninggal.",
+      "locator": "Asal-usul kepercayaan",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sasaran utama palasik adalah anak-anak, terutama bayi dan balita; dalam beberapa cerita ia juga menyerang janin sehingga bayi lahir meninggal.",
+        "en": "The palasik's main targets are children, especially babies and toddlers (balita); in some stories it also attacks the unborn so that babies are born dead."
+      }
+    },
+    {
+      "id": "palasik-c05",
+      "source_id": "palasik-s1",
+      "quote": "Palasik bangkai digambarkan sebagai individu yang memiliki kebiasaan memakan daging atau tulang manusia yang telah dikuburkan.",
+      "locator": "Palasik bangkai",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Palasik bangkai digambarkan suka memakan daging atau tulang manusia yang sudah dikubur.",
+        "en": "The palasik bangkai is described as eating the flesh or bones of buried humans."
+      }
+    },
+    {
+      "id": "palasik-c06",
+      "source_id": "palasik-s1",
+      "quote": "Jenis kedua adalah palasik kuduang, yang dalam beberapa cerita juga dikenal sebagai penanggal. Palasik jenis ini dipercaya memiliki kemampuan untuk memisahkan kepala dari tubuhnya.",
+      "locator": "Palasik kuduang",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Jenis kedua, palasik kuduang, yang dalam beberapa cerita disebut penanggal, dipercaya dapat memisahkan kepala dari tubuhnya.",
+        "en": "The second kind, the palasik kuduang, called penanggal in some stories, is believed able to separate its head from its body."
+      }
+    },
+    {
+      "id": "palasik-c07",
+      "source_id": "palasik-s1",
+      "quote": "Kepala tersebut kemudian bergerak pada malam hari untuk mencari mangsa, sementara tubuhnya tetap berada di tempat asal.",
+      "locator": "Palasik kuduang",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kepala itu bergerak pada malam hari mencari mangsa, sementara tubuhnya tetap di tempat.",
+        "en": "The head then moves about at night seeking prey, while the body stays where it was."
+      }
+    },
+    {
+      "id": "palasik-c08",
+      "source_id": "palasik-s1",
+      "quote": "Palasik kuduang juga sering digambarkan kebal terhadap senjata tajam dan mampu menghilang dengan cepat apabila dikejar.",
+      "locator": "Palasik kuduang",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Palasik kuduang sering digambarkan kebal senjata tajam dan cepat menghilang bila dikejar.",
+        "en": "The palasik kuduang is often described as immune to sharp weapons and able to vanish quickly when chased."
+      }
+    },
+    {
+      "id": "palasik-c09",
+      "source_id": "palasik-s1",
+      "quote": "Selain itu, terdapat pula praktik lain seperti menaburkan garam di sekeliling rumah, menggantung bawang putih pada pintu dan jendela, atau menanam telur angsa di halaman rumah.",
+      "locator": "Penangkal",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Penangkalnya antara lain menabur garam di sekeliling rumah, menggantung bawang putih di pintu dan jendela, atau menanam telur angsa di halaman.",
+        "en": "Protections include scattering salt around the house, hanging garlic on doors and windows, or burying goose eggs in the yard."
+      }
+    },
+    {
+      "id": "palasik-c10",
+      "source_id": "palasik-s1",
+      "quote": "Dalam beberapa kasus, masyarakat juga memelihara angsa karena suara hewan tersebut dipercaya dapat mengusir palasik.",
+      "locator": "Penangkal",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sebagian warga memelihara angsa karena suaranya dipercaya mengusir palasik.",
+        "en": "Some people keep geese because their cry is believed to drive the palasik away."
+      }
+    },
+    {
+      "id": "palasik-c11",
+      "source_id": "palasik-s2",
+      "quote": "nan partamo urang palasik indak punyo lubang antaro bibia jo iduangnyo, nan kaduo urang palasik manutuik lihianyo supayo ndak nampak bakeh sambuangan kapalo jo badannyo",
+      "locator": "Pembuka",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut mitos, orang palasik tidak punya lekuk antara bibir dan hidung (bibia jo iduangnyo), dan menutupi lehernya (lihianyo) agar bekas sambungan kepala dan badan tidak terlihat.",
+        "en": "By the myth, a palasik has no groove between lip and nose (bibia jo iduangnyo) and covers its neck (lihianyo) so the seam of head and body does not show."
+      }
+    },
+    {
+      "id": "palasik-c12",
+      "source_id": "palasik-s2",
+      "quote": "urang palasik indak suko jo baun bawang putiah, bawang merah, daun salasiah",
+      "locator": "Pembuka",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Orang palasik tidak suka bau bawang putih, bawang merah, dan daun sirih (bawang putiah, bawang merah, daun salasiah).",
+        "en": "A palasik dislikes the smell of garlic, shallots and betel leaf (bawang putiah, bawang merah, daun salasiah)."
+      }
+    },
+    {
+      "id": "palasik-c13",
+      "source_id": "palasik-s3",
+      "quote": "Palasik is understood as a supernatural being or entity that is believed to target fetuses and newborns.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Palasik dipahami sebagai makhluk gaib yang dipercaya menyasar janin dan bayi baru lahir.",
+        "en": "The palasik is understood as a supernatural being believed to target fetuses and newborns."
+      }
+    },
+    {
+      "id": "palasik-c14",
+      "source_id": "palasik-s3",
+      "quote": "In Nagari Parik, Koto Balingka District, West Pasaman, the belief in Palasik is not only held by the elderly, but also by the younger generation. Symbolic practices such as wearing dasun or jerangau are used as spiritual preventive measures.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Di Nagari Parik, kepercayaan pada palasik dianut orang tua maupun generasi muda, dan memakai dasun atau jerangau menjadi pencegahan spiritual.",
+        "en": "In Nagari Parik the belief in the palasik is held by the old and the young, and wearing dasun or jerangau serves as spiritual prevention."
+      }
+    },
+    {
+      "id": "palasik-c15",
+      "source_id": "palasik-s4",
+      "quote": "Bahkan dalam hal lain, banyak masyarakat percaya anak yang sudah meninggal pun harus diberi lampu di pekuburan atau makamnya karena masih rentan dalam incaran palasik.",
+      "locator": "A.1.a Jimat (Penangkal) Palasik",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Banyak warga percaya makam anak yang sudah meninggal harus diberi lampu karena masih rentan diincar palasik.",
+        "en": "Many people believe a dead child's grave must be given a lamp because it is still at risk from the palasik."
+      }
+    },
+    {
+      "id": "palasik-c16",
+      "source_id": "palasik-s4",
+      "quote": "Menurut warga jika tidak diberi penerangan maka palasik akan memakan mayat si anak yang siudah dimakamkan tersebut",
+      "locator": "A.1.a Jimat (Penangkal) Palasik",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut warga, tanpa penerangan palasik akan memakan mayat anak yang sudah dimakamkan.",
+        "en": "According to residents, without a light the palasik will eat the buried child's corpse."
+      }
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": {
+        "id": "Manusia atau makhluk gaib",
+        "en": "Human or supernatural being"
+      },
+      "positions": [
+        {
+          "summary": {
+            "id": "Tradisi lisan: manusia yang berkemampuan gaib atau berilmu hitam.",
+            "en": "Oral tradition: a person with supernatural powers or black magic."
+          },
+          "claim_ids": [
+            "palasik-c02"
+          ]
+        },
+        {
+          "summary": {
+            "id": "Kajian di Nagari Parik: makhluk gaib yang menyasar janin dan bayi.",
+            "en": "Study in Nagari Parik: a supernatural being targeting fetuses and babies."
+          },
+          "claim_ids": [
+            "palasik-c13"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Pencarian Commons 'palasik' hanya menemukan foto pribadi orang berdiri (File:Palasik.jpg, kategori Men standing) dan berkas tak terkait; tidak ada karya tradisional yang menggambarkan palasik."
+    },
+    {
+      "field": "etymology",
+      "searched": "Wikipedia id/min dan kedua jurnal tidak membahas asal kata palasik."
+    }
+  ]
+}
+```
+
