@@ -1,10 +1,12 @@
 {
   "batch_id": "batch-126",
-  "checked_at": "2026-10-13T20:17:02.629Z",
+  "checked_at": "2026-10-14T02:55:40.698Z",
   "files": [
     "batch-126.md",
     "batch-126-fix-1.md",
-    "batch-126-fix-2.md"
+    "batch-126-fix-2.md",
+    "batch-126-fix-3.md",
+    "batch-126-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2099,7 +2101,8 @@
     },
     {
       "slug": "kuyva",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "59bd50cb7efc29e20936e9b966b01a1e8090029ba5a1a9a8679f26b0986fb0cc",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -2175,8 +2178,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fd64c15a7e59e96e9a6c233465ebb36ba5052580a0bd07d76aacfec0b45c90ef"
+      "images": []
     },
     {
       "slug": "lacaena",
@@ -2200,20 +2202,15 @@
     },
     {
       "slug": "lannetar",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "3ae2dd485eb0dd748b779cfdf90fae7e7bfa341b6773e34d71695acd28e7e3f2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lannetar-c01",
@@ -2254,25 +2251,45 @@
           "quote": "Kirouksen käsitettiin tulevan Pohjoisesta ja Jumalan avun idästä. Etelä on aina hyvällä puolella, kun taas länsi näkyy kallistuvan kahtaanne.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "lannetar-c05",
+          "source_id": "lannetar-s2",
+          "host": "runeberg.org",
+          "statement": "The Tietosanakirja notes that \"Lännen neito\" (Maiden of the West) sometimes appears alongside \"Idän tyttö\" (Girl of the East) and \"Etelätär\" or \"Suvetar\", which are names of Neitsyt Marian (the Virgin Mary).",
+          "statement_id": "Tietosanakirja mencatat bahwa \"Lännen neito\" (Gadis Barat) kadang muncul bersama \"Idän tyttö\" (Gadis Timur) dan \"Etelätär\" atau \"Suvetar\", yang merupakan sebutan bagi Neitsyt Marian (Perawan Maria).",
+          "quote": "Toisinaan on ..Lännen neito\" joutunut. „Idän tytön\" ja ,.Etelättä-ren\" eli „Suvettaren\" yhteyteen, jotka ovat Neitsyt Marian nimityksiä.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lannetar-c06",
+          "source_id": "lannetar-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the charm \"Raudan synty\" (origin of iron), rust-grass and steel-grass grow from the swamp, lulled by Tuuletar (Tuulettaren) and swayed by Lännetär (Lännettären).",
+          "statement_id": "Dalam mantra \"Raudan synty\" (asal-usul besi), rumput karat dan rumput baja tumbuh dari rawa, ditimang oleh Tuuletar (Tuulettaren) dan diayun oleh Lännetär (Lännettären).",
+          "quote": "Kasvoi suosta ruosteheinä, Teräsheinä hettehestä, Tuulettaren tuu'ittama, Lännettären liekuttama",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d6d6621338e0d561d089518116b375f462864f9bd3dc06ebb305d01c4196637f"
+      "images": []
     },
     {
       "slug": "lemmas",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "af3e9d669a829fbaf37cc9d969f61ef4bee211a9c4a138a4fbd8b3088ede6988",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2295,27 +2312,41 @@
           "quote": "Lemmasta kutsuttiin myös nimityksellä Lemmas Laukan Hattaria – Suo muron murottaria. Hän hämmensi soista ja rämeistä nostettua malmia, kun sitä keitettiin.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "lemmas-c03",
+          "source_id": "lemmas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Ganander records Lemmas as a lovely nymph (Nymph) who could bind wounds and soothe smarting pain, with the line \"Lemmes Laukan Hattaria — Suo muron murottaria\"; she was the stirrer of bog iron (myrjärn) when the iron taken from marshes and bogs was boiled.",
+          "statement_id": "Ganander mencatat Lemmas sebagai nimfa (Nymph) jelita yang dapat membalut luka dan meredakan rasa perih, dengan larik \"Lemmes Laukan Hattaria — Suo muron murottaria\"; ia adalah pengaduk besi rawa (myrjärn) ketika besi yang diangkat dari rawa dan paya dimasak.",
+          "quote": "LEMMAS, en vän Nymph, kunde tilbinda sår och mildra svedan: Lemmes Laukan Hattaria — Suo muron murottaria. En myrjärnets omrörerska, då järnet koktes, uptaget från kärr och myror.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lemmas-c04",
+          "source_id": "lemmas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the entry HATTARA, Ganander calls the paha hattara a troll-woman (troll-kåna) of old tales, almost the same as the Ajattaret (Ajattarot) and Lemmas.",
+          "statement_id": "Dalam entri HATTARA, Ganander menyebut paha hattara sebagai perempuan penyihir (troll-kåna) dalam kisah-kisah lama yang hampir sama dengan Ajattaret (Ajattarot) dan Lemmas.",
+          "quote": "HATTARA, paha hattara; en troll-kåna i gamla sagor; nästan samma som Ajattarot och Lemmas",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5315c8e6ce472feeeba86d937773fd95d1249ecd920f6adc79c224b2bd503e90"
+      "images": []
     },
     {
       "slug": "liekkio",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "3e9f4704ec32f2667950d2c659de3ad6e8517d21c5c82ca203b21a1eb11db5ac",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 1,
+        "claims": 17,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "liekkio-c01",
@@ -2416,14 +2447,84 @@
           "quote": "Vuoden 1642 Biblia kääntää Jesaja 34:14:n Edomin tuhoa käsittelevän kohdan seuraavasti ... \"Silloin pitä männingäiset ja köpelit cohtaman toinen toistans, ja yhden lieckiön pitä toista huutaman\"",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "liekkio-c11",
+          "source_id": "liekkio-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Ganander writes that Liekkiö was a ghost (gast) that shrieked in the forests over cast-out children, frightened travellers with its screams, and had power over grass, roots and trees.",
+          "statement_id": "Ganander menulis bahwa Liekkiö adalah hantu (gast) yang berteriak di hutan karena anak-anak yang dibuang, menakuti para pelancong dengan jeritannya, dan berkuasa atas rumput, akar, dan pohon.",
+          "quote": "LIEKKIÖ, En gast, som skrek i skogar, efter utkastade barn, och skrämde med sit skrän de resande; hade välde öfver gräs, rötter och trän.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c12",
+          "source_id": "liekkio-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Ganander compares it with the Apollo lukeios of the Greeks (Graeker), but judges that the two seem to have nothing in common except medical insight and botanical knowledge.",
+          "statement_id": "Ganander membandingkannya dengan Apollo lukeios dari bangsa Yunani (Graeker), tetapi menilai keduanya tampaknya tidak berhubungan, kecuali dalam hal pengetahuan pengobatan dan tumbuhan.",
+          "quote": "De Graeker kallade Apollo lukeios men tyckes ej hafva någon gemenskap med denna Finska Skogs-gast, om icke för medicinsk insigt och botanisk kunskaps skull.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c13",
+          "source_id": "liekkio-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to Renvall's dictionary as cited by Krohn, the liekkiö is an ill-willed spirit (haltia), the spirit of a secretly killed and hidden foetus; Lönnrot adds that it is believed to cry at its hiding place.",
+          "statement_id": "Menurut kamus Renvall yang dikutip Krohn, liekkiö adalah roh penjaga (haltia) yang berniat jahat, yaitu roh janin yang dibunuh dan disembunyikan diam-diam; Lönnrot menambahkan bahwa ia dipercaya menangis di tempat persembunyiannya.",
+          "quote": "Vastaava suomalainen liekkiö merkitsee Renvallin sanakirjan mukaan pahansuopaa haltiaa, salaa surmatun ja kätketyn sikiön henkeä, jonka, kuten Lönnrot lisää, luullaan kätköpaikalla itkevän.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c14",
+          "source_id": "liekkio-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Krohn argues that, being usually hidden in the forest, it could be understood as the spirit ruling trees and grass.",
+          "statement_id": "Krohn berpendapat bahwa karena biasanya disembunyikan di hutan, roh itu dapat dipahami sebagai penguasa pohon dan rumput.",
+          "quote": "Metsään tavallisesti kätkettynä se voitiin käsittää puitten ja ruohojen haltiaksi",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c15",
+          "source_id": "liekkio-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Krohn names the liekkiö as the Finnish counterpart of the Swedish lyktman or lyktegubbe (\"lantern man\"), the will-o'-the-wisp as a personal being.",
+          "statement_id": "Krohn menyebut liekkiö sebagai padanan Finlandia bagi lyktman atau lyktegubbe (\"orang lentera\") Swedia, perwujudan api tipuan sebagai makhluk.",
+          "quote": "Personallisena olentona esiintyy ruotsin lyktman l. lyktegubbe, 'lyhtymies l. -ukko'. Vastaava suomalainen liekkiö",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c16",
+          "source_id": "liekkio-s4",
+          "host": "archive.org",
+          "statement": "Holmberg writes that not all the dead attain the Life Beyond; especially the souls of little children killed and hidden by their mothers remain as ghosts in the world of the living.",
+          "statement_id": "Holmberg menulis bahwa tidak semua orang mati mencapai alam baka; terutama jiwa anak kecil yang dibunuh dan disembunyikan oleh ibunya tetap tinggal sebagai hantu di dunia orang hidup.",
+          "quote": "All the dead, however, do not attain to the Life Beyond, wherever this may be regarded as being situated. The souls, especially, of little children, killed and hidden by their mothers, remain as ghosts in the worlds of the living.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c17",
+          "source_id": "liekkio-s4",
+          "host": "archive.org",
+          "statement": "According to Holmberg, the Finnish Liekkio was probably originally a similar spirit (of a killed child), who according to Agricola \"ruled over grass, roots and trees\".",
+          "statement_id": "Menurut Holmberg, Liekkio dari Finlandia (Finnish) mungkin pada awalnya adalah roh anak semacam itu, yang menurut Agricola \"menguasai rumput, akar, dan pohon\".",
+          "quote": "was probably originally a similar spirit, who, according to Agricola, \" ruled over grass, roots and trees.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "77c35e27cf0787cecb2c006404b42ee7d1061e4e3732692f6d7f8eeaa3a649c1"
+      "images": []
     },
     {
       "slug": "ljubi",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "8c8896c10ad8fd26c05f8cc12176ab26d39fdb4fd1ae4fd743459ba1189f09af",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -2499,12 +2600,12 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ed19c6ab0752ae41091db99579402f19c4b0eb4dabab0030b9468a500412873e"
+      "images": []
     },
     {
       "slug": "lukomlskoye-dragon",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "ad82183bf1fc31f27ac00eb4725cc731fb8ae60a54958026078cb4526112e357",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 10,
@@ -2620,12 +2721,12 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "17d3c544c4442708042788759140ec887c9307532e1f62aeeaed81f13a0f8698"
+      "images": []
     },
     {
       "slug": "majuna",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "f35d8c78cf1a17b5e99ccffd7d0d10ae99381eb2f1e35bcb3489871c0c280010",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -2651,8 +2752,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2eb6085e8d0a3332eb599257e5b74636a7fd3afbc221a2817d063afe92b8ed24"
+      "images": []
     },
     {
       "slug": "makkylan-kummitus",
@@ -2696,7 +2796,8 @@
     },
     {
       "slug": "manush-lolo",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "ba5dbda514cc0bf70cc26f7326da74b19326797bdd50d4b1cba906b618aadbe0",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -2762,25 +2863,19 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "81c582b33c3d6b5c36cfb2878b8087265860376ff287f065baaa8448e0a243a1"
+      "images": []
     },
     {
       "slug": "miernik",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-3.md",
+      "entry_sha256": "72ecc9df059c7634491db229c49d45011ac8db5e0eeeca4cbe4cd714d4bbb953",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "miernik-c01",
@@ -2831,10 +2926,69 @@
           "quote": "miernik – występująca na Śląsku nazwa świetlika bagiennego",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "miernik-c06",
+          "source_id": "miernik-s2",
+          "host": "muzeum.przeworsk.pl",
+          "statement": "Around Przeworsk, accounts survive of beings called \"światełka\", świetliki, mierniki and \"błędne ogniki\"; they appeared mainly on wetlands such as bogs and marshes where water stood, but also in forests and fields.",
+          "statement_id": "Di sekitar Przeworsk tercatat kisah tentang makhluk yang disebut \"światełka\", świetliki, mierniki, dan \"błędne ogniki\"; mereka muncul terutama di tanah basah seperti rawa dan paya, tempat air menggenang, tetapi juga di hutan dan ladang.",
+          "quote": "zachowały się przekazy o istotach nazywanych „światełkami”156, „światełkami wodnymi”157, świetlikami, miernikami158, „błędnymi ognikami”159. Pojawiały się przede wszystkim na terenach podmokłych (bagnach, trzęsawiskach, moczarach), tam gdzie stała woda, ale także w lasach i na polach",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c07",
+          "source_id": "miernik-s2",
+          "host": "muzeum.przeworsk.pl",
+          "statement": "The świetliki were the penitent souls of dishonest people, specifically dishonest surveyors (geodets), whose posthumous penance was to measure fields honestly.",
+          "statement_id": "Świetliki (cahaya-cahaya itu) adalah jiwa yang menebus dosa orang-orang curang, khususnya juru ukur tanah (geodet) yang curang, yang hukumannya setelah mati ialah mengukur ladang dengan jujur.",
+          "quote": "Świetliki były to dusze pokutujące ludzi nieuczciwych, a konkretnie nieuczciwych geodetów, których pośmiertna pokuta polegała na uczciwym mierzeniu pól.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c08",
+          "source_id": "miernik-s2",
+          "host": "muzeum.przeworsk.pl",
+          "statement": "According to this exhibition commentary, the belief motif took shape in the 19th century (XIX w.) against the background of the surveying of farmland.",
+          "statement_id": "Menurut katalog pameran ini, motif kepercayaan tersebut terbentuk pada abad ke-19 (XIX w.) dengan latar pengukuran tanah pertanian.",
+          "quote": "Ukształtowanie się tego wątku wierzeniowego nastąpiło w XIX w. na podłożu wymierzania gruntów rolnych",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c09",
+          "source_id": "miernik-s2",
+          "host": "muzeum.przeworsk.pl",
+          "statement": "The lights could harm people, for example drowning them in a bog, or help them, especially if they were not damned forever but doing penance.",
+          "statement_id": "Cahaya-cahaya itu dapat mencelakai manusia, misalnya menenggelamkannya di rawa, atau menolong, terutama bila mereka bukan terkutuk selamanya melainkan sedang menebus dosa.",
+          "quote": "Światełka mogły szkodzić człowiekowi – np. zatopić w bagnie, lub pomagać, zwłaszcza jeśli nie były na wieki potępione, lecz pokutujące",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c10",
+          "source_id": "miernik-s2",
+          "host": "muzeum.przeworsk.pl",
+          "statement": "A caption to a drawing by Maria Kozłowa (c. 1990) says the Miernik roamed where fields, plots and roads had been measured, in the form of a light.",
+          "statement_id": "Keterangan gambar karya Maria Kozłowa (sekitar 1990) dari koleksi museum menyebut bahwa Miernik berkeliaran di tempat ladang, lapangan, dan jalan diukur, dalam wujud cahaya.",
+          "quote": "Miernik. Kręcił się, gdzie były pomiary pól – placów – dróg. W postaci światełka, rys. Maria Kozłowa, ok. 1990 r.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c11",
+          "source_id": "miernik-s2",
+          "host": "muzeum.przeworsk.pl",
+          "statement": "The commentary cites the view that bog demons are on the one hand a folk interpretation of burning methane (marsh gas CH4) on bogs, and on the other a personification of certain moral values.",
+          "statement_id": "Katalog mengutip pendapat bahwa demon rawa di satu sisi adalah tafsiran rakyat atas fenomena gas metana (gas rawa CH4) yang terbakar di rawa, dan di sisi lain merupakan personifikasi nilai-nilai moral tertentu.",
+          "quote": "„Demony błotne z jednej strony stanowią ludową interpretację występowania na bagnach zjawiska palącego się metanu (gazu błotnego CH4), z drugiej strony są uosobieniem określonych wartości moralnych",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "29ff940065d09fa15379b4f878d37dc2b01151290a420ace843928af9a5769bd"
+      "images": []
     },
     {
       "slug": "mirigy",
@@ -2899,20 +3053,15 @@
     },
     {
       "slug": "nezit",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-4.md",
+      "entry_sha256": "b74246777b2f0efd829dc2e6adf0fdcb6bc30941434430230dafb3ee7be20c65",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nezit-c01",
@@ -2923,10 +3072,69 @@
           "quote": "Нежит је демон из словенске митологије, који производи различите физичке болести у човеку: усељава се у човекову главу, суши мозак, крши уста, троши зубе, криви шију, глуши уши, слепи очи, итд.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nezit-c02",
+          "source_id": "nezit-s2",
+          "host": "sr.wikisource.org",
+          "statement": "According to Radenković, nežid (нежит) is the South Slavic name for an evil spirit (злог духа) that enters a person's teeth, making the head ache.",
+          "statement_id": "Menurut Radenković, nežid (нежит) adalah nama Slavia Selatan untuk roh jahat (злог духа) yang masuk ke gigi manusia sehingga kepalanya sakit.",
+          "quote": "Нежид (нежит) је јужнословенски назив за злог духа који уђе човеку у зубе и због тога боли глава.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nezit-c03",
+          "source_id": "nezit-s2",
+          "host": "sr.wikisource.org",
+          "statement": "M. Milas (Милас) holds that this is a Bogomil (богумилска) word that was later replaced by the word \"poganica\" (поганица).",
+          "statement_id": "M. Milas (Милас) berpendapat bahwa kata ini berasal dari kaum Bogomil (богумилска) dan kemudian digantikan oleh kata \"poganica\" (поганица).",
+          "quote": "М. Милас сматра да је то богумилска реч и њу је касније заменила реч „поганица“",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nezit-c04",
+          "source_id": "nezit-s2",
+          "host": "sr.wikisource.org",
+          "statement": "R. Katić (Катић) thinks the word is a translation of the Greek (грчког) reumatikos and denoted a purulent process in the ear.",
+          "statement_id": "R. Katić (Катић) berpendapat bahwa kata ini adalah terjemahan kata Yunani (грчког) reumatikos dan dahulu menandai proses bernanah di telinga.",
+          "quote": "Р. Катић мисли да је ова реч превод грчког reumatikos и да је означавала гнојни процес у уху",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nezit-c05",
+          "source_id": "nezit-s2",
+          "host": "sr.wikisource.org",
+          "statement": "The basma (charm) against the nežit came from apocryphal literature (апокрифне књижевности) and is widespread under various names among the West Slavs (Западних Словена).",
+          "statement_id": "Basma (mantra) melawan nežit berasal dari sastra apokrif (апокрифне књижевности) dan tersebar luas dengan berbagai nama di kalangan Slavia Barat (Западних Словена).",
+          "quote": "Басма је дошла из апокрифне књижевности, и она је веома распрострањена под различитим називима код Западних Словена",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nezit-c06",
+          "source_id": "nezit-s2",
+          "host": "sr.wikisource.org",
+          "statement": "The charmer (бајалица), touching the head, says three times the words \"šator, arepo, tenet, opera, rotaš\" (шатор, арепо, тенет, опера, роташ), and then the basma.",
+          "statement_id": "Perempuan pembaca mantra (бајалица) menyentuh kepala dan tiga kali mengucapkan kata-kata \"šator, arepo, tenet, opera, rotaš\" (шатор, арепо, тенет, опера, роташ), lalu membaca basma tersebut.",
+          "quote": "Бајалица (бр. 60) дидирујући главу три пут изговори ове речи: шатор, арепо, тенет, опера, роташ, а после тога наведену басму.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nezit-c07",
+          "source_id": "nezit-s3",
+          "host": "sr.wikisource.org",
+          "statement": "A basma orders the nežits (нежити) to come out of the sick person's head (главу), where they have \"waged war\", and go to a great meadow (голему ливаду).",
+          "statement_id": "Sebuah basma menyuruh para nežit (нежити) keluar dari kepala (главу) si sakit, tempat mereka \"berperang\", dan pergi ke padang rumput yang luas (голему ливаду).",
+          "quote": "Изласте, нежити, изласте из (Јовину) главу. У (Јовину) главу сте војевали, немој више туј да седите. Да идете на голему ливаду",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9876d7dda8d3b398e184f398a6e8d473ce239e2203941946c98b822360c7a5a0"
+      "images": []
     },
     {
       "slug": "nightmare",
@@ -3065,7 +3273,8 @@
     },
     {
       "slug": "oblakinia",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-4.md",
+      "entry_sha256": "1fdc2793bdbca644d80a124b1fd9739a5c0dcfc738868611ac1d858d2088ffea",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 4,
@@ -3121,8 +3330,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "621c40821de730b89553cc7f00c54280bf1e137794ff30fa2594f693ba5155e3"
+      "images": []
     },
     {
       "slug": "polovoi",
@@ -3146,11 +3354,12 @@
     },
     {
       "slug": "praded",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-4.md",
+      "entry_sha256": "ea9601a1cff4bb025bf6a0d19cbe7f97d1e26970a44d2f1167ce25223394c95f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -3158,11 +3367,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"tradisi pegunungan Jeseníky (Ceko–Jerman)\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3235,27 +3439,81 @@
           "quote": "Název hory Altvater, česky Praděd, která je podle legend sídlem horského ducha, je poprvé zaznamenán v 19. století, předtím se pro ni používala řada jiných názvů.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "praded-c08",
+          "source_id": "praded-s2",
+          "host": "dokumenty.osu.cz",
+          "statement": "Becker writes that the name of the mountain is first attested in 1497 and comes from the German (deutschen) word Vater (\"father\"); the mountain spirit (Berggeist) also bears the name Altvater.",
+          "statement_id": "Becker menulis bahwa nama gunung itu pertama kali tercatat pada 1497 dan berasal dari kata Jerman (deutschen) Vater (\"ayah\"); roh gunung (Berggeist) itu juga bernama Altvater.",
+          "quote": "Der Name des Berges ist 1497 erstmals belegt. Der Name stammt vom deutschen Wort Vater. Auch der Berggeist trägt den Namen Altvater",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c09",
+          "source_id": "praded-s2",
+          "host": "dokumenty.osu.cz",
+          "statement": "In the Altvatersagen collection, Lowag describes the Altvater as the mountain spirit (Berggeist) of the range; he is also often portrayed as the chief miner (oberster Bergmann).",
+          "statement_id": "Dalam kumpulan Altvatersagen, Lowag menggambarkan Altvater sebagai roh gunung (Berggeist) pegunungan itu; ia juga sering ditampilkan sebagai penambang tertinggi (oberster Bergmann).",
+          "quote": "In ihnen beschreibt Lowag den Altvater als Berggeist des Gebirges. Oft wird der Altvater auch als oberster Bergmann dargestellt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c10",
+          "source_id": "praded-s2",
+          "host": "dokumenty.osu.cz",
+          "statement": "According to Becker, in the legends the mountain spirit Altvater resembles the mountain spirit Rübezahl; he is depicted as lord of the mountains (Herr der Berge) ruling an underground realm.",
+          "statement_id": "Menurut Becker, dalam legenda-legenda itu roh gunung Altvater mirip dengan roh gunung Rübezahl; ia digambarkan sebagai penguasa gunung (Herr der Berge) yang memerintah kerajaan bawah tanah.",
+          "quote": "In den Sagen ähnelt der Berggeist Altvater auch dem Berggeist Rübezahl. Er wird als Herr der Berge dargestellt, der über ein unterirdisches Reich regiert.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c11",
+          "source_id": "praded-s2",
+          "host": "dokumenty.osu.cz",
+          "statement": "In the legend \"Die drei Schläfer am Lazarus\", the mountain spirit Altvater appears and says the gnomes have saved Konrad; the Altvater kills the three murderers, and Laura and Konrad marry.",
+          "statement_id": "Dalam legenda \"Die drei Schläfer am Lazarus\", roh gunung Altvater muncul dan mengatakan bahwa para gnome telah menyelamatkan Konrad; Altvater membunuh tiga pembunuh itu, lalu Laura dan Konrad menikah.",
+          "quote": "Nun erscheint der Berggeist Altvater und sagt, dass die Gnome Konrad gerettet haben. Der Altvater tötet die drei Mordgesellen und Laura und Konrad heiraten.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c12",
+          "source_id": "praded-s2",
+          "host": "dokumenty.osu.cz",
+          "statement": "Lowag describes the apparition of the Altvater as a majestic figure in miner's dress (Bergmannstracht), with a garment shining like gold and a silvery cloak about the shoulders.",
+          "statement_id": "Lowag menggambarkan penampakan Altvater sebagai sosok agung berpakaian penambang (Bergmannstracht), dengan jubah berkilau keemasan dan mantel keperakan di bahunya.",
+          "quote": "Es war eine majestätische Erscheinung in Bergmannstracht, im Goldglanze strahlte das Gewand und ein silberschimmernder Mantel hing um die Schultern.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c13",
+          "source_id": "praded-s2",
+          "host": "dokumenty.osu.cz",
+          "statement": "Becker judges that here the Altvater is no longer the \"uncanny, evil, misanthropic and harmful\" mountain spirit, but rather of a kindly nature, although he kills the three miners (Bergmänner) as punishment.",
+          "statement_id": "Becker menilai bahwa di sini Altvater bukan lagi roh gunung yang \"seram, jahat, memusuhi manusia, dan merugikan\", melainkan lebih berwatak baik, walaupun ia membunuh ketiga penambang (Bergmänner) sebagai hukuman.",
+          "quote": "Altvater ist hier nicht mehr der „unheimliche, böse, menschenfeindliche und schadenstiftende“ Berggeist (Heilfurth 1967b:13), sondern eher gütiger Natur, obwohl er die drei Bergmänner als Strafe tötet.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b6e5fe9f98101af2f4fd6610f8471abd347293f8d6cf996597617ad7be9c5e11"
+      "images": []
     },
     {
       "slug": "ravga",
-      "file": "batch-126.md",
+      "file": "batch-126-fix-4.md",
+      "entry_sha256": "72f98a258e7bfcfe7d22e61d04a19633180225741f3bb9d9831f2a9a1845bf75",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ravga-c01",
@@ -3306,10 +3564,69 @@
           "quote": "Čáhcerávga, 'vesiraukka', oli rávgasta poiketen kuvitteelliseksi tiedetty olento, lasten pelotteluun käytetty ns. fikti.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ravga-c06",
+          "source_id": "ravga-s2",
+          "host": "archive.org",
+          "statement": "Holmberg writes that the Ravgga is limited to Scandinavian Lapland; it lives in the water mostly in human shape, and its appearance or voice predicts misfortune, tempest or shipwreck.",
+          "statement_id": "Holmberg menulis bahwa Ravgga hanya dikenal di Lapland Skandinavia (Scandinavian Lapland); ia hidup di air, kebanyakan dalam wujud manusia, dan penampakan atau suaranya menandakan kemalangan, badai, atau kapal karam.",
+          "quote": "Limited also to Scandinavian Lapland is the Ravgga, which lives in the water mostly in human shape, its appearance or voice predicting misfortune, tempest or shipwreck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c07",
+          "source_id": "ravga-s2",
+          "host": "archive.org",
+          "statement": "According to Merilainen (Meri- lainen), who calls it Meriraukka in Finnish, it appears on the shore examining the accessories of a boat from which somebody will later be drowned.",
+          "statement_id": "Menurut Merilainen (Meri- lainen), yang menyebutnya Meriraukka dalam bahasa Finlandia (Finnish), makhluk ini muncul di pantai memeriksa perlengkapan perahu yang kelak akan menenggelamkan seseorang.",
+          "quote": "Meri- lainen, who calls it in Finnish, Meriraukka, tells that it ap- pears on the shore examining the accessories of a boat, from which, later, somebody will be drowned.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c08",
+          "source_id": "ravga-s2",
+          "host": "archive.org",
+          "statement": "When it is seen walking on the shore, the beholder must walk round it with a firesteel, and it will stop.",
+          "statement_id": "Bila terlihat berjalan di pantai, orang yang melihatnya wajib mengitarinya sambil membawa pemantik api dari baja (firesteel), maka ia akan berhenti.",
+          "quote": "When it is seen walking on the shore, the duty of the beholder is to walk round it with a firesteel, when it will stop",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c09",
+          "source_id": "ravga-s2",
+          "host": "archive.org",
+          "statement": "It should then be asked why it has appeared, who will be drowned and when.",
+          "statement_id": "Setelah itu ia harus ditanya mengapa ia muncul, siapa yang akan tenggelam, dan kapan.",
+          "quote": "It should then be asked why it has appeared, who will be drowned and when.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c10",
+          "source_id": "ravga-s2",
+          "host": "archive.org",
+          "statement": "Holmberg states that the Meriraukka is the spirit of a drowned person, as shown by its keeping near the body, the boat and the clothes of the drowned.",
+          "statement_id": "Holmberg menyatakan bahwa Meriraukka adalah arwah orang yang tenggelam, terbukti dari kebiasaannya berada di dekat jasad, perahu, dan pakaian orang yang tenggelam.",
+          "quote": "That the Meriraukka is the spirit of a drowned person, is shown by the fact that it keeps in the neighbourhood of the body, the boat, the clothes, etc., of the drowned.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c11",
+          "source_id": "ravga-s2",
+          "host": "archive.org",
+          "statement": "As Fritzner pointed out, the Ravgga of the Lapps (Sami) is the same being as the Old Norse draugr.",
+          "statement_id": "Seperti telah ditunjukkan Fritzner, Ravgga orang Lapp (Sami) adalah makhluk yang sama dengan draugr dalam tradisi Norse Kuno (Old Norse).",
+          "quote": "As already pointed out by Fritzner the Ravgga of the Lapps is the same being as the Old Norse draugr.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "caa2f0a554479836f3959f3515e52e27108afe53a4f7d6f1b5f77af4e1da8672"
+      "images": []
     },
     {
       "slug": "spor",

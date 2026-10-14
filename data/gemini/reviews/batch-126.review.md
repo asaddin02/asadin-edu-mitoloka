@@ -1,6 +1,6 @@
 # Review batch-126
 
-Diperiksa 2026-10-13T20:17:02.629Z. Berkas: batch-126.md, batch-126-fix-1.md, batch-126-fix-2.md.
+Diperiksa 2026-10-14T02:55:40.698Z. Berkas: batch-126.md, batch-126-fix-1.md, batch-126-fix-2.md, batch-126-fix-3.md, batch-126-fix-4.md.
 
 ## croglin-grange — lulus-otomatis
 
@@ -417,10 +417,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## lannetar — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -428,27 +425,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | lannetar-c02 | exact | fi.wikipedia.org | A variant of the charm mentions Lemmetär, which is a folk form. | Sen toisinnossa mainitaan Lemmetär, joka on kansanomainen. |
 | lannetar-c03 | exact | fi.wikipedia.org | "Daughters of the West" appear as a parallel expression for "Sons of the North", and "Wife of the West" as an epithet of the "Mistress of Pohjola". | "Lännen tyttäret" kuitenkin tavataan "Pohjoisen poikien" kertosanana, samoin "Lännen vaimo" "Pohjolan emännän" mainesanana. |
 | lannetar-c04 | exact | fi.wikipedia.org | Curses were thought to come from the North and God's help from the East; the South is always on the good side, while the West appears to lean both ways. | Kirouksen käsitettiin tulevan Pohjoisesta ja Jumalan avun idästä. Etelä on aina hyvällä puolella, kun taas länsi näkyy kallistuvan kahtaanne. |
+| lannetar-c05 | exact | runeberg.org | The Tietosanakirja notes that "Lännen neito" (Maiden of the West) sometimes appears alongside "Idän tyttö" (Girl of the East) and "Etelätär" or "Suvetar", which are names of Neitsyt Marian (the Virgin Mary). | Toisinaan on ..Lännen neito" joutunut. „Idän tytön" ja ,.Etelättä-ren" eli „Suvettaren" yhteyteen, jotka ovat Neitsyt Marian nimityksiä. |
+| lannetar-c06 | exact | www.gutenberg.org | In the charm "Raudan synty" (origin of iron), rust-grass and steel-grass grow from the swamp, lulled by Tuuletar (Tuulettaren) and swayed by Lännetär (Lännettären). | Kasvoi suosta ruosteheinä, Teräsheinä hettehestä, Tuulettaren tuu'ittama, Lännettären liekuttama |
 
 
 ## lemmas — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lemmas-c01 | exact | fi.wikipedia.org | Lemmas is a Finnish legendary being, a lovely nymph skilled at tending wounds and easing pain. | Lemmas on suomalainen taruolento. Se on suloinen nymfi, joka osasi hoitaa haavoja ja lieventää kipuja. |
 | lemmas-c02 | exact | fi.wikipedia.org | Lemmas was also called "Lemmas Laukan Hattaria, Suo muron murottaria"; she stirred the ore raised from swamps and bogs when it was smelted. | Lemmasta kutsuttiin myös nimityksellä Lemmas Laukan Hattaria – Suo muron murottaria. Hän hämmensi soista ja rämeistä nostettua malmia, kun sitä keitettiin. |
+| lemmas-c03 | exact | www.gutenberg.org | Ganander records Lemmas as a lovely nymph (Nymph) who could bind wounds and soothe smarting pain, with the line "Lemmes Laukan Hattaria — Suo muron murottaria"; she was the stirrer of bog iron (myrjärn) when the iron taken from marshes and bogs was boiled. | LEMMAS, en vän Nymph, kunde tilbinda sår och mildra svedan: Lemmes Laukan Hattaria — Suo muron murottaria. En myrjärnets omrörerska, då järnet koktes, uptaget från kärr och myror. |
+| lemmas-c04 | exact | www.gutenberg.org | In the entry HATTARA, Ganander calls the paha hattara a troll-woman (troll-kåna) of old tales, almost the same as the Ajattaret (Ajattarot) and Lemmas. | HATTARA, paha hattara; en troll-kåna i gamla sagor; nästan samma som Ajattarot och Lemmas |
 
 
 ## liekkio — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -462,6 +460,13 @@ Klaim 10 (exact 10), sumber 1, gambar 0.
 | liekkio-c08 | exact | fi.wikipedia.org | According to common belief the liekkiö was a ghost bird moving restlessly in the dark, following a wandering traveller, and could shriek, shout or even repeat human speech. | Yleisen käsityksen mukaan liekkiö oli pimeän aikana levottomasti liikehtivä kummituslintu, joka seurasi vaeltavaa matkamiestä, ja eri tavoin äännellessään saattoi kirkua, huutaa tai jopa toistaa ihmisen puhetta. |
 | liekkio-c09 | exact | fi.wikipedia.org | It is said that the liekkiö once warned someone sleeping in the forest of a tree about to fall. | Kerrotaan, että liekkiö oli joskus varoittanut metsässä nukkuvaa kohta kaatuvasta puusta. |
 | liekkio-c10 | exact | fi.wikipedia.org | The Finnish Bible of 1642 renders Isaiah 34:14 with "lieckiö" calling to one another. | Vuoden 1642 Biblia kääntää Jesaja 34:14:n Edomin tuhoa käsittelevän kohdan seuraavasti ... "Silloin pitä männingäiset ja köpelit cohtaman toinen toistans, ja yhden lieckiön pitä toista huutaman" |
+| liekkio-c11 | exact | www.gutenberg.org | Ganander writes that Liekkiö was a ghost (gast) that shrieked in the forests over cast-out children, frightened travellers with its screams, and had power over grass, roots and trees. | LIEKKIÖ, En gast, som skrek i skogar, efter utkastade barn, och skrämde med sit skrän de resande; hade välde öfver gräs, rötter och trän. |
+| liekkio-c12 | exact | www.gutenberg.org | Ganander compares it with the Apollo lukeios of the Greeks (Graeker), but judges that the two seem to have nothing in common except medical insight and botanical knowledge. | De Graeker kallade Apollo lukeios men tyckes ej hafva någon gemenskap med denna Finska Skogs-gast, om icke för medicinsk insigt och botanisk kunskaps skull. |
+| liekkio-c13 | exact | www.gutenberg.org | According to Renvall's dictionary as cited by Krohn, the liekkiö is an ill-willed spirit (haltia), the spirit of a secretly killed and hidden foetus; Lönnrot adds that it is believed to cry at its hiding place. | Vastaava suomalainen liekkiö merkitsee Renvallin sanakirjan mukaan pahansuopaa haltiaa, salaa surmatun ja kätketyn sikiön henkeä, jonka, kuten Lönnrot lisää, luullaan kätköpaikalla itkevän. |
+| liekkio-c14 | exact | www.gutenberg.org | Krohn argues that, being usually hidden in the forest, it could be understood as the spirit ruling trees and grass. | Metsään tavallisesti kätkettynä se voitiin käsittää puitten ja ruohojen haltiaksi |
+| liekkio-c15 | exact | www.gutenberg.org | Krohn names the liekkiö as the Finnish counterpart of the Swedish lyktman or lyktegubbe ("lantern man"), the will-o'-the-wisp as a personal being. | Personallisena olentona esiintyy ruotsin lyktman l. lyktegubbe, 'lyhtymies l. -ukko'. Vastaava suomalainen liekkiö |
+| liekkio-c16 | exact | archive.org | Holmberg writes that not all the dead attain the Life Beyond; especially the souls of little children killed and hidden by their mothers remain as ghosts in the world of the living. | All the dead, however, do not attain to the Life Beyond, wherever this may be regarded as being situated. The souls, especially, of little children, killed and hidden by their mothers, remain as ghosts in the worlds of the living. |
+| liekkio-c17 | exact | archive.org | According to Holmberg, the Finnish Liekkio was probably originally a similar spirit (of a killed child), who according to Agricola "ruled over grass, roots and trees". | was probably originally a similar spirit, who, according to Agricola, " ruled over grass, roots and trees." |
 
 
 ## ljubi — lulus-otomatis
@@ -554,10 +559,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## miernik — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -566,6 +568,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | miernik-c03 | exact | pl.wikipedia.org | Sometimes they took the form of a fiery hand holding a pen, small lights or huge pillars of fire, sometimes a figure holding a lit candle and surveying instruments. | Niekiedy przybierały kształt ognistej ręki trzymającej pióro, światełek albo ogromnych słupów ognia, czasami postaci trzymającej zapaloną świecę i przyrządy geodezyjne. |
 | miernik-c04 | exact | pl.wikipedia.org | They hated whistling and beat and trampled those who dared whistle in their presence, though sometimes whistling was exactly what scared a miernik away. | Nienawidziły gwizdania, biły i deptały śmiałków, którzy ośmielili się zagwizdać w ich obecności, ale niekiedy właśnie gwizdaniem można było miernika odstraszyć. |
 | miernik-c05 | exact | pl.wikipedia.org | In Silesia, miernik is also a name for the marsh light (świetlik bagienny). | miernik – występująca na Śląsku nazwa świetlika bagiennego |
+| miernik-c06 | exact | muzeum.przeworsk.pl | Around Przeworsk, accounts survive of beings called "światełka", świetliki, mierniki and "błędne ogniki"; they appeared mainly on wetlands such as bogs and marshes where water stood, but also in forests and fields. | zachowały się przekazy o istotach nazywanych „światełkami”156, „światełkami wodnymi”157, świetlikami, miernikami158, „błędnymi ognikami”159. Pojawiały się przede wszystkim na terenach podmokłych (bagnach, trzęsawiskach, moczarach), tam gdzie stała woda, ale także w lasach i na polach |
+| miernik-c07 | exact | muzeum.przeworsk.pl | The świetliki were the penitent souls of dishonest people, specifically dishonest surveyors (geodets), whose posthumous penance was to measure fields honestly. | Świetliki były to dusze pokutujące ludzi nieuczciwych, a konkretnie nieuczciwych geodetów, których pośmiertna pokuta polegała na uczciwym mierzeniu pól. |
+| miernik-c08 | exact | muzeum.przeworsk.pl | According to this exhibition commentary, the belief motif took shape in the 19th century (XIX w.) against the background of the surveying of farmland. | Ukształtowanie się tego wątku wierzeniowego nastąpiło w XIX w. na podłożu wymierzania gruntów rolnych |
+| miernik-c09 | exact | muzeum.przeworsk.pl | The lights could harm people, for example drowning them in a bog, or help them, especially if they were not damned forever but doing penance. | Światełka mogły szkodzić człowiekowi – np. zatopić w bagnie, lub pomagać, zwłaszcza jeśli nie były na wieki potępione, lecz pokutujące |
+| miernik-c10 | exact | muzeum.przeworsk.pl | A caption to a drawing by Maria Kozłowa (c. 1990) says the Miernik roamed where fields, plots and roads had been measured, in the form of a light. | Miernik. Kręcił się, gdzie były pomiary pól – placów – dróg. W postaci światełka, rys. Maria Kozłowa, ok. 1990 r. |
+| miernik-c11 | exact | muzeum.przeworsk.pl | The commentary cites the view that bog demons are on the one hand a folk interpretation of burning methane (marsh gas CH4) on bogs, and on the other a personification of certain moral values. | „Demony błotne z jednej strony stanowią ludową interpretację występowania na bagnach zjawiska palącego się metanu (gazu błotnego CH4), z drugiej strony są uosobieniem określonych wartości moralnych |
 
 
 ## mirigy — lulus-otomatis
@@ -585,14 +593,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## nezit — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nezit-c01 | exact | sr.wikipedia.org | Nežit is a demon of Slavic mythology that causes various physical illnesses in people: it settles in the head, dries the brain, twists the mouth, wears down the teeth, bends the neck, deafens the ears, blinds the eyes and so on. | Нежит је демон из словенске митологије, који производи различите физичке болести у човеку: усељава се у човекову главу, суши мозак, крши уста, троши зубе, криви шију, глуши уши, слепи очи, итд. |
+| nezit-c02 | exact | sr.wikisource.org | According to Radenković, nežid (нежит) is the South Slavic name for an evil spirit (злог духа) that enters a person's teeth, making the head ache. | Нежид (нежит) је јужнословенски назив за злог духа који уђе човеку у зубе и због тога боли глава. |
+| nezit-c03 | exact | sr.wikisource.org | M. Milas (Милас) holds that this is a Bogomil (богумилска) word that was later replaced by the word "poganica" (поганица). | М. Милас сматра да је то богумилска реч и њу је касније заменила реч „поганица“ |
+| nezit-c04 | exact | sr.wikisource.org | R. Katić (Катић) thinks the word is a translation of the Greek (грчког) reumatikos and denoted a purulent process in the ear. | Р. Катић мисли да је ова реч превод грчког reumatikos и да је означавала гнојни процес у уху |
+| nezit-c05 | exact | sr.wikisource.org | The basma (charm) against the nežit came from apocryphal literature (апокрифне књижевности) and is widespread under various names among the West Slavs (Западних Словена). | Басма је дошла из апокрифне књижевности, и она је веома распрострањена под различитим називима код Западних Словена |
+| nezit-c06 | exact | sr.wikisource.org | The charmer (бајалица), touching the head, says three times the words "šator, arepo, tenet, opera, rotaš" (шатор, арепо, тенет, опера, роташ), and then the basma. | Бајалица (бр. 60) дидирујући главу три пут изговори ове речи: шатор, арепо, тенет, опера, роташ, а после тога наведену басму. |
+| nezit-c07 | exact | sr.wikisource.org | A basma orders the nežits (нежити) to come out of the sick person's head (главу), where they have "waged war", and go to a great meadow (голему ливаду). | Изласте, нежити, изласте из (Јовину) главу. У (Јовину) главу сте војевали, немој више туј да седите. Да идете на голему ливаду |
 
 
 ## nightmare — lulus-otomatis
@@ -643,11 +654,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## praded — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "tradisi pegunungan Jeseníky (Ceko–Jerman)".
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -658,14 +668,17 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | praded-c05 | exact | cs.wikipedia.org | According to local legend, Praděd is one of the ancestors of the mountain folk who did not pass into eternity but stayed in the world to protect his descendants; legend says he had no supernatural powers and became known for helping the poor, since he had grown rich and had no relatives. | Podle místní legendy je Praděd jeden z prapředků místních horalů, který neodešel na věčnost, ale zůstal na světě, aby chránil své potomstvo. Podle legend neměl žádné nadpřirozené schopnosti a do povědomí lidí se dostal tím, že pomáhal chudým, protože zbohatl a neměl žádné příbuzné. |
 | praded-c06 | exact | cs.wikipedia.org | The Jiříkov woodcarver Jiří Halouzka made a ten-metre statue of Praděd, the centrepiece of his Praděd Gallery in Jiříkov. | Jiříkovský řezbář Jiří Halouzka vytvořil desetimetrovou sochu Praděda, která je dominantou jeho Pradědovy galerie v Jiříkově. |
 | praded-c07 | exact | cs.wikipedia.org | The name of the mountain Altvater (Czech Praděd), said in legend to be the spirit's seat, is first recorded in the 19th century; before that various other names were used. | Název hory Altvater, česky Praděd, která je podle legend sídlem horského ducha, je poprvé zaznamenán v 19. století, předtím se pro ni používala řada jiných názvů. |
+| praded-c08 | exact | dokumenty.osu.cz | Becker writes that the name of the mountain is first attested in 1497 and comes from the German (deutschen) word Vater ("father"); the mountain spirit (Berggeist) also bears the name Altvater. | Der Name des Berges ist 1497 erstmals belegt. Der Name stammt vom deutschen Wort Vater. Auch der Berggeist trägt den Namen Altvater |
+| praded-c09 | exact | dokumenty.osu.cz | In the Altvatersagen collection, Lowag describes the Altvater as the mountain spirit (Berggeist) of the range; he is also often portrayed as the chief miner (oberster Bergmann). | In ihnen beschreibt Lowag den Altvater als Berggeist des Gebirges. Oft wird der Altvater auch als oberster Bergmann dargestellt. |
+| praded-c10 | exact | dokumenty.osu.cz | According to Becker, in the legends the mountain spirit Altvater resembles the mountain spirit Rübezahl; he is depicted as lord of the mountains (Herr der Berge) ruling an underground realm. | In den Sagen ähnelt der Berggeist Altvater auch dem Berggeist Rübezahl. Er wird als Herr der Berge dargestellt, der über ein unterirdisches Reich regiert. |
+| praded-c11 | exact | dokumenty.osu.cz | In the legend "Die drei Schläfer am Lazarus", the mountain spirit Altvater appears and says the gnomes have saved Konrad; the Altvater kills the three murderers, and Laura and Konrad marry. | Nun erscheint der Berggeist Altvater und sagt, dass die Gnome Konrad gerettet haben. Der Altvater tötet die drei Mordgesellen und Laura und Konrad heiraten. |
+| praded-c12 | exact | dokumenty.osu.cz | Lowag describes the apparition of the Altvater as a majestic figure in miner's dress (Bergmannstracht), with a garment shining like gold and a silvery cloak about the shoulders. | Es war eine majestätische Erscheinung in Bergmannstracht, im Goldglanze strahlte das Gewand und ein silberschimmernder Mantel hing um die Schultern. |
+| praded-c13 | exact | dokumenty.osu.cz | Becker judges that here the Altvater is no longer the "uncanny, evil, misanthropic and harmful" mountain spirit, but rather of a kindly nature, although he kills the three miners (Bergmänner) as punishment. | Altvater ist hier nicht mehr der „unheimliche, böse, menschenfeindliche und schadenstiftende“ Berggeist (Heilfurth 1967b:13), sondern eher gütiger Natur, obwohl er die drei Bergmänner als Strafe tötet. |
 
 
 ## ravga — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -674,6 +687,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ravga-c03 | exact | fi.wikipedia.org | The rávga was not really dangerous and is not usually linked with the ráimmahallan state (compare eahpáraš), but it harassed people on the water and on the shore by shouting, often mimicking the speech of the living; one got rid of it by reading the words of the burial rite to it. | Rávga ei ollut varsinaisesti vaarallinen eikä siihen yleensä liitetä ráimmahallan-tilan syntymistä (vrt. eahpáraš), mutta se kiusasi vesillä liikkujia ja rannalla olijoita yleensä huutamalla, usein matkimalla elävien puheita. Sitä päästiin eroon lukemalla sille hautauskaavan sanat. |
 | ravga-c04 | exact | fi.wikipedia.org | In folk tradition, death by drowning, when the body is not found and cannot be properly buried, generally created a status-less state lasting until the required rite of passage, burial and in Christian times the blessing of the grave, was performed. | Hukkumiskuolema - kun ruumista ei ole löydetty eikä ole voitu asianmukaisesti haudata - on kansanperinteessä yleisesti tuottanut statuksettoman tilan, joka jatkuu siihen asti, kunnes vaadittu siirtymäriitti, hautaaminen ja kristillisellä ajalla hautaan siunaaminen on suoritettu. |
 | ravga-c05 | exact | fi.wikipedia.org | Unlike the rávga, the čáhcerávga ("water rávga") was a being known to be imaginary, a so-called fiction used to frighten children. | Čáhcerávga, 'vesiraukka', oli rávgasta poiketen kuvitteelliseksi tiedetty olento, lasten pelotteluun käytetty ns. fikti. |
+| ravga-c06 | exact | archive.org | Holmberg writes that the Ravgga is limited to Scandinavian Lapland; it lives in the water mostly in human shape, and its appearance or voice predicts misfortune, tempest or shipwreck. | Limited also to Scandinavian Lapland is the Ravgga, which lives in the water mostly in human shape, its appearance or voice predicting misfortune, tempest or shipwreck. |
+| ravga-c07 | exact | archive.org | According to Merilainen (Meri- lainen), who calls it Meriraukka in Finnish, it appears on the shore examining the accessories of a boat from which somebody will later be drowned. | Meri- lainen, who calls it in Finnish, Meriraukka, tells that it ap- pears on the shore examining the accessories of a boat, from which, later, somebody will be drowned. |
+| ravga-c08 | exact | archive.org | When it is seen walking on the shore, the beholder must walk round it with a firesteel, and it will stop. | When it is seen walking on the shore, the duty of the beholder is to walk round it with a firesteel, when it will stop |
+| ravga-c09 | exact | archive.org | It should then be asked why it has appeared, who will be drowned and when. | It should then be asked why it has appeared, who will be drowned and when. |
+| ravga-c10 | exact | archive.org | Holmberg states that the Meriraukka is the spirit of a drowned person, as shown by its keeping near the body, the boat and the clothes of the drowned. | That the Meriraukka is the spirit of a drowned person, is shown by the fact that it keeps in the neighbourhood of the body, the boat, the clothes, etc., of the drowned. |
+| ravga-c11 | exact | archive.org | As Fritzner pointed out, the Ravgga of the Lapps (Sami) is the same being as the Old Norse draugr. | As already pointed out by Fritzner the Ravgga of the Lapps is the same being as the Old Norse draugr. |
 
 
 ## spor — skip
