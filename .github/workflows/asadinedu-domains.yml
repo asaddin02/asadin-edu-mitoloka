@@ -155,6 +155,19 @@ jobs:
             echo "DNS for $host already points at $target."
           fi
           curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/kodeloka/domains" | jq -c '[.result[]? | {name, status}]'
+          # The zone's edge cache can still hold the previous scripts and styles; drop them for this host.
+          purged=$(curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/purge_cache" \
+            --data "$(jq -nc --arg h "$host" '{hosts: [$h]}')" | jq -r '.success')
+          if [ "$purged" != true ]; then
+            echo "Purge by host not allowed; purging the scripts and styles by URL."
+            (cd kodeloka/dist && find . \( -name '*.js' -o -name '*.css' -o -name 'index.html' -path './index.html' \) | sed "s#^\.#https://$host#") \
+              | jq -R . | jq -sc '_nwise(30)' | while read -r batch; do
+                curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/purge_cache" \
+                  --data "$(jq -nc --argjson f "$batch" '{files: $f}')" | jq -c '{purge: .success, errors: [.errors[]?.message]}'
+              done
+          else
+            echo "Edge cache for $host purged."
+          fi
       - name: Turn off Cloudflare Web Analytics injection (the sites promise no analytics)
         if: inputs.mode == 'no-analytics'
         run: |
