@@ -8,7 +8,7 @@ on:
       mode:
         description: inspect; attach a domain to a Pages project; redirects (301 from <project>.pages.dev and www); landing (publish asaddin02/asadinedu to asadinedu.com); kodeloka (build and publish asaddin02/asadin-edu-kodeloka to kodeloka.asadinedu.com)
         type: choice
-        options: [inspect, attach, redirects, landing, kodeloka, no-analytics, email]
+        options: [inspect, attach, redirects, landing, kodeloka, respect-cache-headers, no-analytics, email]
         default: inspect
       project:
         description: Pages project (attach only), for example mitoloka
@@ -168,6 +168,16 @@ jobs:
           else
             echo "Edge cache for $host purged."
           fi
+      - name: Let each site's own Cache-Control reach browsers
+        if: inputs.mode == 'respect-cache-headers'
+        # The zone's Browser Cache TTL (4 hours by default) overrode every site's headers, so browsers kept
+        # unhashed scripts for hours after a deploy. 0 means "Respect Existing Headers".
+        run: |
+          api=https://api.cloudflare.com/client/v4
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          echo "Before:"; curl -sS -H "$auth" "$api/zones/$ZID/settings/browser_cache_ttl" | jq -c '{success, value: .result.value, errors: [.errors[]?.message]}'
+          curl -sS -X PATCH -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/settings/browser_cache_ttl" \
+            --data '{"value":0}' | jq -c '{after: .result.value, success, errors: [.errors[]?.message]}'
       - name: Turn off Cloudflare Web Analytics injection (the sites promise no analytics)
         if: inputs.mode == 'no-analytics'
         run: |
