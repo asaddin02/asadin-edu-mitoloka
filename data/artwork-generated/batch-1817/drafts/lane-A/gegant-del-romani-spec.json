@@ -1,0 +1,75 @@
+{
+  "slug": "gegant-del-romani",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Gegant del Romani, Aixa the huge black giant whose hair is rosemary and who waits in a well or chasm.\nANATOMY: one huge black-skinned humanoid giant with one head, two eyes, two arms and two legs; hair is dense recognizable living rosemary sprigs, narrow needle leaves and tiny muted blue flowers; opaque plain dark rough tunic covers chest and waist; no horns or ornaments [gegant-del-romani-c01, gegant-del-romani-c03, gegant-del-romani-c04]\nMOMENT: heave upward from a narrow stone well toward the viewer, one hand hooking firmly over the rim, the other reaching forward to seize the intruder; rosemary hair shakes loose soil.\nPOWER: documented abduction by emerging after someone pulls his rosemary hair; portray the physical emergence only, no magic [gegant-del-romani-c02, gegant-del-romani-c05]\nSCALE & CAMERA: extreme low angle from the well rim; giant's hand dwarfs the stones and his huge head fills the square, enormous shoulders emerging [gegant-del-romani-c03].\nLIGHT & WEATHER: one shaft of dusk light over the rim, rim light, falling soil and cave moisture.\nSURFACE: dark coarse skin, scratchy opaque cloth, gritty stone, distinct dusty rosemary needles.\nSETTING: deep stone well or chasm where he waits [gegant-del-romani-c01]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No horns, tattoos, glyphs, snakes for hair or glowing eyes.",
+  "depicted_variant": "Rosemary-haired giant heaving out of his well.",
+  "basis_claim_ids": [
+    "gegant-del-romani-c01",
+    "gegant-del-romani-c03",
+    "gegant-del-romani-c04",
+    "gegant-del-romani-c02",
+    "gegant-del-romani-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "gegant-del-romani-c01",
+      "gegant-del-romani-c03",
+      "gegant-del-romani-c04"
+    ],
+    "kekuatan": [
+      "gegant-del-romani-c02",
+      "gegant-del-romani-c05",
+      "gegant-del-romani-c09"
+    ],
+    "tempat": [
+      "gegant-del-romani-c01",
+      "gegant-del-romani-c03"
+    ],
+    "sifat": [
+      "gegant-del-romani-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Huge black giant with rosemary hair.",
+      "claim_ids": [
+        "gegant-del-romani-c01",
+        "gegant-del-romani-c03",
+        "gegant-del-romani-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical emergence from well to abduct intruder, no magic.",
+      "claim_ids": [
+        "gegant-del-romani-c02",
+        "gegant-del-romani-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Well/chasm hiding place.",
+      "claim_ids": [
+        "gegant-del-romani-c01"
+      ]
+    }
+  ],
+  "aura": "Threat from enormous black rosemary-haired giant physically emerging to abduct (c01,c02,c03).",
+  "artistic_choices": [
+    "Plain opaque dark tunic is editorial modest clothing; source does not specify garment.",
+    "Dusk, moisture and stone well design are editorial; giant scale and black appearance are sourced.",
+    "No visual spell despite vaguely documented marvellous powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

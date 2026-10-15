@@ -1,0 +1,89 @@
+{
+  "slug": "drac-de-sant-llorenc-del-munt",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-133.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Drac de Sant Llorenc del Munt, the fierce flying dragon that ravaged the Catalan mountain massif.\nANATOMY: one fierce dragon with one head, two eyes, a running animal body and two bird-of-prey-like wings; no elaborate horns or invented ornaments [drac-de-sant-llorenc-del-munt-c01, drac-de-sant-llorenc-del-munt-c04]\nMOMENT: surge out of the dripping mountain cave toward the viewer, jaws open, wings unfolding, forefeet grinding loose stones.\nPOWER: physical destruction of crops and livestock is documented; show only stones dislodged by its rush, no fire breath or magical effect [drac-de-sant-llorenc-del-munt-c01, drac-de-sant-llorenc-del-munt-c04]\nSCALE & CAMERA: extreme low angle; tightly framed creature fills the square, no invented giant scale or human comparison.\nLIGHT & WEATHER: one shaft of late sunset from outside the cave, rim light, cave moisture and natural stone dust.\nSURFACE: rough dark reptilian hide, dusty claws, damp stone, weathered wing membranes.\nSETTING: water-seeping cave on Sant Llorenc del Munt [drac-de-sant-llorenc-del-munt-c09]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No fire breath, lightning, glyphs or tattoos.",
+  "depicted_variant": "Flying dragon emerging from its documented mountain cave.",
+  "basis_claim_ids": [
+    "drac-de-sant-llorenc-del-munt-c01",
+    "drac-de-sant-llorenc-del-munt-c04",
+    "drac-de-sant-llorenc-del-munt-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "drac-de-sant-llorenc-del-munt-c01",
+      "drac-de-sant-llorenc-del-munt-c04"
+    ],
+    "kekuatan": [
+      "drac-de-sant-llorenc-del-munt-c01",
+      "drac-de-sant-llorenc-del-munt-c04"
+    ],
+    "tempat": [
+      "drac-de-sant-llorenc-del-munt-c09"
+    ],
+    "sifat": [
+      "drac-de-sant-llorenc-del-munt-c01",
+      "drac-de-sant-llorenc-del-munt-c11"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Fierce dragon capable of running and flying, single readable dragon subject.",
+      "claim_ids": [
+        "drac-de-sant-llorenc-del-munt-c01",
+        "drac-de-sant-llorenc-del-munt-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Animal rush physically dislodges stones, no magic or fire breath.",
+      "claim_ids": [
+        "drac-de-sant-llorenc-del-munt-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Water-seeping mountain cave.",
+      "claim_ids": [
+        "drac-de-sant-llorenc-del-munt-c09"
+      ]
+    }
+  ],
+  "aura": "Threat from ravaging dragon identity and running/flying action (c01,c04).",
+  "artistic_choices": [
+    "Dark reptilian surface and conventional dragon limb geometry are editorial concretizations of the dragon identity, not separately documented anatomical facts.",
+    "Sunset, close framing and dust are editorial; no enlarged scale or fire breath."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13875-fb19-75f1-b51f-f509d95dd2c1/exec-d2ba6f56-0c6c-4b6e-a9d1-35f9620d4f86.png",
+  "generated_at": "2026-10-14T03:32:45.085541+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/drac-de-sant-llorenc-del-munt.png",
+  "native_sha256": "241376cdd1076b594c01d026ff9589c91fc3a6b4203f4c609056faa98f3adce6",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: all seven Sangar checks pass. Single readable dragon head, two wings and visible forelegs; rushing cave emergence, damp rock and physical debris, no magical effects, text or ornamental glyphs. Conventional reptilian details are editorial, not source-specific anatomy.",
+    "limitations": [],
+    "native_sha256": "241376cdd1076b594c01d026ff9589c91fc3a6b4203f4c609056faa98f3adce6",
+    "reviewed_at": "2026-10-14T03:32:45.085541+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "241376cdd1076b594c01d026ff9589c91fc3a6b4203f4c609056faa98f3adce6",
+    "notes": "Winged dragon lunging out of a dripping mountain cave, scattering stones [c01, c04, c09]. Single subject, no fire."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "hippanthrope",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hippanthrope, Melanippe transformed into a winged horse in one Greek myth variant.\nANATOMY: one complete horse with one head, two eyes, four horse legs ending in hooves, exactly two feathered wings attached at shoulders, one mane and one tail; no human face or limbs; deep bronze coat editorial, not source colour [hippanthrope-c01, hippanthrope-c06, hippanthrope-c07]\nMOMENT: wheel in the sky directly toward the viewer, both wings sweeping air and forehooves thrust forward\nPOWER: the complete transformed winged horse form of Melanippe is shown in wing-driven flight; no partial transformation, glow or magic trails [hippanthrope-c07]\nSCALE & CAMERA: extreme low angle; close foreshortening at normal horse size, both wings legible and land distant below\nLIGHT & WEATHER: one dark warm sunset source, rim light on feather edges, wind-tossed mane and cloud\nSURFACE: coarse horse hair, layered rough feathers, dark bronze and walnut tones\nSETTING: editorial unlabelled Greek myth mountain sky, no precise source locale asserted [hippanthrope-c06, hippanthrope-c07]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Melanippe variant as a complete winged horse in flight.",
+  "basis_claim_ids": [
+    "hippanthrope-c01",
+    "hippanthrope-c06",
+    "hippanthrope-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "hippanthrope-c01",
+      "hippanthrope-c07"
+    ],
+    "kekuatan": [
+      "hippanthrope-c01",
+      "hippanthrope-c06",
+      "hippanthrope-c07"
+    ],
+    "tempat": [],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Complete winged horse form selected from Melanippe variants, no human-horse intermediate hybrid.",
+      "claim_ids": [
+        "hippanthrope-c01",
+        "hippanthrope-c06",
+        "hippanthrope-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Winged form in physical flight, no additional magical effect.",
+      "claim_ids": [
+        "hippanthrope-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Unlabelled editorial myth sky, Greek myth association only.",
+      "claim_ids": [
+        "hippanthrope-c06",
+        "hippanthrope-c07"
+      ]
+    }
+  ],
+  "aura": "C07 winged transformed horse confronts through active flight and close framing.",
+  "artistic_choices": [
+    "Select winged horse c07 rather than black mare; bronze coat not claimed as fact.",
+    "Sunset, mountain sky and flight composition editorial; normal horse size.",
+    "No hybrid human limbs, transformation beam, depiction of medical diagnosis or added power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

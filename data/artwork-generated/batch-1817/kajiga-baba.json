@@ -1,0 +1,94 @@
+{
+  "slug": "kajiga-baba",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-061.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kajiga Baba, the huge white wolf wearing an iron bowl in the Muroto tale.\nANATOMY: one enormous white-furred wolf, one wolf head, two eyes, four wolf legs, one bushy wolf tail, exactly one plain inverted iron bowl fitted on its head between normal wolf ears; no extra hats or horns [kajiga-baba-c04, kajiga-baba-c06]\nMOMENT: bound out of darkness straight toward the viewer, jaws open and forepaws descending in the attack described against a courier\nPOWER: no emitted magic; physical huge-wolf attack, dirt and leaves displaced by paws [kajiga-baba-c06]\nSCALE & CAMERA: extreme low angle; huge wolf fills frame, a small courier silhouette behind its flank suggests documented relative size\nLIGHT & WEATHER: one warm lantern source, rim light on white fur and bowl, dark drifting dust\nSURFACE: matted white wolf fur, dull rough plain iron bowl, damp earth\nSETTING: Sakihama area of Muroto, Kōchi, roadside near blacksmith's house rendered editorially [kajiga-baba-c05, kajiga-baba-c06]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Huge white wolf with iron bowl bounding into courier attack.",
+  "basis_claim_ids": [
+    "kajiga-baba-c04",
+    "kajiga-baba-c06",
+    "kajiga-baba-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "kajiga-baba-c04",
+      "kajiga-baba-c06"
+    ],
+    "kekuatan": [
+      "kajiga-baba-c02",
+      "kajiga-baba-c03",
+      "kajiga-baba-c06"
+    ],
+    "tempat": [
+      "kajiga-baba-c05",
+      "kajiga-baba-c06",
+      "kajiga-baba-c07"
+    ],
+    "sifat": [
+      "kajiga-baba-c02",
+      "kajiga-baba-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Huge white wolf with single iron bowl/pot on head, normal wolf anatomy.",
+      "claim_ids": [
+        "kajiga-baba-c04",
+        "kajiga-baba-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical attack on courier, no invented spell effect.",
+      "claim_ids": [
+        "kajiga-baba-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sakihama/Muroto area, exact dark roadside editorial.",
+      "claim_ids": [
+        "kajiga-baba-c05",
+        "kajiga-baba-c06"
+      ]
+    }
+  ],
+  "aura": "C04 huge white wolf and c06 attack make threat active, bowl unmistakable.",
+  "artistic_choices": [
+    "Choose documented wolf form, omit human witch and unconcretized dark magic.",
+    "Plain iron bowl uninscribed; no glowing marks.",
+    "Lantern, road and palette editorial; courier fully clothed and uninjured."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-4cfd01a5-6812-4413-8ad4-2f384bdeb3d1.png",
+  "generated_at": "2026-10-14T03:55:31.478553+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/kajiga-baba.png",
+  "native_sha256": "c10e99d854f20e32a261a777fc8a595c35327903d0c11417229afc2d9c8992b5",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, seven Sangar checks yes. Huge white wolf c04/c06, one wolf head/two eyes/two ears/four-leg quadruped body and one bushy tail, two active forepaws prominent and rear naturally behind body, exactly one plain inverted iron bowl. Snarling attack toward viewer and courier c06, bowl readable at 200px. Physical dirt only, no generic dark-magic effect. No text/glyphs, extra hats/limbs/horns, franchise likeness, gore or nudity.",
+    "limitations": [],
+    "native_sha256": "c10e99d854f20e32a261a777fc8a595c35327903d0c11417229afc2d9c8992b5",
+    "reviewed_at": "2026-10-14T03:55:31.478553+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "c10e99d854f20e32a261a777fc8a595c35327903d0c11417229afc2d9c8992b5",
+    "notes": "Huge snarling white wolf charging out of the dark with an iron pot on its head, a courier fleeing by a lamp-lit house [kajiga-baba-c04, c06]. The pot is unmistakable at 200 px."
+  }
+}

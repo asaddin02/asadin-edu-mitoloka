@@ -1,0 +1,81 @@
+{
+  "slug": "wd-q10566576",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bo, the white horse-like predator of tigers and leopards.\nANATOMY: one white horse-like beast, one head, two eyes, one single forehead horn, exactly four legs ending in sharp clawed feet instead of hooves, saw-like teeth, one black tail; no wings [wd-q10566576-c02, wd-q10566576-c03, wd-q10566576-c07]\nMOMENT: charge toward the viewer with saw teeth bared, one clawed forefoot raking mountain earth\nPOWER: no outward magical effect; predatory menace and physical dirt scattering from claws, no lightning from its drum-like thunderous voice [wd-q10566576-c04, wd-q10566576-c05, wd-q10566576-c10]\nSCALE & CAMERA: extreme low angle; close foreshortened framing, no invented giant size or scale comparison\nLIGHT & WEATHER: one warm dusk source, rim light on white hair and horn, earth dust\nSURFACE: dirty coarse white horse hair, dark tail hair, hard horn, serrated teeth and clawed toes\nSETTING: Mount Zhongqu mountain ground [wd-q10566576-c06]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "One-horned white horse predator charging on clawed feet.",
+  "basis_claim_ids": [
+    "wd-q10566576-c01",
+    "wd-q10566576-c02",
+    "wd-q10566576-c03",
+    "wd-q10566576-c07",
+    "wd-q10566576-c04",
+    "wd-q10566576-c05",
+    "wd-q10566576-c10",
+    "wd-q10566576-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10566576-c01",
+      "wd-q10566576-c02",
+      "wd-q10566576-c03",
+      "wd-q10566576-c07"
+    ],
+    "kekuatan": [
+      "wd-q10566576-c04",
+      "wd-q10566576-c05",
+      "wd-q10566576-c10"
+    ],
+    "tempat": [
+      "wd-q10566576-c06",
+      "wd-q10566576-c07"
+    ],
+    "sifat": [
+      "wd-q10566576-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "White horse-like creature, black tail, one horn, saw-like teeth and four clawed feet.",
+      "claim_ids": [
+        "wd-q10566576-c01",
+        "wd-q10566576-c02",
+        "wd-q10566576-c03",
+        "wd-q10566576-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Predatory physical charge; no elemental power invented from voice.",
+      "claim_ids": [
+        "wd-q10566576-c04",
+        "wd-q10566576-c05",
+        "wd-q10566576-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Zhongqu.",
+      "claim_ids": [
+        "wd-q10566576-c06"
+      ]
+    }
+  ],
+  "aura": "C03 sawteeth/claws and c05 tiger predation establish menace without invented thunder effects.",
+  "artistic_choices": [
+    "No lightning despite thunder-like neighing; no emitted magic for weapon warding.",
+    "Dusk, earth dust and charge composition editorial.",
+    "Close framing preserves unspecified size; no victims or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

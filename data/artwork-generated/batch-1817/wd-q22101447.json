@@ -1,0 +1,95 @@
+{
+  "slug": "wd-q22101447",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yiniao, the five-coloured phoenix-kind bird whose flight shades a settlement in the Shan Hai Jing.\nANATOMY: exactly one living bird with one head, two eyes, one beak, two feathered wings and two tucked bird feet; elaborate flowing phoenix-kind plumage with five visibly distinct natural colours black, white, rust-red, antique yellow-gold and blue-green [wd-q22101447-c01, wd-q22101447-c06, wd-q22101447-c08]\nMOMENT: sweep overhead toward the viewer in a forceful downstroke, immense feathered wings spread across the square, head looking downward.\nPOWER: the immense bird physically eclipses the sun and shades the small settlement below; no fire, magic or luminous aura [wd-q22101447-c02, wd-q22101447-c09]\nSCALE & CAMERA: extreme low angle; bird fills the square, village roofs tiny at bottom and its wings cast a broad physical shadow [wd-q22101447-c02].\nLIGHT & WEATHER: one partly occluded sunset sun behind a wing edge, hard rim light, natural sea mist.\nSURFACE: layered coarse feathers with five legible colour families, weathered little roof tiles and sea cliffs.\nSETTING: Mount She in the Northern Sea, river flowing east from the mountain [wd-q22101447-c03, wd-q22101447-c04]\nMOOD: awe-inspiring; imposing and overwhelming, never cute, calm or decorative; respectful fabulous Chinese bird.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No fiery phoenix effect, lightning, glyphs or tattoos.",
+  "depicted_variant": "Five-coloured phoenix-kind Yiniao shading a settlement overhead.",
+  "basis_claim_ids": [
+    "wd-q22101447-c01",
+    "wd-q22101447-c06",
+    "wd-q22101447-c08",
+    "wd-q22101447-c02",
+    "wd-q22101447-c09",
+    "wd-q22101447-c03",
+    "wd-q22101447-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q22101447-c01",
+      "wd-q22101447-c06",
+      "wd-q22101447-c08"
+    ],
+    "kekuatan": [
+      "wd-q22101447-c02",
+      "wd-q22101447-c09"
+    ],
+    "tempat": [
+      "wd-q22101447-c03",
+      "wd-q22101447-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Five-coloured phoenix-kind living bird.",
+      "claim_ids": [
+        "wd-q22101447-c01",
+        "wd-q22101447-c06",
+        "wd-q22101447-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wings physically shade settlement and occlude sunlight.",
+      "claim_ids": [
+        "wd-q22101447-c02",
+        "wd-q22101447-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount She and east-flowing river in Northern Sea.",
+      "claim_ids": [
+        "wd-q22101447-c03",
+        "wd-q22101447-c04"
+      ]
+    }
+  ],
+  "aura": "Awe from settlement-shading flight (c02,c09) and five-coloured phoenix-kind form (c01,c06).",
+  "artistic_choices": [
+    "Five hue selections, feather structure, roof arrangement and sunset are editorial.",
+    "Giant relative scale and wing shadow follow c02/c09, no flame or magical phoenix rebirth is inferred."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13875-fb19-75f1-b51f-f509d95dd2c1/exec-07d0930e-8d41-4146-bce6-625157e4e3ce.png",
+  "generated_at": "2026-10-14T03:37:08.596345+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/wd-q22101447.png",
+  "native_sha256": "9145cd988e35ce2f93dbef712975d6ed76cee392dabb7eb990674ee8438101ef",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: all seven Sangar checks pass. Single five-coloured phoenix-kind bird, one head and beak, two wings and two tucked feet; overhead downstroke and settlement-shading scale remain clear at 200px. No flame, magic, text or symbols.",
+    "limitations": [],
+    "native_sha256": "9145cd988e35ce2f93dbef712975d6ed76cee392dabb7eb990674ee8438101ef",
+    "reviewed_at": "2026-10-14T03:37:08.596345+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "9145cd988e35ce2f93dbef712975d6ed76cee392dabb7eb990674ee8438101ef",
+    "notes": "Five-coloured phoenix-kind bird spreading its wings over a coastal settlement, shading it from the sun [wd-q22101447-c01, c02, c06, c09]."
+  }
+}

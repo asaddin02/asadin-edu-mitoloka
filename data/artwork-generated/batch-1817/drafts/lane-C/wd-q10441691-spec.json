@@ -1,0 +1,60 @@
+{
+  "slug": "wd-q10441691",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Pojing, the malevolent Chinese legendary beast compared with a tiger or leopard but smaller.\nANATOMY: one small tiger-like feline head, two eyes, two rounded feline ears, one feline body, four paws and one long feline tail; a small natural feline size, tiger-like striped fur chosen from the source comparison; no horns, wings or abnormal body parts [wd-q10441691-c03, wd-q10441691-c05]\nMOMENT: Spring from deep shadow straight toward the viewer, bare sharp feline teeth and throw one clawed forepaw toward camera; direct furious predatory confrontation.\nPOWER: no documented power; menace through anatomy, scale and light only. Its notorious parent-devouring behaviour is conveyed by fierce predatory intent without showing victims or gore [wd-q10441691-c01, wd-q10441691-c02, wd-q10441691-c05]\nSCALE & CAMERA: extreme low angle; extreme close-up at the natural scale of a smaller-than-tiger feline, head and approaching paw dominate, no humans for size comparison and no inflation.\nLIGHT & WEATHER: one cold moonlike sidelight as editorial staging, narrow rim light and deep black shadows, ordinary dust from its leap.\nSURFACE: coarse striped fur, damp feline nose, rough claws, dusty ground.\nSETTING: Chinese legendary context; no exact habitat documented, so a neutral near-black natural ground with no geographic landmarks [wd-q10441691-c01]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no blood, carcasses, trophies, magical eyes, symbols or invented anatomy; no cute cub.",
+  "depicted_variant": "Small tiger-like Pojing springs in direct confrontation.",
+  "basis_claim_ids": [
+    "wd-q10441691-c03",
+    "wd-q10441691-c05",
+    "wd-q10441691-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10441691-c03",
+      "wd-q10441691-c05"
+    ],
+    "kekuatan": [
+      "wd-q10441691-c02",
+      "wd-q10441691-c05"
+    ],
+    "tempat": [
+      "wd-q10441691-c01"
+    ],
+    "sifat": [
+      "wd-q10441691-c01",
+      "wd-q10441691-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Smaller tiger/leopard-like beast, tiger-like variant chosen.",
+      "claim_ids": [
+        "wd-q10441691-c03",
+        "wd-q10441691-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Chinese legendary context, no precise habitat claimed.",
+      "claim_ids": [
+        "wd-q10441691-c01"
+      ]
+    }
+  ],
+  "aura": "Malevolence c01 and parent-devouring c02/c05 represented by intense predatory confrontation only.",
+  "artistic_choices": [
+    "Tiger stripes are selected within tiger/leopard comparison c03/c05; editorial rendering, no unique sourced fur specification. Neutral black ground, moonlike light, leap, dust and close camera editorial. No documented supernatural effect; parent-devouring reputation is expressed by predatory action without gore. Small feline natural scale."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

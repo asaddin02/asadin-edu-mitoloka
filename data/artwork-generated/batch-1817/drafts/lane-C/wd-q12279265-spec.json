@@ -1,0 +1,90 @@
+{
+  "slug": "wd-q12279265",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-127.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Rain Bull, the San rain-being that resembles a bull and brings life-giving rainfall wherever it travels.\nANATOMY: exactly one powerful adult bull with one bovine head, two natural eyes, one normal pair of bovine horns, four sturdy legs and one tail, rough dark wet hide, no invented hybrid features [wd-q12279265-c04, wd-q12279265-c12]\nMOMENT: Trot forcefully out of its water pit directly toward the viewer, lift one broad front hoof through splashing water, lower the horned head with an unwavering benevolent but commanding gaze; rain pours down over its moving body.\nPOWER: rain falls wherever it heads, and its water pit dries when it departs; show a sharply localized dense vertical curtain of real rain tracking the bull and the pit behind visibly draining to wet exposed earth; water obeys natural physical gravity, no magic rays [wd-q12279265-c02, wd-q12279265-c16]\nSCALE & CAMERA: extreme low angle at hoof level; close foreshortened devotional framing of the divine rain-bull makes head/horns/hooves imposing, ordinary bull proportions and no tiny humans or claimed giant bodily size.\nLIGHT & WEATHER: one warm opening in the dark cloud overhead, narrow rim light on wet horns and rain, deep walnut shadows, heavy sourced rainfall and hoof spray; no lightning.\nSURFACE: rough wet bovine hide, natural ridged horns, heavy muddy hooves, rain beads and wet clay at the drying pit.\nSETTING: the water pit and clear-spring country where the Rain Bull finds a home from which to send life-giving rain [wd-q12279265-c09, wd-q12279265-c16]\nMOOD: awe-inspiring; dangerous and imposing through life-giving rain power, never cute, calm or decorative; joyful compassionate rain-being, never evil.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no lightning, fire, glowing eyes, wings, symbols, tattoos, carvings or invented anatomy; no calm grazing dairy cow.\nEDIT INSTRUCTION: Only change the bottom-left corner. Completely repaint the lower-left region, especially the tiny signature at pixel area x0..220,y1120..1254, as a single dark natural unmarked wet river rock and plain mud. Place the opaque rock OVER the entire tiny lettering so absolutely no strokes, characters, scribbles or signature remain. Keep everything else exactly as current: bull anatomy/pose, rain, already dry cracked pit, warm sky and foreground water. All four corners must be entirely free of text or glyphs. Do not preserve any signature mark.",
+  "depicted_variant": "Bull-shaped Rain trots from draining pit within dense localized rainfall.",
+  "basis_claim_ids": [
+    "wd-q12279265-c04",
+    "wd-q12279265-c12",
+    "wd-q12279265-c02",
+    "wd-q12279265-c16",
+    "wd-q12279265-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q12279265-c04",
+      "wd-q12279265-c12"
+    ],
+    "kekuatan": [
+      "wd-q12279265-c02",
+      "wd-q12279265-c07",
+      "wd-q12279265-c08",
+      "wd-q12279265-c16"
+    ],
+    "tempat": [
+      "wd-q12279265-c02",
+      "wd-q12279265-c09",
+      "wd-q12279265-c16"
+    ],
+    "sifat": [
+      "wd-q12279265-c01",
+      "wd-q12279265-c07",
+      "wd-q12279265-c09",
+      "wd-q12279265-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Rainmanifestation resemblingbull,natural bovine structure.",
+      "claim_ids": [
+        "wd-q12279265-c04",
+        "wd-q12279265-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rain tracks travel and waterpit dries onexit.",
+      "claim_ids": [
+        "wd-q12279265-c02",
+        "wd-q12279265-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waterpit/clearspring homeforrain.",
+      "claim_ids": [
+        "wd-q12279265-c09",
+        "wd-q12279265-c16"
+      ]
+    }
+  ],
+  "aura": "Rainfall follows bullc02 and pitdepletionc16 create compassionate awe.",
+  "artistic_choices": [
+    "Bovinehornshape/darkhide and naturalbody rendering editorial within bullcomparisonc12. Close devotional framing not factgiantsize. Cloudopening/palette/mud and weatherintensity editorial; actualraintracking/drainingpit sourced. No healingbeams; compassion/joypreserved; respectful Santradition."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q12279265-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q12279265-attempt-01.json",
+      "native_sha256": "97f1e1759886ecdae5038ab8ca97fda3e61abc7f24584af5cc1bdff7848a1b23",
+      "reason": "Fails Sangar6: small pseudo-signature/lettering in bottom-left corner. Draining pit c16 should also be clearer: current wetpool could read ordinaryrainbull instead of sourced pitdepletion."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q12279265-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q12279265-attempt-02.json",
+      "native_sha256": "e6d4a0e8bd51eb8f7595ada19dee21f463ec5567f2165f92baa583fe41e5a5ee",
+      "reason": "Despite request edit02 retains pseudo-signature letters at bottom-left (visible native). Pitdepletionc16 improved but Sangar6 stillfails; thirdcall must replace whole bottom-left corner with a plain naturalrock."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "machecroute",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Mâchecroute, the Rhône flood dragon at Lyon, visualized alive through its documented carnival anatomy.\nANATOMY: one monstrous dragon-like water animal with one head much larger than the rest of its compact body, exactly two huge bulging eyes each bigger than the small belly, wide horrific jaws crowded with teeth; no invented horns, wings or visible limbs [machecroute-c03, machecroute-c04, machecroute-c12]\nMOMENT: burst its enormous head through a breaking Rhône flood wave straight toward the viewer, jaws snapping and water pouring from teeth\nPOWER: a powerful flood surges around and ahead of the dragon, physically sweeping river debris [machecroute-c01]\nSCALE & CAMERA: extreme low angle; head and eyes fill most of square; compact body glimpsed behind head, no human giant-scale claim\nLIGHT & WEATHER: one amber break in storm cloud, rim light, dark rain and river spray\nSURFACE: living wet pebbled skin, rough teeth and river sediment; no wooden puppet surface\nSETTING: the Rhône near Lyon's Guillotière bridge, a dim bridge silhouette behind flood [machecroute-c01, machecroute-c03]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Living flood dragon using documented oversized carnival head and eyes.",
+  "basis_claim_ids": [
+    "machecroute-c03",
+    "machecroute-c04",
+    "machecroute-c12",
+    "machecroute-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "machecroute-c03",
+      "machecroute-c04",
+      "machecroute-c12"
+    ],
+    "kekuatan": [
+      "machecroute-c01"
+    ],
+    "tempat": [
+      "machecroute-c01",
+      "machecroute-c03"
+    ],
+    "sifat": [
+      "machecroute-c01",
+      "machecroute-c04",
+      "machecroute-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dragon-like water animal, huge head greater than compact body, two eyes larger than belly and wide toothed jaws, anatomy taken explicitly from carnival record.",
+      "claim_ids": [
+        "machecroute-c03",
+        "machecroute-c04",
+        "machecroute-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flood caused by Rhône dragon.",
+      "claim_ids": [
+        "machecroute-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rhône near Guillotière bridge in Lyon.",
+      "claim_ids": [
+        "machecroute-c01",
+        "machecroute-c03"
+      ]
+    }
+  ],
+  "aura": "C01 flood and c04 huge horrific jaws make its documented oversized face confrontational.",
+  "artistic_choices": [
+    "Carnival anatomy c04/c12 applied to living legendary animal c03, rather than depict inert wooden statue.",
+    "No undocumented limbs, wings, horns or fiery effects.",
+    "Storm, wet skin, bridge silhouette and lighting editorial; flood supported c01."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

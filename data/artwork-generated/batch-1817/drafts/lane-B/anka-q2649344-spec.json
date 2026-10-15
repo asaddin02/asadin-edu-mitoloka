@@ -1,0 +1,72 @@
+{
+  "slug": "anka-q2649344",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Anka, the enormous golden Arabian bird and king of birds.\nANATOMY: one colossal golden bird, one head, two eyes, one beak, exactly two broad feather wings, two powerful bird legs with talons, one feather tail; holds one intact small elephant securely in its talons without injury [anka-q2649344-c01, anka-q2649344-c04, anka-q2649344-c06]\nMOMENT: swoop from the mountain into the viewer's sky with wings spread wide, lifting the elephant as easily as a cat carries a mouse\nPOWER: physical enormous-bird flight carrying an elephant; no phoenix fire or rebirth effect in this selected giant-bird variant [anka-q2649344-c04]\nSCALE & CAMERA: extreme low angle; wingspan equals five elephants side by side, elephant in talons supplies documented comparison; giant bird dominates entire square\nLIGHT & WEATHER: one warm dusk source, rim light through golden feathers, turbulent mountain cloud\nSURFACE: layered rough golden feathers, heavy talon texture, dusty elephant skin\nSETTING: air at the legendary Mount Qaf where the bird lives alone [anka-q2649344-c08]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Golden giant Anka lifting a whole elephant above Mount Qaf.",
+  "basis_claim_ids": [
+    "anka-q2649344-c01",
+    "anka-q2649344-c06",
+    "anka-q2649344-c04",
+    "anka-q2649344-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "anka-q2649344-c01",
+      "anka-q2649344-c06"
+    ],
+    "kekuatan": [
+      "anka-q2649344-c02",
+      "anka-q2649344-c04"
+    ],
+    "tempat": [
+      "anka-q2649344-c01",
+      "anka-q2649344-c04",
+      "anka-q2649344-c08"
+    ],
+    "sifat": [
+      "anka-q2649344-c03",
+      "anka-q2649344-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Golden enormous bird, wingspan five elephants across.",
+      "claim_ids": [
+        "anka-q2649344-c01",
+        "anka-q2649344-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physically carries elephant as cat carries mouse.",
+      "claim_ids": [
+        "anka-q2649344-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Qaf home of king of birds.",
+      "claim_ids": [
+        "anka-q2649344-c08"
+      ]
+    }
+  ],
+  "aura": "C01 five-elephant wingspan and c04 effortless elephant lifting establish overwhelming scale.",
+  "artistic_choices": [
+    "Choose enormous bird variant, omit phoenix fire c02 and etymological neck speculation c07.",
+    "Golden bird c06; mountain rocks, clouds, dusk and feather arrangement editorial.",
+    "Elephant intact without explicit gore; no invented extra anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

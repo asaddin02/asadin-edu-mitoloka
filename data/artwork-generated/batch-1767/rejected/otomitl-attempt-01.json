@@ -1,0 +1,95 @@
+{
+  "slug": "otomitl",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Otomitl, one of the six giant sons in Aztec mythology.\nANATOMY: One male GIANT with ONE head two eyes, two arms and two legs; fully opaque plain earth-brown woven tunic and mantle, no invented ritual glyphs, no feathers or weapons. [c01,c03]\nMOMENT: Climb a steep mountain directly toward viewer, one great hand braced on rock, one knee lifting and mantle pulling in the wind. [c02]\nPOWER: Documented mountain climb only, weight shifts loose stone and dust; no elemental power, no invented mountain creation [c02]\nSCALE & CAMERA: Extreme low angle from rock ledge, giant body fills frame; tiny unmarked distant settlement rooftops convey documented giant size c01 and settlement relation c02\nLIGHT & WEATHER: Single late golden sun slit under dark cloud, walnut shadows, dust at rock contact\nSURFACE: Plain heavy woven cloth, weathered rock, natural human face\nSETTING: Mountains near Mexico with very small distant settlement [c02,c07]\nMOOD: Respectful awe at primordial giant founder, commanding action, not evil\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Giant Otomitl climbing mountain toward viewer",
+  "basis_claim_ids": [
+    "otomitl-c01",
+    "otomitl-c03",
+    "otomitl-c02",
+    "otomitl-c07"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "otomitl-c01",
+      "otomitl-c03"
+    ],
+    "kuasa": [
+      "otomitl-c02"
+    ],
+    "tempat": [
+      "otomitl-c02",
+      "otomitl-c07"
+    ],
+    "sifat": [
+      "otomitl-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Male giant",
+      "claim_ids": [
+        "otomitl-c01",
+        "otomitl-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Climbing mountains near Mexico",
+      "claim_ids": [
+        "otomitl-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountains and settlement near Mexico",
+      "claim_ids": [
+        "otomitl-c02",
+        "otomitl-c07"
+      ]
+    }
+  ],
+  "aura": "Giant c01 actively mountain-climbing c02.",
+  "artistic_choices": [
+    "Plain opaque attire editorial modesty, no specific sourced costume claimed. Great scale is sourced giant c01. Stone/dust only physical climbing contact."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-e2dcca10-be41-400c-906f-8af4a0e0abd5.png",
+  "generated_at": "2026-10-13T18:43:54.189051+00:00",
+  "original_file": "data/artwork-generated/batch-1767/rejected/otomitl-attempt-01.png",
+  "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat. Uji Sangar 7/7 ya: giant sourced c01 with visibly tiny settlement roofs c02/c07, active mountain climb c02, braced hand and lifting knee, one head two arms two legs, opaque editorial attire; no text/aura/gore, respectful awe.",
+    "limitations": [],
+    "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
+    "reviewed_at": "2026-10-13T18:43:54.189051+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
+    "notes": "Reads as an ordinary man climbing a rocky slope — the 'ordinary man' failure. The giant size is sourced, but nothing near him proves it: the settlement and lake are far below and could simply be distant. Keep the climb and the plain clothing, but put an unmistakable scale reference right against him, e.g. pines reaching only his ankle, a whole hill crest under one hand, or the settlement close at his feet with people looking up."
+  },
+  "correction_notes": "Reads as an ordinary man climbing a rocky slope — the 'ordinary man' failure. The giant size is sourced, but nothing near him proves it: the settlement and lake are far below and could simply be distant. Keep the climb and the plain clothing, but put an unmistakable scale reference right against him, e.g. pines reaching only his ankle, a whole hill crest under one hand, or the settlement close at his feet with people looking up.",
+  "receipt_file": "data/artwork-generated/batch-1767/rejected/otomitl-attempt-01.json",
+  "reason": "Reads as an ordinary man climbing a rocky slope — the 'ordinary man' failure. The giant size is sourced, but nothing near him proves it: the settlement and lake are far below and could simply be distant. Keep the climb and the plain clothing, but put an unmistakable scale reference right against him, e.g. pines reaching only his ankle, a whole hill crest under one hand, or the settlement close at his feet with people looking up.",
+  "preserved_original_file": "data/artwork-generated/batch-1767/originals/otomitl.png",
+  "historical_generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-e2dcca10-be41-400c-906f-8af4a0e0abd5.png",
+  "rejection_source": "Claude independent review 2026-10-14T10:38:53+07:00"
+}

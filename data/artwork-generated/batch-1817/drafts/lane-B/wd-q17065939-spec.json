@@ -1,0 +1,71 @@
+{
+  "slug": "wd-q17065939",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Danghu, the pheasant-shaped bird that flies by the hair beneath its throat.\nANATOMY: one pheasant-shaped bird, one head, two eyes, one beak, two folded wings, two bird legs and one pheasant tail; long conspicuous beardlike feathers under throat, no horns or extra wings [wd-q17065939-c01, wd-q17065939-c06]\nMOMENT: fly directly over the viewer with wings completely folded against body, lift generated visually by beard feathers spreading widely and sweeping the air under its throat\nPOWER: flight through long beardlike throat feathers rather than wingbeats; no magical glow, trails or beams [wd-q17065939-c03, wd-q17065939-c06, wd-q17065939-c07]\nSCALE & CAMERA: extreme low angle; very close foreshortened bird fills square; ordinary bird size and distant mountain below\nLIGHT & WEATHER: one warm sunset source, rim light through beard feathers, fine mountain mist\nSURFACE: coarse layered pheasant feathers, fibrous flowing throat beard, dark walnut and antique gold plumage chosen editorially\nSETTING: air above Mount Shangshen [wd-q17065939-c02]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Beard-powered flying pheasant with ordinary wings folded.",
+  "basis_claim_ids": [
+    "wd-q17065939-c01",
+    "wd-q17065939-c06",
+    "wd-q17065939-c03",
+    "wd-q17065939-c07",
+    "wd-q17065939-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q17065939-c01",
+      "wd-q17065939-c06"
+    ],
+    "kekuatan": [
+      "wd-q17065939-c03",
+      "wd-q17065939-c06",
+      "wd-q17065939-c07"
+    ],
+    "tempat": [
+      "wd-q17065939-c02"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Pheasant-shaped bird with conspicuous throat beard, folded paired wings and two feet.",
+      "claim_ids": [
+        "wd-q17065939-c01",
+        "wd-q17065939-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flies using beard hair under throat, rather than wings.",
+      "claim_ids": [
+        "wd-q17065939-c03",
+        "wd-q17065939-c06",
+        "wd-q17065939-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Shangshen beneath flight.",
+      "claim_ids": [
+        "wd-q17065939-c02"
+      ]
+    }
+  ],
+  "aura": "C06/c07 impossible beard-driven flight makes the active bird strange and imposing.",
+  "artistic_choices": [
+    "Plumage colour, sunset and mist editorial; no giant inflation.",
+    "Fold wings deliberately so documented beard flight is legible.",
+    "Close camera and concentrated stare create awe; no predatory aggression or invented elemental power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

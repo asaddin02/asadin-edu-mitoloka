@@ -584,3 +584,35 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 
 - Agen utama memeriksa 12 PNG final native1254×1254 dan200px: Drac Sant Llorenç, Maolong02, Draak India/Etiopia, Yiniao, Gegant Romaní, Houéran, Isabit, Drac Beaucaire, Ecke, Laurieddhu, Mâchecroute, Loberno. Efek: Isabit suction c03/c08, Houéran bara c10, Yiniao bayangan permukiman c02/c09, Mâchecroute banjir c01.
 - Maolong01 ditolak tanduk rusa rekaan dan02 dihapus; Orphan Bird01 ditolak kaki takberselaput,02 menunggu pemeriksaan root; Petitcrieu01 ditolak anjinglucubiasa,02 tersedia. Semua penolakan tetap diarsipkan.
+
+### Progres 11:16 WIB
+
+- Root22 final batch1817 diperiksa native+200px. Tambahan Mekhala (ekor api c05, theft c12), Sin-you (tanduk satu c04/courtstrike c06), Serpent Manlleu (intan c03/skala rumah c06), Xuanyu (1000chi c10/leap c08), Taiba miniatur c04/c07, Kutsulan lamewolf c02, Gyeryong roosterdragon c01, Lingyu c06 tepat dua tangan/kaki, Muke flock c05/c06, Bo horn/claws c03.
+- Claude meninjau batch1717/1767 saat sesi ini berjalan dan mengembalikan empat koreksi; sebagian integrasi juga terjadi (jurnal Claude menyebut batch1817 tidak disentuh). Lane B menangani Jengu dan Otomitl setelah17baru selesai; A menangani Jiaoren setelah17; C menangani Nandi Bear setelah16. Root memeriksa ulang hasil koreksi dan mencatat perubahan berkas eksternal.
+- Wangyuyu dan Zhishoushe ditahan setelah masing-masing3 percobaan: wangyuyu half-fish belum sangar/faithful bersamaan; zhishoushe sisik terbalik takterverifikasi.
+
+### Progres 11:32 WIB
+
+- Root34 final batch1817 diperiksa native+200px. Tambahan Daikogyo wave/cloud c03, Iron-finger demon closedmetalindex02/regeneration c14, Kai Kurokoma white4legs/winglessflight c02/c08, Jinjahime tepat3tailbranches c05, Danghu beardflight c06/c07, Anka elephantcarry c04, Croglin eye-flames c06/windowlead c05, Einheer scythe c05, Hippanthrope wingedhorse c07, Kajiga whitewolf/ironbowl c04, Khaan hero-ascent c05, LaSerena beak/talons/harp c03/c04.
+- Jengu, Otomitl, dan Jiaoren koreksi sudahtersimpan; menunggu rootnative+200. RainBull duaPNGditolak pseudo-signature di sudut, editketiga sedangberjalan.
+
+## 2026-10-15 15:28 WIB — Codex — mulai
+
+- Pemilik meminta melanjutkan batch gambar. Memulihkan batch1817 yang terputus: 49 receipt tersedia, wd-q15955445 belum receipt; 47 menunggu tinjauan, dua sudah terpasang. Status awal 1.693 ilustrasi aktif, satu needs-correction (nandi-bear), nol receipt awaiting invalid.
+- Rencana: pulihkan hasil Rain Bull sebelum panggilan baru, periksa PNG yang belum mempunyai bukti root native+200px, selesaikan koreksi Nandi Bear serta periksa Jengu/Jiaoren/Otomitl yang sudah tersimpan. Kemudian selaraskan ledger, galeri, prompt, ringkasan, dan validasi.
+- Memakai imagegen built-in dan delegasi koreksi terpisah sesuai GAMBAR §2; model gambar dicatat sebagaimana dilaporkan alat. Perubahan awal dari sesi lain dipertahankan; tidak menulis riset/katalog/power/JS/manifest/WebP/backups, tidak integrasi, commit, atau push.
+
+## 2026-10-15 15:45 WIB — Claude — tinjauan kedua batch-1817 dan koreksi 1717/1767
+
+- Claude meninjau 50 receipt yang menunggu: 47 di batch-1817, ditambah koreksi jengu (1717), merperson-in-southsea dan otomitl (1767). Hash PNG native sama dengan receipt dan tinjauan Codex untuk ke-50-nya. **46 lolos, 4 ditolak**. Yang lolos sudah diintegrasikan: ilustrasi aktif 1.693 → 1.739.
+- Ketiga koreksi menjawab catatan: penyelam jengu kini penyelam bebas berkain, jiaoren menenun di dasar laut, dan otomitl punya pinus serta desa di kakinya.
+- Loberno dipasang dengan budaya `tradition-galician` lewat fix khusus budaya `batch-134-fix-6`, sama seperti gatipedro (usulan risetnya sama-sama "Mitologi Galisia").
+- Ditolak (status `needs-correction`, alasan lengkap di `correction_notes`):
+  - **wd-q10441691** (Pojing): terbaca sebagai anak harimau biasa. Bentuknya memang hanya "seperti harimau/macan tutul tetapi lebih kecil" (c03, c05), jadi gambarnya harus datang dari kisahnya: makhluk kecil yang berbalik melawan induknya yang jauh lebih besar (c02, c05), tanpa darah. Bila tidak terbaca tanpa gore, tandai `tidak-digambar`.
+  - **wd-q12279265** (Rain Bull): tanda tangan palsu sudah hilang, tetapi kini terbaca sebagai sapi jantan biasa di bawah hujan. Pakai mitosnya: Kua menunggang di punggungnya sambil menaburkan buchu di dahinya (c10, c13, c14), hujan hanya turun di tempat ia pergi (c02), kolam mengering di belakangnya (c16). Ada bekas tambalan persegi samar di tepi bawah PNG; buat ulang, jangan edit.
+  - **wd-q12284431** (Kutsulan): terbaca sebagai serigala biasa mengangkat kaki. Kakinya harus jelas pincang (terseret/layu), serigalanya jelas lebih besar, dan pakai kisahnya: lelaki di pohon buah tepat di atasnya (c04), sebagai pemimpin kawanan (c01, c08).
+  - **wd-q17065939** (Danghu): terbang dengan janggut sudah benar, tetapi kepalanya kepala elang dengan paruh bengkok. Ganti dengan kepala kecil dan paruh pendek-tebal burung kuau (c01, c06); sayap tetap terlipat.
+- Lolos tipis: merperson-in-southsea (wajah perempuan biasa, latar yang membawa), demone-dal-dito-di-ferro, hippanthrope, houeran (kuku bertiga ruas, bukan terbelah dua; sumber hanya menyebut kaki kambing), mekhala (perut sampai lutut tidak terbaca), orphan-bird, petitcrieu, syrbotae, wd-q10514345 (wajah mendekati tokoh film animasi), wd-q11302031, wd-q11665033, wd-q11677502 (rambut tipis di 200 px).
+- Masih ditahan karena budaya riset null: mich (1767) dan frankensteins-monster (1094); pemilik perlu memilih budayanya.
+- 46 makhluk yang baru tayang belum punya penilaian kekuatan (antrean power).
+- Batch-1817 yang masih dikerjakan Codex (wd-q15955445, nandi-bear) tidak disentuh.

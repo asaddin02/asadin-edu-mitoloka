@@ -1,0 +1,60 @@
+{
+  "slug": "wd-q12284431",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-127.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kutsulan, the big lame wolf feared as the most dangerous wolf and mythical pack leader in Bulgarian folk belief.\nANATOMY: exactly one big wolf, one head, two eyes, four legs with one front leg held weakly crooked and off the ground in a clearly lame gait; coarse ragged fur, wolf teeth and paws; no horns, extra limbs, glowing eyes or invented mutations [wd-q12284431-c01, wd-q12284431-c02, wd-q12284431-c08]\nMOMENT: lunge unevenly toward the viewer from beneath a fruit tree, lips curled back in a ferocious snarl, sound forepaw digs earth while lame foreleg stays raised; shoulders twist from the limp.\nPOWER: no documented power; menace through documented bloodthirsty disposition, big lame wolf anatomy and physical hunting movement only [wd-q12284431-c01, wd-q12284431-c06]\nSCALE & CAMERA: extreme low angle; tightly framed wolf fills square from snarling muzzle to raised lame paw, a big real wolf rather than invented giant scale.\nLIGHT & WEATHER: one low sunset through tree branches, rim light, dry dust kicked from ground.\nSURFACE: matted dark grey-brown wolf fur, wet natural nose and gums, cracked earth and rough bark.\nSETTING: ground beneath a fruit tree from the wolf's encounter story [wd-q12284431-c04]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No horns, tattoos, glyphs, magical breath, huge giant scale or exposed wounds. Show unmistakable lame gait.",
+  "depicted_variant": "Big lame wolf Kutsulan snarling and lunging from beneath fruit tree.",
+  "basis_claim_ids": [
+    "wd-q12284431-c02",
+    "wd-q12284431-c08",
+    "wd-q12284431-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q12284431-c02",
+      "wd-q12284431-c08"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "wd-q12284431-c04"
+    ],
+    "sifat": [
+      "wd-q12284431-c01",
+      "wd-q12284431-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Big wolf with visibly lame front leg, four-legged lame variant rather than one-legged variant.",
+      "claim_ids": [
+        "wd-q12284431-c02",
+        "wd-q12284431-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Beneath fruit tree of encounter tale.",
+      "claim_ids": [
+        "wd-q12284431-c04"
+      ]
+    }
+  ],
+  "aura": "Menace from bloodthirsty big lame wolf identity (c01,c02,c06), no power aura.",
+  "artistic_choices": [
+    "Choose lame wolf variant c02, not old man or one-legged variant.",
+    "Which leg is lame, fur colour and crooked gait are editorial visualization of lameness.",
+    "Sunset and dust are editorial; no supernatural power is documented and no magic depicted.",
+    "Close framing creates menace without giant inflation."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

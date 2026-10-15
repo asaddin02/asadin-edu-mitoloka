@@ -1,0 +1,63 @@
+{
+  "slug": "wd-q15892530",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Lingyu in the classic Shan Hai Jing form, a sea fish with a human face, hands and feet.\nANATOMY: exactly one fish-bodied creature with one human face and two human eyes directly on the front of a complete scaled fish body, two short forelimbs ending in unmistakable human hands and two short rear limbs ending in human feet; ordinary fish tail behind; NO human chest or torso, no mermaid anatomy, no tentacles, horns or triangular spines [wd-q15892530-c01, wd-q15892530-c06]\nMOMENT: surge out of a breaking wave toward the viewer, both human hands reach across the foreground rock, human-faced head angled downward with fierce focused stare; rear human feet visible flanking the fish tail.\nPOWER: no documented power in selected classic form; real water splashes only because the body moves through surf. Do not mix the disputed wind-raising variant into the classic anatomy.\nSCALE & CAMERA: extreme low angle; tightly frame human face, fish body and four readable human-ended limbs, no humans or invented giant scale.\nLIGHT & WEATHER: one low moon beyond sea cloud, rim light, natural saltwater splash and spray.\nSURFACE: wet dark carp-like scales, pale weathered human face/hands/feet, textured black coastal rock.\nSETTING: sea of the Gushe region in the classic account [wd-q15892530-c06]\nMOOD: menacing and uncanny; dangerous and imposing at intimate range, never cute, calm or decorative; respectful fabulous Chinese creature.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No human torso, breasts, mermaid body, tentacles, triangular spines, horns, tattoos, glyphs, lightning or water beams.",
+  "depicted_variant": "Classic Shan Hai Jing Lingyu emerging from surf with human hands and feet on fish body.",
+  "basis_claim_ids": [
+    "wd-q15892530-c01",
+    "wd-q15892530-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q15892530-c01",
+      "wd-q15892530-c02",
+      "wd-q15892530-c06",
+      "wd-q15892530-c08",
+      "wd-q15892530-c09"
+    ],
+    "kekuatan": [
+      "wd-q15892530-c04",
+      "wd-q15892530-c09"
+    ],
+    "tempat": [
+      "wd-q15892530-c03",
+      "wd-q15892530-c06"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Classic human-faced fish body with human hands and feet, no human torso.",
+      "claim_ids": [
+        "wd-q15892530-c01",
+        "wd-q15892530-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea in classic Gushe account.",
+      "claim_ids": [
+        "wd-q15892530-c06"
+      ]
+    }
+  ],
+  "aura": "Uncanny threat through human face and hands/feet on fish body (c01,c06), no magic aura.",
+  "artistic_choices": [
+    "Choose classic c06 form; do not combine tentacle arms c02, reddish mane c08, or disputed triangular spine/wind variant c09.",
+    "Exact limb lengths, carp-like scale texture, rock, moonlight and spray are editorial.",
+    "No power effects; splash is ordinary physical movement, no sourced giant scale.",
+    "Ordinary fin and short wet head hair are editorial fish/human-face surface details; no triangular body spines or reddish dorsal mane variant."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

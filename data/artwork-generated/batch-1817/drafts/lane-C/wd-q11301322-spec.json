@@ -1,0 +1,71 @@
+{
+  "slug": "wd-q11301322",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-062.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kenmun, the Amami Islands yōkai of water and banyan trees with long limbs and a water-holding head dish.\nANATOMY: one humanoid yōkai head with two ordinary eyes, a broad round shallow dish-shaped hollow built into the top of its head visibly holding water, two exceptionally long arms and two exceptionally long legs; five fingers on each hand, rough brown skin; fully opaque plain dark cloth tunic and trousers; no horns, beak, shell or pointed ears [wd-q11301322-c05]\nMOMENT: Clamber from beneath banyan roots toward the viewer, stretch one long arm forward with a small real flame burning on its index fingertip while the other long hand grips a root; direct intent gaze beneath the water dish.\nPOWER: generates fire from its fingertip; show one localized physical flame at the index tip casting real warm light onto wet bark and skin, no rays or general aura [wd-q11301322-c08]\nSCALE & CAMERA: extreme low angle; tight full-body foreshortening, long arms/legs folded through frame with water dish unobscured; no claim of giant size, no miniature people or giant trees.\nLIGHT & WEATHER: the single fingertip flame is the dominant source, narrow warm rim light, damp air and deep walnut shadow as editorial atmosphere.\nSURFACE: rough damp skin, coarse plain opaque fabric, gnarled wet banyan roots, water ripples within the shallow head dish.\nSETTING: banyan roots on the Amami Islands, the tree spirit's documented habitat [wd-q11301322-c04, wd-q11301322-c07]\nMOOD: awe-inspiring and uncanny; dangerous and imposing, never cute, calm or decorative; respectful folklore spirit.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no invented kappa beak or shell, no tattoos, glyphs, symbols, elf ears, extra bowls or fireballs; water dish must be part of head, not a hat.",
+  "depicted_variant": "Long-limbed water-dish Kenmun climbs banyan roots with fingertip flame.",
+  "basis_claim_ids": [
+    "wd-q11301322-c05",
+    "wd-q11301322-c08",
+    "wd-q11301322-c04",
+    "wd-q11301322-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11301322-c05"
+    ],
+    "kekuatan": [
+      "wd-q11301322-c06",
+      "wd-q11301322-c08",
+      "wd-q11301322-c11"
+    ],
+    "tempat": [
+      "wd-q11301322-c04",
+      "wd-q11301322-c07",
+      "wd-q11301322-c09"
+    ],
+    "sifat": [
+      "wd-q11301322-c02",
+      "wd-q11301322-c03",
+      "wd-q11301322-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Humanoid with longlimbs and water-filled dish onhead.",
+      "claim_ids": [
+        "wd-q11301322-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Localized fire created at fingertip physically illuminates bark.",
+      "claim_ids": [
+        "wd-q11301322-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Amami banyan roots, water/tree spirit.",
+      "claim_ids": [
+        "wd-q11301322-c04",
+        "wd-q11301322-c07"
+      ]
+    }
+  ],
+  "aura": "Longlimbs/waterdish c05 and realfingertipflame c08 give uncanny awe.",
+  "artistic_choices": [
+    "Opaque plain clothes,brownskin,facialdetails,palette,camera and dampness editorial, not documented iconography. Longlimbs/waterdish and fingertipfire sourced; no giant scale. No imported kappa beak/shell or Kijimuna hair anatomy. Respectful uncanny spirit, no cursevictim/gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

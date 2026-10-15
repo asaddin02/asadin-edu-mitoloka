@@ -1,0 +1,90 @@
+{
+  "slug": "loberno",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Loberno, the Galician offspring of a wolf and a vixen that prowls cemeteries.\nANATOMY: one orange wolf-like head with two fixed eyes, one canine body, four canine legs, one bushy tail, fox-like rusty orange fur; no horns or extra parts [loberno-c01, loberno-c02]\nMOMENT: Crawl toward the viewer from an opened patch of cemetery earth, front claws gripping soil, lips lifted and gaze locked directly into the viewer.\nPOWER: its documented fascinating paralysing gaze is conveyed by the unnaturally intent fixed eyes and confrontation only, without beams or glow; disturbed earth shows its cemetery digging [loberno-c04]\nSCALE & CAMERA: extreme low angle; tight framing at natural canine scale, foreshortened front paws and head occupy most of the square; no giant scale.\nLIGHT & WEATHER: one cold moon source, rim light along orange fur, low ground mist and flying earth as editorial atmosphere.\nSURFACE: matted orange fur, damp black nose, gritty claws and wet soil.\nSETTING: shadowed Galician cemetery with unlettered stones barely visible behind the dominant creature [loberno-c04, loberno-c05]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no visible corpses, no blood, no inscriptions.",
+  "depicted_variant": "Orange wolf-like variant with intense fixed gaze digging in a cemetery.",
+  "basis_claim_ids": [
+    "loberno-c01",
+    "loberno-c02",
+    "loberno-c04",
+    "loberno-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "loberno-c01",
+      "loberno-c02"
+    ],
+    "kekuatan": [
+      "loberno-c03",
+      "loberno-c04"
+    ],
+    "tempat": [
+      "loberno-c04",
+      "loberno-c05"
+    ],
+    "sifat": [
+      "loberno-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Orange wolf-like variant of wolf and vixen offspring, canine anatomy.",
+      "claim_ids": [
+        "loberno-c01",
+        "loberno-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Intent paralysing gaze without invented light effects; cemetery earth disturbed by digging.",
+      "claim_ids": [
+        "loberno-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Galician cemetery.",
+      "claim_ids": [
+        "loberno-c04",
+        "loberno-c05"
+      ]
+    }
+  ],
+  "aura": "Fixed gaze and grave-digging menace from loberno-c04.",
+  "artistic_choices": [
+    "Moonlight, mist, palette and close camera are editorial. Natural canine scale; no invented beams. No corpse or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13877-a11c-73a0-b825-e4a8069185a3/exec-f3246073-f66a-416a-b2d4-c12b9a270cf6.png",
+  "generated_at": "2026-10-14T03:34:47.280701+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/loberno.png",
+  "native_sha256": "4f65bc363c8f67491b132eb28a3b5d59516c30664db2cd6d5b653f79555031cb",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native 1254x1254 and 200px viewed. Seven Sangar checks pass: orange wolf-vixen dominates, fixed gaze remains dangerous at thumbnail, claws actively dig cemetery soil; no supernatural beams, soil action from c04; one head, two eyes, canine limb structure with hindquarters occluded, one tail; no text or franchise design; not a calm ordinary animal. Moon/mist editorial.",
+    "limitations": [],
+    "native_sha256": "4f65bc363c8f67491b132eb28a3b5d59516c30664db2cd6d5b653f79555031cb",
+    "reviewed_at": "2026-10-14T03:34:47.280701+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "4f65bc363c8f67491b132eb28a3b5d59516c30664db2cd6d5b653f79555031cb",
+    "notes": "Orange wolf-like beast with a fixed stare digging up earth in a moonlit cemetery [loberno-c01, c04, c05]. The grave-digging setting keeps it from reading as an ordinary fox or wolf."
+  }
+}

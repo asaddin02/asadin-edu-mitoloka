@@ -1,0 +1,111 @@
+{
+  "slug": "mekhala",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Mekhala, the harvest-stealing being of La Paz associated with drought, frost and famine in Andean tradition.\nANATOMY: one tall thin woman-shaped being, one head, two eyes, two arms and two legs, livid flabby skin and long loose tangled hair; belly hanging toward knees fully covered by an opaque long red tunic with many large bulging food pockets; a documented fiery comet-like tail behind her, not horns or wings [mekhala-c04, mekhala-c05, mekhala-c06, mekhala-c10]\nMOMENT: leap forward out of the dark fields toward the viewer, one hand stuffs a whole harvested maize ear into a deep red tunic pocket while the other clutches stalks, hair streaming.\nPOWER: steal best crops into never-filled pockets; damaged dry stalks lie behind her, real flame trails from her specifically documented comet-like tail only; no eye beams, no generic aura [mekhala-c05, mekhala-c12, mekhala-c13]\nSCALE & CAMERA: extreme low angle; tight close framing from tunic hem to hair, maize stalks are normal height; tall but not gigantic, no invented monumental scale.\nLIGHT & WEATHER: one warm light source from the fiery tail, rim light, ordinary smoke and dry field dust at night.\nSURFACE: rough faded red cloth, wrinkled livid skin, tangled dark hair, dry maize leaves and soot.\nSETTING: cultivated fields and gardens of La Paz/Yungas tradition [mekhala-c01, mekhala-c02, mekhala-c12]\nMOOD: awe-inspiring and unsettling, imposing manifestation of crop devastation; respectful Andean folklore, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No horns, wings, tattoos, glyphs or removed eyes. Fire only from the documented tail; no burning village.",
+  "depicted_variant": "Clothed red-tunic Mekhala leaping through fields with harvested crops and comet-like tail.",
+  "basis_claim_ids": [
+    "mekhala-c04",
+    "mekhala-c05",
+    "mekhala-c06",
+    "mekhala-c10",
+    "mekhala-c11",
+    "mekhala-c12",
+    "mekhala-c13",
+    "mekhala-c01",
+    "mekhala-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "mekhala-c04",
+      "mekhala-c05",
+      "mekhala-c06",
+      "mekhala-c10"
+    ],
+    "kekuatan": [
+      "mekhala-c01",
+      "mekhala-c07",
+      "mekhala-c12",
+      "mekhala-c13"
+    ],
+    "tempat": [
+      "mekhala-c01",
+      "mekhala-c02",
+      "mekhala-c12"
+    ],
+    "sifat": [
+      "mekhala-c01",
+      "mekhala-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tall thin livid woman with loose tangled hair, covered knee-hanging belly, long red many-pocket tunic and fiery comet-like tail.",
+      "claim_ids": [
+        "mekhala-c04",
+        "mekhala-c05",
+        "mekhala-c06",
+        "mekhala-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Leaps while stealing harvested food into pockets; fire only from sourced tail.",
+      "claim_ids": [
+        "mekhala-c05",
+        "mekhala-c11",
+        "mekhala-c12",
+        "mekhala-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "La Paz/Yungas fields and gardens.",
+      "claim_ids": [
+        "mekhala-c01",
+        "mekhala-c02",
+        "mekhala-c12"
+      ]
+    }
+  ],
+  "aura": "Imposing motion from c11 leap, endless food pockets c12 and comet-like fiery tail c05.",
+  "artistic_choices": [
+    "Select clothed Paredes/peasant variant; omit naked flying/candle-socket variant of c02.",
+    "Maize crop choice, red fabric texture, night light and framing are editorial.",
+    "No giant inflation; tall thin anatomy and hanging belly are sourced, depicted fully covered.",
+    "Treat figure respectfully as documented folklore of crop devastation, not religious caricature.",
+    "Plain worn footwear is editorial; the hanging belly is covered and merged with the tunic volume and pockets rather than exposed."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13875-fb19-75f1-b51f-f509d95dd2c1/exec-c8be0039-2f85-4989-bc3d-5ccc0777160a.png",
+  "generated_at": "2026-10-14T03:45:49.317264+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/mekhala.png",
+  "native_sha256": "6762db24ded0c302c43eb8df283326be23151e3789b40baa3bcf8508073ffa7b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected; all seven Sangar checks pass. Tall thin livid woman, tangled hair, many-pocket opaque red tunic, two arms, leaping/advancing legs, food insertion and sourced comet-like fiery tail. Covered belly blends into lower tunic volume. Flame confined to tail; no eye beam, nudity, gore, lettering or religious caricature.",
+    "limitations": [],
+    "native_sha256": "6762db24ded0c302c43eb8df283326be23151e3789b40baa3bcf8508073ffa7b",
+    "reviewed_at": "2026-10-14T03:45:49.317264+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "6762db24ded0c302c43eb8df283326be23151e3789b40baa3bcf8508073ffa7b",
+    "notes": "Tall woman with loose wild hair in a long red tunic whose many pockets are stuffed with stolen maize, a comet-like tail of fire streaming from behind her (native crop: attached to her) [mekhala-c04, c05, c06, c12]. Passes narrowly: the belly hanging to the knees [c05] is hidden by the tunic and her face is calm; the fiery tail and the theft carry it."
+  }
+}

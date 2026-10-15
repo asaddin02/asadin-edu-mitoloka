@@ -1,0 +1,74 @@
+{
+  "slug": "wd-q22101447",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yiniao, the five-coloured phoenix-kind bird whose flight shades a settlement in the Shan Hai Jing.\nANATOMY: exactly one living bird with one head, two eyes, one beak, two feathered wings and two tucked bird feet; elaborate flowing phoenix-kind plumage with five visibly distinct natural colours black, white, rust-red, antique yellow-gold and blue-green [wd-q22101447-c01, wd-q22101447-c06, wd-q22101447-c08]\nMOMENT: sweep overhead toward the viewer in a forceful downstroke, immense feathered wings spread across the square, head looking downward.\nPOWER: the immense bird physically eclipses the sun and shades the small settlement below; no fire, magic or luminous aura [wd-q22101447-c02, wd-q22101447-c09]\nSCALE & CAMERA: extreme low angle; bird fills the square, village roofs tiny at bottom and its wings cast a broad physical shadow [wd-q22101447-c02].\nLIGHT & WEATHER: one partly occluded sunset sun behind a wing edge, hard rim light, natural sea mist.\nSURFACE: layered coarse feathers with five legible colour families, weathered little roof tiles and sea cliffs.\nSETTING: Mount She in the Northern Sea, river flowing east from the mountain [wd-q22101447-c03, wd-q22101447-c04]\nMOOD: awe-inspiring; imposing and overwhelming, never cute, calm or decorative; respectful fabulous Chinese bird.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No fiery phoenix effect, lightning, glyphs or tattoos.",
+  "depicted_variant": "Five-coloured phoenix-kind Yiniao shading a settlement overhead.",
+  "basis_claim_ids": [
+    "wd-q22101447-c01",
+    "wd-q22101447-c06",
+    "wd-q22101447-c08",
+    "wd-q22101447-c02",
+    "wd-q22101447-c09",
+    "wd-q22101447-c03",
+    "wd-q22101447-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q22101447-c01",
+      "wd-q22101447-c06",
+      "wd-q22101447-c08"
+    ],
+    "kekuatan": [
+      "wd-q22101447-c02",
+      "wd-q22101447-c09"
+    ],
+    "tempat": [
+      "wd-q22101447-c03",
+      "wd-q22101447-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Five-coloured phoenix-kind living bird.",
+      "claim_ids": [
+        "wd-q22101447-c01",
+        "wd-q22101447-c06",
+        "wd-q22101447-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wings physically shade settlement and occlude sunlight.",
+      "claim_ids": [
+        "wd-q22101447-c02",
+        "wd-q22101447-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount She and east-flowing river in Northern Sea.",
+      "claim_ids": [
+        "wd-q22101447-c03",
+        "wd-q22101447-c04"
+      ]
+    }
+  ],
+  "aura": "Awe from settlement-shading flight (c02,c09) and five-coloured phoenix-kind form (c01,c06).",
+  "artistic_choices": [
+    "Five hue selections, feather structure, roof arrangement and sunset are editorial.",
+    "Giant relative scale and wing shadow follow c02/c09, no flame or magical phoenix rebirth is inferred."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

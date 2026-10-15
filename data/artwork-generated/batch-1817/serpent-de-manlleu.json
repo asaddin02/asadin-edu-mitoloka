@@ -1,0 +1,82 @@
+{
+  "slug": "serpent-de-manlleu",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Serpent de Manlleu, the farmhouse-sized hairy serpent of the Devesa woods.\nANATOMY: one giant limbless serpent, one head, two eyes, one continuous coiled body and one tail, abundant long shaggy hair, exactly one large shining clear diamond resting on its crown; no horns, wings or legs [serpent-de-manlleu-c03, serpent-de-manlleu-c06]\nMOMENT: rear from a dense coil over the riverbank and lunge its hairy crowned head toward the viewer\nPOWER: no documented outward magic; menace through documented huge hairy anatomy and the diamond reflecting real light [serpent-de-manlleu-c03, serpent-de-manlleu-c06]\nSCALE & CAMERA: extreme low angle; farmhouse-sized serpent fills square; tiny farmhouse silhouette beyond woods establishes documented scale\nLIGHT & WEATHER: one moon source, rim light on shaggy hair and natural diamond reflection, damp woodland mist\nSURFACE: wet dark long hair draping over coarse serpent skin, clear faceted uninscribed diamond\nSETTING: Devesa woods near Manlleu beside the river where it drinks [serpent-de-manlleu-c03]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Farmhouse-sized long-haired serpent with single diamond on head.",
+  "basis_claim_ids": [
+    "serpent-de-manlleu-c03",
+    "serpent-de-manlleu-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "serpent-de-manlleu-c03",
+      "serpent-de-manlleu-c06"
+    ],
+    "kekuatan": [
+      "serpent-de-manlleu-c05"
+    ],
+    "tempat": [
+      "serpent-de-manlleu-c01",
+      "serpent-de-manlleu-c03"
+    ],
+    "sifat": [
+      "serpent-de-manlleu-c04",
+      "serpent-de-manlleu-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Huge serpent as big as farmhouse, abundant long hair and large shining crown diamond.",
+      "claim_ids": [
+        "serpent-de-manlleu-c03",
+        "serpent-de-manlleu-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Devesa woods near Manlleu and river drinking bank.",
+      "claim_ids": [
+        "serpent-de-manlleu-c03"
+      ]
+    }
+  ],
+  "aura": "C06 huge serpent and c03 hair/diamond dominate the frame without invented powers.",
+  "artistic_choices": [
+    "No magical emission: diamond shining interpreted as reflected moonlight.",
+    "Moon, dark palette, mist and lunge editorial; scale explicitly from c06.",
+    "House is distant editorial size comparison, no attack or new power depicted."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-66a988e7-94ce-46bc-98b2-24f9a1dc6a1b.png",
+  "generated_at": "2026-10-14T03:41:46.865217+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/serpent-de-manlleu.png",
+  "native_sha256": "eb0fcdae240ded4ac0fa2df6f79b38f3c07148b8f30daffb4500649641c97e33",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, seven Sangar checks yes. One continuous limbless serpent, single head/two eyes, long abundant hair and one clear diamond on crown c03/c06; house comparator reflects c06 farmhouse scale. Active lunge through river spray, no magical effect, crown diamond reflects moonlight. Woods/river c03. No text/glyphs, horns/wings/legs, franchise appearance, nudity or gore.",
+    "limitations": [],
+    "native_sha256": "eb0fcdae240ded4ac0fa2df6f79b38f3c07148b8f30daffb4500649641c97e33",
+    "reviewed_at": "2026-10-14T03:41:46.865217+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "eb0fcdae240ded4ac0fa2df6f79b38f3c07148b8f30daffb4500649641c97e33",
+    "notes": "Huge long-haired serpent rearing from a moonlit river with a shining diamond on its head, a farmhouse on the hill [serpent-de-manlleu-c03, c06]."
+  }
+}

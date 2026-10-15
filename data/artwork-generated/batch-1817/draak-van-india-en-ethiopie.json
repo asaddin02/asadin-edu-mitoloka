@@ -1,0 +1,101 @@
+{
+  "slug": "draak-van-india-en-ethiopie",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Dragon of India and Ethiopia, a gigantic fifty-five-metre dragon-serpent known for strangling elephants with its tail.\nANATOMY: one colossal limbless serpent, exactly one head and two eyes, long heavy coiling tail, sharp teeth; no legs, wings, horns or exterior gemstones [draak-van-india-en-ethiopie-c01, draak-van-india-en-ethiopie-c02, draak-van-india-en-ethiopie-c06]\nMOMENT: thrust its open toothed head toward the viewer while one enormous coil grips a thick tree; an elephant below struggles against a tail loop, no injury or gore.\nPOWER: physically coil around an elephant's neck while gripping the tree, the documented strangling behaviour; no magical paralysis glow or fire effects [draak-van-india-en-ethiopie-c05, draak-van-india-en-ethiopie-c07]\nSCALE & CAMERA: extreme low angle; elephant clearly smaller than the immense head and coils, a fifty-five-metre serpent fills the frame [draak-van-india-en-ethiopie-c01].\nLIGHT & WEATHER: one low amber sun through cloud, rim light, dust shaken from tree bark.\nSURFACE: heavy rough bronze-black scales, cracked bark, dusty elephant hide.\nSETTING: wooded rocky ground in the dragon's India and Ethiopia tradition [draak-van-india-en-ethiopie-c01, draak-van-india-en-ethiopie-c05]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No wings, limbs, lightning, glyphs, tattoos or external head jewel; head diamond is internal and unseen.",
+  "depicted_variant": "Gigantic serpent attacking an elephant beside a tree.",
+  "basis_claim_ids": [
+    "draak-van-india-en-ethiopie-c01",
+    "draak-van-india-en-ethiopie-c02",
+    "draak-van-india-en-ethiopie-c06",
+    "draak-van-india-en-ethiopie-c05",
+    "draak-van-india-en-ethiopie-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "draak-van-india-en-ethiopie-c01",
+      "draak-van-india-en-ethiopie-c02",
+      "draak-van-india-en-ethiopie-c06",
+      "draak-van-india-en-ethiopie-c09"
+    ],
+    "kekuatan": [
+      "draak-van-india-en-ethiopie-c02",
+      "draak-van-india-en-ethiopie-c05",
+      "draak-van-india-en-ethiopie-c07",
+      "draak-van-india-en-ethiopie-c08"
+    ],
+    "tempat": [
+      "draak-van-india-en-ethiopie-c01",
+      "draak-van-india-en-ethiopie-c03",
+      "draak-van-india-en-ethiopie-c05"
+    ],
+    "sifat": [
+      "draak-van-india-en-ethiopie-c01",
+      "draak-van-india-en-ethiopie-c02"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single gigantic sharp-toothed dragon-serpent, head diamond stays internal.",
+      "claim_ids": [
+        "draak-van-india-en-ethiopie-c01",
+        "draak-van-india-en-ethiopie-c02",
+        "draak-van-india-en-ethiopie-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical tail strangling of elephant while gripping tree, no gore.",
+      "claim_ids": [
+        "draak-van-india-en-ethiopie-c05",
+        "draak-van-india-en-ethiopie-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tree and rocky ground within India/Ethiopia legend.",
+      "claim_ids": [
+        "draak-van-india-en-ethiopie-c01",
+        "draak-van-india-en-ethiopie-c05"
+      ]
+    }
+  ],
+  "aura": "Threat from documented elephant-strangling gigantic dragon-serpent (c01,c05,c07).",
+  "artistic_choices": [
+    "Scale is sourced at 55m, elephant as documented prey supplies scale.",
+    "Woodland arrangement, bronze-black scales, sunlight and dust are editorial.",
+    "No visible paralysis effect or external red diamond; choose serpent variant of Aelian rather than flying group or fiery-crest mountain variant."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13875-fb19-75f1-b51f-f509d95dd2c1/exec-a57c9b92-8700-4cc3-b6e8-d35217f1302c.png",
+  "generated_at": "2026-10-14T03:35:39.607642+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/draak-van-india-en-ethiopie.png",
+  "native_sha256": "77a803de25da780bdf0eba7e37cab96953474fd72a0d3cafae39fb5d5ebf012f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, all seven Sangar checks pass. One limbless sharp-toothed serpent head, tree-gripping coil and elephant-strangling tail, no gore. Giant scale supported by c01/c09, attack by c05/c07. No magic, external gemstone, text or markings.",
+    "limitations": [],
+    "native_sha256": "77a803de25da780bdf0eba7e37cab96953474fd72a0d3cafae39fb5d5ebf012f",
+    "reviewed_at": "2026-10-14T03:35:39.607642+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "77a803de25da780bdf0eba7e37cab96953474fd72a0d3cafae39fb5d5ebf012f",
+    "notes": "Huge open-jawed serpent-dragon coiled round a tree and strangling an elephant in its tail [c01, c05, c07]; no gore, the diamond stays hidden."
+  }
+}

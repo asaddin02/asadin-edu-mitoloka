@@ -1,0 +1,101 @@
+{
+  "slug": "jengu",
+  "worker": "codex",
+  "worker_agent": "resume1717-B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1717,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Jengu, the respected mermaid-like Cameroonian water spirit meeting a diving specialist with a prophetic message.\nANATOMY: ONE beautiful adult woman's head, TWO eyes, long dark streaming hair, an unmistakable natural GAP BETWEEN THE TWO UPPER FRONT TEETH visible as she speaks; TWO human arms and ONE powerful fishlike mermaid tail instead of legs, fully opaque ceremonial dark ivory wrap over entire torso and hips [jengu-c02,c03]. No crown, trident, animal ears, horns or extra limbs.\nMOMENT: turn sharply through dark water toward viewer, fish tail curves upward beside her face and churns real bubbles; one hand reaches authoritatively toward a fullyclothed adult diver at edge of frame carrying a simple unmarked offering bowl; she speaks her message with an open solemn mouth and clear gap-teeth, eyes fixed on diver [jengu-c05,c08].\nPOWER: documented prophecy to specialist and healing/fortune; show the active encounter only, NO invented visualmagic for prophecy or healing [jengu-c02,c05,c08].\nSCALE & CAMERA: extreme low underwater close-up, spirit's face, forward hand and muscular fish tail fill90percent ofsquare; normal human torso proportions, macro framing rather than invented giant body.\nLIGHT & WEATHER: one warm sunset shaft through water, very deep walnut-green shadows, dramatic rim on hair and fish scales, natural bubbles.\nSURFACE: rich brown natural skin, wet coarse opaque cloth, textured mermaid scales, long hair.\nSETTING: river/sea waters of Cameroon, traditional Jengu sacred context [jengu-c01,c10].\nMOOD: majestic protective spirit, solemn and spiritually commanding, respectful sacred awe; never evil, cute mascot or placid beauty portrait.\nHARD CONSTRAINTS: no text, letters, logo, border, watermark; no extra heads or limbs; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons.",
+  "depicted_variant": "Mermaidlike Jengu longhairgapteeth menjawab diver dengan propheticmessage.",
+  "basis_claim_ids": [
+    "jengu-c02",
+    "jengu-c03",
+    "jengu-c05",
+    "jengu-c08",
+    "jengu-c01",
+    "jengu-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "jengu-c02",
+      "jengu-c03"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "jengu-c02",
+      "jengu-c05",
+      "jengu-c08"
+    ],
+    "tempat": [
+      "jengu-c01",
+      "jengu-c10"
+    ],
+    "sifat": [
+      "jengu-c02",
+      "jengu-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Mermaidlike adultwoman longhair visible lovelygapteeth, opaque uppercloth.",
+      "claim_ids": [
+        "jengu-c02",
+        "jengu-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Active encounter diver receiving propheticmessage, no visual magic.",
+      "claim_ids": [
+        "jengu-c05",
+        "jengu-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cameroon riversea underwater.",
+      "claim_ids": [
+        "jengu-c01",
+        "jengu-c10"
+      ]
+    }
+  ],
+  "aura": "Distinctlonghairgapteeth c03 dan activepropheticencounter c05/c08.",
+  "artistic_choices": [
+    "Fish-tail mermaidlike renderingc02/c03; cloth/color/bowl/framing editorial; no generic healingglow; no mixing backwardsfeet malevariantc13."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a135cb-e011-7771-8a2a-bae45481a643/exec-beedc713-beb6-4ec3-bebc-217cbc250447.png",
+  "generated_at": "2026-10-13T18:04:32.225929+00:00",
+  "original_file": "data/artwork-generated/batch-1717/rejected/jengu-attempt-01.png",
+  "native_sha256": "918551647d6c8737379b857b29e0d68c48cfdb5465462d985c7112aa4443755d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+2007pass: adultmermaidlonghair distinctgapupperteeth c03, strongcurvedfish tail c02/c03 and forwardhand speakpropheticmessage diver c05/c08. Subjectdominates aquaticencounter, no ordinarywoman due clearfish tail; no auratext/gore, protective notevil.",
+    "limitations": [],
+    "native_sha256": "918551647d6c8737379b857b29e0d68c48cfdb5465462d985c7112aa4443755d",
+    "reviewed_at": "2026-10-13T18:04:32.225929+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "918551647d6c8737379b857b29e0d68c48cfdb5465462d985c7112aa4443755d",
+    "notes": "The jengu herself is right (fish tail, long hair, gap teeth, reaching hand), but the diver wears modern scuba gear: regulator hoses, mask strap and a wetsuit with yellow trim (native crop). The sources describe a cult member who dives into the sea with the offering [jengu-c05, jengu-c08]; the equipment is invented and makes the rite look modern. Keep the composition and redraw the diver as a free-diving Sawa ritual specialist in plain opaque cloth, no mask, hoses, tanks or wetsuit."
+  },
+  "correction_notes": "The jengu herself is right (fish tail, long hair, gap teeth, reaching hand), but the diver wears modern scuba gear: regulator hoses, mask strap and a wetsuit with yellow trim (native crop). The sources describe a cult member who dives into the sea with the offering [jengu-c05, jengu-c08]; the equipment is invented and makes the rite look modern. Keep the composition and redraw the diver as a free-diving Sawa ritual specialist in plain opaque cloth, no mask, hoses, tanks or wetsuit.",
+  "receipt_file": "data/artwork-generated/batch-1717/rejected/jengu-attempt-01.json",
+  "reason": "The jengu herself is right (fish tail, long hair, gap teeth, reaching hand), but the diver wears modern scuba gear: regulator hoses, mask strap and a wetsuit with yellow trim (native crop). The sources describe a cult member who dives into the sea with the offering [jengu-c05, jengu-c08]; the equipment is invented and makes the rite look modern. Keep the composition and redraw the diver as a free-diving Sawa ritual specialist in plain opaque cloth, no mask, hoses, tanks or wetsuit.",
+  "preserved_original_file": "data/artwork-generated/batch-1717/originals/jengu.png",
+  "historical_generated_file": "/home/asadin/.codex/generated_images/01a135cb-e011-7771-8a2a-bae45481a643/exec-beedc713-beb6-4ec3-bebc-217cbc250447.png",
+  "rejection_source": "Claude independent review 2026-10-14T10:38:53+07:00"
+}

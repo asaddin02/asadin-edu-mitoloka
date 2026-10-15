@@ -1,0 +1,71 @@
+{
+  "slug": "drac-de-beaucaire",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-133.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Drac de Beaucaire, the fearsome dragon of the Rhône shown in its documented lizard form.\nANATOMY: one living lizard-shaped dragon with one head, two eyes, four reptile legs and one long tail, no wings, no horns [drac-de-beaucaire-c14]\nMOMENT: surge head-first out of the river toward the viewer, four feet gripping submerged stone, open jaw cutting through falling river water\nPOWER: river water thrown physically by its emergence, without magical beams or invisibility effect [drac-de-beaucaire-c04]\nSCALE & CAMERA: extreme low angle; tight foreshortened close framing; no invented giant scale or human comparator\nLIGHT & WEATHER: one amber dusk source, rim light on water spray; dark walnut and antique gold\nSURFACE: wet coarse lizard scales and river mud\nSETTING: the bank and shallows of the Rhône at Beaucaire [drac-de-beaucaire-c04, drac-de-beaucaire-c10]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Lizard-form Rhône dragon erupting through river water.",
+  "basis_claim_ids": [
+    "drac-de-beaucaire-c14",
+    "drac-de-beaucaire-c04",
+    "drac-de-beaucaire-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "drac-de-beaucaire-c14"
+    ],
+    "kekuatan": [
+      "drac-de-beaucaire-c02",
+      "drac-de-beaucaire-c04",
+      "drac-de-beaucaire-c05",
+      "drac-de-beaucaire-c06"
+    ],
+    "tempat": [
+      "drac-de-beaucaire-c03",
+      "drac-de-beaucaire-c04",
+      "drac-de-beaucaire-c10"
+    ],
+    "sifat": [
+      "drac-de-beaucaire-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Living lizard form documented on Rhône washing-beetles; no speculative wings or horns.",
+      "claim_ids": [
+        "drac-de-beaucaire-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dragon emerges from Rhône depths, displacing river water physically.",
+      "claim_ids": [
+        "drac-de-beaucaire-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rhône riverbank.",
+      "claim_ids": [
+        "drac-de-beaucaire-c04",
+        "drac-de-beaucaire-c10"
+      ]
+    }
+  ],
+  "aura": "Fearsome emergence c04 and lizard-form anatomy c14 provide menace without invented power.",
+  "artistic_choices": [
+    "Lizard depiction c14 selected over undocumented detailed dragon anatomy; shown alive rather than carving.",
+    "Close framing establishes menace without claiming giant dimensions.",
+    "Dusk, wet texture, stone and palette are editorial; spray is physical movement, not a new magical power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "wd-q11577838",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-064.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kai no Kurokoma, the sacred flying horse ridden by Prince Shōtoku across Mount Fuji.\nANATOMY: one horse with one head, two eyes, four white lower legs, four hooves, one mane and one tail, no wings, horns or extra limbs; dark charcoal coat is editorial, not a sourced colour; one respectfully depicted prince fully clothed in plain opaque layered robes seated on its back [wd-q11577838-c01, wd-q11577838-c02, wd-q11577838-c07]\nMOMENT: fly toward and above the viewer over Mount Fuji, forelegs thrust forward and white lower legs visible, prince leaning with the flight\nPOWER: unsupported flight through open air, without wings, beams or energy trails [wd-q11577838-c01, wd-q11577838-c08]\nSCALE & CAMERA: extreme low angle; horse dominates frame in close foreshortening, distant Fuji below proves flight; normal horse scale\nLIGHT & WEATHER: one low warm sunrise source, rim light on horse and cloud, wind-blown mane and robes\nSURFACE: coarse dark horse hair, white lower legs, woven opaque robe layers\nSETTING: air over Mount Fuji on the sacred legendary journey from Nara [wd-q11577838-c07, wd-q11577838-c08]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Wingless white-legged sacred horse carrying Shōtoku over Fuji.",
+  "basis_claim_ids": [
+    "wd-q11577838-c02",
+    "wd-q11577838-c07",
+    "wd-q11577838-c01",
+    "wd-q11577838-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11577838-c02",
+      "wd-q11577838-c07"
+    ],
+    "kekuatan": [
+      "wd-q11577838-c01",
+      "wd-q11577838-c08"
+    ],
+    "tempat": [
+      "wd-q11577838-c07",
+      "wd-q11577838-c08"
+    ],
+    "sifat": [
+      "wd-q11577838-c02",
+      "wd-q11577838-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Sacred horse with white lower legs, ridden by fully clothed Shōtoku.",
+      "claim_ids": [
+        "wd-q11577838-c02",
+        "wd-q11577838-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flying above Mount Fuji without invented wings or beams.",
+      "claim_ids": [
+        "wd-q11577838-c01",
+        "wd-q11577838-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Fuji beneath flying sacred horse.",
+      "claim_ids": [
+        "wd-q11577838-c07",
+        "wd-q11577838-c08"
+      ]
+    }
+  ],
+  "aura": "C02 sacred status and c01/c08 flight over Fuji convey reverent awe through action.",
+  "artistic_choices": [
+    "Respectful awe for living religious tradition, no demonic expression.",
+    "Dark charcoal coat, sunrise, plain robes and harness are editorial; claim c02 supports white legs only.",
+    "Flight c01/c08 shown physically in sky; no wings or magic trails.",
+    "Normal horse size, low close camera creates grandeur."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-0222770d-e620-492a-a52c-a3d6f63b7041.png",
+  "generated_at": "2026-10-14T03:45:48.606917+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/wd-q11577838.png",
+  "native_sha256": "48632977b90e6712f536ddbabdee0d72a61f0626aa1626630eee5d67d55a53b3",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, seven Sangar checks yes. Sacred wingless horse in unsupported flight c01/c08 above Fuji c07/c08, four white lower legs/hooves c02, one head/two natural eyes/two ears/tail, one fully clothed Shōtoku. Active forward flight reads at 200px, respectful grandeur without evil expression. Cloth/harness ornament is floral/nonliteral, no text or glyph inscription. No invented wings/horns, magic trails, franchise likeness, gore or nudity.",
+    "limitations": [],
+    "native_sha256": "48632977b90e6712f536ddbabdee0d72a61f0626aa1626630eee5d67d55a53b3",
+    "reviewed_at": "2026-10-14T03:45:48.606917+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "48632977b90e6712f536ddbabdee0d72a61f0626aa1626630eee5d67d55a53b3",
+    "notes": "Black horse with white lower legs, wingless, flying with Prince Shōtoku over Mount Fuji [wd-q11577838-c02, c07, c08]. Reverent rather than menacing, as fits a sacred horse."
+  }
+}

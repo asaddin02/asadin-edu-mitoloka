@@ -1,0 +1,102 @@
+{
+  "slug": "petitcrieu",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Petitcrieu, the many-coloured magical fairy dog from Avalon in Tristan and Iseult.\nANATOMY: exactly one adult, long-muzzled beautiful canine head, two canine eyes, one dog body, four legs and one tail; the whole textured coat has impossible angle-dependent flowing colour, deep black and white shift through rich red, petrol blue and violet as real reflective fur optics; avoid a simple two-colour split face or any recognizable ordinary dog breed; a plain collar with one prominent golden bell [petitcrieu-c02, petitcrieu-c03, petitcrieu-c06, petitcrieu-c09]\nMOMENT: Surge straight toward the viewer with a level long muzzle lowered almost to camera and an unwavering intense adult gaze; powerful shoulders drive forward while fur shifts from black-white to red as it turns; the golden bell swings beneath the jaw, no head tilt or puppy expression.\nPOWER: the swinging golden bell's sound gives happiness to those hearing it; show the physical swinging bell and its open rim, no sound waves, no light beams, no magical sparkles [petitcrieu-c03]\nSCALE & CAMERA: extreme low angle; close foreshortened natural dog scale, canine face and bell fill most of the square, foreground paw reaches toward viewer; no giant scale.\nLIGHT & WEATHER: one narrow warm sunset shaft across the jaw, face mainly in dramatic shadow, strong rim light with deep shadow and airborne ordinary dust as editorial atmosphere.\nSURFACE: silky but individually textured multicoloured fur, worn leather collar, polished plain gold bell without decoration.\nSETTING: shadowed Welsh residence interior referring to its ownership by Duke Gilan of Wales, only a dark plain doorway behind it [petitcrieu-c02]\nMOOD: awe-inspiring; imposing magical beauty and intense life, never cute, calm or decorative; benevolent rather than evil.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no horns, wings, elf ears, symbols, glyphs or extra bells; no cartoon puppy, no head tilt, no collie, no cute expression; the beautiful fairy dog must seem unearthly and imposing while staying benevolent.",
+  "depicted_variant": "Angle-changing fairy dog bounds forward with the golden collar bell ringing.",
+  "basis_claim_ids": [
+    "petitcrieu-c02",
+    "petitcrieu-c03",
+    "petitcrieu-c06",
+    "petitcrieu-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "petitcrieu-c02",
+      "petitcrieu-c03",
+      "petitcrieu-c06",
+      "petitcrieu-c09"
+    ],
+    "kekuatan": [
+      "petitcrieu-c03",
+      "petitcrieu-c04"
+    ],
+    "tempat": [
+      "petitcrieu-c02"
+    ],
+    "sifat": [
+      "petitcrieu-c03",
+      "petitcrieu-c07",
+      "petitcrieu-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Beautiful many-coloured dog, angle-dependent black/white and red fur, one collar bell of gold.",
+      "claim_ids": [
+        "petitcrieu-c02",
+        "petitcrieu-c03",
+        "petitcrieu-c06",
+        "petitcrieu-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Swinging golden bell conveys sound-caused happiness without invented visible beams.",
+      "claim_ids": [
+        "petitcrieu-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Welsh residence contextualizes Duke Gilan ownership.",
+      "claim_ids": [
+        "petitcrieu-c02"
+      ]
+    }
+  ],
+  "aura": "Angle-changing colours c06/c09 and documented bell c03 convey intense magical beauty.",
+  "artistic_choices": [
+    "Body proportions and breed-neutral canine facial details are editorial; no breed claimed. Residence doorway, sun, dust, warm dark palette and close composition editorial. Natural dog scale. Benevolent beauty preserved, no snarling monster or extra anatomy. Sound/happiness cannot be pictured literally; use physical swinging bell only.",
+    "Attempt2 uses editorial petrol blue/violet facets to show sourced indescribable angle-dependent many colours, not a factual colour list or extra power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/petitcrieu-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/petitcrieu-attempt-01.json",
+      "native_sha256": "cac616ad605f5a1ea0aa8a9d6eba109e27bddeba3753f615af361230cbd1ed82",
+      "reason": "Fails Sangar2/7: reads as cute ordinary border collie with split coat and bell, puppy head tilt; awe and angle-dependent magical beauty not readable."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13877-a11c-73a0-b825-e4a8069185a3/exec-f7ef54d4-cef8-4a36-a8a2-467492261147.png",
+  "generated_at": "2026-10-14T03:39:32.533861+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/petitcrieu.png",
+  "native_sha256": "8c1653f6c3ac51ef2ce0c9728e1bf60a2e977540d02eadce6d0dafc28556a86e",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 viewed. Seven checks pass: large adult level-muzzle dog and single plain golden bell dominate, intense multicolour reflective fur and low advancing posture retain imposing magical beauty at200 without making benevolent animal evil; forward paw/body movement and swinging bell; sound represented physically only c03, angle colours c06/c09; one head/two eyes/four canine limbs compatible with occluded hindbody/one tail; no text/glyphs/franchise; no puppy tilt or calm ornament. Attempt1 archived as ordinary cute collie.",
+    "limitations": [],
+    "native_sha256": "8c1653f6c3ac51ef2ce0c9728e1bf60a2e977540d02eadce6d0dafc28556a86e",
+    "reviewed_at": "2026-10-14T03:39:32.533861+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "8c1653f6c3ac51ef2ce0c9728e1bf60a2e977540d02eadce6d0dafc28556a86e",
+    "notes": "Correction answered: no longer a cute collie. A shaggy dog of shifting black, white, red and violet tones walks toward the viewer in a stone doorway, gold bell at its collar [petitcrieu-c02, c03, c06]. Passes narrowly: the angle-dependent colour is suggested by the iridescent sheen."
+  }
+}

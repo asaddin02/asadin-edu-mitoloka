@@ -1,0 +1,76 @@
+{
+  "slug": "khaan-khereti",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Khaan-Khereti, the noble Tuvan giant queen of birds carrying a hero to the Upper World.\nANATOMY: one giant hawk-shaped bird with one avian head and beak, two eyes, two broad feathered wings, two bird legs and one feather tail; no human face, no fire; one small fully clothed hero sitting securely on its broad back [khaan-khereti-c01, khaan-khereti-c02, khaan-khereti-c04, khaan-khereti-c05]\nMOMENT: lift upward past the viewer with broad wings driving air and the hero gripping its back, avian face focused and noble\nPOWER: physical flight carries the hero toward the Upper World; no flames, phoenix rebirth or magic rays [khaan-khereti-c01, khaan-khereti-c05]\nSCALE & CAMERA: extreme low angle; giant bird fills square, normal human hero on back supplies documented scale\nLIGHT & WEATHER: one warm sun break above clouds, rim light through feathers, sweeping cold cloud\nSURFACE: coarse dark hawk feathers, worn opaque hero cloth, walnut and antique gold palette\nSETTING: ascending air between mortal ground and the Upper World of Tuvan myth, clouds editorial [khaan-khereti-c01, khaan-khereti-c05]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Noble giant hawk queen lifting a hero to the Upper World.",
+  "basis_claim_ids": [
+    "khaan-khereti-c01",
+    "khaan-khereti-c02",
+    "khaan-khereti-c04",
+    "khaan-khereti-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "khaan-khereti-c01",
+      "khaan-khereti-c02",
+      "khaan-khereti-c04"
+    ],
+    "kekuatan": [
+      "khaan-khereti-c01",
+      "khaan-khereti-c05",
+      "khaan-khereti-c09"
+    ],
+    "tempat": [
+      "khaan-khereti-c01",
+      "khaan-khereti-c05"
+    ],
+    "sifat": [
+      "khaan-khereti-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant hawk variant with avian rather than human face; human hero aboard.",
+      "claim_ids": [
+        "khaan-khereti-c01",
+        "khaan-khereti-c02",
+        "khaan-khereti-c04",
+        "khaan-khereti-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physically lifts hero to Upper World.",
+      "claim_ids": [
+        "khaan-khereti-c01",
+        "khaan-khereti-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ascent to Upper World, precise clouds editorial.",
+      "claim_ids": [
+        "khaan-khereti-c01",
+        "khaan-khereti-c05"
+      ]
+    }
+  ],
+  "aura": "C01 giant scale and c05 hero ascent with noble c03 character provide reverent grandeur.",
+  "artistic_choices": [
+    "Select hawk c04, omit fiery variant and Garuda imagery c06.",
+    "Hero clothes, cloudscape, sunset and plumage colour editorial.",
+    "Respectful helper grandeur c03, no evil expression or phoenix flames."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

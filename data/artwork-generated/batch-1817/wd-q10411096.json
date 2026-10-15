@@ -1,0 +1,99 @@
+{
+  "slug": "wd-q10411096",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Xuanyu, Gun transformed into the enormous black river-spirit fish.\nANATOMY: one black whiskered scaled fish, one head, two eyes, a fish body with normal paired fins and one fish tail, no legs, horns, wings or extra heads [wd-q10411096-c04, wd-q10411096-c07, wd-q10411096-c10]\nMOMENT: leap from the Yu abyss toward the viewer, whiskers sweeping water and scales breaking the wave crest\nPOWER: its physical leap sends immense river waves and water spray outward; no beams or magical water-control claim [wd-q10411096-c07, wd-q10411096-c08]\nSCALE & CAMERA: extreme low angle; thousand-chi-long fish dominates square, tiny river boats used as editorial size comparison, low near-water camera\nLIGHT & WEATHER: one warm sunset break, rim light on spray and black scales, dark river mist\nSURFACE: wet black overlapping fish scales, long soft whiskers, heavy river foam\nSETTING: Yu abyss connected to rivers and sea [wd-q10411096-c03, wd-q10411096-c08]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Thousand-chi black whiskered fish leaping from Yu abyss.",
+  "basis_claim_ids": [
+    "wd-q10411096-c04",
+    "wd-q10411096-c07",
+    "wd-q10411096-c10",
+    "wd-q10411096-c08",
+    "wd-q10411096-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10411096-c04",
+      "wd-q10411096-c07",
+      "wd-q10411096-c10"
+    ],
+    "kekuatan": [
+      "wd-q10411096-c03",
+      "wd-q10411096-c07",
+      "wd-q10411096-c08"
+    ],
+    "tempat": [
+      "wd-q10411096-c03",
+      "wd-q10411096-c08"
+    ],
+    "sifat": [
+      "wd-q10411096-c05",
+      "wd-q10411096-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Black fish with whiskers and scales; thousand chi long variant.",
+      "claim_ids": [
+        "wd-q10411096-c04",
+        "wd-q10411096-c07",
+        "wd-q10411096-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical leap from Yu waters startling onlookers, displacing river water.",
+      "claim_ids": [
+        "wd-q10411096-c07",
+        "wd-q10411096-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yu abyss connected to rivers and sea.",
+      "claim_ids": [
+        "wd-q10411096-c03",
+        "wd-q10411096-c08"
+      ]
+    }
+  ],
+  "aura": "C08 startling leap and c10 immense size render river spirit c05 awe-inspiring.",
+  "artistic_choices": [
+    "Choose black fish variant rather than yellow bear c09.",
+    "Sunset, mist, boats and fin details are editorial fish rendering, not new source traits.",
+    "No flood-control power inferred from Gun task; spray derives only from physical leap.",
+    "Omit accompanying jiao dragons to keep subject unambiguous."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-148081e6-4287-46da-9632-348d9d9e8256.png",
+  "generated_at": "2026-10-14T03:43:00.877553+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/wd-q10411096.png",
+  "native_sha256": "d65d819010c1de2df86b19d3aa907c70f3a7424275de38fdbc94d1d684f4cac0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px reviewed, all seven Sangar checks yes. Huge black scaled fish with long whiskers, one head/two eyes, paired fish fins and single fish tail; no legs/horns/wings. c07 blackfish, c10 thousandchi variant scale with tiny boats; c08 startling physical leap. Active spray, no inferred flood magic. No text/glyphs, franchise likeness, gore or nudity.",
+    "limitations": [],
+    "native_sha256": "d65d819010c1de2df86b19d3aa907c70f3a7424275de38fdbc94d1d684f4cac0",
+    "reviewed_at": "2026-10-14T03:43:00.877553+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "d65d819010c1de2df86b19d3aa907c70f3a7424275de38fdbc94d1d684f4cac0",
+    "notes": "Enormous black whiskered fish leaping out of the abyss, boats tossed in its wave [wd-q10411096-c07, c08, c10]."
+  }
+}

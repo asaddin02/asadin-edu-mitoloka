@@ -1,0 +1,92 @@
+{
+  "slug": "wd-q10417993",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Wangyuyu, the tiny silver-white scaleless half-bodied fish of King Wu's leftover-fish legend.\nANATOMY: exactly one small living fish only four or five cun long and no thicker than a chopstick, pure silver-white and scaleless, only two black dots for eyes; the WHOLE slender body, from small head to tail, is one longitudinal HALF of a chopstick-thin white fish, with one clean flat missing-half side; the short ordinary fish face has NO BILL OR PROJECTING SNOUT, and flat plane belongs only to the body flank; no open wound, blood, bones, teeth or monster additions [wd-q10417993-c01, wd-q10417993-c07, wd-q10417993-c10]\nMOMENT: bend sharply in a predatory-looking S curve close to the lens, seen in three-quarter SIDE VIEW so its thin half-fish body and full-length flat flank are unmistakable; two black dot eyes on the small ordinary head look toward the viewer.\nPOWER: no documented power; uncanny feeling through sourced half-body shape and reflection story only, a tiny natural wake from motion [wd-q10417993-c06]\nSCALE & CAMERA: extreme low angle underwater EXTREME MACRO close-up; entire S-curved thin half-fish body fills eighty percent of the square, one normal leaf only at the distant edge proves its tiny real size. Show near FLANK as full-length narrow flat half-body plane, far side rounded. No giant flat mouth, bill or fin. No inflated real size.\nLIGHT & WEATHER: one narrow cold dusk light shaft filtered through dark pond surface, harsh rim light, deep black shadows and disturbed silt.\nSURFACE: smooth pearly white scaleless fish body, matte black dot eyes, submerged dark mud and wet fallen leaf.\nSETTING: pond water near its reflective surface, as in the draining-pond and mirror-image account [wd-q10417993-c05, wd-q10417993-c06]\nMOOD: uncanny and imposing at intimate range, never cute, calm or decorative; menace through strange anatomy, no vicious additions.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No giant fish, sharp teeth, horns, scales, glowing eyes or extra real fish. The half-body plane is smooth and bloodless.",
+  "depicted_variant": "Macro portrait of tiny smooth half-slice Wangyuyu beneath its reflection.",
+  "basis_claim_ids": [
+    "wd-q10417993-c01",
+    "wd-q10417993-c07",
+    "wd-q10417993-c10",
+    "wd-q10417993-c05",
+    "wd-q10417993-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10417993-c01",
+      "wd-q10417993-c07",
+      "wd-q10417993-c08",
+      "wd-q10417993-c10"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "wd-q10417993-c03",
+      "wd-q10417993-c05",
+      "wd-q10417993-c06"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tiny half-bodied slice-shaped pure silver-white scaleless fish, chopstick thickness, two black dot eyes.",
+      "claim_ids": [
+        "wd-q10417993-c01",
+        "wd-q10417993-c07",
+        "wd-q10417993-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pond water with mirrored image mistaken for partner.",
+      "claim_ids": [
+        "wd-q10417993-c05",
+        "wd-q10417993-c06"
+      ]
+    }
+  ],
+  "aura": "Uncanny impact from half-body and two dot eyes (c01,c10) plus reflection story (c06); no magical aura.",
+  "artistic_choices": [
+    "Exact half-slice geometry is editorial interpretation of half body/sliced-fish statements; no exposed tissue or gore.",
+    "Macro crop preserves sourced small size; fallen leaf as natural scale aid is editorial.",
+    "No documented power or aggression: uncanny anatomy and light only.",
+    "Dusk, silt, pond palette and leaf are editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q10417993-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q10417993-attempt-01.json",
+      "native_sha256": "979deb7a1b76990ac8c39edc094cf03704155691b659677c1686f6273bbb65f0",
+      "reason": "Self review: reads as quiet cute slender fish; half-body plane insufficiently explicit at 200px, subject too small and calm. Sangar checks 1/2/7 fail."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q10417993-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q10417993-attempt-02.json",
+      "native_sha256": "00f1f775b5bc545113c4560691babe5a46848c1cdad91dceaf427f988bf4507c",
+      "reason": "Self review: flat half-body interpreted as gigantic projecting bill/spatula while full fish body continues behind. Not faithful half-body anatomy; Sangar5 fails."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q10417993-attempt-03.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q10417993-attempt-03.json",
+      "native_sha256": "eda1c5a367a9a06897873a714f5bebfad247066b9b704ee946961c465a53c197",
+      "reason": "Self review: half-body plane now readable, but rounded dot-eyed tiny fish remains cute/calm at native and 200px; Sangar2/7 fail. Adding teeth/aggression or giant scale would contradict source."
+    }
+  ],
+  "reason": "Tiga percobaan tidak lolos Uji Sangar: pertama terlalu tenang dan setengah tubuh samar; kedua salah menggambar bidang setengah tubuh menjadi paruh besar; ketiga anatomi lebih tepat tetapi ikan kecil bermata dua titik tetap terbaca lucu/tenang pada 200px. Tidak menambah gigi, kekuatan, agresi atau ukuran raksasa yang tidak didukung c01/c07/c10. Semua PNG, prompt persis, hash dan alasan disimpan di rejected/.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "visual_review": null
+}

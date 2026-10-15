@@ -1,0 +1,77 @@
+{
+  "slug": "wd-q11107876",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Zhishoushe, the one-chi-long Chinese serpent with a head at EACH opposite end of one body.\nANATOMY: exactly ONE continuous short snake body about one chi long, black scales with white markings, exactly TWO matched small snake heads each with two eyes; one head terminates the left end and the other terminates the right end; NO tail, NO branching neck, NO legs; the heads have matching patterns but opposite scale overlap: left neck scales have pointed free edges facing DOWN toward body, right neck scales have pointed free edges facing UP toward the right head [wd-q11107876-c01, wd-q11107876-c07]\nMOMENT: Push both terminal heads from a courtyard hole toward the viewer in a single broad U shape, raise both chins and open both small mouths, each head emerging from its own opposite end of the same continuous U body.\nPOWER: no documented power; menace through anatomy, scale and light only. Its death omen is represented by confrontation rather than visible curses [wd-q11107876-c05, wd-q11107876-c08]\nSCALE & CAMERA: extreme low angle at snake-eye height; macro close framing of a natural roughly33cm body, two heads and connecting U occupy most of square, normal courtyard brick joints indicate small size; no inflation.\nLIGHT & WEATHER: one narrow moon sidelight, white rim along black scales, deep walnut shadows, damp night air as editorial weather.\nSURFACE: wet overlapping black scales, chalk-white markings, gritty courtyard brick and damp soil at the hole.\nSETTING: a hole in a house courtyard in Ningguo County, Xuanzhou, with plain unlettered bricks [wd-q11107876-c07]\nMOOD: menacing; dangerous and imposing through uncanny anatomy, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; exactly two TERMINAL heads joined by one U body, no third head, no central junction or forked neck, no tail, no horns or spikes, no invented venom or eye light.\nEDIT INSTRUCTION: Keep every existing feature and composition exactly. Change ONLY the scale arrangement on the RIGHT HEAD and upper RIGHT NECK: form several broad, clearly visible flat scales whose sharp free edges are turned UP toward that head and lift slightly outward, like shingles laid backwards, with the upper edges catching moonlight and a dark seam below each scale. The left-neck scales keep their existing DOWN pointing overlap. The righthead's scales must visibly look installed in the reverse direction; this is the documented reverse-scale feature, not spikes or horns. Do not merely change highlights or colour. Keep exactly two opposite terminal heads/one Ubody, no tail and no extra parts.",
+  "depicted_variant": "Single short black-white U-shaped body with exactly two opposite terminal heads emerges.",
+  "basis_claim_ids": [
+    "wd-q11107876-c01",
+    "wd-q11107876-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11107876-c01",
+      "wd-q11107876-c07"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "wd-q11107876-c04",
+      "wd-q11107876-c07"
+    ],
+    "sifat": [
+      "wd-q11107876-c05",
+      "wd-q11107876-c08",
+      "wd-q11107876-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Onechi black-white serpent with matching head at each opposite terminal end, one reversed-scale head region, no tail.",
+      "claim_ids": [
+        "wd-q11107876-c01",
+        "wd-q11107876-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "House courtyard hole in Ningguo,Xuanzhou.",
+      "claim_ids": [
+        "wd-q11107876-c07"
+      ]
+    }
+  ],
+  "aura": "Two terminal heads c01/c07 and ominous reputation c05/c08 give uncanny menace.",
+  "artistic_choices": [
+    "Macro camera and Upose editorial expose bothterminalheads while preserving small33cm scale. Moonlight,dampness,palette editorial. No documented power or visible curse; death-omen reputation c05/c08 expressed by confrontation. Scale direction variation retained subtly nearonehead."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q11107876-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q11107876-attempt-01.json",
+      "native_sha256": "c6e2af1cd79aeed890becf60f07884a3a4896bb97220ed0bcc679a847a50ec0d",
+      "reason": "Sourcec07 requires one head with reversed scales; both vertical necks appear similarly downward overlapping, reversal not convincingly visible. Correct right-head neckscale shingle direction upward while leftneck remains downward."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q11107876-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q11107876-attempt-02.json",
+      "native_sha256": "516670b1ae5f9216246cbe64e3aea2babf35f25ad52478111abf91430e6a15cd",
+      "reason": "Cropped native inspection confirms both neckscale shingle tips still point down despite edit; c07 reversed scales not reliably fulfilled. Thirdattempt specifically upturned scales on righthead neck."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q11107876-attempt-03.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q11107876-attempt-03.json",
+      "native_sha256": "17c8954713b7916c972cf3e7a6e94852c6741af2a79d8a172610035ffa1bd49d",
+      "reason": "Thirdnative/crop/200 inspection still shows rightscale tips pointing DOWN; edit raised/enlarged scutes into spiky outward edges instead of reversing overlap towardhead. Cannot verify sourced reversed scalesc07, so Sangar5 fails after3calls."
+    }
+  ]
+}

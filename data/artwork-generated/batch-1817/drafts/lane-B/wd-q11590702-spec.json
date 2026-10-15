@@ -1,0 +1,71 @@
+{
+  "slug": "wd-q11590702",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-064.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Jinjahime, the protective prophecy-bearing fish messenger of the Dragon Palace.\nANATOMY: one long fish body with one human face, exactly two horns on that head, two human eyes, one red belly, no human arms or legs; exactly one tail fin divided into three distinct sword-like branches, fully opaque fish scales over body [wd-q11590702-c02, wd-q11590702-c05]\nMOMENT: rise through a curling coastal wave toward the viewer, human face solemn and commanding, long red-bellied body bent so the three-branched tail appears beside its head\nPOWER: no visible documented attack or emitted healing magic; water spray comes only from bodily emergence, protective prophecy shown as solemn presence [wd-q11590702-c03]\nSCALE & CAMERA: extreme low angle; tight framing of long fish body, both horns and three tail branches conspicuous; no invented giant scale\nLIGHT & WEATHER: one low warm moonlit cloud break, rim light on fish and salt spray, dark coast\nSURFACE: wet overlapping fish scales, red ventral scales, human face without nudity\nSETTING: Hizen Japanese coast associated with the epidemic prophecy [wd-q11590702-c01]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Two-horned human-faced long fish with red belly and three-branched tail.",
+  "basis_claim_ids": [
+    "wd-q11590702-c02",
+    "wd-q11590702-c05",
+    "wd-q11590702-c03",
+    "wd-q11590702-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11590702-c02",
+      "wd-q11590702-c05"
+    ],
+    "kekuatan": [
+      "wd-q11590702-c03",
+      "wd-q11590702-c08"
+    ],
+    "tempat": [
+      "wd-q11590702-c01",
+      "wd-q11590702-c08"
+    ],
+    "sifat": [
+      "wd-q11590702-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Long fish with human face, two horns, red belly and three-branched sword-like tail fin.",
+      "claim_ids": [
+        "wd-q11590702-c02",
+        "wd-q11590702-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective messenger presence without invented emitted power.",
+      "claim_ids": [
+        "wd-q11590702-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hizen Japan coastal water; shoreline editorial.",
+      "claim_ids": [
+        "wd-q11590702-c01"
+      ]
+    }
+  ],
+  "aura": "C03 protective Dragon-Palace messenger and c02/c05 strange anatomy inspire awe.",
+  "artistic_choices": [
+    "Respectful protective grandeur, no sinister demonization.",
+    "No size transferred from distinct Himeuo c07.",
+    "Warm moonlight, coast, water spray and curved body composition editorial; no healing beam, prophecy text or symbols.",
+    "Natural human facial detail and dark flowing hair arrangement are editorial rendering choices; hair is not asserted as a sourced identifying attribute."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

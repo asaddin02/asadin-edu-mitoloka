@@ -1,0 +1,93 @@
+{
+  "slug": "laurieddhu",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Laurieddhu, the mischievous small hairy household sprite of Salento.\nANATOMY: exactly one ugly hairy little human-shaped man, about the size of a three-year-old child, one head, two glossy black eyes, two arms and two bare-foot legs; tobacco-coloured opaque clothes and exactly one pointed cloth hat, not elf ears [laurieddhu-c03]\nMOMENT: clamber onto the covered chest of an adult sleeper, pressing the bedding down with both heavy feet and leaning a sly face toward the viewer\nPOWER: its documented surprising weight compresses the sleeping adult's chest bedding physically; no beams or magic lights [laurieddhu-c04]\nSCALE & CAMERA: extreme low angle; extreme close-up from pillow height; adult body and pillow demonstrate small size, no enlarged giant sprite\nLIGHT & WEATHER: one candle source near the bed, warm rim light, deep bedroom shadows\nSURFACE: coarse hairy cheeks and hands, rumpled brown cloth, plain hat and woven bedding\nSETTING: a dark domestic sleeping room in southern Italy [laurieddhu-c01, laurieddhu-c04]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Hairy tobacco-clad child-sized sprite pressing down sleeping chest.",
+  "basis_claim_ids": [
+    "laurieddhu-c03",
+    "laurieddhu-c04",
+    "laurieddhu-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "laurieddhu-c03",
+      "laurieddhu-c12"
+    ],
+    "kekuatan": [
+      "laurieddhu-c04",
+      "laurieddhu-c05",
+      "laurieddhu-c14"
+    ],
+    "tempat": [
+      "laurieddhu-c01",
+      "laurieddhu-c04"
+    ],
+    "sifat": [
+      "laurieddhu-c01",
+      "laurieddhu-c08",
+      "laurieddhu-c16"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "c03 variant: ugly hairy little man the size of a three-year-old, tobacco clothes, barefoot, single pointed hat.",
+      "claim_ids": [
+        "laurieddhu-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Small but strong and heavy, sits on sleeping chest and depresses bedding.",
+      "claim_ids": [
+        "laurieddhu-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Domestic bedroom at night; southern Italian sprite.",
+      "claim_ids": [
+        "laurieddhu-c01",
+        "laurieddhu-c04"
+      ]
+    }
+  ],
+  "aura": "C04 oppressive weight and c03 ugly hairy face produce eerie dominance through close framing, without giant inflation.",
+  "artistic_choices": [
+    "Choose c03 three-year-old/pointed-hat variant, without merging regional c12 forty-centimetre/red-cap variant.",
+    "Plain candle, pillow viewpoint and coarse cloth editorial; no coins to avoid pseudoinscriptions.",
+    "Adult sleeper fully covered and scale comparator only; mischievous chest disturbance without explicit injury."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-e6ea5415-876d-497e-8fb6-a6e486693906.png",
+  "generated_at": "2026-10-14T03:37:11.249448+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/laurieddhu.png",
+  "native_sha256": "c1abe4c0d973ac3ac34f11ea7be57807e1ba4484873ba3ee6b4b3f54ae556a1d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px viewed. All seven Sangar checks yes: hairy ugly little man, brown clothes, single pointed cap, two eyes/arms/legs and bare feet c03; weighted step compresses covered sleeping chest c04. Adult head/pillow demonstrate child-sized body without giant inflation. Sly stare and clamber action read at 200px. No text/glyphs, aura, gore, nudity or recognizable franchise design.",
+    "limitations": [],
+    "native_sha256": "c1abe4c0d973ac3ac34f11ea7be57807e1ba4484873ba3ee6b4b3f54ae556a1d",
+    "reviewed_at": "2026-10-14T03:37:11.249448+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "c1abe4c0d973ac3ac34f11ea7be57807e1ba4484873ba3ee6b4b3f54ae556a1d",
+    "notes": "Hairy, ugly little man in a pointed hat and tobacco-brown clothes, barefoot, pressing down on a sleeper's chest in a candlelit bedroom [laurieddhu-c03, c04]. Small and uncanny, not inflated."
+  }
+}

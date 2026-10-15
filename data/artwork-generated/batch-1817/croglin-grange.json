@@ -1,0 +1,93 @@
+{
+  "slug": "croglin-grange",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Vampire of Croglin Grange, the brown-faced flaming-eyed vampire of the Cumberland window tale.\nANATOMY: one human-shaped undead creature, one brown face, exactly two flaming eyes, two arms and two legs, one long fingernail picking window lead; body fully covered in plain opaque weathered dark coat and trousers, no bat wings or horns [croglin-grange-c05, croglin-grange-c06]\nMOMENT: peel the lead strip from a bedroom window pane with its long nail, lean its brown face through the opening directly toward the viewer\nPOWER: two eyes contain real visible small flames, exactly as the tale describes; no eye beams or energy ribbons [croglin-grange-c06]\nSCALE & CAMERA: extreme low angle; tight close face-and-hands framing at human size, view from inside the bedroom\nLIGHT & WEATHER: one moonlight source outside window, rim light on nail and glass, flaming eyes local accent, night haze\nSURFACE: weathered brown face, dirty long nail, dull lead strips, opaque rough cloth\nSETTING: window of the old single-storey house in Cumberland [croglin-grange-c05, croglin-grange-c10]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Brown-faced flaming-eyed vampire peeling bedroom window lead.",
+  "basis_claim_ids": [
+    "croglin-grange-c05",
+    "croglin-grange-c06",
+    "croglin-grange-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "croglin-grange-c05",
+      "croglin-grange-c06"
+    ],
+    "kekuatan": [
+      "croglin-grange-c06"
+    ],
+    "tempat": [
+      "croglin-grange-c05",
+      "croglin-grange-c07",
+      "croglin-grange-c10"
+    ],
+    "sifat": [
+      "croglin-grange-c05",
+      "croglin-grange-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Brown face, flaming eyes and long fingernail, human vampire with opaque editorial clothes.",
+      "claim_ids": [
+        "croglin-grange-c05",
+        "croglin-grange-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Long nail picks lead from pane; flaming eyes without beams.",
+      "claim_ids": [
+        "croglin-grange-c05",
+        "croglin-grange-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Old one-storey house window in Cumberland.",
+      "claim_ids": [
+        "croglin-grange-c05",
+        "croglin-grange-c10"
+      ]
+    }
+  ],
+  "aura": "C05 nail-driven intrusion and c06 flaming eyes confront viewer without invented anatomy.",
+  "artistic_choices": [
+    "Opaque dark clothes, detailed gauntness, moonlight and viewpoint editorial.",
+    "Human scale preserved; threat derives from window intrusion and source eyes.",
+    "No bite victim or explicit gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-98d4cc82-2a09-41f6-8160-bf1f8b308070.png",
+  "generated_at": "2026-10-14T03:51:09.177003+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/croglin-grange.png",
+  "native_sha256": "692a6a0cfb43b6edfe96d96579731241fee6541060ae4f3fa490d4ea72e177a5",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, all seven Sangar checks yes. Single brown human face with two actual flaming eyes c06, two normal human hands, one long index fingernail actively stripping window lead c05; opaque editorial coat. Tight human-size intrusion avoids ordinary-man reading, nail and eye flames legible at 200px. No extra limbs/horns/wings, text/glyphs/watermark/franchise likeness, magic beams, gore or nudity.",
+    "limitations": [],
+    "native_sha256": "692a6a0cfb43b6edfe96d96579731241fee6541060ae4f3fa490d4ea72e177a5",
+    "reviewed_at": "2026-10-14T03:51:09.177003+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "692a6a0cfb43b6edfe96d96579731241fee6541060ae4f3fa490d4ea72e177a5",
+    "notes": "Brown-faced vampire with burning eyes peering through a leaded window at night, a long fingernail working at the lead [croglin-grange-c05, c06]. Close confrontation, no beams or gore."
+  }
+}

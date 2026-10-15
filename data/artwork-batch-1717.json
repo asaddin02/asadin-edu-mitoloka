@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 42,
+  "complete": 43,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -14374,7 +14374,7 @@
       "slug": "jengu",
       "canonical_name": "Jengu",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-140.review.json",
       "research": {
@@ -15020,9 +15020,66 @@
         "jengu-c03",
         "jengu-c13"
       ],
-      "original_file": "data/artwork-generated/batch-1717/originals/jengu.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1717/originals/jengu.png",
       "native_sha256": "918551647d6c8737379b857b29e0d68c48cfdb5465462d985c7112aa4443755d",
-      "receipt_path": "data/artwork-generated/batch-1717/jengu.json"
+      "receipt_path": "data/artwork-generated/batch-1717/jengu.json",
+      "url": "/assets/art/jengu-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Jengu, the respected Sawa mermaid-like water spirit meeting an offering-bearing ritual free diver; precisely edit the supplied image while keeping the correct Jengu and composition.\nANATOMY: keep the existing beautiful adult woman's one head, two eyes, long dark streaming hair, visible natural gap between two upper front teeth, two human arms and one powerful fish mermaid tail; fully opaque ivory cloth over torso and hips. Replace only the lower-left diver with one adult Sawa ritual specialist with one normal human head, uncovered face and hair, two arms, two legs, wearing plain fully opaque brown woven cloth covering torso, hips and legs; ordinary bare hands hold the same plain offering bowl. No modern dive equipment [jengu-c02, jengu-c03, jengu-c08].\nMOMENT: keep Jengu turning sharply through dark water toward the viewer, reaching toward the offering specialist and speaking her prophetic message; keep tail curl, hand gesture, upper-tooth gap and underwater placement identical. The specialist is naturally free-diving while presenting the bowl [jengu-c05, jengu-c08].\nPOWER: documented prophetic encounter only; no new healing magic, beams or glowing aura [jengu-c02, jengu-c05, jengu-c08].\nSCALE & CAMERA: extreme low underwater angle; preserve original close framing and normal human torso proportions, Jengu dominating the square.\nLIGHT & WEATHER: preserve single warm sunset shaft through water, deep walnut-green shadows, dramatic rim and natural bubbles.\nSURFACE: preserve rich brown skin, opaque wet cloth, real fish scales and long hair; diver's plain coarse opaque brown cloth and uncovered human head replace all scuba material.\nSETTING: rivers and sea of Cameroon in the sacred Jengu context [jengu-c01, jengu-c10].\nMOOD: awe-inspiring respected protective water spirit; solemn and commanding, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: precisely remove ALL scuba apparatus from the specialist: no mask, goggles, straps, regulator, mouthpiece, breathing hoses, tank, diving hood, snorkel, wetsuit, neoprene, fins, modern trim or harness. Preserve the correct Jengu face, gap teeth, long hair, two arms, opaque wrap, fish tail, bowl and composition. No text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+      "depicted_variant": "Mermaid-like gap-toothed Jengu speaks to offering-bearing Sawa ritual free diver in plain opaque cloth; no scuba apparatus.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Preserve beautiful mermaid-like Jengu, long hair and clear gap between upper front teeth, two arms and single fish tail; opaque editorial torso wrap.",
+          "claim_ids": [
+            "jengu-c02",
+            "jengu-c03"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Ritual specialist is free diving with offering, plain fully opaque editorial cloth; no modern scuba mask/hoses/tank/regulator/wetsuit or other equipment.",
+          "claim_ids": [
+            "jengu-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Jengu meets offering bearer with prophetic message; no invented emitted healing or prophecy magic.",
+          "claim_ids": [
+            "jengu-c02",
+            "jengu-c05",
+            "jengu-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Sacred Sawa river/sea waters of Cameroon.",
+          "claim_ids": [
+            "jengu-c01",
+            "jengu-c10"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "jengu-c02",
+        "jengu-c03",
+        "jengu-c08",
+        "jengu-c05",
+        "jengu-c01",
+        "jengu-c10"
+      ],
+      "aura": "Long hair and gap teeth c03, mermaid form c02 and active sacred prophetic encounter c05/c08 give protective grandeur.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px personally inspected, all seven Sangar checks yes. Correct Jengu composition preserved: one adult female head/two eyes, visible front-tooth gap, long hair, two arms, one strong fish tail, opaque torso wrap c02/c03. Ritual offering bearer c05/c08 now has uncovered natural head and plain opaque woven brown cloth; ALL modern scuba absent: no mask/goggles/straps/hoses/regulator/tank/wetsuit/hood/fins/snorkel/harness. Sacred active prophecy encounter remains commanding at 200px; no magical beams, text/glyphs, borrowed design, gore or nudity. Old tool-native and rejected PNG hashes verified intact, final atomically copied independently.",
+        "limitations": [],
+        "native_sha256": "92caafad911f195ccda009732dbf26b1dffd734b8e9eb79364e1154ff7ecbd90",
+        "reviewed_at": "2026-10-14T04:04:20.156348+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fef3a26c3f0194a284bd1b9822ab05624d1fcaaaa68158c3caed75aeace37914"
     },
     {
       "index": 33,

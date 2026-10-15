@@ -1,6 +1,6 @@
 # Review batch-134
 
-Diperiksa 2026-10-13T19:45:41.881Z. Berkas: batch-134.md, batch-134-fix-1.md, batch-134-fix-2.md, batch-134-fix-3.md, batch-134-fix-4.md, batch-134-fix-5.md.
+Diperiksa 2026-10-15T08:33:20.303Z. Berkas: batch-134.md, batch-134-fix-1.md, batch-134-fix-2.md, batch-134-fix-3.md, batch-134-fix-4.md, batch-134-fix-5.md, batch-134-fix-6.md.
 
 ## gatto-mammone — lulus-otomatis
 
@@ -535,9 +535,6 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 
 Klaim 9 (exact 9), sumber 2, gambar 0.
 
-**manual**
-- `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | loberno-c01 | exact | gl.wikipedia.org | The loberno is a mythological being of Galician culture, the offspring of a wolf and a vixen. | O loberno é un ser mitolóxico da cultura galega, froito da unión entre un lobo e unha raposa. |
@@ -788,21 +785,21 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 
 ## maski-mon-gwe-zo-os — lulus-otomatis
 
-Klaim 8 (exact 2, unreachable 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
-**manual**
-- `claims` 6 kutipan tidak bisa dicek otomatis: www.native-languages.org (tidak bisa dibuka (fetch failed)).
+**warn**
+- `long_description[1].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("the sound of her crying will be lost in the swamp and…"). Tulis ulang dengan kata-kata sendiri.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | maski-mon-gwe-zo-os-c01 | exact | fr.wikipedia.org | In Abenaki mythology the Maski-mon-gwe-zo-os is a frog-shaped creature that seduces men and children and kills them. | Maski-mon-gwe-zo-os : une créature en forme de grenouille qui séduit les hommes et les enfants et les tue. |
 | maski-mon-gwe-zo-os-c02 | exact | fr.wikipedia.org | It appears either as a partridge or as a woman dressed in moss with a belt of Thuja occidentalis bark. | Apparaît soit dans la forme d'une perdrix, soit dans la forme d'une femme habillée en mousse avec une ceinture en écorce de Thuja occidentalis. |
-| maski-mon-gwe-zo-os-c03 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | Maski-mon-gwe-zo-os is listed as one of the Native-language names of the Swamp Woman, alongside Pskegdemus, Mskagwdemos and others. | Names in Native languages: Pskegdemus, P-Skig-Demo-Os, Mskagwdemos, Meskagkwedemos, M-ska-gwe-demoos, Maski-mon-gwe-zo-os |
-| maski-mon-gwe-zo-os-c04 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | In Wabanaki folklore, the Swamp Woman is a female ghost who lives in the swamps and makes mournful cries. | In Wabanaki folklore, Swamp Woman is a female ghost that lives in the swamps and makes mournful cries. |
-| maski-mon-gwe-zo-os-c05 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | Anyone who follows the sound of her crying will be lost in the swamp and killed. | Anyone who tries to follow the sound of her crying will be lost in the swamp and killed. |
-| maski-mon-gwe-zo-os-c06 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | She was mainly a bogey figure used to scare children away from straying into the swamp. | she was primarily a bogeyman to scare children away from straying into the swamp. |
-| maski-mon-gwe-zo-os-c07 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | In some tellings she is a malevolent creature who deliberately lures children to their deaths out of spite or to eat them. | By some tellings, Swamp Woman was more of a malevolent creature, intentionally luring children to their deaths out of spite or so that she could eat them. |
-| maski-mon-gwe-zo-os-c08 | unreachable (tidak bisa dibuka (fetch failed)) | www.native-languages.org | In other tellings she is the ghost of a childless woman who calls children out of loneliness, but they die when her ghostly hands touch them. | the ghost of a childless woman who calls children to her out of genuine loneliness, only to have them die when her ghostly hands touch them. |
+| maski-mon-gwe-zo-os-c03 | exact | www.native-languages.org | Maski-mon-gwe-zo-os is listed as one of the Native-language names of the Swamp Woman, alongside Pskegdemus, Mskagwdemos and others. | Names in Native languages: Pskegdemus, P-Skig-Demo-Os, Mskagwdemos, Meskagkwedemos, M-ska-gwe-demoos, Maski-mon-gwe-zo-os |
+| maski-mon-gwe-zo-os-c04 | exact | www.native-languages.org | In Wabanaki folklore, the Swamp Woman is a female ghost who lives in the swamps and makes mournful cries. | In Wabanaki folklore, Swamp Woman is a female ghost that lives in the swamps and makes mournful cries. |
+| maski-mon-gwe-zo-os-c05 | exact | www.native-languages.org | Anyone who follows the sound of her crying will be lost in the swamp and killed. | Anyone who tries to follow the sound of her crying will be lost in the swamp and killed. |
+| maski-mon-gwe-zo-os-c06 | exact | www.native-languages.org | She was mainly a bogey figure used to scare children away from straying into the swamp. | she was primarily a bogeyman to scare children away from straying into the swamp. |
+| maski-mon-gwe-zo-os-c07 | exact | www.native-languages.org | In some tellings she is a malevolent creature who deliberately lures children to their deaths out of spite or to eat them. | By some tellings, Swamp Woman was more of a malevolent creature, intentionally luring children to their deaths out of spite or so that she could eat them. |
+| maski-mon-gwe-zo-os-c08 | exact | www.native-languages.org | In other tellings she is the ghost of a childless woman who calls children out of loneliness, but they die when her ghostly hands touch them. | the ghost of a childless woman who calls children to her out of genuine loneliness, only to have them die when her ghostly hands touch them. |
 
 
 ## medo — lulus-otomatis

@@ -1,0 +1,86 @@
+{
+  "slug": "syrbotae",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Syrbotae, a medieval bestiary African race of giant men said to stand twelve feet tall.\nANATOMY: one adult giant man with one human head, two eyes, two arms and two legs, exactly twelve feet tall, powerful human build; fully opaque unmarked woven robe covering torso and legs, plain cloth shoulder wrap; no horns, tattoos or nonhuman anatomy [syrbotae-c01, syrbotae-c03, syrbotae-c05, syrbotae-c06]\nMOMENT: Stride down toward the viewer, one great hand reaches forcefully through dusty foreground and the other draws the cloak aside; stern confrontational gaze, feet lifting dust.\nPOWER: no documented power; menace through anatomy, scale and light only; great strength is conveyed by the documented powerful giant body rather than magic [syrbotae-c06]\nSCALE & CAMERA: extreme low angle; the twelve-foot giant dominates from close foreground hand to head; one distant adult human at half his height gives literal size comparison, no mountain-sized inflation.\nLIGHT & WEATHER: one low setting sun, antique gold rim light, deep walnut shadows, ordinary wind-blown dust as editorial weather.\nSURFACE: coarse woven cloth, weathered skin, bare dusty feet, rough dry earth.\nSETTING: African country near the Aethiopian kingdom of Meroe, an unbuilt rocky plain as editorial landscape treatment [syrbotae-c04, syrbotae-c05]\nMOOD: awe-inspiring; dangerous and imposing, never cute, calm or decorative; respectful human dignity.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no stereotyped tribal adornment, no tattoos, weapons or symbols.",
+  "depicted_variant": "One twelve-foot Syrbotae giant strides forward.",
+  "basis_claim_ids": [
+    "syrbotae-c01",
+    "syrbotae-c03",
+    "syrbotae-c05",
+    "syrbotae-c06",
+    "syrbotae-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "syrbotae-c01",
+      "syrbotae-c03",
+      "syrbotae-c05"
+    ],
+    "kekuatan": [
+      "syrbotae-c06"
+    ],
+    "tempat": [
+      "syrbotae-c04",
+      "syrbotae-c05"
+    ],
+    "sifat": [
+      "syrbotae-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Twelve-foot-tall human giant man, powerful build.",
+      "claim_ids": [
+        "syrbotae-c01",
+        "syrbotae-c03",
+        "syrbotae-c05",
+        "syrbotae-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "African Meroe-context country.",
+      "claim_ids": [
+        "syrbotae-c04",
+        "syrbotae-c05"
+      ]
+    }
+  ],
+  "aura": "Documented twelve-foot stature c03/c05 and powerful folk c06 convey imposing presence.",
+  "artistic_choices": [
+    "Opaque woven clothing, bare feet, plain landscape, dust, sunset and staging editorial, not attested iconography. One ordinary human compares literal twelve-foot scale. No supernatural effect because no documented power. Human appearance details are editorial reconstruction; no ethnic caricature."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13877-a11c-73a0-b825-e4a8069185a3/exec-54528b50-235e-4de9-ad3c-bf35d3b1e4ad.png",
+  "generated_at": "2026-10-14T03:41:23.870721+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/syrbotae.png",
+  "native_sha256": "67cdf639f581ebfe6abed93aa0b29e95952034efb0d73a9a3d3c00ef822d9b8a",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 viewed. All seven checks pass: human giant dominates square, clear step/advancing hand and small distant adult convey sourced12foot stature at thumbnail, powerful but dignified face; no magic effects, ordinary footfall dust editorial; one human head/two eyes/two arms/two legs consistent, opaque robes; no text/franchise/symbols; not an ordinary passerby at human scale.",
+    "limitations": [],
+    "native_sha256": "67cdf639f581ebfe6abed93aa0b29e95952034efb0d73a9a3d3c00ef822d9b8a",
+    "reviewed_at": "2026-10-14T03:41:23.870721+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "67cdf639f581ebfe6abed93aa0b29e95952034efb0d73a9a3d3c00ef822d9b8a",
+    "notes": "Twelve-foot giant striding barefoot toward the camera with an ordinary man nearby for scale [syrbotae-c03, c05]. Passes narrowly: the sourced height is modest and he is an ordinary man otherwise, but the comparator makes the giant size explicit."
+  }
+}

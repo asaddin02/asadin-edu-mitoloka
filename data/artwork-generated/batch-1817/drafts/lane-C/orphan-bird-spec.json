@@ -1,0 +1,78 @@
+{
+  "slug": "orphan-bird",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Orphan Bird, the medieval bestiary bird that lays its eggs in the Indian sea called la mer darenoise.\nANATOMY: one crested head, two eyes, one thick clearly hooked eagle beak with a short sharply curved tip, a peacock neck and chest, a crane body, two wings distinctly red white and black, two broad black swan paddle feet, each with three forward toes connected along their full lengths by continuous broad black web membranes; natural avian proportions; no extra beaks or limbs [orphan-bird-c02, orphan-bird-c06]\nMOMENT: Rise forcefully from the sea directly toward the viewer, lift both broad wings over a single floating egg and drive two webbed feet through the water.\nPOWER: its good eggs float in the sea and the chicks rise beneath the mother's wings; show one buoyant unbroken egg and physically splashing water, without magical rays [orphan-bird-c03, orphan-bird-c07]\nSCALE & CAMERA: extreme low angle at water level; close framing of the bird at natural crane scale, wings occupy nearly the whole frame; no giant scale.\nLIGHT & WEATHER: one sunset source cutting under heavy cloud, rim light across red wings, sea spray and wind as editorial atmosphere.\nSURFACE: wet layered feathers, coarse scaled webbed feet, ivory eagle beak, rippled water.\nSETTING: the sea la mer darenoise in India; dark open water fills the foreground beneath the dominant bird [orphan-bird-c01]\nMOOD: awe-inspiring; dangerous and imposing, never cute, calm or decorative; protective rather than evil.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no humanoid face, no crown, no symbols; BOTH feet must show unmistakable continuous webbing, never separated raptor talons.\nEDIT INSTRUCTION: Correct only both feet into unmistakable broad black webbed swan paddles with visible triangular membranes connecting all three forward toes, and slightly sharpen the eagle beak hook. Preserve the existing crest, peacock neck/chest, crane body, exactly two red-black-white wings, floating egg, square composition, natural scale, protective action, warm light and all other details. No new anatomy.",
+  "depicted_variant": "Crested hybrid bird rises above a buoyant egg.",
+  "basis_claim_ids": [
+    "orphan-bird-c02",
+    "orphan-bird-c06",
+    "orphan-bird-c03",
+    "orphan-bird-c07",
+    "orphan-bird-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "orphan-bird-c02",
+      "orphan-bird-c06"
+    ],
+    "kekuatan": [
+      "orphan-bird-c03",
+      "orphan-bird-c07"
+    ],
+    "tempat": [
+      "orphan-bird-c01"
+    ],
+    "sifat": [
+      "orphan-bird-c08",
+      "orphan-bird-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Crested eagle-beaked peacock neck/chest, crane body, two red white black wings, two webbed swan feet.",
+      "claim_ids": [
+        "orphan-bird-c02",
+        "orphan-bird-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Buoyant egg in sea beneath rising mother wings; no energy effects.",
+      "claim_ids": [
+        "orphan-bird-c03",
+        "orphan-bird-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "La mer darenoise sea in India.",
+      "claim_ids": [
+        "orphan-bird-c01"
+      ]
+    }
+  ],
+  "aura": "Dominant hybrid anatomy c02/c06 and egg protection c03/c07 create awe.",
+  "artistic_choices": [
+    "Sunset, waves, spray and wing action are editorial; egg flotation is sourced. Natural crane scale, close water-level framing. Protective respectful bestiary allegory; no monstrous changes.",
+    "Attempt2 targeted edit resolves root swan-foot web membrane rejection; all other details preserved."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/orphan-bird-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/orphan-bird-attempt-01.json",
+      "native_sha256": "72e96807b1252a1964bd757dc17a743bf6cc68f74586ea1cb32e28972723c78b",
+      "reason": "Root native review rejects c02/c06 swan feet: foreground foot appears separated slender talons without clear connecting web membrane; require broad swan webbed paddles on BOTH feet. Eagle beak hook should be clearer."
+    }
+  ]
+}

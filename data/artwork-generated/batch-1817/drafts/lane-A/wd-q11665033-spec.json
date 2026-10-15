@@ -1,0 +1,77 @@
+{
+  "slug": "wd-q11665033",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-064.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Taiba in the Giba princess variant, a small spectral scarlet-clad woman riding a little iridescent pony through airborne dust in Japanese horse-harming folklore.\nANATOMY: exactly one small woman with one head, two eyes, two arms and two legs in fully opaque plain scarlet robes, riding exactly one little pony with one head, two eyes and four legs; pony's hair has subtle natural iridescent sheen, no wings, horns or invented anatomy [wd-q11665033-c04, wd-q11665033-c07]\nMOMENT: rush diagonally downward toward the viewer astride the airborne pony, robe sleeves and mane whipped backward, woman leans forward with fierce focused expression, pony forelegs striking toward camera.\nPOWER: documented aerial approach accompanied by a cloud of dust; dust swirls physically around airborne rider, no laser, generic aura, lightning or flame [wd-q11665033-c04, wd-q11665033-c07]\nSCALE & CAMERA: extreme low angle macro close framing of the SMALL rider and LITTLE pony; a normal-size horse muzzle occupies one distant side edge and is larger than the tiny rider, proving no invented giant size.\nLIGHT & WEATHER: one low dusk sun, rim light, dense ordinary airborne dust cloud.\nSURFACE: coarse scarlet cloth, pony hair with restrained bronze-blue iridescent reflections, gritty dust.\nSETTING: dusty horse path in Honshu or Shikoku tradition [wd-q11665033-c01, wd-q11665033-c07]\nMOOD: awe-inspiring and ominous, imposing spectral aerial approach, respectful Japanese folklore, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No giant woman or giant pony, wings, horns, tattoos, glyphs, flames or eye beams. No ordinary full-size horse rider.",
+  "depicted_variant": "Small scarlet spectral princess on airborne iridescent pony amid dust.",
+  "basis_claim_ids": [
+    "wd-q11665033-c04",
+    "wd-q11665033-c07",
+    "wd-q11665033-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11665033-c04",
+      "wd-q11665033-c07",
+      "wd-q11665033-c09"
+    ],
+    "kekuatan": [
+      "wd-q11665033-c01",
+      "wd-q11665033-c02",
+      "wd-q11665033-c03",
+      "wd-q11665033-c07"
+    ],
+    "tempat": [
+      "wd-q11665033-c01",
+      "wd-q11665033-c07"
+    ],
+    "sifat": [
+      "wd-q11665033-c01",
+      "wd-q11665033-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small scarlet-clad spectral woman riding little iridescent pony.",
+      "claim_ids": [
+        "wd-q11665033-c04",
+        "wd-q11665033-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Airborne rider accompanied by cloud of dust.",
+      "claim_ids": [
+        "wd-q11665033-c04",
+        "wd-q11665033-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Japanese horse path in Honshu/Shikoku tradition.",
+      "claim_ids": [
+        "wd-q11665033-c01",
+        "wd-q11665033-c07"
+      ]
+    }
+  ],
+  "aura": "Awe from small airborne scarlet princess on iridescent pony and real dust cloud (c04,c07).",
+  "artistic_choices": [
+    "Choose princess-and-pony variant c04/c07, not hornet mount c09 or invisible nose-entry variant c02.",
+    "Plain scarlet robe construction, twilight and path details are editorial.",
+    "Macro perspective preserves small actual size; normal horse muzzle contextualizes horse-harming tradition and provides scale.",
+    "Iridescence is physical hair sheen, no magical aura.",
+    "Plain pony tack, rider footwear and roadside fencing are editorial physical details; no sourced iconography is claimed for them."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

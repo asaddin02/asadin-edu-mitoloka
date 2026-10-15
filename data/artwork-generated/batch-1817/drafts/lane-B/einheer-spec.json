@@ -1,0 +1,77 @@
+{
+  "slug": "einheer",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Einheer, the Swabian warrior giant of Zwickau.\nANATOMY: one human-form giant, one head, two eyes, two arms and two legs; fully clothed in plain opaque coarse wool layers and leather boots, holds one long heavy scythe, no horns [einheer-c01, einheer-c03, einheer-c05]\nMOMENT: swing his scythe down toward the viewer during battle, blade striking earth and throwing soil as tiny distant warriors flee\nPOWER: documented army-like giant strength conveyed by scythe stroke and retreating warriors, without wounded bodies or outward magic [einheer-c05, einheer-c06]\nSCALE & CAMERA: extreme low angle; towering giant fills frame, ordinary distant warrior silhouettes below establish giant size\nLIGHT & WEATHER: one amber sunset source, rim light on scythe and wool, battle dust\nSURFACE: coarse wool, heavy worn leather, rough scythe iron and churned earth\nSETTING: legendary battle ground near Zwickau, exact terrain editorial [einheer-c01, einheer-c07]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Huge fully clothed warrior swinging a scythe before fleeing warriors.",
+  "basis_claim_ids": [
+    "einheer-c01",
+    "einheer-c03",
+    "einheer-c05",
+    "einheer-c06",
+    "einheer-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "einheer-c01",
+      "einheer-c03"
+    ],
+    "kekuatan": [
+      "einheer-c04",
+      "einheer-c05",
+      "einheer-c06",
+      "einheer-c08"
+    ],
+    "tempat": [
+      "einheer-c01",
+      "einheer-c07"
+    ],
+    "sifat": [
+      "einheer-c05",
+      "einheer-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Swabian human-form warrior giant with scythe.",
+      "claim_ids": [
+        "einheer-c01",
+        "einheer-c03",
+        "einheer-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Army-like giant strength in physical scythe swing, warriors flee.",
+      "claim_ids": [
+        "einheer-c05",
+        "einheer-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Near Zwickau; exact battle terrain editorial.",
+      "claim_ids": [
+        "einheer-c01",
+        "einheer-c07"
+      ]
+    }
+  ],
+  "aura": "C05 scythe combat and c06 army-like stature make physical danger explicit.",
+  "artistic_choices": [
+    "Plain wool clothes/boots, dirt battlefield and sunset editorial; no inscriptions.",
+    "Giant scale documented c01/c03; tiny warriors are editorial scale reference from c06 flight.",
+    "Scythe hits earth rather than bodies to avoid explicit gore; no magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

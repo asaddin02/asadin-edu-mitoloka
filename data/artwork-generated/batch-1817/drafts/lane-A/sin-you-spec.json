@@ -1,0 +1,80 @@
+{
+  "slug": "sin-you",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-062.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Sin-you, the feral imposing single-horned beast of divine judgment that detects guilt and protects the innocent.\nANATOMY: one large quadruped with a feline body and feline paws, exactly four legs, one head, two piercing non-glowing eyes, dense shaggy mane, exactly ONE unbranched horn rising from the centre of its forehead; no other horns, antlers, wings or scales [sin-you-c02, sin-you-c03, sin-you-c04, sin-you-c07]\nMOMENT: leap forward toward the viewer from a court threshold, one forepaw outstretched and central horn lowered in a commanding confrontation; mane shaken by the rush, no victim contact.\nPOWER: detects guilt with a glance and leaps to strike false witnesses with its horn; show physical leap and focused eyes only, no supernatural beams or visible truth spell [sin-you-c05, sin-you-c06]\nSCALE & CAMERA: extreme low angle; tightly frame its large head, central horn and four readable paws, no cosmic or invented giant scale.\nLIGHT & WEATHER: one amber oil lamp from the side, rim light, ordinary court dust kicked by paws.\nSURFACE: coarse tangled dark bronze fur, matte ivory central horn, scratched stone threshold.\nSETTING: a ruler's or judge's court, shadowed timber hall with plain stone floor [sin-you-c06]\nMOOD: awe-inspiring; fierce imposing guardian of justice, never malicious toward innocents, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Exactly ONE smooth unbranched central horn. No antlers, side horns, glyphs, tattoos or magical eye flames.",
+  "depicted_variant": "Feline-pawed single-horned Sin-you leaping in court.",
+  "basis_claim_ids": [
+    "sin-you-c02",
+    "sin-you-c03",
+    "sin-you-c04",
+    "sin-you-c07",
+    "sin-you-c05",
+    "sin-you-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "sin-you-c02",
+      "sin-you-c03",
+      "sin-you-c04",
+      "sin-you-c07"
+    ],
+    "kekuatan": [
+      "sin-you-c05",
+      "sin-you-c06",
+      "sin-you-c08"
+    ],
+    "tempat": [
+      "sin-you-c06"
+    ],
+    "sifat": [
+      "sin-you-c05",
+      "sin-you-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Feline quadruped with shaggy mane and single unbranched central forehead horn, piercing eyes.",
+      "claim_ids": [
+        "sin-you-c02",
+        "sin-you-c03",
+        "sin-you-c04",
+        "sin-you-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical confrontational leap toward false witness, no magical guilt effect.",
+      "claim_ids": [
+        "sin-you-c05",
+        "sin-you-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ruler/judge court.",
+      "claim_ids": [
+        "sin-you-c06"
+      ]
+    }
+  ],
+  "aura": "Awe through single-horned feral judge-beast physically leaping (c02,c04,c06), not magical aura.",
+  "artistic_choices": [
+    "Select explicitly sourced feline body/paws variant from c03 quote.",
+    "Dark bronze fur, ivory horn colour, court architecture and lamp are editorial.",
+    "No visual guilt-reading spell or literal burning eyes: burning is figurative in c07.",
+    "Protective justice disposition retained; no victim injury.",
+    "Small court officials contextualize court beside judge c06; their appearance is editorial. Large impression from sourced large quadruped c03 plus foreground perspective, not cosmic scale."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

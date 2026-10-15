@@ -1,0 +1,75 @@
+{
+  "slug": "wd-q22123521",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-065.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Daikogyo in Li Bai's enormous-whale version, the legendary sea creature blocking the voyage to Penglai and raising waves and thunderclouds.\nANATOMY: exactly one enormous recognizable whale with one head, two eyes, two pectoral flippers and a broad horizontal tail fluke; vast open whale mouth with ordinary baleen rather than monster teeth, no horns, dragon head or added limbs [wd-q22123521-c01, wd-q22123521-c03]\nMOMENT: breach toward the viewer above a small ancient expedition boat, vast whale head and one heavy flipper drive a wall of seawater upward; boat pitches in the wake below, no injured people.\nPOWER: documented enormous whale generates waves and thunderclouds; show a physical heaving wall of seawater and dense dark thunderclouds overhead, WITHOUT lightning [wd-q22123521-c03]\nSCALE & CAMERA: extreme low angle from waterline; small expedition boat dwarfed by immense whale head, sourced enormous scale [wd-q22123521-c03, wd-q22123521-c08].\nLIGHT & WEATHER: one break of amber sunset behind the thunderclouds, rim light, storm rain and enormous salt spray.\nSURFACE: wet charcoal whale hide with ordinary scarring, coarse baleen, foaming grey seawater, worn boat timber.\nSETTING: sea voyage seeking Penglai, the water blocked by the giant fish [wd-q22123521-c01, wd-q22123521-c06]\nMOOD: awe-inspiring; overwhelming and imposing, never cute, calm or decorative; respectful legendary sea manifestation.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. NO LIGHTNING. No horns, dragon mutations, giant fangs, tattoos, glyphs, magic beams or human sea-god figure.",
+  "depicted_variant": "Li Bai enormous-whale Daikogyo breaching above a Penglai expedition boat.",
+  "basis_claim_ids": [
+    "wd-q22123521-c03",
+    "wd-q22123521-c01",
+    "wd-q22123521-c06",
+    "wd-q22123521-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q22123521-c01",
+      "wd-q22123521-c03",
+      "wd-q22123521-c05",
+      "wd-q22123521-c07",
+      "wd-q22123521-c08"
+    ],
+    "kekuatan": [
+      "wd-q22123521-c03"
+    ],
+    "tempat": [
+      "wd-q22123521-c01",
+      "wd-q22123521-c06",
+      "wd-q22123521-c08"
+    ],
+    "sifat": [
+      "wd-q22123521-c07"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single enormous whale of Li Bai version, ordinary whale anatomy.",
+      "claim_ids": [
+        "wd-q22123521-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Generated waves and thunderclouds only, no lightning.",
+      "claim_ids": [
+        "wd-q22123521-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea voyage seeking Penglai, small expedition vessel.",
+      "claim_ids": [
+        "wd-q22123521-c01",
+        "wd-q22123521-c06",
+        "wd-q22123521-c08"
+      ]
+    }
+  ],
+  "aura": "Awe from enormous whale and generated waves/thunderclouds (c03), without lightning or generic aura.",
+  "artistic_choices": [
+    "Select whale variant c03, not human sea-god dream c07 or dragon-transformation c05.",
+    "Baleen species details, hide colour, scars, ship construction and sunset are editorial.",
+    "Enormous scale, waves and thunderclouds sourced; rain editorial, lightning excluded because not stated.",
+    "No crossbow injury or dead creature depicted."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

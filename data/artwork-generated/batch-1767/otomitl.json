@@ -1,17 +1,17 @@
 {
   "slug": "otomitl",
   "worker": "codex",
-  "worker_agent": "lane1767-C",
+  "worker_agent": "correction1817_b",
   "subagent_model": "gpt-6.1-sol",
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-146.review.json",
   "batch": 1767,
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
-  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Otomitl, one of the six giant sons in Aztec mythology.\nANATOMY: One male GIANT with ONE head two eyes, two arms and two legs; fully opaque plain earth-brown woven tunic and mantle, no invented ritual glyphs, no feathers or weapons. [c01,c03]\nMOMENT: Climb a steep mountain directly toward viewer, one great hand braced on rock, one knee lifting and mantle pulling in the wind. [c02]\nPOWER: Documented mountain climb only, weight shifts loose stone and dust; no elemental power, no invented mountain creation [c02]\nSCALE & CAMERA: Extreme low angle from rock ledge, giant body fills frame; tiny unmarked distant settlement rooftops convey documented giant size c01 and settlement relation c02\nLIGHT & WEATHER: Single late golden sun slit under dark cloud, walnut shadows, dust at rock contact\nSURFACE: Plain heavy woven cloth, weathered rock, natural human face\nSETTING: Mountains near Mexico with very small distant settlement [c02,c07]\nMOOD: Respectful awe at primordial giant founder, commanding action, not evil\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
-  "depicted_variant": "Giant Otomitl climbing mountain toward viewer",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Otomitl, the primordial giant son of Iztac-Mixcoatl and Tlaltecuhtli climbing the mountains near Mexico.\nANATOMY: exactly one fully human-form male GIANT with one head, two eyes, two arms and two legs; completely opaque plain earth-brown woven tunic, mantle, trousers and simple closed leather foot coverings; no horns, feathers, crown, ritual glyphs, weapons or extra anatomy [otomitl-c01, otomitl-c03].\nMOMENT: climb directly upward toward the viewer, plant one vast foot onto the mountain crest beside a whole stand of mature pine trees, brace one immense hand over the rocky hill crest, raise the opposite knee and pull the plain mantle in the wind [otomitl-c02].\nPOWER: giant size and physical mountain climb only; loose rock and dust shift at hand and foot contact, no creation of mountains, elemental attacks or magical glow [otomitl-c01, otomitl-c02].\nSCALE & CAMERA: extreme low angle from the SAME rock platform as his planted foot; show giant from feet to head dominating square. Place several COMPLETE mature pine trees IMMEDIATELY BESIDE and touching his planted foot on the SAME ground plane, their tallest treetops reaching only his ankle. The nearby entire village with tiny people must cluster directly at that foot, not far in the valley. His foot must be visibly wider than the whole nearby pine grove. Unmistakable colossal scale supported by giant identity, never an ordinary man with merely distant scenery.\nLIGHT & WEATHER: one late golden sun slit under dark cloud, walnut shadows, sharp rim light, contact dust.\nSURFACE: unmarked coarse heavy woven cloth, weathered rock, mature pine bark and branches, natural human face, worn plain leather.\nSETTING: mountain crest and settlements around Mexico, corresponding to his mountain climb and settlement founding; the adjacent mature pines and simple village roof designs are editorial scale references, not claimed botanical or architectural details [otomitl-c02, otomitl-c07].\nMOOD: awe-inspiring primordial giant founder, respectful and commanding; never evil, cute, calm or decorative.\nHARD CONSTRAINTS: adjacent FULL pine trees and nearby village at his planted foot must prove giant scale at 200 pixels; no tiny distant background offered as the only scale evidence. No text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Colossal fully clothed Otomitl climbs a mountain, dwarfing complete pines immediately around his planted foot and an adjacent village with people at his feet.",
   "basis_claim_ids": [
     "otomitl-c01",
     "otomitl-c03",
@@ -19,11 +19,11 @@
     "otomitl-c07"
   ],
   "claim_classification": {
-    "rupa": [
+    "wujud": [
       "otomitl-c01",
       "otomitl-c03"
     ],
-    "kuasa": [
+    "kekuatan": [
       "otomitl-c02"
     ],
     "tempat": [
@@ -37,7 +37,7 @@
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "Male giant",
+      "description": "One fully human-form male giant, one head/two arms/two legs, fully opaque plain editorial tunic/mantle/trousers and closed leather footwear.",
       "claim_ids": [
         "otomitl-c01",
         "otomitl-c03"
@@ -45,46 +45,60 @@
     },
     {
       "kind": "effect",
-      "description": "Climbing mountains near Mexico",
+      "description": "Active mountain climb with physical contact dust only; no magical creation or elemental power.",
       "claim_ids": [
         "otomitl-c02"
       ]
     },
     {
       "kind": "setting",
-      "description": "Mountains and settlement near Mexico",
+      "description": "Mountains and settlements around Mexico; mature pines immediately beside planted foot and entire nearby village with people beneath that same foot prove sourced giant scale; botanical and architectural details editorial.",
       "claim_ids": [
+        "otomitl-c01",
         "otomitl-c02",
         "otomitl-c07"
       ]
     }
   ],
-  "aura": "Giant c01 actively mountain-climbing c02.",
+  "aura": "Sourced giant identity c01 becomes undeniable through adjacent trees and settlement at feet, while c02 mountain climb supplies action.",
   "artistic_choices": [
-    "Plain opaque attire editorial modesty, no specific sourced costume claimed. Great scale is sourced giant c01. Stone/dust only physical climbing contact."
+    "Plain opaque woven clothing and simple closed footwear are editorial modesty; no sourced specific costume asserted.",
+    "Adjacent whole mature pines, hand over rocky crest, entire village immediately below planted foot and tiny people are editorial scale references for sourced giant c01; exact numeric size is not asserted as source fact.",
+    "Mountain climb and settlement association c02/c07 preserved, no generic magic or invented mountain creation.",
+    "Weather, botanical details, architectural details, palette and camera editorial.",
+    "Historical rejected original preserved independently; replacement atomic to protect hardlinked tool-native."
   ],
   "generation_failures": [],
-  "rejected_attempts": [],
-  "generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-e2dcca10-be41-400c-906f-8af4a0e0abd5.png",
-  "generated_at": "2026-10-13T18:43:54.189051+00:00",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/otomitl-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/otomitl-attempt-01.json",
+      "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
+      "reason": "Reads as an ordinary man climbing a rocky slope — the 'ordinary man' failure. The giant size is sourced, but nothing near him proves it: the settlement and lake are far below and could simply be distant. Keep the climb and the plain clothing, but put an unmistakable scale reference right against him, e.g. pines reaching only his ankle, a whole hill crest under one hand, or the settlement close at his feet with people looking up."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-a91793ad-25bb-4123-928f-89ee2f4f6551.png",
+  "generated_at": "2026-10-14T04:06:39.089054+00:00",
   "original_file": "data/artwork-generated/batch-1767/originals/otomitl.png",
-  "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
+  "native_sha256": "7648a4733e97c827ea55aa4449df81b883b9a418f4028682a0ee0f01023016f5",
   "width": 1254,
   "height": 1254,
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Native dan 200px dilihat. Uji Sangar 7/7 ya: giant sourced c01 with visibly tiny settlement roofs c02/c07, active mountain climb c02, braced hand and lifting knee, one head two arms two legs, opaque editorial attire; no text/aura/gore, respectful awe.",
+    "notes": "Native and 200px personally inspected, all seven Sangar checks yes. Giant c01 scale unmistakable: planted foot stands among complete nearby pine trees, a whole village and tiny people immediately at the foot; scale references lie on adjacent crest rather than distant valley only. Active upward mountain climb c02 with raised knee and hand bracing crest, one head/two eyes/two arms/two legs, plain opaque tunic/mantle/trousers/footwear editorial. Physical dust only, no magic or mountain creation. Respectful awe; no ordinary-man reading at 200px, text/glyphs, borrowed design, gore or nudity. Historical tool-native and rejected PNG hashes verified unchanged; replacement independent and atomic.",
     "limitations": [],
-    "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
-    "reviewed_at": "2026-10-13T18:43:54.189051+00:00"
+    "native_sha256": "7648a4733e97c827ea55aa4449df81b883b9a418f4028682a0ee0f01023016f5",
+    "reviewed_at": "2026-10-14T04:06:39.089054+00:00"
   },
+  "historical_native_sha256": [
+    "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4"
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-14T10:38:53+07:00",
-    "native_sha256": "52057800e6c9f33f8b4df2b3015e5edc1f8b7940664e3d83d32f98d7a77af8d4",
-    "notes": "Reads as an ordinary man climbing a rocky slope — the 'ordinary man' failure. The giant size is sourced, but nothing near him proves it: the settlement and lake are far below and could simply be distant. Keep the climb and the plain clothing, but put an unmistakable scale reference right against him, e.g. pines reaching only his ankle, a whole hill crest under one hand, or the settlement close at his feet with people looking up."
-  },
-  "correction_notes": "Reads as an ordinary man climbing a rocky slope — the 'ordinary man' failure. The giant size is sourced, but nothing near him proves it: the settlement and lake are far below and could simply be distant. Keep the climb and the plain clothing, but put an unmistakable scale reference right against him, e.g. pines reaching only his ankle, a whole hill crest under one hand, or the settlement close at his feet with people looking up."
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "7648a4733e97c827ea55aa4449df81b883b9a418f4028682a0ee0f01023016f5",
+    "notes": "Correction answered: whole pines reach only his boot and a village with people sits at his feet, so the sourced giant size [otomitl-c01] is now undeniable while he climbs the mountain [c02]. Plain opaque clothing, one head, two arms, two legs."
+  }
 }

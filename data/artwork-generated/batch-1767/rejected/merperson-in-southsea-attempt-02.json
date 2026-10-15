@@ -1,0 +1,104 @@
+{
+  "slug": "merperson-in-southsea",
+  "worker": "codex",
+  "worker_agent": "lane1767-A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Jiaoren, the pearl-weeping South Sea weaver.\nANATOMY: One merperson-like humanoid head with normal small rounded HUMAN ears, two eyes, two arms. NO fin ears, NO webbing, NO horns, NO gills or fish facial parts. Wear PLAIN OPAQUE HIGH-NECK LONG-SLEEVE CLOTH that covers chest, shoulders, arms and entire torso completely. Lower aquatic anatomy is hidden beneath water and full folds of cloth because source does not detail it [merperson-in-southsea-c01, merperson-in-southsea-c05]. No jewellery.\nMOMENT: Looks DIRECTLY toward viewer in a fierce sorrowful confrontation while two streams of tears from both eyes turn visibly into round white pearls. Both hands pull a broad length of woven cloth taut in front of the churning water, physically engaged at peak of the motion.\nPOWER: Tears become pearls as they leave the eyes, pearls falling onto cloth; the special woven cloth stays visibly dry surrounded by ocean water [merperson-in-southsea-c03, merperson-in-southsea-c04, merperson-in-southsea-c05]. NO other powers.\nSCALE & CAMERA: Low close frontal half-body view, eyes and pearl streams large enough to read at 200px. No giant size.\nLIGHT & WEATHER: Low-key deep walnut water, one narrow antique-gold dusk side light, deep painterly shadows, salty surface droplets with no magical light.\nSURFACE: Expressive traditional oil-brush texture, tactile dry woven cloth, heavy dark waves.\nSETTING: South Sea [merperson-in-southsea-c01].\nMOOD: Uncanny imposing mythological pearl-weeping presence and strong physical cloth action, not placid portrait.\nHARD CONSTRAINTS: No text, lettering, pseudo-writing, marks, symbols, logo, border or watermark; no invented fins/ears/gills/scales on human head, no extra limbs/digits; no jewellery, no transparent fabric, bare shoulders, chest, nudity or gore; no aura, neon, rays, energy or copyrighted design.",
+  "depicted_variant": "One merperson-like humanoid with one head, two eyes, two arms; submerged lower body concealed by folds of opaque full-coverage woven cloth, no invented visible fish-tail anatomy",
+  "basis_claim_ids": [
+    "merperson-in-southsea-c01",
+    "merperson-in-southsea-c05",
+    "merperson-in-southsea-c03",
+    "merperson-in-southsea-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "merperson-in-southsea-c01",
+      "merperson-in-southsea-c05"
+    ],
+    "kekuatan_ranah_perbuatan": [
+      "merperson-in-southsea-c03",
+      "merperson-in-southsea-c04",
+      "merperson-in-southsea-c05"
+    ],
+    "tempat": [
+      "merperson-in-southsea-c01"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One merperson-like humanoid with one head, two eyes, two arms; submerged lower body concealed by folds of opaque full-coverage woven cloth, no invented visible fish-tail anatomy",
+      "claim_ids": [
+        "merperson-in-southsea-c01",
+        "merperson-in-southsea-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tears visibly become several natural white pearls below the eyes; the woven cloth itself stays dry while surrounded by dark sea water; no other spell effects",
+      "claim_ids": [
+        "merperson-in-southsea-c03",
+        "merperson-in-southsea-c04",
+        "merperson-in-southsea-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "South Sea water, close submerged framing",
+      "claim_ids": [
+        "merperson-in-southsea-c01"
+      ]
+    }
+  ],
+  "aura": "Tears visibly become several natural white pearls below the eyes; the woven cloth itself stays dry while surrounded by dark sea water; no other spell effects merperson-in-southsea-c03, merperson-in-southsea-c04, merperson-in-southsea-c05",
+  "artistic_choices": [
+    "Framing, dusk light, walnut/antique-gold palette and surface treatment are editorial choices, not source facts.",
+    "No generic supernatural effects; visible physical movement only follows cited anatomy, habitat or deed.",
+    "Lower anatomy concealed because cited texts describe aquatic merperson-like beings without detailed tail anatomy. Face, clothing construction and pearl placement are editorial.",
+    "Attempt 2 prohibits unclaimed fin ears, jewellery and exposed shoulders; normal human-like upper form with opaque clothing and documented pearl tears only."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1767/rejected/merperson-in-southsea-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1767/rejected/merperson-in-southsea-attempt-01.json",
+      "native_sha256": "5891c2f5c7ae3907ecaf751399293c66512af8e12a74365dc1cece93912a36ef",
+      "reason": "Invented large webbed fin ears unsupported by cited merperson claims; shoulder skin rather than specified full opaque cloth coverage. Uji Sangar anatomy fidelity fail."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13683-c8dd-73b2-ad4d-a82eb1a8e0a9/exec-fe5ec718-bcb9-4fe3-93cc-80930cd85104.png",
+  "generated_at": "2026-10-13T18:36:57.868604+00:00",
+  "original_file": "data/artwork-generated/batch-1767/rejected/merperson-in-southsea-attempt-02.png",
+  "native_sha256": "1528ffa479077457ab0e7ac81cda8ba8b9e222762fc6cb3a7fc195fa5867e1e1",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native + 200px inspected. Uji Sangar 1–7 YES: frontal uncanny pearl-weeping weaver dominates frame, physically pulls cloth, pearl tears c03/c05 and dry cloth c04 read at 200px; normal human upper face/2 arms covered in opaque cloth with hidden undescribed lower form, no fin ears/text/glow/IP. Documented manifestation distinguishes the figure from ordinary portrait.",
+    "limitations": [],
+    "native_sha256": "1528ffa479077457ab0e7ac81cda8ba8b9e222762fc6cb3a7fc195fa5867e1e1",
+    "reviewed_at": "2026-10-13T18:36:57.868604+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "1528ffa479077457ab0e7ac81cda8ba8b9e222762fc6cb3a7fc195fa5867e1e1",
+    "notes": "The pearl tears work on the native crop, but at normal and thumbnail size this reads as an ordinary young woman crying at the shoreline holding a cloth — the 'ordinary woman at human scale' failure. Nothing shows a being that lives in water like a fish [merperson-in-southsea-c05, c07]. Keep the pearl tears and the woven cloth, but set her fully underwater, weaving at a loom on the South Sea floor, the jiao cloth staying dry and unrippled while her hair, the water and fish move around it [c04, c06, c07]; pearls drop from her eyes and sink. Still no invented fish tail, fin ears or jewellery."
+  },
+  "correction_notes": "The pearl tears work on the native crop, but at normal and thumbnail size this reads as an ordinary young woman crying at the shoreline holding a cloth — the 'ordinary woman at human scale' failure. Nothing shows a being that lives in water like a fish [merperson-in-southsea-c05, c07]. Keep the pearl tears and the woven cloth, but set her fully underwater, weaving at a loom on the South Sea floor, the jiao cloth staying dry and unrippled while her hair, the water and fish move around it [c04, c06, c07]; pearls drop from her eyes and sink. Still no invented fish tail, fin ears or jewellery.",
+  "receipt_file": "data/artwork-generated/batch-1767/rejected/merperson-in-southsea-attempt-02.json",
+  "reason": "The pearl tears work on the native crop, but at normal and thumbnail size this reads as an ordinary young woman crying at the shoreline holding a cloth — the 'ordinary woman at human scale' failure. Nothing shows a being that lives in water like a fish [merperson-in-southsea-c05, c07]. Keep the pearl tears and the woven cloth, but set her fully underwater, weaving at a loom on the South Sea floor, the jiao cloth staying dry and unrippled while her hair, the water and fish move around it [c04, c06, c07]; pearls drop from her eyes and sink. Still no invented fish tail, fin ears or jewellery.",
+  "archived_at": "2026-10-14T04:12:33.921377+00:00",
+  "provenance": "Independent copy of Claude-rejected previous selected PNG; full original receipt fields preserved."
+}

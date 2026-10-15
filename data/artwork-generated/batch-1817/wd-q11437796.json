@@ -1,0 +1,81 @@
+{
+  "slug": "wd-q11437796",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-063.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ōneko, the large spotted cat with a forked tail from the Japanese Kōgai account.\nANATOMY: one large spotted feline with one head, two eyes, two rounded cat ears, four feline paws, exactly ONE tail that branches into TWO terminal tips in a clear Y after a single shared tail base; no independent second tail, no horns or other extra anatomy [wd-q11437796-c01, wd-q11437796-c02]\nMOMENT: Spring directly toward the viewer from darkness, snarl and reach both forepaws forward, curl the long single-base Y forked tail high behind the shoulders so both terminal tips are fully visible.\nPOWER: no documented power in this chosen Kōgai variant; menace through anatomy, scale and light only; do not add the mosquito-net effect from a different account.\nSCALE & CAMERA: extreme low angle; tight dynamic framing with large-cat head and approaching paws dominating, no colossal scale or tiny people, visibly separated fork-tail tips against dark sky.\nLIGHT & WEATHER: one narrow moon source, cold rim light across spotted fur and both tail tips, deep walnut shadows, ordinary footfall dust as editorial atmosphere.\nSURFACE: rough matted spotted feline fur, wet nose, claws, damp earth.\nSETTING: dark near-ground Japanese Kōgai story context with minimal unlettered background; no exact landscape is claimed [wd-q11437796-c02]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; exactly four legs, exactly one shared-base tail with TWO forked ends, no third tail tip, no magical eyes, markings or symbols, no two independent tails.",
+  "depicted_variant": "Kogai spotted large cat pounces with one unmistakable Y-forked tail.",
+  "basis_claim_ids": [
+    "wd-q11437796-c01",
+    "wd-q11437796-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11437796-c01",
+      "wd-q11437796-c02"
+    ],
+    "kekuatan": [
+      "wd-q11437796-c06"
+    ],
+    "tempat": [
+      "wd-q11437796-c02",
+      "wd-q11437796-c03",
+      "wd-q11437796-c05"
+    ],
+    "sifat": [
+      "wd-q11437796-c03",
+      "wd-q11437796-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Kogai large spottedcat with single forkedtail.",
+      "claim_ids": [
+        "wd-q11437796-c01",
+        "wd-q11437796-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kogai account context, unspecified minimal dark ground.",
+      "claim_ids": [
+        "wd-q11437796-c02"
+      ]
+    }
+  ],
+  "aura": "Forkedtail/spottedlargeformc02 and confrontationalpounce convey menace.",
+  "artistic_choices": [
+    "Kogai c02 form chosen; no mixing c06mosquito-net act fromotheraccount. Darkneutralground,spotarrangement,moon,dust,pose/camera editorial. Largecat scale without inventedcolossalheight. No documented power in chosenvariant, no effects."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13877-a11c-73a0-b825-e4a8069185a3/exec-f2cc6dc2-5818-418a-95c6-a4772aed2966.png",
+  "generated_at": "2026-10-14T04:08:33.330724+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/wd-q11437796.png",
+  "native_sha256": "9c84f97d38c9cecf8485f79743ff5fc87589c4ea0cbabe7c32d9e5a0d905a03e",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 viewed. Seven checks pass: snarling spottedcat dominates, clawpounce and clear Yforktaildanger persist at200, leap/dust physical editorial no magic, one head/twoeyes/fourfelinelegs compatible including one partlyoccludedrearleg, exactlyone sharedbase tail branching into2tips bothvisible, no extraheads/wings/text/glyphs/franchise, unmistakable forkedtail mythiccat rather than ordinarycalmanimal. ChosenKogaic02variant, no mixed mosquito-netpower.",
+    "limitations": [],
+    "native_sha256": "9c84f97d38c9cecf8485f79743ff5fc87589c4ea0cbabe7c32d9e5a0d905a03e",
+    "reviewed_at": "2026-10-14T04:08:33.330724+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "9c84f97d38c9cecf8485f79743ff5fc87589c4ea0cbabe7c32d9e5a0d905a03e",
+    "notes": "Large spotted cat pouncing at the viewer with a clearly forked tail [wd-q11437796-c01, c02]. The fork reads at 200 px."
+  }
+}

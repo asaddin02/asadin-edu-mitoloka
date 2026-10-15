@@ -1,0 +1,72 @@
+{
+  "slug": "isabit",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Isabit, the gigantic Pyrenean serpent whose huge mouth sucks whole herds from the Argeles valley.\nANATOMY: exactly one gigantic limbless serpent with one head, two eyes, an exceptionally broad huge open mouth capable of swallowing a cow whole, massive long coiling body; no horns, wings or added limbs [isabit-c02, isabit-c08]\nMOMENT: lean down over the valley toward the viewer and suck prey inward; one intact small cow lifted just off the ground toward the vast mouth, grass and dust bend in the same direction, no injury.\nPOWER: documented inhalation lifts livestock into its mouth; portray air physically moving grass, dust and a whole cow, no magic beams or glowing vortex; omit the optional flame-spitting variant [isabit-c03, isabit-c08]\nSCALE & CAMERA: extreme low angle; immense head fills upper frame, cow very small beneath the jaws, huge body arches over mountain slopes [isabit-c02].\nLIGHT & WEATHER: one low dusk sun through mountain cloud, rim light, physically inhaled dust and grass.\nSURFACE: rough olive-black serpent scales, dry grass, dusty limestone.\nSETTING: Argeles valley in the Pyrenees [isabit-c08]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No horns, dragon legs, wings, lightning, tattoos or glyphs.",
+  "depicted_variant": "Gigantic Isabit inhaling one whole cow over the Argeles valley.",
+  "basis_claim_ids": [
+    "isabit-c02",
+    "isabit-c03",
+    "isabit-c08",
+    "isabit-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "isabit-c01",
+      "isabit-c02"
+    ],
+    "kekuatan": [
+      "isabit-c03",
+      "isabit-c05",
+      "isabit-c08"
+    ],
+    "tempat": [
+      "isabit-c01",
+      "isabit-c08"
+    ],
+    "sifat": [
+      "isabit-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Gigantic serpent with huge cow-swallowing mouth.",
+      "claim_ids": [
+        "isabit-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Suction lifts intact cow and pulls grass/dust toward mouth.",
+      "claim_ids": [
+        "isabit-c03",
+        "isabit-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Argeles valley in Pyrenees.",
+      "claim_ids": [
+        "isabit-c01",
+        "isabit-c08"
+      ]
+    }
+  ],
+  "aura": "Threat from huge cow-swallowing serpent and physically lifting suction (c02,c03,c08).",
+  "artistic_choices": [
+    "Scale comparison uses documented cow-swallowing mouth.",
+    "Serpent colour, dusk, precise mountain contours and cow markings are editorial.",
+    "Omit optional flames to make one clearly sourced power legible; no gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

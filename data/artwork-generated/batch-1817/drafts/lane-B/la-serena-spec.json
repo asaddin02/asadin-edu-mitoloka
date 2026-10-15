@@ -1,0 +1,80 @@
+{
+  "slug": "la-serena",
+  "worker": "codex",
+  "worker_agent": "lane1817_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of La Serena, the fierce half-woman half-bird harp player of Gandesa.\nANATOMY: one half-woman half-bird being, one head with two eyes and one small hooked beak, long reddish hair, two human arms and hands playing one plain harp, exactly two brown feathered wings and two bird legs ending in talons; torso fully covered by opaque plain dark woven cloth [la-serena-c02, la-serena-c03, la-serena-c04]\nMOMENT: lean toward the viewer while forcefully plucking the harp, brown wings sweeping outward and talons gripping rocky ground, intense predatory stare\nPOWER: the harp lures a distant fully clothed man who sinks into sleep; no visible sound ribbons, beams or magic particles [la-serena-c04, la-serena-c05, la-serena-c13]\nSCALE & CAMERA: extreme low angle; close framing of hooked-beak face, harp-playing hands and wing bases; normal unspecified size, sleeping man far behind\nLIGHT & WEATHER: one full moon source, warm silver-gold rim light through reddish hair, mountain mist\nSURFACE: rough brown feathers, reddish windblown hair, opaque woven cloth and uninscribed aged wood harp\nSETTING: Pàndols and Cavalls ranges by Gandesa on a full-moon night [la-serena-c01, la-serena-c04]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
+  "depicted_variant": "Reddish-haired brown-winged hooked-beak Serena playing a harp.",
+  "basis_claim_ids": [
+    "la-serena-c02",
+    "la-serena-c03",
+    "la-serena-c04",
+    "la-serena-c05",
+    "la-serena-c13",
+    "la-serena-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "la-serena-c02",
+      "la-serena-c03"
+    ],
+    "kekuatan": [
+      "la-serena-c03",
+      "la-serena-c04",
+      "la-serena-c05",
+      "la-serena-c13"
+    ],
+    "tempat": [
+      "la-serena-c01",
+      "la-serena-c04"
+    ],
+    "sifat": [
+      "la-serena-c03",
+      "la-serena-c07",
+      "la-serena-c14"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Half-woman half-bird, long reddish hair, small hooked beak, talons and two brown wings; opaque editorial torso clothing.",
+      "claim_ids": [
+        "la-serena-c02",
+        "la-serena-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Plays harp to lure a man into sleep without invented visual sound magic.",
+      "claim_ids": [
+        "la-serena-c04",
+        "la-serena-c05",
+        "la-serena-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pàndols/Cavalls by Gandesa during full moon.",
+      "claim_ids": [
+        "la-serena-c01",
+        "la-serena-c04"
+      ]
+    }
+  ],
+  "aura": "C03 fierce bird anatomy and c04/c05 harp-induced sleep create danger through active music.",
+  "artistic_choices": [
+    "Select Gandesa half-bird version instead of fish/horse variants c12.",
+    "Plain opaque torso wrap and uninscribed harp details editorial.",
+    "Moon c04 supported; mist, palette and viewpoint editorial, no giant inflation.",
+    "Lured man uninjured and fully clothed, sleep visible without beams or explicit killing."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-134",
-  "checked_at": "2026-10-13T19:45:41.881Z",
+  "checked_at": "2026-10-15T08:33:20.303Z",
   "files": [
     "batch-134.md",
     "batch-134-fix-1.md",
     "batch-134-fix-2.md",
     "batch-134-fix-3.md",
     "batch-134-fix-4.md",
-    "batch-134-fix-5.md"
+    "batch-134-fix-5.md",
+    "batch-134-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -445,6 +446,7 @@
     {
       "slug": "gegantona-raimunda",
       "file": "batch-134.md",
+      "entry_sha256": "e8408e1012d6db068b06a1f1b9f414e7282f0a362bb72525dccf1b27f8748953",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -459,8 +461,7 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "e8408e1012d6db068b06a1f1b9f414e7282f0a362bb72525dccf1b27f8748953"
+      "images": []
     },
     {
       "slug": "ginebreda",
@@ -1920,6 +1921,7 @@
     {
       "slug": "icanti",
       "file": "batch-134.md",
+      "entry_sha256": "e8f3a4ff6e630aa6feb4bf63bc974c0bc73626eecd53ed011923ec7c8ea2a0a4",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -1955,8 +1957,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e8f3a4ff6e630aa6feb4bf63bc974c0bc73626eecd53ed011923ec7c8ea2a0a4"
+      "images": []
     },
     {
       "slug": "isabit",
@@ -2086,6 +2087,7 @@
     {
       "slug": "joanet",
       "file": "batch-134.md",
+      "entry_sha256": "808887bc7eb13718db67fc4ee6a7948fc2c78e1d789c674614e581e96134bc10",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -2151,12 +2153,12 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "808887bc7eb13718db67fc4ee6a7948fc2c78e1d789c674614e581e96134bc10"
+      "images": []
     },
     {
       "slug": "kerberos",
       "file": "batch-134.md",
+      "entry_sha256": "788a11ea1f7760166ed5a668cb484c83b9fed76f2219f56f9eaeb84babc689eb",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2171,8 +2173,7 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "788a11ea1f7760166ed5a668cb484c83b9fed76f2219f56f9eaeb84babc689eb"
+      "images": []
     },
     {
       "slug": "komat",
@@ -2943,6 +2944,7 @@
     {
       "slug": "lauru",
       "file": "batch-134.md",
+      "entry_sha256": "e8858cc5fd9ac33c5794c300db40bf9b5e9b5c72a9c8f7298ae99e959b67ecbe",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2957,8 +2959,7 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "e8858cc5fd9ac33c5794c300db40bf9b5e9b5c72a9c8f7298ae99e959b67ecbe"
+      "images": []
     },
     {
       "slug": "lenghelo",
@@ -3118,21 +3119,15 @@
     },
     {
       "slug": "loberno",
-      "file": "batch-134-fix-3.md",
-      "entry_sha256": "7099cbadd02301f34534d16beecfd47c8063e1cb048141e060c4adbae0b8991b",
+      "file": "batch-134-fix-6.md",
+      "entry_sha256": "73e223fb3df01a3d865aa4bbde5e66afb9a3595788a60f9e8193a2bf8b453351",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 9,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "loberno-c01",
@@ -4667,9 +4662,9 @@
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "claims",
-          "message": "6 kutipan tidak bisa dicek otomatis: www.native-languages.org (tidak bisa dibuka (fetch failed))."
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the sound of her crying will be lost in the swamp and…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -4701,8 +4696,7 @@
           "statement_id": "Maski-mon-gwe-zo-os tercantum sebagai salah satu nama dalam bahasa pribumi untuk sosok Swamp Woman, bersama Pskegdemus, Mskagwdemos, dan lain-lain.",
           "quote": "Names in Native languages: Pskegdemus, P-Skig-Demo-Os, Mskagwdemos, Meskagkwedemos, M-ska-gwe-demoos, Maski-mon-gwe-zo-os",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "maski-mon-gwe-zo-os-c04",
@@ -4712,8 +4706,7 @@
           "statement_id": "Dalam cerita rakyat Wabanaki, Swamp Woman adalah hantu perempuan yang tinggal di rawa dan mengeluarkan tangisan pilu.",
           "quote": "In Wabanaki folklore, Swamp Woman is a female ghost that lives in the swamps and makes mournful cries.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "maski-mon-gwe-zo-os-c05",
@@ -4723,8 +4716,7 @@
           "statement_id": "Siapa pun yang mengikuti suara tangisannya akan tersesat di rawa dan terbunuh.",
           "quote": "Anyone who tries to follow the sound of her crying will be lost in the swamp and killed.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "maski-mon-gwe-zo-os-c06",
@@ -4734,8 +4726,7 @@
           "statement_id": "Ia terutama sosok momok untuk menakuti anak-anak agar tidak berkeliaran ke rawa.",
           "quote": "she was primarily a bogeyman to scare children away from straying into the swamp.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "maski-mon-gwe-zo-os-c07",
@@ -4745,8 +4736,7 @@
           "statement_id": "Dalam sebagian penuturan, ia makhluk jahat yang sengaja memikat anak-anak menuju kematian karena dengki atau untuk memakan mereka.",
           "quote": "By some tellings, Swamp Woman was more of a malevolent creature, intentionally luring children to their deaths out of spite or so that she could eat them.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "maski-mon-gwe-zo-os-c08",
@@ -4756,8 +4746,7 @@
           "statement_id": "Menurut penuturan lain, ia arwah perempuan tanpa anak yang memanggil anak-anak karena kesepian, tetapi anak-anak itu mati ketika disentuh tangan hantunya.",
           "quote": "the ghost of a childless woman who calls children to her out of genuine loneliness, only to have them die when her ghostly hands touch them.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         }
       ],
       "images": []

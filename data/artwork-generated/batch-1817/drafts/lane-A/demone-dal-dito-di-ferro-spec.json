@@ -1,0 +1,86 @@
+{
+  "slug": "demone-dal-dito-di-ferro",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-133.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Iron-Fingered Demon, the Cherokee cave-dwelling shapeshifter who impersonates people, has one iron finger and laughs while removing arrows from wounds that instantly heal.\nANATOMY: exactly one human-shaped male impersonation with one head, two eyes, two arms and two legs, two normal five-fingered human hands; exactly ONE index finger on his right hand is visibly solid dark iron in the EXACT ANATOMICAL SHAPE OF A NORMAL INDEX FINGER, with two knuckle joints, smooth natural taper, rounded closed fingertip and an ordinary small fingernail, from knuckle to fingertip, the other nine fingers are ordinary flesh; fully opaque plain rough tunic and trousers, no horns, claws, tribal ornaments or invented monstrous anatomy [demone-dal-dito-di-ferro-c03, demone-dal-dito-di-ferro-c07, demone-dal-dito-di-ferro-c08]\nMOMENT: step from the dark cave and thrust his iron index finger toward the viewer with severe foreshortening, face laughing defiantly; the other hand pulls one ordinary arrow from his clothed upper arm, the place beneath is intact and healed, no blood. One discarded arrow falls beside him.\nPOWER: wounds heal instantly when he withdraws arrows; depict smooth uninjured skin after arrow removal, no healing light or magical beams [demone-dal-dito-di-ferro-c10, demone-dal-dito-di-ferro-c14]\nSCALE & CAMERA: extreme low angle; close half-body frame, iron finger dominates foreground through perspective, face and metal material both clearly readable; ordinary human actual size, no giant inflation.\nLIGHT & WEATHER: one shaft of late sunset into cave, rim light, drifting natural cave dust.\nSURFACE: rough worn iron on the one finger, ordinary weathered skin, coarse opaque cloth, gritty cave stone and wooden arrow shafts.\nSETTING: cave in Tusquittee Mountain, North Carolina [demone-dal-dito-di-ferro-c02, demone-dal-dito-di-ferro-c07]\nMOOD: imposing and unsettling human impersonator in documented Cherokee folklore, dangerous and confrontational, never cute, calm or decorative; respectful portrayal without invented cultural stereotypes.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Exactly ONE normal-anatomical SOLID iron index finger, NOT a tube, gun barrel, pipe, metal claw or gauntlet. No hollow end, tube rings or cylinder. Edit the referenced image ONLY to replace its hollow cylindrical iron finger with a solid anatomical iron index finger, with knuckle joints and closed rounded fingertip and a visible ordinary fingernail. Angle the fingertip slightly sideways so its anatomy is readable. Preserve both hands with five digits each, face, arrow removal, clothing and cave composition. No horns, tattoos, glyphs, feather headdress, organs, wounds, eye beams or unsupported monster face.",
+  "depicted_variant": "Human impersonation of iron-finger demon confronting viewer while removing an arrow.",
+  "basis_claim_ids": [
+    "demone-dal-dito-di-ferro-c03",
+    "demone-dal-dito-di-ferro-c07",
+    "demone-dal-dito-di-ferro-c08",
+    "demone-dal-dito-di-ferro-c10",
+    "demone-dal-dito-di-ferro-c14",
+    "demone-dal-dito-di-ferro-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "demone-dal-dito-di-ferro-c03",
+      "demone-dal-dito-di-ferro-c07",
+      "demone-dal-dito-di-ferro-c08"
+    ],
+    "kekuatan": [
+      "demone-dal-dito-di-ferro-c07",
+      "demone-dal-dito-di-ferro-c09",
+      "demone-dal-dito-di-ferro-c14"
+    ],
+    "tempat": [
+      "demone-dal-dito-di-ferro-c02",
+      "demone-dal-dito-di-ferro-c07"
+    ],
+    "sifat": [
+      "demone-dal-dito-di-ferro-c10",
+      "demone-dal-dito-di-ferro-c13"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Human impersonation with one iron finger, otherwise normal human anatomy and opaque clothing.",
+      "claim_ids": [
+        "demone-dal-dito-di-ferro-c03",
+        "demone-dal-dito-di-ferro-c07",
+        "demone-dal-dito-di-ferro-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Laughs while extracting arrows; skin healed instantly with no visible wound.",
+      "claim_ids": [
+        "demone-dal-dito-di-ferro-c10",
+        "demone-dal-dito-di-ferro-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tusquittee Mountain cave in North Carolina.",
+      "claim_ids": [
+        "demone-dal-dito-di-ferro-c02",
+        "demone-dal-dito-di-ferro-c07"
+      ]
+    }
+  ],
+  "aura": "Threat from metal finger, defiant laughter and arrow-removal regeneration (c08,c10,c14), no aura.",
+  "artistic_choices": [
+    "Male impersonated identity, which hand/index finger, face, plain tunic/trousers and arrow design are editorial; no ethnic or sacred clothing claims.",
+    "Metal finger stays normal actual anatomical length, enlarged in foreground only by perspective.",
+    "Sunset and cave dust editorial; regeneration shown by intact skin not glow.",
+    "Avoid visceral attack and do not invent demon horns, claws or caricature of Cherokee culture."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/demone-dal-dito-di-ferro-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/demone-dal-dito-di-ferro-attempt-01.json",
+      "native_sha256": "b8d2929974c15355edaf3aac33ceda655f8444a79646f407738bcfd3ab3b0a91",
+      "reason": "Self review: iron index finger is a hollow ridged tube with open end, not a solid anatomically shaped finger; Sangar anatomy5 fails."
+    }
+  ]
+}

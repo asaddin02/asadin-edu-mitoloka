@@ -1,0 +1,79 @@
+{
+  "slug": "houeran",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Houeran, the goat-legged giant guardian of Vosges forests who cries out at poachers and can hold burning embers unharmed.\nANATOMY: exactly one giant humanoid upper body with one main head, two arms, two goat legs with cloven hooves; a long shaggy beard, piercing firelit eyes, large plain black hat with turned-down brim; his backside itself is a second distinct goat head with two curved goat horns, clearly attached at the rear pelvis below the tunic, not a separate animal; opaque rough tunic covers torso and front hips [houeran-c04, houeran-c10, houeran-c13]\nMOMENT: crouch beside a poacher's little forest fire, grasp a handful of real burning embers while turning his bearded main face over his shoulder toward the viewer, mouth open in a commanding shout; compose three-quarter rear view so the goat-head backside and its horns remain unmistakably visible.\nPOWER: hold real glowing coals without burns; fire stays only in the coals and small ground fire, no beams or magic aura [houeran-c10]\nSCALE & CAMERA: extreme low angle; giant fills square, small forest fire and tree trunks demonstrate sourced giant scale [houeran-c01, houeran-c13].\nLIGHT & WEATHER: one small ground fire as dominant orange light, rim light, ordinary fire smoke in the dusk forest.\nSURFACE: shaggy beard, coarse goat fur on legs and backside head, rough opaque cloth, charred embers.\nSETTING: Vosges forest near Haut-Roc above the Moselotte basin [houeran-c01, houeran-c02]\nMOOD: awe-inspiring fierce forest protector confronting thieves, never malicious toward the forest, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads beyond the one main head and specifically documented backside goat head, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No main-head horns, tattoos, glyphs or magical eye beams. Keep backside goat-head feature fully visible.",
+  "depicted_variant": "Three-quarter rear view of goat-legged forest guardian showing horned goat-head backside while grasping embers.",
+  "basis_claim_ids": [
+    "houeran-c04",
+    "houeran-c10",
+    "houeran-c13",
+    "houeran-c05",
+    "houeran-c01",
+    "houeran-c02",
+    "houeran-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "houeran-c04",
+      "houeran-c10",
+      "houeran-c13"
+    ],
+    "kekuatan": [
+      "houeran-c05",
+      "houeran-c06",
+      "houeran-c10"
+    ],
+    "tempat": [
+      "houeran-c01",
+      "houeran-c02"
+    ],
+    "sifat": [
+      "houeran-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Goat-legged bearded giant wearing broad downturned black hat; backside is a distinct horned goat head.",
+      "claim_ids": [
+        "houeran-c04",
+        "houeran-c10",
+        "houeran-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Handles burning embers unharmed; cries out to thieves.",
+      "claim_ids": [
+        "houeran-c05",
+        "houeran-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Vosges forest, Haut-Roc/Moselotte region.",
+      "claim_ids": [
+        "houeran-c01",
+        "houeran-c02"
+      ]
+    }
+  ],
+  "aura": "Awe from giant goat hybrid anatomy and bare-handed ember handling (c04,c10,c13).",
+  "artistic_choices": [
+    "Plain opaque tunic is editorial modest clothing, arranged to preserve documented backside anatomy.",
+    "Small fire is contextualized by thief night fires c06; dusk and smoke editorial.",
+    "Firelight on eyes uses natural light rather than beams; benevolent guardian role retained.",
+    "Small frightened poachers and their fire visualize c01/c06; their clothes and faces are editorial, not named historical figures."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

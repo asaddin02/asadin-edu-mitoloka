@@ -1,0 +1,102 @@
+{
+  "slug": "wd-q10514345",
+  "worker": "codex",
+  "worker_agent": "lane1817_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Xuhao, the small Chinese demon that steals possessions and turns household joys into trouble.\nANATOMY: exactly one small humanoid demon with one head, two eyes, a conspicuous broad ox's nose but no horns, two ordinary short rounded human ears, never pointed, two arms and two legs; opaque red robe and opaque red trousers; one bare foot, one shoe on the other foot, exactly one additional shoe hanging at the waist beside a bamboo fan [wd-q10514345-c02, wd-q10514345-c03, wd-q10514345-c07]\nMOMENT: Dart toward the viewer across the palace hall, twist into a low sneaking run with a malicious grin, hold a stolen plain green jade flute in one hand and a closed cloth scent pouch in the other; robe and waist shoe swing sharply.\nPOWER: physically steals the emperor's jade flute and Yang Guifei's scented pouch, turning household joy to sorrow without magical energy effects [wd-q10514345-c05, wd-q10514345-c07, wd-q10514345-c08]\nSCALE & CAMERA: extreme low angle at the small demon's foot level; tight full-body framing so both feet, single hanging shoe and waist fan can be counted, natural small stature contrasted with normal palace tile joints; never inflate him.\nLIGHT & WEATHER: one warm oil-lamp light from off frame, sharp rim light across nose and red robe, deep walnut shadows, ordinary trailing dust as editorial atmosphere.\nSURFACE: coarse red fabric, weathered bare skin, old shoe leather, plain bamboo slats, smooth undecorated jade, plain cloth pouch.\nSETTING: Emperor Minghuang's dream palace hall with unlettered floor tiles and dark doorway behind [wd-q10514345-c07]\nMOOD: menacing; dangerous and imposing through uncanny close presence, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no horns or tattoos, no runes or embroidery glyphs, no third foot, only one waist shoe and one worn shoe; do not depict Zhong Kui; no pointed ears, elf ears, goblin ears or pouch decoration.\nEDIT INSTRUCTION: Correct ONLY the two ears to short normal rounded human ears and the scented pouch to plain undecorated purple cloth with absolutely no patterns, symbols, embroidery or text. Preserve broad ox nose, intense face, red opaque clothing, stolen jade flute, exactly one bare foot, one shoe on the other foot, one single additional shoe and one bamboo fan at waist, and all composition/light. No new anatomy.",
+  "depicted_variant": "Small ox-nosed red-robed Xuhao runs with stolen flute and pouch.",
+  "basis_claim_ids": [
+    "wd-q10514345-c02",
+    "wd-q10514345-c03",
+    "wd-q10514345-c07",
+    "wd-q10514345-c05",
+    "wd-q10514345-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10514345-c02",
+      "wd-q10514345-c03",
+      "wd-q10514345-c07"
+    ],
+    "kekuatan": [
+      "wd-q10514345-c05",
+      "wd-q10514345-c07",
+      "wd-q10514345-c08"
+    ],
+    "tempat": [
+      "wd-q10514345-c07"
+    ],
+    "sifat": [
+      "wd-q10514345-c01",
+      "wd-q10514345-c08"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small humanoid demon, ox nose, red robe, one bare foot/one shod foot, one hanging shoe and bamboo fan at waist.",
+      "claim_ids": [
+        "wd-q10514345-c02",
+        "wd-q10514345-c03",
+        "wd-q10514345-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical theft of plain jade flute and scent pouch.",
+      "claim_ids": [
+        "wd-q10514345-c05",
+        "wd-q10514345-c07",
+        "wd-q10514345-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Minghuang dream hall.",
+      "claim_ids": [
+        "wd-q10514345-c07"
+      ]
+    }
+  ],
+  "aura": "Theft c05/c07/c08 and ox nose/single waist shoe c02 create uncanny menace.",
+  "artistic_choices": [
+    "Opaque trousers, unmarked pouch, lamp, dark palette, tile details and low camera editorial. Small size preserved; no magical effects. No embroidery lettering despite scent-pouch description; plain cloth avoids glyphs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q10514345-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q10514345-attempt-01.json",
+      "native_sha256": "a5606761250cfb4e9ad0e1f005b75805725c1505d2476d8c444b45bf0c41eda1",
+      "reason": "Fails sourced anatomy: long pointed elf ears are not documented for Xuhao; patterned pouch also risks pseudo-glyph design. Correct to ordinary rounded human ears and plain cloth pouch while preserving ox nose and exact shoes/fan."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13877-a11c-73a0-b825-e4a8069185a3/exec-182346e9-7dea-4344-9ed3-9e68a6e452a0.png",
+  "generated_at": "2026-10-14T03:48:12.366731+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/wd-q10514345.png",
+  "native_sha256": "6b59f3372d5167ab213f58d37964511a4443da5efbc5adeeee2acd2dddf1ef32",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 viewed after edit02. Seven Sangar checks pass: small broad ox-nosed demon dominant/intense at200 and visibly running; physical flute/pouch theft c05/c07 no beams; one head/two eyes/two arms/two legs, normal rounded ears, precisely one bare foreground foot/one shod rear foot/one hanging waist shoe/one waist bamboo fan; red opaque clothing, plain pouch no glyphs; no text/franchise; uncanny demon rather than ordinary person.01 archived for invented pointed ears/patterned pouch.",
+    "limitations": [],
+    "native_sha256": "6b59f3372d5167ab213f58d37964511a4443da5efbc5adeeee2acd2dddf1ef32",
+    "reviewed_at": "2026-10-14T03:48:12.366731+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "6b59f3372d5167ab213f58d37964511a4443da5efbc5adeeee2acd2dddf1ef32",
+    "notes": "Small demon in a red robe with a broad ox-like snout, one foot bare and one shod, the other shoe and a bamboo fan hanging at the waist, running off with a plain jade flute and a scent pouch through a palace hall [wd-q10514345-c02, c03, c05, c07]. Ears are now ordinary. Passes narrowly: the face is close to an animated-film character; the mischief matches c08 ('steals as if in play')."
+  }
+}
