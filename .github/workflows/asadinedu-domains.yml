@@ -85,8 +85,13 @@ jobs:
               | tee /dev/stderr | jq -r '.result.id')
           fi
           [ -n "$lid" ] && [ "$lid" != null ] || exit 1
-          items=$(jq -nc '([ "biotaloka", "kimialoka", "fisikaloka", "mitoloka", "kodeloka" ] | map({redirect: {
-            source_url: "\(.).pages.dev/", target_url: "https://\(.).asadinedu.com/", status_code: 301,
+          # Each project's own pages.dev host (kodeloka's is suffixed because the plain name was taken).
+          hosts=$(for p in biotaloka kimialoka fisikaloka mitoloka kodeloka; do
+            curl -sS -H "$auth" "$acct/pages/projects/$p" | jq -c --arg p "$p" '{project: $p, host: .result.subdomain}'; done | jq -sc '.')
+          echo "$hosts"
+          [ "$(echo "$hosts" | jq 'map(select(.host == null)) | length')" = 0 ] || { echo "A Pages project could not be read"; exit 1; }
+          items=$(jq -nc --argjson hosts "$hosts" '($hosts | map({redirect: {
+            source_url: "\(.host)/", target_url: "https://\(.project).asadinedu.com/", status_code: 301,
             include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }}))
             + [{redirect: { source_url: "www.asadinedu.com/", target_url: "https://asadinedu.com/", status_code: 301,
             include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }},
@@ -134,12 +139,22 @@ jobs:
           curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' \
             "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/kodeloka/domains" \
             --data "$(jq -nc --arg n "$host" '{name: $n}')" | jq -c '{host: "'"$host"'", success, errors: [.errors[]?.message]}'
-          n=$(curl -sS -H "$auth" "$api/zones/$ZID/dns_records?name=$host" | jq -r '[.result[] | select(.type == "CNAME" or .type == "A" or .type == "AAAA")] | length')
-          if [ "$n" = 0 ]; then
-            curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/dns_records" \
-              --data "$(jq -nc --arg n "$host" '{type: "CNAME", name: $n, content: "kodeloka.pages.dev", proxied: true, ttl: 1}')" \
-              | jq -c '{dns: "'"$host"'", success, errors: [.errors[]?.message]}'
+          # kodeloka.pages.dev belongs to another account, so the project got a suffixed subdomain; point the
+          # CNAME at whatever Cloudflare assigned, and correct an existing record that points elsewhere.
+          target=$(curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/kodeloka" | jq -r '.result.subdomain')
+          [ -n "$target" ] && [ "$target" != null ] || { echo "Could not read the project's pages.dev subdomain"; exit 1; }
+          record=$(curl -sS -H "$auth" "$api/zones/$ZID/dns_records?name=$host" | jq -c '[.result[] | select(.type == "CNAME" or .type == "A" or .type == "AAAA")][0] // empty')
+          body=$(jq -nc --arg n "$host" --arg c "$target" '{type: "CNAME", name: $n, content: $c, proxied: true, ttl: 1}')
+          if [ -z "$record" ]; then
+            curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/dns_records" --data "$body" \
+              | jq -c '{dns: "'"$host"'", target: "'"$target"'", success, errors: [.errors[]?.message]}'
+          elif [ "$(echo "$record" | jq -r .content)" != "$target" ]; then
+            curl -sS -X PUT -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/dns_records/$(echo "$record" | jq -r .id)" --data "$body" \
+              | jq -c '{dns: "'"$host"'", updated_to: "'"$target"'", success, errors: [.errors[]?.message]}'
+          else
+            echo "DNS for $host already points at $target."
           fi
+          curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/kodeloka/domains" | jq -c '[.result[]? | {name, status}]'
       - name: Turn off Cloudflare Web Analytics injection (the sites promise no analytics)
         if: inputs.mode == 'no-analytics'
         run: |
