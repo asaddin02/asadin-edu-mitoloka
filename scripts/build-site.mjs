@@ -221,6 +221,9 @@ for (const page of pages) {
   // the HTML lets the browser fetch it at once (it is the page's largest paint).
   if (page.route === '/' && editorialArt.garuda)
     out = out.replace('</head>', `  <link rel="preload" as="image" href="${editorialArt.garuda}" fetchpriority="high">\n</head>`);
+  // A creature page's largest paint is its artwork, which the dossier shows from the same URL as og:image.
+  else if (page.route.startsWith('/creature/') && page.image)
+    out = out.replace('</head>', `  <link rel="preload" as="image" href="${page.image.replace(siteURL || '\u0000', '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}" fetchpriority="high">\n</head>`);
   await writeFile(full, out);
 }
 // Unknown paths answer 404 (so a missing /api/… file is an error, not the page) but still open the app;
