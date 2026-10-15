@@ -194,3 +194,6 @@ button, input, select, textarea {
 .prerender li { margin: 0.3rem 0; }
 .prerender a { color: var(--gold-500); text-decoration: underline; text-underline-offset: 0.15em; }
 .prerender-original { color: var(--text-muted); font-style: italic; margin: 0; }
+/* Layout stability (CLS): the app empties #app while it loads a route; keeping a screen of height there
+   stops the footer from jumping into view and back. */
+#app { min-height: 100vh; }
