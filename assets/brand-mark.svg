@@ -1,7 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#100c09"/>
-  <circle cx="32" cy="32" r="25" stroke="#8e6936" stroke-width="2"/>
-  <circle cx="32" cy="32" r="21" stroke="#e5c486"/>
-  <path d="m44 20-8 16-16 8 8-16Z" stroke="#efd6a0" stroke-width="2"/>
-  <path d="m32 25 3 7-3 7-3-7Z" fill="#d6af67"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Mahkota Mitoloka</title>
+  <desc id="desc">Lambang mahkota emas Mitoloka pada latar gelap.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="44" x2="446" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A1B10"/>
+      <stop offset=".52" stop-color="#160F09"/>
+      <stop offset="1" stop-color="#090706"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="151" y1="124" x2="365" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0C4"/>
+      <stop offset=".24" stop-color="#EED18D"/>
+      <stop offset=".63" stop-color="#C68D3F"/>
+      <stop offset="1" stop-color="#8D5726"/>
+    </linearGradient>
+    <linearGradient id="band" x1="130" y1="326" x2="383" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8752F"/>
+      <stop offset=".48" stop-color="#F3D896"/>
+      <stop offset="1" stop-color="#A2642A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect x="18" y="18" width="476" height="476" rx="98" stroke="#D6A85B" stroke-opacity=".38" stroke-width="4"/>
+  <path d="M104 178 194 250 256 112 318 250 408 178 383 350H129L104 178Z" fill="url(#gold)" stroke="#FFE8B1" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M123 316h266l-12 78H135l-12-78Z" fill="url(#band)" stroke="#FFE8B1" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M124 316h264" stroke="#7F4D23" stroke-width="12"/>
+  <path d="M194 250 256 292 318 250" stroke="#865021" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <path d="m256 337 20 20-20 20-20-20 20-20Z" fill="#2A170B" stroke="#FFE8B1" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="174" cy="357" r="10" fill="#2A170B" stroke="#FFE8B1" stroke-width="6"/>
+  <circle cx="338" cy="357" r="10" fill="#2A170B" stroke="#FFE8B1" stroke-width="6"/>
+  <circle cx="104" cy="178" r="12" fill="#FFE8B1"/>
+  <circle cx="256" cy="112" r="12" fill="#FFE8B1"/>
+  <circle cx="408" cy="178" r="12" fill="#FFE8B1"/>
 </svg>
