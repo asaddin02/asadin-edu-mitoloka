@@ -197,3 +197,11 @@ button, input, select, textarea {
 /* Layout stability (CLS): the app empties #app while it loads a route; keeping a screen of height there
    stops the footer from jumping into view and back. */
 #app { min-height: 100vh; }
+/* The navigation is drawn by the app; until then its slot holds the same height. */
+#header-root:empty { min-height: 73px; }
+@media (min-width: 1051px) { #header-root:empty { min-height: 85px; } }
+/* The prerendered text is for search engines and readers without JavaScript. While the app starts it stays
+   invisible, because the app swaps it out within a few seconds and the swap would jolt the page; it appears
+   after 8 s if the app never arrives, and at once without JavaScript (the <noscript> style in index.html). */
+#app > .prerender { visibility: hidden; animation: prerender-reveal 0s linear 8s forwards; }
+@keyframes prerender-reveal { to { visibility: visible; } }
