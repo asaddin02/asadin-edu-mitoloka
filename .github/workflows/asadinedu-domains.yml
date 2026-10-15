@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: inspect; attach a domain to a Pages project; redirects (301 from <project>.pages.dev and www); or landing (publish asaddin02/asadinedu to asadinedu.com)
+        description: inspect; attach a domain to a Pages project; redirects (301 from <project>.pages.dev and www); landing (publish asaddin02/asadinedu to asadinedu.com); kodeloka (build and publish asaddin02/asadin-edu-kodeloka to kodeloka.asadinedu.com)
         type: choice
-        options: [inspect, attach, redirects, landing, no-analytics, email]
+        options: [inspect, attach, redirects, landing, kodeloka, no-analytics, email]
         default: inspect
       project:
         description: Pages project (attach only), for example mitoloka
@@ -50,7 +50,7 @@ jobs:
           echo "Bulk Redirect access (lists, rulesets):"
           curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/rules/lists" | jq -c '{success, errors: [.errors[]?.message], lists: [.result[]? | .name]}'
           curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/rulesets" | jq -c '{success, errors: [.errors[]?.message], rulesets: [.result[]? | {name, phase}]}'
-          for p in biotaloka kimialoka fisikaloka mitoloka; do
+          for p in biotaloka kimialoka fisikaloka mitoloka kodeloka; do
             curl -sS -H "$auth" "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$p/domains" | jq -c --arg p "$p" '{project: $p, domains: [.result[]? | {name, status}]}'
           done
       - name: Attach the custom domain
@@ -85,7 +85,7 @@ jobs:
               | tee /dev/stderr | jq -r '.result.id')
           fi
           [ -n "$lid" ] && [ "$lid" != null ] || exit 1
-          items=$(jq -nc '([ "biotaloka", "kimialoka", "fisikaloka", "mitoloka" ] | map({redirect: {
+          items=$(jq -nc '([ "biotaloka", "kimialoka", "fisikaloka", "mitoloka", "kodeloka" ] | map({redirect: {
             source_url: "\(.).pages.dev/", target_url: "https://\(.).asadinedu.com/", status_code: 301,
             include_subdomains: false, subpath_matching: true, preserve_query_string: true, preserve_path_suffix: true }}))
             + [{redirect: { source_url: "www.asadinedu.com/", target_url: "https://asadinedu.com/", status_code: 301,
@@ -119,6 +119,27 @@ jobs:
                 | jq -c '{dns: "'"$host"'", success, errors: [.errors[]?.message]}'
             fi
           done
+      - name: Build and publish Kodeloka to kodeloka.asadinedu.com
+        if: inputs.mode == 'kodeloka'
+        env:
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+        run: |
+          git clone --depth 1 https://github.com/asaddin02/asadin-edu-kodeloka.git kodeloka
+          (cd kodeloka && SITE_URL=https://kodeloka.asadinedu.com node scripts/build.mjs)
+          npx --yes wrangler@4 pages project create kodeloka --production-branch=main || echo "Project already exists."
+          npx --yes wrangler@4 pages deploy kodeloka/dist --project-name=kodeloka --branch=main --commit-hash="$(git -C kodeloka rev-parse HEAD)" --commit-dirty=true
+          api=https://api.cloudflare.com/client/v4
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          host=kodeloka.asadinedu.com
+          curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' \
+            "$api/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/kodeloka/domains" \
+            --data "$(jq -nc --arg n "$host" '{name: $n}')" | jq -c '{host: "'"$host"'", success, errors: [.errors[]?.message]}'
+          n=$(curl -sS -H "$auth" "$api/zones/$ZID/dns_records?name=$host" | jq -r '[.result[] | select(.type == "CNAME" or .type == "A" or .type == "AAAA")] | length')
+          if [ "$n" = 0 ]; then
+            curl -sS -X POST -H "$auth" -H 'Content-Type: application/json' "$api/zones/$ZID/dns_records" \
+              --data "$(jq -nc --arg n "$host" '{type: "CNAME", name: $n, content: "kodeloka.pages.dev", proxied: true, ttl: 1}')" \
+              | jq -c '{dns: "'"$host"'", success, errors: [.errors[]?.message]}'
+          fi
       - name: Turn off Cloudflare Web Analytics injection (the sites promise no analytics)
         if: inputs.mode == 'no-analytics'
         run: |

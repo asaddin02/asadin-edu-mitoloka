@@ -95,6 +95,7 @@ class App {
             <div class="footer-bottom">
               <div>© 2026 Mitoloka · ${bi('Proyek eksplorasi budaya oleh Asadin', 'A cultural exploration project by Asadin')}</div>
               <div>Bilingual Platform (Bahasa Indonesia & English)</div>
+              <div class="footer-family">${bi('Bagian dari', 'Part of')} <a href="https://asadinedu.com/">Asadin Edu</a> · <a href="https://biotaloka.asadinedu.com/">Biotaloka</a> · <a href="https://kimialoka.asadinedu.com/">Kimialoka</a> · <a href="https://fisikaloka.asadinedu.com/">Fisikaloka</a> · <a href="https://kodeloka.asadinedu.com/">Kodeloka</a></div>
             </div>
           </div>
         </footer>

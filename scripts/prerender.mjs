@@ -100,7 +100,7 @@ export function buildPages({ data, siteURL, editorialArt, getCreatureBySlug, tod
 <section><h2>Peradaban</h2>${list(activeCultures.map(cu => `${link(`/cultures/${cu.id}`, id(cu.name))} (${creatures.filter(c => c.culture === cu.id).length})`))}</section>
 <section><h2>Atlas dunia</h2>${list(regions.map(r => `${link(`/regions/${r.id}`, id(r.name))} — ${esc(clip(id(r.description), 160))}`))}</section>
 ${sectionNav()}</article>`,
-    jsonLd: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: absolute('/') || '/', inLanguage: ['id', 'en'], description: 'Ensiklopedia dwibahasa makhluk mitologi dan folklor dunia.' }],
+    jsonLd: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: absolute('/') || '/', inLanguage: ['id', 'en'], description: 'Ensiklopedia dwibahasa makhluk mitologi dan folklor dunia.', publisher: { '@type': 'Organization', '@id': 'https://asadinedu.com/#organization', name: 'Asadin Edu', url: 'https://asadinedu.com/' } }],
   });
 
   // Creatures

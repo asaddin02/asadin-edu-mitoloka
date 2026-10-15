@@ -216,7 +216,12 @@ const pages = buildPages({ data, siteURL, editorialArt, getCreatureBySlug: engin
 for (const page of pages) {
   const full = join(dist, fileFor(page.route));
   await mkdir(dirname(full), { recursive: true });
-  await writeFile(full, renderPage(html, page, siteURL));
+  let out = renderPage(html, page, siteURL);
+  // The home hero opens on Garuda, but its <img> only exists once the app has rendered; announcing it in
+  // the HTML lets the browser fetch it at once (it is the page's largest paint).
+  if (page.route === '/' && editorialArt.garuda)
+    out = out.replace('</head>', `  <link rel="preload" as="image" href="${editorialArt.garuda}" fetchpriority="high">\n</head>`);
+  await writeFile(full, out);
 }
 // Unknown paths answer 404 (so a missing /api/… file is an error, not the page) but still open the app;
 // the empty shell itself must not be indexed.
