@@ -43,6 +43,11 @@ Lanjutan dari `HANDOFF-2026-10-16.md`. Semua yang di bawah sudah di-push ke `mai
   npm run extract && npm test
   # perbarui angka modul di index.html (TOPIK), courses.json, dan README
   ```
+- **Push ke Kodeloka belum menayangkan situsnya.** Deploy otomatis di repo Kodeloka selalu "skipped" karena `CLOUDFLARE_PAGES_PROJECT` tidak diisi. Situs di-publish dari repo Mitoloka:
+  ```bash
+  gh workflow run asadinedu-domains.yml -R asaddin02/asadin-edu-mitoloka -f mode=kodeloka
+  ```
+  Workflow ini sudah dijalankan pada 16 Okt pukul 18.50 WIB. `/html/`, `/css/`, `/javascript/`, dan `/php/` kini HTTP 200.
 - **Untuk Codex:** tampilan keempat kelas baru masih memakai mesin dan CSS linux apa adanya, ditambah dua aturan agar tabel dan kode tidak meluber di ponsel. Pemilik ingin Codex mempercantiknya di akhir.
 
 ## 4. Catatan mesin (PC asal sesi ini)
