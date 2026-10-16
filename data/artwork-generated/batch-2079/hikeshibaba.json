@@ -1,0 +1,82 @@
+{
+  "slug": "hikeshibaba",
+  "name": "Hikeshibaba",
+  "batch": 2079,
+  "prompt": "Edit ONLY the paper lantern surface in this Hikeshibaba image: remove ALL black painted markings, characters, symbols, lettering and stains that resemble text. Lantern must have completely plain blank warm ivory paper with only fine rib structure and natural texture. Preserve the grotesque white-haired old woman's face, pursed blowing lips, hands/kimono, perspective and composition. Also make the single candle flame inside lantern lean sharply away from her breath, dwindling to a tiny ember; no second flame outside lantern, only a wisp of ordinary extinguishing smoke at top. Her documented action blows out household lanterns (hikeshibaba-c02). No new text/letters/logo/watermark, aura, extra limbs or gore. Square premium painterly cinematic image.",
+  "depicted_variant": "ONE grotesquely wrinkled old woman with white hair, one head, two eyes, TWO arms; fully opaque worn kimono. [hikeshibaba-c02,hikeshibaba-c03]",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE grotesquely wrinkled old woman with white hair, one head, two eyes, TWO arms; fully opaque worn kimono. [hikeshibaba-c02,hikeshibaba-c03]",
+      "claim_ids": [
+        "hikeshibaba-c02",
+        "hikeshibaba-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Lantern flame visibly bends and dies to one final ember, smoke curls and surrounding home falls into darkness; no magical beam or aura.",
+      "claim_ids": [
+        "hikeshibaba-c02",
+        "hikeshibaba-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior of old Japanese home at night, paper lantern sole light.",
+      "claim_ids": [
+        "hikeshibaba-c02",
+        "hikeshibaba-c05"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "hikeshibaba-c02",
+    "hikeshibaba-c03",
+    "hikeshibaba-c05"
+  ],
+  "aura": "Distinctive anatomy hikeshibaba-c02,hikeshibaba-c03 and documented action hikeshibaba-c02,hikeshibaba-c05.",
+  "artistic_choices": [
+    "Dark warm palette and close low camera are editorial composition, no unsupported giant size or magic.",
+    "Opaque garments and restrained original design preserve modesty and respectful treatment."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-ba2197c3-f86c-4fdf-b9b6-02ab70687bd4.png",
+  "generated_at": "2026-10-16T05:13:34.842Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/hikeshibaba.png",
+  "native_sha256": "f4115d26b4873394866aa77341712a770023d0b884016e2657ea9a37b399a2ad",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/hikeshibaba-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/hikeshibaba-attempt-01.json",
+      "native_sha256": "a17b335677d048924707cdfa58b9268790dac5e5928d83efc3841c2ed35f5b85",
+      "reason": "Self-reject: black marks on lantern read as lettering, prohibited; remove all lantern markings."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected after removing lantern marks: grotesque white-haired old woman, one head/two arms, opaque kimono. Blowing pursed lips, candle dying to ember and smoke c02/c05; blank lantern no text. Intense low close face/action reads uncanny dangerous at200px, no extra anatomy, aura or gore. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "f4115d26b4873394866aa77341712a770023d0b884016e2657ea9a37b399a2ad",
+    "reviewed_at": "2026-10-16T05:13:34.853Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:52:29+07:00",
+    "native_sha256": "f4115d26b4873394866aa77341712a770023d0b884016e2657ea9a37b399a2ad",
+    "notes": "Viewed native 1254px + 200px + hand crop. A white-haired, deeply wrinkled, grotesque old woman (hikeshibaba-c03) in a fully opaque patterned old kimono, pursing her lips to blow out a round paper household lantern — its inner flame guttering with a thread of smoke as the room darkens (hikeshibaba-c02/c05). Two aged hands with long grotesque nails cradle the lantern (five digits confirmed, no extra); the lantern paper carries only structural ribs, no lettering. Darkening old Japanese house with shoji screens. The uncanny grotesque face dominates at 200px; ominous atmosphere rather than overt violence, fitting a yōkai not dangerous herself (hikeshibaba-c04). No magical ribbon, glow aura, text or borrowed design."
+  }
+}

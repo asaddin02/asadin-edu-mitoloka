@@ -1,0 +1,67 @@
+{
+  "slug": "entenwick",
+  "basis_claim_ids": [
+    "entenwick-c01",
+    "entenwick-c04",
+    "entenwick-c08"
+  ],
+  "depicted_variant": "Only the ghastly spiked multicoloured arm that Entenwick disclosed is visible from castle darkness.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Only one revealed arm with long spikes at elbow and along arm, pointed fingers, frightful blue mixed blood-red and yellow-speckled colour",
+      "claim_ids": [
+        "entenwick-c04",
+        "entenwick-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior of Sachsenheim castle",
+      "claim_ids": [
+        "entenwick-c01"
+      ]
+    }
+  ],
+  "aura": "Documented frightful arm c04/c08 dominates frame; no imagined full body or generic aura.",
+  "artistic_choices": [
+    "Only documented arm is pictured; head and remainder of body remain completely invisible.",
+    "Blue skin with red/yellow pigment-like mottling is anatomical colour, not gore or magical glow.",
+    "A shaft of lamplight and blank stone doorway are editorial framing; no castle-fire action so helpful spirit is not made into invented demon."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Entenwick, the mysterious castle spirit revealing only the dreadful arm described in the Zimmern Chronicle.\nANATOMY: ONLY ONE ARM AND HAND revealed from absolute dark, NO visible torso, head, face or second arm. Long rigid organic SPIKES project from the elbow and run along the entire forearm; five long sharply pointed fingers. Arm's frightful SKIN is BLUE mixed with BLOOD-RED patches and YELLOW SPECKLES, fully intact skin, no blood, wounds or gore [entenwick-c04,entenwick-c08]. Do not invent a body behind the arm.\nMOMENT: Thrust the spiked elbow and outstretched pointed fingers toward the viewer from behind a heavy stone castle doorway, fingers dramatically extended as if reluctantly allowing the viewer a single terrible glimpse. Arm diagonally fills entire square.\nPOWER: no documented visible power used; dread entirely from the revealed arm anatomy and sudden gesture.\nSCALE & CAMERA: extreme low close angle at hand-level, arm dominates; no invented giant size, doorway only narrow background reference.\nLIGHT & WEATHER: one low warm candle outside frame rakes across coloured skin and spike edges; rest pitch black, deep walnut shadow, ordinary dust.\nSURFACE: rough mottled blue/red/yellow skin, dry horny spikes, chipped medieval stone doorway.\nSETTING: dark interior of Sachsenheim castle [entenwick-c01].\nMOOD: unsettling, physically imposing revelation, never calm or decorative; the arm is unmistakable subject.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Entenwick",
+  "batch": 2029,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-87264887-1295-42d3-a74d-aa2422246b81.png",
+  "generated_at": "2026-10-16T03:10:38.142Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/entenwick.png",
+  "native_sha256": "9ab1a91a9b3958aa7994495b9817bdebff4e3380835e1939262b877263e33fb7",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: exactly one revealed arm, five pointed fingers, long spikes down elbow/forearm, dark blue skin with red patches and yellow speckles. No face or full body invented; active reaching limb fills frame. Skin is intact with no wounds/gore. No text/aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "9ab1a91a9b3958aa7994495b9817bdebff4e3380835e1939262b877263e33fb7",
+    "reviewed_at": "2026-10-16T03:10:38.142Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "9ab1a91a9b3958aa7994495b9817bdebff4e3380835e1939262b877263e33fb7",
+    "notes": "Viewed native + 200px + tight finger crop. Only the single revealed arm is shown emerging from a black castle doorway c01; long spikes at the elbow and along the arm, exactly five pointed clawed fingers, skin mottled blue-grey with blood-red and yellow specks c04/c08 (coloration, not gore). The rest of the body and head stay hidden in darkness. Faithful to the 'showed him its arm' moment; no invented demon body, no text."
+  }
+}

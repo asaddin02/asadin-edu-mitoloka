@@ -1,0 +1,82 @@
+{
+  "slug": "ewiger-jager",
+  "basis_claim_ids": [
+    "ewiger-jager-c04",
+    "ewiger-jager-c19",
+    "ewiger-jager-c20",
+    "ewiger-jager-c21"
+  ],
+  "depicted_variant": "Gnarled little green-clad eternal hunter with fist-sized withered face, pursuing the same stag.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Gnarled little man dressed in green, with barely fist-sized face withered like turnip and wrinkled like sponge",
+      "claim_ids": [
+        "ewiger-jager-c04",
+        "ewiger-jager-c21"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Running eternally after the same stag, no invented energy",
+      "claim_ids": [
+        "ewiger-jager-c20"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Deep green forest of Count Eberhard encounter",
+      "claim_ids": [
+        "ewiger-jager-c19"
+      ]
+    }
+  ],
+  "aura": "Uncanny shrivelled face c21, small body/green clothing c04 and relentless pursuit c20 rather than magic aura.",
+  "artistic_choices": [
+    "Use mutually compatible Bechstein gnarled-green and Grimm withered-face descriptions of the same German encounter.",
+    "Opaque green hunting coat and trousers; no invented weapon, spectral glow, horse or visible pack.",
+    "Wet autumn woodland and moonlight are editorial atmosphere; tree roots place the small hunter on a real scale."
+  ],
+  "prompt": "EDIT the provided Ewiger Jäger image. Keep the hunter's tiny shrivelled wrinkled face, green clothing, two arms/two legs, low camera, tree roots, lighting, texture and all other visual details exactly unchanged. Change ONLY the stag placement and orientation: remove the distant stag running away in the back right. Place a clearly smaller stag slightly AHEAD OF the hunter on the RIGHT foreground path, running in the SAME direction TOWARD THE CAMERA at a three-quarter angle. Its head/antlers should aim toward the lower right/front, its body extends diagonally back toward hunter, so the hunter is visibly chasing behind it. Stag remains secondary and small, does not cover hunter's face or hands. No added animals or people. No text, inscriptions, watermark, glow, gore or extra anatomy. This is the documented endless pursuit of the same stag [ewiger-jager-c20]. Original low-key painterly forest illustration remains identical except this corrected chase relation.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2029/rejected/ewiger-jager-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2029/rejected/ewiger-jager-attempt-01.json",
+      "native_sha256": "680df0cc1a556784999ccc7a1bd9a4c07a4f9faecc721b9a635bff2b2af3ab7b",
+      "reason": "Root Codex native/200 inspection: hunter runs toward camera but background stag runs away, so documented chase c20 reads as opposite directions. Move stag ahead and orient same direction; preserve hunter."
+    }
+  ],
+  "name": "Ewiger Jäger",
+  "batch": 2029,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-fa724997-d37a-45c8-b161-38f9a13c5661.png",
+  "generated_at": "2026-10-16T03:19:02.553Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/ewiger-jager.png",
+  "native_sha256": "26335c28e7127b926c41536ba483f3d780478ccaf2fe59e0f0ac6d2782e87152",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px re-inspected after correction: gnarled green little man and fist-sized deeply shrivelled face unchanged. Stag now ahead at foreground right, three-quarter facing toward camera in same running direction; the pursuit relation is clear. Two arms/two legs, no extra anatomy. Root-rejected first attempt archived with exact prompt/path/hash/reason. Active uncanny charge, no aura/text. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "26335c28e7127b926c41536ba483f3d780478ccaf2fe59e0f0ac6d2782e87152",
+    "reviewed_at": "2026-10-16T03:19:02.554Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T11:44:40+07:00",
+    "native_sha256": "26335c28e7127b926c41536ba483f3d780478ccaf2fe59e0f0ac6d2782e87152",
+    "notes": "Viewed native 1254px + 200px. A gnarled little hunter clad in mossy green leaf-strewn garments with a withered, deeply wrinkled, near-fist-sized old face (c04/c21), lunging down a moonlit autumn-forest slope with his hand outstretched toward a fleeing antlered stag that runs ahead in the same direction — the pursuit now reads coherently (c20 correction fixed). Two arms, two legs, hoofed stag, forest (c19); no invented weapon or magic, no text or aura. Uncanny and active, dominates the frame at 200px."
+  }
+}

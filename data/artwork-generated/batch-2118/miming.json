@@ -1,0 +1,74 @@
+{
+  "slug": "miming",
+  "name": "Miming",
+  "batch": 2118,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Miming, the woodland dwarf guardian of the keen sword that could pierce Balder.\nANATOMY: ONE very SHORT adult male DWARF with ONE human head, TWO eyes, TWO arms, TWO legs; fully opaque weathered forest garments, no horns/goatlegs/pointedears. ONE keen straight iron SWORD in right hand, ONE thick gold BRACELET clearly on left wrist. [miming-c01,miming-c04]\nMOMENT: Emerge fiercely from cave shadow with sword thrust diagonally toward viewer, left forearm raised so gold bracelet catches light; dwarf-small beside normal ferns.\nPOWER: No magical glow or coins multiplying, weapons are documented precious objects; menace from sharp steel and defensive stance. [miming-c01,miming-c04]\nSCALE & CAMERA: extreme low close angle, subject fills80% of square; natural scale unless giant explicitly documented. Important features clear at200pixels.\nLIGHT & WEATHER: one dominant cold moonlight through a gap in the clouds, strong rim light, deep walnut shadows, ordinary physical dust/moisture.\nSURFACE: tactile natural fur/skin/scales where appropriate, coarse opaque textiles, rough stone, original visible painterly brushwork.\nSETTING: Woodland cave amid frozen ridges, normal human-sized cave and ferns establish small stature. [miming-c02]\nMOOD: dangerous for hostile beings, awe-inspiring and respectful for gods/guardians, uncanny audacious for benign small spirits, never cute/calm/decorative.\nHARD CONSTRAINTS: no text/lettering/logo/border/frame/watermark; no extra heads/limbs/fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outlines, energy ribbons, floating runes.",
+  "depicted_variant": "ONE very SHORT adult male DWARF with ONE human head, TWO eyes, TWO arms, TWO legs; fully opaque weathered forest garments, no horns/goatlegs/pointedears. ONE keen straight iron SWORD in right hand, ONE thick gold BRACELET clearly on left wrist. [miming-c01,miming-c04]",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE very SHORT adult male DWARF with ONE human head, TWO eyes, TWO arms, TWO legs; fully opaque weathered forest garments, no horns/goatlegs/pointedears. ONE keen straight iron SWORD in right hand, ONE thick gold BRACELET clearly on left wrist. [miming-c01,miming-c04]",
+      "claim_ids": [
+        "miming-c01",
+        "miming-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical glow or coins multiplying, weapons are documented precious objects; menace from sharp steel and defensive stance.",
+      "claim_ids": [
+        "miming-c01",
+        "miming-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Woodland cave amid frozen ridges, normal human-sized cave and ferns establish small stature.",
+      "claim_ids": [
+        "miming-c02"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "miming-c01",
+    "miming-c04",
+    "miming-c02"
+  ],
+  "aura": "Distinctive documented anatomy miming-c01,miming-c04 and action miming-c01,miming-c04.",
+  "artistic_choices": [
+    "Dark warm palette and close low camera are editorial composition; no unsupported giant size or magic.",
+    "Opaque plain garments when needed, without invented ritual iconography."
+  ],
+  "worker": "codex",
+  "worker_agent": "resume_2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-69db-7f82-b99a-f641e96a1f97/exec-4f140f43-0a5c-4308-9485-c88035fd7c2c.png",
+  "generated_at": "2026-10-16T07:31:45.355Z",
+  "original_file": "data/artwork-generated/batch-2118/originals/miming.png",
+  "native_sha256": "118eb1fb2a328e1a44b051b1e65f3711a107ed5d0d3a060823fbe550c1296b09",
+  "width": 1254,
+  "height": 1254,
+  "rejected_attempts": [],
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 inspected: short stout dwarf from cave c02/c04, one head/two eyes/two arms/two legs, opaque clothes; one keen sword thrust toward viewer c01/c04, one gold bracelet clear on raised opposite wrist c01. Defensive fierce action and readable sword dominate at200; no goat legs/horns, invented powers, generic aura, text/gore or ordinary passerby. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "118eb1fb2a328e1a44b051b1e65f3711a107ed5d0d3a060823fbe550c1296b09",
+    "reviewed_at": "2026-10-16T07:31:45.355Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:10:48+07:00",
+    "native_sha256": "118eb1fb2a328e1a44b051b1e65f3711a107ed5d0d3a060823fbe550c1296b09",
+    "notes": "Viewed native 1254px, 200px, and face/ear, sword-hand/hilt, bracelet-fist, belt-buckle and leg crops. Miming the dwarf (miming-c04; 'Satyr of the woods', c01) is one stocky bearded dwarf with one head, two eyes and a long braided red beard. He scowls fiercely straight at the viewer and wears fully opaque, weathered fur and wool garments. Two arms. The right hand thrusts one keen, straight, hammered-steel sword diagonally at the camera (the sword that could pierce Balder, c01/c04); the visible fingers wrap the grip normally. The raised left fist (thumb plus four) wears one thick gold arm-ring (the bracelet of secret virtue, c01/c04). Two legs: one booted foot is planted on wet rock and the other knee is down behind. He emerges from a dark cave mouth among ferns, under a moon over snowy frozen ridges and pines (the cave and frozen ridges, c02). The knotwork on the hilt, bracelet and round belt buckle is ornament, not letters. A small pointed ear tip shows in the hair at native size, although the prompt asked for none. It is not legible at 200px, and no claim contradicts it. The figure is the generic folk-fantasy dwarf type, not a specific film or game character. No magic glow, text or gore. At 200px the steel thrust and the glare read as a dangerous guardian of the sword."
+  }
+}

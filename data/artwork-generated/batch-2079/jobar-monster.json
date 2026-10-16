@@ -1,0 +1,76 @@
+{
+  "slug": "jobar-monster",
+  "basis_claim_ids": [
+    "jobar-monster-c01",
+    "jobar-monster-c02",
+    "jobar-monster-c07",
+    "jobar-monster-c08"
+  ],
+  "depicted_variant": "Giant camel-like Tuareg night bogeyman looming over desert rocks.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant camel-like beast",
+      "claim_ids": [
+        "jobar-monster-c02",
+        "jobar-monster-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tuareg Niger contextual desert at night",
+      "claim_ids": [
+        "jobar-monster-c01",
+        "jobar-monster-c07"
+      ]
+    }
+  ],
+  "aura": "Giant camel-like body c02/c08 and nocturnal approach c07 create danger without aura.",
+  "artistic_choices": [
+    "Choose simple one-humped camel anatomy as editorial neutral camel-like realization; no dinosaur shape from modern naming.",
+    "Tiny distant empty camel-tending shelter sets giant scale without victims or children.",
+    "No invented elemental power; menace through low angle, head/mouth, physical scale."
+  ],
+  "prompt": "EDIT this Jobar giant camel-like monster illustration. Preserve head, expression, giant hump, fur, moon, desert, tiny tent, large foreground right forefoot and all lighting. Correct ONLY anatomy so EXACTLY FOUR legs and FOUR feet exist. REMOVE the narrow EXTRA CENTRAL-LEFT LEG hanging immediately under the chest at about 45 percent image width (between far-left leg and massive foreground leg). Replace its entire silhouette with unobstructed dark background and desert. KEEP four remaining legs: far-left foreleg at 22 percent width, massive foreground foreleg at 63 percent, rear inner leg at 75 percent and far-right rear leg at 87 percent. Each kept leg anatomically joins torso; each has one padded split camel foot. Do not add new limbs, do not change size or head or tent. One head, two eyes, one hump, four legs, one tail. No text, glow, violence, injury or gore. The creature remains an original giant camel-like beast of Tuareg lore [jobar-monster-c02,jobar-monster-c08].",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/jobar-monster-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/jobar-monster-attempt-01.json",
+      "native_sha256": "f8e52a07004146086ab89d2824fc1666f8fdcb53fee04c09eb793b9d0ccd9de5",
+      "reason": "Self native anatomy check: five leg-like supports appear below torso (far-left, central-left, large foreground, rear-inner and far-right); exactly four required. Targeted remove extra central-left leg."
+    }
+  ],
+  "name": "Jobar (monster)",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-141.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-58d505e9-e4e6-486f-8a68-0f61f6cc587e.png",
+  "generated_at": "2026-10-16T05:05:35.985Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/jobar-monster.png",
+  "native_sha256": "1ffdfebde2a30855c503380356c5c335847b6532129c5add4d4d10fd7417727d",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected after extra-leg correction: exactly four legs (far left, massive foreground, inner rear, far right) and four split padded feet; one head/two eyes/one hump/one tail. Mouth bellow and lifted dust, enormous body compared with tiny empty tent make mythic giant clear at 200px. No victims, dinosaur anatomy, extra limbs, text or glow. All seven Sangar checks pass; rejected01 archived exact provenance.",
+    "limitations": [],
+    "native_sha256": "1ffdfebde2a30855c503380356c5c335847b6532129c5add4d4d10fd7417727d",
+    "reviewed_at": "2026-10-16T05:05:35.986Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:52:29+07:00",
+    "native_sha256": "1ffdfebde2a30855c503380356c5c335847b6532129c5add4d4d10fd7417727d",
+    "notes": "Viewed native 1254px + 200px + a legs crop and a front-foot crop. A giant camel-like monster (jobar-monster-c01/c02/c08): one head, two eyes, one shaggy single-humped body, one tail, and exactly FOUR legs (the extra leg of attempt-01 is gone), each ending in a broad two-toed camel foot. Enormous scale is fixed by a tiny Tuareg tent in the moonlit night desert (jobar-monster-c07). It charges and snarls, the open maw showing teeth — the menace of the child-eating bogeyman conveyed by scale and snarl with NO child, victim, blood or explicit gore. No invented powers, aura, text or borrowed design; dominates the frame and reads as a monstrous camel-beast at 200px."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "batch": 2079,
+  "round": "r03",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T14:40:40+07:00",
+  "scope_note": "Independent visual review of receipts only. No integration, manifest, research or power changes. For each of the 4 requested slugs I viewed the native 1254px PNG, a 200px downscale, and targeted native crops (hands/fingers, feet/toes at 4x, faces/horns/nose, dogs and paws, clothing/lower body, belt ornaments for pseudo-text, branch/robe, lightning), then compared them against the receipt visual_requirements and the research claims embedded in the ledger. Before writing, each PNG's SHA-256 was recomputed and matched against the receipt native_sha256, the Codex visual_review hash, the ledger item hash and the Codex root native-review hash in batch-2079/drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review (plus correction_notes on the reject) and the receipt status, and synced the ledger item status. No PNG, Codex visual_review, Codex native review or other receipt was modified. Reject: hairen (both hands now five-digit, but the lower-left foreground foot has only four webbed toes against five on the other foot, despite the receipt and Codex reviews claiming five on both).",
+  "requested_slugs": [
+    "hairen",
+    "idlirvirissong",
+    "irudica",
+    "keneo"
+  ],
+  "totals": {
+    "reviewed": 4,
+    "pass": 3,
+    "reject": 1
+  },
+  "results": [
+    {
+      "slug": "hairen",
+      "native_sha256": "01d5eccbe47772e05f66f3e9b069693f3058aa52f2d098ae06aece0e29d84026",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, and native crops of both hands, both feet (4x zoom), face and hip folds. The r02 defects are fixed for the hands: the left-frame hand (creature's right) shows a thumb plus four fingers, as does the right-frame hand (creature's left), both with membrane between the fingers; the feet are now separate, attached to two legs, and do not overlap the hands. One head, two eyes, two arms, two legs. The grey-olive hanging skin folds over the hips and thighs (hairen-c03) sit over an opaque charcoal undergarment, the night sea rocks match c01, and the lunging confrontation (c05) reads at 200px. But the foreground foot at lower left (the creature's right foot) has only FOUR webbed toes: a big toe plus three, four nails and three webs. The lower-right foot has five. This contradicts the receipt visual_requirement 'two separate five-toed webbed feet', the prompt, the Codex visual_review and root native review (both claim five toes on both feet), and the explicit r02 correction 'two separate webbed feet with five toes each'. The feet are deliberately framed as countable foreground features of the documented webbed hands and feet (c02), so the mismatched four-toed foot fails Uji Sangar #5.",
+      "correction_notes": "Fix the lower-left foreground foot (the creature's right foot, about x 70-330, y 960-1140 in the 1254px native) so it shows FIVE webbed toes: the big inner toe plus four, with membrane between each, matching the five-toed lower-right foot (hairen-c02). Keep everything that now passes: two five-digit webbed hands at shoulder height, separate feet that do not overlap the hands, skin hanging like hakama over the hips (c03), the opaque charcoal undergarment, the feral untameable confrontation (c05) and the night sea rocks (c01). A tightly masked edit of that one foot is acceptable if the rest is unchanged. Before resubmitting, re-count all four extremities at native size and record the counts accurately in the receipt notes."
+    },
+    {
+      "slug": "idlirvirissong",
+      "native_sha256": "6d0dfe34811d26a76e6013de56e6b87d74fd4e3c324910c99841c269504fee2a",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and native crops of the face, both hands, belt ornaments, both dog groups and both legs/boots. One female spirit (idlirvirissong-c04): one head, two eyes, two arms and two legs (raised knee with the boot sole thrust at the viewer, other boot planted). Her nose is turned up and flared at both sides into a snout-like shape (c02/c09), legible at 200px. Her grimace is lopsided (one eye wide, one narrowed, lips dragged sideways over clenched teeth) rather than a cheerful grin, an uncanny clownish dance meant to bait laughter (c05/c11), with no modern clown paint or costume. The r02 rejection is answered. Five lean, wolf-like dogs with closed mouths, alert ears and watchful eyes crowd a large EMPTY plate, the qengmerping (c02/c05/c06), with no gore. The cloudbank lies below the threshold under the moon, so the house is plainly in the sky (c05/c09/c11). The drooping left-frame hand shows four digits with the thumb hidden by foreshortening, and the right-frame hand is a curled clawing hand; neither is malformed. Paws plausibly belong to five dogs. The face is a stylised grotesque, not Inuit-coded, and she wears an opaque fur parka: no ethnic caricature. The glass lantern and timber house are editorial, and the bone toggles and pendant carry no lettering. The low camera and looming lean make her threatening at 200px. No text, aura or borrowed design."
+    },
+    {
+      "slug": "irudica",
+      "native_sha256": "68885f653ab91499a9c4d8f5045a1586b212e8066a5c03702503c4881f326c02",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and native crops of the face, both hands, the lower body/vortex and the lightning. One female spirit: one head, two eyes, two arms, long vivid red hair streaming sideways (red hair behind the name Rudica, irudica-c06; Salome identity, c04), and a fierce snarl with bared teeth, no longer the frightened ordinary woman of attempt-01. A dense spiral of salt spray, grit and flying pebbles winds in continuous bands around her lower body and narrows down to the limestone rocks, so she clearly rides and dwells in the whirlwind (c01) at the front of a black thunderstorm (c07). A branching bolt comes down from the clouds behind her and strikes the coast, the lightning that pursues her (c05); none of it comes from her body. The setting is a rocky Dalmatian/Hvar shore (c10). The tattered black gown is closed and opaque, and the lower body dissolves into the vortex with no thigh or leg exposed, so the r02 bare-thigh/upskirt problem is gone. The hands are small and foreshortened (left: thumb and three visible fingers; right: curled fingers), and neither is malformed. She is dominant and dangerous at 200px, with no text, aura, spellcasting gesture or borrowed design."
+    },
+    {
+      "slug": "keneo",
+      "native_sha256": "f0e19fa596a17e661b99bfbda7f3d83ebc6b5f0666500839a6fa91b66425683d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and native crops of the face/horns, both hands, the branch and the robe. An oni-formed old man (keneo-c01/c08): one head, two yellow-glinting eyes under a heavy furrowed brow, coarse dark-red weathered skin, a stern snarl, wild grey hair, a long beard and two horns (on the forehead and temple of the tilted head; an editorial oni interpretation recorded in artistic_choices). He wears a closed, opaque, coarse black-brown robe. This is no longer the ordinary old man of attempt-02. A thin branch of the massive Eryoju trunk (c08) arches out and bends sharply down, with an empty pale robe knotted at its tip, so the sag itself shows the weight of sin (c03/c05/c08). Both open hands are pulled back with a clear gap from the branch and robe. The near hand shows a thumb plus four fingers; the far hand, back toward the viewer, shows the thumb and three fingers with the little finger occluded, which is not a malformation. Behind him is the misty Sanzu riverbank with old posts (c01). He looms in the upper right from a low angle with a judging glare that reads at 200px. No victims, torture, flayed skin, text, aura or borrowed design."
+    }
+  ]
+}

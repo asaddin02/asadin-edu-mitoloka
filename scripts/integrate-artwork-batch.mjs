@@ -1,5 +1,9 @@
 #!/usr/bin/env node
-/** Register individually generated, visually audited receipts, serially and resumably. */
+/**
+ * Register individually generated, visually audited receipts, serially and resumably.
+ *   node scripts/integrate-artwork-batch.mjs <n> [--skip slug,slug]   --skip holds back passing receipts
+ *   (for example a creature still waiting for a culture choice) without stopping the rest of the batch.
+ */
 import { existsSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
@@ -10,6 +14,8 @@ import { computeFillStatus } from './gemini/fill-lib.mjs';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const batchNumber = process.argv[2] || '267';
 if (!/^\d+$/.test(batchNumber)) throw new Error('Use a numeric batch identifier.');
+const skipAt = process.argv.indexOf('--skip');
+const held = new Set(skipAt > 0 ? (process.argv[skipAt + 1] || '').split(',').filter(Boolean) : []);
 const batchPath = resolve(root, `data/artwork-batch-${batchNumber}.json`);
 const read = path => JSON.parse(readFileSync(resolve(root, path), 'utf8'));
 const save = (path, value) => {
@@ -32,6 +38,7 @@ let added = 0;
 for (const item of batch.items) {
   if (exclusions[item.slug]) continue;
   if (item.status === 'complete') continue;
+  if (held.has(item.slug)) { console.log(`${item.slug}: held back (--skip).`); continue; }
   const receiptPath = `data/artwork-generated/batch-${batchNumber}/${item.slug}.json`;
   if (!existsSync(resolve(root, receiptPath))) continue;
   const receipt = read(receiptPath);

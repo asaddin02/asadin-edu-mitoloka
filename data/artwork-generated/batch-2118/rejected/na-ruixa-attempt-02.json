@@ -1,0 +1,87 @@
+{
+  "slug": "na-ruixa",
+  "basis_claim_ids": [
+    "na-ruixa-c04",
+    "na-ruixa-c06",
+    "na-ruixa-c07"
+  ],
+  "depicted_variant": "Golden-blond water fairy unfurling her wide blue cloak over a storm-lashed Mallorca sea.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Beautiful adult fairy with golden-blond hair and wide blue cloak",
+      "claim_ids": [
+        "na-ruixa-c04",
+        "na-ruixa-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wide blue cloak actively encloses unwary adult sailor in storm without injury",
+      "claim_ids": [
+        "na-ruixa-c04",
+        "na-ruixa-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Caves on Mallorca coast in strong storm",
+      "claim_ids": [
+        "na-ruixa-c04"
+      ]
+    }
+  ],
+  "aura": "Wide blue cloak physically unfurls in storm c04 and commanding song c07 create supernatural presence, no generic glow.",
+  "artistic_choices": [
+    "Fully opaque high-neck blue gown under cloak, adult with goldenblond hair from retellingc06.",
+    "One anonymous fully clothed adult sailor in a small boat makes the documented cloak capture legible; no injury, drowning, musical symbols, voice ribbons or beams.",
+    "Cloak billows through ordinary gale, no independent tentacles/hands invented.",
+    "First attempt rejected because relative sailor scale implied an undocumented giantess. Second prompt places both adults beside each other at identical depth and scale."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Na Ruixa, the golden-haired Mallorcan water fairy who enchants sailors and catches them with her wide blue cloak in storms.\nANATOMY: ONE beautiful ADULT fairy woman, one head, TWO eyes, TWO arms and TWO legs fully covered by opaque high-neck dark BLUE GOWN and an ENORMOUS WIDE BLUE CLOAK. Long BLOND HAIR like threads of GOLD, no wings, crown, scales, fish tail or horns [na-ruixa-c04,na-ruixa-c06].\nMOMENT: Emerge forcefully from a coastal cave and spread BOTH ARMS to unfurl the immense blue cloak toward viewer like a sweeping enclosing sail, mouth open mid-enchanting song, eyes severe and intent downward. Cloak billows around square edges in the violent gale but remains one continuous cloth attached at shoulders. Her blue cloak whips around one anonymous ADULT sailor who is RIGHT NEXT TO HER at the SAME DEPTH, with his head almost as large as hers and shoulders as broad as hers. Both adults stand on the SAME small grounded fishing boat near a cave. Her cloak encloses his fully clothed torso like a cloth trap, without injury, drowning or physical assault. The sailor is secondary but plainly normal human size relative to her.\nPOWER: wide cloak catches unwary sailors in storms, melodious voice enchants them; depict the enclosing cloak reaching the boat and real gale-driven cloth/spray, no floating musical symbols, voice ribbons or beams [na-ruixa-c04,na-ruixa-c07].\nSCALE & CAMERA: tight low waist-up view from the SAME small boat: normal-size fairy at left and NORMAL-SIZE ADULT sailor beside her at right, EQUAL BODY SCALE AND EQUAL HEAD SIZE, both in same plane. Fairy and trapping cloak dominate the square; sailor face turned away. The boat is a normal fishing boat, not a miniature. NOT a giantess, no forced perspective, no little people.\nLIGHT & WEATHER: one warm sunset opening through storm clouds illuminates golden hair and wet blue folds, deep walnut cave shadows, rough sea spray and heavy ordinary rain.\nSURFACE: heavy saturated BLUE woven cloak, opaque gown, wet golden hair, slick black coastal rock.\nSETTING: sea cave on Mallorca, storm-lashed bay possibly Pollença, background secondary [na-ruixa-c04].\nMOOD: dangerous beautiful uncanny water-fairy authority, intense active confrontation, never erotic model, ordinary woman in cape, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/na-ruixa-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/na-ruixa-attempt-01.json",
+      "native_sha256": "dcc5c4bedc6f79d4f62fdddc7775692236fb5a2ffee24f9e2031906a63e8d2e4",
+      "reason": "Codex native and 200px self-reject: woman reads as an unsupported giant compared with the nearby sailor and boat; scale is not documented."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "resume_2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 2118,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-8f93-7e10-a57b-ba1c53b27cbc/exec-0bc86753-dc60-458c-83c4-914b2e60f945.png",
+  "generated_at": "2026-10-16T07:34:28.203Z",
+  "original_file": "data/artwork-generated/batch-2118/rejected/na-ruixa-attempt-02.png",
+  "native_sha256": "d88b13a7458563534a508160909b2d6c997ad84c0e3590e3951b23ad73177aee",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native 1254px and 200px inspected: adult golden-blond fairy has one head, two arms holding single wide blue cloak and opaque gown. Two human-size adults at same depth; blue cloak coils around sailor as a physical cloth trap (c04), mouth open in enchanting song (c07). Cave, storm waves and rain c04 support active capture; threatening action readable at 200px without invented giant scale, wings, eye effects or aura. No injury, nudity, text or borrowed design. First attempt archived for unsupported giant scale. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "d88b13a7458563534a508160909b2d6c997ad84c0e3590e3951b23ad73177aee",
+    "reviewed_at": "2026-10-16T07:34:28.203Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:10:48+07:00",
+    "native_sha256": "d88b13a7458563534a508160909b2d6c997ad84c0e3590e3951b23ad73177aee",
+    "notes": "Viewed native 1254px, 200px, and face, both-hand and boat crops. What is correct: one adult fairy with one head, two eyes and long golden-blond hair (na-ruixa-c06), in a fully opaque high-necked blue gown. Both hands (thumb plus four) spread one continuous wide blue cloak (c04). The cloak wraps an adult sailor of equal size in the same fishing boat, so attempt 01's giantess problem is fixed. Her mouth is open in song (c07). Sea cave, storm waves, spray and rain (c04). No nudity, injury, text or aura. It fails the sangar test. (1) Her face is a soft glamour-model face with downcast, tender eyes, tilted toward the man. The bearded sailor gazes calmly up into it, and the two faces almost touch inside the enveloping cloak. This is a romance-novel cover embrace, not a capture. Nothing 'malign' (c05) is legible, and the sailor shows no struggle or danger. (2) A glowing golden-hour sunset with a headland fills the right third and gives the storm a warm postcard look. At 200px it reads as a lovers' embrace in a boat at sunset. That is the same failure as the r03 mulher-marinha rejection (pretty rather than dangerous). It fails Uji Sangar #2 and #7."
+  },
+  "correction_notes": "Keep these elements: the one adult golden-haired fairy (na-ruixa-c06) in a fully opaque high-necked gown, and the single wide blue cloak as the capturing instrument (c04). Keep her open mouth in an enchanting song (c07) and one adult sailor at equal human scale in the same small boat (no giantess). Keep the Mallorcan sea cave and the storm (c04). Fix the following. (a) Make her 'malign and beautiful' (c05). Give her a cold, severe, unsmiling face with eyes fixed hard on the viewer or on her prey, not soft or tender; no glamour-model softness and no near-kiss. (b) Make the capture physical and dangerous. The cloak hauls the sailor backward over the gunwale toward the black water and the cave. His body strains against it, his hands clutch the boat's edge or an oar, and his face is dazed or terrified, not gazing up at her. Keep their faces apart and avoid any embrace composition. (c) Light the scene as a dark storm: black clouds, driving rain and spray, and one cold or narrow light source. No golden-hour sunset or warm postcard horizon. Do not show injury or drowning, and add no musical symbols, text or aura.",
+  "receipt_file": "data/artwork-generated/batch-2118/rejected/na-ruixa-attempt-02.json",
+  "reason": "Keep these elements: the one adult golden-haired fairy (na-ruixa-c06) in a fully opaque high-necked gown, and the single wide blue cloak as the capturing instrument (c04). Keep her open mouth in an enchanting song (c07) and one adult sailor at equal human scale in the same small boat (no giantess). Keep the Mallorcan sea cave and the storm (c04). Fix the following. (a) Make her 'malign and beautiful' (c05). Give her a cold, severe, unsmiling face with eyes fixed hard on the viewer or on her prey, not soft or tender; no glamour-model softness and no near-kiss. (b) Make the capture physical and dangerous. The cloak hauls the sailor backward over the gunwale toward the black water and the cave. His body strains against it, his hands clutch the boat's edge or an oar, and his face is dazed or terrified, not gazing up at her. Keep their faces apart and avoid any embrace composition. (c) Light the scene as a dark storm: black clouds, driving rain and spray, and one cold or narrow light source. No golden-hour sunset or warm postcard horizon. Do not show injury or drowning, and add no musical symbols, text or aura.",
+  "original_source_file": "data/artwork-generated/batch-2118/originals/na-ruixa.png",
+  "archived_at": "2026-10-16T08:18:50.260Z"
+}

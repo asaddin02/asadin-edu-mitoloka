@@ -1,0 +1,87 @@
+{
+  "slug": "cuyancua",
+  "name": "Cuyancúa",
+  "batch": 2029,
+  "prompt": "Edit ONLY both front feet of this Cuyancúa pig-serpent illustration: replace the clawed fingerlike bear paws with unmistakable PIG CLOVEN HOOVES, each foot has exactly TWO broad blunt black hoof halves split by a central cleft, and no long claws or fingers. Both hooves press/dig mud on riverbank. Preserve every other detail and composition: single pig head with snout and ears, upper pig torso, two forelegs, long coiling snake lower body with NO hind legs, rain, clean spring gushing from dug hollow. Square original painterly cinematic style. No text, aura, extra limbs or gore. Source cuyancua-c04 upper half pig; cuyancua-c09 spring where it digs.",
+  "depicted_variant": "ONE pig head with two ears and two eyes, pig upper torso and TWO pig forelegs; continuous lower half is ONE long thick snake body coiling into tail, NO hind legs, NO wings or horns.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE pig head with two ears and two eyes, pig upper torso and TWO pig forelegs; continuous lower half is ONE long thick snake body coiling into tail, NO hind legs, NO wings or horns.",
+      "claim_ids": [
+        "cuyancua-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fresh clean springwater gushes from the hollow it digs while heavy storm rain begins; physically displaced mud and water, no aura.",
+      "claim_ids": [
+        "cuyancua-c02",
+        "cuyancua-c09",
+        "cuyancua-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Riverbank near Izalco and Atecozol, El Salvador.",
+      "claim_ids": [
+        "cuyancua-c01",
+        "cuyancua-c06",
+        "cuyancua-c10"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "cuyancua-c04",
+    "cuyancua-c02",
+    "cuyancua-c09",
+    "cuyancua-c13",
+    "cuyancua-c01",
+    "cuyancua-c06",
+    "cuyancua-c10"
+  ],
+  "aura": "Imposing action and documented attributes (cuyancua-c04); effect basis cuyancua-c02,cuyancua-c09,cuyancua-c13.",
+  "artistic_choices": [
+    "Dark warm palette, close low camera and dramatic side-light are artistic choices, not additional source facts.",
+    "Effects confined to documented action; no generic aura. Human clothing chosen opaque where needed; no unsupported giant size."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-6a6b22ac-25db-42de-af17-c0104e4ca8cf.png",
+  "generated_at": "2026-10-16T03:22:02.737Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/cuyancua.png",
+  "native_sha256": "922082e62f170286f72bf99f68d7e05950fcdc8ebc6fbaa56f0b5ca3e34c1a94",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2029/rejected/cuyancua-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2029/rejected/cuyancua-attempt-01.json",
+      "native_sha256": "136877e5f1149ca37b28d489eced7a9e7f9a9ef9ff391d1b6ad6ace9c8cd6a6e",
+      "reason": "Self-check: front feet became clawed bear-like digits instead of pig cloven hooves; upper half must be pig c04."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected after hoof correction: one pig head/torso, two forelegs now ending in paired black cloven hoof halves, continuous coiling snake lower body with no hind legs. Fresh spring erupts from dug riverbank c09, rain c13. Aggressive cry/physical digging dominates frame; no aura, text or gore. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "922082e62f170286f72bf99f68d7e05950fcdc8ebc6fbaa56f0b5ca3e34c1a94",
+    "reviewed_at": "2026-10-16T03:22:02.751Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T11:44:40+07:00",
+    "native_sha256": "922082e62f170286f72bf99f68d7e05950fcdc8ebc6fbaa56f0b5ca3e34c1a94",
+    "notes": "Viewed native 1254px + 200px. A large hybrid exactly per c04: a boar/pig upper half (snout, two ears, two eyes, tusks) with two hoofed forelegs, transitioning into a long scaled serpentine lower half with NO hind legs, the tail coiling into the river. It digs a muddy riverbank hollow from which fresh spring water gushes (c09), in heavy rain beside a river with the volcano behind (c02/c13/c06). Menacing low angle, reads clearly at 200px; no extra horns/wings, no text or aura."
+  }
+}

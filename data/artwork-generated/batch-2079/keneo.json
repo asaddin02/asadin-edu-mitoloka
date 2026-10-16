@@ -1,0 +1,94 @@
+{
+  "slug": "keneo",
+  "basis_claim_ids": [
+    "keneo-c01",
+    "keneo-c02",
+    "keneo-c03",
+    "keneo-c05",
+    "keneo-c08"
+  ],
+  "depicted_variant": "Stern red-skinned oni elder releasing an empty robe whose sin-weight bends a thin Eryoju branch deeply down beside Sanzu River.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Oni-formed old man who hangs clothing",
+      "claim_ids": [
+        "keneo-c01",
+        "keneo-c02",
+        "keneo-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Robe hangs from Eryoju and branch bends to measure sins",
+      "claim_ids": [
+        "keneo-c03",
+        "keneo-c05",
+        "keneo-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Eryoju beside Sanzu River",
+      "claim_ids": [
+        "keneo-c01",
+        "keneo-c08"
+      ]
+    }
+  ],
+  "aura": "Riverside judgement of sin by physically bending branch c05/c08 and severe oni elder c01 create sacred awe without aura.",
+  "artistic_choices": [
+    "Dark-red weathered oni skin, fierce brow, bared teeth, wild hair and two small blunt horns are editorial interpretation of documented oni-formed old man c01/c08, following explicit Claude correction.",
+    "Opaque coarse robe is modest editorial clothing. No torture or victims depicted.",
+    "Thin deeply sagging branch and hands visibly apart make the documented c05/c08 sin weighing readable.",
+    "Moonlight and close low framing are editorial, no added magic or giant scale."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Keneo, the old ONI who judges the weight of sin by hanging souls clothing at the Sanzu River.\nANATOMY: ONE clearly demonic ONI-FORMED elderly man, ONE head, TWO eyes, TWO arms, TWO legs, glaring deep-set eyes, massive furrowed brow, coarse weathered DARK RED oni skin, bared ordinary teeth, wild long grey hair and beard, TWO SMALL blunt oni horns. He wears a CLOSED fully opaque coarse black-brown robe from neck to ankles. [keneo-c01,keneo-c02,keneo-c08]\nMOMENT: Glare down toward viewer in severe judgement as he WITHDRAWS BOTH empty open five-fingered hands away from an EMPTY pale robe he has just hung. Brow lowered, mouth a stern snarl, never startled or pleading.\nPOWER: A thin living branch of the HUGE Eryoju tree begins high at left, stretches horizontally then BENDS IN A DEEP DOWNWARD CURVE solely from the impossible weight of ONE empty pale robe hanging freely at the tip. A CLEAR visible gap separates his hands from the branch and robe; NO HANDS pull, support or touch either. The branch is thin enough that deep sag visibly communicates weight of sin, while the trunk is massive. [keneo-c03,keneo-c05,keneo-c08]\nSCALE & CAMERA: low close view, oni elder face fills upper right third, down-curved branch and empty robe occupy left third, hands between with clear gaps; great trunk and dark river behind. No invented giant size for Keneo.\nLIGHT & WEATHER: one cold moon behind cloud; stark rim light on coarse red face and robe, deep walnut shadows, ordinary river mist.\nSURFACE: coarse red aged skin, tangled grey hair, worn opaque cloth, deeply furrowed bark and strained thin living wood.\nSETTING: great Eryoju beside Sanzu River in the folk Buddhist underworld. [keneo-c01,keneo-c08]\nMOOD: sacred awe and stern terrifying judgement, unmistakable oni elder rather than ordinary old man hanging laundry.\nHARD CONSTRAINTS: no people inside weighed robe, no victims/torture/skin removal, no nudity or gore; no generic aura, neon or energy ribbons; no text, logo, border or watermark; no extra limbs/fingers; no borrowed film/game/anime/comic design.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/keneo-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/keneo-attempt-01.json",
+      "native_sha256": "8003afa8be23e7618bab28cb6bbe490565b602df659d58423a886abdf69d07da",
+      "reason": "Self Sangar check: old man appears to be holding tree branch and hanging laundry; sin-weighing supernatural burden unclear, face looks away. Correct to release unsupported robe and show branch bending severely under it, with confrontational severe face."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/keneo-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/keneo-attempt-02.json",
+      "native_sha256": "af578880e8b6c107c10de08a6170d181b796e0c7031d72127925ac2bd61dfdca",
+      "reason": "Redraw Keneo with the documented oni form (keneo-c01/c08), not an ordinary old man. A fierce oni elder face (glaring eyes, bared teeth, coarse dark-red or weathered oni skin, wild hair) is supported by 'oni-formed old man'. If small oni horns are used, record them in artistic_choices as the interpretation of c08. Make his expression severe and judging, not startled. Show the robe taken from a dead soul (c03) hanging from a thin branch of the great Eryoju tree that bends visibly and strongly under the robe's weight alone, as the measure of sin (c05/c08), by the Sanzu River (c01). Keep a fully opaque robe, no torture or victims, and no text or aura."
+    }
+  ],
+  "name": "Keneō",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "resume_2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-69db-7f82-b99a-f641e96a1f97/exec-e7f93480-972e-4658-8c5a-6744fb3679be.png",
+  "generated_at": "2026-10-16T07:30:33.029Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/keneo.png",
+  "native_sha256": "f0e19fa596a17e661b99bfbda7f3d83ebc6b5f0666500839a6fa91b66425683d",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254 and200 inspected: red weathered oni elder with two small horns as recorded interpretation c01/c08, severe judging glare, wild grey hair, closed opaque robe. One head/two eyes/two arms; five fingers each open withdrawing hand, visibly separated from thin branch and empty robe. Eryoju branch bends deeply down under hanging robe alone c03/c05/c08; Sanzu river behind. Oni form and sin-weight action clear at200, no startled ordinary man, victims/torture/text/aura/gore. Seven Sangar checks pass; previous rejected history preserved.",
+    "limitations": [],
+    "native_sha256": "f0e19fa596a17e661b99bfbda7f3d83ebc6b5f0666500839a6fa91b66425683d",
+    "reviewed_at": "2026-10-16T07:30:33.029Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:40:40+07:00",
+    "native_sha256": "f0e19fa596a17e661b99bfbda7f3d83ebc6b5f0666500839a6fa91b66425683d",
+    "notes": "Viewed native 1254px, 200px, and native crops of the face/horns, both hands, the branch and the robe. An oni-formed old man (keneo-c01/c08): one head, two yellow-glinting eyes under a heavy furrowed brow, coarse dark-red weathered skin, a stern snarl, wild grey hair, a long beard and two horns (on the forehead and temple of the tilted head; an editorial oni interpretation recorded in artistic_choices). He wears a closed, opaque, coarse black-brown robe. This is no longer the ordinary old man of attempt-02. A thin branch of the massive Eryoju trunk (c08) arches out and bends sharply down, with an empty pale robe knotted at its tip, so the sag itself shows the weight of sin (c03/c05/c08). Both open hands are pulled back with a clear gap from the branch and robe. The near hand shows a thumb plus four fingers; the far hand, back toward the viewer, shows the thumb and three fingers with the little finger occluded, which is not a malformation. Behind him is the misty Sanzu riverbank with old posts (c01). He looms in the upper right from a low angle with a judging glare that reads at 200px. No victims, torture, flayed skin, text, aura or borrowed design."
+  }
+}

@@ -1,0 +1,1686 @@
+{
+  "target": 5,
+  "tool": "OpenAI built-in image_gen",
+  "scope": "5 illustrations for every complete and valid research entry that has no approved image yet.",
+  "selected_at": "2026-10-16T07:40:13.388Z",
+  "baseline_counts": {
+    "lengkap-bergambar": 1890,
+    "lengkap-informasi": 1276,
+    "lengkap-tidak-valid": 0,
+    "tidak-lengkap": 367,
+    "belum-ada-entri": 1324,
+    "bukan-makhluk": 139
+  },
+  "status": "complete",
+  "complete": 5,
+  "presence_policy": true,
+  "require_root_visual_review": true,
+  "items": [
+    {
+      "index": 1,
+      "slug": "nootaikok",
+      "canonical_name": "Nootaikok",
+      "worker": "codex",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-145.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-145",
+        "slug": "nootaikok",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-07",
+        "identity": {
+          "canonical_name": "Nootaikok",
+          "native_name": null,
+          "display_name": {
+            "id": "Nootaikok",
+            "en": "Nootaikok"
+          },
+          "wikidata_qid": "Q3343418",
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Nootîttok",
+            "language": "iu",
+            "name_type": "alias",
+            "claim_ids": [
+              "nootaikok-c02"
+            ]
+          },
+          {
+            "name": "Nutittuq",
+            "language": "iu",
+            "name_type": "alias",
+            "claim_ids": [
+              "nootaikok-c02"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "roh",
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "classification": {
+          "value": "spirit",
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-inuit",
+          "suggested_new": null,
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "region": {
+          "value": "north-america",
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "water",
+            "claim_ids": [
+              "nootaikok-c03"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "benevolent",
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Nootaikok adalah roh Inuit penghuni gunung es dan gletser yang menuntun pemburu ke anjing laut [nootaikok-c01].",
+          "en": "Nootaikok is an Inuit spirit dwelling in icebergs and glaciers who led hunters to seals [nootaikok-c01].",
+          "claim_ids": [
+            "nootaikok-c01"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Dalam mitologi Inuit, Nootaikok adalah roh yang menguasai dan tinggal di dalam gunung es dan gletser, dan bersama Agloolik menuntun pemburu ke anjing laut [nootaikok-c01]. Sumber lain juga menyebutnya Nootîttok atau Nutittuq dan menggambarkannya sebagai dewa yang memimpin gunung es dan gletser [nootaikok-c02].",
+            "en": "In Inuit mythology, Nootaikok was a spirit who ruled and lived inside icebergs and glaciers and, with Agloolik, led hunters to seals [nootaikok-c01]. Another source also calls it Nootîttok or Nutittuq and describes it as the god who rules icebergs and glaciers [nootaikok-c02].",
+            "claim_ids": [
+              "nootaikok-c01",
+              "nootaikok-c02"
+            ]
+          },
+          {
+            "id": "Ia digambarkan sebagai roh yang baik dan ramah, berpakaian hitam, hidup di dalam air, dan memberikan anjing laut ketika dipanggil [nootaikok-c03]. Bersama Agloolik, ia menuntun para pemburu ke anjing laut [nootaikok-c04]. Agloolik sendiri disebut hidup di bawah es Samudra Arktik sebagai penjaga pelindung anjing laut [nootaikok-c05], dan memberkati pemburu yang berdoa kepadanya dengan buruan [nootaikok-c06].",
+            "en": "It is described as a beneficial, friendly spirit dressed in black that lives in the water and offers seals when invoked [nootaikok-c03]. With Agloolik, it leads hunters to seals [nootaikok-c04]. Agloolik is said to live beneath the Arctic Ocean ice as tutelary guardian of seals [nootaikok-c05], and to bless hunters who pray to it with prey [nootaikok-c06].",
+            "claim_ids": [
+              "nootaikok-c03",
+              "nootaikok-c04",
+              "nootaikok-c05",
+              "nootaikok-c06"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Agloolik",
+            "relation_type": "ally",
+            "note": {
+              "id": "Bersama-sama menuntun pemburu ke anjing laut.",
+              "en": "Together they lead hunters to seals."
+            },
+            "claim_ids": [
+              "nootaikok-c01",
+              "nootaikok-c04"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa roh penolong berburu penting bagi masyarakat Arktik?",
+            "en": "Why were hunting-helper spirits important in the Arctic?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "nootaikok-s1",
+            "url": "https://en.wikipedia.org/wiki/Nootaikok",
+            "title": "Nootaikok",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-09-30"
+          },
+          {
+            "id": "nootaikok-s2",
+            "url": "https://fr.wikipedia.org/wiki/Nootaikok",
+            "title": "Nootaikok",
+            "author": "",
+            "publisher": "Wikipedia (edisi bahasa Prancis)",
+            "published": null,
+            "language": "fr",
+            "type": "wikipedia",
+            "accessed": "2026-10-07"
+          },
+          {
+            "id": "nootaikok-s3",
+            "url": "https://en.wikipedia.org/wiki/Agloolik",
+            "title": "Agloolik",
+            "author": "",
+            "publisher": "Wikipedia",
+            "published": "",
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-07"
+          }
+        ],
+        "claims": [
+          {
+            "id": "nootaikok-c01",
+            "source_id": "nootaikok-s1",
+            "quote": "In Inuit mythology, Nootaikok was a spirit who presided over and lived inside icebergs and glaciers. Along with Agloolik, the spirit led hunters to seals.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam mitologi Inuit, Nootaikok adalah roh yang menguasai dan tinggal di dalam gunung es dan gletser; bersama Agloolik ia menuntun pemburu ke anjing laut.",
+              "en": "In Inuit mythology, Nootaikok was a spirit who ruled and lived inside icebergs and glaciers and, with Agloolik, led hunters to seals."
+            }
+          },
+          {
+            "id": "nootaikok-c02",
+            "source_id": "nootaikok-s2",
+            "quote": "Nootaikok, Nootîttok ou Nutittuq est le dieu qui dirige les icebergs et les glaciers.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam sumber ini, Nootaikok juga disebut Nootîttok atau Nutittuq dan digambarkan sebagai dewa yang memimpin gunung es dan gletser.",
+              "en": "In this source Nootaikok is also called Nootîttok or Nutittuq and is described as the god who rules icebergs and glaciers."
+            }
+          },
+          {
+            "id": "nootaikok-c03",
+            "source_id": "nootaikok-s2",
+            "quote": "C'est un esprit bénéfique et amical vêtu de noir qui vit dans l'eau et offre des phoques lorsqu'il est invoqué.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia digambarkan sebagai roh yang baik dan ramah, berpakaian hitam, hidup di dalam air, dan memberikan anjing laut ketika dipanggil.",
+              "en": "It is described as a beneficial, friendly spirit dressed in black that lives in the water and offers seals when invoked."
+            }
+          },
+          {
+            "id": "nootaikok-c04",
+            "source_id": "nootaikok-s2",
+            "quote": "Avec Agloolik, il conduit les chasseurs vers les phoques.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Bersama Agloolik, ia menuntun para pemburu ke anjing laut.",
+              "en": "With Agloolik, it leads hunters to seals."
+            }
+          },
+          {
+            "id": "nootaikok-c05",
+            "source_id": "nootaikok-s3",
+            "quote": "is a spirit that lives underneath the ice of the Arctic Ocean and acts as tutelary guardian for the protection of seals.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Agloolik, roh yang disebut bersama Nootaikok dalam sumber lain, hidup di bawah es Samudra Arktik dan menjadi penjaga pelindung anjing laut.",
+              "en": "Agloolik, the spirit named alongside Nootaikok in other sources, lives underneath the ice of the Arctic Ocean as tutelary guardian of seals."
+            }
+          },
+          {
+            "id": "nootaikok-c06",
+            "source_id": "nootaikok-s3",
+            "quote": "If Inuit hunters prayed to the spirit before fishing, Agloolik will bless them with prey.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Jika pemburu Inuit berdoa kepada Agloolik sebelum memancing, ia akan memberkati mereka dengan buruan.",
+              "en": "If Inuit hunters prayed to Agloolik before fishing, it would bless them with prey."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+          },
+          {
+            "field": "sources",
+            "searched": "Rujukan Wikipedia (Andrews, Dictionary of Nature Myths, 2000, hlm. 15-16; Peck, Apostle to the Inuit) hanya ada di Google Books yang tidak bisa dibuka; pencarian archive.org untuk \"Nootaikok\" nihil. Sumber tambahan adalah edisi Wikipedia bahasa Prancis dan artikel Agloolik, semuanya dihitung penerbit Wikipedia."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "nootaikok-c02",
+        "nootaikok-c03"
+      ],
+      "receipt_path": "data/artwork-generated/batch-2123/nootaikok.json",
+      "original_file": "/home/asadin/Projects/asadin-edu-mitoloka/data/artwork-generated/batch-2123/originals/nootaikok.png",
+      "native_sha256": "01f63984f672aef90f8ee44ee1a963c8dfe65bd5795e69bda8caabe1adb68456",
+      "url": "/assets/art/nootaikok-verified.webp",
+      "prompt": "ONE original square premium Mitoloka PAINTING of Nootaikok, the benevolent Inuit spirit dressed in black who dwells in water inside icebergs and offers seals to hunters. Paint a sacred guardian in profound darkness, NOT a photographic man swimming with wildlife.\nMEDIUM FIRST: a visibly HAND-PAINTED OIL illustration with thick expressive brushstrokes and layered pigment, especially on the FACE, hands, fur and ice. Stylized timeless painted face, simplified dignified planes, absolutely no photographic skin pores, stock-photo expression, tourism photograph, 3D render or glossy realistic portrait. The painting must have dramatic classical CHIAROSCURO.\nANATOMY: ONE humanlike spirit, ONE head, TWO ordinary eyes, TWO arms, TWO legs; ageless solemn KINDLY BUT GRAVE face, closed mouth, level eyebrows, calm direct unwavering gaze at viewer, NO SMILE OR SMIRK. No invented anatomy, horns, fins, glowing eyes, skull or void hood. Fully opaque HEAVY MATTE BLACK ARCTIC SKIN/FUR PARKA with open black FUR-RUFFED HOOD around clearly present face, close fitted sleeves, black trousers and boots. Not a friar robe, cloak, fantasy costume or diving suit. Two ordinary open hands, EXACTLY FIVE digits each, four fingers plus opposed thumb, palms offered generously. Humanlike face and Arctic clothing are editorial interpretation of dressed friendly spirit. [nootaikok-c03]\nMOMENT: RELEASE a stream of THREE healthy ordinary seals upward PAST HIS TWO OPEN PALMS toward a distant high patch of light. The seals rise from BLACK DEPTHS behind and below his body, pass close around his offering hands, then swim upward toward hunters far above. The spirit itself hangs effortlessly UPRIGHT, VERTICAL AND UTTERLY STILL in deep water: feet not on any floor, no swimming kick or paddling, no breath bubbles. The fur ruff floats weightlessly around the face, loose fur ends drift in water. This impossible untroubled stillness inside deep ice reads as a SPIRIT AT HOME, not a person swimming. [nootaikok-c01,nootaikok-c03,nootaikok-c04]\nPOWER: guiding and offering seals ONLY. Stationary intact ancient ice walls and natural dark water. No ice breaking, parting, cracks, moving ice, water magic, aura, eye effects or light emitted by spirit. [nootaikok-c01,nootaikok-c02,nootaikok-c03]\nSCALE & CAMERA: EXTREMELY LOW, TIGHT, FORESHORTENED camera inside deep water, looking up close at guardian. One large offered palm near foreground, face close and looming above camera, other open hand slightly nearer chest. Head and shoulders fill upper-left half; body recedes vertically down into dark depths. Normal humanlike body scale, no invented giant size; perspective produces majesty. Seals pass around and beyond hands without blocking the face or fingers.\nLIGHT: OVERWHELMING LOW-KEY DARKNESS. Almost everything is DEEP BLUE-BLACK and walnut-black. ONE narrow WHITE DAYLIGHT SHAFT enters a VERY SMALL DISTANT NATURAL OPENING high at upper-right, crosses dark water and strikes one side of solemn face and both offering hands. All other face planes remain in deep shadow, enough reflected same-shaft light to read both eyes. Seal edges catch this SAME light. NO bright cyan scene, evenly lit ice, blue sky, cloud puffs, sunny opening, beauty lighting, smile, bubbles or sparkling magic particles.\nSETTING: deep submerged interior of an iceberg/glacier ruled by Nootaikok, vast stationary ice walls only dimly suggested in surrounding blackness. At the tiny far opening, a narrow bright SOLID ICE LEDGE projects clearly above water. TWO minute secondary Inuit hunters stand with BOTH FEET ON THAT DRY ICE LEDGE, entirely out of water, in fur-ruffed skin parkas; one harpoon and one small skin-covered kayak rests on the same solid ice. Tiny silhouettes only, no faces or knitted caps. No full-width split above/below-water panorama; opening is a small distant aperture inside dark scene. [nootaikok-c01,nootaikok-c02,nootaikok-c03,nootaikok-c04]\nSURFACE: bold oil-painted tactile black hide, floating soft black fur, dignified hand-painted face, dark ice and natural seal fur, visible pigment and brush rhythm.\nMOOD: solemn protective spiritual MAJESTY, ancient guardian calmly releasing seals from profound depths, friendly but overwhelming, never casual, smiling, cute, sinister, Grim Reaper-like, decorative or tourism photo.\nHARD CONSTRAINTS: no text, letters, border, watermark, frame, invented sacred emblems, tattoos, extra heads/limbs/fingers, nudity, injury or gore; no aura, neon, glowing eyes, energy ribbon, ice powers, blue sky or cyan daylight wash; no borrowed film/game/anime design.",
+      "depicted_variant": "Solemn hand-painted black-clad guardian effortlessly upright in deep blue-black iceberg water, close low perspective, releasing seals past open palms toward one tiny distant light shaft.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One friendly grave ageless humanlike spirit, visible face/two eyes/closed mouth, matte black Arctic skin/fur clothing and two five-digit offering hands; upright effortless underwater, no smile or bubbles.",
+          "claim_ids": [
+            "nootaikok-c03"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Offers/releases seals toward hunters through open-handed guidance; no ice or water magic.",
+          "claim_ids": [
+            "nootaikok-c01",
+            "nootaikok-c03",
+            "nootaikok-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Deep dark water inside stationary iceberg/glacier; one distant natural opening lights spirit; tiny hunters entirely on solid ice ledge at opening.",
+          "claim_ids": [
+            "nootaikok-c01",
+            "nootaikok-c02",
+            "nootaikok-c03"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "nootaikok-c03",
+        "nootaikok-c01",
+        "nootaikok-c02",
+        "nootaikok-c04"
+      ],
+      "aura": "No aura. Sacred awe comes from impossible effortless underwater dwelling c03, offering seals c03/c04 and close low framing within iceberg domain c01/c02 under one natural light shaft.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native1254,200 and BOTH hand crops inspected: plainly hand-painted broad oil brushwork on solemn ageless face/fur/hands/ice, two ordinary eyes with steady grave gaze, closed mouth with NO smile/smirk. Black opaque Arctic fur/skin clothing c03, upright effortless submerged posture and weightless fur with no breath bubbles or swimming action; lower legs largely dark/occluded by seals, no extra limbs visible. Both offered palms counted exactly thumb plus four fingers. Three ordinary seals rise from dark depth past open hands toward high tiny opening c03/c04. Deep blue-black low-key interior c01/c02 with ONE daylight shaft on face/hands/seal edges; no cyan tourism panorama. Two tiny hunters entirely above water on solid ice ledge, harpoon and kayak on ice. Majestic guardian looms by low close foreshortening, no invented giant size/anatomy, ice/water magic, aura, text or injury. Seven Sangar checks pass. Full prior Claude reject archived, older01/02 intact.",
+        "limitations": [],
+        "native_sha256": "01f63984f672aef90f8ee44ee1a963c8dfe65bd5795e69bda8caabe1adb68456",
+        "reviewed_at": "2026-10-16T08:28:42.888Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e0d8128592a5a448aae86f6f21ce1d6c5790592f3b9d01a512853e2f6ea50cd3"
+    },
+    {
+      "index": 2,
+      "slug": "nyubachi-bo",
+      "canonical_name": "Nyūbachi-bō",
+      "worker": "codex",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-058.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-058",
+        "slug": "nyubachi-bo",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-01",
+        "identity": {
+          "canonical_name": "Nyūbachi-bō",
+          "native_name": {
+            "text": "乳鉢坊",
+            "script": "Kanji",
+            "claim_ids": [
+              "nyubachi-bo-c01"
+            ]
+          },
+          "display_name": {
+            "id": "Nyūbachi-bō",
+            "en": "Nyūbachi-bō"
+          },
+          "wikidata_qid": "Q11370593",
+          "claim_ids": [
+            "nyubachi-bo-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "yokai",
+          "claim_ids": [
+            "nyubachi-bo-c01"
+          ]
+        },
+        "classification": {
+          "value": "yokai",
+          "claim_ids": [
+            "nyubachi-bo-c01"
+          ]
+        },
+        "culture": {
+          "value": "japanese-folklore",
+          "suggested_new": null,
+          "claim_ids": [
+            "nyubachi-bo-c01"
+          ]
+        },
+        "region": {
+          "value": "east-asia",
+          "claim_ids": [
+            "nyubachi-bo-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Nyūbachi-bō adalah yōkai tsukumogami berupa piringan tembaga alat musik, yang digambar Toriyama Sekien bersama Hyōtan-kozō.",
+          "en": "Nyūbachi-bō is a tsukumogami yōkai of a copper percussion plate, drawn by Toriyama Sekien together with Hyōtan-kozō.",
+          "claim_ids": [
+            "nyubachi-bo-c01",
+            "nyubachi-bo-c02",
+            "nyubachi-bo-c06"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Nyūbachi-bō adalah yōkai dalam Hyakki Tsurezure-bukuro karya Toriyama Sekien. Ia digambar seperti manusia dengan piringan tembaga di kepalanya, bersama Hyōtan-kozō, yōkai labu. Yōkai berbentuk sama sudah tergambar dalam Hyakki Yagyō Emaki zaman Muromachi, dan diperkirakan itulah model yang dipakai Sekien.",
+            "en": "Nyūbachi-bō is a yōkai in Toriyama Sekien’s Hyakki Tsurezure-bukuro. It is drawn as a human-like figure with a copper plate on its head, together with Hyōtan-kozō, a gourd yōkai. A yōkai of the same shape is already drawn in the Muromachi-period Hyakki Yagyō Emaki, and Sekien is thought to have used it as his model.",
+            "claim_ids": [
+              "nyubachi-bo-c01",
+              "nyubachi-bo-c02"
+            ]
+          },
+          {
+            "id": "Kamus Digital Daijisen Plus menggolongkannya sebagai sejenis tsukumogami, hantu dari piringan tembaga, alat perkusi yang dipakai dalam sandiwara. Piringan itu disebut nyōhachi atau nyūbachi, dōbatsushi, atau 銅拍子, dan aslinya alat logam impor yang dipakai biksu dalam upacara Buddha di kuil.",
+            "en": "The Digital Daijisen Plus dictionary classes it as a kind of tsukumogami, a monster of the copper plate, a percussion instrument used in theatre. The plate is called nyōhachi or nyūbachi, dōbatsushi, or 銅拍子, and was originally an imported metal instrument used by monks at Buddhist ceremonies in temples.",
+            "claim_ids": [
+              "nyubachi-bo-c06",
+              "nyubachi-bo-c03"
+            ]
+          },
+          {
+            "id": "Wujud yōkai ini tidak jelas, seperti yōkai Sekien lainnya. Inada Atsunobu menjelaskan bahwa gambar Sekien mungkin menunjukkan yōkai dari suri-gane (摺鉦), dan sejak era Heisei ia sering dijelaskan sebagai yōkai yang mengejutkan orang dengan bunyi keras.",
+            "en": "What kind of yōkai this is remains unclear, as with Sekien’s other yōkai. Inada Atsunobu explains that Sekien’s picture may show a yōkai of the suri-gane (摺鉦), and since the Heisei era it has often been explained as one that startles people with loud noise.",
+            "claim_ids": [
+              "nyubachi-bo-c05",
+              "nyubachi-bo-c04"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "nyubachi-bo-s1",
+            "published": null,
+            "accessed": "2026-10-01",
+            "url": "https://ja.wikipedia.org/wiki/%E4%B9%B3%E9%89%A2%E5%9D%8A",
+            "title": "乳鉢坊",
+            "publisher": "Wikipedia",
+            "language": "ja",
+            "type": "wikipedia",
+            "author": null
+          },
+          {
+            "id": "nyubachi-bo-s2",
+            "published": null,
+            "accessed": "2026-10-07",
+            "url": "https://kotobank.jp/word/%E4%B9%B3%E9%89%A2%E5%9D%8A-1698520",
+            "title": "乳鉢坊とは？ 意味や使い方 - コトバンク (デジタル大辞泉プラス)",
+            "publisher": "コトバンク (小学館 デジタル大辞泉プラス)",
+            "language": "ja",
+            "type": "encyclopedia",
+            "author": null
+          }
+        ],
+        "claims": [
+          {
+            "id": "nyubachi-bo-c01",
+            "source_id": "nyubachi-bo-s1",
+            "quote": "乳鉢坊（にゅうばちぼう）は、鳥山石燕 『百器徒然袋』に描かれている日本の妖怪で、銅盤の妖怪である。",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Nyūbachi-bō adalah yōkai dalam Hyakki Tsurezure-bukuro karya Toriyama Sekien, yaitu yōkai berupa piringan tembaga (銅盤).",
+              "en": "Nyūbachi-bō is a yōkai depicted in Toriyama Sekien’s Hyakki Tsurezure-bukuro, a yōkai of a copper plate (銅盤)."
+            }
+          },
+          {
+            "id": "nyubachi-bo-c02",
+            "source_id": "nyubachi-bo-s1",
+            "quote": "銅盤を頭にかぶった人のような姿で、瓢箪の妖怪である瓢箪小僧と共に描かれている。室町時代の『百鬼夜行絵巻』にも同じ形状な妖怪が描かれているので、これをモデルとして石燕が描いて名づけた妖怪であろうと考えられている。",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia digambar seperti manusia dengan piringan tembaga di kepala, bersama Hyōtan-kozō, yōkai labu. Yōkai berbentuk sama sudah tergambar dalam Hyakki Yagyō Emaki zaman Muromachi, dan diperkirakan itulah model yang dipakai Sekien untuk menggambar dan menamainya.",
+              "en": "It is drawn as a human-like figure wearing a copper plate on its head, together with Hyōtan-kozō, a gourd yōkai. A yōkai of the same shape is already drawn in the Muromachi-period Hyakki Yagyō Emaki, and Sekien is thought to have drawn and named it using that as a model."
+            }
+          },
+          {
+            "id": "nyubachi-bo-c03",
+            "source_id": "nyubachi-bo-s1",
+            "quote": "銅盤は芝居の鳴り物にも使われる楽器で、鐃鈸（にょうはち、にゅうばち）あるいは銅鈸子（どうばつし）・銅拍子とも呼ばれる。本来は寺社などで僧侶が法会をおこなう時などに使用していた金属製の輸入楽器である。",
+            "locator": "Article text",
+            "context": "historical-record",
+            "statement": {
+              "id": "Piringan tembaga itu adalah alat musik yang juga dipakai sebagai pengiring pertunjukan panggung, disebut nyōhachi atau nyūbachi (鐃鈸), dōbatsushi (銅鈸子), atau 銅拍子; aslinya alat logam impor yang dipakai biksu dalam upacara Buddha di kuil.",
+              "en": "The copper plate is an instrument also used for stage accompaniment, called nyōhachi or nyūbachi (鐃鈸), dōbatsushi (銅鈸子) or 銅拍子; it was originally an imported metal instrument used by monks at Buddhist ceremonies in temples."
+            }
+          },
+          {
+            "id": "nyubachi-bo-c04",
+            "source_id": "nyubachi-bo-s1",
+            "quote": "どのような妖怪か他の鳥山石燕の描いている妖怪たち同様に明確ではない点が多いが、平成以降は、大きな音を鳴らして人を驚かせるなどと解説されていることが多い。",
+            "locator": "Article text",
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Wikipedia mencatat bahwa wujud yōkai ini tidak jelas, seperti yōkai Sekien lainnya, dan sejak era Heisei sering dijelaskan sebagai yōkai yang mengejutkan orang dengan bunyi keras.",
+              "en": "Wikipedia notes that, like Sekien’s other yōkai, it is unclear what kind of yōkai this is, and that since the Heisei era it has often been explained as one that startles people with loud noise."
+            }
+          },
+          {
+            "id": "nyubachi-bo-c05",
+            "source_id": "nyubachi-bo-s1",
+            "quote": "稲田篤信は石燕の描いた乳鉢坊について、摺鉦（すりがね）の妖怪であろうかと解説している。",
+            "locator": "本文",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Inada Atsunobu menjelaskan bahwa Nyūbachi-bō gambaran Sekien mungkin adalah yōkai dari suri-gane (摺鉦).",
+              "en": "Inada Atsunobu explains Sekien’s Nyūbachi-bō as perhaps a yōkai of the suri-gane (摺鉦)."
+            }
+          },
+          {
+            "id": "nyubachi-bo-c06",
+            "source_id": "nyubachi-bo-s2",
+            "quote": "日本の妖怪。付喪神(つくもがみ)の一種で、芝居などで使われる打楽器の銅盤の化け物。",
+            "locator": "デジタル大辞泉プラス「乳鉢坊」",
+            "context": "historical-record",
+            "statement": {
+              "id": "Digital Daijisen Plus (Shogakukan) menerangkan Nyūbachi-bō sebagai yōkai Jepang, sejenis tsukumogami, yaitu hantu dari piringan tembaga (銅盤), alat perkusi yang dipakai dalam sandiwara.",
+              "en": "Digital Daijisen Plus (Shogakukan) describes Nyūbachi-bō as a Japanese yōkai, a kind of tsukumogami, a monster of the copper plate (銅盤), a percussion instrument used in theatre and similar performances."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Belum ada berkas Wikimedia Commons yang diperiksa untuk entri ini."
+          },
+          {
+            "field": "sources",
+            "searched": "Dicari: Kotobank (digunakan, Digital Daijisen Plus), Yokai.com (tidak ada entri Nyūbachi-bō), basis data gambar Kaii-Yōkai Nichibunken (tidak ada hasil untuk 乳鉢坊; satu hasil 鐃鈸 adalah gambar Kyōsai tentang hantu simbal, bukan makhluk ini). Wikipedia bahasa Jerman memuat uraian lebih panjang tanpa rujukan dalam teks, sehingga tidak dipakai."
+          },
+          {
+            "field": "etymology",
+            "searched": "Tidak ada sumber terbuka yang membahas asal nama 乳鉢坊 itu sendiri."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "nyubachi-bo-c01",
+        "nyubachi-bo-c02"
+      ],
+      "receipt_path": "data/artwork-generated/batch-2123/nyubachi-bo.json",
+      "original_file": "/home/asadin/Projects/asadin-edu-mitoloka/data/artwork-generated/batch-2123/originals/nyubachi-bo.png",
+      "native_sha256": "467263e53f7eb708d864aa4293f2cfd61384a0aa068d70f1eca07794c11c7fb1",
+      "url": "/assets/art/nyubachi-bo-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nyubachi-bo, the Japanese copper percussion-plate tsukumogami, a humanlike yokai wearing a copper percussion plate on its head [nyubachi-bo-c01,c02,c06].\nANATOMY: ONE humanlike yokai with ONE head, TWO eyes, TWO arms with five fingers per hand, TWO legs, fully opaque weathered dark ankle-length robe with sleeves and cloth-covered feet [nyubachi-bo-c02]. A broad heavy weathered COPPER PERCUSSION PLATE is worn directly ON TOP OF ITS HEAD, tilted forward, its raised central boss and broad circular metallic rim clearly readable as a musical cymbal not a straw hat. Plate occupies half the upper frame width. Beneath it, a harsh crumpled theatrical humanlike grimace, narrowed eyes and crooked mouth with ordinary teeth, no fangs, horns or invented animal features. No shaved monk portrait, no visible religious symbols, no extra companion.\nMOMENT: LUNGE from deep backstage shadow toward viewer, head thrust down and one hand SLAPS THE COPPER PLATE atop its own head, the other hand reaches suddenly toward viewer with five spread fingers. Freeze physical metallic impact: lifted palm at edge of plate, patina flakes and fine dust falling off scratched copper; robe twists with sudden step. This is a sentient old instrument startling the viewer, not an ordinary person wearing a fashionable hat.\nPOWER: Use the documented Heisei-era explanation of startling people with a LOUD NOISE [nyubachi-bo-c04]; convey through striking plate, startled aggressive movement and falling instrument dust only. No visible sound-wave rings, no destructive vibration, no supernatural beams or aura.\nSCALE & CAMERA: tight low camera, humanlike subject fills85percent of square, large looming copper plate and grotesque face near viewer, reaching hand foreground, two legs behind under robe. No invented giant size.\nLIGHT & WEATHER: One low amber backstage lamp grazes red copper with hard rim light, deep walnut-black shadow behind body, normal floating dust.\nSURFACE: hammered red copper with verdigris edges, scratches and old dents, weathered opaque coarse cloth, dry old timber, painterly brushwork.\nSETTING: Dark old wooden theatrical backstage, near abandoned percussion storage [nyubachi-bo-c03,c06]. Stage context editorial from instrument use, no temple iconography or writing.\nMOOD: uncanny startling instrument-yokai, sudden metallic confrontation, never ordinary calm man, cute mascot or neutral portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, watermark, nudity, gore, extra limbs/digits, borrowed film/game/anime/comic designs, generic glowing aura, neon outlines, floating runes or energy ribbons.",
+      "depicted_variant": "Humanlike copper-plate-headed tsukumogami startling viewer by striking its plate",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Humanlike figure wearing copper percussion plate on head",
+          "claim_ids": [
+            "nyubachi-bo-c01",
+            "nyubachi-bo-c02",
+            "nyubachi-bo-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Loud-noise startling interpretation explicitly from Heisei era; no magical beams",
+          "claim_ids": [
+            "nyubachi-bo-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Theatrical instrument context",
+          "claim_ids": [
+            "nyubachi-bo-c03",
+            "nyubachi-bo-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "nyubachi-bo-c01",
+        "nyubachi-bo-c02",
+        "nyubachi-bo-c06",
+        "nyubachi-bo-c04",
+        "nyubachi-bo-c03"
+      ],
+      "aura": "No aura; documented spirit, habitat and action nyubachi-bo-c01, nyubachi-bo-c02, nyubachi-bo-c06, nyubachi-bo-c04, nyubachi-bo-c03.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native1254,200px and slapping-hand detail inspected. One humanlike crumpled grimacing face beneath one huge clearly musical hammered copper plate with raised central boss, two eyes, two arms, two legs in fully opaque robe and foot wraps. Forward hand five digits, side-on slapping hand naturally partly occluded. Plate impact produces ordinary patina/dust only. Lunge and copper identity unmistakable at200; no horns, fangs, generic sonic beams, aura, text or borrowed design. c04 explicitly later noise explanation, not ancient attested magic. Seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "467263e53f7eb708d864aa4293f2cfd61384a0aa068d70f1eca07794c11c7fb1",
+        "reviewed_at": "2026-10-16T07:46:19.725411+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f6d8549c6afc857dfb7765e31e8039ead04445f1d9fda6900a8b046b3698d615"
+    },
+    {
+      "index": 3,
+      "slug": "ogetsuhime",
+      "canonical_name": "Ōgetsuhime",
+      "worker": "codex",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-056.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-056",
+        "slug": "ogetsuhime",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-07",
+        "identity": {
+          "canonical_name": "Ōgetsuhime",
+          "native_name": null,
+          "display_name": {
+            "id": "Ōgetsuhime",
+            "en": "Ōgetsuhime"
+          },
+          "wikidata_qid": "Q3261482",
+          "claim_ids": [
+            "ogetsuhime-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "dewa",
+          "claim_ids": [
+            "ogetsuhime-c01"
+          ]
+        },
+        "classification": {
+          "value": "deity",
+          "claim_ids": [
+            "ogetsuhime-c01"
+          ]
+        },
+        "culture": {
+          "value": "japanese-folklore",
+          "suggested_new": null,
+          "claim_ids": [
+            "ogetsuhime-c01"
+          ]
+        },
+        "region": {
+          "value": "east-asia",
+          "claim_ids": [
+            "ogetsuhime-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Ogetsuhime adalah dewi makanan dalam mitologi Jepang dan Kojiki.",
+          "en": "Ogetsuhime is a food goddess in Japanese mythology and the Kojiki.",
+          "claim_ids": [
+            "ogetsuhime-c01"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ogetsuhime adalah dewi makanan dalam mitologi Jepang dan Kojiki. Namanya berarti dewi makanan agung. Susanoo melihatnya menyiapkan makanan yang diambil dari tubuhnya.",
+            "en": "Ogetsuhime is a food goddess in Japanese mythology and the Kojiki. Her name means great food goddess. Susanoo sees her prepare food taken from her body.",
+            "claim_ids": [
+              "ogetsuhime-c01",
+              "ogetsuhime-c02",
+              "ogetsuhime-c03"
+            ]
+          },
+          {
+            "id": "Susanoo membunuhnya karena marah pada asal makanan tersebut. Ulat sutra dan beberapa tanaman muncul dari bagian tubuhnya yang mati. Legenda Iwami menyebut Otogosahime sebagai putrinya yang membawa benih ke bumi.",
+            "en": "Susanoo kills her in anger at the source of the food. Silkworms and several crops emerge from parts of her dead body. An Iwami legend names Otogosahime as her daughter who brings seeds to earth.",
+            "claim_ids": [
+              "ogetsuhime-c04",
+              "ogetsuhime-c05",
+              "ogetsuhime-c06"
+            ]
+          },
+          {
+            "id": "Dalam namanya, \"ge\" berasal dari ke yang berarti makanan, sehingga ia dipandang sebagai dewi yang menguasai makanan. Ia muncul di empat adegan dalam Kojiki, tidak muncul dalam Nihon Shoki, dan menurut Kojiki melahirkan delapan dewa anak dari Hayamato, putra Ōtoshi.",
+            "en": "In her name, \"ge\" comes from ke meaning food, so she is considered a goddess in charge of food. She appears in four scenes of the Kojiki, does not appear in the Nihon Shoki, and according to the Kojiki bore eight child deities with Hayamato, a child of Ōtoshi.",
+            "claim_ids": [
+              "ogetsuhime-c07",
+              "ogetsuhime-c08",
+              "ogetsuhime-c09"
+            ]
+          },
+          {
+            "id": "Nihon Shoki memuat mitos serupa dengan tokoh yang berbeda: Tsukuyomi membunuh Ukemochi no kami yang menjamunya dengan makanan yang seolah dimuntahkan dari mulut. Mitos tentang tanaman yang tumbuh dari mayat disebut tipe Hainuwele dan ditemukan di berbagai belahan dunia.",
+            "en": "The Nihon Shoki has a similar myth with different figures: Tsukuyomi kills Ukemochi no kami, who entertained him with food made as if vomited from her mouth. Myths of crops growing from a corpse are called the Hainuwele type and are found in many parts of the world.",
+            "claim_ids": [
+              "ogetsuhime-c10",
+              "ogetsuhime-c11"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "大宜都比売",
+          "language": "ja",
+          "literal_meaning": {
+            "id": "\"Ō\" sebutan pujian, \"ge\" dari ke (makanan), \"tsu\" partikel penghubung; dewi yang menguasai makanan.",
+            "en": "\"Ō\" an honorific, \"ge\" from ke (food), \"tsu\" a connecting particle; a goddess in charge of food."
+          },
+          "claim_ids": [
+            "ogetsuhime-c07"
+          ]
+        },
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "ogetsuhime-s1",
+            "published": null,
+            "accessed": "2026-10-01",
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%AA%E3%82%B2%E3%83%84%E3%83%92%E3%83%A1",
+            "title": "オオゲツヒメ",
+            "publisher": "Wikipedia",
+            "language": "ja",
+            "type": "wikipedia",
+            "author": null
+          },
+          {
+            "id": "ogetsuhime-s2",
+            "published": null,
+            "accessed": "2026-10-07",
+            "url": "https://kojiki.kokugakuin.ac.jp/shinmei/ogetsuhimenokami/",
+            "title": "大宜都比売神 | 神名データベース (Kojiki Studies Center)",
+            "publisher": "Kojiki Studies Center, Kokugakuin University",
+            "language": "ja",
+            "type": "museum-or-archive",
+            "author": null
+          }
+        ],
+        "claims": [
+          {
+            "id": "ogetsuhime-c01",
+            "source_id": "ogetsuhime-s1",
+            "quote": "オオゲツヒメ（オホゲツヒメ、オオゲツヒメノカミ、大宜都比売、大気都比売神、大宜津比売神、大気津比売神）は、日本神話に登場する女神。『古事記』の神話に出る食物の女神。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ogetsuhime adalah dewi makanan dalam mitologi Jepang dan Kojiki.",
+              "en": "Ogetsuhime is a food goddess in Japanese mythology and the Kojiki."
+            }
+          },
+          {
+            "id": "ogetsuhime-c02",
+            "source_id": "ogetsuhime-s1",
+            "quote": "オオゲツヒメという名称は「大いなる食物の女神」の意味である。",
+            "locator": "Article text",
+            "context": "etymology",
+            "statement": {
+              "id": "Namanya berarti dewi makanan agung.",
+              "en": "Her name means great food goddess."
+            }
+          },
+          {
+            "id": "ogetsuhime-c03",
+            "source_id": "ogetsuhime-s1",
+            "quote": "様々な食べ物を差し出してきた大気都比売神を不審に思った須佐之男命が食事の用意をする大気都比売神の様子を覗いてみると、大気都比売神は鼻や口、尻から食材を取り出し、それを調理していた。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Susanoo melihatnya menyiapkan makanan yang diambil dari tubuhnya.",
+              "en": "Susanoo sees her prepare food taken from her body."
+            }
+          },
+          {
+            "id": "ogetsuhime-c04",
+            "source_id": "ogetsuhime-s1",
+            "quote": "須佐之男命は、そんな汚い物を食べさせようとしていたのかと怒り、大気都比売神を殺してしまった。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Susanoo membunuhnya karena marah pada asal makanan tersebut.",
+              "en": "Susanoo kills her in anger at the source of the food."
+            }
+          },
+          {
+            "id": "ogetsuhime-c05",
+            "source_id": "ogetsuhime-s1",
+            "quote": "すると、大気都比売神の頭から蚕が生まれ、目から稲が生まれ、耳から粟が生まれ、鼻から小豆が生まれ、陰部から麦が生まれ、尻から大豆が生まれた。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ulat sutra dan beberapa tanaman muncul dari bagian tubuhnya yang mati.",
+              "en": "Silkworms and several crops emerge from parts of her dead body."
+            }
+          },
+          {
+            "id": "ogetsuhime-c06",
+            "source_id": "ogetsuhime-s1",
+            "quote": "また島根県石見地方に伝わる伝説には、大気都比売神の娘に乙子狭姫がおり、雁に乗って降臨し作物の種を地上に伝えたとする。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Legenda Iwami menyebut Otogosahime sebagai putrinya yang membawa benih ke bumi.",
+              "en": "An Iwami legend names Otogosahime as her daughter who brings seeds to earth."
+            }
+          },
+          {
+            "id": "ogetsuhime-c07",
+            "source_id": "ogetsuhime-s2",
+            "quote": "名義は、「大」は美称、ゲは食物を意味するケ（例：ミケ＝御食）の連濁、ツは連体助詞と考えられ、その神格は、食物を掌る女神と考えられる。",
+            "locator": "諸説",
+            "context": "etymology",
+            "statement": {
+              "id": "Dalam namanya, \"Ō\" dianggap sebutan pujian, \"ge\" berasal dari ke yang berarti makanan, dan \"tsu\" adalah partikel penghubung; ia dipandang sebagai dewi yang menguasai makanan.",
+              "en": "In her name, \"Ō\" is regarded as an honorific, \"ge\" comes from ke meaning food, and \"tsu\" is a connecting particle; she is considered a goddess in charge of food."
+            }
+          },
+          {
+            "id": "ogetsuhime-c08",
+            "source_id": "ogetsuhime-s2",
+            "quote": "『古事記』では四箇所の場面に登場するが、『日本書紀』には出てこない。",
+            "locator": "諸説",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Ia muncul di empat adegan dalam Kojiki, tetapi tidak muncul dalam Nihon Shoki.",
+              "en": "She appears in four scenes of the Kojiki but does not appear in the Nihon Shoki."
+            }
+          },
+          {
+            "id": "ogetsuhime-c09",
+            "source_id": "ogetsuhime-s2",
+            "quote": "また、大年神の子の羽山戸神との間に、八柱の子神（若山咋神・若年神・若沙那売神・弥豆麻岐神・夏高津日神・秋毘売神・久々年神・久々紀若室葛根神）を生んでいる。",
+            "locator": "梗概",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam Kojiki ia juga disebut melahirkan delapan dewa anak dari Hayamato, putra Ōtoshi.",
+              "en": "The Kojiki also says she bore eight child deities with Hayamato, a child of Ōtoshi."
+            }
+          },
+          {
+            "id": "ogetsuhime-c10",
+            "source_id": "ogetsuhime-s2",
+            "quote": "『日本書紀』では、類似の神話が、天石屋神話の前にあたる五段の一書十一に見える。その内容は、伊弉諾尊の生んだ月夜見尊が、天照大神の命によって保食神のもとに行くと、口から嘔吐するようにして作り出した食べ物でもてなしたので、怒って殺したところ",
+            "locator": "諸説",
+            "context": "historical-record",
+            "statement": {
+              "id": "Nihon Shoki memuat mitos serupa dalam salah satu versi: Tsukuyomi, putra Izanagi, atas perintah Amaterasu mendatangi Ukemochi no kami yang menjamunya dengan makanan yang seolah dimuntahkan dari mulut; Tsukuyomi marah lalu membunuhnya.",
+              "en": "The Nihon Shoki has a similar myth in one of its variants: Tsukuyomi, born of Izanagi, goes at Amaterasu's order to Ukemochi no kami, who entertains him with food made as if vomited from her mouth; he angrily kills her."
+            }
+          },
+          {
+            "id": "ogetsuhime-c11",
+            "source_id": "ogetsuhime-s2",
+            "quote": "死体から種々の作物が発生したことを語る類型の神話（ハイヌウェレ型神話）は、世界各地に見られる。",
+            "locator": "諸説",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Mitos bertipe serupa, yakni berbagai tanaman tumbuh dari mayat, disebut tipe Hainuwele dan ditemukan di berbagai belahan dunia.",
+              "en": "Myths of this type, in which various crops arise from a corpse, are called Hainuwele-type myths and are found in many parts of the world."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Siapa yang membunuh dewi makanan",
+              "en": "Who kills the food goddess"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Dalam Kojiki, Susanoo membunuh Ōgetsuhime.",
+                  "en": "In the Kojiki, Susanoo kills Ōgetsuhime."
+                },
+                "claim_ids": [
+                  "ogetsuhime-c04"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Dalam salah satu versi Nihon Shoki, Tsukuyomi membunuh Ukemochi no kami.",
+                  "en": "In one variant of the Nihon Shoki, Tsukuyomi kills Ukemochi no kami."
+                },
+                "claim_ids": [
+                  "ogetsuhime-c10"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Belum ada berkas Wikimedia Commons yang diperiksa untuk entri ini."
+          },
+          {
+            "field": "sources",
+            "searched": "Wikipedia (ja) dan Kojiki Studies Center Kokugakuin (Shinmei DB) dibaca; Nichibun dan EOS tidak memuat entri tersendiri."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "ogetsuhime-c03",
+        "ogetsuhime-c05"
+      ],
+      "receipt_path": "data/artwork-generated/batch-2123/ogetsuhime.json",
+      "original_file": "/home/asadin/Projects/asadin-edu-mitoloka/data/artwork-generated/batch-2123/originals/ogetsuhime.png",
+      "native_sha256": "eeba1ca9782219326fb773620e04006b7d233d3b9a726504b82cb5b6510359fb",
+      "url": "/assets/art/ogetsuhime-verified.webp",
+      "prompt": "ONE original square premium PAINTERLY cinematic Mitoloka illustration of Ogetsuhime, ancient Japanese food goddess at the overwhelming birth of rice and silkworms from her body after death.\nANATOMY: ONE dignified adult female deity with one head, two CLOSED eyes, two arms and two covered legs, reclining deceased with no injury, no wounds and no blood. Serene solemn idealized features of an ancient goddess, NOT a photographic modern woman, no modern makeup. Ancient-period Japanese layered robes, plain fully opaque ivory over muted russet underlayers, high crossed neckline, long sleeves, closed hem. Loose long black hair. Clothing is editorial, no unsupported crown or symbols. [ogetsuhime-c01,ogetsuhime-c04,ogetsuhime-c05]\nMOMENT: SURGE UPWARD from BOTH CLOSED EYES as TWO DENSE TALL SHEAVES of living RICE. The rice stems visibly originate at each closed eye without wounds, then thrust high above the viewer into dark night. Bend huge masses of HEAVY GOLDEN RICE EARS outward under their own weight. Countless real ripe RICE GRAINS shake loose from the bowed ears and FALL DOWNWARD in a vigorous shower, passing in front of robe and landing on dark ground. The canopy of fresh grain seems to have just unfolded, an immense event of new life, not a motionless bouquet. [ogetsuhime-c05]\nSILKWORM DETAIL: only THREE unmistakable plump pale SILKWORM CATERPILLARS at the CROWN OF HER HEAD, one visibly SPINNING FINE SILK threads onto TWO clean pearly oval COCOONS nestled together at her crown. Clear intact caterpillar heads and soft tiny legs, never dozens of grubs or maggots, never insects scattered on soil. Delicate silk catches the same shaft of light. No decay. [ogetsuhime-c05]\nPOWER: crop-origin miracle c05 ONLY. Rice physically surges from both eyes, silkworms arise at head. Falling grains are ordinary gravity acting on ripe ears, editorial physical motion. NO MOVING OR LEVITATING SOIL, no ground magic, glowing particles, aura, resurrection or living spellcasting.\nSCALE & CAMERA: EXTREME LOW ground-level view beside her head looking UP into the two towering sheaves, normal human body and rice scale enlarged through perspective. Her head and covered shoulders occupy lower half of frame, both eye-origin points clear; tall curving stalks and golden ears fill upper half and loom overhead. A covered forearm and relaxed five-fingered hand on lower right, second arm recedes along covered body, no extra limbs. Crop miracle belongs unmistakably to this deity, never a field or still life.\nLIGHT & WEATHER: ONE STRONG SHAFT OF WHITE MOONLIGHT falls diagonally through black night onto sheaves, face and fine silk. Bright golden physical grain against deep walnut darkness, dramatic shadows, sharp rim on falling seed. No visible full moon needed, no soft photographic beauty lighting.\nSURFACE: visibly hand-painted broad irregular brushstrokes and textured pigment throughout, especially face and robe. Inspired by painted narrative legend rather than a photograph or 3D render. Heavy woven layered cloth, brushy black hair, fibrous green rice stalks, dense ripe gold ears, clean pale silk and two cocoons.\nSETTING: dark neutral earthen ground, no architecture or invented ritual setting. Ground stays still, scattered grain falls onto it.\nMOOD: REVERENT MAJESTY, overwhelming abundance and life emerging after death, sacred awe of a living Shinto tradition; never horror, decomposition, sleeping modern woman, cute or calm decorative tableau.\nHARD CONSTRAINTS: NO photographic skin, modern woman portrait, worms on earth, decay, wounds, blood, gore, exposed body or sexualized view. No Susanoo, weapon, crown, flower bouquet, text, letters, logo, border, frame or watermark. No aura, neon, energy ribbon, light motes or soil magic. No extra heads, eyes, arms, legs or fingers. No borrowed film/game/anime/comic design.",
+      "depicted_variant": "Reverent painterly crop-origin event: two tall sheaves surge from closed eyes, heavy golden rice sheds grain under gravity; three silkworms spin silk at crown beside two cocoons.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One serene deceased female deity with closed eyes and fully opaque layered robes; no wounds, exposed body or decay.",
+          "claim_ids": [
+            "ogetsuhime-c01",
+            "ogetsuhime-c04",
+            "ogetsuhime-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Two dense rice sheaves physically arise from both closed eyes; a few unmistakable silkworm caterpillars emerge at crown, spinning silk beside cocoons.",
+          "claim_ids": [
+            "ogetsuhime-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ogetsuhime-c01",
+        "ogetsuhime-c04",
+        "ogetsuhime-c05"
+      ],
+      "aura": "Reverent awe comes from powerful crop-origin miracle c05, with low view and real grain falling under gravity, never aura or invented soil power.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native1254,200 and silkworm/cocoon crop inspected: one serene deceased deity, closed eyes, opaque layered ivory/russet ancient robe editorial, clearly hand-painted textured features and cloth rather than photographic modern woman. Two dense tall rice sheaves emerge from both closed eyes c05, bow overhead and shower real golden grain downward under gravity; low ground view makes crop-origin event imposing at200. A few pale silkworm caterpillars at crown visibly spin fine silk beside TWO clean cocoons; none scattered on soil, no decay reading. One foreground five-fingered hand clear, other arm recedes in robe; lower legs outside crop, no visible extra limbs. No wounds/gore/exposed body, Susanoo, aura or soil magic. Reverent sacred abundance and active grainfall answer Claude static-life critique. Seven Sangar checks pass; entire prior Claude reject archived.",
+        "limitations": [],
+        "native_sha256": "eeba1ca9782219326fb773620e04006b7d233d3b9a726504b82cb5b6510359fb",
+        "reviewed_at": "2026-10-16T08:04:38.861Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b4967c5d7e64b985d9b5f386e1e23e4742283723836ae35385251e2d2d47e665"
+    },
+    {
+      "index": 4,
+      "slug": "ogre-de-la-caputxa-negra",
+      "canonical_name": "Ogre de la Caputxa Negra",
+      "worker": "codex",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-135.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-135",
+        "slug": "ogre-de-la-caputxa-negra",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-14",
+        "identity": {
+          "canonical_name": "Ogre de la Caputxa Negra",
+          "native_name": null,
+          "display_name": {
+            "id": "Ogre Berkerudung Hitam",
+            "en": "Ogre de la Caputxa Negra"
+          },
+          "wikidata_qid": "Q27870161",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "monster",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01"
+          ]
+        },
+        "classification": {
+          "value": "monster",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-catalan",
+          "suggested_new": null,
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "dwelling",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c02"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Ogre de la Caputxa Negra adalah momok berwajah tertutup dalam cerita rakyat Valencia yang menculik anak-anak dan dapat dibunuh dengan sinar matahari.",
+          "en": "The Ogre de la Caputxa Negra is a face-covered bogey of Valencian folklore who kidnaps children and can be killed by sunlight.",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01",
+            "ogre-de-la-caputxa-negra-c02"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ogre de la Caputxa Negra, \"Ogre Berkerudung Hitam\", adalah momok penakut anak dalam imajinasi rakyat Valencia: makhluk menakutkan berwajah tertutup yang membawa pergi semua anak yang ditemuinya. Ia tinggal di istana tempat ia menyembunyikan harta dan seorang putri tersihir yang menjadi putri duyung bila keluar dari istana, dan menurut Francesc Gisbert ia selalu mengalungkan kunci istana di lehernya. Ia dapat dibunuh dengan membuat sinar matahari mengenai wajahnya.",
+            "en": "The Ogre de la Caputxa Negra is a child-scaring bogey of Valencian folk imagination: a terrifying face-covered creature who carries off every child he meets. He lives in a palace hiding a treasure and an enchanted princess who turns into a mermaid if she leaves, and according to Francesc Gisbert he always wears the palace key around his neck. He can be killed by making sunlight strike his face.",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c01",
+              "ogre-de-la-caputxa-negra-c02",
+              "ogre-de-la-caputxa-negra-c03"
+            ]
+          },
+          {
+            "id": "Sebuah kajian sejarawan muda menempatkannya di antara ogre-ogre Valencia, yang dibedakan dari raksasa biasa karena memakan daging manusia dan khas berwarna hitam. Kajian itu juga menyebutnya makhluk raksasa yang hanya bisa mati bila sinar matahari mengenai wajahnya.",
+            "en": "A study by young historians places him among the Valencian ogres, which differ from ordinary giants in eating human flesh and are characteristically black. The study also calls him a giant creature who can only die if sunlight strikes his face.",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c04",
+              "ogre-de-la-caputxa-negra-c05",
+              "ogre-de-la-caputxa-negra-c06"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Momok berwajah tertutup.",
+            "en": "A face-covered bogey.",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c01"
+            ]
+          },
+          "origin": {
+            "id": "Cerita rakyat Valencia.",
+            "en": "Valencian folklore.",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c01"
+            ]
+          },
+          "role": {
+            "id": "Menculik anak-anak.",
+            "en": "Kidnaps children.",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c01"
+            ]
+          },
+          "famous_for": {
+            "id": "Putri tersihir di istananya.",
+            "en": "The enchanted princess in his palace.",
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c02"
+            ]
+          }
+        },
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [
+          {
+            "name": {
+              "id": "Sinar matahari",
+              "en": "Sunlight"
+            },
+            "description": {
+              "id": "Mati bila sinar matahari mengenai wajahnya.",
+              "en": "Dies if sunlight strikes his face."
+            },
+            "claim_ids": [
+              "ogre-de-la-caputxa-negra-c02",
+              "ogre-de-la-caputxa-negra-c05"
+            ]
+          }
+        ],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "ogre-de-la-caputxa-negra-s1",
+            "url": "https://ca.wikipedia.org/wiki/Ogre_de_la_Caputxa_Negra",
+            "title": "Ogre de la Caputxa Negra",
+            "author": null,
+            "publisher": "Wikipedia (ca)",
+            "published": null,
+            "language": "ca",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "ogre-de-la-caputxa-negra-s2",
+            "url": "https://web.archive.org/web/20231215075529id_/https://hystoryuv.webcindario.com/criatures-magiques-valencianes.pdf",
+            "title": "Criatures màgiques valencianes: una selecció",
+            "author": "Maria José Alapont Muñoz; Aida Ferri Riera",
+            "publisher": "Clapir. Joves Historiadors i Historiadores Valencians",
+            "published": "2014-03",
+            "language": "ca",
+            "type": "journal-article",
+            "accessed": "2026-10-14"
+          }
+        ],
+        "claims": [
+          {
+            "id": "ogre-de-la-caputxa-negra-c01",
+            "source_id": "ogre-de-la-caputxa-negra-s1",
+            "quote": "L'Ogre de la Caputxa Negra és un espantamainades propi de l'imaginari popular valencià. Es tracta d'una criatura aterridora que porta la cara tapada i s'emporta tots els xiquets que troba pel camí.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ogre de la Caputxa Negra adalah momok penakut anak dalam imajinasi rakyat Valencia, makhluk menakutkan berwajah tertutup yang membawa pergi semua anak yang ditemuinya di jalan.",
+              "en": "The Ogre de la Caputxa Negra is a child-scaring bogey of Valencian folk imagination, a terrifying creature with a covered face who carries off every child he meets on the road."
+            }
+          },
+          {
+            "id": "ogre-de-la-caputxa-negra-c02",
+            "source_id": "ogre-de-la-caputxa-negra-s1",
+            "quote": "Viu a un palau on amaga un tresor i una princesa encantada que si ix del palau es converteix en sirena. Se'l pot matar fent que la llum del sol li pegue a la cara.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia tinggal di istana tempat ia menyembunyikan harta dan seorang putri tersihir yang menjadi putri duyung bila keluar dari istana; ia dapat dibunuh dengan membuat sinar matahari mengenai wajahnya.",
+              "en": "He lives in a palace hiding a treasure and an enchanted princess who becomes a mermaid if she leaves; he can be killed by making sunlight strike his face."
+            }
+          },
+          {
+            "id": "ogre-de-la-caputxa-negra-c03",
+            "source_id": "ogre-de-la-caputxa-negra-s1",
+            "quote": "Francesc Gisbert ens conta que la clau del palau on viu la du sempre penjada al coll per evitar robatoris.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Francesc Gisbert, ia selalu mengalungkan kunci istananya di leher agar tidak dicuri.",
+              "en": "According to Francesc Gisbert, he always wears the key to his palace around his neck to prevent theft."
+            }
+          },
+          {
+            "id": "ogre-de-la-caputxa-negra-c04",
+            "source_id": "ogre-de-la-caputxa-negra-s2",
+            "quote": "L’ogre de la Caputxa Negra és una altre exemple de criatura aterradora però en aquest cas, porta la cara tapada i s’emporta a tots els xiquets que troba pel camí.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ogre de la Caputxa Negra adalah contoh makhluk menakutkan yang wajahnya tertutup dan membawa pergi semua anak (xiquets) yang ditemuinya di jalan.",
+              "en": "The Ogre de la Caputxa Negra is an example of a terrifying creature whose face is covered and who carries off all the children (xiquets) he meets on the road."
+            }
+          },
+          {
+            "id": "ogre-de-la-caputxa-negra-c05",
+            "source_id": "ogre-de-la-caputxa-negra-s2",
+            "quote": "La seua llar es troba a un palau on amaga un tresor i una princesa encantada, la qual sols pot eixir del palau convertida en sirena. L’única forma en què aquesta criatura gegant podria morir seria si la llum del sol li pega a la cara.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Rumahnya adalah istana tempat ia menyembunyikan harta dan seorang putri tersihir yang hanya bisa keluar dalam wujud putri duyung (sirena); makhluk raksasa ini hanya bisa mati bila sinar matahari mengenai wajahnya.",
+              "en": "His home is a palace where he hides a treasure and an enchanted princess who can only leave it transformed into a mermaid (sirena); the only way this giant creature could die is if sunlight strikes his face."
+            }
+          },
+          {
+            "id": "ogre-de-la-caputxa-negra-c06",
+            "source_id": "ogre-de-la-caputxa-negra-s2",
+            "quote": "El que diferencia un gegant d’un ogre, és que aquest últim, a més de ser un gegant, menja carn humana. Els ogres valencians, a més de ser antropòfags, tenen altra característica peculiar: són negres.",
+            "locator": null,
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Yang membedakan ogre dari raksasa biasa (gegant) adalah bahwa ogre memakan daging manusia; ogre-ogre Valencia (valencians) juga punya ciri khas lain, yaitu berwarna hitam.",
+              "en": "What distinguishes an ogre from a giant (gegant) is that the ogre eats human flesh; Valencian (valencians) ogres have another peculiar trait as well: they are black."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          },
+          {
+            "field": "sources",
+            "searched": "PDF Clapir di hystoryuv.webcindario.com kini 404, dikutip dari salinan Wayback Machine. Buku Gisbert 'Guia inacabada de la fantasia valenciana' dan Labrado 'Llegendes valencianes' tidak terbuka daring."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "ogre-de-la-caputxa-negra-c05",
+        "ogre-de-la-caputxa-negra-c06"
+      ],
+      "receipt_path": "data/artwork-generated/batch-2123/ogre-de-la-caputxa-negra.json",
+      "original_file": "/home/asadin/Projects/asadin-edu-mitoloka/data/artwork-generated/batch-2123/originals/ogre-de-la-caputxa-negra.png",
+      "native_sha256": "40977a95de62d1da313875cbdca861698f51c911c913f4559871bf6a8b12a60a",
+      "url": "/assets/art/ogre-de-la-caputxa-negra-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Ogre de la Caputxa Negra, the giant black face-covered bogey of Valencian folklore who carries off children he finds on the road.\nANATOMY: ONE huge GIANT humanoid, ONE hooded head, TWO arms, TWO legs; supernatural charcoal-BLACK coarse skin on large hands, the ENTIRE FACE completely covered by dense opaque black cloth under a massive BLACK HOOD. No eyes, teeth or human face visible through covering. Fully opaque heavy black cloak and coarse dark garments from neck to feet. ONE large plain IRON PALACE KEY hangs visibly from a chain around his NECK in front of chest. [ogre-de-la-caputxa-negra-c01,ogre-de-la-caputxa-negra-c03,ogre-de-la-caputxa-negra-c04,ogre-de-la-caputxa-negra-c05,ogre-de-la-caputxa-negra-c06]\nMOMENT: LUNGE one enormous step out from the shadow of his palace toward the road and low viewer, one giant five-fingered hand reaches to grasp directly toward camera, other hand braces against palace stone. Covered head bends toward us, hunting posture. No victims present.\nPOWER: no documented active power; menace through gigantic documented stature, covered faceless hood, grasping action and oppressive physical mass only. [ogre-de-la-caputxa-negra-c01,ogre-de-la-caputxa-negra-c05]\nSCALE & CAMERA: extreme low close view from road level; giant fills85% of square, small human-scale palace doors beside his shins establish unmistakable giant size; one key large and unobstructed at center chest.\nLIGHT & WEATHER: one dominant cold moon, strong edge light on hood, shoulders and charcoal-black hands; deep walnut-black shadows and a little ordinary road dust stirred by his step. NO SUNLIGHT reaches his covered face.\nSURFACE: coarse charcoal skin, heavy weathered opaque black cloth, worn iron key, rough palace masonry and road stones; original painterly brushwork.\nSETTING: road outside his dark palace in Valencian folklore, small gate and large wall behind. [ogre-de-la-caputxa-negra-c01,ogre-de-la-caputxa-negra-c05]\nMOOD: terrifying faceless giant closing in to snatch viewer, never ordinary hooded traveller, decorative portrait, cute, calm or static.\nHARD CONSTRAINTS: no visible facial features, no invented horns/tusks/claws, no child or other victim, no human flesh or gore; no nudity; no text, letters, logo, frame, border, watermark, extra heads/limbs/fingers; no generic aura, glowing eyes, neon, energy ribbons, runes; no borrowed film/game/anime/comic design.",
+      "depicted_variant": "Black giant with completely covered hooded face lunges from his palace toward the road; palace key hangs at his neck.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One black giant with face fully covered by black hood/cloth, one head/two arms/two legs, key around neck.",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01",
+            "ogre-de-la-caputxa-negra-c03",
+            "ogre-de-la-caputxa-negra-c04",
+            "ogre-de-la-caputxa-negra-c05",
+            "ogre-de-la-caputxa-negra-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Road outside his palace; small gate and paving establish giant scale.",
+          "claim_ids": [
+            "ogre-de-la-caputxa-negra-c01",
+            "ogre-de-la-caputxa-negra-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ogre-de-la-caputxa-negra-c01",
+        "ogre-de-la-caputxa-negra-c03",
+        "ogre-de-la-caputxa-negra-c04",
+        "ogre-de-la-caputxa-negra-c05",
+        "ogre-de-la-caputxa-negra-c06"
+      ],
+      "aura": "Predatory giant scale c05, covered face c01/c04 and grasping pursuit action c01; no undocumented power effect.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native1254 and200 inspected: giant black humanoid c05/c06 fills frame, face completely cloth-covered under black hood c01/c04, opaque cloak/garments. One head/two arms/two legs, foreground grasping hand has thumb plus four fingers; second hand braces palace wall. Neck key plainly visible c03. Predatory lunge c01 and small door by knee establish terrifying giant rather than ordinary hooded traveller at200. Road/palace c01/c05, ordinary stirred dust only, no victim/extra limbs/facial eyes/horns/text/aura/gore. Seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "40977a95de62d1da313875cbdca861698f51c911c913f4559871bf6a8b12a60a",
+        "reviewed_at": "2026-10-16T07:45:33.972Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d8450643e311ce30aed8fe4f334894ba4627bdcfdc0609bff57d1575ab042da2"
+    },
+    {
+      "index": 5,
+      "slug": "oilar",
+      "canonical_name": "Oilar",
+      "worker": "codex",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-135.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-135",
+        "slug": "oilar",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-14",
+        "identity": {
+          "canonical_name": "Oilar",
+          "native_name": null,
+          "display_name": {
+            "id": "Oilar",
+            "en": "Oilar"
+          },
+          "wikidata_qid": "Q3349940",
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Ollaar",
+            "language": "eu",
+            "name_type": "alias",
+            "claim_ids": [
+              "oilar-c01"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "hewan mitos",
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        "classification": {
+          "value": "legendary-creature",
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-basque",
+          "suggested_new": null,
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": {
+          "value": "ambivalent",
+          "claim_ids": [
+            "oilar-c02",
+            "oilar-c03"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Oilar, \"ayam jantan\" dalam bahasa Basque, muncul dalam legenda Basque sebagai pengusir makhluk gaib dan kadang wujud roh jahat.",
+          "en": "Oilar, Basque for \"rooster\", appears in Basque legends as a herald that sends spirits fleeing and sometimes as the form of an evil spirit.",
+          "claim_ids": [
+            "oilar-c01",
+            "oilar-c02",
+            "oilar-c03"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Oilar berarti \"ayam jantan\" dalam bahasa Basque, dan hewan ini sering muncul dalam legenda Basque. Kokoknya menandai larinya makhluk gaib seperti lamiñak, tetapi kadang roh jahat, Gaiskiñe, justru mengambil wujud ayam jantan.",
+            "en": "Oilar means \"rooster\" in Basque, and the bird often appears in Basque legends. Its crow sends spirits such as the lamiñak fleeing, yet sometimes the evil spirit, Gaiskiñe, takes the rooster's form.",
+            "claim_ids": [
+              "oilar-c01",
+              "oilar-c02",
+              "oilar-c03"
+            ]
+          },
+          {
+            "id": "Bila seseorang menderita penyakit misterius, bulu bantalnya diperiksa: gumpalan berbentuk ayam jantan utuh berarti penyakit tak tersembuhkan, sedangkan bila kepalanya belum terbentuk, bulu itu dibakar di persimpangan jalan agar penyakit sembuh.",
+            "en": "When someone suffers a mysterious illness, the pillow feathers are examined: a clump shaped like a whole rooster means the illness is incurable, while if the head has not formed, the feathers are burned at a crossroads to cure it.",
+            "claim_ids": [
+              "oilar-c04",
+              "oilar-c05"
+            ]
+          },
+          {
+            "id": "Dalam sebuah cerita Basque tentang matahari, seorang saudara meminta orang-orang yang memukul batu untuk 'membuka hari' agar pulang tidur, karena ayam jantannya yang akan bertugas membuka hari. Ketika ayam jantan itu berkokok 'kikiriki', fajar pun sudah tiba.",
+            "en": "In a Basque story about the sun, a brother tells men who are striking a rock to 'open the day' to go to sleep, because his rooster will be in charge of opening the day. When the rooster crowed 'kikiriki', dawn had already come.",
+            "claim_ids": [
+              "oilar-c06",
+              "oilar-c07"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "oilar",
+          "language": "Basque",
+          "literal_meaning": {
+            "id": "ayam jantan",
+            "en": "rooster"
+          },
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        "story_mode": {
+          "who": {
+            "id": "Ayam jantan dalam legenda Basque.",
+            "en": "The rooster of Basque legend.",
+            "claim_ids": [
+              "oilar-c01"
+            ]
+          },
+          "origin": {
+            "id": "Mitologi Basque.",
+            "en": "Basque mythology.",
+            "claim_ids": [
+              "oilar-c01"
+            ]
+          },
+          "role": {
+            "id": "Mengusir makhluk gaib dengan kokoknya.",
+            "en": "Drives off spirits with its crow.",
+            "claim_ids": [
+              "oilar-c02"
+            ]
+          },
+          "famous_for": null
+        },
+        "did_you_know": {
+          "id": "Gumpalan bulu berbentuk ayam jantan di bantal dianggap pertanda penyakit tak tersembuhkan.",
+          "en": "A rooster-shaped clump of pillow feathers was taken as a sign of incurable illness.",
+          "claim_ids": [
+            "oilar-c04"
+          ]
+        },
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Ayam jantan yang membuka hari",
+              "en": "The rooster that opens the day"
+            },
+            "role": {
+              "id": "Ayam jantan yang kokoknya menandai fajar.",
+              "en": "The rooster whose crow marks the dawn."
+            },
+            "summary": {
+              "id": "Seorang saudara menyuruh orang-orang yang memukul batu untuk membuka hari agar tidur saja, karena ayam jantannya akan membuka hari; saat ayam itu berkokok 'kikiriki', hari sudah fajar.",
+              "en": "A brother tells men striking a rock to open the day to go to sleep instead, since his rooster will open the day; when it crows 'kikiriki', day has dawned."
+            },
+            "claim_ids": [
+              "oilar-c06",
+              "oilar-c07"
+            ]
+          }
+        ],
+        "places": [],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Lamiñak",
+            "relation_type": "enemy",
+            "note": {
+              "id": "Kokok ayam jantan membuat lamiñak lari.",
+              "en": "The rooster's crow makes the lamiñak flee."
+            },
+            "claim_ids": [
+              "oilar-c02"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "oilar-s1",
+            "url": "https://fr.wikipedia.org/wiki/Oilar",
+            "title": "Oilar",
+            "author": null,
+            "publisher": "Wikipedia (fr)",
+            "published": null,
+            "language": "fr",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "oilar-s2",
+            "url": "https://buber.net/Basque/2020/05/31/basque-fact-of-the-week-the-sun-in-the-basque-cosmos/",
+            "title": "Basque Fact of the Week: The Sun in the Basque Cosmos",
+            "author": "buber",
+            "publisher": "Buber's Basque Page",
+            "published": "2020-05-31",
+            "language": "en",
+            "type": "other",
+            "accessed": "2026-10-14"
+          }
+        ],
+        "claims": [
+          {
+            "id": "oilar-c01",
+            "source_id": "oilar-s1",
+            "quote": "Oilar (on peut trouver aussi le nom d'Ollaar) signifie « coq » en basque. Il n'est pas rare de rencontrer le coq dans les légendes basques.",
+            "locator": null,
+            "context": "etymology",
+            "statement": {
+              "id": "Oilar (juga Ollaar) berarti \"ayam jantan\" dalam bahasa Basque, hewan yang cukup sering muncul dalam legenda Basque.",
+              "en": "Oilar (also Ollaar) means \"rooster\" in Basque, an animal often found in Basque legends."
+            }
+          },
+          {
+            "id": "oilar-c02",
+            "source_id": "oilar-s1",
+            "quote": "Son chant annonce la fuite des génies comme les lamiñak",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Kokoknya menandai larinya makhluk gaib seperti lamiñak.",
+              "en": "Its crow announces the flight of spirits such as the lamiñak."
+            }
+          },
+          {
+            "id": "oilar-c03",
+            "source_id": "oilar-s1",
+            "quote": "Parfois l'esprit malin (\"Gaiskiñe\" en basque) revêt l'aspect de cet animal.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Kadang roh jahat (Gaiskiñe dalam bahasa Basque) mengambil wujud ayam jantan.",
+              "en": "Sometimes the evil spirit (Gaiskiñe in Basque) takes the form of this animal."
+            }
+          },
+          {
+            "id": "oilar-c04",
+            "source_id": "oilar-s1",
+            "quote": "Si quelqu'un souffre d'une maladie mystérieuse il faut examiner les plumes de son oreiller ou du traversin. Si on trouve un amas qui épouse la forme d'un coq entier, on considère que la maladie est incurable.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Bila seseorang menderita penyakit misterius, bulu di bantalnya diperiksa; bila ditemukan gumpalan berbentuk ayam jantan utuh, penyakit itu dianggap tak tersembuhkan.",
+              "en": "If someone suffers a mysterious illness, the feathers of their pillow are examined; a clump shaped like a whole rooster means the illness is incurable."
+            }
+          },
+          {
+            "id": "oilar-c05",
+            "source_id": "oilar-s1",
+            "quote": "Si la tête n'est pas formée, il faut porter les plumes à une croisée de chemins et les y brûler : alors la maladie sera guéri.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Bila kepalanya belum terbentuk, bulu itu dibakar di persimpangan jalan dan penyakit itu pun sembuh.",
+              "en": "If the head is not yet formed, the feathers are burned at a crossroads and the illness is cured."
+            }
+          },
+          {
+            "id": "oilar-c06",
+            "source_id": "oilar-s2",
+            "quote": "The brother responded “Go to sleep. This animal that I bring will be in charge of opening the day. When I sing kikiriki, get up and you will see how it is daytime.” They did so and indeed, when the rooster crowed kikiriki, the day had already dawned.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam satu cerita Basque, seorang saudara berkata bahwa hewan yang dibawanya, seekor ayam jantan (rooster), akan bertugas 'membuka hari'; benar saja, ketika ayam jantan itu berkokok 'kikiriki', hari sudah fajar.",
+              "en": "In one Basque story, a brother says that the animal he brings, a rooster, will be in charge of 'opening the day'; indeed, when the rooster crowed 'kikiriki', day had already dawned."
+            }
+          },
+          {
+            "id": "oilar-c07",
+            "source_id": "oilar-s2",
+            "quote": "A brother, who had a rooster, saw a group of men hitting a rock with a stick. When he asked what they were doing, they said “Opening the day so that the sun can warm the world.”",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Seorang saudara yang memiliki ayam jantan melihat sekelompok orang memukul batu dengan tongkat; mereka berkata sedang 'membuka hari' agar matahari bisa menghangatkan dunia.",
+              "en": "A brother who had a rooster saw a group of men hitting a rock with a stick; they said they were 'opening the day' so that the sun could warm the world."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          },
+          {
+            "field": "sources",
+            "searched": "Auñamendi Eusko Entziklopedia (pencarian 'oilar') dan en.wikipedia 'Basque mythology' tidak memuat entri ayam jantan; karya Barandiaran tentang mitologi Basque tidak terbuka daring."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "oilar-c03",
+        "oilar-c05"
+      ],
+      "receipt_path": "data/artwork-generated/batch-2123/oilar.json",
+      "original_file": "/home/asadin/Projects/asadin-edu-mitoloka/data/artwork-generated/batch-2123/originals/oilar.png",
+      "native_sha256": "ed4f7c187f7d4c389a36045a9177d95d3a1acd647678a27df6136e50d172aa2a",
+      "url": "/assets/art/oilar-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Oilar, the rooster herald of Basque legend whose crow announces the fleeing of spirits. ANATOMY: ONE living ordinary-size ROOSTER with ONE head, TWO natural dark eyes, one red comb and red wattles, one normal pointed beak, TWO feathered wings, TWO bird legs with normal rooster feet and ONE arched tail of feathers. Dense black and russet natural feathers, NO horns, human face, fangs, claws replacing feet or extra eyes [oilar-c01]. MOMENT: CROW FORCEFULLY toward the sky and viewer from a low stone ridge, beak wide OPEN, neck extended and chest thrust forward, both wings half-spread in strong bracing action. His call has just made several SPIRITS FLEE: show three large indistinct translucent grey-black spirit shapes recoil and stream AWAY from the rooster toward the dark background, clearly separate from his body. Spirits are secondary vague forms without specific heads, eyes, limbs or costumes; no invented lamiñak anatomy. Their retreat must be an unmistakably supernatural response to the crow rather than ordinary fog [oilar-c02]. POWER: spirit-repelling crow, shown by fleeing spirits ONLY, no visible sound circles, magic beams, aura, neon, runes, fire breath, cracked rock or weather control. SCALE & CAMERA: extreme LOW GROUND camera inches below the stone, rooster face, open beak, chest, two braced feet and arched tail dominate the square; normal-size rooster, not a giant, no farmyard animals. Spirit shapes remain behind him. LIGHT & WEATHER: first harsh amber DAWN cuts across near-black night, a single low rising sunlight rim on black feathers and red comb, deep walnut shadows, no decorative postcard sky. SURFACE: tactile damp coarse feathers, worn stone, fine cold dew. SETTING: rocky rural ground at dawn, minimal landscape, no coop, fence or barn [oilar-c06]. MOOD: overwhelming defiant supernatural herald driving unseen beings away, dangerous awe and fierce action, never an ordinary farm rooster portrait, cute pet, static animal, landscape or cockfight. HARD CONSTRAINTS: no text, lettering, logo, frame, border or watermark; no extra heads, limbs or toes; no film, game, anime or comic designs; no people, nudity or gore; no generic glow aura, neon outline, magical ribbons or floating glyphs. Square, high contrast premium painterly brushwork with clean subject silhouette readable at 200 pixels.",
+      "depicted_variant": "Rooster herald crowing at dawn while indistinct spirits flee his call.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Rooster with one head, two wings and two legs, ordinary animal size",
+          "claim_ids": [
+            "oilar-c01"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Crowing announces the flight of spirits, shown recoiling and fleeing away",
+          "claim_ids": [
+            "oilar-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Dawn as rooster opens the day in the Basque story",
+          "claim_ids": [
+            "oilar-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "oilar-c01",
+        "oilar-c02",
+        "oilar-c06"
+      ],
+      "aura": "The physically reacting fleeing spirits make the rooster herald supernatural (c02); dawn accompanies the crow c06, with no luminous aura or sound ribbons.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native 1254px and 200px inspected: one natural rooster with one head, two wings and two braced legs, open beak in powerful crow; no extra anatomy. Four indistinct translucent spirits visibly stream away toward dark background (c02), no specific lamiñak anatomy; dawn c06. Rooster dominates frame and active spirit retreat is unmistakable at 200px, so the supernatural scene is not an ordinary farm animal portrait. No giant-size comparator, fire breath, eye glow, sound rings, aura, text or borrowed design. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "ed4f7c187f7d4c389a36045a9177d95d3a1acd647678a27df6136e50d172aa2a",
+        "reviewed_at": "2026-10-16T07:44:08.362Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f1a5881604b75532f249f33d7bf0f5318316f0c685ffaff045fdc9d9ee26cc88"
+    }
+  ],
+  "replacements": [],
+  "baseline_artwork_count": 1887,
+  "selection_criteria": [
+    "computeFillStatus must be lengkap-informasi: complete, valid research without an approved image.",
+    "No active editorial artwork and no permanent artwork exclusion.",
+    "The accepted research entry is embedded unchanged; the image may only depict what its claims document.",
+    "Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar."
+  ],
+  "keep_rejected_attempts": true,
+  "user_policy": {
+    "instruction_date": "2026-10-08",
+    "name": "sangar",
+    "intent": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "subject": "The being dominates the frame and is clearly the subject. Head, eyes and distinguishing traits are readable even at thumbnail size. Never a landscape without the being, never a human who could be a passer-by, never a farm animal at pasture.",
+    "moment": "Depict a moment, not a pose: hunting, emerging, striking, commanding, towering, descending, tearing through weather or ground. Gaze and posture confront or loom over the viewer. Standing still and facing the camera with a neutral expression is not acceptable.",
+    "effects": "Visible power is wanted and may be strong, but every effect must come from a power, domain, attribute, habitat or deed documented in the research claims of that being, and it must act physically on the world: ground cracking, water rearing, trees bending, lightning striking, flame consuming, fog pouring, bodies of victims turned to stone. No generic glowing envelope, neon outline, energy ribbons, floating runes or luminous coloured mist. If the research documents no power, build menace from anatomy, scale, moment, light and setting instead, and record that in artistic_choices.",
+    "fidelity": "Anatomy, attributes, number of heads, eyes, limbs and iconography follow the research claims exactly. Effects and atmosphere add power; they never replace or invent anatomy. Fully opaque clothing where a humanlike form is clothed; no nudity, no explicit gore.",
+    "composition": "Low camera angle; monumental or predatory scale with small environmental references when size is documented, otherwise dominance through tight framing and foreshortening. Strong silhouette, high contrast, cinematic low-key lighting from one dominant source (moon, fire, lightning, dying sun), rim light, dust, smoke, rain or spray. Tactile surfaces: wet scales, matted fur, cracked skin, rust, weathered cloth, stone.",
+    "setting": "The place its stories name: graveyard, swamp, sea cliff, battlefield, celestial palace, desert storm. Weather and time of day heighten threat or majesty. Palette is dark and warm with one strong accent, consistent with the collection; no pastel, no flat even daylight.",
+    "respect": "Living religions (Hindu, Buddhist, Shinto, Abrahamic and folk deities still worshipped) are majestic and overwhelming rather than monstrous: cosmic scale, divine radiance from documented attributes, the elements they rule in motion. Malevolent beings are menacing. Literary beings follow their source text, never a film, game, anime or comic design.",
+    "aniconic": "If the research documents no bodily form at all, either depict the documented manifestation as an active, overwhelming force (the sky itself splitting, a storm swallowing the steppe) with the choice recorded in artistic_choices, or decline the entry with status tidak-digambar. A calm scene without agency fails.",
+    "self_check": "Before accepting an image the generator answers all of these with yes: the being dominates the frame; it still looks dangerous or majestic at 200 px; there is a moment, not a static pose; each visible effect points to a claim id; head, eye and limb counts match the claims; no text, watermark, border or borrowed design; it would not be rejected as ordinary person, ordinary animal, landscape only, or cute and calm. One no means regenerate, keep the rejected attempt as history, up to three attempts.",
+    "style": "Square premium painterly cinematic illustration in the house style of the existing artwork, more dramatic and higher contrast. No text, labels, logo, border or watermark.",
+    "sources": "Never copy designs from films, games, anime or comics (modern_depictions). Every design is original and sourced from the accepted research."
+  },
+  "selection_audit": {
+    "eligible": 1052,
+    "selected": 5,
+    "missing_current_research": [],
+    "needs_catalogue_record": 5,
+    "without_visual_claims": [],
+    "earlier_omissions": [],
+    "omitted": []
+  },
+  "generation_complete": true,
+  "generation_completed_at": "2026-10-16T07:51:14.099Z",
+  "generation_status_counts": {
+    "reviewed": 5
+  }
+}

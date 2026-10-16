@@ -1,0 +1,78 @@
+{
+  "slug": "kunekune-urban-legend",
+  "depicted_variant": "Rail-thin sexless white fabric humanoid convulsing in tight uneven ripples beside dead-still noon paddy.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Very slender white paper or fine-fabric humanoid; blank featureless head, two arms and two legs",
+      "claim_ids": [
+        "kunekune-urban-legend-c01",
+        "kunekune-urban-legend-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Continuous impossible wriggling of limbs despite completely windless surrounding rice",
+      "claim_ids": [
+        "kunekune-urban-legend-c03",
+        "kunekune-urban-legend-c12",
+        "kunekune-urban-legend-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wide rice field on a hot summer day",
+      "claim_ids": [
+        "kunekune-urban-legend-c01",
+        "kunekune-urban-legend-c11"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "kunekune-urban-legend-c01",
+    "kunekune-urban-legend-c03",
+    "kunekune-urban-legend-c04",
+    "kunekune-urban-legend-c11",
+    "kunekune-urban-legend-c12",
+    "kunekune-urban-legend-c13"
+  ],
+  "aura": "Unnatural limb wriggling in utterly still air (c03/c12/c13), not luminous aura or a visible curse.",
+  "artistic_choices": [
+    "Rail-thin straight torso, parallel narrow hips and no chest or anatomical waist prevent the rejected hourglass mannequin impression.",
+    "Tight uneven cloth ripples visualize continuous limb wriggling c12, with no additional limbs or hard joints. Off-centre body leans across still water toward viewer.",
+    "Flat bleached white sky, harsh overhead glare and short hard black shadow express hot summer noon; no blue sky, wispy clouds, sunset or romantic light."
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/kunekune-urban-legend-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/kunekune-urban-legend-attempt-01.json",
+      "native_sha256": "b5a9014b3bab16a237b8c6454364e64adbdf58cdb8125561147dbf98e7bde697",
+      "reason": "Redraw Kunekune writhing IN PLACE, not running, leaping or dancing. The very slender white paper or fine-fabric humanoid (kunekune-urban-legend-c01/c04) stays planted in or beside the paddy while its torso twists in an S-curve and both arms undulate in continuous waves like cloth in a strong straight gust (c03/c12/c13). The rice stalks, grass and air around it must stay completely motionless, so the windless wriggle is the visible wrongness. Keep the head blank, with no invented face, eyes or teeth. Use a wide rice field on a HOT summer day (c01/c11): harsh high white sun, heat shimmer, hard deep shadows and an empty dike path, not a golden-hour postcard. Use a low camera along the dike and tight framing so the unnatural limb motion is the subject and reads at 200px. No mind/curse visuals (c08), aura, text or borrowed design."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/kunekune-urban-legend-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/kunekune-urban-legend-attempt-02.json",
+      "native_sha256": "2e0c0111bbb24e0d5cd21270916c15b42bd135952abf62221b4070a5abe7a753",
+      "reason": "Keep: one very slender white paper/fine-fabric humanoid with a blank faceless head, two ribbon-thin arms and two legs. Keep the feet planted in or beside the paddy, the rice and water dead still, and humanlike scale (kunekune-urban-legend-c01/c03/c04/c11/c12/c13). Fix: (a) Make the wriggle read as wrong and alive, not graceful. Use a rail-thin, sexless, straight-hipped body, not an hourglass mannequin, with no contrapposto and no knee-forward model pose. The torso and both arms twist in many tight, uneven ripples along their whole length, like cloth whipped in a gale, and the head is jerked to a broken angle. Every rice blade and the water stay motionless around it. (b) Light: a bleached white-hot noon sky, heat haze visibly warping the far paddies, a harsh overhead sun, and a short hard black shadow at the feet. No pale-blue sky with wispy clouds. (c) Composition: a lower, closer, off-centre camera, so the figure looms over the viewer across the still water instead of standing centred on the path like a statue. No face, eyes, mouth, aura, curse or madness effects (c08), and no text."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/kunekune-urban-legend-attempt-03.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/kunekune-urban-legend-attempt-03.json",
+      "native_sha256": "32d80c28fc269e28b081550b7d87d4c4a5ecc4df0e6ace23b22fec59992f0b0f",
+      "reason": "Claude r05 rejected third selected attempt after r01/r03: movement still reads sagging inanimate paper art, not windless living wriggle. Stop after three selected attempts under GAMBAR.md §4; no final PNG accepted and replace this slot."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "resume_2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 2118,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "reason": "Claude r05 rejected third selected attempt after r01/r03: movement still reads sagging inanimate paper art, not windless living wriggle. Stop after three selected attempts under GAMBAR.md §4; no final PNG accepted and replace this slot.",
+  "declined_at": "2026-10-16T08:32:50.530Z"
+}

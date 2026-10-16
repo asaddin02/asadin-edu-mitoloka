@@ -1,0 +1,43 @@
+{
+  "slug": "jobar-monster",
+  "basis_claim_ids": [
+    "jobar-monster-c01",
+    "jobar-monster-c02",
+    "jobar-monster-c07",
+    "jobar-monster-c08"
+  ],
+  "depicted_variant": "Giant camel-like Tuareg night bogeyman looming over desert rocks.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant camel-like beast",
+      "claim_ids": [
+        "jobar-monster-c02",
+        "jobar-monster-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tuareg Niger contextual desert at night",
+      "claim_ids": [
+        "jobar-monster-c01",
+        "jobar-monster-c07"
+      ]
+    }
+  ],
+  "aura": "Giant camel-like body c02/c08 and nocturnal approach c07 create danger without aura.",
+  "artistic_choices": [
+    "Choose simple one-humped camel anatomy as editorial neutral camel-like realization; no dinosaur shape from modern naming.",
+    "Tiny distant empty camel-tending shelter sets giant scale without victims or children.",
+    "No invented elemental power; menace through low angle, head/mouth, physical scale."
+  ],
+  "prompt": "EDIT this Jobar giant camel-like monster illustration. Preserve head, expression, giant hump, fur, moon, desert, tiny tent, large foreground right forefoot and all lighting. Correct ONLY anatomy so EXACTLY FOUR legs and FOUR feet exist. REMOVE the narrow EXTRA CENTRAL-LEFT LEG hanging immediately under the chest at about 45 percent image width (between far-left leg and massive foreground leg). Replace its entire silhouette with unobstructed dark background and desert. KEEP four remaining legs: far-left foreleg at 22 percent width, massive foreground foreleg at 63 percent, rear inner leg at 75 percent and far-right rear leg at 87 percent. Each kept leg anatomically joins torso; each has one padded split camel foot. Do not add new limbs, do not change size or head or tent. One head, two eyes, one hump, four legs, one tail. No text, glow, violence, injury or gore. The creature remains an original giant camel-like beast of Tuareg lore [jobar-monster-c02,jobar-monster-c08].",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/jobar-monster-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/jobar-monster-attempt-01.json",
+      "native_sha256": "f8e52a07004146086ab89d2824fc1666f8fdcb53fee04c09eb793b9d0ccd9de5",
+      "reason": "Self native anatomy check: five leg-like supports appear below torso (far-left, central-left, large foreground, rear-inner and far-right); exactly four required. Targeted remove extra central-left leg."
+    }
+  ]
+}

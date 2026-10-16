@@ -1,0 +1,72 @@
+{
+  "slug": "brag-folklore",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Brag, Northumbrian shape-changing goblin in horse form.\nANATOMY: ONE normal-sized horse with one head, two eyes, FOUR legs, one mane and one tail [brag-folklore-c01]. Wet dark coat and real hooves, no horns, wings, human teeth or extra anatomy. ONE fully opaque clothed adult male rider in plain old brown coat, two arms and two legs.\nMOMENT: Buck viciously at pond edge while throwing the adult rider headlong far into the middle of water; rider fully airborne away from horse, head and shoulders entering huge cold splash, no injuries. Horse twists neck toward viewer with malicious equine nicker, open mouth with natural horse teeth. Full horse body and FOUR legs clearly separated in side-threequarter view; horse fills two thirds, not a calm riding scene.\nPOWER: Documented trick: throws rider into pond then runs away laughing [brag-folklore-c01,brag-folklore-c06]; physical bucking and water impact only.\nSCALE & CAMERA: extreme low angle; tight close camera, subject fills square, preserve documented scale.\nLIGHT & WEATHER: one dominant low amber moon, deep walnut shadows, hard rim light, physical dust or water spray where appropriate.\nSURFACE: tactile natural skin, coarse cloth, feathers or fur, weathered wood and stone; premium painterly brushwork.\nSETTING: Northumbrian rural pond at night [brag-folklore-c01,brag-folklore-c06].\nMOOD: active and imposing, never cute or decorative; preserve helpful beings as benevolent and noble.\nHARD CONSTRAINTS: no text, pseudolettering, inscriptions, logo, border, frame or watermark; no extra heads, eyes, limbs or fingers; no film, game, anime or comic designs; fully opaque clothing on humanoids; no nudity, blood or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "Brag, Northumbrian shape-changing goblin in horse form",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Horse form of shapeshifter",
+      "claim_ids": [
+        "brag-folklore-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Throws rider into middle of pond, nickers and laughs",
+      "claim_ids": [
+        "brag-folklore-c05",
+        "brag-folklore-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pond in Northumbrian tale",
+      "claim_ids": [
+        "brag-folklore-c01",
+        "brag-folklore-c06"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "brag-folklore-c01",
+    "brag-folklore-c05",
+    "brag-folklore-c06"
+  ],
+  "aura": "Documented anatomy and deed create presence through physical action and low framing, no generic aura.",
+  "artistic_choices": [
+    "Ordinary horse anatomy preserved; documented trick distinguishes spirit through active expulsion of adult rider. No invented monster markers."
+  ],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "batch": 2029,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-a11e-7273-9ac2-6cc6019d8a05/exec-1128edb1-210d-4a98-9aad-99599acc4c1c.png",
+  "generated_at": "2026-10-16T04:31:04.561Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/brag-folklore.png",
+  "native_sha256": "a06f55b22097c58dcb57f433c98bba8fa8a8592dea0c446b708c42dfd0b945db",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: horse has one head, natural eyes/mouth, four separated legs and tail; bucking horse expels fully clothed adult rider into pond with large impact splash, no injury shown. Action reads immediately at 200px and differentiates from ordinary horse portrait through c06 deed. No invented monstrous anatomy, aura, text or borrowed design. All Sangar criteria pass.",
+    "limitations": [],
+    "native_sha256": "a06f55b22097c58dcb57f433c98bba8fa8a8592dea0c446b708c42dfd0b945db",
+    "reviewed_at": "2026-10-16T04:31:04.562Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:29:06+07:00",
+    "native_sha256": "a06f55b22097c58dcb57f433c98bba8fa8a8592dea0c446b708c42dfd0b945db",
+    "notes": "Viewed native 1254px + 200px + leg and body crops. One normal-sized dark wet horse (c01): one head, two eyes, one mane, one tail, and exactly four legs — two front legs planted on the near pond bank and two hind legs kicking up over the water in a vicious buck (no horns, wings or extra anatomy). It twists its neck toward the viewer with an open nickering/laughing mouth and natural horse teeth while an opaque, fully-clothed adult rider is thrown headlong into the middle of the moonlit pond, head and shoulders entering the splash (c05/c06). Northumbrian rural pond at night with a full moon and stone wall (c01/c06); the horse dominates ~2/3 of the frame. Saddle/stirrup are editorial only. No gore, text or aura."
+  }
+}

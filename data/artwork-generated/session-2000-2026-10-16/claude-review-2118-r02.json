@@ -1,0 +1,45 @@
+{
+  "batch": 2118,
+  "round": "r02",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T14:33:33+07:00",
+  "scope_note": "Independent visual review of receipts only. No integration, manifest, research or power changes. For each of the 4 requested slugs I viewed the native 1254px PNG, a 200px downscale, and targeted native crops (hands/fingers, feet/hoof, faces/eyes, clothing opacity, armour/weapon ornament for pseudo-text, background for hidden figures), then compared them against the receipt visual_requirements and the research claims embedded in the ledger. Before writing, each PNG's SHA-256 was recomputed and matched against the receipt native_sha256, the Codex visual_review hash, and the Codex root native-review hash in drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review (plus correction_notes on the reject) and the receipt status, and synced the ledger item status. No PNG, Codex visual_review, Codex native review or other receipt was modified. Ledger note: Codex synced receipt_path/original_file/native_sha256 for these items while the review was running. The ledger was re-read immediately before writing, so those concurrent changes are kept, the ledger item hashes match the PNGs, and only the item status was changed. Reject: la-diablesse (sexualised upskirt/cleavage framing; the face is a pretty warm smile, not hideous; sunny resort-postcard palette).",
+  "requested_slugs": [
+    "la-diablesse",
+    "la-llorona",
+    "lawdasura",
+    "lugh"
+  ],
+  "totals": {
+    "reviewed": 4,
+    "pass": 3,
+    "reject": 1
+  },
+  "results": [
+    {
+      "slug": "la-diablesse",
+      "native_sha256": "f14a0e245ed8c65ddac712f21e6469a566b200bbc46f7dd2b2207eb3b31e9e26",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, and face/hat, beckoning-hand, skirt-hand, bare-leg, hoof and human-foot crops. The anatomy is right: one adult woman with one head and two arms (the beckoning hand is a thumb plus four fingers), one ordinary bare human foot with five toes, and exactly ONE unmistakable cloven cow hoof with a hairy fetlock (la-diablesse-c02). She has a very wide straw hat (c02) and stands at an isolated plantation house at the forest edge under a high sun (c07/c08). No text, aura or victim. It still fails, for three reasons. (1) The face under the brim is not hideous or malevolent. The visible lower face is a pretty, warm, open toothy smile, an ordinary attractive woman as in a fashion shoot. That contradicts c02's hideous hidden face, the malevolent disposition, and the receipt's own claim of a 'distorted cruel grin'. (2) The framing is sexualised. The camera lies on the ground looking up under the lifted skirt at a bare, oiled leg exposed past the knee into the thigh, and the low-cut bodice shows cleavage. This is the same upskirt problem rejected for irudica in 2079-r02, and it is especially inappropriate for a figure whose origin is an enslaved African woman (c01). artistic_choices claims 'no sexualized framing', which the image contradicts. (3) Blue sky with fluffy cumulus, a sparkling sun and palm trees make a sunny resort postcard, not the dead white glare of windless noon (c08) or a dangerous lure. At 200px it reads as a woman in a straw hat on a holiday path, and the hoof is the only cue. Fails Uji Sangar #2 and #7 and the policy's fidelity/respect rules.",
+      "correction_notes": "Keep the strong anatomy: one adult African-Caribbean woman (la-diablesse-c01) with exactly ONE cloven cow hoof and one ordinary human foot (c02), and a very wide-brimmed hat hiding the upper face (c02). Fix the following. (a) No upskirt or sexualised framing. Put the camera low in front at knee or hip height, not on the ground under the skirt. Lift the hem only to ankle or shin height, just enough to show the hoof stepping forward. Use a high-necked, long-sleeved, fully covering opaque dress with no cleavage and no bare thigh. (b) The visible lower face must be genuinely wrong and menacing (the hideous face of c02; the goblin horror and hideous laughter of c09): for example an over-wide grin with too many teeth, or a sunken, distorted cheek in the brim's shadow, while the face stays mostly hidden. Not a pretty, warm smile. (c) Use the documented hour (c08): dead windless noon, a bleached white-hot sky, a harsh overhead sun, short black shadows, heat haze, and motionless cane fields of an isolated plantation (c07). No blue postcard sky with cumulus and no palm-resort mood. (d) Moment: she steps out of the cane toward the viewer and beckons them toward the dark forest edge (c03), with the hoof planted large in the foreground. No victim, spell effects, text or aura."
+    },
+    {
+      "slug": "la-llorona",
+      "native_sha256": "91773c7bfd0993117c56b5082c6f92f9313b4443c0482df5917463ae6176196f",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, both-hand and body/knee-in-water crops. One adult woman (la-llorona-c10) with one head and two eyes running with ordinary tears (the weeping woman, c05/c06), and a wide-open wailing mouth (heard weeping and shrieking through the night, c11). Long wet dark hair falls under a fully opaque, coarse, fringed dark rebozo-like shawl over a long taupe dress (a pitiful figure hidden under a rebozo, c10). The soaked dress stays opaque; only the bent knee and shin show in the splash. Two hands thrust at the viewer with clawlike spread fingers, each counted at thumb plus four fingers. She lunges out of a river's shallows toward the viewer at night under a full moon, with water exploding around her (roams near water, c05; sees you from afar and pursues you, c12). This avoids the white bridal-gown film design, and shows no children, victims, decay or invented curse energy. Human scale is documented. The menace comes from the pursuit, the grasping hands and the shriek, not from invented anatomy. The extreme low riverbank camera, cold moon rim light and spray make it frightening at 200px, not a passive or ordinary woman. No text or aura."
+    },
+    {
+      "slug": "lawdasura",
+      "native_sha256": "31376be39bf6a103366e6def82f6b8edfa74c57a111ceeb3dacdba7f5e53fdbf",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, near-hand, upper-hand, armguard/belt and both-foot crops. One humanlike asura (lawdasura-c01) with one head, two eyes, a snarling open mouth, a heavy beard and wild long black hair; the red forehead mark is an editorial detail. Two arms. The near arm, in an engraved bronze armguard, grips the trunk with its fingers dug into the bark; the thumb is hidden behind the trunk, not malformed. The far arm reaches up behind the trunk, and its yellow cord is a tied thread, not text. Two braced legs: the front foot is in a metal-banded greave inside the dust cloud, and the rear foot is in a sandal with toes visible. Opaque red wrap and trousers. No horns, fangs, extra limbs or trident (fights without the trident, c05). Moment: he wrenches a whole freshly uprooted tree and hurls its huge root mass, flying clods and dust at the camera (uproots trees and throws them, c06). This is a physical, documented effect with no fire or aura. The setting is a riverside forest under a moon (Madhu forest, c12). A small bystander far off by the water gives scale without becoming a victim. The armguard and belt ornament is scrollwork, not letters. The tree's impossible weight, the snarl and the low, foreshortened root mass make him clearly superhuman and dangerous at 200px, not an ordinary warrior. No borrowed design."
+    },
+    {
+      "slug": "lugh",
+      "native_sha256": "cb68f4e52ab484421a1ae2af54eeea44582181c36e8ca887de8bc7ca32b55a0f",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, both-hand, armour-medallion, spearhead and background crops. One humanlike warrior-king deity (lugh-c01) with one head, two eyes in a hard direct stare at the viewer, and long windblown brown hair. Two arms: both hands wrap ONE long spear shaft, each counted at thumb plus four fingers in a natural grip. Two legs: the front armoured boot stamps into wet earth in the foreground, and the rear leg is braced behind. Fully opaque green wool cloak over bronze plate and leather (editorial). The medallions are knotwork discs and the spearhead is a ribbed leaf blade, with no letters or runes. The spear burns with real flame from the upper shaft through the head, throwing sparks and lighting his armour (unstoppable fiery spear, c05). The fire stays on the weapon: no body aura, beams or burning landscape. He drives the spear diagonally at the camera in a lunging battle advance across a rocky, misty upland battlefield with standing stones and tiny distant war-bands under a storm moon (Battle of Mag Tuired / Moytura, c04/c09). No struck enemy or gore. The epithet Lamfada (c03) is correctly not turned into a long arm. Heroic and dangerous, and it reads at 200px. Generic Celtic armour, not a recognisable film or game design. No text."
+    }
+  ]
+}

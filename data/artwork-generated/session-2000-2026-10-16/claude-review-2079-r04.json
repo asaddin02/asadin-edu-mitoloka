@@ -1,0 +1,23 @@
+{
+  "batch": 2079,
+  "round": "r04",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T14:58:53+07:00",
+  "scope_note": "Independent visual review of the single requested receipt only (hairen). No integration, manifest, research or power changes. Viewed the native 1254px PNG, a 200px downscale, 4x native crops of both feet, 2.5x crops of both hands and the face, and crops of the hips/skin folds and both lower quadrants; also diffed against the r03 reference (rejected/hairen-attempt-03.png) to confirm the edit is concentrated on the lower-left foot with the rest of the scene preserved. Before writing, the PNG SHA-256 was recomputed and matched the receipt native_sha256, the Codex visual_review hash, the ledger item hash and the Codex root native-review hash in batch-2079/drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review and the receipt status, and synced the ledger item status. No PNG, Codex visual_review, Codex native review or other receipt was modified.",
+  "requested_slugs": [
+    "hairen"
+  ],
+  "totals": {
+    "reviewed": 1,
+    "pass": 1,
+    "reject": 0
+  },
+  "results": [
+    {
+      "slug": "hairen",
+      "native_sha256": "d1b03b4b3817852ce776a191ab088e80b1eece81209b6612c7c76a850c22e8b3",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, 4x native crops of both feet, 2.5x crops of both hands and the face, and crops of the hip skin folds and both lower quadrants; diffed against attempt-03 (the r03 reject): the change is concentrated on the lower-left foot, and the rest of the scene is a faithful low-level re-render with the same composition. The r03 defect is fixed: the lower-left foreground foot (the creature's right foot) now shows FIVE toes, from outer small toe to big inner toe, each with its own nail, and four skin webs between neighbouring toes. It joins the shin cleanly through a humanlike ankle with no seam, detached toe or sixth toe. The lower-right foot still has five nailed toes and four webs. The left-frame hand has a thumb plus four fingers with translucent membrane between the fingers, as does the right-frame hand. Counts are 5/5/5/5, matching the webbed hands and feet of a humanlike being (hairen-c01/c02). One head, two eyes, two arms, two legs, no fins, gills or horns. Loose grey-olive living skin hangs in wet folds like hakama over the hips and thighs (c03), over a fully opaque charcoal undergarment, with no nudity. A feral, defiant confrontation (untameable, c05): it lunges toward the viewer in a low crouch with both webbed hands spread at shoulder height, a narrowed glare and bared teeth. It reads as dangerous at 200px, with the membranes still legible. Moonlit night sea and wet coastal rocks with ordinary surf (c01). No magic effect, aura, text, watermark, border or borrowed film/game design; not an ordinary man. Passes all seven Uji Sangar checks."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "chedipe",
+  "name": "Chedipe",
+  "batch": 2029,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Chedipe, the Godavari witch in her documented Murulupuli tiger form.\nANATOMY: ONE tiger head, two feline eyes, striped tiger torso and tail; EXACTLY FOUR legs: THREE tiger legs with paws and ONE HUMAN front right leg from knee downward ending in five-toed human foot. Human leg modestly wrapped above knee in opaque coarse cloth. No separate rider or human head. [chedipe-c05,chedipe-c13]\nMOMENT: Spring from a dark forest path toward viewer, one human foot planted conspicuously at foreground right, three tiger paws clearly separate; snarling mouth.\nPOWER: Documented tiger shapeshift attacks passers-by; no extra magic effects or blood. [chedipe-c13]\nSCALE & CAMERA: extreme low angle, close framing and foreshortening, subject fills 80% of square; size as documented, no unsupported giant scale.\nLIGHT & WEATHER: one dominant warm low sunset or moonbreak, strong rim light and deep walnut shadows, ordinary atmospheric dust or moisture appropriate to setting.\nSURFACE: tactile natural textures, wet scales or matted fur where relevant, weathered cloth and rough stone, visible painterly brushwork.\nSETTING: Moonlit jungle near the Godavari River. [chedipe-c01,chedipe-c13]\nMOOD: dangerous and imposing for hostile beings; awe-inspiring and respectful for gods, guardians and living traditions, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons, floating runes; no additional characters except explicitly specified.",
+  "depicted_variant": "ONE tiger head, two feline eyes, striped tiger torso and tail; EXACTLY FOUR legs: THREE tiger legs with paws and ONE HUMAN foreleg from knee downward ending in five-toed human foot. Human leg modestly wrapped above knee in opaque coarse cloth. No separate rider or human head.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE tiger head, two feline eyes, striped tiger torso and tail; EXACTLY FOUR legs: THREE tiger legs with paws and ONE HUMAN foreleg from knee downward ending in five-toed human foot. Human leg modestly wrapped above knee in opaque coarse cloth. No separate rider or human head.",
+      "claim_ids": [
+        "chedipe-c05",
+        "chedipe-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented tiger shapeshift attacks passers-by; no extra magic effects or blood.",
+      "claim_ids": [
+        "chedipe-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Moonlit jungle near the Godavari River.",
+      "claim_ids": [
+        "chedipe-c01",
+        "chedipe-c13"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "chedipe-c05",
+    "chedipe-c13",
+    "chedipe-c01"
+  ],
+  "aura": "Imposing action and documented attributes (chedipe-c05,chedipe-c13); effect basis chedipe-c13.",
+  "artistic_choices": [
+    "Dark warm palette, close low camera and dramatic side-light are artistic choices, not additional source facts.",
+    "Effects confined to documented action; no generic aura. Human clothing chosen opaque where needed; no unsupported giant size."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-f844be85-ee46-4606-a0cf-f2ab11e80933.png",
+  "generated_at": "2026-10-16T03:14:19.920Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/chedipe.png",
+  "native_sha256": "205cc6fc5ebc5f3a9363fda59caf590e5791f20362b095f9c3cee5f9bf397c25",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: single tiger with exactly four legs: one human front leg/foot prominently forward, other three feline paws separately visible; one head/tail. Opaque wrap above human knee, no nudity. Aggressive jungle attack c13 with Godavari moonlit setting, no blood or added magic. Hybrid unmistakable at 200px, all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "205cc6fc5ebc5f3a9363fda59caf590e5791f20362b095f9c3cee5f9bf397c25",
+    "reviewed_at": "2026-10-16T03:14:19.933Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "205cc6fc5ebc5f3a9363fda59caf590e5791f20362b095f9c3cee5f9bf397c25",
+    "notes": "Viewed native + 200px + leg and foot crops. One tiger head, two feline eyes, striped tiger torso and tail; exactly four legs — three tiger paws and one bare human foreleg ending in a five-toed human foot (modestly cloth-wrapped above) c05/c13 — no separate rider or human head and no blood. Mid-stalk in a moonlit jungle above the Godavari c01/c13; anatomy reads at 200px, no text or borrowed design. (The source states only 'one human leg'; the receipt's foreleg/side wording is a permissible specification, not a contradiction.)"
+  }
+}

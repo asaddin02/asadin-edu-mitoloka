@@ -1,0 +1,85 @@
+{
+  "depicted_variant": "Maha Sona in the bear-headed revived warrior account",
+  "prompt": "EDIT THE REFERENCED IMAGE. Change ONLY the HAND GRIPPING THE ROCK at UPPER LEFT, approximately native1254 x0-225,y350-535. Preserve bear head, roar, body, other reaching hand, clothes, lunge, moonlight, graveyard, rocks and all composition exactly. Do not change the face or head orientation.\nCorrect upper-left rock-gripping hand to EXACTLY FIVE NORMAL HUMANLIKE DIGITS: FOUR distinct fingers laid over the upper rock surface, each ending in exactly one visible nail, plus ONE clearly OPPOSED THUMB curved down to the near vertical side of the rock. Total FIVE digit tips and FIVE nails, not six. The thumb is beside/under the four fingers, clearly attached to the same palm. Space fingertips naturally so all five are countable, not hidden or merged. Remove the extra sixth finger completely. Keep skin tone, hand scale, anatomy, rock grip and amber rimlight.\nSource maha-sona-c03/c04 revived humanlike warrior with bear head; ordinary five-digit humanlike hands. No new magic, no weapons, no corpse/gore, no extra limbs, text, annotations, labels, aura or borrowed designs. Full opaque clothing remains exactly as source image.",
+  "basis_claim_ids": [
+    "maha-sona-c03",
+    "maha-sona-c04",
+    "maha-sona-c02",
+    "maha-sona-c06",
+    "maha-sona-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Revived warrior with bear head",
+      "claim_ids": [
+        "maha-sona-c03",
+        "maha-sona-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Graveyard and great rocks",
+      "claim_ids": [
+        "maha-sona-c02",
+        "maha-sona-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Yaksha identity; no unsupported magic",
+      "claim_ids": [
+        "maha-sona-c01"
+      ]
+    }
+  ],
+  "aura": "No generic aura. Presence comes from documented anatomy and action: maha-sona-c03, maha-sona-c04, maha-sona-c02, maha-sona-c06, maha-sona-c01.",
+  "artistic_choices": [
+    "Selected bear-headed revived warrior account c03/c04 rather than bear-form ritual-mask variant c07. Dark opaque clothing is editorial modesty, not asserted ritual iconography.",
+    "No corpse feeding or gore, no invented weapons/powers/giant size.",
+    "Narrow rock-hand correction to four fingers over rock plus one opposed thumb; head orientation retained because backwards fitting is optional source detail per Claude correction."
+  ],
+  "slug": "maha-sona",
+  "batch": 2118,
+  "worker": "codex",
+  "worker_agent": "resume_2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-076.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/maha-sona-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/maha-sona-attempt-01.json",
+      "native_sha256": "5c66b7022809c2480390d5043e7c16bb807849afbe4b0f759a1add2ff4af8a4f",
+      "reason": "Keep everything else: the one natural bear head on a humanlike warrior body (maha-sona-c03/c04) and the roaring lunge off the great rock at a low camera. Keep the opaque dark wrap and skirt, and the moonlit graveyard with weathered uninscribed stones and burial mounds (c02/c06). Keep out corpses, gore, weapons, text and aura. Fix: the hand on the rock must have exactly five digits, a thumb and four fingers, with the thumb clearly opposed beside or under the fingers. Otherwise crop or occlude it so that no miscounted digits show. Recheck both hands at native zoom before resubmitting. Optional, not required by the claim statement: the c04 source quote says the bear head was fitted backwards in haste. Attempt this only if the anatomy stays clearly legible."
+    }
+  ],
+  "generation_failures": [],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-40a3-7fe3-afa7-3a49bf05e434/exec-614a6882-71c5-4cdc-908b-2a6737440394.png",
+  "generated_at": "2026-10-16T08:22:52.557270+00:00",
+  "original_file": "data/artwork-generated/batch-2118/originals/maha-sona.png",
+  "native_sha256": "9621c02e63b4b5c7141607be7dbdf8e6bf0351c4d90bd46f23bca7882582ee5f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254,200px and4x crops of BOTH HANDS inspected. Corrected upper-left rock hand now shows FOUR separate nail-bearing fingers over rock and ONE clearly opposed curved thumb at near-right rock side: exactly FIVE tips and FIVE nails, no sixth. Forward hand also thumb plus four fingers=FIVE. One living roaring bear head/two round ears/two eyes, two humanlike arms, two legs under opaque wrap/skirt. Lunge/rocks/moonlit graveyard and uninscribed stones visually preserved. No corpses, gore, weapons, aura or text. Backwards head optional detail not attempted. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "9621c02e63b4b5c7141607be7dbdf8e6bf0351c4d90bd46f23bca7882582ee5f",
+    "reviewed_at": "2026-10-16T08:22:52.557270+00:00"
+  },
+  "edit_reference_file": "data/artwork-generated/batch-2118/rejected/maha-sona-attempt-01.png",
+  "edit_reference_native_sha256": "5c66b7022809c2480390d5043e7c16bb807849afbe4b0f759a1add2ff4af8a4f",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:38:53+07:00",
+    "native_sha256": "9621c02e63b4b5c7141607be7dbdf8e6bf0351c4d90bd46f23bca7882582ee5f",
+    "notes": "Viewed native 1254px, 200px, and crops of both hands (3x on the rock hand), the head, the legs and the background graveyard. Diffed against the edit reference attempt-01: the changes are concentrated at the rock hand. This edit answers the r04 reject. The hand gripping the rock at upper left now has exactly five digits: four nail-bearing fingers laid over the rock and one opposed thumb curling down the rock's side, on the body side of the hand. The forward reaching hand has a thumb and four fingers. Everything else holds. One natural brown bear head (two round ears, two eyes, roaring open mouth with fangs) sits on a muscular humanlike warrior body with two arms and two legs: the bear head fitted to the revived warrior (maha-sona-c03/c04). He wears an opaque dark wrap and skirt. He lunges off a great lichen-crusted rock toward the low camera, in a moonlit graveyard of weathered, uninscribed stones and dome-shaped burial mounds in mist (graveyards and large rocks, c02/c06). No corpses, gore, weapons, text or aura, and the amber full moon is the single light source. At 200px the roaring bear-headed figure lunging out of the frame is dangerous. Limitation: the backwards-fitted head from the c04 source quote is not attempted; it was optional in the earlier correction."
+  }
+}

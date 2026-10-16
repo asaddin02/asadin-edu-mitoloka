@@ -1,0 +1,77 @@
+{
+  "slug": "bakezori",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bakezori, a living Japanese straw sandal yokai.\nANATOMY: ONE giant upright traditional straw zori sandal is the entire body, one large living eye in the woven sole, TWO arms and TWO legs sprouting from its edges [bakezori-c01,bakezori-c02,bakezori-c03,bakezori-c05]. Original dark thong straps; NO second eye, no humanoid torso, no teeth.\nMOMENT: Run round a dark inhabited house at night, one bare foot striking the wooden floor toward camera and the other behind, two arms swept wide, sole tilted forward; straw fibres and ordinary dust kick up. Eye wide and uncanny, not cute.\nPOWER: Nighttime household haunting by running and chanting [bakezori-c06]; no written chant or magic, no attack on humans, usually harmless [bakezori-c07].\nSCALE & CAMERA: extreme low angle; tight close camera, subject fills square, no undocumented giant size.\nLIGHT & WEATHER: one dominant amber lantern or low moon, deep walnut shadows, hard rim light; physically ordinary dust or rain appropriate to scene.\nSURFACE: tactile weathered skin, coarse cloth, straw, wood or stone; premium painted detail, no plastic.\nSETTING: Japanese household wooden corridor at night [bakezori-c06].\nMOOD: deeply uncanny, imposing and active; never cute, calm or decorative. Preserve helpful beings as helpful.\nHARD CONSTRAINTS: no text, lettering, inscription, logo, border, frame or watermark; no extra heads, eyes, limbs or fingers; no film, game, anime or comic designs; fully opaque clothing on humanoids; no nudity or explicit gore; no generic glowing aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "Bakezori, a living Japanese straw sandal yokai",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Living straw sandal with one eye and limbs; giant sandal variant",
+      "claim_ids": [
+        "bakezori-c01",
+        "bakezori-c02",
+        "bakezori-c03",
+        "bakezori-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Running through inhabited house at night, harmless haunting",
+      "claim_ids": [
+        "bakezori-c06",
+        "bakezori-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "House at night",
+      "claim_ids": [
+        "bakezori-c06"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "bakezori-c01",
+    "bakezori-c02",
+    "bakezori-c03",
+    "bakezori-c05",
+    "bakezori-c06",
+    "bakezori-c07"
+  ],
+  "aura": "Documented form and action dominate through low framing and physical light; no aura.",
+  "artistic_choices": [
+    "Exactly two arms/two legs chosen standard interpretation of limbs; no aggression or magic added; close floor camera makes harmless presence uncanny."
+  ],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-051.review.json",
+  "batch": 2029,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-a11e-7273-9ac2-6cc6019d8a05/exec-cfa7a5d0-cd79-4f01-b07d-921c73656757.png",
+  "generated_at": "2026-10-16T03:17:34.357Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/bakezori.png",
+  "native_sha256": "8ee936da9c98ac3df178add8536cc0d7ec14fe0137c0163a5d7852f3b81acd9e",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one straw sandal body with original thong straps, exactly one eye, two arms/hands and two running legs; no human torso or extra face. Imposing floor-level running moment, rough woven texture and single unblinking eye, harmless spooking preserved; no text or aura. All seven Sangar criteria pass.",
+    "limitations": [],
+    "native_sha256": "8ee936da9c98ac3df178add8536cc0d7ec14fe0137c0163a5d7852f3b81acd9e",
+    "reviewed_at": "2026-10-16T03:17:34.358Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T11:44:40+07:00",
+    "native_sha256": "8ee936da9c98ac3df178add8536cc0d7ec14fe0137c0163a5d7852f3b81acd9e",
+    "notes": "Viewed native 1254px + 200px. A living woven-straw zori sandal with the black cloth hanao thong across the top and exactly one large central eye (c02), two straw arms and two straw legs, mid-run across the wooden floor of a lantern-lit Japanese house at night (c05/c06). Uncanny rather than cute — extreme low angle, lunging toward the viewer, the single wrong eye — and non-aggressive per c07; no invented teeth/attack or aura. The single eye and straw weave read unmistakably at 200px; no text or borrowed design."
+  }
+}

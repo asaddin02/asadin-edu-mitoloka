@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {isDeepStrictEqual} from 'node:util';
+import {computeFillStatus} from '../../../scripts/gemini/fill-lib.mjs';
+const base='data/artwork-generated/session-2000-2026-10-16';
+const {status,entries}=await computeFillStatus(JSON.parse(fs.readFileSync('data/creatures.json')));
+const manifest=JSON.parse(fs.readFileSync('assets/art/verified-manifest.json'));
+const exclusions=JSON.parse(fs.readFileSync('data/artwork-exclusions.json')).items;
+const ledgers=fs.readdirSync('data').filter(n=>/^artwork-batch-\d+\.json$/.test(n));
+const seen=new Set();
+for(const name of ledgers)for(const i of JSON.parse(fs.readFileSync('data/'+name)).items||[])seen.add(i.slug);
+const previous=JSON.parse(fs.readFileSync('data/artwork-batch-1617.json'));
+const audit=['ahura-mazda','sekhmet','tengri','ennead','tammuz','anahita','manat','inari'].map(slug=>({slug,claims_unchanged:isDeepStrictEqual(previous.items.find(i=>i.slug===slug)?.research.claims,entries.get(slug)?.claims)}));
+const eligible=Object.entries(status).filter(([s,v])=>v.status==='lengkap-informasi'&&entries.has(s)&&!seen.has(s)&&!manifest.artworks[s]&&!exclusions[s]).map(([s])=>s);
+fs.writeFileSync(base+'/next-batch-eligible.txt',eligible.join(',')+'\n');
+fs.writeFileSync(base+'/next-batch-selection.json',JSON.stringify({selected_at:new Date().toISOString(),eligible:eligible.length,excluded_prior_slugs:seen.size,big_declines:audit,rule:'Exclude every prior-ledger slug, including pending, rejected and declined; prepare script sorts complete valid research by documented appearance.'},null,2)+'\n');
+console.log(JSON.stringify({eligible:eligible.length,big_declines:audit},null,2));

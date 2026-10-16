@@ -1,0 +1,27 @@
+{
+  "slug": "gisl",
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2079,
+  "status": "tidak-digambar",
+  "reason": "Only a horse ridden by unnamed Aesir to Yggdrasil/Bifrost; c05 explicitly says nothing else is known. No distinguishing anatomy, magical action or attribute can separate Gisl from ordinary horse/rider. Name meanings c04/c08 cannot justify radiant body or powers.",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "basis_claim_ids": [
+    "gisl-c01",
+    "gisl-c02",
+    "gisl-c05",
+    "gisl-c06"
+  ],
+  "visual_requirements": [],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "artistic_choices": [
+    "Decline before generation rather than add undocumented anatomy or power."
+  ],
+  "generated_at": "2026-10-16T05:11:01.085442+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "byobunozoki",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Byobunozoki, tall white-robed screen-peeping Japanese yokai.\nANATOMY: ONE tall SLENDER humanoid yokai with one head, TWO eyes, TWO arms and TWO legs concealed by fully opaque WHITE robe; long BLACK HAIR and conspicuously BLACK TEETH [byobunozoki-c03,byobunozoki-c04]. Face pallid aged human except black teeth; no horns, added anatomy, blood or corpse wounds.\nMOMENT: Emerge from behind folding screen edge directly toward viewer, bend long neck round screen edge, one bony hand clamps screen top and other pulls panel open. Mouth opens enough to show unmistakably BLACK TEETH, individual dark enamel teeth in upper and lower rows. Suspicious direct gaze, looming forward, not neutral portrait.\nPOWER: Spirit emerging from folding screens [byobunozoki-c02]; tangible screen emergence only, no glowing portal, ghost duplicates or invented powers.\nSCALE & CAMERA: extreme low angle; tight close camera, subject fills square, preserve documented scale.\nLIGHT & WEATHER: one dominant low amber moon, deep walnut shadows, hard rim light, physical dust or water spray where appropriate.\nSURFACE: tactile natural skin, coarse cloth, feathers or fur, weathered wood and stone; premium painterly brushwork.\nSETTING: Dark traditional Japanese room with blank uninscribed weathered folding screen [byobunozoki-c02].\nMOOD: active and imposing, never cute or decorative; preserve helpful beings as benevolent and noble.\nHARD CONSTRAINTS: no text, pseudolettering, inscriptions, logo, border, frame or watermark; no extra heads, eyes, limbs or fingers; no film, game, anime or comic designs; fully opaque clothing on humanoids; no nudity, blood or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "Byobunozoki, tall white-robed screen-peeping Japanese yokai",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tall slender white-robed body",
+      "claim_ids": [
+        "byobunozoki-c03"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Long black hair and black teeth",
+      "claim_ids": [
+        "byobunozoki-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Emerges from folding screen",
+      "claim_ids": [
+        "byobunozoki-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Folding screen room",
+      "claim_ids": [
+        "byobunozoki-c02"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "byobunozoki-c03",
+    "byobunozoki-c04",
+    "byobunozoki-c02"
+  ],
+  "aura": "Documented anatomy and deed create presence through physical action and low framing, no generic aura.",
+  "artistic_choices": [
+    "Choose spirit-emerging account c02 rather than literal animated screen c05. Blank panels avoid writing; no magical portal."
+  ],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "batch": 2029,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-a11e-7273-9ac2-6cc6019d8a05/exec-5a7b01c7-f6ed-4771-82f3-ea38d7405f1c.png",
+  "generated_at": "2026-10-16T04:34:57.342Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/byobunozoki.png",
+  "native_sha256": "49ae91b8fd473fc8745c5bea387a9efa460f4aaba7d172252f60c28d913c652e",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: one tall slender white-robed spirit, long black hair, two eyes, two arms/hands grasping blank folding-screen edges. Black enamel upper/lower teeth clearly visible; robe fully opaque. Emerging leaning action and dark teeth remain uncanny at 200px, no added anatomy/text/aura. All Sangar criteria pass.",
+    "limitations": [],
+    "native_sha256": "49ae91b8fd473fc8745c5bea387a9efa460f4aaba7d172252f60c28d913c652e",
+    "reviewed_at": "2026-10-16T04:34:57.342Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:29:06+07:00",
+    "native_sha256": "49ae91b8fd473fc8745c5bea387a9efa460f4aaba7d172252f60c28d913c652e",
+    "notes": "Viewed native 1254px + 200px + face crop. A tall, slender yokai in a fully opaque white robe (c03) with long black hair and distinctly BLACKENED teeth (ohaguro) clearly visible in the open mouth (c04). Pallid aged human face, two eyes; two aged hands grip the top and edge of a gold folding screen as it leans/emerges around the panel toward the viewer (c02). Panels carry only faint decorative foliage — no lettering or inscription; dark moonlit Japanese room. Uncanny and looming, not a neutral portrait; no blood, portal, ghost-duplicates or aura. c03/c04/c02 satisfied."
+  }
+}

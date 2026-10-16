@@ -1,0 +1,81 @@
+{
+  "slug": "fengli",
+  "basis_claim_ids": [
+    "fengli-c08",
+    "fengli-c09",
+    "fengli-c12"
+  ],
+  "depicted_variant": "Small red-eyed monkey-shaped wind-leaper with leopard-like blue-yellow-black markings, near-absent tail and small staff.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Otter-sized small monkey, red eyes, nearly absent tail, blue-yellow-black leopard markings",
+      "claim_ids": [
+        "fengli-c08"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Carries a small staff",
+      "claim_ids": [
+        "fengli-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Leaping through cliffs and trees with night wind, staff pointing pins quarry conceptually without magical beams",
+      "claim_ids": [
+        "fengli-c09",
+        "fengli-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain forests of Lingnan or western Shu",
+      "claim_ids": [
+        "fengli-c08"
+      ]
+    }
+  ],
+  "aura": "Wind leap c09 and tiny staff c12 combined with red eyes/strange marked coat c08 distinguish from an ordinary animal; no aura.",
+  "artistic_choices": [
+    "Blue-yellow coat muted into slate blue and ochre, natural leopard-like black patches.",
+    "No anatomical wings or gliding membrane invented; airborne movement is documented wind leap.",
+    "Staff extended toward viewer; no frozen victim or visible binding magic invented."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Fengli, the strange small wind-leaping mammal of classical Chinese mountain lore.\nANATOMY: ONE small MONKEY-like mammal as large as an otter, one head, TWO vivid natural RED EYES, TWO arms, TWO legs, tail so short as to be practically absent; short coarse fur BLUE-YELLOW AND BLACK with LEOPARD-LIKE MARKINGS, NOT plain brown monkey [fengli-c08]. ONE small rough wooden STAFF held in one hand [fengli-c12]. No wings, no gliding membranes, no long tail.\nMOMENT: Leap boldly across a rocky forest chasm directly toward the viewer with the night wind, one hand thrusting its little staff straight at camera, other hand extended for balance, two hind legs clearly apart behind it; red eyes fixed intensely on viewer.\nPOWER: leaps with wind across cliffs and trees like a bird, but has NO wings; physically streaming fur, whipping leaves and dust demonstrate air movement. Staff points at quarry as in account, no energy beam or visible magic binding [fengli-c09,fengli-c12].\nSCALE & CAMERA: extreme close low angle; animal and staff fill foreground, oversized leaves and nearby bark establish its small real scale, not a giant monkey.\nLIGHT & WEATHER: ONE dominant moon shaft rims red eyes, blue-ochre spotted fur and wood staff, deep walnut shadows, physical windblown leaves.\nSURFACE: coarse slate-blue/ochre fur with black leopard marks, wet bark, gritty rock, weathered little wood staff.\nSETTING: high mountain forest and rocky chasm in Lingnan [fengli-c08].\nMOOD: uncanny, fierce small supernatural hunter in decisive leap, never cute pet or ordinary monkey.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "fengli",
+  "batch": 2029,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-eacd3570-88b1-4fc5-87a3-6104e6349ce8.png",
+  "generated_at": "2026-10-16T04:30:20.865Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/fengli.png",
+  "native_sha256": "492caa22492be5bf4abb25564e3d3789ef1094e161bc11a0fe276adf10191781",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: small short-tailed monkey-like wind leaper with two red eyes, blue/ochre/black leopard markings, two hands and two feet, one small staff aimed toward viewer; no wings or invented membranes. All four limbs distinct in leap. Red gaze and pointed staff give uncanny confrontation at thumbnail with active cliff traversal. No text/aura; seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "492caa22492be5bf4abb25564e3d3789ef1094e161bc11a0fe276adf10191781",
+    "reviewed_at": "2026-10-16T04:30:20.865Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:29:06+07:00",
+    "native_sha256": "492caa22492be5bf4abb25564e3d3789ef1094e161bc11a0fe276adf10191781",
+    "notes": "Viewed native 1254px + 200px + face and lower-body crops. One small otter-sized monkey-form with one head, two vivid RED eyes, two arms and two legs (confirmed four limbs, no extras) and a tail so short as to be practically absent; coarse ochre/slate fur with black leopard-like markings (c08). One rough wooden staff is thrust in one hand toward the viewer (c12) — a physical stick, no energy beam or binding magic. A bold leap across a moonlit rocky forest chasm with windblown leaves (c09); oversized foreground leaves and bark fix its small real scale (no giant, no wings or membranes). Uncanny, fierce small hunter, reads at 200px. c08/c12/c09 satisfied."
+  }
+}

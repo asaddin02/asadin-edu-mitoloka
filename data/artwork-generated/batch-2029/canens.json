@@ -1,0 +1,72 @@
+{
+  "slug": "canens",
+  "name": "Canens",
+  "batch": 2029,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Canens, the Roman nymph whose singing moved woods and rocks and stopped rivers.\nANATOMY: ONE beautiful adult human woman, one head, two eyes, TWO arms, TWO legs, fully opaque layered ancient Roman gown. [canens-c03]\nMOMENT: Sing a commanding note toward the viewer, one hand outstretched, mouth open with grief and authority.\nPOWER: Her voice physically moves heavy rocks toward her and bends whole trees toward her; the river piles into a stationary wall behind her. No visible sound ribbons or beams. [canens-c04]\nSCALE & CAMERA: extreme low angle, close framing and foreshortening, subject fills 80% of square; size as documented, no unsupported giant scale.\nLIGHT & WEATHER: one dominant warm low sunset or moonbreak, strong rim light and deep walnut shadows, ordinary atmospheric dust or moisture appropriate to setting.\nSURFACE: tactile natural textures, wet scales or matted fur where relevant, weathered cloth and rough stone, visible painterly brushwork.\nSETTING: The wooded bank of the Tiber in Latium. [canens-c06]\nMOOD: dangerous and imposing for hostile beings; awe-inspiring and respectful for gods, guardians and living traditions, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons, floating runes; no additional characters except explicitly specified.",
+  "depicted_variant": "ONE beautiful adult human woman, one head, two eyes, TWO arms, TWO legs, fully opaque layered ancient Roman gown.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE beautiful adult human woman, one head, two eyes, TWO arms, TWO legs, fully opaque layered ancient Roman gown.",
+      "claim_ids": [
+        "canens-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Her voice physically moves heavy rocks toward her and bends whole trees toward her; the river piles into a stationary wall behind her. No visible sound ribbons or beams.",
+      "claim_ids": [
+        "canens-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The wooded bank of the Tiber in Latium.",
+      "claim_ids": [
+        "canens-c06"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "canens-c03",
+    "canens-c04",
+    "canens-c06"
+  ],
+  "aura": "Imposing action and documented attributes (canens-c03); effect basis canens-c04.",
+  "artistic_choices": [
+    "Dark warm palette, close low camera and dramatic side-light are artistic choices, not additional source facts.",
+    "Effects confined to documented action; no generic aura. Human clothing chosen opaque where needed; no unsupported giant size."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-730acabc-6b5d-4962-aa13-29e68b6bf853.png",
+  "generated_at": "2026-10-16T03:08:12.441Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/canens.png",
+  "native_sha256": "0d650fe6f1881ec99170aa0ecf633345d7185e90869862987b6e5459edad73de",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: adult nymph sings and gestures, two arms and no visible surplus limbs; opaque Roman gown. Heavy rocks lift and trees bend while Tiber forms stopped water wall, all c04. Subject dominates and active voice power is unmistakable at 200px; no aura, text, gore or borrowed design. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "0d650fe6f1881ec99170aa0ecf633345d7185e90869862987b6e5459edad73de",
+    "reviewed_at": "2026-10-16T03:08:12.455Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "0d650fe6f1881ec99170aa0ecf633345d7185e90869862987b6e5459edad73de",
+    "notes": "Viewed native + 200px + hand crops. One Roman woman in an opaque layered gown, singing c03; her voice physically suspends rocks in the air and bends the overhanging tree while the river piles up behind her c04 — no sound ribbons or aura. Wooded Tiber bank c06. Both hands five-fingered. The documented effect prevents any ordinary-woman reading; no text or borrowed design."
+  }
+}

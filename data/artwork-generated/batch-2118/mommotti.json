@@ -1,0 +1,67 @@
+{
+  "slug": "mommotti",
+  "basis_claim_ids": [
+    "mommotti-c01",
+    "mommotti-c03",
+    "mommotti-c04"
+  ],
+  "depicted_variant": "Sardinian black-cloaked bogeyman with hidden eyes, thick beard, knotty stick and battered black boots.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Man in long black hooded cloak hiding eyes, knotty stick, battered black boots, thick beard",
+      "claim_ids": [
+        "mommotti-c03",
+        "mommotti-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Goes house to house listening at doors",
+      "claim_ids": [
+        "mommotti-c04"
+      ]
+    }
+  ],
+  "aura": "Confrontational hood-hidden face/beard and documented knotty staff c03/c04 provide night-bogeyman dread without aura.",
+  "artistic_choices": [
+    "Keep eyes hidden under hood, do not mix unhooded terrifying-stare variant.",
+    "No bag/weapon/sack or victims invented; knotty stick used to brace at door.",
+    "Tight low looming framing and ordinary door lamp give dread without changing anatomy/size."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Mommotti, the Sardinian bogeyman who listens from house to house.\nANATOMY: ONE man-like being in a long pitch-BLACK HOODED CLOAK, hood pulled far forward so BOTH EYES completely HIDDEN in pure darkness, thick coarse BEARD visible under hood. TWO arms and TWO legs fully covered, battered BLACK BOOTS, ONE rough KNOTTY STICK clutched in one hand. No horns, claws, skeleton or invented sack [mommotti-c03,mommotti-c04].\nMOMENT: Loom around a half-open old village door toward viewer, bend his hooded head close as if listening intently, one hand braces doorframe and other drives knotty stick down on foreground doorstep; one battered boot steps over threshold, black cloak billows in ordinary night wind. Beard and hood opening occupy most upper frame.\nPOWER: no documented visible power; dread through hidden eyes, threatening forward movement and nocturnal listening only [mommotti-c04].\nSCALE & CAMERA: extreme low doorstep close angle, figure fills whole square, normal man-like size relative door, not giant scale.\nLIGHT & WEATHER: one off-frame low amber house lamp rakes coarse beard, stick knots and cloak edges, absolute black inside hood, deep walnut shadows, ordinary airborne dust.\nSURFACE: frayed heavy black wool, coarse grey-black beard, cracked black boot leather, knotted wood and old stone doorstep.\nSETTING: Sardinian village house threshold on night house-to-house round [mommotti-c01,mommotti-c04].\nMOOD: intense ominous supernatural bogeyman, never ordinary relaxed traveler, cute, comic or decorative. No children, victims, injury or gore.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Mommotti",
+  "batch": 2118,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-3719856a-2957-49dc-9767-467829d38084.png",
+  "generated_at": "2026-10-16T06:42:34.773Z",
+  "original_file": "data/artwork-generated/batch-2118/originals/mommotti.png",
+  "native_sha256": "e2f1868f1d7c8bfdced648328fcfeb52d20feaf4fc9d51eb925cebeb9139c38c",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: long black hooded cloak completely conceals eyes, thick beard, one knotty stick and battered black boots; two hands, normal humanoid anatomy. Active looming threshold step/listening bend and dark faceless hood create ominous bogeyman close encounter at 200px, no relaxed traveler. No sack/horns/text/glow/victims. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "e2f1868f1d7c8bfdced648328fcfeb52d20feaf4fc9d51eb925cebeb9139c38c",
+    "reviewed_at": "2026-10-16T06:42:34.773Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:47:34+07:00",
+    "native_sha256": "e2f1868f1d7c8bfdced648328fcfeb52d20feaf4fc9d51eb925cebeb9139c38c",
+    "notes": "Viewed native 1254px, 200px, and hood/face, door-hand, stick-hand and door-ring crops. One man-like bogeyman in a long, ragged, pitch-black hooded cloak. The hood hides BOTH eyes in total darkness; only the nose tip shows above a thick grey-brown beard (mommotti-c03/c04). He grips one knotty wooden stick, and one battered, cracked black boot steps over the threshold (c03). Two hands: one clutches the door edge, with the visible fingers normal and none extra, and the other grips the stick (thumb plus four fingers). Moment: from an extreme low doorstep angle, he looms through the half-open door of an old stone village house at night, stooping toward the viewer as if he has heard a child (goes house to house listening, c04). A street lamp behind him is the one warm light. No sack, horns, children or aura. The iron door ring is hardware, not text. The faceless hood and the forward step make him a frightening bogeyman at 200px, not a passing traveller. A generic folk cloak, not a recognisable film or game design."
+  }
+}

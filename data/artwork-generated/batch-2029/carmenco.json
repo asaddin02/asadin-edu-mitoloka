@@ -1,0 +1,76 @@
+{
+  "slug": "carmenco",
+  "name": "Carmençó",
+  "batch": 2029,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Carmençó, the soot-black woolly spirit sheltering in Catalan shepherd huts in winter.\nANATOMY: A single spirit black as soot and covered with dense wool from head to foot; one compact head and torso, two arms and two feet kept mostly submerged in uninterrupted wool; do not invent horns, extra eyes, claws or fangs. [carmenco-c01,carmenco-c06]\nMOMENT: Emerge stooping through a shepherd hut doorway, wool brushing its stone lintel, one densely wool-covered arm pressing against the old wall.\nPOWER: Keeps the unused winter hut from collapsing; show its shoulder and arm holding a cracked inward-leaning stone wall in place, no magical glow. [carmenco-c04]\nSCALE & CAMERA: extreme low angle, close framing and foreshortening, subject fills 80% of square; size as documented, no unsupported giant scale.\nLIGHT & WEATHER: one dominant warm low sunset or moonbreak, strong rim light and deep walnut shadows, ordinary atmospheric dust or moisture appropriate to setting.\nSURFACE: tactile natural textures, wet scales or matted fur where relevant, weathered cloth and rough stone, visible painterly brushwork.\nSETTING: Winter mountain meadow and unused dry-stone shepherd hut in the Empordà. [carmenco-c01,carmenco-c02,carmenco-c04]\nMOOD: dangerous and imposing for hostile beings; awe-inspiring and respectful for gods, guardians and living traditions, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons, floating runes; no additional characters except explicitly specified.",
+  "depicted_variant": "A single spirit black as soot and covered with dense wool from head to foot; one compact head and torso, two arms and two feet kept mostly submerged in uninterrupted wool; do not invent horns, extra eyes, claws or fangs.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "A single spirit black as soot and covered with dense wool from head to foot; one compact head and torso, two arms and two feet kept mostly submerged in uninterrupted wool; do not invent horns, extra eyes, claws or fangs.",
+      "claim_ids": [
+        "carmenco-c01",
+        "carmenco-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Keeps the unused winter hut from collapsing; show its shoulder and arm holding a cracked inward-leaning stone wall in place, no magical glow.",
+      "claim_ids": [
+        "carmenco-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Winter mountain meadow and unused dry-stone shepherd hut in the Empordà.",
+      "claim_ids": [
+        "carmenco-c01",
+        "carmenco-c02",
+        "carmenco-c04"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "carmenco-c01",
+    "carmenco-c06",
+    "carmenco-c04",
+    "carmenco-c02"
+  ],
+  "aura": "Imposing action and documented attributes (carmenco-c01,carmenco-c06); effect basis carmenco-c04.",
+  "artistic_choices": [
+    "Dark warm palette, close low camera and dramatic side-light are artistic choices, not additional source facts.",
+    "Effects confined to documented action; no generic aura. Human clothing chosen opaque where needed; no unsupported giant size."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-ad54810f-6954-474a-8153-1b077e7d97bf.png",
+  "generated_at": "2026-10-16T03:10:51.159Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/carmenco.png",
+  "native_sha256": "754796a5d4bbc7ea5149ef8667fbbfe4291a9b57d19d2c7bc19b17517726b883",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: soot-black woolly head-to-foot spirit stoops out of shepherd hut, one arm braced against old masonry and one hangs forward; stepping leg distinct. Dense wool conceals unsupported facial details. Winter mountain setting and bracing hut action c04; imposing close silhouette reads at 200px. No invented glow, horns, fangs, text or gore. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "754796a5d4bbc7ea5149ef8667fbbfe4291a9b57d19d2c7bc19b17517726b883",
+    "reviewed_at": "2026-10-16T03:10:51.177Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "754796a5d4bbc7ea5149ef8667fbbfe4291a9b57d19d2c7bc19b17517726b883",
+    "notes": "Viewed native + 200px. Single soot-black spirit entirely covered in shaggy dense wool head-to-foot c01/c06, face hidden with no invented horns/eyes/claws/fangs; one head, two arms, two legs. Its left arm braces the leaning dry-stone wall of an unused shepherd hut, holding it from collapse c04, in a snowy winter mountain c02. Solemn and uncanny rather than cute; no generic aura or text."
+  }
+}

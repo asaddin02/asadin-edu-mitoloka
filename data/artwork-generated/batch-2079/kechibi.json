@@ -1,0 +1,69 @@
+{
+  "slug": "kechibi",
+  "basis_claim_ids": [
+    "kechibi-c01",
+    "kechibi-c02",
+    "kechibi-c03",
+    "kechibi-c04"
+  ],
+  "depicted_variant": "A human face floating within a ghost-light flame above water in Kōchi.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Ghost light with one human face floating within flames",
+      "claim_ids": [
+        "kechibi-c01",
+        "kechibi-c02",
+        "kechibi-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Above water in Kochi ghost-light account",
+      "claim_ids": [
+        "kechibi-c04"
+      ]
+    }
+  ],
+  "aura": "Flame is the documented spirit form c02/c03 rather than generic aura; face within flame dominates.",
+  "artistic_choices": [
+    "Warm amber flame and severe adult face editorial; no horns/eyesglow/limbs invented.",
+    "Flame physically illuminates water and nearby empty boat; no burning living people or attacks.",
+    "Close waterline framing makes small ghost light imposing without inventing giant size."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kechibi, the Kōchi ghost light whose flames contain a human face.\nANATOMY: ONE compact floating GHOST-LIGHT FLAME containing ONE clearly readable ADULT HUMAN FACE with TWO eyes, ONE nose and ONE mouth, face formed within the fire rather than a solid severed head. No torso, limbs, horns, skull or extra faces. The entire being IS flame, not a person wrapped in generic aura [kechibi-c01,kechibi-c02,kechibi-c03].\nMOMENT: Surge toward the low viewer across the water, flame tongues streaming backward and upward, human face inside opens mouth in a grave wordless call, eyes fixed down toward viewer. Flame front bends into forward-moving shape; not a static candle.\nPOWER: human spirit transformed into actual fire, one human face floats within flames; only natural flame light reflects across rippling water, no energy ribbons, magic circles or beams [kechibi-c02,kechibi-c03].\nSCALE & CAMERA: extreme water-level close angle; fiery face and flame dominate square, small empty skiff far behind sets ordinary ghost-light scale without a giant person.\nLIGHT & WEATHER: flame itself is ONE dominant amber light source, dark walnut night sky and water, warm hard reflections, ordinary sea mist low beyond the flame.\nSURFACE: turbulent translucent orange-gold flame with soot-dark face hollows, textured wet water, rough boat wood secondary.\nSETTING: above dark Kōchi coastal water linked with ship-ghost accounts [kechibi-c04].\nMOOD: uncanny and imposing active ghost-light encounter, never cute, decorative lantern, calm flame or suffering burning person. No victims or injury.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Kechibi",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-6015a292-f40d-4acc-9e5e-614cbfbaf1df.png",
+  "generated_at": "2026-10-16T05:34:47.327Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/kechibi.png",
+  "native_sha256": "114728e83e90ba3b1b8fce030935c06567069f530068b38a76b5d2733247e1c8",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one human face within a single moving flame manifestation above water; no solid severed head, torso or limbs. Actual flame is documented body not aura, reflections physically light water and empty boat. Flame tongues stream backward while face confronts viewer, unmistakably active uncanny spirit at 200px. No gore, victims, text or copied screen design. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "114728e83e90ba3b1b8fce030935c06567069f530068b38a76b5d2733247e1c8",
+    "reviewed_at": "2026-10-16T05:34:47.327Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:03:02+07:00",
+    "native_sha256": "114728e83e90ba3b1b8fce030935c06567069f530068b38a76b5d2733247e1c8",
+    "notes": "Viewed native 1254px and 200px. The whole being is one large surging mass of real flame containing ONE human face: two fire-lit eyes, one nose and one screaming open mouth (kechibi-c02/c03). No torso, limbs, skull, severed head or extra faces. It skims low over dark rippling sea water (c04), and its flame light reflects hard across the waves and onto a small empty wooden boat behind; the flame is the body, not a generic aura. Water-level camera and backward-streaming flame tongues give real forward motion toward the viewer, and the face confronts the viewer, clearly uncanny and dangerous at 200px. Dark walnut night with a single amber light source, no victims, text or borrowed design."
+  }
+}

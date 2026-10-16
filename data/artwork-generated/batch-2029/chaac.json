@@ -1,0 +1,81 @@
+{
+  "slug": "chaac",
+  "name": "Chaac",
+  "batch": 2029,
+  "prompt": "Edit this existing Mitoloka Chaac illustration. Change ONLY the weapon HEAD above his raised right hand: replace the thick square hammer-like block with an unmistakable ancient stone AXE blade: thin flat blade flaring widely to one side of the wooden haft, strongly curved sharpened crescent cutting edge, visible taper and clear blade silhouette against lightning clouds. An axe, absolutely not a rectangular hammer or Mjolnir. Keep existing handle and hand position, lightning cloud contact, and every other pixel/composition as closely as possible: single fanged head with long pendulous nose, shell ears, scaled body, opaque Maya clothes, shield, two arms, rain, maize and rocky mountain setting. Respectful awe-inspiring deity. No text, lettering, logo, watermark, extra limbs, glow aura or borrowed film/game design. The exact source basis is chaac-c01 and chaac-c06 lightning axe. Square premium painterly cinematic style.",
+  "depicted_variant": "ONE nonhuman head with fangs and a long pendulous nose, shell ear ornaments, scaled humanoid body, two arms, two legs, fully opaque woven Maya garments; one lightning axe in right hand, one shield on left arm.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE nonhuman head with fangs and a long pendulous nose, shell ear ornaments, scaled humanoid body, two arms, two legs, fully opaque woven Maya garments; one lightning axe in right hand, one shield on left arm.",
+      "claim_ids": [
+        "chaac-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "At axe impact actual lightning forks inside the clouds and torrential rain pours down physically, no aura or energy ribbons.",
+      "claim_ids": [
+        "chaac-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A storm over rocky mountain and cultivated maize landscape; rain-god action.",
+      "claim_ids": [
+        "chaac-c07",
+        "chaac-c08"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "chaac-c06",
+    "chaac-c01",
+    "chaac-c07",
+    "chaac-c08"
+  ],
+  "aura": "Imposing action and documented attributes (chaac-c06); effect basis chaac-c01.",
+  "artistic_choices": [
+    "Dark warm palette, close low camera and dramatic side-light are artistic choices, not additional source facts.",
+    "Effects confined to documented action; no generic aura. Human clothing chosen opaque where needed; no unsupported giant size."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-9bbacc67-93ad-4982-b528-23b541492da8.png",
+  "generated_at": "2026-10-16T03:16:21.478Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/chaac.png",
+  "native_sha256": "7d53a884fab496759885916233463306cf22114b5e0da779625c3c64b785e542",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2029/rejected/chaac-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2029/rejected/chaac-attempt-01.json",
+      "native_sha256": "12344488dd638ae600016580fede0b70c16018ab8e1932d3e3dc10dff9722da7",
+      "reason": "Root inspection: weapon head reads as thick squared hammer instead of documented lightning axe c01/c06; cutting blade must be unmistakable."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected after targeted edit: clearly thin flaring stone AXE head with curved sharpened cutting edge replaces rejected block hammer. Nose/fangs/shell ears/scales/shield/rain/lightning and opaque clothes retained; two arms, no extra anatomy or text. Respectful mighty cloud strike c01/c06, all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "7d53a884fab496759885916233463306cf22114b5e0da779625c3c64b785e542",
+    "reviewed_at": "2026-10-16T03:16:21.528Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T11:44:40+07:00",
+    "native_sha256": "7d53a884fab496759885916233463306cf22114b5e0da779625c3c64b785e542",
+    "notes": "Viewed native 1254px + 200px + axe and head crops. Correction confirmed: the raised weapon is now unmistakably a single flared crescent stone AXE with a sharp curved cutting edge on a carved haft — no longer a hammer. The head crop shows the long pendulous snout/nose, large fangs and spiral shell ear ornaments (c06) on a scaled reptilian face; scaled humanoid body, opaque woven garments and a round patterned shield (c06/c13). Lightning axe amid storm, rain and lightning (c01), above maize and a pyramid in misty mountains (c07/c08). Step-fret/greca motifs are decorative only — no lettering; no borrowed hero design or generic aura."
+  }
+}

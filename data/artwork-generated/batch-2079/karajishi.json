@@ -1,0 +1,69 @@
+{
+  "slug": "karajishi",
+  "basis_claim_ids": [
+    "karajishi-c01",
+    "karajishi-c02",
+    "karajishi-c03",
+    "karajishi-c04"
+  ],
+  "depicted_variant": "Living sacred lion with curled mane, prominent eyes, strong legs and exaggerated claws/fangs guarding peonies.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Stylized sacred lion with curled mane, prominent eyes, strong legs, exaggerated claws and fangs",
+      "claim_ids": [
+        "karajishi-c01",
+        "karajishi-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Peony motif and sacred guardian context",
+      "claim_ids": [
+        "karajishi-c03",
+        "karajishi-c04"
+      ]
+    }
+  ],
+  "aura": "Distinct curled mane/prominent eyes/strong limbs and fangs c02 in active guardian movement c04 give reverent awe.",
+  "artistic_choices": [
+    "Living creature not statue, crest or decorative screen.",
+    "One representative lion, four legs visible, no horn/ball/cub imported from komainu/shisa.",
+    "Peonies are living plants; low rocky garden setting and moonlight editorial."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Karajishi, a living sacred lion of Japanese guardian imagery, never a statue or screen painting.\nANATOMY: ONE LIVING powerful LION with exaggerated tightly CURLED MANE, TWO large PROMINENT EYES, FOUR thick muscular LEGS and FOUR enormous clawed PAWS, ONE curled flowing TAIL, ONE head with two long FANGS visible in open protective warning roar [karajishi-c01,karajishi-c02]. Mane is real living coarse fur curling into dense spirals, not stone carvings. No horn, wings, extra tails, ball or cub.\nMOMENT: Bound down from a low rock directly toward viewer, front paws spread apart with immense claws extended in a forceful protective landing, back two paws clearly staggered behind, head lowered and large eyes intent; curled mane flies with movement.\nPOWER: no visible magic documented; sacred guardian authority through anatomy, protective stance and movement [karajishi-c04].\nSCALE & CAMERA: extreme low close angle; lion's head, curled mane, fangs and four strong legs fill square, no invented giant scale.\nLIGHT & WEATHER: one warm moon shaft rims antique gold fur and spiral mane, deep walnut shadows, ordinary displaced dust and peony petals.\nSURFACE: coarse golden curled fur, dark nose, ivory fangs and oversized claws, rough rock and living peony leaves.\nSETTING: editorial stone garden filled with living PEONIES, referencing common peony motif and Buddhist guardian context, no temple text or symbolic inscriptions [karajishi-c03,karajishi-c04].\nMOOD: reverential awe and formidable guardian power, active and imposing, never evil, cute mascot, ordinary lion, statue or decorative portrait.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Karajishi",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-061.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-15caec0c-36cb-4793-a5c6-82eff19d439b.png",
+  "generated_at": "2026-10-16T05:28:05.615Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/karajishi.png",
+  "native_sha256": "062661bcf919897ffe3e003b13c9245dabe37efd20b7a3aa3e7d97f6a68539be",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one living sacred lion, dense curled mane/prominent eyes/strong legs/large claws and fangs; exactly four paws visible (two front, one central rear under belly, one back right), one flowing curled tail. Active landing with dust/peony petals, natural fur not stone. Reverent imposing guardian at 200px, no horns/balls/cubs/text/aura. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "062661bcf919897ffe3e003b13c9245dabe37efd20b7a3aa3e7d97f6a68539be",
+    "reviewed_at": "2026-10-16T05:28:05.616Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:03:02+07:00",
+    "native_sha256": "062661bcf919897ffe3e003b13c9245dabe37efd20b7a3aa3e7d97f6a68539be",
+    "notes": "Viewed native 1254px, 200px, and front-paw and rear-paw crops. One LIVING lion, not a statue: a dense mane of tight curled spirals, two large prominent amber eyes, an open roaring mouth with long fangs, and oversized ivory claws (karajishi-c02). Exactly four paws: two huge front paws in the foreground with five claws each, the rear-right paw at the right edge, and the rear-left paw under the belly. One curled spiral tail. It lunges and lands toward the viewer in a moonlit rock garden of living peonies (c03), as an active sacred guardian (c04), with real fur texture, dust and petals. No horn, ball, cub, wings or extra tail, so it stays distinct from komainu and shisa. Ferocious and imposing at 200px, with no text, aura or borrowed design."
+  }
+}

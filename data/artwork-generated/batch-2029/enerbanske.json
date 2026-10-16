@@ -1,0 +1,71 @@
+{
+  "slug": "enerbanske",
+  "basis_claim_ids": [
+    "enerbanske-c01",
+    "enerbanske-c04"
+  ],
+  "depicted_variant": "A tiny Heligoland house-helper emerging beneath stairs in red trousers and green cap.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small dwarf-like being wearing red trousers and green cap",
+      "claim_ids": [
+        "enerbanske-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Actively finishing housework overnight, no invented supernatural visual effects",
+      "claim_ids": [
+        "enerbanske-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Shelter under the wooden house staircase",
+      "claim_ids": [
+        "enerbanske-c01"
+      ]
+    }
+  ],
+  "aura": "Tiny scale beside stair treads c01 and forceful midnight housework c04 create uncanny presence without magic aura.",
+  "artistic_choices": [
+    "One representative; ordinary broom and gathered floor dust concretize housework.",
+    "Aged face, dark jacket, low lamp and tight camera are editorial staging; no baby-swapping scene, no invented facial deformity."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of an Enerbanske, the tiny subterranean house-helper of Heligoland.\nANATOMY: ONE small dwarf-like person, one head, two eyes, two arms and two legs, wearing vivid RED TROUSERS, a GREEN CAP and an opaque dark wool jacket, weathered aged face [enerbanske-c01]. No glowing eyes, horns or deformities.\nMOMENT: Surge out from the pitch-dark gap UNDER A WOODEN STAIRCASE while forcefully sweeping a thick mound of real floor dust toward the camera with a short straw broom held in both hands; glance fiercely sideways at viewer mid-task. Crouched bent knees and body torque make this an intense action moment.\nPOWER: no documented visible power; physically completing household chores overnight [enerbanske-c04].\nSCALE & CAMERA: extreme floor-level close angle, tiny being fills foreground; ONE ordinary massive staircase tread towers directly behind at head-height, broom tiny, clear small scale, never giant size.\nLIGHT & WEATHER: one low off-frame warm oil lamp illuminates the lined face from below, hard rim light, deep under-stair shadow and physical dust in air.\nSURFACE: coarse red wool trousers, scuffed green felt cap, aged skin, splintered stair timber, rough straw.\nSETTING: old Heligoland house beneath its interior staircase at midnight [enerbanske-c01,enerbanske-c04].\nMOOD: uncanny and imposing tiny supernatural houseworker, concentrated action; never cute mascot, calm decorative gnome or ordinary human.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Enerbanske",
+  "batch": 2029,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-bc93d5b1-318f-44f8-8946-2cfef77d48ad.png",
+  "generated_at": "2026-10-16T03:07:57.510Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/enerbanske.png",
+  "native_sha256": "a9591e373ba77cf3ee46b223bd28c9ccc843e1f3d6c796bafb035c99dfa917b4",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: tiny aged dwarf under large staircase in green cap/red trousers, two arms gripping broom, two bent legs, active dust sweep. Close low confrontation and scale against treads remain uncanny at thumbnail. No extra limbs, text, glow or invented power. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a9591e373ba77cf3ee46b223bd28c9ccc843e1f3d6c796bafb035c99dfa917b4",
+    "reviewed_at": "2026-10-16T03:07:57.510Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "a9591e373ba77cf3ee46b223bd28c9ccc843e1f3d6c796bafb035c99dfa917b4",
+    "notes": "Viewed native + 200px. Small aged dwarf house-spirit in a green wool cap and red trousers c01, actively sweeping gathered dust with a broom beneath a massive wooden staircase c04 — the scale makes him unmistakably tiny; warm lamplight, uncanny serious face. Helper spirit kept uncanny rather than evil or cute; no invented magic, no text or borrowed design."
+  }
+}

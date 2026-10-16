@@ -1,0 +1,65 @@
+{
+  "slug": "jumbee",
+  "basis_claim_ids": [
+    "jumbee-c01",
+    "jumbee-c04"
+  ],
+  "depicted_variant": "Dense dark shadow figure advancing on Caribbean path, not a mist ghost.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "A dark shadowy figure, expressly unlike wispy fog entity",
+      "claim_ids": [
+        "jumbee-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Caribbean contextual night path",
+      "claim_ids": [
+        "jumbee-c01"
+      ]
+    }
+  ],
+  "aura": "Dense shadow figure c04 and forceful close approach create supernatural dread without glowing eyes or aura.",
+  "artistic_choices": [
+    "Minimal human-like silhouette only, no face features/claws/horns or shape-shift hybrid invented.",
+    "No possession ritual or victim shown; path and palms only editorial Caribbean context.",
+    "Strong backlight edges the dark figure naturally, no neon outline."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of a Jumbee, the dark shadowy spirit figure of Caribbean folklore.\nANATOMY: ONE dense DARK SHADOWY FIGURE, clearly solid black silhouette rather than wispy smoke, with ONE head, TWO shoulders/arms and TWO legs. Entire body opaque near-black, face completely unreadable, NO eyes, mouth, horns, claws, skeletal parts or invented clothing details [jumbee-c04].\nMOMENT: Advance forcefully down a narrow path directly toward viewer, lean head and shoulders forward, one broad featureless hand reaches toward lens while the other arm hangs bent behind; one leg steps forward with leaves disturbed beneath foot. Strong confrontational looming action.\nPOWER: no visible power used; supernatural identity comes from unnaturally dense shadow figure that swallows reflected light, not magic glow or fog [jumbee-c04].\nSCALE & CAMERA: extreme low close angle; black head/shoulders and reaching hand fill nearly entire square; normal human-like proportions through close framing, no invented giant size.\nLIGHT & WEATHER: one dominant warm moon behind side of figure, hard natural rim on surrounding leaves but no glowing outline on creature, deep walnut background, ordinary ground dust.\nSURFACE: optically dense featureless shadow body, damp rough path, palm foliage secondary.\nSETTING: Caribbean night path, simple palms and rough house corner in distance, no specific island asserted [jumbee-c01].\nMOOD: intense uncanny shadow presence, dangerous and imposing, never ordinary person, ghost costume, wispy fog or cute spirit.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Jumbee",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-51759919-a78e-4d3b-88bb-982308e0d0ee.png",
+  "generated_at": "2026-10-16T05:11:42.453Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/jumbee.png",
+  "native_sha256": "65c259e0a528cb8f97c9e0298791589d616478f12418ec3257bfc5988c0e554d",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one dense shadow figure with unreadable featureless face, two arms/two legs, advancing and reaching directly toward viewer. Body is opaque shadow rather than mist, fingers naturally shaped no claws, no face invented. Dominant looming action remains dangerous at 200px. No glow, text, ritual or victim. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "65c259e0a528cb8f97c9e0298791589d616478f12418ec3257bfc5988c0e554d",
+    "reviewed_at": "2026-10-16T05:11:42.453Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:52:29+07:00",
+    "native_sha256": "65c259e0a528cb8f97c9e0298791589d616478f12418ec3257bfc5988c0e554d",
+    "notes": "Viewed native 1254px + 200px + both-hand and head crops. A dense, SOLID dark humanoid shadow-figure — solid darkness, explicitly not a wispy fog (jumbee-c04) — with a smooth featureless head: no eyes, nose, mouth, horns or glowing features. Exactly two arms and two legs; the hanging right hand is a clear human five-digit hand (the foreshortened reaching hand reads as a hand, not an invented claw). It strides toward the viewer down a moonlit Caribbean dirt path with coconut palms and a wooden shack (jumbee-c01/c11), lit only by natural moon backlight and rim — no neon outline or glow aura. A menacing malevolent presence (jumbee-c01/c02); no text or borrowed design; dominates the frame at 200px."
+  }
+}

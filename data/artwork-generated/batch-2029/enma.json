@@ -1,0 +1,75 @@
+{
+  "slug": "enma",
+  "basis_claim_ids": [
+    "enma-c01",
+    "enma-c03",
+    "enma-c06",
+    "enma-c08"
+  ],
+  "depicted_variant": "Severe Buddhist underworld king seated behind a judge's desk in Chinese official cap and robe.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Official cap and robes, bulging eyes and grimacing mouth",
+      "claim_ids": [
+        "enma-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Pronouncing judgement from tribunal; no undocumented magical attack",
+      "claim_ids": [
+        "enma-c03",
+        "enma-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underworld tribunal and desk",
+      "claim_ids": [
+        "enma-c01",
+        "enma-c08"
+      ]
+    }
+  ],
+  "aura": "The immense tribunal composition and stern official iconography c08 convey judicial authority c03/c06 without aura.",
+  "artistic_choices": [
+    "Scale of desk and foreground perspective are reverential presentation, not an anatomical giant claim.",
+    "Plain official cap without written king-character; uninscribed desk and scrolls avoid text. Amber lamplight and dark red robe are editorial palette."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Enma, the revered Japanese Buddhist king of the underworld presiding at judgement.\nANATOMY: ONE king with ONE head, TWO strongly BULGING EYES and a wide GRIMACING MOUTH; two arms, fully opaque voluminous dark red Chinese OFFICIAL ROBES and a broad plain black Chinese OFFICIAL CAP. Cap entirely blank, no symbol or letter [enma-c08].\nMOMENT: Lean forward powerfully from his throne behind an immense plain wooden judge's desk, one broad hand planted flat on its front edge, other hand extended downward in a decisive commanding gesture toward the viewer; mouth open pronouncing judgement, stare unwavering.\nPOWER: solemn authority of the underworld tribunal assigning souls; no invented visible magic, weapons, fire breath or torture [enma-c03,enma-c06].\nSCALE & CAMERA: extreme low angle from floor beneath desk edge; Enma's strongly distorted judicial face, cap, gesturing hands and sweeping robe fill the whole square; monumental sacred presence.\nLIGHT & WEATHER: one dominant amber lamp beside the desk throws deep walnut shadows and gold rim across cap and bulging eyes; tiny ordinary dust motes, no magic fog.\nSURFACE: deeply carved-looking yet living weathered face, heavy opaque silk robe, matte cap, worn ancient timber desk.\nSETTING: dark imposing underworld judgement hall, desk directly before the king, architectural darkness secondary [enma-c01,enma-c08].\nMOOD: reverential awe and stern judicial majesty, sacred dignified presence; never evil caricature, ordinary man, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Enma",
+  "batch": 2029,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-9f8f5b74-8bb4-48dd-a35d-7fbe0ac2d390.png",
+  "generated_at": "2026-10-16T03:09:32.225Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/enma.png",
+  "native_sha256": "7ff2b0c7a2231f696733564bfbbb3f106327ffde1ac9820d21b716adba9c279e",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: bulging eyes/grimacing judgement face, plain official cap and opaque red official robes, two arms one hand on desk and one gesturing. Active tribunal close low angle makes imposing sacred judge; no invented torture or magic. Desk and robe ornament contain no letters. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "7ff2b0c7a2231f696733564bfbbb3f106327ffde1ac9820d21b716adba9c279e",
+    "reviewed_at": "2026-10-16T03:09:32.226Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "7ff2b0c7a2231f696733564bfbbb3f106327ffde1ac9820d21b716adba9c279e",
+    "notes": "Viewed native + 200px + hand crops. Underworld king in a black Chinese official's cap and red-and-gold robes, bulging eyes and grimacing mouth c08, lunging in judgement across a plain wooden desk c01/c06 in a lamplit tribunal. Both hands five-fingered. Cap, desk and robe carry no lettering (decorative patterns only); no invented magical attack or giant anatomy. Ten-Kings iconography respected."
+  }
+}

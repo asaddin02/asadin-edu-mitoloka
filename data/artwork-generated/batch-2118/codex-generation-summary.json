@@ -1,0 +1,52 @@
+{
+  "batch": 2118,
+  "updated_at": "2026-10-16T08:43:55.062Z",
+  "target": 39,
+  "receipts": 39,
+  "status_counts": {
+    "reviewed": 33,
+    "tidak-digambar": 6
+  },
+  "selected_pngs": 33,
+  "archived_rejected_attempts": 16,
+  "tool_failures": 1,
+  "tool": "OpenAI built-in image_gen",
+  "image_model": [
+    "tidak dilaporkan alat"
+  ],
+  "declines": [
+    {
+      "slug": "kunekune-urban-legend",
+      "name": "Kunekune (urban legend)",
+      "reason": "Claude r05 rejected third selected attempt after r01/r03: movement still reads sagging inanimate paper art, not windless living wriggle. Stop after three selected attempts under GAMBAR.md §4; no final PNG accepted and replace this slot."
+    },
+    {
+      "slug": "maaema",
+      "name": "Maaemä",
+      "reason": "Earth goddess or earth itself c01/c02, with no bodily appearance described. Snakes raised from ground and hair-bristle origin c03 supply deeds but not a visible deity form. Earth/grass as body c07 is ritual metaphor; inventing a giant earth woman or face in landscape would exceed claims, while ground and snakes without goddess would fail subject requirement."
+    },
+    {
+      "slug": "manawydan-fab-llyr",
+      "name": "Manawydan fab Llŷr",
+      "reason": "No bodily distinctions or personally attributable visible magic are documented. c06 only calls him peaceable scholar and magician/sea god, with no specific elemental action. The spell emptying Dyfed c05 is not attributed to him. Ordinary robed man or invented sea-command magic would fail fidelity/Sangar; Brans severed head c04 should not be used as unrequested graphic spectacle."
+    },
+    {
+      "slug": "mazoku",
+      "name": "Mazoku",
+      "reason": "Klaim mazoku-c01/c03/c04/c07/c09 mendefinisikan istilah payung bagi beragam makhluk; tidak ada anatomi khusus atau manifestasi aktif tunggal yang terdokumentasi. Menggambar tubuh, tanduk, sayap, atau kelompok akan mengarang wujud. Tidak-digambar sesuai GAMBAR §6.5."
+    },
+    {
+      "slug": "mokosh",
+      "name": "Mokosh",
+      "reason": "Tidak ada rupa atau narasi kuno Mokosh yang bertahan; klaim c01 menegaskan deskripsi modern adalah rekonstruksi. Sosok berkepala besar/tangan panjang c17 adalah demon Mokusch kemudian, tidak boleh dijadikan ikonografi dewi tanpa mencampur identitas. Tidak mengarang dewi pemintal/manusia biasa atau efek bumi dari rekonstruksi akademis."
+    },
+    {
+      "slug": "niemotsu-no-ko",
+      "name": "Niemotsu no Ko",
+      "reason": "Hanya identitas dewa bumi dan pertemuan ketika menangkap ikan dengan perangkap; tidak ada rupa, anatomi pembeda atau manifestasi kuasa. Menggambar nelayan biasa akan gagal Uji Sangar, sedangkan skala raksasa/efek air rekaan tidak didukung."
+    }
+  ],
+  "gallery": "docs/artwork-batch-2118.html",
+  "prompt_set": "data/artwork-generated/batch-2118/codex-prompts.json",
+  "integration_performed_by_codex": false
+}

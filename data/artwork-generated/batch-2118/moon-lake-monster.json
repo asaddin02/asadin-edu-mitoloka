@@ -1,0 +1,81 @@
+{
+  "slug": "moon-lake-monster",
+  "basis_claim_ids": [
+    "moon-lake-monster-c01",
+    "moon-lake-monster-c04",
+    "moon-lake-monster-c06"
+  ],
+  "depicted_variant": "Twelve-to-fifteen-foot dark scaled serpent-like creature with bumpy-log back cutting a V wake across Moon Lake.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Large dark serpent-like creature, bumpy-log back with visible scales, 12-15 feet",
+      "claim_ids": [
+        "moon-lake-monster-c04",
+        "moon-lake-monster-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Distinctive V-shaped wake as it moves",
+      "claim_ids": [
+        "moon-lake-monster-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Moon Lake Utah high Uinta mountains",
+      "claim_ids": [
+        "moon-lake-monster-c01"
+      ]
+    }
+  ],
+  "aura": "Close dark scaled bumpy serpent c04/c06 and Vwake c04 make the reported creature palpable, without invented power.",
+  "artistic_choices": [
+    "Conservative blunt serpent head with two natural eyes, no horns/fins/legs or plesiosaur anatomy imported.",
+    "No victims/submerging people; primary modern sighting description only.",
+    "Empty small rowboat far behind can indicate documented4metre length, not giant sea serpent."
+  ],
+  "prompt": "EDIT the Moon Lake Monster image. Preserve lake, empty distant boat, moon, Uinta mountain background, V-shaped forward wake, dark wet scales and square painterly style. Correct creature to a visibly LIMBLESS SERPENT-LIKE being rather than crocodile: remove EVERY pointed triangular dorsal scute/spike and replace with LOW ROUNDED IRREGULAR LOG-LIKE BUMPS covered in rough scales, no ridge of regular triangles. Lift its front body in a single thick S-shaped serpent bend approximately one head-height above the water, head still leaning DOWN toward viewer and remains large foreground, TWO small natural eyes and blunt CLOSED-MOUTH snake-like head. Body is uniform thick serpent body narrowing only toward a long single tail, no distinct dinosaur neck, no limbs/flippers/fins/horns. Keep approximate 12-15 foot length and boat comparison, no giant scale. Make dark serpent head/body dominate, tense forward movement not cute. No text, aura, energy, people, injury or gore. Source morphology: dark serpentlike and bumpy-log scaled back [moon-lake-monster-c04,moon-lake-monster-c06].",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/moon-lake-monster-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/moon-lake-monster-attempt-01.json",
+      "native_sha256": "9c5887cbc7fc7819c89dc13c3c42a3a88dc1e4f209c588c77b9923a5b43e27e0",
+      "reason": "Self native/200 check: triangular dorsal scutes read as invented spikes and blunt broad head reads ordinary crocodile. Correct bumpy-log back into low irregular rounded scale mounds and show a clearly limbless serpent bend rising at front."
+    }
+  ],
+  "name": "Moon Lake Monster",
+  "batch": 2118,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-149.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-856463aa-d061-4dc1-b444-2aec9dd3c409.png",
+  "generated_at": "2026-10-16T06:53:41.236Z",
+  "original_file": "data/artwork-generated/batch-2118/originals/moon-lake-monster.png",
+  "native_sha256": "f4b21a562e119d3bd6787c57db89060bc1a8c5be03148452bb019e4c860a2426",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected after morphology correction: one dark limbless serpent-like body with low rounded bumpy-log scaled back, no dorsal triangular spikes, no limbs/flippers/horns. Broad reptilian head approaches directly, long body trails in clear V-shaped wake. Low close encounter makes creature dominant/dangerous at 200px, empty rowboat contextual not giant size. No magical power/text/glow/victims. Seven Sangar checks pass; first crocodilian/spiky attempt archived.",
+    "limitations": [],
+    "native_sha256": "f4b21a562e119d3bd6787c57db89060bc1a8c5be03148452bb019e4c860a2426",
+    "reviewed_at": "2026-10-16T06:53:41.236Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:47:34+07:00",
+    "native_sha256": "f4b21a562e119d3bd6787c57db89060bc1a8c5be03148452bb019e4c860a2426",
+    "notes": "Viewed native 1254px, 200px, and head, flank, back/tail and boat crops. One large dark serpent-like creature (moon-lake-monster-c04) with one blunt reptilian head, two small eyes, two nostrils and a closed mouth. The body is thick and limbless, with no legs, flippers, fins, horns or dorsal spikes. The back is covered in low, rounded, irregular scaled bumps like a 'bumpy log' (c06), which fixes the crocodile scutes of the self-rejected first attempt. The body trails back in an S-curve to a tapering tail. It swims straight at a water-level camera, pushing a clear V-shaped wake and spray (c04). The setting is a moonlit alpine lake with pines and snowy Uinta peaks (c01). An empty rowboat sits near the far shore, and in perspective the length stays in a plausible range, not a giant sea serpent. No victims, text or aura. The head-on approach at eye level, the dark wet mass and the wake make it a dangerous close encounter at 200px, not an ordinary animal."
+  }
+}

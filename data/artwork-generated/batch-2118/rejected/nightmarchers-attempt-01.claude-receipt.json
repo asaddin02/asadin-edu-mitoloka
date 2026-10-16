@@ -1,0 +1,82 @@
+{
+  "slug": "nightmarchers",
+  "depicted_variant": "Sacred procession of normal-size ancient Hawaiian warrior ghosts floating above coastal ground, with spears and torches.",
+  "basis_claim_ids": [
+    "nightmarchers-c01",
+    "nightmarchers-c02",
+    "nightmarchers-c03",
+    "nightmarchers-c04",
+    "nightmarchers-c05",
+    "nightmarchers-c06",
+    "nightmarchers-c11",
+    "nightmarchers-c18"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Normal-size ancient Hawaiian warriors carrying spears in ancient battle clothing",
+      "claim_ids": [
+        "nightmarchers-c01",
+        "nightmarchers-c05",
+        "nightmarchers-c18"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Feet suspended above ground leaving no trace, bright torches announcing their approach",
+      "claim_ids": [
+        "nightmarchers-c06",
+        "nightmarchers-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sacred night coastal march rising from ocean toward sacred places",
+      "claim_ids": [
+        "nightmarchers-c03",
+        "nightmarchers-c04"
+      ]
+    }
+  ],
+  "aura": "Levitation c06 and torchlit approach c11 create sacred awe, no added aura or glowing eyes.",
+  "artistic_choices": [
+    "Levitation c06 and torchlit approach c11 create sacred awe, no added aura or glowing eyes.",
+    "A chief procession rather than five-abreast god procession: three foreground warriors and further ranks without a fixed source count.",
+    "Opaque woven bark-cloth battle wraps and shoulder capes are editorial clothing detail consistent with ancient costume; no invented facial tattoos, horned helmets or European armor."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nightmarchers, deadly sacred ghosts of ancient Hawaiian warriors marching as the vanguard of their chief. ANATOMY: group of normal-human-size ADULT Hawaiian warrior spirits in dignified ancient battle clothing, each ONE head, two eyes, two arms, two legs. Three distinct warriors in foreground, several further ranks in depth. Plain fully opaque woven bark-cloth wraps to ankles and shoulder capes, no western armor, horned helmets, fantasy crowns or invented tattoos. Carry wooden spears; one rear torchbearer holds a blazing real flame [nightmarchers-c01,c02,c05,c18]. MOMENT: ADVANCE inexorably toward the low viewer in a powerful marching step, foremost spearsman holding his spear diagonally forward with both hands, two warriors flanking behind, severe unwavering expressions. Every visible foot floats a HANDSPAN ABOVE the dark coastal earth, no foot touching ground or water; show dark gaps beneath all feet clearly against firelit rocks and STILL wet sand, no footprints [c03,c06]. POWER: suspension above ground without trace, brightening physical torches announcing approach; no eye beams, victims or violence [c06,c11]. SCALE & CAMERA: low close camera near sand level, first warrior fills most height and other ranks make a deep moving wedge; ordinary human size. LIGHT & WEATHER: one dominant RED-AMBER TORCH LIGHT behind leader, deep black night, soft ocean mist, edges visible on faces and spear shafts, NO blue body glow. SURFACE: tactile woven cloth, wood spears, wet volcanic coastal rocks. SETTING: Hawaiian coast at night, procession has risen from dark ocean beyond and moves inland to sacred places [c04]. MOOD: reverent overwhelming ancestral authority, dangerous sacred procession, never zombies, skeletons or ordinary soldiers standing for portrait. HARD CONSTRAINTS: no text, letters, logo, border, frame or watermark; no extra heads or limbs; no design borrowed from film, game, anime or comic; no nudity or gore; no generic glow aura, neon outline, runes or energy ribbons. Rich painterly natural surfaces, high contrast, strong subject silhouette at 200 pixels.",
+  "worker": "codex",
+  "worker_agent": "resume_2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-150.review.json",
+  "batch": 2118,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-8f93-7e10-a57b-ba1c53b27cbc/exec-9b9d700b-2696-444a-a4ef-9dbe775f59ff.png",
+  "generated_at": "2026-10-16T07:36:59.149Z",
+  "original_file": "data/artwork-generated/batch-2118/originals/nightmarchers.png",
+  "native_sha256": "ff76378b102075e5c5d1d6cf5d32c77b71bf027eb08b91376e2669b32a643b8e",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native 1254px and 200px inspected: dignified human-size ancient Hawaiian warriors in a moving torchlit rank, three clear foreground figures carrying spears, each with normal anatomy. Every foreground foot and multiple rear feet visibly hover above wet sand with clear gaps, no footprints (c06). Stern ancestral authority and powerful advancing formation read at 200px; ocean night c04 and bright real torches c11, no zombies, eye beams, invented aura or borrowed media design. Opaque clothing, no victims, text or gore. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "ff76378b102075e5c5d1d6cf5d32c77b71bf027eb08b91376e2669b32a643b8e",
+    "reviewed_at": "2026-10-16T07:36:59.149Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:10:48+07:00",
+    "native_sha256": "ff76378b102075e5c5d1d6cf5d32c77b71bf027eb08b91376e2669b32a643b8e",
+    "notes": "Viewed native 1254px, 200px, and the feet/ground gap, spearheads, torches, hands, faces and cloth crops. What works: normal-size adult warrior spirits (nightmarchers-c05) with normal anatomy (one head and two eyes each; thumb plus four on the spear). They advance in ranks toward a low camera from the night surf on a lava-rock coast (c03/c04). Several carry spears, and real flaming torches burn among the ranks (c11). At native size every foreground foot clearly hovers a handspan above the wet ground, with no footprints (c06). No victims, eye beams, text or aura. It fails for three reasons. (1) The costume is invented and foreign to the tradition. c18 says the marchers are dressed 'according to ancient usage in the costume of chiefs'. Here they wear coarse, fringed, loosely woven burlap or sackcloth tied as togas over ankle-length skirts. Kapa is beaten bark cloth, not woven fabric, and this reads as a biblical-extra or costume-party robe, not ancient Hawaiian dress. (2) The spears carry separate leaf-shaped blades, metal or knapped stone, with a socket collar and binding. Hawaiian spears were one-piece hardwood. This is the same foreign-weapon problem as the r03 matuku-tangotango rejection. (3) The faces are photographic present-day men with calm, distant gazes, and the leader looks past the viewer. At 200px the hovering gaps vanish among the reflections. Nothing marks them as the deadly ghost procession (c01/c07); it reads as a torchlit beach reenactment. This is a living, sacred Native Hawaiian tradition, and the image fails the tradition-character check and Uji Sangar #2/#7."
+  },
+  "correction_notes": "Keep: normal-size warrior spirits marching in ranks from the night ocean onto a lava-rock shore toward the viewer (nightmarchers-c03/c04/c05). Keep real torches growing bright (c11), burning red per c18. Keep every foot clearly hovering above the ground with no footprints (c06). No victims, gore, eye beams, text or aura. Fix: (a) Costume from ancient usage (c18). Use malo loincloths and shoulder capes of smooth, beaten kapa bark cloth, not woven burlap. If chiefly costume is shown, give a feathered cloak and a crested helmet to one leading chief only. Nothing should read as a sackcloth toga, a fringed burlap robe, or Western or fantasy armour. (b) Spears: one-piece dark hardwood shafts with carved wooden points. No metal or stone blades, sockets or bindings. (c) Make them read as the dead at 200px. Paint them in the house painterly style as grave, ancient figures, not as a photographic portrait of present-day men. The leader fixes his stare directly on the viewer, since looking upon them is fatal (c07). Lift the feet so the gap is unmistakable even at 200px, for example above still water whose reflections show no disturbance, with cold mist around the legs. Keep torchlight as the one light source. No invented tattoos, glowing eyes or skeletal features."
+}

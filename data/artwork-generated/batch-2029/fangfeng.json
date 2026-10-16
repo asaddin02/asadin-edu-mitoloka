@@ -1,0 +1,68 @@
+{
+  "slug": "fangfeng",
+  "basis_claim_ids": [
+    "fangfeng-c01",
+    "fangfeng-c03",
+    "fangfeng-c05",
+    "fangfeng-c08"
+  ],
+  "depicted_variant": "Revered giant guardian with one eye and brow, dragon head and ox ears, striding across mountain pass.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant with one eye and one brow, dragon head and ox ears",
+      "claim_ids": [
+        "fangfeng-c03",
+        "fangfeng-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountains Feng and Yu under his guardianship",
+      "claim_ids": [
+        "fangfeng-c05"
+      ]
+    }
+  ],
+  "aura": "Enormous scale c03 and one-eyed dragon head/ox ears c08 convey reverential guardian power without added aura.",
+  "artistic_choices": [
+    "Plain opaque earth-coloured robe and broad belt cover body; no invented weapons, horns, extra eyes or dragon limbs.",
+    "Tiny mountain path travelers and trees establish documented giant size. Guarding striding gesture concretizes mountains c05, no flood-ending action from modern variant c06.",
+    "Storm cloud and sunset are editorial weather, not power effects."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Fangfeng, the revered giant guardian deity of the mountains Feng and Yu in Chinese tradition.\nANATOMY: ONE monumental GIANT with ONE DRAGON HEAD, exactly ONE SINGLE LARGE EYE at center of forehead and ONE unified thick BROW above it, NO second eye sockets. TWO broad OX EARS project sideways. Long dragon muzzle, scaly face, NO horns, NO antlers, NO wings; two human arms and two legs. Fully opaque heavy earth-brown plain robe and broad belt cover torso and legs [fangfeng-c03,fangfeng-c08].\nMOMENT: Stride across a narrow mountain pass directly above the tiny viewer, raise one open hand to halt intrusion and plant the other hand on the mountainside; sole central eye looks down with grave protective authority.\nPOWER: no visible supernatural attack; overwhelming physical giant scale and mountain guardianship [fangfeng-c03,fangfeng-c05].\nSCALE & CAMERA: extreme low angle at ground; entire enormous head and torso fill frame, tiny adult travelers and trees far below his belt on a mountain footpath show documented immense stature.\nLIGHT & WEATHER: one warm sunset shaft breaks through dark clouds, amber rim on ox ears, dragon scales and robe folds; ordinary mountain dust lifted by step.\nSURFACE: ancient rough dragon scales, coarse ox-ear hair, heavy rough woven opaque robe, fractured mountain stone.\nSETTING: steep mountains Feng and Yu, protected domain [fangfeng-c05].\nMOOD: reverential awe-inspiring sacred giant guardian, solemn and imposing, never evil, grotesque caricature, ordinary man, cute or static.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Fangfeng",
+  "batch": 2029,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-d0df5a6b-c7c2-4a59-953c-55411bae7381.png",
+  "generated_at": "2026-10-16T03:18:46.212Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/fangfeng.png",
+  "native_sha256": "417d5b963d9445aecf888dae1cfd1496dcf70e9182cc6bf802a3e4470311996f",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: exactly one central eye and unified brow, dragon head and two wide ox ears, two arms, opaque robe over two-legged giant. Tiny travelers and trees establish immense stature. Active stepping/halting gesture and direct gaze remain awe-inspiring at thumbnail; five fingers, no extra eyes/horns/text/aura. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "417d5b963d9445aecf888dae1cfd1496dcf70e9182cc6bf802a3e4470311996f",
+    "reviewed_at": "2026-10-16T03:18:46.212Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T11:44:40+07:00",
+    "native_sha256": "417d5b963d9445aecf888dae1cfd1496dcf70e9182cc6bf802a3e4470311996f",
+    "notes": "Viewed native 1254px + 200px + face and belt crops. A colossal giant with exactly ONE central eye and a single brow (confirmed in the face crop — no second eye), a scaled dragon-like head and snout, and two large bovine ox ears (c08). Opaque draped robe with an ornamental gold sash (scrollwork/filigree only — no lettering). He raises a five-fingered halt gesture; three tiny travelers on the mountain path fix the documented giant scale (c03/c05). Distinct anatomy reads at 200px; no invented horns/weapon, no generic aura or borrowed design."
+  }
+}

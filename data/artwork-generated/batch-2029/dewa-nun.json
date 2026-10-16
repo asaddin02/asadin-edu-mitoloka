@@ -1,0 +1,74 @@
+{
+  "slug": "dewa-nun",
+  "name": "Nun",
+  "batch": 2029,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nun, the great Egyptian deity personifying primordial waters.\nANATOMY: ONE giant frog head with two eyes on a large anthropomorphic body, TWO arms, TWO legs concealed below water, opaque Egyptian linen kilt, BOTH hands holding aloft ONE large plain solar disc. [dewa-nun-c06]\nMOMENT: Rise powerfully from black primordial waters while lifting the enormous sun disc overhead, gaze downward toward viewer.\nPOWER: Primordial waters surge around his body and the first dark mound of land rises from them beneath him; warm light comes only from the supported solar disc. [dewa-nun-c03,dewa-nun-c07]\nSCALE & CAMERA: extreme low angle, close framing and foreshortening, subject fills 80% of square; size as documented, no unsupported giant scale.\nLIGHT & WEATHER: one dominant warm low sunset or moonbreak, strong rim light and deep walnut shadows, ordinary atmospheric dust or moisture appropriate to setting.\nSURFACE: tactile natural textures, wet scales or matted fur where relevant, weathered cloth and rough stone, visible painterly brushwork.\nSETTING: The primordial watery abyss at creation, vast black water and emerging land. [dewa-nun-c03,dewa-nun-c07]\nMOOD: dangerous and imposing for hostile beings; awe-inspiring and respectful for gods, guardians and living traditions, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons, floating runes; no additional characters except explicitly specified.",
+  "depicted_variant": "ONE giant frog head with two eyes on a large anthropomorphic body, TWO arms, TWO legs concealed below water, opaque Egyptian linen kilt, BOTH hands holding aloft ONE large plain solar disc.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE giant frog head with two eyes on a large anthropomorphic body, TWO arms, TWO legs concealed below water, opaque Egyptian linen kilt, BOTH hands holding aloft ONE large plain solar disc.",
+      "claim_ids": [
+        "dewa-nun-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Primordial waters surge around his body and the first dark mound of land rises from them beneath him; warm light comes only from the supported solar disc.",
+      "claim_ids": [
+        "dewa-nun-c03",
+        "dewa-nun-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The primordial watery abyss at creation, vast black water and emerging land.",
+      "claim_ids": [
+        "dewa-nun-c03",
+        "dewa-nun-c07"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "dewa-nun-c06",
+    "dewa-nun-c03",
+    "dewa-nun-c07"
+  ],
+  "aura": "Imposing action and documented attributes (dewa-nun-c06); effect basis dewa-nun-c03,dewa-nun-c07.",
+  "artistic_choices": [
+    "Dark warm palette, close low camera and dramatic side-light are artistic choices, not additional source facts.",
+    "Effects confined to documented action; no generic aura. Human clothing chosen opaque where needed; no unsupported giant size."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-3cee27a4-479a-4b8a-bd44-7cdfa5d61b8c.png",
+  "generated_at": "2026-10-16T04:34:28.649Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/dewa-nun.png",
+  "native_sha256": "804da218b11452b24927c24af320eaeebf9114645d30a2a501112b2da3c5f700",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one frog head with two eyes on large anthropomorphic torso, two arms hold solar disc above, opaque linen kilt, lower legs underwater. Primordial waters surge and mound emerges c03/c07; disc is physical source c06 not aura. Majestic active lift dominates thumbnail, no text/gore or extra anatomy. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "804da218b11452b24927c24af320eaeebf9114645d30a2a501112b2da3c5f700",
+    "reviewed_at": "2026-10-16T04:34:28.665Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:29:06+07:00",
+    "native_sha256": "804da218b11452b24927c24af320eaeebf9114645d30a2a501112b2da3c5f700",
+    "notes": "Viewed native 1254px + 200px + head crop. A monumental anthropomorphic deity with one frog head (two amphibian eyes, a wide frog mouth) on a large body, two arms, and both hands lifting aloft one large plain solar disc (c06); opaque Egyptian usekh collar and linen kilt, lower legs submerged. Primordial black waters surge around him and a dark mound of first land rises beneath; warm light comes from the supported sun disc, not a generic aura (c03/c07). Reverent cosmic awe appropriate to a deity; no readable hieroglyphic lettering and no borrowed design. Dominates the frame at 200px. c06/c03/c07 satisfied."
+  }
+}

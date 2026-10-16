@@ -1,0 +1,23 @@
+{
+  "batch": 2124,
+  "round": "r01",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T15:46:03+07:00",
+  "scope_note": "Independent visual review of receipts only. No integration, manifest, research or power changes. For the one requested slug (omononushi), I viewed the native 1254px PNG, 200px and 100px downscales, and targeted native crops of the head, eyes, neck-base junction, cave coils, deepest coil, right exit, lower-left rocks and the four corners. I compared them with the receipt's visual_requirements and the research claims embedded in the ledger (omononushi-c01 to c13). Before writing, I recomputed the PNG's SHA-256 and matched it against the receipt native_sha256, the Codex visual_review hash, the ledger item hash and the Codex root native review in drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review and the receipt status, and synced the ledger item status. Both files were re-read immediately before writing. No PNG, Codex visual_review, Codex native review, or other receipt or ledger field was modified. Pass: omononushi.",
+  "requested_slugs": [
+    "omononushi"
+  ],
+  "totals": {
+    "reviewed": 1,
+    "pass": 1,
+    "reject": 0
+  },
+  "results": [
+    {
+      "slug": "omononushi",
+      "native_sha256": "d7148a0f455f9af5f3de3a1387a8db3d1ada80b1c6d7b1c709889f9c499a2e20",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px and 100px downscales. I also viewed native crops of the head (2x), the eyes (3x), the neck base where the cave coil and the foreground coil meet (1.5x and 2.4x), the cave coils brightened, the rearmost coil deep in the cave (3x, brightened to rule out a hidden second head), the right edge where the coil leaves the frame, the lower-left rocks, and all four corners brightened to check for signatures. This is the documented snake manifestation (omononushi-c05 snake body; c08 manifests as a snake). It has ONE snake head with TWO natural dark eyes (no glow), two nostrils, a closed mouth, no fangs, and no horns, crest, mane, whiskers, crown or human face. The body is limbless, with no legs, wings or dragon parts. It is one continuous body with plausible occlusion. The coil from the cave runs right and twists up into the raised neck, with belly scutes turned to the viewer and the bend rounded off behind the foreground coil. The cave segment loops back into the dark to a rounded bend, with no face there. A thick foreground span sweeps from the lower-left water off the right edge. I found no Y-branch, duplicate snake or second head. The tail is out of frame, which is acceptable. It uncoils out of a wet rock cave (c05 lived in a rock cave) on a mountain (c01 Mount Miwa, habitat mountain): the near coil slides over the rock and throws spray, and the neck rears up with the head inclined down at an extremely low, close camera. That is a moment of emergence and confrontation, not a static pose. The only power effect is a real forked lightning bolt tearing the storm sky outside the cave, which also rim-lights the scales (c07 thunder god; c08 manifests as thunder). There is no aura, electricity on the body, runes or glowing mist. Heavy rain and a low-key walnut-black cave with one white-gold flash. Wet, overlapping, ivory-grey scales and slick rock; the pale colour is editorial and declared as such in artistic_choices. At 200px it reads as a huge sacred serpent rearing out of the mountain under thunder: imposing and awe-inspiring, as §6.5 asks for a living Shinto kami (Ōmiwa worship, c02/c03), not a pet or zoo reptile, and not an evil monster. No plague scene, victims, red arrow, shrine, torii or invented inscriptions; no text, signature, border or borrowed film/game/anime snake design. All seven Uji Sangar items pass. Minor issues that are not blocking: (1) the finish is near-photographic, with shallow-focus bokeh at lower left, rather than the requested painterly brushwork. This is within what was accepted for animal-form beings (for example moon-lake-monster, 2118-r03), and it is not the person-photo problem behind earlier rejections. (2) The far background shows bare, jagged crags rather than Miwa's wooded cone, but the embedded claims do not describe the mountain's look and the crags stay secondary. (3) The closed mouth line turns slightly upward, but with the low gaze and the storm it reads as solemn, not cute."
+    }
+  ]
+}

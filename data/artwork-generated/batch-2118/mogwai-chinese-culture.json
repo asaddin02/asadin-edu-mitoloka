@@ -1,0 +1,66 @@
+{
+  "slug": "mogwai-chinese-culture",
+  "depicted_variant": "One air-traversing yaksha, a documented Mogui example, with blue complexion, animal head and two wings flying through the night.",
+  "basis_claim_ids": [
+    "mogwai-chinese-culture-c01",
+    "mogwai-chinese-culture-c04",
+    "mogwai-chinese-culture-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Air-traversing yaksha with blue complexion, animal head and pair of wings",
+      "claim_ids": [
+        "mogwai-chinese-culture-c04",
+        "mogwai-chinese-culture-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Night flight and strange glowing darkness",
+      "claim_ids": [
+        "mogwai-chinese-culture-c10"
+      ]
+    }
+  ],
+  "aura": "Night flight and a strange dark radiance from c10 convey threat, with no generic bright aura.",
+  "artistic_choices": [
+    "Night flight and a strange dark radiance from c10 convey threat, with no generic bright aura.",
+    "Choose blue complexion from documented color alternatives. Broad canine animal head is editorial interpretation of unspecified animal head, not a new claim.",
+    "One adult torso, two arms, two legs, simple fully opaque weathered dark wrap; no horns, tusks, claws, weapons or extra eyes invented."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Mogwai, represented by ONE air-traversing yaksha, one of the documented demon examples, NOT a movie creature. ANATOMY: ONE powerful adult blue-skinned humanoid with ONE fierce broad CANINE ANIMAL HEAD, two natural canine eyes, two ears, TWO arms with hands, TWO legs and exactly TWO enormous dark feathered WINGS attached behind shoulders. Fully opaque simple weathered dark tunic and long dark trousers cover torso and legs. No horns, tusks, claws, crown, weapons or extra eyes [mogwai-chinese-culture-c04,c10]. MOMENT: SWOOP directly down toward viewer out of the night, wings sweeping strongly backward, both hands reaching into foreground, animal mouth open in a severe snarl. POWER: terrifying airborne yaksha flight; a strange GLOWING DARKNESS is a deep near-black indigo penumbra that swallows ambient starlight beside wings, NOT a luminous aura, neon halo or magic ribbons [c10]. SCALE & CAMERA: extreme low close camera beneath wings; animal head and blue hands dominate; no giant-size context. LIGHT & WEATHER: single harsh moon rim behind a thin cloud, deep black-blue night, slanting ordinary rain. SURFACE: wet coarse feathers, weathered blue skin, saturated dark cloth. SETTING: night air, faint clouds far below, no invented landmarks. MOOD: dangerous demonic flight, severe active confrontation, no cute furry pet, no borrowed Gremlins design. HARD CONSTRAINTS: no text, letters, logo, border, frame or watermark; no extra heads or limbs; no design borrowed from film, game, anime or comic; no nudity or gore; no generic glow aura, neon outline, runes or energy ribbons. Rich painterly natural surfaces, high contrast, strong subject silhouette at 200 pixels.",
+  "worker": "codex",
+  "worker_agent": "resume_2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 2118,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-8f93-7e10-a57b-ba1c53b27cbc/exec-4151945c-35e4-40ce-98ee-09c5d61e32c3.png",
+  "generated_at": "2026-10-16T07:31:56.617Z",
+  "original_file": "data/artwork-generated/batch-2118/originals/mogwai-chinese-culture.png",
+  "native_sha256": "a972308679958f20bb6b4d7fc90c7d05878e376da253564b1266a735344c4b9a",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native 1254px and 200px inspected: one blue animal-headed yaksha (c04/c10), two wings, two arms/hands, two legs; canine head editorially interprets unspecified animal type. Direct descending flight and reaching hands dominate, fierce at 200px; black wing penumbra with moonlit physical rain, no generic luminous aura. Opaque torn dark clothes, no horns, extra limbs, symbols, gore or borrowed Gremlins design. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a972308679958f20bb6b4d7fc90c7d05878e376da253564b1266a735344c4b9a",
+    "reviewed_at": "2026-10-16T07:31:56.617Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:10:48+07:00",
+    "native_sha256": "a972308679958f20bb6b4d7fc90c7d05878e376da253564b1266a735344c4b9a",
+    "notes": "Viewed native 1254px, 200px, and both-hand, head and leg crops. The receipt represents the generic term (mogwai-chinese-culture-c01/c07) through one documented example, the air-traversing yaksha (c04/c10). It is blue-skinned, one of the documented colours, and has an animal head. The canine head is an editorial choice recorded in artistic_choices, since c10 does not specify the animal. One head with two amber eyes, two upright ears and an open snarling mouth with fangs. Two large black feathered wings (c10). Two arms: both hands reach into the foreground, each with a thumb and four fingers. Two legs in a ragged, fully opaque dark tunic and trousers. It flies through a rainy night above the clouds under the moon (flying through the night, c10). The black wing mass reads as the dark penumbra, with no luminous aura. It swoops straight down at the viewer. It is not a Gremlins mogwai and not a recognisable film or game werewolf design. No horns, weapons, gore or text. At 200px it reads as an unmistakably dangerous demon in flight."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "keneo",
+  "basis_claim_ids": [
+    "keneo-c01",
+    "keneo-c02",
+    "keneo-c03",
+    "keneo-c05",
+    "keneo-c08"
+  ],
+  "depicted_variant": "Old underworld oni actively hanging a soul's robe on the bending Eryōju tree by Sanzu River.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Oni-formed old man who hangs clothing",
+      "claim_ids": [
+        "keneo-c01",
+        "keneo-c02",
+        "keneo-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Robe hangs from Eryoju and branch bends to measure sins",
+      "claim_ids": [
+        "keneo-c03",
+        "keneo-c05",
+        "keneo-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Eryoju beside Sanzu River",
+      "claim_ids": [
+        "keneo-c01",
+        "keneo-c08"
+      ]
+    }
+  ],
+  "aura": "Riverside judgement of sin by physically bending branch c05/c08 and severe oni elder c01 create sacred awe without aura.",
+  "artistic_choices": [
+    "No horns/tusks/extra eyes invented because research only calls oni-formed old man; deeply aged fierce face and coarse opaque robe editorial.",
+    "Only empty clothes shown, no stripped souls or torture.",
+    "Low close composition prioritizes elder face and hanging action; no lettered tablets."
+  ],
+  "prompt": "EDIT the Keneo image. Preserve elder's aged face/grey beard/plain opaque robe, one head/two arms, Eryoju tree, pale EMPTY robe, Sanzu river and moonlight. Change scene relation so the weighed robe's impossible weight is obvious, never ordinary laundry: the THIN branch carrying the empty robe sags in a deep U shape DOWN TO THE ELDER'S SHOULDER despite no one touching or pulling it, strained bark fibres split at its base with small splinters. Remove the elder's grip on the branch. BOTH HANDS are now OPEN and clearly withdrawing BELOW the robe's hanging point after release, palms angled to viewer. The empty robe hangs freely unsupported and drags branch down, no person inside. Turn elder's deeply furrowed face toward viewer with severe widened eyes and mouth mid-judgement. Tighten crop slightly so face/hands/sagging branch dominate, river background secondary. No horns/tusks/extra eyes invented. No blood, victims, torture, text, glowing magic or aura. Physical weight of sin bends Eryoju branch [keneo-c05,keneo-c08]. Reverential imposing folk-underworld judge.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/keneo-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/keneo-attempt-01.json",
+      "native_sha256": "8003afa8be23e7618bab28cb6bbe490565b602df659d58423a886abdf69d07da",
+      "reason": "Self Sangar check: old man appears to be holding tree branch and hanging laundry; sin-weighing supernatural burden unclear, face looks away. Correct to release unsupported robe and show branch bending severely under it, with confrontational severe face."
+    }
+  ]
+}

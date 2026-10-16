@@ -1,0 +1,74 @@
+{
+  "slug": "axehandle-hound",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Axehandle hound, an uncanny axe-shaped dog from North American logging-camp folklore.\nANATOMY: ONE living doglike creature with one head, two eyes, four legs and one tail; its whole living body has the distinctive continuous silhouette of a broad wedge-shaped AXE HEAD at the shoulders narrowing into a long wooden-haft-shaped abdomen and tail [axehandle-hound-c02]. It remains a biological beast with coarse dark fur, not a metal axe with legs. Broad flat wedge-shaped skull, long narrow torso, four sinewy canine legs, no horns or wings.\nMOMENT: Crouch and violently bite through an unattended ash-wood axe handle toward the viewer, teeth buried in the wood; wood splinters fly from the bite. The axe blade lies safely grounded, blank and dull.\nPOWER: It eats unattended axe handles [axehandle-hound-c03]; physical bite and splinters only, no magical powers.\nSCALE & CAMERA: extreme low angle; tight ground-level confrontation, entire impossible axe silhouette visible, normal dog scale beside a full-size axe.\nLIGHT & WEATHER: one dominant low amber moon through dark clouds, deep walnut shadows, strong rim light, ordinary spray or dust appropriate to scene.\nSURFACE: tactile weathered natural surfaces, painterly textures, no plastic.\nSETTING: A night logging camp in northern American woods [axehandle-hound-c01,axehandle-hound-c05,c06].\nMOOD: imposing and awe-inspiring or menacing as appropriate; active confrontation, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no film, game, anime or comic designs; fully opaque clothing on humanoids; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Living axe-bodied hound biting an unattended handle.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Doglike with axe-shaped body",
+      "claim_ids": [
+        "axehandle-hound-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Eats only unattended axe handles",
+      "claim_ids": [
+        "axehandle-hound-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nocturnal logging-camp visitor",
+      "claim_ids": [
+        "axehandle-hound-c01",
+        "axehandle-hound-c05",
+        "axehandle-hound-c06"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "axehandle-hound-c02",
+    "axehandle-hound-c03",
+    "axehandle-hound-c01",
+    "axehandle-hound-c05",
+    "axehandle-hound-c06"
+  ],
+  "aura": "Presence arises from documented form/action and close low camera, without generic aura.",
+  "artistic_choices": [
+    "The precise fur colour and anatomical transition from wedge shoulders to haft torso are original visual design interpreting c02; no magic or giant size."
+  ],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 2029,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-a11e-7273-9ac2-6cc6019d8a05/exec-c53724c9-a4ae-4df3-bebd-6c693d94ac5f.png",
+  "generated_at": "2026-10-16T03:10:08.421Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/axehandle-hound.png",
+  "native_sha256": "371041ac4eeaab48b97427ceb43282aa7cf195463bd2263800afd86c5188a025",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: one canine head, two eyes, four canine legs and tail; broad axe-wedge shoulders and long haftlike taper create impossible body silhouette while biting wooden handle. Physical wood splinters c03; normal dog scale beside axe, logging camp night. No text/aura/borrowed designs; all Sangar criteria pass.",
+    "limitations": [],
+    "native_sha256": "371041ac4eeaab48b97427ceb43282aa7cf195463bd2263800afd86c5188a025",
+    "reviewed_at": "2026-10-16T03:10:08.421Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T10:33:53+07:00",
+    "native_sha256": "371041ac4eeaab48b97427ceb43282aa7cf195463bd2263800afd86c5188a025",
+    "notes": "Viewed native + 200px + leg/head crops. Dog-like beast whose raised shoulders and back form an organic axe-wedge tapering to a haft-like torso c02; four canine legs and one bushy tail confirmed; gnawing a wooden axe handle with splinters flying and the axe head on the ground c03, at a moonlit logging camp with a distant lantern-lit logger for scale c01/c05/c06. Organic, not metal; no text or borrowed design."
+  }
+}

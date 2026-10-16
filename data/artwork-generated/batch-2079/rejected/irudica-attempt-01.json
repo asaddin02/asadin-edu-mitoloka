@@ -1,0 +1,84 @@
+{
+  "slug": "irudica",
+  "name": "Irudica",
+  "batch": 2079,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Irudica, the red-haired whirlwind spirit of Croatian folklore.\nANATOMY: ONE adult woman with long RED hair, one head, two arms, two legs, fully opaque tattered dark gown. [irudica-c04,irudica-c06]\nMOMENT: Flee twisting toward viewer through a violent whirlwind, red hair lashes while one arm shields face from descending lightning.\nPOWER: Documented whirlwind and storm around her, divine lightning pursues and strikes nearby rock, no gore or visible deity; never show her creating the lightning. [irudica-c01,irudica-c05,irudica-c07]\nSCALE & CAMERA: extreme low close angle, subject fills80% of square; natural scale unless giant explicitly documented. Important features clear at200pixels.\nLIGHT & WEATHER: one dominant warm moonbreak/sunset or documented lantern, dramatic rim light, deep walnut shadows, natural moisture/dust.\nSURFACE: tactile natural skin/fur/scales/wood where appropriate, opaque coarse textiles, rough stone, original visible painterly brushwork.\nSETTING: Dalmatian/Hvar rocky coast under dark thunderclouds. [irudica-c05,irudica-c10]\nMOOD: dangerous for hostile beings, awe-inspiring and respectful for gods, guardians and living traditions, never cute/calm/decorative.\nHARD CONSTRAINTS: no text/lettering/logo/border/frame/watermark; no extra heads/limbs/fingers; no borrowed film/game/anime/comic design; no nudity or explicit gore; no generic glow aura, neon outlines, energy ribbons, floating runes.",
+  "depicted_variant": "ONE adult woman with long RED hair, one head, two arms, two legs, fully opaque tattered dark gown. [irudica-c04,irudica-c06]",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE adult woman with long RED hair, one head, two arms, two legs, fully opaque tattered dark gown. [irudica-c04,irudica-c06]",
+      "claim_ids": [
+        "irudica-c04",
+        "irudica-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented whirlwind and storm around her, divine lightning pursues and strikes nearby rock, no gore or visible deity; never show her creating the lightning.",
+      "claim_ids": [
+        "irudica-c01",
+        "irudica-c05",
+        "irudica-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dalmatian/Hvar rocky coast under dark thunderclouds.",
+      "claim_ids": [
+        "irudica-c05",
+        "irudica-c10"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "irudica-c04",
+    "irudica-c06",
+    "irudica-c01",
+    "irudica-c05",
+    "irudica-c07",
+    "irudica-c10"
+  ],
+  "aura": "Distinctive anatomy irudica-c04,irudica-c06 and documented action irudica-c01,irudica-c05,irudica-c07.",
+  "artistic_choices": [
+    "Dark warm palette and close low camera are editorial composition, no unsupported giant size or magic.",
+    "Opaque garments and restrained original design preserve modesty and respectful treatment."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-c18e2c79-4a69-4e8b-bb5d-3c0ef8e486bc.png",
+  "generated_at": "2026-10-16T05:35:04.707Z",
+  "original_file": "data/artwork-generated/batch-2079/rejected/irudica-attempt-01.png",
+  "native_sha256": "485e2b33e8a97ef1663abc2a213775b7e88c3ba680344965c5945c93b2ad3c70",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected: red-haired woman c06, one head/two arms, clothed dark gown, flees through violently swirling dust/wind toward viewer. Lightning pursues and hits nearby rock c05, she does not cast it; Dalmatian coast c10. Wind-lashed hair and forceful action read supernatural storm spirit at200px, no aura/text/gore or extra limbs. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "485e2b33e8a97ef1663abc2a213775b7e88c3ba680344965c5945c93b2ad3c70",
+    "reviewed_at": "2026-10-16T05:35:04.719Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:03:02+07:00",
+    "native_sha256": "485e2b33e8a97ef1663abc2a213775b7e88c3ba680344965c5945c93b2ad3c70",
+    "notes": "Viewed native 1254px, 200px, and leg, face and hand crops. One red-haired woman (irudica-c06) with one head, two arms (shielding hand has five fingers) and a tattered dark gown, on Dalmatian sea rocks, with lightning striking a nearby rock (c05). But she reads as an ordinary frightened woman at human scale caught in a storm, with a scared, victim-like expression. Nothing conveys the evil spirit who dwells in the whirlwind (c01) or leads storms with heavy thunder (c07). The whirlwind itself is not visible: there is only wind-blown cloth and a few flying pebbles, no vortex. Modesty also fails: the extreme low angle looks up the parted gown, and a bare leg is exposed to the upper thigh and hip in the centre of the frame, against the fully opaque clothing rule. This fails Uji Sangar #7 (ordinary woman) and the clothing constraint."
+  },
+  "correction_notes": "Redraw Irudica as the storm spirit, not a frightened ordinary woman: a visible spinning whirlwind column of spray, dust and debris that she rides or that wraps her lower body (irudica-c01), leading a thunderstorm (c07) while God's lightning hunts her across the Dalmatian/Hvar coast (c05/c10). Make her expression wild and fierce rather than scared, and keep long red hair (c06) as the identifying trait. Keep the tattered dark gown fully covering the legs, with no upskirt low angle and no bare thigh, and do not show her creating the lightning. No aura, text or gore.",
+  "receipt_file": "data/artwork-generated/batch-2079/rejected/irudica-attempt-01.json",
+  "reason": "Redraw Irudica as the storm spirit, not a frightened ordinary woman: a visible spinning whirlwind column of spray, dust and debris that she rides or that wraps her lower body (irudica-c01), leading a thunderstorm (c07) while God's lightning hunts her across the Dalmatian/Hvar coast (c05/c10). Make her expression wild and fierce rather than scared, and keep long red hair (c06) as the identifying trait. Keep the tattered dark gown fully covering the legs, with no upskirt low angle and no bare thigh, and do not show her creating the lightning. No aura, text or gore.",
+  "original_source_file": "data/artwork-generated/batch-2079/originals/irudica.png",
+  "archived_at": "2026-10-16T07:30:02.805Z"
+}

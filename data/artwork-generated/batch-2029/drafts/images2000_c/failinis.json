@@ -1,0 +1,61 @@
+{
+  "slug": "failinis",
+  "basis_claim_ids": [
+    "failinis-c01",
+    "failinis-c04",
+    "failinis-c06",
+    "failinis-c07"
+  ],
+  "depicted_variant": "Huge noble daytime hound walking through stream that becomes golden white wine on fur contact; four paws explicitly visible.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "A hound, huge in daytime variant",
+      "claim_ids": [
+        "failinis-c01",
+        "failinis-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Stream water touching fur changes to golden white wine, colour editorial; monumental nonviolent stride",
+      "claim_ids": [
+        "failinis-c04",
+        "failinis-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Irish Mythological Cycle contextual riverbank",
+      "claim_ids": [
+        "failinis-c01"
+      ]
+    }
+  ],
+  "aura": "Documented huge day form c06 and stream-to-wine transformation c04/c07 provide physical mythic spectacle without generic aura.",
+  "artistic_choices": [
+    "Day form only, not conflicting night fire-ball; low late-day sunlight.",
+    "Dark shaggy grey-brown hound coat and stony Irish stream are editorial realization, not sourced breed.",
+    "Final nonviolent correction uses golden WHITE wine (wine colour unspecified in claims), calm closed mouth and majestic movement; physical size and transformation provide awe.",
+    "Four readable paws prioritized by full three-quarter composition; closed mouth and safe distant traveler keep scene peaceful."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Failinis, the immense daytime mythic hound of Lugh whose contact turns water into wine.\nANATOMY: ONE enormous noble shaggy grey-brown HOUND, one head, two natural amber eyes, exactly FOUR canine LEGS and FOUR distinct PAWS, ONE tail; no horns, wings or other fantastical anatomy [failinis-c01,failinis-c06].\nMOMENT: Stride majestically across a shallow stream in full THREE-QUARTER SIDE VIEW, body extending leftward from a head facing camera at frame right. CLOSED MOUTH, solemn proud protective expression. Near front paw lifts mid-stride; far front paw plants ahead; both hind legs are fully visible behind at different positions. Whole body and all FOUR PAWS within image. No snarling, biting, fighting, distress, injury or prey.\nPOWER: transparent incoming stream changes to clear GOLDEN WHITE WINE where it touches his fur and paws; subtle golden fluid spreads downstream in beautiful physical splashes, never red liquid [failinis-c04,failinis-c07].\nSCALE & CAMERA: very low angle and monumental documented daytime size; one very small fully clothed adult traveler stands safely on far riverbank looking up in wonder, well apart from hound; enormous full body dominates square [failinis-c06].\nLIGHT & WEATHER: one golden late afternoon sun, amber rim on wet fur and translucent pale-gold wine droplets, dark walnut shadows under the huge body; daylight sky.\nSURFACE: rough wet shaggy grey-brown fur, clear water, translucent golden white wine, grey stream rocks.\nSETTING: beautiful rocky Irish stream, distant hills secondary [failinis-c01].\nMOOD: majestic and overwhelmingly awe-inspiring legendary hound; noble movement and enormous scale distinguish from ordinary dog. Entirely nonviolent.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2029/rejected/failinis-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2029/rejected/failinis-attempt-01.json",
+      "native_sha256": "7a5e5293173e354b2fb37d2cf2048ad8d731df7659e93a055b1761a3eba95f62",
+      "reason": "Self inspection: frontal body occludes rear legs so all four documented canine legs cannot be confidently counted. Targeted three-quarter correction to expose all four paws."
+    }
+  ],
+  "generation_failures": [
+    {
+      "attempt": 2,
+      "tool": "OpenAI built-in image_gen",
+      "reason": "HTTP 400 moderation_blocked at output stage; safety_violations violence",
+      "request_id": "af3cfaee-b690-4585-a763-f2a9b7ec8f2b",
+      "prompt": "EDIT the provided Failinis illustration. Preserve one enormous shaggy hound's exact head, fierce open mouth, two eyes, fur, huge scale compared to adult on bank, sunset, ruby wine stream and rocky Irish setting. Correct ONLY leg visibility by shifting his body slightly into a three-quarter SIDE angle while head still faces viewer: make EXACTLY FOUR anatomically connected canine legs with FOUR clearly SEPARATE PAWS fully readable from shoulder/hip to toe. Two FORELEGS plant in foreground; TWO HINDLEGS extend behind and to the LEFT of the torso in staggered running positions, both paws visible against pale rocks and clear water. No leg hidden behind another leg or belly, no duplicated legs, no extra tails. Keep the left rear portion of body within frame. Translucent ruby WINE only at fur contact, clear incoming stream, no blood/wounds. Maintain active forward charge, immense imposing scale, painterly square composition. No text, glow, aura or changed face. Documented hound c01, huge day form c06 and water-to-wine c04/c07.",
+      "failed_at": "2026-10-16T03:20:27.991Z"
+    }
+  ]
+}

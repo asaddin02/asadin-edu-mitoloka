@@ -1,0 +1,561 @@
+{
+  "target": 1,
+  "tool": "OpenAI built-in image_gen",
+  "scope": "1 illustrations for every complete and valid research entry that has no approved image yet.",
+  "selected_at": "2026-10-16T08:32:55.944Z",
+  "baseline_counts": {
+    "lengkap-bergambar": 1890,
+    "lengkap-informasi": 1276,
+    "lengkap-tidak-valid": 0,
+    "tidak-lengkap": 367,
+    "belum-ada-entri": 1324,
+    "bukan-makhluk": 139
+  },
+  "status": "complete",
+  "complete": 1,
+  "presence_policy": true,
+  "require_root_visual_review": true,
+  "items": [
+    {
+      "index": 1,
+      "slug": "omononushi",
+      "canonical_name": "Ōmononushi",
+      "worker": "codex",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-052.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-052",
+        "slug": "omononushi",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-01",
+        "identity": {
+          "canonical_name": "Ōmononushi",
+          "native_name": {
+            "text": "大物主神",
+            "script": "Kanji",
+            "claim_ids": [
+              "omononushi-c01"
+            ]
+          },
+          "display_name": {
+            "id": "Ōmononushi",
+            "en": "Ōmononushi"
+          },
+          "wikidata_qid": "Q10936701",
+          "claim_ids": [
+            "omononushi-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Miwa-no-Ōkami",
+            "language": "ja",
+            "name_type": "epithet",
+            "claim_ids": [
+              "omononushi-c02"
+            ]
+          },
+          {
+            "name": "Konpira Daigongen",
+            "language": "ja",
+            "name_type": "alias",
+            "claim_ids": [
+              "omononushi-c04"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "dewa",
+          "claim_ids": [
+            "omononushi-c01"
+          ]
+        },
+        "classification": {
+          "value": "deity",
+          "claim_ids": [
+            "omononushi-c01"
+          ]
+        },
+        "culture": {
+          "value": "japanese-folklore",
+          "suggested_new": null,
+          "claim_ids": [
+            "omononushi-c01"
+          ]
+        },
+        "region": {
+          "value": "east-asia",
+          "claim_ids": [
+            "omononushi-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "mountain",
+            "claim_ids": [
+              "omononushi-c01",
+              "omononushi-c11"
+            ]
+          }
+        ],
+        "disposition": null,
+        "traits": [
+          {
+            "value": "curses",
+            "claim_ids": [
+              "omononushi-c05",
+              "omononushi-c08",
+              "omononushi-c12"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Ōmononushi adalah kami dalam mitologi Jepang yang dikaitkan dengan Gunung Miwa; Kojiki dan Nihon Shoki mengaitkannya erat dengan Ōkuninushi, dan ia dikenal sebagai dewa yang dapat mengirim wabah.",
+          "en": "Ōmononushi is a kami in Japanese mythology associated with Mount Miwa; the Kojiki and Nihon Shoki link him closely to Ōkuninushi, and he is known as a deity who could send plague.",
+          "claim_ids": [
+            "omononushi-c01",
+            "omononushi-c02",
+            "omononushi-c05",
+            "omononushi-c12"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ōmononushi adalah kami dalam mitologi Jepang yang dikaitkan dengan Gunung Miwa di Sakurai, Nara. Kojiki dan Nihon Shoki mengaitkannya erat dengan kami bumi Ōkuninushi. Tempat pemujaan utamanya adalah Kuil Ōmiwa, dan ia juga dipuja di kuil lain seperti Kuil Ōsugi serta dikaitkan dengan dewa Kuil Kotohira.",
+            "en": "Ōmononushi is a kami in Japanese mythology associated with Mount Miwa in Sakurai, Nara. The Kojiki and Nihon Shoki link him closely to the earthly kami Ōkuninushi. His chief place of worship is Ōmiwa Shrine, and he is also enshrined at other shrines such as Ōsugi Shrine and identified with the deity of Kotohira Shrine.",
+            "claim_ids": [
+              "omononushi-c01",
+              "omononushi-c02",
+              "omononushi-c03",
+              "omononushi-c04"
+            ]
+          },
+          {
+            "id": "Menurut Heibonsha, dalam legenda Gunung Miwa dewa ini berwujud ular dan tinggal di gua batu; Nipponica menyebutnya dewa ular, petir, dan pertanian, serta dewa leluhur klan Miwa, dan Wikipedia memerincinya sebagai dewa pembangunan negara, pertanian, bisnis, pengobatan, pembuatan minuman keras, dan pelayaran. Ia juga disebut menampakkan diri sebagai panah bercat merah, ular, dan petir; Wikipedia mencatat bahwa ia mengambil wujud panah merah ketika menghamili Seyadatarahime.",
+            "en": "According to Heibonsha, in the Mount Miwa legend this deity had a snake body and lived in a rock cave; Nipponica calls him a god of snakes, thunder and farming and the ancestral deity of the Miwa clan, and Wikipedia lists him as a god of nation-building, agriculture, business, medicine, brewing and seafaring. He is also said to manifest as a red-painted arrow, a snake and thunder; Wikipedia records that he took the form of a red arrow when he impregnated Seyadatarahime.",
+            "claim_ids": [
+              "omononushi-c05",
+              "omononushi-c07",
+              "omononushi-c08",
+              "omononushi-c10",
+              "omononushi-c13"
+            ]
+          },
+          {
+            "id": "Pada masa Kaisar Sujin, menurut Heibonsha, wabah akibat kutukannya baru reda ketika keturunannya Ōtataneko ditugaskan memujanya; Wikipedia menyebut Ōmononushi sendiri yang mengaku bertanggung jawab atas wabah itu melalui wahyu. Wikipedia juga mencatat bahwa ia muncul di hadapan Ōkuninushi, berjanji membantu bila dipuja, lalu dimuliakan di Gunung Mimoro (Gunung Miwa).",
+            "en": "In the reign of Emperor Sujin, according to Heibonsha, the plague caused by his curse ended when his descendant Ōtataneko was made to worship him; Wikipedia says Ōmononushi himself claimed responsibility for the plague in a revelation. Wikipedia also records that he appeared before Ōkuninushi, promising help if worshipped, and was enshrined on Mount Mimoro (Mount Miwa).",
+            "claim_ids": [
+              "omononushi-c05",
+              "omononushi-c11",
+              "omononushi-c12"
+            ]
+          },
+          {
+            "id": "Nama Ōmononushi diterjemahkan sebagai \"Penguasa Benda Agung\" atau \"Penguasa Roh Agung\". Heibonsha menyebutnya salah satu kunitsukami paling berakar di Yamato yang, setelah penyerahan negeri, memimpin para kunitsukami melindungi istana.",
+            "en": "The name Ōmononushi is translated as \"Great Thing Master\" or \"Great Spirit Master\". Heibonsha calls him one of the most strongly indigenous earthly deities of Yamato who, after the transfer of the land, led the earthly deities to guard the court.",
+            "claim_ids": [
+              "omononushi-c06",
+              "omononushi-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "大物主 (おおものぬし)",
+          "language": "ja",
+          "literal_meaning": {
+            "id": "\"Penguasa Benda Agung\" atau \"Penguasa Roh Agung\"",
+            "en": "\"Great Thing Master\" or \"Great Spirit Master\""
+          },
+          "claim_ids": [
+            "omononushi-c05",
+            "omononushi-c09"
+          ]
+        },
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [
+          {
+            "ability_id": "curse",
+            "name": {
+              "id": "Mengirim wabah",
+              "en": "Sending plague"
+            },
+            "description": {
+              "id": "Menurut Heibonsha, pada masa Kaisar Sujin kutukan dewa ini menimbulkan wabah yang baru reda setelah Ōtataneko memujanya.",
+              "en": "According to Heibonsha, in the reign of Emperor Sujin this deity's curse caused a plague that ended only after Ōtataneko worshipped him."
+            },
+            "claim_ids": [
+              "omononushi-c05",
+              "omononushi-c12"
+            ]
+          }
+        ],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Wabah pada masa Kaisar Sujin",
+              "en": "The plague in the reign of Emperor Sujin"
+            },
+            "role": {
+              "id": "Dewa yang mengaku menimbulkan wabah dan meminta dipuja.",
+              "en": "The deity who claims responsibility for the plague and asks to be worshipped."
+            },
+            "summary": {
+              "id": "Pada masa Kaisar Sujin, wabah melanda negeri. Dewa ini mengaku bertanggung jawab dan menyatakan wabah takkan berhenti sebelum Ōtataneko memujanya; setelah Ōtataneko ditugaskan, wabah reda dan negeri tenteram.",
+              "en": "In the reign of Emperor Sujin a plague struck the country. The deity claimed responsibility and announced it would not stop until Ōtataneko worshipped him; after Ōtataneko was appointed, the plague ceased and the realm became stable."
+            },
+            "claim_ids": [
+              "omononushi-c05",
+              "omononushi-c12"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "name": {
+              "id": "Gunung Miwa dan Kuil Ōmiwa",
+              "en": "Mount Miwa and Ōmiwa Shrine"
+            },
+            "type": "mountain",
+            "description": {
+              "id": "Gunung Miwa (juga Gunung Mimoro) di Sakurai, Nara, dan Kuil Ōmiwa di kakinya adalah tempat pemujaan utama Ōmononushi.",
+              "en": "Mount Miwa (also Mount Mimoro) in Sakurai, Nara, and Ōmiwa Shrine at its foot are Ōmononushi's chief place of worship."
+            },
+            "claim_ids": [
+              "omononushi-c01",
+              "omononushi-c02"
+            ]
+          }
+        ],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Ōkuninushi",
+            "relation_type": "associated",
+            "note": {
+              "id": "Dikaitkan erat dengan Ōkuninushi; Nihon Shoki memperlakukannya sebagai nama lain atau mitama Ōkuninushi, sedangkan Heibonsha menyebutnya penjelmaan Ōkuninushi yang membantu pembangunan negeri.",
+              "en": "Closely linked to Ōkuninushi; the Nihon Shoki treats him as another name for or the mitama of Ōkuninushi, while Heibonsha calls him an emanation of Ōkuninushi who helped build the land."
+            },
+            "claim_ids": [
+              "omononushi-c02",
+              "omononushi-c06"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "omononushi-s1",
+            "url": "https://en.wikipedia.org/wiki/%C5%8Cmononushi",
+            "title": "Ōmononushi",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-01"
+          },
+          {
+            "id": "omononushi-s2",
+            "url": "https://kotobank.jp/word/%E5%A4%A7%E7%89%A9%E4%B8%BB%E7%A5%9E",
+            "title": "大物主神 (デジタル大辞泉, 日本国語大辞典, 世界大百科事典, 日本大百科全書, 山川 日本史小辞典)",
+            "author": null,
+            "publisher": "コトバンク (Kotobank)",
+            "published": null,
+            "language": "ja",
+            "type": "encyclopedia",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "omononushi-c01",
+            "source_id": "omononushi-s1",
+            "quote": "Ōmononushi (Japanese: 大物主神, romanized: Ōmononushi-no-Kami; historical orthography: Ohomononushi) is a kami in Japanese mythology associated with Mount Miwa (also known as Mount Mimoro) in Sakurai, Nara Prefecture.",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ōmononushi adalah kami yang dikaitkan dengan Gunung Miwa di Jepang.",
+              "en": "Ōmononushi is a kami associated with Mount Miwa in Japan."
+            }
+          },
+          {
+            "id": "omononushi-c02",
+            "source_id": "omononushi-s1",
+            "quote": "He is closely linked in the imperial myth cycle recorded in the Kojiki (c. 712 CE) and the Nihon Shoki (720 CE) with the earthly kami Ōkuninushi (Ōnamuchi); indeed, the latter text treats 'Ōmononushi' as another name for or an aspect—more precisely, the spirit or mitama—of Ōnamuchi. Ōmononushi's chief place of worship is Ōmiwa Shrine located at the foot of Mount Miwa, which serves as the",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Kojiki dan Nihon Shoki menghubungkannya erat dengan Ōkuninushi.",
+              "en": "The Kojiki and Nihon Shoki link him closely to Ōkuninushi."
+            }
+          },
+          {
+            "id": "omononushi-c03",
+            "source_id": "omononushi-s1",
+            "quote": "In addition, he is also enshrined in some other shrines such as Ōsugi Shrine in Ibaraki Prefecture.",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ia juga dipuja di kuil-kuil lain.",
+              "en": "He is also worshiped at other shrines."
+            }
+          },
+          {
+            "id": "omononushi-c04",
+            "source_id": "omononushi-s1",
+            "quote": "The deity of Kotohira Shrine (Kotohira-gū) in Kotohira, Kagawa Prefecture, popularly known as Konpira Daigongen (金毘羅大権現), is also currently identified with Ōmononushi.",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Satu tradisi menyamakan dewa Kuil Kotohira dengannya.",
+              "en": "One tradition identifies the deity of Kotohira Shrine with him."
+            }
+          },
+          {
+            "id": "omononushi-c05",
+            "source_id": "omononushi-s2",
+            "quote": "モノは魔物をいい,ヌシは頭領の意。記紀の伝える三輪山伝説によると,この神は蛇体であり岩窟に住んでいた。また崇神天皇の代にこの神のたたりで疫病がはやり人民が飢え苦しんだので,その子孫の大田田根子に祭らせたところ,天下は安定したともいう。",
+            "locator": "世界大百科事典 (平凡社)",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Heibonsha, \"mono\" berarti makhluk gaib dan \"nushi\" berarti pemimpin; menurut legenda Gunung Miwa dalam Kiki, dewa ini berwujud ular dan tinggal di gua batu; pada masa Kaisar Sujin kutukannya menimbulkan wabah, dan ketika keturunannya Ōtataneko memujanya, negeri menjadi tenteram.",
+              "en": "According to Heibonsha, \"mono\" means a spirit or demonic thing and \"nushi\" means chief; per the Mount Miwa legend in the Kiki chronicles this deity had a snake body and lived in a rock cave; under Emperor Sujin his curse caused a plague, and when his descendant Ōtataneko was made to worship him, the realm became stable."
+            }
+          },
+          {
+            "id": "omononushi-c06",
+            "source_id": "omononushi-s2",
+            "quote": "魔物の頭目として大和地方でもっとも土着性の強い国津神(くにつかみ)の一つだが,このオオモノヌシが記紀神話の伝承の中でとくに目だつのは,大国主神(おおくにぬしのかみ)の分身として国作りに協力し,国譲りの後はもろもろの国津神を率いて宮廷を守護したとされている点である。",
+            "locator": "世界大百科事典 (平凡社)",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Heibonsha menyebut Ōmononushi sebagai salah satu kunitsukami paling berakar di wilayah Yamato; ia menonjol sebagai penjelmaan Ōkuninushi yang membantu pembangunan negeri dan, setelah penyerahan negeri, memimpin para kunitsukami melindungi istana.",
+              "en": "Heibonsha calls Ōmononushi one of the most strongly indigenous earthly deities (kunitsukami) of the Yamato region; he stands out as an emanation of Ōkuninushi who helped build the land and, after the transfer of the land, led the earthly deities to guard the court."
+            }
+          },
+          {
+            "id": "omononushi-c07",
+            "source_id": "omononushi-s2",
+            "quote": "しかし、実際は三輪(みわ)氏の祖神である。この神には勢夜陀多良比売(せやだたらひめ)や倭迹迹日百襲姫命(やまとととひももそひめのみこと)との聖婚を語る神話が豊かに伝承されている(古事記、日本書紀)。蛇神、雷神でもあり、農耕神でもある。",
+            "locator": "日本大百科全書(ニッポニカ)",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Nipponica menyebutnya dewa leluhur klan Miwa, dengan banyak mitos pernikahan sakral dengan Seyadatara-hime dan Yamatototohimomoso-hime; ia juga dewa ular, dewa petir, dan dewa pertanian.",
+              "en": "Nipponica calls him the ancestral deity of the Miwa clan, with rich myths of sacred marriage with Seyadatarahime and Yamato-Totohimomosohime; he is also a snake god, a thunder god and a god of farming."
+            }
+          },
+          {
+            "id": "omononushi-c08",
+            "source_id": "omononushi-s2",
+            "quote": "崇神(すじん)天皇のとき祟り神として現れ,また丹塗矢・蛇・雷などとして顕現してもいる。",
+            "locator": "山川 日本史小辞典",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Yamakawa Nihonshi Shōjiten, ia muncul sebagai dewa pengutuk pada masa Kaisar Sujin dan juga menampakkan diri sebagai panah bercat merah, ular, dan petir.",
+              "en": "According to the Yamakawa Nihonshi Shōjiten, he appeared as a curse-bringing deity in the time of Emperor Sujin and also manifests as a red-painted arrow, a snake and thunder."
+            }
+          },
+          {
+            "id": "omononushi-c09",
+            "source_id": "omononushi-s1",
+            "quote": "The name 'Ōmononushi' ... is translated either as 'Great Thing Master' (after a literal translation of the characters used in his name) or 'Great Spirit Master' (with mono being taken as meaning 'spirit' or 'supernatural entity').",
+            "locator": "Name",
+            "context": "etymology",
+            "statement": {
+              "id": "Wikipedia mencatat bahwa nama Ōmononushi diterjemahkan sebagai \"Penguasa Benda Agung\" (terjemahan harfiah aksara) atau \"Penguasa Roh Agung\" (mono dimaknai roh atau makhluk gaib).",
+              "en": "Wikipedia notes that the name Ōmononushi is translated either as \"Great Thing Master\" (literal rendering of the characters) or \"Great Spirit Master\" (mono taken as spirit or supernatural entity)."
+            }
+          },
+          {
+            "id": "omononushi-c10",
+            "source_id": "omononushi-s1",
+            "quote": "Ōmononushi-no-Kami Mitama of Ōkuninushi; god of nation-building, agriculture, business, medicine, brewing, and seafaring",
+            "locator": "Infobox",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Wikipedia memerinci Ōmononushi sebagai dewa pembangunan negara, pertanian, bisnis, pengobatan, pembuatan minuman keras, dan pelayaran.",
+              "en": "Wikipedia lists Ōmononushi as a god of nation-building, agriculture, business, medicine, brewing and seafaring."
+            }
+          },
+          {
+            "id": "omononushi-c11",
+            "source_id": "omononushi-s1",
+            "quote": "another god \"illuminating the sea\" appears before Ōkuninushi, promising to aid him in his task if he (Ōkuninushi) will worship him. Ōkuninushi, in accordance with the god's wish, then enshrined him in Mount Mimoro (Mount Miwa) in the land of Yamato.",
+            "locator": "Ōmononushi and Ōkuninushi",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Wikipedia, dewa lain yang \"menerangi laut\" muncul di hadapan Ōkuninushi dan berjanji membantu bila dipuja; Ōkuninushi memuliakannya di Gunung Mimoro (Gunung Miwa) di Yamato.",
+              "en": "According to Wikipedia, another god \"illuminating the sea\" appeared before Ōkuninushi and promised to help if worshipped; Ōkuninushi enshrined him on Mount Mimoro (Mount Miwa) in Yamato."
+            }
+          },
+          {
+            "id": "omononushi-c12",
+            "source_id": "omononushi-s1",
+            "quote": "In it, Ōmononushi claimed responsibility for the pestilence and announced that it would not stop until he was offered due worship by a man named Ōtataneko",
+            "locator": "Ōtataneko and Ikuhi serve Ōmononushi",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Wikipedia, melalui wahyu Ōmononushi mengaku bertanggung jawab atas wabah dan menyatakan wabah takkan berhenti sebelum ia dipuja sebagaimana mestinya oleh seorang bernama Ōtataneko.",
+              "en": "According to Wikipedia, in a revelation Ōmononushi claimed responsibility for the pestilence and announced it would not stop until he was offered due worship by a man named Ōtataneko."
+            }
+          },
+          {
+            "id": "omononushi-c13",
+            "source_id": "omononushi-s1",
+            "quote": "Seyadatarahime (勢夜陀多良比売) who bore a daughter after she was impregnated by Ōmononushi, who took the form of a red arrow",
+            "locator": "Isukeyorihime (Isuzuhime)",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Wikipedia, Seyadatarahime melahirkan seorang putri setelah dihamili Ōmononushi, yang mengambil wujud panah merah.",
+              "en": "According to Wikipedia, Seyadatarahime bore a daughter after being impregnated by Ōmononushi, who took the form of a red arrow."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Hubungan Ōmononushi dengan Ōkuninushi",
+              "en": "Relation of Ōmononushi to Ōkuninushi"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Wikipedia: Nihon Shoki memperlakukannya sebagai nama lain atau mitama Ōkuninushi.",
+                  "en": "Wikipedia: the Nihon Shoki treats him as another name for or the mitama of Ōkuninushi."
+                },
+                "claim_ids": [
+                  "omononushi-c02"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Nipponica: sebenarnya dewa leluhur klan Miwa; Heibonsha: penjelmaan Ōkuninushi yang membantu pembangunan negeri.",
+                  "en": "Nipponica: actually the ancestral deity of the Miwa clan; Heibonsha: an emanation of Ōkuninushi who helped build the land."
+                },
+                "claim_ids": [
+                  "omononushi-c06",
+                  "omononushi-c07"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+          },
+          {
+            "field": "primary text, weaknesses",
+            "searched": "Kojiki Chamberlain di sacred-texts.com memberi 403 dan Wikisource hanya halaman indeks; teks Kojiki dan Nihon Shoki belum dibaca langsung. Tidak ada kutipan tentang kelemahan."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "omononushi-c05",
+        "omononushi-c13"
+      ],
+      "receipt_path": "data/artwork-generated/batch-2124/omononushi.json",
+      "original_file": "/home/asadin/Projects/asadin-edu-mitoloka/data/artwork-generated/batch-2124/originals/omononushi.png",
+      "native_sha256": "d7148a0f455f9af5f3de3a1387a8db3d1ada80b1c6d7b1c709889f9c499a2e20",
+      "url": "/assets/art/omononushi-verified.webp",
+      "prompt": "ONE original square premium PAINTERLY CINEMATIC Mitoloka illustration of Ōmononushi, revered kami of Mount Miwa in his documented SNAKE manifestation, emerging from his rock cave as thunder breaks. ANATOMY: ONE living sacred SERPENT, ONE natural snake head, TWO dark natural snake eyes, ONE long continuous limbless snake body in coils and ONE tapering tail. Smooth broad snake head with closed dignified mouth, natural belly scutes and fine ivory-grey dorsal scales. No horns, crown, crest, mane, beard, hair, wings, arms, legs, ornaments or human face. This is a snake god, NOT a dragon [omononushi-c05,c08]. MOMENT: UNCOIL forcefully from the dark stone cave and raise the foremost neck toward the very low viewer, broad head facing the viewer directly and inclined slightly down in solemn divine regard; nearest coil slides over wet rock into foreground, body flowing from one continuous neck through the cave coils with no duplicate snakes. No fangs, attack, snarl or evil expression. POWER: a hard real LIGHTNING FORK tears the storm sky just outside cave, lighting serpent scales and wet rock; physical thunder manifestation from c07/c08, no spell beams, magical corona, glowing eyes or electricity along body. Rain streams on stone and sprays from moving coil. SCALE & CAMERA: extremely LOW CLOSE camera just outside the rock cave; head and rising neck fill upper half, huge foreground coil by close perspective fills lower half, snake is unmistakable dominant subject. No giant-size claim: no miniature trees, buildings or people; cave edges close cropped so no scale comparison. LIGHT & WEATHER: ONE dominating white-gold LIGHTNING FLASH outside storm-lit cave, brilliant hard edges on pale scales with deep walnut-black shadows under coils, heavy physical rain outside, cave dark. SURFACE: wet overlapping irregular snake scales, broad belly scutes, slick ancient grey rock, rivulets and spray. SETTING: rock cave of Mount Miwa in Japan [c01,c05], no invented shrine inscriptions or religious iconography. MOOD: sacred awe before a powerful earthly kami, dignified and overwhelming, respectful, never monstrous evil snake or ordinary reptile wildlife portrait. The coiling emergence plus thunder must read as active divine manifestation at 200px. HARD CONSTRAINTS: no text, letters, logo, border, watermark; no extra heads, eyes, tails or limbs; no borrowed film/game/anime/comic designs, no nudity or gore, no victims or plague visuals; no generic aura, neon outlines, runes, energy ribbons or glowing mist. Rich tactile painterly brushwork, square composition.",
+      "depicted_variant": "Sacred serpent kami uncoiling from a Mount Miwa rock cave under a thunder manifestation.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One complete snake body, single head and no limbs, manifest serpent form",
+          "claim_ids": [
+            "omononushi-c05",
+            "omononushi-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical thunderstorm lightning as the thunder deity manifestation, no generic aura",
+          "claim_ids": [
+            "omononushi-c07",
+            "omononushi-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Rock cave at Mount Miwa, with wet stone and rain",
+          "claim_ids": [
+            "omononushi-c01",
+            "omononushi-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "omononushi-c01",
+        "omononushi-c05",
+        "omononushi-c07",
+        "omononushi-c08"
+      ],
+      "aura": "The serpent form c05/c08 emerging from the rock cave c05 amid physical thunder c07/c08 conveys divine awe, with no generic luminous envelope.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native 1254px and 200px inspected: one snake head with two natural eyes, one continuous limbless coiling serpent body emerging from dark rock cave (c05/c08), no added horns, crowns, mane or dragon anatomy. Raised neck and moving foreground coil through wet spray give active manifestation; forked physical lightning c07/c08 is background thunder, not body aura. Tight low framing makes sacred stern presence dominate at 200px without asserting giant size. Closed mouth, no evil fangs, plague, victims, symbols, text or borrowed design. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "d7148a0f455f9af5f3de3a1387a8db3d1ada80b1c6d7b1c709889f9c499a2e20",
+        "reviewed_at": "2026-10-16T08:38:46.095Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e89b53ea938997fd6f7a32cb7b7ee9679c51f3a5906730348c5e46ad69083f03"
+    }
+  ],
+  "replacements": [],
+  "baseline_artwork_count": 1887,
+  "selection_criteria": [
+    "computeFillStatus must be lengkap-informasi: complete, valid research without an approved image.",
+    "No active editorial artwork and no permanent artwork exclusion.",
+    "The accepted research entry is embedded unchanged; the image may only depict what its claims document.",
+    "Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar."
+  ],
+  "keep_rejected_attempts": true,
+  "user_policy": {
+    "instruction_date": "2026-10-08",
+    "name": "sangar",
+    "intent": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "subject": "The being dominates the frame and is clearly the subject. Head, eyes and distinguishing traits are readable even at thumbnail size. Never a landscape without the being, never a human who could be a passer-by, never a farm animal at pasture.",
+    "moment": "Depict a moment, not a pose: hunting, emerging, striking, commanding, towering, descending, tearing through weather or ground. Gaze and posture confront or loom over the viewer. Standing still and facing the camera with a neutral expression is not acceptable.",
+    "effects": "Visible power is wanted and may be strong, but every effect must come from a power, domain, attribute, habitat or deed documented in the research claims of that being, and it must act physically on the world: ground cracking, water rearing, trees bending, lightning striking, flame consuming, fog pouring, bodies of victims turned to stone. No generic glowing envelope, neon outline, energy ribbons, floating runes or luminous coloured mist. If the research documents no power, build menace from anatomy, scale, moment, light and setting instead, and record that in artistic_choices.",
+    "fidelity": "Anatomy, attributes, number of heads, eyes, limbs and iconography follow the research claims exactly. Effects and atmosphere add power; they never replace or invent anatomy. Fully opaque clothing where a humanlike form is clothed; no nudity, no explicit gore.",
+    "composition": "Low camera angle; monumental or predatory scale with small environmental references when size is documented, otherwise dominance through tight framing and foreshortening. Strong silhouette, high contrast, cinematic low-key lighting from one dominant source (moon, fire, lightning, dying sun), rim light, dust, smoke, rain or spray. Tactile surfaces: wet scales, matted fur, cracked skin, rust, weathered cloth, stone.",
+    "setting": "The place its stories name: graveyard, swamp, sea cliff, battlefield, celestial palace, desert storm. Weather and time of day heighten threat or majesty. Palette is dark and warm with one strong accent, consistent with the collection; no pastel, no flat even daylight.",
+    "respect": "Living religions (Hindu, Buddhist, Shinto, Abrahamic and folk deities still worshipped) are majestic and overwhelming rather than monstrous: cosmic scale, divine radiance from documented attributes, the elements they rule in motion. Malevolent beings are menacing. Literary beings follow their source text, never a film, game, anime or comic design.",
+    "aniconic": "If the research documents no bodily form at all, either depict the documented manifestation as an active, overwhelming force (the sky itself splitting, a storm swallowing the steppe) with the choice recorded in artistic_choices, or decline the entry with status tidak-digambar. A calm scene without agency fails.",
+    "self_check": "Before accepting an image the generator answers all of these with yes: the being dominates the frame; it still looks dangerous or majestic at 200 px; there is a moment, not a static pose; each visible effect points to a claim id; head, eye and limb counts match the claims; no text, watermark, border or borrowed design; it would not be rejected as ordinary person, ordinary animal, landscape only, or cute and calm. One no means regenerate, keep the rejected attempt as history, up to three attempts.",
+    "style": "Square premium painterly cinematic illustration in the house style of the existing artwork, more dramatic and higher contrast. No text, labels, logo, border or watermark.",
+    "sources": "Never copy designs from films, games, anime or comics (modern_depictions). Every design is original and sourced from the accepted research."
+  },
+  "selection_audit": {
+    "eligible": 1047,
+    "selected": 1,
+    "missing_current_research": [],
+    "needs_catalogue_record": 1,
+    "without_visual_claims": [],
+    "earlier_omissions": [],
+    "omitted": []
+  },
+  "generation_complete": true,
+  "generation_completed_at": "2026-10-16T08:41:26.955Z",
+  "generation_status_counts": {
+    "reviewed": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "batch": 2118,
+  "round": "r06",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T15:38:53+07:00",
+  "scope_note": "Independent visual review of receipts only. No integration, manifest, research or power changes. For each of the 5 requested slugs I viewed the native 1254px PNG, a 200px thumbnail, and targeted native crops: la-diablesse (face, both hands, hoof and foot, a 3x enlargement of the 200px, and comparison with attempt-02); maha-sona (both hands, head, legs, graveyard); majimun (underside and foot, head, rooster); na-ruixa (fairy face and both hands, sailor face and both hands, boat interior, comparison with attempt-02); nightmarchers (leader face, hands and hips, flanking warriors, all feet above the water, spear tips and butt, background). For the three edit corrections (la-diablesse, maha-sona, majimun) the PNG was also diffed against its edit_reference_file to confirm the changes stayed local. I compared each image against the receipt visual_requirements, the research claims (statements and source quotes) embedded in the ledger, and the earlier Claude correction notes (2118-r02/r04). Before writing, each PNG SHA-256 was recomputed and matched against the receipt native_sha256, the Codex visual_review hash, the ledger item hash and the Codex root native-review hash in drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review and the receipt status, and synced only the ledger item status; each receipt and the ledger were re-read immediately before writing. No PNG, Codex visual_review, Codex native review or other receipt was modified. All 5 pass; limitations are recorded in each root_visual_review.",
+  "requested_slugs": [
+    "la-diablesse",
+    "maha-sona",
+    "majimun",
+    "na-ruixa",
+    "nightmarchers"
+  ],
+  "totals": {
+    "reviewed": 5,
+    "pass": 5,
+    "reject": 0
+  },
+  "results": [
+    {
+      "slug": "la-diablesse",
+      "native_sha256": "55de62cb27f736dcfd469e9698b459e3bce31d54589410724439e8062b2a4c9b",
+      "verdict": "pass",
+      "reason": "Lower face now an impossibly wide, too-many-teeth ashen rictus (c02/c09), no longer a warm smile; one cow hoof plus one human foot, opaque high-necked dress, hat hides eyes, beckoning lunge out of still cane at white noon (c03/c07/c08); menacing and non-human at 200px."
+    },
+    {
+      "slug": "maha-sona",
+      "native_sha256": "9621c02e63b4b5c7141607be7dbdf8e6bf0351c4d90bd46f23bca7882582ee5f",
+      "verdict": "pass",
+      "reason": "Rock hand corrected to exactly four fingers plus one opposed thumb, reaching hand thumb plus four; bear-headed revived warrior (c03/c04) roaring and lunging off a great rock in a moonlit graveyard (c02/c06); no gore, weapons or aura."
+    },
+    {
+      "slug": "majimun",
+      "native_sha256": "35b70df38776e9f08ad0ef2f2b0ddb93f2971b275d0787f6565e13a0197d8599",
+      "verdict": "pass",
+      "reason": "Exactly one webbed foot with continuous feathers and empty space where the other leg would be (c04 source quote); duck charging between a person's legs (c02) while its rear body breaks into fireflies under moon and rooster (c03); uncanny at 200px."
+    },
+    {
+      "slug": "na-ruixa",
+      "native_sha256": "d35459e69a30f44a66aab39941adeaa95d06bbe9e455de33830683c3f7562b2f",
+      "verdict": "pass",
+      "reason": "Romance-cover embrace and sunset of attempt-02 replaced by a cold, glaring golden-haired fairy (c05/c06) hauling a resisting same-scale sailor with one taut blue cloak (c04/c07) before a sea cave in a black storm; dangerous at 200px."
+    },
+    {
+      "slug": "nightmarchers",
+      "native_sha256": "0847ec59e435ffb2b2232ce0a70b26b930f6653ef09cf87ee1ed70eea0f19d37",
+      "verdict": "pass",
+      "reason": "Malo and capes of beaten bark cloth (c05/c18), one-piece tapered wooden spears (c05), grave painterly faces with the leader staring at the viewer (c07), all feet hovering above undisturbed water (c06), red torches the only light (c11/c18); menacing at 200px."
+    }
+  ]
+}

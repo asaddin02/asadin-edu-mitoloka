@@ -1,0 +1,26 @@
+{
+  "slug": "bell-witch",
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2029,
+  "status": "tidak-digambar",
+  "reason": "Mostly invisible entity c01 and rapping/voice c17; c06 records only a strange doglike apparition without distinctive anatomy. No specific visible physical attack is described by these claims; a regular dog, empty haunted room or invented witch woman fails source fidelity/Sangar.",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "basis_claim_ids": [
+    "bell-witch-c01",
+    "bell-witch-c06",
+    "bell-witch-c17"
+  ],
+  "visual_requirements": [],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "artistic_choices": [
+    "Decline before generation rather than invent a body or visual supernatural markers."
+  ],
+  "generated_at": "2026-10-16T03:10:45.300383+00:00"
+}

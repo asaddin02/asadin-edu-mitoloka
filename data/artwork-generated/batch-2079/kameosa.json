@@ -1,0 +1,75 @@
+{
+  "slug": "kameosa",
+  "basis_claim_ids": [
+    "kameosa-c02",
+    "kameosa-c03",
+    "kameosa-c07",
+    "kameosa-c13"
+  ],
+  "depicted_variant": "A benevolent faced water jar pouring an inexhaustible torrent into household basins.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Water jar with eyes, nose and mouth",
+      "claim_ids": [
+        "kameosa-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Inexhaustible water flows despite continuous ladling",
+      "claim_ids": [
+        "kameosa-c03",
+        "kameosa-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Good fortune and bounty, not malicious",
+      "claim_ids": [
+        "kameosa-c13"
+      ]
+    }
+  ],
+  "aura": "Impossible inexhaustible water c03/c07 and strong faced vessel c02 evoke benevolent awe without generic aura.",
+  "artistic_choices": [
+    "No arms or legs invented; pot tilts against wooden wall and water pours through its top rim.",
+    "Wide dark eyes and solemn dignified face avoid cute mascot and malicious monster.",
+    "Multiple brimming basins physically stage abundance; moon and hearth lighting editorial."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kameosa, the auspicious Japanese water-jar yokai with inexhaustible water.\nANATOMY: ONE ancient broad earthenware WATER JAR with TWO large solemn dark EYES, ONE broad NOSE and ONE strong closed MOUTH formed naturally in worn ceramic; no head separate from vessel, NO arms, legs, teeth or horns. Face carved-looking but alive, stern wise benevolent expression [kameosa-c02].\nMOMENT: The great old jar leans against a timber wall, tilting its rim forward so a huge continuous TORRENT OF CLEAR WATER crashes into three already overflowing plain wooden basins and across the foreground floor. Its eyes stare intently down toward viewer; mouth remains below rim and water comes from TOP OPENING. One plain ladle rests visibly across rim.\nPOWER: water never runs out however much is ladled, impossible continuous abundance, jar remains visibly brim-full despite torrent; no levitation, water serpents, magical glow or beams [kameosa-c03,kameosa-c07].\nSCALE & CAMERA: extreme low near-floor close angle; expressive ceramic jar and towering sheet of physical water dominate square, ordinary household jar size relative to basins, not invented giant.\nLIGHT & WEATHER: one warm off-frame hearth source sharply rims wet pottery and translucent water, deep walnut interior shadows, physical spray and droplets.\nSURFACE: cracked rough dark ochre ceramic, mineral stains, wet carved facial ridges, worn basins and splintered timber.\nSETTING: editorial old Japanese household water corner; no specific site asserted.\nMOOD: imposing benevolent uncanny bounty and wonder [kameosa-c13], never evil, cute smiling mascot, static jar or calm still life.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Kameosa",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-880ab152-87e7-4644-bf70-d8ae33fb7bc5.png",
+  "generated_at": "2026-10-16T05:17:07.222Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/kameosa.png",
+  "native_sha256": "5f717906f0b765e320999babd00ba4e8988f164e59df0b2d09581d27f27b8617",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: living faced ceramic water jar with exactly two eyes/nose/mouth, no limbs invented. Jar remains full while large torrent spills from top into three brimming basins; ladle at rim. Physical abundance is active and imposing at thumbnail; solemn benevolent face no evil traits. No text, cute mascot, extra anatomy or aura. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "5f717906f0b765e320999babd00ba4e8988f164e59df0b2d09581d27f27b8617",
+    "reviewed_at": "2026-10-16T05:17:07.222Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T12:52:29+07:00",
+    "native_sha256": "5f717906f0b765e320999babd00ba4e8988f164e59df0b2d09581d27f27b8617",
+    "notes": "Viewed native 1254px + 200px + face crop. A single old earthenware water jar turned tsukumogami, its surface forming a face with exactly two eyes, a broad nose and a solemn mouth (kameosa-c02/c03) — no invented arms, legs or extra features. An endless torrent of water pours from the jar and overflows several wooden basins and across the floor, the inexhaustible supply (kameosa-c05). Dignified, weathered, non-malicious expression — an awe-inspiring spirit of good fortune, not a cute mascot (kameosa-c12/c13) — in an old sake-brewery storehouse with a resting ladle. No lettering on the jar, no glow aura, no copied Sekien woodblock; an original premium painterly interpretation. Awe through impossible abundance; reads clearly at 200px."
+  }
+}

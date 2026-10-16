@@ -1,0 +1,48 @@
+{
+  "depicted_variant": "Untameable webbed sea humanoid with hanging hakama-like living skin",
+  "prompt": "EDIT THE REFERENCED IMAGE. Change ONLY the LOWER-LEFT FOREGROUND FOOT, the creature's RIGHT FOOT at native1254 coordinates x70-330,y960-1140. Preserve every other feature exactly: face, hair, both webbed hands, OTHER foot at lower right, all skin folds, opaque black clothing, pose, moon, sea, rocks, spray, framing and light. Do not redraw the scene.\nThe defective lower-left foot currently has only FOUR toes. REPLACE that foot's forefoot with EXACTLY FIVE CLEARLY VISIBLE WEBBED TOES and FIVE INDIVIDUAL NAILS: ONE BIG INNER TOE on the RIGHT side of that lower-left foot (toward center of image), then FOUR progressively smaller toes to its LEFT. Do not hide or merge a toe. Spread all FIVE toes in a clear horizontal FAN, each end with its own single distinct nail. Exactly FOUR visible skin-web spaces connect the five neighboring toes. The existing humanlike ankle, wet grey skin texture, rock contact and night lighting must match seamlessly. Keep the big toe at image-right, add the missing smallest outer toe at far image-left, extending foot width a little if necessary. There must be FIVE tips, FIVE nails, FOUR webs, no sixth toe. No extra leg or detached toe. Source hairen-c02 webbed feet, humanlike c01; Claude requires five toes per foot.\nDo not add labels, numbers, dots, text, drawings, arrows, graphic annotations, aura or glow. The correction is actual painted anatomy only.\nOriginal source-directed scene context (preserve this appearance): ONE original square premium painterly cinematic Mitoloka illustration of Hairen, the untameable sea humanoid. This is a COMPLETE REDRAW with new, clean, anatomically separated composition.\nANATOMY: ONE humanlike head, TWO eyes, TWO arms, TWO legs [hairen-c01]. BOTH hands clearly display FIVE WEBBED digits: one separate thumb and four fingers, thin living skin membrane BETWEEN all digits. BOTH feet clearly display FIVE webbed toes including large inner toe. Hands never touch or overlap feet. Broad loose living grey-olive SKIN folds hang like hakama trousers over hips/thighs [hairen-c02,c03]. Fully opaque plain charcoal undergarment covers torso and pelvis under skin flaps. Not woven trousers, no seams or hems on skin. Feral humanlike face with bared ordinary teeth, wet tangled hair, narrowed defiant eyes; no fins, gills, horns or pointed ears.\nMOMENT: Surge upright out of the sea onto a broad flat rock toward viewer, back bent aggressively forward, shoulders hunched. Both arms held outward at SHOULDER HEIGHT, palms toward viewer, all five webbed digits spread widely and separated in silhouette. Both legs apart below hips. Both feet planted on two separated foreground rocks with toes facing viewer, visibly attached through ankles to separate legs. Hands in upper half, feet in lower corners: four extremities never overlap. Make every digit countable; leave uncluttered dark background behind each hand and foot.\nPOWER: No magic. Fierce untameable character [hairen-c05] expressed as defiant bodily confrontation. Ordinary surf splashes against rocks.\nSCALE & CAMERA: Slight low angle, full tightly framed figure, face upper central, hands beside face, feet bottom, no giant scale.\nLIGHT & WEATHER: one hard cold moon side-light against deep walnut black night, strong edge light on web membranes, ordinary sea spray.\nSURFACE: Wet slick living skin, heavy glossy skin folds, coarse opaque charcoal undergarment, salt-wet rock.\nSETTING: Sea coast rocks at night, dark sea behind [hairen-c01,c02].\nMOOD: dangerous uncanny sea being confronting viewer, never ordinary relaxed man.\nHARD CONSTRAINTS: no text, lettering, pseudoletters, logo, border, watermark, gore or nudity; no extra heads, limbs or digits; no copyrighted film/game/anime/comic design; no generic glowing aura, neon outlines, energy ribbons or floating runes.",
+  "basis_claim_ids": [
+    "hairen-c01",
+    "hairen-c02",
+    "hairen-c03",
+    "hairen-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Sea humanoid, two five-digit webbed hands and two separate five-toed webbed feet",
+      "claim_ids": [
+        "hairen-c01",
+        "hairen-c02"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Loose living skin hanging like hakama over opaque undergarment",
+      "claim_ids": [
+        "hairen-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Untameable defiant confrontation; no magic",
+      "claim_ids": [
+        "hairen-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea and coastal rocks",
+      "claim_ids": [
+        "hairen-c01"
+      ]
+    }
+  ],
+  "aura": "No generic aura. Presence comes from documented anatomy and action: hairen-c01, hairen-c02, hairen-c03, hairen-c05.",
+  "artistic_choices": [
+    "Upright separated limbs make webbed digits countable; five digits follow humanlike anatomy and Claude correction, without invented fins/gills.",
+    "Grey-olive skin, opaque modesty layer, moonlight and coastal rocks are editorial choices. No unsupported giant scale.",
+    "Narrow correction of lower-left foreground foot to five toe tips, five nails and four webs; all other scene features preserved."
+  ],
+  "edit_reference_file": "data/artwork-generated/batch-2079/originals/hairen.png"
+}

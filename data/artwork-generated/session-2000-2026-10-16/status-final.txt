@@ -1,0 +1,35 @@
+Status ilustrasi Mitoloka — 2026-10-16 15:52 WIB
+Ilustrasi aktif terpasang: 1887. Lengkap-bergambar 1890, lengkap-informasi 1276, tidak-lengkap 367, belum-ada-entri 1324.
+Dikecualikan permanen: 0. Gambar ditahan (entri belum lengkap): 5 (anggitay, cha-kla, ekek, alara-fairy, acalica).
+
+Antrean Codex, urut prioritas:
+  1. Perbaikan (needs-correction): 0
+  2. Nama besar baru (lengkap, belum berilustrasi): 8
+     ahura-mazda (73), sekhmet (61), tengri (47), ennead (45), tammuz (45), anahita (41), manat (41), inari (40)
+  3. Entri lengkap lainnya: 1268
+     abalam, abaste, abdu-fisch, abere, abiku, abnoba, abrahel, abundia, abura-bo, abyzou, abzar-iyesi, achuhucanac, adakayanushitakikihime, adhene, adityas, adlivun, adrasteia, adsullata, aganippe, aganju, … (1248 lagi, pakai --semua)
+
+Batch terbuka (belum semua terpasang): 8
+  artwork-batch-1094.json [gaya rumah]: 27/28 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-1767.json [gaya sangar]: 49/50 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-1867.json [gaya sangar]: 49/50 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-2029.json [gaya sangar]: 11/50 terpasang; 39 lolos, tinggal integrasi
+  artwork-batch-2079.json [gaya sangar]: 15/50 terpasang; 35 lolos, tinggal integrasi
+  artwork-batch-2118.json [gaya sangar]: 6/39 terpasang; 33 lolos, tinggal integrasi
+  artwork-batch-2123.json [gaya sangar]: 0/5 terpasang; 5 lolos, tinggal integrasi
+  artwork-batch-2124.json [gaya sangar]: 0/1 terpasang; 1 lolos, tinggal integrasi
+
+Jurnal (50 entri). Entri terakhir:
+  ## 2026-10-16 15:51 WIB — Codex — selesai, tepat 113 approval tambahan
+  
+  - Target ilustrasi/persetujuan tercapai: **113 PNG baru unik, seluruhnya benar-benar disetujui Claude Code lokal**, dengan hash PNG aktual cocok pada receipt, pemeriksaan native/200 Codex, root_visual_review Claude, dan laporan independen Claude per putaran. Baseline1.887 aktif +113approvalbaru =2.000 dalam lingkup permintaan. Angka aktif tetap1.887 karena tidak diintegrasi. Tiga approval historis yang ditahan tetap di luar hitungan. Tidak mengklaim audit ulang seluruh1.887baseline.
+  - Pembagian final: batch2029 **39**, batch2079 **35**, batch2118 **33**, batch2123 **5**, batch2124 **1**. Semua145receipt tertutup:113reviewed+32tidak-digambar; **0 menunggu tinjauan, 0 needs-correction dalam scope**. Tidak membuka batch melebihi defisit.
+  - Koreksi Claude yang kini lolos:2079 Hairen/Idlirvirissong/Irudica/Keneo;2118 LaDiablesse/MahaSona/Majimun/MatukuTangotango/MulherMarinha/NaRuixa/Nightmarchers;2123 Nootaikok/Ogetsuhime. Kunekune ditunda sesudah tigaPNGterpilih semuanya ditolak Claude, lalu diganti tepat1entri2124 Omononushi yang lolos. Seluruh catatanpenolakan asli, promptpersis, PNG/hash dan provenance alat dipertahankan;47percobaan ditolak terarsip lintasbatch.
+  - Validasi teknis **3.876 pemeriksaan,0error**. Audit final memverifikasi113hashunik,113passClaude dengan bukti laporan/hashyangcocok, dan113pemeriksaanrootnative+200px. Snapshot3.753berkas terlindung identik:0berubah,0hilang,0tambahan. Tidak mengubah riset/katalog/power/JS/manifest/WebP/backups, tidak integrasi,commit,push.
+  - Galeri final `docs/artwork-session-2000-2026-10-16.html`:376tautanvalid,113gambar; browser390/768/1440px tanpaerror,gambarrusak,altkosong,atauoverflowhorizontal. Promptpersis dan seluruh32declinebesertaalasan ada di `data/artwork-generated/session-2000-2026-10-16/codex-prompts.json` dan `codex-generation-summary.json`; bukti approval perfile di `final-validation.json`, hitungan `approval-progress.json`, keluaranstatus `status-final.txt`.
+  - Alat **OpenAI built-in image_gen**; image_model **tidak dilaporkan alat**. Tiga lane resume_2000_a/b/c modelgpt-6.1-sol/high sesuaiGAMBAR; root sendiri memeriksa seluruh PNGbaru/koreksi native+200, cropketat untukjari/kaki. Tidak ada kegagalanalat tambahan padaresumeini. Dua moderation_blocked terdokumentasi dari sesi awal (Failinis2029,LaBolefuego2118); keduanya akhirnya punyaPNGfinal yang lolos, prompt/galat asli tetap tersimpan.
+  - Pelajaran: baca kutipan sumber penuh, bukan hanya ringkasan (Majimunc04 menyebutbebekberkakisatu); hitung digit yang benar-benar tampak memakai crop (Hairen/MahaSona); pakaian, bahan dan ekspresi ikutmenentukan kesetiaantradisi (Nightmarchers/Nootaikok); semantik sumber tidak mengizinkan kuasa tambahan dari domain saja. Jangan menganggap tiga percobaan gagal sebagaihasilfinal (Kunekune).
+  - Serah terima: Claude pemilik mengintegrasikan113receipt reviewed sesuaiworkflow, termasuk pembuatanrecordkatalog yang diperlukan, lalucommit/push/deploy bila diminta. Codex berhenti karena targetapproval113sudahterpenuhi, bukan karena semuaPNGsekadarselesaidigenerasi.
+
+Saran langkah berikutnya:
+  1. Siapkan batch nama besar: node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex --policy sangar --slugs ahura-mazda,sekhmet,tengri,ennead,tammuz,anahita,manat,inari

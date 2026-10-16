@@ -1,0 +1,73 @@
+{
+  "batch": 2118,
+  "round": "r01",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T14:21:08+07:00",
+  "scope_note": "Independent visual review of receipts only. No integration, manifest, research or power changes. For each of the 8 requested slugs I viewed the native 1254px PNG, a 200px downscale, and targeted native crops (hands/fingers, feet, faces/eyes, skull, horns, tail, fur, clothing opacity, background for pseudo-text or hidden figures), then compared them against the receipt visual_requirements and the research claims embedded in the ledger. Before writing, each PNG's SHA-256 was recomputed and matched against the receipt native_sha256, the Codex visual_review hash, the ledger item hash and the Codex root native-review hash in drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review (plus correction_notes on the reject) and the receipt status, and synced the ledger item status. No PNG, Codex visual_review, Codex native review or other receipt was modified. Reject: kunekune-urban-legend (running/dancing stride in a golden-hour postcard reads whimsical, and the windless wriggle is not legible as uncanny).",
+  "requested_slugs": [
+    "korean-virgin-ghost",
+    "kunekune-urban-legend",
+    "kuzunoha",
+    "kyokotsu",
+    "la-bolefuego",
+    "mande-barung",
+    "maria-da-manta",
+    "marranghino"
+  ],
+  "totals": {
+    "reviewed": 8,
+    "pass": 7,
+    "reject": 1
+  },
+  "results": [
+    {
+      "slug": "korean-virgin-ghost",
+      "native_sha256": "ef88b8733f29def8a44d099fa06b0ac929727864ee7ccdd9346202678ba7c86d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and both-hand, face, torso/skirt and background-interior crops. One pale adult ghost: one head, a white face with heavy dark circles around two dark eyes (korean-virgin-ghost-c14), and long loose wet black hair (c03). Her mouth is open in a furious cry, and the small blood detail of c14 is deliberately omitted per artistic_choices. Fully opaque white mourning hanbok: jeogori with a tied goreum bow and full chima, with no body visible through the cloth (c03). Two hands thrust at the camera, each counted at thumb plus four fingers. She lunges out of a rusted doorway of a rain-soaked, moonlit, abandoned multi-storey building, with dark classroom windows and wooden desks inside (abandoned school, c04). An angry, vengeful confrontation (c05/c12), with no victim, curse beam or invented power. Extreme low angle and foreshortened hands make it clearly terrifying at 200px. The white-hanbok, loose-hair look is the documented Korean iconography (c03), not a copied film design. No text, aura or gore."
+    },
+    {
+      "slug": "kunekune-urban-legend",
+      "native_sha256": "b5a9014b3bab16a237b8c6454364e64adbdf58cdb8125561147dbf98e7bde697",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, and head/torso, leg and background crops. The anatomy matches the claims: one white crumpled paper/fabric humanoid with one blank faceless egg-shaped head, two ribbon-like arms and two legs (kunekune-urban-legend-c01/c04), in rice paddies at hot-summer sundown with still rice stalks (c01/c11). No text or aura. But the moment fails. The figure is caught mid-stride running or leaping along the dike, with one knee kicked up behind, arms flung wide and the head ducked like a sprinter. That reads as a playful runner or dancer, which is exactly the 'dancing comic pose' the prompt excluded. The documented impossible wriggling of the limbs in a windless field (c03/c12/c13) does not read as anything wrong or unnatural. Set against a pretty golden-hour postcard backdrop (glowing sun disc, sparkling paddies, village houses), the whole image is whimsical and calm, like a paper art sculpture out for a run, not uncanny or dangerous at 200px. This fails Uji Sangar #2, #3 and #7.",
+      "correction_notes": "Redraw Kunekune writhing IN PLACE, not running, leaping or dancing. The very slender white paper or fine-fabric humanoid (kunekune-urban-legend-c01/c04) stays planted in or beside the paddy while its torso twists in an S-curve and both arms undulate in continuous waves like cloth in a strong straight gust (c03/c12/c13). The rice stalks, grass and air around it must stay completely motionless, so the windless wriggle is the visible wrongness. Keep the head blank, with no invented face, eyes or teeth. Use a wide rice field on a HOT summer day (c01/c11): harsh high white sun, heat shimmer, hard deep shadows and an empty dike path, not a golden-hour postcard. Use a low camera along the dike and tight framing so the unnatural limb motion is the subject and reads at 200px. No mind/curse visuals (c08), aura, text or borrowed design."
+    },
+    {
+      "slug": "kuzunoha",
+      "native_sha256": "98a3ec61217a23d8db4cddd74e6194f7b899057ffa300de142b2c0908db053e2",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, reaching-hand, robe-gripping-hand, tail and torii crops. One adult woman (kuzunoha-c04/c08) with a fully human face (one head, two eyes, no fox ears or muzzle) in a fully opaque layered ivory-and-brown kimono with a sash. ONE huge, unmistakable white fox tail of real wet fur sweeps out from under her robe at the lower back across the whole foreground as one hand pulls the robe aside. This is the glimpse of the tail that reveals her true nature (c05), and she is the white fox (c08); there are no extra tails. Her other hand reaches out toward the viewer in farewell, with the thumb and three fingers visible and the fourth foreshortened (natural, not malformed). She turns from wet white and yellow chrysanthemums (c05) at the edge of a moonlit, rainy cedar forest, with a plain shrine torii (no plaque or text) and steps behind her (Shinoda forest and shrine, c06/c08). Her noble, sorrowful resolve fits a benevolent kami, not an evil or flirtatious one. The extreme low angle and the giant tail make the revelation legible and arresting at 200px. No spell effects, aura, text or borrowed design."
+    },
+    {
+      "slug": "kyokotsu",
+      "native_sha256": "0bdea1e3082171b912cfcb32a44a02825e78fa1c6315a395cb05746a7036ef0b",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and skull, foreground-hand and bucket-hand crops. One bleached human skeleton (kyokotsu-c02): one skull with TWO empty dark eye sockets (no eyes, no flesh) and an open screaming jaw, long tangled white hair streaming upward (c02), and a fully opaque ragged white shroud-garment (c02/c12) with only a sliver of ribs at the neckline. The foreground bony hand clamps the wet stone well rim with four fingers plus a thumb (5 digits). The other hand hugs a rope-bound wooden bucket to the chest with five digit rows, and the rope runs around the waist to the bucket (Sekien's figure rising from a well attached to a bucket, c03). It physically emerges from an old stone well, with a wooden well roof and pulley rope, under a hazy amber moon (white bones in a well, c07). The furious open jaw conveys the grudge (c04/c07) without inventing any curse effect. Extreme low rim-level camera and dripping water: frightening and dominant at 200px. No blood, gore, text, aura or borrowed design."
+    },
+    {
+      "slug": "la-bolefuego",
+      "native_sha256": "373daf37082771f85c4036e64535f1bc6aec93d1c141838edb855f54646de66c",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and core and road-edge crops. The whole being is one large ball of turbulent orange-white light/fire with a blinding lantern-like core and swirling, ragged edges, hovering low over a rutted dirt road on the dark plains at night (the bright apparition of Los Llanos nights, like a flashing lantern that spins and shakes violently, la-bolefuego-c01/c02/c06). The spiral streaks and irregular outline carry the spinning and shaking. Its light physically lights the whole road surface and the dry grass on both sides without igniting anything: no smoke, scorch or burning (lights the whole road but gives no heat, c09). It sits close to the camera and fills the frame, so it reads as near rather than as an invented giant. At native size there is no hidden face, human silhouette or victim inside the light; the c07 burning-person testimony is a documented alternative, and leaving it out is recorded in artistic_choices. Because the documented form IS the light, this is not a generic aura around a body. Overwhelming and uncanny at 200px, with no text or borrowed design."
+    },
+    {
+      "slug": "mande-barung",
+      "native_sha256": "2eec91ff1e4a194320f1983e66a1337ad168c9221a6d30589989de40554fd612",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, both-hand and leg crops. One huge, bulky, hairy bipedal hominoid (mande-barung-c02/c04). One head with a domed, cap-like mass of fur on the crown and no real hat (heads that looked as if they wore caps, c04), two amber eyes in a stern glare, and thick blackish-brown fur all over (c04). Two long arms: one hand grips a branch, the other hangs open near the slope; both are ape-like with a thumb and curled fingers, not malformed. Two legs: the front leg strides down the bank and the rear leg is in shadow behind. It strides down a steep, misty forested hillside at sunset (Garo Hills forest, Meghalaya, c01), with leaves and soil disturbed. The low camera and the leaning, glaring advance toward the viewer make it read as a menacing upright 'jungle man' (c03/c09), not an ordinary gorilla or a quadruped, and it dominates at 200px. No supernatural effect, text, aura or recognisable borrowed film design."
+    },
+    {
+      "slug": "maria-da-manta",
+      "native_sha256": "bb05f22c1dd1f94146911f2057fdb79a2e7d7dc3041643d7bde8bae7543bf023",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and head and both-hand crops. One very ugly old woman-monster (maria-da-manta-c08) with one head and TWO ridged curved horns, a tangle of firewood sticks lodged across them (firewood on her horns, c06), and two eyes with real small flames burning in the pupils (fire in the eyes, c01/c06). The flame is confined to the eyes, and her scowl is furious. Fully opaque coarse dark shawl and streaming wet hair. She surges up out of the black water of a stone-walled well/cistern at night, with water pouring off her, and both hands clamp the wet stone rim toward the viewer (lives in rivers, lakes and wells, c01). Near hand: four nailed fingers over the rim, with the thumb tucked under the edge. Far hand: thumb plus fingers, partly cut off by the frame edge. No children or victims are shown (c02 not depicted). Extreme low rim-level camera, with a stone village and a storm moon behind: horrifying and dominant at 200px. No text, gore, aura or borrowed design."
+    },
+    {
+      "slug": "marranghino",
+      "native_sha256": "ab4492457dd98d9a4025d3ef13c2254a93effc30c93a124751a150985e492974",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and both-hand and feet crops, and compared with the self-rejected attempt-01. One very short spirit with a disproportionately huge head, an enormous bristling moustache and a round pot-belly under a rough linen shirt and vest (very short, moustached, pot-bellied, big-headed, marranghino-c04). Two arms, with both hands gripping a spade handle (thumbs visible, natural), and two short legs in wrapped puttees and boots. Fully opaque, worn rural clothing and a floppy hat, with no horns, claws or spider limbs. A normal-size rusty spade, whose blade is roughly the height of his torso, fixes his tiny stature. He drags it into the dark tool rack of a Lucanian farm shed during field work (hiding farmers' tools, c01/c06) while leaning his huge head into an extreme low close-up with a lowered-brow, knowing, challenging stare. Uncanny and audacious, as fits a harmless prankster spirit (c05): not evil, and no longer the cute gnome smile of attempt-01. Reads at 200px. No magic, text or borrowed character design."
+    }
+  ]
+}

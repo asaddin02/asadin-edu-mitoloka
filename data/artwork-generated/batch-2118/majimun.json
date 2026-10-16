@@ -1,0 +1,84 @@
+{
+  "depicted_variant": "One-legged duck-shaped Afira-majimun becoming fireflies before disappearance",
+  "prompt": "EDIT THE REFERENCED IMAGE. Correct ONLY duck LEG COUNT. Preserve duck head/two eyes/bill, wings and rear-body physical breakup into separate fireflies, two adult trouser legs at frame edges, rooster, moon, mud, composition, light and all other features.\nThe duck spirit MUST HAVE EXACTLY ONE LEG and ONE WEBBED FOOT: source majimun-c04 quote says 片脚のないアヒルの姿, form of a duck MISSING ONE LEG. KEEP the large forward webbed foot at IMAGE LEFT (native roughly x350-520,y760-960), slapping the mud. REMOVE ENTIRELY the other duck leg/foot on IMAGE RIGHT (roughly x580-710,y790-980). Replace its former attachment area on the underside of duck with CONTINUOUS INTACT FEATHERS; below it show empty space and wet mud through the gap. No stump, wound, blood, hidden second foot, tiny second toe, duplicated leg or extra limb. Make the missing-leg side visibly clear: duck hops forward on the single remaining foot, body tilted naturally with asymmetrical one-foot support. This is congenital/spirit one-legged anatomy, no injury scene.\nDocumented rear body and wing still dissolve physically into individually drawn fireflies [majimun-c03] while crossing between person's legs [majimun-c02]. Do not replace foot with fireflies: show it truly absent with feathers where leg would join body. At200px viewer must count ONE obvious orange webbed foot and see open empty space where a second would be.\nNo alterations to other scene features. No invented teeth, horns, monster face, aura, text, labels, gore or borrowed film/game/anime/comic design.",
+  "basis_claim_ids": [
+    "majimun-c03",
+    "majimun-c02",
+    "majimun-c01",
+    "majimun-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Duck-shaped spirit lacking one leg, exactly one intact webbed foot; missing side feathered without stump or injury",
+      "claim_ids": [
+        "majimun-c03",
+        "majimun-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Animal spirit passing between legs dangerous; duck becomes fireflies at rooster call",
+      "claim_ids": [
+        "majimun-c02",
+        "majimun-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Okinawa and Amami spirit tradition",
+      "claim_ids": [
+        "majimun-c01"
+      ]
+    }
+  ],
+  "aura": "No generic aura. Presence comes from documented anatomy and action: majimun-c03, majimun-c02, majimun-c01.",
+  "artistic_choices": [
+    "Selected documented duck transformation, excluding infant, cow and dog variants. Natural firefly light is c03, no aura.",
+    "Physical breakup into insects visually separates spirit from ordinary duck. Adult legs, path, moon and dark plumage are editorial framing. No literal death depicted.",
+    "c04 full Japanese quote explicitly documents duck lacking one leg despite summary statement only mentioning living spirit; one-legged anatomy now mandatory. No illness or injury visual treatment."
+  ],
+  "slug": "majimun",
+  "batch": 2118,
+  "worker": "codex",
+  "worker_agent": "resume_2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/majimun-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/majimun-attempt-01.json",
+      "native_sha256": "7e002f53e35de1ab9ce8cfc0fb53e2ef83297f48a5b71935a404971b87e2eeef",
+      "reason": "Keep: the ankle-level camera in the gap between two opaque trousered adult legs (majimun-c02), and the duck (one head, two eyes, bill) rushing at the viewer. Keep its rear body and wing physically breaking into individually drawn fireflies (c03). Keep the small calling rooster under the moon (c03), the wet earthen path, and no gore, victim, text or aura. Fix: draw the duck with EXACTLY ONE leg, as the c04 source documents ('片脚のないアヒルの姿', a duck lacking one leg). One webbed foot slaps the mud in a lurching, hopping rush. On the other side there are only feathers where the leg should be, with no second foot hidden behind, so the missing leg reads clearly at 200px. Add majimun-c04 to the anatomy requirement's claim_ids. The 'living spirit of a seriously ill person' interpretation in c04 needs no visual treatment."
+    }
+  ],
+  "generation_failures": [],
+  "status": "reviewed",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-40a3-7fe3-afa7-3a49bf05e434/exec-e413537e-60ef-4f3b-8b9b-ac4816868eeb.png",
+  "generated_at": "2026-10-16T08:22:53.101669+00:00",
+  "original_file": "data/artwork-generated/batch-2118/originals/majimun.png",
+  "native_sha256": "35b70df38776e9f08ad0ef2f2b0ddb93f2971b275d0787f6565e13a0197d8599",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254,200px and2x underside/foot crop inspected. Exactly ONE orange duck leg and ONE webbed foot slap mud at lower-left. Former image-right leg completely absent: continuous feathered underside above open air/mud, no hidden second foot, stump or wound. One duck head/two eyes/bill, wings and rear-body breakup into separate fireflies preserved, two adult trouser legs at edges, moon/calling rooster and wet path. c04 full Japanese quote now included in basis/anatomy requirement. Hopping lurch and impossible transformation remain uncanny at200. No monster teeth/horns, aura, text or gore. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "35b70df38776e9f08ad0ef2f2b0ddb93f2971b275d0787f6565e13a0197d8599",
+    "reviewed_at": "2026-10-16T08:22:53.101669+00:00"
+  },
+  "edit_reference_file": "data/artwork-generated/batch-2118/rejected/majimun-attempt-01.png",
+  "edit_reference_native_sha256": "7e002f53e35de1ab9ce8cfc0fb53e2ef83297f48a5b71935a404971b87e2eeef",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:38:53+07:00",
+    "native_sha256": "35b70df38776e9f08ad0ef2f2b0ddb93f2971b275d0787f6565e13a0197d8599",
+    "notes": "Viewed native 1254px, 200px, and crops of the underside/foot, the head and the rooster. Diffed against the edit reference attempt-01: the changes are concentrated at the duck's underside and legs. This edit answers the r04 reject. The duck now has exactly ONE orange leg, ending in one webbed, clawed foot that slaps the wet mud and throws droplets in a lurching one-footed rush. On the other side there are only continuous feathers above open air and mud: no stump, wound, hidden second foot or extra toe. That is the duck missing one leg in the majimun-c04 source quote, and c04 is now in the anatomy requirement. One duck head with two eyes and a bill. One wing is raised, and the other wing and the rear body physically break apart into a swarm of individually drawn fireflies (c03). The ankle-level camera sits in the gap between two opaque trousered adult legs and boots as the duck rushes to pass between them (c02). A small rooster stands on a rise under the full moon (c03), above a wet earthen path. No gore, victim, monster teeth, text or aura; the firefly light is the documented transformation. At 200px the charging one-legged duck, dissolving into fireflies between a person's legs, is uncanny and threatening, not an ordinary farmyard duck. Limitation: the rooster is small and its call cannot be seen; it serves as a setting cue."
+  }
+}

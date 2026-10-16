@@ -1,0 +1,94 @@
+{
+  "slug": "la-diablesse",
+  "prompt": "EDIT THE REFERENCED IMAGE. Preserve the full existing composition and every feature EXCEPT the VISIBLE LOWER FACE under the straw hat. Keep same hat, same hidden eyes/upper face, same hands, fully covered high-neck long-sleeved dress, exactly one cow hoof and one five-toed human foot, ankle hem, low frontal modest camera, still cane, white-hot noon, plantation house and dark forest path.\nChange ONLY lower-face expression/anatomical distortion to the documented supernatural GOBLIN HORROR and HIDEOUS LAUGHTER [la-diablesse-c02,c09]. The existing warm natural grin is WRONG. Make the MOUTH split impossibly WIDE, far past the natural cheek boundaries into black shadow beneath both sides of the hat: a broad unnatural horizontal opening, NOT an ordinary old woman smiling. Thin lips pulled taut, many TOO-MANY tiny uneven blunt teeth in two irregular crowded rows, NO fangs. Cheek planes supernaturally sunken and ashen like dried cane husk, JAW tilted at a subtly impossible crooked angle. Face must unmistakably read NOT HUMAN in its laughter even at200px. No blood, wound or torn skin: intact supernatural skin, impossible expression only. No skull.\nPreserve the woman's ancestry/identity and normal nose. Horror must come from impossible mouth width, tooth multiplicity and wrong jaw geometry, never exaggerated racial features. Do not enlarge lips/nose or caricature ethnicity. No beautiful warm smile, cheerful eyes or friendly wrinkles. Upper face/eyes stay hidden by enormous brim as before.\nNo changes to body, clothes, limbs, lighting, environment, framing or camera. No text, labels, aura, magic, film/game/anime/comic borrowing or gore.",
+  "depicted_variant": "La Diablesse revealing hidden goblin-horror lower face while beckoning at windless noon; one cow hoof and one human foot",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "African-Caribbean demi-human woman with one cloven cow hoof and one ordinary human foot; broad hat hides upper face; mostly hidden lower face distorted and hideous; fully covering opaque dress",
+      "claim_ids": [
+        "la-diablesse-c01",
+        "la-diablesse-c02",
+        "la-diablesse-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Beckoning forest lure and hideous laughter, no magic effects or victim",
+      "claim_ids": [
+        "la-diablesse-c03",
+        "la-diablesse-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Isolated plantation cane field, white-hot windless noon, dark forest edge",
+      "claim_ids": [
+        "la-diablesse-c07",
+        "la-diablesse-c08"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "la-diablesse-c01",
+    "la-diablesse-c02",
+    "la-diablesse-c03",
+    "la-diablesse-c07",
+    "la-diablesse-c08",
+    "la-diablesse-c09"
+  ],
+  "aura": "No aura; danger from hidden hideous face c02/c09, one cow hoof c02 and lure gesture c03 under oppressive noon c08.",
+  "artistic_choices": [
+    "High-neck long-sleeved ankle-length opaque dress and camera at knee-to-hip height implement modest framing; only foot/hoof below ankle exposed.",
+    "Matte dark dress, white glare and black hat shadow editorial; no invented magic, no victim or injury.",
+    "Narrow lower-face correction interprets goblin horror c09 as impossibly wide mouth with too many small blunt teeth and crooked jaw; no fangs, racial feature exaggeration or gore."
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/la-diablesse-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/la-diablesse-attempt-01.json",
+      "native_sha256": "f14a0e245ed8c65ddac712f21e6469a566b200bbc46f7dd2b2207eb3b31e9e26",
+      "reason": "Keep the strong anatomy: one adult African-Caribbean woman (la-diablesse-c01) with exactly ONE cloven cow hoof and one ordinary human foot (c02), and a very wide-brimmed hat hiding the upper face (c02). Fix the following. (a) No upskirt or sexualised framing. Put the camera low in front at knee or hip height, not on the ground under the skirt. Lift the hem only to ankle or shin height, just enough to show the hoof stepping forward. Use a high-necked, long-sleeved, fully covering opaque dress with no cleavage and no bare thigh. (b) The visible lower face must be genuinely wrong and menacing (the hideous face of c02; the goblin horror and hideous laughter of c09): for example an over-wide grin with too many teeth, or a sunken, distorted cheek in the brim's shadow, while the face stays mostly hidden. Not a pretty, warm smile. (c) Use the documented hour (c08): dead windless noon, a bleached white-hot sky, a harsh overhead sun, short black shadows, heat haze, and motionless cane fields of an isolated plantation (c07). No blue postcard sky with cumulus and no palm-resort mood. (d) Moment: she steps out of the cane toward the viewer and beckons them toward the dark forest edge (c03), with the hoof planted large in the foreground. No victim, spell effects, text or aura."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-2118/rejected/la-diablesse-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-2118/rejected/la-diablesse-attempt-02.json",
+      "native_sha256": "e0223cbeb9e9cf6d0bb613864ca9c0e2ee79ddd36c9c6620d047b39987f2aa0e",
+      "reason": "Keep the composition almost exactly. That means the low frontal camera and the fully opaque high-necked, long-sleeved dress lifted only at the ankle. It means exactly one cloven cow hoof planted large in the foreground and one five-toed human foot (la-diablesse-c02). Also keep the beckoning hand and the huge straw hat hiding the eyes. Keep the white-hot windless noon (c08), the still cane, the plantation house and the dark forest opening (c03/c07). Fix only the visible lower face. It must read as the 'hideous face' and the 'goblin horror' with 'hideous laughter' (c02/c09), not as a warm smile. Make the horror supernatural, never ethnic: do not exaggerate the lips, nose or any racial features. For example, the mouth splits far too wide, past where the cheeks should end, into the black hat shadow. The lips are thin and drawn back taut. The teeth are too many, small and uneven. The cheek skin is ashen and sunken like dried cane husk, and the jaw hangs at a slightly wrong angle. It must be a laugh that is plainly not human even at 200px. No fangs, horns, gore, victim, text or aura."
+    }
+  ],
+  "worker": "codex",
+  "worker_agent": "resume_2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 2118,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1439b-40a3-7fe3-afa7-3a49bf05e434/exec-2c2705a0-7990-4da4-bf0e-48c0562763a4.png",
+  "generated_at": "2026-10-16T08:19:37.025029+00:00",
+  "original_file": "data/artwork-generated/batch-2118/originals/la-diablesse.png",
+  "native_sha256": "55de62cb27f736dcfd469e9698b459e3bce31d54589410724439e8062b2a4c9b",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254,200px and4x face crop inspected. Lower face now plainly supernatural: mouth runs impossibly wide toward cheek edges beneath hatshadow, stretched thin margins and excessive small crowded teeth in two uneven rows; no ordinary warm older-woman smile. Nose/upperface remain normally proportioned and shadow-hidden; horror comes from mouth geometry rather than ethnic feature exaggeration, no fangs/gore. One cow hoof and separate five-toed human foot, two normal hands, full opaque high-neck long-sleeved dress to ankle, no thigh/upskirt. Still cane/white-hot windless noon/dark forest path and house visually preserved. At200 unnatural grin and hugehoof support threat. No aura/text/victim. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "55de62cb27f736dcfd469e9698b459e3bce31d54589410724439e8062b2a4c9b",
+    "reviewed_at": "2026-10-16T08:19:37.025029+00:00"
+  },
+  "edit_reference_file": "data/artwork-generated/batch-2118/rejected/la-diablesse-attempt-02.png",
+  "edit_reference_native_sha256": "e0223cbeb9e9cf6d0bb613864ca9c0e2ee79ddd36c9c6620d047b39987f2aa0e",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T15:38:53+07:00",
+    "native_sha256": "55de62cb27f736dcfd469e9698b459e3bce31d54589410724439e8062b2a4c9b",
+    "notes": "Viewed native 1254px, 200px (and a 3x nearest-neighbour enlargement of the 200px), and face, both-hand and hoof/foot crops; compared the lower face with the edit reference attempt-02. This narrow face edit answers the r04 reject. The visible lower face is now plainly wrong (hideous face, la-diablesse-c02; goblin horror and hideous laughter, c09). A rictus grin spans roughly four fifths of the face width, its corners curling up into the cheeks, with two crowded rows of too many small teeth and ashen, husk-coloured skin. It is no longer the warm, wrinkled smile of attempt-02. The nose and lips are not enlarged or caricatured, so the horror is supernatural, not ethnic. The eyes and upper face stay hidden under a huge woven straw hat (c02). One adult woman (c01) wears a fully opaque, high-necked, long-sleeved, ankle-length dark dress. Exactly one large cloven cow hoof with a hairy fetlock is planted in the foreground, beside one separate five-toed human foot (c02). The outstretched beckoning hand and the hand lifting the hem each show a thumb and four fingers. She lunges at the low, knee-height camera out of still sugarcane on an isolated plantation, with the plantation house and the dark forest path behind her (c03/c07). The noon sky is bleached white and the shadows are hard and short (c08). No victim, spell effect, aura, text, gore or borrowed design, and the framing is modest. At 200px the leaning, reaching figure, the pale, too-wide grin under the hat and the hoof read as menacing and non-human. Limitations: the ashen face is markedly paler than her hands; this is the requested husk-ashen supernatural pallor, not a change of ancestry. The grin's corners stop at the cheek edges rather than splitting into the hat shadow, and the jaw is not visibly askew."
+  }
+}

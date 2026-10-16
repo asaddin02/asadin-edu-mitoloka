@@ -1,0 +1,174 @@
+{
+  "batch": 2079,
+  "round": "r02",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T14:03:02+07:00",
+  "scope_note": "Independent visual review of receipts only. No integration, manifest, research or power changes. For each of the 22 requested slugs I viewed the native 1254px PNG, a 200px downscale, and targeted native crops (hands/fingers, feet/hooves/paws, heads, eyes, teeth, tails, wings, clothing, ornament for pseudo-text), then compared them against the receipt visual_requirements and the research claims embedded in the ledger. Before writing, each PNG's SHA-256 was recomputed and matched against the receipt native_sha256, the Codex visual_review hash, the ledger item hash and the Codex root native-review hash in drafts/root/codex-native-reviews.json. Claude wrote only root_visual_review (plus correction_notes on rejects) and the receipt status, and synced the ledger item status. No PNG, Codex visual_review, Codex native review or other receipt was modified. Independent counts: gumiho nine tails, hakusan-gongen nine heads (3+3+3), karajishi four paws, haqueta-de-foc four legs, gwarch-y-rhybin black teeth plus two wings separate from two arms. Rejects: hairen (four-digit left hand; the 'second foot' added by the edit is fused onto the right hand), idlirvirissong (ordinary woman with friendly pet huskies; upturned nose not legible; ethnic-caricature risk), irudica (frightened ordinary woman, no whirlwind, bare thigh from upskirt angle), keneo (ordinary old man rather than an oni-formed elder).",
+  "requested_slugs": [
+    "gishiki-hachimen-daio",
+    "gumiho",
+    "gwarch-y-rhybin",
+    "hairen",
+    "hakusan-gongen",
+    "haqueta-de-foc",
+    "hauras",
+    "idlirvirissong",
+    "iki",
+    "irudica",
+    "ixchel",
+    "jagannath",
+    "jichi",
+    "kanayago-kami",
+    "kaneikokala",
+    "karajishi",
+    "kechibi",
+    "kejoro",
+    "keneo",
+    "kidomaru",
+    "kimpurushas",
+    "konaki-jiji"
+  ],
+  "totals": {
+    "reviewed": 22,
+    "pass": 18,
+    "reject": 4
+  },
+  "results": [
+    {
+      "slug": "gishiki-hachimen-daio",
+      "native_sha256": "3a3ebe9bba3214838b7316dcec74bd2a7761f361fc3b4c6bda6e854428d4282c",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and raised-hand, outstretched-hand, feet and face crops. One robed humanlike figure (restrained form; the oni/local-ruler legend gives no anatomy, gishiki-hachimen-daio-c02/c08), with no eight faces invented from the name. One head with a severe bearded face, two hands (raised left hand: thumb plus four fingers; right hand spread over the valley), and two bare feet clearly hanging in mid-air below the robe, well clear of the cave rock. He FLIES out of a dark cliff cave above a valley village. Dense black storm clouds boil from his raised hand, and a heavy physical curtain of rain falls onto the thatched village roofs below (flight, raising clouds, bringing rain, and coming down to the villages, all c05). Moon-lit storm, extreme low angle, the figure fills the upper frame. A supernatural act, not an ordinary man, and it reads at 200px. Opaque indigo robe and brown trousers, no text, aura or borrowed design."
+    },
+    {
+      "slug": "gumiho",
+      "native_sha256": "5566743da5e0b907b23f83aaf3bee5aa890246b5bbe468478df0c03094c49bcd",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, a full tail-fan crop and a leg/paw crop. One white-grey fox: one head, two amber eyes, four canine legs (raised right forepaw over the sill, planted left forepaw, two hind paws behind). Tails counted individually at native size: lower-left horizontal tail, upper-left tail, five upper-fan tails, right tail, and the added lower-right tail = exactly NINE distinct tails and tips from one rump (nine-tailed gumiho 九尾狐, gumiho-c11). The rejected eight-tail attempt-01 is fixed. It prowls low over the threshold of a moon-lit Korean village school/hanok courtyard toward the viewer, head lowered in a cunning glare (midnight school visit, c10). Uncanny and menacing, not a pet fox. No human face, jewel or invented magic, no text or aura. Reads clearly at 200px."
+    },
+    {
+      "slug": "gwarch-y-rhybin",
+      "native_sha256": "49ba1ff34be374aa2974d307679fabd10c3faf6866e2e1f4321cc6fbac3d08a4",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and mouth, both-hand and wing crops. An ugly pale old hag (gwarch-y-rhybin-c02): one head, two eyes, tangled withered grey hair, and pale wrinkled skin. Her mouth gapes in a wail, and every long tooth, upper and lower, is now black (c02 long black teeth; the pale-tooth attempt-01 is fixed). Two shrivelled clawed hands clamp the window sill, and exactly two leathery bat wings rise from her back, separate from the arms. Ragged dark robe, fully opaque. She surges up at a night house window under a full moon, with a stone cottage behind, wailing at the window of the dying (c03). No victim shown. Terrifying and dominant at 200px, with no text, gore, aura or borrowed design."
+    },
+    {
+      "slug": "hairen",
+      "native_sha256": "3a69c098da6c596a26c29dfa74136822dc8302fe294bbf9de4362503b4bba793",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, and both front-hand, rear-foot and face crops. The hanging grey skin folds over the hips (hairen-c03) and the opaque charcoal undergarment now read as intended, and the sea-rock night setting (c01) is fine. But the anatomy fails the receipt's own requirement of 'webbing between five digits' on both hands and feet (c02), and the Codex note claiming 'two large five-digit webbed hands' is incorrect. The foreground left hand has only FOUR webbed digits and no thumb. At the right, the 'second webbed foot' added by the edit is painted on top of the right hand, so that hand reads as one webbed hand with a second set of four long toes fused over it: about eight or nine digit-like shapes in one clump, not a separate foot. The face is an ordinary human face, so the creature's identity rests entirely on hands and feet, and these are malformed. This fails Uji Sangar #5.",
+      "correction_notes": "Redraw (not another local edit) so the anatomy is countable: two hands with exactly five webbed digits each (thumb plus four fingers, membrane between every digit), and two separate webbed feet with five toes each, clearly attached to two legs and NOT overlapping the hands (hairen-c01/c02). Keep the loose living skin hanging like hakama trousers over hips and thighs (c03), a fully opaque dark undergarment, and the sea-rock night setting. Make the face and posture less like an ordinary man, using only documented traits (untameable, c05; sea-dwelling humanoid, c01), with no invented fins or gills. No text or aura."
+    },
+    {
+      "slug": "hakusan-gongen",
+      "native_sha256": "8ee863dca96e541ea68e416e6b3ad185a8fa924ed5c7cbb0c065d84fc423113f",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and centre-neck and lower-tier crops. Heads counted: upper tier 3 (left, centre, right), middle tier 3, lower tier 3 = exactly NINE dragon heads, each with two eyes, antlers, whiskers and a beard, on separate scaled necks rising from one serpentine body in the water (nine-headed dragon of Taicho's founding revelation, hakusan-gongen-c02). The eight-head attempt-01 is fixed: the lower-centre ninth head is unobscured. Not mixed with the eleven-faced Kannon (c01) or the old-man form (c06). It rises from dark mountain water with waterfalls and pine cliffs under a full moon, water pouring off the scales, solemn faces bowed toward the viewer: monumental and reverent for a living Shinto/Buddhist tradition, not a rampaging monster. The nine-head count is legible at 200px. No fire, invented elemental power, text or aura."
+    },
+    {
+      "slug": "haqueta-de-foc",
+      "native_sha256": "49fe5d08018d6e59c5effca90e2e70589c0c26a5c072fa137525b67e05e7de6d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and leg and head crops. One sturdy pony: one head, two eyes, two ears, one mane and one tail, and exactly four legs in a gallop (near fore planted at left, off fore raised at centre, two hind legs behind at right). The whole body, mane and tail are wrapped in real orange flames that rise from the coat itself, lighting the wet cobbles and throwing sparks and spray (supernatural pony appearing ablaze at midnight amid a great glow, haqueta-de-foc-c01). It charges at the viewer down a narrow empty stone village street at night, with a church tower and a moon (roaming the Beneixama streets after dark, c04). No rider (c05 not mixed in) and no fire from the eyes or mouth (Comte Arnau, c06, not borrowed). The undersides of the hooves seen from below are painted as hollow rings, a minor painterly oddity, but they still read as hooves. Dangerous and dominant at 200px, no text or borrowed design."
+    },
+    {
+      "slug": "hauras",
+      "native_sha256": "7eb23560eeb6aeec1ce36676bf9b5932ec7d85c051a5bdefca01a631342c829d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and both-hand and face crops. The second form of the Goetia spirit: a man (hauras-c02/c05) with one head, one terrible scowling bearded face, and TWO eyes burning with real flame tongues (eyes flaming and fiery, c02/c05). The flame is confined to the eyes, with no body aura. Two hands reach toward the viewer, each counted at thumb plus four fingers. Fully opaque coarse black robe. Attempt-01's burning buildings (beyond c08) are removed. Bare black rock and cliff under a cold moon, extreme low angle with foreshortened reaching hands. Menacing at 200px, and the fiery eyes clearly separate it from an ordinary man. No leopard form mixed in, no horns, text or borrowed design."
+    },
+    {
+      "slug": "idlirvirissong",
+      "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, face crop and dog crop. The figure reads as an ordinary middle-aged woman in a fur parka doing a kicking dance with a broad cheerful grin, beside three friendly, smiling huskies, in a timber doorway: an 'ordinary person with pet dogs' image that fails Uji Sangar #2/#7. The documented nose 'turned up on the sides' (idlirvirissong-c02/c09) is not legible: at native resolution it is a normal broad nose seen from below with visible nostrils, and at 200px nothing distinguishes it. The grimace reads as happy laughter rather than the uncanny, laughter-baiting clown grimace (c11), and the dogs look like friendly pets, not hungry dogs waiting to be fed (c05/c06). The sky house (c05/c09) reads only as clouds through a door. A realistic portrait of an ordinary Indigenous woman pulling a grotesque face also risks reading as an ethnic caricature, not as the spirit. Fully opaque hide clothing, an empty plate, two arms/two legs, and no text or gore are fine.",
+      "correction_notes": "Redraw so the spirit is unmistakably not an ordinary woman: make the nose that is turned up and flared at both sides (idlirvirissong-c02/c09) a clear, readable trait at 200px. Make the dance an uncanny clown-like performance with grimaces meant to bait laughter (c02/c11), not a cheerful grin, and put her house plainly in the sky, with cloudbanks below or around the threshold (c05/c09). Show the many dogs as lean, hungry and watchful beside the empty plate qengmerping (c05/c06), not as smiling pets. Avoid a photographic ethnic portrait caricature. Keep fully opaque Arctic garments, no entrails, blood or gore, no aura, and no text."
+    },
+    {
+      "slug": "iki",
+      "native_sha256": "0fc041c6b5589aec93ed2deee5ac01cb8ede1f6796224e6cb2f26b4844e3ea1b",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px and 200px. One huge, featureless humanlike shadow fills the plaster wall of an old lodging-room: one head with ragged hair, and two arms (the left thrust toward the viewer as an enlarged fist, the right hanging with long splayed fingers). Exactly as iki-c05 says, the shadow holds a cord: a plain frayed rope that hangs straight from the fist, with no loop and no noose. The only light is an oil lamp at the left, and no body stands between lamp and wall, so the shadow is impossible. Through the open sliding door the next room is empty (lodger and adjoining room in c05). There is no victim, hanging or self-harm action. The looming fist and towering silhouette are clearly menacing at 200px. Warm walnut palette, no text, aura or borrowed design. The textured, physical-looking cord is an acceptable uncanny editorial choice."
+    },
+    {
+      "slug": "irudica",
+      "native_sha256": "485e2b33e8a97ef1663abc2a213775b7e88c3ba680344965c5945c93b2ad3c70",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, and leg, face and hand crops. One red-haired woman (irudica-c06) with one head, two arms (shielding hand has five fingers) and a tattered dark gown, on Dalmatian sea rocks, with lightning striking a nearby rock (c05). But she reads as an ordinary frightened woman at human scale caught in a storm, with a scared, victim-like expression. Nothing conveys the evil spirit who dwells in the whirlwind (c01) or leads storms with heavy thunder (c07). The whirlwind itself is not visible: there is only wind-blown cloth and a few flying pebbles, no vortex. Modesty also fails: the extreme low angle looks up the parted gown, and a bare leg is exposed to the upper thigh and hip in the centre of the frame, against the fully opaque clothing rule. This fails Uji Sangar #7 (ordinary woman) and the clothing constraint.",
+      "correction_notes": "Redraw Irudica as the storm spirit, not a frightened ordinary woman: a visible spinning whirlwind column of spray, dust and debris that she rides or that wraps her lower body (irudica-c01), leading a thunderstorm (c07) while God's lightning hunts her across the Dalmatian/Hvar coast (c05/c10). Make her expression wild and fierce rather than scared, and keep long red hair (c06) as the identifying trait. Keep the tattered dark gown fully covering the legs, with no upskirt low angle and no bare thigh, and do not show her creating the lightning. No aura, text or gore."
+    },
+    {
+      "slug": "ixchel",
+      "native_sha256": "c01be10b64bb4ee3d875b4f84c99efa839e6873e661f922b9c1eccdeca3ba62f",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and head, jar, hand, chest and skirt crops. An aged, wrinkled goddess with spotted skin, two spotted jaguar ears and two small fangs (ixchel-c04/c18), and two hands ending in long dark claws instead of nails (c08). The entwined serpent headdress (c08) has exactly ONE live snake head (upper right, forked tongue); the former top-centre fitting is now a plain, faceless jade tablet. A woven skirt carries a large crossed-bones motif (c08). She inverts a huge painted water jar, and a massive physical torrent pours out under driving rain (Goddess O/rain-deity jar iconography, c10), with a monumental low angle over stormy Maya forest, temple and waterfalls. The jar fret/scroll ornament and the skirt band are abstract patterns, not legible or pseudo text. Heavy bead collars, the jar and the cloth cover the torso, so there is no nudity. Awe-inspiring, not cute, and not a copy of the Smite or Apocalypto designs (c20/c21)."
+    },
+    {
+      "slug": "jagannath",
+      "native_sha256": "062aa5b97cdcb64f887c95e37737a44919f6dd12306e54b4843fb7e037746cd3",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px and 200px. The sacred wooden icon dominates the square: a black-painted wooden face with two enormous round white eyes with red rims and black pupils, a broad red curved mouth, tilak and nose ornament, and NO hands or legs (jagannath-c03), wrapped in opaque ritual textiles, flower garlands and round decorated discs. It rides a huge wooden festival car whose massive iron-bound wheels throw up dust, while many small devotees haul the thick ropes (great car drawn by worshippers, c06). Golden sunset, extreme low angle, monumental and reverent, as befits a living Hindu tradition (megah, not horror). The temple spire behind is an editorial backdrop. Devotees wear dhotis, the face is not turned into human anatomy, and there is no text, aura or borrowed design. Legible and imposing at 200px."
+    },
+    {
+      "slug": "jichi",
+      "native_sha256": "4ea3829349e39fcd004a67149ccd30c98094906100176ac75889e5669621973d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px and head crop. One horse head (two upright ears, two eyes, white blaze, flared nostrils, long wet black mane) joins a continuous scaled serpent neck and body, whose giant coils break the river surface in several loops behind and around it (enormous serpent with a horse's head, jichi-c02/c08). No legs, wings or horns. The coils physically throw up sheets of river water. Sunset only (c03), with lowland forest and a waterfall (c02). The head bends down toward the viewer and the hybrid fills the frame. It reads clearly at 200px as a giant water guardian, not an ordinary horse. Warm low light, no aura, text or borrowed design."
+    },
+    {
+      "slug": "kanayago-kami",
+      "native_sha256": "38133fa795a163afbc3a115043221cb592a86fb5f6dd665ac42c754b6f2b7a88",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, both-hand, robe and talon crops. A female deity (kanayago-kami-c01) with one head, two eyes and two hands (the right open in a downward greeting, five fingers; the left resting on the heron's shoulder) in fully opaque layered indigo and ivory robes. She rides ONE giant white heron (c03/c07) with one long-beaked head, two eyes, two huge spread wings filling the frame, and two long legs whose clawed feet grip a mossy katsura branch with heart-shaped leaves (alighting on a katsura tree, c07). Golden dawn rim light over misty mountains, and an extreme low angle from beneath the branch. A dignified, awe-inspiring divine arrival, not an ordinary woman portrait. The ivory robe's ink-brush landscape print is abstract, not legible or pseudo text. No invented forge magic, crown, weapon or aura, and no Sanbo Kojin forms mixed in."
+    },
+    {
+      "slug": "kaneikokala",
+      "native_sha256": "8ca9ca8082aff0352e0abe8abaf40dc9267ce03c067eced9009324db265092bd",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and survivor and fin crops. One natural grey shark dominates a split-waterline frame: one head, two eyes, mouth closed with no teeth shown, one dorsal fin, two pectoral fins, pelvic and anal fins and one heterocercal tail. There are no tattoos, glow or invented anatomy (shark aumakua, kaneikokala-c05/c11). Above the water, one fully clothed adult survivor of a broken canoe (shirt, both hands on a plank, five fingers) rides beside the dorsal fin, looking relieved toward the green Hawaiian shore and mountains ahead. Broken canoe wood trails behind. This shows the documented act of saving canoe-wreck survivors and bringing them home to shore (c03/c06/c11), so it reads as the protector's rescue, not an ordinary shark or an attack. Golden sunset, powerful foreground scale, no gore or text."
+    },
+    {
+      "slug": "karajishi",
+      "native_sha256": "062661bcf919897ffe3e003b13c9245dabe37efd20b7a3aa3e7d97f6a68539be",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and front-paw and rear-paw crops. One LIVING lion, not a statue: a dense mane of tight curled spirals, two large prominent amber eyes, an open roaring mouth with long fangs, and oversized ivory claws (karajishi-c02). Exactly four paws: two huge front paws in the foreground with five claws each, the rear-right paw at the right edge, and the rear-left paw under the belly. One curled spiral tail. It lunges and lands toward the viewer in a moonlit rock garden of living peonies (c03), as an active sacred guardian (c04), with real fur texture, dust and petals. No horn, ball, cub, wings or extra tail, so it stays distinct from komainu and shisa. Ferocious and imposing at 200px, with no text, aura or borrowed design."
+    },
+    {
+      "slug": "kechibi",
+      "native_sha256": "114728e83e90ba3b1b8fce030935c06567069f530068b38a76b5d2733247e1c8",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px and 200px. The whole being is one large surging mass of real flame containing ONE human face: two fire-lit eyes, one nose and one screaming open mouth (kechibi-c02/c03). No torso, limbs, skull, severed head or extra faces. It skims low over dark rippling sea water (c04), and its flame light reflects hard across the waves and onto a small empty wooden boat behind; the flame is the body, not a generic aura. Water-level camera and backward-streaming flame tongues give real forward motion toward the viewer, and the face confronts the viewer, clearly uncanny and dangerous at 200px. Dark walnut night with a single amber light source, no victims, text or borrowed design."
+    },
+    {
+      "slug": "kejoro",
+      "native_sha256": "0b813c6abbd78e48093451cc5d3a37fdffda15825fcc6b13ad1e8e796d6c7ced",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px and both-hand crops. A courtesan-like figure (kejoro-c02) in fully opaque layered plum-and-gold brocade kimono with a tied obi and closed collar. Her head is completely engulfed by a thick curtain of long black hair, with no eyes, nose, mouth or blank skin visible, so whether a face exists stays unresolved (c06). Two hands: the right grips the timber doorpost (natural grip), and the left pulls the robe hem. She bends sharply around the corridor corner toward the low camera, with hair swinging into the lens and a single lantern at the far end of the narrow wooden passage. Deeply uncanny and dominant at 200px. Not a glamour or ordinary-woman pose, no nudity, aura or text. The brocade kimono avoids the white-dress film-ghost design."
+    },
+    {
+      "slug": "keneo",
+      "native_sha256": "af578880e8b6c107c10de08a6170d181b796e0c7031d72127925ac2bd61dfdca",
+      "verdict": "reject",
+      "reason": "Viewed native 1254px, 200px, and face, hands and branch crops. One head, two eyes, two open five-fingered hands, a coarse opaque robe, a splintered bending branch with an empty pale robe hanging from it, moonlit river: the anatomy count and modesty are fine. But Keneo is documented as an underworld ONI (keneo-c01) and an 'oni-formed old man' (c08), and here he is an entirely ordinary bearded old man in a rough robe. His expression reads as startled or pleading, not as a fierce underworld judge. At 200px the image reads as 'old man gesturing at a sheet on a tree', which is the 'ordinary man' rejection of Uji Sangar #7. The weight-of-sin effect (c05/c08) is only partly legible: the branch is thick and splintered at the top, but its sag does not clearly read as being pulled down by the robe.",
+      "correction_notes": "Redraw Keneo with the documented oni form (keneo-c01/c08), not an ordinary old man. A fierce oni elder face (glaring eyes, bared teeth, coarse dark-red or weathered oni skin, wild hair) is supported by 'oni-formed old man'. If small oni horns are used, record them in artistic_choices as the interpretation of c08. Make his expression severe and judging, not startled. Show the robe taken from a dead soul (c03) hanging from a thin branch of the great Eryoju tree that bends visibly and strongly under the robe's weight alone, as the measure of sin (c05/c08), by the Sanzu River (c01). Keep a fully opaque robe, no torture or victims, and no text or aura."
+    },
+    {
+      "slug": "kidomaru",
+      "native_sha256": "ce3f0600145e09dbe04790d0cd7bade44b1026fa0cb03240dcee2b3e6f3eb61b",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, both-fist crops and a leg/boot crop. One formidable large youth (kidomaru-c11/c13, 'though human' c19): one head, two glaring eyes, two arms ending in clenched five-finger fists with thumbs visible, and two legs (front boot plunging into snow, rear boot behind). Opaque dark tunic and trousers, with an intact coarse brown-and-ivory cow-hide mantle and no animal head or carcass (Sekien's cowhide-in-snow, c06). He bursts from a lantern-lit stable doorway (bound in the stable, c10) and wrenches his iron-cuffed wrists apart: the rusty chain snaps at the centre with link fragments falling, and the thick rope frays (breaks rope and metal chain, c03/c11). Extreme low angle, snow and hay, a fierce downward glare. A legendary feat of strength, not an ordinary man, and it reads at 200px. No invented horns, weapons, victims, gore, text or aura."
+    },
+    {
+      "slug": "kimpurushas",
+      "native_sha256": "4047f0fe438e571cfb15f7f55ebd7b3898d8b2341c0abb34fe5d0fdb102159d9",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, raised-hand, lower-hand, foot and leg crops. One being with ONE lion head (real mane, two lion eyes, muzzle, open mouth with canines) on a HUMAN body (kimpurushas-c01). Exactly two human arms: the raised right palm shows thumb plus four fingers in a commanding halt, and the left hand grips the robe. A human bare foot with five toes steps onto the wet stone rim of the pond; the other leg is covered by the robe. No paws, tail, wings, extra arms or Narasimha attributes. Fully opaque ivory and antique-gold layered robe with a sash. Stepping toward the viewer at a lotus pond with pink and white lotuses, water splashing and stone balustrades with gold urns (guardian of Kubera's lotus ponds, c03/c07). Golden sunset rim light and an extreme low angle make a reverent, imposing protector at 200px. No Jain all-golden body mixed in (c11), no aura, text or weapon."
+    },
+    {
+      "slug": "konaki-jiji",
+      "native_sha256": "6aa2b313ecb90dfc75d12cbad7445d75ecc17e8a7c10d6a609c1927245f6f99a",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px, 200px, and face, hands and walking-stick crops. One obviously elderly man (deeply wrinkled bald head, sparse grey hair, eyes squeezed shut, mouth wide in a newborn-like wail; konaki-jiji-c02/c05) wears oversized baby clothes: a large tied bib bow and puffy ruffled cuffed trousers with a baby sock and shoe, under a coarse wet straw raincoat, with a plain walking stick tucked alongside (c10). He clings to the back of one fully clothed adult traveler with two hands: one wrinkled hand on the shoulder, the other gripping at the neck. The traveler is bent nearly to the ground with face down, one boot sunk deep in mud and robe straining: the documented impossible weight and clinging (c03/c11), with no injury. The night mountain road in rain under a moon (c01) is deeply uncanny, not comic or cute, and it reads at 200px. A realistic painterly design, not the GeGeGe no Kitaro manga design (c09). No actual infant, text, aura or gore."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "ewiger-jager",
+  "basis_claim_ids": [
+    "ewiger-jager-c04",
+    "ewiger-jager-c19",
+    "ewiger-jager-c20",
+    "ewiger-jager-c21"
+  ],
+  "depicted_variant": "Gnarled little green-clad eternal hunter with fist-sized withered face, pursuing the same stag.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Gnarled little man dressed in green, with barely fist-sized face withered like turnip and wrinkled like sponge",
+      "claim_ids": [
+        "ewiger-jager-c04",
+        "ewiger-jager-c21"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Running eternally after the same stag, no invented energy",
+      "claim_ids": [
+        "ewiger-jager-c20"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Deep green forest of Count Eberhard encounter",
+      "claim_ids": [
+        "ewiger-jager-c19"
+      ]
+    }
+  ],
+  "aura": "Uncanny shrivelled face c21, small body/green clothing c04 and relentless pursuit c20 rather than magic aura.",
+  "artistic_choices": [
+    "Use mutually compatible Bechstein gnarled-green and Grimm withered-face descriptions of the same German encounter.",
+    "Opaque green hunting coat and trousers; no invented weapon, spectral glow, horse or visible pack.",
+    "Wet autumn woodland and moonlight are editorial atmosphere; tree roots place the small hunter on a real scale."
+  ],
+  "prompt": "EDIT the provided Ewiger Jäger image. Keep the hunter's tiny shrivelled wrinkled face, green clothing, two arms/two legs, low camera, tree roots, lighting, texture and all other visual details exactly unchanged. Change ONLY the stag placement and orientation: remove the distant stag running away in the back right. Place a clearly smaller stag slightly AHEAD OF the hunter on the RIGHT foreground path, running in the SAME direction TOWARD THE CAMERA at a three-quarter angle. Its head/antlers should aim toward the lower right/front, its body extends diagonally back toward hunter, so the hunter is visibly chasing behind it. Stag remains secondary and small, does not cover hunter's face or hands. No added animals or people. No text, inscriptions, watermark, glow, gore or extra anatomy. This is the documented endless pursuit of the same stag [ewiger-jager-c20]. Original low-key painterly forest illustration remains identical except this corrected chase relation.",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2029/rejected/ewiger-jager-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2029/rejected/ewiger-jager-attempt-01.json",
+      "native_sha256": "680df0cc1a556784999ccc7a1bd9a4c07a4f9faecc721b9a635bff2b2af3ab7b",
+      "reason": "Root Codex native/200 inspection: hunter runs toward camera but background stag runs away, so documented chase c20 reads as opposite directions. Move stag ahead and orient same direction; preserve hunter."
+    }
+  ]
+}

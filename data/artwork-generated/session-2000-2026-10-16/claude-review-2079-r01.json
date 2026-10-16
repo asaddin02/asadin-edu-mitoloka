@@ -1,0 +1,107 @@
+{
+  "batch": 2079,
+  "round": "r01",
+  "reviewer": "claude",
+  "reviewed_at": "2026-10-16T12:52:29+07:00",
+  "scope_note": "Independent visual review of receipts only (no integration, manifest, research or power changes). For each slug I viewed the native 1254px PNG, a 200px-equivalent downscale, and targeted native anatomy crops (limb/head/eye/wing/hoof/finger counts), and compared against the receipt visual_requirements and the embedded ledger research claims. Each PNG's actual SHA-256 was recomputed and matched against both the receipt native_sha256 and the Codex root native-review hash before any decision. Receipt root_visual_review (reviewer=claude) and status plus the ledger item status were synced; no PNG, no Codex visual_review/native-review, and no other receipt were modified. Notable independent anatomy counts: gozuryu five heads, hundun six feet + four wings + facelessness, jobar four legs (attempt-01 extra leg gone), headless-mule headless neck-stump + four legs, glas-gaibhnenn reversed hooves (c07) re-verified across four hoof crops.",
+  "requested_slugs": [
+    "germakochi",
+    "glas-gaibhnenn",
+    "goho-doji",
+    "gonger",
+    "gozuryu",
+    "headless-mule",
+    "hejkal",
+    "hikeshibaba",
+    "hundun",
+    "jobar-monster",
+    "jubokko",
+    "jumbee",
+    "kameosa"
+  ],
+  "totals": {
+    "reviewed": 13,
+    "pass": 13,
+    "reject": 0
+  },
+  "results": [
+    {
+      "slug": "germakochi",
+      "native_sha256": "e1af8a33df8631d82591f214bb07092c6141b9295e124d5f9deafb4720f8b4b9",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + both-hand crops. A tall forest being between monkey and human: one head, two deep-set curious humanlike eyes, a short broad apelike muzzle, and a body entirely covered in dense wet matted dark fur (germakochi-c04/c08). Exactly two arms — a huge long-fingered right hand reaching gently toward the viewer (thumb + four fingers confirmed in crop, no extra digits) and a left hand gripping the mossy tree; a coarse opaque cloth wrap covers the pelvis (no nudity); legs are in lower shadow. The parted lips and curious forward lean read as inquisitive contact, not aggression — the curious non-hostile account, not the cannibal variant (germakochi-c05/c10). Deep wet Laz forest with one warm low light source and rim light. No invented powers, aura, text or borrowed design; dominates the frame and reads as a towering forest ape-man at 200px."
+    },
+    {
+      "slug": "glas-gaibhnenn",
+      "native_sha256": "5ce291e7e947084e7c7c7fe154b014374bc6edeb6007af1107c17a9eae37ee38",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + four separate hoof crops and a mud-track crop. One living cow: one head, two eyes, one tail, a natural udder and exactly four legs (glas-gaibhnenn-c01). Reversed hooves verified on every visible hoof — the broad rounded heel faces the camera/head-direction while the sharp cloven toe-tips trail BACKWARD toward the tail (glas-gaibhnenn-c07), the opposite of the rejected toes-forward attempt-01; backward-pointing tracks lead across the foreground mud. White MILK physically pours from the udder into a plain wide vessel and overflows into a continuous stream across the ground (glas-gaibhnenn-c01/c08) — liquid milk, not glowing magic. Mountain pasture with a smith's forge, anvil and fire under a low moon (glas-gaibhnenn-c05). Dynamic low striding moment, a mythic distinction over an ordinary dairy cow; no extra horns/eyes/wings, no aura or text."
+    },
+    {
+      "slug": "goho-doji",
+      "native_sha256": "05e53a9c874cc75855ad635b5167dcf645d21e111443e2ef24846c0c1032237c",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + feet, sword-hand, noose-hand and collar crops. One young boy guardian: one head, two eyes, fully opaque heavy cream/saffron robes with a red sash. A collar of small blades fans around his neck, a large sword is raised in his right hand (thumb + four fingers) and a thick coiled braided noose is held in his left (five-digit grip) — all of goho-doji-c02. He rides standing on one solid bronze eight-spoke Wheel of Dharma in forceful downward flight (goho-doji-c03), feet behind the rim, no extra limbs. Above a Japanese Buddhist temple with wooden roofs and a stone lantern (goho-doji-c01). Resolute reverent child face — majestic, not demonic; the wheel bears no lettering; physical wind and spray, no glow aura, no text, no borrowed design."
+    },
+    {
+      "slug": "gonger",
+      "native_sha256": "4ea6f82c39f05475313c0839df9f98cbc1dda983412133aaeec06022518a6595",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + reaching-hand and face crops. A drowned revenant sailor (gonger-c01/c03/c04): a gaunt, pallid, water-soaked man with hollow sorrowful eyes — unmistakably a Wiedergänger, not a living passerby. Two arms — the right hand (five digits confirmed, no extra) held over an oil-lamp flame that is going out with a thread of rising smoke, the left braced on the doorframe. He wears the same soaked clothes and heavy water-filled boots he drowned in, and a continuous trail of saltwater runs across the floor from the open moonlit door (gonger-c03/c11). Night interior of a North Frisian house; thatched house and full moon outside. Uncanny supernatural dread rather than an ordinary man; no gore, aura, text or borrowed design."
+    },
+    {
+      "slug": "gozuryu",
+      "native_sha256": "df9f6487d7fc45e92f763d612047063486d8923849285dc5d1b8aa91559471f9",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + a tight head-fan crop. Exactly FIVE dragon heads (五頭竜, gozuryu-c01) counted on five distinct necks — two on the left, one dominant horned central head, two on the right — all rising from a single scaled body (not five separate dragons), each head with two eyes, mane, horns and whiskers. The body emerges from a moonlit lake/marsh with water physically sheeting off the scales; reeds in the foreground, distant lit island (gozuryu-c01/c06). Sober, majestic protective bearing of the reformed deity (gozuryu-c04/c06) — no attack on people, no victims. Original scale and mane forms, no invented elemental beams, no generic aura or text; monumental and awe-inspiring at 200px."
+    },
+    {
+      "slug": "headless-mule",
+      "native_sha256": "41ab5cb2241b1c7155b4e3b4fcb086c2964c509324e25a2c8ecfe7f7c786c297",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + neck-stump and two leg crops. Genuinely HEADLESS (mula sem cabeça, headless-mule-c01/c04/c07): the neck ends in a smooth, hollow, bloodless stump with no head, ears, eyes or muzzle. A strong equine body with one flowing tail and exactly four legs (one hind leg occluded in the charge — no extra or duplicated limb). Every hoof wears a clearly metallic iron horseshoe, the nearest striking stone and throwing real orange sparks (headless-mule-c03) in a violent night gallop with flying debris (headless-mule-c06/c08). Moonlit stone-walled rural path. The conflicting nostril/mouth-fire detail (c05) is correctly omitted because this variant is headless — a legitimate source-based choice. No gore, aura, text or borrowed design; imposing uncanny anatomy at 200px."
+    },
+    {
+      "slug": "hejkal",
+      "native_sha256": "ed1ef81dded8381ab14fde1d8f41e88b5cc63931041218272bac2a925ec73af7",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + hand, face and leg crops. A Slavic forest demon as a wild man whose entire body is covered in matted fur, moss and hanging vegetation with bark-like gnarled limbs (hejkal-c02/c11); a conspicuous crown of ferns sits on his head (hejkal-c02). One bearded male head with the mouth wide open in the terrifying call it is named for (hejkal-c01). Exactly two arms (the near reaching hand confirmed with thumb + four fingers, no extras) and two legs, a broad toed foot gripping a mossy log as he lunges toward a low camera through a conifer forest at sunset (hejkal-c01/c02). Normal fern scale, close framing rather than a giant; no victim, gore, invented magic, aura, text or borrowed design."
+    },
+    {
+      "slug": "hikeshibaba",
+      "native_sha256": "f4115d26b4873394866aa77341712a770023d0b884016e2657ea9a37b399a2ad",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + hand crop. A white-haired, deeply wrinkled, grotesque old woman (hikeshibaba-c03) in a fully opaque patterned old kimono, pursing her lips to blow out a round paper household lantern — its inner flame guttering with a thread of smoke as the room darkens (hikeshibaba-c02/c05). Two aged hands with long grotesque nails cradle the lantern (five digits confirmed, no extra); the lantern paper carries only structural ribs, no lettering. Darkening old Japanese house with shoji screens. The uncanny grotesque face dominates at 200px; ominous atmosphere rather than overt violence, fitting a yōkai not dangerous herself (hikeshibaba-c04). No magical ribbon, glow aura, text or borrowed design."
+    },
+    {
+      "slug": "hundun",
+      "native_sha256": "995f7f73839f113056c5e961d6ef702b657f39aa4fec017ba425b79faf24811d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + a feet-band crop and a wing crop. A FACELESS being: a rounded yellow sack-like body flushed scarlet/cinnabar with absolutely no head, face, eyes or mouth (hundun-c01/c06). I independently counted EXACTLY SIX feet (六足) along the lower body — a raised front foot plus five more planted or stepping — and EXACTLY FOUR feathered wings (四翼), two on the left (upper and lower) and two on the right (upper and lower), matching hundun-c06/c09. A dancing, bounding turn across dark Tianshan crags with flying debris under a stormy moon (hundun-c06/c09). No chaos-attack or victim, no generic glow aura, no text; an original design, monumental and awe-inspiring at 200px."
+    },
+    {
+      "slug": "jobar-monster",
+      "native_sha256": "1ffdfebde2a30855c503380356c5c335847b6532129c5add4d4d10fd7417727d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + a legs crop and a front-foot crop. A giant camel-like monster (jobar-monster-c01/c02/c08): one head, two eyes, one shaggy single-humped body, one tail, and exactly FOUR legs (the extra leg of attempt-01 is gone), each ending in a broad two-toed camel foot. Enormous scale is fixed by a tiny Tuareg tent in the moonlit night desert (jobar-monster-c07). It charges and snarls, the open maw showing teeth — the menace of the child-eating bogeyman conveyed by scale and snarl with NO child, victim, blood or explicit gore. No invented powers, aura, text or borrowed design; dominates the frame and reads as a monstrous camel-beast at 200px."
+    },
+    {
+      "slug": "jubokko",
+      "native_sha256": "acf266791c53dd492268b2f075a7e4b999d4bab782547ad4d680c6a413385409",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + trunk and background crops. A single huge gnarled tree is the whole subject (jubokko-c07/c02): a twisted mossy trunk and bark with no anthropomorphic face (the trunk crop confirms only bark texture) and no legs. Its branches bend and reach toward the viewer like splintered grasping claws — the blood-draining tree that seizes passers-by (jubokko-c03) — rendered without any victim or blood. Set on a moonlit former battlefield with broken weapon shafts standing in the dead ground (jubokko-c02). An original realistic depiction, NOT Shigeru Mizuki's cartoon design (jubokko-c04/c05/c06); no text, no aura. The twisted menacing tree dominates at 200px, not an empty landscape."
+    },
+    {
+      "slug": "jumbee",
+      "native_sha256": "65c259e0a528cb8f97c9e0298791589d616478f12418ec3257bfc5988c0e554d",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + both-hand and head crops. A dense, SOLID dark humanoid shadow-figure — solid darkness, explicitly not a wispy fog (jumbee-c04) — with a smooth featureless head: no eyes, nose, mouth, horns or glowing features. Exactly two arms and two legs; the hanging right hand is a clear human five-digit hand (the foreshortened reaching hand reads as a hand, not an invented claw). It strides toward the viewer down a moonlit Caribbean dirt path with coconut palms and a wooden shack (jumbee-c01/c11), lit only by natural moon backlight and rim — no neon outline or glow aura. A menacing malevolent presence (jumbee-c01/c02); no text or borrowed design; dominates the frame at 200px."
+    },
+    {
+      "slug": "kameosa",
+      "native_sha256": "5f717906f0b765e320999babd00ba4e8988f164e59df0b2d09581d27f27b8617",
+      "verdict": "pass",
+      "reason": "Viewed native 1254px + 200px + face crop. A single old earthenware water jar turned tsukumogami, its surface forming a face with exactly two eyes, a broad nose and a solemn mouth (kameosa-c02/c03) — no invented arms, legs or extra features. An endless torrent of water pours from the jar and overflows several wooden basins and across the floor, the inexhaustible supply (kameosa-c05). Dignified, weathered, non-malicious expression — an awe-inspiring spirit of good fortune, not a cute mascot (kameosa-c12/c13) — in an old sake-brewery storehouse with a resting ladle. No lettering on the jar, no glow aura, no copied Sekien woodblock; an original premium painterly interpretation. Awe through impossible abundance; reads clearly at 200px."
+    }
+  ]
+}

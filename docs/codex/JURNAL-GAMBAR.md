@@ -706,3 +706,54 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - **58/58 lolos, semua terpasang → 1.887 ilustrasi aktif.** Keempat koreksi kini menjawab catatan Claude.
 - Apalpador hanya menyarankan "Mitologi Galisia" → `tradition-galician` (batch-128-fix-4, verify lulus; riset ledger disinkronkan).
 - Tidak ada receipt menunggu yang tersisa selain yang ditahan karena budaya null: praded, mich, frankensteins-monster.
+
+## 2026-10-16 10:05 WIB — Codex — mulai menuju tepat 2.000
+
+- Pemilik meminta melanjutkan batch berikutnya yang belum memiliki gambar hingga tepat 2.000 entri disetujui Claude. Baseline terverifikasi: 1.887 ilustrasi aktif; target tambahan 113 yang benar-benar lolos Claude. Tiga approval visual yang ditahan karena budaya tidak dimasukkan baseline aktif. Tidak mengklaim generasi sebagai approval.
+- Antrean koreksi kosong, tidak ada batch receipt-missing. Delapan nama besar decline akan dibandingkan dengan riset kini; bila klaim identik tetap dilewati. Hanya complete valid yang belum muncul di ledger/manifest dipilih skrip. Batch paling banyak50, diselesaikan berurutan dengan tiga lane sub-agent gpt-6.1-sol/high; root melihat semua PNG native dan200px.
+- Built-in image_gen dan skill imagegen; Codex hanya PNG/receipt/ledger/jurnal/galeri. Riset/katalog/power/JS/manifest/WebP/backups tidak diubah, tidak integrasi/commit/push. Review wajib Claude Code lokal. Git awal bersih.
+
+### Progres 10:14 WIB
+
+- Batch2029:12PNG tersimpan,11rootnative+200pass;Chaac01rootreject karena senjata terbaca palu kotak bukan kapak petirc01/c06,ditugaskaneditblade. Ashinagatenaga01egrangdiganti02kakibiologis;arsipprompt/hashutuh. Lima decline sumber:azm-c,baak,bell-witch,dorlis,endill,tidakdihitungtarget. TigaPNGpertama(ashinagatenaga,calygreyhound,dzahui)sedangditinjauClaudeCodeCLI secara independen;belumdiklaimapproved.
+- Efekrootdiperiksa:Canens batu/pohon bergerak dan sungaitertahan c04;Atla ombakc02;Dzahui hujanc04;Carmenco menahanpondokc04;lainnyaaksi/anatomi. Dependensilokalsharpsemulahilang;npm ci instal8paket,paket/locktidakdiubah. Timestamp entri mulai10:05adalahlabelperkiraan;progresini memakaiwaktunyataAsia/Jakarta.
+
+### Resume 11:29 WIB
+
+- Pemilik meminta lanjutkan setelah workspace credit terhenti. Status pulih:26PNGtersimpan,8decline,16receiptmissing. ClaudeCode r02 sudah secaraindependen memeriksa13PNGnative+200+crop dan13/13PASS(hashcocok),tidakdiintegrasi. Aktif tetap1887;masih100approvalbaru untuktargettambahan113. Tiga lane lama diresume hanya receiptmissing;tidakmengulangPNGfinal/reviewed.
+- ClaudeCLI r01terhenti tanpaoutput;availabilitycheck safe-modeberhasil danr02berjalanhingga laporan. Root melanjutkan pemeriksaanPNGtersimpan, bukanmenganggapcrediterror menggagalkanfileyangsudahada.
+
+### Progres 12:00 WIB — batch2029 tuntas generasi
+
+- Batch2029 tuntas50/50receipt:39PNGfinal+11tidak-digambar. Seluruh39rootnative1254+200pass;validasi1375checks0error,150tautangaleri valid. Claude r02+r03meluluskan25/25;14sisanya sedang r04. Belumintegrasi,aktif1887. Decline Azmıç/Baak/BellWitch/Blud/Cabicanca/Cottus/Dakhanavar/Dianho/Dorlis/Endill/Galar;alasansumber di39PNG+11receipt dan galeri docs/artwork-batch-2029.html.
+- Arsip11PNGditolak;1toolmoderationfailureFailinis02,03varianbaru benar-benar damai berhasil. Koreksiroot:Ashinagatenagakakiegrang,Babarogatoothless,Chaacaxe,Ewigerarahchase,Bitru4paws,Danzaburouobstruction. Tidakmenghilangkanriwayat.
+- Batch2079 baru50completevalid dipilihskrip dari1141slugtanpamanifestdanbelumpernahledger. LaneA17/B17/C16 agentlama diresume, assignment2079terpisah. Masih74PNGpotentialtambahan untuk113;jumlahapprovaltetapdipantauexacttidakberdasarledgertertutup.
+
+### Progres 13:49 WIB — batch2079 tuntas generasi
+
+- Batch2079 lengkap50receipt=35PNGfinal+15decline. Rootseluruh35native1254+200pass,1321checks0error,142tautangaleri valid. Claude2079r01meluluskan13/13;22sisanya r02sedangberjalan. Batch2029r05meluluskan14/14, sehingga39/39PNG2029approved. Total52newapproved,74PNGpotential. Aktiftetap1887,tidakdiintegrasi.
+- Revisi:Ixcheltopcenterfittingkepalaularambigudigantitabletjadepolos,hanya1ularhead;Haurasburningfortdihapus karena c08burnenemies tidakmengizinkanmenggantikorbandenganbangunan. Kinihanya2fieryeyesc02/c05. Gishiki flight/raiseclouds/rainc05dipilih sebagai manifestasiaktif,sosokhumanlikerestrainededitorialbukan8facesinferred.
+- Batch2118baru39entri(13perlane)dipilihskrip dari1091eligiblebelumpernahledger;dibatasikekuranganPNGpotential39untuktidakmelampau113. Decline2118nantidigantibatchdefisit. PNGtidakdihitungapproval. Pelajaran:perludetailnativecropkakikeenamDijiang/kukuterbalikGlas,hitungan9tailsGumiho/9headsHakusan;aktualvisuallebihpentingdaripromptyangsudahbenar.
+
+## 2026-10-16 14:26 WIB — Codex — mulai, resume target 2.000
+
+- Pulih dari sesi 01a142a3: baseline 1.887 aktif, target tambahan tepat 113 approval Claude. Batch 2029 lengkap; 2079 mempunyai empat koreksi Claude; 2118 masih 13 receipt belum ada, satu koreksi dan 14 menunggu tinjauan. Tidak menghitung decline maupun pemeriksaan Codex sebagai approval.
+- Lanjut batch 2118 yang terputus dan lima koreksi 2079/2118 dengan tiga lane terpisah sesuai GAMBAR.md §2. Root melihat setiap PNG native dan 200px, sinkron ledger, validasi dan galeri. Riwayat Claude dan arsip penolakan dipertahankan. Claude Code lokal meninjau secara independen, tanpa integrasi/commit/push oleh Codex.
+
+### Progres 15:02 WIB — generasi mencukupi, tinjauan berlanjut
+
+- Semua receipt2118 ditutup:34PNG+5decline (tambahan Mazoku tanpa rupa khusus). Batch2123 dipilih skrip tepat5complete-valid yang belumpernahledger untuk mencapai113PNGpotential. Tiga lane resume_2000_a/b/c tetap gpt-6.1-sol/high.
+- Claude2079r03 pass3/rejectHairen; root dan author salah hitung kaki4sebagai5. Edit khusus satu kaki, crop empat ekstremitas masing-masing5digit/4web diperiksa root; Claude2079r04 pass1. Semua35PNG2079 sekarangapproved.
+- Claude2118r02 pass3/rejectLaDiablesse; r03 pass8/rejectKunekune,Matuku,Mulher; keempat sudah diganti dan rootnative+200pass. Claude2123r01 pass3/rejectNootaikok,Ogetsuhime; dua koreksi sedang dibuat. Tidak menulis approval sendiri atau menambahbatch di luar defisit5.
+- Pelajaran: hitung nailtips/webs lewat crop, bukan asumsi siluet. Wujud sumber benar belumcukup jika pembawaan terlalu fashion/romantis/stilllife. Jangan menginfer manipulasi es dari domain; Nootaikok01 diarsipkan karena prompt itu, bukan dipertahankan demi target.
+
+## 2026-10-16 15:51 WIB — Codex — selesai, tepat 113 approval tambahan
+
+- Target ilustrasi/persetujuan tercapai: **113 PNG baru unik, seluruhnya benar-benar disetujui Claude Code lokal**, dengan hash PNG aktual cocok pada receipt, pemeriksaan native/200 Codex, root_visual_review Claude, dan laporan independen Claude per putaran. Baseline1.887 aktif +113approvalbaru =2.000 dalam lingkup permintaan. Angka aktif tetap1.887 karena tidak diintegrasi. Tiga approval historis yang ditahan tetap di luar hitungan. Tidak mengklaim audit ulang seluruh1.887baseline.
+- Pembagian final: batch2029 **39**, batch2079 **35**, batch2118 **33**, batch2123 **5**, batch2124 **1**. Semua145receipt tertutup:113reviewed+32tidak-digambar; **0 menunggu tinjauan, 0 needs-correction dalam scope**. Tidak membuka batch melebihi defisit.
+- Koreksi Claude yang kini lolos:2079 Hairen/Idlirvirissong/Irudica/Keneo;2118 LaDiablesse/MahaSona/Majimun/MatukuTangotango/MulherMarinha/NaRuixa/Nightmarchers;2123 Nootaikok/Ogetsuhime. Kunekune ditunda sesudah tigaPNGterpilih semuanya ditolak Claude, lalu diganti tepat1entri2124 Omononushi yang lolos. Seluruh catatanpenolakan asli, promptpersis, PNG/hash dan provenance alat dipertahankan;47percobaan ditolak terarsip lintasbatch.
+- Validasi teknis **3.876 pemeriksaan,0error**. Audit final memverifikasi113hashunik,113passClaude dengan bukti laporan/hashyangcocok, dan113pemeriksaanrootnative+200px. Snapshot3.753berkas terlindung identik:0berubah,0hilang,0tambahan. Tidak mengubah riset/katalog/power/JS/manifest/WebP/backups, tidak integrasi,commit,push.
+- Galeri final `docs/artwork-session-2000-2026-10-16.html`:376tautanvalid,113gambar; browser390/768/1440px tanpaerror,gambarrusak,altkosong,atauoverflowhorizontal. Promptpersis dan seluruh32declinebesertaalasan ada di `data/artwork-generated/session-2000-2026-10-16/codex-prompts.json` dan `codex-generation-summary.json`; bukti approval perfile di `final-validation.json`, hitungan `approval-progress.json`, keluaranstatus `status-final.txt`.
+- Alat **OpenAI built-in image_gen**; image_model **tidak dilaporkan alat**. Tiga lane resume_2000_a/b/c modelgpt-6.1-sol/high sesuaiGAMBAR; root sendiri memeriksa seluruh PNGbaru/koreksi native+200, cropketat untukjari/kaki. Tidak ada kegagalanalat tambahan padaresumeini. Dua moderation_blocked terdokumentasi dari sesi awal (Failinis2029,LaBolefuego2118); keduanya akhirnya punyaPNGfinal yang lolos, prompt/galat asli tetap tersimpan.
+- Pelajaran: baca kutipan sumber penuh, bukan hanya ringkasan (Majimunc04 menyebutbebekberkakisatu); hitung digit yang benar-benar tampak memakai crop (Hairen/MahaSona); pakaian, bahan dan ekspresi ikutmenentukan kesetiaantradisi (Nightmarchers/Nootaikok); semantik sumber tidak mengizinkan kuasa tambahan dari domain saja. Jangan menganggap tiga percobaan gagal sebagaihasilfinal (Kunekune).
+- Serah terima: Claude pemilik mengintegrasikan113receipt reviewed sesuaiworkflow, termasuk pembuatanrecordkatalog yang diperlukan, lalucommit/push/deploy bila diminta. Codex berhenti karena targetapproval113sudahterpenuhi, bukan karena semuaPNGsekadarselesaidigenerasi.

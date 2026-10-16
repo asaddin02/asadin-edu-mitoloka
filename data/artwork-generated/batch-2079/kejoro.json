@@ -1,0 +1,60 @@
+{
+  "slug": "kejoro",
+  "basis_claim_ids": [
+    "kejoro-c01",
+    "kejoro-c02",
+    "kejoro-c06"
+  ],
+  "depicted_variant": "Courtesan-like yokai with entire face obscured by an overwhelming curtain of hair; features not asserted.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Courtesan-like figure whose face is obscured by hair, existence of features left unresolved",
+      "claim_ids": [
+        "kejoro-c02",
+        "kejoro-c06"
+      ]
+    }
+  ],
+  "aura": "Impenetrable hair curtain c02/c06 and sudden close turn create dread without inventing face or power.",
+  "artistic_choices": [
+    "Fully opaque layered Edo-style robe and plain tied obi realize courtesan identity; no sexualized styling.",
+    "No faceless-skin interpretation mixed; no feature visible under hair.",
+    "Close bent approach and ordinary corridor draft lift outer hair strands; no claimed supernatural hair-control effect."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kejōrō, the Japanese courtesan-like yokai whose face is hidden by hair.\nANATOMY: ONE adult woman-like figure, one head completely engulfed by an enormous thick curtain of long rough BLACK HAIR, every part of face totally obscured: NO eyes, mouth, nose or blank skin visible. Do not reveal whether a face exists. TWO arms and TWO legs beneath fully opaque layered dark plum and antique-gold Edo-style robe, plain tied obi, high closed collar, no cleavage [kejoro-c02,kejoro-c06].\nMOMENT: Turn sharply around a dark corridor corner and bend toward viewer as though suddenly encountering them; one hand grips timber doorpost, the other pulls robe hem clear of step. Hair swings forward into lens, outer strands lifted by ordinary corridor draft, whole hidden-face head fills upper foreground. Not calmly standing.\nPOWER: no documented visible power; menace comes only from impenetrable hair and confrontational movement, no floating hair tentacles, spell or aura.\nSCALE & CAMERA: extreme low close angle, hair-shrouded head and hunched shoulder dominate square, normal human size through tight framing; no invented giant scale.\nLIGHT & WEATHER: one low amber lantern OFF FRAME rakes shiny coarse hair and layered cloth, deep walnut shadows, slight ordinary indoor dust.\nSURFACE: tangled coarse black hair, worn opaque silk robe, old wood doorpost and floor.\nSETTING: editorial narrow Edo-style interior passage, no specific location asserted.\nMOOD: profoundly uncanny sudden close encounter, never ordinary relaxed woman, cute, erotic, glamour portrait or decorative pose. Features remain completely hidden.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Premium painterly brushwork, dark warm walnut and antique gold palette, square composition.",
+  "name": "Kejōrō",
+  "batch": 2079,
+  "worker": "codex",
+  "worker_agent": "images2000_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a9-04be-7f22-a004-84f175a157e1/exec-df364122-2abd-48aa-8ac5-d3ca52969dca.png",
+  "generated_at": "2026-10-16T05:38:32.760Z",
+  "original_file": "data/artwork-generated/batch-2079/originals/kejoro.png",
+  "native_sha256": "0b813c6abbd78e48093451cc5d3a37fdffda15825fcc6b13ad1e8e796d6c7ced",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one fully clothed courtesan-like figure with face entirely hidden by thick black hair; no facial feature or blank-skin face invented. Two hands, one gripping doorpost/other hem, bent forward turning pose with flying hair conveys sudden close encounter. Intense hidden-face presence at 200px, no ordinary glamour portrait. No supernatural hair tentacles, text, glow, nudity or gore. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "0b813c6abbd78e48093451cc5d3a37fdffda15825fcc6b13ad1e8e796d6c7ced",
+    "reviewed_at": "2026-10-16T05:38:32.761Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:03:02+07:00",
+    "native_sha256": "0b813c6abbd78e48093451cc5d3a37fdffda15825fcc6b13ad1e8e796d6c7ced",
+    "notes": "Viewed native 1254px, 200px and both-hand crops. A courtesan-like figure (kejoro-c02) in fully opaque layered plum-and-gold brocade kimono with a tied obi and closed collar. Her head is completely engulfed by a thick curtain of long black hair, with no eyes, nose, mouth or blank skin visible, so whether a face exists stays unresolved (c06). Two hands: the right grips the timber doorpost (natural grip), and the left pulls the robe hem. She bends sharply around the corridor corner toward the low camera, with hair swinging into the lens and a single lantern at the far end of the narrow wooden passage. Deeply uncanny and dominant at 200px. Not a glamour or ordinary-woman pose, no nudity, aura or text. The brocade kimono avoids the white-dress film-ghost design."
+  }
+}

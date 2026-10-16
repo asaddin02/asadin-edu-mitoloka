@@ -1,0 +1,72 @@
+{
+  "slug": "bajbur",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bajbur, tall black-bodied voice-mimicking spirit of Genub.\nANATOMY: ONE tall elongated BLACK humanlike body with one head, TWO arms and TWO legs; fully opaque black coarse robe over black form. Face is so completely dark that NO features, eyes, teeth, nose or mouth can be distinguished [bajbur-c05]. No glowing eyes or horns.\nMOMENT: Step out from the dark village passage toward the viewer with one hand lifted as if calling someone nearer, head bent down toward viewer; fingers silhouette against dim light. Keep face a totally opaque black void.\nPOWER: Imitates parents voices to call a persons name [bajbur-c02]; suggest calling through gesture only, no words or sound wave graphics.\nSCALE & CAMERA: extreme low angle; tight close camera, subject fills square, no undocumented giant size.\nLIGHT & WEATHER: one dominant amber lantern or low moon, deep walnut shadows, hard rim light; physically ordinary dust or rain appropriate to scene.\nSURFACE: tactile weathered skin, coarse cloth, straw, wood or stone; premium painted detail, no plastic.\nSETTING: Genub/Gimry stone village in Dagestan, a dark alley [bajbur-c01,bajbur-c07].\nMOOD: deeply uncanny, imposing and active; never cute, calm or decorative. Preserve helpful beings as helpful.\nHARD CONSTRAINTS: no text, lettering, inscription, logo, border, frame or watermark; no extra heads, eyes, limbs or fingers; no film, game, anime or comic designs; fully opaque clothing on humanoids; no nudity or explicit gore; no generic glowing aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "Bajbur, tall black-bodied voice-mimicking spirit of Genub",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tall black body and entirely unseeable dark facial features",
+      "claim_ids": [
+        "bajbur-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Calling in parent voice, gesture only",
+      "claim_ids": [
+        "bajbur-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Genub/Gimry village",
+      "claim_ids": [
+        "bajbur-c01",
+        "bajbur-c07"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "bajbur-c05",
+    "bajbur-c02",
+    "bajbur-c01",
+    "bajbur-c07"
+  ],
+  "aura": "Documented form and action dominate through low framing and physical light; no aura.",
+  "artistic_choices": [
+    "Robe, alley, moonlight and reaching pose editorial; no visible facial features, no invented magical effects."
+  ],
+  "rejected_attempts": [],
+  "worker": "codex",
+  "worker_agent": "images2000_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "batch": 2029,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-a11e-7273-9ac2-6cc6019d8a05/exec-85b871fb-845a-4748-8df2-6b2269f62bc8.png",
+  "generated_at": "2026-10-16T03:16:34.628Z",
+  "original_file": "data/artwork-generated/batch-2029/originals/bajbur.png",
+  "native_sha256": "3120dabab237275dc3d5c81fba5b21539b615f18074f93e91d92702d6ddf4f32",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected: single tall black form, two arms/hands, robe covers legs; face fully black with no invented eye glow, nose, mouth or teeth. Active reaching/calling gesture and looming close camera, no aura or text. Texture and blank face remain menacing at 200px; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "3120dabab237275dc3d5c81fba5b21539b615f18074f93e91d92702d6ddf4f32",
+    "reviewed_at": "2026-10-16T03:16:34.629Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T11:44:40+07:00",
+    "native_sha256": "3120dabab237275dc3d5c81fba5b21539b615f18074f93e91d92702d6ddf4f32",
+    "notes": "Viewed native 1254px + 200px. Tall black-robed figure whose hooded face is an entirely featureless void of darkness — features invisible exactly as c05 requires, with no invented face and no glowing eyes. One hand beckons toward the viewer (the name-calling lure, c02) while the other hangs at its side; opaque ragged robe. Set in a moonlit stone mountain-village alley with a lantern (c07). Imposing and dominates the frame at 200px; a generic faceless-wanderer archetype, not a borrowed film design; no text or aura. c05/c02/c07 satisfied."
+  }
+}

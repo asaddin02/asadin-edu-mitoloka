@@ -1,0 +1,177 @@
+{
+  "slug": "idlirvirissong",
+  "name": "Idlirvirissong",
+  "batch": 2079,
+  "prompt": "Edit this Inuit supernatural spirit illustration while preserving clothing, two arms/two legs, three dogs, empty plate, sky-house doorway and vigorous dance pose. Change ONLY her facial expression and NOSE shape to the documented spirit Idlirvirissong: nose is distinctly exaggerated and TURNED UP AT BOTH SIDES, nostrils flaring visibly upward, broad tip curled up, recognizably uncanny at thumbnail scale. Face forms a deliberately grotesque theatrical grimace with twisted grin, one eyebrow high and other low, eyes fixed intensely on viewer; dangerous invitation rather than friendly happiness. No modern clown makeup, no giant body, no added horns/teeth/fangs, no injury or gore. Respectful original depiction of the specific hostile spirit; no text, aura or borrowed design. Basis idlirvirissong-c02,c09 upturned nose and c11 dancing/grimaces.",
+  "depicted_variant": "ONE adult woman with visibly upturned nose flared at sides, two eyes, one head, TWO arms and TWO legs, fully opaque traditional Arctic hide garments; grotesque exaggerated grimace, no modern clown makeup or clown costume. [idlirvirissong-c02,idlirvirissong-c04,idlirvirissong-c09]",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE adult woman with visibly upturned nose flared at sides, two eyes, one head, TWO arms and TWO legs, fully opaque traditional Arctic hide garments; grotesque exaggerated grimace, no modern clown makeup or clown costume. [idlirvirissong-c02,idlirvirissong-c04,idlirvirissong-c09]",
+      "claim_ids": [
+        "idlirvirissong-c02",
+        "idlirvirissong-c04",
+        "idlirvirissong-c09",
+        "idlirvirissong-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dance tests newly deceased visitors; no injury, blood, entrails or magical effects depicted.",
+      "claim_ids": [
+        "idlirvirissong-c05",
+        "idlirvirissong-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior threshold of her house in sky, dark cloudbanks visible through doorway.",
+      "claim_ids": [
+        "idlirvirissong-c05"
+      ]
+    }
+  ],
+  "basis_claim_ids": [
+    "idlirvirissong-c02",
+    "idlirvirissong-c04",
+    "idlirvirissong-c09",
+    "idlirvirissong-c05",
+    "idlirvirissong-c06",
+    "idlirvirissong-c11"
+  ],
+  "aura": "Distinctive anatomy idlirvirissong-c02,idlirvirissong-c04,idlirvirissong-c09 and documented action idlirvirissong-c05,idlirvirissong-c06.",
+  "artistic_choices": [
+    "Dark warm palette and close low camera are editorial composition, no unsupported giant size or magic.",
+    "Opaque garments and restrained original design preserve modesty and respectful treatment."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-882ab84d-f1d4-40e0-8edd-082b34a17632.png",
+  "generated_at": "2026-10-16T05:26:36.647Z",
+  "original_file": "data/artwork-generated/batch-2079/rejected/idlirvirissong-attempt-02.png",
+  "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "images2000_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2079/rejected/idlirvirissong-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2079/rejected/idlirvirissong-attempt-01.json",
+      "native_sha256": "8079de1e41dc725fa389c956c58103c0568a4350153c5aa2066da85647013158",
+      "reason": "Self-reject: upturned nose and grotesque grimace insufficiently distinctive at200px; reads ordinary woman dancing."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200px inspected after nose edit: markedly upturned/flared nose and grotesque grimacing eyes/mouth c02/c09/c11, two arms/two legs in stomping dance, empty plate and three dogs c05/c06. Opaque hide clothes, sky doorway. Threatening test-dance rather than neutral ordinary pose; no blood/gore/aura/text. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+    "reviewed_at": "2026-10-16T05:26:36.659Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T14:03:02+07:00",
+    "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+    "notes": "Viewed native 1254px, 200px, face crop and dog crop. The figure reads as an ordinary middle-aged woman in a fur parka doing a kicking dance with a broad cheerful grin, beside three friendly, smiling huskies, in a timber doorway: an 'ordinary person with pet dogs' image that fails Uji Sangar #2/#7. The documented nose 'turned up on the sides' (idlirvirissong-c02/c09) is not legible: at native resolution it is a normal broad nose seen from below with visible nostrils, and at 200px nothing distinguishes it. The grimace reads as happy laughter rather than the uncanny, laughter-baiting clown grimace (c11), and the dogs look like friendly pets, not hungry dogs waiting to be fed (c05/c06). The sky house (c05/c09) reads only as clouds through a door. A realistic portrait of an ordinary Indigenous woman pulling a grotesque face also risks reading as an ethnic caricature, not as the spirit. Fully opaque hide clothing, an empty plate, two arms/two legs, and no text or gore are fine."
+  },
+  "correction_notes": "Redraw so the spirit is unmistakably not an ordinary woman: make the nose that is turned up and flared at both sides (idlirvirissong-c02/c09) a clear, readable trait at 200px. Make the dance an uncanny clown-like performance with grimaces meant to bait laughter (c02/c11), not a cheerful grin, and put her house plainly in the sky, with cloudbanks below or around the threshold (c05/c09). Show the many dogs as lean, hungry and watchful beside the empty plate qengmerping (c05/c06), not as smiling pets. Avoid a photographic ethnic portrait caricature. Keep fully opaque Arctic garments, no entrails, blood or gore, no aura, and no text.",
+  "receipt_file": "data/artwork-generated/batch-2079/rejected/idlirvirissong-attempt-02.json",
+  "reason": "Redraw so the spirit is unmistakably not an ordinary woman: make the nose that is turned up and flared at both sides (idlirvirissong-c02/c09) a clear, readable trait at 200px. Make the dance an uncanny clown-like performance with grimaces meant to bait laughter (c02/c11), not a cheerful grin, and put her house plainly in the sky, with cloudbanks below or around the threshold (c05/c09). Show the many dogs as lean, hungry and watchful beside the empty plate qengmerping (c05/c06), not as smiling pets. Avoid a photographic ethnic portrait caricature. Keep fully opaque Arctic garments, no entrails, blood or gore, no aura, and no text.",
+  "previous_receipt": {
+    "slug": "idlirvirissong",
+    "name": "Idlirvirissong",
+    "batch": 2079,
+    "prompt": "Edit this Inuit supernatural spirit illustration while preserving clothing, two arms/two legs, three dogs, empty plate, sky-house doorway and vigorous dance pose. Change ONLY her facial expression and NOSE shape to the documented spirit Idlirvirissong: nose is distinctly exaggerated and TURNED UP AT BOTH SIDES, nostrils flaring visibly upward, broad tip curled up, recognizably uncanny at thumbnail scale. Face forms a deliberately grotesque theatrical grimace with twisted grin, one eyebrow high and other low, eyes fixed intensely on viewer; dangerous invitation rather than friendly happiness. No modern clown makeup, no giant body, no added horns/teeth/fangs, no injury or gore. Respectful original depiction of the specific hostile spirit; no text, aura or borrowed design. Basis idlirvirissong-c02,c09 upturned nose and c11 dancing/grimaces.",
+    "depicted_variant": "ONE adult woman with visibly upturned nose flared at sides, two eyes, one head, TWO arms and TWO legs, fully opaque traditional Arctic hide garments; grotesque exaggerated grimace, no modern clown makeup or clown costume. [idlirvirissong-c02,idlirvirissong-c04,idlirvirissong-c09]",
+    "visual_requirements": [
+      {
+        "kind": "anatomy",
+        "description": "ONE adult woman with visibly upturned nose flared at sides, two eyes, one head, TWO arms and TWO legs, fully opaque traditional Arctic hide garments; grotesque exaggerated grimace, no modern clown makeup or clown costume. [idlirvirissong-c02,idlirvirissong-c04,idlirvirissong-c09]",
+        "claim_ids": [
+          "idlirvirissong-c02",
+          "idlirvirissong-c04",
+          "idlirvirissong-c09",
+          "idlirvirissong-c11"
+        ]
+      },
+      {
+        "kind": "effect",
+        "description": "Dance tests newly deceased visitors; no injury, blood, entrails or magical effects depicted.",
+        "claim_ids": [
+          "idlirvirissong-c05",
+          "idlirvirissong-c06"
+        ]
+      },
+      {
+        "kind": "setting",
+        "description": "Interior threshold of her house in sky, dark cloudbanks visible through doorway.",
+        "claim_ids": [
+          "idlirvirissong-c05"
+        ]
+      }
+    ],
+    "basis_claim_ids": [
+      "idlirvirissong-c02",
+      "idlirvirissong-c04",
+      "idlirvirissong-c09",
+      "idlirvirissong-c05",
+      "idlirvirissong-c06",
+      "idlirvirissong-c11"
+    ],
+    "aura": "Distinctive anatomy idlirvirissong-c02,idlirvirissong-c04,idlirvirissong-c09 and documented action idlirvirissong-c05,idlirvirissong-c06.",
+    "artistic_choices": [
+      "Dark warm palette and close low camera are editorial composition, no unsupported giant size or magic.",
+      "Opaque garments and restrained original design preserve modesty and respectful treatment."
+    ],
+    "generated_file": "/home/asadin/.codex/generated_images/01a142a8-d3c4-7fe0-82ba-999d574c7929/exec-882ab84d-f1d4-40e0-8edd-082b34a17632.png",
+    "generated_at": "2026-10-16T05:26:36.647Z",
+    "original_file": "data/artwork-generated/batch-2079/originals/idlirvirissong.png",
+    "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+    "width": 1254,
+    "height": 1254,
+    "worker": "codex",
+    "worker_agent": "images2000_b",
+    "subagent_model": "gpt-6.1-sol",
+    "subagent_reasoning_effort": "high",
+    "tool": "OpenAI built-in image_gen",
+    "image_model": "tidak dilaporkan alat",
+    "status": "needs-correction",
+    "review_path": "data/gemini/reviews/batch-147.review.json",
+    "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "generation_failures": [],
+    "rejected_attempts": [
+      {
+        "original_file": "data/artwork-generated/batch-2079/rejected/idlirvirissong-attempt-01.png",
+        "receipt_file": "data/artwork-generated/batch-2079/rejected/idlirvirissong-attempt-01.json",
+        "native_sha256": "8079de1e41dc725fa389c956c58103c0568a4350153c5aa2066da85647013158",
+        "reason": "Self-reject: upturned nose and grotesque grimace insufficiently distinctive at200px; reads ordinary woman dancing."
+      }
+    ],
+    "visual_review": {
+      "reviewer": "codex",
+      "verdict": "pass",
+      "notes": "Native and200px inspected after nose edit: markedly upturned/flared nose and grotesque grimacing eyes/mouth c02/c09/c11, two arms/two legs in stomping dance, empty plate and three dogs c05/c06. Opaque hide clothes, sky doorway. Threatening test-dance rather than neutral ordinary pose; no blood/gore/aura/text. All seven Sangar checks pass.",
+      "limitations": [],
+      "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+      "reviewed_at": "2026-10-16T05:26:36.659Z"
+    },
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-16T14:03:02+07:00",
+      "native_sha256": "a95387414dde4a4acf901fea58c3839c32b71824cfeeac635bc2ce4a6ddc3bfb",
+      "notes": "Viewed native 1254px, 200px, face crop and dog crop. The figure reads as an ordinary middle-aged woman in a fur parka doing a kicking dance with a broad cheerful grin, beside three friendly, smiling huskies, in a timber doorway: an 'ordinary person with pet dogs' image that fails Uji Sangar #2/#7. The documented nose 'turned up on the sides' (idlirvirissong-c02/c09) is not legible: at native resolution it is a normal broad nose seen from below with visible nostrils, and at 200px nothing distinguishes it. The grimace reads as happy laughter rather than the uncanny, laughter-baiting clown grimace (c11), and the dogs look like friendly pets, not hungry dogs waiting to be fed (c05/c06). The sky house (c05/c09) reads only as clouds through a door. A realistic portrait of an ordinary Indigenous woman pulling a grotesque face also risks reading as an ethnic caricature, not as the spirit. Fully opaque hide clothing, an empty plate, two arms/two legs, and no text or gore are fine."
+    },
+    "correction_notes": "Redraw so the spirit is unmistakably not an ordinary woman: make the nose that is turned up and flared at both sides (idlirvirissong-c02/c09) a clear, readable trait at 200px. Make the dance an uncanny clown-like performance with grimaces meant to bait laughter (c02/c11), not a cheerful grin, and put her house plainly in the sky, with cloudbanks below or around the threshold (c05/c09). Show the many dogs as lean, hungry and watchful beside the empty plate qengmerping (c05/c06), not as smiling pets. Avoid a photographic ethnic portrait caricature. Keep fully opaque Arctic garments, no entrails, blood or gore, no aura, and no text."
+  },
+  "archived_at": "2026-10-16T07:31:46.420696+00:00"
+}
