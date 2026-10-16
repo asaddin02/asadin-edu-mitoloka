@@ -70,7 +70,7 @@ Ceritanya sendiri tetap kamu tulis dengan kata-katamu sendiri. Kutipan hanya buk
 6. Lewati tokoh manusia (nabi, orang suci, raja, pahlawan) dan hewan biasa.
 7. Jangan mengurus gambar; itu dikerjakan terpisah.
 8. **Hanya tulis di dalam `materi-gemini/`.** Jangan mengubah berkas atau folder lain di repo.
-9. Commit ke cabang **`gemini/materi`**, bukan `main`. Folder ini tidak ikut ter-deploy ke situs.
+9. **Kamu tidak bisa push ke repo.** Di akhir setiap sesi, sediakan **seluruh folder `materi-gemini/`** sebagai satu berkas zip untuk diunduh pemilik (nama yang disarankan: `materi-gemini-<repo>.zip`). Isinya: semua berkas yang sudah ada di repo, ditambah berkas baru dan berkas yang kamu ubah. Jangan hanya berkas baru. Claude memasukkan isi zip ke repo; folder ini tidak ikut ter-deploy ke situs.
 
 ## Status dan tanda selesai
 
