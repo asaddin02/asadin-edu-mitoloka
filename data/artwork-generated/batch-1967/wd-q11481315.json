@@ -59,7 +59,7 @@
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "awaiting-independent-review",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-063.review.json",
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
   "generation_failures": [],
@@ -71,5 +71,12 @@
     "limitations": [],
     "native_sha256": "a5cfc84dec64169d3ce4211e6bdf2f42c95dfc2dc6364423733ed43aea5af099",
     "reviewed_at": "2026-10-15T17:32:50.669937+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T09:05:00+07:00",
+    "native_sha256": "a5cfc84dec64169d3ce4211e6bdf2f42c95dfc2dc6364423733ed43aea5af099",
+    "notes": "Matches the receipt at native size and 200px: Flying bound-human-shaped insect with human-face form from emergence accounts; excludes box-holding Otsu alternative. Anatomy counts and effects follow the cited claims; no text, gore or borrowed design."
   }
 }

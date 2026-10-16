@@ -57,7 +57,7 @@
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "awaiting-independent-review",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-064.review.json",
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
   "generation_failures": [],
@@ -69,5 +69,12 @@
     "limitations": [],
     "native_sha256": "00ef069d6e00c9a32556ca51e1a674cb335b2505eb95ad038f553aa62590296a",
     "reviewed_at": "2026-10-15T17:34:01.571925+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T09:05:00+07:00",
+    "native_sha256": "00ef069d6e00c9a32556ca51e1a674cb335b2505eb95ad038f553aa62590296a",
+    "notes": "Matches the receipt at native size and 200px: Black tanuki-like beast licking fodder box while livestock collapses, no invented supernatural anatomy. Anatomy counts and effects follow the cited claims; no text, gore or borrowed design."
   }
 }

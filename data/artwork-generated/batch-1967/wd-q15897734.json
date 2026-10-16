@@ -53,7 +53,7 @@
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "awaiting-independent-review",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-071.review.json",
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
   "generation_failures": [],
@@ -65,5 +65,12 @@
     "limitations": [],
     "native_sha256": "a367f5e6569044e8054cb4bbeb6ef005983ad9b95c9bb717c3ebc7e06c1c2967",
     "reviewed_at": "2026-10-15T17:37:17.163481+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T09:05:00+07:00",
+    "native_sha256": "a367f5e6569044e8054cb4bbeb6ef005983ad9b95c9bb717c3ebc7e06c1c2967",
+    "notes": "Matches the receipt at native size and 200px: Leopard-like Yao with elaborately patterned head, no invented horns or powers. Anatomy counts and effects follow the cited claims; no text, gore or borrowed design."
   }
 }

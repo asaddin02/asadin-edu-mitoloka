@@ -12,7 +12,7 @@
     "bukan-makhluk": 139
   },
   "status": "in-progress",
-  "complete": 46,
+  "complete": 47,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -4529,7 +4529,7 @@
       "slug": "wd-q12284431",
       "canonical_name": "Kutsulan",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-127.review.json",
       "research": {
@@ -4876,9 +4876,59 @@
         "wd-q12284431-c07",
         "wd-q12284431-c08"
       ],
-      "original_file": "data/artwork-generated/batch-1817/originals/wd-q12284431.png",
-      "native_sha256": "4f36f25a8e438976fac1ce40c189a2daa8e70bd7df862ebd07b15285d4efb101",
-      "receipt_path": "data/artwork-generated/batch-1817/wd-q12284431.json"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1817/originals/wd-q12284431.png",
+      "native_sha256": "34e35da72667cdb103c53ba24d6433f022306a4fe31630078743d5583087491c",
+      "receipt_path": "data/artwork-generated/batch-1817/wd-q12284431.json",
+      "url": "/assets/art/wd-q12284431-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kutsulan, the BIG LAME wolf and lone feared wolf leader of Bulgarian folk belief [wd-q12284431-c01,wd-q12284431-c02,wd-q12284431-c08].\nANATOMY: Exactly one very large wolf, one head, two natural eyes, FOUR LEGS and one tail. The NEAR FRONT LEG is permanently malformed by severe withering: only HALF THE LENGTH and ONE QUARTER THE THICKNESS of the healthy front leg, thin wasted bony foreleg emerging clearly from near shoulder, sharply bent contracted wrist and tiny curled paw. It hangs uselessly at chest level then trails backward across foreground dirt; paw bends inward and cannot bear weight. No wounds, blood, bandages or exposed bone. The other THREE legs are thick sound wolf legs, all three planted on ground in a broad asymmetric stance. Clean unobstructed near foreleg silhouette against lit dirt: do not hide it under fur, chest or sound legs [wd-q12284431-c02,wd-q12284431-c08].\nMOMENT: Crawl one step toward the fruit-tree trunk and snarl upward at a fully clothed adult man crouching in a low fruit-tree fork at upper right. Wolf remains mostly horizontal, massive chest supported on its ONE healthy front paw while the tiny crippled front leg hangs below the near shoulder and drags its curled paw in dirt. The man urgently pulls back his dangling boot and grips branch; no biting, injury or contact [wd-q12284431-c04,wd-q12284431-c06].\nSIZE: The wolf is larger than a normal wolf: shoulder height approximately equal to the seated adult man's entire head-to-boot body length, enormous head roughly the width of the man's torso. Both are on approximately same picture plane, so direct comparison is clear. Big animal scale, not mountainous giant. Wolf fills 75 percent of frame and the man is fully visible including hands, torso and dangling boot.\nCAMERA: low three-quarter near-side view, whole wolf from rear paws to head, with the WASTED NEAR FRONT LEG in bottom-center foreground, very bright rim outlining its short thin shaft and contracted tiny paw. Far sound foreleg clearly separate and twice as long. Fruit-tree trunk at right, man above just beyond jaws.\nPOWER: no supernatural powers documented, no effects except physical dust beneath dragging little paw and heavy sound paws [wd-q12284431-c01,wd-q12284431-c02,wd-q12284431-c08].\nLIGHT: One low warm sunset rakes across wolf, withered leg and man, deep walnut shadows and antique gold rim. Dark setting.\nSURFACE: coarse matted dark grey-brown fur, sparse natural fur over the visibly wasted short foreleg, rough bark and dull fruit. No flesh wounds.\nSETTING: Bulgarian fruit-tree encounter with man picking fruit in branches; intact wicker basket near man [wd-q12284431-c04].\nMOOD: dangerous unequal confrontation, terrible lame wolf, never ordinary wildlife, cute or peaceful.\nHARD CONSTRAINTS: no text, lettering, pseudotext, watermark, border or frame; no extra head, legs, eyes or tail; no horns, armor, costume, magic, glowing eyes or aura. No film/game/anime design; no nudity, blood, injuries, biting or eating. Adult man only. DO NOT show FOUR sound normal-length legs. ONE foreleg must be VERY SHORT and THIN with TINY CONTRACTED PAW.",
+      "depicted_variant": "Exceptionally big lone wolf lunges at fruit picker above, with visibly withered dragging foreleg exposed beside sound foreleg bracing tree.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One very large wolf, one head two eyes FOUR legs. Near foreleg unmistakably half-length and quarter-thickness, with tiny contracted inward paw dragging uselessly; other three legs thick and weight-bearing. Large body shown against full adult man in same plane.",
+          "claim_ids": [
+            "wd-q12284431-c02",
+            "wd-q12284431-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Wolf threatens a living fully clothed man picking fruit in the tree; the snarling wolf is actively reaching the man's dangling boot without contact or injury.",
+          "claim_ids": [
+            "wd-q12284431-c01",
+            "wd-q12284431-c04",
+            "wd-q12284431-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Fruit tree with the endangered fruit picker above the wolf. A lone wolf representing the pack leader, not accompanied by a pack.",
+          "claim_ids": [
+            "wd-q12284431-c01",
+            "wd-q12284431-c04",
+            "wd-q12284431-c08"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "wd-q12284431-c01",
+        "wd-q12284431-c02",
+        "wd-q12284431-c04",
+        "wd-q12284431-c06",
+        "wd-q12284431-c08"
+      ],
+      "aura": "Danger comes from big lame wolf anatomy c02/c08 and the man's direct peril in the fruit-tree encounter c04/c06; solitary mythical pack leader c01/c08, no supernatural effect.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and200px inspected. Near front limb visibly wasted and much thinner than other three legs, shortened contracted lower shaft and tiny curled paw dragged under chest c02/c08. Three sound heavy paws distinct, four legs total; head two eyes one tail. Massive wolf head and shoulders compared directly with complete adult man in same fruit tree c04 establish exceptionally big wolf c02. Snarling approach at fruit picker c01/c04/c06, ground dust only, no blood or text. Seven Sangar checks yes; prior ordinary-wolf failure addressed with explicit asymmetric limb and size cue.",
+        "limitations": [],
+        "native_sha256": "34e35da72667cdb103c53ba24d6433f022306a4fe31630078743d5583087491c",
+        "reviewed_at": "2026-10-16T01:11:07.891516+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f9097c97f9b93496a091b121f29db6122b1d858c3bf6f24e504d55cd90e3180a"
     },
     {
       "index": 13,
@@ -19416,8 +19466,8 @@
   "generation_complete": true,
   "generation_completed_at": "2026-10-15T12:02:18.141Z",
   "generation_status_counts": {
-    "reviewed": 43,
+    "reviewed": 46,
     "tidak-digambar": 3,
-    "awaiting-independent-review": 4
+    "awaiting-independent-review": 1
   }
 }

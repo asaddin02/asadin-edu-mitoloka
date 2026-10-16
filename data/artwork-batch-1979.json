@@ -11,8 +11,8 @@
     "belum-ada-entri": 1324,
     "bukan-makhluk": 139
   },
-  "status": "in-progress",
-  "complete": 0,
+  "status": "complete",
+  "complete": 2,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -21,7 +21,7 @@
       "slug": "argopelter",
       "canonical_name": "Agropelter",
       "worker": "codex",
-      "status": "pending",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-145.review.json",
       "research": {
@@ -358,14 +358,63 @@
       "selection_visual_claim_ids": [
         "argopelter-c06",
         "argopelter-c09"
-      ]
+      ],
+      "receipt_path": "data/artwork-generated/batch-1979/argopelter.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1979/originals/argopelter.png",
+      "native_sha256": "ed904accd96b6b3dcb84d44880ce94b8bb49153d687ea4af341feebd2df3410c",
+      "url": "/assets/art/argopelter-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Agropelter, the branch-hurling fearsome critter of American lumberwoods.\nANATOMY: ONE slender wiry animal body, ONE sinister ape-like face with two eyes and ordinary ape teeth, TWO astonishingly long thin flexible muscular WHIPLASH arms, two legs crouched against hollow-tree wood; each arm ends in one five-finger ape-like hand, no tail, horns, wings, extra faces, giant fangs or added limbs. Sparse coarse dark brown fur on wiry torso, weathered nearly bare long muscular arms [argopelter-c06].\nMOMENT: Twist out of a hollow tree straight toward the intruding viewer, hurl a jagged dead branch directly across the foreground with its right whiplash arm in a snapping follow-through, left long flexible arm pulls another dead branch from the tree. Show two arms separately and clearly; head close and menacing, not a normal chimp in a tree.\nPOWER: physically snaps dead branches and throws wood splinters and branches at the unwary [argopelter-c02,argopelter-c06]. One freshly hurled heavy wooden branch blasts past camera with chips flying from its broken end; no supernatural glow, no cannons, no invented tornado.\nSCALE & CAMERA: extreme low close angle just outside the hollow tree; wiry creature, sinister face and long flexible arms fill 80 percent of frame. No giant body or tiny human comparison; terrifying proximity rather than invented size.\nLIGHT & WEATHER: one dominant dying sunset beam slices through conifer canopy, bronze rim light, deep walnut shadows, ordinary sawdust and wood chips scattering from branch break.\nSURFACE: matted coarse brown fur, sinewy leathery arms, splintered dry branches, coarse damp conifer bark.\nSETTING: large hollow conifer tree in the Maine-to-Oregon lumberwoods, dark surrounding conifer forest at edges [argopelter-c01,argopelter-c04].\nMOOD: vengeful, dangerous and predatory; an aggressive supernatural critter hurling wood toward us, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline, energy ribbons or floating runes. Premium painterly brushwork, dark warm palette, square composition.",
+      "depicted_variant": "Slender ape-faced lumberwoods critter with muscular whiplash arms, hurling a dead branch.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Slender wiry body, villainous ape face and two muscular whiplike arms",
+          "claim_ids": [
+            "argopelter-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Snaps dead branches and hurls them at people",
+          "claim_ids": [
+            "argopelter-c02",
+            "argopelter-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Hollow conifer tree in Maine-to-Oregon lumberwoods",
+          "claim_ids": [
+            "argopelter-c01",
+            "argopelter-c04"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "argopelter-c06",
+        "argopelter-c02",
+        "argopelter-c01",
+        "argopelter-c04"
+      ],
+      "aura": "Extraordinary whiplash arms and physical branch attack c02/c06 create threat, no invented magic.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: slender wiry ape-faced critter has exactly two extremely long muscular arms, two crouched legs, one head/two eyes. One hand releases heavy dead branch toward viewer and other snaps wood; c02/c06 action, hollow conifer tree c01. Long arms/action distinguish from ordinary ape. Foreground fingers perspective-consistent; no extra limbs, text, glow or gore. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "ed904accd96b6b3dcb84d44880ce94b8bb49153d687ea4af341feebd2df3410c",
+        "reviewed_at": "2026-10-16T00:57:44.103764+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9e53c578b7cbc902f9f0183e7d5eef393167dd275a97e6102e7ce1ca400b4285"
     },
     {
       "index": 2,
       "slug": "arquetu",
       "canonical_name": "Arquetu",
       "worker": "codex",
-      "status": "pending",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-130.review.json",
       "research": {
@@ -694,7 +743,73 @@
       "selection_visual_claim_ids": [
         "arquetu-c01",
         "arquetu-c05"
-      ]
+      ],
+      "receipt_path": "data/artwork-generated/batch-1979/arquetu.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1979/originals/arquetu.png",
+      "native_sha256": "69b9e304af23eb8814d405c0b600e2137518caca1e105470203b6e3dad882fee",
+      "url": "/assets/art/arquetu-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Arquetu, the stern Cantabrian wealth-lender who condemns repeat spendthrifts to poverty.\nANATOMY: ONE old human man with ONE head, two eyes, TWO arms and TWO legs; long flowing RED hair, aged ordinary human face, fully opaque WHITE habit with conspicuous PURPLE blotches. His broad bare forehead has ONE clearly painted solid GREEN CROSS surrounded by EXACTLY SEVEN small plain painted round dots: three dots vertically on the left of cross and four vertically on its right, no other marks. These are simple painted symbols, NOT letters or runes. Choose French seven-dot variant [arquetu-c03], NOT keys/padlocks variant. Cloud-ivory bag hangs from shoulder; LEFT arm firmly carries ONE golden chest with silver and polished bronze ornament, no inscriptions [arquetu-c05,arquetu-c06].\nMOMENT: Stride angrily toward the viewer on mountain road, lean forward and point his RIGHT index finger directly down toward a kneeling repeat spendthrift at lower right, pronouncing condemnation; mouth mid-command and eyes furious. LEFT arm stays wrapped around gold chest beneath it. Long red hair and spotted white habit sweep in ordinary mountain wind. Keep forehead cross and all SEVEN dots clearly visible.\nPOWER: condemns repeat spendthrifts to begging along roads [arquetu-c02,arquetu-c07,arquetu-c08]. Show consequence concretely as one fully clothed desperate adult beggar low at frame edge holding an empty plain wooden bowl and an empty turned-out purse. No invented coin-to-dust effect, magic beams, glowing forehead or floating money.\nSCALE & CAMERA: extreme low close angle, face/green cross, red hair, purple-spotted habit and gold chest dominate square; normal human size, beggar kneels lower and behind, never giant scale.\nLIGHT & WEATHER: one dominant low sunset beam, deep warm walnut shadows, strong amber rim light on wind-whipped red hair and white cloth; ordinary road dust.\nSURFACE: deeply lined aged skin, matte green forehead paint, coarse white wool with purple stains, dull cloud-ivory bag, hammered gold/silver/bronze chest, stony mountain road.\nSETTING: mountain valley road in Cantabria [arquetu-c07,arquetu-c08].\nMOOD: morally severe and awe-inspiring angry supernatural judge, intense confrontation, never an ordinary relaxed traveler, never evil demon or cute.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline, energy ribbons or floating runes. Premium painterly brushwork, dark warm palette, square composition.",
+      "depicted_variant": "Seven-dot forehead variant from c03, red-haired white-and-purple-robed elder carrying chest, condemning spendthrift.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Old man, green forehead cross and exactly seven painted dots; French dot variant",
+          "claim_ids": [
+            "arquetu-c03"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Long red hair, opaque white habit with purple spots",
+          "claim_ids": [
+            "arquetu-c05"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Cloud-colour shoulder bag and gold chest decorated silver/bronze under left arm",
+          "claim_ids": [
+            "arquetu-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Angrily condemns repeat spendthrift to lifelong begging; no visible magic invented",
+          "claim_ids": [
+            "arquetu-c02",
+            "arquetu-c07",
+            "arquetu-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Mountain and valley road in Cantabria",
+          "claim_ids": [
+            "arquetu-c07",
+            "arquetu-c08"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "arquetu-c03",
+        "arquetu-c05",
+        "arquetu-c06",
+        "arquetu-c02",
+        "arquetu-c07",
+        "arquetu-c08"
+      ],
+      "aura": "Distinctive forehead mark c03, spotted habit/red hair c05 and golden chest c06 frame active condemnation c02/c08.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: exactly seven forehead dots (three viewer-left, four viewer-right) around one green cross, long red hair, white opaque habit with purple spots, cloud-ivory shoulder bag and golden silver/bronze chest under left arm. Two arms/two legs, right hand points while commanding; no giant scale as beggar kneels beside him, no invented beams or coin effects. Stern active condemnation and unique iconography read at 200px. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "69b9e304af23eb8814d405c0b600e2137518caca1e105470203b6e3dad882fee",
+        "reviewed_at": "2026-10-16T00:59:36.884946+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f72e5dbec0e50c9be296ebceb3bbb43962f44aa23b3f94f621e2b38d29371298"
     }
   ],
   "replacements": [],
@@ -730,5 +845,10 @@
     "without_visual_claims": [],
     "earlier_omissions": [],
     "omitted": []
+  },
+  "generation_complete": true,
+  "generation_completed_at": "2026-10-16T01:22:07.644Z",
+  "generation_status_counts": {
+    "awaiting-independent-review": 2
   }
 }

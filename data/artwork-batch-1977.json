@@ -12,7 +12,7 @@
     "bukan-makhluk": 139
   },
   "status": "in-progress",
-  "complete": 0,
+  "complete": 8,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -653,7 +653,7 @@
       "slug": "amilamia",
       "canonical_name": "Amilamia",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-130.review.json",
       "research": {
@@ -1023,15 +1023,61 @@
         "amilamia-c03"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/amilamia.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/amilamia.png",
-      "native_sha256": "f47da0bace8d961f646da803702c3813d3f1bc049f7360f5d79188ca353250c6"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/amilamia.png",
+      "native_sha256": "f47da0bace8d961f646da803702c3813d3f1bc049f7360f5d79188ca353250c6",
+      "url": "/assets/art/amilamia-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Amilamia, golden-haired benevolent cave spirit with inexhaustible flour sieve.\nANATOMY: One woman with long golden-blond hair reaching the ground, one head two eyes two arms two legs under fully opaque plain earth-brown long wool dress; one golden comb in one hand and one EMPTY wooden sieve held high in other hand; no horns wings animal feet or invented anatomy [amilamia-c02]\nMOMENT: Raise the empty sieve toward viewer while combing long hair with golden comb, face grave and compassionate, falling flour crosses lower foreground, hair sweeps downward to ground. Empty upper mesh of sieve visible, nothing inside it although flour pours beneath\nPOWER: A thick continuous waterfall of FLOUR pours from an visibly EMPTY sieve, flour lands in a large real powder heap at bottom foreground; dry white flour powder with falling grains, no water or light beams. Her documented inexhaustible flour-giving sieve supports the poor [amilamia-c04, amilamia-c05]\nSCALE & CAMERA: extreme low angle, close foreshortened framing; normal human size, dominance through close framing only, no giant scale.\nLIGHT & WEATHER: one low warm shaft from cave mouth, sharp rim light, deep shadows, dark walnut and antique gold with one strong accent.\nSURFACE: real long golden hair, rough opaque wool, plain wood and open sieve mesh, dry flour dust and damp limestone.\nSETTING: Lezao cave beside a dark reflecting pool; hair touches cave floor [amilamia-c01, amilamia-c02]\nMOOD: benevolent and awe-inspiring, imposing supernatural presence, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, glyphs, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, eyes or limbs; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+      "depicted_variant": "golden-haired benevolent cave spirit with inexhaustible flour sieve",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One woman with long golden-blond hair reaching the ground, one head two eyes two arms two legs under fully opaque plain earth-brown long wool dress; one golden comb in one hand and one EMPTY wooden sieve held high in other hand; no horns wings animal feet or invented anatomy",
+          "claim_ids": [
+            "amilamia-c02"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "A thick continuous waterfall of FLOUR pours from an visibly EMPTY sieve, flour lands in a large real powder heap at bottom foreground; dry white flour powder with falling grains, no water or light beams. Her documented inexhaustible flour-giving sieve supports the poor",
+          "claim_ids": [
+            "amilamia-c04",
+            "amilamia-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Lezao cave beside a dark reflecting pool; hair touches cave floor",
+          "claim_ids": [
+            "amilamia-c01",
+            "amilamia-c02"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "amilamia-c02",
+        "amilamia-c04",
+        "amilamia-c05",
+        "amilamia-c01"
+      ],
+      "aura": "A thick continuous waterfall of FLOUR pours from an visibly EMPTY sieve, flour lands in a large real powder heap at bottom foreground; dry white flour powder with falling grains, no water or light beams. Her documented inexhaustible flour-giving sieve supports the poor amilamia-c04,amilamia-c05",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected. Golden floor-length hair and gold comb c02; one head two arms, legs concealed by opaque dress. Empty visible mesh sieve produces immense physical flour cascade c04, cave/pool c01/c02. Benevolent spirit c05: awe comes from abundant documented miracle and low angle; no giant scale or invented magic. All seven Sangar checks yes, no text.",
+        "limitations": [],
+        "native_sha256": "f47da0bace8d961f646da803702c3813d3f1bc049f7360f5d79188ca353250c6",
+        "reviewed_at": "2026-10-16T00:54:16.188504+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "63e13e2d7f9e4c4915656a17dc9152e9f02fb8a91a2ba3de063d7046bbc3c17e"
     },
     {
       "index": 3,
       "slug": "ampelos",
       "canonical_name": "Ampelos",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-095.review.json",
       "research": {
@@ -1395,15 +1441,65 @@
         "ampelos-c09"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/ampelos.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/ampelos.png",
-      "native_sha256": "2bdc6ec42011b38c584e761b3899e7de9ab0f1297e379c9f0a31048d996fb5b9"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/ampelos.png",
+      "native_sha256": "2bdc6ec42011b38c584e761b3899e7de9ab0f1297e379c9f0a31048d996fb5b9",
+      "url": "/assets/art/ampelos-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ampelos, the horned young satyr riding the wild bull in Nonnus.\nANATOMY: Exactly one young adult beardless male satyr with one youthful face, two eyes, two clearly separated short straight horns projecting upward from each temple, unobstructed by hair, two arms and two legs; opaque rough ancient Thracian tunic and trousers cover torso/legs; no invented goat legs or extra limbs. He rides exactly one powerful wild bull with one head, two natural horns, four legs and one tail. [ampelos-c02, ampelos-c04, ampelos-c06, ampelos-c08]\nMOMENT: Cling to the galloping bull as it bucks toward viewer over rough ground, Ampelos defiantly SHOUTS his boast toward the moon, mouth open, brows fiercely drawn; his upper body leans toward camera while both hands grip the bull neck. BOTH satyr horns have clear silhouettes against empty sky on either side of his head.\nPOWER: No magical effects; the documented murderous bull gallops violently after being stung, real dirt and broken brush kicked up. [ampelos-c08, ampelos-c09]\nSCALE & CAMERA: Extreme low angle, extremely tight close confrontation: Ampelos face, both horns and shoulders occupy the upper HALF of frame, the charging bull head and lunging forelegs occupy lower half. Ampelos is equally prominent with bull, not a tiny rider. Separate the four bull legs cleanly with no overlap where visible.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Ismarian hills in Thrace at night under the moon. [ampelos-c06, ampelos-c08]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+      "depicted_variant": "Ampelos, the horned young satyr riding the wild bull in Nonnus",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Exactly one young adult beardless male satyr with one youthful face, two eyes, two clearly separated short straight horns unobstructed by hair, two arms and two legs; opaque rough ancient Thracian tunic and trousers cover torso/legs; no invented goat legs or extra limbs. He rides exactly one powerful wild bull with one head, two natural horns, four legs and one tail.",
+          "claim_ids": [
+            "ampelos-c02",
+            "ampelos-c04",
+            "ampelos-c06",
+            "ampelos-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No magical effects; the documented murderous bull gallops violently after being stung, real dirt and broken brush kicked up.",
+          "claim_ids": [
+            "ampelos-c08",
+            "ampelos-c09"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Ismarian hills in Thrace at night under the moon.",
+          "claim_ids": [
+            "ampelos-c06",
+            "ampelos-c08"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ampelos-c02",
+        "ampelos-c04",
+        "ampelos-c06",
+        "ampelos-c08",
+        "ampelos-c09"
+      ],
+      "aura": "Threat or awe through documented anatomy ['ampelos-c02', 'ampelos-c04', 'ampelos-c06', 'ampelos-c08'] and action ['ampelos-c08', 'ampelos-c09']; no generic aura.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: Ampelos is visibly a two-horned beardless satyr, fully clothed, shouting his bold boast while gripping the charging bull. Two arms and two booted legs distinct; bull has two horns, natural mammalian four-limb structure and one tail. Pair dominates frame in violent gallop, dirt only c08/c09, no magic, giant scale, text or gore. Both satyr horns remain separate at thumbnail. All seven Uji Sangar answers yes.",
+        "limitations": [],
+        "native_sha256": "2bdc6ec42011b38c584e761b3899e7de9ab0f1297e379c9f0a31048d996fb5b9",
+        "reviewed_at": "2026-10-16T00:51:17.764288+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "75703618c93ad97010c5ac6c69ac92be820520af12ec4fd70b58e7a8047e45ee"
     },
     {
       "index": 4,
       "slug": "andromalius",
       "canonical_name": "Andromalius",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-052.review.json",
       "research": {
@@ -1770,15 +1866,55 @@
         "andromalius-c05"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/andromalius.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/andromalius.png",
-      "native_sha256": "9a900a1b032364eda899b643a866d16e216da0c60db29bafbe91b12deb2cb83c"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/andromalius.png",
+      "native_sha256": "9a900a1b032364eda899b643a866d16e216da0c60db29bafbe91b12deb2cb83c",
+      "url": "/assets/art/andromalius-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Andromalius, the formidable Goetic earl who appears as a man holding a large serpent and recovers thieves and stolen goods.\nANATOMY: one adult male in fully opaque weathered dark medieval mantle and tunic, ONE human head, two eyes, two arms and two legs, human face without horns or fangs; his right hand holds ONE LARGE living SERPENT firmly behind its head, serpent body coils across his forearm then descends visibly; serpent one head and two eyes, no wings or legs [c03,c05]\nMOMENT: Stride directly toward viewer, thrust the large serpent toward camera in his right hand while his left hand drags a terrified fully clothed thief back by the wrist; thief clutches a torn sack spilling a few stolen silver cups onto stone [c04,c05]\nPOWER: Recover thief and stolen goods [c04,c05], punishment implied by the forceful return only. No magical beams, no levitating objects, no supernatural glowing eyes, no invented spirit army\nSCALE & CAMERA: extreme low angle; extreme low close angle, Andromalius and coiled large serpent occupy 85 percent of image; thief lower and behind but normal human proportions, earl NOT a giant\nLIGHT & WEATHER: one torch outside frame casts dominant amber sidelight, hard rim light on snake scales and mantle, deep walnut shadows, airborne stone dust\nSURFACE: weathered opaque wool, scarred ordinary human skin, leathery serpent scales, tarnished stolen cups\nSETTING: a dark unlabelled stone passage, neutral editorial staging for return of thief and goods; no invented ritual circle or inscriptions\nMOOD: dangerous, imposing or awe-inspiring, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline, energy ribbons, floating runes. Strong painterly brushwork, not plastic 3D.",
+      "depicted_variant": "Goetic human earl holding a large serpent, returning a thief and stolen goods.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Man holding large serpent",
+          "claim_ids": [
+            "andromalius-c03",
+            "andromalius-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Brings back thief and stolen goods; punishment",
+          "claim_ids": [
+            "andromalius-c04",
+            "andromalius-c05",
+            "andromalius-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "andromalius-c03",
+        "andromalius-c05",
+        "andromalius-c04",
+        "andromalius-c06"
+      ],
+      "aura": "Serpent attribute c03/c05 and active return of thief and goods c04/c05 create threat.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: human earl with two arms/legs and normal face, one large serpent held behind its single head in right hand; left hand returns thief by wrist, stolen cups and sack read behind. Strong advancing stride and serpent close to camera c03/c05 differentiate from ordinary passer-by; no invented horns/glow/giant body. Cups carry ornamental texture, no legible text. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "9a900a1b032364eda899b643a866d16e216da0c60db29bafbe91b12deb2cb83c",
+        "reviewed_at": "2026-10-16T00:51:42.240995+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e4d0bd7c7f5247bf7ef955576811d2524c232b0dc1fdc1bbee46f5e1fb8f7944"
     },
     {
       "index": 5,
       "slug": "ao",
       "canonical_name": "Ao",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-066.review.json",
       "research": {
@@ -2132,15 +2268,60 @@
         "ao-c07"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/ao.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/ao.png",
-      "native_sha256": "30d2189bc93ac6d0bc010a4e85841ef1458af71c66fc5c48bfb1507bc3ab31e4"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/ao.png",
+      "native_sha256": "30d2189bc93ac6d0bc010a4e85841ef1458af71c66fc5c48bfb1507bc3ab31e4",
+      "url": "/assets/art/ao-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ao, gigantic marine turtle bearing exactly three islands on its back in Bohai Sea.\nANATOMY: One GIGANTIC marine turtle, one turtle head two eyes one beaked mouth, exactly FOUR sea-turtle flippers and one short turtle tail. Normal sea-turtle anatomy, no dragon horns whiskers fangs or human limbs. On broad upper shell are exactly THREE distinct rocky forested island peaks, countable and separated by deep valleys [ao-c01, ao-c04, ao-c06]\nMOMENT: Surge toward viewer from beneath sea surface, enormous turtle head fills lower center and eyes command viewer, front flippers sweep outward and rear flippers visible farther back. High shell arches behind with exactly three separate small islands on it, subject turtle takes at least 75 percent of image\nPOWER: Carry three rocky islands on its back while driving four flippers through dark sea, head and front flippers forcing a bow wave toward viewer; water physically crashes over immense shell edges, no other magic [ao-c04]\nSCALE & CAMERA: extreme low angle, close foreshortened framing; documented gigantic size, subject fills the square.\nLIGHT & WEATHER: one low amber sun through deep sea cloud, sharp rim light, deep shadows, dark walnut and antique gold with one strong accent.\nSURFACE: ancient dark wet turtle scutes, leathery sea-turtle skin, seawater foam, rough island rock and tiny trees.\nSETTING: Bohai Sea, tiny ocean boat near massive turtle jaw gives documented gigantic scale, three distinct islands visibly rooted on shell [ao-c04]\nMOOD: benevolent and awe-inspiring, imposing supernatural presence, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, glyphs, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, eyes or limbs; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+      "depicted_variant": "gigantic marine turtle bearing exactly three islands on its back in Bohai Sea",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One GIGANTIC marine turtle, one turtle head two eyes one beaked mouth, exactly FOUR sea-turtle flippers and one short turtle tail. Normal sea-turtle anatomy, no dragon horns whiskers fangs or human limbs. On broad upper shell are exactly THREE distinct rocky forested island peaks, countable and separated by deep valleys",
+          "claim_ids": [
+            "ao-c01",
+            "ao-c04",
+            "ao-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Carry three rocky islands on its back while driving four flippers through dark sea, head and front flippers forcing a bow wave toward viewer; water physically crashes over immense shell edges, no other magic",
+          "claim_ids": [
+            "ao-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Bohai Sea, tiny ocean boat near massive turtle jaw gives documented gigantic scale, three distinct islands visibly rooted on shell",
+          "claim_ids": [
+            "ao-c04"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ao-c01",
+        "ao-c04",
+        "ao-c06"
+      ],
+      "aura": "Carry three rocky islands on its back while driving four flippers through dark sea, head and front flippers forcing a bow wave toward viewer; water physically crashes over immense shell edges, no other magic ao-c04",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected. Gigantic marine turtle c01/c06 surges toward viewer, four flippers visible, one head with two eyes, no dragon features. Exactly three separated forested rocky peaks on shell c04; tiny boat comparator emphasizes documented giant size. Physical bow-wave only, no magic or text. Turtle dominates and reads awe-inspiring at200; all seven Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "30d2189bc93ac6d0bc010a4e85841ef1458af71c66fc5c48bfb1507bc3ab31e4",
+        "reviewed_at": "2026-10-16T00:55:25.516614+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a0776c32e390d7b4200c4cd92577dbdbc833e35773a54edc3227cd935ee2b5d5"
     },
     {
       "index": 6,
       "slug": "ao-ao",
       "canonical_name": "Ao Ao",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-144.review.json",
       "research": {
@@ -2579,15 +2760,67 @@
         "ao-ao-c09"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/ao-ao.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/ao-ao.png",
-      "native_sha256": "ca9924cc4538fa7976e2049ede599b4c452008f9d004dd61debebccd720a7fa7"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/ao-ao.png",
+      "native_sha256": "ca9924cc4538fa7976e2049ede599b4c452008f9d004dd61debebccd720a7fa7",
+      "url": "/assets/art/ao-ao-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ao Ao, the sheep-like fanged and clawed Guarani monster.\nANATOMY: Exactly one monstrous sheep-like quadruped, one hornless ovine head, two natural eyes, coarse dense wool, four powerful legs ending in huge claws, two enormous predatory fangs, one short tail. No boar head, no human anatomy or extra legs. [ao-ao-c01, ao-ao-c02, ao-ao-c09]\nMOMENT: Charge through forest directly at viewer, sheep muzzle snarling open to expose fangs, front claws rip through roots.\nPOWER: No documented magic; voracious predatory pursuit and physical impact only, no victims or gore. [ao-ao-c03, ao-ao-c05, ao-ao-c10]\nSCALE & CAMERA: Tight low-angle close-up; subject fills frame, no invented giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Dense Guarani woodland in the sierras, a pindó palm stands off to side. [ao-ao-c10, ao-ao-c12]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+      "depicted_variant": "Ao Ao, the sheep-like fanged and clawed Guarani monster",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Exactly one monstrous sheep-like quadruped, one hornless ovine head, two natural eyes, coarse dense wool, four powerful legs ending in huge claws, two enormous predatory fangs, one short tail. No boar head, no human anatomy or extra legs.",
+          "claim_ids": [
+            "ao-ao-c01",
+            "ao-ao-c02",
+            "ao-ao-c09"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No documented magic; voracious predatory pursuit and physical impact only, no victims or gore.",
+          "claim_ids": [
+            "ao-ao-c03",
+            "ao-ao-c05",
+            "ao-ao-c10"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Dense Guarani woodland in the sierras, a pindó palm stands off to side.",
+          "claim_ids": [
+            "ao-ao-c10",
+            "ao-ao-c12"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ao-ao-c01",
+        "ao-ao-c02",
+        "ao-ao-c09",
+        "ao-ao-c03",
+        "ao-ao-c05",
+        "ao-ao-c10",
+        "ao-ao-c12"
+      ],
+      "aura": "Threat or awe through documented anatomy ['ao-ao-c01', 'ao-ao-c02', 'ao-ao-c09'] and action ['ao-ao-c03', 'ao-ao-c05', 'ao-ao-c10']; no generic aura.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: one sheep-like woolly monster, two eyes and two enormous upper fangs, quadrupedal body and huge foreclaws; no horns or boar anatomy. It charges over forest roots with physical debris, no invented magic or giant scale. Distinctly predatory and dangerous at thumbnail, never ordinary sheep. No text, border or gore. All seven Uji Sangar answers yes.",
+        "limitations": [],
+        "native_sha256": "ca9924cc4538fa7976e2049ede599b4c452008f9d004dd61debebccd720a7fa7",
+        "reviewed_at": "2026-10-16T00:52:34.015258+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "834d44396d408be67d496ab415b94e37e8218b8b9148ce15634df40d1814416b"
     },
     {
       "index": 7,
       "slug": "aonyobo",
       "canonical_name": "Aonyōbō",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-051.review.json",
       "research": {
@@ -2840,15 +3073,54 @@
         "aonyobo-c05"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/aonyobo.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/aonyobo.png",
-      "native_sha256": "044990dfe9f4227839d350d64993c924252060d9567b353376f27a437a44764e"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/aonyobo.png",
+      "native_sha256": "044990dfe9f4227839d350d64993c924252060d9567b353376f27a437a44764e",
+      "url": "/assets/art/aonyobo-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Aonyobo, the uncanny blue-skinned court-woman yokai in a ruined noble residence.\nANATOMY: ONE adult female humanoid yokai, one head and two eyes, TWO arms and two legs under many fully opaque layered ancient Japanese court kimono, tattered and moth-eaten but body always covered; visibly deep BLUE skin at neck, hands and ears; thick chalk WHITE face makeup with VERY HIGH painted eyebrows and visibly BLACKENED normal human teeth; elaborate old court hair, no horns, fangs or claws [c02,c03]\nMOMENT: Whip her head around from fixing her hair toward the intruding viewer, lean abruptly close, mouth partly open displaying blackened teeth, one blue hand still lifting a plain unlettered comb beside hair, other blue hand grips frayed robe; fixed accusing stare, no smile [c04]\nPOWER: no documented visible magic; uncanny appearance, abrupt motion and abandoned dwelling alone create menace. No glowing eyes, spectral mist, levitation, poverty rays or invented curse effects\nSCALE & CAMERA: extreme low angle; tight very low three-quarter face close-up, white face and black teeth dominate upper square, blue hands and neck plainly visible even at thumbnail; normal human height, no giant scale\nLIGHT & WEATHER: one dominant old oil lamp low to one side offscreen, warm amber rim light, deepest walnut shadows, thin ordinary dust in room\nSURFACE: cracked chalk cosmetic over blue skin, ink-black teeth, dry coarse ancient brocade and moth holes, fraying kimono layers, dusty hair\nSETTING: abandoned former noble house inside a ruined bamboo grove, broken wooden wall reveals dark bamboo at edge [c04,c05]\nMOOD: dangerous, imposing or awe-inspiring, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline, energy ribbons, floating runes. Strong painterly brushwork, not plastic 3D.",
+      "depicted_variant": "Blue court-woman spirit with white makeup and black teeth, turning during grooming.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Blue-skinned court woman; layered tattered kimono, white makeup, high painted brows and black teeth",
+          "claim_ids": [
+            "aonyobo-c02",
+            "aonyobo-c03"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Ruined noble house within abandoned bamboo grove, fixes her hair",
+          "claim_ids": [
+            "aonyobo-c04",
+            "aonyobo-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "aonyobo-c02",
+        "aonyobo-c03",
+        "aonyobo-c04",
+        "aonyobo-c05"
+      ],
+      "aura": "Blue skin c02, white makeup/high brows/black teeth c03 and sudden grooming interruption c04 create uncanny confrontation.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: one head/two eyes, two arms, blue hands/neck/ear plainly visible, white painted face, high painted brows and blackened teeth, many tattered opaque kimono layers. Abrupt hostile turn interrupts grooming c04; no horns/fangs/claws or invented magic. Ruined house/bamboo c04/c05 visible. Uncanny close confrontation reads at 200px. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "044990dfe9f4227839d350d64993c924252060d9567b353376f27a437a44764e",
+        "reviewed_at": "2026-10-16T00:52:44.233747+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c3b4001c457dd1831140fa12beea59c0c49b1ee6558a0968871d98542ebb45a7"
     },
     {
       "index": 8,
       "slug": "apalpador",
       "canonical_name": "Apalpador",
       "worker": "codex",
-      "status": "pending",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-128.review.json",
       "research": {
@@ -2902,8 +3174,8 @@
           ]
         },
         "culture": {
-          "value": null,
-          "suggested_new": "Mitologi Galisia",
+          "value": "tradition-galician",
+          "suggested_new": null,
           "claim_ids": [
             "apalpador-c01"
           ]
@@ -3231,14 +3503,65 @@
       "selection_visual_claim_ids": [
         "apalpador-c05",
         "apalpador-c10"
-      ]
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/apalpador.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/apalpador.png",
+      "native_sha256": "a3fb2c4681e7623f3ed00e615f9843f477e628443db9edbeb6cda3b2c7f122a1",
+      "url": "/assets/art/apalpador-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Apalpador, ragged giant charcoal-burner bringing chestnuts from Galician mountains.\nANATOMY: One GIANT adult male charcoal-burner in fully opaque ragged plain brown wool shirt, long trousers and worn boots, one head two eyes two arms two legs, soot-dark hands and weathered human face; no horns weapon crown or Santa costume [apalpador-c02, apalpador-c05, apalpador-c10]\nMOMENT: Bend an enormous shoulder through low doorway while extending one huge palm full of chestnuts down toward viewer; other hand braces doorway carefully without breaking it, solemn kind face looms close. Huge figure fills square from bent head to boot, empty bed stays tiny\nPOWER: Offer a generous handful of real chestnuts toward foreground as he enters a house on winter festival night; he brings food and good wishes, no magical effect or destruction [apalpador-c02, apalpador-c06]\nSCALE & CAMERA: extreme low angle, close foreshortened framing; documented gigantic size, subject fills the square.\nLIGHT & WEATHER: one low hearth fire inside house, sharp rim light, deep shadows, dark walnut and antique gold with one strong accent.\nSURFACE: coarse tattered opaque wool, soot, cracked boots, real brown chestnut shells and rough timber.\nSETTING: Rural house in eastern Galician mountains at night; low human-size wooden doorway behind his bent shoulders and tiny empty child-size bed in foreground establish giant size, distant mountain slopes seen through doorway [apalpador-c02, apalpador-c05]\nMOOD: benevolent and awe-inspiring, imposing supernatural presence, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, glyphs, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, eyes or limbs; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+      "depicted_variant": "ragged giant charcoal-burner bringing chestnuts from Galician mountains",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One GIANT adult male charcoal-burner in fully opaque ragged plain brown wool shirt, long trousers and worn boots, one head two eyes two arms two legs, soot-dark hands and weathered human face; no horns weapon crown or Santa costume",
+          "claim_ids": [
+            "apalpador-c02",
+            "apalpador-c05",
+            "apalpador-c10"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Offer a generous handful of real chestnuts toward foreground as he enters a house on winter festival night; he brings food and good wishes, no magical effect or destruction",
+          "claim_ids": [
+            "apalpador-c02",
+            "apalpador-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Rural house in eastern Galician mountains at night; low human-size wooden doorway behind his bent shoulders and tiny empty child-size bed in foreground establish giant size, distant mountain slopes seen through doorway",
+          "claim_ids": [
+            "apalpador-c02",
+            "apalpador-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "apalpador-c02",
+        "apalpador-c05",
+        "apalpador-c10",
+        "apalpador-c06"
+      ],
+      "aura": "Offer a generous handful of real chestnuts toward foreground as he enters a house on winter festival night; he brings food and good wishes, no magical effect or destruction apalpador-c02,apalpador-c06",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected. Ragged giant charcoal-burner c02/c05/c10, one head two arms two legs, soot hands offer chestnuts c02/c06. Giant bends through low human doorway over tiny empty bed; mountain night setting c02/c05. Benevolent awe from documented scale and approach, no magic weapon or invented anatomy. No text; all seven Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "a3fb2c4681e7623f3ed00e615f9843f477e628443db9edbeb6cda3b2c7f122a1",
+        "reviewed_at": "2026-10-16T00:56:52.014297+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d94786fd936d00b0e6dca8ee20fb855d066418889756b167ab2e37b754b87214"
     },
     {
       "index": 9,
       "slug": "ardov",
       "canonical_name": "Ardov",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-138.review.json",
       "research": {
@@ -3661,8 +3984,56 @@
         "ardov-c09"
       ],
       "receipt_path": "data/artwork-generated/batch-1977/ardov.json",
-      "original_file": "data/artwork-generated/batch-1977/originals/ardov.png",
-      "native_sha256": "0853aa090609780ec0d08b46e7b385aabffbbc5a2aa79e7456d36048ad233056"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1977/originals/ardov.png",
+      "native_sha256": "0853aa090609780ec0d08b46e7b385aabffbbc5a2aa79e7456d36048ad233056",
+      "url": "/assets/art/ardov-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ardov, the tall fair-haired water spirit entering a stream and vanishing.\nANATOMY: Exactly one tall beautiful fair-haired adult woman, one head, two natural eyes, two arms and two legs, fully opaque plain long wool dress; ordinary human form, no fins, horns, crown or extra limbs. [ardov-c01, ardov-c06]\nMOMENT: Step into a stream toward the viewer and vanish at that precise instant: one arm and a large portion of her UPPER torso above the waterline become optically transparent, the far rocky stream bank sharply visible THROUGH her vanishing shoulder and clothing, while her solid face and other reaching hand remain readable. Her long PALE BLOND hair streams through the dark air, entirely fair-haired, no black hair. Her expression is urgent and astonished at vanishing, never threatening.\nPOWER: Documented disappearance when entering stream: show simple loss of opacity, background stream bank visible through the fading upper body, no glowing aura, ribbons, particles or invented liquid-body anatomy. [ardov-c06, ardov-c09]\nSCALE & CAMERA: Very low angle at stream level; face, reaching hand and visibly disappearing body dominate, normal tall woman scale, no giant claim.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: A shadowed Turkic woodland stream at night, water source among rough stones. [ardov-c03, ardov-c06, ardov-c09]\nMOOD: awe-inspiring and uncannily overwhelming, a harmless water spirit witnessed at the impossible instant of disappearance; never evil, aggressive, cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+      "depicted_variant": "Ardov, the tall fair-haired water spirit entering a stream and vanishing",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Exactly one tall beautiful fair-haired adult woman, one head, two natural eyes, two arms and two legs, fully opaque plain long wool dress; ordinary human form, no fins, horns, crown or extra limbs.",
+          "claim_ids": [
+            "ardov-c01",
+            "ardov-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Documented disappearance when entering stream: show simple loss of opacity, background stream bank visible through fading upper torso above waterline, no glowing aura, ribbons, particles or invented liquid-body anatomy.",
+          "claim_ids": [
+            "ardov-c06",
+            "ardov-c09"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "A shadowed Turkic woodland stream at night, water source among rough stones.",
+          "claim_ids": [
+            "ardov-c03",
+            "ardov-c06",
+            "ardov-c09"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ardov-c01",
+        "ardov-c06",
+        "ardov-c09",
+        "ardov-c03"
+      ],
+      "aura": "Threat or awe through documented anatomy ['ardov-c01', 'ardov-c06'] and action ['ardov-c06', 'ardov-c09']; no generic aura.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: tall fair-haired spirit fills frame; rocky stream bank is unmistakably visible through her disappearing upper torso and arm above waterline. The documented vanishing c06/c09 gives active uncanny awe and prevents an ordinary-woman reading. One head, two eyes, two arms and two legs beneath opaque dress; fading cloth reveals background rather than nudity. Harmless disposition preserved, no invented magic aura, giant scale, text or gore. All seven Uji Sangar answers yes.",
+        "limitations": [],
+        "native_sha256": "0853aa090609780ec0d08b46e7b385aabffbbc5a2aa79e7456d36048ad233056",
+        "reviewed_at": "2026-10-16T00:54:48.899734+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "df3685d4b56bdd0800555d6b20be5e9c2ff899563a76bed060ed66034e750faa"
     },
     {
       "index": 10,
@@ -4033,10 +4404,10 @@
     "earlier_omissions": [],
     "omitted": []
   },
-  "generation_complete": false,
-  "generation_completed_at": null,
+  "generation_complete": true,
+  "generation_completed_at": "2026-10-16T01:22:07.642Z",
   "generation_status_counts": {
     "tidak-digambar": 2,
-    "awaiting-independent-review": 7
+    "awaiting-independent-review": 8
   }
 }

@@ -60,7 +60,7 @@
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "awaiting-independent-review",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-062.review.json",
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
   "generation_failures": [],
@@ -72,5 +72,12 @@
     "limitations": [],
     "native_sha256": "380eaa50e63789ef60166323dfdcd83aeb482f5f8f053c479995949b7028edd9",
     "reviewed_at": "2026-10-15T17:30:57.412685+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T09:05:00+07:00",
+    "native_sha256": "380eaa50e63789ef60166323dfdcd83aeb482f5f8f053c479995949b7028edd9",
+    "notes": "Matches the receipt at native size and 200px: Long-limbed dish-headed Garappa crouching for a sumo challenge; not an ordinary human wrestler. Anatomy counts and effects follow the cited claims; no text, gore or borrowed design."
   }
 }

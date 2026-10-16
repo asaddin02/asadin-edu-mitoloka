@@ -9,7 +9,9 @@ const batch=Number(number),base=`data/artwork-generated/batch-${batch}`;
 const ledgerPath=`data/artwork-batch-${batch}.json`, ledger=read(ledgerPath);
 const regPath=`${base}/drafts/root/codex-native-reviews.json`;
 const reviews=fs.existsSync(regPath)?read(regPath):{};
-const pairs=ledger.items.map(item=>{const p=`${base}/${item.slug}.json`;return {item,p,r:fs.existsSync(p)?read(p):null}});
+const onlyArg=args.find(a=>a.startsWith('--only='));
+const only=onlyArg?new Set(onlyArg.slice(7).split(',')):null;
+const pairs=ledger.items.filter(i=>!only||only.has(i.slug)).map(item=>{const p=`${base}/${item.slug}.json`;return {item,p,r:fs.existsSync(p)?read(p):null}});
 if(command==='pending-review'){
   const list=pairs.filter(({item,r})=>r?.status==='awaiting-independent-review'&&r.original_file&&fs.existsSync(r.original_file)&&reviews[item.slug]?.native_sha256!==r.native_sha256).slice(0,Number(args[0]||4));
   const tiles=[];
@@ -99,6 +101,6 @@ if(command==='validate'){
     }
   }
   if(final){check(!pending.length,'All receipts exist');check(!notReviewed.length,'All selected PNGs observed by root');check(ledger.generation_complete===true,'Generation complete flag');}
-  const result={checked_at:new Date().toISOString(),batch,final,checks,errors,drawn,declined,pending,notRootReviewed:notReviewed,archived_attempts:archived,tool_failures:failures,external_research_metadata_changed:sourceChanges,integration_performed:false};
-  write(`${base}/drafts/root/resume-validation${final?'':'-progress'}.json`,result);console.log(JSON.stringify(result,null,2));process.exitCode=errors.length?1:0;
+  const result={checked_at:new Date().toISOString(),batch,scope:only?[...only]:'whole-batch',final,checks,errors,drawn,declined,pending,notRootReviewed:notReviewed,archived_attempts:archived,tool_failures:failures,external_research_metadata_changed:sourceChanges,integration_performed:false};
+  write(`${base}/drafts/root/${only?'correction-validation':'resume-validation'}${final?'':'-progress'}.json`,result);console.log(JSON.stringify(result,null,2));process.exitCode=errors.length?1:0;
 }

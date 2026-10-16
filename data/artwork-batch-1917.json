@@ -12,7 +12,7 @@
     "bukan-makhluk": 139
   },
   "status": "in-progress",
-  "complete": 44,
+  "complete": 46,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -1563,7 +1563,7 @@
       "slug": "pixiu",
       "canonical_name": "Pixiu",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-066.review.json",
       "research": {
@@ -1844,8 +1844,57 @@
         "pixiu-c09"
       ],
       "receipt_path": "data/artwork-generated/batch-1917/pixiu.json",
-      "original_file": "data/artwork-generated/batch-1917/originals/pixiu.png",
-      "native_sha256": "f9a04a0c05198977197a1beb41c7ebb0af29f3016d381133f453835ac950008e"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1917/originals/pixiu.png",
+      "native_sha256": "ffa28ac34910d8f8348b24bc6323acf21dd96638456db47b1ea4454d592c608e",
+      "url": "/assets/art/pixiu-verified-v2.webp",
+      "prompt": "Edit the provided Pixiu illustration with one targeted anatomical correction. Preserve its original painterly cinematic square composition, fierce Chinese dragon head on lion body, four paws, two wings, rushing pounce, rocky ground, sunset light, surfaces and all other details.\nANATOMY CORRECTION: Tianlu has EXACTLY ONE ANTLER [pixiu-c03]. Keep the single large ivory branching antler in the upper center-right unchanged. REMOVE ALL OTHER HARD HORNS or bony head projections, especially the small dark curved horn immediately to the viewer LEFT of the large ivory antler and any small angular horn above the right eye. Replace secondary horn areas with ordinary smooth fur. Keep exactly TWO ordinary soft rounded fur-covered lion ears, one each side, visibly fleshy rounded ears not pointed hardened horns. The only hard projection anywhere on the skull must be the ONE ivory branching antler. No additional antler bases.\nMaintain one head, two eyes, four legs, two wings [pixiu-c01,pixiu-c06]. Keep dynamic foreshortened pounce and fierce guardian mood [pixiu-c02,pixiu-c09]. No supernatural effects.\nHARD CONSTRAINTS: no text, pseudotext, lettering, logo, watermark, border or frame; no extra limbs, heads or horns; no aura, energy ribbons or magic; no nudity, explicit gore or borrowed character design.",
+      "depicted_variant": "single-antlered Tianlu form of the winged dragon-headed lion guardian",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One living winged lion with Chinese dragon head, four paws, two wings, exactly ONE large ivory branching antler and two soft rounded furred ears; all secondary hard horns removed.",
+          "claim_ids": [
+            "pixiu-c01",
+            "pixiu-c03",
+            "pixiu-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No literal supernatural effects; force comes from fierce guardian anatomy and pounce",
+          "claim_ids": [
+            "pixiu-c02",
+            "pixiu-c09"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Bare rocky foreground, dark indistinct ground, no invented architecture",
+          "claim_ids": [
+            "pixiu-c08"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "pixiu-c01",
+        "pixiu-c03",
+        "pixiu-c06",
+        "pixiu-c02",
+        "pixiu-c09",
+        "pixiu-c08"
+      ],
+      "aura": "No literal supernatural effects; force comes from fierce guardian anatomy and pounce pixiu-c02,pixiu-c09",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and200px inspected after targeted correction. Exactly ONE ivory branching antler c03, other hard horns removed. Two round soft furry ears now visually unambiguous. Original winged dragon-lion and pounce c01/c06 retained, four-leg structure and two wings. No magic, text or extra anatomy. All seven Sangar checks yes; correction directly resolves Claude note.",
+        "limitations": [],
+        "native_sha256": "ffa28ac34910d8f8348b24bc6323acf21dd96638456db47b1ea4454d592c608e",
+        "reviewed_at": "2026-10-16T01:09:49.241878+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c1084af70876abb05597a84b936a01f72ec3d03a43b50411ebaf1570cd9a20dc"
     },
     {
       "index": 6,
@@ -12152,7 +12201,7 @@
       "slug": "tarkshya",
       "canonical_name": "Tarkshya",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-074.review.json",
       "research": {
@@ -12540,8 +12589,52 @@
         "tarkshya-c07"
       ],
       "receipt_path": "data/artwork-generated/batch-1917/tarkshya.json",
-      "original_file": "data/artwork-generated/batch-1917/originals/tarkshya.png",
-      "native_sha256": "aa519242da8a3534b7460129e03682c8ff33acddc3bea7c16cea84965e791248"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1917/originals/tarkshya.png",
+      "native_sha256": "0322dda4bc9a2a9d7244b10ce5eff6ce278c933ac13873863a94f8322d6fd9f7",
+      "url": "/assets/art/tarkshya-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Tarkshya, Rigvedic HORSE commissioned by the gods: swift outstripper of chariots and overthrower of hosts. Show impossible SPEED and physical overwhelming action, not giant size or fantasy anatomy.\nANATOMY: ONE living sacred horse, one head, two eyes, EXACTLY FOUR LEGS with FOUR DISTINCT VISIBLE HOOVES, one mane and tail. Full SIDE PROFILE running left to right, no foreshortening of body. Near foreleg forward/up, far foreleg forward/down; near hindleg backward/up, far hindleg backward/down. Four separately visible limbs, no overlaps, no absent hindlegs, no fifth leg. Dark bronze-chestnut natural horse, no wings, horns, bird features, Garuda, rider, armor or bridle. [tarkshya-c01]\nMOMENT: Charge in FULLY EXTENDED HORIZONTAL GALLOP low across ground. Head lowered forward, neck stretched, mane and tail blown straight backward by speed. Entire horse fills 80 percent of square width, all FOUR hooves clearly visible within frame. Direct full SIDE PROFILE very low tracking camera, NOT head-on, NOT jumping a wheel, NOT rearing. At far right one reaching forehoof just smashes a wheel and horse is already far ahead of the physical collision.\nPOWER: Superhuman swift outstripper of chariots and overthrower of hosts [tarkshya-c07]: continuous wake of dozens of TOPPLING CHARIOT RANKS recedes from horse hindquarters diagonally to distant upper-left horizon. Nearest two WHOLE CHARIOTS and clothed soldiers tumble sideways through air, further rows collapse one after another like dominoes. Intact racing chariot teams on parallel course lag far behind and smear horizontally from tracking camera; this horse has overtaken whole army. Ordinary physical wood fragments, spinning wheels, men knocked over, no gore. One normal-sized horse devastating a whole long host by irresistible physical passage, far beyond any normal horse force. Do not merely place static wreckage around a horse.\nSCALE & CAMERA: extreme low ground-level FULL SIDE PROFILE tracking shot. Horse sharply focused, terrain under it has extreme horizontal natural panning motion blur, dust and ranks sweep backward, visibly impossible running speed. Normal horse/chariot/man body sizes, no tiny men at horse's feet to imply giant size. One horse only, no repeated afterimages or extra legs.\nLIGHT & WEATHER: one dying sun behind; dark low-key bronze horse, deep walnut shadows, bright amber rim on mane and dense kicked-up dust. Long narrow violent physical dust wake, backstreaming hair and panning camera create speed. No colored energy trail, glow, halo, aura, shockwave rings, tornado or lightning.\nSURFACE: taut sweating horse muscles, gritty hooves, sharp wood splinters, dry airborne sand, spinning bronze wheel fittings.\nSETTING: chariot-host field implied by hymnic deed c07, early South Asian chariots and clothed armies, no inscriptions or invented sacred emblems.\nMOOD: sacred overwhelming victorious action, awe-inspiring divine swiftness; never a normal warhorse portrait.\nHARD CONSTRAINTS: exactly FOUR visible horse legs and hooves. No text, pseudotext, lettering, logos, borders, watermark, wings, glow, magic, extra heads, giant scale, nudity, gore or borrowed film/game/comic designs.",
+      "depicted_variant": "Rigvedic horse variant at god-commissioned superhuman speed, outstripping chariots and overthrowing a long host.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One horse with one head, two eyes, four legs, mane and tail; no avian/Garuda features",
+          "claim_ids": [
+            "tarkshya-c01"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "God-commissioned swift outstripper of chariots and overthrower of hosts: physically overwhelming passage overtakes racing chariots and topples long consecutive ranks",
+          "claim_ids": [
+            "tarkshya-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Long host of chariots on a field implied by hymnic deed",
+          "claim_ids": [
+            "tarkshya-c07"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "tarkshya-c01",
+        "tarkshya-c07"
+      ],
+      "aura": "Uncanny speed and overwhelming physical passage overthrow multiple ranks of chariots and hosts (c07), no added anatomy or magic.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native and 200px inspected: full side-profile gallop with exactly four independently visible legs/hooves, one horse head/mane/tail, no wings/Garuda traits/giant scale. Strong ground panning blur, straight backstreaming hair and whole long host of toppling chariots/airborne soldiers show extraordinary swift outstripping and overthrowing c07, beyond merely jumping ordinary wreckage. Physical wood impacts, no magic rays/aura/glow or unsupported weather. Sacred force shown respectfully through deed. All seven Sangar checks pass.",
+        "limitations": [
+          "Horse form is deliberately anatomically ordinary per c01; divine status is conveyed by overwhelming hymnic deed c07, not added iconography or magical body effects."
+        ],
+        "native_sha256": "0322dda4bc9a2a9d7244b10ce5eff6ce278c933ac13873863a94f8322d6fd9f7",
+        "reviewed_at": "2026-10-16T01:11:02.321547+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0b49a7184955539fb999b342b4ef92eefd99e47ef0bfad7986ba4e91da1dc603"
     },
     {
       "index": 29,
@@ -21997,7 +22090,8 @@
   "generation_complete": true,
   "generation_completed_at": "2026-10-15T17:45:56.278Z",
   "generation_status_counts": {
-    "awaiting-independent-review": 46,
-    "tidak-digambar": 4
+    "reviewed": 44,
+    "tidak-digambar": 4,
+    "awaiting-independent-review": 2
   }
 }
