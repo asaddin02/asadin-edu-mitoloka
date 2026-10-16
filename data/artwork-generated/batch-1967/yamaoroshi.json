@@ -1,0 +1,61 @@
+{
+  "slug": "yamaoroshi",
+  "name": "Yamaoroshi",
+  "batch": 1967,
+  "depicted_variant": "Humanoid living neglected grater, no wind-power interpretation.",
+  "basis_claim_ids": [
+    "yamaoroshi-c02",
+    "yamaoroshi-c05",
+    "yamaoroshi-c08",
+    "yamaoroshi-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Humanoid with grater head and many dull spikes",
+      "claim_ids": [
+        "yamaoroshi-c02",
+        "yamaoroshi-c05",
+        "yamaoroshi-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kitchen tools: daikon, shell ladle, mortar",
+      "claim_ids": [
+        "yamaoroshi-c09"
+      ]
+    }
+  ],
+  "aura": "Dull grater spikes c02/c05/c08 confront viewer in close crawl; no invented effects.",
+  "artistic_choices": [
+    "Choose traditional grater humanoid, omit Heisei wind interpretation c10.",
+    "Opaque brown robe and low close crawl are editorial; no added giant size or magical effects."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yamaoroshi, the neglected metal grater become a spiny humanoid yokai.\nANATOMY: one humanoid body, one unmistakable elongated METAL GRATER HEAD whose entire front and sides carry many dull bent grating spikes, two dark eyes and one mouth set in that grater head, two humanlike arms with five fingers per hand and two legs; faded opaque brown work robe; NOT an ordinary porcupine, NOT a human wearing a mask [c02,c05,c08]\nMOMENT: Crawl forward over abandoned kitchen floor toward the viewer, thrust its enormous-in-perspective rusty grater face close to the lens, bracing one hand on the boards while the other reaches forward; grimace, not smiling\nPOWER: no documented traditional power; physical menace through metal grater anatomy and intrusive crawl only. No wind magic, no supernatural particles\nSCALE & CAMERA: extreme low angle; normal utensil/yokai scale kept ambiguous, extreme close framing, grater face fills upper two thirds and spikes silhouette clearly at thumbnail size; no human scale comparison\nLIGHT & WEATHER: one dominant old hearth fire offscreen, amber rim light, deep walnut shadows and ordinary floating kitchen dust\nSURFACE: dull rusty grater teeth, oxidized metal, weathered fabric, splintered wood\nSETTING: the kitchen tools of its documented illustration: daikon radish, shell ladle, mortar tucked into dark floor edges [c09]\nMOOD: dangerous, imposing or awe-inspiring, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline, energy ribbons, floating runes. Strong painterly brushwork, not plastic 3D.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c7-becb-71b2-8208-e12ffcb20ab6/exec-57132ba7-a090-4d23-82e0-dba152d225d3.png",
+  "generated_at": "2026-10-16T00:47:03.566815+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/yamaoroshi.png",
+  "native_sha256": "9f369c43755b96b520a52062920e883a4acbe50900fd7f188c2ede76132bcfc1",
+  "width": 1254,
+  "height": 1254,
+  "worker": "codex",
+  "worker_agent": "resume100_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-057.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: grater head with metal teeth/spikes, two eyes, one mouth; humanoid crawling with two arms and opaque robe, fingers perspective-consistent, rear legs occluded. Close intrusive motion readable at 200px. Kitchen tools c09 visible. No wind effects, extra heads/limbs, text or gore. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "9f369c43755b96b520a52062920e883a4acbe50900fd7f188c2ede76132bcfc1",
+    "reviewed_at": "2026-10-16T00:47:12.124956+00:00"
+  }
+}

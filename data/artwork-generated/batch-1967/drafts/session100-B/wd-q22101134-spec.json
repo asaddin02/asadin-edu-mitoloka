@@ -1,0 +1,71 @@
+{
+  "slug": "wd-q22101134",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 举父, yellowish-black long-armed whiskered Jufu of Bencao account.\nANATOMY: One dog-sized monkey-like beast, yellowish-black body, heavy whiskers, long arms, one head two eyes two arms two legs and monkey tail; no leopard features or bird wings [c01, c10]\nMOMENT: Hurl a stone downward toward the viewer while clinging to rock with other long arm, whiskered face grim and teeth bared; airborne stone large in foreground but not blocking face.\nPOWER: Throw a heavy stone directly toward viewer, fist releasing rock and a physically disturbed grit trail, no magic [c04, c09, c10]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low warm sun behind mountain cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: matted yellow-black fur, wiry whiskers, rough stone and grit.\nSETTING: Jianping mountain rocks with nearby shrub giving dog-size comparator [c10]\nMOOD: menacing stone-throwing beast; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "yellowish-black long-armed whiskered Jufu of Bencao account",
+  "basis_claim_ids": [
+    "wd-q22101134-c01",
+    "wd-q22101134-c10",
+    "wd-q22101134-c04",
+    "wd-q22101134-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One dog-sized monkey-like beast, yellowish-black body, heavy whiskers, long arms, one head two eyes two arms two legs and monkey tail; no leopard features or bird wings",
+      "claim_ids": [
+        "wd-q22101134-c01",
+        "wd-q22101134-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Throw a heavy stone directly toward viewer, fist releasing rock and a physically disturbed grit trail, no magic",
+      "claim_ids": [
+        "wd-q22101134-c04",
+        "wd-q22101134-c09",
+        "wd-q22101134-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Jianping mountain rocks with nearby shrub giving dog-size comparator",
+      "claim_ids": [
+        "wd-q22101134-c10"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q22101134-c01",
+      "wd-q22101134-c10"
+    ],
+    "power_domain_deeds": [
+      "wd-q22101134-c04",
+      "wd-q22101134-c09",
+      "wd-q22101134-c10"
+    ],
+    "setting": [
+      "wd-q22101134-c10"
+    ],
+    "disposition": [
+      "wd-q22101134-c09",
+      "wd-q22101134-c10"
+    ]
+  },
+  "aura": "Throw a heavy stone directly toward viewer, fist releasing rock and a physically disturbed grit trail, no magic wd-q22101134-c04,wd-q22101134-c09,wd-q22101134-c10",
+  "artistic_choices": [
+    "Select single Bencao account, do not combine silvery-white summary with disputed leopard/tiger features. Keep dog-size by nearby small shrubs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

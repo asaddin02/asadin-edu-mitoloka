@@ -1,0 +1,90 @@
+{
+  "slug": "wd-q15925221",
+  "batch": 1967,
+  "depicted_variant": "Huoxing, the uncanny child spirit of Mars",
+  "basis_claim_ids": [
+    "wd-q15925221-c01",
+    "wd-q15925221-c03",
+    "wd-q15925221-c04",
+    "wd-q15925221-c06",
+    "wd-q15925221-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one child about six or seven years old, one head, two luminous eyes, two arms and two legs, plain fully opaque historical green robe and trousers, no crown, horns, weapons or extra eyes.",
+      "claim_ids": [
+        "wd-q15925221-c01",
+        "wd-q15925221-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented eyes emit light, and the child rises into the sky; light confined to eyes and their immediate physical illumination.",
+      "claim_ids": [
+        "wd-q15925221-c04",
+        "wd-q15925221-c06",
+        "wd-q15925221-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark outdoor courtyard in historical China, indistinct plain ground without buildings or writing.",
+      "claim_ids": [
+        "wd-q15925221-c03",
+        "wd-q15925221-c07"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q15925221-c01",
+      "wd-q15925221-c03"
+    ],
+    "power_or_deed": [
+      "wd-q15925221-c04",
+      "wd-q15925221-c06",
+      "wd-q15925221-c07"
+    ],
+    "setting": [
+      "wd-q15925221-c03",
+      "wd-q15925221-c07"
+    ],
+    "disposition": [
+      "wd-q15925221-c04",
+      "wd-q15925221-c06",
+      "wd-q15925221-c07"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q15925221-c01', 'wd-q15925221-c03'] and action ['wd-q15925221-c04', 'wd-q15925221-c06', 'wd-q15925221-c07']; no generic aura.",
+  "artistic_choices": [
+    "Choose child at beginning of ascension, not combined child-and-cloth hybrid. No generic aura, not demonized.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Huoxing, the uncanny child spirit of Mars.\nANATOMY: Exactly one child about six or seven years old, one head, two luminous eyes, two arms and two legs, plain fully opaque historical green robe and trousers, no crown, horns, weapons or extra eyes. [wd-q15925221-c01, wd-q15925221-c03]\nMOMENT: Rise abruptly off the ground toward the viewer, green sleeves swept upward, look down with intensely luminous eyes that illuminate cheeks and frighten unseen witnesses.\nPOWER: The documented eyes emit light, and the child rises into the sky; light confined to eyes and their immediate physical illumination. [wd-q15925221-c04, wd-q15925221-c06, wd-q15925221-c07]\nSCALE & CAMERA: Extreme low angle close portrait, child levitates visibly with feet above ground, eyes and green robe dominate.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: A dark outdoor courtyard in historical China, indistinct plain ground without buildings or writing. [wd-q15925221-c03, wd-q15925221-c07]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-27e4e22c-3e97-4585-bb95-796df5b05351.png",
+  "generated_at": "2026-10-15T17:39:09.896989+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q15925221.png",
+  "native_sha256": "70bf5c918098d9aeb1feb37f33fa2e9095d9447875cd80a1dc2c6c7899112b5a",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "70bf5c918098d9aeb1feb37f33fa2e9095d9447875cd80a1dc2c6c7899112b5a",
+    "reviewed_at": "2026-10-15T17:39:09.896989+00:00"
+  }
+}

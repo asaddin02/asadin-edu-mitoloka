@@ -1,0 +1,72 @@
+{
+  "slug": "afruvva",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Afruvvá, guardian long-haired fish-tailed Afruvva warning sailors.\nANATOMY: One beautiful long-haired mermaid, one human female head two eyes two arms and one long FISH TAIL instead of legs; fully opaque plain woven upper garment covering chest torso and shoulders, no crown weapon or ornaments [c02, c05]\nMOMENT: Rise close out of a breaking sea swell toward viewer, one open hand thrust in warning and other braced against water, long curved fish tail lifted across lower foreground to make mermaid identity unmistakable.\nPOWER: Warn seafarers to return to shore: raise open hand in urgent warning while tail cuts physically through sea water, no storm-control power [c03, c06]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low warm moon through northern cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: wet long hair, rough opaque woven garment, dark wet fish scales, white sea spray.\nSETTING: Finnmark coastal sea, dark northern cliffs and small distant fishing boat facing shore [c01, c03]\nMOOD: awe-inspiring benevolent guardian, urgent and commanding rather than evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "guardian long-haired fish-tailed Afruvva warning sailors",
+  "basis_claim_ids": [
+    "afruvva-c02",
+    "afruvva-c05",
+    "afruvva-c03",
+    "afruvva-c06",
+    "afruvva-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One beautiful long-haired mermaid, one human female head two eyes two arms and one long FISH TAIL instead of legs; fully opaque plain woven upper garment covering chest torso and shoulders, no crown weapon or ornaments",
+      "claim_ids": [
+        "afruvva-c02",
+        "afruvva-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Warn seafarers to return to shore: raise open hand in urgent warning while tail cuts physically through sea water, no storm-control power",
+      "claim_ids": [
+        "afruvva-c03",
+        "afruvva-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Finnmark coastal sea, dark northern cliffs and small distant fishing boat facing shore",
+      "claim_ids": [
+        "afruvva-c01",
+        "afruvva-c03"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "afruvva-c02",
+      "afruvva-c05"
+    ],
+    "power_domain_deeds": [
+      "afruvva-c03",
+      "afruvva-c06"
+    ],
+    "setting": [
+      "afruvva-c01",
+      "afruvva-c03"
+    ],
+    "disposition": [
+      "afruvva-c03",
+      "afruvva-c06"
+    ]
+  },
+  "aura": "Warn seafarers to return to shore: raise open hand in urgent warning while tail cuts physically through sea water, no storm-control power afruvva-c03,afruvva-c06",
+  "artistic_choices": [
+    "Do not use boat-capsizing hostile trait c04 because treated as contamination from another spirit. Modest opaque garment editorial. Splash only tail movement, not invented sea control."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

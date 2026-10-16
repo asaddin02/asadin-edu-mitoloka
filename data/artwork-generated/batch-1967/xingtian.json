@@ -1,0 +1,92 @@
+{
+  "slug": "xingtian",
+  "batch": 1967,
+  "depicted_variant": "Xingtian, the headless deity dancing defiantly with axe and shield",
+  "basis_claim_ids": [
+    "xingtian-c01",
+    "xingtian-c05",
+    "xingtian-c07",
+    "xingtian-c08",
+    "xingtian-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one headless male divine humanoid, ZERO head, ZERO neck wound or gore, smooth healed shoulder top; exactly TWO eyes placed on chest where nipples would be, and ONE mouth at navel; exactly two arms and two legs; opaque dark waist armor and trousers cover lower body. One axe in right hand, one broad plain shield in left. Chest eyes and belly mouth clearly unobstructed, no exposed nipples or sexual anatomy.",
+      "claim_ids": [
+        "xingtian-c01",
+        "xingtian-c05",
+        "xingtian-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible regeneration or magic; indomitable axe-and-shield dance is documented, physical dust from steps only.",
+      "claim_ids": [
+        "xingtian-c05",
+        "xingtian-c07",
+        "xingtian-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky terrain at Mount Changyang, storm-dark mountain silhouette.",
+      "claim_ids": [
+        "xingtian-c02",
+        "xingtian-c07"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "xingtian-c01",
+      "xingtian-c05",
+      "xingtian-c07"
+    ],
+    "power_or_deed": [
+      "xingtian-c05",
+      "xingtian-c07",
+      "xingtian-c08"
+    ],
+    "setting": [
+      "xingtian-c02",
+      "xingtian-c07"
+    ],
+    "disposition": [
+      "xingtian-c05",
+      "xingtian-c07",
+      "xingtian-c08"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['xingtian-c01', 'xingtian-c05', 'xingtian-c07'] and action ['xingtian-c05', 'xingtian-c07', 'xingtian-c08']; no generic aura.",
+  "artistic_choices": [
+    "Respectful indomitable deity; smooth healed headless top, no wound or gore; chest transformed into face for mythic anatomy, opaque lower clothing editorial.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Xingtian, the headless deity dancing defiantly with axe and shield.\nANATOMY: Exactly one headless male divine humanoid, ZERO head, ZERO neck wound or gore, smooth healed shoulder top; exactly TWO eyes placed on chest where nipples would be, and ONE mouth at navel; exactly two arms and two legs; opaque dark waist armor and trousers cover lower body. One axe in right hand, one broad plain shield in left. Chest eyes and belly mouth clearly unobstructed, no exposed nipples or sexual anatomy. [xingtian-c01, xingtian-c05, xingtian-c07]\nMOMENT: Perform a fierce defiant war dance toward viewer, raise axe high and drive shield forward, both chest eyes stare at camera and navel mouth opens in shout.\nPOWER: No visible regeneration or magic; indomitable axe-and-shield dance is documented, physical dust from steps only. [xingtian-c05, xingtian-c07, xingtian-c08]\nSCALE & CAMERA: Extreme low angle, headless torso and chest-face fill frame, both feet and weapons clear; divine presence through framing, no giant claim.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Rocky terrain at Mount Changyang, storm-dark mountain silhouette. [xingtian-c02, xingtian-c07]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "resume100_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-cce6-73c2-b81b-9035c4f0b9e4/exec-bccc0bd9-5aee-43a7-8d49-396bc76862b0.png",
+  "generated_at": "2026-10-16T00:46:22.932636+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/xingtian.png",
+  "native_sha256": "18383d8e88a7076d531025b5acb33131862f99a8fe550a3d5eaa99729dbb825d",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: headless torso dominates; exactly two chest eyes and one belly mouth; two arms, two legs, axe and shield visible; fierce dance drives dust physically without magic, giant scale or gore. No text or borrowed design. All seven Uji Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "18383d8e88a7076d531025b5acb33131862f99a8fe550a3d5eaa99729dbb825d",
+    "reviewed_at": "2026-10-16T00:46:22.932636+00:00"
+  }
+}

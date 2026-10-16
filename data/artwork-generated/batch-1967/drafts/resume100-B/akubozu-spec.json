@@ -1,0 +1,77 @@
+{
+  "slug": "akubozu",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Akubōzu, top-of-head-mouthed Agu-banba/Hai-baba related regional ash-yokai variant.\nANATOMY: One ash-lurking creature with a single head and a large mouth ON TOP OF ITS HEAD facing upward; head emerges from ash, other facial details and body concealed beneath hearth ash, no invented limbs horns or eyes [c10, c11]\nMOMENT: Thrust the ash-coated head from hearth toward viewer, camera above rim of hearth looking slightly down enough to see huge mouth on top of head wide open, side of head visible below mouth so location unmistakable; no victim.\nPOWER: Emerge violently when hearth ash is disturbed; ash scatters and falls physically from head, top-of-head mouth gapes, no fire breath or magical aura [c03, c06, c10, c11]\nSCALE & CAMERA: near hearth level with a slight downward tilt just enough to reveal TOP of head mouth; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low amber ember source off to side, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: dry powdery gray ash, rough ash-coated organic skin, dark worn hearth stones.\nSETTING: Ash bed of a dark irori hearth, rough wood floor edges visible [c02, c06, c10]\nMOOD: menacing ash-dwelling monster; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "top-of-head-mouthed Agu-banba/Hai-baba related regional ash-yokai variant",
+  "basis_claim_ids": [
+    "akubozu-c10",
+    "akubozu-c11",
+    "akubozu-c03",
+    "akubozu-c06",
+    "akubozu-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One ash-lurking creature with a single head and a large mouth ON TOP OF ITS HEAD facing upward; head emerges from ash, other facial details and body concealed beneath hearth ash, no invented limbs horns or eyes",
+      "claim_ids": [
+        "akubozu-c10",
+        "akubozu-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Emerge violently when hearth ash is disturbed; ash scatters and falls physically from head, top-of-head mouth gapes, no fire breath or magical aura",
+      "claim_ids": [
+        "akubozu-c03",
+        "akubozu-c06",
+        "akubozu-c10",
+        "akubozu-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ash bed of a dark irori hearth, rough wood floor edges visible",
+      "claim_ids": [
+        "akubozu-c02",
+        "akubozu-c06",
+        "akubozu-c10"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "akubozu-c10",
+      "akubozu-c11"
+    ],
+    "power_domain_deeds": [
+      "akubozu-c03",
+      "akubozu-c06",
+      "akubozu-c10",
+      "akubozu-c11"
+    ],
+    "setting": [
+      "akubozu-c02",
+      "akubozu-c06",
+      "akubozu-c10"
+    ],
+    "disposition": [
+      "akubozu-c11"
+    ]
+  },
+  "aura": "Emerge violently when hearth ash is disturbed; ash scatters and falls physically from head, top-of-head mouth gapes, no fire breath or magical aura akubozu-c03,akubozu-c06,akubozu-c10,akubozu-c11",
+  "artistic_choices": [
+    "Explicitly choose regional related forms c10/c11 recorded under this entry. Conceal unspecified body and lower face; no invented eyes, limbs or priest clothing. No children or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

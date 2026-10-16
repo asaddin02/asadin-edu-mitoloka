@@ -1,0 +1,95 @@
+{
+  "slug": "ao-ao",
+  "batch": 1977,
+  "depicted_variant": "Ao Ao, the sheep-like fanged and clawed Guarani monster",
+  "basis_claim_ids": [
+    "ao-ao-c01",
+    "ao-ao-c02",
+    "ao-ao-c09",
+    "ao-ao-c03",
+    "ao-ao-c05",
+    "ao-ao-c10",
+    "ao-ao-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one monstrous sheep-like quadruped, one hornless ovine head, two natural eyes, coarse dense wool, four powerful legs ending in huge claws, two enormous predatory fangs, one short tail. No boar head, no human anatomy or extra legs.",
+      "claim_ids": [
+        "ao-ao-c01",
+        "ao-ao-c02",
+        "ao-ao-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented magic; voracious predatory pursuit and physical impact only, no victims or gore.",
+      "claim_ids": [
+        "ao-ao-c03",
+        "ao-ao-c05",
+        "ao-ao-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dense Guarani woodland in the sierras, a pindó palm stands off to side.",
+      "claim_ids": [
+        "ao-ao-c10",
+        "ao-ao-c12"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "ao-ao-c01",
+      "ao-ao-c02",
+      "ao-ao-c09"
+    ],
+    "power_or_deed": [
+      "ao-ao-c03",
+      "ao-ao-c05",
+      "ao-ao-c10"
+    ],
+    "setting": [
+      "ao-ao-c10",
+      "ao-ao-c12"
+    ],
+    "disposition": [
+      "ao-ao-c03",
+      "ao-ao-c05",
+      "ao-ao-c10"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['ao-ao-c01', 'ao-ao-c02', 'ao-ao-c09'] and action ['ao-ao-c03', 'ao-ao-c05', 'ao-ao-c10']; no generic aura.",
+  "artistic_choices": [
+    "Sheep-like variant only, carnivorous peccary alternative excluded; no false additional powers.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging.",
+    "Hornless sheep appearance avoids inventing an undocumented horn attribute."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ao Ao, the sheep-like fanged and clawed Guarani monster.\nANATOMY: Exactly one monstrous sheep-like quadruped, one hornless ovine head, two natural eyes, coarse dense wool, four powerful legs ending in huge claws, two enormous predatory fangs, one short tail. No boar head, no human anatomy or extra legs. [ao-ao-c01, ao-ao-c02, ao-ao-c09]\nMOMENT: Charge through forest directly at viewer, sheep muzzle snarling open to expose fangs, front claws rip through roots.\nPOWER: No documented magic; voracious predatory pursuit and physical impact only, no victims or gore. [ao-ao-c03, ao-ao-c05, ao-ao-c10]\nSCALE & CAMERA: Tight low-angle close-up; subject fills frame, no invented giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Dense Guarani woodland in the sierras, a pindó palm stands off to side. [ao-ao-c10, ao-ao-c12]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "resume100_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-cce6-73c2-b81b-9035c4f0b9e4/exec-0f8cfcf7-9ea8-4faf-b6c5-04e9438e29df.png",
+  "generated_at": "2026-10-16T00:52:34.015258+00:00",
+  "original_file": "data/artwork-generated/batch-1977/originals/ao-ao.png",
+  "native_sha256": "ca9924cc4538fa7976e2049ede599b4c452008f9d004dd61debebccd720a7fa7",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one sheep-like woolly monster, two eyes and two enormous upper fangs, quadrupedal body and huge foreclaws; no horns or boar anatomy. It charges over forest roots with physical debris, no invented magic or giant scale. Distinctly predatory and dangerous at thumbnail, never ordinary sheep. No text, border or gore. All seven Uji Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "ca9924cc4538fa7976e2049ede599b4c452008f9d004dd61debebccd720a7fa7",
+    "reviewed_at": "2026-10-16T00:52:34.015258+00:00"
+  }
+}

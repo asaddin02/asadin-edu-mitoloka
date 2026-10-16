@@ -1,0 +1,77 @@
+{
+  "slug": "wd-q11069488",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 当康, documented tusked boar harvest omen.\nANATOMY: Boar with tusks only; no documented impossible anatomy [c02]\nMOMENT: No generation: ordinary boar remains ordinary animal without invented power.\nPOWER: Self-naming cry and harvest omen; no documented physically visible power [c01, c03, c09]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one moon behind storm clouds, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: rough natural textures.\nSETTING: Mount Qin [c05]\nMOOD: auspicious harvest omen; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "documented tusked boar harvest omen",
+  "basis_claim_ids": [
+    "wd-q11069488-c02",
+    "wd-q11069488-c01",
+    "wd-q11069488-c03",
+    "wd-q11069488-c09",
+    "wd-q11069488-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Boar with tusks only; no documented impossible anatomy",
+      "claim_ids": [
+        "wd-q11069488-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Self-naming cry and harvest omen; no documented physically visible power",
+      "claim_ids": [
+        "wd-q11069488-c01",
+        "wd-q11069488-c03",
+        "wd-q11069488-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Qin",
+      "claim_ids": [
+        "wd-q11069488-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q11069488-c02"
+    ],
+    "power_domain_deeds": [
+      "wd-q11069488-c01",
+      "wd-q11069488-c03",
+      "wd-q11069488-c09"
+    ],
+    "setting": [
+      "wd-q11069488-c05"
+    ],
+    "disposition": [
+      "wd-q11069488-c01"
+    ]
+  },
+  "aura": "Self-naming cry and harvest omen; no documented physically visible power wd-q11069488-c01,wd-q11069488-c03,wd-q11069488-c09",
+  "artistic_choices": [
+    "Declined before generation: anatomy remains ordinary boar, audible cry and omen cannot be rendered as physical magic without invention."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "reason": "Research documents only a tusked boar with self-naming cry and harvest omen (c01/c02/c03/c09). No impossible anatomy or active visible manifestation supports a Sangar image distinguishable from ordinary boar; inventing crop creation, luminescence or giant scale would violate claims. No generation attempted; root will replenish.",
+  "generated_file": null,
+  "generated_at": null,
+  "original_file": null,
+  "native_sha256": null,
+  "width": null,
+  "height": null,
+  "visual_review": null
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "wd-q22098758",
+  "batch": 1967,
+  "depicted_variant": "Yegouzi, the beast-headed human-bodied creature from Pu Songling",
+  "basis_claim_ids": [
+    "wd-q22098758-c02",
+    "wd-q22098758-c05",
+    "wd-q22098758-c06",
+    "wd-q22098758-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one creature with one fierce unspecified mammalian beast head, two eyes, human-shaped torso, two human arms and two legs; two long sharply curved fangs visible; coarse dark fur on head; full plain opaque ragged robe and trousers. No wings or horns.",
+      "claim_ids": [
+        "wd-q22098758-c02",
+        "wd-q22098758-c05",
+        "wd-q22098758-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical effect or gore; threatening physical approach, no corpses or brain eating depicted.",
+      "claim_ids": [
+        "wd-q22098758-c02",
+        "wd-q22098758-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark indistinct battlefield clearing, empty ground with discarded plain cloth but no visible corpses.",
+      "claim_ids": [
+        "wd-q22098758-c02",
+        "wd-q22098758-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q22098758-c02",
+      "wd-q22098758-c05",
+      "wd-q22098758-c06"
+    ],
+    "power_or_deed": [
+      "wd-q22098758-c02",
+      "wd-q22098758-c05"
+    ],
+    "setting": [
+      "wd-q22098758-c02",
+      "wd-q22098758-c04"
+    ],
+    "disposition": [
+      "wd-q22098758-c02",
+      "wd-q22098758-c05"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q22098758-c02', 'wd-q22098758-c05', 'wd-q22098758-c06'] and action ['wd-q22098758-c02', 'wd-q22098758-c05']; no generic aura.",
+  "artistic_choices": [
+    "Unspecific beast head retained rather than claiming dog identification; non-graphic stalking moment selected. Clothing editorial modesty.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yegouzi, the beast-headed human-bodied creature from Pu Songling.\nANATOMY: Exactly one creature with one fierce unspecified mammalian beast head, two eyes, human-shaped torso, two human arms and two legs; two long sharply curved fangs visible; coarse dark fur on head; full plain opaque ragged robe and trousers. No wings or horns. [wd-q22098758-c02, wd-q22098758-c05, wd-q22098758-c06]\nMOMENT: Lunge into foreground from deep night shadow, open mouth to expose curved fangs, one human hand brace on earth while the other reaches toward viewer.\nPOWER: No magical effect or gore; threatening physical approach, no corpses or brain eating depicted. [wd-q22098758-c02, wd-q22098758-c05]\nSCALE & CAMERA: Tight low-angle close-up; subject fills frame, no invented giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: A dark indistinct battlefield clearing, empty ground with discarded plain cloth but no visible corpses. [wd-q22098758-c02, wd-q22098758-c04]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-060.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-88b9a062-519d-461a-9d23-07134bca9b0d.png",
+  "generated_at": "2026-10-15T17:41:54.874093+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q22098758.png",
+  "native_sha256": "fb93bacab9b3692c1adad6d1aeff78c78cbc3a6770f3ffc6b12fa72fd4871793",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "fb93bacab9b3692c1adad6d1aeff78c78cbc3a6770f3ffc6b12fa72fd4871793",
+    "reviewed_at": "2026-10-15T17:41:54.874093+00:00"
+  }
+}

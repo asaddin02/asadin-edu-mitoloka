@@ -1,0 +1,86 @@
+{
+  "slug": "wd-q17060549",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 蝮虫, ribbon-patterned nasal-spined Fuchong.\nANATOMY: One heavy limbless venomous serpent with ribbon-patterned scales and exactly one needlelike nose spine, one head two eyes, no limbs wings or other horns [c01, c03, c04]\nMOMENT: Strike across a black rain-wet boulder toward viewer, nose needle prominent against dark sky, heavy coils wedge behind head.\nPOWER: No invented venom effects; surge with open jaws and nose needle toward viewer, rain displaced by head movement [c01]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low amber sunset through heavy rain, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: wet banded scales, hard ivory nose needle, dark slick rock.\nSETTING: Plantless wet Mount Yu with frequent rain and water below [c07]\nMOOD: menacing southern serpent; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "ribbon-patterned nasal-spined Fuchong",
+  "basis_claim_ids": [
+    "wd-q17060549-c01",
+    "wd-q17060549-c03",
+    "wd-q17060549-c04",
+    "wd-q17060549-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One heavy limbless venomous serpent with ribbon-patterned scales and exactly one needlelike nose spine, one head two eyes, no limbs wings or other horns",
+      "claim_ids": [
+        "wd-q17060549-c01",
+        "wd-q17060549-c03",
+        "wd-q17060549-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No invented venom effects; surge with open jaws and nose needle toward viewer, rain displaced by head movement",
+      "claim_ids": [
+        "wd-q17060549-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Plantless wet Mount Yu with frequent rain and water below",
+      "claim_ids": [
+        "wd-q17060549-c07"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q17060549-c01",
+      "wd-q17060549-c03",
+      "wd-q17060549-c04"
+    ],
+    "power_domain_deeds": [
+      "wd-q17060549-c01"
+    ],
+    "setting": [
+      "wd-q17060549-c07"
+    ],
+    "disposition": [
+      "wd-q17060549-c01",
+      "wd-q17060549-c06"
+    ]
+  },
+  "aura": "No invented venom effects; surge with open jaws and nose needle toward viewer, rain displaced by head movement wd-q17060549-c01",
+  "artistic_choices": [
+    "Heavy body documented over100jin, not invented mountain-size. No vegetation per MountYu account. No flames, poison aura or victims."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-3ae7dc12-8de8-4d4a-adf4-2608d1e7f105.png",
+  "generated_at": "2026-10-15T17:38:50.736167+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q17060549.png",
+  "native_sha256": "351913d4878d64676b0b0e2bafe02516c1a2ec18287ea0862935ec63e0ec740e",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200 inspected. One limbless banded serpent with single prominent nose needle c03 strikes over rain-wet rock c07. Heavy coils c04, no giant-scale comparator, poison glow, extra horns or text. Foreground mountain bare. All seven Sangar yes.",
+    "limitations": [],
+    "native_sha256": "351913d4878d64676b0b0e2bafe02516c1a2ec18287ea0862935ec63e0ec740e",
+    "reviewed_at": "2026-10-15T17:38:50.736167+00:00"
+  }
+}

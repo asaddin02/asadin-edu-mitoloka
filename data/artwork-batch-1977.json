@@ -1,0 +1,4042 @@
+{
+  "target": 10,
+  "tool": "OpenAI built-in image_gen",
+  "scope": "10 illustrations for every complete and valid research entry that has no approved image yet.",
+  "selected_at": "2026-10-15T17:39:16.360Z",
+  "baseline_counts": {
+    "lengkap-bergambar": 1742,
+    "lengkap-informasi": 1424,
+    "lengkap-tidak-valid": 0,
+    "tidak-lengkap": 367,
+    "belum-ada-entri": 1324,
+    "bukan-makhluk": 139
+  },
+  "status": "in-progress",
+  "complete": 0,
+  "presence_policy": true,
+  "require_root_visual_review": true,
+  "items": [
+    {
+      "index": 1,
+      "slug": "ame-no-hiwashi",
+      "canonical_name": "Ame no Hiwashi",
+      "worker": "codex",
+      "status": "tidak-digambar",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-055.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-055",
+        "slug": "ame-no-hiwashi",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-06",
+        "identity": {
+          "canonical_name": "Ame no Hiwashi",
+          "native_name": null,
+          "display_name": {
+            "id": "Ame no Hiwashi",
+            "en": "Ame no Hiwashi"
+          },
+          "wikidata_qid": "Q10939697",
+          "claim_ids": [
+            "ame-no-hiwashi-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "天日鷲命 (Ame no Hiwashi no Mikoto)",
+            "language": "ja",
+            "name_type": "alias",
+            "claim_ids": [
+              "ame-no-hiwashi-c14"
+            ]
+          },
+          {
+            "name": "天日鷲翔矢命 (Ame no Hiwashikakeruya no Mikoto)",
+            "language": "ja",
+            "name_type": "alias",
+            "claim_ids": [
+              "ame-no-hiwashi-c04",
+              "ame-no-hiwashi-c14"
+            ]
+          },
+          {
+            "name": "麻植神 (Oe no Kami)",
+            "language": "ja",
+            "name_type": "epithet",
+            "claim_ids": [
+              "ame-no-hiwashi-c04"
+            ]
+          },
+          {
+            "name": "忌部神 (Inbe no Kami)",
+            "language": "ja",
+            "name_type": "epithet",
+            "claim_ids": [
+              "ame-no-hiwashi-c04"
+            ]
+          },
+          {
+            "name": "Amenohiwashi",
+            "language": "ja",
+            "name_type": "transliteration",
+            "claim_ids": [
+              "ame-no-hiwashi-c05"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "dewa",
+          "claim_ids": [
+            "ame-no-hiwashi-c01"
+          ]
+        },
+        "classification": {
+          "value": "deity",
+          "claim_ids": [
+            "ame-no-hiwashi-c01"
+          ]
+        },
+        "culture": {
+          "value": "japanese-folklore",
+          "suggested_new": null,
+          "claim_ids": [
+            "ame-no-hiwashi-c01"
+          ]
+        },
+        "region": {
+          "value": "east-asia",
+          "claim_ids": [
+            "ame-no-hiwashi-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Ame no Hiwashi adalah dewa dalam mitologi Jepang, leluhur klan Inbe di Awa yang membuka Provinsi Awa, menanam serat, dan merintis pemintalan; kini dipuja sebagai Otori-sama.",
+          "en": "Ame no Hiwashi is a deity in Japanese mythology, ancestor of the Inbe clan of Awa who opened up Awa Province, planted fibres and founded spinning work; today he is worshipped as Otori-sama.",
+          "claim_ids": [
+            "ame-no-hiwashi-c01",
+            "ame-no-hiwashi-c02",
+            "ame-no-hiwashi-c03",
+            "ame-no-hiwashi-c12"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ame no Hiwashi (天日鷲神) adalah dewa dalam mitologi Jepang yang muncul dalam Nihon Shoki dan Kogo shūi. Ia dianggap leluhur klan Inbe di Awa dan dikreditkan membuka Provinsi Awa, menanam serat, dan merintis pemintalan. Ia juga disebut Oe no Kami dan Inbe no Kami; Ensiklopedia Shinto menyebutnya anak Tajikarao, sedangkan sumber lain menyebutnya keturunan Takamimusubi atau Kamimusubi.",
+            "en": "Ame no Hiwashi (天日鷲神) is a deity in Japanese mythology who appears in the Nihon Shoki and the Kogo shūi. He is regarded as the ancestor of the Awa Inbe clan and credited with opening up Awa Province, planting fibres and founding spinning work. He is also called Oe no Kami and Inbe no Kami; the Encyclopedia of Shinto calls him a child of Tajikarao, while another source calls him a descendant of Takamimusubi or Kamimusubi.",
+            "claim_ids": [
+              "ame-no-hiwashi-c01",
+              "ame-no-hiwashi-c02",
+              "ame-no-hiwashi-c03",
+              "ame-no-hiwashi-c04",
+              "ame-no-hiwashi-c05"
+            ]
+          },
+          {
+            "id": "Saat Amaterasu bersembunyi di gua batu surga dan pada turunnya cucu langit, ia dikatakan menanam murbei kertas dan membuat persembahan serat kulit kayu (nigite), sehingga dipandang sebagai kami pekerjaan untuk perkakas ritual. Dalam mitos terkenal, ia memainkan alat petik dan seekor elang hinggap di senarnya, sehingga aksara elang ditambahkan pada namanya.",
+            "en": "At the time of Amaterasu's hiding in the heavenly rock cave and at the descent of the heavenly grandchild, he is said to have planted paper mulberry and made bark-fibre offerings (nigite), so he is considered an occupational kami of ritual implements. In the well-known myth he played a stringed instrument and an eagle perched on its string, so the character for eagle was added to his name.",
+            "claim_ids": [
+              "ame-no-hiwashi-c06",
+              "ame-no-hiwashi-c07",
+              "ame-no-hiwashi-c10",
+              "ame-no-hiwashi-c11"
+            ]
+          },
+          {
+            "id": "Keturunannya menyeberang ke Awa di Shikoku mencari tanah untuk biji-bijian dan rami, dan klan Inbe Awa mempersembahkan tekstil rami dan murbei kertas kepada kaisar pada Daijōsai; keluarga Miki, yang dianggap keturunan Inbe Awa, menyiapkan aratae pada penobatan. Ia dikenal sebagai Otori-sama dan dipuja sebagai dewa pelindung hasil tangkapan, perdagangan dan industri, serta nasib baik; kuil utamanya antara lain Washi Jinja di Tokyo dan Inbe Jinja di Tokushima.",
+            "en": "His descendants crossed to Awa in Shikoku seeking land for grains and hemp, and the Awa Inbe clan offered hemp and paper-mulberry textiles to the emperor at the Daijōsai; the Miki family, regarded as descendants of the Awa Inbe, prepares the aratae at accessions. He is known as Otori-sama and worshipped as a guardian of catches, commerce and industry, and good fortune; his principal shrines include Washi Shrine in Tokyo and Inbe Shrine in Tokushima.",
+            "claim_ids": [
+              "ame-no-hiwashi-c09",
+              "ame-no-hiwashi-c12",
+              "ame-no-hiwashi-c13",
+              "ame-no-hiwashi-c15"
+            ]
+          }
+        ],
+        "cultural_context": {
+          "id": "Sebagai kami pekerjaan, ia dikaitkan dengan pembuatan perkakas ritual, pemintalan, dan pembuatan kertas, dan keturunannya mempersembahkan tekstil kepada kaisar pada Daijōsai; kini ia dikenal sebagai Otori-sama.",
+          "en": "As an occupational kami he is linked to ritual implements, spinning and papermaking, and his descendants offer textiles to the emperor at the Daijōsai; today he is known as Otori-sama.",
+          "claim_ids": [
+            "ame-no-hiwashi-c07",
+            "ame-no-hiwashi-c09",
+            "ame-no-hiwashi-c12"
+          ]
+        },
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Dewa leluhur klan Inbe Awa yang menanam serat dan merintis pemintalan.",
+            "en": "Ancestral deity of the Awa Inbe clan who planted fibres and founded spinning work.",
+            "claim_ids": [
+              "ame-no-hiwashi-c01",
+              "ame-no-hiwashi-c02",
+              "ame-no-hiwashi-c03"
+            ]
+          },
+          "origin": {
+            "id": "Muncul dalam Nihon Shoki dan Kogo shūi.",
+            "en": "Appears in the Nihon Shoki and the Kogo shūi.",
+            "claim_ids": [
+              "ame-no-hiwashi-c01",
+              "ame-no-hiwashi-c05"
+            ]
+          },
+          "role": {
+            "id": "Pembuat nigite bagi para dewa dan kami pemintalan.",
+            "en": "Maker of nigite for the gods and kami of spinning.",
+            "claim_ids": [
+              "ame-no-hiwashi-c06",
+              "ame-no-hiwashi-c11"
+            ]
+          },
+          "famous_for": {
+            "id": "Elang yang hinggap di senarnya di gua batu surga.",
+            "en": "The eagle that perched on his string at the heavenly rock cave.",
+            "claim_ids": [
+              "ame-no-hiwashi-c10"
+            ]
+          }
+        },
+        "did_you_know": null,
+        "abilities": [
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Kami pekerjaan: pembuatan perkakas ritual",
+              "en": "Occupational kami of ritual implements"
+            },
+            "description": {
+              "id": "Ia dipandang sebagai kami pekerjaan yang berwenang atas pembuatan perkakas ritual; ia menanam murbei kertas dan membuat nigite.",
+              "en": "He is considered an occupational kami with jurisdiction over ritual implements; he planted paper mulberry and made nigite."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c06",
+              "ame-no-hiwashi-c07"
+            ]
+          },
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Dewa pemintalan dan pembuatan kertas",
+              "en": "Kami of spinning and papermaking"
+            },
+            "description": {
+              "id": "Menurut Kogo shūi, ia menanam kajinoki dan kapas serta membuat nigite putih, sehingga menjadi dewa pemintalan dan pembuatan kertas.",
+              "en": "According to the Kogo shūi, he planted paper mulberry and cotton and made white nigite, becoming a kami of spinning and papermaking."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c11",
+              "ame-no-hiwashi-c03"
+            ]
+          }
+        ],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Gua batu surga dan elang pada senar",
+              "en": "The heavenly rock cave and the eagle on the string"
+            },
+            "role": {
+              "id": "Pemain alat musik yang dinamai dengan \"elang\".",
+              "en": "The musician whose name gains \"eagle\"."
+            },
+            "summary": {
+              "id": "Saat Amaterasu berada di gua batu, para dewa menari dan Ame no Hiwashi memetik senar; seekor elang hinggap di ujung senar dan namanya ditambah aksara elang.",
+              "en": "While Amaterasu is in the rock cave the gods dance and Ame no Hiwashi plays the string; an eagle perches on its end and the character for eagle is added to his name."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c10"
+            ]
+          },
+          {
+            "title": {
+              "id": "Menanam serat untuk persembahan",
+              "en": "Planting fibres for offerings"
+            },
+            "role": {
+              "id": "Pembuat nigite untuk para dewa.",
+              "en": "Maker of nigite for the gods."
+            },
+            "summary": {
+              "id": "Pada gua batu surga dan turunnya cucu langit, ia menanam murbei kertas dan membuat persembahan serat kulit kayu.",
+              "en": "At the heavenly rock cave and the descent of the heavenly grandchild, he planted paper mulberry and made bark-fibre offerings."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c06",
+              "ame-no-hiwashi-c11"
+            ]
+          },
+          {
+            "title": {
+              "id": "Keturunan menyeberang ke Awa",
+              "en": "Descendants cross to Awa"
+            },
+            "role": {
+              "id": "Leluhur klan Inbe Awa.",
+              "en": "Ancestor of the Awa Inbe clan."
+            },
+            "summary": {
+              "id": "Keturunannya menyeberang ke Provinsi Awa mencari tanah untuk biji-bijian dan rami, dan klan Inbe Awa mempersembahkan tekstil rami dan murbei kertas pada Daijōsai.",
+              "en": "His descendants crossed to Awa Province seeking land for grains and hemp, and the Awa Inbe clan offered hemp and paper-mulberry textiles at the Daijōsai."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c09",
+              "ame-no-hiwashi-c13"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "name": {
+              "id": "Provinsi Awa (Shikoku)",
+              "en": "Awa Province (Shikoku)"
+            },
+            "type": "region",
+            "description": {
+              "id": "Tempat keturunannya membuka lahan dan klan Inbe Awa berkembang.",
+              "en": "Where his descendants cultivated land and the Awa Inbe clan developed."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c01",
+              "ame-no-hiwashi-c09"
+            ]
+          },
+          {
+            "name": {
+              "id": "Washi Jinja, Senzoku, Tokyo",
+              "en": "Washi Shrine, Senzoku, Tokyo"
+            },
+            "type": "temple",
+            "description": {
+              "id": "Kuil tempat ia dipuja sebagai dewa utama.",
+              "en": "Shrine where he is enshrined as principal deity."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c15"
+            ]
+          },
+          {
+            "name": {
+              "id": "Inbe Jinja, Kota Tokushima",
+              "en": "Inbe Shrine, Tokushima City"
+            },
+            "type": "temple",
+            "description": {
+              "id": "Kuil tempat ia dipuja sebagai dewa utama.",
+              "en": "Shrine where he is enshrined as principal deity."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c15"
+            ]
+          }
+        ],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Tajikarao",
+            "relation_type": "parent",
+            "note": {
+              "id": "Disebut sebagai ayahnya dalam Ensiklopedia Shinto.",
+              "en": "Named as his father in the Encyclopedia of Shinto."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c05"
+            ]
+          },
+          {
+            "target_name": "Takamimusubi",
+            "relation_type": "relative",
+            "note": {
+              "id": "Menurut satu sumber, ia keturunan salah satunya.",
+              "en": "According to one source, he descends from one of them."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c04"
+            ]
+          },
+          {
+            "target_name": "Futodama",
+            "relation_type": "ally",
+            "note": {
+              "id": "Ia pengikut Futodama, leluhur klan Inbe, menurut Kogo shūi.",
+              "en": "He is a vassal of Futodama, ancestor of the Inbe clan, according to the Kogo shūi."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c08",
+              "ame-no-hiwashi-c11"
+            ]
+          },
+          {
+            "target_name": "Amaterasu",
+            "relation_type": "associated",
+            "note": {
+              "id": "Menanam serat dan memainkan senar saat Amaterasu bersembunyi di gua batu.",
+              "en": "Planted fibres and played the string when Amaterasu hid in the rock cave."
+            },
+            "claim_ids": [
+              "ame-no-hiwashi-c06",
+              "ame-no-hiwashi-c10"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa Ame no Hiwashi dipandang sebagai kami pekerjaan?",
+            "en": "Why is Ame no Hiwashi regarded as an occupational kami?"
+          },
+          {
+            "id": "Bagaimana dua sumber berbeda dalam silsilahnya?",
+            "en": "How do the two sources differ on his genealogy?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "ame-no-hiwashi-s1",
+            "published": null,
+            "accessed": "2026-10-01",
+            "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%97%A5%E9%B7%B2%E7%A5%9E",
+            "title": "天日鷲神",
+            "publisher": "Wikipedia",
+            "language": "ja",
+            "type": "wikipedia",
+            "author": null
+          },
+          {
+            "id": "ame-no-hiwashi-s2",
+            "published": null,
+            "accessed": "2026-10-06",
+            "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9435",
+            "title": "Amenohiwashi (Encyclopedia of Shinto)",
+            "publisher": "Kokugakuin University (Encyclopedia of Shinto)",
+            "language": "en",
+            "type": "encyclopedia",
+            "author": "Kadoya Atsushi"
+          }
+        ],
+        "claims": [
+          {
+            "id": "ame-no-hiwashi-c01",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "『日本書紀』や『古語拾遺』に登場する。阿波国を開拓し、穀麻を植えて紡績の業を創始した阿波の忌部氏の祖神。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ame-no-Hiwashi adalah dewa dalam mitologi Jepang yang muncul dalam Nihon Shoki dan Kogo shūi, leluhur klan Inbe di Awa yang membuka Provinsi Awa, menanam serat, dan merintis pemintalan.",
+              "en": "Ame-no-Hiwashi is a deity in Japanese mythology appearing in the Nihon Shoki and the Kogo shūi, ancestor of the Awa Inbe clan who opened up Awa Province, planted fibres and founded spinning work."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c02",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "『日本書紀』や『古語拾遺』に登場する。阿波国を開拓し、穀麻を植えて紡績の業を創始した阿波の忌部氏の祖神。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ia dianggap sebagai leluhur klan Inbe di Awa.",
+              "en": "He is regarded as the ancestor of the Awa Inbe clan."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c03",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "『日本書紀』や『古語拾遺』に登場する。阿波国を開拓し、穀麻を植えて紡績の業を創始した阿波の忌部氏の祖神。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Satu tradisi menganggapnya menanam bahan serat dan merintis pemintalan.",
+              "en": "A tradition credits him with cultivating fibres and founding spinning work."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c04",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "麻植神（おえのかみ）、忌部神（いんべのかみ）とも呼ばれる。また高魂命または神魂命の裔神の天日鷲翔矢命（あめのひわしかけるやのみこと）ともされる。",
+            "locator": "Article text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ia juga disebut Oe no Kami dan Inbe no Kami, serta dianggap sebagai Ame-no-Hiwashikakeruya, keturunan Takamimusubi atau Kamimusubi.",
+              "en": "He is also called Oe no Kami and Inbe no Kami, and is also regarded as Ame-no-Hiwashikakeruya, a descendant of Takamimusubi or Kamimusubi."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c05",
+            "source_id": "ame-no-hiwashi-s2",
+            "quote": "[Ame no hiwashi] (Nihongi) ... Described as the child of Tajikarao, ancestor of the Inbe clan of Awa Province",
+            "locator": "Kami in Classic Texts",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Menurut Ensiklopedia Shinto, Amenohiwashi (Ame no hiwashi dalam Nihongi) digambarkan sebagai anak Tajikarao dan leluhur klan Inbe di Provinsi Awa.",
+              "en": "According to the Encyclopedia of Shinto, Amenohiwashi (Ame no hiwashi in the Nihongi) is described as the child of Tajikarao and ancestor of the Inbe clan of Awa Province."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c06",
+            "source_id": "ame-no-hiwashi-s2",
+            "quote": "this deity is said to have planted paper mulberry trees and produced bark-fiber offerings (nigite) from them at the time of Amaterasu's hiding away in the Rock Cave of Heaven, and at the Descent of the Heavenly Grandchild (tenson kōrin).",
+            "locator": "Kami in Classic Texts",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dewa ini dikatakan menanam pohon murbei kertas dan membuat persembahan serat kulit kayu (nigite) darinya ketika Amaterasu bersembunyi di gua batu surga dan pada turunnya cucu langit.",
+              "en": "This deity is said to have planted paper mulberry trees and produced bark-fiber offerings (nigite) from them at the time of Amaterasu's hiding in the Rock Cave of Heaven and at the Descent of the Heavenly Grandchild."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c07",
+            "source_id": "ame-no-hiwashi-s2",
+            "quote": "Based on these events, Amenohiwashi is considered an occupational kami with jurisdiction over the production of ritual implements.",
+            "locator": "Kami in Classic Texts",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Atas dasar peristiwa itu, Amenohiwashi dipandang sebagai kami pekerjaan yang berwenang atas pembuatan perkakas ritual.",
+              "en": "On the basis of these events, Amenohiwashi is considered an occupational kami with jurisdiction over the production of ritual implements."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c08",
+            "source_id": "ame-no-hiwashi-s2",
+            "quote": "Kogo shūi also states that Amenohiwashi was a vassal of Futodama no mikoto, ancestral deity (sojin) of the Inbe clan, who were responsible for court ritual.",
+            "locator": "Kami in Classic Texts",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Kogo shūi juga menyatakan bahwa Amenohiwashi adalah pengikut Futodama, dewa leluhur klan Inbe yang bertanggung jawab atas ritual istana.",
+              "en": "The Kogo shūi also states that Amenohiwashi was a vassal of Futodama no mikoto, ancestral deity of the Inbe clan, who were responsible for court ritual."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c09",
+            "source_id": "ame-no-hiwashi-s2",
+            "quote": "The descendants of Amenohiwashi crossed over to Awa Province in Shikoku in search of lands to cultivate grains and hemp. As a result, the Awa Inbe clan developed the tradition of offering hemp and paper-mulberry textiles to the emperor on the occasion of the imperial accession ceremony or Daijōsai.",
+            "locator": "Kami in Classic Texts",
+            "context": "historical-record",
+            "statement": {
+              "id": "Keturunan Amenohiwashi menyeberang ke Provinsi Awa di Shikoku mencari tanah untuk menanam biji-bijian dan rami, sehingga klan Inbe Awa mengembangkan tradisi mempersembahkan tekstil rami dan murbei kertas kepada kaisar pada upacara penobatan atau Daijōsai.",
+              "en": "The descendants of Amenohiwashi crossed over to Awa Province in Shikoku in search of lands to cultivate grains and hemp, and as a result the Awa Inbe clan developed the tradition of offering hemp and paper-mulberry textiles to the emperor at the accession ceremony or Daijōsai."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c10",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "神話で知られているのは天照大神が天岩戸に入られたとき、岩戸の前で神々の踊りが始まり、天日鷲神が弦楽器を奏でると、弦の先に鷲が止まった。多くの神々が、これは世の中を明るくする吉祥を表す鳥といって喜ばれ、この神の名として鷲の字を加えて、天日鷲命とされた。",
+            "locator": "記述",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam mitos yang terkenal, saat Amaterasu masuk gua batu surga dan para dewa mulai menari, Ame no Hiwashi memainkan alat musik petik dan seekor elang hinggap di ujung senarnya; para dewa menyukainya sebagai pertanda baik sehingga aksara \"elang\" (washi) ditambahkan pada namanya.",
+              "en": "In the well-known myth, when Amaterasu entered the heavenly rock cave and the gods began to dance, Ame no Hiwashi played a stringed instrument and an eagle perched on the end of the string; the gods rejoiced at it as an auspicious bird, and the character for \"eagle\" (washi) was added to his name."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c11",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "『古語拾遺』によると、天日鷲神は太玉命に従う四柱の神のうちの1柱である。やはり、天照大神が天岩戸に隠れた際に、穀（カジノキ：楮の一種）・木綿などを植えて白和幣（にきて）を作ったとされる。そのため、天日鷲神は「麻植の神」とも呼ばれ、紡績業・製紙業の神となる。",
+            "locator": "記述",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Menurut Kogo shūi, ia salah satu dari empat dewa pengikut Futodama; ketika Amaterasu bersembunyi di gua batu, ia menanam kajinoki dan kapas serta membuat nigite putih, sehingga disebut \"dewa penanam rami\" dan menjadi dewa pemintalan dan pembuatan kertas.",
+              "en": "According to the Kogo shūi, he is one of four deities following Futodama; when Amaterasu hid in the rock cave he planted paper mulberry and cotton and made white nigite, so he is also called the \"hemp-planting kami\" and becomes a kami of spinning and papermaking."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c12",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "また、天日鷲神は一般にお酉様として知られ、豊漁、商工業繁栄、開運、開拓、殖産の守護神として信仰されている。",
+            "locator": "記述",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ia dikenal luas sebagai Otori-sama dan dipuja sebagai dewa pelindung hasil tangkapan ikan, kemakmuran dagang dan industri, nasib baik, pembukaan lahan, dan peningkatan produksi.",
+              "en": "He is generally known as Otori-sama and is worshipped as a guardian of good catches, commercial and industrial prosperity, good fortune, pioneering and industrial promotion."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c13",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "天皇即位の大嘗祭に際して、阿波忌部の末裔とされる三木家が育てた麻を元に、麁服（あらたえ）を調進している。",
+            "locator": "記述",
+            "context": "historical-record",
+            "statement": {
+              "id": "Pada Daijōsai penobatan kaisar, keluarga Miki, yang dianggap keturunan Inbe Awa, menyiapkan aratae dari rami yang mereka tanam.",
+              "en": "At the Daijōsai of an emperor's accession, the Miki family, regarded as descendants of the Awa Inbe, prepares the aratae cloth from hemp they grow."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c14",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "別名 天日鷲命、天日鷲翔矢命、天毘和志可気流夜命、日鷲命、天日和志命、天比和志命など 別称 麻植神、忌部神",
+            "locator": "Infobox",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Nama lain mencakup Ame no Hiwashi no Mikoto, Amenohiwashikakeruya, dan Hiwashi no Mikoto; sebutan lain adalah Oe no Kami dan Inbe no Kami.",
+              "en": "Other names include Ame no Hiwashi no Mikoto, Amenohiwashikakeruya and Hiwashi no Mikoto; other designations are Oe no Kami and Inbe no Kami."
+            }
+          },
+          {
+            "id": "ame-no-hiwashi-c15",
+            "source_id": "ame-no-hiwashi-s1",
+            "quote": "鷲神社（東京都台東区千束） - 主祭神 忌部神社（徳島県徳島市二軒屋町） - 主祭神。",
+            "locator": "祀る神社",
+            "context": "historical-record",
+            "statement": {
+              "id": "Ia dipuja sebagai dewa utama di Washi Jinja di Senzoku, Distrik Taito, Tokyo, dan di Inbe Jinja di Nikenya-chō, Kota Tokushima.",
+              "en": "He is enshrined as principal deity at Washi Shrine in Senzoku, Taito Ward, Tokyo, and at Inbe Shrine in Nikenya-chō, Tokushima City."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Asal-usul silsilah Ame no Hiwashi",
+              "en": "Genealogical origin of Ame no Hiwashi"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Anak Tajikarao dan leluhur klan Inbe Awa (Ensiklopedia Shinto).",
+                  "en": "Child of Tajikarao and ancestor of the Awa Inbe clan (Encyclopedia of Shinto)."
+                },
+                "claim_ids": [
+                  "ame-no-hiwashi-c05"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Keturunan Takamimusubi atau Kamimusubi, bernama Ame no Hiwashikakeruya (sumber lain).",
+                  "en": "A descendant of Takamimusubi or Kamimusubi, named Ame no Hiwashikakeruya (another source)."
+                },
+                "claim_ids": [
+                  "ame-no-hiwashi-c04"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Tidak ada berkas Wikimedia Commons yang diperiksa atau ditambahkan pada putaran pengayaan ini; images dibiarkan kosong."
+          },
+          {
+            "field": "sources",
+            "searched": "Sumber kedua: Ensiklopedia Shinto Universitas Kokugakuin (d-museum.kokugakuin.ac.jp/eos). Basis data nama dewa Kojiki Kokugakuin tidak memuat entri untuk Ame no Hiwashi (bukan tokoh Kojiki)."
+          },
+          {
+            "field": "weaknesses, habitats",
+            "searched": "Sumber tidak menyatakan kelemahan atau habitat; tidak diisi."
+          }
+        ],
+        "native_name": {
+          "text": "天日鷲神",
+          "script": "Kanji",
+          "claim_ids": [
+            "ame-no-hiwashi-c01"
+          ]
+        }
+      },
+      "selection_visual_claim_ids": [
+        "ame-no-hiwashi-c05",
+        "ame-no-hiwashi-c10"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/ame-no-hiwashi.json",
+      "reason": "Riset mendokumentasikan pekerjaan ritual, alat musik dengan elang, serta penanaman serat, tetapi tidak mendokumentasikan tubuh/ikonografi atau manifestasi aktif dewa. Penggambaran manusia biasa dalam adegan kerajinan gagal Uji Sangar; membesarkan tubuh atau memberi kuasa cahaya/elang sebagai tubuh dewa akan mengarang. Ditunda sesuai §6.5 tanpa panggilan gambar."
+    },
+    {
+      "index": 2,
+      "slug": "amilamia",
+      "canonical_name": "Amilamia",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-130.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-130",
+        "slug": "amilamia",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-02",
+        "identity": {
+          "canonical_name": "Amilamia",
+          "native_name": null,
+          "display_name": {
+            "id": "Amilamia",
+            "en": "Amilamia"
+          },
+          "wikidata_qid": "Q12253363",
+          "claim_ids": [
+            "amilamia-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "peri",
+          "claim_ids": [
+            "amilamia-c01"
+          ]
+        },
+        "classification": {
+          "value": "fairy",
+          "claim_ids": [
+            "amilamia-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-basque",
+          "suggested_new": null,
+          "claim_ids": [
+            "amilamia-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "amilamia-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "cave",
+            "claim_ids": [
+              "amilamia-c01"
+            ]
+          },
+          {
+            "value": "water",
+            "claim_ids": [
+              "amilamia-c02"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "benevolent",
+          "claim_ids": [
+            "amilamia-c01",
+            "amilamia-c05"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Amilamia adalah peri baik hati mitologi Basque dari Agurain, Alava, berambut emas yang tinggal di gua Lezao dan menolong orang miskin.",
+          "en": "Amilamia is a kindly fairy of Basque mythology from Agurain, Alava, with golden hair, who lives in the Lezao cave and helps the poor.",
+          "claim_ids": [
+            "amilamia-c01",
+            "amilamia-c02",
+            "amilamia-c05"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Amilamia adalah makhluk gaib baik hati mitologi Basque dari daerah Agurain di Alava, yang menurut tradisi tinggal di gua Lezao di pegunungan Entzia. Ia perempuan berambut pirang seperti emas yang menjuntai sampai tanah; ia menyisirnya dengan sisir emas di tepi kolam gua sambil bernyanyi dalam bahasa tak dikenal. Ia punya ayakan ajaib yang menghasilkan tepung walau kosong dan menolong orang miskin serta gembala.",
+            "en": "Amilamia is a benevolent supernatural being of Basque mythology from the Agurain area of Alava who by tradition lived in the Lezao cave in the Entzia range. She is a woman with golden-blond hair reaching the ground, which she combs with a golden comb by the cave pool while singing in an unknown tongue. She had a magic sieve that made flour though empty, and helped the poor and shepherds.",
+            "claim_ids": [
+              "amilamia-c01",
+              "amilamia-c02",
+              "amilamia-c03",
+              "amilamia-c04",
+              "amilamia-c05",
+              "amilamia-c10"
+            ]
+          },
+          {
+            "id": "Federico Baraibar dan José Miguel de Barandiaran mencatat Amilamia sebagai nama lamia di Agurain, dan Pemerintah Basque menyebutnya salah satu nama daerah untuk lamiak. Ia varian lamiak yang lebih lembut; sebagian legenda menyebutnya satu tokoh, yang lain satu jenis roh.",
+            "en": "Federico Baraibar and José Miguel de Barandiaran record Amilamia as the name of a lamia at Agurain, and the Basque Government lists it among regional names for the lamiak. She is a gentler variant of the lamiak; some legends make her one figure, others a kind of spirit.",
+            "claim_ids": [
+              "amilamia-c06",
+              "amilamia-c07",
+              "amilamia-c08",
+              "amilamia-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Peri berambut emas.",
+            "en": "A golden-haired fairy.",
+            "claim_ids": [
+              "amilamia-c02"
+            ]
+          },
+          "origin": {
+            "id": "Agurain, Alava.",
+            "en": "Agurain, Alava.",
+            "claim_ids": [
+              "amilamia-c01"
+            ]
+          },
+          "role": {
+            "id": "Menolong orang miskin.",
+            "en": "Helps the poor.",
+            "claim_ids": [
+              "amilamia-c05"
+            ]
+          },
+          "famous_for": {
+            "id": "Ayakan yang menghasilkan tepung walau kosong.",
+            "en": "The sieve that makes flour though empty.",
+            "claim_ids": [
+              "amilamia-c04"
+            ]
+          }
+        },
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [
+          {
+            "name": {
+              "id": "Gua Lezao",
+              "en": "Lezao cave"
+            },
+            "type": "other",
+            "description": {
+              "id": "Gua di pegunungan Entzia tempat tinggal Amilamia.",
+              "en": "The cave in the Entzia range where Amilamia lived."
+            },
+            "claim_ids": [
+              "amilamia-c01",
+              "amilamia-c10"
+            ]
+          }
+        ],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Lamiak",
+            "relation_type": "variant",
+            "note": {
+              "id": "Amilamia adalah nama atau varian lamiak di Agurain.",
+              "en": "Amilamia is a name or variant of the lamiak at Agurain."
+            },
+            "claim_ids": [
+              "amilamia-c06",
+              "amilamia-c07",
+              "amilamia-c08"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "amilamia-s1",
+            "url": "https://fr.wikipedia.org/wiki/Amilamia",
+            "title": "Amilamia",
+            "author": null,
+            "publisher": "Wikipedia (fr)",
+            "published": null,
+            "language": "fr",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "amilamia-s2",
+            "url": "https://ca.wikipedia.org/wiki/Amilamia",
+            "title": "Amilamia",
+            "author": null,
+            "publisher": "Wikipedia (ca)",
+            "published": null,
+            "language": "ca",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "amilamia-s3",
+            "url": "https://eu.wikipedia.org/wiki/Amilamia",
+            "title": "Amilamia",
+            "author": null,
+            "publisher": "Wikipedia (eu)",
+            "published": null,
+            "language": "eu",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          }
+        ],
+        "claims": [
+          {
+            "id": "amilamia-c01",
+            "source_id": "amilamia-s1",
+            "quote": "Amilamia (au pluriel amilamiak) est un être surnaturel bienveillant de la mythologie basque, particulièrement associé à la région d'Agurain, en Alava. Selon la tradition, elle aurait vécu dans la grotte de Lezao, dans le massif d'Entzia.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Amilamia (jamak: amilamiak) adalah makhluk gaib baik hati dalam mitologi Basque, terutama dikaitkan dengan daerah Agurain di Alava, dan menurut tradisi tinggal di gua Lezao di pegunungan Entzia.",
+              "en": "Amilamia (plural amilamiak) is a benevolent supernatural being of Basque mythology, especially tied to the Agurain area of Alava, who by tradition lived in the Lezao cave in the Entzia range."
+            }
+          },
+          {
+            "id": "amilamia-c02",
+            "source_id": "amilamia-s1",
+            "quote": "Elle est décrite comme une femme aux longs cheveux blonds, comparés à de l'or, qu'elle peigne avec un peigne en or en utilisant l'eau du bassin comme miroir. Sa chevelure est décrite comme suffisamment longue pour atteindre le sol.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia digambarkan sebagai perempuan berambut pirang panjang seperti emas yang menyisir rambutnya dengan sisir emas sambil memakai air kolam sebagai cermin; rambutnya cukup panjang hingga menyentuh tanah.",
+              "en": "She is described as a woman with long golden-blond hair, which she combs with a golden comb using the pool's water as a mirror; her hair is long enough to reach the ground."
+            }
+          },
+          {
+            "id": "amilamia-c03",
+            "source_id": "amilamia-s1",
+            "quote": "Selon les récits associés à Amilamia, elle chantait également dans une langue inconnue pendant qu'elle se coiffait.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut kisah-kisahnya, ia bernyanyi dalam bahasa yang tidak dikenal sambil menyisir rambut.",
+              "en": "According to her tales she sang in an unknown language while combing her hair."
+            }
+          },
+          {
+            "id": "amilamia-c04",
+            "source_id": "amilamia-s1",
+            "quote": "Elle aurait notamment possédé un tamis capable de produire de la farine alors qu'il était vide",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia konon memiliki ayakan yang dapat menghasilkan tepung walaupun kosong.",
+              "en": "She is said to have owned a sieve that produced flour even when empty."
+            }
+          },
+          {
+            "id": "amilamia-c05",
+            "source_id": "amilamia-s1",
+            "quote": "Elle est aussi présentée comme une figure bienveillante, venant en aide aux personnes pauvres et, dans certains récits, aux bergers.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia digambarkan baik hati, menolong orang miskin dan, dalam beberapa kisah, para gembala.",
+              "en": "She is presented as kindly, helping the poor and, in some tales, shepherds."
+            }
+          },
+          {
+            "id": "amilamia-c06",
+            "source_id": "amilamia-s1",
+            "quote": "Dans la tradition recueillie par Federico Baraibar, le nom désigne une lamia de la région d'Agurain, associée à la grotte de Lezao, dans le massif d'Entzia. José Miguel de Barandiaran relève également Amilamia comme le nom donné à une lamia à Agurain.",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Dalam tradisi yang dikumpulkan Federico Baraibar, nama ini merujuk lamia dari daerah Agurain yang terkait gua Lezao; José Miguel de Barandiaran juga mencatat Amilamia sebagai nama lamia di Agurain.",
+              "en": "In the tradition collected by Federico Baraibar the name refers to a lamia of the Agurain area linked to the Lezao cave; José Miguel de Barandiaran also records Amilamia as the name of a lamia at Agurain."
+            }
+          },
+          {
+            "id": "amilamia-c07",
+            "source_id": "amilamia-s1",
+            "quote": "Le Gouvernement basque indique d'ailleurs que les lamiak sont désignées sous différentes appellations selon les régions, parmi lesquelles Amilamia et Eleilamia.",
+            "locator": null,
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Pemerintah Basque menyebut lamiak memiliki nama berbeda menurut daerah, antara lain Amilamia dan Eleilamia.",
+              "en": "The Basque Government notes that lamiak have different names by region, among them Amilamia and Eleilamia."
+            }
+          },
+          {
+            "id": "amilamia-c08",
+            "source_id": "amilamia-s2",
+            "quote": "Una amilamia és un geni de la mitologia basca, una variant suavitzada de les laminak o lamiak pròpia de la zona d'Agurain (Àlaba).",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut artikel bahasa Katalan, amilamia adalah roh mitologi Basque, varian yang lebih lembut dari laminak atau lamiak dari daerah Agurain (Alava).",
+              "en": "According to the Catalan article an amilamia is a spirit of Basque mythology, a gentler variant of the laminak or lamiak from the Agurain area (Alava)."
+            }
+          },
+          {
+            "id": "amilamia-c09",
+            "source_id": "amilamia-s2",
+            "quote": "Si bé algunes llegendes la descriuen com a un personatge singular, d'altres en parlen com a un tipus de geni al qual pertanyen nombrosos individus.",
+            "locator": null,
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Sebagian legenda menggambarkannya sebagai satu tokoh, sementara yang lain menyebutnya jenis roh dengan banyak anggota.",
+              "en": "Some legends describe her as a single figure, others as a kind of spirit with many members."
+            }
+          },
+          {
+            "id": "amilamia-c10",
+            "source_id": "amilamia-s3",
+            "quote": "Amilamia euskal mitologiako irelu edo jeinua da, Agurain aldekoa. Entziako mendilerroko Lezao haitzuloan bizi omen zen.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Artikel bahasa Basque menyebut Amilamia irelu atau roh mitologi Basque dari sekitar Agurain yang konon tinggal di gua Lezao di pegunungan Entzia.",
+              "en": "The Basque article calls Amilamia an irelu or spirit of Basque mythology from around Agurain, said to live in the Lezao cave in the Entzia range."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Satu tokoh atau satu jenis",
+              "en": "One figure or a kind"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Satu tokoh, Amilamia dari Lezao.",
+                  "en": "A single figure, Amilamia of Lezao."
+                },
+                "claim_ids": [
+                  "amilamia-c09"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Jenis roh dengan banyak anggota.",
+                  "en": "A kind of spirit with many members."
+                },
+                "claim_ids": [
+                  "amilamia-c09"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "sources",
+            "searched": "Dibaca artikel Wikipedia fr, ca, dan eu; belum ada sumber di luar Wikipedia yang dikutip untuk entri ini."
+          },
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "amilamia-c02",
+        "amilamia-c03"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/amilamia.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/amilamia.png",
+      "native_sha256": "f47da0bace8d961f646da803702c3813d3f1bc049f7360f5d79188ca353250c6"
+    },
+    {
+      "index": 3,
+      "slug": "ampelos",
+      "canonical_name": "Ampelos",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-095.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-095",
+        "slug": "ampelos",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-09-30",
+        "identity": {
+          "canonical_name": "Ampelos",
+          "native_name": null,
+          "display_name": {
+            "id": "Ampelos",
+            "en": "Ampelos"
+          },
+          "wikidata_qid": "Q474474",
+          "claim_ids": [
+            "ampelos-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "dewa",
+          "claim_ids": [
+            "ampelos-c01"
+          ]
+        },
+        "classification": {
+          "value": "deity",
+          "claim_ids": [
+            "ampelos-c01"
+          ]
+        },
+        "culture": {
+          "value": "greek-mythology",
+          "suggested_new": null,
+          "claim_ids": [
+            "ampelos-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "ampelos-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Ampelos adalah satir muda, personifikasi pohon anggur, kekasih Dionysus yang menurut berbagai kisah diubah menjadi pohon anggur atau rasi bintang.",
+          "en": "Ampelos is a young satyr, a personification of the grapevine and lover of Dionysus, who in various accounts became the grapevine or a constellation.",
+          "claim_ids": [
+            "ampelos-c01",
+            "ampelos-c02",
+            "ampelos-c04"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ampelos adalah personifikasi pohon anggur dan kekasih Dionysus (Bacchus), seorang satir. Menurut Theoi, ia satir muda dari Thrakia yang tampan, dan menurut Fasti karya Ovidius ia putra seorang nimfa dan seorang satir yang dicintai Bacchus.",
+            "en": "Ampelos was a personification of the grapevine and lover of Dionysus (Bacchus), a satyr. According to Theoi he was a handsome young Thrakian satyr, and according to Ovid's Fasti he was the son of a nymph and a satyr whom Bacchus loved.",
+            "claim_ids": [
+              "ampelos-c01",
+              "ampelos-c02",
+              "ampelos-c04",
+              "ampelos-c06"
+            ]
+          },
+          {
+            "id": "Ada beberapa kisah tentang akhir hidupnya. Menurut Theoi, dalam satu kisah ia dibunuh banteng liar dan diubah menjadi pohon anggur pertama, dalam kisah lain ia jatuh dari pohon elm saat memetik anggur dan menjadi rasi bintang. Menurut Wikipedia, Dionysus mengubahnya menjadi rasi bintang atau pohon anggur, dan menurut Nonnus ia tewas ditanduk banteng liar setelah mengejek dewi Selene.",
+            "en": "There are several accounts of his end. According to Theoi, in one he was slain by a wild bull and became the first grapevine, in the other he fell from an elm tree while picking grapes and became a constellation. According to Wikipedia, Dionysus turned him into a constellation or the grapevine, and according to Nonnus a wild bull gored him to death after he mocked the goddess Selene.",
+            "claim_ids": [
+              "ampelos-c02",
+              "ampelos-c03",
+              "ampelos-c05",
+              "ampelos-c07"
+            ]
+          },
+          {
+            "id": "Dalam Dionysiaca karya Nonnus, Ampelos menunggang banteng dan menantang Selene, \"aku bertanduk dan aku menunggang banteng\"; Selene yang cemburu mengirim lalat pengejar ternak sehingga banteng itu berlari liar. Dalam Fasti karya Ovidius, Ampelos jatuh saat memetik anggur dan Liber mengangkatnya ke bintang-bintang.",
+            "en": "In Nonnus' Dionysiaca, Ampelos rode a bull and challenged Selene, \"I have horns and I ride a bull\"; the jealous Selene sent a cattle-chasing gadfly so that the bull galloped off wildly. In Ovid's Fasti, Ampelos fell while picking grapes and Liber lifted him to the stars.",
+            "claim_ids": [
+              "ampelos-c07",
+              "ampelos-c08",
+              "ampelos-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Kematian Ampelos",
+              "en": "The death of Ampelos"
+            },
+            "role": {
+              "id": "Pemuda yang meninggal dan berubah wujud.",
+              "en": "The youth who dies and is transformed."
+            },
+            "summary": {
+              "id": "Dalam satu kisah ia dibunuh banteng liar dan menjadi pohon anggur pertama; dalam kisah lain ia jatuh dari pohon elm saat memetik anggur dan menjadi rasi bintang.",
+              "en": "In one account he is slain by a wild bull and becomes the first grapevine; in another he falls from an elm tree while picking grapes and becomes a constellation."
+            },
+            "claim_ids": [
+              "ampelos-c05",
+              "ampelos-c07"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "name": {
+              "id": "Thrakia",
+              "en": "Thrakia"
+            },
+            "type": "region",
+            "description": {
+              "id": "Theoi menyebut Ampelos sebagai satir dari Thrakia.",
+              "en": "Theoi calls Ampelos a Thrakian satyr."
+            },
+            "claim_ids": [
+              "ampelos-c04"
+            ]
+          }
+        ],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Dionysus",
+            "relation_type": "associated",
+            "note": {
+              "id": "Dewa yang mencintainya.",
+              "en": "The god who loved him."
+            },
+            "claim_ids": [
+              "ampelos-c01",
+              "ampelos-c04"
+            ]
+          },
+          {
+            "target_name": "Satyr",
+            "relation_type": "type-of",
+            "note": {
+              "id": "Ia seorang satir.",
+              "en": "He was a satyr."
+            },
+            "claim_ids": [
+              "ampelos-c02",
+              "ampelos-c04"
+            ]
+          },
+          {
+            "target_name": "Selene",
+            "relation_type": "associated",
+            "note": {
+              "id": "Dewi bulan yang dalam kisah Nonnus iri melihat Ampelos menunggang banteng.",
+              "en": "The moon goddess who in Nonnus' tale looked jealously at Ampelos riding a bull."
+            },
+            "claim_ids": [
+              "ampelos-c03",
+              "ampelos-c09"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+            "en": "What role do minor figures play in Greek and Roman myth?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "ampelos-s1",
+            "url": "https://en.wikipedia.org/wiki/Ampelos",
+            "title": "Ampelos",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-09-30"
+          },
+          {
+            "id": "ampelos-s2",
+            "url": "https://www.theoi.com/Georgikos/SatyrosAmpelos.html",
+            "title": "AMPELOS - Grape-Vine Satyr of Greek Mythology",
+            "author": "Aaron J. Atsma",
+            "publisher": "Theoi Project",
+            "published": null,
+            "language": "en",
+            "type": "encyclopedia",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "ampelos-c01",
+            "source_id": "ampelos-s1",
+            "quote": "was a personification of the grapevine and lover of  Dionysus in Greek and Bacchus in Roman mythology.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ampelos adalah personifikasi pohon anggur dan kekasih Dionysus (Bacchus).",
+              "en": "Ampelos was a personification of the grapevine and lover of Dionysus (Bacchus)."
+            }
+          },
+          {
+            "id": "ampelos-c02",
+            "source_id": "ampelos-s1",
+            "quote": "He was a satyr that Dionysus either turned into a constellation or the grape vine.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia seorang satir yang diubah Dionysus menjadi rasi bintang atau pohon anggur.",
+              "en": "He was a satyr whom Dionysus turned into a constellation or the grapevine."
+            }
+          },
+          {
+            "id": "ampelos-c03",
+            "source_id": "ampelos-s1",
+            "quote": "According to Nonnus, Ampelos was gored to death by a wild bull after he mocked the goddess Selene",
+            "locator": "Nonnus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Nonnus, Ampelos tewas ditanduk banteng liar setelah mengejek dewi Selene.",
+              "en": "According to Nonnus, Ampelos was gored by a wild bull after mocking Selene."
+            }
+          },
+          {
+            "id": "ampelos-c04",
+            "source_id": "ampelos-s2",
+            "quote": "AMPELOS was a handome, young Thrakian Satyros (Satyr) loved by the god Dionysos.",
+            "locator": "Entri utama",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Theoi, Ampelos adalah seorang Satyros (satir) muda dari Thrakia yang tampan dan dicintai dewa Dionysos.",
+              "en": "According to Theoi, Ampelos was a handsome young Thrakian Satyros (Satyr) loved by the god Dionysos."
+            }
+          },
+          {
+            "id": "ampelos-c05",
+            "source_id": "ampelos-s2",
+            "quote": "There were two accounts of his death. In one he was slain by a wild bull and transformed by the grieving god into the first grapevine. In the other Ampelos fell from an elm tree while picking grapes and was set amongst the stars as the constellation Vindemitor or Vindiatrix (better known as Bootes).",
+            "locator": "Entri utama",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Theoi, ada dua kisah tentang kematiannya. Dalam satu kisah ia dibunuh banteng liar dan diubah oleh sang dewa yang berduka menjadi pohon anggur pertama. Dalam kisah lain Ampelos jatuh dari pohon elm saat memetik anggur dan ditempatkan di antara bintang sebagai rasi Vindemitor atau Vindiatrix (lebih dikenal sebagai Bootes).",
+              "en": "According to Theoi, there were two accounts of his death. In one he was slain by a wild bull and transformed by the grieving god into the first grapevine. In the other Ampelos fell from an elm tree while picking grapes and was set among the stars as the constellation Vindemitor or Vindiatrix (better known as Bootes)."
+            }
+          },
+          {
+            "id": "ampelos-c06",
+            "source_id": "ampelos-s2",
+            "quote": "Ovid, Fasti 3. 407 ff (trans.Boyle) ... Beardless Ampelos, they say, a Nympha's and a Satyrus' (Satyr's) son, was loved by Bacchus [Dionysos] on Ismarian hills [in Thrace]. He trusted him with a vine hanging from the leaves of an elm; it is now named for the boy.",
+            "locator": "Classical literature quotes",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam Fasti karya Ovidius (terjemahan Boyle), Ampelos yang belum berjanggut, kata orang, putra seorang nimfa dan seorang satir, dicintai Bacchus (Dionysos) di perbukitan Ismaria (di Thrakia). Bacchus mempercayakan kepadanya sulur anggur yang menggantung dari dedaunan pohon elm; sulur itu kini dinamai menurut sang pemuda.",
+              "en": "In Ovid's Fasti (trans. Boyle), beardless Ampelos, they say a nymph's and a satyr's son, was loved by Bacchus (Dionysos) on Ismarian hills (in Thrace). Bacchus trusted him with a vine hanging from the leaves of an elm; it is now named for the boy."
+            }
+          },
+          {
+            "id": "ampelos-c07",
+            "source_id": "ampelos-s2",
+            "quote": "Ovid, Fasti 3. 407 ff (trans.Boyle) ... The reckless youth fell picking gaudy grapes on a branch. Liber [Dionysos] lifted the lost boy to the stars.",
+            "locator": "Classical literature quotes",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam Fasti karya Ovidius (terjemahan Boyle), sang pemuda nekat jatuh saat memetik anggur berwarna-warni di sebuah dahan, dan Liber (Dionysos) mengangkat anak yang hilang itu ke bintang-bintang.",
+              "en": "In Ovid's Fasti (trans. Boyle), the reckless youth fell while picking gaudy grapes on a branch, and Liber (Dionysos) lifted the lost boy to the stars."
+            }
+          },
+          {
+            "id": "ampelos-c08",
+            "source_id": "ampelos-s2",
+            "quote": "Nonnus, Dionysiaca 11. 185 ff (trans. Rouse) ... He shouted boldly to the fullfaced Moon (Mene)--‘Give me best, Selene, horned driver of cattle! Now I am both--I have horns and I ride a bull!’",
+            "locator": "Classical literature quotes",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam Dionysiaca karya Nonnus (terjemahan Rouse), Ampelos berseru dengan berani kepada Bulan berwajah penuh (Mene): \"Akuilah aku lebih unggul, Selene, penggiring ternak bertanduk! Kini aku keduanya: aku bertanduk dan aku menunggang banteng!\"",
+              "en": "In Nonnus' Dionysiaca (trans. Rouse), Ampelos shouted boldly to the full-faced Moon (Mene): \"Give me best, Selene, horned driver of cattle! Now I am both, I have horns and I ride a bull!\""
+            }
+          },
+          {
+            "id": "ampelos-c09",
+            "source_id": "ampelos-s2",
+            "quote": "Nonnus, Dionysiaca 11. 185 ff (trans. Rouse) ... Selene looked with a jealous eye through the air, to see how Ampleos rode on the murderous marauding bull. She sent him a cattlechasing gadfly; and the bull, pricked continually all over by the sharp sting, galloped away like a horse through pathless tracts.",
+            "locator": "Classical literature quotes",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam Dionysiaca karya Nonnus, Selene memandang dengan mata cemburu untuk melihat bagaimana Ampelos menunggang banteng buas yang membahayakan. Ia mengirim seekor lalat pengejar ternak, dan banteng itu, ditusuk terus-menerus oleh sengatnya yang tajam, berlari seperti kuda melintasi daerah tanpa jalan.",
+              "en": "In Nonnus' Dionysiaca, Selene looked with a jealous eye to see how Ampelos rode on the murderous marauding bull. She sent a cattle-chasing gadfly, and the bull, pricked continually by the sharp sting, galloped away like a horse through pathless tracts."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Cara Ampelos meninggal dan berubah wujud",
+              "en": "How Ampelos died and was transformed"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Dibunuh banteng liar dan diubah menjadi pohon anggur pertama (Theoi; Nonnus menurut Wikipedia: ditanduk setelah mengejek Selene).",
+                  "en": "Slain by a wild bull and turned into the first grapevine (Theoi; Nonnus per Wikipedia: gored after mocking Selene)."
+                },
+                "claim_ids": [
+                  "ampelos-c03",
+                  "ampelos-c05"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Jatuh dari pohon elm saat memetik anggur dan ditempatkan di antara bintang (Theoi; Ovidius dalam Fasti).",
+                  "en": "Fell from an elm tree while picking grapes and was set among the stars (Theoi; Ovid in the Fasti)."
+                },
+                "claim_ids": [
+                  "ampelos-c05",
+                  "ampelos-c07"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Diubah Dionysus menjadi rasi bintang atau pohon anggur (Wikipedia).",
+                  "en": "Turned by Dionysus into a constellation or the grapevine (Wikipedia)."
+                },
+                "claim_ids": [
+                  "ampelos-c02"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+          },
+          {
+            "field": "sumber lain",
+            "searched": "Theoi (halaman Ampelos, memuat Ovidius dan Nonnus) dibuka dan dikutip. Buku 10 Dionysiaca (kisah lengkap) tidak dibuka."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "ampelos-c08",
+        "ampelos-c09"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/ampelos.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/ampelos.png",
+      "native_sha256": "2bdc6ec42011b38c584e761b3899e7de9ab0f1297e379c9f0a31048d996fb5b9"
+    },
+    {
+      "index": 4,
+      "slug": "andromalius",
+      "canonical_name": "Andromalius",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-052.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-052",
+        "slug": "andromalius",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-06",
+        "identity": {
+          "canonical_name": "Andromalius",
+          "native_name": null,
+          "display_name": {
+            "id": "Andromalius",
+            "en": "Andromalius"
+          },
+          "wikidata_qid": "Q2846937",
+          "claim_ids": [
+            "andromalius-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Andromalcus",
+            "language": "en",
+            "name_type": "alias",
+            "claim_ids": [
+              "andromalius-c08"
+            ]
+          },
+          {
+            "name": "アンドロマリウス",
+            "language": "ja",
+            "name_type": "transliteration",
+            "claim_ids": [
+              "andromalius-c01"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "iblis/setan",
+          "claim_ids": [
+            "andromalius-c01"
+          ]
+        },
+        "classification": {
+          "value": "demon",
+          "claim_ids": [
+            "andromalius-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-medieval-european",
+          "suggested_new": null,
+          "claim_ids": [
+            "andromalius-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "andromalius-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Andromalius adalah iblis dalam demonologi Eropa. Menurut Goetia ia berpangkat earl, tampil sebagai manusia yang memegang ular, dan bertugas menangkap pencuri serta mengembalikan barang curian.",
+          "en": "Andromalius is a demon in European demonology. According to the Goetia he is an earl who appears as a man holding a serpent and whose office is to bring back thieves and stolen goods.",
+          "claim_ids": [
+            "andromalius-c01",
+            "andromalius-c02",
+            "andromalius-c05"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Andromalius adalah iblis dalam demonologi Eropa. Dalam Goetia ia menempati urutan ke-72, berpangkat earl yang besar dan perkasa, dan memimpin 36 legiun roh.",
+            "en": "Andromalius is a demon in European demonology. In the Goetia he is the 72nd spirit, a great and mighty earl, who rules 36 legions of spirits.",
+            "claim_ids": [
+              "andromalius-c01",
+              "andromalius-c02",
+              "andromalius-c05",
+              "andromalius-c06",
+              "andromalius-c11"
+            ]
+          },
+          {
+            "id": "Goetia melukiskan bahwa ia tampil dalam bentuk manusia yang memegang ular besar. Tugasnya membawa kembali pencuri beserta barang curian, menyingkap kejahatan dan tindakan curang, menghukum pencuri dan orang jahat lain, serta menemukan harta yang tersembunyi.",
+            "en": "The Goetia describes him appearing in the form of a man holding a great serpent. His office is to bring back a thief and the stolen goods, to discover wickedness and underhand dealing, to punish thieves and other wicked people, and to discover hidden treasure.",
+            "claim_ids": [
+              "andromalius-c03",
+              "andromalius-c04",
+              "andromalius-c05",
+              "andromalius-c06"
+            ]
+          },
+          {
+            "id": "Ia tidak muncul dalam Pseudomonarchia Daemonum. Penyunting Goetia mencatat bahwa namanya sering muncul dalam mantra mandiri di naskah sihir dengan ejaan seperti Andromalcus, untuk menemukan pencuri atau harta. Dalam okultisme populer Jepang, 江口之隆 menduga ia dahulu dewa pencuri Kanaan; ini dugaan penulis modern, bukan tradisi kuno.",
+            "en": "He does not appear in the Pseudomonarchia Daemonum. The Goetia's editor notes that his name often appears in stand-alone spells in magic manuscripts, with spellings such as Andromalcus, for detecting a thief or discovering treasure. In Japanese popular occultism 江口之隆 speculates that he was once a Canaanite god of thieves; this is a modern writer's conjecture, not an ancient tradition.",
+            "claim_ids": [
+              "andromalius-c07",
+              "andromalius-c08",
+              "andromalius-c09",
+              "andromalius-c10"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Iblis berpangkat earl dalam katalog roh Goetia.",
+            "en": "A demon of earl rank in the Goetia's catalogue of spirits.",
+            "claim_ids": [
+              "andromalius-c01",
+              "andromalius-c02"
+            ]
+          },
+          "origin": {
+            "id": "Tercatat dalam Goetia, teks demonologi Eropa yang memuat 72 roh.",
+            "en": "Recorded in the Goetia, a European demonological text listing 72 spirits.",
+            "claim_ids": [
+              "andromalius-c01",
+              "andromalius-c05"
+            ]
+          },
+          "role": {
+            "id": "Dalam teks itu ia bertugas menangkap pencuri, mengembalikan barang curian, dan menemukan harta tersembunyi.",
+            "en": "In that text his office is to catch thieves, bring back stolen goods and discover hidden treasure.",
+            "claim_ids": [
+              "andromalius-c04",
+              "andromalius-c05",
+              "andromalius-c06"
+            ]
+          },
+          "famous_for": {
+            "id": "Dikenal karena wujudnya sebagai manusia yang memegang ular besar dan perannya melawan pencurian.",
+            "en": "Known for his form as a man holding a great serpent and for his role against theft.",
+            "claim_ids": [
+              "andromalius-c03",
+              "andromalius-c05"
+            ]
+          }
+        },
+        "did_you_know": null,
+        "abilities": [
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Mengembalikan pencuri dan barang curian",
+              "en": "Bringing back thieves and stolen goods"
+            },
+            "description": {
+              "id": "Menurut Goetia, tugasnya membawa kembali pencuri beserta barang yang dicuri.",
+              "en": "According to the Goetia, his office is to bring back a thief together with the goods that were stolen."
+            },
+            "claim_ids": [
+              "andromalius-c04",
+              "andromalius-c05"
+            ]
+          },
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Menemukan harta tersembunyi dan kejahatan",
+              "en": "Discovering hidden treasure and wickedness"
+            },
+            "description": {
+              "id": "Ia dikatakan menyingkap kejahatan dan tindakan curang, menghukum pencuri dan orang jahat, serta menemukan harta yang tersembunyi.",
+              "en": "He is said to discover wickedness and underhand dealing, punish thieves and other wicked people, and discover hidden treasure."
+            },
+            "claim_ids": [
+              "andromalius-c04",
+              "andromalius-c06"
+            ]
+          }
+        ],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "andromalius-s1",
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%83%9E%E3%83%AA%E3%82%A6%E3%82%B9",
+            "title": "アンドロマリウス",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "ja",
+            "type": "wikipedia",
+            "accessed": "2026-10-01"
+          },
+          {
+            "id": "andromalius-s2",
+            "url": "https://www.esotericarchives.com/solomon/goetia.htm",
+            "title": "Ars Goetia (Lemegeton, Book 1), ed. Joseph H. Peterson",
+            "author": "Joseph H. Peterson (ed.)",
+            "publisher": "Twilit Grotto: Archives of Western Esoterica",
+            "published": null,
+            "language": "en",
+            "type": "primary-text",
+            "accessed": "2026-10-06"
+          },
+          {
+            "id": "andromalius-s3",
+            "url": "https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia",
+            "title": "List of demons in the Ars Goetia",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "andromalius-c01",
+            "source_id": "andromalius-s1",
+            "quote": "アンドロマリウス（Andromalius）は、悪魔学における悪魔の一人。",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Andromalius adalah iblis dalam demonologi Eropa.",
+              "en": "Andromalius is a demon in European demonology."
+            }
+          },
+          {
+            "id": "andromalius-c02",
+            "source_id": "andromalius-s1",
+            "quote": "『ゴエティア』によると、地獄の36の軍団を率いる序列72番の大いなる伯爵。",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Teks itu memberinya gelar earl.",
+              "en": "The Goetia calls him its seventy-second spirit and an earl."
+            }
+          },
+          {
+            "id": "andromalius-c03",
+            "source_id": "andromalius-s1",
+            "quote": "巨大な蛇を手にした人間の姿で現れるとされる。 ... 盗人を捕らえ盗品を取り戻し、悪と不正を発見し、あらゆる盗人やその他の邪悪な人間を罰し、隠された財宝を発見する事に力を発揮するという。",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia tampil sebagai pria yang memegang ular besar.",
+              "en": "He appears as a man holding a large serpent."
+            }
+          },
+          {
+            "id": "andromalius-c04",
+            "source_id": "andromalius-s1",
+            "quote": "盗人を捕らえ盗品を取り戻し、悪と不正を発見し、あらゆる盗人やその他の邪悪な人間を罰し、隠された財宝を発見する事に力を発揮するという。",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Goetia menyebut ia dapat menangkap pencuri dan mengembalikan barang curian.",
+              "en": "The Goetia credits him with recovering thieves and stolen goods."
+            }
+          },
+          {
+            "id": "andromalius-c05",
+            "source_id": "andromalius-s2",
+            "quote": "The 72d spirit in order is called Andromalius82 he is a great and Mighty Earle appearing in ye form of a Man, holding a serpent in his hand, his office is to bring a Theefe & goods",
+            "locator": "Spirit no. 72",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam Goetia, roh urutan ke-72 bernama Andromalius, seorang earl (bangsawan) yang besar dan perkasa, tampil dalam bentuk manusia yang memegang ular; tugasnya membawa kembali pencuri dan barang curian.",
+              "en": "In the Goetia the 72nd spirit in order is called Andromalius, a great and mighty earl who appears in the form of a man holding a serpent in his hand; his office is to bring back a thief and the stolen goods."
+            }
+          },
+          {
+            "id": "andromalius-c06",
+            "source_id": "andromalius-s2",
+            "quote": "to punish Theives & other wicked people, & to discover Treasure that is hidd, &c, he ruleth 36 Legions of spirits",
+            "locator": "Spirit no. 72",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Goetia juga menyebut ia menghukum pencuri dan orang jahat lain, menemukan harta yang tersembunyi, dan memerintah 36 legiun roh.",
+              "en": "The Goetia also says he punishes thieves and other wicked people, discovers hidden treasure, and rules 36 legions of spirits."
+            }
+          },
+          {
+            "id": "andromalius-c07",
+            "source_id": "andromalius-s1",
+            "quote": "『悪魔の偽王国』には登場しておらず、コラン・ド・プランシーの『地獄の辞典』にも取り上げられていない。",
+            "locator": "Article text",
+            "context": "historical-record",
+            "statement": {
+              "id": "Menurut Wikipedia bahasa Jepang, ia tidak muncul dalam Pseudomonarchia Daemonum dan juga tidak dibahas dalam Dictionnaire infernal karya Collin de Plancy.",
+              "en": "Japanese Wikipedia says he does not appear in the Pseudomonarchia Daemonum and is not covered in Collin de Plancy's Dictionnaire infernal."
+            }
+          },
+          {
+            "id": "andromalius-c08",
+            "source_id": "andromalius-s2",
+            "quote": "Not in W or Scot. Often seen in stand-alone spells in magic mss., where he is employed for detecting a thief or discovering treasure. The name is usually spelled Andromalcus, with many variants",
+            "locator": "Note 82 beside spirit no. 72",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Catatan penyunting Goetia: ia tidak ada dalam katalog W maupun Scot, sering muncul dalam mantra mandiri di naskah sihir untuk menemukan pencuri atau harta, dan namanya biasanya ditulis Andromalcus dengan banyak ragam ejaan.",
+              "en": "The Goetia editor's note says he is not in W or Scot, is often seen in stand-alone spells in magic manuscripts for detecting a thief or discovering treasure, and his name is usually spelled Andromalcus, with many variants."
+            }
+          },
+          {
+            "id": "andromalius-c09",
+            "source_id": "andromalius-s2",
+            "quote": "(e.g. Andromalce, Andromalcum, Andrewemalcus, Andrea Malchus)",
+            "locator": "Note 82 beside spirit no. 72",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Ragam ejaan yang dicatat penyunting: Andromalce, Andromalcum, Andrewemalcus, dan Andrea Malchus.",
+              "en": "Spelling variants recorded by the editor: Andromalce, Andromalcum, Andrewemalcus and Andrea Malchus."
+            }
+          },
+          {
+            "id": "andromalius-c10",
+            "source_id": "andromalius-s1",
+            "quote": "伝統的な悪魔に独自設定を付け加えて考察することで知られる江口之隆は、『西洋魔物図鑑』でアンドロマリウスはカナン神話の盗賊の神だったのではないかと推測している。",
+            "locator": "Article text",
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Penulis okultisme Jepang 江口之隆 menduga dalam bukunya bahwa Andromalius dahulu adalah dewa pencuri dalam mitologi Kanaan.",
+              "en": "The Japanese occult writer 江口之隆 speculates in his book that Andromalius may have been a god of thieves in Canaanite mythology."
+            }
+          },
+          {
+            "id": "andromalius-c11",
+            "source_id": "andromalius-s3",
+            "quote": "Andromalius is a mighty Great Earl of Hell, having 36 legions of demons at his service. He can bring back both a thief and the stolen goods",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Wikipedia bahasa Inggris juga menggambarkannya sebagai Earl Agung Neraka yang memiliki 36 legiun iblis dan dapat membawa kembali pencuri beserta barang curiannya.",
+              "en": "English Wikipedia likewise describes him as a Great Earl of Hell with 36 legions of demons who can bring back both a thief and the stolen goods."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Belum ada berkas Commons yang diverifikasi untuk Andromalius; dibiarkan kosong."
+          },
+          {
+            "field": "cultural_context/etymology/era",
+            "searched": "Goetia (Twilit Grotto) dan Wikipedia (ja, en) tidak menjelaskan etimologi atau konteks budaya secara eksplisit; tidak diisi."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "andromalius-c03",
+        "andromalius-c05"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/andromalius.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/andromalius.png",
+      "native_sha256": "9a900a1b032364eda899b643a866d16e216da0c60db29bafbe91b12deb2cb83c"
+    },
+    {
+      "index": 5,
+      "slug": "ao",
+      "canonical_name": "Ao",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-066.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-066",
+        "slug": "ao",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-01",
+        "identity": {
+          "canonical_name": "Ao",
+          "native_name": {
+            "text": "鰲",
+            "script": "Han characters",
+            "claim_ids": [
+              "ao-c01"
+            ]
+          },
+          "display_name": {
+            "id": "Ao",
+            "en": "Ao"
+          },
+          "wikidata_qid": "Q2373471",
+          "claim_ids": [
+            "ao-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "鼇",
+            "language": "zh",
+            "name_type": "native-script",
+            "claim_ids": [
+              "ao-c07"
+            ]
+          },
+          {
+            "name": "鳌",
+            "language": "zh",
+            "name_type": "native-script",
+            "claim_ids": [
+              "ao-c01"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "hewan mitos",
+          "claim_ids": [
+            "ao-c01"
+          ]
+        },
+        "classification": {
+          "value": "legendary-creature",
+          "claim_ids": [
+            "ao-c01"
+          ]
+        },
+        "culture": {
+          "value": "chinese-mythology",
+          "suggested_new": null,
+          "claim_ids": [
+            "ao-c01"
+          ]
+        },
+        "region": {
+          "value": "east-asia",
+          "claim_ids": [
+            "ao-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "water",
+            "claim_ids": [
+              "ao-c01",
+              "ao-c04"
+            ]
+          }
+        ],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Ao adalah kura-kura laut besar dalam mitologi Tiongkok.",
+          "en": "Ao is a great marine turtle in Chinese mythology.",
+          "claim_ids": [
+            "ao-c01"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ao (鰲, juga ditulis 鼇) adalah kura-kura laut besar dalam mitologi Tiongkok. Ia dianggap pernah hidup di Laut Tiongkok Selatan pada masa pembentukan dunia. Menurut kamus Kangxi yang mengutip Shuowen, ao adalah kura-kura besar di laut.",
+            "en": "Ao (鰲, also written 鼇) is a huge sea turtle of Chinese mythology, thought to have dwelt in the South China Sea when the world was taking shape. The Kangxi Dictionary, citing the Shuowen, defines the ao as a great turtle of the sea.",
+            "claim_ids": [
+              "ao-c01",
+              "ao-c02",
+              "ao-c07"
+            ]
+          },
+          {
+            "id": "Ketika dewi Nüwa memperbaiki langit setelah bencana, ia memotong keempat kaki Ao dan memakainya sebagai penyangga. Terjemahan Liezi oleh Giles mencatat bahwa Nüwa memotong kaki Ao untuk menyangga empat sudut langit, dan Giles menyebut makhluk ini \"Atlas\" Tiongkok, yaitu penyu laut raksasa. Kamus Kangxi yang mengutip Sanhuang Benji juga menyebut Nüwa memotong kaki ao untuk menegakkan empat tiang.",
+            "en": "While the goddess Nüwa was mending the sky after a catastrophe, she cut off the four legs of Ao and used them as props. Giles's translation of the Liezi likewise has her cut off the legs of the Ao to hold up the four corners of the heavens, and Giles calls the creature a Chinese \"Atlas\", a gigantic sea-turtle. The Kangxi Dictionary, quoting the Sanhuang Benji, says as well that Nüwa cut off the ao's feet to set up the four poles.",
+            "claim_ids": [
+              "ao-c03",
+              "ao-c06",
+              "ao-c07"
+            ]
+          },
+          {
+            "id": "Mitos lain menyebut Ao masih hidup di Laut Bohai dan memikul tiga pulau milik delapan dewa abadi (Penglai, Fangzhang, dan Yingzhou) di punggungnya; Yupian yang dikutip kamus Kangxi menyebut ao yang bergaib memikul gunung Penglai di laut. Ao dianggap memengaruhi sosok naga-kura-kura Bixi dalam seni pahat Tiongkok kekaisaran. Nama tempat yang memuat ao lebih khas di pesisir tenggara Tiongkok.",
+            "en": "A different myth says Ao is still alive in the Bohai Sea, bearing on its back the three islands of the Eight Immortals (Penglai, Fangzhang and Yingzhou); the Yupian, quoted in the Kangxi Dictionary, speaks of a divine ao carrying Mount Penglai in the sea. Ao is thought to have shaped the later dragon-and-turtle figure Bixi in imperial Chinese sculpture. Place names containing ao are typical of the southeastern coast of China.",
+            "claim_ids": [
+              "ao-c04",
+              "ao-c07",
+              "ao-c05",
+              "ao-c08"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [
+          {
+            "name": {
+              "id": "Laut Bohai",
+              "en": "Bohai Sea"
+            },
+            "type": "sea",
+            "description": {
+              "id": "Menurut satu mitos, Ao masih hidup di Laut Bohai dan memikul tiga pulau milik delapan dewa abadi (Penglai, Fangzhang, dan Yingzhou) di punggungnya.",
+              "en": "According to one myth, Ao still lives in the Bohai Sea, carrying the three islands of the Eight Immortals (Penglai, Fangzhang and Yingzhou) on his back."
+            },
+            "claim_ids": [
+              "ao-c04"
+            ]
+          },
+          {
+            "name": {
+              "id": "Laut Tiongkok Selatan",
+              "en": "South China Sea"
+            },
+            "type": "sea",
+            "description": {
+              "id": "Ao dipercaya hidup di Laut Tiongkok Selatan pada masa pembentukan dunia.",
+              "en": "Ao was thought to have lived in the South China Sea during the formation of the world."
+            },
+            "claim_ids": [
+              "ao-c02"
+            ]
+          },
+          {
+            "name": {
+              "id": "Sungai Ao dan semenanjung Liu'ao",
+              "en": "Ao River and Liu'ao peninsula"
+            },
+            "type": "river",
+            "description": {
+              "id": "Nama tempat yang memuat ao, seperti Sungai Ao di Zhejiang selatan dan semenanjung Liu'ao (\"Enam ao\") di Fujian selatan, khas di pesisir tenggara Tiongkok.",
+              "en": "Place names referring to an ao, such as the Ao River in southern Zhejiang and the Liu'ao (\"Six ao\") peninsula in southern Fujian, are characteristic of China's southeastern coast."
+            },
+            "claim_ids": [
+              "ao-c08"
+            ]
+          }
+        ],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Nüwa",
+            "relation_type": "associated",
+            "note": {
+              "id": "Nüwa memotong kaki Ao untuk menyangga langit.",
+              "en": "Nüwa cut off Ao's legs to support the sky."
+            },
+            "claim_ids": [
+              "ao-c03",
+              "ao-c06",
+              "ao-c07"
+            ]
+          },
+          {
+            "target_name": "Bixi",
+            "relation_type": "associated",
+            "note": {
+              "id": "Ao dianggap memengaruhi figur naga-kura-kura Bixi.",
+              "en": "Ao is thought to have influenced the dragon-turtle figure Bixi."
+            },
+            "claim_ids": [
+              "ao-c05"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "ao-s1",
+            "url": "https://en.wikipedia.org/wiki/Ao_(turtle)",
+            "title": "Ao (turtle)",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-01"
+          },
+          {
+            "id": "ao-s2",
+            "url": "https://archive.org/download/taoistteachingsf00lieh/taoistteachingsf00lieh_djvu.txt",
+            "title": "Taoist Teachings from the Book of Lieh Tzŭ (chapter \"An Explanatory Myth\")",
+            "author": "Lionel Giles (translator)",
+            "publisher": "Internet Archive (John Murray, 1912)",
+            "published": "1912",
+            "language": "en",
+            "type": "primary-text",
+            "accessed": "2026-10-06"
+          },
+          {
+            "id": "ao-s3",
+            "url": "https://zh.wikisource.org/wiki/%E5%BA%B7%E7%86%99%E5%AD%97%E5%85%B8/%E9%BB%BD%E9%83%A8/%E5%8D%81%E7%95%AB",
+            "title": "康熙字典/黽部/十畫 (entri 鼇)",
+            "author": null,
+            "publisher": "Wikisource (Chinese)",
+            "published": null,
+            "language": "zh",
+            "type": "primary-text",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "ao-c01",
+            "source_id": "ao-s1",
+            "quote": "Ao (traditional Chinese: 鰲; simplified Chinese: 鳌; pinyin: áo < Old Chinese (ZS): *ŋaːw) is a large marine turtle in Chinese mythology. He was thought to have lived in the South China Sea during the time of the formation of the world. When the goddess Nüwa, creator of mankind, was repairing the sky after a disaster, she chopped off Ao's four legs and used them as supports.",
+            "locator": "Article text, paragraph 1",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao adalah kura-kura laut besar dalam mitologi Tiongkok.",
+              "en": "Ao is a great marine turtle in Chinese mythology."
+            }
+          },
+          {
+            "id": "ao-c02",
+            "source_id": "ao-s1",
+            "quote": "Ao (traditional Chinese: 鰲; simplified Chinese: 鳌; pinyin: áo < Old Chinese (ZS): *ŋaːw) is a large marine turtle in Chinese mythology. He was thought to have lived in the South China Sea during the time of the formation of the world. When the goddess Nüwa, creator of mankind, was repairing the sky after a disaster, she chopped off Ao's four legs and used them as supports.",
+            "locator": "Article text, paragraph 1",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia dipercaya hidup di Laut Tiongkok Selatan pada masa pembentukan dunia.",
+              "en": "It is said to inhabit the South China Sea during the world's formation."
+            }
+          },
+          {
+            "id": "ao-c03",
+            "source_id": "ao-s1",
+            "quote": "Ao (traditional Chinese: 鰲; simplified Chinese: 鳌; pinyin: áo < Old Chinese (ZS): *ŋaːw) is a large marine turtle in Chinese mythology. He was thought to have lived in the South China Sea during the time of the formation of the world. When the goddess Nüwa, creator of mankind, was repairing the sky after a disaster, she chopped off Ao's four legs and used them as supports.",
+            "locator": "Article text, paragraph 1",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Nüwa memotong empat kaki Ao untuk menopang langit yang rusak.",
+              "en": "Nüwa cuts off Ao's four legs to support the damaged sky."
+            }
+          },
+          {
+            "id": "ao-c04",
+            "source_id": "ao-s1",
+            "quote": "Another myth claims that Ao still lives and resides in the Bohai Sea, where he carries the three islands of the Eight Immortals (Penglai, Fangzhang, and Yingzhou) upon his back.",
+            "locator": "Article text, paragraph 2",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Versi lain menempatkannya di Laut Bohai membawa tiga pulau makhluk abadi pada punggung.",
+              "en": "Another version places it in the Bohai Sea carrying three islands of immortals on its back."
+            }
+          },
+          {
+            "id": "ao-c05",
+            "source_id": "ao-s1",
+            "quote": "He is thought to have been an influence on the later half-dragon, half-turtle figure of Bixi in imperial Chinese sculpture. Bixi was considered a son of the Dragon King who was able to carry enormous weights upon his back; figures of the dragon-turtle bearing memorial stelae are common monuments throughout East Asia.",
+            "locator": "Article text, paragraph 3",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Ao dianggap memengaruhi tokoh Bixi yang berwujud campuran naga dan kura-kura.",
+              "en": "Ao is considered an influence on the dragon-turtle figure Bixi."
+            }
+          },
+          {
+            "id": "ao-c06",
+            "source_id": "ao-s2",
+            "quote": "He cut off the legs of the Ao and used them to support the four corners of the heavens. This Chinese “ Atlas ” was a gigantic sea-turtle.",
+            "locator": "Bab \"An Explanatory Myth\", hlm. 85",
+            "context": "historical-record",
+            "statement": {
+              "id": "Dalam terjemahan Liezi oleh Giles, Nüwa memotong kaki Ao dan memakainya menyangga empat sudut langit; Giles menambahkan bahwa \"Atlas\" Tiongkok ini adalah penyu laut raksasa.",
+              "en": "In Giles's translation of the Liezi, Nüwa cut off the legs of the Ao and used them to support the four corners of the heavens; Giles adds that this Chinese \"Atlas\" was a gigantic sea-turtle."
+            }
+          },
+          {
+            "id": "ao-c07",
+            "source_id": "ao-s3",
+            "quote": "《說文》海中大鱉也。《玉篇》傳曰：有神靈之鼇，背負蓬萊之山，在海中。《史記·三皇本紀》女媧氏斷鼇足，以立四極。俗作鰲，非是。",
+            "locator": "Entri 鼇",
+            "context": "historical-record",
+            "statement": {
+              "id": "Kamus Kangxi mengutip Shuowen bahwa ao (鼇) adalah kura-kura besar di laut; Yupian menyebut ao yang bergaib memikul gunung Penglai di punggungnya di laut; dan Sanhuang Benji menyebut Nüwa memotong kaki ao untuk menegakkan empat tiang. Kamus ini menilai penulisan 鰲 sebagai bentuk umum yang tidak tepat.",
+              "en": "The Kangxi Dictionary quotes the Shuowen that the ao (鼇) is a great turtle in the sea; the Yupian that a divine ao carries Mount Penglai on its back in the sea; and the Sanhuang Benji that Nüwa cut off the ao's feet to set up the four poles. The dictionary regards the writing 鰲 as a popular but incorrect form."
+            }
+          },
+          {
+            "id": "ao-c08",
+            "source_id": "ao-s1",
+            "quote": "place names referring to an ao are more characteristic of China's southeastern coast (Zhejiang to Guangdong). This includes the Ao River (Aojiang) in southern Zhejiang, with the town of Aojiang on its northern shore, as well as the Liu'ao (\"Six ao\") peninsula in southern Fujian.",
+            "locator": "Section \"In toponymy\"",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut artikel ini, nama tempat yang memuat ao lebih khas di pesisir tenggara Tiongkok (Zhejiang hingga Guangdong), termasuk Sungai Ao (Aojiang) di Zhejiang selatan dan semenanjung Liu'ao (\"Enam ao\") di Fujian selatan.",
+              "en": "According to this article, place names referring to an ao are more characteristic of China's southeastern coast (Zhejiang to Guangdong), including the Ao River (Aojiang) in southern Zhejiang and the Liu'ao (\"Six ao\") peninsula in southern Fujian."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Ilustrasi dalam artikel tidak dipakai tanpa pemeriksaan berkas Commons, kecocokan subjek, dan lisensinya; belum ada gambar yang terverifikasi untuk entri ini."
+          },
+          {
+            "field": "optional_sections",
+            "searched": "Bacaan yang dikutip belum cukup untuk memastikan bagian opsional yang dibiarkan null atau []; bagian tersebut tidak diisi melalui dugaan."
+          },
+          {
+            "field": "claims",
+            "searched": "5 klaim yang dapat dipasangkan dengan kutipan dibaca dimasukkan. Target enam klaim belum terpenuhi; sumber dan rincian tambahan memerlukan penelusuran lebih lanjut."
+          },
+          {
+            "field": "sources",
+            "searched": "Britannica dan chinese-mythology.com tidak dapat dibuka. Teks Liezi di ctext.org tidak dipakai karena situs melarang pengambilan otomatis; terjemahan Giles (1912) di archive.org hanya memuat bagian Nüwa dan Ao, bukan kisah lima gunung. Sumber tambahan: Giles dan kamus Kangxi (Wikisource Mandarin)."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "ao-c05",
+        "ao-c07"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/ao.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/ao.png",
+      "native_sha256": "30d2189bc93ac6d0bc010a4e85841ef1458af71c66fc5c48bfb1507bc3ab31e4"
+    },
+    {
+      "index": 6,
+      "slug": "ao-ao",
+      "canonical_name": "Ao Ao",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": false,
+      "review_path": "data/gemini/reviews/batch-144.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-144",
+        "slug": "ao-ao",
+        "task": "enrich",
+        "tier": "core",
+        "researched_at": "2026-10-06",
+        "identity": {
+          "canonical_name": "Ao Ao",
+          "native_name": null,
+          "display_name": {
+            "id": "Ao Ao",
+            "en": "Ao Ao"
+          },
+          "wikidata_qid": "Q4778558",
+          "claim_ids": [
+            "ao-ao-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Ovecha Ka'aguy",
+            "language": "gn",
+            "name_type": "regional",
+            "claim_ids": [
+              "ao-ao-c14"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "monster",
+          "claim_ids": [
+            "ao-ao-c01"
+          ]
+        },
+        "classification": {
+          "value": "monster",
+          "claim_ids": [
+            "ao-ao-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-guarani",
+          "suggested_new": null,
+          "claim_ids": [
+            "ao-ao-c01"
+          ]
+        },
+        "region": {
+          "value": "south-america",
+          "claim_ids": [
+            "ao-ao-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "mountain",
+            "claim_ids": [
+              "ao-ao-c12",
+              "ao-ao-c08"
+            ]
+          },
+          {
+            "value": "forest",
+            "claim_ids": [
+              "ao-ao-c12"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "ao-ao-c10"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Ao Ao adalah monster rakus mirip domba bertaring, putra terkutuk Tau dan Kerana dalam mitologi Guarani.",
+          "en": "Ao Ao is a voracious, fanged sheep-like monster, a cursed son of Tau and Kerana in Guarani mythology.",
+          "claim_ids": [
+            "ao-ao-c01",
+            "ao-ao-c02"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Ao Ao adalah makhluk mengerikan dari mitologi Amerika Selatan, salah satu putra terkutuk Tau dan Kerana dan salah satu makhluk mitologi utama dalam budaya berbahasa Guarani. Sebuah sumber museum di Paraguay menyebutnya putra keenam Tau dan Kerana. Ia sering digambarkan sebagai makhluk rakus mirip domba dengan taring besar, dan ada pula yang menggambarkannya sebagai pekari besar pemakan daging.",
+            "en": "Ao Ao is a monstrous creature of South American mythology, one of the cursed sons of Tau and Kerana and one of the central mythological creatures among Guarani-speaking cultures. A museum source in Paraguay calls it the sixth son of Tau and Kerana. It is often described as a voracious sheep-like creature with huge fangs, while others describe it as a large, carnivorous peccary.",
+            "claim_ids": [
+              "ao-ao-c01",
+              "ao-ao-c02",
+              "ao-ao-c11",
+              "ao-ao-c04"
+            ]
+          },
+          {
+            "id": "Menurut cerita, hewan ini melahap tanpa belas kasihan siapa pun yang berjalan di hutan; ia dikatakan hanya makan manusia. Seseorang dapat selamat jika berhasil memanjat pohon pindó, palem yang dianggap tanaman suci dan selalu dipakai pada Pekan Suci. Dalam sebagian versi, Ao Ao menyantap anak-anak yang tidak patuh yang dibawakan saudaranya, Jasy Jatere, dan di Paraguay orang dewasa menakut-nakuti anak dengan mengatakan Ao Ao akan datang.",
+            "en": "In the tales, this animal mercilessly devours anyone walking in the woods; it is said to have people as its sole food. A person can survive by climbing a pindó, a palm regarded as a sacred plant and always used in Holy Week. In some versions Ao Ao feasts on disobedient children brought by its brother Jasy Jatere, and in Paraguay adults frighten children by saying that Ao Ao will come.",
+            "claim_ids": [
+              "ao-ao-c10",
+              "ao-ao-c05",
+              "ao-ao-c06",
+              "ao-ao-c07"
+            ]
+          },
+          {
+            "id": "Ao Ao dipercaya hidup di pegunungan dan hutan lebat, dan keturunannya yang banyak dan dikutuk dengan cara yang sama disebut menjadi penguasa dan pelindung bukit serta gunung. Sumber museum itu juga menyebutnya dewa kesuburan, dan penutur lisan mitologi Guarani menegaskan bahwa semua anaknya kanibal dan ganas. Di daerah Mbuyapey ia disebut Ovecha Ka'aguy karena sangat mirip domba. Namanya berasal dari bunyi lolongannya, \"Ao ao ao!\", saat mengejar korban.",
+            "en": "Ao Ao is believed to have lived in the sierras and dense forests, and its many offspring, cursed in the same manner, are said to have served as lords and protectors of the hills and mountains. The museum source also calls it the god of fertility, and oral transmitters of Guarani mythology assert that all its children are cannibals and fierce. In the Mbuyapey area it was called Ovecha Ka'aguy because it closely resembles a sheep. Its name comes from the sound of its howl, \"Ao ao ao!\", when pursuing victims.",
+            "claim_ids": [
+              "ao-ao-c12",
+              "ao-ao-c08",
+              "ao-ao-c13",
+              "ao-ao-c15",
+              "ao-ao-c14",
+              "ao-ao-c03"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "Ao Ao",
+          "language": "Guarani",
+          "literal_meaning": {
+            "id": "bunyi lolongannya",
+            "en": "the sound of its howl"
+          },
+          "claim_ids": [
+            "ao-ao-c03"
+          ]
+        },
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [
+          {
+            "name": {
+              "id": "Pohon pindó",
+              "en": "The pindó palm"
+            },
+            "description": {
+              "id": "Menurut cerita, korban yang berhasil memanjat pohon pindó dapat menyelamatkan nyawanya.",
+              "en": "According to the tale, a victim who manages to climb a pindó palm can save his life."
+            },
+            "claim_ids": [
+              "ao-ao-c10"
+            ]
+          }
+        ],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Tau",
+            "relation_type": "parent",
+            "note": {
+              "id": "Ayahnya.",
+              "en": "Its father."
+            },
+            "claim_ids": [
+              "ao-ao-c01",
+              "ao-ao-c11"
+            ]
+          },
+          {
+            "target_name": "Kerana",
+            "relation_type": "parent",
+            "note": {
+              "id": "Ibunya.",
+              "en": "Its mother."
+            },
+            "claim_ids": [
+              "ao-ao-c01",
+              "ao-ao-c11"
+            ]
+          },
+          {
+            "target_name": "Jasy Jatere",
+            "relation_type": "sibling",
+            "note": {
+              "id": "Dalam sebagian versi, Jasy Jatere membawakan anak-anak yang tidak patuh kepada Ao Ao.",
+              "en": "In some versions, Jasy Jatere brings disobedient children to Ao Ao."
+            },
+            "claim_ids": [
+              "ao-ao-c06"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa nama makhluk sering meniru suaranya?",
+            "en": "Why are creatures often named after their sounds?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "ao-ao-s1",
+            "url": "https://en.wikipedia.org/wiki/Ao_Ao",
+            "title": "Ao Ao",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-09-30"
+          },
+          {
+            "id": "ao-ao-s2",
+            "url": "https://www.portalguarani.com/967_ramon_elias__/8889_ao_ao__escultura_del_museo_mitologico_ramon_elias.html",
+            "title": "AO AO - Escultura del Museo Mitológico Ramón Elías",
+            "author": "Ramón Elías",
+            "publisher": "Portal Guaraní (Museo Mitológico Ramón Elías)",
+            "published": null,
+            "language": "es",
+            "type": "museum-or-archive",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "ao-ao-c01",
+            "source_id": "ao-ao-s1",
+            "quote": "Ao Ao is the name of a monstrous creature from South American mythology. As one of the cursed sons of Tau and Kerana, it is one of the central mythological creatures among Guarani-speaking cultures.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao adalah makhluk mengerikan dari mitologi Amerika Selatan, salah satu putra terkutuk Tau dan Kerana dalam budaya berbahasa Guarani.",
+              "en": "Ao Ao is a monstrous creature of South American mythology, one of the cursed sons of Tau and Kerana in Guarani-speaking cultures."
+            }
+          },
+          {
+            "id": "ao-ao-c02",
+            "source_id": "ao-ao-s1",
+            "quote": "The Ao Ao is often described as being a voracious sheep-like creature with a massive set of fangs.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao sering digambarkan sebagai makhluk rakus mirip domba dengan taring besar.",
+              "en": "It is often a voracious sheep-like creature with huge fangs."
+            }
+          },
+          {
+            "id": "ao-ao-c03",
+            "source_id": "ao-ao-s1",
+            "quote": "Its name is derived from the sound that it makes, howling \"Ao ao ao!\" when it is pursuing its victims.",
+            "locator": "Introduction",
+            "context": "etymology",
+            "statement": {
+              "id": "Namanya berasal dari lolongan \"Ao ao ao!\" saat memburu korbannya.",
+              "en": "Its name comes from its howl, \"Ao ao ao!\", when chasing victims."
+            }
+          },
+          {
+            "id": "ao-ao-c04",
+            "source_id": "ao-ao-s1",
+            "quote": "Alternatively, it is also described as being a large, carnivorous peccary.",
+            "locator": "Pembuka artikel",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao juga digambarkan sebagai pekari besar pemakan daging.",
+              "en": "Ao Ao is alternatively also described as a large, carnivorous peccary."
+            }
+          },
+          {
+            "id": "ao-ao-c05",
+            "source_id": "ao-ao-s1",
+            "quote": "Ao Ao is said to have people as its sole source of food.",
+            "locator": "Pembuka artikel",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao dikatakan hanya makan manusia.",
+              "en": "Ao Ao is said to have people as its sole source of food."
+            }
+          },
+          {
+            "id": "ao-ao-c06",
+            "source_id": "ao-ao-s1",
+            "quote": "In some versions of the myth, the Ao Ao would feast upon disobedient children brought to it by his brother, Jasy Jatere.",
+            "locator": "Pembuka artikel",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam sebagian versi mitos, Ao Ao menyantap anak-anak yang tidak patuh yang dibawakan oleh saudaranya, Jasy Jatere.",
+              "en": "In some versions of the myth, Ao Ao feasts upon disobedient children brought to it by his brother, Jasy Jatere."
+            }
+          },
+          {
+            "id": "ao-ao-c07",
+            "source_id": "ao-ao-s1",
+            "quote": "In Paraguay, adults scare the children by saying that Ao Ao will come after them.",
+            "locator": "Pembuka artikel",
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Di Paraguay, orang dewasa menakut-nakuti anak-anak dengan mengatakan bahwa Ao Ao akan datang mengejar mereka.",
+              "en": "In Paraguay, adults scare children by saying that Ao Ao will come after them."
+            }
+          },
+          {
+            "id": "ao-ao-c08",
+            "source_id": "ao-ao-s1",
+            "quote": "Ao Ao produced many offspring who are cursed in the same manner, and collectively they served as lords and protectors of the hills and the mountains.",
+            "locator": "Pembuka artikel",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao memiliki banyak keturunan yang dikutuk dengan cara yang sama, dan bersama-sama mereka menjadi penguasa dan pelindung bukit dan gunung.",
+              "en": "Ao Ao produced many offspring cursed in the same manner, and together they served as lords and protectors of the hills and mountains."
+            }
+          },
+          {
+            "id": "ao-ao-c09",
+            "source_id": "ao-ao-s2",
+            "quote": "AO AO es un monstruo parecido a la oveja, es una bestia terrible con grandes y potentes garras.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao digambarkan sebagai monster yang mirip domba, binatang mengerikan dengan cakar besar dan kuat.",
+              "en": "Ao Ao is described as a sheep-like monster, a terrible beast with large, powerful claws."
+            }
+          },
+          {
+            "id": "ao-ao-c10",
+            "source_id": "ao-ao-s2",
+            "quote": "Se cuenta que este animal carnívoro devoraba sin compasión alguna a toda persona que anduviera por los bosques; no obstante, ésta podía salvar su vida si lograba subir a la planta de un pindó, porque la palmera es una planta sagrada que se utiliza siempre en Semana Santa.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dikisahkan bahwa hewan pemakan daging ini melahap tanpa belas kasihan siapa pun yang berjalan di hutan, tetapi orang itu dapat selamat jika berhasil memanjat pohon pindó, karena palem itu tanaman suci yang selalu dipakai pada Pekan Suci.",
+              "en": "It is told that this carnivorous animal mercilessly devoured anyone walking in the woods, but the person could save his life by climbing a pindó plant, because the palm is a sacred plant always used in Holy Week."
+            }
+          },
+          {
+            "id": "ao-ao-c11",
+            "source_id": "ao-ao-s2",
+            "quote": "AO AO es el sexto hijo de TAU y KERANA, señor de la procreación.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao adalah putra keenam Tau dan Kerana, tuan penciptaan keturunan.",
+              "en": "Ao Ao is the sixth son of Tau and Kerana, lord of procreation."
+            }
+          },
+          {
+            "id": "ao-ao-c12",
+            "source_id": "ao-ao-s2",
+            "quote": "Se cree que los AO AO vivían en las serranías y selvas espesas.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dipercaya bahwa para Ao Ao hidup di pegunungan dan hutan lebat.",
+              "en": "It is believed that the Ao Ao lived in the sierras and dense forests."
+            }
+          },
+          {
+            "id": "ao-ao-c13",
+            "source_id": "ao-ao-s2",
+            "quote": "AO AO es el dios de la fecundidad; los nativos guaraníes orientales, especialmente, aseveran que éste procreó demasiado y que sus descendientes son numerosísimos.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ao Ao adalah dewa kesuburan; terutama penduduk asli Guarani timur menyatakan bahwa ia sangat banyak memperanakkan dan keturunannya amat banyak.",
+              "en": "Ao Ao is the god of fertility; the native eastern Guarani especially assert that it procreated excessively and that its descendants are very numerous."
+            }
+          },
+          {
+            "id": "ao-ao-c14",
+            "source_id": "ao-ao-s2",
+            "quote": "En la localidad de Mbuyapey se le aseveró al escultor Ramón Elías que en esa zona lo llamaban OVECHA KA’AGUY, por ser muy parecido a la oveja.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Di daerah Mbuyapey, pematung Ramón Elías diberi tahu bahwa di sana makhluk ini disebut Ovecha Ka'aguy karena sangat mirip domba.",
+              "en": "In the Mbuyapey area the sculptor Ramón Elías was told that there it was called Ovecha Ka'aguy, because it closely resembles a sheep."
+            }
+          },
+          {
+            "id": "ao-ao-c15",
+            "source_id": "ao-ao-s2",
+            "quote": "Los transmisores orales de las mitologías guaraníes aseguran también que los hijos de AO AO son todos caníbales y feroces como él.",
+            "locator": "Teks halaman",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Para penutur lisan mitologi Guarani juga menegaskan bahwa semua anak Ao Ao adalah kanibal dan ganas seperti dirinya.",
+              "en": "The oral transmitters of Guarani mythologies also assert that the children of Ao Ao are all cannibals and as fierce as it is."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Wujud Ao Ao",
+              "en": "Form of the Ao Ao"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Sering digambarkan sebagai makhluk rakus mirip domba bertaring besar.",
+                  "en": "Often described as a voracious sheep-like creature with massive fangs."
+                },
+                "claim_ids": [
+                  "ao-ao-c02",
+                  "ao-ao-c09"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Ada pula yang menggambarkannya sebagai pekari besar pemakan daging.",
+                  "en": "Alternatively described as a large, carnivorous peccary."
+                },
+                "claim_ids": [
+                  "ao-ao-c04"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi. Halaman Portal Guaraní memuat foto patung Ramón Elías, tetapi bukan berkas Commons."
+          },
+          {
+            "field": "sources",
+            "searched": "Dicari: Portal Guaraní (dipakai), ABC Color (artikel sekolah tentang mitos Ao Ao; tidak dipakai untuk kepercayaan tradisional karena berupa media berita), blog (simbolosysignificados.blogspot.com, 7generaciones.blogspot.com; tanpa penulis, tidak dipakai). Rujukan Wikipedia (Colman 1929; Cardozo Ocampo 1989) tidak punya teks terbuka."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "ao-ao-c04",
+        "ao-ao-c09"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/ao-ao.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/ao-ao.png",
+      "native_sha256": "ca9924cc4538fa7976e2049ede599b4c452008f9d004dd61debebccd720a7fa7"
+    },
+    {
+      "index": 7,
+      "slug": "aonyobo",
+      "canonical_name": "Aonyōbō",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-051.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-051",
+        "slug": "aonyobo",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-01",
+        "identity": {
+          "canonical_name": "Aonyōbō",
+          "native_name": null,
+          "display_name": {
+            "id": "Aonyōbō",
+            "en": "Aonyōbō"
+          },
+          "wikidata_qid": "Q3109191",
+          "claim_ids": [
+            "aonyobo-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Ao-nyōbō",
+            "language": "ja",
+            "name_type": "transliteration",
+            "claim_ids": [
+              "aonyobo-c01"
+            ]
+          },
+          {
+            "name": "Ao nyōbō",
+            "language": "ja",
+            "name_type": "transliteration",
+            "claim_ids": [
+              "aonyobo-c01"
+            ]
+          },
+          {
+            "name": "青女",
+            "language": "ja",
+            "name_type": "native-script",
+            "claim_ids": [
+              "aonyobo-c05"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "yokai",
+          "claim_ids": [
+            "aonyobo-c01"
+          ]
+        },
+        "classification": {
+          "value": "yokai",
+          "claim_ids": [
+            "aonyobo-c01"
+          ]
+        },
+        "culture": {
+          "value": "japanese-folklore",
+          "suggested_new": null,
+          "claim_ids": [
+            "aonyobo-c01"
+          ]
+        },
+        "region": {
+          "value": "east-asia",
+          "claim_ids": [
+            "aonyobo-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": null,
+        "traits": [],
+        "short_description": {
+          "id": "Aonyōbō adalah yōkai Jepang berkulit biru yang menyerupai perempuan bangsawan istana zaman dahulu dan dikaitkan dengan rumah-rumah bangsawan yang runtuh.",
+          "en": "Aonyōbō is a blue-skinned Japanese yōkai resembling an ancient court noblewoman, associated with the abandoned homes of fallen nobles.",
+          "claim_ids": [
+            "aonyobo-c01",
+            "aonyobo-c02",
+            "aonyobo-c04"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Aonyōbō (青女房) adalah yōkai dalam mitologi Jepang. Ia digambarkan sebagai roh seperti ogre berkulit biru yang membawa kemiskinan dan kemalangan, dan tampil sebagai perempuan bangsawan istana zaman kuno.",
+            "en": "Aonyōbō (青女房) is a yōkai in Japanese mythology. It is described as a blue-skinned, ogre-like spirit of poverty and misfortune that takes the appearance of an ancient court noblewoman.",
+            "claim_ids": [
+              "aonyobo-c01",
+              "aonyobo-c02"
+            ]
+          },
+          {
+            "id": "Ia berpakaian banyak kimono dari zaman lampau yang kini compang-camping dan dimakan ngengat, dengan wajah putih ala bangsawan istana kuno, beralis tinggi, dan bergigi hitam. Ia tinggal di rumah-rumah terbengkalai bekas kediaman bangsawan yang jatuh, terus berdandan dan merapikan penampilan menanti tamu yang tak kunjung datang.",
+            "en": "Her layered robes belong to earlier ages and have turned ragged and moth-eaten, and her face is painted white in the manner of old-time courtiers, with raised painted eyebrows and blackened teeth. She dwells in empty houses once held by ruined noble families, forever applying cosmetics and fixing her hair for visitors who never come.",
+            "claim_ids": [
+              "aonyobo-c03",
+              "aonyobo-c04"
+            ]
+          },
+          {
+            "id": "Kamus digital Jepang menggambarkannya sebagai yōkai berwujud perempuan berdandan yang tinggal di rumah di tengah rumpun bambu yang terbengkalai, dan menyebut nama lainnya, 青女.",
+            "en": "A Japanese digital dictionary describes it as a yōkai in the form of a made-up woman living in a house within a ruined bamboo grove, and gives the alternative name 青女.",
+            "claim_ids": [
+              "aonyobo-c05"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "青女房",
+          "language": "ja",
+          "literal_meaning": {
+            "id": "Kata ini dalam kamus berarti perempuan muda yang belum berpengalaman yang melayani di istana atau rumah bangsawan, atau perempuan berstatus rendah.",
+            "en": "In dictionaries the word means a young, inexperienced woman serving at court or in a noble household, or a woman of low status."
+          },
+          "claim_ids": [
+            "aonyobo-c06"
+          ]
+        },
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "aonyobo-s1",
+            "url": "https://en.wikipedia.org/wiki/Aony%C5%8Db%C5%8D",
+            "title": "Aonyōbō",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-01"
+          },
+          {
+            "id": "aonyobo-s2",
+            "url": "https://kotobank.jp/word/%E9%9D%92%E5%A5%B3%E6%88%BF-422347",
+            "title": "青女房とは - コトバンク",
+            "author": "",
+            "publisher": "コトバンク (デジタル大辞泉プラス, 精選版 日本国語大辞典)",
+            "published": null,
+            "language": "ja",
+            "type": "encyclopedia",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "aonyobo-c01",
+            "source_id": "aonyobo-s1",
+            "quote": "Aonyōbō (青女房) (also called Ao-nyōbō and Ao nyōbō) is a Yōkai in Japanese mythology.",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Aonyōbō adalah seorang yōkai Jepang.",
+              "en": "Aonyōbō is a Japanese yōkai."
+            }
+          },
+          {
+            "id": "aonyobo-c02",
+            "source_id": "aonyobo-s1",
+            "quote": "The Aonyōbō is a blue-skinned ogre-like spirit of poverty and misfortune who takes the appearance of an ancient court noblewoman.",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ini digambarkan sebagai roh berkulit biru yang menyerupai wanita istana.",
+              "en": "It is described as a blue-skinned spirit resembling a court woman."
+            }
+          },
+          {
+            "id": "aonyobo-c03",
+            "source_id": "aonyobo-s1",
+            "quote": "Covered in many kimono of older eras, that are now tattered and moth-ridden, she wears the white face of ancient courtiers who have high-painted eyebrows and black teeth.",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia mengenakan banyak kimono dari zaman lampau yang kini compang-camping dan dimakan ngengat, serta berwajah putih khas bangsawan istana kuno dengan alis tinggi yang dilukis dan gigi hitam.",
+              "en": "She wears many kimono of older eras, now tattered and moth-ridden, and the white face of ancient courtiers with high-painted eyebrows and black teeth."
+            }
+          },
+          {
+            "id": "aonyobo-c04",
+            "source_id": "aonyobo-s1",
+            "quote": "The Aonyōbō inhabit abandoned houses, formerly occupied by fallen nobles and ruined families, where they are constantly applying their makeup, fixing their hair, and adjusting their image for the arrival of possible guests who never show up like a lover who lost their interest or a husband who abandoned his wife.",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Sebuah legenda menempatkannya di rumah - rumah keluarga bangsawan yang ditinggalkan.",
+              "en": "A legend places her in abandoned homes of fallen noble families."
+            }
+          },
+          {
+            "id": "aonyobo-c05",
+            "source_id": "aonyobo-s2",
+            "quote": "日本の妖怪。荒れ果てた竹林の中の屋敷に住む化粧をした女の姿で描かれている。「青女」とも。",
+            "locator": "デジタル大辞泉プラス「青女房」",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Aonyōbō adalah yōkai Jepang yang digambarkan sebagai perempuan berdandan yang tinggal di sebuah rumah di tengah rumpun bambu yang terbengkalai; ia juga disebut 青女.",
+              "en": "Aonyōbō is a Japanese yōkai depicted as a made-up woman living in a house within a ruined bamboo grove; it is also called 青女."
+            }
+          },
+          {
+            "id": "aonyobo-c06",
+            "source_id": "aonyobo-s2",
+            "quote": "宮中や貴族の家に仕えるまだ年若の未熟な女性、また、身分の低い女性。",
+            "locator": "精選版 日本国語大辞典「青女房」",
+            "context": "etymology",
+            "statement": {
+              "id": "Kata 青女房 sendiri berarti perempuan muda yang belum berpengalaman yang melayani di istana atau rumah bangsawan, atau perempuan berstatus rendah.",
+              "en": "The word 青女房 itself means a young, inexperienced woman serving at court or in a noble household, or a woman of low status."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini; tidak ditambahkan."
+          },
+          {
+            "field": "sources",
+            "searched": "Ditambah kotobank.jp (Digital Daijisen Plus, Nihon Kokugo Daijiten). Bagian Wikipedia berbahasa Inggris tentang wujud dan perilaku tidak memiliki rujukan; sumber primer (mis. Konjaku Gazu Zoku Hyakki) belum ditemukan terbuka."
+          }
+        ],
+        "native_name": {
+          "text": "青女房",
+          "script": "Kanji",
+          "claim_ids": [
+            "aonyobo-c01"
+          ]
+        }
+      },
+      "selection_visual_claim_ids": [
+        "aonyobo-c02",
+        "aonyobo-c05"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/aonyobo.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/aonyobo.png",
+      "native_sha256": "044990dfe9f4227839d350d64993c924252060d9567b353376f27a437a44764e"
+    },
+    {
+      "index": 8,
+      "slug": "apalpador",
+      "canonical_name": "Apalpador",
+      "worker": "codex",
+      "status": "pending",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-128",
+        "slug": "apalpador",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-02",
+        "identity": {
+          "canonical_name": "Apalpador",
+          "native_name": null,
+          "display_name": {
+            "id": "Apalpador",
+            "en": "Apalpador"
+          },
+          "wikidata_qid": "Q3320063",
+          "claim_ids": [
+            "apalpador-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Pandigueiro",
+            "language": "gl",
+            "name_type": "alias",
+            "claim_ids": [
+              "apalpador-c01",
+              "apalpador-c05"
+            ]
+          },
+          {
+            "name": "Apalpabarrigas",
+            "language": "gl",
+            "name_type": "alias",
+            "claim_ids": [
+              "apalpador-c01"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "raksasa",
+          "claim_ids": [
+            "apalpador-c01"
+          ]
+        },
+        "classification": {
+          "value": "giant",
+          "claim_ids": [
+            "apalpador-c01"
+          ]
+        },
+        "culture": {
+          "value": null,
+          "suggested_new": "Mitologi Galisia",
+          "claim_ids": [
+            "apalpador-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "apalpador-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "mountain",
+            "claim_ids": [
+              "apalpador-c02",
+              "apalpador-c05"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "benevolent",
+          "claim_ids": [
+            "apalpador-c06"
+          ]
+        },
+        "traits": [
+          {
+            "value": "giant",
+            "claim_ids": [
+              "apalpador-c05"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Apalpador adalah raksasa pembuat arang dari tradisi Natal Galisia yang turun dari pegunungan pada malam Natal atau Tahun Baru untuk meraba perut anak-anak dan meninggalkan kastanye.",
+          "en": "The Apalpador is a giant charcoal-burner of Galician Christmas tradition who comes down from the mountains on Christmas or New Year's Eve to feel children's bellies and leave chestnuts.",
+          "claim_ids": [
+            "apalpador-c02",
+            "apalpador-c05"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Apalpador, Apalpabarrigas, atau Pandigueiro adalah raksasa pembuat arang berpakaian compang-camping yang tinggal di pegunungan Galisia timur seperti Courel dan Terra de Trives. Pada malam Natal atau Tahun Baru ia turun dan masuk ke rumah, meraba perut anak-anak untuk melihat apakah mereka makan cukup, lalu meninggalkan kastanye, kadang hadiah, dan mendoakan tahun yang penuh makanan. Malam itu disebut noite de apalpadoiro, dan ada pula versi perempuannya, Pandigueira.",
+            "en": "The Apalpador, Apalpabarrigas or Pandigueiro is a ragged giant charcoal-burner who lives in the eastern Galician mountains such as Courel and Terra de Trives. On Christmas or New Year's Eve he comes down and enters houses, feels children's bellies to see if they have eaten enough, then leaves chestnuts, sometimes a present, and wishes them a year full of food. The night is called noite de apalpadoiro, and there is also a female version, the Pandigueira.",
+            "claim_ids": [
+              "apalpador-c01",
+              "apalpador-c02",
+              "apalpador-c03",
+              "apalpador-c05",
+              "apalpador-c06",
+              "apalpador-c07",
+              "apalpador-c10"
+            ]
+          },
+          {
+            "id": "Lagu-lagu rakyat tentangnya dinyanyikan untuk menyuruh anak-anak tidur. Sejak 2006 tokoh ini dihidupkan kembali oleh José André Lôpez Gonçâlez dan perkumpulan A Gentalha do Pichel sebagai tokoh Natal Galisia.",
+            "en": "Folk songs about him are sung to send children to bed. Since 2006 he has been revived by José André Lôpez Gonçâlez and the association A Gentalha do Pichel as a Galician Christmas figure.",
+            "claim_ids": [
+              "apalpador-c04",
+              "apalpador-c08",
+              "apalpador-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Raksasa pembuat arang.",
+            "en": "A giant charcoal-burner.",
+            "claim_ids": [
+              "apalpador-c05"
+            ]
+          },
+          "origin": {
+            "id": "Tradisi Natal Galisia.",
+            "en": "Galician Christmas tradition.",
+            "claim_ids": [
+              "apalpador-c01"
+            ]
+          },
+          "role": {
+            "id": "Meraba perut anak dan memberi kastanye.",
+            "en": "Feels children's bellies and gives chestnuts.",
+            "claim_ids": [
+              "apalpador-c02"
+            ]
+          },
+          "famous_for": {
+            "id": "Noite de apalpadoiro.",
+            "en": "The noite de apalpadoiro.",
+            "claim_ids": [
+              "apalpador-c03"
+            ]
+          }
+        },
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [
+          {
+            "period": "2006",
+            "title": {
+              "id": "Upaya pemulihan",
+              "en": "Revival begins"
+            },
+            "description": {
+              "id": "José André Lôpez Gonçâlez mulai menghidupkan kembali tokoh ini.",
+              "en": "José André Lôpez Gonçâlez begins reviving the figure."
+            },
+            "earliest_attestation": false,
+            "claim_ids": [
+              "apalpador-c08"
+            ]
+          }
+        ],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "apalpador-s1",
+            "url": "https://es.wikipedia.org/wiki/Apalpador",
+            "title": "Apalpador",
+            "author": null,
+            "publisher": "Wikipedia (es)",
+            "published": null,
+            "language": "es",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "apalpador-s2",
+            "url": "https://pt.wikipedia.org/wiki/Pandigueiro",
+            "title": "Pandigueiro",
+            "author": null,
+            "publisher": "Wikipedia (pt)",
+            "published": null,
+            "language": "pt",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "apalpador-s3",
+            "url": "https://an.wikipedia.org/wiki/Apalpador",
+            "title": "Apalpador",
+            "author": null,
+            "publisher": "Wikipedia (an)",
+            "published": null,
+            "language": "an",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          }
+        ],
+        "claims": [
+          {
+            "id": "apalpador-c01",
+            "source_id": "apalpador-s1",
+            "quote": "Apalpador, Apalpabarrigas o Pandigueiro es un personaje típico de tradición navideña gallega, especialmente en las comarcas de Sarria, Quiroga, Lemos, Tierra de Trives y Los Ancares.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut artikel bahasa Spanyol, Apalpador, Apalpabarrigas, atau Pandigueiro adalah tokoh khas tradisi Natal Galisia, terutama di Sarria, Quiroga, Lemos, Tierra de Trives, dan Los Ancares.",
+              "en": "According to the Spanish article, the Apalpador, Apalpabarrigas or Pandigueiro is a typical figure of Galician Christmas tradition, especially in Sarria, Quiroga, Lemos, Tierra de Trives and Los Ancares."
+            }
+          },
+          {
+            "id": "apalpador-c02",
+            "source_id": "apalpador-s1",
+            "quote": "Se trata de un carbonero con vestuario andrajoso que en Nochebuena o Nochevieja entra en las casas, visita a los niños, les palpa la barriga y, si no está llena, les deja un puñado de castañas. El resto del año vive en los montes orientales de Galicia.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia pembuat arang berpakaian compang-camping yang pada malam Natal atau malam Tahun Baru masuk ke rumah, meraba perut anak-anak, dan bila tidak kenyang meninggalkan segenggam kastanye; sepanjang tahun ia tinggal di pegunungan timur Galisia.",
+              "en": "He is a ragged charcoal-burner who on Christmas Eve or New Year's Eve enters houses, feels the children's bellies and, if they are not full, leaves a handful of chestnuts; the rest of the year he lives in the eastern mountains of Galicia."
+            }
+          },
+          {
+            "id": "apalpador-c03",
+            "source_id": "apalpador-s1",
+            "quote": "la existencia del ritual propiciatorio de palpar la barriga de los niños en Nochevieja, que recibe así el nombre de noite de apalpadoiro (noche de palpar).",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Sejarawan Xesús Taboada Chivite mencatat ritual meraba perut anak-anak pada malam Tahun Baru yang disebut noite de apalpadoiro, \"malam meraba\".",
+              "en": "The historian Xesús Taboada Chivite recorded the rite of feeling children's bellies on New Year's Eve, called noite de apalpadoiro, 'night of feeling'."
+            }
+          },
+          {
+            "id": "apalpador-c04",
+            "source_id": "apalpador-s1",
+            "quote": "Hay algunas tonadas y canciones populares relacionadas con este personaje que han llegado hasta nuestros días y que son cantadas en las noites de apalpadoiro para advertir a los pequeños de la llegada inminente del Apalpador y de la necesidad de que se vayan a la cama.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Beberapa lagu rakyat tentang Apalpador masih dinyanyikan pada noite de apalpadoiro untuk memberi tahu anak-anak bahwa Apalpador akan datang dan mereka harus tidur.",
+              "en": "Folk songs about the Apalpador are still sung on the noites de apalpadoiro to warn children that he is coming and they must go to bed."
+            }
+          },
+          {
+            "id": "apalpador-c05",
+            "source_id": "apalpador-s2",
+            "quote": "O Apalpador, Apalpa-Barrigas ou Pandigueiro é a figura mítica de um gigante carvoeiro que, segundo a tradição do Natal galego, mora nas montanhas do leste da Galiza (o Courel, Terra de Trives, Bierzo)",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut artikel bahasa Portugis, Apalpador adalah raksasa pembuat arang yang menurut tradisi Natal Galisia tinggal di pegunungan Galisia timur (Courel, Terra de Trives, Bierzo).",
+              "en": "According to the Portuguese article, the Apalpador is a giant charcoal-burner who by Galician Christmas tradition lives in the mountains of eastern Galicia (Courel, Terra de Trives, Bierzo)."
+            }
+          },
+          {
+            "id": "apalpador-c06",
+            "source_id": "apalpador-s2",
+            "quote": "deixando-lhes um montezinho de castanhas, eventualmente algum presente e desejando-lhes que tenham um ano vindouro cheio de felicidade e de alimento.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia meninggalkan setumpuk kecil kastanye, kadang hadiah, dan mendoakan tahun mendatang yang penuh kebahagiaan dan makanan.",
+              "en": "He leaves a little heap of chestnuts, sometimes a present, and wishes them a coming year full of happiness and food."
+            }
+          },
+          {
+            "id": "apalpador-c07",
+            "source_id": "apalpador-s2",
+            "quote": "Na zona falante de galego no Bierzo, paróquia de Santa Maria de Trives e nos Ancares em Leão também existe a figura da Pandigueira, Apalpadoira ou Apalpabarrigas em versão mulher.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Di daerah berbahasa Galisia di Bierzo, Trives, dan Ancares di León juga ada versi perempuannya, Pandigueira atau Apalpadoira.",
+              "en": "In the Galician-speaking parts of Bierzo, Trives and the Ancares of León there is also a female version, the Pandigueira or Apalpadoira."
+            }
+          },
+          {
+            "id": "apalpador-c08",
+            "source_id": "apalpador-s2",
+            "quote": "O trabalho de recuperação desta figura começou em 2006 através da obra de José André Lôpez Gonçâlez, publicada através do Portal Galego da Língua vinculado com a Associaçom Galega da Língua.",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Upaya menghidupkan kembali tokoh ini dimulai pada 2006 lewat karya José André Lôpez Gonçâlez di Portal Galego da Língua.",
+              "en": "Efforts to revive the figure began in 2006 with the work of José André Lôpez Gonçâlez on the Portal Galego da Língua."
+            }
+          },
+          {
+            "id": "apalpador-c09",
+            "source_id": "apalpador-s2",
+            "quote": "Um ano depois, a associação cultural compostelana A Gentalha do Pichel anunciou que iria começar uma promoção desta figura, visando a sua plena recuperação e normalização no âmbito do natal na Galiza",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Setahun kemudian, perkumpulan budaya A Gentalha do Pichel dari Santiago de Compostela mulai mempromosikannya agar kembali menjadi bagian Natal Galisia.",
+              "en": "A year later the Compostela cultural association A Gentalha do Pichel began promoting him to restore him fully to the Galician Christmas."
+            }
+          },
+          {
+            "id": "apalpador-c10",
+            "source_id": "apalpador-s3",
+            "quote": "L'apalpador, apalpa-barrigas u pandigueiro ye una figura d'a mitolochía gallega d'un chigant carbonero que vive en as montanyas.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut artikel bahasa Aragon, Apalpador adalah tokoh mitologi Galisia berupa raksasa pembuat arang yang tinggal di pegunungan.",
+              "en": "According to the Aragonese article, the Apalpador is a figure of Galician mythology, a giant charcoal-burner living in the mountains."
+            }
+          },
+          {
+            "id": "apalpador-c11",
+            "source_id": "apalpador-s3",
+            "quote": "l'apalpador baixa la nueit d'o 25 d'aviento u a nueit de cabo d'anyo",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Artikel bahasa Aragon menyebut ia turun pada malam 25 Desember atau malam akhir tahun.",
+              "en": "The Aragonese article says he comes down on the night of 25 December or on New Year's Eve."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Malam kedatangan Apalpador",
+              "en": "Night of the Apalpador's visit"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Malam Natal atau malam Tahun Baru.",
+                  "en": "Christmas Eve or New Year's Eve."
+                },
+                "claim_ids": [
+                  "apalpador-c02"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Malam 25 Desember atau malam akhir tahun.",
+                  "en": "The night of 25 December or New Year's Eve."
+                },
+                "claim_ids": [
+                  "apalpador-c11"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "sources",
+            "searched": "Dibaca artikel Wikipedia es, pt, dan an; belum ada sumber di luar Wikipedia yang dikutip untuk entri ini."
+          },
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "apalpador-c05",
+        "apalpador-c10"
+      ]
+    },
+    {
+      "index": 9,
+      "slug": "ardov",
+      "canonical_name": "Ardov",
+      "worker": "codex",
+      "status": "awaiting-independent-review",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-138.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-138",
+        "slug": "ardov",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-03",
+        "identity": {
+          "canonical_name": "Ardov",
+          "native_name": null,
+          "display_name": {
+            "id": "Ardov",
+            "en": "Ardov"
+          },
+          "wikidata_qid": "Q1959754",
+          "claim_ids": [
+            "ardov-c01",
+            "ardov-c03"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Ardoy",
+            "language": "tr",
+            "name_type": "alias",
+            "claim_ids": [
+              "ardov-c01",
+              "ardov-c02"
+            ]
+          },
+          {
+            "name": "Erdov",
+            "language": "tr",
+            "name_type": "alias",
+            "claim_ids": [
+              "ardov-c01",
+              "ardov-c02"
+            ]
+          },
+          {
+            "name": "Erdoy",
+            "language": "tr",
+            "name_type": "alias",
+            "claim_ids": [
+              "ardov-c01",
+              "ardov-c02"
+            ]
+          },
+          {
+            "name": "Ardoğ",
+            "language": "tr",
+            "name_type": "alias",
+            "claim_ids": [
+              "ardov-c02"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "roh",
+          "claim_ids": [
+            "ardov-c01",
+            "ardov-c10"
+          ]
+        },
+        "classification": {
+          "value": "spirit",
+          "claim_ids": [
+            "ardov-c01",
+            "ardov-c10"
+          ]
+        },
+        "culture": {
+          "value": "tradition-turkic",
+          "suggested_new": null,
+          "claim_ids": [
+            "ardov-c01"
+          ]
+        },
+        "region": {
+          "value": "central-asia",
+          "claim_ids": [
+            "ardov-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "water",
+            "claim_ids": [
+              "ardov-c03"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "ambivalent",
+          "claim_ids": [
+            "ardov-c03",
+            "ardov-c05"
+          ]
+        },
+        "traits": [
+          {
+            "value": "water-associated",
+            "claim_ids": [
+              "ardov-c01",
+              "ardov-c03"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Ardov adalah roh atau jin air dalam mitologi Turk yang diyakini tinggal di sumber-sumber air dan tidak mencelakai manusia.",
+          "en": "Ardov is a water spirit or water jinn of Turkic mythology, believed to live at water sources and to do no harm to people.",
+          "claim_ids": [
+            "ardov-c01",
+            "ardov-c03",
+            "ardov-c10"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Dalam mitologi Turk, Ardov dikenal sebagai jin air (su cini), dan satu kamus mitologi menyebutnya makhluk yang mewakili roh air. Nama lainnya antara lain Ardoy, Erdov, Erdoy, dan Ardoğ. Menurut kepercayaan, ia menghuni sumber-sumber air dan tidak berbahaya bagi manusia.",
+            "en": "In Turkic mythology Ardov is known as a water jinn (su cini), and one mythology dictionary describes it as a being that represents the water spirit. Other names include Ardoy, Erdov, Erdoy and Ardoğ. According to belief it dwells at water sources and is harmless to people.",
+            "claim_ids": [
+              "ardov-c01",
+              "ardov-c02",
+              "ardov-c03",
+              "ardov-c10"
+            ]
+          },
+          {
+            "id": "Ardov digambarkan sebagai perempuan jangkung berambut pirang yang sangat cantik. Pada malam hari ia membawa lari kuda dan memacunya sampai pagi hingga kuda itu basah oleh keringat. Bila terdesak, ia masuk ke sumur atau sungai kecil lalu menghilang.",
+            "en": "Ardov is described as a tall, fair-haired and very beautiful woman. At night it carries off horses and rides them until morning, leaving them drenched in sweat. When cornered it slips into a well or a stream and vanishes.",
+            "claim_ids": [
+              "ardov-c05",
+              "ardov-c06",
+              "ardov-c09"
+            ]
+          },
+          {
+            "id": "Untuk menjauhkannya, ketika seseorang dimakamkan, lampu atau cahaya dinyalakan di kepala makam selama tiga hari. Ardov dibandingkan dengan Vudaş (Vutaş) dalam mitologi Chuvash, dan sebuah sumber juga menyebut makhluk Artavaz dari kepercayaan Tatar, meski hubungannya belum jelas.",
+            "en": "To keep it away, a light is kept burning at the head of a grave for three days after a burial. Ardov is compared with Vudaş (Vutaş) of Chuvash mythology, and one source also mentions a being called Artavaz in Tatar folk belief, although the link is not settled.",
+            "claim_ids": [
+              "ardov-c04",
+              "ardov-c07",
+              "ardov-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "Ar / Er",
+          "language": "Turkic",
+          "literal_meaning": {
+            "id": "Menurut Karakurt, akar kata Ar dalam bahasa Tungus-Manchu, Mongol-Buryat, dan Turk-Altai menyatakan hubungan dengan roh jahat dan alam lain; seakar dengan kata Art/Ard.",
+            "en": "According to Karakurt, the root Ar in Tungus-Manchu, Mongol-Buryat and Turkic-Altai languages expresses contact with evil spirits and the other world; it shares a root with Art/Ard."
+          },
+          "claim_ids": [
+            "ardov-c08"
+          ]
+        },
+        "story_mode": {
+          "who": {
+            "id": "Ardov adalah jin air dalam mitologi Turk.",
+            "en": "Ardov is a water jinn of Turkic mythology.",
+            "claim_ids": [
+              "ardov-c01"
+            ]
+          },
+          "origin": {
+            "id": "Ia berasal dari kepercayaan rakyat Turk dan diyakini tinggal di sumber air.",
+            "en": "It comes from Turkic folk belief and is thought to live at water sources.",
+            "claim_ids": [
+              "ardov-c01",
+              "ardov-c03"
+            ]
+          },
+          "role": {
+            "id": "Ia membawa lari kuda pada malam hari dan memacunya sampai pagi.",
+            "en": "It carries off horses at night and rides them until morning.",
+            "claim_ids": [
+              "ardov-c05"
+            ]
+          },
+          "famous_for": {
+            "id": "Ia dikenal sebagai perempuan pirang yang cantik yang menghilang ke dalam sumur atau sungai.",
+            "en": "It is known as a beautiful fair-haired woman who vanishes into a well or stream.",
+            "claim_ids": [
+              "ardov-c06"
+            ]
+          }
+        },
+        "did_you_know": {
+          "id": "Menurut kepercayaan, cahaya dinyalakan di kepala makam selama tiga hari setelah pemakaman agar Ardov menjauh.",
+          "en": "According to belief, a light is kept burning at the head of a grave for three days after a burial so that Ardov stays away.",
+          "claim_ids": [
+            "ardov-c04"
+          ]
+        },
+        "abilities": [],
+        "weaknesses": [
+          {
+            "name": {
+              "id": "Cahaya di makam",
+              "en": "Light at the grave"
+            },
+            "description": {
+              "id": "Cahaya yang dinyalakan tiga hari di kepala makam dipakai untuk menjauhkannya.",
+              "en": "A light burned for three days at the head of a grave is used to keep it away."
+            },
+            "claim_ids": [
+              "ardov-c04"
+            ]
+          }
+        ],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Vudaş (Vutaş)",
+            "relation_type": "associated",
+            "note": {
+              "id": "Makhluk mitologi Chuvash yang sangat mirip dengan Ardov.",
+              "en": "A being of Chuvash mythology that closely resembles Ardov."
+            },
+            "claim_ids": [
+              "ardov-c09"
+            ]
+          },
+          {
+            "target_name": "Artavaz",
+            "relation_type": "possible-variant",
+            "note": {
+              "id": "Makhluk dalam kepercayaan rakyat Tatar; hubungannya dengan Ardov belum jelas.",
+              "en": "A being of Tatar folk belief; its connection to Ardov is not settled."
+            },
+            "claim_ids": [
+              "ardov-c07"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa banyak kepercayaan mengaitkan roh air dengan kuda yang dipacu pada malam hari?",
+            "en": "Why might beliefs link water spirits with horses ridden at night?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "ardov-s1",
+            "url": "https://tr.wikipedia.org/wiki/Ardov",
+            "title": "Ardov",
+            "author": null,
+            "publisher": "Wikipedia (tr)",
+            "published": null,
+            "language": "tr",
+            "type": "wikipedia",
+            "accessed": "2026-10-03"
+          },
+          {
+            "id": "ardov-s2",
+            "url": "https://archive.org/stream/Turk-Soylence-Sozlugu/TurkSoylenceSozlugu_djvu.txt",
+            "title": "Türk Söylence Sözlüğü",
+            "author": "Deniz Karakurt",
+            "publisher": "Internet Archive (digital edition by the author)",
+            "published": "2011",
+            "language": "tr",
+            "type": "encyclopedia",
+            "accessed": "2026-10-03"
+          },
+          {
+            "id": "ardov-s3",
+            "url": "https://web.archive.org/web/20121203164435/http://www.kayipdunya.com/wp-content/uploads/kalins-pdf/singles/turk-mitolojisi-sozlugu-e-g.pdf",
+            "title": "Türk Mitolojisi Sözlüğü (E–G)",
+            "author": "Pınar Karaca",
+            "publisher": "kayipdunya.com",
+            "published": null,
+            "language": "tr",
+            "type": "other",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "claims": [
+          {
+            "id": "ardov-c01",
+            "source_id": "ardov-s1",
+            "quote": "Ardov, Türk mitolojisinde su cini. Ardoy, Erdov veya Erdoy olarak da bilinir.",
+            "locator": "Lead",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ardov adalah jin air (su cini) dalam mitologi Turk, juga dikenal sebagai Ardoy, Erdov, atau Erdoy.",
+              "en": "Ardov is a water jinn (su cini) in Turkic mythology (Türk mitolojisinde), also known as Ardoy, Erdov or Erdoy."
+            }
+          },
+          {
+            "id": "ardov-c02",
+            "source_id": "ardov-s2",
+            "quote": "ARDOV: Su Cini. [ İKA: Ardow ] Eşdeğer: 1. ERDOV, ARDOĞ, 2. ERDOY, ARDOY",
+            "locator": "Entry ARDOV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Kamus Karakurt mencatat Ardov sebagai jin air dengan padanan Erdov, Ardoğ, Erdoy, dan Ardoy.",
+              "en": "Karakurt's dictionary lists Ardov as a water jinn (Su Cini) with equivalents (Eşdeğer) Erdov, Ardoğ, Erdoy and Ardoy."
+            }
+          },
+          {
+            "id": "ardov-c03",
+            "source_id": "ardov-s2",
+            "quote": "Su kaynaklarında yaşadığına inanılır, insana zararı yoktur.",
+            "locator": "Entry ARDOV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ardov diyakini tinggal di sumber-sumber air dan tidak mencelakai manusia.",
+              "en": "Ardov is believed to live at water sources (su kaynaklarında) and does no harm to people (insana zararı yoktur)."
+            }
+          },
+          {
+            "id": "ardov-c04",
+            "source_id": "ardov-s2",
+            "quote": "Uzaklaşması için, ölü gömüldüğünde mezarın başında üç gün ışık yakılır.",
+            "locator": "Entry ARDOV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Agar Ardov menjauh, ketika orang mati dikuburkan, cahaya dinyalakan di kepala makam selama tiga hari.",
+              "en": "To keep it away, when the dead are buried a light (ışık) is lit at the head of the grave (mezarın başında) for three days (üç gün)."
+            }
+          },
+          {
+            "id": "ardov-c05",
+            "source_id": "ardov-s2",
+            "quote": "Geceleri atları kaçırır ve sabaha kadar koşturup kan ter içinde bırakır.",
+            "locator": "Entry ARDOV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Pada malam hari Ardov membawa lari kuda, memacunya sampai pagi, dan meninggalkannya basah oleh keringat.",
+              "en": "At night (geceleri) Ardov carries off horses (atları kaçırır), runs them until morning and leaves them drenched in sweat (kan ter)."
+            }
+          },
+          {
+            "id": "ardov-c06",
+            "source_id": "ardov-s2",
+            "quote": "Uzun boylu, sarışın ve çok güzel bir kadındır. Bir kuyuya veya dereye girip kaybolur.",
+            "locator": "Entry ARDOV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ardov adalah perempuan jangkung, pirang, dan sangat cantik; ia masuk ke sumur atau sungai kecil lalu menghilang.",
+              "en": "Ardov is a tall, fair-haired, very beautiful woman (sarışın ve çok güzel bir kadın); it enters a well or stream (kuyuya veya dereye) and vanishes."
+            }
+          },
+          {
+            "id": "ardov-c07",
+            "source_id": "ardov-s2",
+            "quote": "Tatar halk inanışlarında Artavaz adlı bir varlık bulunur ve onun hatırı için demircilerin örse fazladan bir kez vurduğu söylenir. Ancak bu varlıkla bağlantısı netleşmiş değildir.",
+            "locator": "Entry ARDOV",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Dalam kepercayaan rakyat Tatar ada makhluk bernama Artavaz yang demi dirinya pandai besi memukul landasan sekali lagi, tetapi hubungannya dengan Ardov belum jelas.",
+              "en": "In Tatar folk belief (Tatar halk inanışlarında) there is a being called Artavaz for whose sake smiths strike the anvil one extra time, but its connection with Ardov is not settled."
+            }
+          },
+          {
+            "id": "ardov-c08",
+            "source_id": "ardov-s2",
+            "quote": "Tunguz-Mançu, Moğol-Buryat ve Türk-Altay dillerinde Ar kökü kötü ruhlarla ve öteki âlemle iletişimi ifâde eder. Art/Ard sözcüğüyle aynı kökten gelir.",
+            "locator": "Entry ARDOV, Anlam",
+            "context": "etymology",
+            "statement": {
+              "id": "Dalam bahasa Tungus-Manchu, Mongol-Buryat, dan Turk-Altai, akar Ar menyatakan hubungan dengan roh jahat dan alam lain; kata ini seakar dengan Art/Ard.",
+              "en": "In Tungus-Manchu (Tunguz-Mançu), Mongol-Buryat and Turkic-Altai (Türk-Altay) languages the root Ar (Ar kökü) expresses contact with evil spirits and the other world; it shares a root with Art/Ard."
+            }
+          },
+          {
+            "id": "ardov-c09",
+            "source_id": "ardov-s1",
+            "quote": "Köşeye sıkışınca bir kuyuya veya dereye girip kaybolur. Çuvaş mitolojisindeki Vudaş (Vutaş) ile büyük benzerlikler gösterir.",
+            "locator": "Lead",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Bila terdesak, Ardov masuk ke sumur atau sungai kecil lalu menghilang; ia sangat mirip dengan Vudaş (Vutaş) dalam mitologi Chuvash.",
+              "en": "When cornered (köşeye sıkışınca) Ardov enters a well or stream and vanishes; it shows great similarity to Vudaş (Vutaş) of Chuvash mythology (Çuvaş mitolojisindeki)."
+            }
+          },
+          {
+            "id": "ardov-c10",
+            "source_id": "ardov-s3",
+            "quote": "Erdov-Erdoy: Su ruhunu temsil eden mitolojik varlık. İnsanlara zararı dokunmaz.",
+            "locator": "Entry Erdov-Erdoy",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Erdov-Erdoy adalah makhluk mitologis yang mewakili roh air dan tidak mencelakai manusia.",
+              "en": "Erdov-Erdoy is a mythological being (mitolojik varlık) representing the water spirit (su ruhu) that does no harm to people."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "native_name",
+            "searched": "Artikel azb memuat nama dalam aksara Arab, tetapi tidak dipakai karena kutipan beraksara Arab sulit dicocokkan; nama Latin sudah menjadi bentuk asli di sumber Turki."
+          },
+          {
+            "field": "countries, era",
+            "searched": "Wikipedia tr, kamus Karakurt, dan kamus Pınar Karaca tidak menyebut negara atau periode pencatatan."
+          },
+          {
+            "field": "images",
+            "searched": "Tidak ditemukan berkas Commons yang menggambarkan Ardov."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "ardov-c04",
+        "ardov-c09"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/ardov.json",
+      "original_file": "data/artwork-generated/batch-1977/originals/ardov.png",
+      "native_sha256": "0853aa090609780ec0d08b46e7b385aabffbbc5a2aa79e7456d36048ad233056"
+    },
+    {
+      "index": 10,
+      "slug": "arganao",
+      "canonical_name": "Arganão",
+      "worker": "codex",
+      "status": "tidak-digambar",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-131.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-131",
+        "slug": "arganao",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-07",
+        "identity": {
+          "canonical_name": "Arganão",
+          "native_name": null,
+          "display_name": {
+            "id": "Arganão",
+            "en": "Arganão"
+          },
+          "wikidata_qid": "Q9628205",
+          "claim_ids": [
+            "arganao-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "roh",
+          "claim_ids": [
+            "arganao-c01"
+          ]
+        },
+        "classification": {
+          "value": "spirit",
+          "claim_ids": [
+            "arganao-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-portuguese",
+          "suggested_new": null,
+          "claim_ids": [
+            "arganao-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "arganao-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "fields",
+            "claim_ids": [
+              "arganao-c02"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "trickster",
+          "claim_ids": [
+            "arganao-c03"
+          ]
+        },
+        "traits": [
+          {
+            "value": "invisibility",
+            "claim_ids": [
+              "arganao-c03"
+            ]
+          },
+          {
+            "value": "trickster",
+            "claim_ids": [
+              "arganao-c03"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Arganão adalah makhluk ladang dari tradisi lisan Melgaço, Portugal, yang diam-diam mengamati dan menjahili manusia tanpa pernah terlihat.",
+          "en": "The arganão is a field being of the oral tradition of Melgaço, Portugal, that secretly watches and pranks people without ever being seen.",
+          "claim_ids": [
+            "arganao-c01",
+            "arganao-c02",
+            "arganao-c03"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Arganão adalah tokoh mitis dari tradisi lisan Melgaço di Portugal utara. Ia tinggal di ladang tetapi sangat penasaran pada kehidupan manusia dan menghabiskan hari dengan diam-diam mengamati mereka. Ia hampir tak terlihat, terhibur oleh tingkah manusia, dan sesekali menjahili atau mengagetkan mereka tanpa pernah tertangkap. Kisahnya tidak tercatat dalam dokumen sebelum awal abad ke-20.",
+            "en": "The arganão is a mythical figure from the oral tradition of Melgaço in northern Portugal. He lives in the fields but is intensely curious about human life and spends his days secretly watching people. He is almost invisible, amused by human behaviour, and occasionally plays pranks or gives small frights without ever being caught. His stories are not recorded in documents before the early 20th century.",
+            "claim_ids": [
+              "arganao-c01",
+              "arganao-c02",
+              "arganao-c03",
+              "arganao-c04"
+            ]
+          },
+          {
+            "id": "Artikel berbahasa Portugis mencatat adanya proyek budaya untuk menghidupkan kembali tradisi ini, yang diduga berasal dari tradisi pagan. Tersebar anggapan keliru bahwa sosok berkaki empat pada relief tinggi di Igreja Matriz de Melgaço adalah arganão; menurut tafsiran Carlos Alberto Ferreira de Almeida, itu canid penjaga yang garang atau serigala. Arganão menjadi tokoh utama arak-arakan etnografis \"Melgaço em Festa\" tahun 2017, dan pada 2013 kelompok teater Comédias do Minho membawakan pertunjukan jalanan \"Arganão\" untuk siswa di Monção.",
+            "en": "The Portuguese article records cultural projects to revive the tradition, which is presumed to be of pagan origin. A version wrongly spread that the four-legged figure in high relief at the Igreja Matriz de Melgaço is an arganão; according to Carlos Alberto Ferreira de Almeida's interpretation it is a fierce guard canid or a wolf. The arganões were the central figure of the 2017 'Melgaço em Festa' ethnographic parade, and in 2013 the theatre company Comédias do Minho presented a street performance, 'Arganão', to pupils in Monção.",
+            "claim_ids": [
+              "arganao-c05",
+              "arganao-c06",
+              "arganao-c07",
+              "arganao-c08",
+              "arganao-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Makhluk ladang yang penasaran.",
+            "en": "A curious field being.",
+            "claim_ids": [
+              "arganao-c02"
+            ]
+          },
+          "origin": {
+            "id": "Melgaço, Portugal.",
+            "en": "Melgaço, Portugal.",
+            "claim_ids": [
+              "arganao-c01"
+            ]
+          },
+          "role": {
+            "id": "Mengamati dan menjahili manusia.",
+            "en": "Watches and pranks people.",
+            "claim_ids": [
+              "arganao-c02",
+              "arganao-c03"
+            ]
+          },
+          "famous_for": null
+        },
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [
+          {
+            "title": "Arganão (pertunjukan jalanan Comédias do Minho)",
+            "year": 2013,
+            "medium": "other",
+            "description": {
+              "id": "Pertunjukan jalanan oleh kelompok teater Comédias do Minho untuk siswa sekolah di Monção.",
+              "en": "A street performance by the theatre company Comédias do Minho for schoolchildren in Monção."
+            },
+            "claim_ids": [
+              "arganao-c09"
+            ]
+          },
+          {
+            "title": "Melgaço em Festa",
+            "year": 2017,
+            "medium": "other",
+            "description": {
+              "id": "Arganão menjadi tokoh utama arak-arakan etnografis pada acara tahun 2017.",
+              "en": "The arganões were the central figure of the event's ethnographic parade in 2017."
+            },
+            "claim_ids": [
+              "arganao-c08"
+            ]
+          }
+        ],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "arganao-s1",
+            "url": "https://en.wikipedia.org/wiki/Argan%C3%A3o",
+            "title": "Arganão",
+            "author": null,
+            "publisher": "Wikipedia (en)",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-07"
+          },
+          {
+            "id": "arganao-s2",
+            "url": "https://pt.wikipedia.org/wiki/Argan%C3%A3o",
+            "title": "Arganão",
+            "author": null,
+            "publisher": "Wikipedia (pt)",
+            "published": null,
+            "language": "pt",
+            "type": "wikipedia",
+            "accessed": "2026-10-07"
+          },
+          {
+            "id": "arganao-s3",
+            "url": "https://www.radiovaledominho.com/performance-de-rua-arganao-apresentada-para-mais-de-730-alunos/",
+            "title": "Performance de rua “Arganão” apresentada para mais de 730 alunos",
+            "author": null,
+            "publisher": "Rádio Vale do Minho",
+            "published": "2013-04-09",
+            "language": "pt",
+            "type": "news",
+            "accessed": "2026-10-07"
+          }
+        ],
+        "claims": [
+          {
+            "id": "arganao-c01",
+            "source_id": "arganao-s1",
+            "quote": "The arganão is a mythical figure, originating from the oral tradition of Melgaço, Portugal.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Arganão adalah tokoh mitis dari tradisi lisan Melgaço, Portugal.",
+              "en": "The arganão is a mythical figure from the oral tradition of Melgaço, Portugal."
+            }
+          },
+          {
+            "id": "arganao-c02",
+            "source_id": "arganao-s1",
+            "quote": "According to popular tales, he lives in the fields, though he can't hide his intense curiosity about people's daily lives. It is said that he spends his days secretly observing them, always attentive to their activities.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut cerita rakyat ia tinggal di ladang, tetapi sangat penasaran pada kehidupan manusia dan menghabiskan hari dengan diam-diam mengamati mereka.",
+              "en": "According to popular tales he lives in the fields but is intensely curious about people's daily lives, spending his days secretly watching them."
+            }
+          },
+          {
+            "id": "arganao-c03",
+            "source_id": "arganao-s2",
+            "quote": "Geralmente é caracterizado como um ser muito esquivo, quase invisível, que se diverte com as atitudes dos humanos, ocasionalmente pregando-lhes algumas partidas e pequenos sustos, sem no entanto ser alguma vez apanhado ou visto por estes.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia biasanya digambarkan sangat sulit ditemui, hampir tak terlihat, terhibur oleh tingkah manusia, dan sesekali menjahili serta mengagetkan mereka tanpa pernah tertangkap atau terlihat.",
+              "en": "He is usually described as very elusive, almost invisible, amused by human behaviour and occasionally playing tricks and giving small frights, without ever being caught or seen."
+            }
+          },
+          {
+            "id": "arganao-c04",
+            "source_id": "arganao-s2",
+            "quote": "Os arganões fazem parte da tradição oral regional, sendo que não existem documentos que registem as suas histórias antes do início do século XX.",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Arganão adalah bagian tradisi lisan setempat, dan tidak ada dokumen yang mencatat kisahnya sebelum awal abad ke-20.",
+              "en": "The arganões are part of regional oral tradition, with no documents recording their stories before the early 20th century."
+            }
+          },
+          {
+            "id": "arganao-c05",
+            "source_id": "arganao-s2",
+            "quote": "Têm existido vários projectos culturais para a revitalização da antiga tradição, que se pressupõe ser de origem pagã",
+            "locator": "Representações culturais",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Ada berbagai proyek budaya untuk menghidupkan kembali tradisi lama ini, yang diduga berasal dari tradisi pagan.",
+              "en": "There have been several cultural projects to revive the old tradition, which is presumed to be of pagan origin."
+            }
+          },
+          {
+            "id": "arganao-c06",
+            "source_id": "arganao-s2",
+            "quote": "Dissiminou-se erroneamente a versão de que a figura quadrípede representada em alto-relevo no tímpano da Igreja Matriz de Melgaço seria a representação de um arganão",
+            "locator": "Representações culturais",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut artikel berbahasa Portugis, tersebar secara keliru anggapan bahwa sosok berkaki empat dalam relief tinggi di timpanon Igreja Matriz de Melgaço adalah gambaran arganão.",
+              "en": "According to the Portuguese article, a version wrongly spread that the four-legged figure in high relief on the tympanum of the Igreja Matriz de Melgaço represents an arganão."
+            }
+          },
+          {
+            "id": "arganao-c07",
+            "source_id": "arganao-s2",
+            "quote": "Segundo a interpretação de Carlos Alberto Ferreira de Almeida, seria um \"feroz canídio de guarda\" ou um lobo",
+            "locator": "Representações culturais",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut tafsiran Carlos Alberto Ferreira de Almeida, sosok pada relief gereja itu adalah \"canid penjaga yang garang\" atau serigala, bukan arganão.",
+              "en": "According to Carlos Alberto Ferreira de Almeida's interpretation, the figure on the church relief is a 'fierce guard canid' or a wolf, not an arganão."
+            }
+          },
+          {
+            "id": "arganao-c08",
+            "source_id": "arganao-s2",
+            "quote": "Os arganões foram a figura central do cortejo etnográfico do evento \"Melgaço em Festa\" em 2017.",
+            "locator": "Representações culturais",
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Arganão menjadi tokoh utama arak-arakan etnografis pada acara \"Melgaço em Festa\" tahun 2017.",
+              "en": "The arganões were the central figure of the ethnographic parade of the 'Melgaço em Festa' event in 2017."
+            }
+          },
+          {
+            "id": "arganao-c09",
+            "source_id": "arganao-s3",
+            "quote": "Performance de rua “Arganão” apresentada para mais de 730 alunos 9 Abril, 2013 ... A companhia de teatro “Comédias do Minho” está em Monção para apresentar o seu mais recente trabalho – “Arganão” – uma performance de rua",
+            "locator": "artigo de 9 Abril 2013",
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Pada April 2013 Rádio Vale do Minho melaporkan bahwa kelompok teater \"Comédias do Minho\" membawakan karya terbarunya, \"Arganão\", sebuah pertunjukan jalanan, di Monção untuk lebih dari 730 siswa.",
+              "en": "In April 2013 Rádio Vale do Minho reported that the theatre company 'Comédias do Minho' was presenting its latest work, 'Arganão', a street performance, in Monção to more than 730 pupils."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "sources",
+            "searched": "Artikel Wikipedia en dan pt dibaca; Rádio Vale do Minho (2013) dipakai untuk penggambaran modern. Voz de Melgaço (Melgaço em Festa 2017), Record, INATEL, visitportugal, dan tesis UAB 'A Literatura Oral Tradicional no Concelho de Melgaço' (2019) diperiksa; tidak ada yang memuat teks tentang arganão yang dapat dikutip. Sumber tradisional di luar Wikipedia tidak ditemukan."
+          },
+          {
+            "field": "images",
+            "searched": "Tidak ada gambar yang ditambahkan (aturan putaran ini)."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "arganao-c03",
+        "arganao-c07"
+      ],
+      "receipt_path": "data/artwork-generated/batch-1977/arganao.json",
+      "reason": "Tidak ada wujud atau manifestasi visual aktif terdokumentasi. c03 menyatakan hampir tak terlihat dan tidak pernah terlihat; c06/c07 secara eksplisit menolak bentuk canid/serigala sebagai Arganão. Menggambar tubuh atau kekuatan aktif akan mengarang; ladang kosong gagal Uji Sangar."
+    }
+  ],
+  "replacements": [],
+  "baseline_artwork_count": 1739,
+  "selection_criteria": [
+    "computeFillStatus must be lengkap-informasi: complete, valid research without an approved image.",
+    "No active editorial artwork and no permanent artwork exclusion.",
+    "The accepted research entry is embedded unchanged; the image may only depict what its claims document.",
+    "Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar."
+  ],
+  "keep_rejected_attempts": true,
+  "user_policy": {
+    "instruction_date": "2026-10-08",
+    "name": "sangar",
+    "intent": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "subject": "The being dominates the frame and is clearly the subject. Head, eyes and distinguishing traits are readable even at thumbnail size. Never a landscape without the being, never a human who could be a passer-by, never a farm animal at pasture.",
+    "moment": "Depict a moment, not a pose: hunting, emerging, striking, commanding, towering, descending, tearing through weather or ground. Gaze and posture confront or loom over the viewer. Standing still and facing the camera with a neutral expression is not acceptable.",
+    "effects": "Visible power is wanted and may be strong, but every effect must come from a power, domain, attribute, habitat or deed documented in the research claims of that being, and it must act physically on the world: ground cracking, water rearing, trees bending, lightning striking, flame consuming, fog pouring, bodies of victims turned to stone. No generic glowing envelope, neon outline, energy ribbons, floating runes or luminous coloured mist. If the research documents no power, build menace from anatomy, scale, moment, light and setting instead, and record that in artistic_choices.",
+    "fidelity": "Anatomy, attributes, number of heads, eyes, limbs and iconography follow the research claims exactly. Effects and atmosphere add power; they never replace or invent anatomy. Fully opaque clothing where a humanlike form is clothed; no nudity, no explicit gore.",
+    "composition": "Low camera angle; monumental or predatory scale with small environmental references when size is documented, otherwise dominance through tight framing and foreshortening. Strong silhouette, high contrast, cinematic low-key lighting from one dominant source (moon, fire, lightning, dying sun), rim light, dust, smoke, rain or spray. Tactile surfaces: wet scales, matted fur, cracked skin, rust, weathered cloth, stone.",
+    "setting": "The place its stories name: graveyard, swamp, sea cliff, battlefield, celestial palace, desert storm. Weather and time of day heighten threat or majesty. Palette is dark and warm with one strong accent, consistent with the collection; no pastel, no flat even daylight.",
+    "respect": "Living religions (Hindu, Buddhist, Shinto, Abrahamic and folk deities still worshipped) are majestic and overwhelming rather than monstrous: cosmic scale, divine radiance from documented attributes, the elements they rule in motion. Malevolent beings are menacing. Literary beings follow their source text, never a film, game, anime or comic design.",
+    "aniconic": "If the research documents no bodily form at all, either depict the documented manifestation as an active, overwhelming force (the sky itself splitting, a storm swallowing the steppe) with the choice recorded in artistic_choices, or decline the entry with status tidak-digambar. A calm scene without agency fails.",
+    "self_check": "Before accepting an image the generator answers all of these with yes: the being dominates the frame; it still looks dangerous or majestic at 200 px; there is a moment, not a static pose; each visible effect points to a claim id; head, eye and limb counts match the claims; no text, watermark, border or borrowed design; it would not be rejected as ordinary person, ordinary animal, landscape only, or cute and calm. One no means regenerate, keep the rejected attempt as history, up to three attempts.",
+    "style": "Square premium painterly cinematic illustration in the house style of the existing artwork, more dramatic and higher contrast. No text, labels, logo, border or watermark.",
+    "sources": "Never copy designs from films, games, anime or comics (modern_depictions). Every design is original and sourced from the accepted research."
+  },
+  "selection_audit": {
+    "eligible": 1203,
+    "selected": 10,
+    "missing_current_research": [],
+    "needs_catalogue_record": 9,
+    "without_visual_claims": [],
+    "earlier_omissions": [],
+    "omitted": []
+  },
+  "generation_complete": false,
+  "generation_completed_at": null,
+  "generation_status_counts": {
+    "tidak-digambar": 2,
+    "awaiting-independent-review": 7
+  }
+}

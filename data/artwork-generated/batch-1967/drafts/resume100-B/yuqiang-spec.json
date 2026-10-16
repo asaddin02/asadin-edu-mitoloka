@@ -1,0 +1,75 @@
+{
+  "slug": "yuqiang",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Yuqiang, human-faced bird-bodied Yuqiang with green ear snakes and red foot snakes.\nANATOMY: Exactly one deity with HUMAN FACE and BIRD BODY, one head two eyes, two feathered wings, two bird legs; exactly TWO GREEN SNAKES as ear ornaments, one at each ear, and exactly TWO RED SNAKES beneath the feet, four snakes total. All four snakes visibly separate and countable. Each snake has EXACTLY ONE HEAD and ONE SHARPLY TAPERED HEADLESS TAIL, four snake heads total. Green snakes each hang as a simple open curve from an ear, never a loop: head on outer dangling end, slender pointed tail at ear. Fully feather-covered body, no human torso or rider [c03, c05]\nMOMENT: Descend toward viewer with human face and huge bird chest dominating center, wings spread, two green ear snakes arc separately beside face, two red snakes lie under two feet at bottom with heads clear. Keep snakes short enough to fit all four, no extra serpent coils.\nPOWER: Command North Sea wind: feathers stream in gale and sea foam blows sideways below, documented wind domain, no neon or magic rings [c01, c02]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low amber slit through windblown storm cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: rain-wet dark feathers, human skin, glossy green and red snake scales.\nSETTING: Small rocky islet in North Sea, dark rough water below [c05]\nMOOD: reverent awe-inspiring sea and wind deity; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "human-faced bird-bodied Yuqiang with green ear snakes and red foot snakes",
+  "basis_claim_ids": [
+    "yuqiang-c03",
+    "yuqiang-c05",
+    "yuqiang-c01",
+    "yuqiang-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one deity with HUMAN FACE and BIRD BODY, one head two eyes, two feathered wings, two bird legs; exactly TWO GREEN SNAKES as ear ornaments, one at each ear, and exactly TWO RED SNAKES beneath the feet, four snakes total. All four snakes visibly separate and countable. Fully feather-covered body, no human torso or rider",
+      "claim_ids": [
+        "yuqiang-c03",
+        "yuqiang-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Command North Sea wind: feathers stream in gale and sea foam blows sideways below, documented wind domain, no neon or magic rings",
+      "claim_ids": [
+        "yuqiang-c01",
+        "yuqiang-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Small rocky islet in North Sea, dark rough water below",
+      "claim_ids": [
+        "yuqiang-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "yuqiang-c03",
+      "yuqiang-c05"
+    ],
+    "power_domain_deeds": [
+      "yuqiang-c01",
+      "yuqiang-c02"
+    ],
+    "setting": [
+      "yuqiang-c05"
+    ],
+    "disposition": [
+      "yuqiang-c01"
+    ]
+  },
+  "aura": "Command North Sea wind: feathers stream in gale and sea foam blows sideways below, documented wind domain, no neon or magic rings yuqiang-c01,yuqiang-c02",
+  "artistic_choices": [
+    "Select c05 red-foot-snake variant, not c04 all-green. Four snakes count remains exact, colors editorial natural saturated."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1967/rejected/yuqiang-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1967/rejected/yuqiang-attempt-01.json",
+      "native_sha256": "1da6b5d20b140d22385f22b47fdc67c5847a0f2e58a3778ab1c2d43ff8c51796",
+      "reason": "Left green ear snake has two apparent heads rather than one head and a tapered tail; exact four single-headed serpents requirement fails."
+    }
+  ]
+}

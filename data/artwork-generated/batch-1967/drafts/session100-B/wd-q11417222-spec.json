@@ -1,0 +1,77 @@
+{
+  "slug": "wd-q11417222",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 和尚魚, red turtle-bodied monk-headed Oshouo.\nANATOMY: One red softshell-turtle body with a bald human monk-like head, one head two eyes four flipperlike turtle limbs and one short tail, no shell decoration or clothing needed on turtle body [c01, c02, c05]\nMOMENT: Surge sideways diagonally toward viewer in full-body three-quarter view: broad RED OVAL TURTLE SHELL occupying half of image, low flattened turtle torso, four short horizontal paddle limbs clearly visible and NO HUMAN ARMS OR SHOULDERS, bald human monk head at front of shell, angry eyes toward viewer. Whole shell contour and four paddles visible above low water, no robe or cloth.\nPOWER: Breach sea surface, massive displaced water pours off turtle back; no literal magical effect or invented fire [c03]\nSCALE & CAMERA: low three-quarter camera just above sea level; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low moon reflected across water, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: wet red leathery turtle skin, smooth bald head, black seawater.\nSETTING: Dark coastal sea associated with fishing [c01, c03]\nMOOD: uncanny imposing sea yokai; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "red turtle-bodied monk-headed Oshouo",
+  "basis_claim_ids": [
+    "wd-q11417222-c01",
+    "wd-q11417222-c02",
+    "wd-q11417222-c05",
+    "wd-q11417222-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One red softshell-turtle body with a bald human monk-like head, one head two eyes four flipperlike turtle limbs and one short tail, no shell decoration or clothing needed on turtle body",
+      "claim_ids": [
+        "wd-q11417222-c01",
+        "wd-q11417222-c02",
+        "wd-q11417222-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Breach sea surface, massive displaced water pours off turtle back; no literal magical effect or invented fire",
+      "claim_ids": [
+        "wd-q11417222-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark coastal sea associated with fishing",
+      "claim_ids": [
+        "wd-q11417222-c01",
+        "wd-q11417222-c03"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q11417222-c01",
+      "wd-q11417222-c02",
+      "wd-q11417222-c05"
+    ],
+    "power_domain_deeds": [
+      "wd-q11417222-c03"
+    ],
+    "setting": [
+      "wd-q11417222-c01",
+      "wd-q11417222-c03"
+    ],
+    "disposition": [
+      "wd-q11417222-c01"
+    ]
+  },
+  "aura": "Breach sea surface, massive displaced water pours off turtle back; no literal magical effect or invented fire wd-q11417222-c03",
+  "artistic_choices": [
+    "Do not use real monk portrait. No supernatural beams or unsupported storm control; splashes are physical emergence."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1967/rejected/wd-q11417222-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1967/rejected/wd-q11417222-attempt-01.json",
+      "native_sha256": "5d2c99be9de6b6fcd04962204a6576c50b812453ce9e23bff9042c1d051deb33",
+      "reason": "Frontal body is ambiguous and resembles a red-robed man; the turtle shell is not clearly readable. Require full side three-quarter shell and turtle flippers."
+    }
+  ]
+}

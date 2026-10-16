@@ -1,0 +1,734 @@
+{
+  "target": 2,
+  "tool": "OpenAI built-in image_gen",
+  "scope": "2 illustrations for every complete and valid research entry that has no approved image yet.",
+  "selected_at": "2026-10-16T00:54:55.188Z",
+  "baseline_counts": {
+    "lengkap-bergambar": 1742,
+    "lengkap-informasi": 1424,
+    "lengkap-tidak-valid": 0,
+    "tidak-lengkap": 367,
+    "belum-ada-entri": 1324,
+    "bukan-makhluk": 139
+  },
+  "status": "in-progress",
+  "complete": 0,
+  "presence_policy": true,
+  "require_root_visual_review": true,
+  "items": [
+    {
+      "index": 1,
+      "slug": "argopelter",
+      "canonical_name": "Agropelter",
+      "worker": "codex",
+      "status": "pending",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-145.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-145",
+        "slug": "argopelter",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-06",
+        "identity": {
+          "canonical_name": "Agropelter",
+          "native_name": null,
+          "display_name": {
+            "id": "Agropelter",
+            "en": "Agropelter"
+          },
+          "wikidata_qid": "Q4789696",
+          "claim_ids": [
+            "argopelter-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Argopelter",
+            "language": "en",
+            "name_type": "alias",
+            "claim_ids": [
+              "argopelter-c01"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "makhluk legenda",
+          "claim_ids": [
+            "argopelter-c01"
+          ]
+        },
+        "classification": {
+          "value": "legendary-creature",
+          "claim_ids": [
+            "argopelter-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-american",
+          "suggested_new": null,
+          "claim_ids": [
+            "argopelter-c01"
+          ]
+        },
+        "region": {
+          "value": "north-america",
+          "claim_ids": [
+            "argopelter-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "forest",
+            "claim_ids": [
+              "argopelter-c01"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "argopelter-c02"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Agropelter adalah \"fearsome critter\" yang tinggal di pohon berongga dan melempari orang dengan dahan [argopelter-c01, argopelter-c02].",
+          "en": "The Agropelter is a fearsome critter that lives in hollow trees and hurls branches at people [argopelter-c01, argopelter-c02].",
+          "claim_ids": [
+            "argopelter-c01",
+            "argopelter-c02"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Agropelter adalah \"fearsome critter\" yang konon menghuni pohon berongga di hutan konifer dari Maine hingga Oregon [argopelter-c01]. Dari sana ia melempari orang yang lengah dengan serpihan kayu dan dahan [argopelter-c02], dan ia dituduh atas kematian penebang kayu yang tertimpa dahan [argopelter-c03].",
+            "en": "The Agropelter is a fearsome critter said to live in hollow conifers from Maine to Oregon [argopelter-c01]. From there it hurls splinters and branches at the unwary [argopelter-c02], and was blamed when loggers died from falling branches [argopelter-c03].",
+            "claim_ids": [
+              "argopelter-c01",
+              "argopelter-c02",
+              "argopelter-c03"
+            ]
+          },
+          {
+            "id": "Dalam sebuah buku tentang makhluk cerita para penebang kayu, agropelter digambarkan menjalani hidup penuh dendam dan membenci penebang kayu dari Maine sampai Oregon [argopelter-c04]. Orang yang melewati pohon berongga tempat ia tinggal biasanya ditemukan remuk atau tertindih dahan mati dan dilaporkan tewas tertimpa dahan [argopelter-c05]. Menurut seorang saksi bernama Ole, ia bertubuh ramping, berwajah jahat seperti kera, dengan lengan seperti cambuk yang melempar dahan mati bagai peluru meriam [argopelter-c06].",
+            "en": "In a book on creatures of lumberjack lore, the agropelter is described as leading a vengeful existence, resenting loggers from Maine to Oregon [argopelter-c04]. Anyone passing the hollow tree where it dwells typically turns up crushed beneath a dead limb, the death being put down to a falling branch [argopelter-c05]. According to a witness named Ole, it has a slender body and the villainous face of an ape, with whip-like arms that hurl dead branches like shells from a gun [argopelter-c06].",
+            "claim_ids": [
+              "argopelter-c04",
+              "argopelter-c05",
+              "argopelter-c06"
+            ]
+          },
+          {
+            "id": "Ia diduga makan burung hantu dan pelatuk, yang kelangkaannya mencegahnya menjadi banyak [argopelter-c07]. Anak-anaknya lahir pada 29 Februari dan selalu berjumlah ganjil [argopelter-c08]. Sebagian menggambarkannya begitu cepat sehingga tidak pernah terlihat [argopelter-c10], dan dalam satu kisah seekor agropelter menculik seorang surveyor perintis dan memberinya ikan mentah sampai ia kabur [argopelter-c09].",
+            "en": "It is supposed to feed on hoot owls and woodpeckers, whose scarcity keeps it from becoming numerous [argopelter-c07]. Its young are born on 29 February, always in odd numbers [argopelter-c08]. Some describe it as so quick it has never been seen [argopelter-c10], and one account has an agropelter abducting a pioneer surveyor and feeding him raw fish until he got away [argopelter-c09].",
+            "claim_ids": [
+              "argopelter-c07",
+              "argopelter-c08",
+              "argopelter-c09",
+              "argopelter-c10"
+            ]
+          }
+        ],
+        "cultural_context": {
+          "id": "Agropelter dijadikan penjelasan atas kematian penebang kayu yang tertimpa dahan [argopelter-c03].",
+          "en": "The agropelter explained loggers killed by falling branches [argopelter-c03].",
+          "claim_ids": [
+            "argopelter-c03"
+          ]
+        },
+        "etymology": null,
+        "story_mode": null,
+        "did_you_know": null,
+        "abilities": [
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Melempar dahan",
+              "en": "Hurling branches"
+            },
+            "description": {
+              "id": "Mematahkan dahan mati dan melemparkannya dengan lengan seperti cambuk; juga melontarkan serpihan kayu pada orang yang lengah.",
+              "en": "Snaps off dead branches and hurls them with whip-like arms; also hurls splinters at the unwary."
+            },
+            "claim_ids": [
+              "argopelter-c02",
+              "argopelter-c06"
+            ]
+          },
+          {
+            "ability_id": null,
+            "name": {
+              "id": "Sangat cepat",
+              "en": "Extreme speed"
+            },
+            "description": {
+              "id": "Sebagian menggambarkannya begitu cepat sehingga tidak pernah terlihat.",
+              "en": "Some describe it as so quick that it has never been seen."
+            },
+            "claim_ids": [
+              "argopelter-c10"
+            ]
+          }
+        ],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Surveyor yang diculik",
+              "en": "The kidnapped surveyor"
+            },
+            "role": {
+              "id": "Penculik yang memberi korbannya ikan mentah.",
+              "en": "The kidnapper who fed its captive raw fish."
+            },
+            "summary": {
+              "id": "Seekor agropelter menculik seorang surveyor perintis dan memberinya ikan mentah sampai ia kabur.",
+              "en": "One account has an agropelter abducting a pioneer surveyor and feeding him raw fish until he got away."
+            },
+            "claim_ids": [
+              "argopelter-c09"
+            ]
+          }
+        ],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa para penebang kayu menciptakan cerita tentang \"fearsome critters\"?",
+            "en": "Why did loggers invent fearsome critter tales?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "argopelter-s1",
+            "url": "https://en.wikipedia.org/wiki/Agropelter",
+            "title": "Agropelter",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-09-30"
+          },
+          {
+            "id": "argopelter-s2",
+            "url": "https://archive.org/stream/fearsomecreatur00coxgoog/fearsomecreatur00coxgoog_djvu.txt",
+            "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts",
+            "author": "William T. Cox",
+            "publisher": "Judd & Detweiler (Internet Archive)",
+            "published": "1910",
+            "language": "en",
+            "type": "folklore-collection",
+            "accessed": "2026-10-06"
+          }
+        ],
+        "claims": [
+          {
+            "id": "argopelter-c01",
+            "source_id": "argopelter-s1",
+            "quote": "is a mythical fearsome critter said to inhabit hollow trees of the conifer woods from Maine to Oregon.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Agropelter adalah \"fearsome critter\" mitos yang konon menghuni pohon berongga di hutan konifer dari Maine hingga Oregon.",
+              "en": "The Agropelter is a mythical fearsome critter said to live in hollow conifer trees from Maine to Oregon."
+            }
+          },
+          {
+            "id": "argopelter-c02",
+            "source_id": "argopelter-s1",
+            "quote": "From this vantage point, the creature would await an unwary person and hurl wooden splinters and branches at the intruder.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dari sana ia menunggu orang yang lengah lalu melemparinya dengan serpihan kayu dan dahan.",
+              "en": "From there it waits for unwary people and hurls splinters and branches at them."
+            }
+          },
+          {
+            "id": "argopelter-c03",
+            "source_id": "argopelter-s1",
+            "quote": "When loggers died from branches falling on their heads, the agropelter was blamed for throwing the heavy branches.",
+            "locator": "Introduction",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Saat penebang kayu tewas tertimpa dahan, agropelter dituduh melemparkannya.",
+              "en": "When loggers died from falling branches, the agropelter was blamed."
+            }
+          },
+          {
+            "id": "argopelter-c04",
+            "source_id": "argopelter-s2",
+            "quote": "Leading a vengeful existence, resenting the intrusion of the logger, the agropelter deals misery to the lumber jack from Maine to Oregon.",
+            "locator": "The Agropelter",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam teks ini, agropelter menjalani hidup penuh dendam dan membenci kehadiran penebang kayu, serta mendatangkan celaka bagi para penebang dari Maine sampai Oregon.",
+              "en": "In this text the agropelter leads a vengeful existence, resenting the intrusion of the logger, and deals misery to the lumber jack from Maine to Oregon."
+            }
+          },
+          {
+            "id": "argopelter-c05",
+            "source_id": "argopelter-s2",
+            "quote": "Ill fares the man who attempts to pass a hollow tree in which one of these creatures has taken up its temporary abode. The unfortunate is usually found smashed or pinned by a dead branch and reported as having been killed by a falling limb.",
+            "locator": "The Agropelter",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Celakalah orang yang mencoba melewati pohon berongga tempat makhluk ini tinggal sementara; korbannya biasanya ditemukan remuk atau tertindih dahan mati dan dilaporkan tewas tertimpa dahan.",
+              "en": "Ill fares the man who tries to pass a hollow tree where one of these creatures has taken up temporary abode; the victim is usually found smashed or pinned by a dead branch and reported as killed by a falling limb."
+            }
+          },
+          {
+            "id": "argopelter-c06",
+            "source_id": "argopelter-s2",
+            "quote": "According to Ole, the animal has a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes, with which it can snap off dead branches and hurl them through the air like shells from a six-inch gun.",
+            "locator": "The Agropelter",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut Ole, hewan itu bertubuh ramping dan liat, berwajah jahat seperti kera, dengan lengan seperti cambuk berotot yang dapat mematahkan dahan mati dan melemparkannya di udara seperti peluru meriam enam inci.",
+              "en": "According to Ole, the animal has a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes with which it can snap off dead branches and hurl them through the air like shells from a six-inch gun."
+            }
+          },
+          {
+            "id": "argopelter-c07",
+            "source_id": "argopelter-s2",
+            "quote": "It is supposed to feed upon hoot owls and woodpeckers, the scarcity of which will always prevent the agropelter from becoming numerous in any locality.",
+            "locator": "The Agropelter",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia diduga makan burung hantu dan pelatuk, yang kelangkaannya akan selalu mencegah agropelter menjadi banyak di suatu tempat.",
+              "en": "It is supposed to feed upon hoot owls and woodpeckers, the scarcity of which will always prevent the agropelter from becoming numerous in any locality."
+            }
+          },
+          {
+            "id": "argopelter-c08",
+            "source_id": "argopelter-s1",
+            "quote": "Its pups are born on February 29 and always arrive in odd numbers.",
+            "locator": "Wikipedia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Anak-anaknya lahir pada 29 Februari dan selalu berjumlah ganjil.",
+              "en": "Its pups are born on February 29 and always arrive in odd numbers."
+            }
+          },
+          {
+            "id": "argopelter-c09",
+            "source_id": "argopelter-s1",
+            "quote": "In one account, an agropelter kidnapped a pioneer surveyor and fed him raw fish until he escaped.",
+            "locator": "Wikipedia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam satu kisah, seekor agropelter menculik seorang surveyor perintis dan memberinya ikan mentah sampai ia berhasil kabur.",
+              "en": "In one account, an agropelter kidnapped a pioneer surveyor and fed him raw fish until he escaped."
+            }
+          },
+          {
+            "id": "argopelter-c10",
+            "source_id": "argopelter-s1",
+            "quote": "Some have described the creature as being so quick that it has never been seen.",
+            "locator": "Wikipedia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Sebagian menggambarkan makhluk ini begitu cepat sehingga tidak pernah terlihat.",
+              "en": "Some have described the creature as being so quick that it has never been seen."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+          },
+          {
+            "field": "sources",
+            "searched": "Sumber kedua ditambahkan: teks Cox, Fearsome Creatures of the Lumberwoods (1910) di Internet Archive (teks OCR; hanya kalimat bersih dikutip). Tryon, Fearsome Critters (1939) masih berhak cipta dan tidak terbuka."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "argopelter-c06",
+        "argopelter-c09"
+      ]
+    },
+    {
+      "index": 2,
+      "slug": "arquetu",
+      "canonical_name": "Arquetu",
+      "worker": "codex",
+      "status": "pending",
+      "requires_catalogue_record": false,
+      "review_path": "data/gemini/reviews/batch-130.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-130",
+        "slug": "arquetu",
+        "task": "enrich",
+        "tier": "core",
+        "researched_at": "2026-10-02",
+        "identity": {
+          "canonical_name": "Arquetu",
+          "native_name": null,
+          "display_name": {
+            "id": "Arquetu",
+            "en": "Arquetu"
+          },
+          "wikidata_qid": "Q20977884",
+          "claim_ids": [
+            "arquetu-c01"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "makhluk legenda",
+          "claim_ids": [
+            "arquetu-c01"
+          ]
+        },
+        "classification": {
+          "value": "legendary-creature",
+          "claim_ids": [
+            "arquetu-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-cantabrian",
+          "suggested_new": null,
+          "claim_ids": [
+            "arquetu-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "arquetu-c01"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [],
+        "disposition": {
+          "value": "ambivalent",
+          "claim_ids": [
+            "arquetu-c02"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Arquetu adalah lelaki tua mitologi Cantabria bertanda salib hijau di dahi yang meminjamkan uang kepada pemboros dan mengutuk mereka dengan kemiskinan abadi bila mengulanginya.",
+          "en": "The Arquetu is an old man of Cantabrian mythology with a green cross on his forehead who lends money to spendthrifts and curses repeat offenders with eternal poverty.",
+          "claim_ids": [
+            "arquetu-c01",
+            "arquetu-c02"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Arquetu adalah makhluk mitologi Cantabria yang muncul sebagai lelaki tua dengan gambar salib hijau di dahinya, ditambah 7 kunci menurut satu artikel atau tujuh titik menurut artikel bahasa Prancis. Ia meminjamkan uang kepada orang yang menghabiskan hartanya, tetapi menghukum yang mengulanginya dengan kutukan kemiskinan abadi.",
+            "en": "The Arquetu is a being of Cantabrian mythology who appears as an old man with a green cross drawn on his forehead, plus 7 keys in one article or seven dots in the French one. He lends money to people who have squandered their wealth but punishes repeat offenders with a curse of eternal poverty.",
+            "claim_ids": [
+              "arquetu-c01",
+              "arquetu-c02",
+              "arquetu-c03",
+              "arquetu-c04"
+            ]
+          },
+          {
+            "id": "Satu sumber menggambarkan Arquetu sebagai orang tua berambut merah panjang berjubah putih dengan bercak ungu, dengan salib hijau yang dikelilingi kunci dan gembok di dahinya. Ia membawa peti emas berhias perak dan perunggu mengilap serta kantong di bahunya. Konon ia menjelajahi gunung dan lembah Cantabria, menasihati agar orang tidak memboroskan harta; jika orang yang ditolongnya memboroskan koinnya lagi, ia menghukumnya mengemis di jalanan.",
+            "en": "One source describes the Arquetu as an old man with long red hair in a white habit with purple spots, with a green cross surrounded by keys and padlocks on his forehead. He carries a golden chest adorned with silver and polished bronze and a bag at his shoulder. He is said to roam the mountains and valleys of Cantabria advising people not to squander their wealth; if those he helps waste his coins again, he condemns them to beg along the roads.",
+            "claim_ids": [
+              "arquetu-c05",
+              "arquetu-c06",
+              "arquetu-c07",
+              "arquetu-c08"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Lelaki tua bertanda salib hijau.",
+            "en": "An old man marked with a green cross.",
+            "claim_ids": [
+              "arquetu-c01"
+            ]
+          },
+          "origin": {
+            "id": "Mitologi Cantabria.",
+            "en": "Cantabrian mythology.",
+            "claim_ids": [
+              "arquetu-c01"
+            ]
+          },
+          "role": {
+            "id": "Meminjamkan uang dan menghukum pemboros.",
+            "en": "Lends money and punishes spendthrifts.",
+            "claim_ids": [
+              "arquetu-c02"
+            ]
+          },
+          "famous_for": null
+        },
+        "did_you_know": null,
+        "abilities": [
+          {
+            "ability_id": "curse",
+            "name": {
+              "id": "Kutukan kemiskinan",
+              "en": "Curse of poverty"
+            },
+            "description": {
+              "id": "Mengutuk pemboros yang mengulangi kesalahannya dengan kemiskinan abadi.",
+              "en": "Curses repeat spendthrifts with eternal poverty."
+            },
+            "claim_ids": [
+              "arquetu-c02",
+              "arquetu-c04"
+            ]
+          }
+        ],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "arquetu-s1",
+            "url": "https://en.wikipedia.org/wiki/Arquetu",
+            "title": "Arquetu",
+            "author": null,
+            "publisher": "Wikipedia (en)",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "arquetu-s2",
+            "url": "https://fr.wikipedia.org/wiki/Arquetu",
+            "title": "Arquetu",
+            "author": null,
+            "publisher": "Wikipedia (fr)",
+            "published": null,
+            "language": "fr",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "arquetu-s3",
+            "url": "https://ar.wikipedia.org/wiki/%D8%A3%D8%B1%D9%83%D9%8A%D8%AA%D9%88",
+            "title": "أركيتو",
+            "author": null,
+            "publisher": "Wikipedia (ar)",
+            "published": null,
+            "language": "ar",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "arquetu-s4",
+            "published": "2021",
+            "accessed": "2026-10-07",
+            "url": "https://www.lashayucas.com/mitologia-cantabra-iv-el-arquetu-y-los-nuberos/",
+            "title": "Mitología cántabra IV: el Arquetu y los Nuberos",
+            "publisher": "Casa Las Hayucas (blog)",
+            "language": "es",
+            "type": "other",
+            "author": "Celia Ribalaygua"
+          }
+        ],
+        "claims": [
+          {
+            "id": "arquetu-c01",
+            "source_id": "arquetu-s1",
+            "quote": "The Arquetu is a being that appears in Cantabrian mythology as an old man with the drawing of a green cross and 7 keys on his forehead.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Arquetu adalah makhluk mitologi Cantabria yang muncul sebagai lelaki tua dengan gambar salib hijau dan 7 kunci di dahinya.",
+              "en": "The Arquetu is a being of Cantabrian mythology who appears as an old man with a green cross and 7 keys drawn on his forehead."
+            }
+          },
+          {
+            "id": "arquetu-c02",
+            "source_id": "arquetu-s1",
+            "quote": "He lends money to those foolish enough to spend their fortune but if they do it again, he punishes them by giving them a curse of eternal poverty.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia meminjamkan uang kepada orang yang dengan bodoh menghabiskan hartanya, tetapi bila mereka mengulanginya, ia menghukum mereka dengan kutukan kemiskinan abadi.",
+              "en": "He lends money to those foolish enough to squander their fortune, but if they do it again he punishes them with a curse of eternal poverty."
+            }
+          },
+          {
+            "id": "arquetu-c03",
+            "source_id": "arquetu-s2",
+            "quote": "L'Arquetu prend les traits d'un vieillard avec le dessin d'une croix verte et de sept points sur le front.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut artikel bahasa Prancis, Arquetu berwujud lelaki tua dengan gambar salib hijau dan tujuh titik di dahinya.",
+              "en": "According to the French article, the Arquetu looks like an old man with a green cross and seven dots drawn on his forehead."
+            }
+          },
+          {
+            "id": "arquetu-c04",
+            "source_id": "arquetu-s3",
+            "quote": "إنه يقرض المال لهؤلاء الحمقى الذين يبددون ثرواتهم، ولكن إذا فعلوا ذلك مرة أخرى، فإنه يعاقبهم بإلقاء لعنة الفقر الأبدي.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Artikel bahasa Arab juga menyebut ia meminjamkan uang kepada pemboros dan mengutuk mereka dengan kemiskinan abadi bila mengulanginya.",
+              "en": "The Arabic article also says he lends money to spendthrifts and curses them with eternal poverty if they do it again."
+            }
+          },
+          {
+            "id": "arquetu-c05",
+            "source_id": "arquetu-s4",
+            "quote": "un anciano pelirrojo de largas melenas vestido con un hábito blanco con manchas moradas. Algo muy característico de este personaje es la cruz verde rodeada de llaves y candados pintados que tiene en su frente.",
+            "locator": "Mitología cántabra IV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Arquetu digambarkan sebagai orang tua berambut merah panjang berjubah putih dengan bercak ungu, dengan salib hijau yang dikelilingi kunci dan gembok yang dilukis di dahinya.",
+              "en": "The Arquetu is described as an old man with long red hair in a white habit with purple spots, with a green cross surrounded by painted keys and padlocks on his forehead."
+            }
+          },
+          {
+            "id": "arquetu-c06",
+            "source_id": "arquetu-s4",
+            "quote": "Colgado de su hombro lleva una talega del color de las nubes cuando relumbra el sol y debajo del brazo izquierdo un arca de oro con adornos de plata y bronce pulido.",
+            "locator": "Mitología cántabra IV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dari bahunya tergantung kantong berwarna awan saat matahari bersinar, dan di bawah lengan kirinya ia membawa peti emas berhias perak dan perunggu mengilap.",
+              "en": "From his shoulder hangs a bag the colour of clouds when the sun shines, and under his left arm he carries a golden chest adorned with silver and polished bronze."
+            }
+          },
+          {
+            "id": "arquetu-c07",
+            "source_id": "arquetu-s4",
+            "quote": "Se dice que recorre los montes y los valles de Cantabria ayudando a la gente y dando consejos para que, ni pobres ni ricos, malgasten sus caudales, ya que le enfurece mucho que la gente malgaste su dinero.",
+            "locator": "Mitología cántabra IV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Konon ia menjelajahi gunung dan lembah Cantabria, menolong orang dan menasihati agar baik miskin maupun kaya tidak memboroskan harta, karena ia sangat murka jika orang memboroskan uang.",
+              "en": "He is said to roam the mountains and valleys of Cantabria helping people and advising that neither poor nor rich squander their wealth, since it greatly angers him when people waste their money."
+            }
+          },
+          {
+            "id": "arquetu-c08",
+            "source_id": "arquetu-s4",
+            "quote": "cuando esta gente gasta dichas monedas en sus vicios, el Arquetu le condena a pasar el resto de sus días pidiendo limosna por los caminos.",
+            "locator": "Mitología cántabra IV",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Jika orang itu menghabiskan koin tersebut untuk kebiasaan buruknya, Arquetu menghukumnya menghabiskan sisa hidupnya mengemis di jalanan.",
+              "en": "If those people spend the coins on their vices, the Arquetu condemns them to spend the rest of their days begging along the roads."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Tanda di dahi Arquetu",
+              "en": "The marking on the Arquetu's forehead"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Satu artikel menyebut salib hijau dan 7 kunci di dahinya.",
+                  "en": "One article gives a green cross and 7 keys on his forehead."
+                },
+                "claim_ids": [
+                  "arquetu-c01"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Artikel bahasa Prancis menyebut salib hijau dan tujuh titik.",
+                  "en": "The French article gives a green cross and seven dots."
+                },
+                "claim_ids": [
+                  "arquetu-c03"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Satu sumber lain menyebut salib hijau yang dikelilingi kunci dan gembok yang dilukis.",
+                  "en": "Another source gives a green cross surrounded by painted keys and padlocks."
+                },
+                "claim_ids": [
+                  "arquetu-c05"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "sources",
+            "searched": "Dibaca Wikipedia en, fr, ar dan blog Casa Las Hayucas (Celia Ribalaygua; sumber populer). Sumber utama, buku Pollux Hernúñez (Anaya, 1994), tidak terbuka secara daring; situs lain (Romántica Oscuridad, El Diario Cantabria, mundivia.es berpengodean ISO-8859-1) tidak dipakai karena tanpa penulis atau berita."
+          },
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "arquetu-c01",
+        "arquetu-c05"
+      ]
+    }
+  ],
+  "replacements": [],
+  "baseline_artwork_count": 1739,
+  "selection_criteria": [
+    "computeFillStatus must be lengkap-informasi: complete, valid research without an approved image.",
+    "No active editorial artwork and no permanent artwork exclusion.",
+    "The accepted research entry is embedded unchanged; the image may only depict what its claims document.",
+    "Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar."
+  ],
+  "keep_rejected_attempts": true,
+  "user_policy": {
+    "instruction_date": "2026-10-08",
+    "name": "sangar",
+    "intent": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+    "subject": "The being dominates the frame and is clearly the subject. Head, eyes and distinguishing traits are readable even at thumbnail size. Never a landscape without the being, never a human who could be a passer-by, never a farm animal at pasture.",
+    "moment": "Depict a moment, not a pose: hunting, emerging, striking, commanding, towering, descending, tearing through weather or ground. Gaze and posture confront or loom over the viewer. Standing still and facing the camera with a neutral expression is not acceptable.",
+    "effects": "Visible power is wanted and may be strong, but every effect must come from a power, domain, attribute, habitat or deed documented in the research claims of that being, and it must act physically on the world: ground cracking, water rearing, trees bending, lightning striking, flame consuming, fog pouring, bodies of victims turned to stone. No generic glowing envelope, neon outline, energy ribbons, floating runes or luminous coloured mist. If the research documents no power, build menace from anatomy, scale, moment, light and setting instead, and record that in artistic_choices.",
+    "fidelity": "Anatomy, attributes, number of heads, eyes, limbs and iconography follow the research claims exactly. Effects and atmosphere add power; they never replace or invent anatomy. Fully opaque clothing where a humanlike form is clothed; no nudity, no explicit gore.",
+    "composition": "Low camera angle; monumental or predatory scale with small environmental references when size is documented, otherwise dominance through tight framing and foreshortening. Strong silhouette, high contrast, cinematic low-key lighting from one dominant source (moon, fire, lightning, dying sun), rim light, dust, smoke, rain or spray. Tactile surfaces: wet scales, matted fur, cracked skin, rust, weathered cloth, stone.",
+    "setting": "The place its stories name: graveyard, swamp, sea cliff, battlefield, celestial palace, desert storm. Weather and time of day heighten threat or majesty. Palette is dark and warm with one strong accent, consistent with the collection; no pastel, no flat even daylight.",
+    "respect": "Living religions (Hindu, Buddhist, Shinto, Abrahamic and folk deities still worshipped) are majestic and overwhelming rather than monstrous: cosmic scale, divine radiance from documented attributes, the elements they rule in motion. Malevolent beings are menacing. Literary beings follow their source text, never a film, game, anime or comic design.",
+    "aniconic": "If the research documents no bodily form at all, either depict the documented manifestation as an active, overwhelming force (the sky itself splitting, a storm swallowing the steppe) with the choice recorded in artistic_choices, or decline the entry with status tidak-digambar. A calm scene without agency fails.",
+    "self_check": "Before accepting an image the generator answers all of these with yes: the being dominates the frame; it still looks dangerous or majestic at 200 px; there is a moment, not a static pose; each visible effect points to a claim id; head, eye and limb counts match the claims; no text, watermark, border or borrowed design; it would not be rejected as ordinary person, ordinary animal, landscape only, or cute and calm. One no means regenerate, keep the rejected attempt as history, up to three attempts.",
+    "style": "Square premium painterly cinematic illustration in the house style of the existing artwork, more dramatic and higher contrast. No text, labels, logo, border or watermark.",
+    "sources": "Never copy designs from films, games, anime or comics (modern_depictions). Every design is original and sourced from the accepted research."
+  },
+  "selection_audit": {
+    "eligible": 1193,
+    "selected": 2,
+    "missing_current_research": [],
+    "needs_catalogue_record": 1,
+    "without_visual_claims": [],
+    "earlier_omissions": [],
+    "omitted": []
+  }
+}

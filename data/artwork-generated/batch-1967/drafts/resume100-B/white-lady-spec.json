@@ -1,0 +1,68 @@
+{
+  "slug": "white-lady",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of White Lady, long-haired white-dressed apparition of Balete Drive.\nANATOMY: One long-haired female ghost in fully opaque long white dress, one head two arms; lower dress and legs fade into transparent absence showing dark road behind; pallid human face, no horns claws or monstrous teeth [c01, c03, c14]\nMOMENT: Glide toward viewer then fade at lower body, one hand reaching out as if requesting help, hair whipping across one cheek, vacant face close and intensely unsettling; feet never touch road.\nPOWER: Mysteriously disappear while appearing close to traveler; dress edge dissolves into absence without glow or particles, not a living pedestrian [c03]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one distant low moon filtered through trees, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: worn opaque white cloth, damp long hair, wet asphalt.\nSETTING: Balete Drive in Quezon City, dark tree-lined road with no road signs writing cars or buildings [c14]\nMOOD: uncanny ominous tragic apparition, grieving rather than evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "long-haired white-dressed apparition of Balete Drive",
+  "basis_claim_ids": [
+    "white-lady-c01",
+    "white-lady-c03",
+    "white-lady-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One long-haired female ghost in fully opaque long white dress, one head two arms; lower dress and legs fade into transparent absence showing dark road behind; pallid human face, no horns claws or monstrous teeth",
+      "claim_ids": [
+        "white-lady-c01",
+        "white-lady-c03",
+        "white-lady-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mysteriously disappear while appearing close to traveler; dress edge dissolves into absence without glow or particles, not a living pedestrian",
+      "claim_ids": [
+        "white-lady-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Balete Drive in Quezon City, dark tree-lined road with no road signs writing cars or buildings",
+      "claim_ids": [
+        "white-lady-c14"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "white-lady-c01",
+      "white-lady-c03",
+      "white-lady-c14"
+    ],
+    "power_domain_deeds": [
+      "white-lady-c03"
+    ],
+    "setting": [
+      "white-lady-c14"
+    ],
+    "disposition": [
+      "white-lady-c02",
+      "white-lady-c03"
+    ]
+  },
+  "aura": "Mysteriously disappear while appearing close to traveler; dress edge dissolves into absence without glow or particles, not a living pedestrian white-lady-c03",
+  "artistic_choices": [
+    "Choose one local variant with c03 general vanishing behavior. No accident, death scene, gore or named film design. Ghost identity shown by transparent lower body."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

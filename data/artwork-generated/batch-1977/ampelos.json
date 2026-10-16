@@ -1,0 +1,98 @@
+{
+  "slug": "ampelos",
+  "batch": 1977,
+  "depicted_variant": "Ampelos, the horned young satyr riding the wild bull in Nonnus",
+  "basis_claim_ids": [
+    "ampelos-c02",
+    "ampelos-c04",
+    "ampelos-c06",
+    "ampelos-c08",
+    "ampelos-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one young adult beardless male satyr with one youthful face, two eyes, two clearly separated short straight horns unobstructed by hair, two arms and two legs; opaque rough ancient Thracian tunic and trousers cover torso/legs; no invented goat legs or extra limbs. He rides exactly one powerful wild bull with one head, two natural horns, four legs and one tail.",
+      "claim_ids": [
+        "ampelos-c02",
+        "ampelos-c04",
+        "ampelos-c06",
+        "ampelos-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical effects; the documented murderous bull gallops violently after being stung, real dirt and broken brush kicked up.",
+      "claim_ids": [
+        "ampelos-c08",
+        "ampelos-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ismarian hills in Thrace at night under the moon.",
+      "claim_ids": [
+        "ampelos-c06",
+        "ampelos-c08"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "ampelos-c02",
+      "ampelos-c04",
+      "ampelos-c06",
+      "ampelos-c08"
+    ],
+    "power_or_deed": [
+      "ampelos-c08",
+      "ampelos-c09"
+    ],
+    "setting": [
+      "ampelos-c06",
+      "ampelos-c08"
+    ],
+    "disposition": [
+      "ampelos-c08",
+      "ampelos-c09"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['ampelos-c02', 'ampelos-c04', 'ampelos-c06', 'ampelos-c08'] and action ['ampelos-c08', 'ampelos-c09']; no generic aura.",
+  "artistic_choices": [
+    "Choose Nonnus wildbull episode before harm, no gore and no transformation invented. Satyr horns expressly c08. Respectful young adult21+ interpretation, fully clothed.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ampelos, the horned young satyr riding the wild bull in Nonnus.\nANATOMY: Exactly one young adult beardless male satyr with one youthful face, two eyes, two clearly separated short straight horns projecting upward from each temple, unobstructed by hair, two arms and two legs; opaque rough ancient Thracian tunic and trousers cover torso/legs; no invented goat legs or extra limbs. He rides exactly one powerful wild bull with one head, two natural horns, four legs and one tail. [ampelos-c02, ampelos-c04, ampelos-c06, ampelos-c08]\nMOMENT: Cling to the galloping bull as it bucks toward viewer over rough ground, Ampelos defiantly SHOUTS his boast toward the moon, mouth open, brows fiercely drawn; his upper body leans toward camera while both hands grip the bull neck. BOTH satyr horns have clear silhouettes against empty sky on either side of his head.\nPOWER: No magical effects; the documented murderous bull gallops violently after being stung, real dirt and broken brush kicked up. [ampelos-c08, ampelos-c09]\nSCALE & CAMERA: Extreme low angle, extremely tight close confrontation: Ampelos face, both horns and shoulders occupy the upper HALF of frame, the charging bull head and lunging forelegs occupy lower half. Ampelos is equally prominent with bull, not a tiny rider. Separate the four bull legs cleanly with no overlap where visible.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Ismarian hills in Thrace at night under the moon. [ampelos-c06, ampelos-c08]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "resume100_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-cce6-73c2-b81b-9035c4f0b9e4/exec-b6bb92df-e737-4884-80f5-584e9ac308e8.png",
+  "generated_at": "2026-10-16T00:51:17.764288+00:00",
+  "original_file": "data/artwork-generated/batch-1977/originals/ampelos.png",
+  "native_sha256": "2bdc6ec42011b38c584e761b3899e7de9ab0f1297e379c9f0a31048d996fb5b9",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1977/rejected/ampelos-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1977/rejected/ampelos-attempt-01.json",
+      "native_sha256": "b15d37f7c4c009441380888f2959417fa803f25db15c8fb6bf9d566c886bf01b",
+      "reason": "Bull dominates while Ampelos reads as a calm boy; only one satyr horn is unambiguously visible, the second merges into hair. At 200px the documented horned satyr and bold boast are insufficiently clear. Regenerate with both horns separated, larger rider and forceful shouting action."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: Ampelos is visibly a two-horned beardless satyr, fully clothed, shouting his bold boast while gripping the charging bull. Two arms and two booted legs distinct; bull has two horns, natural mammalian four-limb structure and one tail. Pair dominates frame in violent gallop, dirt only c08/c09, no magic, giant scale, text or gore. Both satyr horns remain separate at thumbnail. All seven Uji Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "2bdc6ec42011b38c584e761b3899e7de9ab0f1297e379c9f0a31048d996fb5b9",
+    "reviewed_at": "2026-10-16T00:51:17.764288+00:00"
+  }
+}

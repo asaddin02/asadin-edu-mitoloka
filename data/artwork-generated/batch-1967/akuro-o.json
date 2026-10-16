@@ -1,0 +1,72 @@
+{
+  "slug": "akuro-o",
+  "batch": 1967,
+  "depicted_variant": "Akuro-ō, selecting the oni version of the medieval otogizōshi tales",
+  "basis_claim_ids": [
+    "akuro-o-c01",
+    "akuro-o-c03",
+    "akuro-o-c06",
+    "akuro-o-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one fierce oni-shaped male figure with one head, two eyes, two short natural horns, two arms and two legs; fully covered in plain opaque rough warrior robes, no invented elaborate armor, weapons or extra heads.",
+      "claim_ids": [
+        "akuro-o-c01",
+        "akuro-o-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tatsukoku cave in mountainous Mutsu, Japan at night.",
+      "claim_ids": [
+        "akuro-o-c06",
+        "akuro-o-c08"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "akuro-o-c01",
+      "akuro-o-c03"
+    ],
+    "power_or_deed": [],
+    "setting": [
+      "akuro-o-c06",
+      "akuro-o-c08"
+    ],
+    "disposition": []
+  },
+  "aura": "Threat or awe through documented anatomy ['akuro-o-c01', 'akuro-o-c03'] and action []; no generic aura.",
+  "artistic_choices": [
+    "Oni literary version c03 selected, not an historical reconstruction of Aterui; horns are minimal oni iconographic realization. No burning sandbar episode mixed into cave moment.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Akuro-ō, selecting the oni version of the medieval otogizōshi tales.\nANATOMY: Exactly one fierce oni-shaped male figure with one head, two eyes, two short natural horns, two arms and two legs; fully covered in plain opaque rough warrior robes, no invented elaborate armor, weapons or extra heads. [akuro-o-c01, akuro-o-c03]\nMOMENT: Emerge aggressively from a shadowed cave toward viewer, crouch low and reach one hand toward camera while other hand grips the cave rim; snarl without gore.\nPOWER: No documented magical power; imposing oni anatomy and physical advance only. []\nSCALE & CAMERA: Extreme low angle close confrontation, oni fills frame without claiming giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Tatsukoku cave in mountainous Mutsu, Japan at night. [akuro-o-c06, akuro-o-c08]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "resume100_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-060.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-cce6-73c2-b81b-9035c4f0b9e4/exec-82a7c49f-819a-412a-8290-c12a7e0a8ff1.png",
+  "generated_at": "2026-10-16T00:49:00.979237+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/akuro-o.png",
+  "native_sha256": "0efde542281e07a89e6a2e81cb47ba888177549d2fd7850ffb52007510865de4",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one forceful oni emerges from Tatsukoku cave, two horns and two eyes, two arms with reaching hand and gripping hand, clothed two-legged crouch; no invented magic, giant scale or weapons. Close confrontation remains dangerous at thumbnail. No text, gore or borrowed design. All seven Uji Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "0efde542281e07a89e6a2e81cb47ba888177549d2fd7850ffb52007510865de4",
+    "reviewed_at": "2026-10-16T00:49:00.979237+00:00"
+  }
+}

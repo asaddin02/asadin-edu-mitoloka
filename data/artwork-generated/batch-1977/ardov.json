@@ -1,0 +1,88 @@
+{
+  "slug": "ardov",
+  "batch": 1977,
+  "depicted_variant": "Ardov, the tall fair-haired water spirit entering a stream and vanishing",
+  "basis_claim_ids": [
+    "ardov-c01",
+    "ardov-c06",
+    "ardov-c09",
+    "ardov-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one tall beautiful fair-haired adult woman, one head, two natural eyes, two arms and two legs, fully opaque plain long wool dress; ordinary human form, no fins, horns, crown or extra limbs.",
+      "claim_ids": [
+        "ardov-c01",
+        "ardov-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented disappearance when entering stream: show simple loss of opacity, background stream bank visible through fading upper torso above waterline, no glowing aura, ribbons, particles or invented liquid-body anatomy.",
+      "claim_ids": [
+        "ardov-c06",
+        "ardov-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A shadowed Turkic woodland stream at night, water source among rough stones.",
+      "claim_ids": [
+        "ardov-c03",
+        "ardov-c06",
+        "ardov-c09"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "ardov-c01",
+      "ardov-c06"
+    ],
+    "power_or_deed": [
+      "ardov-c06",
+      "ardov-c09"
+    ],
+    "setting": [
+      "ardov-c03",
+      "ardov-c06",
+      "ardov-c09"
+    ],
+    "disposition": [
+      "ardov-c06",
+      "ardov-c09"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['ardov-c01', 'ardov-c06'] and action ['ardov-c06', 'ardov-c09']; no generic aura.",
+  "artistic_choices": [
+    "Harmless beautiful spirit, awe not evil; exact disappearing manifestation c06/c09 prevents ordinary-woman reading. Optical transparency is editorial way to communicate disappearance, not an added power.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ardov, the tall fair-haired water spirit entering a stream and vanishing.\nANATOMY: Exactly one tall beautiful fair-haired adult woman, one head, two natural eyes, two arms and two legs, fully opaque plain long wool dress; ordinary human form, no fins, horns, crown or extra limbs. [ardov-c01, ardov-c06]\nMOMENT: Step into a stream toward the viewer and vanish at that precise instant: one arm and a large portion of her UPPER torso above the waterline become optically transparent, the far rocky stream bank sharply visible THROUGH her vanishing shoulder and clothing, while her solid face and other reaching hand remain readable. Her long PALE BLOND hair streams through the dark air, entirely fair-haired, no black hair. Her expression is urgent and astonished at vanishing, never threatening.\nPOWER: Documented disappearance when entering stream: show simple loss of opacity, background stream bank visible through the fading upper body, no glowing aura, ribbons, particles or invented liquid-body anatomy. [ardov-c06, ardov-c09]\nSCALE & CAMERA: Very low angle at stream level; face, reaching hand and visibly disappearing body dominate, normal tall woman scale, no giant claim.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: A shadowed Turkic woodland stream at night, water source among rough stones. [ardov-c03, ardov-c06, ardov-c09]\nMOOD: awe-inspiring and uncannily overwhelming, a harmless water spirit witnessed at the impossible instant of disappearance; never evil, aggressive, cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "resume100_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-cce6-73c2-b81b-9035c4f0b9e4/exec-b5dc23bc-7ecf-40cd-84ee-adbf74eda931.png",
+  "generated_at": "2026-10-16T00:54:48.899734+00:00",
+  "original_file": "data/artwork-generated/batch-1977/originals/ardov.png",
+  "native_sha256": "0853aa090609780ec0d08b46e7b385aabffbbc5a2aa79e7456d36048ad233056",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: tall fair-haired spirit fills frame; rocky stream bank is unmistakably visible through her disappearing upper torso and arm above waterline. The documented vanishing c06/c09 gives active uncanny awe and prevents an ordinary-woman reading. One head, two eyes, two arms and two legs beneath opaque dress; fading cloth reveals background rather than nudity. Harmless disposition preserved, no invented magic aura, giant scale, text or gore. All seven Uji Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "0853aa090609780ec0d08b46e7b385aabffbbc5a2aa79e7456d36048ad233056",
+    "reviewed_at": "2026-10-16T00:54:48.899734+00:00"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "wd-q15923632",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 红柳娃, tiny bearded hongliuwa wearing tamarisk twig crown.\nANATOMY: One very small adult humanoid a little over one chi tall, ordinary human beard eyebrows and hair, one head two eyes two arms two legs; crown made solely from hongliu tamarisk twigs; fully opaque plain rough tunic covering shoulders to knees [c02, c03, c07]\nMOMENT: Whirl into foreground mid-dance, twig crown tilted and one hand extended toward viewer, beard and small severe eyes sharp. Macro camera at ground level, nearby blossom as large as his hand.\nPOWER: No magic: dance rapidly among hongliu blossoms, dust and petals stirred by steps only [c03]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low warm sun slanting between scrub stems, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: weathered skin, coarse beard, rough opaque cloth, brittle tamarisk twigs.\nSETTING: Hongliu tamarisk scrub on mountains near Urumqi, giant-looking natural twigs reveal small actual scale [c02, c03]\nMOOD: uncanny awe-inspiring miniature person, not a cute child; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "tiny bearded hongliuwa wearing tamarisk twig crown",
+  "basis_claim_ids": [
+    "wd-q15923632-c02",
+    "wd-q15923632-c03",
+    "wd-q15923632-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One very small adult humanoid a little over one chi tall, ordinary human beard eyebrows and hair, one head two eyes two arms two legs; crown made solely from hongliu tamarisk twigs; fully opaque plain rough tunic covering shoulders to knees",
+      "claim_ids": [
+        "wd-q15923632-c02",
+        "wd-q15923632-c03",
+        "wd-q15923632-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magic: dance rapidly among hongliu blossoms, dust and petals stirred by steps only",
+      "claim_ids": [
+        "wd-q15923632-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hongliu tamarisk scrub on mountains near Urumqi, giant-looking natural twigs reveal small actual scale",
+      "claim_ids": [
+        "wd-q15923632-c02",
+        "wd-q15923632-c03"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q15923632-c02",
+      "wd-q15923632-c03",
+      "wd-q15923632-c07"
+    ],
+    "power_domain_deeds": [
+      "wd-q15923632-c03"
+    ],
+    "setting": [
+      "wd-q15923632-c02",
+      "wd-q15923632-c03"
+    ],
+    "disposition": [
+      "wd-q15923632-c01",
+      "wd-q15923632-c07"
+    ]
+  },
+  "aura": "No magic: dance rapidly among hongliu blossoms, dust and petals stirred by steps only wd-q15923632-c03",
+  "artistic_choices": [
+    "Adult facial hair c07 avoids child nudity; plain opaque tunic editorial modesty despite unclothed variant. Macro scale, no invented horns eyes or powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "wd-q109603093",
+  "batch": 1967,
+  "depicted_variant": "Kaidenin, the shell-riding mermaid prophet of Fukushima Lagoon",
+  "basis_claim_ids": [
+    "wd-q109603093-c01",
+    "wd-q109603093-c07",
+    "wd-q109603093-c02",
+    "wd-q109603093-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one woman-headed yokai with two eyes, two human arms, a scaled fishlike torso and lower half concealed within one large spiral snail shell; opaque plain sea-wet wrapping fully covers chest; no visible human legs, no fish tail outside shell.",
+      "claim_ids": [
+        "wd-q109603093-c01",
+        "wd-q109603093-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented luminous appearance of the creature, gentle natural white light confined to wet body surfaces; no halo or magic ribbons. Physical waves carry the shell as a small boat.",
+      "claim_ids": [
+        "wd-q109603093-c02",
+        "wd-q109603093-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Fukushima Lagoon in Echigo at night.",
+      "claim_ids": [
+        "wd-q109603093-c02"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q109603093-c01",
+      "wd-q109603093-c07"
+    ],
+    "power_or_deed": [
+      "wd-q109603093-c02",
+      "wd-q109603093-c08"
+    ],
+    "setting": [
+      "wd-q109603093-c02"
+    ],
+    "disposition": [
+      "wd-q109603093-c02",
+      "wd-q109603093-c08"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q109603093-c01', 'wd-q109603093-c07'] and action ['wd-q109603093-c02', 'wd-q109603093-c08']; no generic aura.",
+  "artistic_choices": [
+    "Majestic protective prophet, never seductive. Chest wrapping editorial modesty; luminosity from c02 not invented aura. Normal shell-riding scale.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kaidenin, the shell-riding mermaid prophet of Fukushima Lagoon.\nANATOMY: Exactly one woman-headed yokai with two eyes, two human arms, a scaled fishlike torso and lower half concealed within one large spiral snail shell; opaque plain sea-wet wrapping fully covers chest; no visible human legs, no fish tail outside shell. [wd-q109603093-c01, wd-q109603093-c07]\nMOMENT: Surge up toward viewer in the spiral shell riding a wave, both arms open in forceful warning, stare down toward camera.\nPOWER: Documented luminous appearance of the creature, gentle natural white light confined to wet body surfaces; no halo or magic ribbons. Physical waves carry the shell as a small boat. [wd-q109603093-c02, wd-q109603093-c08]\nSCALE & CAMERA: Extreme low angle at lagoon waterline, shell and scaled body fill frame, small reeds set ordinary creature scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Fukushima Lagoon in Echigo at night. [wd-q109603093-c02]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-062.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-c1224654-23d6-4937-b138-a494985ad7b1.png",
+  "generated_at": "2026-10-15T17:29:03.806885+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q109603093.png",
+  "native_sha256": "40a95666011c5f07dcf32088f94838dbb5d0795f2d1682e5a46db2658eddfa9e",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "40a95666011c5f07dcf32088f94838dbb5d0795f2d1682e5a46db2658eddfa9e",
+    "reviewed_at": "2026-10-15T17:29:03.806885+00:00"
+  }
+}

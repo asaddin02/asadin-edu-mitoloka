@@ -1,0 +1,93 @@
+{
+  "slug": "wd-q4532797",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Esrel, house-tall white skeletal Esrel with rear-facing eyes and scythe.\nANATOMY: One house-tall white skeletal human-shaped death spirit, one skull, two arms two legs, eyes located visibly on BACK OF HEAD, not face. Show rear three-quarter view: pair of living eyes embedded in rear cranium stare at viewer; bare skeleton torso and arms, opaque plain wrapped cloth covering pelvis, one large scythe held in hand [c01, c08]\nMOMENT: Stride past viewer while rotating skeletal shoulders so the BACK of skull with two eyes dominates upper foreground; scythe blade sweeps diagonally below without touching anyone, tiny house below establishes documented scale.\nPOWER: Advance with scythe lowered toward foreground, no victim, invisible blood or joint-cutting; documented soul-taking implied by approach only [c02, c05, c08]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low moon through deep cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: weathered white bone, tarnished iron scythe, rough opaque cloth.\nSETTING: Outside a small shadowed human house at threshold of this world and afterlife [c05, c08, c10]\nMOOD: reverent awe-inspiring impartial death spirit, not gleefully evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "house-tall white skeletal Esrel with rear-facing eyes and scythe",
+  "basis_claim_ids": [
+    "wd-q4532797-c01",
+    "wd-q4532797-c08",
+    "wd-q4532797-c02",
+    "wd-q4532797-c05",
+    "wd-q4532797-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One house-tall white skeletal human-shaped death spirit, one skull, two arms two legs, eyes located visibly on BACK OF HEAD, not face. Show rear three-quarter view: pair of living eyes embedded in rear cranium stare at viewer; bare skeleton torso and arms, opaque plain wrapped cloth covering pelvis, one large scythe held in hand",
+      "claim_ids": [
+        "wd-q4532797-c01",
+        "wd-q4532797-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Advance with scythe lowered toward foreground, no victim, invisible blood or joint-cutting; documented soul-taking implied by approach only",
+      "claim_ids": [
+        "wd-q4532797-c02",
+        "wd-q4532797-c05",
+        "wd-q4532797-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Outside a small shadowed human house at threshold of this world and afterlife",
+      "claim_ids": [
+        "wd-q4532797-c05",
+        "wd-q4532797-c08",
+        "wd-q4532797-c10"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q4532797-c01",
+      "wd-q4532797-c08"
+    ],
+    "power_domain_deeds": [
+      "wd-q4532797-c02",
+      "wd-q4532797-c05",
+      "wd-q4532797-c08"
+    ],
+    "setting": [
+      "wd-q4532797-c05",
+      "wd-q4532797-c08",
+      "wd-q4532797-c10"
+    ],
+    "disposition": [
+      "wd-q4532797-c09",
+      "wd-q4532797-c11"
+    ]
+  },
+  "aura": "Advance with scythe lowered toward foreground, no victim, invisible blood or joint-cutting; documented soul-taking implied by approach only wd-q4532797-c02,wd-q4532797-c05,wd-q4532797-c08",
+  "artistic_choices": [
+    "Rear viewpoint essential to show unusual documented eyes. No frontal eye pair. Opaque pelvis wrap modest editorial choice; no dying person, blood or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-dec3d141-1c86-456e-8861-951cd1e94fb7.png",
+  "generated_at": "2026-10-15T17:47:23.551886+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q4532797.png",
+  "native_sha256": "466f0f944ad9b14b71ae1bb119699d631ce556fb979ad138334cb439ffede1da",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200 inspected. White house-tall skeleton with scythe c08 strides past viewer, spine and rear cranium with two eyes clearly shown; no mouth/nose on rear. Opaque pelvis wrap, no victim/gore, magic or text. Documented scale versus house. All seven Sangar yes.",
+    "limitations": [],
+    "native_sha256": "466f0f944ad9b14b71ae1bb119699d631ce556fb979ad138334cb439ffede1da",
+    "reviewed_at": "2026-10-15T17:47:23.551886+00:00"
+  }
+}

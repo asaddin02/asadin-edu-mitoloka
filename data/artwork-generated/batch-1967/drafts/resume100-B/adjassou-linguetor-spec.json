@@ -1,0 +1,67 @@
+{
+  "slug": "adjassou-linguetor",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Adjassou-Linguetor, protruding-eyed spring-water loa under mombin tree.\nANATOMY: One female water loa with prominently PROTRUDING EYES, one head two eyes two arms; fully opaque plain dark unadorned everyday dress, no special robe crown weapon or symbols [c01, c04]\nMOMENT: Lean forward from under mombin branches, both hands driving a clear rush of spring water toward foreground, protruding eyes very clear and severe, fully clothed female figure fills frame.\nPOWER: Fresh spring water surges out of rock and pours forward around her hands as she governs spring water; no colored aura or extra elemental powers [c02]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low golden shaft through mombin canopy, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: natural skin, wet dark cotton dress, clear spring water, rough roots and rock.\nSETTING: Under mombin tree beside a freshwater spring [c04]\nMOOD: reverent awe-inspiring stern and bad-tempered water loa, never caricatured or demonic; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "protruding-eyed spring-water loa under mombin tree",
+  "basis_claim_ids": [
+    "adjassou-linguetor-c01",
+    "adjassou-linguetor-c04",
+    "adjassou-linguetor-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One female water loa with prominently PROTRUDING EYES, one head two eyes two arms; fully opaque plain dark unadorned everyday dress, no special robe crown weapon or symbols",
+      "claim_ids": [
+        "adjassou-linguetor-c01",
+        "adjassou-linguetor-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fresh spring water surges out of rock and pours forward around her hands as she governs spring water; no colored aura or extra elemental powers",
+      "claim_ids": [
+        "adjassou-linguetor-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Under mombin tree beside a freshwater spring",
+      "claim_ids": [
+        "adjassou-linguetor-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "adjassou-linguetor-c01",
+      "adjassou-linguetor-c04"
+    ],
+    "power_domain_deeds": [
+      "adjassou-linguetor-c02"
+    ],
+    "setting": [
+      "adjassou-linguetor-c04"
+    ],
+    "disposition": [
+      "adjassou-linguetor-c01",
+      "adjassou-linguetor-c04",
+      "adjassou-linguetor-c06"
+    ]
+  },
+  "aura": "Fresh spring water surges out of rock and pours forward around her hands as she governs spring water; no colored aura or extra elemental powers adjassou-linguetor-c02",
+  "artistic_choices": [
+    "Respect living Vodou tradition; protruding eyes documented, no monstrous mouth or invented ritual objects. Water motion expresses source domain. Plain opaque clothing per no special robe."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

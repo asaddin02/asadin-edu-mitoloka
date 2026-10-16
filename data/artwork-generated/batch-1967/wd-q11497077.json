@@ -1,0 +1,91 @@
+{
+  "slug": "wd-q11497077",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-063.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 手洗鬼, mountain-straddling Tearai giant washing hands.\nANATOMY: One immense humanlike giant, one head two eyes two arms two legs, fully opaque plain rough tunic and trousers, no horns tusks or weapons [c01, c02, c07]\nMOMENT: Bend down toward viewer while straddling two mountains, both enormous hands plunge into foreground bay, water cascades between raised fingers; stern giant face fills upper center.\nPOWER: Wash huge hands in sea, hands physically push bay water into great waves that spill between fingers [c02, c06]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: single low amber sunset below cloud bank, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: rough weathered skin, soaked coarse opaque cloth, jagged stone, white sea foam.\nSETTING: Straddle mountains between Takamatsu and Marugame above the bay, tiny trees on mountain ridges establish immense scale [c03, c06]\nMOOD: awe-inspiring mountain-straddling giant; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "mountain-straddling Tearai giant washing hands",
+  "basis_claim_ids": [
+    "wd-q11497077-c01",
+    "wd-q11497077-c02",
+    "wd-q11497077-c07",
+    "wd-q11497077-c06",
+    "wd-q11497077-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One immense humanlike giant, one head two eyes two arms two legs, fully opaque plain rough tunic and trousers, no horns tusks or weapons",
+      "claim_ids": [
+        "wd-q11497077-c01",
+        "wd-q11497077-c02",
+        "wd-q11497077-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wash huge hands in sea, hands physically push bay water into great waves that spill between fingers",
+      "claim_ids": [
+        "wd-q11497077-c02",
+        "wd-q11497077-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Straddle mountains between Takamatsu and Marugame above the bay, tiny trees on mountain ridges establish immense scale",
+      "claim_ids": [
+        "wd-q11497077-c03",
+        "wd-q11497077-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q11497077-c01",
+      "wd-q11497077-c02",
+      "wd-q11497077-c07"
+    ],
+    "power_domain_deeds": [
+      "wd-q11497077-c02",
+      "wd-q11497077-c06"
+    ],
+    "setting": [
+      "wd-q11497077-c03",
+      "wd-q11497077-c06"
+    ],
+    "disposition": [
+      "wd-q11497077-c01",
+      "wd-q11497077-c05"
+    ]
+  },
+  "aura": "Wash huge hands in sea, hands physically push bay water into great waves that spill between fingers wd-q11497077-c02,wd-q11497077-c06",
+  "artistic_choices": [
+    "Documented giant scale only. No oni horns because c07 explicitly distinguishes from oni. Clothing editorial modesty, natural waves from hands."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-d4dbbad8-f841-4591-b112-f26b813719bd.png",
+  "generated_at": "2026-10-15T17:33:59.240829+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q11497077.png",
+  "native_sha256": "ea41a8c3f8dd118d03c50f3f3956393d7387b95cec9ea1feec3bcf5a65e7b9bb",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200 inspected: giant straddles mountains and plunges hands into bay c02/c06. Two arms two legs, fully clothed, no oni horns c07. Physical sea foam streams off hands, tiny mountain trees give scale. No text or aura. All seven Sangar yes.",
+    "limitations": [],
+    "native_sha256": "ea41a8c3f8dd118d03c50f3f3956393d7387b95cec9ea1feec3bcf5a65e7b9bb",
+    "reviewed_at": "2026-10-15T17:33:59.240829+00:00"
+  }
+}

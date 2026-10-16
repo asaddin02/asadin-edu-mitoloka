@@ -1,0 +1,81 @@
+{
+  "slug": "ao",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1977,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ao, gigantic marine turtle bearing exactly three islands on its back in Bohai Sea.\nANATOMY: One GIGANTIC marine turtle, one turtle head two eyes one beaked mouth, exactly FOUR sea-turtle flippers and one short turtle tail. Normal sea-turtle anatomy, no dragon horns whiskers fangs or human limbs. On broad upper shell are exactly THREE distinct rocky forested island peaks, countable and separated by deep valleys [ao-c01, ao-c04, ao-c06]\nMOMENT: Surge toward viewer from beneath sea surface, enormous turtle head fills lower center and eyes command viewer, front flippers sweep outward and rear flippers visible farther back. High shell arches behind with exactly three separate small islands on it, subject turtle takes at least 75 percent of image\nPOWER: Carry three rocky islands on its back while driving four flippers through dark sea, head and front flippers forcing a bow wave toward viewer; water physically crashes over immense shell edges, no other magic [ao-c04]\nSCALE & CAMERA: extreme low angle, close foreshortened framing; documented gigantic size, subject fills the square.\nLIGHT & WEATHER: one low amber sun through deep sea cloud, sharp rim light, deep shadows, dark walnut and antique gold with one strong accent.\nSURFACE: ancient dark wet turtle scutes, leathery sea-turtle skin, seawater foam, rough island rock and tiny trees.\nSETTING: Bohai Sea, tiny ocean boat near massive turtle jaw gives documented gigantic scale, three distinct islands visibly rooted on shell [ao-c04]\nMOOD: benevolent and awe-inspiring, imposing supernatural presence, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, glyphs, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, eyes or limbs; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "gigantic marine turtle bearing exactly three islands on its back in Bohai Sea",
+  "basis_claim_ids": [
+    "ao-c01",
+    "ao-c04",
+    "ao-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One GIGANTIC marine turtle, one turtle head two eyes one beaked mouth, exactly FOUR sea-turtle flippers and one short turtle tail. Normal sea-turtle anatomy, no dragon horns whiskers fangs or human limbs. On broad upper shell are exactly THREE distinct rocky forested island peaks, countable and separated by deep valleys",
+      "claim_ids": [
+        "ao-c01",
+        "ao-c04",
+        "ao-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Carry three rocky islands on its back while driving four flippers through dark sea, head and front flippers forcing a bow wave toward viewer; water physically crashes over immense shell edges, no other magic",
+      "claim_ids": [
+        "ao-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Bohai Sea, tiny ocean boat near massive turtle jaw gives documented gigantic scale, three distinct islands visibly rooted on shell",
+      "claim_ids": [
+        "ao-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "ao-c01",
+      "ao-c04",
+      "ao-c06"
+    ],
+    "power_domain_deeds": [
+      "ao-c04"
+    ],
+    "setting": [
+      "ao-c04"
+    ],
+    "disposition": [
+      "ao-c01"
+    ]
+  },
+  "aura": "Carry three rocky islands on its back while driving four flippers through dark sea, head and front flippers forcing a bow wave toward viewer; water physically crashes over immense shell edges, no other magic ao-c04",
+  "artistic_choices": [
+    "Choose Bohai three-island account c04 exclusively; no severed legs or Nüwa scene. Giant scale supported c06. No dragon-turtle Bixi anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-3800-7d92-a14a-b1780fc34a58/exec-b5be7404-aa01-40f0-8455-6784ee070da7.png",
+  "generated_at": "2026-10-16T00:55:25.516614+00:00",
+  "original_file": "data/artwork-generated/batch-1977/originals/ao.png",
+  "native_sha256": "30d2189bc93ac6d0bc010a4e85841ef1458af71c66fc5c48bfb1507bc3ab31e4",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. Gigantic marine turtle c01/c06 surges toward viewer, four flippers visible, one head with two eyes, no dragon features. Exactly three separated forested rocky peaks on shell c04; tiny boat comparator emphasizes documented giant size. Physical bow-wave only, no magic or text. Turtle dominates and reads awe-inspiring at200; all seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "30d2189bc93ac6d0bc010a4e85841ef1458af71c66fc5c48bfb1507bc3ab31e4",
+    "reviewed_at": "2026-10-16T00:55:25.516614+00:00"
+  }
+}

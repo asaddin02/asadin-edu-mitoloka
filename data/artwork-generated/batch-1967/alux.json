@@ -1,0 +1,92 @@
+{
+  "slug": "alux",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Alux, physical miniature Maya field guardian throwing stones.\nANATOMY: One knee-high miniature Maya person, one head two eyes two arms two legs, fully opaque plain woven traditional tunic and wrap without letters or glyphs; no pointed ears horns or invented weapons [c01, c02]\nMOMENT: Whip one arm forward throwing a stone toward viewer, mouth hissing, other arm spread for balance, maize stalks tall above him establish knee-high scale. Face severe, no cute child proportions.\nPOWER: Hiss and THROW a stone at a crop thief, one stone just released toward viewer; rain falls over the maize from documented rain-summoning role, no energy trails [c06, c13]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low moon through raincloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: weathered humanlike skin, coarse opaque cotton, wet maize leaves and rough limestone.\nSETTING: Yucatan maize field at night beside low stone fence and very small plain shelter [c04, c05, c06, c13]\nMOOD: awe-inspiring fierce protective field spirit, not evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "physical miniature Maya field guardian throwing stones",
+  "basis_claim_ids": [
+    "alux-c01",
+    "alux-c02",
+    "alux-c06",
+    "alux-c13",
+    "alux-c04",
+    "alux-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One knee-high miniature Maya person, one head two eyes two arms two legs, fully opaque plain woven traditional tunic and wrap without letters or glyphs; no pointed ears horns or invented weapons",
+      "claim_ids": [
+        "alux-c01",
+        "alux-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Hiss and THROW a stone at a crop thief, one stone just released toward viewer; rain falls over the maize from documented rain-summoning role, no energy trails",
+      "claim_ids": [
+        "alux-c06",
+        "alux-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yucatan maize field at night beside low stone fence and very small plain shelter",
+      "claim_ids": [
+        "alux-c04",
+        "alux-c05",
+        "alux-c06",
+        "alux-c13"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "alux-c01",
+      "alux-c02"
+    ],
+    "power_domain_deeds": [
+      "alux-c06",
+      "alux-c13"
+    ],
+    "setting": [
+      "alux-c04",
+      "alux-c05",
+      "alux-c06",
+      "alux-c13"
+    ],
+    "disposition": [
+      "alux-c06",
+      "alux-c07",
+      "alux-c09"
+    ]
+  },
+  "aura": "Hiss and THROW a stone at a crop thief, one stone just released toward viewer; rain falls over the maize from documented rain-summoning role, no energy trails alux-c06,alux-c13",
+  "artistic_choices": [
+    "Use miniature-person variant c02, not mix clay-doll manufacture and clay dog. Fully opaque plain traditional garment editorial detailing, no sacred glyphs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-3800-7d92-a14a-b1780fc34a58/exec-9b7f7cfb-1894-4eb1-93d3-a8124eea9748.png",
+  "generated_at": "2026-10-16T00:52:17.572763+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/alux.png",
+  "native_sha256": "52737dbfe671762cf6b9041b5680f871a8cc7badfd2f70df6c9582e47bafc381",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. Knee-high miniature human guardian in opaque woven dress c02, two arms two legs, hissing face and thrown stone c13. Towering maize and small shelter keep miniature scale, rain c06. No horns pointed ears new anatomy or magic. Fierce protective action at200, no text; all seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "52737dbfe671762cf6b9041b5680f871a8cc7badfd2f70df6c9582e47bafc381",
+    "reviewed_at": "2026-10-16T00:52:17.572763+00:00"
+  }
+}

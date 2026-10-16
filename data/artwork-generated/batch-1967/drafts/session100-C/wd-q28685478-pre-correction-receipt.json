@@ -1,0 +1,72 @@
+{
+  "slug": "wd-q28685478",
+  "batch": 1967,
+  "depicted_variant": "Hajikaki, the strange white blobby fang-bearing yokai",
+  "basis_claim_ids": [
+    "wd-q28685478-c02",
+    "wd-q28685478-c04",
+    "wd-q28685478-c01",
+    "wd-q28685478-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one plump white hairless blobby humanoid, one head, two large round eyes, two protruding fangs, two arms raised over its head and two legs; opaque plain dark wrap covers lower torso, nonsexual.",
+      "claim_ids": [
+        "wd-q28685478-c02",
+        "wd-q28685478-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Indistinct dark empty ground, no invented named habitat or architecture.",
+      "claim_ids": [
+        "wd-q28685478-c01",
+        "wd-q28685478-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q28685478-c02",
+      "wd-q28685478-c04"
+    ],
+    "power_or_deed": [],
+    "setting": [
+      "wd-q28685478-c01",
+      "wd-q28685478-c05"
+    ],
+    "disposition": []
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q28685478-c02', 'wd-q28685478-c04'] and action []; no generic aura.",
+  "artistic_choices": [
+    "Preserve embarrassed pathetic behavior, do not invent malicious attacks; uncanny closeness and fangs supply Sangar. Neutral ground editorial.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Hajikaki, the strange white blobby fang-bearing yokai.\nANATOMY: Exactly one plump white hairless blobby humanoid, one head, two large round eyes, two protruding fangs, two arms raised over its head and two legs; opaque plain dark wrap covers lower torso, nonsexual. [wd-q28685478-c02, wd-q28685478-c04]\nMOMENT: Recoil toward viewer while throwing both hands over the head, partially hide cheeks but keep both round eyes and two fangs clearly visible; contorted awkward movement.\nPOWER: No documented power; strange anatomy, physical recoil and low light only. []\nSCALE & CAMERA: Extreme low angle close-up, whole raised-arm silhouette fills frame, no giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Indistinct dark empty ground, no invented named habitat or architecture. [wd-q28685478-c01, wd-q28685478-c05]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-065.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-07436a34-76fc-42c2-a72e-20aa4dc3421c.png",
+  "generated_at": "2026-10-15T17:43:41.575381+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q28685478.png",
+  "native_sha256": "70459010cfc0ff8ca0801043a00c35740bbc746b054ce5983bf5a44962de735c",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "70459010cfc0ff8ca0801043a00c35740bbc746b054ce5983bf5a44962de735c",
+    "reviewed_at": "2026-10-15T17:43:41.575381+00:00"
+  }
+}

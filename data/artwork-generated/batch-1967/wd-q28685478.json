@@ -1,0 +1,80 @@
+{
+  "slug": "wd-q28685478",
+  "batch": 1967,
+  "depicted_variant": "Hajikaki, the strange white blobby fang-bearing yokai",
+  "basis_claim_ids": [
+    "wd-q28685478-c02",
+    "wd-q28685478-c04",
+    "wd-q28685478-c01",
+    "wd-q28685478-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one plump white hairless blobby humanoid, one head, two large round eyes with small natural pupils and broad pale sclera, two protruding fangs, two arms raised over its head and two legs; opaque plain dark wrap covers lower torso, nonsexual.",
+      "claim_ids": [
+        "wd-q28685478-c02",
+        "wd-q28685478-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Indistinct dark empty ground, no invented named habitat or architecture.",
+      "claim_ids": [
+        "wd-q28685478-c01",
+        "wd-q28685478-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q28685478-c02",
+      "wd-q28685478-c04"
+    ],
+    "power_or_deed": [],
+    "setting": [
+      "wd-q28685478-c01",
+      "wd-q28685478-c05"
+    ],
+    "disposition": []
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q28685478-c02', 'wd-q28685478-c04'] and action []; no generic aura.",
+  "artistic_choices": [
+    "Preserve embarrassed pathetic behavior, do not invent malicious attacks; uncanny closeness and fangs supply Sangar. Neutral ground editorial.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging.",
+    "Correction preserves harmless embarrassed source disposition; uncanny small pupils within round eyes, waxy skin and raking light replace prior cute puppy expression. No power or size added."
+  ],
+  "prompt": "EDIT the supplied Hajikaki illustration while preserving the composition and documented anatomy exactly: one plump white HAIRLESS blobby humanoid, one head, two large ROUND eyes, TWO long protruding fangs, TWO raised arms hiding its face in embarrassed shame, TWO legs, plain opaque dark waist wrap. Preserve harmless pathetic disposition and awkward recoil, never turn it into an attacker. [wd-q28685478-c02, wd-q28685478-c04]\nTARGETED CHANGES: Replace the enormous glossy black puppy pupils with SMALL natural black pupils surrounded by broad pale grey irises and off-white sclera, keeping eyes round. Remove cartoon facial softness: model realistic uneven waxy white skin, pores, folds, weathering, subtle creases, no fur. The TWO fangs remain clearly protruding, separated and readable. Mouth stays downturned and embarrassed, NEVER smiling or snarling aggressively.\nLIGHT: Low sinister raking moonlight from one side with deep walnut shadows and an austere uncanny silhouette; much harsher facial shadow, no bright even facial illumination or pretty catchlights.\nKeep both raised arms framing and partly covering the head, keep physical recoil as the moment. Keep close low camera and ordinary scale, indistinct empty ground. No powers are documented; no visible magic or power effects. [wd-q28685478-c01, wd-q28685478-c05]\nMOOD: an unsettling uncanny yokai intruding into close view while ashamed and pathetic, visually overwhelming through alien eyes, waxen skin, fangs and shadows; absolutely no cute mascot, toy, plush, cartoon baby, puppy expression or smile.\nHARD CONSTRAINTS: Preserve exact head/eye/arm/leg/fang counts, no new anatomy, no extra fingers; no giant scale, violence, aggression, powers, glow aura, neon or ribbons; no text, pseudotext, lettering, logo, watermark, border, nudity or gore; original painterly cinematic rendering, no borrowed media design.",
+  "worker": "codex",
+  "worker_agent": "resume100_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-065.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a140c8-cce6-73c2-b81b-9035c4f0b9e4/exec-878f6b30-5fd1-4545-8387-42d710e010fc.png",
+  "generated_at": "2026-10-16T00:57:35.739658+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q28685478.png",
+  "native_sha256": "88b384003a6d38f36ddd1779db734802eb08044dfb01ad7c7bbf0ed32ff85553",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1967/rejected/wd-q28685478-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1967/rejected/wd-q28685478-attempt-01.json",
+      "native_sha256": "70459010cfc0ff8ca0801043a00c35740bbc746b054ce5983bf5a44962de735c",
+      "reason": "Root native and 200px review: too cute, large black puppy pupils and frightened cartoonish look. Needs uncanny small natural pupils, realistic waxy weathered skin, clearly protruding fangs, low sinister light; preserve white plump hairless body, two raised arms hiding face, embarrassed harmless pathetic disposition; no aggression, giant scale or powers."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Corrected attempt02 inspected native and 200px. Large puppy pupils replaced by small natural pupils in broad pale round eyes; waxy uneven hairless skin and deep shadows now read uncanny rather than mascot. White plump blobby body, one head, two eyes, two protruding fangs, two arms raised to hide face, two legs and opaque waist wrap preserved. Embarrassed pathetic recoil and harmless disposition retained, no invented aggression, powers or size. Close uncanny form dominates; no text or gore. All seven Uji Sangar answers yes.",
+    "limitations": [],
+    "native_sha256": "88b384003a6d38f36ddd1779db734802eb08044dfb01ad7c7bbf0ed32ff85553",
+    "reviewed_at": "2026-10-16T00:57:35.739658+00:00"
+  }
+}

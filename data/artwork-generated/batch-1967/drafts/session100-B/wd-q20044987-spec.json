@@ -1,0 +1,63 @@
+{
+  "slug": "wd-q20044987",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-065.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 白うかり, elongated white ghost with very long tail and large distant-staring eyes.\nANATOMY: One white ghostlike spirit with an elongated body tapering into a VERY LONG single tail, a long narrow wrinkled head with exactly two huge unblinking lidless eyes, pale irises with tiny off-center pupils, no eye shine or baby proportions; expression completely blank and alien, not sad or friendly; these are large vacant eyes staring into distance, no legs or wings or invented horns [c02, c05]\nMOMENT: Sweep past just above viewer, head and large staring eyes close in foreground, elongated white body and very long tapering tail arc behind into deep darkness. Keep eyes vacant and distant rather than angry.\nPOWER: No documented power or behavior; uncanny force through suspended white body sweeping close across viewer in a single curved motion, no aura or beams []\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: single low amber side light, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: pale wrinkled ghostly surface with dry parchment-like leathery texture, not fabric, deep natural shadows.\nSETTING: Featureless dark space, source gives no specific habitat [c04]\nMOOD: awe-inspiring uncanny ghost with absent-minded vacant gaze, not hostile evil or cute; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no cute sheet ghost, no big glossy cartoon eyes, no sad expression; no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "elongated white ghost with very long tail and large distant-staring eyes",
+  "basis_claim_ids": [
+    "wd-q20044987-c02",
+    "wd-q20044987-c05",
+    "wd-q20044987-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One white ghostlike spirit with an elongated body tapering into a VERY LONG single tail, one head with exactly two large vacant eyes staring into distance, no legs or wings or invented horns",
+      "claim_ids": [
+        "wd-q20044987-c02",
+        "wd-q20044987-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Featureless dark space, source gives no specific habitat",
+      "claim_ids": [
+        "wd-q20044987-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q20044987-c02",
+      "wd-q20044987-c05"
+    ],
+    "power_domain_deeds": [],
+    "setting": [
+      "wd-q20044987-c04"
+    ],
+    "disposition": [
+      "wd-q20044987-c05"
+    ]
+  },
+  "aura": "No documented power or behavior; uncanny force through suspended white body sweeping close across viewer in a single curved motion, no aura or beams ",
+  "artistic_choices": [
+    "No invented magic or habitat. Curved suspended composition editorial, behavior unknown. No added grabbing hands or skeletal limbs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1967/rejected/wd-q20044987-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1967/rejected/wd-q20044987-attempt-01.json",
+      "native_sha256": "d310d005d42bbe722949630eb604c3e982414668726527119833a4078c226fed",
+      "reason": "Large glossy sad-looking eyes and rounded cloth head read as a cute sheet ghost at200px. Need uncanny vacant stare and elongated narrow face without sentimental expression."
+    }
+  ]
+}

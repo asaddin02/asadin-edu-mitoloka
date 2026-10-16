@@ -1,0 +1,65 @@
+{
+  "slug": "wd-q11587955",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-064.review.json",
+  "batch": 1967,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 磯天狗, documented rotating white-smoke manifestation of Isotengu.\nANATOMY: No invented humanoid anatomy: Isotengu manifests as one massive rotating column of WHITE SMOKE, dense corkscrewing form fills frame from shore to overhead; no face eyes or limbs [c04]\nMOMENT: Twist violently toward viewer over shore rocks, thick white smoke sweeps the whole foreground and hurls a tiny fisher over water. The rotating smoke itself is the creature, not background weather.\nPOWER: Rotating white smoke flings a single tiny fully clothed fisher silhouette off rocky shore toward sea, airborne body and spray show physical force, no blood or injury [c04]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low moon behind coastal cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: turbulent opaque white smoke, wet black rock, sea spray.\nSETTING: Rocky Japanese shoreline, dark sea below [c01, c06]\nMOOD: menacing violent sea manifestation; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "documented rotating white-smoke manifestation of Isotengu",
+  "basis_claim_ids": [
+    "wd-q11587955-c04",
+    "wd-q11587955-c01",
+    "wd-q11587955-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "No invented humanoid anatomy: Isotengu manifests as one massive rotating column of WHITE SMOKE, dense corkscrewing form fills frame from shore to overhead; no face eyes or limbs",
+      "claim_ids": [
+        "wd-q11587955-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rotating white smoke flings a single tiny fully clothed fisher silhouette off rocky shore toward sea, airborne body and spray show physical force, no blood or injury",
+      "claim_ids": [
+        "wd-q11587955-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky Japanese shoreline, dark sea below",
+      "claim_ids": [
+        "wd-q11587955-c01",
+        "wd-q11587955-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q11587955-c04"
+    ],
+    "power_domain_deeds": [
+      "wd-q11587955-c04"
+    ],
+    "setting": [
+      "wd-q11587955-c01",
+      "wd-q11587955-c06"
+    ],
+    "disposition": [
+      "wd-q11587955-c04"
+    ]
+  },
+  "aura": "Rotating white smoke flings a single tiny fully clothed fisher silhouette off rocky shore toward sea, airborne body and spray show physical force, no blood or injury wd-q11587955-c04",
+  "artistic_choices": [
+    "Choose white smoke account only, no kappa or fireball blended in. Active documented manifestation under rule6.5; fisher small non-gory scale/action reference."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

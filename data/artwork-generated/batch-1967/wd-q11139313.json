@@ -1,0 +1,79 @@
+{
+  "slug": "wd-q11139313",
+  "batch": 1967,
+  "depicted_variant": "Kutsutsura, selecting the round hairy animal form with bootlike snout",
+  "basis_claim_ids": [
+    "wd-q11139313-c01",
+    "wd-q11139313-c06",
+    "wd-q11139313-c02",
+    "wd-q11139313-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one round shaggy hairy quadrupedal beast with one head, two eyes, four short legs and a massive snout shaped unmistakably like an old leather boot toe; organic bootlike snout merges into fur, not a separate shoe hat. No horns, wings or extra mouths.",
+      "claim_ids": [
+        "wd-q11139313-c01",
+        "wd-q11139313-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dim melon field, rough soil and leaves.",
+      "claim_ids": [
+        "wd-q11139313-c02",
+        "wd-q11139313-c03"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q11139313-c01",
+      "wd-q11139313-c06"
+    ],
+    "power_or_deed": [],
+    "setting": [
+      "wd-q11139313-c02",
+      "wd-q11139313-c03"
+    ],
+    "disposition": []
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q11139313-c01', 'wd-q11139313-c06'] and action []; no generic aura.",
+  "artistic_choices": [
+    "Animal form c06 selected, noble with shoe hat excluded. Basic four-foot stance editorial realization of hairy beast, no invented magic.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kutsutsura, selecting the round hairy animal form with bootlike snout.\nANATOMY: Exactly one round shaggy hairy quadrupedal beast with one head, two small narrowed deep-set eyes, four short legs and a massive snout shaped unmistakably like an old leather boot toe; organic bootlike snout merges into fur, not a separate shoe hat. No horns, wings or extra mouths. [wd-q11139313-c01, wd-q11139313-c06]\nMOMENT: Scramble toward viewer from between melon vines, thrust the long boot-shaped snout into foreground and thrust its boot-snout directly toward camera with lips pulled into a sour aggressive snarl. Keep mouth corners DOWN, no grin.\nPOWER: No documented magical power; physical scrambling and strange anatomy only. []\nSCALE & CAMERA: Extreme ground-level close-up; uncanny boot snout and small scowling eyes dominate frame, no giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: A dim melon field, rough soil and leaves. [wd-q11139313-c02, wd-q11139313-c03]\nMOOD: unmistakably frightening, grim, threatening, monstrous; NO smile, NO huge cute eyes, NO toy or plush appearance, menacing, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-ccc4db0d-eaf2-4263-a55c-3c4e725f40b4.png",
+  "generated_at": "2026-10-15T17:31:44.296939+00:00",
+  "original_file": "data/artwork-generated/batch-1967/originals/wd-q11139313.png",
+  "native_sha256": "e3181c0934237ac1fb607050f8e629f085b0ec7a89c7aa3463cda54a4baf56b0",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1967/rejected/wd-q11139313-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1967/rejected/wd-q11139313-attempt-01.json",
+      "native_sha256": "f2cc2aaec8f95bff29e881ca456940d46e7f1e165c64abfcea254dca3bb41e88",
+      "reason": "Self reject Sangar: round eyes and toothy smile read too cute/plush at200px. Need threatening low-eyed confrontation preserving bootlike snout and round hairy body."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "e3181c0934237ac1fb607050f8e629f085b0ec7a89c7aa3463cda54a4baf56b0",
+    "reviewed_at": "2026-10-15T17:31:44.296939+00:00"
+  }
+}

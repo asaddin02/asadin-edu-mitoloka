@@ -1,0 +1,72 @@
+{
+  "slug": "apalpador",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "batch": 1977,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Apalpador, ragged giant charcoal-burner bringing chestnuts from Galician mountains.\nANATOMY: One GIANT adult male charcoal-burner in fully opaque ragged plain brown wool shirt, long trousers and worn boots, one head two eyes two arms two legs, soot-dark hands and weathered human face; no horns weapon crown or Santa costume [apalpador-c02, apalpador-c05, apalpador-c10]\nMOMENT: Bend an enormous shoulder through low doorway while extending one huge palm full of chestnuts down toward viewer; other hand braces doorway carefully without breaking it, solemn kind face looms close. Huge figure fills square from bent head to boot, empty bed stays tiny\nPOWER: Offer a generous handful of real chestnuts toward foreground as he enters a house on winter festival night; he brings food and good wishes, no magical effect or destruction [apalpador-c02, apalpador-c06]\nSCALE & CAMERA: extreme low angle, close foreshortened framing; documented gigantic size, subject fills the square.\nLIGHT & WEATHER: one low hearth fire inside house, sharp rim light, deep shadows, dark walnut and antique gold with one strong accent.\nSURFACE: coarse tattered opaque wool, soot, cracked boots, real brown chestnut shells and rough timber.\nSETTING: Rural house in eastern Galician mountains at night; low human-size wooden doorway behind his bent shoulders and tiny empty child-size bed in foreground establish giant size, distant mountain slopes seen through doorway [apalpador-c02, apalpador-c05]\nMOOD: benevolent and awe-inspiring, imposing supernatural presence, never evil, cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, glyphs, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, eyes or limbs; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, floating runes or energy ribbons.",
+  "depicted_variant": "ragged giant charcoal-burner bringing chestnuts from Galician mountains",
+  "basis_claim_ids": [
+    "apalpador-c02",
+    "apalpador-c05",
+    "apalpador-c10",
+    "apalpador-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One GIANT adult male charcoal-burner in fully opaque ragged plain brown wool shirt, long trousers and worn boots, one head two eyes two arms two legs, soot-dark hands and weathered human face; no horns weapon crown or Santa costume",
+      "claim_ids": [
+        "apalpador-c02",
+        "apalpador-c05",
+        "apalpador-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Offer a generous handful of real chestnuts toward foreground as he enters a house on winter festival night; he brings food and good wishes, no magical effect or destruction",
+      "claim_ids": [
+        "apalpador-c02",
+        "apalpador-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rural house in eastern Galician mountains at night; low human-size wooden doorway behind his bent shoulders and tiny empty child-size bed in foreground establish giant size, distant mountain slopes seen through doorway",
+      "claim_ids": [
+        "apalpador-c02",
+        "apalpador-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "apalpador-c02",
+      "apalpador-c05",
+      "apalpador-c10"
+    ],
+    "power_domain_deeds": [
+      "apalpador-c02",
+      "apalpador-c06"
+    ],
+    "setting": [
+      "apalpador-c02",
+      "apalpador-c05"
+    ],
+    "disposition": [
+      "apalpador-c06"
+    ]
+  },
+  "aura": "Offer a generous handful of real chestnuts toward foreground as he enters a house on winter festival night; he brings food and good wishes, no magical effect or destruction apalpador-c02,apalpador-c06",
+  "artistic_choices": [
+    "Documented giant c05/c10 gives scale. Soot occupational editorial detail, no invented magic. No children depicted; food offering keeps benevolence. No red Santa outfit or modern gifts."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}
