@@ -12,7 +12,7 @@
     "bukan-makhluk": 135
   },
   "status": "in-progress",
-  "complete": 39,
+  "complete": 40,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -18095,7 +18095,7 @@
       "slug": "nandi-bear",
       "canonical_name": "Nandi bear",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-140.review.json",
       "research": {
@@ -18704,9 +18704,69 @@
         "nandi-bear-c06",
         "nandi-bear-c21"
       ],
-      "original_file": "data/artwork-generated/batch-1767/originals/nandi-bear.png",
-      "native_sha256": "9ae12af5e8d7d386cb13247514005614377ff3b245bbea2edc3cbff15fdc65de",
-      "receipt_path": "data/artwork-generated/batch-1767/nandi-bear.json"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1767/originals/nandi-bear.png",
+      "native_sha256": "5a6c2715653fa23f025ea54dcbeeb1c613845b4b20a986f1cba4c11dd4264c71",
+      "receipt_path": "data/artwork-generated/batch-1767/nandi-bear.json",
+      "url": "/assets/art/nandi-bear-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nandi bear, the fierce nocturnal East African cryptid, caught ambushing the dummy man at a hut doorway.\nANATOMY: ONE powerful unfamiliar mammalian carnivore with one head, two eyes, four limbs. Its defining silhouette is EXTRAORDINARILY HIGH FRONT SHOULDERS forming a massive angular rise above the head, then a back descending in a very steep slope to MUCH LOWER small hindquarters. Render this high-shoulder/sloping-back profile unmistakably, with the whole torso in three-quarter SIDE VIEW. Dense shaggy reddish rust-red hair. VERY LONG FEET, elongated narrow furry feet with long soles rather than round bear paws; the two hind feet must both be fully visible planted on the ground. A fierce broad-jawed carnivore head with small indistinct ears: original unspecific mammal interpretation, do not copy a grizzly bear or any hyena. [nandi-bear-c05,nandi-bear-c06]\nMOMENT: Rear onto its two bent hind legs and lean sharply forward to snatch a small faceless cloth dummy standing in a hut doorway; the two long forefeet reach toward the dummy while its snarling head turns three-quarter toward the viewer. Its low hips, huge raised front shoulders and downward-sloping back remain exposed across the frame. The action is an ambush, with no injured human. [nandi-bear-c12,nandi-bear-c14]\nPOWER: No documented supernatural power; danger comes from its fierce physical attack, visible teeth, looming shoulders, and dust disturbed by its planted elongated hind feet. [nandi-bear-c12,nandi-bear-c14]\nSCALE & CAMERA: low ground-level camera from outside the hut, wide enough to show the entire shoulder-to-hip silhouette and all four limbs without cropping the long hind feet. Creature fills eighty percent of the square; hut doorway and dummy small at the edge as scale context. Fairly large animal, not a giant monster.\nLIGHT & WEATHER: night, one strong raking amber moonlight source exposing the reddish shoulder ridge, entire back profile, and elongated feet; deep walnut shadows, dusty ground.\nSURFACE: coarse tangled red hair with darker roots, long sparse hair around the feet, rough dry earthen hut walls, straw and dry savanna grass.\nSETTING: hut doorway on the savannas of Kenya and Tanzania at night; doorway dummy recall the recorded lure account. [nandi-bear-c14,nandi-bear-c18,nandi-bear-c12]\nMOOD: menacing, actively attacking, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: the extraordinary high forequarters and steeply sloped back and very long feet must remain obvious at thumbnail size. No ordinary bear, grizzly, hyena, wolf, gorilla, or werewolf. No humanoid hands. No added horns, wings, spikes or armor. No glowing eyes or magical effects. No scalping, brains, injury, blood or explicit gore. No text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design borrowed from any film, game, anime or comic; no nudity; no generic glow aura, neon outline or energy ribbons. Native square resolution at least 1024x1024.",
+      "depicted_variant": "Unfamiliar reddish high-shouldered carnivore rearing at a hut-doorway dummy, steep sloping back and very long hind feet exposed in side view.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One powerfully built carnivore with extraordinarily high front shoulders, a clearly sloping back descending steeply to much lower hips, reddish shaggy hair and conspicuously long feet. Shoulder silhouette remains unobscured in a three-quarter side view.",
+          "claim_ids": [
+            "nandi-bear-c05",
+            "nandi-bear-c06"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "One head, two eyes, four limbs, rearing onto the two hind legs; fierce unspecific carnivore head rather than copying a bear or hyena.",
+          "claim_ids": [
+            "nandi-bear-c05",
+            "nandi-bear-c12"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Nocturnal physical attack toward the hut-doorway dummy; no supernatural effects, victim injury, scalping or brain imagery.",
+          "claim_ids": [
+            "nandi-bear-c12",
+            "nandi-bear-c14"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Hut doorway containing a small dummy man in the East African savanna at night.",
+          "claim_ids": [
+            "nandi-bear-c14",
+            "nandi-bear-c18",
+            "nandi-bear-c12"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "nandi-bear-c05",
+        "nandi-bear-c06",
+        "nandi-bear-c12",
+        "nandi-bear-c14",
+        "nandi-bear-c18"
+      ],
+      "aura": "Menace comes from extraordinarily high shoulders and shaggy reddish long-footed anatomy c05/c06, nocturnal hind-leg attack c12, and hut-doorway lure encounter c14.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native1254x1254 and200px inspected. Uji Sangar7/7 yes: creature dominates frame, nocturnal attack on doorway dummy immediately threatening at200px; extraordinarily high shoulder ridge slopes steeply toward much lower hips; very long hind feet, rust-red shaggy fur and rearing stance clearly exposed. One head/two eyes/four limbs; far forefoot partly occluded by dummy. Generic carnivore face reads neither ordinary grizzly nor ordinary hyena. No magic, gore, text, watermark or frame.",
+        "limitations": [
+          "Head shape is undocumented and is an editorial carnivore interpretation.",
+          "Far forefoot partly occluded by dummy; hind feet and steep back profile fully visible."
+        ],
+        "native_sha256": "5a6c2715653fa23f025ea54dcbeeb1c613845b4b20a986f1cba4c11dd4264c71",
+        "reviewed_at": "2026-10-15T11:55:23Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "51a34b504b48458b04d08548eb01a1e0b593a35b21cbcfb1e5e4adf2b9f5ba8b"
     },
     {
       "index": 42,
@@ -23426,5 +23486,10 @@
     "codex_native_and_200_reviews": "data/artwork-generated/batch-1767/drafts/root/codex-native-reviews.json",
     "independent_review_performed_by_codex": false,
     "integration_performed_by_codex": false
+  },
+  "generation_status_counts": {
+    "reviewed": 39,
+    "tidak-digambar": 9,
+    "awaiting-independent-review": 2
   }
 }

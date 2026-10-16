@@ -1,0 +1,82 @@
+{
+  "slug": "wd-q15955445",
+  "worker": "codex",
+  "worker_agent": "finish_jue",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bijianshou or Jue, the auspicious two-headed hare-and-rat animal of Chinese tradition.\nANATOMY: Exactly TWO separate adult hare heads side by side on ONE shared furred torso. Both entire faces and all FOUR long ears are readable. Exactly FOUR limbs in total: TWO extremely short ratlike front legs with tiny clawed forefeet, and TWO dramatically longer hare hind legs ending in extremely long narrow hindfeet. The front feet are only about ONE TENTH the length of the hindfeet (one cun versus nearly one chi). Tiny forepaws hang separately beneath the chest. The two elongated hindfeet stretch diagonally forward beneath the single body with a clear gap between them, their long heel-to-toe shapes unambiguous. Coarse brown-grey hare fur, elongated mature hare muzzles; no oversized baby eyes, no extra feet [wd-q15955445-c01, wd-q15955445-c05, wd-q15955445-c08]\nMOMENT: Spring toward the viewer over bent grass, body airborne in a forceful leap. One head grips a bitten tuft of sweet grass; the other head looks toward the viewer with intense wild adult alertness. Both long hindfeet and both tiny rat forefeet are fully visible and separated [wd-q15955445-c03, wd-q15955445-c05, wd-q15955445-c08].\nPOWER: No documented supernatural power; awe comes from the impossible two-headed anatomy, dynamic leap, and light. Only ordinary soil and grass thrown by the leap, no magic [wd-q15955445-c08].\nSCALE & CAMERA: Grass-level extreme low angle, tight three-quarter frontal full-animal view; both heads, all four ears and all FOUR limbs fit inside the square. The animal fills most of the image but retains small natural hare scale, with ordinary tall grass reaching its chest. No giant scale or human miniatures.\nLIGHT & WEATHER: One low sunset source behind the grass, sharp antique-gold rim light revealing the ears and long feet, deep walnut shadows, airborne ordinary dust.\nSURFACE: Dense coarse adult hare fur with sharp bristles and earth on the long hindfeet; thin ratlike clawed forefeet; damp blades of sweet grass.\nSETTING: A minimal northern grass patch, referring to the northern Jue account, editorial terrain without invented architecture [wd-q15955445-c05, wd-q15955445-c08].\nMOOD: Austere and awe-inspiring through startling anatomy and energetic movement. This is auspicious and cooperative, never evil; preserve wild adult dignity, never cute, placid, smiling or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, logo, border, frame or watermark; exactly two heads on ONE torso, exactly two tiny rat forefeet and two extremely elongated hare hindfeet, no extra body or limbs; no horns, wings, fangs, glowing eyes or tattoos; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "A two-headed Jue with hare heads and fur, two short ratlike forefeet, and two elongated hare hindfeet leaps while carrying sweet grass.",
+  "basis_claim_ids": [
+    "wd-q15955445-c01",
+    "wd-q15955445-c05",
+    "wd-q15955445-c08",
+    "wd-q15955445-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q15955445-c01",
+      "wd-q15955445-c05",
+      "wd-q15955445-c08"
+    ],
+    "kekuatan": [
+      "wd-q15955445-c03",
+      "wd-q15955445-c05",
+      "wd-q15955445-c06",
+      "wd-q15955445-c08"
+    ],
+    "tempat": [
+      "wd-q15955445-c05",
+      "wd-q15955445-c07",
+      "wd-q15955445-c08"
+    ],
+    "sifat": [
+      "wd-q15955445-c01",
+      "wd-q15955445-c02",
+      "wd-q15955445-c07",
+      "wd-q15955445-c09"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly two hare heads on one body; two very short ratlike forefeet and two much longer hare hindfeet (approximately one cun versus nearly one chi).",
+      "claim_ids": [
+        "wd-q15955445-c01",
+        "wd-q15955445-c05",
+        "wd-q15955445-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical leap and bitten sweet grass for food provision; no supernatural power or magical effects.",
+      "claim_ids": [
+        "wd-q15955445-c03",
+        "wd-q15955445-c05",
+        "wd-q15955445-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Minimal northern grass patch as editorial terrain for the northern Jue account.",
+      "claim_ids": [
+        "wd-q15955445-c05",
+        "wd-q15955445-c08"
+      ]
+    }
+  ],
+  "aura": "Auspicious awe comes from the two heads (c01), radically unequal rat and hare feet (c05/c08), and forceful physical leap (c08), without magical effects.",
+  "artistic_choices": [
+    "Combine the entry's two-headed Bijianshou account c01 with the hare-headed, hare-furred juesu interpretation c08 and the hybrid feet c05/c08; these textual strands are recorded together in the accepted research entry, not asserted to be one uncontested historical iconography.",
+    "No supernatural power is documented: displaced soil and grass come only from a physical leap. The tuft of grass refers to feeding and mutual dependence c03/c05, with the undocumented companion body outside the frame.",
+    "Close framing, low camera, sunset, dark walnut and antique-gold palette, alert expression and grass arrangement are editorial choices. Small natural scale is retained; no giant anatomy, evil demeanor or supernatural additions."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "recovery_notes": "Checked original draft timestamp 2026-10-14T11:32:19+07:00 and all built-in generated image files: latest persisted output predates draft (2026-10-14T11:28:38+07:00), so no prior Jue PNG is recoverable. No Jue receipt, rejection or output metadata exists."
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "sankai",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Sankai, Okayama oketsu turtle-with-hairy-back variant.\nANATOMY: One small turtle-like monster with hair growing densely over its back, one head, one shell, four short clawed legs and one tail; no human infant anatomy [c04]\nMOMENT: Scrabble toward the viewer from under a rough timber beam, foreclaws digging grit, hairy shell filling upper frame, head craned forward in a hostile stare.\nPOWER: No visible magical power; it crawls beneath a house, disturbed dirt only [c05, c07]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: single low warm light leaking through floorboard gap, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: matted coarse hair over rough shell plates, earth-caked claws.\nSETTING: Cramped dark crawlspace directly beneath a timber house [c05]\nMOOD: uncanny threatening oketsu; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "Okayama oketsu turtle-with-hairy-back variant",
+  "basis_claim_ids": [
+    "sankai-c04",
+    "sankai-c05",
+    "sankai-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One small turtle-like monster with hair growing densely over its back, one head, one shell, four short clawed legs and one tail; no human infant anatomy",
+      "claim_ids": [
+        "sankai-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible magical power; it crawls beneath a house, disturbed dirt only",
+      "claim_ids": [
+        "sankai-c05",
+        "sankai-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cramped dark crawlspace directly beneath a timber house",
+      "claim_ids": [
+        "sankai-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "sankai-c04"
+    ],
+    "power_domain_deeds": [
+      "sankai-c05",
+      "sankai-c07"
+    ],
+    "setting": [
+      "sankai-c05"
+    ],
+    "disposition": [
+      "sankai-c07"
+    ]
+  },
+  "aura": "No visible magical power; it crawls beneath a house, disturbed dirt only sankai-c05,sankai-c07",
+  "artistic_choices": [
+    "Macro camera preserves small size. No birth, mother, blood, infant or gore depicted. Turtle hair is principal impossible feature."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

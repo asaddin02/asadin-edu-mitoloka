@@ -1,0 +1,75 @@
+{
+  "slug": "serpente-regolo",
+  "batch": 1917,
+  "depicted_variant": "Serpente regolo, the Italian metal-scaled winged serpent",
+  "basis_claim_ids": [
+    "serpente-regolo-c01",
+    "serpente-regolo-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one large serpent, one reptile head the size of a child's head, two natural eyes, a long thick limbless coiling body, exactly two small wings; scales shine like dark metal. No crown or human face.",
+      "claim_ids": [
+        "serpente-regolo-c01",
+        "serpente-regolo-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A dark mountain gorge and dense thickets in central Italy.",
+      "claim_ids": [
+        "serpente-regolo-c01"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "serpente-regolo-c01",
+      "serpente-regolo-c05"
+    ],
+    "power_or_deed": [],
+    "setting": [
+      "serpente-regolo-c01"
+    ],
+    "disposition": []
+  },
+  "aura": "Threat or awe through documented anatomy ['serpente-regolo-c01', 'serpente-regolo-c05'] and action []; no generic aura.",
+  "artistic_choices": [
+    "Head is reptilian and only child-sized, not a child face; metal appearance c05 is reflection, not glowing aura.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Serpente regolo, the Italian metal-scaled winged serpent.\nANATOMY: Exactly one large serpent, one reptile head the size of a child's head, two natural eyes, a long thick limbless coiling body, exactly two small wings; scales shine like dark metal. No crown or human face. [serpente-regolo-c01, serpente-regolo-c05]\nMOMENT: Rear out of a narrow gorge toward viewer, twist heavy coils across wet stone, bare sharp serpent teeth.\nPOWER: No documented visible supernatural power; ordinary movement through stones only. []\nSCALE & CAMERA: Tight low-angle close-up; subject fills frame, no invented giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: A dark mountain gorge and dense thickets in central Italy. [serpente-regolo-c01]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-1695ac31-98cd-4d81-b3dc-06103d998070.png",
+  "generated_at": "2026-10-15T17:09:23.319697+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/serpente-regolo.png",
+  "native_sha256": "8b31c78d4e71207c6f0e012911b59b8b10cb50488497b47a6cf91948ab3cea8e",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "8b31c78d4e71207c6f0e012911b59b8b10cb50488497b47a6cf91948ab3cea8e",
+    "reviewed_at": "2026-10-15T17:09:23.319697+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "8b31c78d4e71207c6f0e012911b59b8b10cb50488497b47a6cf91948ab3cea8e",
+    "notes": "Dark metal-scaled serpent with two small wings striking from the rocks."
+  }
+}

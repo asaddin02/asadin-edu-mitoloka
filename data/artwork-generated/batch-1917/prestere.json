@@ -1,0 +1,92 @@
+{
+  "slug": "prestere",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Prestere, open-mouthed steaming bestiary serpent.\nANATOMY: Exactly one limbless serpent, mouth wide open even while moving, steam and foam visibly coming from jaws; no wings horns or legs [c04, c05]\nMOMENT: Surge straight toward viewer with open foaming jaws, the long snake body folding behind it; show hot breath condensing in the cold dark air.\nPOWER: Visible natural vapour and foam from the permanently open mouth, no flames or beams; do not show poisoned victims [c04, c05]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one distant low orange light off-frame, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: wet granular scales and thick pale foam.\nSETTING: Dark bare earth in an indistinct setting; source gives no precise habitat [c01]\nMOOD: menacing venomous serpent; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "open-mouthed steaming bestiary serpent",
+  "basis_claim_ids": [
+    "prestere-c04",
+    "prestere-c05",
+    "prestere-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one limbless serpent, mouth wide open even while moving, steam and foam visibly coming from jaws; no wings horns or legs",
+      "claim_ids": [
+        "prestere-c04",
+        "prestere-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Visible natural vapour and foam from the permanently open mouth, no flames or beams; do not show poisoned victims",
+      "claim_ids": [
+        "prestere-c04",
+        "prestere-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark bare earth in an indistinct setting; source gives no precise habitat",
+      "claim_ids": [
+        "prestere-c01"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "prestere-c04",
+      "prestere-c05"
+    ],
+    "power_domain_deeds": [
+      "prestere-c04",
+      "prestere-c05"
+    ],
+    "setting": [
+      "prestere-c01"
+    ],
+    "disposition": [
+      "prestere-c02",
+      "prestere-c03"
+    ]
+  },
+  "aura": "Visible natural vapour and foam from the permanently open mouth, no flames or beams; do not show poisoned victims prestere-c04,prestere-c05",
+  "artistic_choices": [
+    "No precise habitat claimed. No gore or unsupported fire. Low side firelight is external editorial lighting only."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-30323764-d3a5-4668-8b48-0340124662e7.png",
+  "generated_at": "2026-10-15T17:03:11.914251+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/prestere.png",
+  "native_sha256": "489e0379d2bb0b8ee53d0c4440fdb20caf275ae3d9dba0d6fe3a3baf3f5c05f9",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: one limbless serpent surges with wide open foaming steaming jaws. Foam and vapor c04/c05 obvious at thumbnail; no fire, victim, gore, text or extra appendages. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "489e0379d2bb0b8ee53d0c4440fdb20caf275ae3d9dba0d6fe3a3baf3f5c05f9",
+    "reviewed_at": "2026-10-15T17:03:11.914251+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "489e0379d2bb0b8ee53d0c4440fdb20caf275ae3d9dba0d6fe3a3baf3f5c05f9",
+    "notes": "Limbless serpent with permanently open mouth, steam and foam from the jaws."
+  }
+}

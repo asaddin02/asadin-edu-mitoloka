@@ -1,0 +1,58 @@
+{
+  "slug": "vyal",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-127.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Vyal.\nANATOMY: The research calls it a tsmok/dragon but does not document head, limb, wing or body anatomy. []\nMOMENT: Plays with and throws a boulder near Valeikishki; possible story action is documented but cannot resolve anatomy. [vyal-c02, vyal-c07]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Boulder near Valeikishki village. [vyal-c02, vyal-c08]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. No generated form: generic dragon anatomy would be invented.",
+  "depicted_variant": "No sourced anatomical variant available",
+  "basis_claim_ids": [
+    "vyal-c02",
+    "vyal-c07",
+    "vyal-c08"
+  ],
+  "claim_classification": {
+    "wujud": [],
+    "kekuatan": [
+      "vyal-c02",
+      "vyal-c07"
+    ],
+    "tempat": [
+      "vyal-c02",
+      "vyal-c08"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "effect",
+      "description": "Plays with and throws a boulder near Valeikishki; possible story action is documented but cannot resolve anatomy.",
+      "claim_ids": [
+        "vyal-c02",
+        "vyal-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Boulder near Valeikishki village.",
+      "claim_ids": [
+        "vyal-c02",
+        "vyal-c08"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: vyal-c02, vyal-c07, vyal-c08.",
+  "artistic_choices": [
+    "No generated form: generic dragon anatomy would be invented.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "reason": "Klaim c01/c02/c07 menyebut tsmok dan aksi batu, tetapi tidak mendokumentasikan bentuk tubuh, kepala, kaki, sayap, tanduk, atau varian anatomi. Tidak mengarang naga generik hanya untuk memenuhi visual sangar; perlu riset wujud sebelum ilustrasi."
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "wakka-us-kamuy",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Wakka-us Kamuy, benevolent long-haired chief river goddess in active dance.\nANATOMY: One long-haired female freshwater goddess, one head two eyes two arms, fully opaque layered plain woven robes covering body from shoulders to ankles; no crown weapons or invented ornaments [c03]\nMOMENT: Sweep both arms outward mid-dance as river water surges below, long hair streaming, look down toward viewer with commanding compassionate intensity; fill frame.\nPOWER: Dance while freshwater currents surge around her lower robe, streams converge and bend physically within her river domain; salmon released from confinement leap downstream without energy trails [c01, c05, c07]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low golden sun behind dark raincloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: thick woven opaque robes, wet long hair, white river foam, silver salmon scales.\nSETTING: Freshwater river valley with rushing rapids, dark banks and distant trees [c07, c08, c11]\nMOOD: reverent awe-inspiring benevolent chief water goddess, never evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "benevolent long-haired chief river goddess in active dance",
+  "basis_claim_ids": [
+    "wakka-us-kamuy-c03",
+    "wakka-us-kamuy-c01",
+    "wakka-us-kamuy-c05",
+    "wakka-us-kamuy-c07",
+    "wakka-us-kamuy-c08",
+    "wakka-us-kamuy-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One long-haired female freshwater goddess, one head two eyes two arms, fully opaque layered plain woven robes covering body from shoulders to ankles; no crown weapons or invented ornaments",
+      "claim_ids": [
+        "wakka-us-kamuy-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dance while freshwater currents surge around her lower robe, streams converge and bend physically within her river domain; salmon released from confinement leap downstream without energy trails",
+      "claim_ids": [
+        "wakka-us-kamuy-c01",
+        "wakka-us-kamuy-c05",
+        "wakka-us-kamuy-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Freshwater river valley with rushing rapids, dark banks and distant trees",
+      "claim_ids": [
+        "wakka-us-kamuy-c07",
+        "wakka-us-kamuy-c08",
+        "wakka-us-kamuy-c11"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wakka-us-kamuy-c03"
+    ],
+    "power_domain_deeds": [
+      "wakka-us-kamuy-c01",
+      "wakka-us-kamuy-c05",
+      "wakka-us-kamuy-c07"
+    ],
+    "setting": [
+      "wakka-us-kamuy-c07",
+      "wakka-us-kamuy-c08",
+      "wakka-us-kamuy-c11"
+    ],
+    "disposition": [
+      "wakka-us-kamuy-c04",
+      "wakka-us-kamuy-c10",
+      "wakka-us-kamuy-c13"
+    ]
+  },
+  "aura": "Dance while freshwater currents surge around her lower robe, streams converge and bend physically within her river domain; salmon released from confinement leap downstream without energy trails wakka-us-kamuy-c01,wakka-us-kamuy-c05,wakka-us-kamuy-c07",
+  "artistic_choices": [
+    "Monumental deity composition under Sangar living-religion rule; no tiny people or invented anatomy. Plain opaque robes modest editorial choice. Water motion expresses documented domain, salmon c05."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

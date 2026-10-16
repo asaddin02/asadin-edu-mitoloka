@@ -1,0 +1,73 @@
+{
+  "slug": "miernik",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Miernik, the dishonest surveyor's fiery-hand manifestation.\nANATOMY: Exactly ONE FIERY HUMAN HAND visibly formed from dense living orange fire, holding ONE plain antique PEN. Exactly five fingers total: thumb and index pinch the pen, middle/ring/little fingers curve separately above it. No head, human body, face, extra hand, paper, writing, symbols or letters. The sourced fire hand itself is the being. [miernik-c01, miernik-c03]\nMOMENT: Glide low over a measured field boundary toward the viewer, the single fiery hand thrusting its pen down toward a boundary stone as though correcting the survey. Its fingers and flame tongues curl forcefully forward; the pen tip touches the stone without leaving any visible letters or marks.\nPOWER: The documented soul appears as a creeping or flying flame, including a fiery hand holding a pen. Fire lights the wet grass and boundary stones, without burning the whole meadow or producing a new spell. [miernik-c01, miernik-c03, miernik-c07]\nSCALE & CAMERA / LIGHT & WEATHER: Very close ground-level view, fiery hand and pen occupy three quarters of square; no giant scale asserted. ONE orange-white flame source throws hard amber light across wet boundary stones against deep walnut night.\nSURFACE: rough natural textures, dense tactile fur, feather, fire, hide, weathered cloth or stone as applicable; no plastic surfaces.\nSETTING: A meadow boundary where a dishonest land surveyor once measured, at night, with simple unmarked boundary stones and wet grass. [miernik-c02, miernik-c06, miernik-c07]\nMOOD: dangerous, imposing or awe-inspiring, alive in a forceful moment; never ordinary, cute, placid, static or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbols, logo, border, frame or watermark anywhere; no extra heads, eyes, fingers or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "Miernik's fiery hand measures a field boundary with its pen.",
+  "basis_claim_ids": [
+    "miernik-c01",
+    "miernik-c03",
+    "miernik-c07",
+    "miernik-c02",
+    "miernik-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "miernik-c01",
+      "miernik-c03"
+    ],
+    "kekuatan_perbuatan": [
+      "miernik-c01",
+      "miernik-c03",
+      "miernik-c07"
+    ],
+    "tempat": [
+      "miernik-c02",
+      "miernik-c06",
+      "miernik-c07"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE FIERY HUMAN HAND visibly formed from dense living orange fire, holding ONE plain antique PEN. Exactly five fingers total: thumb and index pinch the pen, middle/ring/little fingers curve separately above it. No head, human body, face, extra hand, paper, writing, symbols or letters. The sourced fire hand itself is the being.",
+      "claim_ids": [
+        "miernik-c01",
+        "miernik-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented soul appears as a creeping or flying flame, including a fiery hand holding a pen. Fire lights the wet grass and boundary stones, without burning the whole meadow or producing a new spell.",
+      "claim_ids": [
+        "miernik-c01",
+        "miernik-c03",
+        "miernik-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A meadow boundary where a dishonest land surveyor once measured, at night, with simple unmarked boundary stones and wet grass.",
+      "claim_ids": [
+        "miernik-c02",
+        "miernik-c06",
+        "miernik-c07"
+      ]
+    }
+  ],
+  "aura": "The documented soul appears as a creeping or flying flame, including a fiery hand holding a pen. Fire lights the wet grass and boundary stones, without burning the whole meadow or producing a new spell. [miernik-c01, miernik-c03, miernik-c07]",
+  "artistic_choices": [
+    "Specific five-finger pen grip, stone marker, flame shape and camera are editorial. Choose the explicit fire-hand-with-pen c03 variant, not a generic man holding a candle. No text is drawn and the pen is plain; no unsourced full demon body or additional powers."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

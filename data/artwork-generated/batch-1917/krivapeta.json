@@ -1,0 +1,93 @@
+{
+  "slug": "krivapeta",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Krivapeta, the green-haired white-clad wild woman with reversed feet.\nANATOMY: One wild woman with green hair covering her shoulders, opaque long white dress, two arms and two legs; both bare feet reversed with heels facing forward and toes backward; full body visible, feet visually unmistakable [c02, c04]\nMOMENT: Lurch out of the cave toward the viewer, reaching one hand down, planted reversed feet exposed on slick stone; eyes glare downward. Camera beside her feet so heel-front and toes behind are very clear.\nPOWER: No documented physical power; menace only from reversed-foot anatomy and cruel stalking behavior [c06]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one moon behind storm clouds, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: matted green hair, worn opaque white linen, wet stone.\nSETTING: cave mouth on a steep rocky stream ravine [c02, c10]\nMOOD: uncanny and threatening, one of the cruel Krivapete; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "the green-haired white-clad wild woman with reversed feet",
+  "basis_claim_ids": [
+    "krivapeta-c02",
+    "krivapeta-c04",
+    "krivapeta-c06",
+    "krivapeta-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One wild woman with green hair covering her shoulders, opaque long white dress, two arms and two legs; both bare feet reversed with heels facing forward and toes backward; full body visible, feet visually unmistakable",
+      "claim_ids": [
+        "krivapeta-c02",
+        "krivapeta-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented physical power; menace only from reversed-foot anatomy and cruel stalking behavior",
+      "claim_ids": [
+        "krivapeta-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "cave mouth on a steep rocky stream ravine",
+      "claim_ids": [
+        "krivapeta-c02",
+        "krivapeta-c10"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "krivapeta-c02",
+      "krivapeta-c04"
+    ],
+    "power_domain_deeds": [
+      "krivapeta-c06"
+    ],
+    "setting": [
+      "krivapeta-c02",
+      "krivapeta-c10"
+    ],
+    "disposition": [
+      "krivapeta-c05",
+      "krivapeta-c06"
+    ]
+  },
+  "aura": "No documented physical power; menace only from reversed-foot anatomy and cruel stalking behavior krivapeta-c06",
+  "artistic_choices": [
+    "No invented size or magic. Moonlight, tense movement, rough cloth and close camera supply threat. No victim or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-60157684-5817-4330-af73-85822b828998.png",
+  "generated_at": "2026-10-15T17:01:08.434341+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/krivapeta.png",
+  "native_sha256": "e9298a3adc5290526c8fec25d4d60a9b3c60c9e804f50c6e69ce90c263a4dcb1",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. Dominant reaching green-haired woman in opaque white; both heels visibly face viewer while torso faces viewer, toes behind; cave and stream visible. Threatening movement, no invented power or text. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "e9298a3adc5290526c8fec25d4d60a9b3c60c9e804f50c6e69ce90c263a4dcb1",
+    "reviewed_at": "2026-10-15T17:01:08.434341+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "e9298a3adc5290526c8fec25d4d60a9b3c60c9e804f50c6e69ce90c263a4dcb1",
+    "notes": "Green-haired woman in white with both feet reversed (heels forward), clear at native size."
+  }
+}

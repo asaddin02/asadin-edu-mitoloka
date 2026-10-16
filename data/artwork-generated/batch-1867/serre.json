@@ -1,0 +1,93 @@
+{
+  "slug": "serre",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Serre.\nANATOMY: One enormous winged FISH creature, one fish head/two natural eyes, fish scales, one fish tail, exactly TWO ENORMOUS WINGS, no legs, no human torso. A conspicuous SERRATED SAW CREST runs atop the head and back. [serre-c01, serre-c07, serre-c08]\nMOMENT: Surge immediately beside a medieval sailing ship and rake its hull with the serrated crest; two vast raised wings form a wall across the wind. Show canvas sail behind its wings dropping slack while sea spray erupts along the cut hull; intact tiny sailors recoil, no injury. [serre-c01, serre-c08]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Open sea directly alongside the threatened sailing ship, violent dark water and failing sail. [serre-c07, serre-c08]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Two wing material and fish proportions editorial; no added horns, limbs, fire or lightning. Saw crest cuts wood, no gore. Wind obstruction depicted by drooping sail and wings rather than energy.",
+  "depicted_variant": "Saw-crested winged fish wrecking hull as raised wings cut off the sailing wind.",
+  "basis_claim_ids": [
+    "serre-c01",
+    "serre-c07",
+    "serre-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "serre-c01",
+      "serre-c07",
+      "serre-c08"
+    ],
+    "kekuatan": [
+      "serre-c01",
+      "serre-c08"
+    ],
+    "tempat": [
+      "serre-c07",
+      "serre-c08"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous winged FISH creature, one fish head/two natural eyes, fish scales, one fish tail, exactly TWO ENORMOUS WINGS, no legs, no human torso. A conspicuous SERRATED SAW CREST runs atop the head and back.",
+      "claim_ids": [
+        "serre-c01",
+        "serre-c07",
+        "serre-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Surge immediately beside a medieval sailing ship and rake its hull with the serrated crest; two vast raised wings form a wall across the wind. Show canvas sail behind its wings dropping slack while sea spray erupts along the cut hull; intact tiny sailors recoil, no injury.",
+      "claim_ids": [
+        "serre-c01",
+        "serre-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Open sea directly alongside the threatened sailing ship, violent dark water and failing sail.",
+      "claim_ids": [
+        "serre-c07",
+        "serre-c08"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: serre-c01, serre-c07, serre-c08.",
+  "artistic_choices": [
+    "Two wing material and fish proportions editorial; no added horns, limbs, fire or lightning. Saw crest cuts wood, no gore. Wind obstruction depicted by drooping sail and wings rather than energy.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-05a89030-d0f5-4e89-a45b-c786ab17466e.png",
+  "generated_at": "2026-10-15T12:05:14.631Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/serre.png",
+  "native_sha256": "7dcfc5ac4282854dd10add11311613c77a15ad1a688400599e09c762b1d6a1c3",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. Fish-bodied winged creature with huge wings, fish tail, no legs; serrated dorsal/nasal crest cuts ship wood c08, wings obstruct sail wind while hull splinters. Threat fills200px; no blood, glowing power, text or watermark. No text, border, franchise design or explicit gore.",
+    "limitations": [
+      "Far wing partly occluded behind the main wing/body; feathered wing material editorial."
+    ],
+    "native_sha256": "7dcfc5ac4282854dd10add11311613c77a15ad1a688400599e09c762b1d6a1c3",
+    "reviewed_at": "2026-10-15T12:06:23.762Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "7dcfc5ac4282854dd10add11311613c77a15ad1a688400599e09c762b1d6a1c3",
+    "notes": "Winged saw-crested fish raking the ship's hull, sailors recoiling."
+  }
+}

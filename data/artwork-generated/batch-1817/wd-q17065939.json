@@ -1,17 +1,17 @@
 {
   "slug": "wd-q17065939",
   "worker": "codex",
-  "worker_agent": "lane1817_b",
-  "subagent_model": "gpt-6.1-sol",
-  "subagent_reasoning_effort": "high",
+  "worker_agent": "codex-root-resume-2026-10-15",
+  "subagent_model": "tidak berlaku — agen utama",
+  "subagent_reasoning_effort": "tidak berlaku — agen utama",
   "tool": "OpenAI built-in image_gen",
   "image_model": "tidak dilaporkan alat",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-071.review.json",
   "batch": 1817,
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
-  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Danghu, the pheasant-shaped bird that flies by the hair beneath its throat.\nANATOMY: one pheasant-shaped bird, one head, two eyes, one beak, two folded wings, two bird legs and one pheasant tail; long conspicuous beardlike feathers under throat, no horns or extra wings [wd-q17065939-c01, wd-q17065939-c06]\nMOMENT: fly directly over the viewer with wings completely folded against body, lift generated visually by beard feathers spreading widely and sweeping the air under its throat\nPOWER: flight through long beardlike throat feathers rather than wingbeats; no magical glow, trails or beams [wd-q17065939-c03, wd-q17065939-c06, wd-q17065939-c07]\nSCALE & CAMERA: extreme low angle; very close foreshortened bird fills square; ordinary bird size and distant mountain below\nLIGHT & WEATHER: one warm sunset source, rim light through beard feathers, fine mountain mist\nSURFACE: coarse layered pheasant feathers, fibrous flowing throat beard, dark walnut and antique gold plumage chosen editorially\nSETTING: air above Mount Shangshen [wd-q17065939-c02]\nMOOD: menacing / awe-inspiring; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no tattoos, glyphs or pseudo-text.",
-  "depicted_variant": "Beard-powered flying pheasant with ordinary wings folded.",
+  "prompt": "Edit the supplied Danghu illustration to correct ONLY the pheasant anatomy. Keep its square cinematic painterly composition, close low camera, mountain sunset, long flowing throat-beard as the sole flight mechanism, warm dark colors, two feet, one body, long barred pheasant tail, and all feather textures. Replace the eagle head and hooked raptor beak with the clearly SMALL rounded head of a pheasant and a SHORT stout gamebird bill, tapered gently and completely WITHOUT a hooked raptor tip; retain two natural eyes, a small modest gamebird face, no eagle brow or hooked upper mandible. Make the two normal feathered wings visibly FOLDED FLAT along the left and right sides of the pheasant body; only the huge fibrous throat-beard spreads outward to provide lift. The beard must visibly grow from beneath the throat, not from the wings. Source anatomy wd-q17065939-c01/c06, beard flight c03/c06/c07, Mount Shangshen c02. Preserve one head, two eyes, two wings, two feet, one long barred tail. No new magic, no aura, no extra anatomy, no lettering, signature, pseudo-writing, border, watermark, nudity or gore. Original mythological creature, no film/game/anime design.",
+  "depicted_variant": "A pheasant-shaped Danghu with small gamebird head and short bill, folded wings, and a huge throat-beard carrying it through the sky.",
   "basis_claim_ids": [
     "wd-q17065939-c01",
     "wd-q17065939-c06",
@@ -37,7 +37,7 @@
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "Pheasant-shaped bird with conspicuous throat beard, folded paired wings and two feet.",
+      "description": "Pheasant-shaped bird, small rounded gamebird head, short stout gently tapered bill with no hooked raptor tip, long barred tail, two folded wings and two feet.",
       "claim_ids": [
         "wd-q17065939-c01",
         "wd-q17065939-c06"
@@ -45,7 +45,7 @@
     },
     {
       "kind": "effect",
-      "description": "Flies using beard hair under throat, rather than wings.",
+      "description": "Long throat-beard fans into the airflow and alone bears the bird in flight; both ordinary feathered wings remain folded.",
       "claim_ids": [
         "wd-q17065939-c03",
         "wd-q17065939-c06",
@@ -54,40 +54,44 @@
     },
     {
       "kind": "setting",
-      "description": "Mount Shangshen beneath flight.",
+      "description": "Flight over Mount Shangshen.",
       "claim_ids": [
         "wd-q17065939-c02"
       ]
     }
   ],
-  "aura": "C06/c07 impossible beard-driven flight makes the active bird strange and imposing.",
+  "aura": "Impossible beard-borne flight c03/c06/c07, close framing and Mount Shangshen c02; no invented elemental effect.",
   "artistic_choices": [
-    "Plumage colour, sunset and mist editorial; no giant inflation.",
-    "Fold wings deliberately so documented beard flight is legible.",
-    "Close camera and concentrated stare create awe; no predatory aggression or invented elemental power."
+    "The pheasant bill and compact head correct the prior raptor interpretation; precise colors, sunset, mountain arrangement and camera are editorial. Wings remain folded to demonstrate the documented throat-beard propulsion, not normal wing flight. Natural bird scale and respectful awe; no invented aggression or magic."
   ],
   "generation_failures": [],
-  "rejected_attempts": [],
-  "generated_file": "/home/asadin/.codex/generated_images/01a13876-d3fc-7a53-b184-c6ae4977c9bd/exec-1a8279c2-0394-4bfc-86e0-3b031bf8f546.png",
-  "generated_at": "2026-10-14T03:48:41.797429+00:00",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q17065939-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q17065939-attempt-01.json",
+      "native_sha256": "6701592d0f0f45aa662f4a6e19c06500f9c2cd22a79996426a08e345ae1d2543",
+      "reason": "The beard flight works, but the head is a bird of prey: a hooked raptor beak and eagle face make it read as an eagle, not the pheasant-shaped bird of the sources [wd-q17065939-c01, c06]. Keep the composition and the spreading throat-beard [c03, c06, c07]; give it a pheasant's small head and short, stout gamebird bill, pheasant body proportions and the barred long tail, with the paired wings visibly folded so the beard alone carries it."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eaa-7b0c-76e3-89c6-48a8ef10130b/exec-84d4fb43-2ff8-44d0-828c-46b8ce1856de.png",
+  "generated_at": "2026-10-15T11:52:05.865Z",
   "original_file": "data/artwork-generated/batch-1817/originals/wd-q17065939.png",
-  "native_sha256": "6701592d0f0f45aa662f4a6e19c06500f9c2cd22a79996426a08e345ae1d2543",
+  "native_sha256": "02083059f8ab6038a3474b84b4067c2b10eeb102cdf008ada395dffa175da504",
   "width": 1254,
   "height": 1254,
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Native and 200px inspected, all seven Sangar checks yes. Single pheasant-like bird with one head/two eyes/beak, two legs, long feather tail, natural wings tucked against torso; enormous visible fibrous beard originates under throat and spreads during flight c06/c07. Bird dominates active airborne view over mountain c02; striking unusual beard reads at 200px without giant comparator. No beams/glow/text/glyphs/franchise likeness/gore/nudity.",
+    "notes": "Root memeriksa native1254 dan200px. Kepala kecil bulat serta paruh pendek-tebal burung pegar mengganti kepala/paruh elang; dua sayap berbulu terlipat di sisi tubuh, tepat dua kaki dan satu ekor panjang berbelang. Janggut panjang tumbuh di bawah tenggorokan dan menyebar sebagai satu-satunya alat terbang c03/c06/c07, Gunung Shangshen c02. Gerak dan bentuk ganjil dominan tanpa efek baru atau tulisan. Tujuh uji sangar lulus.",
     "limitations": [],
-    "native_sha256": "6701592d0f0f45aa662f4a6e19c06500f9c2cd22a79996426a08e345ae1d2543",
-    "reviewed_at": "2026-10-14T03:48:41.797429+00:00"
+    "native_sha256": "02083059f8ab6038a3474b84b4067c2b10eeb102cdf008ada395dffa175da504",
+    "reviewed_at": "2026-10-15T11:52:05.865Z"
   },
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-15T15:40:00+07:00",
-    "native_sha256": "6701592d0f0f45aa662f4a6e19c06500f9c2cd22a79996426a08e345ae1d2543",
-    "notes": "The beard flight works, but the head is a bird of prey: a hooked raptor beak and eagle face make it read as an eagle, not the pheasant-shaped bird of the sources [wd-q17065939-c01, c06]. Keep the composition and the spreading throat-beard [c03, c06, c07]; give it a pheasant's small head and short, stout gamebird bill, pheasant body proportions and the barred long tail, with the paired wings visibly folded so the beard alone carries it."
-  },
-  "correction_notes": "The beard flight works, but the head is a bird of prey: a hooked raptor beak and eagle face make it read as an eagle, not the pheasant-shaped bird of the sources [wd-q17065939-c01, c06]. Keep the composition and the spreading throat-beard [c03, c06, c07]; give it a pheasant's small head and short, stout gamebird bill, pheasant body proportions and the barred long tail, with the paired wings visibly folded so the beard alone carries it."
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "02083059f8ab6038a3474b84b4067c2b10eeb102cdf008ada395dffa175da504",
+    "notes": "Pheasant body with red gamebird face and short bill (no raptor hook), wings folded, the huge throat-beard fanned to carry it over the mountains. Answers the earlier note."
+  }
 }

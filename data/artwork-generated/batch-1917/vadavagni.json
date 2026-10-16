@@ -1,0 +1,108 @@
+{
+  "slug": "vadavagni",
+  "batch": 1917,
+  "depicted_variant": "Vadavagni, the sacred submarine fire with a mare's head",
+  "basis_claim_ids": [
+    "vadavagni-c01",
+    "vadavagni-c02",
+    "vadavagni-c09",
+    "vadavagni-c03",
+    "vadavagni-c13",
+    "vadavagni-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one large mare head with two ears and two eyes, attached to a body made wholly of blazing physical flame; no ordinary horse torso, legs or wings.",
+      "claim_ids": [
+        "vadavagni-c01",
+        "vadavagni-c02",
+        "vadavagni-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flame devours ocean water and creates violent real steam and boiling cavities in the sea.",
+      "claim_ids": [
+        "vadavagni-c03",
+        "vadavagni-c09",
+        "vadavagni-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Beneath the Kshira Sagara ocean, seabed partly visible under dark turbulent water.",
+      "claim_ids": [
+        "vadavagni-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "vadavagni-c01",
+      "vadavagni-c02",
+      "vadavagni-c09"
+    ],
+    "power_or_deed": [
+      "vadavagni-c03",
+      "vadavagni-c09",
+      "vadavagni-c13"
+    ],
+    "setting": [
+      "vadavagni-c06"
+    ],
+    "disposition": [
+      "vadavagni-c03",
+      "vadavagni-c09",
+      "vadavagni-c13"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['vadavagni-c01', 'vadavagni-c02', 'vadavagni-c09'] and action ['vadavagni-c03', 'vadavagni-c09', 'vadavagni-c13']; no generic aura.",
+  "artistic_choices": [
+    "Respectful overwhelming sacred natural force; actual documented flame body is not generic aura.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "EDIT ONLY the mouth dentition of this Vadavagni illustration. Preserve the exact composition, single mare head, two ears, two eyes, blazing flame body, underwater seabed, boiling ocean water and steam, textures and cinematic lighting. Replace every long pointed fang/tusk/canine with natural HERBIVOROUS MARE TEETH: a small flat row of short broad incisors at the front, toothless gap behind incisors and blunt grinding molars farther back. No pointed canine teeth, fangs, tusks or daggers. Keep the powerful open-mouth sacred fire-consumption moment. Anatomy basis vadavagni-c02/c09: a mare head, never carnivorous. No other visual changes. No text, symbols, logos or watermark.",
+  "referenced_image_paths": [
+    "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1917/rejected/vadavagni-attempt-01.png"
+  ],
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-ad3dfc80-141e-4900-a252-dbc8f4bcbe8d.png",
+  "generated_at": "2026-10-15T17:27:01.706341+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/vadavagni.png",
+  "native_sha256": "8d414f098f1b6fa6b4360de478d79d1437c846b6d9f339b62aa9916ff15755fb",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1917/rejected/vadavagni-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1917/rejected/vadavagni-attempt-01.json",
+      "native_sha256": "10a1db8879b352fc6d1caa97dca684a59f26476c301b0f921fac69c0cfdb4acd",
+      "reason": "Root reject: huge pointed carnivore fangs/tusks incompatible with documented mare head. Correct only natural herbivorous dentition."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "8d414f098f1b6fa6b4360de478d79d1437c846b6d9f339b62aa9916ff15755fb",
+    "reviewed_at": "2026-10-15T17:27:01.706341+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "8d414f098f1b6fa6b4360de478d79d1437c846b6d9f339b62aa9916ff15755fb",
+    "notes": "Mare's head with horse teeth on a body of fire, the sea boiling around it."
+  }
+}

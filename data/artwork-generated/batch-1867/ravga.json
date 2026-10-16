@@ -1,0 +1,97 @@
+{
+  "slug": "ravga",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Rávgá.\nANATOMY: One humanlike drowned spirit with extraordinarily LONG drenched HAIR and a disproportionately LARGE OPEN MOUTH, one head/two eyes/two arms/two legs, opaque soaked northern wool garments, no horns, claws or corpse wounds. [ravga-c01, ravga-c06]\nMOMENT: Rise close beside a boat and SHOUT toward the viewer, one hand examining the boat rigging and oarlock; long wet hair streams down around huge open mouth. The drowned ghost harasses by uncanny shouting and foretells misfortune, it does not attack or command weather. [ravga-c03, ravga-c06, ravga-c07]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Scandinavian Lapland water shore beside a small boat, cold dim dusk, dark tempest on distant horizon as an omen only, not magically caused. [ravga-c06, ravga-c07, ravga-c10]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. No drowned victim or graphic corpse. Not evil monster; uncanny powerful encounter via mouth, hair and foreground scale, human size. Ambient storm is foretold, never generated.",
+  "depicted_variant": "Long-haired large-mouthed drowned ghost shouting beside boat whose fittings it examines.",
+  "basis_claim_ids": [
+    "ravga-c01",
+    "ravga-c06",
+    "ravga-c03",
+    "ravga-c07",
+    "ravga-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "ravga-c01",
+      "ravga-c06"
+    ],
+    "kekuatan": [
+      "ravga-c03",
+      "ravga-c06",
+      "ravga-c07"
+    ],
+    "tempat": [
+      "ravga-c06",
+      "ravga-c07",
+      "ravga-c10"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One humanlike drowned spirit with extraordinarily LONG drenched HAIR and a disproportionately LARGE OPEN MOUTH, one head/two eyes/two arms/two legs, opaque soaked northern wool garments, no horns, claws or corpse wounds.",
+      "claim_ids": [
+        "ravga-c01",
+        "ravga-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rise close beside a boat and SHOUT toward the viewer, one hand examining the boat rigging and oarlock; long wet hair streams down around huge open mouth. The drowned ghost harasses by uncanny shouting and foretells misfortune, it does not attack or command weather.",
+      "claim_ids": [
+        "ravga-c03",
+        "ravga-c06",
+        "ravga-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Scandinavian Lapland water shore beside a small boat, cold dim dusk, dark tempest on distant horizon as an omen only, not magically caused.",
+      "claim_ids": [
+        "ravga-c06",
+        "ravga-c07",
+        "ravga-c10"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: ravga-c01, ravga-c06, ravga-c03, ravga-c07, ravga-c10.",
+  "artistic_choices": [
+    "No drowned victim or graphic corpse. Not evil monster; uncanny powerful encounter via mouth, hair and foreground scale, human size. Ambient storm is foretold, never generated.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-987b0d7a-93a3-4185-9202-7096787ee06d.png",
+  "generated_at": "2026-10-15T12:03:51.357Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/ravga.png",
+  "native_sha256": "f59d42e3c309a112fd089859cb3eb5813d18b2717f7048c8e6e2584e6b84ca12",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. Long wet hair, disproportionately large shouting mouth, humanlike drowned spirit examining boat rigging c01/c03/c07; two arms/hands, no extra anatomy or wounds. Tempest horizon is omen c06, not caused weather. Uncanny cry clear at200px. No text, border, franchise design or explicit gore.",
+    "limitations": [
+      "Lower legs submerged; no invented lower-body anatomy visible."
+    ],
+    "native_sha256": "f59d42e3c309a112fd089859cb3eb5813d18b2717f7048c8e6e2584e6b84ca12",
+    "reviewed_at": "2026-10-15T12:06:23.720Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "f59d42e3c309a112fd089859cb3eb5813d18b2717f7048c8e6e2584e6b84ca12",
+    "notes": "Drowned ghost with long wet hair and huge open mouth shouting beside the boat, hand on the rigging."
+  }
+}

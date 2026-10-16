@@ -1,0 +1,71 @@
+{
+  "slug": "seiryu-gongen",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Seiryū Gongen, female dragon guardian manifesting over a rain-swept sea.\nANATOMY: One female East Asian dragon deity as a living long serpentine dragon, one head, two eyes, four clawed limbs; no humanoid rider or extra dragon heads [c02, c05]\nMOMENT: Descend through the rain toward the viewer with head dominating foreground, long body coiling behind, foreclaws braced against wind, rain sweeping down over the sea.\nPOWER: Rain pours in dense moving sheets around the rain-invoked dragon, drops beat and splash the sea beneath her; no energy aura [c06]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low gold break in heavy raincloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: wet dark blue-green scales, coarse whiskers, water droplets.\nSETTING: Sea crossing toward Japan, dark water beneath dragon, no invented temple details [c03, c04]\nMOOD: reverent awe-inspiring Buddhist guardian, protective rather than evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "female dragon guardian manifesting over a rain-swept sea",
+  "basis_claim_ids": [
+    "seiryu-gongen-c02",
+    "seiryu-gongen-c05",
+    "seiryu-gongen-c06",
+    "seiryu-gongen-c03",
+    "seiryu-gongen-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One female East Asian dragon deity as a living long serpentine dragon, one head, two eyes, four clawed limbs; no humanoid rider or extra dragon heads",
+      "claim_ids": [
+        "seiryu-gongen-c02",
+        "seiryu-gongen-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rain pours in dense moving sheets around the rain-invoked dragon, drops beat and splash the sea beneath her; no energy aura",
+      "claim_ids": [
+        "seiryu-gongen-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea crossing toward Japan, dark water beneath dragon, no invented temple details",
+      "claim_ids": [
+        "seiryu-gongen-c03",
+        "seiryu-gongen-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "seiryu-gongen-c02",
+      "seiryu-gongen-c05"
+    ],
+    "power_domain_deeds": [
+      "seiryu-gongen-c06"
+    ],
+    "setting": [
+      "seiryu-gongen-c03",
+      "seiryu-gongen-c04"
+    ],
+    "disposition": [
+      "seiryu-gongen-c01",
+      "seiryu-gongen-c03",
+      "seiryu-gongen-c05"
+    ]
+  },
+  "aura": "Rain pours in dense moving sheets around the rain-invoked dragon, drops beat and splash the sea beneath her; no energy aura seiryu-gongen-c06",
+  "artistic_choices": [
+    "Conventional four-limbed East Asian dragon rendering is editorial interpretation of dragon identity; no undocumented weapons or ornaments. Rain context from ritual invocation."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

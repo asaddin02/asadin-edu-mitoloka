@@ -1,0 +1,70 @@
+{
+  "slug": "olharapo",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Olharapo, the single-forehead-eyed man-eating giant of Portuguese tales.\nANATOMY: ONE enormous humanlike giant, exactly ONE LARGE EYE in the MIDDLE OF THE FOREHEAD. Smooth continuous skin below it: no ordinary pair of eye sockets, no second or third eye. One head, two arms, two legs, two natural five-finger hands; coarse beard and rough fully opaque wool tunic and trousers. No horns, fangs or modern weapons. [olharapo-c01, olharapo-c02]\nMOMENT: Stride into the pine wood searching with a burning wooden torch extended toward the viewer, free hand gripping a pine trunk. His enormous forehead eye narrows directly downward toward the hiding place; the pine is only chest high on him. A tiny adult man crouches high on one adjacent branch, hidden and completely unharmed.\nPOWER: The violent giant's documented torch search through the pine wood is physical action. The ordinary torch lights his single eye and rough face; he does not project flame or eye beams. [olharapo-c02, olharapo-c07]\nSCALE & CAMERA / LIGHT & WEATHER: Camera at the pine roots looking upward, the giant fills the square with a clearly visible sole forehead eye. Adjacent trunk, adult man and torch establish giant scale. One strong orange torch source, swirling ordinary smoke, deep walnut forest shadows.\nSURFACE: rough natural textures, dense tactile fur, feather, fire, hide, weathered cloth or stone as applicable; no plastic surfaces.\nSETTING: The pine wood near the olharapos' house in the recorded Souto/Trás-os-Montes tale, no invented castle or ruins. [olharapo-c02, olharapo-c06, olharapo-c07]\nMOOD: dangerous, imposing or awe-inspiring, alive in a forceful moment; never ordinary, cute, placid, static or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbols, logo, border, frame or watermark anywhere; no extra heads, eyes, fingers or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "One-eyed Olharapo searches the pine wood with a torch.",
+  "basis_claim_ids": [
+    "olharapo-c01",
+    "olharapo-c02",
+    "olharapo-c07",
+    "olharapo-c06"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "olharapo-c01",
+      "olharapo-c02"
+    ],
+    "kekuatan_perbuatan": [
+      "olharapo-c02",
+      "olharapo-c07"
+    ],
+    "tempat": [
+      "olharapo-c02",
+      "olharapo-c06",
+      "olharapo-c07"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE enormous humanlike giant, exactly ONE LARGE EYE in the MIDDLE OF THE FOREHEAD. Smooth continuous skin below it: no ordinary pair of eye sockets, no second or third eye. One head, two arms, two legs, two natural five-finger hands; coarse beard and rough fully opaque wool tunic and trousers. No horns, fangs or modern weapons.",
+      "claim_ids": [
+        "olharapo-c01",
+        "olharapo-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The violent giant's documented torch search through the pine wood is physical action. The ordinary torch lights his single eye and rough face; he does not project flame or eye beams.",
+      "claim_ids": [
+        "olharapo-c02",
+        "olharapo-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "The pine wood near the olharapos' house in the recorded Souto/Trás-os-Montes tale, no invented castle or ruins.",
+      "claim_ids": [
+        "olharapo-c02",
+        "olharapo-c06",
+        "olharapo-c07"
+      ]
+    }
+  ],
+  "aura": "The violent giant's documented torch search through the pine wood is physical action. The ordinary torch lights his single eye and rough face; he does not project flame or eye beams. [olharapo-c02, olharapo-c07]",
+  "artistic_choices": [
+    "Choose well-documented one-forehead-eye form c01/c02; the c08 narrator's uncertainty is not a second form added. One of the searching pair c07 shown while spouse stays outside frame. Coarse clothing, beard, camera and exact scale are editorial within documented giant stature; no harm or eating."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

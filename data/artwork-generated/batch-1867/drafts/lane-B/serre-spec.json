@@ -1,0 +1,70 @@
+{
+  "slug": "serre",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Serre.\nANATOMY: One enormous winged FISH creature, one fish head/two natural eyes, fish scales, one fish tail, exactly TWO ENORMOUS WINGS, no legs, no human torso. A conspicuous SERRATED SAW CREST runs atop the head and back. [serre-c01, serre-c07, serre-c08]\nMOMENT: Surge immediately beside a medieval sailing ship and rake its hull with the serrated crest; two vast raised wings form a wall across the wind. Show canvas sail behind its wings dropping slack while sea spray erupts along the cut hull; intact tiny sailors recoil, no injury. [serre-c01, serre-c08]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Open sea directly alongside the threatened sailing ship, violent dark water and failing sail. [serre-c07, serre-c08]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Two wing material and fish proportions editorial; no added horns, limbs, fire or lightning. Saw crest cuts wood, no gore. Wind obstruction depicted by drooping sail and wings rather than energy.",
+  "depicted_variant": "Saw-crested winged fish wrecking hull as raised wings cut off the sailing wind.",
+  "basis_claim_ids": [
+    "serre-c01",
+    "serre-c07",
+    "serre-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "serre-c01",
+      "serre-c07",
+      "serre-c08"
+    ],
+    "kekuatan": [
+      "serre-c01",
+      "serre-c08"
+    ],
+    "tempat": [
+      "serre-c07",
+      "serre-c08"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous winged FISH creature, one fish head/two natural eyes, fish scales, one fish tail, exactly TWO ENORMOUS WINGS, no legs, no human torso. A conspicuous SERRATED SAW CREST runs atop the head and back.",
+      "claim_ids": [
+        "serre-c01",
+        "serre-c07",
+        "serre-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Surge immediately beside a medieval sailing ship and rake its hull with the serrated crest; two vast raised wings form a wall across the wind. Show canvas sail behind its wings dropping slack while sea spray erupts along the cut hull; intact tiny sailors recoil, no injury.",
+      "claim_ids": [
+        "serre-c01",
+        "serre-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Open sea directly alongside the threatened sailing ship, violent dark water and failing sail.",
+      "claim_ids": [
+        "serre-c07",
+        "serre-c08"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: serre-c01, serre-c07, serre-c08.",
+  "artistic_choices": [
+    "Two wing material and fish proportions editorial; no added horns, limbs, fire or lightning. Saw crest cuts wood, no gore. Wind obstruction depicted by drooping sail and wings rather than energy.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

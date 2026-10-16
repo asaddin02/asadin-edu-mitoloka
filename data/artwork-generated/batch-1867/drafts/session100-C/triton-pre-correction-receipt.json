@@ -1,0 +1,90 @@
+{
+  "slug": "triton",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Triton (fabeldier).\nANATOMY: One monstrous half-man half-fish, human nose/ears/mouth/two eyes, two human arms with five fingers each, entire torso rough scaled and one enormous FISH TAIL instead of legs/feet. Opaque rough scaled covering across trunk, no exposed genitals. [triton-c01, triton-c03, triton-c07]\nMOMENT: Haul its immense heavy scaled body onto ONE SIDE of a wooden ship at night, sit across the gunwale and grip it as weight tilts that side deep into the sea; water pours OVER the lowered rail into hold and tiny intact sailors scramble toward high side. Monster turns face toward viewer. [triton-c02]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Night sea and ship side immediately beneath the triton, tilted rail with clearly visible incoming water. [triton-c02]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. No conch or divine calming power combined with ship-swamping story. Cloth at waist optional editorial for modesty, no legs under tail. Mass and rocking water are physical, no magic aura.",
+  "depicted_variant": "Rough-scaled fish-tailed water monster swamping a ship by sitting on its side.",
+  "basis_claim_ids": [
+    "triton-c01",
+    "triton-c03",
+    "triton-c07",
+    "triton-c02"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "triton-c01",
+      "triton-c03",
+      "triton-c07"
+    ],
+    "kekuatan": [
+      "triton-c02"
+    ],
+    "tempat": [
+      "triton-c02"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One monstrous half-man half-fish, human nose/ears/mouth/two eyes, two human arms with five fingers each, entire torso rough scaled and one enormous FISH TAIL instead of legs/feet. Opaque rough scaled covering across trunk, no exposed genitals.",
+      "claim_ids": [
+        "triton-c01",
+        "triton-c03",
+        "triton-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Haul its immense heavy scaled body onto ONE SIDE of a wooden ship at night, sit across the gunwale and grip it as weight tilts that side deep into the sea; water pours OVER the lowered rail into hold and tiny intact sailors scramble toward high side. Monster turns face toward viewer.",
+      "claim_ids": [
+        "triton-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night sea and ship side immediately beneath the triton, tilted rail with clearly visible incoming water.",
+      "claim_ids": [
+        "triton-c02"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: triton-c01, triton-c03, triton-c07, triton-c02.",
+  "artistic_choices": [
+    "No conch or divine calming power combined with ship-swamping story. Cloth at waist optional editorial for modesty, no legs under tail. Mass and rocking water are physical, no magic aura.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-febc2984-2f26-4489-9658-fbbf3318694f.png",
+  "generated_at": "2026-10-15T12:09:56.845Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/triton.png",
+  "native_sha256": "a12a7ac61d4f3bf650057615d4b4fc80cce18e05a50b11fded8ea6ee54388873",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. One human-faced rough-scaled monstrous merman, two arms/hands and one fish tail with no feet; sitting on lowered gunwale visibly admits water over rail c02. Night ship and recoiling intact sailors, threatening direct gaze, supernatural form and ship-swamping event clear at200px. No conch or unrelated effects. No text, border, borrowed franchise design or gore.",
+    "limitations": [
+      "Opaque scales cover torso/hips; human head and hands exposed as sourced."
+    ],
+    "native_sha256": "a12a7ac61d4f3bf650057615d4b4fc80cce18e05a50b11fded8ea6ee54388873",
+    "reviewed_at": "2026-10-15T12:10:57.085Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "a12a7ac61d4f3bf650057615d4b4fc80cce18e05a50b11fded8ea6ee54388873",
+    "notes": "Anatomy and the ship-swamping deed match, but the long wet hair, full beard, muscular build and gold-green scale torso read as a live-action Aquaman (actor likeness / film design) — the policy forbids borrowed film designs. Redraw the face and build as the source's rough-scaled sea monster [claims], not a screen hero; keep the tilting ship."
+  }
+}

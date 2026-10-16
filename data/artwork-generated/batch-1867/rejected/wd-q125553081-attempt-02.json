@@ -1,0 +1,69 @@
+{
+  "slug": "wd-q125553081",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-065.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 馬鹿.\nANATOMY: One historical-scroll UMASHIKA, horse-like body/head wearing a fully opaque rough ROBE, exactly ONE HORN on crown, two BULGING EYEBALLS protruding upward, four limbs with SPLIT DEERLIKE HOOVES. No ordinary horse shoes, hands, antlers, wings, extra heads or single cyclops eye. [wd-q125553081-c02, wd-q125553081-c07]\nMOMENT: Step awkwardly and thrust its TWO FORELEGS outward to either side in the scrolls documented strange gesticulation, bulging upward eyes and single crown horn emphasized. Loom close toward viewer from low camera; contorted comical motion becomes uncanny rather than cute, without malicious attack or invented power. [wd-q125553081-c02, wd-q125553081-c07]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Dark plain studio-like shadow ground, no invented narrative setting, robe hem and split hind hooves grounded. []\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Choose Nichibunken historical two-bulging-eye one-horn robe variant c07, not combine with Yokai.com single-eye deer-body variant c05. Behavior unknown c03; gesture only from scroll description, no possession story or effects. Keep source comical motion but uncanny realism avoids cute mascot.\nTARGETED REPAIR: Keep robe, exactly ONE crown horn, four CLOVEN hooves and strange spread-foreleg gesture. Exactly TWO eyes TOTAL, the TWO upward bulging eyeballs. REMOVE both extra normal horse eyes below them; smooth continuous fur must replace all lower eye sockets. No more eyes anywhere. Make the bulging eyes stare directly toward viewer, organic and unsettling rather than googly cross-eyed toy. Adult rough elongated face, one hard side light, deep shadow; retain awkward original scroll gesture but no cute mascot expression, no evil attack or power.",
+  "depicted_variant": "One-horn robed horse yokai with upward bulging eyes and spread cloven forehooves.",
+  "basis_claim_ids": [
+    "wd-q125553081-c02",
+    "wd-q125553081-c07"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q125553081-c02",
+      "wd-q125553081-c07"
+    ],
+    "kekuatan": [
+      "wd-q125553081-c02",
+      "wd-q125553081-c07"
+    ],
+    "tempat": [],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One historical-scroll UMASHIKA, horse-like body/head wearing a fully opaque rough ROBE, exactly ONE HORN on crown, two BULGING EYEBALLS protruding upward, four limbs with SPLIT DEERLIKE HOOVES. No ordinary horse shoes, hands, antlers, wings, extra heads or single cyclops eye.",
+      "claim_ids": [
+        "wd-q125553081-c02",
+        "wd-q125553081-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Step awkwardly and thrust its TWO FORELEGS outward to either side in the scrolls documented strange gesticulation, bulging upward eyes and single crown horn emphasized. Loom close toward viewer from low camera; contorted comical motion becomes uncanny rather than cute, without malicious attack or invented power.",
+      "claim_ids": [
+        "wd-q125553081-c02",
+        "wd-q125553081-c07"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: wd-q125553081-c02, wd-q125553081-c07.",
+  "artistic_choices": [
+    "Choose Nichibunken historical two-bulging-eye one-horn robe variant c07, not combine with Yokai.com single-eye deer-body variant c05. Behavior unknown c03; gesture only from scroll description, no possession story or effects. Keep source comical motion but uncanny realism avoids cute mascot.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1867/rejected/wd-q125553081-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1867/rejected/wd-q125553081-attempt-01.json",
+      "native_sha256": "f45380c49b09386790bc5e1ad5a2e1fd811b303a4753761888b6bdeeb63c2549",
+      "reason": "Self-reject: has two upward protruding eyes PLUS two ordinary horse eyes below, so four eyes rather than intended two."
+    }
+  ],
+  "original_file": "data/artwork-generated/batch-1867/rejected/wd-q125553081-attempt-02.png",
+  "receipt_file": "data/artwork-generated/batch-1867/rejected/wd-q125553081-attempt-02.json",
+  "native_sha256": "996719d9c80ceccf86263a5bc775b6627954e99614283f9dbe10040b8f87af10",
+  "reason": "Self-reject: eye count corrected but googly mismatched gaze and dancing pose still read comic rather than dangerous or awe-inspiring at thumbnail.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-a0918710-15a1-4a5e-8590-4577cdee568d.png",
+  "rejected_at": "2026-10-15T12:17:39.654Z"
+}

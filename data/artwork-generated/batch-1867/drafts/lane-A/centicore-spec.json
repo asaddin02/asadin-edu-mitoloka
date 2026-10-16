@@ -1,0 +1,68 @@
+{
+  "slug": "centicore",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Centicore or eale, the movable-horned beast in Pliny's account.\nANATOMY: ONE huge quadruped the size of a river-horse, BLACK or tawny coarse hide, a broad wild BOAR'S jaw, four strong hoofed legs, an ELEPHANT'S thin rope tail with coarse hair tip, and exactly TWO long straight sharp movable horns more than a cubit long. In this combat moment one horn aims forward toward camera and the other swivels backward along the head. NO trunk, no horse mane, no wings, no ordinary bovine face. [centicore-c01, centicore-c03, centicore-c05]\nMOMENT: Wrench its head around toward the viewer as if countering a blow, front hooves ploughing the earth, one long straight horn aimed forward and the other rotated backward. Open the broad boar jaw in an angry grunt; no victim or gore.\nPOWER: No documented projected power; the two movable horns physically change direction for combat and the hippo-sized animal displaces earth by its weight. No magic. [centicore-c01, centicore-c05]\nSCALE & CAMERA / LIGHT & WEATHER: Extreme low three-quarter side view makes both horn directions and the elephant tail visible. A tiny adjacent scrub tree only reaches the heavy beast's flank, consistent with river-horse size. One low amber dusk side light, dark black hide and ordinary soil dust.\nSURFACE: tactile natural material, rough lived-in textures; never smooth plastic.\nSETTING: A sparse stony Aethiopian ground, editorial rocky landscape for Pliny's stated habitat, no invented medieval heraldic shield or inscription. [centicore-c04]\nMOOD: imposing, dangerous or awe-inspiring through the sourced form and physical action; never ordinary, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbol, logo, border, frame or watermark anywhere; no extra heads, eyes or limbs; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magical runes.",
+  "depicted_variant": "Pliny's eale/centicore pivots its two horns in combat.",
+  "basis_claim_ids": [
+    "centicore-c01",
+    "centicore-c03",
+    "centicore-c05",
+    "centicore-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "centicore-c01",
+      "centicore-c03",
+      "centicore-c05"
+    ],
+    "kekuatan_perbuatan": [
+      "centicore-c01",
+      "centicore-c05"
+    ],
+    "tempat": [
+      "centicore-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE huge quadruped the size of a river-horse, BLACK or tawny coarse hide, a broad wild BOAR'S jaw, four strong hoofed legs, an ELEPHANT'S thin rope tail with coarse hair tip, and exactly TWO long straight sharp movable horns more than a cubit long. In this combat moment one horn aims forward toward camera and the other swivels backward along the head. NO trunk, no horse mane, no wings, no ordinary bovine face.",
+      "claim_ids": [
+        "centicore-c01",
+        "centicore-c03",
+        "centicore-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented projected power; the two movable horns physically change direction for combat and the hippo-sized animal displaces earth by its weight. No magic.",
+      "claim_ids": [
+        "centicore-c01",
+        "centicore-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A sparse stony Aethiopian ground, editorial rocky landscape for Pliny's stated habitat, no invented medieval heraldic shield or inscription.",
+      "claim_ids": [
+        "centicore-c04"
+      ]
+    }
+  ],
+  "aura": "No documented projected power; the two movable horns physically change direction for combat and the hippo-sized animal displaces earth by its weight. No magic.",
+  "artistic_choices": [
+    "Explicit Pliny eale variant c03/c05 selected instead of c02 horse/lion/ears-in-mouth variant. These competing descriptions are not combined. Exact terrain, hide texture, camera and combat footwork editorial; horn rotation is sourced c01/c05."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

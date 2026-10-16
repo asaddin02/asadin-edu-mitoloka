@@ -12,7 +12,7 @@
     "bukan-makhluk": 139
   },
   "status": "in-progress",
-  "complete": 43,
+  "complete": 46,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -4877,7 +4877,7 @@
         "wd-q12284431-c08"
       ],
       "original_file": "data/artwork-generated/batch-1817/originals/wd-q12284431.png",
-      "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
+      "native_sha256": "4f36f25a8e438976fac1ce40c189a2daa8e70bd7df862ebd07b15285d4efb101",
       "receipt_path": "data/artwork-generated/batch-1817/wd-q12284431.json"
     },
     {
@@ -10529,7 +10529,7 @@
       "slug": "wd-q17065939",
       "canonical_name": "當扈",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-071.review.json",
       "research": {
@@ -10833,9 +10833,57 @@
         "wd-q17065939-c07",
         "wd-q17065939-c08"
       ],
-      "original_file": "data/artwork-generated/batch-1817/originals/wd-q17065939.png",
-      "native_sha256": "6701592d0f0f45aa662f4a6e19c06500f9c2cd22a79996426a08e345ae1d2543",
-      "receipt_path": "data/artwork-generated/batch-1817/wd-q17065939.json"
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1817/originals/wd-q17065939.png",
+      "native_sha256": "02083059f8ab6038a3474b84b4067c2b10eeb102cdf008ada395dffa175da504",
+      "receipt_path": "data/artwork-generated/batch-1817/wd-q17065939.json",
+      "url": "/assets/art/wd-q17065939-verified.webp",
+      "prompt": "Edit the supplied Danghu illustration to correct ONLY the pheasant anatomy. Keep its square cinematic painterly composition, close low camera, mountain sunset, long flowing throat-beard as the sole flight mechanism, warm dark colors, two feet, one body, long barred pheasant tail, and all feather textures. Replace the eagle head and hooked raptor beak with the clearly SMALL rounded head of a pheasant and a SHORT stout gamebird bill, tapered gently and completely WITHOUT a hooked raptor tip; retain two natural eyes, a small modest gamebird face, no eagle brow or hooked upper mandible. Make the two normal feathered wings visibly FOLDED FLAT along the left and right sides of the pheasant body; only the huge fibrous throat-beard spreads outward to provide lift. The beard must visibly grow from beneath the throat, not from the wings. Source anatomy wd-q17065939-c01/c06, beard flight c03/c06/c07, Mount Shangshen c02. Preserve one head, two eyes, two wings, two feet, one long barred tail. No new magic, no aura, no extra anatomy, no lettering, signature, pseudo-writing, border, watermark, nudity or gore. Original mythological creature, no film/game/anime design.",
+      "depicted_variant": "A pheasant-shaped Danghu with small gamebird head and short bill, folded wings, and a huge throat-beard carrying it through the sky.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Pheasant-shaped bird, small rounded gamebird head, short stout gently tapered bill with no hooked raptor tip, long barred tail, two folded wings and two feet.",
+          "claim_ids": [
+            "wd-q17065939-c01",
+            "wd-q17065939-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Long throat-beard fans into the airflow and alone bears the bird in flight; both ordinary feathered wings remain folded.",
+          "claim_ids": [
+            "wd-q17065939-c03",
+            "wd-q17065939-c06",
+            "wd-q17065939-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Flight over Mount Shangshen.",
+          "claim_ids": [
+            "wd-q17065939-c02"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "wd-q17065939-c01",
+        "wd-q17065939-c06",
+        "wd-q17065939-c03",
+        "wd-q17065939-c07",
+        "wd-q17065939-c02"
+      ],
+      "aura": "Impossible beard-borne flight c03/c06/c07, close framing and Mount Shangshen c02; no invented elemental effect.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Root memeriksa native1254 dan200px. Kepala kecil bulat serta paruh pendek-tebal burung pegar mengganti kepala/paruh elang; dua sayap berbulu terlipat di sisi tubuh, tepat dua kaki dan satu ekor panjang berbelang. Janggut panjang tumbuh di bawah tenggorokan dan menyebar sebagai satu-satunya alat terbang c03/c06/c07, Gunung Shangshen c02. Gerak dan bentuk ganjil dominan tanpa efek baru atau tulisan. Tujuh uji sangar lulus.",
+        "limitations": [],
+        "native_sha256": "02083059f8ab6038a3474b84b4067c2b10eeb102cdf008ada395dffa175da504",
+        "reviewed_at": "2026-10-15T11:52:05.865Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "288d48624a4d9a42bf7fef920941ab88e6d0f1237a8cd0e582a487457a2422e0"
     },
     {
       "index": 28,
@@ -15363,7 +15411,7 @@
       "slug": "wd-q10441691",
       "canonical_name": "破镜兽",
       "worker": "codex",
-      "status": "pending",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-070.review.json",
       "research": {
@@ -15657,7 +15705,9 @@
         "wd-q10441691-c07",
         "wd-q10441691-c08",
         "wd-q10441691-c09"
-      ]
+      ],
+      "receipt_path": "data/artwork-generated/batch-1817/wd-q10441691.json",
+      "reason": "Tiga percobaan total tidak lolos Sangar. Bentuk terdokumentasi hanya hewan seperti harimau/macan tutul yang lebih kecil (c03/c05). Dua koreksi memperlihatkan konfrontasi pada induk (c02/c05) tanpa gore, tetapi pada200px tetap terbaca anak harimau biasa memanjat/bermain dengan induknya. Tidak menambah anatomi atau kuasa rekaan dan tidak meluluskan gambar gagal."
     },
     {
       "index": 40,
@@ -18387,7 +18437,7 @@
       "slug": "wd-q12279265",
       "canonical_name": "Rain Bull",
       "worker": "codex",
-      "status": "pending",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-127.review.json",
       "research": {
@@ -18894,14 +18944,71 @@
         "wd-q12279265-c06",
         "wd-q12279265-c10",
         "wd-q12279265-c15"
-      ]
+      ],
+      "receipt_path": "data/artwork-generated/batch-1817/wd-q12279265.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1817/originals/wd-q12279265.png",
+      "native_sha256": "67ceaf253ba56d84b05051d3ad1364bb513dfa85fd07b478a03742dd0f15fe8c",
+      "url": "/assets/art/wd-q12279265-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Rain Bull, the living Rain in bull form in San mythology, carrying the adult woman Kua. ANATOMY: exactly one powerful bull body, one head, two horns, two eyes, four bovine legs and one tail; on its back one fully clothed adult woman Kua in plain opaque earth-colored woven wrap covering chest and thighs. [wd-q12279265-c04,c10,c12,c14] MOMENT: the Rain Bull strides diagonally toward the viewer out of a drying water pit, Kua leaning forward on its back and visibly scattering a handful of small green buchu leaves onto the bull's forehead between its horns. [c10,c13,c14,c16] POWER: make the bull unmistakably the Rain itself: the animal emerges from a dense body-hugging storm cloud shaped by its shoulders and back, heavy rain streams physically downward from its mane, flanks and surrounding moving cloud, creating a sharply bounded curtain ONLY along the animal's path; outside that moving curtain the distant earth and sky are clear and dry. Behind its hind feet, the water pit is already drying to cracked mud. No ordinary landscape-wide rain. No lightning or beams. [c02,c04,c12,c16] SCALE & CAMERA: close three-quarter low view, bull fills the square from horns to hooves, rider clearly visible and not tiny; natural bull scale, no giant inflation. LIGHT & WEATHER: one break of warm low sun sharply rim-lights the bull, rider, individual leaves and cascading rain against dark walnut storm shadows. SURFACE: wet coarse dark hide, textured horns and hooves, dull opaque cloth, individual glossy buchu leaves, churned wet mud in front and drying pit behind. SETTING: minimal southern African water pit, travel through the boundary between living rain and dry earth. [c02,c16] MOOD: overwhelming, benevolent, life-giving living Rain, respectful to a living tradition; forceful motion and imposing body, never a placid farm bull. HARD CONSTRAINTS: no text, lettering, signatures, pseudo-writing, symbols, logo, border, frame, watermark, rectangular patches or collage seams; no extra heads or limbs, no nudity or explicit gore, no neon aura, energy ribbons, magical tattoos, no borrowed film/game/anime/comic design. Original full-image generation, not an edit.",
+      "depicted_variant": "The living Rain Bull carries Kua as she scatters buchu over his forehead, rain traveling with his body and a drying pit behind him.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One bull-shaped manifestation of Rain, one head, two horns, four legs; adult Kua rides on its back fully clothed.",
+          "claim_ids": [
+            "wd-q12279265-c04",
+            "wd-q12279265-c10",
+            "wd-q12279265-c12",
+            "wd-q12279265-c14"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Kua scatters buchu on its forehead; the rain moves with the bull, visibly confined to its advancing body and path, while the pit dries behind it.",
+          "claim_ids": [
+            "wd-q12279265-c02",
+            "wd-q12279265-c10",
+            "wd-q12279265-c13",
+            "wd-q12279265-c16"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "The Rain Bull leaving its water pit, with a sharply bounded moving rain curtain around its body.",
+          "claim_ids": [
+            "wd-q12279265-c02",
+            "wd-q12279265-c16"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "wd-q12279265-c02",
+        "wd-q12279265-c04",
+        "wd-q12279265-c10",
+        "wd-q12279265-c12",
+        "wd-q12279265-c13",
+        "wd-q12279265-c14",
+        "wd-q12279265-c16"
+      ],
+      "aura": "Rain takes bovine form c04/c12 and moves with him c02; Kua rides and scatters buchu c10/c13/c14 while the pit dries c16.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Agen utama melihat PNG asli dan thumbnail 200px. Satu banteng, dua tanduk, dua mata dan empat kaki dengan oklusi alami; Kua dewasa berpakaian buram jelas menunggang dan menaburkan buchu di dahi c10/c13/c14. Awan melekat pada tubuh dan tirai hujan berpindah c02/c04/c12, bumi kering serta kolam menyusut di belakang c16. Gerak melangkah dan tetes air nyata, tanpa petir, tulisan, jahitan edit, aura generik atau gore. Ketujuh uji sangar lulus.",
+        "limitations": [],
+        "native_sha256": "67ceaf253ba56d84b05051d3ad1364bb513dfa85fd07b478a03742dd0f15fe8c",
+        "reviewed_at": "2026-10-15T11:50:23.395Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7750c957cea41aade993360243ad0be93a2eccc0559c14b620d62d46681675c1"
     },
     {
       "index": 50,
       "slug": "wd-q15955445",
       "canonical_name": "比肩兽",
       "worker": "codex",
-      "status": "pending",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-071.review.json",
       "research": {
@@ -19217,7 +19324,59 @@
         "wd-q15955445-c05",
         "wd-q15955445-c06",
         "wd-q15955445-c08"
-      ]
+      ],
+      "receipt_path": "data/artwork-generated/batch-1817/wd-q15955445.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-edu-mitoloka/data/artwork-generated/batch-1817/originals/wd-q15955445.png",
+      "native_sha256": "aee307f98e79dfdd6770d5efd5335ef924819f18b04365778e9dc4bc16848c97",
+      "url": "/assets/art/wd-q15955445-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Bijianshou or Jue, the auspicious two-headed hare-and-rat animal of Chinese tradition.\nANATOMY: Exactly TWO separate adult hare heads side by side on ONE shared furred torso. Both entire faces and all FOUR long ears are fully inside the square with margin above their tips. Exactly FOUR limbs in total: TWO extremely short ratlike front legs with tiny clawed forefeet, and TWO dramatically longer hare hind legs ending in extremely long narrow hindfeet. The front feet are only about ONE TENTH the length of the hindfeet (one cun versus nearly one chi). Tiny forepaws hang separately beneath the chest. The two elongated hindfeet stretch diagonally forward beneath the single body with a clear gap between them, their long heel-to-toe shapes unambiguous. Coarse dark brown-grey adult hare fur, long angular lean mature hare faces, small narrowly slit wild eyes under furrowed natural brow ridges. Angular bony cheeks and flattened ears sweeping backward emphasize extraordinary wild dignity. No round glossy baby eyes, no smiling expression, no extra feet [wd-q15955445-c01, wd-q15955445-c05, wd-q15955445-c08]\nMOMENT: Hurtle forward and brake directly in front of the viewer, both long hindfeet forcefully gouging soil beneath the airborne chest in a decisive landing, body pitched toward the camera. One head grips a bitten tuft of sweet grass; the other head looks toward the viewer with unblinking severe wild focus. Both long hindfeet and both tiny rat forefeet are fully visible and separated [wd-q15955445-c03, wd-q15955445-c05, wd-q15955445-c08].\nPOWER: No documented supernatural power; awe comes from the impossible two-headed anatomy, dynamic leap, and light. Only ordinary gritty earth and grass thrown violently by the landing, no magic [wd-q15955445-c08].\nSCALE & CAMERA: Grass-level extreme low angle, tight three-quarter frontal full-animal view; both heads, all four ears and all FOUR limbs fit inside the square. The animal fills most of the image but retains small natural hare scale, with ordinary tall grass reaching its chest. No giant scale or human miniatures.\nLIGHT & WEATHER: One hard low amber shaft from the left cuts through a nearly black dusk scene. Strong sculptural side light on half of each stern adult face, opposite halves almost black; antique-gold rim along ears and long hindfeet. No visible sun, no bright golden sky, no soft pastoral sunset. Violently thrown ordinary soil and grass around the feet.\nSURFACE: Dense coarse adult hare fur with sharp bristles and earth on the long hindfeet; thin ratlike clawed forefeet; damp blades of sweet grass.\nSETTING: A minimal northern grass patch, referring to the northern Jue account, editorial terrain without invented architecture [wd-q15955445-c05, wd-q15955445-c08].\nMOOD: Austere and awe-inspiring through startling anatomy and energetic movement. This is auspicious and cooperative, never evil; preserve wild adult dignity, never cute, placid, smiling or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, logo, border, frame or watermark; exactly two heads on ONE torso, exactly two tiny rat forefeet and two extremely elongated hare hindfeet, no extra body or limbs; no horns, wings, fangs, glowing eyes or tattoos; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+      "depicted_variant": "A two-headed Jue with hare heads and fur, two short ratlike forefeet, and two elongated hare hindfeet leaps while carrying sweet grass.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Exactly two hare heads on one body; two very short ratlike forefeet and two much longer hare hindfeet (approximately one cun versus nearly one chi).",
+          "claim_ids": [
+            "wd-q15955445-c01",
+            "wd-q15955445-c05",
+            "wd-q15955445-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical leap and bitten sweet grass for food provision; no supernatural power or magical effects.",
+          "claim_ids": [
+            "wd-q15955445-c03",
+            "wd-q15955445-c05",
+            "wd-q15955445-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Minimal northern grass patch as editorial terrain for the northern Jue account.",
+          "claim_ids": [
+            "wd-q15955445-c05",
+            "wd-q15955445-c08"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "wd-q15955445-c01",
+        "wd-q15955445-c05",
+        "wd-q15955445-c08",
+        "wd-q15955445-c03"
+      ],
+      "aura": "Auspicious awe comes from the two heads (c01), radically unequal rat and hare feet (c05/c08), and forceful physical leap (c08), without magical effects.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Viewed the native 1254x1254 PNG and a 200x200 thumbnail. All seven Uji Sangar items pass: (1) two-headed subject dominates; (2) stern forward eyes, shared two-headed body and dramatically long hindfeet retain uncanny imposing presence at 200px without making this auspicious creature evil; (3) forceful landing throws soil and grass; (4) soil motion is physical leaping c08 and grass provision c03/c05, with no supernatural effects; (5) exactly two heads, four hare ears, one torso, two tiny ratlike forefeet and two very long hare hindfeet are readable; (6) no lettering, signature, watermark or border and no borrowed entertainment design; (7) unusual single-body anatomy, stern faces and landing distinguish it from an ordinary/cute/placid animal. Natural grass provides small-animal scale.",
+        "limitations": [],
+        "native_sha256": "aee307f98e79dfdd6770d5efd5335ef924819f18b04365778e9dc4bc16848c97",
+        "reviewed_at": "2026-10-15T11:57:03.311Z"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "74706b3f417924043815aa0ebd219209bc97ee3148b2748876c02850103887c4"
     }
   ],
   "replacements": [],
@@ -19253,5 +19412,12 @@
     "without_visual_claims": [],
     "earlier_omissions": [],
     "omitted": []
+  },
+  "generation_complete": true,
+  "generation_completed_at": "2026-10-15T12:02:18.141Z",
+  "generation_status_counts": {
+    "reviewed": 43,
+    "tidak-digambar": 3,
+    "awaiting-independent-review": 4
   }
 }

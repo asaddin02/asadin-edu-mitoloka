@@ -1,0 +1,73 @@
+{
+  "slug": "vegetable-man-cryptid",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-148.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Vegetable Man, plant-bodied thin humanoid of the single 1968 account.\nANATOMY: One seven-foot humanoid with extremely thin plant-like torso and arms, semi-human face, pointed ears, yellow eyes, tuft of hair, suction cups on elongated fingertips; two arms two legs one head; bark-like opaque plant body without sexual anatomy [c02, c05, c10]\nMOMENT: Step from dark brush toward viewer and extend one impossibly thin arm almost into lens, suction cups clearly visible under fingertips, yellow eyes stare down.\nPOWER: Grip toward viewer with suction-cupped fingers; no magic or invented vines emitted from body [c02, c05]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one late low amber sun filtering through branches, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: fibrous bark-like skin, fine leaflike ridges, damp suction discs.\nSETTING: Wooded ground near Grant Town West Virginia during the reported return from groundhog hunting [c01, c04]\nMOOD: menacing uncanny cryptid; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "plant-bodied thin humanoid of the single 1968 account",
+  "basis_claim_ids": [
+    "vegetable-man-cryptid-c02",
+    "vegetable-man-cryptid-c05",
+    "vegetable-man-cryptid-c10",
+    "vegetable-man-cryptid-c01",
+    "vegetable-man-cryptid-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One seven-foot humanoid with extremely thin plant-like torso and arms, semi-human face, pointed ears, yellow eyes, tuft of hair, suction cups on elongated fingertips; two arms two legs one head; bark-like opaque plant body without sexual anatomy",
+      "claim_ids": [
+        "vegetable-man-cryptid-c02",
+        "vegetable-man-cryptid-c05",
+        "vegetable-man-cryptid-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Grip toward viewer with suction-cupped fingers; no magic or invented vines emitted from body",
+      "claim_ids": [
+        "vegetable-man-cryptid-c02",
+        "vegetable-man-cryptid-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wooded ground near Grant Town West Virginia during the reported return from groundhog hunting",
+      "claim_ids": [
+        "vegetable-man-cryptid-c01",
+        "vegetable-man-cryptid-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "vegetable-man-cryptid-c02",
+      "vegetable-man-cryptid-c05",
+      "vegetable-man-cryptid-c10"
+    ],
+    "power_domain_deeds": [
+      "vegetable-man-cryptid-c02",
+      "vegetable-man-cryptid-c05"
+    ],
+    "setting": [
+      "vegetable-man-cryptid-c01",
+      "vegetable-man-cryptid-c04"
+    ],
+    "disposition": [
+      "vegetable-man-cryptid-c05"
+    ]
+  },
+  "aura": "Grip toward viewer with suction-cupped fingers; no magic or invented vines emitted from body vegetable-man-cryptid-c02,vegetable-man-cryptid-c05",
+  "artistic_choices": [
+    "Illustration of reported legend, not evidence of a real creature. No Fallout design; seven-foot height only, no giant scale. Plant texture editorial implementation of plant-like body."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

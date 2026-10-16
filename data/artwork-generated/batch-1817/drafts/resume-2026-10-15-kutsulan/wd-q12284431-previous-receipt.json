@@ -1,0 +1,82 @@
+{
+  "slug": "wd-q12284431",
+  "worker": "codex",
+  "worker_agent": "lane1817_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-127.review.json",
+  "batch": 1817,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kutsulan, the big lame wolf feared as the most dangerous wolf and mythical pack leader in Bulgarian folk belief.\nANATOMY: exactly one big wolf, one head, two eyes, four legs with one front leg held weakly crooked and off the ground in a clearly lame gait; coarse ragged fur, wolf teeth and paws; no horns, extra limbs, glowing eyes or invented mutations [wd-q12284431-c01, wd-q12284431-c02, wd-q12284431-c08]\nMOMENT: lunge unevenly toward the viewer from beneath a fruit tree, lips curled back in a ferocious snarl, sound forepaw digs earth while lame foreleg stays raised; shoulders twist from the limp.\nPOWER: no documented power; menace through documented bloodthirsty disposition, big lame wolf anatomy and physical hunting movement only [wd-q12284431-c01, wd-q12284431-c06]\nSCALE & CAMERA: extreme low angle; tightly framed wolf fills square from snarling muzzle to raised lame paw, a big real wolf rather than invented giant scale.\nLIGHT & WEATHER: one low sunset through tree branches, rim light, dry dust kicked from ground.\nSURFACE: matted dark grey-brown wolf fur, wet natural nose and gums, cracked earth and rough bark.\nSETTING: ground beneath a fruit tree from the wolf's encounter story [wd-q12284431-c04]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No horns, tattoos, glyphs, magical breath, huge giant scale or exposed wounds. Show unmistakable lame gait.",
+  "depicted_variant": "Big lame wolf Kutsulan snarling and lunging from beneath fruit tree.",
+  "basis_claim_ids": [
+    "wd-q12284431-c02",
+    "wd-q12284431-c08",
+    "wd-q12284431-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q12284431-c02",
+      "wd-q12284431-c08"
+    ],
+    "kekuatan": [],
+    "tempat": [
+      "wd-q12284431-c04"
+    ],
+    "sifat": [
+      "wd-q12284431-c01",
+      "wd-q12284431-c06"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Big wolf with visibly lame front leg, four-legged lame variant rather than one-legged variant.",
+      "claim_ids": [
+        "wd-q12284431-c02",
+        "wd-q12284431-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Beneath fruit tree of encounter tale.",
+      "claim_ids": [
+        "wd-q12284431-c04"
+      ]
+    }
+  ],
+  "aura": "Menace from bloodthirsty big lame wolf identity (c01,c02,c06), no power aura.",
+  "artistic_choices": [
+    "Choose lame wolf variant c02, not old man or one-legged variant.",
+    "Which leg is lame, fur colour and crooked gait are editorial visualization of lameness.",
+    "Sunset and dust are editorial; no supernatural power is documented and no magic depicted.",
+    "Close framing creates menace without giant inflation."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13875-fb19-75f1-b51f-f509d95dd2c1/exec-49ddc14c-0f65-48b2-b1a0-7e7f0cb2f4da.png",
+  "generated_at": "2026-10-14T03:56:24.678868+00:00",
+  "original_file": "data/artwork-generated/batch-1817/originals/wd-q12284431.png",
+  "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected, all seven Sangar checks pass. One snarling large wolf, two eyes, four legs with foreground lame foreleg held crooked off ground; sound forepaw impacts dust. Fruit tree and apples visible. Threatening close lunge, no added anatomy, giant comparison, magic, injury, text or markings.",
+    "limitations": [],
+    "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
+    "reviewed_at": "2026-10-14T03:56:24.678868+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-15T15:40:00+07:00",
+    "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
+    "notes": "Reads as an ordinary wolf lifting a paw under an apple tree — the 'ordinary animal' failure; the lameness is only a raised foot. Use what the sources give beyond 'big lame wolf' [c02]: the encounter tale, the lame wolf below a fruit tree in which a man is picking fruit [c04], and his role as the lone leader of the pack [c01, c08]. Make the lame leg plainly crippled (dragged or withered, not just lifted), the wolf clearly larger than a normal wolf, and the man in the tree in direct danger. No blood or eating."
+  },
+  "correction_notes": "Reads as an ordinary wolf lifting a paw under an apple tree — the 'ordinary animal' failure; the lameness is only a raised foot. Use what the sources give beyond 'big lame wolf' [c02]: the encounter tale, the lame wolf below a fruit tree in which a man is picking fruit [c04], and his role as the lone leader of the pack [c01, c08]. Make the lame leg plainly crippled (dragged or withered, not just lifted), the wolf clearly larger than a normal wolf, and the man in the tree in direct danger. No blood or eating."
+}

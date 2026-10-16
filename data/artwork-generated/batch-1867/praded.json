@@ -1,0 +1,92 @@
+{
+  "slug": "praded",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Praděd.\nANATOMY: One majestic OLD MAN with very long WHITE BEARD, one head/two eyes/two arms/two legs. MINER CLOTHING with a garment that SHINES LIKE GOLD and a SILVERY CLOAK over shoulders, fully opaque garments. No horns, crown, giant size, magical eyes or weapon. [praded-c03, praded-c12]\nMOMENT: Step forward in stern judgment from the underground treasure hall, long white beard sweeping across gold miner tunic, one open hand held toward viewer in commanding stop. A SMALL fully clothed shepherd boy at far edge recoils from heaps of dull gold coins, the dangerous greed encounter rather than a placid old-man portrait. The elder dominates close frame with stern face and massive foreground hand; respectful just protector. No killing or injury. [praded-c03, praded-c04]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Underground hall full of treasures in his mountain realm, rough cavern pillars, coin heaps, black recesses. [praded-c04, praded-c10]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. No supernatural powers c05; gold and silver are reflective garments under raking light, not aura. Human scale shown through tight perspective. Boy is intact and clothed.",
+  "depicted_variant": "Stern gold-clad white-bearded chief miner judging greed in subterranean treasure hall.",
+  "basis_claim_ids": [
+    "praded-c03",
+    "praded-c12",
+    "praded-c04",
+    "praded-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "praded-c03",
+      "praded-c12"
+    ],
+    "kekuatan": [
+      "praded-c03",
+      "praded-c04"
+    ],
+    "tempat": [
+      "praded-c04",
+      "praded-c10"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One majestic OLD MAN with very long WHITE BEARD, one head/two eyes/two arms/two legs. MINER CLOTHING with a garment that SHINES LIKE GOLD and a SILVERY CLOAK over shoulders, fully opaque garments. No horns, crown, giant size, magical eyes or weapon.",
+      "claim_ids": [
+        "praded-c03",
+        "praded-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Step forward in stern judgment from the underground treasure hall, long white beard sweeping across gold miner tunic, one open hand held toward viewer in commanding stop. A SMALL fully clothed shepherd boy at far edge recoils from heaps of dull gold coins, the dangerous greed encounter rather than a placid old-man portrait. The elder dominates close frame with stern face and massive foreground hand; respectful just protector. No killing or injury.",
+      "claim_ids": [
+        "praded-c03",
+        "praded-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underground hall full of treasures in his mountain realm, rough cavern pillars, coin heaps, black recesses.",
+      "claim_ids": [
+        "praded-c04",
+        "praded-c10"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: praded-c03, praded-c12, praded-c04, praded-c10.",
+  "artistic_choices": [
+    "No supernatural powers c05; gold and silver are reflective garments under raking light, not aura. Human scale shown through tight perspective. Boy is intact and clothed.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-4c441268-b9b7-4fe2-a9a3-0ab464c26d4f.png",
+  "generated_at": "2026-10-15T12:02:47.933Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/praded.png",
+  "native_sha256": "c3c9154549e0a243eaa35664fe38450dfc0e06dcee66bfbb02ed4952bd13ef28",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. Long white beard and stern judgment, visibly gold miner garment/silver cloak c12; treasure hall and intact shepherd boy c04. Foreground stop gesture and advancing foot read as authority at200px; five fingers each hand, two legs, no aura or added powers. No text, border, franchise design or explicit gore.",
+    "limitations": [
+      "Exact clothing cut and stop gesture editorial."
+    ],
+    "native_sha256": "c3c9154549e0a243eaa35664fe38450dfc0e06dcee66bfbb02ed4952bd13ef28",
+    "reviewed_at": "2026-10-15T12:06:23.669Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "c3c9154549e0a243eaa35664fe38450dfc0e06dcee66bfbb02ed4952bd13ef28",
+    "notes": "White-bearded old miner in gold-shining tunic and silver cloak stopping the greedy boy in the treasure hall. HELD: passes review but research culture is null (suggested 'tradisi pegunungan Jeseníky (Ceko–Jerman)'); the owner must choose a culture before it can be installed."
+  }
+}

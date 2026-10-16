@@ -1,0 +1,91 @@
+{
+  "slug": "nandi-bear",
+  "worker": "codex",
+  "worker_agent": "lane1767-C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "batch": 1767,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nandi bear, ferocious East African cryptid.\nANATOMY: One very powerfully built reddish-haired carnivore, HIGH FRONT SHOULDERS, long feet; quadruped anatomy with one head, two eyes, four legs and one tail. Bearlike head without added horns. [c05,c06]\nMOMENT: Rear aggressively on hind legs and drive long forefeet down toward the viewer, jaws open mid-charge. [c12]\nPOWER: No supernatural power or gore: physical attack threat and kicked-up savanna dirt from motion [c12]\nSCALE & CAMERA: Extreme low angle close confrontation, high shoulder profile clearly readable; fairly large animal scale c12\nLIGHT & WEATHER: Single low amber moonlight edge, black walnut shadows\nSURFACE: Rough shaggy reddish fur, worn teeth, soil on long feet\nSETTING: Savannas of Kenya and Tanzania at night, dry grass close behind [c18,c12]\nMOOD: Very fierce nocturnal man-killing carnivore c12, no victim shown\nHARD CONSTRAINTS: no text, lettering, pseudo-inscription, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; fully opaque covering where human skin would be nude; no explicit gore; no generic glow aura, neon outline or energy ribbons. One square image, native resolution at least 1024x1024.",
+  "depicted_variant": "Reddish high-shouldered carnivore rearing into attack",
+  "basis_claim_ids": [
+    "nandi-bear-c05",
+    "nandi-bear-c06",
+    "nandi-bear-c12",
+    "nandi-bear-c18"
+  ],
+  "claim_classification": {
+    "rupa": [
+      "nandi-bear-c05",
+      "nandi-bear-c06",
+      "nandi-bear-c12"
+    ],
+    "kuasa": [
+      "nandi-bear-c12"
+    ],
+    "tempat": [
+      "nandi-bear-c18"
+    ],
+    "sifat": [
+      "nandi-bear-c05",
+      "nandi-bear-c12"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Reddish powerful carnivore with high fore shoulders and long feet",
+      "claim_ids": [
+        "nandi-bear-c05",
+        "nandi-bear-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rearing on hind legs in threatening attack",
+      "claim_ids": [
+        "nandi-bear-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "East African savanna at night",
+      "claim_ids": [
+        "nandi-bear-c18",
+        "nandi-bear-c12"
+      ]
+    }
+  ],
+  "aura": "Ferocious build c05/c06; documented hind-leg stance and aggression c12.",
+  "artistic_choices": [
+    "Bearlike facial interpretation editorial from creature name; excludes speculative hyena and extinct-herbivore identities. No scalp/brain imagery. Dirt only contact motion."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13685-5d0d-7e81-b77b-8f51f37460ac/exec-007705db-ae27-4c79-81d8-51ec53de5c16.png",
+  "generated_at": "2026-10-13T18:38:12.821493+00:00",
+  "original_file": "data/artwork-generated/batch-1767/originals/nandi-bear.png",
+  "native_sha256": "9ae12af5e8d7d386cb13247514005614377ff3b245bbea2edc3cbff15fdc65de",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px dilihat. Uji Sangar 7/7 ya: reddish shaggy fur, massive raised shoulders, elongated forefeet c05/c06, four-limbed carnivore rearing c12, active confronting charge; soil is physical contact only, no gore/text/magic.",
+    "limitations": [],
+    "native_sha256": "9ae12af5e8d7d386cb13247514005614377ff3b245bbea2edc3cbff15fdc65de",
+    "reviewed_at": "2026-10-13T18:38:12.821493+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-14T10:38:53+07:00",
+    "native_sha256": "9ae12af5e8d7d386cb13247514005614377ff3b245bbea2edc3cbff15fdc65de",
+    "notes": "Reads as an ordinary grizzly bear charging in the savanna — the 'ordinary animal' failure. The bear face is an editorial guess from the name only (artistic_choices); the documented traits that would set it apart, the high front shoulders and long feet [nandi-bear-c05, c06], are hidden by the rearing pose. Redraw with a clearly sloping back and markedly high front shoulders, long feet and shaggy reddish hair, a fierce head that copies neither a bear nor a hyena, standing on its hind legs at night [c12]; the hut-doorway ambush of c14 would make a strong setting. Keep no scalping or brain imagery."
+  },
+  "correction_notes": "Reads as an ordinary grizzly bear charging in the savanna — the 'ordinary animal' failure. The bear face is an editorial guess from the name only (artistic_choices); the documented traits that would set it apart, the high front shoulders and long feet [nandi-bear-c05, c06], are hidden by the rearing pose. Redraw with a clearly sloping back and markedly high front shoulders, long feet and shaggy reddish hair, a fierce head that copies neither a bear nor a hyena, standing on its hind legs at night [c12]; the hut-doorway ambush of c14 would make a strong setting. Keep no scalping or brain imagery."
+}

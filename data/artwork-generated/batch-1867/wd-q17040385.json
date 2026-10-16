@@ -1,0 +1,85 @@
+{
+  "slug": "wd-q17040385",
+  "worker": "codex",
+  "worker_agent": "lane1867_C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13ead-a04b-79f2-9553-45b02541e3c4/exec-933f93e7-f5e2-4ff6-9f30-f1fd41377022.png",
+  "generated_at": "2026-10-15T12:12:21.385Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q17040385.png",
+  "native_sha256": "70f5ab28fc34dc4394525197e09de8f7dd11f0fbbec4efdf567df92add2d9ef0",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Zhutunshe, the hairy four-legged serpent of Chinese legend. ANATOMY: one thick short snake body entirely covered in coarse hair, one unmistakable viper head, two eyes and snake jaws, exactly FOUR short legs visible two either side, one tapering snake tail; three chi length and pestle thickness variant, no pig snout, horns or dragon head. MOMENT: Charge in a rigid straight line out of bamboo toward viewer, snake mouth open to bite, four legs churning dirt. POWER: Instantly deadly bite reputation conveyed by uninjured biting attack; no magical beams, venom mist or gore. SCALE & CAMERA: extreme low close angle; subject fills frame, natural documented size, never unsupported gigantic. LIGHT & WEATHER: one warm lateral source, deep shadows, crisp rim, physically moving dust/water only. SURFACE: tactile coarse textures, rich walnut/antique-gold palette. SETTING: bamboo thicket outside south gate at Jiankang during evening military drill; distant boot and horse trough establish small source size. MOOD: dangerous or awe-inspiring, never ordinary, cute, calm or decorative. HARD CONSTRAINTS: no text, lettering, symbols, logos, border, signature, watermark; no extra heads or limbs; no franchises; no nudity, transparent clothes, blood, wounds or explicit gore; no generic glow aura, neon lines or energy ribbons.\nCRITICAL ANATOMY/COMPOSITION: use a THREE-QUARTER SIDE VIEW showing the full SHORT FAT STRAIGHT cylindrical serpent body length from head to one tapering tail. Exactly four short hairy legs, all FOUR complete legs clearly separated and visible on ground, two near-side and two far-side, none hidden by body. Head at lower right reaches camera, tail at upper left. Not mammal: no mammalian shoulders, paws or rounded ears. Legs are short reptilian legs. Snake body as thick as a pestle. Low close camera, a normal human boot far back to confirm three-chi natural length.",
+  "depicted_variant": "Zhutunshe, the hairy four-legged serpent of Chinese legend",
+  "basis_claim_ids": [
+    "wd-q17040385-c01",
+    "wd-q17040385-c07",
+    "wd-q17040385-c09",
+    "wd-q17040385-c08",
+    "wd-q17040385-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one thick short snake body entirely covered in coarse hair, one unmistakable viper head, two eyes and snake jaws, exactly FOUR short legs visible two either side, one tapering snake tail; three chi length and pestle thickness variant, no pig snout, horns or dragon head",
+      "claim_ids": [
+        "wd-q17040385-c01",
+        "wd-q17040385-c07",
+        "wd-q17040385-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Instantly deadly bite reputation conveyed by uninjured biting attack; no magical beams, venom mist or gore",
+      "claim_ids": [
+        "wd-q17040385-c07",
+        "wd-q17040385-c08",
+        "wd-q17040385-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "bamboo thicket outside south gate at Jiankang during evening military drill; distant boot and horse trough establish small source size",
+      "claim_ids": [
+        "wd-q17040385-c06",
+        "wd-q17040385-c07"
+      ]
+    }
+  ],
+  "aura": "Instantly deadly bite reputation conveyed by uninjured biting attack; no magical beams, venom mist or gore",
+  "artistic_choices": [
+    "Choose primary-text three-chi c07 over conflicting secondary three-zhang c04.",
+    "Piglike is voice only; viper head c09. Camera proximity, not gigantic size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1867/rejected/wd-q17040385-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1867/rejected/wd-q17040385-attempt-01.json",
+      "native_sha256": "bea3ae322cab3df203446befe9bc72efaecfec286bbfa311a275a8dceffdf73a",
+      "reason": "Front-on camera conceals rear legs, cannot confidently verify four; redo3/4 side view."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254 and200. Sangar7/7: straight charging hairy viper dominates; gaping two fangs and hairy fourleg anatomy remain dangerous at200, active bamboo emergence c07/c09, only kicked dirt; one head/two eyes/four separated reptilian legs (far rear partly foreshortened but visible)/one tail, no pig snout; source threechi chosen, boot/trough behind support small real size; no text/franchise/gore, clearly not ordinary mammal or snake.",
+    "limitations": [],
+    "native_sha256": "70f5ab28fc34dc4394525197e09de8f7dd11f0fbbec4efdf567df92add2d9ef0",
+    "reviewed_at": "2026-10-15T12:12:21.385Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "70f5ab28fc34dc4394525197e09de8f7dd11f0fbbec4efdf567df92add2d9ef0",
+    "notes": "Hairy four-legged serpent with viper head lunging; bite threatened, no gore."
+  }
+}

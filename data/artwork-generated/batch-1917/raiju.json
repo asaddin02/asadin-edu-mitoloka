@@ -1,0 +1,104 @@
+{
+  "slug": "raiju",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-050.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Raijū, wolf-form lightning embodiment.\nANATOMY: One wolf-like thunder beast with exactly one ferocious wolf head, two ears, two eyes, four legs, long sharp claws and one tail; physical lightning wrapping its fur [c05, c07, c08]\nMOMENT: Crash toward viewer on a lightning strike, foreclaws extended and mouth snarling, landing at the base of a tree.\nPOWER: Ride a jagged lightning bolt down into earth; one connected white-gold electrical strike tears bark and throws dirt where paws land, electricity remains branching lightning not ribbons [c02, c05, c10]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one blinding white-gold lightning strike, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: rain-clumped coarse dark fur, ivory claws, soaked bark.\nSETTING: Storm sky meeting earth with a tree below [c09, c10, c15]\nMOOD: awe-inspiring divine thunder beast, fierce; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "wolf-form lightning embodiment",
+  "basis_claim_ids": [
+    "raiju-c05",
+    "raiju-c07",
+    "raiju-c08",
+    "raiju-c02",
+    "raiju-c10",
+    "raiju-c09",
+    "raiju-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One wolf-like thunder beast with exactly one ferocious wolf head, two ears, two eyes, four legs, long sharp claws and one tail; physical lightning wrapping its fur",
+      "claim_ids": [
+        "raiju-c05",
+        "raiju-c07",
+        "raiju-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Ride a jagged lightning bolt down into earth; one connected white-gold electrical strike tears bark and throws dirt where paws land, electricity remains branching lightning not ribbons",
+      "claim_ids": [
+        "raiju-c02",
+        "raiju-c05",
+        "raiju-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Storm sky meeting earth with a tree below",
+      "claim_ids": [
+        "raiju-c09",
+        "raiju-c10",
+        "raiju-c15"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "raiju-c05",
+      "raiju-c07",
+      "raiju-c08"
+    ],
+    "power_domain_deeds": [
+      "raiju-c02",
+      "raiju-c05",
+      "raiju-c10"
+    ],
+    "setting": [
+      "raiju-c09",
+      "raiju-c10",
+      "raiju-c15"
+    ],
+    "disposition": [
+      "raiju-c11",
+      "raiju-c17"
+    ]
+  },
+  "aura": "Ride a jagged lightning bolt down into earth; one connected white-gold electrical strike tears bark and throws dirt where paws land, electricity remains branching lightning not ribbons raiju-c02,raiju-c05,raiju-c10",
+  "artistic_choices": [
+    "Lightning is a documented body and descent, not generic aura. Impact dirt and bark from physical strike."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-edc84fe4-ad71-4ee5-8208-6e085c9123c2.png",
+  "generated_at": "2026-10-15T17:05:47.976828+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/raiju.png",
+  "native_sha256": "e8f4f31e80f67a5ac89a3d8b2296ee6c7bc3e77236db799a58f42a239d268b94",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected. Fierce wolf-like four-limbed beast descends through branching lightning c05/c10, long claws rake earth and bark. Lightning is documented body manifestation, no energy ribbons. No text or extra heads. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "e8f4f31e80f67a5ac89a3d8b2296ee6c7bc3e77236db799a58f42a239d268b94",
+    "reviewed_at": "2026-10-15T17:05:47.976828+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "e8f4f31e80f67a5ac89a3d8b2296ee6c7bc3e77236db799a58f42a239d268b94",
+    "notes": "Wolf-form beast wrapped in lightning striking the ground and tearing bark."
+  }
+}

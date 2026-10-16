@@ -1,0 +1,91 @@
+{
+  "slug": "red-ghost-folklore",
+  "batch": 1917,
+  "depicted_variant": "Red Ghost, the enormous red camel with a bleached skeleton strapped to its back",
+  "basis_claim_ids": [
+    "red-ghost-folklore-c02",
+    "red-ghost-folklore-c08",
+    "red-ghost-folklore-c15",
+    "red-ghost-folklore-c01",
+    "red-ghost-folklore-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one large red camel with one head, two eyes, four legs, a single hump, shaggy rust-red fur; exactly one complete bleached human skeleton strapped onto its back with plain rawhide, no blood or tissue.",
+      "claim_ids": [
+        "red-ghost-folklore-c02",
+        "red-ghost-folklore-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented thirty-foot sighting knocks over wagons; show real physical impact and dust, no aura.",
+      "claim_ids": [
+        "red-ghost-folklore-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Arizona frontier desert, dark canyon terrain with empty wooden wagons.",
+      "claim_ids": [
+        "red-ghost-folklore-c01",
+        "red-ghost-folklore-c11"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "red-ghost-folklore-c02",
+      "red-ghost-folklore-c08"
+    ],
+    "power_or_deed": [
+      "red-ghost-folklore-c15"
+    ],
+    "setting": [
+      "red-ghost-folklore-c01",
+      "red-ghost-folklore-c11"
+    ],
+    "disposition": [
+      "red-ghost-folklore-c15"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['red-ghost-folklore-c02', 'red-ghost-folklore-c08'] and action ['red-ghost-folklore-c15']; no generic aura.",
+  "artistic_choices": [
+    "Select documented giant sighting c15; skeleton is dry non-graphic bones, not gore. Single hump is minimal camel visualization.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Red Ghost, the enormous red camel with a bleached skeleton strapped to its back.\nANATOMY: Exactly one large red camel with one head, two eyes, four legs, a single hump, shaggy rust-red fur; exactly one complete bleached human skeleton strapped onto its back with plain rawhide, no blood or tissue. [red-ghost-folklore-c02, red-ghost-folklore-c08]\nMOMENT: Charge directly toward viewer, open its mouth and swing one heavy foreleg forward, tumble an empty wooden wagon aside.\nPOWER: The documented thirty-foot sighting knocks over wagons; show real physical impact and dust, no aura. [red-ghost-folklore-c15]\nSCALE & CAMERA: Extreme low angle, thirty-foot camel dominates, tiny empty wagon makes scale unmistakable.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Arizona frontier desert, dark canyon terrain with empty wooden wagons. [red-ghost-folklore-c01, red-ghost-folklore-c11]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-ef0c1bd3-700a-465f-bb80-6bfcc8f50766.png",
+  "generated_at": "2026-10-15T17:06:00.417872+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/red-ghost-folklore.png",
+  "native_sha256": "2df20e06d0611c6bafa97ed158976b2c6e996546ff01e56afdd57d37f0f581df",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "2df20e06d0611c6bafa97ed158976b2c6e996546ff01e56afdd57d37f0f581df",
+    "reviewed_at": "2026-10-15T17:06:00.417872+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "2df20e06d0611c6bafa97ed158976b2c6e996546ff01e56afdd57d37f0f581df",
+    "notes": "Huge red camel with a strapped skeleton knocking over wagons."
+  }
+}

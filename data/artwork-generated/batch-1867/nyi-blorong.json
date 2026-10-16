@@ -1,0 +1,107 @@
+{
+  "slug": "nyi-blorong",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-155.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Edit only the kebaya fabric on Nyi Blorong in the reference image. Replace all sheer or transparent lace on BOTH sleeves, upper chest, shoulders and torso with continuous FULLY OPAQUE dense dark emerald-green silk embroidered with gold. The forearms must be covered with solid green cloth all the way to the wrists; no skin visible through the sleeves. Keep the exact same original face, hair, two hands, gold scale offering and falling scales, massive single golden serpent lower body and coils, cave, southern ocean, moonlight, lighting, framing, mood and all other details unchanged. Keep a regal commanding spirit, no nudity, no extra limbs, no text, signature, logo, watermark, border or frame.",
+  "depicted_variant": "Green-kebaya Nyi Blorong rises on snake coils and sheds gold scales.",
+  "basis_claim_ids": [
+    "nyi-blorong-c01",
+    "nyi-blorong-c05",
+    "nyi-blorong-c17",
+    "nyi-blorong-c08",
+    "nyi-blorong-c18",
+    "nyi-blorong-c03",
+    "nyi-blorong-c12"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "nyi-blorong-c01",
+      "nyi-blorong-c05",
+      "nyi-blorong-c17"
+    ],
+    "kekuatan": [
+      "nyi-blorong-c05",
+      "nyi-blorong-c08",
+      "nyi-blorong-c18"
+    ],
+    "tempat": [
+      "nyi-blorong-c03",
+      "nyi-blorong-c12"
+    ],
+    "sifat": [
+      "nyi-blorong-c03",
+      "nyi-blorong-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One beautiful mature woman's head and torso from waist up, exactly two human arms and hands; from waist down ONE immense scaly snake body with ONE tail and NO human legs. Fully opaque green kebaya embroidered with gold, covering chest, shoulders and waist. Heavy overlapping natural golden scales on the serpent coils, no horns, wings or crown invented.",
+      "claim_ids": [
+        "nyi-blorong-c01",
+        "nyi-blorong-c05",
+        "nyi-blorong-c17"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Pieces of gold are shed from her body's scales and fall physically onto the rock below; not glowing coins or levitating money. The lower body is her documented giant snake form, no extra magic.",
+      "claim_ids": [
+        "nyi-blorong-c05",
+        "nyi-blorong-c08",
+        "nyi-blorong-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A cave among the great rocks of the southern shore, dark ocean surf visible at one edge, recalling the shore of rocks and caves in the tale.",
+      "claim_ids": [
+        "nyi-blorong-c03",
+        "nyi-blorong-c12"
+      ]
+    }
+  ],
+  "aura": "Pieces of gold are shed from her body's scales and fall physically onto the rock below; not glowing coins or levitating money. The lower body is her documented giant snake form, no extra magic. [nyi-blorong-c05, nyi-blorong-c08, nyi-blorong-c18]",
+  "artistic_choices": [
+    "Gold scale shape, individual kebaya embroidery, hairstyle, moonbeam, cave layout and pose are editorial. Her commanding dignity respects the folk spirit; no film costume, erotic pose, human body architecture, naked skin below waist, invented aura or extra followers.",
+    "Targeted second built-in edit replaces transparent sleeve lace with opaque silk while preserving all sourced anatomy and the offering."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1867/rejected/nyi-blorong-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1867/rejected/nyi-blorong-attempt-01.json",
+      "native_sha256": "1ad34780f158290d963f236a4570ab886c1ad1ae7fd5efcec0a03c81f8401fb0",
+      "reason": "Native inspection: green kebaya sleeves have visibly transparent lace over the arms, contradicting the fully opaque clothing prompt. Targeted edit required; keep the successful golden serpent form and gold-scale offering."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-8f21-7c83-95f6-77e3de4560e1/exec-dfc542ee-fbc4-4823-8ecb-5db15cf3bb1d.png",
+  "native_sha256": "2144592dcb94c2f1352e3ffa8e21b49aeaabc21ac2a1bfd0e4d807740397882b",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-15T12:07:54.357Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/nyi-blorong.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254x1254 and200x200. All7 Uji Sangar pass: massive golden serpent coils and commanding human torso dominate, scale-offering action c08/c18 and immense lower body c05 read at200px, gold physically falls, exactly one head/two arms/one serpentine lower body/no legs, fully opaque emerald kebaya after edit02, no text/watermark/border/franchise design. Awe through direct gaze, low camera and serpent coils, not an ordinary woman. No generic aura or invented powers.",
+    "limitations": [],
+    "native_sha256": "2144592dcb94c2f1352e3ffa8e21b49aeaabc21ac2a1bfd0e4d807740397882b",
+    "reviewed_at": "2026-10-15T12:08:16.345Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "2144592dcb94c2f1352e3ffa8e21b49aeaabc21ac2a1bfd0e4d807740397882b",
+    "notes": "Green-and-gold kebaya, serpent body from the waist, gold scales falling onto the rock."
+  }
+}

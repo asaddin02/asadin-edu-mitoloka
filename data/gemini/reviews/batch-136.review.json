@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-136",
-  "checked_at": "2026-10-13T20:08:16.738Z",
+  "checked_at": "2026-10-16T00:57:02.411Z",
   "files": [
     "batch-136.md",
     "batch-136-fix-1.md",
     "batch-136-fix-2.md",
     "batch-136-fix-3.md",
-    "batch-136-fix-4.md"
+    "batch-136-fix-4.md",
+    "batch-136-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -280,6 +281,7 @@
     {
       "slug": "simbolos-anasazi",
       "file": "batch-136.md",
+      "entry_sha256": "a3ed1878c9544174d0e9b20d8df5652fb9720325d24acc4c7ceb65931031b18a",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -294,12 +296,12 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "a3ed1878c9544174d0e9b20d8df5652fb9720325d24acc4c7ceb65931031b18a"
+      "images": []
     },
     {
       "slug": "simonet",
       "file": "batch-136.md",
+      "entry_sha256": "e791b01ba9fc9c8e2715da49aaa181e0529a6c87619e7eb3c345f8d2b3a5fcb1",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -335,8 +337,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e791b01ba9fc9c8e2715da49aaa181e0529a6c87619e7eb3c345f8d2b3a5fcb1"
+      "images": []
     },
     {
       "slug": "sipa",
@@ -628,6 +629,7 @@
     {
       "slug": "spettro",
       "file": "batch-136.md",
+      "entry_sha256": "b1604ff61f97184aa6fb476780f89b30259d363e1c9976ebfd775e2fe7270f2c",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -642,8 +644,7 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "b1604ff61f97184aa6fb476780f89b30259d363e1c9976ebfd775e2fe7270f2c"
+      "images": []
     },
     {
       "slug": "stilles-volk",
@@ -923,6 +924,7 @@
     {
       "slug": "tajin",
       "file": "batch-136.md",
+      "entry_sha256": "cec1c7bb5effab4b0a075deddf72dc34c0b11861ca512d2d25a577ce7bf666a7",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 1,
@@ -934,6 +936,11 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: fr.wikipedia.org (tidak bisa dibuka (fetch failed))."
         }
       ],
       "claims": [
@@ -945,11 +952,11 @@
           "statement_id": "Tajín adalah dewa hujan orang Totonak pada masa Mesoamerika.",
           "quote": "Tajín était le dieu de la pluie des Totonaques, à l'époque mésoaméricaine.",
           "context": "religious-tradition",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": [],
-      "entry_sha256": "cec1c7bb5effab4b0a075deddf72dc34c0b11861ca512d2d25a577ce7bf666a7"
+      "images": []
     },
     {
       "slug": "tartaranho",
@@ -1262,6 +1269,7 @@
     {
       "slug": "tio-dels-ossos",
       "file": "batch-136.md",
+      "entry_sha256": "8b0904fed58b8599beac2828fe1bfc585b88df29dfdd752ca558bd6e2714008b",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1307,8 +1315,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8b0904fed58b8599beac2828fe1bfc585b88df29dfdd752ca558bd6e2714008b"
+      "images": []
     },
     {
       "slug": "tiripeme-curicaueri",
@@ -1388,6 +1395,7 @@
     {
       "slug": "tlaloquetotontli",
       "file": "batch-136.md",
+      "entry_sha256": "e2b722b2fec741209859aa4b1956788783e80b74abd3e0f9b7ba04a07060a8db",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -1433,8 +1441,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e2b722b2fec741209859aa4b1956788783e80b74abd3e0f9b7ba04a07060a8db"
+      "images": []
     },
     {
       "slug": "tramontino",
@@ -1835,6 +1842,7 @@
     {
       "slug": "uomo-ragno",
       "file": "batch-136.md",
+      "entry_sha256": "5bf0bd42353c08a8bb3c58801fdc0e3adf86b1e646e44d17463fc276eff9df49",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -1849,12 +1857,12 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "5bf0bd42353c08a8bb3c58801fdc0e3adf86b1e646e44d17463fc276eff9df49"
+      "images": []
     },
     {
       "slug": "uomo-selvatico-di-sacco",
       "file": "batch-136.md",
+      "entry_sha256": "5b6520e870a844e1726a7d5ac2c13850a0d21b684886e34e94db21a2aa26f5c7",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -1869,8 +1877,7 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "5b6520e870a844e1726a7d5ac2c13850a0d21b684886e34e94db21a2aa26f5c7"
+      "images": []
     },
     {
       "slug": "uphir",
@@ -2030,21 +2037,15 @@
     },
     {
       "slug": "vakner",
-      "file": "batch-136-fix-3.md",
-      "entry_sha256": "5dd0dc0f6805042436ba63ba796f137468a82a86a6be27bd19a0a49fe233f86e",
+      "file": "batch-136-fix-5.md",
+      "entry_sha256": "ff9cb77e3bd2b2ba7e1cb38d7e7933d85dc546e0d080d110ac0ab9d5cac3a7e1",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 8,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vakner-c01",
@@ -2318,6 +2319,7 @@
     {
       "slug": "vine",
       "file": "batch-136.md",
+      "entry_sha256": "5f067c2a60643a2bbe4a72efcb0a6a860880d7d024f351b330b8f0d611f857f6",
       "verdict": "skip",
       "counts": {
         "claims": 0,
@@ -2332,26 +2334,19 @@
         }
       ],
       "claims": [],
-      "images": [],
-      "entry_sha256": "5f067c2a60643a2bbe4a72efcb0a6a860880d7d024f351b330b8f0d611f857f6"
+      "images": []
     },
     {
       "slug": "xacio",
-      "file": "batch-136-fix-3.md",
-      "entry_sha256": "740065867bc2676b142831369883ae1c79568572263b4f07828bb08ef26210a5",
+      "file": "batch-136-fix-5.md",
+      "entry_sha256": "ac28c1818a56d136f002f0dba97ef4d0c629feb99d11b8b77d83886daa20e3c7",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 8,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xacio-c01",
@@ -2692,6 +2687,7 @@
     {
       "slug": "yenaldooshi",
       "file": "batch-136.md",
+      "entry_sha256": "a3004382681cfa0e8317326bdc94b89ed162cc2a08e2f51f412cc19e2ade5c1b",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -2757,8 +2753,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a3004382681cfa0e8317326bdc94b89ed162cc2a08e2f51f412cc19e2ade5c1b"
+      "images": []
     },
     {
       "slug": "yoland",
@@ -2844,6 +2839,7 @@
     {
       "slug": "ypotryll",
       "file": "batch-136.md",
+      "entry_sha256": "952dc8da151a84eaac9d8a0c2789f255e01a806581f9c8f4b432d8dbcb911606",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -2889,8 +2885,7 @@
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "952dc8da151a84eaac9d8a0c2789f255e01a806581f9c8f4b432d8dbcb911606"
+      "images": []
     },
     {
       "slug": "zakur",
@@ -2965,21 +2960,15 @@
     },
     {
       "slug": "zarrouco",
-      "file": "batch-136-fix-4.md",
-      "entry_sha256": "3a034d21e822e6fc1eefd01ee2488d932461a72f18cfd5ea2698ac0fbe1c998b",
+      "file": "batch-136-fix-5.md",
+      "entry_sha256": "dd62767ea7243a83942d0455014a7f5a94ebbdf34e6c6373511673633c7a555e",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zarrouco-c01",

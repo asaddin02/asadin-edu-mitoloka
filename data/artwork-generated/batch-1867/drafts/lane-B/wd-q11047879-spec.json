@@ -1,0 +1,75 @@
+{
+  "slug": "wd-q11047879",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 山𤟤.\nANATOMY: One dog-bodied creature with a fully HUMAN FACE, two eyes and a human smiling mouth embedded in furry dog head; one head, four dog legs/paws and one dog tail. No human torso, human hands or extra faces. [wd-q11047879-c01, wd-q11047879-c02, wd-q11047879-c05, wd-q11047879-c07]\nMOMENT: Dash straight toward viewer like an arrow, HUMAN FACE LAUGHING on seeing the viewer. The unnatural human grin remains broad and recognizable within dog fur; its appearance raises a violent wind, leaves and grit whip along the ground and trees bend behind it. [wd-q11047879-c03, wd-q11047879-c05, wd-q11047879-c09]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Mount Yuefa mountain forest, close stony path with wind-bent trees. [wd-q11047879-c05]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Human face is adult and uncanny rather than cute mask, no teeth beyond ordinary human count. Dog remains ordinary dog size; camera close. Wind follows c09, no lightning or unrelated powers.",
+  "depicted_variant": "Human-faced laughing dog rushing with a gale on Mount Yuefa.",
+  "basis_claim_ids": [
+    "wd-q11047879-c01",
+    "wd-q11047879-c02",
+    "wd-q11047879-c05",
+    "wd-q11047879-c07",
+    "wd-q11047879-c03",
+    "wd-q11047879-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11047879-c01",
+      "wd-q11047879-c02",
+      "wd-q11047879-c05",
+      "wd-q11047879-c07"
+    ],
+    "kekuatan": [
+      "wd-q11047879-c03",
+      "wd-q11047879-c05",
+      "wd-q11047879-c09"
+    ],
+    "tempat": [
+      "wd-q11047879-c05"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One dog-bodied creature with a fully HUMAN FACE, two eyes and a human smiling mouth embedded in furry dog head; one head, four dog legs/paws and one dog tail. No human torso, human hands or extra faces.",
+      "claim_ids": [
+        "wd-q11047879-c01",
+        "wd-q11047879-c02",
+        "wd-q11047879-c05",
+        "wd-q11047879-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dash straight toward viewer like an arrow, HUMAN FACE LAUGHING on seeing the viewer. The unnatural human grin remains broad and recognizable within dog fur; its appearance raises a violent wind, leaves and grit whip along the ground and trees bend behind it.",
+      "claim_ids": [
+        "wd-q11047879-c03",
+        "wd-q11047879-c05",
+        "wd-q11047879-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Yuefa mountain forest, close stony path with wind-bent trees.",
+      "claim_ids": [
+        "wd-q11047879-c05"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: wd-q11047879-c01, wd-q11047879-c02, wd-q11047879-c05, wd-q11047879-c07, wd-q11047879-c03, wd-q11047879-c09.",
+  "artistic_choices": [
+    "Human face is adult and uncanny rather than cute mask, no teeth beyond ordinary human count. Dog remains ordinary dog size; camera close. Wind follows c09, no lightning or unrelated powers.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

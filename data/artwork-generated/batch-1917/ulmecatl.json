@@ -1,0 +1,100 @@
+{
+  "slug": "ulmecatl",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-146.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ulmecatl, Ulmecatl the giant ancestral founder.\nANATOMY: One giant man with one head, two arms and two legs, fully opaque plain woven long tunic and mantle, no invented crown weapons or deity attributes [c01, c03, c04]\nMOMENT: Stride down toward viewer with forward hand extended over tiny land below, tunic hem pulled by wind, enormous foot landing in foreground. Head and shoulders dominate above distant trees.\nPOWER: No documented magic; towering founding giant strides over ground with dust from his footstep, establishing settlement after flood [c01, c02]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low amber sun breaking over storm horizon, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: weathered skin, thick woven opaque mantle, damp soil.\nSETTING: Land of Cuetlachoapan, future Puebla, after Great Flood; tiny distant trees and plain low dwellings for giant scale [c01, c02, c06]\nMOOD: awe-inspiring ancestral giant, dignified; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "Ulmecatl the giant ancestral founder",
+  "basis_claim_ids": [
+    "ulmecatl-c01",
+    "ulmecatl-c03",
+    "ulmecatl-c04",
+    "ulmecatl-c02",
+    "ulmecatl-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One giant man with one head, two arms and two legs, fully opaque plain woven long tunic and mantle, no invented crown weapons or deity attributes",
+      "claim_ids": [
+        "ulmecatl-c01",
+        "ulmecatl-c03",
+        "ulmecatl-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented magic; towering founding giant strides over ground with dust from his footstep, establishing settlement after flood",
+      "claim_ids": [
+        "ulmecatl-c01",
+        "ulmecatl-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Land of Cuetlachoapan, future Puebla, after Great Flood; tiny distant trees and plain low dwellings for giant scale",
+      "claim_ids": [
+        "ulmecatl-c01",
+        "ulmecatl-c02",
+        "ulmecatl-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "ulmecatl-c01",
+      "ulmecatl-c03",
+      "ulmecatl-c04"
+    ],
+    "power_domain_deeds": [
+      "ulmecatl-c01",
+      "ulmecatl-c02"
+    ],
+    "setting": [
+      "ulmecatl-c01",
+      "ulmecatl-c02",
+      "ulmecatl-c06"
+    ],
+    "disposition": [
+      "ulmecatl-c01",
+      "ulmecatl-c02"
+    ]
+  },
+  "aura": "No documented magic; towering founding giant strides over ground with dust from his footstep, establishing settlement after flood ulmecatl-c01,ulmecatl-c02",
+  "artistic_choices": [
+    "Giant scale documented. Plain fully opaque woven clothing, dark flood-damp soil and distant plain dwellings are neutral editorial staging, no invented Aztec symbols or pyramids. No magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-c40f180f-89ea-4192-b8e8-bb630654852e.png",
+  "generated_at": "2026-10-15T17:20:50.833314+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/ulmecatl.png",
+  "native_sha256": "4b4006dfe8e166c5110d9162a684eb5de8d8da3ab32af06f9f059e343fa6441a",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200 inspected: immense fully clothed man strides over tiny settlement and trees, foot throws ground dust. Giant scale unmistakable c01/c04 rather than ordinary human. Two arms two legs one head, no undocumented powers, weapons or text. All seven Sangar yes.",
+    "limitations": [],
+    "native_sha256": "4b4006dfe8e166c5110d9162a684eb5de8d8da3ab32af06f9f059e343fa6441a",
+    "reviewed_at": "2026-10-15T17:20:50.833314+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "4b4006dfe8e166c5110d9162a684eb5de8d8da3ab32af06f9f059e343fa6441a",
+    "notes": "Giant founder in plain tunic and mantle striding over the settlement after the flood."
+  }
+}

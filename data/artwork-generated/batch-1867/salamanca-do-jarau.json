@@ -1,0 +1,95 @@
+{
+  "slug": "salamanca-do-jarau",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Salamanca do Jarau.\nANATOMY: Exactly ONE small four-legged lizard/salamander body with long tapering tail, its ENTIRE HEAD a sparkling faceted RUBY-RED GEM, no ordinary lizard head or eyes behind the gemstone, no wings or horns. [salamanca-do-jarau-c02, salamanca-do-jarau-c03]\nMOMENT: Clamber directly toward viewer over wet cave rock, gemstone head dazzling the eye; at frame edge a would-be pursuer hand recoils and turns away from the ruby radiance. The lure and dazzling head make this a supernatural creature rather than an ordinary reptile. [salamanca-do-jarau-c03, salamanca-do-jarau-c04, salamanca-do-jarau-c05]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Rocky cave beside the lagoon on Cerro do Jarau, close ground perspective and dark reflective water. [salamanca-do-jarau-c01, salamanca-do-jarau-c03]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Choose gem-for-head variant c03, not combine with stone-set-in-flesh interpretation c04. Ruby radiance follows c03/c05, no generic aura elsewhere. Creature remains small, extreme macro view creates dominance.",
+  "depicted_variant": "Ruby-headed lizard dazzling a pursuer from wet Jarau cave rock.",
+  "basis_claim_ids": [
+    "salamanca-do-jarau-c02",
+    "salamanca-do-jarau-c03",
+    "salamanca-do-jarau-c04",
+    "salamanca-do-jarau-c05",
+    "salamanca-do-jarau-c01"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "salamanca-do-jarau-c02",
+      "salamanca-do-jarau-c03"
+    ],
+    "kekuatan": [
+      "salamanca-do-jarau-c03",
+      "salamanca-do-jarau-c04",
+      "salamanca-do-jarau-c05"
+    ],
+    "tempat": [
+      "salamanca-do-jarau-c01",
+      "salamanca-do-jarau-c03"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE small four-legged lizard/salamander body with long tapering tail, its ENTIRE HEAD a sparkling faceted RUBY-RED GEM, no ordinary lizard head or eyes behind the gemstone, no wings or horns.",
+      "claim_ids": [
+        "salamanca-do-jarau-c02",
+        "salamanca-do-jarau-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Clamber directly toward viewer over wet cave rock, gemstone head dazzling the eye; at frame edge a would-be pursuer hand recoils and turns away from the ruby radiance. The lure and dazzling head make this a supernatural creature rather than an ordinary reptile.",
+      "claim_ids": [
+        "salamanca-do-jarau-c03",
+        "salamanca-do-jarau-c04",
+        "salamanca-do-jarau-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky cave beside the lagoon on Cerro do Jarau, close ground perspective and dark reflective water.",
+      "claim_ids": [
+        "salamanca-do-jarau-c01",
+        "salamanca-do-jarau-c03"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: salamanca-do-jarau-c02, salamanca-do-jarau-c03, salamanca-do-jarau-c04, salamanca-do-jarau-c05, salamanca-do-jarau-c01.",
+  "artistic_choices": [
+    "Choose gem-for-head variant c03, not combine with stone-set-in-flesh interpretation c04. Ruby radiance follows c03/c05, no generic aura elsewhere. Creature remains small, extreme macro view creates dominance.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-171bf75a-61f9-41cb-ae89-5406fdbc3acf.png",
+  "generated_at": "2026-10-15T12:04:22.736Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/salamanca-do-jarau.png",
+  "native_sha256": "9a113ddbd7d6104d752a2809c6f3566ac854f37385fc71c7afea0965b06d4083",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. One lizard with entire ruby gemstone head c03, four legs with far rear partly occluded, one tapering tail. Brilliant ruby light and recoiling pursuer hand c05; cave lagoon c01/c03. Gem-headed supernatural form and confrontation read at200px; no second reptile head or eyes, no generic aura. No text, border, franchise design or explicit gore.",
+    "limitations": [
+      "Far rear leg partly occluded by body; exact reptile surface and gemstone cut editorial."
+    ],
+    "native_sha256": "9a113ddbd7d6104d752a2809c6f3566ac854f37385fc71c7afea0965b06d4083",
+    "reviewed_at": "2026-10-15T12:06:23.739Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "9a113ddbd7d6104d752a2809c6f3566ac854f37385fc71c7afea0965b06d4083",
+    "notes": "Lizard whose whole head is a ruby, dazzling a pursuer who turns away."
+  }
+}

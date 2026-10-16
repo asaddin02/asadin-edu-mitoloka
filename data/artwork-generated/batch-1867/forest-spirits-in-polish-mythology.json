@@ -1,0 +1,75 @@
+{
+  "slug": "forest-spirits-in-polish-mythology",
+  "worker": "codex",
+  "worker_agent": "lane1867_C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13ead-a04b-79f2-9553-45b02541e3c4/exec-64f5ddae-371c-450d-92b0-a1468e741bea.png",
+  "generated_at": "2026-10-15T12:19:38.244Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/forest-spirits-in-polish-mythology.png",
+  "native_sha256": "1926b9599ec6f77c0d99d45f0e6bf8e03ade535fa37cc2d341fc5208539c7565",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Polish forest spirit, Boruta appearing as a black dog. ANATOMY: one natural-sized black dog, one head, two natural eyes, four canine legs, one tail, coarse wet black fur, no horns, glowing eyes, extra anatomy or human clothes. MOMENT: Confront the camera at close distance, snarl and deliberately rake a mushroom-and-berry basket from a confused traveller's hands, scattering its contents across the narrow forest dyke as the traveller is drawn off the good path. POWER: The documented forest spirit spills gathered mushrooms and berries and leads people astray; only ordinary physical contact and scattered berries, no supernatural energy. SCALE & CAMERA: extreme low close angle; subject fills frame, natural documented size, never unsupported gigantic. LIGHT & WEATHER: one warm lateral source, deep shadows, crisp rim, physically moving dust/water only. SURFACE: tactile coarse textures, rich walnut/antique-gold palette. SETTING: night in Polish pine woods and a narrow earthen dyke by dry willows, wrong twisting path beyond, a human traveller behind establishes normal dog scale. MOOD: dangerous or awe-inspiring, never ordinary, cute, calm or decorative. HARD CONSTRAINTS: no text, lettering, symbols, logos, border, signature, watermark; no extra heads or limbs; no franchises; no nudity, transparent clothes, blood, wounds or explicit gore; no generic glow aura, neon lines or energy ribbons.",
+  "depicted_variant": "Polish forest spirit, Boruta appearing as a black dog",
+  "basis_claim_ids": [
+    "forest-spirits-in-polish-mythology-c02",
+    "forest-spirits-in-polish-mythology-c09",
+    "forest-spirits-in-polish-mythology-c03",
+    "forest-spirits-in-polish-mythology-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one natural-sized black dog, one head, two natural eyes, four canine legs, one tail, coarse wet black fur, no horns, glowing eyes, extra anatomy or human clothes",
+      "claim_ids": [
+        "forest-spirits-in-polish-mythology-c02",
+        "forest-spirits-in-polish-mythology-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The documented forest spirit spills gathered mushrooms and berries and leads people astray; only ordinary physical contact and scattered berries, no supernatural energy",
+      "claim_ids": [
+        "forest-spirits-in-polish-mythology-c03",
+        "forest-spirits-in-polish-mythology-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "night in Polish pine woods and a narrow earthen dyke by dry willows, wrong twisting path beyond, a human traveller behind establishes normal dog scale",
+      "claim_ids": [
+        "forest-spirits-in-polish-mythology-c08",
+        "forest-spirits-in-polish-mythology-c09"
+      ]
+    }
+  ],
+  "aura": "The documented forest spirit spills gathered mushrooms and berries and leads people astray; only ordinary physical contact and scattered berries, no supernatural energy",
+  "artistic_choices": [
+    "Select black-dog guise c09, no combination with literary kontusz form c11.",
+    "Specific basket-spilling c03 makes folklore action visible, not a generic forest dog. Composition/lowlight editorial; no actual giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254 and200. Sangar7/7: black dog dominates with threatening snarl and basket theft at200; physical basket-spilling action c03 with lost traveller c09, no powers; one dog head/two reflective amber eyes/four canine legs mostly behind wicker and body/one tail plausibly out of crop, no horns or supernatural eye light; no text/franchise/gore. The unique mushroom-and-berry spilling at night is explicit source event, not generic dog portrait. Dog not giant: extreme near perspective only.",
+    "limitations": [],
+    "native_sha256": "1926b9599ec6f77c0d99d45f0e6bf8e03ade535fa37cc2d341fc5208539c7565",
+    "reviewed_at": "2026-10-15T12:19:38.244Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "1926b9599ec6f77c0d99d45f0e6bf8e03ade535fa37cc2d341fc5208539c7565",
+    "notes": "Black dog spilling the gathered mushrooms and berries before the traveller at night in the pine wood; no glow or extra anatomy."
+  }
+}

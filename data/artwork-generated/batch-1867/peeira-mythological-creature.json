@@ -1,0 +1,90 @@
+{
+  "slug": "peeira-mythological-creature",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Peeira.\nANATOMY: One young ADULT woman, human anatomy one head/two eyes/two arms/two legs, fully opaque coarse long forest cloak and dress, no wings, pointed ears, wolf anatomy, crown or glowing eyes. A tightly clustered PACK OF FOUR wolves surrounds her at her feet. [peeira-mythological-creature-c01]\nMOMENT: Stride toward viewer from the wolf den and raise one commanding open hand; the four snarling wolves pivot and halt in unison at her command, their mouths and tense shoulders facing outward while she faces viewer with stern protective authority. Command of living wolves is visible through their synchronized response, without magical light. She protects wolves and forest rather than attacking an invented victim. [peeira-mythological-creature-c02, peeira-mythological-creature-c03]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Portuguese/Galician mountain forest, wolf den entrance immediately behind, dark rocks and tangled roots. [peeira-mythological-creature-c03, peeira-mythological-creature-c05]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Exact garments, number four wolves and hand gesture editorial. Human scale; no giant inflation. Control shown by wolf movement only.",
+  "depicted_variant": "Wolf guardian halting her fierce pack with one command at den mouth.",
+  "basis_claim_ids": [
+    "peeira-mythological-creature-c01",
+    "peeira-mythological-creature-c02",
+    "peeira-mythological-creature-c03",
+    "peeira-mythological-creature-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "peeira-mythological-creature-c01"
+    ],
+    "kekuatan": [
+      "peeira-mythological-creature-c02",
+      "peeira-mythological-creature-c03"
+    ],
+    "tempat": [
+      "peeira-mythological-creature-c03",
+      "peeira-mythological-creature-c05"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One young ADULT woman, human anatomy one head/two eyes/two arms/two legs, fully opaque coarse long forest cloak and dress, no wings, pointed ears, wolf anatomy, crown or glowing eyes. A tightly clustered PACK OF FOUR wolves surrounds her at her feet.",
+      "claim_ids": [
+        "peeira-mythological-creature-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Stride toward viewer from the wolf den and raise one commanding open hand; the four snarling wolves pivot and halt in unison at her command, their mouths and tense shoulders facing outward while she faces viewer with stern protective authority. Command of living wolves is visible through their synchronized response, without magical light. She protects wolves and forest rather than attacking an invented victim.",
+      "claim_ids": [
+        "peeira-mythological-creature-c02",
+        "peeira-mythological-creature-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Portuguese/Galician mountain forest, wolf den entrance immediately behind, dark rocks and tangled roots.",
+      "claim_ids": [
+        "peeira-mythological-creature-c03",
+        "peeira-mythological-creature-c05"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: peeira-mythological-creature-c01, peeira-mythological-creature-c02, peeira-mythological-creature-c03, peeira-mythological-creature-c05.",
+  "artistic_choices": [
+    "Exact garments, number four wolves and hand gesture editorial. Human scale; no giant inflation. Control shown by wolf movement only.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-5aa540b8-b2c7-4686-b1a5-506ab43fdeff.png",
+  "generated_at": "2026-10-15T12:03:29.755Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/peeira-mythological-creature.png",
+  "native_sha256": "6ca75040fb2ba74fc99af1e95af6274ef4e64750ff977c05b28f77d48c8ecff6",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. One fully clothed adult guardian commands four snarling wolves at den entrance; synchronized outward-facing halt and foreground open hand show c02 control. No added fairy wings, wolf-human hybrid anatomy, giant scale or magical glow. Protective stern presence reads at200px. No text, border, franchise design or explicit gore.",
+    "limitations": [
+      "Number four wolves and exact gesture editorial."
+    ],
+    "native_sha256": "6ca75040fb2ba74fc99af1e95af6274ef4e64750ff977c05b28f77d48c8ecff6",
+    "reviewed_at": "2026-10-15T12:06:23.699Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "6ca75040fb2ba74fc99af1e95af6274ef4e64750ff977c05b28f77d48c8ecff6",
+    "notes": "Cloaked woman halting four snarling wolves with a raised hand at the den."
+  }
+}

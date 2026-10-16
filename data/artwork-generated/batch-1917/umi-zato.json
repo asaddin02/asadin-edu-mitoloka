@@ -1,0 +1,100 @@
+{
+  "slug": "umi-zato",
+  "batch": 1917,
+  "depicted_variant": "Umi zatō, the gigantic blind monk musician of the Japanese sea",
+  "basis_claim_ids": [
+    "umi-zato-c02",
+    "umi-zato-c03",
+    "umi-zato-c08",
+    "umi-zato-c13",
+    "umi-zato-c10",
+    "umi-zato-c15",
+    "umi-zato-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one gigantic blind monk-like humanoid, one bald head, two closed blind eyes, two arms and two legs, fully covered in rough opaque layered monk robes; one long cane in right hand; one large biwa instrument visibly strapped to back with neck over shoulder.",
+      "claim_ids": [
+        "umi-zato-c02",
+        "umi-zato-c03",
+        "umi-zato-c08",
+        "umi-zato-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Walk on water and capsize a boat physically; no aura, no glowing eyes.",
+      "claim_ids": [
+        "umi-zato-c10",
+        "umi-zato-c15"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Waters surrounding Japan at night.",
+      "claim_ids": [
+        "umi-zato-c07",
+        "umi-zato-c08"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "umi-zato-c02",
+      "umi-zato-c03",
+      "umi-zato-c08",
+      "umi-zato-c13"
+    ],
+    "power_or_deed": [
+      "umi-zato-c10",
+      "umi-zato-c15"
+    ],
+    "setting": [
+      "umi-zato-c07",
+      "umi-zato-c08"
+    ],
+    "disposition": [
+      "umi-zato-c10",
+      "umi-zato-c15"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['umi-zato-c02', 'umi-zato-c03', 'umi-zato-c08', 'umi-zato-c13'] and action ['umi-zato-c10', 'umi-zato-c15']; no generic aura.",
+  "artistic_choices": [
+    "Active ship-capsizing variant selected, no people or gore; biwa silhouette must stay legible.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Umi zatō, the gigantic blind monk musician of the Japanese sea.\nANATOMY: Exactly one gigantic blind monk-like humanoid, one bald head, two closed blind eyes, two arms and two legs, fully covered in rough opaque layered monk robes; one long cane in right hand; one large biwa instrument visibly strapped to back with neck over shoulder. [umi-zato-c02, umi-zato-c03, umi-zato-c08, umi-zato-c13]\nMOMENT: Stride over the ocean toward viewer, lower the long cane into a wave while left hand turns a small empty wooden fishing boat on its side.\nPOWER: Walk on water and capsize a boat physically; no aura, no glowing eyes. [umi-zato-c10, umi-zato-c15]\nSCALE & CAMERA: Extreme low angle at sea surface; giant head and shoulders occupy upper frame, tiny overturned boat below confirms scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Waters surrounding Japan at night. [umi-zato-c07, umi-zato-c08]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-70492692-3584-403b-ac5d-9c8a67dc6379.png",
+  "generated_at": "2026-10-15T17:20:04.160053+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/umi-zato.png",
+  "native_sha256": "b2499eb367f178bf22b8c80e15babfa812f32a6018cfa08508512ee670028a34",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "b2499eb367f178bf22b8c80e15babfa812f32a6018cfa08508512ee670028a34",
+    "reviewed_at": "2026-10-15T17:20:04.160053+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "b2499eb367f178bf22b8c80e15babfa812f32a6018cfa08508512ee670028a34",
+    "notes": "Gigantic blind monk with cane and biwa walking on the sea and overturning the boat."
+  }
+}

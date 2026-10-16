@@ -1,0 +1,73 @@
+{
+  "slug": "wd-q10565813",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-059.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 雍和, yellow ape-bodied Yonghe with red eyes and red beak.\nANATOMY: One living ape-like beast with yellow fur, two red eyes, a red beak, one head, two arms two legs; no wings or additional animals [c01, c02, c03]\nMOMENT: Lunge down a rock ledge toward viewer with both heavy ape arms reaching and open red beak clearly visible, fur bristling.\nPOWER: No literal panic aura; threaten through red-eyed stare, looming ape posture and beak, no famine weather or beams [c01, c03]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low warm sun slit through overcast, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: matted ochre-yellow ape fur, red keratin beak, slick dark rock.\nSETTING: Mount Feng rocky tree-covered slope [c03, c06]\nMOOD: menacing fear-omen beast; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "yellow ape-bodied Yonghe with red eyes and red beak",
+  "basis_claim_ids": [
+    "wd-q10565813-c01",
+    "wd-q10565813-c02",
+    "wd-q10565813-c03",
+    "wd-q10565813-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living ape-like beast with yellow fur, two red eyes, a red beak, one head, two arms two legs; no wings or additional animals",
+      "claim_ids": [
+        "wd-q10565813-c01",
+        "wd-q10565813-c02",
+        "wd-q10565813-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No literal panic aura; threaten through red-eyed stare, looming ape posture and beak, no famine weather or beams",
+      "claim_ids": [
+        "wd-q10565813-c01",
+        "wd-q10565813-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Feng rocky tree-covered slope",
+      "claim_ids": [
+        "wd-q10565813-c03",
+        "wd-q10565813-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q10565813-c01",
+      "wd-q10565813-c02",
+      "wd-q10565813-c03"
+    ],
+    "power_domain_deeds": [
+      "wd-q10565813-c01",
+      "wd-q10565813-c03"
+    ],
+    "setting": [
+      "wd-q10565813-c03",
+      "wd-q10565813-c06"
+    ],
+    "disposition": [
+      "wd-q10565813-c01",
+      "wd-q10565813-c03"
+    ]
+  },
+  "aura": "No literal panic aura; threaten through red-eyed stare, looming ape posture and beak, no famine weather or beams wd-q10565813-c01,wd-q10565813-c03",
+  "artistic_choices": [
+    "Use primary Shan Hai Jing beak version, not alternate red-mouth-only account. No Gengfu glow or bells blended into anatomy."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

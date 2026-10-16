@@ -1,0 +1,23 @@
+{
+  "slug": "nandi-bear",
+  "worker_agent": "correct_nandi",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "status": "draft",
+  "attempt": 1,
+  "basis_claim_ids": ["nandi-bear-c05", "nandi-bear-c06", "nandi-bear-c12", "nandi-bear-c14", "nandi-bear-c18"],
+  "claim_classification": {
+    "rupa": ["nandi-bear-c05", "nandi-bear-c06", "nandi-bear-c12"],
+    "kuasa": ["nandi-bear-c12", "nandi-bear-c14"],
+    "tempat": ["nandi-bear-c14", "nandi-bear-c18"],
+    "sifat": ["nandi-bear-c05", "nandi-bear-c12"]
+  },
+  "visual_requirements": [
+    {"kind":"anatomy","description":"One powerfully built carnivore with extraordinarily high front shoulders, a clearly sloping back descending steeply to much lower hips, reddish shaggy hair and conspicuously long feet. Shoulder silhouette remains unobscured in a three-quarter side view.","claim_ids":["nandi-bear-c05","nandi-bear-c06"]},
+    {"kind":"anatomy","description":"One head, two eyes, four limbs, rearing onto the two hind legs; fierce unspecific carnivore head rather than copying a bear or hyena.","claim_ids":["nandi-bear-c05","nandi-bear-c12"]},
+    {"kind":"effect","description":"Nocturnal physical attack toward the hut-doorway dummy; no supernatural effects, victim injury, scalping or brain imagery.","claim_ids":["nandi-bear-c12","nandi-bear-c14"]},
+    {"kind":"setting","description":"Hut doorway containing a small dummy man in the East African savanna at night.","claim_ids":["nandi-bear-c14","nandi-bear-c18","nandi-bear-c12"]}
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Nandi bear, the fierce nocturnal East African cryptid, caught ambushing the dummy man at a hut doorway.\nANATOMY: ONE powerful unfamiliar mammalian carnivore with one head, two eyes, four limbs. Its defining silhouette is EXTRAORDINARILY HIGH FRONT SHOULDERS forming a massive angular rise above the head, then a back descending in a very steep slope to MUCH LOWER small hindquarters. Render this high-shoulder/sloping-back profile unmistakably, with the whole torso in three-quarter SIDE VIEW. Dense shaggy reddish rust-red hair. VERY LONG FEET, elongated narrow furry feet with long soles rather than round bear paws; the two hind feet must both be fully visible planted on the ground. A fierce broad-jawed carnivore head with small indistinct ears: original unspecific mammal interpretation, do not copy a grizzly bear or any hyena. [nandi-bear-c05,nandi-bear-c06]\nMOMENT: Rear onto its two bent hind legs and lean sharply forward to snatch a small faceless cloth dummy standing in a hut doorway; the two long forefeet reach toward the dummy while its snarling head turns three-quarter toward the viewer. Its low hips, huge raised front shoulders and downward-sloping back remain exposed across the frame. The action is an ambush, with no injured human. [nandi-bear-c12,nandi-bear-c14]\nPOWER: No documented supernatural power; danger comes from its fierce physical attack, visible teeth, looming shoulders, and dust disturbed by its planted elongated hind feet. [nandi-bear-c12,nandi-bear-c14]\nSCALE & CAMERA: low ground-level camera from outside the hut, wide enough to show the entire shoulder-to-hip silhouette and all four limbs without cropping the long hind feet. Creature fills eighty percent of the square; hut doorway and dummy small at the edge as scale context. Fairly large animal, not a giant monster.\nLIGHT & WEATHER: night, one strong raking amber moonlight source exposing the reddish shoulder ridge, entire back profile, and elongated feet; deep walnut shadows, dusty ground.\nSURFACE: coarse tangled red hair with darker roots, long sparse hair around the feet, rough dry earthen hut walls, straw and dry savanna grass.\nSETTING: hut doorway on the savannas of Kenya and Tanzania at night; doorway dummy recall the recorded lure account. [nandi-bear-c14,nandi-bear-c18,nandi-bear-c12]\nMOOD: menacing, actively attacking, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: the extraordinary high forequarters and steeply sloped back and very long feet must remain obvious at thumbnail size. No ordinary bear, grizzly, hyena, wolf, gorilla, or werewolf. No humanoid hands. No added horns, wings, spikes or armor. No glowing eyes or magical effects. No scalping, brains, injury, blood or explicit gore. No text, lettering, logo, border, frame or watermark; no extra heads or limbs; no design borrowed from any film, game, anime or comic; no nudity; no generic glow aura, neon outline or energy ribbons. Native square resolution at least 1024x1024."
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "veles",
+  "batch": 1917,
+  "depicted_variant": "Veles, shown as the documented horned long-bearded serpent",
+  "basis_claim_ids": [
+    "veles-c10",
+    "veles-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one horned serpent, one reptilian head, two natural eyes, two horns, one long coarse beard hanging below jaw, thick long scaled limbless body; no wings or humanoid torso.",
+      "claim_ids": [
+        "veles-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark chthonic underworld, plain shadowed stone ground, no world-tree battle or lightning.",
+      "claim_ids": [
+        "veles-c01"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "veles-c10"
+    ],
+    "power_or_deed": [],
+    "setting": [
+      "veles-c01"
+    ],
+    "disposition": []
+  },
+  "aura": "Threat or awe through documented anatomy ['veles-c10'] and action []; no generic aura.",
+  "artistic_choices": [
+    "Traditional horned serpent c10 selected; rejected reconstruction c05-c07 not used for actions or setting. Respectful divine awe.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Veles, shown as the documented horned long-bearded serpent.\nANATOMY: Exactly one horned serpent, one reptilian head, two natural eyes, two horns, one long coarse beard hanging below jaw, thick long scaled limbless body; no wings or humanoid torso. [veles-c10]\nMOMENT: Rise from deep underworld shadow and arch the horned bearded head down toward viewer, weight of coils presses into stone.\nPOWER: No visible magical effect; awe through documented serpent anatomy and underworld presence only. []\nSCALE & CAMERA: Tight extreme low angle; bearded horned head and coils fill frame without asserting undocumented giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Dark chthonic underworld, plain shadowed stone ground, no world-tree battle or lightning. [veles-c01]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-b4276621-bd4f-4dc7-8eb0-3eb1b0e5a8ac.png",
+  "generated_at": "2026-10-15T17:23:50.387707+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/veles.png",
+  "native_sha256": "8840f5109eaa07125d73e94ad48f073be15e21e3cdcda72b980aa8b655bc0bf2",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "8840f5109eaa07125d73e94ad48f073be15e21e3cdcda72b980aa8b655bc0bf2",
+    "reviewed_at": "2026-10-15T17:23:50.387707+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "8840f5109eaa07125d73e94ad48f073be15e21e3cdcda72b980aa8b655bc0bf2",
+    "notes": "Horned bearded limbless serpent."
+  }
+}

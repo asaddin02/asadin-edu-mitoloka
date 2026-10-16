@@ -1,0 +1,67 @@
+{
+  "slug": "three-legged-turtle",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Three-legged turtle, three-legged softshell turtle with branching tail.\nANATOMY: One softshell turtle with exactly THREE legs TOTAL: one central front leg beneath throat, two rear legs spread on either side, all three clearly separated and fully visible; one head two eyes soft leathery shell and one forked branching tail visible behind; no fourth leg [c01, c04, c06]\nMOMENT: Vault off a submerged river stone toward viewer, three legs spread clearly against dark water, forked tail lifted behind, head jabbing forward with fierce stare.\nPOWER: No added magic; turtle thrusts forward and splashes river water [c04]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low amber sunset behind riverbank, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: wrinkled leathery soft shell, wet granular skin.\nSETTING: River Trailer, shallow rushing water over dark stones [c04]\nMOOD: uncanny and imposing mythical turtle; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "three-legged softshell turtle with branching tail",
+  "basis_claim_ids": [
+    "three-legged-turtle-c01",
+    "three-legged-turtle-c04",
+    "three-legged-turtle-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One softshell turtle with exactly THREE legs TOTAL: one central front leg beneath throat, two rear legs spread on either side, all three clearly separated and fully visible; one head two eyes soft leathery shell and one forked branching tail visible behind; no fourth leg",
+      "claim_ids": [
+        "three-legged-turtle-c01",
+        "three-legged-turtle-c04",
+        "three-legged-turtle-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No added magic; turtle thrusts forward and splashes river water",
+      "claim_ids": [
+        "three-legged-turtle-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "River Trailer, shallow rushing water over dark stones",
+      "claim_ids": [
+        "three-legged-turtle-c04"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "three-legged-turtle-c01",
+      "three-legged-turtle-c04",
+      "three-legged-turtle-c06"
+    ],
+    "power_domain_deeds": [
+      "three-legged-turtle-c04"
+    ],
+    "setting": [
+      "three-legged-turtle-c04"
+    ],
+    "disposition": [
+      "three-legged-turtle-c01"
+    ]
+  },
+  "aura": "No added magic; turtle thrusts forward and splashes river water three-legged-turtle-c04",
+  "artistic_choices": [
+    "Anatomical position one front and two rear is editorial arrangement to make exact documented count unmistakable. Macro close framing without giant size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "pixiu",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Pixiu, single-antlered Tianlu form of the winged dragon-headed lion guardian.\nANATOMY: One living winged lion composite with Chinese dragon head, lion body, four paws, two wings and exactly one large antler for the Tianlu variant [c01, c03, c06]\nMOMENT: Pounce toward viewer with jaws open and one heavy forepaw crashing into foreground earth, wings sweeping back, antler clearly silhouetted.\nPOWER: No literal supernatural effects; force comes from fierce guardian anatomy and pounce [c02, c09]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: single low amber sunset, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: coarse fur, leathery wing membranes, worn ivory antler.\nSETTING: Bare rocky foreground, dark indistinct ground, no invented architecture [c08]\nMOOD: awe-inspiring fierce protector, not evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "single-antlered Tianlu form of the winged dragon-headed lion guardian",
+  "basis_claim_ids": [
+    "pixiu-c01",
+    "pixiu-c03",
+    "pixiu-c06",
+    "pixiu-c02",
+    "pixiu-c09",
+    "pixiu-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living winged lion composite with Chinese dragon head, lion body, four paws, two wings and exactly one large antler for the Tianlu variant",
+      "claim_ids": [
+        "pixiu-c01",
+        "pixiu-c03",
+        "pixiu-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No literal supernatural effects; force comes from fierce guardian anatomy and pounce",
+      "claim_ids": [
+        "pixiu-c02",
+        "pixiu-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Bare rocky foreground, dark indistinct ground, no invented architecture",
+      "claim_ids": [
+        "pixiu-c08"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "pixiu-c01",
+      "pixiu-c03",
+      "pixiu-c06"
+    ],
+    "power_domain_deeds": [
+      "pixiu-c02",
+      "pixiu-c09"
+    ],
+    "setting": [
+      "pixiu-c08"
+    ],
+    "disposition": [
+      "pixiu-c02",
+      "pixiu-c09"
+    ]
+  },
+  "aura": "No literal supernatural effects; force comes from fierce guardian anatomy and pounce pixiu-c02,pixiu-c09",
+  "artistic_choices": [
+    "Rocky ground is neutral editorial staging, not asserted as sacred location. No coins, wealth beams or invented magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "shibaemon-tanuki",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Shibaemon-tanuki, tanuki trickster using leaf-to-gold transformation.\nANATOMY: One living tanuki with one raccoon-dog head, two eyes, four limbs, one furry tail; rearing on hind legs, opaque plain loose robe covering lower torso and anatomy, forepaws visible [c01, c07]\nMOMENT: Show a weathered elderly wild raccoon-dog face with narrow small eyes, rugged angular muzzle, bristling wiry fur, bared canine teeth in a grim uncanny expression. No large round baby eyes, no smiling face, no chibi proportions. Thrust a paw full of half-leaf half-gold offerings close toward viewer, rear upright with intense direct gaze, robe flaring from motion; transformation made physically obvious.\nPOWER: Transform plain tree leaves in his paws into unmarked gold pieces; show leaf on one side and solid folded gold on other, no runes, letters or luminous energy [c10]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one warm off-frame theatre lantern, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: coarse dark tanuki fur, worn opaque cloth, papery leaf veins, scratched gold.\nSETTING: Dark theatrical entrance at Naniwa with blank doorway, no signs or readable decoration [c09, c10, c11]\nMOOD: awe-inspiring uncanny shapeshifter, mischievous but not evil; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "tanuki trickster using leaf-to-gold transformation",
+  "basis_claim_ids": [
+    "shibaemon-tanuki-c01",
+    "shibaemon-tanuki-c07",
+    "shibaemon-tanuki-c10",
+    "shibaemon-tanuki-c09",
+    "shibaemon-tanuki-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living tanuki with one raccoon-dog head, two eyes, four limbs, one furry tail; rearing on hind legs, opaque plain loose robe covering lower torso and anatomy, forepaws visible",
+      "claim_ids": [
+        "shibaemon-tanuki-c01",
+        "shibaemon-tanuki-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Transform plain tree leaves in his paws into unmarked gold pieces; show leaf on one side and solid folded gold on other, no runes, letters or luminous energy",
+      "claim_ids": [
+        "shibaemon-tanuki-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark theatrical entrance at Naniwa with blank doorway, no signs or readable decoration",
+      "claim_ids": [
+        "shibaemon-tanuki-c09",
+        "shibaemon-tanuki-c10",
+        "shibaemon-tanuki-c11"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "shibaemon-tanuki-c01",
+      "shibaemon-tanuki-c07"
+    ],
+    "power_domain_deeds": [
+      "shibaemon-tanuki-c10"
+    ],
+    "setting": [
+      "shibaemon-tanuki-c09",
+      "shibaemon-tanuki-c10",
+      "shibaemon-tanuki-c11"
+    ],
+    "disposition": [
+      "shibaemon-tanuki-c06",
+      "shibaemon-tanuki-c14"
+    ]
+  },
+  "aura": "Transform plain tree leaves in his paws into unmarked gold pieces; show leaf on one side and solid folded gold on other, no runes, letters or luminous energy shibaemon-tanuki-c10",
+  "artistic_choices": [
+    "Paw transformation distinguishes supernatural creature from ordinary tanuki. Plain robe is modest editorial clothing. Theatre details neutral and uninscribed."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1917/rejected/shibaemon-tanuki-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1917/rejected/shibaemon-tanuki-attempt-01.json",
+      "native_sha256": "97051ac23623bdd9b5cc87238062a69b64ba62148fced4cb9e62bc0e02b31bc8",
+      "reason": "Face and wide rounded eyes read as a cute mascot; fails Sangar2/7 despite clear leaf-to-gold action."
+    }
+  ]
+}

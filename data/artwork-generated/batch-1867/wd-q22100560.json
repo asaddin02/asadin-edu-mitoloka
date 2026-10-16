@@ -1,0 +1,96 @@
+{
+  "slug": "wd-q22100560",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Quanshu, the one-horned horselike fire-suppressing beast of Mount Dai.\nANATOMY: Exactly ONE horse-shaped creature, one horse head with two ears and two eyes, four normal hoofed horse legs, one mane and one tail. Exactly ONE long central forehead horn, its surface rough and overlapping-scaled with a visibly branching tip, never a second horn. A mature powerful equine face, no wings or antlers elsewhere. [wd-q22100560-c01, wd-q22100560-c02, wd-q22100560-c08]\nMOMENT: Drive forward down the rocky slope directly toward the viewer, raise one forehoof above a line of advancing wildfire. The central branching horn cuts a strong silhouette; its whole horselike body fills the foreground.\nPOWER: Suppress fire: advancing orange flames immediately in front of its raised hoof collapse into black embers and smoke while the neighboring ground still burns. Fire visibly stops at the creature; no aura, forcefield, glyphs or luminous ring. [wd-q22100560-c05, wd-q22100560-c09]\nSCALE & CAMERA / LIGHT & WEATHER: Ground-level low angle, close equine framing; no invented giant size, rock and fire provide physical grounding. One dominant wildfire light source, black smoke and warm gold rim on coarse mane, deep walnut shadows.\nSURFACE: tactile natural material, rough lived-in textures; never smooth plastic.\nSETTING: Mount Dai, jade-veined high rock above blue-green stones below, the land and water account's mountain setting. [wd-q22100560-c03, wd-q22100560-c04]\nMOOD: imposing, dangerous or awe-inspiring through the sourced form and physical action; never ordinary, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbol, logo, border, frame or watermark anywhere; no extra heads, eyes or limbs; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magical runes.",
+  "depicted_variant": "One branching-horn Quanshu charges and suppresses wildfire on Mount Dai.",
+  "basis_claim_ids": [
+    "wd-q22100560-c01",
+    "wd-q22100560-c02",
+    "wd-q22100560-c08",
+    "wd-q22100560-c05",
+    "wd-q22100560-c09",
+    "wd-q22100560-c03",
+    "wd-q22100560-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q22100560-c01",
+      "wd-q22100560-c02",
+      "wd-q22100560-c08"
+    ],
+    "kekuatan": [
+      "wd-q22100560-c05",
+      "wd-q22100560-c09"
+    ],
+    "tempat": [
+      "wd-q22100560-c03",
+      "wd-q22100560-c04"
+    ],
+    "sifat": [
+      "wd-q22100560-c05"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE horse-shaped creature, one horse head with two ears and two eyes, four normal hoofed horse legs, one mane and one tail. Exactly ONE long central forehead horn, its surface rough and overlapping-scaled with a visibly branching tip, never a second horn. A mature powerful equine face, no wings or antlers elsewhere.",
+      "claim_ids": [
+        "wd-q22100560-c01",
+        "wd-q22100560-c02",
+        "wd-q22100560-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Suppress fire: advancing orange flames immediately in front of its raised hoof collapse into black embers and smoke while the neighboring ground still burns. Fire visibly stops at the creature; no aura, forcefield, glyphs or luminous ring.",
+      "claim_ids": [
+        "wd-q22100560-c05",
+        "wd-q22100560-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Dai, jade-veined high rock above blue-green stones below, the land and water account's mountain setting.",
+      "claim_ids": [
+        "wd-q22100560-c03",
+        "wd-q22100560-c04"
+      ]
+    }
+  ],
+  "aura": "Suppress fire: advancing orange flames immediately in front of its raised hoof collapse into black embers and smoke while the neighboring ground still burns. Fire visibly stops at the creature; no aura, forcefield, glyphs or luminous ring. [wd-q22100560-c05, wd-q22100560-c09]",
+  "artistic_choices": [
+    "Equine coat color, exact branching geometry and a firefront are editorial visualization of the documented fire-repelling role. Fire dies physically into embers rather than an invented magical shield; no antlers or second horn."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-8f21-7c83-95f6-77e3de4560e1/exec-0cbaf258-4672-4cab-b1c0-d74c779b7eff.png",
+  "native_sha256": "920ba58f9fd49f90e917e437709f18c79d47aa72162fa848a17342e8856a5935",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-15T12:12:51.952Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q22100560.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254² and200px. All7 Uji Sangar pass: unmistakable foreground creature, imposing presence retained at200, active sourced moment, effects mapped, anatomy counted, no text/watermark/frame/franchise, no ordinary/cute/calm reading. Exactly one central rough-scaled horn with branched tip c01/c02/c08 on a horselike body. One raised forehoof smothers the local fire into black ash c05/c09, direct stern gaze. Background distant mountains do not assert giant size.",
+    "limitations": [],
+    "native_sha256": "920ba58f9fd49f90e917e437709f18c79d47aa72162fa848a17342e8856a5935",
+    "reviewed_at": "2026-10-15T12:14:35.343Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "920ba58f9fd49f90e917e437709f18c79d47aa72162fa848a17342e8856a5935",
+    "notes": "Horse with one rough scaled branching horn; flames die into embers at its hoof while ground beyond burns."
+  }
+}

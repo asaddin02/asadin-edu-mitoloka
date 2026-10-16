@@ -1,0 +1,87 @@
+{
+  "slug": "wd-q10408795",
+  "batch": 1917,
+  "depicted_variant": "Juru, the small harmless mouse-like omen of war",
+  "basis_claim_ids": [
+    "wd-q10408795-c01",
+    "wd-q10408795-c02",
+    "wd-q10408795-c07",
+    "wd-q10408795-c09",
+    "wd-q10408795-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one small mouse-like creature, one head, two natural eyes, two rounded WHITE ears and a WHITE snout, four small paws and one thin tail; natural dark fur elsewhere.",
+      "claim_ids": [
+        "wd-q10408795-c01",
+        "wd-q10408795-c02",
+        "wd-q10408795-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magic from the harmless animal: the documented war omen is shown as two distant approaching army silhouettes, without combat or gore.",
+      "claim_ids": [
+        "wd-q10408795-c07",
+        "wd-q10408795-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Yidi in dark rocky Chinese mountain terrain.",
+      "claim_ids": [
+        "wd-q10408795-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "wd-q10408795-c01",
+      "wd-q10408795-c02",
+      "wd-q10408795-c07"
+    ],
+    "power_or_deed": [
+      "wd-q10408795-c07",
+      "wd-q10408795-c09"
+    ],
+    "setting": [
+      "wd-q10408795-c05"
+    ],
+    "disposition": [
+      "wd-q10408795-c07",
+      "wd-q10408795-c09"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['wd-q10408795-c01', 'wd-q10408795-c02', 'wd-q10408795-c07'] and action ['wd-q10408795-c07', 'wd-q10408795-c09']; no generic aura.",
+  "artistic_choices": [
+    "Do not make harmless Juru vicious or giant; ominous war omen and extreme close framing create awe. Distant armies only as documented narrative association.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Juru, the small harmless mouse-like omen of war.\nANATOMY: Exactly one small mouse-like creature, one head, two natural eyes, two rounded WHITE ears and a WHITE snout, four small paws and one thin tail; natural dark fur elsewhere. [wd-q10408795-c01, wd-q10408795-c02, wd-q10408795-c07]\nMOMENT: Scurry onto a foreground rock, turn suddenly toward the viewer while distant rival battle formations advance in deep shadow.\nPOWER: No magic from the harmless animal: the documented war omen is shown as two distant approaching army silhouettes, without combat or gore. [wd-q10408795-c07, wd-q10408795-c09]\nSCALE & CAMERA: Extreme ground-level macro close-up; tiny Juru fills75percent frame, distant army silhouettes are very small.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Mount Yidi in dark rocky Chinese mountain terrain. [wd-q10408795-c05]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-6eb46d80-fc70-46cc-a64c-aece17c606fe.png",
+  "generated_at": "2026-10-15T17:25:12.088929+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/wd-q10408795.png",
+  "native_sha256": "403ca1ae31a1c9861befd8d33896f84a9172ef2a6d053e9cf25cf769eec50369",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1917/rejected/wd-q10408795-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1917/rejected/wd-q10408795-attempt-01.json",
+      "native_sha256": "403ca1ae31a1c9861befd8d33896f84a9172ef2a6d053e9cf25cf769eec50369",
+      "reason": "Root reject01: cute ordinary harmless mouse at200px; distant waromen armies do not make creature awe-inspiring. Source explicitly harmless; no faithful alternative without viciousness, giant size or invented glow."
+    }
+  ],
+  "reason": "Wujud terdokumentasi hanya hewan kecil mirip tikus yang tidak berbahaya, bertelinga dan bermoncong putih, sebagai pertanda perang. Percobaan01 tetap terbaca tikus biasa lucu pada200px meskipun dua pasukan tampak; peninjau utama meminta decline karena alternatif setia tidak defensibel tanpa mengarang kejahatan, skala raksasa atau aura. Tidak mengulang konflik sumber yang intrinsik."
+}

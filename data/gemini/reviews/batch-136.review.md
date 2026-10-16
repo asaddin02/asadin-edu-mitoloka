@@ -1,6 +1,6 @@
 # Review batch-136
 
-Diperiksa 2026-10-13T20:08:16.738Z. Berkas: batch-136.md, batch-136-fix-1.md, batch-136-fix-2.md, batch-136-fix-3.md, batch-136-fix-4.md.
+Diperiksa 2026-10-16T00:57:02.411Z. Berkas: batch-136.md, batch-136-fix-1.md, batch-136-fix-2.md, batch-136-fix-3.md, batch-136-fix-4.md, batch-136-fix-5.md.
 
 ## serre — lulus-otomatis
 
@@ -188,14 +188,15 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 
 ## tajin — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 1 (unreachable 1), sumber 1, gambar 0.
 
 **manual**
 - `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 1 kutipan tidak bisa dicek otomatis: fr.wikipedia.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| tajin-c01 | exact | fr.wikipedia.org | Tajín was the rain god of the Totonacs in the Mesoamerican period. | Tajín était le dieu de la pluie des Totonaques, à l'époque mésoaméricaine. |
+| tajin-c01 | unreachable (tidak bisa dibuka (fetch failed)) | fr.wikipedia.org | Tajín was the rain god of the Totonacs in the Mesoamerican period. | Tajín était le dieu de la pluie des Totonaques, à l'époque mésoaméricaine. |
 
 
 ## tartaranho — lulus-otomatis
@@ -429,9 +430,6 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 Klaim 8 (exact 8), sumber 2, gambar 0.
 
-**manual**
-- `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | vakner-c01 | exact | gl.wikipedia.org | The Vákner is a Galician mythological figure: the being the Armenian pilgrim Mártir, bishop of Arzendjan, met on his way to Fisterra (1491), now a symbol of the Way of St James to Fisterra. | O Vákner é unha figura mitolóxica galega que designa o ser que o peregrino armenio Mártir (ou Mártiros), bispo de Arzendjan, atopou no seu camiño a Fisterra (1491), e que se converteu nun símbolo da peregrinación Xacobea a Fisterra, Galicia. |
@@ -492,9 +490,6 @@ Klaim 0 (), sumber 0, gambar 0.
 ## xacio — lulus-otomatis
 
 Klaim 8 (exact 8), sumber 3, gambar 0.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -627,9 +622,6 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 ## zarrouco — lulus-otomatis
 
 Klaim 6 (exact 6), sumber 3, gambar 0.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|

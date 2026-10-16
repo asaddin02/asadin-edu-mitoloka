@@ -1,0 +1,89 @@
+{
+  "slug": "sankai",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Sankai, Okayama oketsu turtle-with-hairy-back variant.\nANATOMY: One small turtle-like monster with hair growing densely over its back, one head, one shell, four short clawed legs and one tail; no human infant anatomy [c04]\nMOMENT: Scrabble toward the viewer from under a rough timber beam, foreclaws digging grit, hairy shell filling upper frame, head craned forward in a hostile stare.\nPOWER: No visible magical power; it crawls beneath a house, disturbed dirt only [c05, c07]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: single low warm light leaking through floorboard gap, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: matted coarse hair over rough shell plates, earth-caked claws.\nSETTING: Cramped dark crawlspace directly beneath a timber house [c05]\nMOOD: uncanny threatening oketsu; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "Okayama oketsu turtle-with-hairy-back variant",
+  "basis_claim_ids": [
+    "sankai-c04",
+    "sankai-c05",
+    "sankai-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One small turtle-like monster with hair growing densely over its back, one head, one shell, four short clawed legs and one tail; no human infant anatomy",
+      "claim_ids": [
+        "sankai-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible magical power; it crawls beneath a house, disturbed dirt only",
+      "claim_ids": [
+        "sankai-c05",
+        "sankai-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cramped dark crawlspace directly beneath a timber house",
+      "claim_ids": [
+        "sankai-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "sankai-c04"
+    ],
+    "power_domain_deeds": [
+      "sankai-c05",
+      "sankai-c07"
+    ],
+    "setting": [
+      "sankai-c05"
+    ],
+    "disposition": [
+      "sankai-c07"
+    ]
+  },
+  "aura": "No visible magical power; it crawls beneath a house, disturbed dirt only sankai-c05,sankai-c07",
+  "artistic_choices": [
+    "Macro camera preserves small size. No birth, mother, blood, infant or gore depicted. Turtle hair is principal impossible feature."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-7572a065-1a5c-4448-9341-37784b9fccf7.png",
+  "generated_at": "2026-10-15T17:07:36.337529+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/sankai.png",
+  "native_sha256": "270cb43ae9afd3105408e38cb46cecab6a0d14b66a249ffb43fde9d02efb15ea",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and200 inspected. Small hairy-backed turtle monster advances beneath beams; impossible hairy shell unmistakable, hostile stare and planted digging claw convey motion. No body-size invention, infant, blood, magic, text or extra limbs. All seven Sangar yes.",
+    "limitations": [],
+    "native_sha256": "270cb43ae9afd3105408e38cb46cecab6a0d14b66a249ffb43fde9d02efb15ea",
+    "reviewed_at": "2026-10-15T17:07:36.337529+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "270cb43ae9afd3105408e38cb46cecab6a0d14b66a249ffb43fde9d02efb15ea",
+    "notes": "Turtle with hair on its shell crawling under the house."
+  }
+}

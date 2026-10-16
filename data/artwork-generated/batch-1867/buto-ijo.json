@@ -1,0 +1,96 @@
+{
+  "slug": "buto-ijo",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-155.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Buto Ijo, the tall green giant pursuing Timun Mas.\nANATOMY: One colossal adult male humanlike green-skinned giant, one head, two human arms with five fingers each, two legs; rough green face and exposed green hands, wearing an opaque coarse earth-brown wrapped tunic and knee-length cloth, no horns, tusks or superhero anatomy. [buto-ijo-c01, buto-ijo-c02, buto-ijo-c12, buto-ijo-c13]\nMOMENT: Smash through Mbok Srini's wooden shack toward the viewer, one huge hand snapping the roof beam and the other reaching down. The crushed shack directly at his shins proves his immense scale. His furious glaring face fills the upper third; a tiny fully clothed young woman runs away near the structure without injury.\nPOWER: His immense strength physically splinters the shack and hurls wooden fragments, the documented destruction during the chase; no magical glow. [buto-ijo-c04, buto-ijo-c12]\nSCALE & CAMERA / LIGHT & WEATHER: The giant dominates from close low angle; the adjacent hut provides direct scale. One low orange sunset source, deep walnut shadows, dense airborne wood dust.\nSURFACE: tactile worn natural surfaces, dense shadows and sharp highlights; painterly material detail, never plastic.\nSETTING: Mbok Srini's simple rural Javanese shack during the pursuit, plain wood and thatch, not a fantasy city. [buto-ijo-c01, buto-ijo-c04]\nMOOD: imposing, dangerous or awe-inspiring; startling anatomy and forceful action, never ordinary, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbol, logo, border, frame or watermark, including corners; no extra heads, eyes or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "Green giant tearing apart the shack during the chase.",
+  "basis_claim_ids": [
+    "buto-ijo-c01",
+    "buto-ijo-c02",
+    "buto-ijo-c12",
+    "buto-ijo-c13",
+    "buto-ijo-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "buto-ijo-c01",
+      "buto-ijo-c02",
+      "buto-ijo-c12",
+      "buto-ijo-c13"
+    ],
+    "kekuatan": [
+      "buto-ijo-c04",
+      "buto-ijo-c12"
+    ],
+    "tempat": [
+      "buto-ijo-c01",
+      "buto-ijo-c04"
+    ],
+    "sifat": [
+      "buto-ijo-c01"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One colossal adult male humanlike green-skinned giant, one head, two human arms with five fingers each, two legs; rough green face and exposed green hands, wearing an opaque coarse earth-brown wrapped tunic and knee-length cloth, no horns, tusks or superhero anatomy.",
+      "claim_ids": [
+        "buto-ijo-c01",
+        "buto-ijo-c02",
+        "buto-ijo-c12",
+        "buto-ijo-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "His immense strength physically splinters the shack and hurls wooden fragments, the documented destruction during the chase; no magical glow.",
+      "claim_ids": [
+        "buto-ijo-c04",
+        "buto-ijo-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mbok Srini's simple rural Javanese shack during the pursuit, plain wood and thatch, not a fantasy city.",
+      "claim_ids": [
+        "buto-ijo-c01",
+        "buto-ijo-c04"
+      ]
+    }
+  ],
+  "aura": "His immense strength physically splinters the shack and hurls wooden fragments, the documented destruction during the chase; no magical glow. [buto-ijo-c04, buto-ijo-c12]",
+  "artistic_choices": [
+    "Opaque clothing, giant facial anatomy, hair, rural hut details, palette and low camera are editorial choices. No film/advertisement design, no horns, no invented magic; no injuries or eating."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-8f21-7c83-95f6-77e3de4560e1/exec-010816fc-ea88-4a4c-a722-05b1b594ca48.png",
+  "native_sha256": "f29b18521b3f79dc13b3c7a150f1cd780b72193a831b7364bf49d79722adda6a",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-15T12:03:20.202Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/buto-ijo.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254x1254 and200x200 thumbnail. All7 Uji Sangar pass: subject dominant and imposing at200px, sourced moment active, effects traceable, anatomy counted, no text/watermark/frame or recognizable franchise design, no ordinary/cute/static reading. One green giant dominates, crushing an adjacent hut as direct size comparator while Timun Mas flees clothed and unharmed. One head/two arms/five fingers per hand/two legs, opaque coarse cloth, no superhero identifiers; wrecked wood follows c04/c12.",
+    "limitations": [],
+    "native_sha256": "f29b18521b3f79dc13b3c7a150f1cd780b72193a831b7364bf49d79722adda6a",
+    "reviewed_at": "2026-10-15T12:06:29.044Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "f29b18521b3f79dc13b3c7a150f1cd780b72193a831b7364bf49d79722adda6a",
+    "notes": "Green giant splintering the shack while the girl flees, unharmed and clothed; one head, five-fingered hands, no horns or tusks."
+  }
+}

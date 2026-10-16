@@ -1,0 +1,88 @@
+{
+  "slug": "lobisomem",
+  "batch": 1917,
+  "depicted_variant": "Brazilian werewolf variant lunging along a moonlit road.",
+  "basis_claim_ids": [
+    "lobisomem-c01",
+    "lobisomem-c06",
+    "lobisomem-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One werewolf, one wolf-like head, two ears, two eyes, two arms and two legs.",
+      "claim_ids": [
+        "lobisomem-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Nighttime attack on road; no visible supernatural aura.",
+      "claim_ids": [
+        "lobisomem-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Road at full-moon night.",
+      "claim_ids": [
+        "lobisomem-c05",
+        "lobisomem-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "lobisomem-c01"
+    ],
+    "power_or_deed": [
+      "lobisomem-c06"
+    ],
+    "setting": [
+      "lobisomem-c05",
+      "lobisomem-c06"
+    ],
+    "disposition": [
+      "lobisomem-c06"
+    ]
+  },
+  "aura": "Threat comes from the werewolf form c01 attacking along the road c06.",
+  "artistic_choices": [
+    "Werewolf version selected rather than incompatible pig or fireball variants.",
+    "Framing creates dominance without claiming giant scale.",
+    "Torn opaque plain trousers are editorial modesty clothing; no invented magic."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Lobisomem, the Brazilian werewolf of folklore.\nANATOMY: one wolf-man with exactly one snarling wolf head, two wolf ears, two natural eyes, two muscular arms, two digitigrade legs, dense coarse dark fur, long muzzle and visible fangs; opaque plain torn trousers conceal the waist. [lobisomem-c01]\nMOMENT: lunge out of the road's darkness toward the viewer, one clawed forehand raking the earth, jaws opened in a threatening snarl, shoulders violently twisted.\nPOWER: no documented visible magical effect; night attack along a road is the documented action [lobisomem-c06]. Only physical dirt displaced by claws.\nSCALE & CAMERA: extreme low ground-level angle, tight framing, forehand and wolf muzzle dominate; normal werewolf bodily scale, not a giant.\nLIGHT & WEATHER: one dominant full moon through dark clouds, sharp pale rim light, warm deep shadows, ordinary road dust.\nSURFACE: coarse matted fur, dirty claws, rough muzzle skin, worn opaque cloth.\nSETTING: rural Brazilian dirt road at full-moon night [lobisomem-c05, lobisomem-c06].\nMOOD: dangerous, menacing and imposing, predatory confrontation, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, magic symbols or energy ribbons.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-e7e00405-7b59-4005-927b-e9008d1a479f.png",
+  "generated_at": "2026-10-15T17:00:39.283783+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/lobisomem.png",
+  "native_sha256": "1436d19cfa93d651faea9056439d0a6c941d21e8aafd0b8592d935c12b48daf8",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "1436d19cfa93d651faea9056439d0a6c941d21e8aafd0b8592d935c12b48daf8",
+    "reviewed_at": "2026-10-15T17:00:39.283783+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "1436d19cfa93d651faea9056439d0a6c941d21e8aafd0b8592d935c12b48daf8",
+    "notes": "Werewolf lunging along the moonlit dirt road."
+  }
+}

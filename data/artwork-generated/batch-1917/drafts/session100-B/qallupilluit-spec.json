@@ -1,0 +1,71 @@
+{
+  "slug": "qallupilluit",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Qallupilluit, green-skinned long-nailed Arctic amautik wearer.\nANATOMY: One human-shaped shore creature with green slimy skin, long tangled hair, long fingernails, two arms and legs, fully opaque thick amautik parka with an enormous empty rear hood [c03, c04, c05, c06]\nMOMENT: Clamber over the nearest ice edge toward viewer, one clawed hand extended, hunched parka shoulder and great empty hood clearly visible.\nPOWER: Reach from the seawater toward the shore; displaced water splashes physically around its hands; child-stealing menace without a depicted victim [c01]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low moon through arctic cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: slick green skin, wet matted hair, heavy weathered hide parka, jagged ice.\nSETTING: Arctic shore between broken sea-ice floes [c01]\nMOOD: menacing and uncanny; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "green-skinned long-nailed Arctic amautik wearer",
+  "basis_claim_ids": [
+    "qallupilluit-c03",
+    "qallupilluit-c04",
+    "qallupilluit-c05",
+    "qallupilluit-c06",
+    "qallupilluit-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One human-shaped shore creature with green slimy skin, long tangled hair, long fingernails, two arms and legs, fully opaque thick amautik parka with an enormous empty rear hood",
+      "claim_ids": [
+        "qallupilluit-c03",
+        "qallupilluit-c04",
+        "qallupilluit-c05",
+        "qallupilluit-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Reach from the seawater toward the shore; displaced water splashes physically around its hands; child-stealing menace without a depicted victim",
+      "claim_ids": [
+        "qallupilluit-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Arctic shore between broken sea-ice floes",
+      "claim_ids": [
+        "qallupilluit-c01"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "qallupilluit-c03",
+      "qallupilluit-c04",
+      "qallupilluit-c05",
+      "qallupilluit-c06"
+    ],
+    "power_domain_deeds": [
+      "qallupilluit-c01"
+    ],
+    "setting": [
+      "qallupilluit-c01"
+    ],
+    "disposition": [
+      "qallupilluit-c01"
+    ]
+  },
+  "aura": "Reach from the seawater toward the shore; displaced water splashes physically around its hands; child-stealing menace without a depicted victim qallupilluit-c01",
+  "artistic_choices": [
+    "Choose common green-skinned variant, not blending inflated-seal-float feet into it. No victim, no invented freezing power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

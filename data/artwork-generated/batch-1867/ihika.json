@@ -1,0 +1,88 @@
+{
+  "slug": "ihika",
+  "worker": "codex",
+  "worker_agent": "lane1867_C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-061.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13ead-a04b-79f2-9553-45b02541e3c4/exec-d70bddc7-8da2-4f03-8dd9-64afcef1dba6.png",
+  "generated_at": "2026-10-15T12:32:25.810Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/ihika.png",
+  "native_sha256": "fe19b38beb7524932343cd17a09d435c05a1b8fb96ed241c838ae17ea46e886b",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Edit this Ihika goddess illustration while preserving her one human head, two eyes, two arms, two legs, single plain furred tail, completely opaque layered robe and early Japanese wooden river-well access. Make the exact documented revelation unmistakable: she is actively RISING from the water with one knee lifting to wet beam, water cascading physically from the hem, one arm opens in a solemn greeting toward the nearby traveller, face turns downward with calm commanding sacred dignity. NOT a fashion pose. Change background to DARK NIGHT with NO sun, sunset, skylight or external light source. The single dominant white light comes FROM THE SHINING DEITY HERSELF and her shining river water, softly illuminating the undersides of beams, visitor's face and wet wood; obvious physical local illumination, no abstract aura/halo/ribbons or sparkles. Keep the single tail very clearly visible sweeping across foreground, no extra animal ears or horns, no weapons, no invented regalia, no cosmic giant size. Awe-inspiring reverent revelation, never sinister, cute or ordinary. No text, symbols, signature, watermark, franchise design or gore. Cloth entirely opaque, no translucence.",
+  "depicted_variant": "Ihika, the shining tailed Japanese earthly deity encountered by Jinmu",
+  "basis_claim_ids": [
+    "ihika-c01",
+    "ihika-c02",
+    "ihika-c07",
+    "ihika-c05",
+    "ihika-c03",
+    "ihika-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one reverently depicted adult goddess with one human head, two eyes, two arms and two legs, one distinctly visible plain furred tapering tail sweeping forward beside her hip; completely opaque layered early Japanese woven robes covering torso, chest, arms and legs; no horns, animal ears, extra limbs or ornate invented regalia",
+      "claim_ids": [
+        "ihika-c01",
+        "ihika-c02",
+        "ihika-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The deity and water are shining as documented: soft strong white physical light emitted from her figure and reflected brightly in wet timbers and surrounding water; no energy ribbons, runes or unrelated elemental control",
+      "claim_ids": [
+        "ihika-c02",
+        "ihika-c05",
+        "ihika-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yoshino river well/access with wooden river-edge beams; a tiny part of a nearby traveller shoulder anchors close human scale, not colossal",
+      "claim_ids": [
+        "ihika-c03",
+        "ihika-c04",
+        "ihika-c05"
+      ]
+    }
+  ],
+  "aura": "The deity and water are shining as documented: soft strong white physical light emitted from her figure and reflected brightly in wet timbers and surrounding water; no energy ribbons, runes or unrelated elemental control",
+  "artistic_choices": [
+    "Choose tailed light-emitting being interpretationc07, not attached-hide alternativec08. Exact unspecific tail fur/shape editorial, no named animal claimed.",
+    "Light is explicit documentary exception to generic aura ban; show it illuminating actual water and wood, no abstract halo.",
+    "Respect living Japanese religious tradition, awe not horror. Opaque layered robe editorial, no giant scaling."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1867/rejected/ihika-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1867/rejected/ihika-attempt-01.json",
+      "native_sha256": "e50128665d12ee72f6ef02d5e803656f4abf3655ab056c1270b62f2c737af71a",
+      "reason": "Externally sunlit fashion-like standing pose; source self-shining emergence not adequately clear. Targeted night and gesture edit."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254 and200. Sangar7/7: shining tailed goddess dominates, white furry single tail and revelatory river light remain obvious and awe at200; active knee-up emergence and offered greeting hand, not neutral standing. Documentary shiningc02/c05/c07 lights physical wet beams, water and observer; no unrelated power. One human head/two eyes/two arms/two legs/one tail, no animal ears/horns, opaque layered robes (lower calf visible below lifted hem, no nudity). No text/franchise/gore, divine shining tailed emergence rather than ordinary woman. Respectful calm dignity for living tradition; tail texture/robe editorial within tailed-figure interpretation.",
+    "limitations": [],
+    "native_sha256": "fe19b38beb7524932343cd17a09d435c05a1b8fb96ed241c838ae17ea46e886b",
+    "reviewed_at": "2026-10-15T12:32:25.810Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "fe19b38beb7524932343cd17a09d435c05a1b8fb96ed241c838ae17ea46e886b",
+    "notes": "Robed goddess with a visible furred tail, shining and reflected in the wet well timbers; respectful, fully clothed."
+  }
+}

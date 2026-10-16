@@ -1,0 +1,101 @@
+{
+  "slug": "wd-q11179559",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 黑蜧.\nANATOMY: One BLACK divine SERPENT, one snake head/two eyes and a long scaled limbless body with one tail, no legs, wings, horns, whiskers, claws or dragon crest. [wd-q11179559-c01, wd-q11179559-c04, wd-q11179559-c07]\nMOMENT: Leap upward from deep spring and arc close toward viewer as clouds thicken into dark overhead masses and heavy rain physically lashes water around the raised black coils; wind drives rain sideways and lifts spray. This is a revered rain-bringer, imposing rather than evil, mouth mostly closed. [wd-q11179559-c04, wd-q11179559-c06, wd-q11179559-c07, wd-q11179559-c09]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Deep sacred spring beneath thick rain clouds, black water churning below, distant rocks for depth. [wd-q11179559-c04, wd-q11179559-c06, wd-q11179559-c07]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Choose black snake form c01/c07 rather than invent dragon limbs from poetic divine-dragon name c06. No lightning, fire or glow. Rain, clouds and wind are sourced c04/c07. Scale unspecified, close framing rather than invented giant comparison.",
+  "depicted_variant": "Black limbless Heili leaping from spring into its cloud wind and rain.",
+  "basis_claim_ids": [
+    "wd-q11179559-c01",
+    "wd-q11179559-c04",
+    "wd-q11179559-c07",
+    "wd-q11179559-c06",
+    "wd-q11179559-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q11179559-c01",
+      "wd-q11179559-c04",
+      "wd-q11179559-c07"
+    ],
+    "kekuatan": [
+      "wd-q11179559-c04",
+      "wd-q11179559-c06",
+      "wd-q11179559-c07",
+      "wd-q11179559-c09"
+    ],
+    "tempat": [
+      "wd-q11179559-c04",
+      "wd-q11179559-c06",
+      "wd-q11179559-c07"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One BLACK divine SERPENT, one snake head/two eyes and a long scaled limbless body with one tail, no legs, wings, horns, whiskers, claws or dragon crest.",
+      "claim_ids": [
+        "wd-q11179559-c01",
+        "wd-q11179559-c04",
+        "wd-q11179559-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Leap upward from deep spring and arc close toward viewer as clouds thicken into dark overhead masses and heavy rain physically lashes water around the raised black coils; wind drives rain sideways and lifts spray. This is a revered rain-bringer, imposing rather than evil, mouth mostly closed.",
+      "claim_ids": [
+        "wd-q11179559-c04",
+        "wd-q11179559-c06",
+        "wd-q11179559-c07",
+        "wd-q11179559-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Deep sacred spring beneath thick rain clouds, black water churning below, distant rocks for depth.",
+      "claim_ids": [
+        "wd-q11179559-c04",
+        "wd-q11179559-c06",
+        "wd-q11179559-c07"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: wd-q11179559-c01, wd-q11179559-c04, wd-q11179559-c07, wd-q11179559-c06, wd-q11179559-c09.",
+  "artistic_choices": [
+    "Choose black snake form c01/c07 rather than invent dragon limbs from poetic divine-dragon name c06. No lightning, fire or glow. Rain, clouds and wind are sourced c04/c07. Scale unspecified, close framing rather than invented giant comparison.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-092d3da5-fd64-461a-a0fc-37b70eac2b78.png",
+  "generated_at": "2026-10-15T12:11:54.859Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q11179559.png",
+  "native_sha256": "8dbb9a7bdc7ca80901c5f57c1138e3f5b4c09a2d10ff6a4afe49f2752bee1481",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. Black limbless serpent with one head/two eyes/no horns, wings or legs, leaping from deep spring c06 amid visibly driving rain, dark clouds and wind c04/c07. Close foreshortened coils and water leap imposing at200px; no added lightning, fire, fangs or glowing eyes. No text, frame, franchise imitation or gore.",
+    "limitations": [
+      "Body tail partly submerged; no numerical size claimed, apparent size from camera."
+    ],
+    "native_sha256": "8dbb9a7bdc7ca80901c5f57c1138e3f5b4c09a2d10ff6a4afe49f2752bee1481",
+    "reviewed_at": "2026-10-15T12:15:27.328Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "8dbb9a7bdc7ca80901c5f57c1138e3f5b4c09a2d10ff6a4afe49f2752bee1481",
+    "notes": "Black limbless serpent rising from the spring under rain and dark cloud."
+  }
+}

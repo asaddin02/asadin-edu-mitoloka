@@ -1,0 +1,92 @@
+{
+  "slug": "trucafort",
+  "batch": 1917,
+  "depicted_variant": "Trucafort, the mountain-tall Catalan giant",
+  "basis_claim_ids": [
+    "trucafort-c01",
+    "trucafort-c02",
+    "trucafort-c06",
+    "trucafort-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one mountain-sized bearded man, one head, two eyes, two arms and two legs; enormously long beard descends to the ground and is trodden beneath one foot; rough opaque tunic and trousers; one huge rock balanced on head as hat and another TEN TIMES heavier boulder held in both hands.",
+      "claim_ids": [
+        "trucafort-c01",
+        "trucafort-c02",
+        "trucafort-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical footsteps and weight disturb stones; no magical aura, no victim or gore.",
+      "claim_ids": [
+        "trucafort-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark Catalan mountain valley near Castellar de n'Hug.",
+      "claim_ids": [
+        "trucafort-c01",
+        "trucafort-c03"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "trucafort-c01",
+      "trucafort-c02",
+      "trucafort-c06"
+    ],
+    "power_or_deed": [
+      "trucafort-c02"
+    ],
+    "setting": [
+      "trucafort-c01",
+      "trucafort-c03"
+    ],
+    "disposition": [
+      "trucafort-c02"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['trucafort-c01', 'trucafort-c02', 'trucafort-c06'] and action ['trucafort-c02']; no generic aura.",
+  "artistic_choices": [
+    "Two-stone version chosen rather than added mace. Huge beard must reach beneath foot. Opaque wool clothing editorial.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Trucafort, the mountain-tall Catalan giant.\nANATOMY: Exactly one mountain-sized bearded man, one head, two eyes, two arms and two legs; enormously long beard descends to the ground and is trodden beneath one foot; rough opaque tunic and trousers; one huge rock balanced on head as hat and another TEN TIMES heavier boulder held in both hands. [trucafort-c01, trucafort-c02, trucafort-c06]\nMOMENT: Stride toward the valley and viewer, stoop under rock hat and lift the second immense boulder ready to drop onto empty ground.\nPOWER: Physical footsteps and weight disturb stones; no magical aura, no victim or gore. [trucafort-c02]\nSCALE & CAMERA: Extreme low angle in valley; mountain-tall giant fills frame, tiny pines provide clear scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Dark Catalan mountain valley near Castellar de n'Hug. [trucafort-c01, trucafort-c03]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-10fe8427-de8a-4913-b4e4-7808726790d8.png",
+  "generated_at": "2026-10-15T17:18:45.365115+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/trucafort.png",
+  "native_sha256": "b23e9af75ba686b37b97de3729efbcc2b1ac4cf7e1fd0a22b24f5eb9174c6593",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "b23e9af75ba686b37b97de3729efbcc2b1ac4cf7e1fd0a22b24f5eb9174c6593",
+    "reviewed_at": "2026-10-15T17:18:45.365115+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "b23e9af75ba686b37b97de3729efbcc2b1ac4cf7e1fd0a22b24f5eb9174c6593",
+    "notes": "Mountain-tall bearded giant with a rock for a hat and a boulder in his arms, stones shaken loose."
+  }
+}

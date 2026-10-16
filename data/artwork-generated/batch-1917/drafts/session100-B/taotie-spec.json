@@ -1,0 +1,71 @@
+{
+  "slug": "taotie",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Taotie, living bodiless taotie head based on Zhou bronze account.\nANATOMY: One living symmetrical disembodied animal head with two bulging raised eyes and one huge open mouth; absolutely no body neck shoulders legs wings or additional heads, no invented horns [c02, c05, c09]\nMOMENT: Surge directly toward viewer out of deep shadow, both raised eyes clearly visible, maw opening to swallow the foreground; tight frame makes bodiless head unmistakable.\nPOWER: No added magical effects; head lunges forward with jaw opening in documented devouring hunger; no victim shown [c04, c09]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low bronze-amber side light, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: rough organic hide, wrinkled brow, aged ivory teeth, wet mouth.\nSETTING: Featureless deep darkness, no invented landscape or bronze vessel [c05]\nMOOD: menacing gluttonous monster; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "living bodiless taotie head based on Zhou bronze account",
+  "basis_claim_ids": [
+    "taotie-c02",
+    "taotie-c05",
+    "taotie-c09",
+    "taotie-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living symmetrical disembodied animal head with two bulging raised eyes and one huge open mouth; absolutely no body neck shoulders legs wings or additional heads, no invented horns",
+      "claim_ids": [
+        "taotie-c02",
+        "taotie-c05",
+        "taotie-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No added magical effects; head lunges forward with jaw opening in documented devouring hunger; no victim shown",
+      "claim_ids": [
+        "taotie-c04",
+        "taotie-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Featureless deep darkness, no invented landscape or bronze vessel",
+      "claim_ids": [
+        "taotie-c05"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "taotie-c02",
+      "taotie-c05",
+      "taotie-c09"
+    ],
+    "power_domain_deeds": [
+      "taotie-c04",
+      "taotie-c09"
+    ],
+    "setting": [
+      "taotie-c05"
+    ],
+    "disposition": [
+      "taotie-c01",
+      "taotie-c04"
+    ]
+  },
+  "aura": "No added magical effects; head lunges forward with jaw opening in documented devouring hunger; no victim shown taotie-c04,taotie-c09",
+  "artistic_choices": [
+    "Convert documented head-without-body motif into living creature per emblem rule. Dark void is editorial neutral background, not source place. No victim or gore."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

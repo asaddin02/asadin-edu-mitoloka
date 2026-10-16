@@ -1,0 +1,83 @@
+{
+  "slug": "qiongqi",
+  "batch": 1917,
+  "depicted_variant": "Qiongqi, the winged tiger variant from the Shanhaijing",
+  "basis_claim_ids": [
+    "qiongqi-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one living tiger with one head, two eyes, four feline legs, one tail and two large feathered wings emerging from its shoulders; no ox anatomy, no horns or hedgehog bristles.",
+      "claim_ids": [
+        "qiongqi-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented magical effect; physical predatory flight and attack only, no victim or gore.",
+      "claim_ids": [
+        "qiongqi-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark rocky wilderness north of Taoquan.",
+      "claim_ids": [
+        "qiongqi-c06"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "qiongqi-c06"
+    ],
+    "power_or_deed": [
+      "qiongqi-c06"
+    ],
+    "setting": [
+      "qiongqi-c06"
+    ],
+    "disposition": [
+      "qiongqi-c06"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['qiongqi-c06'] and action ['qiongqi-c06']; no generic aura.",
+  "artistic_choices": [
+    "Winged tiger version selected, incompatible bristled ox version excluded.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Qiongqi, the winged tiger variant from the Shanhaijing.\nANATOMY: Exactly one living tiger with one head, two eyes, four feline legs, one tail and two large feathered wings emerging from its shoulders; no ox anatomy, no horns or hedgehog bristles. [qiongqi-c06]\nMOMENT: Pounce toward the viewer from a rocky ledge, wings beating open, jaws snarling and front paws foreshortened.\nPOWER: No documented magical effect; physical predatory flight and attack only, no victim or gore. [qiongqi-c06]\nSCALE & CAMERA: Tight low-angle close-up; subject fills frame, no invented giant scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Dark rocky wilderness north of Taoquan. [qiongqi-c06]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-067e5fde-db99-4a03-8ff0-5fbd662d7284.png",
+  "generated_at": "2026-10-15T17:04:44.330140+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/qiongqi.png",
+  "native_sha256": "eb189787c149fff8612ec311c5ddd606e16aa9a9a6dde897a6c7eca200023682",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "eb189787c149fff8612ec311c5ddd606e16aa9a9a6dde897a6c7eca200023682",
+    "reviewed_at": "2026-10-15T17:04:44.330140+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "eb189787c149fff8612ec311c5ddd606e16aa9a9a6dde897a6c7eca200023682",
+    "notes": "Winged tiger pouncing through the night air."
+  }
+}

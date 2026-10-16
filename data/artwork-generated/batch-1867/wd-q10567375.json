@@ -1,0 +1,97 @@
+{
+  "slug": "wd-q10567375",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 龍伯.\nANATOMY: Exactly ONE colossal HUMAN GIANT from Longbo, one head/two eyes/two arms/two legs, opaque weathered ancient robe covering torso and hips, no horns, crown, armor or other divine attributes. Exactly SIX distinct GIANT TURTLES caught together, each with one clear shell and turtle head, arranged as two staggered vertical groups of THREE so all SIX can be counted. [wd-q10567375-c01, wd-q10567375-c06, wd-q10567375-c07]\nMOMENT: Brace across the sea and haul one enormous fishing line from the water with both hands; the single line branches to SIX turtle catches suspended side by side, shells heavy and dripping. The giant towers over distant mountain islands; water falls in huge physical sheets from six shells. Turtles alive, no injuries, blood, bones or divination gore. [wd-q10567375-c03, wd-q10567375-c08]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Mythic sea around the five sacred mountains reached in a few giant steps; dark ocean, remote mountain islands very small under giant frame. [wd-q10567375-c02, wd-q10567375-c04]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Exact human appearance, opaque robe and fishing-line configuration editorial. Scale monumental by giant claims; not ordinary fisherman. Exactly six catches with no extra turtles hidden in water.",
+  "depicted_variant": "Longbo giant hauling six distinct giant turtles in one cast.",
+  "basis_claim_ids": [
+    "wd-q10567375-c01",
+    "wd-q10567375-c06",
+    "wd-q10567375-c07",
+    "wd-q10567375-c03",
+    "wd-q10567375-c08",
+    "wd-q10567375-c02",
+    "wd-q10567375-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10567375-c01",
+      "wd-q10567375-c06",
+      "wd-q10567375-c07"
+    ],
+    "kekuatan": [
+      "wd-q10567375-c03",
+      "wd-q10567375-c08"
+    ],
+    "tempat": [
+      "wd-q10567375-c02",
+      "wd-q10567375-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE colossal HUMAN GIANT from Longbo, one head/two eyes/two arms/two legs, opaque weathered ancient robe covering torso and hips, no horns, crown, armor or other divine attributes. Exactly SIX distinct GIANT TURTLES caught together, each with one clear shell and turtle head, arranged as two staggered vertical groups of THREE so all SIX can be counted.",
+      "claim_ids": [
+        "wd-q10567375-c01",
+        "wd-q10567375-c06",
+        "wd-q10567375-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Brace across the sea and haul one enormous fishing line from the water with both hands; the single line branches to SIX turtle catches suspended side by side, shells heavy and dripping. The giant towers over distant mountain islands; water falls in huge physical sheets from six shells. Turtles alive, no injuries, blood, bones or divination gore.",
+      "claim_ids": [
+        "wd-q10567375-c03",
+        "wd-q10567375-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mythic sea around the five sacred mountains reached in a few giant steps; dark ocean, remote mountain islands very small under giant frame.",
+      "claim_ids": [
+        "wd-q10567375-c02",
+        "wd-q10567375-c04"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: wd-q10567375-c01, wd-q10567375-c06, wd-q10567375-c07, wd-q10567375-c03, wd-q10567375-c08, wd-q10567375-c02, wd-q10567375-c04.",
+  "artistic_choices": [
+    "Exact human appearance, opaque robe and fishing-line configuration editorial. Scale monumental by giant claims; not ordinary fisherman. Exactly six catches with no extra turtles hidden in water.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-91d7bc01-d36c-463a-a3b7-4d2edea06b82.png",
+  "generated_at": "2026-10-15T12:09:01.352Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q10567375.png",
+  "native_sha256": "ed6829fb62f298f2c0c0785136aa730c2c87d5423455511d49d46e279293870b",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. One clothed giant with both human hands hauling SIX distinct turtle catches: three left and three right, all six shells/heads countable. Mountain islands tiny under giant and falling seawater emphasize documented giant scale c02/c03/c06/c07/c08; no injury, blood, bones or magic. Awe at200px. No text, border, borrowed franchise design or gore.",
+    "limitations": [
+      "Exact giant face, robe, turtle species and rope harness editorial. Lower giant legs behind robe/water."
+    ],
+    "native_sha256": "ed6829fb62f298f2c0c0785136aa730c2c87d5423455511d49d46e279293870b",
+    "reviewed_at": "2026-10-15T12:10:57.127Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "ed6829fb62f298f2c0c0785136aa730c2c87d5423455511d49d46e279293870b",
+    "notes": "Giant of Longbo hauling six turtles on one line out of the sea."
+  }
+}

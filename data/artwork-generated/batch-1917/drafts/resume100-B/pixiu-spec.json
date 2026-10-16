@@ -1,0 +1,105 @@
+{
+  "slug": "pixiu",
+  "worker": "codex",
+  "worker_agent": "resume100_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "Edit the provided Pixiu illustration with one targeted anatomical correction. Preserve its original painterly cinematic square composition, fierce Chinese dragon head on lion body, four paws, two wings, rushing pounce, rocky ground, sunset light, surfaces and all other details.\nANATOMY CORRECTION: Tianlu has EXACTLY ONE ANTLER [pixiu-c03]. Keep the single large ivory branching antler in the upper center-right unchanged. REMOVE ALL OTHER HARD HORNS or bony head projections, especially the small dark curved horn immediately to the viewer LEFT of the large ivory antler and any small angular horn above the right eye. Replace secondary horn areas with ordinary smooth fur. Keep exactly TWO ordinary soft rounded fur-covered lion ears, one each side, visibly fleshy rounded ears not pointed hardened horns. The only hard projection anywhere on the skull must be the ONE ivory branching antler. No additional antler bases.\nMaintain one head, two eyes, four legs, two wings [pixiu-c01,pixiu-c06]. Keep dynamic foreshortened pounce and fierce guardian mood [pixiu-c02,pixiu-c09]. No supernatural effects.\nHARD CONSTRAINTS: no text, pseudotext, lettering, logo, watermark, border or frame; no extra limbs, heads or horns; no aura, energy ribbons or magic; no nudity, explicit gore or borrowed character design.",
+  "depicted_variant": "single-antlered Tianlu form of the winged dragon-headed lion guardian",
+  "basis_claim_ids": [
+    "pixiu-c01",
+    "pixiu-c03",
+    "pixiu-c06",
+    "pixiu-c02",
+    "pixiu-c09",
+    "pixiu-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living winged lion with Chinese dragon head, four paws, two wings, exactly ONE large ivory branching antler and two soft rounded furred ears; all secondary hard horns removed.",
+      "claim_ids": [
+        "pixiu-c01",
+        "pixiu-c03",
+        "pixiu-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No literal supernatural effects; force comes from fierce guardian anatomy and pounce",
+      "claim_ids": [
+        "pixiu-c02",
+        "pixiu-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Bare rocky foreground, dark indistinct ground, no invented architecture",
+      "claim_ids": [
+        "pixiu-c08"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "pixiu-c01",
+      "pixiu-c03",
+      "pixiu-c06"
+    ],
+    "power_domain_deeds": [
+      "pixiu-c02",
+      "pixiu-c09"
+    ],
+    "setting": [
+      "pixiu-c08"
+    ],
+    "disposition": [
+      "pixiu-c02",
+      "pixiu-c09"
+    ]
+  },
+  "aura": "No literal supernatural effects; force comes from fierce guardian anatomy and pounce pixiu-c02,pixiu-c09",
+  "artistic_choices": [
+    "Rocky ground is neutral editorial staging, not asserted as sacred location. No coins, wealth beams or invented magic.",
+    "Claude correction: simplify two ears to rounded soft fur to remove any horn ambiguity; one and only one ivory branching antler retained. Targeted edit preserves pose and scene."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1917/rejected/pixiu-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1917/rejected/pixiu-attempt-01.json",
+      "native_sha256": "f9a04a0c05198977197a1beb41c7ebb0af29f3016d381133f453835ac950008e",
+      "reason": "The Tianlu variant must have exactly one antler, but a second, smaller curved horn grows from the left side of the head beside the large antler (clear at native size). Remove it; keep the single branching antler, wings and pounce."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-c6c6-74d2-8613-809b5bd4b433/exec-ace587fb-9050-43f5-aeb9-0f639570d367.png",
+  "generated_at": "2026-10-15T17:03:11.905222+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/pixiu.png",
+  "native_sha256": "f9a04a0c05198977197a1beb41c7ebb0af29f3016d381133f453835ac950008e",
+  "width": 1254,
+  "height": 1254,
+  "generation_metadata": {
+    "image_model": "tidak dilaporkan alat"
+  },
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native and 200px inspected: living winged dragon-lion pounces and rakes earth. One branching antler visible, four-leg body structure with rear partly occluded, two wings. No magic effects, no text. All seven Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "f9a04a0c05198977197a1beb41c7ebb0af29f3016d381133f453835ac950008e",
+    "reviewed_at": "2026-10-15T17:03:11.905222+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "f9a04a0c05198977197a1beb41c7ebb0af29f3016d381133f453835ac950008e",
+    "notes": "The Tianlu variant must have exactly one antler, but a second, smaller curved horn grows from the left side of the head beside the large antler (clear at native size). Remove it; keep the single branching antler, wings and pounce."
+  }
+}

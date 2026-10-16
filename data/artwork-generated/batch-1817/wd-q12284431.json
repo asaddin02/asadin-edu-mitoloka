@@ -1,7 +1,7 @@
 {
   "slug": "wd-q12284431",
   "worker": "codex",
-  "worker_agent": "lane1817_a",
+  "worker_agent": "correct_nandi",
   "subagent_model": "gpt-6.1-sol",
   "subagent_reasoning_effort": "high",
   "tool": "OpenAI built-in image_gen",
@@ -10,73 +10,97 @@
   "review_path": "data/gemini/reviews/batch-127.review.json",
   "batch": 1817,
   "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
-  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kutsulan, the big lame wolf feared as the most dangerous wolf and mythical pack leader in Bulgarian folk belief.\nANATOMY: exactly one big wolf, one head, two eyes, four legs with one front leg held weakly crooked and off the ground in a clearly lame gait; coarse ragged fur, wolf teeth and paws; no horns, extra limbs, glowing eyes or invented mutations [wd-q12284431-c01, wd-q12284431-c02, wd-q12284431-c08]\nMOMENT: lunge unevenly toward the viewer from beneath a fruit tree, lips curled back in a ferocious snarl, sound forepaw digs earth while lame foreleg stays raised; shoulders twist from the limp.\nPOWER: no documented power; menace through documented bloodthirsty disposition, big lame wolf anatomy and physical hunting movement only [wd-q12284431-c01, wd-q12284431-c06]\nSCALE & CAMERA: extreme low angle; tightly framed wolf fills square from snarling muzzle to raised lame paw, a big real wolf rather than invented giant scale.\nLIGHT & WEATHER: one low sunset through tree branches, rim light, dry dust kicked from ground.\nSURFACE: matted dark grey-brown wolf fur, wet natural nose and gums, cracked earth and rough bark.\nSETTING: ground beneath a fruit tree from the wolf's encounter story [wd-q12284431-c04]\nMOOD: menacing; dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. No horns, tattoos, glyphs, magical breath, huge giant scale or exposed wounds. Show unmistakable lame gait.",
-  "depicted_variant": "Big lame wolf Kutsulan snarling and lunging from beneath fruit tree.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Kutsulan, the exceptionally big lame wolf of Bulgarian folk belief and feared lone leader of wolves, attacking upward at the fruit picker in the encounter tale.\nANATOMY: exactly ONE wolf with one head, two natural eyes, four legs. Clearly much larger and more massively built than an ordinary wolf, with a huge heavy shoulder and deep chest. One FRONT LEG is unmistakably crippled: thin withered foreleg, contracted wrist and a narrow twisted paw trailing limply backward close to the earth, sharply different from the thick healthy foreleg. Show this wasted limb in a clean open silhouette and light it clearly; it must read as permanently lame rather than just a normal lifted paw. All four legs countable, no wounds, no blood. The sound foreleg braces against the fruit-tree trunk; two strong hind legs drive the body upward. [wd-q12284431-c02,wd-q12284431-c08]\nMOMENT: Lunge upward snarling beneath a fruit tree, the sound forepaw tearing bark as the crippled foreleg drags uselessly; huge open jaws threaten the boot of a frightened fully clothed adult man picking fruit on a low branch directly above. The man urgently pulls his boot back and grips a branch, one wicker fruit basket tipping. His intact body is smaller in the upper edge of the scene, but his dangling boot and the wolf's tooth-lined jaws nearly meet. No biting, contact, injury or eating. Wolf is the overwhelming subject. [wd-q12284431-c04,wd-q12284431-c06]\nPOWER: no supernatural power documented; all menace comes from the enormous wolf's dangerous disposition, clear permanent lameness, and physically immediate threat to the man, with loose bark and dry dirt displaced by movement. One lone wolf, no extra pack, no magic. [wd-q12284431-c01,wd-q12284431-c02,wd-q12284431-c08]\nSCALE & CAMERA: ground-level three-quarter SIDE camera, show the entire wolf body including the crippled foreleg, both hind legs, raised healthy foreleg and huge head, wolf filling seventy-five percent of the square. The adult man in the fruit tree shows that Kutsulan is exceptionally big, not a landscape-sized giant. No foreground grass hiding the lame paw.\nLIGHT & WEATHER: one low amber sunset source raking across the wolf's massive grey-brown shoulders, thin wasted leg and exposed teeth; deep walnut shadows beneath the tree; dry dust.\nSURFACE: ragged coarse grey-brown fur, heavily matted shoulder coat, withered furred leg with no exposed flesh, damp teeth, splintering rough bark, dull fruit skins.\nSETTING: a gnarled fruit tree with an endangered man picking fruit in its branches, from the encounter story, dark simple rural Bulgarian ground beyond. [wd-q12284431-c04]\nMOOD: threatening, bloodthirsty disposition without blood, violent unequal lunge toward endangered fruit picker; never an ordinary calm wildlife wolf lifting a paw.\nHARD CONSTRAINTS: no text, pseudo-signature, lettering, logo, border, frame or watermark. No extra heads, limbs, eyes, fangs or tails; no horns, armor, costume, magical effects, glowing eyes, breath aura or energy ribbons. No design borrowed from any film, game, anime or comic. No nudity, wounds, blood, eating, gore or distressed children. Do not hide the crippled leg. Native square image at least 1024x1024.",
+  "depicted_variant": "Exceptionally big lone wolf lunges at fruit picker above, with visibly withered dragging foreleg exposed beside sound foreleg bracing tree.",
   "basis_claim_ids": [
+    "wd-q12284431-c01",
     "wd-q12284431-c02",
-    "wd-q12284431-c08",
-    "wd-q12284431-c04"
+    "wd-q12284431-c04",
+    "wd-q12284431-c06",
+    "wd-q12284431-c08"
   ],
   "claim_classification": {
-    "wujud": [
+    "rupa": [
       "wd-q12284431-c02",
       "wd-q12284431-c08"
     ],
-    "kekuatan": [],
+    "kuasa": [],
     "tempat": [
       "wd-q12284431-c04"
     ],
     "sifat": [
       "wd-q12284431-c01",
-      "wd-q12284431-c06"
+      "wd-q12284431-c06",
+      "wd-q12284431-c08"
     ]
   },
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "Big wolf with visibly lame front leg, four-legged lame variant rather than one-legged variant.",
+      "description": "One exceptionally big wolf, exactly one head, two eyes, four legs; one foreleg visibly withered and contracted, dragging uselessly with its thin paw behind the sound leg, rather than a normal lifted paw.",
       "claim_ids": [
         "wd-q12284431-c02",
         "wd-q12284431-c08"
       ]
     },
     {
-      "kind": "setting",
-      "description": "Beneath fruit tree of encounter tale.",
+      "kind": "effect",
+      "description": "Wolf threatens a living fully clothed man picking fruit in the tree; the snarling wolf is actively reaching the man's dangling boot without contact or injury.",
       "claim_ids": [
-        "wd-q12284431-c04"
+        "wd-q12284431-c01",
+        "wd-q12284431-c04",
+        "wd-q12284431-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Fruit tree with the endangered fruit picker above the wolf. A lone wolf representing the pack leader, not accompanied by a pack.",
+      "claim_ids": [
+        "wd-q12284431-c01",
+        "wd-q12284431-c04",
+        "wd-q12284431-c08"
       ]
     }
   ],
-  "aura": "Menace from bloodthirsty big lame wolf identity (c01,c02,c06), no power aura.",
+  "aura": "Danger comes from big lame wolf anatomy c02/c08 and the man's direct peril in the fruit-tree encounter c04/c06; solitary mythical pack leader c01/c08, no supernatural effect.",
   "artistic_choices": [
-    "Choose lame wolf variant c02, not old man or one-legged variant.",
-    "Which leg is lame, fur colour and crooked gait are editorial visualization of lameness.",
-    "Sunset and dust are editorial; no supernatural power is documented and no magic depicted.",
-    "Close framing creates menace without giant inflation."
+    "Choose the lame wolf variant c02/c08 rather than the one-legged wolf or old-man variants.",
+    "Which foreleg is crippled, visible muscular wasting and contracted paw are editorial visualizations of lameness, without wounds or exposed flesh.",
+    "Exceptionally large build is relative to the adult man, using c02 big wolf; no landscape-sized scale.",
+    "Apple-like fruit, wicker basket, full opaque rural clothes and sunset are editorial; the man and fruit tree follow c04.",
+    "Lone wolf reflects c01/c08; no extra pack is invented. No supernatural power is documented or shown, and all dust and bark displacement are physical movement."
   ],
   "generation_failures": [],
-  "rejected_attempts": [],
-  "generated_file": "/home/asadin/.codex/generated_images/01a13875-fb19-75f1-b51f-f509d95dd2c1/exec-49ddc14c-0f65-48b2-b1a0-7e7f0cb2f4da.png",
-  "generated_at": "2026-10-14T03:56:24.678868+00:00",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1817/rejected/wd-q12284431-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1817/rejected/wd-q12284431-attempt-01.json",
+      "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
+      "reason": "Reads as an ordinary wolf lifting a paw under an apple tree — the 'ordinary animal' failure; the lameness is only a raised foot. Use what the sources give beyond 'big lame wolf' [c02]: the encounter tale, the lame wolf below a fruit tree in which a man is picking fruit [c04], and his role as the lone leader of the pack [c01, c08]. Make the lame leg plainly crippled (dragged or withered, not just lifted), the wolf clearly larger than a normal wolf, and the man in the tree in direct danger. No blood or eating."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-264f414a-ac76-4301-af22-e3d7d0520ffc.png",
+  "generated_at": "2026-10-15T11:56:40Z",
   "original_file": "data/artwork-generated/batch-1817/originals/wd-q12284431.png",
-  "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
+  "native_sha256": "4f36f25a8e438976fac1ce40c189a2daa8e70bd7df862ebd07b15285d4efb101",
   "width": 1254,
   "height": 1254,
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Native and 200px inspected, all seven Sangar checks pass. One snarling large wolf, two eyes, four legs with foreground lame foreleg held crooked off ground; sound forepaw impacts dust. Fruit tree and apples visible. Threatening close lunge, no added anatomy, giant comparison, magic, injury, text or markings.",
-    "limitations": [],
-    "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
-    "reviewed_at": "2026-10-14T03:56:24.678868+00:00"
+    "notes": "Native1254x1254 and200px inspected. Uji Sangar7/7 yes: huge wolf dominates frame, snarling jaw reaches toward adult fruit picker's withdrawn boot; permanent lameness reads as distinctly thin wasted foreleg trailing across ground with a contracted paw, unlike the healthy thick foreleg bracing and scraping bark. Four legs, one head/two eyes and one tail; two hind feet grounded. Man is intact and fully clothed; no bite/contact, injury, blood, magic, lettering or watermark. Action and abnormal gait are readable at200px.",
+    "limitations": [
+      "Exact form and side of lameness are editorial; claims do not specify the affected leg.",
+      "Exceptionally big build is supported by c02 but no numerical dimensions are claimed."
+    ],
+    "native_sha256": "4f36f25a8e438976fac1ce40c189a2daa8e70bd7df862ebd07b15285d4efb101",
+    "reviewed_at": "2026-10-15T11:56:40Z"
   },
   "root_visual_review": {
     "verdict": "reject",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-15T15:40:00+07:00",
-    "native_sha256": "e6f5f0724714bfd96a93f77acae1adbc35d92e96af01b123bc6b2308b526647d",
-    "notes": "Reads as an ordinary wolf lifting a paw under an apple tree — the 'ordinary animal' failure; the lameness is only a raised foot. Use what the sources give beyond 'big lame wolf' [c02]: the encounter tale, the lame wolf below a fruit tree in which a man is picking fruit [c04], and his role as the lone leader of the pack [c01, c08]. Make the lame leg plainly crippled (dragged or withered, not just lifted), the wolf clearly larger than a normal wolf, and the man in the tree in direct danger. No blood or eating."
-  },
-  "correction_notes": "Reads as an ordinary wolf lifting a paw under an apple tree — the 'ordinary animal' failure; the lameness is only a raised foot. Use what the sources give beyond 'big lame wolf' [c02]: the encounter tale, the lame wolf below a fruit tree in which a man is picking fruit [c04], and his role as the lone leader of the pack [c01, c08]. Make the lame leg plainly crippled (dragged or withered, not just lifted), the wolf clearly larger than a normal wolf, and the man in the tree in direct danger. No blood or eating."
+    "reviewed_at": "2026-10-16T09:30:00+07:00",
+    "native_sha256": "4f36f25a8e438976fac1ce40c189a2daa8e70bd7df862ebd07b15285d4efb101",
+    "notes": "Second attempt still reads as an ordinary wolf lunging at a tree: at native size the 'withered' foreleg is not legible (all visible legs look sound) and nothing marks it as larger than a normal wolf. Make one foreleg unmistakably shrunken and dragged in the foreground [c02], and give a size cue against the man in the fruit tree [c04]. No blood."
+  }
 }

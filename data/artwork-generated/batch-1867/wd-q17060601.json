@@ -1,0 +1,93 @@
+{
+  "slug": "wd-q17060601",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Ao, the underground sheep-and-piglike creature in the Soushen Ji.\nANATOMY: ONE unsettling quadruped, like a sheep yet not a sheep and like a pig yet not a pig: dense filthy coarse sheeplike wool on a compact piglike body, a broad blunt piglike muzzle integrated with a long sheeplike face, two small natural ears and two dark eyes, four sturdy cloven feet. No horns, spines or tusks; no novel-only spiny variant. [wd-q17060601-c01, wd-q17060601-c07]\nMOMENT: Heave upward out of a freshly dug deep earthen pit directly toward the viewer, forefeet thrust over the edge and face glaring from the collapsing earth. A plain old shovel at one side and the dark pit behind show that the animal has just been dug up.\nPOWER: No documented attack power. Moving soil falls from its wool as it rises; the underground emergence follows the excavation account. No brain-eating, bodies or gore. [wd-q17060601-c02, wd-q17060601-c10]\nSCALE & CAMERA / LIGHT & WEATHER: Extreme tight low angle at the pit lip; no giant scale, a shovel is ordinary size. One low amber lantern source off-frame, wet soil and coarse wool, deep underground shadows.\nSURFACE: tactile worn natural surfaces, dense shadows and sharp highlights; painterly material detail, never plastic.\nSETTING: Dark underground earth in Chencang during the old Qin account, a plain excavation pit with roots and rough stone, no modern machinery. [wd-q17060601-c02, wd-q17060601-c07, wd-q17060601-c10]\nMOOD: imposing, dangerous or awe-inspiring; startling anatomy and forceful action, never ordinary, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbol, logo, border, frame or watermark, including corners; no extra heads, eyes or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "Ao heaves out of its excavation pit, sheep-and-pig anatomy explicit.",
+  "basis_claim_ids": [
+    "wd-q17060601-c01",
+    "wd-q17060601-c07",
+    "wd-q17060601-c02",
+    "wd-q17060601-c10"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q17060601-c01",
+      "wd-q17060601-c07"
+    ],
+    "kekuatan": [
+      "wd-q17060601-c02",
+      "wd-q17060601-c10"
+    ],
+    "tempat": [
+      "wd-q17060601-c02",
+      "wd-q17060601-c07",
+      "wd-q17060601-c10"
+    ],
+    "sifat": [
+      "wd-q17060601-c10"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "ONE unsettling quadruped, like a sheep yet not a sheep and like a pig yet not a pig: dense filthy coarse sheeplike wool on a compact piglike body, a broad blunt piglike muzzle integrated with a long sheeplike face, two small natural ears and two dark eyes, four sturdy cloven feet. No horns, spines or tusks; no novel-only spiny variant.",
+      "claim_ids": [
+        "wd-q17060601-c01",
+        "wd-q17060601-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No documented attack power. Moving soil falls from its wool as it rises; the underground emergence follows the excavation account. No brain-eating, bodies or gore.",
+      "claim_ids": [
+        "wd-q17060601-c02",
+        "wd-q17060601-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark underground earth in Chencang during the old Qin account, a plain excavation pit with roots and rough stone, no modern machinery.",
+      "claim_ids": [
+        "wd-q17060601-c02",
+        "wd-q17060601-c07",
+        "wd-q17060601-c10"
+      ]
+    }
+  ],
+  "aura": "No documented attack power. Moving soil falls from its wool as it rises; the underground emergence follows the excavation account. No brain-eating, bodies or gore. [wd-q17060601-c02, wd-q17060601-c10]",
+  "artistic_choices": [
+    "Exact wool texture, hybrid facial synthesis, shovel and lantern are editorial choices supporting the recorded sheep/pig resemblance and excavation. No supernatural power or giant size is asserted; omit the later novel's spines and all graphic feeding."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-8f21-7c83-95f6-77e3de4560e1/exec-ec93259d-fd86-4183-8f69-c981f16b5f21.png",
+  "native_sha256": "19b6f7c4b4c189811aed305d018eaa7f30aba503de2970405e07bbbbd76f426a",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-15T12:09:13.739Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q17060601.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254² and200px inspected: all7 Uji Sangar pass. A blunt pig muzzle on a coarse sheep-wool body rises from the dug pit c01/c07/c02, staring directly outward while forefeet push soil. Menacing close scale retains animal's natural size (shovel comparator), no giant claim. One head/two eyes/two ears/two visible cloven forefeet and hindquarters occluded by pit; no extra anatomy, horns or novel spines. Soil displacement is natural physical emergence from underground c10. No brains, gore, text, watermark, border or entertainment design.",
+    "limitations": [],
+    "native_sha256": "19b6f7c4b4c189811aed305d018eaa7f30aba503de2970405e07bbbbd76f426a",
+    "reviewed_at": "2026-10-15T12:10:52.403Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "19b6f7c4b4c189811aed305d018eaa7f30aba503de2970405e07bbbbd76f426a",
+    "notes": "Woolly pig-sheep beast heaving out of the excavation pit, soil falling from its wool."
+  }
+}

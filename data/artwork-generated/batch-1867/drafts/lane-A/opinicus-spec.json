@@ -1,0 +1,70 @@
+{
+  "slug": "opinicus",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Opinicus, the eagle-headed winged beast with all four legs of a lion.\nANATOMY: Exactly ONE beast: an EAGLE'S HEAD, eagle's feathered NECK, exactly TWO broad feathered EAGLE WINGS; a full LION BODY with exactly FOUR LION LEGS and FOUR FELINE PAWS, including both FOREPAWS (not eagle talons). ONE SHORT CAMEL TAIL with a small coarse terminal tuft, never long lion tail, snake tail or dragon tail. One head, two eyes, no horns or crown. [opinicus-c01, opinicus-c02, opinicus-c03]\nMOMENT: Leap from a dark rock ledge toward the viewer, wings driving down and all four lion paws flexing for landing. Open the eagle beak in a harsh cry; the two huge lion forepaws thrust toward camera, clearly showing their feline pads and curved feline claws.\nPOWER: No supernatural attack power is recorded; the sourced eagle wings support the dynamic leap, which throws natural dust and feathers. No lightning, aura or invented magic. [opinicus-c02, opinicus-c03]\nSCALE & CAMERA / LIGHT & WEATHER: Low three-quarter frontal view with a visible flank: eagle head/neck, both wings, four lion leg roots and short camel tail all inside the square. Natural lion-scale framing, one hard amber dusk shaft, dark walnut stone and deep wing shadows.\nSURFACE: rough natural textures, dense tactile fur, feather, fire, hide, weathered cloth or stone as applicable; no plastic surfaces.\nSETTING: A plain rocky ledge as editorial neutral terrain for the living heraldic beast; no specific natural habitat is asserted and no crest, shield or lettering appears. [opinicus-c02, opinicus-c04]\nMOOD: dangerous, imposing or awe-inspiring, alive in a forceful moment; never ordinary, cute, placid, static or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbols, logo, border, frame or watermark anywhere; no extra heads, eyes, fingers or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "Opinicus with four lion paws and short camel tail leaps with eagle wings.",
+  "basis_claim_ids": [
+    "opinicus-c01",
+    "opinicus-c02",
+    "opinicus-c03",
+    "opinicus-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "opinicus-c01",
+      "opinicus-c02",
+      "opinicus-c03"
+    ],
+    "kekuatan_perbuatan": [
+      "opinicus-c02",
+      "opinicus-c03"
+    ],
+    "tempat": [
+      "opinicus-c02",
+      "opinicus-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE beast: an EAGLE'S HEAD, eagle's feathered NECK, exactly TWO broad feathered EAGLE WINGS; a full LION BODY with exactly FOUR LION LEGS and FOUR FELINE PAWS, including both FOREPAWS (not eagle talons). ONE SHORT CAMEL TAIL with a small coarse terminal tuft, never long lion tail, snake tail or dragon tail. One head, two eyes, no horns or crown.",
+      "claim_ids": [
+        "opinicus-c01",
+        "opinicus-c02",
+        "opinicus-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No supernatural attack power is recorded; the sourced eagle wings support the dynamic leap, which throws natural dust and feathers. No lightning, aura or invented magic.",
+      "claim_ids": [
+        "opinicus-c02",
+        "opinicus-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A plain rocky ledge as editorial neutral terrain for the living heraldic beast; no specific natural habitat is asserted and no crest, shield or lettering appears.",
+      "claim_ids": [
+        "opinicus-c02",
+        "opinicus-c04"
+      ]
+    }
+  ],
+  "aura": "No supernatural attack power is recorded; the sourced eagle wings support the dynamic leap, which throws natural dust and feathers. No lightning, aura or invented magic. [opinicus-c02, opinicus-c03]",
+  "artistic_choices": [
+    "Explicit winged c02/c03 form chosen, not wingless c05. Its all-feline forelegs distinguish Opinicus from a griffin; the short camel tail is deliberately exposed on the flank. Terrain, colors, camera and leap are editorial; no giant size or powers asserted."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

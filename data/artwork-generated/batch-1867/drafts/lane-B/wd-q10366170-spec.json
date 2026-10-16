@@ -1,0 +1,73 @@
+{
+  "slug": "wd-q10366170",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 欽原.\nANATOMY: One Qinyuan, a bird described as shaped LIKE A BEE, the SIZE OF A MANDARIN DUCK. Depict a large bee-shaped flying being, six insect legs, two pairs of translucent bee wings, segmented abdomen and sharp terminal STINGER, one head/two compound eyes; no human face or bird beak added. [wd-q10366170-c01, wd-q10366170-c02, wd-q10366170-c08]\nMOMENT: Hover aggressively close and drive the abdomen stinger into a living tree trunk; leaves nearest the contact visibly shrivel and turn brown while nearby untouched leaves remain green, bark splits and hollows immediately under the venomous sting. No victims. [wd-q10366170-c04, wd-q10366170-c07, wd-q10366170-c08]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Mountain forest on Kunlun, tight view beside the struck tree, branch and leaves give duck-size comparison. [wd-q10366170-c05]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Normal bee anatomy visualizes the documented bee-like form; duck-size and tree-withering sting distinguish this being from an ordinary bee. No lightning, fire or energy rays.",
+  "depicted_variant": "Duck-sized bee-shaped Qinyuan withering a tree with its sting.",
+  "basis_claim_ids": [
+    "wd-q10366170-c01",
+    "wd-q10366170-c02",
+    "wd-q10366170-c08",
+    "wd-q10366170-c04",
+    "wd-q10366170-c07",
+    "wd-q10366170-c05"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10366170-c01",
+      "wd-q10366170-c02",
+      "wd-q10366170-c08"
+    ],
+    "kekuatan": [
+      "wd-q10366170-c04",
+      "wd-q10366170-c07",
+      "wd-q10366170-c08"
+    ],
+    "tempat": [
+      "wd-q10366170-c05"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One Qinyuan, a bird described as shaped LIKE A BEE, the SIZE OF A MANDARIN DUCK. Depict a large bee-shaped flying being, six insect legs, two pairs of translucent bee wings, segmented abdomen and sharp terminal STINGER, one head/two compound eyes; no human face or bird beak added.",
+      "claim_ids": [
+        "wd-q10366170-c01",
+        "wd-q10366170-c02",
+        "wd-q10366170-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Hover aggressively close and drive the abdomen stinger into a living tree trunk; leaves nearest the contact visibly shrivel and turn brown while nearby untouched leaves remain green, bark splits and hollows immediately under the venomous sting. No victims.",
+      "claim_ids": [
+        "wd-q10366170-c04",
+        "wd-q10366170-c07",
+        "wd-q10366170-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain forest on Kunlun, tight view beside the struck tree, branch and leaves give duck-size comparison.",
+      "claim_ids": [
+        "wd-q10366170-c05"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: wd-q10366170-c01, wd-q10366170-c02, wd-q10366170-c08, wd-q10366170-c04, wd-q10366170-c07, wd-q10366170-c05.",
+  "artistic_choices": [
+    "Normal bee anatomy visualizes the documented bee-like form; duck-size and tree-withering sting distinguish this being from an ordinary bee. No lightning, fire or energy rays.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

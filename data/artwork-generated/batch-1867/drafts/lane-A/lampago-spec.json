@@ -1,0 +1,65 @@
+{
+  "slug": "lampago",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-134.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Lampago, the hornless man-headed lion of heraldry rendered as a living creature.\nANATOMY: Exactly ONE mature HUMAN MAN'S HEAD on a full LION body. The entire neck, muscular torso, exactly FOUR legs and all four feet are FELINE; absolutely NO human torso, shoulders, arms or hands. One lion tail with natural tuft. Old man's face and coarse dark hair, natural two human eyes, no horns, wings, fangs or animal snout on the human face. [lampago-c01, lampago-c06]\nMOMENT: Bound over a stone ledge toward the viewer, one immense lion forepaw thrust forward and the other braced on the rock, the human head glowering with the mouth open in a wordless shout. Its single feline torso curves through the leap, all four leg roots unambiguous.\nPOWER: No supernatural attack power is documented; menace comes from the startling human head on the charging feline body and the physical rock dust kicked up by its paws. [lampago-c01, lampago-c06]\nSCALE & CAMERA / LIGHT & WEATHER: Low three-quarter angle, tight natural lion-scale framing, entire hybrid silhouette inside the square. One hard amber side light, deep walnut shadows, matted tawny lion fur, weathered human skin and ordinary rock grit.\nSURFACE: rough natural textures, dense tactile fur, feather, fire, hide, weathered cloth or stone as applicable; no plastic surfaces.\nSETTING: A plain dark rocky ledge as editorial terrain, not a factual habitat. The source context is Devon heraldry, but show a living beast with no shield, heraldic field or architectural claims. [lampago-c03]\nMOOD: dangerous, imposing or awe-inspiring, alive in a forceful moment; never ordinary, cute, placid, static or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbols, logo, border, frame or watermark anywhere; no extra heads, eyes, fingers or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "Hornless human-headed lion Lampago leaps from a ledge.",
+  "basis_claim_ids": [
+    "lampago-c01",
+    "lampago-c06",
+    "lampago-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "lampago-c01",
+      "lampago-c06"
+    ],
+    "kekuatan_perbuatan": [
+      "lampago-c01",
+      "lampago-c06"
+    ],
+    "tempat": [
+      "lampago-c03"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE mature HUMAN MAN'S HEAD on a full LION body. The entire neck, muscular torso, exactly FOUR legs and all four feet are FELINE; absolutely NO human torso, shoulders, arms or hands. One lion tail with natural tuft. Old man's face and coarse dark hair, natural two human eyes, no horns, wings, fangs or animal snout on the human face.",
+      "claim_ids": [
+        "lampago-c01",
+        "lampago-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No supernatural attack power is documented; menace comes from the startling human head on the charging feline body and the physical rock dust kicked up by its paws.",
+      "claim_ids": [
+        "lampago-c01",
+        "lampago-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A plain dark rocky ledge as editorial terrain, not a factual habitat. The source context is Devon heraldry, but show a living beast with no shield, heraldic field or architectural claims.",
+      "claim_ids": [
+        "lampago-c03"
+      ]
+    }
+  ],
+  "aura": "No supernatural attack power is documented; menace comes from the startling human head on the charging feline body and the physical rock dust kicked up by its paws. [lampago-c01, lampago-c06]",
+  "artistic_choices": [
+    "Hornless supporter variant c06 with man-headed lion c01 chosen, rather than long-spiral-horned c05 or bull-scalp c08 variants. No powers or giant scale invented. Terrain, hair, fur color, light and movement are editorial; live creature follows GAMBAR's emblem-beast rule."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

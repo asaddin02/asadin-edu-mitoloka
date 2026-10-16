@@ -1,0 +1,71 @@
+{
+  "slug": "tenaga-ashinaga",
+  "worker": "codex",
+  "worker_agent": "images_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "batch": 1917,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Tenaga-Ashinaga, single long-legged mountain giant from Yuza version.\nANATOMY: Exactly one huge humanoid giant with one head, two arms, two extraordinarily long legs; fully opaque plain rough tunic, knees and impossibly extended lower legs clearly visible [c01, c02, c05, c08]\nMOMENT: Hunch from the mountain summit toward viewer while one huge extended leg reaches down into the sea, foot hooking beside a tiny wooden boat; giant face and bent other knee remain large and legible.\nPOWER: Use an enormous foot to rake an offshore ship toward mountain; the foot physically throws seawater and the ship tilts; no eaten people or gore [c08]\nSCALE & CAMERA: extreme low angle; close foreshortened framing with subject filling most of the square, no invented giant size unless explicitly stated above.\nLIGHT & WEATHER: one low sun slit below storm cloud, sharp rim light, deep shadows; dark walnut and antique gold palette with one strong accent.\nSURFACE: rough weathered skin, coarse opaque tunic, slick rock, frothing sea.\nSETTING: Mount Chokai summit above offshore water with tiny wooden ship as scale reference [c08]\nMOOD: menacing ship-raiding giant; dangerous or awe-inspiring and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, writing, lettering, inscriptions, pseudoinscriptions, symbols, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons. Entirely original living creature; no statue or toy.",
+  "depicted_variant": "single long-legged mountain giant from Yuza version",
+  "basis_claim_ids": [
+    "tenaga-ashinaga-c01",
+    "tenaga-ashinaga-c02",
+    "tenaga-ashinaga-c05",
+    "tenaga-ashinaga-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly one huge humanoid giant with one head, two arms, two extraordinarily long legs; fully opaque plain rough tunic, knees and impossibly extended lower legs clearly visible",
+      "claim_ids": [
+        "tenaga-ashinaga-c01",
+        "tenaga-ashinaga-c02",
+        "tenaga-ashinaga-c05",
+        "tenaga-ashinaga-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Use an enormous foot to rake an offshore ship toward mountain; the foot physically throws seawater and the ship tilts; no eaten people or gore",
+      "claim_ids": [
+        "tenaga-ashinaga-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mount Chokai summit above offshore water with tiny wooden ship as scale reference",
+      "claim_ids": [
+        "tenaga-ashinaga-c08"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "tenaga-ashinaga-c01",
+      "tenaga-ashinaga-c02",
+      "tenaga-ashinaga-c05",
+      "tenaga-ashinaga-c08"
+    ],
+    "power_domain_deeds": [
+      "tenaga-ashinaga-c08"
+    ],
+    "setting": [
+      "tenaga-ashinaga-c08"
+    ],
+    "disposition": [
+      "tenaga-ashinaga-c03",
+      "tenaga-ashinaga-c08"
+    ]
+  },
+  "aura": "Use an enormous foot to rake an offshore ship toward mountain; the foot physically throws seawater and the ship tilts; no eaten people or gore tenaga-ashinaga-c08",
+  "artistic_choices": [
+    "Scale is documented huge mountain-seated form. Plain opaque garment is editorial modesty. No volcanic explosion or second giant blended in."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": []
+}

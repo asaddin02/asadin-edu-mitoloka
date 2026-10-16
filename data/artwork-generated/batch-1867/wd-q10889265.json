@@ -1,0 +1,97 @@
+{
+  "slug": "wd-q10889265",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-070.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of 傲因.\nANATOMY: One HUMAN-HEIGHT human-shaped monster in fully opaque RAGGED PATCHED clothes; both HANDS AND FEET are TIGER CLAWS rather than human extremities, one head/two eyes/two arms/two legs. One extraordinary TONGUE stretches out of mouth and coils on ground for more than a zhang, a single fleshy intact tongue with continuous path, NOT a snake or tentacle. [wd-q10889265-c01, wd-q10889265-c03, wd-q10889265-c06, wd-q10889265-c07, wd-q10889265-c08]\nMOMENT: Creep forward in a crouch toward the viewer, tiger-claw hands raised over the huge foreground tongue coiled twice on soil, mouth stretched around its root, direct predatory eyes. No brains, victims, killing or blood. [wd-q10889265-c06, wd-q10889265-c07]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Rocky path in the Western Wilds, solitary dark wilderness immediately behind, low light catching tongue and claws. [wd-q10889265-c06]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Human height, extreme close foreshortening only. Patched clothes remain opaque. No heated stone death scene or brain imagery. Tongue is plain organic tongue, not magical serpent.",
+  "depicted_variant": "Rag-clad tiger-clawed Aoyin creeping over its long ground-coiling tongue.",
+  "basis_claim_ids": [
+    "wd-q10889265-c01",
+    "wd-q10889265-c03",
+    "wd-q10889265-c06",
+    "wd-q10889265-c07",
+    "wd-q10889265-c08"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q10889265-c01",
+      "wd-q10889265-c03",
+      "wd-q10889265-c06",
+      "wd-q10889265-c07",
+      "wd-q10889265-c08"
+    ],
+    "kekuatan": [
+      "wd-q10889265-c06",
+      "wd-q10889265-c07"
+    ],
+    "tempat": [
+      "wd-q10889265-c06"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One HUMAN-HEIGHT human-shaped monster in fully opaque RAGGED PATCHED clothes; both HANDS AND FEET are TIGER CLAWS rather than human extremities, one head/two eyes/two arms/two legs. One extraordinary TONGUE stretches out of mouth and coils on ground for more than a zhang, a single fleshy intact tongue with continuous path, NOT a snake or tentacle.",
+      "claim_ids": [
+        "wd-q10889265-c01",
+        "wd-q10889265-c03",
+        "wd-q10889265-c06",
+        "wd-q10889265-c07",
+        "wd-q10889265-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Creep forward in a crouch toward the viewer, tiger-claw hands raised over the huge foreground tongue coiled twice on soil, mouth stretched around its root, direct predatory eyes. No brains, victims, killing or blood.",
+      "claim_ids": [
+        "wd-q10889265-c06",
+        "wd-q10889265-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky path in the Western Wilds, solitary dark wilderness immediately behind, low light catching tongue and claws.",
+      "claim_ids": [
+        "wd-q10889265-c06"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: wd-q10889265-c01, wd-q10889265-c03, wd-q10889265-c06, wd-q10889265-c07, wd-q10889265-c08.",
+  "artistic_choices": [
+    "Human height, extreme close foreshortening only. Patched clothes remain opaque. No heated stone death scene or brain imagery. Tongue is plain organic tongue, not magical serpent.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-b3c22d46-8e52-46e5-bee1-fabbf2118eb6.png",
+  "generated_at": "2026-10-15T12:11:17.885Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q10889265.png",
+  "native_sha256": "4a0218797b18a7d5026dc3a8df297aee0f67ebe0b60c17ca32ee03b4e9c0af72",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254x1254 and200px inspected; Uji Sangar7/7 yes. Human-height patched-clothed crouching monster, both hands and feet end in tigerlike claws c03/c08. One continuous long organic tongue from mouth coils on ground c07, no duplicated tongue, snake head or tentacles. Menacing direct gaze and enormous tongue readable at200px, no brains/blood/victim or magical effect. No text, frame, borrowed franchise design or explicit gore.",
+    "limitations": [
+      "Exact clothing patches, clawed digit form and tongue path editorial; no numerical giant height."
+    ],
+    "native_sha256": "4a0218797b18a7d5026dc3a8df297aee0f67ebe0b60c17ca32ee03b4e9c0af72",
+    "reviewed_at": "2026-10-15T12:12:13.347Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "4a0218797b18a7d5026dc3a8df297aee0f67ebe0b60c17ca32ee03b4e9c0af72",
+    "notes": "Rag-clad crouching monster with tiger-claw hands and feet, enormous tongue coiled on the ground."
+  }
+}

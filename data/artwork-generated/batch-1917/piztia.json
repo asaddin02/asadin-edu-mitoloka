@@ -1,0 +1,90 @@
+{
+  "slug": "piztia",
+  "batch": 1917,
+  "depicted_variant": "Piztia, selecting the documented giant variant of the Basque night predator",
+  "basis_claim_ids": [
+    "piztia-c06",
+    "piztia-c09",
+    "piztia-c01",
+    "piztia-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One imposing giant humanoid, exactly one head, two natural eyes, two arms and two legs; plain rough opaque wool tunic and trousers; no horns or single eye.",
+      "claim_ids": [
+        "piztia-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical effect; emerging at night in a snowstorm to prey on the valley.",
+      "claim_ids": [
+        "piztia-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cave of Iruratxi crag on Mount Carrascal, Basque wooded mountain valley at snowy night.",
+      "claim_ids": [
+        "piztia-c01",
+        "piztia-c02",
+        "piztia-c09"
+      ]
+    }
+  ],
+  "claim_classification": {
+    "anatomy": [
+      "piztia-c06"
+    ],
+    "power_or_deed": [
+      "piztia-c09"
+    ],
+    "setting": [
+      "piztia-c01",
+      "piztia-c02",
+      "piztia-c09"
+    ],
+    "disposition": [
+      "piztia-c09"
+    ]
+  },
+  "aura": "Threat or awe through documented anatomy ['piztia-c06'] and action ['piztia-c09']; no generic aura.",
+  "artistic_choices": [
+    "Giant variant c06 chosen; do not combine alternate single-eyed or dragon versions. Plain clothing editorial.",
+    "Camera, dark walnut palette, weather and ordinary physical dust or spray are editorial staging."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Piztia, selecting the documented giant variant of the Basque night predator.\nANATOMY: One imposing giant humanoid, exactly one head, two natural eyes, two arms and two legs; plain rough opaque wool tunic and trousers; no horns or single eye. [piztia-c06]\nMOMENT: Emerge violently from the cave into snowfall, lean down toward the viewer, one huge hand gripping the rock mouth.\nPOWER: No magical effect; emerging at night in a snowstorm to prey on the valley. [piztia-c09]\nSCALE & CAMERA: Extreme low angle; giant fills the frame with small cave rocks and trees providing scale.\nLIGHT & WEATHER: one dominant cold moonlight source, sharp rim light, deep warm walnut shadows, natural dust or mist.\nSURFACE: tactile coarse weathered surfaces, rich painterly texture, no plastic finish.\nSETTING: Cave of Iruratxi crag on Mount Carrascal, Basque wooded mountain valley at snowy night. [piztia-c01, piztia-c02, piztia-c09]\nMOOD: menacing or awe-inspiring, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, pseudoinscriptions, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; opaque full clothing for humanoids; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magic symbols.",
+  "worker": "codex",
+  "worker_agent": "images_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-132.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a14022-f244-73e2-983e-d11e5ab47545/exec-461c22f8-cbb4-4deb-a21a-184e789e6451.png",
+  "generated_at": "2026-10-15T17:02:26.768986+00:00",
+  "original_file": "data/artwork-generated/batch-1917/originals/piztia.png",
+  "native_sha256": "2187d847f021dc489d9a185a0762457831b425b10bf4d1423f4bbbd2ceb5ab4d",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native PNG and 200px thumbnail inspected. Subject dominates, active threatening or awe-inspiring moment, claim-mapped anatomy/effects/setting, no text, watermark or generic aura; all seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "2187d847f021dc489d9a185a0762457831b425b10bf4d1423f4bbbd2ceb5ab4d",
+    "reviewed_at": "2026-10-15T17:02:26.768986+00:00"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "2187d847f021dc489d9a185a0762457831b425b10bf4d1423f4bbbd2ceb5ab4d",
+    "notes": "Giant in rough wool emerging from the rock in a night snowstorm above the valley."
+  }
+}

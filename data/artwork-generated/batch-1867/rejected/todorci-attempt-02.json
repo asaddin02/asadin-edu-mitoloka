@@ -1,0 +1,84 @@
+{
+  "slug": "todorci",
+  "worker": "codex",
+  "worker_agent": "lane1867_B",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "draft",
+  "review_path": "data/gemini/reviews/batch-127.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Todorci.\nANATOMY: One principal half-human half-HORSE demon: human torso grows FUSED from the horse back, no separate seat or saddle and no detachable rider. Horse has one equine head and four hoofed legs; humanoid torso two arms, head and face COMPLETELY HIDDEN in a deep opaque fluttering hooded cloak, no visible face or eyes. [todorci-c01, todorci-c02]\nMOMENT: Thunder headlong down the village road directly toward viewer, four hooves striking cobblestones, great cloak whipping backward and fusion of human torso to horse back clearly exposed from side-three-quarter angle. Break loose road dirt and straw under hooves; no victim or injury. [todorci-c02, todorci-c03, todorci-c04]\nPOWER: use only documented physical action or power specified above; when none specified, no supernatural effect.\nSCALE & CAMERA: low angle, close and confrontational; creature unmistakable primary subject filling most of square; all distinguishing anatomy visible at200px. Respect documented size, do not invent giant size.\nLIGHT & WEATHER: one strong raking low amber light, deep walnut shadows, high contrast silhouette.\nSURFACE: tactile painterly realism, rough weathered materials, tangible hair, skin, feathers or scales appropriate to specified anatomy; no plastic.\nSETTING: Balkan settlement road at NIGHT near winter end, closed shuttered homes behind, thin patches of melting snow. [todorci-c03, todorci-c04]\nMOOD: dangerous, uncanny or awe-inspiring as appropriate to documented disposition, never ordinary person or wildlife, calm cute mascot or decorative portrait. Protectors remain protective.\nHARD CONSTRAINTS: one square image at least1024x1024. No text, lettering, signature, glyphs, logo, border, frame or watermark; no extra heads, limbs, digits or eyes beyond specified anatomy; no film/game/anime/comic designs. No nudity, exposed genitals, injury, blood or explicit gore. Human figures fully covered in opaque clothing. No generic aura, neon outline, glowing eyes, energy ribbons or invented powers. Generic todorci, not Veliki Todor: no white sheet, chain or invented lameness. No glowing eyes in hood; hide face completely. Horse-human hybrid body not a normal mounted man.\nTARGETED REPAIR: Use three-quarter SIDE view to show a SINGLE fused horse-human body, not a person seated on horseback. Retain the HORSE HEAD and exactly FOUR HORSE LEGS. At MID-BACK behind horse neck a human UPPER TORSO GROWS DIRECTLY OUT OF HORSE SPINE. Show a broad seamless organic fur-and-cloth junction instead of rider pelvis or thighs. Human torso extends upward, two arms spread menacingly, cloak lifted backward by galloping wind. There are NO HUMAN LEGS, NO SADDLE, NO REINS, NO BRIDLE, NO STRAPS OR HORSE TACK, NO STIRRUPS. The hood completely conceals face and eyes. Gallop side-on diagonally toward viewer through dark winter-end village; most frame is the one fused body. Source describes body growing from horseback, make this impossible anatomy unambiguous. Do not turn into ordinary centaur whose human torso replaces horse head: KEEP HORSE HEAD TOO.",
+  "depicted_variant": "Faceless cloaked horse-human fusion thundering along dark village road.",
+  "basis_claim_ids": [
+    "todorci-c01",
+    "todorci-c02",
+    "todorci-c03",
+    "todorci-c04"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "todorci-c01",
+      "todorci-c02"
+    ],
+    "kekuatan": [
+      "todorci-c02",
+      "todorci-c03",
+      "todorci-c04"
+    ],
+    "tempat": [
+      "todorci-c03",
+      "todorci-c04"
+    ],
+    "sifat": []
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One principal half-human half-HORSE demon: human torso grows FUSED from the horse back, no separate seat or saddle and no detachable rider. Horse has one equine head and four hoofed legs; humanoid torso two arms, head and face COMPLETELY HIDDEN in a deep opaque fluttering hooded cloak, no visible face or eyes.",
+      "claim_ids": [
+        "todorci-c01",
+        "todorci-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Thunder headlong down the village road directly toward viewer, four hooves striking cobblestones, great cloak whipping backward and fusion of human torso to horse back clearly exposed from side-three-quarter angle. Break loose road dirt and straw under hooves; no victim or injury.",
+      "claim_ids": [
+        "todorci-c02",
+        "todorci-c03",
+        "todorci-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Balkan settlement road at NIGHT near winter end, closed shuttered homes behind, thin patches of melting snow.",
+      "claim_ids": [
+        "todorci-c03",
+        "todorci-c04"
+      ]
+    }
+  ],
+  "aura": "Threat or awe from sourced anatomy/action: todorci-c01, todorci-c02, todorci-c03, todorci-c04.",
+  "artistic_choices": [
+    "Generic todorci, not Veliki Todor: no white sheet, chain or invented lameness. No glowing eyes in hood; hide face completely. Horse-human hybrid body not a normal mounted man.",
+    "Palette, camera, raking light and exact composition are editorial; no unsourced supernatural effect."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1867/rejected/todorci-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1867/rejected/todorci-attempt-01.json",
+      "native_sha256": "363a5757f4fb95ff6cfccf6f3eea519dd48100e7adde412f456a700aaf51d326",
+      "reason": "Self-reject: menacing faceless rider but reads as a normal separate horseman; cloak hides the sourced body fusion."
+    }
+  ],
+  "original_file": "data/artwork-generated/batch-1867/rejected/todorci-attempt-02.png",
+  "receipt_file": "data/artwork-generated/batch-1867/rejected/todorci-attempt-02.json",
+  "native_sha256": "1e8c733d45f05f9de52180dd6e6983ad5285bbff1e8dbee380457f6a6614be70",
+  "reason": "Self-reject: removes tack/legs but cloth still conceals the junction enough to read as separate faceless rider; defining fusion not unambiguous.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-6216-74f2-9a53-c2b5cced1d7f/exec-55669f1e-a7d7-4ce5-a088-56b0da98ab07.png",
+  "rejected_at": "2026-10-15T12:16:38.010Z"
+}

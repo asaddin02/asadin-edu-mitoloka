@@ -1,0 +1,70 @@
+{
+  "slug": "wd-q15890876",
+  "worker": "codex",
+  "worker_agent": "lane1867_C",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a13ead-a04b-79f2-9553-45b02541e3c4/exec-473411e6-8ea2-40b8-acbd-ac76e2e7813d.png",
+  "generated_at": "2026-10-15T12:10:05.786Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q15890876.png",
+  "native_sha256": "8712df93e758f416c0ae914a44b82f58e6c14f07660ff1e057330a1b86e1babb",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Xiabing Xiejiang, shrimp soldiers and crab generals of the sea Dragon King. ANATOMY: one large crab general and one shrimp soldier leading troop shapes behind, unmistakable living crustacean heads and segmented shells, crab with two claws and eight walking legs, shrimp long antennae and segmented tail; modest opaque period armor editorially over shells, no human faces. MOMENT: Storm ashore directly at camera, crab pincers raised, shrimp thrusting from breaking tide. POWER: Their army physically charges out of the tide; no supernatural attack effects; white spray displaced by shells. SCALE & CAMERA: extreme low close angle; subject fills frame, natural documented size, never unsupported gigantic. LIGHT & WEATHER: one warm lateral source, deep shadows, crisp rim, physically moving dust/water only. SURFACE: tactile coarse textures, rich walnut/antique-gold palette. SETTING: dark Chinese seashore at the crest of the tide from Jing Shi Tong Yan quotation. MOOD: dangerous or awe-inspiring, never ordinary, cute, calm or decorative. HARD CONSTRAINTS: no text, lettering, symbols, logos, border, signature, watermark; no extra heads or limbs; no franchises; no nudity, transparent clothes, blood, wounds or explicit gore; no generic glow aura, neon lines or energy ribbons.",
+  "depicted_variant": "Xiabing Xiejiang, shrimp soldiers and crab generals of the sea Dragon King",
+  "basis_claim_ids": [
+    "wd-q15890876-c01",
+    "wd-q15890876-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one large crab general and one shrimp soldier leading troop shapes behind, unmistakable living crustacean heads and segmented shells, crab with two claws and eight walking legs, shrimp long antennae and segmented tail; modest opaque period armor editorially over shells, no human faces",
+      "claim_ids": [
+        "wd-q15890876-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Their army physically charges out of the tide; no supernatural attack effects; white spray displaced by shells",
+      "claim_ids": [
+        "wd-q15890876-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "dark Chinese seashore at the crest of the tide from Jing Shi Tong Yan quotation",
+      "claim_ids": [
+        "wd-q15890876-c02"
+      ]
+    }
+  ],
+  "aura": "Their army physically charges out of the tide; no supernatural attack effects; white spray displaced by shells",
+  "artistic_choices": [
+    "Living literal crustaceans serving as soldiers; armor is editorial role treatment, not exact historical costume.",
+    "Select tide-charge quotation, not Dongyouji ten-soldier scene. No glow or soldier weather control."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254 and200. Sangar7/7: armored crustacean army dominates, enormous pincer at200 remains threatening, active tide-charge not pose; splash physical and c02 tide action, no powers invented; crab two eyes/two claws and legs partly occluded by seawater, shrimp identifiable antennae and shell rather than human faces; no text/franchise/gore, not ordinary shellfish. Armor, spear and pennants editorial military-role props within soldiers/generals c01, not source-specific relics.",
+    "limitations": [],
+    "native_sha256": "8712df93e758f416c0ae914a44b82f58e6c14f07660ff1e057330a1b86e1babb",
+    "reviewed_at": "2026-10-15T12:10:05.786Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "8712df93e758f416c0ae914a44b82f58e6c14f07660ff1e057330a1b86e1babb",
+    "notes": "Armoured crab general and shrimp soldier charging out of the tide with a troop behind."
+  }
+}

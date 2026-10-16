@@ -1,0 +1,96 @@
+{
+  "slug": "palasik",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-155.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Palasik kuduang, the detached-head night hunter of Minangkabau belief.\nANATOMY: Exactly ONE living human head detached from its off-frame body, with one natural pair of eyes and a distinctly smooth upper lip lacking a philtrum groove. A thick fully opaque dark scarf encloses the entire lower neck; no cut surface, organs, blood or exposed tissue. Mature adult face, weathered skin and coarse black hair; no horns, fangs or glowing eyes. [palasik-c06, palasik-c07, palasik-c11]\nMOMENT: Sweep toward the viewer through a dark house doorway at night, floating head tilted forward with an unnervingly focused searching gaze, hair and scarf pulled backward by its movement. Its human body is wholly out of frame.\nPOWER: The detached head moves independently at night, the documented supernatural action. No invented fire or magical aura. [palasik-c06, palasik-c07]\nSCALE & CAMERA / LIGHT & WEATHER: Extreme close low camera: detached head and trailing scarf occupy three quarters of the square; visible empty space beneath makes levitation unambiguous. One low amber house lamp from the side, dark timber and deep shadows.\nSURFACE: tactile worn natural surfaces, dense shadows and sharp highlights; painterly material detail, never plastic.\nSETTING: A West Sumatran house entrance at night; a small garlic bundle hangs at the far doorway edge as a documented protective object, with no child or prey visible. [palasik-c01, palasik-c07, palasik-c09]\nMOOD: imposing, dangerous or awe-inspiring; startling anatomy and forceful action, never ordinary, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbol, logo, border, frame or watermark, including corners; no extra heads, eyes or limbs; no film, game, anime or comic design; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons.",
+  "depicted_variant": "Detached Palasik head wrapped at neck, moving through a doorway.",
+  "basis_claim_ids": [
+    "palasik-c06",
+    "palasik-c07",
+    "palasik-c11",
+    "palasik-c01",
+    "palasik-c09"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "palasik-c06",
+      "palasik-c07",
+      "palasik-c11"
+    ],
+    "kekuatan": [
+      "palasik-c06",
+      "palasik-c07"
+    ],
+    "tempat": [
+      "palasik-c01",
+      "palasik-c07",
+      "palasik-c09"
+    ],
+    "sifat": [
+      "palasik-c04"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ONE living human head detached from its off-frame body, with one natural pair of eyes and a distinctly smooth upper lip lacking a philtrum groove. A thick fully opaque dark scarf encloses the entire lower neck; no cut surface, organs, blood or exposed tissue. Mature adult face, weathered skin and coarse black hair; no horns, fangs or glowing eyes.",
+      "claim_ids": [
+        "palasik-c06",
+        "palasik-c07",
+        "palasik-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The detached head moves independently at night, the documented supernatural action. No invented fire or magical aura.",
+      "claim_ids": [
+        "palasik-c06",
+        "palasik-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "A West Sumatran house entrance at night; a small garlic bundle hangs at the far doorway edge as a documented protective object, with no child or prey visible.",
+      "claim_ids": [
+        "palasik-c01",
+        "palasik-c07",
+        "palasik-c09"
+      ]
+    }
+  ],
+  "aura": "The detached head moves independently at night, the documented supernatural action. No invented fire or magical aura. [palasik-c06, palasik-c07]",
+  "artistic_choices": [
+    "Adult sex, scarf weave, hair, face and house details are editorial, not documentary iconography. No organs or neck wounds; victim and parked body remain outside the image. Menace comes only from sourced detached-head movement and focused mature expression."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-8f21-7c83-95f6-77e3de4560e1/exec-b80d7e20-7d83-42f9-b557-5cabfada36f3.png",
+  "native_sha256": "8d4b66b549dc129cc7dd8f88be2f1d1b01ab1139dfa7ee5a13ed96d233dc3095",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-15T12:04:35.787Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/palasik.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254x1254 and200x200 thumbnail. All7 Uji Sangar pass: subject dominant and imposing at200px, sourced moment active, effects traceable, anatomy counted, no text/watermark/frame or recognizable franchise design, no ordinary/cute/static reading. One detached mature head floats with clear empty space beneath, wrapped neck without wounds; smooth upper-lip philtrum area, two natural eyes, garlic at doorway. Swept hair/scarf depict nocturnal motion c06/c07/c11; no body, prey or gore.",
+    "limitations": [],
+    "native_sha256": "8d4b66b549dc129cc7dd8f88be2f1d1b01ab1139dfa7ee5a13ed96d233dc3095",
+    "reviewed_at": "2026-10-15T12:06:29.596Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "8d4b66b549dc129cc7dd8f88be2f1d1b01ab1139dfa7ee5a13ed96d233dc3095",
+    "notes": "Detached head with scarf-covered neck drifting through the doorway at night; no gore."
+  }
+}

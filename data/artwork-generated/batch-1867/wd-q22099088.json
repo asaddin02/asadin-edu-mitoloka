@@ -1,0 +1,86 @@
+{
+  "slug": "wd-q22099088",
+  "worker": "codex",
+  "worker_agent": "lane1867_A",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-071.review.json",
+  "batch": 1867,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Zhurou, the foxlike fish-finned portent on Mount Geng.\nANATOMY: One adult FOX-shaped mammal with one head, two pointed ears, two natural eyes, four fox legs and one bushy fox tail; prominent FISH FINS grow along both flanks and the back, ribbed translucent natural fish membranes rather than feather wings. Fins are large enough to read at thumbnail size. No feathered wings, horns, extra limbs or glowing eyes. [wd-q22099088-c01]\nMOMENT: Lunge from bare turquoise-streaked rock directly toward the viewer, jaws open in a sharp animal cry, both long flank fins flared like rigid fish sails. Forefeet claw the foreground stone, throwing ordinary grit.\nPOWER: Its appearance portends fear, without any documented projected attack or magic. Menace comes from the unnatural fish-finned fox anatomy and cry, not an invented power. [wd-q22099088-c02, wd-q22099088-c03]\nSCALE & CAMERA / LIGHT & WEATHER: Very close low camera, all fins and fox head inside square, no giant scale. One hard amber sunset side light against deep walnut mountain shadow, coarse fox fur and wet ribbed fins.\nSURFACE: tactile natural material, rough lived-in textures; never smooth plastic.\nSETTING: Plantless Mount Geng: barren dark mountain rock with abundant blue-green shuibi stone. No trees, grass, water or invented temple; keep any snakes outside the frame to isolate the main subject. [wd-q22099088-c03]\nMOOD: imposing, dangerous or awe-inspiring through the sourced form and physical action; never ordinary, cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, signature, symbol, logo, border, frame or watermark anywhere; no extra heads, eyes or limbs; no borrowed film, game, anime or comic design; no nudity or explicit gore; no generic glow aura, neon outline, energy ribbons or magical runes.",
+  "depicted_variant": "Zhurou lunges over Mount Geng rock with its natural fish fins flared.",
+  "basis_claim_ids": [
+    "wd-q22099088-c01",
+    "wd-q22099088-c02",
+    "wd-q22099088-c03"
+  ],
+  "claim_classification": {
+    "wujud": [
+      "wd-q22099088-c01"
+    ],
+    "kekuatan": [
+      "wd-q22099088-c02",
+      "wd-q22099088-c03"
+    ],
+    "tempat": [
+      "wd-q22099088-c03"
+    ],
+    "sifat": [
+      "wd-q22099088-c03"
+    ]
+  },
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One adult FOX-shaped mammal with one head, two pointed ears, two natural eyes, four fox legs and one bushy fox tail; prominent FISH FINS grow along both flanks and the back, ribbed translucent natural fish membranes rather than feather wings. Fins are large enough to read at thumbnail size. No feathered wings, horns, extra limbs or glowing eyes.",
+      "claim_ids": [
+        "wd-q22099088-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Its appearance portends fear, without any documented projected attack or magic. Menace comes from the unnatural fish-finned fox anatomy and cry, not an invented power.",
+      "claim_ids": [
+        "wd-q22099088-c02",
+        "wd-q22099088-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Plantless Mount Geng: barren dark mountain rock with abundant blue-green shuibi stone. No trees, grass, water or invented temple; keep any snakes outside the frame to isolate the main subject.",
+      "claim_ids": [
+        "wd-q22099088-c03"
+      ]
+    }
+  ],
+  "aura": "Its appearance portends fear, without any documented projected attack or magic. Menace comes from the unnatural fish-finned fox anatomy and cry, not an invented power. [wd-q22099088-c02, wd-q22099088-c03]",
+  "artistic_choices": [
+    "Exact placement and size of fish fins, fox fur color and lighting are editorial interpretations of c01's unspecific fish fins. Choose c01 form, not the dictionary c06 scaled-wing variant. No emitted fear beam or supernatural effects."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "generated_file": "/home/asadin/.codex/generated_images/01a13eac-8f21-7c83-95f6-77e3de4560e1/exec-297b6014-bfba-4d7b-8d94-2212ff0f9c16.png",
+  "native_sha256": "0e46463f7cfdc5154fcea4ba33d6f79eeb235def5f65ab8584e13bbffa4b6dc1",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-15T12:11:48.637Z",
+  "original_file": "data/artwork-generated/batch-1867/originals/wd-q22099088.png",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Viewed native1254² and200px. All7 Uji Sangar pass: unmistakable foreground creature, imposing presence retained at200, active sourced moment, effects mapped, anatomy counted, no text/watermark/frame/franchise, no ordinary/cute/calm reading. Fox face and body with large natural ribbed fish fins c01, claws thrust over barren shuibi rock c03, mouth open in cry c02. No projected fear spell and no invented wings.",
+    "limitations": [],
+    "native_sha256": "0e46463f7cfdc5154fcea4ba33d6f79eeb235def5f65ab8584e13bbffa4b6dc1",
+    "reviewed_at": "2026-10-15T12:14:34.938Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-16T08:05:00+07:00",
+    "native_sha256": "0e46463f7cfdc5154fcea4ba33d6f79eeb235def5f65ab8584e13bbffa4b6dc1",
+    "notes": "Fox with large fish fins along flanks and back, snarling on Mount Geng rock."
+  }
+}
