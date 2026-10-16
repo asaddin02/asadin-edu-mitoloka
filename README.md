@@ -2,7 +2,7 @@
 
 > **Mitoloka** adalah ensiklopedia digital modern, kuratorial, dan interaktif untuk menjelajahi makhluk mitologi, arwah cerita rakyat, naga purba, dan entitas supernatural dari berbagai peradaban dunia dengan catatan sumber, panduan belajar, dan konteks budaya.
 
-**Lanjut dari PC lain:** baca [serah terima 13 Oktober 2026](docs/HANDOFF-2026-10-13.md): nama baru Mitoloka, 377 gambar baru, koreksi yang menunggu Codex, dan antrean berikutnya. Riwayat sebelumnya ada di [serah terima 7 Oktober](docs/HANDOFF-2026-10-07.md).
+**Lanjut dari PC lain:** baca [serah terima 16 Oktober 2026](docs/HANDOFF-2026-10-16.md): pembagian tugas Codex dan Claude, 90 gambar baru (1.829 aktif), 58 gambar yang menunggu tinjauan, dan antrean berikutnya. Riwayat sebelumnya ada di [serah terima 13 Oktober](docs/HANDOFF-2026-10-13.md) dan [7 Oktober](docs/HANDOFF-2026-10-07.md).
 
 ---
 
