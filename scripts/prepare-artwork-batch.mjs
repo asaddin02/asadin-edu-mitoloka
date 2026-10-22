@@ -43,13 +43,23 @@ const { status, entries, counts } = await computeFillStatus(catalogue);
 // Reasons earlier batches gave for leaving a creature out, newest batch last so it wins.
 const earlier = {};
 const ledgers = (await readdir(new URL('data/', ROOT))).filter(n => /^artwork-batch-\d+\.json$/.test(n)).sort((a, b) => parseInt(a.slice(14)) - parseInt(b.slice(14)));
-for (const name of ledgers) for (const o of (await read(`data/${name}`)).selection_audit?.omitted || []) earlier[o.slug] = o.reason;
+// Creatures still open in an earlier batch (pending, awaiting review, needs correction, reviewed but not installed)
+// are left out, so a second PC never draws them again.
+const inFlight = new Set();
+for (const name of ledgers) {
+  const ledger = await read(`data/${name}`);
+  for (const o of ledger.selection_audit?.omitted || []) earlier[o.slug] = o.reason;
+  for (const item of ledger.items || []) {
+    const closed = item.status === 'complete' || /^excluded/.test(item.status || '') || item.status === 'tidak-digambar';
+    if (!closed) inFlight.add(item.slug);
+  }
+}
 
 const statement = claim => (typeof claim.statement === 'string' ? claim.statement : claim.statement?.en || '');
 const appearance = /\b(?:appears? as|appearances?|form of|pictured|portrayed|depicted|described as|body|heads?|hair|eyes?|skin|beards?|wings?|horns?|claws?|feet|foot|tail|serpent|dragon|giant|dwarf|elk|wolf|horse|fish|frog|owl|insect|coat|cloak|shawl|robe|cap|hats?|tunics?|dress|trousers|goat|spider|cobra|eagle|bird|light|fireball|dog|cat|beast)\b/i;
 
 const eligible = Object.entries(status)
-  .filter(([slug, v]) => (v.status === 'lengkap-informasi' || (args['allow-commons'] && v.status === 'lengkap-bergambar')) && !manifest.artworks[slug] && !exclusions[slug] && (!only || only.has(slug)))
+  .filter(([slug, v]) => (v.status === 'lengkap-informasi' || (args['allow-commons'] && v.status === 'lengkap-bergambar')) && !manifest.artworks[slug] && !exclusions[slug] && !inFlight.has(slug) && (!only || only.has(slug)))
   .map(([slug]) => slug);
 const missing = eligible.filter(slug => !entries.has(slug));
 let selected = eligible.filter(slug => entries.has(slug)).map(slug => {

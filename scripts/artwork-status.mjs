@@ -38,12 +38,6 @@ const minSitelinks = namaBesar.min_sitelinks || 40;
 const isBig = slug => named.has(slug) || (sitelinks.get(slug) || 0) >= minSitelinks;
 const nameOf = slug => entries.get(slug)?.identity?.canonical_name || names.get(slug) || slug;
 
-// Antrean gambar baru: entri lengkap dan valid tanpa ilustrasi editorial dan tanpa pengecualian permanen.
-const ready = Object.entries(status)
-  .filter(([slug, v]) => v.status === 'lengkap-informasi' && !manifest[slug] && !exclusions[slug])
-  .map(([slug]) => slug);
-const big = ready.filter(isBig).sort((a, b) => (sitelinks.get(b) || 0) - (sitelinks.get(a) || 0) || a.localeCompare(b, 'en'));
-const others = ready.filter(slug => !isBig(slug)).sort((a, b) => a.localeCompare(b, 'en'));
 const held = Object.entries(status).filter(([, v]) => v.gambar_ditahan).map(([slug]) => slug);
 
 // Receipt yang menunggu tinjauan Claude harus lengkap dan terikat ke berkas PNG-nya; kalau tidak, Codex memperbaikinya dulu.
@@ -122,6 +116,16 @@ for (const ledger of ledgers) {
   }
   if (summary.complete < summary.target) open.push(summary);
 }
+
+// Antrean gambar baru: entri lengkap dan valid tanpa ilustrasi editorial, tanpa pengecualian permanen, dan tidak
+// sedang berada di batch terbuka (sudah digambar dan menunggu tinjauan, atau belum dikerjakan), supaya PC lain tidak
+// menggambarnya dua kali.
+const inFlight = new Set(open.flatMap(o => [...o.pending, ...o.awaiting, ...o.corrections.map(c => c.slug), ...o.reviewed]));
+const ready = Object.entries(status)
+  .filter(([slug, v]) => v.status === 'lengkap-informasi' && !manifest[slug] && !exclusions[slug] && !inFlight.has(slug))
+  .map(([slug]) => slug);
+const big = ready.filter(isBig).sort((a, b) => (sitelinks.get(b) || 0) - (sitelinks.get(a) || 0) || a.localeCompare(b, 'en'));
+const others = ready.filter(slug => !isBig(slug)).sort((a, b) => a.localeCompare(b, 'en'));
 
 let journal = null;
 const journalPath = resolve(root, 'docs/codex/JURNAL-GAMBAR.md');
