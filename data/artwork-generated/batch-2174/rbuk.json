@@ -1,0 +1,60 @@
+{
+  "slug": "rbuk",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Male half-human half-snake Anadolu being, emerging from the underground.",
+  "basis_claim_ids": [
+    "rbuk-c01",
+    "rbuk-c08",
+    "rbuk-c11",
+    "rbuk-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Human upper body and single snake body below waist; two arms, no legs, opaque clothing.",
+      "claim_ids": [
+        "rbuk-c01",
+        "rbuk-c08",
+        "rbuk-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Emerging in underground world of clever snakes.",
+      "claim_ids": [
+        "rbuk-c04"
+      ]
+    }
+  ],
+  "aura": "Keagungan melalui anatomi setengah manusia setengah ular dari bawah tanah (rbuk-c01, rbuk-c04, rbuk-c08), tanpa kuasa visual rekaan.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Opaque ancient robe, hair and cavern lighting are editorial choices. No healing effect portrayed because remedy ability does not specify a visible mechanism."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of ERBÜKE (Ərbükə), the half-human half-snake being of Anadolu folk tales.\nANATOMY: exactly ONE human male head, TWO human arms, human upper torso, exactly ONE continuous thick snake body below the waist, no human legs and no feet [rbuk-c01,c08,c11]; upper body fully clothed in opaque rough ancient earth-brown robe, no crown, no weapons, no invented horns.\nMOMENT: uncoiling upward from the underground toward the viewer, one arm braced against rough stone, other open hand extending forward, focused grave gaze; snake coils sweep across foreground and visibly connect at waist.\nPOWER: no visual magical effects; no invented healing beams. Awe through documented hybrid anatomy and active movement only.\nSCALE & CAMERA: extreme low close view, body and head fill square; no invented enormous scale comparison.\nLIGHT & WEATHER: one distant warm opening lights face and wet scales, deep underground shadows, natural stone dust.\nSURFACE: wet dark olive snake scales, rough opaque linen wool robe, damp rock.\nSETTING: underground world of clever snakes [rbuk-c04].\nMOOD: solemn and awe-inspiring intelligent being, healer tradition respected, not villainous or attacking.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra head, snake tail, limbs or fingers; no borrowed film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-72168bd0-16f4-4a22-a53a-271a2e69f88a.png",
+  "generated_at": "2026-10-22T10:54:36.524Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/rbuk.png",
+  "native_sha256": "6af830703438fddd6a0d6655602e49a786fdac2abae113fa4a178c95d7076eb6",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "One human head/two arms, fully opaque upper robe, snake lower body visibly continuous at waist, no legs. Reaches outward with solemn gaze in cavern. Native and 200px inspected.",
+    "limitations": [],
+    "native_sha256": "6af830703438fddd6a0d6655602e49a786fdac2abae113fa4a178c95d7076eb6",
+    "reviewed_at": "2026-10-22T10:54:36.524Z"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "the-hairy-leg",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "the-hairy-leg-c01",
+    "the-hairy-leg-c03",
+    "the-hairy-leg-c05",
+    "the-hairy-leg-c06"
+  ],
+  "depicted_variant": "Satu kaki manusia berbulu independen sepanjang sekitar1,5meter menendang ke arah penonton di Recife malam hari; ujung atas tertutup tanpa luka.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Tepat satu kaki manusia penuh bulu dengan lutut, betis, satu telapak dan lima jari berkuku; tanpa badan atau gore.",
+      "claim_ids": [
+        "the-hairy-leg-c03",
+        "the-hairy-leg-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Kaki melayang independen melakukan tendangan ke penonton, tanpa korban terlihat.",
+      "claim_ids": [
+        "the-hairy-leg-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Recife pada malam hari; perbandingan pintu normal mendukung panjang sekitar satu setengah meter.",
+      "claim_ids": [
+        "the-hairy-leg-c01",
+        "the-hairy-leg-c06"
+      ]
+    }
+  ],
+  "aura": "Ancaman dari satu kaki berbulu independen c03/c05 yang menendang langsung ke penonton c03, ukuran sekitar1,5m c06.",
+  "artistic_choices": [
+    "Ujung atas dibuat utuh tertutup dan dinaungi bulu, tanpa luka, darah, tulang atau gore meski sumber menyebut terpisah.",
+    "Lokasi jalan berkerikil/batu dan pintu rumah, warna kulit, cahaya lampu malam serta percikan air dari tendangan editorial. Tidak meniru versi film2025.",
+    "Kuku tetap manusia, bukan cakar fantasi. Tidak ada tubuh manusia lain, tidak ada metamorfosis hewan yang jenisnya tidak didokumentasi."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of The Hairy Leg / Perna Cabeluda, the uncanny independent hairy human leg of the Recife urban legend [the-hairy-leg-c01, the-hairy-leg-c03].\nANATOMY: exactly ONE entire human-shaped leg, about one and a half metres long, dense coarse dark hair from thigh through calf, one bent knee, one ankle, one bare human foot with exactly FIVE toes and thick human toenails. The upper thigh ends in a smoothly sealed rounded skin surface buried in hair: absolutely no wound, blood, bone, gore, pelvis or torso [the-hairy-leg-c05, the-hairy-leg-c06].\nMOMENT: KICKING straight toward the low viewer in a sudden violent forward swing, huge dirty sole and five toes thrust very close to camera, knee bent behind and hairy thigh sweeping diagonally upward into empty night. It is visibly a whole standalone leg with no body attached [the-hairy-leg-c03].\nPOWER: independent supernatural movement of the leg only; ordinary street water sprays from its forceful passing kick, no spell or aura.\nSCALE & CAMERA: extreme ground-level close angle, sole and hairy lower leg dominate nearly the whole square; a normal doorway behind provides approximate metre-and-a-half length context [the-hairy-leg-c06].\nLIGHT & WEATHER: one warm street lamp from the side, copper rim through coarse hair, deep walnut night shadows, wet paving reflecting light.\nSURFACE: thick matted leg hair, weathered human skin, rough callused dirty sole, ordinary toenails, rain-wet cobblestones.\nSETTING: narrow Recife residential street at night, dark plain doorway and facade behind, no signs [the-hairy-leg-c01, the-hairy-leg-c03].\nMOOD: frightening, sudden, dangerous physical confrontation, never silly, cute, costume-like or decorative.\nHARD CONSTRAINTS: exactly one leg and five toes, no second leg, other limbs, head, torso, eyes or mouth; no footwear, no fantasy talons; no people or victims, no wounds or gore, no nudity beyond the standalone limb; no text, logo, frame, border or watermark; no film/game/anime/comic design; no glow aura, neon outline or energy ribbons."
+}

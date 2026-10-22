@@ -1,0 +1,65 @@
+{
+  "slug": "peladits",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "peladits-c01",
+    "peladits-c02",
+    "peladits-c03"
+  ],
+  "depicted_variant": "Peladits tinggi kurus hitam arang berbulu tebal seperti beruang, melompat sambil melolong.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Sosok sangat tinggi kurus hitam arang, seluruh tubuh berbulu seperti beruang; satu kepala dua lengan dua kaki.",
+      "claim_ids": [
+        "peladits-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Lompatan dan lolongan; debu terangkat karena kontak kaki, tanpa kekuatan gaib baru.",
+      "claim_ids": [
+        "peladits-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tempat persembunyian dekat Gunung Montserrat.",
+      "claim_ids": [
+        "peladits-c01"
+      ]
+    }
+  ],
+  "aura": "Ancaman dari tubuh kurus hitam berbulu c02 dan lolongan sambil melompat c03.",
+  "artistic_choices": [
+    "Tidak ada anak, korban, alat penyiksaan atau adegan kekerasan; subjek sendirian.",
+    "Wajah ditafsir sebagai humanoid kurus berbulu, tidak menambahkan kepala beruang: sumber hanya menyebut bulu seperti beruang.",
+    "Cahaya bulan samping dan pijakan batu editorial; tidak ada kekuatan gaib tercatat yang divisualkan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Peladits, the sinister Catalan bogey hiding near Mount Montserrat.\nANATOMY: one exceptionally tall and very thin humanoid with coal-black skin hidden beneath thick shaggy bear-like black hair; one narrow humanoid head, two eyes, two long arms, two long legs, normal five-fingered hands. He is NOT a bear: the hair alone is bear-like [peladits-c02]. Dense opaque fur covers the entire body.\nMOMENT: LEAPING down from a rocky ledge toward the viewer, knees sharply bent, arms thrown outward for balance, narrow mouth wide open in a raw howl; body twists dynamically, face confronts camera [peladits-c03].\nPOWER: no documented magical power used; movement flings ordinary stone dust from the ledge.\nSCALE & CAMERA: extreme low angle close view, the tall thin silhouette fills the square with head near upper edge; recognizable lanky anatomy, no invented mountain-sized giant.\nLIGHT & WEATHER: one hard moonbeam outlines the long shaggy body against deep walnut darkness, tiny dust grains.\nSURFACE: coarse matted coal-black hair, narrow sinewy hands, rough rock.\nSETTING: rocky hiding place near Mount Montserrat, distant serrated mountain silhouette unobtrusive [peladits-c01].\nMOOD: menacing and feral, dangerous and imposing, never cute or static.\nHARD CONSTRAINTS: no children or other people, no harm or gore, no tools of torture; no horns, wings, animal head or extra limbs; no text, logo, frame, border or watermark; no borrowed modern design; no nudity; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-d972bb04-79bf-4307-860c-5ba4f5f68ff4.png",
+  "generated_at": "2026-10-22T10:54:29.204Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/peladits.png",
+  "native_sha256": "669e2bbbf0451f0b8816f41cbd093b01ca61b2bed7562df5799f2b6eff7f0290",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: sosok hitam kurus berbulu mendominasi, melompat sambil melolong; satu kepala, dua lengan dua kaki, tanpa anatomi tambahan. Tidak ada korban/anak/gore/efek gaib karangan. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "669e2bbbf0451f0b8816f41cbd093b01ca61b2bed7562df5799f2b6eff7f0290",
+    "reviewed_at": "2026-10-22T10:54:29.204Z"
+  }
+}

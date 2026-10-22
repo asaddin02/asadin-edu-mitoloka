@@ -1,0 +1,51 @@
+{
+  "slug": "osakabehime",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Majestic old woman in a twelve-layered kimono manipulating castle attendants; no fox/snake alternate forms mixed in.",
+  "basis_claim_ids": [
+    "osakabehime-c11",
+    "osakabehime-c12",
+    "osakabehime-c13",
+    "osakabehime-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Majestic elderly woman wearing an opaque twelve-layered kimono, one head, two eyes, two arms.",
+      "claim_ids": [
+        "osakabehime-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Her lifted hand directs distant attendants into stiff puppet-like postures through documented manipulation, without literal strings or invented glowing effects.",
+      "claim_ids": [
+        "osakabehime-c12",
+        "osakabehime-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Secret timber interior of Himeji Castle.",
+      "claim_ids": [
+        "osakabehime-c11"
+      ]
+    }
+  ],
+  "aura": "Authority comes from commanding people like puppets c12/c13 and stern elderly presence c14; no luminous aura.",
+  "artistic_choices": [
+    "Very tight low-angle framing supplies dominance without claiming gigantic size.",
+    "Moonlit slatted castle interior and dark amber layered textiles are editorial lighting/palette; twelve stacked collars and cuffs make garment layers readable.",
+    "No nine tails, fox ears or snake body from alternate identities."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Osakabehime, the commanding elderly yokai lady hidden in Himeji Castle.\nANATOMY: one majestic OLD WOMAN, deeply aged stern face, white hair, one head two eyes two arms, wearing a completely opaque TWELVE-LAYERED court kimono; twelve thin distinct nested collar edges and matching stacked cuffs, dark walnut red and antique gold silk. No fox ears or tails, no snake anatomy. [osakabehime-c14]\nMOMENT: sweep one sleeve toward the viewer while lifting one hand in a commanding curved gesture; direct harsh unwavering gaze downward toward us; in a lower distant doorway two small castle attendants involuntarily lean at impossible stiff puppet-like angles, arms jerked upward by her command, feet planted. The lady is very close to camera and overwhelmingly fills the frame, attendants are far away rather than tiny human scale references.\nPOWER: physical manipulation of attendants like puppets, conveyed by their stiff synchronized posture; no visible strings, no magical lights, no levitation. [osakabehime-c12, osakabehime-c13]\nSCALE & CAMERA: extreme low angle intimate three-quarter portrait from waist upward, face and commanding sleeve dominate, human scale through perspective not giant anatomy.\nLIGHT & WEATHER: one cold moonbeam through wooden castle slats, narrow silver rim and deep warm shadows, ordinary floating dust.\nSURFACE: creased old skin, wispy white hair, richly weathered opaque silk with layered woven edges, dark timber grain.\nSETTING: secret timber chambers of Himeji Castle, heavy beams receding into dark doorways. [osakabehime-c11]\nMOOD: awe-inspiring and dangerously authoritative, never cute, calm, decorative, fashion model or ordinary passerby.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T10:10:18.325Z"
+}

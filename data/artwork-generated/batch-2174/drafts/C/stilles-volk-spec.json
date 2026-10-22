@@ -1,0 +1,54 @@
+{
+  "slug": "stilles-volk",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Helpful dwarf folk of the Plesse tale passing through a locked wall with gold and gems.",
+  "basis_claim_ids": [
+    "stilles-volk-c01",
+    "stilles-volk-c04",
+    "stilles-volk-c07",
+    "stilles-volk-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Small dwarf folk with humanlike one head/two eyes/two arms/two legs each, fully opaque simple clothes; no standardized pointed caps or extra anatomy claimed.",
+      "claim_ids": [
+        "stilles-volk-c01",
+        "stilles-volk-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "One foremost dwarf physically passes halfway through an intact stone wall, bearing gifts of gold and gems, helpful and solemn rather than attacking.",
+      "claim_ids": [
+        "stilles-volk-c07",
+        "stilles-volk-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Deep underground cave beneath Plesse castle hill, ore seams in walls.",
+      "claim_ids": [
+        "stilles-volk-c04",
+        "stilles-volk-c07"
+      ]
+    }
+  ],
+  "aura": "Awe from documented passage through intact wall c07 and rich gifts c08, not evil stature or luminous aura.",
+  "artistic_choices": [
+    "Close small-scale camera makes foreground dwarf dominant without enlarging species.",
+    "Simple opaque earth-tone clothes, age, lantern, and gold-ore textures are editorial choices, not asserted iconography.",
+    "The wall remains intact at passage with body cleanly occluded; no rock-breaking power inferred.",
+    "Three dwarfs suggest a people, without implying documented fixed group count."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of the Stilles Volk, the quiet helpful dwarf folk beneath Plesse castle hill who can walk through locked doors and walls.\nANATOMY: THREE SMALL humanlike dwarfs in completely opaque simple earth-brown woven tunics, trousers and soft plain hoods, each with one head two natural eyes two arms two legs, compact bodies and weathered solemn faces. No pointed cartoon caps, no glowing eyes, no wings or horns. One foremost dwarf dominates, two recede behind. [stilles-volk-c01, stilles-volk-c07]\nMOMENT: STEP THROUGH an INTACT thick stone wall toward the viewer: the foremost dwarf's face, chest, near hand and forward foot have emerged on our side, while the visible wall cleanly OCCLUDES the middle of his other arm and his rear leg at the stone boundary. Show his body passing through solid wall as an impossible continuous living form; wall stones remain solid and unbroken, no doorway, crack or smashed hole at passage. He gravely extends a broad palm bearing several gold pieces and raw precious stones as a helpful gift. [stilles-volk-c07, stilles-volk-c08]\nPOWER: documented walking through walls physically visible in the foreground; no glowing portal, phasing aura, energy ribbons or rock destruction. Two quiet companions wait deeper in the cave, bearing more gifts.\nSCALE & CAMERA: extreme low close camera at tiny dwarf face level; foreground figure fills two-thirds of square, coarse wall stones large beside him establish small stature. The gold-filled extended hand foreshortens toward viewer; no giant dwarfs or miniature humans as scale references.\nLIGHT & WEATHER: one small ordinary oil lantern low at left, hard amber light from below, deep walnut shadows, natural cave dust.\nSURFACE: weathered skin, rough opaque fabric, gritty damp stone with ore flecks, irregular matte gold and raw dark red gems.\nSETTING: deep mine cave beneath Plesse castle hill with mineral seams; an intact thick old stone foundation wall crosses foreground. [stilles-volk-c04, stilles-volk-c07]\nMOOD: overwhelming uncanny but BENEVOLENT presence, grave and powerful generosity; never malicious, attacking, cute mascot, toy or calm decorative portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T11:03:47.520Z"
+}

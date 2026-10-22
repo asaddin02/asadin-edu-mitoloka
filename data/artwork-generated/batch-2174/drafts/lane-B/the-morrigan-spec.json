@@ -1,0 +1,55 @@
+{
+  "slug": "the-morrigan",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-115.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "War-leader manifestation frightening enemies and urging warriors forward.",
+  "basis_claim_ids": [
+    "the-morrigan-c05",
+    "the-morrigan-c07",
+    "the-morrigan-c02",
+    "the-morrigan-c01",
+    "the-morrigan-c03",
+    "the-morrigan-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Human female war-leader manifestation in opaque editorial ancient clothes/armor, no hybrid crow anatomy.",
+      "claim_ids": [
+        "the-morrigan-c05",
+        "the-morrigan-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Encourages warriors and strikes fear into enemies; reactions visible rather than magical beams.",
+      "claim_ids": [
+        "the-morrigan-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Battlefield of goddess of battle and war.",
+      "claim_ids": [
+        "the-morrigan-c01",
+        "the-morrigan-c03",
+        "the-morrigan-c08"
+      ]
+    }
+  ],
+  "aura": "Keagungan lewat manifestasi pemimpin perang dan efek ketakutan nyata pada musuh (the-morrigan-c07, the-morrigan-c02), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Warleader variant selected over crow to avoid ordinary bird; no hybrid transformation anatomy inferred. Editorial ancient clothes and armor lack modern franchise identifiers. Fear/encouragement visible via human reactions, not invented elemental spell."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of THE MORRÍGAN, Irish goddess of battle and fate, in her documented WAR-LEADER manifestation [the-morrigan-c07].\nANATOMY: ONE mature human female war leader, one head, two arms, two legs; severe weathered pale face and fierce dark eyes, black hair wind-torn, fully opaque rough dark wool cloak and leather/bronze ancient war clothing, no horns, no wings, no hybrid bird limbs, no invented crown. Clothing/armor is editorial visualization of war leader, not film character.\nMOMENT: lunging forward into the battle with torso sharply turned, mouth open in an overwhelming commanding cry, one arm thrust forward pointing into enemy ranks and the other hauling a heavy cloak aside; near face and hand command the foreground, NOT a fashion portrait or neutral standing woman.\nPOWER: she ENCOURAGES her warriors while STRIKING FEAR into enemies [the-morrigan-c02]: behind one shoulder her armed followers surge forward with raised spears; directly beneath her outstretched hand an enemy warrior recoils backward, dropping shield, eyes wide and visibly terrified. No aura, magic beam, fire, lightning or telekinesis; divine effect is the documented fear visibly acting on people.\nSCALE & CAMERA: extremely low close perspective, goddess fills most square with larger-than-life composition but NO invented giant bodily scale; other warriors behind her are normal-scale perspective, not tiny toys.\nLIGHT & WEATHER: one dying sun behind dark battlefield cloud rims hair and bronze cloth clasps; deep shadows, dust from combat.\nSURFACE: wind-tangled black hair, weathered bronze, coarse opaque wool, churned battlefield mud.\nSETTING: ancient Irish battlefield, spear-armed warriors without modern insignia [the-morrigan-c01,c03,c08].\nMOOD: awe-inspiring terrifying sacred war command, respect for deity, intense active moment.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film/game/anime/comic designs; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons."
+}

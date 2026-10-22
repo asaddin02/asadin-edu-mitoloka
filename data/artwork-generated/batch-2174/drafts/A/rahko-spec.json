@@ -1,0 +1,56 @@
+{
+  "slug": "rahko",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2174/rejected/rahko-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2174/rejected/rahko-attempt-01.json",
+      "native_sha256": "876842a8a0d3c93a01716c0a6aeff248a35bbd59db188495589fa14f0f795590",
+      "reason": "Uji Sangar no pada native dan 200px: tokoh terlalu terbaca sebagai pekerja biasa mengecat ter meskipun latar Bulan; adegan belum menunjukkan pencurian cahaya yang menggetarkan."
+    }
+  ],
+  "basis_claim_ids": [
+    "rahko-c05"
+  ],
+  "depicted_variant": "Mano-Rakko, pencuri yang terjebak di Bulan sambil menutupi permukaannya dengan ter memakai ember dan kuas.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu sosok pencuri manusia dengan dua tangan memegang ember ter dan kuas.",
+      "claim_ids": [
+        "rahko-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Ter hitam pekat menutupi permukaan Bulan secara fisik dan mengurangi cahaya di belakangnya.",
+      "claim_ids": [
+        "rahko-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Permukaan Bulan tempat Mano-Rakko terjebak.",
+      "claim_ids": [
+        "rahko-c05"
+      ]
+    }
+  ],
+  "aura": "Tindakan mencuri cahaya Bulan lewat pelumuran ter c05, bukan aura atau perubahan ukuran tokoh.",
+  "artistic_choices": [
+    "Varian Mano-Rakko c05 dipilih tanpa menggabungkan penempa Bulan c04 atau roh rumah c07.",
+    "Jubah kerja buram gelap, wajah berkerut dan kamera rendah editorial; tidak mengklaim pakaian etnis tertentu.",
+    "Tokoh tetap berukuran manusia; framing ekstrem membuat ember/kuas dan sosok dominan, latar hanya kulit Bulan melengkung.",
+    "Percobaan02 dipilih: sudut sangat dekat di tepi Bulan, horizon melengkung sebagai perspektif lensa lebar editorial; tokoh tidak dinyatakan raksasa. Percobaan01 ditolak karena terlalu biasa."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Rahko in the Mano-Rakko variant, the thief trapped on the Moon and blackening its light with tar [rahko-c05].\nANATOMY: exactly one human-shaped thief, one head, two arms and two legs, fully opaque rough work robe and boots. One hand clutches a tar bucket and the other grips a tar-loaded brush [rahko-c05]. No invented supernatural anatomy or giant scale.\nMOMENT: CLINGING to the steep curved edge of the Moon at an impossible angle while swinging his brush directly toward the low camera; head and shoulders loom extremely close, eyes stare down with fierce intensity, the other hand raises the dripping tar bucket above the black abyss. His robe twists with the desperate precarious motion.\nPOWER: thick jet-black tar pours from the bucket and the brush streak, cascading over the curved lunar face below and smothering its brilliant reflected light into darkness, physically visible wet tar swallowing a broad crescent of light [rahko-c05]. The darkening Moon is a secondary visible effect, not a landscape subject. No glowing spell.\nSCALE & CAMERA: extreme low close foreshortened view from the curved lunar edge immediately beneath his reaching brush, head and torso fill the upper two thirds, brush and viscous tar loom in foreground; no tiny distant person. Perspective shows the lunar surface rolling down behind him into black space.\nLIGHT & WEATHER: one severe lunar rimlight at the boundary of pale rock and wet black tar, deep shadow over half the strained face, no clouds or air.\nSURFACE: liquid black tar stretching in thick strands, rough pale moon craters, frayed opaque woven robe, battered bucket.\nSETTING: the curved Moon itself hanging in black space, where the thief is stuck [rahko-c05].\nMOOD: overwhelming impossible mythic moon-theft, precarious and ominous, intense direct confrontation. Do not make a mundane worker painting a floor or a neutral portrait.\nHARD CONSTRAINTS: no text, logo, watermark, frame, extra limbs, horns or fantasy armor; no generic aura, neon or energy ribbons; no nudity, gore or borrowed design."
+}

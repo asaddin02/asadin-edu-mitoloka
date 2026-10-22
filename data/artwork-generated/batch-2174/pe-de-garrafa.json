@@ -1,0 +1,76 @@
+{
+  "slug": "pe-de-garrafa",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Tall one-eyed, one-legged hairy forest creature with round bottle-bottom hoof.",
+  "basis_claim_ids": [
+    "pe-de-garrafa-c10",
+    "pe-de-garrafa-c11",
+    "pe-de-garrafa-c01",
+    "pe-de-garrafa-c07",
+    "pe-de-garrafa-c02",
+    "pe-de-garrafa-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One eye, one leg, hairy body; giant round bottle-bottom hoof.",
+      "claim_ids": [
+        "pe-de-garrafa-c10",
+        "pe-de-garrafa-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Huge round footprints in clay.",
+      "claim_ids": [
+        "pe-de-garrafa-c01",
+        "pe-de-garrafa-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forest; height reaches leaves of tallest trees.",
+      "claim_ids": [
+        "pe-de-garrafa-c02",
+        "pe-de-garrafa-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Mouth open issuing documented shrill call; sound not drawn as visible waves.",
+      "claim_ids": [
+        "pe-de-garrafa-c03"
+      ]
+    }
+  ],
+  "aura": "Ancaman melalui satu mata, satu kaki, tinggi mencapai daun pohon dan jejak bundar (pe-de-garrafa-c10, pe-de-garrafa-c11, pe-de-garrafa-c01), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of PÉ DE GARRAFA, the one-eyed one-legged hairy Brazilian forest being.\nANATOMY: ONE head with exactly ONE central eye and no other eye sockets; TWO arms; exactly ONE thick central leg descending from the pelvis, absolutely no second leg; its ONE enormous hoof is round and flat like the circular bottom of a bottle, a wide circular cylindrical hoof without toes or cloven split; entire body hairy [pe-de-garrafa-c10,c11].\nMOMENT: hopping forward directly toward viewer and planting its huge single round hoof in wet clay, one hand gripping a tree trunk, mouth open in its documented shrill call [pe-de-garrafa-c03].\nPOWER: massive round footprint presses into clay with mud displaced physically; no visible soundwaves or other invented effects [pe-de-garrafa-c01,c07].\nSCALE & CAMERA: extreme low full-body view, towering head reaches tallest tree leaves, trunk width and tiny undergrowth show documented great height [pe-de-garrafa-c10]; the sole leg remains fully visible centered against lighter ground, rounded foot large in foreground.\nLIGHT & WEATHER: one low warm shaft of dusk light through trees, rim light on hair, deep humid shadows.\nSURFACE: coarse matted dark hair, rough cylindrical dark hoof, wet ochre clay.\nSETTING: dense Brazilian forest [pe-de-garrafa-c02].\nMOOD: uncanny and menacing, no explicit predation or invented human-eating scene.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no second eye or second leg; no borrowed film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-b907cf02-ae84-4bc1-9d68-b9d6eec4052a.png",
+  "generated_at": "2026-10-22T10:12:59.734Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/pe-de-garrafa.png",
+  "native_sha256": "9771e77cdbe268c322ade3c2a5b50c0d37ed98908f899b09b5ad7c6843c81cfc",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Exactly one central eye, one leg and one rounded cylindrical hoof without toes, two arms. Body reaches canopy, single foot strikes clay, mouth calls. Native and 200px inspected.",
+    "limitations": [],
+    "native_sha256": "9771e77cdbe268c322ade3c2a5b50c0d37ed98908f899b09b5ad7c6843c81cfc",
+    "reviewed_at": "2026-10-22T10:12:59.734Z"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "pardalo",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Magical wild ass destroying the prison bars with one kick.",
+  "basis_claim_ids": [
+    "pardalo-c01",
+    "pardalo-c07",
+    "pardalo-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One wild ass with four legs and two long ass ears; no wings.",
+      "claim_ids": [
+        "pardalo-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "One kick destroys the prison bars and stone jambs.",
+      "claim_ids": [
+        "pardalo-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Prison where D. Diogo is held.",
+      "claim_ids": [
+        "pardalo-c02",
+        "pardalo-c07"
+      ]
+    }
+  ],
+  "aura": "Ancaman dari satu tendangan yang menghancurkan jeruji dan jamb batu (pardalo-c07), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of PARDALO, the Portuguese magical wild ass.\nANATOMY: ONE rugged wild ass, exactly four legs, two long ass ears, one head, powerful small equine body, no wings or horns [pardalo-c01].\nMOMENT: rear kicking violently into an enormous iron prison grille while the head turns sharply toward the viewer; dynamic three-quarter side view, full body readable.\nPOWER: a SINGLE rear kick has smashed the iron prison grille down and shattered both heavy stone jambs into hundreds of flying fragments; broken bars fly toward the camera, a cramped human prisoner stands beyond for scale [pardalo-c02,c07]. Show the impossible destruction happening at direct hoof contact, much greater than ordinary donkey strength.\nSCALE & CAMERA: extreme low angle close to flying bars, animal fills most square, head fully visible with ears not cropped; four separated legs identifiable.\nLIGHT & WEATHER: one warm torch beyond broken gate, strong rim light, thick dust lit in flight.\nSURFACE: shaggy dark donkey coat, strained tendons, battered iron, shattered rough stone.\nSETTING: medieval prison doorway [pardalo-c02,c07].\nMOOD: supernatural ferocity and unstoppable physical force, dangerous and imposing, never farm animal at pasture.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads/limbs; no borrowed film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons."
+}

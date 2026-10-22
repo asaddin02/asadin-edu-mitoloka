@@ -1,0 +1,53 @@
+{
+  "slug": "paul-bunyan",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-142.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "paul-bunyan-c01",
+    "paul-bunyan-c06",
+    "paul-bunyan-c08",
+    "paul-bunyan-c10"
+  ],
+  "depicted_variant": "Paul Bunyan raksasa versi kisah tinggi mustahil Laughead, menarik kapak yang mengeruk ngarai.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Lelaki penebang raksasa menjulang jauh di atas pohon, satu kepala dua lengan dua kaki; kapak besar.",
+      "claim_ids": [
+        "paul-bunyan-c01",
+        "paul-bunyan-c06",
+        "paul-bunyan-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Kapak yang ditarik membelah tanah menjadi ngarai, batu/debu jatuh di bekas bilah.",
+      "claim_ids": [
+        "paul-bunyan-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Bentang ngarai yang sedang diciptakan di Amerika.",
+      "claim_ids": [
+        "paul-bunyan-c08"
+      ]
+    }
+  ],
+  "aura": "Keagungan fisik raksasa lebih tinggi daripada pohon c06 dan kapak yang menciptakan Grand Canyon c08.",
+  "artistic_choices": [
+    "Ukuran mustahil dipilih eksplisit dari varian Laughead c06, bukan versi awal setinggi manusia.",
+    "Pakaian kerja buram, janggut, palet walnut, cahaya senja dan pembingkaian rendah editorial; tidak meniru ilustrasi merek Laughead.",
+    "Babe tidak digambar demi pusat subjek Paul; c01 menyebut biasanya ditemani, bukan kewajiban setiap adegan."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Paul Bunyan, the giant North American folk lumberjack, in the impossible-size tall-tale variant [paul-bunyan-c01, paul-bunyan-c06].\nANATOMY: one colossal human man with one head, two arms and two legs, rugged bearded face, opaque weathered brown wool work shirt, heavy trousers and boots; both hands grip the long wooden haft of one enormous iron logging axe [paul-bunyan-c08]. Original appearance, no branded or cartoon costume.\nMOMENT: STRIDING toward and above the viewer, looking downward with fierce focused exertion as he drags the axe behind one leg; his broad shoulders and face occupy the upper two thirds, boots loom near the camera.\nPOWER: the dragged axe blade physically gouges a deep canyon through layered rock behind him, huge rock shelves shearing along the blade's narrow track and dust tumbling into the new gorge [paul-bunyan-c08].\nSCALE & CAMERA: extreme low-angle from below his boot; distant pine trees barely reach his ankle, showing he towers above trees [paul-bunyan-c06]. The giant is the dominant subject, not a landscape.\nLIGHT & WEATHER: one low copper sunset side light on face, axe and rock dust, deep warm walnut shadows.\nSURFACE: coarse wool, weathered leather, battered iron axe, fractured sandstone strata.\nSETTING: the rocky American canyon his dragged axe is creating [paul-bunyan-c08].\nMOOD: benevolent folk hero rendered overwhelming and awe-inspiring through strength, never evil, calm, comic or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border or watermark; no extra heads, limbs or fingers; no ox required; no design borrowed from film, game, anime, comic or branded Paul Bunyan imagery; fully opaque clothes, no gore; no glow aura, neon outline or energy ribbons."
+}

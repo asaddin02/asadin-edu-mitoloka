@@ -1,0 +1,50 @@
+{
+  "slug": "pantafica",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "pantafica-c01",
+    "pantafica-c05",
+    "pantafica-c06"
+  ],
+  "depicted_variant": "Perempuan spektral tua bermoncong runcing dan bermata iblis, berpakaian putih sepenuhnya.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Penyihir perempuan tua, wajah bermoncong runcing, dua mata iblis, busana putih buram.",
+      "claim_ids": [
+        "pantafica-c01",
+        "pantafica-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tangan meraih untuk membekap mulut penidur; ancaman pernapasan tanpa aura.",
+      "claim_ids": [
+        "pantafica-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kamar penidur dilihat dari posisi rendah di bantal.",
+      "claim_ids": [
+        "pantafica-c01"
+      ]
+    }
+  ],
+  "aura": "Kedekatan ancaman tangan pembekap c06 dan wajah runcing bermata iblis c05.",
+  "artistic_choices": [
+    "Tanpa korban tampak; sudut pandang penidur menekankan teror tanpa kekerasan eksplisit.",
+    "Cahaya bulan satu sumber dan tekstur seprai editorial. Tidak memadukan varian kucing hitam c02. Ukuran manusia dipertahankan dengan framing dekat."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Pantafica, the spectral old witch of Abruzzese nightmare folklore.\nANATOMY: one elderly female spectral witch with a sharply pointed long muzzle-like face, two demonic but naturally reflective dark eyes, one head, two arms with normal five-finger hands, opaque long white layered dress covering her entire body and shoulders [pantafica-c01, pantafica-c05].\nMOMENT: looming abruptly over the viewer from the bedside, leaning forward with an open hand coming directly toward the camera as if about to cover a sleeper's mouth, the other hand braced on the mattress; piercing stare and taut predatory face [pantafica-c06].\nPOWER: physical nightmare oppression through that reaching hand, no visible spell or aura.\nSCALE & CAMERA: extreme low viewpoint from a pillow, human-sized figure fills the entire square by proximity, pointed face and grasping hand largest.\nLIGHT & WEATHER: a single narrow moonbeam from a small window rakes her pointed face and frayed white cloth, deep brown-black shadow.\nSURFACE: weathered skin, aged coarse linen, rumpled bedclothes.\nSETTING: a dark sleeper's modest bedroom in Abruzzo, mattress edge and pillow foreground [pantafica-c01].\nMOOD: terrifying, imminent and oppressive, never a calm portrait or ordinary woman.\nHARD CONSTRAINTS: no other person visible, no gore, no nudity; no horns, wings or invented limbs; one head, two eyes, two hands; no text, lettering, logo, border, frame or watermark; no borrowed film/game/anime/comic design; no generic glow aura, neon outline or energy ribbons."
+}

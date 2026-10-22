@@ -1,0 +1,53 @@
+{
+  "slug": "oshunmare",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-140.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Great rainbow serpent rising from beneath earth to drink from clouds.",
+  "basis_claim_ids": [
+    "oshunmare-c05",
+    "oshunmare-c09",
+    "oshunmare-c06",
+    "oshunmare-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous limbless serpent; red and blue scale coloration reflects dual nature.",
+      "claim_ids": [
+        "oshunmare-c05",
+        "oshunmare-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rises into clouds to drink water; rain physically falls around its coils.",
+      "claim_ids": [
+        "oshunmare-c05",
+        "oshunmare-c06",
+        "oshunmare-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Earth below and wet clouds above, connecting earth and sky.",
+      "claim_ids": [
+        "oshunmare-c09",
+        "oshunmare-c13"
+      ]
+    }
+  ],
+  "aura": "Keagungan dari ular besar naik minum awan dan hujan fisik (oshunmare-c05, oshunmare-c06, oshunmare-c13), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of OSHUNMARE, the Yoruba rainbow Orisha as the Great Snake of the Underneath.\nANATOMY: exactly ONE head and ONE enormous limbless snake body, no wings, no horns, red and deep blue wet scales [oshunmare-c05,c09].\nMOMENT: rising vertically from beneath the dark earth, its gigantic head reaching into rain clouds and opening its mouth to drink their water; immense curves fill the square.\nPOWER: heavy rain pours physically from the clouds along its body; water enters the mouth, the documented rain deity bridging earth and sky [oshunmare-c05,c06,c13].\nSCALE & CAMERA: extreme low angle beneath a massive serpentine neck, tiny distant trees establish enormous documented serpent scale, head and upper coil dominate frame.\nLIGHT & WEATHER: one golden break in the storm clouds outlines the wet head; deep shadow, sheets of rain and spray, restrained natural rainbow refraction in rain far behind.\nSURFACE: dark red and blue tactile wet scales, water beads.\nSETTING: emerging from the earth to water-bearing clouds [oshunmare-c09,c13].\nMOOD: overwhelming sacred majesty, respectful living Yoruba religion, awe-inspiring and active.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs; no film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons."
+}

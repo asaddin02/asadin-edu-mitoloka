@@ -1,0 +1,85 @@
+{
+  "slug": "porviso",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "The very hairy rat-form Porviso from the Padrón variant, with unnaturally long tail wrapping a pillow.",
+  "basis_claim_ids": [
+    "porviso-c01",
+    "porviso-c02",
+    "porviso-c05",
+    "porviso-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Very hairy rat-shaped animal demon with a long single tail, one head/two eyes/four paws.",
+      "claim_ids": [
+        "porviso-c02",
+        "porviso-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "The enormously long tail visibly loops tightly around a pillow, documented threat to sleepers; no person harmed shown.",
+      "claim_ids": [
+        "porviso-c01",
+        "porviso-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night bedroom near low door gap and sleeping pillow.",
+      "claim_ids": [
+        "porviso-c01",
+        "porviso-c06"
+      ]
+    }
+  ],
+  "aura": "Unnatural tail length and physical pillow constriction c06 distinguish this demon from an ordinary rat; predatory framing, no aura.",
+  "artistic_choices": [
+    "No victim face or distress shown; bedding depressions only imply the sleeping room.",
+    "Rat-sized body remains next to ordinary pillow; tight camera supplies dominance without enlarging it.",
+    "Moonlight and coarse linen textures are editorial choices."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Porviso, the Galician night demon in the rat-like form recorded at Padrón, with a tail long enough to wrap around a pillow.\nANATOMY: one small very HAIRY RAT-LIKE demon, one head two natural black eyes two round ears, FOUR paws, whiskered snout, natural rodent incisors, one extremely LONG SINGLE TAIL at least six body lengths. No horns, wings, extra eyes or limbs. [porviso-c02, porviso-c06]\nMOMENT: CRAWL toward the viewer across rumpled bedding with head low and jaws threateningly parted, forepaws gripping a pillow's edge, matted bristly fur raised. Its single continuous tail trails behind the body then winds THREE TIGHT LOOPS around one ordinary linen pillow, visibly cinching the pillow's fabric inward. This physical tail-and-pillow interaction MUST be unmistakable and central, not a rat simply sitting on a bed.\nPOWER: the documented very long tail wraps around a pillow, threatening sleepers. No victim shown, no injury, no magical energy. [porviso-c01, porviso-c06]\nSCALE & CAMERA: extreme macro low camera at pillow level, animal normal rat size compared with pillow, face fills foreground and coiled tail fills middle ground; all four paws in believable anatomy.\nLIGHT & WEATHER: one narrow moonbeam from unseen window, cold sharp side light, deep warm walnut shadows, ordinary dust in dark room.\nSURFACE: wiry matted fur, rough pink-brown tail skin, coarse aged linen, splintered wooden bed edge.\nSETTING: night bedroom, linen pillow and unmade blanket, small dark door gap beyond the bed from which it entered. [porviso-c01, porviso-c06]\nMOOD: suffocating predatory nightmare, tense physical menace, never cute pet, ordinary wildlife or calm animal portrait.\nHARD CONSTRAINTS: no people or body parts, no text, lettering, logo, border, frame or watermark; no extra tails, heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T10:14:17.927Z",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16315-1a06-71d0-bbc5-0daf7405a641/exec-0199a3c1-8da5-4972-9264-350606e1915d.png",
+  "generated_at": "2026-10-22T10:16:02.329Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/porviso.png",
+  "native_sha256": "f2dee1bece644187a0cb15ff4c54494a15ec0074effdd92652a90573186c7f26",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 seen. Hairy ratlike body one head/four paws, one continuous exceedingly long tail visibly wraps and constricts pillow; not ordinary wildlife. Predatory crawl and bare teeth clear. No person injured or magical effect.",
+    "limitations": [],
+    "native_sha256": "f2dee1bece644187a0cb15ff4c54494a15ec0074effdd92652a90573186c7f26",
+    "reviewed_at": "2026-10-22T10:16:02.329Z"
+  },
+  "worker_visual_check": {
+    "native_reviewed": true,
+    "thumbnail_200_reviewed": true,
+    "thumbnail_path": "data/artwork-generated/batch-2174/drafts/C/porviso-200.png",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "notes": "Native1254+200 seen. Hairy ratlike body one head/four paws, one continuous exceedingly long tail visibly wraps and constricts pillow; not ordinary wildlife. Predatory crawl and bare teeth clear. No person injured or magical effect."
+  }
+}

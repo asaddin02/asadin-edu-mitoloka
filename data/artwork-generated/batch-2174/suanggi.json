@@ -1,0 +1,64 @@
+{
+  "slug": "suanggi",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-013.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "suanggi-c03",
+    "suanggi-c11"
+  ],
+  "depicted_variant": "Sosok roh dalam rupa manusia terbang di atas pelepah daun menuju rumah, berdasarkan kisah c11; bukan sosok historis Tobelo.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Roh berwujud manusia, satu kepala dua tangan dua kaki dengan pakaian buram penuh.",
+      "claim_ids": [
+        "suanggi-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Terbang menggunakan pelepah daun, tubuh dan pelepah jelas melayang di udara tanpa sayap/aura.",
+      "claim_ids": [
+        "suanggi-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mendekati rumah untuk menyelinap masuk pada malam hari.",
+      "claim_ids": [
+        "suanggi-c11"
+      ]
+    }
+  ],
+  "aura": "Ancaman berasal dari penerbangan manusia di atas pelepah daun menuju rumah c11, bukan anatomi monster yang dikarang.",
+  "artistic_choices": [
+    "Rupa manusia fiktif dewasa tanpa identitas orang nyata atau penanda suku/agama tertentu; tidak menggambarkan korban Tobelo atau tuduhan terhadap komunitas.",
+    "Pelepah daun palem, busana gelap buram, rambut dan cahaya bulan editorial. Tidak menambah fangs/tato bermotif yang tidak didokumentasi.",
+    "Tidak memadukan gecko shapeshift atau telur/kadal, tidak memvisualkan penyakit dengan aura/partikel."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Suanggi, the fictional malevolent human-shaped spirit in the specific folklore account of flying on a leaf stalk to enter a home [suanggi-c03, suanggi-c11]. This is an invented mythic individual, not any real person or community.\nANATOMY: exactly one adult human-shaped spirit with one head, two normal arms, two normal legs; fully opaque rough dark tunic and long trousers cover body and shoulders. No invented monster anatomy, no cultural or religious symbols [suanggi-c03].\nMOMENT: SWOOPING directly down toward the viewer and an open house window, crouched along one long palm leaf stalk with feet braced on the thick central rib and both hands gripping it, fierce intent gaze downward, dark hair and opaque clothing trailing behind. The stalk and entire body are visibly suspended in air far above the ground [suanggi-c11].\nPOWER: impossible human flight using the long curved leaf stalk, no wings or glowing magic; air physically bends the few remaining dry leaflets [suanggi-c11].\nSCALE & CAMERA: extreme low close viewpoint from the window sill looking upward; head, shoulders, grasping arms and the foreshortened leaf stalk fill the square, empty space and a distant roof below make flight unmistakable. Human size, never a giant.\nLIGHT & WEATHER: one hard moonbeam rims the face and leaf stalk, deep warm walnut shadows, night air and thin natural mist.\nSURFACE: dry fibrous palm stalk, coarse worn opaque cloth, wind-tangled hair, rough wooden window sill.\nSETTING: exterior of an ordinary modest house approached from the air at night [suanggi-c11].\nMOOD: menacing, imminent supernatural intrusion, intense and dangerous, never a calm ordinary human portrait.\nHARD CONSTRAINTS: no victims, no identifiable real person, no exaggerated ethnic features or tribal costume; no broom, wings, horns, fangs, monster face, tattoos, extra limbs, gore or nudity; no text, logo, frame, border or watermark; no borrowed design; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-de69d714-b150-408d-9201-063d0e7db339.png",
+  "generated_at": "2026-10-22T11:15:02.321Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/suanggi.png",
+  "native_sha256": "ffd92f932b5049df73e09e2b0eee51895330ed7c2d291bafd1a6a1ba1da7d5ae",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: rupa manusia terbang di pelepah dengan leaflet jelas, bukan sapu; tubuh melayang di atas atap dan menerjang jendela, tatapan intens. Satu kepala dua tangan dua kaki, busana buram, tanpa motif agama/suku, aura atau korban. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "ffd92f932b5049df73e09e2b0eee51895330ed7c2d291bafd1a6a1ba1da7d5ae",
+    "reviewed_at": "2026-10-22T11:15:02.321Z"
+  }
+}

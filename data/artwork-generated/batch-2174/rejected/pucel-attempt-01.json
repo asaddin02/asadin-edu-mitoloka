@@ -1,0 +1,60 @@
+{
+  "slug": "pucel",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Dark angel; no actual water, only invisible roar of waters.",
+  "basis_claim_ids": [
+    "pucel-c03",
+    "pucel-c06",
+    "pucel-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dark angel form; opaque robes and dark wings are editorial visualization of angel.",
+      "claim_ids": [
+        "pucel-c03",
+        "pucel-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No actual water; invisible roar of waters not visualized as flood.",
+      "claim_ids": [
+        "pucel-c04"
+      ]
+    }
+  ],
+  "aura": "Kesan melalui anatomi, aksi dan pencahayaan; efek hanya yang disebut visual_requirements.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Wings and opaque dark robes are editorial realization of angel form, not separately documented anatomy. No actual water because c04 explicitly says there is none. No invented physical effect from an audible ability."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of PUCEL, the great duke appearing as a dark angel.\nANATOMY: one humanlike head, two arms, two folded dark feathered angel wings, fully opaque heavy charcoal robes; no horns; wings an editorial rendering of dark angel [pucel-c03,c06].\nMOMENT: descending toward the viewer with wings flaring and one outstretched palm commanding attention; severe nonneutral gaze downward, robe swept by the descent.\nPOWER: his documented roar of waters where there are NONE remains invisible: absolutely DRY ground, NO water, NO flood, NO waves, NO magic diagrams [pucel-c04]; menace and command conveyed through gesture, wings and darkness alone.\nSCALE & CAMERA: extreme low-angle close framing, winged being fills square from shoulders to robe hem, huge sweeping wings edge the image; no invented giant scale comparators.\nLIGHT & WEATHER: a single low warm lamp catches cheek, knuckles and feather edges, deep nearly black background, ordinary airborne dust.\nSURFACE: layered black feathers, rough opaque ancient fabric, weathered floor.\nSETTING: editorial unadorned dark dry interior, no claim of a specific historical building.\nMOOD: dark commanding supernatural duke, overwhelming and dangerous, no ordinary man portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film/game/anime/comic designs; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; absolutely no water.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-e72a4240-bb4b-46a8-9f6c-47b71ad72b5d.png",
+  "generated_at": "2026-10-22T10:14:46.341Z",
+  "original_file": "data/artwork-generated/batch-2174/rejected/pucel-attempt-01.png",
+  "native_sha256": "64b669cd5253176ec5776e1a919a4e68b9767edbea98fab6c78d68b11c5884ae",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dark angel fills frame with spread feathered wings, downward gaze and reaching command gesture, robe moving forward; dry surroundings deliberately preserve c04. Native and 200px inspected.",
+    "limitations": [],
+    "native_sha256": "64b669cd5253176ec5776e1a919a4e68b9767edbea98fab6c78d68b11c5884ae",
+    "reviewed_at": "2026-10-22T10:14:46.341Z"
+  },
+  "receipt_file": "data/artwork-generated/batch-2174/rejected/pucel-attempt-01.json",
+  "reason": "Root rejects01: standing fashion-model pose with neutral expression and inviting open palm; §6.1 fails active commanding presence."
+}

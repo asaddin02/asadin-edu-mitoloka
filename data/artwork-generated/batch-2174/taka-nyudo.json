@@ -1,0 +1,67 @@
+{
+  "slug": "taka-nyudo",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "taka-nyudo-c01",
+    "taka-nyudo-c02",
+    "taka-nyudo-c03",
+    "taka-nyudo-c07"
+  ],
+  "depicted_variant": "Taka-nyudo dalam rupa biksu gundul raksasa yang sedang membesar di lorong pembuat sake.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu humanoid berkepala gundul dalam rupa biksu tinggi, pakaian buram; dua lengan dan dua kaki.",
+      "claim_ids": [
+        "taka-nyudo-c01",
+        "taka-nyudo-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tubuh bertumbuh menjulang melampaui atap menuju langit saat penonton menengadah, tanpa efek sihir generik.",
+      "claim_ids": [
+        "taka-nyudo-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Lorong sempit pembuat sake di Hyogo.",
+      "claim_ids": [
+        "taka-nyudo-c02"
+      ]
+    }
+  ],
+  "aura": "Ukuran raksasa yang terus meninggi hingga langit c03 dan kepala gundul mendominasi dari kamera rendah c07.",
+  "artistic_choices": [
+    "Rupa samaran yokai biksu dipilih tanpa menampilkan tanuki/rubah yang merupakan varian wujud asli.",
+    "Jubah cokelat tua buram, tekstur kulit, cahaya bulan dan gerak kain editorial. Tidak menambahkan taring, tanduk, simbol suci, senjata atau kehancuran bangunan.",
+    "Dua atap skala normal menjadi pembanding pertumbuhan terdokumentasi; subjek tetap besar di seluruh bingkai."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Taka-nyudo, the Japanese tall shaven-headed monk-shaped yokai that grows toward the heavens when a viewer looks up [taka-nyudo-c01, taka-nyudo-c03, taka-nyudo-c07].\nANATOMY: exactly one gigantic human-shaped yokai with a completely bald shaven head, two human eyes, two arms and two legs; simple fully opaque dark brown monk-like robe covers the whole body. Human face with no invented fangs or horns [taka-nyudo-c07].\nMOMENT: RISING abruptly above the brewery roofs while bending his enormous bald head down toward the tiny viewer, a severe confronting gaze and one huge open hand reaching downward into foreground; other arm holds the robe near the torso. His long robe pulls vertically taut as he grows.\nPOWER: body increases in height far above the small roofs toward the sky, made physical through radically oversized torso, head and hand against normal-size buildings below [taka-nyudo-c03]. No destruction, spell or generic aura.\nSCALE & CAMERA: extreme low angle from cobbles in a narrow alley; huge bald head and down-reaching hand fill the upper two thirds; body recedes upward and the little roofs flank his lower legs, unmistakable giant scale, never an ordinary monk portrait.\nLIGHT & WEATHER: one hard moonlight from the side, deep warm walnut shadows on the face, a narrow antique-silver rim along shaven scalp and taut cloth, thin ordinary night haze.\nSURFACE: weathered skin, coarse opaque woven robe, wet timber brewery walls and cobblestones.\nSETTING: narrow sake-brewery alley in Hyogo, plain timber walls and small roofs with no signs [taka-nyudo-c02].\nMOOD: imposing, overwhelming, startling encounter, powerful and active, never cute, decorative or calmly posed.\nHARD CONSTRAINTS: no additional figures or religious icons, no animal features, no horns, fangs, extra heads or limbs; no text, logo, frame, border or watermark; no borrowed design; no nudity or gore; no glow aura, neon outline, energy ribbons, lightning or levitating runes.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-c7fde5ea-4077-43f1-81b9-ea2efdd10f2b.png",
+  "generated_at": "2026-10-22T11:17:33.010Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/taka-nyudo.png",
+  "native_sha256": "157b9941c13e3f7e3b4bb06c438eecb7863eff3c17312978cf65012a635aa4c0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: kepala gundul dan tubuh raksasa jauh melebihi atap lorong, satu tangan besar meraih ke penonton, tubuh menjulang tanpa kehancuran/efek gaib baru. Dua tangan satu kepala, busana buram. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "157b9941c13e3f7e3b4bb06c438eecb7863eff3c17312978cf65012a635aa4c0",
+    "reviewed_at": "2026-10-22T11:17:33.010Z"
+  }
+}

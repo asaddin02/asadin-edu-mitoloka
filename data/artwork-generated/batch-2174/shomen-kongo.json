@@ -1,0 +1,59 @@
+{
+  "slug": "shomen-kongo",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-075.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Blue four-armed wrathful deity per JAANUS c08.",
+  "basis_claim_ids": [
+    "shomen-kongo-c08",
+    "shomen-kongo-c06",
+    "shomen-kongo-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Blue body, angry face, exactly four arms: upper own-right three-pronged vajra; lower own-right staff; upper own-left cakra; lower own-left noose.",
+      "claim_ids": [
+        "shomen-kongo-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No invented spell effects; protective force through exact iconography and forward action.",
+      "claim_ids": [
+        "shomen-kongo-c06",
+        "shomen-kongo-c07"
+      ]
+    }
+  ],
+  "aura": "Keagungan pelindung lewat tubuh biru, empat lengan dan atribut persis (shomen-kongo-c08, shomen-kongo-c06), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Selected only four-arm c08; does not mix c11 six-arm inventory. Opaque robes and dark interior are editorial.",
+    "Gold jewelry/head ornament is editorial deity dress; not claimed as sourced iconographic requirement."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of SHŌMEN KONGŌ, the blue four-armed Buddhist protector against disease, respectfully depicted alive, not as stone statue.\nANATOMY: ONE wrathful head, BLUE body, exactly FOUR arms and TWO legs. Use only JAANUS four-arm variant [shomen-kongo-c08]. He faces viewer nearly frontally. SUBJECT'S own RIGHT is VIEWER LEFT: UPPER hand on VIEWER LEFT grips a short THREE-PRONGED VAJRA, LOWER hand on VIEWER LEFT grips a long shakujō STAFF. SUBJECT'S own LEFT is VIEWER RIGHT: UPPER hand on VIEWER RIGHT grips a clearly circular golden CAKRA wheel, LOWER hand on VIEWER RIGHT grips a COILED ROPE NOOSE with one clear loop. Four hands separated, all four implements entirely readable. Fully opaque layered Buddhist deity garments, no extra weapons, bow, sword, arrow, human figure, extra arms or halos.\nMOMENT: strides down toward the viewer with one blue foot stepping forward, torso inclined into the stride, wrathful eyes directed down in protective command; all four arms exert decisive outward motion rather than a static pose.\nPOWER: protector against demonic disease [shomen-kongo-c06,c07]; no invented beams, fire, aura or visible illness clouds, force comes through anatomy and active iconography.\nSCALE & CAMERA: extreme low-angle close full-body framing, subject fills square, head and four implements large and distinct, no invented giant-scale people.\nLIGHT & WEATHER: single warm lamp low in foreground, clear gold rim on blue face and arms, dark editorial temple interior, ordinary dust only.\nSURFACE: deep blue living skin, aged metal vajra/staff/wheel, rough rope loop, heavy opaque ochre and walnut cloth.\nSETTING: unobtrusive dark devotional interior is editorial, no specific named temple.\nMOOD: sacred and awe-inspiring protective wrath, respectful Japanese Buddhist deity.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; precisely FOUR arms, no borrowed film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-ef9503d3-80b5-4239-a8e6-a9aa47356b99.png",
+  "generated_at": "2026-10-22T11:00:51.208Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/shomen-kongo.png",
+  "native_sha256": "08b24a20983954d4709f30907908e72631e38b4d4aeec81360fcafd0a872670c",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Exactly four arms: own upper-right/viewer-left three-pronged vajra, own lower-right/viewer-left staff, own upper-left/viewer-right wheel, own lower-left/viewer-right rope noose. Two feet, blue body/wrathful face, forward step. Native and 200px inspected.",
+    "limitations": [],
+    "native_sha256": "08b24a20983954d4709f30907908e72631e38b4d4aeec81360fcafd0a872670c",
+    "reviewed_at": "2026-10-22T11:00:51.208Z"
+  }
+}

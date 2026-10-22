@@ -1,0 +1,51 @@
+{
+  "slug": "pua-tu-tahi",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "pua-tu-tahi-c01",
+    "pua-tu-tahi-c04",
+    "pua-tu-tahi-c05"
+  ],
+  "depicted_variant": "Kerang monster raksasa dari laut dalam Tahiti sedang menyedot air dan perahu ke dalam cangkangnya.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu kerang raksasa bercangkang bivalvia, dua katup bergerigi alami dan mantel lembut; tanpa mata, gigi vertebrata atau tentakel karangan.",
+      "claim_ids": [
+        "pua-tu-tahi-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Arus air menyedot perahu kecil menuju bukaan kerang yang menelan pelayar.",
+      "claim_ids": [
+        "pua-tu-tahi-c04",
+        "pua-tu-tahi-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Laut dalam pada perjalanan laut Tahiti menuju Pitcairn.",
+      "claim_ids": [
+        "pua-tu-tahi-c01",
+        "pua-tu-tahi-c04"
+      ]
+    }
+  ],
+  "aura": "Skala kerang monster raksasa c01 dan arus penyedot kapal c05, bukan aura.",
+  "artistic_choices": [
+    "Anatomi dipertahankan sebagai kerang bivalvia; warna cangkang/mantel editorial, tanpa fitur predator baru.",
+    "Perahu kecil memberi skala terdokumentasi; tanpa orang/korban tampak. Kamera setengah bawah air mengutamakan makhluk."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Pua Tu Tahi, the giant monster clam of the deep in Tahitian Rata legends [pua-tu-tahi-c01].\nANATOMY: exactly one vast bivalve clam with two thick ridged calcified shell valves opening like a stone gateway, fleshy dark mantle lining the interior and natural scalloped shell margins. NO eyes, teeth, face, arms or tentacles [pua-tu-tahi-c01].\nMOMENT: gaping directly toward the viewer while drawing a small empty ocean voyaging canoe toward its opening; great heavy upper shell looms overhead and lower shell thrusts into foreground.\nPOWER: a forceful current SUCKS water and the small canoe down toward the interior, physically expressed by spiraling foam, bubbles and streaming silt, the documented swallowing force [pua-tu-tahi-c04, pua-tu-tahi-c05]. No magical glow.\nSCALE & CAMERA: extreme low underwater angle just before the opening; the clam fills nearly the whole square, the canoe at the top is tiny against its enormous shell.\nLIGHT & WEATHER: single cold moonbeam penetrates dark water from above, warm antique-gold highlights on shell edges, deep walnut shadows inside.\nSURFACE: massive rough calcified ridges, barnacle texture, wet fleshy mantle, suspended silt.\nSETTING: dark Pacific ocean depths on the Tahitian voyage toward Pitcairn [pua-tu-tahi-c01, pua-tu-tahi-c04].\nMOOD: crushingly immense, terrifying swallowing presence, never an ordinary seafood still life or decorative shell.\nHARD CONSTRAINTS: no people, bones or gore; no invented eyes, jaws, teeth, limbs or tentacles; no text, logo, frame, border or watermark; no borrowed design; no generic glow aura, neon outline, energy ribbons or luminous mist."
+}

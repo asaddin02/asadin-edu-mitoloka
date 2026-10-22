@@ -1,0 +1,51 @@
+{
+  "slug": "onocoete",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "onocoete-c01",
+    "onocoete-c03"
+  ],
+  "depicted_variant": "Makhluk campuran keledai-babi dari definisi bestiarium, tanpa memadukan varian toga Tertullian.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu monster setengah keledai setengah babi; telinga keledai panjang serta moncong dan bulu kaku babi; empat kaki berkuku sebagai rekonstruksi editorial gabungan hewan.",
+      "claim_ids": [
+        "onocoete-c01",
+        "onocoete-c03"
+      ]
+    }
+  ],
+  "aura": "Ancaman melalui keganjilan gabungan setengah keledai setengah babi (onocoete-c01/c03), tanpa aura gaib.",
+  "artistic_choices": [
+    "Varian bestiarium c01/c03 dipilih secara terpisah dari varian toga c04/c07. Riset c02/c06 secara eksplisit menyebut konteks desas-desus pagan dan tuduhan fitnah kuno terhadap orang Kristen; ilustrasi adalah rekonstruksi monster dalam rumor historis itu, bukan gambaran faktual Tuhan agama apa pun.",
+    "Pembagian unsur kedua hewan, warna gelap, ruang netral, cahaya samping dan gerak menerjang adalah pilihan ilustratif. Ukuran tidak dibesarkan; framing dekat.",
+    "Tidak ada kekuatan atau habitat terdokumentasi; tidak ada efek gaib maupun lokasi spesifik."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka bestiary illustration of Onocoete, the half-donkey half-pig hybrid monster from an old bestiary definition, entirely fictional and unrelated visually to any religious figure.\nANATOMY: exactly one head combining a long donkey facial structure with a blunt pig snout, two long upright donkey ears, two eyes, a heavy bristled pig torso, four sturdy hoofed legs and one short tail. Hybrid proportions are an original interpretation of half donkey half pig [onocoete-c01, onocoete-c03].\nMOMENT: driving forward toward the viewer, snout thrust very close, hoof lifted, ears raked backward, tense mouth open.\nPOWER: no documented power; menace through clearly hybrid anatomy, movement and light only.\nSCALE & CAMERA: extreme low angle ground-level close view, creature fills almost all the square; no invented giant scale.\nLIGHT & WEATHER: one warm side light, hard rim on bristles, deep brown shadows, ordinary dust at its moving hooves.\nSURFACE: coarse donkey hair mixed with pig bristles, leathery muddy snout, worn dark hooves.\nSETTING: unobtrusive dark neutral ground, no specific habitat asserted.\nMOOD: uncanny, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads or limbs; no horns, wings, human parts, toga, book or religious symbols; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-6474a6fc-26bc-4121-9343-4c876475600a.png",
+  "generated_at": "2026-10-22T10:11:38.871Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/onocoete.png",
+  "native_sha256": "3e2cbd01e8a10eb01fe5c24dee0ee0bc980b37d310b488db0663bed17ea00ce9",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: kepala campuran moncong babi/telinga keledai terbaca; tubuh menerjang dan empat kaki berkuku tanpa tambahan; tidak ada efek gaib, teks, bingkai atau figur agama. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "3e2cbd01e8a10eb01fe5c24dee0ee0bc980b37d310b488db0663bed17ea00ce9",
+    "reviewed_at": "2026-10-22T10:11:38.871Z"
+  }
+}

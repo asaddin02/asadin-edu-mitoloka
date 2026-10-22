@@ -1,0 +1,48 @@
+{
+  "slug": "tam-kung",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-068.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Youthful deity commanding physical wind and rain.",
+  "basis_claim_ids": [
+    "tam-kung-c06",
+    "tam-kung-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Youthful fresh-faced deity, modest opaque robes; no invented crown or weapon.",
+      "claim_ids": [
+        "tam-kung-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Commands wind and rain: gale drives rain physically around deity, bends trees.",
+      "claim_ids": [
+        "tam-kung-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Seacoast linked to sea deity.",
+      "claim_ids": [
+        "tam-kung-c01"
+      ]
+    }
+  ],
+  "aura": "Keagungan dari angin dan hujan yang diperintah secara fisik (tam-kung-c06), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Traditional robes and cliff are editorial choices within deity/sea context; physical wind and rain is explicitly supported c06."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of TAM KUNG, the youthful Chinese sea deity commanding wind and rain.\nANATOMY: ONE youthful fresh-faced Chinese male deity, one head, two arms, two legs, clean shaven and young-looking [tam-kung-c06]; fully opaque layered ancient earth-brown Chinese robes, no crown or weapons, no modern costume.\nMOMENT: striding forward at a sea cliff, BOTH hands sweeping sharply across his body in decisive command, face intensely focused and brow drawn, robe sleeves whipping outward; subject dominates frame rather than posing.\nPOWER: physically commands WIND and RAIN [tam-kung-c06]: a powerful lateral gale bends coastal trees and sweeps sheets of rain from one side of his command gesture toward the open sea; whipping wind visibly pulls robe fabric, leaves and real spray in same direction. No glowing magic ribbons or beams. Sea below may be rough naturally but do not show waves lifted by magic.\nSCALE & CAMERA: extreme low close angle, waist-up deity fills most square, face large; no invented giant body or tiny boats for false scale.\nLIGHT & WEATHER: single break of warm low sun in storm cloud rims the young face and hands; dark storm, angled rain and spray.\nSURFACE: real damp opaque silk and linen, wet stone, leaves and rain droplets.\nSETTING: stormy seacoast consistent with sea deity [tam-kung-c01].\nMOOD: sacred commanding majesty, respectful living Chinese folk religion, awe-inspiring, active and protective.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons."
+}

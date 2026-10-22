@@ -1,0 +1,55 @@
+{
+  "slug": "tephras",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-136.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Ash spirit with face held high above a snail-like curled body, carrying dust darkness over burning summer fields; no literal snail shell.",
+  "basis_claim_ids": [
+    "tephras-c01",
+    "tephras-c03",
+    "tephras-c05",
+    "tephras-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One spirit with face held high and rest of body curled away like a snail, one face/two eyes, body covered by opaque ash-stained cloth; no literal shell, eyestalks or extra invented animal features.",
+      "claim_ids": [
+        "tephras-c01",
+        "tephras-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Carries physical dust storm and darkness; fields burn, directly documented as its acts.",
+      "claim_ids": [
+        "tephras-c01",
+        "tephras-c03",
+        "tephras-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Summer agricultural field with low farm boundary, smoke and ash.",
+      "claim_ids": [
+        "tephras-c03",
+        "tephras-c06"
+      ]
+    }
+  ],
+  "aura": "Dust storm c01 and burning fields/darkness c03/c06, with raised face and snail-like curl c05, no generic aura.",
+  "artistic_choices": [
+    "Opaque coarse ash-stained shroud modestly defines the curled body; cloth material and skin texture are editorial.",
+    "Snail-like describes body curvature only; no shell/eyestalks/mollusk hybrid inferred.",
+    "Body partly obscured by physical dust, face and curled silhouette remain clear; no gigantic scale asserted.",
+    "Fire is burning the field, not emitted from eyes, mouth or hand."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Tephras, the ash spirit in the Testament of Solomon, whose face is held high while the rest of its body curls away like a snail and who carries dust and burns fields.\nANATOMY: ONE spectral being with ONE aged severe face and TWO natural dark eyes, face raised high above its deeply bent body. The rest of the body visibly curls AWAY beneath the raised face in a tight snail-like C-SHAPED BEND: upper back bent forward and lower torso folded into a circular curve behind it. Entire body is covered in completely OPAQUE coarse ash-stained dark cloth shroud, visible robe folds define the extraordinary tightly curled bodily silhouette. Face held high, body low and curled. This is a curled spirit, NOT a literal snail: NO shell, NO eyestalks, NO tentacles, NO animal antennae, NO horns or wings. Arms/feet concealed beneath opaque folds and blowing ordinary dust rather than inventing extra limbs. [tephras-c01, tephras-c05]\nMOMENT: SURGE forward out of a dense physical dust storm toward the viewer, the raised face turns downward with a fierce concentrated stare while the coiled body drags its curved mass through dry stubble. Both the elevated head and curled-away body MUST be clearly readable and fill the square, never a normal upright hooded man.\nPOWER: dense grit and ash stream physically around the curled body, blotting sunlight into darkness; a strip of harvested summer FIELD burns behind it with real amber flames and black smoke. Fire burns crops, never shoots from face or hands. [tephras-c01, tephras-c03, tephras-c06]\nSCALE & CAMERA: close low ground-level view, dominating through tight framing and unnatural curled posture, normal stubble foreground gives scale; no tiny human scale comparison or unsupported gigantic size.\nLIGHT & WEATHER: one dominant source of light from real field fire behind at left, ember-orange rims through brown dust, deep walnut-black shadows, hot dry wind, dense tactile grit not luminous mist.\nSURFACE: cracked ash-smudged face, rough opaque cloth, powdery dust, charred grain stalks, hot black earth and ember flecks.\nSETTING: dry summer agricultural field and low stone farm boundary disappearing into dust and crop-fire smoke. [tephras-c03, tephras-c06]\nMOOD: dangerous oppressive ash spirit, sudden approaching disaster, never cute snail mascot, ordinary wandering person, empty landscape or decorative portrait.\nHARD CONSTRAINTS: no text, lettering, seals, logo, border, frame or watermark; no extra heads, faces, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T11:08:23.596Z"
+}

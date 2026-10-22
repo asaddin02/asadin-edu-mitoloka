@@ -1,0 +1,57 @@
+{
+  "slug": "resurrection-mary",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Blonde blue-eyed woman in opaque white party dress vanishing at Resurrection Cemetery; folklore scene, not a verified event.",
+  "basis_claim_ids": [
+    "resurrection-mary-c02",
+    "resurrection-mary-c04",
+    "resurrection-mary-c05",
+    "resurrection-mary-c06",
+    "resurrection-mary-c09",
+    "resurrection-mary-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Young woman with light blonde hair and blue eyes, opaque formal white dancing dress and matching shoes, natural anatomy.",
+      "claim_ids": [
+        "resurrection-mary-c05",
+        "resurrection-mary-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Large missing torso and raised forearm segments expose cemetery behind; intact surrounding clothing remains opaque; reported scorched fence hand marks retained without flames.",
+      "claim_ids": [
+        "resurrection-mary-c06",
+        "resurrection-mary-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Resurrection Cemetery fence beside Archer Avenue at night.",
+      "claim_ids": [
+        "resurrection-mary-c02",
+        "resurrection-mary-c04"
+      ]
+    }
+  ],
+  "aura": "Unsettling disappearing figure c06 and reported scorched iron hand marks c11 distinguish the apparition, without invented colored glow.",
+  "artistic_choices": [
+    "Depicts general young-woman apparition c05 rather than identifying her as any proposed real person or the child candidate.",
+    "c11 is an allegation explicitly disputed by cemetery officials; image illustrates folklore, not evidence.",
+    "A high-necked long-sleeved 1930s-inspired opaque party dress and low-angle framing are editorial; she appears uncanny rather than malicious.",
+    "Absence during disappearance shows the cemetery behind her; remaining dress is fully opaque.",
+    "Root rejected first composition as ordinary fashion portrait; edit makes documented disappearance c06 central and unmistakable, keeping neutral/nonmalevolent character."
+  ],
+  "prompt": "EDIT this original Mitoloka Resurrection Mary illustration with a targeted correction: make the documented act of VANISHING into Resurrection Cemetery unmistakable even at200 pixels. Preserve her light blonde hair, blue eyes, completely opaque white formal 1930s party dress, cemetery iron fence and general original painterly cinematic style. She is a solemn ghost, not malicious. [resurrection-mary-c05,c06,c09]\nChange the calm portrait moment to an urgent turning movement as she RECEDES into the cemetery: head twists sharply back at us, blonde strands and skirt moving, one raised hand reaches toward viewer as it disappears. Make three large impossible ABSENT AREAS in her silhouette: the entire middle torso from ribs to waist is gone with cemetery stones seen sharply through it; the middle of her raised forearm is gone with intact opaque cuff/hand separated from upper arm; three fingertips disappear in broad interrupted segments. These are clean spectral absences, NOT wounds, torn clothes, smoke or glowing energy. Remaining face, shoulder and cloth remain solid opaque and fully modest. Face and separate intact shoulder/hand fragments fill the frame rather than becoming a small landscape. Uncanny absence must dominate visually; not a fashion photo or ordinary pretty woman standing.\nRetain dark hand-shaped scorched marks on fence only as the explicitly disputed folklore account [resurrection-mary-c11]. Strong low-key single car-headlight lighting, black cemetery depth, high contrast, no luminous outlines, no ghost mist standing in for disappearance. Exactly one head, two arms, two natural eyes; no added anatomy. No text, logos, watermark, border, film/game references, nudity, explicit gore, fangs, evil expression, neon or magical ribbons.",
+  "spec_written_at": "2026-10-22T10:57:49.234Z"
+}

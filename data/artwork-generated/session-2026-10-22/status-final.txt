@@ -1,0 +1,34 @@
+Status ilustrasi Mitoloka — 2026-10-22 18:31 WIB
+Ilustrasi aktif terpasang: 1998. Lengkap-bergambar 2001, lengkap-informasi 1213, tidak-lengkap 319, belum-ada-entri 1324.
+Dikecualikan permanen: 0. Gambar ditahan (entri belum lengkap): 5 (anggitay, cha-kla, ekek, alara-fairy, acalica).
+
+Antrean Codex, urut prioritas:
+  1. Perbaikan (needs-correction): 0
+  2. Nama besar baru (lengkap, belum berilustrasi): 8
+     ahura-mazda (73), sekhmet (61), tengri (47), ennead (45), tammuz (45), anahita (41), manat (41), inari (40)
+  3. Entri lengkap lainnya: 1205
+     abalam, abaste, abdu-fisch, abere, abhartach, abiku, abnoba, abrahel, abundia, abura-bo, abyzou, abzar-iyesi, achuhucanac, adakayanushitakikihime, adhene, adityas, adlivun, adrasteia, adsullata, aganippe, … (1185 lagi, pakai --semua)
+
+Batch terbuka (belum semua terpasang): 6
+  artwork-batch-1094.json [gaya rumah]: 27/28 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-1767.json [gaya sangar]: 49/50 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-1867.json [gaya sangar]: 49/50 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-2029.json [gaya sangar]: 49/50 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-2079.json [gaya sangar]: 49/50 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-2174.json [gaya sangar]: 12/50 terpasang; 38 menunggu tinjauan Claude
+
+Jurnal (52 entri). Entri terakhir:
+  ## 2026-10-22 18:30 WIB — Codex — selesai batch 2174
+  
+  - Permintaan satu batch berikutnya selesai: **38 PNG final unik + 12 receipt tidak-digambar = 50/50 entri tertangani**, tidak ada receipt missing. Seluruh 38 PNG (1254×1254) dilihat sendiri root pada ukuran native dan 200px, dengan SHA-256 sesuai receipt serta catatan tujuh Uji Sangar. Status 38 gambar **awaiting-independent-review**, belum dianggap persetujuan Claude. Ilustrasi aktif situs tetap **1.998** karena Codex tidak mengintegrasi.
+  - Tiga lane paralel **gpt-6.1-sol / high**: art_2174_a = 15 PNG + 2 decline; art_2174_b = 12 PNG + 5 decline; art_2174_c = 11 PNG + 5 decline. Ketiganya sempat terhenti dengan pesan workspace out of credits; setelah pemilik meminta lanjutkan, hanya pekerjaan missing dilanjutkan dan hasil lama dipertahankan. **Tidak ada kegagalan image_gen**, tidak mengganti alat/model. `tool` OpenAI built-in image_gen; `image_model` **tidak dilaporkan alat**.
+  - Lima percobaan ditolak tersimpan lengkap PNG, prompt persis, hash, generated-file dan alasan: Rahko01 (pekerja biasa), Pucel01 (pose model/wajah netral), ResurrectionMary01 (potret mode), TeWheke01 (enam lengan terlihat) dan02 (tujuh lengan terlihat). Rahko02, Pucel02, Mary02 dan TeWheke03 dipilih setelah pemeriksaan root. Tidak ada koreksi lama needs-correction dalam scope.
+  - Dua belas decline berdasarkan riset kini: **Oriande, Otakemaru, Pinglak, Punga, Rodon, Schytinglitto, Sexual Vampire, Shiotsuchi, Shirachigo, Simanya, Suanni, Tamayorihime**. Alasannya rupa/manifestasi tidak cukup, atau akan menjadi manusia/hewan biasa; rincian setiap sumber di receipt dan `codex-generation-summary.json`. Tidak dihitung sebagai gambar. Delapan nama besar lama juga tidak diulang karena seluruh klaim identik dengan batch1617.
+  - Validasi final **1.432 pemeriksaan, 0 error**, 38 hash PNG unik, 0 PNG belum diperiksa root, 0 metadata riset item batch berubah. Galeri `docs/artwork-batch-2174.html`: **136 tautan valid**, 50 kartu/38 gambar, browser **390/768/1440px** tanpa error, gambar rusak, alt kosong atau overflow horizontal. Bukti `data/artwork-generated/batch-2174/drafts/root/resume-validation.json` dan `data/artwork-generated/session-2026-10-22/gallery-browser-validation.json`.
+  - Snapshot 3.864 berkas terlindung dibandingkan akhir 3.872: **8 berubah, 8 bertambah, 0 hilang** selama pekerjaan riset Claude berjalan bersamaan; daftar persis `session-2026-10-22/protected-final-comparison.json`. Codex dan ketiga lane hanya menulis PNG/receipt/ledger/jurnal/galeri serta bukti sesi; tidak mengubah atau mengembalikan riset, katalog, power, JS, manifest, WebP atau backups. Git akhir hanya memperlihatkan pekerjaan gambar sesi ini; tidak integrasi/commit/push.
+  - Pelajaran: jumlah lengan harus terlihat, bukan sekadar tepat dalam prompt (TeWheke); ghostly disappearance perlu tampak di pusat siluet untuk membedakan dari potret biasa (Mary); kata dark angel perlu aksi/ekspresi nyata (Pucel). Bedakan domain dengan kuasa fisik: Simbi tidak mengendalikan air, Pucel tidak memiliki air aktual, Sekhmet/Rodon tidak diberi ikonografi/kuasa rekaan. Shomen memakai varian empat lengan tepat sisi sendiri, tanpa mencampur inventori enam lengan.
+  - Serah terima: **Claude Code meninjau 38 receipt batch2174**, termasuk rupa/claim fidelity dan pilihan editorial setiap varian; membuat record katalog yang dibutuhkan (36 dari50 item ditandai awal, cek hanya gambar lolos), lalu memasang yang disetujui. Prompt persis ada di `batch-2174/codex-prompts.json`; ringkasan/decline di `batch-2174/codex-generation-summary.json`; laporan sesi `session-2026-10-22/final-report.json`. Batch ini selesai generasi, bukan sudah terpasang/disetujui.
+
+Saran langkah berikutnya:
+  1. Siapkan batch nama besar: node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex --policy sangar --slugs ahura-mazda,sekhmet,tengri,ennead,tammuz,anahita,manat,inari
+  2. 38 receipt menunggu tinjauan Claude; itu bukan tugas Codex.

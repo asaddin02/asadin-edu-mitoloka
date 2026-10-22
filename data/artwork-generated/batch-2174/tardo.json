@@ -1,0 +1,65 @@
+{
+  "slug": "tardo",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "tardo-c01",
+    "tardo-c02",
+    "tardo-c03"
+  ],
+  "depicted_variant": "Duende kecil kehijauan berbulu berjanggut, mata bulat hitam, topi merah dan pedang kecil; naik ke dada penidur.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Kecil berbulu dengan kulit kehijauan, banyak gigi, mata bulat hitam, janggut, baju tua buram, topi merah dan pedang kecil tajam.",
+      "claim_ids": [
+        "tardo-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Masuk rumah malam hari dan naik ke dada penidur; tanpa sihir visual.",
+      "claim_ids": [
+        "tardo-c03"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ranjang dalam rumah pada malam hari.",
+      "claim_ids": [
+        "tardo-c03"
+      ]
+    }
+  ],
+  "aura": "Keganjilan mata bulat hitam dan banyak gigi plus pedang c02 di dekat dada penidur c03, tanpa pembesaran ukuran.",
+  "artistic_choices": [
+    "Sudut pandang penidur dengan dada tertutup selimut; tidak ada wajah atau tubuh korban tampak dan tidak ada penggunaan pedang untuk melukai.",
+    "Ukuran kecil ditegaskan lipatan selimut/pillow lebih besar; framing makro memberi dominasi tanpa raksasa.",
+    "Warna busana cokelat, arah cahaya bulan dan postur mencondong ke penonton editorial. Tidak menggambar varian hewan, urin atau aura mimpi buruk."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Tardo, the small malevolent Galician duende that enters houses at night and sits on sleepers' chests.\nANATOMY: exactly one tiny hairy greenish humanoid with one head, two ROUND BLACK eyes, a thick ragged beard, a mouth crowded with MANY small sharp teeth; two normal arms and two legs. Old fully opaque brown clothes, a conspicuous worn RED CAP, and one SMALL SHARP iron SWORD held in one hand [tardo-c02]. No pointed ears, horns or wings.\nMOMENT: SCRAMBLING up the chest-shaped mound beneath a thick quilt directly toward the viewer's pillow, shoulders hunched and mouth opened in a predatory many-toothed snarl, one hand presses into quilt to brace, the other grips the small sword away to the side. Not attacking flesh [tardo-c03].\nPOWER: physical oppressive nightmare presence on a sleeper's covered chest; no visible spell, aura or smoke creature.\nSCALE & CAMERA: extreme macro low viewpoint from the pillow; tiny duende fills most of square through proximity, giant-looking normal quilt stitches and a full-size pillow behind demonstrate its smallness, never a giant goblin.\nLIGHT & WEATHER: one narrow moonbeam from the bedroom window, antique-gold rim on sword and red cap, deep walnut shadows under the beard.\nSURFACE: coarse matted hair, greenish wrinkled skin, old opaque cloth, pitted iron, heavy quilt weave.\nSETTING: dark human bedroom at night, the sleeper entirely hidden beneath the quilt and out of frame; no face or exposed person visible [tardo-c03].\nMOOD: menacing and unnerving at tiny scale, dangerous and confronting, never cute, cartoonish or calmly posed.\nHARD CONSTRAINTS: exactly one tiny sword and one red cap; no extra heads, limbs, fingers, horns or wings; no victim visible, nudity, injury or gore; no text, logo, frame, border or watermark; no borrowed entertainment design; no glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-bc5e1385-3fad-403c-94de-a6b84cfc96ef.png",
+  "generated_at": "2026-10-22T11:19:00.899Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/tardo.png",
+  "native_sha256": "d12881e141dbd0ad666dade8969aa52ebaf9bf256e4100122b9ecf76e93ef4b0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: kecil dengan kulit kehijauan, mata hitam bulat, janggut/rambut, banyak gigi, topi merah dan satu pedang kecil semua terbaca. Bergerak di dada tertutup selimut dari POV penidur; ukuran kecil dibanding bantal, tanpa korban tampak/aura/gore. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "d12881e141dbd0ad666dade8969aa52ebaf9bf256e4100122b9ecf76e93ef4b0",
+    "reviewed_at": "2026-10-22T11:19:00.899Z"
+  }
+}

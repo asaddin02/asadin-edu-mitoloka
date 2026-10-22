@@ -1,0 +1,57 @@
+{
+  "slug": "shojo",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-067.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "shojo-c01",
+    "shojo-c07"
+  ],
+  "depicted_variant": "狌狌 (shengsheng/xingxing) dari Shanhaijing Hainei nanjing: binatang seperti babi tetapi berwajah manusia, bukan roh laut Noh.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Binatang berbadan seperti babi dengan satu wajah manusia; empat kaki hewan, dua mata dan dua telinga, tanpa moncong babi pada wajah manusia.",
+      "claim_ids": [
+        "shojo-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tanah sebelah barat tempat pemakaman Shun; tepi hutan samar sebagai konteks hutan di sebelah timurnya.",
+      "claim_ids": [
+        "shojo-c07"
+      ]
+    }
+  ],
+  "aura": "Keganjilan wajah manusia pada binatang seperti babi yang mengetahui nama manusia c07; tanpa efek gaib visual.",
+  "artistic_choices": [
+    "Varian primer Hainei nanjing c07 dipilih secara terpisah, tidak dicampurkan dengan monyet berkuping putih c06, merah roh laut c05 atau Noh penari sake c09.",
+    "Empat kaki, bulu, warna dan postur maju ditafsir dari tubuh seperti babi; tidak mengklaim taring/cakar/horns khusus.",
+    "Tidak ada kekuatan fisik terdokumentasi untuk varian c07; ancaman melalui uncanny hybrid, tatapan dan jarak dekat. Tidak menyatakan ukuran raksasa."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Shojo as its specifically documented classical Chinese shengsheng / xingxing variant from Shanhaijing Hainei nanjing: a beast like a pig but with a HUMAN FACE, knowing human names [shojo-c01, shojo-c07].\nANATOMY: exactly one bristled pig-shaped quadruped body on four sturdy hooved legs, one head bearing an unmistakably HUMAN face with human brow, nose, cheeks, lips and chin, two human eyes and two ears. The face has NO pig snout. One short tail. Thick opaque animal fur covers the entire body [shojo-c07].\nMOMENT: driving its heavy shoulders forward from darkness toward the viewer, one hoof lifted and human face leaning very close, eyes staring straight into the viewer as if recognizing their name, lips parted in an unsettling human grimace.\nPOWER: no physical magical effect documented for this variant; menace only from hybrid anatomy, action and lighting.\nSCALE & CAMERA: extreme low ground-level close view, impossible human face and bristled shoulders dominate the square; ordinary pig-scale body, not a giant.\nLIGHT & WEATHER: one narrow warm side light, antique-gold rim on black bristles, deep walnut shadows under human brow; natural dust at the moving hoof.\nSURFACE: coarse wet black bristles, muddy hooves, weathered lifelike human facial skin, dark earth.\nSETTING: dark ground west of Shun's burial region, a faint distant forest edge only; no detailed tomb asserted [shojo-c07].\nMOOD: deeply uncanny, threatening and imposing, never an ordinary pig, ordinary man or cute animal.\nHARD CONSTRAINTS: no white ears, red spirit hair, alcohol vat, monk, Noh mask or other variant motifs; no horns, wings, extra heads or limbs, no human torso or hands; no text, logo, frame, border or watermark; no borrowed design; no nudity or gore; no glow aura, neon outlines or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-fe40421e-4163-44e4-8301-4a2704f56d75.png",
+  "generated_at": "2026-10-22T11:07:22.028Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/shojo.png",
+  "native_sha256": "f563e8ec54ec32245960fc224a32d7b35d7de3ce3a4a534912949e5eacf6f8e0",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: wajah manusia pada badan babi berkaki empat jelas tidak biasa; menerjang maju satu kuku terangkat dengan tatapan mengenali. Tidak bercampur monyet/roh laut/Noh; tanpa efek karangan atau teks. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "f563e8ec54ec32245960fc224a32d7b35d7de3ce3a4a534912949e5eacf6f8e0",
+    "reviewed_at": "2026-10-22T11:07:22.028Z"
+  }
+}

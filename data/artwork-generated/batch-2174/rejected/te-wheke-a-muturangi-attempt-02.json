@@ -1,0 +1,65 @@
+{
+  "slug": "te-wheke-a-muturangi",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Giant octopus raising eight arms to catch Kupe canoe.",
+  "basis_claim_ids": [
+    "te-wheke-a-muturangi-c01",
+    "te-wheke-a-muturangi-c03",
+    "te-wheke-a-muturangi-c05",
+    "te-wheke-a-muturangi-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant octopus: single mantle/head, two eyes, exactly eight sucker-lined arms.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c01",
+        "te-wheke-a-muturangi-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Raises arms above water to catch and devour canoe, displacing water naturally.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tory Channel current and canoe of Kupe.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c04",
+        "te-wheke-a-muturangi-c05"
+      ]
+    }
+  ],
+  "aura": "Kesan melalui anatomi, aksi dan pencahayaan; efek hanya yang disebut visual_requirements.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Elevated oblique camera selected on attempt02 so eight-arm count can be audited; low angle01 hid anatomy and was rejected."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-01.json",
+      "native_sha256": "314f8a2642f784d6e95b715aa229c9bfb0a78b9409a57457a84a45c4f88bce87",
+      "reason": "Only six arms have clearly visible distinct lengths/tips; two central submerged bases do not satisfy eight-arm native visibility."
+    }
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of TE WHEKE-A-MUTURANGI, giant octopus raising its arms toward Kupe canoe in Tory Channel [te-wheke-a-muturangi-c01,c03,c04,c05].\nANATOMY MUST BE COUNTABLE: exactly EIGHT octopus arms, all EIGHT distinct curling tips IN FRAME, exactly ONE mantle/head and TWO eyes. No arm may be hidden behind another or cut off by frame. Natural wet rust-brown octopus, no fins or squid tentacles.\nCOMPOSITION: choose an elevated OBLIQUE viewpoint specifically so all eight arms can be seen. The giant head is central, and eight sucker-lined arms fan radially across the water around it like eight spokes with open water gaps between. Put distinct arms at eight clock directions: top, top-right, right, bottom-right, bottom, bottom-left, left, top-left. Each arm visibly attaches around base of head and extends to a separate curled tip. This must read as EIGHT, not SIX. Keep the two foreground/bottom arms as separately visible as all others.\nMOMENT: all eight arms are lifting partly above churning water to close around a SMALL traditional canoe, placed in an open gap between bottom-right and right arms. Tiny fully clothed canoe occupants establish GIANT scale. No harm depicted.\nPOWER: ordinary physical water displacement from massive arms only; spray cascades off pale suction cups. No magical effects.\nLIGHT: one sunset gap gives warm bronze rim light, deep cloudy shadows, wet tactile skin. Distant Tory Channel rocky coast [c04].\nMOOD: imposing dangerous Māori guardian monster attacking canoe [c05], active and overwhelming. Head and arms fill entire image, not a small creature landscape.\nNo text, labels, numbers, logos, border, watermark, gore, severed arms, invented aura, neon or borrowed franchise designs. Preserve EXACTLY eight arms with eight tips fully visible.",
+  "original_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-02.png",
+  "receipt_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-02.json",
+  "native_sha256": "4cfd15d4d7279b140ed4ec93cc7d90c8e04a5cd28d88986e0c1393c8d8e71384",
+  "reason": "Seven clearly countable arm tips: top-center, upper-left, upper-right, middle-left, middle-right, lower-left, lower-center. Missing lower-right eighth arm.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-b506a240-6774-4232-81bb-943d74216b4e.png",
+  "generated_at": "2026-10-22T11:14:49.411Z"
+}

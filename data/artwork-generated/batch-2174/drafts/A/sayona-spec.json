@@ -1,0 +1,53 @@
+{
+  "slug": "sayona",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-145.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "sayona-c02",
+    "sayona-c05",
+    "sayona-c06",
+    "sayona-c07"
+  ],
+  "depicted_variant": "Wujud sejati Sayona dalam versi dataran: taring/cakar besar tajam dan mata semerah darah, bergaun putih panjang.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Perempuan roh bermata merah darah, taring dan cakar besar tajam; gaun putih panjang buram.",
+      "claim_ids": [
+        "sayona-c02",
+        "sayona-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sedang mengejar ke arah penonton, tanpa efek sihir tambahan.",
+      "claim_ids": [
+        "sayona-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dataran tempat ia memperlihatkan wujud sejati.",
+      "claim_ids": [
+        "sayona-c05",
+        "sayona-c06"
+      ]
+    }
+  ],
+  "aura": "Ancaman dari cakar/taring besar dan mata merah darah c06 dalam momen pengejaran c07.",
+  "artistic_choices": [
+    "Memilih wujud c06 yang bertaring/bercakar, tidak mencampurkan wajah tengkorak varian c03.",
+    "Wajah masih manusia dengan taring besar, satu kepala dua mata dua tangan/kaki. Gaun putih dibuat sepenuhnya buram; tidak ada korban terlihat.",
+    "Cahaya bulan, angin rumput dan tekstur kain adalah penyajian editorial; mata merah warna biologis tanpa pancaran. Tidak memvisualkan kegilaan sebagai aura."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of La Sayona, the Venezuelan vengeful female spirit in her documented true fanged and clawed plains form.\nANATOMY: one female spirit with one fierce humanoid face, two blood-red eyes that do not emit light, enormous sharp fangs protruding visibly from her open mouth, two arms with huge long sharp claws on normal five-fingered hands, two legs; fully opaque long white high-necked dress covers her body and shoulders [sayona-c02, sayona-c06]. Do not use a skull face; this is the fanged true-form variant.\nMOMENT: PURSUING the viewer at speed across the plain, leaning forward with one clawed hand striking toward camera, hair and heavy white dress sweeping behind, mouth open to show the two enormous fangs [sayona-c07].\nPOWER: menace through fangs, claws and pursuit only; no spell or magical aura.\nSCALE & CAMERA: extreme low close angle, face and enormous grasping claws dominate the square; human-sized spirit framed close, not a giant.\nLIGHT & WEATHER: one cold moonbeam catches claws, red irises and ragged dress edges; deep walnut shadows; wind bends ordinary dry grass.\nSURFACE: damp tangled hair, aged opaque linen, dirty natural claw surfaces, weathered face.\nSETTING: dark grassy Venezuelan plain where her true form is revealed, low horizon only [sayona-c05, sayona-c06].\nMOOD: predatory, dangerous, unmistakably supernatural and imposing, never an ordinary woman or calm portrait.\nHARD CONSTRAINTS: no victims, nudity or gore; no extra heads, limbs or fingers, no wings or horns; no text, logos, border, frame or watermark; no film/game/anime/comic design; no glow aura, neon outline, energy ribbons or luminous eyes."
+}

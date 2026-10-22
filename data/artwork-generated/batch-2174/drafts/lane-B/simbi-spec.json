@@ -1,0 +1,47 @@
+{
+  "slug": "simbi",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-144.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Long-haired water guardian in mermaid manifestation.",
+  "basis_claim_ids": [
+    "simbi-c02",
+    "simbi-c13",
+    "simbi-c01",
+    "simbi-c09",
+    "simbi-c20"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Mermaid manifestation with long hair; human upper body clothed opaque and one fish tail.",
+      "claim_ids": [
+        "simbi-c02",
+        "simbi-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky stream pool, nature guardian habitat.",
+      "claim_ids": [
+        "simbi-c01",
+        "simbi-c09",
+        "simbi-c20"
+      ]
+    }
+  ],
+  "aura": "Keagungan guardian melalui wujud mermaid dan rambut panjang (simbi-c02, simbi-c13), cipratan hanya gerak fisik bukan manipulasi air.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Mermaid c02 and long hair c13 selected without mixing snake, gourd or fire forms; opaque cloth and lighting are editorial. No control of water inferred from water domain."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of SIMBI, a Bakongo water-and-nature guardian in documented mermaid manifestation [simbi-c02].\nANATOMY: ONE dark-skinned humanlike female upper body, ONE head with very long wet hair [simbi-c13], TWO arms, exactly ONE powerful scaled FISH TAIL instead of legs, broad split tail fin; fully opaque dark earth-brown cloth wraps and covers torso completely to waist, no exposed breasts; mermaid form c02, not a generic human.\nMOMENT: surging upward from a rocky stream pool, twisting a powerful fish tail close across foreground and bracing one hand on a slick rock; other hand lifted in firm guardian gesture, intense solemn gaze down toward viewer. Tail remains visibly attached at waist, fin splashes behind.\nPOWER: no invented water control or magic beams. Ordinary water displacement physically follows the mermaid's sudden movement; protection expressed through guard stance only.\nSCALE & CAMERA: extreme low intimate angle from pool surface, face and fish tail dominate square, no undocumented giant scale.\nLIGHT & WEATHER: one warm late sunlight shaft through dark trees catches water on cheek and scales, deep shadows, real spray and water droplets.\nSURFACE: wet dark copper-brown scales, long textured black hair, rough opaque cloth, slick ancient rock.\nSETTING: stream and pool among rocks, habitat of Simbi nature guardians [simbi-c09,c20].\nMOOD: sacred and awe-inspiring protective nature presence, respectful living Bakongo tradition, active and imposing rather than decorative or romantic.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, legs, arms or fingers; no borrowed film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons."
+}

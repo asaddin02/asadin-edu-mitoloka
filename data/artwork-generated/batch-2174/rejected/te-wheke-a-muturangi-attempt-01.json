@@ -1,0 +1,57 @@
+{
+  "slug": "te-wheke-a-muturangi",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Giant octopus raising eight arms to catch Kupe canoe.",
+  "basis_claim_ids": [
+    "te-wheke-a-muturangi-c01",
+    "te-wheke-a-muturangi-c03",
+    "te-wheke-a-muturangi-c05",
+    "te-wheke-a-muturangi-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant octopus: single mantle/head, two eyes, exactly eight sucker-lined arms.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c01",
+        "te-wheke-a-muturangi-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Raises arms above water to catch and devour canoe, displacing water naturally.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tory Channel current and canoe of Kupe.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c04",
+        "te-wheke-a-muturangi-c05"
+      ]
+    }
+  ],
+  "aura": "Kesan melalui anatomi, aksi dan pencahayaan; efek hanya yang disebut visual_requirements.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of TE WHEKE-A-MUTURANGI, the giant octopus of Māori tradition.\nANATOMY: exactly ONE massive natural octopus mantle/head with TWO eyes, EXACTLY EIGHT thick sucker-lined OCTOPUS ARMS radiating from beneath the head; no squid fins and no extra long feeding tentacles [te-wheke-a-muturangi-c01,c03]. All eight arms individually visible from base toward distinct tip; avoid crossing or hiding them.\nMOMENT: bursting up from the Tory Channel current and raising its EIGHT arms above the water to catch a small approaching traditional wooden canoe [te-wheke-a-muturangi-c05]. Mantle dominates center, eight arms fan separately around it: four on viewer LEFT and four on viewer RIGHT, with visible gaps of dark water between each. Each side's four arms reach respectively upper corner, middle side, lower side and foreground corner. Small canoe in mid-foreground center between the two nearest arms, occupants tiny and fully clothed, no gore.\nPOWER: huge physical arms curl toward the canoe; seawater pours from suckers and rises in displaced spray [te-wheke-a-muturangi-c05]. No magical storm or glowing aura.\nSCALE & CAMERA: low frontal view from just above canoe-water height; huge head and eight arms occupy nearly entire square, small canoe establishes documented giant scale [te-wheke-a-muturangi-c03].\nLIGHT & WEATHER: one low sunset gap provides bronze rim light on wet mantle and suckers, dark natural cloudy sky, wild current spray.\nSURFACE: wet rust-brown pebbled octopus skin, pale suction cups, dark saltwater.\nSETTING: Tory Channel current, narrow distant rocky coastline [te-wheke-a-muturangi-c04].\nMOOD: enormous dangerous guardian monster in active attack, not ordinary aquarium octopus.\nHARD CONSTRAINTS: exactly EIGHT arms, one mantle and two eyes; no severed arms, injury or gore; no text, lettering, logo, border, frame or watermark; no borrowed film/game/anime/comic designs; no generic glow aura, neon outline or energy ribbons.",
+  "original_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-01.png",
+  "receipt_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-01.json",
+  "native_sha256": "314f8a2642f784d6e95b715aa229c9bfb0a78b9409a57457a84a45c4f88bce87",
+  "reason": "Only six arms have clearly visible distinct lengths/tips; two central submerged bases do not satisfy eight-arm native visibility.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-8b24d8f6-45b0-4cd7-8e2c-a6be53aa0bf0.png",
+  "generated_at": "2026-10-22T11:11:55.864Z"
+}

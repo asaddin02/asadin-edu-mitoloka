@@ -1,0 +1,77 @@
+{
+  "slug": "saleos",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Peaceable gallant soldier with ducal crown riding a living crocodile.",
+  "basis_claim_ids": [
+    "saleos-c03",
+    "saleos-c05",
+    "saleos-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One gallant soldier in fully opaque armor with ducal crown, mounted on one four-legged crocodile.",
+      "claim_ids": [
+        "saleos-c03",
+        "saleos-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Peaceable arrival while the crocodile walks forward, no attack or magical love effects.",
+      "claim_ids": [
+        "saleos-c05",
+        "saleos-c08"
+      ]
+    }
+  ],
+  "aura": "Awe comes from the extraordinary crocodile mount and ducal authority c03/c05; pacifist temperament c08 retained.",
+  "artistic_choices": [
+    "Close low camera and advancing animal create majesty without inventing giant scale or violent temperament.",
+    "Dark unmarked stone ground is a neutral editorial backdrop because no geographical setting is documented.",
+    "Armor material, cloak, copper crown and sunset lighting are editorial details; no raised weapon or legions inferred.",
+    "Plain leather riding harness is editorial riding equipment, not sourced iconography."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Saleos, the mighty Goetic duke who appears peaceably as a gallant crowned soldier riding a crocodile.\nANATOMY: ONE dignified mature male soldier, human face one head two eyes two arms two legs, wearing completely opaque dark steel armor, layered cloth and a heavy plain cloak; a clearly visible broad antique-gold DUCAL CROWN on his head, no helmet covering it. He sits astride ONE living crocodile with one head, two eyes, FOUR short powerful legs and ONE long tail, natural broad crocodilian snout and armored scales. [saleos-c03, saleos-c05]\nMOMENT: ARRIVE peaceably toward the viewer, crocodile lifting one forefoot in a heavy forward step, rider turns his crowned head down toward us with unwavering dignified authority. Hands relaxed on mount, no weapon drawn, no attack. Crocodile jaws closed, gaze alert, stepping rather than lounging. [saleos-c05, saleos-c08]\nPOWER: no visible magical effect, no love symbols or luminous aura. Awe through the extraordinary crocodile mount and mighty ducal presence alone; keep his documented pacifist nature.\nSCALE & CAMERA: extreme low angle immediately in front of crocodile shoulder, its head in lower foreground and crowned rider large above it, both clear at thumbnail, no tiny humans and no undocumented giant scale.\nLIGHT & WEATHER: single warm dying-sun rim from the left cuts hard gold across crown and scales, deep walnut shadows, ordinary dust kicked up by forward step.\nSURFACE: scarred dark metal, weathered opaque cloth, wet pebbled crocodile scales and worn stone.\nSETTING: neutral dark unmarked stone ground disappearing into shadow, no invented temple or magical domain.\nMOOD: overwhelming peaceful authority and awe, extraordinary imposing arrival, never malicious, aggressive, cute, calm static portrait or ordinary mounted soldier.\nHARD CONSTRAINTS: no text, lettering, sigils, logo, border, frame or watermark; no extra heads, limbs or fingers; no horse; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T10:58:07.878Z",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16315-1a06-71d0-bbc5-0daf7405a641/exec-0bf51b82-117b-45c1-8ac4-855808f9f23f.png",
+  "generated_at": "2026-10-22T10:58:07.899Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/saleos.png",
+  "native_sha256": "18c807c9fcc80a2cd34ea77603d0e7d0c0775fd8bdbbe5e370feeeb0a151a6b6",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 inspected. Crown and opaque armored soldier dominate above single walking crocodile, relaxed hands and closed jaws preserve peaceable character; foot motion/dust conveys arrival, no attack or invented magical power. Crocodile four-limb anatomy with distant limb naturally occluded.",
+    "limitations": [],
+    "native_sha256": "18c807c9fcc80a2cd34ea77603d0e7d0c0775fd8bdbbe5e370feeeb0a151a6b6",
+    "reviewed_at": "2026-10-22T10:58:07.899Z"
+  },
+  "worker_visual_check": {
+    "native_reviewed": true,
+    "thumbnail_200_reviewed": true,
+    "thumbnail_path": "data/artwork-generated/batch-2174/drafts/C/saleos-200.png",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "notes": "Native1254+200 inspected. Crown and opaque armored soldier dominate above single walking crocodile, relaxed hands and closed jaws preserve peaceable character; foot motion/dust conveys arrival, no attack or invented magical power. Crocodile four-limb anatomy with distant limb naturally occluded."
+  }
+}

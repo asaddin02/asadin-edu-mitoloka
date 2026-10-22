@@ -1,0 +1,65 @@
+{
+  "slug": "te-wheke-a-muturangi",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-151.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Giant octopus raising eight arms to catch Kupe canoe.",
+  "basis_claim_ids": [
+    "te-wheke-a-muturangi-c01",
+    "te-wheke-a-muturangi-c03",
+    "te-wheke-a-muturangi-c05",
+    "te-wheke-a-muturangi-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant octopus: single mantle/head, two eyes, exactly eight sucker-lined arms.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c01",
+        "te-wheke-a-muturangi-c03"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Raises arms above water to catch and devour canoe, displacing water naturally.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Tory Channel current and canoe of Kupe.",
+      "claim_ids": [
+        "te-wheke-a-muturangi-c04",
+        "te-wheke-a-muturangi-c05"
+      ]
+    }
+  ],
+  "aura": "Ancaman melalui gurita raksasa mengangkat lengan menangkap perahu (te-wheke-a-muturangi-c03, te-wheke-a-muturangi-c05), tanpa kuasa tambahan.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Selected attempt03: elevated oblique view permits eight distinct arm tips. Attempt01 rejected for six visible arms; attempt02 rejected for seven; targeted edit03 added eighth lower-right arm."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-01.json",
+      "native_sha256": "314f8a2642f784d6e95b715aa229c9bfb0a78b9409a57457a84a45c4f88bce87",
+      "reason": "Only six arms have clearly visible distinct lengths/tips; two central submerged bases do not satisfy eight-arm native visibility."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-2174/rejected/te-wheke-a-muturangi-attempt-02.json",
+      "native_sha256": "4cfd15d4d7279b140ed4ec93cc7d90c8e04a5cd28d88986e0c1393c8d8e71384",
+      "reason": "Seven clearly countable arm tips: top-center, upper-left, upper-right, middle-left, middle-right, lower-left, lower-center. Missing lower-right eighth arm."
+    }
+  ],
+  "prompt": "Targeted anatomy correction of the attached Te Wheke-a-Muturangi octopus image: the current artwork has SEVEN arms, but an octopus must have EXACTLY EIGHT. Preserve all seven existing arms unchanged. ADD EXACTLY ONE new thick sucker-lined eighth octopus arm, clearly attached to the lower-right base of the central head, emerging into the empty water space BETWEEN the existing middle-right arm and the existing lower-center foreground arm. Curve this new arm down toward the lower-right corner with a fully visible curled tip. It must be separate from every existing arm with an open water gap. Move the small canoe slightly upward/right if necessary so it does not hide this new eighth arm. The final eight countable tips must be: top-center, upper-left, upper-right, middle-left, middle-right, lower-left, lower-center, and NEW LOWER-RIGHT. Keep one head and two eyes, the same enormous scale, wet rust-brown octopus skin, pale suckers, dangerous reaching action toward canoe, spray, Tory Channel coast, square premium cinematic painterly composition. Te Wheke raises its arms to catch canoe c05; octopus identity c01/c03. No other changes, no ninth arm, no text, numbers, arrows, labels, watermark, glow, severed arms or gore."
+}

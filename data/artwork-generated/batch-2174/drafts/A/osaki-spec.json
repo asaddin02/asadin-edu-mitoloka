@@ -1,0 +1,50 @@
+{
+  "slug": "osaki",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-055.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "osaki-c08",
+    "osaki-c09",
+    "osaki-c16"
+  ],
+  "depicted_variant": "Osaki mamalia sangat kecil mirip rubah dengan satu ekor berbulu yang terbelah tepat di ujung.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Mamalia kecil mirip rubah/musang dengan empat kaki, satu kepala dan ekor berbulu terbelah dua pada ujungnya.",
+      "claim_ids": [
+        "osaki-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Gerak sangat cepat saat menerjang dalam rumah; tidak ada pita energi atau aura.",
+      "claim_ids": [
+        "osaki-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Interior rumah manusia; wadah nasi dan tutup panci sebagai konteks kemunculan.",
+      "claim_ids": [
+        "osaki-c09",
+        "osaki-c16"
+      ]
+    }
+  ],
+  "aura": "Keganjilan ekor terbelah c08 dan gerak kilat c09 dalam framing dekat, tanpa memperbesar ukuran fisik.",
+  "artistic_choices": [
+    "Kamera makro sangat rendah di permukaan papan; wadah nasi berukuran normal menunjukkan makhluk ini kecil.",
+    "Warna bulu gelap dan cahaya minyak hangat editorial. Tidak memvisualkan perasukan atau kekayaan; hanya gerak cepat terdokumentasi."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Osaki, a very small fox-like magical mammal of Japanese folklore.\nANATOMY: one small narrow fox-weasel head, two ears, two eyes, four small paws, one fluffy tail whose terminal tip divides clearly into TWO equally visible fluffy branches; the tail has one base only [osaki-c08].\nMOMENT: lunging straight across a wooden floor toward the low camera, shoulders lowered, mouth open with tiny natural teeth, bristling and confrontational; both forked tail tips curl visibly above its back.\nPOWER: extremely fast movement made visible by thrown floor dust and swept fur, no magical glow [osaki-c09].\nSCALE & CAMERA: extreme macro ground-level close-up; tiny creature fills square through close distance, a normal rice container and pot lid behind are far larger than its whole body. Never a giant fox.\nLIGHT & WEATHER: one warm household oil-lamp side light, deep shadows and rim light.\nSURFACE: coarse dark walnut fur, fine whiskers, scuffed wooden floor.\nSETTING: dim human home, plain rice container and a metal pot lid behind, the sound of which reveals osaki [osaki-c09, osaki-c16].\nMOOD: uncanny, ferociously intense and dangerous at tiny scale, never cute or decorative.\nHARD CONSTRAINTS: one tail base forked only at the final third, fork prominent at thumbnail size; no multiple separate tails, no horns, no extra heads or limbs; no text, logo, border or watermark; no borrowed entertainment design; no nudity or explicit gore; no generic aura, luminous eyes, neon outline or energy ribbons."
+}

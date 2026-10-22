@@ -1,0 +1,60 @@
+{
+  "slug": "sabnak",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Lion-headed armed soldier riding pale horse.",
+  "basis_claim_ids": [
+    "sabnak-c03",
+    "sabnak-c05",
+    "sabnak-c04",
+    "sabnak-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One lion-headed humanoid armed soldier on pale horse.",
+      "claim_ids": [
+        "sabnak-c03",
+        "sabnak-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "High towers/castle from his documented office; no magical construction effect inferred.",
+      "claim_ids": [
+        "sabnak-c04",
+        "sabnak-c06"
+      ]
+    }
+  ],
+  "aura": "Ancaman melalui kepala singa prajurit berkuda pucat yang menerjang (sabnak-c03, sabnak-c05), tanpa aura generik.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Spear, shield and armor material are editorial choices within armed soldier description. No claim of instant magical construction or invented spell effects."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of SABNOCK, the lion-headed armed soldier and mighty marquis.\nANATOMY: ONE lion head with mane atop fully armored HUMAN soldier torso, two human arms and two human legs; carrying an iron spear and round shield as editorial arms; mounted on ONE pale-coloured horse with one head, four legs [sabnak-c03,c05].\nMOMENT: charging directly toward viewer through a castle gate, lion mouth roaring, shield thrust forward, spear angled upward; pale horse surges through dust.\nPOWER: no magical beams or invented effects. His high towers and castle stand physically behind him [sabnak-c04,c06]; no wounds or gore portrayed.\nSCALE & CAMERA: extreme low angle, rider's lion head and armored shoulders dominate upper frame, horse head and forelegs visible lower frame, no invented gigantic size.\nLIGHT & WEATHER: one warm sunset side light at castle gate, strong rim light, deep shadows and dust kicked by horse.\nSURFACE: matted lion mane, scratched iron armor, coarse pale horse coat, weathered castle stone.\nSETTING: castle gate and high towers, documented builder of fortifications [sabnak-c04,c06].\nMOOD: dangerous original lion-headed demonic warrior, active confrontation.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no borrowed film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-4bd363f0-7cee-47fb-bedd-824e43d9ee63.png",
+  "generated_at": "2026-10-22T10:56:27.679Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/sabnak.png",
+  "native_sha256": "f55d904e6b8f3c83c7ec31119d955297e7b3a9ab72008676dddfda0760d95517",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Lion head human armored rider, two arms, spear/shield; pale horse charging, two forelegs distinct, hindquarters occluded naturally. Subject dominates, no ungrounded power effect. Native and 200px inspected.",
+    "limitations": [],
+    "native_sha256": "f55d904e6b8f3c83c7ec31119d955297e7b3a9ab72008676dddfda0760d95517",
+    "reviewed_at": "2026-10-22T10:56:27.679Z"
+  }
+}

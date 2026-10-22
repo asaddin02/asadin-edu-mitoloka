@@ -1,0 +1,52 @@
+{
+  "slug": "suur-harg",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Living supernatural ox of Estonian-Finnish song with immense horns spanning the horizon; before slaughter.",
+  "basis_claim_ids": [
+    "suur-harg-c01",
+    "suur-harg-c03",
+    "suur-harg-c05",
+    "suur-harg-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One gigantic living ox with one head/two eyes/two horns/four legs/one tail, so enormous that a swallow needs a day between horn tips.",
+      "claim_ids": [
+        "suur-harg-c01",
+        "suur-harg-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A colossal head-turn and forward step; scale alone, no magical attack, no slaughter.",
+      "claim_ids": [
+        "suur-harg-c01",
+        "suur-harg-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Northland/Pohjola setting suggested by Kalevala account, tiny forests used as scale.",
+      "claim_ids": [
+        "suur-harg-c03"
+      ]
+    }
+  ],
+  "aura": "Unimaginable documented ox scale c01/c05 dominates; no invented storm, fire or ground destruction.",
+  "artistic_choices": [
+    "Low-angle close head and horn tips against tiny distant forests communicate song scale; a swallow is a small real bird near one horn.",
+    "Dark brown-black fur, natural fog and twilight are editorial, not source-stated colors or powers.",
+    "Shown alive before slaughter, with no blood or butcher; head-turn/action avoids ordinary ox at pasture."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Suur härg, the supernaturally vast ox of Estonian and Finnish song, whose horns take a swallow a whole day to cross.\nANATOMY: ONE living colossal OX, one broad bovine head TWO natural eyes TWO enormous widely spreading sweeping horns, FOUR cloven-hoofed legs and ONE tail. Dark coarse brown-black hair and massive natural bovine musculature. Both horn tips remain inside the square, spanning almost its entire width, widely separated against the sky. No extra horns, no armor, no glowing eyes. [suur-harg-c01, suur-harg-c05]\nMOMENT: TURN the immense head down toward the viewer while one near hoof advances, nostrils flared and neck muscles rolling. Do not show an idle grazing cow or a faraway silhouette; face and sweeping horns form the overwhelming subject.\nPOWER: documented supernatural SIZE alone. No magical power attack, no conjured storm, no earth splitting. Ordinary dust near a contacting hoof and natural valley mist only. [suur-harg-c01, suur-harg-c06]\nSCALE & CAMERA: extreme low angle looking upward at the living face as large as a mountain; tiny dense pine FORESTS on distant valley ridges lie far below its muzzle and along its shoulder, establishing continental songlike scale. A single tiny swallow crosses near one horn and is a mere pinprick by comparison. Horns fill horizon; body mass descends out of frame at sides, four-leg body is natural without forced full-body view.\nLIGHT & WEATHER: single break of dying northern sun gives antique-gold rims to horns and fur; dark natural cloud ceiling, deep warm shadows and pale ordinary valley mist. No magic weather control.\nSURFACE: coarse wind-tossed ox fur, scarred natural horn keratin, damp leathery nose, rough hooves, tactile painterly realism.\nSETTING: the vast forested Northland landscape of the Pohjola/Kalevala song context, miniature forests under the immense living ox. [suur-harg-c03]\nMOOD: overwhelming bodily awe and dangerous power of a creature beyond human mastery; never ordinary livestock, pasture photograph, cute animal, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly TWO horns and one head, no extra limbs; no design borrowed from any film, game, anime or comic; no slaughter, nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T11:06:32.821Z"
+}

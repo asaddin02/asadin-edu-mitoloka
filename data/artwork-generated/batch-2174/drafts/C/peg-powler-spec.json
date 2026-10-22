@@ -1,0 +1,53 @@
+{
+  "slug": "peg-powler",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Green-haired old river hag reaching out from River Tees; not the beautiful maiden alternate.",
+  "basis_claim_ids": [
+    "peg-powler-c01",
+    "peg-powler-c02",
+    "peg-powler-c03",
+    "peg-powler-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Old hag with green hair, one head two eyes two arms, fully covered in opaque ragged cloth.",
+      "claim_ids": [
+        "peg-powler-c01",
+        "peg-powler-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Reach aggressively toward the riverbank/viewer, associated with grabbing ankles and drowning victims; splashes are ordinary bodily displacement, no water command.",
+      "claim_ids": [
+        "peg-powler-c01",
+        "peg-powler-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "River Tees bank with foam on the black water.",
+      "claim_ids": [
+        "peg-powler-c01",
+        "peg-powler-c03"
+      ]
+    }
+  ],
+  "aura": "Menace from the green-haired hag c01/c02 lunging at the riverbank as the ankle-snatcher c06, no magical aura.",
+  "artistic_choices": [
+    "No victim or injured child shown; the reaching action confronts the viewer.",
+    "Opaque ragged river-soaked dress is modest editorial clothing, not asserted iconography.",
+    "Low waterline closeup and moonlight preserve human scale; no gigantic body or invented fins/fangs."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Peg Powler, the green-haired river hag of the English River Tees who seizes ankles at the bank.\nANATOMY: ONE old hag with a deeply weathered, gaunt elderly woman's face, one head two natural eyes two human arms, long soaked GREEN hair hanging in heavy strands, wearing a completely opaque ragged brown dress covering torso and shoulders. No fins, no gills, no horns, no tusks, no extra teeth. Lower body remains submerged. [peg-powler-c01, peg-powler-c02]\nMOMENT: LUNGE out of the black river toward the viewer at the bank, near hand sweeping toward our ankles below the frame, mouth open with a vicious desperate snarl, narrowed eyes locked on us, green hair streaming forward from the movement. The other hand grips a root at the bank. Make the face and near hand overwhelmingly dominant.\nPOWER: she grabs people by the ankles and drags them underwater; show only the predatory reaching action, nobody injured and no child shown. Ordinary dirty water and foam splash from her moving body, no control over waves. [peg-powler-c01, peg-powler-c06]\nSCALE & CAMERA: extremely close waterline low angle, strong foreshortened hand, face and hair filling frame, human size maintained through nearby roots and reeds.\nLIGHT & WEATHER: one cold crescent-moon reflection casts hard wet highlights on face and fingers, deep walnut shadows, wet river spray and ordinary low mist.\nSURFACE: wrinkled wet skin, matted green hair, coarse saturated opaque fabric, muddy roots, white river foam.\nSETTING: eroded muddy edge of the River Tees with dark flowing water and local floating foam, reeds in deep shadow. [peg-powler-c01, peg-powler-c03]\nMOOD: unmistakably predatory hag emerging suddenly, dangerous and imposing, never beautiful maiden, ordinary woman swimming, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly five fingers on each visible hand, no extra heads or limbs; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T10:12:46.458Z"
+}

@@ -1,0 +1,158 @@
+{
+  "session_date": "2026-10-22",
+  "batch": 2174,
+  "baseline_active": 1998,
+  "generated": 38,
+  "receipts": 50,
+  "source_declines": 12,
+  "awaiting_independent_claude_review": 38,
+  "claude_approved_this_session": 0,
+  "integrated_by_codex": 0,
+  "missing_receipts": 0,
+  "root_native_200_pass": 38,
+  "unique_png_hashes": 38,
+  "validation": {
+    "checked_at": "2026-10-22T11:28:24.061Z",
+    "batch": 2174,
+    "scope": "whole-batch",
+    "final": true,
+    "checks": 1432,
+    "errors": [],
+    "drawn": 38,
+    "declined": 12,
+    "pending": [],
+    "notRootReviewed": [],
+    "archived_attempts": 5,
+    "tool_failures": 0,
+    "external_research_metadata_changed": [],
+    "integration_performed": false
+  },
+  "browser": {
+    "checked_at": "2026-10-22T11:27:18.460Z",
+    "results": [
+      {
+        "width": 1440,
+        "cards": 50,
+        "images": 38,
+        "brokenImages": [],
+        "missingAlt": 0,
+        "horizontalOverflow": false,
+        "summary": "38 awaiting-independent-review, 12 tidak-digambar. Gambar baru dan koreksi menunggu tinjauan independen Claude. Status reviewed mengikuti keputusan Claude; integrasi dilakukan sesi Claude. Prompt, klaim, pilihan editorial dan riwayat penolakan tersedia pada tiap kartu.",
+        "errors": []
+      },
+      {
+        "width": 768,
+        "cards": 50,
+        "images": 38,
+        "brokenImages": [],
+        "missingAlt": 0,
+        "horizontalOverflow": false,
+        "summary": "38 awaiting-independent-review, 12 tidak-digambar. Gambar baru dan koreksi menunggu tinjauan independen Claude. Status reviewed mengikuti keputusan Claude; integrasi dilakukan sesi Claude. Prompt, klaim, pilihan editorial dan riwayat penolakan tersedia pada tiap kartu.",
+        "errors": []
+      },
+      {
+        "width": 390,
+        "cards": 50,
+        "images": 38,
+        "brokenImages": [],
+        "missingAlt": 0,
+        "horizontalOverflow": false,
+        "summary": "38 awaiting-independent-review, 12 tidak-digambar. Gambar baru dan koreksi menunggu tinjauan independen Claude. Status reviewed mengikuti keputusan Claude; integrasi dilakukan sesi Claude. Prompt, klaim, pilihan editorial dan riwayat penolakan tersedia pada tiap kartu.",
+        "errors": []
+      }
+    ]
+  },
+  "protected_comparison_file": "data/artwork-generated/session-2026-10-22/protected-final-comparison.json",
+  "lanes": {
+    "art_2174_a": {
+      "model": "gpt-6.1-sol",
+      "reasoning": "high",
+      "pngs": 15,
+      "declines": 2
+    },
+    "art_2174_b": {
+      "model": "gpt-6.1-sol",
+      "reasoning": "high",
+      "pngs": 12,
+      "declines": 5
+    },
+    "art_2174_c": {
+      "model": "gpt-6.1-sol",
+      "reasoning": "high",
+      "pngs": 11,
+      "declines": 5
+    }
+  },
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "image_tool_failures": 0,
+  "agent_interruptions": [
+    "Three lanes workspace out of credits; resumed after owner requested lanjutkan; completed persisted PNGs preserved."
+  ],
+  "declines": [
+    {
+      "slug": "oriande",
+      "name": "Oriande",
+      "reason": "Rupa peri tidak diberi ikonografi; female serpent c05 adalah interpretasi ilmiah tanpa ciri atau aksi yang membedakannya dari ular biasa. Tidak mengarang anatomi atau kuasa untuk memenuhi sangar."
+    },
+    {
+      "slug": "otakemaru",
+      "name": "Ōtakemaru (Mount Iwate)",
+      "reason": "Klaim lengkap c01–c08 hanya menyebut pemimpin Emishi/oni, puncak Iwate, etimologi, kekalahan dan makam. Tidak ada rupa anatomi atau manifestasi aktif yang membedakan; tanduk, warna kulit, senjata atau skala raksasa akan menjadi karangan. Menggambar manusia kepala suku saja berisiko manusia biasa."
+    },
+    {
+      "slug": "pinglak",
+      "name": "Pinglak",
+      "reason": "Singa fabel dengan perilaku bertarung biasa; tidak ada rupa gaib atau kuasa yang membedakan dari singa biasa. Anthropomorphism tidak memberi izin mahkota, pakaian atau anatomi tambahan."
+    },
+    {
+      "slug": "punga",
+      "name": "Punga",
+      "reason": "Seluruh klaim adalah genealogi, keturunan hiu/pari/kadal, etimologi batu jangkar dan perpindahan kelompok. Rupa Punga sendiri serta manifestasi aktifnya tidak didokumentasikan. Keturunannya tidak mengizinkan hibrida hiu-kadal-pari atau sosok penguasa ombak."
+    },
+    {
+      "slug": "rodon",
+      "name": "Redon",
+      "reason": "Riset mendokumentasikan identitas dewa laut dan potret kepala bertopi petasos pada koin (c04/c05), beserta lambang kapal/lumba-lumba (c06), tetapi tidak memberi wujud tubuh, ukuran atau perbuatan aktif fisik. Domain laut c01 bukan bukti kemampuan mengangkat ombak/hidrokinesis. Sosok kepala bertopi saja berisiko menjadi manusia biasa; tidak menggambar anatomi/kekuatan baru atau lanskap laut tanpa subjek demi memenuhi Sangar."
+    },
+    {
+      "slug": "schytinglitto",
+      "name": "Schytinglitto",
+      "reason": "Sumber eksplisit tidak memiliki wujud fisik. Penyakit dan ritual tidak memberi manifestasi visual aktif yang bisa mendominasi gambar; rambut c06 adalah klaim ritual, bukan izin mengarang tubuh."
+    },
+    {
+      "slug": "sexual-vampire",
+      "name": "Sexual vampire (Daoism)",
+      "reason": "Klaim c01–c06 mendokumentasikan praktik/tipe pelaku Tao dan keyakinan penyerapan qi/jing, bukan wujud anatomi atau manifestasi tampak. Analogi jiangshi/succubus tidak boleh dipinjam menjadi identitas. Menggambar orang berpakaian saja tetap manusia biasa; qi neon, taring dan ritual visual adalah karangan. Tidak diperlukan atau dibuat citra seksual."
+    },
+    {
+      "slug": "shiotsuchi",
+      "name": "Shiotsuchi",
+      "reason": "Rupa hanya lelaki tua; tindakan sumber menasihati/menyiapkan perahu tanpa manifestasi visual gaib. Interpretasi etimologi dewa arus tidak cukup untuk mengarang perintah badai atau ombak. Gambar akan menjadi lelaki biasa atau lanskap."
+    },
+    {
+      "slug": "shirachigo",
+      "name": "Shirachigo",
+      "reason": "Klaim wujud hanya anak berambut chigowage atau anak anjing berkain di samping Inugami; tidak ada kemampuan atau manifestasi aktif Shirachigo yang terdokumentasi. Anak/anak anjing saja gagal standar Sangar; meminjam kuasa merasuk Inugami, menjadikan anak iblis, mata menyala, atau bentuk anjing dewasa akan mengarang."
+    },
+    {
+      "slug": "simanya",
+      "name": "Simanya",
+      "reason": "Riset secara eksplisit menyatakan wujud tidak jelas (c02) dan tidak seorang pun tahu tepat rupanya (c06). Habitat gua dan kebiasaan memangsa tidak menyediakan anatomi atau manifestasi aktif terdokumentasi. Tidak mengarang monster, mata/cakar/gigi atau hanya menggambar gua kosong."
+    },
+    {
+      "slug": "suanni",
+      "name": "Suanni",
+      "reason": "Sumber mengidentifikasi sebagai singa atau menyerupai kucing belang; makan harimau/macan tutul dan lari 500li tidak memberi ciri anatomi gaib atau efek visual pembeda. Tanpa menambah tanduk, sayap, api atau skala tak bersumber, hasil akan terbaca singa/hewan biasa."
+    },
+    {
+      "slug": "tamayorihime",
+      "name": "Tamayorihime",
+      "reason": "Klaim kini menyebut dewi/perempuan pengasuh dan ibu dalam beberapa tradisi, tanpa rupa khusus atau kuasa visual aktif. Putri Watatsumi tidak mengizinkan ekor naga, ombak yang diperintah atau skala kosmis rekaan; anak panah merah adalah Hoikazuchi dalam varian Kamo, bukan atribut pengendalian petir miliknya. Sosok perempuan berpakaian saja berisiko manusia biasa."
+    }
+  ],
+  "gallery": "docs/artwork-batch-2174.html",
+  "prompt_set": "data/artwork-generated/batch-2174/codex-prompts.json",
+  "handoff": "Claude Code independently reviews all38PNG, creates missing catalogue records if required, then integrates. Codex stops at awaiting-independent-review without root_visual_review, integration, commit or push.",
+  "status_script_note": "artwork-status.mjs labels closed items as terpasang; batch2174 12/50 means source declines already closed, not installed PNGs. Current active manifest remains1998; batch2174 actual installed0."
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "pucel",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-135.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Dark angel; no actual water, only invisible roar of waters.",
+  "basis_claim_ids": [
+    "pucel-c03",
+    "pucel-c06",
+    "pucel-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Dark angel form; opaque robes and dark wings are editorial visualization of angel.",
+      "claim_ids": [
+        "pucel-c03",
+        "pucel-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No actual water; invisible roar of waters not visualized as flood.",
+      "claim_ids": [
+        "pucel-c04"
+      ]
+    }
+  ],
+  "aura": "Kesan melalui wujud malaikat gelap dan gestur perintah (pucel-c03, pucel-c06); gemuruh air c04 tetap tak terlihat karena tidak ada air.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Wings and opaque dark robes are editorial realization of angel form, not separately documented anatomy. No actual water because c04 explicitly says there is none. No invented physical effect from an audible ability."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-2174/rejected/pucel-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-2174/rejected/pucel-attempt-01.json",
+      "native_sha256": "64b669cd5253176ec5776e1a919a4e68b9767edbea98fab6c78d68b11c5884ae",
+      "reason": "Root rejects01: standing fashion-model pose with neutral expression and inviting open palm; §6.1 fails active commanding presence."
+    }
+  ],
+  "prompt": "Edit this exact dark angel to correct ONLY action and expression while preserving original dark feathered angel anatomy, two arms, two wings, opaque robes, entirely dry environment and no aura. Make Pucel decisively DESCEND toward the low camera: torso pitches sharply forward, one knee visibly lifted beneath opaque robe, the robe billows hard backward, BOTH broad wings flare upward and backward in a powerful descending beat. Bring his stern furrowed face close, looking directly DOWN at viewer; mouth open issuing a commanding shout, facial muscles tense, no neutral fashion-model face. The near hand reaches forward with palm turned DOWN and fingers forcefully spread in command rather than an inviting palm up. Other arm swept backward for balance. Keep close confrontational diagonal framing, one low warm lamp, dark dry stone and dust only. No water/flood/waves; sound of waters in Pucel c04 occurs WHERE NONE EXIST and must not be depicted as water. Dark angel form c03/c06, no invented power effects. Square premium painterly cinematic. No text, logos, watermark, border, extra limbs, horns, crown or glow.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-edef-7352-b961-d05839e14bd2/exec-2f1d449c-b068-4a06-a014-70d81c121e37.png",
+  "generated_at": "2026-10-22T10:58:43.574Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/pucel.png",
+  "native_sha256": "2cb69ea91c062a74212e920439064e0c717197821cffeed4675cffd18c2555b4",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Corrected02: torso descends forward, knee raised, robe billows, brow furrowed and open shouting mouth, palm now downward commanding, wings flare. Two arms/wings; no physical water. Native and 200px inspected.",
+    "limitations": [],
+    "native_sha256": "2cb69ea91c062a74212e920439064e0c717197821cffeed4675cffd18c2555b4",
+    "reviewed_at": "2026-10-22T10:58:43.574Z"
+  }
+}

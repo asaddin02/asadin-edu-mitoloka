@@ -1,0 +1,54 @@
+{
+  "slug": "si",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Single-horned dark blue-black oxlike Si of Guo Pu’s Erya commentary; fierce beast, not rhinoceros.",
+  "basis_claim_ids": [
+    "si-c01",
+    "si-c02",
+    "si-c03",
+    "si-c04",
+    "si-c05",
+    "si-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One dark blue-black oxlike beast with exactly one horn, one head two eyes four cloven-hoofed legs and one tail.",
+      "claim_ids": [
+        "si-c01",
+        "si-c03",
+        "si-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fierce charging motion only, dust from hooves, no documented magic.",
+      "claim_ids": [
+        "si-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Yunmeng hunting-ground context, rough reeds and dark woodland.",
+      "claim_ids": [
+        "si-c05"
+      ]
+    }
+  ],
+  "aura": "Fierce animal charge c02, single-horn ox silhouette c01/c03 and dark hide c03/c06; no magic.",
+  "artistic_choices": [
+    "Centered horn position is editorial placement because claim documents number rather than location.",
+    "Hide is tough and textured, not worn armor; c06 describes later human use, not armor on living beast.",
+    "Close foreshortened charge supplies dominance without unsupported gigantic scale; no literal blood foam from rhinoceros passage preceding Si in c07."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Si (兕), the fierce single-horned oxlike beast of ancient Chinese texts, using Guo Pu's dark blue-black variant.\nANATOMY: ONE powerful OXLIKE animal with dark BLUE-BLACK hide, broad bovine muzzle, two soft rounded ears, one head two natural eyes FOUR cloven-hoofed legs and ONE tail. Exactly ONE thick tapered hard horn rises forward from the center of its forehead; no paired lateral horns. The two ears are soft rounded furred ears, never horn-shaped. Muscular shoulder and dense tough hide, clearly oxlike not rhinoceros, no plates or straps. [si-c01, si-c03, si-c04, si-c06]\nMOMENT: CHARGE straight at the viewer with head lowered and single horn thrust toward camera, near hoof striking loose soil, flared nostrils, hard focused eyes, muscles compressed in fierce motion. [si-c02]\nPOWER: no documented magical power; only physical charging force and ordinary dirt scattering from hooves. No breath fire, magical wind, blood foam or aura.\nSCALE & CAMERA: extremely low close camera at hoof level; face, ONE horn and shoulder fill the square, foreshortened ordinary large bovine scale, no tiny humans or unsupported mountainsize body.\nLIGHT & WEATHER: single oblique warm sunset slit through dark reeds, strong rim across horn and tough blue-black hide, deep shadows and natural airborne dust.\nSURFACE: rough dense hide, coarse bristled neck, worn horn keratin, mud on hooves, shredded reeds.\nSETTING: rough ancient Yunmeng hunting-ground reedbed and dark woodland of Chu, out of focus behind the charging beast. [si-c05]\nMOOD: dangerous fierce mythic animal confrontation, never placid cattle at pasture, cute, calm or decorative.\nHARD CONSTRAINTS: exactly ONE horn and TWO soft ears; no extra heads, eyes, legs or fingers; no text, lettering, logo, border, frame or watermark; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T10:59:34.438Z"
+}

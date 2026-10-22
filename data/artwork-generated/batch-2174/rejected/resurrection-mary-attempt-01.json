@@ -1,0 +1,62 @@
+{
+  "slug": "resurrection-mary",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-147.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Blonde blue-eyed woman in opaque white party dress vanishing at Resurrection Cemetery; folklore scene, not a verified event.",
+  "basis_claim_ids": [
+    "resurrection-mary-c02",
+    "resurrection-mary-c04",
+    "resurrection-mary-c05",
+    "resurrection-mary-c06",
+    "resurrection-mary-c09",
+    "resurrection-mary-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Young woman with light blonde hair and blue eyes, opaque formal white dancing dress and matching shoes, natural anatomy.",
+      "claim_ids": [
+        "resurrection-mary-c05",
+        "resurrection-mary-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Disappearance into the cemetery: a sharply absent lower-right portion of silhouette lets distant gate stones show through. One hand touches iron fence beside dark scorched hand marks from the reported tale, no flames.",
+      "claim_ids": [
+        "resurrection-mary-c06",
+        "resurrection-mary-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Resurrection Cemetery fence beside Archer Avenue at night.",
+      "claim_ids": [
+        "resurrection-mary-c02",
+        "resurrection-mary-c04"
+      ]
+    }
+  ],
+  "aura": "Unsettling disappearing figure c06 and reported scorched iron hand marks c11 distinguish the apparition, without invented colored glow.",
+  "artistic_choices": [
+    "Depicts general young-woman apparition c05 rather than identifying her as any proposed real person or the child candidate.",
+    "c11 is an allegation explicitly disputed by cemetery officials; image illustrates folklore, not evidence.",
+    "A high-necked long-sleeved 1930s-inspired opaque party dress and low-angle framing are editorial; she appears uncanny rather than malicious.",
+    "Absence during disappearance shows the cemetery behind her; remaining dress is fully opaque."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Resurrection Mary, the Chicago vanishing hitchhiker ghost at the iron fence of Resurrection Cemetery, depicted as folklore rather than a verified event.\nANATOMY: ONE young adult woman with LIGHT BLONDE hair and BLUE eyes, one head two eyes two arms, a completely opaque high-necked long-sleeved white formal dancing dress with matching dancing shoes. Modest 1930s-inspired clothing, no torn revealing fabric. [resurrection-mary-c05, resurrection-mary-c09]\nMOMENT: TURN abruptly toward the viewer while stepping into the cemetery, face close and unnervingly intense, one hand pressed to a dark wrought-iron fence bar. Her LOWER RIGHT silhouette is actively DISAPPEARING: a broad clean missing section of dress and body reveals cemetery stones behind it, while her intact face, torso and one hand stay solid opaque. Make this impossible absence unambiguous, not just a woman standing at a gate.\nPOWER: vanishing as she returns to the cemetery; near her hand, dark scorched hand-shaped marks are visible on the wrought iron as in the reported handprint legend. No fire, no smoke from hands, no magic glow. [resurrection-mary-c06, resurrection-mary-c11]\nSCALE & CAMERA: low angle very close three-quarter portrait, intact face and shoulder fill most of the frame, iron fence and missing lower silhouette readable in foreground, normal human scale.\nLIGHT & WEATHER: one off-camera vintage car headlight from Archer Avenue gives severe pale side light, deep warm-black shadows, thin natural night fog between cemetery stones.\nSURFACE: worn matte white crepe fabric, pale natural skin, blonde strands, aged iron with dark scorches, damp stone.\nSETTING: the fence of Resurrection Cemetery beside Archer Avenue, Illinois; no readable gravestone inscriptions. [resurrection-mary-c02, resurrection-mary-c04]\nMOOD: uncanny overwhelming ghost encounter, solemn startled confrontation, not seductive, fashion portrait, ordinary passerby or evil monster.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline, glowing eyes or energy ribbons.",
+  "spec_written_at": "2026-10-22T10:16:39.685Z",
+  "original_file": "data/artwork-generated/batch-2174/rejected/resurrection-mary-attempt-01.png",
+  "receipt_file": "data/artwork-generated/batch-2174/rejected/resurrection-mary-attempt-01.json",
+  "native_sha256": "9382a5c0a84d14e1427780cbff497caa3a463a152ce7eef32ae027568ee653b5",
+  "reason": "Root native+200 reject: pretty fashion portrait, neutral/surprised gaze, bottom cutout only partly ghost; ordinary woman risk under §6.1. Require unmistakable disappearance through torso and raised arm/hand.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16315-1a06-71d0-bbc5-0daf7405a641/exec-0e7dedc0-d4e9-46c2-a00f-db40b9c78c71.png",
+  "rejected_at": "2026-10-22T10:57:49.233Z"
+}

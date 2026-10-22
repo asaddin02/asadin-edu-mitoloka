@@ -1,0 +1,67 @@
+{
+  "slug": "shichimen-tennyo",
+  "worker": "codex",
+  "worker_agent": "art_2174_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "batch": 2174,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "basis_claim_ids": [
+    "shichimen-tennyo-c01",
+    "shichimen-tennyo-c04",
+    "shichimen-tennyo-c05",
+    "shichimen-tennyo-c07"
+  ],
+  "depicted_variant": "Manifestasi naga merah Shichimen Tennyo yang terbang sesudah menerima air; satu naga, tanpa sosok perempuan tambahan.",
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Satu naga merah bersifat pelindung, satu kepala dan tubuh naga panjang; tidak menambahkan tujuh kepala dari namanya.",
+      "claim_ids": [
+        "shichimen-tennyo-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Naga terbang ke barat; tetes air biasa menandai cerita diberi air, tanpa hidrokinesis/napas api.",
+      "claim_ids": [
+        "shichimen-tennyo-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kawasan Gunung Minobu/Kuon-ji yang dilindunginya.",
+      "claim_ids": [
+        "shichimen-tennyo-c04",
+        "shichimen-tennyo-c05"
+      ]
+    }
+  ],
+  "aura": "Keagungan naga merah pelindung Dharma c01/c04 dalam momen terbang c07; bukan naga jahat.",
+  "artistic_choices": [
+    "Bentuk naga timur ramping bersisik sebagai rekonstruksi editorial dari istilah naga merah; detail sisik/whisker tidak dinyatakan ikonografi khusus.",
+    "Panjang sekitar dua jo c07 dipertahankan melalui atap kuil berukuran biasa; kamera dekat, tidak membesar menjadi seukuran gunung.",
+    "Tidak memakai napas api, petir, kendali air, mutiara atau tujuh kepala yang tidak disebut klaim. Cahaya senja/palet editorial."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Shichimen Tennyo in her documented red dragon manifestation, the revered Buddhist guardian of the Lotus Sutra, benevolent and overwhelming [shichimen-tennyo-c01, shichimen-tennyo-c04].\nANATOMY: exactly ONE graceful scarlet eastern dragon, one dragon head and one long winding scaled body, slender whiskers; no wings, no multiple heads, no human figure. A restrained original traditional dragon reconstruction, not a modern entertainment design. Forelimbs tucked close, hind limbs obscured naturally by the coiling body [shichimen-tennyo-c04].\nMOMENT: soaring westward directly above the near temple eaves, banking powerfully toward and over the low viewer, head lowered in protective attentive gaze and long red body sweeping through the square [shichimen-tennyo-c07].\nPOWER: documented dragon flight only; a few ordinary clear water droplets on scales recall the water received before transformation, no spells, fire breath or controlled water [shichimen-tennyo-c07].\nSCALE & CAMERA: extreme low close view from under the head, red face and coiling body fill nearly all the square. Dragon is around two jo in length, roughly six metres, against normal-size temple eaves close below, never mountain-sized [shichimen-tennyo-c07].\nLIGHT & WEATHER: one low warm sunset from the west, antique-gold rim along wet scarlet scales, deep walnut shadows and cool mountain air.\nSURFACE: tactile lacquer-red wet scales and delicate whiskers, aged wooden temple eaves.\nSETTING: vicinity of Mount Minobu and Kuon-ji under her protection, an unobtrusive near roof edge and mountain silhouette only [shichimen-tennyo-c04, shichimen-tennyo-c05].\nMOOD: sacred, majestic, awe-inspiring guardian presence, resolute and benevolent, never evil, snarling monster, cute or decorative.\nHARD CONSTRAINTS: no extra heads, arms, wings or floating symbols; no text, lettering, logo, border, frame or watermark; no fire, lightning, magic pearl, generic glow aura, neon outlines or energy ribbons; no borrowed design; no nudity or gore.",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16314-c5ed-7370-8ee9-e9ed53ca78bf/exec-088abd57-b69a-47ad-9066-ed34beaefdd0.png",
+  "generated_at": "2026-10-22T11:06:20.865Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/shichimen-tennyo.png",
+  "native_sha256": "90fb282e90b160c8abfde079dacdf5380ee99a8ec0908a4ce8c18e2e2e3b2d4f",
+  "width": 1254,
+  "height": 1254,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native dan 200px: satu naga merah wingless terbang di dekat atap, kepala dan lilitan mendominasi, megah dengan tatapan pelindung. Dua mata, satu kepala, forelimb tertutup sebagian tanpa anggota tambahan; tanpa api/hidrokinesis/aura/teks. Tujuh Uji Sangar ya.",
+    "limitations": [],
+    "native_sha256": "90fb282e90b160c8abfde079dacdf5380ee99a8ec0908a4ce8c18e2e2e3b2d4f",
+    "reviewed_at": "2026-10-22T11:06:20.865Z"
+  }
+}

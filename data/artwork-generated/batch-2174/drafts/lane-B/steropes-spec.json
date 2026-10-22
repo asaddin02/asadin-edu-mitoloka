@@ -1,0 +1,54 @@
+{
+  "slug": "steropes",
+  "worker": "codex",
+  "worker_agent": "art_2174_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-095.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "Single-eyed Cyclops forging Zeus thunderbolt in underground iron foundry.",
+  "basis_claim_ids": [
+    "steropes-c04",
+    "steropes-c05",
+    "steropes-c01",
+    "steropes-c08",
+    "steropes-c03"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Godlike human form with exactly one eye in middle of forehead, no lateral eye sockets.",
+      "claim_ids": [
+        "steropes-c04",
+        "steropes-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forges Zeus thunderbolt; metal sparks and contained lightning in artifact.",
+      "claim_ids": [
+        "steropes-c01",
+        "steropes-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underground iron foundry/Sicilian cave forge.",
+      "claim_ids": [
+        "steropes-c03",
+        "steropes-c08"
+      ]
+    }
+  ],
+  "aura": "Kekuatan melalui mata tunggal dan aksi menempa petir Zeus (steropes-c04, steropes-c08), cahaya dibatasi pada benda tempaan.",
+  "artistic_choices": [
+    "Palet walnut dan emas antik, sinematik low-key; pilihan editorial bukan klaim baru.",
+    "Apron/tunic are editorial modest clothing. Thunderbolt lightning is restricted to artifact, not invented bodily power."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of STEROPES, the one-eyed Cyclops making Zeus's thunderbolt.\nANATOMY: ONE powerful godlike human head with exactly ONE LARGE EYE set centrally in the FOREHEAD [steropes-c04,c05], lower face continuous solid skin with NO second eyes or lateral eye hollows; TWO arms, TWO legs; rugged bearded male, opaque leather smith apron and opaque tunic covering torso/hips, not nude.\nMOMENT: forcefully hammering a half-forged metal THUNDERBOLT onto a huge iron anvil, muscles straining, single forehead eye fixed sharply on the striking point and directed near the viewer.\nPOWER: thunderbolt-maker at work [steropes-c01,c08]; branching bright lightning confined to the jagged thunderbolt artifact on the anvil, orange metal sparks burst at hammer impact, no lightning from body or eye.\nSCALE & CAMERA: extreme low close angle, central forehead eye and hammer dominate square, enormous smith shoulders fill frame, anvil in near foreground; no other Cyclopes or humans.\nLIGHT & WEATHER: single incandescent forge behind anvil provides warm rim light, thunderbolt small white-hot accent; deep cave shadow, smoke and sparks.\nSURFACE: soot-covered skin, cracked leather, hammered iron, rough cave walls.\nSETTING: underground iron foundry in Sicilian cave [steropes-c03,c08].\nMOOD: overwhelming craft and strength, dangerous active force.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; precisely one forehead eye and NO other eye sockets, no extra arms or fingers; no borrowed film/game/anime/comic designs; no nudity or gore; no generic glow aura, neon outline or energy ribbons."
+}

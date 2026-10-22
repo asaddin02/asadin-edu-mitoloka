@@ -1,0 +1,75 @@
+{
+  "slug": "sitri",
+  "worker": "codex",
+  "worker_agent": "art_2174_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 2174,
+  "review_path": "data/gemini/reviews/batch-052.review.json",
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "depicted_variant": "The initial leopard-headed, gryphon-winged appearance of Goetia, cropped clothed torso rather than extrapolated lower anatomy.",
+  "basis_claim_ids": [
+    "sitri-c02",
+    "sitri-c03",
+    "sitri-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One leopard head with two eyes and rounded ears, two large feathered gryphon wings; lower body outside frame, visible torso fully opaque cloth.",
+      "claim_ids": [
+        "sitri-c03",
+        "sitri-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Initial appearance with wings beating; air displacement only, no literal flames from metaphor inflaming love.",
+      "claim_ids": [
+        "sitri-c05"
+      ]
+    }
+  ],
+  "aura": "Leopard head and gryphon wings c03/c05 dominate the frame; no inferred fire or erotic effect from c06.",
+  "artistic_choices": [
+    "Lower body deliberately cropped because source specifies head and wings, not quadruped/humanoid body plan.",
+    "Fully opaque dark mantle is editorial modest clothing; no crown or weapon inferred from prince rank.",
+    "Tight low angle, feather motion and dust create menace without undocumented giant scale; neutral shadow backdrop because no setting claimed."
+  ],
+  "prompt": "ONE original square premium painterly cinematic Mitoloka illustration of Sitri, the Goetic prince in his initial leopard-headed appearance with the wings of a gryphon.\nANATOMY: ONE realistic LEOPARD HEAD, exactly two natural eyes, two rounded feline ears, broad feline muzzle with whiskers and natural teeth, golden rosetted fur. Exactly TWO enormous FEATHERED GRYPHON WINGS attach behind the shoulders, one on each side, strong eagle-like feathers. Visible shoulder/chest wrapped in completely opaque dark worn cloth mantle, no exposed human chest. The composition crops BELOW THE CHEST so lower-body plan and hands are not visible. No horns, no extra face, no lion mane, no crown, no bat membranes. [sitri-c03, sitri-c05]\nMOMENT: APPEAR directly before the viewer with one powerful downbeat of both wings, leopard head thrust low forward, ears tense and mouth open in a controlled threatening snarl, eyes locked downward at us. Head and raking feather arcs overwhelmingly fill the square.\nPOWER: this is his documented INITIAL appearance before human transformation. Only feather movement and ordinary dust physically pushed downward by wings. No fire, love symbols, erotic figures, magical metamorphosis, summoned creatures or aura. [sitri-c05]\nSCALE & CAMERA: intimate extreme low angle bust portrait, leopard head occupies central third with both wing roots and sweeping feather edges clear at200 pixels; dominance from close framing, not giant size.\nLIGHT & WEATHER: single warm side lamp outside frame, antique gold rim on feline whiskers and feather shafts, deep walnut-black shadows, ordinary disturbed dust.\nSURFACE: dense spotted feline fur, worn feather barbs, weathered opaque coarse cloth, tactile painterly brushwork.\nSETTING: neutral deep shadow with no specific architecture or invented magical domain.\nMOOD: predatory and imposing supernatural appearance, dangerous controlled authority, never cute winged pet or calm decorative portrait.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly one head and two wings; no extra limbs, fingers or invented lower anatomy; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "spec_written_at": "2026-10-22T11:01:50.779Z",
+  "status": "awaiting-independent-review",
+  "generated_file": "/home/asadin/.codex/generated_images/01a16315-1a06-71d0-bbc5-0daf7405a641/exec-4b4f936f-8bb1-4ac8-93ca-4d17c502ef14.png",
+  "generated_at": "2026-10-22T11:04:30.662Z",
+  "original_file": "data/artwork-generated/batch-2174/originals/sitri.png",
+  "native_sha256": "2f06f3ba71c00f5c0bdb7d47938dedc86609f2f0613197a2f69111ea70fe4e29",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native1254+200 inspected: one leopard head with rounded ears, natural two eyes and teeth, two feathered gryphon wings at downbeat, opaque mantle bust crop. Predatory gaze/snarl and feather motion read clearly at200. No invented lower anatomy, flame or erotic imagery.",
+    "limitations": [],
+    "native_sha256": "2f06f3ba71c00f5c0bdb7d47938dedc86609f2f0613197a2f69111ea70fe4e29",
+    "reviewed_at": "2026-10-22T11:04:30.662Z"
+  },
+  "worker_visual_check": {
+    "native_reviewed": true,
+    "thumbnail_200_reviewed": true,
+    "thumbnail_path": "data/artwork-generated/batch-2174/drafts/C/sitri-200.png",
+    "sangar_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "notes": "Native1254+200 inspected: one leopard head with rounded ears, natural two eyes and teeth, two feathered gryphon wings at downbeat, opaque mantle bust crop. Predatory gaze/snarl and feather motion read clearly at200. No invented lower anatomy, flame or erotic imagery."
+  }
+}
