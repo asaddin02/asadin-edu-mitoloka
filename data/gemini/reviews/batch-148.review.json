@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-148",
-  "checked_at": "2026-10-22T10:44:55.004Z",
+  "checked_at": "2026-10-22T10:51:49.448Z",
   "files": [
     "batch-148.md",
     "batch-148-fix-1.md",
     "batch-148-fix-2.md",
     "batch-148-fix-3.md",
     "batch-148-fix-4.md",
-    "batch-148-fix-5.md"
+    "batch-148-fix-5.md",
+    "batch-148-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4616,20 +4617,15 @@
     },
     {
       "slug": "hillbilly-beast-of-kentucky",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-6.md",
+      "entry_sha256": "d658a9db6d7486b7a620dca5c332c03a5812cff4eaa5b2a3417e2f2775942ae7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hillbilly-beast-of-kentucky-c01",
@@ -4638,7 +4634,7 @@
           "statement": "The Hillbilly Beast of Kentucky is an urban legend similar to Bigfoot roaming eastern Kentucky near Ohio River.",
           "statement_id": "Hillbilly Beast of Kentucky adalah legenda urban mirip Bigfoot di bukit Kentucky timur dekat Sungai Ohio.",
           "quote": "The Hillbilly Beast of Kentucky, also called the Hillbilly Beast, is a Kentucky urban legend similar to Bigfoot that reportedly roams the hills of eastern Kentucky near the Ohio River.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -4648,29 +4644,73 @@
           "statement": "The beast reportedly has black eyes that glow orange at night, shouts, and bangs on trees.",
           "statement_id": "Makhluk ini dilaporkan memiliki mata hitam yang menyala oranye di malam hari, berteriak, dan memukul pohon.",
           "quote": "The beast reportedly has black eyes that glow orange during the night, vocalizes using shouts, and bangs on trees.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hillbilly-beast-of-kentucky-c03",
+          "source_id": "hillbilly-beast-of-kentucky-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hillbilly Beast of Kentucky is supposedly 8–10 ft (2.4–3.0 m) tall and weighs over 800 lb (362.8 kg).",
+          "statement_id": "Hillbilly Beast of Kentucky konon setinggi 8–10 kaki (2,4–3,0 m) dan berbobot lebih dari 800 pon (362,8 kg).",
+          "quote": "The Hillbilly Beast of Kentucky is supposedly 8–10 ft (2.4–3.0 m) tall and weighs over 800 Ib (362.8 kg).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hillbilly-beast-of-kentucky-c04",
+          "source_id": "hillbilly-beast-of-kentucky-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Daniel Boone told of killing a \"ten-foot, hairy giant\", which he called a \"Yahoo\", based on hairy man-like creatures in Jonathan Swift's book \"Gulliver's Travels\".",
+          "statement_id": "Daniel Boone bercerita pernah membunuh \"raksasa berbulu setinggi sepuluh kaki\" yang ia sebut \"Yahoo\", berdasarkan makhluk mirip manusia berbulu dalam buku \"Gulliver's Travels\" karya Jonathan Swift.",
+          "quote": "Daniel Boone told of killing a \"ten-foot, hairy giant,\" which he called a \"Yahoo,\" based on hairy man-like creatures in the book \"Gulliver's Travels\" written by Jonathan Swift.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hillbilly-beast-of-kentucky-c05",
+          "source_id": "hillbilly-beast-of-kentucky-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hillbilly Beast of Kentucky was the focus of MonsterQuest (S4, E2), which aired on 20 January 2010.",
+          "statement_id": "Hillbilly Beast of Kentucky menjadi fokus MonsterQuest (S4, E2) yang tayang 20 Januari 2010.",
+          "quote": "The Hillbilly Beast of Kentucky was the focus of MonsterQuest (S4, E2) which came out Jan 20, 2010.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hillbilly-beast-of-kentucky-c06",
+          "source_id": "hillbilly-beast-of-kentucky-s2",
+          "host": "cdn.centerforinquiry.org",
+          "statement": "According to the Skeptical Inquirer article, Boone frequently carried a Bible, a book of history, or Gulliver's Travels, his favorite book, to read by campfire light.",
+          "statement_id": "Menurut artikel Skeptical Inquirer, Boone sering membawa Alkitab, buku sejarah, atau Gulliver's Travels, buku favoritnya, untuk dibaca di bawah cahaya api unggun.",
+          "quote": "Boone \"frequently carried along a copy of the Bible, or a book of history, which he loved, or Gulliver's Travels, his favorite book, to read by the light of the campfire\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hillbilly-beast-of-kentucky-c07",
+          "source_id": "hillbilly-beast-of-kentucky-s2",
+          "host": "cdn.centerforinquiry.org",
+          "statement": "Yahoos in Swift's book do not seem to have been bigger or taller than people; if Boone said he killed one ten feet tall, the height may have come from him rather than from Swift's book.",
+          "statement_id": "Yahoo dalam buku Swift tampaknya tidak lebih besar atau tinggi daripada manusia; bila Boone mengaku membunuh satu yang setinggi sepuluh kaki, tinggi itu mungkin berasal dari Boone, bukan dari buku Swift.",
+          "quote": "Yahoos don't seem to have been bigger or taller than people; if Boone said he'd killed one ten feet tall, the height might have come from him rather than Swift's book.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "faa043027a8e6b5878de172c906fd3baa596eedf7f77e1cfb7232678f0eb951e"
+      "images": []
     },
     {
       "slug": "hombre-gato",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-6.md",
+      "entry_sha256": "fb0d74ab49ea8a8b548a38f2826b6815b8cfaa0cf08f79db8369b22d80a40e94",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hombre-gato-c01",
@@ -4679,7 +4719,7 @@
           "statement": "The Hombre Gato, or Catman, is a legendary creature that possesses both feline and human features.",
           "statement_id": "Hombre Gato atau Catman adalah makhluk legendaris dengan ciri kucing dan manusia.",
           "quote": "The Hombre Gato, or Catman, is a legendary creature that possesses both feline and human features.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -4689,7 +4729,7 @@
           "statement": "This South American folk tale is particularly popular in Argentina, especially in rural areas.",
           "statement_id": "Kisah rakyat Amerika Selatan ini sangat populer di Argentina, terutama di daerah pedesaan.",
           "quote": "This South American folk tale is particularly popular in Argentina, especially in rural and less populated areas.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -4699,29 +4739,83 @@
           "statement": "Much like the werewolf, the catman is thought to come out at night, preying on people and animals.",
           "statement_id": "Mirip manusia serigala, manusia kucing dipercaya keluar malam memangsa orang dan hewan.",
           "quote": "Much like the werewolf, the catman is thought to come out at night, roaming neighborhoods and preying on both people and animals.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c04",
+          "source_id": "hombre-gato-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some believe in his existence, claiming to have heard or even encountered him, but most people who tell the story describe it as fictional.",
+          "statement_id": "Ada yang percaya akan keberadaannya dan mengaku pernah mendengar atau bahkan bertemu dengannya, tetapi sebagian besar orang yang menceritakan kisah ini menyebutnya fiksi.",
+          "quote": "There are those who believe in his existence, claiming to have heard or even encountered him, but the majority of people who relate this story describe it as fictional.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c05",
+          "source_id": "hombre-gato-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hombre Gato has also entered Hispanic literature and become the subject of many short stories and science fiction tales.",
+          "statement_id": "Hombre Gato juga masuk ke sastra Hispanik dan menjadi subjek banyak cerita pendek dan kisah fiksi ilmiah.",
+          "quote": "The Hombre Gato has also made its way into Hispanic literature, becoming the subject of many short stories and science fiction tales.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c06",
+          "source_id": "hombre-gato-s2",
+          "host": "www.neoteo.com",
+          "statement": "According to the NeoTeo article, the legend of the Hombre Gato began to circulate in the 1980s in small towns of the province of Buenos Aires, Argentina.",
+          "statement_id": "Menurut artikel NeoTeo, legenda Hombre Gato mulai beredar pada tahun 1980-an di kota-kota kecil di provinsi Buenos Aires, Argentina.",
+          "quote": "La Leyenda del Hombre Gato comenzó a circular durante los años 80 en pequeños pueblos de la provincia de Buenos Aires, Argentina.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c07",
+          "source_id": "hombre-gato-s2",
+          "host": "www.neoteo.com",
+          "statement": "One of those towns is Navarro, home town of NeoTeo colleague Maximiliano Ferzzola, who had contact with this urban myth from a very young age.",
+          "statement_id": "Salah satu kota itu adalah Navarro, kampung halaman Maximiliano Ferzzola, rekan penulis NeoTeo yang sejak kecil mengenal mitos urban ini.",
+          "quote": "Uno de esos pueblos es Navarro, hogar natal de nuestro amigo y compañero de NeoTeo, Maximiliano Ferzzola, quien desde muy pequeño tuvo contacto con este mito urbano.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c08",
+          "source_id": "hombre-gato-s2",
+          "host": "www.neoteo.com",
+          "statement": "For the documentary, Ferzzola went through the archives of the town's public library and interviewed writers, journalists, neighbors and victims of the Hombre Gato, who give their testimony.",
+          "statement_id": "Untuk dokumenternya, Ferzzola memeriksa arsip perpustakaan umum kota dan mewawancarai penulis, wartawan, warga, dan korban Hombre Gato yang memberi kesaksian.",
+          "quote": "Desde la biblioteca pública del pueblo, donde tuvo que inspeccionar cada archivo de la época, hasta entrevistar a escritores, periodistas, vecinos y víctimas del Hombre Gato, quienes comparten su testimonio en este documental.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c09",
+          "source_id": "hombre-gato-s2",
+          "host": "www.neoteo.com",
+          "statement": "A myth that, like many others, is still alive in small communities but is usually unknown to most people who are not from the place.",
+          "statement_id": "Mitos ini, seperti banyak lainnya, masih hidup di komunitas kecil tetapi umumnya tidak dikenal orang dari luar tempat itu.",
+          "quote": "Un mito que, como muchos otros, aún sigue vigente en las pequeñas comunidades pero que la mayoría, si no es del lugar, suele desconocer.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3acc38452320a8f3a3a5ba84232efbfaefc426a719464e306da1b39b9572c29"
+      "images": []
     },
     {
       "slug": "homem-dos-pes-de-louca",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-6.md",
+      "entry_sha256": "8d8bb04ad068c443e0904937680151d832bb661105d4b3c0c6a98caa602da398",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "homem-dos-pes-de-louca-c01",
@@ -4752,27 +4846,81 @@
           "quote": "Têm o corpo, a voz, os olhos, os cabelos iguais aos de qualquer homem comum, mas os pés são feitos de louça, com brilhos de luz.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c04",
+          "source_id": "homem-dos-pes-de-louca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Some say they are souls of suffering fishermen; others, spirits of unfortunate shipwreck victims.",
+          "statement_id": "Ada yang mengatakan mereka adalah arwah nelayan yang menderita; yang lain mengatakan roh korban karam yang malang.",
+          "quote": "Uns dizem que são almas de pescadores que penam. Outros, espíritos de náufragos desgraçados.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c05",
+          "source_id": "homem-dos-pes-de-louca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Whoever hears the call of the Homem de Pés de Louça should not turn, should not be moved, and should not look at its feet.",
+          "statement_id": "Siapa yang mendengar panggilan Homem de Pés de Louça sebaiknya tidak menoleh, tidak tersentuh, dan tidak melihat kakinya.",
+          "quote": "Quem ouvir o chamado do Homem de Pés de Louça que não se vire, que não se comova e que não olhe para os seus pés.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c06",
+          "source_id": "homem-dos-pes-de-louca-s2",
+          "host": "archive.org",
+          "statement": "In Cascudo's dictionary, the Homens dos Pés de Loiça are apparitions and ghosts that appear on ilha Grande, the restinga de Marambaia and in Mangaratiba, in the State of Rio de Janeiro.",
+          "statement_id": "Dalam kamus Cascudo, Homens dos Pés de Loiça adalah penampakan hantu yang muncul di ilha Grande, restinga de Marambaia, dan Mangaratiba, negara bagian Rio de Janeiro.",
+          "quote": "Homens dos Pés de Loiça. Assombra- ção, fantasmas que aparecem na ilha Grande, restinga de Marambaia, Man- garatiba, no Estado do Rio de Janei- ro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c07",
+          "source_id": "homem-dos-pes-de-louca-s2",
+          "host": "archive.org",
+          "statement": "The feet are made of loiça (china), with flashes of light.",
+          "statement_id": "Kakinya terbuat dari loiça (porselen), berkilau cahaya.",
+          "quote": "Os pés são feitos de loiça, com brilhos de luz.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c08",
+          "source_id": "homem-dos-pes-de-louca-s2",
+          "host": "archive.org",
+          "statement": "People who look at the feet are said to go mad; an old man, seu Colimério, lost his mind because he saw them.",
+          "statement_id": "Konon orang yang melihat kakinya menjadi gila; seorang lelaki tua bernama seu Colimério kehilangan akal karena melihat mereka.",
+          "quote": "Se olhar, dizem que fica louco. Teve um velho que morreu, chamado seu Coli- mério, que perdeu o juizo, porque avis- tou os homens dos pés de loiça",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c09",
+          "source_id": "homem-dos-pes-de-louca-s2",
+          "host": "archive.org",
+          "statement": "The long description in Cascudo's entry is quoted from the novel Vazante by José Mauro de Vasconcelos (São Paulo, 1951).",
+          "statement_id": "Uraian panjang dalam verbet Cascudo itu dikutip dari novel Vazante karya José Mauro de Vasconcelos (São Paulo, 1951).",
+          "quote": "(José Mauro de Vasconcelos, Vazante, 118. ed. Martins, São Paulo, 1951).",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3483e160e46a368b0d88ccfcc3a4021f9861e3ffb9a104dc367ffbeb34413e11"
+      "images": []
     },
     {
       "slug": "horned-serpent",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-6.md",
+      "entry_sha256": "d222d209d8846998a0a5a6b65dba376cd5768aa73c8df3d631cf159839753511",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "horned-serpent-c01",
@@ -4803,27 +4951,131 @@
           "quote": "Als ze tegen elkaar vechten, bliksemt en regent het hevig.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c04",
+          "source_id": "horned-serpent-s1",
+          "host": "nl.wikipedia.org",
+          "statement": "Some horned serpents have a red and a green horn; they live in the water and eat anyone who comes near.",
+          "statement_id": "Beberapa ular bertanduk memiliki satu tanduk merah dan satu hijau; mereka hidup di air dan memakan siapa pun yang mendekat.",
+          "quote": "Sommige gehoornde serpenten hebben een rode en een groene hoorn. Ze leven in het water en eten iedereen op die in de buurt komt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c05",
+          "source_id": "horned-serpent-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Mooney, those who know say the Uktena is a great snake as large around as a tree trunk, with horns on its head, a bright blazing crest like a diamond on its forehead and scales glittering like sparks of fire.",
+          "statement_id": "Menurut Mooney, mereka yang tahu mengatakan Uktena adalah ular besar selebar batang pohon, bertanduk di kepala, dengan jambul bercahaya seperti berlian di dahi dan sisik berkilau seperti percikan api.",
+          "quote": "Those who know say that the Uktena is a great snake, as large around as a tree trunk, with horns on its head, and a bright, blazing crest like a diamond upon its forehead, and scales glittering like sparks of fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c06",
+          "source_id": "horned-serpent-s2",
+          "host": "www.gutenberg.org",
+          "statement": "It has rings or spots of color along its whole length and can be wounded only by shooting the seventh spot from the head, under which are its heart and its life.",
+          "statement_id": "Ia punya cincin atau bintik warna sepanjang tubuhnya dan hanya bisa dilukai dengan menembak bintik ketujuh dari kepala, karena di bawahnya terdapat jantung dan nyawanya.",
+          "quote": "It has rings or spots of color along its whole length, and can not be wounded except by shooting in the seventh spot from the head, because under this spot are its heart and its life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c07",
+          "source_id": "horned-serpent-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Whoever the Uktena sees is so dazed by the bright light that he runs toward the snake instead of escaping, and even seeing the Uktena asleep is death, not for the hunter himself but for his family.",
+          "statement_id": "Siapa pun yang terlihat oleh Uktena begitu terpesona cahaya terang hingga berlari ke arah ular itu, dan melihat Uktena yang tidur pun berarti maut bagi keluarga si pemburu.",
+          "quote": "for whoever is seen by the Uktena is so dazed by the bright light that he runs toward the snake instead of trying to escape. Even to see the Uktena asleep is death, not to the hunter himself, but to his family.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c08",
+          "source_id": "horned-serpent-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Uktena left behind others nearly as large and dangerous as himself, and they now hide in deep pools in the river and in lonely passes in the high mountains.",
+          "statement_id": "Uktena meninggalkan yang lain yang hampir sebesar dan seberbahaya dirinya, dan mereka kini bersembunyi di kolam dalam sungai dan di celah sepi pegunungan tinggi.",
+          "quote": "He left others behind him, though, nearly as large and dangerous as himself, and they hide now in deep pools in the river and about lonely passes in the high mountains",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c09",
+          "source_id": "horned-serpent-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mooney notes that the Uktena has its parallel in the Gitchi-Kenebig or Great Horned Serpent of the northern Algonquian tribes and is somewhat analogous to the Zemo'gu'ani or Great Horned Alligator of the Kiowa.",
+          "statement_id": "Mooney mencatat bahwa Uktena memiliki padanan pada Gitchi-Kenebig atau Great Horned Serpent suku-suku Algonquian utara dan agak serupa dengan Zemo'gu'ani, Great Horned Alligator suku Kiowa.",
+          "quote": "The Uktena has its parallel in the Gitchi-Kenebig or Great Horned Serpent of the northern Algonquian tribes, and is somewhat analogous to the Zemo`gu'ani or Great Horned Alligator of the Kiowa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c10",
+          "source_id": "horned-serpent-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Horned serpents appear in the oral history of numerous Native American cultures, especially in the Southeastern Woodlands and Great Lakes.",
+          "statement_id": "Ular bertanduk muncul dalam sejarah lisan banyak budaya penduduk asli Amerika, terutama di Southeastern Woodlands dan Great Lakes.",
+          "quote": "Horned serpents appear in the oral history of numerous Native American cultures, especially in the Southeastern Woodlands and Great Lakes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c11",
+          "source_id": "horned-serpent-s3",
+          "host": "en.wikipedia.org",
+          "statement": "To the Muscogee people the Horned Serpent is an underwater serpent covered with iridescent, crystalline scales and a single large crystal in its forehead.",
+          "statement_id": "Bagi bangsa Muscogee, Horned Serpent adalah ular bawah air bersisik kristal berkilau pelangi dengan satu kristal besar di dahinya.",
+          "quote": "To the Muscogee people, the Horned Serpent is a type of underwater serpent covered with iridescent, crystalline scales and a single, large crystal in its forehead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c12",
+          "source_id": "horned-serpent-s2",
+          "host": "www.gutenberg.org",
+          "statement": "When the Sun grew angry at the people on earth and sent a sickness to destroy them, the Little Men changed a man into a monster snake they called Uktena, \"The Keen-eyed\", and sent him to kill her.",
+          "statement_id": "Ketika Matahari marah kepada manusia dan mengirim penyakit, para Little Men mengubah seorang manusia menjadi ular raksasa bernama Uktena, \"Si Mata Tajam\", dan mengutusnya membunuh Matahari.",
+          "quote": "when the Sun became angry at the people on earth and sent a sickness to destroy them, the Little Men changed a man into a monster snake, which they called Uktena, \"The Keen-eyed,\" and sent him to kill her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c13",
+          "source_id": "horned-serpent-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Jackson Lewis, a Muscogee informant, said the snake lives in the water, has horns like a stag, is not a bad snake, does not harm human beings, but seems to have a magnetic power over game.",
+          "statement_id": "Jackson Lewis, informan Muscogee bagi John R. Swanton, dikutip mengatakan ular ini hidup di air, bertanduk seperti rusa jantan, tidak jahat, tidak mencelakai manusia, tetapi tampak memiliki daya tarik magnetis atas hewan buruan.",
+          "quote": "Jackson Lewis, a Muscogee Creek informant to John R. Swanton, said, \"This snake lives in the water has horns like the stag. It is not a bad snake. ... It does not harm human beings but seems to have a magnetic power over game.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c14",
+          "source_id": "horned-serpent-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Among the Cherokee, a Horned Serpent is called an uktena; the anthropologist James Mooney describes the creature.",
+          "statement_id": "Di kalangan Cherokee, ular bertanduk disebut uktena; antropolog James Mooney menguraikan makhluk itu.",
+          "quote": "Among Cherokee people, a Horned Serpent is called an uktena. Anthropologist James Mooney, describes the creature",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9cb10eca2949fd15eb3a07aa2f29d6af637a71a88ddd528b147c93ea72e36478"
+      "images": []
     },
     {
       "slug": "hugag",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-6.md",
+      "entry_sha256": "9c96a662c1f34cfcead4a4d2df7e77ca2550194ddfd8a616b3f6ac2dc0cedaa1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hugag-c01",
@@ -4844,10 +5096,69 @@
           "quote": "The modern conception of the hugag is largely derived from 1910's Fearsome Creatures of the Lumberwoods by William T. Cox.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hugag-c03",
+          "source_id": "hugag-s2",
+          "host": "archive.org",
+          "statement": "Cox writes that the hugag is a huge animal of the Lake States, ranging over western Wisconsin, northern Minnesota and a territory extending indefinitely northward in the Canadian wilds toward Hudson Bay.",
+          "statement_id": "Cox menulis bahwa hugag adalah hewan raksasa di Lake States; wilayahnya mencakup Wisconsin barat, Minnesota utara, dan wilayah yang meluas tanpa batas ke utara di belantara Kanada menuju Hudson Bay.",
+          "quote": "The hugag is a huge animal of the Lake States. Its range includes western Wisconsin, northern Minnesota, and a terri- tory extending indefinitely northward in the Canadian wilds toward Hudson Bay.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hugag-c04",
+          "source_id": "hugag-s2",
+          "host": "archive.org",
+          "statement": "In size it may be compared to the moose, and in form it somewhat resembles that animal.",
+          "statement_id": "Ukurannya sebanding dengan rusa besar (moose) dan bentuknya agak menyerupainya.",
+          "quote": "In size the hugag may be compared to the moose, and in form it somewhat resembles that animal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hugag-c05",
+          "source_id": "hugag-s2",
+          "host": "archive.org",
+          "statement": "Its head and neck are leathery and hairless; its four-toed feet, long bushy tail and shaggy coat give it an unmistakably prehistoric appearance.",
+          "statement_id": "Kepala dan lehernya berkulit liat tanpa bulu; kaki berjari empat, ekor panjang berumbai, dan bulu kasar membuatnya tampak jelas purba.",
+          "quote": "Its head and neck are leathery and hairless ... its four-toed feet, long bushy tail, shaggy coat and general make-up give the beast an unmistakably prehistoric appearance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hugag-c06",
+          "source_id": "hugag-s2",
+          "host": "archive.org",
+          "statement": "At night, since it cannot lie down, it leans against a tree, bracing its hind legs and marking time with its front ones.",
+          "statement_id": "Pada malam hari, karena tidak bisa berbaring, ia bersandar pada pohon, menahan diri dengan kaki belakang dan menghentak-hentakkan kaki depan.",
+          "quote": "at night, since it cannot lie down, it leans against a tree, bracing its hind legs and mark- ing time with its front ones.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hugag-c07",
+          "source_id": "hugag-s2",
+          "host": "archive.org",
+          "statement": "The most successful hugag hunters notch trees so that they are almost ready to fall, and when the hugag leans against one both the tree and the animal come down.",
+          "statement_id": "Pemburu hugag yang paling berhasil menoreh pohon hingga hampir tumbang; saat hugag bersandar, pohon dan hewan itu sama-sama roboh.",
+          "quote": "The most successful hugag hunters have adopted the practice of notching trees so that they are almost ready to fall, and when the hugag leans up against one both the tree and the animal come down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hugag-c08",
+          "source_id": "hugag-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first mention of the hugag as an imaginary animal, establishing it as a myth among loggers, is found in the 1900 book In the Limestone Valley: Pen Pictures of Early Days in Western Wisconsin by S.W. Brown.",
+          "statement_id": "Penyebutan pertama hugag sebagai hewan khayalan yang menjadikannya mitos di kalangan penebang kayu ditemukan dalam buku tahun 1900 In the Limestone Valley karya S.W. Brown.",
+          "quote": "The first mention of the hugag to refer to an imaginary animal, while also establishing it as a myth among loggers, is found in the 1900 book In the Limestone Valley: Pen Pictures of Early Days in Western Wisconsin by S.W. Brown.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "211cdd904438cae3d20a0233583d6f9aaedb1bf09e9eaf0196cda770fe07a1c8"
+      "images": []
     }
   ]
 }

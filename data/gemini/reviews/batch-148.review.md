@@ -1,6 +1,6 @@
 # Review batch-148
 
-Diperiksa 2026-10-22T10:44:55.004Z. Berkas: batch-148.md, batch-148-fix-1.md, batch-148-fix-2.md, batch-148-fix-3.md, batch-148-fix-4.md, batch-148-fix-5.md.
+Diperiksa 2026-10-22T10:51:49.448Z. Berkas: batch-148.md, batch-148-fix-1.md, batch-148-fix-2.md, batch-148-fix-3.md, batch-148-fix-4.md, batch-148-fix-5.md, batch-148-fix-6.md.
 
 ## tata-duende — lulus-otomatis
 
@@ -740,68 +740,87 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## hillbilly-beast-of-kentucky — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hillbilly-beast-of-kentucky-c01 | exact | en.wikipedia.org | The Hillbilly Beast of Kentucky is an urban legend similar to Bigfoot roaming eastern Kentucky near Ohio River. | The Hillbilly Beast of Kentucky, also called the Hillbilly Beast, is a Kentucky urban legend similar to Bigfoot that reportedly roams the hills of eastern Kentucky near the Ohio River. |
 | hillbilly-beast-of-kentucky-c02 | exact | en.wikipedia.org | The beast reportedly has black eyes that glow orange at night, shouts, and bangs on trees. | The beast reportedly has black eyes that glow orange during the night, vocalizes using shouts, and bangs on trees. |
+| hillbilly-beast-of-kentucky-c03 | exact | en.wikipedia.org | The Hillbilly Beast of Kentucky is supposedly 8–10 ft (2.4–3.0 m) tall and weighs over 800 lb (362.8 kg). | The Hillbilly Beast of Kentucky is supposedly 8–10 ft (2.4–3.0 m) tall and weighs over 800 Ib (362.8 kg). |
+| hillbilly-beast-of-kentucky-c04 | exact | en.wikipedia.org | Daniel Boone told of killing a "ten-foot, hairy giant", which he called a "Yahoo", based on hairy man-like creatures in Jonathan Swift's book "Gulliver's Travels". | Daniel Boone told of killing a "ten-foot, hairy giant," which he called a "Yahoo," based on hairy man-like creatures in the book "Gulliver's Travels" written by Jonathan Swift. |
+| hillbilly-beast-of-kentucky-c05 | exact | en.wikipedia.org | The Hillbilly Beast of Kentucky was the focus of MonsterQuest (S4, E2), which aired on 20 January 2010. | The Hillbilly Beast of Kentucky was the focus of MonsterQuest (S4, E2) which came out Jan 20, 2010. |
+| hillbilly-beast-of-kentucky-c06 | exact | cdn.centerforinquiry.org | According to the Skeptical Inquirer article, Boone frequently carried a Bible, a book of history, or Gulliver's Travels, his favorite book, to read by campfire light. | Boone "frequently carried along a copy of the Bible, or a book of history, which he loved, or Gulliver's Travels, his favorite book, to read by the light of the campfire" |
+| hillbilly-beast-of-kentucky-c07 | exact | cdn.centerforinquiry.org | Yahoos in Swift's book do not seem to have been bigger or taller than people; if Boone said he killed one ten feet tall, the height may have come from him rather than from Swift's book. | Yahoos don't seem to have been bigger or taller than people; if Boone said he'd killed one ten feet tall, the height might have come from him rather than Swift's book. |
 
 
 ## hombre-gato — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hombre-gato-c01 | exact | en.wikipedia.org | The Hombre Gato, or Catman, is a legendary creature that possesses both feline and human features. | The Hombre Gato, or Catman, is a legendary creature that possesses both feline and human features. |
 | hombre-gato-c02 | exact | en.wikipedia.org | This South American folk tale is particularly popular in Argentina, especially in rural areas. | This South American folk tale is particularly popular in Argentina, especially in rural and less populated areas. |
 | hombre-gato-c03 | exact | en.wikipedia.org | Much like the werewolf, the catman is thought to come out at night, preying on people and animals. | Much like the werewolf, the catman is thought to come out at night, roaming neighborhoods and preying on both people and animals. |
+| hombre-gato-c04 | exact | en.wikipedia.org | Some believe in his existence, claiming to have heard or even encountered him, but most people who tell the story describe it as fictional. | There are those who believe in his existence, claiming to have heard or even encountered him, but the majority of people who relate this story describe it as fictional. |
+| hombre-gato-c05 | exact | en.wikipedia.org | The Hombre Gato has also entered Hispanic literature and become the subject of many short stories and science fiction tales. | The Hombre Gato has also made its way into Hispanic literature, becoming the subject of many short stories and science fiction tales. |
+| hombre-gato-c06 | exact | www.neoteo.com | According to the NeoTeo article, the legend of the Hombre Gato began to circulate in the 1980s in small towns of the province of Buenos Aires, Argentina. | La Leyenda del Hombre Gato comenzó a circular durante los años 80 en pequeños pueblos de la provincia de Buenos Aires, Argentina. |
+| hombre-gato-c07 | exact | www.neoteo.com | One of those towns is Navarro, home town of NeoTeo colleague Maximiliano Ferzzola, who had contact with this urban myth from a very young age. | Uno de esos pueblos es Navarro, hogar natal de nuestro amigo y compañero de NeoTeo, Maximiliano Ferzzola, quien desde muy pequeño tuvo contacto con este mito urbano. |
+| hombre-gato-c08 | exact | www.neoteo.com | For the documentary, Ferzzola went through the archives of the town's public library and interviewed writers, journalists, neighbors and victims of the Hombre Gato, who give their testimony. | Desde la biblioteca pública del pueblo, donde tuvo que inspeccionar cada archivo de la época, hasta entrevistar a escritores, periodistas, vecinos y víctimas del Hombre Gato, quienes comparten su testimonio en este documental. |
+| hombre-gato-c09 | exact | www.neoteo.com | A myth that, like many others, is still alive in small communities but is usually unknown to most people who are not from the place. | Un mito que, como muchos otros, aún sigue vigente en las pequeñas comunidades pero que la mayoría, si no es del lugar, suele desconocer. |
 
 
 ## homem-dos-pes-de-louca — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | homem-dos-pes-de-louca-c01 | exact | pt.wikipedia.org | Homem dos Pés de Louça is a Brazilian folkloric figure. | Homem dos Pés de Louça é uma figura folclórica brasileira. |
 | homem-dos-pes-de-louca-c02 | exact | pt.wikipedia.org | It is considered an apparition, a ghost that appears in Ilha Grande, Restinga de Marambaia, Mangaratiba, in Rio de Janeiro. | É tido como uma assombração, um fantasma que aparece na Ilha Grande, Restinga de Marambaia, Mangaratiba, no estado do Rio de Janeiro. |
 | homem-dos-pes-de-louca-c03 | exact | pt.wikipedia.org | They have a body like common men, but feet made of porcelain with glints of light. | Têm o corpo, a voz, os olhos, os cabelos iguais aos de qualquer homem comum, mas os pés são feitos de louça, com brilhos de luz. |
+| homem-dos-pes-de-louca-c04 | exact | pt.wikipedia.org | Some say they are souls of suffering fishermen; others, spirits of unfortunate shipwreck victims. | Uns dizem que são almas de pescadores que penam. Outros, espíritos de náufragos desgraçados. |
+| homem-dos-pes-de-louca-c05 | exact | pt.wikipedia.org | Whoever hears the call of the Homem de Pés de Louça should not turn, should not be moved, and should not look at its feet. | Quem ouvir o chamado do Homem de Pés de Louça que não se vire, que não se comova e que não olhe para os seus pés. |
+| homem-dos-pes-de-louca-c06 | exact | archive.org | In Cascudo's dictionary, the Homens dos Pés de Loiça are apparitions and ghosts that appear on ilha Grande, the restinga de Marambaia and in Mangaratiba, in the State of Rio de Janeiro. | Homens dos Pés de Loiça. Assombra- ção, fantasmas que aparecem na ilha Grande, restinga de Marambaia, Man- garatiba, no Estado do Rio de Janei- ro. |
+| homem-dos-pes-de-louca-c07 | exact | archive.org | The feet are made of loiça (china), with flashes of light. | Os pés são feitos de loiça, com brilhos de luz. |
+| homem-dos-pes-de-louca-c08 | exact | archive.org | People who look at the feet are said to go mad; an old man, seu Colimério, lost his mind because he saw them. | Se olhar, dizem que fica louco. Teve um velho que morreu, chamado seu Coli- mério, que perdeu o juizo, porque avis- tou os homens dos pés de loiça |
+| homem-dos-pes-de-louca-c09 | exact | archive.org | The long description in Cascudo's entry is quoted from the novel Vazante by José Mauro de Vasconcelos (São Paulo, 1951). | (José Mauro de Vasconcelos, Vazante, 118. ed. Martins, São Paulo, 1951). |
 
 
 ## horned-serpent — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | horned-serpent-c01 | exact | nl.wikipedia.org | The horned serpent is a fabulous beast said to occur throughout North America. | Het gehoornd serpent is een fabeldier dat in heel Noord-Amerika voor zou komen. |
 | horned-serpent-c02 | exact | nl.wikipedia.org | The horned serpent is the arch-enemy of the thunderbird. | Het gehoornd serpent is de aartsvijand van de dondervogel. |
 | horned-serpent-c03 | exact | nl.wikipedia.org | When they fight against each other, lightning and heavy rain occur. | Als ze tegen elkaar vechten, bliksemt en regent het hevig. |
+| horned-serpent-c04 | exact | nl.wikipedia.org | Some horned serpents have a red and a green horn; they live in the water and eat anyone who comes near. | Sommige gehoornde serpenten hebben een rode en een groene hoorn. Ze leven in het water en eten iedereen op die in de buurt komt. |
+| horned-serpent-c05 | exact | www.gutenberg.org | According to Mooney, those who know say the Uktena is a great snake as large around as a tree trunk, with horns on its head, a bright blazing crest like a diamond on its forehead and scales glittering like sparks of fire. | Those who know say that the Uktena is a great snake, as large around as a tree trunk, with horns on its head, and a bright, blazing crest like a diamond upon its forehead, and scales glittering like sparks of fire. |
+| horned-serpent-c06 | exact | www.gutenberg.org | It has rings or spots of color along its whole length and can be wounded only by shooting the seventh spot from the head, under which are its heart and its life. | It has rings or spots of color along its whole length, and can not be wounded except by shooting in the seventh spot from the head, because under this spot are its heart and its life. |
+| horned-serpent-c07 | exact | www.gutenberg.org | Whoever the Uktena sees is so dazed by the bright light that he runs toward the snake instead of escaping, and even seeing the Uktena asleep is death, not for the hunter himself but for his family. | for whoever is seen by the Uktena is so dazed by the bright light that he runs toward the snake instead of trying to escape. Even to see the Uktena asleep is death, not to the hunter himself, but to his family. |
+| horned-serpent-c08 | exact | www.gutenberg.org | The Uktena left behind others nearly as large and dangerous as himself, and they now hide in deep pools in the river and in lonely passes in the high mountains. | He left others behind him, though, nearly as large and dangerous as himself, and they hide now in deep pools in the river and about lonely passes in the high mountains |
+| horned-serpent-c09 | exact | www.gutenberg.org | Mooney notes that the Uktena has its parallel in the Gitchi-Kenebig or Great Horned Serpent of the northern Algonquian tribes and is somewhat analogous to the Zemo'gu'ani or Great Horned Alligator of the Kiowa. | The Uktena has its parallel in the Gitchi-Kenebig or Great Horned Serpent of the northern Algonquian tribes, and is somewhat analogous to the Zemo`gu'ani or Great Horned Alligator of the Kiowa. |
+| horned-serpent-c10 | exact | en.wikipedia.org | Horned serpents appear in the oral history of numerous Native American cultures, especially in the Southeastern Woodlands and Great Lakes. | Horned serpents appear in the oral history of numerous Native American cultures, especially in the Southeastern Woodlands and Great Lakes. |
+| horned-serpent-c11 | exact | en.wikipedia.org | To the Muscogee people the Horned Serpent is an underwater serpent covered with iridescent, crystalline scales and a single large crystal in its forehead. | To the Muscogee people, the Horned Serpent is a type of underwater serpent covered with iridescent, crystalline scales and a single, large crystal in its forehead. |
+| horned-serpent-c12 | exact | www.gutenberg.org | When the Sun grew angry at the people on earth and sent a sickness to destroy them, the Little Men changed a man into a monster snake they called Uktena, "The Keen-eyed", and sent him to kill her. | when the Sun became angry at the people on earth and sent a sickness to destroy them, the Little Men changed a man into a monster snake, which they called Uktena, "The Keen-eyed," and sent him to kill her. |
+| horned-serpent-c13 | exact | en.wikipedia.org | Jackson Lewis, a Muscogee informant, said the snake lives in the water, has horns like a stag, is not a bad snake, does not harm human beings, but seems to have a magnetic power over game. | Jackson Lewis, a Muscogee Creek informant to John R. Swanton, said, "This snake lives in the water has horns like the stag. It is not a bad snake. ... It does not harm human beings but seems to have a magnetic power over game." |
+| horned-serpent-c14 | exact | en.wikipedia.org | Among the Cherokee, a Horned Serpent is called an uktena; the anthropologist James Mooney describes the creature. | Among Cherokee people, a Horned Serpent is called an uktena. Anthropologist James Mooney, describes the creature |
 
 
 ## hugag — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hugag-c01 | exact | en.wikipedia.org | In American folklore, the hugag is a fearsome critter similar to a moose with an extensive upper lip and jointless legs. | In American folklore, the hugag is a fearsome critter similar to a moose with an extensive upper lip, preventing it from grazing, and jointless legs preventing it from lying down. |
 | hugag-c02 | exact | en.wikipedia.org | The modern conception of the hugag is derived from 1910's Fearsome Creatures of the Lumberwoods by Cox. | The modern conception of the hugag is largely derived from 1910's Fearsome Creatures of the Lumberwoods by William T. Cox. |
+| hugag-c03 | exact | archive.org | Cox writes that the hugag is a huge animal of the Lake States, ranging over western Wisconsin, northern Minnesota and a territory extending indefinitely northward in the Canadian wilds toward Hudson Bay. | The hugag is a huge animal of the Lake States. Its range includes western Wisconsin, northern Minnesota, and a terri- tory extending indefinitely northward in the Canadian wilds toward Hudson Bay. |
+| hugag-c04 | exact | archive.org | In size it may be compared to the moose, and in form it somewhat resembles that animal. | In size the hugag may be compared to the moose, and in form it somewhat resembles that animal. |
+| hugag-c05 | exact | archive.org | Its head and neck are leathery and hairless; its four-toed feet, long bushy tail and shaggy coat give it an unmistakably prehistoric appearance. | Its head and neck are leathery and hairless ... its four-toed feet, long bushy tail, shaggy coat and general make-up give the beast an unmistakably prehistoric appearance. |
+| hugag-c06 | exact | archive.org | At night, since it cannot lie down, it leans against a tree, bracing its hind legs and marking time with its front ones. | at night, since it cannot lie down, it leans against a tree, bracing its hind legs and mark- ing time with its front ones. |
+| hugag-c07 | exact | archive.org | The most successful hugag hunters notch trees so that they are almost ready to fall, and when the hugag leans against one both the tree and the animal come down. | The most successful hugag hunters have adopted the practice of notching trees so that they are almost ready to fall, and when the hugag leans up against one both the tree and the animal come down. |
+| hugag-c08 | exact | en.wikipedia.org | The first mention of the hugag as an imaginary animal, establishing it as a myth among loggers, is found in the 1900 book In the Limestone Valley: Pen Pictures of Early Days in Western Wisconsin by S.W. Brown. | The first mention of the hugag to refer to an imaginary animal, while also establishing it as a myth among loggers, is found in the 1900 book In the Limestone Valley: Pen Pictures of Early Days in Western Wisconsin by S.W. Brown. |
 
