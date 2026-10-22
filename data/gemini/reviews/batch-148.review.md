@@ -1,6 +1,6 @@
 # Review batch-148
 
-Diperiksa 2026-10-07T04:40:44.156Z. Berkas: batch-148.md, batch-148-fix-1.md, batch-148-fix-2.md, batch-148-fix-3.md.
+Diperiksa 2026-10-22T10:44:55.004Z. Berkas: batch-148.md, batch-148-fix-1.md, batch-148-fix-2.md, batch-148-fix-3.md, batch-148-fix-4.md, batch-148-fix-5.md.
 
 ## tata-duende — lulus-otomatis
 
@@ -316,48 +316,59 @@ Klaim 15 (exact 15), sumber 2, gambar 0.
 
 ## ataide — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ataide-c01 | exact | pt.wikipedia.org | Ataíde is a mangrove encantado from Bragança, Para, called Oiaras in Pajelança cabocla. | Ataíde é um encantado do mangue, que na Pajelança cabocla são chamados de Oiaras, da cidade de Bragança, que fica localizada no nordeste do estado brasileiro do Pará. |
 | ataide-c02 | exact | pt.wikipedia.org | This entity is known as a protector of local nature, a territory bathed by rivers and mangroves. | Esta entidade é conhecida como protetora da natureza local, território banhado por rios e mangues. |
 | ataide-c03 | exact | pt.wikipedia.org | Ataíde possesses animalistic characteristics such as a hairy body, large claws, and superhuman strength. | o Ataíde possui características animalescas, como um corpo coberto de pelos, garras grandes, força e membros sobre-humanos. |
+| ataide-c04 | exact | pt.wikipedia.org | In protecting these spaces, Ataíde ends up punishing those who harm the nature of the region. | Ao realizar a proteção desses espaços, o Ataíde acaba castigando quem prejudica a natureza da região. |
+| ataide-c05 | exact | pt.wikipedia.org | The figure is feared by the residents of the city of Bragança, mainly by workers who live from the fishing trade and from gathering crabs in the mangroves, areas under Ataíde's protection. | Esses aspectos contribuíram para que a figura da criatura fosse temida pelos moradores da cidade de Bragança, principalmente pelos trabalhadores que vivem do comércio pesqueiro e da coleta de caranguejos nos mangues, áreas sob proteção do Ataíde. |
+| ataide-c06 | exact | pt.wikipedia.org | In popular narratives the chances of meeting this entity are greater when people move through areas near the woods, rivers and mangroves. | as chances de encontrar com essa entidade são maiores quando as pessoas circulam em áreas próximas às matas, aos rios e aos mangues. |
+| ataide-c07 | exact | www.repositorio.ufpa.br | The authors describe Caboclo Ataíde as an encantado present in mangrove areas, streams and woods who manifests in order to seduce or punish fishermen, farmers and crab gatherers. | presente nas áreas de manguezais, riachos e matas que se manifesta no intuito de seduzir ou castigar pescadores, agricultores, catadores de caranguejo |
+| ataide-c08 | exact | www.repositorio.ufpa.br | Residents say Caboclo Ataíde is a being that has always acted in the region and that in the past was called "Sarambuí". | uma entidade que os moradores dizem tratar-se de um ser que sempre atuou na região e que no passado era chamado de “Sarambuí” |
+| ataide-c10 | exact | pt.wikipedia.org | The Boitatá, the Iara and other mystic beings are present in the culture of Pará; Ataíde is likened to them in having animal characteristics. | Assim como o Boitatá, a Iara e outros seres místicos presente na cultura paraense |
+| ataide-c09 | exact | www.repositorio.ufpa.br | In the village of Camutá, Ataíde is not an encantado who lives at the bottom of the rivers but an inhabitant of the mangrove, preferring to hide in the woods on clear days and come out in the half-light. | Na vila de Camutá, o Ataíde não é um encantado que vive no “fundo dos rios”, e sim um habitante do mangue, preferindo esconder-se na mata durante os dias claros para sair na penumbra. |
 
 
 ## augerino — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | augerino-c01 | exact | en.wikipedia.org | The augerino is a legendary creature present in folk tales of lumberjack and ranching communities in the western United States. | The augerino is a legendary creature present in the folk tales of lumberjack and ranching communities in the western United States. |
 | augerino-c02 | exact | en.wikipedia.org | Tales of the augerino described it as a subterranean creature which inhabited the drier regions of Colorado. | Tales of the augerino described it as a subterranean creature which inhabited the drier regions of Colorado. |
 | augerino-c03 | exact | en.wikipedia.org | The augerino required a dry environment and would bore holes in dams and ditches to drain water. | The augerino required a dry environment to survive and would bore holes in dams and irrigation ditches to let the water drain out. |
+| augerino-c04 | exact | archive.org | Where irrigation is practised, ranchers are humorously angry about the "Augerino", a malevolent subterranean creature whose sole mission is to let the water out of irrigation ditches. | Where irrigation is practiced, ranchers are humorously angry about the activities of the “Augerino,” a malevolent subterranean creature whose sole mission in life is to let the water out of irrigation ditches. |
+| augerino-c05 | exact | archive.org | It is said to drill a helical burrow a few feet under the surface and line it with silica to prevent cave-ins; reportedly it moves very slowly, is immune to all poisons and weapons, and cannot change its course. | drills a helical burrow a few feet under the surface, and lines its hole with silica to prevent caveins. According to reports, the “Augerino” moves very slowly; is immune to all poisons and weapons; and cannot change its course. |
+| augerino-c06 | exact | archive.org | Nobody living in Middle Park will admit having seen an "Augerino", but the creatures are still supposed to be living, because, as they say, the ditches still leak. | No person now living in Middle Park will admit having seen an “Augerino,” but the creatures are still supposed to be living, for “Hell, the ditches still leak, don’t they?” |
+| augerino-c07 | exact | archive.org | Internal molds of Laxispira, a Cretaceous gastropod, are sometimes humorously identified as "fossil Augerinos". | (internal molds of Laxispira (?), a Cretaceous gastropod) are sometimes humorously identified as “fossil Augerinos.” |
+| augerino-c08 | exact | en.wikipedia.org | The name appears to derive from the diminutive of the common hand tool, the auger. | The name appears to derive from the diminutive of the common hand tool, the auger. |
+| augerino-c09 | exact | en.wikipedia.org | A 1941 investigation of the folk tales of Middle Park, Colorado found stories describing the augerino as a gigantic, corkscrew-shaped, indestructible wormlike creature that lined its burrows with a silica substance to keep them from collapsing. | A 1941 investigation of the folk tales of Middle Park, Colorado uncovered stories of the augerino describing it as a gigantic, corkscrew-shaped, indestructible wormlike creature which lined its burrows with a silica substance to keep them from collapsing. |
+| augerino-c11 | exact | en.wikipedia.org | Folklorist Ronald L. Ives suggested that genuine belief in the creature may have come from misinterpretations of paleontological finds. | Folklorist Ronald L. Ives suggested that genuine belief in the creature may have come from misinterpretations of paleontological finds |
+| augerino-c10 | exact | en.wikipedia.org | In 2008 a new helical fossil found in New Mexico was named Augerinoichnus helicoidalis in honor of the augerino. | In 2008, a new helical fossil found in New Mexico was named Augerinoichnus helicoidalis in honor of the augerino. |
 
 
 ## awanyu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("awanyu or avanyu is a water guardian and a deity of the…"). Tulis ulang dengan kata-kata sendiri.
-- `long_description[1].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("awanyu is a protector of the pueblo people the guardian of waterways…"). Tulis ulang dengan kata-kata sendiri.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | awanyu-c01 | exact | en.wikipedia.org | Awanyu or Avanyu is a water guardian and a deity of the Tewa people. | Awanyu or Avanyu is a water guardian and a deity of the Tewa people. |
 | awanyu-c02 | exact | en.wikipedia.org | Awanyu is depicted as a horned (or plumed) serpent with a sinuous body suggestive of water flow or lightning. | Awanyu is depicted as a horned (or plumed) serpent with a sinuous body suggestive of the flow of water or the zigzag of lightning. |
 | awanyu-c03 | exact | en.wikipedia.org | Awanyu is a protector of the Pueblo people, guardian of waterways, and harbinger of storms. | Awanyu is a protector of the Pueblo people, the guardian of waterways and a harbinger of storms, and represented as a plumed (or horned) serpent. |
+| awanyu-c04 | exact | en.wikipedia.org | The Tewa frequently placed Awanyu icons on cave walls high above canyon rivers in New Mexico and Arizona. | Frequently, the Tewa emplaced Awanyu icons on cave walls situated high above canyon rivers in New Mexico and Arizona. |
+| awanyu-c05 | exact | en.wikipedia.org | The earliest representations of Avanyu date from 1000 AD and were found on Mimbres pottery, a precursor to Pueblo pottery. | The earliest representations of Avanyu are from 1000 AD. These were found on Mimbres pottery, a precursor to Pueblo pottery. |
+| awanyu-c06 | exact | en.wikipedia.org | Archaeologist Polly Schaafsma writes that the horned serpent is still revered as an important deity among the Pueblos and is known by various names, including Kolowisi (Zuni), Paaloloqangw (Hopi) and Awanyu (Tewa). | The horned serpent continues to be revered as an important deity among the Pueblos and is known by various names among the different linguistic groups, including Kolowisi (Zuni), Paaloloqangw (Hopi), and Awanyu (Tewa). |
+| awanyu-c07 | exact | en.wikipedia.org | Awanyu may be related to the deities associated with Quetzalcoatl, the feathered serpent of Mesoamerica. | Awanyu may be related to the associated deities of Quetzalcoatl, the feathered serpent of Mesoamerica. |
+| awanyu-c08 | exact | hoodmuseum.dartmouth.edu | According to the museum label, the Avanyu symbolizes clouds, rain, lightning and watery places; it connects the terrestrial and the heavenly, sustaining life in the temperamental desert landscape of the Southwest. | Embodying both earthly and otherworldly phenomena, the Avanyu symbolizes clouds, rain, lightning, and watery places. It connects the terrestrial and the heavenly, becoming a sustainer of life in the temperamental desert landscape of the Southwest. |
+| awanyu-c09 | exact | hoodmuseum.dartmouth.edu | A Tewa blackware pot by Severa Gutierrez Tafoya is incised with a zoomorphic being, the legendary Avanyu (water serpent). | Severa Gutierrez Tafoya’s Tewa blackware pot is incised with a zoomorphic being, the legendary Avanyu (water serpent). |
+| awanyu-c10 | exact | groundedinclay.org | According to the potter Jason Garcia, Avanyu may represent heavy flooding after a torrential storm and also the gentle flow of a river or stream. | Avanyu may represent heavy flooding after a torrential storm and also the gentle, soft flow of a river or stream. |
+| awanyu-c12 | exact | en.wikipedia.org | Awanyu is a frequent motif on Native American pottery from the Southwestern United States. | Awanyu is a frequent motif on Native American pottery from the Southwestern United States. |
+| awanyu-c11 | exact | groundedinclay.org | Avanyu is often seen on the ceremonial kilts of Pueblo buffalo dancers. | Avanyu is often seen on the ceremonial kilts of Pueblo buffalo dancers. |
 
 
 ## baca-mythological-creature — lulus-otomatis
@@ -380,30 +391,35 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## baykok — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | baykok-c01 | exact | en.wikipedia.org | The baykok is a malevolent spirit from the mythology of the Ojibway nation. | The baykok (or pau'guk, paguk, baguck; bakaak in the Ojibwe language and pakàk in the Algonquin language) is a malevolent spirit from the mythology of the Ojibway nation. |
 | baykok-c02 | exact | en.wikipedia.org | The Baykok is a character from traditional stories said to fly through forests of the Great Lakes region. | The Baykok is a character from the Anishinaabe aadizookaan (traditional stories). It is said to fly through the forests of the Great Lakes region. |
 | baykok-c03 | exact | en.wikipedia.org | The cries of Baykok are also described as being shrill. | The cries of Baykok are also described as being shrill. |
+| baykok-c04 | exact | en.wikipedia.org | Described as "Death" in The Song of Hiawatha, it is said to appear as an extremely emaciated skeleton-like figure with thin translucent skin and glowing red points for eyes. | Described as "Death" in The Song of Hiawatha, it is said to appear as an extremely emaciated skeleton-like figure, with thin translucent skin and glowing red points for eyes. |
+| baykok-c05 | exact | en.wikipedia.org | The Baykok preys only upon warriors, but ruthlessly, using invisible arrows or beating its prey to death with a club. | The Baykok only preys upon warriors, but does so ruthlessly, using invisible arrows or beating its prey to death with a club. |
+| baykok-c06 | exact | en.wikipedia.org | After paralyzing or killing its prey, the Baykok devours the liver of its victim. | The Baykok, after paralyzing or killing its prey, then devours the liver of its victim. |
+| baykok-c07 | exact | en.wikipedia.org | The word bakaak in the Anishinaabe language means "skeleton" in the sense of "bones draped in skin" rather than "bare bones". | The word bakaak in the Anishinaabe language means "skeleton" in the sense of "bones draped in skin" rather than "bare-bones" |
+| baykok-c08 | exact | www.gutenberg.org | In the poem The Song of Hiawatha, "the awful eyes of Pauguk" are said to glare in the darkness when Death draws near. | And at last when Death draws near you, When the awful eyes of Pauguk Glare upon you in the darkness, I will share my kingdom with you |
+| baykok-c09 | exact | www.gutenberg.org | The same poem speaks of "the fiery eyes of Pauguk", the eyes of Death glaring at someone. | Saw the fiery eyes of Pauguk, Saw the eyes of Death glare at him |
 
 
 ## bicho-da-fortaleza — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bicho-da-fortaleza-c01 | exact | pt.wikipedia.org | The bicho da fortaleza is a monster legend terrifying children in Minas Gerais and Bahia. | O bicho da fortaleza é a lenda de um monstro que aterroriza as crianças do Vale do Jequitinhonha e de boa parte das regiões vizinhas, em Minas Gerais e na Bahia, é o Bicho da Carneira, também chamado de Bicho da Fortaleza, Bicho de Pedra Azul, Bicho da Rodagem e Lanudo. |
 | bicho-da-fortaleza-c02 | exact | pt.wikipedia.org | This popular mythological monster takes forms most frequently of a large black dog appearing at dusk or night. | Esse monstro da mitologia popular assume diferentes formas. A mais frequente é a de um cachorro preto e grande que aparece ao entardecer ou depois que a noite cai. |
 | bicho-da-fortaleza-c03 | exact | pt.wikipedia.org | It is also described as a werewolf figure or hairy animal. | Também é descrito como a figura de um lobisomem ou animal peludo |
+| bicho-da-fortaleza-c04 | exact | pt.wikipedia.org | Mothers threaten small children with appearances of this monster if they do not go to sleep early. | E as mães ameaçam as criancinhas com aparições desse monstro se não dormirem cedo. |
+| bicho-da-fortaleza-c05 | exact | pt.wikipedia.org | Its behavior also varies: the caped one performs magical operations and seduces young girls; the ordinary man is recognized by his fabulous appetite and by mentioning relatives; and the animal consumes an abnormal amount of food, kills calves, attacks dogs, and kills and wounds many at once. | O comportamento também varia: o que usa capa realiza operações mágicas e seduz mocinhas; o homem comum é reconhecido pelo apetite fabuloso e pela menção aos familiares; e o animal consome uma quantidade anormal de alimentos, abate bezerros, ataca cachorros, mata e deixa feridos, muitos de uma vez só. |
+| bicho-da-fortaleza-c06 | exact | pt.wikipedia.org | In one version of the story this is where the name Bicho da Carneira came from, a name commonly used to designate a tomb. | Daí surgiu o nome Bicho da Carneira, nome comumente usado para designar túmulo. |
+| bicho-da-fortaleza-c07 | exact | sistemas.intercom.org.br | The paper presents the bicho da carneira as a legend of the city of Pedra Azul. | a história de uma lenda da cidade de Pedra Azul conhecida como bicho da carneira |
+| bicho-da-fortaleza-c08 | exact | sistemas.intercom.org.br | According to the paper's author, the Pedra Azul legend arises from a real place, character or circumstances, but spreads in a way similar to fiction because it gains supernatural aspects as it expands through oral narratives. | No caso da lenda de Pedra Azul, encontra-se um real verificável, uma vez que ela nasce a partir de um local, personagem ou circunstâncias reais; mas ela também é propagada de forma semelhante ao ficcional por ganhar aspectos sobrenaturais, à medida que se expande por meio de narrativas orais |
 
 
 ## blue-crow — skip
@@ -419,77 +435,84 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## boi-vaquim — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | boi-vaquim-c01 | exact | pt.wikipedia.org | It is a fabulous being from Rio Grande do Sul, described by historian Contreira Rodrigues. | Trata-se de um ser fabuloso do Rio Grande do Sul, descrito pelo historiador Contreira Rodrigues. |
 | boi-vaquim-c02 | exact | pt.wikipedia.org | It is an ox with wings and golden horns that sparks fire and has diamond eyes. | É um boi com asas e guampas de ouro, mete medo aos campeiros, porque chispa fogo pelas pontas das guampas e tem olhos de diamante. |
 | boi-vaquim-c03 | exact | pt.wikipedia.org | It requires great courage, a strong arm, and a sure-footed horse to lasso it. | É preciso muita coragem para laçá-lo, braço forte, cavalo bom de pata e de rédeas. |
+| boi-vaquim-c04 | exact | archive.org | In Cascudo's folklore dictionary, Boi Vaquim is a mystic being of Rio Grande do Sul described by the historian Contreiras Rodrigues. | Boi Vaquim. Trata-se de um ser mís- tico do Rio Grande do Sul, descrito pelo historiador Contreiras Rodrigues. |
+| boi-vaquim-c05 | exact | archive.org | It is a winged ox with golden horns raised like those of cows; it frightens the field hands because it sparks fire from the tips of its horns and has diamond eyes. | É um boi alado, com asas e guampas de ouro, levantadas como as vacas, portanto meio avacado. Mete medo aos campeiros, porque chispa fogo nas pontas das guampas e tem os olhos de diamante. |
+| boi-vaquim-c06 | exact | archive.org | Lassoing it takes great courage, a strong arm and a horse that is good on its feet and on the reins. | É preciso muita coragem para laçá-lo, braço forte, cavalo bom de pata e de rédeas. |
+| boi-vaquim-c07 | exact | archive.org | Contreiras Rodrigues supposes that the myth came from the north, through the troops of Sorocaba. | Supõe Contreiras Rodrigues que o mito tivesse vindo do norte, através das tropas de Sorocaba |
 
 
 ## boo-hag — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| boo-hag-c01 | exact | en.wikipedia.org | A boo hag is a mythical creature in the folklore of the Gullah Geechee people in Georgia. | A boo hag is a mythical creature in the folklore of the Gullah Geechee people in Georgia, part of African-American folktales. |
-| boo-hag-c02 | exact | en.wikipedia.org | It is a unique contribution to hag folklore based on Gullah or Hoodoo cultures. | It is a locally created, unique contribution to the worldwide hag folklore based on the syncretic belief system of Gullah or Hoodoo cultures. |
+| boo-hag-c01 | exact | en.wikipedia.org | A boo hag, also known as a witch hag, old hag, skin hag or simply hag, is a supernatural being in the folklore of the Gullah-Geechee people of the coastal areas of the U.S. states of North Carolina, South Carolina, Georgia and northern Florida. | A boo hag, also known as a witch hag, old hag, skin hag, or simply hag, is a supernatural being in the folklore of the Gullah-Geechee people of the coastal areas of the U.S. states of North Carolina, South Carolina, Georgia and northern Florida. |
+| boo-hag-c02 | exact | en.wikipedia.org | Boo hags are a locally created, unique contribution to the worldwide folklore of the hag or nightmare, a malevolent entity that "rides" a sleeping person to drain their life force. | Boo hags are a locally created, unique contribution to the worldwide folklore of the hag or nightmare, a malevolent entity that "rides" a sleeping person to drain their life force. |
 | boo-hag-c03 | exact | en.wikipedia.org | Unlike vampires, they gain sustenance from a person's breath by riding their victims. | Unlike vampires, they gain sustenance from a person's breath, as opposed to their blood, by riding their victims. |
+| boo-hag-c04 | exact | en.wikipedia.org | Hags who were "witches" sold their souls to the devil and had the power to change into animals and insects and to drain their victims' spiritual essence. | Hags who were "witches" sold their souls to the devil and had the power to change into animals and insects and drain their victims' spiritual essence. |
+| boo-hag-c05 | exact | en.wikipedia.org | Between 1930 and 1940, the Federal Writers Project recorded stories for historical preservation. | Between 1930 and 1940, the Federal Writers Project recorded stories for historical preservation. |
+| boo-hag-c06 | exact | docsouth.unc.edu | Jacob Stroyer wrote that the enslaved claimed witches rode human beings like horses, and that the spittle running down the cheek of a sleeper was the bridle the witch rode with. | They claimed that they rode human beings like horses, and the spittle that run on the side of the cheek when one slept was the bridle that the witch rode with. |
+| boo-hag-c07 | exact | docsouth.unc.edu | Stroyer wrote that the witches among the enslaved were called old hags or jack lanterns, and that people, men and women, who looked odd in old age were supposed to be witches. | were called old hags or jack lanterns. Those, both men and women, who, when they grew old looked odd, were supposed to be witches. |
+| boo-hag-c08 | exact | en.wikipedia.org | The distinctive feature of the Gullah-Geechee hag is that it removes its skin to prey on its victims. | The distinctive feature of the Gullah-Geechee hag is that it removes its skin to prey on its victims. |
 
 
 ## cainame — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cainame-c01 | exact | pt.wikipedia.org | Cainamé or Canaimé is a mythical figure responsible for malevolent occurrences according to macuxi and uapixana beliefs. | O Cainamé ou Canaimé é uma personagem mítica que, segundo a crença das tribos macuxi e uapixana, é responsável por acontecimentos maléficos. |
 | cainame-c02 | exact | pt.wikipedia.org | It acts primarily through wasting and death upon those committing reprehensible acts. | Age principalmente sob o definhamento e morte daqueles que cometem atos reprováveis. |
+| cainame-c03 | exact | archive.org | Cascudo calls Cainamé a duende (sprite) of the Macuxi, Pauxiana and Uapixana of the Alto Uraricuera, Rio Branco, Amazonas. | Cainamé. Duende dos macuxis pauxia- nas, uapixanas, do Alto Uraricuera, Rio Branco, Amazonas |
+| cainame-c04 | exact | archive.org | According to the passage quoted in Cascudo's entry, any act contrary to the adopted principles, if not punished by arms, was punished by this demon-possessed personality. | qualquer ato contrário aos prin- cípios adotados, se não era punido pelas armas, era castigado por essa endemoninhada personalidade. |
+| cainame-c05 | exact | archive.org | They feared being "blown on" much more; when that happened the victim began to waste away and sometimes died. | pois te- miam muito mais serem soprados. Quando isto sucedia, a vítima come- cava a definhar e, às vezes, morria. |
+| cainame-c06 | exact | archive.org | Asked about the origin of their illness, the afflicted answered, "It was Cainamé who blew on me, sir, and I am going to die." | Foi Cainamé que soprou, seu branco, e eu vou morrer |
+| cainame-c07 | exact | archive.org | Cascudo judges that Cainamé must be the same as the Canaimé described by Stradelli in "Rio Branco, note di viaggio". | Deve ser o mesmo Canaimé que Stradelli descre- ve, “Rio Branco, note de viaggio”. |
 
 
 ## capeta-do-vilarinho — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | capeta-do-vilarinho-c01 | exact | pt.wikipedia.org | The Capeta do Vilarinho is a legendary character from the city of Belo Horizonte, Brazil. | O Capeta do Vilarinho é um personagem lendário da cidade de Belo Horizonte, no Brasil. |
 | capeta-do-vilarinho-c02 | exact | pt.wikipedia.org | The character effectively transitioned into the city's folklore, being an integral part of traditions. | o personagem efetivamente transitou para o folclore da cidade, sendo hoje parte integrante das tradições da região. |
 | capeta-do-vilarinho-c03 | exact | pt.wikipedia.org | The legend originated on Avenida Vilarinho in Venda Nova, Belo Horizonte. | A lenda tem origem na Avenida Vilarinho, uma das principais avenidas da região de Venda Nova, em Belo Horizonte |
+| capeta-do-vilarinho-c04 | exact | pt.wikipedia.org | Although it originated in a marketing strategy devised by Francisco Filizzola, owner of the Vilarinho courts where the main event of the legend is said to have taken place. | Embora tenha tido origem em uma estratégia de marketing engendrada por Francisco Filizzola, dono das quadras do Vilarinho, onde o evento principal da lenda teria tido lugar |
+| capeta-do-vilarinho-c05 | exact | pt.wikipedia.org | According to the legend, during a dance contest on one of these courts, with the famous dancer Ricardo Malta as its king, an unknown man in a hat decided to take part. | Segundo a lenda, durante um concurso de dança numa dessas quadras, sendo o rei o célebre dançarino Ricardo Malta, um homem desconhecido e de chapéu decidiu participar. |
+| capeta-do-vilarinho-c06 | exact | pt.wikipedia.org | When he took off his hat to celebrate the victory, the two horns on his head were exposed; the place was seized by general uproar, in the midst of which the stranger fled and disappeared. | Ao tirar o chapéu para comemorar a vitória, ficaram a descoberto os dois chifres que estavam em sua cabeça, sendo o local tomado pelo alvoroço geral, em meio do qual o desconhecido fugiu e desapareceu. |
+| capeta-do-vilarinho-c07 | exact | pt.wikipedia.org | Filizzola states that around 1989, amid financial difficulties, they needed a story that would give free publicity and so created the "capeta da Vilarinho". | Por volta de 1989 estávamos passando por dificuldades financeiras, precisávamos de uma história que nos daria mídia espontânea. Criamos então o capeta da Vilarinho |
+| capeta-do-vilarinho-c08 | exact | pt.wikipedia.org | The event became known in the early 1990s as "o Capeta de Vilarinho", spreading quickly through the neighborhood and reaching the radio and TV stations of the whole city. | O ocorrido ficou conhecido nos inícios da década de 1990 como "o Capeta de Vilarinho", espalhando-se rapidamente no bairro, e alcançando as rádios e TVs de toda a cidade. |
+| capeta-do-vilarinho-c09 | exact | www.ufmg.br | According to this university museum blog, the event became known throughout Belo Horizonte in the mid-1990s because of a visit by the "Capeta da Vilarinho", who danced a whole night on the courts where the dance was held. | O evento ficou conhecido em toda Belo Horizonte em meados dos anos 90, ao ter uma visita do “Capeta da Vilarinho”, que dançou por uma noite inteira nas quadras do baile. |
 
 
 ## cavalo-d-agua — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cavalo-d-agua-c01 | exact | pt.wikipedia.org | The cavalo-d'água is a mythical being of the middle São Francisco River pursuing boats without a carranca carved on the bow. | O cavalo-d'água, também conhecido como cavalo-do-rio, é um ente mítico do médio rio São Francisco que persegue embarcações que não têm sua carranca esculpida na proa. |
+| cavalo-d-agua-c02 | exact | www.ifch.unicamp.br | Among these beings are the Caboclo D'água (today called Nego D'água), the Minhocão, the Mãe D'água and the Cavalo D'água, which were driven away by the powers attributed to the features of the river carrancas. | Dentre estes seres temos a lenda do Caboclo D’água (hoje chamado de Nego D’água), o Minhocão, a Mãe D’água e o Cavalo D’água, que eram afugentados pelos poderes atribuídos às feições das carrancas fluviais. |
+| cavalo-d-agua-c03 | exact | www.ifch.unicamp.br | In these narratives the river carranca could drive away animals (caimans and large fish) as well as intimidate the fantastic beings that populated the river and the imagination of the riverside dwellers. | Nessas narrativas, a carranca fluvial poderia afugentar animais (jacarés e grandes peixes) assim como intimidar os seres fantásticos que povoavam o rio e o imaginário dos ribeirinhos. |
+| cavalo-d-agua-c04 | exact | www.ifch.unicamp.br | The carrancas were also credited with the power to produce cracking sounds that warned of the risk of shipwreck near submerged rocks, waterfalls and whirlpools. | Além disso, a elas também era atribuído o poder de gerar estalos que alertariam sobre o risco de naufrágios diante de pedras submersas, cachoeiras e redemoinhos. |
+| cavalo-d-agua-c05 | exact | convergencialusiada.com.br | On the São Francisco River there is the legend of the cavalo do rio, which pursues the boats of those who are not friendly to it, capsizes them and sinks them. | No rio São Francisco há a lenda do cavalo do rio, que persegue as embarcações dos que não lhe são simpáticos, vira-as e as afunda. |
+| cavalo-d-agua-c06 | exact | convergencialusiada.com.br | According to Câmara Cascudo, the best amulet against it is its own image on the prow of the boat. | Diz Câmara Cascudo que o melhor amuleto contra ele é sua prórpria imagem na proa do barco. |
 
 
 ## che-uinic — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -497,37 +520,46 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | che-uinic-c02 | exact | es.wikipedia.org | Among those entities are giants, one of the best known being the Hombre de los bosques. | Dentro de ese espacio se encuentran los gigantes y uno de los más conocidos es el llamado Hombre de los bosques. |
 | che-uinic-c03 | exact | es.wikipedia.org | He is described as very tall without joints, sleeping leaned against tree trunks. | Las leyendas o referencias recogidas por diversos investigadores, lo describen como un hombre de gran altura, carente de huesos y coyunturas, situación que le dificulta ponerse de pie en caso de caer al suelo, por lo cual cuando duerme debe hacerlo recargado en el tronco de algún gran árbol. |
 | che-uinic-c04 | exact | es.wikipedia.org | The diet of Che Uinic consists of human flesh. | La alimentación del Che Uinic está constituida por carne humana. |
+| che-uinic-c05 | exact | es.wikipedia.org | Another characteristic trait of this colossal creature is that its feet are inverted: the toes point toward the back and the heels toward the front. | Otro rasgo característico de esta colosal criatura es que tiene los pies invertidos, esto es, los dedos están orientados hacia la espalda y los talones, hacia el frente. |
+| che-uinic-c06 | exact | es.wikipedia.org | The legend says that to be saved from it one must tear off a couple of branches, dance with them, juggle and, if possible, sing. | Dice la leyenda que para salvarse de él, es menester, arrancar un par de ramas, bailar con ellas, realizar malabares y, si es posible, cantar. |
+| che-uinic-c07 | exact | filey.org | According to the Filey blog, if you venture into the hills of the Yucatán peninsula and meet a fierce giant, you should pull off some branches and dance with abandon. | Si te aventuras por los montes de la península de Yucatán y te topas con un gigante feroz, no te asustes: arranca unas ramas y ponte a bailar con cierto desenfreno. |
+| che-uinic-c08 | exact | filey.org | Once on the ground it cannot get up, not because its feet point backward, but because it lacks bones and joints. | Una vez en el suelo, no podrá levantarse, no por tener los pies apuntando hacia atrás, sino porque carece de huesos y coyunturas. |
+| che-uinic-c09 | exact | filey.org | Then run, because the Che Uinic feeds on human flesh. | Entonces ponte a correr porque el Che Uinic se alimenta de carne humana. |
+| che-uinic-c10 | exact | es.wikipedia.org | The Mayab has a broad mythology in which certain figures that are not divine but have traits or powers considered supernatural, setting them apart from the ordinary, hold an important place. | El Mayab posee una amplia mitología dentro de la que ocupan un lugar importante ciertos personajes que, si bien no corresponden a lo divino, poseen características o poderes considerados sobrenaturales que los separan de lo cotidiano o normal. |
 
 
 ## clermeil — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("in haitian vodou clermeil is a lwa who makes rivers flood their…"). Tulis ulang dengan kata-kata sendiri.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | clermeil-c01 | exact | en.wikipedia.org | In Haitian Vodou, Clermeil is a lwa who makes rivers flood their banks. | In Haitian Vodou, Clermeil is a lwa who makes rivers flood their banks. |
 | clermeil-c02 | exact | en.wikipedia.org | He is usually depicted as a white male. | He is usually depicted as a white male. |
 | clermeil-c03 | exact | en.wikipedia.org | Clermeil is believed to be the father of all light-colored children. | Clermeil is believed to be the father of all light-colored children. |
+| clermeil-c04 | exact | en.wikipedia.org | He is sometimes considered among the most powerful of lwa. | He is sometimes considered among the most powerful of lwa. |
+| clermeil-c05 | exact | en.wikipedia.org | One story tells of how he abducted a woman and carried her away to his home underwater. | One story tells of how he abducted a woman and carried her away to his home underwater. |
+| clermeil-c06 | exact | archive.org | According to the peasants, President Clermeil was originally a very cruel French colonial. | According to the peasants President Clermeil was originally a very cruel French Colonial. |
+| clermeil-c07 | exact | archive.org | His slaves intended to kill him, but he prayed to Lucifer to save him and promised the Devil he could have his soul if he did not let the slaves capture him. | His slaves intended to kill him, but he prayed to Lucifer to save him, and promised the Devil that he could have his soul if he would not allow his slaves to capture him. |
+| clermeil-c08 | exact | archive.org | Clermeil is now thought to be a Zange in the vodun cult. | Clermeil is now thought to be a Zange in the vodun cult. |
+| clermeil-c09 | exact | archive.org | The peasants believe he is the father of all light-colored children, and they feel greatly honored when their wives or mistresses bear such children. | The peasants believe that he is the father of all light colored children, and they feel greatly honored when their wives or mistresses bear such children. |
 
 
 ## coo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | coo-c01 | exact | es.wikipedia.org | El Coo is a nocturnal creature belonging to Chilote mythology. | El Coo es una criatura nocturna perteneciente a la mitología chilota. |
 | coo-c02 | exact | es.wikipedia.org | This word is also used for the Concon of Chiloe, suggesting the legend was inspired by this real animal. | Esta palabra también sería usada para referirse al Concón de Chiloé; por lo que lo más probable es que esta leyenda se inspiró en este animal verdadero. |
 | coo-c03 | exact | es.wikipedia.org | The Coo has the appearance of an owl with large bright round eyes and brownish plumage similar to the Concon. | El Coo tendría el aspecto de una lechuza de grandes ojos redondos muy brillantes, y un plumaje de un color pardusco; muy similar en tamaño y formas al Concón de Chiloé. |
+| coo-c04 | exact | es.wikipedia.org | The Coo is frequently confused with another mythological bird called Raiquén. | El Coo es frecuentemente confundido con otra ave mitológica llamada Raiquén |
+| coo-c05 | exact | es.wikipedia.org | The Coo, together with the Raiquén, are said to be the most frequent supernatural forms into which the brujo (sorcerer) transforms. | el Coo junto al Raiquén serían las formas sobrenaturales más frecuentes en la que se transformaría el brujo |
+| coo-c06 | exact | es.wikipedia.org | Because of this, in Chiloé it is considered a bird of ill omen. | por lo que en Chiloé, se le considerada un ave de mal agüero. |
+| coo-c07 | exact | staticcl1.fidelizador.com | In a passage by Renato Cárdenas (1998), islanders chase with a firebrand the Coo that has settled in their grove and brings nothing good with its guttural night songs. | Con el mismo temor y osadía encaran a su Santo Patrono local cuando no les ha cumplido su manda, o persiguen con un tizón al Coo que llegó a aposentarse en su arboleda y que nada bueno trae con sus guturales cantos nocturnos. |
+| coo-c08 | exact | staticcl1.fidelizador.com | Renato Cárdenas wrote that Chilote myths bring fear. | Los mitos chilotes acarrean miedo. |
+| coo-c09 | exact | es.wikipedia.org | The legend says the Coo, like the Raiquén, Mandao or Deñ, is a bird closely related to the Brujos of Chiloé. | La leyenda cuenta que el Coo, al igual que el Raiquén, Mandao, o el Deñ, son aves relacionadas estrechamente con los Brujos de Chiloé. |
 
 
 ## dark-watchers — lulus-otomatis
@@ -551,45 +583,52 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 
 ## douen — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | douen-c01 | exact | en.wikipedia.org | The Douen is an entity in Trinidadian folklore, also spelt Dwen in Saint Lucian folklore. | The Douen (/ˈduːɪn/) is an entity in Trinidadian folklore, also spelt Dwen (/ˈdwɛn/) in Saint Lucian folklore. |
 | douen-c02 | exact | en.wikipedia.org | Their most recognized characteristic is backwards feet with heels facing front and being faceless. | Their most recognized characteristic is that their feet are said to be backwards, with the heel facing the front and the knees are backwards also being faceless. |
 | douen-c03 | exact | en.wikipedia.org | If they hear a child's name, they can call in a parent's voice to lure the child into the forest. | If they hear a child's name, then they can call to the child in a parent's voice and try to lure the child into the forest. |
+| douen-c04 | exact | en.wikipedia.org | Largely mischievous, they play pranks on people, raid gardens and seem to enjoy leading children astray until they are thoroughly lost in the woods. | Largely mischievous, they play pranks on people, raid gardens, and seem to enjoy leading children astray until they are thoroughly lost in the woods. |
+| douen-c05 | exact | en.wikipedia.org | Based on the description, it seems this folklore may have originated from the Mayan folklore Tata Duende or the Latin-American folklore of duende. | it seems that this folklore may have originated from the Mayan folklore Tata Duende or the Latin-American folklore of duende. |
+| douen-c06 | exact | www.hachettebookgroup.com | According to Tracey Baptiste's field guide, a douen is the spirit of a baby that died before being baptized or christened. | A douen is the spirit of a baby that has died before being baptized or christened. |
+| douen-c07 | exact | www.hachettebookgroup.com | It wears a round, peaked hat made of dried grass that covers most of its face. | It wears a round, peaked hat made of dried grass that covers most of its face. |
+| douen-c08 | exact | www.hachettebookgroup.com | The douen uses this sound to lure the child farther and farther into the woods or swamp until the child is never seen again. | The douen uses this sound to lure the child farther and farther into the woods or swamp, until the child is never seen again. |
+| douen-c09 | exact | www.hachettebookgroup.com | A douen can convincingly copy the voice of a parent to get children into the woods. | A douen can convincingly copy the voice of a parent to get children into the woods. |
+| douen-c10 | exact | en.wikipedia.org | The folklore is primarily of African foundation, with French, Spanish and English influences. | The folklore is primarily of African foundation, with French, Spanish, and English influences. |
 
 
 ## dungavenhooter — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dungavenhooter-c01 | exact | en.wikipedia.org | In American folklore, the dungavenhooter is a fearsome critter resembling a crocodile that pulverizes prey into vapor and snorts them. | In American folklore, the dungavenhooter is a fearsome critter described as resembling a large crocodylian animal, lacking a mouth, which consumes prey by pulverizing its human prey into vapor, and snorting them through the large holes of its nose. |
 | dungavenhooter-c02 | exact | en.wikipedia.org | The dungavenhooter appears in the 1939 book Fearsome Critters by Tryon, purported to have been sighted in marshlands from Maine to Michigan. | The dungavenhooter appears in the 1939 book on folklore, Fearsome Critters, by Henry Harrington Tryon (1888–1953), wherein the animal is purported to have once been sighted in marshlands from Maine to Michigan, but has since been extirpated outside the upper peninsula of Michigan, and has become rare. |
+| dungavenhooter-c03 | exact | en.wikipedia.org | Tryon relates that the dungavenhooter lies in wait behind a brush with "Satanic cunning" until a "passing logger" comes within striking range of its tail. | Tryon relates that the dungavenhooter lies in wait behind a brush with "Satanic cunning" until a "passing logger" comes within the striking range of its tail. |
+| dungavenhooter-c04 | exact | en.wikipedia.org | The dungavenhooter prefers to devour intoxicated individuals who have had too much rum. | The dungavenhooter is partial to devour intoxicated individuals who have had too much rum. |
+| dungavenhooter-c05 | exact | en.wikipedia.org | The dungavenhooter appears to be a version of the Dungarvon Whooper myth, such as the "yarn" told by Leroy Dudley, a mountain guide and storyteller at the Chimney Pond campground on Katahdin, the tallest mountain in Maine. | The dungavenhooter appears to be a version of the Dungarvon Whooper myth such as the "yarn" told by Leroy Dudley, a noted mountain guide and storyteller at the Chimney Pond campground on Katahdin, the tallest mountain in Maine. |
+| dungavenhooter-c06 | exact | en.wikipedia.org | The dungavenhooter is classed as a "fearsome critter", i.e., a creation of tall tale, akin to the jackalope. | The dungavenhooter is classed as a "fearsome critter", i.e., a creation of tall tale, akin to the jackalope. |
+| dungavenhooter-c07 | exact | en.wikipedia.org | Fearsome critters were tall-tale animals said to inhabit the wilderness in or around logging camps, especially in the Great Lakes region. | fearsome critters were tall tale animals said to inhabit the wilderness in or around logging camps, especially in the Great Lakes region. |
+| dungavenhooter-c08 | exact | en.wikipedia.org | Fearsome critters were an integral part of the oral tradition of North American logging camps around the turn of the twentieth century, mainly as a way to pass time or as a jest for hazing newcomers. | Fearsome critters were an integral part of oral tradition in North American logging camps during the turn of the twentieth century, principally as a means to pass time (such as in tall tales) or as a jest for hazing newcomers. |
 
 
 ## gang-gang-sarah — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("according to the folklore of trinidad and tobago gang gang sarah is…"). Tulis ulang dengan kata-kata sendiri.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gang-gang-sarah-c01 | exact | en.wikipedia.org | According to folklore of Trinidad and Tobago, Gang Gang Sarah is an African witch blown to Tobago landing in Les Coteaux. | According to the folklore of Trinidad and Tobago, Gang Gang Sarah is an African witch who was blown off course to Tobago on a strong wind and landed in the village of Les Coteaux. |
 | gang-gang-sarah-c02 | exact | en.wikipedia.org | She stayed to search for family, but found she lost the power of flight because she ate salt in Golden Lane, Tobago. | She chose to stay for a while to search for her family, but when at last she decided to go home found that she had lost the power of flight because she had eaten salt during her stay in Golden Lane, Tobago. |
+| gang-gang-sarah-c03 | exact | en.wikipedia.org | While in Tobago she became the wife of a man named Tom. | While in Tobago, she became the wife of a man named Tom. |
+| gang-gang-sarah-c04 | exact | en.wikipedia.org | She lived to a great age and is remembered for her kindness. | She lived to a great age and is remembered for her kindness. |
+| gang-gang-sarah-c05 | exact | en.wikipedia.org | This story functions as a myth echoing the history of slavery in the Caribbean. | This story functions as a myth echoing the history of slavery in the Caribbean |
+| gang-gang-sarah-c06 | exact | www.hachettebookgroup.com | According to Tracey Baptiste's field guide, rather than return to Africa immediately she decided to stay and look for her family, who had been taken from Africa years before. | Rather than returning immediately to Africa, she decided to stay and look for her family, who had been taken from Africa years before. |
+| gang-gang-sarah-c07 | exact | www.hachettebookgroup.com | She became a housekeeper on a plantation and later married a man named Tom, whom she is said to have known in her youth in Africa. | She became a housekeeper on a plantation and later married a man named Tom, whom she is said to have known in her youth in Africa. |
+| gang-gang-sarah-c08 | exact | www.hachettebookgroup.com | After Tom died she climbed a cotton tree to try to fly back to Africa but could not, because she had eaten salt, and that stripped her of the ability to fly. | After Tom died, she climbed a cotton tree to try to fly back to Africa, but could not because she had eaten salt, and that stripped her of the ability to fly. |
 
 
 ## gloucester-sea-serpent — lulus-otomatis
@@ -615,33 +654,35 @@ Klaim 13 (exact 13), sumber 2, gambar 0.
 
 ## golden-bear-legend — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `short_description.en` Ada rangkaian 12 kata yang sama persis dengan sumber ("in american folklore the golden bear was a large golden ursus arctos…"). Tulis ulang dengan kata-kata sendiri.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | golden-bear-legend-c01 | exact | en.wikipedia.org | In American folklore, the Golden Bear was a large golden Ursus arctos. | In American folklore, the Golden Bear was a large golden Ursus arctos. |
 | golden-bear-legend-c02 | exact | en.wikipedia.org | A great Golden Bear was reported in the area of Turner, Kansas. | A great Golden Bear was reported in the area of Turner, Kansas. |
 | golden-bear-legend-c03 | exact | en.wikipedia.org | According to John Gardiner in 1831, it was feared and admired by local Indigenous population. | According to John Gardiner in 1831, it was feared and admired by the local Indigenous population. |
+| golden-bear-legend-c04 | exact | en.wikipedia.org | The bear lived south of the river in the hills west of the Methodist Mission. | The bear lived south of the river in the hills west of the Methodist Mission. |
+| golden-bear-legend-c05 | exact | en.wikipedia.org | According to legend, it was the largest bear that any of the natives had ever seen. | According to legend, it was the largest bear that any of the natives had ever seen. |
+| golden-bear-legend-c06 | exact | en.wikipedia.org | Both the Shawnee and the Wyandot tribes gathered a hunting party but were unsuccessful in tracking the bear down. | Both the Shawnee and the Wyandot tribes gathered a hunting party, but were unsuccessful in tracking the bear down. |
+| golden-bear-legend-c07 | exact | en.wikipedia.org | The Golden Bear mascot was adopted for the school and community in 1886. | The Golden Bear mascot was adopted for the school and community in 1886. |
+| golden-bear-legend-c08 | exact | en.wikipedia.org | Reportedly, the two youths who proposed the icon had heard of the bear from stories told by their grandparents. | Reportedly, the two youths had heard of the bear from stories told by their grandparents. |
 
 
 ## goose-wife — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | goose-wife-c01 | exact | en.wikipedia.org | The Goose Wife is a mythical female character in tales from the Inuit across the circumpolar Arctic. | The Goose Wife is a mythical female character that appears in tales from the Inuit and other ethnic groups that dwell across the circumpolar Arctic region. |
 | goose-wife-c02 | exact | en.wikipedia.org | The story tells of geese alighting on land, becoming women by removing goose-skins to bathe. | The usual story is that the geese alight on land, become women by taking off their goose-skins and bathe in a lake. |
 | goose-wife-c03 | exact | en.wikipedia.org | A human hunter spies on them, steals one goose-skin, forcing her to be his wife. | However, they are unaware that a human hunter is spying on them, and he steals the goose-skin of one of them, forcing her to be his wife. |
+| goose-wife-c04 | exact | en.wikipedia.org | Because of the great similarities between the two characters, the goose wife has been compared to the swan maiden, another female who alternates between human and bird forms. | Due to the great similarities between both characters, the goose wife has been compared to the swan maiden, another female that alternates between human and bird forms. |
+| goose-wife-c05 | exact | en.wikipedia.org | In Inge Kleivan's hypothetical proto-form, whenever the husband finds her, she is already married to another bird person. | Whenever the husband finds her, she is already married to another bird person. |
+| goose-wife-c06 | exact | www.gutenberg.org | Nansen records a Greenland story: a reindeer hunter saw several women bathing in a lake and took the clothes of the fairest, who had to become his wife, while the others turned into geese or mergansers and flew away. | A reindeer-hunter once saw a number of women bathing in a lake. He took away the clothes of the fairest of them, who had therefore to follow him home and become his wife, whilst the others rushed to the shore, put on their clothes, and were transformed into geese or mergansers and flew away. |
+| goose-wife-c07 | exact | www.gutenberg.org | His wife bore him a son, then collected feathers to change herself and her son into birds, and flew away with him one day when the man was out hunting. | His wife bore him a son; but presently she set to work collecting feathers, by means of which she changed both herself and her son into birds, and flew away with him one fine day, when the man was out hunting. |
+| goose-wife-c08 | exact | www.gutenberg.org | The hunter set out to search for them and met a man cutting chips of wood that turned into fish; the man put him on the tail of a big salmon made from a chip and told him to close his eyes. | He set forth to search for them, and came upon a man who was cutting chips of wood which were transformed into fishes. This man placed him upon the tail of a big salmon which he made out of a chip, and told him to close his eyes |
+| goose-wife-c09 | exact | en.wikipedia.org | As cited by Lotte Motz, researcher Inge Kleivan compared several Eskimo narratives of the bird/goose wife and produced a hypothetical proto-form. | As cited by Lotte Motz, researcher Inge Kleivan compared several Eskimo narratives of the bird/goose wife and produced a hypothetical proto-form. |
 
 
 ## grafton-monster — lulus-otomatis
@@ -663,29 +704,38 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## guahayona — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | guahayona-c01 | exact | de.wikipedia.org | Guahayona is a trickster in the myths of the Taíno Indians. | Guahayona ist ein Trickster in den Mythen der Taíno-Indianer. |
 | guahayona-c02 | exact | de.wikipedia.org | In another tale Guahayona abducted women with his brother-in-law, pushed him into the sea, and left women on an island. | In einer anderen Erzählung raubte Guahayona gemeinsam mit seinem Schwager die Frauen eines Fürsten und stieß ersteren ins Wasser, als sie gemeinsam das Meer überquerten – um danach alle Frauen doch auf einer Insel zurückzulassen und mit der, die ihm am besten gefiel, auf eine andere zu fahren. |
+| guahayona-c03 | exact | archive.org | In Fray Ramón Pané's record, Guahayona, seeing that the man he had sent to pick the digo did not return, decided to leave the cave Cacibajagua. | Guaha- yona, viendo que no volvía el que había enviado a coger el digo, resolvió salir de la dicha cueva Caci- bajagua. |
+| guahayona-c04 | exact | archive.org | Guahayona, indignant that those he had sent did not return, resolved to leave and told the women to leave their husbands and go to other lands, taking a lot of güeyo. | Que Guahayona, indignado, resolvió marcharse, vien- do que no volvían aquellos que había mandado a coger el digo para lavarse Y dijo a las mujeres: "Dejad a vuestros maridos, y vámonos a otras tierras y llevemos mucho güeyo. |
+| guahayona-c05 | exact | archive.org | Guahayona left with all the women, and the small children were left beside a stream. | Guahayona partió con todas las mujeres, y se fue en ... y habían dejado a los niños peque- ños junto a un arroyo. |
+| guahayona-c06 | exact | archive.org | The hungry children were transformed into small animals like frogs. | fue- ron transformados en pequeños animales, a manera de ranas |
+| guahayona-c07 | exact | archive.org | Guahayona took his brother-in-law by the feet and threw him into the sea, took all the women for himself and left them in Matininó. | su cuñado Guahayona lo tomó por los pies y lo tiró al mar; y así tomó todas las mujeres para sí, y las dejó en Matininó |
+| guahayona-c08 | exact | archive.org | In the land he had gone to, Guahayona saw a woman he had left in the sea, was very pleased, and at once looked for baths because he was covered with the sores that Pané calls mal francés. | vio que había dejado en el mar una mu- jer, de lo cual tuvo gran placer, y al instante buscó muchos lavatorios para lavarse, por estar lleno de aquellas llagas que nosotros llamamos mal francés. |
+| guahayona-c09 | exact | de.wikipedia.org | In mythical times, when people were in caves and could not leave because they were guarded by a man, Guahayona offered to lead them "into the light" and to take the women and children first. | Als sich in mythischen Zeiten die Menschen in Höhlen aufhielten und diese nicht verlassen konnten, da sie von einem Mann – der Sonne selbst? – bewacht wurden, bot sich Guahayona an, die Menschen „ans Licht“ zu führen und zuerst die Frauen und Kinder mitzunehmen |
+| guahayona-c10 | exact | de.wikipedia.org | But he led the women to an island where only women have lived ever since, and left the children by a stream until hunger made them cry out and turn into frogs. | Doch die Frauen führte er auf eine Insel, auf der seither nur Frauen leben, und die Kinder ließ er an einem Bach liegen, bis sie vor lauter Hunger zu schreien begannen und sich in Frösche verwandelten. |
+| guahayona-c11 | exact | de.wikipedia.org | However, he does bring people, though not all of them, to new living areas and subsequently defeats many enemies of the Taíno. | Allerdings bringt er die Menschen – wenn auch nicht alle! – tatsächlich in neue Lebensgebiete und besiegt in der Folge auch viele Feinde der Taino. |
 
 
 ## gumberoo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gumberoo-c01 | exact | en.wikipedia.org | In American folklore, the Gumberoo is a fearsome critter with hide so tough that bullets bounce off it. | In American folklore, the Gumberoo is a fearsome critter with hide so tough that bullets bounce off of it. |
 | gumberoo-c02 | exact | en.wikipedia.org | The gumberoo was described by early lumberjacks to be larger than a bear with a tough, shiny black hide. | The gumberoo was described by early lumberjacks to be larger than a bear with a tough, shiny, black hide that nothing could pierce. |
 | gumberoo-c03 | exact | en.wikipedia.org | The only way to kill it was said to be fire, which caused the creatures to explode. | The only way to kill it was said to be fire, which caused the creatures to explode. |
+| gumberoo-c04 | exact | archive.org | Cox writes that in the foggy region along the Pacific Coast from Grays Harbor to Humboldt Bay there ranges a kind of creature that has caused much annoyance in the lumber woods. | In the foggy region along the Pacific Coast from Grays Harbor to Humboldt Bay there ranges a kind of creature that has caused much annoyance in the lumber woods. |
+| gumberoo-c05 | exact | archive.org | It is believed to hide most of the time in the base of enormous, burned-out cedar trees. | It is believed to remain in hiding most of the time in the base of enormous, burned-out cedar trees |
+| gumberoo-c06 | exact | archive.org | In size the beast closely matches a black bear, for which it might be mistaken were it not that the gumberoo is almost hairless. | In size the beast corresponds closely to a black bear, for which it might be mistaken only for the fact that the gumberoo is almost hairless. |
+| gumberoo-c07 | exact | archive.org | A rock or peavey thrown at the creature bounds back at whoever threw it, and a bullet shot against its hide is sure to strike the hunter between the eyes. | A rock or peavey thrown at the creature bounds back at who- ever threw it, and a bullet shot against its hide is sure to strike the hunter between the eyes. |
+| gumberoo-c08 | exact | archive.org | The animal burns, like celluloid, with explosive force. | The animal burns, like celluloid, with explosive force. |
+| gumberoo-c09 | exact | en.wikipedia.org | It is said that a man named S. W. Allen once took a picture of a gumberoo but the negative then exploded. | It is said that a man named S. W. Allen once took a picture of a gumberoo but the negative then exploded. |
 
 
 ## hillbilly-beast-of-kentucky — lulus-otomatis
