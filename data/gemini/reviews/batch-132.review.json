@@ -1,9 +1,14 @@
 {
   "batch_id": "batch-132",
-  "checked_at": "2026-10-07T07:39:51.861Z",
+  "checked_at": "2026-10-22T10:57:09.135Z",
   "files": [
     "batch-132.md",
-    "batch-132-fix-1.md"
+    "batch-132-fix-1.md",
+    "batch-132-fix-2.md",
+    "batch-132-fix-3.md",
+    "batch-132-fix-4.md",
+    "batch-132-fix-5.md",
+    "batch-132-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1660,20 +1665,15 @@
     },
     {
       "slug": "abhartach",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "5fce48ae8640c2c96566ff949a7924de84f2e4d53ffffb11a2570caa27f30ce1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "abhartach-c01",
@@ -1744,27 +1744,61 @@
           "quote": "he can only be restrained by killing him with a sword made of yew wood, burying him upside down, surrounding his grave with thorns, and placing a large stone on top of the grave.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "abhartach-c08",
+          "source_id": "abhartach-s2",
+          "host": "archive.org",
+          "statement": "Joyce notes that a place called Slaghtaverty in the parish of Errigal, Londonderry, ought to have been called Laghtaverty, the laght (sepulchral monument) of a man named Abhartach.",
+          "statement_id": "Joyce mencatat bahwa tempat bernama Slaghtaverty di paroki Errigal, Londonderry, seharusnya bernama Laghtaverty, yaitu laght (monumen kubur) seorang bernama Abhartach.",
+          "quote": "There is a place in the parish of Errigal in Londonderry, called Slaghtaverty, but it ought to have been called Laghtaverty, the laght or sepulchral monument of a man named Abhartach",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abhartach-c09",
+          "source_id": "abhartach-s2",
+          "host": "archive.org",
+          "statement": "In Joyce's account Abhartach was, it seems, a dwarf, a magician and a dreadful tyrant.",
+          "statement_id": "Dalam catatan Joyce, Abhartach tampaknya seorang kerdil, penyihir, dan tiran yang mengerikan.",
+          "quote": "who was, it seems, a dwarf. This dwarf was a magician, and a dreadful tyrant",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abhartach-c10",
+          "source_id": "abhartach-s2",
+          "host": "archive.org",
+          "statement": "According to Joyce, the chief slew him a second time and buried him as before, but he escaped from the grave again and spread terror through the whole country.",
+          "statement_id": "Menurut Joyce, kepala suku membunuhnya untuk kedua kalinya dan menguburnya seperti semula, tetapi ia lolos lagi dari kubur dan menebar teror ke seluruh negeri.",
+          "quote": "And the chief slew him a second time and buried him as before, but again he escaped from the grave, and spread terror through the whole country.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abhartach-c11",
+          "source_id": "abhartach-s2",
+          "host": "archive.org",
+          "statement": "Joyce writes that the laght raised over the dwarf was still there and that the natives of the place told the legend in detail, one of them telling it to him.",
+          "statement_id": "Joyce menulis bahwa laght yang didirikan di atas si kerdil masih ada dan penduduk setempat menuturkan legendanya dengan rinci; salah satunya menceritakannya kepadanya.",
+          "quote": "The laght raised over the dwarf is still there, and you may hear the legend with much detail from the natives of the place, one of whom told it to me.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "49cf9029b78ae8a18e0857573615d3beb09e6746e39b66f89cebc3402615517f"
+      "images": []
     },
     {
       "slug": "alicornio",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "bc770733579df2264f896667812125fdbbec3d0fb8399e1c5b8b2bb1a2aee397",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "alicornio-c01",
@@ -1775,25 +1809,105 @@
           "quote": "Nas lendas portuguesas, o alicórnio é um gigante com um olho só na testa",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "alicornio-c02",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "In the tale published in the Archivio per lo studio delle tradizioni popolari, two friars walking along a road meet an alicórnio, a giant with a single eye on its forehead.",
+          "statement_id": "Dalam dongeng yang dihimpun dalam Archivio per lo studio delle tradizioni popolari, dua biarawan yang berjalan di sebuah jalan bertemu seorang alicórnio, yaitu raksasa dengan satu mata di dahinya.",
+          "quote": "Era urna vez dois frades e iam por um caminho e encon- traram un alicornio, que era un gigante com um olho so na testa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c03",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "In the tale, the alicórnio was grazing sheep on the mountain when it saw the two friars.",
+          "statement_id": "Dalam dongeng itu, alicórnio sedang menggembalakan domba di gunung ketika melihat kedua biarawan.",
+          "quote": "O alicornio andava a pastar ovelhas no monte, e mal vio os frades disse-lhes:",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c04",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "In the tale, a door opened on the mountain on the spot, by enchantment (por encanto).",
+          "statement_id": "Dalam dongeng itu, sebuah pintu terbuka di gunung itu seketika, secara ajaib (por encanto).",
+          "quote": "e logo alli se abrio no monte urna porta por encanto",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c05",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "In the tale it lit a fire, killed one of the friars and ate him.",
+          "statement_id": "Dalam dongeng itu, ia menyalakan api, membunuh salah satu biarawan, dan memakannya.",
+          "quote": "accendeo o lume e matou um dos frades e comeu-o.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c06",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "The other friar put a spit (espeto) in the fire and, when it was glowing, passed it through the alicórnio's eye and blinded it.",
+          "statement_id": "Biarawan yang lain meletakkan sebuah tusuk panggang (espeto) ke api dan, ketika membara, menusukkannya melalui mata alicórnio sehingga ia buta.",
+          "quote": "póz um espeto no ... e quando estava em braza passou-lh'o pelo olho e cegou-o.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c07",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "The tale is presented as belonging to the \"cycle of Polyphemus\" tales studied by Kr. Nyrop.",
+          "statement_id": "Penerbit dongeng ini memasukkannya ke dalam kelompok dongeng \"siklus Polifemus\" yang dikaji oleh Kr. Nyrop.",
+          "quote": "contos perten- centes ao cyclo de « Polyphemo » que o snr Kr. Nyrop estudou",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c08",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "The collector states that this variant comes from the Portuguese-Galician border, province of Pontevedra (Spain).",
+          "statement_id": "Pengumpulnya menyatakan varian ini berasal dari perbatasan Portugal-Galisia, provinsi Pontevedra (Spanyol).",
+          "quote": "proveniente da fronteira portuguesa-gallega, pro- vincias de Pontevedra (Espanha)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "alicornio-c09",
+          "source_id": "alicornio-s2",
+          "host": "archive.org",
+          "statement": "The tale is signed by Z. Consiglieri Pedroso, Lisbon, 1882.",
+          "statement_id": "Dongeng ini ditandatangani Z. Consiglieri Pedroso, Lisboa, 1882.",
+          "quote": "Lisboa, Marfo àe 1882. Z. Consiglieri Pedroso.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "65297f9953a4ccd575c78def02c2c94b8c76bb4ef5188092aec8859ed0ba8c5a"
+      "images": []
     },
     {
       "slug": "alma-de-mestre",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "3d7a76bb4e40e3bfbf7e209c9226f0a190a7a2364da9022426c1cc233fa3d30e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -1836,27 +1950,62 @@
           "quote": "Júlia Tomás, no seu «Ensaio sobre o Imaginário Marítimo dos Portugueses», propõe uma ligação entre este mito português e o mito grego, exarado nas Metamorfoses de Ovídio, de Ceix e Alcíone",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "alma-de-mestre-c05",
+          "source_id": "alma-de-mestre-s2",
+          "host": "archive.org",
+          "statement": "Leite de Vasconcellos records (quoting Almeida Garrett) that on the high seas there are little birds that give out long, plaintive cries.",
+          "statement_id": "Leite de Vasconcellos mencatat (mengutip Almeida Garrett) bahwa di laut lepas terdapat burung-burung kecil yang mengeluarkan cicitan panjang dan pilu.",
+          "quote": "Encontram-se no alto mar umas avesinhas que dão sentidissimos e largos pios",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alma-de-mestre-c06",
+          "source_id": "alma-de-mestre-s2",
+          "host": "archive.org",
+          "statement": "Sailors superstitiously believe the birds are the souls of masters or captains of ships that were lost, who keep to their fate of crying until their bodies reach land.",
+          "statement_id": "Pelaut percaya secara takhayul bahwa burung-burung itu adalah arwah mestre atau kapten kapal yang hilang, yang terus bercicit sampai jasad mereka tiba di daratan.",
+          "quote": "são as almas dos mestres ou capitães de navios que se perderam, e que andam na- quelle fadario de pios, emquanto seu corpo não chega a terra",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alma-de-mestre-c07",
+          "source_id": "alma-de-mestre-s2",
+          "host": "archive.org",
+          "statement": "Leite de Vasconcellos cites the source of the passage: Almeida Garrett's note to canto V of Camões.",
+          "statement_id": "Leite de Vasconcellos menyebut sumber keterangan itu: catatan Almeida Garrett pada canto V puisi Camões.",
+          "quote": "(Almeida Garrett, — Camões , not. ao canto v)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "alma-de-mestre-c08",
+          "source_id": "alma-de-mestre-s3",
+          "host": "archive.org",
+          "statement": "Theophilo Braga says \"almas de mestre\" is the name sailors give to certain birds that accompany the ship, and that the traditional name results from this animist belief.",
+          "statement_id": "Theophilo Braga menyebut \"almas de mestre\" sebagai nama yang diberikan pelaut kepada burung tertentu yang mengikuti kapal, dan menganggap nama tradisional itu berasal dari kepercayaan animistik tentang jiwa orang mati.",
+          "quote": "Às almas de mestre, nome que os marinheiros dão a certas aves que acompanham o navio, têm o nome tradicional resultante d'esta crença animista.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
         }
       ],
-      "images": [],
-      "entry_sha256": "d5da5427a3338c9d09d28cf9460afb7fe326f63d8a456cebdddaf8fcf5862554"
+      "images": []
     },
     {
       "slug": "almajonas",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "e088c86eebc22d024fbbb62787174bb437bfb037cb4a1aaabbba249a41f995ea",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "almajonas-c01",
@@ -1867,10 +2016,69 @@
           "quote": "Almajonas (armajonas ou almazonas) são mulheres muito altas das lendas portuguesas. A crença popular é que são almas penadas. As almajonas carregam os filhos às costas.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "almajonas-c02",
+          "source_id": "almajonas-s2",
+          "host": "archive.org",
+          "statement": "According to Leite de Vasconcellos, the almazonas (also called almajonas) are very large, stout women who throw their breasts back over their shoulders and nurse their children on their backs (Maia, Minho, Beira-Alta).",
+          "statement_id": "Menurut Leite de Vasconcellos, almazonas (juga disebut almajonas) adalah perempuan yang sangat besar dan gemuk; mereka melemparkan payudara ke belakang punggung dan menyusui anak di punggung (Maia, Minho, Beira-Alta).",
+          "quote": "Almajonas , mulheres muito grandes e gordas, dei¬ tam os seios para trás das costas e assim alimentam os filhos ás costas (Maia, Minho, Beira-Alta)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "almajonas-c03",
+          "source_id": "almajonas-s2",
+          "host": "archive.org",
+          "statement": "A tale tells of a kingdom of the Almazonas where women governed one another and the men, who were slaves, did the women's own work.",
+          "statement_id": "Menurut sebuah kisah, ada kerajaan para Almazonas tempat perempuan saling memerintah dan laki-laki menjadi budak yang mengerjakan tugas perempuan.",
+          "quote": "Havia um reino (das Almazonas) onde as mulheres se governavam umas ás outras, e os homens, que erão escra¬ vos, faziam o serviço proprio d’ellas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "almajonas-c04",
+          "source_id": "almajonas-s2",
+          "host": "archive.org",
+          "statement": "Leite de Vasconcellos judges the word Almazona, or Almajona with the change of z to j, to be evidently the same as Amazona.",
+          "statement_id": "Leite de Vasconcellos menilai kata Almazona, atau Almajona dengan perubahan z menjadi j, jelas sama dengan Amazona.",
+          "quote": "A palavra Almazona, ou, pela mudança de z em j (cf. Isabel-Jabel, etc.), Almajona, ó evidentemente o mesmo que Ama¬ zona.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "almajonas-c05",
+          "source_id": "almajonas-s2",
+          "host": "archive.org",
+          "statement": "In Gondifellos (Famalicão) a distinction is made between Almajonas (big women) and Allamôas.",
+          "statement_id": "Di Gondifellos (Famalicão), Almajonas (perempuan besar) dibedakan dari Allamôas.",
+          "quote": "A lenda das Amazonas soífre uma variante notável em Gondifellos (c. de Famalicão). Lá faz-se distincção entre Almajonas (mulheres grandes) e Allamôas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "almajonas-c06",
+          "source_id": "almajonas-s3",
+          "host": "archive.org",
+          "statement": "In the parish of S. Thiago da Cruz people believe tormented souls (almas penadas) trouble the living in the form of armajonas or almajonas: very tall, very thin women.",
+          "statement_id": "Di paroki S. Thiago da Cruz, orang percaya jiwa-jiwa gentayangan (almas penadas) mengganggu dalam rupa armajonas atau almajonas: perempuan sangat tinggi dan sangat kurus.",
+          "quote": "Na freguezia de S. Thiago da Cruz, o povo cre que empe- cem almas penadas, em forma de armajonas ou almajonas: mulheres muito altas e muito magras.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "almajonas-c07",
+          "source_id": "almajonas-s3",
+          "host": "archive.org",
+          "statement": "These shades appear only at the Ponte de Gorrellos and at the Poça do rio.",
+          "statement_id": "Bayangan-bayangan ini hanya muncul di Ponte de Gorrellos dan di Poça do rio.",
+          "quote": "Estas sombras só appa- recem na Ponte de Gorrellos e na Poça do rio.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "eada36309600a6ee7ad003318f4db41ed4b8b3fff8aeb6499695b490bc4681ca"
+      "images": []
     },
     {
       "slug": "andresito",
@@ -1914,20 +2122,15 @@
     },
     {
       "slug": "avurie",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "ac9410aa5ff3676bc3df7c982cdb3cdcb0b22a6a38058268fcb8c9092602ff06",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "avurie-c01",
@@ -1998,27 +2201,81 @@
           "quote": "L'Aure può essere proprio di un'abitazione, ed allora non l'abbandonerà mai, o essere legato ad una famiglia, ed allora la seguirà nei suoi spostamenti.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "avurie-c08",
+          "source_id": "avurie-s2",
+          "host": "www.grottaglieinrete.it",
+          "statement": "The author lists the names of this sprite across southern Italy; in the Taranto area it is called Avurie (or Aure or Laùre).",
+          "statement_id": "Penulis menyebut folletto yang di banyak daerah selatan Italia punya nama berbeda ini dikenal sebagai Avurie (atau Aure atau Laùre) di kawasan Taranto.",
+          "quote": "mentre in Abruzzo e Molise come Mazzemarill, Tummà nel barese e Avurie (o Aure o Laùre) della zona tarantina.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "avurie-c09",
+          "source_id": "avurie-s2",
+          "host": "www.grottaglieinrete.it",
+          "statement": "The sprite (under all its synonyms) is described as an often ugly, hairy sort of folletto with the build of a child of about three, dressed in dark clothes, almost always brown, barefoot but with a hat on its head.",
+          "statement_id": "Folletto ini (dengan semua sinonimnya) digambarkan sering buruk rupa dan berbulu, bertubuh seperti anak sekitar tiga tahun, berpakaian gelap (hampir selalu cokelat), bertelanjang kaki tetapi bertopi.",
+          "quote": "lu Lauro (in tutti i suoi sinonimi) è descritto come una sorta di folletto spesso brutto e peloso, con la corporatura di un bambino di circa tre anni, vestito con un abito scuro, quasi sempre di color marrone, scalzo ma con un cappello in testa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "avurie-c10",
+          "source_id": "avurie-s2",
+          "host": "www.grottaglieinrete.it",
+          "statement": "It is said to be in the habit of sitting on the belly or chest of sleepers, ruining their sleep, paralysing them and taking their breath.",
+          "statement_id": "Konon ia biasa duduk di perut atau dada orang yang tidur, merusak tidurnya, melumpuhkannya, dan membuatnya sesak napas.",
+          "quote": "si dice che lu Laùro abbia l’abitudine di sedersi sulla pancia o sul petto di chi dorme, rovinandogli il sonno, paralizzandolo e togliendogli il respiro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "avurie-c11",
+          "source_id": "avurie-s2",
+          "host": "www.grottaglieinrete.it",
+          "statement": "Another of its pranks is to cause bruises on the bodies of people and animals, called in Taranto \"pizzeche de l'Aure\" (the Aure's pinches).",
+          "statement_id": "Ulahnya yang lain adalah menimbulkan lebam pada tubuh manusia dan hewan, yang di Taranto disebut \"pizzeche de l'Aure\" (cubitan Aure).",
+          "quote": "Altro scherzo dello Laùre è causare lividi ed ecchimosi sul corpo di uomini e animali, chiamati a Taranto “pizzeche de l’Aure” (pizzichi dell’Auro).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "avurie-c12",
+          "source_id": "avurie-s2",
+          "host": "www.grottaglieinrete.it",
+          "statement": "According to other legends the sprite appreciates small gifts and repays them with gold coins or by showing its benefactor where a treasure is hidden.",
+          "statement_id": "Menurut legenda lain, folletto ini menghargai hadiah kecil dan membalasnya dengan koin emas atau dengan menunjukkan tempat harta tersembunyi kepada si dermawan.",
+          "quote": "lu Laùro apprezza queste gentilezze e le ricambia donando delle monete d’oro o indicando al suo benefattore il luogo dove è nascosto un tesoro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "avurie-c13",
+          "source_id": "avurie-s2",
+          "host": "www.grottaglieinrete.it",
+          "statement": "Because of its attachment to a house or family, the author speculates that the name derives from the \"Lares Familiares\".",
+          "statement_id": "Karena sifat terikat pada rumah atau keluarga, penulis menduga nama makhluk ini berasal dari \"Lares Familiares\" (roh pelindung keluarga dalam agama Romawi).",
+          "quote": "Questa caratteristica fa ipotizzare che il suo nome derivi dai “Lares Familiares“",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f97a8fd14423c5909eb9e24d4a5d3ad9ac803ba0ea7d9ebe14035035219ec8dd"
+      "images": []
     },
     {
       "slug": "babau",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "62c68fc723143f2f6ad8bcf28f385fcf69127cf80c13f57630057da3eb451516",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "babau-c01",
@@ -2069,10 +2326,49 @@
           "quote": "Al Babau è dedicato il racconto omonimo di Dino Buzzati (che lo ritrasse anche in diversi dipinti).",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "babau-c06",
+          "source_id": "babau-s2",
+          "host": "www.treccani.it",
+          "statement": "The Treccani dictionary defines the babau as an imaginary monster named to frighten children (\"if you are not good, the babau will come\").",
+          "statement_id": "Kamus Treccani mendefinisikan babau sebagai monster khayalan yang disebut untuk menakuti anak-anak (\"kalau tidak patuh, babau akan datang\").",
+          "quote": "Mostro immaginario che si nomina per far paura ai bambini: se non stai buono viene il babau.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "babau-c07",
+          "source_id": "babau-s2",
+          "host": "www.treccani.it",
+          "statement": "Treccani describes the word babau as onomatopoeic, from the \"bau bau\" of the dog.",
+          "statement_id": "Treccani menyebut kata babau berasal dari tiruan bunyi, dari \"bau bau\" gonggongan anjing.",
+          "quote": "[voce onomatopeica, dal bau bau del cane]",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "babau-c08",
+          "source_id": "babau-s2",
+          "host": "www.treccani.it",
+          "statement": "By extension, the word babau is also used for a person who is feared or has a terrible reputation.",
+          "statement_id": "Secara perluasan, kata babau juga dipakai untuk orang yang ditakuti atau terkenal menakutkan.",
+          "quote": "Per estens., persona che si fa temere, che ha fama di terribile.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "babau-c09",
+          "source_id": "babau-s3",
+          "host": "www.treccani.it",
+          "statement": "The Treccani thesaurus lists gatto mammone, lupo cattivo, lupo mannaro, orco and uomo nero as synonyms of the babau.",
+          "statement_id": "Kamus sinonim Treccani menyejajarkan babau dengan gatto mammone, lupo cattivo, lupo mannaro, orco, dan uomo nero.",
+          "quote": "[figura immaginaria che si nomina per impaurire i bambini] ≈ ‖ gatto mammone, (fam.) lupo cattivo, lupo mannaro, orco, uomo nero.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9baa3bbec71f21fbb384ed80ae1f624f2b52657aa58775edf75c2f9f2d00d01c"
+      "images": []
     },
     {
       "slug": "babieca",
@@ -2107,18 +2403,19 @@
     },
     {
       "slug": "badalischio",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "6208e6bb0c4f96b0a33029655e84a1e02130dfce0e85478758cd36d255b83afa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -2171,25 +2468,69 @@
           "quote": "Il giornale Casentino 2000 ha creato un premio satirico da offrire a certe persone in particolare (un premio simile al Tapiro d'oro di Striscia la notizia), chiamato \"Il Badalischio d'Argento\".",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "badalischio-c06",
+          "source_id": "badalischio-s2",
+          "host": "archive.org",
+          "statement": "In Sermon XX, Sacchetti writes that all other serpents can be charmed except the Badalischio, against whose venom no incantation avails.",
+          "statement_id": "Dalam Sermone XX, Sacchetti menulis bahwa semua ular lain dapat dijinakkan dengan mantra kecuali Badalischio, yang racunnya tidak mempan oleh mantra apa pun.",
+          "quote": "chè tutti gli altri serpenti si pos- sono incantare salvo che il Badalischio, contra il quale ve- leno alcuna incantazione non vale.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "badalischio-c07",
+          "source_id": "badalischio-s3",
+          "host": "archive.org",
+          "statement": "This dictionary gives badalischio (also badalisco) as an archaic form of basilisco, a fabulous serpent.",
+          "statement_id": "Kamus ini menyebut badalischio (juga badalisco) sebagai bentuk kuno dari basilisk, ular fabel.",
+          "quote": "BADALISCHIO , e BADALISCO . V. A. Basili- sco.Serpente favoloso",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "badalischio-c08",
+          "source_id": "badalischio-s3",
+          "host": "archive.org",
+          "statement": "The dictionary quotes Franco Sacchetti: the badalischio is a serpent that kills merely with its gaze and never shows mercy.",
+          "statement_id": "Kamus mengutip Franco Sacchetti: badalischio adalah ular yang membunuh hanya dengan tatapannya dan tak pernah memiliki belas kasihan.",
+          "quote": "Badalischio è un serpente, che pure col suo sguardo uccide , e già non ha in se per niun tempo misericordia",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "badalischio-c09",
+          "source_id": "badalischio-s3",
+          "host": "archive.org",
+          "statement": "According to the Sacchetti passage quoted in the dictionary, with a single cry it withers the trees, plants and grasses around it because of the breath that comes from its body, so full of poison.",
+          "statement_id": "Menurut kutipan Sacchetti dalam kamus itu, dengan satu jeritan ia membuat pepohonan, tanaman, dan rumput di sekitarnya mengering karena napas yang keluar dari tubuhnya penuh racun.",
+          "quote": "con uno stri- do fa seccare gli arbori, le piante, e 1' erbe , che gli stanno intorno per lo fiato , che gli esce dal corpo tan- to pieno di tosco",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3b28ba36b00d961ae4b08b2405f4b1d4b6098ab4119fcfa00c6edae7a913daa"
+      "images": []
     },
     {
       "slug": "balborinho",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "5044e1d56c225ee0e214fdd8cad9de44fd250006b41b12582656ee2cc9047c7c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -2252,27 +2593,73 @@
           "quote": "Em Guimarães era crendice popular que em cada folha arrebatada ao vento de um balborinho ia um diabo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "balborinho-c07",
+          "source_id": "balborinho-s2",
+          "host": "archive.org",
+          "statement": "Theophilo Braga cites the Balborinho as an example of natural phenomena personified, namely the Wind, at which an open penknife is thrown (Minho).",
+          "statement_id": "Theophilo Braga menyebut balborinho sebagai salah satu contoh fenomena alam yang dipersonifikasikan, yaitu Angin; ke dalamnya dilemparkan pisau lipat terbuka (Minho).",
+          "quote": "Muitos phenomenos naturaes acham-se personificados, como o Vento no Balborinho, ao qual se atira com um cani- vete aberto (Minho)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "balborinho-c08",
+          "source_id": "balborinho-s3",
+          "host": "archive.org",
+          "statement": "Whirlwinds resulting from the clash of two opposing wind currents are popularly called, among other names, balborinhos (Briteiros), barborinhos (Guimarães) and puginhos (Alentejo).",
+          "statement_id": "Pusaran angin akibat bertemunya dua arus angin yang berlawanan disebut secara populer, antara lain, balborinhos (Briteiros), barborinhos (Guimarães), dan puginhos (Alentejo).",
+          "quote": "Os torvelinhos, que resultam do embate de duas correntes opostas de vento, chamam-se popularmente remoinhos, ramoí- nhos, remoinhos-de-vento, redemoinhos, balborinhos (Briteiros), barborinhos (Guimaráes), puginhos (Alentejo).",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "balborinho-c09",
+          "source_id": "balborinho-s3",
+          "host": "archive.org",
+          "statement": "The people attribute a malign influence to them and flee from them, exorcising them.",
+          "statement_id": "Rakyat menganggap pusaran angin itu berpengaruh jahat dan lari darinya sambil mengusirnya dengan mantra.",
+          "quote": "O povo atribue-lhes influencia maléfica, e foge deles, esconjurando-os",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "balborinho-c10",
+          "source_id": "balborinho-s4",
+          "host": "archive.org",
+          "statement": "The souls that appear in the balborinhos are those of peasants who committed agrarian offences.",
+          "statement_id": "Jiwa-jiwa yang tampak dalam balborinho adalah jiwa petani yang melakukan pelanggaran agraria.",
+          "quote": "As almas que apparecem nos balbo- rinhos são de campesinos, que commet- teram delictos agrarios.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "balborinho-c11",
+          "source_id": "balborinho-s4",
+          "host": "archive.org",
+          "statement": "The author says the avejãs, fogachos and balborinhos are souls of the other world: lost souls, tormented souls, wandering souls.",
+          "statement_id": "Penulis menyebut avejãs, fogachos, dan balborinhos sebagai jiwa dari dunia lain: jiwa tersesat, jiwa gentayangan, jiwa pengembara.",
+          "quote": "As avejás, os fogachos e os balborinhos são, como disse, almas do outro mundo, almas perdidas, almas penadas, almas errantes",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "46302f2c823ee2be260a983fe46b40dd8cdb326b5dcc3ed3a0c1236a83246f16"
+      "images": []
     },
     {
       "slug": "baldemora",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "1bbd6e82754b2fe88922b0bfd129e43ce28ec5f1b8fbb1ba71f02be3f2254036",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "baldemora-c01",
@@ -2293,27 +2680,61 @@
           "quote": "Com que celebra la seva festa per Sant Pere, aquest dia el millor és no fer-se a la mar, perquè la baldemora no vetllarà per la bona marxa de les naus.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "baldemora-c03",
+          "source_id": "baldemora-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "The article groups the baldemores, along with the peix Nicolau and the simonets, among sea beings that bear a certain relation to the undines and sirens of Greco-Roman origin.",
+          "statement_id": "Artikel itu mengelompokkan baldemora, bersama ikan Nicolau dan simonet, sebagai makhluk laut yang punya kaitan tertentu dengan ondine dan putri duyung asal Yunani-Romawi.",
+          "quote": "o marítims (el peix Nicolau, els simonets o les baldemores), aquests personatges guarden certa relació amb les ondines i les sirenes d'origen grecoromà.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baldemora-c04",
+          "source_id": "baldemora-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The infobox of the Baldemora article lists feminine gender and the Simonet as a related character.",
+          "statement_id": "Kotak info artikel Baldemora mencatat jenis kelamin feminin dan Simonet sebagai tokoh yang berkaitan.",
+          "quote": "Gènere femení Personatges relacionats Simonet",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baldemora-c05",
+          "source_id": "baldemora-s3",
+          "host": "ca.wikipedia.org",
+          "statement": "A simonet is a creature of Catalan mythology, a sort of fish shaped like a very small little man that can swim faster than other fish.",
+          "statement_id": "Simonet adalah makhluk mitologi Katalan, semacam ikan berbentuk manusia sangat kecil yang berenang lebih cepat daripada ikan lain.",
+          "quote": "Un simonet és una criatura pròpia de la mitologia catalana, una mena de peix amb forma d'homenet molt petit que pot nedar més ràpid que la resta de peixos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baldemora-c06",
+          "source_id": "baldemora-s3",
+          "host": "ca.wikipedia.org",
+          "statement": "There is another Catalan mythological figure of the same name, a tiny marine sprite in the form of a white bird that became visible in the sky on Saint Peter's day and was an omen of good fishing.",
+          "statement_id": "Ada tokoh mitologi Katalan lain bernama Simonet: peri laut kecil berbentuk burung putih yang tampak di langit pada hari Santo Petrus dan menjadi pertanda tangkapan ikan yang baik.",
+          "quote": "Hi ha un altre personatge mitològic català amb el mateix nom, en aquest cas un follet marí en forma d'ocell blanc, molt petit, que es feia visible al cel durant el dia de Sant Pere i era auguri de bona pesca.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e2502b502cc351aba35ea399d52680669ce9a22105c79130f89d92a09a2fa44b"
+      "images": []
     },
     {
       "slug": "banya-verda",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-2.md",
+      "entry_sha256": "0a6c407b656231a490bddb68a09432af2e3d83a6f3ea4b633f0a4947e13e528c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "banya-verda-c01",
@@ -2334,10 +2755,49 @@
           "quote": "El personatge és especialment conegut a la Cerdanya, però també a Mallorca, on és un dels protagonistes dels balls tradicionals dels cossiers de Montuïri.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "banya-verda-c03",
+          "source_id": "banya-verda-s2",
+          "host": "archive.org",
+          "statement": "Joan Amades lists the Banya Verda among the child-scaring bogeys of infernal category, a great devil distinguished by an enormous green horn in the middle of the forehead.",
+          "statement_id": "Joan Amades menyebut Banya Verda sebagai salah satu penakut anak berkategori infernal, iblis besar yang ditandai dengan tanduk hijau yang sangat besar di tengah dahi.",
+          "quote": "Entre los espantachicos de categoría infernal, contaba el Banya Ver- da, demoniazo que se distinguía por poseer un enorme cuerno verde en el centro de la frente.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banya-verda-c04",
+          "source_id": "banya-verda-s2",
+          "host": "archive.org",
+          "statement": "Amades adds that there was a time when the devil was green, a colour later replaced by red and by black.",
+          "statement_id": "Amades menambahkan bahwa pernah ada masa ketika iblis berwarna hijau, warna yang kemudian berganti menjadi merah dan hitam.",
+          "quote": "Cabe advertir que tiempos hubo en que'el diablo era verde, color que trocó. posteriormente por el rojo y por el negro.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "banya-verda-c05",
+          "source_id": "banya-verda-s2",
+          "host": "archive.org",
+          "statement": "This figure is in charge of going about here and there armed with a long pitchfork, with which he spears every naughty child he meets.",
+          "statement_id": "Tokoh ini bertugas berkeliling ke sana kemari dengan garpu panjang, yang dipakainya untuk menusuk setiap anak nakal yang dijumpainya.",
+          "quote": "Este sujeto tiene a su cargo rondar de aquí y de allá armado de larga horca, con la que ensarta cuantos chicos malos halla a su paso",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banya-verda-c06",
+          "source_id": "banya-verda-s2",
+          "host": "archive.org",
+          "statement": "In Collbató, el Bruch, Pierola and Esparraguera (Montserrat region) there is a figure somewhat similar to the Banya Verda.",
+          "statement_id": "Di Collbató, el Bruch, Pierola, dan Esparraguera (kawasan Montserrat), ada tokoh yang agak mirip Banya Verda.",
+          "quote": "Por Collbató, el Bruch, Pierola y Esparraguera (región del Mont- errat), cuentan con un personaje algo semejante al Banya Verda",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f1707822f0fdad7b3ed5be3cd679a2358df7698e71f3fe98adde41e8ab64cb61"
+      "images": []
     },
     {
       "slug": "banyoles-monster",
@@ -2446,20 +2906,15 @@
     },
     {
       "slug": "basilisc",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "13ada699d4e1f9d156003960b6cd4aa1ecfcb25fd1fe13343a983d15d6fd56c6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "basilisc-c01",
@@ -2500,25 +2955,75 @@
           "quote": "els basiliscs podien néixer o bé d'uns petits ous de color verd, vermell o blau que ponien els galls, o bé del baf de l'or, ja que aquest metall contenia els gens de la bestiola.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "basilisc-c05",
+          "source_id": "basilisc-s2",
+          "host": "dcvb.iec.cat",
+          "statement": "According to the DCVB, people attribute to the basilisc a mixed form of serpent and cock and the property of killing with its glance.",
+          "statement_id": "Menurut DCVB, rakyat menganggap basilisc berwujud campuran ular dan ayam jantan serta memiliki kemampuan membunuh dengan tatapan.",
+          "quote": "al qual el poble atribueix una forma mixta de serp i de gall i la propietat de matar amb la ullada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisc-c06",
+          "source_id": "basilisc-s2",
+          "host": "dcvb.iec.cat",
+          "statement": "According to the DCVB, people believe the basilisc is born from a cock's egg thrown on the fire or buried in a dung heap.",
+          "statement_id": "Menurut DCVB, rakyat percaya basilisc lahir dari telur ayam jantan yang dilempar ke api atau dikubur dalam tumpukan pupuk.",
+          "quote": "El poble creu que el basilisc neix d'un ou de gall, tirat al foc o colgat dins un femer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisc-c07",
+          "source_id": "basilisc-s2",
+          "host": "dcvb.iec.cat",
+          "statement": "The DCVB cites the folklorist J. Amades: the form usually attributed to the basilisc is that of a short little snake or a lizard with an elongated mouth.",
+          "statement_id": "DCVB mengutip ahli cerita rakyat J. Amades: wujud yang biasa dikaitkan dengan basilisc adalah ular kecil pendek atau kadal dengan mulut memanjang.",
+          "quote": "Segons el folklorista J. Amades (BDC, xv, 68), la forma que solen atribuir al basilisc ... d'una serpeta curta o la d'una sargantana amb la boca allargada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisc-c08",
+          "source_id": "basilisc-s2",
+          "host": "dcvb.iec.cat",
+          "statement": "According to the Amades passage quoted in the DCVB, one must bring a large mirror and hold it before the face when lifting the tomb slab.",
+          "statement_id": "Menurut kutipan Amades dalam DCVB, orang yang membuka makam harus membawa cermin besar yang dipasang di depan wajah saat membuka penutup makam.",
+          "quote": "Cal proveir-se d'un gros mirall, el qual es posa davant la cara, al moment en que destapa la llosa del sepulcre",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisc-c09",
+          "source_id": "basilisc-s2",
+          "host": "dcvb.iec.cat",
+          "statement": "The DCVB records that in Catalonia there is also the belief that this animal is born from the vapour of gold and has the task of guarding tombs and hidden treasures.",
+          "statement_id": "DCVB mencatat bahwa di Katalonia juga ada kepercayaan bahwa hewan ini lahir dari uap emas dan bertugas menjaga makam serta harta terpendam.",
+          "quote": "aquest animal neix del baf de l'or ... de guardar els sepulcres i els tresors amagats.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4ed9cfacad05e9506cf3476c8b28d471b51df438d73b63f94aed3de4f5736b2b"
+      "images": []
     },
     {
       "slug": "beerwolf",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "77d9f767f656c8df4230cf60604329b6904e285d339bc2f797eb209f2347840d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -2561,25 +3066,57 @@
           "quote": "The 1550 Magdeburg Confession included a Beerwolf clause that had to be fulfilled before an evil ruler could be resisted by the lesser magistrates.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "beerwolf-c05",
+          "source_id": "beerwolf-s2",
+          "host": "archive.org",
+          "statement": "The Grimm dictionary defines beerwolf (masculine) as the same as birwolf and werwolf (OCR: \"werwoif\").",
+          "statement_id": "Kamus Grimm mendefinisikan beerwolf (maskulin) sebagai sama dengan birwolf dan werwolf (OCR: \"werwoif\").",
+          "quote": "BEERWOLF, m. was birwolf, werwoif",
+          "context": "etymology",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "beerwolf-c06",
+          "source_id": "beerwolf-s2",
+          "host": "archive.org",
+          "statement": "The Grimm dictionary cites a Luther passage: \"gott gebe dem blutbonde und beerwolf seinen lohn\" (may God give the blood-hound and beerwolf their reward).",
+          "statement_id": "Kamus Grimm mengutip Luther: \"gott gebe dem blutbonde und beerwolf seinen lohn\" (semoga Tuhan memberi anjing darah dan beerwolf ganjarannya).",
+          "quote": "gott gebe dem blutbonde und beerwolf sei¬ nen lohn",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "beerwolf-c07",
+          "source_id": "beerwolf-s3",
+          "host": "archive.org",
+          "statement": "Grimm records the forms meerwolf, beerwolf in Ettn. Unw. doct. 671 alongside the name werwolf.",
+          "statement_id": "Grimm mencatat bentuk meerwolf, beerwolf dalam Ettn. Unw. doct. 671 di samping nama werwolf.",
+          "quote": "meerwolf, beerwolf in Ettn. Unw. doct. 671",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1fa1d19814613ebd03af94a429bb2ba9e5df4169e5f1c044beea041da6a576b8"
+      "images": []
     },
     {
       "slug": "belsam",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "208f4fef71328e1af4aafb63f321cc41a2314981d1c2af6a9ecb81c4cc62c03e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -2602,27 +3139,62 @@
           "quote": "Na Bíblia, Belsan, é um dos hebreus exilados que voltaram para a Judeia sob o comando de Zorobabel.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "belsam-c03",
+          "source_id": "belsam-s2",
+          "host": "archive.org",
+          "statement": "The Diccionario de Ciencias Ocultas calls Belsam one of the demons first revealed in the declarations of the possessed women of the convent of Loudun (1632).",
+          "statement_id": "Diccionario de Ciencias Ocultas menyebut Belsam sebagai salah satu iblis yang pertama kali terungkap dalam pengakuan para perempuan kerasukan di biara Loudun (1632).",
+          "quote": "BELSAM — Otro de los demonios que por primera vez se revelan en las declaraciones de las poseídas del con- vento de Loudun (1632)",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "belsam-c04",
+          "source_id": "belsam-s3",
+          "host": "archive.org",
+          "statement": "The Dictionnaire de la Bible gives Belsam/Belsan (Hebrew Bilšân) as meaning \"son of the tongue, eloquent\", the name of a biblical person.",
+          "statement_id": "Dictionnaire de la Bible menyebut Belsam/Belsan (Ibrani Bilšân) berarti \"anak lidah, fasih\" sebagai nama seorang tokoh Alkitab.",
+          "quote": "BELSAM, BELSAN (hébi 'eu ; Bilmn , « fils de la langue, éloquent; » Septante",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "belsam-c05",
+          "source_id": "belsam-s3",
+          "host": "archive.org",
+          "statement": "According to the dictionary, Belsam/Belsan is one of the principal persons who returned from exile; the Vulgate calls him Belsam in 2 Esdras (Nehemiah) 7:7 and Belsan in 1 Esdras 2:2 (OCR spelling).",
+          "statement_id": "Menurut kamus itu, Belsam/Belsan adalah salah satu tokoh utama yang kembali dari pembuangan; Vulgata menyebutnya Belsam dalam 2 Ezra (Nehemia) 7:7 dan Belsan dalam 1 Ezra 2:2 (ejaan OCR).",
+          "quote": "un des principaux personnages qui revinrent de l’exil de Bahy- lone avec Zorohabel. Dans la Vulgate, il est appelé Belsam, 11 Esdr.jVii, 7, et Belsan, 1 Esdr., ii, 2.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "belsam-c06",
+          "source_id": "belsam-s4",
+          "host": "archive.org",
+          "statement": "The Dictionnaire infernal (1863) says that Loudun had for seven years had an Ursuline convent, which Grandier wished to seduce; this is the background of the Loudun possessions.",
+          "statement_id": "Dictionnaire infernal (1863) menceritakan bahwa di Loudun sudah tujuh tahun ada biara Ursulin, yang hendak digoda oleh Grandier; kisah itu adalah latar kerasukan Loudun.",
+          "quote": "Il y avait depuis sept ans à Loudun un couvent d'ursulines, que Grandier voulut sé- duire.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9132f24dd3d5d9e7975a17468f66e7e94604a5f2e46870fc0e831688f80faeda"
+      "images": []
     },
     {
       "slug": "benthameleon",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "5c9cb9c9271d1a79bfe7211bffca066ff34fb2596f0af1238b73693a8e5ff62e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "benthameleon-c01",
@@ -2633,27 +3205,81 @@
           "quote": "Benthameleón era el nombre de un demonio que se ofreció a los rabinos Simeón y Eleazar para meterse en el cuerpo de una hija de Tito a quien atormentaría hasta conseguir que el emperador revocase su edicto prohibiendo celebrar la fiesta del sábado y la circuncisión",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "benthameleon-c02",
+          "source_id": "benthameleon-s2",
+          "host": "steinsaltz.org",
+          "statement": "In the Talmudic story (Me'ilah 17b), a demon named Ben Temalion comes to meet the rabbis and offers to accompany them.",
+          "statement_id": "Dalam kisah Talmud (Me'ilah 17b), iblis bernama Ben Temalion datang menemui para rabi dan menawarkan diri menemani mereka.",
+          "quote": "Then Ben Temalion – a demon – came to meet them. He said: Is it your wish that I accompany you?",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "benthameleon-c03",
+          "source_id": "benthameleon-s2",
+          "host": "steinsaltz.org",
+          "statement": "The demon went ahead and entered the Emperor's daughter.",
+          "statement_id": "Iblis itu maju lalu masuk ke dalam putri Kaisar.",
+          "quote": "Thereupon the demon advanced and entered into the Emperor’s daughter.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "benthameleon-c04",
+          "source_id": "benthameleon-s2",
+          "host": "steinsaltz.org",
+          "statement": "When Rabbi Shimon arrived he called out for Ben Temalion to leave her, and the demon left.",
+          "statement_id": "Ketika Rabi Shimon tiba, ia berseru agar Ben Temalion keluar darinya, dan iblis itu pun keluar.",
+          "quote": "When Rabbi Shimon arrived there, he called out: ‘Ben Temalion leave her, Ben Temalion leave her’, and as he proclaimed this he left her.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "benthameleon-c05",
+          "source_id": "benthameleon-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "The Jewish Encyclopedia summarises that on Simeon's way to Rome he was met by the demon Ben Temalion, who offered help, entered the emperor's daughter by agreement, and was exorcised by Simeon at the Roman court.",
+          "statement_id": "Jewish Encyclopedia merangkum bahwa dalam perjalanan Simeon ke Roma ia bertemu iblis Ben Temalion yang menawarkan bantuan, masuk ke putri kaisar sesuai kesepakatan, lalu diusir Simeon di istana Romawi.",
+          "quote": "while on the way he was met by the demon Ben Temalion, who offered his assistance. According to agreement, the demon entered into the emperor's daughter, and Simeon exorcised it when he arrived at the Roman court.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "benthameleon-c06",
+          "source_id": "benthameleon-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "The Jewish Encyclopedia notes that in the Tefillot R. Shim'on b. Yoḥai the name \"Asmodeus\" occurs instead of \"Ben Temalion\".",
+          "statement_id": "Jewish Encyclopedia mencatat bahwa dalam Tefillot R. Shim'on b. Yoḥai, nama \"Asmodeus\" muncul sebagai ganti \"Ben Temalion\".",
+          "quote": "where, instead of \"Ben Temalion,\" \"Asmodeus\" occurs",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "benthameleon-c07",
+          "source_id": "benthameleon-s4",
+          "host": "archive.org",
+          "statement": "The Dictionnaire infernal (1863) says that Titus, after taking Jerusalem, issued an edict forbidding the Jews to keep the Sabbath and to circumcise.",
+          "statement_id": "Dictionnaire infernal (1863) menulis bahwa Titus, setelah merebut Yerusalem, menerbitkan dekret yang melarang orang Yahudi menaati Sabat dan bersunat.",
+          "quote": "Titus, ayant pris Jérusalem, publia un édit qui défendait aux Juifs d'observer le sabbat et de se circoncire",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d333e910af454edd8fb926f6a5c2f9fe30ed25f832ceb8e330af7bace96f407a"
+      "images": []
     },
     {
       "slug": "bep-kororoti",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "a8e2b6d84f8f659268eb46c59cf623d9498b9958817678c5ec60b945ffbedacf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bep-kororoti-c01",
@@ -2662,7 +3288,7 @@
           "statement": "According to the article, Bep-Kororoti is a mythical teacher the Kayapó believe visited their ancestors centuries ago, coming from the sky in a shining suit, giving them much knowledge and founding the first school.",
           "statement_id": "Menurut artikel ini, Bep-Kororoti adalah guru mitis yang diyakini orang Kayapó pernah mengunjungi leluhur mereka berabad-abad lalu, datang dari angkasa dengan pakaian berkilau, memberi banyak pengetahuan, dan mendirikan sekolah pertama.",
           "quote": "Bep-Kororoti é um mítico professor que os índios Kayapó acreditam ter visitado seus ancestrais séculos atrás, vindo do espaço vestido com um terno brilhante, deu-lhes muito conhecimento e fundou a primeira escola.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -2682,7 +3308,7 @@
           "statement": "In the legend warriors attacked the stranger in the shining suit, but poisoned arrows, spears and clubs bounced off him without harm.",
           "statement_id": "Dalam legenda itu, para pejuang menyerang orang asing berpakaian berkilau ini, tetapi panah beracun, tombak, dan gada memantul darinya tanpa melukai.",
           "quote": "Para seu total espanto, as flechas envenenadas, lanças e clavas simplesmente ricochetearam nele sem feri-lo.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -2692,7 +3318,7 @@
           "statement": "The peaceful newcomer was called Bep-Kororoti, rendered as \"I came from the sky\", and he founded the first school, a house for young men, in the rainforest.",
           "statement_id": "Pendatang damai itu disebut Bep-Kororoti, yang dapat diartikan \"aku datang dari langit\", dan ia mendirikan sekolah pertama, rumah bagi kaum muda, di hutan hujan.",
           "quote": "A tradição diz que esse pacífico recém-chegado foi chamado Bep-Kororoti, que pode ser traduzido descritivamente como \"eu vim do céu\" ou \"eu vim do espaço\". Ele logo fundou a primeira escola - um lar para jovens - na floresta tropical",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -2702,7 +3328,7 @@
           "statement": "After years he climbed the hill of Pukato-Ti; there was a terrible roar, and the young men saw their teacher vanish into the air amid smoke and thunder.",
           "statement_id": "Setelah bertahun-tahun ia mendaki bukit Pukato-Ti; terdengar dentuman dahsyat, dan para pemuda melihat guru mereka lenyap ke udara di tengah asap dan guntur.",
           "quote": "Depois que Bep-Kororoti subiu a colina, houve um estrondo terrível, e os jovens aterrorizados viram de longe como seu professor desapareceu repentinamente no ar cercado por grandes línguas de pano, fumaça e forte trovão.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -2724,27 +3350,101 @@
           "quote": "Nota: A vestimenta também se assemelha a um traje de apicultor. Contrariando as teorias ufologas.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c08",
+          "source_id": "bep-kororoti-s2",
+          "host": "archive.org",
+          "statement": "Posey and Camargo (1985), working among the Gorotire Kayapó, write that Bepkororoti is the spirit of an ancient shaman who becomes angry if food is not shared (he has a particular penchant for honey) and will send lightning and thunder to destroy the greedy.",
+          "statement_id": "Posey dan Camargo (1985), berdasarkan penelitian di antara orang Kayapó Gorotire, menulis bahwa Bepkororoti adalah roh seorang dukun kuno yang marah bila makanan tidak dibagi (ia sangat menyukai madu) dan akan mengirim petir dan guntur untuk menghancurkan orang yang serakah.",
+          "quote": "Bepkororoti is the spirit of an ancient shaman who becomes angry if food is not shared (he has a particular penchant for honey) and will send lightning and thunder to destroy those who are greedy",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c09",
+          "source_id": "bep-kororoti-s2",
+          "host": "archive.org",
+          "statement": "The Kayapó return part of the brood comb, honey, pollen and cerumen to the nest, and say this is done to keep Bepkororoti happy.",
+          "statement_id": "Orang Kayapó mengembalikan sebagian sarang anak, madu, serbuk sari, dan serumen ke sarang lebah, dan menyatakan bahwa itu dilakukan supaya Bepkororoti senang.",
+          "quote": "parts of the brood comb, honey, pollen, and cerumen are returned to the nest. The Kayapo say this is to keep Bepkororoti happy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c10",
+          "source_id": "bep-kororoti-s2",
+          "host": "archive.org",
+          "statement": "According to the authors, Bepkororoti functions to encourage sharing in the tribe and also becomes the protector of bees, ensuring the preservation of bee colonies.",
+          "statement_id": "Menurut penulisnya, Bepkororoti berfungsi mendorong sikap berbagi dalam suku dan juga menjadi pelindung lebah yang menjamin kelestarian koloni lebah.",
+          "quote": "Thus, Bepkororoti not only functions to encourage sharing in the tribe, but he also becomes the protector of bees and insures the preservation of bee colonies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c11",
+          "source_id": "bep-kororoti-s3",
+          "host": "www.jasoncolavito.com",
+          "statement": "Jason Colavito states that in standard anthropological reports Bep Kororoti is identified not as an ancient astronaut but as a human being, a deceased shaman who exercises spiritual power from beyond the grave.",
+          "statement_id": "Jason Colavito menyatakan bahwa dalam laporan antropologi baku Bep Kororoti diidentifikasi bukan sebagai astronot kuno tetapi sebagai manusia, seorang dukun yang telah meninggal dan menjalankan kuasa rohani dari alam kubur.",
+          "quote": "In standard anthropological reports, Bep Kororoti is correctly identified not as an ancient astronaut but as a human being, a deceased shaman who exercises spiritual power from beyond the grave.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c12",
+          "source_id": "bep-kororoti-s3",
+          "host": "www.jasoncolavito.com",
+          "statement": "Colavito describes a rerun of Ancient Aliens (S03E05) in which Giorgio Tsoukalos says an Amazonian cult outfit looks so much like an \"astronaut suit\" that it must be proof the aliens visited.",
+          "statement_id": "Colavito menggambarkan tayangan ulang Ancient Aliens (S03E05) tempat Giorgio Tsoukalos menyebut pakaian ritus Amazon itu begitu mirip \"pakaian astronot\" sehingga dianggap bukti kunjungan makhluk asing.",
+          "quote": "a rerun of Ancient Aliens (S03E05) in which Giorgio Tsoukalos rhapsodizes about the way an Amazonian cult outfit (below right) looks so much like an \"astronaut suit\" (below left) that it must be proof that the aliens visited",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c13",
+          "source_id": "bep-kororoti-s3",
+          "host": "www.jasoncolavito.com",
+          "statement": "According to Colavito, in The Gold of the Gods (1973) Erich von Däniken made a big deal of the suits resembling astronauts' suits; Colavito himself calls the emphasis racist.",
+          "statement_id": "Menurut Colavito, dalam The Gold of the Gods (1973) Erich von Däniken menekankan bahwa pakaian yang dikenakan orang-orang itu mirip pakaian astronot; Colavito sendiri menilai penekanan itu bernada rasis.",
+          "quote": "In The Gold of the Gods (1973), Erich von Daniken made a big (and racist) deal of how the suits worn by the \"wild Indians\" resembled astronauts' suits",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c14",
+          "source_id": "bep-kororoti-s3",
+          "host": "www.jasoncolavito.com",
+          "statement": "Colavito states that João Américo Peret had already expressed sympathy for the ancient astronaut theory before relating the story to von Däniken.",
+          "statement_id": "Colavito menyatakan bahwa João Américo Peret sudah menyatakan simpati pada teori astronot kuno sebelum menceritakan kisah itu kepada von Däniken.",
+          "quote": "Joao Americo Peret, who had already expressed sympathy for the ancient astronaut theory before relating the story to von Daniken",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bep-kororoti-c15",
+          "source_id": "bep-kororoti-s3",
+          "host": "www.jasoncolavito.com",
+          "statement": "Colavito states that in Kayapó myth Bep Kororoti is the protector of bees.",
+          "statement_id": "Colavito menyatakan bahwa dalam mitos Kayapó Bep Kororoti adalah pelindung lebah.",
+          "quote": "Bep Kororoti is the protector of bees in Kayapo myth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d9796c5936c9ca13f917134592d35ca06e4c750e23dd9a3d2710aea851fa6328"
+      "images": []
     },
     {
       "slug": "berberoka",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "58c803b0f1a251c11c3846accc7077b4b4aac78791626dae62cae3884668e53a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "berberoka-c01",
@@ -2785,27 +3485,71 @@
           "quote": "They have the ability to suck up all the water in a swamp or lake.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "berberoka-c05",
+          "source_id": "berberoka-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project compendium (citing Ramos) records that the size of the Berberoka, the Apayao ogre, is shown by the river drying up when he reclined across it; when he suddenly got up, the people who had gone to pick up the stranded fish drowned.",
+          "statement_id": "Kompendium Aswang Project (mengutip Ramos) mencatat bahwa ukuran Berberoka, raksasa Apayao, terlihat dari sungai yang mengering ketika ia berbaring melintanginya; ketika ia tiba-tiba bangun, orang yang datang memungut ikan yang terdampar tenggelam.",
+          "quote": "BERBEROKA – (Apayao) The size of Berberoka, the Apayao ogre, is indicated by the fact that the river dried up when he reclined across it, and when he suddenly got up, the people who had gone to pick up the stranded fish drowned.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "berberoka-c06",
+          "source_id": "berberoka-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The Berberoka \"could change himself at will\" and reclined across a stream and suddenly got up each time a crab pinched him.",
+          "statement_id": "Berberoka \"dapat mengubah dirinya sesuka hati\" dan berbaring melintangi sungai lalu tiba-tiba bangun setiap kali seekor kepiting menjepitnya.",
+          "quote": "Berberoka “could change himself at will,” and reclined across a stream and suddenly got up each time a crab pinched him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "berberoka-c07",
+          "source_id": "berberoka-s2",
+          "host": "www.aswangproject.com",
+          "statement": "He grew larger as the water he dammed with his body rose, but he was killed when he swallowed a woman who had a hatchet hidden in her hair (source cited: Maximo Ramos, The Creatures of Philippine Lower Mythology, 1990).",
+          "statement_id": "Tubuhnya membesar seiring naiknya air yang dibendungnya, tetapi ia terbunuh ketika menelan seorang perempuan yang menyembunyikan kapak kecil di rambutnya (sumber yang dikutip: Maximo Ramos, The Creatures of Philippine Lower Mythology, 1990).",
+          "quote": "He grew correspondingly larger in size as the water which he dammed up with his body rose, but he was killed when he swallowed a woman who had a hatchet concealed in her hair. (source: The The Creatures of Philippine Lower Mythology, Maximo Ramos, Phoenix Publishing, 1990)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "berberoka-c08",
+          "source_id": "berberoka-s3",
+          "host": "archive.org",
+          "statement": "An official Philippine government booklet calls the Berberoka a water monster known in Abra, Apayao and Ilocos Norte; it lives in lakes and rivers and preys on fishermen.",
+          "statement_id": "Booklet resmi pemerintah Filipina menyebut Berberoka sebagai monster air yang dikenal di Abra, Apayao, dan Ilocos Norte; ia tinggal di danau dan sungai dan memangsa para nelayan.",
+          "quote": "Halimaw-tubig ito na kilala sa Abra, Apayao, at llocos Norte. Naninirahan ang mga tusong Berberoka sa lawa at ilog kung saan binibiktima nila ang mga mangingisda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "berberoka-c09",
+          "source_id": "berberoka-s3",
+          "host": "archive.org",
+          "statement": "According to the booklet, they suck up the water until the fish are easy to see; when fishermen approach, the Berberoka use the sucked-up water to capsize the boat and drown the victims.",
+          "statement_id": "Menurut booklet itu, mereka menyedot air sampai ikan mudah terlihat; ketika nelayan mendekat, Berberoka memakai air yang disedot untuk membalikkan perahu dan menenggelamkan korbannya.",
+          "quote": "Hinihigop nila ang tubig hanggang sa madali nang makita ang mga isda. Paglapit dito ng mga mangingisda, gagamitin ng mga Berberoka ang hinigop na tubig upang pataubin ang bangka at lunurin ang mga biktima nito.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d82a5cb2756857a71e02202aadff62fed5f626c5384a27c469aa3b385bfb40dd"
+      "images": []
     },
     {
       "slug": "bete-a-sept-tetes",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "aab6886fbc60f156e11ac07759d3ddb9c6185cef230541fbea81ea4913368d4b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bete-a-sept-tetes-c01",
@@ -2866,27 +3610,51 @@
           "quote": "Le conte Ti-Jean et le cheval blanc, conte de la Beauce ayant pour héros Ti-Jean, héros par excellence des contes du Canada français, évoque aussi la Bête à sept têtes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bete-a-sept-tetes-c07",
+          "source_id": "bete-a-sept-tetes-s2",
+          "host": "fr.wikisource.org",
+          "statement": "In Revelation 12:3 (Segond 1910) a great red dragon appears with seven heads and ten horns, and seven diadems on its heads.",
+          "statement_id": "Dalam Kitab Wahyu 12:3 (Segond 1910) tampak seekor naga besar merah dengan tujuh kepala dan sepuluh tanduk, dan tujuh mahkota di kepalanya.",
+          "quote": "et voici, c’était un grand dragon rouge, ayant sept têtes et dix cornes, et sur ses têtes sept diadèmes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bete-a-sept-tetes-c08",
+          "source_id": "bete-a-sept-tetes-s2",
+          "host": "fr.wikisource.org",
+          "statement": "Revelation 13:1 describes a beast rising out of the sea with ten horns and seven heads, and ten diadems on its horns.",
+          "statement_id": "Wahyu 13:1 menggambarkan seekor binatang naik dari laut dengan sepuluh tanduk dan tujuh kepala, dan sepuluh mahkota di tanduknya.",
+          "quote": "Puis je vis monter de la mer une bête qui avait dix cornes et sept têtes, et sur ses cornes dix diadèmes",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bete-a-sept-tetes-c09",
+          "source_id": "bete-a-sept-tetes-s2",
+          "host": "fr.wikisource.org",
+          "statement": "Revelation 17:9-10 says the seven heads are seven mountains on which the woman sits, and also seven kings.",
+          "statement_id": "Wahyu 17:9-10 menyebut tujuh kepala itu adalah tujuh gunung tempat perempuan itu duduk, dan juga tujuh raja.",
+          "quote": "Les sept têtes sont sept montagnes, sur lesquelles la femme est assise. 10. Ce sont aussi sept rois",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "88e650a1e0d1d0d388e19714922f75e1b4785ef19a87a9cd04b1993dad17252d"
+      "images": []
     },
     {
       "slug": "bicho-cidrao",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "06f20f7e974485968d00bd1a00120b99ca8ab39643e44ce64cefda2c860a71c7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bicho-cidrao-c01",
@@ -2907,10 +3675,59 @@
           "quote": "O bicho Cidrão seria, segundo a lenda, a alma penada de um pastor.  Conta-se que quando o bicho Cidrão berra é  presságio de chuva ou tempestade e que o bicho Cidrão  conduz o rebanho sem que ninguém veja.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bicho-cidrao-c03",
+          "source_id": "bicho-cidrao-s2",
+          "host": "www.municipiosefreguesias.pt",
+          "statement": "According to this version, the legend is about the Pico Cidrão, where a shepherd is said once to have lived with his dog, his only faithful friend.",
+          "statement_id": "Menurut versi ini, legenda berkisah tentang Pico Cidrão, tempat konon dahulu tinggal seorang gembala bersama anjingnya, satu-satunya sahabat setianya.",
+          "quote": "Falamos do Pico Cidrão sobre o qual versa a nossa lenda. Diz-se que em tempos, ali viveu uma pastor e o seu cão, seu único e fiel amigo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bicho-cidrao-c04",
+          "source_id": "bicho-cidrao-s2",
+          "host": "www.municipiosefreguesias.pt",
+          "statement": "One day the dog, apparently distracted by an animal strayed from the flock, misjudged a jump it had made thousands of times and fell into the void.",
+          "statement_id": "Suatu hari anjing itu, mungkin terdistraksi seekor hewan yang tersesat dari kawanan, salah menghitung lompatan yang sudah ribuan kali dilakukannya dan jatuh ke jurang.",
+          "quote": "o cão decerto distraído por algum animal extraviado do rebanho, calculou mal o salto que fizera já milhares de vezes, e caiu no vácuo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bicho-cidrao-c05",
+          "source_id": "bicho-cidrao-s2",
+          "host": "www.municipiosefreguesias.pt",
+          "statement": "The shepherd cried out in a curse: \"Cursed be you, better to have offered him to the devil!\"",
+          "statement_id": "Gembala itu berteriak mengutuk: \"Terkutuklah engkau, lebih baik ia kuserahkan kepada setan!\"",
+          "quote": "“Maldita sejas, antes o tivesse oferecido ao demo!”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bicho-cidrao-c06",
+          "source_id": "bicho-cidrao-s2",
+          "host": "www.municipiosefreguesias.pt",
+          "statement": "When the shepherd finally left this world, the wind ordered the eagle to release the howl and the curse, which have since inhabited the heights of the Pico Cidrão.",
+          "statement_id": "Setelah gembala itu akhirnya meninggal, angin memerintahkan elang melepaskan lolongan dan kutukan itu, yang sejak itu mendiami ketinggian Pico Cidrão.",
+          "quote": "Quando finalmente o pastor deixou este mundo, o vento ordenou à águia que soltasse o uivo e a maldição que num eterno jogo de escondidas habitam desde então as alturas do Pico Cidrão.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bicho-cidrao-c07",
+          "source_id": "bicho-cidrao-s2",
+          "host": "www.municipiosefreguesias.pt",
+          "statement": "Those who live in the surroundings say that terrifying sound comes from the demonic, supernatural being, a union of the spirits of the two friends, the Bicho Cidrão.",
+          "statement_id": "Penduduk sekitar mengatakan bahwa suara menakutkan itu berasal dari makhluk iblis dan gaib, gabungan roh kedua sahabat itu, yaitu Bicho Cidrão.",
+          "quote": "Dizem aqueles que habitam nas redondezas, que aquele som aterrorizante, provém do ser demoníaco e sobrenatural, união dos espíritos dos dois amigos, o Bicho Cidrão.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d0175d5d01b543509fbf101015e782810a8bbf9fe6dfc38d6e7b28f52b1fd36c"
+      "images": []
     },
     {
       "slug": "bicorn",
@@ -2934,18 +3751,19 @@
     },
     {
       "slug": "bida",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "ce55c357f0864b311bec721fd1ff45ae7b4ffda8633b7af4ff686534785a1105",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -3018,27 +3836,64 @@
           "quote": "Les débris de la tête de Bida retombent dans le Bambouk et le Bouré et s'y changent en mines d'or qui font prospérer l'empire du Ghana par la suite.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bida-c08",
+          "source_id": "bida-s2",
+          "host": "archive.org",
+          "statement": "The encyclopedia says the story of Ouagadou-Bida comes from the Epic of the Dausi, one of several surviving narrative poems composed and recited by traveling storytellers.",
+          "statement_id": "Ensiklopedia itu menyebut kisah Ouagadou-Bida berasal dari Epos Dausi, salah satu puisi naratif yang dikarang dan dibawakan para pencerita keliling.",
+          "quote": "The story is from the Epic of the Dausi, one of several surviving narrative poems composed and recited by traveling storytellers.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "bida-c09",
+          "source_id": "bida-s2",
+          "host": "archive.org",
+          "statement": "According to the encyclopedia, Bida is sometimes called a dragon that arose from the desert sands, at other times a serpent or the offspring of a king.",
+          "statement_id": "Menurut ensiklopedia itu, Bida kadang disebut naga yang muncul dari pasir gurun, kadang ular atau keturunan seorang raja.",
+          "quote": "sometimes Bida is referred to as a dragon that arose from the desert sands, other times as a serpent or the offspring of a king.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "bida-c10",
+          "source_id": "bida-s2",
+          "host": "archive.org",
+          "statement": "Lagarre promised that every year a beautiful young girl would be sacrificed in Bida's honour.",
+          "statement_id": "Lagarre berjanji bahwa setiap tahun seorang gadis cantik akan dikurbankan untuk menghormati Bida.",
+          "quote": "He promised that every year a beautiful young girl would be sacrificed in its honor.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "bida-c11",
+          "source_id": "bida-s2",
+          "host": "archive.org",
+          "statement": "When the sacrificial virgin's lover slaughtered the snake during the annual ceremony, Ouagadou-Bida in retribution dried up the land and moved all the gold to Bure on the Upper Niger River.",
+          "statement_id": "Ketika kekasih gadis kurban membunuh ular itu dalam upacara tahunan, Ouagadou-Bida membalas dengan mengeringkan negeri dan memindahkan seluruh emas ke Bure di Sungai Niger Hulu.",
+          "quote": "when the lover of the sacrificial virgin slaughtered the snake during the annual ceremony. In retribution, Ouagadou-Bida dried up the land and moved all the gold to Bure on the Upper Niger River.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6621f0b7f9af166b7245c25e6e9a5028dba4f17310ce7f9b3308f2bf3df38045"
+      "images": []
     },
     {
       "slug": "biddrina",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-3.md",
+      "entry_sha256": "60644b18d889e14070bbbb16ec6d495fae497129a4e5275bb5b0b376eecc4736",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "biddrina-c01",
@@ -3109,27 +3964,91 @@
           "quote": "L'invenzione di questa creatura rispondeva probabilmente all'esigenza di evitare che i bambini andassero a fare il bagno in questi laghetti paludosi col pericolo di annegarvi.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "biddrina-c08",
+          "source_id": "biddrina-s2",
+          "host": "www.vdj.it",
+          "statement": "According to this article the biddrina appears to be a water serpent of at least six metres, with both dragon and crocodile traits, whose large red eyes let it bewitch its victims.",
+          "statement_id": "Menurut artikel ini, biddrina tampaknya ular air sepanjang paling sedikit enam meter, berciri naga sekaligus buaya, dengan mata merah besar yang memikat korbannya.",
+          "quote": "Pare essere un serpente acquatico di almeno sei metri. Include sia tratti di drago che di coccodrillo e i grandi occhi rossi le permettono di ammaliare le sue vittime.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biddrina-c09",
+          "source_id": "biddrina-s2",
+          "host": "www.vdj.it",
+          "statement": "According to stories handed down from grandparents, the Biddrina roamed the district of U Sieggiu, north of the seaside hamlet of Marina di Butera.",
+          "statement_id": "Menurut kisah turun-temurun dari kakek-nenek, Biddrina berkeliaran di kawasan U Sieggiu, di sebelah utara Marina di Butera.",
+          "quote": "Secondo i racconti che i nonni hanno tramandato ai nipoti nel corso delle generazioni, la Biddrina si aggirava presso la contrada ‘U Sieggiu’, a nord rispetto alla frazione marittima della Marina di Butera.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biddrina-c10",
+          "source_id": "biddrina-s2",
+          "host": "www.vdj.it",
+          "statement": "Adults used its story as a warning to keep children away from rivers and deep, dangerous wells.",
+          "statement_id": "Orang dewasa memakai kisahnya sebagai peringatan agar anak-anak menjauhi sungai dan sumur yang dalam dan berbahaya.",
+          "quote": "Gli adulti usavano la sua storia come monito per tenere i bambini lontani da fiumi e pozzi profondi e pericolosi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biddrina-c11",
+          "source_id": "biddrina-s2",
+          "host": "www.vdj.it",
+          "statement": "The article states that every 15 August Butera in Sicily celebrates U Sirpintazzu; the following day, 16 August, is the feast of San Rocco.",
+          "statement_id": "Artikel itu menyatakan bahwa setiap 15 Agustus Butera di Sisilia merayakan U Sirpintazzu; hari berikutnya, 16 Agustus, adalah pesta San Rocco.",
+          "quote": "Il 15 Agosto di ogni anno Butera, in Sicilia, celebra ‘U Sirpintazzu’",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "biddrina-c12",
+          "source_id": "biddrina-s3",
+          "host": "www.sikelian.it",
+          "statement": "At Montedoro, in the province of Caltanissetta, the Biddrina is said to live in the marsh fed by the sulphurous waters of the nearby sulphur mine.",
+          "statement_id": "Di Montedoro, provinsi Caltanissetta, konon Biddrina hidup di dalam rawa yang diairi air belerang dari tambang belerang di dekatnya.",
+          "quote": "Come a Montedoro, in provincia di Caltanissetta, dove si narra che la Biddrina vive proprio all’interno della palude alimentata dalle acque sulfuree della vicina miniera di zolfo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biddrina-c13",
+          "source_id": "biddrina-s3",
+          "host": "www.sikelian.it",
+          "statement": "In Gela people still tell that the Biddrina lived near the Lago Biviere nature reserve.",
+          "statement_id": "Di Gela, hingga kini diceritakan bahwa Biddrina hidup di dekat cagar alam Lago Biviere.",
+          "quote": "E a Gela ancora oggi si continua a raccontare che la Biddrina viveva presso la riserva naturale del Lago Biviere",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biddrina-c14",
+          "source_id": "biddrina-s3",
+          "host": "www.sikelian.it",
+          "statement": "At Cammuto a fountain was built to celebrate the death of the local Biddrina.",
+          "statement_id": "Di Cammuto dibangun sebuah air mancur untuk memperingati kematian Biddrina setempat.",
+          "quote": "E a Cammuto è stata costruita una fontana per celebrare la morte della Biddrina del posto.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1cb9d8783a2b7f2470616e544ec5eed24e66ee7978eee9cfa25b2710950c3b68"
+      "images": []
     },
     {
       "slug": "biliku",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-4.md",
+      "entry_sha256": "f10d38b69511e70c5fa34ff657fbfc8d7dd8cc040f0e42756993dd1927a27461",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "biliku-c01",
@@ -3160,27 +4079,141 @@
           "quote": "Contenta della sua creazione vi si trasferì, portandovi il fuoco e la luce e governandone ogni aspetto (in particolare il tempo atmosferico) a seconda del suo umore",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "biliku-c04",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "Beliefs about the weather and the seasons are under the control of two beings: Biliku (also called Bilik or Puluga) and Tarai (also called Teriya or Daria).",
+          "statement_id": "Kepercayaan tentang cuaca dan musim berada di bawah kendali dua makhluk: Biliku (juga disebut Bilik atau Puluga) dan Tarai (juga disebut Teriya atau Daria).",
+          "quote": "These are under the control of two beings named Biliku, Bilik or Puluga, and Tarai, Teriya, or Daria.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c05",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "Biliku lives in the north-east and is connected with the north-east monsoon.",
+          "statement_id": "Biliku tinggal di timur laut dan dihubungkan dengan muson timur laut.",
+          "quote": "Biliku lives in the north- east and is connected with the north-east monsoon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c06",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "In the North Andaman, Biliku is regarded as female and called Mimi Biliku, while Tarai is male and called Maia Tarai.",
+          "statement_id": "Di Andaman Utara, Biliku dianggap perempuan dan disebut Mimi Biliku, sedangkan Tarai laki-laki dan disebut Maia Tarai.",
+          "quote": "In the North Andaman Biliku is regarded as female, and is called Mimi Biliku, while Tarai is male and is called Maia Tarai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c07",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "The natives of these tribes frequently state that Tarai and Biliku are husband and wife.",
+          "statement_id": "Penduduk suku-suku itu sering menyatakan bahwa Tarai dan Biliku adalah suami dan istri.",
+          "quote": "A statement that is frequently made by the natives of these tribes is that Tarai and Biliku are husband and wife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c08",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "Lightning is explained as a fire-brand thrown by Biliku across the sky when she is angry, and thunder is said to be her voice growling.",
+          "statement_id": "Kilat dijelaskan sebagai kayu api yang dilemparkan Biliku melintasi langit ketika ia marah, dan guntur dikatakan sebagai suaranya yang menggeram.",
+          "quote": "Lightning is explained as being a fire-brand thrown by Biliku across the sky when she is angry, and thunder is said to be her voice growling.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c09",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "The only punishment Biliku inflicts on human beings when she is angry with them, for any reason, is to send violent storms.",
+          "statement_id": "Satu-satunya hukuman yang diberikan Biliku kepada manusia ketika ia marah, apa pun sebabnya, adalah mengirim badai dahsyat.",
+          "quote": "The only punishment that Biliku ever inflicts on human beings when she is angry with them for any reason, is to send violent storms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c10",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "In the North Andaman there is a definite association between Biliku and spiders; the generic word for spider is biliku.",
+          "statement_id": "Di Andaman Utara ada kaitan yang jelas antara Biliku dan laba-laba; kata umum untuk laba-laba adalah biliku.",
+          "quote": "In the North Andaman there is a definite association between Biliku and spiders, the generic name for \"spider\" being biliku.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c11",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "The author judges that applying the name biliku to the spider is clearly a minor motive and probably a late accretion.",
+          "statement_id": "Penulis menilai pemakaian nama biliku untuk laba-laba jelas merupakan motif kecil dan mungkin tambahan yang datang belakangan.",
+          "quote": "The application of the name biliku to the spider is clearly a minor motive, and probably a late accretion.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c12",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "According to E. H. Man's account of the South Andaman, the world was created by Puluga, who then made a man named Tomo, the first of the human race.",
+          "statement_id": "Menurut laporan E. H. Man tentang Andaman Selatan, dunia diciptakan oleh Puluga, yang kemudian membuat seorang laki-laki bernama Tomo, manusia pertama.",
+          "quote": "The world was created by Puluga ... who then made a man named Tomo, the first of the human race.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c13",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "The author concludes that the names Biliku, Puluga and Oluga are plainly different forms of the same word.",
+          "statement_id": "Penulis menyimpulkan bahwa nama Biliku, Puluga, dan Oluga jelas merupakan bentuk-bentuk berbeda dari kata yang sama.",
+          "quote": "It is obvious, however, that the names Biliku, Puluga, Oluga are all of them different forms of the same word.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c14",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "In some tribes Bilik is generally spoken of as male, and Teriya is also male.",
+          "statement_id": "Di sebagian suku, Bilik umumnya disebut laki-laki, dan Teriya juga laki-laki.",
+          "quote": "Bilik is generally spoken of as being male, and Teriya is also male.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biliku-c15",
+          "source_id": "biliku-s2",
+          "host": "archive.org",
+          "statement": "The author's interpretation: the beliefs about Biliku and the things that offend her are simply a statement, in a special form, of observable facts of nature.",
+          "statement_id": "Tafsiran penulis: kepercayaan tentang Biliku dan hal-hal yang menyinggungnya hanyalah pernyataan, dalam bentuk khusus, tentang fakta alam yang dapat diamati.",
+          "quote": "The explanation that I have to offer of these beliefs relating to Biliku and to the things that offend her is that they are simply the statement in a special form of observable facts of nature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3da5baea24ed9e2c95db79b4151935baa2c9128f23a41011ec21fec9ad6eb45c"
+      "images": []
     },
     {
       "slug": "bisarma",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-5.md",
+      "entry_sha256": "08ac64f879ff29cc6ca71e4d4a27cccc9d49cba9db8dc9aefb6e5fa8f33dc018",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bisarma-c01",
@@ -3201,27 +4234,61 @@
           "quote": "As bisarmas fazem parte das lendas de Portugal e das Asturias.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bisarma-c03",
+          "source_id": "bisarma-s2",
+          "host": "diccionariu.alladixital.org",
+          "statement": "According to the Asturian dictionary, bisarma (a feminine noun) means pantasma (phantom), a vision of a supernatural being.",
+          "statement_id": "Menurut kamus bahasa Asturias, bisarma (kata benda feminin) berarti pantasma, yaitu penampakan makhluk gaib.",
+          "quote": "Pantasma, visión d’un ser sobrenatural.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bisarma-c04",
+          "source_id": "bisarma-s2",
+          "host": "diccionariu.alladixital.org",
+          "statement": "A second sense of bisarma in the Asturian dictionary is a person who is tall and of bad appearance.",
+          "statement_id": "Arti kedua bisarma dalam kamus bahasa Asturias adalah orang yang tinggi dan berpenampilan buruk.",
+          "quote": "Persona [alta y de mala traza].",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bisarma-c05",
+          "source_id": "bisarma-s3",
+          "host": "dicionario.priberam.org",
+          "statement": "In Portuguese, bisarma figuratively means a person or thing of enormous size.",
+          "statement_id": "Dalam bahasa Portugis, bisarma secara kiasan berarti orang atau benda yang berukuran sangat besar.",
+          "quote": "Pessoa ou coisa de tamanho descomunal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bisarma-c06",
+          "source_id": "bisarma-s3",
+          "host": "dicionario.priberam.org",
+          "statement": "According to the Priberam dictionary, the word bisarma comes from French guisarme, a medieval weapon.",
+          "statement_id": "Menurut kamus Priberam, kata bisarma berasal dari bahasa Prancis guisarme, sebuah senjata abad pertengahan.",
+          "quote": "Origem: francês guisarme, arma medieval.",
+          "context": "etymology",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "e3b0f0537a380459d8b027946840ea55dab39144bf041502136e364cd20a4e1c"
+      "images": []
     },
     {
       "slug": "bisso-galeto",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-6.md",
+      "entry_sha256": "56fc1223ad1ab4ab695f741d48084373f05d38f829c182b684e5e73597a36748",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bisso-galeto-c01",
@@ -3292,10 +4359,89 @@
           "quote": "Presenta molte caratteristiche ricorrenti anche nel basilisco, per questo viene a volte confuso con esso.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c08",
+          "source_id": "bisso-galeto-s1",
+          "host": "it.wikipedia.org",
+          "statement": "It lives in woods and valleys but can hatch inside a house, a deadly event for the inhabitants, who are killed at night by the animal's poisonous breath.",
+          "statement_id": "Ia hidup di hutan dan lembah, tetapi dapat menetas di dalam rumah, peristiwa yang mematikan bagi penghuninya karena mereka terbunuh pada malam hari oleh napas beracun hewan itu.",
+          "quote": "Vive in boschi e vallate ma può nascere in casa, evento letale per gli abitanti che vengono uccisi di notte dal fiato velenoso dell'animale.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c09",
+          "source_id": "bisso-galeto-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Like the Abraxas, the Bisso can in some cases take on a positive value and become a \"protector\" of fishermen and farmers.",
+          "statement_id": "Seperti Abraxas, dalam beberapa kasus Bisso dapat bernilai positif dan menjadi \"pelindung\" para nelayan dan petani.",
+          "quote": "Come l'Abraxas, il Bisso può assumere in certi casi valore positivo e diventare un \"protettore\" dei pescatori e degli agricoltori.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c10",
+          "source_id": "bisso-galeto-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In the mountain areas of Verona, the Monti Lessini, it is called \"Basalisco\".",
+          "statement_id": "Di kawasan pegunungan Verona, Monti Lessini, makhluk ini disebut \"Basalisco\".",
+          "quote": "Nelle zone montane veronesi dei Monti Lessini viene chiamato \"Basalisco\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c11",
+          "source_id": "bisso-galeto-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Knights who struck the Bisso Galeto with a lance died because the venom travelled up the shaft and reached the hand.",
+          "statement_id": "Para ksatria yang menombak Bisso Galeto tewas karena racunnya naik melalui tangkai tombak dan sampai ke tangan mereka.",
+          "quote": "i cavalieri che colpivano il Bisso Galeto con la lancia morivano perché il veleno risaliva l'asta e raggiungeva la mano",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c12",
+          "source_id": "bisso-galeto-s2",
+          "host": "www.ilcondominionews.it",
+          "statement": "Unlike the crawling snake, the basalisco (bisso galeto) of the Lessinia tradition is described with two lizard-like legs or four cockerel-like legs, small wings and a cockerel's comb.",
+          "statement_id": "Berbeda dengan ular yang merayap, basalisco (bisso galeto) dalam tradisi Lessinia digambarkan berkaki dua seperti kadal atau berkaki empat seperti ayam jantan, bersayap kecil, dan berjengger ayam jantan.",
+          "quote": "Diversamente dal serpente che striscia, il basalisco era munito di due zampe simili a quelle del ramarro, o quattro zampe identiche a quelle del gallo, aveva piccole ali, cresta da gallo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c13",
+          "source_id": "bisso-galeto-s2",
+          "host": "www.ilcondominionews.it",
+          "statement": "In the Lessinia tradition its magnetic gaze could immobilise even an ox or make birds fall from the trees.",
+          "statement_id": "Dalam tradisi Lessinia, tatapannya yang memikat dapat melumpuhkan seekor lembu atau menjatuhkan burung dari pohon.",
+          "quote": "dotato di uno sguardo magnetico che poteva immobilizzare anche un bue, o far precipitare gli uccelli dagli alberi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c14",
+          "source_id": "bisso-galeto-s2",
+          "host": "www.ilcondominionews.it",
+          "statement": "In the Lessinia tradition it sometimes originated from a snake cut in two, whose head half grew wings, a comb and legs; at other times it was the result of the brooding of a cockerel's egg.",
+          "statement_id": "Menurut tradisi Lessinia, makhluk ini kadang berasal dari ular yang terpotong dua, ketika bagian kepalanya tumbuh sayap, jengger, dan kaki; di lain waktu ia lahir dari telur ayam jantan yang dierami.",
+          "quote": "talvolta originava da una serpe tagliata in due: la parte superiore, quella della testa, che dopo l’amputazione dal resto del corpo continuava a saltellare, generava le ali, la cresta e le zampe. Talaltra era il risultato della cova di un uovo di gallo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bisso-galeto-c15",
+          "source_id": "bisso-galeto-s2",
+          "host": "www.ilcondominionews.it",
+          "statement": "Ridolfi places the last \"sightings\" of the creature at the beginning of the 1950s.",
+          "statement_id": "Ridolfi menempatkan \"penampakan\" terakhir makhluk ini di awal tahun 1950-an.",
+          "quote": "all’inizio degli anni Cinquanta, quando si sono avuti gli ultimi",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2dd7f1226848ce05af83484f72e6ab72d50067a6883f5c7d52459c8e679fd52e"
+      "images": []
     }
   ]
 }

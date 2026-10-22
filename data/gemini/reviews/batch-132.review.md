@@ -1,6 +1,6 @@
 # Review batch-132
 
-Diperiksa 2026-10-07T07:39:51.861Z. Berkas: batch-132.md, batch-132-fix-1.md.
+Diperiksa 2026-10-22T10:57:09.135Z. Berkas: batch-132.md, batch-132-fix-1.md, batch-132-fix-2.md, batch-132-fix-3.md, batch-132-fix-4.md, batch-132-fix-5.md, batch-132-fix-6.md.
 
 ## orc-of-ebuda — lulus-otomatis
 
@@ -311,10 +311,7 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 
 ## abhartach — lulus-otomatis
 
-Klaim 7 (loose 1, exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -325,26 +322,35 @@ Klaim 7 (loose 1, exact 6), sumber 1, gambar 0.
 | abhartach-c05 | exact | en.wikipedia.org | After he escaped the grave again, the chief consulted a druid, slew him a third time and buried him head downwards, which subdued his magic so he never appeared again. | The chief then consulted a druid, and according to his directions, he slew the dwarf a third time, and buried him in the same place, with his head downwards; which subdued his magical power, so that he never again appeared on earth. |
 | abhartach-c06 | exact | en.wikipedia.org | In some modern versions Abhartach rises from his grave to drink his subjects' blood, and the chieftain who slays him is named Cathain. | In some modern versions of the story Abhartach rises from his grave to drink the blood of his subjects, while the chieftain who slays the revenant is named as Cathain. |
 | abhartach-c07 | exact | en.wikipedia.org | In those versions he can only be restrained by killing him with a yew-wood sword, burying him upside down, ringing the grave with thorns and placing a large stone on top. | he can only be restrained by killing him with a sword made of yew wood, burying him upside down, surrounding his grave with thorns, and placing a large stone on top of the grave. |
+| abhartach-c08 | exact | archive.org | Joyce notes that a place called Slaghtaverty in the parish of Errigal, Londonderry, ought to have been called Laghtaverty, the laght (sepulchral monument) of a man named Abhartach. | There is a place in the parish of Errigal in Londonderry, called Slaghtaverty, but it ought to have been called Laghtaverty, the laght or sepulchral monument of a man named Abhartach |
+| abhartach-c09 | exact | archive.org | In Joyce's account Abhartach was, it seems, a dwarf, a magician and a dreadful tyrant. | who was, it seems, a dwarf. This dwarf was a magician, and a dreadful tyrant |
+| abhartach-c10 | exact | archive.org | According to Joyce, the chief slew him a second time and buried him as before, but he escaped from the grave again and spread terror through the whole country. | And the chief slew him a second time and buried him as before, but again he escaped from the grave, and spread terror through the whole country. |
+| abhartach-c11 | exact | archive.org | Joyce writes that the laght raised over the dwarf was still there and that the natives of the place told the legend in detail, one of them telling it to him. | The laght raised over the dwarf is still there, and you may hear the legend with much detail from the natives of the place, one of whom told it to me. |
 
 
 ## alicornio — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | alicornio-c01 | exact | pt.wikipedia.org | In Portuguese legend the alicórnio is a giant with a single eye on its forehead. | Nas lendas portuguesas, o alicórnio é um gigante com um olho só na testa |
+| alicornio-c02 | exact | archive.org | In the tale published in the Archivio per lo studio delle tradizioni popolari, two friars walking along a road meet an alicórnio, a giant with a single eye on its forehead. | Era urna vez dois frades e iam por um caminho e encon- traram un alicornio, que era un gigante com um olho so na testa. |
+| alicornio-c03 | exact | archive.org | In the tale, the alicórnio was grazing sheep on the mountain when it saw the two friars. | O alicornio andava a pastar ovelhas no monte, e mal vio os frades disse-lhes: |
+| alicornio-c04 | exact | archive.org | In the tale, a door opened on the mountain on the spot, by enchantment (por encanto). | e logo alli se abrio no monte urna porta por encanto |
+| alicornio-c05 | exact | archive.org | In the tale it lit a fire, killed one of the friars and ate him. | accendeo o lume e matou um dos frades e comeu-o. |
+| alicornio-c06 | exact | archive.org | The other friar put a spit (espeto) in the fire and, when it was glowing, passed it through the alicórnio's eye and blinded it. | póz um espeto no ... e quando estava em braza passou-lh'o pelo olho e cegou-o. |
+| alicornio-c07 | exact | archive.org | The tale is presented as belonging to the "cycle of Polyphemus" tales studied by Kr. Nyrop. | contos perten- centes ao cyclo de « Polyphemo » que o snr Kr. Nyrop estudou |
+| alicornio-c08 | exact | archive.org | The collector states that this variant comes from the Portuguese-Galician border, province of Pontevedra (Spain). | proveniente da fronteira portuguesa-gallega, pro- vincias de Pontevedra (Espanha) |
+| alicornio-c09 | exact | archive.org | The tale is signed by Z. Consiglieri Pedroso, Lisbon, 1882. | Lisboa, Marfo àe 1882. Z. Consiglieri Pedroso. |
 
 
 ## alma-de-mestre — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (exact 7, unreachable 1), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 1 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -352,18 +358,25 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | alma-de-mestre-c02 | exact | pt.wikipedia.org | The belief comes from the plaintive cries of certain birds, above all the storm petrel (Hydrobates pelagicus), which sailors believe are the laments of the souls of masters and captains. | A crença deve-se aos pios sentidos de certas aves, por antonomásia o Hydrobates pelagicus, que os marinheiros crêem serem os lamentos das almas dos mestres e capitães |
 | alma-de-mestre-c03 | exact | pt.wikipedia.org | They keep up their lament as long as their bodies have not reached land and received Christian burial. | andam naquele fadário de pios, enquanto seu corpo não chega a terra, e não obtêm sepultura cristã. |
 | alma-de-mestre-c04 | exact | pt.wikipedia.org | Júlia Tomás links this myth with the Greek myth of Ceyx and Alcyone in Ovid's Metamorphoses. | Júlia Tomás, no seu «Ensaio sobre o Imaginário Marítimo dos Portugueses», propõe uma ligação entre este mito português e o mito grego, exarado nas Metamorfoses de Ovídio, de Ceix e Alcíone |
+| alma-de-mestre-c05 | exact | archive.org | Leite de Vasconcellos records (quoting Almeida Garrett) that on the high seas there are little birds that give out long, plaintive cries. | Encontram-se no alto mar umas avesinhas que dão sentidissimos e largos pios |
+| alma-de-mestre-c06 | exact | archive.org | Sailors superstitiously believe the birds are the souls of masters or captains of ships that were lost, who keep to their fate of crying until their bodies reach land. | são as almas dos mestres ou capitães de navios que se perderam, e que andam na- quelle fadario de pios, emquanto seu corpo não chega a terra |
+| alma-de-mestre-c07 | exact | archive.org | Leite de Vasconcellos cites the source of the passage: Almeida Garrett's note to canto V of Camões. | (Almeida Garrett, — Camões , not. ao canto v) |
+| alma-de-mestre-c08 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | Theophilo Braga says "almas de mestre" is the name sailors give to certain birds that accompany the ship, and that the traditional name results from this animist belief. | Às almas de mestre, nome que os marinheiros dão a certas aves que acompanham o navio, têm o nome tradicional resultante d'esta crença animista. |
 
 
 ## almajonas — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | almajonas-c01 | exact | pt.wikipedia.org | Almajonas (armajonas or almazonas) are very tall women of Portuguese legend; popular belief holds they are lost souls, and they carry their children on their backs. | Almajonas (armajonas ou almazonas) são mulheres muito altas das lendas portuguesas. A crença popular é que são almas penadas. As almajonas carregam os filhos às costas. |
+| almajonas-c02 | exact | archive.org | According to Leite de Vasconcellos, the almazonas (also called almajonas) are very large, stout women who throw their breasts back over their shoulders and nurse their children on their backs (Maia, Minho, Beira-Alta). | Almajonas , mulheres muito grandes e gordas, dei¬ tam os seios para trás das costas e assim alimentam os filhos ás costas (Maia, Minho, Beira-Alta) |
+| almajonas-c03 | exact | archive.org | A tale tells of a kingdom of the Almazonas where women governed one another and the men, who were slaves, did the women's own work. | Havia um reino (das Almazonas) onde as mulheres se governavam umas ás outras, e os homens, que erão escra¬ vos, faziam o serviço proprio d’ellas. |
+| almajonas-c04 | exact | archive.org | Leite de Vasconcellos judges the word Almazona, or Almajona with the change of z to j, to be evidently the same as Amazona. | A palavra Almazona, ou, pela mudança de z em j (cf. Isabel-Jabel, etc.), Almajona, ó evidentemente o mesmo que Ama¬ zona. |
+| almajonas-c05 | exact | archive.org | In Gondifellos (Famalicão) a distinction is made between Almajonas (big women) and Allamôas. | A lenda das Amazonas soífre uma variante notável em Gondifellos (c. de Famalicão). Lá faz-se distincção entre Almajonas (mulheres grandes) e Allamôas. |
+| almajonas-c06 | exact | archive.org | In the parish of S. Thiago da Cruz people believe tormented souls (almas penadas) trouble the living in the form of armajonas or almajonas: very tall, very thin women. | Na freguezia de S. Thiago da Cruz, o povo cre que empe- cem almas penadas, em forma de armajonas ou almajonas: mulheres muito altas e muito magras. |
+| almajonas-c07 | exact | archive.org | These shades appear only at the Ponte de Gorrellos and at the Poça do rio. | Estas sombras só appa- recem na Ponte de Gorrellos e na Poça do rio. |
 
 
 ## andresito — skip
@@ -390,10 +403,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## avurie — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -404,14 +414,17 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | avurie-c05 | exact | it.wikipedia.org | Tradition says that whoever is quick enough to snatch the Avurie's hat will enslave it and can force it to reveal a hidden treasure. | La tradizione vuole che se si ha la prontezza di strappare il cappello all'Avurie, lo si renderà schiavo e lo si potrà costringere a rivelare il nascondiglio di un tesoro nascosto. |
 | avurie-c06 | exact | it.wikipedia.org | In other parts of the province it is thought to take the form of a dog or a dove. | In altre zone della provincia si pensa abbia forma di cane o colombo. |
 | avurie-c07 | exact | it.wikipedia.org | An Aure may belong to a house and never leave it, or be tied to a family and follow it wherever it moves. | L'Aure può essere proprio di un'abitazione, ed allora non l'abbandonerà mai, o essere legato ad una famiglia, ed allora la seguirà nei suoi spostamenti. |
+| avurie-c08 | exact | www.grottaglieinrete.it | The author lists the names of this sprite across southern Italy; in the Taranto area it is called Avurie (or Aure or Laùre). | mentre in Abruzzo e Molise come Mazzemarill, Tummà nel barese e Avurie (o Aure o Laùre) della zona tarantina. |
+| avurie-c09 | exact | www.grottaglieinrete.it | The sprite (under all its synonyms) is described as an often ugly, hairy sort of folletto with the build of a child of about three, dressed in dark clothes, almost always brown, barefoot but with a hat on its head. | lu Lauro (in tutti i suoi sinonimi) è descritto come una sorta di folletto spesso brutto e peloso, con la corporatura di un bambino di circa tre anni, vestito con un abito scuro, quasi sempre di color marrone, scalzo ma con un cappello in testa. |
+| avurie-c10 | exact | www.grottaglieinrete.it | It is said to be in the habit of sitting on the belly or chest of sleepers, ruining their sleep, paralysing them and taking their breath. | si dice che lu Laùro abbia l’abitudine di sedersi sulla pancia o sul petto di chi dorme, rovinandogli il sonno, paralizzandolo e togliendogli il respiro. |
+| avurie-c11 | exact | www.grottaglieinrete.it | Another of its pranks is to cause bruises on the bodies of people and animals, called in Taranto "pizzeche de l'Aure" (the Aure's pinches). | Altro scherzo dello Laùre è causare lividi ed ecchimosi sul corpo di uomini e animali, chiamati a Taranto “pizzeche de l’Aure” (pizzichi dell’Auro). |
+| avurie-c12 | exact | www.grottaglieinrete.it | According to other legends the sprite appreciates small gifts and repays them with gold coins or by showing its benefactor where a treasure is hidden. | lu Laùro apprezza queste gentilezze e le ricambia donando delle monete d’oro o indicando al suo benefattore il luogo dove è nascosto un tesoro. |
+| avurie-c13 | exact | www.grottaglieinrete.it | Because of its attachment to a house or family, the author speculates that the name derives from the "Lares Familiares". | Questa caratteristica fa ipotizzare che il suo nome derivi dai “Lares Familiares“ |
 
 
 ## babau — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -420,6 +433,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | babau-c03 | exact | it.wikipedia.org | Some sources say the Babau may be a legacy of the old fear of the Saracens (9th–10th centuries), its name perhaps from Arabic Baban, "victor". | Secondo alcune fonti, il Babau potrebbe essere un retaggio dell'antico timore nei confronti dei Saraceni (IX-X secolo). In questo caso, la parola "Babau" potrebbe derivare dall'arabo Baban (ossia "Vincitore"). |
 | babau-c04 | exact | it.wikipedia.org | A more common view takes the name as onomatopoeic, a doubling of a dog's bark or another animal's cry. | Un'interpretazione più diffusa intende invece il nome "Babau" come onomatopea, ottenuto per raddoppiamento dal latrato del cane o di un altro animale. |
 | babau-c05 | exact | it.wikipedia.org | Dino Buzzati wrote a short story titled after the Babau and also painted it several times. | Al Babau è dedicato il racconto omonimo di Dino Buzzati (che lo ritrasse anche in diversi dipinti). |
+| babau-c06 | exact | www.treccani.it | The Treccani dictionary defines the babau as an imaginary monster named to frighten children ("if you are not good, the babau will come"). | Mostro immaginario che si nomina per far paura ai bambini: se non stai buono viene il babau. |
+| babau-c07 | exact | www.treccani.it | Treccani describes the word babau as onomatopoeic, from the "bau bau" of the dog. | [voce onomatopeica, dal bau bau del cane] |
+| babau-c08 | exact | www.treccani.it | By extension, the word babau is also used for a person who is feared or has a terrible reputation. | Per estens., persona che si fa temere, che ha fama di terribile. |
+| babau-c09 | exact | www.treccani.it | The Treccani thesaurus lists gatto mammone, lupo cattivo, lupo mannaro, orco and uomo nero as synonyms of the babau. | [figura immaginaria che si nomina per impaurire i bambini] ≈ ‖ gatto mammone, (fam.) lupo cattivo, lupo mannaro, orco, uomo nero. |
 
 
 ## babieca — lulus-otomatis
@@ -436,10 +453,10 @@ Klaim 1 (exact 1), sumber 1, gambar 0.
 
 ## badalischio — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 9 (exact 5, unreachable 4), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 4 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -448,14 +465,18 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | badalischio-c03 | exact | it.wikipedia.org | It is a strange serpent as big as a man, wrapped in linen swaddling bands, with red eyes able to paralyse its prey. | uno strano serpente, grande come un uomo, avvolto in bende di lino da neonato, con occhi rossi in grado di paralizzare la malcapitata preda. |
 | badalischio-c04 | exact | it.wikipedia.org | Some legends say its breath is extremely poisonous, even deadly, and it is often shown with a crown or diadem that sometimes covers its eyes. | Alcune leggende affermano che l'alito del badalischio sia estremamente velenoso, addirittura mortale. Il badalischio viene spesso raffigurato con una corona od un diadema, che a volte gli copre gli occhi. |
 | badalischio-c05 | exact | it.wikipedia.org | The newspaper Casentino 2000 created a satirical award called "Il Badalischio d'Argento". | Il giornale Casentino 2000 ha creato un premio satirico da offrire a certe persone in particolare (un premio simile al Tapiro d'oro di Striscia la notizia), chiamato "Il Badalischio d'Argento". |
+| badalischio-c06 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | In Sermon XX, Sacchetti writes that all other serpents can be charmed except the Badalischio, against whose venom no incantation avails. | chè tutti gli altri serpenti si pos- sono incantare salvo che il Badalischio, contra il quale ve- leno alcuna incantazione non vale. |
+| badalischio-c07 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | This dictionary gives badalischio (also badalisco) as an archaic form of basilisco, a fabulous serpent. | BADALISCHIO , e BADALISCO . V. A. Basili- sco.Serpente favoloso |
+| badalischio-c08 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The dictionary quotes Franco Sacchetti: the badalischio is a serpent that kills merely with its gaze and never shows mercy. | Badalischio è un serpente, che pure col suo sguardo uccide , e già non ha in se per niun tempo misericordia |
+| badalischio-c09 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | According to the Sacchetti passage quoted in the dictionary, with a single cry it withers the trees, plants and grasses around it because of the breath that comes from its body, so full of poison. | con uno stri- do fa seccare gli arbori, le piante, e 1' erbe , che gli stanno intorno per lo fiato , che gli esce dal corpo tan- to pieno di tosco |
 
 
 ## balborinho — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 11 (exact 9, unreachable 2), sumber 4, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -465,32 +486,39 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | balborinho-c04 | exact | pt.wikipedia.org | In Briteiros people crossed themselves while saying, "Go to whoever ate your fields". | Em Briteiros, a recomendação que se fazia era persignar-se, enquanto se lhes dizia a seguinte invocação: «Vai-te para quem te comeu as leiras». |
 | balborinho-c05 | exact | pt.wikipedia.org | In Moncorvo people threw an open penknife into the centre of the whirlwind to drive out the witch hiding inside. | Em Moncorvo, por sua vez, recomendava-se atirar um canivete aberto ao centro do redemoinho de vento, a fim de esmadrigar de dentro do balborinho a Feiticeira ou Bruxa, que nele se ocultava. |
 | balborinho-c06 | exact | pt.wikipedia.org | In Guimarães it was believed a devil rode on every leaf the balborinho's wind snatched up. | Em Guimarães era crendice popular que em cada folha arrebatada ao vento de um balborinho ia um diabo. |
+| balborinho-c07 | exact | archive.org | Theophilo Braga cites the Balborinho as an example of natural phenomena personified, namely the Wind, at which an open penknife is thrown (Minho). | Muitos phenomenos naturaes acham-se personificados, como o Vento no Balborinho, ao qual se atira com um cani- vete aberto (Minho) |
+| balborinho-c08 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | Whirlwinds resulting from the clash of two opposing wind currents are popularly called, among other names, balborinhos (Briteiros), barborinhos (Guimarães) and puginhos (Alentejo). | Os torvelinhos, que resultam do embate de duas correntes opostas de vento, chamam-se popularmente remoinhos, ramoí- nhos, remoinhos-de-vento, redemoinhos, balborinhos (Briteiros), barborinhos (Guimaráes), puginhos (Alentejo). |
+| balborinho-c09 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The people attribute a malign influence to them and flee from them, exorcising them. | O povo atribue-lhes influencia maléfica, e foge deles, esconjurando-os |
+| balborinho-c10 | exact | archive.org | The souls that appear in the balborinhos are those of peasants who committed agrarian offences. | As almas que apparecem nos balbo- rinhos são de campesinos, que commet- teram delictos agrarios. |
+| balborinho-c11 | exact | archive.org | The author says the avejãs, fogachos and balborinhos are souls of the other world: lost souls, tormented souls, wandering souls. | As avejás, os fogachos e os balborinhos são, como disse, almas do outro mundo, almas perdidas, almas penadas, almas errantes |
 
 
 ## baldemora — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | baldemora-c01 | exact | ca.wikipedia.org | In Catalan mythology a baldemora is a kind of mermaid with long hair, sometimes golden, sometimes silver, that moves very fast; it lives in the sea and helps guide sailors who have lost their way in rough seas. | Una baldemora és, dins la mitologia catalana, una mena de sirena amb una llarga cabellera, a voltes daurada, a voltes platejada que es mou amb gran rapidesa. Viu dins de la mar i ajuda a guiar els mariners quan aquests han perdut el nord per culpa de la mala maror. |
 | baldemora-c02 | exact | ca.wikipedia.org | Because it holds its feast on Saint Peter's day, it is best not to go to sea that day, since the baldemora will not watch over the ships. | Com que celebra la seva festa per Sant Pere, aquest dia el millor és no fer-se a la mar, perquè la baldemora no vetllarà per la bona marxa de les naus. |
+| baldemora-c03 | exact | ca.wikipedia.org | The article groups the baldemores, along with the peix Nicolau and the simonets, among sea beings that bear a certain relation to the undines and sirens of Greco-Roman origin. | o marítims (el peix Nicolau, els simonets o les baldemores), aquests personatges guarden certa relació amb les ondines i les sirenes d'origen grecoromà. |
+| baldemora-c04 | exact | ca.wikipedia.org | The infobox of the Baldemora article lists feminine gender and the Simonet as a related character. | Gènere femení Personatges relacionats Simonet |
+| baldemora-c05 | exact | ca.wikipedia.org | A simonet is a creature of Catalan mythology, a sort of fish shaped like a very small little man that can swim faster than other fish. | Un simonet és una criatura pròpia de la mitologia catalana, una mena de peix amb forma d'homenet molt petit que pot nedar més ràpid que la resta de peixos. |
+| baldemora-c06 | exact | ca.wikipedia.org | There is another Catalan mythological figure of the same name, a tiny marine sprite in the form of a white bird that became visible in the sky on Saint Peter's day and was an omen of good fishing. | Hi ha un altre personatge mitològic català amb el mateix nom, en aquest cas un follet marí en forma d'ocell blanc, molt petit, que es feia visible al cel durant el dia de Sant Pere i era auguri de bona pesca. |
 
 
 ## banya-verda — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | banya-verda-c01 | exact | ca.wikipedia.org | Banya Verda ("green horn") is a child-scaring bogey of Catalan folk imagination, a devil with a big green horn in the middle of its forehead that pricks naughty children with a pitchfork, loads them in a basket and takes them straight to hell. | En Banya Verda és un espantamainades propi de l'imaginari popular català. Es tracta d'un dimoni que té una gran banya verda al mig del front. Duu una forca amb què punxa tots els nens dolents que troba, se'ls carrega en una cistella i se'ls enduu de pet a l'infern. |
 | banya-verda-c02 | exact | ca.wikipedia.org | The figure is especially known in the Cerdanya, but also in Mallorca, where it is one of the protagonists of the traditional cossiers dances of Montuïri. | El personatge és especialment conegut a la Cerdanya, però també a Mallorca, on és un dels protagonistes dels balls tradicionals dels cossiers de Montuïri. |
+| banya-verda-c03 | exact | archive.org | Joan Amades lists the Banya Verda among the child-scaring bogeys of infernal category, a great devil distinguished by an enormous green horn in the middle of the forehead. | Entre los espantachicos de categoría infernal, contaba el Banya Ver- da, demoniazo que se distinguía por poseer un enorme cuerno verde en el centro de la frente. |
+| banya-verda-c04 | exact | archive.org | Amades adds that there was a time when the devil was green, a colour later replaced by red and by black. | Cabe advertir que tiempos hubo en que'el diablo era verde, color que trocó. posteriormente por el rojo y por el negro. |
+| banya-verda-c05 | exact | archive.org | This figure is in charge of going about here and there armed with a long pitchfork, with which he spears every naughty child he meets. | Este sujeto tiene a su cargo rondar de aquí y de allá armado de larga horca, con la que ensarta cuantos chicos malos halla a su paso |
+| banya-verda-c06 | exact | archive.org | In Collbató, el Bruch, Pierola and Esparraguera (Montserrat region) there is a figure somewhat similar to the Banya Verda. | Por Collbató, el Bruch, Pierola y Esparraguera (región del Mont- errat), cuentan con un personaje algo semejante al Banya Verda |
 
 
 ## banyoles-monster — lulus-otomatis
@@ -512,10 +540,7 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## basilisc — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -523,14 +548,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | basilisc-c02 | exact | ca.wikipedia.org | It lives in tombs where the dead were buried with valuables, or where treasure is buried, to stop anyone stealing it; its gaze is deadly, directly or through a poison it gives off. | Viu dins els sepulcres on el finat fou enterrat amb objectes valuosos o en llocs on hi ha tresors enterrats, amb la missió d'impedir que ningú no els robi. La seva mirada és mortal, ja sigui directament o per mitjà d'un verí que en surt. |
 | basilisc-c03 | exact | ca.wikipedia.org | Treasure hunters used to carry a mirror to avoid the basilisc, since on seeing its reflection it died of its own gaze. | Els cercadors de tresors anaven antigament equipats amb un mirall per tal d'esquivar el perill del basilisc, ja que aquest, en veure-s'hi reflectit, es moria víctima de la seva pròpia mirada. |
 | basilisc-c04 | exact | ca.wikipedia.org | Basiliscs were said to hatch from small green, red or blue eggs laid by cockerels, or from the vapour of gold, since that metal held the creature's seed. | els basiliscs podien néixer o bé d'uns petits ous de color verd, vermell o blau que ponien els galls, o bé del baf de l'or, ja que aquest metall contenia els gens de la bestiola. |
+| basilisc-c05 | exact | dcvb.iec.cat | According to the DCVB, people attribute to the basilisc a mixed form of serpent and cock and the property of killing with its glance. | al qual el poble atribueix una forma mixta de serp i de gall i la propietat de matar amb la ullada. |
+| basilisc-c06 | exact | dcvb.iec.cat | According to the DCVB, people believe the basilisc is born from a cock's egg thrown on the fire or buried in a dung heap. | El poble creu que el basilisc neix d'un ou de gall, tirat al foc o colgat dins un femer. |
+| basilisc-c07 | exact | dcvb.iec.cat | The DCVB cites the folklorist J. Amades: the form usually attributed to the basilisc is that of a short little snake or a lizard with an elongated mouth. | Segons el folklorista J. Amades (BDC, xv, 68), la forma que solen atribuir al basilisc ... d'una serpeta curta o la d'una sargantana amb la boca allargada. |
+| basilisc-c08 | exact | dcvb.iec.cat | According to the Amades passage quoted in the DCVB, one must bring a large mirror and hold it before the face when lifting the tomb slab. | Cal proveir-se d'un gros mirall, el qual es posa davant la cara, al moment en que destapa la llosa del sepulcre |
+| basilisc-c09 | exact | dcvb.iec.cat | The DCVB records that in Catalonia there is also the belief that this animal is born from the vapour of gold and has the task of guarding tombs and hidden treasures. | aquest animal neix del baf de l'or ... de guardar els sepulcres i els tresors amagats. |
 
 
 ## beerwolf — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 7 (exact 5, unreachable 2), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -538,39 +568,46 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | beerwolf-c02 | exact | en.wikipedia.org | In a 1539 debate arranged by Philip of Hesse and the Elector of Saxony, when Holy Roman Emperor Charles V seemed ready to attack the Lutherans, Martin Luther used the concept of the Beerwolf to describe the Pope and the Emperor. | In a debate arranged by Philip of Hesse and the Elector of Saxony in 1539, when it appeared the Holy Roman Emperor Charles V was readying to attack the Lutherans, Martin Luther introduced the concept of Beerwolf to describe the Pope and the Emperor. |
 | beerwolf-c03 | exact | en.wikipedia.org | In resistance theory the Beerwolf, unlike a mere tyrant, not only broke the law but overturned the whole moral order on which it rests. | the Beerwolf, "in contrast to a mere tyrant, not only broke the law, but overturned the entire moral order upon which it is based. |
 | beerwolf-c04 | exact | en.wikipedia.org | The 1550 Magdeburg Confession included a Beerwolf clause to be met before lesser magistrates could resist an evil ruler. | The 1550 Magdeburg Confession included a Beerwolf clause that had to be fulfilled before an evil ruler could be resisted by the lesser magistrates. |
+| beerwolf-c05 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The Grimm dictionary defines beerwolf (masculine) as the same as birwolf and werwolf (OCR: "werwoif"). | BEERWOLF, m. was birwolf, werwoif |
+| beerwolf-c06 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The Grimm dictionary cites a Luther passage: "gott gebe dem blutbonde und beerwolf seinen lohn" (may God give the blood-hound and beerwolf their reward). | gott gebe dem blutbonde und beerwolf sei¬ nen lohn |
+| beerwolf-c07 | exact | archive.org | Grimm records the forms meerwolf, beerwolf in Ettn. Unw. doct. 671 alongside the name werwolf. | meerwolf, beerwolf in Ettn. Unw. doct. 671 |
 
 
 ## belsam — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 6 (exact 5, unreachable 1), sumber 4, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 1 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | belsam-c01 | exact | pt.wikipedia.org | Belsam is a demon named in the declarations of the possessed nuns of the Ursuline convent at Loudun. | Belsam é um demônio que foi retratado nas declarações das possuídas do convento das Ursulinas de Loundun em 1832. |
 | belsam-c02 | exact | pt.wikipedia.org | In the Bible, Belsan is one of the exiled Hebrews who returned to Judea under Zerubbabel. | Na Bíblia, Belsan, é um dos hebreus exilados que voltaram para a Judeia sob o comando de Zorobabel. |
+| belsam-c03 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The Diccionario de Ciencias Ocultas calls Belsam one of the demons first revealed in the declarations of the possessed women of the convent of Loudun (1632). | BELSAM — Otro de los demonios que por primera vez se revelan en las declaraciones de las poseídas del con- vento de Loudun (1632) |
+| belsam-c04 | exact | archive.org | The Dictionnaire de la Bible gives Belsam/Belsan (Hebrew Bilšân) as meaning "son of the tongue, eloquent", the name of a biblical person. | BELSAM, BELSAN (hébi 'eu ; Bilmn , « fils de la langue, éloquent; » Septante |
+| belsam-c05 | exact | archive.org | According to the dictionary, Belsam/Belsan is one of the principal persons who returned from exile; the Vulgate calls him Belsam in 2 Esdras (Nehemiah) 7:7 and Belsan in 1 Esdras 2:2 (OCR spelling). | un des principaux personnages qui revinrent de l’exil de Bahy- lone avec Zorohabel. Dans la Vulgate, il est appelé Belsam, 11 Esdr.jVii, 7, et Belsan, 1 Esdr., ii, 2. |
+| belsam-c06 | exact | archive.org | The Dictionnaire infernal (1863) says that Loudun had for seven years had an Ursuline convent, which Grandier wished to seduce; this is the background of the Loudun possessions. | Il y avait depuis sept ans à Loudun un couvent d'ursulines, que Grandier voulut sé- duire. |
 
 
 ## benthameleon — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | benthameleon-c01 | exact | es.wikipedia.org | Benthameleón was the name of a demon who offered the rabbis Simeon and Eleazar to enter the body of a daughter of Titus and torment her until the emperor revoked his edict banning the Sabbath and circumcision. | Benthameleón era el nombre de un demonio que se ofreció a los rabinos Simeón y Eleazar para meterse en el cuerpo de una hija de Tito a quien atormentaría hasta conseguir que el emperador revocase su edicto prohibiendo celebrar la fiesta del sábado y la circuncisión |
+| benthameleon-c02 | exact | steinsaltz.org | In the Talmudic story (Me'ilah 17b), a demon named Ben Temalion comes to meet the rabbis and offers to accompany them. | Then Ben Temalion – a demon – came to meet them. He said: Is it your wish that I accompany you? |
+| benthameleon-c03 | exact | steinsaltz.org | The demon went ahead and entered the Emperor's daughter. | Thereupon the demon advanced and entered into the Emperor’s daughter. |
+| benthameleon-c04 | exact | steinsaltz.org | When Rabbi Shimon arrived he called out for Ben Temalion to leave her, and the demon left. | When Rabbi Shimon arrived there, he called out: ‘Ben Temalion leave her, Ben Temalion leave her’, and as he proclaimed this he left her. |
+| benthameleon-c05 | exact | www.jewishencyclopedia.com | The Jewish Encyclopedia summarises that on Simeon's way to Rome he was met by the demon Ben Temalion, who offered help, entered the emperor's daughter by agreement, and was exorcised by Simeon at the Roman court. | while on the way he was met by the demon Ben Temalion, who offered his assistance. According to agreement, the demon entered into the emperor's daughter, and Simeon exorcised it when he arrived at the Roman court. |
+| benthameleon-c06 | exact | www.jewishencyclopedia.com | The Jewish Encyclopedia notes that in the Tefillot R. Shim'on b. Yoḥai the name "Asmodeus" occurs instead of "Ben Temalion". | where, instead of "Ben Temalion," "Asmodeus" occurs |
+| benthameleon-c07 | exact | archive.org | The Dictionnaire infernal (1863) says that Titus, after taking Jerusalem, issued an edict forbidding the Jews to keep the Sabbath and to circumcise. | Titus, ayant pris Jérusalem, publia un édit qui défendait aux Juifs d'observer le sabbat et de se circoncire |
 
 
 ## bep-kororoti — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -581,14 +618,19 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | bep-kororoti-c05 | exact | pt.wikipedia.org | After years he climbed the hill of Pukato-Ti; there was a terrible roar, and the young men saw their teacher vanish into the air amid smoke and thunder. | Depois que Bep-Kororoti subiu a colina, houve um estrondo terrível, e os jovens aterrorizados viram de longe como seu professor desapareceu repentinamente no ar cercado por grandes línguas de pano, fumaça e forte trovão. |
 | bep-kororoti-c06 | exact | pt.wikipedia.org | At the annual celebration in his memory, a Kayapó man is dressed head to foot in a straw costume made after Bep-Kororoti's bo (suit). | Nesta ocasião, um dos membros da tribo Kayapó está vestido da cabeça aos pés com uma roupa de palha cuidadosamente confeccionada segundo o bo de Bep-Kororoti. |
 | bep-kororoti-c07 | exact | pt.wikipedia.org | The costume also resembles a beekeeper's suit, contrary to ufological theories. | Nota: A vestimenta também se assemelha a um traje de apicultor. Contrariando as teorias ufologas. |
+| bep-kororoti-c08 | exact | archive.org | Posey and Camargo (1985), working among the Gorotire Kayapó, write that Bepkororoti is the spirit of an ancient shaman who becomes angry if food is not shared (he has a particular penchant for honey) and will send lightning and thunder to destroy the greedy. | Bepkororoti is the spirit of an ancient shaman who becomes angry if food is not shared (he has a particular penchant for honey) and will send lightning and thunder to destroy those who are greedy |
+| bep-kororoti-c09 | exact | archive.org | The Kayapó return part of the brood comb, honey, pollen and cerumen to the nest, and say this is done to keep Bepkororoti happy. | parts of the brood comb, honey, pollen, and cerumen are returned to the nest. The Kayapo say this is to keep Bepkororoti happy. |
+| bep-kororoti-c10 | exact | archive.org | According to the authors, Bepkororoti functions to encourage sharing in the tribe and also becomes the protector of bees, ensuring the preservation of bee colonies. | Thus, Bepkororoti not only functions to encourage sharing in the tribe, but he also becomes the protector of bees and insures the preservation of bee colonies. |
+| bep-kororoti-c11 | exact | www.jasoncolavito.com | Jason Colavito states that in standard anthropological reports Bep Kororoti is identified not as an ancient astronaut but as a human being, a deceased shaman who exercises spiritual power from beyond the grave. | In standard anthropological reports, Bep Kororoti is correctly identified not as an ancient astronaut but as a human being, a deceased shaman who exercises spiritual power from beyond the grave. |
+| bep-kororoti-c12 | exact | www.jasoncolavito.com | Colavito describes a rerun of Ancient Aliens (S03E05) in which Giorgio Tsoukalos says an Amazonian cult outfit looks so much like an "astronaut suit" that it must be proof the aliens visited. | a rerun of Ancient Aliens (S03E05) in which Giorgio Tsoukalos rhapsodizes about the way an Amazonian cult outfit (below right) looks so much like an "astronaut suit" (below left) that it must be proof that the aliens visited |
+| bep-kororoti-c13 | exact | www.jasoncolavito.com | According to Colavito, in The Gold of the Gods (1973) Erich von Däniken made a big deal of the suits resembling astronauts' suits; Colavito himself calls the emphasis racist. | In The Gold of the Gods (1973), Erich von Daniken made a big (and racist) deal of how the suits worn by the "wild Indians" resembled astronauts' suits |
+| bep-kororoti-c14 | exact | www.jasoncolavito.com | Colavito states that João Américo Peret had already expressed sympathy for the ancient astronaut theory before relating the story to von Däniken. | Joao Americo Peret, who had already expressed sympathy for the ancient astronaut theory before relating the story to von Daniken |
+| bep-kororoti-c15 | exact | www.jasoncolavito.com | Colavito states that in Kayapó myth Bep Kororoti is the protector of bees. | Bep Kororoti is the protector of bees in Kayapo myth. |
 
 
 ## berberoka — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -596,14 +638,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | berberoka-c02 | exact | en.wikipedia.org | It lures victims by sucking all the water out of a pond so the fish lie stranded; when people come to gather the fish, it releases the water and eats them as they struggle to stay afloat. | It lures victims by sucking all the water out of a pond so the fish lay dead on the ground. When humans come to pick up the fish, the Berberoka releases all the water and eats them as they struggle to stay afloat. |
 | berberoka-c03 | exact | en.wikipedia.org | Despite their powers, these water ogres have an ironic, morbid fear of crabs. | Despite all their powers, these water ogres have a morbid, ironic fear of crabs. |
 | berberoka-c04 | exact | en.wikipedia.org | They can suck up all the water of a swamp or lake. | They have the ability to suck up all the water in a swamp or lake. |
+| berberoka-c05 | exact | www.aswangproject.com | The Aswang Project compendium (citing Ramos) records that the size of the Berberoka, the Apayao ogre, is shown by the river drying up when he reclined across it; when he suddenly got up, the people who had gone to pick up the stranded fish drowned. | BERBEROKA – (Apayao) The size of Berberoka, the Apayao ogre, is indicated by the fact that the river dried up when he reclined across it, and when he suddenly got up, the people who had gone to pick up the stranded fish drowned. |
+| berberoka-c06 | exact | www.aswangproject.com | The Berberoka "could change himself at will" and reclined across a stream and suddenly got up each time a crab pinched him. | Berberoka “could change himself at will,” and reclined across a stream and suddenly got up each time a crab pinched him. |
+| berberoka-c07 | exact | www.aswangproject.com | He grew larger as the water he dammed with his body rose, but he was killed when he swallowed a woman who had a hatchet hidden in her hair (source cited: Maximo Ramos, The Creatures of Philippine Lower Mythology, 1990). | He grew correspondingly larger in size as the water which he dammed up with his body rose, but he was killed when he swallowed a woman who had a hatchet concealed in her hair. (source: The The Creatures of Philippine Lower Mythology, Maximo Ramos, Phoenix Publishing, 1990) |
+| berberoka-c08 | exact | archive.org | An official Philippine government booklet calls the Berberoka a water monster known in Abra, Apayao and Ilocos Norte; it lives in lakes and rivers and preys on fishermen. | Halimaw-tubig ito na kilala sa Abra, Apayao, at llocos Norte. Naninirahan ang mga tusong Berberoka sa lawa at ilog kung saan binibiktima nila ang mga mangingisda. |
+| berberoka-c09 | exact | archive.org | According to the booklet, they suck up the water until the fish are easy to see; when fishermen approach, the Berberoka use the sucked-up water to capsize the boat and drown the victims. | Hinihigop nila ang tubig hanggang sa madali nang makita ang mga isda. Paglapit dito ng mga mangingisda, gagamitin ng mga Berberoka ang hinigop na tubig upang pataubin ang bangka at lunurin ang mga biktima nito. |
 
 
 ## bete-a-sept-tetes — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -613,19 +657,24 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | bete-a-sept-tetes-c04 | exact | fr.wikipedia.org | In Berber mythology the female seven-headed dragon Talafsa controls a region's water and gives it only in exchange for the yearly sacrifice of a girl. | Dans la mythologie berbère, le dragon féminin à sept têtes, Talafsa, contrôle l'eau d'une région et ne la donne qu'en échange du sacrifice annuel d'une jeune fille. |
 | bete-a-sept-tetes-c05 | exact | fr.wikipedia.org | The seven-headed beast is a classic image of the dragon in many folk tales. | La Bête à sept têtes est une figuration classique du dragon dans plusieurs contes populaires. |
 | bete-a-sept-tetes-c06 | exact | fr.wikipedia.org | The Beauce tale Ti-Jean et le cheval blanc, featuring Ti-Jean, the archetypal hero of French-Canadian tales, also mentions the seven-headed beast. | Le conte Ti-Jean et le cheval blanc, conte de la Beauce ayant pour héros Ti-Jean, héros par excellence des contes du Canada français, évoque aussi la Bête à sept têtes. |
+| bete-a-sept-tetes-c07 | exact | fr.wikisource.org | In Revelation 12:3 (Segond 1910) a great red dragon appears with seven heads and ten horns, and seven diadems on its heads. | et voici, c’était un grand dragon rouge, ayant sept têtes et dix cornes, et sur ses têtes sept diadèmes. |
+| bete-a-sept-tetes-c08 | exact | fr.wikisource.org | Revelation 13:1 describes a beast rising out of the sea with ten horns and seven heads, and ten diadems on its horns. | Puis je vis monter de la mer une bête qui avait dix cornes et sept têtes, et sur ses cornes dix diadèmes |
+| bete-a-sept-tetes-c09 | exact | fr.wikisource.org | Revelation 17:9-10 says the seven heads are seven mountains on which the woman sits, and also seven kings. | Les sept têtes sont sept montagnes, sur lesquelles la femme est assise. 10. Ce sont aussi sept rois |
 
 
 ## bicho-cidrao — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bicho-cidrao-c01 | exact | pt.wikipedia.org | The Bicho Cidrão is an imaginary being of Portuguese legend in Madeira that haunts a mountain called the Montado do Cidrão in the parish of Curral das Freiras. | O Bicho Cidrão é um ser imaginário das lendas portuguesas na região da Madeira que assombra uma montanha, na freguesia do Curral das Freiras, chamada o Montado do Cidrão. |
 | bicho-cidrao-c02 | exact | pt.wikipedia.org | Legend says it is the lost soul of a shepherd; its cry foretells rain or storm, and it herds the flock unseen. | O bicho Cidrão seria, segundo a lenda, a alma penada de um pastor. Conta-se que quando o bicho Cidrão berra é presságio de chuva ou tempestade e que o bicho Cidrão conduz o rebanho sem que ninguém veja. |
+| bicho-cidrao-c03 | exact | www.municipiosefreguesias.pt | According to this version, the legend is about the Pico Cidrão, where a shepherd is said once to have lived with his dog, his only faithful friend. | Falamos do Pico Cidrão sobre o qual versa a nossa lenda. Diz-se que em tempos, ali viveu uma pastor e o seu cão, seu único e fiel amigo |
+| bicho-cidrao-c04 | exact | www.municipiosefreguesias.pt | One day the dog, apparently distracted by an animal strayed from the flock, misjudged a jump it had made thousands of times and fell into the void. | o cão decerto distraído por algum animal extraviado do rebanho, calculou mal o salto que fizera já milhares de vezes, e caiu no vácuo. |
+| bicho-cidrao-c05 | exact | www.municipiosefreguesias.pt | The shepherd cried out in a curse: "Cursed be you, better to have offered him to the devil!" | “Maldita sejas, antes o tivesse oferecido ao demo!” |
+| bicho-cidrao-c06 | exact | www.municipiosefreguesias.pt | When the shepherd finally left this world, the wind ordered the eagle to release the howl and the curse, which have since inhabited the heights of the Pico Cidrão. | Quando finalmente o pastor deixou este mundo, o vento ordenou à águia que soltasse o uivo e a maldição que num eterno jogo de escondidas habitam desde então as alturas do Pico Cidrão. |
+| bicho-cidrao-c07 | exact | www.municipiosefreguesias.pt | Those who live in the surroundings say that terrifying sound comes from the demonic, supernatural being, a union of the spirits of the two friends, the Bicho Cidrão. | Dizem aqueles que habitam nas redondezas, que aquele som aterrorizante, provém do ser demoníaco e sobrenatural, união dos espíritos dos dois amigos, o Bicho Cidrão. |
 
 
 ## bicorn — skip
@@ -641,10 +690,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## bida — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
+Klaim 11 (exact 8, unreachable 3), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 3 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -655,14 +704,15 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | bida-c05 | exact | fr.wikipedia.org | Sometimes the sacrifice takes place every year at the end of the dry season, with the girl dressed in a white cloak and riding a white horse. | Parfois le sacrifice a lieu chaque année à la fin de la saison sèche, et la jeune fille doit être vêtue d'un manteau blanc et montée sur un cheval blanc. |
 | bida-c06 | exact | fr.wikipedia.org | Before dying, the serpent lays a terrible curse on the land, promising seven years of drought. | Avant de mourir, le serpent profère une terrible malédiction contre le pays, en promettant sept années de sécheresse. |
 | bida-c07 | exact | fr.wikipedia.org | Fragments of Bida's head fall in Bambouk and Bouré and turn into gold mines that later make the Ghana Empire prosper. | Les débris de la tête de Bida retombent dans le Bambouk et le Bouré et s'y changent en mines d'or qui font prospérer l'empire du Ghana par la suite. |
+| bida-c08 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The encyclopedia says the story of Ouagadou-Bida comes from the Epic of the Dausi, one of several surviving narrative poems composed and recited by traveling storytellers. | The story is from the Epic of the Dausi, one of several surviving narrative poems composed and recited by traveling storytellers. |
+| bida-c09 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | According to the encyclopedia, Bida is sometimes called a dragon that arose from the desert sands, at other times a serpent or the offspring of a king. | sometimes Bida is referred to as a dragon that arose from the desert sands, other times as a serpent or the offspring of a king. |
+| bida-c10 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | Lagarre promised that every year a beautiful young girl would be sacrificed in Bida's honour. | He promised that every year a beautiful young girl would be sacrificed in its honor. |
+| bida-c11 | exact | archive.org | When the sacrificial virgin's lover slaughtered the snake during the annual ceremony, Ouagadou-Bida in retribution dried up the land and moved all the gold to Bure on the Upper Niger River. | when the lover of the sacrificial virgin slaughtered the snake during the annual ceremony. In retribution, Ouagadou-Bida dried up the land and moved all the gold to Bure on the Upper Niger River. |
 
 
 ## biddrina — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -673,41 +723,55 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | biddrina-c05 | exact | it.wikipedia.org | In Butera, on the eve of the feast of San Rocco, people parade u sirpintazzu, a papier-mâché bogey like a Chinese dragon, to commemorate the killing of a Biddrina. | Attualmente a Butera, la vigilia della festa di San Rocco, è costume portare in giro per le strade u sirpintazzu, uno spauracchio in carta pesta simile per fattezze al drago della tradizione cinese, proprio per ricordare l'uccisione di una Biddrina |
 | biddrina-c06 | exact | it.wikipedia.org | Legend says a grass snake that stays hidden for seven years turns into a biddrina, growing gigantic as if by magic. | La leggenda vuole che una biscia che rimanga nascosta per sette anni si tramuta in biddrina, diventando gigantesca come per magia. |
 | biddrina-c07 | exact | it.wikipedia.org | The creature was probably invented to keep children from bathing in these marshy ponds and drowning. | L'invenzione di questa creatura rispondeva probabilmente all'esigenza di evitare che i bambini andassero a fare il bagno in questi laghetti paludosi col pericolo di annegarvi. |
+| biddrina-c08 | exact | www.vdj.it | According to this article the biddrina appears to be a water serpent of at least six metres, with both dragon and crocodile traits, whose large red eyes let it bewitch its victims. | Pare essere un serpente acquatico di almeno sei metri. Include sia tratti di drago che di coccodrillo e i grandi occhi rossi le permettono di ammaliare le sue vittime. |
+| biddrina-c09 | exact | www.vdj.it | According to stories handed down from grandparents, the Biddrina roamed the district of U Sieggiu, north of the seaside hamlet of Marina di Butera. | Secondo i racconti che i nonni hanno tramandato ai nipoti nel corso delle generazioni, la Biddrina si aggirava presso la contrada ‘U Sieggiu’, a nord rispetto alla frazione marittima della Marina di Butera. |
+| biddrina-c10 | exact | www.vdj.it | Adults used its story as a warning to keep children away from rivers and deep, dangerous wells. | Gli adulti usavano la sua storia come monito per tenere i bambini lontani da fiumi e pozzi profondi e pericolosi. |
+| biddrina-c11 | exact | www.vdj.it | The article states that every 15 August Butera in Sicily celebrates U Sirpintazzu; the following day, 16 August, is the feast of San Rocco. | Il 15 Agosto di ogni anno Butera, in Sicilia, celebra ‘U Sirpintazzu’ |
+| biddrina-c12 | exact | www.sikelian.it | At Montedoro, in the province of Caltanissetta, the Biddrina is said to live in the marsh fed by the sulphurous waters of the nearby sulphur mine. | Come a Montedoro, in provincia di Caltanissetta, dove si narra che la Biddrina vive proprio all’interno della palude alimentata dalle acque sulfuree della vicina miniera di zolfo. |
+| biddrina-c13 | exact | www.sikelian.it | In Gela people still tell that the Biddrina lived near the Lago Biviere nature reserve. | E a Gela ancora oggi si continua a raccontare che la Biddrina viveva presso la riserva naturale del Lago Biviere |
+| biddrina-c14 | exact | www.sikelian.it | At Cammuto a fountain was built to celebrate the death of the local Biddrina. | E a Cammuto è stata costruita una fontana per celebrare la morte della Biddrina del posto. |
 
 
 ## biliku — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | biliku-c01 | exact | it.wikipedia.org | Biliku is a legendary being worshipped in the Andaman Islands, often depicted as a spider-woman. | Biliku è una creatura leggendaria, venerata nelle isole Andamane, spesso raffigurata come una donna-ragno. |
 | biliku-c02 | exact | it.wikipedia.org | She is said to have existed before the world's creation and one day created the Earth and humans: after weaving her web, she stalked through the 'vast empty night'. | Si narra che esistesse prima della creazione del mondo e che un giorno creò la Terra e gli uomini: dopo aver tessuto la sua tela, si aggirò furtiva e a grandi passi nella "vasta notte vuota" |
 | biliku-c03 | exact | it.wikipedia.org | Pleased with her creation, she moved there bringing fire and light, governing everything, especially the weather, according to her mood. | Contenta della sua creazione vi si trasferì, portandovi il fuoco e la luce e governandone ogni aspetto (in particolare il tempo atmosferico) a seconda del suo umore |
+| biliku-c04 | exact | archive.org | Beliefs about the weather and the seasons are under the control of two beings: Biliku (also called Bilik or Puluga) and Tarai (also called Teriya or Daria). | These are under the control of two beings named Biliku, Bilik or Puluga, and Tarai, Teriya, or Daria. |
+| biliku-c05 | exact | archive.org | Biliku lives in the north-east and is connected with the north-east monsoon. | Biliku lives in the north- east and is connected with the north-east monsoon. |
+| biliku-c06 | exact | archive.org | In the North Andaman, Biliku is regarded as female and called Mimi Biliku, while Tarai is male and called Maia Tarai. | In the North Andaman Biliku is regarded as female, and is called Mimi Biliku, while Tarai is male and is called Maia Tarai. |
+| biliku-c07 | exact | archive.org | The natives of these tribes frequently state that Tarai and Biliku are husband and wife. | A statement that is frequently made by the natives of these tribes is that Tarai and Biliku are husband and wife. |
+| biliku-c08 | exact | archive.org | Lightning is explained as a fire-brand thrown by Biliku across the sky when she is angry, and thunder is said to be her voice growling. | Lightning is explained as being a fire-brand thrown by Biliku across the sky when she is angry, and thunder is said to be her voice growling. |
+| biliku-c09 | exact | archive.org | The only punishment Biliku inflicts on human beings when she is angry with them, for any reason, is to send violent storms. | The only punishment that Biliku ever inflicts on human beings when she is angry with them for any reason, is to send violent storms. |
+| biliku-c10 | exact | archive.org | In the North Andaman there is a definite association between Biliku and spiders; the generic word for spider is biliku. | In the North Andaman there is a definite association between Biliku and spiders, the generic name for "spider" being biliku. |
+| biliku-c11 | exact | archive.org | The author judges that applying the name biliku to the spider is clearly a minor motive and probably a late accretion. | The application of the name biliku to the spider is clearly a minor motive, and probably a late accretion. |
+| biliku-c12 | exact | archive.org | According to E. H. Man's account of the South Andaman, the world was created by Puluga, who then made a man named Tomo, the first of the human race. | The world was created by Puluga ... who then made a man named Tomo, the first of the human race. |
+| biliku-c13 | exact | archive.org | The author concludes that the names Biliku, Puluga and Oluga are plainly different forms of the same word. | It is obvious, however, that the names Biliku, Puluga, Oluga are all of them different forms of the same word. |
+| biliku-c14 | exact | archive.org | In some tribes Bilik is generally spoken of as male, and Teriya is also male. | Bilik is generally spoken of as being male, and Teriya is also male. |
+| biliku-c15 | exact | archive.org | The author's interpretation: the beliefs about Biliku and the things that offend her are simply a statement, in a special form, of observable facts of nature. | The explanation that I have to offer of these beliefs relating to Biliku and to the things that offend her is that they are simply the statement in a special form of observable facts of nature. |
 
 
 ## bisarma — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 5, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bisarma-c01 | exact | pt.wikipedia.org | Bisarmas are enormous ghosts, a kind of giant, who stand over valleys with a foot on each of the hills on either side and sing monotonous tunes in a terrible voice. | Bisarmas são fantasmas de tamanho descomunal, uma espécie de gigantes. Erguem-se sobre os vales colocando um pé em cada um dos outeiros laterais e cantam num vozeirão terrível toadas monótonas. |
 | bisarma-c02 | exact | pt.wikipedia.org | Bisarmas belong to the legends of Portugal and Asturias. | As bisarmas fazem parte das lendas de Portugal e das Asturias. |
+| bisarma-c03 | exact | diccionariu.alladixital.org | According to the Asturian dictionary, bisarma (a feminine noun) means pantasma (phantom), a vision of a supernatural being. | Pantasma, visión d’un ser sobrenatural. |
+| bisarma-c04 | exact | diccionariu.alladixital.org | A second sense of bisarma in the Asturian dictionary is a person who is tall and of bad appearance. | Persona [alta y de mala traza]. |
+| bisarma-c05 | exact | dicionario.priberam.org | In Portuguese, bisarma figuratively means a person or thing of enormous size. | Pessoa ou coisa de tamanho descomunal. |
+| bisarma-c06 | loose | dicionario.priberam.org | According to the Priberam dictionary, the word bisarma comes from French guisarme, a medieval weapon. | Origem: francês guisarme, arma medieval. |
 
 
 ## bisso-galeto — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -718,4 +782,12 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | bisso-galeto-c05 | exact | it.wikipedia.org | Its only natural enemies are weasels, which can kill it only at the cost of their own lives, and cockerels, whose crowing can kill it. | Gli unici "nemici naturali" del Bisso Galeto sono le donnole, che però possono ucciderlo solo a costo della propria vita e i galli che riescono a far morire il Bisso con il proprio canto. |
 | bisso-galeto-c06 | exact | it.wikipedia.org | A local legend blames the Bisso for the syphilis epidemic that spread through the Verona valleys in the 15th century. | Una leggenda locale vuole che il Bisso sia stato causa dell'epidemia di sifilide diffusasi nelle valli veronesi nel XV secolo. |
 | bisso-galeto-c07 | exact | it.wikipedia.org | It shares many traits with the basilisk and is therefore sometimes confused with it. | Presenta molte caratteristiche ricorrenti anche nel basilisco, per questo viene a volte confuso con esso. |
+| bisso-galeto-c08 | exact | it.wikipedia.org | It lives in woods and valleys but can hatch inside a house, a deadly event for the inhabitants, who are killed at night by the animal's poisonous breath. | Vive in boschi e vallate ma può nascere in casa, evento letale per gli abitanti che vengono uccisi di notte dal fiato velenoso dell'animale. |
+| bisso-galeto-c09 | exact | it.wikipedia.org | Like the Abraxas, the Bisso can in some cases take on a positive value and become a "protector" of fishermen and farmers. | Come l'Abraxas, il Bisso può assumere in certi casi valore positivo e diventare un "protettore" dei pescatori e degli agricoltori. |
+| bisso-galeto-c10 | exact | it.wikipedia.org | In the mountain areas of Verona, the Monti Lessini, it is called "Basalisco". | Nelle zone montane veronesi dei Monti Lessini viene chiamato "Basalisco" |
+| bisso-galeto-c11 | exact | it.wikipedia.org | Knights who struck the Bisso Galeto with a lance died because the venom travelled up the shaft and reached the hand. | i cavalieri che colpivano il Bisso Galeto con la lancia morivano perché il veleno risaliva l'asta e raggiungeva la mano |
+| bisso-galeto-c12 | exact | www.ilcondominionews.it | Unlike the crawling snake, the basalisco (bisso galeto) of the Lessinia tradition is described with two lizard-like legs or four cockerel-like legs, small wings and a cockerel's comb. | Diversamente dal serpente che striscia, il basalisco era munito di due zampe simili a quelle del ramarro, o quattro zampe identiche a quelle del gallo, aveva piccole ali, cresta da gallo |
+| bisso-galeto-c13 | exact | www.ilcondominionews.it | In the Lessinia tradition its magnetic gaze could immobilise even an ox or make birds fall from the trees. | dotato di uno sguardo magnetico che poteva immobilizzare anche un bue, o far precipitare gli uccelli dagli alberi |
+| bisso-galeto-c14 | exact | www.ilcondominionews.it | In the Lessinia tradition it sometimes originated from a snake cut in two, whose head half grew wings, a comb and legs; at other times it was the result of the brooding of a cockerel's egg. | talvolta originava da una serpe tagliata in due: la parte superiore, quella della testa, che dopo l’amputazione dal resto del corpo continuava a saltellare, generava le ali, la cresta e le zampe. Talaltra era il risultato della cova di un uovo di gallo. |
+| bisso-galeto-c15 | exact | www.ilcondominionews.it | Ridolfi places the last "sightings" of the creature at the beginning of the 1950s. | all’inizio degli anni Cinquanta, quando si sono avuti gli ultimi |
 
